@@ -1,0 +1,83 @@
+{
+  "slug": "pacific",
+  "name": "Pacific",
+  "oneLiner": "Mass-producing and deploying micro data centers for Earth and Space",
+  "metadata": {
+    "website": "https://gopacific.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/pacific",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "London, England, United Kingdom",
+    "tags": "Artificial Intelligence, Fintech, Robotics, Space Exploration, Manufacturing",
+    "yc_partner": "Not listed",
+    "emails": "harper@pacific.space ([Pacific contact page](https://gopacific.ai/contact), Aug 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Robotics",
+    "Space Exploration",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T04:57:01.198Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 47,
+    "NR": 46,
+    "PG": 33,
+    "PT": 32,
+    "SL": 30,
+    "VK": 33
+  },
+  "consolidatedAvg": 39.57,
+  "consolidatedRank": 163,
+  "traction": {
+    "tractionRank": 104,
+    "tractionScore": 52,
+    "tractionReason": "Working with unnamed large aerospace companies"
+  },
+  "paths": {
+    "memo": "summer2026/memos/pacific.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/pacific.md",
+      "elad-gil": "summer2026/evals/elad-gil/pacific.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/pacific.md",
+      "paul-graham": "summer2026/evals/paul-graham/pacific.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/pacific.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/pacific.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/pacific.md"
+    }
+  }
+}

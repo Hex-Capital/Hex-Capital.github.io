@@ -1,0 +1,80 @@
+{
+  "slug": "rational",
+  "name": "Rational",
+  "oneLiner": "AI Employees for Accounting",
+  "metadata": {
+    "website": "https://rational.to",
+    "yc_page": "https://www.ycombinator.com/companies/rational",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Enterprise, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@rational.to"
+  },
+  "tags": [
+    "Enterprise",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:37:33.375Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 68,
+    "NR": 46,
+    "PG": 68,
+    "PT": 39,
+    "SL": 38,
+    "VK": 41
+  },
+  "consolidatedAvg": 49.43,
+  "consolidatedRank": 123,
+  "traction": {
+    "tractionRank": 24,
+    "tractionScore": 71,
+    "tractionReason": "12,000 invoices per cycle for Fortune Global 500 customer"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/rational.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/rational.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/rational.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/rational.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/rational.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/rational.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/rational.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/rational.md"
+    }
+  }
+}

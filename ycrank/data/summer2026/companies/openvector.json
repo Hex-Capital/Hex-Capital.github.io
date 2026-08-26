@@ -1,7 +1,7 @@
 {
   "slug": "openvector",
   "name": "OpenVector",
-  "oneLiner": "AI that turns any camera into an active operator with real-time vision",
+  "oneLiner": "AI that turns any camera to an autonomous worker with real-time vision",
   "metadata": {
     "website": "https://openvector.com",
     "yc_page": "https://www.ycombinator.com/companies/openvector",
@@ -10,8 +10,8 @@
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "Robotics, Computer Vision, Infrastructure, Industrial",
-    "yc_partner": "Not listed",
-    "emails": "No public data found"
+    "yc_partner": "Jon Xu ([YC profile](https://www.ycombinator.com/companies/openvector), Aug 2026)",
+    "emails": "founders@openvector.com ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker), Jul 2026)"
   },
   "tags": [
     "Robotics",
@@ -20,52 +20,52 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:10:49.652Z",
+  "memoGeneratedAt": "2026-08-11T05:53:54.850Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 55,
+      "score": 54,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 58,
+      "score": 60,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 64,
+      "score": 47,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 49,
+      "score": 54,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 34,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 61,
+      "score": 45,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 55,
-    "NR": 58,
-    "PG": 64,
-    "PT": 49,
-    "SL": 51,
-    "VK": 61
+    "CB": 60,
+    "EG": 54,
+    "NR": 60,
+    "PG": 47,
+    "PT": 54,
+    "SL": 34,
+    "VK": 45
   },
-  "consolidatedAvg": 57.71,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 50.57,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 35,
-    "tractionReason": "Design partners and reservations; no units shipped"
+    "tractionRank": 131,
+    "tractionScore": 45,
+    "tractionReason": "Live use cases across four industries"
   },
   "paths": {
     "memo": "summer2026/memos/openvector.md",

@@ -11,7 +11,7 @@
     "location": "Jaco, Puntarenas Province, Costa Rica",
     "tags": "SaaS, Crypto / Web3, Gaming, eSports",
     "yc_partner": "Ankit Gupta",
-    "emails": "support@pokerclubhub.com"
+    "emails": "support@pokerclubhub.com, ivan@pokerclubhub.com ([Y Combinator launch](https://www.ycombinator.com/launches/S2W-pokerclubhub-the-first-licensed-online-poker-club-platform), Aug 2026)"
   },
   "tags": [
     "SaaS",
@@ -20,52 +20,52 @@
     "eSports"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:36:16.100Z",
+  "memoGeneratedAt": "2026-08-11T04:59:57.115Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 31,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 39,
+      "score": 43,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 30,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 41,
       "tier": "Pass"
     },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 42,
+      "score": 26,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
+      "score": 19,
+      "tier": "Strong Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 39,
-    "NR": 45,
-    "PG": 46,
-    "PT": 41,
-    "SL": 42,
-    "VK": 34
+    "CB": 31,
+    "EG": 43,
+    "NR": 30,
+    "PG": 41,
+    "PT": 43,
+    "SL": 26,
+    "VK": 19
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 158,
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 214,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 27,
-    "tractionReason": "104 forum views; no disclosed users or revenue"
+    "tractionRank": 220,
+    "tractionScore": 14,
+    "tractionReason": "133 forum views; no users disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/pokerclubhub.md",

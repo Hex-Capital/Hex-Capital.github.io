@@ -1,0 +1,81 @@
+{
+  "slug": "trident",
+  "name": "Trident",
+  "oneLiner": "Agents that find real exploitable vulnerabilities in your company",
+  "metadata": {
+    "website": "https://tridentsecurity.io/",
+    "yc_page": "https://www.ycombinator.com/companies/trident",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Security, Cybersecurity",
+    "yc_partner": "Harshita Arora",
+    "emails": "junaid@usetrident.dev, dekai@usetrident.dev, dekai@esprit.dev, dekai@tridentsecurity.io"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Security",
+    "Cybersecurity"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:48:58.548Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 44,
+    "NR": 36,
+    "PG": 41,
+    "PT": 38,
+    "SL": 32,
+    "VK": 31
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 185,
+  "traction": {
+    "tractionRank": 69,
+    "tractionScore": 59,
+    "tractionReason": "Customer pentests consistently found exploitable vulnerabilities"
+  },
+  "paths": {
+    "memo": "summer2026/memos/trident.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/trident.md",
+      "elad-gil": "summer2026/evals/elad-gil/trident.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/trident.md",
+      "paul-graham": "summer2026/evals/paul-graham/trident.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/trident.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/trident.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/trident.md"
+    }
+  }
+}

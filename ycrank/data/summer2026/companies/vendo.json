@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, B2B, Customer Success, Open Source",
     "yc_partner": "Ankit Gupta",
-    "emails": "founders@vendo.run, nour@vendo.run"
+    "emails": "founders@vendo.run, nour@vendo.run, hiring@vendo.run"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,52 +20,52 @@
     "Open Source"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:37:58.875Z",
+  "memoGeneratedAt": "2026-08-11T05:04:38.418Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 51,
+      "score": 49,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 59,
+      "score": 47,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 42,
+      "score": 43,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
     "sam-lessin": {
-      "score": 41,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 59,
-    "NR": 70,
-    "PG": 72,
-    "PT": 42,
-    "SL": 41,
-    "VK": 49
+    "CB": 49,
+    "EG": 47,
+    "NR": 43,
+    "PG": 48,
+    "PT": 47,
+    "SL": 29,
+    "VK": 29
   },
-  "consolidatedAvg": 54.86,
-  "consolidatedRank": 68,
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 61,
-    "tractionReason": "1,220 weekly downloads and $49-$499 monthly plans"
+    "tractionRank": 113,
+    "tractionScore": 50,
+    "tractionReason": "1,220 weekly downloads and 377 GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/vendo.md",

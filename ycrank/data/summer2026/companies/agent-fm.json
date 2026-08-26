@@ -1,0 +1,81 @@
+{
+  "slug": "agent-fm",
+  "name": "Agent FM",
+  "oneLiner": "One group chat to hear and steer your coding agents.",
+  "metadata": {
+    "website": "https://www.agentfm.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/agent-fm",
+    "batch": "Summer 2026 ([LinkedIn, Aug. 2026](https://www.linkedin.com/company/agent-fm-ai))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Productivity",
+    "yc_partner": "Not listed",
+    "emails": "founders@agentfm.ai ([company website, Aug. 2026](https://www.agentfm.ai/))"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Productivity"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T04:40:47.172Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 17,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 32,
+    "NR": 36,
+    "PG": 51,
+    "PT": 25,
+    "SL": 29,
+    "VK": 17
+  },
+  "consolidatedAvg": 32.14,
+  "consolidatedRank": 219,
+  "traction": {
+    "tractionRank": 202,
+    "tractionScore": 23,
+    "tractionReason": "Product available; no paying-user evidence"
+  },
+  "paths": {
+    "memo": "summer2026/memos/agent-fm.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/agent-fm.md",
+      "elad-gil": "summer2026/evals/elad-gil/agent-fm.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/agent-fm.md",
+      "paul-graham": "summer2026/evals/paul-graham/agent-fm.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/agent-fm.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/agent-fm.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/agent-fm.md"
+    }
+  }
+}

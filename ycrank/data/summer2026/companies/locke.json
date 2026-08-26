@@ -5,65 +5,65 @@
   "metadata": {
     "website": "https://locke.inc",
     "yc_page": "https://www.ycombinator.com/companies/locke",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/locke))",
     "industry": "B2B / B2B",
-    "team_size": "2",
+    "team_size": "2 ([YC](https://www.ycombinator.com/companies/locke))",
     "location": "San Francisco, CA, USA",
-    "tags": "GovTech, AI",
-    "yc_partner": "Vivian Midha Shen",
-    "emails": "No public data found"
+    "tags": "Artificial Intelligence, GovTech",
+    "yc_partner": "[Vivian Midha Shen](https://www.ycombinator.com/people/vivian-midha-shen)",
+    "emails": "founders@locke.inc ([YC Launch](https://www.ycombinator.com/launches/SSp-locke-the-first-ai-government-affairs-firm))"
   },
   "tags": [
-    "GovTech",
-    "AI"
+    "Artificial Intelligence",
+    "GovTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:28:46.617Z",
+  "memoGeneratedAt": "2026-08-11T04:38:36.522Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 60,
+      "score": 47,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 48,
+      "score": 61,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 46,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 43,
+      "score": 40,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 39,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
+      "score": 16,
+      "tier": "Strong Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 48,
-    "NR": 44,
-    "PG": 49,
-    "PT": 43,
-    "SL": 51,
-    "VK": 25
+    "CB": 47,
+    "EG": 61,
+    "NR": 47,
+    "PG": 46,
+    "PT": 40,
+    "SL": 39,
+    "VK": 16
   },
-  "consolidatedAvg": 45.71,
+  "consolidatedAvg": 42.29,
   "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 48,
-    "tractionReason": "First few partners; exact count undisclosed"
+    "tractionRank": 7,
+    "tractionScore": 86,
+    "tractionReason": "Above $500K annual revenue run-rate after six weeks"
   },
   "paths": {
     "memo": "summer2026/memos/locke.md",

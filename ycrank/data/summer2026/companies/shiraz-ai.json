@@ -1,0 +1,81 @@
+{
+  "slug": "shiraz-ai",
+  "name": "Shiraz AI",
+  "oneLiner": "Robots that learn on the job",
+  "metadata": {
+    "website": "https://shiraz.ai",
+    "yc_page": "https://www.ycombinator.com/companies/shiraz-ai",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Robotics, Manufacturing",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@shiraz.ai"
+  },
+  "tags": [
+    "Generative AI",
+    "Robotics",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:06:39.126Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 51,
+    "NR": 49,
+    "PG": 47,
+    "PT": 36,
+    "SL": 38,
+    "VK": 37
+  },
+  "consolidatedAvg": 45.43,
+  "consolidatedRank": 108,
+  "traction": {
+    "tractionRank": 101,
+    "tractionScore": 52,
+    "tractionReason": "Robots operational at customer sites"
+  },
+  "paths": {
+    "memo": "summer2026/memos/shiraz-ai.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/shiraz-ai.md",
+      "elad-gil": "summer2026/evals/elad-gil/shiraz-ai.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/shiraz-ai.md",
+      "paul-graham": "summer2026/evals/paul-graham/shiraz-ai.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/shiraz-ai.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/shiraz-ai.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/shiraz-ai.md"
+    }
+  }
+}

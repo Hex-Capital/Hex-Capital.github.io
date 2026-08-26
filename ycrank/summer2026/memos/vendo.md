@@ -12,73 +12,73 @@
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, B2B, Customer Success, Open Source |
 | YC Partner | Ankit Gupta |
-| Emails | founders@vendo.run, nour@vendo.run |
+| Emails | founders@vendo.run, nour@vendo.run, hiring@vendo.run |
 
 ## The Idea
 
-- **Problem:** Product teams serving customers with divergent requirements accumulate feature requests, while building an embedded agent that generates interfaces, takes actions, preserves context, and follows existing permissions requires engineering and maintenance work ([YC launch page, Jul 2026](https://www.ycombinator.com/companies/vendo)).
-- **Approach:** Vendo scans the host application’s API, components, theme, and permission rules, then lets signed-in users generate persistent micro-apps, views, actions, and scheduled automations inside sandboxed environments ([Vendo website, Jul 2026](https://vendo.run/)).
-- **Differentiation:** Unlike assistant-ui’s React chat components, CopilotKit’s agentic-frontend stack, and Vercel AI SDK’s TypeScript agent framework, Vendo exposes the host’s existing APIs and design system so end users can construct persistent product features rather than only interact through developer-authored agent interfaces ([assistant-ui LinkedIn, Jul 2026](https://www.linkedin.com/company/assistant-ui); [CopilotKit, May 2026](https://www.copilotkit.ai/blog/series-a); [Vercel, Jun 2026](https://vercel.com/changelog/ai-sdk-7); [Vendo website, Jul 2026](https://vendo.run/)).
-- **Business Model:** Vendo Cloud offers Free at $0 forever with 300 runs, Pro at $49 monthly with 3,000 runs, Teams at $499 monthly with 30,000 runs, and custom-priced Enterprise with air-gapped hosting, SOC 2, SLA, SAML, SCIM, and RBAC ([Vendo pricing, Jul 2026](https://vendo.run/)).
-- **TAM/SAM:** The broader global AI-agents market was valued at $7.63 billion in 2025 and is forecast to reach $182.97 billion by 2033 at a 49.6% CAGR, but no public SAM estimate was found for embedded product-customization agents ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/ai-agents-market-report)).
-- **GTM / Distribution:** Vendo distributes through an Apache-2.0 GitHub repository, an npm package, free cloud access, founder-assisted integrations, and direct outreach to product teams with feature backlogs ([YC launch page, Jul 2026](https://www.ycombinator.com/companies/vendo); [Vendo website, Jul 2026](https://vendo.run/)).
+- **Problem:** B2B product teams face divergent customer feature requests that accumulate in backlogs, while the current AI alternative is often a separate chatbot that cannot create product-native workflows or interfaces ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026).
+- **Approach:** Vendo scans the host application’s API, theme, components, and permissions, then lets signed-in users generate persistent views, actions, and scheduled automations inside sandboxed, brand-native interfaces ([Vendo](https://vendo.run/), Aug 2026; [GitHub](https://github.com/runvendo/vendo), Aug 2026).
+- **Differentiation:** Vendo targets user-owned micro-apps and automations built from the host API, while CopilotKit supplies an agent-to-frontend stack, Thesys generates dashboards and forms, and LangChain emphasizes agent orchestration, evaluation, and deployment ([Vendo](https://vendo.run/), Aug 2026; [CopilotKit](https://www.copilotkit.ai/), Aug 2026; [Thesys](https://www.thesys.dev/), Aug 2026; [LangChain](https://www.langchain.com/), Aug 2026).
+- **Business Model:** Vendo Cloud offers Free at $0 with $5 monthly usage, Pro at $49 per month with multiplayer functions and $49 usage, Teams at $499 per month with governance and $499 usage, and custom-priced Enterprise deployment, with metered overages billed separately ([Vendo pricing](https://vendo.run/), Aug 2026; [Terms](https://vendo.run/terms), Jul 2026).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** The company distributes an Apache-2.0 package through npm and GitHub, asks product teams for direct introductions, and offers to handle initial integrations ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026; [GitHub](https://github.com/runvendo/vendo), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** The open-source repository has 346 stars and 43 forks, while the implementation centralizes approvals, audit, signed-in-user API access, theme-driven React rendering, sandboxing, and production persistence ([GitHub, Jul 2026](https://github.com/runvendo/vendo); [npm, Jul 2026](https://www.npmjs.com/package/%40vendoai/vendo)).
-- **Future moat:** [Inferred]: Repeated integrations could produce reusable component, API, permission, and evaluation patterns, but no proprietary dataset or demonstrated learning effect is publicly documented.
+- **Moat today:** The open-source repository has 377 stars, 51 forks, and 3,539 commits, while `vendo init` is tested nightly against 16 open-source applications ([GitHub](https://github.com/runvendo/vendo), Aug 2026; [Vendo](https://vendo.run/), Aug 2026).
+- **Future moat:** [Inferred]: Aggregated, de-identified run, sandbox, and tool-use patterns could improve installation compatibility and guardrail defaults, but the company has not published comparative performance data ([Vendo privacy policy](https://vendo.run/privacy), Jul 2026).
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** CopilotKit, Vercel, assistant-ui, OpenAI, and internal platform teams can build overlapping agent-interface, generative-UI, and tool-execution functionality using open SDKs and MCP ([TechCrunch, May 2026](https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/); [OpenAI, Oct 2025](https://openai.com/index/introducing-apps-in-chatgpt/)).
+- **Commoditization risk:** CopilotKit already provides self-hosted generative UI, authenticated frontend tools, approvals, and application state, while Thesys and LangChain cover adjacent interface and agent-runtime layers ([CopilotKit](https://www.copilotkit.ai/), Aug 2026; [Thesys](https://www.thesys.dev/), Aug 2026; [LangChain](https://www.langchain.com/), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 346 GitHub stars and 43 forks ([GitHub, Jul 2026](https://github.com/runvendo/vendo)).
-  - 1,220 weekly npm downloads for `@vendoai/vendo` ([npm, Jul 2026](https://www.npmjs.com/package/%40vendoai/vendo)).
-  - 102 LinkedIn company followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/runvendo)).
-  - The initialization process is tested nightly against 16 open-source applications, and the website reports under one second to first paint ([Vendo website, Jul 2026](https://vendo.run/)).
-  - The company advertised 50 early-access spots before its current-product launch ([LinkedIn, 2026](https://www.linkedin.com/company/runvendo)).
+  - 377 GitHub stars and 51 forks ([GitHub](https://github.com/runvendo/vendo), Aug 2026).
+  - 1,220 weekly downloads for `@vendoai/vendo` ([npm](https://www.npmjs.com/package/%40vendoai/vendo), Aug 2026).
+  - 750 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/runvendo), Aug 2026).
+  - 391 X followers ([TwStalker via search snippet](https://mobile.twstalker.com/AhmadBaracat), Jul 2026).
+  - Zero listed YC jobs, although the company accepts project and pull-request introductions through its careers page ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026; [Vendo Careers](https://vendo.run/careers), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - CopilotKit ($27M raised, revenue unknown): supplies an open-source agentic-frontend stack and AG-UI protocol, while Vendo emphasizes user-created persistent micro-apps over a host product’s APIs and components ([CopilotKit, May 2026](https://www.copilotkit.ai/blog/series-a)).
-  - Vercel ($563M raised, revenue unknown): AI SDK provides a broad TypeScript agent framework, while Vendo packages product scanning, permissions, sandboxing, generated UI, and end-user customization ([Wing Venture Capital, 2025](https://wing-assets.com/Wing-ET30-2025_Report.pdf); [Vercel, Jun 2026](https://vercel.com/changelog/ai-sdk-7)).
-  - assistant-ui ($0.5M raised, $0.88M ARR reported): provides React components and a cloud backend for AI chat interfaces, while Vendo generates actionable micro-apps using the host’s API and design system ([LinkedIn, 2026](https://www.linkedin.com/company/assistant-ui); [Latka, Sep 2025](https://getlatka.com/companies/assistant-ui.com/funding)).
-- **Why now:** [Inferred]: OpenAI’s October 2025 release of an MCP-based Apps SDK and the subsequent expansion of production agent SDKs reduced the infrastructure required to combine tool execution with interactive interfaces ([OpenAI, Oct 2025](https://openai.com/index/introducing-apps-in-chatgpt/); [Vercel, Jun 2026](https://vercel.com/changelog/ai-sdk-7)).
+  - CopilotKit ($27M Series A led by Glilot Capital, NFX, and SignalFire in May 2026, revenue unknown): supplies cross-framework agent frontends and controlled generative UI, versus Vendo’s host-scanning and user-owned micro-app positioning ([CopilotKit](https://www.copilotkit.ai/blog/series-a), May 2026).
+  - Thesys ($4M seed led by Together Fund in November 2024, revenue unknown): generates adaptive dashboards, forms, charts, slides, and reports, versus Vendo’s API actions, automations, and permission-bound execution ([GlobeNewswire](https://www.globenewswire.com/news-release/2024/11/07/2976745/0/en/Thesys-Raises-4M-Led-by-Together-Fund-to-Shape-the-Future-of-AI-Driven-Interfaces.html), Nov 2024).
+  - LangChain ($125M Series B led by IVP in October 2025, revenue unknown): provides agent frameworks, observability, evaluation, and deployment rather than an end-user customization layer embedded in an existing product ([LangChain](https://www.langchain.com/blog/series-b), Oct 2025; [Techmeme](https://www.techmeme.com/251020/p24), Oct 2025).
+- **Why now:** [Inferred]: Adoption of the AG-UI protocol by Google, Microsoft, Amazon, and Oracle by May 2026 indicates that agent-to-interface interoperability is becoming standardized, reducing the integration burden for embedded agent interfaces ([CopilotKit](https://www.copilotkit.ai/blog/series-a), May 2026).
 
 ## Founders & Team
 
 - **Nour Zahzah (Co-Founder & CEO):**
-  - Background: Studied mechanical engineering at UC Berkeley, previously founded an in-store AI-shopping-assistant company, and spent seven years in the San Jose Earthquakes academy ([YC, Jul 2026](https://www.ycombinator.com/companies/vendo)).
-  - Twitter/X: @nourzahzah; count not retrievable ([X profile via indexed profile, Jul 2026](https://twstalker.com/nourzahzah)).
-  - LinkedIn: “Building the future of adaptable software”; approximately 3,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/nourzahzah)).
-  - GitHub: No public repos found.
+  - Background: Studied mechanical engineering at UC Berkeley, previously co-founded the Aisle in-store AI shopping-assistant product, and spent seven years in the San Jose Earthquakes academy ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026; [Aisle launch](https://www.linkedin.com/posts/nourzahzah_1-in-5-shoppers-leave-a-store-without-something-activity-7392632735397265408-dy3p), 2026).
+  - Twitter/X: @nourzahzah, 947 followers ([TwStalker](https://twstalker.com/nourzahzah), Aug 2026).
+  - LinkedIn: “Vendo,” with approximately 3K followers ([LinkedIn](https://www.linkedin.com/in/nourzahzah), Jul 2026).
+  - GitHub: @nourzahzah; one public `mywebsite` fork with no visible stars ([GitHub](https://github.com/nourzahzah), Aug 2026).
 - **Yousef Helal (Co-Founder & CTO):**
-  - Background: Earned a UC Berkeley EECS bachelor’s and Stanford electrical-engineering master’s, worked on FPGA infrastructure at Apple and MicroBlaze V at AMD, and conducted database research at Berkeley Skylab ([YC, Jul 2026](https://www.ycombinator.com/companies/vendo); [founder résumé, 2026](https://www.yousefh.org/static/Resume%20Yousef%20Helal-c6b01d82a5ee674a1f217cbb8d71fe31.pdf)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Building Vendo (YC S26)”; 850 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/yousef-helal)).
-  - GitHub: @yousefh409; contributed to Spatialyze, with public star count not retrievable ([GitHub, Jul 2026](https://github.com/yousefh409); [Spatialyze](https://github.com/apperception-db/spatialyze)).
-- **Co-founder relationship:** The founders have known each other since kindergarten, attended UC Berkeley, and previously built in-store AI shopping assistants together ([YC launch page, Jul 2026](https://www.ycombinator.com/companies/vendo)).
-- **Founder-market fit:** Nour’s prior retail-assistant startup and Yousef’s software, distributed-systems, security, and hardware work provide documented experience with AI interfaces and systems integration ([YC, Jul 2026](https://www.ycombinator.com/companies/vendo); [founder résumé, 2026](https://www.yousefh.org/static/Resume%20Yousef%20Helal-c6b01d82a5ee674a1f217cbb8d71fe31.pdf)).
+  - Background: Earned a BS in EECS from UC Berkeley and an MS in electrical engineering from Stanford, worked on FPGA infrastructure at Apple and MicroBlaze V at AMD, and co-founded the prior Aisle product ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026; [personal site](https://www.yousefh.org/), Aug 2026).
+  - Twitter/X: @yousefhll, approximately 1K followers ([TwStalker via search snippet](https://ngntipkolamrenang.twstalker.com/KotechaNiki), Jul 2026).
+  - LinkedIn: “Vendo,” with 850 followers ([LinkedIn](https://www.linkedin.com/in/yousef-helal), Jul 2026).
+  - GitHub: @yousefh409; `tankGame` has 2 stars ([GitHub](https://github.com/yousefh409), Aug 2026).
+- **Co-founder relationship:** Zahzah and Helal have known each other since kindergarten and previously built Aisle together ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026).
+- **Founder-market fit:** [Inferred]: Their shared prior AI-product work and Helal’s API, systems, database, and hardware experience support building an embedded agent runtime, although neither founder’s public history documents prior enterprise software sales ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026; [Yousef Helal](https://www.yousefh.org/), Aug 2026).
 
 ## Key Risks
 
-- **Platform substitution:** CopilotKit, Vercel AI SDK, assistant-ui, and OpenAI Apps SDK expose overlapping embedded-agent or interactive-interface capabilities, allowing customers to assemble alternatives ([TechCrunch, May 2026](https://techcrunch.com/2026/05/05/copilotkit-raises-27m-to-help-devs-deploy-app-native-ai-agents/); [OpenAI, Oct 2025](https://openai.com/index/introducing-apps-in-chatgpt/)).
-- **Security boundary failures:** Vendo permits agents to invoke host APIs and create scheduled automations, so errors in identity propagation, approval classification, or sandbox enforcement could authorize unintended actions; its published mitigation is signed-in-user access, explicit approval gates, audit controls, and sandboxing ([Vendo website, Jul 2026](https://vendo.run/); [npm, Jul 2026](https://www.npmjs.com/package/%40vendoai/vendo)).
-- **Integration dependence:** Vendo must correctly interpret each customer’s APIs, components, themes, and permission rules, while the reported testing set covers 16 open-source applications rather than disclosed production customers ([Vendo website, Jul 2026](https://vendo.run/)).
-- **Product-pivot comparability:** Earlier positioning offered customizable deployments of open-source software, including Hermes and Clicky, whereas the YC launch describes an embedded customization layer; metrics from those deployments cannot be treated as traction for the current product ([LinkedIn, 2026](https://www.linkedin.com/company/runvendo); [YC, Jul 2026](https://www.ycombinator.com/companies/vendo)).
-- **Name disambiguation:** “Vendo” is shared by unrelated businesses and products, increasing the risk that search results, traffic estimates, or funding records refer to another entity; verified company records use `vendo.run`, `runvendo`, and legal footer name Aisle Technologies, Inc. ([Vendo website, Jul 2026](https://vendo.run/)).
+- **Agent action safety:** Vendo agents can act through customer APIs and generate executable interfaces, while the terms state that agent output can be wrong and should be reviewed; permission proxies, approvals, audit records, and sandboxing are the published mitigations ([Terms](https://vendo.run/terms), Jul 2026; [GitHub](https://github.com/runvendo/vendo), Aug 2026).
+- **Competitive substitution:** CopilotKit already offers authenticated tools, controlled generative UI, approvals, shared state, and self-hosting, while Thesys covers generated dashboards and forms ([CopilotKit](https://www.copilotkit.ai/), Aug 2026; [Thesys](https://www.thesys.dev/), Aug 2026).
+- **Product-transition continuity:** Vendo was previously marketed as one-click deployment and customization for open-source business software before its current embedded-agent positioning, and the legal footer still identifies Aisle Technologies, Inc. ([Founders, Inc.](https://f.inc/portfolio/aisle/), Aug 2026; [Vendo](https://vendo.run/), Aug 2026).
+- **Contracting readiness:** The published terms retain “[governing law / jurisdiction to be confirmed]” in the governing-law section ([Terms](https://vendo.run/terms), Jul 2026).
+- **Name collision:** Other unrelated products operate as Vendo in B2B e-commerce and AI business-system markets, creating search-result and brand ambiguity ([getvendo.com](https://www.getvendo.com/b/how-vendo-democratizes-access-to-the-marketplace-and-b2b-ecommerce), Mar 2022; [vendo.network](https://www.vendo.network/), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.63B global AI-agents market in 2025, forecast to $182.97B by 2033 at 49.6% CAGR (Grand View Research, 2026) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 346 GitHub stars and 43 forks (GitHub, Jul 2026); 1,220 weekly npm downloads (npm, Jul 2026); nightly tests against 16 applications (Vendo website, Jul 2026) |
-| Revenue Signal | Free $0; Pro $49/month; Teams $499/month; Enterprise custom pricing (Vendo pricing, Jul 2026) |
-| Founders | Nour Zahzah (CEO): UC Berkeley mechanical engineering, prior retail AI startup, Earthquakes academy (YC, Jul 2026); Yousef Helal (CTO): Berkeley EECS, Stanford EE, Apple and AMD engineering (YC, Jul 2026) |
-| Competitors | CopilotKit ($27M raised, revenue unknown, agentic-frontend stack; CopilotKit, May 2026); Vercel ($563M raised, revenue unknown, general-purpose AI SDK; Wing Venture Capital, 2025); assistant-ui ($0.5M raised, $0.88M ARR reported, React AI-chat components; LinkedIn and Latka, 2025–2026) |
-| Moat Signals | Apache-2.0 repository with 346 stars and 43 forks; integrated API extraction, policy gates, sandboxing, audit, generated UI, and persistence (GitHub and npm, Jul 2026) |
-| Risk Factors | Platform substitution (OpenAI and TechCrunch, 2025–2026), API-action security boundaries (Vendo website, Jul 2026), integration dependence across customer codebases (Vendo website, Jul 2026) |
-| Founder Reach | Nour Zahzah: Twitter count not retrievable, LinkedIn 3K+, GitHub unavailable (LinkedIn, Jul 2026); Yousef Helal: Twitter unavailable, LinkedIn 850, GitHub star count not retrievable (LinkedIn and GitHub, Jul 2026) |
-| Distribution Signals | 346 GitHub stars, 43 forks (GitHub, Jul 2026); 1,220 weekly npm downloads (npm, Jul 2026); 102 LinkedIn followers (LinkedIn, Jul 2026) |
-| Emails | founders@vendo.run (Vendo website, Jul 2026); nour@vendo.run (YC launch page, Jul 2026) |
+| Traction | 377 GitHub stars and 51 forks (GitHub, Aug 2026); 1,220 weekly npm downloads (npm, Aug 2026); 750 LinkedIn followers (LinkedIn, Aug 2026) |
+| Revenue Signal | Free $0, Pro $49/month, Teams $499/month, and Enterprise custom pricing (Vendo pricing, Aug 2026) |
+| Founders | Nour Zahzah (CEO): UC Berkeley mechanical engineering, Aisle co-founder, San Jose Earthquakes academy; Yousef Helal (CTO): Berkeley EECS, Stanford EE, Apple and AMD ([Y Combinator](https://www.ycombinator.com/companies/vendo), Aug 2026) |
+| Competitors | CopilotKit ($27M Series A, revenue unknown, agentic frontend stack) ([CopilotKit](https://www.copilotkit.ai/blog/series-a), May 2026); Thesys ($4M seed, revenue unknown, generative dashboards and forms) ([GlobeNewswire](https://www.globenewswire.com/news-release/2024/11/07/2976745/0/en/Thesys-Raises-4M-Led-by-Together-Fund-to-Shape-the-Future-of-AI-Driven-Interfaces.html), Nov 2024); LangChain ($125M Series B, revenue unknown, agent engineering platform) ([LangChain](https://www.langchain.com/blog/series-b), Oct 2025) |
+| Moat Signals | 377-star Apache-2.0 repository, 51 forks, 3,539 commits, and nightly testing against 16 open-source applications ([GitHub](https://github.com/runvendo/vendo), Aug 2026; [Vendo](https://vendo.run/), Aug 2026) |
+| Risk Factors | Agent-generated output and actions require review (Vendo Terms, Jul 2026), competing open-source agent-interface stacks (CopilotKit, Aug 2026), recent product-positioning transition (Founders, Inc., Aug 2026) |
+| Founder Reach | Nour Zahzah: X 947, LinkedIn 3K, GitHub top repo 0 visible stars ([TwStalker](https://twstalker.com/nourzahzah), Aug 2026; [LinkedIn](https://www.linkedin.com/in/nourzahzah), Jul 2026; [GitHub](https://github.com/nourzahzah), Aug 2026); Yousef Helal: X approximately 1K, LinkedIn 850, GitHub top repo 2 stars ([TwStalker via search snippet](https://ngntipkolamrenang.twstalker.com/KotechaNiki), Jul 2026; [LinkedIn](https://www.linkedin.com/in/yousef-helal), Jul 2026; [GitHub](https://github.com/yousefh409), Aug 2026) |
+| Distribution Signals | 377 GitHub stars, 51 forks (GitHub, Aug 2026); 1,220 weekly npm downloads (npm, Aug 2026); 750 LinkedIn followers (LinkedIn, Aug 2026); 391 X followers (TwStalker via search snippet, Jul 2026) |
+| Emails | founders@vendo.run (Vendo Terms, Jul 2026), nour@vendo.run (Y Combinator, Aug 2026), hiring@vendo.run (Vendo Careers, Aug 2026) |

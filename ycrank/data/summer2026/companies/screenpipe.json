@@ -7,11 +7,11 @@
     "yc_page": "https://www.ycombinator.com/companies/screenpipe",
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Productivity",
-    "team_size": "6",
+    "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, SaaS, B2B, Enterprise, Enterprise Software",
-    "yc_partner": "Gustaf Alstromer",
-    "emails": "louis@screenpi.pe"
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/screenpipe), Aug 2026)",
+    "emails": "louis@screenpi.pe ([screenpipe terms](https://screenpipe.com/terms), Jul 2026), support@screenpi.pe ([refund policy](https://screenpipe.com/refund), Jun 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -21,18 +21,18 @@
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:41:48.355Z",
+  "memoGeneratedAt": "2026-08-11T05:17:56.524Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 80,
+      "score": 65,
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 76,
+      "score": 67,
       "tier": "Invest"
     },
     "paul-graham": {
@@ -40,33 +40,33 @@
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 55,
+      "score": 63,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 58,
+      "score": 47,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 68,
-    "EG": 80,
-    "NR": 76,
+    "CB": 60,
+    "EG": 65,
+    "NR": 67,
     "PG": 73,
-    "PT": 55,
-    "SL": 58,
-    "VK": 49
+    "PT": 63,
+    "SL": 47,
+    "VK": 33
   },
-  "consolidatedAvg": 65.57,
-  "consolidatedRank": 4,
+  "consolidatedAvg": 58.29,
+  "consolidatedRank": 13,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 85,
-    "tractionReason": "Tens of thousands revenue; 250K users; 6x active-user growth"
+    "tractionRank": 21,
+    "tractionScore": 77,
+    "tractionReason": "$3,480 MRR; 202 subscribers; 20–30% weekly growth"
   },
   "paths": {
     "memo": "summer2026/memos/screenpipe.md",

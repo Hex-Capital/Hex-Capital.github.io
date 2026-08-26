@@ -1,0 +1,81 @@
+{
+  "slug": "tarifflo-inc",
+  "name": "Tarifflo Inc.",
+  "oneLiner": "Supply chain compliance and cost savings",
+  "metadata": {
+    "website": "https://www.tarifflo.com",
+    "yc_page": "https://www.ycombinator.com/companies/tarifflo-inc",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "5",
+    "location": "Salt Lake City, UT, USA",
+    "tags": "B2B, LegalTech, Supply Chain",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "bryce.judy@tarifflo.com, truman@tarifflo.com"
+  },
+  "tags": [
+    "B2B",
+    "LegalTech",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:15:59.977Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 67,
+    "EG": 66,
+    "NR": 68,
+    "PG": 57,
+    "PT": 54,
+    "SL": 45,
+    "VK": 29
+  },
+  "consolidatedAvg": 55.14,
+  "consolidatedRank": 30,
+  "traction": {
+    "tractionRank": 28,
+    "tractionScore": 73,
+    "tractionReason": "1M products audited; customer recovered $1.3M"
+  },
+  "paths": {
+    "memo": "summer2026/memos/tarifflo-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/tarifflo-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/tarifflo-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/tarifflo-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/tarifflo-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/tarifflo-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/tarifflo-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/tarifflo-inc.md"
+    }
+  }
+}

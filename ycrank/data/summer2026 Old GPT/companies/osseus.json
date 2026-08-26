@@ -1,0 +1,82 @@
+{
+  "slug": "osseus",
+  "name": "Osseus",
+  "oneLiner": "The intelligent design platform for robotics",
+  "metadata": {
+    "website": "https://osseus.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/osseus",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "tags": "Artificial Intelligence, Robotics, B2B, Enterprise Software, Infrastructure",
+    "yc_partner": "Jared Friedman",
+    "emails": "hello@osseus.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "B2B",
+    "Enterprise Software",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:25:44.313Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 48,
+    "NR": 52,
+    "PG": 53,
+    "PT": 41,
+    "SL": 43,
+    "VK": 43
+  },
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 139,
+  "traction": {
+    "tractionRank": 92,
+    "tractionScore": 44,
+    "tractionReason": "Invited-team access with custom rollout pricing"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/osseus.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/osseus.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/osseus.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/osseus.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/osseus.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/osseus.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/osseus.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/osseus.md"
+    }
+  }
+}

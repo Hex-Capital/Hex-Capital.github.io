@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Dental, Healthcare IT, AI",
     "yc_partner": "Jared Friedman",
-    "emails": "support@trydenta.com, jack@trydenta.com"
+    "emails": "jack@trydenta.com, support@trydenta.com"
   },
   "tags": [
     "Dental",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:35:10.589Z",
+  "memoGeneratedAt": "2026-08-11T04:58:01.629Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 56,
+      "score": 51,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
-      "score": 43,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 72,
-      "tier": "Invest"
+      "score": 47,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 39,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 23,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 72,
-    "EG": 56,
-    "NR": 43,
-    "PG": 72,
-    "PT": 39,
-    "SL": 52,
-    "VK": 37
+    "CB": 51,
+    "EG": 40,
+    "NR": 42,
+    "PG": 47,
+    "PT": 35,
+    "SL": 37,
+    "VK": 23
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 91,
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 72,
-    "tractionReason": "More than 50 dental locations live"
+    "tractionRank": 92,
+    "tractionScore": 54,
+    "tractionReason": "DSO client and multiple practices"
   },
   "paths": {
     "memo": "summer2026/memos/denta.md",

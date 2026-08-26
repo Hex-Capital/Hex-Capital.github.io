@@ -1,0 +1,79 @@
+{
+  "slug": "verdant",
+  "name": "Verdant",
+  "oneLiner": "AI-native land-use permit management for local gov",
+  "metadata": {
+    "website": "https://www.verdantapp.com/",
+    "yc_page": "https://www.ycombinator.com/companies/verdant",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026)",
+    "industry": "Government / Government",
+    "team_size": "2",
+    "location": "Washington, DC, USA",
+    "tags": "GovTech",
+    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026)",
+    "emails": "founders@verdantapp.com, privacy@verdantapp.com, security@verdantapp.com ([Y Combinator](https://www.ycombinator.com/companies/verdant); [Verdant privacy policy](https://www.verdantapp.com/privacy); [Verdant terms](https://www.verdantapp.com/terms), Jul 2026)"
+  },
+  "tags": [
+    "GovTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:50:56.201Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 51,
+    "NR": 39,
+    "PG": 62,
+    "PT": 34,
+    "SL": 34,
+    "VK": 42
+  },
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 147,
+  "traction": {
+    "tractionRank": 145,
+    "tractionScore": 26,
+    "tractionReason": "200 interviews; product only recently launched"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/verdant.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/verdant.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/verdant.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/verdant.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/verdant.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/verdant.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/verdant.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/verdant.md"
+    }
+  }
+}

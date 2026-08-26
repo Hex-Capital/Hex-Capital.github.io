@@ -1,0 +1,83 @@
+{
+  "slug": "neuromorphic",
+  "name": "Neuromorphic",
+  "oneLiner": "Building embodiment agnostic robot brains.",
+  "metadata": {
+    "website": "https://www.neuromorphic.vision/",
+    "yc_page": "https://www.ycombinator.com/companies/neuromorphic",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Robotics, B2B, Biotech, AI",
+    "yc_partner": "Diana Hu / François Chaubard",
+    "emails": "founders@neuromorphic.vision ([company website via search snippet](https://www.neuromorphic.vision/), Aug 2026)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "B2B",
+    "Biotech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:02:37.475Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 67,
+    "EG": 52,
+    "NR": 54,
+    "PG": 74,
+    "PT": 46,
+    "SL": 44,
+    "VK": 35
+  },
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 36,
+  "traction": {
+    "tractionRank": 75,
+    "tractionScore": 58,
+    "tractionReason": "First customer contract; daily biotechnology operations"
+  },
+  "paths": {
+    "memo": "summer2026/memos/neuromorphic.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/neuromorphic.md",
+      "elad-gil": "summer2026/evals/elad-gil/neuromorphic.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/neuromorphic.md",
+      "paul-graham": "summer2026/evals/paul-graham/neuromorphic.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/neuromorphic.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/neuromorphic.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/neuromorphic.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "greypoint-industries",
+  "name": "Greypoint Industries",
+  "oneLiner": "Manufacturing the future of autonomous swarm warfare.",
+  "metadata": {
+    "website": "https://greypointindustries.com/",
+    "yc_page": "https://www.ycombinator.com/companies/greypoint-industries",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Robotics, Drones, Manufacturing, Defense",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hardware",
+    "Robotics",
+    "Drones",
+    "Manufacturing",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:50:43.983Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 77,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 61,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 73,
+    "EG": 58,
+    "NR": 47,
+    "PG": 77,
+    "PT": 49,
+    "SL": 51,
+    "VK": 61
+  },
+  "consolidatedAvg": 59.43,
+  "consolidatedRank": 30,
+  "traction": {
+    "tractionRank": 60,
+    "tractionScore": 54,
+    "tractionReason": "First counter-drone contract signed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/greypoint-industries.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/greypoint-industries.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/greypoint-industries.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/greypoint-industries.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/greypoint-industries.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/greypoint-industries.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/greypoint-industries.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/greypoint-industries.md"
+    }
+  }
+}

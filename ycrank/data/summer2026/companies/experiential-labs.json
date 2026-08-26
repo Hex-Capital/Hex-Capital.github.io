@@ -1,7 +1,7 @@
 {
   "slug": "experiential-labs",
   "name": "Experiential Labs",
-  "oneLiner": "Continual Learning for Agents",
+  "oneLiner": "Turn your AI spend into a cheaper + better model you own",
   "metadata": {
     "website": "https://experientiallabs.ai",
     "yc_page": "https://www.ycombinator.com/companies/experiential-labs",
@@ -9,61 +9,61 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Infrastructure, AI",
+    "tags": "Artificial Intelligence, Infrastructure",
     "yc_partner": "Diana Hu",
-    "emails": "No public data found"
+    "emails": "founders@xplabs.ai"
   },
   "tags": [
-    "Infrastructure",
-    "AI"
+    "Artificial Intelligence",
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:25:56.678Z",
+  "memoGeneratedAt": "2026-08-11T04:29:13.274Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "paul-graham": {
       "score": 70,
       "tier": "Invest"
     },
-    "peter-thiel": {
-      "score": 52,
+    "elad-gil": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 59,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 41,
+      "score": 38,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 49,
+      "score": 46,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 58,
-    "NR": 71,
-    "PG": 70,
-    "PT": 52,
-    "SL": 41,
-    "VK": 49
+    "CB": 70,
+    "EG": 65,
+    "NR": 59,
+    "PG": 48,
+    "PT": 42,
+    "SL": 38,
+    "VK": 46
   },
-  "consolidatedAvg": 57.14,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 52.57,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 102,
-    "tractionScore": 40,
-    "tractionReason": "216 GitHub stars; hosted endpoint public"
+    "tractionRank": 108,
+    "tractionScore": 51,
+    "tractionReason": "One deployed customer model with strong cost reduction"
   },
   "paths": {
     "memo": "summer2026/memos/experiential-labs.md",

@@ -1,7 +1,7 @@
 {
   "slug": "belvedir",
   "name": "Belvedir",
-  "oneLiner": "The autonomous private AI platform.",
+  "oneLiner": "The easiest way to make private AI models.",
   "metadata": {
     "website": "https://belvedir.ai/",
     "yc_page": "https://www.ycombinator.com/companies/belvedir",
@@ -9,61 +9,61 @@
     "industry": "B2B / B2B",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
-    "tags": "Machine Learning, Reinforcement Learning",
+    "tags": "Machine Learning, Infrastructure",
     "yc_partner": "Harshita Arora",
-    "emails": "founders@fractalresearch.ai"
+    "emails": "founders@fractalresearch.ai ([Belvedir](https://belvedir.ai/), Aug 2026)"
   },
   "tags": [
     "Machine Learning",
-    "Reinforcement Learning"
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:59:27.798Z",
+  "memoGeneratedAt": "2026-08-11T05:37:26.187Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 57,
+      "score": 52,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 53,
+      "score": 46,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 51,
+      "score": 46,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 49,
-    "NR": 53,
-    "PG": 51,
-    "PT": 45,
-    "SL": 38,
-    "VK": 47
+    "CB": 52,
+    "EG": 65,
+    "NR": 46,
+    "PG": 46,
+    "PT": 37,
+    "SL": 34,
+    "VK": 29
   },
-  "consolidatedAvg": 48.57,
-  "consolidatedRank": 130,
+  "consolidatedAvg": 44.14,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 47,
-    "tractionReason": "Few closed-alpha customers; no revenue disclosed"
+    "tractionRank": 128,
+    "tractionScore": 46,
+    "tractionReason": "Free alpha with a few customers"
   },
   "paths": {
     "memo": "summer2026/memos/belvedir.md",

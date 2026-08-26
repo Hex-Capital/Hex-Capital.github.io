@@ -1,30 +1,26 @@
 ﻿# Parasma -- Naval Ravikant Evaluation
 
-Sean Cole’s MSc work on spiking neural networks and 200,000-neuron Doom implementation make Parasma a specific-knowledge company without a compounding network. That pairing is Parasma’s signature: rare founder knowledge is being applied to software whose value does not yet increase with each new user. The mind may be unusual; the business architecture is not yet self-reinforcing.
+Sean Cole has done what most founders in this category only propose. He researched spiking neural networks, wrote the code connecting roughly 200,000 cultured neurons to Doom, and produced a hybrid system that reportedly outperformed the learning algorithm alone. That is specific knowledge acquired through action. The MSc matters less than the working artifact, external collaborators, and the noise, stimulation, and feedback problems he has already encountered.
 
-Stack Overflow is the high rung for specific knowledge: developers built a developer product after years of living the problem. Parasma shares that mechanism because Cole researched diffusion in spiking neural networks, then personally shipped closed-loop learning on Cortical Labs’ CL1. Parasma diverges because one 250-star experiment and a 2025 MSc are evidence of obsession, not yet evidence of a durable body of work. Cole is closer to the high rung than the middle, but specific knowledge must become cumulative advantage before competitors can download the same public code.
+The decisive counterfactual is simple: copy Parasma’s GPL-3.0 repository tonight. What remains? Cole’s closed-loop training knowledge remains, and biological compute is harder than another software wrapper. But Parasma has disclosed no proprietary response dataset, exclusive hardware access, patent, or stimulation policy that compounds across deployments. Cortical Labs supplies hardware and APIs; better-funded competitors are building integrated systems. Parasma has technical leverage, but it does not yet own the substrate.
 
-Perplexity is the low rung on network effects: a single-sided product where one user does not automatically improve the next user’s experience. Perplexity escaped through exceptional ML knowledge and permissionless product distribution; Parasma currently has neither a user-added data loop nor a developer ecosystem. Each Parasma customer would independently license training software or hosted experiments, while Cortical Labs controls the substrate. A tool can scale without a network, but it loses the 10,000x geometry that made Uber and AngelList compelling.
+The market could be enormous, but enormity is not a market map. “AI compute” does not identify the first payer, why biological neurons beat silicon for that workload, or how token prediction leads into adjacent transactions. There is no accuracy, latency, energy, cost, lifetime, or commercial benchmark. Without one, the $10 million-funded Cortical Labs platform and the $25 million-funded Biological Computing Company can absorb the training layer—or make it interchangeable.
 
-Cortical Labs’ CL1 turns Parasma’s apparent code leverage into partially permissioned leverage. Over the next 18 months, Parasma can replicate algorithms cheaply, publish demonstrations, and use Cole’s roughly 3,000 X followers as media leverage, but every meaningful experiment still consumes scarce wetware, laboratory labor, and a third party’s API. Parasma compounds only if stimulation policies and biological-response datasets become portable software assets; otherwise Cortical Labs captures the platform economics while Parasma remains an application developer on rented neurons.
+The public Doom project has earned 255 GitHub stars, 29 forks, and serious press coverage. That is distribution for an experiment, not yet a network effect. No evidence shows that one researcher’s participation improves another researcher’s results, contributes exclusive training data, or lowers acquisition costs. There is also no published pricing, payer, revenue, or completed transaction. The advertised $1 million Founding Scientist salary is not evidence of a recruited team or commercial demand.
 
-The Biological Computing Co. has raised $25M, Cortical Labs reportedly $11M, and Intactis Bio is building automated processing units. Parasma’s market score flips upward if one training layer works across those competing substrates and expands from token prediction into robotics, drug discovery, adaptive control, and general inference. Parasma’s current evidence supports only the narrower claim: biological-compute experiments are becoming accessible. A huge AI-compute market does not automatically make its smallest technical dependency a huge market.
+The bull case is unusually strong for a company with no economics. A working prototype and founder-specific knowledge can override an illegible wedge at pre-seed, especially when the product looks strange because the enabling substrate has only just become accessible. Parasma also fits the move toward infrastructure bottlenecks rather than copyable application code. I see no disclosed integrity, artificial-scarcity, or founder-morale red flag. But a scientific demonstration can be both real and commercially stranded; the known exception requires the prototype to reveal a durable product language, not merely a difficult experiment on another company’s hardware.
 
-Notion is the single-anchor parallel for the founder-partner test: Ivan Zhao’s repeated rebuilds made energy and long-term obsession visible before commercial certainty. Cole has similarly shipped in public, earned press from *The Guardian* and *Scientific American*, and confronted consciousness risk in a June 2026 research note. Parasma still has a one-person founder record, no prior venture, and no evidence about how Cole treats collaborators under pressure. Parasma therefore earns credit for intelligence and energy; integrity and ten-year durability remain unobserved rather than presumed.
-
-Cortical Labs’ hardware dependency makes my 36-month forecast specific: by July 2029, Parasma will have pivoted from “human brain cells for AI compute” into a biological-compute benchmarking and control SDK integrated with CL1 and at least one second substrate, producing less than $1M ARR. Parasma’s high specific knowledge should generate useful tooling, while Parasma’s absent network and hardware dependence should prevent a standalone compute platform from forming on that timetable.
-
-Parasma’s 250-star repository, public demonstrations, YC backing, and pre-consensus category form the strongest bull case. Anchorage Digital proves that permission can become a moat, while Perplexity proves that exceptional knowledge can override a missing network; Parasma could become the software abstraction layer above every wetware vendor. The objection wins today because independent replication could not isolate learning inside the neurons, the principal implementation is public, and CL1 remains the gatekeeper. I do not write the check yet. I flip to Invest if Parasma produces an independently reproduced learning benchmark that beats software-only controls on two unrelated biological-hardware platforms and attracts organic third-party developers.
+I am neutral because Parasma has proved that Cole can make neurons learn, not that the learning compounds into a company. By August 2029, I expect it to have pivoted toward neurocomputing research tools and benchmarks with less than $1 million ARR, rather than serving general-purpose AI compute. I would flip to Invest if three independent paying teams repeatedly trained workloads through Parasma on third-party hardware and those deployments produced a proprietary dataset that measurably improved subsequent performance.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 17/28 |
-| Marketplace or Network with Compounding User-Added Value | 5/22 |
-| Founder Has Non-Trainable Specific Knowledge in the Domain | 18/20 |
-| Big Market with Room for Multiple Pivots Without Refinancing | 11/16 |
-| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 9/14 |
-| **Total** | **60/100** |
+| Founder Has Shipped or Sold Into the Exact Problem | 28/31 |
+| Advantage Survives a Competitor Copying the Code | 14/24 |
+| Initial Wedge Names a Large Adjacent Market | 5/19 |
+| Users Create Value or Distribution for Other Users | 3/15 |
+| Pricing or Transactions Prove Direct Value Capture | 3/11 |
+| **Total** | **53/100** |
 
-**Total Score: 60/100** (Neutral)
+**Total Score: 53/100** (Neutral)

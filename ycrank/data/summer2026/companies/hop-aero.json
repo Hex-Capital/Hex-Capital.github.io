@@ -14,52 +14,52 @@
   },
   "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:29:46.025Z",
+  "memoGeneratedAt": "2026-08-11T04:38:31.982Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 81,
+      "score": 69,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 64,
+      "score": 47,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 69,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 85,
-      "tier": "Strong Invest"
+      "score": 47,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 75,
-      "tier": "Invest"
+      "score": 51,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 81,
-    "EG": 64,
-    "NR": 45,
-    "PG": 85,
-    "PT": 62,
-    "SL": 49,
-    "VK": 75
+    "CB": 69,
+    "EG": 47,
+    "NR": 69,
+    "PG": 47,
+    "PT": 43,
+    "SL": 40,
+    "VK": 51
   },
-  "consolidatedAvg": 65.86,
-  "consolidatedRank": 3,
+  "consolidatedAvg": 52.29,
+  "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 92,
-    "tractionReason": "$1.25M U.S. Air Force contract"
+    "tractionRank": 4,
+    "tractionScore": 91,
+    "tractionReason": "$1.25M Air Force contract obligation"
   },
   "paths": {
     "memo": "summer2026/memos/hop-aero.md",

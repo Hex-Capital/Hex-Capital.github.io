@@ -11,74 +11,72 @@
 | Team Size | 2 |
 | Location | New York City, NY, USA |
 | Tags | Marketplace, Finance, Cloud Computing, Trading, AI |
-| YC Partner | Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/computable), Jul 2026) |
-| Emails | support@getcomputable.com ([Computable Terms](https://www.getcomputable.com/tos), Jul 2026) |
+| YC Partner | Brad Flora |
+| Emails | support@getcomputable.com ([Computable Privacy Policy](https://www.getcomputable.com/privacy), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** GPU buyers must choose between flexible rentals carrying a premium and longer commitments that can leave them paying for unused capacity ([Computable](https://www.getcomputable.com/); [SF Compute](https://docs.sfcompute.com/preview/guides/reselling-introduction), 2026).
-- **Approach:** Buyers submit sealed bids specifying node count, calendar weeks, and price, while Computable publishes clearing prices and maintains a standing buyback quote for each position ([Computable](https://www.getcomputable.com/), Jul 2026).
-- **Differentiation:** Computable sells future weekly H100-node positions with immediate sellback, versus SF Compute’s hour-to-multi-year operated clusters, Vast.ai’s real-time rental marketplace, and Compute Exchange’s institutional bilateral contracts ([Computable](https://www.getcomputable.com/); [SF Compute](https://sfcompute.com/about); [Compute Exchange](https://compute.exchange/)).
-- **Business Model:** [Inferred]: Revenue could come from auction transaction fees, bid-ask spreads, or capacity resale margins, but no fee schedule or platform take rate is publicly displayed.
-- **TAM/SAM:** The global GPU-as-a-service market was $4.37 billion in 2025 and is projected to reach $14.46 billion by 2033 at a 16.0% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/gpu-as-a-service-gpuaas-market-report), 2026).
-- **GTM / Distribution:** The company launched an H100 auction through its website and Show HN, with bids closing July 31, 2026 ([Computable](https://www.getcomputable.com/); [HN Digest](https://hackernews.lovable.app/), Jul 2026).
+- **Problem:** AI developers procuring GPU capacity face private bilateral leases, reported 2x H100 price dispersion, 6–24-month commitments, and no resale mechanism when workload timing changes ([Show HN mirror](https://zeli.app/en/story/48998828), Jul 2026).
+- **Approach:** Computable sells whole eight-GPU H100 nodes by contiguous calendar weeks, supports resting bids and offers, and lets reservation holders redeem capacity for full-node SSH access or resell it before use ([Computable Terms](https://www.getcomputable.com/tos), Aug 2026).
+- **Differentiation:** Runpod and Vast.ai provide usage-based GPU rentals, while Computable packages capacity as transferable weekly reservations with forward-dated prices; SF Compute also permits resale but supports hourly and other time-block purchases rather than Computable’s calendar-week grid ([Computable market](https://market.getcomputable.com/market); [SF Compute documentation](https://fogdocs.sfcompute.com/docs/how-the-market-works), Aug 2026).
+- **Business Model:** Computable charges buyers and sellers a 2% platform fee on each marketplace trade and charges 2% on accepted auction bids, with listed H100 capacity starting at $2.56 per GPU-hour ([Computable Terms](https://www.getcomputable.com/tos); [Computable market](https://market.getcomputable.com/market), Aug 2026).
+- **TAM/SAM:** The global GPU-as-a-service market was estimated at $8.21 billion in 2025 and projected to reach $26.62 billion by 2030 at a 26.5% CAGR, while no public SAM estimate was found for transferable weekly GPU reservations ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/gpu-as-a-service-market-153834402.html), 2025).
+- **GTM / Distribution:** Computable launched through a self-service market, its YC company page, and a Show HN post that recorded 45 points and 26 comments ([Computable market](https://market.getcomputable.com/market); [Hacker News Story Stats](https://news.social-protocols.org/stats?id=48998828), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** The standing buyback quote and published clearing prices provide an initial liquidity and price-discovery mechanism, but no transaction volume or multi-supplier depth is disclosed ([Computable](https://www.getcomputable.com/), Jul 2026).
-- **Future moat:** [Inferred]: Repeated auctions could create proprietary week-by-week price histories and buyer-seller liquidity, but one publicly announced auction does not establish those effects.
-- **Market structure:** No structural barrier identified at this stage; SF Compute, Vast.ai, Compute Exchange, and Ornn already operate or are developing overlapping compute marketplaces ([SF Compute](https://sfcompute.com/about); [Compute Exchange](https://compute.exchange/); [Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026).
-- **Commoditization risk:** Existing GPU clouds and procurement platforms can add calendar-based reservations, auctions, or resale functionality, as SF Compute’s orderbook and resale preview demonstrate ([SF Compute changelog](https://sfcompute.com/changelog), 2026).
+- **Moat today:** Computable’s terms give the company ownership of market data generated from bids, offers, orders, matched trades, prices, volumes, trends, and market patterns ([Computable Terms](https://www.getcomputable.com/tos), Aug 2026).
+- **Future moat:** [Inferred]: Liquidity across multiple GPU weeks and a proprietary forward-price history could create buyer-seller network effects, but no public trading-volume or participant data establishes these effects today.
+- **Market structure:** No structural barrier identified at this stage because SF Compute already supports flexible GPU purchases and resale and reported managing more than $100 million of third-party hardware ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/sf-compute-raises-40m-for-ai-compute-marketplace-offering/), Dec 2025).
+- **Commoditization risk:** GPU rental marketplaces and cloud providers could add fixed-week contracts, standing bids, or resale functionality, as demonstrated by SF Compute’s existing buy-order, sell-order, and resale market ([SF Compute documentation](https://fogdocs.sfcompute.com/docs/how-the-market-works), 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Show HN launch received 46 points in July 2026 ([HN Digest](https://hackernews.lovable.app/), Jul 2026).
-  - The launch recorded 45 points and 26 comments in an earlier crawl ([Hacker News Story Stats](https://news.social-protocols.org/stats?id=48998828), Jul 2026).
-  - First auction offered H100 nodes by the week from August 2026 through January 2027, with bidding scheduled to close July 31 ([Computable](https://www.getcomputable.com/), Jul 2026).
-  - YC listed zero open jobs ([Y Combinator](https://www.ycombinator.com/companies/computable), Jul 2026).
-- **Competitors:**
-  - SF Compute ($55M raised, revenue unknown): operates thousands of GPUs and lets customers resell capacity on an orderbook, versus Computable’s sealed weekly auction ([Airframe](https://www.airframe.ai/product/sfcompute-com/analysis); [SF Compute](https://sfcompute.com/about), Jul 2026).
-  - Ornn ($33M raised, revenue unknown): is developing compute benchmarks and hedging products, including planned exchange-listed futures, versus Computable’s redeemable GPU-hour positions ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026).
-  - Vast.ai ($4M raised, revenue unknown): aggregates independently supplied GPU rentals using real-time bidding, versus Computable’s future calendar-week contracts and buyback quote ([Caplight](https://www.caplight.com/company/vast-ai), Jul 2026).
-  - Compute Exchange (funding unknown, revenue unknown): offers institutional hardware, reserved rentals, and bilateral forward contracts across verified counterparties ([Compute Exchange](https://compute.exchange/), Jul 2026).
-- **Why now:** [Inferred]: GPU reservation exposure is becoming financialized as Ornn prepares compute futures and AI builders seek ways to hedge price and idle-capacity risk ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026).
+  - Public listings covered H100 SXM 80GB nodes from August 2026 through January 2027 at $2.56–$2.69 per GPU-hour ([Computable market](https://market.getcomputable.com/market), Aug 2026).
+  - The Show HN launch recorded 45 points and 26 comments ([Hacker News Story Stats](https://news.social-protocols.org/stats?id=48998828), Jul 2026).
+  - YC listed zero active jobs ([YC company page](https://www.ycombinator.com/companies/computable), Aug 2026).
+- **Competitors (minimum 3, up to 5):**
+  - SF Compute ($40 million raised, revenue unknown): operates a GPU-capacity marketplace with resale, hourly and time-block access, and more than $100 million of hardware under management ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/sf-compute-raises-40m-for-ai-compute-marketplace-offering/), Dec 2025).
+  - Runpod ($120 million raised, approximately $240 million annualized revenue): provides developer-oriented GPU cloud and serverless infrastructure without Computable’s transferable calendar-week positions ([Runpod](https://www.runpod.io/blog/one-million-developers); [The Information](https://www.theinformation.com/newsletters/ai-agenda/cloud-startup-runpod-raises-100-million-says-turned-down-buyout-offers/), Jun–Jul 2026).
+  - Vast.ai (funding undisclosed, revenue exceeded $1 million per month): matches independent GPU hosts with renters across consumer and datacenter GPUs rather than issuing forward-dated weekly reservations ([Vast.ai](https://vast.ai/article/ramp-brex-fastest-growing-vendor), Mar 2026).
+- **Why now:** [Inferred]: Reported 2x H100 price dispersion and non-transferable 6–24-month leases created a 2026 opening for shorter, resellable capacity contracts and public forward pricing ([Show HN mirror](https://zeli.app/en/story/48998828), Jul 2026).
 
 ## Founders & Team
 
-- **Yuan Song (Co-founder):**
-  - Background: [Inferred]: The `yuansong98` account submitted Computable’s Show HN launch, and a matching Yuan Song worked at Flow Traders and was registered with Jump Trading from July 2022 to August 2023 ([Hacker News Story Stats](https://news.social-protocols.org/stats?id=48998828); [FINRA BrokerCheck](https://files.brokercheck.finra.org/individual/individual_7329247.pdf), 2026).
+- **Founder 1 (Role not publicly listed):**
+  - Background: The company states collectively that its founders spent years building trading infrastructure at Jump Trading and Coinbase but does not assign either employer to this founder ([Computable website](https://www.getcomputable.com/), 2026).
   - Twitter/X: No public account found.
   - LinkedIn: No public profile found.
   - GitHub: No public repos found.
-- **Unnamed co-founder (Co-founder):**
-  - Background: The company states that its founders came from Jump Trading and Coinbase, but neither the public website nor YC page identifies the second founder by name ([Computable](https://www.getcomputable.com/); [Y Combinator](https://www.ycombinator.com/companies/computable), Jul 2026).
+- **Founder 2 (Role not publicly listed):**
+  - Background: The company states collectively that its founders spent years building trading infrastructure at Jump Trading and Coinbase but does not assign either employer to this founder ([Show HN mirror](https://zeli.app/en/story/48998828), Jul 2026).
   - Twitter/X: No public account found.
   - LinkedIn: No public profile found.
   - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Prior experience at Jump Trading and Coinbase supplies trading-market and digital-asset infrastructure exposure relevant to operating an auction and liquidity mechanism, although founder responsibilities are not publicly documented ([Computable](https://www.getcomputable.com/), Jul 2026).
+- **Founder-market fit:** The team’s reported Jump Trading and Coinbase infrastructure experience documents exposure to electronic markets, pricing, and transaction systems used in Computable’s GPU order-matching model ([Computable website](https://www.getcomputable.com/), 2026).
 
 ## Key Risks
 
-- **Regulatory classification:** Future-dated, resalable GPU positions may raise commodities or derivatives questions; Ornn is pursuing exchange-listed compute futures through ICE, while Computable’s public materials do not identify a regulatory structure ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026).
-- **Liquidity obligation:** Computable promises a standing buyback quote on every position, so immediate exits depend on its ability to fund or match sell orders; no liquidity reserves, market maker, or transaction depth are disclosed ([Computable](https://www.getcomputable.com/), Jul 2026).
-- **Supply concentration:** The first disclosed auction covers one cluster of H100 nodes for August through January, and no additional suppliers are named ([Computable](https://www.getcomputable.com/), Jul 2026).
-- **Contract standardization:** Compute is not a uniform commodity because GPU model, networking, location, availability, and service terms affect substitutability, complicating common contracts and secondary-market liquidity ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026).
-- **Competitive overlap:** SF Compute has raised $55 million, operates thousands of chips, and already supports resale orders, while Ornn raised $33 million for compute-market infrastructure ([Airframe](https://www.airframe.ai/product/sfcompute-com/analysis); [Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026).
+- **Liquidity and buyback availability:** The website says every position receives a standing buyback quote, but the terms state that Computable has no obligation to repurchase a reservation and guarantees no buyback price ([Computable website](https://www.getcomputable.com/); [Computable Terms](https://www.getcomputable.com/tos), Aug 2026).
+- **Direct marketplace competition:** SF Compute already permits resale of unused GPU capacity, raised $40 million, and reported more than $100 million of hardware under management ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/sf-compute-raises-40m-for-ai-compute-marketplace-offering/), Dec 2025).
+- **Regulatory perimeter:** Future-dated, resellable GPU positions use bids, offers, makers, and takers, while the terms mitigate contract-characterization risk by prohibiting naked offers and requiring ownership and physical redemption rights for each reservation ([Computable Terms](https://www.getcomputable.com/tos), Aug 2026).
+- **Delivery and performance dependency:** GPU access is provided “as is” without warranties of uninterrupted operation, compatibility, security, or performance, and capacity expires without residual value if not redeemed within its purchased window ([Computable Terms](https://www.getcomputable.com/tos), Aug 2026).
+- **Name disambiguation:** Search results also refer to the Dutch publication Computable.nl and an older blockchain data-market project called Computable, creating attribution risk for company, funding, and social metrics ([Computable.nl LinkedIn](https://www.linkedin.com/company/computable); [Gauntlet](https://www.gauntlet.xyz/resources/an-economic-analysis-of-the-computable-protocol)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.37B global GPUaaS market in 2025, projected to $14.46B by 2033 at 16.0% CAGR (Grand View Research, 2026) |
+| TAM | $8.21B global GPU-as-a-service market in 2025, projected to reach $26.62B by 2030 at 26.5% CAGR ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/gpu-as-a-service-market-153834402.html), 2025) |
 | SAM | No public data found |
-| Traction | Show HN launch: 46 points (HN Digest, Jul 2026); first H100 weekly auction scheduled to close July 31 (Computable, Jul 2026) |
-| Revenue Signal | No public data found |
-| Founders | Yuan Song (Co-founder): associated with launch account and previously registered with Jump Trading (Hacker News Story Stats; FINRA BrokerCheck, 2026); second co-founder not publicly named, with company citing Coinbase background (Computable, Jul 2026) |
-| Competitors | SF Compute ($55M raised, revenue unknown, operated clusters plus resale orderbook) (Airframe, Jul 2026); Ornn ($33M raised, revenue unknown, benchmarks and compute futures) (Axios, Jul 2026); Vast.ai ($4M raised, revenue unknown, real-time distributed GPU rentals) (Caplight, Jul 2026); Compute Exchange (funding unknown, revenue unknown, institutional bilateral forwards) (Compute Exchange, Jul 2026) |
-| Moat Signals | Standing buyback quotes and published auction clearing prices (Computable, Jul 2026) |
-| Risk Factors | Regulatory classification (Axios, Jul 2026), liquidity obligation (Computable, Jul 2026), single disclosed H100 cluster (Computable, Jul 2026) |
+| Traction | Live H100 listings for Aug 2026–Jan 2027 ([Computable market](https://market.getcomputable.com/market), Aug 2026); 45 HN points and 26 comments ([HN Story Stats](https://news.social-protocols.org/stats?id=48998828), Jul 2026); 0 YC jobs ([YC](https://www.ycombinator.com/companies/computable), Aug 2026) |
+| Revenue Signal | H100 capacity listed at $2.56–$2.69/GPU-hour and 2% platform fee charged to both parties ([Computable market](https://market.getcomputable.com/market); [Computable Terms](https://www.getcomputable.com/tos), Aug 2026) |
+| Founders | Names and roles not listed; team collectively reports years building trading infrastructure at Jump Trading and Coinbase ([Computable website](https://www.getcomputable.com/), 2026) |
+| Competitors | SF Compute ($40M raised, revenue unknown, resale marketplace) ([DCD](https://www.datacenterdynamics.com/en/news/sf-compute-raises-40m-for-ai-compute-marketplace-offering/), Dec 2025); Runpod ($120M raised, approximately $240M annualized revenue, developer GPU cloud) ([Runpod](https://www.runpod.io/blog/one-million-developers), Jul 2026); Vast.ai (funding undisclosed, revenue exceeded $1M/month, host-supplied GPU marketplace) ([Vast.ai](https://vast.ai/article/ramp-brex-fastest-growing-vendor), Mar 2026) |
+| Moat Signals | Company ownership of generated bid, order, trade, price, volume, and market-pattern data ([Computable Terms](https://www.getcomputable.com/tos), Aug 2026) |
+| Risk Factors | Buyback price not guaranteed ([Computable Terms](https://www.getcomputable.com/tos), Aug 2026), competing resale marketplace ([DCD](https://www.datacenterdynamics.com/en/news/sf-compute-raises-40m-for-ai-compute-marketplace-offering/), Dec 2025), name collision with unrelated organizations ([Gauntlet](https://www.gauntlet.xyz/resources/an-economic-analysis-of-the-computable-protocol)) |
 | Founder Reach | No public data found |
-| Distribution Signals | Show HN launch: 46 points (HN Digest, Jul 2026); zero YC job postings (Y Combinator, Jul 2026) |
-| Emails | support@getcomputable.com (Computable Terms, Jul 2026) |
+| Distribution Signals | Show HN launch with 45 points and 26 comments ([HN Story Stats](https://news.social-protocols.org/stats?id=48998828), Jul 2026); YC company listing ([YC](https://www.ycombinator.com/companies/computable), Aug 2026) |
+| Emails | support@getcomputable.com ([Computable Privacy Policy](https://www.getcomputable.com/privacy), Jul 2026) |

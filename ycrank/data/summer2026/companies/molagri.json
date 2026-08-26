@@ -10,8 +10,8 @@
     "team_size": "4",
     "location": "Toronto, ON, Canada",
     "tags": "Synthetic Biology, Biotech, Sustainability, Climate, Agriculture",
-    "yc_partner": "Tyler Bosmeny",
-    "emails": "inquiries@molagri.com"
+    "yc_partner": "Tyler Bosmeny ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/molagri))",
+    "emails": "inquiries@molagri.com ([Molagri website, Aug 2026](https://molagri.com/))"
   },
   "tags": [
     "Synthetic Biology",
@@ -21,52 +21,52 @@
     "Agriculture"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:41:32.499Z",
+  "memoGeneratedAt": "2026-08-11T05:13:05.413Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 64,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 44,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 30,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 65,
-      "tier": "Invest"
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 64,
-    "EG": 36,
-    "NR": 48,
-    "PG": 67,
-    "PT": 62,
-    "SL": 48,
-    "VK": 65
+    "CB": 66,
+    "EG": 48,
+    "NR": 66,
+    "PG": 44,
+    "PT": 41,
+    "SL": 30,
+    "VK": 38
   },
-  "consolidatedAvg": 55.71,
-  "consolidatedRank": 62,
+  "consolidatedAvg": 47.57,
+  "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 23,
-    "tractionReason": "YC selection and hiring; no product traction"
+    "tractionRank": 150,
+    "tractionScore": 40,
+    "tractionReason": "One signed grower LOI"
   },
   "paths": {
     "memo": "summer2026/memos/molagri.md",

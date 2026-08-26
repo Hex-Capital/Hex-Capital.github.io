@@ -11,59 +11,59 @@
     "location": "Z?rich, ZH, Switzerland",
     "tags": "Robotic Process Automation, Sustainability",
     "yc_partner": "Jared Friedman",
-    "emails": "No public data found"
+    "emails": "contact@griprobotics.ai"
   },
   "tags": [
     "Robotic Process Automation",
     "Sustainability"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:30:21.817Z",
+  "memoGeneratedAt": "2026-08-11T04:42:42.600Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
       "score": 47,
       "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 49,
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 55,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 70,
-    "EG": 49,
-    "NR": 43,
-    "PG": 65,
-    "PT": 51,
-    "SL": 47,
-    "VK": 49
+    "CB": 47,
+    "EG": 34,
+    "NR": 55,
+    "PG": 38,
+    "PT": 30,
+    "SL": 30,
+    "VK": 31
   },
-  "consolidatedAvg": 53.43,
-  "consolidatedRank": 87,
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 157,
-    "tractionScore": 18,
-    "tractionReason": "Team and YC batch only; website inaccessible"
+    "tractionRank": 213,
+    "tractionScore": 17,
+    "tractionReason": "Product announced; no pilots or deployments"
   },
   "paths": {
     "memo": "summer2026/memos/grip.md",

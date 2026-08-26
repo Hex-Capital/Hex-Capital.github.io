@@ -12,75 +12,78 @@
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Fintech, SaaS, Finance |
 | YC Partner | Ankit Gupta |
-| Emails | contact@usedefinite.com, gurshabd@usedefinite.com |
+| Emails | contact@usedefinite.com, mazin@usedefinite.com, gurshabd@usedefinite.com |
 
 ## The Idea
 
-- **Problem:** Finance teams manually reconcile data from ERPs, ledgers, payroll, and payment systems because general-purpose automation tools assume that records are already normalized and joined ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
-- **Approach:** Definite connects read-only to finance systems, normalizes and joins records into canonical transactions, invoices, vendors, and payments, and lets controllers construct agents from plain-English triggers, context, checks, and actions ([company website, Jul 2026](https://www.usedefinite.com/)).
-- **Differentiation:** Unlike n8n and Workato, Definite supplies a finance-specific context layer with source lineage, while unlike Rillet and Puzzle it sits above existing accounting systems without replacing the ledger ([company website, Jul 2026](https://www.usedefinite.com/); [Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [Puzzle, Sep 2022](https://puzzle.io/blog/puzzle-launches-smart-accounting-software-for-startups-announces-15m-series-a-led-by-general-catalyst)).
-- **Business Model:** [Inferred]: Definite likely sells organization-level enterprise subscriptions through order forms because its terms place fees, billing periods, and payment terms in customer-specific order forms rather than publishing self-service tiers.
-- **TAM/SAM:** The global accounting and financial-close software market was estimated at $10.84 billion in 2025 with an 8.6% forecast CAGR ([Reports and Data, 2026](https://www.reportsanddata.com/report-detail/accounting-and-financial-close-software-market)); no public SAM was found for Definite’s read-only finance-agent data layer.
-- **GTM / Distribution:** Definite solicits demos from finance teams and introductions to finance or engineering executives at banks, credit unions, fintechs, and insurers ([YC launch, Jul 2026](https://www.ycombinator.com/companies/definite)).
+- **Problem:** Finance and audit teams manually combine ERP records, spreadsheets, documents, approvals, and policies to perform recurring reconciliations and controls, while general automation tools such as n8n and Workato assume the underlying data is already clean and joined ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite); [Definite website, Aug 2026](https://www.usedefinite.com/)).
+- **Approach:** Definite maps entities, accounts, transactions, documents, and policies; encodes calculations, tests, thresholds, and exception rules; executes financial math deterministically; and returns evidence-linked workpapers for human approval ([Definite website, Aug 2026](https://www.usedefinite.com/)).
+- **Differentiation:** Unlike n8n and Workato’s general workflow automation, Definite performs source mapping and financial verification, while its language models interpret documents and a deterministic engine performs calculations and validation ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite); [Definite website, Aug 2026](https://www.usedefinite.com/)).
+- **Business Model:** Pricing is set through private order forms or written agreements, with fees generally payable in advance and public tier or usage prices undisclosed ([Definite terms, Jul 2026](https://www.usedefinite.com/terms)).
+- **TAM/SAM:** The global financial-close software market was estimated at $928.9 million in 2025 and projected to grow at a 10.1% CAGR through 2034 ([Proficient Market Insights, 2025](https://www.proficientmarketinsights.com/market-reports/financial-close-software-market-3238)).
+- **GTM / Distribution:** The founders solicit conversations with banks, credit unions, fintechs, and insurers and request introductions to partner-bank finance or engineering executives, indicating founder-led direct sales ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)).
 
 ## Defensibility
 
-- **Moat today:** Definite documents normalized cross-system entities, immutable snapshots, per-value source lineage, deterministic verdicts, and hash-chained receipts, but no patents, proprietary dataset scale, or customer switching evidence was found ([company website](https://www.usedefinite.com/); [Definite documentation](https://docs.usedefinite.com/)).
-- **Future moat:** [Inferred]: Reusable source connectors, mapping rules, and historical reconciliation data could reduce onboarding work over time, but no connector volume, mapping-accuracy data, or accumulated-data scale is public.
-- **Market structure:** No structural barrier prevents ERP, close-management, or workflow vendors from adding read-only normalization and agent builders, although reproducing mappings across NetSuite, QuickBooks, Sage, Workday, ADP, Stripe, Bill.com, and Ramp requires multiple maintained integrations ([company website, Jul 2026](https://www.usedefinite.com/)).
-- **Commoditization risk:** Numeric, Rillet, FloQast, n8n, Workato, and incumbent accounting platforms already provide adjacent finance automation, workflow, data, or AI functionality ([Numeric, Nov 2025](https://www.numeric.io/blog/numeric-raises-51m-series-b); [Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [FloQast, Apr 2024](https://www.floqast.com/press-releases/floqast-secures-100-million-in-series-e-funding-achieving-1-6-billion-valuation)).
+- **Moat today:** The company reports that its verification engine paired with DeepSeek V3 exceeded GPT-5’s FinBalance reconciliation accuracy at roughly 50× lower cost and exceeded published FinAuditing results, but no independent replication was found ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)).
+- **Future moat:** [Inferred]: Reusable customer-specific source mappings, policies, evidence relationships, approval structures, and workflow logic could create switching costs, but no retention or deployment data publicly validates this mechanism.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Numeric, Stacks, and Basis already automate accounting or close workflows using AI and have disclosed multiple venture rounds ([Numeric, Oct 2024](https://www.numeric.io/blog/numerics-raises-28m); [Stacks, Feb 2026](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai); [Basis, Feb 2026](https://www.getbasis.ai/blog)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Summer 2026 YC participation and one public YC launch ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
-  - Zero active YC job postings ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - 170 LinkedIn followers ([LinkedIn, Aug 2026](https://www.linkedin.com/company/usedefinite/)).
+  - 11 Launch YC votes ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)).
+  - Included in Menlo Times’ YC launch roundup on July 16, 2026 ([Menlo Times, Jul 2026](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-129)).
+  - X account @UseDefinite; follower count not retrievable ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite)).
+  - 0 active YC job postings ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite)).
 - **Competitors (minimum 3, up to 5):**
-  - Numeric ($89 million raised, revenue unknown): automates close management, reporting, and cash management rather than supplying a customer-built agent layer over multiple finance systems ([Numeric, Nov 2025](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html)).
-  - Rillet (over $100 million raised, revenue unknown): replaces the ERP and accounting ledger, whereas Definite states that it connects read-only without migration or write-back ([Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [Definite website](https://www.usedefinite.com/)).
-  - Puzzle (at least $15 million raised, revenue unknown): provides an AI-first accounting system for startups and small businesses, while Definite positions itself as a context and agent layer over existing systems ([Puzzle, Sep 2022](https://puzzle.io/blog/puzzle-launches-smart-accounting-software-for-startups-announces-15m-series-a-led-by-general-catalyst); [Definite website](https://www.usedefinite.com/)).
-- **Why now:** [Inferred]: Finance-agent adoption creates demand for traceable source data because 79% of surveyed executives reported company adoption of agents in 2025, while only 34% reported accounting-and-finance use ([PwC, Jul 2025](https://www.pwc.com/us/en/tech-effect/ai-analytics/ai-agents-for-finance.html)).
+  - Numeric ($38 million disclosed funding, revenue unknown): monitors financial data, automates month-end workflows and reconciliations, and generates financial reports, while Definite emphasizes multi-system procedures, deterministic checks, and evidence lineage ([Numeric, Oct 2024](https://www.numeric.io/blog/numerics-raises-28m)).
+  - Stacks ($35 million disclosed funding, revenue unknown): connects to ERPs and deploys agents across the financial close, overlapping with Definite’s reconciliation and audit-ready workflow scope ([Stacks, Feb 2026](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai)).
+  - Basis ($137.6 million disclosed funding, revenue unknown): supplies accounting firms with agents spanning accounting, tax, and audit, whereas Definite markets controlled workflows directly to finance, audit, and regulated-institution teams ([Basis funding announcements, 2023–2026](https://www.getbasis.ai/blog)).
+- **Why now:** [Inferred]: Recent reasoning-model advances permit supervised multi-agent accounting workflows, illustrated by Basis’s use of o3, o3-Pro, GPT-4.1, and GPT-5 and its reported customer time savings of up to 30% ([OpenAI, Aug 2025](https://openai.com/index/basis/)).
 
 ## Founders & Team
 
 - **Mazin Al-Ani (Founder):**
-  - Background: Studied computer science at the University of Waterloo and completed software-engineering internships at Optiver and Boosted.ai involving trading systems and AI for financial analysts ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - Background: University of Waterloo computer science and combinatorics-and-optimization student with a reported 3.95/4.00 GPA; previously worked on quantitative-trading systems at Optiver and financial-analysis agents at Boosted.ai ([LinkedIn](https://ca.linkedin.com/in/mazinalani); [YC company page, Aug 2026](https://www.ycombinator.com/companies/definite)).
   - Twitter/X: No public account found.
-  - LinkedIn: No verified public profile found.
-  - GitHub: No public repos found.
+  - LinkedIn: “Ledgix,” an indexed headline predating the Definite launch ([LinkedIn](https://ca.linkedin.com/in/mazinalani)).
+  - GitHub: @mazinalani; PopCoin has 0 stars and is a Bitcoin fork ([GitHub, Aug 2026](https://github.com/mazinalani/popcoin)).
 - **Farhan Ur Rehman (Founder):**
-  - Background: Studied statistics at the University of Waterloo and previously worked in software engineering on Instagram Reels recommendations at Meta ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - Background: Studied statistics at the University of Waterloo and previously worked at Meta on Instagram Reels recommendations and machine-learning agents ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite)).
   - Twitter/X: No public account found.
-  - LinkedIn: No verified public profile found.
-  - GitHub: No public repos found.
+  - LinkedIn: Profile found through YC; headline not retrievable.
+  - GitHub: No verified public repos found.
 - **Gurshabd Singh Varaich (Founder & CEO):**
-  - Background: Studied computer science at the University of Waterloo and interned at BitGo on pre-execution wallet policies and approval controls ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - Background: Studied computer science at the University of Waterloo and previously worked at Ford, theScore, and BitGo, including BitGo wallet-policy and approval controls ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite); [LinkedIn](https://ca.linkedin.com/in/gvaraich)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Co-Founder & CEO at Definite (YC S26)” ([LinkedIn profile, Jul 2026](https://ca.linkedin.com/in/gvaraich)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** The founders met during their first year at the University of Waterloo ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
-- **Founder-market fit:** Mazin’s Optiver and finance-AI experience, Farhan’s recommendation-system work, and Gurshabd’s BitGo controls work provide documented exposure to financial systems, machine learning, and controlled transaction infrastructure ([YC company page, Jul 2026](https://www.ycombinator.com/companies/definite)).
+  - LinkedIn: “Ledgix,” an indexed headline predating the Definite launch ([LinkedIn](https://ca.linkedin.com/in/gvaraich)).
+  - GitHub: No verified public repos found.
+- **Co-founder relationship:** The founders met during their first year at the University of Waterloo ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite)).
+- **Founder-market fit:** Gurshabd encountered manual attestations at regulated custodian BitGo, Mazin observed regulatory-number rechecking at Optiver and built finance agents at Boosted.ai, and Farhan worked on machine learning at Meta ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)).
 
 ## Key Risks
 
-- **Product-positioning transition:** The YC launch describes end-to-end regulatory reporting for banks, while the current website describes a broader finance context layer and customer-built agents, creating uncertainty about the current initial use case ([YC launch](https://www.ycombinator.com/companies/definite); [company website](https://www.usedefinite.com/)).
-- **Read-only action boundary:** Agents can flag, draft, and notify but cannot post entries or move money, so workflows requiring execution must continue through another system or a human operator ([company website, Jul 2026](https://www.usedefinite.com/)).
-- **Source-data dependency:** Definite’s terms state that checks depend on the accuracy and completeness of customer source systems, with missing data producing a “Cannot verify” result ([terms, Jul 2026](https://usedefinite.com/legal/terms-conditions)).
-- **Incumbent overlap:** Numeric, Rillet, and FloQast have raised $89 million, over $100 million, and a $100 million Series E respectively to develop overlapping finance-data and automation products ([Numeric, Nov 2025](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html); [Rillet, Aug 2025](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq); [FloQast, Apr 2024](https://www.floqast.com/press-releases/floqast-secures-100-million-in-series-e-funding-achieving-1-6-billion-valuation)).
-- **Model trust:** Deloitte reported trust as the main barrier to agentic-AI adoption in finance and accounting; Definite’s stated mitigation is deterministic checks, human review, read-only access, and hash-chained evidence ([Deloitte, Jul 2025](https://www.deloitte.com/us/en/about/press-room/trust-main-barrier-to-agentic-ai-adoption-in-finance-and-accounting.html); [Definite documentation](https://docs.usedefinite.com/)).
+- **Product-scope changes:** Public pages moved from Ledgix and Bylaw compliance infrastructure to a July 2026 bank-reporting launch and then broader reconciliation and control workflows, creating execution risk across multiple target processes ([Ledgix LinkedIn](https://ca.linkedin.com/company/tryledgix); [Bylaw LinkedIn](https://ca.linkedin.com/company/usebylaw); [Definite website](https://www.usedefinite.com/)).
+- **Input-data dependence:** Definite states that customers must provide accurate, current data and that missing or stale feeds produce “Cannot verify” results and hold dependent lines ([Definite terms, Jul 2026](https://www.usedefinite.com/terms)).
+- **Procurement assurance:** The public security page describes encryption, MFA, access logging, and read-only connections but names no certification, instead offering security posture and third-party assessment results under NDA ([Definite security, Jul 2026](https://www.usedefinite.com/security)).
+- **Competitive financing:** Numeric, Stacks, and Basis have disclosed $38 million, $35 million, and $137.6 million across announced rounds, respectively ([Numeric](https://www.numeric.io/blog/numerics-raises-28m); [Stacks](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai); [Basis](https://www.getbasis.ai/blog)).
+- **Entity disambiguation:** Dealroom conflates this YC S26 company with an earlier analytics business associated with Mike Ritchie and the same domain, so its $10 million funding claim is excluded ([Dealroom, Aug 2026](https://app.dealroom.co/companies/definite_3); [YC company page, Aug 2026](https://www.ycombinator.com/companies/definite)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $10.84B global accounting and financial-close software market in 2025, 8.6% forecast CAGR (Reports and Data, 2026) |
+| TAM | $928.9M global financial-close software market in 2025; 10.1% projected CAGR through 2034 ([Proficient Market Insights, 2025](https://www.proficientmarketinsights.com/market-reports/financial-close-software-market-3238)) |
 | SAM | No public data found |
-| Traction | Summer 2026 YC participation and public launch (YC company page, Jul 2026) |
-| Revenue Signal | No public data found |
-| Founders | Mazin Al-Ani (Founder): Waterloo CS, Optiver and Boosted.ai; Farhan Ur Rehman (Founder): Waterloo statistics, Meta; Gurshabd Singh Varaich (CEO): Waterloo CS, BitGo (YC company page, Jul 2026) |
-| Competitors | Numeric ($89M raised, revenue unknown, close and reporting platform; PR Newswire, Nov 2025); Rillet (over $100M raised, revenue unknown, AI-native ERP; Rillet, Aug 2025); Puzzle (at least $15M raised, revenue unknown, startup accounting system; Puzzle, Sep 2022) |
-| Moat Signals | Immutable snapshots, deterministic checks, source lineage, and hash-chained receipts (Definite documentation, Jul 2026) |
-| Risk Factors | Product-positioning transition (YC launch and company website, Jul 2026), read-only action boundary (company website, Jul 2026), source-data dependency (Definite terms, Jul 2026) |
-| Founder Reach | No public data found |
-| Distribution Signals | Summer 2026 YC launch; zero YC job postings (YC company page, Jul 2026) |
-| Emails | contact@usedefinite.com (company terms and documentation, Jul 2026); gurshabd@usedefinite.com (YC launch, Jul 2026) |
+| Traction | 170 LinkedIn followers; 11 Launch YC votes; Menlo Times launch-roundup coverage ([LinkedIn, Aug 2026](https://www.linkedin.com/company/usedefinite/); [YC Launch, Jul 2026](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours); [Menlo Times, Jul 2026](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-129)) |
+| Revenue Signal | Custom order-form pricing with fees generally payable in advance; amounts undisclosed ([Definite terms, Jul 2026](https://www.usedefinite.com/terms)) |
+| Founders | Mazin Al-Ani: Waterloo CS, Optiver, Boosted.ai; Farhan Ur Rehman: Waterloo statistics, Meta; Gurshabd Singh Varaich: CEO, Waterloo CS, BitGo ([YC company page, Aug 2026](https://www.ycombinator.com/companies/definite)) |
+| Competitors | Numeric ($38M disclosed, revenue unknown, month-end automation); Stacks ($35M disclosed, revenue unknown, ERP-connected close agents); Basis ($137.6M disclosed, revenue unknown, agents for accounting firms) ([Numeric](https://www.numeric.io/blog/numerics-raises-28m); [Stacks](https://stacks.ai/resources/stacks-raises-23-million-to-reinvent-finance-operations-with-agentic-ai); [Basis](https://www.getbasis.ai/blog)) |
+| Moat Signals | Company-reported FinBalance and FinAuditing benchmark performance; reusable mappings, rules, and evidence lineage ([YC Launch, Jul 2026](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours); [Definite website, Aug 2026](https://www.usedefinite.com/)) |
+| Risk Factors | Input-data dependence, product-scope changes, unnamed public security certification, funded competitors ([Definite terms, Jul 2026](https://www.usedefinite.com/terms); [Definite security, Jul 2026](https://www.usedefinite.com/security)) |
+| Founder Reach | Mazin: 487 LinkedIn followers and 0 GitHub repo stars; Gurshabd: 687 LinkedIn followers; Farhan: no public reach data ([Mazin LinkedIn](https://ca.linkedin.com/in/mazinalani); [Mazin GitHub](https://github.com/mazinalani/popcoin); [Gurshabd LinkedIn](https://ca.linkedin.com/in/gvaraich)) |
+| Distribution Signals | 170 company LinkedIn followers, @UseDefinite X account with count not retrievable, 11 Launch YC votes, 0 YC jobs ([LinkedIn, Aug 2026](https://www.linkedin.com/company/usedefinite/); [YC company page, Aug 2026](https://www.ycombinator.com/companies/definite); [YC Launch, Jul 2026](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)) |
+| Emails | contact@usedefinite.com, mazin@usedefinite.com, gurshabd@usedefinite.com ([Definite documentation](https://docs.usedefinite.com/); [Definite security](https://www.usedefinite.com/security); [YC Launch](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)) |

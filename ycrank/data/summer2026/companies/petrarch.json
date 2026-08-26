@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Marketplace, B2B, Data Engineering",
     "yc_partner": "Vivian Midha Shen",
-    "emails": "founders@petrarch.co, samuel@petrarch.co, ian@petrarch.co"
+    "emails": "founders@petrarch.co, ian@petrarch.co, samuel@petrarch.co, privacy@petrarch.co ([YC](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy), [LinkedIn](https://www.linkedin.com/in/-ianlee), [LinkedIn](https://www.linkedin.com/in/samuelhahn9), [privacy policy](https://petrarch.co/privacy))"
   },
   "tags": [
     "Marketplace",
@@ -19,52 +19,52 @@
     "Data Engineering"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:28:06.165Z",
+  "memoGeneratedAt": "2026-08-11T04:36:51.507Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
+      "score": 52,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 57,
+      "score": 49,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 57,
+      "score": 63,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 65,
+      "score": 66,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 51,
+      "score": 50,
       "tier": "Neutral"
     },
-    "vinod-khosla": {
+    "sam-lessin": {
       "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 57,
-    "NR": 57,
-    "PG": 65,
-    "PT": 39,
-    "SL": 51,
-    "VK": 41
+    "CB": 52,
+    "EG": 49,
+    "NR": 63,
+    "PG": 66,
+    "PT": 50,
+    "SL": 41,
+    "VK": 26
   },
-  "consolidatedAvg": 52.29,
-  "consolidatedRank": 98,
+  "consolidatedAvg": 49.57,
+  "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 51,
-    "tractionReason": "Transactions completed across three enterprise-data categories"
+    "tractionRank": 83,
+    "tractionScore": 56,
+    "tractionReason": "Completed enterprise-data transactions; thousands of plans transferred"
   },
   "paths": {
     "memo": "summer2026/memos/petrarch.md",

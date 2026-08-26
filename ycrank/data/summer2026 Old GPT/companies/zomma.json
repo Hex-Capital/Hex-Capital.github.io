@@ -1,0 +1,83 @@
+{
+  "slug": "zomma",
+  "name": "Zomma",
+  "oneLiner": "Computer Use Agents for back offices in finance",
+  "metadata": {
+    "website": "https://zommalabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/zomma",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotic Process Automation, Finance, B2B, Workflow Automation",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@zommalabs.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotic Process Automation",
+    "Finance",
+    "B2B",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:56:08.846Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 61,
+    "NR": 53,
+    "PG": 66,
+    "PT": 42,
+    "SL": 40,
+    "VK": 41
+  },
+  "consolidatedAvg": 51.29,
+  "consolidatedRank": 108,
+  "traction": {
+    "tractionRank": 71,
+    "tractionScore": 51,
+    "tractionReason": "Unnamed hedge funds and asset managers using product"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/zomma.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/zomma.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/zomma.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/zomma.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/zomma.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/zomma.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/zomma.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/zomma.md"
+    }
+  }
+}

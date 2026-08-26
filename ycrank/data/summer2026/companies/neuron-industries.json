@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://neuronindustries.com",
     "yc_page": "https://www.ycombinator.com/companies/neuron-industries",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/neuron-industries))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "Los Angeles, CA, USA",
     "tags": "Robotic Process Automation, Manufacturing, Automation, Industrial",
-    "yc_partner": "Diana Hu",
-    "emails": "hello@neuronindustries.com"
+    "yc_partner": "Diana Hu ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/neuron-industries))",
+    "emails": "hello@neuronindustries.com ([company website, Aug 2026](https://neuronindustries.com/)), me@dennisren.com ([Dennis Ren profile, Aug 2026](https://dennisren.com/))"
   },
   "tags": [
     "Robotic Process Automation",
@@ -20,52 +20,52 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:37:42.824Z",
+  "memoGeneratedAt": "2026-08-11T16:32:34.039Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 84,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 79,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
       "score": 70,
       "tier": "Invest"
     },
-    "sam-lessin": {
-      "score": 55,
+    "elad-gil": {
+      "score": 61,
       "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 71,
+    "naval-ravikant": {
+      "score": 66,
       "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 84,
-    "EG": 55,
-    "NR": 54,
-    "PG": 79,
-    "PT": 70,
-    "SL": 55,
-    "VK": 71
+    "CB": 70,
+    "EG": 61,
+    "NR": 66,
+    "PG": 50,
+    "PT": 44,
+    "SL": 39,
+    "VK": 41
   },
-  "consolidatedAvg": 66.86,
-  "consolidatedRank": 2,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 58,
-    "tractionScore": 55,
-    "tractionReason": "Pilots in four industries; hardware priced $2,950-$6,450"
+    "tractionRank": 81,
+    "tractionScore": 57,
+    "tractionReason": "Two live pilots across industrial sectors"
   },
   "paths": {
     "memo": "summer2026/memos/neuron-industries.md",

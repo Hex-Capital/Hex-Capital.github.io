@@ -1,0 +1,81 @@
+{
+  "slug": "glen",
+  "name": "Glen",
+  "oneLiner": "Unified organizational context for agents and humans",
+  "metadata": {
+    "website": "https://www.tryglen.com/",
+    "yc_page": "https://www.ycombinator.com/companies/glen",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Generative AI, B2B",
+    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/glen), Jul 2026)",
+    "emails": "founders@tryglen.com ([Glen Slack page](https://tryglen.com/slack), Jul 2026), nikosdritsakos@gmail.com ([founder website](https://www.nikosdritsakos.com/), Jul 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:43:51.218Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 63,
+    "NR": 65,
+    "PG": 66,
+    "PT": 42,
+    "SL": 41,
+    "VK": 42
+  },
+  "consolidatedAvg": 53.71,
+  "consolidatedRank": 84,
+  "traction": {
+    "tractionRank": 89,
+    "tractionScore": 45,
+    "tractionReason": "Production teams onboarded from waitlist; counts undisclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/glen.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/glen.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/glen.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/glen.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/glen.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/glen.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/glen.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/glen.md"
+    }
+  }
+}

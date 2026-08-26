@@ -10,7 +10,7 @@
     "team_size": "5",
     "location": "New York City, NY, USA",
     "tags": "AI, Careers, Conversational AI",
-    "yc_partner": "Brad Flora",
+    "yc_partner": "Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/talentpluto), Aug 2026)",
     "emails": "No public data found"
   },
   "tags": [
@@ -19,52 +19,52 @@
     "Conversational AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:39:42.130Z",
+  "memoGeneratedAt": "2026-08-11T05:12:49.943Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 60,
+      "score": 58,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 74,
-      "tier": "Invest"
+      "score": 58,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 76,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 56,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 51,
+      "score": 48,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 53,
+      "score": 46,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 74,
-    "NR": 76,
-    "PG": 67,
-    "PT": 51,
-    "SL": 53,
-    "VK": 37
+    "CB": 58,
+    "EG": 58,
+    "NR": 60,
+    "PG": 56,
+    "PT": 48,
+    "SL": 46,
+    "VK": 30
   },
-  "consolidatedAvg": 59.71,
-  "consolidatedRank": 28,
+  "consolidatedAvg": 50.86,
+  "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 79,
-    "tractionReason": "100+ companies, 18K professionals, 50% monthly revenue growth"
+    "tractionRank": 36,
+    "tractionScore": 70,
+    "tractionReason": "20K professionals and 100 company users"
   },
   "paths": {
     "memo": "summer2026/memos/talentpluto.md",

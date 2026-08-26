@@ -10,8 +10,8 @@
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "AI-Enhanced Learning, Artificial Intelligence, Education, eLearning, Personalization",
-    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026)",
-    "emails": "hello@bloomylearning.com ([Bloomy website](https://www.bloomylearning.com/), Jul 2026), alex@bloomylearning.com ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026)"
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Aug 2026)",
+    "emails": "hello@bloomylearning.com ([Bloomy website](https://www.bloomylearning.com/), Aug 2026), alex@bloomylearning.com ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Aug 2026)"
   },
   "tags": [
     "AI-Enhanced Learning",
@@ -21,22 +21,22 @@
     "Personalization"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:39:51.705Z",
+  "memoGeneratedAt": "2026-08-11T05:10:14.740Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 48,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 54,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 53,
+      "score": 56,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 57,
+      "score": 58,
       "tier": "Neutral"
     },
     "peter-thiel": {
@@ -44,29 +44,29 @@
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 42,
+      "score": 40,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 32,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 67,
-    "EG": 54,
-    "NR": 53,
-    "PG": 57,
+    "CB": 48,
+    "EG": 56,
+    "NR": 56,
+    "PG": 58,
     "PT": 48,
-    "SL": 42,
-    "VK": 48
+    "SL": 40,
+    "VK": 32
   },
-  "consolidatedAvg": 52.71,
-  "consolidatedRank": 94,
+  "consolidatedAvg": 48.29,
+  "consolidatedRank": 77,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 49,
-    "tractionReason": "Three school pilots; over 90% requested continued use"
+    "tractionRank": 41,
+    "tractionScore": 67,
+    "tractionReason": "500 students across six schools; ARR doubling rapidly"
   },
   "paths": {
     "memo": "summer2026/memos/bloomy.md",

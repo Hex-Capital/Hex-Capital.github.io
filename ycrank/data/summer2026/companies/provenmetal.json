@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Manufacturing, Electronics",
     "yc_partner": "Vivian Midha Shen",
-    "emails": "founders@provenmetal.com"
+    "emails": "founders@provenmetal.com, johnny@provenmetal.com, security@provenmetal.com"
   },
   "tags": [
     "Hardware",
@@ -19,52 +19,52 @@
     "Electronics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:33:27.590Z",
+  "memoGeneratedAt": "2026-08-11T04:51:40.038Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 56,
+      "score": 49,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
     "naval-ravikant": {
-      "score": 50,
+      "score": 46,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 45,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 33,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 35,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 22,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 71,
-    "EG": 56,
-    "NR": 50,
-    "PG": 68,
-    "PT": 51,
-    "SL": 52,
-    "VK": 46
+    "CB": 49,
+    "EG": 31,
+    "NR": 46,
+    "PG": 45,
+    "PT": 33,
+    "SL": 35,
+    "VK": 22
   },
-  "consolidatedAvg": 56.29,
-  "consolidatedRank": 55,
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 65,
-    "tractionScore": 53,
-    "tractionReason": "Five LOIs; ordering now open"
+    "tractionRank": 151,
+    "tractionScore": 39,
+    "tractionReason": "Five customer LOIs after 30 conversations"
   },
   "paths": {
     "memo": "summer2026/memos/provenmetal.md",

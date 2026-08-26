@@ -10,8 +10,8 @@
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Infrastructure, AI",
-    "yc_partner": "Tyler Bosmeny ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox))",
-    "emails": "hello@inkbox.ai, ray@inkbox.ai ([Inkbox website](https://inkbox.ai/); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox))"
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "hello@inkbox.ai, ray@inkbox.ai, privacy@inkbox.ai"
   },
   "tags": [
     "Developer Tools",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:34:12.230Z",
+  "memoGeneratedAt": "2026-08-11T04:50:30.045Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 58,
+      "score": 52,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 63,
+      "score": 53,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 74,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 46,
+      "score": 47,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 41,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 24,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 63,
-    "NR": 73,
-    "PG": 74,
-    "PT": 46,
-    "SL": 41,
-    "VK": 39
+    "CB": 52,
+    "EG": 53,
+    "NR": 47,
+    "PG": 51,
+    "PT": 44,
+    "SL": 37,
+    "VK": 24
   },
-  "consolidatedAvg": 56.29,
-  "consolidatedRank": 54,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 51,
-    "tractionReason": "Five-agent customer deployment; $30-$200 monthly tiers"
+    "tractionRank": 111,
+    "tractionScore": 50,
+    "tractionReason": "Vendo deployed five paid-capable agent identities"
   },
   "paths": {
     "memo": "summer2026/memos/inkbox.md",

@@ -1,0 +1,83 @@
+{
+  "slug": "marker",
+  "name": "Marker",
+  "oneLiner": "Platform and FDEs for rebuilding businesses agent-first",
+  "metadata": {
+    "website": "https://onmarker.com",
+    "yc_page": "https://www.ycombinator.com/companies/marker",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Artificial Intelligence, Generative AI, SaaS, B2B, Workflow Automation",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@onmarker.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Generative AI",
+    "SaaS",
+    "B2B",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:22:31.290Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 61,
+    "EG": 66,
+    "NR": 56,
+    "PG": 66,
+    "PT": 46,
+    "SL": 42,
+    "VK": 31
+  },
+  "consolidatedAvg": 52.57,
+  "consolidatedRank": 46,
+  "traction": {
+    "tractionRank": 64,
+    "tractionScore": 60,
+    "tractionReason": "Fortune 500 and eight-figure-company engagements"
+  },
+  "paths": {
+    "memo": "summer2026/memos/marker.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/marker.md",
+      "elad-gil": "summer2026/evals/elad-gil/marker.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/marker.md",
+      "paul-graham": "summer2026/evals/paul-graham/marker.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/marker.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/marker.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/marker.md"
+    }
+  }
+}

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://synapsesemi.org",
     "yc_page": "https://www.ycombinator.com/companies/synapse-semiconductor",
-    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/synapse-semiconductor), Jul 2026)",
+    "batch": "Summer 2026",
     "industry": "Industrials / Industrials",
     "team_size": "2",
     "location": "Durham, NC, USA",
     "tags": "Artificial Intelligence, Edge Computing Semiconductors, Hard Tech, Robotics, Defense",
-    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/synapse-semiconductor), Jul 2026)",
-    "emails": "founders@synapsesemi.org, sanjeev.chauhan@duke.edu, tania.roy@duke.edu ([company website](https://www.synapsesemi.org/); [Chauhan résumé](https://sanjeev.one/assets/docs/resume.pdf); [Duke profile](https://ece.duke.edu/people/tania-roy/))"
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@synapsesemi.org, sanjeev.chauhan@duke.edu, tania.roy@duke.edu"
   },
   "tags": [
     "Artificial Intelligence",
@@ -21,52 +21,52 @@
     "Defense"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:55:46.145Z",
+  "memoGeneratedAt": "2026-08-11T05:33:10.109Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 74,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
       "score": 44,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 79,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 59,
-      "tier": "Neutral"
-    },
     "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 30,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 74,
-    "EG": 44,
-    "NR": 53,
-    "PG": 79,
-    "PT": 59,
-    "SL": 46,
-    "VK": 69
+    "CB": 60,
+    "EG": 51,
+    "NR": 66,
+    "PG": 49,
+    "PT": 44,
+    "SL": 30,
+    "VK": 42
   },
-  "consolidatedAvg": 60.57,
-  "consolidatedRank": 20,
+  "consolidatedAvg": 48.86,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 119,
-    "tractionScore": 35,
-    "tractionReason": "Working hardware; potential-partner interest only"
+    "tractionRank": 163,
+    "tractionScore": 36,
+    "tractionReason": "Fabricated and measured working hardware"
   },
   "paths": {
     "memo": "summer2026/memos/synapse-semiconductor.md",

@@ -1,0 +1,81 @@
+{
+  "slug": "realpact",
+  "name": "RealPact",
+  "oneLiner": "AI-native OS for Real Estate Brokerages",
+  "metadata": {
+    "website": "https://realpact.ai",
+    "yc_page": "https://www.ycombinator.com/companies/realpact",
+    "batch": "Summer 2026",
+    "industry": "Real Estate and Construction / Real Estate and Construction -> Housing and Real Estate",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Real Estate, Enterprise Software",
+    "yc_partner": "Jon Xu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Real Estate",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:44:18.942Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 59,
+    "NR": 39,
+    "PG": 71,
+    "PT": 41,
+    "SL": 43,
+    "VK": 40
+  },
+  "consolidatedAvg": 48.43,
+  "consolidatedRank": 132,
+  "traction": {
+    "tractionRank": 35,
+    "tractionScore": 65,
+    "tractionReason": "Paying realtors and brokerages; Sotheby's firm-wide pilot"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/realpact.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/realpact.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/realpact.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/realpact.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/realpact.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/realpact.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/realpact.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/realpact.md"
+    }
+  }
+}

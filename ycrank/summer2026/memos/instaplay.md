@@ -12,75 +12,77 @@
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Gaming |
 | YC Partner | Diana Hu |
-| Emails | akhilag01@gmail.com ([LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026, via search snippet) |
+| Emails | founders@instaplay.ai |
 
 ## The Idea
 
-- **Problem:** [Inferred]: Nontechnical consumers who want to create social games must otherwise learn a traditional engine or coding workflow, preventing rapid conversion of spontaneous ideas into playable group experiences.
-- **Approach:** A text prompt generates the game logic, source code, art, sound assets, and browser-playable output in about two minutes, with solo or multiplayer support for up to four players ([Instaplay product guide](https://www.instaplay.ai/blog/how-to-make-a-game-with-ai), Apr 2026).
-- **Differentiation:** Versus Rosebud AI’s code-editable 2D/3D creation environment and FRVR Forge’s multi-channel development and distribution engine, Instaplay emphasizes multiplayer-first browser games that open from shareable links without installation ([Instaplay About](https://www.instaplay.ai/about), Jul 2026; [Rosebud AI](https://lab.rosebud.ai/company), Jul 2026; [FRVR funding release](https://www.gamespress.com/nl/FRVR-raises-127M-to-revolutionize-game-creation-and-empower-developers), via search snippet).
-- **Business Model:** [Inferred]: A freemium or generation-credit model is possible because the site advertises free game creation, but no paid tiers, credit prices, advertising terms, or subscriptions are publicly listed.
-- **TAM/SAM:** Global AI-in-gaming revenue was estimated at $4.36 billion in 2025 with a 36.1% CAGR through 2033, while the narrower AI game-development-tools market was $1.315 billion in 2025 with a 16.9% CAGR through 2032 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-gaming-market-report), May 2026; [Market Publishers](https://pdf.marketpublishers.com/lpinfo/global-ai-game-development-tools-market-lp.pdf), May 2026).
-- **GTM / Distribution:** [Inferred]: Distribution is built around public game discovery, shareable browser links, remixing or forking other games, and search-oriented creation guides ([Instaplay Explore](https://www.instaplay.ai/explore), Jul 2026; [Instaplay About](https://www.instaplay.ai/about), Jul 2026).
+- **Problem:** People seeking to turn game ideas into playable social experiences otherwise face coding, asset creation, and traditional game-engine setup before friends can play ([Instaplay About](https://www.instaplay.ai/about), Aug 2026).
+- **Approach:** Users describe mechanics, theme, controls, and gameplay in English, after which Instaplay generates code, art, and rules and publishes the result as a playable browser link ([Instaplay About](https://www.instaplay.ai/about), Aug 2026).
+- **Differentiation:** Instaplay produces solo and multiplayer browser games, whereas GameNGen is a research demonstration, Ludo.ai focuses on design and planning, and Pops differentiates through mobile reaction-video sharing ([Instaplay comparison](https://www.instaplay.ai/blog/best-ai-game-generators), Apr 2026; [Pops YC profile](https://www.ycombinator.com/companies/pops), Aug 2026).
+- **Business Model:** [Inferred]: A freemium consumer model is possible because creation is advertised as “free to start,” but no paid tiers, advertising terms, or creator revenue share are publicly disclosed ([Instaplay About](https://www.instaplay.ai/about), Aug 2026).
+- **TAM/SAM:** The global games market generated $201.6B in 2025 and is forecast to reach $234.4B in 2028 at a 5.1% CAGR, while generative AI in gaming was estimated at $2.2B in 2025 with a 21% CAGR through 2034 ([Newzoo](https://newzoo.com/resources/blog/global-games-market-q2-2026), Jun 2026; [Research and Markets](https://www.researchandmarkets.com/reports/6187682/generative-ai-in-gaming-market-outlook-market), 2026).
+- **GTM / Distribution:** Games are distributed as links through group chats and Discord, with the company reporting organic discovery through AI tools such as ChatGPT and seeking consumer and influencer partnerships ([Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** The public game catalog, remix functionality, and game-level play counts provide initial user-content and discovery-loop signals, including one public game showing 5,567 plays ([Scrub Club](https://www.instaplay.ai/play/scrub-club/6d93533a), Jul 2026).
-- **Future moat:** [Inferred]: A graph connecting creators, prompts, generated games, remixes, and play behavior could improve discovery or generation quality, but aggregate users, retention, dataset size, and proprietary-model evidence are not public.
-- **Market structure:** No structural barrier identified at this stage, as Astrocade, Rosebud AI, and FRVR already offer overlapping natural-language or AI-assisted game-creation workflows ([Astrocade](https://www.astrocade.com/blog/astrocade-raises-56m-funding), May 2026; [Rosebud AI](https://lab.rosebud.ai/company), Jul 2026; [FRVR](https://corp.frvr.com/), Jul 2026).
-- **Commoditization risk:** Funded competitors and general-purpose coding models can generate browser-game code, while competing platforms already combine game generation with creation communities or established distribution ([Astrocade](https://www.astrocade.com/blog/astrocade-raises-56m-funding), May 2026; [FRVR](https://corp.frvr.com/), Jul 2026).
+- **Moat today:** Instaplay records creator prompts, model-and-harness outputs, edits, player preferences, and engagement across a network reporting 20,000+ creators and 100,000+ monthly users ([Instaplay FunBench](https://www.instaplay.ai/research/funbench), Aug 2026; [Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026).
+- **Future moat:** [Inferred]: Repeated prompt, edit, preference, and engagement data could improve game-generation evaluation and discovery, but the company has not published evidence that this data produces proprietary model performance.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Astrocade, Verse8, Pops, and general-purpose coding agents can all produce or facilitate prompt-generated playable experiences, with several offering comparable social or multiplayer features ([Astrocade funding report](https://www.pocketgamer.biz/astrocade-raises-56m-to-expand-ai-powered-games-creation-platform/), May 2026; [Verse8 report](https://nextbiggames.com/2026/03/29/verse8-ai-game-creation-platform/), Mar 2026; [Pops YC profile](https://www.ycombinator.com/companies/pops), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Public game “Scrub Club”: 5,567 plays after publication on July 12, 2026 ([Instaplay game page](https://www.instaplay.ai/play/scrub-club/6d93533a), Jul 2026).
-  - Public catalog games include Swordling at 4,840 plays, Neon Reflex at 4,536 plays, and Crowd Gun Bridge at 4,488 plays ([Instaplay Explore](https://www.instaplay.ai/explore), Jul 2026).
-  - Zero active job postings ([YC company page](https://www.ycombinator.com/companies/instaplay), Jul 2026).
+  - 20,000+ creators and 100,000+ monthly active users, with growth described as organic ([Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026).
+  - More than 3,000 blinded player votes had been collected for the first FunBench season by August 6, 2026 ([Instaplay FunBench](https://www.instaplay.ai/research/funbench), Aug 2026).
+  - Zero jobs were listed on the YC company profile ([YC company profile](https://www.ycombinator.com/companies/instaplay), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Astrocade ($56M announced in new funding, revenue unknown): natural-language mobile entertainment platform reporting more than 20 million engaged users and hundreds of millions of monthly plays ([Astrocade](https://www.astrocade.com/blog/astrocade-raises-56m-funding), May 2026).
-  - Rosebud AI ($9.9M raised, revenue unknown): supports prompt-driven, code-editable 2D and 3D game creation rather than Instaplay’s multiplayer-first browser positioning ([Forbes](https://www.forbes.com/companies/rosebud-ai/), via search snippet; [Rosebud AI](https://lab.rosebud.ai/company), Jul 2026).
-  - FRVR ($94.3M raised, revenue unknown): combines its Forge AI engine with distribution across mobile, PC, web, and partner channels ([CB Insights](https://www.cbinsights.com/company/frvr/financials), Jul 2026, via search snippet).
-- **Why now:** [Inferred]: Generative systems can now combine code, art, animation, music, rules, and publishing from natural-language input, while Astrocade reports reaching more than 20 million engaged users within eight months of launch ([Dentsu](https://www.group.dentsu.com/en/news/release/001671.html), May 2026).
+  - Astrocade ($56M raised, revenue unknown): generates playable interactive experiences and reports more than 20M users plus hundreds of millions of monthly plays ([PocketGamer.biz](https://www.pocketgamer.biz/astrocade-raises-56m-to-expand-ai-powered-games-creation-platform/), May 2026).
+  - Verse8 ($5M raised, revenue unknown): emphasizes text-generated multiplayer worlds and reported 3.5M monthly users and 25,000 generated games ([NextBigGames](https://nextbiggames.com/2026/03/29/verse8-ai-game-creation-platform/), Mar 2026).
+  - Pops (funding amount undisclosed, revenue unknown): is a mobile-first AI-game network where every play can become a shareable reaction video ([Pops YC profile](https://www.ycombinator.com/companies/pops), Aug 2026).
+  - Status AI ($17M raised, revenue unknown): focuses on user-generated character worlds and immersive social role-play rather than prompt-generated browser games ([TechCrunch](https://techcrunch.com/2026/05/19/gamified-social-media-network-status-announces-17m-funding-to-help-usher-in-new-era-of-social-networking/), May 2026).
+- **Why now:** [Inferred]: Frontier agents can now produce playable games in one pass at measured model costs of $0.86–$7.11 per delivered game, creating a technical and cost threshold for consumer prompt-to-game products ([Instaplay FunBench](https://www.instaplay.ai/research/funbench), Aug 2026).
 
 ## Founders & Team
 
-- **Gary Wu (Founder):**
-  - Background: Harvard concurrent AB/SM degrees in computer science, former Salesforce APM leading RL Environments and Agentforce Tableau product work, and prior co-founder of LLM-evaluation startup Verita ([Gary Wu](https://gary-wu.com/), Jul 2026).
-  - Twitter/X: @garywu_eth; count not retrievable ([GitHub profile](https://github.com/garywuuu), Jul 2026).
-  - LinkedIn: “Instaplay (YC S26),” with 3K followers ([LinkedIn](https://www.linkedin.com/in/garywu23), Jul 2026, via search snippet).
-  - GitHub: @garywuuu; top owned repositories show one star each ([GitHub](https://github.com/garywuuu?tab=repositories), Jul 2026).
-- **Frank Liu (Co-founder & CTO):**
-  - Background: NYU computer-science researcher, former Instagram software engineer, and former S&P Global intern ([GitHub](https://github.com/frvnkliu), Jul 2026; [personal portfolio](https://frvnkliu.github.io/portfolio/), Jul 2026).
+- **Gary Wu ([Founder](https://www.ycombinator.com/companies/instaplay)):**
+  - Background: Wu completed concurrent Harvard AB/SM degrees in computer science, led Agentforce Tableau product work at Salesforce, and previously co-founded LLM-evaluation startup Verita, which raised funding from Pear VC and Unusual Ventures ([Gary Wu](https://gary-wu.com/), Aug 2026).
+  - Twitter/X: @garywu_eth; follower count not retrievable ([Gary Wu GitHub](https://github.com/garywuuu), Aug 2026).
+  - LinkedIn: “Instaplay (YC S26),” with 3K followers ([LinkedIn](https://www.linkedin.com/in/garywu23), Jul 2026).
+  - GitHub: @garywuuu; `reddit-nlp-trading` has 1 star ([GitHub](https://github.com/garywuuu), Aug 2026).
+- **Frank Liu ([Co-founder and CTO](https://www.extruct.ai/data-room/ycombinator-companies-s26/)):**
+  - Background: Liu attended New York University and previously worked as a software engineer at Instagram, while Instaplay’s launch identifies him as a top-1,000 Teamfight Tactics player ([LinkedIn](https://www.linkedin.com/in/frvnk), Jul 2026; [Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Instaplay (YC S26),” with 1K followers ([LinkedIn](https://www.linkedin.com/in/frvnk), Jul 2026, via search snippet).
-  - GitHub: @frvnkliu; top owned repository PyIGV has one star ([GitHub](https://github.com/frvnkliu), Jul 2026).
-- **Akhil Aggarwal (Co-founder):**
-  - Background: NYU Stern/CAS computer science and business graduate with prior software-engineering work at AWS, Kunduz, and Sidoti & Company ([personal site](https://akhilagg.com/), Jul 2026).
+  - LinkedIn: “Instaplay (YC S26),” with 1K followers ([LinkedIn](https://www.linkedin.com/in/frvnk), Jul 2026).
+  - GitHub: No verified public profile found.
+- **Akhil Aggarwal ([Co-founder](https://www.extruct.ai/data-room/ycombinator-companies-s26/)):**
+  - Background: Aggarwal studied computer science and business at NYU Stern/CAS, worked in AWS software engineering on globally deployed credential-threat detection, and later invested at Bain Capital Ventures ([Akhil Aggarwal](https://akhilagg.com/), Jul 2026; [Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Instaplay (YC S26),” with 2K followers ([LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026, via search snippet).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Frank Liu and Akhil Aggarwal both attended New York University, while no public source documents how they met Gary Wu ([Frank Liu LinkedIn](https://www.linkedin.com/in/frvnk), Jul 2026, via search snippet; [Akhil Aggarwal](https://akhilagg.com/), Jul 2026).
-- **Founder-market fit:** [Inferred]: Wu’s reinforcement-learning and agentic-product work, Liu’s software and research background, and Aggarwal’s AWS and consumer-tool development provide relevant AI and web-product experience, though no public source documents prior commercial game-development work.
+  - LinkedIn: “Instaplay (YC S26),” with 2K followers ([LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026).
+  - GitHub: @akhilag01; `helloworld` has 0 stars ([GitHub](https://github.com/akhilag01), Aug 2026).
+- **Co-founder relationship:** Frank Liu and Akhil Aggarwal both attended New York University, but no public source establishes that they met there ([Frank Liu LinkedIn](https://www.linkedin.com/in/frvnk), Jul 2026; [Akhil Aggarwal](https://akhilagg.com/), Jul 2026).
+- **Founder-market fit:** [Inferred]: The team combines AI-product and evaluation work, consumer social engineering at Instagram, cloud-security engineering, venture investing, and personal gaming experience ([Gary Wu](https://gary-wu.com/), Aug 2026; [Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026).
 
 ## Key Risks
 
-- **Competitive scale:** Astrocade reports more than 20 million engaged users and hundreds of millions of monthly plays after eight months, while Instaplay’s largest identified public game page shows 5,567 plays ([Astrocade](https://www.astrocade.com/blog/astrocade-raises-56m-funding), May 2026; [Scrub Club](https://www.instaplay.ai/play/scrub-club/6d93533a), Jul 2026).
-- **Generated-output quality:** Instaplay describes the first generated game as a draft that users should play and refine, so repeated correction of logic, controls, visuals, or difficulty may create friction for users expecting finished games ([Instaplay product guide](https://www.instaplay.ai/blog/how-to-make-a-game-with-ai), Apr 2026).
-- **IP and moderation exposure:** Public catalog prompts explicitly request games inspired by GTA and Rocket League, creating potential trademark, copyright, and moderation obligations; no accessible public mitigation details were found ([Instaplay Explore](https://www.instaplay.ai/explore), Jul 2026).
-- **Name ambiguity:** Search results also surface an unrelated French board-game company, Indian electronics brand, lottery product, and unrelated mobile applications named InstaPlay, creating discovery and brand-confusion risk ([French InstaPlay LinkedIn](https://fr.linkedin.com/company/instaplay), Jul 2026; [INSTAPLAYIN LinkedIn](https://in.linkedin.com/company/instaplayin), Jul 2026).
+- **Generated-game retention:** FunBench reports median engaged play of 3.0–7.9 seconds and identifies recurring defects such as inverted controls, incomplete progression, and broken interfaces ([Instaplay FunBench](https://www.instaplay.ai/research/funbench), Aug 2026).
+- **Competitive funding:** Astrocade has raised $56M and Verse8 $5M for overlapping prompt-to-game platforms, while Pops offers a competing social creation loop ([PocketGamer.biz](https://www.pocketgamer.biz/astrocade-raises-56m-to-expand-ai-powered-games-creation-platform/), May 2026; [NextBigGames](https://nextbiggames.com/2026/03/29/verse8-ai-game-creation-platform/), Mar 2026).
+- **Generation economics:** Instaplay’s benchmark measured $0.86–$7.11 in model spend per delivered game while the consumer product is free to start, and no paid pricing is publicly disclosed ([Instaplay FunBench](https://www.instaplay.ai/research/funbench), Aug 2026; [Instaplay About](https://www.instaplay.ai/about), Aug 2026).
+- **UGC governance transparency:** The product supports publishing, profiles, likes, comments, and multiplayer rooms, but its indexed terms and security routes displayed general product copy rather than detailed policies at research time ([Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026; [Instaplay Terms](https://www.instaplay.ai/terms), Aug 2026).
+- **Name collision:** “Instaplay” is also used by an unrelated French board-game consultancy and an Indian consumer-electronics company, creating search and brand-disambiguation risk ([French Instaplay LinkedIn](https://fr.linkedin.com/company/instaplay), Jul 2026; [INSTAPLAYIN LinkedIn](https://in.linkedin.com/company/instaplayin), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.36B global AI-in-gaming market in 2025; 36.1% CAGR through 2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-gaming-market-report), May 2026) |
-| SAM | $1.315B AI game-development-tools market in 2025; 16.9% CAGR through 2032 ([Market Publishers](https://pdf.marketpublishers.com/lpinfo/global-ai-game-development-tools-market-lp.pdf), May 2026) |
-| Traction | Scrub Club: 5,567 plays ([Instaplay](https://www.instaplay.ai/play/scrub-club/6d93533a), Jul 2026); public catalog titles at 4,840, 4,536, and 4,488 plays ([Instaplay Explore](https://www.instaplay.ai/explore), Jul 2026) |
-| Revenue Signal | No public data found |
-| Founders | Gary Wu (Founder): Harvard AB/SM, Salesforce APM, Verita co-founder ([personal site](https://gary-wu.com/), Jul 2026); Frank Liu (Co-founder/CTO): NYU, former Instagram SWE ([GitHub](https://github.com/frvnkliu), Jul 2026); Akhil Aggarwal (Co-founder): NYU CS/business, former AWS engineer ([personal site](https://akhilagg.com/), Jul 2026) |
-| Competitors | Astrocade ($56M announced, revenue unknown, mobile social creation platform) ([Astrocade](https://www.astrocade.com/blog/astrocade-raises-56m-funding), May 2026); Rosebud AI ($9.9M raised, revenue unknown, code-editable 2D/3D creation) ([Forbes](https://www.forbes.com/companies/rosebud-ai/), via search snippet); FRVR ($94.3M raised, revenue unknown, multi-channel engine and distribution) ([CB Insights](https://www.cbinsights.com/company/frvr/financials), Jul 2026, via search snippet) |
-| Moat Signals | Public game catalog, remixing, share links, and game-level play data ([Instaplay About](https://www.instaplay.ai/about), Jul 2026; [Instaplay Explore](https://www.instaplay.ai/explore), Jul 2026) |
-| Risk Factors | Competitor scale ([Astrocade](https://www.astrocade.com/blog/astrocade-raises-56m-funding), May 2026), generated-output iteration requirements ([Instaplay](https://www.instaplay.ai/blog/how-to-make-a-game-with-ai), Apr 2026), IP and moderation exposure ([Instaplay Explore](https://www.instaplay.ai/explore), Jul 2026) |
-| Founder Reach | Gary Wu: X count not retrievable, LinkedIn 3K, GitHub top owned repo one star ([LinkedIn](https://www.linkedin.com/in/garywu23), via search snippet; [GitHub](https://github.com/garywuuu?tab=repositories), Jul 2026); Frank Liu: no X found, LinkedIn 1K, GitHub top owned repo one star ([LinkedIn](https://www.linkedin.com/in/frvnk), via search snippet; [GitHub](https://github.com/frvnkliu), Jul 2026); Akhil Aggarwal: no X/GitHub found, LinkedIn 2K ([LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026, via search snippet) |
-| Distribution Signals | Public game with 5,567 plays ([Instaplay](https://www.instaplay.ai/play/scrub-club/6d93533a), Jul 2026); zero active YC job postings ([YC](https://www.ycombinator.com/companies/instaplay), Jul 2026) |
-| Emails | akhilag01@gmail.com ([LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026, via search snippet) |
+| TAM | $201.6B global games revenue in 2025; 5.1% CAGR to $234.4B in 2028 ([Newzoo](https://newzoo.com/resources/blog/global-games-market-q2-2026), 2026) |
+| SAM | $2.2B generative-AI-in-gaming market in 2025; 21% CAGR through 2034 ([Research and Markets](https://www.researchandmarkets.com/reports/6187682/generative-ai-in-gaming-market-outlook-market), 2026) |
+| Traction | 20,000+ creators, 100,000+ monthly active users, and 3,000+ FunBench votes ([Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026; [FunBench](https://www.instaplay.ai/research/funbench), Aug 2026) |
+| Revenue Signal | Free to start; no paid pricing disclosed ([Instaplay About](https://www.instaplay.ai/about), Aug 2026) |
+| Founders | Gary Wu: Harvard CS AB/SM, Salesforce APM, Verita co-founder; Frank Liu: NYU, former Instagram SWE; Akhil Aggarwal: NYU Stern/CAS, former AWS engineer and BCV investor ([Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026) |
+| Competitors | Astrocade ($56M raised, revenue unknown, established creator network); Verse8 ($5M raised, revenue unknown, multiplayer worlds); Pops (funding and revenue unknown, reaction-video distribution); Status AI ($17M raised, revenue unknown, character-based social worlds) ([PocketGamer.biz](https://www.pocketgamer.biz/astrocade-raises-56m-to-expand-ai-powered-games-creation-platform/), 2026; [TechCrunch](https://techcrunch.com/2026/05/19/gamified-social-media-network-status-announces-17m-funding-to-help-usher-in-new-era-of-social-networking/), 2026) |
+| Moat Signals | Prompt, output, edit, player-preference, and engagement telemetry across 20,000+ creators and 100,000+ monthly users ([FunBench](https://www.instaplay.ai/research/funbench), Aug 2026; [Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026) |
+| Risk Factors | Generated-game retention and defects ([FunBench](https://www.instaplay.ai/research/funbench), Aug 2026), funded competitors ([PocketGamer.biz](https://www.pocketgamer.biz/astrocade-raises-56m-to-expand-ai-powered-games-creation-platform/), May 2026), generation costs without disclosed paid pricing ([Instaplay About](https://www.instaplay.ai/about), Aug 2026) |
+| Founder Reach | Gary Wu: X count not retrievable, LinkedIn 3K, GitHub top verified repo 1 star; Frank Liu: LinkedIn 1K, other reach unavailable; Akhil Aggarwal: LinkedIn 2K, GitHub top repo 0 stars ([Gary LinkedIn](https://www.linkedin.com/in/garywu23), Jul 2026; [Frank LinkedIn](https://www.linkedin.com/in/frvnk), Jul 2026; [Akhil LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026) |
+| Distribution Signals | Browser links shared through group chats and Discord, organic discovery through ChatGPT, and consumer/influencer partnership outreach ([Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026) |
+| Emails | founders@instaplay.ai ([Launch YC](https://www.ycombinator.com/launches/SPs-instaplay-make-and-play-anything), Aug 2026) |

@@ -11,59 +11,59 @@
     "location": "Brisbane, QLD, Australia",
     "tags": "Artificial Intelligence, Construction",
     "yc_partner": "Gustaf Alstromer",
-    "emails": "zander@alloovium.com"
+    "emails": "zander@alloovium.com, privacy@alloovium.com"
   },
   "tags": [
     "Artificial Intelligence",
     "Construction"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:43:26.971Z",
+  "memoGeneratedAt": "2026-08-11T05:24:05.615Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 62,
+      "score": 49,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 59,
+      "score": 60,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 56,
+      "score": 49,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 49,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 43,
+      "score": 37,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 62,
-    "EG": 59,
-    "NR": 56,
-    "PG": 68,
-    "PT": 43,
-    "SL": 46,
-    "VK": 39
+    "CB": 49,
+    "EG": 60,
+    "NR": 49,
+    "PG": 49,
+    "PT": 37,
+    "SL": 40,
+    "VK": 36
   },
-  "consolidatedAvg": 53.29,
-  "consolidatedRank": 88,
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 56,
-    "tractionScore": 56,
-    "tractionReason": "Deployed across A$400M+ projects; compliance beta"
+    "tractionRank": 58,
+    "tractionScore": 61,
+    "tractionReason": "Paid subscriptions across $400M of active projects"
   },
   "paths": {
     "memo": "summer2026/memos/alloovium.md",

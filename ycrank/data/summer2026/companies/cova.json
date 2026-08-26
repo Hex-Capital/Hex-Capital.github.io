@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "Detroit, MI, USA",
     "tags": "Artificial Intelligence, Consumer Health Services, Healthcare",
-    "yc_partner": "Jared Friedman ([YC](https://www.ycombinator.com/companies/cova), Jul 2026)",
-    "emails": "jordan@cova.care ([Jordan Ibe LinkedIn](https://www.linkedin.com/in/c-jordan-ibe), Jul 2026)"
+    "yc_partner": "Jared Friedman ([YC](https://www.ycombinator.com/companies/cova), Aug 2026)",
+    "emails": "founders@cova.care ([YC](https://www.ycombinator.com/companies/cova), Aug 2026), jordan@cova.care ([LinkedIn](https://www.linkedin.com/in/c-jordan-ibe), Aug 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "Healthcare"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:11:48.068Z",
+  "memoGeneratedAt": "2026-08-11T05:55:35.069Z",
   "evalScores": {
     "cyan-banister": {
       "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 47,
       "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 51,
+    "naval-ravikant": {
+      "score": 54,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 57,
-    "EG": 53,
-    "NR": 43,
-    "PG": 68,
-    "PT": 37,
-    "SL": 47,
-    "VK": 51
+    "EG": 47,
+    "NR": 54,
+    "PG": 61,
+    "PT": 44,
+    "SL": 34,
+    "VK": 36
   },
-  "consolidatedAvg": 50.86,
-  "consolidatedRank": 110,
+  "consolidatedAvg": 47.57,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 33,
-    "tractionReason": "Licensed and live; no clients disclosed"
+    "tractionRank": 189,
+    "tractionScore": 28,
+    "tractionReason": "Licensed and live; customer count undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/cova.md",

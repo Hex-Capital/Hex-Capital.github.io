@@ -11,72 +11,71 @@
 | Team Size | 2 |
 | Location | London, England, United Kingdom |
 | Tags | Developer Tools, Reinforcement Learning, Open Source |
-| YC Partner | Jared Friedman |
-| Emails | founders@graphify.com, founders@graphifylabs.ai |
+| YC Partner | Jared Friedman ([YC](https://www.ycombinator.com/companies/graphify-labs), Aug 2026) |
+| Emails | founders@graphifylabs.ai ([Graphify security](https://graphify.com/security), Aug 2026), founders@graphify.com ([GitHub](https://github.com/Graphify-Labs), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** Engineering teams and coding assistants repeatedly search code and documentation without retaining cross-file relationships or producing auditable reasoning paths ([Graphify website, Jul 2026](https://graphify.com/)).
-- **Approach:** Graphify parses code locally with 36 tree-sitter grammars, creates typed relationship graphs stored on disk, and exposes path, query, explanation, and MCP interfaces with extracted, inferred, or ambiguous provenance labels ([Graphify website, Jul 2026](https://graphify.com/)).
-- **Differentiation:** Unlike vector-RAG systems that retrieve similarity-ranked chunks, Sourcegraph-style hosted search, and flat grep or ctags indexes, Graphify produces an on-device traversable graph whose edges carry source provenance ([Graphify comparison, Jul 2026](https://graphify.com/)).
-- **Business Model:** The Apache-2.0 core is free with no paid tier, while an enterprise product offering formal verification, graph-aware review, Jira integration, SSO, RBAC, and self-hosted deployment remains in early access ([Graphify pricing, Jul 2026](https://graphify.com/pricing)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** The company distributes the free core through GitHub and PyPI, supports 17 coding assistants, and directs teams needing verification and shared infrastructure to an enterprise waitlist ([Graphify website, Jul 2026](https://graphify.com/)).
+- **Problem:** AI coding assistants repeatedly grep and reread files, losing architectural context between sessions, while enterprise engineering teams need to assess cross-file impact and AI-generated pull requests ([Graphify](https://graphify.com/), Aug 2026).
+- **Approach:** Graphify parses code locally with 36 tree-sitter grammars, stores typed relationships in `graph.json`, exposes the graph through CLI/MCP, and adds self-hosted graph-aware review and formal verification for enterprise pull requests ([Graphify](https://graphify.com/), Aug 2026).
+- **Differentiation:** Unlike Sourcegraph’s cross-repository search and Greptile’s graph-indexed agent reviews, Graphify’s open core produces an auditable local graph without telemetry, while its enterprise layer claims prove-or-counterexample verification ([Graphify](https://graphify.com/enterprise), [Sourcegraph](https://sourcegraph.com/code-search), [Greptile](https://www.greptile.com/)).
+- **Business Model:** Free costs $0 for one developer, Pro is billed monthly per seat with its price shown at checkout, and Enterprise is a custom self-hosted per-developer license ([Graphify pricing](https://graphify.com/pricing), Aug 2026).
+- **TAM/SAM:** The broader AI code-tools market was estimated at $7.37B in 2025 and projected to reach $29.96B in 2031 at a 26.23% CAGR, while no public SAM estimate was found for self-hosted code-graph verification ([Research and Markets](https://www.researchandmarkets.com/reports/6248151/ai-code-tools-market-share-analysis-industry), 2026).
+- **GTM / Distribution:** Graphify distributes the Apache-2.0 open core through GitHub and PyPI, then offers paid hosted seats and self-hosted Enterprise capabilities to teams that need higher limits, shared context, and verification ([Graphify pricing](https://graphify.com/pricing), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** The public project has 98,805 GitHub stars, 9,579 forks, 4M-plus PyPI downloads, and an ecosystem of 71 contributors, providing an installed-base and contributor signal rather than proprietary source-code exclusivity ([GitHub, Jul 29 2026](https://github.com/Graphify-Labs/graphify); [University of Birmingham, 2026](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi)).
-- **Future moat:** [Inferred]: Continuously synchronized organization-specific graphs, maintainer feedback, and verification histories could create switching costs, but the enterprise layer is still in early access and no retention data are public.
-- **Market structure:** No structural barrier identified at this stage, because the core is Apache-2.0 licensed and the graph, MCP, provenance, and parsing mechanisms are publicly inspectable ([Graphify GitHub, Jul 2026](https://github.com/Graphify-Labs/graphify)).
-- **Commoditization risk:** Sourcegraph can extend enterprise code intelligence, while Greptile and Qodo can add graph-based context or on-premise deployment to their funded code-review products ([Sourcegraph, Jul 2021](https://sourcegraph.com/blog/announcing-sourcegraphs-series-d-round); [Greptile, Sep 2025](https://www.greptile.com/blog/series-a); [Qodo, Mar 2026](https://www.globenewswire.com/news-release/2026/03/30/3264740/0/en/qodo-raises-70m-to-accelerate-fight-against-software-slop-from-openclaw-and-claude-code.html)).
+- **Moat today:** The open-source project has 105,036 GitHub stars, 4.7M+ PyPI downloads, and a reported 71-person contributor community ([Graphify](https://graphify.com/), [University of Birmingham](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi), Aug 2026).
+- **Future moat:** [Inferred]: Continuously updated team graphs, review feedback, Jira history, and merge-gate integration could create workflow switching costs, but the enterprise layer remains in early access ([Graphify Enterprise](https://graphify.com/enterprise), Aug 2026).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** The core is Apache-2.0 licensed, while Greptile and CodeRabbit already build code graphs for repository-aware pull-request review ([Graphify security](https://graphify.com/security), [Greptile](https://www.greptile.com/), [CodeRabbit](https://www.coderabbit.ai/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 98,805 GitHub stars, 9,579 forks, and 269 GitHub-organization followers ([GitHub, Jul 29 2026](https://github.com/Graphify-Labs/graphify)).
-  - 4M-plus PyPI downloads ([Graphify website, Jul 2026](https://graphify.com/)).
-  - 95K GitHub stars and 3.5M-plus downloads achieved in under four months ([YC profile, Jul 2026](https://www.ycombinator.com/companies/graphify-labs)).
-  - Used in production by engineers at Rootly, Geotab, and Tweddle Group ([YC profile, Jul 2026](https://www.ycombinator.com/companies/graphify-labs)).
-  - Rootly AI Labs published an integration mapping incidents, alerts, teams, and services into Graphify ([Graphify website, Jul 2026](https://graphify.com/)).
-  - Customer testimonials reported 71.5-times fewer tokens in one Claude Code configuration and 79-times fewer tokens on a 496K-token codebase ([Graphify website, Jul 2026](https://graphify.com/)).
-  - Coverage included Analytics Vidhya, Better Stack, DEV Community, Augment Code, and HelloGitHub between April and July 2026 ([Graphify website, Jul 2026](https://graphify.com/)).
-  - Zero active YC job listings ([YC profile, Jul 2026](https://www.ycombinator.com/companies/graphify-labs)).
+  - Open-source Graphify: 105,036 GitHub stars and 4.7M+ PyPI downloads ([Graphify](https://graphify.com/), Aug 10, 2026).
+  - Open-source Graphify: used in production by engineers at Rootly, Geotab, Tweddle Group, and Superagent ([YC](https://www.ycombinator.com/companies/graphify-labs), Aug 2026).
+  - GitHub organization: 373 followers and 104,984 repository stars ([GitHub](https://github.com/Graphify-Labs), Aug 10, 2026).
+  - Discord: 316 members and 46 online ([Gridinsoft](https://gridinsoft.com/online-virus-scanner/url/graphify-com), Jul 26, 2026).
+  - Coverage: articles or videos from Analytics Vidhya, Rootly, Augment Code, Better Stack, DEV Community, and other community publishers ([Graphify](https://graphify.com/), Aug 2026).
+  - Enterprise product: early access with its first design-partner cohort forming; no paid-customer count disclosed ([Graphify Enterprise](https://graphify.com/enterprise), Aug 2026).
+  - YC jobs page: 0 active positions ([YC](https://www.ycombinator.com/companies/graphify-labs), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Sourcegraph ($223M raised, revenue unknown): enterprise universal code search and code intelligence rather than a local provenance-tagged knowledge-graph file ([Sourcegraph funding history](https://en.wikipedia.org/wiki/Sourcegraph); [Graphify comparison](https://graphify.com/)).
-  - Greptile ($30M raised, revenue unknown): AI pull-request review backed by a repository codebase graph, versus Graphify’s free local graph plus early-access verification layer ([Georgia Tech, Jan 2026](https://www.gatech.edu/news/2026/01/05/y-combinator-backing-and-30m-investment-take-startup-greptile-next-level); [Graphify pricing](https://graphify.com/pricing)).
-  - Qodo ($120M raised, revenue unknown): multi-agent code review and governance using organizational standards and history, versus Graphify’s on-device graph and prove-or-counterexample positioning ([Qodo, Mar 2026](https://www.globenewswire.com/news-release/2026/03/30/3264740/0/en/qodo-raises-70m-to-accelerate-fight-against-software-slop-from-openclaw-and-claude-code.html); [Graphify GitHub](https://github.com/Graphify-Labs/graphify)).
-- **Why now:** [Inferred]: The 2026 spread of autonomous coding agents created demand for persistent codebase context and pre-merge verification as generated-code volume began exceeding human review capacity ([Qodo, Mar 2026](https://www.globenewswire.com/news-release/2026/03/30/3264740/0/en/qodo-raises-70m-to-accelerate-fight-against-software-slop-from-openclaw-and-claude-code.html)).
+  - **Greptile ($30M raised, revenue unknown):** Builds a repository graph and deploys agent swarms for PR review, while Graphify combines a local open core with self-hosted verification ([Georgia Tech](https://news.gatech.edu/news/2026/01/05/y-combinator-backing-and-30m-investment-take-startup-greptile-next-level), [Greptile](https://www.greptile.com/)).
+  - **CodeRabbit ($88M raised, $15M+ ARR):** Combines code graphs with 40+ linters and scanners across PR, IDE, and CLI workflows, versus Graphify’s on-device graph and claimed formal verification ([TechCrunch](https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/), Sep 2025).
+  - **Sourcegraph ($223M raised, revenue unknown):** Searches and navigates code across up to 1M+ repositories, while Graphify generates a local graph designed for agent traversal and provenance ([Sourcegraph](https://sourcegraph.com/code-search), [funding summary](https://en.wikipedia.org/wiki/Sourcegraph)).
+  - **Augment Code ($252M raised, revenue unknown):** Supplies full-codebase context to coding agents and review workflows, while Graphify exposes an open local graph plus a self-hosted verification layer ([Business Wire](https://www.businesswire.com/news/home/20240424911981/en/Augment-Inc.-Raises-%24227-Million-at-%24977-Million-Valuation-to-Empower-Software-Teams-With-AI), Apr 2024).
+- **Why now:** [Inferred]: Increased AI-generated code has shifted engineering bottlenecks toward review and validation, while Graphify now integrates with 17 coding assistants ([TechCrunch](https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/), [Graphify](https://graphify.com/), 2025–2026).
 
 ## Founders & Team
 
-- **Safi Shamsi (Co-founder and CEO):**
-  - Background: MSc Data Science with Distinction from the University of Birmingham, former AI Engineer at Valent Projects working on graph-based disinformation detection, MICAD 2025 published researcher, and author of *The Memory Layer* ([YC profile, Jul 2026](https://www.ycombinator.com/companies/graphify-labs); [University of Birmingham, 2026](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi)).
-  - Twitter/X: No public personal account found; the company account is @graphify and its follower count was not retrievable ([Graphify GitHub organization, Jul 2026](https://github.com/Graphify-Labs)).
-  - LinkedIn: “Founder at Graphify Labs (YC S26)” with approximately 4K followers and 500-plus connections ([LinkedIn, Jun 2026](https://uk.linkedin.com/in/safi-shamsi)).
-  - GitHub: @safishamsi, creator and maintainer of Graphify, now hosted by Graphify-Labs with 98,805 stars ([GitHub, Jul 29 2026](https://github.com/Graphify-Labs/graphify)).
-- **Co-founder relationship:** No public data on co-founder history; the company about page names only Safi Shamsi and refers to the remaining personnel as a “small founding team” ([Graphify about page, Jul 2026](https://graphify.com/about)).
-- **Founder-market fit:** Safi Shamsi’s MSc thesis covered knowledge-graph-powered RAG, his Valent role involved graph neural networks and knowledge-graph embeddings, and his published research addressed multimodal knowledge-graph retrieval ([YC profile, Jul 2026](https://www.ycombinator.com/companies/graphify-labs); [University of Birmingham, 2026](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi)).
+- **Safi Shamsi (CEO/Founder):**
+  - Background: MSc Data Science with Distinction from the University of Birmingham in 2025, former AI engineer at Valent and SWAWE, and researcher in knowledge graphs, RAG, and explainable AI ([University of Birmingham](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi), [GitHub](https://github.com/safishamsi)).
+  - Twitter/X: [@safishamsii](https://x.com/safishamsii); count not retrievable.
+  - LinkedIn: “AI Engineer at Valent Projects,” with 4K followers on the retrieved profile ([LinkedIn](https://uk.linkedin.com/in/safi-shamsi), Jun 2026).
+  - GitHub: [@safishamsi](https://github.com/safishamsi), 1.9K followers; top repository Graphify has approximately 105K stars ([GitHub](https://github.com/safishamsi), Aug 2026).
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** [Inferred]: Shamsi’s knowledge-graph/RAG MSc thesis, knowledge-graph engineering work at Valent, and related published medical-retrieval research document experience with the product’s core architecture ([University of Birmingham](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi), [GitHub](https://github.com/safishamsi)).
 
 ## Key Risks
 
-- **Enterprise-product readiness:** The verification, code-review, engineering-digest, and Jira features are explicitly in early access, with no public paid tier or enterprise release date ([Graphify pricing, Jul 2026](https://graphify.com/pricing)).
-- **Graph accuracy:** Graphify labels some relationships “inferred” or “ambiguous,” and non-code semantic extraction can depend on a configured model backend, creating a mechanism for incorrect or non-deterministic edges ([Graphify website, Jul 2026](https://graphify.com/)).
-- **Open-source replication:** Apache-2.0 licensing permits reuse with an explicit patent grant, allowing funded code-intelligence vendors to incorporate publicly visible parsing and graph techniques ([Graphify release notes, Jul 2026](https://github.com/Graphify-Labs/graphify/releases)).
-- **Competitive financing:** Sourcegraph, Greptile, and Qodo report $223M, $30M, and $120M in funding respectively, supporting overlapping enterprise code-understanding, review, and governance products ([Sourcegraph funding history](https://en.wikipedia.org/wiki/Sourcegraph); [Georgia Tech, Jan 2026](https://www.gatech.edu/news/2026/01/05/y-combinator-backing-and-30m-investment-take-startup-greptile-next-level); [Qodo, Mar 2026](https://www.globenewswire.com/news-release/2026/03/30/3264740/0/en/qodo-raises-70m-to-accelerate-fight-against-software-slop-from-openclaw-and-claude-code.html)).
-- **Name and package confusion:** The company states that graphify.net is unaffiliated and that the official PyPI package is `graphifyy` with two y’s, creating a distribution and security-confusion risk ([Graphify security page, Jul 2026](https://graphify.com/security)).
+- **Verification feasibility:** Enterprise verification remains early access, and the published SWR-Bench result used 40 pull requests with a different judge model from the paper, which the company labels directional rather than definitive ([Graphify Enterprise](https://graphify.com/enterprise), Aug 2026).
+- **Feature overlap:** Greptile and CodeRabbit already offer repository graphs, learned team rules, and PR-review agents, while Sourcegraph provides enterprise-scale cross-repository code intelligence ([Greptile](https://www.greptile.com/), [CodeRabbit](https://www.coderabbit.ai/), [Sourcegraph](https://sourcegraph.com/code-search)).
+- **Adoption-to-revenue separation:** The 105K-star and 4.7M-download metrics belong to the free open-source core, while Enterprise is still forming its first design-partner cohort and discloses no revenue ([Graphify](https://graphify.com/), [Graphify Enterprise](https://graphify.com/enterprise), Aug 2026).
+- **Product and name ambiguity:** Earlier materials described the enterprise product as Penpax, spanning meetings, browser history, files, emails, and code, whereas the current Graphify Enterprise focuses on code review and verification; an unrelated Notion product also launched under the Graphify name ([PyPI archive](https://pypi.org/project/codegraph-tools/), Apr 2026; [Graphify Enterprise](https://graphify.com/enterprise), Aug 2026; [Product Hunt record](https://hunted.space/product/graphify), Feb 2025).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $7.37B AI code-tools market in 2025, projected to $29.96B by 2031 at 26.23% CAGR ([Research and Markets](https://www.researchandmarkets.com/reports/6248151/ai-code-tools-market-share-analysis-industry), 2026) |
 | SAM | No public data found |
-| Traction | 98,805 GitHub stars and 9,579 forks (GitHub, Jul 29 2026); 4M+ PyPI downloads (Graphify website, Jul 2026); production use by engineers at Rootly, Geotab, and Tweddle Group (YC, Jul 2026) |
-| Revenue Signal | $0 open-source tier and no paid tier currently; enterprise features in early access (Graphify pricing, Jul 2026) |
-| Founders | Safi Shamsi (Co-founder and CEO): University of Birmingham MSc Data Science with Distinction, former Valent AI Engineer, knowledge-graph researcher (YC, Jul 2026) |
-| Competitors | Sourcegraph ($223M raised, revenue unknown, enterprise code search); Greptile ($30M raised, revenue unknown, AI pull-request review); Qodo ($120M raised, revenue unknown, code-review governance) (Sourcegraph funding history; Georgia Tech, Jan 2026; Qodo, Mar 2026) |
-| Moat Signals | 98,805-star Apache-2.0 repository, 9,579 forks, 4M+ downloads, and 71-person contributor community (GitHub, Jul 2026; University of Birmingham, 2026) |
-| Risk Factors | Enterprise layer remains in early access (Graphify pricing, Jul 2026), inferred graph edges may be inaccurate (Graphify website, Jul 2026), Apache-2.0 core can be reused by competitors (GitHub releases, Jul 2026) |
-| Founder Reach | Safi Shamsi: Twitter count not retrievable, approximately 4K LinkedIn followers, 98,805 stars on Graphify (LinkedIn, Jun 2026; GitHub, Jul 29 2026) |
-| Distribution Signals | 98,805 GitHub stars, 9,579 forks, 269 GitHub-organization followers, 4M+ PyPI downloads, and integrations with 17 AI assistants (GitHub and Graphify website, Jul 2026) |
-| Emails | founders@graphify.com, founders@graphifylabs.ai (Graphify GitHub organization and security page, Jul 2026) |
+| Traction | Open-source Graphify: 105,036 GitHub stars, 4.7M+ PyPI downloads, and production use by engineers at Rootly, Geotab, Tweddle Group, and Superagent ([Graphify](https://graphify.com/), [YC](https://www.ycombinator.com/companies/graphify-labs), Aug 2026) |
+| Revenue Signal | $0 Free tier; Pro billed monthly per seat with price shown at checkout; Enterprise custom per-developer license ([Graphify pricing](https://graphify.com/pricing), Aug 2026) |
+| Founders | Safi Shamsi (CEO/Founder): University of Birmingham MSc Data Science with Distinction, former Valent AI engineer, knowledge-graph/RAG researcher ([YC](https://www.ycombinator.com/companies/graphify-labs), [University of Birmingham](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi)) |
+| Competitors | Greptile ($30M raised, revenue unknown, graph-indexed agent review) ([Georgia Tech](https://news.gatech.edu/news/2026/01/05/y-combinator-backing-and-30m-investment-take-startup-greptile-next-level)); CodeRabbit ($88M raised, $15M+ ARR, code graphs plus linters/scanners) ([TechCrunch](https://techcrunch.com/2025/09/16/coderabbit-raises-60m-valuing-the-2-year-old-ai-code-review-startup-at-550m/)); Sourcegraph ($223M raised, revenue unknown, cross-repository search) ([Sourcegraph](https://sourcegraph.com/code-search)); Augment Code ($252M raised, revenue unknown, full-codebase agent context) ([Business Wire](https://www.businesswire.com/news/home/20240424911981/en/Augment-Inc.-Raises-%24227-Million-at-%24977-Million-Valuation-to-Empower-Software-Teams-With-AI)) |
+| Moat Signals | 105,036 GitHub stars, 4.7M+ downloads, 71-person contributor community, local provenance-tagged graph, and on-prem deployment ([Graphify](https://graphify.com/), [University of Birmingham](https://www.birmingham.ac.uk/study/student-experience/meet-our-students/safi-shamsi), Aug 2026) |
+| Risk Factors | Enterprise early access and limited benchmark; overlapping graph-review competitors; Apache-2.0 forkability ([Graphify Enterprise](https://graphify.com/enterprise), [Greptile](https://www.greptile.com/), [Graphify security](https://graphify.com/security)) |
+| Founder Reach | Safi Shamsi: X @safishamsii count not retrievable, LinkedIn 4K followers, GitHub 1.9K followers and approximately 105K stars on top repository ([LinkedIn](https://uk.linkedin.com/in/safi-shamsi), [GitHub](https://github.com/safishamsi), Aug 2026) |
+| Distribution Signals | 105,036 GitHub stars, 4.7M+ PyPI downloads, 373 GitHub-organization followers, and 316 Discord members ([Graphify](https://graphify.com/), [GitHub](https://github.com/Graphify-Labs), [Gridinsoft](https://gridinsoft.com/online-virus-scanner/url/graphify-com), Jul–Aug 2026) |
+| Emails | founders@graphifylabs.ai ([Graphify security](https://graphify.com/security), Aug 2026), founders@graphify.com ([GitHub](https://github.com/Graphify-Labs), Aug 2026) |

@@ -1,0 +1,81 @@
+{
+  "slug": "erinys",
+  "name": "Erinys",
+  "oneLiner": "Building the first network of AI-native law firms",
+  "metadata": {
+    "website": "https://erinys.ai",
+    "yc_page": "https://www.ycombinator.com/companies/erinys",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Legal, LegalTech",
+    "yc_partner": "Not listed",
+    "emails": "founders@erinys.ai ([Erinys website](https://erinys.ai), Aug 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Legal",
+    "LegalTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:42:36.810Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 38,
+    "NR": 38,
+    "PG": 39,
+    "PT": 40,
+    "SL": 29,
+    "VK": 27
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 194,
+  "traction": {
+    "tractionRank": 210,
+    "tractionScore": 19,
+    "tractionReason": "Public launch soliciting lawyer referrals"
+  },
+  "paths": {
+    "memo": "summer2026/memos/erinys.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/erinys.md",
+      "elad-gil": "summer2026/evals/elad-gil/erinys.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/erinys.md",
+      "paul-graham": "summer2026/evals/paul-graham/erinys.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/erinys.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/erinys.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/erinys.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "rindler",
+  "name": "Rindler",
+  "oneLiner": "The translation layer between AI agents and the web",
+  "metadata": {
+    "website": "https://rindler.ai",
+    "yc_page": "https://www.ycombinator.com/companies/rindler",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "B2B, Workflow Automation, Infrastructure, APIs",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@rindler.ai, team@rindler.ai"
+  },
+  "tags": [
+    "B2B",
+    "Workflow Automation",
+    "Infrastructure",
+    "APIs"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:04:44.954Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 57,
+    "NR": 57,
+    "PG": 66,
+    "PT": 55,
+    "SL": 31,
+    "VK": 44
+  },
+  "consolidatedAvg": 50.43,
+  "consolidatedRank": 116,
+  "traction": {
+    "tractionRank": 62,
+    "tractionScore": 54,
+    "tractionReason": "Production workflows; $100-$1,000 monthly tiers"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/rindler.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/rindler.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/rindler.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/rindler.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/rindler.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/rindler.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/rindler.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/rindler.md"
+    }
+  }
+}

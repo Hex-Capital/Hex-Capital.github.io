@@ -1,0 +1,83 @@
+{
+  "slug": "hiloop",
+  "name": "hiloop",
+  "oneLiner": "Infrastructure for recursive self-improvement",
+  "metadata": {
+    "website": "https://hiloop.ai",
+    "yc_page": "https://www.ycombinator.com/companies/hiloop",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Machine Learning, Reinforcement Learning, Infrastructure",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@hiloop.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Machine Learning",
+    "Reinforcement Learning",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:28:13.489Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 76,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 61,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 59,
+    "NR": 66,
+    "PG": 76,
+    "PT": 48,
+    "SL": 31,
+    "VK": 61
+  },
+  "consolidatedAvg": 56.86,
+  "consolidatedRank": 48,
+  "traction": {
+    "tractionRank": 111,
+    "tractionScore": 37,
+    "tractionReason": "4,188 internal experiments; no users disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/hiloop.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/hiloop.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/hiloop.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/hiloop.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/hiloop.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/hiloop.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/hiloop.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/hiloop.md"
+    }
+  }
+}

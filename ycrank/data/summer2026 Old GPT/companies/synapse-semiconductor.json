@@ -1,0 +1,83 @@
+{
+  "slug": "synapse-semiconductor",
+  "name": "Synapse Semiconductor",
+  "oneLiner": "Collapsing the edge AI vision hardware stack into one wafer",
+  "metadata": {
+    "website": "https://synapsesemi.org",
+    "yc_page": "https://www.ycombinator.com/companies/synapse-semiconductor",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/synapse-semiconductor), Jul 2026)",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "Durham, NC, USA",
+    "tags": "Artificial Intelligence, Edge Computing Semiconductors, Hard Tech, Robotics, Defense",
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/synapse-semiconductor), Jul 2026)",
+    "emails": "founders@synapsesemi.org, sanjeev.chauhan@duke.edu, tania.roy@duke.edu ([company website](https://www.synapsesemi.org/); [Chauhan résumé](https://sanjeev.one/assets/docs/resume.pdf); [Duke profile](https://ece.duke.edu/people/tania-roy/))"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Edge Computing Semiconductors",
+    "Hard Tech",
+    "Robotics",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:55:46.145Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 79,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 69,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 74,
+    "EG": 44,
+    "NR": 53,
+    "PG": 79,
+    "PT": 59,
+    "SL": 46,
+    "VK": 69
+  },
+  "consolidatedAvg": 60.57,
+  "consolidatedRank": 20,
+  "traction": {
+    "tractionRank": 119,
+    "tractionScore": 35,
+    "tractionReason": "Working hardware; potential-partner interest only"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/synapse-semiconductor.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/synapse-semiconductor.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/synapse-semiconductor.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/synapse-semiconductor.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/synapse-semiconductor.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/synapse-semiconductor.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/synapse-semiconductor.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/synapse-semiconductor.md"
+    }
+  }
+}

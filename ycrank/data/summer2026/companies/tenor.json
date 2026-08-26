@@ -1,0 +1,81 @@
+{
+  "slug": "tenor",
+  "name": "Tenor",
+  "oneLiner": "AI workers that attribute the outcome back to the token spend",
+  "metadata": {
+    "website": "https://heytenor.com/",
+    "yc_page": "https://www.ycombinator.com/companies/tenor",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Automation, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "hamze@heytenor.com, amgad@heytenor.com"
+  },
+  "tags": [
+    "B2B",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:12:50.087Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 48,
+    "NR": 35,
+    "PG": 29,
+    "PT": 34,
+    "SL": 28,
+    "VK": 27
+  },
+  "consolidatedAvg": 34.57,
+  "consolidatedRank": 207,
+  "traction": {
+    "tractionRank": 228,
+    "tractionScore": 6,
+    "tractionReason": "Launch and follower count only"
+  },
+  "paths": {
+    "memo": "summer2026/memos/tenor.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/tenor.md",
+      "elad-gil": "summer2026/evals/elad-gil/tenor.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/tenor.md",
+      "paul-graham": "summer2026/evals/paul-graham/tenor.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/tenor.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/tenor.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/tenor.md"
+    }
+  }
+}

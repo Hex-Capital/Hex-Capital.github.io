@@ -10,60 +10,60 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Workflow Automation, Home Services",
-    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/vestris), Jul 2026)",
-    "emails": "founders@vestris.ai ([Vestris pricing](https://vestris.ai/pricing), Jul 2026)"
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@vestris.ai"
   },
   "tags": [
     "Workflow Automation",
     "Home Services"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:36:23.560Z",
+  "memoGeneratedAt": "2026-08-11T04:59:51.900Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 61,
+      "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 55,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 64,
+      "score": 53,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 39,
+      "score": 40,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 34,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 51,
-    "NR": 42,
-    "PG": 64,
-    "PT": 41,
-    "SL": 39,
-    "VK": 48
+    "CB": 57,
+    "EG": 66,
+    "NR": 55,
+    "PG": 53,
+    "PT": 48,
+    "SL": 40,
+    "VK": 34
   },
-  "consolidatedAvg": 49.43,
-  "consolidatedRank": 124,
+  "consolidatedAvg": 50.43,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 31,
-    "tractionReason": "Preview waitlist across two jurisdictions"
+    "tractionRank": 94,
+    "tractionScore": 54,
+    "tractionReason": "Live title-shop pilot settling millions monthly"
   },
   "paths": {
     "memo": "summer2026/memos/vestris.md",

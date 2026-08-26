@@ -16,70 +16,71 @@
 
 ## The Idea
 
-- **Problem:** Frontier-model developers face GPU-cluster costs and power requirements exemplified by a reported Nemotron training run using 6,144 H100 GPUs for approximately three months and 4.3 MW, with distributed GPU infrastructure as the current alternative ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-- **Approach:** Baud co-designs a multiplier-free neural-network representation and ASIC, replacing multipliers with additions, compressing weights by more than 10×, and compiling PyTorch-exportable models into that representation ([Baud website](https://baudlabs.ai/), Jul 2026; [YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-- **Differentiation:** Baud says NVIDIA tensor cores, Google TPU processing elements, Cerebras, Groq, Etched, and d-Matrix retain conventional model arithmetic or existing weights, while Baud changes both forward and backward passes and therefore requires models trained in its representation ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-- **Business Model:** [Inferred]: Monetization would likely use reserved-capacity or consumption pricing for training, fine-tuning, post-training, and inference on Baud-operated clusters because the company is accepting early-access applications and capacity reservations, but no prices are published.
-- **TAM/SAM:** The data-center accelerator market was $17.67B in 2024 and is forecast to reach $63.22B in 2030 at a 24.7% CAGR from 2025–2030 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/data-center-accelerator-market-report), accessed Jul 2026).
-- **GTM / Distribution:** Baud recruits design partners and early-access users who test its FPGA-emulated service in exchange for reserved capacity on its first production cluster ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
+- **Problem:** Frontier-model developers face compute requirements exemplified by NVIDIA’s Nemotron recipe using 6,144 H100 GPUs for about three months and drawing 4.3 MW, with Baud estimating $44M of rentals or $245M of capex ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
+- **Approach:** Baud represents neural networks without multiplications in forward or backward passes, pairs that representation with a multiplier-free ASIC, and compiles PyTorch-exportable models into its format ([Baud, Aug 2026](https://baudlabs.ai/)).
+- **Differentiation:** Baud says its arithmetic representation changes the model-math layer, whereas named alternatives Cerebras, Groq, Etched and d-Matrix primarily differentiate through accelerator architecture and systems ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
+- **Business Model:** [Inferred]: The early-access cluster and reserved-capacity program indicate consumption- or capacity-based training and inference services, with no public prices yet ([Baud, Aug 2026](https://baudlabs.ai/)).
+- **TAM/SAM:** The global AI-accelerator market was $25.6B in 2024 and is forecast to reach $256.8B in 2033 at a 29.3% CAGR from 2025–2033 ([Grand View Research, Jul 2026](https://www.grandviewresearch.com/industry-analysis/ai-accelerator-market-report)).
+- **GTM / Distribution:** Baud is recruiting design partners to test FPGA-emulated systems in exchange for reserved capacity on its first cluster ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
 
 ## Defensibility
 
-- **Moat today:** Baud has an integrated arithmetic representation, ASIC architecture, PyTorch compiler, and distributed training stack, with the design validated for GlobalFoundries’ 12 nm process and FPGA emulation operating before tape-out ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-- **Future moat:** [Inferred]: Production tape-outs, compiler coverage, model-format adoption, and workload data from design partners could create technical know-how and switching costs, but these remain unproven before production deployments.
+- **Moat today:** Baud reports a multiplier-free representation, purpose-built ASIC architecture, PyTorch compiler, distributed-training stack and GlobalFoundries 12nm process validation, creating technical implementation complexity ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
+- **Future moat:** [Inferred]: Model-conversion tooling, training recipes and workload feedback from design partners could create toolchain switching costs, but usage and retention data are not public.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Cerebras, Groq, Etched, d-Matrix, NVIDIA, and hyperscalers can develop alternative ASIC and model–hardware co-designs, with the four startup competitors having raised approximately $450M–$3.9B each ([d-Matrix](https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/), Nov 2025; [Owler](https://www.owler.com/company/groq/funding), Jun 2026).
+- **Commoditization risk:** Cerebras, Groq, Etched and d-Matrix already fund alternative wafer-scale, LPU, low-voltage and in-memory accelerator stacks with disclosed financing from $450M to several billion dollars ([competitor disclosures](https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Current product: An FPGA-emulated cluster supports pretraining, fine-tuning, RL post-training, and inference, with an unnumbered design-partner program open ([Baud website](https://baudlabs.ai/), Jul 2026).
-  - Current product: A 50M-parameter proof-of-concept trained on 5M tokens runs at 1,000+ tokens per second on one U200 FPGA clocked at 125 MHz ([Baud demo](https://baudlabs.ai/demo), Jul 2026).
-  - Current product: The first ASIC design is validated for GlobalFoundries’ 12 nm process and scheduled for tape-out by year-end 2026 ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-  - Current product: 94 votes on its YC launch page ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-  - Current product: One LinkedIn ASIC role recorded 74 applicants, while YC currently lists zero jobs ([LinkedIn](https://www.linkedin.com/jobs/view/founding-asic-architect-rtl-fpga-lead-at-baud-4383296449), Apr 2026; [YC profile](https://www.ycombinator.com/companies/baud), Jul 2026).
-  - Prior product, SuperCraft—not Baud: 20K+ users and 300K+ designs under the same Cerelyze legal entity ([SuperCraft](https://supercraft.ai/), 2025).
+  - 1,000+ tokens per second for small-model inference on one FPGA emulating Baud’s ASIC ([Baud, Aug 2026](https://baudlabs.ai/)).
+  - Training and inference service live on an FPGA-emulation cluster, with current design-partner engagement but no disclosed partner count ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
+  - First chip validated for GlobalFoundries’ 12nm process and scheduled for tape-out by year-end 2026 ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
+  - 419 LinkedIn followers following its July 2026 stealth exit ([LinkedIn, Aug 2026](https://www.linkedin.com/company/baud-labs-ai)).
+  - 0 jobs posted on YC’s job platform ([YC Jobs, Aug 2026](https://www.ycombinator.com/companies/baud/jobs)).
+  - [Inferred]: Prior product, not Baud traction—Cerelyze Inc.’s SuperCraft reported 20K+ users and 300K+ designs in 2025, while the current Baud site carries the same Cerelyze copyright but no public transition date ([SuperCraft, 2025](https://supercraft.ai/), [Baud, 2026](https://baudlabs.ai/)).
 - **Competitors (minimum 3, up to 5):**
-  - Cerebras ($2.91B raised, $510M 2025 revenue): wafer-scale processors support conventional-model training and inference, versus Baud’s multiplier-free representation and ASIC ([Sacra](https://sacra-pdfs.s3.us-east-2.amazonaws.com/cerebras-systems.pdf), May 2026).
-  - Groq ($3.9B raised, $500M 2025 revenue): operates an inference-only LPU cloud, versus Baud’s planned training-and-inference platform ([Owler](https://www.owler.com/company/groq/funding), Jun 2026; [CB Insights](https://www.cbinsights.com/company/groq/financials), 2026).
-  - Etched ($1.1B raised, revenue unknown): builds inference systems using separate prefill and cluster-scale-memory technologies, versus Baud’s multiplier-free forward and backward passes ([Etched announcement](https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html), Jun 2026; [TechCrunch](https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/), Jul 2026).
-  - d-Matrix ($450M raised, revenue unknown): uses digital in-memory compute for inference, versus Baud’s combined training-and-inference architecture ([d-Matrix](https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/), Nov 2025).
-- **Why now:** [Inferred]: Frontier training has crossed into multi-thousand-GPU, multi-megawatt deployments, creating a cost-and-power threshold for arithmetic and hardware co-design rather than incremental GPU scaling ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
+  - Cerebras ($2.91B private funding before a $5.5B May 2026 IPO, $510M 2025 revenue): wafer-scale processors support conventional-model training and inference rather than Baud’s multiplier-free representation ([Sacra, May 2026](https://sacra-pdfs.s3.us-east-2.amazonaws.com/cerebras-systems.pdf), [TechCrunch, May 2026](https://techcrunch.com/2026/05/14/cerebras-raises-5-5b-kicking-off-2026s-ipo-season-with-a-bang/)).
+  - Groq ($3.253B raised, $500M 2025 revenue): operates an LPU-based inference cloud, while Baud targets both training and inference ([CB Insights, Aug 2026](https://www.cbinsights.com/company/groq), [Groq, Jun 2026](https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business)).
+  - Etched (at least $1.1B raised, revenue unknown): builds transformer-focused inference clusters, while Baud also targets backward-pass training ([Etched, Jun–Jul 2026](https://www.globenewswire.com/news-release/2026/07/23/3332366/0/en/etched-raises-300m-at-a-10-3b-valuation-to-scale-production-of-frontier-scale-inference-hardware.html)).
+  - d-Matrix ($450M raised, revenue unknown): uses digital in-memory compute for inference, versus Baud’s multiplier elimination across training and inference ([d-Matrix, Nov 2025](https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/)).
+- **Why now:** [Inferred]: Frontier training has reached thousands of GPUs and multi-megawatt power draw while Baud’s 2026 FPGA compiler and emulation stack make its alternative arithmetic testable before silicon tape-out ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
 
 ## Founders & Team
 
 - **Sarang Zambare (Founder & CEO):**
-  - Background: IIT Bombay engineering-physics graduate and UC Berkeley MEng who led ML for Peloton Guide through 100,000+ shipped devices, was Caper’s founding ML engineer before its Instacart acquisition, and holds four patents ([YC profile](https://www.ycombinator.com/companies/baud), Jul 2026; [Startup Intros](https://startupintros.com/people/sarang-zambare), Jul 2026).
-  - Twitter/X: @sarangz11, 156 followers ([TwStalker](https://www6.twstalker.com/sarangz11), Jul 2026).
-  - LinkedIn: “Baud,” with 3K followers ([LinkedIn](https://www.linkedin.com/in/sarang-zambare), Jul 2026).
-  - GitHub: No public repos found.
+  - Background: Engineering-physics degrees from IIT Bombay and an MEng from UC Berkeley; ML lead for Peloton Guide through 100,000+ devices shipped, founding ML engineer at Caper before its Instacart acquisition, and named inventor on four patents ([YC, Aug 2026](https://www.ycombinator.com/companies/baud), [Startup Intros, Jul 2026](https://startupintros.com/people/sarang-zambare)).
+  - Twitter/X: @sarangz11, 156 followers ([TwStalker, Jul 2026](https://www6.twstalker.com/sarangz11)).
+  - LinkedIn: “Baud,” with 3K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/sarang-zambare)).
+  - GitHub: @sarangzambare; `hey-siri` has 17 stars ([GitHub, Aug 2026](https://github.com/sarangzambare)).
 - **Eric Taylor (Founder & Chief Hardware Architect):**
-  - Background: Rose-Hulman and UT Austin computer-architecture education with more than a decade in ASIC design, four tape-outs, two patents, and roles at NVIDIA, Freescale/NXP, Arteris, and Enfabrica ([YC profile](https://www.ycombinator.com/companies/baud), Jul 2026; [LinkedIn](https://www.linkedin.com/in/eric-taylor-995b923b), Jul 2026).
+  - Background: University of Texas at Austin; more than a decade in ASIC work, four tape-outs, two patents and prior roles at NVIDIA, Freescale/NXP, Arteris IP and Enfabrica ([LinkedIn, Jul 2026](https://www.linkedin.com/in/eric-taylor-995b923b), [YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Baud,” with 837 followers ([LinkedIn](https://www.linkedin.com/in/eric-taylor-995b923b), Jul 2026).
+  - LinkedIn: “Baud,” with 837 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/eric-taylor-995b923b)).
   - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Zambare’s edge-ML deployment and patent history covers model representation and compilation, while Taylor’s four tape-outs and ASIC roles cover silicon implementation ([YC profile](https://www.ycombinator.com/companies/baud), Jul 2026).
+- **Founder-market fit:** Zambare’s edge-ML deployment and model-training history covers the software/model layer, while Taylor’s four tape-outs and prior semiconductor roles cover ASIC architecture ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
 
 ## Key Risks
 
-- **Scale-validation risk:** Public evidence covers a 50M-parameter, 5M-token FPGA proof of concept, while the production ASIC has not yet taped out, so frontier-scale performance and fabrication yield remain unverified ([Baud demo](https://baudlabs.ai/demo), Jul 2026; [YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-- **Model-compatibility risk:** Existing weights cannot run directly because models must be trained in Baud’s representation, and the compiler reports bit-exact conversion only “in most cases”; PyTorch export support is the disclosed mitigation ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026).
-- **Competitive-capital risk:** Cerebras, Groq, Etched, and d-Matrix have production or customer-testing systems and have raised $450M–$3.9B each, while Baud’s disclosed current hardware remains FPGA-emulated ([d-Matrix](https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/), Nov 2025; [Owler](https://www.owler.com/company/groq/funding), Jun 2026).
-- **Product-history and name-disambiguation risk:** Cerelyze operated the SuperCraft design product in 2025 and now identifies Baud as its 2026 product, while third-party databases still conflate SuperCraft’s S23 profile and metrics with baudlabs.ai; the current YC S26 page and company website provide the controlling identification ([SuperCraft](https://supercraft.ai/), 2025; [Baud website](https://baudlabs.ai/), Jul 2026; [YC profile](https://www.ycombinator.com/companies/baud), Jul 2026).
+- **Physical-silicon validation:** Public performance is from FPGA emulation rather than a fabricated Baud ASIC; mitigation disclosed is 12nm process validation and a 1,000+ tokens-per-second FPGA demo ([Baud, Aug 2026](https://baudlabs.ai/)).
+- **Model migration:** Baud says models must be trained in its representation or use a compatible base model, while its compiler produces bit-exact conversions only “in most cases” ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
+- **Tape-out execution:** The first chip remained scheduled, rather than completed, for year-end 2026; FPGA-based service provides an interim testing environment ([YC, Aug 2026](https://www.ycombinator.com/companies/baud)).
+- **Competitive deployment:** Etched reports working silicon and over $1B in signed contracts, while Groq serves more than five million developers and d-Matrix reports deployment partners ([Etched, Jun 2026](https://www.globenewswire.com/news-release/2026/06/30/3319922/0/en/Etched-Emerges-From-Stealth-With-Working-Chip-800M-Raised-and-Over-1B-in-Customer-Contracts.html), [Groq, Jun 2026](https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business)).
+- **Identity continuity and name ambiguity:** Cerelyze previously operated SuperCraft, the current Baud site retains the Cerelyze copyright, and unrelated BAUD technology and branding firms share the name; the `baudlabs.ai` domain and current YC profile provide disambiguation ([SuperCraft](https://supercraft.ai/), [unrelated BAUD](https://uk.linkedin.com/company/baud-tech)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $17.67B in 2024, forecast to $63.22B by 2030 at 24.7% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/data-center-accelerator-market-report), 2025–2030 forecast) |
+| TAM | $25.6B global AI-accelerator market in 2024, forecast to $256.8B by 2033 at 29.3% CAGR (Grand View Research, Jul 2026) |
 | SAM | No public data found |
-| Traction | FPGA cluster live; 1,000+ tokens/second on a 50M-parameter proof of concept; ASIC scheduled for 2026 tape-out ([Baud website](https://baudlabs.ai/), Jul 2026; [Baud demo](https://baudlabs.ai/demo), Jul 2026) |
+| Traction | 1,000+ tokens/second on one FPGA; FPGA training/inference cluster live; 12nm process validation; design partners active but count undisclosed (Baud website and YC, Aug 2026) |
 | Revenue Signal | No public data found |
-| Founders | Sarang Zambare (CEO): Peloton ML lead, Caper founding ML engineer, four patents; Eric Taylor (Chief Hardware Architect): four tape-outs, two patents, NVIDIA/Enfabrica experience ([YC profile](https://www.ycombinator.com/companies/baud), Jul 2026) |
-| Competitors | Cerebras ($2.91B raised, $510M 2025 revenue, wafer-scale); Groq ($3.9B raised, $500M 2025 revenue, inference cloud); Etched ($1.1B raised, revenue unknown, inference systems); d-Matrix ($450M raised, revenue unknown, digital in-memory inference) ([Sacra](https://sacra-pdfs.s3.us-east-2.amazonaws.com/cerebras-systems.pdf), May 2026; [Owler](https://www.owler.com/company/groq/funding), Jun 2026; [TechCrunch](https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/), Jul 2026; [d-Matrix](https://www.d-matrix.ai/announcements/d-matrix-raises-275-million-to-power-the-age-of-ai-inference/), Nov 2025) |
-| Moat Signals | Multiplier-free representation, ASIC architecture, PyTorch compiler, distributed training stack, and GlobalFoundries 12 nm design validation ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026) |
-| Risk Factors | Production silicon not taped out, existing weights require retraining, compiler not universally bit-exact, funded accelerator competition ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026) |
-| Founder Reach | Zambare: X 156, LinkedIn 3K, no public GitHub repos; Taylor: no public X account, LinkedIn 837, no public GitHub repos ([TwStalker](https://www6.twstalker.com/sarangz11), Jul 2026; [Zambare LinkedIn](https://www.linkedin.com/in/sarang-zambare), Jul 2026; [Taylor LinkedIn](https://www.linkedin.com/in/eric-taylor-995b923b), Jul 2026) |
-| Distribution Signals | 94 YC Launch votes; unnumbered early-access and design-partner program; prior product SuperCraft—not Baud—reported 20K+ users and 300K+ designs ([YC Launch](https://www.ycombinator.com/launches/RCj-baud-ai-chips-for-accelerated-training-and-inference), Jul 2026; [SuperCraft](https://supercraft.ai/), 2025) |
+| Founders | Sarang Zambare (CEO): IIT Bombay/UC Berkeley, Peloton Guide ML lead, founding Caper ML engineer; Eric Taylor (Hardware Architect): UT Austin, four tape-outs, NVIDIA/Enfabrica/Arteris experience (YC, Aug 2026) |
+| Competitors | Cerebras ($2.91B private funding, $510M 2025 revenue); Groq ($3.253B raised, $500M 2025 revenue); Etched (at least $1.1B raised, revenue unknown); d-Matrix ($450M raised, revenue unknown) (Sacra, CB Insights, Etched and d-Matrix, 2025–2026) |
+| Moat Signals | Multiplier-free representation and ASIC architecture, PyTorch compiler, distributed-training stack and GlobalFoundries 12nm validation (Baud website and YC, Aug 2026) |
+| Risk Factors | FPGA-only public validation, model-representation migration, pre-tape-out manufacturing status, funded accelerator competitors (Baud, YC and competitor disclosures, 2025–2026) |
+| Founder Reach | Sarang: X 156, LinkedIn 3K, GitHub top repo 17 stars; Eric: LinkedIn 837, no public X or GitHub data found (TwStalker, LinkedIn and GitHub, Jul–Aug 2026) |
+| Distribution Signals | 419 LinkedIn followers, July 2026 stealth exit, design-partner early access, 0 YC job postings (LinkedIn and YC, Aug 2026) |
 | Emails | No public data found |

@@ -10,38 +10,38 @@
     "team_size": "2",
     "location": "Seattle, WA, USA",
     "tags": "B2B, Healthcare",
-    "yc_partner": "Jon Xu",
-    "emails": "No public data found"
+    "yc_partner": "Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026)",
+    "emails": "prabha@hubble.ai, privacy@hubble.ai ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026; [Hubble Privacy Policy](https://hubble.ai/privacy), Jul 2026)"
   },
   "tags": [
     "B2B",
     "Healthcare"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:30:17.866Z",
+  "memoGeneratedAt": "2026-08-11T04:43:58.271Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 55,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 63,
+      "score": 60,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 58,
+      "score": 62,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 71,
+      "score": 67,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 54,
+      "score": 49,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 44,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
@@ -50,20 +50,20 @@
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 63,
-    "NR": 58,
-    "PG": 71,
-    "PT": 54,
-    "SL": 44,
+    "CB": 55,
+    "EG": 60,
+    "NR": 62,
+    "PG": 67,
+    "PT": 49,
+    "SL": 39,
     "VK": 39
   },
-  "consolidatedAvg": 56.43,
-  "consolidatedRank": 51,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 58,
-    "tractionReason": "40+ live tools across major EHRs and payers"
+    "tractionRank": 54,
+    "tractionScore": 63,
+    "tractionReason": "40 live tools; customer recovered $340K"
   },
   "paths": {
     "memo": "summer2026/memos/hubble-ai.md",

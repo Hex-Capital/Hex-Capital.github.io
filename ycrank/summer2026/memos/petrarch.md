@@ -12,79 +12,79 @@
 | Location | San Francisco, CA, USA |
 | Tags | Marketplace, B2B, Data Engineering |
 | YC Partner | Vivian Midha Shen |
-| Emails | founders@petrarch.co, samuel@petrarch.co, ian@petrarch.co |
+| Emails | founders@petrarch.co, ian@petrarch.co, samuel@petrarch.co, privacy@petrarch.co ([YC](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy), [LinkedIn](https://www.linkedin.com/in/-ianlee), [LinkedIn](https://www.linkedin.com/in/samuelhahn9), [privacy policy](https://petrarch.co/privacy)) |
 
 ## The Idea
 
-- **Problem:** Applied-AI companies and labs seek proprietary operational data from construction, manufacturing, logistics, and other industries, while the businesses holding these assets often lack a channel to monetize them ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-- **Approach:** Petrarch sources enterprise datasets, cleans and restructures them, certifies legal clearance, and resells them to applied-AI startups and laboratories ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-- **Differentiation:** [Inferred]: Unlike Defined.ai’s ready-made multimodal marketplace, Datarade’s broad data catalog, and Dawex’s software for operating private exchanges, Petrarch appears to conduct bespoke sourcing and preparation of operational datasets held inside enterprises.
-- **Business Model:** [Inferred]: Petrarch likely earns transaction-based fees for brokering datasets, while its Constellation sourcing program separately pays fellows commissions on transactions they originate ([Constellation job listing, Jul 2026](https://www.linkedin.com/jobs/view/summer-26-constellation-fellow-at-constellation-4434371030)).
-- **TAM/SAM:** The global AI-training-dataset market was valued at $3.59 billion in 2025 and is projected to reach $23.18 billion by 2034 at a 22.9% CAGR ([Fortune Business Insights, Jul 2026](https://www.fortunebusinessinsights.com/ai-training-dataset-market-109241)).
-- **GTM / Distribution:** Petrarch recruits students connected to entrepreneurship, technology, investing, and AI communities to identify data sellers and buyers, make introductions, and receive deal-based commissions ([Constellation job listing, Jul 2026](https://www.linkedin.com/jobs/view/summer-26-constellation-fellow-at-constellation-4434371030)).
+- **Problem:** Applied-AI companies and labs need specialized operational data from industries such as construction, manufacturing, and logistics, while legacy businesses, startups, bankrupt companies, and pivoted companies hold such data without an established monetization route ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy)).
+- **Approach:** Petrarch identifies suppliers, cleans and restructures their datasets, removes PII, certifies legal clearance, and resells the resulting data to AI startups and labs ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy); [privacy policy, Jul 2026](https://petrarch.co/privacy)).
+- **Differentiation:** Petrarch sources dormant operational assets and wind-down data, whereas Troveo concentrates on licensed creator and media libraries, Defined.ai combines a dataset marketplace with custom collection and annotation, Human Native specialized in multimedia-rights licensing, and Datarade primarily connects buyers with listed third-party data providers ([Petrarch](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy); [Troveo](https://www.troveo.ai/content-owners); [Defined.ai](https://defined.ai/); [Cloudflare](https://blog.cloudflare.com/human-native-joins-cloudflare/); [Datarade](https://datarade.ai/)).
+- **Business Model:** [Inferred]: Transaction commissions or buy-resell spreads are the likely monetization mechanism because Petrarch appraises datasets, finds buyers, processes transactions, and describes reselling the resulting assets.
+- **TAM/SAM:** The global AI-training-dataset market is projected at $4.44 billion in 2026 with a 22.9% CAGR through 2034, while the U.S. segment is estimated at $830.9 million in 2026 with an 18.4% CAGR through 2033 ([Fortune Business Insights, Jul 2026](https://www.fortunebusinessinsights.com/ai-training-dataset-market-109241); [Grand View Research, 2026](https://www.grandviewresearch.com/horizon/outlook/ai-training-dataset-market/united-states)).
+- **GTM / Distribution:** Petrarch uses direct buyer-and-seller outreach, restructuring contacts, a public dataset-appraisal funnel, and remote Constellation fellows tasked with sourcing buyers and sellers ([case studies, accessed Aug 2026 via search snippet](https://petrarch.co/case-studies); [appraisal page](https://petrarch.co/appraisal); [fellowship listing, Jul 2026](https://internexxus.com/internship/constellation-fellowship-data-sourcing-sales/)).
 
 ## Defensibility
 
-- **Moat today:** Petrarch reports completed transactions involving construction plans, autonomous-driving recordings, and codebases, providing an initial supplier-and-buyer transaction history across three data categories ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-- **Future moat:** [Inferred]: Repeated transactions could produce proprietary supplier relationships, dataset-quality records, licensing templates, and buyer-demand information, but no public source establishes their scale or exclusivity.
+- **Moat today:** Petrarch reports completed transactions involving construction plans, autonomous-driving recordings, and codebases, plus a restructuring network and in-house PII-redaction workflow ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy); [case studies, accessed Aug 2026 via search snippet](https://petrarch.co/case-studies)).
+- **Future moat:** [Inferred]: Exclusive supplier relationships, repeat AI-lab demand, transaction histories, and a rights-cleared dataset catalog could create proprietary supply and pricing data, but exclusivity and repeat purchasing are not publicly documented.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Existing marketplaces already offer enterprise data discovery, AI-training datasets, licensing, and monetization, including Defined.ai, Datarade, Dawex, and Dappier ([Defined.ai](https://defined.ai/), [Datarade](https://datarade.ai/), [Dawex](https://www.dawex.com/en/solutions/data-marketplace/), [TechCrunch, Jun 2024](https://techcrunch.com/2024/06/26/dappier-is-building-a-marketplace-for-publishers-to-sell-their-content-to-llm-builders/)).
+- **Commoditization risk:** Defined.ai, Troveo, Human Native/Cloudflare, and Datarade already provide overlapping data sourcing, processing, licensing, or marketplace functions ([Defined.ai](https://defined.ai/); [Troveo](https://www.troveo.ai/); [Cloudflare](https://blog.cloudflare.com/human-native-joins-cloudflare/); [Datarade](https://datarade.ai/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Transactions completed for construction plans, autonomous-driving recordings, and codebases ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-  - 863 LinkedIn followers ([Petrarch LinkedIn, Jul 2026](https://www.linkedin.com/company/petrarchinc)).
-  - 36 applicants to the Summer 2026 Constellation Fellow listing ([LinkedIn Jobs, Jul 2026](https://www.linkedin.com/jobs/view/summer-26-constellation-fellow-at-constellation-4434371030)).
-  - Zero active jobs on the YC jobs page ([Y Combinator Jobs, Jul 2026](https://www.ycombinator.com/companies/petrarch/jobs)).
-  - Company launch published by Y Combinator in July 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
+  - Completed transactions involving construction plans, autonomous-driving recordings, and codebases ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy)).
+  - Several thousand construction plans were sourced, redacted, and transferred within one week ([Petrarch case studies, accessed Aug 2026 via search snippet](https://petrarch.co/case-studies)).
+  - Company-reported customers range from first-time founders to Fortune 500 enterprises ([YC launch-video transcript, Jul 2026](https://www.linkedin.com/posts/y-combinator_petrarch-yc-s26-is-building-the-market-activity-7482466860744040448-rV30)).
+  - 1,091 LinkedIn followers ([LinkedIn, Aug 2026](https://www.linkedin.com/company/petrarchinc)).
+  - 163 X followers ([TwStalker search snippet, Jul 2026](https://ww.twstalker.com/Charles_Y_Wu)).
+  - Applications opened for 2026 Summer Constellation fellows performing data-sourcing and sales work ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/petrarchinc_today-petrarch-is-introducing-our-constellation-activity-7475299890949177345-OKV0)).
 - **Competitors (minimum 3, up to 5):**
-  - Defined.ai ($85M+ raised, revenue unknown): offers an established marketplace of off-the-shelf multimodal training datasets plus collection, annotation, and evaluation services ([Defined.ai](https://defined.ai/about-us)).
-  - Dawex (€12M+ raised, revenue unknown): supplies configurable technology through which organizations operate their own data marketplaces rather than primarily sourcing bespoke datasets itself ([Dawex, May 2019](https://www.dawex.com/en/news/20190523-dawex-raises-5-millions-accelerate-development-data-economy/)).
-  - Datarade ($1.2M raised, revenue unknown): indexes products from more than 500 data providers and reports 120,000 monthly in-market buyers across broad data categories ([Datarade](https://datarade.ai/company/contact/list-your-data), [Indexed.vc](https://indexed.vc/companies/datarade)).
-  - Dappier ($2M raised, revenue unknown): focuses on licensing publisher and brand content for AI applications rather than industrial operational records ([TechCrunch, Jun 2024](https://techcrunch.com/2024/06/26/dappier-is-building-a-marketplace-for-publishers-to-sell-their-content-to-llm-builders/)).
-- **Why now:** [Inferred]: The catalyst is the shift from internet-scraped and manually labeled general-purpose data toward licensed, industry-specific data for applied and physical AI, a demand change described in Petrarch’s July 2026 launch ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
+  - Troveo ($4.5M raised, revenue unknown; $4.5M seed led by Seven Seven Six in Nov 2024): licenses and processes creator, media, robotics, and enterprise data rather than focusing on dormant company assets ([FinSMEs, Nov 2024](https://www.finsmes.com/2024/11/troveo-raises-4-5m-in-seed-funding.html); [Troveo](https://www.troveo.ai/)).
+  - Defined.ai ($85M+ raised, revenue unknown; latest disclosed financing was $3.3M debt in Jan 2024): offers listed datasets plus custom collection, annotation, and evaluation services ([Defined.ai, Jan 2026](https://defined.ai/press-room/defined-ai-reports-sixty-five-percent-revenue-growth); [CB Insights](https://www.cbinsights.com/company/definedcrowd/financials)).
+  - Human Native ($3.57M raised, revenue unknown; £2.8M seed co-led by LocalGlobe and Mercuri in Jun 2024): brokered multimedia-content licenses and was acquired by Cloudflare in January 2026 ([Sky News, Jun 2024](https://news.sky.com/story/early-transferwise-backer-local-globe-invests-in-ai-start-up-13147178); [Cloudflare, Jan 2026](https://blog.cloudflare.com/human-native-joins-cloudflare/)).
+  - Datarade ($0M raised, revenue unknown): provides broad dataset discovery and quote requests across 400+ providers rather than sourcing and transforming dormant enterprise data itself ([GetLatka, Oct 2024](https://getlatka.com/companies/datarade/team); [G2](https://www.g2.com/products/datarade/reviews)).
+- **Why now:** Petrarch states that frontier labs exhausted much of the accessible web-data supply and that demand has shifted toward bespoke industrial data following reliance on expert-created datasets ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy)).
 
 ## Founders & Team
 
 - **Samuel Hahn (Founder):**
-  - Background: Studied Economics and History at Harvard, led GTM at PII-redaction and data-compliance company Magier AI, and sourced pre-seed fintech and deep-tech companies as a Mainstreet venture analyst ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Founder at Petrarch,” with 2K followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/samuelhahn9)).
-  - GitHub: No public repos found.
+  - Background: Studied economics and history at Harvard before dropping out, led GTM for PII-redaction and data-compliance products at Magier AI, and sourced pre-seed fintech and deeptech companies at Mainstreet ([YC](https://www.ycombinator.com/companies/petrarch)).
+  - Twitter/X: [@Sammycrafty](https://x.com/Sammycrafty), count not retrievable ([Petrarch X launch via search snippet](https://www6.twstalker.com/vivianmshen)).
+  - LinkedIn: “Petrarch,” with 2K followers ([LinkedIn](https://www.linkedin.com/in/samuelhahn9)).
+  - GitHub: [@Sammycrafty](https://github.com/Sammycrafty), with `git_test` at 0 stars ([GitHub](https://github.com/Sammycrafty/git_test)).
 - **Ian Lee (Founder):**
-  - Background: Attended Harvard from 2024 to 2026 and previously worked with Scale AI and Meridian AI; his LinkedIn also lists a contribution to Lawrence Livermore National Laboratory’s *Roads to Removal* report ([LinkedIn, Jul 2026](https://www.linkedin.com/in/-ianlee), [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Unlocking enterprise data for the future economy,” with 2K followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/-ianlee)).
+  - Background: Studied applied mathematics and psychology at Harvard before dropping out, built training-data and GTM infrastructure at Meridian AI, and advised Scale AI on quality filtering and annotation ([YC](https://www.ycombinator.com/companies/petrarch)).
+  - Twitter/X: [@ileeilee12](https://x.com/ileeilee12), count not retrievable ([Petrarch X launch via search snippet](https://www6.twstalker.com/vivianmshen)).
+  - LinkedIn: “Petrarch,” with 2K followers ([LinkedIn](https://www.linkedin.com/in/-ianlee)).
   - GitHub: No public repos found.
 - **Sudhish Swain (Founder):**
-  - Background: Studied Integrative Biology at Harvard, led software engineering at Clean Sweep Group, developed hospital-deployed computer-vision software, and analyzed spatial-transcriptomic cancer datasets at Brigham and Women’s Hospital ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “College sophomore with a passion for biology and its intersections with technology,” with 915 followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/sudhish-swain)).
+  - Background: Studied integrative biology at Harvard before dropping out, led software engineering for hospital-deployed medical-equipment computer vision at Clean Sweep Group, and researched spatial-transcriptomic cancer datasets at Brigham and Women’s Hospital ([YC](https://www.ycombinator.com/companies/petrarch)).
+  - Twitter/X: [@sudsw1234](https://x.com/sudsw1234), count not retrievable ([Petrarch X launch via search snippet](https://www6.twstalker.com/vivianmshen)).
+  - LinkedIn: “Petrarch,” with 1K followers ([LinkedIn](https://www.linkedin.com/in/sudhish-swain)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** All three founders attended Harvard, and YC states that they left the university to build Petrarch ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-- **Founder-market fit:** The founders’ documented experience spans AI-data work at Scale and Meridian AI, data-compliance GTM, computer vision, and biological-data research, matching Petrarch’s sourcing, clearance, preparation, and sale of specialized datasets ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
+- **Co-founder relationship:** All three attended Harvard and dropped out together to build Petrarch ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy)).
+- **Founder-market fit:** The team’s documented experience spans data-compliance GTM, AI-training-data quality, annotation, computer vision, and dataset research, with YC Group Partner Vivian Midha Shen assigned to the company ([YC](https://www.ycombinator.com/companies/petrarch)).
 
 ## Key Risks
 
-- **Data-rights risk:** Petrarch handles enterprise operational records and claims to certify legal clearance before resale, making ownership, privacy, contractual restrictions, and permitted AI-training use part of each transaction ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-- **Marketplace-liquidity risk:** The company must recruit both enterprises holding useful data and AI organizations willing to purchase it, and its commission-based Constellation program indicates that participant sourcing remains an active operating function ([LinkedIn Jobs, Jul 2026](https://www.linkedin.com/jobs/view/summer-26-constellation-fellow-at-constellation-4434371030)).
-- **Competitive overlap:** Defined.ai already reports $85M+ in capital, 120+ customers, 100+ partners, and a marketplace spanning multiple data modalities, while Datarade reports more than 500 providers ([Defined.ai](https://defined.ai/about-us), [Datarade](https://datarade.ai/company/contact/list-your-data)).
-- **Dataset standardization:** Petrarch’s reported transaction categories include construction plans, vehicle recordings, and codebases, requiring different cleaning, formatting, valuation, and licensing processes ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
-- **Public-verification gap:** The website returned no readable product or pricing content during research, while public traction disclosure is limited to three categories of completed transactions ([Petrarch website, Jul 2026](https://petrarch.co/), [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/petrarch)).
+- **Data-rights liability:** Petrarch certifies legal clearance, but its privacy policy places responsibility for submission rights and legal bases on data providers; mitigations include signed agreements, DPAs, anonymization, and the ability to decline regulated datasets ([privacy policy, Jul 2026](https://petrarch.co/privacy)).
+- **Dataset-utility verification:** Public cases document sourcing, redaction, and transfer but provide no measured effect on buyer-model performance, while Petrarch’s workflow requires cleaning and restructuring heterogeneous operational assets ([Launch YC](https://www.ycombinator.com/launches/RJf-petrarch-unlocking-enterprise-data-for-tomorrow-s-economy); [case studies](https://petrarch.co/case-studies)).
+- **Marketplace competition and disintermediation:** Funded marketplaces already aggregate licensed datasets, and buyers or sellers can transact directly after discovery; Petrarch’s public materials do not disclose exclusivity terms ([Troveo](https://www.troveo.ai/); [Defined.ai](https://defined.ai/); [Cloudflare](https://blog.cloudflare.com/human-native-joins-cloudflare/)).
+- **Brand and web discovery:** “Petrarch” is also used by a UK cladding manufacturer and older software projects, and the company homepage was not accessible at time of research although indexed subpages were retrievable ([UK Petrarch LinkedIn](https://uk.linkedin.com/company/petrarch-downer); [company website, Aug 2026](https://petrarch.co/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.59B in 2025, projected to $23.18B by 2034 at 22.9% CAGR (Fortune Business Insights, Jul 2026) |
-| SAM | No public data found |
-| Traction | Transactions involving construction plans, autonomous-driving recordings, and codebases (Y Combinator, Jul 2026); 863 LinkedIn followers (LinkedIn, Jul 2026) |
+| TAM | $4.44B global AI-training-dataset market in 2026, with 22.9% CAGR through 2034 (Fortune Business Insights, Jul 2026) |
+| SAM | $830.9M U.S. AI-training-dataset market in 2026, with 18.4% CAGR through 2033 (Grand View Research, 2026) |
+| Traction | Construction-plan, autonomous-driving-recording, and codebase transactions (Launch YC, Jul 2026); several thousand plans transferred within one week (Petrarch case studies, Aug 2026 via search snippet); 1,091 LinkedIn followers (LinkedIn, Aug 2026); 163 X followers (TwStalker search snippet, Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Samuel Hahn (Founder): Harvard Economics and History, Magier AI GTM, Mainstreet venture analyst; Ian Lee (Founder): Harvard, Scale AI and Meridian AI experience; Sudhish Swain (Founder): Harvard Integrative Biology, Clean Sweep engineering lead, Brigham and Women’s researcher (Y Combinator, Jul 2026) |
-| Competitors | Defined.ai ($85M+ raised, revenue unknown, ready-made multimodal data and services) (Defined.ai, Jul 2026); Dawex (€12M+ raised, revenue unknown, private-exchange infrastructure) (Dawex, May 2019); Datarade ($1.2M raised, revenue unknown, broad provider catalog) (Indexed.vc, Jul 2026); Dappier ($2M raised, revenue unknown, publisher-content licensing) (TechCrunch, Jun 2024) |
-| Moat Signals | Completed transactions across construction plans, autonomous-driving recordings, and codebases (Y Combinator, Jul 2026) |
-| Risk Factors | Data-rights verification, two-sided marketplace liquidity, established data marketplaces (Y Combinator, Jul 2026; LinkedIn Jobs, Jul 2026; Defined.ai, Jul 2026) |
-| Founder Reach | Samuel Hahn: LinkedIn 2K, Twitter/GitHub not found; Ian Lee: LinkedIn 2K, Twitter/GitHub not found; Sudhish Swain: LinkedIn 915, Twitter/GitHub not found (LinkedIn, Jul 2026) |
-| Distribution Signals | 863 company LinkedIn followers and 36 Constellation Fellow applicants (LinkedIn, Jul 2026); zero YC job postings (Y Combinator Jobs, Jul 2026) |
-| Emails | founders@petrarch.co (Y Combinator, Jul 2026); samuel@petrarch.co and ian@petrarch.co (founder LinkedIn profiles, Jul 2026) |
+| Founders | Samuel Hahn (Founder): Magier AI GTM, Mainstreet venture analyst, Harvard economics/history; Ian Lee (Founder): Scale AI advisor, Meridian AI fellow, Harvard applied mathematics/psychology; Sudhish Swain (Founder): Clean Sweep engineering lead, Brigham research intern, Harvard integrative biology (YC, Jul 2026) |
+| Competitors | Troveo ($4.5M raised, revenue unknown, creator/media and multimodal licensing; FinSMEs, Nov 2024); Defined.ai ($85M+ raised, revenue unknown, marketplace plus collection and annotation; Defined.ai, Jan 2026); Human Native ($3.57M raised, revenue unknown, multimedia-rights licensing; Sky News, Jun 2024); Datarade ($0M raised, revenue unknown, broad provider marketplace; GetLatka, Oct 2024) |
+| Moat Signals | Completed transactions across three dataset categories, restructuring-network sourcing, in-house PII redaction, and legal-clearance workflow (Launch YC and Petrarch case studies, Jul-Aug 2026) |
+| Risk Factors | Provider chain-of-title responsibility (Petrarch privacy policy, Jul 2026), overlap with funded data marketplaces (Defined.ai and Troveo, 2026), shared name with UK cladding manufacturer (LinkedIn, Aug 2026) |
+| Founder Reach | Samuel Hahn: X @Sammycrafty count not retrievable, LinkedIn 2K, GitHub 0 stars; Ian Lee: X @ileeilee12 count not retrievable, LinkedIn 2K, GitHub no public data found; Sudhish Swain: X @sudsw1234 count not retrievable, LinkedIn 1K, GitHub no public data found (Petrarch X launch, LinkedIn, and GitHub, Jul-Aug 2026) |
+| Distribution Signals | 1,091 LinkedIn followers (LinkedIn, Aug 2026), 163 X followers (TwStalker search snippet, Jul 2026), and an open 2026 Constellation data-sourcing fellowship (LinkedIn, Jul 2026) |
+| Emails | founders@petrarch.co (Launch YC, Jul 2026), ian@petrarch.co (LinkedIn, Jul 2026), samuel@petrarch.co (LinkedIn, Jul 2026), privacy@petrarch.co (Petrarch privacy policy, Jul 2026) |

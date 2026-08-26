@@ -1,0 +1,80 @@
+{
+  "slug": "machine0",
+  "name": "machine0",
+  "oneLiner": "Cloud computers for AI agents",
+  "metadata": {
+    "website": "https://machine0.io",
+    "yc_page": "https://www.ycombinator.com/companies/machine0",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "Paris, ?le-de-France, France",
+    "tags": "Developer Tools, Cloud Computing",
+    "yc_partner": "Brad Flora",
+    "emails": "barnaby@machine0.io"
+  },
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:40:21.928Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 60,
+    "NR": 67,
+    "PG": 64,
+    "PT": 44,
+    "SL": 43,
+    "VK": 38
+  },
+  "consolidatedAvg": 54.57,
+  "consolidatedRank": 71,
+  "traction": {
+    "tractionRank": 98,
+    "tractionScore": 42,
+    "tractionReason": "Show HN 96 points; paid compute available"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/machine0.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/machine0.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/machine0.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/machine0.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/machine0.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/machine0.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/machine0.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/machine0.md"
+    }
+  }
+}

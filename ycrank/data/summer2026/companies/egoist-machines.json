@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Consumer Products, AI Assistant, Databases",
-    "yc_partner": "Harshita Arora ([Y Combinator](https://www.ycombinator.com/companies/egoist-machines), Jul 2026)",
-    "emails": "privacy@ego.ist, legal@ego.ist, enquiries@egoistmachines.com, sales@egoistmachines.com ([privacy policy](https://ego.ist/privacy-policy), [terms](https://ego.ist/terms-of-use), [company website](https://egoistmachines.com/), [LodeDB](https://github.com/Egoist-Machines/LodeDB), Jul 2026)"
+    "yc_partner": "Harshita Arora ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/egoist-machines))",
+    "emails": "enquiries@egoistmachines.com, privacy@ego.ist, legal@ego.ist ([company website](https://egoistmachines.com/); [privacy policy](https://ego.ist/privacy-policy); [terms](https://ego.ist/terms-of-use))"
   },
   "tags": [
     "Consumer Products",
@@ -19,52 +19,52 @@
     "Databases"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:59:23.439Z",
+  "memoGeneratedAt": "2026-08-11T05:40:26.574Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 53,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 35,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
+      "score": 31,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 37,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 36,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 23,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 51,
-    "NR": 72,
-    "PG": 66,
-    "PT": 51,
-    "SL": 52,
-    "VK": 42
+    "CB": 53,
+    "EG": 35,
+    "NR": 31,
+    "PG": 37,
+    "PT": 36,
+    "SL": 37,
+    "VK": 23
   },
-  "consolidatedAvg": 54.57,
-  "consolidatedRank": 70,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 201,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 30,
-    "tractionReason": "Waitlist open; product not generally available"
+    "tractionRank": 179,
+    "tractionScore": 32,
+    "tractionReason": "Waitlist opened; product advertised free"
   },
   "paths": {
     "memo": "summer2026/memos/egoist-machines.md",

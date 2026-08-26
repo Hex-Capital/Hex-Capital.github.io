@@ -1,0 +1,81 @@
+{
+  "slug": "click",
+  "name": "Click",
+  "oneLiner": "Web search & connectors for agents",
+  "metadata": {
+    "website": "https://www.useclick.ai",
+    "yc_page": "https://www.ycombinator.com/companies/click",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Infrastructure, AI",
+    "yc_partner": "Not listed",
+    "emails": "aditya@useclick.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:06:28.460Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 19,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 29,
+    "NR": 31,
+    "PG": 34,
+    "PT": 24,
+    "SL": 28,
+    "VK": 19
+  },
+  "consolidatedAvg": 27.86,
+  "consolidatedRank": 227,
+  "traction": {
+    "tractionRank": 207,
+    "tractionScore": 21,
+    "tractionReason": "Paid pricing; no usage disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/click.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/click.md",
+      "elad-gil": "summer2026/evals/elad-gil/click.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/click.md",
+      "paul-graham": "summer2026/evals/paul-graham/click.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/click.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/click.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/click.md"
+    }
+  }
+}

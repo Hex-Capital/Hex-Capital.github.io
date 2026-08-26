@@ -1,30 +1,26 @@
 ﻿# Speko -- Elad Gil Evaluation
 
-Speko’s 56-provider, 159-model routing layer makes Speko a clean single-miracle workflow bet with no visible revenue curve—the analytical signature here. The product assumes external voice models keep improving and asks only whether benchmark-driven selection and failover become valuable infrastructure. That architecture is attractive; 90 weekly MCP downloads, 85 SDK downloads, and two GitHub stars per repository are not evidence that Speko is “just working.”
+Voice-agent applications are proliferating, developers increasingly buy across fragmented model providers, and the controlling variable is whether dynamic routing produces a sustained quality, latency, or reliability gain large enough to exceed Speko’s 5% fee and added compliance complexity.
 
-**Color Genomics** is the high rung for single-miracle architecture: workflow and data infrastructure captured value on top of commodity sequencing rather than requiring new chemistry. Speko shares that mechanism by operating above speech-to-text, language, and text-to-speech providers through one API key. Speko diverges because the underlying capability is not yet commodity-reliable: the cited benchmark shows only 31–51% task completion in clean conditions, and provider failover does not repair reasoning failures. One product miracle remains, but it rests on a hard layer that may still need its own miracle.
+The dossier establishes provider heterogeneity, but not that this variable clears a commercially meaningful threshold. Speko tracks 23 speech-to-text models and finds four different winners across nine languages. That supports the premise that one static vendor choice is imperfect. It does not show how frequently the best provider changes, how much better it performs on customer workloads, or whether the gain survives network conditions and model updates. Speko’s own terms tell customers to validate the benchmarks independently. The market may grow from $2.5 billion in 2025 to $35.2 billion in 2033, but growth in voice agents does not automatically create value capture for a router.
 
-**Mistral’s** pre-revenue, capital-intensive profile represents the low rung on visible revenue velocity absent a Known Exception; I invested because the founders had shipped Llama and the post-ChatGPT re-opening was unmistakable. Speko discloses pricing—provider cost plus 5% and $0.09 per hosted minute—but no revenue, paid minutes, repeat cohorts, or named customers. Speko’s package downloads are usage-adjacent rather than buying behavior, and neither an exceptional prior artifact nor a category-level step-function comparable to Mistral overrides that missing curve.
+The product is more substantial than a benchmark page: one API spans speech-to-text, LLM, and text-to-speech providers, with pre-response failover, LiveKit and Pipecat adapters, open SDKs, and a hosted MCP server. Better models can make the selection problem more dynamic. However, Speko owns neither the customer workflow nor a proprietary feedback loop. Its benchmark data are public, customer audio and transcripts are excluded from training, and LiveKit, OpenRouter, and Vapi already support overlapping provider selection. A stronger provider-native router could therefore absorb the function instead of strengthening Speko.
 
-The 2025–2026 acceleration in real-time speech-to-speech systems gives Speko a plausible catalyst, but the catalyst compounds ambiguously over 18 months. More models and faster release cycles make Speko’s seven dated benchmark boards more useful; the same cycle also gives LiveKit, Vapi, and Bland AI stronger reasons to bundle routing into broader platforms. Speko is skating for the puck, but “frequent releases make selection harder” is an inferred operational pressure—not a Stripe-after-merchant-accounts market re-opening.
+Demand remains below the product-market-pull threshold. First partners and one commercial pilot are directionally useful at pre-seed, but there is no reported revenue, repeat production usage, retention, or routed-minute volume. The two principal SDKs have two GitHub stars each, while the self-service products remain in public preview without an SLA. The $1.1 million reportedly raised before YC validates financing access, not customer urgency. Pricing is legible—provider cost plus 5%, or $0.09 per managed minute—but the dossier does not establish attractive gross margins or willingness to pay for routing separately from the surrounding runtime.
 
-**Beknazar Abdikamalov’s** four years selecting voice stacks and prior role as Hupo’s co-founder/CTO establish founder-market fit, while Speko’s SDKs, MCP server, adapters, and benchmark boards show that Abdikamalov can ship. The score flips into the top tier if Speko documents a Perplexity-like iteration loop: named customer feedback, a specific routing feature shipped a week later, and repeat production usage attributable to that change. Without that chronology, Speko demonstrates product construction rather than the unusually fast feedback-to-artifact rhythm I underwrite.
+Beknazar Abdikamalov is the strongest part of the case. He has worked on voice technology since 2019, spent four years manually comparing providers, and previously co-founded Hupo as CTO. That is direct problem exposure plus second-time startup learning, not résumé adjacency. The bull case is that this experience lets Speko become the neutral control plane before the voice stack crystallizes. The research-stage exception does not apply, though: this is not a scarce frontier-technology team whose technical work overrides missing demand, and the existing pilot does not yet demonstrate control-plane status.
 
-**Stripe’s** index position compounds automatically with e-commerce because payments sit in every transaction path. Speko could become an index on voice-model fragmentation: every new provider increases the value of one credential, normalized pricing, benchmarking, and failover. Speko does not yet occupy that mandatory path, however; LiveKit already routes inference and Vapi already supports provider swapping, while Speko’s 5% router fee leaves limited economic room unless routing data creates a durable performance advantage.
-
-Speko’s $0.09-per-minute hosted product and seven benchmark boards lead to a falsifiable forecast: by July 2029, Speko will have pivoted from neutral model routing into enterprise voice evaluation and observability and will generate $1–3 million ARR. Speko’s benchmark-maintenance asset is more differentiated than pass-through inference, while the weak current usage curve makes an OpenRouter-scale aggregation outcome unlikely without that pivot.
-
-**LiveKit’s** $181.3 million in funding supplies the strongest objection: Speko may be absorbed as a feature before Speko can build either routing scale or an observability business. The bull case for remaining independent is real—56 providers, 159 models, language-specific rankings, SDKs, adapters, and automatic failover form a credible aggregation surface—but 90 weekly MCP downloads and no disclosed revenue lose against funded bundles today. I would flip from Neutral to Invest if Speko reaches $25,000 MRR with paid routed minutes growing above 20% month over month for three consecutive months; that would distinguish “just working” from benchmark tourism.
+I pass today. My 36-month base case is that Speko either pivots toward voice evaluation and observability or remains below $3 million ARR as routing becomes a bundled feature of larger runtimes. One result would flip the decision: at least 20 independent production customers collectively routing more than one million minutes per month, retained for six months, with workload-level evidence that Speko improves a declared quality-latency-cost objective by at least 20% over a fixed-provider stack.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Market Re-Opening Via Specific Recent Catalyst | 15/28 |
-| Revenue Velocity or Usage Curve Already Visible | 7/25 |
-| Founder Ships Iteratively Between Conversations | 13/20 |
-| Index-Like Distribution Position On A Compounding Category | 9/15 |
-| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 9/12 |
-| **Total** | **53/100** |
+| Dossier Identifies the One Variable That Makes This Market Work | 15/32 |
+| Technology Shift Expands Market Margins, Scale, or Adoption | 9/24 |
+| Users Demonstrate Product-Market Pull Before the Story Is Polished | 5/18 |
+| Core Technology Improvement Deepens an Owned Workflow | 7/16 |
+| Founder Biography Shows Desperation or Second-Time Learning | 8/10 |
+| **Total** | **44/100** |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 44/100** (Pass)

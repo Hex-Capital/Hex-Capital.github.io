@@ -1,0 +1,79 @@
+{
+  "slug": "ethos-space-resources",
+  "name": "Ethos Space Resources",
+  "oneLiner": "We make Silicon on the Moon.",
+  "metadata": {
+    "website": "https://ethos-space.com",
+    "yc_page": "https://www.ycombinator.com/companies/ethos-space-resources",
+    "batch": "Summer 2026 ([YC, Aug 2026](https://www.ycombinator.com/companies/ethos-space-resources))",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "2",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Hard Tech, Exascale Computing, 3D Printing, Energy, Aerospace",
+    "yc_partner": "Tyler Bosmeny ([YC, Aug 2026](https://www.ycombinator.com/companies/ethos-space-resources))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Exascale Computing",
+    "3D Printing",
+    "Energy",
+    "Aerospace"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:06:20.741Z",
+  "evalScores": {
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": null,
+    "EG": 57,
+    "NR": 65,
+    "PG": 44,
+    "PT": 44,
+    "SL": 41,
+    "VK": 39
+  },
+  "consolidatedAvg": 48.33,
+  "consolidatedRank": 76,
+  "traction": {
+    "tractionRank": 66,
+    "tractionScore": 59,
+    "tractionReason": "Completed NASA contract; $1B customer LOIs"
+  },
+  "paths": {
+    "memo": "summer2026/memos/ethos-space-resources.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/ethos-space-resources.md",
+      "elad-gil": "summer2026/evals/elad-gil/ethos-space-resources.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/ethos-space-resources.md",
+      "paul-graham": "summer2026/evals/paul-graham/ethos-space-resources.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/ethos-space-resources.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/ethos-space-resources.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/ethos-space-resources.md"
+    }
+  }
+}

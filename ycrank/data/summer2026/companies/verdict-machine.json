@@ -1,0 +1,81 @@
+{
+  "slug": "verdict-machine",
+  "name": "Verdict Machine",
+  "oneLiner": "AI cybersecurity for financial institutions' digital assets",
+  "metadata": {
+    "website": "https://verdictmachine.com",
+    "yc_page": "https://www.ycombinator.com/companies/verdict-machine",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "4",
+    "location": "Tel Aviv-Yafo, Tel Aviv District, Israel",
+    "tags": "Crypto / Web3, Security, AI",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Crypto / Web3",
+    "Security",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T04:40:32.448Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 58,
+    "NR": 50,
+    "PG": 44,
+    "PT": 41,
+    "SL": 38,
+    "VK": 31
+  },
+  "consolidatedAvg": 45.86,
+  "consolidatedRank": 102,
+  "traction": {
+    "tractionRank": 85,
+    "tractionScore": 56,
+    "tractionReason": "Bank evaluations and billion-dollar-system POCs"
+  },
+  "paths": {
+    "memo": "summer2026/memos/verdict-machine.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/verdict-machine.md",
+      "elad-gil": "summer2026/evals/elad-gil/verdict-machine.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/verdict-machine.md",
+      "paul-graham": "summer2026/evals/paul-graham/verdict-machine.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/verdict-machine.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/verdict-machine.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/verdict-machine.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "ultrasonium",
+  "name": "Ultrasonium",
+  "oneLiner": "Manufacturing the metal parts the world runs on faster, cheaper, safer",
+  "metadata": {
+    "website": "https://ultrasonium.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ultrasonium",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "17",
+    "location": "Boston, MA, USA",
+    "tags": "Hard Tech, Hardware, Robotics, Manufacturing",
+    "yc_partner": "Diana Hu",
+    "emails": "info@ultrasonium.com, jqiu@ultrasonium.com"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Robotics",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:01:02.023Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 49,
+    "NR": 65,
+    "PG": 39,
+    "PT": 48,
+    "SL": 39,
+    "VK": 46
+  },
+  "consolidatedAvg": 50.29,
+  "consolidatedRank": 61,
+  "traction": {
+    "tractionRank": 157,
+    "tractionScore": 38,
+    "tractionReason": "$305K NSF award; no customer revenue"
+  },
+  "paths": {
+    "memo": "summer2026/memos/ultrasonium.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/ultrasonium.md",
+      "elad-gil": "summer2026/evals/elad-gil/ultrasonium.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/ultrasonium.md",
+      "paul-graham": "summer2026/evals/paul-graham/ultrasonium.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/ultrasonium.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/ultrasonium.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/ultrasonium.md"
+    }
+  }
+}

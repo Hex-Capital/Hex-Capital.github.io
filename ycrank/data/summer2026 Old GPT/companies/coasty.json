@@ -1,0 +1,81 @@
+{
+  "slug": "coasty",
+  "name": "Coasty",
+  "oneLiner": "The computer-use agent that doesn't break on real software. We will?",
+  "metadata": {
+    "website": "http://coasty.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/coasty",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Developer Tools, Workflow Automation",
+    "yc_partner": "Brad Flora ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/coasty))",
+    "emails": "prateekjannu@gmail.com ([Prateek Jannu profile, Jul 2026](https://www.prateekjannu.dev/))"
+  },
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:25:47.408Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 61,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 70,
+    "NR": 63,
+    "PG": 73,
+    "PT": 54,
+    "SL": 44,
+    "VK": 61
+  },
+  "consolidatedAvg": 59.14,
+  "consolidatedRank": 33,
+  "traction": {
+    "tractionRank": 6,
+    "tractionScore": 86,
+    "tractionReason": "Thousands of paying users across four continents"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/coasty.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/coasty.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/coasty.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/coasty.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/coasty.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/coasty.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/coasty.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/coasty.md"
+    }
+  }
+}

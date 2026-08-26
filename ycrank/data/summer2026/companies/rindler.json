@@ -9,63 +9,63 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "Boston, MA, USA",
-    "tags": "B2B, Workflow Automation, Infrastructure, APIs",
-    "yc_partner": "Ankit Gupta",
-    "emails": "founders@rindler.ai, team@rindler.ai"
+    "tags": "B2B, Workflow Automation, Automation, Infrastructure",
+    "yc_partner": "Ankit Gupta ([YC company page](https://www.ycombinator.com/companies/rindler), Aug 2026)",
+    "emails": "founders@rindler.ai, team@rindler.ai ([Rindler llms.txt](https://rindler.ai/llms.txt), Aug 2026; [GitHub](https://github.com/rindler-ai), Aug 2026)"
   },
   "tags": [
     "B2B",
     "Workflow Automation",
-    "Infrastructure",
-    "APIs"
+    "Automation",
+    "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:04:44.954Z",
+  "memoGeneratedAt": "2026-08-11T05:47:12.864Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 45,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 57,
+      "score": 56,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 57,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 43,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 55,
+      "score": 57,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 57,
-    "NR": 57,
-    "PG": 66,
-    "PT": 55,
-    "SL": 31,
-    "VK": 44
+    "CB": 45,
+    "EG": 56,
+    "NR": 47,
+    "PG": 43,
+    "PT": 57,
+    "SL": 30,
+    "VK": 32
   },
-  "consolidatedAvg": 50.43,
-  "consolidatedRank": 116,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 124,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 54,
-    "tractionReason": "Production workflows; $100-$1,000 monthly tiers"
+    "tractionRank": 132,
+    "tractionScore": 45,
+    "tractionReason": "Four web workflows reported in production"
   },
   "paths": {
     "memo": "summer2026/memos/rindler.md",

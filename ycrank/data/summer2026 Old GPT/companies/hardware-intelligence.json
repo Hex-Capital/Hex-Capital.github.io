@@ -1,0 +1,83 @@
+{
+  "slug": "hardware-intelligence",
+  "name": "hardware intelligence",
+  "oneLiner": "AI tools for the chips your AI runs on",
+  "metadata": {
+    "website": "https://hardwareintelligence.ai",
+    "yc_page": "https://www.ycombinator.com/companies/hardware-intelligence",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Hardware, Enterprise Software, Semiconductors",
+    "yc_partner": "Jon Xu",
+    "emails": "hi@hardwareintelligence.ai, athreya@hardwareintelligence.ai, rishov@hardwareintelligence.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Hardware",
+    "Enterprise Software",
+    "Semiconductors"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:25:34.123Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 67,
+    "EG": 59,
+    "NR": 60,
+    "PG": 74,
+    "PT": 44,
+    "SL": 43,
+    "VK": 45
+  },
+  "consolidatedAvg": 56,
+  "consolidatedRank": 59,
+  "traction": {
+    "tractionRank": 128,
+    "tractionScore": 32,
+    "tractionReason": "Pilot onboarding open; no pilots disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/hardware-intelligence.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/hardware-intelligence.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/hardware-intelligence.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/hardware-intelligence.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/hardware-intelligence.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/hardware-intelligence.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/hardware-intelligence.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/hardware-intelligence.md"
+    }
+  }
+}

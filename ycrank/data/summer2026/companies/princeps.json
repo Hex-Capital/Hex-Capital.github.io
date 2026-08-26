@@ -1,0 +1,80 @@
+{
+  "slug": "princeps",
+  "name": "PRINCEPS",
+  "oneLiner": "AI-native insurance company for the compute economy",
+  "metadata": {
+    "website": "https://princeps.dev",
+    "yc_page": "https://www.ycombinator.com/companies/princeps",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "3",
+    "location": "London, England, United Kingdom",
+    "tags": "Artificial Intelligence, Machine Learning",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "contact@princeps.dev, careers@princeps.dev"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Machine Learning"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:06:30.752Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 30,
+    "NR": 35,
+    "PG": 39,
+    "PT": 23,
+    "SL": 28,
+    "VK": 27
+  },
+  "consolidatedAvg": 32.57,
+  "consolidatedRank": 217,
+  "traction": {
+    "tractionRank": 195,
+    "tractionScore": 26,
+    "tractionReason": "One working relationship; no policies or revenue"
+  },
+  "paths": {
+    "memo": "summer2026/memos/princeps.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/princeps.md",
+      "elad-gil": "summer2026/evals/elad-gil/princeps.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/princeps.md",
+      "paul-graham": "summer2026/evals/paul-graham/princeps.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/princeps.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/princeps.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/princeps.md"
+    }
+  }
+}

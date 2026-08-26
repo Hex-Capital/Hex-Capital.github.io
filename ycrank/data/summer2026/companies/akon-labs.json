@@ -1,0 +1,81 @@
+{
+  "slug": "akon-labs",
+  "name": "Akon Labs",
+  "oneLiner": "Nervous System for AI Agents",
+  "metadata": {
+    "website": "https://akonlabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/akon-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, Generative AI, SaaS",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@akonlabs.com"
+  },
+  "tags": [
+    "Deep Learning",
+    "Generative AI",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:14:04.507Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 45,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 68,
+    "EG": 70,
+    "NR": 59,
+    "PG": 69,
+    "PT": 57,
+    "SL": 40,
+    "VK": 45
+  },
+  "consolidatedAvg": 58.29,
+  "consolidatedRank": 12,
+  "traction": {
+    "tractionRank": 33,
+    "tractionScore": 71,
+    "tractionReason": "45.8K stars; 47K weekly downloads; 10 enterprise deployments"
+  },
+  "paths": {
+    "memo": "summer2026/memos/akon-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/akon-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/akon-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/akon-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/akon-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/akon-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/akon-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/akon-labs.md"
+    }
+  }
+}

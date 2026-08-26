@@ -1,0 +1,80 @@
+{
+  "slug": "bernard",
+  "name": "Bernard",
+  "oneLiner": "AI employees that run home appliance repair companies",
+  "metadata": {
+    "website": "https://bernardhq.com/",
+    "yc_page": "https://www.ycombinator.com/companies/bernard",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "9",
+    "location": "New York City, NY, USA",
+    "tags": "Home Services, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@bernardhq.com, david@bernardhq.com, support@bernardhq.com, legal@bernard.ai, privacy@bernard.ai"
+  },
+  "tags": [
+    "Home Services",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:22:40.892Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 24,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 53,
+    "NR": 58,
+    "PG": 47,
+    "PT": 49,
+    "SL": 38,
+    "VK": 24
+  },
+  "consolidatedAvg": 43.71,
+  "consolidatedRank": 130,
+  "traction": {
+    "tractionRank": 59,
+    "tractionScore": 61,
+    "tractionReason": "Large servicers handle thousands of daily calls"
+  },
+  "paths": {
+    "memo": "summer2026/memos/bernard.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/bernard.md",
+      "elad-gil": "summer2026/evals/elad-gil/bernard.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/bernard.md",
+      "paul-graham": "summer2026/evals/paul-graham/bernard.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/bernard.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/bernard.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/bernard.md"
+    }
+  }
+}

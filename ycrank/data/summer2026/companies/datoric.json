@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.datoric.com",
     "yc_page": "https://www.ycombinator.com/companies/datoric",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/datoric), Aug 2026)",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Data Labeling, ML",
-    "yc_partner": "Harshita Arora",
-    "emails": "founders@datoric.com, service@datoric.com ([YC company page](https://www.ycombinator.com/companies/datoric); [Datoric Privacy Notice](https://www.datoric.com/privacy))"
+    "yc_partner": "Harshita Arora ([YC](https://www.ycombinator.com/companies/datoric), Aug 2026)",
+    "emails": "founders@datoric.com, service@datoric.com ([YC](https://www.ycombinator.com/companies/datoric); [Datoric Privacy Notice](https://www.datoric.com/privacy), Aug 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "ML"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:15:52.841Z",
+  "memoGeneratedAt": "2026-08-11T05:59:20.677Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
+      "score": 69,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 78,
+      "score": 70,
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
+      "score": 75,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 86,
-      "tier": "Strong Invest"
+      "score": 84,
+      "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 52,
+      "score": 60,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 59,
+      "score": 48,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 35,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 78,
-    "NR": 55,
-    "PG": 86,
-    "PT": 52,
-    "SL": 59,
-    "VK": 52
+    "CB": 69,
+    "EG": 70,
+    "NR": 75,
+    "PG": 84,
+    "PT": 60,
+    "SL": 48,
+    "VK": 35
   },
-  "consolidatedAvg": 64,
-  "consolidatedRank": 6,
+  "consolidatedAvg": 63,
+  "consolidatedRank": 4,
   "traction": {
     "tractionRank": 1,
     "tractionScore": 98,
-    "tractionReason": "Nearly seven figures revenue in 30 days; 300,000 active contributors"
+    "tractionReason": "Nearly $1M revenue in 30 days; 300K active contributors"
   },
   "paths": {
     "memo": "summer2026/memos/datoric.md",

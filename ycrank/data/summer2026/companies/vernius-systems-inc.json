@@ -1,0 +1,83 @@
+{
+  "slug": "vernius-systems-inc",
+  "name": "Vernius Systems, Inc.",
+  "oneLiner": "Autonomous radar guidance for interceptors",
+  "metadata": {
+    "website": "https://www.vernius.systems",
+    "yc_page": "https://www.ycombinator.com/companies/vernius-systems-inc",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Drones, Radar, Aerospace, Defense",
+    "yc_partner": "Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/vernius-systems-inc), Aug 2026)",
+    "emails": "contact@vernius.systems ([Vernius website](https://www.vernius.systems/), Aug 2026)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Drones",
+    "Radar",
+    "Aerospace",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:06:20.744Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 76,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "sam-lessin": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 51,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 73,
+    "EG": 67,
+    "NR": 73,
+    "PG": 76,
+    "PT": 71,
+    "SL": 47,
+    "VK": 51
+  },
+  "consolidatedAvg": 65.43,
+  "consolidatedRank": 1,
+  "traction": {
+    "tractionRank": 22,
+    "tractionScore": 76,
+    "tractionReason": "45 units sold to special forces"
+  },
+  "paths": {
+    "memo": "summer2026/memos/vernius-systems-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/vernius-systems-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/vernius-systems-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/vernius-systems-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/vernius-systems-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/vernius-systems-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/vernius-systems-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/vernius-systems-inc.md"
+    }
+  }
+}

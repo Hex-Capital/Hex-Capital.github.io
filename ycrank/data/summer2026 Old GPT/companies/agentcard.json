@@ -1,0 +1,79 @@
+{
+  "slug": "agentcard",
+  "name": "Agentcard",
+  "oneLiner": "debit cards for AI agents.",
+  "metadata": {
+    "website": "https://agentcard.sh",
+    "yc_page": "https://www.ycombinator.com/companies/agentcard",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "founders@agentcard.sh, support@agentcard.sh"
+  },
+  "tags": [
+    "Fintech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:33:11.135Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 68,
+    "NR": 67,
+    "PG": 70,
+    "PT": 50,
+    "SL": 47,
+    "VK": 42
+  },
+  "consolidatedAvg": 58.57,
+  "consolidatedRank": 38,
+  "traction": {
+    "tractionRank": 51,
+    "tractionScore": 57,
+    "tractionReason": "Observed purchases; promotional $500 monthly company price"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/agentcard.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/agentcard.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/agentcard.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/agentcard.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/agentcard.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/agentcard.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/agentcard.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/agentcard.md"
+    }
+  }
+}

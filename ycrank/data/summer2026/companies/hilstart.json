@@ -1,0 +1,80 @@
+{
+  "slug": "hilstart",
+  "name": "Hilstart",
+  "oneLiner": "Autonomous Hardware Testing",
+  "metadata": {
+    "website": "https://hilstart.io/",
+    "yc_page": "https://www.ycombinator.com/companies/hilstart",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Hardware",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Developer Tools",
+    "Hardware"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:15:59.652Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 39,
+    "NR": 53,
+    "PG": 42,
+    "PT": 37,
+    "SL": 33,
+    "VK": 33
+  },
+  "consolidatedAvg": 41.71,
+  "consolidatedRank": 146,
+  "traction": {
+    "tractionRank": 142,
+    "tractionScore": 42,
+    "tractionReason": "Early access onboarding a small team cohort"
+  },
+  "paths": {
+    "memo": "summer2026/memos/hilstart.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/hilstart.md",
+      "elad-gil": "summer2026/evals/elad-gil/hilstart.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/hilstart.md",
+      "paul-graham": "summer2026/evals/paul-graham/hilstart.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/hilstart.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/hilstart.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/hilstart.md"
+    }
+  }
+}

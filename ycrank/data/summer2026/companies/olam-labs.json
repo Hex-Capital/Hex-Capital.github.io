@@ -1,7 +1,7 @@
 {
   "slug": "olam-labs",
   "name": "Olam Labs",
-  "oneLiner": "Evaluating models for behavior and performance through simulated games",
+  "oneLiner": "Building multi-agent simulations for model evals and training.",
   "metadata": {
     "website": "https://olamlabs.ai",
     "yc_page": "https://www.ycombinator.com/companies/olam-labs",
@@ -9,63 +9,63 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Reinforcement Learning, Gaming, Data Engineering, AI",
-    "yc_partner": "Harshita Arora",
-    "emails": "sensho@sensho.xyz ([Om Buddhdev profile](https://www.sensho.xyz/), Jul 2026)"
+    "tags": "Artificial Intelligence, Reinforcement Learning, Gaming, Data Engineering",
+    "yc_partner": "Harshita Arora ([YC](https://www.ycombinator.com/companies/olam-labs))",
+    "emails": "founders@olamlabs.ai ([YC Launch](https://www.ycombinator.com/launches/ST2-can-you-beat-frontier-llms-at-social-strategy-games-multi-agent-arena-by-olam-labs-evaluating-through-multi-agent-simulations)); om@olamlabs.ai ([founder site](https://www.sensho.xyz/))"
   },
   "tags": [
+    "Artificial Intelligence",
     "Reinforcement Learning",
     "Gaming",
-    "Data Engineering",
-    "AI"
+    "Data Engineering"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:00:13.315Z",
+  "memoGeneratedAt": "2026-08-11T05:39:31.509Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 61,
+      "tier": "Neutral"
     },
     "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
       "score": 66,
       "tier": "Invest"
     },
-    "naval-ravikant": {
-      "score": 71,
-      "tier": "Invest"
-    },
     "paul-graham": {
-      "score": 73,
-      "tier": "Invest"
+      "score": 56,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 51,
+      "score": 55,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 43,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 66,
-    "NR": 71,
-    "PG": 73,
-    "PT": 51,
-    "SL": 43,
-    "VK": 53
+    "CB": 61,
+    "EG": 47,
+    "NR": 66,
+    "PG": 56,
+    "PT": 55,
+    "SL": 32,
+    "VK": 25
   },
-  "consolidatedAvg": 60.86,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 48.86,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 40,
-    "tractionReason": "86,729 graded turns; public arena still alpha"
+    "tractionRank": 38,
+    "tractionScore": 69,
+    "tractionReason": "Thousands of users and 1,000 daily matches"
   },
   "paths": {
     "memo": "summer2026/memos/olam-labs.md",

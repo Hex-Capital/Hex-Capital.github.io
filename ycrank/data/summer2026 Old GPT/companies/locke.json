@@ -1,0 +1,80 @@
+{
+  "slug": "locke",
+  "name": "Locke",
+  "oneLiner": "Builders of the first AI-native government affairs firm.",
+  "metadata": {
+    "website": "https://locke.inc",
+    "yc_page": "https://www.ycombinator.com/companies/locke",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "GovTech, AI",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "GovTech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:28:46.617Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 48,
+    "NR": 44,
+    "PG": 49,
+    "PT": 43,
+    "SL": 51,
+    "VK": 25
+  },
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 143,
+  "traction": {
+    "tractionRank": 80,
+    "tractionScore": 48,
+    "tractionReason": "First few partners; exact count undisclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/locke.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/locke.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/locke.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/locke.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/locke.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/locke.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/locke.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/locke.md"
+    }
+  }
+}

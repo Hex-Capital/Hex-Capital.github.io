@@ -1,0 +1,81 @@
+{
+  "slug": "evergrove",
+  "name": "Evergrove",
+  "oneLiner": "Voice agents that accelerate care coordination in workers' comp",
+  "metadata": {
+    "website": "https://www.evergrovelabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/evergrove",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Healthcare, Insurance, AI",
+    "yc_partner": "Harj Taggar",
+    "emails": "jacob@evergrovelabs.com"
+  },
+  "tags": [
+    "Healthcare",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:26:36.991Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 67,
+    "EG": 73,
+    "NR": 57,
+    "PG": 60,
+    "PT": 56,
+    "SL": 42,
+    "VK": 34
+  },
+  "consolidatedAvg": 55.57,
+  "consolidatedRank": 25,
+  "traction": {
+    "tractionRank": 50,
+    "tractionScore": 64,
+    "tractionReason": "350K production calls; over 500K annually"
+  },
+  "paths": {
+    "memo": "summer2026/memos/evergrove.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/evergrove.md",
+      "elad-gil": "summer2026/evals/elad-gil/evergrove.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/evergrove.md",
+      "paul-graham": "summer2026/evals/paul-graham/evergrove.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/evergrove.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/evergrove.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/evergrove.md"
+    }
+  }
+}

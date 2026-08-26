@@ -1,6 +1,6 @@
 ﻿# Touchmark
 
-> Solving AI pricing
+> Market for future inference capacity
 
 | Field | Value |
 |-------|-------|
@@ -16,68 +16,67 @@
 
 ## The Idea
 
-- **Problem:** AI vendors commonly bill by tokens or usage even when outputs vary in quality, leaving prices disconnected from the value customers receive ([founder announcement, Jul 2026](https://www.linkedin.com/posts/ilia-bolgov-8683b0254_the-future-of-ai-pricing-wont-be-just-per-activity-7473063836632117248-3S3H)).
-- **Approach:** Touchmark is building infrastructure that prices AI based on output quality, with a reported SDK that evaluates outputs and applies billing adjustments as quality scores settle ([founder announcement, Jul 2026](https://www.linkedin.com/posts/ilia-bolgov-8683b0254_the-future-of-ai-pricing-wont-be-just-per-activity-7473063836632117248-3S3H); [HokAI review, Jul 2026](https://hokai.io/hub/tools/touchmark)).
-- **Differentiation:** [Inferred]: Unlike Metronome and Orb, which meter usage and implement configurable rate cards, Touchmark’s stated distinction is using evaluated output quality as the billable variable rather than consumption alone.
-- **Business Model:** [Inferred]: Touchmark could charge AI-product vendors according to evaluated-output volume or billing volume, but its placeholder website publishes no plans, fees, or commercial terms.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** [Inferred]: Initial distribution is likely founder-led outreach to AI-product teams experimenting with outcome-based pricing, supported by Touchmark’s YC network and founders’ product, quantitative-research, and AI-engineering backgrounds.
+- **Problem:** AI companies seeking reserved inference discounts must negotiate private, non-resellable commitments, while providers finance GPU capacity without transparent forward demand ([Touchmark website](https://touchmark.ai/), Aug 2026).
+- **Approach:** Touchmark lists fixed token blocks for named open models and delivery months on an order book, settles purchases from a funded balance, delivers usage through an OpenAI-compatible key, and permits resale before a block is consumed ([Touchmark website](https://touchmark.ai/), Aug 2026).
+- **Differentiation:** Touchmark trades future named-model token allocations, versus OpenRouter’s on-demand model routing, Ornn’s GPU spot and derivatives market, and SF Compute’s short-term GPU-capacity marketplace ([Touchmark](https://touchmark.ai/); [OpenRouter](https://openrouter.ai/blog/announcements/series-b/); [Galaxy on Ornn](https://www.galaxy.com/insights/perspectives/backing-ornn-the-financial-layer-for-compute); [eWeek on SF Compute](https://www.eweek.com/news/sf-compute-ai-funding/), 2025–2026).
+- **Business Model:** Buyers prepay listed capacity contracts from a USD balance—examples include $3,800 for one billion GLM 5.2 tokens and $870 for one billion MiniMax-M3 tokens—although no marketplace fee or take rate is disclosed ([Touchmark website](https://touchmark.ai/), Aug 2026).
+- **TAM/SAM:** No public estimate was found for forward inference-capacity trading specifically; the adjacent global AI-inference market was estimated at $106.15 billion in 2025 and projected to reach $254.98 billion in 2030 at a 19.2% CAGR ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/ai-inference-market-189921964.html), 2025).
+- **GTM / Distribution:** Touchmark solicits AI companies as capacity buyers and model providers as sellers through a two-sided order book, with OpenAI-compatible delivery intended to reduce buyer integration work ([Touchmark website](https://touchmark.ai/), Aug 2026).
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: A proprietary dataset linking AI outputs, evaluation results, customer behavior, and accepted billing adjustments could improve quality-price calibration, but no dataset size, customer deployment, or performance evidence is public.
+- **Future moat:** [Inferred]: Executed trades could create liquidity and model-specific forward-price histories that attract additional buyers and sellers, but Touchmark has not disclosed trade volume or participant counts.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Billing platforms including Metronome, Orb, Valmi, Stripe, and Lago already process usage or outcome events and could add quality scores as another billing metric ([Metronome, Feb 2025](https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine); [Orb](https://www.withorb.com/blog/series-b); [Valmi](https://www.valmi.io/)).
+- **Commoditization risk:** Ornn and SF Compute already operate funded compute marketplaces, while OpenRouter has an established inference-routing marketplace that could add reservations or resale features ([Axios on Ornn](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity); [eWeek on SF Compute](https://www.eweek.com/news/sf-compute-ai-funding/); [OpenRouter](https://openrouter.ai/blog/announcements/series-b/), 2025–2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Summer 2026 YC participation ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/touchmark)).
-  - Company launch announced by Ilia Bolgov and Roman Yanushevskyi ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/ilia-bolgov-8683b0254_the-future-of-ai-pricing-wont-be-just-per-activity-7473063836632117248-3S3H)).
-  - Zero jobs listed on the YC profile ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/touchmark)).
-  - Website displayed “Coming soon” at the time of research ([Touchmark, Jul 2026](https://touchmark.ai/)).
-- **Competitors (minimum 3, up to 5):**
-  - Metronome ($128M raised, revenue unknown): meters usage and manages rate cards and billing, while Touchmark states that pricing will vary with evaluated output quality ([Metronome, Feb 2025](https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine)).
-  - Orb ($44M raised, revenue unknown): provides developer-oriented usage-based billing for software and AI companies, rather than publicly positioning quality evaluation as the pricing metric ([Orb](https://www.withorb.com/blog/series-b)).
-  - Valmi (funding unknown, revenue unknown): tracks AI-agent actions and outcomes for outcome-based billing, overlapping with Touchmark’s proposed value-linked pricing while describing outcomes rather than output-quality scores ([Valmi, Jul 2026](https://www.valmi.io/)).
-- **Why now:** [Inferred]: The catalyst is the 2025–2026 adoption of outcome and hybrid pricing for AI products, including Zendesk’s 2026 introduction of charges tied to independently verified AI resolutions ([TechRadar, May 2026](https://www.techradar.com/pro/zendesk-links-ai-pricing-to-verified-resolution-outcomes)).
+  - Current-product launch: The website labels GLM 5.2 and MiniMax-M3 volume-contract books as live but publishes no verified customer, revenue, or executed-volume totals ([Touchmark website](https://touchmark.ai/), Aug 2026).
+  - Prior-product launch: A July 2026 founder announcement described pricing AI according to output quality, distinct from the current forward-capacity marketplace ([Ilia Bolgov on LinkedIn](https://www.linkedin.com/posts/ilia-bolgov-8683b0254_the-future-of-ai-pricing-wont-be-just-per-activity-7473063836632117248-3S3H), Jul 2026).
+  - Hiring: 0 jobs listed ([YC company profile](https://www.ycombinator.com/companies/touchmark), Aug 2026).
+- **Competitors:**
+  - Ornn ($33M raised, revenue unknown): trades spot GPU capacity and compute-linked financial derivatives rather than delivered named-model token blocks ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026).
+  - SF Compute ($40M raised, revenue unknown): matches buyers with flexible, short-term GPU hardware capacity and reported managing over $100M of hardware, rather than future inference tokens ([eWeek](https://www.eweek.com/news/sf-compute-ai-funding/), Dec 2025).
+  - OpenRouter ($153M raised, approximately $50M annualized revenue): aggregates and routes on-demand inference across models, whereas Touchmark fixes capacity price and delivery month and permits resale ([TechCrunch](https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/); [Sacra](https://sacra.com/c/openrouter/), Mar–May 2026).
+- **Why now:** The shift of AI workloads from training toward inference and agents has increased demand for inference routing and capacity procurement ([TechCrunch](https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/), May 2026).
 
 ## Founders & Team
 
 - **Ilia Bolgov (Founder):**
-  - Background: Worked in product at Revolut and studied mathematics at Imperial College London ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/touchmark)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Co-founder at Touchmark; Product at Revolut; Maths at Imperial College London,” with 1,646 followers shown on a founder post ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/ilia-bolgov-8683b0254_i-am-very-excited-to-announce-that-i-will-activity-7291785355333107713-8cyw)).
+  - Background: MSc Mathematics and Finance at Imperial College London, prior Product Owner Intern in Revolut’s Wealth & Trading unit, and BSc Mathematics from Cardiff University ([Touchmark website](https://touchmark.ai/); [LinkedIn](https://www.linkedin.com/in/ilia-bolgov-8683b0254), Aug 2026).
+  - Twitter/X: @iliabolgov, 85 followers ([TwStalker via search snippet](https://w.twstalker.com/elliotnorrevik), Aug 2026).
+  - LinkedIn: “Touchmark (YC S26),” with 1,925 followers ([LinkedIn](https://www.linkedin.com/in/ilia-bolgov-8683b0254), Jul 2026).
   - GitHub: No public repos found.
 - **Roman Yanushevskyi (Founder):**
-  - Background: National University of Singapore mathematics and computer-science graduate, two-time Citadel Securities quantitative-research intern, former Lovable AI-engineering intern, and International Olympiad in Informatics gold medalist ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/touchmark)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Math + CS student at the National University of Singapore,” with 838 followers on the indexed profile ([LinkedIn, May 2026](https://uk.linkedin.com/in/roman-yanushevskyi)).
+  - Background: Math and computer-science graduate from the National University of Singapore, two-time Citadel Securities quantitative-research intern, Lovable AI-engineering intern, and 2022 International Olympiad in Informatics gold medalist ([YC company profile](https://www.ycombinator.com/companies/touchmark), Aug 2026).
+  - Twitter/X: @ryanushevskyi, 55 followers ([TwStalker via search snippet](https://w.twstalker.com/philip_bogdanov), Aug 2026).
+  - LinkedIn: “Touchmark (YC S26),” with 996 followers ([LinkedIn](https://www.linkedin.com/in/roman-yanushevskyi), Jul 2026).
   - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Ilia Bolgov’s product work at Revolut and mathematics studies relate to pricing-system design, while Roman Yanushevskyi’s quantitative research, mathematics, computer science, and AI-engineering experience relate to evaluation and pricing models ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/touchmark)).
+- **Founder-market fit:** [Inferred]: Bolgov’s financial-product experience and Yanushevskyi’s quantitative-research and AI-engineering work align with contract pricing, market design, and inference delivery ([YC company profile](https://www.ycombinator.com/companies/touchmark); [Touchmark website](https://touchmark.ai/), Aug 2026).
 
 ## Key Risks
 
-- **Quality measurement:** Prices depend on determining output quality, but Touchmark has published no evaluation methodology, accuracy results, dispute process, or evidence that automated scores match customer-perceived value ([Touchmark, Jul 2026](https://touchmark.ai/)).
-- **Billing-incumbent substitution:** Metronome and Orb already provide billing infrastructure to AI companies and could accept quality scores as metered events; they report $128M and $44M in total funding, respectively ([Metronome, Feb 2025](https://metronome.com/blog/metronome-raises-50m-series-c-to-redefine-billing-as-a-growth-engine); [Orb](https://www.withorb.com/blog/series-b)).
-- **Outcome attribution:** Some AI outcomes depend on customer behavior or external events rather than model output alone, making an output-quality score an incomplete basis for value-linked pricing ([BCG, 2025](https://web-assets.bcg.com/pdf-src/prod-live/rethinking-b2b-software-pricing-in-the-era-of-ai.pdf)).
-- **Product verifiability:** The public website remained a “Coming soon” page and supplied no documentation, security details, pricing, customer names, or performance measurements at the time of research ([Touchmark, Jul 2026](https://touchmark.ai/)).
-- **Name ambiguity:** Search results include unrelated senior-living, medical-printing, and banking businesses called Touchmark, creating disambiguation risk for uncross-checked coverage ([LinkedIn search results, Jul 2026](https://www.linkedin.com/company/touchmark)).
+- **Marketplace liquidity:** Resale and price discovery require buyers and sellers at matching models, months, and prices, while Touchmark discloses no participant counts, trade volume, or completed resales ([Touchmark website](https://touchmark.ai/), Aug 2026).
+- **Fixed-price basis risk:** Inference token prices declined approximately 600-fold from 2020–2026, so spot-price or model-efficiency changes could leave buyers holding above-market contracts whose resale is not assured ([Tiered Super-Moore study](https://arxiv.org/abs/2603.28576), Mar 2026).
+- **Product transition:** Founders announced quality-based output pricing in July 2026, while the current site centers on forward-capacity contracts, and no transition timeline or prior-product customer migration is disclosed ([LinkedIn launch post](https://www.linkedin.com/posts/ilia-bolgov-8683b0254_the-future-of-ai-pricing-wont-be-just-per-activity-7473063836632117248-3S3H); [Touchmark website](https://touchmark.ai/), Jul–Aug 2026).
+- **Competitive overlap:** Ornn raised $33M for compute trading and SF Compute raised $40M for flexible GPU-capacity matching, placing funded marketplaces against Touchmark’s buyer-and-provider acquisition effort ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity); [eWeek](https://www.eweek.com/news/sf-compute-ai-funding/), 2025–2026).
+- **Name collision:** Unrelated senior-living, medical-printing, and banking organizations use the Touchmark name, creating search and brand ambiguity mitigated partly by the touchmark.ai domain and “YC S26” label ([LinkedIn search results](https://www.linkedin.com/company/touchmark-llc), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $106.15B global AI-inference market in 2025, projected to $254.98B by 2030 at 19.2% CAGR ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/ai-inference-market-189921964.html), 2025) |
 | SAM | No public data found |
-| Traction | Summer 2026 YC participation and public launch announcement (Y Combinator and LinkedIn, Jul 2026) |
-| Revenue Signal | No public data found |
-| Founders | Ilia Bolgov (Founder): Revolut product experience and Imperial mathematics (Y Combinator, Jul 2026); Roman Yanushevskyi (Founder): Citadel Securities quantitative research, Lovable AI engineering, NUS Math/CS, IOI gold medal (Y Combinator, Jul 2026) |
-| Competitors | Metronome ($128M raised, revenue unknown, usage-based billing) (Metronome, Feb 2025); Orb ($44M raised, revenue unknown, developer-oriented usage billing) (Orb); Valmi (funding unknown, revenue unknown, AI-agent outcome billing) (Valmi, Jul 2026) |
+| Traction | GLM 5.2 and MiniMax-M3 volume-contract books labeled live; no verified customer, revenue, or trade-volume totals published ([Touchmark website](https://touchmark.ai/), Aug 2026) |
+| Revenue Signal | $3,800 listed for one billion GLM 5.2 tokens and $870 for one billion MiniMax-M3 tokens; marketplace fee not disclosed ([Touchmark website](https://touchmark.ai/), Aug 2026) |
+| Founders | Ilia Bolgov (Founder): Imperial mathematics and finance, Revolut product, Cardiff mathematics; Roman Yanushevskyi (Founder): NUS math and CS, Citadel Securities quant research, Lovable AI engineering, IOI gold ([YC company profile](https://www.ycombinator.com/companies/touchmark), Aug 2026) |
+| Competitors | Ornn ($33M raised, revenue unknown, GPU spot and derivatives market) ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026); SF Compute ($40M raised, revenue unknown, short-term GPU marketplace) ([eWeek](https://www.eweek.com/news/sf-compute-ai-funding/), Dec 2025); OpenRouter ($153M raised, approximately $50M annualized revenue, on-demand inference routing) ([TechCrunch](https://techcrunch.com/2026/05/26/openrouter-more-than-doubles-valuation-to-1-3b-in-a-year/); [Sacra](https://sacra.com/c/openrouter/), Mar–May 2026) |
 | Moat Signals | No public data found |
-| Risk Factors | Unpublished quality-evaluation performance (Touchmark, Jul 2026), billing-incumbent substitution (Metronome and Orb), outcome-attribution limitations (BCG, 2025) |
-| Founder Reach | Ilia Bolgov: LinkedIn 1,646 followers (LinkedIn, Jul 2026); Roman Yanushevskyi: LinkedIn 838 followers (LinkedIn, May 2026) |
-| Distribution Signals | Summer 2026 YC profile and founder launch announcement (Y Combinator and LinkedIn, Jul 2026) |
+| Risk Factors | Marketplace liquidity and resale dependence ([Touchmark](https://touchmark.ai/), Aug 2026), inference-price basis risk ([arXiv](https://arxiv.org/abs/2603.28576), Mar 2026), funded compute-marketplace competition ([Axios](https://www.axios.com/2026/07/06/ornn-gpu-compute-commodity), Jul 2026) |
+| Founder Reach | Ilia Bolgov: X 85 ([TwStalker via search snippet](https://w.twstalker.com/elliotnorrevik), Aug 2026), LinkedIn 1,925 ([LinkedIn](https://www.linkedin.com/in/ilia-bolgov-8683b0254), Jul 2026), GitHub no public data found; Roman Yanushevskyi: X 55 ([TwStalker via search snippet](https://w.twstalker.com/philip_bogdanov), Aug 2026), LinkedIn 996 ([LinkedIn](https://www.linkedin.com/in/roman-yanushevskyi), Jul 2026), GitHub no public data found |
+| Distribution Signals | Founders announced Touchmark and YC S26 participation through LinkedIn ([LinkedIn launch post](https://www.linkedin.com/posts/ilia-bolgov-8683b0254_the-future-of-ai-pricing-wont-be-just-per-activity-7473063836632117248-3S3H), Jul 2026); 0 YC jobs listed ([YC company profile](https://www.ycombinator.com/companies/touchmark), Aug 2026) |
 | Emails | No public data found |

@@ -1,0 +1,82 @@
+{
+  "slug": "pango",
+  "name": "Pango",
+  "oneLiner": "Agentic OS for e-commerce operations",
+  "metadata": {
+    "website": "https://pango.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/pango",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Retail",
+    "team_size": "5",
+    "location": "Stockholm, Stockholm County, Sweden",
+    "tags": "Logistics, E-commerce, Retail, AI",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "steve@pango.ai, support@pango.ai, business.pango@gmail.com"
+  },
+  "tags": [
+    "Logistics",
+    "E-commerce",
+    "Retail",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:02:59.233Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 78,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 68,
+    "NR": 55,
+    "PG": 78,
+    "PT": 38,
+    "SL": 51,
+    "VK": 34
+  },
+  "consolidatedAvg": 54.43,
+  "consolidatedRank": 75,
+  "traction": {
+    "tractionRank": 11,
+    "tractionScore": 81,
+    "tractionReason": "30 brands signed; 60% monthly growth"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/pango.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/pango.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/pango.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/pango.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/pango.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/pango.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/pango.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/pango.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "spaceflow-technologies-inc",
+  "name": "SpaceFlow Technologies, Inc.",
+  "oneLiner": "The managed runtime for enterprise AI agents",
+  "metadata": {
+    "website": "https://spaceflow.tech",
+    "yc_page": "https://www.ycombinator.com/companies/spaceflow-technologies-inc",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Workflow Automation, Logistics, Manufacturing, Supply Chain",
+    "yc_partner": "Harshita Arora",
+    "emails": "sales@spaceflow.tech, emre@spaceflow.tech ([company website](https://spaceflow.tech/), Aug 2026; [YC company page](https://www.ycombinator.com/companies/spaceflow-technologies-inc), Aug 2026)"
+  },
+  "tags": [
+    "Workflow Automation",
+    "Logistics",
+    "Manufacturing",
+    "Supply Chain"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T04:35:06.225Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 75,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 64,
+    "EG": 75,
+    "NR": 68,
+    "PG": 73,
+    "PT": 62,
+    "SL": 46,
+    "VK": 36
+  },
+  "consolidatedAvg": 60.57,
+  "consolidatedRank": 6,
+  "traction": {
+    "tractionRank": 20,
+    "tractionScore": 77,
+    "tractionReason": "Six-figure contracted ARR; hundreds of daily users"
+  },
+  "paths": {
+    "memo": "summer2026/memos/spaceflow-technologies-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/spaceflow-technologies-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/spaceflow-technologies-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/spaceflow-technologies-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/spaceflow-technologies-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/spaceflow-technologies-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/spaceflow-technologies-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/spaceflow-technologies-inc.md"
+    }
+  }
+}

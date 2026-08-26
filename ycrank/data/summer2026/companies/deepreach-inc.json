@@ -1,0 +1,83 @@
+{
+  "slug": "deepreach-inc",
+  "name": "DeepReach Inc.",
+  "oneLiner": "Real-world data network for robots & world models",
+  "metadata": {
+    "website": "http://www.deepreach.ai",
+    "yc_page": "https://www.ycombinator.com/companies/deepreach-inc",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "6",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Machine Learning, Robotics, Computer Vision",
+    "yc_partner": "Brad Flora",
+    "emails": "info@deepreach.ai, tim.li@deepreach.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Machine Learning",
+    "Robotics",
+    "Computer Vision"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:17:15.287Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 82,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 76,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 76,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "sam-lessin": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 82,
+    "EG": 72,
+    "NR": 76,
+    "PG": 76,
+    "PT": 70,
+    "SL": 50,
+    "VK": 31
+  },
+  "consolidatedAvg": 65.29,
+  "consolidatedRank": 2,
+  "traction": {
+    "tractionRank": 6,
+    "tractionScore": 88,
+    "tractionReason": "Several million dollars in signed customer contracts"
+  },
+  "paths": {
+    "memo": "summer2026/memos/deepreach-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/deepreach-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/deepreach-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/deepreach-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/deepreach-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/deepreach-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/deepreach-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/deepreach-inc.md"
+    }
+  }
+}

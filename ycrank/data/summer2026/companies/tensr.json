@@ -1,0 +1,67 @@
+{
+  "slug": "tensr",
+  "name": "tensr",
+  "oneLiner": "",
+  "metadata": {},
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:56:16.086Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 26,
+    "EG": 26,
+    "NR": 24,
+    "PG": 29,
+    "PT": 28,
+    "SL": 28,
+    "VK": 25
+  },
+  "consolidatedAvg": 26.57,
+  "consolidatedRank": 235,
+  "traction": {
+    "tractionRank": 229,
+    "tractionScore": 5,
+    "tractionReason": "No traction sections found"
+  },
+  "paths": {
+    "memo": "summer2026/memos/tensr.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/tensr.md",
+      "elad-gil": "summer2026/evals/elad-gil/tensr.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/tensr.md",
+      "paul-graham": "summer2026/evals/paul-graham/tensr.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/tensr.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/tensr.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/tensr.md"
+    }
+  }
+}

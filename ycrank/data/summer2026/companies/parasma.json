@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://parasma.com",
     "yc_page": "https://www.ycombinator.com/companies/parasma",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/parasma), Aug 2026)",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Machine Learning, Neurotechnology, AI",
-    "yc_partner": "Tyler Bosmeny",
-    "emails": "careers@parasma.com"
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/parasma), Aug 2026)",
+    "emails": "careers@parasma.com ([Sean Cole recruitment post](https://www6.twstalker.com/vytalow), Jul 2026)"
   },
   "tags": [
     "Machine Learning",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:59:02.711Z",
+  "memoGeneratedAt": "2026-08-11T05:37:36.278Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 84,
-      "tier": "Invest"
+      "score": 62,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
+      "score": 35,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 60,
+      "score": 53,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
+      "score": 48,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 60,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 71,
-      "tier": "Invest"
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 84,
-    "EG": 44,
-    "NR": 60,
-    "PG": 71,
-    "PT": 56,
-    "SL": 60,
-    "VK": 71
+    "CB": 62,
+    "EG": 35,
+    "NR": 53,
+    "PG": 48,
+    "PT": 44,
+    "SL": 29,
+    "VK": 38
   },
-  "consolidatedAvg": 63.71,
-  "consolidatedRank": 7,
+  "consolidatedAvg": 44.14,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 35,
-    "tractionReason": "Research demonstrations; founder reported no product or revenue"
+    "tractionRank": 164,
+    "tractionScore": 36,
+    "tractionReason": "200K-neuron experiment; no product customers"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

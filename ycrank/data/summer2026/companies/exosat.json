@@ -1,0 +1,83 @@
+{
+  "slug": "exosat",
+  "name": "Exosat",
+  "oneLiner": "Building a sovereign Starlink",
+  "metadata": {
+    "website": "https://www.exosat.com",
+    "yc_page": "https://www.ycombinator.com/companies/exosat",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "1",
+    "location": "Singapore, Singapore",
+    "tags": "IoT, Space Exploration, Satellites, Aerospace, Telecommunications",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@exosat.com, info@exosat.com ([Y Combinator](https://www.ycombinator.com/companies/exosat), Aug 2026; [Exosat website](https://www.exosat.com/), Aug 2026)"
+  },
+  "tags": [
+    "IoT",
+    "Space Exploration",
+    "Satellites",
+    "Aerospace",
+    "Telecommunications"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:19:31.912Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 60,
+    "NR": 68,
+    "PG": 52,
+    "PT": 47,
+    "SL": 46,
+    "VK": 47
+  },
+  "consolidatedAvg": 55.86,
+  "consolidatedRank": 23,
+  "traction": {
+    "tractionRank": 67,
+    "tractionScore": 59,
+    "tractionReason": "$400M LOIs across six nations"
+  },
+  "paths": {
+    "memo": "summer2026/memos/exosat.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/exosat.md",
+      "elad-gil": "summer2026/evals/elad-gil/exosat.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/exosat.md",
+      "paul-graham": "summer2026/evals/paul-graham/exosat.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/exosat.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/exosat.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/exosat.md"
+    }
+  }
+}

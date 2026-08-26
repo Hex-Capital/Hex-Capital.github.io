@@ -9,30 +9,30 @@
     "industry": "Fintech / Fintech -> Insurance",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Machine Learning, Real Estate, BB, Insurance, AI",
-    "yc_partner": "Ankit Gupta",
-    "emails": "hello@risklytics.ai"
+    "tags": "Hardware, Machine Learning, B2B, Insurance, AI",
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/risklytics), Aug 2026)",
+    "emails": "hello@risklytics.ai ([company website](https://www.risklytics.ai/), Aug 2026)"
   },
   "tags": [
+    "Hardware",
     "Machine Learning",
-    "Real Estate",
-    "BB",
+    "B2B",
     "Insurance",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:37:03.729Z",
+  "memoGeneratedAt": "2026-08-11T05:02:12.671Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 46,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 37,
+      "score": 34,
       "tier": "Pass"
     },
     "paul-graham": {
@@ -40,33 +40,33 @@
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 33,
+      "score": 35,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 28,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 51,
-    "NR": 37,
+    "CB": 46,
+    "EG": 42,
+    "NR": 34,
     "PG": 43,
-    "PT": 33,
-    "SL": 48,
-    "VK": 37
+    "PT": 35,
+    "SL": 28,
+    "VK": 25
   },
-  "consolidatedAvg": 42.43,
-  "consolidatedRank": 159,
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 22,
-    "tractionReason": "91 followers; no current brokerage customers disclosed"
+    "tractionRank": 223,
+    "tractionScore": 11,
+    "tractionReason": "YC acceptance and press only"
   },
   "paths": {
     "memo": "summer2026/memos/risklytics.md",

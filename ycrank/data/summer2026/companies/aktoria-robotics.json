@@ -11,59 +11,59 @@
     "location": "San Francisco, CA, USA",
     "tags": "Robotics, Enterprise Software",
     "yc_partner": "Diana Hu",
-    "emails": "No public data found"
+    "emails": "founders@aktoria.com"
   },
   "tags": [
     "Robotics",
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:37:19.004Z",
+  "memoGeneratedAt": "2026-08-11T05:04:43.320Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 68,
+      "score": 66,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 47,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 70,
-      "tier": "Invest"
+      "score": 50,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 51,
+      "score": 49,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 68,
-    "EG": 51,
-    "NR": 47,
-    "PG": 70,
-    "PT": 51,
-    "SL": 56,
-    "VK": 42
+    "CB": 66,
+    "EG": 38,
+    "NR": 55,
+    "PG": 50,
+    "PT": 49,
+    "SL": 40,
+    "VK": 30
   },
-  "consolidatedAvg": 55,
-  "consolidatedRank": 66,
+  "consolidatedAvg": 46.86,
+  "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 64,
+    "tractionRank": 99,
     "tractionScore": 53,
-    "tractionReason": "15+ operators across four U.S. sites"
+    "tractionReason": "Operators serving four U.S. robot sites"
   },
   "paths": {
     "memo": "summer2026/memos/aktoria-robotics.md",

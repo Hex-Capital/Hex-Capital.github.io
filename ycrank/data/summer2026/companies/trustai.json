@@ -1,71 +1,56 @@
 {
   "slug": "trustai",
-  "name": "TrustAI",
-  "oneLiner": "Continuous compliance and governance for agents on sensitive systems",
-  "metadata": {
-    "website": "https://trytrust.ai",
-    "yc_page": "https://www.ycombinator.com/companies/trustai",
-    "batch": "Summer 2026",
-    "industry": "B2B / B2B -> Security",
-    "team_size": "3",
-    "location": "San Francisco, CA, USA",
-    "tags": "B2B, Compliance, Security, AI",
-    "yc_partner": "Ankit Gupta",
-    "emails": "hello@trytrust.ai, admin@trytrust.ai, data@trytrust.ai, legals@trytrust.ai"
-  },
-  "tags": [
-    "B2B",
-    "Compliance",
-    "Security",
-    "AI"
-  ],
+  "name": "trustai",
+  "oneLiner": "",
+  "metadata": {},
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:17:44.146Z",
+  "memoGeneratedAt": "2026-08-11T05:56:50.796Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 26,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 26,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 24,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 28,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 39,
+      "score": 28,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
+      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 51,
-    "NR": 48,
-    "PG": 53,
-    "PT": 41,
-    "SL": 39,
-    "VK": 36
+    "CB": 26,
+    "EG": 26,
+    "NR": 24,
+    "PG": 29,
+    "PT": 28,
+    "SL": 28,
+    "VK": 25
   },
-  "consolidatedAvg": 44.86,
-  "consolidatedRank": 150,
+  "consolidatedAvg": 26.57,
+  "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 27,
-    "tractionReason": "Launch engagement only; no customer evidence"
+    "tractionRank": 195,
+    "tractionScore": 0,
+    "tractionReason": "No traction sections found"
   },
   "paths": {
     "memo": "summer2026/memos/trustai.md",

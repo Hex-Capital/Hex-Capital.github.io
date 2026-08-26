@@ -1,0 +1,82 @@
+{
+  "slug": "onetriangle",
+  "name": "OneTriangle",
+  "oneLiner": "The cheapest, fastest lightweight inference.",
+  "metadata": {
+    "website": "https://onetriangle.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/onetriangle",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Smart Packaging, Open Source, Infrastructure, AI",
+    "yc_partner": "Ankit Gupta ([YC company page, Aug 2026](https://www.ycombinator.com/companies/onetriangle))",
+    "emails": "hannah@onetriangle.ai; hello@trytrust.ai (prior TrustAI product) ([OneTriangle legal page, Aug 2026](https://onetriangle.ai/legal); [Launch YC, Jul 2026](https://www.ycombinator.com/launches/RkQ-trustai-continuous-compliance-and-governance-for-ai-agents-on-sensitive-systems))"
+  },
+  "tags": [
+    "Smart Packaging",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:26:46.841Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 50,
+    "NR": 47,
+    "PG": 41,
+    "PT": 54,
+    "SL": 30,
+    "VK": 42
+  },
+  "consolidatedAvg": 45.14,
+  "consolidatedRank": 114,
+  "traction": {
+    "tractionRank": 185,
+    "tractionScore": 30,
+    "tractionReason": "Live pricing; five launch votes; no users"
+  },
+  "paths": {
+    "memo": "summer2026/memos/onetriangle.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/onetriangle.md",
+      "elad-gil": "summer2026/evals/elad-gil/onetriangle.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/onetriangle.md",
+      "paul-graham": "summer2026/evals/paul-graham/onetriangle.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/onetriangle.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/onetriangle.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/onetriangle.md"
+    }
+  }
+}

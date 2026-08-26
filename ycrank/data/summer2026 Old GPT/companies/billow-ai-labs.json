@@ -1,0 +1,82 @@
+{
+  "slug": "billow-ai-labs",
+  "name": "Billow AI Labs",
+  "oneLiner": "AI-native Accounting Firm to Replace the Big-4",
+  "metadata": {
+    "website": "https://thebillow.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/billow-ai-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Finance, B2B, Workflow Automation",
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/billow-ai-labs), Jul 2026)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Finance",
+    "B2B",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:25:25.605Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 79,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 63,
+    "EG": 67,
+    "NR": 55,
+    "PG": 79,
+    "PT": 44,
+    "SL": 43,
+    "VK": 43
+  },
+  "consolidatedAvg": 56.29,
+  "consolidatedRank": 53,
+  "traction": {
+    "tractionRank": 75,
+    "tractionScore": 49,
+    "tractionReason": "Two customer testimonials with large time savings"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/billow-ai-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/billow-ai-labs.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/billow-ai-labs.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/billow-ai-labs.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/billow-ai-labs.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/billow-ai-labs.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/billow-ai-labs.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/billow-ai-labs.md"
+    }
+  }
+}

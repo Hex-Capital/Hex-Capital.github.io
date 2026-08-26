@@ -12,71 +12,72 @@
 | Location | San Francisco, CA, USA |
 | Tags | SaaS, Construction, Workflow Automation |
 | YC Partner | Gustaf Alstromer |
-| Emails | founders@flowmanual.com, david@flowmanual.com, michael@flowmanual.com, legal@flowmanual.com |
+| Emails | founders@flowmanual.com, david@flowmanual.com, michael@flowmanual.com, legal@flowmanual.com, security@flowmanual.com |
 
 ## The Idea
 
-- **Problem:** General and specialty contractors manually examine specifications, contracts, quotes, and invoices spanning hundreds of pages, where missed scope changes or exclusions can cause losses of $5,000–$10,000 per item ([FlowManual](https://flowmanual.com/), Jul 2026).
-- **Approach:** FlowManual extracts text from construction PDFs, marks scope items, prices, deadlines, and exclusions at their source clauses, compares bids with contracts and invoices with buyout prices, and requires users to confirm its findings ([FlowManual](https://flowmanual.com/), Jul 2026).
-- **Differentiation:** [Inferred]: Unlike BuildingConnected’s contractor network and bid-management workflow, ConCntric’s preconstruction coordination platform, and Document Crunch’s contract-compliance focus, FlowManual combines document annotation, bid-to-contract comparison, purchasing history, invoice checking, takeoffs, and submittal review in one contractor workspace.
-- **Business Model:** A free hosted plan includes every feature, unlimited projects and uploads, and a daily usage allowance, while the sales-led Pro plan provides unlimited usage and custom team pricing ([FlowManual pricing](https://flowmanual.com/pricing), Jul 2026).
-- **TAM/SAM:** The global construction bid-management software market was $1.16 billion in 2025 and was forecast to reach $1.36 billion in 2026, a 16.4% annual increase ([Research and Markets](https://www.researchandmarkets.com/reports/6035263/construction-bid-management-software-market-report), 2026).
-- **GTM / Distribution:** The company offers self-service free access and founder-led 20-minute demonstrations, while its founders solicit contractor inquiries through LinkedIn and founders@flowmanual.com ([FlowManual](https://flowmanual.com/); [LinkedIn](https://www.linkedin.com/posts/flowmanual_hey-this-is-flowmanual-an-ai-native-back-activity-7476435685877514240-OMPy), Jul 2026).
+- **Problem:** General and MEP contractors review project manuals, drawings, contracts, quotes, and invoices under deadlines using file cabinets, Excel, and page-by-page review, with the company reporting hundreds of monthly work hours and $5K–$10K exposure from a missed clause ([YC, Aug 2026](https://www.ycombinator.com/companies/flowmanual)).
+- **Approach:** FlowManual extracts construction-document text, marks scope, price, deadline, and exclusion changes at the source line, compares bids with contracts and buyouts with invoices, and retains vendor-price history ([FlowManual, Aug 2026](https://flowmanual.com/)).
+- **Differentiation:** Compared with Document Crunch’s lifecycle risk/compliance system, Trunk Tools’ contract and project-document analysis, and LightTable’s drawing QA/QC, FlowManual combines bid-to-contract review, purchasing history, invoice reconciliation, takeoffs, bid leveling, and change-order workflows ([Document Crunch, Aug 2026](https://www.documentcrunch.com/), [Trunk Tools, Aug 2026](https://trunktools.com/resources/contracts/), [LightTable, May 2026](https://www.globenewswire.com/news-release/2026/05/27/3301908/0/en/lighttable-raises-22-million-series-a-to-accelerate-ai-native-workflows-for-design-and-construction-teams.html)).
+- **Business Model:** The hosted SaaS has a free, no-card tier with every feature, unlimited projects and uploads, and a daily usage allowance, while Pro offers custom sales-led pricing, unlimited usage, and priority support ([FlowManual pricing, Aug 2026](https://flowmanual.com/pricing)).
+- **TAM/SAM:** The global construction-management-software market was $7.7B in 2025 and is forecast to grow at 10.2% CAGR through 2033, while no public SAM was found for construction bidding and purchasing document intelligence ([Grand View Research, Jun 2026](https://www.grandviewresearch.com/industry-analysis/construction-management-software-market-report)).
+- **GTM / Distribution:** FlowManual uses a free self-serve entry point, founder-led 20-minute demos, direct founder email outreach, and requests for introductions to construction project-management, business-development, marketing, IT, legal, and technology contacts ([FlowManual, Aug 2026](https://flowmanual.com/), [YC, Aug 2026](https://www.ycombinator.com/companies/flowmanual)).
 
 ## Defensibility
 
-- **Moat today:** FlowManual says each customer’s documents and extracted knowledge are isolated, vendor-price history becomes a company-specific price book, and customer documents are excluded from model training unless the customer opts in ([FlowManual](https://flowmanual.com/), Jul 2026).
-- **Future moat:** [Inferred]: Accumulated company-specific bid, contract, buyout, invoice, and vendor-price histories could create switching costs and improve account-level comparisons, but no retention or dataset-scale evidence is public.
+- **Moat today:** Customer-specific vendor-price history, bid patterns, and GC observations are encrypted and not pooled across customers without opt-in ([FlowManual Privacy Policy, Jul 2026](https://flowmanual.com/privacy)).
+- **Future moat:** [Inferred]: Repeated use could produce contractor-specific price books, exclusion histories, and correction data, but no public retention, scale, or outcome data establishes this advantage yet.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Anthropic supplies the underlying model while ConCntric, Document Crunch, BuildingConnected, and other construction-software vendors already offer overlapping AI-assisted bid or document analysis ([FlowManual](https://flowmanual.com/); [ConCntric](https://concntric.com/product/procurement/); [Autodesk](https://construction.autodesk.com/products/buildingconnected/), Jul 2026).
+- **Commoditization risk:** Document Crunch, Trunk Tools, LightTable, and Primepoint already offer overlapping source-linked contract, specification, drawing, and project-document analysis, while FlowManual relies on third-party Anthropic models for text analysis ([FlowManual Privacy Policy, Jul 2026](https://flowmanual.com/privacy), [Primepoint, Apr 2026](https://www.globenewswire.com/news-release/2026/04/13/3272943/0/en/Primepoint-Closes-10M-Seed-Round-to-Advance-Intelligence-Platform-that-Reads-and-Understands-Construction-Drawings.html)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Raised $500,000 from Y Combinator approximately one month after beginning development on April 18, 2026 ([David Shijoon Bae on LinkedIn](https://www.linkedin.com/posts/shijoonbae_we-started-building-on-april-18-a-month-activity-7469855846215229440-gUNz), Jun 2026).
-  - Founders reported interviewing hundreds of contractors before developing the workflow ([FlowManual on LinkedIn](https://www.linkedin.com/posts/flowmanual_hey-this-is-flowmanual-an-ai-native-back-activity-7476435685877514240-OMPy), Jul 2026).
-  - 202 LinkedIn company followers ([LinkedIn](https://www.linkedin.com/posts/flowmanual_hey-this-is-flowmanual-an-ai-native-back-activity-7476435685877514240-OMPy), Jul 2026).
-  - Zero active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/flowmanual), Jul 2026).
-- **Competitors (minimum 3, up to 5):**
-  - ConCntric (at least $10 million raised, revenue unknown): unifies preconstruction planning and AI-assisted bid leveling, while FlowManual extends from document markup through buyout and invoice review ([GlobeNewswire](https://www.globenewswire.com/news-release/2025/10/07/3162697/0/en/concntric-raises-series-a-to-transform-preconstruction-with-ai-powered-platform.html), Oct 2025).
-  - Document Crunch (at least $37 million raised, revenue unknown): concentrates on construction contract intelligence and compliance, while FlowManual also handles estimating, purchasing, invoices, and submittals ([Construction Trade News](https://constructiontrade-news.com/acquisition-spotlight-trimble-document-crunch), Apr 2026).
-  - BuildingConnected ($53 million raised, revenue unknown): provides bid management, subcontractor risk analysis, and a network of more than 700,000 construction professionals, whereas FlowManual analyzes contractors’ underlying project documents ([Forbes](https://www.forbes.com/sites/alexkonrad/2018/12/20/why-autodesk-just-spent-115-billion-on-two-construction-tech-startups/); [Autodesk](https://adsknews.autodesk.com/en/pressrelease/autodesk-to-acquire-buildingconnected/), Dec 2018).
-- **Why now:** [Inferred]: Recent document-capable language models allow clause-level extraction and comparison from long construction PDFs, while established preconstruction vendors added AI features and Trimble agreed to acquire Document Crunch in 2026 ([Autodesk](https://construction.autodesk.com/products/buildingconnected/); [Construction Dive](https://www.constructiondive.com/news/trimble-acquire-document-crunch-contech/816630/), 2026).
+  - $500K raised from Y Combinator approximately one month after development began on April 18, 2026 ([David Bae LinkedIn, Jul 2026](https://www.linkedin.com/posts/shijoonbae_we-started-building-on-april-18-a-month-activity-7469855846215229440-gUNz)).
+  - Hundreds of construction professionals interviewed during the company’s first two months ([David Bae LinkedIn, Jul 2026](https://www.linkedin.com/posts/shijoonbae_we-started-building-on-april-18-a-month-activity-7469855846215229440-gUNz)).
+  - 202 company LinkedIn followers ([LinkedIn, Aug 2026](https://www.linkedin.com/posts/flowmanual_hey-this-is-flowmanual-an-ai-native-back-activity-7476435685877514240-OMPy)).
+  - 0 active YC job postings ([YC, Aug 2026](https://www.ycombinator.com/companies/flowmanual)).
+- **Competitors:**
+  - Document Crunch ($37.1M raised, revenue unknown): construction-risk and contract-compliance workflows spanning pursuit through closeout, versus FlowManual’s added purchasing and invoice focus ([CB Insights, Aug 2026](https://www.cbinsights.com/company/document-crunch), [Document Crunch, Aug 2026](https://www.documentcrunch.com/)).
+  - Trunk Tools ($70M raised, revenue unknown): project-document Q&A, contract review, submittal analysis, and drawing review oriented toward field workflows ([Trunk Tools, Jul 2025](https://trunktools.com/resources/company-updates/trunk-tools-closes-40m-series-b-construction-ai-transformation/)).
+  - LightTable ($30M raised, revenue unknown): preconstruction drawing QA/QC and design-error detection rather than bid-to-contract and buyout-to-invoice comparison ([LightTable, Aug 2026](https://www.lighttable.ai/company)).
+  - Primepoint ($10M raised, revenue unknown): drawing knowledge graphs connecting tags, schedules, specifications, RFIs, and submittals ([Primepoint, Apr 2026](https://www.globenewswire.com/news-release/2026/04/13/3272943/0/en/Primepoint-Closes-10M-Seed-Round-to-Advance-Intelligence-Platform-that-Reads-and-Understands-Construction-Drawings.html)).
+- **Why now:** [Inferred]: Enterprise document reasoning and high-resolution vision improved during 2026, including Anthropic reporting 21% fewer source-information errors for Opus 4.7 than its preceding model, while FlowManual’s current service sends extracted text to Anthropic ([Anthropic, Feb 2026](https://www.anthropic.com/news/claude-opus-4-7), [FlowManual Privacy Policy, Jul 2026](https://flowmanual.com/privacy)).
 
 ## Founders & Team
 
-- **David Shijoon Bae (Co-founder and CEO):**
-  - Background: Former Harvard mechanical-engineering student and Harvard dropout who co-founded the educational project FilmEnvisioned before starting FlowManual ([Y Combinator](https://www.ycombinator.com/companies/flowmanual); [LinkedIn](https://www.linkedin.com/in/shijoonbae), Jul 2026).
+- **David Shijoon Bae (Co-founder & CEO):**
+  - Background: Former Harvard Mechanical Engineering student and co-founder and teacher at FilmEnvisioned from 2022–2025, with no prior exit publicly identified ([YC, Aug 2026](https://www.ycombinator.com/companies/flowmanual), [LinkedIn, Aug 2026](https://www.linkedin.com/in/shijoonbae)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Co-founder & CEO @ FlowManual; Automating Construction Contract Procurement” ([Y Combinator](https://www.ycombinator.com/companies/flowmanual), Jul 2026).
+  - LinkedIn: “FlowManual,” with 2K followers ([LinkedIn, Aug 2026](https://www.linkedin.com/in/shijoonbae)).
   - GitHub: No public repos found.
-- **Michael Lin (Co-founder and CTO):**
-  - Background: Former Harvard student, UC Santa Cruz computer-science researcher, IEEE IV 2025 paper co-author, and former Dijie software-engineering intern credited with work associated with growth from $3,000 to $336,000 MRR ([Y Combinator](https://www.ycombinator.com/companies/flowmanual), Jul 2026).
+- **Michael Lin (Co-founder & CTO):**
+  - Background: Former Harvard Computer Science and Statistics student, UC Santa Cruz research intern and IEEE IV 2025 co-author, and former Dijie software-engineering intern credited with work associated with Dijie’s growth from $3K to $336K MRR ([GitHub, Aug 2026](https://github.com/mwaoi), [YC, Aug 2026](https://www.ycombinator.com/companies/flowmanual)).
   - Twitter/X: No public account found.
-  - LinkedIn: “I’m building the future of the construction industry” with 2,000 followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/itsmichaellin), Jul 2026).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Bae described Lin as his roommate, and YC describes both founders as Harvard dropouts ([David Shijoon Bae on LinkedIn](https://www.linkedin.com/posts/shijoonbae_we-started-building-on-april-18-a-month-activity-7469855846215229440-gUNz); [Y Combinator](https://www.ycombinator.com/companies/flowmanual), 2026).
-- **Founder-market fit:** [Inferred]: The founders’ engineering backgrounds support software development, while their construction-domain knowledge appears to come primarily from interviews with hundreds of contractors rather than disclosed prior employment in construction ([FlowManual on LinkedIn](https://www.linkedin.com/posts/flowmanual_hey-this-is-flowmanual-an-ai-native-back-activity-7476435685877514240-OMPy), Jul 2026).
+  - LinkedIn: “FlowManual (YC S26),” with 2K followers ([LinkedIn, Aug 2026](https://www.linkedin.com/in/itsmichaellin)).
+  - GitHub: @mwaoi; colorblindcameraidentifier has 0 stars ([GitHub, Aug 2026](https://github.com/mwaoi/colorblindcameraidentifier)).
+- **Co-founder relationship:** Michael Lin and David Bae were college roommates and engineering students at Harvard ([YC, Aug 2026](https://www.ycombinator.com/companies/flowmanual)).
+- **Founder-market fit:** The founders bring engineering, document-AI, and research experience and report interviewing hundreds of construction professionals, but no prior construction-company employment was found ([YC, Aug 2026](https://www.ycombinator.com/companies/flowmanual), [David Bae LinkedIn, Jul 2026](https://www.linkedin.com/posts/shijoonbae_we-started-building-on-april-18-a-month-activity-7469855846215229440-gUNz)).
 
 ## Key Risks
 
-- **AI-output accuracy:** FlowManual’s terms state that AI systems can make mistakes and require independent verification, while the product mitigates this by linking each finding to its page and clause and keeping human confirmation in the workflow ([FlowManual terms](https://flowmanual.com/terms); [FlowManual](https://flowmanual.com/), 2026).
-- **Model-provider dependency:** Document analysis sends extracted text to Anthropic, creating dependency on an external model provider; FlowManual says original files are not sent and Anthropic applies zero retention ([FlowManual](https://flowmanual.com/), Jul 2026).
-- **Competitive overlap:** ConCntric offers AI-assisted bid leveling, BuildingConnected has an established contractor network, and Document Crunch provides construction contract intelligence, creating substitution across several FlowManual workflows ([ConCntric](https://concntric.com/product/procurement/); [Autodesk](https://construction.autodesk.com/products/buildingconnected/); [Document Crunch](https://www.documentcrunch.com/news/series-a), 2024–2026).
-- **Sensitive-document adoption:** The product processes contracts, bids, vendor prices, and invoices, which may constrain adoption where contractors restrict third-party access; mitigation includes AES-256-GCM encryption, account isolation, SSO, MFA, audit logs, and export or deletion controls ([FlowManual](https://flowmanual.com/), Jul 2026).
+- **AI-output error:** FlowManual states that annotations, scope gaps, estimates, and comparisons may contain errors and require independent professional verification; exact-line citations and audit logs provide a review mechanism ([FlowManual Terms, May 2026](https://flowmanual.com/terms)).
+- **Competitive distribution:** Document Crunch reports use by 500+ companies and is being acquired by Trimble, while Trunk Tools has raised $70M; FlowManual’s mitigation is a free tier covering all features and workflows extending into purchasing and invoices ([Document Crunch, Aug 2026](https://www.documentcrunch.com/), [Trimble, Apr 2026](https://news.trimble.com/2026-04-02-Trimble-to-Acquire-Document-Crunch-to-Add-AI-Powered-Risk-Management-and-Document-Compliance-to-Trimble-Construction-One-Project-Delivery-Ecosystem), [FlowManual pricing, Aug 2026](https://flowmanual.com/pricing)).
+- **Enterprise security procurement:** Extracted text is processed by Anthropic and PDFs may be parsed by Azure Document Intelligence, while SOC 2 Type II and an independent penetration test remain in progress or scheduled; mitigation includes AES-256-GCM encryption, tenant isolation, zero-retention processing, and optional local parsing ([FlowManual Security, Aug 2026](https://flowmanual.com/security)).
+- **Workflow breadth:** [Inferred]: Supporting drawings, bids, contracts, specifications, vendor quotes, invoices, submittals, RFIs, and change orders increases validation requirements across document types, partly mitigated by source-line references and human confirmation ([FlowManual, Aug 2026](https://flowmanual.com/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.16 billion global construction bid-management software market in 2025, forecast to reach $1.36 billion in 2026 at 16.4% annual growth (Research and Markets, 2026) |
+| TAM | $7.7B global construction-management-software market in 2025; 10.2% CAGR for 2026–2033 (Grand View Research, Jun 2026) |
 | SAM | No public data found |
-| Traction | $500,000 raised from YC after approximately one month of development (David Shijoon Bae on LinkedIn, Jun 2026); hundreds of contractor interviews reported (FlowManual LinkedIn, Jul 2026); 202 LinkedIn followers (LinkedIn, Jul 2026) |
-| Revenue Signal | Free plan with daily usage allowance and all features; Pro plan has custom, sales-led pricing and unlimited usage (FlowManual pricing, Jul 2026) |
-| Founders | David Shijoon Bae (CEO): former Harvard mechanical-engineering student and FilmEnvisioned co-founder; Michael Lin (CTO): former Harvard student, UC Santa Cruz researcher, and former Dijie SWE intern (Y Combinator, Jul 2026) |
-| Competitors | ConCntric (at least $10M raised, revenue unknown, unified preconstruction platform); Document Crunch (at least $37M raised, revenue unknown, contract intelligence and compliance); BuildingConnected ($53M raised, revenue unknown, bid-management network) (GlobeNewswire, Oct 2025; Construction Trade News, Apr 2026; Forbes, Dec 2018) |
-| Moat Signals | Account-isolated documents, company-specific vendor-price history, AES-256-GCM encryption, and no model training without opt-in (FlowManual, Jul 2026) |
-| Risk Factors | AI-output errors, Anthropic dependency, overlapping construction-document and bidding products (FlowManual terms, 2026; FlowManual, Jul 2026; Autodesk, 2026) |
-| Founder Reach | David Shijoon Bae: no public quantitative reach data found; Michael Lin: 2K LinkedIn followers and 500+ connections (LinkedIn, Jul 2026) |
-| Distribution Signals | 202 LinkedIn company followers; zero YC job postings; free self-service plan and founder-led demonstrations (LinkedIn, Jul 2026; Y Combinator, Jul 2026; FlowManual pricing, Jul 2026) |
-| Emails | founders@flowmanual.com, david@flowmanual.com, michael@flowmanual.com, legal@flowmanual.com (FlowManual website, pricing page, terms, and David Shijoon Bae on LinkedIn, 2026) |
+| Traction | $500K raised from YC and hundreds of construction professionals interviewed (David Bae LinkedIn, Jul 2026); 202 LinkedIn followers (LinkedIn, Aug 2026) |
+| Revenue Signal | Free tier with daily allowance and all features; Pro tier has custom pricing and unlimited usage (FlowManual pricing, Aug 2026) |
+| Founders | David Shijoon Bae (CEO): former Harvard Mechanical Engineering student and FilmEnvisioned co-founder; Michael Lin (CTO): former Harvard CS/Statistics student, UC Santa Cruz researcher, and Dijie intern (YC, Aug 2026; LinkedIn, Aug 2026) |
+| Competitors | Document Crunch ($37.1M raised, revenue unknown, lifecycle risk/compliance); Trunk Tools ($70M raised, revenue unknown, field and project-document AI); LightTable ($30M raised, revenue unknown, drawing QA/QC); Primepoint ($10M raised, revenue unknown, drawing knowledge graph) (CB Insights, Aug 2026; Trunk Tools, Jul 2025; LightTable, Aug 2026; Primepoint, Apr 2026) |
+| Moat Signals | Encrypted customer-specific vendor-price history, bid patterns, and GC observations not pooled without opt-in (FlowManual Privacy Policy, Jul 2026) |
+| Risk Factors | AI-output errors requiring professional review (FlowManual Terms, May 2026), third-party document processing and incomplete SOC 2/penetration testing (FlowManual Security, Aug 2026), competitors backed by Trimble or up to $70M in funding (Trimble, Apr 2026; Trunk Tools, Jul 2025) |
+| Founder Reach | David Bae: LinkedIn 2K followers, no public Twitter/GitHub data; Michael Lin: LinkedIn 2K followers, GitHub top repo 0 stars (LinkedIn and GitHub, Aug 2026) |
+| Distribution Signals | 202 LinkedIn followers (LinkedIn, Aug 2026); free no-card plan and founder-led 20-minute demo (FlowManual website, Aug 2026); 0 YC job postings (YC, Aug 2026) |
+| Emails | founders@flowmanual.com, david@flowmanual.com, michael@flowmanual.com, legal@flowmanual.com, security@flowmanual.com (FlowManual website, pricing, privacy, security, and David Bae LinkedIn, Jul–Aug 2026) |

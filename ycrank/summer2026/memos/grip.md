@@ -12,67 +12,67 @@
 | Location | Z?rich, ZH, Switzerland |
 | Tags | Robotic Process Automation, Sustainability |
 | YC Partner | Jared Friedman |
-| Emails | No public data found |
+| Emails | contact@griprobotics.ai |
 
 ## The Idea
 
-- **Problem:** Waste, composting, recycling, and biogas facilities must remove plastic from wet organic waste before it reaches compost, digesters, and soil, while robotic sorting has historically focused on dry construction debris and packaging ([Jonas Gruetter, LinkedIn, Jul 2026](https://www.linkedin.com/posts/jonasgrutter_we-saw-plastic-in-the-soil-growing-our-food-activity-7477159706688606208-QYjZ)).
-- **Approach:** Grip combines learning-based manipulation with custom hardware to identify and pick objects from changing waste streams, using successful and failed grasps as operating data ([YC company page, Jul 2026](https://www.ycombinator.com/companies/grip)).
-- **Differentiation:** [Inferred]: Unlike ZenRobotics, Recycleye, and EverestLabs systems documented for dry construction, household, commercial, or packaging streams, Grip is initially targeting plastic contamination in wet organic waste ([Grip launch post, Jul 2026](https://www.linkedin.com/posts/jonasgrutter_we-saw-plastic-in-the-soil-growing-our-food-activity-7477159706688606208-QYjZ); [Recycleye, Feb 2023](https://recycleye.com/raises-17m-in-series-a/); [EverestLabs product page, accessed Jul 2026](https://www.everestlabs.ai/recycling-robots)).
-- **Business Model:** [Inferred]: Hardware sales or leases plus recurring monitoring, maintenance, or software fees to waste operators are possible monetization paths, but Grip has not published pricing.
-- **TAM/SAM:** The global waste-sorting-equipment market was estimated at $962.3 million in 2024 and forecast to reach $1.43 billion in 2030 at a 7.0% CAGR ([Grand View Research, 2025](https://www.grandviewresearch.com/industry-analysis/waste-sorting-equipment-market-report)).
-- **GTM / Distribution:** Grip publicly solicits conversations with waste, composting, recycling, and biogas facility operators, indicating founder-led direct outreach ([Jonas Gruetter, LinkedIn, Jul 2026](https://www.linkedin.com/posts/jonasgrutter_we-saw-plastic-in-the-soil-growing-our-food-activity-7477159706688606208-QYjZ)).
+- **Problem:** Waste, composting, recycling, and biogas facilities still depend on manual labor to remove plastics and other objects from variable waste streams before contaminated organic material reaches processing facilities or fields ([Grip website](https://www.griprobotics.ai/), Aug 2026; [founder launch post](https://www.linkedin.com/posts/jonasgrutter_we-saw-plastic-in-the-soil-growing-our-food-activity-7477159706688606208-QYjZ), Jul 2026).
+- **Approach:** Grip combines learning-based manipulation with custom gripper hardware that identifies and picks objects while using successful and failed grasps as operating data ([YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026).
+- **Differentiation:** Grip is starting with plastic contamination in organic waste and describes human-hand-like dexterity, versus AMP’s facility-scale jet sortation, Recycleye’s suction-based system for dry mixed recyclables, and EverestLabs’ compact arms for plastics, metals, and fiber lines ([Grip](https://www.griprobotics.ai/); [AMP](https://ampsortation.com/products/amp-one); [Recycleye](https://recycleye.com/recycleye-robotics-pneumatics-and-gripper-system/); [EverestLabs](https://www.everestlabs.ai/recycleos), Aug 2026).
+- **Business Model:** [Inferred]: Grip could sell or lease robotic cells and charge recurring software, service, or per-throughput fees to waste operators, but its website provides no pricing or commercial terms.
+- **TAM/SAM:** The global waste-sorting-robot market was estimated at $3.29 billion in 2025 and forecast to grow at a 19.6% CAGR through 2034, while no public SAM estimate was found for robotic contaminant removal from organic waste ([Market Data Forecast](https://www.marketdataforecast.com/market-reports/waste-sorting-robots-market), Aug 2026).
+- **GTM / Distribution:** Grip’s launch post directly asks operators of waste, composting, recycling, and biogas facilities to make contact, indicating founder-led facility outreach ([founder launch post](https://www.linkedin.com/posts/jonasgrutter_we-saw-plastic-in-the-soil-growing-our-food-activity-7477159706688606208-QYjZ), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** Grip states that its system learns from every successful and failed grasp, creating a potential proprietary operating dataset, but it reports no dataset size, patents, or deployed fleet ([YC company page, Jul 2026](https://www.ycombinator.com/companies/grip)).
-- **Future moat:** [Inferred]: Facility-specific wet-waste grasp data and custom end-effector designs could improve performance over time, but no deployment or performance evidence yet establishes this advantage.
+- **Moat today:** Grip says every successful and failed grasp contributes operating data that improves system reliability and adaptability, but it discloses neither dataset size nor deployed-system count ([YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026).
+- **Future moat:** [Inferred]: A dataset spanning material types, facility configurations, failures, and contamination conditions could improve Grip’s manipulation policies, but this remains unproven without disclosed deployments or data volume.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** ZenRobotics, Recycleye, EverestLabs, and other robotic-sorting vendors already combine machine vision, robotic arms, end effectors, and operating data, although their published products emphasize mostly dry streams ([Terex, Aug 2022](https://www.terex.com/recycling/en/about/news/zenrobotics); [Recycleye, Feb 2023](https://recycleye.com/raises-17m-in-series-a/); [EverestLabs product page, accessed Jul 2026](https://www.everestlabs.ai/recycling-robots)).
+- **Commoditization risk:** AMP, Recycleye, Glacier, and EverestLabs already combine machine vision with waste-picking hardware, and EverestLabs reports training on more than 5 billion recyclable objects ([EverestLabs](https://www.everestlabs.ai/recycleos), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Summer 2026 YC batch, founded in 2026, with four team members ([YC company page, Jul 2026](https://www.ycombinator.com/companies/grip)).
-  - Zero active YC job postings ([YC company page, Jul 2026](https://www.ycombinator.com/companies/grip)).
-  - Two employees publicly associated with the company on LinkedIn ([LinkedIn company page, Jul 2026](https://www.linkedin.com/company/griprobotics)).
-  - One follower on the company GitHub organization and no publicly visible repositories ([GitHub organization, Jul 2026](https://github.com/Grip-Robotics/)).
-  - Website not accessible at time of research ([griprobotics.ai, Jul 2026](https://www.griprobotics.ai)).
-- **Competitors (minimum 3, up to 5):**
-  - Recycleye ($24.6M raised including government funding, revenue unknown): targets dry mixed household and commercial recycling and retrofits robots into existing facilities ([Recycleye, Feb 2023](https://recycleye.com/raises-17m-in-series-a/)).
-  - EverestLabs ($16.1M Series A disclosed, revenue unknown): supplies multi-arm cells, vision software, and remote monitoring for plastics, metals, fiber, and residue lines ([EverestLabs, Sep 2022](https://www.everestlabs.ai/news-announcements/everestlabs-raises-161-million-in-funding-to-support-further-ai-enabled-operating-system-deployments); [product page](https://www.everestlabs.ai/recycling-robots)).
-  - ZenRobotics ($18.58M raised, revenue unknown): Terex-owned sorting systems address construction, demolition, commercial, industrial, and packaging waste ([CB Insights, accessed Jul 2026](https://www.cbinsights.com/company/zenrobotics/financials); [Terex, Aug 2022](https://www.terex.com/recycling/en/about/news/zenrobotics)).
-- **Why now:** [Inferred]: The EU’s Packaging and Packaging Waste Regulation entered into force in 2025 and calls for revised compostability standards addressing contamination and microplastic release, increasing attention to plastics entering bio-waste facilities ([EUR-Lex, 2025](https://eur-lex.europa.eu/eli/reg/2025/40/oj)).
+  - Grip is an active Summer 2026 YC company with a four-person team ([YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026).
+  - The public launch identifies plastic removal from organic waste as the first application but reports no customers, pilots, revenue, or performance metrics ([founder launch post](https://www.linkedin.com/posts/jonasgrutter_we-saw-plastic-in-the-soil-growing-our-food-activity-7477159706688606208-QYjZ), Jul 2026).
+  - Founder Jonas Gruetter had 1,354 LinkedIn followers ([LinkedIn](https://ch.linkedin.com/in/jonasgrutter), Aug 2026).
+  - YC listed zero active job postings ([YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026).
+- **Competitors:**
+  - AMP ($195.85M raised, revenue unknown): offers entire automated waste-sorting facilities and pay-per-ton sortation rather than Grip’s disclosed gripper-led organic-waste entry point ([Forge](https://forgeglobal.com/amp-robotics_stock/); [AMP ONE](https://ampsortation.com/products/amp-one), Aug 2026).
+  - Glacier ($29M raised, revenue unknown): deploys pneumatic-suction robots in material-recovery facilities, including four robots at Recology’s Seattle facility, while Grip describes dexterous custom grippers for organic waste ([GeekWire](https://www.geekwire.com/2025/recycling-gets-smarter-ai-robots-from-amazon-backed-startup-are-sorting-waste-in-seattle/), Apr 2025).
+  - Recycleye ($24.3M raised, revenue unknown): uses six-axis suction-based pick-rotate-shoot robots designed for dry mixed recyclables rather than Grip’s initial organic-waste contamination use case ([Owler](https://www.owler.com/company/recycleye/funding); [Recycleye](https://recycleye.com/recycleye-robotics-pneumatics-and-gripper-system/), Aug 2026).
+  - EverestLabs ($28.37M raised, revenue unknown): combines compact robotic cells, 3D vision, facility analytics, and remote monitoring across conventional recycling lines ([CB Insights](https://www.cbinsights.com/company/everest-labs/financials); [EverestLabs](https://www.everestlabs.ai/recycleos), Aug 2026).
+- **Why now:** [Inferred]: European operators face tighter sorting and recycling requirements as the EU Packaging and Packaging Waste Regulation entered into force on February 11, 2025, began applying on August 12, 2026, and targets a 70% packaging-waste recycling rate by 2030 ([European Commission](https://environment.ec.europa.eu/topics/waste-and-recycling/packaging-waste_en); [EUR-Lex](https://eur-lex.europa.eu/summary/EN/LEGISSUM%3A4806724), Aug 2026).
 
 ## Founders & Team
 
 - **Jonas Gruetter (Founder):**
-  - Background: Attended ETH Zürich from 2021–2024, previously worked at Gravis Robotics, ETH’s Robotic Systems Lab, and Ursa Mining, and co-authored research on reinforcement-learning control of a 12-ton excavator that achieved 70% boulder-removal success in field tests ([LinkedIn, Jul 2026](https://ch.linkedin.com/in/jonasgrutter); [YC company page](https://www.ycombinator.com/companies/grip); [arXiv, Sep 2025](https://arxiv.org/abs/2509.17683)).
+  - Background: No public degree data found; YC identifies Gruetter as a former robotics researcher with experience at Gravis Robotics, ETH Zürich’s Robotic Systems Lab, and Ursa Mining, and he co-authored a reinforcement-learning excavation paper whose field tests achieved 70% success with a 12-ton excavator ([YC Company Directory](https://www.ycombinator.com/companies/grip); [arXiv](https://arxiv.org/abs/2509.17683), Sep 2025).
   - Twitter/X: No public account found.
-  - LinkedIn: “Grip (YC S26)” with 1,110 followers ([LinkedIn, Jul 2026](https://ch.linkedin.com/in/jonasgrutter)).
+  - LinkedIn: “Grip (YC S26),” with 1,354 followers ([LinkedIn](https://ch.linkedin.com/in/jonasgrutter), Aug 2026).
   - GitHub: No public personal repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Jonas Gruetter’s documented work spans reinforcement learning, sparse-LiDAR perception, manipulation of irregular objects, and field testing on heavy machinery, while Grip applies learning-based manipulation to irregular waste ([arXiv, Sep 2025](https://arxiv.org/abs/2509.17683); [YC company page, Jul 2026](https://www.ycombinator.com/companies/grip)).
+- **Founder-market fit:** Gruetter’s documented work in reinforcement learning, perception, and manipulation of irregular objects in outdoor industrial conditions overlaps with Grip’s waste-stream manipulation problem ([YC Company Directory](https://www.ycombinator.com/companies/grip); [arXiv](https://arxiv.org/abs/2509.17683), Sep 2025).
 
 ## Key Risks
 
-- **Wet-waste manipulation feasibility:** A 2026 food-waste-robotics benchmark describes cross-category grasping as requiring multimodal grippers, while Grip has disclosed no throughput, accuracy, uptime, or contamination-tolerance results ([GRAB benchmark, Feb 2026](https://arxiv.org/abs/2602.18835)).
-- **Established robotic-sorting suppliers:** Terex-owned ZenRobotics has operated in robotic waste sorting since 2007, while Recycleye and EverestLabs report commercial installations and monitoring capabilities; Grip has disclosed no customer deployments ([Terex, Aug 2022](https://www.terex.com/recycling/en/about/news/zenrobotics); [Recycleye, Feb 2023](https://recycleye.com/raises-17m-in-series-a/); [EverestLabs product page](https://www.everestlabs.ai/recycling-robots)).
-- **Limited public product validation:** The website was inaccessible during research, the GitHub organization showed no public repositories, and the YC page reported zero jobs ([Grip website, Jul 2026](https://www.griprobotics.ai); [GitHub](https://github.com/Grip-Robotics/); [YC company page](https://www.ycombinator.com/companies/grip)).
-- **Feedstock-policy substitution:** EU policy prioritizes reducing, reusing, and recycling plastics before relying on compostable plastics, so upstream packaging changes could alter the quantity and composition of contaminants Grip is designed to remove ([European Commission, accessed Jul 2026](https://environment.ec.europa.eu/topics/plastics/biobased-biodegradable-and-compostable-plastics_en)).
+- **Technical feasibility:** Grip discloses no pick rate, accuracy, uptime, contaminant-removal rate, or facility deployment, leaving performance in wet, dirty, overlapping organic waste unverified; Gruetter’s prior 12-ton excavator research provides related field-manipulation experience but achieved 70% task success ([Grip](https://www.griprobotics.ai/); [arXiv](https://arxiv.org/abs/2509.17683), Sep 2025).
+- **Deployment and integration:** Grip describes custom hardware but provides no installation footprint, maintenance requirements, or retrofit process, while Recycleye and EverestLabs advertise retrofit installation on existing lines ([Grip](https://www.griprobotics.ai/); [Recycleye](https://recycleye.com/); [EverestLabs](https://www.everestlabs.ai/faqs), Aug 2026).
+- **Funded competition:** Four waste-robotics competitors have raised between $24.3 million and $195.85 million and disclose facility deployments or operating metrics, while Grip has not disclosed either ([Forge](https://forgeglobal.com/amp-robotics_stock/); [GeekWire](https://www.geekwire.com/2025/recycling-gets-smarter-ai-robots-from-amazon-backed-startup-are-sorting-waste-in-seattle/); [Owler](https://www.owler.com/company/recycleye/funding); [CB Insights](https://www.cbinsights.com/company/everest-labs/financials)).
+- **Name ambiguity:** Unrelated companies named Grip operate in logistics, event software, and robot tooling, complicating search-result and social-profile disambiguation ([Grip Shipping](https://www.linkedin.com/company/gripshipping); [Grip Events](https://www.linkedin.com/company/gripevents/); [GRIP USA](https://www.linkedin.com/company/grip-usa-llc), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $962.3M global waste-sorting-equipment market in 2024, reaching $1.43B by 2030 at 7.0% CAGR (Grand View Research, 2025) |
+| TAM | $3.29B global waste-sorting-robot market in 2025; 19.6% CAGR through 2034 ([Market Data Forecast](https://www.marketdataforecast.com/market-reports/waste-sorting-robots-market), Aug 2026) |
 | SAM | No public data found |
-| Traction | Summer 2026 YC company; founded in 2026; team size four; zero YC jobs (YC company page, Jul 2026) |
+| Traction | Active Summer 2026 YC company; no customer, deployment, or performance metrics disclosed ([YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026) |
 | Revenue Signal | No public data found |
-| Founders | Jonas Gruetter (Founder): ETH Zürich, ex-Gravis Robotics and Robotic Systems Lab, ICRA-published robotics researcher (YC company page, Jul 2026) |
-| Competitors | Recycleye ($24.6M including grants, revenue unknown, dry mixed recycling retrofits) (Recycleye, Feb 2023); EverestLabs ($16.1M Series A disclosed, revenue unknown, multi-arm monitored sorting cells) (EverestLabs, Sep 2022); ZenRobotics ($18.58M raised, revenue unknown, Terex-owned multi-stream sorting systems) (CB Insights, Jul 2026) |
-| Moat Signals | Learning dataset incorporating successful and failed grasps; dataset size not disclosed (YC company page, Jul 2026) |
-| Risk Factors | Wet-waste grasping performance undisclosed (YC company page, Jul 2026); established commercial competitors (Terex, Aug 2022); no public customer deployments found (company research, Jul 2026) |
-| Founder Reach | Jonas Gruetter: LinkedIn 1,110 followers; Twitter and personal GitHub not found (LinkedIn, Jul 2026) |
-| Distribution Signals | Founder outreach to waste, composting, recycling, and biogas operators; zero YC job postings (LinkedIn and YC company page, Jul 2026) |
-| Emails | No public data found |
+| Founders | Jonas Gruetter (Founder): ex-Gravis Robotics, Robotic Systems Lab, and Ursa Mining; reinforcement-learning robotics paper co-author ([YC Company Directory](https://www.ycombinator.com/companies/grip); [arXiv](https://arxiv.org/abs/2509.17683), Sep 2025) |
+| Competitors | AMP ($195.85M raised, revenue unknown, facility-scale sortation) ([Forge](https://forgeglobal.com/amp-robotics_stock/)); Glacier ($29M raised, revenue unknown, pneumatic MRF robots) ([GeekWire](https://www.geekwire.com/2025/recycling-gets-smarter-ai-robots-from-amazon-backed-startup-are-sorting-waste-in-seattle/)); Recycleye ($24.3M raised, revenue unknown, dry-mixed-recycling robots) ([Owler](https://www.owler.com/company/recycleye/funding)); EverestLabs ($28.37M raised, revenue unknown, robotics plus facility analytics) ([CB Insights](https://www.cbinsights.com/company/everest-labs/financials)) |
+| Moat Signals | Successful and failed grasps feed Grip’s learning system, but dataset scale is undisclosed ([YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026) |
+| Risk Factors | Undisclosed field performance, retrofit requirements, and funded incumbent competition ([Grip](https://www.griprobotics.ai/); [YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026) |
+| Founder Reach | Jonas Gruetter: 1,354 LinkedIn followers ([LinkedIn](https://ch.linkedin.com/in/jonasgrutter), Aug 2026) |
+| Distribution Signals | Founder launch post and direct operator outreach; zero YC job postings ([LinkedIn](https://www.linkedin.com/posts/jonasgrutter_we-saw-plastic-in-the-soil-growing-our-food-activity-7477159706688606208-QYjZ), Jul 2026; [YC Company Directory](https://www.ycombinator.com/companies/grip), Aug 2026) |
+| Emails | contact@griprobotics.ai ([Grip contact page](https://www.griprobotics.ai/contact), Aug 2026) |

@@ -1,0 +1,80 @@
+{
+  "slug": "most-robotic",
+  "name": "Most Robotic",
+  "oneLiner": "Research lab for physical AI",
+  "metadata": {
+    "website": "https://mostrobotic.com/",
+    "yc_page": "https://www.ycombinator.com/companies/most-robotic",
+    "batch": "No public data found",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, AI",
+    "yc_partner": "Not listed",
+    "emails": "founders@mostrobotic.com"
+  },
+  "tags": [
+    "Robotics",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:25:06.508Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 25,
+    "EG": 30,
+    "NR": 31,
+    "PG": 30,
+    "PT": 24,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 27.71,
+  "consolidatedRank": 229,
+  "traction": {
+    "tractionRank": 231,
+    "tractionScore": 4,
+    "tractionReason": "No public traction data found"
+  },
+  "paths": {
+    "memo": "summer2026/memos/most-robotic.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/most-robotic.md",
+      "elad-gil": "summer2026/evals/elad-gil/most-robotic.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/most-robotic.md",
+      "paul-graham": "summer2026/evals/paul-graham/most-robotic.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/most-robotic.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/most-robotic.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/most-robotic.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "guild",
+  "name": "GUILD",
+  "oneLiner": "Making aerospace parts faster and cheaper for defense",
+  "metadata": {
+    "website": "https://www.guildai.co",
+    "yc_page": "https://www.ycombinator.com/companies/guild",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Compliance, Manufacturing, Supply Chain, Defense, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Compliance",
+    "Manufacturing",
+    "Supply Chain",
+    "Defense",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:44:09.370Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 54,
+    "NR": 44,
+    "PG": 56,
+    "PT": 48,
+    "SL": 46,
+    "VK": 43
+  },
+  "consolidatedAvg": 49.57,
+  "consolidatedRank": 122,
+  "traction": {
+    "tractionRank": 155,
+    "tractionScore": 19,
+    "tractionReason": "Funding only; no current customer traction"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/guild.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/guild.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/guild.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/guild.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/guild.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/guild.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/guild.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/guild.md"
+    }
+  }
+}

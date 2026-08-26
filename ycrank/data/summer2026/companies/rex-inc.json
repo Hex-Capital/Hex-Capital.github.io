@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Enterprise, Enterprise Software, AI",
-    "yc_partner": "Vivian Midha Shen ([Y Combinator](https://www.ycombinator.com/companies/rex-inc), Jul 2026)",
-    "emails": "admin@rex.inc, legal@rex.inc ([Rex privacy policy](https://www.rex.inc/privacy-policy), May 2026; [Rex terms](https://www.rex.inc/terms-of-service))"
+    "yc_partner": "Vivian Midha Shen ([Y Combinator, accessed Aug 2026](https://www.ycombinator.com/companies/rex-inc))",
+    "emails": "admin@rex.inc ([Rex Privacy Policy, May 2026](https://www.rex.inc/privacy-policy))"
   },
   "tags": [
     "B2B",
@@ -20,52 +20,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:55:51.612Z",
+  "memoGeneratedAt": "2026-08-11T05:34:35.607Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 73,
+      "score": 70,
       "tier": "Invest"
     },
-    "naval-ravikant": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "elad-gil": {
       "score": 79,
       "tier": "Invest"
     },
+    "naval-ravikant": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
     "peter-thiel": {
-      "score": 49,
+      "score": 60,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 52,
+      "score": 46,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 73,
-    "NR": 57,
-    "PG": 79,
-    "PT": 49,
-    "SL": 52,
-    "VK": 42
+    "CB": 70,
+    "EG": 79,
+    "NR": 65,
+    "PG": 74,
+    "PT": 60,
+    "SL": 46,
+    "VK": 38
   },
-  "consolidatedAvg": 59,
-  "consolidatedRank": 37,
+  "consolidatedAvg": 61.71,
+  "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 78,
-    "tractionReason": "$500M receivables managed; 22,000 actions for Synthesia"
+    "tractionRank": 29,
+    "tractionScore": 73,
+    "tractionReason": "$500M receivables managed; 22K autonomous actions"
   },
   "paths": {
     "memo": "summer2026/memos/rex-inc.md",

@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, SaaS, B2B, Sales, Sales Enablement",
     "yc_partner": "Jon Xu",
-    "emails": "nicolas.sebag@ai-coach.fr"
+    "emails": "mathieu@getcoach.com, thomas.perez@ai-coach.fr, nicolas.sebag@ai-coach.fr"
   },
   "tags": [
     "Artificial Intelligence",
@@ -21,52 +21,52 @@
     "Sales Enablement"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:43:56.782Z",
+  "memoGeneratedAt": "2026-08-11T05:23:17.897Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 65,
-      "tier": "Invest"
+      "score": 49,
+      "tier": "Neutral"
     },
     "elad-gil": {
       "score": 74,
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 82,
+      "score": 72,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 54,
+      "score": 49,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 65,
+    "CB": 49,
     "EG": 74,
-    "NR": 54,
-    "PG": 82,
-    "PT": 45,
-    "SL": 54,
-    "VK": 39
+    "NR": 66,
+    "PG": 72,
+    "PT": 44,
+    "SL": 49,
+    "VK": 33
   },
-  "consolidatedAvg": 59,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 55.29,
+  "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 5,
-    "tractionScore": 87,
-    "tractionReason": "$500K ARR after five months; 120% monthly growth"
+    "tractionRank": 3,
+    "tractionScore": 93,
+    "tractionReason": "$1M ARR in eight months; thousands of reps"
   },
   "paths": {
     "memo": "summer2026/memos/ai-coach.md",

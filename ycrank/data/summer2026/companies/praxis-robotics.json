@@ -1,0 +1,81 @@
+{
+  "slug": "praxis-robotics",
+  "name": "Praxis Robotics",
+  "oneLiner": "Turns every company into a data vendor",
+  "metadata": {
+    "website": "https://www.praxisrobotics.io",
+    "yc_page": "https://www.ycombinator.com/companies/praxis-robotics",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Reinforcement Learning, Robotic Process Automation",
+    "yc_partner": "Diana Hu ([Y Combinator](https://www.ycombinator.com/companies/praxis-robotics), Aug 2026)",
+    "emails": "founders@praxisrobotics.io, rohan@praxisrobotics.io ([Y Combinator](https://www.ycombinator.com/companies/praxis-robotics), Aug 2026)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Reinforcement Learning",
+    "Robotic Process Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:11:28.851Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 24,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 45,
+    "NR": 47,
+    "PG": 36,
+    "PT": 40,
+    "SL": 30,
+    "VK": 24
+  },
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 164,
+  "traction": {
+    "tractionRank": 107,
+    "tractionScore": 51,
+    "tractionReason": "Embedded in large organizations; 60K-worker network"
+  },
+  "paths": {
+    "memo": "summer2026/memos/praxis-robotics.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/praxis-robotics.md",
+      "elad-gil": "summer2026/evals/elad-gil/praxis-robotics.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/praxis-robotics.md",
+      "paul-graham": "summer2026/evals/paul-graham/praxis-robotics.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/praxis-robotics.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/praxis-robotics.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/praxis-robotics.md"
+    }
+  }
+}

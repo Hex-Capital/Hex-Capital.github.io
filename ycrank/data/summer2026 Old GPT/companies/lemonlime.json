@@ -1,0 +1,81 @@
+{
+  "slug": "lemonlime",
+  "name": "LemonLime",
+  "oneLiner": "No-code AI that learns your business and self-creates automations.",
+  "metadata": {
+    "website": "https://www.lemonlime.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/lemonlime",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Workflow Automation, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "hello@lemonlime.ai, founders@lemonlime.ai"
+  },
+  "tags": [
+    "SaaS",
+    "Workflow Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:54:50.390Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 59,
+    "NR": 56,
+    "PG": 69,
+    "PT": 38,
+    "SL": 38,
+    "VK": 38
+  },
+  "consolidatedAvg": 49.14,
+  "consolidatedRank": 128,
+  "traction": {
+    "tractionRank": 34,
+    "tractionScore": 66,
+    "tractionReason": "MRR quadrupled in seven days; base undisclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/lemonlime.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/lemonlime.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/lemonlime.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/lemonlime.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/lemonlime.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/lemonlime.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/lemonlime.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/lemonlime.md"
+    }
+  }
+}

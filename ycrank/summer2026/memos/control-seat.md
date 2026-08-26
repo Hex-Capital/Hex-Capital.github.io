@@ -6,80 +6,76 @@
 |-------|-------|
 | Website | https://www.controlseat.com |
 | YC Page | https://www.ycombinator.com/companies/control-seat |
-| Batch | Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026) |
+| Batch | Summer 2026 |
 | Industry | Industrials / Industrials |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Workflow Automation, Monitoring, Industrial |
-| YC Partner | Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026) |
-| Emails | founders@controlseat.com ([Control Seat contact page](https://www.controlseat.com/contact), Jul 2026) |
+| YC Partner | Jared Friedman |
+| Emails | founders@controlseat.com |
 
 ## The Idea
 
-- **Problem:** Manufacturers and infrastructure operators spend weeks connecting PLCs, SCADA, HMIs, databases, and custom integrations, while accumulated operating data remains fragmented across those systems ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026).
-- **Approach:** Control Seat connects PLCs, field devices, existing SCADA, historians, databases, and APIs into one tag layer supporting dashboards, automation, anomaly detection, forecasting, and natural-language analysis ([Control Seat](https://www.controlseat.com/), Jul 2026).
-- **Differentiation:** Unlike Ignition, WinCC, and FactoryTalk, Control Seat combines its SCADA, historian, analytics, AI, and integration services while also operating as an overlay on existing installations ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026).
-- **Business Model:** A seven-day hosted trial is free, while paid managed-cloud, self-hosted, and integration deployments use custom scoped pricing ([Control Seat pricing](https://controlseat.com/pricing), Jul 2026).
-- **TAM/SAM:** The global SCADA market was estimated at $12.89 billion in 2025 and projected to reach $20.05 billion by 2030 at a 9.2% CAGR, while no public SAM estimate was found for Control Seat’s target deployments ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/scada-market-19487518.html), 2025).
-- **GTM / Distribution:** The company uses systems-integration projects as its entry into operating plants, deploying its software during customer projects instead of requiring customers to replace their stack independently ([Control Seat mission](https://controlseat.com/mission), Jul 2026).
+- **Problem:** Manufacturers and other industrial operators spend weeks connecting PLCs, SCADA, HMIs, databases, and custom integrations, while investigations remain split across systems, alarms, and staff knowledge ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Aug 2026; [Control Seat Intelligence](https://www.controlseat.com/intelligence), Aug 2026).
+- **Approach:** The platform connects PLCs and field devices through OPC UA and MQTT, links existing SCADA, historians, databases, and APIs, and provides shared control, history, anomaly detection, forecasting, dashboards, and natural-language analysis ([Control Seat](https://www.controlseat.com/), Aug 2026).
+- **Differentiation:** Unlike Ignition, WinCC, and FactoryTalk, Control Seat can either replace SCADA or operate above an installed system, while its integration service delivers PLC, SCADA, historian, networking, and analytics as one project ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Aug 2026; [Control Seat Services](https://www.controlseat.com/services), Aug 2026).
+- **Business Model:** Pricing is customized to each deployment, with managed-cloud and self-hosted on-premise configurations plus integration, deployment, support, and SLA options ([Control Seat pricing](https://www.controlseat.com/pricing), Aug 2026).
+- **TAM/SAM:** The global SCADA market is projected at $13.87 billion in 2026 and $26.59 billion by 2034, an 8.5% CAGR, while no company-specific SAM is disclosed ([Fortune Business Insights](https://www.fortunebusinessinsights.com/scada-market-102433), Jul 2026).
+- **GTM / Distribution:** The company sells software and integration services directly into controls, automation, PLC-programming, SCADA, and system-integration projects rather than requiring customers to replace their installed stack first ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Control Seat owns the SCADA, historian, analytics, and Virtual PLC software used in its integration projects, and its self-reported same-device test beat CODESYS on nine of ten IEC execution workloads ([Control Seat Virtual PLC](https://www.controlseat.com/virtual-plc), Jul 2026).
-- **Future moat:** [Inferred]: Deployed configurations, plant histories, and validated control logic could create switching costs, but the company has not disclosed the number or duration of production deployments.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Repeated plant integrations could accumulate configuration knowledge and operational history that increase switching costs, but public sources provide no deployment-scale or retention data demonstrating this mechanism.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Ignition, AVEVA, Rockwell, Siemens, and CODESYS already supply overlapping SCADA, integration, analytics, or virtual-controller capabilities ([Ignition](https://inductiveautomation.com/ignition/platform), [AVEVA](https://www.aveva.com/en/products/system-platform.md/), [Rockwell](https://www.rockwellautomation.com/en-us/products/software/factorytalk/operationsuite/view/factorytalk-view-site-edition.html), [Siemens](https://www.siemens.com/en-us/products/simatic-hmi/wincc-unified/), [CODESYS](https://us.codesys.com/products/runtime/virtual-control-sl/), Jul 2026).
+- **Commoditization risk:** [Inferred]: Existing SCADA vendors and funded industrial-data, analytics, and predictive-maintenance companies could add overlapping AI investigation, dashboard, and monitoring features.
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Named deployment: Battex Chile consolidated its battery-monitoring MQTT brokers, virtual machines, databases, dashboards, and APIs onto Control Seat ([Control Seat LinkedIn](https://www.linkedin.com/company/control-seat), Jul 2026).
-  - 341 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/control-seat), Jul 2026).
-  - Accepted into YC Summer 2026, whose standard investment was reported as $500,000 ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026).
-  - Press coverage: founder Q&A published by Dartmouth Computer Science on June 15, 2026 ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026).
-  - Zero active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026).
-- **Competitors:**
-  - Inductive Automation Ignition (funding not publicly disclosed, revenue unknown): server-licensed, modular SCADA with unlimited clients, tags, and connections, while Control Seat bundles proprietary software with integration delivery ([Ignition](https://inductiveautomation.com/ignition/platform), Jul 2026).
-  - AVEVA System Platform (acquired at a value exceeding £10 billion, revenue unknown): enterprise SCADA, MES, and IIoT software, while Control Seat also supplies project engineering and commissioning ([AVEVA acquisition](https://www.aveva.com/en/about/news/press-releases/2023/aveva-announces-the-completion-of-its-acquisition-by-schneider-electric.gz/), Jan 2023).
-  - Rockwell FactoryTalk View SE (public-company product, revenue unknown): integrates HMI/SCADA with Rockwell’s hardware and software ecosystem, while Control Seat supports Allen-Bradley, Siemens, Beckhoff, and open protocols ([Rockwell Automation](https://www.rockwellautomation.com/en-us/products/software/factorytalk/operationsuite/view/factorytalk-view-site-edition.html), Jul 2026).
-  - CODESYS Virtual Control SL (funding not publicly disclosed, revenue unknown): offers containerized IEC 61131-3 virtual PLCs and certified SIL3 virtual safety control, while Control Seat integrates its Virtual PLC with SCADA, historian, and AI functions ([CODESYS](https://us.codesys.com/products/runtime/virtual-control-sl/), Jul 2026).
-- **Why now:** The founders state that AI-assisted software generation reduced the time required to build industrial software, lowering a prior technical entry barrier ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026).
+  - Named customer deployment with Battex Chile, whose battery was monitored and controlled remotely through Control Seat’s MQTT infrastructure ([Control Seat on LinkedIn](https://www.linkedin.com/company/control-seat), Jul 2026).
+  - 341 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/control-seat), Jul 2026).
+  - Zero active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Aug 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Seeq ($165M raised, revenue unknown): industrial analytics, AI, and monitoring rather than Control Seat’s combined SCADA, PLC, and integration stack ([Seeq](https://www.seeq.com/resources/press-releases/seeq-announces-50-million-series-d-funding-round-led-by-sixth-street-growth/), Aug 2024).
+  - Litmus ($42.6M+ disclosed funding, revenue unknown): industrial edge-data infrastructure for AI rather than an integrated control system and project-delivery service ([Litmus](https://litmus.io/newsroom/litmus-raises-usd30m-in-series-b-funding-led-by-belden), Sep 2022; [Litmus](https://litmus.io/newsroom/litmus-secures-additional-investment-led-by-insight-partners-to-accelerate), Nov 2025).
+  - Augury ($360M+ raised, revenue unknown): machine-health and process-optimization software rather than PLC programming, SCADA, control, and commissioning ([Augury](https://www.augury.com/blog/augury-updates/it-takes-an-ecosystem-to-push-the-boundaries-of-human-productivity/), Mar 2025).
+- **Why now:** Warren Shepard attributed the timing to AI’s increased ability to write software quickly, reducing the development barrier in complex industrial-control systems ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026).
 
 ## Founders & Team
 
 - **Warren Shepard (Co-Founder & CEO):**
-  - Background: Dartmouth computer science and mathematics graduate with prior SpaceX Starlink networking, manufacturing, and flight-software work and Microsoft security experience ([Control Seat about page](https://controlseat.com/about), Jul 2026).
+  - Background: Computer science and mathematics at Dartmouth College, followed by networks, manufacturing, and flight-software work at SpaceX’s Starlink program and security engineering at Microsoft ([Control Seat About](https://www.controlseat.com/about), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Control Seat (YC S26),” with 2K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/warren-shepard-493a37201), Jul 2026).
+  - LinkedIn: “Control Seat (YC S26),” with 2K followers ([LinkedIn](https://www.linkedin.com/in/warren-shepard-493a37201), Jul 2026).
   - GitHub: No public repos found.
 - **Jack Grodnick (Co-Founder & CTO):**
-  - Background: Dartmouth computer science and economics student on leave, formerly a Tesla SCADA controls engineer, Amazon GenAI engineer supporting 1.5 million-plus employees, and SpaceX SCADA engineer ([Control Seat about page](https://controlseat.com/about), Jul 2026).
+  - Background: Computer science and economics at Dartmouth College, controls and SCADA work at Tesla and SpaceX, and Amazon GenAI work serving 1.5M+ employees ([Control Seat About](https://www.controlseat.com/about), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Control Seat,” with 2K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/jack-grodnick), Jul 2026).
-  - GitHub: @jackgrodnick; `prj-rev-bwfs-dasmoto` has 0 stars ([GitHub](https://github.com/jackgrodnick/prj-rev-bwfs-dasmoto), Jul 2026).
-- **Co-founder relationship:** Shepard and Grodnick met during their first year at Dartmouth, bonded over computer science, and later compared their industrial-internship experiences ([Warren Shepard LinkedIn post](https://www.linkedin.com/posts/warren-shepard-493a37201_dartmouth-dartmouthalumni-ycombinator-activity-7473413991151857665-BAu1), Jun 2026).
-- **Founder-market fit:** Both founders worked with factory software or SCADA at SpaceX or Tesla, supplemented by Shepard’s security work and Grodnick’s GenAI engineering experience ([Control Seat about page](https://controlseat.com/about), Jul 2026).
+  - LinkedIn: “Control Seat,” with 2K followers ([LinkedIn](https://www.linkedin.com/in/jack-grodnick), Jul 2026).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Shepard and Grodnick met during their first year at Dartmouth, discussed starting a company, and later connected their shared experiences using industrial-control software during internships ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026).
+- **Founder-market fit:** The documented fit consists of Grodnick’s SCADA and controls work at Tesla and SpaceX and Shepard’s SpaceX networks, manufacturing, and flight-software experience, where both founders encountered the installed control systems they now target ([Control Seat About](https://www.controlseat.com/about), Aug 2026; [Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026).
 
 ## Key Risks
 
-- **Safety-system boundary:** Control Seat’s documentation directs pilots to keep safety functions independent, while CODESYS markets a certified SIL3 virtual safety controller as part of its competing stack ([Control Seat documentation](https://controlseat.com/docs), [CODESYS](https://us.codesys.com/products/safety/virtual-safe-control-sl/), Jul 2026).
-- **Benchmark scope:** The company’s CODESYS comparison measures IEC program execution but excludes I/O latency, scheduler jitter, motion, and safety certification ([Control Seat Virtual PLC](https://www.controlseat.com/virtual-plc), Jul 2026).
-- **Brownfield adoption:** The founders report that industrial-control systems are difficult to switch because installations contain years of configuration data; Control Seat mitigates this by operating above existing SCADA and providing the integration itself ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), [Y Combinator](https://www.ycombinator.com/companies/control-seat), 2026).
-- **Incumbent overlap:** Ignition, FactoryTalk, WinCC, AVEVA, and CODESYS already provide overlapping connectivity, SCADA, visualization, analytics, or virtual-PLC functions, requiring Control Seat to compete while maintaining compatibility with those systems ([Control Seat](https://www.controlseat.com/), Jul 2026).
-- **Name ambiguity:** “Control Seat” is also used for unrelated seating and ventilation controls, so search-result attribution requires confirmation against controlseat.com, YC Summer 2026, or the founders’ names ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026).
+- **Installed-system switching friction:** Industrial-control platforms retain years of configuration data, making platform replacement difficult; Control Seat’s mitigation is an intelligence layer that can operate above existing SCADA installations ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026; [Y Combinator](https://www.ycombinator.com/companies/control-seat), Aug 2026).
+- **Operational reliability and safety:** The product controls industrial equipment, but its terms do not guarantee uninterrupted or error-free service; available mitigations include self-hosted air-gapped deployments and documentation directing pilots to keep safety functions independent ([Control Seat terms](https://www.controlseat.com/terms), Mar 2026; [Control Seat documentation](https://controlseat.com/docs), Aug 2026).
+- **Integration coverage:** The intelligence product lists VTScada and Ignition as supported while FactoryTalk and Siemens WinCC remain “coming soon,” although the broader platform supports OPC UA, MQTT, SQL databases, and REST APIs ([Control Seat Intelligence](https://www.controlseat.com/intelligence), Aug 2026; [Control Seat](https://www.controlseat.com/), Aug 2026).
+- **Funded feature overlap:** Seeq, Litmus, and Augury collectively address industrial analytics, OT-data preparation, anomaly detection, and predictive maintenance with at least $567.6 million in disclosed funding, overlapping parts of Control Seat’s product surface ([Seeq](https://www.seeq.com/resources/press-releases/seeq-announces-50-million-series-d-funding-round-led-by-sixth-street-growth/), Aug 2024; [Litmus](https://litmus.io/newsroom/litmus-raises-usd30m-in-series-b-funding-led-by-belden), Sep 2022; [Augury](https://www.augury.com/blog/augury-updates/it-takes-an-ecosystem-to-push-the-boundaries-of-human-productivity/), Mar 2025).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $12.89B global SCADA market in 2025, projected to $20.05B by 2030 at 9.2% CAGR (MarketsandMarkets, 2025) |
+| TAM | $13.87B global SCADA market in 2026, projected to $26.59B by 2034 at an 8.5% CAGR ([Fortune Business Insights](https://www.fortunebusinessinsights.com/scada-market-102433), Jul 2026) |
 | SAM | No public data found |
-| Traction | Battex Chile deployment (Control Seat LinkedIn, Jul 2026); 341 LinkedIn followers (LinkedIn, Jul 2026); $500K YC standard investment and Dartmouth coverage (Dartmouth Computer Science, Jun 2026) |
-| Revenue Signal | Seven-day free trial; paid managed-cloud, self-hosted, and integration deployments use custom pricing (Control Seat pricing, Jul 2026) |
-| Founders | Warren Shepard (CEO): Dartmouth CS/math, SpaceX Starlink, Microsoft security; Jack Grodnick (CTO): Dartmouth CS/economics, Tesla SCADA, SpaceX SCADA, Amazon GenAI (Control Seat about page, Jul 2026) |
-| Competitors | Ignition (funding undisclosed, revenue unknown, server-licensed modular SCADA); AVEVA System Platform (>£10B acquisition value, revenue unknown, enterprise SCADA/MES/IIoT); FactoryTalk View SE (public-company product, revenue unknown, Rockwell ecosystem); CODESYS Virtual Control SL (funding undisclosed, revenue unknown, containerized virtual PLC) (vendor product pages, Jul 2026) |
-| Moat Signals | Proprietary integrated SCADA, historian, analytics, and Virtual PLC; self-reported win on 9/10 CODESYS IEC workloads (Control Seat Virtual PLC, Jul 2026) |
-| Risk Factors | Independent safety-hardware requirement (Control Seat docs, Jul 2026), benchmark excludes I/O latency and safety certification (Control Seat Virtual PLC, Jul 2026), brownfield switching costs (Dartmouth Computer Science, Jun 2026) |
-| Founder Reach | Warren Shepard: LinkedIn 2K followers, Twitter/GitHub No public data found (LinkedIn, Jul 2026); Jack Grodnick: LinkedIn 2K followers, GitHub top repo 0 stars, Twitter No public data found (LinkedIn; GitHub, Jul 2026) |
-| Distribution Signals | 341 company LinkedIn followers; zero YC job postings; Battex Chile customer deployment (LinkedIn; Y Combinator, Jul 2026) |
-| Emails | founders@controlseat.com (Control Seat contact page, Jul 2026) |
+| Traction | Named Battex Chile deployment; 341 LinkedIn followers; zero YC job postings ([LinkedIn](https://www.linkedin.com/company/control-seat), Jul 2026; [Y Combinator](https://www.ycombinator.com/companies/control-seat), Aug 2026) |
+| Revenue Signal | Custom deployment pricing for managed-cloud or self-hosted on-premise configurations; no public dollar price ([Control Seat pricing](https://www.controlseat.com/pricing), Aug 2026) |
+| Founders | Warren Shepard (CEO): Dartmouth CS/math, SpaceX Starlink, Microsoft security; Jack Grodnick (CTO): Dartmouth CS/economics, Tesla and SpaceX SCADA, Amazon GenAI ([Control Seat About](https://www.controlseat.com/about), Aug 2026) |
+| Competitors | Seeq ($165M raised, revenue unknown, industrial analytics); Litmus ($42.6M+ disclosed, revenue unknown, industrial edge data); Augury ($360M+ raised, revenue unknown, machine health) ([Seeq](https://www.seeq.com/resources/press-releases/seeq-announces-50-million-series-d-funding-round-led-by-sixth-street-growth/), Aug 2024; [Litmus](https://litmus.io/newsroom/litmus-raises-usd30m-in-series-b-funding-led-by-belden), Sep 2022; [Augury](https://www.augury.com/blog/augury-updates/it-takes-an-ecosystem-to-push-the-boundaries-of-human-productivity/), Mar 2025) |
+| Moat Signals | No public data found |
+| Risk Factors | Installed-system switching friction, operational reliability and safety, incomplete named SCADA integrations ([Dartmouth Computer Science](https://web.cs.dartmouth.edu/news/2026/06/student-startup-secures-y-combinator-funding), Jun 2026; [Control Seat terms](https://www.controlseat.com/terms), Mar 2026; [Control Seat Intelligence](https://www.controlseat.com/intelligence), Aug 2026) |
+| Founder Reach | Warren Shepard: LinkedIn 2K followers, Twitter/X and GitHub no public data found; Jack Grodnick: LinkedIn 2K followers, Twitter/X and GitHub no public data found ([Warren Shepard LinkedIn](https://www.linkedin.com/in/warren-shepard-493a37201), Jul 2026; [Jack Grodnick LinkedIn](https://www.linkedin.com/in/jack-grodnick), Jul 2026) |
+| Distribution Signals | 341 LinkedIn followers and zero active YC job postings ([LinkedIn](https://www.linkedin.com/company/control-seat), Jul 2026; [Y Combinator](https://www.ycombinator.com/companies/control-seat), Aug 2026) |
+| Emails | founders@controlseat.com ([Control Seat contact page](https://www.controlseat.com/contact), Aug 2026) |

@@ -1,6 +1,6 @@
 ﻿# OpenVector
 
-> AI that turns any camera into an active operator with real-time vision
+> AI that turns any camera to an autonomous worker with real-time vision
 
 | Field | Value |
 |-------|-------|
@@ -11,74 +11,73 @@
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | Robotics, Computer Vision, Infrastructure, Industrial |
-| YC Partner | Not listed |
-| Emails | No public data found |
+| YC Partner | Jon Xu ([YC profile](https://www.ycombinator.com/companies/openvector), Aug 2026) |
+| Emails | founders@openvector.com ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** Restaurants, warehouses, car washes, gyms, and offices have camera feeds that record events but still depend on people to notice incidents, review footage, and operate downstream systems ([OpenVector](https://openvector.com), Jul 2026).
-- **Approach:** Users describe an event and response in plain English; OpenVector connects to a live stream, builds a vision workflow, and can call, message, invoke a webhook, or operate systems such as DRB SiteWatch and a POS ([OpenVector How It Works](https://openvector.com/how-it-works), Jul 2026).
-- **Differentiation:** Spot AI and Ambient.ai also analyze business cameras, while OpenVector publicly demonstrates camera events causing actions inside operational systems rather than stopping at detection, investigation, or security dispatch ([OpenVector](https://openvector.com/how-it-works), [Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), [Ambient.ai](https://ambient.ai/2022/01/19/ambient-ai-emerges-from-stealth-introduces-computer-vision-intelligence-platform-for-physical-security-industry/)).
-- **Business Model:** The optional OpenVector Station requires a refundable $100 reservation and is offered for $449 per month or $6,499 upfront, with billing at shipment or delivery ([OpenVector order page](https://openvector.com/order), Jul 2026).
-- **TAM/SAM:** The global AI video-analytics market was $12.63 billion in 2024 and is forecast to reach $71.30 billion by 2033 at a 21.4% CAGR, while no public SAM estimate was found for OpenVector’s operational-automation segment ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-video-analytics-market-report), 2025).
-- **GTM / Distribution:** OpenVector offers a 20-minute demonstration using a prospect’s live stream, a waitlist, and reservations for an offline station, indicating founder-led demonstrations and direct deployment ([OpenVector](https://openvector.com), [order page](https://openvector.com/order), Jul 2026).
+- **Problem:** Physical-operations teams in manufacturing, logistics, retail, and security must monitor camera feeds for events such as stalled production, tailgating, missed process steps, and waiting customers, with human monitoring cited as the current alternative ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker), Jul 2026).
+- **Approach:** Users describe an event and response in plain English, after which OpenVector builds a vision workflow that monitors an existing camera and can call, email, update a POS/CRM, or invoke a webhook ([YC profile](https://www.ycombinator.com/companies/openvector), Aug 2026).
+- **Differentiation:** OpenVector combines natural-language workflow creation, existing-camera support, computer-use actions, and an optional offline station, while Spot AI sells a unified camera/video-agent system, Ambient.ai focuses on physical-security threat detection, and Voxel focuses on workplace safety ([OpenVector](https://openvector.com/how-it-works), [Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), [Ambient.ai](https://www.ambient.ai/ai-info), [Voxel](https://www.voxelai.com/news/voxel-raises-44m-in-series-b-funding-to-transform-workplace-safety-with-its-ai-powered-platform)).
+- **Business Model:** The OpenVector Station requires a refundable $100 reservation and is offered at $449 per month or $6,499 upfront, with billing at delivery and California deliveries scheduled for fall 2026 ([order page](https://openvector.com/order), Aug 2026).
+- **TAM/SAM:** The global video-analytics market is projected to reach $37.84 billion in 2030 at a 19.5% CAGR from 2025–2030, while no company-defined serviceable segment was found ([Grand View Research](https://www.grandviewresearch.com/press-release/global-video-analytics-market), 2025).
+- **GTM / Distribution:** OpenVector uses demo-led sales across gyms, car washes, offices, warehouses, and restaurants, offering to convert a prospect’s live stream into an automation during a 20-minute call ([company website](https://openvector.com), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** The public technical-complexity signal consists of co-founder Andrey Gizdov’s research on compute-efficient, cognitively inspired vision—including a CVPR 2025 paper—and OpenVector’s stated work on predictive coding, continuous-time dynamics, and attention-driven spatial sampling ([CVPR](https://openaccess.thecvf.com/content/CVPR2025/html/Gizdov_Seeing_More_with_Less_Human-like_Representations_in_Vision_Models_CVPR_2025_paper.html), [OpenVector job posting](https://www.linkedin.com/jobs/view/member-of-technical-staff-at-openvector-4436042796), Jul 2026).
-- **Future moat:** [Inferred]: Deployment-specific video-event data, customer corrections, and integrations with industry systems could create accumulated switching costs, but no deployment scale or proprietary dataset has been disclosed.
+- **Moat today:** OpenVector’s founder-authored foveated-vision system samples about 3% of pixels, claims 5–10× lower bandwidth, and was presented as a CVPR 2025 Spotlight, providing a technical-complexity signal rather than evidence of legal exclusivity ([OpenVector research](https://openvector.com/research), Aug 2026).
+- **Future moat:** [Inferred]: Deployment-specific event, correction, and action-outcome data could improve vertical models and workflows, but public customer counts, data rights, and retention metrics are unavailable.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Spot AI, Coram AI, and Ambient.ai already market video or physical-security agents, and Ambient.ai explicitly operates on existing camera infrastructure ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), [Coram AI](https://www.coram.ai/post/coram-series-b-fundraise), [Ambient.ai](https://ambient.ai/2022/01/19/ambient-ai-emerges-from-stealth-introduces-computer-vision-intelligence-platform-for-physical-security-industry/)).
+- **Commoditization risk:** Spot AI already supports existing-camera footage and video agents, Ambient.ai deploys edge-optimized vision-language models, and Voxel applies computer vision to operational safety ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), [Ambient.ai](https://www.ambient.ai/ai-info), [Voxel](https://www.voxelai.com/news/voxel-raises-44m-in-series-b-funding-to-transform-workplace-safety-with-its-ai-powered-platform)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - $500,000 first investment from Y Combinator announced by co-founder Andrey Gizdov ([LinkedIn via search snippet](https://de.linkedin.com/in/maximilian-veraszto-bb7324235), Jul 2026).
-  - Undisclosed design partners for long-video reasoning and camera applications ([Andrey Gizdov LinkedIn post](https://www.linkedin.com/posts/andreygizdov_today-i-made-the-difficult-choice-to-reject-activity-7474301179406049280-VG3-), Jul 2026).
-  - One Member of Technical Staff opening listed at $135,000–$250,000 base salary with 26 applicants ([LinkedIn](https://www.linkedin.com/jobs/view/member-of-technical-staff-at-openvector-4436042796), Jul 2026).
-  - OpenVector Station reservations opened for California delivery beginning in fall 2026 ([OpenVector order page](https://openvector.com/order), Jul 2026).
-- **Competitors (minimum 3, up to 5):**
-  - Spot AI ($93M raised, revenue unknown): sells AI camera systems and Video AI Agents, while OpenVector demonstrates actions inside POS and other operational systems ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), Oct 2024).
-  - Coram AI ($66M raised, revenue unknown): runs physical-security agents on NVIDIA-powered edge devices, whereas OpenVector also targets restaurant, car-wash, office, and warehouse workflows ([Coram AI](https://www.coram.ai/post/coram-series-b-fundraise), Jun 2026).
-  - Ambient.ai (over $72M raised, revenue unknown): overlays existing cameras for threat detection and dispatch, while OpenVector markets user-defined operational actions beyond security ([Ambient.ai](https://www.prnewswire.com/news-releases/ambientai-raises-20m-strategic-growth-investment-from-allegion-ventures-301971405.html), Oct 2023).
-  - Verkada (over $700M raised, revenue unknown): provides an integrated proprietary security-device and cloud platform, while OpenVector connects to existing streams and offers an optional offline station ([Verkada](https://www.verkada.com/blog/verkada-raises-200m-in-funding/), Feb 2025).
-- **Why now:** [Inferred]: NVIDIA’s August 2025 general release of Jetson Thor, with up to fivefold higher generative-model performance than Jetson Orin and support for low-latency edge VLM execution, lowered the hardware barrier for an offline real-time video agent ([NVIDIA](https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai/), Aug 2025).
+  - Current product: live use cases reported across security, retail, manufacturing, and logistics, without named customers or deployment counts ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker), Jul 2026).
+  - Funding: $500,000 first investment from Y Combinator ([Andrey Gizdov LinkedIn](https://www.linkedin.com/in/andreygizdov), Aug 2026).
+  - YC jobs: 0 active postings ([YC jobs](https://www.ycombinator.com/companies/openvector/jobs), Aug 2026).
+  - GitHub organization: 1 follower and 0 public repositories ([GitHub](https://github.com/openvector-labs), Aug 2026).
+- **Competitors:**
+  - Spot AI ($93M raised, revenue unknown; latest $31M equity round led by Qualcomm Ventures in Oct 2024): supports existing video but also sells a unified camera system and Video AI Agents ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date)).
+  - Ambient.ai (over $72M raised, revenue unknown; latest $20M strategic investment from Allegion Ventures in Oct 2023): focuses on threat detection, forensics, and access intelligence for physical security ([Ambient.ai](https://www.ambient.ai/press/ambient-ai-strategic-growth-investment-allegion-ventures)).
+  - Voxel ($61M raised, revenue unknown; latest $44M Series B led by NewRoad Capital Partners in Jun 2025): focuses on workplace safety and risk in industrial environments ([Voxel](https://www.voxelai.com/news/voxel-raises-44m-in-series-b-funding-to-transform-workplace-safety-with-its-ai-powered-platform)).
+- **Why now:** [Inferred]: The launch of Spot AI’s Video AI Agents in October 2024 and OpenVector’s 2026 NVIDIA Jetson-based offline station indicate that vision-language inference and edge hardware can now be packaged into real-time camera-to-action workflows ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), [OpenVector order page](https://openvector.com/order)).
 
 ## Founders & Team
 
-- **Andrey Gizdov (Co-founder):**
-  - Background: Withdrew from Harvard to build OpenVector after conducting cognitively inspired vision research at Harvard, MIT, and the Weizmann Institute and coauthoring a CVPR 2025 paper on adaptive visual processing ([personal site](https://andreygizdov.com/), [CVPR](https://openaccess.thecvf.com/content/CVPR2025/html/Gizdov_Seeing_More_with_Less_Human-like_Representations_in_Vision_Models_CVPR_2025_paper.html)).
-  - Twitter/X: @andreygizdov, 39 followers ([TwStalker](https://mobile.twstalker.com/andreygizdov), May 2026).
-  - LinkedIn: “Founder at OpenVector \| PhD dropout,” with approximately 8K followers ([LinkedIn](https://www.linkedin.com/in/andreygizdov), Jul 2026).
+- **Andrey Gizdov (CEO):**
+  - Background: Harvard PhD dropout and Fulbright scholar who conducted multimodal and computer-vision research with Harvard, MIT, and the Weizmann Institute and co-authored a CVPR 2025 paper; no public exit found ([personal site](https://andreygizdov.com/), [CVPR](https://openaccess.thecvf.com/content/CVPR2025/html/Gizdov_Seeing_More_with_Less_Human-like_Representations_in_Vision_Models_CVPR_2025_paper.html)).
+  - Twitter/X: @andreygizdov; count not retrievable ([personal site](https://andreygizdov.com/)).
+  - LinkedIn: “Open Vector”; 8K followers ([LinkedIn](https://www.linkedin.com/in/andreygizdov), Jul 2026).
   - GitHub: No public repos found.
-- **Vishal Urlam (Co-founder):**
-  - Background: Studied product design at Carnegie Mellon, worked on IoT and Tata Power substations, served as a CMU physical-computing teaching assistant, and won the Google Prize at MIT Grand Hack 2025 with Gizdov ([Foveal Vision](https://fovealvision.ai/), [CMU](https://courses.ideate.cmu.edu/60-223/f2022/home), [LinkedIn](https://www.linkedin.com/in/vishal-urlam)).
+- **Vishal Urlam (CTO):**
+  - Background: CMU embedded-systems/product-design graduate who worked on camera systems and network protocols at Tata and won the Google Prize at MIT Grand Hack 2025; no public exit found ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker), [LinkedIn](https://www.linkedin.com/in/vishal-urlam)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Building @Open Vector,” with approximately 3K followers ([LinkedIn](https://www.linkedin.com/in/vishal-urlam), Jul 2026).
+  - LinkedIn: “Building @Open Vector”; 3K followers ([LinkedIn](https://www.linkedin.com/in/vishal-urlam), Jul 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Gizdov and Urlam met at MIT, won the Google Prize together at MIT Grand Hack 2025, and continued working together afterward ([LinkedIn via search snippet](https://de.linkedin.com/in/maximilian-veraszto-bb7324235), Jul 2026).
-- **Founder-market fit:** Gizdov has published work in compute-efficient computer vision, while Urlam has documented IoT, physical-computing, product-design, and electrical-infrastructure experience ([CVPR](https://openaccess.thecvf.com/content/CVPR2025/html/Gizdov_Seeing_More_with_Less_Human-like_Representations_in_Vision_Models_CVPR_2025_paper.html), [Foveal Vision](https://fovealvision.ai/), [CMU](https://courses.ideate.cmu.edu/60-223/f2022/home)).
+- **Co-founder relationship:** Gizdov and Urlam met while working on the Google Prize-winning DestiKnee project at MIT Grand Hack 2025 and continued working together afterward ([Vishal Urlam LinkedIn](https://www.linkedin.com/in/vishal-urlam), 2025).
+- **Founder-market fit:** [Inferred]: Gizdov’s published computer-vision research and Urlam’s embedded-systems, camera, and infrastructure work at Tata align with real-time edge-video processing and legacy-system integration ([OpenVector about page](https://openvector.com/about), Aug 2026).
 
 ## Key Risks
 
-- **Autonomous-action error:** OpenVector’s simulation uses a 92% confidence threshold before applying a POS discount, so classification errors could initiate incorrect calls, messages, records, or transactions ([OpenVector How It Works](https://openvector.com/how-it-works), Jul 2026).
-- **Competitive overlap:** Spot AI, Coram AI, and Ambient.ai already market video or physical-security agents and have disclosed $93 million, $66 million, and over $72 million in funding, respectively ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), [Coram AI](https://www.coram.ai/post/coram-series-b-fundraise), [Ambient.ai](https://www.prnewswire.com/news-releases/ambientai-raises-20m-strategic-growth-investment-from-allegion-ventures-301971405.html)).
-- **Offline-delivery dependency:** Customers choosing the offline station cannot receive it before California deliveries begin in fall 2026, although the deposit is refundable ([OpenVector order page](https://openvector.com/order), Jul 2026).
-- **Product-positioning divergence:** The current site markets camera-to-action automation, the hiring brief describes bio-inspired vision architectures, and a separate live Foveal Vision site names the same founders while marketing compute and bandwidth reduction ([OpenVector](https://openvector.com), [LinkedIn](https://www.linkedin.com/jobs/view/member-of-technical-staff-at-openvector-4436042796), [Foveal Vision](https://fovealvision.ai/)).
-- **Name disambiguation:** “OpenVector” is also used by an unrelated Canton-network company and an unrelated PyPI vector-database package, creating search-result and brand-confusion risk ([OpenVector.ai](https://www.openvector.ai/), [PyPI](https://pypi.org/project/openvector/)).
+- **Long-horizon vision reliability:** Gizdov states that current vision systems struggle with accurate physical-world reasoning over long time horizons, while OpenVector’s mitigation is foveated sampling intended to reduce bandwidth and latency ([Gizdov LinkedIn](https://www.linkedin.com/in/andreygizdov), [OpenVector research](https://openvector.com/research)).
+- **Autonomous-action errors:** OpenVector can apply POS discounts and update customer profiles based on camera detections, creating consequences from false positives; its interface includes human review and configurable confidence thresholds before activation ([How It Works](https://openvector.com/how-it-works), Aug 2026).
+- **Funded overlap:** Spot AI, Ambient.ai, and Voxel have raised $93M, over $72M, and $61M respectively for overlapping camera-intelligence applications ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date), [Ambient.ai](https://www.ambient.ai/press/ambient-ai-strategic-growth-investment-allegion-ventures), [Voxel](https://www.voxelai.com/news/voxel-raises-44m-in-series-b-funding-to-transform-workplace-safety-with-its-ai-powered-platform)).
+- **Offline-station delivery:** The offline station is pre-order only, with California deliveries beginning in fall 2026, although the software is also marketed for existing cameras ([order page](https://openvector.com/order), Aug 2026).
+- **Product and name ambiguity:** A separate live Foveal Vision site names both founders but advertises a different model-efficiency product, while the unrelated openvector.ai operates blockchain infrastructure; no public pivot statement was found, so Foveal Vision metrics are excluded from current-product traction ([Foveal Vision](https://fovealvision.ai/), [openvector.ai](https://www.openvector.ai/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $12.63B global AI video-analytics market in 2024, forecast to reach $71.30B by 2033 at a 21.4% CAGR (Grand View Research, 2025) |
+| TAM | $37.84B global video-analytics market by 2030, 19.5% CAGR for 2025–2030 ([Grand View Research](https://www.grandviewresearch.com/press-release/global-video-analytics-market), 2025) |
 | SAM | No public data found |
-| Traction | $500K first investment from YC (Andrey Gizdov via LinkedIn search snippet, Jul 2026); undisclosed design partners (Andrey Gizdov LinkedIn, Jul 2026); one MTS job opening with 26 applicants (LinkedIn, Jul 2026) |
-| Revenue Signal | $449/month or $6,499 upfront for the OpenVector Station, with a refundable $100 reservation (OpenVector order page, Jul 2026) |
-| Founders | Andrey Gizdov (Co-founder): Harvard/MIT/Weizmann vision research and CVPR 2025 author (personal site; CVPR, 2025); Vishal Urlam (Co-founder): CMU product design, IoT, physical computing, and Tata Power experience (Foveal Vision; CMU; LinkedIn) |
-| Competitors | Spot AI ($93M raised, revenue unknown, Video AI Agents; Spot AI, Oct 2024); Coram AI ($66M raised, revenue unknown, edge physical-security agents; Coram AI, Jun 2026); Ambient.ai (over $72M raised, revenue unknown, existing-camera threat automation; Ambient.ai, Oct 2023); Verkada (over $700M raised, revenue unknown, integrated security hardware and cloud; Verkada, Feb 2025) |
-| Moat Signals | Co-founder’s compute-efficient vision research and CVPR 2025 publication; stated development of predictive-coding and continuous-time vision architectures (CVPR, 2025; OpenVector LinkedIn job posting, Jul 2026) |
-| Risk Factors | Autonomous-action errors (OpenVector, Jul 2026), funded competitor overlap (Spot AI; Coram AI; Ambient.ai), fall-2026 station delivery dependency (OpenVector order page, Jul 2026) |
-| Founder Reach | Andrey Gizdov: X 39, LinkedIn approximately 8K, GitHub not found (TwStalker, May 2026; LinkedIn, Jul 2026); Vishal Urlam: LinkedIn approximately 3K, X/GitHub not found (LinkedIn, Jul 2026) |
-| Distribution Signals | 20-minute live-stream demos and waitlist (OpenVector, Jul 2026); refundable station preorders (OpenVector order page, Jul 2026) |
-| Emails | No public data found |
+| Traction | Live use cases across security, retail, manufacturing, and logistics; $500K first investment ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker); [Gizdov LinkedIn](https://www.linkedin.com/in/andreygizdov), Jul–Aug 2026) |
+| Revenue Signal | $449/month or $6,499 upfront for OpenVector Station, plus a refundable $100 reservation ([order page](https://openvector.com/order), Aug 2026) |
+| Founders | Andrey Gizdov (CEO): Harvard/Fulbright computer-vision researcher; Vishal Urlam (CTO): CMU embedded-systems graduate and former Tata infrastructure engineer ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker), Jul 2026) |
+| Competitors | Spot AI ($93M raised, revenue unknown, unified camera/video agents); Ambient.ai (over $72M, revenue unknown, physical security); Voxel ($61M, revenue unknown, workplace safety) ([Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date); [Ambient.ai](https://www.ambient.ai/press/ambient-ai-strategic-growth-investment-allegion-ventures); [Voxel](https://www.voxelai.com/news/voxel-raises-44m-in-series-b-funding-to-transform-workplace-safety-with-its-ai-powered-platform)) |
+| Moat Signals | CVPR 2025 foveated-vision research; claimed 3% pixel sampling and 5–10× lower bandwidth ([OpenVector research](https://openvector.com/research), Aug 2026) |
+| Risk Factors | Long-horizon vision reliability, autonomous-action errors, funded competitor overlap ([Gizdov LinkedIn](https://www.linkedin.com/in/andreygizdov); [OpenVector](https://openvector.com/how-it-works); [Spot AI](https://www.spot.ai/blog/spot-ai-introduces-first-video-ai-agents-for-the-physical-world-as-it-nears-100-million-in-funding-to-date)) |
+| Founder Reach | Gizdov: X @andreygizdov count not retrievable, LinkedIn 8K; Urlam: LinkedIn 3K ([Gizdov](https://www.linkedin.com/in/andreygizdov); [Urlam](https://www.linkedin.com/in/vishal-urlam), Jul 2026) |
+| Distribution Signals | Launch YC post received 13 votes; GitHub organization has 1 follower and 0 repositories ([Launch YC](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker); [GitHub](https://github.com/openvector-labs), Aug 2026) |
+| Emails | founders@openvector.com ([YC Launch](https://www.ycombinator.com/launches/SBk-openvector-self-improving-ai-that-turns-any-camera-into-an-autonomous-worker), Jul 2026) |

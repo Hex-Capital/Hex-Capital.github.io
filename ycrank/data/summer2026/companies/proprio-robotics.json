@@ -18,52 +18,52 @@
     "Robotics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:05:45.215Z",
+  "memoGeneratedAt": "2026-08-11T05:45:17.944Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 59,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 56,
+      "score": 55,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 66,
+      "score": 67,
       "tier": "Invest"
     },
-    "peter-thiel": {
-      "score": 49,
+    "paul-graham": {
+      "score": 46,
       "tier": "Neutral"
     },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 37,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 56,
-    "NR": 42,
-    "PG": 66,
-    "PT": 49,
-    "SL": 37,
-    "VK": 67
+    "CB": 59,
+    "EG": 55,
+    "NR": 67,
+    "PG": 46,
+    "PT": 39,
+    "SL": 30,
+    "VK": 40
   },
-  "consolidatedAvg": 54.71,
-  "consolidatedRank": 69,
+  "consolidatedAvg": 48,
+  "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 121,
-    "tractionScore": 34,
-    "tractionReason": "Internal robot demo; commercial deployments merely planned"
+    "tractionRank": 148,
+    "tractionScore": 40,
+    "tractionReason": "Internal 24/7 robot; commercial deployments planned"
   },
   "paths": {
     "memo": "summer2026/memos/proprio-robotics.md",

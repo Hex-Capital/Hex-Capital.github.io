@@ -1,7 +1,7 @@
 {
   "slug": "touchmark",
   "name": "Touchmark",
-  "oneLiner": "Solving AI pricing",
+  "oneLiner": "Market for future inference capacity",
   "metadata": {
     "website": "https://touchmark.ai",
     "yc_page": "https://www.ycombinator.com/companies/touchmark",
@@ -18,52 +18,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:42:09.036Z",
+  "memoGeneratedAt": "2026-08-11T05:18:21.675Z",
   "evalScores": {
     "cyan-banister": {
       "score": 45,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 41,
+      "score": 36,
       "tier": "Pass"
     },
-    "sam-lessin": {
+    "naval-ravikant": {
       "score": 32,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 39,
+      "score": 22,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 45,
-    "EG": 53,
-    "NR": 54,
-    "PG": 56,
-    "PT": 41,
-    "SL": 32,
-    "VK": 39
+    "EG": 36,
+    "NR": 32,
+    "PG": 34,
+    "PT": 34,
+    "SL": 28,
+    "VK": 22
   },
-  "consolidatedAvg": 45.71,
-  "consolidatedRank": 145,
+  "consolidatedAvg": 33,
+  "consolidatedRank": 216,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 10,
-    "tractionReason": "Coming soon; no product or traction"
+    "tractionRank": 230,
+    "tractionScore": 5,
+    "tractionReason": "Contract books labeled live; no executed volume"
   },
   "paths": {
     "memo": "summer2026/memos/touchmark.md",

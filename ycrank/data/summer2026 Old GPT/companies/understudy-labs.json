@@ -1,0 +1,82 @@
+{
+  "slug": "understudy-labs",
+  "name": "Understudy Labs",
+  "oneLiner": "Effortlessly move to open weight models",
+  "metadata": {
+    "website": "https://understudylabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/understudy-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Open Source, AI, ML",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "support@understudylabs.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Open Source",
+    "AI",
+    "ML"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:55:56.320Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 62,
+    "NR": 66,
+    "PG": 63,
+    "PT": 39,
+    "SL": 36,
+    "VK": 40
+  },
+  "consolidatedAvg": 50.86,
+  "consolidatedRank": 111,
+  "traction": {
+    "tractionRank": 91,
+    "tractionScore": 44,
+    "tractionReason": "Small private-preview design-partner group"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/understudy-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/understudy-labs.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/understudy-labs.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/understudy-labs.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/understudy-labs.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/understudy-labs.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/understudy-labs.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/understudy-labs.md"
+    }
+  }
+}

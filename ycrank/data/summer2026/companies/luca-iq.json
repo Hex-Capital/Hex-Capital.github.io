@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://lucaiq.com/",
     "yc_page": "https://www.ycombinator.com/companies/luca-iq",
-    "batch": "Summer 2026 ([Luca IQ LinkedIn](https://www.linkedin.com/company/lucaiq), Jul 2026)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "5",
     "location": "Boston, MA, USA",
     "tags": "Artificial Intelligence, B2B, API, Infrastructure",
-    "yc_partner": "Not listed",
-    "emails": "No public data found"
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@lucaiq.com ([Y Combinator](https://www.ycombinator.com/companies/luca-iq), Aug 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,52 +20,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:35:25.194Z",
+  "memoGeneratedAt": "2026-08-11T04:56:11.272Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 58,
+      "score": 57,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 65,
+      "tier": "Invest"
+    },
     "naval-ravikant": {
-      "score": 54,
+      "score": 59,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 72,
+      "score": 66,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 49,
+      "score": 51,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 70,
-    "EG": 58,
-    "NR": 54,
-    "PG": 72,
-    "PT": 49,
-    "SL": 49,
-    "VK": 43
+    "CB": 57,
+    "EG": 65,
+    "NR": 59,
+    "PG": 66,
+    "PT": 51,
+    "SL": 41,
+    "VK": 48
   },
-  "consolidatedAvg": 56.43,
-  "consolidatedRank": 52,
+  "consolidatedAvg": 55.29,
+  "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 63,
-    "tractionReason": "Completed customer tax season; hundreds of pilot applications"
+    "tractionRank": 47,
+    "tractionScore": 65,
+    "tractionReason": "Completed customer tax season; hundreds applied"
   },
   "paths": {
     "memo": "summer2026/memos/luca-iq.md",

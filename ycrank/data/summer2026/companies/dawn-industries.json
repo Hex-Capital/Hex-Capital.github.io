@@ -1,0 +1,79 @@
+{
+  "slug": "dawn-industries",
+  "name": "Dawn Industries",
+  "oneLiner": "Automatic Diagnosis & Fix for Industrial Automation Cells",
+  "metadata": {
+    "website": "https://www.dawnxr.com",
+    "yc_page": "https://www.ycombinator.com/companies/dawn-industries",
+    "batch": "Summer 2026 ([YC Jobs](https://www.ycombinator.com/jobs/role/sales-manager/remote), Jul 2026)",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence",
+    "yc_partner": "Not listed",
+    "emails": "joohyun_cha@dawnxr.com ([company website](https://www.dawnxr.com/), Aug 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T04:34:55.385Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 31,
+    "NR": 32,
+    "PG": 32,
+    "PT": 38,
+    "SL": 29,
+    "VK": 27
+  },
+  "consolidatedAvg": 33.86,
+  "consolidatedRank": 210,
+  "traction": {
+    "tractionRank": 190,
+    "tractionScore": 28,
+    "tractionReason": "Current industrial-recovery product launched"
+  },
+  "paths": {
+    "memo": "summer2026/memos/dawn-industries.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/dawn-industries.md",
+      "elad-gil": "summer2026/evals/elad-gil/dawn-industries.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/dawn-industries.md",
+      "paul-graham": "summer2026/evals/paul-graham/dawn-industries.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/dawn-industries.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/dawn-industries.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/dawn-industries.md"
+    }
+  }
+}

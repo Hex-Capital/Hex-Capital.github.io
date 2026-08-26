@@ -10,7 +10,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Airlines, Aerospace, AI",
     "yc_partner": "Gustaf Alstromer",
-    "emails": "hello@skymerse.com"
+    "emails": "hello@skymerse.com, hello@notamify.com ([Skymerse contact page](https://www.skymerse.com/contact), [Notamify App Store](https://apps.apple.com/us/app/notamify/id6790844947), Aug 2026)"
   },
   "tags": [
     "Airlines",
@@ -18,52 +18,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:30:27.527Z",
+  "memoGeneratedAt": "2026-08-11T04:44:08.157Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 69,
+      "score": 70,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
       "score": 54,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 78,
+    "naval-ravikant": {
+      "score": 70,
       "tier": "Invest"
     },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 60,
+      "score": 55,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 43,
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 63,
-    "NR": 54,
-    "PG": 78,
-    "PT": 60,
-    "SL": 61,
-    "VK": 43
+    "CB": 70,
+    "EG": 54,
+    "NR": 70,
+    "PG": 58,
+    "PT": 55,
+    "SL": 44,
+    "VK": 42
   },
-  "consolidatedAvg": 61.14,
-  "consolidatedRank": 16,
+  "consolidatedAvg": 56.14,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 80,
-    "tractionReason": "3,500+ users; airline customers live in production"
+    "tractionRank": 32,
+    "tractionScore": 72,
+    "tractionReason": "3,800 users; LOT Polish Airlines deployment"
   },
   "paths": {
     "memo": "summer2026/memos/skymerse.md",

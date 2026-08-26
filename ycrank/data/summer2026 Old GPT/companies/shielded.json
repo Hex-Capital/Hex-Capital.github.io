@@ -1,0 +1,83 @@
+{
+  "slug": "shielded",
+  "name": "Shielded",
+  "oneLiner": "We automate supply chain and financial risk management",
+  "metadata": {
+    "website": "https://www.shieldedglobal.com/",
+    "yc_page": "https://www.ycombinator.com/companies/shielded",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Supply Chain, Agriculture, Energy, Infrastructure",
+    "yc_partner": "Jared Friedman",
+    "emails": "james@shieldedglobal.com ([Shielded LinkedIn, Jul 2026](https://www.linkedin.com/company/shieldedglobal))"
+  },
+  "tags": [
+    "Fintech",
+    "Supply Chain",
+    "Agriculture",
+    "Energy",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:00:18.329Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 57,
+    "NR": 47,
+    "PG": 61,
+    "PT": 32,
+    "SL": 36,
+    "VK": 37
+  },
+  "consolidatedAvg": 46.14,
+  "consolidatedRank": 141,
+  "traction": {
+    "tractionRank": 52,
+    "tractionScore": 57,
+    "tractionReason": "Three customer use cases, including 200-SKU monitoring"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/shielded.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/shielded.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/shielded.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/shielded.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/shielded.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/shielded.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/shielded.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/shielded.md"
+    }
+  }
+}

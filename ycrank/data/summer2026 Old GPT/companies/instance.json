@@ -1,0 +1,81 @@
+{
+  "slug": "instance",
+  "name": "Instance",
+  "oneLiner": "Automated evals for robot policies",
+  "metadata": {
+    "website": "https://www.instancelabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/instance",
+    "batch": "Summer 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotics, Data Labeling",
+    "yc_partner": "Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/instance))",
+    "emails": "founders@instancelabs.ai ([Instance website, Jul 2026](https://www.instancelabs.ai/))"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Data Labeling"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:08:51.224Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 69,
+    "EG": 58,
+    "NR": 60,
+    "PG": 68,
+    "PT": 41,
+    "SL": 36,
+    "VK": 48
+  },
+  "consolidatedAvg": 54.29,
+  "consolidatedRank": 77,
+  "traction": {
+    "tractionRank": 105,
+    "tractionScore": 39,
+    "tractionReason": "10,000+ labeled episodes; no customer usage disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/instance.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/instance.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/instance.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/instance.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/instance.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/instance.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/instance.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/instance.md"
+    }
+  }
+}

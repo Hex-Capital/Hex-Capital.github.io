@@ -10,8 +10,8 @@
     "team_size": "8",
     "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Robotics, Construction, Aerospace",
-    "yc_partner": "Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics))",
-    "emails": "james@cosmicrobotics.com ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics))"
+    "yc_partner": "Ankit Gupta",
+    "emails": "james@cosmicrobotics.com, lewis@cosmicrobotics.com"
   },
   "tags": [
     "Hard Tech",
@@ -20,51 +20,51 @@
     "Aerospace"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:34:38.037Z",
+  "memoGeneratedAt": "2026-08-11T04:52:20.301Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 72,
+      "score": 81,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 53,
+      "score": 59,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
     "paul-graham": {
-      "score": 76,
+      "score": 67,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 54,
+      "score": 58,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 60,
+      "score": 45,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 72,
-    "EG": 71,
-    "NR": 53,
-    "PG": 76,
-    "PT": 54,
-    "SL": 53,
-    "VK": 60
+    "CB": 81,
+    "EG": 59,
+    "NR": 66,
+    "PG": 67,
+    "PT": 58,
+    "SL": 37,
+    "VK": 45
   },
-  "consolidatedAvg": 62.71,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 59,
+  "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 77,
+    "tractionRank": 49,
+    "tractionScore": 64,
     "tractionReason": "Tens of thousands of solar panels installed"
   },
   "paths": {

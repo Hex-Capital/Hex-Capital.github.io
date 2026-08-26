@@ -1,30 +1,26 @@
 ﻿# HERA -- Elad Gil Evaluation
 
-HERA’s 200-plus customer conversations reveal a technically tractable workflow company whose strongest attribute is single-miracle architecture and whose weakest is the absence of a visible buying curve. HERA needs vision systems to read engineering drawings accurately enough for source-traced review; it does not need new physics. But unquantified manufacturer use and no public revenue data leave HERA looking plausible rather than “just working.”
+The market map is straightforward: improved drawing extraction now lets regulated manufacturers automate engineering review, and HERA becomes large only if its on-prem system catches enough costly errors—without creating excessive false alarms—to become a mandatory release gate. The relevant variable is verified avoided cost per reviewed drawing after human validation. The dossier supplies no HERA-specific accuracy, false-positive rate, or adoption threshold, so the controlling belief remains testable but unproven.
 
-**Color Genomics** is the high rung for single-miracle architecture: workflow and data infrastructure built on commodity sequencing rather than a bet on new chemistry. HERA shares that mechanism by applying available vision models to ASME, AWS, and ISO review instead of inventing a new manufacturing process. HERA diverges because it publishes no precision or recall benchmark, while Axial reports only greater than 60% recall; drawing interpretation, plant-specific rules, confidentiality, and enterprise adoption may therefore represent several coupled execution risks around the nominally single technical miracle.
+The economic mechanism is nevertheless credible. Senior engineers currently spend days checking drawings, an escaped error can scrap a $40,000 part, and HERA promises traceable reviews in minutes. A May 2025 research system reached 94.77% GD&T precision and 97.3% F1, suggesting the technical threshold has moved. But its 5.23% hallucination rate also explains why category-level benchmarks cannot establish HERA’s economics. Redprint’s $1.98–$4 reviews further show that automated checking may commoditize before anyone captures substantial value.
 
-**Lyft** exposed the low-rung failure mechanism on velocity: being second in a network-effect market meant that substantial usage still failed to establish the curve that mattered relative to the leader. HERA provides less evidence than that low rung—no revenue, no growth rate, and no quantified repeat usage—while NexCAD already claims 1,000-plus engineers and 2,500-plus reviewed drawings. HERA’s 200 interviews are useful discovery, but interviews and free 20-drawing reviews are false signals until manufacturers repeatedly pay.
+HERA is more interesting as a workflow product than as a drawing-reading model. Company-specific rules, assembly-package review, on-prem deployment, evidence chains, and an accumulating error system of record could survive improvements in foundation models. Better models would improve extraction while HERA retains customer policy and adjudication state. The red flag is the unpriced “proprietary data” claim: the dossier does not estimate how costly those rule mappings and violations would be for CoLab, Axial, or Glypad to reproduce, and it identifies no PLM integration or downstream action that makes HERA the system responsible for completing the review.
 
-Vision models reaching a reported 85%–95% extraction accuracy in 2026 provide HERA with a credible recent catalyst, putting HERA above a steady-state industrial-software pitch. The score would flip into the top tier if HERA demonstrated that this step-function makes full drawing review economically deployable—such as audited accuracy materially above Axial’s greater-than-60% recall and deployment across named plants. Without that proof, HERA is skating for the puck in a recently opened market, but F4, Axial, NexCAD, and RapidDraft show that several founders saw the same puck.
+Three live production-plant demos and more than 200 industry interviews are meaningful pre-seed evidence. They show access and problem recognition, not yet product-market pull. The free 20-drawing review under NDA has no documented conversion, repeat usage, paid contract, or capacity bottleneck. The strongest bull case is that these deployments become a narrow wedge into design quality: every engineer decision improves the customer rule set, and the first review product becomes distribution for revision control, supplier-quality, and release workflows. That outcome would make the current absence of revenue largely irrelevant.
 
-Noelle So built a water-treatment facility that added 40 L/s of capacity, while Meera Patel completed manufacturing work involving Pfizer and TE Connectivity; HERA therefore has more authentic shipping evidence than a credential-only founding pair. **Perplexity** remains the relevant single-anchor parallel because Aravind Srinivas repeatedly returned with discussed features built. HERA’s one-week deployment promise and 200-plus interviews suggest cadence, but HERA offers no dated sequence of prototypes, customer-driven releases, or independently shipped software artifacts proving the Perplexity pattern.
+The founders have relevant industrial-engineering experience—Pfizer and TE Connectivity manufacturing work, healthcare ML, workflow automation at Wyze, and a water-treatment deployment—but the dossier documents neither second-time startup learning nor costly personal commitment. I would not infer desperation from credentials. Nor does a known-exception override apply: there is no demonstrated frontier research advantage, rare technical supply, or reconstructed margin structure strong enough to substitute for the unresolved market gate.
 
-NexCAD’s 1,000-plus engineers illustrate how distribution can compound once a product occupies the CAD workflow. Over 18 months, HERA’s company-specific rules and retained error history could create plant-level switching costs: every accepted finding improves the system of record, which makes the next drawing easier to route through HERA. The failure mode is equally mechanical—without CAD/PDM integration, HERA remains an upload tool competing feature-for-feature with NexCAD, F4, Axial, and RapidDraft rather than becoming an index on manufacturing digitization.
-
-HERA’s unpublished revenue and crowded horizontal market lead to a falsifiable forecast: by July 2029, HERA will have narrowed to ASME pressure-vessel compliance and remain below $2 million ARR. HERA can build a useful product because the core capability now exists, but confidentiality requirements and customer-specific rule maintenance favor a focused vertical deployment over a universal drawing-review layer.
-
-HERA’s strongest bull case is the **Color Genomics** exception: Meera Patel and Noelle So are industrial engineers building workflow infrastructure on top of a hard technical layer, with 200-plus interviews, manufacturer use, evidence-traced findings, and one-week deployment. HERA could turn customer rules into the proprietary judgment dataset that competitors lack. The evidence that wins today is still the missing curve—no paid customer, retention figure, accuracy benchmark, or named deployment despite four overlapping competitors. I would flip to Invest if HERA reaches $250,000 ARR across at least five paying plants while sustaining greater than 20% monthly growth for three consecutive months.
+My base case is that HERA reaches $1–3 million ARR by August 2029 as a useful on-prem drawing-review product but does not control the broader engineering workflow. I would not invest today. One condition flips the decision: at least two of the three plants convert to annual paid deployments and document repeat use with avoided engineering or scrap cost exceeding 10 times HERA’s price.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Market Re-Opening Via Specific Recent Catalyst | 17/28 |
-| Revenue Velocity or Usage Curve Already Visible | 8/25 |
-| Founder Ships Iteratively Between Conversations | 11/20 |
-| Index-Like Distribution Position On A Compounding Category | 8/15 |
-| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 9/12 |
-| **Total** | **53/100** |
+| Dossier Identifies the One Variable That Makes This Market Work | 8/32 |
+| Technology Shift Expands Market Margins, Scale, or Adoption | 15/24 |
+| Users Demonstrate Product-Market Pull Before the Story Is Polished | 10/18 |
+| Core Technology Improvement Deepens an Owned Workflow | 11/16 |
+| Founder Biography Shows Desperation or Second-Time Learning | 3/10 |
+| **Total** | **47/100** |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 47/100** (Neutral)

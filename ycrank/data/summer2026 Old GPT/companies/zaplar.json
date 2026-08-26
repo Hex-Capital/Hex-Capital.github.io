@@ -1,0 +1,80 @@
+{
+  "slug": "zaplar",
+  "name": "Zaplar",
+  "oneLiner": "Agentic Hotel Operating System",
+  "metadata": {
+    "website": "https://zaplar.com",
+    "yc_page": "https://www.ycombinator.com/companies/zaplar",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "8",
+    "location": "Stockholm, Stockholm County, Sweden",
+    "tags": "B2B, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:42:23.708Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 62,
+    "EG": 41,
+    "NR": 39,
+    "PG": 58,
+    "PT": 44,
+    "SL": 38,
+    "VK": 43
+  },
+  "consolidatedAvg": 46.43,
+  "consolidatedRank": 140,
+  "traction": {
+    "tractionRank": 131,
+    "tractionScore": 31,
+    "tractionReason": "Five hotels joined waitlist in 48 hours"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/zaplar.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/zaplar.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/zaplar.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/zaplar.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/zaplar.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/zaplar.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/zaplar.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/zaplar.md"
+    }
+  }
+}

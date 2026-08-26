@@ -1,0 +1,76 @@
+{
+  "slug": "sunflower",
+  "name": "Sunflower",
+  "oneLiner": "Building the Sobriety Platform for the future of Superintelligence. ??",
+  "metadata": {
+    "website": "https://sunflowersober.com/",
+    "yc_page": "https://www.ycombinator.com/companies/sunflower",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "15",
+    "location": "San Francisco, CA, USA",
+    "yc_partner": "Garry Tan",
+    "emails": "hello@sunflowersober.com, koby@sunflowersober.com, caitlin@sunflowersober.com, compliance@sunflowerclinic.com"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:27:41.926Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 70,
+    "EG": 71,
+    "NR": 72,
+    "PG": 66,
+    "PT": 57,
+    "SL": 42,
+    "VK": 43
+  },
+  "consolidatedAvg": 60.14,
+  "consolidatedRank": 7,
+  "traction": {
+    "tractionRank": 2,
+    "tractionScore": 94,
+    "tractionReason": "$1M ARR, 10K paying subscribers, 100K MAU"
+  },
+  "paths": {
+    "memo": "summer2026/memos/sunflower.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/sunflower.md",
+      "elad-gil": "summer2026/evals/elad-gil/sunflower.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/sunflower.md",
+      "paul-graham": "summer2026/evals/paul-graham/sunflower.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/sunflower.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/sunflower.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/sunflower.md"
+    }
+  }
+}

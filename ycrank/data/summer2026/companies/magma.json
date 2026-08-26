@@ -1,0 +1,81 @@
+{
+  "slug": "magma",
+  "name": "Magma",
+  "oneLiner": "Monetize your agent's traces.",
+  "metadata": {
+    "website": "https://magmahq.ai",
+    "yc_page": "https://www.ycombinator.com/companies/magma",
+    "batch": "Summer 2026 ([YC company page, Aug 2026](https://www.ycombinator.com/companies/magma))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Data Engineering, AI",
+    "yc_partner": "Harshita Arora ([YC company page, Aug 2026](https://www.ycombinator.com/companies/magma))",
+    "emails": "ops@magmahq.ai ([Magma website, Aug 2026](https://magmahq.ai/)), ramtin@magmahq.ai ([YC launch, Aug 2026](https://www.ycombinator.com/launches/Sk4-magma-ai-labs-will-pay-you-to-learn-from-your-agent-s-mistakes)), talent@magmahq.ai ([LinkedIn, Aug 2026](https://www.linkedin.com/company/magma-hq))"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Data Engineering",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:06:12.602Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 42,
+    "NR": 43,
+    "PG": 36,
+    "PT": 32,
+    "SL": 28,
+    "VK": 31
+  },
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 176,
+  "traction": {
+    "tractionRank": 217,
+    "tractionScore": 15,
+    "tractionReason": "Revenue-share pricing; no usage disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/magma.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/magma.md",
+      "elad-gil": "summer2026/evals/elad-gil/magma.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/magma.md",
+      "paul-graham": "summer2026/evals/paul-graham/magma.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/magma.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/magma.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/magma.md"
+    }
+  }
+}

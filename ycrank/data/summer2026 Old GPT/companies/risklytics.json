@@ -1,0 +1,83 @@
+{
+  "slug": "risklytics",
+  "name": "Risklytics",
+  "oneLiner": "Commercial Insurance Brokerage for Frontier Tech",
+  "metadata": {
+    "website": "https://www.risklytics.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/risklytics",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Real Estate, BB, Insurance, AI",
+    "yc_partner": "Ankit Gupta",
+    "emails": "hello@risklytics.ai"
+  },
+  "tags": [
+    "Machine Learning",
+    "Real Estate",
+    "BB",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:37:03.729Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 51,
+    "NR": 37,
+    "PG": 43,
+    "PT": 33,
+    "SL": 48,
+    "VK": 37
+  },
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 159,
+  "traction": {
+    "tractionRank": 152,
+    "tractionScore": 22,
+    "tractionReason": "91 followers; no current brokerage customers disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/risklytics.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/risklytics.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/risklytics.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/risklytics.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/risklytics.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/risklytics.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/risklytics.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/risklytics.md"
+    }
+  }
+}

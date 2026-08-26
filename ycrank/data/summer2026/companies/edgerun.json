@@ -1,0 +1,80 @@
+{
+  "slug": "edgerun",
+  "name": "Edgerun",
+  "oneLiner": "Military exoskeletons",
+  "metadata": {
+    "website": "https://edgerun.com",
+    "yc_page": "https://www.ycombinator.com/companies/edgerun",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "8",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Defense",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "contact@edgerun.com"
+  },
+  "tags": [
+    "Robotics",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:22:06.069Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 60,
+    "NR": 55,
+    "PG": 52,
+    "PT": 47,
+    "SL": 39,
+    "VK": 37
+  },
+  "consolidatedAvg": 51.57,
+  "consolidatedRank": 53,
+  "traction": {
+    "tractionRank": 147,
+    "tractionScore": 41,
+    "tractionReason": "100 Ukrainian field tests; named integration partner"
+  },
+  "paths": {
+    "memo": "summer2026/memos/edgerun.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/edgerun.md",
+      "elad-gil": "summer2026/evals/elad-gil/edgerun.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/edgerun.md",
+      "paul-graham": "summer2026/evals/paul-graham/edgerun.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/edgerun.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/edgerun.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/edgerun.md"
+    }
+  }
+}

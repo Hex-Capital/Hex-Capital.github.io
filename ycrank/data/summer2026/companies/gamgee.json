@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA; Remote",
     "tags": "Biotech, Genomics, Oncology, AI",
-    "yc_partner": "Tyler Bosmeny ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/gamgee))",
-    "emails": "partners@gamgee.io ([Gamgee veterinary-oncologist page, Jul 2026](https://www.gamgee.io/vet/))"
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "hello@gamgee.io, partners@gamgee.io, privacy@gamgee.io"
   },
   "tags": [
     "Biotech",
@@ -20,52 +20,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:33:08.013Z",
+  "memoGeneratedAt": "2026-08-11T16:32:57.207Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 73,
-      "tier": "Invest"
+      "score": 57,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 49,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 40,
+      "score": 42,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 83,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 58,
-      "tier": "Neutral"
+      "score": 39,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 73,
-    "EG": 43,
-    "NR": 40,
-    "PG": 83,
-    "PT": 58,
-    "SL": 62,
-    "VK": 61
+    "CB": 57,
+    "EG": 49,
+    "NR": 42,
+    "PG": 60,
+    "PT": 39,
+    "SL": 29,
+    "VK": 42
   },
-  "consolidatedAvg": 60,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 45.43,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 115,
+    "tractionRank": 161,
     "tractionScore": 36,
-    "tractionReason": "Clinical trial enrolling; one individualized case dosed"
+    "tractionReason": "First animal case; trial recruiting"
   },
   "paths": {
     "memo": "summer2026/memos/gamgee.md",

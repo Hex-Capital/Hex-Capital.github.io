@@ -1,0 +1,81 @@
+{
+  "slug": "6thsense",
+  "name": "6thSense",
+  "oneLiner": "A nervous system for physical AI",
+  "metadata": {
+    "website": "https://6thsense.dev",
+    "yc_page": "https://www.ycombinator.com/companies/6thsense",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Big Data, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "alex@6thsense.dev"
+  },
+  "tags": [
+    "Robotics",
+    "Big Data",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:40:06.080Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 54,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 72,
+    "EG": 51,
+    "NR": 52,
+    "PG": 74,
+    "PT": 58,
+    "SL": 48,
+    "VK": 54
+  },
+  "consolidatedAvg": 58.43,
+  "consolidatedRank": 39,
+  "traction": {
+    "tractionRank": 84,
+    "tractionScore": 46,
+    "tractionReason": "20-place $4,000-per-pair pilot; handful of teams"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/6thsense.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/6thsense.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/6thsense.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/6thsense.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/6thsense.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/6thsense.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/6thsense.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/6thsense.md"
+    }
+  }
+}

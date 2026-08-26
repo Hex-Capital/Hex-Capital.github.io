@@ -1,0 +1,82 @@
+{
+  "slug": "vendo",
+  "name": "Vendo",
+  "oneLiner": "Let your users build their own features on top of your product",
+  "metadata": {
+    "website": "https://vendo.run/",
+    "yc_page": "https://www.ycombinator.com/companies/vendo",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Customer Success, Open Source",
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@vendo.run, nour@vendo.run"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Customer Success",
+    "Open Source"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:37:58.875Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 49,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 59,
+    "NR": 70,
+    "PG": 72,
+    "PT": 42,
+    "SL": 41,
+    "VK": 49
+  },
+  "consolidatedAvg": 54.86,
+  "consolidatedRank": 68,
+  "traction": {
+    "tractionRank": 44,
+    "tractionScore": 61,
+    "tractionReason": "1,220 weekly downloads and $49-$499 monthly plans"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/vendo.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/vendo.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/vendo.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/vendo.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/vendo.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/vendo.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/vendo.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/vendo.md"
+    }
+  }
+}

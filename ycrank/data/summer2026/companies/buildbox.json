@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Analytics, Enterprise Software",
     "yc_partner": "Jon Xu",
-    "emails": "hitrishalajain@gmail.com, marknnour@berkeley.edu"
+    "emails": "hitrishalajain@gmail.com, marknnour@berkeley.edu ([LinkedIn](https://www.linkedin.com/in/trishalajain7), [Mark Nour](https://www.marknour.com/), Aug 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,10 +19,10 @@
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:44:22.213Z",
+  "memoGeneratedAt": "2026-08-11T05:26:03.624Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 32,
+      "score": 36,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -30,41 +30,41 @@
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 44,
+      "score": 34,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 37,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 35,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 21,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
+    "CB": 36,
     "EG": 42,
-    "NR": 47,
-    "PG": 44,
-    "PT": 37,
-    "SL": 35,
-    "VK": 37
+    "NR": 41,
+    "PG": 34,
+    "PT": 36,
+    "SL": 30,
+    "VK": 21
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 164,
+  "consolidatedAvg": 34.29,
+  "consolidatedRank": 209,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 14,
-    "tractionReason": "No public traction data"
+    "tractionRank": 235,
+    "tractionScore": 1,
+    "tractionReason": "Backers and demo page; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/buildbox.md",

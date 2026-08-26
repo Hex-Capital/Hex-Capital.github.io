@@ -6,81 +6,82 @@
 |-------|-------|
 | Website | https://lucaiq.com/ |
 | YC Page | https://www.ycombinator.com/companies/luca-iq |
-| Batch | Summer 2026 ([Luca IQ LinkedIn](https://www.linkedin.com/company/lucaiq), Jul 2026) |
+| Batch | Summer 2026 |
 | Industry | B2B / B2B -> Finance and Accounting |
 | Team Size | 5 |
 | Location | Boston, MA, USA |
 | Tags | Artificial Intelligence, B2B, API, Infrastructure |
-| YC Partner | Not listed |
-| Emails | No public data found |
+| YC Partner | Jared Friedman |
+| Emails | founders@lucaiq.com ([Y Combinator](https://www.ycombinator.com/companies/luca-iq), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** CPA firms manually collect tax documents, identify missing items, transcribe figures, assemble workpapers, and move data among disconnected systems, with Luca IQ describing three hours of manual entry before review ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-- **Approach:** Luca IQ provides a client portal, document classification and workpaper assembly, firm analytics, e-signatures, and a forthcoming deterministic 1040 engine exposed through REST APIs, webhooks, and bulk-processing endpoints ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-- **Differentiation:** Luca IQ combines intake, workpapers, computation, and filing in one system, while SafeSend integrates with external tax engines and TaxGPT centers on research, memo writing, and client communication ([Luca IQ](https://lucaiq.com/); [SafeSend](https://safesend.com/); [TaxGPT](https://www.taxgpt.com/blog/taxgpt-raises-4-6m-to-build-the-first-ai-tax-co-pilot-for-accounting-and-tax-firms), Jul 2026).
-- **Business Model:** Fixed pricing based on the number of returns, with founding-member pricing advertised but no public dollar amount ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** The company targets accounting firms through founder-led demos, limited seasonal pilots, CPA-firm referrals, and outbound sales, including a sales-intern posting after its first customer tax season ([Luca IQ contact page](https://lucaiq.com/contact/); [LinkedIn company page](https://www.linkedin.com/company/lucaiq), Jul 2026).
+- **Problem:** CPA and tax firms rely on disconnected desktop-era systems and manual re-entry, while Luca IQ says approximately 95% of U.S. firms file through four legacy vendors ([Y Combinator](https://www.ycombinator.com/companies/luca-iq), Jul 2026).
+- **Approach:** AI and human review determine inputs, after which a deterministic rules engine calculates the return, preserves a source-level audit trail, and transmits it through IRS Modernized e-File infrastructure ([Accounting Today](https://www.accountingtoday.com/list/tech-news-luca-iq-launches-with-e-file-approved-tax-engine-for-cpa-firms), Jul 2026).
+- **Differentiation:** Luca IQ exposes its own calculation-and-filing engine through an API, unlike Filed and TaxGPT, which primarily operate inside existing tax software, and unlike UltraTax’s closed source-data workflow described by Luca IQ ([Luca IQ](https://lucaiq.com/developers/), [Filed](https://www.filed.com/), [TaxGPT](https://www.taxgpt.com/), Aug 2026).
+- **Business Model:** A recently indexed company page described fixed pricing based on return volume, accounting-firm-only access, and founding-member pricing without publishing dollar rates ([Luca IQ](https://lucaiq.com/), Jul 2026 via search snippet).
+- **TAM/SAM:** The global tax-management-software market was estimated at $23.94 billion in 2025 and projected to grow at an 11.3% CAGR through 2033, while no public SAM estimate was found for U.S. professional 1040 software ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/tax-management-software-market-report), 2026).
+- **GTM / Distribution:** Luca IQ solicits CPA firms, PE groups acquiring accounting practices, and fintech developers, while its open sales-intern role owns cold calling, lead qualification, and demo booking ([Y Combinator](https://www.ycombinator.com/companies/luca-iq), [Luca IQ Careers](https://lucaiq.com/careers/), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** IRS-authorized e-filing, deterministic tax computation, document-to-return traceability, and integrations across the return lifecycle create regulatory and technical implementation requirements, although the tax engine remains in pilot ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-- **Future moat:** [Inferred]: Historical source documents, reviewer corrections, firm-specific workflows, and completed-return mappings could improve extraction and create switching costs, but no proprietary dataset size or retention evidence is public.
-- **Market structure:** No structural barrier prevents tax-software incumbents from adding overlapping functionality, as Thomson Reuters acquired SafeSend for $600 million to expand tax-workflow automation ([TechCrunch](https://techcrunch.com/2025/01/02/thomson-reuters-acquires-tax-automation-company-safesend-for-600m/), Jan 2025).
-- **Commoditization risk:** SafeSend, Canopy, TaxGPT, April, and established tax-software vendors already offer combinations of document automation, practice workflows, AI assistance, APIs, or tax calculation ([SafeSend](https://safesend.com/); [Canopy](https://www.getcanopy.com/blog/canopy-raises-35m-in-new-funding-round); [TaxGPT](https://www.taxgpt.com/blog/taxgpt-raises-4-6m-to-build-the-first-ai-tax-co-pilot-for-accounting-and-tax-firms); [April](https://www.getapril.com/resources/Blog/april-has-raised-a-38-million-series-b-round-led-by-qed-2fWaPRTsDoSn94tV89XeJR)).
+- **Moat today:** Luca IQ has passed IRS Assurance Testing and is authorized as an e-file provider, with a deterministic engine that maps source documents to rules and return lines ([Accounting Today](https://www.accountingtoday.com/list/tech-news-luca-iq-launches-with-e-file-approved-tax-engine-for-cpa-firms), Jul 2026).
+- **Future moat:** [Inferred]: Filing histories, firm-specific workflow integrations, and accumulated review corrections could create switching costs, but public customer-volume and retention data are unavailable.
+- **Market structure:** No structural barrier identified at this stage because April and Column Tax also operate IRS-authorized, API-based filing infrastructure ([April](https://www.getapril.com/), [Column Tax](https://www.columntax.com/), Aug 2026).
+- **Commoditization risk:** April and Column Tax can supply embedded filing engines, while Filed and TaxGPT can automate document, preparation, review, and research workflows around existing systems ([April](https://www.getapril.com/), [Column Tax](https://www.columntax.com/), [Filed](https://www.filed.com/), [TaxGPT](https://www.taxgpt.com/), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customer testimonial: 1,100 hours saved during one tax season, a 57% reduction in administrative preparation time, and a 30-minute average from intake to review-ready ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-  - Hundreds of accounting firms had applied for the tax-engine pilot ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-  - More than 300 firm owners were interviewed in summer 2025 ([Luca IQ About](https://lucaiq.com/about/), Jul 2026).
-  - The company completed its first tax season with customers and advertised an account-executive internship for outbound sales ([LinkedIn company page](https://www.linkedin.com/company/lucaiq), Jul 2026).
-  - 101 LinkedIn followers and five listed employees ([LinkedIn company page](https://www.linkedin.com/company/lucaiq), Jul 2026).
-  - Luca IQ participated in the 2026 HBS Demo Day and tied for the most investor votes ([HBS Demo Day](https://www.hbs.edu/entrepreneurship/mba/demo-day); [founder post](https://www.linkedin.com/posts/angelo-policicchio_this-week-akash-sadashivapeth-and-i-pitched-activity-7451770755614404608-ACSR), 2026).
+  - Customer testimonial: 1,100 hours saved in one tax season, a 57% reduction in administrative preparation time, and a 30-minute average from intake to review-ready ([Luca IQ](https://lucaiq.com/), Jul 2026 via search snippet).
+  - Hundreds of firms had applied for the 2026 pilot ([Luca IQ](https://lucaiq.com/), Jul 2026 via search snippet).
+  - The company reported completing its first tax season with customers ([LinkedIn](https://www.linkedin.com/company/lucaiq), Jul 2026).
+  - IRS Assurance Testing passed and federal 1040 e-file authorization received ([Accounting Today](https://www.accountingtoday.com/list/tech-news-luca-iq-launches-with-e-file-approved-tax-engine-for-cpa-firms), Jul 31, 2026).
+  - Coverage appeared in Accounting Today and CFO Tech News ([Accounting Today](https://www.accountingtoday.com/list/tech-news-luca-iq-launches-with-e-file-approved-tax-engine-for-cpa-firms), Jul 2026; [CFO Tech](https://cfotech.news/story/luca-iq-receives-irs-approval-for-federal-1040-e-filing), Aug 2026).
+  - 101 LinkedIn company followers ([LinkedIn](https://www.linkedin.com/company/lucaiq), Jul 2026).
+  - One remote account-executive-intern opening focused on outbound sales ([Luca IQ Careers](https://lucaiq.com/careers/), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - TaxGPT ($4.6M raised, revenue unknown): AI tax research, memo, communication, and document-collection assistant rather than an integrated deterministic filing engine ([TaxGPT](https://www.taxgpt.com/blog/taxgpt-raises-4-6m-to-build-the-first-ai-tax-co-pilot-for-accounting-and-tax-firms), Feb 2025).
-  - Canopy ($95M+ raised, revenue unknown): firm-wide practice management spanning engagements, documents, workflow, billing, and client management rather than Luca IQ’s return-computation API focus ([Canopy](https://www.getcanopy.com/blog/canopy-raises-35m-in-new-funding-round), May 2024).
-  - April ($38M Series B disclosed, revenue unknown): embedded tax-calculation and filing infrastructure for financial platforms rather than workflow software centered on CPA firms ([April](https://www.getapril.com/resources/Blog/april-has-raised-a-38-million-series-b-round-led-by-qed-2fWaPRTsDoSn94tV89XeJR)).
-  - SafeSend (funding undisclosed; acquired for $600M, revenue unknown): tax intake, workflow, e-signature, and delivery automation integrated with UltraTax, GoSystem, CCH, and Lacerte rather than replacing the underlying engine ([TechCrunch](https://techcrunch.com/2025/01/02/thomson-reuters-acquires-tax-automation-company-safesend-for-600m/), Jan 2025).
-- **Why now:** [Inferred]: The 2025 SafeSend acquisition and deployment of AI-powered document gathering by established vendors indicate that automated document intake and tax-workflow consolidation entered active vendor investment during the last 18 months ([SafeSend](https://safesend.com/about/), Jul 2026).
+  - Filed ($17.2M raised, revenue unknown): populates and reviews returns inside firms’ existing tax software rather than supplying Luca IQ’s calculation and e-file engine ([Filed](https://www.filed.com/newsroom/filed-raises-17-2m-to-power-modern-accountants), May 2025).
+  - April ($78M raised, revenue unknown): provides white-label filing and year-round planning for fintech and wealth platforms, with national e-file coverage ([Business Wire](https://www.businesswire.com/news/home/20250723253218/en/april-Raises-%2438M-Series-B-to-Embed-Tax-into-Every-Financial-Decision), Jul 2025).
+  - Column Tax ($27.2M raised, revenue unknown): supplies embedded filing to financial applications and was acquired by Aiwyn, whereas Luca IQ sells directly to CPA firms as well as developers ([CB Insights](https://www.cbinsights.com/company/column-tax/financials), [Column Tax](https://www.columntax.com/blog/column-tax-joins-aiwyn), Dec 2025).
+  - TaxGPT ($4.6M raised, revenue unknown): focuses on tax research, writing, document analysis, and agents that use incumbent systems rather than replacing the calculation engine ([TaxGPT](https://www.taxgpt.com/blog/taxgpt-raises-4-6m-to-build-the-first-ai-tax-co-pilot-for-accounting-and-tax-firms), Feb 2025).
+- **Why now:** [Inferred]: Passing IRS Assurance Testing in July 2026 removed Luca IQ’s federal 1040 e-filing gate while its workflow product had already completed a tax season with customers ([Accounting Today](https://www.accountingtoday.com/list/tech-news-luca-iq-launches-with-e-file-approved-tax-engine-for-cpa-firms), [LinkedIn](https://www.linkedin.com/company/lucaiq), Jul 2026).
 
 ## Founders & Team
 
-- **Angelo Policicchio (Co-founder and CEO):**
-  - Background: Michigan-licensed CPA with University of Michigan-Dearborn degrees in accounting and finance, a 2026 Harvard MBA, and prior experience at EY and Credit Suisse/UBS HOLT ([Luca IQ About](https://lucaiq.com/about/); [Leland profile](https://www.joinleland.com/coach/angelo-p); [LinkedIn](https://www.linkedin.com/in/angelo-policicchio)).
+- **Angelo Policicchio (Co-Founder and CEO):**
+  - Background: University of Michigan Accounting and Finance graduate, CPA, Harvard MBA, and former EY public accountant, FBI forensic accountant, and Credit Suisse equity-research associate ([Luca IQ](https://lucaiq.com/about/), [Y Combinator](https://www.ycombinator.com/companies/luca-iq), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Co-founder at Luca IQ (YC S26)” with approximately 3,000 followers ([LinkedIn](https://www.linkedin.com/in/angelo-policicchio), Jul 2026).
+  - LinkedIn: “Luca IQ (YC S26),” with 2,812 followers ([LinkedIn](https://www.linkedin.com/posts/angelo-policicchio_everyone-pays-taxes-but-behind-every-return-activity-7475791067347521536--5tj), Jul 2026).
   - GitHub: No public repos found.
-- **Akash Sadashivapeth (Co-founder and CTO):**
-  - Background: Harvard MBA, University of Pennsylvania engineering master’s degree, PES University engineering bachelor’s degree, and former Welligence Energy Analytics head of data science ([Luca IQ About](https://lucaiq.com/about/); [SignalHire](https://www.signalhire.com/profiles/akash-sadashivapeth%27s-email/151093659), Jun 2026).
+- **Akash Sadashivapeth (Co-Founder and CTO):**
+  - Background: PES University engineering graduate, University of Pennsylvania engineering master’s graduate, Harvard MBA, and former head of data science at Welligence Energy Analytics ([Y Combinator](https://www.ycombinator.com/companies/luca-iq), [SignalHire](https://www.signalhire.com/profiles/akash-sadashivapeth%27s-email/151093659), Jun 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Co-Founder at Luca IQ (YC S26)” ([LinkedIn](https://www.linkedin.com/in/akash-sadashivapeth), 2026).
-  - GitHub: @sada1993, 15 repositories, 31 starred repositories, three followers, and pinned fork d3treeR with one star ([GitHub](https://github.com/sada1993), Jul 2026).
-- **Co-founder relationship:** Both founders completed Harvard Business School MBAs in 2026 and presented Luca IQ together at HBS Demo Day ([HBS Demo Day](https://www.hbs.edu/entrepreneurship/mba/demo-day), 2026).
-- **Founder-market fit:** Angelo is a CPA who reports first-hand tax-season experience, while Akash previously led data science at Welligence and has engineering training ([Luca IQ About](https://lucaiq.com/about/); [SignalHire](https://www.signalhire.com/profiles/akash-sadashivapeth%27s-email/151093659)).
+  - LinkedIn: “Stealth Startup,” with 744 followers on the last indexed profile, while YC identifies him as Luca IQ’s founder ([LinkedIn](https://www.linkedin.com/in/akash-sadashivapeth), May 2026; [Y Combinator](https://www.ycombinator.com/companies/luca-iq), Aug 2026).
+  - GitHub: @sada1993; CatalogR has 0 stars ([GitHub](https://github.com/sada1993/catalogr), Aug 2026).
+- **Co-founder relationship:** Both founders earned Harvard MBAs in 2026 and participated together in Rock Summer Fellows and the 2026 HBS New Venture Competition ([HBS Rock Center](https://www.hbs.edu/news/releases/rock-center-demo-day-2026), Mar 2026).
+- **Founder-market fit:** Angelo’s CPA, tax-firm, EY, and forensic-accounting experience supplies tax-domain knowledge, while Akash’s data-science and engineering background covers the calculation and API system ([Y Combinator](https://www.ycombinator.com/companies/luca-iq), Aug 2026).
 
 ## Key Risks
 
-- **Core-engine readiness:** The workflow products are live, but the tax engine is described as “coming soon” and in pilot, so the current product does not yet publicly demonstrate production-scale deterministic calculation and e-filing ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-- **Calculation liability:** Luca IQ’s proposed engine converts source documents into filed tax positions, while the company requires human review of every line, indicating that reviewer verification remains part of its accuracy control ([Luca IQ website](https://lucaiq.com/), Jul 2026).
-- **Incumbent bundling:** Thomson Reuters paid $600 million for SafeSend and can combine workflow automation with existing tax engines and distribution to accounting firms ([TechCrunch](https://techcrunch.com/2025/01/02/thomson-reuters-acquires-tax-automation-company-safesend-for-600m/), Jan 2025).
-- **Migration and integration:** Luca IQ must interoperate with or replace entrenched tools including UltraTax, SafeSend, and GruntWorx; the company offers migration assistance and says firms can retain preparer workflows ([Luca IQ demo](https://lucaiq.com/demo/), Jul 2026).
-- **Name ambiguity:** A separate YC company named Luca develops retail-pricing software and belongs to Winter 2023, creating search and brand-disambiguation risk ([Y Combinator](https://www.ycombinator.com/companies/luca)).
+- **Return-coverage scope:** Public launch materials specify federal individual Form 1040 filing, while April reports authorization across all 50 states; Luca IQ’s mitigation is direct IRS e-filing plus structured JSON, PDF, and MeF XML output ([Accounting Today](https://www.accountingtoday.com/list/tech-news-luca-iq-launches-with-e-file-approved-tax-engine-for-cpa-firms), [April](https://www.getapril.com/), Aug 2026).
+- **Compliance readiness:** Luca IQ says SOC 2 Type II certification remains in process, while Filed and TaxGPT report completed SOC 2 Type II certification ([Luca IQ Developers](https://lucaiq.com/developers/), [Filed](https://www.filed.com/), [TaxGPT](https://www.taxgpt.com/), Aug 2026).
+- **Overlap from funded vendors:** April, Column Tax, Filed, and TaxGPT cover combinations of filing APIs, preparation, review, and firm workflows, creating substitution and bundling paths ([April](https://www.getapril.com/), [Column Tax](https://www.columntax.com/), [Filed](https://www.filed.com/), [TaxGPT](https://www.taxgpt.com/), Aug 2026).
+- **Conversion visibility:** The company reports hundreds of applicants and one completed customer tax season but does not disclose paid-customer count or company revenue; the disclosed mitigation is an outbound-sales role and founding-member offer ([Luca IQ](https://lucaiq.com/), [LinkedIn](https://www.linkedin.com/company/lucaiq), Jul–Aug 2026).
+- **Rule-maintenance burden:** The engine must remain synchronized with changing IRS schemas and business rules, which Luca IQ addresses through deterministic calculations, pre-filing diagnostics, and schema validation ([Luca IQ Developers](https://lucaiq.com/developers/), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $23.94B global tax-management-software market in 2025, projected at 11.3% CAGR through 2033 (Grand View Research, 2026) |
 | SAM | No public data found |
-| Traction | 1,100 customer hours saved, 57% lower administrative preparation time, 30-minute average intake-to-review time, and hundreds of pilot applications (Luca IQ website, Jul 2026) |
-| Revenue Signal | Fixed per-return pricing advertised without public dollar amounts (Luca IQ website, Jul 2026) |
-| Founders | Angelo Policicchio (CEO): CPA, Michigan accounting/finance graduate, Harvard MBA (Luca IQ About, 2026); Akash Sadashivapeth (CTO): former Welligence head of data science, Penn engineering graduate, Harvard MBA (Luca IQ About; SignalHire, 2026) |
-| Competitors | TaxGPT ($4.6M raised, revenue unknown, AI tax assistant; TaxGPT, Feb 2025); Canopy ($95M+ raised, revenue unknown, practice-management suite; Canopy, May 2024); April ($38M Series B disclosed, revenue unknown, embedded tax infrastructure; April); SafeSend (funding undisclosed, revenue unknown, incumbent-integrated workflow; TechCrunch, Jan 2025) |
-| Moat Signals | IRS-authorized e-filing, deterministic computation, document-level sourcing, REST API, webhooks, and bulk endpoints (Luca IQ website, Jul 2026) |
-| Risk Factors | Tax engine remains in pilot (Luca IQ website, Jul 2026), human review required for every return (Luca IQ website, Jul 2026), Thomson Reuters acquired SafeSend for $600M (TechCrunch, Jan 2025) |
-| Founder Reach | Angelo Policicchio: LinkedIn approximately 3K, Twitter and GitHub not found (LinkedIn, Jul 2026); Akash Sadashivapeth: GitHub three followers and 31 starred repositories, Twitter count not found (GitHub, Jul 2026) |
-| Distribution Signals | 101 LinkedIn followers, five listed employees, outbound-sales internship, and hundreds of pilot applications (LinkedIn company page; Luca IQ website, Jul 2026) |
-| Emails | No public data found |
+| Traction | Customer testimonial: 1,100 hours saved, 57% lower administrative-prep time, and 30-minute average intake-to-review-ready; hundreds of firms applied (Luca IQ website, Jul 2026 via search snippet); first customer tax season completed (LinkedIn, Jul 2026); federal 1040 e-file authorization (Accounting Today, Jul 2026) |
+| Revenue Signal | Fixed pricing based on number of returns with founding-member pricing, but no dollar rates or revenue disclosed (Luca IQ website, Jul 2026 via search snippet) |
+| Founders | Angelo Policicchio (CEO): CPA, EY/FBI/Credit Suisse, Harvard MBA; Akash Sadashivapeth (CTO): former Welligence head of data science, Penn engineering master’s, Harvard MBA (Y Combinator, Aug 2026) |
+| Competitors | Filed ($17.2M raised, revenue unknown, works inside incumbent software); April ($78M raised, revenue unknown, embedded national filing); Column Tax ($27.2M raised, revenue unknown, embedded filing and acquired by Aiwyn); TaxGPT ($4.6M raised, revenue unknown, research and workflow agents) (Filed, Business Wire, CB Insights, TaxGPT, 2025–2026) |
+| Moat Signals | IRS-authorized e-file provider, passed Assurance Testing, deterministic calculation engine, source-level audit trail (Accounting Today, Jul 2026) |
+| Risk Factors | Federal 1040 scope versus April’s national coverage, SOC 2 Type II still in process, overlapping funded vendors (Accounting Today; April; Luca IQ Developers; Aug 2026) |
+| Founder Reach | Angelo: LinkedIn 2,812, Twitter/GitHub not found (LinkedIn, Jul 2026); Akash: LinkedIn 744 and GitHub CatalogR 0 stars, Twitter not found (LinkedIn, May 2026; GitHub, Aug 2026) |
+| Distribution Signals | 101 LinkedIn followers, one outbound-sales opening, Accounting Today and CFO Tech coverage (LinkedIn, Luca IQ Careers, Accounting Today, CFO Tech, Jul–Aug 2026) |
+| Emails | founders@lucaiq.com (Y Combinator, Aug 2026) |

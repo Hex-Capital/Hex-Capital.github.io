@@ -5,65 +5,65 @@
   "metadata": {
     "website": "https://www.getprescience.com/",
     "yc_page": "https://www.ycombinator.com/companies/prescience-inc",
-    "batch": "Summer 2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/prescience-inc))",
+    "batch": "Summer 2026",
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
-    "location": "Boston, MA, USA",
+    "location": "San Francisco, CA, USA",
     "tags": "Health Insurance, Insurance",
-    "yc_partner": "Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/prescience-inc))",
-    "emails": "founders@getprescience.com, rishab@getprescience.com, privacy@getprescience.com, legal@getprescience.com, support@getprescience.com ([YC Launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system); [LinkedIn](https://www.linkedin.com/in/rishab-jain-k); [Privacy Policy](https://www.getprescience.com/privacy), Jul 2026)"
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@getprescience.com, rishab@getprescience.com, support@getprescience.com, privacy@getprescience.com, legal@getprescience.com ([YC launch](https://www.ycombinator.com/launches/Rjs-prescience-superintelligence-for-the-american-health-system), [privacy policy](https://www.getprescience.com/privacy), [Rishab Jain LinkedIn](https://www.linkedin.com/in/rishab-jain-k))"
   },
   "tags": [
     "Health Insurance",
     "Insurance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:18:08.801Z",
+  "memoGeneratedAt": "2026-08-11T06:02:21.104Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 71,
-      "tier": "Invest"
+      "score": 61,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 49,
+      "score": 47,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 60,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
+      "score": 39,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 39,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 34,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 71,
-    "EG": 49,
-    "NR": 60,
-    "PG": 71,
-    "PT": 59,
-    "SL": 68,
-    "VK": 63
+    "CB": 61,
+    "EG": 47,
+    "NR": 55,
+    "PG": 39,
+    "PT": 39,
+    "SL": 34,
+    "VK": 41
   },
-  "consolidatedAvg": 63,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 45.14,
+  "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 61,
-    "tractionScore": 54,
-    "tractionReason": "Undisclosed employers; claims 20% premium reduction"
+    "tractionRank": 135,
+    "tractionScore": 44,
+    "tractionReason": "Serving unspecified U.S. employers"
   },
   "paths": {
     "memo": "summer2026/memos/prescience-inc.md",

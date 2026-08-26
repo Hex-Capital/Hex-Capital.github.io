@@ -17,52 +17,52 @@
     "Fintech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:33:11.135Z",
+  "memoGeneratedAt": "2026-08-11T16:33:30.655Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 64,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 53,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 57,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 70,
-      "tier": "Invest"
+      "score": 48,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 50,
-      "tier": "Neutral"
+      "score": 31,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 32,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 68,
-    "NR": 67,
-    "PG": 70,
-    "PT": 50,
-    "SL": 47,
-    "VK": 42
+    "CB": 64,
+    "EG": 53,
+    "NR": 57,
+    "PG": 48,
+    "PT": 31,
+    "SL": 32,
+    "VK": 25
   },
-  "consolidatedAvg": 58.57,
-  "consolidatedRank": 38,
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 57,
-    "tractionReason": "Observed purchases; promotional $500 monthly company price"
+    "tractionRank": 115,
+    "tractionScore": 49,
+    "tractionReason": "Ten organizations displayed; major integration underway"
   },
   "paths": {
     "memo": "summer2026/memos/agentcard.md",

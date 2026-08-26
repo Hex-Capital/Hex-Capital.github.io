@@ -21,52 +21,52 @@
     "Healthcare IT"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:44:59.677Z",
+  "memoGeneratedAt": "2026-08-11T05:27:58.765Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 60,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 42,
+      "score": 40,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 31,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 19,
+      "tier": "Strong Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 42,
-    "NR": 46,
-    "PG": 59,
-    "PT": 56,
-    "SL": 47,
-    "VK": 40
+    "CB": 44,
+    "EG": 40,
+    "NR": 44,
+    "PG": 29,
+    "PT": 37,
+    "SL": 31,
+    "VK": 19
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 120,
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 206,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 16,
-    "tractionReason": "No traction beyond zero job postings"
+    "tractionRank": 211,
+    "tractionScore": 18,
+    "tractionReason": "YC participation only; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/floracene.md",

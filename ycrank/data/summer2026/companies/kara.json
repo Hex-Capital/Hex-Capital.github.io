@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://karalabs.ai/",
     "yc_page": "https://www.ycombinator.com/companies/kara",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/kara))",
     "industry": "Industrials / Industrials",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, B2B, Manufacturing, Advanced Materials",
-    "yc_partner": "Brad Flora",
-    "emails": "founders@karalabs.ai, aarin@karalabs.ai, arjun@karalabs.ai"
+    "yc_partner": "Brad Flora ([YC](https://www.ycombinator.com/companies/kara))",
+    "emails": "founders@karalabs.ai, aarin@karalabs.ai, arjun@karalabs.ai ([Kara](https://www.karalabs.ai/); [LinkedIn](https://www.linkedin.com/in/aarin-jhaveri); [LinkedIn](https://www.linkedin.com/in/arjun-lak))"
   },
   "tags": [
     "Hardware",
@@ -20,52 +20,52 @@
     "Advanced Materials"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:57:32.384Z",
+  "memoGeneratedAt": "2026-08-11T05:35:40.933Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 79,
-      "tier": "Invest"
+      "score": 62,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 46,
+      "score": 48,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 60,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 74,
-      "tier": "Invest"
+      "score": 42,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 32,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 32,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 55,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 79,
-    "EG": 46,
-    "NR": 44,
-    "PG": 74,
-    "PT": 51,
-    "SL": 47,
-    "VK": 55
+    "CB": 62,
+    "EG": 48,
+    "NR": 60,
+    "PG": 42,
+    "PT": 32,
+    "SL": 32,
+    "VK": 41
   },
-  "consolidatedAvg": 56.57,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 18,
-    "tractionReason": "YC participation and followers only"
+    "tractionRank": 214,
+    "tractionScore": 17,
+    "tractionReason": "No traction beyond 427 LinkedIn followers"
   },
   "paths": {
     "memo": "summer2026/memos/kara.md",

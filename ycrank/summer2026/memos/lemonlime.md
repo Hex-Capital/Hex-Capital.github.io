@@ -11,73 +11,74 @@
 | Team Size | 5 |
 | Location | San Francisco, CA, USA |
 | Tags | SaaS, Workflow Automation, AI |
-| YC Partner | Diana Hu |
-| Emails | hello@lemonlime.ai, founders@lemonlime.ai |
+| YC Partner | Diana Hu ([Y Combinator](https://www.ycombinator.com/companies/lemonlime), Aug 2026) |
+| Emails | hello@lemonlime.ai ([YC launch](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click), Jul 2026), founders@lemonlime.ai ([YC LinkedIn launch post](https://www.linkedin.com/posts/y-combinator_lemonlime-yc-s26-lets-teams-automate-their-activity-7480667025644638208-9Cj0), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** Small businesses without engineering capacity must assemble context scattered across files, documents and chats, which LemonLime’s founders say represented 95% of their custom-AI implementation work, while existing tools require setup and workflow design ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click)).
-- **Approach:** LemonLime connects to authorized business tools, structures the company’s knowledge for retrieval, detects recurring work patterns and lets users approve inferred or plain-language-defined agents and automations ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click); [Product Hunt, Jul 2026](https://www.producthunt.com/products/lemonlime)).
-- **Differentiation:** Make and n8n center on user-built workflows, while LemonLime says it infers workflows from connected-tool activity and suggests automations; unlike general ChatGPT or Claude sessions, it maintains company-specific context ([Product Hunt, Jul 2026](https://www.producthunt.com/products/lemonlime); [LemonLime About, Jul 2026](https://lemonlime.ai/about)).
-- **Business Model:** Starter costs $999 monthly for five seats, Team costs $2,499 monthly for ten seats, annual billing saves 17%, excess usage is pay-as-you-go, and Enterprise pricing is negotiated ([LemonLime pricing, Jul 2026](https://lemonlime.ai/pricing)).
-- **TAM/SAM:** The global business-process-automation market was $19.85 billion in 2025 and is forecast to grow at 12.37% CAGR through 2034, while no public SAM estimate was found for LemonLime’s small-business segment ([Fortune Business Insights, Jul 2026](https://www.fortunebusinessinsights.com/business-process-automation-market-116500)).
-- **GTM / Distribution:** Distribution combines a three-day self-serve trial, founder-assisted implementation, YC and Product Hunt launches, and direct outreach to small businesses ([LemonLime pricing, Jul 2026](https://lemonlime.ai/pricing); [YC launch, Jul 2026](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click); [Product Hunt, Jul 2026](https://www.producthunt.com/products/lemonlime)).
+- **Problem:** Small businesses lack the time and technical expertise to implement AI, while retrieving and organizing context scattered across files, documents, and chats represented 95% of LemonLime’s prior custom-workflow work ([Y Combinator](https://www.ycombinator.com/companies/lemonlime), Jul 2026).
+- **Approach:** LemonLime connects to business tools, indexes company content into a retrieval-oriented knowledge layer, infers recurring workflows from tool usage and documents, and surfaces agents or automations for one-click or plain-language deployment ([YC launch](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click), Jul 2026; [Product Hunt](https://www.producthunt.com/products/lemonlime), Jul 2026).
+- **Differentiation:** LemonLime proposes and creates workflows after studying business context, whereas Gumloop provides a multi-agent canvas, n8n combines a visual canvas with code, and Zapier supplies user-configured workflows, agents, and integrations ([LemonLime](https://lemonlime.ai/), [Gumloop](https://www.gumloop.com/), [n8n](https://n8n.io/), and [Zapier](https://zapier.com/), Aug 2026).
+- **Business Model:** Starter costs $999 monthly for five seats, Team costs $2,499 monthly for ten seats, Enterprise uses custom pricing, annual billing saves 17%, and additional usage is sold pay-as-you-go ([LemonLime pricing](https://lemonlime.ai/pricing), Aug 2026).
+- **TAM/SAM:** The global workflow-management-systems market is projected at $23.3 billion in 2026 and $86.6 billion in 2030, with a 33.3% CAGR, while no public SAM estimate was found for small-business AI automations ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/workflow-management-systems-market), 2026).
+- **GTM / Distribution:** LemonLime combines self-service three-day trials with founder-assisted setup for sales, marketing, and support automations, while its website targets small-business teams directly ([LemonLime pricing](https://lemonlime.ai/pricing), Aug 2026; [YC launch](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Accumulated company-specific knowledge structures and observed workflow patterns could create switching costs, but no retention, proprietary-data or migration evidence is public.
-- **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** [Inferred]: n8n, Gumloop and Relevance AI already provide overlapping tool-connected agents, orchestration and no-code workflow construction, allowing funded platforms to reproduce much of the disclosed feature set ([n8n, Oct 2025](https://blog.n8n.io/series-c/); [Gumloop, Mar 2026](https://www.gumloop.com/blog/series-b); [Relevance AI, May 2025](https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission)).
+- **Moat today:** LemonLime maintains a tenant-isolated knowledge layer built from each customer’s indexed content and connected-tool patterns, but public sources provide no evidence that this has created durable switching costs ([LemonLime security](https://lemonlime.ai/security), May 2026; [Product Hunt](https://www.producthunt.com/products/lemonlime), Jul 2026).
+- **Future moat:** [Inferred]: Accumulated workflow patterns and structured company context could improve recommendations and increase migration costs, but the company has not disclosed retention, data scale, or longitudinal accuracy.
+- **Market structure:** No structural barrier identified at this stage, as competitors can sell through the same self-service and enterprise channels and access comparable foundation models and business-tool APIs.
+- **Commoditization risk:** Gumloop already offers specialized agents and orchestration, n8n exposes more than 500 integrations and visual-plus-code workflows, and Zapier reports more than 9,000 integrations and 450,000 agents built ([Gumloop](https://www.gumloop.com/), [n8n](https://n8n.io/), and [Zapier](https://zapier.com/), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - MRR quadrupled during a seven-day period, with no base amount disclosed ([Jordan Zietz LinkedIn, Jul 2026](https://www.linkedin.com/in/jordan-zietz)).
-  - Product Hunt launch ranked #6 and had 206 followers, a 4.0 rating and two reviews ([Product Hunt, Jul 2026](https://www.producthunt.com/products/lemonlime)).
-  - Company LinkedIn page had 280 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/lemonlime-ai)).
-  - One AI Engineer role was advertised on the company website, although the YC profile showed zero YC-hosted jobs ([LemonLime Careers, Jul 2026](https://lemonlime.ai/careers); [YC profile, Jul 2026](https://www.ycombinator.com/companies/lemonlime)).
+  - Founder-reported MRR quadrupled over seven days, with no absolute MRR disclosed ([Jordan Zietz LinkedIn](https://www.linkedin.com/in/jordan-zietz), Aug 2026).
+  - Product Hunt daily rank #6, 182 points, 206 followers, and a 4.0/5 rating from two reviews ([Product Hunt](https://www.producthunt.com/products/lemonlime), Jul 2026).
+  - 644 LinkedIn company followers and four publicly listed employees ([LinkedIn](https://www.linkedin.com/company/lemonlime-ai), Aug 2026).
+  - One full-time San Francisco AI Engineer role listed on the company website ([LemonLime careers](https://lemonlime.ai/careers), Aug 2026).
+  - Seven people accepted on-the-spot interviews after receiving tattoos at a company recruiting event; Jordan Zietz later apologized and offered to fund removals ([NewsBytes](https://www.newsbytesapp.com/news/business/ai-startup-lemonlime-offered-tattoos-for-interviews-in-san-francisco/tldr), Jul 31, 2026).
 - **Competitors (minimum 3, up to 5):**
-  - n8n ($240M raised, revenue unknown): combines AI, code and rule-based orchestration with user-controlled deployment, versus LemonLime’s emphasis on inferred automations ([n8n Series C, Oct 2025](https://blog.n8n.io/series-c/)).
-  - Gumloop ($70M in announced funding, revenue unknown): employees build and orchestrate agents themselves, whereas LemonLime also surfaces suggested automations from observed workflows ([Gumloop Series A, Jan 2025](https://www.gumloop.com/blog/gumloops-17m-series-a); [Gumloop Series B, Mar 2026](https://www.gumloop.com/blog/series-b)).
-  - Relevance AI ($37M raised, revenue unknown): provides a visual multi-agent builder and deployment services, versus LemonLime’s single-prompt and inferred-workflow positioning ([TechCrunch, May 2025](https://techcrunch.com/2025/05/06/relevance-ai-raises-24m-series-b-to-help-anyone-build-teams-of-ai-agents/)).
-- **Why now:** [Inferred]: Gumloop attributed its March 2026 financing and product expansion to rapid LLM improvement over the preceding six months, stating that models had reached the capability needed to connect agent UX, authentication, observability and security ([Gumloop, Mar 2026](https://www.gumloop.com/blog/series-b)).
+  - Gumloop ($70M raised, revenue unknown): provides a user-built multi-agent canvas rather than LemonLime’s context-derived workflow suggestions; its latest round was a $50M Series B led by Benchmark in March 2026 ([Gumloop Series A](https://www.gumloop.com/blog/gumloops-17m-series-a); [Series B](https://www.gumloop.com/blog/series-b)).
+  - n8n ($240M raised, revenue unknown): targets technical teams with visual, coded, and self-hosted workflows; its latest round was a $180M Series C led by Accel in October 2025 ([n8n](https://blog.n8n.io/series-c/)).
+  - Zapier ($1.3M raised, revenue unknown): offers more than 9,000 integrations, governed workflows, and agents, versus LemonLime’s business-learning layer and automatic suggestions ([Zapier press kit](https://zapier.com/press); [Zapier product](https://zapier.com/)).
+- **Why now:** [Inferred]: Foundation-model capability improved sufficiently during the six months preceding March 2026 to accelerate natural-language automation roadmaps, according to Gumloop’s Series B announcement ([Gumloop](https://www.gumloop.com/blog/series-b), Mar 2026).
 
 ## Founders & Team
 
-- **Daniela Muñoz (Co-Founder & CTO):**
-  - Background: Carnegie Mellon computer-science graduate with CS and HCI degrees, former Google and Microsoft software-engineering intern, and former Confetti co-founder and CTO working on the Mosh AI social product ([YC profile, Jul 2026](https://www.ycombinator.com/companies/lemonlime); [Carnegie Mellon, Jul 2025](https://ideate.cmu.edu/news-and-announcements/2025/july/alumni-spotlight-daniela.html)).
-  - Twitter/X: @dani__munoz; count not retrievable ([Returner.fund, Jul 2026](https://www.returner.fund/founders/daniela-munoz)).
-  - LinkedIn: “LemonLime”; 1K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/danielamunoz12)).
-  - GitHub: No public repos found.
 - **Jordan Zietz (Co-Founder & CEO):**
-  - Background: Stanford Management Science and Engineering graduate, former Confetti co-founder, consumer-app operator and Mastercard associate-consultant intern ([Stanford commencement, 2024](https://commencement.stanford.edu/sites/g/files/sbiybj17666/files/media/file/commencement2024bulletin.pdf); [Stealth Startup Spy, Jul 2026](https://stealthstartupspy.substack.com/p/stealth-startup-spy-356)).
-  - Twitter/X: @treejordan; count not retrievable ([Returner.fund, Jul 2026](https://www.returner.fund/founders/jordan-zietz)).
-  - LinkedIn: “LemonLime”; 2K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/jordan-zietz)).
+  - Background: Stanford’s 2024 Management Science and Engineering graduate, former Confetti co-founder and consumer-app operator, and former Mastercard associate consultant intern ([Stanford commencement](https://commencement.stanford.edu/sites/g/files/sbiybj17666/files/media/file/commencement2024bulletin.pdf), Jun 2024; [Stealth Startup Spy](https://stealthstartupspy.substack.com/p/stealth-startup-spy-356), Jul 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “LemonLime,” with 2K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/jordan-zietz), Aug 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Muñoz and Zietz previously co-founded Confetti, and Muñoz described Zietz as her best friend of at least six years ([Daniela Muñoz LinkedIn, Jul 2026](https://www.linkedin.com/in/danielamunoz12); [Returner.fund, Jul 2026](https://www.returner.fund/founders/daniela-munoz)).
-- **Founder-market fit:** [Inferred]: Muñoz’s software and AI-product work, Zietz’s consumer distribution experience and their joint custom-AI consulting provide documented exposure to product engineering, distribution and the context-assembly problem LemonLime addresses ([YC profile and launch, Jul 2026](https://www.ycombinator.com/companies/lemonlime)).
+- **Daniela Muñoz (Co-Founder & CTO):**
+  - Background: Carnegie Mellon’s 2024 dual BS graduate in computer science and human-computer interaction, former Google and Microsoft software-engineering intern, and former Confetti co-founder and CTO ([Y Combinator](https://www.ycombinator.com/companies/lemonlime), Aug 2026; [Carnegie Mellon](https://ideate.cmu.edu/news-and-announcements/2025/july/alumni-spotlight-daniela.html), Jul 2025).
+  - Twitter/X: @dani__munoz; count not retrievable ([Returner](https://www.returner.fund/founders/daniela-munoz), Aug 2026).
+  - LinkedIn: “LemonLime,” with 1K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/danielamunoz12), Aug 2026).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Muñoz and Zietz co-founded Confetti in 2022 and Muñoz described Zietz as her best friend of six years in July 2026 ([LinkedIn](https://www.linkedin.com/posts/danielamunoz12_the-past-six-months-have-been-an-incredible-activity-7251675993369714688-PR-0), 2024; [Returner](https://www.returner.fund/founders/daniela-munoz), Jul 2026).
+- **Founder-market fit:** [Inferred]: Muñoz contributes software, AI-product, and HCI experience, while Zietz contributes consumer-product distribution experience, and both previously delivered custom AI implementations before productizing LemonLime ([Y Combinator](https://www.ycombinator.com/companies/lemonlime), Jul 2026).
 
 ## Key Risks
 
-- **Automation reliability:** LemonLime’s terms state that AI output may be inaccurate, incomplete or outdated, while the founder says connector failures can delay live updates and that stale content is flagged when retrieved ([LemonLime Terms, Jul 2026](https://lemonlime.ai/terms); [Product Hunt, Jul 2026](https://www.producthunt.com/products/lemonlime)).
-- **Third-party data handling:** Customer data may pass through Anthropic, OpenAI, Google, Meta, xAI, Perplexity or Microsoft under each provider’s terms; LemonLime says it generally enables no-training settings when available and permits customers to restrict providers ([Privacy Policy, May 2026](https://lemonlime.ai/privacy)).
-- **Competitive overlap:** n8n, Gumloop and Relevance AI have raised $240 million, approximately $70 million and $37 million respectively to develop overlapping agent and workflow platforms ([n8n, Oct 2025](https://blog.n8n.io/series-c/); [Gumloop, Mar 2026](https://www.gumloop.com/blog/series-b); [TechCrunch, May 2025](https://techcrunch.com/2025/05/06/relevance-ai-raises-24m-series-b-to-help-anyone-build-teams-of-ai-agents/)).
-- **Small-business price fit:** LemonLime targets small businesses lacking AI budgets while charging $999 monthly for Starter and $2,499 monthly for Team, with a three-day trial as the disclosed entry mechanism ([LemonLime pricing, Jul 2026](https://lemonlime.ai/pricing); [LinkedIn company page, Jul 2026](https://www.linkedin.com/company/lemonlime-ai)).
-- **Talent-pool constraint:** Zietz states that the team works in-office seven days weekly and that more than a dozen applicants withdrew over evening or weekend requirements, while the company is recruiting an AI Engineer ([Jordan Zietz LinkedIn, Jul 2026](https://www.linkedin.com/in/jordan-zietz); [LemonLime Careers, Jul 2026](https://lemonlime.ai/careers)).
+- **Connector and data freshness:** Third-party API changes can temporarily leave functionality not fully live or make cached knowledge stale; LemonLime says failures are isolated by connection and stale content is flagged ([Product Hunt](https://www.producthunt.com/products/lemonlime), Jul 2026).
+- **Autonomous-action errors:** Agents can send emails, modify calendar events, post messages, upload files, and update records, while LemonLime acknowledges that AI output may be inaccurate; actions are audit-logged and higher-impact operations can require human review ([LemonLime security](https://lemonlime.ai/security), May 2026; [privacy policy](https://lemonlime.ai/privacy), May 2026).
+- **Data and compliance exposure:** Customer content may be processed by multiple model and infrastructure providers, and LemonLime’s SOC 2 examination was still in progress as of May 2026; stated mitigations include encryption, tenant isolation, least-privilege scopes, and Oneleet penetration testing ([LemonLime security](https://lemonlime.ai/security), May 2026).
+- **Document coverage:** LemonLime did not parse text embedded in scanned PDFs or images at its July 2026 launch, although the founder stated both capabilities were being developed ([Product Hunt](https://www.producthunt.com/products/lemonlime), Jul 2026).
+- **Reputational and recruiting conduct:** The tattoo-for-interview event generated public criticism; Zietz apologized, clarified that interviews were available without tattoos, and offered removal reimbursement ([NewsBytes](https://www.newsbytesapp.com/news/business/ai-startup-lemonlime-offered-tattoos-for-interviews-in-san-francisco/tldr), Jul 31, 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $19.85B global business-process-automation market in 2025; 12.37% forecast CAGR through 2034 ([Fortune Business Insights, Jul 2026](https://www.fortunebusinessinsights.com/business-process-automation-market-116500)) |
+| TAM | $23.3B global workflow-management-systems market in 2026, projected to $86.6B by 2030 at 33.3% CAGR (Grand View Research, 2026) |
 | SAM | No public data found |
-| Traction | MRR quadrupled in seven days; Product Hunt #6 with 206 followers and two reviews; LinkedIn 280 followers; one website job opening ([LinkedIn, Jul 2026](https://www.linkedin.com/in/jordan-zietz); [Product Hunt, Jul 2026](https://www.producthunt.com/products/lemonlime); [Careers, Jul 2026](https://lemonlime.ai/careers)) |
-| Revenue Signal | $999/month Starter, $2,499/month Team, custom Enterprise pricing and metered excess usage ([Pricing page, Jul 2026](https://lemonlime.ai/pricing)) |
-| Founders | Daniela Muñoz (CTO): CMU CS/HCI, Google and Microsoft internships, former Confetti CTO; Jordan Zietz (CEO): Stanford MS&E, former Confetti founder and consumer-app operator ([YC profile, Jul 2026](https://www.ycombinator.com/companies/lemonlime)) |
-| Competitors | n8n ($240M raised, revenue unknown, configurable orchestration); Gumloop ($70M announced, revenue unknown, employee-built agents); Relevance AI ($37M raised, revenue unknown, visual multi-agent builder) ([n8n, Oct 2025](https://blog.n8n.io/series-c/); [Gumloop, Mar 2026](https://www.gumloop.com/blog/series-b); [TechCrunch, May 2025](https://techcrunch.com/2025/05/06/relevance-ai-raises-24m-series-b-to-help-anyone-build-teams-of-ai-agents/)) |
-| Moat Signals | No public data found |
-| Risk Factors | AI-output and data-freshness errors, third-party model data handling, funded competitor overlap ([Terms, Jul 2026](https://lemonlime.ai/terms); [Privacy Policy, May 2026](https://lemonlime.ai/privacy)) |
-| Founder Reach | Daniela Muñoz: LinkedIn 1K; Jordan Zietz: LinkedIn 2K; X and GitHub counts unavailable ([LinkedIn, Jul 2026](https://www.linkedin.com/in/danielamunoz12); [LinkedIn, Jul 2026](https://www.linkedin.com/in/jordan-zietz)) |
-| Distribution Signals | Product Hunt #6 with 206 followers; company LinkedIn 280 followers; YC launch ([Product Hunt, Jul 2026](https://www.producthunt.com/products/lemonlime); [LinkedIn, Jul 2026](https://www.linkedin.com/company/lemonlime-ai); [YC launch, Jul 2026](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click)) |
-| Emails | hello@lemonlime.ai, founders@lemonlime.ai ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RHJ-lemonlime-automate-your-workflows-with-a-single-click); [LinkedIn, Jul 2026](https://www.linkedin.com/company/lemonlime-ai)) |
+| Traction | MRR quadrupled over seven days with absolute MRR undisclosed (Jordan Zietz LinkedIn, Aug 2026); Product Hunt #6 with 182 points and two reviews (Product Hunt, Jul 2026); 644 LinkedIn followers (LinkedIn, Aug 2026) |
+| Revenue Signal | $999/month Starter, $2,499/month Team, custom Enterprise pricing, and pay-as-you-go excess usage (LemonLime pricing, Aug 2026); founder-reported 4× MRR growth over seven days with no absolute figure disclosed (LinkedIn, Aug 2026) |
+| Founders | Jordan Zietz (CEO): Stanford MS&E graduate and former Confetti co-founder; Daniela Muñoz (CTO): CMU CS/HCI graduate, former Google and Microsoft intern, and former Confetti CTO (YC, Aug 2026; Stanford, Jun 2024; CMU, Jul 2025) |
+| Competitors | Gumloop ($70M raised, revenue unknown, user-built multi-agent canvas); n8n ($240M raised, revenue unknown, visual/code/self-hosted workflows); Zapier ($1.3M raised, revenue unknown, 9,000+ integrations and governed automation) (company announcements and product pages, Aug 2026) |
+| Moat Signals | Tenant-isolated company knowledge layer, encrypted indexed content, connected-tool pattern learning, and per-customer recommendations (LemonLime security, May 2026; Product Hunt, Jul 2026) |
+| Risk Factors | Connector drift and stale context (Product Hunt, Jul 2026), third-party model and compliance exposure (LemonLime privacy and security pages, May 2026), recruiting-event backlash (NewsBytes, Jul 2026) |
+| Founder Reach | Jordan Zietz: LinkedIn 2K; Daniela Muñoz: LinkedIn 1K (LinkedIn profiles, Aug 2026); Twitter/X and GitHub counts: No public data found |
+| Distribution Signals | Product Hunt #6 with 182 points and 206 followers (Product Hunt, Jul 2026); 644 LinkedIn company followers (LinkedIn, Aug 2026); one AI Engineer opening (LemonLime careers, Aug 2026) |
+| Emails | hello@lemonlime.ai (YC launch, Jul 2026); founders@lemonlime.ai (YC LinkedIn launch post, Jul 2026) |

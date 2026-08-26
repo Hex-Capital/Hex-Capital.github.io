@@ -1,0 +1,82 @@
+{
+  "slug": "audun",
+  "name": "Audun",
+  "oneLiner": "AI-native debt collection",
+  "metadata": {
+    "website": "https://www.getaudun.com/",
+    "yc_page": "https://www.ycombinator.com/companies/audun",
+    "batch": "Summer 2026 ([founder announcement, Jul 2026](https://www.linkedin.com/posts/jacob-hambro-70a9b1153_y-combinator-is-backing-us-to-disrupt-the-activity-7480861604901806080-ySQq))",
+    "industry": "Fintech / Fintech",
+    "team_size": "4",
+    "location": "Oslo, Oslo, Norway",
+    "tags": "Artificial Intelligence, Fintech, Finance, AI",
+    "yc_partner": "Not listed",
+    "emails": "jacob.hambro@gmail.com ([Brønnøysund-derived company record, Jun 2026](https://firmadatabasen.no/selskap/audun-collection-as/937848293))"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Finance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:24:07.787Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 17,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 33,
+    "NR": 25,
+    "PG": 32,
+    "PT": 25,
+    "SL": 29,
+    "VK": 17
+  },
+  "consolidatedAvg": 27.43,
+  "consolidatedRank": 230,
+  "traction": {
+    "tractionRank": 206,
+    "tractionScore": 21,
+    "tractionReason": "Creditor walkthrough live; debtor portal forthcoming"
+  },
+  "paths": {
+    "memo": "summer2026/memos/audun.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/audun.md",
+      "elad-gil": "summer2026/evals/elad-gil/audun.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/audun.md",
+      "paul-graham": "summer2026/evals/paul-graham/audun.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/audun.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/audun.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/audun.md"
+    }
+  }
+}

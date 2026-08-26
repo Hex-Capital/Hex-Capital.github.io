@@ -5,66 +5,66 @@
   "metadata": {
     "website": "https://context.dev",
     "yc_page": "https://www.ycombinator.com/companies/contextdev",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/contextdev), Aug 2026)",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, APIs",
-    "yc_partner": "Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/contextdev), Jul 2026)",
-    "emails": "hello@context.dev, yahia@context.dev, bakour@hey.com ([Context.dev](https://www.context.dev/), Jul 2026; [Yahia Bakour LinkedIn post](https://www.linkedin.com/posts/yahia-bakour_my-post-on-x-is-blowing-up-300-dms-already-activity-7470179594147348480-zy2-), Jul 2026; [founder website](https://yahiabakour.com/), Jul 2026)"
+    "tags": "B2B, AI, APIs",
+    "yc_partner": "Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/contextdev), Aug 2026)",
+    "emails": "hello@context.dev ([company pricing page](https://www.context.dev/pricing), Aug 2026), yahia@context.dev ([Y Combinator launch](https://www.ycombinator.com/companies/contextdev), Aug 2026)"
   },
   "tags": [
-    "Artificial Intelligence",
     "B2B",
+    "AI",
     "APIs"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:42:48.875Z",
+  "memoGeneratedAt": "2026-08-11T05:19:57.291Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
+      "score": 59,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 55,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 56,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
+      "score": 56,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 36,
+      "score": 30,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 48,
+      "score": 46,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 31,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 67,
-    "NR": 69,
-    "PG": 71,
-    "PT": 36,
-    "SL": 48,
-    "VK": 34
+    "CB": 59,
+    "EG": 55,
+    "NR": 56,
+    "PG": 56,
+    "PT": 30,
+    "SL": 46,
+    "VK": 31
   },
-  "consolidatedAvg": 54.43,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 47.57,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 84,
-    "tractionReason": "280+ companies and 5,000 developers on priced platform"
+    "tractionRank": 14,
+    "tractionScore": 81,
+    "tractionReason": "400 customers, 5K developers, 11K weekly downloads"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

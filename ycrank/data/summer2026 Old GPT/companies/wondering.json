@@ -1,0 +1,83 @@
+{
+  "slug": "wondering",
+  "name": "Wondering",
+  "oneLiner": "Duolingo for learning anything, but 10x better",
+  "metadata": {
+    "website": "https://wondering.app",
+    "yc_page": "https://www.ycombinator.com/companies/wondering",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI-Enhanced Learning, Education, Consumer, AI, AI Assistant",
+    "yc_partner": "Diana Hu ([Y Combinator](https://www.ycombinator.com/companies/wondering), Jul 2026)",
+    "emails": "hi@wondering.app ([Wondering Privacy Policy](https://wondering.app/privacy), Apr 2026)"
+  },
+  "tags": [
+    "AI-Enhanced Learning",
+    "Education",
+    "Consumer",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:28:28.853Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 54,
+    "NR": 68,
+    "PG": 61,
+    "PT": 35,
+    "SL": 48,
+    "VK": 33
+  },
+  "consolidatedAvg": 49.71,
+  "consolidatedRank": 121,
+  "traction": {
+    "tractionRank": 27,
+    "tractionScore": 70,
+    "tractionReason": "130K community lessons and 27 iOS ratings"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/wondering.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/wondering.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/wondering.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/wondering.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/wondering.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/wondering.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/wondering.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/wondering.md"
+    }
+  }
+}

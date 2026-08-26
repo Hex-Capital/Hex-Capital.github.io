@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, Construction, Workflow Automation",
     "yc_partner": "Gustaf Alstromer",
-    "emails": "founders@flowmanual.com, david@flowmanual.com, michael@flowmanual.com, legal@flowmanual.com"
+    "emails": "founders@flowmanual.com, david@flowmanual.com, michael@flowmanual.com, legal@flowmanual.com, security@flowmanual.com"
   },
   "tags": [
     "SaaS",
@@ -19,52 +19,52 @@
     "Workflow Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:39:46.715Z",
+  "memoGeneratedAt": "2026-08-11T05:11:25.054Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 42,
+      "score": 34,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
+      "score": 35,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
+    "naval-ravikant": {
       "score": 33,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 43,
+      "score": 27,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
+      "score": 17,
+      "tier": "Strong Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 56,
-    "NR": 43,
-    "PG": 54,
-    "PT": 33,
-    "SL": 43,
-    "VK": 36
+    "CB": 34,
+    "EG": 35,
+    "NR": 33,
+    "PG": 40,
+    "PT": 30,
+    "SL": 27,
+    "VK": 17
   },
-  "consolidatedAvg": 43.86,
-  "consolidatedRank": 153,
+  "consolidatedAvg": 30.86,
+  "consolidatedRank": 221,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 26,
-    "tractionReason": "Hundreds of interviews; free plan, no customers"
+    "tractionRank": 194,
+    "tractionScore": 27,
+    "tractionReason": "Hundreds interviewed; no paying customers"
   },
   "paths": {
     "memo": "summer2026/memos/flowmanual.md",

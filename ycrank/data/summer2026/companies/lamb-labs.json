@@ -9,64 +9,64 @@
     "industry": "B2B / B2B",
     "team_size": "0",
     "location": "London, England, United Kingdom",
-    "tags": "Artificial Intelligence, Hardware, B2B, Electronics, AI",
+    "tags": "Artificial Intelligence, Hardware, B2B, Semiconductors, AI",
     "yc_partner": "Tyler Bosmeny",
-    "emails": "No public data found"
+    "emails": "contact@lamb-labs.com"
   },
   "tags": [
     "Artificial Intelligence",
     "Hardware",
     "B2B",
-    "Electronics",
+    "Semiconductors",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:31:18.397Z",
+  "memoGeneratedAt": "2026-08-11T04:45:43.531Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
       "score": 48,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 50,
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 58,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 33,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 27,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 70,
-      "tier": "Invest"
+      "score": 43,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 43,
-    "NR": 48,
-    "PG": 50,
-    "PT": 47,
-    "SL": 34,
-    "VK": 70
+    "CB": 48,
+    "EG": 44,
+    "NR": 58,
+    "PG": 40,
+    "PT": 33,
+    "SL": 27,
+    "VK": 43
   },
-  "consolidatedAvg": 49.29,
-  "consolidatedRank": 126,
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 17,
-    "tractionReason": "Stealth launch only; no customers or product usage"
+    "tractionRank": 215,
+    "tractionScore": 16,
+    "tractionReason": "Hardware benchmark; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/lamb-labs.md",

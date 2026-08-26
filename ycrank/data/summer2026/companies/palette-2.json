@@ -1,17 +1,17 @@
 {
   "slug": "palette-2",
   "name": "Palette",
-  "oneLiner": "An interactive AI video generation and editing platform",
+  "oneLiner": "An AI-Native Media Platform",
   "metadata": {
-    "website": "https://palettetechnology.com/",
+    "website": "https://palettelabs.com/",
     "yc_page": "https://www.ycombinator.com/companies/palette-2",
     "batch": "Summer 2026",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, Video, AI",
-    "yc_partner": "Ankit Gupta",
-    "emails": "founders@palettetechnology.com"
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/palette-2), Aug 2026)",
+    "emails": "founders@palettetechnology.com ([Palette security page](https://palettelabs.com/security), Aug 2026)"
   },
   "tags": [
     "Generative AI",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:09:15.978Z",
+  "memoGeneratedAt": "2026-08-11T05:48:58.982Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 41,
+      "score": 30,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "paul-graham": {
       "score": 41,
       "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 29,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 52,
-    "NR": 63,
+    "CB": 30,
+    "EG": 44,
+    "NR": 42,
     "PG": 41,
-    "PT": 30,
-    "SL": 29,
-    "VK": 38
+    "PT": 34,
+    "SL": 30,
+    "VK": 25
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 160,
+  "consolidatedAvg": 35.14,
+  "consolidatedRank": 204,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 28,
-    "tractionReason": "Paid access available; no usage disclosed"
+    "tractionRank": 188,
+    "tractionScore": 29,
+    "tractionReason": "Public studio and API; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/palette-2.md",

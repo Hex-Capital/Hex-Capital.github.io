@@ -1,0 +1,81 @@
+{
+  "slug": "mentlio",
+  "name": "Mentlio",
+  "oneLiner": "Engineering Intelligence and Token Optimization for the AI-Coding Era",
+  "metadata": {
+    "website": "https://mentlio.com",
+    "yc_page": "https://www.ycombinator.com/companies/mentlio",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Machine Learning, Productivity",
+    "yc_partner": "Pete Koomen",
+    "emails": "founders@mentlio.com"
+  },
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Productivity"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:22:16.172Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 53,
+    "NR": 43,
+    "PG": 39,
+    "PT": 44,
+    "SL": 27,
+    "VK": 30
+  },
+  "consolidatedAvg": 40.29,
+  "consolidatedRank": 161,
+  "traction": {
+    "tractionRank": 170,
+    "tractionScore": 34,
+    "tractionReason": "Cost benchmark and launch engagement"
+  },
+  "paths": {
+    "memo": "summer2026/memos/mentlio.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/mentlio.md",
+      "elad-gil": "summer2026/evals/elad-gil/mentlio.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/mentlio.md",
+      "paul-graham": "summer2026/evals/paul-graham/mentlio.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/mentlio.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/mentlio.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/mentlio.md"
+    }
+  }
+}

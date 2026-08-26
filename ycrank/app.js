@@ -944,8 +944,8 @@ function app() {
     // Canonical tier detection from a numeric average
     avgTierCategory(avg) {
       if (avg == null) return null;
-      if (avg >= 70) return 'strong-invest';
-      if (avg >= 55) return 'invest';
+      if (avg >= 85) return 'strong-invest';
+      if (avg >= 65) return 'invest';
       if (avg >= 40) return 'neutral';
       if (avg >= 25) return 'pass';
       return 'strong-pass';

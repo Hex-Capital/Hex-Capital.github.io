@@ -1,0 +1,83 @@
+{
+  "slug": "prodigy-research",
+  "name": "Prodigy Research",
+  "oneLiner": "Training the world's best foundation model for quantitative finance.",
+  "metadata": {
+    "website": "https://prodigy.markets",
+    "yc_page": "https://www.ycombinator.com/companies/prodigy-research",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Finance, Investing, Trading, AI",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Finance",
+    "Investing",
+    "Trading",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:19:51.781Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 43,
+    "NR": 39,
+    "PG": 44,
+    "PT": 43,
+    "SL": 36,
+    "VK": 30
+  },
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 165,
+  "traction": {
+    "tractionRank": 156,
+    "tractionScore": 38,
+    "tractionReason": "Real-capital return reported; AUM and revenue undisclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/prodigy-research.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/prodigy-research.md",
+      "elad-gil": "summer2026/evals/elad-gil/prodigy-research.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/prodigy-research.md",
+      "paul-graham": "summer2026/evals/paul-graham/prodigy-research.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/prodigy-research.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/prodigy-research.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/prodigy-research.md"
+    }
+  }
+}

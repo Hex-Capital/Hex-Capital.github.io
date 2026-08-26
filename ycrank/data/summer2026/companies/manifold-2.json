@@ -11,7 +11,7 @@
     "location": "Los Angeles, CA, USA",
     "tags": "Hardware, Warehouse Management Tech, Robotics, Logistics, Supply Chain",
     "yc_partner": "Jon Xu",
-    "emails": "nick@manifoldindustries.ai"
+    "emails": "nick@manifoldindustries.ai ([company website, Aug 2026](https://www.manifoldindustries.ai/))"
   },
   "tags": [
     "Hardware",
@@ -21,10 +21,10 @@
     "Supply Chain"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:41:33.632Z",
+  "memoGeneratedAt": "2026-08-11T05:16:31.369Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 73,
+      "score": 70,
       "tier": "Invest"
     },
     "elad-gil": {
@@ -32,41 +32,41 @@
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 65,
+      "tier": "Invest"
     },
     "paul-graham": {
-      "score": 80,
+      "score": 65,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 73,
+    "CB": 70,
     "EG": 51,
-    "NR": 49,
-    "PG": 80,
-    "PT": 51,
-    "SL": 54,
-    "VK": 63
+    "NR": 65,
+    "PG": 65,
+    "PT": 42,
+    "SL": 37,
+    "VK": 41
   },
-  "consolidatedAvg": 60.14,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 53,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 85,
-    "tractionScore": 46,
-    "tractionReason": "One warehouse robot deployment at 150 picks hourly"
+    "tractionRank": 137,
+    "tractionScore": 43,
+    "tractionReason": "One warehouse robot completing 150 picks hourly"
   },
   "paths": {
     "memo": "summer2026/memos/manifold-2.md",

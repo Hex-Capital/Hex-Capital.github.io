@@ -11,63 +11,64 @@
 | Team Size | 8 |
 | Location | San Francisco, CA, USA |
 | Tags | Hard Tech, Robotics, Construction, Aerospace |
-| YC Partner | Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)) |
-| Emails | james@cosmicrobotics.com ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)) |
+| YC Partner | Ankit Gupta |
+| Emails | james@cosmicrobotics.com, lewis@cosmicrobotics.com |
 
 ## The Idea
 
-- **Problem:** Utility-scale solar contractors must repeatedly lift panels weighing up to 90 pounds in remote environments while the U.S. solar-installer workforce is projected to grow 48% through 2033, with manual crews remaining the current alternative ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
-- **Approach:** Cosmic-1 uses an eight-wheel electric platform, panel trailer, camera-equipped robotic arm, suction gripper, and high-accuracy GPS to lift and position panels within millimeters while workers supervise and fasten them ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
-- **Differentiation:** Cosmic-1 manipulates and places individual panels alongside crews, while Charge Robotics uses portable assembly factories and Terabase’s Terafab integrates robotic assembly with solar-design and construction-management software ([pv magazine, Mar 2025](https://pv-magazine-usa.com/2025/03/17/mit-based-startup-launches-solar-construction-robotics-system/); [Terabase, Mar 2026](https://www.terabase.energy/resources/terabase-energys-next-generation-terafab-completes-field-testing-ready-for-deployment)).
-- **Business Model:** [Inferred]: The company likely charges solar EPCs through equipment sales, leasing, or deployment services, but no public pricing or contract structure was found.
+- **Problem:** Utility-scale solar EPC crews manually lift panels weighing up to 90 pounds in remote, extreme-temperature locations, while the U.S. solar-installer workforce is projected to require 48% growth by 2033 ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
+- **Approach:** Cosmic-1A uses an eight-wheel electric platform, robotic arm, suction end effector, cameras, high-accuracy GPS, and worker oversight to transport and position panels within millimeters before crews fasten them ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
+- **Differentiation:** Cosmic manipulates individual panels with a mobile heavy-lift platform, while Charge Robotics assembles 40-foot solar bays and Terabase uses an automated field-factory covering broader plant construction workflows ([Charge Robotics](https://chargerobotics.com/); [Terabase Energy](https://www.terabase.energy/)).
+- **Business Model:** [Inferred]: The “Request a Quote” workflow and focus on EPC deployments indicate negotiated equipment, project-service, or robot-as-a-service contracts rather than published unit pricing ([company website](https://www.cosmicrobotics.com/)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** The company deploys with utility-scale solar contractors, is pursuing hyperscaler and neocloud construction introductions, and plans to extend the same platform into data-center construction ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
+- **GTM / Distribution:** The company targets utility-scale EPCs directly, has requested introductions to hyperscaler and neocloud construction teams, and offers quote-based sales through its website ([YC launch, 2026](https://www.ycombinator.com/companies/cosmic-robotics); [company website](https://www.cosmicrobotics.com/)).
 
 ## Defensibility
 
-- **Moat today:** Cosmic reports tens of thousands of installation cycles whose deployment data train its systems, plus a NASA lunar-construction contract ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
-- **Future moat:** [Inferred]: More field deployments could create task-specific perception, manipulation, reliability, and jobsite-integration data, but public sources do not establish that this dataset is exclusive or difficult to reproduce.
+- **Moat today:** Cosmic reports tens of thousands of field cycles whose deployment data trains its Particle physical-AI system across mud, sand, rutted terrain, and weather variation ([YC, 2026](https://www.ycombinator.com/companies/cosmic-robotics); [company LinkedIn, 2026](https://www.linkedin.com/posts/jamesemerick_weve-been-building-toward-this-from-day-activity-7366150690022301697-IWyi)).
+- **Future moat:** [Inferred]: A larger operating fleet could create task- and environment-specific manipulation data that improves autonomy, although no dataset size, model benchmark, or exclusive-data arrangement is public.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Charge Robotics, Terabase Energy, and Gritt are separately building robotic solar-installation systems, demonstrating that funded engineering teams can pursue overlapping workflows ([pv magazine, Mar 2025](https://pv-magazine-usa.com/2025/03/17/mit-based-startup-launches-solar-construction-robotics-system/); [Terabase, Mar 2026](https://www.terabase.energy/resources/terabase-energys-next-generation-terafab-completes-field-testing-ready-for-deployment); [TechCrunch, Jul 2026](https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/)).
+- **Commoditization risk:** Gritt performs the same panel-positioning task using rented construction equipment, off-the-shelf arms, and limited custom hardware, demonstrating an alternative implementation path ([TechCrunch, Jul 2026](https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Tens of thousands of solar-panel installations across some of the largest U.S. solar projects, with reported labor productivity more than doubled ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
-  - One panel installed every 30–40 seconds during 2025 testing ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
-  - $4 million pre-seed round led by Giant Ventures with HCVC, MaC Ventures, and angel participation ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
-  - NASA lunar-construction robotics contract ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
-  - 7,651 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/cosmic-robotics)).
-  - Robotics Software Engineer job listing ([LinkedIn, May 2026](https://www.linkedin.com/jobs/view/robotics-software-engineer-at-cosmic-robotics-4324532115)).
-  - TechCrunch company profile and product coverage ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
+  - Tens of thousands of solar panels installed with more than double traditional-crew labor productivity ([YC, 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
+  - One panel placed every 30–40 seconds during 2025 field testing ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
+  - $4 million pre-seed led by Giant Ventures with HCVC and MaC Ventures participating ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
+  - $350,000 uncapped, undiscounted SAFE from SEED Innovations ([London Stock Exchange announcement, Jul 2026](https://www.lse.co.uk/rns/investment-in-solar-robotics-company-cosmic-wauak2kpue7jj18.html)).
+  - $149,521 NASA Phase I SBIR contract for the Cosmic-XT lunar truss-outfitting robot ([SBIR.gov, Sep 2025](https://www.sbir.gov/awards/220405)).
+  - $50,000 DOE Solar Prize Ready award in January 2025 and selection for the $100,000-plus-vouchers Set tier in 2026 ([NLR, Jan 2025](https://www.nlr.gov/solar/market-research-analysis/program/2025/first-cohort-of-solar-energy-innovators-awarded-in-solar-prize-round-eight); [DOE](https://www.energy.gov/cmei/systems/american-made-solar-prize-round-8)).
+  - BuiltWorlds Construction Tech Demo Day winner ([BuiltWorlds, Jul 2026](https://builtworlds.com/videos/construction-tech-2026-demo-day-winner-cosmic-robotics/)).
+  - 7,651 LinkedIn followers ([LinkedIn, Aug 2026](https://www.linkedin.com/company/cosmic-robotics)).
 - **Competitors (minimum 3, up to 5):**
-  - Charge Robotics ($22M raised, revenue unknown): uses portable robotic factories to assemble solar components before field installation ([pv magazine, Mar 2025](https://pv-magazine-usa.com/2025/03/17/mit-based-startup-launches-solar-construction-robotics-system/)).
-  - Terabase Energy (over $200M raised, revenue unknown): offers an integrated robotic assembly line plus solar-design and construction software ([Intersolar, Mar 2026](https://www.iesna.com/news-insights/terabase-secures-130-million-series-c-to-scale-solar-construction-robotics/)).
-  - Gritt ($32M raised, revenue unknown): is contracted for 2.8 GW of solar-panel installation over 18 months and targets automated panel placement ([TechCrunch, Jul 2026](https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/)).
-  - Built Robotics ($112M raised, revenue unknown): automates heavy construction equipment and pile-installation workflows rather than panel manipulation ([Built Robotics](https://www.builtrobotics.com/about/company)).
-- **Why now:** [Inferred]: Recent commercial field testing by Charge, Terabase, Gritt, and Cosmic indicates that mobile manipulation, perception, and jobsite autonomy reached deployable solar-construction configurations during 2025–2026 ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/); [Terabase, Mar 2026](https://www.terabase.energy/resources/terabase-energys-next-generation-terafab-completes-field-testing-ready-for-deployment)).
+  - Gritt ($32 million raised, revenue unknown): retrofits common construction equipment and reports contracts covering 2.8 GW over 18 months ([TechCrunch, Jul 2026](https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/)).
+  - Charge Robotics ($39 million raised, revenue unknown): factory-style Sunrise system autonomously assembles complete solar bays before placement ([Seedtable, 2026](https://seedtable.com/companies/charge-robotics/funding-rounds/series-b-2025-03)).
+  - Terabase Energy ($200 million-plus raised, revenue unknown): combines Terafab construction automation with plant-design and lifecycle software ([Terabase Energy](https://www.terabase.energy/)).
+  - Luminous Robotics ($4.9 million government grant disclosed, revenue unknown): tracked LUMI robots pick and place modules at Australian utility-scale sites ([ARENA, Jul 2025](https://arena.gov.au/news/lumi-robots-scaleup-solar-deployment-with-advanced-automation/)).
+- **Why now:** [Inferred]: Growing data-center construction demand and improved multimodal robotics models support expansion beyond solar, with Cosmic demonstrating a cooling-pipe installation task after a 10-day adaptation cycle ([company LinkedIn, Jun 2026](https://www.linkedin.com/posts/jamesemerick_crazy-what-the-team-pulled-off-in-10-days-activity-7456428634376146944-U5b1)).
 
 ## Founders & Team
 
 - **James Emerick (Co-founder and CEO):**
-  - Background: MS and BS in mechanical engineering from the University of Pennsylvania, former Built Robotics engineer deploying autonomous earthmoving equipment, and former Autodesk Research engineer developing construction platforms ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Co-founder & CEO at Cosmic Robotics” ([LinkedIn profile data, Jun 2026](https://contactout.com/James-Emerick-7262740)).
+  - Background: MS/BS in Mechanical Engineering from the University of Pennsylvania; former Built Robotics field-deployment engineer and Autodesk Research robotics engineer ([YC](https://www.ycombinator.com/companies/cosmic-robotics)).
+  - Twitter/X: @JamesAEmerick, 384 followers (third-party X index, Aug 2026, via search snippet).
+  - LinkedIn: “Co-founder & CEO at Cosmic Robotics,” with 2K followers ([LinkedIn, Aug 2026](https://www.linkedin.com/in/jamesemerick)).
   - GitHub: No public repos found.
 - **Lewis Jones (Co-founder and CTO):**
-  - Background: BS in mechanical engineering and economics from Caltech, former Relativity Space propulsion engineer, and prior work at SpaceX, NASA JPL, and NASA JSC ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Co-founder, CTO at Cosmic Robotics”; 7K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/lewis-c-jones)).
+  - Background: Caltech BS in Mechanical Engineering and Economics; former Relativity Space propulsion engineer with experience at SpaceX, NASA JPL, and NASA JSC; Forbes 30 Under 30 Manufacturing & Industry 2026 ([YC](https://www.ycombinator.com/companies/cosmic-robotics); [Forbes](https://www.forbes.com/profile/lewis-jones/)).
+  - Twitter/X: @thelcjones, 511 followers (third-party X index, Aug 2026, via search snippet).
+  - LinkedIn: “Co-founder, CTO at Cosmic Robotics,” with 7K followers ([LinkedIn, Aug 2026](https://www.linkedin.com/in/lewis-c-jones)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history before Cosmic Robotics.
-- **Founder-market fit:** James previously deployed construction robots at Built Robotics, while Lewis worked on propulsion and space systems at Relativity Space, SpaceX, NASA JPL, and NASA JSC ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
+- **Co-founder relationship:** Emerick and Jones jointly prototyped through the Autodesk Research Residency Program and selected solar installation after visiting a California solar farm together ([Autodesk](https://www.autodesk.com/design-make/videos/cosmic-robotics-solar-farm); [Samson Rose](https://www.samsonrose.com/blog/cosmic-robotics-installing-solar-in-earths-harshest-worksites)).
+- **Founder-market fit:** Emerick previously deployed autonomous construction equipment, while Jones worked on propulsion and space systems and serves as principal investigator on Cosmic’s NASA robotics contract ([YC](https://www.ycombinator.com/companies/cosmic-robotics); [SBIR.gov](https://www.sbir.gov/awards/220405)).
 
 ## Key Risks
 
-- **Field reliability:** The product must sustain millimeter-level placement across remote, uneven, dusty jobsites, while the publicly reported system still required workers to supervise placement and fasten each panel ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
-- **Competitive deployment scale:** Terabase reports 40 MW installed across commercial projects, while Gritt reports contracts covering 2.8 GW over 18 months, creating competition for EPC relationships and field data ([Intersolar, Mar 2026](https://www.iesna.com/news-insights/terabase-secures-130-million-series-c-to-scale-solar-construction-robotics/); [TechCrunch, Jul 2026](https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/)).
-- **Workflow dependence:** Cosmic-1 performs panel lifting and positioning but workers still verify placement and attach panels, so realized productivity depends on the surrounding crew and tracker workflow ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
-- **Cross-market transfer:** The company is extending a solar-installation platform into cooling-pipe installation, data centers, and lunar construction, but public sources do not report production deployment metrics for these newer tasks ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
+- **Sustained-throughput risk:** In 2025, Cosmic-1A’s 30–40-second cycle matched the fastest human installers and still required workers to spot and fasten panels, although later deployments reportedly more than doubled labor productivity ([TechCrunch, Apr 2025](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/); [YC, 2026](https://www.ycombinator.com/companies/cosmic-robotics)).
+- **Competitive convergence:** Gritt, Charge, Terabase, and Luminous all automate utility-scale solar assembly or panel placement, with Gritt explicitly identifying Cosmic as a direct competitor ([TechCrunch, Jul 2026](https://techcrunch.com/2026/07/21/gritt-exits-stealth-with-34-million-for-robots-to-build-solar-plants-then-everything-else/)).
+- **Fleet manufacturing and service:** Cosmic-1A is a 10,000-pound custom vehicle requiring jobsite charging, precision sensing, and operation across heat, rain, snow, and dust, creating manufacturing and field-maintenance requirements ([YC](https://www.ycombinator.com/companies/cosmic-robotics); [TechCrunch](https://techcrunch.com/2025/04/16/cosmic-robotics-is-building-robots-to-speed-solar-power-deployments-for-data-centers/)).
+- **Lunar technical readiness:** NASA’s Cosmic-XT award targets TRL 4 proof-of-concept work and specifically identifies autonomous wire handling, power use, and AI error detection as unresolved technical areas ([SBIR.gov, 2025](https://www.sbir.gov/awards/220405)).
 
 ## Key Facts
 
@@ -75,12 +76,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | Tens of thousands of panel installations and more than doubled labor productivity (Y Combinator, Jul 2026); one panel per 30–40 seconds (TechCrunch, Apr 2025); NASA lunar-construction contract (Y Combinator, Jul 2026) |
+| Traction | Tens of thousands of panel installations and more than 2× labor productivity (YC, 2026); $149,521 NASA SBIR contract (SBIR.gov, Sep 2025) |
 | Revenue Signal | No public data found |
-| Founders | James Emerick (CEO): UPenn MS/BS, Built Robotics, Autodesk Research; Lewis Jones (CTO): Caltech BS, Relativity Space, SpaceX and NASA (Y Combinator, Jul 2026) |
-| Competitors | Charge Robotics ($22M raised, revenue unknown, portable assembly factories) (pv magazine, Mar 2025); Terabase Energy (over $200M raised, revenue unknown, integrated robotic factory and software) (Intersolar, Mar 2026); Gritt ($32M raised, revenue unknown, automated panel installation) (TechCrunch, Jul 2026); Built Robotics ($112M raised, revenue unknown, autonomous heavy equipment) (Built Robotics, Jul 2026) |
-| Moat Signals | Tens of thousands of field cycles used as training data and NASA lunar-construction contract (Y Combinator, Jul 2026) |
-| Risk Factors | Field reliability and human-supervised fastening (TechCrunch, Apr 2025); competitors with larger contracted deployment volumes (TechCrunch, Jul 2026); unreported production metrics outside solar (Y Combinator, Jul 2026) |
-| Founder Reach | James Emerick: LinkedIn 2,205, Twitter/GitHub not found (LinkedIn, Jul 2026); Lewis Jones: LinkedIn 7K, Twitter/GitHub not found (LinkedIn, Jul 2026) |
-| Distribution Signals | 7,651 company LinkedIn followers (LinkedIn, Jul 2026); TechCrunch coverage (TechCrunch, Apr 2025); active engineering job listing (LinkedIn, May 2026) |
-| Emails | james@cosmicrobotics.com (Y Combinator, Jul 2026) |
+| Founders | James Emerick (CEO): UPenn MS/BS, Built Robotics, Autodesk Research; Lewis Jones (CTO): Caltech BS, Relativity Space, SpaceX/NASA experience (YC, 2026) |
+| Competitors | Gritt ($32M raised, revenue unknown, equipment-retrofit panel placement; TechCrunch, Jul 2026); Charge Robotics ($39M raised, revenue unknown, automated bay assembly; Seedtable, 2026); Terabase ($200M+ raised, revenue unknown, field-factory plus software; Terabase, 2026); Luminous ($4.9M grant disclosed, revenue unknown, tracked panel placer; ARENA, Jul 2025) |
+| Moat Signals | Tens of thousands of field cycles feeding the Particle physical-AI system (YC and company LinkedIn, 2026) |
+| Risk Factors | Worker-assisted throughput (TechCrunch, Apr 2025), competing solar robots (TechCrunch, Jul 2026), lunar system remains at Phase I proof-of-concept stage (SBIR.gov, 2025) |
+| Founder Reach | James: X 384 and LinkedIn 2K followers (third-party X index and LinkedIn, Aug 2026); Lewis: X 511 and LinkedIn 7K followers (third-party X index and LinkedIn, Aug 2026) |
+| Distribution Signals | 7,651 LinkedIn followers (LinkedIn, Aug 2026); BuiltWorlds Demo Day winner (BuiltWorlds, Jul 2026); TechCrunch coverage (Apr 2025) |
+| Emails | james@cosmicrobotics.com, lewis@cosmicrobotics.com (YC and SBIR.gov, 2025–2026) |

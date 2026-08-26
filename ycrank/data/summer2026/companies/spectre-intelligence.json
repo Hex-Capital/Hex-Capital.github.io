@@ -1,0 +1,82 @@
+{
+  "slug": "spectre-intelligence",
+  "name": "Spectre Intelligence",
+  "oneLiner": "We are a multi-strategy trading firm that trains AI traders.",
+  "metadata": {
+    "website": "https://www.spectreintelligence.ai",
+    "yc_page": "https://www.ycombinator.com/companies/spectre-intelligence",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Biotech, Investing, Trading, Semiconductors",
+    "yc_partner": "Ankit Gupta",
+    "emails": "michelle@spectreintelligence.ai, josh@spectreintelligence.ai"
+  },
+  "tags": [
+    "Biotech",
+    "Investing",
+    "Trading",
+    "Semiconductors"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:17:40.215Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 49,
+    "NR": 52,
+    "PG": 40,
+    "PT": 37,
+    "SL": 36,
+    "VK": 31
+  },
+  "consolidatedAvg": 42.14,
+  "consolidatedRank": 144,
+  "traction": {
+    "tractionRank": 72,
+    "tractionScore": 58,
+    "tractionReason": "Profitable with two live real-capital trading pods"
+  },
+  "paths": {
+    "memo": "summer2026/memos/spectre-intelligence.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/spectre-intelligence.md",
+      "elad-gil": "summer2026/evals/elad-gil/spectre-intelligence.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/spectre-intelligence.md",
+      "paul-graham": "summer2026/evals/paul-graham/spectre-intelligence.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/spectre-intelligence.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/spectre-intelligence.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/spectre-intelligence.md"
+    }
+  }
+}

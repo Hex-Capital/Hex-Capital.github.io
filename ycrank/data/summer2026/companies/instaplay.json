@@ -11,59 +11,59 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Gaming",
     "yc_partner": "Diana Hu",
-    "emails": "akhilag01@gmail.com ([LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026, via search snippet)"
+    "emails": "founders@instaplay.ai"
   },
   "tags": [
     "Artificial Intelligence",
     "Gaming"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:51:56.299Z",
+  "memoGeneratedAt": "2026-08-11T05:28:34.217Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 56,
+      "score": 51,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 57,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 49,
+      "score": 51,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 30,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 56,
-    "NR": 68,
-    "PG": 49,
-    "PT": 30,
-    "SL": 38,
-    "VK": 34
+    "CB": 47,
+    "EG": 51,
+    "NR": 57,
+    "PG": 51,
+    "PT": 33,
+    "SL": 34,
+    "VK": 32
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 148,
+  "consolidatedAvg": 43.57,
+  "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 59,
-    "tractionReason": "Multiple games recorded roughly 4,500-5,500 plays"
+    "tractionRank": 24,
+    "tractionScore": 75,
+    "tractionReason": "100K MAU and 20K creators"
   },
   "paths": {
     "memo": "summer2026/memos/instaplay.md",

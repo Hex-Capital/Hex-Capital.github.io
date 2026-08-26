@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:28:09.631Z",
+  "memoGeneratedAt": "2026-08-11T04:33:25.867Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 47,
       "tier": "Neutral"
     },
-    "vinod-khosla": {
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
       "score": 45,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 53,
-    "NR": 71,
-    "PG": 61,
-    "PT": 41,
-    "SL": 47,
-    "VK": 45
+    "CB": 47,
+    "EG": 46,
+    "NR": 45,
+    "PG": 45,
+    "PT": 44,
+    "SL": 33,
+    "VK": 31
   },
-  "consolidatedAvg": 53.14,
-  "consolidatedRank": 89,
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 150,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 41,
-    "tractionReason": "1,000 GitHub stars; private-alpha paid API"
+    "tractionRank": 184,
+    "tractionScore": 30,
+    "tractionReason": "Current product in private alpha"
   },
   "paths": {
     "memo": "summer2026/memos/tracer.md",

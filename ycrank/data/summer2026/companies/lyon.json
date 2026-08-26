@@ -1,0 +1,82 @@
+{
+  "slug": "lyon",
+  "name": "Lyon",
+  "oneLiner": "Foundation models on enterprise transaction data.",
+  "metadata": {
+    "website": "https://lyon.so",
+    "yc_page": "https://www.ycombinator.com/companies/lyon",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Finance, Data Science, Big Data",
+    "yc_partner": "Gustaf Alstromer ([YC, Aug 2026](https://www.ycombinator.com/companies/lyon))",
+    "emails": "founders@lyon.so ([Lyon website, Aug 2026](https://lyon.so))"
+  },
+  "tags": [
+    "Machine Learning",
+    "Finance",
+    "Data Science",
+    "Big Data"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:20:25.594Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 66,
+    "NR": 52,
+    "PG": 50,
+    "PT": 55,
+    "SL": 35,
+    "VK": 41
+  },
+  "consolidatedAvg": 49.71,
+  "consolidatedRank": 65,
+  "traction": {
+    "tractionRank": 78,
+    "tractionScore": 57,
+    "tractionReason": "Model deployed at major fintech; insurer engagement"
+  },
+  "paths": {
+    "memo": "summer2026/memos/lyon.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/lyon.md",
+      "elad-gil": "summer2026/evals/elad-gil/lyon.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/lyon.md",
+      "paul-graham": "summer2026/evals/paul-graham/lyon.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/lyon.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/lyon.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/lyon.md"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "dipole-labs",
+  "name": "Dipole Labs",
+  "oneLiner": "AI-controlled optical switching for AI clusters",
+  "metadata": {
+    "website": "https://dipolelabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/dipole-labs",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/dipole-labs), accessed Aug 2026)",
+    "industry": "Industrials / Industrials",
+    "team_size": "0",
+    "location": "Boston, MA, USA",
+    "tags": "Hard Tech, Semiconductors, AI",
+    "yc_partner": "Jared Friedman ([YC](https://www.ycombinator.com/companies/dipole-labs), accessed Aug 2026)",
+    "emails": "dthureja@fas.harvard.edu ([Harvard](https://www.chemistry.harvard.edu/people/deepankur-thureja), accessed Aug 2026)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Semiconductors",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:25:21.523Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 47,
+    "NR": 54,
+    "PG": 30,
+    "PT": 35,
+    "SL": 30,
+    "VK": 31
+  },
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 158,
+  "traction": {
+    "tractionRank": 192,
+    "tractionScore": 27,
+    "tractionReason": "Launch coverage; no customer evidence"
+  },
+  "paths": {
+    "memo": "summer2026/memos/dipole-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/dipole-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/dipole-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/dipole-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/dipole-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/dipole-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/dipole-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/dipole-labs.md"
+    }
+  }
+}

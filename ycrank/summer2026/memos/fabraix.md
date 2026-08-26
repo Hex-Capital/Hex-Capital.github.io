@@ -10,76 +10,79 @@
 | Industry | B2B / B2B -> Security |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Reinforcement Learning, Cybersecurity, AI |
+| Tags | Artificial Intelligence, Reinforcement Learning, Cybersecurity |
 | YC Partner | Jon Xu |
 | Emails | founders@fabraix.com |
 
 ## The Idea
 
-- **Problem:** Customer-facing AI agents can develop security vulnerabilities whenever models, prompts, tools, permissions, or data sources change, while manual red-team assessments are costly, time-consuming, and point-in-time ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-- **Approach:** Nyx tests live chat, voice, browser, and coding agents through black-box interaction, using over 10,000 attack strategies, multi-turn adaptation, adversarial self-play, and malicious payloads placed in controlled webpages and files ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-- **Differentiation:** Nyx dynamically adapts attacks without source-code access, versus fixed-payload testing, while Lakera Red and Mindgard also provide automated AI red-teaming and Prompt Security concentrates on runtime data-loss and agent protection ([Y Combinator](https://www.ycombinator.com/companies/fabraix), [Lakera](https://www.lakera.ai/research), [Mindgard](https://mindgard.ai/), [SentinelOne](https://www.sentinelone.com/press/sentinelone-to-acquire-prompt-security-to-advance-genai-security/)).
-- **Business Model:** [Inferred]: Fabraix likely sells assessments or recurring enterprise access to Nyx because it solicits organizations operating customer-facing agents, but no public pricing was found.
-- **TAM/SAM:** The broader AI-in-cybersecurity market was estimated at $25.35 billion in 2024 and projected to reach $93.75 billion by 2030 at a 24.4% CAGR, but no public estimate isolates automated AI-agent red-teaming ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-cybersecurity-market-report), 2025).
-- **GTM / Distribution:** Fabraix uses YC exposure, Product Hunt, an open-source Playground, public hacking challenges, and targeted campaigns aimed at companies deploying agents ([Y Combinator](https://www.ycombinator.com/companies/fabraix), [Product Hunt digest](https://www.first-principle.com.cn/p/product-hunt-top-10-new-products-for-2026-05-08-512464d8), [LinkedIn](https://www.linkedin.com/company/fabraix/), Jul 2026).
+- **Problem:** Teams deploying customer-facing AI agents must retest after model, prompt, tool, permission, or data-source changes, while manual red-teaming takes weeks and can cost six figures ([Fabraix website, Aug 2026](https://fabraix.com/)).
+- **Approach:** Nyx conducts black-box, multi-turn attacks, including payloads placed in controlled websites, files, messages, and SaaS replicas, while adapting its strategy to the target’s responses ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
+- **Differentiation:** Nyx requires no source-code integration and targets indirect and multimodal interaction surfaces, while HiddenLayer bundles red-teaming with model scanning and detection-response and VirtueRed emphasizes compliance mapping and audit evidence ([Fabraix](https://fabraix.com/), [HiddenLayer](https://www.hiddenlayer.com/news/security-for-ai-platform-expansion-introducing-automated-red-teaming-for-ai), [Virtue AI](https://www.virtueai.com/virtuered)).
+- **Business Model:** Researchers receive a $0 tier, one-off scans are custom-priced per agent, and continuous CI testing is custom-priced monthly by usage ([Fabraix pricing, Aug 2026](https://fabraix.com/)).
+- **TAM/SAM:** The broader generative-AI cybersecurity market was estimated at $8.65B in 2025 and projected to reach $35.50B by 2031 at a 26.5% CAGR, while no Fabraix-specific SAM was found ([MarketsandMarkets, 2026](https://www.marketsandmarkets.com/Market-Reports/generative-ai-cybersecurity-market-164202814.html)).
+- **GTM / Distribution:** Fabraix uses demo-led enterprise sales, a free researcher tier, Product Hunt launches, and an open-source adversarial playground to reach AI builders and security teams ([Fabraix](https://fabraix.com/), [Product Hunt](https://www.producthunt.com/products/nyx-4), [GitHub](https://github.com/fabraix)).
 
 ## Defensibility
 
-- **Moat today:** Fabraix reports a continuously updated library of more than 10,000 jailbreaks and an adversarial self-play loop that retains successful attacks to generate variants ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-- **Future moat:** [Inferred]: Repeated customer assessments could create a proprietary corpus of attack trajectories and remediation outcomes, but no corpus size, retention advantage, or exclusive-data arrangement is public.
+- **Moat today:** Fabraix reports a continuously updated library of 10,000+ strategies, a self-learning attack loop, and 71 GitHub stars for its open-source Playground repository ([Fabraix](https://fabraix.com/), [GitHub, Aug 2026](https://github.com/fabraix)).
+- **Future moat:** [Inferred]: Recurring scans and Playground submissions could expand Fabraix’s attack corpus and regression data, but no public customer-retention or revenue data establishes this advantage.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Mindgard and Lakera already automate AI red-teaming, while open-source alternatives include Fabraix’s own Nyx repository, Promptfoo, Garak, and PyRIT ([Mindgard](https://mindgard.ai/), [Lakera](https://www.lakera.ai/research), [Fabraix GitHub](https://github.com/fabraix), [BeyondScale comparison](https://beyondscale.tech/blog/ai-red-teaming-tools-comparison-2026)).
+- **Commoditization risk:** Virtue AI, HiddenLayer, SPLX, Mindgard, and free tools including Garak and PyRIT already provide automated or continuous AI red-teaming capabilities ([Virtue AI](https://www.virtueai.com/virtuered), [HiddenLayer](https://www.hiddenlayer.com/news/security-for-ai-platform-expansion-introducing-automated-red-teaming-for-ai), [Mindgard comparison, Jul 2026](https://mindgard.ai/blog/best-tools-for-red-teaming)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported vulnerabilities found in agents at dozens of Fortune 500 companies ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-  - 78% AgentHarm attack success rate for Nyx versus 67% for GPT-5.6 Sol, company-reported ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-  - More than 50,000 attempts in the first public Playground challenge, company-reported ([LinkedIn](https://www.linkedin.com/company/fabraix/), Jul 2026).
-  - Product Hunt daily rank #6 on May 8, 2026 ([Product Hunt digest](https://www.first-principle.com.cn/p/product-hunt-top-10-new-products-for-2026-05-08-512464d8), May 2026).
-  - 529 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/fabraix/), Jul 2026).
-  - Fabraix Playground repository had 71 GitHub stars ([GitHub](https://github.com/fabraix), Jul 2026).
-  - Zero jobs listed on the YC company page ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-- **Competitors:**
-  - Lakera ($30 million raised, revenue unknown): combines Lakera Red testing with runtime Lakera Guard and threat data from its Gandalf game ([Lakera](https://www.lakera.ai/news/lakera-raises-20m-series-a-to-secure-generative-ai-applications), Jul 2024).
-  - HiddenLayer (at least $50 million raised, revenue unknown): covers AI model scanning, supply-chain security, runtime detection, and red-teaming rather than concentrating on black-box agent attacks ([HiddenLayer](https://www.hiddenlayer.com/news/hiddenlayer-raises-50m-in-series-a-funding-to-safeguard-ai), Sep 2023).
-  - Prompt Security ($23 million raised, revenue unknown): focuses on runtime GenAI data leakage and agent protection and was acquired by SentinelOne in 2025 ([Globes](https://en.globes.co.il/en/article-sentinelone-to-buy-israeli-startup-prompt-security-for-300m-1001518079), Aug 2025).
-- **Why now:** [Inferred]: The catalyst is the deployment of agents with tools, memory, files, and production permissions, which creates attack paths that prompt-only or static evaluations do not exercise ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
+  - Nyx reported a 78% AgentHarm attack-success rate versus 67% for GPT-5.6 Sol and detected failures in public-facing agents operated by dozens of Fortune 500 companies ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
+  - Fabraix reports that Nyx typically produces its first exploit in under one hour ([Fabraix website, Aug 2026](https://fabraix.com/)).
+  - The first Playground challenge received more than 50,000 attempts ([LinkedIn, Aug 2026](https://www.linkedin.com/company/fabraix/)).
+  - Fabraix ranked #6 on Product Hunt on May 8, 2026, while Playground ranked #5 on July 13, 2026 ([Product Hunt leaderboard](https://www.producthunt.com/leaderboard/daily/2026/5/8), [Product Hunt](https://www.producthunt.com/products/nyx-4)).
+  - The Product Hunt listing had 934 followers, a 5.0 rating, and one review ([Product Hunt, Aug 2026](https://www.producthunt.com/products/nyx-4)).
+  - The company LinkedIn page had 543 followers ([LinkedIn, Aug 2026](https://www.linkedin.com/company/fabraix/)).
+  - Fabraix’s Playground repository had 71 stars and Nyx had 8 stars ([GitHub, Aug 2026](https://github.com/fabraix)).
+  - YC listed zero active company jobs ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
+  - Byld lists a 2026 pre-seed investment alongside YC, with no amount disclosed ([Byld portfolio, Aug 2026](https://www.byld.vc/portfolio)).
+- **Competitors (minimum 3, up to 5):**
+  - Virtue AI ($30M raised through seed and Series A led by Lightspeed and Walden Catalyst in April 2025, revenue unknown): offers continuous red-teaming, compliance evidence, runtime guardrails, and agent simulations across sandboxed environments ([Business Wire, Apr 2025](https://www.businesswire.com/news/home/20250415693312/en/Virtue-AI-Raises-%2430-Million-in-Seed-and-Series-A-Funding-to-Bridge-the-Critical-AI-Security-Gap)).
+  - HiddenLayer ($56M raised, including a $50M Series A led by M12 and Moore Strategic Ventures in September 2023, revenue unknown): combines automated red-teaming with model scanning and AI detection-response ([TechCrunch, Sep 2023](https://techcrunch.com/2023/09/19/hiddenlayer-raises-50m-for-its-ai-defending-cybersecurity-tools/)).
+  - SPLX ($9M raised, including a $7M seed led by LAUNCHub Ventures in March 2025, revenue unknown): combines continuous probes with runtime protection, governance, and compliance workflows and was acquired by Zscaler in 2025 ([SPLX, Mar 2025](https://splx.ai/blog/splxai-closes-7m-seed-funding-round-to-help-organizations-secure-agentic-ai-systems), [Zscaler, Nov 2025](https://ir.zscaler.com/news-releases/news-release-details/zscaler-secures-enterprise-ai-lifecycle-acquisition-innovative)).
+- **Why now:** AI agents increasingly interact with websites, files, tools, permissions, and confidential data while their models and prompts change between releases, creating a need for repeatable rather than point-in-time testing ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
 
 ## Founders & Team
 
 - **Ahmed Aly (Founder):**
-  - Background: First data scientist at Two, former Monzo international-payments fraud lead, builder of systems processing over $1 billion in annual B2B transactions, published researcher, and UCL PhD dropout ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Co-founder @ Fabraix, building a frontier hacker agent that finds failure modes and security exploits in AI systems before real users do” ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
+  - Background: Led international-payments fraud at Monzo and was Two’s first data scientist, where systems processed $1B+ in annual transactions and reportedly prevented $50M in losses; he left a UCL PhD and has published peer-reviewed research ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
+  - Twitter/X: No public account conclusively tied to this founder found.
+  - LinkedIn: “Co-founder @ Fabraix, building a frontier hacker agent” ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
   - GitHub: No public repos found.
 - **Ibrahim Abdu (Founder):**
-  - Background: Former Meta software engineer building production-debugging agents, early Two engineer, TradingHub compiler/database developer, and Oxford PPE graduate in the top 8% of his cohort ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Founder at Fabraix” ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
+  - Background: Built production-debugging AI agents at Meta, was an early engineer at Two, developed compiler and database systems at TradingHub, and earned an Oxford PPE degree in the top 8% of his cohort ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
+  - Twitter/X: @ibrahim_abdu1; count not retrievable ([Product Hunt newsletter, Jul 2026](https://www.producthunt.com/newsletters/archive/52632-get-paid-to-break-ai)).
+  - LinkedIn: “Founder at Fabraix” ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Aly and Abdu previously worked together and had known each other for almost four years by the YC launch ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
-- **Founder-market fit:** Aly’s fraud and adversarial-system work and Abdu’s Meta agent, compiler, and database experience align with automated testing of tool-using AI systems ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
+- **Co-founder relationship:** The founders previously worked together and had known each other for almost four years at launch ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
+- **Founder-market fit:** Ahmed’s fraud and adversarial-systems work and Ibrahim’s agent, compiler, and database engineering provide documented experience across offensive testing, financial abuse, and agent infrastructure ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
 
 ## Key Risks
 
-- **Benchmark generalization:** The 78% AgentHarm result is company-reported, and Fabraix’s ACE work argues that static rankings can diverge from adaptive attack economics ([Y Combinator](https://www.ycombinator.com/companies/fabraix), [LinkedIn](https://www.linkedin.com/company/fabraix/), Jul 2026).
-- **Competitive platform bundling:** Lakera was acquired by Check Point and Prompt Security by SentinelOne, allowing overlapping capabilities to be distributed through existing enterprise-security platforms ([IT Pro](https://www.itpro.com/business/acquisition/check-point-buys-lakera-to-secure-the-full-enterprise-ai-lifecycle), [SentinelOne](https://www.sentinelone.com/press/sentinelone-to-acquire-prompt-security-to-advance-genai-security/), 2025).
-- **Replicability:** Competitors offer continuous automated red-teaming, and several testing frameworks are open source, reducing barriers to reproducing parts of the attack workflow ([Mindgard](https://mindgard.ai/compare/mindgard-vs-lakera), [BeyondScale](https://beyondscale.tech/blog/ai-red-teaming-tools-comparison-2026), 2026).
-- **Evidence attribution:** “Dozens of Fortune 500 companies” describes agents in which vulnerabilities were found, but the public materials do not identify those companies as paying customers or disclose remediation outcomes ([Y Combinator](https://www.ycombinator.com/companies/fabraix), Jul 2026).
+- **Benchmark transfer:** The 78% result is company-reported on AgentHarm, a public benchmark for harmful multi-step agent tasks, and public evidence does not establish equivalent results across customer production systems ([Fabraix](https://fabraix.com/), [ICLR AgentHarm paper, 2025](https://proceedings.iclr.cc/paper_files/paper/2025/hash/c493d23af93118975cdbc32cbe7323f5-Abstract-Conference.html)).
+- **Traction interpretation:** The claim concerns vulnerabilities found in public-facing agents operated by dozens of Fortune 500 companies and does not identify those companies as paying customers ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/fabraix)).
+- **Platform bundling:** Check Point acquired Lakera and Zscaler acquired SPLX in 2025, placing overlapping AI-security products inside established enterprise-security distribution channels ([Check Point](https://www.checkpoint.com/press-releases/check-point-acquires-lakera-to-deliver-end-to-end-ai-security-for-enterprises/), [Zscaler](https://ir.zscaler.com/news-releases/news-release-details/zscaler-secures-enterprise-ai-lifecycle-acquisition-innovative)).
+- **Enterprise certification:** Fabraix lists SOC 2 Type II as “in progress,” while its continuous tier targets enterprise CI/CD deployments ([Fabraix website, Aug 2026](https://fabraix.com/)).
+- **Residual prompt-injection risk:** NIST states that guardrails require continuous monitoring because prompts capable of bypassing them will remain discoverable, limiting red-teaming’s ability to establish permanent closure ([NIST, Jun 2026](https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $25.35B broader AI-in-cybersecurity market in 2024; $93.75B projected for 2030 at 24.4% CAGR (Grand View Research, 2025) |
+| TAM | $8.65B generative-AI cybersecurity market in 2025, projected to $35.50B by 2031 at 26.5% CAGR (MarketsandMarkets, 2026) |
 | SAM | No public data found |
-| Traction | Vulnerabilities found in agents at dozens of Fortune 500 companies; 78% AgentHarm attack success rate; 50,000+ first-challenge attempts (Y Combinator and Fabraix LinkedIn, Jul 2026) |
-| Revenue Signal | No public data found |
-| Founders | Ahmed Aly (Founder): Two and Monzo fraud systems, published researcher; Ibrahim Abdu (Founder): Meta agent engineer, Two and TradingHub engineer, Oxford PPE (Y Combinator, Jul 2026) |
-| Competitors | Lakera ($30M raised, revenue unknown, red-teaming plus runtime guardrails); HiddenLayer (at least $50M raised, revenue unknown, broader model and supply-chain security); Prompt Security ($23M raised, revenue unknown, runtime GenAI protection) (Lakera, HiddenLayer, Globes, 2023–2025) |
-| Moat Signals | 10,000+ continuously updated jailbreaks and adversarial self-play (Y Combinator, Jul 2026) |
-| Risk Factors | Benchmark generalization, security-platform bundling, open-source and commercial replication (Y Combinator, Check Point, SentinelOne, Jul 2026) |
-| Founder Reach | No public data found |
-| Distribution Signals | Product Hunt #6 (Product Hunt digest, May 2026), 529 LinkedIn followers (LinkedIn, Jul 2026), 71 GitHub stars for Playground (GitHub, Jul 2026) |
-| Emails | founders@fabraix.com (Y Combinator, Jul 2026) |
+| Traction | 78% AgentHarm success rate versus 67% for GPT-5.6 Sol; failures found in agents at dozens of Fortune 500 companies (Y Combinator, Aug 2026); 50K+ Playground attempts (LinkedIn, Aug 2026) |
+| Revenue Signal | $0 researcher tier; custom per-agent scans; custom monthly usage pricing for continuous testing (Fabraix pricing, Aug 2026) |
+| Founders | Ahmed Aly (Founder): Monzo fraud lead, first data scientist at Two, UCL PhD dropout; Ibrahim Abdu (Founder): former Meta agent engineer, early Two engineer, Oxford PPE (Y Combinator, Aug 2026) |
+| Competitors | Virtue AI ($30M raised, revenue unknown, compliance and runtime suite); HiddenLayer ($56M raised, revenue unknown, model-scanning bundle); SPLX ($9M raised, revenue unknown, lifecycle platform acquired by Zscaler) (Business Wire; TechCrunch; SPLX/Zscaler, 2023–2025) |
+| Moat Signals | 10,000+ attack strategies, self-learning attack loop, 71-star Playground repository (Fabraix; GitHub, Aug 2026) |
+| Risk Factors | Benchmark-to-production transfer, Fortune 500 customer-status ambiguity, incumbent platform bundling, SOC 2 Type II in progress (Fabraix; Y Combinator; Check Point; Zscaler, Aug 2026) |
+| Founder Reach | Ahmed Aly: No public data found; Ibrahim Abdu: X @ibrahim_abdu1 with count not retrievable and LinkedIn 861 followers (Product Hunt; LinkedIn, Jun–Jul 2026) |
+| Distribution Signals | Product Hunt #6 on May 8, 2026; Playground #5 on July 13, 2026; 934 Product Hunt followers; 543 LinkedIn followers; 71 GitHub stars (Product Hunt; LinkedIn; GitHub, Aug 2026) |
+| Emails | founders@fabraix.com (Y Combinator, Aug 2026) |

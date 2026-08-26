@@ -12,73 +12,74 @@
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Deep Learning, Machine Learning |
 | YC Partner | Jared Friedman |
-| Emails | contact@rekursiv.ai, hiring@rekursiv.ai |
+| Emails | contact@rekursiv.ai, hiring@rekursiv.ai, jvdillon@gmail.com, dankondratyuk@gmail.com ([company site](https://rekursiv.ai/), [careers page](https://rekursiv.ai/join/), [Dillon CV](https://rekursiv.ai/josh/cv.pdf), [Kondratyuk CV](https://hyperparticle.com/public/dan_kondratyuk_cv.pdf)) |
 
 ## The Idea
 
-- **Problem:** ML research teams depend on researchers to devise and test ideas through serial experiments that can take days, with manual hypothesis formation and iteration as the current alternative ([YC company page](https://www.ycombinator.com/companies/rekursivai), Jul 2026).
-- **Approach:** Role-specialized AI scientists form hypotheses, design and execute experiments, analyze results, review one another’s work, update leaderboards, and trace claims to evidence ([rekursiv.ai homepage](https://rekursiv.ai/), Jul 2026; [research-system description](https://rekursiv.ai/blog/an-ai-team-invented-an-algorithm-i-wouldnt-have/), Mar 2026).
-- **Differentiation:** rekursiv.ai focuses on software-based ML experiments using role-specialized fleets and evidence tracing, while Sakana AI covers hypothesis-to-paper generation, Edison combines literature search through experimental planning, and Periodic Labs and Lila connect agents to physical laboratories ([Sakana AI](https://sakana.ai/series-b/), Nov 2025; [Edison Scientific](https://edisonscientific.com/news/announcing-edison-scientific), Nov 2025; [Periodic Labs](https://periodic.com/); [Lila Sciences](https://www.lila.ai/news)).
-- **Business Model:** [Inferred]: A consumption-priced enterprise research platform is a possible monetization path because access is gated through email and workloads dispatch multiple agents and experiments, but no pricing is published ([rekursiv.ai homepage](https://rekursiv.ai/), Jul 2026).
-- **TAM/SAM:** The broader autonomous-AI and autonomous-agents market was valued at $8.60B in 2025 with a forecast 28.4% CAGR through 2035, while no public estimate was found for the autonomous-ML-research subsegment ([Emergen Research](https://www.emergenresearch.com/industry-report/autonomous-ai-and-autonomous-agents-market), Oct 2025).
-- **GTM / Distribution:** [Inferred]: Initial distribution is founder-led access and benchmark-based design partnerships because the company solicits research problems and directs prospective users to contact@rekursiv.ai ([YC launch](https://www.ycombinator.com/launches/Rmv-rekursiv-ai-ai-scientists-that-invent-new-knowledge), Jul 2026).
+- **Problem:** ML research teams face a serial human bottleneck because researchers must formulate hypotheses, engineer experiments, diagnose failures, and decide what to test next ([YC profile, 2026](https://www.ycombinator.com/companies/rekursivai)).
+- **Approach:** The product dispatches multiple AI scientists to propose hypotheses, define evaluations, run experiments, review one another’s work, update leaderboards, and trace claims to evidence ([company site, Aug 2026](https://rekursiv.ai/)).
+- **Differentiation:** Unlike Sakana AI’s research-to-paper system and Periodic Labs’ and Lila Sciences’ robotic laboratories, rekursiv.ai currently presents a software cockpit focused on autonomous ML experiments and evidence-traced results ([Sakana AI](https://sakana.ai/series-b/), [Periodic Labs funding announcement](https://a16z.com/announcement/investing-in-periodic-labs/), [Lila Sciences](https://www.lila.ai/news/series-a-235-million), [rekursiv.ai](https://rekursiv.ai/)).
+- **Business Model:** [Inferred]: The email-gated “request access” workflow and compute-intensive experiment campaigns indicate a possible enterprise-access or usage-based model, but no public pricing is shown ([company site, Aug 2026](https://rekursiv.ai/)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** [Inferred]: Distribution currently centers on technical research posts, Apache-licensed developer tools, YC exposure, and founder-led access requests from researchers with benchmarks or research problems ([YC launch post, 2026](https://www.ycombinator.com/companies/rekursivai), [GitHub, Aug 2026](https://github.com/rekursiv-ai)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Repeated deployments could produce a proprietary corpus of hypotheses, failed experiments, and transferable methods, but public evidence currently covers company-run benchmarks rather than customer-generated data ([ARC-AGI report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 2026).
-- **Market structure:** No structural barrier identified at this stage because Sakana AI, Edison Scientific, Periodic Labs, and Lila Sciences are independently developing autonomous scientific-research systems ([Sakana AI](https://sakana.ai/series-b/); [Edison Scientific](https://edisonscientific.com/news/announcing-edison-scientific); [Periodic Labs](https://periodic.com/); [Lila Sciences](https://www.lila.ai/news)).
-- **Commoditization risk:** Sakana has open-sourced AI Scientist systems, while rekursiv.ai is Apache-2.0-licensing discoveries and components including sagent and configgle, making parts of the technical stack available to other builders ([Sakana AI paper](https://arxiv.org/abs/2504.08066), Apr 2025; [rekursiv.ai Sudoku report](https://rekursiv.ai/blog/100-percent-accuracy-on-sudoku/), Jul 2026).
+- **Moat today:** Technical-complexity evidence includes 235 ARC experiments across 15 research directions and 684 Sudoku experiments over four days, coordinated through an autonomous experimentation loop ([ARC report, Jul 2026](https://rekursiv.ai/blog/pushing-limits-arc-agi/), [Sudoku report, Jul 2026](https://rekursiv.ai/blog/100-percent-accuracy-on-sudoku/)).
+- **Future moat:** [Inferred]: A proprietary corpus linking hypotheses, code changes, failed experiments, evaluations, and subsequent discoveries could improve experiment selection, but no exclusive dataset or performance trend is publicly documented.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Sakana AI has open-sourced its AI Scientist, while rekursiv.ai licenses discoveries and some components under Apache 2.0, lowering code-level replication barriers ([Sakana AI paper](https://arxiv.org/abs/2408.06292), [rekursiv.ai ARC report](https://rekursiv.ai/blog/pushing-limits-arc-agi/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - $5M raised from Y Combinator ([Returner.fund snapshot of founder’s X post](https://www.returner.fund/founders/dan-kondratyuk), Jul 22, 2026).
-  - 71.4%–75.5% ARC-AGI-1 accuracy and 17.5% ARC-AGI-2 accuracy at 16×–11,600× lower reported computational cost than selected accuracy peers after 235 experiments ([rekursiv.ai ARC-AGI report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 16, 2026).
-  - 100% Sudoku-Extreme accuracy across a 99,768-puzzle web stress test after 684 experiments over four days ([rekursiv.ai Sudoku report](https://rekursiv.ai/blog/100-percent-accuracy-on-sudoku/), Jul 16, 2026).
-  - GitHub organization had 14 followers, with sagent at 25 stars as the largest organization repository ([GitHub](https://github.com/rekursiv-ai), Jul 30, 2026).
-  - Official careers page listed two openings—Founding Engineer and Founding Scientist—despite the supplied Hiring field being false ([rekursiv.ai careers](https://rekursiv.ai/join/), Jul 2026).
+  - $5M raised from Y Combinator (founder X post via [Returner.fund](https://www.returner.fund/founders/dan-kondratyuk), Jul 22, 2026).
+  - 71.4–75.5% on ARC-AGI-1 and 17.5% on ARC-AGI-2 at reported 16×–11,600× lower computational cost than selected accuracy peers ([company ARC report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 16, 2026).
+  - 100% reported Sudoku-Extreme accuracy after 684 experiments over four days, plus 100% on a 99,768-puzzle stress test ([company Sudoku report](https://rekursiv.ai/blog/100-percent-accuracy-on-sudoku/), Jul 16, 2026).
+  - Two open roles—Founding Engineer and Founding Scientist—listed for Bay Area or remote applicants ([company careers page](https://rekursiv.ai/join/), Aug 2026).
+  - GitHub organization has 16 followers and eight public repositories; its most-starred repository, `sagent`, has 29 stars ([GitHub](https://github.com/rekursiv-ai), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Sakana AI ($412M raised, revenue unknown): automates ML research through paper writing and open-sources its AI Scientist, versus rekursiv.ai’s evidence-traced research cockpit ([Sakana AI](https://sakana.ai/series-b/), Nov 2025).
-  - Edison Scientific ($70M raised, revenue unknown): integrates literature, data analysis, hypothesis generation, and planning across biomedical research rather than concentrating on autonomous ML experimentation ([Edison Scientific](https://edisonscientific.com/news/we-raised-70m-to-accelerate-science), Dec 2025).
-  - Periodic Labs ($300M raised, revenue unknown): combines AI scientists with autonomous physical-science laboratories, whereas rekursiv.ai’s disclosed work is software-based ML research ([TechCrunch](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/), Sep 2025; [Periodic Labs](https://periodic.com/)).
-  - Lila Sciences ($550M raised, revenue unknown): operates autonomous laboratories across life, chemical, and materials sciences rather than the disclosed ML-benchmark focus ([Lila Sciences](https://www.lila.ai/news), Oct 2025).
-- **Why now:** [Inferred]: Commercial coding models and single-GPU training became capable of sustaining 984 experiments over 30 days in late 2025, enabling a continuous research loop that the founder reported required eight system attempts to establish ([rekursiv.ai research report](https://rekursiv.ai/blog/an-ai-team-invented-an-algorithm-i-wouldnt-have/), Mar 2026).
+  - Sakana AI ($412M raised, revenue unknown): its AI Scientist automates hypothesis generation through paper writing, while the company also deploys custom enterprise AI in Japan ([Sakana AI Series B](https://sakana.ai/series-b/), Nov 2025; updated Apr 2026).
+  - Periodic Labs ($300M raised, revenue unknown): builds robotic laboratories for physical experiments rather than concentrating on software-only ML experiments ([Andreessen Horowitz](https://a16z.com/announcement/investing-in-periodic-labs/), Sep 2025).
+  - Lila Sciences ($550M raised, revenue unknown): combines reasoning models, robotics, and physical “AI Science Factories” across life, chemical, and materials sciences ([Lila Sciences](https://www.lila.ai/news/series-a-235-million), Oct 2025).
+  - Edison Scientific ($70M raised, revenue unknown): integrates AI scientists into biology, biotech, pharma, and clinical-development workflows ([Edison Scientific](https://edisonscientific.com/news/we-raised-70m-to-accelerate-science), Dec 2025).
+- **Why now:** [Inferred]: Coding agents and subscription-access frontier models became capable enough for a four-agent system running on Claude Max and one GPU to produce an ML paper for approximately $500 during November–December 2025 ([company research post](https://rekursiv.ai/blog/an-ai-team-invented-an-algorithm-i-wouldnt-have/), Mar 2026).
 
 ## Founders & Team
 
 - **Joshua V. Dillon (Co-founder):**
-  - Background: Georgia Tech Ph.D.; 13 years at Google Research and DeepMind; led foundation-model pre-training at Luma AI; created TensorFlow Probability and co-created the Veo prototype ([founder bio](https://rekursiv.ai/josh/), Jul 2026).
+  - Background: Ph.D. in Computational Science and Engineering from Georgia Tech; spent 13 years at Google Research and DeepMind, created TensorFlow Probability, built the Veo prototype, and later led foundational-model pre-training at Luma AI ([founder bio](https://rekursiv.ai/josh/), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “rekursiv.ai,” 637 followers and 470 connections ([LinkedIn](https://www.linkedin.com/in/jvdillon), Jul 2026).
-  - GitHub: @jvdillon, netv with 504 stars ([GitHub](https://github.com/jvdillon/), Jul 2026).
+  - LinkedIn: “rekursiv.ai,” with 637 followers ([LinkedIn](https://www.linkedin.com/in/jvdillon), Jul 2026).
+  - GitHub: @jvdillon; `netv` has 506 stars ([GitHub](https://github.com/jvdillon/), Aug 2026).
 - **Dan Kondratyuk (Co-founder):**
-  - Background: Boise State B.S. and Charles University M.S.; five years at Google Research; led Luma AI’s World Models team; first author of VideoPoet, an ICML 2024 Best Paper ([founder bio](https://rekursiv.ai/dan/), Jul 2026).
-  - Twitter/X: @hyperparticle, approximately 2K followers ([TwStalker](https://ww.twstalker.com/hyperparticle), Jul 2026).
-  - LinkedIn: “rekursiv.ai,” 2K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/dankondratyuk), Jul 2026).
-  - GitHub: @Hyperparticle, one-pixel-attack-keras with 1.2K stars ([GitHub](https://github.com/Hyperparticle), Jul 2026).
-- **Co-founder relationship:** Dillon and Kondratyuk previously worked at both Google and Luma AI, and Kondratyuk described Dillon as a friend when announcing their company ([founder bios](https://rekursiv.ai/josh/); [LinkedIn announcement](https://www.linkedin.com/posts/dankondratyuk_rekursivai-activity-7465785520959262720-bRn7), May 2026).
-- **Founder-market fit:** [Inferred]: Dillon’s probabilistic-ML and foundation-model work and Kondratyuk’s multimodal-model and research-leadership history directly overlap with the company’s autonomous ML-research workload ([Dillon bio](https://rekursiv.ai/josh/); [Kondratyuk bio](https://rekursiv.ai/dan/)).
+  - Background: M.S. in Computational Linguistics from Charles University and Saarland University and B.S. from Boise State; spent five years at Google Research, was first author of VideoPoet, and led Luma AI’s World Models team ([founder bio](https://rekursiv.ai/dan/), Aug 2026).
+  - Twitter/X: @hyperparticle, approximately 2K followers ([TwStalker](https://www6.twstalker.com/hyperparticle), Jun 2026).
+  - LinkedIn: “rekursiv.ai,” with approximately 2K followers ([LinkedIn](https://www.linkedin.com/in/dankondratyuk), Jul 2026).
+  - GitHub: @Hyperparticle; `one-pixel-attack-keras` has approximately 1.2K stars ([GitHub](https://github.com/Hyperparticle), Aug 2026).
+- **Co-founder relationship:** Dillon and Kondratyuk both worked at Google Research and Luma AI and co-authored VideoPoet ([Dillon bio](https://rekursiv.ai/josh/), [Kondratyuk bio](https://rekursiv.ai/dan/)).
+- **Founder-market fit:** The founders’ documented work on TensorFlow Probability, Veo, VideoPoet, Dream Machine, foundation-model training, and multimodal experimentation directly overlaps the company’s autonomous-ML-research scope ([YC profile, 2026](https://www.ycombinator.com/companies/rekursivai)).
 
 ## Key Risks
 
-- **Benchmark validation:** The ARC results use public evaluation, the company expects semi-private accuracy to be four to six percentage points lower, and it had not submitted to the semi-private set; the report publishes its protocol and comparison caveats as mitigation ([ARC-AGI report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 2026).
-- **Cross-domain transfer:** Hypothesis-Pinning Search reached 100% on Sudoku but did not improve ARC when transferred literally, although its feedback-and-repair mechanism did transfer ([Sudoku report](https://rekursiv.ai/blog/100-percent-accuracy-on-sudoku/), Jul 2026; [ARC-AGI report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 2026).
-- **Experiment throughput:** The company identifies experiment duration as the research loop’s bottleneck, with some ARC experiments lasting up to 48 hours; monitoring agents terminate poor runs early ([ARC-AGI report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 2026).
-- **Capitalized competition:** Sakana AI reports $412M in cumulative funding, Lila Sciences $550M, Periodic Labs $300M, and Edison Scientific $70M while developing overlapping autonomous-research systems ([Sakana AI](https://sakana.ai/series-b/); [Lila Sciences](https://www.lila.ai/news); [TechCrunch](https://techcrunch.com/2025/09/30/former-openai-and-deepmind-researchers-raise-whopping-300m-seed-to-automate-science/); [Edison Scientific](https://edisonscientific.com/news/we-raised-70m-to-accelerate-science)).
+- **Cross-domain generalization:** Hypothesis-Pinning Search reached 100% on Sudoku but did not improve ARC-AGI when transferred directly; the reported mitigation was retaining only its feedback-and-repair mechanism ([company Sudoku and ARC reports](https://rekursiv.ai/blog/100-percent-accuracy-on-sudoku/)).
+- **Benchmark validation:** The ARC results use public evaluation, no semi-private submission had been made, and the company expected semi-private accuracy to be four to six percentage points lower ([company ARC report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 2026).
+- **Experiment-throughput dependency:** The system required hundreds of experiments per campaign, and the company identifies experiment runtime as the feedback-loop bottleneck; monitoring agents terminate poorly performing experiments early ([company ARC report](https://rekursiv.ai/blog/pushing-limits-arc-agi/), Jul 2026).
+- **Open-source replication:** Discoveries and some system components are Apache-licensed, while Sakana AI also publishes competing AI-scientist code; rekursiv.ai has not disclosed whether its unreleased orchestration layer or experiment history is exclusive ([rekursiv.ai](https://rekursiv.ai/blog/pushing-limits-arc-agi/), [Sakana AI](https://arxiv.org/abs/2408.06292)).
+- **Commercial conversion visibility:** The product remains access-request gated with no public pricing, revenue, or named customers; the company has established contact intake and raised $5M from YC ([company site](https://rekursiv.ai/), [funding record](https://www.returner.fund/founders/dan-kondratyuk), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $8.60B global autonomous-AI and autonomous-agents market in 2025, with 28.4% forecast CAGR through 2035 (Emergen Research, Oct 2025) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | $5M raised from YC (Returner.fund snapshot of X, Jul 2026); 71.4%–75.5% ARC-AGI-1 accuracy at 16×–11,600× lower reported cost than selected peers (rekursiv.ai, Jul 2026); 100% accuracy on a 99,768-puzzle Sudoku stress test (rekursiv.ai, Jul 2026) |
+| Traction | $5M raised (founder X post via Returner.fund, Jul 2026); 71.4–75.5% ARC-AGI-1 and 17.5% ARC-AGI-2 (rekursiv.ai, Jul 2026); 100% reported Sudoku-Extreme accuracy (rekursiv.ai, Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Joshua V. Dillon (Co-founder): Georgia Tech Ph.D., ex-Google/DeepMind, led Luma foundation-model pre-training (rekursiv.ai founder bio, Jul 2026); Dan Kondratyuk (Co-founder): ex-Google, led Luma World Models, VideoPoet first author (rekursiv.ai founder bio, Jul 2026) |
-| Competitors | Sakana AI ($412M raised, revenue unknown, hypothesis-to-paper AI Scientist) (Sakana AI, Nov 2025); Edison Scientific ($70M raised, revenue unknown, biomedical full-stack research agents) (Edison Scientific, Dec 2025); Periodic Labs ($300M raised, revenue unknown, autonomous physical laboratories) (TechCrunch, Sep 2025); Lila Sciences ($550M raised, revenue unknown, life/chemical/materials laboratories) (Lila Sciences, Oct 2025) |
-| Moat Signals | No public data found |
-| Risk Factors | Public-versus-private benchmark validation gap (rekursiv.ai ARC report, Jul 2026), limited cross-domain algorithm transfer (rekursiv.ai Sudoku and ARC reports, Jul 2026), experiment-duration bottleneck (rekursiv.ai ARC report, Jul 2026) |
-| Founder Reach | Joshua V. Dillon: Twitter not found, LinkedIn 637 followers, GitHub top repo 504 stars (LinkedIn and GitHub, Jul 2026); Dan Kondratyuk: Twitter 2K, LinkedIn 2K, GitHub top repo 1.2K stars (TwStalker, LinkedIn, and GitHub, Jul 2026) |
-| Distribution Signals | GitHub organization 14 followers and sagent 25 stars (GitHub, Jul 30, 2026); two open roles (rekursiv.ai careers, Jul 2026); financing announcement received 3.5K views, 31 likes, and 8 bookmarks (Returner.fund snapshot of X, Jul 22, 2026) |
-| Emails | contact@rekursiv.ai (rekursiv.ai homepage, Jul 2026), hiring@rekursiv.ai (rekursiv.ai careers, Jul 2026) |
+| Founders | Joshua V. Dillon (Co-founder): Google/DeepMind staff researcher, TensorFlow Probability creator, Luma foundational-model lead (rekursiv.ai founder bio, Aug 2026); Dan Kondratyuk (Co-founder): Google researcher, VideoPoet first author, Luma World Models lead (rekursiv.ai founder bio, Aug 2026) |
+| Competitors | Sakana AI ($412M raised, revenue unknown, autonomous ML research through paper writing; Sakana AI, Apr 2026); Periodic Labs ($300M raised, revenue unknown, robotic physical labs; a16z, Sep 2025); Lila Sciences ($550M raised, revenue unknown, AI-directed science factories; Lila Sciences, Oct 2025); Edison Scientific ($70M raised, revenue unknown, biology and pharma workflows; Edison Scientific, Dec 2025) |
+| Moat Signals | 235 ARC experiments across 15 directions and 684 Sudoku experiments over four days coordinated by an autonomous loop (rekursiv.ai, Jul 2026) |
+| Risk Factors | No semi-private ARC submission and expected 4–6-point decline, HPS did not transfer directly from Sudoku to ARC, discoveries and some components Apache-licensed (rekursiv.ai, Jul 2026) |
+| Founder Reach | Joshua Dillon: Twitter no public account, LinkedIn 637 followers, GitHub top repo 506 stars (LinkedIn/GitHub, Aug 2026); Dan Kondratyuk: Twitter 2K, LinkedIn 2K, GitHub top repo 1.2K stars (TwStalker/LinkedIn/GitHub, Aug 2026) |
+| Distribution Signals | GitHub organization: 16 followers, eight repositories, `sagent` 29 stars (GitHub, Aug 2026); two open roles (rekursiv.ai careers page, Aug 2026) |
+| Emails | contact@rekursiv.ai, hiring@rekursiv.ai, jvdillon@gmail.com, dankondratyuk@gmail.com (company site, careers page, Dillon CV, Kondratyuk CV, Aug 2026) |

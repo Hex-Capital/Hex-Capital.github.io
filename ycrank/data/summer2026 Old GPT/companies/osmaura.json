@@ -1,0 +1,81 @@
+{
+  "slug": "osmaura",
+  "name": "Osmaura",
+  "oneLiner": "AI growth engine for law firms.",
+  "metadata": {
+    "website": "https://osmaura.com",
+    "yc_page": "https://www.ycombinator.com/companies/osmaura",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Sales Enablement, LegalTech, AI",
+    "yc_partner": "Jon Xu",
+    "emails": "founders@osmaura.com, kali@osmaura.com, jity@osmaura.com"
+  },
+  "tags": [
+    "Sales Enablement",
+    "LegalTech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:06:51.069Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 52,
+    "NR": 38,
+    "PG": 52,
+    "PT": 39,
+    "SL": 39,
+    "VK": 32
+  },
+  "consolidatedAvg": 41.57,
+  "consolidatedRank": 161,
+  "traction": {
+    "tractionRank": 72,
+    "tractionScore": 50,
+    "tractionReason": "Customers reportedly log in daily; count undisclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/osmaura.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/osmaura.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/osmaura.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/osmaura.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/osmaura.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/osmaura.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/osmaura.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/osmaura.md"
+    }
+  }
+}

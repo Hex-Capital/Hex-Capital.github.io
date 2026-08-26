@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://prized.dev",
     "yc_page": "https://www.ycombinator.com/companies/prized",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/prized), Aug 2026)",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, SaaS, Productivity",
-    "yc_partner": "Ankit Gupta",
-    "emails": "founders@prized.dev, privacy@prized.dev, legal@prized.dev"
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/prized), Aug 2026)",
+    "emails": "founders@prized.dev, privacy@prized.dev, legal@prized.dev ([Y Combinator](https://www.ycombinator.com/companies/prized); [Privacy Notice](https://app.prized.dev/legal/privacy); [Terms](https://app.prized.dev/legal/terms), 2026)"
   },
   "tags": [
     "Developer Tools",
@@ -19,52 +19,52 @@
     "Productivity"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:56:37.793Z",
+  "memoGeneratedAt": "2026-08-11T05:33:35.132Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 47,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 63,
+      "score": 45,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 38,
+      "score": 31,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 24,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 57,
-    "NR": 61,
-    "PG": 63,
-    "PT": 38,
-    "SL": 34,
-    "VK": 38
+    "CB": 47,
+    "EG": 42,
+    "NR": 40,
+    "PG": 45,
+    "PT": 31,
+    "SL": 30,
+    "VK": 24
   },
-  "consolidatedAvg": 48.43,
-  "consolidatedRank": 131,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 27,
-    "tractionReason": "207 launch reactions; no user evidence"
+    "tractionRank": 196,
+    "tractionScore": 26,
+    "tractionReason": "Ten outbound toolboxes; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/prized.md",

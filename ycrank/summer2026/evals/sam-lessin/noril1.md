@@ -1,30 +1,26 @@
-﻿# Nori -- Sam Lessin Evaluation
+﻿# noril1 -- Sam Lessin Evaluation
 
-**$1,288 for a bimanual household robot** makes Nori sleeve-shaped but not yet deal-shaped: Nori’s strongest dimension is the unsexy DTC-hardware / Wizard-of-Oz category fit, while Nori’s weakest is the missing evidence that the Summer 2026 round is actually mispriced. Software is worthless; a cheap physical robot is interesting. Quick walk-back: without valuation, deposit count, unit economics, or tier-1 pass data, I cannot tell whether Nori is an illegible asset I can buy cheaply or simply a hot robotics deck wearing a low product price.
+The proposed post-money valuation, competing-term-sheet count, and status of this check are all absent. More importantly, the supplied dossier contains no company evidence at all; it contains only a tooling-error message. Financing silence does not establish scarcity, so noril1 receives the explicit missing-evidence default rather than credit for being overlooked.
 
-**Fin’s high-rung mechanism was manual operation as the scaffolding for eventual automation**, and Nori’s remote teleoperation creates the same potentially load-bearing loop: humans complete tasks, demonstrations become downloadable skills, and a fleet should improve with use. Nori also activates my unstated DTC pattern by selling directly rather than hiding behind enterprise SaaS language. Nori diverges sharply from Fin because Antonio Sitong Li has disclosed no months of manual operation, task-success rates, shipped units, or marketplace usage; dish loading, bed-making, cleaning, and food preparation currently read as a catalog of promises rather than a demonstrated Wizard-of-Oz system.
+There is no named use of proceeds, finite experiment, measurable milestone, or deadline. I cannot identify what truth the capital would reveal, much less why that experiment requires venture funding. This is not evidence of a bad capital plan; it is no evidence of a capital plan.
 
-**Pinterest’s consensus-darling pricing is the low-rung failure mechanism Nori must escape**, because Pinterest only earned an exception through Ben Silbermann’s missionary temperament and personal-network sourcing. Nori discloses neither round price nor a tier-1 investor passing, so I apply the 9/30 absent-evidence default; a $1,288 product does not prove a cheap SAFE. Nori’s hardware category is less factory-farmed than the canonical AI-agent seed, but Sunday Robotics’ $165 million Series B and 1X’s disclosed $123.5 million show that household robotics is already legible to large pools of capital. No known exception rescues Nori on price today: Antonio Li has credible research experience, but no Pinterest-like relationship channel or proven missionary history that lets me ignore terms.
+The same limitation applies to the operating case. The dossier documents no product, proprietary workflow, customer action, revenue, margin, burn, or route to break-even. There is therefore no basis for claiming either an owned dark pool that causes purchases or a business capable of surviving without another round.
 
-**Nori’s first production batch reaching capacity** provides a small downside cushion, but the capital structure compounds badly over the next 18 months unless deposits finance repeatable manufacturing. Nori must manufacture two models, support teleoperators, certify in-home hardware, service failures, and build autonomy while charging only $1,288–$1,322; that is several regatta tacks before a credible Series A buyer can underwrite the fleet. If Nori’s contribution margin is negative, every preorder accelerates founder drainage. If Nori can ship from San Francisco at positive gross margin and use teleoperation revenue to fund autonomy, the same structure becomes genuinely venture-shaped rather than another five-round hardware dependency.
+No founders, employment history, shipped products, deployments, or domain access are identified. I cannot determine which systems noril1 joins or whether its team has operated on either side of them. Credentials cannot be inferred from the company’s presence in a YC batch.
 
-**Antonio Sitong Li researched VR-demonstrated goals for robot teams at Columbia** and previously built software that reached 1.5 million impressions and 2,000 users, which places Nori above mere robotics tourism on asymmetric conviction. Nori’s 41,000-view launch and full first batch reinforce execution, but Antonio’s public record does not yet show three years of obsession, opinionated category writing, or a non-obvious belief he refuses to surrender. The score flips into the top rung if Nori can show pre-YC lab notebooks, task demonstrations, or writing establishing that the sub-$1,500 architecture preceded the current robotics funding wave; without those artifacts, Nori has founder-market fit but not yet proven missionary temperament.
+The strongest bull case is that this score measures a failed research artifact, not noril1: a genuine pre-seed company could possess exceptional founders, technical proof, and customer pull that simply never entered the dossier. That possibility prevents an actively adverse score, but possibility is not underwriting evidence. My verifiable flip condition is a complete dossier showing the round terms and one dated, measurable experiment funded by the round, supported by either observed customer conversion or founder operating receipts.
 
-**John Fish / Bookshelved had owned distribution before the financing**, making the person an underwritable asset rather than a founder who happened to have followers. Nori has a weaker version of that mechanism: Antonio Li has roughly 2.9K X followers, 4K LinkedIn followers, a Discord, and a launch post with 575 likes. Nori therefore has more founder-distribution leverage than a paid-acquisition hardware startup, but Antonio’s audience has not been shown to predate Nori by two years, produce 10K users, or convert into a measurable community. I would underwrite the audience as useful launch distribution, not as an asset already sitting on Nori’s cap table.
-
-**Sunday Robotics’ $165 million financing base** makes my 36-month forecast concrete: Nori will pivot from general-purpose household robots into teleoperated light-commercial work—hospitality, food preparation, or facilities—and reach roughly $2 million to $6 million in annualized revenue by July 2029, rather than scale the $1,288 consumer fleet. Nori’s category fit supplies the mechanism: cheap hardware plus human fallback can solve a narrow workflow before autonomy is general. Nori’s weak round legibility and manufacturing burden force the pivot because narrow commercial utilization can support service revenue and controlled environments in a way sporadic household chores cannot.
-
-**Ro’s known exception is the strongest case against that forecast**: capital intensity can itself become the moat when venture dollars clear operational complexity that smaller competitors cannot. The bull mechanism says Nori’s capacity-filled first batch, Antonio Li’s robotics research, sevenfold price advantage over Weave’s $7,999 Isaac 1, and transferable-skills architecture could create an Allbirds-like DTC wedge that later compounds into fleet data. Nori has not yet earned the Ro exception because no delivered-unit count, gross margin, retention, safety protocol, or task-success rate shows that the operational complexity is being conquered rather than advertised. I would flip from Neutral to Invest if Nori verifies 500 delivered household units with positive gross margin and at least 60% still completing a repeated weekly task after 90 days; until then, Nori is a compelling sleeve fit without an underwritable personal check.
+I pass at present. Within 36 months, my forecast is that noril1 will be untrackable under this name or will have pivoted, because the record supplies no product or operating mechanism from which a more specific outcome can responsibly be derived.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Round Is Mis-Priced or Non-Consensus, Not the Hot YC Deck | 9/30 |
-| Capital Structure Is Venture-Shaped, Not Founder-Drainage | 11/22 |
-| Founder Has Asymmetric Conviction Visible Pre-Pitch | 15/20 |
-| Founder-as-Brand or Owned Community Is on the Cap Table | 8/15 |
-| Category Lives in a Sleeve You're Already Convicted On | 11/13 |
-| **Total** | **54/100** |
+| Round Terms Show Capital Is Scarce, Not Auctioned | 6/28 |
+| Round Proceeds Test One Named Venture Moment | 6/24 |
+| Owned Audience, Data, or Workflow Already Causes a Purchase | 5/20 |
+| Dossier Shows a Profitable Path Without the Next Round | 7/18 |
+| Founder Has Shipped on Both Sides of the System Being Joined | 4/10 |
+| **Total** | **28/100** |
 
-**Total Score: 54/100** (Neutral)
+**Total Score: 28/100** (Pass)

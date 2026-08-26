@@ -1,0 +1,79 @@
+{
+  "slug": "callbook-ai",
+  "name": "Callbook AI",
+  "oneLiner": "AI collections agency for late stage portfolios",
+  "metadata": {
+    "website": "https://callbook.ai",
+    "yc_page": "https://www.ycombinator.com/companies/callbook-ai",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "7",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "AI",
+    "yc_partner": "Jon Xu ([YC](https://www.ycombinator.com/companies/callbook-ai), Aug 2026)",
+    "emails": "sales@callbook.ai, privacy@callbook.ai, support@callbook.ai ([YC](https://www.ycombinator.com/companies/callbook-ai); [Terms](https://www.callbook.ai/terms-of-use/), Aug 2026)"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:18:10.099Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 78,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 70,
+    "NR": 66,
+    "PG": 78,
+    "PT": 57,
+    "SL": 44,
+    "VK": 28
+  },
+  "consolidatedAvg": 56.29,
+  "consolidatedRank": 20,
+  "traction": {
+    "tractionRank": 13,
+    "tractionScore": 82,
+    "tractionReason": "23M interactions; 2M borrowers; $11M recovered"
+  },
+  "paths": {
+    "memo": "summer2026/memos/callbook-ai.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/callbook-ai.md",
+      "elad-gil": "summer2026/evals/elad-gil/callbook-ai.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/callbook-ai.md",
+      "paul-graham": "summer2026/evals/paul-graham/callbook-ai.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/callbook-ai.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/callbook-ai.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/callbook-ai.md"
+    }
+  }
+}

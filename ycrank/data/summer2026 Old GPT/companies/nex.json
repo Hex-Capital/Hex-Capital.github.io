@@ -1,0 +1,80 @@
+{
+  "slug": "nex",
+  "name": "Nex",
+  "oneLiner": "Claude Cowork for GTM Automations",
+  "metadata": {
+    "website": "https://nex.ai",
+    "yc_page": "https://www.ycombinator.com/companies/nex",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Workflow Automation",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "contact@nex.ai"
+  },
+  "tags": [
+    "AIOps",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:27:34.576Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 58,
+    "NR": 69,
+    "PG": 73,
+    "PT": 41,
+    "SL": 43,
+    "VK": 38
+  },
+  "consolidatedAvg": 53.57,
+  "consolidatedRank": 86,
+  "traction": {
+    "tractionRank": 43,
+    "tractionScore": 61,
+    "tractionReason": "1,229 stars, Product Hunt #7, $100 monthly Pro"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/nex.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/nex.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/nex.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/nex.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/nex.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/nex.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/nex.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/nex.md"
+    }
+  }
+}

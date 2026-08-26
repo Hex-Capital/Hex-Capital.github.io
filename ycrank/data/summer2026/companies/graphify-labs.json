@@ -10,8 +10,8 @@
     "team_size": "2",
     "location": "London, England, United Kingdom",
     "tags": "Developer Tools, Reinforcement Learning, Open Source",
-    "yc_partner": "Jared Friedman",
-    "emails": "founders@graphify.com, founders@graphifylabs.ai"
+    "yc_partner": "Jared Friedman ([YC](https://www.ycombinator.com/companies/graphify-labs), Aug 2026)",
+    "emails": "founders@graphifylabs.ai ([Graphify security](https://graphify.com/security), Aug 2026), founders@graphify.com ([GitHub](https://github.com/Graphify-Labs), Aug 2026)"
   },
   "tags": [
     "Developer Tools",
@@ -19,52 +19,52 @@
     "Open Source"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:38:59.645Z",
+  "memoGeneratedAt": "2026-08-11T05:08:24.242Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 78,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 77,
-      "tier": "Invest"
-    },
-    "paul-graham": {
       "score": 67,
       "tier": "Invest"
     },
+    "elad-gil": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 60,
+      "score": 48,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 41,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 78,
-    "NR": 77,
-    "PG": 67,
-    "PT": 60,
-    "SL": 56,
-    "VK": 49
+    "CB": 67,
+    "EG": 65,
+    "NR": 59,
+    "PG": 59,
+    "PT": 48,
+    "SL": 40,
+    "VK": 41
   },
-  "consolidatedAvg": 63.29,
-  "consolidatedRank": 8,
+  "consolidatedAvg": 54.14,
+  "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 83,
-    "tractionReason": "4M+ downloads, 98.8K stars, production enterprise users"
+    "tractionRank": 23,
+    "tractionScore": 76,
+    "tractionReason": "105K GitHub stars and 4.7M downloads"
   },
   "paths": {
     "memo": "summer2026/memos/graphify-labs.md",

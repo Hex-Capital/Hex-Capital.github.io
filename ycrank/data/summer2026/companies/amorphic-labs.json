@@ -1,0 +1,81 @@
+{
+  "slug": "amorphic-labs",
+  "name": "Amorphic Labs",
+  "oneLiner": "Agentic, Personalized Product Demo Videos for Sales",
+  "metadata": {
+    "website": "https://www.amorphiclabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/amorphic-labs",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Sales, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "B2B",
+    "Sales",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:49:08.774Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 23,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 43,
+    "NR": 33,
+    "PG": 35,
+    "PT": 34,
+    "SL": 30,
+    "VK": 23
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 208,
+  "traction": {
+    "tractionRank": 236,
+    "tractionScore": 0,
+    "tractionReason": "No customers, users, or revenue disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/amorphic-labs.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/amorphic-labs.md",
+      "elad-gil": "summer2026/evals/elad-gil/amorphic-labs.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/amorphic-labs.md",
+      "paul-graham": "summer2026/evals/paul-graham/amorphic-labs.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/amorphic-labs.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/amorphic-labs.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/amorphic-labs.md"
+    }
+  }
+}

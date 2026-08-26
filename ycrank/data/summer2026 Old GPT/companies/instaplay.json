@@ -1,0 +1,80 @@
+{
+  "slug": "instaplay",
+  "name": "Instaplay",
+  "oneLiner": "AI-Native Social Platform, Starting with Games",
+  "metadata": {
+    "website": "https://instaplay.ai",
+    "yc_page": "https://www.ycombinator.com/companies/instaplay",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Gaming",
+    "yc_partner": "Diana Hu",
+    "emails": "akhilag01@gmail.com ([LinkedIn](https://www.linkedin.com/in/akhil--aggarwal), Jul 2026, via search snippet)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Gaming"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:51:56.299Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 56,
+    "NR": 68,
+    "PG": 49,
+    "PT": 30,
+    "SL": 38,
+    "VK": 34
+  },
+  "consolidatedAvg": 45,
+  "consolidatedRank": 148,
+  "traction": {
+    "tractionRank": 48,
+    "tractionScore": 59,
+    "tractionReason": "Multiple games recorded roughly 4,500-5,500 plays"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/instaplay.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/instaplay.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/instaplay.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/instaplay.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/instaplay.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/instaplay.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/instaplay.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/instaplay.md"
+    }
+  }
+}

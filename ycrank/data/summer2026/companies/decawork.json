@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://decawork.ai/",
     "yc_page": "https://www.ycombinator.com/companies/decawork",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/decawork), Aug 2026)",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, B2B, Infrastructure",
-    "yc_partner": "Brad Flora",
-    "emails": "founders@decawork.ai, sarthak@decawork.ai"
+    "yc_partner": "Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/decawork), Aug 2026)",
+    "emails": "founders@decawork.ai ([company website](https://decawork.ai/), Aug 2026), sarthak@decawork.ai ([LinkedIn](https://www.linkedin.com/in/sarthak-agg), Aug 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:32:34.878Z",
+  "memoGeneratedAt": "2026-08-11T04:46:49.149Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
+      "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 64,
+      "score": 50,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 48,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 72,
-      "tier": "Invest"
+      "score": 42,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 40,
+      "score": 33,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 37,
+      "score": 22,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 64,
-    "NR": 48,
-    "PG": 72,
-    "PT": 40,
-    "SL": 38,
-    "VK": 37
+    "CB": 57,
+    "EG": 50,
+    "NR": 47,
+    "PG": 42,
+    "PT": 33,
+    "SL": 33,
+    "VK": 22
   },
-  "consolidatedAvg": 50.43,
-  "consolidatedRank": 113,
+  "consolidatedAvg": 40.57,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 148,
+    "tractionRank": 200,
     "tractionScore": 24,
-    "tractionReason": "Prior enterprise deployments excluded; current traction undisclosed"
+    "tractionReason": "Current traction undisclosed after product shift"
   },
   "paths": {
     "memo": "summer2026/memos/decawork.md",

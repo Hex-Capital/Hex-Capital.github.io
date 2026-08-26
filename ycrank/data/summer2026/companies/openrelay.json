@@ -5,64 +5,64 @@
   "metadata": {
     "website": "https://www.openrelay.inc",
     "yc_page": "https://www.ycombinator.com/companies/openrelay",
-    "batch": "Summer 2026",
+    "batch": "[Summer 2026](https://www.ycombinator.com/companies/openrelay)",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "Seattle, WA, USA",
     "tags": "AI",
-    "yc_partner": "Brad Flora",
-    "emails": "hello@openrelay.inc, sales@openrelay.inc"
+    "yc_partner": "[Brad Flora](https://www.ycombinator.com/companies/openrelay)",
+    "emails": "founders@openrelay.inc, hello@openrelay.inc, sales@openrelay.inc, security@openrelay.inc ([YC Launch](https://www.ycombinator.com/launches/SUY-openrelay-the-inference-delivery-network); [company contact page](https://openrelay.inc/contact); [security page](https://openrelay.inc/security))"
   },
   "tags": [
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:29:56.070Z",
+  "memoGeneratedAt": "2026-08-11T04:40:22.458Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 77,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 72,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 70,
+      "score": 73,
       "tier": "Invest"
     },
     "paul-graham": {
-      "score": 68,
+      "score": 71,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 47,
+      "score": 63,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 42,
+      "score": 44,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 53,
-    "NR": 70,
-    "PG": 68,
-    "PT": 47,
-    "SL": 42,
-    "VK": 41
+    "CB": 77,
+    "EG": 72,
+    "NR": 73,
+    "PG": 71,
+    "PT": 63,
+    "SL": 44,
+    "VK": 48
   },
-  "consolidatedAvg": 54.29,
-  "consolidatedRank": 78,
+  "consolidatedAvg": 64,
+  "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 42,
-    "tractionReason": "Stripe billing live; no customers or revenue disclosed"
+    "tractionRank": 10,
+    "tractionScore": 84,
+    "tractionReason": "100B tokens weekly across 22 production locations"
   },
   "paths": {
     "memo": "summer2026/memos/openrelay.md",

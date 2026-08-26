@@ -1,0 +1,81 @@
+{
+  "slug": "baud",
+  "name": "Baud",
+  "oneLiner": "AI chips for ultra-fast model training and inference",
+  "metadata": {
+    "website": "https://baudlabs.ai",
+    "yc_page": "https://www.ycombinator.com/companies/baud",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Semiconductors, AI",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Semiconductors",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T21:24:33.910Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 77,
+      "tier": "Invest"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 76,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 49,
+    "NR": 57,
+    "PG": 68,
+    "PT": 77,
+    "SL": 38,
+    "VK": 76
+  },
+  "consolidatedAvg": 62.29,
+  "consolidatedRank": 13,
+  "traction": {
+    "tractionRank": 114,
+    "tractionScore": 36,
+    "tractionReason": "FPGA prototype live; design-partner count undisclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/baud.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/baud.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/baud.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/baud.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/baud.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/baud.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/baud.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/baud.md"
+    }
+  }
+}

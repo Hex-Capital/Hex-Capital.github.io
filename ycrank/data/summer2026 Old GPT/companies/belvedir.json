@@ -1,0 +1,80 @@
+{
+  "slug": "belvedir",
+  "name": "Belvedir",
+  "oneLiner": "The autonomous private AI platform.",
+  "metadata": {
+    "website": "https://belvedir.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/belvedir",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Reinforcement Learning",
+    "yc_partner": "Harshita Arora",
+    "emails": "founders@fractalresearch.ai"
+  },
+  "tags": [
+    "Machine Learning",
+    "Reinforcement Learning"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:59:27.798Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 47,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 49,
+    "NR": 53,
+    "PG": 51,
+    "PT": 45,
+    "SL": 38,
+    "VK": 47
+  },
+  "consolidatedAvg": 48.57,
+  "consolidatedRank": 130,
+  "traction": {
+    "tractionRank": 81,
+    "tractionScore": 47,
+    "tractionReason": "Few closed-alpha customers; no revenue disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/belvedir.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/belvedir.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/belvedir.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/belvedir.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/belvedir.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/belvedir.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/belvedir.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/belvedir.md"
+    }
+  }
+}

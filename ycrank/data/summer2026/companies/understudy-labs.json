@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Open Source, AI, ML",
     "yc_partner": "Tyler Bosmeny",
-    "emails": "support@understudylabs.com"
+    "emails": "support@understudylabs.com ([Privacy Notice, Jun 2026](https://understudylabs.com/privacy))"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,52 +20,52 @@
     "ML"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:55:56.320Z",
+  "memoGeneratedAt": "2026-08-11T16:34:14.098Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 50,
+      "score": 59,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 62,
+      "score": 49,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 46,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 63,
+      "score": 48,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 39,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 36,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 62,
-    "NR": 66,
-    "PG": 63,
-    "PT": 39,
-    "SL": 36,
-    "VK": 40
+    "CB": 59,
+    "EG": 49,
+    "NR": 46,
+    "PG": 48,
+    "PT": 44,
+    "SL": 35,
+    "VK": 39
   },
-  "consolidatedAvg": 50.86,
-  "consolidatedRank": 111,
+  "consolidatedAvg": 45.71,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 44,
-    "tractionReason": "Small private-preview design-partner group"
+    "tractionRank": 144,
+    "tractionScore": 42,
+    "tractionReason": "Private preview with small design-partner group"
   },
   "paths": {
     "memo": "summer2026/memos/understudy-labs.md",

@@ -1,7 +1,7 @@
 {
   "slug": "dock",
   "name": "Dock",
-  "oneLiner": "Multiplayer agent workspace that grows your company without growing?",
+  "oneLiner": "Multiplayer agent workspace to run your company",
   "metadata": {
     "website": "https://trydock.ai",
     "yc_page": "https://www.ycombinator.com/companies/dock",
@@ -9,61 +9,61 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, AI",
+    "tags": "Artificial Intelligence, B2B",
     "yc_partner": "Brad Flora",
-    "emails": "hello@trydock.ai, security@trydock.ai"
+    "emails": "hello@trydock.ai, billing@trydock.ai, privacy@trydock.ai, security@trydock.ai"
   },
   "tags": [
-    "B2B",
-    "AI"
+    "Artificial Intelligence",
+    "B2B"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:30:31.647Z",
+  "memoGeneratedAt": "2026-08-11T04:39:17.397Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 44,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 37,
+      "score": 26,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 69,
-    "NR": 68,
-    "PG": 62,
-    "PT": 42,
-    "SL": 44,
-    "VK": 37
+    "CB": 44,
+    "EG": 46,
+    "NR": 40,
+    "PG": 38,
+    "PT": 30,
+    "SL": 30,
+    "VK": 26
   },
-  "consolidatedAvg": 52.71,
-  "consolidatedRank": 95,
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 197,
   "traction": {
-    "tractionRank": 124,
-    "tractionScore": 33,
-    "tractionReason": "Commercial beta; negligible repository usage"
+    "tractionRank": 208,
+    "tractionScore": 20,
+    "tractionReason": "One GitHub follower; no commercial usage"
   },
   "paths": {
     "memo": "summer2026/memos/dock.md",

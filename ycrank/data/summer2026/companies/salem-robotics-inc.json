@@ -1,7 +1,7 @@
 {
   "slug": "salem-robotics-inc",
   "name": "Salem Robotics Inc",
-  "oneLiner": "We deploy robots for inspections in hazardous spaces, like nuclear.",
+  "oneLiner": "Deploying robots for inspections in hazardous spaces, like nuclear.",
   "metadata": {
     "website": "https://salemroboticsinc.com",
     "yc_page": "https://www.ycombinator.com/companies/salem-robotics-inc",
@@ -9,62 +9,64 @@
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "Austin, TX, USA",
-    "tags": "Hard Tech, Robotics, Industrial",
+    "tags": "Hard Tech, Robotics, Energy, Defense, Industrial",
     "yc_partner": "Jon Xu",
-    "emails": "Engage@salemroboticsinc.com"
+    "emails": "Engage@salemroboticsinc.com, Calebjhoran@gmail.com, Janak.panthi3@gmail.com, Jpanthi@utexas.edu"
   },
   "tags": [
     "Hard Tech",
     "Robotics",
+    "Energy",
+    "Defense",
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:25:34.129Z",
+  "memoGeneratedAt": "2026-08-11T04:28:31.577Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 82,
+      "score": 65,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
+      "score": 41,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 73,
+    "naval-ravikant": {
+      "score": 65,
       "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 55,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 33,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
+      "score": 39,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 82,
-    "EG": 50,
-    "NR": 43,
-    "PG": 73,
+    "CB": 65,
+    "EG": 41,
+    "NR": 65,
+    "PG": 52,
     "PT": 55,
-    "SL": 53,
-    "VK": 49
+    "SL": 33,
+    "VK": 39
   },
-  "consolidatedAvg": 57.86,
-  "consolidatedRank": 44,
+  "consolidatedAvg": 50,
+  "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 23,
-    "tractionReason": "Awards and competition participation; no customers"
+    "tractionRank": 149,
+    "tractionScore": 40,
+    "tractionReason": "Active nuclear and oil-and-gas contract scoping"
   },
   "paths": {
     "memo": "summer2026/memos/salem-robotics-inc.md",

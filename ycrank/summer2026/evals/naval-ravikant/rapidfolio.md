@@ -1,30 +1,22 @@
-﻿# Rapidfolio -- Naval Ravikant Evaluation
+﻿# rapidfolio -- Naval Ravikant Evaluation
 
-Naveen Qureshi sold Sable in 2022, while Frederik Vanhevel built Sable’s systems and Seen’s credit-decisioning engine. Rapidfolio is therefore a specific-knowledge-rich founder bet attached to a network-poor product: the founders know financial operations from the inside, but Rapidfolio gains no obvious value when the next bank joins. Expertise creates the product. It does not create compounding distribution. Rapidfolio looks like capable enterprise software, not yet asymmetric angel architecture.
+The dossier contains no evidence about rapidfolio. It says research will be performed, but supplies no founder names, prior work, product description, customers, technical artifacts, market definition, competitors, pricing, or transactions. Intent to verify is not verification. Specific knowledge is revealed through action; here, no action is documented.
 
-**Stack Overflow** is the high rung for specific knowledge: developers built a public artifact for developers, and the artifact itself proved the knowledge before the financing story. Rapidfolio shares the load-bearing mechanism—Qureshi operated at Capital One, founded and sold Sable, and Vanhevel built Sable and Seen infrastructure—but Rapidfolio diverges because no public repository, technical writing, or founder-built community exposes that knowledge permissionlessly. The prior exit and repeated fintech collaboration still put Rapidfolio near the high rung. The knowledge is real; the leverage on the knowledge is not yet visible.
+Without an architecture or deployed asset, I cannot identify anything that survives a competitor copying the code. There is no evidence of proprietary data, hardware, a differentiated model, workflow lock-in, or compounding taste. This is uncertainty rather than proof of a commodity product, so the moat receives its absent-evidence prior rather than an adverse score.
 
-**Perplexity** is the low rung on network effects: each user initially received a useful answer without making the product directly more valuable for the previous user. Perplexity escaped through exceptional technical knowledge, product-led distribution, and pre-consensus AI timing. Rapidfolio has the same single-sided weakness without the same escape route. Each customer contributes private procedures, integrations, and execution histories that Rapidfolio cannot freely redistribute across regulated institutions. Switching costs may compound for Rapidfolio, but customer-added value does not. A database of bespoke deployments is not a network.
+The same constraint applies to upside. No initial buyer or adjacent market is named. No user-to-user contribution, referral, matching, or liquidity loop is described. No payer, price, revenue, signed agreement, or completed transaction demonstrates direct value capture. Pre-seed companies need not have scale, but an investment still needs evidence of a mechanism.
 
-One Forward Deployed Engineer must map customer processes, wire integrations, build workflows, and remain through launch. Over 18 months, that mechanism compounds labor faster than code unless procedures become reusable primitives: more Rapidfolio customers mean more integrations, support obligations, and institution-specific exceptions. API, Slack, Jira, and scheduled triggers provide code leverage after deployment, but Rapidfolio’s founder-hosted demos, dedicated support, and workflow-specific onboarding require permission at the point of distribution. Code inside the product is not the same as permissionless code around the product.
-
-$26.52B of global financial-crime compliance spending gives Rapidfolio room, while underwriting, fraud, disputes, reconciliation, and data entry provide adjacent pivots beyond KYC. Rapidfolio would move into the top market rung if the same procedure compiler worked across healthcare, insurance, logistics, and government without rebuilding integrations or compliance controls. The present evidence stops inside regulated finance: SOC 2, financial-document handling, 30+ vendor integrations, and bank-specific audit records. Rapidfolio has a large market, but not yet a market-shaped platform.
-
-Naveen Qureshi’s clean Sable exit and his multi-company working relationship with Frederik Vanhevel parallel **AngelList** on the long-term-people axis: repeated collaboration is harder to fake than a four-logo résumé. Rapidfolio’s founders show intelligence and energy through a prior exit, 30+ integrations, and live U.S. and Canadian customers. Rapidfolio’s integrity reads clean, but 99.9%+ accuracy lacks a published methodology, so I will not infer the full Buffett trio from marketing claims. Play long-term games with long-term people—but verify claims that execute regulated decisions.
-
-Live customers report onboarding reviews falling from three days to under two minutes, an 83% queue reduction, and projected first-year savings above $350K. My falsifiable 36-month forecast is that Rapidfolio reaches $8M–$15M ARR as deployment-heavy financial-operations software, with services or forward-deployed work still attached to most contracts and no measurable cross-customer network effect. Rapidfolio can build a good business because the founders possess specific knowledge; Rapidfolio does not yet show the permissionless geometry required for a 1,000x outcome.
-
-Bretton has raised $95.3M and WorkFusion approximately $410M, yet Rapidfolio’s bull case is sharp: repeat fintech founders convert any written or recorded procedure into deterministic, tested, auditable execution across 30+ integrations, turning bespoke operations into a general compiler. That could invoke the **Perplexity** exception—waive the missing network because technical depth, product leverage, and category timing dominate. The objection stings, but Rapidfolio’s demo-led acquisition and Forward Deployed Engineer role show that the compiler still requires human compilation. I do not write the check today. I would flip to Invest if Rapidfolio verifies that at least 50% of new customers deploy without forward-engineering work and that reusable workflow components reduce median onboarding time with every ten additional customers.
+None of the known exceptions applies. There is no demonstrated prototype, exceptional founder behavior, or self-reinforcing adoption capable of overriding the missing business evidence. I pass because there is presently no underwritable option, not because rapidfolio has been shown to be a bad company. The single flip condition is a sourced dossier documenting the founders’ exact-domain work, a functioning product used repeatedly by identifiable users, and the durable asset created by that usage.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Permissionless Leverage Architecture (Code or Media as Primary Distribution) | 9/28 |
-| Marketplace or Network with Compounding User-Added Value | 4/22 |
-| Founder Has Non-Trainable Specific Knowledge in the Domain | 18/20 |
-| Big Market with Room for Multiple Pivots Without Refinancing | 12/16 |
-| Founder Trio (Intelligence + Energy + Integrity) Reads as a 10-Year Partner | 11/14 |
-| **Total** | **54/100** |
+| Founder Has Shipped or Sold Into the Exact Problem | 8/31 |
+| Advantage Survives a Competitor Copying the Code | 5/24 |
+| Initial Wedge Names a Large Adjacent Market | 5/19 |
+| Users Create Value or Distribution for Other Users | 3/15 |
+| Pricing or Transactions Prove Direct Value Capture | 3/11 |
+| **Total** | **24/100** |
 
-**Total Score: 54/100** (Neutral)
+**Total Score: 24/100** (Pass)

@@ -11,76 +11,78 @@
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Real Estate, Enterprise Software |
-| YC Partner | Jon Xu |
-| Emails | No public data found |
+| YC Partner | Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/realpact), Aug 2026) |
+| Emails | founder@signpact.ai ([RealPact Terms](https://realpact.ai/terms), Dec 2024) |
 
 ## The Idea
 
-- **Problem:** Real-estate brokers gather deeds, tax records, permits, parcel data and MLS information from separate government and industry systems before manually completing contracts and tracking transaction deadlines ([Y Combinator](https://www.ycombinator.com/companies/realpact), Jul 2026).
-- **Approach:** RealPact’s agents retrieve and cross-reference city-, county- and state-level property records, parse the data, populate brokerage contracts and coordinate subsequent workflow steps through a voice interface ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026; [LinkedIn](https://www.linkedin.com/company/realpact), Jul 2026).
-- **Differentiation:** Unlike ListedKit’s uploaded-contract deadline extraction, SkySlope’s transaction/compliance suite and Brokermint’s back-office platform, RealPact begins by retrieving external property records and using them to populate contracts ([ListedKit](https://www.listedkit.com/?p=407), 2026; [SkySlope](https://skyslope.com/), 2026; [Newswire](https://www.newswire.com/news/boomtown-acquires-brokermint-the-industry-leader-in-cloud-based-21348011), Mar 2021).
-- **Business Model:** [Inferred]: Brokerage software sold through firm-wide pilots and direct sales, with pricing negotiated privately because the website provides “Talk to Us” rather than public plans.
-- **TAM/SAM:** The global real-estate transaction-management software market was estimated at $2.01 billion in 2025 and projected to reach $4.93 billion by 2033 at an 11.88% CAGR ([Maia Research](https://www.marketresearch.com/Maia-Research-v4212/Global-Real-Estate-Transaction-Management-43691658/), 2025).
-- **GTM / Distribution:** RealPact reports selling to New Hampshire brokerages and operating a firm-wide pilot with Four Seasons Sotheby’s before expanding nationally ([Y Combinator](https://www.ycombinator.com/companies/realpact), Jul 2026; [LinkedIn](https://www.linkedin.com/company/realpact), Jul 2026).
+- **Problem:** Real-estate agents and brokerages use disconnected tools such as Dotloop, SkySlope, MLS portals, registries, and manual forms, resulting in 30–40 minutes of data entry per contract and a company-estimated 200+ hours per agent annually ([RealPact](https://realpact.ai/case-studies/dinosaurs-are-comfortable), May 2026).
+- **Approach:** Voice-powered agents retrieve deed, tax, property, and MLS records, cross-reference the data, populate contracts, and return a signature-ready New Hampshire purchase-and-sale agreement in under five minutes ([RealPact](https://realpact.ai), Aug 2026).
+- **Differentiation:** [Inferred]: Dotloop provides document collaboration and e-signatures, SkySlope combines forms, transaction management, compliance, and accounting, and Brokermint automates brokerage back offices, while RealPact initiates record retrieval and contract drafting from an address or voice command ([Dotloop](https://www.dotloop.com/terms-conditions-2/); [SkySlope](https://skyslope.com/); [Brokermint](https://brokermint.com/brokermint-real-estate-back-office-management-software-2/); [RealPact](https://realpact.ai/announcement)).
+- **Business Model:** Subscription tiers target individual agents, teams, and brokerages, with pricing based on agent count and transaction volume, monthly or annual billing, pilots, and negotiated enterprise terms, but no current prices are published ([RealPact Terms](https://realpact.ai/terms), Dec 2024).
+- **TAM/SAM:** The global real-estate digital-transaction-management market was $515.8 million in 2023 and was forecast to grow at a 25.1% CAGR through 2030, while no public SAM estimate was found for U.S. brokerage contract automation ([Grand View Research](https://www.grandviewresearch.com/horizon/statistics/digital-transaction-management-market/vertical/real-estate/global)).
+- **GTM / Distribution:** RealPact sells to New Hampshire brokerages, reports a firm-wide Four Seasons Sotheby’s pilot, and plans nationwide brokerage expansion ([Y Combinator](https://www.ycombinator.com/companies/realpact); [LinkedIn](https://www.linkedin.com/company/realpact), Aug 2026).
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Brokerage-specific workflow configurations, corrections and integrations could produce switching costs and proprietary operational data, but no scale, retention or exclusive-data evidence is public.
+- **Future moat:** [Inferred]: Brokerage-specific templates, MLS and registry integrations, accumulated transaction workflows, and data feedback could create switching costs and automation accuracy advantages, but this remains unproven with 10+ brokerages publicly reported ([RealPact](https://realpact.ai), Aug 2026).
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** ListedKit already extracts contract information and automates timelines and communications, while SkySlope applies AI to transactions, compliance and back-office workflows ([Inman](https://www.inman.com/2025/08/15/all-new-listedkit-is-giving-ai-the-wheel-in-transaction-management-tech-review/), Aug 2025; [SkySlope](https://skyslope.com/), 2026).
+- **Commoditization risk:** SkySlope already markets AI-powered transaction automation across a platform serving 900,000 real-estate professionals and 3 million transactions annually, while general language, vision, and voice models can support the same extraction workflow ([SkySlope](https://skyslope.com/); [RealPact](https://realpact.ai/case-studies/dinosaurs-are-comfortable), May 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - $500,000 raised from Y Combinator, plus undisclosed funding from Leap Year, pitch competitions and angels ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026).
-  - $20,000 Jeff Crowe Grand Prize at the 2026 Magnuson Startup Competition ([Magnuson Center](https://magnuson.dartmouth.edu/news/over-75k-awarded-in-startup-support-spring-2026), Jun 2026).
-  - Paying realtors and brokerages in New Hampshire, with an unspecified number of active users ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026).
-  - Firm-wide pilot with Four Seasons Sotheby’s ([LinkedIn](https://www.linkedin.com/company/realpact), Jul 2026).
-  - 1,039 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/realpact), Jul 2026).
-  - Zero YC job postings ([Y Combinator](https://www.ycombinator.com/companies/realpact), Jul 2026).
-  - Prior product: SignPact offered unlimited e-signatures to its first 100 customers for $9.99 monthly before evolving into RealPact ([Erik Peterson LinkedIn](https://www.linkedin.com/in/erik-peterson-mn), 2025; [Ranvir Deshmukh](https://www.ranvirdeshmukh.com/), Jul 2026).
+  - 10+ brokerages running RealPact, with displayed customers including Four Seasons Sotheby’s International Realty, NextHome Modern Realty, Beacon Realty Group, eXp Realty Luxury, and Cisneros Realty Group ([RealPact](https://realpact.ai), Aug 2026).
+  - Firm-wide pilot with Four Seasons Sotheby’s ([LinkedIn](https://www.linkedin.com/company/realpact), Aug 2026).
+  - Current-product sales to realtors and brokerages, with no revenue amount disclosed ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026).
+  - $500,000 from YC plus undisclosed funding from Leap Year and other investors, followed by a June 2026 pre-seed announcement naming YC, Leap Year, Dartmouth Venture Studio, and real-estate angels ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup); [RealPact](https://realpact.ai/announcement)).
+  - $20,000 first prize in the 2026 Magnuson Startup Competition ([Magnuson Center](https://magnuson.dartmouth.edu/news/over-75k-awarded-in-startup-support-spring-2026), Jun 2026).
+  - Coverage in The Dartmouth on May 21, 2026 ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup)).
+  - 1,039 LinkedIn company followers ([LinkedIn](https://www.linkedin.com/company/realpact), Jul 2026).
+  - Zero YC-listed job openings ([Y Combinator](https://www.ycombinator.com/companies/realpact), Aug 2026).
+  - Prior product: SignPact evolved into RealPact, and its former $9.99-per-month offer for the first 100 customers is not current-product pricing ([Ranvir Deshmukh](https://www.ranvirdeshmukh.com/); [Erik Peterson LinkedIn](https://www.linkedin.com/in/erik-peterson-mn)).
 - **Competitors (minimum 3, up to 5):**
-  - ListedKit (funding undisclosed, revenue unknown): uses uploaded contracts to generate timelines, tasks and communications, priced from $9.99 per intake ([ListedKit](https://www.listedkit.com/?p=407), 2026).
-  - SkySlope (funding undisclosed, revenue unknown): combines transaction management, compliance and brokerage back-office functions while processing more than 3 million transactions annually ([SkySlope](https://skyslope.com/), 2026).
-  - Brokermint (funding undisclosed, revenue unknown): integrates transaction management, accounting and financial analytics into BoomTown’s lead-to-close suite ([Newswire](https://www.newswire.com/news/boomtown-acquires-brokermint-the-industry-leader-in-cloud-based-21348011), Mar 2021).
-- **Why now:** RealPact attributes its timing to recent AI advances that permit agents to perform brokerage operational work, while research published in 2024 demonstrated LLM-based extraction from real-estate sales contracts ([Y Combinator](https://www.ycombinator.com/companies/realpact), Jul 2026; [arXiv](https://arxiv.org/abs/2404.18043), Apr 2024).
+  - Dotloop ($10M raised, revenue unknown): document collaboration and e-signatures rather than automated public-record retrieval and contract drafting ([Entrepreneur](https://www.entrepreneur.com/leadership/sealing-the-deal/224260)).
+  - SkySlope (funding: No public data found, revenue unknown): brokerage-wide forms, signatures, compliance, accounting, and built-in AI across an installed transaction platform ([SkySlope](https://skyslope.com/)).
+  - Brokermint ($0 raised, $1.9M 2025 revenue): transaction management, commission automation, accounting, and agent administration rather than address-to-contract agents ([Latka](https://getlatka.com/companies/brokermint.com)).
+- **Why now:** RealPact states that advances during the last 24–36 months allow language models to structure government-site data, vision models to read deeds and tax cards, and voice models to initiate contracts, changing the cost and feasibility of the workflow ([RealPact](https://realpact.ai/case-studies/dinosaurs-are-comfortable), May 2026).
 
 ## Founders & Team
 
 - **Ranvir Deshmukh (Co-founder):**
-  - Background: Dartmouth College Class of 2026; co-built CourseMe, acquired after reaching 4,000+ monthly active users, 1 million+ page hits and approximately 90% of Dartmouth students ([Y Combinator](https://www.ycombinator.com/companies/realpact), Jul 2026).
+  - Background: Dartmouth College class of 2026, former Dartmouth computer-science teaching assistant and research scholar, and creator of acquired AI course adviser CourseMe, which reported 4,000+ MAU, 1M+ page hits, and use by 90% of Dartmouth students ([LinkedIn](https://www.linkedin.com/in/ranvirdeshmukh); [Y Combinator](https://www.ycombinator.com/companies/realpact)).
   - Twitter/X: @ranvirdeshmukh_, 298 followers ([TwStalker](https://ngntipkolamrenang.twstalker.com/ranvirdeshmukh_), Jul 2026).
-  - LinkedIn: “Founder at RealPact” with approximately 6,000 followers ([LinkedIn](https://www.linkedin.com/in/ranvirdeshmukh), Jul 2026).
-  - GitHub: No public repos found.
+  - LinkedIn: “RealPact (YC S26)” ([LinkedIn](https://www.linkedin.com/in/ranvirdeshmukh)).
+  - GitHub: @Ranvirdeshmukh; RealPact/Documentation has 3 stars ([GitHub](https://github.com/Ranvirdeshmukh), Jul 2026).
 - **Erik Peterson (Co-founder):**
-  - Background: Dartmouth College Class of 2027; co-built CourseMe and developed React, React Native, Firebase and Swift applications before RealPact ([Y Combinator](https://www.ycombinator.com/companies/realpact), Jul 2026; [LinkedIn](https://www.linkedin.com/in/erik-peterson-mn), Jul 2026).
-  - Twitter/X: @erik_petersons; count not retrievable.
-  - LinkedIn: “Building.” with approximately 1,000 followers ([LinkedIn](https://www.linkedin.com/in/erik-peterson-mn), Jul 2026).
+  - Background: Dartmouth College class of 2027, CourseMe co-builder, and developer of prior projects including BiteShare and MemeMe ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup); [LinkedIn](https://www.linkedin.com/in/erik-peterson-mn)).
+  - Twitter/X: @erik_petersons; count not retrievable ([TwStalker](https://www6.twstalker.com/ranvirdeshmukh_), Jul 2026).
+  - LinkedIn: “RealPact (YC S26)” ([LinkedIn](https://www.linkedin.com/in/erik-peterson-mn)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Deshmukh and Peterson attended Dartmouth and previously co-founded CourseMe ([Magnuson Center](https://magnuson.dartmouth.edu/news/fall-24-founder-grants-awarded-to-seven-startups), 2024).
-- **Founder-market fit:** [Inferred]: Their documented experience building and distributing CourseMe supports AI-product development and campus-level adoption, but no prior brokerage employment or real-estate operating history was found.
+- **Co-founder relationship:** Deshmukh and Peterson attended Dartmouth and previously built CourseMe together ([Y Combinator](https://www.ycombinator.com/companies/realpact)).
+- **Founder-market fit:** [Inferred]: Their documented fit comes from building CourseMe and SignPact plus conducting brokerage workflow research with Four Seasons Sotheby’s, rather than from publicly documented real-estate employment ([Y Combinator](https://www.ycombinator.com/companies/realpact); [The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup)).
 
 ## Key Risks
 
-- **Data accuracy and liability:** The product cross-references public records and uses model output to populate transaction contracts, so incorrect extraction or stale source records could enter legally consequential documents ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026).
-- **Compliance readiness:** The founders said they were pursuing SOC 2 because enterprise customers require assurances about transaction-data handling, indicating certification was unfinished in May 2026 ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026).
-- **Incumbent overlap:** SkySlope already offers AI-assisted transaction management, compliance, forms, voice assistance and back-office products to more than 900,000 professionals ([SkySlope](https://skyslope.com/), 2026).
-- **Pivot comparability:** SignPact’s e-signature pricing and earlier customer claims concern a prior product that evolved into RealPact and therefore do not establish demand for the current brokerage product ([Ranvir Deshmukh](https://www.ranvirdeshmukh.com/), Jul 2026).
-- **Geographic data fragmentation:** RealPact retrieves records across state, county and city portals, creating jurisdiction-by-jurisdiction integration and maintenance requirements as it expands beyond New Hampshire ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026).
+- **Contract accuracy:** RealPact does not guarantee auto-populated or third-party MLS and public-record data, leaving users responsible for reviewing contracts before signature ([RealPact Terms](https://realpact.ai/terms), Dec 2024).
+- **State-by-state expansion:** The initial product uses New Hampshire forms, while disclosures, contracts, retention rules, and e-signature requirements vary by state; RealPact says it maintains state-specific templates and regulatory updates ([RealPact](https://realpact.ai); [Compliance](https://realpact.ai/compliance)).
+- **MLS dependency:** MLS functionality requires customer credentials, vendor agreements, and continued compliance with regional display and data-use rules ([RealPact Terms](https://realpact.ai/terms), Dec 2024).
+- **Security certification:** The platform processes transaction and client information, while SOC 2 Type II certification remained in progress as of May 2026 ([Compliance](https://realpact.ai/compliance); [The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup)).
+- **Incumbent overlap:** SkySlope already offers AI-enhanced transaction management to 900,000 professionals and processes 3 million transactions annually, giving it existing distribution for overlapping automation features ([SkySlope](https://skyslope.com/), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $2.01B global transaction-management software market in 2025, projected to $4.93B by 2033 at 11.88% CAGR (Maia Research, 2025) |
+| TAM | $515.8M global real-estate digital-transaction-management market in 2023, 25.1% CAGR through 2030 ([Grand View Research](https://www.grandviewresearch.com/horizon/statistics/digital-transaction-management-market/vertical/real-estate/global)) |
 | SAM | No public data found |
-| Traction | Paying realtors and brokerages; firm-wide Four Seasons Sotheby’s pilot (The Dartmouth, May 2026; RealPact LinkedIn, Jul 2026) |
-| Revenue Signal | Selling to New Hampshire brokerages, amount undisclosed (Y Combinator, Jul 2026) |
-| Founders | Ranvir Deshmukh (Co-founder): Dartmouth ’26, CourseMe co-founder, prior exit; Erik Peterson (Co-founder): Dartmouth ’27, CourseMe co-founder (Y Combinator, Jul 2026) |
-| Competitors | ListedKit (funding undisclosed, revenue unknown, AI contract intake); SkySlope (funding undisclosed, revenue unknown, integrated compliance and back office); Brokermint (funding undisclosed, revenue unknown, accounting and transaction management) (ListedKit, 2026; SkySlope, 2026; Newswire, Mar 2021) |
+| Traction | 10+ brokerages ([RealPact](https://realpact.ai), Aug 2026); Four Seasons Sotheby’s firm-wide pilot ([LinkedIn](https://www.linkedin.com/company/realpact), Aug 2026); $20K competition award ([Magnuson Center](https://magnuson.dartmouth.edu/news/over-75k-awarded-in-startup-support-spring-2026), Jun 2026) |
+| Revenue Signal | Selling to realtors and brokerages, amount undisclosed ([The Dartmouth](https://www.thedartmouth.com/article/2026/05/erik-peterson-27-and-ranvir-deshmukh-26-win-magnuson-competition-with-real-estate-startup), May 2026); agent-count and transaction-volume subscriptions with no published price ([RealPact Terms](https://realpact.ai/terms), Dec 2024) |
+| Founders | Ranvir Deshmukh (Co-founder): Dartmouth ’26, acquired CourseMe creator; Erik Peterson (Co-founder): Dartmouth ’27, CourseMe co-builder ([Y Combinator](https://www.ycombinator.com/companies/realpact)) |
+| Competitors | Dotloop ($10M raised, revenue unknown, document workspace) ([Entrepreneur](https://www.entrepreneur.com/leadership/sealing-the-deal/224260)); SkySlope (funding: No public data found, revenue unknown, brokerage transaction suite) ([SkySlope](https://skyslope.com/)); Brokermint ($0 raised, $1.9M 2025 revenue, back-office automation) ([Latka](https://getlatka.com/companies/brokermint.com)) |
 | Moat Signals | No public data found |
-| Risk Factors | Model and source-data accuracy, incomplete SOC 2 work, incumbent feature overlap (The Dartmouth, May 2026; SkySlope, 2026) |
-| Founder Reach | Ranvir Deshmukh: Twitter 298, LinkedIn 6K+, GitHub stars not found; Erik Peterson: Twitter count not retrievable, LinkedIn 1K+, GitHub stars not found (TwStalker; LinkedIn, Jul 2026) |
-| Distribution Signals | 1,039 LinkedIn followers; zero YC job listings (LinkedIn; Y Combinator, Jul 2026) |
-| Emails | No public data found |
+| Risk Factors | Contract and third-party-data accuracy ([RealPact Terms](https://realpact.ai/terms), Dec 2024), state-specific forms and MLS access ([Compliance](https://realpact.ai/compliance)), incumbent AI overlap ([SkySlope](https://skyslope.com/), Aug 2026) |
+| Founder Reach | Ranvir Deshmukh: X 298, LinkedIn 6K, GitHub top repo 3 stars ([TwStalker](https://ngntipkolamrenang.twstalker.com/ranvirdeshmukh_); [LinkedIn](https://www.linkedin.com/in/ranvirdeshmukh); [GitHub](https://github.com/Ranvirdeshmukh)); Erik Peterson: X count not retrievable, LinkedIn 2K, GitHub No public data found ([LinkedIn](https://www.linkedin.com/in/erik-peterson-mn)) |
+| Distribution Signals | 1,039 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/realpact), Jul 2026); zero YC-listed jobs ([Y Combinator](https://www.ycombinator.com/companies/realpact), Aug 2026) |
+| Emails | founder@signpact.ai ([RealPact Terms](https://realpact.ai/terms), Dec 2024) |

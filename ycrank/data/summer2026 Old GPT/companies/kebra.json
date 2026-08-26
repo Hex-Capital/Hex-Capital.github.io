@@ -1,0 +1,82 @@
+{
+  "slug": "kebra",
+  "name": "Kebra",
+  "oneLiner": "Make your field service company AI-native",
+  "metadata": {
+    "website": "https://kebra.com",
+    "yc_page": "https://www.ycombinator.com/companies/kebra",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Home Services, Operations",
+    "yc_partner": "Jared Friedman",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Home Services",
+    "Operations"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:03:59.758Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 40,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 50,
+    "NR": 42,
+    "PG": 53,
+    "PT": 37,
+    "SL": 31,
+    "VK": 40
+  },
+  "consolidatedAvg": 43,
+  "consolidatedRank": 157,
+  "traction": {
+    "tractionRank": 153,
+    "tractionScore": 21,
+    "tractionReason": "Product walkthrough available; no customers disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/kebra.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/kebra.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/kebra.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/kebra.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/kebra.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/kebra.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/kebra.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/kebra.md"
+    }
+  }
+}

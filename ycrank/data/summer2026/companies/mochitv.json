@@ -1,0 +1,80 @@
+{
+  "slug": "mochitv",
+  "name": "MOCHI.TV",
+  "oneLiner": "1 Minute Anime",
+  "metadata": {
+    "website": "https://www.mochi.tv/",
+    "yc_page": "https://www.ycombinator.com/companies/mochitv",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer -> Content",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Consumer, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@mochi.tv, support@mochi.tv ([YC](https://www.ycombinator.com/companies/mochitv), Aug 2026; [privacy policy](https://www.mochi.tv/privacy), Nov 2025)"
+  },
+  "tags": [
+    "Consumer",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:18:20.407Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 55,
+    "NR": 49,
+    "PG": 52,
+    "PT": 46,
+    "SL": 40,
+    "VK": 26
+  },
+  "consolidatedAvg": 45.57,
+  "consolidatedRank": 105,
+  "traction": {
+    "tractionRank": 16,
+    "tractionScore": 79,
+    "tractionReason": "100K users, 300M views, paid subscriptions"
+  },
+  "paths": {
+    "memo": "summer2026/memos/mochitv.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/mochitv.md",
+      "elad-gil": "summer2026/evals/elad-gil/mochitv.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/mochitv.md",
+      "paul-graham": "summer2026/evals/paul-graham/mochitv.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/mochitv.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/mochitv.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/mochitv.md"
+    }
+  }
+}

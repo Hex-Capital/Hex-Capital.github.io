@@ -11,76 +11,74 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, SaaS, B2B, Workflow Automation, Market Research |
-| YC Partner | Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/poth-labs)) |
-| Emails | matthew@pothlabs.com ([YC launch](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)) |
+| YC Partner | Ankit Gupta |
+| Emails | contact@pothlabs.com, matthew@pothlabs.com ([Poth contact page](https://pothlabs.com/contact), Aug 2026; [YC launch](https://www.ycombinator.com/companies/poth-labs), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** Product, growth, and customer teams manually search support tickets, calls, CRM records, surveys, Slack, documents, and product analytics because those systems do not identify their records as belonging to the same customer or account ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
-- **Approach:** Poth connects company data, constructs a knowledge graph linking customers, accounts, users, products, behaviors, conversations, and feedback, answers questions with cited supporting and contradicting evidence, and launches targeted interviews when evidence is missing ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
-- **Differentiation:** Enterpret and Chattermill unify and classify feedback while Dovetail combines continuous customer signals with research repositories, whereas Poth additionally resolves cross-system signals into customer relationships and uses adaptive interviews to test missing hypotheses ([Enterpret](https://www.enterpret.com/guides/the-6-best-ai-native-customer-intelligence-platforms), [Chattermill](https://chattermill.com/), [Dovetail](https://dovetail.com/), [Poth](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
-- **Business Model:** [Inferred]: The website’s repeated “Book a demo” CTA and absence of published tiers indicate a sales-led B2B SaaS path with negotiated pricing ([Poth website, Jul 2026](https://pothlabs.com/)).
-- **TAM/SAM:** Voice-of-customer software was estimated at $8.03B in 2025 and is projected to reach $19.83B in 2031 at a 16.65% CAGR from 2026–2031, while no Poth-specific SAM was published ([Mordor Intelligence, Jul 2026](https://www.mordorintelligence.com/industry-reports/voice-of-customer-software-market)).
-- **GTM / Distribution:** Poth is using founder-led demos and introductions to startup founders, product leaders, and customer-insights functions at companies whose customer records span at least three tools ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
+- **Problem:** Product, growth, research, customer-success, and customer-experience teams have customer information split across support tickets, calls, CRM records, surveys, documents, and product analytics, requiring manual cross-system searches or new research projects to answer churn, adoption, and roadmap questions ([YC launch](https://www.ycombinator.com/companies/poth-labs), Jul 2026).
+- **Approach:** Poth resolves customers, accounts, users, products, conversations, and behaviors into a knowledge graph, answers questions with cited supporting and contradicting evidence, and launches adaptive interviews or surveys when existing evidence is incomplete ([YC launch](https://www.ycombinator.com/companies/poth-labs), Jul 2026).
+- **Differentiation:** Relative to Dovetail’s research repository, Enterpret’s feedback context graph, and Sprig’s surveys and session-replay suite, Poth combines cross-operational entity resolution with adaptive follow-up research, although Enterpret already overlaps on knowledge graphs and cross-source analysis ([Dovetail](https://dovetail.com/solutions/research-repository/), [Enterpret](https://www.enterpret.com/platform/customer-context-graph), [Sprig](https://docs.sprig.com/docs/welcome-to-sprig/what-is-sprig), Aug 2026).
+- **Business Model:** [Inferred]: A demo-led B2B software subscription is the likely monetization path because the website offers “Book a demo” without public prices or packages ([Poth website](https://pothlabs.com), Aug 2026).
+- **TAM/SAM:** The global customer-feedback software market was $4.38 billion in 2025 and is forecast to reach $10.71 billion by 2031 at a 16.5% CAGR ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/customer-feedback-software-market), Jul 2026).
+- **GTM / Distribution:** Poth is seeking introductions to startup founders and product leaders with data across at least three tools and to customer-insights, research, experience, and success leaders at larger companies, while its website uses a demo-request funnel ([YC launch](https://www.ycombinator.com/companies/poth-labs), Jul 2026; [Poth website](https://pothlabs.com), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Poth’s documented technical asset is a customer-specific knowledge graph that resolves objects and relationships across behavioral, CRM, support, call, and feedback data and returns source-linked evidence ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
-- **Future moat:** [Inferred]: Reusable identity-resolution mappings, organization-specific ontologies, and validated hypothesis outcomes could improve deployments over time, but no public evidence establishes cross-customer learning or accumulated proprietary data.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Accumulated entity mappings, company-specific relationships, historical evidence, and follow-up interview data could create switching costs, but no retention, data-volume, or proprietary-model evidence is public.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Enterpret, Dovetail, Chattermill, and Unwrap already ingest multi-channel customer feedback and apply AI to surface evidence and actions, allowing funded competitors to add graph-based entity resolution or adaptive follow-up workflows ([Enterpret](https://www.enterpret.com/guides/the-6-best-ai-native-customer-intelligence-platforms), [Dovetail](https://dovetail.com/), [Chattermill](https://chattermill.com/), [Unwrap](https://www.unwrap.ai/)).
+- **Commoditization risk:** Enterpret already offers entity resolution, a customer context graph, cited natural-language answers, and integrations with more than 50 feedback sources, while Dovetail, Sprig, and Marvin offer overlapping AI research workflows ([Enterpret](https://helpcenter.enterpret.com/en/articles/12665411-introduction-to-enterpret), Apr 2026; [Dovetail](https://dovetail.com/solutions/research-repository/); [Sprig](https://docs.sprig.com/docs/welcome-to-sprig/what-is-sprig); [Marvin](https://heymarvin.com/pricing)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Five named “Trusted by” teams—Inkle, Sol, Composio, UnCircuit, and Illume ([Poth website, Jul 2026](https://pothlabs.com/)).
-  - “Several” Summer 2026 YC teams using the current product ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
-  - Prior product PothAI had three pilot projects agreed before the customer-knowledge-graph pivot ([Brutkasten, Jul 2026](https://brutkasten.com/artikel/wiener-talenteschmiede)).
-  - 268 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/poth/)).
-  - Zero jobs listed on the YC company page ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/poth-labs)).
-  - Product launches published through YC in June and July 2026 ([initial launch](https://www.ycombinator.com/launches/R2b-poth-labs-the-ai-native-customer-research-platform), [current launch](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
+  - The website identifies Inkle, Sol, Composio, UnCircuit, and Illume under “Trusted by teams at” ([Poth website](https://pothlabs.com), Aug 2026).
+  - Poth reported working with several Summer 2026 YC teams before launching Ask Poth ([YC launch](https://www.ycombinator.com/companies/poth-labs), Jul 2026).
+  - The company LinkedIn page had 270 followers ([LinkedIn](https://www.linkedin.com/company/poth/), Aug 2026).
+  - YC listed zero active jobs ([YC company page](https://www.ycombinator.com/companies/poth-labs), Aug 2026).
+  - Ask Poth launched after a soft pivot from hypothesis-driven adaptive surveys toward a customer knowledge graph and cross-system query product ([YC launch](https://www.ycombinator.com/companies/poth-labs), Jul–Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Enterpret ($25.1M raised, revenue unknown): Its $20.8M December 2024 Series A was led by Canaan and its platform unifies feedback from more than 50 channels, while Poth adds cross-system customer relationships and adaptive evidence collection ([CB Insights](https://www.cbinsights.com/company/aavaz/financials), [Enterpret](https://www.enterpret.com/blog/enterpret-series-a)).
-  - Dovetail ($71M raised, revenue unknown): Its $63M January 2022 Series A was led by Accel and it combines research repositories with always-on customer intelligence, while Poth centers on customer knowledge graphs and hypothesis-testing interviews ([Business Wire](https://www.businesswire.com/news/home/20220119005269/en/Customer-Research-Platform-Dovetail-Valued-North-of-%24700-Million-Following-%2463-Million-Series-A-Led-by-Accel), [Dovetail](https://dovetail.com/blog/dovetail-launches-customer-intelligence-platform/)).
-  - Chattermill ($34.8M raised, revenue unknown): Its $26M November 2022 Series B was led by Beringea and its product offers more than 50 integrations plus an MCP server, while Poth maps signals to customer and account entities and collects missing evidence ([Chattermill funding](https://chattermill.com/series-b), [Chattermill product](https://chattermill.com/)).
-  - Unwrap ($12M disclosed, revenue unknown): Its March 2026 Series A was led by Scale VP and analyzes feedback across support, reviews, and social sources, while Poth combines existing evidence with adaptive interviews ([Unwrap](https://www.unwrap.ai/post/series-a)).
-- **Why now:** [Inferred]: LLM-based conversational interviewing research published in October 2024 demonstrated a route around the depth-versus-scale trade-off of static surveys, enabling adaptive follow-up combined with automated synthesis ([arXiv](https://arxiv.org/abs/2410.01824)).
+  - Dovetail ($71M raised, revenue unknown): repository and cited AI answers grounded in accumulated research, versus Poth’s graph across operational systems plus adaptive follow-up collection ([Dovetail funding announcement](https://www.businesswire.com/news/home/20220119005269/en/Customer-Research-Platform-Dovetail-Valued-North-of-%24700-Million-Following-%2463-Million-Series-A-Led-by-Accel), Jan 2022).
+  - Enterpret ($25.1M raised, revenue unknown): context graph, adaptive taxonomy, and more than 50 feedback integrations overlap directly, while Poth also launches interviews and surveys when evidence is missing ([Enterpret funding announcement](https://www.businesswire.com/news/home/20241204277928/en/Enterpret-Announces-%2420.8-Million-Series-A), Dec 2024; [Enterpret platform](https://www.enterpret.com/platform/customer-context-graph)).
+  - Sprig ($90M raised, revenue unknown): combines long-form and in-product surveys, replays, heatmaps, and AI research agents, versus Poth’s emphasis on cross-system entity relationships and root-cause hypotheses ([Sprig funding disclosure](https://www.linkedin.com/posts/ryanglasgow_sprig-raises-30m-to-help-companies-gauge-activity-6960295627914170368-EzEp), Aug 2022; [Sprig documentation](https://docs.sprig.com/docs/welcome-to-sprig/what-is-sprig)).
+  - Marvin (over $11M raised, revenue unknown): research repository and AI-moderated interviews, versus Poth’s ingestion of CRM, support, product-usage, and internal-document data ([Marvin company update](https://heymarvin.com/resources/growth-and-leadership/), Jul 2025).
+- **Why now:** [Inferred]: Customer-data analysis involving repeated LLM calls became more economical after GPT-3.5-level inference cost fell more than 280-fold between November 2022 and October 2024 ([Stanford AI Index 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report)).
 
 ## Founders & Team
 
-- **Matthew Wong (Cofounder & CEO):**
-  - Background: Stanford computer science and geophysics student; former Palantir forward-deployed engineer and deployment strategist working with commercial customers; prior geoscience research at Caltech and Stony Brook ([personal site](https://matthewwong.dev/), [resume](https://matthewwong.dev/wong_matthew_resume.pdf)).
+- **Matthew Wong (Cofounder and CEO):**
+  - Background: Stanford computer-science and geophysics student, formerly a Palantir forward-deployed engineer and deployment strategist working on U.S. commercial data systems ([personal site](https://matthewwong.dev/); [résumé](https://matthewwong.dev/wong_matthew_resume.pdf?_rsc=1r34m), 2025).
   - Twitter/X: No public account found.
-  - LinkedIn: “Cofounder & CEO @ Poth Labs (YC S26),” with approximately 3K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/matthew-wong-b56180277)).
+  - LinkedIn: “Poth Labs (YC S26)” with 3K followers ([LinkedIn](https://www.linkedin.com/in/matthew-wong-b56180277), Jul 2026).
   - GitHub: No public repos found.
-- **Mojmír Horváth (Cofounder & CTO):**
-  - Background: Former Tietoevry data scientist; attended HTL Spengergasse and Phillips Academy; co-authored research on a 4.5B-parameter multimodal model ([Y Combinator](https://www.ycombinator.com/companies/poth-labs), [arXiv, Nov 2024](https://arxiv.org/abs/2411.05903)).
+- **Mojmír Horváth (Cofounder and CTO):**
+  - Background: Former Tietoevry data scientist educated at HTL Spengergasse and Phillips Academy who coauthored research on a 4.5-billion-parameter multimodal model ([YC](https://www.ycombinator.com/companies/poth-labs); [LinkedIn](https://www.linkedin.com/in/mojmir-horvath), Jul 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Cofounder & CTO @ Poth Labs (YC S26),” with approximately 1K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/mojmir-horvath)).
+  - LinkedIn: “Poth Labs (YC S26)” with 1K followers ([LinkedIn](https://www.linkedin.com/in/mojmir-horvath), Jul 2026).
   - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Wong’s work integrating enterprise data at Palantir and Horváth’s data-science work at Tietoevry correspond directly to Poth’s cross-system data-integration problem ([Matthew Wong](https://matthewwong.dev/), [Mojmír Horváth](https://www.linkedin.com/posts/mojmir-horvath_we-got-into-y-combinatorand-today-were-activity-7475955975368101888-A-Jt)).
+- **Founder-market fit:** [Inferred]: Wong’s Palantir work on fragmented enterprise data and Horváth’s Tietoevry data-science work relate directly to Poth’s cross-system customer-data problem ([founder launch post](https://www.linkedin.com/posts/matthew-wong-b56180277_your-analytics-tell-you-what-your-users-did-activity-7475959777165156353-OcAE), Jul 2026).
 
 ## Key Risks
 
-- **Competitive overlap:** Enterpret, Dovetail, Chattermill, and Unwrap offer overlapping multi-channel customer-intelligence products and have disclosed $25.1M, $71M, $34.8M, and $12M respectively ([competitor funding sources](https://www.cbinsights.com/company/aavaz/financials), [Dovetail](https://www.businesswire.com/news/home/20220119005269/en/Customer-Research-Platform-Dovetail-Valued-North-of-%24700-Million-Following-%2463-Million-Series-A-Led-by-Accel), [Chattermill](https://chattermill.com/series-b), [Unwrap](https://www.unwrap.ai/post/series-a)).
-- **Entity-resolution accuracy:** The product must determine that identifiers in HubSpot, PostHog, Pylon, Granola, and other systems represent the same customer, so incorrect mappings could produce unsupported causal explanations; Poth mitigates this by exposing supporting, contradicting, and missing evidence ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
-- **Data-governance procurement:** Poth processes consolidated customer, behavioral, support, and call data through infrastructure including Supabase, PostHog, Netlify, and Calendly; its privacy policy says customer data is not sold or used for model training and describes deletion windows ([privacy policy, Jun 2026](https://pothlabs.com/privacy)).
-- **Pivot continuity:** Poth shifted from hypothesis-driven adaptive surveys to making its underlying customer knowledge graph the central product after teams used that model more than the survey functionality, creating execution requirements across both integration and research workflows ([YC launch, Jul 2026](https://www.ycombinator.com/launches/RpS-ask-poth-ask-anything-about-your-customers)).
-- **Name disambiguation:** Web searches for “Poth Labs” also surface unrelated laboratory businesses including Poth Hille and Dr Lal PathLabs, which can interfere with unqualified brand searches ([Poth Hille](https://www.linkedin.com/company/poth-hille-%26-co-ltd), [Dr Lal PathLabs](https://www.lalpathlabs.com/about-us)).
+- **Direct product overlap:** Enterpret already supplies cross-source entity resolution, a customer context graph, adaptive taxonomy, and cited answers, supported by $25.1 million in disclosed funding ([Enterpret platform](https://www.enterpret.com/platform/customer-context-graph); [funding announcement](https://www.businesswire.com/news/home/20241204277928/en/Enterpret-Announces-%2420.8-Million-Series-A)).
+- **Entity-resolution accuracy:** [Inferred]: Incorrectly linking CRM contacts, product IDs, support requesters, and transcript speakers could propagate erroneous conclusions because cross-system identity mapping is central to Ask Poth ([YC launch](https://www.ycombinator.com/companies/poth-labs), Jul 2026).
+- **Research-validity risk:** [Inferred]: Adaptive LLM questions, hypothesis generation, and automated statistical testing require methodological accuracy, but Poth publishes no validation benchmark or error rate ([Poth about page](https://pothlabs.com/about), Aug 2026).
+- **Customer-data governance:** Poth processes support, CRM, analytics, transcript, and survey data through processors including Supabase, PostHog, Calendly, and Netlify; its stated mitigation is that customer data is neither sold nor used for model training ([privacy policy](https://pothlabs.com/privacy), Jun 2026; [about page](https://pothlabs.com/about)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $8.03B voice-of-customer software market in 2025, projected to $19.83B by 2031 at 16.65% CAGR (Mordor Intelligence, Jul 2026) |
+| TAM | $4.38B customer-feedback software market in 2025, forecast to $10.71B by 2031 at 16.5% CAGR (Mordor Intelligence, Jul 2026) |
 | SAM | No public data found |
-| Traction | Five named teams—Inkle, Sol, Composio, UnCircuit, Illume (Poth website, Jul 2026); several YC-batch teams (YC launch, Jul 2026); prior-product PothAI had three agreed pilots (Brutkasten, Jul 2026) |
+| Traction | Inkle, Sol, Composio, UnCircuit, and Illume named under “Trusted by teams at” (Poth website, Aug 2026); several YC batch teams reported using Poth (YC launch, Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Matthew Wong (CEO): Stanford, former Palantir FDE/deployment strategist (Poth website; personal site, 2026); Mojmír Horváth (CTO): former Tietoevry data scientist, Phillips Academy and HTL Spengergasse, multimodal-model co-author (YC; arXiv, 2024) |
-| Competitors | Enterpret ($25.1M raised, revenue unknown, multi-channel feedback AI) (CB Insights, 2026); Dovetail ($71M raised, revenue unknown, research repository plus continuous intelligence) (Business Wire, 2022); Chattermill ($34.8M raised, revenue unknown, 50+ integrations and MCP) (Chattermill, 2022/2026); Unwrap ($12M disclosed, revenue unknown, feedback-to-roadmap analytics) (Unwrap, 2026) |
-| Moat Signals | Customer-specific knowledge graph linking accounts, users, products, behaviors, conversations, and feedback with cited supporting and contradicting evidence (YC launch, Jul 2026) |
-| Risk Factors | Funded product overlap (competitor funding announcements, 2022–2026), cross-system entity-resolution accuracy (YC launch, Jul 2026), customer-data governance across named processors (Poth privacy policy, Jun 2026) |
-| Founder Reach | Matthew Wong: LinkedIn approximately 3K followers, Twitter/GitHub no public data found; Mojmír Horváth: LinkedIn approximately 1K followers, Twitter/GitHub no public data found (LinkedIn, Jul 2026) |
-| Distribution Signals | 268 company LinkedIn followers (LinkedIn, Jul 2026); two YC launch posts in June–July 2026 and zero YC-listed jobs (Y Combinator, Jul 2026) |
-| Emails | matthew@pothlabs.com (YC launch, Jul 2026) |
+| Founders | Matthew Wong (CEO): Stanford, former Palantir FDE and deployment strategist; Mojmír Horváth (CTO): former Tietoevry data scientist, HTL Spengergasse and Phillips Academy (Poth about page and YC, Jul 2026) |
+| Competitors | Dovetail ($71M raised, revenue unknown, research repository); Enterpret ($25.1M raised, revenue unknown, customer context graph); Sprig ($90M raised, revenue unknown, surveys and session replay); Marvin (over $11M raised, revenue unknown, AI research repository) (company funding announcements, 2022–2025) |
+| Moat Signals | No public data found |
+| Risk Factors | Direct Enterpret overlap (Enterpret, Apr 2026), cross-system entity-resolution dependency (YC launch, Jul 2026), customer-data governance across third-party processors (Poth privacy policy, Jun 2026) |
+| Founder Reach | Matthew Wong: LinkedIn 3K; Mojmír Horváth: LinkedIn 1K; no verified Twitter/X or GitHub metrics found (LinkedIn, Jul 2026) |
+| Distribution Signals | 270 LinkedIn followers and zero YC-listed jobs (LinkedIn and YC, Aug 2026) |
+| Emails | contact@pothlabs.com, matthew@pothlabs.com (Poth contact page and YC launch, Jul–Aug 2026) |

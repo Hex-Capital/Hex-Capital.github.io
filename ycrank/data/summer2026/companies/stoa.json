@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Fintech, Hardware, Marketplace, Infrastructure, AI",
     "yc_partner": "Jon Xu",
-    "emails": "No public data found"
+    "emails": "founders@stoaexchange.com"
   },
   "tags": [
     "Fintech",
@@ -21,52 +21,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:43:52.074Z",
+  "memoGeneratedAt": "2026-08-11T05:21:12.448Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
+      "score": 63,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 51,
+      "score": 57,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 52,
+      "score": 57,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 54,
+      "score": 45,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 42,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 35,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 51,
-    "NR": 52,
-    "PG": 54,
-    "PT": 38,
-    "SL": 42,
-    "VK": 35
+    "CB": 63,
+    "EG": 57,
+    "NR": 57,
+    "PG": 45,
+    "PT": 52,
+    "SL": 35,
+    "VK": 32
   },
-  "consolidatedAvg": 45.71,
-  "consolidatedRank": 144,
+  "consolidatedAvg": 48.71,
+  "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 33,
-    "tractionReason": "Public GPU RFQ marketplace; transaction count undisclosed"
+    "tractionRank": 153,
+    "tractionScore": 39,
+    "tractionReason": "$300M RFQs; executed volume undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/stoa.md",

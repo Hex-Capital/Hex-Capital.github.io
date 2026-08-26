@@ -11,7 +11,7 @@
     "location": "New York City, NY, USA",
     "tags": "SaaS, Restaurant Tech, AI",
     "yc_partner": "Brad Flora",
-    "emails": "founders@joinmarble.com, aakar@usetruffle.com ([YC Launch](https://www.ycombinator.com/launches/SAL-marble-the-autonomous-back-of-house-for-restaurants), Jul 2026; [Aakar Khanna LinkedIn](https://www.linkedin.com/in/aakarkhanna), Jul 2026)"
+    "emails": "founders@joinmarble.com, aakar@usetruffle.com"
   },
   "tags": [
     "SaaS",
@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:50:16.168Z",
+  "memoGeneratedAt": "2026-08-11T05:22:17.495Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 61,
+      "score": 52,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
+      "score": 66,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 51,
+      "score": 59,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
+      "score": 54,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 42,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 43,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 56,
-    "NR": 51,
-    "PG": 71,
-    "PT": 39,
-    "SL": 42,
-    "VK": 43
+    "CB": 52,
+    "EG": 66,
+    "NR": 59,
+    "PG": 54,
+    "PT": 42,
+    "SL": 41,
+    "VK": 36
   },
-  "consolidatedAvg": 51.86,
-  "consolidatedRank": 102,
+  "consolidatedAvg": 50,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 64,
-    "tractionReason": "Six named restaurant deployments"
+    "tractionRank": 55,
+    "tractionScore": 62,
+    "tractionReason": "Live with six named restaurant groups"
   },
   "paths": {
     "memo": "summer2026/memos/joinmarble.md",

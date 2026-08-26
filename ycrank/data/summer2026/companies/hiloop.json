@@ -21,52 +21,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:28:13.489Z",
+  "memoGeneratedAt": "2026-08-11T04:32:45.039Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 57,
+      "score": 60,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 59,
+      "score": 55,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 50,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 76,
-      "tier": "Invest"
+      "score": 49,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 48,
+      "score": 53,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 31,
+      "score": 30,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 59,
-    "NR": 66,
-    "PG": 76,
-    "PT": 48,
-    "SL": 31,
-    "VK": 61
+    "CB": 60,
+    "EG": 55,
+    "NR": 50,
+    "PG": 49,
+    "PT": 53,
+    "SL": 30,
+    "VK": 29
   },
-  "consolidatedAvg": 56.86,
-  "consolidatedRank": 48,
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 111,
-    "tractionScore": 37,
-    "tractionReason": "4,188 internal experiments; no users disclosed"
+    "tractionRank": 166,
+    "tractionScore": 35,
+    "tractionReason": "One organization displayed as trusted user"
   },
   "paths": {
     "memo": "summer2026/memos/hiloop.md",

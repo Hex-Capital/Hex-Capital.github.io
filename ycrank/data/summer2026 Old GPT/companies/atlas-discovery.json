@@ -1,0 +1,81 @@
+{
+  "slug": "atlas-discovery",
+  "name": "Atlas Discovery",
+  "oneLiner": "Predicting human response to drugs in clinical trials",
+  "metadata": {
+    "website": "https://atlasdiscovery.bio",
+    "yc_page": "https://www.ycombinator.com/companies/atlas-discovery",
+    "batch": "Summer 2026 ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "3 ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI-powered Drug Discovery, Drug discovery, Biotechnology",
+    "yc_partner": "Ankit Gupta ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
+    "emails": "founders@atlasdiscovery.bio ([YC Launch](https://www.ycombinator.com/launches/RqJ-atlas-discovery-foundation-models-that-predict-patient-outcomes), Jul 2026)"
+  },
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Drug discovery",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:05:35.622Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 66,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 44,
+    "NR": 51,
+    "PG": 61,
+    "PT": 43,
+    "SL": 40,
+    "VK": 66
+  },
+  "consolidatedAvg": 51.71,
+  "consolidatedRank": 103,
+  "traction": {
+    "tractionRank": 108,
+    "tractionScore": 38,
+    "tractionReason": "Trial backtests and research venues; no customers"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/atlas-discovery.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/atlas-discovery.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/atlas-discovery.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/atlas-discovery.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/atlas-discovery.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/atlas-discovery.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/atlas-discovery.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/atlas-discovery.md"
+    }
+  }
+}

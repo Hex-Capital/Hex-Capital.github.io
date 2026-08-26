@@ -6,79 +6,79 @@
 |-------|-------|
 | Website | https://www.verdantapp.com/ |
 | YC Page | https://www.ycombinator.com/companies/verdant |
-| Batch | Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026) |
+| Batch | Summer 2026 |
 | Industry | Government / Government |
 | Team Size | 2 |
 | Location | Washington, DC, USA |
 | Tags | GovTech |
-| YC Partner | Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026) |
-| Emails | founders@verdantapp.com, privacy@verdantapp.com, security@verdantapp.com ([Y Combinator](https://www.ycombinator.com/companies/verdant); [Verdant privacy policy](https://www.verdantapp.com/privacy); [Verdant terms](https://www.verdantapp.com/terms), Jul 2026) |
+| YC Partner | Jared Friedman |
+| Emails | founders@verdantapp.com, privacy@verdantapp.com, security@verdantapp.com |
 
 ## The Idea
 
-- **Problem:** Local-government planning and building departments receive incomplete permit applications that cause repeated applicant-staff exchanges, while understaffed reviewers manually examine plans and legacy systems principally intake and track submissions ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026).
-- **Approach:** Verdant grounds an applicant-facing agent in municipal ordinances, guides intake through a stepwise portal, checks applications and drawings, flags cited issues, and drafts staff reports while reserving decisions for government personnel ([Y Combinator](https://www.ycombinator.com/companies/verdant); [Verdant FAQ](https://www.verdantapp.com/faq), Jul 2026).
-- **Differentiation:** Verdant presents one system spanning intake, review, decisions, and ordinance comparison, whereas Govstream.ai overlays existing systems as a copilot, while GovWell and Clariti already offer overlapping end-to-end workflows and AI application review ([Verdant](https://www.verdantapp.com/); [GeekWire](https://www.geekwire.com/2025/seattle-area-startup-govstream-ai-raises-3-6m-to-improve-city-permitting-processes-using-ai/), Dec 2025; [GovWell](https://govwell.com/resources/govwell-series-a), May 2026; [Clariti](https://www.claritisoftware.com/), Jul 2026).
-- **Business Model:** Verdant sells a modular SaaS subscription configured by jurisdiction, with fees and billing frequency specified in private order forms and no public price amounts ([Verdant](https://www.verdantapp.com/); [Verdant terms](https://www.verdantapp.com/terms), Jul 2026).
-- **TAM/SAM:** The global permit-management-software market was $307 million in 2025 and is forecast to reach $567 million by 2032 at a 9.3% CAGR, but no public SAM estimate isolates U.S. local-government planning and permitting ([GlobalInfoResearch](https://www.marketresearch.com/GlobalInfoResearch-v4117/Global-Permit-Management-Software-Company-43315832/), Jan 2026).
-- **GTM / Distribution:** Verdant uses founder-led demos and outreach to planners, building officials, community-development staff, and city managers after interviewing more than 200 local-government employees ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026).
+- **Problem:** Interviews with more than 200 local-government employees found permitting among their most painful processes, with incomplete applications creating repeated exchanges before understaffed departments can begin manual review ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)).
+- **Approach:** Verdant guides applicants through jurisdiction-specific intake, checks documents and drawings against local rules, flags omissions or conflicts, supports staff review, and drafts reports while leaving approval decisions to government personnel ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant); [Verdant FAQ, 2026](https://www.verdantapp.com/faq)).
+- **Differentiation:** [Inferred]: Against GovWell’s integrated permitting, licensing, and inspections and Clariti’s AI plan review, Verdant’s public emphasis is a jurisdiction-configured workflow spanning intake, review, hearings, reports, and ordinance benchmarking, while PermitFlow primarily automates the applicant side for builders ([Verdant](https://www.verdantapp.com/); [GovWell](https://govwell.com/solution/permitting); [Clariti](https://www.claritisoftware.com/); [PermitFlow](https://www.permitflow.com/)).
+- **Business Model:** Verdant is proprietary SaaS sold through private order forms, with jurisdictions selecting modules and paying only for those used; no dollar prices are published ([Verdant website](https://www.verdantapp.com/); [Terms of Service, Jul 2026](https://www.verdantapp.com/terms)).
+- **TAM/SAM:** The global permit-management software market was estimated at $307 million in 2025 and projected to reach $567 million by 2032 at a 9.3% CAGR, while no public SAM estimate was found for U.S. local-government land-use permitting ([Global Info Research via MarketResearch.com, Jan 2026](https://www.marketresearch.com/GlobalInfoResearch-v4117/Global-Permit-Management-Software-Company-43315832/)).
+- **GTM / Distribution:** Verdant solicits 30-minute demonstrations and direct introductions to planners, building officials, community-development staff, and city managers ([Verdant website](https://www.verdantapp.com/); [Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)).
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Jurisdiction-specific ordinance mappings, workflow configurations, anonymized usage data, and locally tuned models could create implementation switching costs, but no named customers or accumulated deployment evidence is public ([Verdant terms](https://www.verdantapp.com/terms), Jul 2026).
-- **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Accela is adding AI across its civic platform, GovWell offers automated application checking, and Clariti acquired CivCheck’s AI plan-review product, placing the core mechanism within reach of funded vendors and incumbents ([Accela](https://www.accela.com/); [GovWell](https://govwell.com/resources/govwell-series-a), May 2026; [Clariti](https://finance.yahoo.com/news/clariti-acquires-civcheck-accelerate-permit-140000885.html), Oct 2025).
+- **Future moat:** [Inferred]: Customer-specific ordinance configurations, tuned local models, and aggregated de-identified usage data could create deployment knowledge and switching costs, but no customer-scale or proprietary-dataset metrics are disclosed ([Verdant Terms of Service, Jul 2026](https://www.verdantapp.com/terms)).
+- **Market structure:** No structural barrier identified at this stage because GovWell and Clariti already sell overlapping AI-assisted, end-to-end permitting workflows to local governments ([GovWell](https://govwell.com/solution/permitting); [Clariti](https://www.claritisoftware.com/)).
+- **Commoditization risk:** GovWell offers AI code and completeness checks, Clariti owns the CivCheck AI-review product, and PermitFlow reports 12 million permitting datapoints, providing existing organizations with inputs for overlapping functionality ([GovWell](https://govwell.com/solution/permitting); [BusinessWire, Oct 2025](https://www.businesswire.com/news/home/20251008364671/en/Clariti-Acquires-CivCheck-to-Accelerate-Permit-Approvals-with-AI); [PermitFlow, Mar 2026](https://www.permitflow.com/blog/permitflow-series-b)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - More than 200 local-government staff interviewed before selecting permitting as the current product focus ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026).
-  - 444 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/verdantapp), Jul 2026).
-  - Marketing-site v0.1 launched July 3, 2026 ([Verdant changelog](https://www.verdantapp.com/changelog), Jul 2026).
-  - Zero active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026).
-  - LeapYear backed Verdant by January 2026, with the amount undisclosed ([Hank Couture](https://www.linkedin.com/posts/hank-couture_in-january-7-more-teams-joined-leapyear-activity-7435812751689625600-yTT5), 2026).
+  - More than 200 local-government staff interviewed before selecting permitting as the initial workflow ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)).
+  - 470 LinkedIn followers ([LinkedIn, Aug 2026](https://www.linkedin.com/company/verdantapp)).
+  - Marketing site v0.1 launched July 3, 2026 ([Verdant changelog, Jul 2026](https://www.verdantapp.com/changelog)).
+  - Verdant sponsored the AAPI LEAD Summit, where Aidan Ng participated in an AI-and-civic-innovation panel ([LinkedIn, Jul 2026](https://www.linkedin.com/company/verdantapp)).
+  - Zero active jobs listed ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/verdant)).
 - **Competitors (minimum 3, up to 5):**
-  - GovWell ($35M raised, revenue unknown): operates end-to-end permitting, licensing, inspections, payments, and AI AutoCheck across more than 150 agencies, overlapping Verdant’s replacement strategy ([GovWell](https://govwell.com/resources/govwell-series-a), May 2026).
-  - Govstream.ai ($3.6M raised, revenue unknown): sits atop incumbent municipal systems as a conversational permitting copilot rather than replacing the workflow end to end ([GeekWire](https://www.geekwire.com/2025/seattle-area-startup-govstream-ai-raises-3-6m-to-improve-city-permitting-processes-using-ai/), Dec 2025).
-  - Clariti ($29.5M raised, revenue unknown): provides end-to-end community-development software and incorporated CivCheck’s guided AI plan review, while Verdant also markets ordinance benchmarking ([Owler](https://www.owler.com/company/claritisoftware/funding); [Clariti](https://finance.yahoo.com/news/clariti-acquires-civcheck-accelerate-permit-140000885.html), Oct 2025).
-- **Why now:** [Inferred]: Municipal adoption crossed from exploration into procurement during 2025–2026, including Seattle’s CivCheck pilot and executive-order-backed deployment of AI for permit applicants and reviewers ([City of Seattle](https://innovation-hub.seattle.gov/2026/06/17/ai-construction-permitting-seattle-civcheck-study/), Jun 2026; [GeekWire](https://www.geekwire.com/2025/seattle-area-startup-govstream-ai-raises-3-6m-to-improve-city-permitting-processes-using-ai/), Dec 2025).
+  - GovWell ($34.5 million raised, revenue unknown): sells overlapping AI-assisted permitting, licensing, inspections, payments, and reporting to municipal and county agencies ([GovWell funding announcement, May 2026](https://www.prnewswire.com/news-releases/govwell-raises-25m-series-a-led-by-insight-partners-to-build-the-ai-operating-system-for-modern-government-302770627.html)).
+  - Clariti ($28 million in disclosed 2024 growth capital, revenue unknown): offers permitting platforms for multiple government sizes plus CivCheck guided AI plan review ([CIBC Innovation Banking, Jun 2024](https://innovationbanking.cibc.com/fr/news/deal/cibc-innovation-banking-provides-10-million-growth-capital-financing-to-clariti); [Clariti](https://www.claritisoftware.com/)).
+  - PermitFlow ($90.5 million raised, revenue unknown): focuses on contractors, builders, developers, and architects navigating government permitting rather than replacing the government’s internal system ([PermitFlow, Mar 2026](https://www.permitflow.com/blog/permitflow-series-b); [PermitFlow company profile](https://www.permitflow.com/about-us)).
+- **Why now:** [Inferred]: Local governments moved into live AI permitting pilots and contracts during 2025–2026, including San Jose’s application pre-check pilot and more than $3 million of reported SwiftGov contracts in Florida ([Axios, Sep 2025](https://www.axios.com/local/san-francisco/2025/09/30/san-jose-ai-permitting-potholes-sf-lessons); [Axios, May 2026](https://www.axios.com/local/miami/2026/05/19/how-florida-cities-are-using-ai-to-streamline-building-permits)).
 
 ## Founders & Team
 
 - **Aidan Ng (Co-Founder and CEO):**
-  - Background: Studied international politics at Georgetown, worked in or around DOJ, USDA, Congress, and Deloitte Government and Public Services, and built commercial-real-estate underwriting models at Capital One ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026).
+  - Background: Studied International Politics at Georgetown, built commercial-real-estate underwriting models at Capital One, and worked in government-related roles at DOJ, USDA, Capitol Hill, and Deloitte Government and Public Services ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Aidan Ng — Verdant,” with 1,278 followers ([LinkedIn](https://www.linkedin.com/posts/aidan-c-ng_super-excited-to-show-you-all-what-weve-activity-7480358769491697664-KPnb), Jul 2026).
+  - LinkedIn: No public headline retrievable; 1,054 followers ([LinkedIn, Aug 2026](https://www.linkedin.com/in/aidan-c-ng)).
   - GitHub: No public repos found.
 - **Jason Yi (Co-Founder):**
-  - Background: Earned a Georgetown computer-science degree path, researched public-benefits automation and data security, built local-government HR software at Holly, and was Aidy’s first employee ([Y Combinator](https://www.ycombinator.com/companies/verdant); [Jason Yi](https://jason-yi.vercel.app/), Jul 2026).
+  - Background: Studied computer science at Georgetown, worked on government HR software at Holly and legislative tracking at Aidy, and conducted privacy, public-benefits automation, and AI research ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant); [personal site](https://jason-yi.vercel.app/)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Jason Yi — Verdant,” with 1,924 followers ([LinkedIn](https://www.linkedin.com/posts/jason-yi1_excited-to-officially-launch-verdant-we-activity-7480337097078333440-dbSx), Jul 2026).
-  - GitHub: @JasYi, with Formulate and cloud-fpga-frontend each showing 2 stars among 24 public repositories ([GitHub](https://github.com/JasYi), Jul 2026).
-- **Co-founder relationship:** Both founders attended Georgetown and connected through a shared interest in government software before conducting more than 200 local-government interviews ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026).
-- **Founder-market fit:** [Inferred]: Ng’s government and commercial-real-estate work covers the buyer and land-use context, while Yi’s government-software, AI, and rules-as-code work covers product implementation ([Y Combinator](https://www.ycombinator.com/companies/verdant); [Jason Yi](https://jason-yi.vercel.app/), Jul 2026).
+  - LinkedIn: No public headline retrievable; 2K followers ([LinkedIn, Aug 2026](https://www.linkedin.com/in/jason-yi1)).
+  - GitHub: @JasYi; Formulate and cloud-fpga-frontend each have 2 stars ([GitHub, Aug 2026](https://github.com/JasYi/Formulate)).
+- **Co-founder relationship:** Both founders attended Georgetown and later connected over a shared interest in government infrastructure, although no more specific origin timeline is public ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)).
+- **Founder-market fit:** [Inferred]: Ng’s government and underwriting experience and Yi’s govtech, AI, and public-benefits work align with municipal workflow automation, supplemented by interviews with more than 200 local-government staff ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)).
 
 ## Key Risks
 
-- **AI review accuracy:** Verdant states that AI may achieve 80–90% rather than complete accuracy and therefore only surfaces issues while staff retain decision authority ([Verdant LinkedIn](https://www.linkedin.com/company/verdantapp), Jul 2026).
-- **Sensitive-data processing:** The platform processes identities, property addresses, zoning data, and project plans through AWS, Google Cloud, Supabase, OpenAI, Anthropic, and Reducto, with DPAs, encryption, MFA, and role-based access listed as mitigations ([Verdant privacy policy](https://www.verdantapp.com/privacy), Jul 2026).
-- **Product-scope change:** A March 2026 crawl recorded the domain as AI-native grant-management software, while the permitting marketing site launched July 3, so grant-management was treated as a prior product and no earlier metrics were counted ([IPAddress.com](https://www.ipaddress.com/website/www.verdantapp.com/), Mar 2026; [Verdant changelog](https://www.verdantapp.com/changelog), Jul 2026).
-- **Competitor deployment gap:** GovWell reports more than 150 agencies and $35 million raised, while Govstream has a Bellevue deployment and Clariti has integrated CivCheck, versus no named Verdant customer in public sources ([GovWell](https://govwell.com/resources/govwell-series-a), May 2026; [GeekWire](https://www.geekwire.com/2025/seattle-area-startup-govstream-ai-raises-3-6m-to-improve-city-permitting-processes-using-ai/), Dec 2025; [Clariti](https://finance.yahoo.com/news/clariti-acquires-civcheck-accelerate-permit-140000885.html), Oct 2025).
-- **Name ambiguity:** “Verdant” is also used by unrelated firms including Verdant Associates and Verdant Telecom, requiring the verdantapp.com domain and founder names for disambiguation ([Crunchbase](https://www.crunchbase.com/organization/verdant-associates); [Crunchbase](https://www.crunchbase.com/organization/verdant-telecom)).
+- **Review accuracy:** Verdant states that AI is probabilistic and its copilot never approves permits, so staff must validate flagged issues and retain decision authority; visible ordinance and GIS sourcing is the disclosed mitigation ([Verdant LinkedIn, Jul 2026](https://www.linkedin.com/company/verdantapp); [Verdant FAQ](https://www.verdantapp.com/faq)).
+- **Direct product overlap:** GovWell has raised $34.5 million for a platform with comparable AI completeness and code checks, while Clariti acquired CivCheck and markets guided AI review to the same government buyers ([GovWell, May 2026](https://www.prnewswire.com/news-releases/govwell-raises-25m-series-a-led-by-insight-partners-to-build-the-ai-operating-system-for-modern-government-302770627.html); [BusinessWire, Oct 2025](https://www.businesswire.com/news/home/20251008364671/en/Clariti-Acquires-CivCheck-to-Accelerate-Permit-Approvals-with-AI)).
+- **Sensitive-data processing:** Permit files can contain personal identifiers, property addresses, zoning data, and project plans processed through AWS, GCP, Supabase, OpenAI, Anthropic, and Reducto; Verdant reports encryption, MFA, role-based access, testing, and monitoring as mitigations ([Privacy Policy, Jul 2026](https://www.verdantapp.com/privacy)).
+- **Jurisdiction configuration:** [Inferred]: Mapping each deployment to local ordinances, forms, GIS data, and workflows can add implementation work, while Verdant’s modular architecture limits deployments to selected functions ([Verdant website](https://www.verdantapp.com/); [Verdant FAQ](https://www.verdantapp.com/faq)).
+- **Name ambiguity:** Search results include unrelated businesses named Verdant, while this company’s legal entity is Lucent Technologies, Inc. doing business as Verdant, creating potential brand and search confusion ([Verdant Privacy Policy](https://www.verdantapp.com/privacy); [unrelated Verdant AI LinkedIn page](https://www.linkedin.com/company/verdant-ai)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $307M global permit-management-software market in 2025, forecast to $567M by 2032 at 9.3% CAGR (GlobalInfoResearch, Jan 2026) |
+| TAM | $307M global permit-management software market in 2025, projected to $567M by 2032 at 9.3% CAGR ([Global Info Research via MarketResearch.com, Jan 2026](https://www.marketresearch.com/GlobalInfoResearch-v4117/Global-Permit-Management-Software-Company-43315832/)) |
 | SAM | No public data found |
-| Traction | 200+ local-government interviews, 444 LinkedIn followers, and 0 YC jobs (Y Combinator/LinkedIn, Jul 2026) |
-| Revenue Signal | Modular SaaS with fees and billing defined in private order forms; public amounts unavailable (Verdant website/terms, Jul 2026) |
-| Founders | Aidan Ng (CEO): Georgetown, Capital One, DOJ/USDA/Congress/Deloitte; Jason Yi (Co-Founder): Georgetown CS, Holly, Aidy, government-automation research (Y Combinator, Jul 2026) |
-| Competitors | GovWell ($35M raised, revenue unknown, end-to-end AI government OS); Govstream.ai ($3.6M raised, revenue unknown, incumbent-system copilot); Clariti ($29.5M raised, revenue unknown, end-to-end permitting plus CivCheck) (GovWell, May 2026; GeekWire, Dec 2025; Owler/Clariti, Oct 2025) |
-| Moat Signals | No public data found |
-| Risk Factors | AI accuracy and oversight (Verdant LinkedIn, Jul 2026), competing deployed products (GovWell/GeekWire/Clariti, 2025–2026), product-scope change (IPAddress.com/Verdant changelog, Mar–Jul 2026) |
-| Founder Reach | Aidan Ng: LinkedIn 1,278, Twitter/GitHub not found; Jason Yi: LinkedIn 1,924, GitHub top repos 2 stars, Twitter not found (LinkedIn/GitHub, Jul 2026) |
-| Distribution Signals | 444 LinkedIn followers, website launched July 3, 2026, and 0 YC job postings (LinkedIn/Verdant changelog/Y Combinator, Jul 2026) |
-| Emails | founders@verdantapp.com, privacy@verdantapp.com, security@verdantapp.com (Y Combinator/Verdant policies, Jul 2026) |
+| Traction | 200+ local-government staff interviewed ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)); 470 LinkedIn followers ([LinkedIn, Aug 2026](https://www.linkedin.com/company/verdantapp)); marketing site launched July 3, 2026 ([Verdant changelog](https://www.verdantapp.com/changelog)) |
+| Revenue Signal | No public data found |
+| Founders | Aidan Ng (CEO): Georgetown, Capital One underwriting, DOJ/USDA/Hill/Deloitte government experience; Jason Yi (Co-Founder): Georgetown CS, Holly, Aidy, government and privacy research ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)) |
+| Competitors | GovWell ($34.5M raised, revenue unknown, integrated municipal operating system) ([GovWell, May 2026](https://www.prnewswire.com/news-releases/govwell-raises-25m-series-a-led-by-insight-partners-to-build-the-ai-operating-system-for-modern-government-302770627.html)); Clariti ($28M disclosed growth capital, revenue unknown, government permitting plus guided AI review) ([CIBC, Jun 2024](https://innovationbanking.cibc.com/fr/news/deal/cibc-innovation-banking-provides-10-million-growth-capital-financing-to-clariti)); PermitFlow ($90.5M raised, revenue unknown, applicant-side automation) ([PermitFlow, Mar 2026](https://www.permitflow.com/about-us)) |
+| Moat Signals | Jurisdiction-specific ordinance and GIS grounding with process-specific checklists ([Verdant FAQ, 2026](https://www.verdantapp.com/faq)) |
+| Risk Factors | Human validation required for probabilistic review ([Verdant FAQ](https://www.verdantapp.com/faq)); overlapping GovWell and Clariti products ([GovWell](https://govwell.com/solution/permitting); [Clariti](https://www.claritisoftware.com/)); third-party AI and cloud processing ([Verdant Privacy Policy, Jul 2026](https://www.verdantapp.com/privacy)) |
+| Founder Reach | Aidan Ng: Twitter not found, LinkedIn 1,054 followers, GitHub not found ([LinkedIn, Aug 2026](https://www.linkedin.com/in/aidan-c-ng)); Jason Yi: Twitter not found, LinkedIn 2K followers, top GitHub repos 2 stars ([LinkedIn](https://www.linkedin.com/in/jason-yi1); [GitHub, Aug 2026](https://github.com/JasYi/Formulate)) |
+| Distribution Signals | Summer 2026 YC launch ([Y Combinator](https://www.ycombinator.com/companies/verdant)); 470 LinkedIn followers and AAPI LEAD Summit sponsorship ([LinkedIn, Aug 2026](https://www.linkedin.com/company/verdantapp)) |
+| Emails | founders@verdantapp.com ([Y Combinator, 2026](https://www.ycombinator.com/companies/verdant)); privacy@verdantapp.com ([Privacy Policy, Jul 2026](https://www.verdantapp.com/privacy)); security@verdantapp.com ([Terms of Service, Jul 2026](https://www.verdantapp.com/terms)) |

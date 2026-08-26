@@ -10,75 +10,75 @@
 | Industry | Fintech / Fintech -> Insurance |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Machine Learning, Real Estate, BB, Insurance, AI |
-| YC Partner | Ankit Gupta |
-| Emails | hello@risklytics.ai |
+| Tags | Hardware, Machine Learning, B2B, Insurance, AI |
+| YC Partner | Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/risklytics), Aug 2026) |
+| Emails | hello@risklytics.ai ([company website](https://www.risklytics.ai/), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** Robotics, autonomy, data-center, energy-infrastructure, construction, and manufacturing companies may retain physical-world AI liability because carriers have begun adding explicit AI exclusions to standard policies, while coverage by silence can disappear at renewal ([Risklytics website, Jul 2026](https://www.risklytics.ai/)).
-- **Approach:** Risklytics gathers risk information, routes submissions to admitted carriers with appetite and without the relevant exclusions, and uses excess-and-surplus markets when affirmative specialized coverage is required ([YC company page, Jul 2026](https://www.ycombinator.com/companies/risklytics)).
-- **Differentiation:** [Inferred]: Unlike startup-focused brokers Vouch and Founder Shield or construction-focused underwriting platform Shepherd, Risklytics narrows its positioning to physical-AI exposures and policy language that affirmatively preserves AI-related bodily-injury and property-damage coverage.
-- **Business Model:** [Inferred]: Risklytics is likely to earn commissions or brokerage fees on placed commercial policies, but it publishes no pricing and states that it is not yet placing coverage while producer licensure remains pending.
-- **TAM/SAM:** The global insurance-brokerage market was valued at $125.36 billion in 2025 and is forecast to reach $282.45 billion by 2034 at a 9.5% CAGR, while no public estimate was found for the physical-AI commercial-insurance segment ([Fortune Business Insights, Jul 2026](https://www.fortunebusinessinsights.com/insurance-brokerage-market-113568)).
-- **GTM / Distribution:** [Inferred]: The website’s risk-intake form and founders’ requests for introductions to insurance-industry contacts indicate founder-led direct outreach to frontier-technology companies, contractors, manufacturers, and carrier underwriters ([Risklytics LinkedIn, Jul 2026](https://www.linkedin.com/company/risklytics)).
+- **Problem:** Companies operating AI agents, robotics, and autonomous systems may have gaps between general-liability and professional-liability policies because carriers have begun adopting AI exclusions, while generalist brokers often rely on standard forms and year-over-year comparisons ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026).
+- **Approach:** Risklytics uses structured intake, analyzes policy forms, endorsements, regulatory filings, customer contracts, and AI-governance documentation, then routes submissions to carriers with relevant appetite and reviews exclusions before binding ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026).
+- **Differentiation:** Risklytics concentrates on AI-exclusion analysis and carrier selection for frontier technology, versus Alton Risk’s wider emerging-technology brokerage, Corgi’s full-stack startup carrier, and Vouch’s broader technology-company brokerage ([Risklytics](https://www.risklytics.ai/), [Alton Risk](https://altonrisk.io/company/), [Corgi](https://www.corgi.insure/), [Vouch](https://www.vouch.us/about), Aug 2026).
+- **Business Model:** [Inferred]: Risklytics would earn brokerage commissions or placement fees for arranging commercial coverage, but it publishes no pricing or commission schedule.
+- **TAM/SAM:** The global insurance-brokerage market was estimated at $335.87 billion in 2025 and forecast to grow at 9.6% CAGR from 2026 through 2033, while no public SAM was found for frontier-technology commercial brokerage ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/insurance-brokerage-market-report), 2026).
+- **GTM / Distribution:** The founders state that distribution is being developed through wholesale brokers, managing general agents, carrier relationships, Y Combinator, and Harvard’s startup ecosystem ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Repeated placements could build carrier-appetite data, policy-language expertise, renewal history, and underwriter relationships, but Risklytics is not yet licensed to place coverage and therefore has not demonstrated these assets.
-- **Market structure:** No structural barrier identified at this stage, as licensed commercial brokers can target the same customers and approach admitted or E&S carriers.
-- **Commoditization risk:** Licensed technology brokers such as Newfront, Vouch, and Founder Shield can add physical-AI intake workflows and exclusion reviews using existing carrier relationships ([Newfront](https://www.newfront.com/); [Founder Shield](https://foundershield.com/)).
+- **Moat today:** Risklytics says its platform continuously updates a database of policy forms, endorsements, regulatory filings, and carrier treatment of AI exclusions, but publishes no database-size or placement-volume figures ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026).
+- **Future moat:** [Inferred]: Carrier-appetite data and placement outcomes could improve routing and policy comparison over time, but the company is not yet placing coverage and therefore has no disclosed placement history.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Alton Risk already advertises policy-gap analysis, carrier matching, formatted submissions, and licensed specialists, while Corgi combines underwriting and distribution in a full-stack carrier ([Alton Risk](https://altonrisk.io/company/), [Corgi](https://www.corgi.insure/press-releases/series-b), 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Current brokerage: 91 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/risklytics)).
-  - Current brokerage: zero YC job postings ([YC company page, Jul 2026](https://www.ycombinator.com/companies/risklytics)).
-  - Prior product, Ember: property-level natural-disaster scoring entered beta before the company repositioned as a commercial-insurance brokerage ([LinkedIn, Jul 2026](https://www.linkedin.com/company/risklytics)).
-  - Risklytics has a company X account at @Risklytics, but the follower count was not retrievable ([X, Jul 2026](https://x.com/Risklytics)).
+  - Accepted into Y Combinator’s Summer 2026 batch on May 14, 2026 ([Risklytics announcement](https://www.risklytics.ai/news/risklytics-joins-y-combinator/), May 2026).
+  - 123 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/risklytics), Aug 2026).
+  - X account @Risklytics; follower count not retrievable ([X](https://x.com/Risklytics), Aug 2026).
+  - Featured by the Center for Data Innovation on July 29, 2026 ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026).
+  - Zero active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/risklytics), Aug 2026).
+  - Prior product only: Ember, a property-level natural-catastrophe model, entered beta before the company pivoted to commercial brokerage ([LinkedIn](https://www.linkedin.com/company/risklytics), Jul–Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Vouch ($160 million raised, revenue unknown): provides business insurance to startups and high-growth companies across broader technology categories rather than specializing in physical-AI policy exclusions ([TechCrunch, Sep 2021](https://techcrunch.com/2021/09/10/vouch-business-insurance-provider-to-startups-raises-90m-and-is-now-valued-at-550m/)).
-  - Newfront ($310 million raised, revenue unknown): operates a multi-industry, nationwide brokerage combining human brokers with insurance technology and reported $3.1 billion in annual premiums placed ([aVenture](https://aventure.vc/companies/newfront-san-francisco-ca-us?tab=fundraising); [Newfront](https://www.newfront.com/)).
-  - Shepherd ($67 million raised, revenue unknown): underwrites commercial property and casualty coverage for construction and infrastructure projects using project-management data rather than acting primarily as the insured’s broker ([Shepherd, Mar 2026](https://www.shepherdinsurance.com/blog/behind-our-42m-series-b)).
-  - Founder Shield (funding undisclosed, approximately $9.8 million annual revenue before acquisition): provides full-suite brokerage and risk advisory services to high-growth companies from pre-seed through IPO rather than focusing on physical AI ([The Insurer, Jul 2021](https://www.theinsurer.com/ti/news/brp-build-out-continues-with-founder-shield-and-capital-group-deals/)).
-- **Why now:** Risklytics states that carriers began attaching explicit AI exclusions to standard policies in January 2026, creating a renewal-driven need to verify affirmative coverage for AI-related physical losses ([Risklytics website, Jul 2026](https://www.risklytics.ai/)).
+  - Alton Risk (funding unknown, revenue unknown): directly overlaps in physical-AI, hardware, hard-to-place, and emerging-technology brokerage and advertises licensed specialists plus claims support ([Alton Risk](https://altonrisk.io/company/), Aug 2026).
+  - Corgi (over $268 million raised, revenue unknown): operates as an AI-native full-stack carrier for startups rather than solely as a broker; its latest $160 million Series B was led by TCV in May 2026 ([Corgi](https://www.corgi.insure/press-releases/series-b), May 2026).
+  - Vouch ($185 million raised, revenue unknown): provides technology-driven brokerage and insurance products across high-growth companies rather than focusing only on frontier-technology AI exclusions ([Y Combinator](https://www.ycombinator.com/companies/industry/insurance), Aug 2026).
+- **Why now:** ISO introduced optional AI-liability exclusions in 2026, and insurers have adopted them to differing degrees, creating new policy-form variation for AI operators ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026).
 
 ## Founders & Team
 
 - **Samuel Gold (Founder):**
-  - Background: Gold attended Harvard University from 2024 before taking leave, worked as a research assistant for the Institute for Development Impact, and lists Harvard investment organizations among his activities ([YC](https://www.ycombinator.com/companies/risklytics); [LinkedIn](https://www.linkedin.com/in/samuelggold)).
+  - Background: Harvard University student on leave, 2024–2028 class, with a reported 4.0 GPA, John Harvard Scholar recognition, and finance activities including Charles River Growth Fund and Harvard Undergraduate Capital Partners ([Y Combinator](https://www.ycombinator.com/companies/risklytics), [LinkedIn](https://www.linkedin.com/in/samuelggold), 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Founder at Risklytics (YC S26). Building a brokerage for frontier tech. On leave from Harvard,” with approximately 2,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/samuelggold)).
+  - LinkedIn: “Risklytics” ([LinkedIn](https://www.linkedin.com/in/samuelggold), Aug 2026).
   - GitHub: No public repos found.
 - **Alexander Risio (Founder):**
-  - Background: Risio is pursuing a dual A.B./S.M. in computer science at Harvard and participated in Harvard Ventures, Harvard Innovation Labs, and the Harvard Computer Society ([LinkedIn, Jul 2026](https://www.linkedin.com/in/alexanderrisio)).
+  - Background: Harvard A.B./S.M. computer-science student who previously co-founded Primeshio and Arckis and conducted clinical-ML research at Harvard Medical School’s HLI Lab ([personal site](https://www.alexanderrisio.com/), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Building World Models,” with 653 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/alexanderrisio)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders attended Harvard, but no public source specifies when or how they began working together ([Samuel Gold LinkedIn](https://www.linkedin.com/in/samuelggold); [Alexander Risio LinkedIn](https://www.linkedin.com/in/alexanderrisio)).
-- **Founder-market fit:** [Inferred]: The founders document computer-science, research, and investment-group experience, but no public profile reviewed shows prior insurance brokerage, underwriting, producer-licensing, robotics, or commercial-risk experience.
+  - LinkedIn: “Risklytics” ([LinkedIn](https://www.linkedin.com/in/alexanderrisio), Aug 2026).
+  - GitHub: @AlexRisio; alexrisio.github.io has 0 stars ([GitHub](https://github.com/AlexRisio/alexrisio.github.io), Aug 2026).
+- **Co-founder relationship:** Both founders attended Harvard, and both moved full-time onto Risklytics in May 2026 ([Risklytics announcement](https://www.risklytics.ai/news/risklytics-joins-y-combinator/), [founder profiles](https://www.ycombinator.com/companies/risklytics), 2026).
+- **Founder-market fit:** [Inferred]: Gold’s finance activities and Risio’s computer-science and ML work support the brokerage-analysis and software components, while Risio reports passing an insurance licensing examination; neither founder discloses prior insurance-brokerage employment ([LinkedIn company update](https://www.linkedin.com/company/risklytics), [personal site](https://www.alexanderrisio.com/), Aug 2026).
 
 ## Key Risks
 
-- **Licensing dependency:** Risklytics states that it is still obtaining insurance-producer licensure and is not yet placing coverage, preventing the current brokerage from completing its advertised transaction until licensing is secured ([Risklytics website, Jul 2026](https://www.risklytics.ai/)).
-- **Product pivot:** Risklytics publicly launched Ember as a property-level natural-disaster model in July 2026 before changing its website and YC description to commercial insurance brokerage, leaving prior-product beta activity inapplicable to current-product traction ([LinkedIn](https://www.linkedin.com/company/risklytics); [YC](https://www.ycombinator.com/companies/risklytics)).
-- **Carrier-access dependency:** The proposed service depends on finding admitted or E&S carriers willing to omit exclusions or grant affirmative AI coverage, while all placements remain subject to carrier underwriting and availability ([Risklytics website, Jul 2026](https://www.risklytics.ai/)).
-- **Incumbent substitution:** Newfront already operates across technology, construction, manufacturing, transportation, and related sectors with licenses in all 50 states, Washington, D.C., and Puerto Rico, giving it an existing channel through which to add physical-AI specialization ([Newfront, Jul 2026](https://www.newfront.com/)).
-- **Name ambiguity:** An unrelated German company, risklytics GmbH, sells risk-management software for leasing and factoring institutions, creating search and brand-disambiguation risk ([risklytics.de](https://www.risklytics.de/)).
+- **Licensing dependency:** Risklytics states that it is obtaining producer licenses and is not yet placing coverage; its mitigation is state-by-state licensing followed by founder-managed initial placements ([company website](https://www.risklytics.ai/), [company announcement](https://www.risklytics.ai/news/risklytics-joins-y-combinator/), Aug 2026).
+- **Carrier-access dependency:** The company needs carriers and wholesalers willing to underwrite frontier risks, while insurers seek placement history before working with a new brokerage; Risklytics says it is partnering with wholesale brokers and MGAs ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026).
+- **Direct product overlap:** Alton Risk already markets policy-gap detection, carrier matching, submissions, and brokerage for physical AI and hardware, while Risklytics differentiates through its stated focus on AI exclusions and continuously monitored policy forms ([Alton Risk](https://altonrisk.io/company/), [Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), 2026).
+- **Pivot continuity:** Risklytics abandoned its initial natural-catastrophe model after describing it as a non-starter, and its LinkedIn page still contains Ember launch posts alongside the new brokerage positioning ([LinkedIn](https://www.linkedin.com/company/risklytics), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $125.36B global insurance-brokerage market in 2025, projected to reach $282.45B by 2034 at 9.5% CAGR (Fortune Business Insights, Jul 2026) |
+| TAM | $335.87B global insurance-brokerage market in 2025; 9.6% CAGR for 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/insurance-brokerage-market-report), 2026) |
 | SAM | No public data found |
-| Traction | 91 LinkedIn followers; zero YC job postings; prior product Ember entered beta before brokerage pivot (LinkedIn and YC, Jul 2026) |
+| Traction | YC Summer 2026 acceptance ([Risklytics](https://www.risklytics.ai/news/risklytics-joins-y-combinator/), May 2026); 123 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/risklytics), Aug 2026); Center for Data Innovation feature ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Samuel Gold (Founder): Harvard student on leave and former I4DI research assistant; Alexander Risio (Founder): Harvard computer-science A.B./S.M. candidate (YC and LinkedIn, Jul 2026) |
-| Competitors | Vouch ($160M raised, revenue unknown, startup insurance); Newfront ($310M raised, revenue unknown, nationwide multi-industry brokerage); Shepherd ($67M raised, revenue unknown, construction and infrastructure underwriting); Founder Shield (funding undisclosed, approximately $9.8M annual revenue before acquisition, high-growth-company brokerage) (TechCrunch, aVenture, Shepherd, and The Insurer) |
-| Moat Signals | No public data found |
-| Risk Factors | Pending producer licensure, carrier-access dependency, recent product pivot (Risklytics website, LinkedIn, and YC, Jul 2026) |
-| Founder Reach | Samuel Gold: Twitter not found, LinkedIn approximately 2K, GitHub not found; Alexander Risio: Twitter not found, LinkedIn 653, GitHub not found (LinkedIn, Jul 2026) |
-| Distribution Signals | 91 LinkedIn followers and @Risklytics company X account with count not retrievable (LinkedIn and X, Jul 2026) |
-| Emails | hello@risklytics.ai (Risklytics website, Jul 2026) |
+| Founders | Samuel Gold (Founder): Harvard student on leave and finance-club participant ([YC](https://www.ycombinator.com/companies/risklytics), [LinkedIn](https://www.linkedin.com/in/samuelggold), 2026); Alexander Risio (Founder): Harvard CS A.B./S.M. student, prior startup founder, and Harvard Medical School ML researcher ([personal site](https://www.alexanderrisio.com/), 2026) |
+| Competitors | Alton Risk (funding unknown, revenue unknown, directly overlapping physical-AI brokerage; [Alton Risk](https://altonrisk.io/company/), 2026); Corgi (over $268M raised, revenue unknown, full-stack startup carrier; [Corgi](https://www.corgi.insure/press-releases/series-b), May 2026); Vouch ($185M raised, revenue unknown, broader startup brokerage; [YC](https://www.ycombinator.com/companies/industry/insurance), 2026) |
+| Moat Signals | Continuously updated database of policy forms, endorsements, regulatory filings, and carrier AI-exclusion treatment ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026) |
+| Risk Factors | Producer licensure pending ([Risklytics](https://www.risklytics.ai/), Aug 2026), carrier and wholesaler dependency ([Center for Data Innovation](https://datainnovation.org/2026/07/5-qs-with-samuel-gold-founder-of-risklytics/), Jul 2026), direct physical-AI brokerage overlap ([Alton Risk](https://altonrisk.io/company/), Aug 2026) |
+| Founder Reach | Samuel Gold: LinkedIn 2K followers, Twitter/GitHub unavailable ([LinkedIn](https://www.linkedin.com/in/samuelggold), Aug 2026); Alexander Risio: LinkedIn 653 followers, GitHub top repo 0 stars ([LinkedIn](https://www.linkedin.com/in/alexanderrisio), [GitHub](https://github.com/AlexRisio/alexrisio.github.io), Aug 2026) |
+| Distribution Signals | LinkedIn 123 followers ([LinkedIn](https://www.linkedin.com/company/risklytics), Aug 2026); X @Risklytics count not retrievable ([X](https://x.com/Risklytics), Aug 2026); zero YC jobs ([YC](https://www.ycombinator.com/companies/risklytics), Aug 2026) |
+| Emails | hello@risklytics.ai ([company website](https://www.risklytics.ai/), Aug 2026) |

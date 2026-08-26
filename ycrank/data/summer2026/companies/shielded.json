@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Fintech, Supply Chain, Agriculture, Energy, Infrastructure",
     "yc_partner": "Jared Friedman",
-    "emails": "james@shieldedglobal.com ([Shielded LinkedIn, Jul 2026](https://www.linkedin.com/company/shieldedglobal))"
+    "emails": "james@shieldedglobal.com"
   },
   "tags": [
     "Fintech",
@@ -21,52 +21,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:00:18.329Z",
+  "memoGeneratedAt": "2026-08-11T05:38:06.303Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 57,
+      "score": 48,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 61,
+      "score": 55,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 36,
       "tier": "Pass"
     },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 37,
+      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 57,
-    "NR": 47,
-    "PG": 61,
-    "PT": 32,
-    "SL": 36,
-    "VK": 37
+    "CB": 44,
+    "EG": 48,
+    "NR": 42,
+    "PG": 55,
+    "PT": 36,
+    "SL": 35,
+    "VK": 25
   },
-  "consolidatedAvg": 46.14,
-  "consolidatedRank": 141,
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 57,
-    "tractionReason": "Three customer use cases, including 200-SKU monitoring"
+    "tractionRank": 70,
+    "tractionScore": 59,
+    "tractionReason": "Deployments across four major customer categories"
   },
   "paths": {
     "memo": "summer2026/memos/shielded.md",

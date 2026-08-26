@@ -8,80 +8,80 @@
 | YC Page | https://www.ycombinator.com/companies/assemble |
 | Batch | Summer 2026 |
 | Industry | B2B / B2B |
-| Team Size | 3 |
+| Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | SaaS, Enterprise Software, AI |
-| YC Partner | Ankit Gupta ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble)) |
-| Emails | founders@assemble.ai ([Assemble website, Jul 2026](https://www.assemble.ai/)) |
+| Tags | Artificial Intelligence, SaaS, Enterprise Software |
+| YC Partner | Ankit Gupta |
+| Emails | founders@assemble.ai, careers@assemble.ai |
 
 ## The Idea
 
-- **Problem:** Enterprise IT teams and systems integrators must modify ERP, CRM, and HRIS environments containing years of interconnected custom logic, causing implementations to take months or years ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble)).
-- **Approach:** Assemble reads requirements and system context, scopes downstream dependencies, executes changes through computer use and purpose-built connectors, generates tests, validates against a shadow environment, and records reversible actions ([Assemble website, Jul 2026](https://www.assemble.ai/); [Assemble product post, Jul 24, 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
-- **Differentiation:** Tribal emphasizes a metadata fabric for governed application development, Opkey focuses on continuous ERP testing, and Duvo automates retail operations, while Assemble presents one workflow spanning dependency scoping, implementation, testing, and rollback across enterprise platforms ([Tribal, May 20, 2026](https://www.globenewswire.com/news-release/2026/05/20/3298634/0/en/tribal-raises-10m-seed-to-bring-context-aware-ai-agents-to-enterprise-systems.html); [Opkey, Aug 22, 2024](https://www.prweb.com/releases/opkey-secures-47-million-in-series-b-funding-to-revolutionize-cloud-erp-transformation-302228814.html); [Duvo, Dec 2, 2025](https://www.duvo.ai/blog/duvo.ai-raises-15-million-to-give-retail-teams-an-ai-workforce-that-goes-live-in-weeks-cutting-manual-work-by-40)).
-- **Business Model:** [Inferred]: A demo-led, negotiated enterprise SaaS model is the likely monetization path because the website routes buyers to a contact form and publishes no pricing ([Assemble website, Jul 2026](https://www.assemble.ai/)).
-- **TAM/SAM:** The global enterprise-agentic-AI market is estimated at $5.3B in 2026 and forecast to reach $24.5B by 2030 at a 46.2% CAGR, while no public estimate isolates enterprise-system development agents ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/enterprise-agentic-ai-market-report)).
-- **GTM / Distribution:** The launch requests introductions to CIOs and leaders of IT, Business Systems, and Enterprise Applications, indicating founder-led enterprise outreach ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble)).
+- **Problem:** Enterprise IT teams changing ERP, CRM, and HRIS platforms must navigate years of custom logic, integrations, and undocumented processes, causing implementations to take months or years while relying on internal specialists and system integrators ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RSr-assemble-agents-for-enterprise-it)).
+- **Approach:** Assemble reads requirements and system context, scopes dependencies, modifies configurations through computer use or purpose-built connectors, generates tests, validates changes against a shadow environment, and records reversible action traces ([Assemble website, Aug 2026](https://www.assemble.ai/); [Assemble blog, Jul 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
+- **Differentiation:** Assemble executes and validates changes inside systems of record, while Auctor centers on implementation artifacts and institutional context and Workato centers on integrations, workflows, and agent orchestration ([Auctor, 2026](https://www.getauctor.com/series-a-announcement); [Workato, 2026](https://www.workato.com/)).
+- **Business Model:** [Inferred]: Sales-assisted enterprise software subscriptions or usage contracts are the likely path because the site provides a work-email demo form rather than public self-service pricing.
+- **TAM/SAM:** Adjacent global system-integration services were estimated at $491.5B in 2024 with a 14.2% CAGR, while enterprise-application integration was estimated at $17.67B in 2025 with a 15.65% CAGR through 2030 ([Emergen Research, 2025](https://www.emergenresearch.com/industry-report/system-integration-services-market); [Research and Markets, 2025](https://www.researchandmarkets.com/reports/4591796/enterprise-application-integration-market)).
+- **GTM / Distribution:** [Inferred]: Founder-led sales to CIOs, VPs of IT, business-systems leaders, and system integrators is indicated by the launch request for introductions, demo form, and two open go-to-market roles ([Launch YC, Jul 2026](https://www.ycombinator.com/launches/RSr-assemble-agents-for-enterprise-it); [Assemble careers, Aug 2026](https://www.assemble.ai/careers)).
 
 ## Defensibility
 
-- **Moat today:** Assemble reports Salesforce-specific version-control infrastructure that records queries and mutations, verifies final state, and maintains deterministic rollback paths, alongside completion of 30 Salesforce Superbadges in 6.4 recorded hours ([Assemble product post, Jul 24, 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
-- **Future moat:** [Inferred]: An execution dataset could develop from the contractual right to use anonymized system metadata, tool-call logs, and execution steps, but no customer or dataset scale is publicly reported ([Assemble Terms, May 27, 2026](https://www.assemble.ai/terms)).
-- **Market structure:** No structural barrier is identified at this stage because Tribal markets overlapping metadata-aware agents and SAP is deploying more than 200 native agents across core business functions ([Tribal, May 20, 2026](https://www.globenewswire.com/news-release/2026/05/20/3298634/0/en/tribal-raises-10m-seed-to-bring-context-aware-ai-agents-to-enterprise-systems.html); [SAP, May 2026](https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/)).
-- **Commoditization risk:** Enterprise vendors can embed agents directly into their systems, while Tribal, Opkey, Nexus, and Duvo already offer adjacent context, testing, implementation, or cross-system execution capabilities ([SAP, May 2026](https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/); [Salesforce, Oct 29, 2024](https://www.salesforce.com/news/press-releases/2024/10/29/agentforce-general-availability-announcement/)).
+- **Moat today:** Assemble has built Salesforce API version-control infrastructure that records queries and mutations, verifies scoped branches, and provides deterministic rollback; its agent completed 30 Trailhead Superbadges in approximately 6.4 recorded hours with a 93% first-attempt pass rate ([Assemble blog, Jul 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
+- **Future moat:** [Inferred]: Customer-specific dependency maps, configuration preferences, test histories, and validated change traces could create switching costs and improve execution, but no public customer deployment data establishes this yet.
+- **Market structure:** No structural barrier is identified because Salesforce, Workato, Oracle, SAP, Workday, and ServiceNow control relevant platforms or already offer native agent and orchestration capabilities ([Salesforce, 2026](https://www.salesforce.com/partners/build-on-salesforce/); [Workato, 2026](https://www.workato.com/)).
+- **Commoditization risk:** Auctor, Workato, Nexus, enterprise-software vendors, system integrators, and general coding-agent providers can build overlapping dependency analysis, configuration, testing, and workflow-execution functions ([Auctor, 2026](https://www.getauctor.com/series-a-announcement); [Nexus, May 2026](https://agent.nexus/blog/nexus-raises-4-3m-seed-shipping-cue)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Product benchmark: 629 Salesforce Trailhead badges, 371,300 points, 30 Superbadges, and a 93% first-attempt pass rate after approximately 6.4 recorded execution hours ([Assemble product post, Jul 24, 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
-  - 207 LinkedIn followers ([LinkedIn, Jul 30, 2026](https://www.linkedin.com/company/use-assemble)).
-  - Zero active YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble)).
-- **Competitors:**
-  - Tribal ($10M raised, revenue unknown): maps enterprise metadata and builds governed solutions across Salesforce, ServiceNow, SAP, NetSuite, and Workday ([Tribal, May 20, 2026](https://www.globenewswire.com/news-release/2026/05/20/3298634/0/en/tribal-raises-10m-seed-to-bring-context-aware-ai-agents-to-enterprise-systems.html)).
-  - Opkey ($59M raised, revenue unknown): specializes in no-code continuous testing for ERP transformations rather than the entire change lifecycle ([TechCrunch, Aug 22, 2024](https://techcrunch.com/2024/08/22/opkey-an-ai-based-erp-testing-platform-raises-47m/)).
-  - Duvo ($15M raised, revenue unknown): runs operational workflows across SAP, portals, email, and spreadsheets for retail business users ([Duvo, Dec 2, 2025](https://www.duvo.ai/blog/duvo.ai-raises-15-million-to-give-retail-teams-an-ai-workforce-that-goes-live-in-weeks-cutting-manual-work-by-40)).
-  - Nexus ($4.3M raised, revenue unknown): builds governed agents for general enterprise workflows through its Cue autonomous build loop ([Nexus, May 8, 2026](https://agent.nexus/blog/nexus-raises-4-3m-seed-shipping-cue)).
-- **Why now:** Gartner forecast task-specific agents in 40% of enterprise applications by the end of 2026, up from less than 5% in 2025 ([Gartner, Aug 26, 2025](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)).
+  - Assemble’s Salesforce agent completed 30 Superbadges, 629 badges, and 371,300 Trailhead points in approximately 6.4 recorded execution hours, passing 93% of challenges on its first attempt ([Assemble blog, Jul 24, 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
+  - 107 company LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/use-assemble/)).
+  - 40 company X followers for @assembleagents ([TwStalker, Aug 2026](https://site.twstalker.com/AreslabsAI)).
+  - Two open go-to-market roles: Sales Development Representative and Enterprise Strategy Lead ([Assemble careers, Aug 2026](https://www.assemble.ai/careers)).
+- **Competitors (minimum 3, up to 5):**
+  - Auctor ($20M raised, revenue unknown): manages discovery, requirements, delivery artifacts, and institutional context for implementation teams rather than directly emphasizing reversible cross-system configuration ([Auctor, 2026](https://www.getauctor.com/series-a-announcement)).
+  - Workato ($420M+ raised, revenue unknown): provides integration, automation, and agent orchestration across enterprise applications rather than an IT-engineer agent centered on scoped changes and rollback ([Workato, 2021](https://www.workato.com/the-connector/ja/series-e-announcement/)).
+  - Trace ($3M raised, revenue unknown): builds an organizational knowledge graph and orchestrates human-agent workflows, while Assemble targets development work inside ERP, CRM, and HRIS systems ([Trace, Feb 2026](https://www.trace.so/blog/trace-raised-dollar3m-to-build-the-context-layer-for-ai-at-work)).
+  - Nexus ($4.3M raised, revenue unknown): autonomously builds enterprise AI agents and integrations, while Assemble focuses on modifying and validating existing business-system configurations ([Nexus, May 2026](https://agent.nexus/blog/nexus-raises-4-3m-seed-shipping-cue)).
+- **Why now:** [Inferred]: Enterprise vendors’ 2025–2026 releases of agent builders, governed connectors, and MCP interfaces lower the cost of machine access to systems of record, enabling external agents to move from answering questions to executing changes ([Salesforce, 2026](https://www.salesforce.com/partners/build-on-salesforce/); [NetSuite coverage, Mar 2026](https://www.techradar.com/pro/forget-copilots-netsuite-wants-to-be-the-autopilot-for-your-business-ai-journey)).
 
 ## Founders & Team
 
 - **Aliyan Ishfaq (Co-Founder & CEO):**
-  - Background: Stanford computer-science graduate, Stanford AI Lab researcher, and former LangChain applied-AI engineer; his separate pre-Assemble ParaAI editor reported 100,000+ users and $50K+ ARR ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble); [personal site, Jul 2026](https://www.aliyanishfaq.com/)).
-  - Twitter/X: @MAliyanIshfaq; count not retrievable ([GitHub profile, Jul 2026](https://github.com/aliyanishfaq)).
-  - LinkedIn: “Assemble; Stanford University,” with 3K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/aliyan-ishfaq)).
-  - GitHub: @aliyanishfaq; pinned Open SWE repository with 10.3K stars ([GitHub, Jul 2026](https://github.com/aliyanishfaq)).
+  - Background: Stanford computer-science graduate, former Stanford AI Lab researcher and LangChain applied-AI engineer whose prior ParaAI project reported 100,000+ users and $50K+ ARR ([YC](https://www.ycombinator.com/companies/assemble); [personal site](https://www.aliyanishfaq.com/)).
+  - Twitter/X: @MAliyanIshfaq; count not retrievable ([GitHub profile](https://github.com/aliyanishfaq)).
+  - LinkedIn: “Assemble; Stanford University” ([LinkedIn](https://www.linkedin.com/in/aliyan-ishfaq)).
+  - GitHub: @aliyanishfaq; pinned `langchain-ai/open-swe` repository with 10.4K stars ([GitHub, Aug 2026](https://github.com/aliyanishfaq)).
 - **Shaurnav Ghosh (Co-Founder):**
-  - Background: Stanford CS BS/MS, Stanford AI Lab researcher, and former AWS and Apple AI engineer ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble)).
-  - Twitter/X: @shaurnav with 40 followers ([TwStalker, Jun 2026](https://twstalker.com/shaurnav)).
-  - LinkedIn: “Assemble; Stanford University,” with 1K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/shaurnav-ghosh)).
-  - GitHub: @Shaurnav; PineCrestPepperRobot has 2 stars ([GitHub, Jul 2026](https://github.com/shaurnav)).
+  - Background: Stanford CS BS/MS graduate and Stanford AI Lab researcher with prior AI-engineering work at AWS and Apple ([YC](https://www.ycombinator.com/companies/assemble); [LinkedIn](https://www.linkedin.com/in/shaurnav-ghosh)).
+  - Twitter/X: @shaurnav with 40 followers ([TwStalker, Jul 2026](https://twstalker.com/shaurnav)).
+  - LinkedIn: “Assemble; Stanford University” ([LinkedIn](https://www.linkedin.com/in/shaurnav-ghosh)).
+  - GitHub: @Shaurnav; `PineCrestPepperRobot` with 2 stars ([GitHub, Aug 2026](https://github.com/shaurnav)).
 - **Shrish Janarthanan (Co-Founder):**
-  - Background: Stanford CS graduate, Mayfield Fellow, and former KPMG AI and cybersecurity intern ([Stanford resume, 2025](https://stvp.stanford.edu/wp-content/uploads/sites/3/2024/12/MayfieldResumeShrish.pdf)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Assemble (YC S26); Stanford University,” with 3K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/shrishj)).
-  - GitHub: @shrishj lists four repositories, but no public repository star count was found ([GitHub, Jul 2026](https://github.com/shrishj)).
-- **Co-founder relationship:** All three attended Stanford, and Ghosh and Janarthanan co-authored a Stanford NLP project ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble); [Stanford CS224N, 2025](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1254/project.html)).
-- **Founder-market fit:** [Inferred]: The team’s Stanford agent research, LangChain work, AWS/Apple AI engineering, and KPMG cybersecurity experience align with agent execution and governance inside enterprise systems ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/assemble)).
+  - Background: Stanford CS graduate, 2025 Mayfield Fellow, Terman Scholar, and former KPMG AI and cybersecurity intern ([Stanford resume](https://stvp.stanford.edu/wp-content/uploads/sites/3/2024/12/MayfieldResumeShrish.pdf); [Stanford Engineering](https://engineering.stanford.edu/students-academics/academics/frederick-emmons-terman-engineering-scholastic-award/terman-awards-19)).
+  - Twitter/X: @shrishj5 with 62 followers ([TwStalker, Aug 2026](https://mobile.twstalker.com/BhathalTanvir0)).
+  - LinkedIn: “Assemble (YC S26); Stanford University” ([LinkedIn](https://www.linkedin.com/in/shrishj)).
+  - GitHub: @shrishj with four repositories; top-repository star count not retrievable ([GitHub, Aug 2026](https://github.com/shrishj)).
+- **Co-founder relationship:** All three attended Stanford, and Shaurnav Ghosh and Shrish Janarthanan jointly completed a Stanford CS224N project on detecting unfair contract clauses ([Stanford CS224N](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1254/project.html)).
+- **Founder-market fit:** [Inferred]: The team’s documented work in long-running agents, AI evaluation, cybersecurity, and Stanford AI research maps to agent execution and validation, although only Shrish’s KPMG work supplies publicly documented enterprise-security experience ([YC](https://www.ycombinator.com/companies/assemble); [Stanford resume](https://stvp.stanford.edu/wp-content/uploads/sites/3/2024/12/MayfieldResumeShrish.pdf)).
 
 ## Key Risks
 
-- **Production-change error:** Assemble’s terms state that AI outputs may hallucinate or produce unexpected results and place verification responsibility on customers, while the product offers testing, recorded traces, and rollback paths as mitigation ([Assemble Terms, May 27, 2026](https://www.assemble.ai/terms); [Assemble product post, Jul 24, 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
-- **Real-environment generalization:** Assemble says Trailhead provides structured requirements and deterministic grading while real enterprises have incomplete requirements and logic dispersed across documentation and systems ([Assemble product post, Jul 24, 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
-- **Platform and credential dependency:** Customers must grant API access or credentials to systems such as Salesforce, NetSuite, and Workday, while Salesforce and SAP are deploying native agent products ([Assemble Terms, May 27, 2026](https://www.assemble.ai/terms); [Salesforce, Oct 29, 2024](https://www.salesforce.com/news/press-releases/2024/10/29/agentforce-general-availability-announcement/); [SAP, May 2026](https://news.sap.com/2026/05/sap-sapphire-sap-unveils-autonomous-enterprise/)).
-- **Name ambiguity:** “Assemble” is shared with unrelated businesses and is similar to YC companies Assembly and AssemblyAI, creating search-result and brand-disambiguation risk ([Y Combinator company directory, Jul 2026](https://www.ycombinator.com/companies/assemble); [AssemblyAI](https://www.ycombinator.com/companies/assemblyai)).
+- **Cross-platform feasibility:** Public technical evidence covers Salesforce Trailhead, while the product promises work across SAP, Oracle, NetSuite, Workday, and other systems; Assemble states that real enterprise environments have incomplete requirements and distributed business logic, with connectors, testing, and rollback as mitigation ([Assemble blog, Jul 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
+- **Privileged-system access:** The agent inspects and mutates enterprise applications through APIs, connectors, and computer use, creating erroneous-change and access-control exposure; recorded actions, scoped branches, verification, and deterministic rollback are the disclosed mitigations ([Assemble blog, Jul 2026](https://www.assemble.ai/blog/building-ai-salesforce-architects)).
+- **Platform dependency and overlap:** Assemble depends on systems controlled by vendors including Salesforce, SAP, Oracle, and Workday, while those vendors and orchestration platforms are adding native agents and governed integrations that can substitute for portions of Assemble’s product ([Salesforce, 2026](https://www.salesforce.com/partners/build-on-salesforce/); [Workato, 2026](https://www.workato.com/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $5.3B enterprise-agentic-AI market in 2026, forecast to reach $24.5B by 2030 at 46.2% CAGR (Grand View Research, 2026) |
-| SAM | No public data found |
-| Traction | Product benchmark: 629 Salesforce badges, 30 Superbadges, 93% first-attempt pass rate, and approximately 6.4 recorded hours (Assemble product post, Jul 24, 2026); 207 LinkedIn followers (LinkedIn, Jul 30, 2026) |
+| TAM | $491.5B global system-integration services market in 2024, 14.2% CAGR through 2034 (Emergen Research, 2025) |
+| SAM | $17.67B enterprise-application integration market in 2025, 15.65% CAGR through 2030 (Research and Markets, 2025) |
+| Traction | 30 Salesforce Superbadges, 629 badges, 371,300 points, approximately 6.4 execution hours, and 93% first-attempt pass rate (Assemble blog, Jul 2026); 107 LinkedIn followers (LinkedIn, Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Aliyan Ishfaq (CEO): Stanford CS, SAIL, LangChain; Shaurnav Ghosh (Co-Founder): Stanford CS BS/MS, AWS, Apple, SAIL; Shrish Janarthanan (Co-Founder): Stanford CS, KPMG AI/cybersecurity, Mayfield Fellow (Y Combinator, Jul 2026; Stanford, 2025) |
-| Competitors | Tribal ($10M raised, revenue unknown, metadata-native enterprise development); Opkey ($59M raised, revenue unknown, ERP testing); Duvo ($15M raised, revenue unknown, retail operations); Nexus ($4.3M raised, revenue unknown, general enterprise-agent implementation) (company announcements and TechCrunch, 2024–2026) |
-| Moat Signals | Salesforce API version-control infrastructure, deterministic rollback paths, query/mutation traces, and rights to use anonymized execution metadata (Assemble product post, Jul 24, 2026; Assemble Terms, May 27, 2026) |
-| Risk Factors | AI-generated production errors and credential access (Assemble Terms, May 27, 2026), real-environment generalization (Assemble product post, Jul 24, 2026), native and startup competition (SAP and Tribal, May 2026) |
-| Founder Reach | Aliyan: LinkedIn 3K, GitHub pinned repo 10.3K stars (LinkedIn and GitHub, Jul 2026); Shaurnav: Twitter/X 40, LinkedIn 1K, GitHub top repo 2 stars (TwStalker, LinkedIn, and GitHub, Jun–Jul 2026); Shrish: LinkedIn 3K, no public Twitter/X or GitHub star count (LinkedIn and GitHub, Jul 2026) |
-| Distribution Signals | 207 LinkedIn followers (LinkedIn, Jul 30, 2026); Summer 2026 YC launch profile (Y Combinator, Jul 2026) |
-| Emails | founders@assemble.ai (Assemble website, Jul 2026) |
+| Founders | Aliyan Ishfaq (CEO): Stanford CS, SAIL, LangChain; Shaurnav Ghosh (Co-Founder): Stanford CS BS/MS, SAIL, AWS, Apple; Shrish Janarthanan (Co-Founder): Stanford CS, Mayfield Fellow, KPMG cybersecurity (YC, Stanford, 2026) |
+| Competitors | Auctor ($20M raised, revenue unknown, implementation artifacts); Workato ($420M+ raised, revenue unknown, integration and orchestration); Trace ($3M raised, revenue unknown, organizational context graph); Nexus ($4.3M raised, revenue unknown, autonomous enterprise-agent deployment) (company funding announcements, 2021–2026) |
+| Moat Signals | Salesforce API version control, scoped branches, recorded mutations, generated tests, shadow validation, and deterministic rollback (Assemble blog, Jul 2026) |
+| Risk Factors | Cross-platform proof gap, privileged-system access, platform-vendor overlap (Assemble blog; Salesforce; Workato, 2026) |
+| Founder Reach | Aliyan: LinkedIn 3K, X count not retrievable, pinned GitHub repo 10.4K stars; Shaurnav: LinkedIn 1K, X 40, GitHub top repo 2 stars; Shrish: LinkedIn 3K, X 62, GitHub star count not retrievable (LinkedIn, GitHub, TwStalker, Jul–Aug 2026) |
+| Distribution Signals | 107 LinkedIn followers (LinkedIn, Jul 2026), 40 X followers (TwStalker, Aug 2026), two open GTM roles (Assemble careers, Aug 2026) |
+| Emails | founders@assemble.ai, careers@assemble.ai (Assemble website and careers page, Aug 2026) |

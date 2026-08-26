@@ -1,87 +1,87 @@
 ﻿# Florin
 
-> The financial operating system for the companies building the future.
+> Florin is the insurance carrier with zero underwriters
 
 | Field | Value |
 |-------|-------|
 | Website | https://florin.inc |
 | YC Page | https://www.ycombinator.com/companies/florin |
 | Batch | Summer 2026 |
-| Industry | Fintech / Fintech |
+| Industry | Fintech / Fintech -> Insurance |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Banking as a Service, Fintech, Finance, Neobank |
+| Tags | Fintech, Insurance, AI |
 | YC Partner | Ankit Gupta |
-| Emails | No public data found |
+| Emails | shaurya@florin.inc ([YC launch](https://www.ycombinator.com/companies/florin), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** Venture-backed startups manage banking, payments, cards, and treasury across multiple tools whose separate systems delay money movement ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
-- **Approach:** Florin combines accounts, payments, cards, and treasury on an internally built, single real-time ledger ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
-- **Differentiation:** Florin says it builds its infrastructure end to end instead of reselling another bank’s rails, while Mercury uses partner banks, Brex combines cards and spend software, and Rho targets banking and finance workflows ([Florin/YC, Jul 2026](https://www.ycombinator.com/companies/florin); [Mercury](https://mercury.com/); [TechCrunch, Jan 2022](https://techcrunch.com/2022/01/11/brex-confirms-12-3b-valuation-hires-meta-exec-to-serve-as-its-chief-product-officer/); [Rho](https://www.rho.co/blog/rho-announces-75m-series-b-round-to-expand-financial-operating-system)).
-- **Business Model:** [Inferred]: An invite-only financial membership for venture-backed companies could monetize through membership fees, card interchange, payments, and treasury yield, but Florin publishes no pricing or fee schedule.
-- **TAM/SAM:** The adjacent global B2B fintech and corporate-banking market was estimated at $12.9 billion in 2025 and projected to reach $26.6 billion by 2032 at a 10.9% CAGR ([Stratistics MRC, 2026](https://www.strategymrc.com/report/b2b-fintech-and-corporate-banking-market)).
-- **GTM / Distribution:** Florin says it will begin with invite-only membership for venture-backed companies and expand afterward ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
+- **Problem:** Commercial applicants in robotics, space, advanced energy, and defense can face week-long underwriting, incomplete applications, class-code mismatches, or declinations when their risks do not fit existing rate tables ([Florin website](https://florin.inc/); [YC](https://www.ycombinator.com/companies/florin), Aug 2026).
+- **Approach:** Florin says its model reads ACORD forms, gathers satellite imagery, permits, public records, and social-media evidence, simulates tens of thousands of policy-year outcomes, and returns a bindable quote in under one minute ([YC](https://www.ycombinator.com/companies/florin), Aug 2026).
+- **Differentiation:** [Inferred]: Unlike startup-focused Corgi, construction-focused Shepherd, and telematics-based trucking insurer Nirvana, Florin targets multiple physical-technology sectors and claims no human touches underwriting ([Corgi](https://www.corgi.insure/press-releases/series-b1), May 2026; [Shepherd](https://www.shepherdinsurance.com/blog/behind-our-42m-series-b), Mar 2026; [Nirvana](https://www.nirvanatech.com/blog/series-d), Dec 2025; [YC](https://www.ycombinator.com/companies/florin), Aug 2026).
+- **Business Model:** [Inferred]: As a claimed full-stack carrier, Florin would collect risk-priced commercial-insurance premiums and retain underwriting economics, but no public pricing, commissions, or coverage limits were found.
+- **TAM/SAM:** Global commercial insurance was estimated at $911.7 billion in 2024 and projected to reach $1.3 trillion by 2030 at a 6.4% CAGR, while no public SAM was found for Florin’s target industries ([Global Industry Analysts](https://www.marketresearch.com/Global-Industry-Analysts-v1039/Commercial-Insurance-41400766/), 2025).
+- **GTM / Distribution:** Florin solicits work-email coverage requests on its site and asks businesses facing carrier declinations or high quotes to contact the CEO directly by email or Calendly ([Florin website](https://florin.inc/); [YC launch](https://www.ycombinator.com/companies/florin), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Florin identifies its end-to-end infrastructure and owned single ledger as the mechanism for real-time movement, but no public patents, licenses, transaction scale, or proprietary-data metrics were found ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
-- **Future moat:** [Inferred]: Consolidated account, card, payment, and treasury histories could create underwriting data and switching costs, but no customer adoption or retention evidence yet verifies this mechanism.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Linking application data and external evidence to policy and claims outcomes could produce proprietary risk data, but Florin discloses no policy volume, claims history, or model-performance results.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Mercury already integrates banking, cards, payments, invoicing, and accounting workflows, while Brex and Rho offer overlapping finance stacks backed by substantially more capital ([Mercury, Feb 2026](https://mercury.com/blog/annual-letter-2025); [TechCrunch, Jan 2022](https://techcrunch.com/2022/01/11/brex-confirms-12-3b-valuation-hires-meta-exec-to-serve-as-its-chief-product-officer/); [TechCrunch, Dec 2021](https://techcrunch.com/2021/12/09/rho-raises-75-million-series-b-for-its-one-stop-corporate-spend-and-cash-management-solution/)).
+- **Commoditization risk:** Corgi, Shepherd, Nirvana, and Coterie already automate commercial underwriting or pricing with AI, external data, or telematics, and collectively disclose more than $800 million in funding ([Corgi](https://www.corgi.insure/press-releases/series-b1), May 2026; [Shepherd](https://www.shepherdinsurance.com/blog/behind-our-42m-series-b), Mar 2026; [Nirvana](https://www.nirvanatech.com/press); [Coterie](https://coterieinsurance.com/newsroom/press-releases/coterie-fundraise/), Mar 2024).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Summer 2026 YC company with three founders and zero listed jobs ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
-  - Company LinkedIn page established in 2026; follower count was not retrievable ([LinkedIn, Jul 2026](https://www.linkedin.com/company/florinbank)).
+  - Insurance product launch posted on YC, with no customer, policy, revenue, or user count disclosed ([YC](https://www.ycombinator.com/companies/florin), accessed Aug 10, 2026).
+  - 0 jobs listed ([YC](https://www.ycombinator.com/companies/florin), accessed Aug 10, 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Mercury ($500 million raised, $650 million annualized revenue): serves more than 300,000 customers through banking, cards, payments, invoicing, and accounting products, while Florin claims an internally owned ledger ([TechCrunch, Mar 2025](https://techcrunch.com/2025/03/26/fintech-mercury-lands-300m-in-sequoia-led-series-c-doubles-valuation-to-3-5b/); [Mercury, Feb 2026](https://mercury.com/blog/annual-letter-2025)).
-  - Brex ($1.2 billion raised, revenue unknown): combines corporate cards, cash accounts, spend management, and bill payment, whereas Florin begins with an invite-only banking membership ([TechCrunch, Jan 2022](https://techcrunch.com/2022/01/11/brex-confirms-12-3b-valuation-hires-meta-exec-to-serve-as-its-chief-product-officer/)).
-  - Rho ($205 million equity and debt financing, revenue unknown): targets companies with 30–500 employees using banking, cards, accounts payable, and cash management, while Florin initially targets venture-backed startups ([TechCrunch, Dec 2021](https://techcrunch.com/2021/12/09/rho-raises-75-million-series-b-for-its-one-stop-corporate-spend-and-cash-management-solution/)).
-  - Arc ($181 million raised, revenue unknown): combines startup cash management and financing, while Florin describes broader payment, card, and treasury infrastructure ([Arc, Aug 2022](https://www.joinarc.com/blog/arc-raises-20-million-series-a)).
-- **Why now:** [Inferred]: The OCC’s March 2025 clarification that national banks may use distributed ledgers and stablecoins for permissible payment activities reduces uncertainty around newer real-time settlement infrastructure, although Florin has not stated that it uses either technology ([OCC, Mar 2025](https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2025/interpretations-and-actions-mar-2025.html)).
+  - Corgi ($378M raised, revenue unknown): startup-focused AI insurance platform spanning underwriting and claims, versus Florin’s focus on physical-technology sectors and zero-underwriter claim ([Corgi](https://www.corgi.insure/press-releases/series-b1), May 2026).
+  - Shepherd ($67M raised, revenue unknown): construction and AI-infrastructure insurance using AI intake with underwriters handling exceptions, versus Florin’s claimed human-free underwriting ([Shepherd](https://www.shepherdinsurance.com/blog/behind-our-42m-series-b), Mar 2026).
+  - Nirvana ($262M+ disclosed funding, revenue unknown): commercial-trucking insurance priced from 30B+ miles of telematics data, versus Florin’s cross-industry external-evidence model ([Nirvana](https://www.nirvanatech.com/press), Dec 2025).
+  - Coterie ($102M+ raised, revenue unknown): small-business MGA distributed through agents and brokers with sub-one-minute binding, versus Florin’s claimed full-stack carrier model ([Coterie](https://coterieinsurance.com/newsroom/press-releases/coterie-fundraise/), Mar 2024).
+- **Why now:** [Inferred]: Regulatory approval of Corgi’s AI-native carrier in July 2025 and Shepherd’s 2026 deployment of automated submission structuring indicate that AI underwriting moved into commercial production during the last 12–24 months ([Corgi](https://www.prnewswire.com/news-releases/corgi-insurance-raises-108-million-receives-regulatory-approval-to-launch-the-first-full-stack-insurance-carrier-for-startups-302657727.html), Jan 2026; [Shepherd](https://www.shepherdinsurance.com/blog/behind-our-42m-series-b), Mar 2026).
 
 ## Founders & Team
 
 - **Shaurya Aggarwal (Founder & CEO):**
-  - Background: BS in Computer Science from Purdue; built next-generation TPUs at Google and encryption products deployed across more than 100,000 hosts ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
+  - Background: BS in Computer Science from Purdue; built next-generation TPUs at Google and encryption products deployed across 100,000+ hosts ([YC](https://www.ycombinator.com/companies/florin)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Florin (YC S26),” with approximately 3,000 followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/shauryaagg)).
-  - GitHub: No public repos found.
+  - LinkedIn: “Florin (YC S26),” 3K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/shauryaagg), Jul 2026).
+  - GitHub: @shauryaagg; universal-captcha-solver has 8 stars ([GitHub](https://github.com/shauryaagg), Aug 2026).
 - **Amol Pant (Co-Founder & CTO):**
-  - Background: Built Orchard Robotics’ perception stack and worked on Tesla Autopilot compute, NASA Artemis rover prototypes, and Boeing flight simulators ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
+  - Background: UC Berkeley; built Orchard Robotics’ perception stack and worked on Tesla Autopilot compute, NASA Artemis rover prototypes, and Boeing flight simulators ([LinkedIn](https://www.linkedin.com/in/amolpant); [YC](https://www.ycombinator.com/companies/florin)).
   - Twitter/X: No public account found.
-  - LinkedIn: No retrievable headline found.
-  - GitHub: No public repos found.
+  - LinkedIn: “Florin,” 1K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/amolpant), Jul 2026).
+  - GitHub: @ammoman21; Amazons-Board-Game has 0 stars ([GitHub](https://github.com/ammoman21/Amazons-Board-Game), Aug 2026).
 - **Aydin Sorensen (Founder):**
-  - Background: Spent more than seven years as a tech lead at Amazon AWS and Twitch, then joined construction-robotics company TerraFirma and worked on a 50+ vehicle teleoperation fleet ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
+  - Background: Education not publicly disclosed; spent 7+ years as a tech lead at Amazon AWS and Twitch, and reports scaling TerraFirma’s realized revenue from $500K to $30M and supporting teleoperation for 50+ vehicles, while his personal portfolio says he sold Snacci after scaling it to 20 machines in five months ([YC](https://www.ycombinator.com/companies/florin); [personal portfolio](https://peterasorensen.org/)).
   - Twitter/X: No public account found.
-  - LinkedIn: No retrievable headline found.
-  - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: The founders’ documented experience in large-scale compute, encryption, autonomous systems, and distributed operations maps to infrastructure engineering, but public sources do not document prior banking, payments, treasury, or regulatory experience ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
+  - LinkedIn: “Florin (YC S26),” follower count not retrievable ([LinkedIn directory](https://www.linkedin.com/pub/dir/Pete/Sorensen), Jul 2026).
+  - GitHub: No attributable public account found.
+- **Co-founder relationship:** The team says Shaurya and Amol have been friends since middle school, Amol and Aydin were college roommates, and all three lived together in Seattle for two years ([YC launch](https://www.ycombinator.com/companies/florin), Aug 2026).
+- **Founder-market fit:** [Inferred]: Their backgrounds cover large-scale compute, perception, robotics, security, and fleet operations relevant to automated risk analysis, but no public insurance, actuarial, or carrier-management credentials were found ([YC](https://www.ycombinator.com/companies/florin)).
 
 ## Key Risks
 
-- **Regulatory execution:** Operating banking and payment infrastructure requires BSA/AML, sanctions, consumer-compliance, control, audit, and monitoring systems, while Florin has disclosed no charter, licenses, or regulated partners ([OCC fintech-charter guidance, 2025](https://www.occ.gov/publications-and-resources/publications/banker-education/files/pub-special-purpose-nat-bank-charters-fintech.pdf)).
-- **Operational and fraud exposure:** A single ledger spanning accounts, cards, payments, and treasury concentrates operational, cyber, and fraud risk; the OCC classifies operational risk as elevated across payment platforms and key service providers ([OCC, Jun 2025](https://www.occ.gov/news-issuances/news-releases/2025/nr-occ-2025-63.html)).
-- **Incumbent product overlap:** Mercury reports more than 300,000 customers, $650 million in annualized revenue, and integrated cards, payments, invoicing, and accounting products, creating direct overlap with Florin’s proposed account ([Mercury, Feb 2026](https://mercury.com/blog/annual-letter-2025)).
-- **Infrastructure claim verification:** Florin says it owns a single ledger and builds infrastructure end to end, but public materials do not identify custody arrangements, payment-network access, settlement partners, licenses, or system performance ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/florin)).
-- **Name disambiguation:** “Florin” is shared by unrelated people, products, and organizations, which complicates search attribution; only results matching florin.inc, YC S26, or the listed founders were used.
+- **Regulatory status:** Florin’s site identifies Florin only as a trade name of Glaris Inc. and provides no carrier, producer-license, or capacity-provider disclosure, while admitted P&C insurers require state authority and insurers must maintain risk-based capital ([Florin website](https://florin.inc/); [NAIC licensing handbook](https://content.naic.org/sites/default/files/inline-files/State%20Licensing%20Handbook%20-%20Complete%20and%20Final.pdf); [NAIC RBC guidance](https://content.naic.org/insurance-topics/risk-based-capital)).
+- **AI governance and discrimination:** Florin proposes using public records, imagery, and social media in pricing, while the NAIC AI bulletin requires insurer governance and compliance with applicable insurance and anti-discrimination laws ([YC](https://www.ycombinator.com/companies/florin); [NAIC](https://content.naic.org/insurance-topics/artificial-intelligence), 2026).
+- **Pricing calibration:** Florin targets risks that existing class codes may decline but publishes no policy count, actuarial validation, loss ratio, or reinsurance arrangement, leaving the accuracy of its simulation-based pricing unverifiable ([YC](https://www.ycombinator.com/companies/florin), Aug 2026).
+- **Recent product pivot:** A source crawled two weeks before research described Florin as startup banking, while the live YC page and website describe insurance, with no public pivot timeline or prior-product metrics ([Extruct](https://www.extruct.ai/hub/florin-inc/); [YC](https://www.ycombinator.com/companies/florin)).
+- **Name ambiguity:** Search results include an unrelated Dutch student-payment company named Florin, creating a record-matching risk unless the florin.inc domain and YC S26 founders are cross-checked ([unrelated Florin LinkedIn page](https://nl.linkedin.com/company/florin)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $12.9B global B2B fintech and corporate-banking market in 2025, projected to reach $26.6B by 2032 at 10.9% CAGR (Stratistics MRC, 2026) |
+| TAM | $911.7B global commercial-insurance market in 2024, projected to reach $1.3T by 2030 at 6.4% CAGR ([Global Industry Analysts](https://www.marketresearch.com/Global-Industry-Analysts-v1039/Commercial-Insurance-41400766/), 2025) |
 | SAM | No public data found |
-| Traction | Summer 2026 YC participation; three-person team; zero listed jobs (Y Combinator, Jul 2026) |
+| Traction | Insurance launch posted and 0 jobs listed ([YC](https://www.ycombinator.com/companies/florin), Aug 2026) |
 | Revenue Signal | No public data found |
-| Founders | Shaurya Aggarwal (Founder & CEO): Purdue CS, Google TPU and encryption engineer; Amol Pant (Co-Founder & CTO): Orchard Robotics, Tesla, NASA, and Boeing engineering; Aydin Sorensen (Founder): AWS/Twitch tech lead and TerraFirma founding employee (Y Combinator, Jul 2026) |
-| Competitors | Mercury ($500M raised, $650M annualized revenue, partner-bank financial stack) (TechCrunch, Mar 2025; Mercury, Feb 2026); Brex ($1.2B raised, revenue unknown, cards and spend platform) (TechCrunch, Jan 2022); Rho ($205M equity and debt financing, revenue unknown, finance stack for 30–500-person companies) (TechCrunch, Dec 2021); Arc ($181M raised, revenue unknown, cash management and financing) (Arc, Aug 2022) |
-| Moat Signals | Claimed end-to-end infrastructure and internally owned single ledger (Y Combinator, Jul 2026) |
-| Risk Factors | Regulatory and licensing requirements (OCC, 2025), operational and fraud exposure (OCC, Jun 2025), incumbent product overlap (Mercury, Feb 2026) |
-| Founder Reach | Shaurya Aggarwal: LinkedIn approximately 3K followers and 500+ connections (LinkedIn, Jul 2026); Amol Pant and Aydin Sorensen: No public data found |
-| Distribution Signals | Summer 2026 YC directory presence and company LinkedIn page (Y Combinator; LinkedIn, Jul 2026) |
-| Emails | No public data found |
+| Founders | Shaurya Aggarwal (CEO): Purdue CS, Google TPU and encryption; Amol Pant (CTO): UC Berkeley, Tesla and Orchard Robotics; Aydin Sorensen (Founder): Amazon/AWS, Twitch, TerraFirma ([YC](https://www.ycombinator.com/companies/florin)) |
+| Competitors | Corgi ($378M raised, revenue unknown, startup-focused AI insurance); Shepherd ($67M, revenue unknown, construction/AI infrastructure); Nirvana ($262M+ disclosed, revenue unknown, trucking telematics); Coterie ($102M+, revenue unknown, small-business MGA) ([Corgi](https://www.corgi.insure/press-releases/series-b1); [Shepherd](https://www.shepherdinsurance.com/blog/behind-our-42m-series-b); [Nirvana](https://www.nirvanatech.com/press); [Coterie](https://coterieinsurance.com/newsroom/press-releases/coterie-fundraise/)) |
+| Moat Signals | No public data found |
+| Risk Factors | Undisclosed carrier/licensing structure ([Florin](https://florin.inc/); [NAIC](https://content.naic.org/sites/default/files/inline-files/State%20Licensing%20Handbook%20-%20Complete%20and%20Final.pdf)), AI-governance exposure ([NAIC](https://content.naic.org/insurance-topics/artificial-intelligence), 2026), recent banking-to-insurance pivot ([Extruct](https://www.extruct.ai/hub/florin-inc/); [YC](https://www.ycombinator.com/companies/florin)) |
+| Founder Reach | Shaurya: Twitter not found, LinkedIn 3K, GitHub repository 8 stars ([LinkedIn](https://www.linkedin.com/in/shauryaagg); [GitHub](https://github.com/shauryaagg)); Amol: Twitter not found, LinkedIn 1K, GitHub repository 0 stars ([LinkedIn](https://www.linkedin.com/in/amolpant); [GitHub](https://github.com/ammoman21/Amazons-Board-Game)); Aydin: No public data found |
+| Distribution Signals | Work-email coverage form ([Florin website](https://florin.inc/), Aug 2026); founder email and Calendly intake ([YC launch](https://www.ycombinator.com/companies/florin), Aug 2026) |
+| Emails | shaurya@florin.inc ([YC launch](https://www.ycombinator.com/companies/florin), Aug 2026) |

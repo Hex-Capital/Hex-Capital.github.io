@@ -1,0 +1,81 @@
+{
+  "slug": "inkbox",
+  "name": "Inkbox",
+  "oneLiner": "Give your AI agents email, phone, iMessage and an internet address",
+  "metadata": {
+    "website": "https://inkbox.ai",
+    "yc_page": "https://www.ycombinator.com/companies/inkbox",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Infrastructure, AI",
+    "yc_partner": "Tyler Bosmeny ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox))",
+    "emails": "hello@inkbox.ai, ray@inkbox.ai ([Inkbox website](https://inkbox.ai/); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/inkbox))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:34:12.230Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 39,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 63,
+    "NR": 73,
+    "PG": 74,
+    "PT": 46,
+    "SL": 41,
+    "VK": 39
+  },
+  "consolidatedAvg": 56.29,
+  "consolidatedRank": 54,
+  "traction": {
+    "tractionRank": 69,
+    "tractionScore": 51,
+    "tractionReason": "Five-agent customer deployment; $30-$200 monthly tiers"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/inkbox.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/inkbox.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/inkbox.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/inkbox.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/inkbox.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/inkbox.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/inkbox.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/inkbox.md"
+    }
+  }
+}

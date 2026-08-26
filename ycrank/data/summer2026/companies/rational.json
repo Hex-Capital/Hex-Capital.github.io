@@ -18,52 +18,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:37:33.375Z",
+  "memoGeneratedAt": "2026-08-11T05:04:08.221Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 56,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 68,
+      "score": 78,
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 46,
+      "score": 52,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 49,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
+      "score": 48,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 68,
-    "NR": 46,
-    "PG": 68,
-    "PT": 39,
-    "SL": 38,
-    "VK": 41
+    "CB": 56,
+    "EG": 78,
+    "NR": 52,
+    "PG": 49,
+    "PT": 52,
+    "SL": 37,
+    "VK": 48
   },
-  "consolidatedAvg": 49.43,
-  "consolidatedRank": 123,
+  "consolidatedAvg": 53.14,
+  "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 71,
-    "tractionReason": "12,000 invoices per cycle for Fortune Global 500 customer"
+    "tractionRank": 56,
+    "tractionScore": 62,
+    "tractionReason": "Fortune 500 design partner and deployed customer workflows"
   },
   "paths": {
     "memo": "summer2026/memos/rational.md",

@@ -1,72 +1,72 @@
 {
   "slug": "onecli",
   "name": "OneCLI",
-  "oneLiner": "The Identity Gateway for AI Agents",
+  "oneLiner": "Give every employee a secured, sandboxed pro assistant agent",
   "metadata": {
     "website": "https://onecli.sh",
     "yc_page": "https://www.ycombinator.com/companies/onecli",
-    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/onecli))",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/onecli))",
     "industry": "B2B / B2B -> Security",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Security, Open Source, Infrastructure",
-    "yc_partner": "Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/onecli))",
-    "emails": "jonathan@onecli.sh ([Y Combinator](https://www.ycombinator.com/companies/onecli)); privacy@chartdb.io ([OneCLI Terms](https://onecli.sh/terms))"
+    "tags": "B2B, Security, Open Source, Infrastructure, AI",
+    "yc_partner": "Brad Flora ([YC](https://www.ycombinator.com/companies/onecli))",
+    "emails": "jonathan@onecli.sh, security@onecli.sh ([YC](https://www.ycombinator.com/companies/onecli); [GitHub security policy](https://github.com/onecli/onecli/security))"
   },
   "tags": [
-    "Artificial Intelligence",
     "B2B",
     "Security",
     "Open Source",
-    "Infrastructure"
+    "Infrastructure",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:50:52.521Z",
+  "memoGeneratedAt": "2026-08-26T05:07:40.810Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 65,
+      "score": 67,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 69,
+      "score": 67,
       "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 82,
+      "score": 66,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 55,
+      "score": 61,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 65,
-    "EG": 69,
-    "NR": 72,
-    "PG": 82,
-    "PT": 55,
-    "SL": 59,
-    "VK": 38
+    "CB": 67,
+    "EG": 67,
+    "NR": 60,
+    "PG": 66,
+    "PT": 61,
+    "SL": 40,
+    "VK": 36
   },
-  "consolidatedAvg": 62.86,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 56.71,
+  "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 74,
-    "tractionReason": "320K downloads, 2.9K stars, $199-$1,499 monthly tiers"
+    "tractionRank": 112,
+    "tractionScore": 50,
+    "tractionReason": "350K downloads and 3.3K GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/onecli.md",

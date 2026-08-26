@@ -1,0 +1,80 @@
+{
+  "slug": "dialogus",
+  "name": "Dialogus",
+  "oneLiner": "Infra for enterprise voice agents.",
+  "metadata": {
+    "website": "https://www.dialoguslabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/dialogus",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Customer Support",
+    "yc_partner": "Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/dialogus), Jul 2026)",
+    "emails": "hans@dlgs.ai ([Dialogus careers](https://www.dialoguslabs.com/careers), Jul 2026)"
+  },
+  "tags": [
+    "B2B",
+    "Customer Support"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:44:32.005Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 46,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 67,
+    "NR": 50,
+    "PG": 68,
+    "PT": 38,
+    "SL": 34,
+    "VK": 46
+  },
+  "consolidatedAvg": 49.29,
+  "consolidatedRank": 125,
+  "traction": {
+    "tractionRank": 20,
+    "tractionScore": 73,
+    "tractionReason": "Thousands of production calls for Papa Johns, KFC, Totalplay"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/dialogus.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/dialogus.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/dialogus.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/dialogus.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/dialogus.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/dialogus.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/dialogus.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/dialogus.md"
+    }
+  }
+}

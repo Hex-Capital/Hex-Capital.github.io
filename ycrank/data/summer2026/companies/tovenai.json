@@ -1,0 +1,82 @@
+{
+  "slug": "tovenai",
+  "name": "TovenAI",
+  "oneLiner": "AI agents for compliance at institutional trading firms",
+  "metadata": {
+    "website": "https://toven.ai",
+    "yc_page": "https://www.ycombinator.com/companies/tovenai",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech -> Banking and Exchange",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Artificial Intelligence, Fintech, Compliance, Regtech",
+    "yc_partner": "Brad Flora",
+    "emails": "info@toven.ai, founders@toven.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Fintech",
+    "Compliance",
+    "Regtech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:06:30.746Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 72,
+    "NR": 51,
+    "PG": 68,
+    "PT": 56,
+    "SL": 38,
+    "VK": 43
+  },
+  "consolidatedAvg": 54.14,
+  "consolidatedRank": 34,
+  "traction": {
+    "tractionRank": 42,
+    "tractionScore": 67,
+    "tractionReason": "Six live agents serving institutional trading firms"
+  },
+  "paths": {
+    "memo": "summer2026/memos/tovenai.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/tovenai.md",
+      "elad-gil": "summer2026/evals/elad-gil/tovenai.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/tovenai.md",
+      "paul-graham": "summer2026/evals/paul-graham/tovenai.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/tovenai.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/tovenai.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/tovenai.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "rise-reforming",
+  "name": "Rise Reforming",
+  "oneLiner": "We turn waste gases into valuable supply-secure chemicals",
+  "metadata": {
+    "website": "https://rise-reforming.com/home",
+    "yc_page": "https://www.ycombinator.com/companies/rise-reforming",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Climate",
+    "team_size": "4",
+    "location": "Chicago, IL, USA",
+    "tags": "Hard Tech, Smart Waste Management, Alternative Fuels, Renewable Energy, ClimateTech",
+    "yc_partner": "Jared Friedman ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/rise-reforming))",
+    "emails": "contact@rise-reforming.com ([company website, Jul 2026](https://www.rise-reforming.com/)); george@risereforming.xyz, legacy contact ([UChicago portfolio book, May 2025](https://polsky.uchicago.edu/wp-content/uploads/2025/05/UChicago-Tech-Ventures-Demo-Day-Portfolio-Book.pdf))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Smart Waste Management",
+    "Alternative Fuels",
+    "Renewable Energy",
+    "ClimateTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:51:56.243Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 73,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 72,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 69,
+    "EG": 49,
+    "NR": 43,
+    "PG": 73,
+    "PT": 53,
+    "SL": 63,
+    "VK": 72
+  },
+  "consolidatedAvg": 60.29,
+  "consolidatedRank": 22,
+  "traction": {
+    "tractionRank": 59,
+    "tractionScore": 55,
+    "tractionReason": "1,800 stable-production hours; signed supply and offtake agreements"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/rise-reforming.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/rise-reforming.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/rise-reforming.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/rise-reforming.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/rise-reforming.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/rise-reforming.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/rise-reforming.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/rise-reforming.md"
+    }
+  }
+}

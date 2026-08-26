@@ -1,0 +1,81 @@
+{
+  "slug": "grocalo",
+  "name": "Grocalo",
+  "oneLiner": "AI brain that runs content for creators",
+  "metadata": {
+    "website": "https://grocalo.com/",
+    "yc_page": "https://www.ycombinator.com/companies/grocalo",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer -> Content",
+    "team_size": "0",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Artificial Intelligence, Entertainment, Creator Economy",
+    "yc_partner": "Jon Xu",
+    "emails": "team@grocalo.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Entertainment",
+    "Creator Economy"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:17:15.198Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 22,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 57,
+    "NR": 50,
+    "PG": 54,
+    "PT": 48,
+    "SL": 38,
+    "VK": 22
+  },
+  "consolidatedAvg": 45.14,
+  "consolidatedRank": 113,
+  "traction": {
+    "tractionRank": 37,
+    "tractionScore": 69,
+    "tractionReason": "Six creator clients generated 2B views"
+  },
+  "paths": {
+    "memo": "summer2026/memos/grocalo.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/grocalo.md",
+      "elad-gil": "summer2026/evals/elad-gil/grocalo.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/grocalo.md",
+      "paul-graham": "summer2026/evals/paul-graham/grocalo.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/grocalo.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/grocalo.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/grocalo.md"
+    }
+  }
+}

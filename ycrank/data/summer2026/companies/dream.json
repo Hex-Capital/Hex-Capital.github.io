@@ -1,0 +1,83 @@
+{
+  "slug": "dream",
+  "name": "Dream",
+  "oneLiner": "Pocket-sized AI cameras that catch asset damage.",
+  "metadata": {
+    "website": "https://www.pingdream.com/",
+    "yc_page": "https://www.ycombinator.com/companies/dream",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Machine Learning, Computer Vision, B2B",
+    "yc_partner": "Jared Friedman",
+    "emails": "main@pingdream.com ([Dream website, Aug 2026](https://www.pingdream.com/))"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Machine Learning",
+    "Computer Vision",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:25:26.655Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 24,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 38,
+    "NR": 49,
+    "PG": 43,
+    "PT": 38,
+    "SL": 31,
+    "VK": 24
+  },
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 181,
+  "traction": {
+    "tractionRank": 145,
+    "tractionScore": 41,
+    "tractionReason": "Onboarding pilot partners across vehicle operators"
+  },
+  "paths": {
+    "memo": "summer2026/memos/dream.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/dream.md",
+      "elad-gil": "summer2026/evals/elad-gil/dream.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/dream.md",
+      "paul-graham": "summer2026/evals/paul-graham/dream.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/dream.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/dream.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/dream.md"
+    }
+  }
+}

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.conifer.build",
     "yc_page": "https://www.ycombinator.com/companies/conifer",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/conifer), Aug 2026)",
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, B2B, Security",
-    "yc_partner": "Gustaf Alstromer",
-    "emails": "contact@conifer.build"
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/conifer), Aug 2026)",
+    "emails": "contact@conifer.build ([Y Combinator](https://www.ycombinator.com/companies/conifer), Jul 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "Security"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:25:26.134Z",
+  "memoGeneratedAt": "2026-08-11T04:29:33.428Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
       "score": 54,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 58,
+    "elad-gil": {
+      "score": 49,
       "tier": "Neutral"
     },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
     "peter-thiel": {
-      "score": 51,
+      "score": 47,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 44,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 43,
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 54,
-    "NR": 66,
-    "PG": 58,
-    "PT": 51,
-    "SL": 44,
-    "VK": 43
+    "CB": 54,
+    "EG": 49,
+    "NR": 53,
+    "PG": 43,
+    "PT": 47,
+    "SL": 29,
+    "VK": 33
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 100,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 41,
-    "tractionReason": "268 stars and 100-person waitlist"
+    "tractionRank": 182,
+    "tractionScore": 31,
+    "tractionReason": "Current launch; 248 shared-history GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/conifer.md",

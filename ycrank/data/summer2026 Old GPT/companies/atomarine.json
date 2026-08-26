@@ -1,0 +1,80 @@
+{
+  "slug": "atomarine",
+  "name": "Atomarine",
+  "oneLiner": "Off shore nuclear powered data centers at sea.",
+  "metadata": {
+    "website": "https://atomarine.co",
+    "yc_page": "https://www.ycombinator.com/companies/atomarine",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "Hard Tech, Energy",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "info@atomarine.co"
+  },
+  "tags": [
+    "Hard Tech",
+    "Energy"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:25:27.789Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 67,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 70,
+    "EG": 51,
+    "NR": 47,
+    "PG": 57,
+    "PT": 62,
+    "SL": 41,
+    "VK": 67
+  },
+  "consolidatedAvg": 56.43,
+  "consolidatedRank": 50,
+  "traction": {
+    "tractionRank": 144,
+    "tractionScore": 26,
+    "tractionReason": "1,268 launch reactions; no operating deployment"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/atomarine.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/atomarine.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/atomarine.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/atomarine.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/atomarine.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/atomarine.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/atomarine.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/atomarine.md"
+    }
+  }
+}

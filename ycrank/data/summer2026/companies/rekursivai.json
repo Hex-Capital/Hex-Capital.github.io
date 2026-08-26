@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Deep Learning, Machine Learning",
     "yc_partner": "Jared Friedman",
-    "emails": "contact@rekursiv.ai, hiring@rekursiv.ai"
+    "emails": "contact@rekursiv.ai, hiring@rekursiv.ai, jvdillon@gmail.com, dankondratyuk@gmail.com ([company site](https://rekursiv.ai/), [careers page](https://rekursiv.ai/join/), [Dillon CV](https://rekursiv.ai/josh/cv.pdf), [Kondratyuk CV](https://hyperparticle.com/public/dan_kondratyuk_cv.pdf))"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "Machine Learning"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:05:45.468Z",
+  "memoGeneratedAt": "2026-08-11T05:47:58.695Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
       "score": 68,
       "tier": "Invest"
     },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 81,
-      "tier": "Invest"
+      "score": 64,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 52,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 54,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 61,
-    "NR": 68,
-    "PG": 81,
-    "PT": 44,
-    "SL": 38,
-    "VK": 69
+    "CB": 68,
+    "EG": 58,
+    "NR": 56,
+    "PG": 64,
+    "PT": 52,
+    "SL": 32,
+    "VK": 54
   },
-  "consolidatedAvg": 59.14,
-  "consolidatedRank": 35,
+  "consolidatedAvg": 54.86,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 38,
-    "tractionReason": "Technical benchmarks only; no commercial traction"
+    "tractionRank": 168,
+    "tractionScore": 35,
+    "tractionReason": "Strong benchmarks; no commercial traction disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/rekursivai.md",

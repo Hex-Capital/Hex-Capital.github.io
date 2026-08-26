@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Sales Enablement, LegalTech, AI",
     "yc_partner": "Jon Xu",
-    "emails": "founders@osmaura.com, kali@osmaura.com, jity@osmaura.com"
+    "emails": "founders@osmaura.com, jity@osmaura.com, kali@osmaura.com"
   },
   "tags": [
     "Sales Enablement",
@@ -19,51 +19,51 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:06:51.069Z",
+  "memoGeneratedAt": "2026-08-11T05:51:00.694Z",
   "evalScores": {
     "cyan-banister": {
       "score": 39,
       "tier": "Pass"
     },
     "elad-gil": {
-      "score": 52,
+      "score": 49,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 38,
+      "score": 32,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "peter-thiel": {
       "score": 39,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 39,
+      "score": 32,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 32,
+      "score": 31,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "CB": 39,
-    "EG": 52,
-    "NR": 38,
-    "PG": 52,
+    "EG": 49,
+    "NR": 32,
+    "PG": 40,
     "PT": 39,
-    "SL": 39,
-    "VK": 32
+    "SL": 32,
+    "VK": 31
   },
-  "consolidatedAvg": 41.57,
-  "consolidatedRank": 161,
+  "consolidatedAvg": 37.43,
+  "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 50,
+    "tractionRank": 133,
+    "tractionScore": 44,
     "tractionReason": "Customers reportedly log in daily; count undisclosed"
   },
   "paths": {

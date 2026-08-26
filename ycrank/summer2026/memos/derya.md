@@ -1,6 +1,6 @@
 ﻿# Derya
 
-> AI-Native Logistics Office
+> Agentic Supply Chain Automations
 
 | Field | Value |
 |-------|-------|
@@ -10,78 +10,77 @@
 | Industry | B2B / B2B -> Supply Chain and Logistics |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | AIOps, Digital Freight Brokerage, Finance, Logistics, Supply Chain |
+| Tags | AIOps, Logistics, Supply Chain, Procurement, Automation |
 | YC Partner | Jared Friedman |
 | Emails | contact@usederya.com, founders@usederya.com |
 
 ## The Idea
 
-- **Problem:** Importers, exporters, freight forwarders, and carriers currently coordinate quoting, documentation, carrier qualification, tracking, compliance, and financing through fragmented manual workflows that can take traditional freight offices days to process ([212, Jun 2026](https://www.linkedin.com/posts/212vc_212-fund-iiis-7th-investment-derya-yc-activity-7477640014168821760-nDua)).
-- **Approach:** Derya operates the forwarding function itself, using AI agents across sales, pricing, and operations to source carriers, quote shipments, coordinate bookings and customs, track freight, update customers, and finance qualifying bookings ([Derya website, Jul 2026](https://www.usederya.com/)).
-- **Differentiation:** Unlike software vendors, Derya directly quotes and ships freight, while its stated difference from traditional forwarders is AI-based supplier and carrier matching within minutes and same-business-day quotes for requests received before noon PST ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW); [Derya website, Jul 2026](https://www.usederya.com/)).
-- **Business Model:** [Inferred]: Derya earns forwarding margins on booked shipments and may earn financing income on bookings above $20,000, because it describes creating margins on freight deals and offering its own term financing but publishes no fee schedule ([Derya website, Jul 2026](https://www.usederya.com/)).
-- **TAM/SAM:** The global digital freight-brokerage market was valued at $5.9 billion in 2024 and is forecast to reach $24.5 billion in 2030 at a 27.3% CAGR, while no Derya-specific SAM is public ([Grand View Research, 2025](https://www.grandviewresearch.com/industry-analysis/digital-freight-brokerage-market-report)).
-- **GTM / Distribution:** The founders solicit introductions to importers, exporters, and logistics offices, while the website provides a free quote form and a partner-network application for forwarders and carriers ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW); [Derya website, Jul 2026](https://www.usederya.com/)).
+- **Problem:** Hardware companies currently chase customs brokers, compare carrier quotes, source components, and coordinate manufacturers manually, with Derya attributing $1.3 trillion of a $13 trillion logistics market to redundant labor and inefficiencies ([Y Combinator](https://www.ycombinator.com/launches/SaL-derya-your-supply-chain-autopilot-for-mapping-planning-and-execution), Aug 2026).
+- **Approach:** Derya combines supplier and carrier data, quotes, routing options, and documents into a contracted workflow, then sources, books, clears, tracks, stores, and distributes shipments through delivery ([Derya website](https://www.usederya.com/platform), Aug 2026).
+- **Differentiation:** Derya sells a month-to-month outsourced logistics function without freight-rate markups, while Flexport and Forto operate global digital-forwarding platforms, Nuvocargo concentrates on North American truckload and cross-border freight, and 5U AI supplies automation software to existing forwarders ([Derya website](https://www.usederya.com/platform), Aug 2026; [CB Insights](https://www.cbinsights.com/company/flexport), Aug 2026; [Forto](https://forto.com/en/press-releases/forto-announces-new-investment-of-250-million-to-accelerate-international-expansion-and-broadening-of-product-offering/), Mar 2022; [Nuvocargo](https://stockanalysis.com/private/nuvocargo/), Aug 2026; [5U AI](https://5u.ai/blog/5u-ai-raises-3-2m-pre-seed-funding), Jul 2026).
+- **Business Model:** Customers pay one flat monthly operations plan activated upon the first booked shipment, with month-to-month terms, no charge beforehand, and no added margin on provider freight rates ([Derya website](https://www.usederya.com/platform), Aug 2026).
+- **TAM/SAM:** Global freight forwarding was estimated at $225.4 billion in 2025 with a 5.4% 2026–2033 CAGR, while digital freight forwarding was estimated at $42.22 billion in 2025 with a 21.77% 2025–2030 CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/freight-forwarding-market-report), 2026; [Research and Markets](https://www.researchandmarkets.com/reports/5318198/digital-freight-forwarding-market-share), May 2025).
+- **GTM / Distribution:** Derya uses founder-led requests for importer, exporter, and logistics-office introductions and converts prospects through an operations review that maps their freight workflows ([Oguzhan Karaca on LinkedIn](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW), Aug 2026; [Derya website](https://www.usederya.com/platform), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Derya reports a global partner network contributing local knowledge, connections, licenses, and more than 20 years of combined experience, but publishes no evidence of proprietary IP or exclusive network relationships ([Derya website, Jul 2026](https://www.usederya.com/)).
-- **Future moat:** [Inferred]: Executed-shipment, pricing, carrier-performance, and trade-lane data could improve carrier selection and workflow automation, but the company has not disclosed data scale, exclusivity, or measured model improvement.
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Shipment histories, carrier performance, customer mandates, and exception-resolution records could become proprietary operating data, but no scale, retention, or exclusivity evidence is public.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Established digital forwarders including Flexport, Forto, Zencargo, and Nuvocargo already combine logistics execution with software, and traditional forwarders can procure third-party AI workflow tools ([TechCrunch, Jul 2023](https://techcrunch.com/2023/07/11/raft-which-services-freight-forwarders-closes-30m-series-b-led-by-eight-roads-vc/)).
+- **Commoditization risk:** Flexport, Forto, and Nuvocargo already provide digitally managed freight services, while 5U AI automates quoting, booking, tracking, and invoice reconciliation for existing forwarders ([CB Insights](https://www.cbinsights.com/company/flexport), Aug 2026; [Forto funding](https://www.cbinsights.com/company/freighthub/financials), Aug 2026; [Nuvocargo](https://stockanalysis.com/private/nuvocargo/), Aug 2026; [5U AI](https://5u.ai/blog/5u-ai-raises-3-2m-pre-seed-funding), Jul 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - $80,000 of contracted revenue in the first month ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)).
-  - More than $3.2 million of sourced freight opportunities in the first month ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)).
-  - More than $3 million of managed freight and supply-procurement transactions ([Derya website, Jul 2026](https://www.usederya.com/)).
-  - TVO signed for 20 containers, with a separate approximately 50-container-per-month lane described as pipeline rather than contracted volume ([Derya website, Jul 2026](https://www.usederya.com/)).
-  - $1.1 million pre-seed financing from Y Combinator, 212, Umur Cubukcu, and angels ([212, Jun 2026](https://www.linkedin.com/posts/212vc_212-fund-iiis-7th-investment-derya-yc-activity-7477640014168821760-nDua)).
-  - 464 LinkedIn company followers ([LinkedIn, Jul 2026](https://www.linkedin.com/company/derya-maritime)).
-  - Zero active YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/derya)).
+  - $80,000 in contracted revenue during the first month ([Oguzhan Karaca on LinkedIn](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW), Aug 2026).
+  - More than $3.2 million in sourced freight opportunities by gross transaction value during the first month ([Oguzhan Karaca on LinkedIn](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW), Aug 2026).
+  - $1.1 million pre-seed financing from Y Combinator, 212, Umur Cubukcu, and angels ([Webrazzi](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-lojistik-platformu-derya-1-1-milyon-dolar-yatirim-aldi/), Jun 2026).
+  - Customer testimonial: TVO signed for 20 containers among Derya’s first loads ([Derya website](https://www.usederya.com/), Aug 2026).
+  - 500 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/derya-maritime), Aug 2026).
+  - Press coverage by Webrazzi on the financing and product ([Webrazzi](https://webrazzi.com/2026/06/30/yapay-zeka-destekli-lojistik-platformu-derya-1-1-milyon-dolar-yatirim-aldi/), Jun 2026).
+  - 0 active YC job postings ([Y Combinator](https://www.ycombinator.com/companies/derya), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Flexport (funding total not disclosed in the cited source, revenue unknown): global digital forwarding platform integrating shipment execution with supply-chain software ([Flexport equity research, Aug 2024](https://assets.ctfassets.net/f1df9zr7wr1a/1C5NbmjfeZqjX1nxfLvDad/6dcd1a48921a28bd444d8c7060c8d8e5/flexport.pdf)).
-  - Forto (approximately $600 million raised, revenue unknown): digital forwarder with Asia–Europe coverage and order-management services ([TechCrunch, Jul 2023](https://techcrunch.com/2023/07/11/raft-which-services-freight-forwarders-closes-30m-series-b-led-by-eight-roads-vc/)).
-  - Nuvocargo ($75 million raised, revenue unknown): cross-border transportation, payments, financing, customs, and compliance focused on the Americas ([TechCrunch, Jul 2023](https://techcrunch.com/2023/07/11/raft-which-services-freight-forwarders-closes-30m-series-b-led-by-eight-roads-vc/)).
-  - Zencargo ($66 million raised, revenue unknown): digital freight forwarding and supply-chain management with an AI-native CargoWise alternative under development ([TechCrunch, Jul 2023](https://techcrunch.com/2023/07/11/raft-which-services-freight-forwarders-closes-30m-series-b-led-by-eight-roads-vc/)).
-- **Why now:** [Inferred]: Recent improvements in language models permit agents to process freight documents, messages, qualification tasks, and customer updates across previously separate workflows, although Derya has not published accuracy or automation-rate measurements ([212, Jun 2026](https://www.linkedin.com/posts/212vc_212-fund-iiis-7th-investment-derya-yc-activity-7477640014168821760-nDua)).
+  - Flexport ($2.756 billion raised, $2.1 billion estimated 2024 revenue; latest $260 million convertible note from Shopify in January 2024): global multimodal forwarding, customs, fulfillment, and financing versus Derya’s monthly outsourced operating function ([CB Insights](https://www.cbinsights.com/company/flexport/financials), Aug 2026; [Sacra](https://sacra.com/c/flexport/), Apr 2025).
+  - Forto ($615.83 million raised, revenue unknown; latest $250 million Series D led by Disruptive in March 2022): digitized sea, air, and rail forwarding versus Derya’s no-markup monthly plan ([CB Insights](https://www.cbinsights.com/company/freighthub/financials), Aug 2026).
+  - Nuvocargo ($75.62 million raised, revenue unknown; latest $36.5 million Series B led by QED Investors in June 2023): U.S.–Mexico and North American truckload specialization versus Derya’s multimodal global coordination ([Nuvocargo announcement](https://www.globenewswire.com/news-release/2023/06/27/2695743/0/en/on-the-heels-of-the-nearshoring-boom-logistics-startup-nuvocargo-raises-36-5m-to-modernize-us-mexico-trade-expands-to-all-major-us-mx-border-crossings.html), Jun 2023).
+  - 5U AI ($3.2 million raised, revenue unknown; July 2026 pre-seed led by Emerge Capital): AI workers embedded in existing forwarders’ systems versus Derya directly sourcing, quoting, and shipping freight ([5U AI](https://5u.ai/blog/5u-ai-raises-3-2m-pre-seed-funding), Jul 2026).
+- **Why now:** Gartner reported that supply-chain software with agentic-AI capabilities is projected to grow from under $2 billion in 2025 to $53 billion in 2030 and that AI agents are becoming a common procurement requirement ([Gartner](https://www.gartner.com/en/newsroom/press-releases/2026-04-07-gartner-forecasts-supply-chain-management-software-with-agentic-ai-will-grow-to-53-billion-in-spend-by-2030), Apr 2026).
 
 ## Founders & Team
 
-- **Oguzhan Karaca (Co-founder and CEO):**
-  - Background: Studied law at Oxford, worked in legal at CEVA/CMA CGM, edited the Oxford Law Journal, and built Ivy Consultants to six-figure ARR ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/derya)).
+- **Oguzhan Karaca (Founder/CEO):**
+  - Background: Oxford law graduate with maritime and international-trade specialization, former CEVA/CMA CGM legal worker, and founder of Ivy Consultants, which reached six-figure ARR ([Y Combinator](https://www.ycombinator.com/companies/derya), Aug 2026; [LinkedIn](https://www.linkedin.com/in/oguzhan-karaca), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Building the first full-stack AI freight forwarding office @ Derya (YC S26),” with 1,422 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)).
+  - LinkedIn: “Building the first full-stack AI freight forwarding office @ Derya (YC S26)” ([LinkedIn](https://www.linkedin.com/in/oguzhan-karaca), Aug 2026).
   - GitHub: No public repos found.
-- **Mert Turna (Co-founder):**
-  - Background: Studied computer science at UCLA, co-founded truck-operations company Hemut as CTO, and built ship-operations software used across more than 30 vessels representing $200 million of fleet value ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/derya)).
+- **Mert Turna (Founder/CTO):**
+  - Background: UCLA computer-science student, former Hemut co-founder/CTO, and developer of ship-operations software used on 30+ vessels representing $200 million in fleet value ([Y Combinator](https://www.ycombinator.com/companies/derya), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Derya (YC S26),” with approximately 2,000 followers and 500+ connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/mert-turna)).
+  - LinkedIn: “Derya (YC S26)” ([LinkedIn](https://www.linkedin.com/in/mert-turna), Aug 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Karaca reports knowing Turna for eight years, being high-school best friends, competing together in the World Schools Debate Championship, and earning their first money together as students ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)).
-- **Founder-market fit:** Karaca has freight-company legal experience and Turna previously built truck- and ship-operations software, connecting the team’s documented work to freight operations and automation ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/derya)).
+- **Co-founder relationship:** Karaca and Turna were high-school friends, competed together in the World Schools Debating Championship, and started their first business together, with Karaca reporting an eight-year relationship ([Oguzhan Karaca on LinkedIn](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW), Aug 2026).
+- **Founder-market fit:** Karaca’s CEVA/CMA CGM and maritime-law experience and Turna’s trucking-AI and ship-operations work directly cover freight operations and logistics software ([Y Combinator](https://www.ycombinator.com/companies/derya), Aug 2026).
 
 ## Key Risks
 
-- **Execution and liability exposure:** Derya acts as the forwarder rather than only supplying software, placing booking, customs, carrier coordination, cargo-data security, and financing activities within its operating scope ([Derya website, Jul 2026](https://www.usederya.com/)).
-- **Working-capital exposure:** The company offers its own financing for bookings above $20,000, but no underwriting criteria, funding facility, default history, or risk-transfer mechanism is public ([Derya website, Jul 2026](https://www.usederya.com/)).
-- **Pipeline conversion:** The reported $3.2 million represents sourced opportunities, while separately disclosed contracted revenue was $80,000, so opportunity value should not be treated as realized revenue ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)).
-- **Network dependency:** Global coverage relies on partner expertise, connections, and industry licenses, and no public source identifies exclusivity or continuity protections for those relationships ([Derya website, Jul 2026](https://www.usederya.com/)).
-- **Name disambiguation:** “Derya” is shared by unrelated businesses and individuals, so results not tied to usederya.com, YC S26, Karaca, or Turna were excluded.
+- **Positioning breadth:** Public materials variously describe Derya as a freight-forwarding office and as an end-to-end procurement, assembly, production, and distribution operator, creating multiple product boundaries for customers to interpret ([LinkedIn](https://www.linkedin.com/company/derya-maritime), Aug 2026; [YC launch](https://www.ycombinator.com/launches/SaL-derya-your-supply-chain-autopilot-for-mapping-planning-and-execution), Aug 2026).
+- **Operational and compliance exposure:** Derya assumes coordination of bookings, customs, insurance, storage, invoicing, and shipment exceptions; customers can mitigate this by requiring approval for every move or setting operating guardrails ([Derya website](https://www.usederya.com/platform), Aug 2026).
+- **Service-cost exposure:** Specialists execute each service while Derya charges a flat monthly plan and takes no freight-rate margin, so economics depend on the plan covering variable operating workload; no gross-margin data is public ([Derya website](https://www.usederya.com/platform), Aug 2026).
+- **Funded competitive overlap:** Flexport and Forto have raised $2.756 billion and $615.83 million respectively and offer overlapping digital freight-forwarding functions ([CB Insights—Flexport](https://www.cbinsights.com/company/flexport/financials), Aug 2026; [CB Insights—Forto](https://www.cbinsights.com/company/freighthub/financials), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $5.9B global digital freight-brokerage market in 2024, projected to $24.5B by 2030 at 27.3% CAGR ([Grand View Research, 2025](https://www.grandviewresearch.com/industry-analysis/digital-freight-brokerage-market-report)) |
-| SAM | No public data found |
-| Traction | More than $3M managed transaction value; TVO signed for 20 containers ([Derya website, Jul 2026](https://www.usederya.com/)); more than $3.2M sourced opportunities in month one ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)) |
-| Revenue Signal | $80K contracted revenue in the first month ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)) |
-| Founders | Oguzhan Karaca: Oxford law, CEVA/CMA CGM legal, six-figure-ARR education business; Mert Turna: UCLA CS, Hemut CTO, ship software deployed on 30+ vessels ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/derya)) |
-| Competitors | Forto (~$600M raised, revenue unknown), Nuvocargo ($75M, revenue unknown), Zencargo ($66M, revenue unknown), all digital freight-forwarding or cross-border logistics platforms ([TechCrunch, Jul 2023](https://techcrunch.com/2023/07/11/raft-which-services-freight-forwarders-closes-30m-series-b-led-by-eight-roads-vc/)) |
-| Moat Signals | Global partner network supplying local expertise, connections, licenses, and 20+ years of combined experience ([Derya website, Jul 2026](https://www.usederya.com/)) |
-| Risk Factors | Financing exposure, partner-network dependency, pipeline-to-revenue conversion ([Derya website, Jul 2026](https://www.usederya.com/); [Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)) |
-| Founder Reach | Oguzhan Karaca: 1,422 LinkedIn followers; Mert Turna: approximately 2K LinkedIn followers and 500+ connections; no verified Twitter or GitHub metrics found ([LinkedIn, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW); [LinkedIn, Jul 2026](https://www.linkedin.com/in/mert-turna)) |
-| Distribution Signals | 464 company LinkedIn followers and zero YC job postings ([LinkedIn, Jul 2026](https://www.linkedin.com/company/derya-maritime); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/derya)) |
-| Emails | contact@usederya.com ([Derya website, Jul 2026](https://www.usederya.com/)); founders@usederya.com ([Oguzhan Karaca, Jul 2026](https://www.linkedin.com/posts/oguzhan-karaca_we-just-moved-to-san-francisco-to-join-y-activity-7477496692263690240-b3jW)) |
+| TAM | $225.4 billion global freight-forwarding market in 2025; 5.4% CAGR for 2026–2033 (Grand View Research, 2026) |
+| SAM | $42.22 billion digital freight-forwarding market in 2025; 21.77% CAGR for 2025–2030 (Research and Markets/Mordor Intelligence, May 2025) |
+| Traction | $3.2 million+ sourced opportunity GTV in the first month, 20-container customer order, 500 LinkedIn followers (Founder LinkedIn, Aug 2026; Derya website, Aug 2026; LinkedIn, Aug 2026) |
+| Revenue Signal | $80,000 contracted revenue in the first month; flat month-to-month operations plan with no freight-rate markup (Founder LinkedIn, Aug 2026; Derya website, Aug 2026) |
+| Founders | Oguzhan Karaca (CEO): Oxford law, CEVA/CMA CGM, six-figure-ARR Ivy Consultants; Mert Turna (CTO): UCLA CS, Hemut co-founder/CTO, ship software on 30+ vessels (Y Combinator, Aug 2026) |
+| Competitors | Flexport ($2.756B raised, $2.1B estimated 2024 revenue, global multimodal platform); Forto ($615.83M raised, revenue unknown, digital sea/air/rail forwarding); Nuvocargo ($75.62M raised, revenue unknown, North American cross-border focus); 5U AI ($3.2M raised, revenue unknown, software for existing forwarders) (CB Insights, Sacra, Nuvocargo, and 5U AI, 2023–2026) |
+| Moat Signals | No public data found |
+| Risk Factors | Broad product positioning, operational and compliance exposure, service-cost exposure, funded competitors (Derya website, YC, and CB Insights, Aug 2026) |
+| Founder Reach | Oguzhan Karaca: LinkedIn 2K followers; Mert Turna: LinkedIn 2K followers; Twitter/GitHub counts not found (LinkedIn, Aug 2026) |
+| Distribution Signals | 500 company LinkedIn followers, YC Launch publication, Webrazzi financing coverage (LinkedIn, YC, and Webrazzi, Jun–Aug 2026) |
+| Emails | contact@usederya.com, founders@usederya.com (Derya website and Founder LinkedIn, Aug 2026) |

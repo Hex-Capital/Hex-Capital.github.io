@@ -21,52 +21,52 @@
     "Defense"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:50:43.983Z",
+  "memoGeneratedAt": "2026-08-11T05:08:44.113Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 73,
+      "score": 69,
       "tier": "Invest"
     },
     "elad-gil": {
-      "score": 58,
+      "score": 59,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 47,
+      "score": 61,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 77,
-      "tier": "Invest"
+      "score": 49,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 49,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 39,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 61,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 73,
-    "EG": 58,
-    "NR": 47,
-    "PG": 77,
+    "CB": 69,
+    "EG": 59,
+    "NR": 61,
+    "PG": 49,
     "PT": 49,
-    "SL": 51,
-    "VK": 61
+    "SL": 39,
+    "VK": 40
   },
-  "consolidatedAvg": 59.43,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 52.29,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 54,
-    "tractionReason": "First counter-drone contract signed"
+    "tractionRank": 63,
+    "tractionScore": 60,
+    "tractionReason": "Signed Canadian-government counter-UAS contract"
   },
   "paths": {
     "memo": "summer2026/memos/greypoint-industries.md",

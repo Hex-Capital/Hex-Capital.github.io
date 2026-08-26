@@ -1,0 +1,83 @@
+{
+  "slug": "opentag",
+  "name": "OpenTag",
+  "oneLiner": "Model Agnostic Claude Tag",
+  "metadata": {
+    "website": "https://www.tryopentag.com/",
+    "yc_page": "https://www.ycombinator.com/companies/opentag",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Artificial Intelligence, B2B, Workflow Automation, Enterprise Software",
+    "yc_partner": "Jared Friedman ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/opentag))",
+    "emails": "tony@tryopentag.com, team@tryopentag.com, privacy@tryopentag.com ([YC Launch, Aug 2026](https://www.ycombinator.com/launches/T8R-opentag-model-agnostic-claude-tag); [OpenTag Support, Aug 2026](https://www.tryopentag.com/support))"
+  },
+  "tags": [
+    "AIOps",
+    "Artificial Intelligence",
+    "B2B",
+    "Workflow Automation",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:06:42.486Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 21,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 40,
+    "NR": 33,
+    "PG": 46,
+    "PT": 30,
+    "SL": 34,
+    "VK": 21
+  },
+  "consolidatedAvg": 33.57,
+  "consolidatedRank": 211,
+  "traction": {
+    "tractionRank": 117,
+    "tractionScore": 49,
+    "tractionReason": "10 teams after two weeks"
+  },
+  "paths": {
+    "memo": "summer2026/memos/opentag.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/opentag.md",
+      "elad-gil": "summer2026/evals/elad-gil/opentag.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/opentag.md",
+      "paul-graham": "summer2026/evals/paul-graham/opentag.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/opentag.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/opentag.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/opentag.md"
+    }
+  }
+}

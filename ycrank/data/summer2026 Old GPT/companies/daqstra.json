@@ -1,0 +1,80 @@
+{
+  "slug": "daqstra",
+  "name": "Daqstra",
+  "oneLiner": "AI-native orchestration for physical R&D testing",
+  "metadata": {
+    "website": "https://www.daqstra.com",
+    "yc_page": "https://www.ycombinator.com/companies/daqstra",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, AI",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "team@daqstra.com"
+  },
+  "tags": [
+    "Hard Tech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:36:53.982Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 83,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 71,
+    "EG": 61,
+    "NR": 53,
+    "PG": 83,
+    "PT": 56,
+    "SL": 52,
+    "VK": 48
+  },
+  "consolidatedAvg": 60.57,
+  "consolidatedRank": 19,
+  "traction": {
+    "tractionRank": 54,
+    "tractionScore": 56,
+    "tractionReason": "Multiple aerospace programs and signed palm-oil pilot"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/daqstra.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/daqstra.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/daqstra.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/daqstra.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/daqstra.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/daqstra.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/daqstra.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/daqstra.md"
+    }
+  }
+}

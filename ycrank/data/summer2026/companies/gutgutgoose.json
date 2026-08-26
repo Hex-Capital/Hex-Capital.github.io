@@ -1,17 +1,17 @@
 {
   "slug": "gutgutgoose",
   "name": "Gutgutgoose",
-  "oneLiner": "AI training infrastructure via custom probiotics",
+  "oneLiner": "Personalized probiotics, guaranteed to colonize.",
   "metadata": {
     "website": "https://gutgutgoose.com/",
     "yc_page": "https://www.ycombinator.com/companies/gutgutgoose",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/gutgutgoose))",
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Biotech, Personalization, Health & Wellness",
-    "yc_partner": "Tyler Bosmeny",
-    "emails": "admin@gutgutgoose.com, Anis@gutgutgoose.com"
+    "yc_partner": "Tyler Bosmeny ([YC](https://www.ycombinator.com/companies/gutgutgoose))",
+    "emails": "admin@gutgutgoose.com ([YC](https://www.ycombinator.com/companies/gutgutgoose)), Anis@gutgutgoose.com ([LinkedIn](https://www.linkedin.com/company/gutgutgoose/))"
   },
   "tags": [
     "Biotech",
@@ -19,52 +19,52 @@
     "Health & Wellness"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:54:45.557Z",
+  "memoGeneratedAt": "2026-08-11T05:32:09.835Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 59,
+      "score": 50,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 46,
+      "score": 55,
       "tier": "Neutral"
     },
-    "sam-lessin": {
+    "naval-ravikant": {
       "score": 51,
       "tier": "Neutral"
     },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 43,
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 44,
-    "NR": 44,
-    "PG": 66,
-    "PT": 46,
-    "SL": 51,
-    "VK": 43
+    "CB": 50,
+    "EG": 55,
+    "NR": 51,
+    "PG": 50,
+    "PT": 51,
+    "SL": 42,
+    "VK": 36
   },
-  "consolidatedAvg": 50.43,
-  "consolidatedRank": 114,
+  "consolidatedAvg": 47.86,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 62,
-    "tractionReason": "Seven paid sign-ups at $200 monthly; beta nearly full"
+    "tractionRank": 68,
+    "tractionScore": 59,
+    "tractionReason": "Seven paid sign-ups; beta nearly full"
   },
   "paths": {
     "memo": "summer2026/memos/gutgutgoose.md",

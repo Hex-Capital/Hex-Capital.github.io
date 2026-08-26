@@ -9,21 +9,21 @@
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, B2B, Legal, Automation",
+    "tags": "B2B, Legal, Automation, AI",
     "yc_partner": "Jared Friedman",
     "emails": "No public data found"
   },
   "tags": [
-    "Artificial Intelligence",
     "B2B",
     "Legal",
-    "Automation"
+    "Automation",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:00:18.482Z",
+  "memoGeneratedAt": "2026-08-11T05:39:41.611Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 38,
+      "score": 37,
       "tier": "Pass"
     },
     "elad-gil": {
@@ -31,41 +31,41 @@
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
+      "score": 36,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 44,
+      "score": 36,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 42,
+      "score": 34,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
+    "CB": 37,
     "EG": 52,
-    "NR": 43,
-    "PG": 63,
-    "PT": 44,
-    "SL": 42,
-    "VK": 40
+    "NR": 36,
+    "PG": 38,
+    "PT": 36,
+    "SL": 34,
+    "VK": 28
   },
-  "consolidatedAvg": 46,
-  "consolidatedRank": 142,
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 190,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 47,
-    "tractionReason": "One displayed timekeeping case study; 7.5 hours recovered"
+    "tractionRank": 93,
+    "tractionScore": 54,
+    "tractionReason": "Three deployed law-firm systems"
   },
   "paths": {
     "memo": "summer2026/memos/perceptron-ml.md",

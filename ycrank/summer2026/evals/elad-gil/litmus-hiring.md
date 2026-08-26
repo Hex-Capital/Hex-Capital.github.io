@@ -1,30 +1,26 @@
 ﻿# Litmus -- Elad Gil Evaluation
 
-$60K ARR within one month of first sale makes **Litmus** a revenue-velocity company with a weak index position: 3,000+ completed assessments show buying behavior, while HackerRank and CodeSignal already control broader assessment workflows. **Litmus** is “just working” earlier than most pre-seed recruiting products, but Litmus has not yet shown that category growth automatically accrues to it rather than forcing Litmus to win every account feature by feature.
+The market map is straightforward: AI-assisted development has made conventional coding screens less representative of real engineering work, employers now need to observe how candidates use AI on realistic tasks, and Litmus becomes large only if contextual work trials predict job performance materially better per interviewer-hour than standardized assessments.
 
-**Harvey** is the high rung on revenue velocity because customers pulled it from one valuation plateau to the next; **Litmus** shares the load-bearing mechanism of immediate enterprise willingness to pay, reaching $60K ARR in its first month rather than collecting unpaid pilots. **Litmus** diverges from Harvey because one month is a point, not a curve: the dossier provides no month-over-month growth, renewal, expansion, or named contract values. I place Litmus below Harvey but well above an AI product hiding behind “early traction.”
+That controlling variable is not yet proven. Litmus generates assessments from repositories and tickets, records candidate workflows, and combines deterministic sandbox tests with configurable LLM graders. This is the right causal architecture, but the dossier provides no quality-of-hire study, grading error rate, renewal data, or threshold showing how much predictive lift warrants sharing proprietary code and recording candidates. The company has identified the measurement surface without validating the measurement.
 
-**Lyft** exposed the low-rung failure mechanism on index position: being a credible product in a market where someone else owns the compounding network does not create #1 economics. **Litmus** faces a related structure because HackerRank and CodeSignal already bundle repository environments, AI-assisted coding, process analysis, and automated grading. Litmus’s customer-specific task generation and native candidate environment are useful wedges, but ATS integrations and Neo Scholars distribution do not yet make Litmus an index on AI-era engineering hiring.
+The strongest evidence is product pull. At pre-seed, $60K ARR and more than 3,000 evaluated assessments are meaningful, while Neo Scholars and its portfolio provide more substance than a waitlist or free pilots. Autumn AI and Sleuth add named usage. The remaining ambiguity is whether these assessments represent recurring employer demand, portfolio-wide experimentation, or volume concentrated in a few customers. I would weight the traction highly but not confuse assessment count with validated hiring outcomes.
 
-CodeSignal’s March 2026 agentic assessments and HackerRank’s 2026 AI-assisted interviews validate the catalyst: employers now need to observe how engineers use AI, not whether engineers can perform synthetic coding rituals without it. Over the next 18 months, that shift should expand demand for prompts, commits, sandbox execution, and walkthrough analysis, which directly benefits **Litmus**. The problem is that the catalyst reopened the market for every incumbent simultaneously; **Litmus** earns a strong catalyst score because the change is recent and specific, not because Litmus has exclusive access to it.
+The product is also deeper than a generic AI recruiting wrapper. It spans assessment construction, native-environment activity capture, sandbox execution, qualitative grading, and ATS integrations with Ashby, Greenhouse, and Lever. Better models should improve task generation and grading. However, Litmus does not yet own an irreplaceable workflow state: HackerRank, CodeSignal, and Karat already possess customer relationships, assessment data, and adjacent AI-enabled products. The claim that 3,000 submissions create proprietary advantage is incomplete without an estimate of how cheaply those incumbents could reproduce the capability.
 
-Shaivi Rau and Elena Zhao have shipped a functioning product that processed 3,000+ assessments, but **Litmus** provides no Perplexity-style evidence that either founder repeatedly built specific customer requests between conversations. The founder score flips into the top tier if **Litmus** can document a sequence of employer-requested releases—assessment generation, configurable graders, ATS integration—each shipped within days and followed by repeat usage. Meta, Two Sigma, Morgan Stanley, and Columbia establish context; they do not establish the independent shipping rhythm I underwrite.
+The bull case is that Litmus is seeing an adoption change before the recruiting market fully crystallizes. Developer AI usage reached 84% in 2025, and the founders experienced technical recruiting directly before building the product from their Columbia dorms. An asynchronous system could simultaneously make assessments more realistic and eliminate interviewer labor. Yet there is no quantified reduction in cost or time, and the founders’ backgrounds demonstrate proximity rather than repeat-founder learning, unusual technical scarcity, or documented costly commitment. None of the exceptional cases for overlooking an unresolved market gate applies.
 
-**Color Genomics** is the relevant single-anchor parallel: workflow infrastructure on top of a validated hard capability is preferable to betting on the hard capability itself. **Litmus** similarly uses existing LLMs and sandbox execution rather than requiring a new model breakthrough, so Litmus is not a science project. The remaining miracle is predictive validity—whether prompt, commit, and walkthrough telemetry identifies better hires—and sensitive repository handling plus candidate-consent terms make adoption harder, but those are product and procurement problems rather than three independent technical breakthroughs.
-
-3,000+ completed assessments create a plausible data flywheel, while the absence of retention evidence keeps the base case bounded. By July 2029, **Litmus** will reach $10M–$20M ARR but remain an independent point solution rather than the default technical-hiring system of record. **Litmus** gets there through immediate revenue velocity and the AI-coding catalyst; Litmus remains bounded because ATS vendors and assessment incumbents retain the index-like distribution position.
-
-HackerRank’s $115M-plus capitalization and CodeSignal’s $87.5M make the bear case sting: both can copy customer-context generation, bundle grading into existing contracts, and use Litmus’s repository-data requirements to trigger security objections. **Litmus** nevertheless has the evidence those incumbents cannot dismiss—$60K ARR in one month and 3,000+ assessments—so competitive convergence is not yet proof that Litmus is merely a feature. A six-month customer cohort with net revenue retention below 100% would verify that the first-month result was a false signal and flip my verdict to Pass.
+My base case is that Litmus reaches $1 million to $3 million of ARR within 36 months but remains a differentiated assessment vendor rather than the category-defining hiring system. I would monitor rather than invest today. One result would flip the decision: multiple named employers renewing after twelve months while documenting a material quality-of-hire improvement—ideally at least 20%—and lower interviewer hours relative to their prior process. That would validate the controlling variable and turn the current workflow breadth into reusable distribution.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Market Re-Opening Via Specific Recent Catalyst | 22/28 |
-| Revenue Velocity or Usage Curve Already Visible | 21/25 |
-| Founder Ships Iteratively Between Conversations | 13/20 |
-| Index-Like Distribution Position On A Compounding Category | 6/15 |
-| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 9/12 |
-| **Total** | **71/100** |
+| Dossier Identifies the One Variable That Makes This Market Work | 13/32 |
+| Technology Shift Expands Market Margins, Scale, or Adoption | 12/24 |
+| Users Demonstrate Product-Market Pull Before the Story Is Polished | 15/18 |
+| Core Technology Improvement Deepens an Owned Workflow | 11/16 |
+| Founder Biography Shows Desperation or Second-Time Learning | 4/10 |
+| **Total** | **55/100** |
 
-**Total Score: 71/100** (Invest)
+**Total Score: 55/100** (Neutral)

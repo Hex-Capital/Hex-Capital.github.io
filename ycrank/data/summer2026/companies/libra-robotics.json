@@ -1,70 +1,56 @@
 {
   "slug": "libra-robotics",
-  "name": "Libra Robotics",
-  "oneLiner": "Autonomous robots for solar farm construction",
-  "metadata": {
-    "website": "https://www.librabots.com/",
-    "yc_page": "https://www.ycombinator.com/companies/libra-robotics",
-    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/libra-robotics), Jul 2026)",
-    "industry": "Industrials / Industrials -> Energy",
-    "team_size": "0",
-    "location": "San Francisco, CA, USA",
-    "tags": "Robotic Process Automation, Solar Power, Sustainability",
-    "yc_partner": "Tyler Bosmeny ([YC](https://www.ycombinator.com/companies/libra-robotics), Jul 2026)",
-    "emails": "contact@librabots.com ([company website](https://www.librabots.com/), Jul 2026)"
-  },
-  "tags": [
-    "Robotic Process Automation",
-    "Solar Power",
-    "Sustainability"
-  ],
+  "name": "libra-robotics",
+  "oneLiner": "",
+  "metadata": {},
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:15:13.054Z",
+  "memoGeneratedAt": "2026-08-11T05:55:00.272Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 65,
-      "tier": "Invest"
+      "score": 26,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
+      "score": 26,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 42,
+      "score": 24,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 29,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 28,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 44,
+      "score": 28,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 58,
-      "tier": "Neutral"
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 65,
-    "EG": 57,
-    "NR": 42,
-    "PG": 66,
-    "PT": 52,
-    "SL": 44,
-    "VK": 58
+    "CB": 26,
+    "EG": 26,
+    "NR": 24,
+    "PG": 29,
+    "PT": 28,
+    "SL": 28,
+    "VK": 25
   },
-  "consolidatedAvg": 54.86,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 26.57,
+  "consolidatedRank": 232,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 34,
-    "tractionReason": "Field demonstration; fleet still in development"
+    "tractionRank": 216,
+    "tractionScore": 16,
+    "tractionReason": "No traction sections found"
   },
   "paths": {
     "memo": "summer2026/memos/libra-robotics.md",

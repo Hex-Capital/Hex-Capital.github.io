@@ -1,30 +1,26 @@
 ﻿# Instaplay -- Peter Thiel Evaluation
 
-Gary Wu’s Harvard AB/SM and Salesforce agent-product experience make Instaplay a credential-rich, atoms-empty consumer-AI wager. Instaplay’s strongest dimension is founder pedigree; its weakest is structural moat. The catalog has produced games with 4,488–5,567 plays, but the underlying thesis remains mimetic: prompt, generate, share. Intellectual capability is present. A secret is not.
+The contested truth would have to be: people want to create games primarily as social communication, not as software development. The falsifier is not whether an agent can publish a browser game; Instaplay has proved that. It is whether recipients keep playing and sharing. Median engaged play of 3.0–7.9 seconds, with inverted controls and broken progression, currently points toward generated novelty rather than a new social medium. Twenty thousand creators prove abundant supply. They do not yet prove durable demand.
 
-Anduril is the high rung on founder lineage because Palmer Luckey had already shipped Oculus to a billion-dollar exit. Instaplay shares the relevant technical adjacency: Wu worked on RL environments and Agentforce, Frank Liu was an Instagram engineer, and Akhil Aggarwal worked at AWS. Instaplay diverges where the analogy becomes load-bearing—none of the three has shipped a game platform, consumer network, or prior company to scale. Credentials can predict capacity; they cannot substitute for demonstrated zero-to-one judgment.
+The deeper problem is competition. Astrocade, Verse8, Pops, and general-purpose coding agents all pursue variations of prompt-generated play; Astrocade reports 20 million users and Verse8 3.5 million monthly users. Instaplay has not isolated a smaller market it dominates. Its telemetry across prompts, edits, preferences, and engagement could become proprietary, but resemblance to a data moat is not evidence of one: no result shows that this data improves generation or retention beyond frontier models. This is presently a feature race inside a fashionable category—commodity before monopoly.
 
-Asana exposed the weakness of pure software without an atoms-heavy or regulatory barrier, but Dustin Moskovitz’s Facebook pedigree overrode it. Instaplay has the same axis failure without the exception: no hardware, certification, regulated buyer, capex barrier, or government integration moat. Instaplay’s browser deployment makes creation frictionless and imitation equally frictionless. “We wanted flying cars, instead we got 140 characters” applies here almost literally—except the 140 characters are now a game prompt.
+The founders are capable but structurally under-documented. Gary Wu brings AI-product and evaluation experience, Frank Liu worked at Instagram and understands games personally, and Akhil Aggarwal combines AWS engineering with venture experience. Their current Instaplay roles suggest commitment, and there is no evidence of part-time founders or outsourced core engineering. But the dossier establishes neither a history of shipping together nor founder ownership and economic exposure. Shared attendance at NYU is not shared work. Missing evidence is not a red flag, but it cannot clear the founding-structure gate.
 
-Astrocade’s 20 million engaged users show how the monopoly mechanism can fail over the next 18 months. Instaplay’s catalog, remixing, share links, and play graph could compound into better discovery, but only if creation and consumption reinforce one proprietary network. Instaplay currently shows isolated play counts, not creator retention, remix depth, or network-driven acquisition. Astrocade, Rosebud AI, FRVR, and general-purpose coding models can reproduce the generation layer; without a proprietary graph, model improvement commoditizes Instaplay faster than it strengthens Instaplay.
+The strongest bull case is the distribution already achieved: 100,000 monthly users, 20,000 creators, 3,000 blinded FunBench votes, organic discovery through ChatGPT, and browser links that travel through Discord and group chats. Consumer companies do fit my unstated allocation patterns when product use itself compounds distribution. Here, however, the loop appears better at distributing creations than retaining players. The known-exception route—overriding weak monopoly evidence because of a verified zero-to-one technical event—also fails: Instaplay’s own benchmark documents fragile output, while several funded competitors demonstrate the same basic capability.
 
-Rosebud AI and FRVR define the counterfactual required to rescue Instaplay’s secret. Instaplay would need to prove that their code-editable or multi-channel architectures cannot support instant multiplayer browser games because of a specific technical or economic constraint—not merely that Instaplay emphasizes multiplayer-first sharing. The dossier names competitors but no incumbent blind spot. “AI-native social platform” is consensus language; a named enemy is not yet a named failure mode.
+Distribution without economics is reach, not a business. Instaplay is free to start, discloses no paid tier, advertising system, or creator revenue share, and spends $0.86–$7.11 in model costs per delivered game. There is therefore no single revenue engine whose pricing, margins, and expansion arithmetic support a power-law outcome. My 36-month forecast is that by August 2029 Instaplay will have pivoted from a consumer social network toward B2B game-prototyping and evaluation tooling, with less than $2 million in ARR.
 
-SpaceX had a definite reusability roadmap extending years beyond its first launch. Instaplay has a two-minute generation workflow, a refinement loop, and public discovery, but Instaplay discloses no committed architecture or two-to-five-year milestone. The product guide explicitly treats the generated game as a draft to be corrected. That may be sensible product design; it is still indefinite iteration unless Instaplay can state what technical destination it will pursue even when customer feedback points elsewhere.
-
-Instaplay will, by July 2029, pivot from a consumer social-game network into B2B generation of branded or marketing mini-games and remain below $3 million ARR. Instaplay’s technically credible founders can build useful creation infrastructure, but the absence of an atoms barrier, proprietary model, or demonstrated network effect makes a horizontal consumer monopoly improbable. Distribution pressure will pull Instaplay toward customers who pay for generated artifacts rather than players who compound a social graph.
-
-Instaplay’s strongest opposing case is the Facebook exception: four public titles already have roughly 4,500–5,600 plays, while shareable links and remixing could produce a creator-player graph before revenue matters. Quora also justified an early network bet with operator pedigree rather than a definite roadmap. The objection stings because consumer networks look trivial until they become irreversible. Instaplay nevertheless confronts Astrocade at 20 million engaged users, with no disclosed retention or proprietary-data advantage; the alleged zero-to-one network may already be a late entrant’s feature. I would flip to Invest if Instaplay publishes cohort data showing at least 100,000 monthly creators with 30% or greater 90-day creator retention.
+I pass. The active red flag is not gaming or consumer software; it is consensus AI creation combined with multiple direct substitutes and no demonstrated mechanism for capturing the value created. One verifiable condition would flip me to Invest: a controlled cohort of at least 10,000 new players showing that Instaplay’s telemetry-trained system produces at least three times the 30-day paid retention of the same product using an unadapted frontier model, at positive contribution margin. That would turn data from a story into proprietary technology—and brief novelty into a company.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Contrarian Secret with Named Incumbent Failure Mode | 9/35 |
-| Monopoly Trajectory with Pricing Power Hypothesis | 7/25 |
-| Definite Founder Plan vs Indefinite Iteration | 4/15 |
-| Founder Lineage / Verified Operator Pedigree | 9/15 |
-| Atoms-Heavy or Regulated-Sector Structural Moat | 1/10 |
-| **Total** | **30/100** |
+| Dossier States a Falsifiable Secret Named Peers Reject | 12/30 |
+| Narrow Beachhead Already Exhibits One Monopoly Mechanism | 3/24 |
+| All Core Founders Are Full-Time, Long-Aligned, and Economically Exposed | 8/18 |
+| One Revenue Engine Can Plausibly Return the Fund | 3/16 |
+| Named Distribution Route Fits Customer Economics | 7/12 |
+| **Total** | **33/100** |
 
-**Total Score: 30/100** (Pass)
+**Total Score: 33/100** (Pass)

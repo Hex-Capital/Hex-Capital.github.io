@@ -1,0 +1,81 @@
+{
+  "slug": "joinmarble",
+  "name": "Marble",
+  "oneLiner": "The autonomous back-of-house for restaurants.",
+  "metadata": {
+    "website": "https://joinmarble.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/joinmarble",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "SaaS, Restaurant Tech, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@joinmarble.com, aakar@usetruffle.com ([YC Launch](https://www.ycombinator.com/launches/SAL-marble-the-autonomous-back-of-house-for-restaurants), Jul 2026; [Aakar Khanna LinkedIn](https://www.linkedin.com/in/aakarkhanna), Jul 2026)"
+  },
+  "tags": [
+    "SaaS",
+    "Restaurant Tech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:50:16.168Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 61,
+    "EG": 56,
+    "NR": 51,
+    "PG": 71,
+    "PT": 39,
+    "SL": 42,
+    "VK": 43
+  },
+  "consolidatedAvg": 51.86,
+  "consolidatedRank": 102,
+  "traction": {
+    "tractionRank": 38,
+    "tractionScore": 64,
+    "tractionReason": "Six named restaurant deployments"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/joinmarble.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/joinmarble.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/joinmarble.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/joinmarble.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/joinmarble.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/joinmarble.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/joinmarble.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/joinmarble.md"
+    }
+  }
+}

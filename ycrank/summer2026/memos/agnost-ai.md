@@ -1,6 +1,6 @@
 ﻿# Agnost AI
 
-> Product analytics for teams building conversational agents
+> Product analytics for AI Agents
 
 | Field | Value |
 |-------|-------|
@@ -10,76 +10,77 @@
 | Industry | B2B / B2B -> Analytics |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Artificial Intelligence, Developer Tools, Analytics, Monitoring |
-| YC Partner | Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026) |
-| Emails | shubham@agnost.ai ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026) |
+| Tags | Developer Tools, Analytics, Monitoring, AI |
+| YC Partner | Tyler Bosmeny |
+| Emails | shubham@agnost.ai, founders@agnost.ai ([YC](https://www.ycombinator.com/companies/agnost-ai); [PyPI](https://pypi.org/project/agnost/)) |
 
 ## The Idea
 
-- **Problem:** Teams operating conversational agents cannot detect feature requests, frustration, or churn from click analytics and conventional observability because unsuccessful conversations can return technically successful responses ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-- **Approach:** Agnost ingests production conversations through three lines of code or OpenTelemetry, clusters product-specific intents and failures, creates evals and debug trails, and can open pull requests tested against historical conversations ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-- **Differentiation:** Unlike LangSmith’s tracing, evaluation, and deployment suite, Langfuse’s open-source tracing and prompt-management platform, and Arize’s ML/LLM evaluation stack, Agnost emphasizes extracting product feedback from conversations and converting detected patterns into reviewed code changes ([Agnost](https://agnost.ai/), [LangChain](https://www.langchain.com/), [Langfuse](https://langfuse.com/press/press), [Arize](https://arize.com/blog/arize-ai-raises-70m-series-c-to-build-the-gold-standard-for-ai-evaluation-observability/), Jul 2026).
-- **Business Model:** Usage-based SaaS tiers include Free for 1,000 events monthly, Starter at $49 monthly for 10,000 events, Pro at $499 monthly for 1 million events, and custom-priced enterprise VPC deployments ([Agnost pricing](https://agnost.ai/), Jul 2026).
-- **TAM/SAM:** The AI-agent observability market was estimated at $0.4 billion in 2025 and projected to reach $7.1 billion by 2035 at a 33.3% CAGR ([Astute Analytica](https://www.astuteanalytica.com/industry-report/ai-agent-observability-market), 2026).
-- **GTM / Distribution:** The company offers self-service free and paid plans, founder-led onboarding, a founder Slack channel for Pro users, and direct outreach to teams building chat or voice agents ([Agnost](https://agnost.ai/), [Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
+- **Problem:** Teams operating chat and voice agents cannot detect failures expressed as frustration, repetition, feature requests, or abandonment through click analytics, latency monitoring, or prewritten evals, because an agent can return HTTP 200 while failing the user’s task ([YC launch](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
+- **Approach:** Agnost ingests conversations through its SDK, skill, or OpenTelemetry, clusters product-specific intents and violations, links findings to underlying events and tool calls, and can open reviewed pull requests tested against past conversations ([Agnost documentation](https://docs.agnost.ai/); [YC launch](https://www.ycombinator.com/companies/agnost-ai)).
+- **Differentiation:** Agnost centers on conversation-derived user demand, frustration, and PR fixes, versus LangSmith’s tracing/evaluation/deployment suite, Braintrust’s eval and observability workflow, Arize’s broader ML and agent platform, and Langfuse’s open-source tracing, prompt-management, and evaluation stack ([LangChain](https://www.langchain.com/blog/series-b); [Braintrust](https://www.braintrust.dev/blog/announcing-series-b); [Arize](https://arize.com/blog/arize-ai-raises-70m-series-c-to-build-the-gold-standard-for-ai-evaluation-observability/); [Langfuse](https://langfuse.com/press)).
+- **Business Model:** Free includes 1,000 events monthly, Starter costs $49 monthly for 10,000 events, Pro costs $499 monthly for 1 million events, and Enterprise offers custom volume, retention, VPC deployment, audit logs, and SLAs ([Agnost pricing](https://agnost.ai/), Aug 2026).
+- **TAM/SAM:** The agent-observability and governance market was estimated at $1.23B in 2025 and forecast to reach $8.62B in 2031 at a 38.69% CAGR, while SAM is No public data found ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/agent-observability-and-governance-market), 2026).
+- **GTM / Distribution:** Agnost combines free self-service onboarding, a developer-installable skill, founder-booked calls, technical content, and founder-led outreach to teams building agents ([Agnost](https://agnost.ai/); [founder LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_i-would-quit-my-own-company-to-take-this-activity-7463633340013711361-d944), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** Agnost processes more than 1 million production events daily and uses historical conversations to test proposed fixes, creating a customer-specific dataset tied to each agent’s behavior ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-- **Future moat:** [Inferred]: Accumulated mappings between conversational failure patterns, accepted pull requests, and subsequent outcomes could improve diagnosis, but no comparative accuracy or retention evidence is public.
+- **Moat today:** Agnost processes more than 1 million events daily, creating operating-data volume for product-specific failure discovery, but no public source establishes that customer data is pooled into a proprietary cross-customer model ([YC launch](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
+- **Future moat:** [Inferred]: Accumulated customer-specific intent taxonomies, failure histories, and validated fixes could create switching costs, although published retention currently ranges from 7 to 90 days outside custom Enterprise terms ([Agnost pricing](https://agnost.ai/)).
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** LangSmith already clusters production failures, identifies causes in traces and code, and proposes fixes for review, overlapping Agnost’s detection-to-fix workflow ([LangChain](https://www.langchain.com/), Jul 2026).
+- **Commoditization risk:** LangSmith already categorizes agent-behavior patterns, while Braintrust, Arize, and Langfuse provide overlapping production tracing and evaluation capabilities that can incorporate conversation analytics ([LangChain](https://www.langchain.com/blog/series-b); [Braintrust](https://www.braintrust.dev/blog/announcing-series-b); [Arize](https://arize.com/pricing/); [Langfuse](https://langfuse.com/press)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - More than 1 million events processed daily ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-  - Teams associated with Google, Exa, Corgi Insurance, Orchid, Lopus AI, and Odysser are displayed as users or customers ([Agnost](https://agnost.ai/), Jul 2026).
-  - Customer testimonial: 1,247 feature requests surfaced from Odysser user chats ([Agnost](https://agnost.ai/), Jul 2026).
-  - Customer testimonial: Lopus AI merged 16 of 18 autonomous pull requests opened through Agnost ([Agnost](https://agnost.ai/), Jul 2026).
-  - $250,000 raised from Entrepreneurs First before YC ([Shubham Palriwala](https://www.linkedin.com/posts/shubhampalriwala_hey-linkedin-im-shubham-i-won-12-hackathons-activity-7450931539602800640--OgO), Apr 2026).
-  - 2,856 LinkedIn company followers ([LinkedIn](https://www.linkedin.com/company/agnostai), Jul 2026).
-  - A first growth-engineer opening was publicly promoted despite the YC directory showing zero current jobs ([Parth Ajmera](https://www.linkedin.com/in/parthajmera), [Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-- **Competitors (minimum 3, up to 5):**
-  - LangSmith/LangChain ($260 million raised, revenue unknown): combines observability with evaluation, deployment, agent building, and framework distribution, versus Agnost’s conversation-to-product-feedback focus ([Sacra](https://sacra.com/c/langchain/), Jul 2026).
-  - Arize AI (at least $127 million raised, revenue unknown): covers ML and LLM evaluation and observability, including open-source Phoenix, versus Agnost’s automatic intent clustering and reviewed fixes ([Arize Series A](https://arize.com/arize-series-a-ml-observability//), [Series B](https://arize.com/blog/arize-ais-next-era-of-growth/), [Series C](https://arize.com/blog/arize-ai-raises-70m-series-c-to-build-the-gold-standard-for-ai-evaluation-observability/)).
-  - Braintrust (at least $80 million raised, revenue unknown): provides production-AI evaluations and observability, versus Agnost’s emphasis on conversational product analytics and pull requests ([Braintrust](https://www.braintrust.dev/blog/announcing-series-b), Feb 2026).
-- **Why now:** [Inferred]: Agent frameworks doubled in adoption over the preceding year while agents increasingly used multiple tools and APIs, expanding the volume and complexity of production behavior requiring conversation-level analysis ([TechRadar](https://www.techradar.com/pro/how-ai-observability-helps-organizations-move-from-experimentation-to-production), Jun 2026).
+  - Current product processes more than 1 million events per day ([YC launch](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
+  - The founder reports work with teams at Google, Exa Labs, and Corgi Insurance, while Agnost’s site carries a Google engineer’s statement about integrating observability into MCP Toolbox for Databases ([founder LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_i-would-quit-my-own-company-to-take-this-activity-7463633340013711361-d944); [Agnost](https://agnost.ai/), 2026).
+  - The founders reported raising $250,000 after joining Entrepreneurs First, with Entrepreneurs First and Transpose Platform named as backers ([founder LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_were-building-agnost-ai-iitvit-grads-activity-7452762856535592960-t0_i); [funding announcement](https://www.linkedin.com/posts/shubhampalriwala_excited-to-share-that-we-at-agnost-ai-have-activity-7395058939727458304-FIL8)).
+  - Prior-product metric: Agnost’s earlier MCP analytics offering processed approximately 2.5 million MCP server calls monthly ([founder LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_the-hidden-metrics-behind-successful-mcp-activity-7403334764193034240-2Y7p), Jan 2026).
+  - Its Launch HN post recorded 77 points and 40 comments ([HN archive](https://noobclaw.com/hot-topics/2026-07-15/), Jul 15, 2026).
+  - The company LinkedIn page had 2,885 followers ([LinkedIn](https://www.linkedin.com/company/agnostai), Jul 2026).
+  - A Growth Engineer announced joining in August 2026, although YC still displayed team size 2 and zero jobs ([LinkedIn](https://www.linkedin.com/posts/dhruvieiei_career-update-ive-joined-agnost-ai-yc-activity-7475611538163171329-cHwl); [YC](https://www.ycombinator.com/companies/agnost-ai)).
+- **Competitors:**
+  - LangChain/LangSmith ($260M raised; latest $125M round led by IVP in October 2025; revenue unknown): combines agent frameworks with tracing, evaluation, behavior categorization, and deployment ([Sacra](https://sacra.com/c/langchain/); [LangChain](https://www.langchain.com/blog/series-b)).
+  - Braintrust ($121M disclosed; latest $80M Series B led by ICONIQ in February 2026; revenue unknown): focuses on evaluations and production observability rather than conversation-derived product demand ([Braintrust](https://www.braintrust.dev/blog/company); [Series B](https://www.braintrust.dev/blog/announcing-series-b)).
+  - Arize AI (over $135M raised; latest $70M Series C led by Adams Street Partners in February 2025; revenue unknown): covers traditional ML, LLMs, agents, tracing, drift, and evaluations ([Arize](https://arize.com/career/?gh_jid=5978967004); [Series C](https://arize.com/blog/arize-ai-raises-70m-series-c-to-build-the-gold-standard-for-ai-evaluation-observability/)).
+  - Langfuse ($4M disclosed; latest $4M seed led by Lightspeed, La Famiglia, and YC in November 2023; revenue unknown): offers open-source, self-hosted tracing, analytics, prompt management, and evaluations and was acquired by ClickHouse in January 2026 ([Langfuse](https://langfuse.com/press)).
+- **Why now:** [Inferred]: Agent-framework adoption doubled over the preceding year as production agents began calling multiple tools and APIs, increasing demand for conversation- and trace-level diagnosis ([TechRadar](https://www.techradar.com/pro/how-ai-observability-helps-organizations-move-from-experimentation-to-production), Jun 2026).
 
 ## Founders & Team
 
-- **Shubham Palriwala (Co-founder and CEO):**
-  - Background: VIT computer-science graduate; formerly Cisco’s youngest analytics-team engineer, Formbricks’ first engineer, and a contributor to Bitcoin, OWASP, and Linux Foundation projects ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), [Sessionize](https://sessionize.com/shubhampalriwala/), Jul 2026).
-  - Twitter/X: @ShubhamInTech; count not retrievable ([Returner](https://www.returner.fund/founders/shubham-palriwala), Jul 2026).
-  - LinkedIn: “Co-founder & CEO at Agnost AI”; 15,146 followers ([LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_hey-linkedin-im-shubham-i-won-12-hackathons-activity-7450931539602800640--OgO), Jul 2026).
-  - GitHub: @ShubhamPalriwala; SecYourIT repository, star count not retrievable ([DEV Community](https://dev.to/shubhampalriwala/secyourit-3pd7)).
-- **Parth Ajmera (Co-founder and CTO):**
-  - Background: IIT Madras computer-science graduate who built Spark data pipelines at Microsoft and led graphics/GPU engineering at Infurnia, which Agnost’s YC launch described as having approximately $1 million ARR ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Building the Infrastructure for Self-Improving agents”; 6,000 followers ([LinkedIn](https://www.linkedin.com/in/parthajmera), Jul 2026).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** The founders describe themselves as childhood friends for eight years ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-- **Founder-market fit:** Shubham previously worked on analytics at Cisco and open-source software at Formbricks, while Parth built data pipelines at Microsoft and graphics infrastructure at Infurnia ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
+- **Shubham Palriwala (Co-Founder and CEO):**
+  - Background: VIT computer-science graduate, Cisco analytics engineer, first Formbricks hire, and contributor to Bitcoin, OWASP, and Linux Foundation projects ([LinkedIn](https://www.linkedin.com/in/shubhampalriwala); [YC](https://www.ycombinator.com/companies/agnost-ai)).
+  - Twitter/X: @ShubhamInTech, approximately 3,000 followers ([TwStalker](https://ww.twstalker.com/ShubhamInTech), Jul 2026).
+  - LinkedIn: “CEO of Agnost AI; building the infrastructure for self-improving agents,” with approximately 15,000 followers ([LinkedIn](https://www.linkedin.com/in/shubhampalriwala), Jul 2026).
+  - GitHub: @ShubhamPalriwala; `networth` is his highest-starred owned repository with 27 stars ([GitHub](https://github.com/ShubhamPalriwala), Aug 2026).
+- **Parth Ajmera (Co-Founder and CTO):**
+  - Background: IIT Madras computer-science graduate who ranked 159 in JEE Advanced, built terabyte-scale Spark pipelines at Microsoft, and led graphics engineering at Infurnia ([YC](https://www.ycombinator.com/companies/agnost-ai); [LinkedIn](https://www.linkedin.com/in/parthajmera)).
+  - Twitter/X: @prrthh132, 797 followers ([TwStalker via search snippet](https://ngntipkolamrenang.twstalker.com/real_shorya), Jul 2026).
+  - LinkedIn: “Building the infrastructure for self-improving agents,” with approximately 6,000 followers ([LinkedIn](https://www.linkedin.com/in/parthajmera), Jul 2026).
+  - GitHub: @AjmeraParth132; 10 public repositories, with the original profile repository showing 0 stars ([GitHub](https://github.com/AjmeraParth132?tab=repositories), Aug 2026).
+- **Co-founder relationship:** The founders describe themselves as childhood friends for eight years ([YC launch](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
+- **Founder-market fit:** Shubham’s analytics and open-source product experience and Parth’s production-data-pipeline and graphics-systems work document experience relevant to agent analytics infrastructure ([YC](https://www.ycombinator.com/companies/agnost-ai)).
 
 ## Key Risks
 
-- **Platform overlap:** LangSmith now clusters production failures, locates causes in traces and code, and proposes fixes, directly overlapping Agnost’s workflow ([LangChain](https://www.langchain.com/), Jul 2026).
-- **Data-security exposure:** The product reads production conversations and enterprise features such as VPC deployment, audit logs, and custom retention are confined to custom pricing, potentially constraining adoption where conversations contain regulated or customer data ([Agnost](https://agnost.ai/), Jul 2026).
-- **Signal-classification accuracy:** Agnost categorizes conversations as bugs, frustration, feature requests, and churn risk, but no public precision, recall, false-positive, or comparative evaluation results were found ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
-- **Automated-change risk:** The GitHub integration can open fixes tested against historical conversations, but the public workflow relies on customer review and merge rather than establishing that generated changes generalize beyond those conversations ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026).
+- **Suite encroachment:** LangSmith, Braintrust, Arize, and Langfuse already bundle tracing, evaluations, analytics, and automated categorization, permitting customers to obtain overlapping functionality from existing AI-engineering platforms ([LangChain](https://www.langchain.com/blog/series-b); [Braintrust](https://www.braintrust.dev/blog/announcing-series-b); [Arize](https://arize.com/pricing/); [Langfuse](https://langfuse.com/press)).
+- **Production-data sensitivity:** Agnost ingests complete conversations, model generations, handoffs, guardrails, and tool-call details; Enterprise VPC deployment, audit logs, custom retention, and SLAs are the disclosed mitigations ([documentation](https://docs.agnost.ai/); [pricing](https://agnost.ai/)).
+- **Automated-fix validation:** [Inferred]: Testing proposed PRs against historical conversations may not cover new behavior or downstream effects, although fixes remain subject to customer review and merge ([YC launch](https://www.ycombinator.com/companies/agnost-ai)).
+- **Product-scope transition:** Public positioning moved from MCP and tool-call analytics processing approximately 2.5 million calls monthly to conversation-derived product analytics processing more than 1 million daily events, so the earlier MCP metric should not be treated as current-product traction ([founder LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_the-hidden-metrics-behind-successful-mcp-activity-7403334764193034240-2Y7p); [YC launch](https://www.ycombinator.com/companies/agnost-ai)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $0.4B in 2025, projected to $7.1B by 2035 at 33.3% CAGR (Astute Analytica, 2026) |
+| TAM | $1.23B in 2025, forecast to $8.62B by 2031 at 38.69% CAGR ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/agent-observability-and-governance-market), 2026) |
 | SAM | No public data found |
-| Traction | More than 1M events daily; Google, Exa, Corgi Insurance and other teams displayed; 1,247 Odysser feature requests surfaced; 16/18 Lopus AI PRs merged (Agnost and Y Combinator, Jul 2026) |
-| Revenue Signal | Free: 1K events/month; Starter: $49/month for 10K events; Pro: $499/month for 1M events; Enterprise: custom pricing (Agnost pricing, Jul 2026) |
-| Founders | Shubham Palriwala (CEO): VIT, Cisco analytics, first Formbricks engineer; Parth Ajmera (CTO): IIT Madras CS, Microsoft data pipelines, Infurnia graphics lead (Y Combinator, Jul 2026) |
-| Competitors | LangSmith ($260M raised, revenue unknown, integrated agent lifecycle); Arize AI (at least $127M raised, revenue unknown, ML/LLM evaluation); Braintrust (at least $80M raised, revenue unknown, production-AI evals) (Sacra, Arize, Braintrust, Jul 2026) |
-| Moat Signals | More than 1M production events processed daily and customer-specific historical-conversation testing (Y Combinator, Jul 2026) |
-| Risk Factors | LangSmith feature overlap (LangChain, Jul 2026), production-conversation data exposure (Agnost, Jul 2026), no public classification-accuracy results (Y Combinator, Jul 2026) |
-| Founder Reach | Shubham: X count not retrievable, LinkedIn 15,146, GitHub stars not retrievable; Parth: LinkedIn 6,000, no public X or GitHub data (LinkedIn and Returner, Jul 2026) |
-| Distribution Signals | LinkedIn company page: 2,856 followers; founder-led onboarding, free tier, Pro founder Slack, and public growth-engineer recruitment (LinkedIn, Agnost, and YC, Jul 2026) |
-| Emails | shubham@agnost.ai (Y Combinator, Jul 2026) |
+| Traction | More than 1M events/day ([YC](https://www.ycombinator.com/companies/agnost-ai), Jul 2026); teams at Google, Exa, and Corgi Insurance reported by founder ([LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_i-would-quit-my-own-company-to-take-this-activity-7463633340013711361-d944), Jul 2026); 77 HN points and 40 comments ([HN archive](https://noobclaw.com/hot-topics/2026-07-15/), Jul 2026) |
+| Revenue Signal | Free: 1,000 events/month; Starter: $49/month for 10,000; Pro: $499/month for 1M; Enterprise: custom ([Agnost pricing](https://agnost.ai/), Aug 2026) |
+| Founders | Shubham Palriwala (CEO): VIT, Cisco analytics, first Formbricks hire; Parth Ajmera (CTO): IIT Madras CS, Microsoft data pipelines, Infurnia graphics engineering ([YC](https://www.ycombinator.com/companies/agnost-ai)) |
+| Competitors | LangChain/LangSmith ($260M, revenue unknown, agent-engineering suite) ([Sacra](https://sacra.com/c/langchain/)); Braintrust ($121M disclosed, revenue unknown, eval-first workflow) ([Braintrust](https://www.braintrust.dev/blog/company)); Arize AI ($135M+, revenue unknown, ML and agent observability) ([Arize](https://arize.com/career/?gh_jid=5978967004)); Langfuse ($4M disclosed, revenue unknown, open-source/self-hosted) ([Langfuse](https://langfuse.com/press)) |
+| Moat Signals | More than 1M events/day plus product-specific intent clustering and conversation-tested PR generation ([YC](https://www.ycombinator.com/companies/agnost-ai), Jul 2026) |
+| Risk Factors | Suite encroachment ([LangChain](https://www.langchain.com/blog/series-b)); sensitive production-conversation handling ([Agnost docs](https://docs.agnost.ai/)); transition from MCP analytics to conversation product analytics ([founder LinkedIn](https://www.linkedin.com/posts/shubhampalriwala_the-hidden-metrics-behind-successful-mcp-activity-7403334764193034240-2Y7p); [YC](https://www.ycombinator.com/companies/agnost-ai)) |
+| Founder Reach | Shubham: X ~3K ([TwStalker](https://ww.twstalker.com/ShubhamInTech)), LinkedIn ~15K ([LinkedIn](https://www.linkedin.com/in/shubhampalriwala)), GitHub top owned repo 27 stars ([GitHub](https://github.com/ShubhamPalriwala)); Parth: X 797 ([TwStalker via search snippet](https://ngntipkolamrenang.twstalker.com/real_shorya)), LinkedIn ~6K ([LinkedIn](https://www.linkedin.com/in/parthajmera)), GitHub top original repo 0 stars ([GitHub](https://github.com/AjmeraParth132?tab=repositories)) |
+| Distribution Signals | Company LinkedIn 2,885 followers ([LinkedIn](https://www.linkedin.com/company/agnostai), Jul 2026); Launch HN 77 points and 40 comments ([HN archive](https://noobclaw.com/hot-topics/2026-07-15/), Jul 2026) |
+| Emails | shubham@agnost.ai ([YC](https://www.ycombinator.com/companies/agnost-ai)); founders@agnost.ai ([PyPI](https://pypi.org/project/agnost/)) |

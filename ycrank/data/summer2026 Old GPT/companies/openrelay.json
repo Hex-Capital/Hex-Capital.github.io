@@ -1,0 +1,79 @@
+{
+  "slug": "openrelay",
+  "name": "OpenRelay",
+  "oneLiner": "Distributed, hardware-agnostic AI inference",
+  "metadata": {
+    "website": "https://www.openrelay.inc",
+    "yc_page": "https://www.ycombinator.com/companies/openrelay",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "Seattle, WA, USA",
+    "tags": "AI",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@openrelay.inc, sales@openrelay.inc"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:29:56.070Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 41,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 53,
+    "NR": 70,
+    "PG": 68,
+    "PT": 47,
+    "SL": 42,
+    "VK": 41
+  },
+  "consolidatedAvg": 54.29,
+  "consolidatedRank": 78,
+  "traction": {
+    "tractionRank": 97,
+    "tractionScore": 42,
+    "tractionReason": "Stripe billing live; no customers or revenue disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/openrelay.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/openrelay.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/openrelay.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/openrelay.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/openrelay.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/openrelay.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/openrelay.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/openrelay.md"
+    }
+  }
+}

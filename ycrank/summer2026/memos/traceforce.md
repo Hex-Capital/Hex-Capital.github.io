@@ -11,75 +11,77 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, SaaS, Security, Cybersecurity, Enterprise |
-| YC Partner | Brad Flora ([Y Combinator](https://www.ycombinator.com/companies/traceforce), Jul 2026) |
-| Emails | info@traceforce.ai ([Traceforce contact page](https://www.traceforce.ai/contact-us), Jul 2026) |
+| YC Partner | Brad Flora |
+| Emails | info@traceforce.ai |
 
 ## The Idea
 
-- **Problem:** Employee-adopted ChatGPT, Claude, Cursor, Claude Code, MCPs, and skills can access company data and act locally where gateways, proxies, and enterprise APIs lack visibility ([Y Combinator launch](https://www.ycombinator.com/companies/traceforce), Jul 2026).
-- **Approach:** Traceforce installs an endpoint agent that inventories AI applications and connections, records prompts and tool calls, and warns or blocks unsafe actions before network transmission ([Traceforce](https://www.traceforce.ai/), Jul 2026).
-- **Differentiation:** Traceforce says gateway and enterprise-API competitors miss locally installed tools and MCP data connections, while its endpoint approach covers browser AI, desktop applications, and CLI agents ([Y Combinator launch](https://www.ycombinator.com/companies/traceforce), Jul 2026).
-- **Business Model:** [Inferred]: Enterprise endpoint-security SaaS distributed through a 30-day free trial and MDM integrations, with pricing not published.
-- **TAM/SAM:** The global endpoint-security market was $16.25B in 2025 and is forecast to reach $34.40B by 2034 at an 8.6% CAGR ([Fortune Business Insights](https://www.fortunebusinessinsights.com/industry-reports/endpoint-security-market-100614), Jul 2026), while no public SAM estimate was found for endpoint protection specific to AI applications.
-- **GTM / Distribution:** Traceforce offers self-serve trials, requests introductions to CISOs and security teams, integrates with Jamf, JumpCloud, NinjaOne, and Iru, and routes MSP/MSSP trials through PORT1 ([Traceforce](https://www.traceforce.ai/), [contact page](https://www.traceforce.ai/contact-us), Jul 2026).
+- **Problem:** Enterprise security teams rely on gateways, proxies, and application APIs that cannot observe AI agents accessing local files, credentials, MCP servers, and skills on employee devices ([YC launch](https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot), Jul 2026).
+- **Approach:** An on-device agent inventories browser, desktop, and CLI-based AI, maps its MCP and data connections, records prompts and tool calls, and warns or blocks unsafe actions before execution ([Traceforce website](https://www.traceforce.ai/), Aug 2026).
+- **Differentiation:** Traceforce uses endpoint telemetry, while WitnessAI advertises agentless network-level controls and Zenity combines endpoint-native hooks with SaaS and cloud coverage ([WitnessAI](https://witness.ai/product/); [Zenity](https://zenity.io/use-cases/agent-type/coding-personal-agents), Aug 2026).
+- **Business Model:** [Inferred]: Enterprise SaaS sold to security teams, potentially priced by protected devices, with a self-service free trial and MDM-based fleet deployment but no public paid pricing ([trial page](https://trial.traceforce.co/); [Traceforce website](https://www.traceforce.ai/), Aug 2026).
+- **TAM/SAM:** The agentic-AI security market is projected from $1.65 billion in 2026 to $13.52 billion in 2032 at a 42.0% CAGR, while no public SAM estimate was found for endpoint-only AI security ([MarketsandMarkets](https://www.marketsandmarkets.com/blog/ICT/agentic-ai-security-market), Jun 2026).
+- **GTM / Distribution:** Traceforce combines self-service trials, Jamf/JumpCloud/NinjaOne/Iru integrations, PORT1 distribution for MSPs and MSSPs, and CISO-focused events ([website](https://www.traceforce.ai/); [contact page](https://www.traceforce.ai/contact-us); [LinkedIn](https://www.linkedin.com/company/traceforce-security), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Traceforce reports a real-time TraceGraph built from endpoint telemetry, a curated library of 1,000+ MCP connectors, and two issued data-protection patents held by Xia Hua ([Traceforce](https://www.traceforce.ai/), [Xia Hua LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30), Jul 2026).
-- **Future moat:** [Inferred]: Accumulated endpoint telemetry, MCP vulnerability findings, and customer policies could improve detection coverage and switching costs, but no comparative detection-performance evidence is public.
-- **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Endpoint-security vendors can add AI-usage controls, illustrated by SentinelOne’s acquisition of Prompt Security and Akamai’s pending acquisition of LayerX ([SentinelOne](https://www.sentinelone.com/press/sentinelone-to-acquire-prompt-security-to-advance-genai-security/), Aug 2025; [Akamai](https://www.akamai.com/newsroom/press-release/2026/akamai-technologies-announces-intent-to-acquire-layerx-advancing-its-workforce-security-strategy-with-ai-usage-control), May 2026).
+- **Moat today:** TraceGraph derives an activity graph from endpoint telemetry, while the company’s MCP X-Ray repository has 80 GitHub stars and its Atlas registry covers more than 600 MCPs ([Traceforce LinkedIn](https://www.linkedin.com/company/traceforce-security); [GitHub](https://github.com/traceforce/mcp-xray), Aug 2026).
+- **Future moat:** [Inferred]: Accumulated tool-call telemetry, incident outcomes, device coverage, and MCP assessments could improve policy coverage, but no public detection-accuracy or retention benchmark establishes this advantage.
+- **Market structure:** No structural barrier identified at this stage, because funded competitors already deploy endpoint hooks, network controls, MCP gateways, and runtime agent policies.
+- **Commoditization risk:** Zenity offers endpoint discovery and pre-execution tool blocking, WitnessAI offers network-enforced MCP controls, and Noma combines posture management, red teaming, and runtime protection ([Zenity](https://zenity.io/use-cases/agent-type/coding-personal-agents); [WitnessAI](https://witness.ai/product/); [Noma](https://noma.security/blog/noma-security-raises-100m-to-drive-adoption-of-ai-agent-security/), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 1,500+ employee devices across five medium-sized enterprises ([Y Combinator launch](https://www.ycombinator.com/companies/traceforce), Jul 2026).
-  - Deployed at one 500+ employee company and conducting proofs of concept with Fortune 500 companies ([Y Combinator launch](https://www.ycombinator.com/companies/traceforce), Jul 2026).
-  - 1,000+ curated MCP connectors and capacity to block 10,000 dangerous actions per second ([Traceforce](https://www.traceforce.ai/), Jul 2026).
-  - 195 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/traceforce-security), Jul 2026).
-  - One Founding Engineer opening at $140K–$180K salary and 1%–2% equity ([Y Combinator](https://www.ycombinator.com/companies/traceforce), Jul 2026).
-  - SOC 2 compliance and ISO 27001 certification claimed by the company ([LinkedIn](https://www.linkedin.com/company/traceforce-security), Mar 2026).
+  - 1,500+ employee devices across five medium-sized enterprises ([YC launch](https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot), Jul 2026).
+  - One deployment at a 500+ employee company and proof-of-concepts with Fortune 500 companies ([YC launch](https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot), Jul 2026).
+  - 50+ CISO and CIO problem-validation interviews before product development ([YC company page](https://www.ycombinator.com/companies/traceforce), Jul 2026).
+  - MCP X-Ray has 80 GitHub stars and 15 forks ([GitHub](https://github.com/traceforce/mcp-xray), Aug 2026).
+  - 202 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/traceforce-security), Aug 2026).
+  - One founding-engineer opening at $140,000–$180,000 salary and 1%–2% equity ([YC jobs](https://www.ycombinator.com/companies/traceforce), Aug 2026).
+  - SOC 2 compliance and ISO 27001 certification announced by the company ([LinkedIn](https://www.linkedin.com/company/traceforce-security), Apr 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Prompt Security ($23M raised, revenue unknown): inspects prompts and model responses across workforce and application GenAI usage, versus Traceforce’s device-level monitoring and tool-action controls ([SecurityWeek](https://www.securityweek.com/prompt-security-raises-18-million-for-gen-ai-security-platform/), Nov 2024; [Prompt Security](https://prompt.security/press/prompt-security-emerges-from-stealth-with-5m-seed-to-be-enterprises-one-stop-for-generative-ai-security), Jan 2024).
-  - Harmonic Security ($24.5M raised, revenue unknown): provides zero-touch data protection for employee AI usage, versus Traceforce’s endpoint inventory, MCP mapping, and action blocking ([Harmonic Security](https://www.harmonic.security/resources/harmonic-security-raises-17-5-million-series-a-to-accelerate-zero-touch-data-protection-to-market), Oct 2024; [Harmonic Security](https://www.harmonic.security/resources/harmonic-security-new-beginnings), Apr 2025).
-  - LayerX ($45M raised, approximately $10M projected year-end ARR): uses a browser extension for browser, SaaS, and AI controls, versus Traceforce’s coverage of browsers, desktop applications, and CLI agents ([LayerX announcement](https://www.globenewswire.com/news-release/2025/04/28/3069127/0/en/layerx-security-extends-series-a-funding-to-37m-to-power-next-gen-enterprise-browser-security-challenges-sse-solutions-and-enterprise-browsers.html), Apr 2025; [Akamai](https://www.akamai.com/newsroom/press-release/2026/akamai-technologies-announces-intent-to-acquire-layerx-advancing-its-workforce-security-strategy-with-ai-usage-control), May 2026).
-  - Reco ($85M raised, revenue unknown): discovers and governs SaaS and AI integrations, versus Traceforce’s telemetry and enforcement directly on employee devices ([Reco](https://www.reco.ai/newsroom), Feb 2026).
-- **Why now:** [Inferred]: The shift from browser chatbots to locally acting desktop and CLI agents connected through MCP created endpoint actions that gateway-based controls do not observe, matching Traceforce’s reported customer incident and product architecture ([Y Combinator launch](https://www.ycombinator.com/companies/traceforce), Jul 2026).
+  - WitnessAI ($90M raised, revenue unknown): agentless network-level governance across employees, models, applications, and agents, versus Traceforce’s installed endpoint agent ([CB Insights](https://www.cbinsights.com/company/witnessai/financials); [WitnessAI](https://witness.ai/product/), Aug 2026).
+  - Zenity ($180M+ disclosed, revenue unknown): spans SaaS, cloud, and endpoint agents with native hooks and intent-based enforcement, overlapping Traceforce’s device controls ([Series B](https://zenity.io/company-overview/newsroom/company-news/zenity-raises-38m-series-b-funding-round-to-secure-agentic-ai); [Series C](https://zenity.io/company-overview/newsroom/company-news/zenity-raises-125-million-to-secure-the-era-of-1-billion-ai-agents), Aug 2026).
+  - Noma Security ($132M raised, revenue unknown): covers AI discovery, posture management, red teaming, cloud/code environments, and runtime protection, versus Traceforce’s device emphasis ([Noma](https://noma.security/blog/noma-security-raises-100m-to-drive-adoption-of-ai-agent-security/); [CB Insights](https://www.cbinsights.com/company/noma-security/financials), Aug 2026).
+  - Harmonic Security ($26M+ raised, revenue unknown): uses specialized language models to classify and protect sensitive data, while Traceforce maps agent execution and blocks device-level actions ([Harmonic Security](https://www.harmonic.security/resources/harmonic-security-raises-17-5-million-series-a-to-accelerate-zero-touch-data-protection-to-market), Oct 2024).
+- **Why now:** [Inferred]: The shift from browser chatbots to Claude Code, Cursor, MCP-connected tools, and other agents that execute locally created an endpoint activity layer that network-oriented controls were not designed to inspect ([YC launch](https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot), Jul 2026).
 
 ## Founders & Team
 
-- **Xia Hua (Founder):**
-  - Background: MIT PhD in applied mathematics, former Clumio Director of Engineering responsible for flagship products, and named inventor on two issued data-protection patents ([Y Combinator](https://www.ycombinator.com/companies/traceforce), [LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30), Jul 2026).
+- **Xia Hua (CEO):**
+  - Background: Former Clumio Director of Engineering responsible for flagship products, MIT PhD in Applied Mathematics, former Oracle database engineer, and named inventor on cloud-data-protection patents ([YC](https://www.ycombinator.com/companies/traceforce); [LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Building Traceforce. Observe and Secure AI at the device layer,” with 3K followers ([LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30), Jul 2026).
-  - GitHub: No public personal repos found.
-- **Varun Wadhwa (Co-founder and CTO):**
-  - Background: UC Berkeley BS in EECS; former LinkedIn engineer leading database systems for RAG, Clumio staff engineer and distributed-data-infrastructure lead, and Microsoft distributed-payments engineer ([Y Combinator](https://www.ycombinator.com/companies/traceforce), Jul 2026).
+  - LinkedIn: “Building Traceforce. Observe and Secure AI at the device layer,” with approximately 3,000 followers ([LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30), Aug 2026).
+  - GitHub: Organization @traceforce, with MCP X-Ray at 80 stars ([GitHub](https://github.com/traceforce/mcp-xray), Aug 2026).
+- **Varun Wadhwa (CTO):**
+  - Background: UC Berkeley BS in EECS; former LinkedIn engineer for RAG database systems, Clumio staff engineer for distributed backup infrastructure, and Microsoft payments engineer ([YC](https://www.ycombinator.com/companies/traceforce), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Co-founder & CTO at TraceForce,” with 2K followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/varunwadhwarcds), Jul 2026).
-  - GitHub: No public personal repos found.
-- **Co-founder relationship:** Both founders worked in engineering at Clumio before its 2024 acquisition by Commvault ([Y Combinator launch](https://www.ycombinator.com/companies/traceforce), Jul 2026).
-- **Founder-market fit:** The founders’ Clumio security-infrastructure work, Hua’s data-protection patents, and Wadhwa’s distributed-systems experience align with endpoint telemetry and enforcement ([Y Combinator](https://www.ycombinator.com/companies/traceforce), [LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30), Jul 2026).
+  - LinkedIn: “Co-founder & CTO at Traceforce”; count not retrievable ([YC-linked profile](https://www.linkedin.com/in/varunwadhwarcds), Aug 2026).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Both founders worked at Clumio, where Xia was Director of Engineering and Varun was a technical lead before Commvault acquired the company in 2024 ([YC launch](https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot), Jul 2026).
+- **Founder-market fit:** Xia’s cloud-data-protection leadership and patents and Varun’s distributed backup, RAG database, and payments-system work document experience with security and data infrastructure ([YC](https://www.ycombinator.com/companies/traceforce); [Xia Hua LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30), Aug 2026).
 
 ## Key Risks
 
-- **Platform convergence:** SentinelOne acquired Prompt Security and Akamai agreed to acquire LayerX, allowing established security platforms to bundle overlapping AI-usage controls ([SentinelOne](https://www.sentinelone.com/press/sentinelone-to-acquire-prompt-security-to-advance-genai-security/), Aug 2025; [Akamai](https://www.akamai.com/newsroom/press-release/2026/akamai-technologies-announces-intent-to-acquire-layerx-advancing-its-workforce-security-strategy-with-ai-usage-control), May 2026).
-- **Endpoint coverage:** Traceforce’s differentiation depends on software running directly on devices, so unmanaged devices or unsupported applications can remain outside its telemetry; integrations with four MDM providers provide a deployment route for managed fleets ([Traceforce](https://www.traceforce.ai/), Jul 2026).
-- **Sensitive telemetry:** TraceGraph records prompts, tool calls, reasoning, and outcomes, creating privacy and data-governance requirements; Traceforce claims SOC 2 compliance and ISO 27001 certification ([Traceforce](https://www.traceforce.ai/), [LinkedIn](https://www.linkedin.com/company/traceforce-security), Jul 2026).
-- **Detection validation:** The company publishes throughput and deployment metrics but no false-positive, false-negative, or independent detection-rate measurements ([Traceforce](https://www.traceforce.ai/), Jul 2026).
+- **Competitive convergence:** Zenity now provides endpoint visibility into prompts, commands, MCPs, and tool calls, while WitnessAI offers agentless native-application monitoring, reducing functional separation from Traceforce ([Zenity](https://zenity.io/use-cases/agent-type/coding-personal-agents); [WitnessAI](https://witness.ai/product/), Aug 2026).
+- **Endpoint coverage dependency:** [Inferred]: Visibility depends on installing the product or connecting an MDM, so unmanaged devices and unsupported AI tools may remain outside enforcement ([Traceforce website](https://www.traceforce.ai/), Aug 2026).
+- **Enforcement accuracy:** Traceforce blocks agent actions in real time but publishes no false-positive or false-negative benchmark, creating risk of either missed attacks or blocked legitimate activity ([Traceforce website](https://www.traceforce.ai/), Aug 2026).
+- **Sensitive telemetry:** [Inferred]: Recording prompts, reasoning, tool calls, and outcomes creates a repository of employee and enterprise activity; SOC 2 and ISO 27001 certification provide a disclosed mitigation ([website](https://www.traceforce.ai/); [LinkedIn](https://www.linkedin.com/company/traceforce-security), Aug 2026).
+- **Name collision:** An unrelated German network-troubleshooting company operates as TraceForce at traceforce.de and reports more than 300 projects, creating search-result ambiguity ([TraceForce GmbH](https://www.traceforce.de/), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $16.25B global endpoint-security market in 2025, projected to $34.40B by 2034 at 8.6% CAGR (Fortune Business Insights, Jul 2026) |
+| TAM | $1.65B in 2026, projected to $13.52B by 2032 at 42.0% CAGR ([MarketsandMarkets](https://www.marketsandmarkets.com/blog/ICT/agentic-ai-security-market), Jun 2026) |
 | SAM | No public data found |
-| Traction | 1,500+ devices across five enterprises; one 500+ employee deployment; Fortune 500 PoCs (Y Combinator launch, Jul 2026) |
+| Traction | 1,500+ devices across five enterprises; one 500+ employee deployment; Fortune 500 PoCs ([YC launch](https://www.ycombinator.com/launches/RxE-traceforce-catch-risky-agent-actions-your-security-gateway-will-never-spot), Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Xia Hua (Founder): MIT PhD, former Clumio Director of Engineering, two data-protection patents; Varun Wadhwa (CTO): UC Berkeley EECS, former LinkedIn, Clumio, and Microsoft engineer (Y Combinator and LinkedIn, Jul 2026) |
-| Competitors | Prompt Security ($23M raised, revenue unknown, prompt/response inspection); Harmonic Security ($24.5M raised, revenue unknown, AI data protection); LayerX ($45M raised, approximately $10M projected ARR, browser-extension controls); Reco ($85M raised, revenue unknown, SaaS and AI integration governance) (SecurityWeek, Harmonic Security, LayerX/Akamai, and Reco, 2024–2026) |
-| Moat Signals | 1,000+ curated MCP connectors, TraceGraph endpoint telemetry, and two issued data-protection patents held by Xia Hua (Traceforce and LinkedIn, Jul 2026) |
-| Risk Factors | Platform convergence, endpoint coverage gaps, sensitive telemetry, unreported detection accuracy (Traceforce, SentinelOne, and Akamai, 2025–2026) |
-| Founder Reach | Xia Hua: LinkedIn 3K, Twitter and GitHub not found; Varun Wadhwa: LinkedIn 2K, Twitter and GitHub not found (LinkedIn, Jul 2026) |
-| Distribution Signals | 195 company LinkedIn followers, 30-day free trial, one active YC job, Jamf/JumpCloud/NinjaOne/Iru integrations, PORT1 MSP/MSSP channel (LinkedIn, Y Combinator, and Traceforce, Jul 2026) |
-| Emails | info@traceforce.ai (Traceforce contact page, Jul 2026) |
+| Founders | Xia Hua (CEO): MIT PhD, former Clumio Director of Engineering; Varun Wadhwa (CTO): UC Berkeley EECS, former LinkedIn, Clumio, and Microsoft engineer ([YC](https://www.ycombinator.com/companies/traceforce), Aug 2026) |
+| Competitors | WitnessAI ($90M, revenue unknown, agentless network controls); Zenity ($180M+ disclosed, revenue unknown, SaaS/cloud/endpoint coverage); Noma Security ($132M, revenue unknown, lifecycle and runtime platform); Harmonic Security ($26M+, revenue unknown, language-model-based data protection) ([CB Insights](https://www.cbinsights.com/company/witnessai/financials); [Zenity](https://zenity.io/company-overview/newsroom/company-news/zenity-raises-125-million-to-secure-the-era-of-1-billion-ai-agents); [Noma](https://www.cbinsights.com/company/noma-security/financials); [Harmonic](https://www.harmonic.security/resources/harmonic-security-raises-17-5-million-series-a-to-accelerate-zero-touch-data-protection-to-market), Aug 2026) |
+| Moat Signals | TraceGraph endpoint telemetry, 80-star MCP X-Ray repository, and 600+ MCP Atlas registry ([Traceforce LinkedIn](https://www.linkedin.com/company/traceforce-security); [GitHub](https://github.com/traceforce/mcp-xray), Aug 2026) |
+| Risk Factors | Endpoint deployment dependency, overlapping funded competitors, absence of public enforcement-accuracy benchmarks, sensitive telemetry collection ([Traceforce](https://www.traceforce.ai/); [Zenity](https://zenity.io/use-cases/agent-type/coding-personal-agents); [WitnessAI](https://witness.ai/product/), Aug 2026) |
+| Founder Reach | Xia Hua: LinkedIn 3K followers and organization repository with 80 stars ([LinkedIn](https://www.linkedin.com/in/xia-hua-ph-d-28856a30); [GitHub](https://github.com/traceforce/mcp-xray), Aug 2026); Varun Wadhwa: LinkedIn count not retrievable and no verified X/GitHub reach ([YC](https://www.ycombinator.com/companies/traceforce), Aug 2026) |
+| Distribution Signals | 202 LinkedIn followers, one YC job posting, Jamf/JumpCloud/NinjaOne/Iru integrations, PORT1 MSP/MSSP channel, and TechEx/Austin Cybersecurity Summit sponsorships ([LinkedIn](https://www.linkedin.com/company/traceforce-security); [website](https://www.traceforce.ai/); [contact page](https://www.traceforce.ai/contact-us), Aug 2026) |
+| Emails | info@traceforce.ai ([Traceforce contact page](https://www.traceforce.ai/contact-us), Aug 2026) |

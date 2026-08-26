@@ -1,0 +1,81 @@
+{
+  "slug": "noril1",
+  "name": "Nori",
+  "oneLiner": "Sub-1500$ robot anyone can program",
+  "metadata": {
+    "website": "http://norirobotics.com",
+    "yc_page": "https://www.ycombinator.com/companies/noril1",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "New York City, NY, USA",
+    "tags": "Hard Tech, Hardware, Robotics",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:39:15.948Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 77,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 64,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 77,
+    "EG": 53,
+    "NR": 62,
+    "PG": 63,
+    "PT": 46,
+    "SL": 54,
+    "VK": 64
+  },
+  "consolidatedAvg": 59.86,
+  "consolidatedRank": 27,
+  "traction": {
+    "tractionRank": 41,
+    "tractionScore": 62,
+    "tractionReason": "First production batch filled at $1,288-$1,322 preorder prices"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/noril1.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/noril1.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/noril1.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/noril1.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/noril1.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/noril1.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/noril1.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/noril1.md"
+    }
+  }
+}

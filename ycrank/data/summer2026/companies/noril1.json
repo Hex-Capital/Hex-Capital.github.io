@@ -1,70 +1,56 @@
 {
   "slug": "noril1",
-  "name": "Nori",
-  "oneLiner": "Sub-1500$ robot anyone can program",
-  "metadata": {
-    "website": "http://norirobotics.com",
-    "yc_page": "https://www.ycombinator.com/companies/noril1",
-    "batch": "Summer 2026",
-    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
-    "team_size": "4",
-    "location": "New York City, NY, USA",
-    "tags": "Hard Tech, Hardware, Robotics",
-    "yc_partner": "Gustaf Alstromer",
-    "emails": "No public data found"
-  },
-  "tags": [
-    "Hard Tech",
-    "Hardware",
-    "Robotics"
-  ],
+  "name": "noril1",
+  "oneLiner": "",
+  "metadata": {},
+  "tags": [],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:39:15.948Z",
+  "memoGeneratedAt": "2026-08-11T05:05:19.289Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 77,
-      "tier": "Invest"
+      "score": 26,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 26,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 24,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 29,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 28,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 28,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 64,
-      "tier": "Neutral"
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 77,
-    "EG": 53,
-    "NR": 62,
-    "PG": 63,
-    "PT": 46,
-    "SL": 54,
-    "VK": 64
+    "CB": 26,
+    "EG": 26,
+    "NR": 24,
+    "PG": 29,
+    "PT": 28,
+    "SL": 28,
+    "VK": 25
   },
-  "consolidatedAvg": 59.86,
-  "consolidatedRank": 27,
+  "consolidatedAvg": 26.57,
+  "consolidatedRank": 233,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 62,
-    "tractionReason": "First production batch filled at $1,288-$1,322 preorder prices"
+    "tractionRank": 232,
+    "tractionScore": 3,
+    "tractionReason": "No traction sections found"
   },
   "paths": {
     "memo": "summer2026/memos/noril1.md",

@@ -1,0 +1,81 @@
+{
+  "slug": "wondertx",
+  "name": "WonderTx",
+  "oneLiner": "Extrapolative AI to unlock First-in-Class drugs",
+  "metadata": {
+    "website": "https://wondertx.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/wondertx",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare -> Therapeutics",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "AI-powered Drug Discovery, Generative AI, Biotech",
+    "yc_partner": "Pete Koomen",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Generative AI",
+    "Biotech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:22:41.253Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 62,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 69,
+    "EG": 68,
+    "NR": 69,
+    "PG": 52,
+    "PT": 61,
+    "SL": 38,
+    "VK": 62
+  },
+  "consolidatedAvg": 59.86,
+  "consolidatedRank": 8,
+  "traction": {
+    "tractionRank": 159,
+    "tractionScore": 37,
+    "tractionReason": "Four experimentally validated targets; partner programs"
+  },
+  "paths": {
+    "memo": "summer2026/memos/wondertx.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/wondertx.md",
+      "elad-gil": "summer2026/evals/elad-gil/wondertx.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/wondertx.md",
+      "paul-graham": "summer2026/evals/paul-graham/wondertx.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/wondertx.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/wondertx.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/wondertx.md"
+    }
+  }
+}

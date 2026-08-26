@@ -1,7 +1,7 @@
 {
   "slug": "levocred-ai",
   "name": "Levocred AI",
-  "oneLiner": "AI for every workflow inside a credit team",
+  "oneLiner": "AI for credit funds, fintechs and banks",
   "metadata": {
     "website": "https://levocred.com/",
     "yc_page": "https://www.ycombinator.com/companies/levocred-ai",
@@ -18,52 +18,52 @@
     "Investments"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:32:27.232Z",
+  "memoGeneratedAt": "2026-08-11T04:48:14.253Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 49,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 55,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 54,
+      "score": 55,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 82,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 53,
+      "score": 58,
       "tier": "Neutral"
     },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 51,
+      "score": 45,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 30,
+      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 68,
-    "EG": 69,
-    "NR": 54,
-    "PG": 82,
-    "PT": 53,
-    "SL": 51,
-    "VK": 30
+    "CB": 49,
+    "EG": 55,
+    "NR": 55,
+    "PG": 58,
+    "PT": 39,
+    "SL": 45,
+    "VK": 25
   },
-  "consolidatedAvg": 58.14,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 33,
+    "tractionRank": 45,
     "tractionScore": 66,
-    "tractionReason": "Paying production usage; $500M monitored across 10+ facilities"
+    "tractionReason": "Paying customers; $1B receivables on platform"
   },
   "paths": {
     "memo": "summer2026/memos/levocred-ai.md",

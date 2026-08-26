@@ -1,0 +1,82 @@
+{
+  "slug": "trynearby",
+  "name": "TryNearby",
+  "oneLiner": "Local creators for local businesses",
+  "metadata": {
+    "website": "https://trynearby.com",
+    "yc_page": "https://www.ycombinator.com/companies/trynearby",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Marketing",
+    "team_size": "5",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Restaurant Tech, Marketing, Creator Economy, SMB",
+    "yc_partner": "Brad Flora",
+    "emails": "hello@trynearby.com ([YC](https://www.ycombinator.com/companies/trynearby), Aug 2026)"
+  },
+  "tags": [
+    "Restaurant Tech",
+    "Marketing",
+    "Creator Economy",
+    "SMB"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:12:34.131Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 21,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 68,
+    "EG": 70,
+    "NR": 71,
+    "PG": 58,
+    "PT": 62,
+    "SL": 49,
+    "VK": 21
+  },
+  "consolidatedAvg": 57,
+  "consolidatedRank": 16,
+  "traction": {
+    "tractionRank": 8,
+    "tractionScore": 85,
+    "tractionReason": "120 paying restaurants; approximately $575K implied ARR"
+  },
+  "paths": {
+    "memo": "summer2026/memos/trynearby.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/trynearby.md",
+      "elad-gil": "summer2026/evals/elad-gil/trynearby.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/trynearby.md",
+      "paul-graham": "summer2026/evals/paul-graham/trynearby.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/trynearby.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/trynearby.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/trynearby.md"
+    }
+  }
+}

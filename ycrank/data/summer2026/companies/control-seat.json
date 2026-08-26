@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.controlseat.com",
     "yc_page": "https://www.ycombinator.com/companies/control-seat",
-    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026)",
+    "batch": "Summer 2026",
     "industry": "Industrials / Industrials",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Workflow Automation, Monitoring, Industrial",
-    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/control-seat), Jul 2026)",
-    "emails": "founders@controlseat.com ([Control Seat contact page](https://www.controlseat.com/contact), Jul 2026)"
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@controlseat.com"
   },
   "tags": [
     "Workflow Automation",
@@ -19,52 +19,52 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:12:32.078Z",
+  "memoGeneratedAt": "2026-08-11T05:56:00.132Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
       "score": 53,
       "tier": "Neutral"
     },
-    "sam-lessin": {
-      "score": 58,
+    "elad-gil": {
+      "score": 50,
       "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 49,
+    "naval-ravikant": {
+      "score": 45,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 73,
-    "EG": 57,
-    "NR": 47,
-    "PG": 71,
-    "PT": 53,
-    "SL": 58,
-    "VK": 49
+    "CB": 53,
+    "EG": 50,
+    "NR": 45,
+    "PG": 67,
+    "PT": 34,
+    "SL": 40,
+    "VK": 33
   },
-  "consolidatedAvg": 58.29,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 46,
+  "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 53,
-    "tractionReason": "Named industrial deployment at Battex Chile"
+    "tractionRank": 123,
+    "tractionScore": 47,
+    "tractionReason": "Named Battex Chile deployment"
   },
   "paths": {
     "memo": "summer2026/memos/control-seat.md",

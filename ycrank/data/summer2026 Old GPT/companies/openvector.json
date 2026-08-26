@@ -1,0 +1,82 @@
+{
+  "slug": "openvector",
+  "name": "OpenVector",
+  "oneLiner": "AI that turns any camera into an active operator with real-time vision",
+  "metadata": {
+    "website": "https://openvector.com",
+    "yc_page": "https://www.ycombinator.com/companies/openvector",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Computer Vision, Infrastructure, Industrial",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Robotics",
+    "Computer Vision",
+    "Infrastructure",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:10:49.652Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 61,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 55,
+    "NR": 58,
+    "PG": 64,
+    "PT": 49,
+    "SL": 51,
+    "VK": 61
+  },
+  "consolidatedAvg": 57.71,
+  "consolidatedRank": 45,
+  "traction": {
+    "tractionRank": 118,
+    "tractionScore": 35,
+    "tractionReason": "Design partners and reservations; no units shipped"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/openvector.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/openvector.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/openvector.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/openvector.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/openvector.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/openvector.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/openvector.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/openvector.md"
+    }
+  }
+}

@@ -5,64 +5,64 @@
   "metadata": {
     "website": "https://www.verdantapp.com/",
     "yc_page": "https://www.ycombinator.com/companies/verdant",
-    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026)",
+    "batch": "Summer 2026",
     "industry": "Government / Government",
     "team_size": "2",
     "location": "Washington, DC, USA",
     "tags": "GovTech",
-    "yc_partner": "Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/verdant), Jul 2026)",
-    "emails": "founders@verdantapp.com, privacy@verdantapp.com, security@verdantapp.com ([Y Combinator](https://www.ycombinator.com/companies/verdant); [Verdant privacy policy](https://www.verdantapp.com/privacy); [Verdant terms](https://www.verdantapp.com/terms), Jul 2026)"
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@verdantapp.com, privacy@verdantapp.com, security@verdantapp.com"
   },
   "tags": [
     "GovTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:50:56.201Z",
+  "memoGeneratedAt": "2026-08-11T05:30:14.294Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
+      "score": 35,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
+      "score": 36,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 39,
+      "score": 33,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
+      "score": 35,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 34,
+      "score": 23,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 34,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 42,
+      "score": 23,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 51,
-    "NR": 39,
-    "PG": 62,
-    "PT": 34,
-    "SL": 34,
-    "VK": 42
+    "CB": 35,
+    "EG": 36,
+    "NR": 33,
+    "PG": 35,
+    "PT": 23,
+    "SL": 29,
+    "VK": 23
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 147,
+  "consolidatedAvg": 30.57,
+  "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 26,
-    "tractionReason": "200 interviews; product only recently launched"
+    "tractionRank": 198,
+    "tractionScore": 25,
+    "tractionReason": "200 interviews; no deployments disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",

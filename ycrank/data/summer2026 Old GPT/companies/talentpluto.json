@@ -1,0 +1,81 @@
+{
+  "slug": "talentpluto",
+  "name": "Pluto",
+  "oneLiner": "AI voice agent that helps professionals get discovered",
+  "metadata": {
+    "website": "https://talentpluto.com",
+    "yc_page": "https://www.ycombinator.com/companies/talentpluto",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer -> Job and Career Services",
+    "team_size": "5",
+    "location": "New York City, NY, USA",
+    "tags": "AI, Careers, Conversational AI",
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "AI",
+    "Careers",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:39:42.130Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 76,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 74,
+    "NR": 76,
+    "PG": 67,
+    "PT": 51,
+    "SL": 53,
+    "VK": 37
+  },
+  "consolidatedAvg": 59.71,
+  "consolidatedRank": 28,
+  "traction": {
+    "tractionRank": 13,
+    "tractionScore": 79,
+    "tractionReason": "100+ companies, 18K professionals, 50% monthly revenue growth"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/talentpluto.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/talentpluto.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/talentpluto.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/talentpluto.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/talentpluto.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/talentpluto.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/talentpluto.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/talentpluto.md"
+    }
+  }
+}

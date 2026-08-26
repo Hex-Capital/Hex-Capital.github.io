@@ -20,52 +20,52 @@
     "Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:17:49.022Z",
+  "memoGeneratedAt": "2026-08-11T06:04:16.366Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
       "score": 45,
       "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 63,
+    "naval-ravikant": {
+      "score": 53,
       "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 56,
-    "NR": 72,
-    "PG": 69,
-    "PT": 57,
-    "SL": 45,
-    "VK": 63
+    "CB": 60,
+    "EG": 45,
+    "NR": 53,
+    "PG": 54,
+    "PT": 37,
+    "SL": 32,
+    "VK": 36
   },
-  "consolidatedAvg": 61.14,
-  "consolidatedRank": 17,
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 39,
-    "tractionReason": "Preview API; 1,000 internal robot repetitions"
+    "tractionRank": 197,
+    "tractionScore": 26,
+    "tractionReason": "Internal robot repetitions; preview API launched"
   },
   "paths": {
     "memo": "summer2026/memos/waddle-labs.md",

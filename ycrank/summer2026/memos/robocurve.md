@@ -16,56 +16,55 @@
 
 ## The Idea
 
-- **Problem:** Robotics labs primarily evaluate their own systems, leaving robot developers, customers, researchers, and policymakers without continuously operated, standardized, independent measurements of real-world task performance ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-- **Approach:** Robocurve operates physical robot evaluations and publishes MIT-licensed tooling and reproducible benchmarks through Inspect Robots, World Evals, KitchenBench, and DataCenterBench ([Robocurve](https://robocurve.org/), Jul 2026).
-- **Differentiation:** Unlike laboratory-run demonstrations and simulation-only tests, Robocurve emphasizes independent physical evaluations with trace logs, reproducible setups, and optional digital-twin simulation ([Robocurve](https://robocurve.org/), Jul 2026).
-- **Business Model:** [Inferred]: Inspect Robots and the benchmark implementations are free and MIT-licensed, while the website’s evaluation inquiry path could support paid evaluation engagements, but no pricing is published.
+- **Problem:** Frontier robotics labs rely on internal evaluations, simulation, and demonstration videos, leaving model developers and prospective users without standardized independent measurements of real-world capability ([YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)).
+- **Approach:** Robocurve runs interchangeable AI policies against real or simulated robot embodiments using Inspect Robots, producing grader scores, configuration records, transcripts, trace logs, and visualizations ([Inspect Robots, Aug 2026](https://github.com/robocurve/inspect-robots)).
+- **Differentiation:** Positronic’s PhAIL initially benchmarks models on a Franka bin-picking rig and Instance automates rollout judging and resets, while Robocurve provides a cross-embodiment framework plus multiple job-domain benchmarks ([Positronic, Mar 2026](https://positronic.ro/press/phail-launch); [Instance, Aug 2026](https://www.ycombinator.com/companies/instance); [Robocurve](https://robocurve.org/)).
+- **Business Model:** [Inferred]: Free MIT-licensed tools are intended to attract robotics teams that can be converted into paid evaluation engagements or benchmark-operation partnerships, based on the company’s invitation to submit models or robots for evaluation ([YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Robocurve distributes its tooling through GitHub and documentation, invites labs to request evaluations, and solicits open-source benchmark contributions ([Robocurve](https://robocurve.org/), Jul 2026).
+- **GTM / Distribution:** [Inferred]: Distribution begins through open-source adoption, PyPI packages, community-contributed benchmarks, and direct outreach to AI and robotics laboratories, followed by independently operated evaluations ([Robocurve](https://robocurve.org/); [PyPI, Jul 2026](https://pypi.org/project/inspect-robots/0.12.0/)).
 
 ## Defensibility
 
-- **Moat today:** Inspect Robots integrates real and simulated testing, ROS, Isaac Lab, Robolab, Cap-X, XPolicyLab’s 40-plus VLAs, and more than 260 language models, while its public repository had 96 stars and 13 forks ([YC launch](https://www.ycombinator.com/companies/robocurve), Jul 2026; [GitHub](https://github.com/robocurve/inspect-robots), Jul 2026).
-- **Future moat:** [Inferred]: Repeated operation of standardized physical tasks could create longitudinal performance data, benchmark recognition, and laboratory relationships, but the public evidence does not yet establish adoption or switching costs.
-- **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Robotics laboratories, model vendors, standards organizations, and AI-evaluation nonprofits could publish overlapping benchmark software, while the MIT license permits third parties to copy and modify Robocurve’s public framework ([GitHub](https://github.com/robocurve/inspect-robots), Jul 2026).
+- **Moat today:** Inspect Robots has 134 GitHub stars, 19 forks, and approximately 400 commits, while Robocurve maintains 13 public repositories covering frameworks, benchmarks, and hardware adapters ([GitHub, Aug 2026](https://github.com/robocurve)).
+- **Future moat:** [Inferred]: Repeated evaluations could create a cross-model, cross-robot dataset and reference history that becomes harder to reproduce, but only one pilot is publicly disclosed today ([YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)).
+- **Market structure:** No structural barrier identified at this stage because Positronic and Instance independently launched overlapping real-hardware benchmarking and automated robot-policy evaluation products in 2026 ([Positronic, Mar 2026](https://positronic.ro/press/phail-launch); [Instance, Aug 2026](https://www.ycombinator.com/companies/instance)).
+- **Commoditization risk:** Robotics laboratories, simulation vendors, and competitors such as Positronic, Instance, and ReSim can build evaluation pipelines, while Robocurve’s MIT license permits reuse of its software ([GitHub](https://github.com/robocurve/inspect-robots); [ReSim](https://docs.resim.ai/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Inspect Robots v1 shipped, and Robocurve completed one pilot evaluating a frontier model on a physical robot ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-  - Inspect Robots supported 40 VLAs and more than 260 language models at launch ([YC launch](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-  - Inspect Robots had 96 GitHub stars and 13 forks ([GitHub](https://github.com/robocurve/inspect-robots), Jul 2026).
-  - The company had zero YC job postings ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
+  - Inspect Robots reached 134 GitHub stars and 19 forks ([GitHub, Aug 2026](https://github.com/robocurve)).
+  - Robocurve completed its first pilot scoring a frontier model on a real robot ([YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)).
+  - The Inspect Robots package reached version 0.21.1 after public releases began in July 2026 ([PyPI, Jul 2026](https://pypi.org/project/inspect-robots/0.9.2/)).
+  - Robocurve’s GitHub organization has 33 followers ([GitHub, Aug 2026](https://github.com/robocurve)).
+  - Robocurve lists zero active YC job postings ([YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)).
 - **Competitors (minimum 3, up to 5):**
-  - METR (funding and revenue unknown): independently evaluates frontier AI systems but focuses on software-agent capabilities and risks rather than physical robot jobs ([METR](https://metr.org/research/), 2026).
-  - Epoch AI (donor funding disclosed without a total; revenue unknown): maintains AI benchmarking and capabilities research while operating as a nonprofit rather than a real-world robotics evaluator ([Epoch AI](https://epoch.ai/about/transparency), 2026).
-  - Artificial Analysis (funding and revenue unknown): provides comparative AI-model intelligence rather than operating reproducible physical robot environments ([YC launch](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-  - The direct competitive set is small because Robocurve identifies METR, Epoch AI, and Artificial Analysis as reference models from language-model evaluation while stating that no independent group continuously benchmarks physical robots ([YC launch](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-- **Why now:** Robocurve says frontier laboratories are targeting general-purpose robotics by 2028, while its launch framework already connects to 40-plus VLAs and more than 260 language models, increasing the number of systems that can be evaluated through a common interface ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
+  - Positronic Robotics (funding not publicly disclosed, revenue unknown): PhAIL evaluates VLA models on physical commercial tasks using throughput, reliability, and failure metrics ([Positronic, Mar 2026](https://positronic.ro/press/phail-launch)).
+  - Instance (funding not publicly disclosed, revenue unknown): automates success detection and ultimately scene resets, rather than publishing a multi-domain independent benchmark catalog ([YC, Aug 2026](https://www.ycombinator.com/companies/instance)).
+  - ReSim ($10.3M disclosed seed, revenue unknown): orchestrates evaluation across simulation, recorded data, and physical hardware, versus Robocurve’s real-world-first public benchmarks ([Dealroom, Sep 2024](https://app.dealroom.co/companies/resim); [ReSim](https://www.resim.ai/)).
+- **Why now:** [Inferred]: The 2026 launch of real-hardware leaderboards such as PhAIL, alongside robotics laboratories’ stated general-purpose-robot targets for 2028, has compressed the timeline for independent physical-AI measurement ([Positronic, Mar 2026](https://positronic.ro/press/phail-launch); [YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)).
 
 ## Founders & Team
 
-- **Jay Chooi (Founder and CEO):**
-  - Background: Harvard BA in Computer Science and Mathematics and concurrent MA in Statistics; former MATS research fellow, UK AI Security Institute researcher, Inspect Evals contributor, and author of work published at ACM EC, ICML, ACL, and EMNLP ([Jay Chooi](https://chojeq.com/), Jul 2026; [Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-  - Twitter/X: @chooi_jeq; count not retrievable ([X](https://x.com/chooi_jeq), Jul 2026).
-  - LinkedIn: Public profile at `linkedin.com/in/jeqcho`; headline not retrievable ([Jay Chooi](https://chojeq.com/), Jul 2026).
-  - GitHub: @jeqcho; `myharvard_qguide_scraper` had 9 stars ([GitHub](https://github.com/jeqcho), Jul 2026).
-- **Aris Zhu (Founder and CTO):**
-  - Background: Studied computer science and physics at Harvard; worked at Amazon Robotics, Amazon AGI Labs, and Yondu Robotics, built robot navigation and fleet-management systems, and co-authored an IEEE Robotics and Automation Letters paper ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
+- **Jay Chooi (CEO):**
+  - Background: Harvard BA in Computer Science and Mathematics and concurrent MA in Statistics; former MATS research fellow and UK AI Security Institute contributor to Inspect Evals, with publications at ACM EC, ICML, ACL, and EMNLP ([Jay Chooi](https://chojeq.com/); [YC](https://www.ycombinator.com/companies/robocurve)).
+  - Twitter/X: @chooi_jeq; count not retrievable ([Hugging Face](https://huggingface.co/jeqcho)).
+  - LinkedIn: Profile located; headline not retrievable ([Jay Chooi](https://chojeq.com/)).
+  - GitHub: @jeqcho; `myharvard_qguide_scraper` has 9 stars ([GitHub, Aug 2026](https://github.com/jeqcho)).
+- **Aris Zhu (CTO):**
+  - Background: Studied computer science and physics at Harvard; worked at Amazon Robotics, Amazon AGI Labs, and Yondu Robotics and co-authored an IEEE Robotics and Automation Letters paper ([YC](https://www.ycombinator.com/companies/robocurve)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Robocurve,” with 410 followers ([LinkedIn](https://www.linkedin.com/in/aris-zhu), Jul 2026).
+  - LinkedIn: “Robocurve,” with 410 followers and 405 connections ([LinkedIn, Jul 2026](https://www.linkedin.com/in/aris-zhu)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders studied at Harvard, where Zhu worked in the Computational Robotics Lab and Chooi studied computer science, mathematics, and statistics ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-- **Founder-market fit:** Chooi’s documented AI-evaluation work and Zhu’s robotics deployment, navigation, and agent research cover the evaluation-software and physical-robot components required by the product ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
+- **Co-founder relationship:** Both founders attended Harvard, where Zhu worked in the Computational Robotics Lab and Chooi studied computer science, mathematics, and statistics ([YC](https://www.ycombinator.com/companies/robocurve)).
+- **Founder-market fit:** [Inferred]: Chooi’s AI-evaluation work and Zhu’s production robotics, robot-navigation, and embodied-AI research cover the evaluation and physical-system components required by the product ([YC](https://www.ycombinator.com/companies/robocurve)).
 
 ## Key Risks
 
-- **Evaluator independence:** Robocurve requests evaluation, funding, and collaboration inquiries while presenting itself as an independent evaluator, creating a potential conflict if evaluated vendors become customers; no published conflict-management policy was found ([Robocurve](https://robocurve.org/), Jul 2026).
-- **Benchmark representativeness:** The published catalog ranges from kitchen tasks to data-center construction, so benchmark validity depends on specifying task distributions and maintaining reproducible physical setups across different robot form factors ([Robocurve](https://robocurve.org/), Jul 2026).
-- **Vendor-run substitution:** Frontier laboratories currently conduct evaluations internally and possess their own hardware, models, and telemetry, enabling them to publish competing results without relying on an external evaluator ([Y Combinator](https://www.ycombinator.com/companies/robocurve), Jul 2026).
-- **Open-source replication:** Inspect Robots is MIT-licensed, allowing commercial and nonprofit organizations to reuse or fork the framework; the repository had 13 forks at the research date ([GitHub](https://github.com/robocurve/inspect-robots), Jul 2026).
-- **Evidence availability:** Robocurve reported one completed physical-robot pilot but said full comparative results would be published later, limiting public verification of the evaluation findings at the research date ([YC launch](https://www.ycombinator.com/companies/robocurve), Jul 2026).
+- **Competitive convergence:** Positronic already operates a real-hardware VLA leaderboard and Instance is automating robot-policy evaluation; Robocurve’s mitigation is its open cross-embodiment framework and multi-domain benchmark catalog ([Positronic](https://positronic.ro/press/phail-launch); [Instance](https://www.ycombinator.com/companies/instance); [Robocurve](https://robocurve.org/)).
+- **Benchmark validity:** Only one pilot is publicly disclosed, its full results were still pending on the YC launch page, and Inspect Robots describes its API as being in early development ([YC](https://www.ycombinator.com/companies/robocurve); [GitHub](https://github.com/robocurve/inspect-robots)).
+- **Physical execution burden:** Reproducible benchmarks require maintained hardware, controlled setups, domain experts, and repeated resets; simulation support and multiple hardware adapters reduce but do not remove this requirement ([YC](https://www.ycombinator.com/companies/robocurve); [Inspect Robots](https://inspectrobots.org/)).
+- **Open-source value capture:** The MIT license allows competitors and laboratories to reuse the framework without licensing fees, leaving operated evaluations and benchmark stewardship as the differentiated service layer ([GitHub](https://github.com/robocurve/inspect-robots); [Robocurve](https://robocurve.org/)).
 
 ## Key Facts
 
@@ -73,12 +72,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | Inspect Robots v1 shipped and one physical-robot pilot completed (Y Combinator, Jul 2026); 96 GitHub stars and 13 forks (GitHub, Jul 2026) |
+| Traction | First real-robot frontier-model pilot completed ([YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)); Inspect Robots has 134 stars and 19 forks ([GitHub, Aug 2026](https://github.com/robocurve)) |
 | Revenue Signal | No public data found |
-| Founders | Jay Chooi (CEO): Harvard CS/math and statistics graduate, former MATS and UK AI Security Institute researcher (Y Combinator, Jul 2026); Aris Zhu (CTO): Harvard CS/physics, Amazon Robotics, Amazon AGI Labs, and Yondu Robotics experience (Y Combinator, Jul 2026) |
-| Competitors | METR (funding and revenue unknown, software-agent evaluation rather than physical robotics) (METR, 2026); Epoch AI (total funding and revenue unknown, nonprofit AI research and benchmarking) (Epoch AI, 2026); Artificial Analysis (funding and revenue unknown, comparative AI-model analysis rather than physical evaluation) (Y Combinator launch, Jul 2026) |
-| Moat Signals | Integration with 40-plus VLAs and more than 260 language models; real-world-first framework with simulation support; 96 GitHub stars (Y Combinator and GitHub, Jul 2026) |
-| Risk Factors | Open-source replication (GitHub, Jul 2026), vendor-run substitution (Y Combinator, Jul 2026), unpublished full pilot results (Y Combinator launch, Jul 2026) |
-| Founder Reach | Jay Chooi: X count not retrievable, GitHub top repository 9 stars (X and GitHub, Jul 2026); Aris Zhu: LinkedIn 410 followers, no public GitHub repos found (LinkedIn, Jul 2026) |
-| Distribution Signals | Inspect Robots GitHub repository: 96 stars and 13 forks (GitHub, Jul 2026); zero YC job postings (Y Combinator, Jul 2026) |
+| Founders | Jay Chooi (CEO): Harvard CS/math and statistics, MATS and UK AISI evals experience; Aris Zhu (CTO): Harvard CS/physics, Amazon Robotics, Amazon AGI Labs, and Yondu Robotics ([YC](https://www.ycombinator.com/companies/robocurve)) |
+| Competitors | Positronic Robotics (funding and revenue unknown, real-hardware leaderboard) ([Positronic](https://positronic.ro/press/phail-launch)); Instance (funding and revenue unknown, automated rollout verification) ([YC](https://www.ycombinator.com/companies/instance)); ReSim ($10.3M disclosed seed, revenue unknown, simulation and test orchestration) ([Dealroom](https://app.dealroom.co/companies/resim)) |
+| Moat Signals | Inspect Robots has 134 stars, 19 forks, and approximately 400 commits; Robocurve maintains 13 public repositories ([GitHub, Aug 2026](https://github.com/robocurve)) |
+| Risk Factors | Competitive overlap with Positronic and Instance ([company sources, 2026](https://positronic.ro/press/phail-launch)); hardware-intensive reproducibility ([YC, Aug 2026](https://www.ycombinator.com/companies/robocurve)); MIT-license value capture ([GitHub, Aug 2026](https://github.com/robocurve/inspect-robots)) |
+| Founder Reach | Jay Chooi: X count unavailable, GitHub top repo 9 stars ([GitHub, Aug 2026](https://github.com/jeqcho)); Aris Zhu: LinkedIn 410 followers, GitHub repos not found ([LinkedIn, Jul 2026](https://www.linkedin.com/in/aris-zhu)) |
+| Distribution Signals | Inspect Robots 134 GitHub stars and 19 forks; Robocurve GitHub organization 33 followers ([GitHub, Aug 2026](https://github.com/robocurve)); public PyPI releases began in July 2026 ([PyPI](https://pypi.org/project/inspect-robots/0.9.2/)) |
 | Emails | No public data found |

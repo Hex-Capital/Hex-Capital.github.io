@@ -11,72 +11,74 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, B2B, Home Services, Operations |
-| YC Partner | Jared Friedman |
-| Emails | No public data found |
+| YC Partner | Jared Friedman ([Y Combinator](https://www.ycombinator.com/companies/kebra), Aug 2026) |
+| Emails | founders@kebra.com, support@kebra.com ([Launch YC](https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native), Jul 2026; [Kebra privacy policy](https://www.kebra.com/privacy), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** Field technicians’ incomplete documentation leaves field-service back offices to reconstruct job details across service-management, accounting, warranty, parts, and messaging systems ([Kebra website](https://www.kebra.com/), Jul 2026).
-- **Approach:** Kebra records field work, structures notes and equipment details, requests missing information from technicians by SMS, and routes outputs into systems including ServiceTitan, QuickBooks, warranty portals, parts suppliers, Gmail, and Messages ([Kebra website](https://www.kebra.com/), Jul 2026).
-- **Differentiation:** Kebra converts job recordings into post-job administrative actions, while Rilla and Siro center on in-person sales analysis and coaching and ServiceTitan supplies an end-to-end field-service platform with overlapping AI automation ([Kebra website](https://www.kebra.com/), [Rilla](https://sacra.com/c/rilla/), [Siro](https://www.siro.ai/insights/series-b), [ServiceTitan](https://www.servicetitan.com/press/servicetitan-introducing-the-next-evolution-of-ai-at-pantheon-2025-keynote), 2025–2026).
-- **Business Model:** [Inferred]: A demo-led B2B subscription model is the likely path because the website offers a free 30-minute walkthrough without publishing pricing ([Kebra website](https://www.kebra.com/), Jul 2026).
-- **TAM/SAM:** The global field-service-management market was $6.1B in 2025 and is forecast to reach $13.8B by 2033 at an 11.0% CAGR, while no public SAM estimate was found for Kebra’s home-services documentation segment ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/field-service-management-market), 2026).
-- **GTM / Distribution:** [Inferred]: The public demo CTA and displayed ServiceTitan and QuickBooks workflows indicate direct sales to field-service operators already using established back-office software ([Kebra website](https://www.kebra.com/), Jul 2026).
+- **Problem:** HVAC, plumbing, electrical, and other field-service offices must reconstruct jobs from FSM software, CRM records, calls, texts, and incomplete technician reports before filing claims, ordering parts, updating customers, or invoicing ([Launch YC](https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native), Jul 2026).
+- **Approach:** Kebra captures recordings, photos, equipment identifiers, diagnoses, work and parts data; requests missing information by call or text; and uses voice and computer-use agents to create notes, file claims, order parts, prepare invoices, and initiate follow-ups in connected systems ([Launch YC](https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native), Jul 2026).
+- **Differentiation:** ServiceTitan provides a full trades operating platform, Jobber manages the complete job lifecycle, and Housecall Pro combines FSM software with call, booking, reporting, and marketing agents, whereas Kebra positions itself as an overlay that captures field evidence and completes post-job work inside the customer’s existing stack ([Kebra](https://www.kebra.com/), [Jobber](https://www.getjobber.com/features/ai/), [Housecall Pro](https://www.housecallpro.com/features/ai-team/), Aug 2026).
+- **Business Model:** [Inferred]: The absence of public pricing and the required 30-minute walkthrough indicate founder-led, quote-based B2B software sales rather than self-service checkout ([Kebra](https://www.kebra.com/), Aug 2026).
+- **TAM/SAM:** The global field-service-management market was estimated at $5.10 billion in 2025 and projected to reach $9.17 billion by 2030 at a 12.5% CAGR, while no public SAM was found for Kebra’s U.S. home-services subset ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/field-service-management-market-209977425.html), 2025).
+- **GTM / Distribution:** [Inferred]: Kebra is pursuing founder-led demonstrations and operator referrals, supported by deployments in Florida, Pennsylvania, and California and a launch request for introductions to field-service owners ([Launch YC](https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native), Jul 2026).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: The proposed “Company Brain” could accumulate company-specific job history and technician knowledge that raises switching costs, but no public usage or retention evidence establishes this yet ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026).
+- **Moat today:** Kebra’s Company Brain is a customer-specific knowledge layer that can organize operational records, communications, images, audio, transcripts, and structured business data, but no retention, exclusivity, or dataset-scale metrics are public ([Kebra privacy policy](https://www.kebra.com/privacy), Aug 2026).
+- **Future moat:** [Inferred]: Longitudinal equipment histories, repair decisions, technician behavior, and workflow outcomes could create proprietary customer context and integration switching costs, but the company has not disclosed data volume or retention evidence.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** ServiceTitan announced AI tools intended to automate contractors’ back offices, while generally available real-time audio APIs reduce the technical barrier for other software vendors to build recording-driven workflows ([ServiceTitan](https://www.servicetitan.com/press/servicetitan-introducing-the-next-evolution-of-ai-at-pantheon-2025-keynote), Sep 2025; [OpenAI](https://openai.com/index/introducing-gpt-realtime/), Aug 2025).
+- **Commoditization risk:** ServiceTitan, Jobber, and Housecall Pro already offer AI grounded in field-service data for notes, quotes, invoices, calls, bookings, reporting, or business queries, giving existing FSM vendors a path to reproduce individual Kebra workflows ([Jobber](https://www.getjobber.com/features/ai/), [Housecall Pro](https://help.housecallpro.com/en/articles/9311875-ai-team-overview), [Kiplinger](https://www.kiplinger.com/business/blue-collar-workers-add-ai-to-their-toolboxes), 2025–2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Summer 2026 Y Combinator company with two founders ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026).
-  - Zero active YC job postings ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026).
-  - Free 30-minute product walkthrough available without a credit card ([Kebra website](https://www.kebra.com/), Jul 2026).
+  - Kebra says it is live with field-service companies in Florida, Pennsylvania, and California ([Launch YC](https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native), Jul 2026).
+  - Quality Air in the Florida Panhandle is a named customer whose technicians and back office are using Kebra for job capture and post-job automation ([Kebra LinkedIn](https://www.linkedin.com/company/kebra-com), Aug 2026).
+  - The company had 395 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/kebra-com), Aug 2026).
+  - The Launch YC post had 9 votes ([Launch YC](https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native), Aug 2026).
+  - The YC company page listed 0 active jobs ([Y Combinator](https://www.ycombinator.com/companies/kebra), Aug 2026).
+  - Kebra identifies Y Combinator and SV Angel as backers without disclosing investment amounts ([LinkedIn](https://www.linkedin.com/company/kebra-com), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Rilla ($78.9M reported raised, $70M estimated ARR): records and analyzes in-person sales conversations for coaching rather than executing post-job warranty, parts, and billing workflows ([Sacra](https://sacra.com/c/rilla/), Apr 2026).
-  - Siro ($75M raised, revenue unknown): captures face-to-face sales conversations and produces coaching insights rather than automating job-close administration ([Siro](https://www.siro.ai/about), Jul 2026; [Siro Series B](https://www.siro.ai/insights/series-b), May 2025).
-  - XOi (at least $230M invested, revenue unknown): organizes equipment and asset-lifecycle intelligence for technicians and service organizations rather than positioning around back-office elimination ([XOi](https://xoi.io/company/news-and-press/xoi-enters-next-phase-of-growth-with-new-cro-expanded-investments), May 2026).
-  - ServiceTitan (over $1.4B in pre-IPO funding, $961.0M FY2026 revenue): provides an end-to-end trades operating platform and has introduced its own AI back-office and technician tools ([Axios](https://www.axios.com/newsletters/axios-pro-rata-73926895-902f-4a21-965d-d4bb2b0ffb09), Dec 2024; [ServiceTitan Form 10-K](https://investors.servicetitan.com/static-files/84e016f3-9a75-4199-ad42-b3babe1bb3dd), Mar 2026).
-- **Why now:** [Inferred]: Production voice-agent infrastructure crossed a deployment threshold when OpenAI made its Realtime API generally available with production-oriented audio and tool-use capabilities in August 2025 ([OpenAI](https://openai.com/index/introducing-gpt-realtime/), Aug 2025).
+  - ServiceTitan (over $1.4 billion in pre-IPO funding, $614 million fiscal-2024 revenue): full FSM suite with dispatch, inventory, payments, and FieldAssist versus Kebra’s field-capture and post-job overlay ([Axios](https://www.axios.com/2024/12/02/servicetitan-ipo-ratchet), Dec 2024).
+  - Jobber ($100 million Series D disclosed, revenue unknown): end-to-end home-service scheduling, quoting, invoicing, payments, follow-up, and AI note capture versus Kebra’s claims, parts, and Company Brain emphasis ([Jobber funding announcement](https://www.prnewswire.com/news-releases/jobber-raises-100-million-growth-round-301739689.html), Feb 2023; [Jobber AI](https://www.getjobber.com/features/ai/), Aug 2026).
+  - Housecall Pro ($125 million additional funding, revenue unknown): integrated FSM and AI agents for calls, bookings, analytics, and marketing versus Kebra’s documentation-first automation across existing systems ([Vista Equity Partners](https://www.vistaequitypartners.com/news/housecall-pro-secures-125m-in-new-funding-from-permira-and-vista/), Jun 2022; [Housecall Pro](https://www.housecallpro.com/features/ai-team/), Aug 2026).
+- **Why now:** [Inferred]: The catalyst is the combination of production voice/computer-use agents and contractor adoption, with a 2025 Housecall Pro survey reporting that 40% of its customers used AI and users saved four hours per week on average ([Kiplinger](https://www.kiplinger.com/business/blue-collar-workers-add-ai-to-their-toolboxes), Jun 2025).
 
 ## Founders & Team
 
 - **Luca Hadife (Co-Founder and CEO):**
-  - Background: UC Berkeley Data/ML graduate; built multimodal AI systems at Microsoft, worked on the early team at Amata, and served as an ASUC senator ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026; [LinkedIn](https://www.linkedin.com/in/luca-hadife), Jul 2026).
+  - Background: UC Berkeley Data/ML and former ASUC senator who built multimodal AI systems at Microsoft and was an early Amata team member; no prior exit was reported ([Y Combinator](https://www.ycombinator.com/companies/kebra), Aug 2026).
   - Twitter/X: @LucaHadife; count not retrievable ([Returner.fund](https://www.returner.fund/founders/luca-hadife), Jul 2026).
-  - LinkedIn: “Stealth Startup,” with 2K followers ([LinkedIn](https://www.linkedin.com/in/luca-hadife), Jul 2026).
+  - LinkedIn: “Stealth Startup,” with approximately 2K followers ([LinkedIn](https://www.linkedin.com/in/luca-hadife), Jul 2026).
   - GitHub: No public repos found.
 - **Mohamed Hosny (Co-Founder and CTO):**
-  - Background: UC Berkeley graduate who taught Computer Architecture and Signal Processing in Berkeley EECS and worked on data-center switches at Arista Networks ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026; [LinkedIn](https://www.linkedin.com/in/mohamed-hosny-hussein), Jul 2026).
+  - Background: Education details were not publicly listed; he taught Computer Architecture and Signal Processing at UC Berkeley EECS and worked on data-center switches at Arista Networks ([Y Combinator](https://www.ycombinator.com/companies/kebra), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Arista Networks,” with 1K followers ([LinkedIn](https://www.linkedin.com/in/mohamed-hosny-hussein), Jul 2026).
+  - LinkedIn: Public profile at `/in/mohamed-hosny-hussein`; headline and follower count not retrievable ([Y Combinator](https://www.ycombinator.com/companies/kebra), Aug 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders attended UC Berkeley from 2022 to 2026 ([Luca Hadife LinkedIn](https://www.linkedin.com/in/luca-hadife), [Mohamed Hosny LinkedIn](https://www.linkedin.com/in/mohamed-hosny-hussein), Jul 2026).
-- **Founder-market fit:** [Inferred]: Hadife’s multimodal-AI work and Hosny’s signal-processing, computer-architecture, and network-switch experience align with audio capture, structured extraction, and integrations, although no prior field-service employment was found ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026).
+- **Co-founder relationship:** Both founders had UC Berkeley ties—Hadife studied Data/ML and Hosny taught EECS—but public sources do not state when or how they met ([Y Combinator](https://www.ycombinator.com/companies/kebra), Aug 2026).
+- **Founder-market fit:** [Inferred]: Hadife’s multimodal-AI experience and Hosny’s systems background map to Kebra’s audio, image, and software-integration workflows, while their work alongside technicians and back offices provides field exposure; Kebra identifies YC and SV Angel as investors ([Launch YC](https://www.ycombinator.com/launches/SBf-kebra-make-your-field-service-company-ai-native), Jul 2026; [LinkedIn](https://www.linkedin.com/company/kebra-com), Aug 2026).
 
 ## Key Risks
 
-- **Incumbent feature convergence:** ServiceTitan announced AI tools spanning back-office automation, technician answers, diagnosis, coaching, and workflow handoffs, overlapping multiple Kebra functions ([ServiceTitan](https://www.servicetitan.com/press/servicetitan-major-product-expansions-pantheon-2025), Sep 2025).
-- **Recording consent:** Kebra’s product demonstration depicts a 1:24:06 field recording, while California Penal Code §632 prohibits intentionally recording confidential communications without all parties’ consent ([Kebra website](https://www.kebra.com/), Jul 2026; [California Legislature](https://www.leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632.), accessed Jul 2026).
-- **Workflow-error propagation:** Kebra’s demonstration shows a missing equipment serial number that could block a warranty claim, with mitigation through an automated SMS requesting a nameplate photograph before job closure ([Kebra website](https://www.kebra.com/), Jul 2026).
-- **Integration dependency:** [Inferred]: Execution depends on interfaces to ServiceTitan, QuickBooks, manufacturer warranty portals, suppliers, email, and messaging, so access or workflow changes in those systems could interrupt downstream actions ([Kebra website](https://www.kebra.com/), Jul 2026).
+- **Incumbent bundling:** Jobber, Housecall Pro, and ServiceTitan already distribute overlapping AI functions through installed FSM products, while Kebra mitigates replacement friction by writing into customers’ existing systems ([Jobber](https://www.getjobber.com/features/ai/), [Housecall Pro](https://www.housecallpro.com/features/ai-team/), [Kebra](https://www.kebra.com/), Aug 2026).
+- **Input and automation accuracy:** Kebra states that AI output may be incomplete or inaccurate, while its product requests missing serial numbers or photos from technicians and supports configured review and approval steps ([Kebra privacy policy](https://www.kebra.com/privacy), Aug 2026; [Kebra](https://www.kebra.com/), Aug 2026).
+- **Operational-data sensitivity:** The service may process jobs, messages, images, audio, transcripts, credentials, and integration records through outside AI, transcription, hosting, and communications providers; Kebra states that customer content is tenant-specific, is not sold, and is not used to train generalized models ([Kebra privacy policy](https://www.kebra.com/privacy), Aug 2026).
+- **Name ambiguity:** Search results also identify unrelated Kebra staffing and music-software businesses, while the field-service company distinguishes itself with `kebra.com` and “Kebra (YC S26)” branding ([unrelated staffing company](https://www.linkedin.com/company/kebra-e), [unrelated music platform](https://www.kebramusic.com/), [Kebra LinkedIn](https://www.linkedin.com/company/kebra-com), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $6.1B global field-service-management market in 2025, forecast to $13.8B by 2033 at 11.0% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/field-service-management-market), 2026) |
+| TAM | Global FSM market: $5.10 billion in 2025, forecast to reach $9.17 billion by 2030 at 12.5% CAGR (MarketsandMarkets, 2025). |
 | SAM | No public data found |
-| Traction | Summer 2026 YC company; zero active YC job postings ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026) |
+| Traction | Live with field-service companies in Florida, Pennsylvania, and California; Quality Air is a named customer (Launch YC, Jul 2026; Kebra LinkedIn, Aug 2026). |
 | Revenue Signal | No public data found |
-| Founders | Luca Hadife (CEO): Microsoft multimodal AI, Amata, UC Berkeley; Mohamed Hosny (CTO): Arista Networks, UC Berkeley EECS instructor ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026) |
-| Competitors | Rilla ($78.9M raised, $70M estimated ARR, sales coaching; [Sacra](https://sacra.com/c/rilla/), 2026); Siro ($75M raised, revenue unknown, sales coaching; [Siro](https://www.siro.ai/about), 2026); XOi ($230M investment, revenue unknown, asset intelligence; [XOi](https://xoi.io/company/news-and-press/xoi-enters-next-phase-of-growth-with-new-cro-expanded-investments), 2026); ServiceTitan ($1.4B+ pre-IPO funding, $961.0M FY2026 revenue, end-to-end FSM; [Axios](https://www.axios.com/newsletters/axios-pro-rata-73926895-902f-4a21-965d-d4bb2b0ffb09), 2024; [Form 10-K](https://investors.servicetitan.com/static-files/84e016f3-9a75-4199-ad42-b3babe1bb3dd), 2026) |
-| Moat Signals | No public data found |
-| Risk Factors | Incumbent AI overlap ([ServiceTitan](https://www.servicetitan.com/press/servicetitan-major-product-expansions-pantheon-2025), 2025), recording-consent requirements ([California Legislature](https://www.leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&sectionNum=632.), accessed Jul 2026), multi-system dependency ([Kebra website](https://www.kebra.com/), Jul 2026) |
-| Founder Reach | Luca Hadife: LinkedIn 2K followers ([LinkedIn](https://www.linkedin.com/in/luca-hadife), Jul 2026); Mohamed Hosny: LinkedIn 1K followers ([LinkedIn](https://www.linkedin.com/in/mohamed-hosny-hussein), Jul 2026) |
-| Distribution Signals | Free 30-minute demo without credit card ([Kebra website](https://www.kebra.com/), Jul 2026); YC Summer 2026 directory presence ([YC company page](https://www.ycombinator.com/companies/kebra), Jul 2026) |
-| Emails | No public data found |
+| Founders | Luca Hadife (CEO): UC Berkeley Data/ML, Microsoft multimodal AI, early Amata team; Mohamed Hosny (CTO): UC Berkeley EECS teaching and Arista Networks engineering (Y Combinator, Aug 2026). |
+| Competitors | ServiceTitan (over $1.4B raised, $614M FY2024 revenue, full FSM suite); Jobber ($100M Series D disclosed, revenue unknown, end-to-end SMB FSM); Housecall Pro ($125M additional funding, revenue unknown, FSM plus AI back-office agents) (Axios, Dec 2024; Jobber, Feb 2023; Vista Equity Partners, Jun 2022). |
+| Moat Signals | Customer-specific Company Brain spanning operational records, communications, audio, images, transcripts, and connected-system data; no public dataset-scale or retention metrics (Kebra privacy policy, Aug 2026). |
+| Risk Factors | Incumbent AI bundling, automation accuracy, operational-data sensitivity (Kebra privacy policy, Aug 2026; Jobber, Housecall Pro, and ServiceTitan product materials, 2025–2026). |
+| Founder Reach | Luca Hadife: LinkedIn approximately 2K, X @LucaHadife count not retrievable; Mohamed Hosny: public LinkedIn profile but reach metrics not retrievable (LinkedIn, Jul 2026; Returner.fund, Jul 2026; Y Combinator, Aug 2026). |
+| Distribution Signals | 395 LinkedIn followers, 9 Launch YC votes, 0 YC job listings, and deployments across Florida, Pennsylvania, and California (LinkedIn, Aug 2026; Launch YC, Aug 2026; Y Combinator, Aug 2026). |
+| Emails | founders@kebra.com, support@kebra.com (Launch YC, Jul 2026; Kebra privacy policy, Aug 2026). |

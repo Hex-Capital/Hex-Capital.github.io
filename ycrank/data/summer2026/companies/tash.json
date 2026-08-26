@@ -1,0 +1,80 @@
+{
+  "slug": "tash",
+  "name": "tash",
+  "oneLiner": "The investment platform for sports & trading cards",
+  "metadata": {
+    "website": "https://www.tash.cards/",
+    "yc_page": "https://www.ycombinator.com/companies/tash",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Consumer, Investing",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@tash.cards, support@tash.cards"
+  },
+  "tags": [
+    "Consumer",
+    "Investing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:42:47.365Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 19,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 32,
+    "NR": 43,
+    "PG": 51,
+    "PT": 28,
+    "SL": 39,
+    "VK": 19
+  },
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 199,
+  "traction": {
+    "tractionRank": 181,
+    "tractionScore": 31,
+    "tractionReason": "Current product waitlist; prior volume excluded"
+  },
+  "paths": {
+    "memo": "summer2026/memos/tash.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/tash.md",
+      "elad-gil": "summer2026/evals/elad-gil/tash.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/tash.md",
+      "paul-graham": "summer2026/evals/paul-graham/tash.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/tash.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/tash.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/tash.md"
+    }
+  }
+}

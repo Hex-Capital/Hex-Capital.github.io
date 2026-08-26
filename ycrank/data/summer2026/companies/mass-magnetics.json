@@ -1,0 +1,83 @@
+{
+  "slug": "mass-magnetics",
+  "name": "Mass Magnetics",
+  "oneLiner": "USA-made magnetics for aerospace, robotics, and defense.",
+  "metadata": {
+    "website": "https://massmagnetics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/mass-magnetics",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "3",
+    "location": "Boston, MA, USA",
+    "tags": "Hard Tech, Robotics, Drones, Manufacturing, Defense",
+    "yc_partner": "Vivian Midha Shen ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/mass-magnetics))",
+    "emails": "outreach@massmagnetics.com ([company website, Aug 2026](https://massmagnetics.com/))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Drones",
+    "Manufacturing",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:21:41.964Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 55,
+    "NR": 55,
+    "PG": 40,
+    "PT": 38,
+    "SL": 30,
+    "VK": 35
+  },
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 120,
+  "traction": {
+    "tractionRank": 175,
+    "tractionScore": 33,
+    "tractionReason": "Preorders open; no order count"
+  },
+  "paths": {
+    "memo": "summer2026/memos/mass-magnetics.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/mass-magnetics.md",
+      "elad-gil": "summer2026/evals/elad-gil/mass-magnetics.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/mass-magnetics.md",
+      "paul-graham": "summer2026/evals/paul-graham/mass-magnetics.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/mass-magnetics.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/mass-magnetics.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/mass-magnetics.md"
+    }
+  }
+}

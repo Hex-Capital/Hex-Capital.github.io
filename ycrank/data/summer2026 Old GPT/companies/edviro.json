@@ -1,0 +1,81 @@
+{
+  "slug": "edviro",
+  "name": "Edviro",
+  "oneLiner": "Energy world models that fix energy waste before it becomes expensive.",
+  "metadata": {
+    "website": "https://edviroenergy.com",
+    "yc_page": "https://www.ycombinator.com/companies/edviro",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, B2B, Energy",
+    "yc_partner": "Jared Friedman ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/edviro))",
+    "emails": "founders@edviroenergy.com ([company website, Jul 2026](https://edviroenergy.com))"
+  },
+  "tags": [
+    "Deep Learning",
+    "B2B",
+    "Energy"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:25:57.178Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 76,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 44,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 61,
+    "EG": 61,
+    "NR": 48,
+    "PG": 76,
+    "PT": 48,
+    "SL": 51,
+    "VK": 44
+  },
+  "consolidatedAvg": 55.57,
+  "consolidatedRank": 63,
+  "traction": {
+    "tractionRank": 32,
+    "tractionScore": 67,
+    "tractionReason": "$20K ARR; seven sites live, 29 expanding"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/edviro.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/edviro.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/edviro.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/edviro.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/edviro.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/edviro.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/edviro.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/edviro.md"
+    }
+  }
+}

@@ -11,59 +11,59 @@
     "location": "Paris, ?le-de-France, France",
     "tags": "Developer Tools, Cloud Computing",
     "yc_partner": "Brad Flora",
-    "emails": "barnaby@machine0.io"
+    "emails": "hello@machine0.io ([YC, Aug 2026](https://www.ycombinator.com/companies/machine0))"
   },
   "tags": [
     "Developer Tools",
     "Cloud Computing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:40:21.928Z",
+  "memoGeneratedAt": "2026-08-11T05:10:49.741Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 53,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 60,
+      "score": 55,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
       "score": 44,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
     "sam-lessin": {
-      "score": 43,
+      "score": 36,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 38,
+      "score": 22,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 60,
-    "NR": 67,
-    "PG": 64,
-    "PT": 44,
-    "SL": 43,
-    "VK": 38
+    "CB": 53,
+    "EG": 55,
+    "NR": 44,
+    "PG": 53,
+    "PT": 42,
+    "SL": 36,
+    "VK": 22
   },
-  "consolidatedAvg": 54.57,
-  "consolidatedRank": 71,
+  "consolidatedAvg": 43.57,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 42,
-    "tractionReason": "Show HN 96 points; paid compute available"
+    "tractionRank": 118,
+    "tractionScore": 48,
+    "tractionReason": "Two named customers and monetized compute usage"
   },
   "paths": {
     "memo": "summer2026/memos/machine0.md",

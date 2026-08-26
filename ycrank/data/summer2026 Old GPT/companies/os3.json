@@ -1,0 +1,82 @@
+{
+  "slug": "os3",
+  "name": "OS3",
+  "oneLiner": "Intelligence and Machines for Physical Labor",
+  "metadata": {
+    "website": "https://os3robotics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/os3",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Robotics, B2B",
+    "yc_partner": "Gustaf Alstromer",
+    "emails": "hi@os3robotics.com, rishabhchanana8@gmail.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Robotics",
+    "B2B"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:20:24.271Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 73,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 52,
+    "NR": 43,
+    "PG": 66,
+    "PT": 43,
+    "SL": 37,
+    "VK": 73
+  },
+  "consolidatedAvg": 53,
+  "consolidatedRank": 92,
+  "traction": {
+    "tractionRank": 88,
+    "tractionScore": 45,
+    "tractionReason": "Unnamed hospitality deployment; no unit count"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/os3.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/os3.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/os3.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/os3.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/os3.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/os3.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/os3.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/os3.md"
+    }
+  }
+}

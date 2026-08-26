@@ -16,70 +16,69 @@
 
 ## The Idea
 
-- **Problem:** Aerospace, energy, robotics, and drone engineers manually reconnect vendor-specific DAQ hardware, PLCs, sensors, controllers, configurations, and scattered test data between runs, costing teams hundreds of engineering hours ([Daqstra website](https://www.daqstra.com/); [YC company page](https://www.ycombinator.com/companies/daqstra)).
-- **Approach:** Daqstra Edge connects NI, Siemens, Modbus, OPC-UA, and custom hardware; Hub stores and analyzes run context; and a Python/REST API executes version-controlled sequences, redlines, and abort logic ([Daqstra platform](https://www.daqstra.com/)).
-- **Differentiation:** [Inferred]: Unlike NI/LabVIEW and PLC-specific tooling, Daqstra proposes a vendor-independent layer spanning hardware connectivity, contextualized historical data, AI analysis, and bidirectional orchestration without requiring replacement of existing equipment.
-- **Business Model:** [Inferred]: The request-a-demo workflow, named industrial deployments, and absence of published tiers indicate negotiated enterprise software or platform contracts, but pricing and billing units are not public.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Daqstra is founder-selling to test, propulsion, integration, validation, and hardware-engineering leaders, onboarding a limited group of early customers and requesting introductions to test-infrastructure owners ([YC launch](https://www.ycombinator.com/companies/daqstra); [Daqstra LinkedIn](https://www.linkedin.com/company/daq-stra)).
+- **Problem:** Aerospace, energy, robotics, and drone engineers manually reconnect vendor-specific DAQ hardware, PLCs, sensors, controllers, scripts, and files between physical tests, causing lost engineering time and fragmented test context ([Y Combinator](https://www.ycombinator.com/companies/daqstra), Aug 2026).
+- **Approach:** Daqstra Edge connects NI, Siemens, Modbus, OPC-UA, and custom-TCP hardware; Hub stores and analyzes runs; and its Python/REST API executes version-controlled sequences, redlines, and abort logic ([Daqstra](https://www.daqstra.com/), Aug 2026).
+- **Differentiation:** Unlike NI/LabVIEW and vendor PLC software, Daqstra presents one interface over existing multi-vendor equipment, while versus telemetry-focused Sift it additionally sends commands and orchestrates test sequences ([Daqstra](https://www.daqstra.com/), Aug 2026; [Sift](https://www.siftstack.com/), Jul 2026).
+- **Business Model:** [Inferred]: The demo-request workflow, signed industrial pilot, and founder-led customer onboarding indicate negotiated enterprise software and deployment contracts rather than self-serve pricing ([Daqstra](https://www.daqstra.com/); [Y Combinator](https://www.ycombinator.com/companies/daqstra), Aug 2026).
+- **TAM/SAM:** The broader test-and-measurement-equipment market was $48.65 billion in 2025 and is forecast to reach $76.38 billion by 2032 at a 6.4% CAGR, but no public SAM estimate isolates physical-R&D orchestration software ([MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/test-measurement-equipment-market-116452716.html), 2026).
+- **GTM / Distribution:** Daqstra solicits test, propulsion, integration, validation, and hardware-engineering leaders directly and reported onboarding a limited set of early customers ([Y Combinator](https://www.ycombinator.com/companies/daqstra); [LinkedIn](https://www.linkedin.com/company/daq-stra), Jul–Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Daqstra has operated live LOX/IPA static-fire campaigns and developed integrations for NI hardware, Siemens PLCs, Modbus, OPC-UA, and custom TCP systems, providing deployment knowledge across mixed-vendor test environments ([Daqstra platform](https://www.daqstra.com/)).
-- **Future moat:** [Inferred]: Stored configurations, events, engineering context, control sequences, and cross-run analyses could create switching costs and a proprietary operational dataset, but neither customer retention nor dataset scale is public.
+- **Moat today:** The company has operated live LOX/IPA static-fire campaigns and supports bidirectional integration with NI, Siemens, Modbus, OPC-UA, and custom hardware, providing evidence of integration and safety-control engineering work ([Daqstra](https://www.daqstra.com/), Aug 2026).
+- **Future moat:** [Inferred]: Persisted configurations, calibration lineage, test histories, annotations, and automated procedures could create workflow switching costs, but public sources do not establish deployment duration or customer retention.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Nominal and Sift already offer cloud/edge infrastructure for high-rate hardware data, test operations, and telemetry analysis, while NI, Siemens, and engineering teams can extend existing control and data stacks ([Nominal](https://nominal.io/blog/series-b); [Sift](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on)).
+- **Commoditization risk:** [Inferred]: Nominal and Sift already combine edge ingestion, test-data management, comparison, and automation, while instrumentation vendors can extend their software upward into orchestration ([Nominal](https://nominal.io/blog/series-b); [Sift](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on); [Liquid Instruments](https://liquidinstruments.com/news-updates/series-c/), 2025–2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Active aerospace programs use Daqstra day to day across fragmented, multi-vendor environments ([YC launch](https://www.ycombinator.com/companies/daqstra), July 2026).
-  - Signed pilot with a palm-oil processor targeting more than $100,000 in annual customer savings ([YC launch](https://www.ycombinator.com/companies/daqstra), July 2026).
-  - Used across multiple rocket-engine test stands and initial biotechnology applications ([Daqstra LinkedIn](https://www.linkedin.com/posts/daq-stra_2026-is-just-getting-started-were-actively-activity-7418359053380403200-_8jG), February 2026).
-  - Customer deployment: SEDS UCSD used Daqstra for a Dispatch heat-shield static-fire campaign ([Daqstra press page](https://www.daqstra.com/press), March 2026).
-  - 199 LinkedIn followers ([Daqstra LinkedIn post](https://www.linkedin.com/posts/daq-stra_%3F%3F%3F%3F-%3F%3F%3F%3F%3F%3F%3F-y-combinator-%3F%3F%3F-activity-7473079522288934913-1qgM), July 2026).
-  - Zero active YC job listings ([YC company page](https://www.ycombinator.com/companies/daqstra), July 2026).
+  - Active aerospace programs use Daqstra day to day across multi-vendor test environments ([Y Combinator](https://www.ycombinator.com/companies/daqstra), Aug 2026).
+  - Signed industrial-energy pilot targeting $100K+ in annual customer savings; this is a customer-savings target, not Daqstra revenue ([Y Combinator](https://www.ycombinator.com/companies/daqstra), Aug 2026).
+  - Deployed across multiple rocket-engine test stands ([LinkedIn](https://www.linkedin.com/company/daq-stra), Mar 2026).
+  - Live SEDS UCSD–Dispatch heat-shield static-fire deployment ([Daqstra](https://www.daqstra.com/press), Mar 2026).
+  - 193 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/daq-stra), indexed Jul 2026).
+  - Zero open jobs on the YC company page ([Y Combinator](https://www.ycombinator.com/companies/daqstra), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Nominal (at least $155M disclosed across its September 2025 and March 2026 rounds, revenue unknown): provides cloud management of high-rate hardware data plus edge test automation at greater disclosed scale ([Nominal Series B](https://nominal.io/blog/series-b); [Nominal 2026 financing](https://nominal.io/blog/series-b2)).
-  - Sift ($67M raised, revenue unknown): concentrates on observability and AI analysis for telemetry spanning R&D, manufacturing, and fielded machines ([Sift Series B](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on)).
-  - Instrumental (at least $80.3M raised, revenue unknown): focuses on electronics-manufacturing data, defect detection, failure analysis, and production yield rather than test-stand control ([Instrumental funding summary](https://www.clay.com/dossier/instrumental-funding)).
-- **Why now:** [Inferred]: Nominal’s September 2025 test-stack financing and the March 2026 financings of Nominal and Sift show recent investment in making high-frequency physical-system data usable by AI and connecting analysis with test operations ([Nominal](https://nominal.io/blog/series-b2); [Sift](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on)).
+  - Nominal ($182.5M raised, revenue unknown): combines cloud management of high-rate test data with edge automation and HIL applications, overlapping Daqstra’s Hub and Edge products ([CB Insights](https://www.cbinsights.com/company/nominal/financials); [Nominal](https://nominal.io/blog/series-b), 2025–2026).
+  - Sift ($67M raised, revenue unknown): focuses on ingesting, visualizing, comparing, and applying rules to hardware telemetry, while Daqstra also exposes hardware-command and test-sequencing APIs ([Sift](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on), Mar 2026).
+  - Liquid Instruments ($116.33M raised, revenue unknown): supplies FPGA-based software-defined instruments, whereas Daqstra connects and orchestrates equipment already installed from multiple vendors ([Forge](https://forgeglobal.com/liquid-instruments_ipo/); [Liquid Instruments](https://liquidinstruments.com/news-updates/series-c/), Apr 2026).
+- **Why now:** [Inferred]: Hardware organizations’ 2025–2026 shift toward continuous, AI-ready testing and software-defined instrumentation is evidenced by Nominal’s test-stack launch, Sift’s observability financing, and Liquid Instruments’ software-defined-instrument round ([Nominal](https://nominal.io/blog/series-b); [Sift](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on); [Liquid Instruments](https://liquidinstruments.com/news-updates/series-c/), 2025–2026).
 
 ## Founders & Team
 
 - **Darell Chua (Founder):**
-  - Background: MS in Computer Engineering from UC San Diego; previously worked in systems performance architecture at Rivian and as Member of Technical Staff at DSO National Laboratories; co-authored a 2025 AIAA paper on modular distributed data acquisition for cryogenic rocket testing ([YC profile](https://www.ycombinator.com/companies/daqstra); [LinkedIn](https://www.linkedin.com/in/darell-chua)).
-  - Twitter/X: No public account found.
-  - LinkedIn: “Founder at Daqstra”; 920 followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/darell-chua), July 2026).
+  - Background: MS in Computer Engineering from UC San Diego, former systems-performance-architecture work at Rivian and technical staff at DSO National Laboratories, and co-author of a 2025 AIAA paper on distributed data acquisition for cryogenic rockets ([Y Combinator](https://www.ycombinator.com/companies/daqstra); [ResearchGate](https://www.researchgate.net/publication/388924321_Vertically-Integrated_Modular_Distributed_Data_Acquisition_System_for_Cryogenic_Liquid_Bi-Propellant_Rocket_and_Component_Testing_Based_on_SAMDAS_Architecture)).
+  - Twitter/X: @heyitsdarell; count not retrievable ([Fundraising Fox](https://fundraisingfox.com/founders/darell-chua), Aug 2026).
+  - LinkedIn: “Daqstra”; 920 followers ([LinkedIn](https://www.linkedin.com/in/darell-chua), Jul 2026).
   - GitHub: No public repos found.
 - **Anchit Kumar (Founder):**
-  - Background: Studied computer science at UC San Diego, led AI and autonomy work for Mars-cave exploration drones, researched multimodal AI safety for vision-language-action robots, and participated in more than 10 Mojave test campaigns ([YC profile](https://www.ycombinator.com/companies/daqstra)).
-  - Twitter/X: @anchit__kumar; count not retrievable ([Returner profile](https://www.returner.fund/founders/anchit-kumar)).
-  - LinkedIn: “Co-founder of Daqstra (YC S26)” ([YC profile](https://www.ycombinator.com/companies/daqstra)).
+  - Background: Studied computer science at UC San Diego, led AI and autonomy for Mars cave-exploration drones, worked on multimodal robot safety, co-authored the AIAA data-acquisition paper, and participated in 10+ Mojave test campaigns ([Y Combinator](https://www.ycombinator.com/companies/daqstra); [ResearchGate](https://www.researchgate.net/publication/388924321_Vertically-Integrated_Modular_Distributed_Data_Acquisition_System_for_Cryogenic_Liquid_Bi-Propellant_Rocket_and_Component_Testing_Based_on_SAMDAS_Architecture)).
+  - Twitter/X: @anchit__kumar; count not retrievable ([Returner](https://www.returner.fund/founders/anchit-kumar), Jul 2026).
+  - LinkedIn: Profile @anchitk; headline not retrievable ([Y Combinator](https://www.ycombinator.com/companies/daqstra), Aug 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Chua and Kumar met at UC San Diego while building and testing liquid rocket engines in the Mojave Desert and co-authored work on the SAMDAS data-acquisition architecture ([YC launch](https://www.ycombinator.com/companies/daqstra); [AIAA record via LinkedIn](https://www.linkedin.com/in/darell-chua)).
-- **Founder-market fit:** Chua’s distributed avionics, data-acquisition, Rivian, and aerospace background and Kumar’s autonomy research and experience across more than 10 physical test campaigns directly overlap Daqstra’s test-orchestration scope ([YC founder profiles](https://www.ycombinator.com/companies/daqstra)).
+- **Co-founder relationship:** Chua and Kumar met while building and testing liquid rocket engines at UC San Diego and later co-authored the 2025 AIAA SAMDAS paper ([Y Combinator](https://www.ycombinator.com/companies/daqstra); [ResearchGate](https://www.researchgate.net/publication/388924321_Vertically-Integrated_Modular_Distributed_Data_Acquisition_System_for_Cryogenic_Liquid_Bi-Propellant_Rocket_and_Component_Testing_Based_on_SAMDAS_Architecture)).
+- **Founder-market fit:** Their documented work on rocket avionics, distributed data acquisition, AI/autonomy, and more than 10 physical test campaigns corresponds directly to Daqstra’s test-orchestration product scope ([Y Combinator](https://www.ycombinator.com/companies/daqstra); [ResearchGate](https://www.researchgate.net/publication/388924321_Vertically-Integrated_Modular_Distributed_Data_Acquisition_System_for_Cryogenic_Liquid_Bi-Propellant_Rocket_and_Component_Testing_Based_on_SAMDAS_Architecture)).
 
 ## Key Risks
 
-- **Control-system safety:** Daqstra’s API can issue sequences, redlines, aborts, and commands to physical hardware, so software or AI errors can affect safety-critical tests; the company states that engineers retain control and AI actions require human approval ([Daqstra platform](https://www.daqstra.com/); [Daqstra LinkedIn](https://www.linkedin.com/company/daq-stra)).
-- **Integration maintenance:** The product must preserve reliable bidirectional behavior across NI, Siemens, Modbus, OPC-UA, PLC, sensor, controller, and custom-TCP environments with different configurations and update cycles ([Daqstra platform](https://www.daqstra.com/)).
-- **Funded competition:** Nominal raised $80M at a $1B valuation in March 2026 after a $75M round, while Sift reported $67M in total funding, enabling both to expand overlapping hardware-data and test-operation products ([Nominal](https://nominal.io/blog/series-b2); [Sift](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on)).
-- **Commercial validation:** Public traction consists of active aerospace programs, rocket-test deployments, and one energy pilot targeting customer savings, while company revenue, contract values, conversion rates, and retention remain undisclosed ([YC launch](https://www.ycombinator.com/companies/daqstra)).
-- **Founder-roster continuity:** UC San Diego’s 2024–2025 program page identifies four Daqstra co-founders, whereas the current YC page lists only Chua and Kumar as active founders, and no public explanation of the roster change was found ([UC San Diego Basement](https://thebasement.ucsd.edu/portfolio/past/2024-2025/daqstra.html); [YC company page](https://www.ycombinator.com/companies/daqstra)).
+- **Safety-critical control surface:** Daqstra’s API can execute valve sequences, redlines, aborts, and commands on live hardware, so software or integration errors can affect physical systems; the company states that engineers retain control and test logic is version-controlled ([Daqstra](https://www.daqstra.com/), Aug 2026).
+- **Integration and validation burden:** Supporting NI, Siemens, Modbus, OPC-UA, custom TCP, sensors, PLCs, and bespoke controllers requires protocol-specific validation across heterogeneous test environments ([Daqstra](https://www.daqstra.com/), Aug 2026).
+- **Funded product overlap:** Nominal has raised $182.5 million and Sift $67 million for overlapping hardware-test data, edge, and automation products ([CB Insights](https://www.cbinsights.com/company/nominal/financials); [Sift](https://www.siftstack.com/mission-critical/we-raised-42m-to-replace-the-legacy-tooling-hardware-engineers-still-depend-on), 2026).
+- **Public deployment verification:** Public sources identify one SEDS UCSD–Dispatch campaign, anonymous aerospace programs, and one industrial pilot, limiting independent assessment of deployment breadth; the named static-fire campaign provides a public implementation example ([Daqstra](https://www.daqstra.com/press); [Y Combinator](https://www.ycombinator.com/companies/daqstra), 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $48.65B global test-and-measurement-equipment market in 2025, forecast to $76.38B by 2032 at 6.4% CAGR (MarketsandMarkets, 2026) |
 | SAM | No public data found |
-| Traction | Active aerospace programs; multiple rocket-engine test stands; one palm-oil pilot targeting $100K+ in annual customer savings (YC launch and Daqstra LinkedIn, February–July 2026) |
+| Traction | Active aerospace programs; signed energy pilot targeting $100K+ annual customer savings (Y Combinator, Aug 2026); multiple rocket-engine test stands (LinkedIn, Mar 2026) |
 | Revenue Signal | No public data found |
-| Founders | Darell Chua (Founder): UCSD MS, Rivian systems architecture, DSO National Laboratories; Anchit Kumar (Founder): UCSD computer science, autonomy and multimodal-AI research, 10+ Mojave test campaigns (YC, July 2026) |
-| Competitors | Nominal (at least $155M disclosed in two recent rounds, revenue unknown, cloud/edge test stack); Sift ($67M raised, revenue unknown, hardware telemetry observability); Instrumental (at least $80.3M raised, revenue unknown, manufacturing defect and yield analytics) (company announcements and Clay, 2025–2026) |
-| Moat Signals | Live static-fire deployment experience and integrations spanning NI, Siemens, Modbus, OPC-UA, PLCs, and custom TCP hardware (Daqstra website, July 2026) |
-| Risk Factors | Safety-critical bidirectional control, heterogeneous integration maintenance, funded overlapping competitors (Daqstra, Nominal, and Sift, 2025–2026) |
-| Founder Reach | Darell Chua: LinkedIn 920, Twitter/GitHub not found; Anchit Kumar: X @anchit__kumar count not retrievable, GitHub not found (LinkedIn and Returner, July 2026) |
-| Distribution Signals | 199 LinkedIn followers, founder-led demo requests, zero active YC jobs (LinkedIn and YC, July 2026) |
-| Emails | team@daqstra.com (YC launch, July 2026) |
+| Founders | Darell Chua (Founder): UCSD MS, Rivian, DSO National Laboratories; Anchit Kumar (Founder): UCSD computer science, AI/autonomy research, 10+ test campaigns (Y Combinator, Aug 2026) |
+| Competitors | Nominal ($182.5M raised, revenue unknown, cloud and edge test stack; CB Insights, 2026); Sift ($67M raised, revenue unknown, telemetry observability; Sift, Mar 2026); Liquid Instruments ($116.33M raised, revenue unknown, software-defined instruments; Forge, 2026) |
+| Moat Signals | Live static-fire operation and NI, Siemens, Modbus, OPC-UA, and custom-TCP integrations (Daqstra, Aug 2026) |
+| Risk Factors | Safety-critical hardware commands (Daqstra, Aug 2026), heterogeneous integration burden (Daqstra, Aug 2026), funded product overlap (Nominal and Sift, 2026) |
+| Founder Reach | Darell Chua: 920 LinkedIn followers (LinkedIn, Jul 2026); Anchit Kumar: X @anchit__kumar, count not retrievable (Returner, Jul 2026) |
+| Distribution Signals | 193 LinkedIn followers (LinkedIn, Jul 2026); YC launch page and zero open YC jobs (Y Combinator, Aug 2026) |
+| Emails | team@daqstra.com (Y Combinator, Aug 2026) |

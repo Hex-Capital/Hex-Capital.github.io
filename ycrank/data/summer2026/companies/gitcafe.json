@@ -3,67 +3,67 @@
   "name": "GitCafe",
   "oneLiner": "GitCafe is a modern replacement for GitHub.",
   "metadata": {
-    "website": "https://gitcafe.dev/",
+    "website": "https://git.cafe",
     "yc_page": "https://www.ycombinator.com/companies/gitcafe",
-    "batch": "[Summer 2026](https://www.ycombinator.com/companies/gitcafe)",
+    "batch": "Summer 2026",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, DevOps",
-    "yc_partner": "[Diana Hu](https://www.ycombinator.com/companies/gitcafe)",
-    "emails": "No public data found"
+    "yc_partner": "Diana Hu ([Y Combinator](https://www.ycombinator.com/companies/gitcafe), Aug 2026)",
+    "emails": "legal@git.cafe, privacy@git.cafe, abuse@git.cafe ([Terms](https://git.cafe/legal/terms), [Privacy](https://git.cafe/legal/privacy), [Acceptable Use](https://git.cafe/legal/acceptable-use), Aug 2026)"
   },
   "tags": [
     "Developer Tools",
     "DevOps"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:05:59.741Z",
+  "memoGeneratedAt": "2026-08-11T05:46:58.039Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
+      "score": 50,
       "tier": "Neutral"
     },
     "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
       "score": 49,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
     "peter-thiel": {
-      "score": 43,
+      "score": 34,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 37,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 24,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 49,
-    "NR": 52,
-    "PG": 56,
-    "PT": 43,
-    "SL": 37,
-    "VK": 46
+    "CB": 50,
+    "EG": 35,
+    "NR": 41,
+    "PG": 49,
+    "PT": 34,
+    "SL": 33,
+    "VK": 24
   },
-  "consolidatedAvg": 47.86,
-  "consolidatedRank": 134,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 52,
-    "tractionReason": "Engineers at eight named organizations use public beta"
+    "tractionRank": 89,
+    "tractionScore": 55,
+    "tractionReason": "Engineers at eight named organizations use product"
   },
   "paths": {
     "memo": "summer2026/memos/gitcafe.md",

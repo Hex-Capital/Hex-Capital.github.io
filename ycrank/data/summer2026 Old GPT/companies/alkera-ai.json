@@ -1,0 +1,83 @@
+{
+  "slug": "alkera-ai",
+  "name": "Alkera AI",
+  "oneLiner": "Reliable and safe data engineering and data science agents",
+  "metadata": {
+    "website": "https://alkera.ai",
+    "yc_page": "https://www.ycombinator.com/companies/alkera-ai",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Data Science, Data Engineering, Enterprise Software",
+    "yc_partner": "Ankit Gupta",
+    "emails": "contact@alkera.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Data Science",
+    "Data Engineering",
+    "Enterprise Software"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:42:03.586Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 63,
+    "NR": 64,
+    "PG": 67,
+    "PT": 37,
+    "SL": 31,
+    "VK": 42
+  },
+  "consolidatedAvg": 50.14,
+  "consolidatedRank": 118,
+  "traction": {
+    "tractionRank": 113,
+    "tractionScore": 37,
+    "tractionReason": "Leaderboard first place; no users disclosed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/alkera-ai.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/alkera-ai.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/alkera-ai.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/alkera-ai.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/alkera-ai.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/alkera-ai.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/alkera-ai.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/alkera-ai.md"
+    }
+  }
+}

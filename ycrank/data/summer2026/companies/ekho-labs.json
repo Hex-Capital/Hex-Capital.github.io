@@ -5,64 +5,64 @@
   "metadata": {
     "website": "https://ekholabs.com/",
     "yc_page": "https://www.ycombinator.com/companies/ekho-labs",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/ekho-labs), Aug 2026)",
     "industry": "B2B / B2B -> Supply Chain and Logistics",
     "team_size": "0",
     "location": "New York City, NY, USA",
     "tags": "SaaS",
-    "yc_partner": "Ankit Gupta",
+    "yc_partner": "Ankit Gupta ([YC](https://www.ycombinator.com/companies/ekho-labs), Aug 2026)",
     "emails": "No public data found"
   },
   "tags": [
     "SaaS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:50:53.604Z",
+  "memoGeneratedAt": "2026-08-11T04:58:52.700Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 58,
+      "score": 49,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 61,
+      "score": 48,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 51,
+      "score": 47,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "peter-thiel": {
-      "score": 51,
+      "score": 52,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 41,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 61,
-    "NR": 51,
-    "PG": 57,
-    "PT": 51,
-    "SL": 41,
-    "VK": 40
+    "CB": 49,
+    "EG": 48,
+    "NR": 47,
+    "PG": 43,
+    "PT": 52,
+    "SL": 33,
+    "VK": 32
   },
-  "consolidatedAvg": 51.29,
-  "consolidatedRank": 105,
+  "consolidatedAvg": 43.43,
+  "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 137,
-    "tractionScore": 29,
-    "tractionReason": "Seven forecasts confirmed; no customer evidence"
+    "tractionRank": 96,
+    "tractionScore": 54,
+    "tractionReason": "Enterprise customers referenced; seven confirmed forecasts"
   },
   "paths": {
     "memo": "summer2026/memos/ekho-labs.md",

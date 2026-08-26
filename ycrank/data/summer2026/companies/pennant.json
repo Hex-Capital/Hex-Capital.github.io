@@ -1,0 +1,81 @@
+{
+  "slug": "pennant",
+  "name": "Pennant",
+  "oneLiner": "The World Model for Corporate Governance",
+  "metadata": {
+    "website": "https://www.getpennant.ai",
+    "yc_page": "https://www.ycombinator.com/companies/pennant",
+    "batch": "Summer 2026",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Fintech, Investing, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech",
+    "Investing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:11:05.421Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 24,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 56,
+    "NR": 60,
+    "PG": 55,
+    "PT": 40,
+    "SL": 42,
+    "VK": 24
+  },
+  "consolidatedAvg": 47.14,
+  "consolidatedRank": 89,
+  "traction": {
+    "tractionRank": 46,
+    "tractionScore": 66,
+    "tractionReason": "Three paying enterprise customer categories"
+  },
+  "paths": {
+    "memo": "summer2026/memos/pennant.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/pennant.md",
+      "elad-gil": "summer2026/evals/elad-gil/pennant.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/pennant.md",
+      "paul-graham": "summer2026/evals/paul-graham/pennant.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/pennant.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/pennant.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/pennant.md"
+    }
+  }
+}

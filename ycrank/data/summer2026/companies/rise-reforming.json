@@ -10,8 +10,8 @@
     "team_size": "4",
     "location": "Chicago, IL, USA",
     "tags": "Hard Tech, Smart Waste Management, Alternative Fuels, Renewable Energy, ClimateTech",
-    "yc_partner": "Jared Friedman ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/rise-reforming))",
-    "emails": "contact@rise-reforming.com ([company website, Jul 2026](https://www.rise-reforming.com/)); george@risereforming.xyz, legacy contact ([UChicago portfolio book, May 2025](https://polsky.uchicago.edu/wp-content/uploads/2025/05/UChicago-Tech-Ventures-Demo-Day-Portfolio-Book.pdf))"
+    "yc_partner": "Jared Friedman",
+    "emails": "contact@rise-reforming.com ([company website, Aug 2026](https://www.rise-reforming.com/))"
   },
   "tags": [
     "Hard Tech",
@@ -21,52 +21,52 @@
     "ClimateTech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:51:56.243Z",
+  "memoGeneratedAt": "2026-08-11T05:28:34.131Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
       "score": 73,
       "tier": "Invest"
     },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
     "peter-thiel": {
-      "score": 53,
+      "score": 51,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 63,
-      "tier": "Neutral"
+      "score": 43,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 72,
-      "tier": "Invest"
+      "score": 42,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 49,
-    "NR": 43,
-    "PG": 73,
-    "PT": 53,
-    "SL": 63,
-    "VK": 72
+    "CB": 73,
+    "EG": 51,
+    "NR": 61,
+    "PG": 49,
+    "PT": 51,
+    "SL": 43,
+    "VK": 42
   },
-  "consolidatedAvg": 60.29,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 52.86,
+  "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 55,
-    "tractionReason": "1,800 stable-production hours; signed supply and offtake agreements"
+    "tractionRank": 152,
+    "tractionScore": 39,
+    "tractionReason": "Binding supply agreement and conditional offtake"
   },
   "paths": {
     "memo": "summer2026/memos/rise-reforming.md",

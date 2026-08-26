@@ -1,0 +1,82 @@
+{
+  "slug": "impact-drones",
+  "name": "IMPACT Drones",
+  "oneLiner": "Air Defense as a Service for Civilian Infrastructure.",
+  "metadata": {
+    "website": "https://www.impact-drones.com",
+    "yc_page": "https://www.ycombinator.com/companies/impact-drones",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Hardware, Drones, Swarm Robotics",
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/impact-drones), Aug 2026)",
+    "emails": "jasper@impact-drones.com, alessandro@impact-drones.com ([Y Combinator](https://www.ycombinator.com/companies/impact-drones), Aug 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hardware",
+    "Drones",
+    "Swarm Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:29:34.398Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 50,
+    "NR": 59,
+    "PG": 34,
+    "PT": 40,
+    "SL": 32,
+    "VK": 36
+  },
+  "consolidatedAvg": 44.14,
+  "consolidatedRank": 126,
+  "traction": {
+    "tractionRank": 173,
+    "tractionScore": 33,
+    "tractionReason": "Pilot deployments scheduled, not yet live"
+  },
+  "paths": {
+    "memo": "summer2026/memos/impact-drones.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/impact-drones.md",
+      "elad-gil": "summer2026/evals/elad-gil/impact-drones.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/impact-drones.md",
+      "paul-graham": "summer2026/evals/paul-graham/impact-drones.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/impact-drones.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/impact-drones.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/impact-drones.md"
+    }
+  }
+}

@@ -9,62 +9,62 @@
     "industry": "B2B / B2B -> Security",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Reinforcement Learning, Cybersecurity, AI",
+    "tags": "Artificial Intelligence, Reinforcement Learning, Cybersecurity",
     "yc_partner": "Jon Xu",
     "emails": "founders@fabraix.com"
   },
   "tags": [
+    "Artificial Intelligence",
     "Reinforcement Learning",
-    "Cybersecurity",
-    "AI"
+    "Cybersecurity"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:36:59.314Z",
+  "memoGeneratedAt": "2026-08-11T05:02:58.047Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
+      "score": 57,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 64,
-      "tier": "Neutral"
+      "score": 70,
+      "tier": "Invest"
     },
     "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
+      "score": 55,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
+      "score": 48,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 46,
+      "score": 55,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 43,
+      "score": 33,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 64,
-    "NR": 68,
-    "PG": 71,
-    "PT": 46,
-    "SL": 43,
-    "VK": 44
+    "CB": 57,
+    "EG": 70,
+    "NR": 55,
+    "PG": 48,
+    "PT": 55,
+    "SL": 33,
+    "VK": 38
   },
-  "consolidatedAvg": 56,
-  "consolidatedRank": 58,
+  "consolidatedAvg": 50.86,
+  "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 60,
-    "tractionReason": "50,000+ challenge attempts; Fortune 500 vulnerabilities found"
+    "tractionRank": 109,
+    "tractionScore": 50,
+    "tractionReason": "Testing agents at dozens of Fortune 500 companies"
   },
   "paths": {
     "memo": "summer2026/memos/fabraix.md",

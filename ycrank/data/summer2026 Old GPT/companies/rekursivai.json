@@ -1,0 +1,81 @@
+{
+  "slug": "rekursivai",
+  "name": "rekursiv.ai",
+  "oneLiner": "Scale AI scientists whose own breakthroughs accelerate the next.",
+  "metadata": {
+    "website": "https://rekursiv.ai",
+    "yc_page": "https://www.ycombinator.com/companies/rekursivai",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Deep Learning, Machine Learning",
+    "yc_partner": "Jared Friedman",
+    "emails": "contact@rekursiv.ai, hiring@rekursiv.ai"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Deep Learning",
+    "Machine Learning"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T18:05:45.468Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 81,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 69,
+      "tier": "Invest"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 61,
+    "NR": 68,
+    "PG": 81,
+    "PT": 44,
+    "SL": 38,
+    "VK": 69
+  },
+  "consolidatedAvg": 59.14,
+  "consolidatedRank": 35,
+  "traction": {
+    "tractionRank": 110,
+    "tractionScore": 38,
+    "tractionReason": "Technical benchmarks only; no commercial traction"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/rekursivai.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/rekursivai.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/rekursivai.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/rekursivai.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/rekursivai.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/rekursivai.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/rekursivai.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/rekursivai.md"
+    }
+  }
+}

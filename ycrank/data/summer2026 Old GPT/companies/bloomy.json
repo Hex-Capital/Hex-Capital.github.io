@@ -1,0 +1,83 @@
+{
+  "slug": "bloomy",
+  "name": "Bloomy",
+  "oneLiner": "AI-powered mastery learning for K-12",
+  "metadata": {
+    "website": "https://bloomylearning.com/",
+    "yc_page": "https://www.ycombinator.com/companies/bloomy",
+    "batch": "Summer 2026",
+    "industry": "Education / Education",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI-Enhanced Learning, Artificial Intelligence, Education, eLearning, Personalization",
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026)",
+    "emails": "hello@bloomylearning.com ([Bloomy website](https://www.bloomylearning.com/), Jul 2026), alex@bloomylearning.com ([Y Combinator](https://www.ycombinator.com/companies/bloomy), Jul 2026)"
+  },
+  "tags": [
+    "AI-Enhanced Learning",
+    "Artificial Intelligence",
+    "Education",
+    "eLearning",
+    "Personalization"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:39:51.705Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 48,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 67,
+    "EG": 54,
+    "NR": 53,
+    "PG": 57,
+    "PT": 48,
+    "SL": 42,
+    "VK": 48
+  },
+  "consolidatedAvg": 52.71,
+  "consolidatedRank": 94,
+  "traction": {
+    "tractionRank": 76,
+    "tractionScore": 49,
+    "tractionReason": "Three school pilots; over 90% requested continued use"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/bloomy.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/bloomy.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/bloomy.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/bloomy.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/bloomy.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/bloomy.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/bloomy.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/bloomy.md"
+    }
+  }
+}

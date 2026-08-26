@@ -1,6 +1,6 @@
 ﻿# Trope
 
-> The AI-native ERP systems integrator
+> The AI-native ERP system integrator
 
 | Field | Value |
 |-------|-------|
@@ -10,75 +10,74 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | SaaS, B2B, AI |
-| YC Partner | Jon Xu |
-| Emails | matthew@trope.ai |
+| Tags | Artificial Intelligence, SaaS, B2B |
+| YC Partner | Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/trope), Aug 2026) |
+| Emails | matthew@trope.ai ([Y Combinator](https://www.ycombinator.com/launches/RIb-trope-modernize-erp-implementations-with-ai), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** Mid-market companies implementing Microsoft Dynamics 365 Business Central or migrating from GP/NAV face configuration, data, testing, training, and coordination work that incumbent partners bill hourly across six-to-eighteen-month projects ([Trope](https://trope.ai/), Jul 2026).
-- **Approach:** Trope’s agents perform configuration, migration, testing, documentation, reconciliations, monitoring, reporting, and collections, while principal consultants scope projects and approve delivery gates ([Trope services](https://trope.ai/services/erp-implementation), Jul 2026).
-- **Differentiation:** Trope contrasts its fixed-price, weeks-long delivery with hourly ERP partners, distinguishes its process-owning agents from Microsoft Copilot’s question-answering function, and implements Business Central rather than replacing the ERP as DualEntry, Campfire, and Rillet do ([Trope](https://trope.ai/services/managed-agents), Jul 2026; [DualEntry](https://www.dualentry.com/funding-announcement), Sep 2025).
-- **Business Model:** Implementations and migrations receive one fixed price after scoping, Microsoft licenses are billed separately, and post-go-live managed agents are sold as a separate service, with no public dollar prices ([Trope implementation](https://trope.ai/services/erp-implementation), Jul 2026).
-- **TAM/SAM:** Microsoft Dynamics services, including implementation, migration, customization, and managed services, were estimated at $16.1B in 2026 and projected to reach $37.6B by 2034 at an 11.2% CAGR ([Research and Markets](https://www.researchandmarkets.com/reports/6242961/microsoft-dynamics-services-market-outlook), 2026).
-- **GTM / Distribution:** Trope solicits direct implementation calls and offers white-label managed agents, proofs of concept, and co-selling to SIs, VARs, Microsoft Dynamics partners, and ISVs ([Trope partner program](https://trope.ai/partners/sis-vars), Jul 2026).
+- **Problem:** Companies implementing ERPs face missed requirements, configuration drift, late data problems, and consultant-led projects that Trope says commonly run six to eighteen months on hourly billing ([Y Combinator](https://www.ycombinator.com/launches/RIb-trope-modernize-erp-implementations-with-ai), Jul 2026; [Trope](https://trope.ai/), Aug 2026).
+- **Approach:** Trope’s agents turn meetings into action items, inspect configurations, migrate and reconcile data, run tests, generate documentation, and execute post-go-live processes while principal consultants approve delivery gates ([Trope implementation page](https://trope.ai/services/erp-implementation), Aug 2026).
+- **Differentiation:** Versus conventional hourly ERP partners, Trope quotes a fixed implementation price and targets go-live in weeks, while versus Microsoft Copilot it offers custom agents that own processes through an in-house harness and field-level Business Central APIs ([Trope](https://trope.ai/products/business-central), Jul 2026).
+- **Business Model:** Fixed-fee implementations and migrations are priced after scoping, followed by optional managed agents operated and monitored by Trope, but no public dollar amounts are disclosed ([Trope implementation page](https://trope.ai/services/erp-implementation), Aug 2026; [managed-agents page](https://trope.ai/services/managed-agents), Aug 2026).
+- **TAM/SAM:** The global ERP implementation-services market was estimated at $29.52 billion in 2025 and projected to reach $44.09 billion by 2031 at a 7.27% CAGR ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/erp-implementation-services-market), 2026).
+- **GTM / Distribution:** Trope solicits direct scoping calls from Business Central buyers and offers co-branded or white-label agents through systems integrators, VARs, and Microsoft Dynamics partners ([Trope partner page](https://trope.ai/partners/sis-vars), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Trope cites an in-house agent harness and custom Business Central APIs, while its open-source desktop-control layer has 366 commits, 27 stars, and four forks ([Trope](https://trope.ai/services/erp-implementation), Jul 2026; [GitHub](https://github.com/tropeai/trope-cua), Jul 2026).
-- **Future moat:** [Inferred]: Reusable migration mappings, workflow histories, tests, and exception data could improve delivery across engagements, but no current-product deployment volume is public.
-- **Market structure:** No structural barrier is evident because Microsoft gives consultants and users an in-product custom-agent designer using the same runtime as its built-in agents ([Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/envision-prototype-custom-ai-agents-using-agent-designer), Jun 2026).
-- **Commoditization risk:** Microsoft partners can build agents through Business Central’s AI Development Toolkit, while funded AI-native ERPs can avoid the implementation layer by replacing the underlying system ([Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/planned-features), 2026; [Campfire](https://campfire.ai/blog/campfire-65-million-series-b-co-led-by-accel-and-ribbit), Oct 2025).
+- **Moat today:** Trope reports an in-house agent harness, custom field-level Business Central APIs, native side panels, release-wave testing, and principal consultants collectively credited with 200+ implementations and 20+ years of ERP experience ([Trope](https://trope.ai/services/managed-agents), Aug 2026).
+- **Future moat:** [Inferred]: Deployment run logs, exception histories, migration mappings, and ERP-specific tests could become a proprietary evaluation corpus, but Trope has not disclosed its current deployment volume.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Microsoft, existing Dynamics partners, and AI consultancies could assemble overlapping agents using Business Central APIs, Azure Foundry, WorkIQ, Copilot Studio, and their existing customer channels ([Trope Dynamics-partner page](https://trope.ai/partners/microsoft-dynamics), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 547 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/tropeai), Jul 2026).
-  - Trope CUA has 27 GitHub stars, four forks, and 366 commits ([GitHub](https://github.com/tropeai/trope-cua), Jul 2026).
-  - Five role categories appear on Trope’s careers page, although YC lists zero jobs ([Trope Careers](https://trope.ai/careers), Jul 2026; [YC](https://www.ycombinator.com/companies/trope), Jul 2026).
-  - Prior workflow-guidance product: one nonprofit client’s legacy system served 400+ staff, and company-reported initial tests showed two-to-three-times faster completion and 90% fewer errors ([UBC Engineering](https://engineering.ubc.ca/spotlight/student-project/trope-ai-platform-to-reliably-run-back-office-workflows), May 2026).
-- **Competitors (adjacent):**
-  - DualEntry (over $100M raised, revenue unknown): replaces legacy ERP with an AI-native system and 13,000 integrations, whereas Trope implements Microsoft Business Central ([DualEntry](https://www.dualentry.com/funding-announcement), Sep 2025).
-  - Campfire ($100M raised, revenue unknown): replaces NetSuite and SAP with its accounting ERP, whereas Trope automates implementation and operation of an existing Microsoft ERP ([Campfire](https://campfire.ai/blog/campfire-65-million-series-b-co-led-by-accel-and-ribbit), Oct 2025).
-  - Rillet (over $100M raised, revenue unknown): supplies an AI-native finance ERP, while Trope combines Business Central delivery with managed agents ([Rillet](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq), Aug 2025).
-  - [Inferred]: The funded alternatives primarily replace ERPs rather than sell agent-run implementation services, leaving traditional Microsoft SIs and Microsoft’s native tooling as Trope’s closer substitutes.
-- **Why now:** [Inferred]: Microsoft’s September 2024 announcement that Dynamics GP support ends December 31, 2029 creates migration demand while Business Central’s custom-agent designer entered public preview in February 2026 ([Microsoft](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2024/09/25/announcing-end-of-support-for-dynamics-gp/), Sep 2024; [Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/envision-prototype-custom-ai-agents-using-agent-designer), Jun 2026).
+  - Current ERP product launched publicly in July 2026 ([Trope launch announcement](https://trope.ai/launch), Jul 2026).
+  - Company LinkedIn page had 594 followers ([LinkedIn](https://www.linkedin.com/company/tropeai), Aug 2026).
+  - Trope CUA, the company’s open-source computer-use layer, had 28 GitHub stars and four forks ([GitHub](https://github.com/tropeai), Aug 2026).
+  - YC listed zero open jobs ([Y Combinator](https://www.ycombinator.com/companies/trope), Aug 2026).
+  - Prior workflow product, not the current ERP-integration offering: paid pilots and a contract covering an organization with more than 400 staff were reported, with initial tests indicating two-to-three-times faster completion and 90% fewer errors ([UBC Engineering](https://engineering.ubc.ca/spotlight/student-project/trope-ai-platform-to-reliably-run-back-office-workflows), May 2026).
+- **Competitors:** [Inferred]: The closest venture-funded substitutes are AI-native ERPs that replace legacy systems rather than firms implementing Microsoft Business Central.
+  - Campfire (more than $100M raised, revenue unknown): provides an AI-native finance ERP, while Trope implements and operates agents inside Business Central ([Campfire](https://campfire.ai/blog/campfire-65-million-series-b-co-led-by-accel-and-ribbit), Oct 2025).
+  - Rillet (more than $100M raised, revenue unknown): automates accounting on its own ERP platform rather than delivering Microsoft ERP migrations ([Rillet](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq), Aug 2025).
+  - DualEntry (more than $100M raised, revenue unknown): offers an AI-native ERP and migration product, while Trope retains Microsoft Business Central as the system of record ([DualEntry](https://www.dualentry.com/funding-announcement), Oct 2025).
+- **Why now:** [Inferred]: Migration demand is time-bounded because Microsoft stopped selling Dynamics GP to new customers in April 2025, GP support ends December 31, 2029, and NAV 2018 extended support ends January 11, 2028 ([Microsoft GP lifecycle](https://learn.microsoft.com/en-us/lifecycle/products/dynamics-gp), Aug 2026; [Microsoft NAV lifecycle](https://learn.microsoft.com/en-us/lifecycle/products/dynamics-nav-2018), Aug 2026).
 
 ## Founders & Team
 
 - **Matthew Chow (Co-Founder):**
-  - Background: Chow studied computer engineering at UBC and built production firmware or software at Tesla, Zipline, Generac, and Schneider Electric ([UBC](https://coop.apsc.ubc.ca/2024-award-recipient-matthew-chow), 2024; [YC](https://www.ycombinator.com/companies/trope), 2026).
-  - Twitter/X: @mattchowx, approximately 1K followers ([TwStalker](https://site.twstalker.com/mattchowx), Jul 2026).
-  - LinkedIn: Profile lists Trope (YC S26), with 2K followers; headline not retrievable ([LinkedIn](https://www.linkedin.com/in/mdchow), Jul 2026).
-  - GitHub: @MatthewChow03; top pinned repository UBC-Solar/firmware_v3 has 12 stars ([GitHub](https://github.com/MatthewChow03), Jul 2026).
+  - Background: UBC computer-engineering graduate whose embedded software work included Tesla Cybertruck firmware, Zipline drone systems, Generac energy simulations, and Schneider Electric experience ([UBC](https://coop.apsc.ubc.ca/2024-award-recipient-matthew-chow); [Y Combinator](https://www.ycombinator.com/companies/trope)).
+  - Twitter/X: @mattchowx, approximately 1K followers ([TwStalker](https://site.twstalker.com/mattchowx), Aug 2026).
+  - LinkedIn: “Trope (YC S26),” with approximately 3K followers ([LinkedIn](https://www.linkedin.com/in/mdchow), Jul 2026).
+  - GitHub: @MatthewChow03; UBC-Solar/firmware_v3 had 12 stars ([GitHub](https://github.com/MatthewChow03), Aug 2026).
 - **Victor Vannara (Co-Founder):**
-  - Background: Vannara studied computer science at UBC, completed three Amazon internships spanning LLM/RAG support systems, MCP tooling, and distributed systems, and interned at A Thinking Ape ([Vannara](https://vannara.com/), Jul 2026).
-  - Twitter/X: @victorvannara, 239 followers ([TwStalker](https://mobile.twstalker.com/victorvannara), Jul 2026).
-  - LinkedIn: Profile lists Trope (YC S26), with 1K followers; headline not retrievable ([LinkedIn](https://www.linkedin.com/in/victor-vannara), Jul 2026).
-  - GitHub: @voctory; top pinned repository tropeai/trope-cua has 27 stars ([GitHub](https://github.com/voctory), Jul 2026).
-- **Co-founder relationship:** Chow and Vannara grew up in Vancouver and met at UBC ([YC Launch](https://www.ycombinator.com/launches/RIb-trope-modernize-erp-implementations-with-ai), Jul 2026).
-- **Founder-market fit:** [Inferred]: Chow’s production firmware work and Vannara’s agent, MCP, and distributed-systems experience align with the delivery engine, while ERP expertise is publicly attributed to unnamed principal consultants with 200+ implementations across 20+ years ([Trope](https://trope.ai/), Jul 2026).
+  - Background: UBC computer-science graduate who completed three Amazon engineering internships involving AI support agents, MCP tooling, and distributed systems, plus an A Thinking Ape internship ([Victor Vannara](https://vannara.com/); [Y Combinator](https://www.ycombinator.com/companies/trope)).
+  - Twitter/X: @victorvannara, 242 followers ([TwStalker](https://mobile.twstalker.com/victorvannara), Aug 2026).
+  - LinkedIn: “Trope (YC S26),” with approximately 1K followers ([LinkedIn](https://www.linkedin.com/in/victor-vannara), Jul 2026).
+  - GitHub: @voctory; tropeai/trope-cua had 28 stars ([GitHub](https://github.com/voctory), Aug 2026).
+- **Co-founder relationship:** Chow and Vannara grew up in Vancouver and met at the University of British Columbia ([Y Combinator](https://www.ycombinator.com/launches/RIb-trope-modernize-erp-implementations-with-ai), Jul 2026).
+- **Founder-market fit:** Their documented experience spans production software, AI agents, distributed systems, and a prior paid workflow-automation product, supplemented by unnamed principal consultants credited with 200+ ERP implementations ([UBC Engineering](https://engineering.ubc.ca/spotlight/student-project/trope-ai-platform-to-reliably-run-back-office-workflows), May 2026; [Trope](https://trope.ai/), Aug 2026).
 
 ## Key Risks
 
-- **Microsoft dependency and substitution:** Trope currently concentrates on Business Central while Microsoft is adding built-in agents, MCP connectivity, and user-designed agents; Trope mitigates this by using its own harness and custom APIs ([Microsoft Learn](https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave2/smb/dynamics365-business-central/planned-features), 2026; [Trope](https://trope.ai/services/managed-agents), 2026).
-- **Positioning transition:** Trope’s May 2026 product documented and guided cross-application workflows, its July YC launch targeted implementation partners, and its current website sells end-to-end ERP services, so prior-product customers and test results should not be treated as current-product traction ([UBC Engineering](https://engineering.ubc.ca/spotlight/student-project/trope-ai-platform-to-reliably-run-back-office-workflows), May 2026; [YC Launch](https://www.ycombinator.com/launches/RIb-trope-modernize-erp-implementations-with-ai), Jul 2026).
-- **ERP data and action authority:** Agents can access financial data and operate workflows, but Trope says they run in the customer’s Microsoft environment, expose permissions and run logs, and route ambiguous postings or collections messages to humans ([Trope](https://trope.ai/services/managed-agents), Jul 2026).
-- **Capitalized adjacent products:** DualEntry, Campfire, and Rillet each report more than $100M or $100M in funding to replace legacy ERPs, while Trope’s mitigation is preserving and implementing Business Central rather than requiring replacement ([DualEntry](https://www.dualentry.com/funding-announcement), 2025; [Campfire](https://campfire.ai/blog/campfire-65-million-series-b-co-led-by-accel-and-ribbit), 2025; [Rillet](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq), 2025).
-- **Name collision:** Searches also surface unrelated Trope-se and Trope Publishing businesses, partially mitigated by the `trope.ai` domain and “YC S26” identifier ([Trope-se LinkedIn](https://www.linkedin.com/company/tropese/), Jul 2026; [Trope Publishing LinkedIn](https://www.linkedin.com/company/trope-reader), Jul 2026).
+- **Microsoft platform concentration:** Trope currently implements Business Central and runs agents through Microsoft infrastructure, exposing delivery to API, product, and commercial-policy changes; Trope says it retests agents against each Microsoft release wave ([Trope](https://trope.ai/services/managed-agents), Aug 2026).
+- **Product-transition validation:** Public paid-pilot evidence concerns the May 2026 workflow-guidance product, while the current ERP-services product launched in July 2026 and has no disclosed current-product customers or revenue ([UBC Engineering](https://engineering.ubc.ca/spotlight/student-project/trope-ai-platform-to-reliably-run-back-office-workflows), May 2026; [Trope](https://trope.ai/launch), Jul 2026).
+- **Financial-process accuracy:** Agents may touch reconciliations, invoices, collections, pricing, and master data, where incorrect actions can propagate into financial records; Trope routes ambiguous items to people, retains run logs, and initially prevents unattended posting ([Trope](https://trope.ai/services/managed-agents), Aug 2026).
+- **Substitution:** Campfire, Rillet, and DualEntry have each raised more than $100 million to build AI-native ERPs, while Microsoft already supplies Copilot inside Business Central ([Campfire](https://campfire.ai/blog/campfire-65-million-series-b-co-led-by-accel-and-ribbit), Oct 2025; [Rillet](https://www.rillet.com/blog/rillet-raises-70m-series-b-from-andreessen-horowitz-and-iconiq), Aug 2025; [DualEntry](https://www.dualentry.com/funding-announcement), Oct 2025).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $16.1B Microsoft Dynamics services market in 2026, projected to $37.6B by 2034 at 11.2% CAGR (Research and Markets, 2026) |
-| SAM | $2.3B Business Central consulting-services market in 2025, projected to $4.5B by 2033 at 9.1% CAGR (Verified Market Reports, 2026) |
-| Traction | 547 LinkedIn followers (LinkedIn, Jul 2026); 27 GitHub stars, four forks, and 366 commits (GitHub, Jul 2026); prior workflow-guidance product reported one nonprofit client and initial tests showing 2–3x faster completion and 90% fewer errors (UBC Engineering, May 2026) |
-| Revenue Signal | Current product uses fixed implementation pricing set at scoping, with managed agents sold separately and no dollar amount disclosed (Trope, Jul 2026); prior workflow-guidance product secured paying customers and paid pilots (UBC Engineering, May 2026) |
-| Founders | Matthew Chow (Co-Founder): UBC computer engineering, Tesla and Zipline firmware (YC; UBC, 2026); Victor Vannara (Co-Founder): UBC computer science, Amazon and A Thinking Ape engineering (YC; Vannara, 2026) |
-| Competitors | DualEntry (over $100M raised, revenue unknown, ERP replacement); Campfire ($100M raised, revenue unknown, NetSuite/SAP replacement); Rillet (over $100M raised, revenue unknown, finance ERP) (company funding announcements, 2025) |
-| Moat Signals | In-house agent harness and custom Business Central APIs (Trope, Jul 2026); trope-cua has 366 commits and 27 stars (GitHub, Jul 2026) |
-| Risk Factors | Microsoft-native agent substitution (Microsoft Learn, 2026), product-positioning transition (UBC Engineering and YC, May–Jul 2026), financial-data and action authority (Trope, Jul 2026) |
-| Founder Reach | Matthew Chow: Twitter 1K, LinkedIn 2K+, top GitHub repo 12 stars (TwStalker, LinkedIn, GitHub, Jul 2026); Victor Vannara: Twitter 239, LinkedIn 1K+, top GitHub repo 27 stars (TwStalker, LinkedIn, GitHub, Jul 2026) |
-| Distribution Signals | 547 company LinkedIn followers (LinkedIn, Jul 2026); 27 GitHub stars (GitHub, Jul 2026); five careers-page role categories and zero YC-listed jobs (Trope Careers; YC, Jul 2026) |
-| Emails | matthew@trope.ai (YC Launch, Jul 2026) |
+| TAM | $29.52B in 2025, projected to $44.09B by 2031 at 7.27% CAGR (Mordor Intelligence, 2026) |
+| SAM | No public data found |
+| Traction | Current ERP offering launched July 2026 (Trope, Jul 2026); prior workflow product had paid pilots and one contracted organization with 400+ staff (UBC Engineering, May 2026); LinkedIn 594 followers (LinkedIn, Aug 2026); Trope CUA 28 GitHub stars (GitHub, Aug 2026) |
+| Revenue Signal | Current implementations use fixed pricing set at scoping, with managed agents sold separately; dollar amounts and current-product revenue are undisclosed (Trope, Aug 2026) |
+| Founders | Matthew Chow (Co-Founder): UBC computer engineering, Tesla, Zipline and Schneider Electric; Victor Vannara (Co-Founder): UBC computer science, Amazon AI-agent work and A Thinking Ape (Y Combinator, Aug 2026) |
+| Competitors | Campfire (>$100M raised, revenue unknown, standalone AI-native ERP); Rillet (>$100M raised, revenue unknown, finance ERP); DualEntry (>$100M raised, revenue unknown, AI-native ERP and migrations) (company funding announcements, 2025) |
+| Moat Signals | In-house harness, custom Business Central APIs, native side panels, release-wave tests, and consultants credited with 200+ implementations (Trope, Aug 2026) |
+| Risk Factors | Microsoft platform concentration, post-transition current-product validation, financial-agent accuracy, funded ERP substitutes (Trope, UBC Engineering and competitor funding announcements, 2025–2026) |
+| Founder Reach | Matthew Chow: X ~1K, LinkedIn ~3K, GitHub top repo 12 stars; Victor Vannara: X 242, LinkedIn ~1K, GitHub top repo 28 stars (TwStalker, LinkedIn and GitHub, Aug 2026) |
+| Distribution Signals | LinkedIn 594 followers (LinkedIn, Aug 2026); YC Launch in July 2026 (Y Combinator, Jul 2026); Trope CUA 28 GitHub stars (GitHub, Aug 2026); zero YC job postings (Y Combinator, Aug 2026) |
+| Emails | matthew@trope.ai (Y Combinator, Jul 2026) |

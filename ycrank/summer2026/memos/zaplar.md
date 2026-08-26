@@ -6,91 +6,90 @@
 |-------|-------|
 | Website | https://zaplar.com |
 | YC Page | https://www.ycombinator.com/companies/zaplar |
-| Batch | Summer 2026 |
+| Batch | Summer 2026 ([YC](https://www.ycombinator.com/companies/zaplar)) |
 | Industry | B2B / B2B -> Operations |
 | Team Size | 8 |
 | Location | Stockholm, Stockholm County, Sweden |
 | Tags | B2B, AI |
-| YC Partner | Jared Friedman |
-| Emails | No public data found |
+| YC Partner | Jared Friedman ([YC](https://www.ycombinator.com/companies/zaplar)) |
+| Emails | founders@zaplar.com ([Zaplar contact page](https://zaplar.com/contact)) |
 
 ## The Idea
 
-- **Problem:** Hotels operate across 5–15 separate systems, while disconnected room, event, spa, and food-and-beverage data requires manual reconciliation and can leave managers spending more than 400 hours annually switching systems ([Y Combinator](https://www.ycombinator.com/companies/zaplar), Jul 2026; [Zaplar](https://zaplar.com/), Jul 2026).
-- **Approach:** Zaplar replaces PMS, POS, booking, messaging, and related systems with software that models each property’s spaces, resources, people, and bookings, then plans routine work while presenting consequential actions for staff approval ([Zaplar](https://zaplar.com/), Jul 2026).
-- **Differentiation:** Unlike Mews’s cloud and AI-enabled end-to-end platform, Cloudbeds’s hospitality-management suite, and Canary’s guest-management layer, Zaplar describes a property model through which agents execute operational work across the hotel rather than only centralizing workflows or guest communication ([Zaplar](https://zaplar.com/), [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), [Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/), [Canary Technologies](https://www.canarytechnologies.com/press/canary-raises-series-d), 2026).
-- **Business Model:** [Inferred]: The demo-led website and absence of published tiers indicate negotiated B2B software pricing, potentially varying by property size and selected PMS, POS, booking, and payment configuration.
-- **TAM/SAM:** The hotel and hospitality management software market was valued at $4.2 billion in 2025 and is projected to reach $7.0 billion by 2033 at a 7.2% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/hotel-hospitality-management-software-market-report), 2026); no public Zaplar-specific SAM estimate was found.
-- **GTM / Distribution:** Zaplar uses founder-led hotel visits, conference attendance, demos, California Hotel & Lodging Association membership, and a full-time GTM hire who previously supported sales for three months ([Zaplar LinkedIn](https://se.linkedin.com/company/zaplar), Jul 2026; [Lukas Meier](https://www.linkedin.com/posts/lukas-meier-_ive-now-officially-joined-zaplar-yc-s26-activity-7476306442002567169-dJHu), Jul 2026).
+- **Problem:** Hotels operate 5–15 separate systems—including PMS, POS, booking, channel-management, revenue-management, and housekeeping tools—which isolate operational context and require staff to reconcile data across systems ([YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
+- **Approach:** Zaplar spatially maps each property and its resources into one architecture on which AI agents coordinate work across PMS, POS, bookings, housekeeping, messaging, and other functions while surfacing actions for staff approval ([YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
+- **Differentiation:** Mews and Cloudbeds provide integrated cloud hospitality platforms while Apaleo connects more than 250 applications through an API-first architecture, whereas Zaplar describes a vertically integrated, spatially mapped system intended to let agents reason across operational boundaries ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), [Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/), [Apaleo](https://apaleo.com/blog/apaleo-news/apaleo-secures-20-million-growth-equity-investment), [YC](https://www.ycombinator.com/companies/zaplar)).
+- **Business Model:** [Inferred]: Zaplar likely sells hotel-level or group-level software contracts through a demo-led sales process because its site requires prospects to book a demo and publishes no tiers, per-room fees, or usage rates ([Zaplar](https://zaplar.com/)).
+- **TAM/SAM:** The global hotel and hospitality management-software market was $4.2 billion in 2025 and is forecast to reach $7.0 billion in 2033 at a 7.2% CAGR, while no public SAM estimate was found for Zaplar’s targeted independent, boutique, luxury, and small-to-mid-sized hotel groups ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/hotel-hospitality-management-software-market-report), 2026).
+- **GTM / Distribution:** Zaplar uses founder-led hotel visits instead of cold-email volume and requests introductions to hotel owners, operators, and group executives planning system replacements, focusing on independent, boutique, luxury, and small-to-mid-sized groups ([Zaplar](https://zaplar.com/blog/we-dont-cold-email-hotels), Jul 2026; [YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** The system models each hotel’s spaces and resources and runs property-specific workflows, creating operational configuration and accumulated-property-data switching costs, although no retention or migration data are public ([Zaplar](https://zaplar.com/), Jul 2026).
-- **Future moat:** [Inferred]: Workflow histories, guest profiles, and property-specific operational data could improve automation and raise migration costs, but public sources do not establish a proprietary dataset or measured learning advantage.
-- **Market structure:** No structural barrier identified at this stage; Oracle already combines cloud PMS, POS, event management, open APIs, and regulatory support across more than 200 countries and territories ([Oracle](https://www.oracle.com/latam/hospitality/hotel-property-management/hotel-pms-software/)).
-- **Commoditization risk:** Mews is funding AI development after a $300 million Series D, while Canary offers hotel-specific AI Voice and Webchat, giving funded hospitality platforms resources to add overlapping agent functionality ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), Jan 2026; [Canary Technologies](https://www.canarytechnologies.com/press/canary-raises-series-d), Jun 2025).
+- **Moat today:** Zaplar’s property graph and constrained-optimization system reportedly reduced estimated walking distance by an average of 20% across initial tests involving tens of housekeeping schedules, but this result is company-reported ([Zaplar R&D](https://zaplar.com/blog/the-surprising-mathematics-behind-housekeeping-scheduling), Jul 2026).
+- **Future moat:** [Inferred]: Property-specific layouts, workflow histories, operating rules, and cross-module data could create accumulated context and migration costs, but public sources do not establish scaled deployments or retention.
+- **Market structure:** Zaplar argues that incumbent PMS vendors would need to replace the underlying architecture supporting their existing products and integrations to provide boundary-free automation, creating potential product-cannibalization and migration conflicts ([YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
+- **Commoditization risk:** [Inferred]: Mews can fund overlapping AI-agent capabilities following its $300 million January 2026 round, while Apaleo already markets an AI-powered PMS that connects autonomous agents and third-party applications ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), Jan 2026; [Apaleo](https://apaleo.com/), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - SEK 3 million raised from Nyman Holding and Michael Ingelög ([Bronn](https://bronnhq.com/blog/zaplar), Jun 2026).
-  - More than 100 hotels interviewed before product development ([Bronn](https://bronnhq.com/blog/zaplar), Jun 2026).
-  - Five hotels added to the waitlist in 48 hours ([Axel Andersson Lingbert LinkedIn](https://se.linkedin.com/in/axel-andersson-lingbert-0332b2322), Apr 2026).
-  - 821 LinkedIn followers ([Zaplar LinkedIn](https://se.linkedin.com/company/zaplar), Jul 2026).
-  - Accepted into NVIDIA Inception ([Zaplar LinkedIn](https://www.linkedin.com/posts/zaplar_zaplar-has-been-accepted-into-nvidias-inception-activity-7441951694009282560-qfhx), Jun 2026).
-  - Joined the California Hotel & Lodging Association ([Zaplar LinkedIn](https://www.linkedin.com/company/zaplar), Jul 2026).
-  - Two Stockholm founding-engineer listings appear on the company website, while YC lists zero jobs ([Zaplar About](https://zaplar.com/about), Jul 2026; [Y Combinator](https://www.ycombinator.com/companies/zaplar), Jul 2026).
-- **Competitors:**
-  - Mews ($300 million Series D, ARR unknown): operates an end-to-end hospitality platform covering pricing, payments, housekeeping, staffing, and events across 15,000 customers ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), Jan 2026).
-  - Cloudbeds ($253 million total raised, ARR unknown): provides a cloud hospitality-management suite for independent hotels, hostels, vacation rentals, and hotel groups ([Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/), Nov 2021).
-  - Canary Technologies (nearly $180 million total raised, ARR unknown): concentrates on hotel guest-management technology, including AI Voice and Webchat, rather than replacing the full operating stack ([TechCrunch](https://techcrunch.com/2025/06/12/hotel-management-platform-canary-nabs-80m-series-d-from-yc-insight-partners/), Jun 2025).
-  - Oracle Hospitality (corporate funding not applicable, ARR unknown): combines OPERA Cloud PMS with MICROS Simphony POS, event management, integrations, and multinational fiscal compliance ([Oracle](https://www.oracle.com/latam/hospitality/hotel-property-management/hotel-pms-software/)).
-- **Why now:** [Inferred]: Hotel-specific AI platforms are moving from messaging interfaces toward operational execution as Mews deploys new Series D capital into AI and Canary launches voice and web-chat agents, reducing the technical cost of automating hospitality workflows ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), Jan 2026; [Canary Technologies](https://www.canarytechnologies.com/press/canary-raises-series-d), Jun 2025).
+  - Pilot customers operated in several countries, without a disclosed customer count ([Bronn](https://bronnhq.com/blog/zaplar), Jun 2026).
+  - The founders interviewed more than 100 hotels before beginning product development ([Bronn](https://bronnhq.com/blog/zaplar), Jun 2026).
+  - Zaplar raised SEK 3 million from Nyman Holding and Michael Ingelög before joining YC ([Bronn](https://bronnhq.com/blog/zaplar), Jun 2026).
+  - Zaplar had 897 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/zaplar), Aug 2026).
+  - Zaplar announced admission to NVIDIA Inception and membership in the California Hotel & Lodging Association ([LinkedIn](https://www.linkedin.com/company/zaplar), Aug 2026).
+  - The company website listed a full-time Founding Engineer opening, while YC displayed 0 jobs ([Zaplar](https://zaplar.com/about), Aug 2026; [YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
+  - Swedish technology publication Breakit covered Zaplar’s YC admission ([Breakit](https://www.breakit.se/artikel/46674/studenterna-hoppar-av-universitetet-nu-antas-zaplar-till-y-combinator-viktigt-kvitto), Jul 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Mews ($811.6 million raised, revenue unknown): its latest $300 million Series D was led by EQT Growth in January 2026, and its hospitality OS served 15,000 customers versus Zaplar’s disclosed pilots ([CB Insights](https://www.cbinsights.com/company/mews-1/financials); [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment)).
+  - Cloudbeds ($253 million raised, revenue unknown): its latest disclosed $150 million Series D was led by SoftBank Vision Fund 2 in November 2021, and its integrated platform targets independent hotels, hostels, vacation rentals, and hotel groups ([Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/)).
+  - Apaleo ($31.24 million raised, revenue unknown): its latest €20 million round was led by PSG Equity in November 2024, and its differentiator is a modular API-first platform rather than Zaplar’s vertical integration ([CB Insights](https://www.cbinsights.com/company/apaleo/financials); [Apaleo](https://apaleo.com/blog/apaleo-news/apaleo-secures-20-million-growth-equity-investment)).
+- **Why now:** [Inferred]: The catalyst is the 2025–2026 shift from conversational AI toward agents that mediate hotel discovery, booking, and service, which IDC identified in January 2026 and Zaplar extends into property operations ([IDC](https://www.idc.com/resource-center/blog/agentic-ai-will-redefine-travel-and-hospitality-in-2026/), Jan 2026).
 
 ## Founders & Team
 
-- **Axel Andersson Lingbert (CEO and co-founder):**
-  - Background: Worked in hotels and restaurants, left an engineering-mathematics MSc at Lund, and co-led an AML/CTF group at a Swedish bank ([Y Combinator](https://www.ycombinator.com/companies/zaplar)).
+- **Douglas Solberg (CEO):**
+  - Background: Studied physics and mathematics at the University of Chicago, interned at Newscoop and the Becker Friedman Institute, and founded a nonprofit that built 30 solar systems in Tanzania ([YC](https://www.ycombinator.com/companies/zaplar)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Zaplar”; 214 followers ([LinkedIn](https://se.linkedin.com/in/axel-andersson-lingbert-0332b2322), May 2026).
+  - LinkedIn: “Zaplar,” 796 followers ([LinkedIn](https://www.linkedin.com/in/douglas-solberg), Jul 2026).
   - GitHub: No public repos found.
-- **Jon Milles (CTO and co-founder):**
-  - Background: Left Lund’s computer-science MSc, worked as a security software engineer at age 17, and participated in Lund Formula Student’s first autonomous-driving team ([Y Combinator](https://www.ycombinator.com/companies/zaplar)).
+- **Jon Milles (CTO):**
+  - Background: Studied computer science at Lund Faculty of Engineering, worked in cybersecurity software from age 17, and participated in Lund Formula Student’s autonomous-driving team ([YC](https://www.ycombinator.com/companies/zaplar)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Computer science student focused on compiler theory, machine learning, and mathematics”; 677 followers ([LinkedIn](https://se.linkedin.com/in/jon-milles), Jun 2026).
+  - LinkedIn: “Computer science student focused on compiler theory, machine learning, and mathematics,” 677 followers ([LinkedIn](https://se.linkedin.com/in/jon-milles), Jun 2026).
   - GitHub: No public repos found.
-- **Douglas Solberg (CPO and co-founder):**
-  - Background: Studied physics and mathematics at the University of Chicago, interned in software engineering at Newscoop, and founded a nonprofit that built 30 solar systems in Tanzania ([Y Combinator](https://www.ycombinator.com/companies/zaplar)).
+- **Axel Andersson Lingbert (COO):**
+  - Background: Studied engineering mathematics at Lund Faculty of Engineering, worked in hotels and restaurants, and co-led an AML/CTF group at a Swedish bank ([YC](https://www.ycombinator.com/companies/zaplar)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Zaplar (YC S26)”; 796 followers ([LinkedIn](https://www.linkedin.com/in/douglas-solberg), Jun 2026).
+  - LinkedIn: “Zaplar,” 214 followers ([LinkedIn](https://se.linkedin.com/in/axel-andersson-lingbert-0332b2322), Jun 2026).
   - GitHub: No public repos found.
-- **Oscar Karlströmer (CFO and co-founder):**
-  - Background: Left Stockholm School of Economics after making its Honors List, founded an academic-competition nonprofit serving 40,000 students, and led APAC B2B projects involving accounts above A$1 million ([Y Combinator](https://www.ycombinator.com/companies/zaplar)).
+- **Oscar Karlströmer (CFO):**
+  - Background: Attended Stockholm School of Economics, founded a nonprofit serving 40,000 students with a 13-person team, and led APAC B2B projects involving accounts exceeding A$1 million ([YC](https://www.ycombinator.com/companies/zaplar)).
   - Twitter/X: No public account found.
-  - LinkedIn: “Zaplar”; approximately 1,000 followers ([LinkedIn](https://se.linkedin.com/in/oscarkarlstromer), Jul 2026).
+  - LinkedIn: “Zaplar,” approximately 2,000 followers ([LinkedIn](https://se.linkedin.com/in/oscarkarlstromer), Aug 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Axel Andersson Lingbert and Jon Milles attended Lund Faculty of Engineering, while no public source establishes when the four founders first began working together ([Y Combinator](https://www.ycombinator.com/companies/zaplar)).
-- **Founder-market fit:** Axel’s hotel and restaurant work supplies operating exposure, Jon supplies security and autonomous-systems experience, and Oscar supplies B2B sales experience, while the team reports interviewing more than 100 hotels before coding ([Y Combinator](https://www.ycombinator.com/companies/zaplar); [Bronn](https://bronnhq.com/blog/zaplar), Jun 2026).
+- **Co-founder relationship:** Axel Andersson Lingbert and Jon Milles both attended Lund Faculty of Engineering ([YC](https://www.ycombinator.com/companies/zaplar)).
+- **Founder-market fit:** Axel’s hotel and restaurant work and Douglas’s family hotel background supplied operational exposure, while Jon contributes cybersecurity and autonomous-systems experience and Oscar contributes B2B sales experience ([YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
 
 ## Key Risks
 
-- **Full-stack implementation scope:** Zaplar proposes replacing PMS, POS, booking, messaging, payments, and adjacent tools, while Oracle supports integrations and fiscal requirements in more than 200 countries and territories, creating migration, reliability, and localization requirements ([Zaplar](https://zaplar.com/); [Oracle](https://www.oracle.com/latam/hospitality/hotel-property-management/hotel-pms-software/)).
-- **Competitive overlap:** Mews already covers pricing, payments, housekeeping, staffing, and event management for 15,000 customers and raised $300 million for AI and platform expansion ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), Jan 2026).
-- **Product-scope transition:** Zaplar’s public messaging shifted within months from event-booking automation and early access to replacing the hotel’s entire PMS/POS stack, leaving prior waitlist data attributable to the earlier event-management scope ([Axel Andersson Lingbert LinkedIn](https://se.linkedin.com/in/axel-andersson-lingbert-0332b2322), Apr 2026; [Zaplar](https://zaplar.com/), Jul 2026).
-- **Autonomous-action liability:** The system plans and completes routine work while staff approve suggested actions, so incorrect booking, refund, payment, or scheduling actions could affect hotel operations; the approval interface is the disclosed mitigation ([Zaplar](https://zaplar.com/), Jul 2026).
+- **Core-system migration:** Zaplar proposes replacing as many as 15 hotel systems and targets groups already planning a core replacement, tying adoption to data migration, integrations, staff retraining, and infrequent procurement windows ([YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
+- **Incumbent platform competition:** Mews reported 15,000 customers and raised $300 million in January 2026, while Cloudbeds had raised $253 million, giving both existing distribution and resources for overlapping product development ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment); [Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/)).
+- **Operational-agent safety:** Zaplar’s agents are intended to act across bookings, payments, housekeeping, messaging, and vendor coordination; staff review and approval provide mitigation, but no public uptime data or security certification was found ([Zaplar](https://zaplar.com/), Aug 2026).
+- **Scope expansion:** Zaplar began with event-booking software for Douglas’s family and expanded toward PMS, POS, booking, channel management, housekeeping, revenue management, and other hotel functions, increasing the number of workflows requiring production reliability ([YC](https://www.ycombinator.com/companies/zaplar), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.2B in 2025, projected to $7.0B by 2033 at 7.2% CAGR (Grand View Research, 2026) |
+| TAM | $4.2B global hotel and hospitality management-software market in 2025, growing at 7.2% CAGR through 2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/hotel-hospitality-management-software-market-report), 2026) |
 | SAM | No public data found |
-| Traction | SEK 3M raised (Bronn, Jun 2026); five hotels added to waitlist in 48 hours (Axel Andersson Lingbert LinkedIn, Apr 2026); NVIDIA Inception acceptance (Zaplar LinkedIn, Jun 2026) |
+| Traction | Pilot customers in several countries and 100+ hotel interviews ([Bronn](https://bronnhq.com/blog/zaplar), Jun 2026); 897 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/zaplar), Aug 2026) |
 | Revenue Signal | No public data found |
-| Founders | Axel Andersson Lingbert (CEO): hotel operations, Lund engineering mathematics, bank AML/CTF; Jon Milles (CTO): computer science, security engineering, autonomous driving; Douglas Solberg (CPO): UChicago physics and mathematics, Newscoop SWE; Oscar Karlströmer (CFO): Stockholm School of Economics, APAC B2B sales (Y Combinator, Jul 2026) |
-| Competitors | Mews ($300M Series D, ARR unknown, end-to-end hospitality platform) (Mews, Jan 2026); Cloudbeds ($253M total raised, ARR unknown, cloud lodging-management suite) (Cloudbeds, Nov 2021); Canary Technologies (nearly $180M total raised, ARR unknown, guest-management AI) (TechCrunch, Jun 2025); Oracle Hospitality (corporate funding not applicable, ARR unknown, multinational PMS/POS suite) (Oracle, Jul 2026) |
-| Moat Signals | Property-specific spatial/resource models and configurable operational workflows (Zaplar website, Jul 2026) |
-| Risk Factors | Full-stack migration and localization burden, funded incumbent overlap, transition from event software to complete hotel OS (Zaplar; Oracle; Mews, Jul 2026) |
-| Founder Reach | Axel: LinkedIn 214; Jon: LinkedIn 677; Douglas: LinkedIn 796; Oscar: LinkedIn approximately 1,000; no verified Twitter or GitHub reach found (LinkedIn profiles, May–Jul 2026) |
-| Distribution Signals | LinkedIn 821 followers, California Hotel & Lodging Association membership, two website job listings (Zaplar LinkedIn and website, Jul 2026) |
-| Emails | No public data found |
+| Founders | Douglas Solberg (CEO): UChicago physics/mathematics and family hotel exposure; Jon Milles (CTO): computer science and cybersecurity; Axel Andersson Lingbert (COO): engineering mathematics, hospitality and banking compliance; Oscar Karlströmer (CFO): B2B sales and nonprofit founder ([YC](https://www.ycombinator.com/companies/zaplar); [Zaplar](https://zaplar.com/about), Aug 2026) |
+| Competitors | Mews ($811.6M raised, revenue unknown, scaled hospitality OS) ([CB Insights](https://www.cbinsights.com/company/mews-1/financials)); Cloudbeds ($253M raised, revenue unknown, integrated cloud platform) ([Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/)); Apaleo ($31.24M raised, revenue unknown, API-first modular platform) ([CB Insights](https://www.cbinsights.com/company/apaleo/financials)) |
+| Moat Signals | Spatial property graph and company-reported 20% average estimated walking-distance reduction across initial tests on tens of schedules ([Zaplar R&D](https://zaplar.com/blog/the-surprising-mathematics-behind-housekeeping-scheduling), Jul 2026) |
+| Risk Factors | Multi-system migration burden ([YC](https://www.ycombinator.com/companies/zaplar)); incumbent platform competition ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment)); operational-agent safety requirements ([Zaplar](https://zaplar.com/)) |
+| Founder Reach | Douglas: LinkedIn 796; Jon: LinkedIn 677; Axel: LinkedIn 214; Oscar: LinkedIn approximately 2,000; no verified Twitter/X or GitHub reach found ([Douglas](https://www.linkedin.com/in/douglas-solberg), [Jon](https://se.linkedin.com/in/jon-milles), [Axel](https://se.linkedin.com/in/axel-andersson-lingbert-0332b2322), [Oscar](https://se.linkedin.com/in/oscarkarlstromer), 2026) |
+| Distribution Signals | 897 LinkedIn followers, founder-led hotel visits, and one full-time Founding Engineer listing ([LinkedIn](https://www.linkedin.com/company/zaplar); [Zaplar GTM post](https://zaplar.com/blog/we-dont-cold-email-hotels); [Zaplar about page](https://zaplar.com/about), Aug 2026) |
+| Emails | founders@zaplar.com ([Zaplar contact page](https://zaplar.com/contact), Aug 2026) |

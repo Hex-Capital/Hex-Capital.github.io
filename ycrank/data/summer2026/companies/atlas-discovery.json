@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://atlasdiscovery.bio",
     "yc_page": "https://www.ycombinator.com/companies/atlas-discovery",
-    "batch": "Summer 2026 ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
+    "batch": "Summer 2026",
     "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
-    "team_size": "3 ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "AI-powered Drug Discovery, Drug discovery, Biotechnology",
-    "yc_partner": "Ankit Gupta ([YC profile](https://www.ycombinator.com/companies/atlas-discovery), Jul 2026)",
-    "emails": "founders@atlasdiscovery.bio ([YC Launch](https://www.ycombinator.com/launches/RqJ-atlas-discovery-foundation-models-that-predict-patient-outcomes), Jul 2026)"
+    "yc_partner": "Ankit Gupta",
+    "emails": "founders@atlasdiscovery.bio"
   },
   "tags": [
     "AI-powered Drug Discovery",
@@ -19,52 +19,52 @@
     "Biotechnology"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:05:35.622Z",
+  "memoGeneratedAt": "2026-08-11T05:48:23.536Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 57,
+      "score": 53,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 44,
+      "score": 30,
       "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 40,
       "tier": "Pass"
     },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 26,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 46,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 44,
-    "NR": 51,
-    "PG": 61,
-    "PT": 43,
-    "SL": 40,
-    "VK": 66
+    "CB": 53,
+    "EG": 30,
+    "NR": 40,
+    "PG": 36,
+    "PT": 39,
+    "SL": 26,
+    "VK": 46
   },
-  "consolidatedAvg": 51.71,
-  "consolidatedRank": 103,
+  "consolidatedAvg": 38.57,
+  "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 38,
-    "tractionReason": "Trial backtests and research venues; no customers"
+    "tractionRank": 171,
+    "tractionScore": 34,
+    "tractionReason": "Retrospective clinical benchmarks; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

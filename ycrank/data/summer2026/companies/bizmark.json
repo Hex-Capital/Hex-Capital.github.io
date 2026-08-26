@@ -20,52 +20,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:44:12.075Z",
+  "memoGeneratedAt": "2026-08-11T05:24:38.323Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 43,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 48,
+    "elad-gil": {
+      "score": 50,
       "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 53,
-    "NR": 52,
-    "PG": 69,
-    "PT": 39,
-    "SL": 43,
-    "VK": 48
+    "CB": 43,
+    "EG": 50,
+    "NR": 40,
+    "PG": 42,
+    "PT": 25,
+    "SL": 36,
+    "VK": 29
   },
-  "consolidatedAvg": 51.86,
-  "consolidatedRank": 101,
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 48,
-    "tractionReason": "Building with first customers; no revenue disclosed"
+    "tractionRank": 127,
+    "tractionScore": 46,
+    "tractionReason": "Building deployments with first customers"
   },
   "paths": {
     "memo": "summer2026/memos/bizmark.md",

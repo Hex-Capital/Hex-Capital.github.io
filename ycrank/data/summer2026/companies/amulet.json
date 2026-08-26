@@ -21,52 +21,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:28:01.156Z",
+  "memoGeneratedAt": "2026-08-11T04:33:56.930Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 55,
+      "score": 52,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 57,
+      "score": 49,
       "tier": "Neutral"
     },
-    "peter-thiel": {
-      "score": 44,
+    "paul-graham": {
+      "score": 38,
       "tier": "Pass"
     },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
     "sam-lessin": {
-      "score": 32,
+      "score": 29,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 28,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 55,
-    "NR": 65,
-    "PG": 57,
-    "PT": 44,
-    "SL": 32,
-    "VK": 47
+    "CB": 42,
+    "EG": 52,
+    "NR": 49,
+    "PG": 38,
+    "PT": 47,
+    "SL": 29,
+    "VK": 28
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 119,
+  "consolidatedAvg": 40.71,
+  "consolidatedRank": 155,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 43,
-    "tractionReason": "Private-beta partners; no paying usage disclosed"
+    "tractionRank": 183,
+    "tractionScore": 30,
+    "tractionReason": "Private beta with small-batch access"
   },
   "paths": {
     "memo": "summer2026/memos/amulet.md",

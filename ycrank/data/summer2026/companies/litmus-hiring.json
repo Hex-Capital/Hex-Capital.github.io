@@ -10,60 +10,60 @@
     "team_size": "3",
     "location": "New York City, NY, USA",
     "tags": "Recruiting, Talent Acquisition",
-    "yc_partner": "Jared Friedman ([YC company profile, Jul 2026](https://www.ycombinator.com/companies/litmus-hiring))",
-    "emails": "founders@litmushiring.com, support@litmushiring.com ([company website, Jul 2026](https://litmushiring.com/); [documentation, Jul 2026](https://litmushiring.com/docs))"
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@litmushiring.com, support@litmushiring.com"
   },
   "tags": [
     "Recruiting",
     "Talent Acquisition"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:10:01.531Z",
+  "memoGeneratedAt": "2026-08-11T05:52:09.297Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
       "score": 43,
       "tier": "Pass"
     },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 56,
+      "tier": "Neutral"
+    },
     "paul-graham": {
-      "score": 73,
-      "tier": "Invest"
+      "score": 57,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 42,
+      "score": 44,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 49,
+      "score": 46,
       "tier": "Neutral"
     },
     "vinod-khosla": {
-      "score": 40,
+      "score": 27,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 71,
-    "NR": 43,
-    "PG": 73,
-    "PT": 42,
-    "SL": 49,
-    "VK": 40
+    "CB": 43,
+    "EG": 55,
+    "NR": 56,
+    "PG": 57,
+    "PT": 44,
+    "SL": 46,
+    "VK": 27
   },
-  "consolidatedAvg": 52.86,
+  "consolidatedAvg": 46.86,
   "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 31,
+    "tractionRank": 40,
     "tractionScore": 68,
-    "tractionReason": "$60K ARR in first month; 3,000 assessments"
+    "tractionReason": "$60K ARR and 3,000 assessments"
   },
   "paths": {
     "memo": "summer2026/memos/litmus-hiring.md",

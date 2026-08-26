@@ -1,0 +1,1 @@
+﻿I’m using the repository’s browsing skill because this dossier requires current, source-level verification across the company, YC, founder, and competitor pages. I’ll keep the supplied header fields unchanged and label anything unsupported exactly as requested.

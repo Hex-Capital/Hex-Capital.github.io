@@ -11,73 +11,76 @@
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Travel |
-| YC Partner | Brad Flora |
-| Emails | adrian@axelrod.live, saman@axelrod.live |
+| YC Partner | Brad Flora ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/axelrod)) |
+| Emails | adrian@axelrod.live, saman@axelrod.live ([company website, Aug 2026](https://axelrod.live/)) |
 
 ## The Idea
 
-- **Problem:** [Inferred]: Boutique, independent, and luxury hotels coordinate arrivals, rooms, rates, access, maintenance, supplies, and owner reporting across separate property-management, channel, pricing, messaging, and accounting systems, leaving staff to move work manually between them.
-- **Approach:** Axelrod deploys computer-use AI agents that execute non-physical front- and back-of-house tasks through a hotel’s existing systems, with connected accounts authorized by customers ([Axelrod website](https://axelrod.live/); [California Hotel & Lodging Association via LinkedIn](https://www.linkedin.com/company/axelrod-labs), Jul 2026).
-- **Differentiation:** [Inferred]: Unlike Cloudbeds and Mews, which provide replacement or unified hospitality platforms, and Canary, which centers on guest-management workflows, Axelrod positions itself as an operating layer that works through systems already installed rather than replacing them.
-- **Business Model:** [Inferred]: Customer-specific paid contracts are the apparent monetization path because the service is governed by a written agreement with each hotel, but no public price or billing unit is disclosed ([Axelrod terms](https://axelrod.live/)).
-- **TAM/SAM:** The global hotel and hospitality management-software market was valued at $4.2 billion in 2025 and forecast to reach $7.0 billion in 2033 at a 7.2% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/hotel-hospitality-management-software-market-report), 2026); no public SAM estimate was found for autonomous boutique-hotel operations.
-- **GTM / Distribution:** [Inferred]: Founder-led sales to boutique, independent, luxury, and resort operators, supported by membership in the California Hotel & Lodging Association and an inbound form requesting the prospect’s property and operating context ([Axelrod website](https://axelrod.live/); [CHLA announcement via LinkedIn](https://www.linkedin.com/company/axelrod-labs), Jul 2026).
+- **Problem:** Boutique, independent, luxury, and resort hotels coordinate arrivals, rooms, rates, maintenance, supplies, accounting, and guest requests through staff and fragmented software, leaving administrative work manual ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/axelrod)).
+- **Approach:** Axelrod maps each hotel’s operation, stores property procedures and guest history in a memory layer, decomposes requests among role-specific agents, and uses computer/browser control to operate existing PMS, POS, and RMS interfaces without APIs ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/axelrod)).
+- **Differentiation:** Zaplar replaces hotels’ fragmented stack, Mews supplies an integrated PMS/POS/RMS platform, and Lance emphasizes calls and guest communications, whereas Axelrod positions itself above existing systems to coordinate front- and back-of-house work ([Zaplar](https://www.ycombinator.com/companies/zaplar), [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), and [Lance](https://www.ycombinator.com/companies/lance), 2026).
+- **Business Model:** [Inferred]: Contracted B2B sales to individual hotels or hotel groups, because the service is governed by a written customer agreement and the website solicits property and operator details rather than publishing self-service pricing ([Axelrod terms, Jul 2026](https://axelrod.live/)).
+- **TAM/SAM:** The global hotel-operations AI market was estimated at $8.3 billion in 2025 and projected to reach $19.2 billion by 2034 at a 9.8% CAGR, while no public SAM estimate was found for boutique and luxury properties ([MarketIntelo, 2026](https://marketintelo.com/report/hotel-operations-ai-market)).
+- **GTM / Distribution:** [Inferred]: Founder-led sales to hotel owners, management groups, general managers, and hotel technology executives, matching the introductions requested in Axelrod’s YC launch and the operator-information form on its website ([Y Combinator](https://www.ycombinator.com/companies/axelrod) and [company website](https://axelrod.live/), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Axelrod reports deployment across four continents and use by Michelin Key-awarded and Marriott Luxury Collection properties, providing customer-workflow exposure, but it states that one customer’s data is not used to serve another ([YC company profile](https://www.ycombinator.com/companies/axelrod); [Axelrod privacy notice](https://axelrod.live/)).
-- **Future moat:** [Inferred]: Repeated execution across hotel workflows could produce property-specific process knowledge and switching costs, although the prohibition on cross-customer data use limits evidence for a shared-data advantage.
+- **Moat today:** Each deployment encodes a property’s procedures and guest history in a property-specific memory layer, creating operational configuration and data that would need to be transferred or rebuilt when switching vendors ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/axelrod)).
+- **Future moat:** [Inferred]: Repeated execution could deepen property-specific workflow knowledge and switching costs, but cross-customer data effects are unproven because Axelrod says one customer’s data is not used to serve another ([Axelrod terms, Jul 2026](https://axelrod.live/)).
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Funded hospitality platforms already combine operational, revenue, guest-experience, messaging, and AI functions, including Cloudbeds, Mews, and Canary ([Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/); [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment); [Canary](https://www.canarytechnologies.com/press/canary-raises-50m-ai-hotel-technology)).
+- **Commoditization risk:** Lance already uses computer-use agents in existing hotel systems, Zaplar is developing autonomous hotel operations, and Mews is adding agent-driven automation to its hospitality platform ([Lance](https://www.ycombinator.com/companies/lance), [Zaplar](https://www.ycombinator.com/companies/zaplar), and [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Live across four continents and trusted by Michelin Key-awarded boutique hotels ([YC company profile](https://www.ycombinator.com/companies/axelrod), Jul 2026).
-  - Powers Michelin Key-awarded and Marriott Luxury Collection properties ([Axelrod website](https://axelrod.live/), Jul 2026).
-  - California Hotel & Lodging Association membership ([CHLA announcement via LinkedIn](https://www.linkedin.com/company/axelrod-labs), Jul 2026).
-  - Zero active job listings ([YC company profile](https://www.ycombinator.com/companies/axelrod), Jul 2026).
+  - Live across four continents ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/axelrod)).
+  - Powering Michelin Key-awarded and Marriott Luxury Collection properties ([company website, Aug 2026](https://axelrod.live/)).
+  - Company claims one butler can cover 4× the rooms when using its agents ([Y Combinator launch, Aug 2026](https://www.ycombinator.com/companies/axelrod)).
+  - California Hotel & Lodging Association announced Axelrod as a member ([LinkedIn, Aug 2026](https://www.linkedin.com/company/axelrod-labs)).
+  - 0 active YC job postings ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/axelrod)).
 - **Competitors (minimum 3, up to 5):**
-  - Cloudbeds ($253 million raised, revenue unknown): unified PMS, distribution, guest-experience, revenue-management, and marketing platform, whereas Axelrod operates through systems already installed ([Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/), Nov 2021).
-  - Mews ($300 million Series D announced, revenue unknown): cloud hospitality operating system with embedded payments and commerce infrastructure, whereas Axelrod emphasizes cross-system task execution ([Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), Jan 2026).
-  - Canary Technologies ($50 million Series C announced, revenue unknown): guest-management suite covering check-in, checkout, upsells, messaging, tipping, and AI, whereas Axelrod claims both front- and back-of-house scope ([Canary Technologies](https://www.canarytechnologies.com/press/canary-raises-50m-ai-hotel-technology), Jun 2024).
-- **Why now:** [Inferred]: The recent commercialization of computer-use AI agents permits software to operate existing hotel interfaces where APIs are absent, matching Axelrod’s July 2026 description of agents performing non-physical tasks without APIs ([CHLA announcement via LinkedIn](https://www.linkedin.com/company/axelrod-labs), Jul 2026).
+  - Lance ($5 million raised, $2.2 million contracted revenue): computer-use hotel agents with an emphasis on calls, sales, work orders, and staff coordination ([Y Combinator](https://www.ycombinator.com/companies/lance) and [LinkedIn funding announcement](https://www.linkedin.com/posts/y-combinator_lance-yc-w26-has-raised-5m-to-build-ai-activity-7455301051810885632-U1JV), 2026).
+  - Zaplar (funding and revenue unknown): replaces 5–15 hotel tools with an AI-native operating system rather than operating above the installed stack ([Y Combinator, 2026](https://www.ycombinator.com/companies/zaplar)).
+  - RobosizeME ($2 million raised, revenue unknown): automates repetitive reservations, finance, revenue-management, and back-office workflows ([PR Newswire, Feb 2026](https://www.prnewswire.com/news-releases/robosizeme-raises-2m-seed-round-led-by-seedtwo-capital-to-bring-ai-workflow-automation-to-the-global-hotel-industry-302696668.html)).
+  - Canary Technologies (nearly $180 million raised, revenue unknown): concentrates on hotel guest-management functions including messaging, digital check-in, upselling, and payments ([TechCrunch, Jun 2025](https://techcrunch.com/2025/06/12/hotel-management-platform-canary-nabs-80m-series-d-from-yc-insight-partners/)).
+  - Mews ($811.6 million raised, revenue unknown): supplies an integrated PMS, POS, RMS, housekeeping, and payments operating system and is embedding agents within that platform ([Owler](https://www.owler.com/company/mewssystems/funding) and [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), Jan 2026).
+- **Why now:** [Inferred]: Computer-use agents can now navigate legacy hotel interfaces without APIs, enabling Axelrod and Lance to automate workflows across fragmented systems rather than waiting for vendor integrations ([Axelrod](https://www.ycombinator.com/companies/axelrod) and [Lance](https://www.ycombinator.com/companies/lance), 2026).
 
 ## Founders & Team
 
 - **Saman Sayahpour (Co-Founder):**
-  - Background: Dropped out of Carnegie Mellon University’s Logic and Computation bachelor’s program after research involving causal machine learning, prediction markets, photonic computing, and collective decision-making; the company says he grew up behind the reception desk of a Vienna hotel ([YC founder profile](https://www.ycombinator.com/companies/axelrod); [Axelrod website](https://axelrod.live/)).
+  - Background: Dropped out of Carnegie Mellon’s Logic & Computation program after earlier mathematics study at the University of Vienna and worked on causal machine learning, prediction markets, photonic processors, compilers, and collective decision-making ([Y Combinator](https://www.ycombinator.com/companies/axelrod) and [Happenstance](https://happenstance.ai/u/730ba1e2-c266-401f-9614-41250e021e1c), 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Founder at Axelrod (YC S26)” with 702 followers and 500+ connections ([LinkedIn](https://www.linkedin.com/in/saman-sayahpour), Jul 2026).
+  - LinkedIn: “Y Combinator,” with 1,247 followers ([LinkedIn, Aug 2026](https://at.linkedin.com/in/sayahpour/de)).
   - GitHub: No public repos found.
 - **Adrian Lucas Tariel Stoica (Co-Founder):**
-  - Background: Previously researched AI awareness, co-produced Sony Music records totaling more than 40 million streams, and grew up cleaning guest apartments in Berlin ([YC founder profile](https://www.ycombinator.com/companies/axelrod); [Axelrod website](https://axelrod.live/)).
+  - Background: Studied philosophy in CDTM’s Fall 2025 class, researched AI awareness, and co-produced Sony Music records totaling more than 40 million streams ([CDTM](https://cdtm.com/people/classes/munich/fall-2025) and [Y Combinator](https://www.ycombinator.com/companies/axelrod), 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Axelrod (YC S26)” ([LinkedIn directory](https://www.linkedin.com/pub/dir/Adrian/Stoica), Jul 2026).
+  - LinkedIn: “Axelrod (YC S26),” with approximately 4,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/stoicaadrian)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** [Inferred]: Both founders report childhood exposure to lodging operations—Sayahpour at a Vienna hotel reception and Stoica cleaning Berlin guest apartments—but no public account of when they met was found ([Axelrod website](https://axelrod.live/)).
-- **Founder-market fit:** Sayahpour combines machine-learning research with hotel reception exposure, while Stoica reports AI-awareness research and guest-apartment operating experience ([YC founder profiles](https://www.ycombinator.com/companies/axelrod); [Axelrod website](https://axelrod.live/)).
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** The founders report growing up cleaning guest apartments in Berlin and behind a Vienna hotel reception, while Sayahpour’s systems research and Stoica’s AI research document exposure to hospitality operations and agent-related technology ([company website](https://axelrod.live/) and [Y Combinator](https://www.ycombinator.com/companies/axelrod), Aug 2026).
 
 ## Key Risks
 
-- **Operational-error exposure:** The product is intended to execute arrivals, access, rates, maintenance, accounting, and other hotel workflows, while its terms state that uninterrupted or error-free operation is not guaranteed ([Axelrod website and terms](https://axelrod.live/)).
-- **Customer-system dependency:** Customers must authorize access to connected mailboxes or property-management systems, and revoking that authorization ends Axelrod’s access ([Axelrod terms](https://axelrod.live/)).
-- **Security and privacy exposure:** The operating layer handles content from connected hotel accounts and coordinates work involving guests, rooms, owners, messaging, and accounting, making access controls and customer agreements part of deployment ([Axelrod privacy notice](https://axelrod.live/)).
-- **Platform overlap:** Cloudbeds, Mews, and Canary already offer overlapping hotel operations, guest communications, revenue, and AI capabilities, and each has announced institutional financing of at least $50 million ([Cloudbeds](https://www.cloudbeds.com/articles/cloudbeds-raises-150m-in-funding-to-support-rapid-company-growth/); [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment); [Canary](https://www.canarytechnologies.com/press/canary-raises-50m-ai-hotel-technology)).
-- **Name disambiguation:** “Axelrod” is shared by unrelated organizations and individuals, including a Philadelphia law firm, which can introduce search and brand-discovery ambiguity ([The Axelrod Firm on LinkedIn](https://www.linkedin.com/company/the-axelrod-firm-pc)).
+- **Interface-execution reliability:** Axelrod’s agents control third-party hotel systems through browser/computer use rather than APIs, so interface changes or execution errors can interrupt workflows; agents begin supervised and earn autonomy, while the terms disclaim uninterrupted or error-free operation ([Y Combinator](https://www.ycombinator.com/companies/axelrod) and [Axelrod terms](https://axelrod.live/), 2026).
+- **Operational-data access:** Customers grant access to systems such as mailboxes and property-management platforms, exposing guest and operational data to the service; customers can revoke access, and Axelrod states it neither sells the data nor uses one customer’s data for another ([Axelrod privacy and terms, 2026](https://axelrod.live/)).
+- **Competitive overlap:** Lance reports 50-plus hotels and $5 million in funding, while Mews raised a $300 million Series D to expand agent-driven hotel automation ([Lance](https://www.ycombinator.com/companies/lance) and [Mews](https://www.mews.com/en/press/mews-secures-300-million-investment), 2026).
+- **Commercial visibility:** Axelrod names property categories and four-continent deployment but publishes no customer count, contract value, revenue, pricing, or retention data ([company website](https://axelrod.live/) and [Y Combinator](https://www.ycombinator.com/companies/axelrod), Aug 2026).
+- **Name disambiguation:** “Axelrod” is shared with unrelated people and organizations in search results, while the company’s legal and public name is Axelrod Labs Inc.; consistent use of the domain and legal modifier can distinguish it ([company imprint](https://axelrod.live/), Jun 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.2 billion global hotel and hospitality management-software market in 2025, forecast to reach $7.0 billion by 2033 at 7.2% CAGR (Grand View Research, 2026) |
+| TAM | $8.3 billion hotel-operations AI market in 2025, projected to reach $19.2 billion by 2034 at a 9.8% CAGR (MarketIntelo, 2026) |
 | SAM | No public data found |
-| Traction | Live across four continents and trusted by Michelin Key-awarded boutique hotels (YC company profile, Jul 2026); powers Michelin Key-awarded and Marriott Luxury Collection properties (Axelrod website, Jul 2026); California Hotel & Lodging Association member (CHLA via LinkedIn, Jul 2026) |
+| Traction | Live across four continents; powering Michelin Key-awarded and Marriott Luxury Collection properties; company claims 4× rooms per butler ([Y Combinator](https://www.ycombinator.com/companies/axelrod) and [company website](https://axelrod.live/), Aug 2026) |
 | Revenue Signal | No public data found |
-| Founders | Saman Sayahpour (Co-Founder): Carnegie Mellon Logic and Computation dropout, causal-ML and prediction-market research, childhood hotel-reception experience (YC company profile; Axelrod website); Adrian Lucas Tariel Stoica (Co-Founder): AI-awareness research, Sony Music production totaling 40M+ streams, guest-apartment operating experience (YC company profile; Axelrod website) |
-| Competitors | Cloudbeds ($253M raised, revenue unknown, unified hospitality platform) (Cloudbeds, Nov 2021); Mews ($300M Series D announced, revenue unknown, operating system with embedded payments) (Mews, Jan 2026); Canary Technologies ($50M Series C announced, revenue unknown, guest-management and hotel AI suite) (Canary Technologies, Jun 2024) |
-| Moat Signals | Deployment across four continents and use by Michelin Key-awarded and Marriott Luxury Collection properties (YC company profile; Axelrod website, Jul 2026) |
-| Risk Factors | Operational errors across hotel workflows (Axelrod terms), connected-system access dependency (Axelrod terms), overlap from funded hospitality platforms (Cloudbeds; Mews; Canary Technologies) |
-| Founder Reach | Saman Sayahpour: LinkedIn 702 followers and 500+ connections (LinkedIn, Jul 2026); Adrian Stoica: no public follower or repository counts found (LinkedIn directory, Jul 2026) |
-| Distribution Signals | California Hotel & Lodging Association membership (CHLA via LinkedIn, Jul 2026); zero YC job listings (YC company profile, Jul 2026) |
-| Emails | adrian@axelrod.live, saman@axelrod.live (Axelrod website, Jul 2026) |
+| Founders | Saman Sayahpour (Co-Founder): Carnegie Mellon Logic & Computation dropout, causal-ML and photonic-computing research; Adrian Lucas Tariel Stoica (Co-Founder): AI-awareness research, CDTM philosophy student, Sony Music co-production credits exceeding 40 million streams ([Y Combinator](https://www.ycombinator.com/companies/axelrod) and [CDTM](https://cdtm.com/people/classes/munich/fall-2025), 2026) |
+| Competitors | Lance ($5 million raised, $2.2 million contracted revenue, computer-use hotel agents); Zaplar (funding and revenue unknown, replacement hotel OS); RobosizeME ($2 million raised, revenue unknown, back-office automation); Canary (nearly $180 million raised, revenue unknown, guest-management platform); Mews ($811.6 million raised, revenue unknown, integrated hospitality OS) ([Lance](https://www.ycombinator.com/companies/lance), [Zaplar](https://www.ycombinator.com/companies/zaplar), [RobosizeME](https://www.prnewswire.com/news-releases/robosizeme-raises-2m-seed-round-led-by-seedtwo-capital-to-bring-ai-workflow-automation-to-the-global-hotel-industry-302696668.html), [Canary](https://techcrunch.com/2025/06/12/hotel-management-platform-canary-nabs-80m-series-d-from-yc-insight-partners/), and [Mews](https://www.owler.com/company/mewssystems/funding), 2025–2026) |
+| Moat Signals | Property-specific SOP and guest-history memory layer; customer data is not pooled across customers ([Y Combinator](https://www.ycombinator.com/companies/axelrod) and [Axelrod terms](https://axelrod.live/), 2026) |
+| Risk Factors | Browser-interface execution reliability, access to hotel and guest systems, overlapping funded competitors ([Y Combinator](https://www.ycombinator.com/companies/axelrod), 2026) |
+| Founder Reach | Saman Sayahpour: LinkedIn 1,247; Adrian Stoica: LinkedIn approximately 4,000; Twitter and GitHub counts not found ([LinkedIn](https://at.linkedin.com/in/sayahpour/de) and [LinkedIn](https://www.linkedin.com/in/stoicaadrian), Jul–Aug 2026) |
+| Distribution Signals | California Hotel & Lodging Association membership; 0 active YC job postings ([LinkedIn](https://www.linkedin.com/company/axelrod-labs) and [Y Combinator](https://www.ycombinator.com/companies/axelrod), Aug 2026) |
+| Emails | adrian@axelrod.live, saman@axelrod.live ([company website, Aug 2026](https://axelrod.live/)) |

@@ -1,0 +1,83 @@
+{
+  "slug": "omanta",
+  "name": "Omanta",
+  "oneLiner": "A research lab for one",
+  "metadata": {
+    "website": "https://omanta.com/",
+    "yc_page": "https://www.ycombinator.com/companies/omanta",
+    "batch": "No public data found",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Digital Health, Healthcare, Health & Wellness, Oncology, AI",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Digital Health",
+    "Healthcare",
+    "Health & Wellness",
+    "Oncology",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:03:17.975Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 24,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 21,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 29,
+    "EG": 33,
+    "NR": 24,
+    "PG": 29,
+    "PT": 26,
+    "SL": 28,
+    "VK": 21
+  },
+  "consolidatedAvg": 27.14,
+  "consolidatedRank": 231,
+  "traction": {
+    "tractionRank": 233,
+    "tractionScore": 2,
+    "tractionReason": "No public traction data found"
+  },
+  "paths": {
+    "memo": "summer2026/memos/omanta.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/omanta.md",
+      "elad-gil": "summer2026/evals/elad-gil/omanta.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/omanta.md",
+      "paul-graham": "summer2026/evals/paul-graham/omanta.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/omanta.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/omanta.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/omanta.md"
+    }
+  }
+}

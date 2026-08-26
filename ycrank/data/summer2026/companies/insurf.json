@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.insurf.io",
     "yc_page": "https://www.ycombinator.com/companies/insurf",
-    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/insurf))",
+    "batch": "Summer 2026",
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Artificial Intelligence, Health Tech, Automation",
-    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/insurf))",
-    "emails": "founders@insurf.io ([LinkedIn](https://www.linkedin.com/company/insurf)), bryan@insurf.io ([Insurf Security](https://www.insurf.io/security))"
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/insurf), Aug 2026)",
+    "emails": "founders@insurf.io, bryan@insurf.io ([LinkedIn](https://www.linkedin.com/company/insurf), [Insurf Security](https://www.insurf.io/security), Aug 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "Automation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:51:06.400Z",
+  "memoGeneratedAt": "2026-08-11T05:30:49.482Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 53,
+      "score": 46,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
       "score": 41,
       "tier": "Pass"
     },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
     "vinod-khosla": {
-      "score": 42,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 57,
-    "NR": 49,
-    "PG": 56,
-    "PT": 43,
-    "SL": 41,
-    "VK": 42
+    "CB": 46,
+    "EG": 41,
+    "NR": 43,
+    "PG": 41,
+    "PT": 31,
+    "SL": 31,
+    "VK": 38
   },
-  "consolidatedAvg": 48.71,
-  "consolidatedRank": 129,
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 28,
-    "tractionReason": "Live demo only; customer evidence kept private"
+    "tractionRank": 129,
+    "tractionScore": 45,
+    "tractionReason": "Selected specialty-practice pilots"
   },
   "paths": {
     "memo": "summer2026/memos/insurf.md",

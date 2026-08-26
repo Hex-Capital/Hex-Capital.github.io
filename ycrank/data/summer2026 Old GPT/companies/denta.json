@@ -1,0 +1,81 @@
+{
+  "slug": "denta",
+  "name": "Denta",
+  "oneLiner": "The dental practice that runs itself",
+  "metadata": {
+    "website": "https://trydenta.com",
+    "yc_page": "https://www.ycombinator.com/companies/denta",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare -> Healthcare IT",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Dental, Healthcare IT, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "support@trydenta.com, jack@trydenta.com"
+  },
+  "tags": [
+    "Dental",
+    "Healthcare IT",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:35:10.589Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 72,
+    "EG": 56,
+    "NR": 43,
+    "PG": 72,
+    "PT": 39,
+    "SL": 52,
+    "VK": 37
+  },
+  "consolidatedAvg": 53,
+  "consolidatedRank": 91,
+  "traction": {
+    "tractionRank": 23,
+    "tractionScore": 72,
+    "tractionReason": "More than 50 dental locations live"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/denta.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/denta.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/denta.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/denta.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/denta.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/denta.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/denta.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/denta.md"
+    }
+  }
+}

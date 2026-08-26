@@ -11,73 +11,77 @@
 | Team Size | 2 |
 | Location | Seattle, WA, USA |
 | Tags | B2B, Healthcare |
-| YC Partner | Jon Xu |
-| Emails | No public data found |
+| YC Partner | Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026) |
+| Emails | prabha@hubble.ai, privacy@hubble.ai ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026; [Hubble Privacy Policy](https://hubble.ai/privacy), Jul 2026) |
 
 ## The Idea
 
-- **Problem:** Legal, life-sciences, research, and digital-health teams requesting longitudinal patient histories face weeks-long fax, portal, and release-of-information processes that return fragmented, unstructured records ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/hubble-ai)).
-- **Approach:** A patient authorizes access once, after which Hubble retrieves records from EHRs and payers through APIs, browser automation, and voice, normalizes them into one source-traceable record, and supports provider-mediated read/write access ([Hubble, Jul 2026](https://hubble.ai/)).
-- **Differentiation:** Unlike Particle Health’s REST API for HIN-sourced FHIR and C-CDA data, Health Gorilla’s national information network, and 1upHealth’s FHIR-native data cloud, Hubble combines patient- and provider-mediated access with API, browser, and voice retrieval plus a no-code workflow studio ([Hubble](https://hubble.ai/); [Particle Health](https://www.particlehealth.com/); [Health Gorilla](https://web.healthgorilla.com/home/company/about); [1upHealth](https://1up.health/news/health-data-cloud-leader-1uphealth-series-c/)).
-- **Business Model:** [Inferred]: Demo-led B2B pricing for data infrastructure and workflow automation, because the website solicits demos but publishes no tiers, unit prices, or free plan.
-- **TAM/SAM:** The global healthcare-interoperability-solutions market was forecast to reach $8.57 billion by 2030 at a 14.15% CAGR, while the U.S. segment generated $1.64 billion in 2025 and is forecast to reach $4.72 billion by 2033 at a 14.24% CAGR ([Grand View Research, Feb 2024](https://www.grandviewresearch.com/press-release/global-healthcare-interoperability-solutions-market); [Grand View Research, 2026](https://www.grandviewresearch.com/horizon/outlook/healthcare-interoperability-solutions-market/united-states)).
-- **GTM / Distribution:** [Inferred]: Founder-led sales targets digital-health product teams and healthcare operations teams through live demonstrations in which Hubble retrieves a patient record and builds a workflow around the prospect’s use case.
+- **Problem:** Digital-health, legal, and life-sciences teams wait weeks for records assembled through faxes, patient portals, release-of-information queues, and individual provider integrations, often receiving unstructured PDFs ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026).
+- **Approach:** A patient verifies identity once and authorizes retrieval under the HIPAA right of access, after which Hubble queries EHRs and HIEs and uses browser and voice agents when APIs are insufficient before normalizing the results behind one API ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026; [Hubble patient-access page](https://hubble.ai/solutions/patient-mediated-access), Aug 2026).
+- **Differentiation:** Particle Health, 1upHealth, and Health Gorilla primarily expose network or FHIR-based data exchange, while Hubble says it supplements APIs with browser and voice retrieval and supports both patient-mediated and provider-mediated workflows ([Hubble data-infrastructure page](https://hubble.ai/solutions/data-infrastructure), Aug 2026; [Particle Health](https://www.particlehealth.com/blog/series-b-25-million-interoperability), Jul 2022; [1upHealth](https://1up.health/news/health-data-cloud-leader-1uphealth-series-c/), Apr 2023; [Health Gorilla](https://web.healthgorilla.com/home/company/about), Aug 2026).
+- **Business Model:** [Inferred]: Hubble likely uses demo-led B2B contracts for its data and workflow products, while its patient-facing Individual Access Services carry no user fee as of August 10, 2026 ([Hubble website](https://hubble.ai/), Aug 2026; [Privacy and Security Notice](https://portal.hubble.ai/patient/privacy-notice), Aug 2026).
+- **TAM/SAM:** The broader global healthcare-interoperability-solutions market was estimated at $3.4B in 2023 and projected to reach $8.57B by 2030 at a 14.15% CAGR, but no public SAM was found for patient-mediated record retrieval specifically ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/healthcare-interoperability-market), 2024).
+- **GTM / Distribution:** Hubble uses direct demo outreach to digital-health companies and healthcare operations teams and solicits introductions to builders in care delivery, life sciences, legal technology, and patient-data products ([Hubble website](https://hubble.ai/), Aug 2026; [Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Hubble reports 40+ live tools spanning Epic, Cerner, athenahealth, UnitedHealthcare, Aetna, and other systems, with deterministic identifiers, permissioning, provenance, and per-call audit logs ([Hubble, Jul 2026](https://hubble.ai/)).
-- **Future moat:** [Inferred]: Broader system coverage and accumulated workflow reliability data could improve routing and normalization, but Hubble has not disclosed proprietary datasets, patents, or performance benchmarks.
-- **Market structure:** No structural barrier identified at this stage, as established interoperability vendors already operate national networks and API-based aggregation platforms ([Particle Health](https://www.particlehealth.com/); [Health Gorilla](https://web.healthgorilla.com/home/company/about)).
-- **Commoditization risk:** Particle Health, Health Gorilla, Zus Health, and 1upHealth already provide APIs or platforms for longitudinal clinical-data aggregation, normalization, provenance, and workflow integration ([Particle Health](https://www.particlehealth.com/); [Zus Health](https://zushealth.com/affirming-our-vision-of-a-connected-healthcare-ecosystem/); [1upHealth](https://1up.health/news/health-data-cloud-leader-1uphealth-series-c/)).
+- **Moat today:** Hubble reports 40+ production tools spanning Epic, Cerner, athenahealth, UnitedHealthcare, Aetna, and other systems, with normalized outputs, deterministic identifiers, source traceability, and per-call audit logs ([Hubble website](https://hubble.ai/), Aug 2026).
+- **Future moat:** [Inferred]: Provider-specific retrieval histories and workflow-outcome data could improve completion rates and create switching costs, but Hubble has not disclosed retrieval volume, retention, or accuracy data.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Particle Health, 1upHealth, Health Gorilla, and PicnicHealth already operate overlapping health-data aggregation or exchange products and have each raised at least $49M ([Particle Health](https://www.cbinsights.com/company/particle-health/financials), Aug 2026; [1upHealth](https://1up.health/news/1uphealth-reports-2023-as-record-year-of-growth-company-now-offers-largest-set-of-cms-apis-in-the-industry/), Jan 2024; [Health Gorilla](https://healthgorilla.com/blog/health-gorilla-secures-50-million-in-series-c-funding), Mar 2022; [PicnicHealth](https://picnic.ai/news-and-insights/series-c), Jun 2022).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 40+ tools live across Epic, Cerner, athenahealth, UnitedHealthcare, Aetna, and additional systems ([Hubble, Jul 2026](https://hubble.ai/)).
-  - Live in production across EHR and payer systems ([Hubble, Jul 2026](https://hubble.ai/)).
-  - Company-reported oversubscribed pre-seed financing, with amount and investors undisclosed ([Prabha Dublish via LinkedIn search snippet, Jul 2026](https://www.linkedin.com/in/kirstenmorbeck)).
-  - Zero YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/hubble-ai)).
+  - 40+ tools live across named EHR and payer systems ([Hubble website](https://hubble.ai/), Aug 2026).
+  - Customer testimonial: complete records delivered in one week and paralegal effort reduced from hours to minutes for an anonymized legal-technology customer ([Hubble case studies](https://hubble.ai/case-studies), Aug 2026).
+  - Customer testimonial: $340K in denied claims recovered during the first 90 days for an anonymized dental group ([Hubble case studies](https://hubble.ai/case-studies), Aug 2026).
+  - Customer testimonial: patient cost-estimate accuracy increased from 50% to 94% for an anonymized platform ([Hubble case studies](https://hubble.ai/case-studies), Aug 2026).
+  - 453 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/hubble-ai-health), Aug 2026).
+  - Oversubscribed pre-seed closed, with amount and investors undisclosed ([Prabha Dublish](https://www.linkedin.com/posts/prabhadublish_i-was-born-with-a-congenital-heart-defect-activity-7475982795492720640-uwzm), Jul 2026).
+  - 0 YC job postings ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Particle Health ($49.3M raised, revenue unknown): aggregates records through nationwide networks into FHIR R4 data and analytics, while Hubble also uses browser and voice channels and offers workflow composition ([Particle Health](https://www.particlehealth.com/blog/series-b-25-million-interoperability); [CB Insights](https://www.cbinsights.com/company/particle-health/financials)).
-  - Health Gorilla ($80M+ raised, revenue unknown): operates a national interoperability network and dual-designated QHIN/QHIO, versus Hubble’s mediated-access and agent-workflow layer ([Health Gorilla](https://web.healthgorilla.com/home/company/about)).
-  - 1upHealth ($75.9M raised, revenue unknown): provides a FHIR-native cloud for enterprise data acquisition, storage, computation, and CMS APIs, versus Hubble’s multi-channel retrieval and no-code workflows ([1upHealth, Jan 2024](https://1up.health/news/1uphealth-reports-2023-as-record-year-of-growth-company-now-offers-largest-set-of-cms-apis-in-the-industry/)).
-  - Zus Health (at least $40M raised, revenue unknown): provides a shared patient profile across APIs, browser software, and EHR integrations, while Hubble markets patient/provider mediation and source-level auditability ([Zus Health](https://zushealth.com/affirming-our-vision-of-a-connected-healthcare-ecosystem/)).
-- **Why now:** [Inferred]: CMS-0057-F requires affected payers to implement or enhance Patient Access, Provider Access, Payer-to-Payer, and Prior Authorization FHIR APIs, generally beginning January 1, 2027 ([CMS, Jan 2024](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f)).
+  - Particle Health ($49.34M raised, revenue unknown): network-sourced records normalized to FHIR, versus Hubble’s API-plus-browser-and-voice retrieval ([CB Insights](https://www.cbinsights.com/company/particle-health/financials), Aug 2026).
+  - 1upHealth ($75.9M raised, revenue unknown): FHIR-native data cloud serving payers, providers, and Medicaid agencies, versus Hubble’s patient-right-of-access and agent retrieval layer ([1upHealth](https://1up.health/news/1uphealth-reports-2023-as-record-year-of-growth-company-now-offers-largest-set-of-cms-apis-in-the-industry/), Jan 2024).
+  - Health Gorilla ($80M+ raised, revenue unknown): QHIN and national exchange infrastructure, versus Hubble’s patient/provider mediation and no-code workflows ([Health Gorilla](https://web.healthgorilla.com/home/company/about), Aug 2026).
+  - PicnicHealth ($100M+ raised, revenue unknown): patient-consented longitudinal records for real-world-data research, versus Hubble’s API and operations infrastructure across several customer categories ([PicnicHealth](https://picnic.ai/news-and-insights/series-c), Jun 2022).
+- **Why now:** [Inferred]: CMS’s April 2026 HealthTech Ecosystem launch, following 700+ organizational pledges and featuring 50+ companies, increases demand for verified identity, patient-controlled access, and interoperable applications matching Hubble’s architecture ([CMS](https://www.cms.gov/newsroom/press-releases/cms-launches-first-wave-healthtech-ecosystem-tools-fast-tracking-fully-digital-patient-centered), Apr 2026).
 
 ## Founders & Team
 
 - **Prabha Dublish (CEO):**
-  - Background: Babson College B.S. in Business Administration; former Meta product manager/product marketer and Grow Therapy’s first product hire, where she launched telehealth, marketplace, mobile, partner-integration, and AI-enabled-care products ([Leland](https://www.joinleland.com/coach/prabha-d); [LinkedIn, Jun 2026](https://www.linkedin.com/posts/prabhadublish_after-four-incredible-years-ive-left-grow-activity-7464750995474927616-EPjC)).
+  - Background: Babson College BBA in business analytics; former Meta PM/PMM and Grow Therapy’s first product hire, where she worked on telehealth, marketplace, mobile, partner-integration, and AI-care products ([The Org](https://theorg.com/org/grow-therapy/org-chart/prabha-dublish), Aug 2026; [LinkedIn](https://www.linkedin.com/posts/prabhadublish_after-four-incredible-years-ive-left-grow-activity-7464750995474927616-EPjC), Jul 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Founder at Hubble; previously first PM at Grow Therapy launching its first AI features and PM at Meta,” with 5,198 followers ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai); [LinkedIn, Jun 2026](https://www.linkedin.com/posts/prabhadublish_after-four-incredible-years-ive-left-grow-activity-7464750995474927616-EPjC)).
+  - LinkedIn: “Founder at Hubble AI (YC S26),” with approximately 5.3K followers ([LinkedIn](https://www.linkedin.com/posts/prabhadublish_people-sometimes-ask-how-aaron-leon-and-i-activity-7477855683304935424-eQF7), Aug 2026).
   - GitHub: No public repos found.
 - **Aaron Leon (CTO):**
-  - Background: Northwestern student developer and technical co-founder of Womentum; later Amazon One Medical tech lead who built EHR and AI infrastructure serving 1M+ patients and led 50+ engineers ([Northwestern](https://web.madstudio.northwestern.edu/mmlcs-new-student-employees/); [Hubble](https://hubble.ai/)).
-  - Twitter/X: Handle linked from Stack Overflow, but identity and follower count were not retrievable ([Stack Overflow](https://stackoverflow.com/users/5241747/aaron-leon)).
-  - LinkedIn: “CTO at Hubble; previously tech lead at Amazon One Medical” ([Y Combinator](https://www.ycombinator.com/companies/hubble-ai)).
-  - GitHub: Profile linked from Stack Overflow, but no public repository or star count was retrievable ([Stack Overflow](https://stackoverflow.com/users/5241747/aaron-leon)).
-- **Co-founder relationship:** Dublish and Leon met in college, built the Womentum nonprofit together, and later worked respectively on AI tools at Grow Therapy and EHR/AI infrastructure at Amazon One Medical ([Prabha Dublish, LinkedIn, Jul 2026](https://www.linkedin.com/posts/prabhadublish_people-sometimes-ask-how-aaron-leon-and-i-activity-7477855683304935424-eQF7)).
-- **Founder-market fit:** Dublish’s healthcare-product work at Grow Therapy and Leon’s EHR, data-platform, and healthcare-agent work at Amazon One Medical directly overlap with Hubble’s patient-data infrastructure product ([Hubble](https://hubble.ai/); [Y Combinator](https://www.ycombinator.com/companies/hubble-ai)).
+  - Background: Studied computer science at Northwestern University and later built Amazon Care’s data platform and One Medical EHR/AI infrastructure serving 1M+ patients ([Northwestern University](https://web.madstudio.northwestern.edu/mmlcs-new-student-employees/), 2016; [Hubble website](https://hubble.ai/), Aug 2026).
+  - Twitter/X: Historical @_AaronsThoughts handle; account unavailable and count not retrievable ([Stack Overflow](https://stackoverflow.com/users/5241747/aaron-leon), Aug 2026).
+  - LinkedIn: Public profile found; headline and follower count not retrievable.
+  - GitHub: @AaronLeon; top original repositories `wildhacks2016` and `eecs330_final_project` have 1 star each ([GitHub](https://github.com/AaronLeon), Aug 2026).
+- **Co-founder relationship:** Dublish and Leon met through mutual personal connections, built the Womentum nonprofit together in college, and have known each other for more than a decade ([LinkedIn](https://www.linkedin.com/posts/prabhadublish_people-sometimes-ask-how-aaron-leon-and-i-activity-7477855683304935424-eQF7), Aug 2026; [Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026).
+- **Founder-market fit:** Dublish’s healthcare-AI product work at Grow Therapy and Leon’s EHR, data-platform, and AI-infrastructure work at Amazon Health correspond directly to Hubble’s healthcare-data and agent workflows ([Hubble website](https://hubble.ai/), Aug 2026).
 
 ## Key Risks
 
-- **Coverage completeness:** Hubble promises records across systems but publicly identifies 40+ tools and only several named EHRs and payers, leaving the proportion of U.S. providers and record types reachable undisclosed ([Hubble](https://hubble.ai/)).
-- **Regulatory and security exposure:** The service processes protected health information through patient- and provider-mediated access across APIs, browsers, and voice, making consent scope, access controls, provenance, and audit reliability part of the core product surface ([Hubble](https://hubble.ai/)).
-- **Established-platform substitution:** Health Gorilla has raised $80M+ and holds QHIN/QHIO designations, while 1upHealth serves 75+ enterprises and 35M+ patients, giving buyers existing alternatives for interoperability infrastructure ([Health Gorilla](https://web.healthgorilla.com/home/company/about); [1upHealth](https://1up.health/news/health-data-cloud-leader-1uphealth-series-c/)).
-- **Identity confusion:** “Hubble AI” is also used by unrelated contract-management, cryptocurrency, and earlier AI-product companies, which can impair search visibility and attribution ([CoinDesk, Feb 2026](https://www.coindesk.com/business/2026/02/12/zkme-technology-wins-usd20-000-pitchfest-prize-at-consensus-hong-kong); [Hubble Japan](https://hubble-docs.com/about)).
+- **Regulatory-boundary clarity:** [Inferred]: Customer communications must distinguish Hubble’s platform claim of HIPAA compliance from its notice that direct Individual Access Services are not legally subject to HIPAA and instead use HIPAA-aligned and TEFCA safeguards ([Hubble website](https://hubble.ai/), Aug 2026; [Privacy and Security Notice](https://portal.hubble.ai/patient/privacy-notice), Aug 2026).
+- **Protected-record consent complexity:** Substance-use, psychotherapy, HIV, genetic, and minors’ records require separate authorization rather than a general request, limiting single-consent completeness ([Hubble patient-access page](https://hubble.ai/solutions/patient-mediated-access), Aug 2026).
+- **Retrieval dependency:** [Inferred]: Coverage and latency depend on external APIs, portals, phone systems, HIEs, and provider release processes that Hubble does not control, while its published legal case study still required one week ([Hubble data-infrastructure page](https://hubble.ai/solutions/data-infrastructure), Aug 2026; [Hubble case studies](https://hubble.ai/case-studies), Aug 2026).
+- **Competitive overlap:** Four adjacent platforms have raised between $49.34M and more than $100M and already provide medical-record aggregation or interoperability infrastructure ([CB Insights](https://www.cbinsights.com/company/particle-health/financials), Aug 2026; [PicnicHealth](https://picnic.ai/news-and-insights/series-c), Jun 2022).
+- **Name and domain ambiguity:** Search results also associate Hubble.ai with an unrelated older no-code AI-app product, while the current healthcare company was founded in 2026 with different founders and positioning ([SourceForge](https://sourceforge.net/software/product/Hubble.ai/), 2026; [Y Combinator](https://www.ycombinator.com/companies/hubble-ai), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $8.57B global healthcare-interoperability-solutions market by 2030, 14.15% CAGR (Grand View Research, Feb 2024) |
-| SAM | $1.64B U.S. healthcare-interoperability-solutions revenue in 2025, reaching $4.72B by 2033 at 14.24% CAGR (Grand View Research, 2026) |
-| Traction | 40+ live tools across named EHRs and payers; live in production (Hubble, Jul 2026) |
-| Revenue Signal | No public data found |
-| Founders | Prabha Dublish (CEO): Babson, Meta, first Grow Therapy product hire; Aaron Leon (CTO): Northwestern, Amazon Care, Amazon One Medical (Hubble; YC, Jul 2026) |
-| Competitors | Particle Health ($49.3M raised, revenue unknown, HIN/FHIR aggregation); Health Gorilla ($80M+ raised, revenue unknown, QHIN network); 1upHealth ($75.9M raised, revenue unknown, FHIR-native cloud); Zus Health (at least $40M raised, revenue unknown, shared patient profile) (company announcements, 2022–2024) |
-| Moat Signals | 40+ integrations/tools, deterministic identifiers, source provenance, permissioning, and per-call audit logs (Hubble, Jul 2026) |
-| Risk Factors | Undisclosed coverage completeness, PHI security and consent exposure, established interoperability competitors (Hubble; Health Gorilla; 1upHealth, Jul 2026) |
-| Founder Reach | Prabha Dublish: LinkedIn 5,198 followers; Aaron Leon: social counts not retrievable (LinkedIn search result; Stack Overflow, Jul 2026) |
-| Distribution Signals | Zero YC job postings; demo-led website; company-reported oversubscribed pre-seed with amount undisclosed (YC; Hubble; Prabha Dublish via LinkedIn search snippet, Jul 2026) |
-| Emails | No public data found |
+| TAM | $3.4B global healthcare-interoperability-solutions market in 2023, projected to $8.57B by 2030 at 14.15% CAGR (Grand View Research, 2024) |
+| SAM | No public data found |
+| Traction | 40+ live tools; customer testimonials of $340K recovered in 90 days, 50%-to-94% estimate accuracy, and one-week record delivery (Hubble website and case studies, Aug 2026) |
+| Revenue Signal | Individual Access Services have no user fee as of Aug 10, 2026; B2B pricing is not published (Hubble Privacy and Security Notice, Aug 2026) |
+| Founders | Prabha Dublish (CEO): Babson, Meta PM/PMM, first product hire at Grow Therapy; Aaron Leon (CTO): Northwestern CS, Amazon Care and One Medical EHR/AI infrastructure (The Org; Northwestern University; Hubble, Aug 2026) |
+| Competitors | Particle Health ($49.34M raised, revenue unknown, network/FHIR aggregation); 1upHealth ($75.9M raised, revenue unknown, FHIR data cloud); Health Gorilla ($80M+ raised, revenue unknown, QHIN exchange); PicnicHealth ($100M+ raised, revenue unknown, patient-consented research datasets) (company and CB Insights funding sources, 2022-2026) |
+| Moat Signals | 40+ production tools, patient- and provider-mediated access, deterministic IDs, source traceability, and per-call audit logs (Hubble website, Aug 2026) |
+| Risk Factors | HIPAA/IAS scope distinction, protected-record consent requirements, third-party retrieval dependencies, funded competitors (Hubble Privacy and Security Notice; Hubble patient-access page; competitor funding releases, 2022-2026) |
+| Founder Reach | Prabha Dublish: LinkedIn 5.3K, Twitter/GitHub not found; Aaron Leon: Twitter and LinkedIn counts not retrievable, GitHub top original repo 1 star (LinkedIn; Stack Overflow; GitHub, Aug 2026) |
+| Distribution Signals | 453 LinkedIn followers, YC launch post, 0 YC job postings (LinkedIn; Y Combinator, Aug 2026) |
+| Emails | prabha@hubble.ai, privacy@hubble.ai (Y Combinator, Aug 2026; Hubble Privacy Policy, Jul 2026) |

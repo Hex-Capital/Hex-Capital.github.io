@@ -8,10 +8,10 @@
     "batch": "Summer 2026",
     "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "4",
-    "location": "San Francisco, CA, USA",
+    "location": "Helsinki, Finland",
     "tags": "Artificial Intelligence, Fintech, Finance",
-    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/last-accounting-company), Jul 2026)",
-    "emails": "hello@lastaccountingcompany.com ([company website](https://lastaccountingcompany.com/), Jul 2026)"
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/last-accounting-company), Aug 2026)",
+    "emails": "hello@lastaccountingcompany.com ([company website](https://lastaccountingcompany.com/), Aug 2026)"
   },
   "tags": [
     "Artificial Intelligence",
@@ -19,52 +19,52 @@
     "Finance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:34:55.031Z",
+  "memoGeneratedAt": "2026-08-11T04:55:06.145Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 54,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 56,
+      "score": 63,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 57,
+      "score": 56,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 64,
+      "score": 50,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 45,
+      "score": 57,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 44,
+      "score": 39,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 41,
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 56,
-    "NR": 57,
-    "PG": 64,
-    "PT": 45,
-    "SL": 44,
-    "VK": 41
+    "CB": 54,
+    "EG": 63,
+    "NR": 56,
+    "PG": 50,
+    "PT": 57,
+    "SL": 39,
+    "VK": 37
   },
-  "consolidatedAvg": 50.43,
-  "consolidatedRank": 115,
+  "consolidatedAvg": 50.86,
+  "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 48,
-    "tractionReason": "Onboarding first customers; count and revenue undisclosed"
+    "tractionRank": 30,
+    "tractionScore": 72,
+    "tractionReason": "Dozens of customers; $80M transaction value processed"
   },
   "paths": {
     "memo": "summer2026/memos/last-accounting-company.md",

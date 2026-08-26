@@ -1,0 +1,81 @@
+{
+  "slug": "enact",
+  "name": "Enact",
+  "oneLiner": "The post-training layer for robotics.",
+  "metadata": {
+    "website": "https://enact.company",
+    "yc_page": "https://www.ycombinator.com/companies/enact",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Reinforcement Learning, Robotics",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Reinforcement Learning",
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:35:46.163Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 23,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 24,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 40,
+    "NR": 23,
+    "PG": 29,
+    "PT": 23,
+    "SL": 28,
+    "VK": 24
+  },
+  "consolidatedAvg": 28.14,
+  "consolidatedRank": 226,
+  "traction": {
+    "tractionRank": 209,
+    "tractionScore": 19,
+    "tractionReason": "Request-data site live; no users disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/enact.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/enact.md",
+      "elad-gil": "summer2026/evals/elad-gil/enact.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/enact.md",
+      "paul-graham": "summer2026/evals/paul-graham/enact.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/enact.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/enact.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/enact.md"
+    }
+  }
+}

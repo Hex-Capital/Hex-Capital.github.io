@@ -1,83 +1,84 @@
 ﻿# Palette
 
-> An interactive AI video generation and editing platform
+> An AI-Native Media Platform
 
 | Field | Value |
 |-------|-------|
-| Website | https://palettetechnology.com/ |
+| Website | https://palettelabs.com/ |
 | YC Page | https://www.ycombinator.com/companies/palette-2 |
 | Batch | Summer 2026 |
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Generative AI, Video, AI |
-| YC Partner | Ankit Gupta |
-| Emails | founders@palettetechnology.com |
+| YC Partner | Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/palette-2), Aug 2026) |
+| Emails | founders@palettetechnology.com ([Palette security page](https://palettelabs.com/security), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** Teams producing marketing, entertainment, training, customer-support and product media currently move among fragmented creative tools and manual production workflows ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2); [Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
-- **Approach:** Palette accepts a prompt, image, document or reference, carries its context across video, images, music and structured content, supports natural-language edits, and routes work through selected generation models ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
-- **Differentiation:** Palette emphasizes source-linked, multi-format generation and cost-gated routing across Seedance, Veo, Kling, MiniMax and LTX, while Runway and Luma train proprietary world models and Higgsfield and Krea combine in-house and third-party models within their own suites ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [Runway, Feb 2026](https://runway.com/news/runway-series-e-funding); [Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
-- **Business Model:** Individual access costs $0.01 per credit, with 1,000 credits cited for a character sheet, storyboard and 15 seconds of character-consistent video, while enterprise launch, advertising, UGC and training services use custom quotes ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
-- **TAM/SAM:** The global AI-video market was $4.6B in 2025 and is forecast to reach $42.3B in 2033 at a 33.7% CAGR, while the U.S. AI-video-generator segment is forecast from $378.7M in 2026 to $807.1M in 2031 at a 16.3% CAGR ([Grand View Research, Jul 2026](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-video-market-report); [Research and Markets, Feb 2026](https://www.researchandmarkets.com/reports/6232798/united-states-ai-video-generator-market)).
-- **GTM / Distribution:** Palette exposes self-serve “Try now” access, a shared-credit API and a “Book a call” enterprise funnel for managed campaigns and internal-content projects ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
+- **Problem:** Individual creators and enterprise creative teams use disconnected applications for multimodal production, interrupting creative flow, separating brand context, and slowing iteration ([Y Combinator](https://www.ycombinator.com/companies/palette-2), 2026).
+- **Approach:** Palette retains prompts, source assets, context, edits, storyboards, characters, and model selection in one conversational workspace that routes each request through a generation workflow ([Palette website](https://palettelabs.com/), Aug 2026).
+- **Differentiation:** Palette emphasizes cost-gated model routing, failure-credit refunds, and connected image, video, music, and editing workflows, while Runway combines proprietary and third-party models, Synthesia centers enterprise avatar videos and localization, and Luma develops its own Ray and UNI models alongside aggregated models ([Palette](https://palettelabs.com/), [Runway](https://help.runwayml.com/hc/en-us/articles/48649877897107-Available-Models-on-Runway), [Synthesia](https://www.synthesia.io/business-operations), [Luma](https://lumalabs.ai/llm-info), Aug 2026).
+- **Business Model:** Individual usage costs $0.01 per credit, 1,000 credits are described as sufficient for a character sheet, storyboard, and 15 seconds of character-consistent video, and enterprise engagements use custom quotes for workflows and services ([Palette website](https://palettelabs.com/), Aug 2026).
+- **TAM/SAM:** The global AI-video-generator market was estimated at $788.5 million in 2025 and is forecast to reach $3.44 billion by 2033 at a 20.3% CAGR, while no public SAM estimate was found for Palette’s enterprise workflow segment ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-video-generator-market-report), 2026).
+- **GTM / Distribution:** Palette operates a self-service web studio and API while soliciting creators, marketing teams, operations leaders, and learning-and-development leaders and offering sales calls for enterprise services ([Palette website](https://palettelabs.com/), [Y Combinator](https://www.ycombinator.com/companies/palette-2), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Palette reports specification, capability and cost gates backed by 130+ automated regression tests, with internal results of 35% faster generation, 50% lower generation cost and 100% task-capable routing ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
-- **Future moat:** [Inferred]: Generation outcomes, failures, refunds and retained project context could create proprietary routing and workflow data, but no public customer or usage scale establishes this yet.
+- **Moat today:** Palette reports 35% faster generation, 50% lower generation cost, 100% task-capable routing on its internal benchmark, and 130+ automated regression tests for its routing layer ([Palette website](https://palettelabs.com/), Aug 2026).
+- **Future moat:** [Inferred]: Reusable customer-specific brand constraints, workflow histories, and routing-performance data could create switching costs, but no retention, proprietary-data, or customer-scale evidence is public.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** [Inferred]: Model providers and funded aggregators can reproduce routing and connected workflows because Palette publicly relies on models also available through Higgsfield and Krea ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
+- **Commoditization risk:** Runway and Luma already combine multiple proprietary or third-party media models within unified creative workspaces, reproducing much of the aggregation layer described by Palette ([Runway](https://help.runwayml.com/hc/en-us/articles/48649877897107-Available-Models-on-Runway), [Luma](https://lumalabs.ai/llm-info), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Funding: $500K pre-seed led by Y Combinator ([Serena Pei profile, Feb 2026](https://spei04.github.io/)).
-  - Current-product paid access: $0.01 per credit, with public image, video, music, asset and model API endpoints ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
-  - Hiring: 0 jobs posted on YC ([YC Jobs, Jul 2026](https://www.ycombinator.com/companies/palette-2/jobs)).
+  - $500,000 pre-seed financing led by Y Combinator (Serena Pei founder profile, 2026) ([source](https://spei04.github.io/)).
+  - Backed by Y Combinator and OpenAI (Palette website, Aug 2026) ([source](https://palettelabs.com/)).
+  - Public web studio and generation API available (Palette website, Aug 2026) ([source](https://palettelabs.com/)).
+  - Company launch published through YC Launch (Y Combinator, 2026) ([source](https://www.ycombinator.com/companies/palette-2)).
+  - 0 jobs listed on YC (Y Combinator, Aug 2026) ([source](https://www.ycombinator.com/companies/palette-2)).
 - **Competitors (minimum 3, up to 5):**
-  - Runway ($315M Series E, revenue unknown): trains proprietary world models and operates integrated creative and developer products, versus Palette’s multi-provider routing layer ([Runway, Feb 2026](https://runway.com/news/runway-series-e-funding)).
-  - Higgsfield ($130M+ Series A, $200M annual revenue run rate): develops models and aggregates third-party models for commercial-video workflows, versus Palette’s broader source-to-video, image, music and structured-content workflow ([Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html)).
-  - Luma AI ($900M Series C, revenue unknown): finances proprietary multimodal world-model training and a 2GW compute partnership, versus Palette’s application and API orchestration layer ([Luma AI, Nov 2025, via search snippet](https://lumalabs.ai/news/series-c)).
-  - Krea ($83M raised, revenue unknown): offers image, video, editing, enhancement and an in-house Krea 2 model alongside third-party models, versus Palette’s source-linked production flow and per-credit pricing ([Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
-- **Why now:** [Inferred]: Video models added native audio, multi-shot generation, character consistency and editing during 2025–26, enabling an orchestration product to combine specialized models into one production workflow ([TechCrunch, Feb 2026, via search snippet](https://techcrunch.com/2026/02/10/ai-video-startup-runway-raises-315m-at-5-3b-valuation-eyes-more-capable-world-models/)).
+  - Runway (at least $859.5 million raised, revenue unknown): develops proprietary video models and aggregates third-party models, versus Palette’s disclosed emphasis on cost-gated routing and workflow services ([Clay](https://www.clay.com/dossier/runway-funding), [Runway](https://runwayml.com/news/runway-series-e-funding), 2026).
+  - Synthesia (over $530 million raised, over $100 million ARR): focuses on avatar-led enterprise communications and localization in more than 160 languages, versus Palette’s broader image, video, music, storyboard, and editing surface ([Sacra](https://sacra.com/c/synthesia/), [Synthesia](https://www.synthesia.io/post/100-million-revenue-adobe-investment), 2025).
+  - Luma AI ($1.1 billion raised, revenue unknown): develops Ray and UNI foundation models and now offers multi-model orchestration, overlapping with both Palette’s generation and routing layers ([Owler](https://www.owler.com/company/lumalabs/funding), [Luma](https://lumalabs.ai/llm-info), 2026).
+- **Why now:** [Inferred]: The releases of Veo 3.1 in October 2025, Runway Gen-4.5 in November 2025, and Kling 3.0 in February 2026 created multiple controllable video models that can be exposed through a routing layer rather than a single-model application ([Google](https://developers.googleblog.com/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/), [Runway](https://runwayml.com/research/introducing-runway-gen-4.5), [Kling](https://www.prnewswire.com/news-releases/kling-ai-launches-3-0-model-ushering-in-an-era-where-everyone-can-be-a-director-302679944.html)).
 
 ## Founders & Team
 
 - **Josephine Lee (CEO):**
-  - Background: Lee studied computer science at MIT from 2022–26, was a 2025–26 E14 VC Fellow, worked on a genetic-prevalence dashboard at the Broad Institute and co-authored genetics research ([LinkedIn, Jul 2026, via search snippet](https://www.linkedin.com/in/josephinelee1234); [E14 Fund](https://www.e14.vc/team); [O’Donnell-Luria Lab](https://odonnell-luria-lab.com/our-team)).
+  - Background: Lee studied computer science at MIT from 2022–2026, competed in the USACO Platinum Division, and lists AI-music-generation and software projects ([LinkedIn](https://www.linkedin.com/in/josephinelee1234), Jul 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “CEO @ Palette (YC S26) \| CS @ MIT” ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2)).
+  - LinkedIn: “CEO @ Palette (YC S26) \| CS @ MIT” ([Y Combinator](https://www.ycombinator.com/companies/palette-2), Aug 2026).
   - GitHub: No public repos found.
 - **Serena Pei (CTO):**
-  - Background: Pei earned an MIT B.S. in computer science and engineering in May 2026 and conducted diffusion, computer-vision and multimodal research at CSAIL, Media Lab and LIDS after ML work at Amazon and A*STAR ([Serena Pei profile, Jul 2026](https://spei04.github.io/)).
+  - Background: Pei earned an MIT computer-science-and-engineering degree, researched diffusion models and multimodal systems across CSAIL, the Media Lab, and LIDS, and built an LLM feedback pipeline during an Amazon internship ([personal profile](https://spei04.github.io/), Jul 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “CTO @ Palette (YC S26) \| CS @ MIT” ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2)).
+  - LinkedIn: “CTO @ Palette (YC S26) \| CS @ MIT” ([Y Combinator](https://www.ycombinator.com/companies/palette-2), Aug 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders studied computer science at MIT during 2022–26 ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2); [LinkedIn, Jul 2026, via search snippet](https://www.linkedin.com/in/josephinelee1234); [Serena Pei profile](https://spei04.github.io/)).
-- **Founder-market fit:** Lee’s software and data-product work and Pei’s diffusion, vision, multimodal-research and production-ML experience document experience relevant to building a multimodal generation and routing platform ([O’Donnell-Luria Lab](https://odonnell-luria-lab.com/our-team); [Serena Pei profile](https://spei04.github.io/)).
+- **Co-founder relationship:** Lee and Pei met through an art program and subsequently studied computer science at MIT ([Y Combinator](https://www.ycombinator.com/companies/palette-2), 2026).
+- **Founder-market fit:** The founders’ documented preparation combines computer science, multimodal research, computer vision, production ML infrastructure, and prior experience across Scale AI, Datadog, Amazon, and MIT laboratories ([Y Combinator](https://www.ycombinator.com/companies/palette-2), [Serena Pei profile](https://spei04.github.io/), 2026).
 
 ## Key Risks
 
-- **Product-positioning discontinuity:** An indexed page updated June 29 describes Palette as an HR-agent platform, while the July homepage and YC profile describe multimedia generation, and no public pivot announcement was found ([Responsible AI page, Jun 2026](https://palettetechnology.com/responsible-ai); [Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [YC](https://www.ycombinator.com/companies/palette-2)).
-- **Upstream-model dependency:** Palette routes third-party models whose owners control availability and pricing, while Higgsfield and Krea provide overlapping aggregation and are also developing in-house models ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [Higgsfield, Jan 2026](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Krea, May 2026](https://www.krea.ai/blog/on-being-the-underdog)).
-- **Output ownership:** The U.S. Copyright Office says prompts alone do not establish authorship and AI outputs require sufficient human-determined expressive elements for protection, while Palette’s editing and storyboarding controls may support case-specific human contribution ([U.S. Copyright Office, Jan 2025](https://www.copyright.gov/newsnet/2025/1060.html)).
-- **Name and web identity:** Website not accessible at time of research because the YC-listed domain redirected to palettelabs.com, which was indexed as a domain-for-sale page, and search results also contain the unrelated YC S21 company PaletteHQ ([Palette URL](https://palettetechnology.com/); [palettelabs.com listing](https://forsale.godaddy.com/forsale/www.palettelabs.com?traffic_id=binns2&traffic_type=TDFS_BINNS2); [PaletteHQ on YC](https://www.ycombinator.com/companies/palettehq)).
-- **Benchmark validation:** Palette’s routing figures are labeled as an internal benchmark, with no public methodology, customer count, usage count or current-product revenue disclosed ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)).
+- **Upstream-model dependency:** Palette exposes models from ByteDance, Google, Kling, MiniMax, and LTX, while its terms state that underlying models may be substituted or retired; its disclosed mitigation is capability gating, fallback routing, and credit refunds for failed jobs ([Palette website](https://palettelabs.com/), [terms](https://palettelabs.com/terms-of-service), Aug 2026).
+- **Copyright and likeness liability:** Palette’s terms state that generated media may resemble existing works or real people and assign responsibility for required rights and permissions to customers, while industry groups have challenged Seedance 2.0 over alleged infringement ([Palette terms](https://palettelabs.com/terms-of-service), [Associated Press](https://apnews.com/article/7e445388401d172c6bf51d0d42aa4f24), Feb–Aug 2026).
+- **Security-certification gap:** [Inferred]: Enterprise reviews may be prolonged because SOC 2 Type II and ISO 27001 remain roadmap items, although Palette documents encryption, SSO, role-based access control, tenant isolation, and audit logging ([Palette security page](https://palettelabs.com/security), Aug 2026).
+- **Legal-document readiness:** Palette’s privacy policy and terms identify themselves as starter templates requiring adaptation by qualified counsel, despite the product targeting enterprise customers and processing customer media ([privacy policy](https://palettelabs.com/privacy-policy), [terms](https://palettelabs.com/terms-of-service), Aug 2026).
+- **Name collision:** [Inferred]: Discoverability and brand disambiguation may be affected because YC also lists PaletteHQ, a Summer 2021 sales-compensation company operating under the Palette name ([Y Combinator](https://www.ycombinator.com/companies/palettehq), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $4.6B global AI-video market in 2025, forecast to $42.3B by 2033 at 33.7% CAGR ([Grand View Research, Jul 2026](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-video-market-report)) |
-| SAM | $378.7M U.S. AI-video-generator market in 2026, forecast to $807.1M by 2031 at 16.3% CAGR ([Research and Markets, Feb 2026](https://www.researchandmarkets.com/reports/6232798/united-states-ai-video-generator-market)) |
-| Traction | $500K pre-seed led by YC ([Serena Pei profile, Feb 2026](https://spei04.github.io/)); 0 YC job postings ([YC, Jul 2026](https://www.ycombinator.com/companies/palette-2/jobs)) |
-| Revenue Signal | $0.01-per-credit individual pricing and enterprise custom quotes ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)) |
-| Founders | Josephine Lee (CEO): MIT CS, E14 VC Fellow, Broad Institute software work; Serena Pei (CTO): MIT CSE, diffusion and multimodal researcher, Amazon and A*STAR ML experience ([YC](https://www.ycombinator.com/companies/palette-2); [E14 Fund](https://www.e14.vc/team); [Serena Pei profile](https://spei04.github.io/)) |
-| Competitors | Runway ($315M Series E, revenue unknown, proprietary models); Higgsfield ($130M+ Series A, $200M annual run rate, commercial-video workflows); Luma AI ($900M Series C, revenue unknown, world models); Krea ($83M raised, revenue unknown, creative suite and in-house model) ([Runway](https://runway.com/news/runway-series-e-funding); [Higgsfield](https://www.prnewswire.com/news-releases/higgsfield-announces-130m-series-a-and-reports-200m-annual-run-rate-302661805.html); [Luma AI](https://lumalabs.ai/news/series-c); [Krea](https://www.krea.ai/blog/on-being-the-underdog)) |
-| Moat Signals | 130+ regression tests; internal benchmark reports 35% faster generation, 50% lower cost and 100% task-capable routing ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/)) |
-| Risk Factors | Third-party model dependence ([Palette website, Jul 2026](https://palettetechnology.com/)), product-positioning discontinuity ([Responsible AI page, Jun 2026](https://palettetechnology.com/responsible-ai)), AI-output copyright limits ([U.S. Copyright Office, Jan 2025](https://www.copyright.gov/newsnet/2025/1060.html)) |
-| Founder Reach | Josephine Lee: Twitter not found, LinkedIn 3K followers, GitHub profile not found; Serena Pei: Twitter not found, LinkedIn 964 followers, GitHub profile not found ([LinkedIn, Jul 2026, via search snippets](https://www.linkedin.com/in/josephinelee1234)) |
-| Distribution Signals | Self-serve access, public API and enterprise book-a-call funnel; 0 YC job postings ([Palette website, Jul 2026, via search snippet](https://palettetechnology.com/); [YC Jobs, Jul 2026](https://www.ycombinator.com/companies/palette-2/jobs)) |
-| Emails | founders@palettetechnology.com ([Palette Responsible AI page, Jun 2026](https://palettetechnology.com/responsible-ai)) |
+| TAM | $788.5M global AI-video-generator market in 2025, forecast to $3.44B by 2033 at 20.3% CAGR (Grand View Research, 2026) |
+| SAM | No public data found |
+| Traction | $500K pre-seed led by YC (Serena Pei founder profile, 2026); backed by YC and OpenAI (Palette website, Aug 2026) |
+| Revenue Signal | $0.01 per credit for individuals; enterprise custom quotes (Palette website, Aug 2026) |
+| Founders | Josephine Lee (CEO): MIT CS, USACO Platinum, AI/software projects; Serena Pei (CTO): MIT CSE, CSAIL/Media Lab/LIDS researcher, Amazon ML intern (YC and founder profiles, 2026) |
+| Competitors | Runway (at least $859.5M raised, revenue unknown, proprietary and aggregated models; Clay/Runway, 2026); Synthesia (over $530M raised, over $100M ARR, avatar-led enterprise video; Sacra/Synthesia, 2025); Luma AI ($1.1B raised, revenue unknown, foundation models and orchestration; Owler/Luma, 2026) |
+| Moat Signals | Self-reported 35% faster generation, 50% lower generation cost, 100% task-capable internal routing benchmark, and 130+ regression tests (Palette website, Aug 2026) |
+| Risk Factors | Third-party model dependency (Palette terms, Aug 2026), copyright and likeness liability (Palette terms, Aug 2026), certifications remain on roadmap (Palette security page, Aug 2026) |
+| Founder Reach | Josephine Lee: LinkedIn 3K followers, Twitter/GitHub no public data (LinkedIn, Jul 2026); Serena Pei: LinkedIn 964 followers, Twitter/GitHub no public data (LinkedIn, Jul 2026) |
+| Distribution Signals | Public web studio and API (Palette website, Aug 2026); YC Launch post (Y Combinator, 2026); 0 YC-listed jobs (Y Combinator, Aug 2026) |
+| Emails | founders@palettetechnology.com (Palette security page, Aug 2026) |

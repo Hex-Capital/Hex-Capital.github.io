@@ -1,0 +1,82 @@
+{
+  "slug": "moving-atoms",
+  "name": "Moving Atoms",
+  "oneLiner": "World Model Lab for Evaluating and Training Robots.",
+  "metadata": {
+    "website": "https://movingatoms.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/moving-atoms",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Robotics, Virtual Reality, AI",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@movingatoms.ai"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Virtual Reality",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:12:44.259Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 40,
+    "NR": 37,
+    "PG": 40,
+    "PT": 42,
+    "SL": 28,
+    "VK": 28
+  },
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 172,
+  "traction": {
+    "tractionRank": 167,
+    "tractionScore": 35,
+    "tractionReason": "Strong benchmark result; no customer evidence"
+  },
+  "paths": {
+    "memo": "summer2026/memos/moving-atoms.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/moving-atoms.md",
+      "elad-gil": "summer2026/evals/elad-gil/moving-atoms.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/moving-atoms.md",
+      "paul-graham": "summer2026/evals/paul-graham/moving-atoms.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/moving-atoms.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/moving-atoms.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/moving-atoms.md"
+    }
+  }
+}

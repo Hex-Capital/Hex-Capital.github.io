@@ -1,30 +1,24 @@
-﻿# Rapidfolio -- Elad Gil Evaluation
+﻿# rapidfolio -- Elad Gil Evaluation
 
-Naveen Qureshi sold Sable in 2022, Frederik Vanhevel built Sable and Seen’s credit-decisioning infrastructure, and Rapidfolio already reports live U.S. and Canadian customers. Rapidfolio’s signature is therefore a proven shipping organization without a visible revenue curve: unusually strong founder execution paired with the weakest signal in my framework—whether customers are buying faster every month. The 83% queue reduction and three-days-to-two-minutes onboarding result suggest Rapidfolio may be “just working,” but no ARR, growth rate, retention, or workflow-volume figure distinguishes durable demand from enterprise-pilot tourism.
+The market map cannot be written. The dossier identifies no product, customer, technological change, or economic variable that could make rapidfolio a large company. Its only content is a statement that research will be performed; it contains no research findings. This is not adverse evidence about the company, but it makes the opportunity non-underwritable.
 
-**Perplexity** is the high rung for founder iteration: Aravind Srinivas repeatedly returned with the discussed product built. Rapidfolio shares the load-bearing mechanism because Qureshi and Vanhevel built together across Sable, Seen, and now Rapidfolio; Qureshi has an exit, while Vanhevel shipped both infrastructure and credit decisioning. Rapidfolio diverges from Perplexity because the dossier documents prior products rather than week-to-week iteration inside Rapidfolio, but 30+ integrations, SOC 2 compliance, generated tests, and production workflows are substantial artifacts for a two-person pre-seed operation. This is closer to Perplexity’s shipping pattern than to a credential-driven founder pitch.
+There is no falsifiable governing belief to test. The record provides no pricing, margins, market structure, competitor set, technical proof, or mechanism through which rapidfolio changes adoption or delivery economics. Pre-seed companies should not be penalized for lacking mature metrics, but there must still be a specific proposition about what is being built and why now.
 
-**Lyft** was my low-rung lesson that adoption can be a false signal when the economic curve does not establish durable category leadership. Rapidfolio’s customer outcomes—$350K in projected first-year savings and an 83% reduction in one bank’s operations queue—show real utility, but Rapidfolio discloses no revenue, MoM growth, renewal, expansion, or even customer count. The absence is a red flag in AI: strong ROI should convert into a legible buying curve. Live customers put Rapidfolio above a product-without-usage profile, but not close to the **Harvey** pattern where dollars and valuation moved from $3B to $5B to $8B because demand was screaming.
+Product-market pull is likewise unknown: there are no users, pilots, LOIs, revenue figures, retention observations, or prototype-use patterns. The dossier also does not establish whether stronger underlying technology would deepen rapidfolio’s workflow or absorb its product. No integrations, permissions, proprietary workflow state, actions, or feedback loops are described.
 
-Agentic systems capable of coordinating KYC work across tax, credit, legal, and front-office systems are Rapidfolio’s inferred recent catalyst. Over the next 18 months, that capability can compound as Rapidfolio turns each procedure into reusable tests, versioned workflows, and execution records; alternatively, model improvement accrues to Bretton, WorkFusion, Sphinx, and Arva equally, leaving Rapidfolio in a steady-state compliance software market growing 11.4% annually. Rapidfolio has identified a technological threshold, but not a discrete market re-opening comparable to ChatGPT for **Mistral** or Ukraine for **Anduril**. The catalyst is credible, not proprietary.
+The same absence applies to the founders. There are no names, biographies, domain credentials, prior startup lessons, or documented commitments. Consequently, neither an unstated pattern nor a known exception supplies an override: there is no discontinuity cluster, rare frontier team, causal scientific insight, or transformed physical-market economics to evaluate. There is also no affirmative red flag—only missing evidence.
 
-Thirty-plus integrations could make Rapidfolio an index on automated financial operations, because every additional KYC, fraud, lending, or reconciliation workflow increases the value of the same control plane. Rapidfolio remains short of that position while founder-hosted demos and a Forward Deployed Engineer are the disclosed distribution system; today Rapidfolio must win each institution through implementation rather than benefiting automatically as agentic finance grows. The score flips into the top tier if, within 12 months, more than half of new workflows are configured by customers without forward-deployed engineering and net revenue retention exceeds 130%. That would make Rapidfolio a rail rather than a services-heavy application.
-
-**Color Genomics** is the relevant single-anchor parallel: workflow and data infrastructure on top of commodity sequencing avoided betting on new chemistry. Rapidfolio similarly assumes capable foundation models and concentrates its work in deterministic execution, human approvals, audit exports, and tenant-isolated integrations. Rapidfolio does not need new science, but it must make three operating constraints coexist—99.9% accuracy, acceptable implementation cost, and regulated-bank trust—so the architecture is not riskless. Existing live deployments and SOC 2 controls indicate that the core technical miracle has already occurred; what remains is mostly productization and GTM.
-
-Live U.S. and Canadian customers plus a Forward Deployed Engineer opening lead me to predict that, by July 2029, Rapidfolio will remain independent at **$8M–$15M ARR**, with most revenue coming from compliance and fraud operations rather than the full cross-functional banking platform. Rapidfolio’s repeat founders should convert strong customer outcomes into a credible business, while Rapidfolio’s missing growth curve and implementation intensity make a Harvey-like breakout less likely. The mechanism is high shipping velocity overcoming product risk but not yet proving index-like distribution.
-
-Bretton’s $95.3M and WorkFusion’s roughly $410M create the strongest bear case: Rapidfolio may be a late, implementation-heavy clone whose 30 integrations and 99.9% accuracy claim are table stakes, with each new bank requiring bespoke process mapping by expensive forward-deployed engineers. That case stings because Rapidfolio’s broad scope could compound deployment labor faster than software revenue, exactly the anti-pattern behind a false signal. The counterevidence is Qureshi’s prior exit, Vanhevel’s repeated fintech shipping, live production customers, and quantified operating outcomes—the **Color Genomics** exception pattern of experienced operators building workflow infrastructure on top of an already-solved hard layer. I would invest, but verified growth below 10% MoM over two consecutive quarters—or gross margins below 60% after implementation labor—would flip Rapidfolio to a pass.
+I pass on the available record, not necessarily on rapidfolio itself. The strongest bull case is that the research process was announced but its findings were accidentally omitted; a real product, exceptional team, and meaningful validation could therefore exist outside this dossier. The verifiable flip condition is a sourced replacement dossier that names the customer and technology shift, states one measurable success variable with a threshold, and documents present evidence bearing on it.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Market Re-Opening Via Specific Recent Catalyst | 17/28 |
-| Revenue Velocity or Usage Curve Already Visible | 14/25 |
-| Founder Ships Iteratively Between Conversations | 18/20 |
-| Index-Like Distribution Position On A Compounding Category | 10/15 |
-| Single-Miracle Architecture Rather Than Multi-Miracle Dependency | 10/12 |
-| **Total** | **69/100** |
+| Dossier Identifies the One Variable That Makes This Market Work | 8/32 |
+| Technology Shift Expands Market Margins, Scale, or Adoption | 6/24 |
+| Users Demonstrate Product-Market Pull Before the Story Is Polished | 4/18 |
+| Core Technology Improvement Deepens an Owned Workflow | 5/16 |
+| Founder Biography Shows Desperation or Second-Time Learning | 3/10 |
+| **Total** | **26/100** |
 
-**Total Score: 69/100** (Invest)
+**Total Score: 26/100** (Pass)

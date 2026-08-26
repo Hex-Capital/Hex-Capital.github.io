@@ -10,7 +10,7 @@
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Computer Vision, Manufacturing, Infrastructure",
-    "yc_partner": "Not listed",
+    "yc_partner": "Jon Xu",
     "emails": "anderson@operonsolutions.com"
   },
   "tags": [
@@ -19,52 +19,52 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:33:28.496Z",
+  "memoGeneratedAt": "2026-08-11T04:50:50.289Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "elad-gil": {
       "score": 56,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
     "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
+      "score": 56,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 46,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 36,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 38,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 56,
-    "NR": 44,
-    "PG": 67,
-    "PT": 46,
-    "SL": 48,
-    "VK": 47
+    "CB": 56,
+    "EG": 50,
+    "NR": 56,
+    "PG": 60,
+    "PT": 38,
+    "SL": 36,
+    "VK": 38
   },
-  "consolidatedAvg": 53.86,
-  "consolidatedRank": 83,
+  "consolidatedAvg": 47.71,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 60,
-    "tractionReason": "10,000+ P&IDs processed; industrial usage claimed"
+    "tractionRank": 62,
+    "tractionScore": 59,
+    "tractionReason": "10,000 industrial diagrams processed"
   },
   "paths": {
     "memo": "summer2026/memos/operon.md",

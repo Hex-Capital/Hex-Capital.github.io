@@ -1,0 +1,83 @@
+{
+  "slug": "maingen",
+  "name": "Maingen",
+  "oneLiner": "RL environments for industrial operations",
+  "metadata": {
+    "website": "https://www.maingen.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/maingen",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, B2B, Energy, Big Data, AI",
+    "yc_partner": "Harshita Arora",
+    "emails": "founders@maingen.ai, phillip@philyan.com"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "B2B",
+    "Energy",
+    "Big Data",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T21:22:03.332Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 52,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 63,
+    "EG": 61,
+    "NR": 62,
+    "PG": 67,
+    "PT": 43,
+    "SL": 43,
+    "VK": 52
+  },
+  "consolidatedAvg": 55.86,
+  "consolidatedRank": 61,
+  "traction": {
+    "tractionRank": 107,
+    "tractionScore": 39,
+    "tractionReason": "880 graded weeks on public benchmark"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/maingen.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/maingen.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/maingen.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/maingen.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/maingen.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/maingen.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/maingen.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/maingen.md"
+    }
+  }
+}

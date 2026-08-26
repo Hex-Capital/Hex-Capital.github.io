@@ -1,0 +1,83 @@
+{
+  "slug": "hebbian-robotics",
+  "name": "Hebbian Robotics",
+  "oneLiner": "APIs for searching and analyzing Physical AI data at scale",
+  "metadata": {
+    "website": "https://hebbianrobotics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/hebbian-robotics",
+    "batch": "Spring 2026",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Robotics, Data Science, Data Engineering, Databases",
+    "yc_partner": "Diana Hu",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Robotics",
+    "Data Science",
+    "Data Engineering",
+    "Databases"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T04:39:42.160Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 43,
+    "NR": 44,
+    "PG": 45,
+    "PT": 36,
+    "SL": 27,
+    "VK": 30
+  },
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 170,
+  "traction": {
+    "tractionRank": 165,
+    "tractionScore": 35,
+    "tractionReason": "Open-source tool has 42 stars"
+  },
+  "paths": {
+    "memo": "summer2026/memos/hebbian-robotics.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/hebbian-robotics.md",
+      "elad-gil": "summer2026/evals/elad-gil/hebbian-robotics.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/hebbian-robotics.md",
+      "paul-graham": "summer2026/evals/paul-graham/hebbian-robotics.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/hebbian-robotics.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/hebbian-robotics.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/hebbian-robotics.md"
+    }
+  }
+}

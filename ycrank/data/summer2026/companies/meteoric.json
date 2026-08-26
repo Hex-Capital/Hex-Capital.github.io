@@ -1,0 +1,81 @@
+{
+  "slug": "meteoric",
+  "name": "Meteoric",
+  "oneLiner": "Drones that clear clouds over solar farms and weaken hurricanes",
+  "metadata": {
+    "website": "https://meteoric.earth/",
+    "yc_page": "https://www.ycombinator.com/companies/meteoric",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/meteoric))",
+    "industry": "Industrials / Industrials -> Climate",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Renewable Energy, ClimateTech",
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/meteoric))",
+    "emails": "team@meteoric.earth, mete@meteoric.earth, eric@meteoric.earth ([Meteoric website](https://meteoric.earth/), Aug 2026)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Renewable Energy",
+    "ClimateTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:26:11.741Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 68,
+    "EG": 42,
+    "NR": 51,
+    "PG": 43,
+    "PT": 44,
+    "SL": 30,
+    "VK": 33
+  },
+  "consolidatedAvg": 44.43,
+  "consolidatedRank": 121,
+  "traction": {
+    "tractionRank": 172,
+    "tractionScore": 34,
+    "tractionReason": "Prototype dissipated artificial cloud by 13%"
+  },
+  "paths": {
+    "memo": "summer2026/memos/meteoric.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/meteoric.md",
+      "elad-gil": "summer2026/evals/elad-gil/meteoric.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/meteoric.md",
+      "paul-graham": "summer2026/evals/paul-graham/meteoric.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/meteoric.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/meteoric.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/meteoric.md"
+    }
+  }
+}

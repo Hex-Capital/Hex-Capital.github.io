@@ -19,52 +19,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T21:24:33.910Z",
+  "memoGeneratedAt": "2026-08-11T06:08:22.109Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 49,
+      "score": 64,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
+    "elad-gil": {
       "score": 57,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 68,
+    "naval-ravikant": {
+      "score": 69,
       "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 77,
-      "tier": "Invest"
+      "score": 55,
+      "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 41,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 76,
-      "tier": "Invest"
+      "score": 49,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 71,
-    "EG": 49,
-    "NR": 57,
-    "PG": 68,
-    "PT": 77,
-    "SL": 38,
-    "VK": 76
+    "CB": 64,
+    "EG": 57,
+    "NR": 69,
+    "PG": 56,
+    "PT": 55,
+    "SL": 41,
+    "VK": 49
   },
-  "consolidatedAvg": 62.29,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 55.86,
+  "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 36,
-    "tractionReason": "FPGA prototype live; design-partner count undisclosed"
+    "tractionRank": 98,
+    "tractionScore": 53,
+    "tractionReason": "Live FPGA service with active design partners"
   },
   "paths": {
     "memo": "summer2026/memos/baud.md",

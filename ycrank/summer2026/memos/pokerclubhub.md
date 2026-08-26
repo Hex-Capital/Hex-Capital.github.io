@@ -12,68 +12,66 @@
 | Location | Jaco, Puntarenas Province, Costa Rica |
 | Tags | SaaS, Crypto / Web3, Gaming, eSports |
 | YC Partner | Ankit Gupta |
-| Emails | support@pokerclubhub.com |
+| Emails | support@pokerclubhub.com, ivan@pokerclubhub.com ([Y Combinator launch](https://www.ycombinator.com/launches/S2W-pokerclubhub-the-first-licensed-online-poker-club-platform), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** Private-poker players currently send cryptocurrency to club owners for play-money chips, creating theft and withdrawal-delay exposure, while owners manually process deposits and cannot collect rake while offline ([Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Jul 2026).
-- **Approach:** Players deposit USDT or USDC directly with PokerClubHub, which holds funds in Fireblocks custody, processes withdrawals normally instantly and within 24 hours when checks are unnecessary, and pays rake to club owners as affiliate fees ([PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-- **Differentiation:** Unlike ClubGG and WePoker, which the company says do not process player deposits, PokerClubHub handles deposits and withdrawals under its gaming license; unlike PokerStars’ open pool, its clubs admit invited players ([PokerClubHub](https://pokerclubhub.com/), Jul 2026; [Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Jul 2026).
-- **Business Model:** [Inferred]: PokerClubHub likely retains part of the rake before paying club owners affiliate fees, while also supporting rake-free private games, but no fee schedule or revenue share is published.
-- **TAM/SAM:** The global online-poker market was valued at $3.9 billion in 2024 and forecast to reach $6.9 billion in 2030 at a 10.2% 2025–2030 CAGR, while no public estimate isolates private poker clubs ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/online-poker-market-report), 2025).
-- **GTM / Distribution:** [Inferred]: Distribution can proceed through club owners and poker agents who invite their existing player communities, because access to a club normally begins with an owner or agent invitation ([PokerClubHub](https://pokerclubhub.com/), Jul 2026).
+- **Problem:** Private-poker players rely on club owners or agents to exchange crypto for play-money chips, creating withdrawal delays and loss risk, while owners manually process deposits and withdrawals ([Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Aug 2026).
+- **Approach:** PokerClubHub receives players’ USDT or USDC deposits on Ethereum or Solana, processes withdrawals, holds funds through Fireblocks, and pays club owners rake as affiliate fees ([company website](https://pokerclubhub.com/), Aug 2026; [Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Aug 2026).
+- **Differentiation:** ClubGG and WePoker require off-platform settlement with an owner or agent, whereas PokerClubHub processes deposits and withdrawals under its gaming license; PokerStars instead uses an open player pool ([company website](https://pokerclubhub.com/), Aug 2026; [ClubGG media guidelines](https://www.clubgg.com/media-guideline), Aug 2026).
+- **Business Model:** [Inferred]: Affiliate-fee payments to club owners are intended to recruit hosts, while PokerClubHub may monetize payment or gaming activity because no public pricing page or retained-rake schedule was found.
+- **TAM/SAM:** The global online-poker market was estimated at $3.9 billion in 2024 and projected to reach $6.9 billion by 2030 at a 10.2% CAGR, while no public estimate isolates licensed private-club platforms ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/online-poker-market-report), 2025).
+- **GTM / Distribution:** Club owners recruit players through invitations, while the company solicits prospective owners through support email and offered launch users up to $40 with code “LAUNCH” ([company website](https://pokerclubhub.com/), Aug 2026; [Y Combinator launch](https://www.ycombinator.com/launches/S2W-pokerclubhub-the-first-licensed-online-poker-club-platform), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** The company holds Anjouan B2C remote-gaming license ALSI-202604005-FI1, issued April 14, 2026 and valid through April 13, 2027, and states that its random-number generator is independently certified by BMM Testlabs ([Anjouan Gaming Authority](https://anjouangaming.com/license-register/?license=ALSI-202604027-FI2), Jul 2026; [PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-- **Future moat:** [Inferred]: A network of club owners, agents, and recurring players could produce liquidity and switching costs, but no public club, player, or game-volume metrics establish that network today.
-- **Market structure:** No structural barrier identified at this stage, because competing operators can seek gaming licenses, integrate custody and payment providers, and add private-club functionality.
-- **Commoditization risk:** ClubGG, WePoker, PokerBROS, PPPoker, and other poker applications already provide private or club-based games, while payment custody and random-number-generator certification are available from third-party vendors ([PokerClubHub](https://pokerclubhub.com/), Jul 2026; [PokerBROS](https://www.pokerbros.net/en/about), Jul 2026).
+- **Moat today:** The operator holds active Anjouan remote-B2C license ALSI-202604005-FI1, issued April 14, 2026, uses Fireblocks custody, and says its RNG was independently certified by BMM Testlabs ([iGregulator](https://app.igregulator.io/operators/3-102-953867-srl), Aug 2026; [company website](https://pokerclubhub.com/), Aug 2026).
+- **Future moat:** [Inferred]: A larger network of clubs and invited players could create liquidity and accumulated compliance data, but no public club, player, or transaction metrics establish those effects.
+- **Market structure:** [Inferred]: No structural barrier prevents an existing club platform from adding licensed payments, although doing so would require custody, compliance, and gambling-licensing operations absent from ClubGG’s play-money model.
+- **Commoditization risk:** ClubGG, PokerBROS, and PPPoker already provide customizable private clubs, while PokerBROS also has BMM certification and more than 500,000 Google Play downloads ([ClubGG](https://www.clubgg.com/media-guideline), Aug 2026; [PokerBROS](https://www.pokerbros.net/en/about), Aug 2026; [Google Play](https://play.google.com/store/apps/details?id=com.kpgame.PokerBros), Aug 2026; [PPPoker](https://www.pppoker.net/official_mobile/about), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - The product was publicly listed and launched as a Summer 2026 YC company in July 2026 ([Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Jul 2026).
-  - A PokerClubHub announcement thread recorded 104 views and one reply by July 14, 2026 ([Two Plus Two](https://forumserver.twoplustwo.com/292/online-poker-sites/), Jul 2026).
-  - An independent poker affiliate listed PokerClubHub among supported private-club platforms and published a PokerClubHub review ([The Poker Agent](https://thepokeragent.com/), Jul 2026).
+  - CEO-account launch post: approximately 4,000 views ([TwStalker mirror of X](https://w.twstalker.com/ycombinator), Aug 2026).
+  - Official Two Plus Two thread: 133 views and one reply in the indexed result ([Two Plus Two](https://forumserver.twoplustwo.com/292/online-poker-sites/), Jul 2026).
+  - Active jobs: 0 ([Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - ClubGG (funding unknown, revenue unknown): NSUS Group-operated club platform that requires players to settle deposits with club owners or agents rather than through the platform, according to PokerClubHub ([ClubGG](https://www.clubgg.com/about-us); [PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-  - PokerBROS (funding unknown, revenue unknown): private-club application offering Hold’em, sit-and-go tournaments, and Omaha variants but without PokerClubHub’s claimed platform-controlled deposits ([PokerBROS](https://www.pokerbros.net/en/about); [PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-  - WePoker (funding unknown, revenue unknown): club-game alternative for which PokerClubHub says deposits occur through owners or agents rather than the platform ([PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-  - PPPoker (funding unknown, revenue unknown): adjacent private-club application with multiple club unions and game formats, while PokerClubHub differentiates through licensed custody and integrated withdrawals ([The Poker Agent](https://thepokeragent.com/), Jul 2026).
-  - CoinPoker (funding unknown, revenue unknown): licensed, cryptocurrency-based browser poker room, whereas PokerClubHub permits third parties to create invitation-only clubs ([PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-- **Why now:** PokerClubHub’s Anjouan B2C license became effective April 14, 2026, enabling its 2026 launch with USDT and USDC deposits on Ethereum and Solana under Fireblocks custody ([Anjouan Gaming Authority](https://anjouangaming.com/license-register/?license=ALSI-202604027-FI2), Jul 2026; [PokerClubHub](https://pokerclubhub.com/), Jul 2026).
+  - ClubGG (funding undisclosed, revenue unknown): NSUS Group’s downloadable play-money club client prohibits clubs from promoting payment methods, versus PokerClubHub’s licensed deposit and withdrawal processing ([ClubGG](https://www.clubgg.com/media-guideline), Aug 2026).
+  - PokerBROS (funding undisclosed, revenue unknown): offers customizable mobile clubs and multiple poker variants but describes itself as a play-money app, versus PokerClubHub’s stablecoin custody and browser access ([Google Play](https://play.google.com/store/apps/details?id=com.kpgame.PokerBros), Aug 2026).
+  - PPPoker (funding undisclosed, revenue unknown): provides mobile private clubs and platform-purchased virtual items, versus PokerClubHub’s operator-held player deposits ([PPPoker](https://www.pppoker.net/official_mobile/about), Aug 2026; [PPPoker terms](https://www.pppoker.net/legal/termsOfService.html), Aug 2026).
+- **Why now:** [Inferred]: The April 2026 issuance of PokerClubHub’s remote-gaming license, combined with stablecoin settlement on Ethereum and Solana and institutional custody through Fireblocks, enabled a licensed alternative to off-platform club-owner settlement ([iGregulator](https://app.igregulator.io/operators/3-102-953867-srl), Aug 2026; [company website](https://pokerclubhub.com/), Aug 2026).
 
 ## Founders & Team
 
-- **No founder names publicly listed (Role not listed):**
+- **Founder identity not publicly listed (Role not publicly listed):**
   - Background: No public data found.
-  - Twitter/X: No public account found.
+  - Twitter/X: No verified personal account found; @pokerclubhubCEO is a role-based company account with follower count not retrievable.
   - LinkedIn: No public profile found.
   - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Founder-market fit cannot be assessed because the YC profile and company website do not identify founders or disclose their employment, education, poker, gaming, payments, or compliance experience.
+- **Founder-market fit:** [Inferred]: Founder-market fit cannot be assessed because the YC profile currently lists no founder names or biographies, although the launch post provides an individual contact at ivan@pokerclubhub.com ([Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Aug 2026; [Y Combinator launch](https://www.ycombinator.com/launches/S2W-pokerclubhub-the-first-licensed-online-poker-club-platform), Aug 2026).
 
 ## Key Risks
 
-- **License renewal and jurisdiction coverage:** The company’s Anjouan license expires April 13, 2027, and is recorded as an Anjouan B2C remote-gaming authorization, while the website offers cryptocurrency wagering globally ([Anjouan Gaming Authority](https://anjouangaming.com/license-register/?license=ALSI-202604027-FI2), Jul 2026).
-- **Custody-provider dependency:** All player funds are held through Fireblocks, so deposit security and availability depend partly on that third-party custody infrastructure; no alternative custodian is disclosed ([PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-- **Cryptocurrency concentration:** Deposits are currently limited to USDT and USDC on Ethereum and Solana, exposing onboarding and withdrawals to supported-token, blockchain, and wallet-access constraints ([PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-- **Club-integrity risk:** Invitation-only pools reduce exposure to open-pool professionals and bots but do not by themselves prevent collusion among invited participants; the public materials disclose RNG certification but no anti-collusion mechanism ([PokerClubHub](https://pokerclubhub.com/), Jul 2026).
-- **Incumbent replication:** ClubGG, PokerBROS, WePoker, and PPPoker already aggregate private poker clubs and could add licensed payment or custody integrations; no patent, proprietary protocol, or exclusive provider agreement was found ([PokerClubHub](https://pokerclubhub.com/), Jul 2026; [PokerBROS](https://www.pokerbros.net/en/about), Jul 2026).
+- **Regulatory reach:** The verified license is an Anjouan remote-B2C authorization expiring April 13, 2027, so service availability remains subject to rules in each player jurisdiction; the company states that access is limited to adults and publishes responsible-gaming materials ([iGregulator](https://app.igregulator.io/operators/3-102-953867-srl), Aug 2026; [company website](https://pokerclubhub.com/), Aug 2026).
+- **Custody concentration:** All player funds are held through Fireblocks, reducing club-owner control but concentrating deposit availability and withdrawals on PokerClubHub’s integration with one custody provider ([company website](https://pokerclubhub.com/), Aug 2026).
+- **Stablecoin access:** Deposits currently support only USDT and USDC on Ethereum and Solana, limiting players who lack compatible wallets or assets ([company website](https://pokerclubhub.com/), Aug 2026).
+- **Competitive replication:** PokerBROS already exceeds 500,000 Google Play downloads and ClubGG, PokerBROS, and PPPoker already support private-club creation, leaving licensed settlement and custody as the principal disclosed product differences ([Google Play](https://play.google.com/store/apps/details?id=com.kpgame.PokerBros), Aug 2026; [ClubGG](https://www.clubgg.com/media-guideline), Aug 2026; [PPPoker](https://www.pppoker.net/official_mobile/about), Aug 2026).
+- **Founder disclosure:** The YC profile contains no active-founder names or biographies, preventing public verification of operating, regulatory, or poker-domain experience ([Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.9B global online-poker market in 2024, forecast to $6.9B by 2030 at 10.2% CAGR for 2025–2030 (Grand View Research, 2025) |
+| TAM | $3.9B global online-poker market in 2024, projected to reach $6.9B by 2030 at a 10.2% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/online-poker-market-report), 2025) |
 | SAM | No public data found |
-| Traction | Summer 2026 YC launch (Y Combinator, Jul 2026); 104 forum-thread views and one reply (Two Plus Two, Jul 2026); listed by an independent poker affiliate (The Poker Agent, Jul 2026) |
+| Traction | CEO-account launch post reached approximately 4K views ([TwStalker mirror of X](https://w.twstalker.com/ycombinator), Aug 2026); official forum thread recorded 133 views and one reply ([Two Plus Two](https://forumserver.twoplustwo.com/292/online-poker-sites/), Jul 2026) |
 | Revenue Signal | No public data found |
 | Founders | No public data found |
-| Competitors | ClubGG (funding unknown, revenue unknown, owner-mediated deposits); PokerBROS (funding unknown, revenue unknown, private-club game application); WePoker (funding unknown, revenue unknown, owner-mediated deposits); PPPoker (funding unknown, revenue unknown, club unions); CoinPoker (funding unknown, revenue unknown, licensed crypto poker room) (PokerClubHub, ClubGG, PokerBROS and The Poker Agent, Jul 2026) |
-| Moat Signals | Anjouan B2C license valid Apr 14, 2026–Apr 13, 2027; BMM Testlabs-certified RNG; Fireblocks custody (Anjouan Gaming Authority and PokerClubHub, Jul 2026) |
-| Risk Factors | License expires Apr 2027; Fireblocks dependency; USDT/USDC and Ethereum/Solana concentration (Anjouan Gaming Authority and PokerClubHub, Jul 2026) |
+| Competitors | ClubGG (funding undisclosed, revenue unknown, play-money client without payment processing) ([ClubGG](https://www.clubgg.com/media-guideline), Aug 2026); PokerBROS (funding undisclosed, revenue unknown, downloadable customizable club app) ([PokerBROS](https://www.pokerbros.net/en/about), Aug 2026); PPPoker (funding undisclosed, revenue unknown, virtual-item club platform) ([PPPoker](https://www.pppoker.net/legal/termsOfService.html), Aug 2026) |
+| Moat Signals | Active Anjouan license ALSI-202604005-FI1 ([iGregulator](https://app.igregulator.io/operators/3-102-953867-srl), Aug 2026); Fireblocks custody and BMM-certified RNG ([company website](https://pokerclubhub.com/), Aug 2026) |
+| Risk Factors | Anjouan-only disclosed license ([iGregulator](https://app.igregulator.io/operators/3-102-953867-srl), Aug 2026), Fireblocks custody dependency and stablecoin-only deposits ([company website](https://pokerclubhub.com/), Aug 2026), established private-club applications ([Google Play](https://play.google.com/store/apps/details?id=com.kpgame.PokerBros), Aug 2026) |
 | Founder Reach | No public data found |
-| Distribution Signals | Summer 2026 YC launch; 104 Two Plus Two thread views; independent affiliate listing (Y Combinator, Two Plus Two and The Poker Agent, Jul 2026) |
-| Emails | support@pokerclubhub.com (PokerClubHub, Jul 2026) |
+| Distribution Signals | Approximately 4K views on CEO-account launch post ([TwStalker mirror of X](https://w.twstalker.com/ycombinator), Aug 2026); 133 forum-thread views ([Two Plus Two](https://forumserver.twoplustwo.com/292/online-poker-sites/), Jul 2026); 0 YC job postings ([Y Combinator](https://www.ycombinator.com/companies/pokerclubhub), Aug 2026) |
+| Emails | support@pokerclubhub.com, ivan@pokerclubhub.com ([Y Combinator launch](https://www.ycombinator.com/launches/S2W-pokerclubhub-the-first-licensed-online-poker-club-platform), Aug 2026) |

@@ -6,78 +6,78 @@
 |-------|-------|
 | Website | https://www.insurf.io |
 | YC Page | https://www.ycombinator.com/companies/insurf |
-| Batch | Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/insurf)) |
+| Batch | Summer 2026 |
 | Industry | Healthcare / Healthcare |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Artificial Intelligence, Health Tech, Automation |
-| YC Partner | Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/insurf)) |
-| Emails | founders@insurf.io ([LinkedIn](https://www.linkedin.com/company/insurf)), bryan@insurf.io ([Insurf Security](https://www.insurf.io/security)) |
+| YC Partner | Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/insurf), Aug 2026) |
+| Emails | founders@insurf.io, bryan@insurf.io ([LinkedIn](https://www.linkedin.com/company/insurf), [Insurf Security](https://www.insurf.io/security), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** Only 11.5% of denied Medicare Advantage prior-authorization requests were appealed in 2024, although 80.7% of appealed denials were partially or fully overturned, leaving hospitals and practices to manage appeals through existing staff workflows ([KFF, Jan 2026](https://www.kff.org/medicare/medicare-advantage-insurers-made-nearly-53-million-prior-authorization-determinations-in-2024/)).
-- **Approach:** Inveto routes each prior authorization or denial through intake, source-cited drafting, physician review, staff-controlled submission, follow-up, and outcome reporting while tracking receipt, deadlines, payer decisions, and posted payments ([Insurf](https://www.insurf.io/)).
-- **Differentiation:** Insurf combines physician-attested, source-snapshot-based appeals with a proposed payer-behavior graph, while Amperos automates portal, call, collection, and appeal workflows, Ember emphasizes pre-denial coding and documentation, and Red Sky focuses on error detection and resubmission ([Insurf Methodology](https://www.insurf.io/methodology); [Amperos](https://www.amperos.com/blog/series-a-announcement); [Ember](https://www.globenewswire.com/news-release/2025/11/19/3191024/0/en/Nexus-Venture-Partners-Leads-4-3M-Seed-Funding-in-Healthcare-AI-Startup-Ember.html); [Red Sky Health](https://www.prnewswire.com/news-releases/red-sky-health-secures-3m-in-seed-funding-to-revolutionize-healthcare-claims-management-302348695.html)).
-- **Business Model:** Insurf states that customer pilots use signed services agreements and order forms, but it publishes no prices or fee structure ([Insurf Terms, Jul 2026](https://www.insurf.io/terms)).
-- **TAM/SAM:** The global healthcare claims-management market was estimated at $32.17 billion in 2026 and projected to reach $67.78 billion by 2031 at a 16.05% CAGR, while North America was projected to reach $48.22 billion by 2030 at a 22.4% CAGR from 2023 ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/healthcare-claims-management-market); [Grand View Research](https://www.grandviewresearch.com/horizon/outlook/healthcare-claims-management-market/north-america)).
-- **GTM / Distribution:** Insurf targets hospitals and specialty practices with a one-workflow pilot that retains the customer’s existing systems, staff, and submission channels before deeper integration ([Insurf](https://www.insurf.io/)).
+- **Problem:** Healthcare providers average about 40 prior-authorization requests and 13 staff-hours weekly, while practices continue using staff-operated insurer channels and paperwork ([AMA](https://www.ama-assn.org/about/leadership/latest-prior-auth-survey-shows-promised-reform-remains-elusive), Jun 2026; [Insurf](https://www.insurf.io/), Aug 2026).
+- **Approach:** Inveto combines intake, source-cited drafting, physician review, staff-controlled submission, follow-up, payer-decision tracking, and posted-payment reporting in one workflow ([Insurf](https://www.insurf.io/), Aug 2026).
+- **Differentiation:** Insurf spans prior authorization and post-denial appeals with physician attestation, whereas Silna emphasizes front-end authorization, benefits, and eligibility, and Anterior and Cohere primarily deploy clinical-decision automation for health plans ([Insurf](https://www.insurf.io/), [Silna](https://www.businesswire.com/news/home/20250325542615/en/Silna-Health-Announces-%2427-Million-in-Funding-to-Tackle-America%27s-Prior-Authorization-Crisis), [Anterior](https://www.anterior.com/insights/anterior-raises-40m-series), [Cohere Health](https://www.prnewswire.com/news-releases/cohere-health-secures-90m-series-c-to-expand-ai-powered-platform-transforming-health-plan-clinical-decision-making-302454527.html)).
+- **Business Model:** [Inferred]: A contracted B2B managed-service or software-plus-service model for hospitals and specialty practices, based on the company’s pilot, BAA, contractual fee-credit, and managed-report language ([Insurf](https://www.insurf.io/), Aug 2026).
+- **TAM/SAM:** Global denial-management software was valued at $1.32 billion in 2025 and forecast to grow at 14.69% CAGR during 2026–2034; no public SAM estimate was found for Insurf’s U.S. provider segment ([Fortune Business Insights](https://www.fortunebusinessinsights.com/denials-management-software-market-115401), Jul 2026).
+- **GTM / Distribution:** [Inferred]: Direct pilots with hospitals and specialty practices, beginning with one workflow and retaining existing systems and staff before deeper integration ([Insurf](https://www.insurf.io/), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Insurf says resolved claims build a proprietary coverage-decision graph, while its methodology retains payer-policy, clinical, attestation, submission, and outcome snapshots; no graph size or production-outcome count is published ([Y Combinator](https://www.ycombinator.com/companies/insurf); [Insurf Methodology](https://www.insurf.io/methodology)).
-- **Future moat:** [Inferred]: Attested appeals linked to policy versions and payer outcomes could create a longitudinal payer-behavior dataset, but this remains unproven because Insurf publishes no record count or customer outcome series.
-- **Market structure:** No structural barrier is identified at this stage because Ember already combines payer-policy data, prior authorization, documentation, and appeal drafting, while Amperos automates denial workflows through portals and calls ([Ember](https://www.globenewswire.com/news-release/2025/11/19/3191024/0/en/Nexus-Venture-Partners-Leads-4-3M-Seed-Funding-in-Healthcare-AI-Startup-Ember.html); [Amperos](https://www.amperos.com/blog/series-a-announcement)).
-- **Commoditization risk:** Amperos uses LLMs, voice agents, and computer-use systems for appeals, and Cofactor applies LLMs to denial explanations and appeal generation, creating overlapping implementation paths ([Amperos](https://www.amperos.com/blog/series-a-announcement); [Cofactor AI](https://www.cofactorai.com/cofactor-ai-about)).
+- **Moat today:** Inveto preserves denial letters, policy snapshots, submitted text, physician-attestation events, payer responses, and payment evidence as an auditable outcome record ([Insurf Methodology](https://www.insurf.io/methodology), Jul 2026).
+- **Future moat:** [Inferred]: Resolved cases and sanitized form schemas could accumulate into payer-specific coverage and workflow data, but public case volume and customer counts remain undisclosed ([Insurf Documentation](https://www.insurf.io/docs), Jul 2026).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Silna, Anterior, Cohere Health, Waystar, and other vendors already automate overlapping authorization, appeal, payer-decision, or revenue-cycle workflows ([Silna](https://www.businesswire.com/news/home/20250325542615/en/Silna-Health-Announces-%2427-Million-in-Funding-to-Tackle-America%27s-Prior-Authorization-Crisis), [Anterior](https://www.anterior.com/insights/anterior-raises-40m-series), [Waystar](https://www.waystar.com/our-platform/denial-prevention-recovery/denial-appeal-management/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Public live product demo available ([Insurf, Jul 2026](https://www.insurf.io/demo-live)).
-  - Private implementation runbooks and customer evidence are maintained in controlled channels, with no customer count or production outcomes published ([Insurf Docs, Jul 16 2026](https://www.insurf.io/docs)).
-  - 0 active YC job postings ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/insurf)).
+  - Early pilots with selected specialty practices are referenced, but customer count and outcomes are not published ([Insurf Methodology](https://www.insurf.io/methodology), Jul 2026).
+  - One company profile was published by Founderland on July 2, 2026 ([Founderland](https://www.founderland.ai/articles/yc-s26s-insurf-automates-health-insurance-appeals-with-ai-mr3e1cbu), Jul 2026).
+  - Bryan Chung’s YC announcement received 442 reactions and 77 comments ([LinkedIn](https://www.linkedin.com/in/bryan-chung-21b531265), Jul 2026).
+  - 0 open YC jobs ([Y Combinator](https://www.ycombinator.com/companies/insurf), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Amperos Health ($20.2M raised, revenue unknown): automates portal follow-ups, calls, corrected claims, collections, and appeals end to end ([Amperos, Apr 2026](https://www.amperos.com/blog/series-a-announcement)).
-  - Ember ($4.3M raised, revenue unknown): focuses on denial prevention through coding, documentation, prior authorization, payer-policy intelligence, and appeals ([Ember, Nov 2025](https://www.globenewswire.com/news-release/2025/11/19/3191024/0/en/Nexus-Venture-Partners-Leads-4-3M-Seed-Funding-in-Healthcare-AI-Startup-Ember.html)).
-  - Cofactor AI ($4M raised, revenue unknown): applies LLMs to denial explanations, appeal generation, and hospital financial-intelligence workflows ([Cofactor AI](https://www.cofactorai.com/cofactor-ai-about)).
-  - Red Sky Health ($3M raised, revenue unknown): uses historical claims data to identify errors, apply fixes, and programmatically resubmit claims ([Red Sky Health, Jan 2025](https://www.prnewswire.com/news-releases/red-sky-health-secures-3m-in-seed-funding-to-revolutionize-healthcare-claims-management-302348695.html)).
-- **Why now:** [Inferred]: CMS prior-authorization requirements began taking effect on January 1, 2026, with initial payer metrics due by March 31, 2026, increasing the availability and standardization of denial and decision data ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f)).
+  - Silna Health ($27M raised; revenue unknown): automates prior authorization, benefit checks, and eligibility across insurer portals rather than Insurf’s combined authorization-and-appeal workflow ([Business Wire](https://www.businesswire.com/news/home/20250325542615/en/Silna-Health-Announces-%2427-Million-in-Funding-to-Tackle-America%27s-Prior-Authorization-Crisis), Mar 2025).
+  - Anterior ($64M raised; revenue unknown): embeds AI and clinicians within insurer utilization-management workflows rather than operating from the provider appeal side ([Anterior](https://www.anterior.com/insights/anterior-raises-40m-series), Feb 2026).
+  - Cohere Health ($200M raised; revenue unknown): processes more than 12 million annual authorization requests for health plans and risk-bearing providers rather than centering physician-attested denial recovery ([Cohere Health](https://www.prnewswire.com/news-releases/cohere-health-secures-90m-series-c-to-expand-ai-powered-platform-transforming-health-plan-clinical-decision-making-302454527.html), May 2025).
+- **Why now:** [Inferred]: CMS’s 2026 decision-time requirements and January 2027 FHIR prior-authorization API mandate create a near-term transition toward electronic workflows ([CMS](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f), Jan 2024).
 
 ## Founders & Team
 
-- **Bryan Chung (Founder and CTO):**
-  - Background: Studies Applied Mathematics–Computer Science and Physics at Brown University, reports a 4.0 GPA and two IEEE publications, and is building Insurf’s decision graph ([Bryan Chung](https://www.bryanchu.ng/)).
+- **Chang Lu (CEO and Founder):**
+  - Background: Brown BS/MD participant who previously studied neuroscience and economics and conducted zero-shot modeling research at Emory Winship Cancer Institute ([Y Combinator](https://www.ycombinator.com/companies/insurf), Aug 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: Profile found; public headline not retrievable ([LinkedIn](https://www.linkedin.com/in/bryan-chung-21b531265)).
+  - LinkedIn: “Sophomore at Brown University BS/MD Program”; 528 followers ([LinkedIn](https://www.linkedin.com/in/changxianlu), Jul 2026).
   - GitHub: No public repos found.
-- **Chang Lu (Founder and CEO):**
-  - Background: Attended Brown’s BS/MD program, studied neuroscience and economics, and conducted zero-shot modeling research at Emory Winship Cancer Institute ([Y Combinator](https://www.ycombinator.com/companies/insurf)).
+- **Bryan Chung (CTO and Founder):**
+  - Background: Brown Applied Mathematics–Computer Science and Physics student with two IEEE publications and USACO Platinum participation ([Bryan Chung](https://www.bryanchu.ng/), Jul 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Insurf (YC S26); Sophomore at Brown University BS/MD Program” with 512 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/changxianlu)).
+  - LinkedIn: Headline not retrievable; 2K followers ([LinkedIn](https://www.linkedin.com/in/bryan-chung-21b531265), Jul 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders attended Brown University ([Bryan Chung](https://www.bryanchu.ng/); [Y Combinator](https://www.ycombinator.com/companies/insurf)).
-- **Founder-market fit:** [Inferred]: Chung’s applied mathematics, computer science, physics, and ML work maps to the decision infrastructure, while Lu’s BS/MD, neuroscience, economics, and cancer-modeling experience maps to clinical evidence and healthcare workflows ([Bryan Chung](https://www.bryanchu.ng/); [Y Combinator](https://www.ycombinator.com/companies/insurf)).
+- **Co-founder relationship:** Both founders attended Brown University ([Y Combinator](https://www.ycombinator.com/companies/insurf), [Bryan Chung](https://www.bryanchu.ng/), Aug 2026).
+- **Founder-market fit:** [Inferred]: Lu’s medical-program and health-modeling work supplies clinical context, while Chung’s computer-science and machine-learning publications supply implementation experience ([Y Combinator](https://www.ycombinator.com/companies/insurf), [DBLP](https://dblp.org/pid/370/0627.html)).
 
 ## Key Risks
 
-- **Security and compliance readiness:** Insurf has no issued SOC 2 report and keeps production PHI disabled until customer BAAs, vendor coverage, technical gates, and founder approval are complete; public demos use synthetic or redacted material ([Insurf Security, Jul 2026](https://www.insurf.io/security)).
-- **End-to-end automation reliability:** A 2026 healthcare-administration benchmark found a maximum 36.3% end-to-end task-success rate across tested computer-use agents, while Insurf mitigates automation errors through physician review and staff-controlled submission ([HealthAdminBench, Apr 2026](https://arxiv.org/abs/2604.09937); [Insurf](https://www.insurf.io/)).
-- **Funded competition:** Amperos has raised $20.2 million, Ember $4.3 million, Cofactor $4 million, and Red Sky Health $3 million for overlapping denial, prior-authorization, and appeal workflows ([Amperos](https://www.amperos.com/blog/series-a-announcement); [Ember](https://www.globenewswire.com/news-release/2025/11/19/3191024/0/en/Nexus-Venture-Partners-Leads-4-3M-Seed-Funding-in-Healthcare-AI-Startup-Ember.html); [Cofactor](https://www.cofactorai.com/cofactor-ai-about); [Red Sky Health](https://www.prnewswire.com/news-releases/red-sky-health-secures-3m-in-seed-funding-to-revolutionize-healthcare-claims-management-302348695.html)).
-- **Payer-policy fragmentation:** An analysis cited by Ember found only 3% of examined billing codes shared across all payers and more than 50% restricted to one insurer, requiring continuing policy reconciliation; Insurf’s stated mitigation is retaining versioned source snapshots ([Ember](https://www.globenewswire.com/news-release/2025/11/19/3191024/0/en/Nexus-Venture-Partners-Leads-4-3M-Seed-Funding-in-Healthcare-AI-Startup-Ember.html); [Insurf Methodology](https://www.insurf.io/methodology)).
-- **Name ambiguity:** Searches for “Insurf” also return an unrelated Austrian IT-services business named InSurf e.U., creating search-result ambiguity ([InSurf e.U.](https://insurf.at/contact-us/)).
+- **Compliance readiness:** No SOC 2 report has been issued, production PHI remains disabled pending BAAs and launch gates, branch protection is an open remediation, and AWS compliance monitoring is incomplete ([Insurf Security](https://www.insurf.io/security), Jul 2026).
+- **Platform dependency:** PA Copilot is restricted to declared CoverMyMeds and athenaOne sites, making its workflow dependent on those interfaces and permissions ([Insurf Privacy](https://www.insurf.io/privacy), Aug 2026).
+- **Administrative accuracy:** A 2026 study of 45 synthetic scenarios identified administrative-structure deficiencies in LLM-generated prior-authorization letters; Insurf mitigates this with deterministic matching, physician attestation, and staff-controlled submission ([arXiv](https://arxiv.org/abs/2603.29366), Mar 2026; [Insurf Privacy](https://www.insurf.io/privacy), Aug 2026).
+- **Competitive scale:** Silna reports 50,000 patients served, Anterior supports organizations covering 50 million lives, and Cohere processes more than 12 million requests annually ([Silna](https://www.businesswire.com/news/home/20250325542615/en/Silna-Health-Announces-%2427-Million-in-Funding-to-Tackle-America%27s-Prior-Authorization-Crisis), [Anterior](https://www.anterior.com/insights/anterior-raises-40m-series), [Cohere Health](https://www.prnewswire.com/news-releases/cohere-health-secures-90m-series-c-to-expand-ai-powered-platform-transforming-health-plan-clinical-decision-making-302454527.html)).
+- **Dataset scale:** Insurf says early pilots use selected, non-random cases, and Surely’s readiness depends on source-data reconciliation and sufficient coverage-decision evidence ([Insurf Methodology](https://www.insurf.io/methodology), [Insurf Documentation](https://www.insurf.io/docs), Jul 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $32.17B global healthcare claims-management market in 2026, projected to reach $67.78B by 2031 at 16.05% CAGR (Mordor Intelligence, 2026) |
-| SAM | $48.22B projected North American healthcare claims-management revenue by 2030 at 22.4% CAGR from 2023 (Grand View Research) |
-| Traction | Public live demo available (Insurf, Jul 2026); private customer evidence held in controlled channels (Insurf Docs, Jul 2026); 0 YC jobs (Y Combinator, Jul 2026) |
+| TAM | $1.32B global denial-management software market in 2025; 14.69% CAGR during 2026–2034 ([Fortune Business Insights](https://www.fortunebusinessinsights.com/denials-management-software-market-115401), 2026) |
+| SAM | No public data found |
+| Traction | Selected specialty-practice pilots referenced, customer count undisclosed ([Insurf Methodology](https://www.insurf.io/methodology), Jul 2026); Founderland profile ([Founderland](https://www.founderland.ai/articles/yc-s26s-insurf-automates-health-insurance-appeals-with-ai-mr3e1cbu), Jul 2026) |
 | Revenue Signal | No public data found |
-| Founders | Bryan Chung (CTO): Brown applied mathematics-CS and physics, two IEEE publications (Bryan Chung profile, Jul 2026); Chang Lu (CEO): Brown BS/MD, neuroscience/economics, Emory Winship modeling research (Y Combinator, Jul 2026) |
-| Competitors | Amperos Health ($20.2M raised, revenue unknown, end-to-end collections and appeals); Ember ($4.3M raised, revenue unknown, denial prevention and coding); Cofactor AI ($4M raised, revenue unknown, hospital financial intelligence); Red Sky Health ($3M raised, revenue unknown, error detection and resubmission) (company funding announcements, 2025–2026) |
-| Moat Signals | Proprietary coverage-decision graph claim and retained payer-policy, attestation, submission, and outcome snapshots (Y Combinator; Insurf Methodology, Jul 2026) |
-| Risk Factors | No issued SOC 2 and production PHI disabled (Insurf Security, Jul 2026), overlapping funded competitors (company funding announcements, 2025–2026), payer-policy fragmentation (Ember, Nov 2025) |
-| Founder Reach | Chang Lu: LinkedIn 512 followers (LinkedIn, Jul 2026); Bryan Chung: No public data found |
-| Distribution Signals | Public live demo (Insurf, Jul 2026), company LinkedIn page present with follower count not published (LinkedIn, Jul 2026), 0 YC jobs (Y Combinator, Jul 2026) |
-| Emails | founders@insurf.io (LinkedIn, Jul 2026), bryan@insurf.io (Insurf Security, Jul 2026) |
+| Founders | Chang Lu (CEO): Brown BS/MD and Emory modeling research; Bryan Chung (CTO): Brown Applied Math-CS/Physics and two IEEE publications ([Y Combinator](https://www.ycombinator.com/companies/insurf), Aug 2026) |
+| Competitors | Silna Health ($27M raised, revenue unknown, front-end authorization); Anterior ($64M raised, revenue unknown, payer workflows); Cohere Health ($200M raised, revenue unknown, health-plan authorization platform) ([Business Wire](https://www.businesswire.com/news/home/20250325542615/en/Silna-Health-Announces-%2427-Million-in-Funding-to-Tackle-America%27s-Prior-Authorization-Crisis), [Anterior](https://www.anterior.com/insights/anterior-raises-40m-series), [Cohere Health](https://www.prnewswire.com/news-releases/cohere-health-secures-90m-series-c-to-expand-ai-powered-platform-transforming-health-plan-clinical-decision-making-302454527.html)) |
+| Moat Signals | Versioned payer-policy evidence, physician-attestation events, payer outcomes, and payment records ([Insurf Methodology](https://www.insurf.io/methodology), Jul 2026) |
+| Risk Factors | SOC 2 and PHI launch gates incomplete ([Insurf Security](https://www.insurf.io/security), Jul 2026); CoverMyMeds/athenaOne dependency ([Insurf Privacy](https://www.insurf.io/privacy), Aug 2026); competitors operating at disclosed volume ([Cohere Health](https://www.prnewswire.com/news-releases/cohere-health-secures-90m-series-c-to-expand-ai-powered-platform-transforming-health-plan-clinical-decision-making-302454527.html), May 2025) |
+| Founder Reach | Bryan Chung: Twitter not found, LinkedIn 2K, GitHub repos not found; Chang Lu: Twitter not found, LinkedIn 528, GitHub repos not found ([LinkedIn](https://www.linkedin.com/in/bryan-chung-21b531265), [LinkedIn](https://www.linkedin.com/in/changxianlu), Jul 2026) |
+| Distribution Signals | Founder YC post received 442 reactions and 77 comments ([LinkedIn](https://www.linkedin.com/in/bryan-chung-21b531265), Jul 2026); 0 YC job postings ([Y Combinator](https://www.ycombinator.com/companies/insurf), Aug 2026) |
+| Emails | founders@insurf.io, bryan@insurf.io ([LinkedIn](https://www.linkedin.com/company/insurf), [Insurf Security](https://www.insurf.io/security), Aug 2026) |

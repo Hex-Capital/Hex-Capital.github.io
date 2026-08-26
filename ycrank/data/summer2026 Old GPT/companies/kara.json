@@ -1,0 +1,82 @@
+{
+  "slug": "kara",
+  "name": "Kara",
+  "oneLiner": "Making diamond an engineering material",
+  "metadata": {
+    "website": "https://karalabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/kara",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, B2B, Manufacturing, Advanced Materials",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@karalabs.ai, aarin@karalabs.ai, arjun@karalabs.ai"
+  },
+  "tags": [
+    "Hardware",
+    "B2B",
+    "Manufacturing",
+    "Advanced Materials"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:57:32.384Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 79,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 74,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 55,
+      "tier": "Neutral"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 79,
+    "EG": 46,
+    "NR": 44,
+    "PG": 74,
+    "PT": 51,
+    "SL": 47,
+    "VK": 55
+  },
+  "consolidatedAvg": 56.57,
+  "consolidatedRank": 49,
+  "traction": {
+    "tractionRank": 156,
+    "tractionScore": 18,
+    "tractionReason": "YC participation and followers only"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/kara.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/kara.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/kara.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/kara.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/kara.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/kara.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/kara.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/kara.md"
+    }
+  }
+}

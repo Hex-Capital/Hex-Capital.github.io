@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Logistics, Manufacturing, Supply Chain, AI",
     "yc_partner": "Harshita Arora",
-    "emails": "hello@donkey.trade ([Donkey website](https://donkey.trade), Jul 2026)"
+    "emails": "hello@donkey.trade ([Donkey website](https://donkey.trade/), Aug 2026)"
   },
   "tags": [
     "Logistics",
@@ -20,52 +20,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T18:01:29.104Z",
+  "memoGeneratedAt": "2026-08-11T05:41:16.935Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 78,
-      "tier": "Invest"
+      "score": 60,
+      "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 55,
+      "score": 60,
       "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
+      "score": 62,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 73,
+      "score": 68,
       "tier": "Invest"
     },
     "peter-thiel": {
-      "score": 53,
+      "score": 58,
       "tier": "Neutral"
     },
     "sam-lessin": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 37,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
+      "score": 25,
+      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 78,
-    "EG": 55,
-    "NR": 43,
-    "PG": 73,
-    "PT": 53,
-    "SL": 59,
-    "VK": 48
+    "CB": 60,
+    "EG": 60,
+    "NR": 62,
+    "PG": 68,
+    "PT": 58,
+    "SL": 37,
+    "VK": 25
   },
-  "consolidatedAvg": 58.43,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 52.86,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 32,
-    "tractionReason": "Inspectors in seven provinces; no current customers disclosed"
+    "tractionRank": 155,
+    "tractionScore": 38,
+    "tractionReason": "$110K quoted; first purchase orders signing"
   },
   "paths": {
     "memo": "summer2026/memos/donkey.md",

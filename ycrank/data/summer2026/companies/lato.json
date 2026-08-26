@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.latolabs.io/",
     "yc_page": "https://www.ycombinator.com/companies/lato",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/lato), 2026)",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Investing, Market Research, AI",
-    "yc_partner": "Gustaf Alstromer ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/lato))",
-    "emails": "hi@latolabs.io ([LATO website, Jul 2026](https://www.latolabs.io/))"
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/lato), 2026)",
+    "emails": "hi@latolabs.io ([LATO website](https://www.latolabs.io/), accessed Aug 2026)"
   },
   "tags": [
     "B2B",
@@ -20,52 +20,52 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:37:23.209Z",
+  "memoGeneratedAt": "2026-08-11T16:33:54.191Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "elad-gil": {
-      "score": 54,
-      "tier": "Neutral"
+      "score": 42,
+      "tier": "Pass"
     },
     "naval-ravikant": {
       "score": 44,
       "tier": "Pass"
     },
     "paul-graham": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 51,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 39,
+      "score": 38,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 40,
+      "score": 37,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 31,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 54,
+    "CB": 44,
+    "EG": 42,
     "NR": 44,
-    "PG": 69,
-    "PT": 39,
-    "SL": 40,
-    "VK": 31
+    "PG": 51,
+    "PT": 38,
+    "SL": 37,
+    "VK": 32
   },
-  "consolidatedAvg": 47.29,
-  "consolidatedRank": 137,
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 50,
-    "tractionReason": "Two disclosed early customers: Blume Equity and FoodLabs"
+    "tractionRank": 73,
+    "tractionScore": 58,
+    "tractionReason": "Blume Equity and FoodLabs named as customers"
   },
   "paths": {
     "memo": "summer2026/memos/lato.md",

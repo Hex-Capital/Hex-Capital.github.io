@@ -1,0 +1,82 @@
+{
+  "slug": "marengo",
+  "name": "Marengo",
+  "oneLiner": "Automating engineering design, starting with data centers.",
+  "metadata": {
+    "website": "https://marengox.com",
+    "yc_page": "https://www.ycombinator.com/companies/marengo",
+    "batch": "Summer 2026 ([Marengo LinkedIn](https://www.linkedin.com/company/marengox), Aug 2026)",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Design, Energy, Architecture",
+    "yc_partner": "Diana Hu and Francois Chaubard ([founder announcement](https://www.linkedin.com/posts/emil-ares_marengo-yc-s26-is-automating-engineering-activity-7481372927771418625-ZwCx), Jul 2026)",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Design",
+    "Energy",
+    "Architecture"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T04:55:15.735Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 55,
+    "NR": 35,
+    "PG": 43,
+    "PT": 40,
+    "SL": 29,
+    "VK": 33
+  },
+  "consolidatedAvg": 40.29,
+  "consolidatedRank": 160,
+  "traction": {
+    "tractionRank": 105,
+    "tractionScore": 51,
+    "tractionReason": "Working with large data-center builders"
+  },
+  "paths": {
+    "memo": "summer2026/memos/marengo.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/marengo.md",
+      "elad-gil": "summer2026/evals/elad-gil/marengo.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/marengo.md",
+      "paul-graham": "summer2026/evals/paul-graham/marengo.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/marengo.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/marengo.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/marengo.md"
+    }
+  }
+}

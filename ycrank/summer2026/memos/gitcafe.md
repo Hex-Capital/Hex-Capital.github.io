@@ -4,73 +4,72 @@
 
 | Field | Value |
 |-------|-------|
-| Website | https://gitcafe.dev/ |
+| Website | https://git.cafe |
 | YC Page | https://www.ycombinator.com/companies/gitcafe |
-| Batch | [Summer 2026](https://www.ycombinator.com/companies/gitcafe) |
+| Batch | Summer 2026 |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, DevOps |
-| YC Partner | [Diana Hu](https://www.ycombinator.com/companies/gitcafe) |
-| Emails | No public data found |
+| YC Partner | Diana Hu ([Y Combinator](https://www.ycombinator.com/companies/gitcafe), Aug 2026) |
+| Emails | legal@git.cafe, privacy@git.cafe, abuse@git.cafe ([Terms](https://git.cafe/legal/terms), [Privacy](https://git.cafe/legal/privacy), [Acceptable Use](https://git.cafe/legal/acceptable-use), Aug 2026) |
 
 ## The Idea
 
-- **Problem:** GitCafe targets engineers using GitHub or another forge to code, review, and ship software, describing slow paths and broken abstractions caused by stacks whose layers are not owned by one team ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-- **Approach:** GitCafe implements its own `libgitz` Git engine, `kiln` runtime, native `cafe:git` binding, hosted forge, and CLI supporting authentication, credentials, pull requests, and coding-agent skills ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-- **Differentiation:** GitCafe owns its Git implementation, whereas Codeberg runs on Forgejo, GitLab provides an integrated DevSecOps platform, and GitHub already supplies hosted CI/CD; GitHub Actions and GitLab CI compatibility remain planned at GitCafe ([GitCafe](https://gitcafe.dev/), [Codeberg](https://docs.codeberg.org/getting-started/what-is-codeberg/), [GitLab](https://about.gitlab.com/solutions/source-code-management/), [GitHub Actions](https://github.com/features/actions)).
-- **Business Model:** Private repositories are free during beta with no credit card, and GitCafe says pricing will be published before that changes ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-- **TAM/SAM:** The version-control-systems market was projected at $1.3 billion in 2026 and $2.7 billion in 2030, representing an 18.6% CAGR for 2025–2030 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/version-control-system-market)).
-- **GTM / Distribution:** [Inferred]: GitCafe is using free beta accounts, a globally installable CLI, agent-skill installation, and adoption by engineers at eight named organizations to seed developer-led distribution ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
+- **Problem:** [Inferred]: Software teams seeking an independent code forge currently depend on GitHub, GitLab, or Bitbucket and must connect browser-centered repository workflows with terminal-based developers and coding agents.
+- **Approach:** GitCafe operates a hosted forge on its own libgitz engine, kiln runtime, native `cafe:git` binding, and forge layer, with a CLI for authentication, credentials, pull requests, and agent-skill installation ([GitCafe](https://git.cafe/), Aug 2026).
+- **Differentiation:** [Inferred]: Against GitHub, GitLab, and Bitbucket, GitCafe’s stated differences are ownership of the git implementation through the forge, a first-party CLI with agent skills, and native stacked diffs ([GitCafe](https://git.cafe/), Aug 2026).
+- **Business Model:** Private repositories are free during beta without a credit card, while GitCafe says it will publish paid pricing before changing that arrangement ([GitCafe](https://git.cafe/), Aug 2026).
+- **TAM/SAM:** The version-control-systems market was valued at $1.24B in 2025 and forecast to grow at an 18.87% CAGR from 2026–2034, while no public SAM data was found for GitCafe’s serviceable segment ([Fortune Business Insights](https://www.fortunebusinessinsights.com/version-control-systems-market-111262), 2026).
+- **GTM / Distribution:** GitCafe offers self-service account creation, an npm-installed CLI, a public pull-request demonstration, and references engineers at eight named organizations ([GitCafe](https://git.cafe/), Aug 2026).
 
 ## Defensibility
 
-- **Moat today:** Technical-complexity signals include a proprietary Git engine and ownership of the engine, runtime, native binding, and forge layers, but no comparative performance data or patents were found ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-- **Future moat:** [Inferred]: Repository history, review workflows, agent integrations, and CI configuration could create switching costs if teams adopt the full stack, but migration and CI compatibility are still planned ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
+- **Moat today:** GitCafe controls a custom git engine, runtime, native binding, forge, and CLI rather than wrapping the standard git binary, creating a vertically integrated technical stack ([GitCafe](https://git.cafe/), Aug 2026).
+- **Future moat:** [Inferred]: Repository history, native stacked-diff workflows, and installed agent skills could create switching costs, but this remains unproven while the service is in beta and migration tooling is still planned ([GitCafe](https://git.cafe/), Aug 2026).
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Forgejo is freely self-hostable and powers Codeberg, allowing other operators to launch Git forges without writing a new Git engine ([Codeberg documentation, Jul 2026](https://docs.codeberg.org/getting-started/what-is-codeberg/)).
+- **Commoditization risk:** GitHub, GitLab, and Bitbucket already combine repository hosting, code review, and CI/CD, allowing these vendors or open-source forge projects to reproduce individual workflow features ([GitHub Actions](https://github.com/features/actions), [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/), [Bitbucket Pipelines](https://www.atlassian.com/software/bitbucket/features/pipelines), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 8 organizations named as workplaces of GitCafe users: Corgi, alphaXiv, AthenaHQ, OpenRelay, Cerenovus, Miso Labs, Marengo, and Harmont ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-  - 0 active job postings on the YC company page ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/gitcafe)).
-  - Live public product with account creation, private repositories, and a browsable pull request ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-- **Competitors (minimum 3, up to 5):**
-  - GitHub ($350M raised, $1B ARR): provides an incumbent forge, CI/CD, marketplace, security, and broader workflow tooling, versus GitCafe’s owned Git implementation ([InfoWorld, Jul 2015](https://www.infoworld.com/article/2250423/what-github-will-do-with-its-250-million-series-b.html), [Microsoft annual report, FY2023](https://www.sec.gov/Archives/edgar/data/789019/000119312523259254/d506673dars.pdf)).
-  - GitLab ($413.5M raised, over $1B ARR): combines source control, CI/CD, security, governance, deployment options, and agent tooling in one DevSecOps platform ([Seedtable, Jul 2026](https://seedtable.com/companies/gitlab), [GitLab, Mar 2026](https://ir.gitlab.com/news/news-details/2026/GitLab-Reports-Fourth-Quarter-and-Full-Year-Fiscal-Year-2026-Financial-Results-Board-of-Directors-Authorizes-400-million-for-Share-Repurchase-Program/default.aspx)).
-  - Codeberg ($0M VC raised, revenue unknown): offers a nonprofit, community-governed, Forgejo-based forge funded by 1,691 paying members and donations, versus GitCafe’s company-operated owned stack ([Codeberg, May 2026](https://blog.codeberg.org/codebergs-budget-of-2026.html)).
-- **Why now:** [Inferred]: AI-assisted development increased GitHub commits 25.1% year over year and merged pull requests 29% year over year in 2025, increasing code-review and repository workload that a CLI- and agent-integrated forge could address ([GitHub Octoverse, Oct 2025](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/)).
+  - Engineers at eight named organizations—Corgi, alphaXiv, AthenaHQ, OpenRelay, Cerenovus, Miso Labs, Marengo, and harmont—are presented as users ([GitCafe](https://git.cafe/), Aug 2026).
+  - Zero active jobs are listed on YC ([Y Combinator](https://www.ycombinator.com/companies/gitcafe), Aug 2026).
+- **Competitors:**
+  - GitHub ($350M raised, more than $3B ARR): integrated Actions, established repository network, and Microsoft ownership versus GitCafe’s custom engine and terminal-first workflow ([TechCrunch](https://techcrunch.com/2015/07/29/github-raises-250m-series-b-round-to-take-risks/), Jul 2015; [The Information](https://www.theinformation.com/articles/microsoft-executives-sound-alarm-githubs-eroding-ai-lead), 2025 via search snippet).
+  - GitLab ($426M raised, more than $1B ARR): self-managed deployment and an integrated DevSecOps platform versus GitCafe’s hosted, independently implemented forge ([GitLab funding announcement](https://about.gitlab.com/press/releases/2019-09-17-gitlab-raises-268m-to-expanding-leading-devops-platform/), Sep 2019; [GitLab FY2026 results](https://about.gitlab.com/press/releases/2026-03-03-gitlab-reports-fourth-quarter-fiscal-year-2026-financial-results/), Mar 2026).
+  - Bitbucket (funding not separately disclosed, revenue unknown): built-in Pipelines and Atlassian-platform integration versus GitCafe’s native stacked diffs, custom git stack, and agent-skill CLI ([Bitbucket](https://www.atlassian.com/software/bitbucket/features/pipelines), Aug 2026; [GitCafe](https://git.cafe/), Aug 2026).
+- **Why now:** [Inferred]: A 43% year-over-year increase in public commits during 2025 and secret-leak rates around twice the baseline in AI-assisted code create demand for agent-facing workflows and push-time secret scanning ([GitGuardian](https://blog.gitguardian.com/the-state-of-secrets-sprawl-2026-pr/), Mar 2026; [GitCafe](https://git.cafe/), Aug 2026).
 
 ## Founders & Team
 
-- **Founders (Names and roles not publicly listed):**
-  - Background: No public data found.
+- **Veronica C. (Founder):**
+  - Background: No public data found for education or prior exits; she was previously a founding engineer at Corgi (YC S24), and her portfolio documents full-stack TypeScript, Rust, and platform-binding work ([Y Combinator](https://www.ycombinator.com/companies/gitcafe), [personal portfolio](https://verse.cafe/), Aug 2026).
   - Twitter/X: No public account found.
   - LinkedIn: No public profile found.
-  - GitHub: No public repos found.
+  - GitHub: @versecafe, with 72 public repositories, 54 followers, and TinyTriangle as the top personal repository at 23 stars ([GitHub](https://github.com/versecafe), Aug 2026).
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** No public data found.
+- **Founder-market fit:** [Inferred]: Veronica C.’s prior founding-engineer role and documented work across developer tools, TypeScript, Rust, Vercel tooling, and platform bindings align with building a git forge ([Y Combinator](https://www.ycombinator.com/companies/gitcafe), [personal portfolio](https://verse.cafe/), Aug 2026).
 
 ## Key Risks
 
-- **Workflow-compatibility gap:** GitHub Actions and GitLab CI workflow support are planned rather than shipped, while both GitHub and GitLab already provide integrated CI/CD; no mitigation beyond the published compatibility roadmap was found ([GitCafe](https://gitcafe.dev/), [GitHub Actions](https://github.com/features/actions), [GitLab SCM](https://about.gitlab.com/solutions/source-code-management/)).
-- **Migration friction:** One-command repository migration remains planned, so teams cannot yet use GitCafe’s advertised migration path for existing repositories ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-- **Git-engine execution risk:** GitCafe maintains its own engine, runtime, binding, and forge, expanding the code surface requiring protocol compatibility, security, and performance validation; push-time secret scanning and live merge-readiness shipped in July 2026 ([GitCafe website, Jul 2026](https://gitcafe.dev/)).
-- **Name collision:** An unrelated Chinese GitCafe operated at `gitcafe.com`, raised funding, and was acquired by Coding in 2016, creating search-result and brand-disambiguation risk for the YC company at `gitcafe.dev` ([Dealroom](https://app.dealroom.co/companies/gitcafe), [Y Combinator](https://www.ycombinator.com/companies/gitcafe)).
+- **Workflow-parity and migration risk:** GitHub Actions support, GitLab CI support, and one-command repository migration remain planned rather than shipped, limiting migration for teams dependent on those workflows ([GitCafe](https://git.cafe/), Aug 2026).
+- **Incumbent network effects:** GitHub reported more than 180M developers and 630M repositories in 2025, while GitLab crossed $1B ARR in FY2026 ([GitHub Octoverse](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/), 2025; [GitLab](https://about.gitlab.com/press/releases/2026-03-03-gitlab-reports-fourth-quarter-fiscal-year-2026-financial-results/), Mar 2026).
+- **Beta service commitment:** GitCafe’s terms state that beta features may be incomplete or discontinued and carry no service-level commitment, affecting organizations placing private source code on the platform ([GitCafe Terms](https://git.cafe/legal/terms), Aug 2026).
+- **Name collision:** An unrelated Chinese GitCafe used `gitcafe.com`, raised outside capital, and was acquired by CODING in 2016, which can confound searches for the current `git.cafe` company ([Dealroom](https://app.dealroom.co/companies/gitcafe), 2026; [Y Combinator](https://www.ycombinator.com/companies/gitcafe), Aug 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $1.3B in 2026, projected to reach $2.7B by 2030 at an 18.6% CAGR for 2025–2030 (Grand View Research, 2026) |
+| TAM | $1.24B global version-control-systems market in 2025; 18.87% forecast CAGR for 2026–2034 ([Fortune Business Insights](https://www.fortunebusinessinsights.com/version-control-systems-market-111262), 2026) |
 | SAM | No public data found |
-| Traction | Engineers at 8 named organizations and a live public beta (GitCafe website, Jul 2026) |
-| Revenue Signal | Private repositories free during beta; future pricing not yet published (GitCafe website, Jul 2026) |
-| Founders | No public data found |
-| Competitors | GitHub ($350M raised, $1B ARR, integrated forge and CI/CD) (InfoWorld, Jul 2015; Microsoft FY2023); GitLab ($413.5M raised, over $1B ARR, integrated DevSecOps platform) (Seedtable, Jul 2026; GitLab, Mar 2026); Codeberg ($0M VC raised, revenue unknown, nonprofit Forgejo-based forge) (Codeberg, May 2026) |
-| Moat Signals | Owned Git engine, runtime, native binding, forge, and first-party CLI (GitCafe website, Jul 2026) |
-| Risk Factors | Planned rather than shipped CI compatibility and migration tooling (GitCafe website, Jul 2026), owned-engine execution surface (GitCafe website, Jul 2026), name collision with an unrelated acquired company (Dealroom) |
-| Founder Reach | No public data found |
+| Traction | Engineers at eight named organizations presented as users; zero YC job postings ([GitCafe](https://git.cafe/), [Y Combinator](https://www.ycombinator.com/companies/gitcafe), Aug 2026) |
+| Revenue Signal | Private repositories free during beta; future paid pricing not yet published ([GitCafe](https://git.cafe/), Aug 2026) |
+| Founders | Veronica C. (Founder): former founding engineer at Corgi and developer of TypeScript, Rust, and platform-tooling projects ([Y Combinator](https://www.ycombinator.com/companies/gitcafe), [personal portfolio](https://verse.cafe/), Aug 2026) |
+| Competitors | GitHub ($350M raised, more than $3B ARR, integrated Actions); GitLab ($426M raised, more than $1B ARR, self-managed DevSecOps); Bitbucket (funding not separately disclosed, revenue unknown, Atlassian-integrated CI/CD) ([TechCrunch](https://techcrunch.com/2015/07/29/github-raises-250m-series-b-round-to-take-risks/), [GitLab](https://about.gitlab.com/press/releases/2026-03-03-gitlab-reports-fourth-quarter-fiscal-year-2026-financial-results/), [Bitbucket](https://www.atlassian.com/software/bitbucket/features/pipelines)) |
+| Moat Signals | Custom libgitz engine, kiln runtime, native binding, forge, first-party CLI, and native stacked diffs ([GitCafe](https://git.cafe/), Aug 2026) |
+| Risk Factors | Migration and CI parity remain planned ([GitCafe](https://git.cafe/), Aug 2026), beta carries no service-level commitment ([Terms](https://git.cafe/legal/terms), Aug 2026), name overlaps with an acquired Chinese company ([Dealroom](https://app.dealroom.co/companies/gitcafe), 2026) |
+| Founder Reach | Veronica C.: no public Twitter/X account or LinkedIn profile found; GitHub @versecafe has 54 followers and a top personal repository with 23 stars ([GitHub](https://github.com/versecafe), Aug 2026) |
 | Distribution Signals | No public data found |
-| Emails | No public data found |
+| Emails | legal@git.cafe, privacy@git.cafe, abuse@git.cafe ([Terms](https://git.cafe/legal/terms), [Privacy](https://git.cafe/legal/privacy), [Acceptable Use](https://git.cafe/legal/acceptable-use), Aug 2026) |

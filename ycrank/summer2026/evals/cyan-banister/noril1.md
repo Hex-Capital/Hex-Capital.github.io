@@ -1,30 +1,22 @@
-﻿# Nori -- Cyan Banister Evaluation
+﻿# noril1 -- Cyan Banister Evaluation
 
-Nori’s $1,288 bimanual robot is a real frontier-hardware swing with an organizational blank space where authority should be. Nori is strongest when Antonio Sitong Li turns VR-demonstrated robot coordination into something you can watch load dishes; Nori is weakest because “only active founder” does not explain who the other three people are, how decisions are divided, or who wins an irreconcilable fight. That pairing makes Nori a wonderfully tangible machine whose technical ambition is presently more legible than its human operating system.
+Six years forward, I cannot describe what noril1 changes because the supplied dossier contains no company evidence. It is a tooling-error message: no product, future behavior, causal transitions, or present-day artifact leaking from that future. That earns the missing-evidence prior, not an adverse judgment.
 
-SpaceX is the high rung here: capital intensity and technical risk were the opportunity, because everyone else treated them as disqualifying. Nori shares that load-bearing mechanism—two bimanual models, vertical lifts, autonomous training, teleoperation, and manufacturing promised below $1,400 while 1X charges $20,000. Nori diverges because SpaceX’s frontier claim came with unusually concentrated technical authority, whereas Nori publishes no payload, runtime, task-success rate, safety protocol, delivered-unit count, or explanation of how “Made in San Francisco” economics work at $1,288. Nori is magically hard hardware, but the robot has not yet earned the rocket comparison.
+I also cannot see who the founders are, what they pursued before noril1, or whether they built anything before the category became fashionable. There is no named broken rule, quantified rent, institutional gatekeeper, or account of whose agency the product returns. These are unanswered questions, not proof of weak founders or an unimportant problem.
 
-HQ Trivia is the low governance rung: an irresistible artifact temporarily concealed an unresolved founder structure, then the Yusupov-Kroll conflict helped tear the structure open. Nori names Antonio Sitong Li as its only active founder, which is better than shared CEO titles, but Nori has four people and provides no co-founder history, equity split, vesting arrangement, or tiebreaker protocol. The HQ exception does not yet rescue Nori because a full first production batch is not the same as millions of people simultaneously feeling the product’s pull. “Single founder” is a reassuring label; identifiable authority is a practiced behavior.
+The same constraint applies to product proof and stack position. There is no functioning artifact, dated usage, payment, repeat behavior, technical asset, controlled data, or lower-stack bottleneck. I cannot test the privacy architecture, founder control, dependence on a closed supplier, or any other red flag. Nor does the evidence establish a known-exception case capable of overriding those missing signals.
 
-Antonio Sitong Li researched VR-demonstrated goals for robot teams before founding Nori, and that biography can compound over the next 18 months. Nori’s transferable skills marketplace needs someone who understands demonstrations, embodiments, interfaces, and multi-robot coordination as one system rather than four fashionable features stapled together. Antonio’s Columbia robotics work supplies Tiz, while his earlier anti-cheating product—2,000 users and 1.5 million impressions—offers a small piece of Biz. Nori still lacks the autobiographical moment: Antonio studied the problem deeply, but the dossier never shows Antonio living household labor, manufacturing robots, or operating inside customers’ homes before Nori existed.
-
-Sunday Robotics’ $165 million Series B defines the counterfactual for Nori’s “magically weird” score. If Nori’s first production batch contains hundreds of paid units, the sub-$1,400 bill of materials is real, and sophisticated investors are dismissing Nori because a waist-high wheeled robot looks aesthetically unserious, Nori moves into Crusoe territory: the ridiculous appearance is the mispricing. If “capacity” means a few refundable deposits and Nori is riding a household-robot consensus already funded through Sunday and 1X, Nori falls toward the hot-deal pattern I avoid. The disclosed 41,000 launch views and 575 likes prove curiosity, not yet non-consensus truth.
-
-Niantic is the single-anchor parallel for physical verifiability: I played Ingress before I needed a spreadsheet to explain why location-based computing mattered. Nori could pass that same bodily test more directly—a person can watch Nori load a dishwasher, prepare food, or fail against a badly positioned plate. Yet Nori has disclosed no shipped units, task-success rates, or independent household use, so today the tactile artifact remains mediated through Nori’s own website. The first batch reaching capacity pulls Nori above a developer abstraction; a paid robot performing repeat chores for 90 days would pull it toward Niantic.
-
-Nori’s undisclosed first-batch capacity leads to my 36-month forecast: by July 2029, Nori will have abandoned broad consumer-home positioning, deployed teleoperated robots into hospitality or food-service workflows, and reached $2 million to $6 million in annual recurring revenue from hardware-plus-operations contracts. Nori’s hardware strength makes a narrow physical workflow plausible, while Nori’s weak governance disclosure and enormous household task surface make simultaneous bed-making, dish loading, cleaning, and food preparation implausible. I am never playing the game I seem to be playing; the consumer robot may be the wrapper around a commercial labor system.
-
-1X’s $20,000 NEO and Sunday’s $165 million war chest make the bear case sting: Nori may be an undercapitalized hardware promise priced below its manufacturable cost, with teleoperation concealing weak autonomy and introducing an unaddressed camera inside the home. Nori offers no reliability data, safety certification, privacy controls, marketplace usage, or structural moat, and Gemini Robotics can learn some tasks from roughly 100 demonstrations. What keeps Nori investable is Antonio’s directly relevant robotics research, the unusually aggressive physical architecture, and enough demand to fill a production batch before disclosed delivery—the kind of oddly specific artifact I would rather investigate than dismiss. One condition flips me to Pass: if Nori cannot document 100 paid robots shipped by July 2027 with at least 70% still performing a recurring weekly task after 90 days, the “capacity” signal was theater rather than product love.
+The strongest bull case is simply that this is a dossier failure rather than a company failure: a pre-seed team could possess an exceptional prototype, founder obsession, and strange early user behavior that never reached this input. But I invest my own money in companies, not blank spaces. I pass at the current evidence state. The verifiable flip condition is a factual dossier showing one working artifact with repeated costly user behavior, plus dated founder work that predates noril1 and a concrete six-year causal map.
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Founder Surfaced From Lived Experience, Not Market Analysis | 24/32 |
-| Magically Weird, Non-Consensus, Round Likely Underpriced | 19/24 |
-| Single Unambiguous CEO With Identifiable Tiebreaker Authority | 9/16 |
-| Capital-Intensive, Frontier-Hardware or Unsexy-Regulated Swing | 14/15 |
-| Physical-World Verifiability: You Can Touch, Use, Or Observe The Product | 11/13 |
-| **Total** | **77/100** |
+| Dossier Maps a Six-Year Future to One Present-Day Leak | 7/31 |
+| Founder Biography Shows Pre-Company Obsession and First-Believer Proof | 6/24 |
+| Dossier Names a Broken Rule, Its Rent, and the Agency Returned | 6/19 |
+| Working Artifact Elicits Costly or Weird User Behavior | 4/15 |
+| Product Sits Beneath Today?s Hype as an Enabling Layer | 3/11 |
+| **Total** | **26/100** |
 
-**Total Score: 77/100** (Invest)
+**Total Score: 26/100** (Pass)

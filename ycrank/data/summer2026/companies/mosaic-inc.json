@@ -1,0 +1,80 @@
+{
+  "slug": "mosaic-inc",
+  "name": "Mosaic",
+  "oneLiner": "Defining the frontier of multiplayer AI.",
+  "metadata": {
+    "website": "https://mosaic.inc",
+    "yc_page": "https://www.ycombinator.com/companies/mosaic-inc",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Service Mesh, AI",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Service Mesh",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:25:58.252Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 20,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 42,
+    "NR": 38,
+    "PG": 43,
+    "PT": 35,
+    "SL": 30,
+    "VK": 20
+  },
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 193,
+  "traction": {
+    "tractionRank": 218,
+    "tractionScore": 15,
+    "tractionReason": "Product demonstrations; no users disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/mosaic-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/mosaic-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/mosaic-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/mosaic-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/mosaic-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/mosaic-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/mosaic-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/mosaic-inc.md"
+    }
+  }
+}

@@ -16,66 +16,71 @@
 
 ## The Idea
 
-- **Problem:** Manufacturers rely on spreadsheets and experienced employees alongside legacy ERPs for pricing, scheduling, and inventory decisions because ERP templates do not capture their operating logic ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
-- **Approach:** Bizmark connects existing systems, inboxes, spreadsheets, documents, and employee knowledge to produce optimized decisions and automated workflows, including quotation, production scheduling, and inventory balancing ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
-- **Differentiation:** [Inferred]: Unlike Bonx, which supplies a manufacturing ERP spanning orders through logistics, and Doss, which focuses on inventory connected to accounting systems, Bizmark proposes a bespoke decision and workflow layer built around each customer’s existing systems and operating practices.
-- **Business Model:** [Inferred]: A sales-led enterprise software model with implementation fees or recurring subscriptions is consistent with bespoke deployments delivered in weeks, but no pricing has been published.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Bizmark requests introductions to decision-makers at manufacturers, distributors, and retailers and says it is building the product with its first customers ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
+- **Problem:** Bizmark says manufacturers, distributors, and retailers make revenue-, margin-, and service-level decisions through spreadsheets and fragmented tools because legacy ERPs do not reflect their operating processes ([YC company page](https://www.ycombinator.com/companies/bizmark), 2026).
+- **Approach:** Bizmark connects systems, inboxes, spreadsheets, documents, and employee-held knowledge, then uses that context to price quotes, reschedule production, manage inventory, source supplies, and automate transaction entry ([YC launch](https://www.ycombinator.com/companies/bizmark), 2026).
+- **Differentiation:** Bizmark claims deployment in weeks rather than the years and seven-figure budgets associated with custom implementations, while covering manufacturers, distributors, and retailers more broadly than distributor-specific Whitespace ([Bizmark YC launch](https://www.ycombinator.com/companies/bizmark), 2026; [Whitespace YC page](https://www.ycombinator.com/companies/whitespace), 2026).
+- **Business Model:** [Inferred]: A founder-led enterprise software model using paid implementations and recurring subscriptions is consistent with the demo/contact motion and company-specific workflow configuration, but no pricing is published on the [company website](https://bizmark.ai).
+- **TAM/SAM:** Global ERP software was estimated at $77.08B in 2025 with a 9.5% CAGR through 2033, while manufacturing-and-services ERP was $15.22B in 2025 with an 8.6% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/erp-software-market), 2026; [Grand View Research segment data](https://www.grandviewresearch.com/horizon/statistics/erp-software-market/vertical/manufacturing-services/global), 2025).
+- **GTM / Distribution:** Bizmark’s YC launch explicitly requests introductions to decision-makers at manufacturers, distributors, and retailers, indicating founder-led outbound and referral sales ([YC company page](https://www.ycombinator.com/companies/bizmark), 2026).
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Deployments could accumulate customer-specific process logic, integrations, and workflow history that raise switching costs, but no retention, proprietary-data, or deployment-scale evidence is public.
-- **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Doss, Bonx, and Cogna already build AI-enabled operational software that integrates with ERP, spreadsheet, and legacy-system data, providing funded alternatives for overlapping workflows ([Doss, Apr 2025](https://www.businesswire.com/news/home/20250410507128/en/Doss-Raises-%2418-Million-Series-A-from-Theory-Ventures-for-Next-generation-ERP-Alternative); [Bonx, Jun 2025](https://www.bonx.com/blog/seed-fundraising-announcement); [Cogna](https://cogna.co/platform/)).
+- **Future moat:** [Inferred]: Customer-specific operating context, decision history, integrations, and human corrections could create switching costs and improve deployed workflows, but no named deployment scale or proprietary-data volume is public.
+- **Market structure:** No structural barrier is identified because Whitespace offers a similar system-and-inbox context layer for distributors and Doss, Bonx, and GoodDay are developing overlapping AI-native operations platforms ([Whitespace](https://www.ycombinator.com/companies/whitespace), 2026; [Doss](https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/), Mar 2026).
+- **Commoditization risk:** AI-agent and ERP vendors can reproduce the workflow category using frontier models and integrations, with UiPath and Deloitte already offering agentic orchestration around packaged ERP systems ([UiPath](https://www.uipath.com/newsroom/uipath-expands-alliance-with-deloitte-for-agentic-erp), Mar 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Building the product with its first customers ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
-  - Zero active jobs listed ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
-  - Rodrigo Mosqueira has approximately 2,000 LinkedIn followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/moag)).
+  - 150 customer-discovery conversations ([YC launch](https://www.ycombinator.com/companies/bizmark), 2026).
+  - Building with its first customers, with no customer count or names disclosed ([YC directory](https://www.ycombinator.com/companies/industry/ai), Jul 2026).
+  - Company states that American companies use the current product, without quantified usage ([YC company page](https://www.ycombinator.com/companies/bizmark), 2026).
+  - YC launch post and YouTube launch video published ([YC company page](https://www.ycombinator.com/companies/bizmark), 2026).
+  - 0 active YC job postings ([YC company page](https://www.ycombinator.com/companies/bizmark), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Doss (at least $73M in disclosed Series A and B funding, revenue unknown): AI inventory and operations data layer connecting to accounting and ERP systems rather than a bespoke cross-process decision layer ([Business Wire, Apr 2025](https://www.businesswire.com/news/home/20250410507128/en/Doss-Raises-%2418-Million-Series-A-from-Theory-Ventures-for-Next-generation-ERP-Alternative); [TechCrunch, Mar 2026](https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/)).
-  - Cogna ($19.75M in disclosed seed and Series A funding, revenue unknown): generates production software for high-value operational tasks across ERP, SCADA, IoT, and legacy databases ([Notion Capital, Nov 2024](https://www.notioncapital.com/resources/why-we-invested-in-cogna); [TechCrunch, Nov 2024](https://techcrunch.com/2024/11/11/from-self-driving-cars-to-ai-that-writes-enterprise-software-cogna-founder-raises-15m/)).
-  - Bonx ($8.6M raised, revenue unknown): supplies a manufacturing ERP covering order management, purchasing, planning, production, quality, and logistics ([Bonx, Jun 2025](https://www.bonx.com/blog/seed-fundraising-announcement)).
-- **Why now:** Generative AI reduced the technical and economic cost of creating company-specific enterprise software that was not viable before the recent generation of models ([Notion Capital, Nov 2024](https://www.notioncapital.com/resources/why-we-invested-in-cogna)).
+  - Doss ($73M publicly announced across its Series A and B, revenue unknown; $55M Series B co-led by Madrona and Premji Invest in Mar 2026): targets inventory, orders, accounting, and production for mid-market physical-goods businesses ([BusinessWire](https://www.businesswire.com/news/home/20250410507128/en/Doss-Raises-%2418-Million-Series-A-from-Theory-Ventures-for-Next-generation-ERP-Alternative), Apr 2025; [Premji Invest](https://www.premjiinvest.com/blog/rearchitecting-the-rigid-erp-core-why-we-co-led-dosss-55m-series-b), Mar 2026).
+  - GoodDay ($13.5M raised, revenue unknown; additional $7M in Jan 2026): focuses on inventory-driven Shopify brands across direct-to-consumer, wholesale, marketplace, and retail channels ([GoodDay](https://www.gooddaysoftware.com/press/goodday-software-raises-7m-to-build-an-ai-native-erp-alternative-for-shopify-brands), Jan 2026).
+  - Bonx ($9.8M announced funding, revenue unknown; $8.6M seed led by 9900 Capital in Jun 2025): provides manufacturing ERP with production, supply-chain, and batch-traceability functions ([Bonx](https://www.bonx.com/blog/seed-fundraising-announcement), Jun 2025).
+  - Plato ($14.5M seed, revenue unknown; led by Atomico in Feb 2026): targets wholesale distributors and began with sales intelligence rather than Bizmark’s broader quoting-to-production workflow ([Tech.eu](https://tech.eu/2026/02/19/plato-closes-12m-round-to-scale-ai-tools-for-distributors/), Feb 2026).
+  - Whitespace (funding unknown, revenue unknown): connects distributor systems and inboxes to automate inventory planning, customer service, and order entry ([YC company page](https://www.ycombinator.com/companies/whitespace), 2026).
+- **Why now:** Advances in LLMs and foundation models enabled composable operations software that can configure and deploy more quickly than traditional ERP projects ([Madrona](https://www.madrona.com/investing-in-doss-a-new-form-of-ai-native-enterprise-application/), Mar 2026).
 
 ## Founders & Team
 
 - **Oscar Aguilar (Founder):**
-  - Background: Studied operations research at Stanford and Georgia Tech, led process optimization at Intel, Amazon, and Johnson & Johnson, and deployed AI for the U.S. government ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
+  - Background: Stanford master’s studies in Operations Research, Georgia Tech Industrial Engineering, an Amazon SCOT/INFORMS fellowship, and machine-learning or process-optimization work at Intel, Amazon, J&J, and the U.S. government ([LinkedIn](https://www.linkedin.com/in/oscar-t-aguilar), 2026; [Amazon Science](https://www.amazon.science/academic-engagements/amazon-scot-announces-2021-informs-fellowship-recipients), Oct 2021; [YC](https://www.ycombinator.com/companies/bizmark), 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Bizmark (YC S26)” ([LinkedIn directory, Jul 2026](https://www.linkedin.com/pub/dir/Oscar/Aguilar)).
+  - LinkedIn: “LeanLog (YC S26),” with 233 followers ([LinkedIn](https://www.linkedin.com/in/oscar-t-aguilar), Jul 2026).
   - GitHub: No public repos found.
 - **Rodrigo Mosqueira (Founder):**
-  - Background: Studied computer science at the University of Chicago, attended Chicago Booth, and was Favo’s first employee while the logistics startup grew to $60M in revenue, 100,000 monthly orders, and 10,000 SKUs ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
+  - Background: Former Favo first employee who reports growing that company from $0 to $60M in revenue while handling 100K orders monthly across 10K SKUs, with computer-science study at UChicago and an MBA from Chicago Booth ([LinkedIn](https://www.linkedin.com/in/moag), 2026; [YC](https://www.ycombinator.com/companies/bizmark), 2026).
   - Twitter/X: No public account found.
-  - LinkedIn: “Bizmark (YC S26),” with approximately 2,000 followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/moag)).
+  - LinkedIn: “Bizmark (YC S26),” with 2K followers ([LinkedIn](https://www.linkedin.com/in/moag), Jul 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Oscar’s optimization deployments at Intel, Amazon, and Johnson & Johnson and Rodrigo’s operating experience scaling an inventory-intensive logistics company document experience with the processes Bizmark targets ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
+- **Co-founder relationship:** Oscar Aguilar and Rodrigo Mosqueira are cousins ([YC launch](https://www.ycombinator.com/companies/bizmark), 2026).
+- **Founder-market fit:** Rodrigo’s e-commerce logistics operating experience and Oscar’s operations-research, optimization, and industrial ML work align with Bizmark’s inventory, scheduling, and production workflows, while Reach Capital lists the same founders’ former LeanLog brand in its portfolio ([YC](https://www.ycombinator.com/companies/bizmark), 2026; [Reach Capital](https://www.reachcapital.com/team/esteban-sosnik/), 2026).
 
 ## Key Risks
 
-- **Implementation complexity:** Bizmark must connect heterogeneous systems and encode organization-specific knowledge, while published estimates place ERP implementation failure rates at 55%–75% and project duration at 12–18 months; Bizmark states that its product is operational within weeks but publishes no deployment measurements ([Business Wire, Apr 2025](https://www.businesswire.com/news/home/20250410507128/en/Doss-Raises-%2418-Million-Series-A-from-Theory-Ventures-for-Next-generation-ERP-Alternative); [Y Combinator, Jul 2026](https://www.ycombinator.com/companies/bizmark)).
-- **Operational-data dependency:** The product depends on information distributed across email, databases, spreadsheets, documents, and employee knowledge, creating accuracy and completeness exposure when those sources conflict or omit tacit rules ([Bizmark LinkedIn, Jul 2026](https://www.linkedin.com/company/get-bizmark)).
-- **Funded competition:** Doss disclosed at least $73M across its Series A and B, Cogna disclosed $19.75M across seed and Series A, and Bonx raised $8.6M for overlapping AI-enabled operational software ([Business Wire, Apr 2025](https://www.businesswire.com/news/home/20250410507128/en/Doss-Raises-%2418-Million-Series-A-from-Theory-Ventures-for-Next-generation-ERP-Alternative); [Notion Capital, Nov 2024](https://www.notioncapital.com/resources/why-we-invested-in-cogna); [Bonx, Jun 2025](https://www.bonx.com/blog/seed-fundraising-announcement)).
-- **Name disambiguation:** An unrelated Connecticut marketing agency also operates as BizMark, which can create search and brand ambiguity ([LinkedIn, Jul 2026](https://www.linkedin.com/company/bizmark)).
+- **Automation and data-access risk:** Bizmark accesses operational systems, inboxes, and financial context and can execute quotes, orders, and payments; its former LeanLog site acknowledges that automation can multiply errors, models can drift, and connected data creates a security surface, while describing human approval and guardrails as mitigations ([LeanLog](https://leanlog.ai/), 2026).
+- **Direct feature overlap:** Whitespace offers a similar context-building and agent-automation product for distributors, while Doss, Bonx, Plato, and GoodDay overlap across inventory, order processing, manufacturing, and procurement ([Whitespace](https://www.ycombinator.com/companies/whitespace), 2026; [Doss](https://techcrunch.com/2026/03/24/doss-raises-55m-for-ai-inventory-management-that-plugs-into-erp/), Mar 2026).
+- **Customer-specific integration:** Bizmark must combine structured ERP data, unstructured documents, inboxes, spreadsheets, and tacit knowledge; public materials claim deployment in weeks but provide no named implementation case study or supported-integration list ([YC launch](https://www.ycombinator.com/companies/bizmark), 2026).
+- **Commercial verification:** Public sources identify first-customer work but disclose no customer names, customer count, pricing, revenue, retention, or usage volume ([YC company page](https://www.ycombinator.com/companies/bizmark), 2026).
+- **Brand continuity:** The same founders and substantially similar product appeared publicly as LeanLog shortly before the Bizmark launch, and unrelated companies already use the BizMark name; the current “Bizmark (YC S26)” label and bizmark.ai domain provide disambiguation ([LeanLog](https://leanlog.ai/), 2026; [Bizmark LinkedIn](https://www.linkedin.com/company/get-bizmark), 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
-| SAM | No public data found |
-| Traction | Building with first customers (Y Combinator, Jul 2026) |
+| TAM | $77.08B global ERP software market in 2025; 9.5% CAGR for 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/erp-software-market), 2026) |
+| SAM | $15.22B global manufacturing-and-services ERP market in 2025; 8.6% CAGR for 2025–2033 ([Grand View Research](https://www.grandviewresearch.com/horizon/statistics/erp-software-market/vertical/manufacturing-services/global), 2025) |
+| Traction | First-customer deployments under development, usage claimed by unnamed American companies, and 150 customer conversations ([YC](https://www.ycombinator.com/companies/bizmark), 2026) |
 | Revenue Signal | No public data found |
-| Founders | Oscar Aguilar (Founder): Stanford and Georgia Tech operations research; optimization work at Intel, Amazon, and J&J (Y Combinator, Jul 2026); Rodrigo Mosqueira (Founder): UChicago CS, Chicago Booth, first employee at Favo during growth to $60M revenue (Y Combinator, Jul 2026) |
-| Competitors | Doss (at least $73M disclosed, revenue unknown, AI inventory layer connected to ERP; Business Wire, Apr 2025; TechCrunch, Mar 2026); Cogna ($19.75M disclosed, revenue unknown, generated operational software; Notion Capital, Nov 2024); Bonx ($8.6M raised, revenue unknown, manufacturing ERP; Bonx, Jun 2025) |
+| Founders | Oscar Aguilar (Founder): Stanford Operations Research, Georgia Tech Industrial Engineering, industrial ML/optimization experience; Rodrigo Mosqueira (Founder): Favo first employee, $60M prior-company revenue scale, UChicago/Booth ([YC](https://www.ycombinator.com/companies/bizmark), 2026) |
+| Competitors | Doss ($73M announced A+B, revenue unknown, inventory/operations cloud); GoodDay ($13.5M raised, revenue unknown, Shopify brands); Bonx ($9.8M announced, revenue unknown, manufacturing ERP); Plato ($14.5M seed, revenue unknown, distributors); Whitespace (funding unknown, revenue unknown, distributor agents) ([Doss](https://www.premjiinvest.com/blog/rearchitecting-the-rigid-erp-core-why-we-co-led-dosss-55m-series-b), 2026; [GoodDay](https://www.gooddaysoftware.com/press/goodday-software-raises-7m-to-build-an-ai-native-erp-alternative-for-shopify-brands), 2026; [Bonx](https://www.bonx.com/blog/seed-fundraising-announcement), 2025; [Plato](https://tech.eu/2026/02/19/plato-closes-12m-round-to-scale-ai-tools-for-distributors/), 2026; [Whitespace](https://www.ycombinator.com/companies/whitespace), 2026) |
 | Moat Signals | No public data found |
-| Risk Factors | Implementation complexity (Business Wire, Apr 2025), operational-data dependency (Bizmark LinkedIn, Jul 2026), funded competition (Business Wire; Notion Capital; Bonx, 2024–2026) |
-| Founder Reach | Oscar Aguilar: No public data found; Rodrigo Mosqueira: LinkedIn approximately 2K followers (LinkedIn, Jul 2026) |
-| Distribution Signals | Requests introductions to manufacturing, distribution, and retail decision-makers; zero active jobs (Y Combinator, Jul 2026) |
+| Risk Factors | Automation and data-access exposure, overlapping AI-operations competitors, unnamed customer deployments ([LeanLog](https://leanlog.ai/), 2026; [YC](https://www.ycombinator.com/companies/bizmark), 2026) |
+| Founder Reach | Oscar Aguilar: LinkedIn 233 followers; Twitter/GitHub: No public data found; Rodrigo Mosqueira: LinkedIn 2K followers; Twitter/GitHub: No public data found ([Oscar LinkedIn](https://www.linkedin.com/in/oscar-t-aguilar), 2026; [Rodrigo LinkedIn](https://www.linkedin.com/in/moag), 2026) |
+| Distribution Signals | YC launch post and YouTube launch video; 0 active YC jobs ([YC company page](https://www.ycombinator.com/companies/bizmark), Aug 2026) |
 | Emails | No public data found |

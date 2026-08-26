@@ -1,6 +1,6 @@
 ﻿# Dock
 
-> Multiplayer agent workspace that grows your company without growing?
+> Multiplayer agent workspace to run your company 
 
 | Field | Value |
 |-------|-------|
@@ -10,74 +10,72 @@
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | B2B, AI |
+| Tags | Artificial Intelligence, B2B |
 | YC Partner | Brad Flora |
-| Emails | hello@trydock.ai, security@trydock.ai |
+| Emails | hello@trydock.ai, billing@trydock.ai, privacy@trydock.ai, security@trydock.ai |
 
 ## The Idea
 
-- **Problem:** Dock targets operators managing multiple AI agents whose work and state are fragmented across separate chat sessions, requiring the operator to coordinate handoffs manually ([YC](https://www.ycombinator.com/companies/dock), Jul 2026).
-- **Approach:** Humans and agents jointly edit tables, documents, HTML surfaces, and files in real time, while each agent receives its own identity, API keys, permissions, and attributed activity history ([Dock AI Workspaces](https://trydock.ai/ai-workspaces), Jul 2026).
-- **Differentiation:** Unlike CrewAI and Relevance AI, which emphasize building or orchestrating agent teams, Dock supplies the persistent workspace in which independently sourced agents and humans share state through MCP, REST, and webhooks ([Dock GitHub](https://github.com/try-dock-ai); [CrewAI](https://www.globenewswire.com/news-release/2024/10/22/2966872/0/en/CrewAI-Launches-Multi-Agentic-Platform-to-Deliver-on-the-Promise-of-Generative-AI-for-Enterprise.html); [Relevance AI](https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission)).
-- **Business Model:** Dock offers a free tier, Pro at $19 per organization per month, and Scale at $49 per organization per month, with limits based on actions, agents, webhooks, workspaces, and rows rather than seats or minutes ([Dock Pricing](https://trydock.ai/pricing), Jul 2026).
-- **TAM/SAM:** The global AI-agents market was $7.63 billion in 2025 and is forecast to reach $182.97 billion by 2033 at a 49.6% CAGR ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-agents-market-report), 2026); no public SAM estimate was found for shared human-agent workspaces.
-- **GTM / Distribution:** Dock distributes through a free web tier, a Mac application, an npm CLI, an MCP server compatible with multiple AI clients, public templates, and a ChatGPT integration ([Dock](https://trydock.ai/); [Dock GitHub](https://github.com/try-dock-ai); [Dock ChatGPT integration](https://trydock.ai/blog/dock-in-chatgpt), May 2026).
+- **Problem:** Teams using multiple AI agents must move outputs among private chat sessions, while shared work, permissions, and attribution remain fragmented ([YC company profile, Aug 2026](https://www.ycombinator.com/companies/dock); [Dock category guide, May 2026](https://trydock.ai/blog/what-is-an-ai-workspace)).
+- **Approach:** Dock gives humans and agents shared tables and documents, individual agent credentials and roles, real-time synchronization, REST/MCP access, and an attributed event history ([Dock documentation, May 2026](https://trydock.ai/docs)).
+- **Differentiation:** Linear confines the shared artifact primarily to issues, Cursor to code, and Lindy agents to separate task sandboxes, while Dock provides general-purpose shared documents and tables for multiple humans and agents ([Dock category guide, May 2026](https://trydock.ai/blog/what-is-an-ai-workspace)).
+- **Business Model:** Free is $0, Pro is $19 per organization per month, and Scale is $49 per organization per month, with plan caps on agents, humans, workspaces, rows, API actions, and webhooks rather than per-seat charges ([Dock pricing, Aug 2026](https://trydock.ai/pricing)).
+- **TAM/SAM:** The global enterprise-agentic-AI market is projected at $5.3 billion in 2026 and $24.5 billion in 2030, a 46.2% CAGR, while no Dock-specific SAM is public ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/enterprise-agentic-ai-market-report)).
+- **GTM / Distribution:** Dock uses a free tier, a free month of Scale, self-serve MCP/CLI onboarding, referrals, and an agency partner program offering revenue share and co-marketing ([Dock FAQ, 2026](https://trydock.ai/docs/support/faq); [Dock About, 2026](https://trydock.ai/about)).
 
 ## Defensibility
 
-- **Moat today:** Dock exposes an agent-specific identity and authorization model with separate API keys, actor attribution, role checks, event history, MCP, REST, and signed webhooks, but no adoption-based network effect or proprietary-data advantage is publicly documented ([Dock GitHub](https://github.com/try-dock-ai); [Dock Security](https://trydock.ai/security), May 2026).
-- **Future moat:** [Inferred]: Historical workspace state, agent permissions, integrations, and audit records could create switching costs, but no retention or workspace-volume evidence verifies this mechanism.
-- **Market structure:** No structural barrier prevents workspace vendors, agent orchestration platforms, or model providers from adding shared state, permissions, and audit trails.
-- **Commoditization risk:** Dust already markets multiplayer human-agent collaboration, while Relevance AI and CrewAI support multi-agent teams, demonstrating that funded vendors can build overlapping collaboration and orchestration layers ([Dust](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/dust-raises-40m-to-make-ai-multiplayer-inside-the-enterprise.html), May 2026; [TechCrunch](https://techcrunch.com/2025/05/06/relevance-ai-raises-24m-series-b-to-help-anyone-build-teams-of-ai-agents/), May 2025).
+- **Moat today:** Each agent has separate keys and workspace-scoped permissions, while edits are attributed in a replayable history and sensitive operations require human approval ([Dock About, 2026](https://trydock.ai/about)).
+- **Future moat:** [Inferred]: Accumulated workspace history, schemas, permissions, and agent-specific audit records could create switching costs, but public adoption and retention data do not establish this yet.
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Linear, Cursor, Lindy, Replit, Hex, and other platforms already implement subsets of agent identity, shared artifacts, execution, or review and could extend those features ([Dock category guide, May 2026](https://trydock.ai/blog/what-is-an-ai-workspace)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Six public GitHub repositories, with the most-starred repository showing one star ([Dock GitHub](https://github.com/try-dock-ai), Jul 2026).
-  - Zero jobs listed ([YC](https://www.ycombinator.com/companies/dock), Jul 2026).
-  - Commercial-beta status ([Dock Security](https://trydock.ai/security), May 2026).
-  - Mike Molinet had 16,511 LinkedIn followers ([LinkedIn](https://www.linkedin.com/posts/mikemolinet_here-is-something-i-did-not-expect-when-talking-activity-7472658651007176706-AQH-), Jul 2026).
-  - Govind Kavaturi had 10,000 LinkedIn followers ([LinkedIn](https://www.linkedin.com/in/govindkavaturi), Jul 2026).
-- **Competitors (minimum 3, up to 5):**
-  - Dust (more than $60M raised, revenue unknown): enterprise multiplayer AI with deployed agents and organizational-data integrations, versus Dock’s general shared tables, documents, files, and open MCP workspace ([Dust](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/dust-raises-40m-to-make-ai-multiplayer-inside-the-enterprise.html), May 2026).
-  - Relevance AI ($34M raised, revenue unknown): no-code construction and orchestration of agent workforces, versus Dock’s workspace for agents sourced from multiple clients and frameworks ([Tracxn](https://cdn.tracxn.com/marketing-campaigns/Australia_s_Artificial_Intelligence_Report_-_2025_C7iNdvO9CjZV1IVmHqEvl.pdf), 2026; [TechCrunch](https://techcrunch.com/2025/05/06/relevance-ai-raises-24m-series-b-to-help-anyone-build-teams-of-ai-agents/), May 2025).
-  - CrewAI ($18M raised, revenue unknown): developer framework and platform for orchestrating crews and flows, versus Dock’s persistent human-agent collaboration surface ([CrewAI](https://www.globenewswire.com/news-release/2024/10/22/2966872/0/en/CrewAI-Launches-Multi-Agentic-Platform-to-Deliver-on-the-Promise-of-Generative-AI-for-Enterprise.html), Oct 2024).
-- **Why now:** [Inferred]: Adoption of MCP across Claude, ChatGPT, Cursor, and other clients now gives one workspace a common connection mechanism for agents from multiple vendors ([Dock](https://trydock.ai/agents), Jul 2026).
+  - GitHub organization: 1 follower, 6 public repositories, and 1 star on its most-starred visible repository ([GitHub, Aug 2026](https://github.com/try-dock-ai)).
+  - YC jobs: 0 active postings ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/dock)).
+  - Product-directory presence: 0 Toolify reviews and no reported monthly-visitor figure ([Toolify, May 2026](https://www.toolify.ai/tool/dock)).
+- **Competitors:**
+  - Relevance AI ($37M raised, revenue unknown): builds teams of configurable AI agents, whereas Dock centers work on shared human-agent artifacts ([TechCrunch, May 2025](https://techcrunch.com/2025/05/06/relevance-ai-raises-24m-series-b-to-help-anyone-build-teams-of-ai-agents/)).
+  - Linear ($134.2M raised, revenue unknown): embeds agents in engineering issues rather than general-purpose tables and documents ([TechCrunch, Jun 2025](https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/); [Dock category guide, May 2026](https://trydock.ai/blog/what-is-an-ai-workspace)).
+  - Cursor ($3.2B raised, $4B annualized revenue): provides an agent-operated code workspace rather than a cross-functional company workspace ([Owler, Aug 2026](https://www.owler.com/company/cursor1/funding); [Forbes, Jun 2026](https://www.forbes.com/sites/richardnieva/2026/06/08/cursor-4-billion-annualized-revenue/)).
+- **Why now:** Gartner projected that task-specific agents would appear in 40% of enterprise applications by the end of 2026, up from under 5% in 2025 ([Gartner, Aug 2025](https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025)).
 
 ## Founders & Team
 
-- **Mike Molinet (Co-founder):**
-  - Background: Bucknell engineering graduate and Stanford MBA who co-founded Branch and Thena; YC states Branch scaled past $100 million and LinkedIn reports 500 employees and $100 million ARR ([YC](https://www.ycombinator.com/companies/dock); [LinkedIn](https://www.linkedin.com/in/mikemolinet), Jul 2026).
-  - Twitter/X: @mikemolinet; count not retrievable.
-  - LinkedIn: “Built Branch to 500 employees and $100M ARR. Now running an entire company alongside…” ([LinkedIn](https://www.linkedin.com/in/mikemolinet), Jul 2026).
-  - GitHub: No public personal repos found.
-- **Govind Kavaturi (Co-founder):**
-  - Background: Former Branch international operator who says he grew revenue from zero to $100 million ARR across multiple continents and co-founded Thena, which raised $8 million ([Govind Kavaturi](https://govindkavaturi.com/about), 2026).
-  - Twitter/X: @Govikavaturi, 650 followers ([TwStalker](https://mobile.twstalker.com/rev_ai_42), via search snippet, 2026).
-  - LinkedIn: “Something new,” with Dock and YC described in the profile’s About section ([LinkedIn](https://www.linkedin.com/in/govindkavaturi), Jul 2026).
-  - GitHub: No public personal repos found.
-- **Co-founder relationship:** Molinet hired Kavaturi as Branch’s first international employee, and they worked together there for six years ([LinkedIn](https://www.linkedin.com/in/govindkavaturi), Jul 2026).
-- **Founder-market fit:** Molinet and Kavaturi previously built go-to-market and international operations at Branch and later co-founded Thena, providing documented experience operating B2B software companies and collaborating across multiple functions ([YC](https://www.ycombinator.com/companies/dock); [Govind Kavaturi](https://govindkavaturi.com/about), 2026).
+- **Govind Kavaturi (Co-Founder):**
+  - Background: No public education data found; he co-founded Thena after joining Branch during its first year and participating in its growth from zero to $100 million in revenue ([Govind Kavaturi website, 2026](https://govindkavaturi.com/); [YC profile, 2026](https://www.ycombinator.com/companies/dock)).
+  - Twitter/X: @Govikavaturi, 695 followers ([TwStalker search record, 2026](https://mobile.twstalker.com/dyad_sh)).
+  - LinkedIn: “Something new,” with 10K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/govindkavaturi)).
+  - GitHub: @govindkavaturi, no public repositories ([GitHub, Aug 2026](https://github.com/govindkavaturi)).
+- **Mike Molinet (Co-Founder):**
+  - Background: Bucknell mechanical-engineering graduate and Stanford MBA who co-founded Branch, served as COO, and later co-founded Thena ([Bucknell University, Jul 2023](https://www.bucknell.edu/meet-bucknell/bucknell-stories/alumni-stories/mike-molinet-07-mechanical-engineering); [YC profile, 2026](https://www.ycombinator.com/companies/dock)).
+  - Twitter/X: @mikemolinet, 74 followers ([TwStalker, Mar 2026](https://mobile.twstalker.com/mikemolinet)).
+  - LinkedIn: Public headline not retrievable; profile lists 16K followers ([LinkedIn, Jul 2026](https://www.linkedin.com/in/mikemolinet)).
+  - GitHub: @mikemolinet; `agent-university` is the top visible repository with 1 star ([GitHub, Aug 2026](https://github.com/mikemolinet)).
+- **Co-founder relationship:** Kavaturi says Dock is the third company he and Molinet have worked on together, following shared work at Branch and Thena ([Govind Kavaturi website, 2026](https://govindkavaturi.com/)).
+- **Founder-market fit:** Both founders worked on B2B software at Branch and Thena, including international expansion, customer communication, product development, and go-to-market operations ([YC profile, 2026](https://www.ycombinator.com/companies/dock); [Thena founder profile, 2026](https://www.thena.ai/author/govind-kavaturi)).
 
 ## Key Risks
 
-- **Competitive overlap:** Dust, Relevance AI, and CrewAI have raised more than $112 million collectively and offer overlapping multiplayer or multi-agent capabilities ([Dust](https://www.globenewswire.com/news-release/2026/05/18/3296726/0/en/dust-raises-40m-to-make-ai-multiplayer-inside-the-enterprise.html); [Tracxn](https://cdn.tracxn.com/marketing-campaigns/Australia_s_Artificial_Intelligence_Report_-_2025_C7iNdvO9CjZV1IVmHqEvl.pdf); [CrewAI](https://www.globenewswire.com/news-release/2024/10/22/2966872/0/en/CrewAI-Launches-Multi-Agentic-Platform-to-Deliver-on-the-Promise-of-Generative-AI-for-Enterprise.html)).
-- **Enterprise-security readiness:** Dock identifies itself as a commercial beta and says native WebAuthn remains on its roadmap, while buyers needing it must contact the company ([Dock Security](https://trydock.ai/security), May 2026).
-- **Third-party agent dependency:** Dock does not govern connected third-party agents or applications, so their behavior and security remain subject to external providers and customer-granted permissions ([Dock Security](https://trydock.ai/security), May 2026).
-- **Identity ambiguity:** “Dock” is shared by unrelated software products, and the YC page duplicates Mike Molinet’s founder entry while omitting Govind Kavaturi, increasing the risk of search-result and directory-data conflation ([YC](https://www.ycombinator.com/companies/dock), Jul 2026; [Dock Editorial Standards](https://trydock.ai/blog/editorial), 2026).
+- **Enterprise-compliance restrictions:** Dock is not SOC 2 Type II attested, has not completed a third-party penetration test, is not HIPAA-eligible, and lacks ISO certification; the company targets SOC 2 completion in the second half of 2026 ([Dock Security Policy, May 2026](https://trydock.ai/security)).
+- **Credential exposure:** Webhook secrets and browser-session tokens remain recoverably or plainly stored server-side, with hashing or application-layer encryption listed on the roadmap ([Dock Security Policy, May 2026](https://trydock.ai/security)).
+- **Access-path inconsistency:** The homepage describes Dock as invite-only, while the pricing and documentation pages offer self-serve free access, creating conflicting onboarding instructions ([Dock homepage, Aug 2026](https://trydock.ai/); [Dock pricing, Aug 2026](https://trydock.ai/pricing)).
+- **Name collision:** An unrelated company at dock.us markets an AI revenue-enablement platform under the same “Dock” name, creating search and brand-disambiguation risk ([Dock.us, Aug 2026](https://www.dock.us/about-us)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $7.63B global AI-agents market in 2025; $182.97B forecast for 2033 at 49.6% CAGR (Grand View Research, 2026) |
+| TAM | $5.3B global enterprise-agentic-AI market in 2026, projected to $24.5B by 2030 at 46.2% CAGR ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/enterprise-agentic-ai-market-report)) |
 | SAM | No public data found |
-| Traction | Commercial beta (Dock Security, May 2026); six public GitHub repositories and one star on the leading repository (Dock GitHub, Jul 2026); zero jobs (YC, Jul 2026) |
-| Revenue Signal | Free $0 tier, Pro $19/month, Scale $49/month, priced per organization with usage caps (Dock Pricing, Jul 2026) |
-| Founders | Mike Molinet (Co-founder): Branch and Thena co-founder, Stanford MBA, Bucknell engineering graduate (YC, Jul 2026); Govind Kavaturi (Co-founder): former Branch international operator and Thena co-founder (Govind Kavaturi, 2026) |
-| Competitors | Dust (more than $60M raised, revenue unknown, enterprise multiplayer AI) (Dust, May 2026); Relevance AI ($34M raised, revenue unknown, no-code agent workforces) (Tracxn, 2026); CrewAI ($18M raised, revenue unknown, developer-focused orchestration) (CrewAI, Oct 2024) |
-| Moat Signals | Agent-specific identities, API keys, permissions, actor attribution, MCP, REST, and signed webhooks (Dock GitHub; Dock Security, 2026) |
-| Risk Factors | Competitive overlap (Dust, Relevance AI, CrewAI, 2024–2026), commercial-beta security posture (Dock Security, May 2026), third-party agent dependency (Dock Security, May 2026) |
-| Founder Reach | Mike Molinet: LinkedIn 16,511, Twitter count not retrievable, GitHub no public data found (LinkedIn, Jul 2026); Govind Kavaturi: Twitter 650, LinkedIn 10K, GitHub no public data found (TwStalker via search snippet; LinkedIn, 2026) |
-| Distribution Signals | Free web tier, Mac app, npm CLI, MCP server, templates, and ChatGPT integration (Dock; Dock GitHub; Dock blog, 2026) |
-| Emails | hello@trydock.ai (Dock GitHub, Jul 2026); security@trydock.ai (Dock Security, May 2026) |
+| Traction | 1 GitHub follower, 6 public repositories, top visible repository 1 star ([GitHub, Aug 2026](https://github.com/try-dock-ai)); 0 YC jobs ([Y Combinator, Aug 2026](https://www.ycombinator.com/companies/dock)) |
+| Revenue Signal | Free $0, Pro $19/month, Scale $49/month per organization ([Dock pricing, Aug 2026](https://trydock.ai/pricing)) |
+| Founders | Govind Kavaturi (Co-Founder): Thena co-founder and early Branch employee; Mike Molinet (Co-Founder): Branch and Thena co-founder, Stanford MBA, Bucknell engineer ([YC, 2026](https://www.ycombinator.com/companies/dock); [Bucknell, 2023](https://www.bucknell.edu/meet-bucknell/bucknell-stories/alumni-stories/mike-molinet-07-mechanical-engineering)) |
+| Competitors | Relevance AI ($37M raised, revenue unknown, configurable agent teams) ([TechCrunch, 2025](https://techcrunch.com/2025/05/06/relevance-ai-raises-24m-series-b-to-help-anyone-build-teams-of-ai-agents/)); Linear ($134.2M raised, revenue unknown, issue-centric agents) ([TechCrunch, 2025](https://techcrunch.com/2025/06/10/atlassian-rival-linear-raises-82m-at-1-25b-valuation/)); Cursor ($3.2B raised, $4B annualized revenue, code workspace) ([Owler, 2026](https://www.owler.com/company/cursor1/funding); [Forbes, 2026](https://www.forbes.com/sites/richardnieva/2026/06/08/cursor-4-billion-annualized-revenue/)) |
+| Moat Signals | Separate agent credentials, workspace-scoped roles, attributed history, and human approval for sensitive operations ([Dock About, 2026](https://trydock.ai/about)) |
+| Risk Factors | Missing third-party security attestations ([Dock Security Policy, 2026](https://trydock.ai/security)), conflicting access messaging ([Dock homepage, 2026](https://trydock.ai/)), name collision with dock.us ([Dock.us, 2026](https://www.dock.us/about-us)) |
+| Founder Reach | Govind Kavaturi: Twitter 695, LinkedIn 10K, GitHub 0 public repos ([TwStalker, 2026](https://mobile.twstalker.com/dyad_sh); [LinkedIn, 2026](https://www.linkedin.com/in/govindkavaturi); [GitHub, 2026](https://github.com/govindkavaturi)); Mike Molinet: Twitter 74, LinkedIn 16K, GitHub top repo 1 star ([TwStalker, 2026](https://mobile.twstalker.com/mikemolinet); [LinkedIn, 2026](https://www.linkedin.com/in/mikemolinet); [GitHub, 2026](https://github.com/mikemolinet)) |
+| Distribution Signals | 1 GitHub organization follower and 6 public repositories ([GitHub, Aug 2026](https://github.com/try-dock-ai)); 0 Toolify reviews ([Toolify, May 2026](https://www.toolify.ai/tool/dock)) |
+| Emails | hello@trydock.ai ([Dock GitHub, 2026](https://github.com/try-dock-ai)); billing@trydock.ai ([Dock billing docs, 2026](https://trydock.ai/docs/billing/payment-methods)); privacy@trydock.ai ([Dock Privacy Policy, 2026](https://trydock.ai/privacy)); security@trydock.ai ([Dock Security Policy, 2026](https://trydock.ai/security)) |

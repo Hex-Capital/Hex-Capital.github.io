@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://executor.sh",
     "yc_page": "https://www.ycombinator.com/companies/executor",
-    "batch": "Summer 2026",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/executor), Aug 2026)",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "AIOps, Artificial Intelligence, SaaS",
-    "yc_partner": "Not listed",
-    "emails": "No public data found"
+    "yc_partner": "Jared Friedman ([YC](https://www.ycombinator.com/companies/executor), Aug 2026)",
+    "emails": "rhys@executor.sh ([YC launch](https://www.ycombinator.com/companies/executor), Aug 2026)"
   },
   "tags": [
     "AIOps",
@@ -19,52 +19,52 @@
     "SaaS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:34:54.669Z",
+  "memoGeneratedAt": "2026-08-11T04:54:15.921Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
+      "score": 70,
+      "tier": "Invest"
     },
     "elad-gil": {
-      "score": 69,
-      "tier": "Invest"
+      "score": 51,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 73,
-      "tier": "Invest"
+      "score": 44,
+      "tier": "Pass"
     },
     "paul-graham": {
-      "score": 72,
-      "tier": "Invest"
+      "score": 54,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 41,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 52,
-      "tier": "Neutral"
+      "score": 36,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 39,
+      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 69,
-    "NR": 73,
-    "PG": 72,
+    "CB": 70,
+    "EG": 51,
+    "NR": 44,
+    "PG": 54,
     "PT": 41,
-    "SL": 52,
-    "VK": 39
+    "SL": 36,
+    "VK": 30
   },
-  "consolidatedAvg": 57.86,
-  "consolidatedRank": 43,
+  "consolidatedAvg": 46.57,
+  "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 69,
-    "tractionReason": "Thousands of users; 2,800 stars; $150 monthly team tier"
+    "tractionRank": 35,
+    "tractionScore": 70,
+    "tractionReason": "3K users and 14K weekly downloads"
   },
   "paths": {
     "memo": "summer2026/memos/executor.md",

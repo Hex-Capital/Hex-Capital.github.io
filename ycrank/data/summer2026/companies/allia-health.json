@@ -1,0 +1,81 @@
+{
+  "slug": "allia-health",
+  "name": "Allia Health",
+  "oneLiner": "Clinically Integrated Group for Mental Health",
+  "metadata": {
+    "website": "https://allia.health/",
+    "yc_page": "https://www.ycombinator.com/companies/allia-health",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare -> Healthcare Services",
+    "team_size": "3",
+    "location": "New York City, NY, USA",
+    "tags": "Artificial Intelligence, Healthcare, Mental Health",
+    "yc_partner": "Jon Xu ([Y Combinator](https://www.ycombinator.com/companies/allia-health), Aug 2026)",
+    "emails": "team@allia.health, saroosh@allia.health, support@allia.health, team@alliauk.com ([YC Launch](https://www.ycombinator.com/launches/SzE-allia-the-first-full-stack-ai-native-mental-health-group), Aug 2026; [LinkedIn](https://www.linkedin.com/posts/saroosh-khan_if-youve-watched-suits-you-know-donna-activity-7338959241891717122-qKvL), 2025; [Google Play](https://play.google.com/store/apps/details?id=health.allia.client), Aug 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Healthcare",
+    "Mental Health"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:07:32.780Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 69,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 70,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 72,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 69,
+    "EG": 70,
+    "NR": 72,
+    "PG": 58,
+    "PT": 59,
+    "SL": 39,
+    "VK": 42
+  },
+  "consolidatedAvg": 58.43,
+  "consolidatedRank": 11,
+  "traction": {
+    "tractionRank": 9,
+    "tractionScore": 84,
+    "tractionReason": "8K clinicians; $50M signed annualized care capacity"
+  },
+  "paths": {
+    "memo": "summer2026/memos/allia-health.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/allia-health.md",
+      "elad-gil": "summer2026/evals/elad-gil/allia-health.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/allia-health.md",
+      "paul-graham": "summer2026/evals/paul-graham/allia-health.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/allia-health.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/allia-health.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/allia-health.md"
+    }
+  }
+}

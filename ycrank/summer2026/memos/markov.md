@@ -16,72 +16,72 @@
 
 ## The Idea
 
-- **Problem:** Computer-use model developers need recordings of people completing multi-step workflows in desktop software, while public data has historically lacked clean GUI interactions and action metadata ([Agent Wars, Mar 2026](https://agent-wars.com/news/2026-03-14-markov-ai-releases-48k-screen-recording-dataset-for-training-computer-use-agents)).
-- **Approach:** Markov captures human computer activity and converts it into training data, including screen recordings, mouse and keyboard inputs, annotations, and RL environments ([Markov website, Jul 2026](https://www.markovstudios.com/); [Dev Mandal on X, Jul 2026](https://twstalker.com/DevvMandal)).
-- **Differentiation:** Markov focuses on computer-use workflows across software such as Salesforce, AutoCAD, Blender, Photoshop, Excel, and VS Code, whereas Scale AI and Surge AI provide broader annotation services, Turing emphasizes expert-generated data, and Wirestock supplies creator-sourced multimodal assets ([Markov website, Jul 2026](https://www.markovstudios.com/); [Reuters, Jul 2025](https://tech.yahoo.com/ai/articles/exclusive-scale-ais-bigger-rival-152327178.html); [Turing, Jun 2025](https://www.turing.com/blog/turing-raises-111m-to-accelerate-the-future-of-agi); [TechCrunch, May 2026](https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/)).
-- **Business Model:** [Inferred]: The free research datasets can generate adoption among AI researchers, while customized datasets and training environments could be sold to model developers through negotiated contracts because no public pricing page was found.
-- **TAM/SAM:** The global AI training-dataset market was valued at $3.2 billion in 2025 and is projected to reach $16.3 billion by 2033 at a 22.6% CAGR, but no public SAM estimate isolates computer-use data ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/ai-training-dataset-market)).
-- **GTM / Distribution:** Markov releases datasets and benchmarks through Hugging Face, directs visitors to “Talk to us,” and has accumulated more than 150,000 Hugging Face downloads ([Markov website, Jul 2026](https://www.markovstudios.com/)).
+- **Problem:** Computer-use-agent developers need demonstrations of multi-step GUI work, while collecting human-annotated trajectories remains a documented training bottleneck and current alternatives include small human datasets augmented with synthetic actions ([Efficient Agent Training for Computer Use](https://arxiv.org/abs/2505.13909), May 2025).
+- **Approach:** Markov supplies screen recordings with synchronized mouse and keyboard events, narrations, task statements, reference inputs, gold outputs, rubrics, and computer environments spanning CAD, browser, coding, design, and spreadsheet workflows ([Markov website](https://www.markovstudios.com/), accessed Aug. 2026).
+- **Differentiation:** Scale AI and Invisible Technologies provide broad annotation and expert-data services, Turing concentrates on coding and scientific expert data, and Mercor matches labs with domain experts, whereas Markov focuses on recorded GUI workflows, action trajectories, and application-specific computer environments ([Markov](https://www.markovstudios.com/), [Turing](https://www.turing.com/blog/turing-raises-111m-to-accelerate-the-future-of-agi), [Invisible](https://invisibletech.ai/blog/invisible-technologies-raises-100-million), 2025–2026).
+- **Business Model:** [Inferred]: The “Talk to us” sales call-to-action and absence of public pricing indicate contracted dataset or environment projects for AI developers rather than self-service subscriptions ([Markov website](https://www.markovstudios.com/), accessed Aug. 2026).
+- **TAM/SAM:** The global AI-training-dataset market was estimated at $3.2B in 2025 and forecast to reach $16.3B by 2033 at a 22.6% CAGR, but no public SAM was found for computer-use data specifically ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-training-dataset-market), 2026).
+- **GTM / Distribution:** Markov distributes research datasets through Hugging Face, reports 150K+ cumulative downloads, publishes benchmarks, and directs visitors seeking application-specific data to a sales call ([Markov website](https://www.markovstudios.com/), accessed Aug. 2026).
 
 ## Defensibility
 
-- **Moat today:** Markov reports a corpus exceeding 10,000 hours of computer-use recordings and 500 hours of synchronized gaming interactions, creating a proprietary collection and processing asset if underlying contributor rights are retained ([Markov website, Jul 2026](https://www.markovstudios.com/)).
-- **Future moat:** [Inferred]: Repeated customer projects could produce a workflow-specific contributor network, task library, and quality-control system, but customer retention and proprietary collection volume are not publicly documented.
+- **Moat today:** Markov’s public assets include a 48,478-video, approximately 12,300-hour corpus and an auditable AutoCAD environment with retained files, screenshots, model turns, and input events ([Hugging Face](https://huggingface.co/datasets/markov-ai/computer-use-large), Aug. 2026; [AutoCAD Bench](https://www.markovstudios.com/research/autocad-bench), Aug. 2026).
+- **Future moat:** [Inferred]: Repeated buyer projects could produce proprietary workflows, application environments, evaluators, and quality data, but no public customer or renewal evidence yet demonstrates that feedback loop.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** General data-labeling vendors, talent networks, software publishers, and AI laboratories can collect or synthesize GUI trajectories; Turing has already delivered more than 10,000 supervised GUI tasks for a computer-use agent ([Turing case study, Jul 2026](https://www.turing.com/case-study/creating-supervised-gui-tasks-to-train-general-purpose-computer-agents)).
+- **Commoditization risk:** AI laboratories, established data vendors, and research teams can collect or synthesize trajectories, with one 2025 system reporting results from 312 human trajectories augmented by model-generated action decisions ([Efficient Agent Training for Computer Use](https://arxiv.org/abs/2505.13909), May 2025).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - More than 150,000 Hugging Face downloads ([Markov website, Jul 2026](https://www.markovstudios.com/)).
-  - More than 10,000 hours of computer-use recordings spanning Salesforce, Blender, Photoshop, and other applications ([Markov website, Jul 2026](https://www.markovstudios.com/)).
-  - More than 500 hours of gaming recordings with synchronized mouse and keyboard inputs ([Markov website, Jul 2026](https://www.markovstudios.com/)).
-  - The Computer Use Large release contains 48,478 videos totaling approximately 12,300 hours under CC-BY-4.0 and recorded over 45,000 first-month downloads ([Agent Wars, Mar 2026](https://agent-wars.com/news/2026-03-14-markov-ai-releases-48k-screen-recording-dataset-for-training-computer-use-agents)).
-  - Company X account @markov__ai had approximately 1,000 followers and six posts ([TwStalker, Jul 2026](https://site.twstalker.com/markov__ai)).
-  - Analytics India Magazine profiled Markov and reported that its dataset exceeded 100,000 downloads ([Dev Mandal LinkedIn, Apr 2026](https://in.linkedin.com/in/dev-mandal-iitm)).
-  - YC listed zero active jobs ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/markov)).
-- **Competitors:**
-  - Scale AI (at least $15.9 billion disclosed investment and funding, $870 million 2024 revenue): provides data annotation and model evaluation across multiple AI modalities rather than specializing in recorded computer workflows ([Sacra, Jul 2025](https://assets.ctfassets.net/f1df9zr7wr1a/215e1QbZVERffRshAa5kQG/88be071b3ab80a5fbc1cafd78ac866e0/ScaleAI_SacraCompanyReport_PaidFile.pdf); [AP, Jun 2025](https://apnews.com/article/4b55aabf7ea018e38ffdccb66e37cf26)).
-  - Surge AI ($0 external capital raised before its announced fundraising process, more than $1 billion 2024 revenue): operates a general data-labeling service and was seeking up to $1 billion in its first outside raise ([Reuters, Jul 2025](https://tech.yahoo.com/ai/articles/exclusive-scale-ais-bigger-rival-152327178.html)).
-  - Turing ($225 million raised, approximately $300 million ARR): combines expert talent and model-training data and has produced supervised GUI-task datasets ([Turing, Jun 2025](https://www.turing.com/blog/turing-raises-111m-to-accelerate-the-future-of-agi); [TechCrunch, Mar 2025](https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/)).
-  - Wirestock ($26 million raised, $40 million annual revenue run rate): supplies rights-cleared creator-sourced image, video, and other multimodal data rather than computer-action trajectories ([TechCrunch, May 2026](https://techcrunch.com/2026/05/14/wirestock-raises-23m-to-supply-multi-modal-data-to-ai-labs/)).
-- **Why now:** Computer-use products from Anthropic, OpenAI, and Google entered the market during 2024–2025, increasing demand for GUI-interaction training and evaluation data ([Agent Wars, Mar 2026](https://agent-wars.com/news/2026-03-14-markov-ai-releases-48k-screen-recording-dataset-for-training-computer-use-agents)).
+  - 150K+ cumulative Hugging Face downloads ([Markov website](https://www.markovstudios.com/), accessed Aug. 2026).
+  - 17,814 downloads in the preceding month and 180 Hugging Face likes for `computer-use-large` ([Hugging Face](https://huggingface.co/datasets/markov-ai/computer-use-large), accessed Aug. 2026).
+  - 48,478 videos, approximately 12,300 hours, and 856 GB in the public professional-software dataset ([Hugging Face](https://huggingface.co/datasets/markov-ai/computer-use-large), accessed Aug. 2026).
+  - 500+ hours of synchronized gaming recordings across Valorant, Minecraft, GTA, and other games ([Markov website](https://www.markovstudios.com/), accessed Aug. 2026).
+  - Approximately 1K company X followers ([TwStalker profile mirror](https://site.twstalker.com/markov__ai), Aug. 2026).
+  - Founder and dataset coverage in Analytics India Magazine ([Analytics India Magazine](https://analyticsindiamag.com/ai-features/meet-the-20-year-old-iit-madras-student-building-datasets-for-agi-era), Apr. 2026).
+  - Zero jobs listed on the YC company page ([Y Combinator](https://www.ycombinator.com/companies/markov), accessed Aug. 2026).
+- **Competitors (minimum 3, up to 5):**
+  - Scale AI ($1.6B raised before Meta’s subsequent investment, $870M 2024 revenue): operates a broader annotation, evaluation, and AI-application platform rather than specializing in computer-use workflow environments ([Contrary Research](https://research.contrary.com/company/mercor), 2026; [Bloomberg](https://news.bloomberglaw.com/private-equity/scale-ai-expects-to-more-than-double-sales-to-2-billion-in-2025), Mar. 2025).
+  - Mercor ($483.6M raised, $2B annualized gross revenue in June 2026): sources scientists, doctors, lawyers, and other experts for model training rather than primarily recording GUI action workflows ([Contrary Research](https://research.contrary.com/company/mercor), 2026; [Sacra](https://sacra.com/c/mercor/), June 2026).
+  - Turing ($225M raised, approximately $300M ARR): supplies coding, reasoning, and scientific expert data, while Markov emphasizes visual desktop actions and application environments ([Turing](https://www.turing.com/blog/turing-raises-111m-to-accelerate-the-future-of-agi), June 2025; [TechCrunch](https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/), Mar. 2025).
+  - Invisible Technologies ($107.88M raised, $134M 2024 revenue): combines human experts with enterprise-process software and RL gyms across broader use cases ([CB Insights](https://www.cbinsights.com/company/invisible-technologies/financials), 2026; [Invisible Technologies](https://invisibletech.ai/blog/invisible-technologies-raises-100-million), Sept. 2025).
+- **Why now:** [Inferred]: Anthropic’s October 2024 computer-use API and OpenAI’s January 2025 Operator release moved GUI-operating models into public developer products while both remained error-prone, creating demand for additional demonstrations and evaluation environments ([Anthropic](https://www.anthropic.com/news/3-5-models-and-computer-use), Oct. 2024; [OpenAI](https://openai.com/index/introducing-operator/), Jan. 2025).
 
 ## Founders & Team
 
+- **Dev Mandal (Co-Founder & CEO):**
+  - Background: Aerospace Engineering student at IIT Madras from 2023–2027, previously worked at Sarvam AI, DevRev, and Telekinesis, and built the open-source doubt.ai education project ([Y Combinator](https://www.ycombinator.com/companies/markov); [LinkedIn](https://in.linkedin.com/in/dev-mandal-iitm), accessed 2026).
+  - Twitter/X: @DevvMandal, approximately 6K followers ([TwStalker profile mirror](https://ngntipkolamrenang.twstalker.com/DevvMandal), Aug. 2026).
+  - LinkedIn: “Co-founder at Markov (YC S26) \| IITM ’27” ([LinkedIn](https://www.linkedin.com/posts/dev-mandal-iitm_today-were-launching-the-worlds-largest-activity-7437878621937127424-bBOM), 2026).
+  - GitHub: @ShadowDawg; `morphiccc-doubt.ai-2` has 4 stars ([GitHub](https://github.com/ShadowDawg), accessed Aug. 2026).
 - **Harish Ashok (Co-Founder):**
-  - Background: Previously founded Zenith, an AI-assisted hardware-workflow company, and studied at The Knowledge Society during 2025–2026 ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/markov); [LinkedIn, Jul 2026](https://in.linkedin.com/in/harish-ashok)).
-  - Twitter/X: @habril27 with 473 followers in the retrievable profile snapshot ([Instalker, 2025](https://instalker.org/DrejToolwell)).
-  - LinkedIn: “Building Markov, teaching computers to use computers,” with 996 followers ([LinkedIn, Jul 2026](https://in.linkedin.com/in/harish-ashok)).
-  - GitHub: @boldmoon; nexus and raptor each had 2 stars ([GitHub, Jul 2026](https://github.com/boldmoon)).
-- **Dev Mandal (Co-Founder and CEO):**
-  - Background: IIT Madras aerospace-engineering student, former Sarvam AI team member, and creator of doubt.ai, which reported 700 users and 5,000 questions resolved in four weeks ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/markov); [LinkedIn, Jul 2026](https://in.linkedin.com/in/dev-mandal-iitm)).
-  - Twitter/X: @DevvMandal with approximately 5,000 followers ([TwStalker, Jul 2026](https://twstalker.com/DevvMandal)).
-  - LinkedIn: Markov founder and IIT Madras student, with approximately 4,000 followers ([LinkedIn, Jul 2026](https://in.linkedin.com/in/dev-mandal-iitm)).
-  - GitHub: No public repos found.
+  - Background: Attended The Knowledge Society during 2025–2026 and previously founded Zenith, a voice-operated assistant for robotics development ([LinkedIn](https://in.linkedin.com/in/harish-ashok); [Y Combinator](https://www.ycombinator.com/companies/markov), 2026).
+  - Twitter/X: @habril27, approximately 3K followers ([TwStalker profile mirror](https://w.twstalker.com/habril27), Aug. 2026).
+  - LinkedIn: “Markov” ([LinkedIn](https://in.linkedin.com/in/harish-ashok), accessed 2026).
+  - GitHub: @boldmoon; `nexus` has 2 stars ([GitHub](https://github.com/boldmoon), accessed Aug. 2026).
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Harish’s robotics and hardware-workflow projects and Dev’s Sarvam AI experience, programming background, and prior AI product work document experience with human-computer interaction and model development ([Y Combinator, Jul 2026](https://www.ycombinator.com/companies/markov); [Harish Ashok LinkedIn, Jul 2026](https://in.linkedin.com/in/harish-ashok); [Dev Mandal LinkedIn, Jul 2026](https://in.linkedin.com/in/dev-mandal-iitm)).
+- **Founder-market fit:** [Inferred]: Mandal’s prior AI roles and GUI-agent projects, combined with Ashok’s robotics-assistant and hardware work, provide documented experience with AI training, computer interaction, and tool automation ([LinkedIn—Mandal](https://in.linkedin.com/in/dev-mandal-iitm); [Harish Ashok](https://harishashok.com/), accessed 2026).
 
 ## Key Risks
 
-- **Open-data substitution:** Computer Use Large is released under CC-BY-4.0, allowing others to reuse the dataset and reducing exclusivity for that corpus ([Agent Wars, Mar 2026](https://agent-wars.com/news/2026-03-14-markov-ai-releases-48k-screen-recording-dataset-for-training-computer-use-agents)).
-- **Data-rights and privacy:** Markov collects human screen activity across workplace applications, while the public website does not disclose contributor-consent, privacy-review, or sensitive-information filtering procedures ([Markov website, Jul 2026](https://www.markovstudios.com/)).
-- **Generalist competition:** Scale AI, Surge AI, Turing, and Wirestock already operate funded or revenue-generating data-supply businesses capable of expanding into computer-use data ([Reuters, Jul 2025](https://tech.yahoo.com/ai/articles/exclusive-scale-ais-bigger-rival-152327178.html); [TechCrunch, Mar 2025](https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation/)).
-- **Dataset-to-product conversion:** Public evidence shows research downloads but no disclosed paying customers, contracts, pricing, or company revenue ([Markov website, Jul 2026](https://www.markovstudios.com/)).
-- **Name disambiguation:** Unrelated companies use “Markov,” including a London financial-services company and San Francisco-based MarkovML, creating search and brand ambiguity ([LinkedIn, Jul 2026](https://uk.linkedin.com/company/markov); [LinkedIn, Jul 2026](https://www.linkedin.com/company/markov-ml)).
+- **Dataset provenance and licensing:** The flagship dataset is internet-sourced and published under CC-BY-4.0, but its public card does not identify the original licensors for individual recordings, creating chain-of-title diligence requirements for commercial use ([Hugging Face](https://huggingface.co/datasets/markov-ai/computer-use-large), Aug. 2026).
+- **Synthetic-data substitution:** Research has reduced reliance on human demonstrations by augmenting 312 annotated trajectories with model-generated actions, which could lower demand for large raw-recording collections ([Efficient Agent Training for Computer Use](https://arxiv.org/abs/2505.13909), May 2025).
+- **Competitor resources:** Scale AI, Mercor, Turing, and Invisible have each raised more than $100M and already sell training-data services, giving them existing expert networks and buyer relationships ([Contrary Research](https://research.contrary.com/company/mercor), 2026; [Turing](https://www.turing.com/blog/turing-raises-111m-to-accelerate-the-future-of-agi), 2025; [CB Insights](https://www.cbinsights.com/company/invisible-technologies/financials), 2026).
+- **Benchmark coverage:** Markov states that AutoCAD Bench contains only 50 tasks and that its current evaluator can give a passing score to visually similar but semantically different CAD geometry ([AutoCAD Bench](https://www.markovstudios.com/research/autocad-bench), Aug. 2026).
+- **Name ambiguity:** Unrelated businesses use the Markov name, including a London financial-services company and MarkovML, increasing search-result disambiguation requirements ([LinkedIn—Markov Finance](https://uk.linkedin.com/company/markov); [LinkedIn—MarkovML](https://www.linkedin.com/company/markov-ml), accessed 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3.2B in 2025, projected to $16.3B by 2033 at 22.6% CAGR (Grand View Research, 2026) |
+| TAM | $3.2B global AI-training-dataset market in 2025, forecast to $16.3B by 2033 at 22.6% CAGR (Grand View Research, 2026) |
 | SAM | No public data found |
-| Traction | 150K+ Hugging Face downloads; 10K+ computer-use hours; 500+ gaming hours (Markov website, Jul 2026) |
+| Traction | 150K+ cumulative Hugging Face downloads (Markov website, Aug. 2026); 17,814 preceding-month downloads, 180 likes, 48,478 videos and approximately 12,300 hours (Hugging Face, Aug. 2026) |
 | Revenue Signal | No public data found |
-| Founders | Harish Ashok (Co-Founder): Zenith founder and robotics-workflow builder; Dev Mandal (CEO): former Sarvam AI, IIT Madras aerospace engineering (YC, Jul 2026) |
-| Competitors | Scale AI (at least $15.9B disclosed funding and investment, $870M 2024 revenue, broad annotation; AP/Sacra, 2025); Surge AI ($0 external funding before announced raise, $1B+ 2024 revenue, broad labeling; Reuters, Jul 2025); Turing ($225M raised, approximately $300M ARR, expert and GUI-task data; Turing/TechCrunch, 2025); Wirestock ($26M raised, $40M run-rate revenue, creator-sourced multimodal data; TechCrunch, May 2026) |
-| Moat Signals | 10K+ hours of computer-use recordings and 500+ hours of synchronized gaming data (Markov website, Jul 2026) |
-| Risk Factors | Open CC-BY-4.0 dataset substitution (Agent Wars, Mar 2026), no disclosed revenue (Markov website, Jul 2026), funded generalist competitors (Reuters/TechCrunch, 2025–2026) |
-| Founder Reach | Harish Ashok: Twitter 473, LinkedIn 996, GitHub top-repo 2 stars (Instalker/LinkedIn/GitHub, 2025–2026); Dev Mandal: Twitter approximately 5K, LinkedIn approximately 4K, GitHub not found (TwStalker/LinkedIn, Jul 2026) |
-| Distribution Signals | 150K+ Hugging Face downloads and company X approximately 1K followers (Markov website/TwStalker, Jul 2026); zero YC jobs (YC, Jul 2026) |
-| Emails | founders@markovstudios.com (Markov website, Jul 2026) |
+| Founders | Dev Mandal (CEO): IIT Madras Aerospace Engineering, ex-Sarvam AI, DevRev and Telekinesis (YC and LinkedIn, 2026); Harish Ashok (Co-Founder): founder of Zenith and TKS participant (YC and LinkedIn, 2026) |
+| Competitors | Scale AI ($1.6B raised, $870M 2024 revenue, broad data platform) (Contrary/Bloomberg, 2025–2026); Mercor ($483.6M raised, $2B annualized gross revenue, expert marketplace) (Contrary/Sacra, 2026); Turing ($225M raised, approximately $300M ARR, coding and STE data) (Turing/TechCrunch, 2025); Invisible Technologies ($107.88M raised, $134M 2024 revenue, enterprise workflows and RL gyms) (CB Insights/Invisible, 2025–2026) |
+| Moat Signals | 48,478-video public corpus and auditable AutoCAD environment retaining artifacts and input events (Hugging Face and Markov AutoCAD Bench, Aug. 2026) |
+| Risk Factors | Internet-sourced dataset provenance (Hugging Face, 2026), synthetic-trajectory substitution (He et al., 2025), funded incumbent data vendors (Contrary Research, 2026) |
+| Founder Reach | Dev Mandal: Twitter 6K, LinkedIn 4K, GitHub top repo 4 stars (TwStalker/LinkedIn/GitHub, Aug. 2026); Harish Ashok: Twitter 3K, LinkedIn 996, GitHub top repo 2 stars (TwStalker/LinkedIn/GitHub, Aug. 2026) |
+| Distribution Signals | 150K+ Hugging Face downloads (Markov website, Aug. 2026), 1K company X followers (TwStalker profile mirror, Aug. 2026), Analytics India Magazine coverage (Apr. 2026) |
+| Emails | founders@markovstudios.com (Markov website, Aug. 2026) |

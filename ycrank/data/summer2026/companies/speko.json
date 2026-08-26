@@ -9,62 +9,62 @@
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, AI, Conversational AI",
+    "tags": "Artificial Intelligence, Developer Tools, Conversational AI",
     "yc_partner": "Tyler Bosmeny",
-    "emails": "founders@speko.ai, team@speko.ai ([Speko website](https://speko.ai/), [pricing page](https://speko.ai/pricing), Jul 2026)"
+    "emails": "team@speko.ai, founders@speko.ai"
   },
   "tags": [
+    "Artificial Intelligence",
     "Developer Tools",
-    "AI",
     "Conversational AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:55:00.953Z",
+  "memoGeneratedAt": "2026-08-11T05:33:34.888Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 56,
+      "score": 49,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
+      "score": 44,
+      "tier": "Pass"
     },
     "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
+      "score": 45,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 58,
+      "score": 59,
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 35,
+      "score": 42,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 38,
+      "score": 35,
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 26,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 53,
-    "NR": 65,
-    "PG": 58,
-    "PT": 35,
-    "SL": 38,
-    "VK": 34
+    "CB": 49,
+    "EG": 44,
+    "NR": 45,
+    "PG": 59,
+    "PT": 42,
+    "SL": 35,
+    "VK": 26
   },
-  "consolidatedAvg": 48.43,
-  "consolidatedRank": 133,
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 40,
-    "tractionReason": "175 weekly SDK downloads; no customer count"
+    "tractionRank": 120,
+    "tractionScore": 48,
+    "tractionReason": "One commercial pilot and initial partners"
   },
   "paths": {
     "memo": "summer2026/memos/speko.md",

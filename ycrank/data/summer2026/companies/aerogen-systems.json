@@ -1,0 +1,82 @@
+{
+  "slug": "aerogen-systems",
+  "name": "Aerogen Systems",
+  "oneLiner": "Building the future of advanced chip manufacturing.",
+  "metadata": {
+    "website": "https://www.aerogensystems.com/",
+    "yc_page": "https://www.ycombinator.com/companies/aerogen-systems",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "4",
+    "location": "Ann Arbor, MI, USA",
+    "tags": "Hard Tech, B2B, Manufacturing, Semiconductors",
+    "yc_partner": "Jon Xu",
+    "emails": "hi@aerogensystems.com"
+  },
+  "tags": [
+    "Hard Tech",
+    "B2B",
+    "Manufacturing",
+    "Semiconductors"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-26T05:15:59.699Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 65,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 65,
+    "EG": 45,
+    "NR": 67,
+    "PG": 49,
+    "PT": 55,
+    "SL": 37,
+    "VK": 43
+  },
+  "consolidatedAvg": 51.57,
+  "consolidatedRank": 52,
+  "traction": {
+    "tractionRank": 126,
+    "tractionScore": 46,
+    "tractionReason": "Talos pilots inside semiconductor tooling"
+  },
+  "paths": {
+    "memo": "summer2026/memos/aerogen-systems.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/aerogen-systems.md",
+      "elad-gil": "summer2026/evals/elad-gil/aerogen-systems.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/aerogen-systems.md",
+      "paul-graham": "summer2026/evals/paul-graham/aerogen-systems.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/aerogen-systems.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/aerogen-systems.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/aerogen-systems.md"
+    }
+  }
+}

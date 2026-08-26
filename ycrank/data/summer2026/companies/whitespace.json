@@ -11,7 +11,7 @@
     "location": "London, England, United Kingdom",
     "tags": "Artificial Intelligence, SaaS, B2B, Supply Chain",
     "yc_partner": "Jon Xu",
-    "emails": "alex@whitespacehq.ai"
+    "emails": "alex@whitespacehq.ai, team@whitespacehq.ai"
   },
   "tags": [
     "Artificial Intelligence",
@@ -20,23 +20,23 @@
     "Supply Chain"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:38:24.356Z",
+  "memoGeneratedAt": "2026-08-11T05:07:23.648Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 55,
+      "score": 57,
       "tier": "Neutral"
     },
+    "elad-gil": {
+      "score": 68,
+      "tier": "Invest"
+    },
     "naval-ravikant": {
-      "score": 55,
+      "score": 54,
       "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 78,
-      "tier": "Invest"
+      "score": 53,
+      "tier": "Neutral"
     },
     "peter-thiel": {
       "score": 36,
@@ -47,25 +47,25 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 44,
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 55,
-    "NR": 55,
-    "PG": 78,
+    "CB": 57,
+    "EG": 68,
+    "NR": 54,
+    "PG": 53,
     "PT": 36,
     "SL": 42,
-    "VK": 44
+    "VK": 38
   },
-  "consolidatedAvg": 53.71,
-  "consolidatedRank": 85,
+  "consolidatedAvg": 49.71,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 58,
-    "tractionReason": "Two named customers; deployments across four workflows"
+    "tractionRank": 65,
+    "tractionScore": 60,
+    "tractionReason": "Two named customers with active deployments"
   },
   "paths": {
     "memo": "summer2026/memos/whitespace.md",

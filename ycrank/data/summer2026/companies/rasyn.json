@@ -1,0 +1,81 @@
+{
+  "slug": "rasyn",
+  "name": "Rasyn",
+  "oneLiner": "Towards a General Intelligence for Chemistry",
+  "metadata": {
+    "website": "https://www.rasyn.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/rasyn",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI-powered Drug Discovery, Deep Learning, Biotech",
+    "yc_partner": "Not listed",
+    "emails": "founders@rasyn.ai, privacy@rasyn.ai, support@rasyn.ai, legal@rasyn.ai"
+  },
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Deep Learning",
+    "Biotech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-08-11T05:21:46.492Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 41,
+    "NR": 41,
+    "PG": 43,
+    "PT": 38,
+    "SL": 32,
+    "VK": 26
+  },
+  "consolidatedAvg": 37.43,
+  "consolidatedRank": 188,
+  "traction": {
+    "tractionRank": 140,
+    "tractionScore": 43,
+    "tractionReason": "Current chemistry product launched live"
+  },
+  "paths": {
+    "memo": "summer2026/memos/rasyn.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/rasyn.md",
+      "elad-gil": "summer2026/evals/elad-gil/rasyn.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/rasyn.md",
+      "paul-graham": "summer2026/evals/paul-graham/rasyn.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/rasyn.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/rasyn.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/rasyn.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "agnost-ai",
+  "name": "Agnost AI",
+  "oneLiner": "Product analytics for teams building conversational agents",
+  "metadata": {
+    "website": "https://agnost.ai",
+    "yc_page": "https://www.ycombinator.com/companies/agnost-ai",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Developer Tools, Analytics, Monitoring",
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026)",
+    "emails": "shubham@agnost.ai ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026)"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Developer Tools",
+    "Analytics",
+    "Monitoring"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-07-30T17:32:21.186Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "paul-graham": {
+      "score": 75,
+      "tier": "Invest"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 67,
+    "NR": 66,
+    "PG": 75,
+    "PT": 42,
+    "SL": 47,
+    "VK": 34
+  },
+  "consolidatedAvg": 53.86,
+  "consolidatedRank": 82,
+  "traction": {
+    "tractionRank": 29,
+    "tractionScore": 69,
+    "tractionReason": "Over 1M events daily; multiple named teams displayed"
+  },
+  "paths": {
+    "memo": "summer2026 Old GPT/memos/agnost-ai.md",
+    "evals": {
+      "cyan-banister": "summer2026 Old GPT/evals/cyan-banister/agnost-ai.md",
+      "elad-gil": "summer2026 Old GPT/evals/elad-gil/agnost-ai.md",
+      "naval-ravikant": "summer2026 Old GPT/evals/naval-ravikant/agnost-ai.md",
+      "paul-graham": "summer2026 Old GPT/evals/paul-graham/agnost-ai.md",
+      "peter-thiel": "summer2026 Old GPT/evals/peter-thiel/agnost-ai.md",
+      "sam-lessin": "summer2026 Old GPT/evals/sam-lessin/agnost-ai.md",
+      "vinod-khosla": "summer2026 Old GPT/evals/vinod-khosla/agnost-ai.md"
+    }
+  }
+}

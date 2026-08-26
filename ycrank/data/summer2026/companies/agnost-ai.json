@@ -1,7 +1,7 @@
 {
   "slug": "agnost-ai",
   "name": "Agnost AI",
-  "oneLiner": "Product analytics for teams building conversational agents",
+  "oneLiner": "Product analytics for AI Agents",
   "metadata": {
     "website": "https://agnost.ai",
     "yc_page": "https://www.ycombinator.com/companies/agnost-ai",
@@ -9,63 +9,63 @@
     "industry": "B2B / B2B -> Analytics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Artificial Intelligence, Developer Tools, Analytics, Monitoring",
-    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026)",
-    "emails": "shubham@agnost.ai ([Y Combinator](https://www.ycombinator.com/companies/agnost-ai), Jul 2026)"
+    "tags": "Developer Tools, Analytics, Monitoring, AI",
+    "yc_partner": "Tyler Bosmeny",
+    "emails": "shubham@agnost.ai, founders@agnost.ai ([YC](https://www.ycombinator.com/companies/agnost-ai); [PyPI](https://pypi.org/project/agnost/))"
   },
   "tags": [
-    "Artificial Intelligence",
     "Developer Tools",
     "Analytics",
-    "Monitoring"
+    "Monitoring",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-07-30T17:32:21.186Z",
+  "memoGeneratedAt": "2026-08-11T04:50:30.000Z",
   "evalScores": {
     "cyan-banister": {
-      "score": 46,
+      "score": 51,
       "tier": "Neutral"
     },
     "elad-gil": {
-      "score": 67,
-      "tier": "Invest"
+      "score": 56,
+      "tier": "Neutral"
     },
     "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
+      "score": 46,
+      "tier": "Neutral"
     },
     "paul-graham": {
-      "score": 75,
-      "tier": "Invest"
+      "score": 53,
+      "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 42,
+      "score": 43,
       "tier": "Pass"
     },
     "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
+      "score": 40,
+      "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 34,
+      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 67,
-    "NR": 66,
-    "PG": 75,
-    "PT": 42,
-    "SL": 47,
-    "VK": 34
+    "CB": 51,
+    "EG": 56,
+    "NR": 46,
+    "PG": 53,
+    "PT": 43,
+    "SL": 40,
+    "VK": 28
   },
-  "consolidatedAvg": 53.86,
-  "consolidatedRank": 82,
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 69,
-    "tractionReason": "Over 1M events daily; multiple named teams displayed"
+    "tractionRank": 110,
+    "tractionScore": 50,
+    "tractionReason": "Over 1M events daily; teams at Google and Exa"
   },
   "paths": {
     "memo": "summer2026/memos/agnost-ai.md",

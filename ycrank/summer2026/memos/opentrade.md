@@ -6,81 +6,86 @@
 |-------|-------|
 | Website | https://opentrade.live/ |
 | YC Page | https://www.ycombinator.com/companies/opentrade |
-| Batch | Summer 2026 ([Y Combinator](https://www.ycombinator.com/companies/opentrade), Jul 2026) |
+| Batch | Summer 2026 |
 | Industry | Consumer / Consumer |
 | Team Size | 3 |
 | Location | Seattle, WA, USA |
 | Tags | Finance, Gaming, Investing, Consumer Finance, Stocks |
-| YC Partner | Diana Hu ([Y Combinator](https://www.ycombinator.com/companies/opentrade), Jul 2026) |
-| Emails | suraj@opentrade.live ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026) |
+| YC Partner | Diana Hu |
+| Emails | ojaskandy@gmail.com, tarioy@uw.edu |
 
 ## The Idea
 
-- **Problem:** OpenTrade targets younger retail investors for whom researching an individual stock can become a full-time task, leaving passive index investing or screen-intensive day trading as the founders’ stated alternatives ([Tario You LinkedIn](https://www.linkedin.com/posts/tario-you_we-joined-y-combinator-to-reimagine-investing-activity-7477765810455879680-qkek), Jul 2026).
-- **Approach:** The current web product uses real-company drills, historical market scenarios, friend challenges, ratings, and an Arena against ChatGPT, while its iOS product provides swipeable AI-generated market briefs without executing trades ([OpenTrade web app](https://app.opentrade.live/), Jul 2026; [Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Jul 2026).
-- **Differentiation:** OpenTrade emphasizes short market games and AI opponents versus Invstr’s fantasy league plus brokerage, StockGro’s expert-led education and advisory, and Alinea’s managed portfolios and AI guidance ([Invstr](https://www.businesswire.com/news/home/20210317005633/en/Invstr-Unveils-Smarter-Investment-Tools-Combined-with-Secure-Convenient-Commission-Free-Banking-Brokerage-Services), Mar 2021; [StockGro](https://yourstory.com/2025/12/stockgro-raises-13m-from-bitkraft-ventures-in-series-b1-funding-round), Dec 2025; [Alinea](https://www.alinea-invest.com/press/what-is-alinea-invest), Jul 2026).
-- **Business Model:** [Inferred]: The free iOS app and guest-access web games could feed future premium research, advisory, referral, or execution economics, but no pricing or monetization terms are public ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Jul 2026; [OpenTrade site](https://www.opentrade.live/), Jul 2026).
-- **TAM/SAM:** The global online-investment-platform market was estimated at $3 billion in 2024 and projected to reach $6.6 billion by 2030 at a 14.2% CAGR ([Research and Markets](https://www.researchandmarkets.com/reports/6069218/online-investment-platform-global-strategic), 2025).
-- **GTM / Distribution:** Distribution currently uses shareable friend leagues, referrals, Discord, an India campus-ambassador program, and direct recruiting through LinkedIn ([founder beta-test post](https://www.reddit.com/r/betatests/comments/1uzch3b/need_beta_testers_for_a_fantasy_stock_league_game/), Jul 2026; [OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026).
+- **Problem:** OpenTrade targets younger consumers who find stock research time-consuming and otherwise choose passive index investing or screen-intensive day trading ([Tario You launch post](https://www.linkedin.com/posts/tario-you_we-joined-y-combinator-to-reimagine-investing-activity-7477765810455879680-qkek), Jul 2026).
+- **Approach:** The web product uses short market drills such as Tickerdle, Runway, News Call, and Higher/Lower plus a five-pick competition against ChatGPT, while the iOS app presents swipeable market briefs covering an idea, rationale, risks, and further research ([OpenTrade web app](https://www.opentrade.live/), Aug 2026; [Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Aug 2026).
+- **Differentiation:** OpenTrade centers competitive drills and AI matches, versus Alinea’s automated portfolios and AI companion, Blossom’s verified social portfolios, and Invstr’s 85-lesson investing course ([Alinea](https://www.alinea-invest.com/), Aug 2026; [Blossom](https://www.blossomsocial.com/), Aug 2026; [Invstr](https://invstr.com/), Aug 2026).
+- **Business Model:** [Inferred]: The iOS app is currently free, and no subscription, advertising, brokerage-referral, or transaction-pricing model is publicly disclosed ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Aug 2026).
+- **TAM/SAM:** The global online-trading-platform market was $10.9B in 2025 with a projected 7.9% CAGR through 2033, while North America was estimated at $3.21B in 2024 with a 4.61% CAGR through 2029 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/online-trading-platform-market-report), 2026; [Orbis Research](https://www.orbisresearch.com/reports/index/north-america-online-trading-platform-market-size-and-share-analysis-growth-trends-and-forecasts-2024-2029-), 2024).
+- **GTM / Distribution:** OpenTrade is using social launch content, creator contests with $1,000+ in prizes, referrals, and recruiting for engineering, design, and growth interns ([OpenTrade LinkedIn](https://www.linkedin.com/posts/opentradelive_opentrade-yc-s26-is-announcing-the-openlock-activity-7492295812996096001-mkXR), Aug 2026; [hiring post](https://www.linkedin.com/posts/opentradelive_were-hiring-interns-at-opentrade-yc-s26-activity-7483604935251505153-2oRv), Aug 2026).
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Repeated drills and friend leagues could produce a proprietary graph of market knowledge, predictions, retention, and social competition, but no scaled dataset or network size is public.
-- **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** Invstr already combines fantasy investing with brokerage, StockGro combines gamified education with advisory, and Alinea combines first-time-investor education with managed portfolios ([Invstr](https://www.businesswire.com/news/home/20210317005633/en/Invstr-Unveils-Smarter-Investment-Tools-Combined-with-Secure-Convenient-Commission-Free-Banking-Brokerage-Services), Mar 2021; [StockGro](https://www.linkedin.com/company/stockgro), Jul 2026; [Alinea](https://www.alinea-invest.com/press/what-is-alinea-invest), Jul 2026).
+- **Future moat:** [Inferred]: A proprietary dataset linking game decisions, research-card engagement, and later market outcomes could support personalization, but OpenTrade has not disclosed the scale, exclusivity, or use of such data.
+- **Market structure:** No structural barrier identified at this stage, because the current product does not custody assets, execute trades, or operate as an investment adviser ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Aug 2026).
+- **Commoditization risk:** Alinea, Blossom, Invstr, and StockGro already provide overlapping combinations of AI research, investing education, social portfolios, quizzes, and trade ideas ([Alinea](https://www.alinea-invest.com/), Aug 2026; [Blossom](https://www.blossomsocial.com/), Aug 2026; [Invstr](https://invstr.com/), Aug 2026; [StockGro](https://www.stockgro.club/), Aug 2026).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported 5x user-base growth in five days, without an absolute baseline ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026).
-  - Company-reported 3x weekly-active-user growth in three days, without an absolute baseline ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026).
-  - 1,941 LinkedIn followers ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 30, 2026).
-  - 100K+ views on one company X video ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026).
-  - iOS version 1.0 launched July 1, 2026, with insufficient ratings or reviews to display a summary ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Jul 2026).
-  - Company X handle @opendottrade; follower count not retrievable ([X](https://x.com/opendottrade), Jul 2026).
-  - Zero jobs on YC’s job board, alongside public recruiting for interns, designers, and campus ambassadors ([YC Jobs](https://www.ycombinator.com/companies/opentrade/jobs), Jul 2026; [OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026).
+  - Weekly active users increased 3x in three days, without an absolute user count disclosed ([OpenTrade LinkedIn](https://www.linkedin.com/posts/opentradelive_were-hiring-interns-at-opentrade-yc-s26-activity-7483604935251505153-2oRv), Aug 2026).
+  - Total users increased 5x in five days, without an absolute user count disclosed ([OpenTrade India campaign via LinkedIn](https://in.linkedin.com/in/mihir-goswami), Aug 2026).
+  - 3,411 LinkedIn followers ([OpenTrade LinkedIn](https://www.linkedin.com/posts/opentradelive_opentrade-yc-s26-is-announcing-the-openlock-activity-7492295812996096001-mkXR), Aug 2026).
+  - One launch animation received 100K+ views on X ([OpenTrade LinkedIn](https://www.linkedin.com/posts/opentradelive_gpt-56-sol-one-shotted-this-saas-animation-activity-7481375377202884609-oKWz), Jul 2026).
+  - The iOS app launched July 1, 2026, was updated July 7, and had too few ratings for Apple to display a review overview ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Aug 2026).
+  - Engineering, growth, and design internship applications were open ([OpenTrade hiring post](https://www.linkedin.com/posts/opentradelive_were-hiring-interns-at-opentrade-yc-s26-activity-7483604935251505153-2oRv), Aug 2026).
 - **Competitors (minimum 3, up to 5):**
-  - Invstr (over $40M raised; latest disclosed Series A convertible offering in 2021; revenue unknown): combines fantasy investing, education, banking, and brokerage ([Business Wire](https://www.businesswire.com/news/home/20210317005633/en/Invstr-Unveils-Smarter-Investment-Tools-Combined-with-Secure-Convenient-Commission-Free-Banking-Brokerage-Services), Mar 2021).
-  - StockGro ($112.01M raised; latest $13M Series B1 from BITKRAFT in Dec 2025; revenue unknown): provides social investing, expert advice, and market education rather than short browser drills ([CB Insights](https://www.cbinsights.com/company/stockgro/financials), Jul 2026; [YourStory](https://yourstory.com/2025/12/stockgro-raises-13m-from-bitkraft-ventures-in-series-b1-funding-round), Dec 2025).
-  - Alinea ($15.9M equity raised plus a $22.5M user-acquisition facility; revenue unknown): offers SEC-registered managed portfolios, automation, and conversational education ([Owler](https://www.owler.com/company/alinea-invest/funding), Jul 2026; [Alinea](https://www.alinea-invest.com/press/wealth-management-platform-alinea-secures-22-5-million-in-user-acquisition-financing-from-financial-services-firm-pvx-partners), Feb 2026).
-- **Why now:** [Inferred]: U.S. retail stock-and-ETF trading activity reached $5.4 trillion in 2025, up nearly 47% year over year, providing a recent behavioral catalyst for mobile investing and market-game products ([Associated Press](https://apnews.com/article/6e5a383001aea67a180fa07896022e93), Feb 2026).
+  - Alinea Invest ($38.5M raised, $6M 2024 revenue): automated investing, personalized portfolios, and an AI companion rather than market-game competition ([CB Insights](https://www.cbinsights.com/company/alinea-2/financials), 2026; [Alinea](https://www.alinea-invest.com/), Aug 2026).
+  - Blossom Social (at least C$2.2M raised, C$6.5M annualized revenue projected for Q2 2026): community posts and verified portfolios rather than AI-versus-user drills ([Dealroom](https://app.dealroom.co/news/feed/blossom-social-raises-2-2m-in-equity-crowdfunding-for-global-expansion), Jun 2026).
+  - Invstr (over $40M raised, revenue unknown): free investing education, quizzes, social investing, banking, and brokerage services ([Business Wire](https://www.businesswire.com/news/home/20210317005633/en/Invstr-Unveils-Smarter-Investment-Tools-Combined-with-Secure-Convenient-Commission-Free-Banking-Brokerage-Services), Mar 2021; [Invstr](https://invstr.com/), Aug 2026).
+  - StockGro ($97M raised, revenue unknown): AI research, verified portfolios, and trade ideas from 150+ SEBI-registered analysts, primarily for India ([Clay](https://www.clay.com/dossier/stockgro-funding), Apr 2026; [StockGro](https://www.stockgro.club/), Aug 2026).
+- **Why now:** [Inferred]: Consumer-accessible AI agents can now continuously parse filings, earnings calls, social sentiment, and historical market data, enabling the research workflow OpenTrade described in its July 2026 launch ([OpenTrade LinkedIn](https://www.linkedin.com/posts/opentradelive_congress-trades-in-the-dark-for-45-days-activity-7479929470481510400-NzWn), Jul 2026).
 
 ## Founders & Team
 
 - **Ojas Kandhare (Founder):**
-  - Background: Studied mathematics at the University of Washington before leaving to join YC, previously released the CruiseAI driving app, and maintains 26 public GitHub repositories ([OpenTrade profile](https://app.opentrade.live/swipe), Jul 2026; [Apple App Store](https://apps.apple.com/ca/app/cruiseai/id6744412385), Apr 2025; [GitHub](https://github.com/ojaskandy), Jul 2026).
-  - Twitter/X: @ojaskandy, 479 followers ([TwStalker](https://mobile.twstalker.com/ojaskandy), Jul 28, 2026).
+  - Background: Left University of Washington mathematics studies to join YC and previously built products with 67 Labs ([OpenTrade founder note](https://app.opentrade.live/swipe), Jul 2026; [67 Labs](https://67labs.co/), 2026).
+  - Twitter/X: @ojaskandy, 479 followers ([TwStalker](https://mobile.twstalker.com/ojaskandy), Jul 2026).
   - LinkedIn: “Opentrade (YC S26),” 639 followers ([LinkedIn](https://www.linkedin.com/in/ojaskandy), Jul 2026).
-  - GitHub: @ojaskandy; cruiseaiios-appstore has 1 star ([GitHub](https://github.com/ojaskandy), Jul 2026).
-- **Tario You (Founder):**
-  - Background: University of Washington bachelor’s student with research roles in quantitative finance and video scene graphs, a LineWise software internship, and co-authorship of a 2025 LLM-and-portfolio-optimization paper ([SignalHire](https://www.signalhire.com/profiles/tario-you/221184343), Jul 2026; [OpenReview](https://openreview.net/pdf?id=fIYFy2sTm8), Nov 2025).
-  - Twitter/X: No public account found.
-  - LinkedIn: “67/Labs,” 5,876 followers ([LinkedIn](https://www.linkedin.com/posts/tario-you_today-were-introducing-claude-for-investing-activity-7479930890618396673-ir4b), Jul 2026).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders attended the University of Washington ([OpenTrade profile](https://app.opentrade.live/swipe), Jul 2026; [SignalHire](https://www.signalhire.com/profiles/tario-you/221184343), Jul 2026).
-- **Founder-market fit:** Ojas has mathematics and consumer-app development experience, while Tario has documented quantitative-finance, optimization, and machine-learning research experience ([Apple App Store](https://apps.apple.com/ca/app/cruiseai/id6744412385), Apr 2025; [OpenReview](https://openreview.net/pdf?id=fIYFy2sTm8), Nov 2025).
+- **Tario You (Founder):**
+  - Background: University of Washington student and former research assistant at Ai2 and the UW Allen School, with AI-infrastructure experience and a co-authored ECCV 2026 vision-research paper ([LinkedIn](https://www.linkedin.com/in/tario-you), Jul 2026; [UW researcher bibliography](https://uwgzq.github.io/), 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “67/Labs,” 4,455 followers ([LinkedIn post](https://www.linkedin.com/posts/tario-you_were-hiring-at-opentrade-yc-s26-and-activity-7482853426377220096--9XP), Aug 2026).
+  - GitHub: @tario-you; codex-usage has 1 star ([GitHub](https://github.com/tario-you), Aug 2026).
+- **Dylan Pak (Growth co-founder identified in team posts; not listed among YC’s active founders):**
+  - Background: UW Foster accounting student admitted at 16, with consumer-growth work and self-reported experience generating 600M+ content views ([LinkedIn](https://www.linkedin.com/in/dylan-pak), Jul 2026; [67 Labs](https://67labs.co/), 2026).
+  - Twitter/X: No public account found.
+  - LinkedIn: “Opentrade (YC S26),” 1,917 followers ([LinkedIn](https://www.linkedin.com/posts/dylan-pak_7-days-in-sf-working-at-opentrade-yc-s26-activity-7477350563056132096-zs1P), Jul 2026).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** All three attended the University of Washington and worked together through the three-person 67 Labs studio before or alongside OpenTrade ([67 Labs](https://67labs.co/), 2026; [LinkedIn](https://www.linkedin.com/in/dylan-pak), Jul 2026).
+- **Founder-market fit:** [Inferred]: The team combines mathematics and personal investing-product use, AI research and engineering, and consumer-content distribution experience ([OpenTrade founder note](https://app.opentrade.live/swipe), Jul 2026; [UW researcher bibliography](https://uwgzq.github.io/), 2026; [67 Labs](https://67labs.co/), 2026).
 
 ## Key Risks
 
-- **Product-position discontinuity:** Public materials shifted during July 2026 from AI market briefs and prospective execution toward fantasy positioning and stock-market drills, making prior-product engagement incomparable with the current game product ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Jul 2026; [OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026).
-- **Regulatory boundary:** The site says real-money functionality is unavailable and advisory services require onboarding, agreements, registration, and compliance approval, while the iOS app disclaims broker and adviser status ([OpenTrade site](https://www.opentrade.live/), Jul 2026; [Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Jul 2026).
-- **Model-performance risk:** OpenTrade’s fixed historical scorecard reports a 50% hit rate and nine-point calibration gap and expressly states that it is not a live-performance claim ([Market IQ](https://app.opentrade.live/market-iq), Jul 2026).
-- **Funded competition:** Invstr, StockGro, and Alinea already provide overlapping combinations of games, education, social features, research, and investing workflows with more than $40M, $112.01M, and $15.9M in disclosed equity funding, respectively ([Business Wire](https://www.businesswire.com/news/home/20210317005633/en/Invstr-Unveils-Smarter-Investment-Tools-Combined-with-Secure-Convenient-Commission-Free-Banking-Brokerage-Services), Mar 2021; [CB Insights](https://www.cbinsights.com/company/stockgro/financials), Jul 2026; [Owler](https://www.owler.com/company/alinea-invest/funding), Jul 2026).
-- **Name collision:** A separate London company at opentrade.io uses the OpenTrade name for stablecoin-yield infrastructure and has raised more than $30M, creating search-result and funding-attribution confusion ([CoinDesk](https://www.coindesk.com/business/2026/05/06/opentrade-raises-usd17-million-to-expand-stablecoin-yield-infrastructure), May 2026).
+- **Advice and execution boundary:** Earlier marketing described real-time execution and position sizing, while the current app says it does not execute trades or provide personalized advice; the current product mitigates this with an 18+ rating, external-broker execution, and repeated disclosures ([OpenTrade launch post](https://www.linkedin.com/posts/opentradelive_we-got-into-y-combinator-s26-to-build-opentrade-activity-7476407312811970560-ZVWX), Jul 2026; [Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Aug 2026).
+- **Performance trust:** OpenTrade’s published historical Market IQ scorecard shows a 50% hit rate and a nine-point calibration gap, and the company labels it a fixed historical set rather than a live-performance claim ([OpenTrade Market IQ](https://app.opentrade.live/market-iq), Aug 2026).
+- **Product-positioning changes:** Public materials span an AI trade deck, real-time execution language, fantasy leagues, and a current browser-based training-game product, which can create user-expectation and measurement discontinuities ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Aug 2026; [OpenTrade website](https://www.opentrade.live/), Aug 2026; [founder beta post](https://www.reddit.com/r/betatests/comments/1uzch3b/need_beta_testers_for_a_fantasy_stock_league_game/), Jul 2026).
+- **Competitive replication:** Four funded consumer-finance platforms already offer overlapping education, AI research, portfolios, and social features, while OpenTrade has disclosed no exclusive data or regulatory asset ([Alinea](https://www.alinea-invest.com/), Aug 2026; [Blossom](https://www.blossomsocial.com/), Aug 2026; [Invstr](https://invstr.com/), Aug 2026; [StockGro](https://www.stockgro.club/), Aug 2026).
+- **Name collision:** A separate London company named OpenTrade operates at opentrade.io and raised $17M in May 2026, creating search-result and diligence misattribution risk ([OpenTrade.io announcement](https://www.opentrade.io/blog/opentrade-raises-17m-in-strategic-round-to-expand-stablecoin-yield-infrastructure), May 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | $3B global online-investment-platform market in 2024, projected to $6.6B by 2030 at 14.2% CAGR ([Research and Markets](https://www.researchandmarkets.com/reports/6069218/online-investment-platform-global-strategic), 2025) |
-| SAM | No public data found |
-| Traction | 5x user-base growth in five days and 3x WAU in three days, without absolute baselines ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026); iOS launch July 1, 2026 with insufficient ratings ([Apple App Store](https://apps.apple.com/us/app/opentrade-ai-investing/id6783452203), Jul 2026) |
-| Revenue Signal | No public data found |
-| Founders | Ojas Kandhare (Founder): UW mathematics, CruiseAI developer, 26 GitHub repositories ([OpenTrade](https://app.opentrade.live/swipe), Jul 2026; [GitHub](https://github.com/ojaskandy), Jul 2026); Tario You (Founder): UW, quantitative-finance researcher, LLM-optimization paper co-author ([SignalHire](https://www.signalhire.com/profiles/tario-you/221184343), Jul 2026; [OpenReview](https://openreview.net/pdf?id=fIYFy2sTm8), Nov 2025) |
-| Competitors | Invstr (over $40M raised, revenue unknown, fantasy finance plus brokerage) ([Business Wire](https://www.businesswire.com/news/home/20210317005633/en/Invstr-Unveils-Smarter-Investment-Tools-Combined-with-Secure-Convenient-Commission-Free-Banking-Brokerage-Services), Mar 2021); StockGro ($112.01M raised, revenue unknown, advisory and social education) ([CB Insights](https://www.cbinsights.com/company/stockgro/financials), Jul 2026); Alinea ($15.9M equity raised, revenue unknown, managed portfolios and AI education) ([Owler](https://www.owler.com/company/alinea-invest/funding), Jul 2026) |
+| TAM | $10.9B global online-trading-platform market in 2025; 7.9% projected CAGR through 2033 (Grand View Research, 2026) |
+| SAM | $3.21B North American online-trading-platform market in 2024; 4.61% projected CAGR through 2029 (Orbis Research, 2024) |
+| Traction | 3x weekly active users in three days; 5x total users in five days; 3,411 LinkedIn followers; one X video with 100K+ views (OpenTrade LinkedIn, Jul-Aug 2026) |
+| Revenue Signal | Free iOS app with no paid pricing listed (Apple App Store, Aug 2026) |
+| Founders | Ojas Kandhare (Founder): former UW mathematics student and 67 Labs builder; Tario You (Founder): UW/Ai2 researcher and AI engineer; Dylan Pak (growth co-founder in team posts): UW Foster student and consumer-growth operator (OpenTrade, 67 Labs, and LinkedIn, 2026) |
+| Competitors | Alinea Invest ($38.5M raised, $6M revenue, automated portfolios); Blossom Social (at least C$2.2M raised, C$6.5M annualized revenue projected, verified social portfolios); Invstr (over $40M raised, revenue unknown, education and brokerage); StockGro ($97M raised, revenue unknown, regulated-analyst research) (CB Insights, Dealroom, Business Wire, and Clay, 2021-2026) |
 | Moat Signals | No public data found |
-| Risk Factors | Product-position discontinuity ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026), regulatory dependency ([OpenTrade site](https://www.opentrade.live/), Jul 2026), funded competition ([CB Insights](https://www.cbinsights.com/company/stockgro/financials), Jul 2026) |
-| Founder Reach | Ojas Kandhare: Twitter 479, LinkedIn 639, GitHub top repo 1 star ([TwStalker](https://mobile.twstalker.com/ojaskandy), Jul 2026; [LinkedIn](https://www.linkedin.com/in/ojaskandy), Jul 2026; [GitHub](https://github.com/ojaskandy), Jul 2026); Tario You: no public Twitter found, LinkedIn 5,876, no public GitHub repos found ([LinkedIn](https://www.linkedin.com/posts/tario-you_today-were-introducing-claude-for-investing-activity-7479930890618396673-ir4b), Jul 2026) |
-| Distribution Signals | LinkedIn 1,941 followers and one X video with 100K+ views ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026); public Discord and friend-referral links ([OpenTrade web app](https://app.opentrade.live/), Jul 2026) |
-| Emails | suraj@opentrade.live ([OpenTrade LinkedIn](https://www.linkedin.com/company/opentradelive/), Jul 2026) |
+| Risk Factors | Advice/execution boundary (Apple App Store, Aug 2026), product-positioning changes (OpenTrade website, Aug 2026), name collision with opentrade.io (OpenTrade.io, May 2026) |
+| Founder Reach | Ojas Kandhare: Twitter 479, LinkedIn 639, GitHub data unavailable; Tario You: Twitter unavailable, LinkedIn 4,455, GitHub top repo 1 star; Dylan Pak: Twitter unavailable, LinkedIn 1,917, GitHub data unavailable (TwStalker, LinkedIn, and GitHub, Jul-Aug 2026) |
+| Distribution Signals | 3,411 LinkedIn followers, 100K+ X views on one video, $1,000+ creator contest, and open internship recruiting (OpenTrade LinkedIn, Jul-Aug 2026) |
+| Emails | ojaskandy@gmail.com, tarioy@uw.edu (Ojas Kandhare personal site and Tario You GitHub, Aug 2026) |

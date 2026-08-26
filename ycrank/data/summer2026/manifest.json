@@ -1904,6 +1904,48 @@
     },
     {
       "rank": 47,
+      "name": "Ethos Space Resources",
+      "slug": "ethos-space-resources",
+      "scores": {
+        "CB": 76,
+        "EG": 57,
+        "NR": 65,
+        "PG": 44,
+        "PT": 44,
+        "SL": 41,
+        "VK": 39
+      },
+      "tiers": {
+        "CB": "Invest",
+        "EG": "Neutral",
+        "NR": "Invest",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 52.29,
+      "revenue": null,
+      "teamSize": 2,
+      "ycPartner": "Tyler Bosmeny)",
+      "oneLiner": "We make Silicon on the Moon.",
+      "industry": "Industrials / Industrials -> Aviation and Space",
+      "location": "Los Angeles, CA, USA",
+      "tags": [
+        "Hard Tech",
+        "Exascale Computing",
+        "3D Printing",
+        "Energy",
+        "Aerospace"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-08-26",
+      "tractionRank": 66,
+      "tractionScore": 59,
+      "tractionReason": "Completed NASA contract; $1B customer LOIs"
+    },
+    {
+      "rank": 48,
       "name": "Greypoint Industries",
       "slug": "greypoint-industries",
       "scores": {
@@ -1945,7 +1987,7 @@
       "tractionReason": "Signed Canadian-government counter-UAS contract"
     },
     {
-      "rank": 48,
+      "rank": 49,
       "name": "Hop Aero",
       "slug": "hop-aero",
       "scores": {
@@ -1981,7 +2023,7 @@
       "tractionReason": "$1.25M Air Force contract obligation"
     },
     {
-      "rank": 49,
+      "rank": 50,
       "name": "Traceforce",
       "slug": "traceforce",
       "scores": {
@@ -2023,7 +2065,7 @@
       "tractionReason": "1,500 devices across five enterprises"
     },
     {
-      "rank": 50,
+      "rank": 51,
       "name": "Isengard Industries Inc",
       "slug": "isengard-industries-inc",
       "scores": {
@@ -2063,7 +2105,7 @@
       "tractionReason": "Systems fielded; one product in rate production"
     },
     {
-      "rank": 51,
+      "rank": 52,
       "name": "83 Sciences",
       "slug": "83-sciences",
       "scores": {
@@ -2103,7 +2145,7 @@
       "tractionReason": "Dozens of partnerships in progress"
     },
     {
-      "rank": 52,
+      "rank": 53,
       "name": "Aerogen Systems",
       "slug": "aerogen-systems",
       "scores": {
@@ -2144,7 +2186,7 @@
       "tractionReason": "Talos pilots inside semiconductor tooling"
     },
     {
-      "rank": 53,
+      "rank": 54,
       "name": "Edgerun",
       "slug": "edgerun",
       "scores": {
@@ -2183,7 +2225,7 @@
       "tractionReason": "100 Ukrainian field tests; named integration partner"
     },
     {
-      "rank": 54,
+      "rank": 55,
       "name": "Familiar",
       "slug": "familiar",
       "scores": {
@@ -2224,7 +2266,7 @@
       "tractionReason": "Paid product; current usage undisclosed"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "name": "Induction Labs",
       "slug": "induction-labs",
       "scores": {
@@ -2264,7 +2306,7 @@
       "tractionReason": "Large model trained; internal benchmark only"
     },
     {
-      "rank": 56,
+      "rank": 57,
       "name": "Fabraix",
       "slug": "fabraix",
       "scores": {
@@ -2304,7 +2346,7 @@
       "tractionReason": "Testing agents at dozens of Fortune 500 companies"
     },
     {
-      "rank": 57,
+      "rank": 58,
       "name": "Last Accounting Company",
       "slug": "last-accounting-company",
       "scores": {
@@ -2344,7 +2386,7 @@
       "tractionReason": "Dozens of customers; $80M transaction value processed"
     },
     {
-      "rank": 58,
+      "rank": 59,
       "name": "Pluto",
       "slug": "talentpluto",
       "scores": {
@@ -2384,7 +2426,7 @@
       "tractionReason": "20K professionals and 100 company users"
     },
     {
-      "rank": 59,
+      "rank": 60,
       "name": "OpenVector",
       "slug": "openvector",
       "scores": {
@@ -2425,7 +2467,7 @@
       "tractionReason": "Live use cases across four industries"
     },
     {
-      "rank": 60,
+      "rank": 61,
       "name": "Vestris",
       "slug": "vestris",
       "scores": {
@@ -2464,7 +2506,7 @@
       "tractionReason": "Live title-shop pilot settling millions monthly"
     },
     {
-      "rank": 61,
+      "rank": 62,
       "name": "Ultrasonium",
       "slug": "ultrasonium",
       "scores": {
@@ -2505,7 +2547,7 @@
       "tractionReason": "$305K NSF award; no customer revenue"
     },
     {
-      "rank": 62,
+      "rank": 63,
       "name": "Marble",
       "slug": "joinmarble",
       "scores": {
@@ -2545,7 +2587,7 @@
       "tractionReason": "Live with six named restaurant groups"
     },
     {
-      "rank": 63,
+      "rank": 64,
       "name": "Salem Robotics Inc",
       "slug": "salem-robotics-inc",
       "scores": {
@@ -2587,7 +2629,7 @@
       "tractionReason": "Active nuclear and oil-and-gas contract scoping"
     },
     {
-      "rank": 64,
+      "rank": 65,
       "name": "Avoca Systems",
       "slug": "avoca-systems",
       "scores": {
@@ -2627,7 +2669,7 @@
       "tractionReason": "Several networks covering more than 150 clinics"
     },
     {
-      "rank": 65,
+      "rank": 66,
       "name": "Lyon",
       "slug": "lyon",
       "scores": {
@@ -2668,7 +2710,7 @@
       "tractionReason": "Model deployed at major fintech; insurer engagement"
     },
     {
-      "rank": 66,
+      "rank": 67,
       "name": "Nebula Security",
       "slug": "nebula-security",
       "scores": {
@@ -2710,7 +2752,7 @@
       "tractionReason": "1,393 findings, 98 CVEs, enterprise beta"
     },
     {
-      "rank": 67,
+      "rank": 68,
       "name": "Whitespace",
       "slug": "whitespace",
       "scores": {
@@ -2751,7 +2793,7 @@
       "tractionReason": "Two named customers with active deployments"
     },
     {
-      "rank": 68,
+      "rank": 69,
       "name": "Petrarch",
       "slug": "petrarch",
       "scores": {
@@ -2791,7 +2833,7 @@
       "tractionReason": "Completed enterprise-data transactions; thousands of plans transferred"
     },
     {
-      "rank": 69,
+      "rank": 70,
       "name": "Radley",
       "slug": "radley",
       "scores": {
@@ -2830,7 +2872,7 @@
       "tractionReason": "Pending acquisition adds $4.3M annualized revenue"
     },
     {
-      "rank": 70,
+      "rank": 71,
       "name": "HyperProbe",
       "slug": "hyperprobe",
       "scores": {
@@ -2870,7 +2912,7 @@
       "tractionReason": "Two named production customer testimonials"
     },
     {
-      "rank": 71,
+      "rank": 72,
       "name": "Mireye",
       "slug": "mireye",
       "scores": {
@@ -2910,7 +2952,7 @@
       "tractionReason": "First customers; 300 fields growing 20% weekly"
     },
     {
-      "rank": 72,
+      "rank": 73,
       "name": "TareBio",
       "slug": "tarebio",
       "scores": {
@@ -2950,7 +2992,7 @@
       "tractionReason": "Mouse lymphoma result; no commercial customers"
     },
     {
-      "rank": 73,
+      "rank": 74,
       "name": "Olam Labs",
       "slug": "olam-labs",
       "scores": {
@@ -2991,7 +3033,7 @@
       "tractionReason": "Thousands of users and 1,000 daily matches"
     },
     {
-      "rank": 74,
+      "rank": 75,
       "name": "Synapse Semiconductor",
       "slug": "synapse-semiconductor",
       "scores": {
@@ -3033,7 +3075,7 @@
       "tractionReason": "Fabricated and measured working hardware"
     },
     {
-      "rank": 75,
+      "rank": 76,
       "name": "Stoa",
       "slug": "stoa",
       "scores": {
@@ -3073,48 +3115,6 @@
       "tractionRank": 153,
       "tractionScore": 39,
       "tractionReason": "$300M RFQs; executed volume undisclosed"
-    },
-    {
-      "rank": 76,
-      "name": "Ethos Space Resources",
-      "slug": "ethos-space-resources",
-      "scores": {
-        "CB": null,
-        "EG": 57,
-        "NR": 65,
-        "PG": 44,
-        "PT": 44,
-        "SL": 41,
-        "VK": 39
-      },
-      "tiers": {
-        "CB": null,
-        "EG": "Neutral",
-        "NR": "Invest",
-        "PG": "Pass",
-        "PT": "Pass",
-        "SL": "Pass",
-        "VK": "Pass"
-      },
-      "avg": 48.33,
-      "revenue": null,
-      "teamSize": 2,
-      "ycPartner": "Tyler Bosmeny)",
-      "oneLiner": "We make Silicon on the Moon.",
-      "industry": "Industrials / Industrials -> Aviation and Space",
-      "location": "Los Angeles, CA, USA",
-      "tags": [
-        "Hard Tech",
-        "Exascale Computing",
-        "3D Printing",
-        "Energy",
-        "Aerospace"
-      ],
-      "scoreTips": {},
-      "memoDate": "2026-08-26",
-      "tractionRank": 66,
-      "tractionScore": 59,
-      "tractionReason": "Completed NASA contract; $1B customer LOIs"
     },
     {
       "rank": 77,
@@ -9585,7 +9585,7 @@
         "CB": null,
         "EG": 0.6,
         "NR": 0.78,
-        "PG": 0.58,
+        "PG": 0.57,
         "PT": 0.67,
         "SL": 0.49,
         "VK": 0.66
@@ -9618,7 +9618,7 @@
     {
       "persona": "PG",
       "values": {
-        "CB": 0.58,
+        "CB": 0.57,
         "EG": 0.68,
         "NR": 0.65,
         "PG": null,

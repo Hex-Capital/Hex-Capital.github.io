@@ -23,6 +23,10 @@
   "slideImage": null,
   "memoGeneratedAt": "2026-08-26T05:06:20.741Z",
   "evalScores": {
+    "cyan-banister": {
+      "score": 76,
+      "tier": "Invest"
+    },
     "elad-gil": {
       "score": 57,
       "tier": "Neutral"
@@ -49,7 +53,7 @@
     }
   },
   "consolidatedScores": {
-    "CB": null,
+    "CB": 76,
     "EG": 57,
     "NR": 65,
     "PG": 44,
@@ -57,8 +61,8 @@
     "SL": 41,
     "VK": 39
   },
-  "consolidatedAvg": 48.33,
-  "consolidatedRank": 76,
+  "consolidatedAvg": 52.29,
+  "consolidatedRank": 47,
   "traction": {
     "tractionRank": 66,
     "tractionScore": 59,

@@ -219,7 +219,7 @@
                   <div class="text-xs text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
                 </td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
-                  x-text="formatRevenue(row.revenue)"></td>
+                  x-text="formatRevenue(row.revenue, row.hasSlide)"></td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border hidden lg:table-cell whitespace-nowrap"
                   x-text="formatMemoDate(row.memoDate)"></td>
                 <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[120px]"
@@ -324,7 +324,7 @@
                           </div>
                           <div class="v1-meta-cell">
                             <span class="v1-meta-label">arr</span>
-                            <span class="v1-meta-value" x-text="formatRevenue(mobileCards[slideIdx].revenue)"></span>
+                            <span class="v1-meta-value" x-text="formatRevenue(mobileCards[slideIdx].revenue, mobileCards[slideIdx].hasSlide)"></span>
                           </div>
                         </div>
                       </div>
@@ -471,7 +471,7 @@
             </template>
             <template x-if="!companyData.slideImage">
               <div class="border border-claude-border px-4 py-6 text-center text-claude-dim text-xs">
-                <span class="text-sm">Waiting for demo day slide</span>
+                <span class="text-sm">no slide</span>
               </div>
             </template>
           </div>

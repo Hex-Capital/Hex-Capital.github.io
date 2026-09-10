@@ -9,7 +9,8 @@ renderer.link = function({ href, title, tokens }) {
 };
 marked.setOptions({ renderer });
 
-function formatRevenue(val) {
+function formatRevenue(val, hasSlide) {
+  if (hasSlide === false) return 'no slide';
   if (val == null) return '-';
   if (val >= 1_000_000) return '$' + (val / 1_000_000).toFixed(1).replace(/\.0$/, '') + 'M';
   if (val >= 1_000) return '$' + Math.round(val / 1_000) + 'K';

@@ -19,7 +19,7 @@
     "Construction",
     "Aerospace"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/cosmic-robotics.jpg",
   "memoGeneratedAt": "2026-08-11T04:52:20.301Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 59,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 64,
-    "tractionReason": "Tens of thousands of solar panels installed"
+    "tractionRank": 53,
+    "tractionScore": 66,
+    "tractionReason": "Tens of thousands of panels installed"
   },
   "paths": {
     "memo": "summer2026/memos/cosmic-robotics.md",

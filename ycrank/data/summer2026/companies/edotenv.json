@@ -17,7 +17,7 @@
     "Reinforcement Learning",
     "Time Series"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/edotenv.jpg",
   "memoGeneratedAt": "2026-08-26T05:17:00.436Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 193,
+    "tractionRank": 198,
     "tractionScore": 27,
-    "tractionReason": "39 Hacker News points; unnamed collaborations"
+    "tractionReason": "39 Hacker News points and four GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/edotenv.md",

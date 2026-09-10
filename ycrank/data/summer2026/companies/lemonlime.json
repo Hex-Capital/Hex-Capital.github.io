@@ -18,7 +18,7 @@
     "Workflow Automation",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/lemonlime.jpg",
   "memoGeneratedAt": "2026-08-11T05:30:24.747Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.29,
   "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 49,
-    "tractionReason": "MRR quadrupled in seven days; absolute amount undisclosed"
+    "tractionRank": 92,
+    "tractionScore": 58,
+    "tractionReason": "MRR quadrupled in seven days; absolute figure undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/lemonlime.md",

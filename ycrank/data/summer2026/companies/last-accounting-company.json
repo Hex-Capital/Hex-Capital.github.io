@@ -18,7 +18,7 @@
     "Fintech",
     "Finance"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/last-accounting-company.jpg",
   "memoGeneratedAt": "2026-08-11T04:55:06.145Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 58,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 72,
-    "tractionReason": "Dozens of customers; $80M transaction value processed"
+    "tractionRank": 29,
+    "tractionScore": 75,
+    "tractionReason": "$80M transaction value across dozens of customers"
   },
   "paths": {
     "memo": "summer2026/memos/last-accounting-company.md",

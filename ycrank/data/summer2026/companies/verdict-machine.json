@@ -18,7 +18,7 @@
     "Security",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/verdict-machine.jpg",
   "memoGeneratedAt": "2026-08-11T04:40:32.448Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 45.86,
-  "consolidatedRank": 102,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 85,
-    "tractionScore": 56,
-    "tractionReason": "Bank evaluations and billion-dollar-system POCs"
+    "tractionRank": 137,
+    "tractionScore": 49,
+    "tractionReason": "Financial-institution POCs and large-bank evaluations"
   },
   "paths": {
     "memo": "summer2026/memos/verdict-machine.md",

@@ -20,7 +20,7 @@
     "Renewable Energy",
     "ClimateTech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/rise-reforming.jpg",
   "memoGeneratedAt": "2026-08-11T05:28:34.131Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,8 +64,8 @@
   "consolidatedAvg": 52.86,
   "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 39,
+    "tractionRank": 95,
+    "tractionScore": 58,
     "tractionReason": "Binding supply agreement and conditional offtake"
   },
   "paths": {

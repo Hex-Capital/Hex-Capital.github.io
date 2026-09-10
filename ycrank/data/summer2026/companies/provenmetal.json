@@ -18,7 +18,7 @@
     "Manufacturing",
     "Electronics"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/provenmetal.jpg",
   "memoGeneratedAt": "2026-08-11T04:51:40.038Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 22
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 191,
+  "consolidatedRank": 189,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 39,
-    "tractionReason": "Five customer LOIs after 30 conversations"
+    "tractionRank": 147,
+    "tractionScore": 47,
+    "tractionReason": "Five LOIs after 30 industry conversations"
   },
   "paths": {
     "memo": "summer2026/memos/provenmetal.md",

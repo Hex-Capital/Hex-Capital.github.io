@@ -20,7 +20,7 @@
     "Trading",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/arbital.jpg",
   "memoGeneratedAt": "2026-08-11T05:03:17.334Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 22
   },
   "consolidatedAvg": 47,
-  "consolidatedRank": 90,
+  "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 83,
-    "tractionReason": "2,600 traders; $377M monthly trading volume"
+    "tractionRank": 9,
+    "tractionScore": 89,
+    "tractionReason": "$1.3B trading volume from 2,600 traders"
   },
   "paths": {
     "memo": "summer2026/memos/arbital.md",

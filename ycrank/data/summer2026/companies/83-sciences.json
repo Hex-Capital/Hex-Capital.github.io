@@ -18,7 +18,7 @@
     "Advanced Materials",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/83-sciences.jpg",
   "memoGeneratedAt": "2026-08-11T04:44:48.286Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,7 +63,7 @@
   "consolidatedRank": 52,
   "traction": {
     "tractionRank": 125,
-    "tractionScore": 46,
+    "tractionScore": 52,
     "tractionReason": "Dozens of partnerships in progress"
   },
   "paths": {

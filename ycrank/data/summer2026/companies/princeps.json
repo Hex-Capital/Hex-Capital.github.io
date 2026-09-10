@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.57,
-  "consolidatedRank": 217,
+  "consolidatedRank": 216,
   "traction": {
-    "tractionRank": 195,
-    "tractionScore": 26,
-    "tractionReason": "One working relationship; no policies or revenue"
+    "tractionRank": 205,
+    "tractionScore": 24,
+    "tractionReason": "One working relationship; no policies disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/princeps.md",

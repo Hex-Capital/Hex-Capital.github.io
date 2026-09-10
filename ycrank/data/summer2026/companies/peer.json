@@ -17,7 +17,7 @@
     "Digital Freight Brokerage",
     "Logistics"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/peer.jpg",
   "memoGeneratedAt": "2026-08-11T05:15:15.397Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 29.29,
   "consolidatedRank": 225,
   "traction": {
-    "tractionRank": 234,
-    "tractionScore": 2,
-    "tractionReason": "Current freight product has no disclosed traction"
+    "tractionRank": 222,
+    "tractionScore": 6,
+    "tractionReason": "No current-product traction disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/peer.md",

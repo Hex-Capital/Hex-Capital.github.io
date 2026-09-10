@@ -58,11 +58,11 @@
     "VK": 27
   },
   "consolidatedAvg": 33.86,
-  "consolidatedRank": 210,
+  "consolidatedRank": 209,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 28,
-    "tractionReason": "Current industrial-recovery product launched"
+    "tractionRank": 193,
+    "tractionScore": 30,
+    "tractionReason": "Current product launched; no deployments disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/dawn-industries.md",

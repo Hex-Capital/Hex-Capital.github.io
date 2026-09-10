@@ -18,7 +18,7 @@
     "B2B",
     "Energy"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/edviro.jpg",
   "memoGeneratedAt": "2026-08-11T04:28:13.415Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 39
   },
   "consolidatedAvg": 55.14,
-  "consolidatedRank": 29,
+  "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 66,
-    "tractionReason": "$20K ARR; seven live sites and 29 expanding"
+    "tractionRank": 50,
+    "tractionScore": 67,
+    "tractionReason": "$20K ARR with seven live sites"
   },
   "paths": {
     "memo": "summer2026/memos/edviro.md",

@@ -20,7 +20,7 @@
     "Semiconductors",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/lamb-labs.jpg",
   "memoGeneratedAt": "2026-08-11T04:45:43.531Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 41.86,
   "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 215,
-    "tractionScore": 16,
-    "tractionReason": "Hardware benchmark; no customers"
+    "tractionRank": 154,
+    "tractionScore": 46,
+    "tractionReason": "Working 7B-model dev board; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/lamb-labs.md",

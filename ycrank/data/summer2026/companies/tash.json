@@ -17,7 +17,7 @@
     "Consumer",
     "Investing"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/tash.jpg",
   "memoGeneratedAt": "2026-08-11T05:42:47.365Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 19
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 199,
+  "consolidatedRank": 198,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 31,
-    "tractionReason": "Current product waitlist; prior volume excluded"
+    "tractionRank": 153,
+    "tractionScore": 46,
+    "tractionReason": "Current waitlist; prior exchange processed $22K volume"
   },
   "paths": {
     "memo": "summer2026/memos/tash.md",

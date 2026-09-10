@@ -4,7 +4,7 @@
   "oneLiner": "",
   "metadata": {},
   "tags": [],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/noril1.jpg",
   "memoGeneratedAt": "2026-08-11T05:05:19.289Z",
   "evalScores": {
     "cyan-banister": {
@@ -46,9 +46,9 @@
     "VK": 25
   },
   "consolidatedAvg": 26.57,
-  "consolidatedRank": 233,
+  "consolidatedRank": 232,
   "traction": {
-    "tractionRank": 232,
+    "tractionRank": 229,
     "tractionScore": 3,
     "tractionReason": "No traction sections found"
   },

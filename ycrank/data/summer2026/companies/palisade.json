@@ -19,7 +19,7 @@
     "Sales",
     "E-commerce"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/palisade.jpg",
   "memoGeneratedAt": "2026-08-26T05:20:10.832Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 26
   },
   "consolidatedAvg": 46,
-  "consolidatedRank": 101,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 72,
-    "tractionReason": "$2.7M marketplace GMV since batch start"
+    "tractionRank": 27,
+    "tractionScore": 76,
+    "tractionReason": "$2.7M marketplace GMV with two production customers"
   },
   "paths": {
     "memo": "summer2026/memos/palisade.md",

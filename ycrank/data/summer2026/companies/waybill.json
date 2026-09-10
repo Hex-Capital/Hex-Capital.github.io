@@ -18,7 +18,7 @@
     "Logistics",
     "Procurement"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/waybill.jpg",
   "memoGeneratedAt": "2026-08-26T05:11:03.976Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 173,
+  "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 39,
-    "tractionReason": "Large procurement requests during first two weeks"
+    "tractionRank": 143,
+    "tractionScore": 48,
+    "tractionReason": "Live procurement requests for titanium and aircraft"
   },
   "paths": {
     "memo": "summer2026/memos/waybill.md",

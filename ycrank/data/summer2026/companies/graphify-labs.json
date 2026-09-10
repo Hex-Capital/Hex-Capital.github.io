@@ -18,7 +18,7 @@
     "Reinforcement Learning",
     "Open Source"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/graphify-labs.jpg",
   "memoGeneratedAt": "2026-08-11T05:08:24.242Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 41
   },
   "consolidatedAvg": 54.14,
-  "consolidatedRank": 33,
+  "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 76,
-    "tractionReason": "105K GitHub stars and 4.7M downloads"
+    "tractionRank": 32,
+    "tractionScore": 74,
+    "tractionReason": "105K stars, 4.7M downloads, four production users"
   },
   "paths": {
     "memo": "summer2026/memos/graphify-labs.md",

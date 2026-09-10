@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.71,
   "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 50,
-    "tractionReason": "1,220 weekly downloads and 377 GitHub stars"
+    "tractionRank": 76,
+    "tractionScore": 61,
+    "tractionReason": "377 stars and 1,220 weekly downloads"
   },
   "paths": {
     "memo": "summer2026/memos/vendo.md",

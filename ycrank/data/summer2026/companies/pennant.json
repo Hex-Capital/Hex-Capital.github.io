@@ -18,7 +18,7 @@
     "Investing",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/pennant.jpg",
   "memoGeneratedAt": "2026-08-26T05:11:05.421Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 24
   },
   "consolidatedAvg": 47.14,
-  "consolidatedRank": 89,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 66,
-    "tractionReason": "Three paying enterprise customer categories"
+    "tractionRank": 40,
+    "tractionScore": 69,
+    "tractionReason": "Multiple paying enterprise governance customers"
   },
   "paths": {
     "memo": "summer2026/memos/pennant.md",

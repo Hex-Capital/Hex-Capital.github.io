@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 190,
+  "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 54,
-    "tractionReason": "Three deployed law-firm systems"
+    "tractionRank": 106,
+    "tractionScore": 55,
+    "tractionReason": "Three deployed legal-system case studies"
   },
   "paths": {
     "memo": "summer2026/memos/perceptron-ml.md",

@@ -17,7 +17,7 @@
     "Hard Tech",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/daqstra.jpg",
   "memoGeneratedAt": "2026-08-11T16:32:34.064Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 57.86,
   "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 56,
-    "tractionReason": "Active aerospace programs and signed industrial pilot"
+    "tractionRank": 85,
+    "tractionScore": 60,
+    "tractionReason": "Active aerospace programs and signed energy pilot"
   },
   "paths": {
     "memo": "summer2026/memos/daqstra.md",

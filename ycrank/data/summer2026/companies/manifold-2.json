@@ -20,7 +20,7 @@
     "Logistics",
     "Supply Chain"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/manifold-2.jpg",
   "memoGeneratedAt": "2026-08-11T05:16:31.369Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,8 +64,8 @@
   "consolidatedAvg": 53,
   "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 137,
-    "tractionScore": 43,
+    "tractionRank": 145,
+    "tractionScore": 48,
     "tractionReason": "One warehouse robot completing 150 picks hourly"
   },
   "paths": {

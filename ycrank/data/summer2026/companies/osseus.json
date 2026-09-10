@@ -61,11 +61,11 @@
     "VK": 30
   },
   "consolidatedAvg": 37.43,
-  "consolidatedRank": 187,
+  "consolidatedRank": 185,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 42,
-    "tractionReason": "R&D team onboarding underway"
+    "tractionRank": 177,
+    "tractionScore": 41,
+    "tractionReason": "R&D-team onboarding announced without count"
   },
   "paths": {
     "memo": "summer2026/memos/osseus.md",

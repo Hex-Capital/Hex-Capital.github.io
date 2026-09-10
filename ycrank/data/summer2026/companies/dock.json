@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/dock.jpg",
   "memoGeneratedAt": "2026-08-11T04:39:17.397Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 26
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 197,
+  "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 208,
-    "tractionScore": 20,
-    "tractionReason": "One GitHub follower; no commercial usage"
+    "tractionRank": 226,
+    "tractionScore": 3,
+    "tractionReason": "One GitHub star and no disclosed users"
   },
   "paths": {
     "memo": "summer2026/memos/dock.md",

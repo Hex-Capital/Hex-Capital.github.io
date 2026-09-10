@@ -20,7 +20,7 @@
     "Procurement",
     "Healthcare IT"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/floracene.jpg",
   "memoGeneratedAt": "2026-08-11T05:27:58.765Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 19
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 206,
+  "consolidatedRank": 205,
   "traction": {
-    "tractionRank": 211,
-    "tractionScore": 18,
-    "tractionReason": "YC participation only; no customers"
+    "tractionRank": 219,
+    "tractionScore": 10,
+    "tractionReason": "YC participation only; no traction"
   },
   "paths": {
     "memo": "summer2026/memos/floracene.md",

@@ -19,7 +19,7 @@
     "Manufacturing",
     "Semiconductors"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/aerogen-systems.jpg",
   "memoGeneratedAt": "2026-08-26T05:15:59.699Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,8 +64,8 @@
   "consolidatedRank": 53,
   "traction": {
     "tractionRank": 126,
-    "tractionScore": 46,
-    "tractionReason": "Talos pilots inside semiconductor tooling"
+    "tractionScore": 51,
+    "tractionReason": "Semiconductor-tooling pilots underway"
   },
   "paths": {
     "memo": "summer2026/memos/aerogen-systems.md",

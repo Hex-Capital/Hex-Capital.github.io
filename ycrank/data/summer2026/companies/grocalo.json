@@ -18,7 +18,7 @@
     "Entertainment",
     "Creator Economy"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/grocalo.jpg",
   "memoGeneratedAt": "2026-08-26T05:17:15.198Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.14,
   "consolidatedRank": 113,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 69,
-    "tractionReason": "Six creator clients generated 2B views"
+    "tractionRank": 30,
+    "tractionScore": 74,
+    "tractionReason": "Six clients generated two billion views"
   },
   "paths": {
     "memo": "summer2026/memos/grocalo.md",

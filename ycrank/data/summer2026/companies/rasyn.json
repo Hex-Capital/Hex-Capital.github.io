@@ -18,7 +18,7 @@
     "Deep Learning",
     "Biotech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/rasyn.jpg",
   "memoGeneratedAt": "2026-08-11T05:21:46.492Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 37.43,
-  "consolidatedRank": 188,
+  "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 43,
-    "tractionReason": "Current chemistry product launched live"
+    "tractionRank": 187,
+    "tractionScore": 35,
+    "tractionReason": "Marigold launched; no current users disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/rasyn.md",

@@ -61,9 +61,9 @@
   "consolidatedAvg": 41.71,
   "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 42,
-    "tractionReason": "Early access onboarding a small team cohort"
+    "tractionRank": 129,
+    "tractionScore": 51,
+    "tractionReason": "Onboarding a small group of hardware teams"
   },
   "paths": {
     "memo": "summer2026/memos/hilstart.md",

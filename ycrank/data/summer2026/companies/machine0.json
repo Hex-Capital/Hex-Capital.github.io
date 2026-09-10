@@ -17,7 +17,7 @@
     "Developer Tools",
     "Cloud Computing"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/machine0.jpg",
   "memoGeneratedAt": "2026-08-11T05:10:49.741Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 43.57,
   "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 48,
-    "tractionReason": "Two named customers and monetized compute usage"
+    "tractionRank": 111,
+    "tractionScore": 54,
+    "tractionReason": "Two named cloud-computer customers"
   },
   "paths": {
     "memo": "summer2026/memos/machine0.md",

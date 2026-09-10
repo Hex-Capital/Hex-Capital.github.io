@@ -19,7 +19,7 @@
     "Infrastructure",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/onetriangle.jpg",
   "memoGeneratedAt": "2026-08-26T05:26:46.841Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.14,
   "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 30,
-    "tractionReason": "Live pricing; five launch votes; no users"
+    "tractionRank": 186,
+    "tractionScore": 35,
+    "tractionReason": "Paid inference live; no usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/onetriangle.md",

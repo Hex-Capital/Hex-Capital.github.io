@@ -58,11 +58,11 @@
     "VK": 18
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 220,
+  "consolidatedRank": 219,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 61,
-    "tractionReason": "$3.4M managed assets; 2,400 analyses"
+    "tractionRank": 94,
+    "tractionScore": 58,
+    "tractionReason": "$3.4M managed assets and 2,400 analyses"
   },
   "paths": {
     "memo": "summer2026/memos/ekpa.md",

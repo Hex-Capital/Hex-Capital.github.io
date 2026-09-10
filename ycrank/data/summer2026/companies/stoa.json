@@ -20,7 +20,7 @@
     "Infrastructure",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/stoa.jpg",
   "memoGeneratedAt": "2026-08-11T05:21:12.448Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 48.71,
-  "consolidatedRank": 76,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 153,
-    "tractionScore": 39,
-    "tractionReason": "$300M RFQs; executed volume undisclosed"
+    "tractionRank": 57,
+    "tractionScore": 65,
+    "tractionReason": "$300M RFQs routed during first month"
   },
   "paths": {
     "memo": "summer2026/memos/stoa.md",

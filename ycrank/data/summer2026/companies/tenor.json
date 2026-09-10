@@ -18,7 +18,7 @@
     "Automation",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/tenor.jpg",
   "memoGeneratedAt": "2026-08-26T05:12:50.087Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 34.57,
-  "consolidatedRank": 207,
+  "consolidatedRank": 206,
   "traction": {
-    "tractionRank": 228,
-    "tractionScore": 6,
-    "tractionReason": "Launch and follower count only"
+    "tractionRank": 209,
+    "tractionScore": 20,
+    "tractionReason": "Launch and 392 followers; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/tenor.md",

@@ -19,7 +19,7 @@
     "Energy",
     "Architecture"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/marengo.jpg",
   "memoGeneratedAt": "2026-08-11T04:55:15.735Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 40.29,
-  "consolidatedRank": 160,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 51,
-    "tractionReason": "Working with large data-center builders"
+    "tractionRank": 134,
+    "tractionScore": 50,
+    "tractionReason": "Working with unnamed large data-center builders"
   },
   "paths": {
     "memo": "summer2026/memos/marengo.md",

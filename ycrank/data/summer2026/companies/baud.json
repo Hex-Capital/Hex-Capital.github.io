@@ -18,7 +18,7 @@
     "Semiconductors",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/baud.jpg",
   "memoGeneratedAt": "2026-08-11T06:08:22.109Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 55.86,
   "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 53,
+    "tractionRank": 127,
+    "tractionScore": 51,
     "tractionReason": "Live FPGA service with active design partners"
   },
   "paths": {

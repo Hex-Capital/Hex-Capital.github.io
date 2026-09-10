@@ -18,7 +18,7 @@
     "Healthcare",
     "Mental Health"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/allia-health.jpg",
   "memoGeneratedAt": "2026-08-26T05:07:32.780Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 58.43,
   "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 84,
-    "tractionReason": "8K clinicians; $50M signed annualized care capacity"
+    "tractionRank": 10,
+    "tractionScore": 88,
+    "tractionReason": "8,000 clinicians; $50M contracted annualized care capacity"
   },
   "paths": {
     "memo": "summer2026/memos/allia-health.md",

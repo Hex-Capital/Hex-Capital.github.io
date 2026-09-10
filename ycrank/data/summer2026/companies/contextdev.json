@@ -18,7 +18,7 @@
     "AI",
     "APIs"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/contextdev.jpg",
   "memoGeneratedAt": "2026-08-11T05:19:57.291Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 47.57,
-  "consolidatedRank": 84,
+  "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 81,
-    "tractionReason": "400 customers, 5K developers, 11K weekly downloads"
+    "tractionRank": 17,
+    "tractionScore": 83,
+    "tractionReason": "400 customers, 5,000 developers, 11K weekly downloads"
   },
   "paths": {
     "memo": "summer2026/memos/contextdev.md",

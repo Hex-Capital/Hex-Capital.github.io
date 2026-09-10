@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 200,
+  "consolidatedRank": 199,
   "traction": {
-    "tractionRank": 223,
-    "tractionScore": 11,
-    "tractionReason": "YC acceptance and press only"
+    "tractionRank": 210,
+    "tractionScore": 20,
+    "tractionReason": "YC acceptance and press; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/risklytics.md",

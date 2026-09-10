@@ -18,7 +18,7 @@
     "Telehealth",
     "Therapeutics"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/ronanrx-inc.jpg",
   "memoGeneratedAt": "2026-08-11T04:55:30.841Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 23
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 196,
+  "consolidatedRank": 194,
   "traction": {
-    "tractionRank": 224,
-    "tractionScore": 10,
-    "tractionReason": "65 launch votes; no subscribers disclosed"
+    "tractionRank": 183,
+    "tractionScore": 40,
+    "tractionReason": "Subscription available; 65 Launch YC votes"
   },
   "paths": {
     "memo": "summer2026/memos/ronanrx-inc.md",

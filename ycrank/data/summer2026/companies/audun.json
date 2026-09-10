@@ -19,7 +19,7 @@
     "Finance",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/audun.jpg",
   "memoGeneratedAt": "2026-08-11T05:24:07.787Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,10 +61,10 @@
     "VK": 17
   },
   "consolidatedAvg": 27.43,
-  "consolidatedRank": 230,
+  "consolidatedRank": 229,
   "traction": {
-    "tractionRank": 206,
-    "tractionScore": 21,
+    "tractionRank": 227,
+    "tractionScore": 3,
     "tractionReason": "Creditor walkthrough live; debtor portal forthcoming"
   },
   "paths": {

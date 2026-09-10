@@ -18,7 +18,7 @@
     "Legal",
     "LegalTech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/erinys.jpg",
   "memoGeneratedAt": "2026-08-11T05:42:36.810Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 194,
+  "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 210,
-    "tractionScore": 19,
-    "tractionReason": "Public launch soliciting lawyer referrals"
+    "tractionRank": 215,
+    "tractionScore": 15,
+    "tractionReason": "Public launch soliciting referrals; no clients"
   },
   "paths": {
     "memo": "summer2026/memos/erinys.md",

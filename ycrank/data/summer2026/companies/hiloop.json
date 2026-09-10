@@ -20,7 +20,7 @@
     "Reinforcement Learning",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/hiloop.jpg",
   "memoGeneratedAt": "2026-08-11T04:32:45.039Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 46.57,
-  "consolidatedRank": 95,
+  "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 35,
-    "tractionReason": "One organization displayed as trusted user"
+    "tractionRank": 162,
+    "tractionScore": 44,
+    "tractionReason": "One displayed user and 4,188 internal experiments"
   },
   "paths": {
     "memo": "summer2026/memos/hiloop.md",

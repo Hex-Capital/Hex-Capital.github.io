@@ -20,7 +20,7 @@
     "Climate",
     "Agriculture"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/molagri.jpg",
   "memoGeneratedAt": "2026-08-11T05:13:05.413Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 38
   },
   "consolidatedAvg": 47.57,
-  "consolidatedRank": 86,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 40,
-    "tractionReason": "One signed grower LOI"
+    "tractionRank": 146,
+    "tractionScore": 47,
+    "tractionReason": "One signed grower LOI; additional pipeline"
   },
   "paths": {
     "memo": "summer2026/memos/molagri.md",

@@ -18,7 +18,7 @@
     "Construction",
     "Workflow Automation"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/flowmanual.jpg",
   "memoGeneratedAt": "2026-08-11T05:11:25.054Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 30.86,
   "consolidatedRank": 221,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 27,
-    "tractionReason": "Hundreds interviewed; no paying customers"
+    "tractionRank": 207,
+    "tractionScore": 20,
+    "tractionReason": "Hundreds interviewed; no customers disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/flowmanual.md",

@@ -20,7 +20,7 @@
     "Skincare",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/lumeria.jpg",
   "memoGeneratedAt": "2026-08-11T04:53:11.112Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 41.57,
   "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 139,
+    "tractionRank": 170,
     "tractionScore": 43,
-    "tractionReason": "Beta users, preorders, and two clinical partnerships"
+    "tractionReason": "Initial beta users and two clinical partnerships"
   },
   "paths": {
     "memo": "summer2026/memos/lumeria.md",

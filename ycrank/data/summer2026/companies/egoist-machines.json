@@ -18,7 +18,7 @@
     "AI Assistant",
     "Databases"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/egoist-machines.jpg",
   "memoGeneratedAt": "2026-08-11T05:40:26.574Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 23
   },
   "consolidatedAvg": 36,
-  "consolidatedRank": 201,
+  "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 32,
-    "tractionReason": "Waitlist opened; product advertised free"
+    "tractionRank": 185,
+    "tractionScore": 40,
+    "tractionReason": "Waitlist open; no user count"
   },
   "paths": {
     "memo": "summer2026/memos/egoist-machines.md",

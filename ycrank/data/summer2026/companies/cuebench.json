@@ -1,0 +1,80 @@
+{
+  "slug": "cuebench",
+  "name": "CueBench",
+  "oneLiner": "RL post-training for science reasoning and performance engineering",
+  "metadata": {
+    "website": "https://cuebench.dev",
+    "yc_page": "https://www.ycombinator.com/companies/cuebench",
+    "batch": "Summer 2026",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Reinforcement Learning, Data Engineering",
+    "yc_partner": "Vivian Midha Shen",
+    "emails": "careers@cuebench.dev, support@cuebench.dev, security@cuebench.dev, rishan@cuebench.dev"
+  },
+  "tags": [
+    "Reinforcement Learning",
+    "Data Engineering"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-09-10T14:23:29.198Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 44,
+    "NR": 34,
+    "PG": 36,
+    "PT": 33,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 204,
+  "traction": {
+    "tractionRank": 196,
+    "tractionScore": 27,
+    "tractionReason": "Running MVP; no customer traction"
+  },
+  "paths": {
+    "memo": "summer2026/memos/cuebench.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/cuebench.md",
+      "elad-gil": "summer2026/evals/elad-gil/cuebench.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/cuebench.md",
+      "paul-graham": "summer2026/evals/paul-graham/cuebench.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/cuebench.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/cuebench.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/cuebench.md"
+    }
+  }
+}

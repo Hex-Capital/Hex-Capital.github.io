@@ -18,7 +18,7 @@
     "DevSecOps",
     "SaaS"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/hyperprobe.jpg",
   "memoGeneratedAt": "2026-08-11T04:42:12.636Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 49.29,
-  "consolidatedRank": 71,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 57,
-    "tractionReason": "Two named production customer testimonials"
+    "tractionRank": 51,
+    "tractionScore": 66,
+    "tractionReason": "Named production customers at CheQ and Housing.com"
   },
   "paths": {
     "memo": "summer2026/memos/hyperprobe.md",

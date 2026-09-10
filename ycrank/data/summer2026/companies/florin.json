@@ -18,7 +18,7 @@
     "Insurance",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/florin.jpg",
   "memoGeneratedAt": "2026-08-11T04:38:52.039Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 34
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 203,
+  "consolidatedRank": 202,
   "traction": {
-    "tractionRank": 212,
-    "tractionScore": 18,
-    "tractionReason": "Product launch; no policies or customers"
+    "tractionRank": 220,
+    "tractionScore": 10,
+    "tractionReason": "Product launch only; no policies or customers"
   },
   "paths": {
     "memo": "summer2026/memos/florin.md",

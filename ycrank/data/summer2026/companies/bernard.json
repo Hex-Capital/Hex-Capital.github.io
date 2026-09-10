@@ -17,7 +17,7 @@
     "Home Services",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/bernard.jpg",
   "memoGeneratedAt": "2026-08-26T05:22:40.892Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 43.71,
   "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 61,
-    "tractionReason": "Large servicers handle thousands of daily calls"
+    "tractionRank": 46,
+    "tractionScore": 67,
+    "tractionReason": "Large servicers use Bernard for thousands of daily calls"
   },
   "paths": {
     "memo": "summer2026/memos/bernard.md",

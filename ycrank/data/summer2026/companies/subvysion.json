@@ -17,7 +17,7 @@
     "Augmented Reality",
     "Construction"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/subvysion.jpg",
   "memoGeneratedAt": "2026-08-11T04:32:47.889Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 44.86,
   "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 59,
-    "tractionReason": "Contracts secured; live on U.S. construction sites"
+    "tractionRank": 84,
+    "tractionScore": 60,
+    "tractionReason": "Contracts and live construction sites across America"
   },
   "paths": {
     "memo": "summer2026/memos/subvysion.md",

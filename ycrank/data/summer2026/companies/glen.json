@@ -18,7 +18,7 @@
     "Generative AI",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/glen.jpg",
   "memoGeneratedAt": "2026-08-11T05:20:07.440Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 24
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 184,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 90,
-    "tractionScore": 55,
-    "tractionReason": "Three named production-user testimonials"
+    "tractionRank": 103,
+    "tractionScore": 56,
+    "tractionReason": "Three named user testimonials in production onboarding"
   },
   "paths": {
     "memo": "summer2026/memos/glen.md",

@@ -17,7 +17,7 @@
     "Robotic Process Automation",
     "Sustainability"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/grip.jpg",
   "memoGeneratedAt": "2026-08-11T04:42:42.600Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 182,
+  "consolidatedRank": 181,
   "traction": {
-    "tractionRank": 213,
-    "tractionScore": 17,
-    "tractionReason": "Product announced; no pilots or deployments"
+    "tractionRank": 216,
+    "tractionScore": 10,
+    "tractionReason": "Product announced; no customers or pilots"
   },
   "paths": {
     "memo": "summer2026/memos/grip.md",

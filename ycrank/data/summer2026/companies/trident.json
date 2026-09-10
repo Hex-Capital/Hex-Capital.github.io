@@ -18,7 +18,7 @@
     "Security",
     "Cybersecurity"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/trident.jpg",
   "memoGeneratedAt": "2026-08-11T05:48:58.548Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 185,
+  "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 59,
-    "tractionReason": "Customer pentests consistently found exploitable vulnerabilities"
+    "tractionRank": 62,
+    "tractionScore": 64,
+    "tractionReason": "Customers received black-box pentests; critical findings widespread"
   },
   "paths": {
     "memo": "summer2026/memos/trident.md",

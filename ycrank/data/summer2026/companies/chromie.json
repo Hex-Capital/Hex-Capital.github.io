@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 192,
+  "consolidatedRank": 190,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 55,
-    "tractionReason": "Three named customer organizations"
+    "tractionRank": 101,
+    "tractionScore": 56,
+    "tractionReason": "Three named customer logos and testimonial"
   },
   "paths": {
     "memo": "summer2026/memos/chromie.md",

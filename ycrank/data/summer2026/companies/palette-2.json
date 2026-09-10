@@ -18,7 +18,7 @@
     "Video",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/palette-2.jpg",
   "memoGeneratedAt": "2026-08-11T05:48:58.982Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 204,
+  "consolidatedRank": 203,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 29,
-    "tractionReason": "Public studio and API; no customers disclosed"
+    "tractionRank": 194,
+    "tractionScore": 30,
+    "tractionReason": "Public studio and API; no usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/palette-2.md",

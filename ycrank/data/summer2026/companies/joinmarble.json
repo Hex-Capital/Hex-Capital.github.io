@@ -18,7 +18,7 @@
     "Restaurant Tech",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/joinmarble.jpg",
   "memoGeneratedAt": "2026-08-11T05:22:17.495Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 50,
-  "consolidatedRank": 63,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 62,
-    "tractionReason": "Live with six named restaurant groups"
+    "tractionRank": 47,
+    "tractionScore": 67,
+    "tractionReason": "Live with six restaurant groups"
   },
   "paths": {
     "memo": "summer2026/memos/joinmarble.md",

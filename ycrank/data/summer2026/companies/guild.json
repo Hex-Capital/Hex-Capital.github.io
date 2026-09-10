@@ -20,7 +20,7 @@
     "Defense",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/guild.jpg",
   "memoGeneratedAt": "2026-08-11T05:27:38.658Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 26
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 178,
+  "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 56,
-    "tractionReason": "Claims active government manufacturing contract execution"
+    "tractionRank": 142,
+    "tractionScore": 48,
+    "tractionReason": "Claims government manufacturing contract execution"
   },
   "paths": {
     "memo": "summer2026/memos/guild.md",

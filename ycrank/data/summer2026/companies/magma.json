@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 176,
+  "consolidatedRank": 175,
   "traction": {
-    "tractionRank": 217,
-    "tractionScore": 15,
-    "tractionReason": "Revenue-share pricing; no usage disclosed"
+    "tractionRank": 201,
+    "tractionScore": 24,
+    "tractionReason": "Revenue-share product launched; no partners disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/magma.md",

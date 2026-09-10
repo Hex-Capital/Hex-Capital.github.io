@@ -20,7 +20,7 @@
     "Manufacturing",
     "Defense"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/applied-electrodynamics-inc.jpg",
   "memoGeneratedAt": "2026-08-11T05:53:34.663Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 176,
-    "tractionScore": 33,
-    "tractionReason": "Preorder registration open; no orders disclosed"
+    "tractionRank": 180,
+    "tractionScore": 41,
+    "tractionReason": "Preorder registration open; no order count"
   },
   "paths": {
     "memo": "summer2026/memos/applied-electrodynamics-inc.md",

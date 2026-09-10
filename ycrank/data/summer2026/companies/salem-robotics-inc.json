@@ -20,7 +20,7 @@
     "Defense",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/salem-robotics-inc.jpg",
   "memoGeneratedAt": "2026-08-11T04:28:31.577Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 39
   },
   "consolidatedAvg": 50,
-  "consolidatedRank": 64,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 40,
-    "tractionReason": "Active nuclear and oil-and-gas contract scoping"
+    "tractionRank": 150,
+    "tractionScore": 47,
+    "tractionReason": "Nuclear and oil-and-gas contracts being scoped"
   },
   "paths": {
     "memo": "summer2026/memos/salem-robotics-inc.md",

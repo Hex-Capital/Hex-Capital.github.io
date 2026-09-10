@@ -13,7 +13,7 @@
     "emails": "No public data found"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/hop-aero.jpg",
   "memoGeneratedAt": "2026-08-11T04:38:31.982Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,8 +57,8 @@
   "consolidatedAvg": 52.29,
   "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 91,
+    "tractionRank": 5,
+    "tractionScore": 92,
     "tractionReason": "$1.25M Air Force contract obligation"
   },
   "paths": {

@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Construction"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/alloovium.jpg",
   "memoGeneratedAt": "2026-08-11T05:24:05.615Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 36
   },
   "consolidatedAvg": 45.71,
-  "consolidatedRank": 103,
+  "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 58,
-    "tractionScore": 61,
-    "tractionReason": "Paid subscriptions across $400M of active projects"
+    "tractionRank": 52,
+    "tractionScore": 66,
+    "tractionReason": "Paid subscriptions deployed across $400M of projects"
   },
   "paths": {
     "memo": "summer2026/memos/alloovium.md",

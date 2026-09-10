@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 168,
+  "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 219,
-    "tractionScore": 14,
-    "tractionReason": "Launch post and 95 followers only"
+    "tractionRank": 217,
+    "tractionScore": 10,
+    "tractionReason": "Launch post only; no customers"
   },
   "paths": {
     "memo": "summer2026/memos/palisade-2.md",

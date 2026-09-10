@@ -19,7 +19,7 @@
     "Home Services",
     "Operations"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/kebra.jpg",
   "memoGeneratedAt": "2026-08-11T05:45:17.685Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 21
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 183,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 87,
-    "tractionScore": 55,
-    "tractionReason": "Live customers across three states"
+    "tractionRank": 100,
+    "tractionScore": 57,
+    "tractionReason": "Live in three states with named customer"
   },
   "paths": {
     "memo": "summer2026/memos/kebra.md",

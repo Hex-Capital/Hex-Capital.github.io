@@ -1,0 +1,80 @@
+{
+  "slug": "mochi",
+  "name": "Mochi",
+  "oneLiner": "Watch and create anime",
+  "metadata": {
+    "website": "https://www.mochi.tv/",
+    "yc_page": "https://www.ycombinator.com/companies/mochi",
+    "batch": "Summer 2026",
+    "industry": "Consumer / Consumer -> Content",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Artificial Intelligence, Consumer",
+    "yc_partner": "Brad Flora",
+    "emails": "founders@mochi.tv, support@mochi.tv"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Consumer"
+  ],
+  "slideImage": "summer2026/slides/images/mochi.jpg",
+  "memoGeneratedAt": "2026-09-10T14:23:39.614Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 66,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 37,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 66,
+    "EG": 67,
+    "NR": 53,
+    "PG": 55,
+    "PT": 57,
+    "SL": 44,
+    "VK": 37
+  },
+  "consolidatedAvg": 54.14,
+  "consolidatedRank": 33,
+  "traction": {
+    "tractionRank": 15,
+    "tractionScore": 85,
+    "tractionReason": "100K users, 300M views, monetized subscriptions"
+  },
+  "paths": {
+    "memo": "summer2026/memos/mochi.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/mochi.md",
+      "elad-gil": "summer2026/evals/elad-gil/mochi.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/mochi.md",
+      "paul-graham": "summer2026/evals/paul-graham/mochi.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/mochi.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/mochi.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/mochi.md"
+    }
+  }
+}

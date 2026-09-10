@@ -18,7 +18,7 @@
     "Monitoring",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/control-seat.jpg",
   "memoGeneratedAt": "2026-08-11T05:56:00.132Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 46,
-  "consolidatedRank": 100,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 47,
-    "tractionReason": "Named Battex Chile deployment"
+    "tractionRank": 144,
+    "tractionScore": 48,
+    "tractionReason": "Named industrial deployment with Battex Chile"
   },
   "paths": {
     "memo": "summer2026/memos/control-seat.md",

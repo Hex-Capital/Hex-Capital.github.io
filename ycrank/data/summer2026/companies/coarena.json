@@ -20,7 +20,7 @@
     "Reinforcement Learning",
     "Data Labeling"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/coarena.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:52.495Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 56.71,
   "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 79,
-    "tractionReason": "$60K revenue within two weeks; users doubled weekly"
+    "tractionRank": 18,
+    "tractionScore": 82,
+    "tractionReason": "$60K revenue within two weeks"
   },
   "paths": {
     "memo": "summer2026/memos/coarena.md",

@@ -20,7 +20,7 @@
     "Workflow Automation",
     "Enterprise Software"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/opentag.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:42.486Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 21
   },
   "consolidatedAvg": 33.57,
-  "consolidatedRank": 211,
+  "consolidatedRank": 210,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 49,
-    "tractionReason": "10 teams after two weeks"
+    "tractionRank": 96,
+    "tractionScore": 57,
+    "tractionReason": "Ten teams after two weeks of early access"
   },
   "paths": {
     "memo": "summer2026/memos/opentag.md",

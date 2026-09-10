@@ -62,9 +62,9 @@
   "consolidatedAvg": 51.14,
   "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 169,
-    "tractionScore": 34,
-    "tractionReason": "Large model trained; internal benchmark only"
+    "tractionRank": 165,
+    "tractionScore": 44,
+    "tractionReason": "Large model trained; no users or revenue"
   },
   "paths": {
     "memo": "summer2026/memos/induction-labs.md",

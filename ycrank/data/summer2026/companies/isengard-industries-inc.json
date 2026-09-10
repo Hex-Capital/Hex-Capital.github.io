@@ -18,7 +18,7 @@
     "Swarm Robotics",
     "Unmanned Vehicle"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/isengard-industries-inc.jpg",
   "memoGeneratedAt": "2026-08-11T04:57:41.587Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 51.86,
   "consolidatedRank": 51,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 53,
-    "tractionReason": "Systems fielded; one product in rate production"
+    "tractionRank": 82,
+    "tractionScore": 60,
+    "tractionReason": "Systems fielded with Ukrainian units and U.S. Army"
   },
   "paths": {
     "memo": "summer2026/memos/isengard-industries-inc.md",

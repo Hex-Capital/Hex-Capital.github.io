@@ -19,7 +19,7 @@
     "Robotics",
     "Automation"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/waddle-labs.jpg",
   "memoGeneratedAt": "2026-08-11T06:04:16.366Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 197,
-    "tractionScore": 26,
-    "tractionReason": "Internal robot repetitions; preview API launched"
+    "tractionRank": 200,
+    "tractionScore": 27,
+    "tractionReason": "Internal robot repetitions; preview API available"
   },
   "paths": {
     "memo": "summer2026/memos/waddle-labs.md",

@@ -20,7 +20,7 @@
     "Energy",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/shielded.jpg",
   "memoGeneratedAt": "2026-08-11T05:38:06.303Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 156,
+  "consolidatedRank": 155,
   "traction": {
-    "tractionRank": 70,
+    "tractionRank": 86,
     "tractionScore": 59,
-    "tractionReason": "Deployments across four major customer categories"
+    "tractionReason": "Deployments across defense, CPG, restaurants, and manufacturing"
   },
   "paths": {
     "memo": "summer2026/memos/shielded.md",

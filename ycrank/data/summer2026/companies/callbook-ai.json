@@ -16,7 +16,7 @@
   "tags": [
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/callbook-ai.jpg",
   "memoGeneratedAt": "2026-08-26T05:18:10.099Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 56.29,
   "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 82,
-    "tractionReason": "23M interactions; 2M borrowers; $11M recovered"
+    "tractionRank": 11,
+    "tractionScore": 88,
+    "tractionReason": "23M interactions and two million borrowers managed"
   },
   "paths": {
     "memo": "summer2026/memos/callbook-ai.md",

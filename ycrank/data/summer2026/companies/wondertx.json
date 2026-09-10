@@ -18,7 +18,7 @@
     "Generative AI",
     "Biotech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/wondertx.jpg",
   "memoGeneratedAt": "2026-08-26T05:22:41.253Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 59.86,
   "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 37,
-    "tractionReason": "Four experimentally validated targets; partner programs"
+    "tractionRank": 139,
+    "tractionScore": 49,
+    "tractionReason": "Four validated targets across internal and partner programs"
   },
   "paths": {
     "memo": "summer2026/memos/wondertx.md",

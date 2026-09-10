@@ -62,9 +62,9 @@
   "consolidatedAvg": 45,
   "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 201,
-    "tractionScore": 24,
-    "tractionReason": "Current ERP product launched; prior pilots excluded"
+    "tractionRank": 195,
+    "tractionScore": 30,
+    "tractionReason": "Current ERP offering launched without customers"
   },
   "paths": {
     "memo": "summer2026/memos/trope.md",

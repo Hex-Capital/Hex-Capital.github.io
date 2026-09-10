@@ -18,7 +18,7 @@
     "Insurance",
     "Enterprise"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/qlo.jpg",
   "memoGeneratedAt": "2026-08-11T05:03:07.990Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 53.14,
   "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 58,
-    "tractionReason": "Paid enterprise pilot used for daily quoting"
+    "tractionRank": 49,
+    "tractionScore": 67,
+    "tractionReason": "Paid enterprise pilot tripled quote throughput"
   },
   "paths": {
     "memo": "summer2026/memos/qlo.md",

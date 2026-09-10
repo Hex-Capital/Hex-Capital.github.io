@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Gaming"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/instaplay.jpg",
   "memoGeneratedAt": "2026-08-11T05:28:34.217Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 43.57,
   "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 75,
-    "tractionReason": "100K MAU and 20K creators"
+    "tractionRank": 33,
+    "tractionScore": 74,
+    "tractionReason": "100K monthly users and 20K creators"
   },
   "paths": {
     "memo": "summer2026/memos/instaplay.md",

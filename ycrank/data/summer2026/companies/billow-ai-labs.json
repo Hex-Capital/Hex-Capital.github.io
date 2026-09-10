@@ -19,7 +19,7 @@
     "B2B",
     "Workflow Automation"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/billow-ai-labs.jpg",
   "memoGeneratedAt": "2026-08-11T04:28:51.629Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 35
   },
   "consolidatedAvg": 47.43,
-  "consolidatedRank": 87,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 53,
-    "tractionReason": "Three customer case studies with deployed workflows"
+    "tractionRank": 105,
+    "tractionScore": 56,
+    "tractionReason": "Three deployed accounting case studies"
   },
   "paths": {
     "memo": "summer2026/memos/billow-ai-labs.md",

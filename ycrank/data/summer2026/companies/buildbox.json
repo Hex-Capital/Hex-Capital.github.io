@@ -60,11 +60,11 @@
     "VK": 21
   },
   "consolidatedAvg": 34.29,
-  "consolidatedRank": 209,
+  "consolidatedRank": 208,
   "traction": {
-    "tractionRank": 235,
-    "tractionScore": 1,
-    "tractionReason": "Backers and demo page; no customers"
+    "tractionRank": 225,
+    "tractionScore": 6,
+    "tractionReason": "Backers disclosed; no product traction"
   },
   "paths": {
     "memo": "summer2026/memos/buildbox.md",

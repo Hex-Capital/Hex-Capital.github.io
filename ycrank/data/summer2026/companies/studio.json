@@ -19,7 +19,7 @@
     "Analytics",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/studio.jpg",
   "memoGeneratedAt": "2026-08-26T05:21:00.693Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 35
   },
   "consolidatedAvg": 48.14,
-  "consolidatedRank": 79,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 67,
-    "tractionReason": "Five enterprise clients; 200M consumers modeled"
+    "tractionRank": 45,
+    "tractionScore": 68,
+    "tractionReason": "Five enterprise clients and 200M consumers modeled"
   },
   "paths": {
     "memo": "summer2026/memos/studio.md",

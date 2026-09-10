@@ -16,7 +16,7 @@
   "tags": [
     "SaaS"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/ekho-labs.jpg",
   "memoGeneratedAt": "2026-08-11T04:58:52.700Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 43.43,
   "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 54,
-    "tractionReason": "Enterprise customers referenced; seven confirmed forecasts"
+    "tractionRank": 108,
+    "tractionScore": 55,
+    "tractionReason": "Enterprise customers and seven confirmed forecasts"
   },
   "paths": {
     "memo": "summer2026/memos/ekho-labs.md",

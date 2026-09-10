@@ -19,7 +19,7 @@
     "Entertainment",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/familiar.jpg",
   "memoGeneratedAt": "2026-08-26T05:11:58.970Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 51.14,
   "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 29,
-    "tractionReason": "Paid product; current usage undisclosed"
+    "tractionRank": 179,
+    "tractionScore": 41,
+    "tractionReason": "Strong operator track record; no product usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/familiar.md",

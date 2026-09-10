@@ -18,7 +18,7 @@
     "Insurance",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/evergrove.jpg",
   "memoGeneratedAt": "2026-08-26T05:26:36.991Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 55.57,
   "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 64,
+    "tractionRank": 25,
+    "tractionScore": 77,
     "tractionReason": "350K production calls; over 500K annually"
   },
   "paths": {

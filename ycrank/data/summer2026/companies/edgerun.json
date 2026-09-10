@@ -17,7 +17,7 @@
     "Robotics",
     "Defense"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/edgerun.jpg",
   "memoGeneratedAt": "2026-08-26T05:22:06.069Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 51.57,
   "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 41,
-    "tractionReason": "100 Ukrainian field tests; named integration partner"
+    "tractionRank": 141,
+    "tractionScore": 48,
+    "tractionReason": "100 Ukrainian field tests and integration partner"
   },
   "paths": {
     "memo": "summer2026/memos/edgerun.md",

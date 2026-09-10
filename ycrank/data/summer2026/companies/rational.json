@@ -17,7 +17,7 @@
     "Enterprise",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/rational.jpg",
   "memoGeneratedAt": "2026-08-11T05:04:08.221Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 53.14,
   "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 56,
-    "tractionScore": 62,
-    "tractionReason": "Fortune 500 design partner and deployed customer workflows"
+    "tractionRank": 59,
+    "tractionScore": 65,
+    "tractionReason": "Fortune Global 500 and accounting design partners"
   },
   "paths": {
     "memo": "summer2026/memos/rational.md",

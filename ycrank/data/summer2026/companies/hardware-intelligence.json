@@ -20,7 +20,7 @@
     "Enterprise Software",
     "Semiconductors"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/hardware-intelligence.jpg",
   "memoGeneratedAt": "2026-08-11T04:28:21.560Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 34
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 169,
+  "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 42,
-    "tractionReason": "Product launched with pilot onboarding"
+    "tractionRank": 132,
+    "tractionScore": 50,
+    "tractionReason": "Wave launched with pilot onboarding open"
   },
   "paths": {
     "memo": "summer2026/memos/hardware-intelligence.md",

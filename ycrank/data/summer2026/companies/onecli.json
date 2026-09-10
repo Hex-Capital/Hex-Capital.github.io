@@ -20,7 +20,7 @@
     "Infrastructure",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/onecli.jpg",
   "memoGeneratedAt": "2026-08-26T05:07:40.810Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,8 +64,8 @@
   "consolidatedAvg": 56.71,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 112,
-    "tractionScore": 50,
+    "tractionRank": 72,
+    "tractionScore": 62,
     "tractionReason": "350K downloads and 3.3K GitHub stars"
   },
   "paths": {

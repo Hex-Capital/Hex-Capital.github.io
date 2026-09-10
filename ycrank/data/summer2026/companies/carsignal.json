@@ -18,7 +18,7 @@
     "AI",
     "Automotive"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/carsignal.jpg",
   "memoGeneratedAt": "2026-08-11T04:48:49.167Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 18
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 213,
+  "consolidatedRank": 212,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 54,
-    "tractionReason": "Live across 14 states"
+    "tractionRank": 79,
+    "tractionScore": 61,
+    "tractionReason": "Live auto-shop deployments across 14 states"
   },
   "paths": {
     "memo": "summer2026/memos/carsignal.md",

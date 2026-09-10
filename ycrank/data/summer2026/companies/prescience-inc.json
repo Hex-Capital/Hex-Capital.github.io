@@ -17,7 +17,7 @@
     "Health Insurance",
     "Insurance"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/prescience-inc.jpg",
   "memoGeneratedAt": "2026-08-11T06:02:21.104Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 45.14,
   "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 44,
-    "tractionReason": "Serving unspecified U.S. employers"
+    "tractionRank": 178,
+    "tractionScore": 41,
+    "tractionReason": "Unspecified U.S. employers using outcome-priced service"
   },
   "paths": {
     "memo": "summer2026/memos/prescience-inc.md",

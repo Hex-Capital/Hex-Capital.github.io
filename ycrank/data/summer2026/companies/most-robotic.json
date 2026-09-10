@@ -17,7 +17,7 @@
     "Robotics",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/most-robotic.jpg",
   "memoGeneratedAt": "2026-08-26T05:25:06.508Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,10 +59,10 @@
     "VK": 25
   },
   "consolidatedAvg": 27.71,
-  "consolidatedRank": 229,
+  "consolidatedRank": 228,
   "traction": {
-    "tractionRank": 231,
-    "tractionScore": 4,
+    "tractionRank": 232,
+    "tractionScore": 0,
     "tractionReason": "No public traction data found"
   },
   "paths": {

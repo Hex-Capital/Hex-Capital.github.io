@@ -19,7 +19,7 @@
     "Manufacturing",
     "Supply Chain"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/spaceflow-technologies-inc.jpg",
   "memoGeneratedAt": "2026-08-11T04:35:06.225Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 60.57,
   "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 77,
-    "tractionReason": "Six-figure contracted ARR; hundreds of daily users"
+    "tractionRank": 19,
+    "tractionScore": 80,
+    "tractionReason": "Six-figure contracted revenue; hundreds of daily users"
   },
   "paths": {
     "memo": "summer2026/memos/spaceflow-technologies-inc.md",

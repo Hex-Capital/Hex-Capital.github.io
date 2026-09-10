@@ -18,7 +18,7 @@
     "SaaS",
     "Productivity"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/prized.jpg",
   "memoGeneratedAt": "2026-08-11T05:33:35.132Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 24
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 195,
+  "consolidatedRank": 193,
   "traction": {
-    "tractionRank": 196,
-    "tractionScore": 26,
-    "tractionReason": "Ten outbound toolboxes; no customers"
+    "tractionRank": 208,
+    "tractionScore": 20,
+    "tractionReason": "Ten outbound toolboxes; no users disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/prized.md",

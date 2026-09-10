@@ -18,7 +18,7 @@
     "Semiconductors",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/dipole-labs.jpg",
   "memoGeneratedAt": "2026-08-26T05:25:21.523Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 158,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 192,
-    "tractionScore": 27,
-    "tractionReason": "Launch coverage; no customer evidence"
+    "tractionRank": 202,
+    "tractionScore": 24,
+    "tractionReason": "Launch coverage and hiring; no pilots"
   },
   "paths": {
     "memo": "summer2026/memos/dipole-labs.md",

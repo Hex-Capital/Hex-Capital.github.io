@@ -19,7 +19,7 @@
     "Enterprise Software",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/rex-inc.jpg",
   "memoGeneratedAt": "2026-08-11T05:34:35.607Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,8 +63,8 @@
   "consolidatedAvg": 61.71,
   "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 73,
+    "tractionRank": 26,
+    "tractionScore": 76,
     "tractionReason": "$500M receivables managed; 22K autonomous actions"
   },
   "paths": {

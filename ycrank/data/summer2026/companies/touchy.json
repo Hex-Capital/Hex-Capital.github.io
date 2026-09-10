@@ -61,10 +61,10 @@
     "VK": 21
   },
   "consolidatedAvg": 33.14,
-  "consolidatedRank": 215,
+  "consolidatedRank": 214,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 32,
+    "tractionRank": 184,
+    "tractionScore": 40,
     "tractionReason": "App live with insufficient ratings"
   },
   "paths": {

@@ -17,7 +17,7 @@
     "Hard Tech",
     "Energy"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/atomarine.jpg",
   "memoGeneratedAt": "2026-08-11T04:29:11.706Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 43.57,
   "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 41,
-    "tractionReason": "Partnerships with barge builders and SMR vendors"
+    "tractionRank": 204,
+    "tractionScore": 24,
+    "tractionReason": "Vendor partnerships but no customers"
   },
   "paths": {
     "memo": "summer2026/memos/atomarine.md",

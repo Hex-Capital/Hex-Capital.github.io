@@ -18,7 +18,7 @@
     "Careers",
     "Conversational AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/talentpluto.jpg",
   "memoGeneratedAt": "2026-08-11T05:12:49.943Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,10 +60,10 @@
     "VK": 30
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 59,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 70,
+    "tractionRank": 34,
+    "tractionScore": 73,
     "tractionReason": "20K professionals and 100 company users"
   },
   "paths": {

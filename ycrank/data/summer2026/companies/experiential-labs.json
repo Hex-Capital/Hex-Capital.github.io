@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/experiential-labs.jpg",
   "memoGeneratedAt": "2026-08-11T04:29:13.274Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 52.57,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 51,
-    "tractionReason": "One deployed customer model with strong cost reduction"
+    "tractionRank": 104,
+    "tractionScore": 56,
+    "tractionReason": "One customer deployment and 337 GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/experiential-labs.md",

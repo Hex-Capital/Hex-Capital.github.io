@@ -18,7 +18,7 @@
     "Reinforcement Learning",
     "Cybersecurity"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/fabraix.jpg",
   "memoGeneratedAt": "2026-08-11T05:02:58.047Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 50.86,
   "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 50,
-    "tractionReason": "Testing agents at dozens of Fortune 500 companies"
+    "tractionRank": 75,
+    "tractionScore": 62,
+    "tractionReason": "50K security-playground attempts; Fortune 500 failures found"
   },
   "paths": {
     "memo": "summer2026/memos/fabraix.md",

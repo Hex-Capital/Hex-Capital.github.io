@@ -59,11 +59,11 @@
     "VK": 20
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 193,
+  "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 218,
-    "tractionScore": 15,
-    "tractionReason": "Product demonstrations; no users disclosed"
+    "tractionRank": 191,
+    "tractionScore": 30,
+    "tractionReason": "Product demonstrations received coverage; no users"
   },
   "paths": {
     "memo": "summer2026/memos/mosaic-inc.md",

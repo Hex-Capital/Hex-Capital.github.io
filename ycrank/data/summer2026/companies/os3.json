@@ -19,7 +19,7 @@
     "Robotics",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/os3.jpg",
   "memoGeneratedAt": "2026-08-11T06:03:51.601Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 159,
+  "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 102,
+    "tractionRank": 122,
     "tractionScore": 52,
-    "tractionReason": "Robots reportedly deployed in hospitality"
+    "tractionReason": "Hospitality robot deployments; counts undisclosed"
   },
   "paths": {
     "memo": "summer2026/memos/os3.md",

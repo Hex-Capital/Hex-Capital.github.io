@@ -18,7 +18,7 @@
     "Neurotechnology",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/parasma.jpg",
   "memoGeneratedAt": "2026-08-11T05:37:36.278Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.14,
   "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 36,
-    "tractionReason": "200K-neuron experiment; no product customers"
+    "tractionRank": 159,
+    "tractionScore": 45,
+    "tractionReason": "200K-neuron experiment and 255 GitHub stars"
   },
   "paths": {
     "memo": "summer2026/memos/parasma.md",

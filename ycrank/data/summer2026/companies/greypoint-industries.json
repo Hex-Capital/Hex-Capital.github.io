@@ -20,7 +20,7 @@
     "Manufacturing",
     "Defense"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/greypoint-industries.jpg",
   "memoGeneratedAt": "2026-08-11T05:08:44.113Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,7 +64,7 @@
   "consolidatedAvg": 52.29,
   "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 63,
+    "tractionRank": 83,
     "tractionScore": 60,
     "tractionReason": "Signed Canadian-government counter-UAS contract"
   },

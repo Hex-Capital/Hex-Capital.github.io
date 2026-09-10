@@ -20,7 +20,7 @@
     "Big Data",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/maingen.jpg",
   "memoGeneratedAt": "2026-08-11T05:33:50.260Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 42
   },
   "consolidatedAvg": 54.43,
-  "consolidatedRank": 32,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 45,
-    "tractionReason": "Working with unnamed frontier laboratories"
+    "tractionRank": 138,
+    "tractionScore": 49,
+    "tractionReason": "Working with unnamed frontier AI labs"
   },
   "paths": {
     "memo": "summer2026/memos/maingen.md",

@@ -18,7 +18,7 @@
     "Big Data",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/6thsense.jpg",
   "memoGeneratedAt": "2026-08-11T05:10:24.662Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 38
   },
   "consolidatedAvg": 46,
-  "consolidatedRank": 99,
+  "consolidatedRank": 101,
   "traction": {
-    "tractionRank": 136,
-    "tractionScore": 44,
-    "tractionReason": "Handful of teams; 20-place $4K pilot offer"
+    "tractionRank": 123,
+    "tractionScore": 52,
+    "tractionReason": "Handful of teams and 20-place $4K pilot"
   },
   "paths": {
     "memo": "summer2026/memos/6thsense.md",

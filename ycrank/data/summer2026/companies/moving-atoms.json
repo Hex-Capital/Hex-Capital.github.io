@@ -19,7 +19,7 @@
     "Virtual Reality",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/moving-atoms.jpg",
   "memoGeneratedAt": "2026-08-26T05:12:44.259Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 172,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 167,
-    "tractionScore": 35,
-    "tractionReason": "Strong benchmark result; no customer evidence"
+    "tractionRank": 199,
+    "tractionScore": 27,
+    "tractionReason": "Physics benchmark result; no commercial users"
   },
   "paths": {
     "memo": "summer2026/memos/moving-atoms.md",

@@ -20,7 +20,7 @@
     "Biotech",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/neuromorphic.jpg",
   "memoGeneratedAt": "2026-08-11T05:02:37.475Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,8 +64,8 @@
   "consolidatedAvg": 53.14,
   "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 58,
+    "tractionRank": 65,
+    "tractionScore": 64,
     "tractionReason": "First customer contract; daily biotechnology operations"
   },
   "paths": {

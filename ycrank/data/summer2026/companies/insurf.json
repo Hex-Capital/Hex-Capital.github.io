@@ -18,7 +18,7 @@
     "Health Tech",
     "Automation"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/insurf.jpg",
   "memoGeneratedAt": "2026-08-11T05:30:49.482Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 38
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 171,
+  "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 45,
-    "tractionReason": "Selected specialty-practice pilots"
+    "tractionRank": 130,
+    "tractionScore": 51,
+    "tractionReason": "Early pilots with selected specialty practices"
   },
   "paths": {
     "memo": "summer2026/memos/insurf.md",

@@ -20,7 +20,7 @@
     "Trading",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/prodigy-research.jpg",
   "memoGeneratedAt": "2026-08-11T05:19:51.781Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 30
   },
   "consolidatedAvg": 39.43,
-  "consolidatedRank": 165,
+  "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 38,
-    "tractionReason": "Real-capital return reported; AUM and revenue undisclosed"
+    "tractionRank": 152,
+    "tractionScore": 46,
+    "tractionReason": "Reported 108% live return; no AUM disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/prodigy-research.md",

@@ -18,7 +18,7 @@
     "Renewable Energy",
     "ClimateTech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/meteoric.jpg",
   "memoGeneratedAt": "2026-08-26T05:26:11.741Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedAvg": 44.43,
   "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 172,
-    "tractionScore": 34,
+    "tractionRank": 161,
+    "tractionScore": 44,
     "tractionReason": "Prototype dissipated artificial cloud by 13%"
   },
   "paths": {

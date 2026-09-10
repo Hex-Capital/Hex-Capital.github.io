@@ -18,7 +18,7 @@
     "Cloud Computing",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/hoplite.jpg",
   "memoGeneratedAt": "2026-08-11T05:43:12.224Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,10 +60,10 @@
     "VK": 24
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 189,
+  "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 56,
+    "tractionRank": 167,
+    "tractionScore": 43,
     "tractionReason": "One current-product business installation"
   },
   "paths": {

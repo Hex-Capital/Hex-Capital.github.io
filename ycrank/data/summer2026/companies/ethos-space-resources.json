@@ -20,7 +20,7 @@
     "Energy",
     "Aerospace"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/ethos-space-resources.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:20.741Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 52.29,
   "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 59,
-    "tractionReason": "Completed NASA contract; $1B customer LOIs"
+    "tractionRank": 56,
+    "tractionScore": 65,
+    "tractionReason": "Completed NASA contract and $1B customer LOIs"
   },
   "paths": {
     "memo": "summer2026/memos/ethos-space-resources.md",

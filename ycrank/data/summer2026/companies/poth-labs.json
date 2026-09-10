@@ -20,7 +20,7 @@
     "Workflow Automation",
     "Market Research"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/poth-labs.jpg",
   "memoGeneratedAt": "2026-08-11T05:53:04.859Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 198,
+  "consolidatedRank": 197,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 55,
-    "tractionReason": "Five named teams and several YC users"
+    "tractionRank": 102,
+    "tractionScore": 56,
+    "tractionReason": "Five named teams and several YC customers"
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",

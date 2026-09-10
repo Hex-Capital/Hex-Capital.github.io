@@ -18,7 +18,7 @@
     "Reinforcement Learning",
     "Robotics"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/enact.jpg",
   "memoGeneratedAt": "2026-08-11T05:35:46.163Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 28.14,
   "consolidatedRank": 226,
   "traction": {
-    "tractionRank": 209,
-    "tractionScore": 19,
-    "tractionReason": "Request-data site live; no users disclosed"
+    "tractionRank": 214,
+    "tractionScore": 15,
+    "tractionReason": "Request-data page live; no users"
   },
   "paths": {
     "memo": "summer2026/memos/enact.md",

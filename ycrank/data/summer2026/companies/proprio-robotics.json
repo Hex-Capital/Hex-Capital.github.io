@@ -59,11 +59,11 @@
     "VK": 40
   },
   "consolidatedAvg": 48,
-  "consolidatedRank": 80,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 148,
-    "tractionScore": 40,
-    "tractionReason": "Internal 24/7 robot; commercial deployments planned"
+    "tractionRank": 136,
+    "tractionScore": 49,
+    "tractionReason": "Working robot; commercial deployments planned"
   },
   "paths": {
     "memo": "summer2026/memos/proprio-robotics.md",

@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 40.29,
-  "consolidatedRank": 161,
+  "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 34,
-    "tractionReason": "Cost benchmark and launch engagement"
+    "tractionRank": 166,
+    "tractionScore": 43,
+    "tractionReason": "Router benchmark and 13K-view launch post"
   },
   "paths": {
     "memo": "summer2026/memos/mentlio.md",

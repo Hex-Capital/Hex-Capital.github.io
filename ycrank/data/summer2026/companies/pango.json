@@ -19,7 +19,7 @@
     "Retail",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/pango.jpg",
   "memoGeneratedAt": "2026-08-11T05:43:27.322Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 26
   },
   "consolidatedAvg": 46.43,
-  "consolidatedRank": 97,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 78,
-    "tractionReason": "30 signed brands across 40 countries"
+    "tractionRank": 24,
+    "tractionScore": 77,
+    "tractionReason": "30 signed brands operating across 40 countries"
   },
   "paths": {
     "memo": "summer2026/memos/pango.md",

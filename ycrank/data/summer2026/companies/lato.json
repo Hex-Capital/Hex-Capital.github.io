@@ -19,7 +19,7 @@
     "Market Research",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/lato.jpg",
   "memoGeneratedAt": "2026-08-11T16:33:54.191Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.14,
   "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 58,
-    "tractionReason": "Blume Equity and FoodLabs named as customers"
+    "tractionRank": 98,
+    "tractionScore": 57,
+    "tractionReason": "Blume Equity and FoodLabs are named customers"
   },
   "paths": {
     "memo": "summer2026/memos/lato.md",

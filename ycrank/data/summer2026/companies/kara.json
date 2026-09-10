@@ -19,7 +19,7 @@
     "Manufacturing",
     "Advanced Materials"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/kara.jpg",
   "memoGeneratedAt": "2026-08-11T05:35:40.933Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 214,
-    "tractionScore": 17,
-    "tractionReason": "No traction beyond 427 LinkedIn followers"
+    "tractionRank": 212,
+    "tractionScore": 15,
+    "tractionReason": "427 followers; no commercial evidence"
   },
   "paths": {
     "memo": "summer2026/memos/kara.md",

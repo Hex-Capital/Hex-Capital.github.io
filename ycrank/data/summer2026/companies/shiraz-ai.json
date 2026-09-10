@@ -18,7 +18,7 @@
     "Robotics",
     "Manufacturing"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/shiraz-ai.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:39.126Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.43,
   "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 101,
+    "tractionRank": 121,
     "tractionScore": 52,
-    "tractionReason": "Robots operational at customer sites"
+    "tractionReason": "Robots operational at initial customer sites"
   },
   "paths": {
     "memo": "summer2026/memos/shiraz-ai.md",

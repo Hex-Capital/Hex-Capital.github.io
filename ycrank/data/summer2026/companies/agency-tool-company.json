@@ -20,7 +20,7 @@
     "Infrastructure",
     "Self-Driving Vehicles"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/agency-tool-company.jpg",
   "memoGeneratedAt": "2026-08-11T05:14:40.724Z",
   "evalScores": {
     "cyan-banister": {
@@ -65,8 +65,8 @@
   "consolidatedRank": 24,
   "traction": {
     "tractionRank": 124,
-    "tractionScore": 47,
-    "tractionReason": "Three named private-beta launch partners"
+    "tractionScore": 52,
+    "tractionReason": "Three private-beta robotics launch partners"
   },
   "paths": {
     "memo": "summer2026/memos/agency-tool-company.md",

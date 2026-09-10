@@ -19,7 +19,7 @@
     "Supply Chain",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/donkey.jpg",
   "memoGeneratedAt": "2026-08-11T05:41:16.935Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,8 +63,8 @@
   "consolidatedAvg": 52.86,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 38,
+    "tractionRank": 109,
+    "tractionScore": 55,
     "tractionReason": "$110K quoted; first purchase orders signing"
   },
   "paths": {

@@ -18,7 +18,7 @@
     "Fintech",
     "Stocks"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/financial-datasets.jpg",
   "memoGeneratedAt": "2026-08-11T04:56:01.256Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 57,
   "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 18,
+    "tractionRank": 22,
     "tractionScore": 78,
-    "tractionReason": "1M daily API requests from thousands of agents"
+    "tractionReason": "One million daily API requests from thousands of agents"
   },
   "paths": {
     "memo": "summer2026/memos/financial-datasets.md",

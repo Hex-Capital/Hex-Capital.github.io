@@ -18,7 +18,7 @@
     "SaaS",
     "Enterprise Software"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/assemble.jpg",
   "memoGeneratedAt": "2026-08-11T06:00:25.788Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,10 +60,10 @@
     "VK": 45
   },
   "consolidatedAvg": 47.71,
-  "consolidatedRank": 83,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 205,
-    "tractionScore": 22,
+    "tractionRank": 197,
+    "tractionScore": 27,
     "tractionReason": "Internal Salesforce benchmark; no customers"
   },
   "paths": {

@@ -1,0 +1,80 @@
+{
+  "slug": "elite",
+  "name": "Elite",
+  "oneLiner": "Healthcare AI",
+  "metadata": {
+    "website": "https://elitehq.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/elite",
+    "batch": "Summer 2026",
+    "industry": "Healthcare / Healthcare -> Healthcare IT",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Healthcare, AI",
+    "yc_partner": "Jared Friedman",
+    "emails": "founders@stratumindustries.co, vihaan@stratumindustries.co, raj@stratumindustries.co, vihaan@jagiasi.com"
+  },
+  "tags": [
+    "Healthcare",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-09-10T14:24:09.381Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 22,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 28,
+    "EG": 40,
+    "NR": 32,
+    "PG": 40,
+    "PT": 27,
+    "SL": 29,
+    "VK": 22
+  },
+  "consolidatedAvg": 31.14,
+  "consolidatedRank": 220,
+  "traction": {
+    "tractionRank": 213,
+    "tractionScore": 15,
+    "tractionReason": "Voice demo live; no customers disclosed"
+  },
+  "paths": {
+    "memo": "summer2026/memos/elite.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/elite.md",
+      "elad-gil": "summer2026/evals/elad-gil/elite.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/elite.md",
+      "paul-graham": "summer2026/evals/paul-graham/elite.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/elite.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/elite.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/elite.md"
+    }
+  }
+}

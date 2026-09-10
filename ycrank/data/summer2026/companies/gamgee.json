@@ -19,7 +19,7 @@
     "Oncology",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/gamgee.jpg",
   "memoGeneratedAt": "2026-08-11T16:32:57.207Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.43,
   "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 36,
-    "tractionReason": "First animal case; trial recruiting"
+    "tractionRank": 156,
+    "tractionScore": 45,
+    "tractionReason": "One documented veterinary case; trial recruiting"
   },
   "paths": {
     "memo": "summer2026/memos/gamgee.md",

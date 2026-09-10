@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/touchmark.jpg",
   "memoGeneratedAt": "2026-08-11T05:18:21.675Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 22
   },
   "consolidatedAvg": 33,
-  "consolidatedRank": 216,
+  "consolidatedRank": 215,
   "traction": {
-    "tractionRank": 230,
-    "tractionScore": 5,
-    "tractionReason": "Contract books labeled live; no executed volume"
+    "tractionRank": 192,
+    "tractionScore": 30,
+    "tractionReason": "Contract books live; no executed volume"
   },
   "paths": {
     "memo": "summer2026/memos/touchmark.md",

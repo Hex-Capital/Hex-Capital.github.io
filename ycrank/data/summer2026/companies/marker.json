@@ -20,7 +20,7 @@
     "B2B",
     "Workflow Automation"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/marker.jpg",
   "memoGeneratedAt": "2026-08-26T05:22:31.290Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 52.57,
   "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 60,
-    "tractionReason": "Fortune 500 and eight-figure-company engagements"
+    "tractionRank": 58,
+    "tractionScore": 65,
+    "tractionReason": "Fortune 500 and eight-figure enterprise engagements"
   },
   "paths": {
     "memo": "summer2026/memos/marker.md",

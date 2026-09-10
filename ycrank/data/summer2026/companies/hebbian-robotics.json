@@ -20,7 +20,7 @@
     "Data Engineering",
     "Databases"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/hebbian-robotics.jpg",
   "memoGeneratedAt": "2026-08-11T04:39:42.160Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 30
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 170,
+  "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 35,
-    "tractionReason": "Open-source tool has 42 stars"
+    "tractionRank": 168,
+    "tractionScore": 43,
+    "tractionReason": "One reported user improvement and 42 stars"
   },
   "paths": {
     "memo": "summer2026/memos/hebbian-robotics.md",

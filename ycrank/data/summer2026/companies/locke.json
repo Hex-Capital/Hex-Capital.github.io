@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "GovTech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/locke.jpg",
   "memoGeneratedAt": "2026-08-11T04:38:36.522Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,8 +61,8 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 86,
+    "tractionRank": 14,
+    "tractionScore": 85,
     "tractionReason": "Above $500K annual revenue run-rate after six weeks"
   },
   "paths": {

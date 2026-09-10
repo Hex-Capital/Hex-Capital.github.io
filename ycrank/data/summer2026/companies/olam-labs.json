@@ -19,7 +19,7 @@
     "Gaming",
     "Data Engineering"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/olam-labs.jpg",
   "memoGeneratedAt": "2026-08-11T05:39:31.509Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,10 +61,10 @@
     "VK": 25
   },
   "consolidatedAvg": 48.86,
-  "consolidatedRank": 74,
+  "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 69,
+    "tractionRank": 74,
+    "tractionScore": 62,
     "tractionReason": "Thousands of users and 1,000 daily matches"
   },
   "paths": {

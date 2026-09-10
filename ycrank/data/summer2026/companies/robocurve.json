@@ -20,7 +20,7 @@
     "Open Source",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/robocurve.jpg",
   "memoGeneratedAt": "2026-08-11T04:29:50.585Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 42.57,
   "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 37,
-    "tractionReason": "First real-robot frontier-model pilot completed"
+    "tractionRank": 140,
+    "tractionScore": 49,
+    "tractionReason": "Completed first real-robot frontier-model pilot"
   },
   "paths": {
     "memo": "summer2026/memos/robocurve.md",

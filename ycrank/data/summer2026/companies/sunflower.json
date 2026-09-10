@@ -13,7 +13,7 @@
     "emails": "hello@sunflowersober.com, koby@sunflowersober.com, caitlin@sunflowersober.com, compliance@sunflowerclinic.com"
   },
   "tags": [],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/sunflower.jpg",
   "memoGeneratedAt": "2026-08-26T05:27:41.926Z",
   "evalScores": {
     "cyan-banister": {
@@ -57,9 +57,9 @@
   "consolidatedAvg": 60.14,
   "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 2,
-    "tractionScore": 94,
-    "tractionReason": "$1M ARR, 10K paying subscribers, 100K MAU"
+    "tractionRank": 6,
+    "tractionScore": 91,
+    "tractionReason": "$1M ARR, 10K paying subscribers, 500K users"
   },
   "paths": {
     "memo": "summer2026/memos/sunflower.md",

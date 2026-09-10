@@ -17,7 +17,7 @@
     "Machine Learning",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/belvedir.jpg",
   "memoGeneratedAt": "2026-08-11T05:37:26.187Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,8 +62,8 @@
   "consolidatedRank": 125,
   "traction": {
     "tractionRank": 128,
-    "tractionScore": 46,
-    "tractionReason": "Free alpha with a few customers"
+    "tractionScore": 51,
+    "tractionReason": "Closed alpha with several initial customers"
   },
   "paths": {
     "memo": "summer2026/memos/belvedir.md",

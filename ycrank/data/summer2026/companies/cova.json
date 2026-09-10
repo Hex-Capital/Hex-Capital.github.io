@@ -18,7 +18,7 @@
     "Consumer Health Services",
     "Healthcare"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/cova.jpg",
   "memoGeneratedAt": "2026-08-11T05:55:35.069Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 47.57,
-  "consolidatedRank": 85,
+  "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 28,
-    "tractionReason": "Licensed and live; customer count undisclosed"
+    "tractionRank": 64,
+    "tractionScore": 64,
+    "tractionReason": "Licensed and operating as a Michigan provider"
   },
   "paths": {
     "memo": "summer2026/memos/cova.md",

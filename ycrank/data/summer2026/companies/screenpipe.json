@@ -20,7 +20,7 @@
     "Enterprise",
     "Enterprise Software"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/screenpipe.jpg",
   "memoGeneratedAt": "2026-08-11T05:17:56.524Z",
   "evalScores": {
     "cyan-banister": {
@@ -65,8 +65,8 @@
   "consolidatedRank": 13,
   "traction": {
     "tractionRank": 21,
-    "tractionScore": 77,
-    "tractionReason": "$3,480 MRR; 202 subscribers; 20–30% weekly growth"
+    "tractionScore": 79,
+    "tractionReason": "$3,480 MRR, 202 subscribers, 300K claimed users"
   },
   "paths": {
     "memo": "summer2026/memos/screenpipe.md",

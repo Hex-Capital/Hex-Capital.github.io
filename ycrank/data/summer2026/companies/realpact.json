@@ -18,7 +18,7 @@
     "Real Estate",
     "Enterprise Software"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/realpact.jpg",
   "memoGeneratedAt": "2026-08-11T05:26:48.617Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 45.57,
   "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 60,
-    "tractionReason": "10 paying brokerages; firm-wide Sotheby’s pilot"
+    "tractionRank": 48,
+    "tractionScore": 67,
+    "tractionReason": "10 brokerages, including firm-wide Sotheby's pilot"
   },
   "paths": {
     "memo": "summer2026/memos/realpact.md",

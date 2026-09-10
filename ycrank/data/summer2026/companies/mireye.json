@@ -18,7 +18,7 @@
     "AI",
     "Location-based"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/mireye.jpg",
   "memoGeneratedAt": "2026-08-11T04:44:43.538Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 49,
-  "consolidatedRank": 72,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 51,
-    "tractionReason": "First customers; 300 fields growing 20% weekly"
+    "tractionRank": 91,
+    "tractionScore": 58,
+    "tractionReason": "300 fields growing 20% weekly"
   },
   "paths": {
     "memo": "summer2026/memos/mireye.md",

@@ -18,7 +18,7 @@
     "Artificial Intelligence",
     "SaaS"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/executor.jpg",
   "memoGeneratedAt": "2026-08-11T04:54:15.921Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 46.57,
-  "consolidatedRank": 94,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 70,
-    "tractionReason": "3K users and 14K weekly downloads"
+    "tractionRank": 70,
+    "tractionScore": 63,
+    "tractionReason": "3K users, 14K weekly downloads, 3K stars"
   },
   "paths": {
     "memo": "summer2026/memos/executor.md",

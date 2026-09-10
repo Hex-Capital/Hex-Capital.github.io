@@ -19,7 +19,7 @@
     "Creator Economy",
     "SMB"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/trynearby.jpg",
   "memoGeneratedAt": "2026-08-26T05:12:34.131Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 57,
   "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 85,
-    "tractionReason": "120 paying restaurants; approximately $575K implied ARR"
+    "tractionRank": 12,
+    "tractionScore": 87,
+    "tractionReason": "120 paying restaurants at $399 monthly; 37% growth"
   },
   "paths": {
     "memo": "summer2026/memos/trynearby.md",

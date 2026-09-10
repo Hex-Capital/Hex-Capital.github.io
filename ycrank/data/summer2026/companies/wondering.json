@@ -20,7 +20,7 @@
     "AI",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/wondering.jpg",
   "memoGeneratedAt": "2026-08-11T04:35:31.358Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 23
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 177,
+  "consolidatedRank": 176,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 65,
-    "tractionReason": "100 paying learners; 12K total learners"
+    "tractionRank": 66,
+    "tractionScore": 63,
+    "tractionReason": "12K learners and over 100 paying subscribers"
   },
   "paths": {
     "memo": "summer2026/memos/wondering.md",

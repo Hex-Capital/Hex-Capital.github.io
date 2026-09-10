@@ -17,7 +17,7 @@
     "Aerospace",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/skymerse.jpg",
   "memoGeneratedAt": "2026-08-11T04:44:08.157Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 56.14,
   "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 72,
-    "tractionReason": "3,800 users; LOT Polish Airlines deployment"
+    "tractionRank": 23,
+    "tractionScore": 78,
+    "tractionReason": "3,800 users, thousands daily, LOT Polish deployment"
   },
   "paths": {
     "memo": "summer2026/memos/skymerse.md",

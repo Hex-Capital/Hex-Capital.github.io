@@ -18,7 +18,7 @@
     "Developer Tools",
     "Conversational AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/speko.jpg",
   "memoGeneratedAt": "2026-08-11T05:33:34.888Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.86,
   "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 48,
-    "tractionReason": "One commercial pilot and initial partners"
+    "tractionRank": 113,
+    "tractionScore": 54,
+    "tractionReason": "First partners and one commercial pilot"
   },
   "paths": {
     "memo": "summer2026/memos/speko.md",

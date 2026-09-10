@@ -19,7 +19,7 @@
     "Compliance",
     "Regtech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/tovenai.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:30.746Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 54.14,
   "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 67,
-    "tractionReason": "Six live agents serving institutional trading firms"
+    "tractionRank": 41,
+    "tractionScore": 68,
+    "tractionReason": "Six live agents at major institutional trading firms"
   },
   "paths": {
     "memo": "summer2026/memos/tovenai.md",

@@ -18,7 +18,7 @@
     "Big Data",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/atlia.jpg",
   "memoGeneratedAt": "2026-08-11T05:55:45.296Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 41,
   "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 75,
-    "tractionReason": "80 live properties monetized at 10% of bookings"
+    "tractionRank": 36,
+    "tractionScore": 69,
+    "tractionReason": "80 live properties generating 10% booking fees"
   },
   "paths": {
     "memo": "summer2026/memos/atlia.md",

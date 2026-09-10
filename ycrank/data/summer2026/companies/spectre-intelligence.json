@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.14,
   "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 72,
+    "tractionRank": 93,
     "tractionScore": 58,
-    "tractionReason": "Profitable with two live real-capital trading pods"
+    "tractionReason": "Profitable with two live trading pods"
   },
   "paths": {
     "memo": "summer2026/memos/spectre-intelligence.md",

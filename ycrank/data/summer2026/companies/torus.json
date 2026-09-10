@@ -20,7 +20,7 @@
     "AI",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/torus.jpg",
   "memoGeneratedAt": "2026-08-11T05:43:42.425Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 45.43,
   "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 57,
-    "tractionReason": "Multiple Fortune 500 and major EPC deployments"
+    "tractionRank": 88,
+    "tractionScore": 59,
+    "tractionReason": "Multiple Fortune 500 and major EPC customers"
   },
   "paths": {
     "memo": "summer2026/memos/torus.md",

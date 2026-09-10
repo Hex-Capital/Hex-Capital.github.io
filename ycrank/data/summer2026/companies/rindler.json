@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 124,
   "traction": {
-    "tractionRank": 132,
-    "tractionScore": 45,
-    "tractionReason": "Four web workflows reported in production"
+    "tractionRank": 110,
+    "tractionScore": 55,
+    "tractionReason": "Production workflows across four recruiting and registry systems"
   },
   "paths": {
     "memo": "summer2026/memos/rindler.md",

@@ -20,7 +20,7 @@
     "Robotics",
     "Defense"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/synapse-semiconductor.jpg",
   "memoGeneratedAt": "2026-08-11T05:33:10.109Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 42
   },
   "consolidatedAvg": 48.86,
-  "consolidatedRank": 75,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 36,
-    "tractionReason": "Fabricated and measured working hardware"
+    "tractionRank": 160,
+    "tractionScore": 45,
+    "tractionReason": "Fabricated working pixels; no pilots disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/synapse-semiconductor.md",

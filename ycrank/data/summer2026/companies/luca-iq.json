@@ -19,7 +19,7 @@
     "API",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/luca-iq.jpg",
   "memoGeneratedAt": "2026-08-11T04:56:11.272Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,11 +61,11 @@
     "VK": 48
   },
   "consolidatedAvg": 55.29,
-  "consolidatedRank": 28,
+  "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 65,
-    "tractionReason": "Completed customer tax season; hundreds applied"
+    "tractionRank": 90,
+    "tractionScore": 59,
+    "tractionReason": "First customer season completed; hundreds applied"
   },
   "paths": {
     "memo": "summer2026/memos/luca-iq.md",

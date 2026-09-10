@@ -20,7 +20,7 @@
     "Enterprise",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/nebula-security.jpg",
   "memoGeneratedAt": "2026-08-11T05:36:40.803Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 40
   },
   "consolidatedAvg": 49.71,
-  "consolidatedRank": 67,
+  "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 38,
-    "tractionReason": "1,393 findings, 98 CVEs, enterprise beta"
+    "tractionRank": 149,
+    "tractionScore": 47,
+    "tractionReason": "Enterprise beta; 1,393 validated security findings"
   },
   "paths": {
     "memo": "summer2026/memos/nebula-security.md",

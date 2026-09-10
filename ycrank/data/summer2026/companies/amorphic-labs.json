@@ -18,7 +18,7 @@
     "Sales",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/amorphic-labs.jpg",
   "memoGeneratedAt": "2026-08-11T05:49:08.774Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 23
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 208,
+  "consolidatedRank": 207,
   "traction": {
-    "tractionRank": 236,
-    "tractionScore": 0,
-    "tractionReason": "No customers, users, or revenue disclosed"
+    "tractionRank": 224,
+    "tractionScore": 6,
+    "tractionReason": "Launch coverage; no customers or users"
   },
   "paths": {
     "memo": "summer2026/memos/amorphic-labs.md",

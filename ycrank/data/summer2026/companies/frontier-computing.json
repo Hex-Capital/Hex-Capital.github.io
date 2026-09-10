@@ -1,0 +1,81 @@
+{
+  "slug": "frontier-computing",
+  "name": "Frontier Computing",
+  "oneLiner": "Frontier grows scalable biological brains as an ML training substrate",
+  "metadata": {
+    "website": "https://frontier.site",
+    "yc_page": "https://www.ycombinator.com/companies/frontier-computing",
+    "batch": "Summer 2026",
+    "industry": "Industrials / Industrials",
+    "team_size": "1",
+    "location": "London, England, United Kingdom",
+    "tags": "Artificial Intelligence, Hard Tech, Hardware",
+    "yc_partner": "Harshita Arora",
+    "emails": "hiring@frontier.site"
+  },
+  "tags": [
+    "Artificial Intelligence",
+    "Hard Tech",
+    "Hardware"
+  ],
+  "slideImage": "summer2026/slides/images/frontier-computing.jpg",
+  "memoGeneratedAt": "2026-09-10T14:35:50.826Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 64,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 64,
+    "EG": 50,
+    "NR": 61,
+    "PG": 53,
+    "PT": 52,
+    "SL": 40,
+    "VK": 36
+  },
+  "consolidatedAvg": 50.86,
+  "consolidatedRank": 58,
+  "traction": {
+    "tractionRank": 158,
+    "tractionScore": 45,
+    "tractionReason": "Biological-compute demonstration; no customers"
+  },
+  "paths": {
+    "memo": "summer2026/memos/frontier-computing.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/frontier-computing.md",
+      "elad-gil": "summer2026/evals/elad-gil/frontier-computing.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/frontier-computing.md",
+      "paul-graham": "summer2026/evals/paul-graham/frontier-computing.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/frontier-computing.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/frontier-computing.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/frontier-computing.md"
+    }
+  }
+}

@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 55.14,
-  "consolidatedRank": 30,
+  "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 73,
-    "tractionReason": "1M products audited; customer recovered $1.3M"
+    "tractionRank": 44,
+    "tractionScore": 68,
+    "tractionReason": "One million products audited; $1.3M customer recovery"
   },
   "paths": {
     "memo": "summer2026/memos/tarifflo-inc.md",

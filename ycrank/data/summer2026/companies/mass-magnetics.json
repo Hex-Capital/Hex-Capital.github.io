@@ -20,7 +20,7 @@
     "Manufacturing",
     "Defense"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/mass-magnetics.jpg",
   "memoGeneratedAt": "2026-08-26T05:21:41.964Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 44.43,
   "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 33,
-    "tractionReason": "Preorders open; no order count"
+    "tractionRank": 181,
+    "tractionScore": 40,
+    "tractionReason": "Preorders open for year-end delivery"
   },
   "paths": {
     "memo": "summer2026/memos/mass-magnetics.md",

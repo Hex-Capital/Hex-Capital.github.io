@@ -18,7 +18,7 @@
     "Healthcare IT",
     "AI"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/denta.jpg",
   "memoGeneratedAt": "2026-08-11T04:58:01.629Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 23
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 167,
+  "consolidatedRank": 166,
   "traction": {
-    "tractionRank": 92,
-    "tractionScore": 54,
-    "tractionReason": "DSO client and multiple practices"
+    "tractionRank": 118,
+    "tractionScore": 53,
+    "tractionReason": "DSO client and multiple practices using product"
   },
   "paths": {
     "memo": "summer2026/memos/denta.md",

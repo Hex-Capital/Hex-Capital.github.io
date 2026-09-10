@@ -17,7 +17,7 @@
     "Robotics",
     "Enterprise Software"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/aktoria-robotics.jpg",
   "memoGeneratedAt": "2026-08-11T05:04:43.320Z",
   "evalScores": {
     "cyan-banister": {
@@ -59,11 +59,11 @@
     "VK": 30
   },
   "consolidatedAvg": 46.86,
-  "consolidatedRank": 92,
+  "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 99,
+    "tractionRank": 116,
     "tractionScore": 53,
-    "tractionReason": "Operators serving four U.S. robot sites"
+    "tractionReason": "15 operators serving four U.S. sites continuously"
   },
   "paths": {
     "memo": "summer2026/memos/aktoria-robotics.md",

@@ -61,11 +61,11 @@
     "VK": 41
   },
   "consolidatedAvg": 49.71,
-  "consolidatedRank": 66,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 57,
-    "tractionReason": "Model deployed at major fintech; insurer engagement"
+    "tractionRank": 89,
+    "tractionScore": 59,
+    "tractionReason": "Fintech deployment trained across 28B transactions"
   },
   "paths": {
     "memo": "summer2026/memos/lyon.md",

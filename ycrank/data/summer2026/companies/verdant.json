@@ -16,7 +16,7 @@
   "tags": [
     "GovTech"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/verdant.jpg",
   "memoGeneratedAt": "2026-08-11T05:30:14.294Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,9 +60,9 @@
   "consolidatedAvg": 30.57,
   "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 198,
-    "tractionScore": 25,
-    "tractionReason": "200 interviews; no deployments disclosed"
+    "tractionRank": 206,
+    "tractionScore": 20,
+    "tractionReason": "200 interviews; marketing site launched"
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",

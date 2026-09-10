@@ -19,7 +19,7 @@
     "Drones",
     "Swarm Robotics"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/impact-drones.jpg",
   "memoGeneratedAt": "2026-08-11T05:29:34.398Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.14,
   "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 173,
-    "tractionScore": 33,
-    "tractionReason": "Pilot deployments scheduled, not yet live"
+    "tractionRank": 148,
+    "tractionScore": 47,
+    "tractionReason": "Middle East pilot deployments scheduled"
   },
   "paths": {
     "memo": "summer2026/memos/impact-drones.md",

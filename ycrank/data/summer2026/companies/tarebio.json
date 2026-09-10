@@ -18,7 +18,7 @@
     "Synthetic Biology",
     "Biotechnology"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/tarebio.jpg",
   "memoGeneratedAt": "2026-08-11T05:07:08.882Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 37
   },
   "consolidatedAvg": 49,
-  "consolidatedRank": 73,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 36,
-    "tractionReason": "Mouse lymphoma result; no commercial customers"
+    "tractionRank": 157,
+    "tractionScore": 45,
+    "tractionReason": "Mouse lymphoma result; first patient still planned"
   },
   "paths": {
     "memo": "summer2026/memos/tarebio.md",

@@ -17,7 +17,7 @@
     "Artificial Intelligence",
     "Reinforcement Learning"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/ooak-data.jpg",
   "memoGeneratedAt": "2026-08-11T05:09:29.298Z",
   "evalScores": {
     "cyan-banister": {
@@ -61,9 +61,9 @@
   "consolidatedAvg": 59.57,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 5,
-    "tractionScore": 89,
-    "tractionReason": "Seven-figure contracts with two major AI labs"
+    "tractionRank": 3,
+    "tractionScore": 95,
+    "tractionReason": "Seven-figure contracts with two leading AI labs"
   },
   "paths": {
     "memo": "summer2026/memos/ooak-data.md",

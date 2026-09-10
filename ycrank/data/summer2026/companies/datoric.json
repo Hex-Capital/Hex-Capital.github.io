@@ -18,7 +18,7 @@
     "Data Labeling",
     "ML"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/datoric.jpg",
   "memoGeneratedAt": "2026-08-11T05:59:20.677Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,7 +64,7 @@
   "traction": {
     "tractionRank": 1,
     "tractionScore": 98,
-    "tractionReason": "Nearly $1M revenue in 30 days; 300K active contributors"
+    "tractionReason": "Nearly $1M revenue in 30 days; 300K contributors"
   },
   "paths": {
     "memo": "summer2026/memos/datoric.md",

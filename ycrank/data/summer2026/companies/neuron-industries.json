@@ -19,7 +19,7 @@
     "Automation",
     "Industrial"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/neuron-industries.jpg",
   "memoGeneratedAt": "2026-08-11T16:32:34.039Z",
   "evalScores": {
     "cyan-banister": {
@@ -63,9 +63,9 @@
   "consolidatedAvg": 53,
   "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 57,
-    "tractionReason": "Two live pilots across industrial sectors"
+    "tractionRank": 80,
+    "tractionScore": 61,
+    "tractionReason": "Two live industrial pilots across four sectors"
   },
   "paths": {
     "memo": "summer2026/memos/neuron-industries.md",

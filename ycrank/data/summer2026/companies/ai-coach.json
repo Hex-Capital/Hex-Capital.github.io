@@ -20,7 +20,7 @@
     "Sales",
     "Sales Enablement"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/ai-coach.jpg",
   "memoGeneratedAt": "2026-08-11T05:23:17.897Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 33
   },
   "consolidatedAvg": 55.29,
-  "consolidatedRank": 27,
+  "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 93,
-    "tractionReason": "$1M ARR in eight months; thousands of reps"
+    "tractionRank": 7,
+    "tractionScore": 90,
+    "tractionReason": "$1M ARR within eight months"
   },
   "paths": {
     "memo": "summer2026/memos/ai-coach.md",

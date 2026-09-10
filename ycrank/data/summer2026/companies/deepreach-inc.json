@@ -20,7 +20,7 @@
     "Robotics",
     "Computer Vision"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/deepreach-inc.jpg",
   "memoGeneratedAt": "2026-08-26T05:17:15.287Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,8 +64,8 @@
   "consolidatedAvg": 65.29,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 88,
+    "tractionRank": 2,
+    "tractionScore": 96,
     "tractionReason": "Several million dollars in signed customer contracts"
   },
   "paths": {

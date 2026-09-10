@@ -20,7 +20,7 @@
     "Computer Vision",
     "B2B"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/dream.jpg",
   "memoGeneratedAt": "2026-08-26T05:25:26.655Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 24
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 181,
+  "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 41,
-    "tractionReason": "Onboarding pilot partners across vehicle operators"
+    "tractionRank": 131,
+    "tractionScore": 50,
+    "tractionReason": "Onboarding pilot partners across asset operators"
   },
   "paths": {
     "memo": "summer2026/memos/dream.md",

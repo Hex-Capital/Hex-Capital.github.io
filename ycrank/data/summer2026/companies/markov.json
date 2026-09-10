@@ -18,7 +18,7 @@
     "Data Labeling",
     "Data Engineering"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/markov.jpg",
   "memoGeneratedAt": "2026-08-11T04:53:10.376Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 47,
-  "consolidatedRank": 91,
+  "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 68,
-    "tractionReason": "150K dataset downloads; 12,300 hours published"
+    "tractionRank": 73,
+    "tractionScore": 62,
+    "tractionReason": "150K dataset downloads and 12,300 video hours"
   },
   "paths": {
     "memo": "summer2026/memos/markov.md",

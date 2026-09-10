@@ -18,7 +18,7 @@
     "Reinforcement Learning",
     "Robotic Process Automation"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/praxis-robotics.jpg",
   "memoGeneratedAt": "2026-08-26T05:11:28.851Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 24
   },
   "consolidatedAvg": 39.43,
-  "consolidatedRank": 164,
+  "consolidatedRank": 163,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 51,
-    "tractionReason": "Embedded in large organizations; 60K-worker network"
+    "tractionRank": 135,
+    "tractionScore": 50,
+    "tractionReason": "Embedded within unnamed public and unicorn organizations"
   },
   "paths": {
     "memo": "summer2026/memos/praxis-robotics.md",

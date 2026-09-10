@@ -18,7 +18,7 @@
     "Drug discovery",
     "Biotechnology"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/atlas-discovery.jpg",
   "memoGeneratedAt": "2026-08-11T05:48:23.536Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 46
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 174,
+  "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 34,
-    "tractionReason": "Retrospective clinical benchmarks; no customers"
+    "tractionRank": 155,
+    "tractionScore": 46,
+    "tractionReason": "Retrospective clinical results; no commercial deployment"
   },
   "paths": {
     "memo": "summer2026/memos/atlas-discovery.md",

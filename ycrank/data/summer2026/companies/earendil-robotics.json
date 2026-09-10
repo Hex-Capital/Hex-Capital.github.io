@@ -18,7 +18,7 @@
     "Swarm Robotics",
     "AR"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/earendil-robotics.jpg",
   "memoGeneratedAt": "2026-08-11T04:38:21.762Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.43,
   "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 174,
-    "tractionScore": 33,
-    "tractionReason": "Defense exhibition and product showcase"
+    "tractionRank": 203,
+    "tractionScore": 24,
+    "tractionReason": "Defense exhibition; no contracts disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/earendil-robotics.md",

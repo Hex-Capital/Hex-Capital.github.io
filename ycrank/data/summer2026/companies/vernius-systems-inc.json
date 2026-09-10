@@ -20,7 +20,7 @@
     "Aerospace",
     "Defense"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/vernius-systems-inc.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:20.744Z",
   "evalScores": {
     "cyan-banister": {
@@ -64,9 +64,9 @@
   "consolidatedAvg": 65.43,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 76,
-    "tractionReason": "45 units sold to special forces"
+    "tractionRank": 54,
+    "tractionScore": 66,
+    "tractionReason": "45 units sold; $500M non-revenue LOIs"
   },
   "paths": {
     "memo": "summer2026/memos/vernius-systems-inc.md",

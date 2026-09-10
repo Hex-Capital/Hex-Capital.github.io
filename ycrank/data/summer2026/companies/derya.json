@@ -20,7 +20,7 @@
     "Procurement",
     "Automation"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/derya.jpg",
   "memoGeneratedAt": "2026-08-26T05:10:55.391Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,11 +62,11 @@
     "VK": 30
   },
   "consolidatedAvg": 47.14,
-  "consolidatedRank": 88,
+  "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 74,
-    "tractionReason": "$80K contracted revenue in first month"
+    "tractionRank": 13,
+    "tractionScore": 86,
+    "tractionReason": "$80K contracted revenue during first month"
   },
   "paths": {
     "memo": "summer2026/memos/derya.md",

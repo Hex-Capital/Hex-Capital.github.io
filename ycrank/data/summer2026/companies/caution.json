@@ -18,7 +18,7 @@
     "Cloud Computing",
     "Infrastructure"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/caution.jpg",
   "memoGeneratedAt": "2026-08-11T16:33:19.638Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,7 +62,7 @@
   "consolidatedAvg": 52.71,
   "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 80,
+    "tractionRank": 97,
     "tractionScore": 57,
     "tractionReason": "Production customers across five workload categories"
   },

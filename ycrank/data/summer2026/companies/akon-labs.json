@@ -18,7 +18,7 @@
     "Generative AI",
     "SaaS"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/akon-labs.jpg",
   "memoGeneratedAt": "2026-08-26T05:14:04.507Z",
   "evalScores": {
     "cyan-banister": {
@@ -62,9 +62,9 @@
   "consolidatedAvg": 58.29,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 71,
-    "tractionReason": "45.8K stars; 47K weekly downloads; 10 enterprise deployments"
+    "tractionRank": 31,
+    "tractionScore": 74,
+    "tractionReason": "45.8K stars, 47K weekly downloads, 10 enterprise deployments"
   },
   "paths": {
     "memo": "summer2026/memos/akon-labs.md",

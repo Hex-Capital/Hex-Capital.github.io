@@ -62,9 +62,9 @@
   "consolidatedAvg": 27.86,
   "consolidatedRank": 227,
   "traction": {
-    "tractionRank": 207,
-    "tractionScore": 21,
-    "tractionReason": "Paid pricing; no usage disclosed"
+    "tractionRank": 190,
+    "tractionScore": 35,
+    "tractionReason": "Paid plan available; no usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/click.md",

@@ -60,11 +60,11 @@
     "VK": 17
   },
   "consolidatedAvg": 32.14,
-  "consolidatedRank": 219,
+  "consolidatedRank": 218,
   "traction": {
-    "tractionRank": 202,
-    "tractionScore": 23,
-    "tractionReason": "Product available; no paying-user evidence"
+    "tractionRank": 174,
+    "tractionScore": 42,
+    "tractionReason": "Mac and Windows apps; no paying users disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/agent-fm.md",

@@ -18,7 +18,7 @@
     "AI",
     "AI Assistant"
   ],
-  "slideImage": null,
+  "slideImage": "summer2026/slides/images/almanac.jpg",
   "memoGeneratedAt": "2026-08-11T05:09:28.865Z",
   "evalScores": {
     "cyan-banister": {
@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 212,
+  "consolidatedRank": 211,
   "traction": {
-    "tractionRank": 199,
-    "tractionScore": 24,
-    "tractionReason": "Current usage undisclosed; prior product stars excluded"
+    "tractionRank": 176,
+    "tractionScore": 41,
+    "tractionReason": "Current paid product; only prior-product usage disclosed"
   },
   "paths": {
     "memo": "summer2026/memos/almanac.md",

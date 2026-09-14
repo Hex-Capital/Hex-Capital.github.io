@@ -248,6 +248,10 @@ a {
     max-height: 96px;
 }
 
+.card-logo-wrap img.aurie-logo {
+    transform: scale(0.8);
+}
+
 .portfolio-card:hover .card-logo-wrap img {
     opacity: 1;
 }

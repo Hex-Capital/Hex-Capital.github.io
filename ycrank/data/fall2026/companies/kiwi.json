@@ -1,0 +1,80 @@
+{
+  "slug": "kiwi",
+  "name": "Kiwi",
+  "oneLiner": "Kiwi is your GTM agent's favorite data engineer.",
+  "metadata": {
+    "website": "https://withkiwi.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/kiwi",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/kiwi))",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Collaboration, AI",
+    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/kiwi))",
+    "emails": "melanie@withkiwi.ai, hello@withkiwi.ai ([YC launch](https://www.ycombinator.com/launches/WGR-kiwi-your-gtm-agent-s-data-engineer), [Kiwi privacy policy](https://withkiwi.ai/privacy))"
+  },
+  "tags": [
+    "Collaboration",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:54:37.835Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 44,
+    "NR": 42,
+    "PG": 37,
+    "PT": 30,
+    "SL": 32,
+    "VK": 28
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 93,
+  "traction": {
+    "tractionRank": 137,
+    "tractionScore": 19,
+    "tractionReason": "100+ discovery conversations; no disclosed customers or usage"
+  },
+  "paths": {
+    "memo": "fall2026/memos/kiwi.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/kiwi.md",
+      "elad-gil": "fall2026/evals/elad-gil/kiwi.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/kiwi.md",
+      "paul-graham": "fall2026/evals/paul-graham/kiwi.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/kiwi.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/kiwi.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/kiwi.md"
+    }
+  }
+}

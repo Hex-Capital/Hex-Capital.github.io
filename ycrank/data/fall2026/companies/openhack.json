@@ -1,0 +1,81 @@
+{
+  "slug": "openhack",
+  "name": "OpenHack",
+  "oneLiner": "Always-on AI security engineer",
+  "metadata": {
+    "website": "https://openhack.com",
+    "yc_page": "https://www.ycombinator.com/companies/openhack",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/openhack))",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "DevSecOps, Cybersecurity, AI",
+    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/openhack))",
+    "emails": "ananay@openhack.com, security@openhack.com, legal@openhack.com ([Contact](https://openhack.com/contact)); privacy@openhack.com ([Trust Center](https://openhack.com/trust)); team@openhack.com ([GitHub](https://github.com/openhackai))"
+  },
+  "tags": [
+    "DevSecOps",
+    "Cybersecurity",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:54:37.343Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 39,
+    "NR": 48,
+    "PG": 43,
+    "PT": 28,
+    "SL": 32,
+    "VK": 28
+  },
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 92,
+  "traction": {
+    "tractionRank": 68,
+    "tractionScore": 46,
+    "tractionReason": "Six displayed customer/team logos; 430 stars; payment status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/openhack.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/openhack.md",
+      "elad-gil": "fall2026/evals/elad-gil/openhack.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/openhack.md",
+      "paul-graham": "fall2026/evals/paul-graham/openhack.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/openhack.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/openhack.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/openhack.md"
+    }
+  }
+}

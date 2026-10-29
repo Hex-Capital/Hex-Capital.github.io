@@ -1,0 +1,82 @@
+{
+  "slug": "agent-relay",
+  "name": "Agent Relay",
+  "oneLiner": "Let your teams' coding agents message each other",
+  "metadata": {
+    "website": "https://agentrelay.com",
+    "yc_page": "https://www.ycombinator.com/companies/agent-relay",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/agent-relay))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Swarm AI, Open Source, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/agent-relay))",
+    "emails": "hello@agentrelay.com ([Support](https://agentrelay.com/support)); hi@agentrelay.com ([Careers](https://agentrelay.com/careers)); founders@agentrelay.com ([YC](https://www.ycombinator.com/companies/agent-relay)); security@agentrelay.com ([Security](https://agentrelay.com/security))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Swarm AI",
+    "Open Source",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:00:54.174Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 45,
+    "NR": 43,
+    "PG": 59,
+    "PT": 36,
+    "SL": 36,
+    "VK": 27
+  },
+  "consolidatedAvg": 42.29,
+  "consolidatedRank": 32,
+  "traction": {
+    "tractionRank": 53,
+    "tractionScore": 50,
+    "tractionReason": "229.6K listed package downloads; approximately 1,000 stars; team-use testimonial"
+  },
+  "paths": {
+    "memo": "fall2026/memos/agent-relay.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/agent-relay.md",
+      "elad-gil": "fall2026/evals/elad-gil/agent-relay.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/agent-relay.md",
+      "paul-graham": "fall2026/evals/paul-graham/agent-relay.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/agent-relay.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/agent-relay.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/agent-relay.md"
+    }
+  }
+}

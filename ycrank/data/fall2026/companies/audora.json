@@ -1,0 +1,81 @@
+{
+  "slug": "audora",
+  "name": "Audora",
+  "oneLiner": "Audiobooks where every character has their own voice.",
+  "metadata": {
+    "website": "https://audora.art",
+    "yc_page": "https://www.ycombinator.com/companies/audora",
+    "batch": "Fall 2026 ([YC profile](https://www.ycombinator.com/companies/audora), accessed Oct 27, 2026)",
+    "industry": "Consumer / Consumer",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Consumer, Entertainment",
+    "yc_partner": "Tyler Bosmeny ([YC profile](https://www.ycombinator.com/companies/audora))",
+    "emails": "talent@audora.art ([founder post](https://www.linkedin.com/posts/dhanushrv_i-got-into-y-combinator-im-18-and-a-solo-activity-7480644401665421312-n_mJ)); tristan@audora.art ([team LinkedIn](https://ca.linkedin.com/in/tristan-ly-381432381), via search snippet); hii@rambhat.la ([founder LinkedIn](https://www.linkedin.com/in/dhanushrv), via search snippet); hi@towu.dev ([founder GitHub](https://github.com/TheOnlyWayUp))"
+  },
+  "tags": [
+    "Generative AI",
+    "Consumer",
+    "Entertainment"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:20:45.766Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 23,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 25,
+    "NR": 44,
+    "PG": 41,
+    "PT": 28,
+    "SL": 31,
+    "VK": 23
+  },
+  "consolidatedAvg": 33.14,
+  "consolidatedRank": 152,
+  "traction": {
+    "tractionRank": 118,
+    "tractionScore": 26,
+    "tractionReason": "161 reported Product Hunt votes; no disclosed users or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/audora.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/audora.md",
+      "elad-gil": "fall2026/evals/elad-gil/audora.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/audora.md",
+      "paul-graham": "fall2026/evals/paul-graham/audora.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/audora.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/audora.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/audora.md"
+    }
+  }
+}

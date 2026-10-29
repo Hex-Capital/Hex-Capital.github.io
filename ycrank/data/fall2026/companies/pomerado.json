@@ -1,0 +1,83 @@
+{
+  "slug": "pomerado",
+  "name": "Pomerado",
+  "oneLiner": "Turn any website into an MCP for your agents, in minutes",
+  "metadata": {
+    "website": "https://www.pomerado.ai",
+    "yc_page": "https://www.ycombinator.com/companies/pomerado",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/pomerado))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, Workflow Automation, API, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/pomerado))",
+    "emails": "founders@pomerado.ai, akshay@pomerado.ai ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use))"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Workflow Automation",
+    "API",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:17:18.684Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 43,
+    "NR": 44,
+    "PG": 40,
+    "PT": 30,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 36.43,
+  "consolidatedRank": 104,
+  "traction": {
+    "tractionRank": 83,
+    "tractionScore": 42,
+    "tractionReason": "1.1K repository stars; 100 forks; no disclosed revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/pomerado.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/pomerado.md",
+      "elad-gil": "fall2026/evals/elad-gil/pomerado.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/pomerado.md",
+      "paul-graham": "fall2026/evals/paul-graham/pomerado.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/pomerado.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/pomerado.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/pomerado.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "anyalpha",
+  "name": "AnyAlpha",
+  "oneLiner": "The agentic trading platform",
+  "metadata": {
+    "website": "https://anyalpha.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/anyalpha",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/anyalpha))",
+    "industry": "Fintech / Fintech",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Marketplace, Consumer Finance, Trading",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/anyalpha))",
+    "emails": "jerry@anyalpha.ai ([website](https://anyalpha.ai/)); shirley@anyalpha.ai, sherry@anyalpha.ai ([YC launch](https://www.ycombinator.com/launches/WOO-anyalpha-the-agentic-trading-platform)); Android support: nativcontactus@gmail.com; developer: binxumiao@charmchat.app ([Google Play](https://play.google.com/store/apps/details?id=pro.betalpha.betalpha.us))"
+  },
+  "tags": [
+    "Fintech",
+    "Marketplace",
+    "Consumer Finance",
+    "Trading"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:11:53.255Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 35,
+    "NR": 31,
+    "PG": 36,
+    "PT": 32,
+    "SL": 32,
+    "VK": 25
+  },
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 157,
+  "traction": {
+    "tractionRank": 139,
+    "tractionScore": 18,
+    "tractionReason": "Current-agent adoption undisclosed; shared app ratings include earlier product"
+  },
+  "paths": {
+    "memo": "fall2026/memos/anyalpha.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/anyalpha.md",
+      "elad-gil": "fall2026/evals/elad-gil/anyalpha.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/anyalpha.md",
+      "paul-graham": "fall2026/evals/paul-graham/anyalpha.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/anyalpha.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/anyalpha.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/anyalpha.md"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "elimentary",
+  "name": "Elimentary",
+  "oneLiner": "Agents that run middle/back-office operations for Private Capital",
+  "metadata": {
+    "website": "https://www.elimentary.com",
+    "yc_page": "https://www.ycombinator.com/companies/elimentary",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/elimentary))",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "5",
+    "location": "New York City, NY, USA",
+    "tags": "FinOps, Enterprise",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/elimentary))",
+    "emails": "founders@elimentary.com ([Security](https://www.elimentary.com/newsroom/security-was-never-phase-two-for-us)); contact@elimentary.com ([Terms](https://policy.elimentary.com/Terms_and_Services.html)); labs@elimentary.com ([Labs](https://labs.elimentary.com/contact))"
+  },
+  "tags": [
+    "FinOps",
+    "Enterprise"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:01:09.578Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 71,
+    "NR": 48,
+    "PG": 45,
+    "PT": 36,
+    "SL": 43,
+    "VK": 34
+  },
+  "consolidatedAvg": 46.86,
+  "consolidatedRank": 11,
+  "traction": {
+    "tractionRank": 49,
+    "tractionScore": 52,
+    "tractionReason": "TresVista production deployment; 500+ filing checks; additional fund case study"
+  },
+  "paths": {
+    "memo": "fall2026/memos/elimentary.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/elimentary.md",
+      "elad-gil": "fall2026/evals/elad-gil/elimentary.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/elimentary.md",
+      "paul-graham": "fall2026/evals/paul-graham/elimentary.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/elimentary.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/elimentary.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/elimentary.md"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "tilo",
+  "name": "Tilo",
+  "oneLiner": "A Linux-based, AI-native operating system.",
+  "metadata": {
+    "website": "https://tilo.so",
+    "yc_page": "https://www.ycombinator.com/companies/tilo",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/tilo))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/tilo))",
+    "emails": "security@tilo.so ([Tilo security policy](https://code.tilo.so/tilo/tilo/src/branch/main/SECURITY.md))"
+  },
+  "tags": [
+    "AIOps",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:56:13.010Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 46,
+    "NR": 42,
+    "PG": 39,
+    "PT": 35,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 63,
+  "traction": {
+    "tractionRank": 123,
+    "tractionScore": 23,
+    "tractionReason": "Three repository stars; no disclosed users or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/tilo.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/tilo.md",
+      "elad-gil": "fall2026/evals/elad-gil/tilo.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/tilo.md",
+      "paul-graham": "fall2026/evals/paul-graham/tilo.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/tilo.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/tilo.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/tilo.md"
+    }
+  }
+}

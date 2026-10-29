@@ -60,9 +60,9 @@
     "VK": 38
   },
   "consolidatedAvg": 44.14,
-  "consolidatedRank": 127,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 159,
+    "tractionRank": 152,
     "tractionScore": 45,
     "tractionReason": "200K-neuron experiment and 255 GitHub stars"
   },

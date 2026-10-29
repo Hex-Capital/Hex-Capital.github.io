@@ -1,0 +1,81 @@
+{
+  "slug": "frontrunner",
+  "name": "Frontrunner",
+  "oneLiner": "Cursor for GTM",
+  "metadata": {
+    "website": "https://usefr.com/",
+    "yc_page": "https://www.ycombinator.com/companies/frontrunner",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/frontrunner))",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Sales, Marketing, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/frontrunner))",
+    "emails": "founders@usefr.com ([Frontrunner Terms](https://usefr.com/terms-of-service))"
+  },
+  "tags": [
+    "Sales",
+    "Marketing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:01:10.342Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 49,
+    "NR": 46,
+    "PG": 43,
+    "PT": 31,
+    "SL": 39,
+    "VK": 27
+  },
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 52,
+  "traction": {
+    "tractionRank": 56,
+    "tractionScore": 50,
+    "tractionReason": "Multiple customer testimonials; 100+ opportunities actioned daily"
+  },
+  "paths": {
+    "memo": "fall2026/memos/frontrunner.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/frontrunner.md",
+      "elad-gil": "fall2026/evals/elad-gil/frontrunner.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/frontrunner.md",
+      "paul-graham": "fall2026/evals/paul-graham/frontrunner.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/frontrunner.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/frontrunner.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/frontrunner.md"
+    }
+  }
+}

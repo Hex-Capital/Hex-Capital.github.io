@@ -1,0 +1,80 @@
+{
+  "slug": "everyapp",
+  "name": "EveryApp",
+  "oneLiner": "Make every app open source",
+  "metadata": {
+    "website": "https://everyapp.com",
+    "yc_page": "https://www.ycombinator.com/companies/everyapp",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/everyapp))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "tags": "Developer Tools, Open Source, Marketing",
+    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/everyapp))",
+    "emails": "support@everyapp.dev ([EveryApp](https://everyapp.com/privacy)); support@openseo.so, privacy@openseo.so ([OpenSEO](https://openseo.so/support))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Marketing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:14:58.094Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 36,
+    "NR": 45,
+    "PG": 45,
+    "PT": 30,
+    "SL": 32,
+    "VK": 27
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 81,
+  "traction": {
+    "tractionRank": 98,
+    "tractionScore": 39,
+    "tractionReason": "Current platform has 351 stars; launched October 26"
+  },
+  "paths": {
+    "memo": "fall2026/memos/everyapp.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/everyapp.md",
+      "elad-gil": "fall2026/evals/elad-gil/everyapp.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/everyapp.md",
+      "paul-graham": "fall2026/evals/paul-graham/everyapp.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/everyapp.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/everyapp.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/everyapp.md"
+    }
+  }
+}

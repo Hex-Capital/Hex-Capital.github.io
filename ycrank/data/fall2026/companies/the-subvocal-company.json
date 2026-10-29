@@ -1,0 +1,81 @@
+{
+  "slug": "the-subvocal-company",
+  "name": "The Subvocal Company",
+  "oneLiner": "Talk to your computer without talking",
+  "metadata": {
+    "website": "https://subvocal.company",
+    "yc_page": "https://www.ycombinator.com/companies/the-subvocal-company",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/the-subvocal-company))",
+    "industry": "Consumer / Consumer -> Consumer Electronics",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Hardware, Consumer",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/the-subvocal-company))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Consumer"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:00:40.536Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 35,
+    "NR": 47,
+    "PG": 35,
+    "PT": 35,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 35.29,
+  "consolidatedRank": 123,
+  "traction": {
+    "tractionRank": 170,
+    "tractionScore": 9,
+    "tractionReason": "Prototype performance claimed; no disclosed customer adoption"
+  },
+  "paths": {
+    "memo": "fall2026/memos/the-subvocal-company.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/the-subvocal-company.md",
+      "elad-gil": "fall2026/evals/elad-gil/the-subvocal-company.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/the-subvocal-company.md",
+      "paul-graham": "fall2026/evals/paul-graham/the-subvocal-company.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/the-subvocal-company.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/the-subvocal-company.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/the-subvocal-company.md"
+    }
+  }
+}

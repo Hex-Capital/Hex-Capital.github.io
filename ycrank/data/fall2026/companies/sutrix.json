@@ -1,0 +1,80 @@
+{
+  "slug": "sutrix",
+  "name": "Sutrix",
+  "oneLiner": "Deployed AI to turn EHR data into study-ready datasets",
+  "metadata": {
+    "website": "https://www.sutrix.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/sutrix",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sutrix))",
+    "industry": "Healthcare / Healthcare -> Healthcare IT",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Healthcare, Healthcare IT",
+    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/sutrix))",
+    "emails": "supra@sutrix.ai ([Sutrix privacy policy](https://www.sutrix.ai/privacy))"
+  },
+  "tags": [
+    "Healthcare",
+    "Healthcare IT"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:07:50.337Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 71,
+    "NR": 54,
+    "PG": 54,
+    "PT": 36,
+    "SL": 46,
+    "VK": 28
+  },
+  "consolidatedAvg": 48.57,
+  "consolidatedRank": 4,
+  "traction": {
+    "tractionRank": 7,
+    "tractionScore": 78,
+    "tractionReason": "$150K+ cumulative revenue over recent months; 10+ paying institutions"
+  },
+  "paths": {
+    "memo": "fall2026/memos/sutrix.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/sutrix.md",
+      "elad-gil": "fall2026/evals/elad-gil/sutrix.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/sutrix.md",
+      "paul-graham": "fall2026/evals/paul-graham/sutrix.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/sutrix.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/sutrix.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/sutrix.md"
+    }
+  }
+}

@@ -60,9 +60,9 @@
     "VK": 46
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 173,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 155,
+    "tractionRank": 148,
     "tractionScore": 46,
     "tractionReason": "Retrospective clinical results; no commercial deployment"
   },

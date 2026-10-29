@@ -1,0 +1,76 @@
+{
+  "slug": "snowstone",
+  "name": "Snowstone",
+  "oneLiner": "AI-Driven Value Creation and Margin Expansion for Private Equity",
+  "metadata": {
+    "website": "https://snowstone.ai",
+    "yc_page": "https://www.ycombinator.com/companies/snowstone",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/snowstone))",
+    "industry": "B2B / B2B -> Operations",
+    "location": "San Francisco, CA, USA",
+    "tags": "Finance, Operations, AI",
+    "yc_partner": "Tyler Bosmeny ([YC](https://www.ycombinator.com/companies/snowstone))",
+    "emails": "founders@snowstone.ai ([website](https://snowstone.ai)); security@snowstone.ai ([security](https://snowstone.ai/trust-and-security/)); careers@snowstone.ai ([careers](https://snowstone.ai/careers/)); legacy contacts: founder@snowstone.ai ([privacy policy, Oct 8, 2026, via search snippet](https://snowstone.ai/privacy)), lucas@cerenovus.ai and massimo@cerenovus.ai ([company LinkedIn](https://www.linkedin.com/company/snowstone-ai/))"
+  },
+  "tags": [
+    "Finance",
+    "Operations",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:44:50.418Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 42,
+    "NR": 35,
+    "PG": 34,
+    "PT": 33,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 34.14,
+  "consolidatedRank": 205,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/snowstone.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/snowstone.md",
+      "elad-gil": "summer2026/evals/elad-gil/snowstone.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/snowstone.md",
+      "paul-graham": "summer2026/evals/paul-graham/snowstone.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/snowstone.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/snowstone.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/snowstone.md"
+    }
+  }
+}

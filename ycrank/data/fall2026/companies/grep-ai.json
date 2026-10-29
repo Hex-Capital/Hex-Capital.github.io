@@ -1,0 +1,80 @@
+{
+  "slug": "grep-ai",
+  "name": "Grep AI",
+  "oneLiner": "Self-improving agents that automate your growth bottlenecks",
+  "metadata": {
+    "website": "https://grep.ai",
+    "yc_page": "https://www.ycombinator.com/companies/grep-ai",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/grep-ai))",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "6",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, AI",
+    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/grep-ai))",
+    "emails": "founders@grep.ai ([YC](https://www.ycombinator.com/companies/grep-ai)); feedback@grep.ai ([Grep](https://grep.ai/blog/grep-pro-api-access-paid-plans)); support@parcha.ai ([Parcha](https://www.parcha.ai/)); careers@parcha.ai ([Grep About, via search snippet](https://grep.ai/about))"
+  },
+  "tags": [
+    "Fintech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:20:40.345Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 63,
+    "EG": 71,
+    "NR": 57,
+    "PG": 63,
+    "PT": 41,
+    "SL": 42,
+    "VK": 42
+  },
+  "consolidatedAvg": 54.14,
+  "consolidatedRank": 2,
+  "traction": {
+    "tractionRank": 27,
+    "tractionScore": 59,
+    "tractionReason": "Named enterprise customers; continued production compliance deployments; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/grep-ai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/grep-ai.md",
+      "elad-gil": "fall2026/evals/elad-gil/grep-ai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/grep-ai.md",
+      "paul-graham": "fall2026/evals/paul-graham/grep-ai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/grep-ai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/grep-ai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/grep-ai.md"
+    }
+  }
+}

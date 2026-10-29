@@ -1,0 +1,82 @@
+{
+  "slug": "faraday",
+  "name": "Faraday",
+  "oneLiner": "Agents running manufacturers from the back office to the shop floor",
+  "metadata": {
+    "website": "https://faradaycompute.com",
+    "yc_page": "https://www.ycombinator.com/companies/faraday",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/faraday))",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Manufacturing, Enterprise Software, AI",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/faraday))",
+    "emails": "team@faradaycompute.com ([Faraday Privacy Policy](https://faradaycompute.com/privacy))"
+  },
+  "tags": [
+    "B2B",
+    "Manufacturing",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:12:53.282Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 42,
+    "NR": 37,
+    "PG": 34,
+    "PT": 37,
+    "SL": 32,
+    "VK": 32
+  },
+  "consolidatedAvg": 36.71,
+  "consolidatedRank": 99,
+  "traction": {
+    "tractionRank": 145,
+    "tractionScore": 16,
+    "tractionReason": "Synthetic benchmark released; zero repository stars; no disclosed deployments"
+  },
+  "paths": {
+    "memo": "fall2026/memos/faraday.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/faraday.md",
+      "elad-gil": "fall2026/evals/elad-gil/faraday.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/faraday.md",
+      "paul-graham": "fall2026/evals/paul-graham/faraday.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/faraday.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/faraday.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/faraday.md"
+    }
+  }
+}

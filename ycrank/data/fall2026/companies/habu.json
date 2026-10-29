@@ -1,0 +1,81 @@
+{
+  "slug": "habu",
+  "name": "HABU",
+  "oneLiner": "Like Crosby, but for real estate development",
+  "metadata": {
+    "website": "https://buildhabu.com",
+    "yc_page": "https://www.ycombinator.com/companies/habu",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/habu))",
+    "industry": "Real Estate and Construction / Real Estate and Construction",
+    "team_size": "2",
+    "location": "Phoenix, AZ, USA",
+    "tags": "Hard Tech, Real Estate, Housing",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/habu))",
+    "emails": "founders@buildhabu.com ([HABU privacy policy](https://www.buildhabu.com/privacy))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Real Estate",
+    "Housing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:58:13.586Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 22,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 38,
+    "NR": 34,
+    "PG": 32,
+    "PT": 30,
+    "SL": 30,
+    "VK": 22
+  },
+  "consolidatedAvg": 31.71,
+  "consolidatedRank": 165,
+  "traction": {
+    "tractionRank": 135,
+    "tractionScore": 19,
+    "tractionReason": "Public launch; no disclosed customers or supported project results"
+  },
+  "paths": {
+    "memo": "fall2026/memos/habu.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/habu.md",
+      "elad-gil": "fall2026/evals/elad-gil/habu.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/habu.md",
+      "paul-graham": "fall2026/evals/paul-graham/habu.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/habu.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/habu.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/habu.md"
+    }
+  }
+}

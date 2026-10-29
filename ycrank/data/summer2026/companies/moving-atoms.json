@@ -61,9 +61,9 @@
     "VK": 28
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 171,
+  "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 199,
+    "tractionRank": 188,
     "tractionScore": 27,
     "tractionReason": "Physics benchmark result; no commercial users"
   },

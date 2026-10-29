@@ -1,0 +1,79 @@
+{
+  "slug": "isoquant",
+  "name": "isoquant",
+  "oneLiner": "Self-optimizing inference cloud for faster, cheaper AI",
+  "metadata": {
+    "website": "https://isoquant.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/isoquant",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/isoquant))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI",
+    "yc_partner": "Brad Flora ([YC](https://www.ycombinator.com/companies/isoquant))",
+    "emails": "founders@isoquant.ai ([website](https://isoquant.ai/contact)); founders@agentfm.ai, prior product ([YC launch](https://www.ycombinator.com/launches/SQ0-agent-fm-one-group-chat-to-hear-and-steer-your-coding-agents))"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:19:45.438Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 61,
+    "NR": 51,
+    "PG": 52,
+    "PT": 36,
+    "SL": 32,
+    "VK": 38
+  },
+  "consolidatedAvg": 46.14,
+  "consolidatedRank": 13,
+  "traction": {
+    "tractionRank": 26,
+    "tractionScore": 59,
+    "tractionReason": "1.2T tokens monthly; 1,000+ customers; paying breakdown undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/isoquant.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/isoquant.md",
+      "elad-gil": "fall2026/evals/elad-gil/isoquant.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/isoquant.md",
+      "paul-graham": "fall2026/evals/paul-graham/isoquant.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/isoquant.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/isoquant.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/isoquant.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "helios-intelligence",
+  "name": "Helios Intelligence",
+  "oneLiner": "At-home molecular body test: 1,000+ biomarkers from a drop of blood",
+  "metadata": {
+    "website": "https://www.heliosinc.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/helios-intelligence",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/helios-intelligence))",
+    "industry": "Healthcare / Healthcare -> Consumer Health and Wellness",
+    "team_size": "5",
+    "location": "Boston, MA, USA",
+    "tags": "Health Tech, Consumer, Diagnostics, Health & Wellness, AI",
+    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/helios-intelligence))",
+    "emails": "hello@heliosinc.ai ([Helios](https://www.heliosinc.ai/)); hello@takeroon.com ([Roon](https://www.takeroon.com/terms)); academic contacts: oabudayyeh@bwh.harvard.edu ([Harvard](https://bbsphd.hms.harvard.edu/people/omar-abudayyeh)), jgootenb@bidmc.harvard.edu ([Harvard](https://cvvr.hms.harvard.edu/lab-member/jonathan/)), jgoot@mit.edu ([MIT](https://ilpstex.mit.edu/en/content/faculty-profiles/jonathan-s-gootenberg))"
+  },
+  "tags": [
+    "Health Tech",
+    "Consumer",
+    "Diagnostics",
+    "Health & Wellness",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:01:39.051Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 36,
+    "NR": 48,
+    "PG": 35,
+    "PT": 31,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 36.86,
+  "consolidatedRank": 97,
+  "traction": {
+    "tractionRank": 176,
+    "tractionScore": 7,
+    "tractionReason": "Molecular test forthcoming; separate supplement sales excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/helios-intelligence.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/helios-intelligence.md",
+      "elad-gil": "fall2026/evals/elad-gil/helios-intelligence.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/helios-intelligence.md",
+      "paul-graham": "fall2026/evals/paul-graham/helios-intelligence.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/helios-intelligence.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/helios-intelligence.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/helios-intelligence.md"
+    }
+  }
+}

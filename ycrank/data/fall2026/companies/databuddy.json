@@ -1,0 +1,83 @@
+{
+  "slug": "databuddy",
+  "name": "Databuddy",
+  "oneLiner": "AI Data Analyst for fast-growing teams",
+  "metadata": {
+    "website": "https://www.databuddy.cc",
+    "yc_page": "https://www.ycombinator.com/companies/databuddy",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/databuddy))",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "B2B, Analytics, Data Engineering, Infrastructure, AI",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/databuddy))",
+    "emails": "support@databuddy.cc, legal@databuddy.cc ([Terms](https://www.databuddy.cc/terms)); privacy@databuddy.cc ([Privacy](https://www.databuddy.cc/privacy)); sponsors@databuddy.cc ([Sponsors](https://www.databuddy.cc/sponsors)); issa@databuddy.cc ([Founder website](https://www.izadoesdev.com/), via search snippet)"
+  },
+  "tags": [
+    "B2B",
+    "Analytics",
+    "Data Engineering",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:27:52.484Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 40,
+    "NR": 52,
+    "PG": 61,
+    "PT": 33,
+    "SL": 40,
+    "VK": 25
+  },
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 24,
+  "traction": {
+    "tractionRank": 11,
+    "tractionScore": 69,
+    "tractionReason": "Stripe-verified $3,125 platform MRR; 35 active subscriptions"
+  },
+  "paths": {
+    "memo": "fall2026/memos/databuddy.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/databuddy.md",
+      "elad-gil": "fall2026/evals/elad-gil/databuddy.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/databuddy.md",
+      "paul-graham": "fall2026/evals/paul-graham/databuddy.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/databuddy.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/databuddy.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/databuddy.md"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "resin-technologies",
+  "name": "Resin Technologies",
+  "oneLiner": "Resin helps engineers design electronics faster and more reliably",
+  "metadata": {
+    "website": "https://resineda.com/",
+    "yc_page": "https://www.ycombinator.com/companies/resin-technologies",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/resin-technologies))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Electronics, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/resin-technologies))",
+    "emails": "anmol@resineda.com ([YC](https://www.ycombinator.com/companies/resin-technologies)); hello@resineda.com, support@resineda.com ([Resin Support](https://resineda.com/support))"
+  },
+  "tags": [
+    "Hardware",
+    "Electronics",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:16:34.154Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 32,
+    "NR": 43,
+    "PG": 35,
+    "PT": 33,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 34.14,
+  "consolidatedRank": 144,
+  "traction": {
+    "tractionRank": 129,
+    "tractionScore": 20,
+    "tractionReason": "Public launch; 176 LinkedIn followers; no disclosed adoption"
+  },
+  "paths": {
+    "memo": "fall2026/memos/resin-technologies.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/resin-technologies.md",
+      "elad-gil": "fall2026/evals/elad-gil/resin-technologies.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/resin-technologies.md",
+      "paul-graham": "fall2026/evals/paul-graham/resin-technologies.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/resin-technologies.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/resin-technologies.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/resin-technologies.md"
+    }
+  }
+}

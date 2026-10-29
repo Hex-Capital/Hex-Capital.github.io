@@ -1,0 +1,81 @@
+{
+  "slug": "dreamscale-labs",
+  "name": "Dreamscale Labs",
+  "oneLiner": "Real-time cloud inference for robotics.",
+  "metadata": {
+    "website": "https://dreamscalelabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/dreamscale-labs",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/dreamscale-labs))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Infrastructure, AI",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/dreamscale-labs))",
+    "emails": "founders@dreamscalelabs.com ([website](https://www.dreamscalelabs.com/)); contact@dreamscalelabs.com ([company blog](https://www.dreamscalelabs.com/blog/why/))"
+  },
+  "tags": [
+    "Robotics",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:17:49.132Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 53,
+    "NR": 42,
+    "PG": 43,
+    "PT": 40,
+    "SL": 36,
+    "VK": 32
+  },
+  "consolidatedAvg": 43.57,
+  "consolidatedRank": 23,
+  "traction": {
+    "tractionRank": 69,
+    "tractionScore": 46,
+    "tractionReason": "Named Munari deployment; HUD partnership; payment status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/dreamscale-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/dreamscale-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/dreamscale-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/dreamscale-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/dreamscale-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/dreamscale-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/dreamscale-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/dreamscale-labs.md"
+    }
+  }
+}

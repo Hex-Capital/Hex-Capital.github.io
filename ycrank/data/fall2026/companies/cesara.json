@@ -1,0 +1,80 @@
+{
+  "slug": "cesara",
+  "name": "Cesara",
+  "oneLiner": "Faster & accurate transactions for health systems",
+  "metadata": {
+    "website": "https://cesara.com",
+    "yc_page": "https://www.ycombinator.com/companies/cesara",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/cesara))",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Healthcare, AI",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/cesara))",
+    "emails": "team@cesara.com ([Cesara contact page](https://cesara.com/contact))"
+  },
+  "tags": [
+    "Healthcare",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:51:36.888Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 49,
+    "NR": 40,
+    "PG": 41,
+    "PT": 29,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 87,
+  "traction": {
+    "tractionRank": 66,
+    "tractionScore": 47,
+    "tractionReason": "Outcome-based pilots report underpayment recoveries; realized fees undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/cesara.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/cesara.md",
+      "elad-gil": "fall2026/evals/elad-gil/cesara.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/cesara.md",
+      "paul-graham": "fall2026/evals/paul-graham/cesara.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/cesara.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/cesara.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/cesara.md"
+    }
+  }
+}

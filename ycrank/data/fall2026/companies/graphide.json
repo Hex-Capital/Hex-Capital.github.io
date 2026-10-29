@@ -1,0 +1,81 @@
+{
+  "slug": "graphide",
+  "name": "Graphide",
+  "oneLiner": "A graph based IDE for when agents program faster than you can read",
+  "metadata": {
+    "website": "https://Graphide.com",
+    "yc_page": "https://www.ycombinator.com/companies/graphide",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/graphide))",
+    "industry": "B2B / B2B",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, DevOps, AI",
+    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/graphide))",
+    "emails": "hello@graphide.com, dan@graphide.com ([Graphide terms](https://graphide.com/terms/))"
+  },
+  "tags": [
+    "Generative AI",
+    "DevOps",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:09:30.597Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 39,
+    "NR": 37,
+    "PG": 36,
+    "PT": 31,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 132,
+  "traction": {
+    "tractionRank": 104,
+    "tractionScore": 34,
+    "tractionReason": "Developers reportedly using own codebases; user totals undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/graphide.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/graphide.md",
+      "elad-gil": "fall2026/evals/elad-gil/graphide.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/graphide.md",
+      "paul-graham": "fall2026/evals/paul-graham/graphide.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/graphide.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/graphide.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/graphide.md"
+    }
+  }
+}

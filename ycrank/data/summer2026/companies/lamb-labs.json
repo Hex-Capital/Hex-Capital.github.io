@@ -62,9 +62,9 @@
     "VK": 43
   },
   "consolidatedAvg": 41.86,
-  "consolidatedRank": 145,
+  "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 154,
+    "tractionRank": 147,
     "tractionScore": 46,
     "tractionReason": "Working 7B-model dev board; no customers"
   },

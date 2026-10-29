@@ -61,9 +61,9 @@
     "VK": 28
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 110,
+  "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 69,
+    "tractionRank": 67,
     "tractionScore": 63,
     "tractionReason": "One million daily events; teams at Google and Exa"
   },

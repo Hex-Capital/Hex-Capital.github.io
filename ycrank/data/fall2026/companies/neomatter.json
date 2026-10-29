@@ -1,0 +1,81 @@
+{
+  "slug": "neomatter",
+  "name": "Neomatter",
+  "oneLiner": "AI that works for in-house legal teams",
+  "metadata": {
+    "website": "https://neomatter.com",
+    "yc_page": "https://www.ycombinator.com/companies/neomatter",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/neomatter))",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Legal",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/neomatter))",
+    "emails": "luke.wagner@neomatter.com, support@neomatter.com, security@neomatter.com ([Support](https://neomatter.com/support)); legal@neomatter.com ([Trust Center](https://neomatter.com/trust)); founders@neomatter.com ([YC](https://www.ycombinator.com/companies/neomatter)); lukemainwaring@dahliaintel.com, prior-venture address ([Mainwaring’s website](https://lukemainwaring.com/))"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Legal"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:18:45.017Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 32,
+    "NR": 33,
+    "PG": 33,
+    "PT": 30,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 30.86,
+  "consolidatedRank": 175,
+  "traction": {
+    "tractionRank": 131,
+    "tractionScore": 20,
+    "tractionReason": "200+ discovery interviews; no disclosed customer conversions"
+  },
+  "paths": {
+    "memo": "fall2026/memos/neomatter.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/neomatter.md",
+      "elad-gil": "fall2026/evals/elad-gil/neomatter.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/neomatter.md",
+      "paul-graham": "fall2026/evals/paul-graham/neomatter.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/neomatter.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/neomatter.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/neomatter.md"
+    }
+  }
+}

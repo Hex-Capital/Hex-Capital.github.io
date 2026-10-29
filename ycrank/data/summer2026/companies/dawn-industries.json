@@ -58,9 +58,9 @@
     "VK": 27
   },
   "consolidatedAvg": 33.86,
-  "consolidatedRank": 209,
+  "consolidatedRank": 206,
   "traction": {
-    "tractionRank": 193,
+    "tractionRank": 182,
     "tractionScore": 30,
     "tractionReason": "Current product launched; no deployments disclosed"
   },

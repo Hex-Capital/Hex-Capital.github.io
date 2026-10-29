@@ -60,9 +60,9 @@
     "VK": 25
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 203,
+  "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 194,
+    "tractionRank": 183,
     "tractionScore": 30,
     "tractionReason": "Public studio and API; no usage disclosed"
   },

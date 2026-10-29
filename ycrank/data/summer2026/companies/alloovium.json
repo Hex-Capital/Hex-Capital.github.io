@@ -59,9 +59,9 @@
     "VK": 36
   },
   "consolidatedAvg": 45.71,
-  "consolidatedRank": 105,
+  "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 52,
+    "tractionRank": 50,
     "tractionScore": 66,
     "tractionReason": "Paid subscriptions deployed across $400M of projects"
   },

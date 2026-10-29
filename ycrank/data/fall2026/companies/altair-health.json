@@ -1,0 +1,81 @@
+{
+  "slug": "altair-health",
+  "name": "Altair Health",
+  "oneLiner": "Stripe for medical billing",
+  "metadata": {
+    "website": "https://www.altair-health.com",
+    "yc_page": "https://www.ycombinator.com/companies/altair-health",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/altair-health))",
+    "industry": "Healthcare / Healthcare -> Healthcare Services",
+    "team_size": "4",
+    "location": "Austin, TX, USA",
+    "tags": "Health Tech, Healthcare, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/altair-health))",
+    "emails": "hello@altair-health.com ([Altair](https://altair-health.com/)); hello@s7-lab.health ([parent company S7 Lab](https://www.s7-lab.health/))"
+  },
+  "tags": [
+    "Health Tech",
+    "Healthcare",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:08:11.923Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 38,
+    "NR": 43,
+    "PG": 41,
+    "PT": 30,
+    "SL": 39,
+    "VK": 25
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 84,
+  "traction": {
+    "tractionRank": 64,
+    "tractionScore": 48,
+    "tractionReason": "Active billing engagement collects hundreds of thousands monthly for client"
+  },
+  "paths": {
+    "memo": "fall2026/memos/altair-health.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/altair-health.md",
+      "elad-gil": "fall2026/evals/elad-gil/altair-health.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/altair-health.md",
+      "paul-graham": "fall2026/evals/paul-graham/altair-health.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/altair-health.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/altair-health.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/altair-health.md"
+    }
+  }
+}

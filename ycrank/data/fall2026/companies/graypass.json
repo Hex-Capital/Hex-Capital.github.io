@@ -1,0 +1,81 @@
+{
+  "slug": "graypass",
+  "name": "GrayPass",
+  "oneLiner": "Verify the expected person is still in control before sensitive?",
+  "metadata": {
+    "website": "https://graypass.com/",
+    "yc_page": "https://www.ycombinator.com/companies/graypass",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/graypass))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "Toronto, ON, Canada",
+    "tags": "Biometrics, Identity, Infrastructure",
+    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/graypass))",
+    "emails": "founders@graypass.org ([company](https://graypass.com/company)); tools@graypass.org ([terms](https://graypass.com/terms)); aditya@graypass.org ([LinkedIn](https://www.linkedin.com/in/ad1tyaranjan), via search snippet); aravmathur23@gmail.com ([founder portfolio](https://aravmathur.vercel.app/))"
+  },
+  "tags": [
+    "Biometrics",
+    "Identity",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:59:34.489Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 36,
+    "NR": 42,
+    "PG": 37,
+    "PT": 34,
+    "SL": 32,
+    "VK": 27
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 114,
+  "traction": {
+    "tractionRank": 14,
+    "tractionScore": 66,
+    "tractionReason": "Five figures in revenue; period unspecified; European pilots"
+  },
+  "paths": {
+    "memo": "fall2026/memos/graypass.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/graypass.md",
+      "elad-gil": "fall2026/evals/elad-gil/graypass.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/graypass.md",
+      "paul-graham": "fall2026/evals/paul-graham/graypass.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/graypass.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/graypass.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/graypass.md"
+    }
+  }
+}

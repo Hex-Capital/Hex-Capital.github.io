@@ -1,0 +1,83 @@
+{
+  "slug": "saccade",
+  "name": "Saccade",
+  "oneLiner": "World's Earliest Test for Alzheimer's Biomarkers",
+  "metadata": {
+    "website": "https://saccade.health",
+    "yc_page": "https://www.ycombinator.com/companies/saccade",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/saccade))",
+    "industry": "Healthcare / Healthcare -> Consumer Health and Wellness",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Hardware, Machine Learning, B2B, Healthcare",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/saccade))",
+    "emails": "admin@saccade.health, support@saccade.health ([Saccade privacy notice](https://saccade.health/privacy.html)); shreyas@saccade.health ([YC launch](https://www.ycombinator.com/launches/Vff-saccade-world-s-earliest-test-for-alzheimer-s-biomarkers))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Machine Learning",
+    "B2B",
+    "Healthcare"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:14:13.746Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 30,
+    "NR": 47,
+    "PG": 37,
+    "PT": 36,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 134,
+  "traction": {
+    "tractionRank": 63,
+    "tractionScore": 48,
+    "tractionReason": "San Francisco clinic deployments reported; assessment volumes undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/saccade.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/saccade.md",
+      "elad-gil": "fall2026/evals/elad-gil/saccade.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/saccade.md",
+      "paul-graham": "fall2026/evals/paul-graham/saccade.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/saccade.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/saccade.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/saccade.md"
+    }
+  }
+}

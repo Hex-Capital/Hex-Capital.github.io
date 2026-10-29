@@ -1,0 +1,81 @@
+{
+  "slug": "antimattr",
+  "name": "antimattr",
+  "oneLiner": "voice-first hardware interface for human-agent interaction",
+  "metadata": {
+    "website": "https://www.antimattr.one/project-mnemosyne?utm_source=bookface&utm_medium=social&utm_campaign=bookface_antimattr_profile",
+    "yc_page": "https://www.ycombinator.com/companies/antimattr",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/antimattr))",
+    "industry": "Consumer / Consumer -> Consumer Electronics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Consumer, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/antimattr))",
+    "emails": "future@antimattr.one ([product page](https://www.antimattr.one/project-mnemosyne)); support@antimattr.one ([privacy policy](https://www.antimattr.one/privacy-policy)); team@antimattr.one ([founder LinkedIn](https://www.linkedin.com/in/sridiptoghosh), via search snippet)"
+  },
+  "tags": [
+    "Hardware",
+    "Consumer",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:11:57.522Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 44,
+    "NR": 49,
+    "PG": 48,
+    "PT": 34,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 59,
+  "traction": {
+    "tractionRank": 23,
+    "tractionScore": 60,
+    "tractionReason": "40+ early units sold; 300+ paid preorders"
+  },
+  "paths": {
+    "memo": "fall2026/memos/antimattr.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/antimattr.md",
+      "elad-gil": "fall2026/evals/elad-gil/antimattr.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/antimattr.md",
+      "paul-graham": "fall2026/evals/paul-graham/antimattr.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/antimattr.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/antimattr.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/antimattr.md"
+    }
+  }
+}

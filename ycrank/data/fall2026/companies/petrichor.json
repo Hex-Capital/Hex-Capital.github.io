@@ -1,0 +1,80 @@
+{
+  "slug": "petrichor",
+  "name": "Petrichor",
+  "oneLiner": "Wet lab infrastructure that turns AI experiments into training data.",
+  "metadata": {
+    "website": "https://petrichorbio.com/",
+    "yc_page": "https://www.ycombinator.com/companies/petrichor",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/petrichor))",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/petrichor))",
+    "emails": "wilhelm@petrichorbio.com ([company website](https://petrichorbio.com/)); wilhelm@qokedas.com, earlier company identity ([Qokedas website](https://qokedas.com/))"
+  },
+  "tags": [
+    "Deep Learning",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:14:38.954Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 31,
+    "NR": 28,
+    "PG": 31,
+    "PT": 33,
+    "SL": 28,
+    "VK": 25
+  },
+  "consolidatedAvg": 31.71,
+  "consolidatedRank": 166,
+  "traction": {
+    "tractionRank": 174,
+    "tractionScore": 8,
+    "tractionReason": "Current wet-lab customers, execution volume and revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/petrichor.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/petrichor.md",
+      "elad-gil": "fall2026/evals/elad-gil/petrichor.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/petrichor.md",
+      "paul-graham": "fall2026/evals/paul-graham/petrichor.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/petrichor.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/petrichor.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/petrichor.md"
+    }
+  }
+}

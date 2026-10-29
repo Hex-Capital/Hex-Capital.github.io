@@ -60,9 +60,9 @@
     "VK": 22
   },
   "consolidatedAvg": 45.14,
-  "consolidatedRank": 113,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 30,
+    "tractionRank": 29,
     "tractionScore": 74,
     "tractionReason": "Six clients generated two billion views"
   },

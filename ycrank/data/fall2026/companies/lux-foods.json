@@ -1,0 +1,83 @@
+{
+  "slug": "lux-foods",
+  "name": "Lux Foods",
+  "oneLiner": "Crops engineered for premium fruit, grown without sunlight.",
+  "metadata": {
+    "website": "https://www.luxfoods.xyz",
+    "yc_page": "https://www.ycombinator.com/companies/lux-foods",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/lux-foods))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Cellular Agriculture, Robotics, Agriculture, AI, Biotechnology",
+    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/lux-foods))",
+    "emails": "andre@luxfoods.farm ([Lux Foods](https://www.luxfoods.xyz/our-people/)); robert.jinkerson@ucr.edu ([NASA investigator profile](https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=B82A3D71DCC330C71CDD487C94D4B9A4))"
+  },
+  "tags": [
+    "Cellular Agriculture",
+    "Robotics",
+    "Agriculture",
+    "AI",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:09:46.362Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 33,
+    "NR": 43,
+    "PG": 40,
+    "PT": 41,
+    "SL": 30,
+    "VK": 28
+  },
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 68,
+  "traction": {
+    "tractionRank": 169,
+    "tractionScore": 9,
+    "tractionReason": "Early tomato batches at internal pilot; no disclosed sales"
+  },
+  "paths": {
+    "memo": "fall2026/memos/lux-foods.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/lux-foods.md",
+      "elad-gil": "fall2026/evals/elad-gil/lux-foods.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/lux-foods.md",
+      "paul-graham": "fall2026/evals/paul-graham/lux-foods.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/lux-foods.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/lux-foods.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/lux-foods.md"
+    }
+  }
+}

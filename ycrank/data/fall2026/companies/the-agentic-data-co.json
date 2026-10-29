@@ -1,0 +1,81 @@
+{
+  "slug": "the-agentic-data-co",
+  "name": "The Agentic Data Co.",
+  "oneLiner": "Training Data For Speech Models.",
+  "metadata": {
+    "website": "https://theagenticdatacompany.com",
+    "yc_page": "https://www.ycombinator.com/companies/the-agentic-data-co",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/the-agentic-data-co))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI, Conversational AI, ML",
+    "yc_partner": "Christopher Golda ([YC directory](https://www.ycombinator.com/companies/the-agentic-data-co))",
+    "emails": "matias@theagenticdatacompany.com ([dataset page](https://theagenticdatacompany.com/datasets/tool-calling)); christian@theagenticdatacompany.com ([Hugging Face](https://huggingface.co/TheAgenticDataCompany)); legal@theagenticdatacompany.com ([privacy notice](https://theagenticdatacompany.com/privacy))"
+  },
+  "tags": [
+    "AI",
+    "Conversational AI",
+    "ML"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:58:09.089Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 38,
+    "NR": 55,
+    "PG": 43,
+    "PT": 37,
+    "SL": 30,
+    "VK": 30
+  },
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 42,
+  "traction": {
+    "tractionRank": 82,
+    "tractionScore": 43,
+    "tractionReason": "Public dataset sample records 3,022 monthly downloads; commercial revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/the-agentic-data-co.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/the-agentic-data-co.md",
+      "elad-gil": "fall2026/evals/elad-gil/the-agentic-data-co.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/the-agentic-data-co.md",
+      "paul-graham": "fall2026/evals/paul-graham/the-agentic-data-co.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/the-agentic-data-co.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/the-agentic-data-co.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/the-agentic-data-co.md"
+    }
+  }
+}

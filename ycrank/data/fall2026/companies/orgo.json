@@ -1,0 +1,81 @@
+{
+  "slug": "orgo",
+  "name": "Orgo",
+  "oneLiner": "Computers for Agents",
+  "metadata": {
+    "website": "https://www.orgo.ai",
+    "yc_page": "https://www.ycombinator.com/companies/orgo",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/orgo))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Cloud Computing, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/orgo))",
+    "emails": "contact@orgo.ai ([Docs](https://docs.orgo.ai/introduction)); spencer@orgo.ai ([Terms](https://www.orgo.ai/terms)); privacy@orgo.ai ([Privacy](https://www.orgo.ai/privacy)); email@spencerkinney.dev ([Founder website](https://www.spencerkinney.dev/))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:11:43.078Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 54,
+    "NR": 51,
+    "PG": 56,
+    "PT": 31,
+    "SL": 38,
+    "VK": 25
+  },
+  "consolidatedAvg": 44,
+  "consolidatedRank": 22,
+  "traction": {
+    "tractionRank": 24,
+    "tractionScore": 60,
+    "tractionReason": "1,000+ teams; thousands of production desktops; paying customer confirmed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/orgo.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/orgo.md",
+      "elad-gil": "fall2026/evals/elad-gil/orgo.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/orgo.md",
+      "paul-graham": "fall2026/evals/paul-graham/orgo.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/orgo.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/orgo.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/orgo.md"
+    }
+  }
+}

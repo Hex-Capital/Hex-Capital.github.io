@@ -1,0 +1,81 @@
+{
+  "slug": "ignition-benefits",
+  "name": "Ignition Benefits",
+  "oneLiner": "The AI-Native Benefits Brokerage",
+  "metadata": {
+    "website": "https://www.ignitionbenefits.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ignition-benefits",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/ignition-benefits))",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "12",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Health Insurance, Insurance, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/ignition-benefits))",
+    "emails": "nick@ignitionbenefits.com, info@ignitionbenefits.com ([YC Launch](https://www.ycombinator.com/launches/TzC-ignition-the-ai-native-benefits-broker-for-modern-companies))"
+  },
+  "tags": [
+    "Health Insurance",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:16:48.868Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 42,
+    "NR": 46,
+    "PG": 42,
+    "PT": 29,
+    "SL": 37,
+    "VK": 29
+  },
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 65,
+  "traction": {
+    "tractionRank": 48,
+    "tractionScore": 52,
+    "tractionReason": "Two named brokerage customers; recurring qualified inbound; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ignition-benefits.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ignition-benefits.md",
+      "elad-gil": "fall2026/evals/elad-gil/ignition-benefits.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ignition-benefits.md",
+      "paul-graham": "fall2026/evals/paul-graham/ignition-benefits.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ignition-benefits.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ignition-benefits.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ignition-benefits.md"
+    }
+  }
+}

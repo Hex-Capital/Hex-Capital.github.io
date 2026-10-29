@@ -1,0 +1,81 @@
+{
+  "slug": "silica",
+  "name": "Silica",
+  "oneLiner": "Actuators for Physical AI",
+  "metadata": {
+    "website": "https://silicamachines.com/",
+    "yc_page": "https://www.ycombinator.com/companies/silica",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/silica))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Robotics, Manufacturing",
+    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/silica))",
+    "emails": "enrico@silicamachines.com ([Silica About](https://www.silicamachines.com/about))"
+  },
+  "tags": [
+    "Hardware",
+    "Robotics",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:11:51.741Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 31,
+    "NR": 33,
+    "PG": 29,
+    "PT": 29,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 29.57,
+  "consolidatedRank": 182,
+  "traction": {
+    "tractionRank": 141,
+    "tractionScore": 18,
+    "tractionReason": "Preorders open; prototypes and production scheduled; order counts undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/silica.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/silica.md",
+      "elad-gil": "fall2026/evals/elad-gil/silica.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/silica.md",
+      "paul-graham": "fall2026/evals/paul-graham/silica.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/silica.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/silica.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/silica.md"
+    }
+  }
+}

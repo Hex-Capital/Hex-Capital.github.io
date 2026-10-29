@@ -1,0 +1,80 @@
+{
+  "slug": "antropi-robotics",
+  "name": "Antropi Robotics",
+  "oneLiner": "Autonomous CNC factories for faster hardware",
+  "metadata": {
+    "website": "https://www.antropi.world/",
+    "yc_page": "https://www.ycombinator.com/companies/antropi-robotics",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/antropi-robotics))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Manufacturing",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/antropi-robotics))",
+    "emails": "founders@antropi.world ([company contact page](https://www.antropi.world/request-demo))"
+  },
+  "tags": [
+    "Robotics",
+    "Manufacturing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:00:49.689Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 68,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 68,
+    "EG": 53,
+    "NR": 62,
+    "PG": 49,
+    "PT": 37,
+    "SL": 42,
+    "VK": 32
+  },
+  "consolidatedAvg": 49,
+  "consolidatedRank": 3,
+  "traction": {
+    "tractionRank": 18,
+    "tractionScore": 62,
+    "tractionReason": "Profitable operating factory; 2,000+ parts shipped; named customer delivery"
+  },
+  "paths": {
+    "memo": "fall2026/memos/antropi-robotics.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/antropi-robotics.md",
+      "elad-gil": "fall2026/evals/elad-gil/antropi-robotics.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/antropi-robotics.md",
+      "paul-graham": "fall2026/evals/paul-graham/antropi-robotics.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/antropi-robotics.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/antropi-robotics.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/antropi-robotics.md"
+    }
+  }
+}

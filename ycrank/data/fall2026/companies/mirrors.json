@@ -1,0 +1,83 @@
+{
+  "slug": "mirrors",
+  "name": "Mirrors",
+  "oneLiner": "Give AI agents the right context at the right moment",
+  "metadata": {
+    "website": "https://www.mirrors.dev",
+    "yc_page": "https://www.ycombinator.com/companies/mirrors",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/mirrors))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Developer Tools, SaaS, B2B, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/mirrors))",
+    "emails": "devs@runmirrors.com ([Mirrors](https://mirrors.dev/)); aryan.singhal2016@gmail.com ([founder website](https://www.aisinghal.com/)); aryan@profine.ai, prior-project address ([GitHub](https://github.com/ai-singhal))"
+  },
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:04:05.876Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 39,
+    "NR": 41,
+    "PG": 35,
+    "PT": 30,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 140,
+  "traction": {
+    "tractionRank": 85,
+    "tractionScore": 42,
+    "tractionReason": "711,933 agent sessions displayed; current-version allocation undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/mirrors.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/mirrors.md",
+      "elad-gil": "fall2026/evals/elad-gil/mirrors.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/mirrors.md",
+      "paul-graham": "fall2026/evals/paul-graham/mirrors.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/mirrors.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/mirrors.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/mirrors.md"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "conus",
+  "name": "CONUS",
+  "oneLiner": "The AI knowledge layer for medical devices",
+  "metadata": {
+    "website": "https://www.conus-med.com",
+    "yc_page": "https://www.ycombinator.com/companies/conus",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/conus))",
+    "industry": "Healthcare / Healthcare",
+    "team_size": "3",
+    "location": "Cologne, NRW, Germany",
+    "tags": "Healthcare, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/conus))",
+    "emails": "info@conus-med.com ([CONUS imprint](https://conus-med.com/en/imprint)); vincent.paffrath@conus-med.com ([YC](https://www.ycombinator.com/companies/conus))"
+  },
+  "tags": [
+    "Healthcare",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:25:26.517Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 37,
+    "NR": 48,
+    "PG": 43,
+    "PT": 34,
+    "SL": 42,
+    "VK": 28
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 62,
+  "traction": {
+    "tractionRank": 16,
+    "tractionScore": 64,
+    "tractionReason": "Paid manufacturer services finance operations; 20+ hospitals live"
+  },
+  "paths": {
+    "memo": "fall2026/memos/conus.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/conus.md",
+      "elad-gil": "fall2026/evals/elad-gil/conus.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/conus.md",
+      "paul-graham": "fall2026/evals/paul-graham/conus.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/conus.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/conus.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/conus.md"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "trylatent",
+  "name": "Latent",
+  "oneLiner": "Catch wrong LLM answers before your customers do",
+  "metadata": {
+    "website": "http://runlatent.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/trylatent",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/trylatent))",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI",
+    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/trylatent))",
+    "emails": "vedant@runlatent.ai ([YC](https://www.ycombinator.com/companies/trylatent)); founders@runlatent.ai ([Company](https://runlatent.ai/company)); support@runlatent.ai, billing@runlatent.ai, calibration@runlatent.ai ([Pricing](https://runlatent.ai/pricing)); security@runlatent.ai ([Security](https://runlatent.ai/security)); hello@runlatent.ai ([PyPI](https://pypi.org/project/runlatent/0.0.1/))"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:12:31.773Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 41,
+    "NR": 51,
+    "PG": 37,
+    "PT": 41,
+    "SL": 30,
+    "VK": 30
+  },
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 70,
+  "traction": {
+    "tractionRank": 132,
+    "tractionScore": 20,
+    "tractionReason": "SDK published; public launch; no disclosed users or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/trylatent.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/trylatent.md",
+      "elad-gil": "fall2026/evals/elad-gil/trylatent.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/trylatent.md",
+      "paul-graham": "fall2026/evals/paul-graham/trylatent.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/trylatent.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/trylatent.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/trylatent.md"
+    }
+  }
+}

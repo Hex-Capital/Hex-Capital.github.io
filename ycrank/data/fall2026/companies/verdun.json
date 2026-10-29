@@ -1,0 +1,81 @@
+{
+  "slug": "verdun",
+  "name": "Verdun",
+  "oneLiner": "The world's most advanced security monitoring service",
+  "metadata": {
+    "website": "https://verdun.ai",
+    "yc_page": "https://www.ycombinator.com/companies/verdun",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/verdun))",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "6",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Machine Learning, Computer Vision, AI",
+    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/verdun))",
+    "emails": "support@verdun.ai ([website](https://verdun.ai)); tung@verdun.ai ([careers](https://verdun.ai/careers/evals-engineer))"
+  },
+  "tags": [
+    "Machine Learning",
+    "Computer Vision",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:03:43.346Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 46,
+    "NR": 45,
+    "PG": 38,
+    "PT": 33,
+    "SL": 33,
+    "VK": 27
+  },
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 79,
+  "traction": {
+    "tractionRank": 179,
+    "tractionScore": 6,
+    "tractionReason": "Security service announced; no disclosed customers or deployments"
+  },
+  "paths": {
+    "memo": "fall2026/memos/verdun.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/verdun.md",
+      "elad-gil": "fall2026/evals/elad-gil/verdun.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/verdun.md",
+      "paul-graham": "fall2026/evals/paul-graham/verdun.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/verdun.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/verdun.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/verdun.md"
+    }
+  }
+}

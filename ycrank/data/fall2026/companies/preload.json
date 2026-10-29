@@ -1,0 +1,83 @@
+{
+  "slug": "preload",
+  "name": "Preload",
+  "oneLiner": "Sensorimotor context for physical AI",
+  "metadata": {
+    "website": "https://preload.ai",
+    "yc_page": "https://www.ycombinator.com/companies/preload",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/preload))",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Neurotechnology, Robotics, Robotic Surgery, B2B, AI",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/preload))",
+    "emails": "tony@preload.ai, surya@preload.ai ([founder post reproduced on LinkedIn](https://fr.linkedin.com/in/lucas-fridman), via search snippet)"
+  },
+  "tags": [
+    "Neurotechnology",
+    "Robotics",
+    "Robotic Surgery",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:09:31.067Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 31,
+    "NR": 34,
+    "PG": 33,
+    "PT": 27,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 161,
+  "traction": {
+    "tractionRank": 149,
+    "tractionScore": 15,
+    "tractionReason": "246,186 launch-video views; no disclosed customers or usage"
+  },
+  "paths": {
+    "memo": "fall2026/memos/preload.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/preload.md",
+      "elad-gil": "fall2026/evals/elad-gil/preload.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/preload.md",
+      "paul-graham": "fall2026/evals/paul-graham/preload.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/preload.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/preload.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/preload.md"
+    }
+  }
+}

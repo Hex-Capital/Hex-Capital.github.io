@@ -60,9 +60,9 @@
     "VK": 45
   },
   "consolidatedAvg": 47.71,
-  "consolidatedRank": 85,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 197,
+    "tractionRank": 186,
     "tractionScore": 27,
     "tractionReason": "Internal Salesforce benchmark; no customers"
   },

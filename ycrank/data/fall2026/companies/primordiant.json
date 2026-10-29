@@ -1,0 +1,83 @@
+{
+  "slug": "primordiant",
+  "name": "Primordiant",
+  "oneLiner": "Embodied Scientific Intelligence",
+  "metadata": {
+    "website": "https://primordiant.com",
+    "yc_page": "https://www.ycombinator.com/companies/primordiant",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/primordiant))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Energy, Advanced Materials, AI, Biotechnology",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/primordiant))",
+    "emails": "Published academic contacts: owen_tower@brown.edu ([Brown](https://sites.brown.edu/ling-lab/members/), via search snippet), cooper_niu@brown.edu ([Niu](https://cooperniu.com/about.html)), benedict_quartey@brown.edu ([Quartey](https://benedictquartey.github.io/)); company-domain addresses: No public data found"
+  },
+  "tags": [
+    "Robotics",
+    "Energy",
+    "Advanced Materials",
+    "AI",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:53:36.065Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 29,
+    "NR": 45,
+    "PG": 35,
+    "PT": 30,
+    "SL": 32,
+    "VK": 28
+  },
+  "consolidatedAvg": 36.71,
+  "consolidatedRank": 101,
+  "traction": {
+    "tractionRank": 142,
+    "tractionScore": 18,
+    "tractionReason": "Laboratory demonstration and early-access waitlist; enrollment count undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/primordiant.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/primordiant.md",
+      "elad-gil": "fall2026/evals/elad-gil/primordiant.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/primordiant.md",
+      "paul-graham": "fall2026/evals/paul-graham/primordiant.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/primordiant.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/primordiant.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/primordiant.md"
+    }
+  }
+}

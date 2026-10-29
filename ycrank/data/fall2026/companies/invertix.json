@@ -1,0 +1,81 @@
+{
+  "slug": "invertix",
+  "name": "Invertix",
+  "oneLiner": "Energy Superintelligence, AI that operates critical infrastructure",
+  "metadata": {
+    "website": "https://www.invertix.ai",
+    "yc_page": "https://www.ycombinator.com/companies/invertix",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/invertix))",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "8",
+    "location": "Munich, BY, Germany",
+    "tags": "Solar Power, Infrastructure, AI",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/invertix))",
+    "emails": "simon.karan@invertix.ai ([Terms](https://www.invertix.ai/terms)); nicolas.gutierrez@invertix.ai ([Contact page](https://www.invertix.ai/contact?source=resource&useCase=general), via search snippet)"
+  },
+  "tags": [
+    "Solar Power",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:00:23.936Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 39,
+    "NR": 51,
+    "PG": 43,
+    "PT": 34,
+    "SL": 36,
+    "VK": 25
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 86,
+  "traction": {
+    "tractionRank": 5,
+    "tractionScore": 84,
+    "tractionReason": "Multiple six figures ARR; 1.8 GW managed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/invertix.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/invertix.md",
+      "elad-gil": "fall2026/evals/elad-gil/invertix.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/invertix.md",
+      "paul-graham": "fall2026/evals/paul-graham/invertix.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/invertix.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/invertix.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/invertix.md"
+    }
+  }
+}

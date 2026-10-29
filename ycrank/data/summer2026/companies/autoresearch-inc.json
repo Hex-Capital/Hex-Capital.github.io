@@ -1,0 +1,79 @@
+{
+  "slug": "autoresearch-inc",
+  "name": "Autoresearch, Inc.",
+  "oneLiner": "Autoresearch as a service: we solve your hardest measurable problems",
+  "metadata": {
+    "website": "https://autoresearch.inc",
+    "yc_page": "https://www.ycombinator.com/companies/autoresearch-inc",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/autoresearch-inc))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Machine Learning, Reinforcement Learning, Infrastructure, AI",
+    "yc_partner": "Ankit Gupta ([YC](https://www.ycombinator.com/companies/autoresearch-inc))",
+    "emails": "founders@autoresearch.inc ([YC](https://www.ycombinator.com/companies/autoresearch-inc)); founders@hiloop.ai ([YC launch](https://www.ycombinator.com/launches/SBN-hiloop-we-run-thousands-of-experiments-to-improve-your-models)); security@autoresearch.inc ([security.txt](https://autoresearch.inc/.well-known/security.txt)); jeg74@cl.cam.ac.uk, Jad’s academic contact ([personal website](https://tekne.dev/))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Reinforcement Learning",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:45:13.373Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 46,
+    "NR": 42,
+    "PG": 41,
+    "PT": 32,
+    "SL": 31,
+    "VK": 33
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 181,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/autoresearch-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/autoresearch-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/autoresearch-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/autoresearch-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/autoresearch-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/autoresearch-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/autoresearch-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/autoresearch-inc.md"
+    }
+  }
+}

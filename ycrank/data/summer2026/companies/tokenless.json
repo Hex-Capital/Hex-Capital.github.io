@@ -1,0 +1,79 @@
+{
+  "slug": "tokenless",
+  "name": "Tokenless",
+  "oneLiner": "We find flaws in RL environments and evals and help you fix them.",
+  "metadata": {
+    "website": "https://usetokenless.com",
+    "yc_page": "https://www.ycombinator.com/companies/tokenless",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/tokenless))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Machine Learning, Reinforcement Learning, B2B, AI",
+    "yc_partner": "Vivian Midha Shen ([YC](https://www.ycombinator.com/companies/tokenless))",
+    "emails": "team@usetokenless.com ([company LinkedIn](https://www.linkedin.com/company/usetokenless/)); founders@touchyapp.com—prior product ([YC launch](https://www.ycombinator.com/launches/Syt-touchy-voice-first-ai-assistant-for-iphone-that-understands-the-world-around-you)); ra1336@cs.princeton.edu—research contact ([founder website](https://rohaga.github.io/))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Machine Learning",
+    "Reinforcement Learning",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:44:13.688Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 41,
+    "NR": 42,
+    "PG": 43,
+    "PT": 44,
+    "SL": 31,
+    "VK": 30
+  },
+  "consolidatedAvg": 39,
+  "consolidatedRank": 166,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/tokenless.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/tokenless.md",
+      "elad-gil": "summer2026/evals/elad-gil/tokenless.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/tokenless.md",
+      "paul-graham": "summer2026/evals/paul-graham/tokenless.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/tokenless.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/tokenless.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/tokenless.md"
+    }
+  }
+}

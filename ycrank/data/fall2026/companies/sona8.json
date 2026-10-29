@@ -1,0 +1,82 @@
+{
+  "slug": "sona8",
+  "name": "Sona8",
+  "oneLiner": "Voice agents survey employees to map, improve & automate workflows",
+  "metadata": {
+    "website": "https://sona8.com",
+    "yc_page": "https://www.ycombinator.com/companies/sona8",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sona8))",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "HR Tech, Infrastructure, AI, Conversational AI",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/sona8))",
+    "emails": "anton@sona8.com ([YC](https://www.ycombinator.com/companies/sona8)); thilo@sona8.com, legal@sona8.com ([Imprint](https://sona8.com/imprint)); privacy@sona8.com ([Privacy Policy](https://sona8.com/privacy-policy)); security@sona8.com ([Trust Center, via search snippet](https://trust.sona8.com/))"
+  },
+  "tags": [
+    "HR Tech",
+    "Infrastructure",
+    "AI",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:06:59.534Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 55,
+    "NR": 52,
+    "PG": 51,
+    "PT": 42,
+    "SL": 39,
+    "VK": 29
+  },
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 16,
+  "traction": {
+    "tractionRank": 28,
+    "tractionScore": 59,
+    "tractionReason": "10,000+ interviews; signed unnamed top-three consulting firm"
+  },
+  "paths": {
+    "memo": "fall2026/memos/sona8.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/sona8.md",
+      "elad-gil": "fall2026/evals/elad-gil/sona8.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/sona8.md",
+      "paul-graham": "fall2026/evals/paul-graham/sona8.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/sona8.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/sona8.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/sona8.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "caveman",
+  "name": "Caveman",
+  "oneLiner": "Caveman cuts what AI agents cost without making them dumber.",
+  "metadata": {
+    "website": "https://caveman.so",
+    "yc_page": "https://www.ycombinator.com/companies/caveman",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/caveman))",
+    "industry": "B2B / B2B",
+    "team_size": "1",
+    "location": "Amsterdam, NH, Netherlands",
+    "tags": "Developer Tools, Open Source, Infrastructure, AI",
+    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/caveman))",
+    "emails": "contact@caveman.so ([website](https://caveman.so/privacy)); support@caveman.so ([company GitHub](https://github.com/caveman-ai)); juliusbrussee@gmail.com ([founder CV](https://www.juliusbrussee.com/cv-julius-brussee.pdf))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:04:14.495Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 41,
+    "NR": 50,
+    "PG": 44,
+    "PT": 31,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 72,
+  "traction": {
+    "tractionRank": 34,
+    "tractionScore": 57,
+    "tractionReason": "Current toolkit has 115.5K stars and 6.7K forks; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/caveman.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/caveman.md",
+      "elad-gil": "fall2026/evals/elad-gil/caveman.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/caveman.md",
+      "paul-graham": "fall2026/evals/paul-graham/caveman.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/caveman.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/caveman.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/caveman.md"
+    }
+  }
+}

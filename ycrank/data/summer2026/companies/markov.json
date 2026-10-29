@@ -60,9 +60,9 @@
     "VK": 32
   },
   "consolidatedAvg": 47,
-  "consolidatedRank": 93,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 73,
+    "tractionRank": 71,
     "tractionScore": 62,
     "tractionReason": "150K dataset downloads and 12,300 video hours"
   },

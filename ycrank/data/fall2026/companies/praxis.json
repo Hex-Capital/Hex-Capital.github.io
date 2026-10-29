@@ -1,0 +1,81 @@
+{
+  "slug": "praxis",
+  "name": "Praxis",
+  "oneLiner": "AI agents that run law firm operations.",
+  "metadata": {
+    "website": "https://runpraxis.ai",
+    "yc_page": "https://www.ycombinator.com/companies/praxis",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/praxis))",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Legal, LegalTech, AI",
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/praxis))",
+    "emails": "founders@runpraxis.ai ([Praxis Privacy Policy](https://runpraxis.ai/privacy))"
+  },
+  "tags": [
+    "Legal",
+    "LegalTech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:57:07.714Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 40,
+    "NR": 42,
+    "PG": 36,
+    "PT": 27,
+    "SL": 32,
+    "VK": 28
+  },
+  "consolidatedAvg": 34.71,
+  "consolidatedRank": 136,
+  "traction": {
+    "tractionRank": 58,
+    "tractionScore": 49,
+    "tractionReason": "Live with multiple US law firms; payment status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/praxis.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/praxis.md",
+      "elad-gil": "fall2026/evals/elad-gil/praxis.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/praxis.md",
+      "paul-graham": "fall2026/evals/paul-graham/praxis.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/praxis.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/praxis.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/praxis.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "routerplus",
+  "name": "RouterPlus",
+  "oneLiner": "Marketplace for AI inference: the right model at the best price",
+  "metadata": {
+    "website": "https://routerplus.com",
+    "yc_page": "https://www.ycombinator.com/companies/routerplus",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/routerplus))",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "Bengaluru, KA, India",
+    "tags": "Developer Tools, Marketplace, B2B, AI",
+    "yc_partner": "Christopher Golda ([YC, via search snippet](https://www.ycombinator.com/companies/routerplus))",
+    "emails": "founders@evo-hq.com ([company terms](https://routerplus.com/capacity/terms/)); alok@dzero.vc, founder’s investing contact ([personal website](https://alokbishoyi.com/))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Marketplace",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T17:43:01.687Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 51,
+    "NR": 49,
+    "PG": 44,
+    "PT": 28,
+    "SL": 38,
+    "VK": 27
+  },
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 50,
+  "traction": {
+    "tractionRank": 33,
+    "tractionScore": 57,
+    "tractionReason": "Largest customer runs 3M agent conversations daily; payment status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/routerplus.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/routerplus.md",
+      "elad-gil": "fall2026/evals/elad-gil/routerplus.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/routerplus.md",
+      "paul-graham": "fall2026/evals/paul-graham/routerplus.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/routerplus.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/routerplus.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/routerplus.md"
+    }
+  }
+}

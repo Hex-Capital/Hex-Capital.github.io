@@ -1,0 +1,83 @@
+{
+  "slug": "collar",
+  "name": "Collar",
+  "oneLiner": "AI-Native Investor Relations",
+  "metadata": {
+    "website": "https://usecollarai.com",
+    "yc_page": "https://www.ycombinator.com/companies/collar",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/founders/kazel-koh))",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Finance, Enterprise, Operations, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/founders/kazel-koh))",
+    "emails": "news@usecollarai.com ([Collar privacy policy](https://www.usecollarai.com/privacy.html))"
+  },
+  "tags": [
+    "Generative AI",
+    "Finance",
+    "Enterprise",
+    "Operations",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:25:51.910Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 22,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 39,
+    "NR": 32,
+    "PG": 34,
+    "PT": 31,
+    "SL": 29,
+    "VK": 22
+  },
+  "consolidatedAvg": 31.57,
+  "consolidatedRank": 167,
+  "traction": {
+    "tractionRank": 78,
+    "tractionScore": 44,
+    "tractionReason": "IR partners cover $300B market cap; payment status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/collar.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/collar.md",
+      "elad-gil": "fall2026/evals/elad-gil/collar.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/collar.md",
+      "paul-graham": "fall2026/evals/paul-graham/collar.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/collar.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/collar.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/collar.md"
+    }
+  }
+}

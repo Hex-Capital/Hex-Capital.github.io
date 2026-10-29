@@ -1,0 +1,79 @@
+{
+  "slug": "deploy",
+  "name": "Deploy",
+  "oneLiner": "The generalist robot deployment company.",
+  "metadata": {
+    "website": "https://deployrobotics.co/",
+    "yc_page": "https://www.ycombinator.com/companies/deploy",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/deploy))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics",
+    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/deploy))",
+    "emails": "founders@deployrobotics.co ([YC](https://www.ycombinator.com/companies/deploy)); hello@deployrobotics.co ([Deploy website](https://deployrobotics.co/), via search snippet)"
+  },
+  "tags": [
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:57:42.473Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 53,
+    "EG": 44,
+    "NR": 43,
+    "PG": 35,
+    "PT": 31,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 85,
+  "traction": {
+    "tractionRank": 147,
+    "tractionScore": 16,
+    "tractionReason": "Exhibition packed 800+ pens; no disclosed customer deployments"
+  },
+  "paths": {
+    "memo": "fall2026/memos/deploy.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/deploy.md",
+      "elad-gil": "fall2026/evals/elad-gil/deploy.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/deploy.md",
+      "paul-graham": "fall2026/evals/paul-graham/deploy.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/deploy.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/deploy.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/deploy.md"
+    }
+  }
+}

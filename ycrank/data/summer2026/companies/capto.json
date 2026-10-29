@@ -1,0 +1,76 @@
+{
+  "slug": "capto",
+  "name": "Capto",
+  "oneLiner": "Build something the government wants",
+  "metadata": {
+    "website": "https://gocapto.com/",
+    "yc_page": "https://www.ycombinator.com/companies/capto",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/capto))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "GovTech, Workflow Automation",
+    "yc_partner": "Harshita Arora ([YC](https://www.ycombinator.com/companies/capto))",
+    "emails": "founders@chromie.dev ([Capto](https://gocapto.com/)); akshay@chromie.dev ([founder LinkedIn, via search snippet](https://www.linkedin.com/in/akshaymistry-)); ananth.sankaralingam@gmail.com, legacy-product developer contact ([Chrome Web Store](https://chromewebstore.google.com/detail/chromiedev/bcnimmmbcdongfkkppoiiangempjmpap))"
+  },
+  "tags": [
+    "GovTech",
+    "Workflow Automation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:43:23.376Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 53,
+    "NR": 49,
+    "PG": 59,
+    "PT": 34,
+    "SL": 37,
+    "VK": 32
+  },
+  "consolidatedAvg": 43.86,
+  "consolidatedRank": 125,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/capto.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/capto.md",
+      "elad-gil": "summer2026/evals/elad-gil/capto.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/capto.md",
+      "paul-graham": "summer2026/evals/paul-graham/capto.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/capto.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/capto.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/capto.md"
+    }
+  }
+}

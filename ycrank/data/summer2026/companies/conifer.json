@@ -60,9 +60,9 @@
     "VK": 33
   },
   "consolidatedAvg": 44,
-  "consolidatedRank": 128,
+  "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 173,
+    "tractionRank": 165,
     "tractionScore": 42,
     "tractionReason": "Current launch with 248 shared-repository stars"
   },

@@ -1,0 +1,81 @@
+{
+  "slug": "keres",
+  "name": "Keres",
+  "oneLiner": "Kill the drone, keep the jet. Reusable unmanned interceptors.",
+  "metadata": {
+    "website": "https://www.keresaero.com/",
+    "yc_page": "https://www.ycombinator.com/companies/keres",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/keres))",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "3",
+    "location": "Denver, CO, USA",
+    "tags": "Airplanes, Aerospace, Defense",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/keres))",
+    "emails": "parker@keresaero.com ([company website](https://www.keresaero.com/))"
+  },
+  "tags": [
+    "Airplanes",
+    "Aerospace",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:51:24.554Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 34,
+    "NR": 36,
+    "PG": 29,
+    "PT": 32,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 31.29,
+  "consolidatedRank": 170,
+  "traction": {
+    "tractionRank": 172,
+    "tractionScore": 9,
+    "tractionReason": "Media profile only; no disclosed orders or customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/keres.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/keres.md",
+      "elad-gil": "fall2026/evals/elad-gil/keres.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/keres.md",
+      "paul-graham": "fall2026/evals/paul-graham/keres.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/keres.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/keres.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/keres.md"
+    }
+  }
+}

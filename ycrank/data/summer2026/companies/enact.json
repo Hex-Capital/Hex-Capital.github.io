@@ -60,9 +60,9 @@
     "VK": 24
   },
   "consolidatedAvg": 28.14,
-  "consolidatedRank": 226,
+  "consolidatedRank": 221,
   "traction": {
-    "tractionRank": 214,
+    "tractionRank": 202,
     "tractionScore": 15,
     "tractionReason": "Request-data page live; no users"
   },

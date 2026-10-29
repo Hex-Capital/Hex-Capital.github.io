@@ -1,0 +1,82 @@
+{
+  "slug": "armorer-labs",
+  "name": "Armorer Labs",
+  "oneLiner": "Continuous security verification for AI agents in regulated industries",
+  "metadata": {
+    "website": "https://armorerlabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/armorer-labs",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/armorer-labs))",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, DevSecOps, Cybersecurity, AI",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/armorer-labs))",
+    "emails": "founders@armorerlabs.com ([YC](https://www.ycombinator.com/companies/armorer-labs)); security@armorerlabs.com, support@armorerlabs.com ([Privacy](https://armorerlabs.com/privacy)); dev@armorerlabs.com ([GitHub](https://github.com/ArmorerLabs)); cristianleo120@gmail.com ([CTO profile](https://cristianleoo.github.io/about))"
+  },
+  "tags": [
+    "Developer Tools",
+    "DevSecOps",
+    "Cybersecurity",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:07:17.016Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 50,
+    "NR": 55,
+    "PG": 42,
+    "PT": 41,
+    "SL": 32,
+    "VK": 33
+  },
+  "consolidatedAvg": 42.86,
+  "consolidatedRank": 29,
+  "traction": {
+    "tractionRank": 96,
+    "tractionScore": 40,
+    "tractionReason": "Just Eat Takeaway engineering testimonial; paying status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/armorer-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/armorer-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/armorer-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/armorer-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/armorer-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/armorer-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/armorer-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/armorer-labs.md"
+    }
+  }
+}

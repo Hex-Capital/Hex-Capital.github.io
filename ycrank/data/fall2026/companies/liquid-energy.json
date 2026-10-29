@@ -1,0 +1,82 @@
+{
+  "slug": "liquid-energy",
+  "name": "Liquid Energy",
+  "oneLiner": "Self contained solar-powered AI inference modules: the NanoDC",
+  "metadata": {
+    "website": "https://www.liquidenergy.world",
+    "yc_page": "https://www.ycombinator.com/companies/liquid-energy",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/liquid-energy))",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "5",
+    "location": "Waterloo, ON, Canada",
+    "tags": "Hard Tech, Solar Power, Energy, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/liquid-energy))",
+    "emails": "saj@liquidenergy.world ([company privacy policy](https://www.liquidenergy.world/privacy))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Solar Power",
+    "Energy",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:20:25.686Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 36,
+    "NR": 27,
+    "PG": 29,
+    "PT": 28,
+    "SL": 28,
+    "VK": 29
+  },
+  "consolidatedAvg": 30.86,
+  "consolidatedRank": 174,
+  "traction": {
+    "tractionRank": 158,
+    "tractionScore": 12,
+    "tractionReason": "No disclosed module customers, deployments or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/liquid-energy.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/liquid-energy.md",
+      "elad-gil": "fall2026/evals/elad-gil/liquid-energy.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/liquid-energy.md",
+      "paul-graham": "fall2026/evals/paul-graham/liquid-energy.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/liquid-energy.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/liquid-energy.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/liquid-energy.md"
+    }
+  }
+}

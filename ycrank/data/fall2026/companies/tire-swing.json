@@ -1,0 +1,83 @@
+{
+  "slug": "tire-swing",
+  "name": "Tire Swing",
+  "oneLiner": "AI Compliance for Affordable Housing",
+  "metadata": {
+    "website": "https://gettireswing.com",
+    "yc_page": "https://www.ycombinator.com/companies/tire-swing",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/tire-swing)); conflicts with Winter 2025 in the [founder’s announcement](https://www.linkedin.com/posts/paul-witten_big-professional-update-ahead-tire-swing-activity-7298080856584146944-YQCs)",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "GovTech, Real Estate, Housing, Compliance, Legal",
+    "yc_partner": "Grey Baker ([YC directory](https://www.ycombinator.com/companies/tire-swing))",
+    "emails": "paul@gettireswing.com ([YC](https://www.ycombinator.com/companies/tire-swing)); lucas@gettireswing.com, support@gettireswing.com, legal@gettireswing.com ([Terms](https://www.gettireswing.com/terms_of_service)); privacy@gettireswing.com ([Privacy](https://www.gettireswing.com/privacy_policy)); security@gettireswing.com ([Disclosure](https://www.gettireswing.com/vulnerability_disclosure_policy)); historical: founders@gettireswing.com ([Fondo](https://fondo.com/blog/tire-swing-launches))"
+  },
+  "tags": [
+    "GovTech",
+    "Real Estate",
+    "Housing",
+    "Compliance",
+    "Legal"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:29:15.594Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 35,
+    "NR": 31,
+    "PG": 34,
+    "PT": 32,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 31.43,
+  "consolidatedRank": 169,
+  "traction": {
+    "tractionRank": 182,
+    "tractionScore": 4,
+    "tractionReason": "No disclosed affordable-housing customers, usage or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/tire-swing.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/tire-swing.md",
+      "elad-gil": "fall2026/evals/elad-gil/tire-swing.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/tire-swing.md",
+      "paul-graham": "fall2026/evals/paul-graham/tire-swing.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/tire-swing.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/tire-swing.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/tire-swing.md"
+    }
+  }
+}

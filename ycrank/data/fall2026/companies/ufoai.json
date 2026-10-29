@@ -1,0 +1,82 @@
+{
+  "slug": "ufoai",
+  "name": "UFO.ai",
+  "oneLiner": "Next-generation agent operating system",
+  "metadata": {
+    "website": "https://ufo.ai",
+    "yc_page": "https://www.ycombinator.com/companies/ufoai",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/ufoai))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "SaaS, B2B, Automation, AI",
+    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/ufoai))",
+    "emails": "support@ufo.ai ([Privacy Policy](https://ufo.ai/privacy)); marshall@ufo.ai, alex@ufo.ai appear in documentation examples ([Setup](https://ufo.ai/docs/getting-started/setup/), [Members](https://ufo.ai/docs/workspace/members/)); alexgraveley@gmail.com ([Founder résumé](https://alexgraveley.com/resume))"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:18:55.203Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 41,
+    "NR": 51,
+    "PG": 49,
+    "PT": 34,
+    "SL": 33,
+    "VK": 31
+  },
+  "consolidatedAvg": 41.43,
+  "consolidatedRank": 40,
+  "traction": {
+    "tractionRank": 111,
+    "tractionScore": 30,
+    "tractionReason": "99 repository stars and 13 forks; no disclosed revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ufoai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ufoai.md",
+      "elad-gil": "fall2026/evals/elad-gil/ufoai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ufoai.md",
+      "paul-graham": "fall2026/evals/paul-graham/ufoai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ufoai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ufoai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ufoai.md"
+    }
+  }
+}

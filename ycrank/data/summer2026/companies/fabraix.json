@@ -60,9 +60,9 @@
     "VK": 38
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 57,
+  "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 75,
+    "tractionRank": 73,
     "tractionScore": 62,
     "tractionReason": "50K security-playground attempts; Fortune 500 failures found"
   },

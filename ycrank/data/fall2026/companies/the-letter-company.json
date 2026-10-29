@@ -1,0 +1,81 @@
+{
+  "slug": "the-letter-company",
+  "name": "The Letter Company",
+  "oneLiner": "The world's first coding agent, harness, & IDE for growth engineering.",
+  "metadata": {
+    "website": "https://letter.dev",
+    "yc_page": "https://www.ycombinator.com/companies/the-letter-company",
+    "batch": "Fall 2026 (founder announcement, [LinkedIn](https://www.linkedin.com/company/comma-capital), via search snippet)",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "6",
+    "location": "New York City, NY, USA",
+    "tags": "Developer Tools, SaaS, Web Development",
+    "yc_partner": "Not listed; YC page could not be retrieved",
+    "emails": "support@letterbrace.com ([Lettertrace website](https://lettertrace.com/), Oct 2026)"
+  },
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "Web Development"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T17:44:11.854Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 23,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 33,
+    "NR": 37,
+    "PG": 41,
+    "PT": 28,
+    "SL": 30,
+    "VK": 23
+  },
+  "consolidatedAvg": 32.71,
+  "consolidatedRank": 155,
+  "traction": {
+    "tractionRank": 181,
+    "tractionScore": 5,
+    "tractionReason": "Current coding-agent adoption undisclosed; separate-product users and contracts excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/the-letter-company.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/the-letter-company.md",
+      "elad-gil": "fall2026/evals/elad-gil/the-letter-company.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/the-letter-company.md",
+      "paul-graham": "fall2026/evals/paul-graham/the-letter-company.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/the-letter-company.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/the-letter-company.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/the-letter-company.md"
+    }
+  }
+}

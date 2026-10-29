@@ -1,0 +1,82 @@
+{
+  "slug": "stacktrace",
+  "name": "Stacktrace",
+  "oneLiner": "See and control what your agents actually do",
+  "metadata": {
+    "website": "https://stacktrace.ai",
+    "yc_page": "https://www.ycombinator.com/companies/stacktrace",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/stacktrace))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "DevSecOps, Cybersecurity, Infrastructure, AI",
+    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/stacktrace))",
+    "emails": "hello@stacktrace.ai ([company LinkedIn](https://www.linkedin.com/company/stacktrace-ai)); founders@stacktrace.ai ([founder profile, via search snippet](https://www.linkedin.com/in/michealb))"
+  },
+  "tags": [
+    "DevSecOps",
+    "Cybersecurity",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:09:37.235Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 34,
+    "NR": 46,
+    "PG": 41,
+    "PT": 30,
+    "SL": 32,
+    "VK": 25
+  },
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 108,
+  "traction": {
+    "tractionRank": 93,
+    "tractionScore": 40,
+    "tractionReason": "Active design partners reported; names and deployment counts undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/stacktrace.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/stacktrace.md",
+      "elad-gil": "fall2026/evals/elad-gil/stacktrace.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/stacktrace.md",
+      "paul-graham": "fall2026/evals/paul-graham/stacktrace.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/stacktrace.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/stacktrace.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/stacktrace.md"
+    }
+  }
+}

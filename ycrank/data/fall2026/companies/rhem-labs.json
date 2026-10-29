@@ -1,0 +1,81 @@
+{
+  "slug": "rhem-labs",
+  "name": "Rhem Labs",
+  "oneLiner": "Home care technology for aging parents and their families",
+  "metadata": {
+    "website": "https://rhem.ai",
+    "yc_page": "https://www.ycombinator.com/companies/rhem-labs",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/rhem-labs))",
+    "industry": "Healthcare / Healthcare -> Consumer Health and Wellness",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Health & Wellness, Consumer Products",
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/rhem-labs))",
+    "emails": "support@rhem.ai, service@rhem.ai, cancel@rhem.ai, privacy@rhem.ai ([Rhem contact page](https://www.rhem.ai/contact))"
+  },
+  "tags": [
+    "Robotics",
+    "Health & Wellness",
+    "Consumer Products"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:07:16.797Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 29,
+    "NR": 35,
+    "PG": 29,
+    "PT": 33,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 30.29,
+  "consolidatedRank": 179,
+  "traction": {
+    "tractionRank": 120,
+    "tractionScore": 25,
+    "tractionReason": "100 Product Hunt points; customer deployments undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/rhem-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/rhem-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/rhem-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/rhem-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/rhem-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/rhem-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/rhem-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/rhem-labs.md"
+    }
+  }
+}

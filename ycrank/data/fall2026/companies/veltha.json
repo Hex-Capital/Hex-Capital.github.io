@@ -1,0 +1,80 @@
+{
+  "slug": "veltha",
+  "name": "Veltha",
+  "oneLiner": "AI native TPA starting with workers comp",
+  "metadata": {
+    "website": "https://veltha.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/veltha",
+    "batch": "Fall 2026 ([YC profile](https://www.ycombinator.com/companies/veltha))",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Insurance",
+    "yc_partner": "Gustaf Alstromer ([YC profile](https://www.ycombinator.com/companies/veltha))",
+    "emails": "hello@veltha.ai, edin@veltha.ai ([YC launch](https://www.ycombinator.com/launches/U2X-veltha-ai-native-tpa-for-workers-comp))"
+  },
+  "tags": [
+    "Fintech",
+    "Insurance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:21:50.860Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 34,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 51,
+    "NR": 44,
+    "PG": 44,
+    "PT": 28,
+    "SL": 31,
+    "VK": 34
+  },
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 71,
+  "traction": {
+    "tractionRank": 136,
+    "tractionScore": 19,
+    "tractionReason": "Current TPA customer identities, volumes and revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/veltha.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/veltha.md",
+      "elad-gil": "fall2026/evals/elad-gil/veltha.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/veltha.md",
+      "paul-graham": "fall2026/evals/paul-graham/veltha.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/veltha.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/veltha.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/veltha.md"
+    }
+  }
+}

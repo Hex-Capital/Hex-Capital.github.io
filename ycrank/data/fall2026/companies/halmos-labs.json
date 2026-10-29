@@ -1,0 +1,81 @@
+{
+  "slug": "halmos-labs",
+  "name": "Halmos Labs",
+  "oneLiner": "Maximum information per experiment, minimum experiments per conclusion",
+  "metadata": {
+    "website": "https://halmoslabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/halmos-labs",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/halmos-labs))",
+    "industry": "Healthcare / Healthcare -> Industrial Bio",
+    "team_size": "3",
+    "location": "Lund, Sk?ne County, Sweden",
+    "tags": "AI-powered Drug Discovery, Swarm AI, Biotech",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/halmos-labs))",
+    "emails": "hi@halmoslabs.com, mattias@halmoslabs.com, linus@halmoslabs.com ([company](https://halmoslabs.com/about))"
+  },
+  "tags": [
+    "AI-powered Drug Discovery",
+    "Swarm AI",
+    "Biotech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:17:44.033Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 39,
+    "NR": 41,
+    "PG": 37,
+    "PT": 37,
+    "SL": 33,
+    "VK": 31
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 82,
+  "traction": {
+    "tractionRank": 80,
+    "tractionScore": 43,
+    "tractionReason": "Customer confirmed fermentation finding; collaboration results; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/halmos-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/halmos-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/halmos-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/halmos-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/halmos-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/halmos-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/halmos-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/halmos-labs.md"
+    }
+  }
+}

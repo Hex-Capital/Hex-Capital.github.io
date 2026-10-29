@@ -1,0 +1,83 @@
+{
+  "slug": "shepherd-robotics",
+  "name": "Shepherd Robotics",
+  "oneLiner": "Robots for high skilled labor powering AI infrastructure",
+  "metadata": {
+    "website": "https://shepherdrobotics.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/shepherd-robotics",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/shepherd-robotics))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Robotics, Manufacturing, Automation, AI",
+    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/shepherd-robotics))",
+    "emails": "contact@shepherdrobotics.ai ([company website](https://www.shepherdrobotics.ai/), via search snippet)"
+  },
+  "tags": [
+    "Hardware",
+    "Robotics",
+    "Manufacturing",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:57:37.594Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 32,
+    "NR": 37,
+    "PG": 29,
+    "PT": 27,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 31,
+  "consolidatedRank": 173,
+  "traction": {
+    "tractionRank": 100,
+    "tractionScore": 37,
+    "tractionReason": "Unnamed hyperscaler and manufacturer engagements; deployment counts undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/shepherd-robotics.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/shepherd-robotics.md",
+      "elad-gil": "fall2026/evals/elad-gil/shepherd-robotics.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/shepherd-robotics.md",
+      "paul-graham": "fall2026/evals/paul-graham/shepherd-robotics.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/shepherd-robotics.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/shepherd-robotics.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/shepherd-robotics.md"
+    }
+  }
+}

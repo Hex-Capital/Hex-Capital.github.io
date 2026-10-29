@@ -1,0 +1,80 @@
+{
+  "slug": "viraj-aero",
+  "name": "Viraj Aero",
+  "oneLiner": "Next generation gas turbines for data centers & aviation",
+  "metadata": {
+    "website": "https://www.viraj-aero.com/",
+    "yc_page": "https://www.ycombinator.com/companies/viraj-aero",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/viraj-aero))",
+    "industry": "Industrials / Industrials -> Energy",
+    "tags": "Hard Tech, Energy, Aerospace, AI",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/viraj-aero))",
+    "emails": "contact@viraj-aero.com, sales@viraj-aero.com, press@viraj-aero.com ([company contact page](https://www.viraj-aero.com/contact/contact)); careers@viraj-aero.com ([company recruitment post](https://fr.linkedin.com/jobs/view/head-of-talent-acquisition-people-operations-m-f-at-viraj-aero-4467253830))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Energy",
+    "Aerospace",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:11:03.188Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 61,
+    "EG": 44,
+    "NR": 57,
+    "PG": 39,
+    "PT": 38,
+    "SL": 32,
+    "VK": 31
+  },
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 25,
+  "traction": {
+    "tractionRank": 36,
+    "tractionScore": 56,
+    "tractionReason": "€13M aviation LOIs; Safran work reported; no realized revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/viraj-aero.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/viraj-aero.md",
+      "elad-gil": "fall2026/evals/elad-gil/viraj-aero.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/viraj-aero.md",
+      "paul-graham": "fall2026/evals/paul-graham/viraj-aero.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/viraj-aero.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/viraj-aero.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/viraj-aero.md"
+    }
+  }
+}

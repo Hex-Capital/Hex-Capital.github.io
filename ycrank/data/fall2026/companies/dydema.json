@@ -1,0 +1,83 @@
+{
+  "slug": "dydema",
+  "name": "Dydema",
+  "oneLiner": "A consumer brain-computer interface you can map to anything.",
+  "metadata": {
+    "website": "https://dydema.com/",
+    "yc_page": "https://www.ycombinator.com/companies/dydema",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/dydema))",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Neurotechnology, Consumer, Big Data, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/dydema))",
+    "emails": "info@dydema.com, support@dydema.com, security@dydema.com, legal@dydema.com ([Dydema terms](https://developers.dydema.com/terms))"
+  },
+  "tags": [
+    "Hardware",
+    "Neurotechnology",
+    "Consumer",
+    "Big Data",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:58:28.812Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 27,
+    "NR": 41,
+    "PG": 39,
+    "PT": 34,
+    "SL": 31,
+    "VK": 27
+  },
+  "consolidatedAvg": 35,
+  "consolidatedRank": 128,
+  "traction": {
+    "tractionRank": 146,
+    "tractionScore": 16,
+    "tractionReason": "Control demonstrations and live API; customer adoption undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/dydema.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/dydema.md",
+      "elad-gil": "fall2026/evals/elad-gil/dydema.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/dydema.md",
+      "paul-graham": "fall2026/evals/paul-graham/dydema.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/dydema.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/dydema.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/dydema.md"
+    }
+  }
+}

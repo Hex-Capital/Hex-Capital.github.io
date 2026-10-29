@@ -61,9 +61,9 @@
     "VK": 38
   },
   "consolidatedAvg": 49.71,
-  "consolidatedRank": 69,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 87,
+    "tractionRank": 84,
     "tractionScore": 59,
     "tractionReason": "Two named wholesale customers with active deployments"
   },

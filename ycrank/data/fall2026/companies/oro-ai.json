@@ -1,0 +1,81 @@
+{
+  "slug": "oro-ai",
+  "name": "ORO AI",
+  "oneLiner": "Continuously improving evals for agentic commerce",
+  "metadata": {
+    "website": "https://www.oroagents.com",
+    "yc_page": "https://www.ycombinator.com/companies/oro-ai",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/oro-ai))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "Vancouver, BC, Canada",
+    "tags": "Crypto / Web3, Consumer Products, AI",
+    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/oro-ai))",
+    "emails": "team@oroagents.com ([ORO website](https://oroagents.com/)); support@oroagents.com ([ORO privacy policy](https://app.oroagents.com/privacy-policy))"
+  },
+  "tags": [
+    "Crypto / Web3",
+    "Consumer Products",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:53:45.094Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 44,
+    "NR": 53,
+    "PG": 55,
+    "PT": 38,
+    "SL": 31,
+    "VK": 35
+  },
+  "consolidatedAvg": 44.71,
+  "consolidatedRank": 17,
+  "traction": {
+    "tractionRank": 84,
+    "tractionScore": 42,
+    "tractionReason": "345+ competing agents; 4.89M scored trajectories; no disclosed revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/oro-ai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/oro-ai.md",
+      "elad-gil": "fall2026/evals/elad-gil/oro-ai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/oro-ai.md",
+      "paul-graham": "fall2026/evals/paul-graham/oro-ai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/oro-ai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/oro-ai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/oro-ai.md"
+    }
+  }
+}

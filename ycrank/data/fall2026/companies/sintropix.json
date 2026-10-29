@@ -1,0 +1,81 @@
+{
+  "slug": "sintropix",
+  "name": "Sintropix",
+  "oneLiner": "Autonomous accounting platform for global companies",
+  "metadata": {
+    "website": "https://sintropix.com/",
+    "yc_page": "https://www.ycombinator.com/companies/sintropix",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sintropix))",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "2",
+    "location": "Santiago, Santiago Metropolitan Region, Chile",
+    "tags": "Fintech, B2B, AI",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/sintropix))",
+    "emails": "alfonso@sintropix.com ([Sintropix contact](https://sintropix.com/contact))"
+  },
+  "tags": [
+    "Fintech",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:55:26.604Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 48,
+    "NR": 47,
+    "PG": 54,
+    "PT": 34,
+    "SL": 39,
+    "VK": 32
+  },
+  "consolidatedAvg": 42.29,
+  "consolidatedRank": 35,
+  "traction": {
+    "tractionRank": 21,
+    "tractionScore": 60,
+    "tractionReason": "10 active accounting clients across four countries; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/sintropix.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/sintropix.md",
+      "elad-gil": "fall2026/evals/elad-gil/sintropix.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/sintropix.md",
+      "paul-graham": "fall2026/evals/paul-graham/sintropix.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/sintropix.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/sintropix.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/sintropix.md"
+    }
+  }
+}

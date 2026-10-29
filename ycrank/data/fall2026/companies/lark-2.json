@@ -1,0 +1,81 @@
+{
+  "slug": "lark-2",
+  "name": "Lark",
+  "oneLiner": "AI agents that automate workflows for distributors",
+  "metadata": {
+    "website": "https://larkagents.com",
+    "yc_page": "https://www.ycombinator.com/companies/lark-2",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/lark-2))",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Supply Chain, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/lark-2))",
+    "emails": "founders@larkagents.com ([Privacy](https://larkagents.com/privacy)); security@larkagents.com ([Security](https://larkagents.com/security)); michael@larkagents.com ([LinkedIn](https://www.linkedin.com/in/michael-wang-40061923b), via search snippet)"
+  },
+  "tags": [
+    "B2B",
+    "Supply Chain",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:57:38.457Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 61,
+    "NR": 40,
+    "PG": 48,
+    "PT": 32,
+    "SL": 40,
+    "VK": 27
+  },
+  "consolidatedAvg": 42.14,
+  "consolidatedRank": 37,
+  "traction": {
+    "tractionRank": 55,
+    "tractionScore": 50,
+    "tractionReason": "Named distributor deployment; second customer workflow reported; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/lark-2.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/lark-2.md",
+      "elad-gil": "fall2026/evals/elad-gil/lark-2.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/lark-2.md",
+      "paul-graham": "fall2026/evals/paul-graham/lark-2.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/lark-2.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/lark-2.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/lark-2.md"
+    }
+  }
+}

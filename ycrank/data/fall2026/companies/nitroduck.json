@@ -1,0 +1,81 @@
+{
+  "slug": "nitroduck",
+  "name": "Nitroduck",
+  "oneLiner": "Monsanto for yummy crops, but without pesticides",
+  "metadata": {
+    "website": "https://nitroduck.tech/",
+    "yc_page": "https://www.ycombinator.com/companies/nitroduck",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/nitroduck))",
+    "industry": "Industrials / Industrials -> Agriculture",
+    "team_size": "3",
+    "location": "Brno, South Moravian Region, Czechia",
+    "tags": "CRISPR, Sustainable Agriculture, Biotechnology",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/nitroduck))",
+    "emails": "mafia@nitroduck.tech, matej@nitroduck.tech, matus@nitroduck.tech, miro@nitroduck.tech ([company website, via search snippet](https://nitroduck.tech/))"
+  },
+  "tags": [
+    "CRISPR",
+    "Sustainable Agriculture",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:07:16.724Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 36,
+    "NR": 41,
+    "PG": 42,
+    "PT": 32,
+    "SL": 30,
+    "VK": 28
+  },
+  "consolidatedAvg": 36.14,
+  "consolidatedRank": 109,
+  "traction": {
+    "tractionRank": 162,
+    "tractionScore": 11,
+    "tractionReason": "Current crop customers and sales undisclosed; prior research awards excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/nitroduck.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/nitroduck.md",
+      "elad-gil": "fall2026/evals/elad-gil/nitroduck.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/nitroduck.md",
+      "paul-graham": "fall2026/evals/paul-graham/nitroduck.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/nitroduck.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/nitroduck.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/nitroduck.md"
+    }
+  }
+}

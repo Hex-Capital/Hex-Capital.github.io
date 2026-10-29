@@ -1,0 +1,83 @@
+{
+  "slug": "spacesheep",
+  "name": "Spacesheep",
+  "oneLiner": "Documents of the future: the collaboration surface for people and?",
+  "metadata": {
+    "website": "https://spacesheep.dev/",
+    "yc_page": "https://www.ycombinator.com/companies/spacesheep",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/spacesheep))",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Generative AI, Consumer, Productivity, Collaboration",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/spacesheep))",
+    "emails": "feedback@spacesheep.dev, support@spacesheep.dev ([YC](https://www.ycombinator.com/companies/spacesheep), [Support](https://spacesheep.dev/support))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Generative AI",
+    "Consumer",
+    "Productivity",
+    "Collaboration"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:51:23.991Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 54,
+    "EG": 38,
+    "NR": 52,
+    "PG": 49,
+    "PT": 28,
+    "SL": 32,
+    "VK": 25
+  },
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 53,
+  "traction": {
+    "tractionRank": 114,
+    "tractionScore": 29,
+    "tractionReason": "22 Chrome users; named user example; no disclosed revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/spacesheep.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/spacesheep.md",
+      "elad-gil": "fall2026/evals/elad-gil/spacesheep.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/spacesheep.md",
+      "paul-graham": "fall2026/evals/paul-graham/spacesheep.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/spacesheep.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/spacesheep.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/spacesheep.md"
+    }
+  }
+}

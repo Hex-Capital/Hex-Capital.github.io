@@ -1,0 +1,81 @@
+{
+  "slug": "canos",
+  "name": "Canos",
+  "oneLiner": "AI-powered blood test to detect cancer in dogs (and cats soon).",
+  "metadata": {
+    "website": "https://www.canos.ai",
+    "yc_page": "https://www.ycombinator.com/companies/canos",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/canos))",
+    "industry": "Healthcare / Healthcare -> Diagnostics",
+    "team_size": "0",
+    "location": "Oxford, England, United Kingdom",
+    "tags": "Anti-Aging, Diagnostics, Biotechnology",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/canos))",
+    "emails": "hello@canos.ai ([Canos](https://www.canos.ai/))"
+  },
+  "tags": [
+    "Anti-Aging",
+    "Diagnostics",
+    "Biotechnology"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:57:08.135Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 33,
+    "NR": 53,
+    "PG": 38,
+    "PT": 35,
+    "SL": 32,
+    "VK": 29
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 61,
+  "traction": {
+    "tractionRank": 95,
+    "tractionScore": 40,
+    "tractionReason": "Blood draws open and samples processing; paid-test counts undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/canos.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/canos.md",
+      "elad-gil": "fall2026/evals/elad-gil/canos.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/canos.md",
+      "paul-graham": "fall2026/evals/paul-graham/canos.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/canos.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/canos.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/canos.md"
+    }
+  }
+}

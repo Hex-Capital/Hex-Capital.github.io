@@ -1,0 +1,81 @@
+{
+  "slug": "boxesdev",
+  "name": "Boxes.dev",
+  "oneLiner": "A better place to run your coding agents.",
+  "metadata": {
+    "website": "https://boxes.dev",
+    "yc_page": "https://www.ycombinator.com/companies/boxesdev",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/boxesdev))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/boxesdev))",
+    "emails": "hi@boxes.dev, security@boxes.dev ([Security](https://boxes.dev/security)); privacy@boxes.dev ([Privacy](https://boxes.dev/privacy)); founders@boxes.dev ([Terms](https://boxes.dev/terms)); play@nickdrewco.com ([Google Play](https://play.google.com/store/apps/details?id=dev.boxes))"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:51:44.007Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 22,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 41,
+    "NR": 38,
+    "PG": 43,
+    "PT": 34,
+    "SL": 32,
+    "VK": 22
+  },
+  "consolidatedAvg": 35.71,
+  "consolidatedRank": 118,
+  "traction": {
+    "tractionRank": 119,
+    "tractionScore": 26,
+    "tractionReason": "10+ Android downloads; one iOS rating; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/boxesdev.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/boxesdev.md",
+      "elad-gil": "fall2026/evals/elad-gil/boxesdev.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/boxesdev.md",
+      "paul-graham": "fall2026/evals/paul-graham/boxesdev.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/boxesdev.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/boxesdev.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/boxesdev.md"
+    }
+  }
+}

@@ -61,9 +61,9 @@
     "VK": 33
   },
   "consolidatedAvg": 40.29,
-  "consolidatedRank": 159,
+  "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 134,
+    "tractionRank": 128,
     "tractionScore": 50,
     "tractionReason": "Working with unnamed large data-center builders"
   },

@@ -1,0 +1,81 @@
+{
+  "slug": "superserve",
+  "name": "Superserve",
+  "oneLiner": "Virtual machines for autonomous agents",
+  "metadata": {
+    "website": "https://superserve.ai",
+    "yc_page": "https://www.ycombinator.com/companies/superserve",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/superserve))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Cloud Computing, Infrastructure, AI",
+    "yc_partner": "Max Kolysh ([YC, via search snippet](https://www.ycombinator.com/companies/superserve))",
+    "emails": "engineering@superserve.ai ([official GitHub](https://github.com/superserve-ai/superserve)); jobs@superserve.ai ([careers](https://www.superserve.ai/careers/))"
+  },
+  "tags": [
+    "Cloud Computing",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:53:15.578Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 54,
+    "NR": 52,
+    "PG": 49,
+    "PT": 31,
+    "SL": 35,
+    "VK": 28
+  },
+  "consolidatedAvg": 41.43,
+  "consolidatedRank": 39,
+  "traction": {
+    "tractionRank": 32,
+    "tractionScore": 58,
+    "tractionReason": "100K+ machines weekly; Lindy and YC named users"
+  },
+  "paths": {
+    "memo": "fall2026/memos/superserve.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/superserve.md",
+      "elad-gil": "fall2026/evals/elad-gil/superserve.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/superserve.md",
+      "paul-graham": "fall2026/evals/paul-graham/superserve.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/superserve.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/superserve.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/superserve.md"
+    }
+  }
+}

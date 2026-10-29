@@ -1,0 +1,81 @@
+{
+  "slug": "twentyfour26",
+  "name": "twentyfour26",
+  "oneLiner": "On Demand CNC Prototyping",
+  "metadata": {
+    "website": "https://twentyfour26.com/",
+    "yc_page": "https://www.ycombinator.com/companies/twentyfour26",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/twentyfour26))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Manufacturing, Industrial",
+    "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/twentyfour26))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Robotics",
+    "Manufacturing",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:54:55.158Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 34,
+    "NR": 48,
+    "PG": 38,
+    "PT": 34,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 116,
+  "traction": {
+    "tractionRank": 72,
+    "tractionScore": 45,
+    "tractionReason": "Taking manufacturing orders after pivot; quantities and receipts undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/twentyfour26.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/twentyfour26.md",
+      "elad-gil": "fall2026/evals/elad-gil/twentyfour26.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/twentyfour26.md",
+      "paul-graham": "fall2026/evals/paul-graham/twentyfour26.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/twentyfour26.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/twentyfour26.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/twentyfour26.md"
+    }
+  }
+}

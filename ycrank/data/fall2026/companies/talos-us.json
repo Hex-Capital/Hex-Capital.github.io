@@ -1,0 +1,83 @@
+{
+  "slug": "talos-us",
+  "name": "Talos",
+  "oneLiner": "Predictive maintenance for power infrastructure.",
+  "metadata": {
+    "website": "https://www.talos-us.com/",
+    "yc_page": "https://www.ycombinator.com/companies/talos-us",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/talos-us))",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "3",
+    "location": "Baltimore, MD, USA",
+    "tags": "Deep Learning, Hardware, IoT, Energy, AI",
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/talos-us))",
+    "emails": "founders@talos-us.com, contact@talos-us.com ([Talos](https://www.talos-us.com/))"
+  },
+  "tags": [
+    "Deep Learning",
+    "Hardware",
+    "IoT",
+    "Energy",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:07:46.718Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 34,
+    "NR": 34,
+    "PG": 36,
+    "PT": 28,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 162,
+  "traction": {
+    "tractionRank": 154,
+    "tractionScore": 13,
+    "tractionReason": "Pump-sensing demonstration only; no disclosed customer deployment"
+  },
+  "paths": {
+    "memo": "fall2026/memos/talos-us.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/talos-us.md",
+      "elad-gil": "fall2026/evals/elad-gil/talos-us.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/talos-us.md",
+      "paul-graham": "fall2026/evals/paul-graham/talos-us.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/talos-us.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/talos-us.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/talos-us.md"
+    }
+  }
+}

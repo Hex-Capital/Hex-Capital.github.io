@@ -1,0 +1,83 @@
+{
+  "slug": "kairox-systems",
+  "name": "Kairox Systems",
+  "oneLiner": "Autonomous drones that fly and swim",
+  "metadata": {
+    "website": "http://www.kairoxsys.com/",
+    "yc_page": "https://www.ycombinator.com/companies/kairox-systems",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/kairox-systems))",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Drones, Aerospace, Maritime, Defense",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/kairox-systems))",
+    "emails": "info@kairoxsys.com ([company contact page](https://www.kairoxsys.com/contact)); joelsanbar@mit.edu — Joel’s university fundraising contact ([MIT](https://vets.mit.edu/sva-executive-board/))"
+  },
+  "tags": [
+    "Hardware",
+    "Drones",
+    "Aerospace",
+    "Maritime",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:56:57.981Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 29,
+    "NR": 52,
+    "PG": 34,
+    "PT": 30,
+    "SL": 30,
+    "VK": 29
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 133,
+  "traction": {
+    "tractionRank": 113,
+    "tractionScore": 30,
+    "tractionReason": "Marine Corps engagement reported; no purchase commitments disclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/kairox-systems.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/kairox-systems.md",
+      "elad-gil": "fall2026/evals/elad-gil/kairox-systems.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/kairox-systems.md",
+      "paul-graham": "fall2026/evals/paul-graham/kairox-systems.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/kairox-systems.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/kairox-systems.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/kairox-systems.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "volaren-inc",
+  "name": "Volaren Inc.",
+  "oneLiner": "The investing agent that comes to you",
+  "metadata": {
+    "website": "https://www.volaren.ai",
+    "yc_page": "https://www.ycombinator.com/companies/volaren-inc",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/volaren-inc))",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Finance, Trading, AI",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/volaren-inc))",
+    "emails": "martin@volaren.ai, akshat@volaren.ai ([YC launch](https://www.ycombinator.com/launches/UDJ-volaren-the-ai-agent-that-watches-your-portfolio-and-tells-you-what-to-do)); support@volaren.ai ([Terms](https://www.volaren.ai/terms))"
+  },
+  "tags": [
+    "Fintech",
+    "Finance",
+    "Trading",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:01:23.066Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 34,
+    "EG": 34,
+    "NR": 37,
+    "PG": 35,
+    "PT": 29,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 31.86,
+  "consolidatedRank": 164,
+  "traction": {
+    "tractionRank": 81,
+    "tractionScore": 43,
+    "tractionReason": "900+ funds and retail traders claimed; paying breakdown undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/volaren-inc.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/volaren-inc.md",
+      "elad-gil": "fall2026/evals/elad-gil/volaren-inc.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/volaren-inc.md",
+      "paul-graham": "fall2026/evals/paul-graham/volaren-inc.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/volaren-inc.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/volaren-inc.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/volaren-inc.md"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "sinter-systems",
+  "name": "Sinter",
+  "oneLiner": "Accelerated plastics manufacturing",
+  "metadata": {
+    "website": "https://sinter.systems",
+    "yc_page": "https://www.ycombinator.com/companies/sinter-systems",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sinter-systems))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "El Segundo, CA, USA",
+    "tags": "3D Printing, Manufacturing, Advanced Materials",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/sinter-systems))",
+    "emails": "founders@sinter.systems ([Oliver’s company launch post](https://www.reddit.com/r/hwstartups/comments/1tpb0hg/nyc_pilot_on_demand_same_hour_manufacturing/)); justin@sinter.systems ([Justin’s LinkedIn](https://www.linkedin.com/in/jkwonn), via search snippet)"
+  },
+  "tags": [
+    "3D Printing",
+    "Manufacturing",
+    "Advanced Materials"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:08:05.076Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 31,
+    "NR": 41,
+    "PG": 34,
+    "PT": 32,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 33.71,
+  "consolidatedRank": 147,
+  "traction": {
+    "tractionRank": 151,
+    "tractionScore": 15,
+    "tractionReason": "Current manufacturing orders undisclosed; prior printer marketplace excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/sinter-systems.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/sinter-systems.md",
+      "elad-gil": "fall2026/evals/elad-gil/sinter-systems.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/sinter-systems.md",
+      "paul-graham": "fall2026/evals/paul-graham/sinter-systems.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/sinter-systems.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/sinter-systems.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/sinter-systems.md"
+    }
+  }
+}

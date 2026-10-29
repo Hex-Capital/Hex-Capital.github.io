@@ -1,0 +1,81 @@
+{
+  "slug": "telamont",
+  "name": "Telamont",
+  "oneLiner": "Sentry for risks in construction documents",
+  "metadata": {
+    "website": "https://telamont.com",
+    "yc_page": "https://www.ycombinator.com/companies/telamont",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/telamont))",
+    "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
+    "team_size": "6",
+    "location": "San Francisco, CA, USA",
+    "tags": "Documents, Construction, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/telamont))",
+    "emails": "info@telamont.com ([Contact](https://www.telamont.com/contact)); press@telamont.com ([Newsroom](https://www.telamont.com/press)); people@telamont.com ([team profile](https://ca.linkedin.com/in/williamggagnon)); legal@telamont.com, copyright@telamont.com ([Terms](https://www.telamont.com/terms-of-service)); security@telamont.com ([DPA](https://www.telamont.com/data-processing-agreement)); sales@telamont.com, support@telamont.com ([developer listing](https://marketplace.autodesk.com/apps/d25166ba-2e85-4817-8f59-8c22d91b6e9f))"
+  },
+  "tags": [
+    "Documents",
+    "Construction",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:17:08.979Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 42,
+    "NR": 42,
+    "PG": 41,
+    "PT": 28,
+    "SL": 30,
+    "VK": 32
+  },
+  "consolidatedAvg": 36,
+  "consolidatedRank": 113,
+  "traction": {
+    "tractionRank": 52,
+    "tractionScore": 51,
+    "tractionReason": "Multiple named customer logos; billions in covered projects; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/telamont.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/telamont.md",
+      "elad-gil": "fall2026/evals/elad-gil/telamont.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/telamont.md",
+      "paul-graham": "fall2026/evals/paul-graham/telamont.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/telamont.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/telamont.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/telamont.md"
+    }
+  }
+}

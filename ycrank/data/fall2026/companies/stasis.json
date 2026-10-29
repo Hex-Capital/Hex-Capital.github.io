@@ -1,0 +1,82 @@
+{
+  "slug": "stasis",
+  "name": "STASIS",
+  "oneLiner": "The WHOOP for 16 billion eyes",
+  "metadata": {
+    "website": "https://www.get-stasis.com/",
+    "yc_page": "https://www.ycombinator.com/companies/stasis",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/stasis))",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Sports Tech, Consumer Health Services, Health & Wellness",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/stasis))",
+    "emails": "soham.chakraborty@berkeley.edu ([founder website](https://soham-ch.com/))"
+  },
+  "tags": [
+    "Hardware",
+    "Sports Tech",
+    "Consumer Health Services",
+    "Health & Wellness"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:55:27.885Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 28,
+    "NR": 41,
+    "PG": 36,
+    "PT": 32,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 33.14,
+  "consolidatedRank": 153,
+  "traction": {
+    "tractionRank": 140,
+    "tractionScore": 18,
+    "tractionReason": "Founder wear test; optical-industry conversations; no verified signed partnerships"
+  },
+  "paths": {
+    "memo": "fall2026/memos/stasis.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/stasis.md",
+      "elad-gil": "fall2026/evals/elad-gil/stasis.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/stasis.md",
+      "paul-graham": "fall2026/evals/paul-graham/stasis.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/stasis.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/stasis.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/stasis.md"
+    }
+  }
+}

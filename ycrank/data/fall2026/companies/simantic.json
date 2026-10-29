@@ -1,0 +1,83 @@
+{
+  "slug": "simantic",
+  "name": "Simantic",
+  "oneLiner": "Firmware simulation for AI agents",
+  "metadata": {
+    "website": "https://simantic.com",
+    "yc_page": "https://www.ycombinator.com/companies/simantic",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/simantic))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "4",
+    "location": "Waterloo, ON, Canada",
+    "tags": "Developer Tools, Hardware, Semiconductors, Electronics, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/simantic))",
+    "emails": "founders@simantic.dev ([Investors](https://simantic.com/investors)); privacy@simantic.dev ([Privacy](https://simantic.com/privacy)); founder@simantic.dev ([Official SDK](https://github.com/simantic-dev/pippy))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Hardware",
+    "Semiconductors",
+    "Electronics",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:17:59.969Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 49,
+    "NR": 53,
+    "PG": 44,
+    "PT": 31,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 41.14,
+  "consolidatedRank": 43,
+  "traction": {
+    "tractionRank": 106,
+    "tractionScore": 33,
+    "tractionReason": "Three announced partnerships; cloud simulation beta; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/simantic.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/simantic.md",
+      "elad-gil": "fall2026/evals/elad-gil/simantic.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/simantic.md",
+      "paul-graham": "fall2026/evals/paul-graham/simantic.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/simantic.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/simantic.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/simantic.md"
+    }
+  }
+}

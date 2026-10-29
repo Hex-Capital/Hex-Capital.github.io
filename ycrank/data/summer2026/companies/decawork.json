@@ -60,9 +60,9 @@
     "VK": 22
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 156,
+  "consolidatedRank": 150,
   "traction": {
-    "tractionRank": 218,
+    "tractionRank": 206,
     "tractionScore": 10,
     "tractionReason": "Current product has SOC 2; no usage disclosed"
   },

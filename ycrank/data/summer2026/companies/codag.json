@@ -58,9 +58,9 @@
     "VK": 40
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 142,
+  "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 171,
+    "tractionRank": 163,
     "tractionScore": 42,
     "tractionReason": "Current repositories total 65 GitHub stars"
   },

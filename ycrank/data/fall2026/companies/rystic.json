@@ -1,0 +1,82 @@
+{
+  "slug": "rystic",
+  "name": "Rystic",
+  "oneLiner": "Train models and test agents in high-fidelity simulated environments",
+  "metadata": {
+    "website": "https://rystic.ai",
+    "yc_page": "https://www.ycombinator.com/companies/rystic",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/rystic))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, Enterprise Software, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/rystic))",
+    "emails": "founders@rystic.ai, evan@rystic.ai, zach@rystic.ai ([Rystic About](https://www.rystic.ai/about))"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:18:44.952Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 43,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 62,
+    "EG": 58,
+    "NR": 45,
+    "PG": 48,
+    "PT": 47,
+    "SL": 32,
+    "VK": 43
+  },
+  "consolidatedAvg": 47.86,
+  "consolidatedRank": 6,
+  "traction": {
+    "tractionRank": 92,
+    "tractionScore": 40,
+    "tractionReason": "One unnamed pilot found Slack integration bug; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/rystic.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/rystic.md",
+      "elad-gil": "fall2026/evals/elad-gil/rystic.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/rystic.md",
+      "paul-graham": "fall2026/evals/paul-graham/rystic.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/rystic.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/rystic.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/rystic.md"
+    }
+  }
+}

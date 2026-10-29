@@ -1,0 +1,81 @@
+{
+  "slug": "asim-group",
+  "name": "Asim",
+  "oneLiner": "Enable robots to operate safely in the real world.",
+  "metadata": {
+    "website": "https://www.asim-group.com",
+    "yc_page": "https://www.ycombinator.com/companies/asim-group",
+    "batch": "Fall 2026 ([YC List](https://yclist.com/f26/))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, Robotic Process Automation, Robotics",
+    "yc_partner": "Nicolas Dessaigne ([YC directory mirror, Sep 2026](https://mentionfox.com/funding/yc-asim-group); original YC page inaccessible during research)",
+    "emails": "contact@asim-group.com ([Asim](https://www.asim-group.com/about))"
+  },
+  "tags": [
+    "Deep Learning",
+    "Robotic Process Automation",
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:06:44.547Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 28,
+    "NR": 44,
+    "PG": 36,
+    "PT": 29,
+    "SL": 30,
+    "VK": 26
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 130,
+  "traction": {
+    "tractionRank": 163,
+    "tractionScore": 11,
+    "tractionReason": "No disclosed product customers; founder research stars excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/asim-group.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/asim-group.md",
+      "elad-gil": "fall2026/evals/elad-gil/asim-group.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/asim-group.md",
+      "paul-graham": "fall2026/evals/paul-graham/asim-group.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/asim-group.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/asim-group.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/asim-group.md"
+    }
+  }
+}

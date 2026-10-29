@@ -1,0 +1,81 @@
+{
+  "slug": "uxduck",
+  "name": "UXDuck",
+  "oneLiner": "Build better drones. Run better missions.",
+  "metadata": {
+    "website": "https://uxduck.com",
+    "yc_page": "https://www.ycombinator.com/companies/uxduck",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/uxduck))",
+    "industry": "Industrials / Industrials -> Drones",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Hardware, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/uxduck))",
+    "emails": "stadium-had-possum@duck.com, founder contact ([personal website](https://tlduck.com/about/)); cv@mail.orth.uk, professional CV contact ([CV](https://tlduck.com/cv.pdf))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Hardware",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:06:09.497Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 32,
+    "NR": 44,
+    "PG": 43,
+    "PT": 28,
+    "SL": 32,
+    "VK": 25
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 135,
+  "traction": {
+    "tractionRank": 124,
+    "tractionScore": 23,
+    "tractionReason": "Five runtime repository stars; no disclosed users or customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/uxduck.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/uxduck.md",
+      "elad-gil": "fall2026/evals/elad-gil/uxduck.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/uxduck.md",
+      "paul-graham": "fall2026/evals/paul-graham/uxduck.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/uxduck.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/uxduck.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/uxduck.md"
+    }
+  }
+}

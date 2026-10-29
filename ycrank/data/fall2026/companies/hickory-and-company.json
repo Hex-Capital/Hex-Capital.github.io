@@ -1,0 +1,81 @@
+{
+  "slug": "hickory-and-company",
+  "name": "Hickory & Company",
+  "oneLiner": "Hickory is agentic compliance and BSA for banks and fintechs",
+  "metadata": {
+    "website": "https://hickory.co",
+    "yc_page": "https://www.ycombinator.com/companies/hickory-and-company",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/hickory-and-company))",
+    "industry": "B2B / B2B -> Operations",
+    "team_size": "3",
+    "location": "Salt Lake City, UT, USA",
+    "tags": "Fintech, SaaS, Compliance",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/hickory-and-company))",
+    "emails": "info@hickory.co ([Hickory](https://hickory.co/contact)); mail@jkhowland.com ([founder website](https://jkhowland.com/), via search snippet)"
+  },
+  "tags": [
+    "Fintech",
+    "SaaS",
+    "Compliance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:24:11.452Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 35,
+    "NR": 46,
+    "PG": 38,
+    "PT": 29,
+    "SL": 33,
+    "VK": 28
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 115,
+  "traction": {
+    "tractionRank": 88,
+    "tractionScore": 41,
+    "tractionReason": "Live bank integration claimed; institution and payment status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/hickory-and-company.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/hickory-and-company.md",
+      "elad-gil": "fall2026/evals/elad-gil/hickory-and-company.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/hickory-and-company.md",
+      "paul-graham": "fall2026/evals/paul-graham/hickory-and-company.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/hickory-and-company.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/hickory-and-company.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/hickory-and-company.md"
+    }
+  }
+}

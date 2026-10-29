@@ -61,9 +61,9 @@
     "VK": 52
   },
   "consolidatedAvg": 48.71,
-  "consolidatedRank": 77,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 163,
+    "tractionRank": 155,
     "tractionScore": 44,
     "tractionReason": "Internal cost benchmark; no customers disclosed"
   },

@@ -1,0 +1,80 @@
+{
+  "slug": "kailash-labs",
+  "name": "Kailash Labs",
+  "oneLiner": "A factory for small and specialized video reasoning models",
+  "metadata": {
+    "website": "https://www.kailashlabs.com/",
+    "yc_page": "https://www.ycombinator.com/companies/kailash-labs",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/kailash-labs))",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "2",
+    "location": "Bengaluru, KA, India",
+    "tags": "Deep Learning, Edge Computing Semiconductors",
+    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/kailash-labs))",
+    "emails": "shubham@kailashlabs.com ([website](https://www.kailashlabs.com/)); aryan@letsnemo.com—legacy Marlin contact ([model card](https://huggingface.co/NemoStation/Marlin-2B))"
+  },
+  "tags": [
+    "Deep Learning",
+    "Edge Computing Semiconductors"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:14:53.905Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 47,
+    "EG": 31,
+    "NR": 48,
+    "PG": 44,
+    "PT": 28,
+    "SL": 30,
+    "VK": 28
+  },
+  "consolidatedAvg": 36.57,
+  "consolidatedRank": 102,
+  "traction": {
+    "tractionRank": 164,
+    "tractionScore": 10,
+    "tractionReason": "Current offering adoption undisclosed; earlier Marlin downloads excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/kailash-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/kailash-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/kailash-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/kailash-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/kailash-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/kailash-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/kailash-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/kailash-labs.md"
+    }
+  }
+}

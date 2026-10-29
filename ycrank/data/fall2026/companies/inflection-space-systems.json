@@ -1,0 +1,80 @@
+{
+  "slug": "inflection-space-systems",
+  "name": "Inflection Space Systems",
+  "oneLiner": "Hyperscaling space manufacturing",
+  "metadata": {
+    "website": "https://inflection-space.com/",
+    "yc_page": "https://www.ycombinator.com/companies/inflection-space-systems",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/inflection-space-systems))",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "location": "Los Angeles, CA, USA",
+    "tags": "Satellites, Manufacturing, Defense",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/inflection-space-systems))",
+    "emails": "alex@inflection-space.com ([YC](https://www.ycombinator.com/companies/inflection-space-systems)), info@inflection-space.com ([Privacy Policy](https://inflection-space.com/privacy/))"
+  },
+  "tags": [
+    "Satellites",
+    "Manufacturing",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:09:37.877Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 39,
+    "NR": 57,
+    "PG": 36,
+    "PT": 34,
+    "SL": 32,
+    "VK": 27
+  },
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 49,
+  "traction": {
+    "tractionRank": 152,
+    "tractionScore": 14,
+    "tractionReason": "Launch booked for 2028; no named signed payload customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/inflection-space-systems.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/inflection-space-systems.md",
+      "elad-gil": "fall2026/evals/elad-gil/inflection-space-systems.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/inflection-space-systems.md",
+      "paul-graham": "fall2026/evals/paul-graham/inflection-space-systems.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/inflection-space-systems.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/inflection-space-systems.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/inflection-space-systems.md"
+    }
+  }
+}

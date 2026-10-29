@@ -1,0 +1,82 @@
+{
+  "slug": "truemile",
+  "name": "TrueMile",
+  "oneLiner": "AI-native trucking company",
+  "metadata": {
+    "website": "https://TrueMile.AI/",
+    "yc_page": "https://www.ycombinator.com/companies/truemile",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/truemile))",
+    "industry": "B2B / B2B -> Supply Chain and Logistics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Machine Learning, Logistics, Data Science",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/truemile))",
+    "emails": "harpreet@truemile.ai ([YC](https://www.ycombinator.com/companies/truemile)); info@truemile.ai, privacy@truemile.ai ([TrueMile privacy policy](https://truemile.ai/privacy))"
+  },
+  "tags": [
+    "AIOps",
+    "Machine Learning",
+    "Logistics",
+    "Data Science"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:02:34.788Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 31,
+    "NR": 34,
+    "PG": 35,
+    "PT": 28,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 30.86,
+  "consolidatedRank": 176,
+  "traction": {
+    "tractionRank": 171,
+    "tractionScore": 9,
+    "tractionReason": "No disclosed shipments, customers or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/truemile.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/truemile.md",
+      "elad-gil": "fall2026/evals/elad-gil/truemile.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/truemile.md",
+      "paul-graham": "fall2026/evals/paul-graham/truemile.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/truemile.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/truemile.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/truemile.md"
+    }
+  }
+}

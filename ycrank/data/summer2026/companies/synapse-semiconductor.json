@@ -62,9 +62,9 @@
     "VK": 42
   },
   "consolidatedAvg": 48.86,
-  "consolidatedRank": 76,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 160,
+    "tractionRank": 153,
     "tractionScore": 45,
     "tractionReason": "Fabricated working pixels; no pilots disclosed"
   },

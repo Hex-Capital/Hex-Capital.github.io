@@ -1,0 +1,81 @@
+{
+  "slug": "streamline-systems",
+  "name": "Streamline Systems",
+  "oneLiner": "Precision navigation for UAVs operating without GPS.",
+  "metadata": {
+    "website": "https://streamlinesystems.ltd/",
+    "yc_page": "https://www.ycombinator.com/companies/streamline-systems",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/streamline-systems))",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Autonomous Delivery, Drones, Navigation",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/streamline-systems))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Autonomous Delivery",
+    "Drones",
+    "Navigation"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:53:55.142Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 38,
+    "NR": 30,
+    "PG": 37,
+    "PT": 30,
+    "SL": 29,
+    "VK": 27
+  },
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 151,
+  "traction": {
+    "tractionRank": 86,
+    "tractionScore": 42,
+    "tractionReason": "Signed LOIs and scheduled government trials; counterparties undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/streamline-systems.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/streamline-systems.md",
+      "elad-gil": "fall2026/evals/elad-gil/streamline-systems.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/streamline-systems.md",
+      "paul-graham": "fall2026/evals/paul-graham/streamline-systems.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/streamline-systems.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/streamline-systems.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/streamline-systems.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "papaya",
+  "name": "Papaya",
+  "oneLiner": "Continuously improve the quality of your AI agents.",
+  "metadata": {
+    "website": "https://papaya.fyi/",
+    "yc_page": "https://www.ycombinator.com/companies/papaya",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/papaya))",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Developer Tools, B2B, Enterprise Software, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/papaya))",
+    "emails": "macy@papaya.fyi ([YC](https://www.ycombinator.com/companies/papaya)), info@papaya.fyi ([LinkedIn](https://www.linkedin.com/company/papayaai)), hello@papaya.fyi ([GitHub](https://github.com/Papaya-AI-Inc)), support@papaya.fyi ([Terms](https://papaya.fyi/terms-of-service))"
+  },
+  "tags": [
+    "AIOps",
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:08:35.283Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 55,
+    "NR": 47,
+    "PG": 47,
+    "PT": 28,
+    "SL": 36,
+    "VK": 30
+  },
+  "consolidatedAvg": 40.86,
+  "consolidatedRank": 45,
+  "traction": {
+    "tractionRank": 50,
+    "tractionScore": 51,
+    "tractionReason": "1.1M+ conversations analyzed; Sunny Health and Hamlet testimonials"
+  },
+  "paths": {
+    "memo": "fall2026/memos/papaya.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/papaya.md",
+      "elad-gil": "fall2026/evals/elad-gil/papaya.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/papaya.md",
+      "paul-graham": "fall2026/evals/paul-graham/papaya.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/papaya.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/papaya.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/papaya.md"
+    }
+  }
+}

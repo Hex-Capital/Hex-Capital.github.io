@@ -1,0 +1,81 @@
+{
+  "slug": "wingman-law",
+  "name": "Wingman Law",
+  "oneLiner": "AI-native personal injury law firm",
+  "metadata": {
+    "website": "https://www.wingmanlaw.com",
+    "yc_page": "https://www.ycombinator.com/companies/wingman-law",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/wingman-law))",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Legal, LegalTech",
+    "yc_partner": "Gustaf Alstromer ([YC](https://www.ycombinator.com/companies/wingman-law))",
+    "emails": "hello@wingmanlaw.com ([Contact](https://www.wingmanlaw.com/contact))"
+  },
+  "tags": [
+    "Generative AI",
+    "Legal",
+    "LegalTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:27:56.511Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 35,
+    "NR": 49,
+    "PG": 34,
+    "PT": 32,
+    "SL": 33,
+    "VK": 27
+  },
+  "consolidatedAvg": 35.43,
+  "consolidatedRank": 122,
+  "traction": {
+    "tractionRank": 184,
+    "tractionScore": 3,
+    "tractionReason": "No disclosed clients, recoveries or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/wingman-law.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/wingman-law.md",
+      "elad-gil": "fall2026/evals/elad-gil/wingman-law.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/wingman-law.md",
+      "paul-graham": "fall2026/evals/paul-graham/wingman-law.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/wingman-law.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/wingman-law.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/wingman-law.md"
+    }
+  }
+}

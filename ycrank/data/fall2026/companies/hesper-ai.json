@@ -1,0 +1,81 @@
+{
+  "slug": "hesper-ai",
+  "name": "Hesper AI",
+  "oneLiner": "AI Claims Investigator for Insurance",
+  "metadata": {
+    "website": "https://gethesperai.com",
+    "yc_page": "https://www.ycombinator.com/companies/hesper-ai",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/hesper-ai))",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "New York City, NY, USA",
+    "tags": "Insurance, Fraud Detection, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/hesper-ai))",
+    "emails": "hello@gethesperai.com, support@gethesperai.com ([website](https://gethesperai.com/)); privacy@gethesperai.com ([privacy policy](https://gethesperai.com/privacy/)); legal@gethesperai.com ([MSA](https://gethesperai.com/legal/msa/)); founder contact: dhariwalpankaj10@gmail.com ([founder website, via search snippet](https://pankajdhariwal.com/))"
+  },
+  "tags": [
+    "Insurance",
+    "Fraud Detection",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:15:43.114Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 71,
+      "tier": "Invest"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 71,
+    "NR": 44,
+    "PG": 56,
+    "PT": 40,
+    "SL": 37,
+    "VK": 38
+  },
+  "consolidatedAvg": 47,
+  "consolidatedRank": 9,
+  "traction": {
+    "tractionRank": 39,
+    "tractionScore": 55,
+    "tractionReason": "10,000+ claims investigated; production MGA deployment; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/hesper-ai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/hesper-ai.md",
+      "elad-gil": "fall2026/evals/elad-gil/hesper-ai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/hesper-ai.md",
+      "paul-graham": "fall2026/evals/paul-graham/hesper-ai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/hesper-ai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/hesper-ai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/hesper-ai.md"
+    }
+  }
+}

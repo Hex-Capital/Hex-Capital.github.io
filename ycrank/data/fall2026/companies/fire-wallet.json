@@ -1,0 +1,82 @@
+{
+  "slug": "fire-wallet",
+  "name": "Fire Wallet",
+  "oneLiner": "Fire Wallet is a privacy-first crypto wallet designed to just work,?",
+  "metadata": {
+    "website": "https://fire.co",
+    "yc_page": "https://www.ycombinator.com/companies/fire-wallet",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/fire-wallet))",
+    "industry": "Fintech / Fintech",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "FinOps, Fintech, Security, Cryptocurrency",
+    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/fire-wallet))",
+    "emails": "founders@fire.co ([YC](https://www.ycombinator.com/companies/fire-wallet))"
+  },
+  "tags": [
+    "FinOps",
+    "Fintech",
+    "Security",
+    "Cryptocurrency"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:25:11.826Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 35,
+    "NR": 51,
+    "PG": 40,
+    "PT": 30,
+    "SL": 37,
+    "VK": 25
+  },
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 91,
+  "traction": {
+    "tractionRank": 87,
+    "tractionScore": 41,
+    "tractionReason": "Signed Trustboop LOI; no disclosed processed volume or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/fire-wallet.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/fire-wallet.md",
+      "elad-gil": "fall2026/evals/elad-gil/fire-wallet.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/fire-wallet.md",
+      "paul-graham": "fall2026/evals/paul-graham/fire-wallet.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/fire-wallet.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/fire-wallet.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/fire-wallet.md"
+    }
+  }
+}

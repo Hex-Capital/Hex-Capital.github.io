@@ -1,0 +1,76 @@
+{
+  "slug": "the-company-company",
+  "name": "The Company Company",
+  "oneLiner": "The operating system for tech startups.",
+  "metadata": {
+    "website": "https://www.thecompany.company",
+    "yc_page": "https://www.ycombinator.com/companies/the-company-company",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/the-company-company))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/the-company-company))",
+    "emails": "legal@thecompany.company ([website terms](https://www.thecompany.company/legal/terms)); support@thecompany.company ([official GitHub profile](https://github.com/the-company-company))"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:27:12.571Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 32,
+    "EG": 29,
+    "NR": 38,
+    "PG": 29,
+    "PT": 25,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 29.71,
+  "consolidatedRank": 181,
+  "traction": {
+    "tractionRank": 122,
+    "tractionScore": 24,
+    "tractionReason": "Estimated 2,232 monthly visits; no disclosed product users"
+  },
+  "paths": {
+    "memo": "fall2026/memos/the-company-company.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/the-company-company.md",
+      "elad-gil": "fall2026/evals/elad-gil/the-company-company.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/the-company-company.md",
+      "paul-graham": "fall2026/evals/paul-graham/the-company-company.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/the-company-company.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/the-company-company.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/the-company-company.md"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "agent-37",
+  "name": "Agent 37",
+  "oneLiner": "Cloud Sandbox for Agents",
+  "metadata": {
+    "website": "https://www.agent37.com/cloud",
+    "yc_page": "https://www.ycombinator.com/companies/agent-37",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/agent-37))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "0",
+    "location": "New York City, NY, USA",
+    "tags": "Developer Tools, SaaS, B2B, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/agent-37))",
+    "emails": "info@agent37.com; datarequest@datarep.com—appointed privacy representative ([Privacy policy](https://www.agent37.com/privacy))"
+  },
+  "tags": [
+    "Developer Tools",
+    "SaaS",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:14:08.673Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 60,
+    "NR": 49,
+    "PG": 57,
+    "PT": 30,
+    "SL": 39,
+    "VK": 31
+  },
+  "consolidatedAvg": 44.57,
+  "consolidatedRank": 18,
+  "traction": {
+    "tractionRank": 25,
+    "tractionScore": 60,
+    "tractionReason": "100+ companies running agents; company-wide ARR allocation undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/agent-37.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/agent-37.md",
+      "elad-gil": "fall2026/evals/elad-gil/agent-37.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/agent-37.md",
+      "paul-graham": "fall2026/evals/paul-graham/agent-37.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/agent-37.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/agent-37.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/agent-37.md"
+    }
+  }
+}

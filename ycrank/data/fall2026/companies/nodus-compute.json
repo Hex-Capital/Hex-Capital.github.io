@@ -1,0 +1,76 @@
+{
+  "slug": "nodus-compute",
+  "name": "Nodus Compute",
+  "oneLiner": "Intelligent Cloud for AI workloads",
+  "metadata": {
+    "website": "https://www.nodus-compute.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/nodus-compute",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/nodus-compute))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/nodus-compute))",
+    "emails": "pranav@nodus-compute.ai ([Careers](https://careers.nodus-compute.ai/)); admin@nodus-compute.ai ([Official GitHub](https://github.com/nodus-compute/))"
+  },
+  "tags": [],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:04:10.657Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 48,
+    "NR": 46,
+    "PG": 37,
+    "PT": 28,
+    "SL": 31,
+    "VK": 27
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 95,
+  "traction": {
+    "tractionRank": 77,
+    "tractionScore": 44,
+    "tractionReason": "10 startup pilots reported; payment status unspecified"
+  },
+  "paths": {
+    "memo": "fall2026/memos/nodus-compute.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/nodus-compute.md",
+      "elad-gil": "fall2026/evals/elad-gil/nodus-compute.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/nodus-compute.md",
+      "paul-graham": "fall2026/evals/paul-graham/nodus-compute.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/nodus-compute.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/nodus-compute.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/nodus-compute.md"
+    }
+  }
+}

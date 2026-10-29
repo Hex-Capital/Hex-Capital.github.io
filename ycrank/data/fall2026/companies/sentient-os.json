@@ -1,0 +1,80 @@
+{
+  "slug": "sentient-os",
+  "name": "Sentient OS",
+  "oneLiner": "On-device AI that knows your entire life and does your work overnight.",
+  "metadata": {
+    "website": "https://sentient-os.ai",
+    "yc_page": "https://www.ycombinator.com/companies/sentient-os",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sentient-os))",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Productivity, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/sentient-os))",
+    "emails": "feedback@sentient-os.ai ([website](https://sentient-os.ai/team)), jesai@sentient-os.ai ([company GitHub](https://github.com/Sentient-OS-Labs)), jesaitarun@gmail.com ([founder GitHub](https://github.com/theJayTea))"
+  },
+  "tags": [
+    "Productivity",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:16:24.328Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 47,
+    "NR": 44,
+    "PG": 43,
+    "PT": 30,
+    "SL": 28,
+    "VK": 27
+  },
+  "consolidatedAvg": 39.43,
+  "consolidatedRank": 58,
+  "traction": {
+    "tractionRank": 51,
+    "tractionScore": 51,
+    "tractionReason": "10,000+ users; users at 130+ companies; enterprise payments undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/sentient-os.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/sentient-os.md",
+      "elad-gil": "fall2026/evals/elad-gil/sentient-os.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/sentient-os.md",
+      "paul-graham": "fall2026/evals/paul-graham/sentient-os.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/sentient-os.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/sentient-os.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/sentient-os.md"
+    }
+  }
+}

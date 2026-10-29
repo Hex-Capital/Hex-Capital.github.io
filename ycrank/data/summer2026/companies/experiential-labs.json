@@ -61,7 +61,7 @@
   "consolidatedAvg": 52.57,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 104,
+    "tractionRank": 99,
     "tractionScore": 56,
     "tractionReason": "One customer deployment and 337 GitHub stars"
   },

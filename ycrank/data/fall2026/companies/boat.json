@@ -1,0 +1,80 @@
+{
+  "slug": "boat",
+  "name": "Boat",
+  "oneLiner": "The best cloud VMs for billions of agents",
+  "metadata": {
+    "website": "https://boat.dev",
+    "yc_page": "https://www.ycombinator.com/companies/boat",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/boat))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "Paris, ?le-de-France, France; Remote",
+    "tags": "Developer Tools, Cloud Computing",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/boat))",
+    "emails": "support@ascii.dev ([Boat support](https://docs.boat.dev/support))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:10:12.925Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 62,
+    "NR": 53,
+    "PG": 53,
+    "PT": 35,
+    "SL": 33,
+    "VK": 33
+  },
+  "consolidatedAvg": 46.86,
+  "consolidatedRank": 10,
+  "traction": {
+    "tractionRank": 6,
+    "tractionScore": 82,
+    "tractionReason": "Six-figure ARR; over 1,000 active paying users"
+  },
+  "paths": {
+    "memo": "fall2026/memos/boat.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/boat.md",
+      "elad-gil": "fall2026/evals/elad-gil/boat.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/boat.md",
+      "paul-graham": "fall2026/evals/paul-graham/boat.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/boat.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/boat.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/boat.md"
+    }
+  }
+}

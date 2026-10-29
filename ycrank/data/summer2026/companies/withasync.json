@@ -59,9 +59,9 @@
     "VK": 24
   },
   "consolidatedAvg": 43.43,
-  "consolidatedRank": 135,
+  "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 63,
+    "tractionRank": 61,
     "tractionScore": 64,
     "tractionReason": "Four named deployments; thousands of hours automated"
   },

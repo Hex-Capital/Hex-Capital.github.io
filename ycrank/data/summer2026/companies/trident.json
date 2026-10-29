@@ -60,9 +60,9 @@
     "VK": 31
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 184,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 62,
+    "tractionRank": 60,
     "tractionScore": 64,
     "tractionReason": "Customers received black-box pentests; critical findings widespread"
   },

@@ -1,0 +1,81 @@
+{
+  "slug": "ageospatial",
+  "name": "Ageospatial",
+  "oneLiner": "Physical intelligence for every decision with Geospatial AI.",
+  "metadata": {
+    "website": "https://ageospatial.com/",
+    "yc_page": "https://www.ycombinator.com/companies/ageospatial",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/ageospatial))",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Computer Vision, Insurance, AI",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/ageospatial))",
+    "emails": "maaz.sheikh@ageospatial.com, support@ageospatial.com, contact@ageospatial.com ([About](https://www.ageospatial.com/about), [Contact](https://www.ageospatial.com/contact))"
+  },
+  "tags": [
+    "Computer Vision",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:58:14.598Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 41,
+    "NR": 43,
+    "PG": 43,
+    "PT": 28,
+    "SL": 31,
+    "VK": 29
+  },
+  "consolidatedAvg": 38,
+  "consolidatedRank": 77,
+  "traction": {
+    "tractionRank": 20,
+    "tractionScore": 61,
+    "tractionReason": "Increasing revenue reported; signed insurance customer; AXA displayed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ageospatial.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ageospatial.md",
+      "elad-gil": "fall2026/evals/elad-gil/ageospatial.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ageospatial.md",
+      "paul-graham": "fall2026/evals/paul-graham/ageospatial.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ageospatial.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ageospatial.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ageospatial.md"
+    }
+  }
+}

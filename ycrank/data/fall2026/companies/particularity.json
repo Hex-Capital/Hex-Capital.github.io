@@ -1,0 +1,79 @@
+{
+  "slug": "particularity",
+  "name": "Particularity",
+  "oneLiner": "Building the tech stack for government regulators",
+  "metadata": {
+    "website": "https://particularity.io",
+    "yc_page": "https://www.ycombinator.com/companies/particularity",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/particularity))",
+    "industry": "Government / Government",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "GovTech",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/particularity))",
+    "emails": "chris@particularity.io ([Bannon’s LinkedIn launch, reproduced in activity feed](https://de.linkedin.com/in/taulant-h), via search snippet); cbannon@berkeley.edu ([PyPI author profile](https://pypi.org/project/img-to-pdf/))"
+  },
+  "tags": [
+    "GovTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:13:53.184Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 30,
+    "NR": 31,
+    "PG": 34,
+    "PT": 32,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 31.29,
+  "consolidatedRank": 171,
+  "traction": {
+    "tractionRank": 165,
+    "tractionScore": 10,
+    "tractionReason": "Emerged from stealth October 15; no disclosed customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/particularity.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/particularity.md",
+      "elad-gil": "fall2026/evals/elad-gil/particularity.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/particularity.md",
+      "paul-graham": "fall2026/evals/paul-graham/particularity.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/particularity.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/particularity.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/particularity.md"
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "veeza-ai",
+  "name": "Veeza AI",
+  "oneLiner": "AI tourist visa agent for people with weak passports.",
+  "metadata": {
+    "website": "https://veeza.ai",
+    "yc_page": "https://www.ycombinator.com/companies/veeza-ai",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/veeza-ai))",
+    "industry": "Consumer / Consumer -> Travel, Leisure and Tourism",
+    "team_size": "2",
+    "tags": "AIOps, Consumer, AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/veeza-ai))",
+    "emails": "info@veeza.ai ([company](https://www.veeza.ai/en/about)); founders@veeza.ai ([YC](https://www.ycombinator.com/companies/veeza-ai)); moursy.aly@gmail.com ([founder website](https://www.alymoursy.com/))"
+  },
+  "tags": [
+    "AIOps",
+    "Consumer",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:14:28.985Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 47,
+    "NR": 51,
+    "PG": 46,
+    "PT": 31,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 55,
+  "traction": {
+    "tractionRank": 19,
+    "tractionScore": 61,
+    "tractionReason": "Paying customers confirmed; 7,000+ users; revenue reportedly doubled"
+  },
+  "paths": {
+    "memo": "fall2026/memos/veeza-ai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/veeza-ai.md",
+      "elad-gil": "fall2026/evals/elad-gil/veeza-ai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/veeza-ai.md",
+      "paul-graham": "fall2026/evals/paul-graham/veeza-ai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/veeza-ai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/veeza-ai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/veeza-ai.md"
+    }
+  }
+}

@@ -61,9 +61,9 @@
     "VK": 36
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 112,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 200,
+    "tractionRank": 189,
     "tractionScore": 27,
     "tractionReason": "Internal robot repetitions; preview API available"
   },

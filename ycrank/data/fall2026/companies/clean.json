@@ -1,0 +1,80 @@
+{
+  "slug": "clean",
+  "name": "Clean",
+  "oneLiner": "We tell sellers exactly when a company is ready to buy.",
+  "metadata": {
+    "website": "http://www.tryclean.ai",
+    "yc_page": "https://www.ycombinator.com/companies/clean",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/clean))",
+    "industry": "B2B / B2B",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, SaaS",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/clean))",
+    "emails": "hello@tryclean.ai ([Clean](https://www.tryclean.ai/contact)); founder professional contacts: prathambiren2618@gmail.com ([Pratham](https://www.meetpratham.me/)), infernotech2618@gmail.com ([GitHub](https://github.com/CodeWithInferno)), csaputra@ucsd.edu ([Clarissa](https://www.clarissabuilds.com/))"
+  },
+  "tags": [
+    "Deep Learning",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:03:18.656Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 46,
+    "NR": 49,
+    "PG": 47,
+    "PT": 31,
+    "SL": 42,
+    "VK": 31
+  },
+  "consolidatedAvg": 41.43,
+  "consolidatedRank": 38,
+  "traction": {
+    "tractionRank": 8,
+    "tractionScore": 74,
+    "tractionReason": "$240K ARR from current sales product before YC"
+  },
+  "paths": {
+    "memo": "fall2026/memos/clean.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/clean.md",
+      "elad-gil": "fall2026/evals/elad-gil/clean.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/clean.md",
+      "paul-graham": "fall2026/evals/paul-graham/clean.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/clean.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/clean.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/clean.md"
+    }
+  }
+}

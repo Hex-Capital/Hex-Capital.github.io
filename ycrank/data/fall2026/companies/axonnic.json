@@ -1,0 +1,81 @@
+{
+  "slug": "axonnic",
+  "name": "Axonnic",
+  "oneLiner": "Bringing human dexterity to every robot",
+  "metadata": {
+    "website": "https://www.axonnic.com",
+    "yc_page": "https://www.ycombinator.com/companies/axonnic",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/axonnic))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Neurotechnology, Robotics, Data Labeling",
+    "yc_partner": "Aaron Epstein ([YC, via search snippet](https://www.ycombinator.com/companies/axonnic))",
+    "emails": "info@axonnic.com ([Axonnic](https://www.axonnic.com))"
+  },
+  "tags": [
+    "Neurotechnology",
+    "Robotics",
+    "Data Labeling"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:03:34.687Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 57,
+    "EG": 42,
+    "NR": 53,
+    "PG": 40,
+    "PT": 35,
+    "SL": 37,
+    "VK": 32
+  },
+  "consolidatedAvg": 42.29,
+  "consolidatedRank": 33,
+  "traction": {
+    "tractionRank": 65,
+    "tractionScore": 47,
+    "tractionReason": "Signed manufacturing LOI; named industrial pilot; Proception integration"
+  },
+  "paths": {
+    "memo": "fall2026/memos/axonnic.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/axonnic.md",
+      "elad-gil": "fall2026/evals/elad-gil/axonnic.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/axonnic.md",
+      "paul-graham": "fall2026/evals/paul-graham/axonnic.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/axonnic.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/axonnic.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/axonnic.md"
+    }
+  }
+}

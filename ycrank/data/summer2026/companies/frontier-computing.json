@@ -60,9 +60,9 @@
     "VK": 36
   },
   "consolidatedAvg": 50.86,
-  "consolidatedRank": 58,
+  "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 158,
+    "tractionRank": 151,
     "tractionScore": 45,
     "tractionReason": "Biological-compute demonstration; no customers"
   },

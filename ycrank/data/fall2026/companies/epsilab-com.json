@@ -1,0 +1,83 @@
+{
+  "slug": "epsilab-com",
+  "name": "Epsilab",
+  "oneLiner": "Long horizon RL environments from real-life data",
+  "metadata": {
+    "website": "https://www.epsilab.com",
+    "yc_page": "https://www.ycombinator.com/companies/epsilab-com",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/epsilab-com))",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Machine Learning, Reinforcement Learning, B2B, Data Labeling, AI",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/epsilab-com))",
+    "emails": "e@evan.hu — founder contact ([Evan Hu’s blog](https://blog.evan.hu/p/my-first-8-months-self-employed)); fengjiao@shortbread.ai — prior-venture address ([LinkedIn, via search snippet](https://www.linkedin.com/in/fengjiao-peng))"
+  },
+  "tags": [
+    "Machine Learning",
+    "Reinforcement Learning",
+    "B2B",
+    "Data Labeling",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:03:43.759Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 41,
+    "NR": 30,
+    "PG": 33,
+    "PT": 31,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 159,
+  "traction": {
+    "tractionRank": 183,
+    "tractionScore": 4,
+    "tractionReason": "No disclosed customers, usage or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/epsilab-com.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/epsilab-com.md",
+      "elad-gil": "fall2026/evals/elad-gil/epsilab-com.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/epsilab-com.md",
+      "paul-graham": "fall2026/evals/paul-graham/epsilab-com.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/epsilab-com.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/epsilab-com.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/epsilab-com.md"
+    }
+  }
+}

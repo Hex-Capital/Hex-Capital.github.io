@@ -1,0 +1,81 @@
+{
+  "slug": "runtimesi",
+  "name": "Runtime.si",
+  "oneLiner": "Evaluation Infrastructure for Robotics (YC F26)",
+  "metadata": {
+    "website": "https://runtime.si/",
+    "yc_page": "https://www.ycombinator.com/companies/runtimesi",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/runtimesi))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Infrastructure, AI",
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/runtimesi))",
+    "emails": "lemonzhong001@163.com ([CTO’s website](https://nz-liam-zhong.github.io/), Oct 2026)"
+  },
+  "tags": [
+    "Robotics",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:18:44.985Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 31,
+    "NR": 41,
+    "PG": 35,
+    "PT": 26,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 31.57,
+  "consolidatedRank": 168,
+  "traction": {
+    "tractionRank": 160,
+    "tractionScore": 12,
+    "tractionReason": "Simulation benchmark forthcoming; no disclosed customers or usage"
+  },
+  "paths": {
+    "memo": "fall2026/memos/runtimesi.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/runtimesi.md",
+      "elad-gil": "fall2026/evals/elad-gil/runtimesi.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/runtimesi.md",
+      "paul-graham": "fall2026/evals/paul-graham/runtimesi.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/runtimesi.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/runtimesi.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/runtimesi.md"
+    }
+  }
+}

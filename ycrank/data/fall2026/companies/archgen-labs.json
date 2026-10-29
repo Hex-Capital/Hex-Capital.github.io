@@ -1,0 +1,81 @@
+{
+  "slug": "archgen-labs",
+  "name": "Archgen Labs",
+  "oneLiner": "AI-powered EDA tools for faster, cooler 3D chips",
+  "metadata": {
+    "website": "https://www.archgen.tech/",
+    "yc_page": "https://www.ycombinator.com/companies/archgen-labs",
+    "batch": "Fall 2026 ([YC, accessed Oct 2026, via search snippet](https://www.ycombinator.com/companies/archgen-labs))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Semiconductors, AI",
+    "yc_partner": "Kulveer Taggar ([YC, via search snippet](https://www.ycombinator.com/companies/archgen-labs))",
+    "emails": "hari@archgen.tech, naveen@archgen.tech ([company website](https://www.archgen.tech/))"
+  },
+  "tags": [
+    "Hardware",
+    "Semiconductors",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:16:33.659Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 48,
+    "NR": 46,
+    "PG": 44,
+    "PT": 30,
+    "SL": 30,
+    "VK": 28
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 60,
+  "traction": {
+    "tractionRank": 101,
+    "tractionScore": 36,
+    "tractionReason": "GlobalFoundries collaboration reported; no disclosed paying relationship"
+  },
+  "paths": {
+    "memo": "fall2026/memos/archgen-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/archgen-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/archgen-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/archgen-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/archgen-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/archgen-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/archgen-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/archgen-labs.md"
+    }
+  }
+}

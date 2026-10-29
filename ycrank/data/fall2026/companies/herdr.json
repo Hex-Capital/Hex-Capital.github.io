@@ -1,0 +1,81 @@
+{
+  "slug": "herdr",
+  "name": "herdr",
+  "oneLiner": "building the open agent runtime",
+  "metadata": {
+    "website": "https://herdr.dev/",
+    "yc_page": "https://www.ycombinator.com/companies/herdr",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/herdr))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "1",
+    "location": "Ankara, Ankara, Turkey",
+    "tags": "Developer Tools, AI, AI Assistant",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/herdr))",
+    "emails": "hey@herdr.dev ([official GitHub repository](https://github.com/herdrdev/herdr))"
+  },
+  "tags": [
+    "Developer Tools",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:16:39.519Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 67,
+      "tier": "Invest"
+    },
+    "elad-gil": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 57,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 67,
+    "EG": 58,
+    "NR": 58,
+    "PG": 57,
+    "PT": 37,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 47.29,
+  "consolidatedRank": 8,
+  "traction": {
+    "tractionRank": 35,
+    "tractionScore": 57,
+    "tractionReason": "1.64M cumulative installs; 46,194 stars; free runtime"
+  },
+  "paths": {
+    "memo": "fall2026/memos/herdr.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/herdr.md",
+      "elad-gil": "fall2026/evals/elad-gil/herdr.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/herdr.md",
+      "paul-graham": "fall2026/evals/paul-graham/herdr.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/herdr.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/herdr.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/herdr.md"
+    }
+  }
+}

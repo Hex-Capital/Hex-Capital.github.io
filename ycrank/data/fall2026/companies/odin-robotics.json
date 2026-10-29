@@ -1,0 +1,81 @@
+{
+  "slug": "odin-robotics",
+  "name": "Odin Robotics",
+  "oneLiner": "Robot arms that do repetitive manual work in existing factories.",
+  "metadata": {
+    "website": "https://odin-robotics.com",
+    "yc_page": "https://www.ycombinator.com/companies/odin-robotics",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/odin-robotics))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "ZH, Switzerland",
+    "tags": "Robotics, Manufacturing, Industrial",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/odin-robotics))",
+    "emails": "founders@odin-robotics.com ([company website](https://odin-robotics.com))"
+  },
+  "tags": [
+    "Robotics",
+    "Manufacturing",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:09:51.298Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 30,
+    "NR": 41,
+    "PG": 35,
+    "PT": 28,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 32.57,
+  "consolidatedRank": 156,
+  "traction": {
+    "tractionRank": 148,
+    "tractionScore": 16,
+    "tractionReason": "CNC and packing demonstrations; no disclosed customer deployments"
+  },
+  "paths": {
+    "memo": "fall2026/memos/odin-robotics.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/odin-robotics.md",
+      "elad-gil": "fall2026/evals/elad-gil/odin-robotics.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/odin-robotics.md",
+      "paul-graham": "fall2026/evals/paul-graham/odin-robotics.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/odin-robotics.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/odin-robotics.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/odin-robotics.md"
+    }
+  }
+}

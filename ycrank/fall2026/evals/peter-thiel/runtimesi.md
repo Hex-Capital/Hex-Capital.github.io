@@ -1,0 +1,26 @@
+﻿# Runtime.si -- Peter Thiel Evaluation
+
+What does Runtime.si know about robot failure that existing simulation companies do not? The potentially important secret is that a sufficiently broad simulation suite can predict physical deployment failures better than robotics teams’ existing tests. That proposition is testable: freeze the benchmark, predict failures on unseen tasks, and compare those predictions with physical outcomes. But this is an investment hypothesis reconstructed from the product, not an established discovery in the dossier. Runtime’s October 15 research reports 152/525 successes without skills versus 283/525 for selected skill cohorts; retrospective, in-sample selection cannot establish that predictive capability. I assign the secret criterion its absent-evidence default. An unproved secret is different from a disproved one.
+
+The more immediate problem is ownership of the opportunity. Nomad validates actions, executes simulations, and records task outcomes. SignalFlag already orchestrates hardware, replay, and simulation evaluations; Duality supplies digital twins and closed-loop validation; NVIDIA is expanding open evaluation workflows. Those are concrete competitive pressures, even though their products are not identical. Runtime.si has not identified a bounded customer segment in which its particular capabilities establish dominance. SimInfinity’s proposed 10,000 open-source simulations could create substantial utility, but publishing useful tests does not itself establish proprietary technology, network effects, or control of a market. Here the evidence falls below the monopoly criterion’s default: the substitutes are visible, while the mechanism for escaping them is not.
+
+The strongest objection to passing is that evaluation could become the scarce infrastructure beneath abundant robot policies. Runtime’s founders have relevant substance: Peng’s GRASP research, Ying’s manipulation and manufacturing experience, and Zhong’s control and reinforcement-learning background. Nomad also documents an implemented testing workflow rather than merely a robotics ambition. This fits my revealed interest in the infrastructure supporting AI and physical production. The bull case is that the team turns evaluation results into the trusted record of which policies work, making each subsequent customer depend on that accumulated record. The difficulty is decisive: physical-outcome feedback, proprietary data rights, and customer dependence are all prospective. None earns present monopoly credit.
+
+The founding structure remains unresolved. Shared Penn affiliations do not establish years of working together, full-time commitment, or economic alignment. Equally, the dossier supplies no evidence of part-time founders, outsourced core engineering, investor-majority ownership, or substantial secondary liquidity. I therefore use the founding criterion’s exact default rather than rewarding university proximity or inventing a red flag. The Lambda Robotics job descriptions introduce a separate question about current product direction; their early pilots cannot validate demand for Runtime.si’s evaluation infrastructure.
+
+There is also no demonstrated commercial engine connecting technical usefulness to a large outcome. Subscription and compute pricing are inferred possibilities, so the revenue criterion receives its default. The broader market’s $2.25 billion forecast does not supply Runtime’s customer count, contract value, or expansion economics. Distribution likewise receives its default: research publications and a waitlist are observable channels, but there is no evidence of conversion, sales cycles, or delivery economics. My expectation is that, by October 2029, the company will have narrowed into customer-specific robotics validation services rather than established a broadly adopted evaluation platform. Its technical team provides a plausible route to useful work; the present evidence provides little reason that work must compound into market ownership.
+
+I pass on the current evidence. I checked the exception hierarchy: there is no independently verified technical discontinuity, persistent customer transaction behavior, or concrete deployment path that directly removes the monopoly concern. Nor does the dossier establish a foundational technical collapse or an impossible manufacturing coordination stack; those harsher objections would be unsupported. One verifiable result would reopen the decision: an independent, prospective customer study showing that Runtime’s exclusive failure corpus catches materially more held-out physical failures than the customer’s existing evaluation stack and leads that customer to renew a paid deployment. That would connect a secret to something Runtime can own.
+
+### Dimension Scores
+
+| Criterion | Score |
+|-----------|-------|
+| Dossier States a Falsifiable Secret Named Peers Reject | 7/30 |
+| Narrow Beachhead Already Exhibits One Monopoly Mechanism | 4/24 |
+| All Core Founders Are Full-Time, Long-Aligned, and Economically Exposed | 8/18 |
+| One Revenue Engine Can Plausibly Return the Fund | 4/16 |
+| Named Distribution Route Fits Customer Economics | 3/12 |
+| **Total** | **26/100** |
+
+**Total Score: 26/100** (Pass)

@@ -62,9 +62,9 @@
     "VK": 34
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 141,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 140,
+    "tractionRank": 134,
     "tractionScore": 49,
     "tractionReason": "Completed first real-robot frontier-model pilot"
   },

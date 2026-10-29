@@ -1,0 +1,82 @@
+{
+  "slug": "degla-inc",
+  "name": "Degla Inc",
+  "oneLiner": "The fully autonomous intelligence layer in the sky.",
+  "metadata": {
+    "website": "https://degla.ai",
+    "yc_page": "https://www.ycombinator.com/companies/degla-inc",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/degla-inc))",
+    "industry": "Industrials / Industrials -> Drones",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "Hard Tech, Drones, Aerospace, AI",
+    "yc_partner": "Garry Tan ([Y Combinator](https://www.ycombinator.com/companies/degla-inc))",
+    "emails": "ceo@deglai.ai ([Degla website](https://degla.ai)); sales@degla.ai ([company LinkedIn](https://www.linkedin.com/company/deglaai/))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Drones",
+    "Aerospace",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:25:32.672Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 40,
+    "NR": 46,
+    "PG": 35,
+    "PT": 28,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 36,
+  "consolidatedRank": 112,
+  "traction": {
+    "tractionRank": 150,
+    "tractionScore": 15,
+    "tractionReason": "Government observers attended demonstration; no disclosed customer relationships"
+  },
+  "paths": {
+    "memo": "fall2026/memos/degla-inc.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/degla-inc.md",
+      "elad-gil": "fall2026/evals/elad-gil/degla-inc.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/degla-inc.md",
+      "paul-graham": "fall2026/evals/paul-graham/degla-inc.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/degla-inc.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/degla-inc.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/degla-inc.md"
+    }
+  }
+}

@@ -60,9 +60,9 @@
     "VK": 26
   },
   "consolidatedAvg": 49.57,
-  "consolidatedRank": 70,
+  "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 43,
+    "tractionRank": 41,
     "tractionScore": 68,
     "tractionReason": "Completed enterprise-data transactions with Fortune 500 users"
   },

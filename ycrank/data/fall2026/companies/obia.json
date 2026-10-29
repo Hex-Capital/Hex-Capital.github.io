@@ -1,0 +1,81 @@
+{
+  "slug": "obia",
+  "name": "Obia",
+  "oneLiner": "AI-native commercial real estate brokerage",
+  "metadata": {
+    "website": "https://obia.io/",
+    "yc_page": "https://www.ycombinator.com/companies/obia",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/obia))",
+    "industry": "Real Estate and Construction / Real Estate and Construction",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Real Estate, B2B, Proptech",
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/obia))",
+    "emails": "admin@obia.io ([Obia](https://obia.io/news/corenet-global-summit-2026))"
+  },
+  "tags": [
+    "Real Estate",
+    "B2B",
+    "Proptech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:54:45.700Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 31,
+    "NR": 33,
+    "PG": 31,
+    "PT": 28,
+    "SL": 28,
+    "VK": 25
+  },
+  "consolidatedAvg": 29.43,
+  "consolidatedRank": 185,
+  "traction": {
+    "tractionRank": 108,
+    "tractionScore": 32,
+    "tractionReason": "Logistics research engagement; no completed brokerage transaction disclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/obia.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/obia.md",
+      "elad-gil": "fall2026/evals/elad-gil/obia.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/obia.md",
+      "paul-graham": "fall2026/evals/paul-graham/obia.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/obia.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/obia.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/obia.md"
+    }
+  }
+}

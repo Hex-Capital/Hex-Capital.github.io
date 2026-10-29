@@ -1,0 +1,81 @@
+{
+  "slug": "hue",
+  "name": "Hue",
+  "oneLiner": "Test agents in realistic worlds built from production usage",
+  "metadata": {
+    "website": "https://hue.run/",
+    "yc_page": "https://www.ycombinator.com/companies/hue",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/hue))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Infrastructure, AI",
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/hue))",
+    "emails": "founders@hue.run ([Hue](https://hue.run/)); team@hue.run ([GitHub](https://github.com/hue-run)); aneesh@hue.run ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:17:19.641Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 32,
+    "NR": 38,
+    "PG": 36,
+    "PT": 30,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 160,
+  "traction": {
+    "tractionRank": 133,
+    "tractionScore": 20,
+    "tractionReason": "SDK released; zero repository stars; no disclosed customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/hue.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/hue.md",
+      "elad-gil": "fall2026/evals/elad-gil/hue.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/hue.md",
+      "paul-graham": "fall2026/evals/paul-graham/hue.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/hue.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/hue.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/hue.md"
+    }
+  }
+}

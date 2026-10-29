@@ -1,0 +1,82 @@
+{
+  "slug": "definite",
+  "name": "Definite",
+  "oneLiner": "Build everyday back-office agents on one live model of your books",
+  "metadata": {
+    "website": "https://www.usedefinite.com",
+    "yc_page": "https://www.ycombinator.com/companies/definite",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/definite))",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, SaaS, Finance, AI",
+    "yc_partner": "Ankit Gupta ([YC](https://www.ycombinator.com/companies/definite))",
+    "emails": "gurshabd@usedefinite.com ([YC launch](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)); mazin@usedefinite.com ([LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet); jeevsidak@usedefinite.com ([Contact](https://www.usedefinite.com/contact)); historical indexed address: contact@usedefinite.com ([Terms](https://www.usedefinite.com/terms), via search snippet)"
+  },
+  "tags": [
+    "Fintech",
+    "SaaS",
+    "Finance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:23:30.935Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 32,
+    "NR": 47,
+    "PG": 39,
+    "PT": 30,
+    "SL": 27,
+    "VK": 29
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 139,
+  "traction": {
+    "tractionRank": 130,
+    "tractionScore": 20,
+    "tractionReason": "297 LinkedIn followers; no disclosed current-product customers or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/definite.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/definite.md",
+      "elad-gil": "fall2026/evals/elad-gil/definite.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/definite.md",
+      "paul-graham": "fall2026/evals/paul-graham/definite.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/definite.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/definite.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/definite.md"
+    }
+  }
+}

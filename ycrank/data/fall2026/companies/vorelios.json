@@ -1,0 +1,81 @@
+{
+  "slug": "vorelios",
+  "name": "Vorelios",
+  "oneLiner": "Solving engineering, then using it to solve everything else",
+  "metadata": {
+    "website": "https://vorelios.com",
+    "yc_page": "https://www.ycombinator.com/companies/vorelios",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/vorelios))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, B2B, AI",
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/vorelios))",
+    "emails": "founders@vorelios.com ([company website](https://vorelios.com))"
+  },
+  "tags": [
+    "Hard Tech",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:18:04.588Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 33,
+    "EG": 37,
+    "NR": 49,
+    "PG": 35,
+    "PT": 32,
+    "SL": 29,
+    "VK": 36
+  },
+  "consolidatedAvg": 35.86,
+  "consolidatedRank": 117,
+  "traction": {
+    "tractionRank": 167,
+    "tractionScore": 10,
+    "tractionReason": "Engineering benchmark results; no disclosed customers or usage"
+  },
+  "paths": {
+    "memo": "fall2026/memos/vorelios.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/vorelios.md",
+      "elad-gil": "fall2026/evals/elad-gil/vorelios.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/vorelios.md",
+      "paul-graham": "fall2026/evals/paul-graham/vorelios.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/vorelios.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/vorelios.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/vorelios.md"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "evident-machines",
+  "name": "Evident Machines",
+  "oneLiner": "Real-world benchmarks for electrical engineering",
+  "metadata": {
+    "website": "https://evidentmachines.com/",
+    "yc_page": "https://www.ycombinator.com/companies/evident-machines",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/evident-machines))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Machine Learning, Robotics, Electronics, AI",
+    "yc_partner": "Jon Xu ([YC](https://www.ycombinator.com/companies/evident-machines))",
+    "emails": "hitrishalajain@gmail.com ([Jain’s LinkedIn](https://www.linkedin.com/in/trishalajain7)); marknnour@berkeley.edu ([Nour’s website, cached search result](https://www.marknour.com/))"
+  },
+  "tags": [
+    "Hardware",
+    "Machine Learning",
+    "Robotics",
+    "Electronics",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:21:46.109Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 30,
+    "NR": 31,
+    "PG": 29,
+    "PT": 32,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 31,
+  "consolidatedRank": 172,
+  "traction": {
+    "tractionRank": 185,
+    "tractionScore": 3,
+    "tractionReason": "No disclosed current-product customers or benchmark adoption"
+  },
+  "paths": {
+    "memo": "fall2026/memos/evident-machines.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/evident-machines.md",
+      "elad-gil": "fall2026/evals/elad-gil/evident-machines.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/evident-machines.md",
+      "paul-graham": "fall2026/evals/paul-graham/evident-machines.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/evident-machines.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/evident-machines.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/evident-machines.md"
+    }
+  }
+}

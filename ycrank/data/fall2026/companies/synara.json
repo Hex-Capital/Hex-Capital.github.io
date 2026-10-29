@@ -1,0 +1,82 @@
+{
+  "slug": "synara",
+  "name": "Synara",
+  "oneLiner": "We are the last monitoring station, run by AI",
+  "metadata": {
+    "website": "https://synaraops.com",
+    "yc_page": "https://www.ycombinator.com/companies/synara",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/synara))",
+    "industry": "B2B / B2B -> Analytics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Deep Learning, Security Orchestration, Automation and Response (SOAR), Monitoring",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/synara))",
+    "emails": "hello@synaraops.com ([Synara privacy policy](https://synaraops.com/privacy))"
+  },
+  "tags": [
+    "Deep Learning",
+    "Security Orchestration",
+    "Automation and Response (SOAR)",
+    "Monitoring"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:10:06.435Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 39,
+    "NR": 48,
+    "PG": 34,
+    "PT": 27,
+    "SL": 32,
+    "VK": 25
+  },
+  "consolidatedAvg": 35.43,
+  "consolidatedRank": 121,
+  "traction": {
+    "tractionRank": 175,
+    "tractionScore": 8,
+    "tractionReason": "Public launch only; no disclosed customers or monitored sites"
+  },
+  "paths": {
+    "memo": "fall2026/memos/synara.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/synara.md",
+      "elad-gil": "fall2026/evals/elad-gil/synara.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/synara.md",
+      "paul-graham": "fall2026/evals/paul-graham/synara.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/synara.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/synara.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/synara.md"
+    }
+  }
+}

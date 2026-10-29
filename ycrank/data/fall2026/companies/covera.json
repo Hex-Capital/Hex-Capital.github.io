@@ -1,0 +1,83 @@
+{
+  "slug": "covera",
+  "name": "Covera",
+  "oneLiner": "AI-native OS for insurance brokers",
+  "metadata": {
+    "website": "https://www.covera-agents.com/?utm_source=ycombinator&utm_medium=company_profile&utm_campaign=yc_f26",
+    "yc_page": "https://www.ycombinator.com/companies/covera",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/covera))",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, SaaS, B2B, Insurance, AI Assistant",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/covera))",
+    "emails": "contact@covera-agents.com ([Covera legal notice](https://www.covera-agents.com/legal))"
+  },
+  "tags": [
+    "AIOps",
+    "SaaS",
+    "B2B",
+    "Insurance",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:16:13.462Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 63,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 52,
+    "EG": 63,
+    "NR": 45,
+    "PG": 49,
+    "PT": 34,
+    "SL": 39,
+    "VK": 28
+  },
+  "consolidatedAvg": 44.29,
+  "consolidatedRank": 20,
+  "traction": {
+    "tractionRank": 38,
+    "tractionScore": 55,
+    "tractionReason": "50+ agencies; named customer completed 155 tasks in two weeks"
+  },
+  "paths": {
+    "memo": "fall2026/memos/covera.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/covera.md",
+      "elad-gil": "fall2026/evals/elad-gil/covera.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/covera.md",
+      "paul-graham": "fall2026/evals/paul-graham/covera.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/covera.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/covera.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/covera.md"
+    }
+  }
+}

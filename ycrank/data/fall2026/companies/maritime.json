@@ -1,0 +1,81 @@
+{
+  "slug": "maritime",
+  "name": "Maritime",
+  "oneLiner": "The managed cloud for AI agents.",
+  "metadata": {
+    "website": "https://maritime.sh/",
+    "yc_page": "https://www.ycombinator.com/companies/maritime",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/maritime))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Cloud Computing, Infrastructure",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/maritime))",
+    "emails": "contact@maritime.sh, security@maritime.sh ([Maritime Security](https://maritime.sh/security))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:53:14.199Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 44,
+    "EG": 35,
+    "NR": 49,
+    "PG": 43,
+    "PT": 31,
+    "SL": 32,
+    "VK": 25
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 94,
+  "traction": {
+    "tractionRank": 115,
+    "tractionScore": 28,
+    "tractionReason": "Seven SDK stars; 253 Product Hunt followers; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/maritime.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/maritime.md",
+      "elad-gil": "fall2026/evals/elad-gil/maritime.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/maritime.md",
+      "paul-graham": "fall2026/evals/paul-graham/maritime.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/maritime.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/maritime.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/maritime.md"
+    }
+  }
+}

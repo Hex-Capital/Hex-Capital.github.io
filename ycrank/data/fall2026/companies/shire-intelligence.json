@@ -1,0 +1,80 @@
+{
+  "slug": "shire-intelligence",
+  "name": "Shire Intelligence",
+  "oneLiner": "Shire uses CCTV to run restaurants in real time.",
+  "metadata": {
+    "website": "https://shireintelligence.com/",
+    "yc_page": "https://www.ycombinator.com/companies/shire-intelligence",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/shire-intelligence))",
+    "industry": "Consumer / Consumer -> Food and Beverage",
+    "team_size": "4",
+    "location": "Myrtle Beach, SC, USA",
+    "tags": "Deep Learning, Food Tech",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/shire-intelligence))",
+    "emails": "alex@shireintelligence.com, founders@shireintelligence.com ([Shire privacy policy](https://shireintelligence.com/privacy-policy))"
+  },
+  "tags": [
+    "Deep Learning",
+    "Food Tech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:12:57.321Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 41,
+    "NR": 43,
+    "PG": 40,
+    "PT": 34,
+    "SL": 31,
+    "VK": 27
+  },
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 107,
+  "traction": {
+    "tractionRank": 89,
+    "tractionScore": 40,
+    "tractionReason": "Named restaurant testimonial; revenue and CCTV deployment counts undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/shire-intelligence.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/shire-intelligence.md",
+      "elad-gil": "fall2026/evals/elad-gil/shire-intelligence.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/shire-intelligence.md",
+      "paul-graham": "fall2026/evals/paul-graham/shire-intelligence.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/shire-intelligence.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/shire-intelligence.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/shire-intelligence.md"
+    }
+  }
+}

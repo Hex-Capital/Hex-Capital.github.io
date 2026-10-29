@@ -1,0 +1,77 @@
+{
+  "slug": "bear-inc",
+  "name": "Bear",
+  "oneLiner": "AI-native accounting firm.",
+  "metadata": {
+    "website": "https://bear.inc/",
+    "yc_page": "https://www.ycombinator.com/companies/bear-inc",
+    "batch": "Summer 2026 ([YC](https://www.ycombinator.com/companies/bear-inc))",
+    "industry": "B2B / B2B -> Finance and Accounting",
+    "team_size": "3",
+    "location": "Helsinki, Finland",
+    "tags": "Fintech, Finance, AI",
+    "yc_partner": "Gustaf Alstromer ([YC](https://www.ycombinator.com/companies/bear-inc))",
+    "emails": "hello@lastaccountingcompany.com ([company privacy notice](https://lastaccountingcompany.com/privacy))"
+  },
+  "tags": [
+    "Fintech",
+    "Finance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:43:46.070Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 43,
+    "NR": 51,
+    "PG": 45,
+    "PT": 29,
+    "SL": 38,
+    "VK": 29
+  },
+  "consolidatedAvg": 39.71,
+  "consolidatedRank": 158,
+  "traction": null,
+  "paths": {
+    "memo": "summer2026/memos/bear-inc.md",
+    "evals": {
+      "cyan-banister": "summer2026/evals/cyan-banister/bear-inc.md",
+      "elad-gil": "summer2026/evals/elad-gil/bear-inc.md",
+      "naval-ravikant": "summer2026/evals/naval-ravikant/bear-inc.md",
+      "paul-graham": "summer2026/evals/paul-graham/bear-inc.md",
+      "peter-thiel": "summer2026/evals/peter-thiel/bear-inc.md",
+      "sam-lessin": "summer2026/evals/sam-lessin/bear-inc.md",
+      "vinod-khosla": "summer2026/evals/vinod-khosla/bear-inc.md"
+    }
+  }
+}

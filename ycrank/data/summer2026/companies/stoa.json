@@ -62,9 +62,9 @@
     "VK": 32
   },
   "consolidatedAvg": 48.71,
-  "consolidatedRank": 78,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 57,
+    "tractionRank": 55,
     "tractionScore": 65,
     "tractionReason": "$300M RFQs routed during first month"
   },

@@ -1,0 +1,83 @@
+{
+  "slug": "applied-kinetics",
+  "name": "Applied Kinetics",
+  "oneLiner": "AI-native manufacturing for data center and energy projects",
+  "metadata": {
+    "website": "https://appliedkinetics.ai",
+    "yc_page": "https://www.ycombinator.com/companies/applied-kinetics",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/applied-kinetics))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Manufacturing, Energy, AI, Industrial",
+    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/applied-kinetics))",
+    "emails": "rohit@appliedkinetics.ai ([company privacy policy](https://appliedkinetics.ai/privacy))"
+  },
+  "tags": [
+    "B2B",
+    "Manufacturing",
+    "Energy",
+    "AI",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:10:42.797Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 40,
+    "NR": 39,
+    "PG": 32,
+    "PT": 35,
+    "SL": 28,
+    "VK": 31
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 129,
+  "traction": {
+    "tractionRank": 138,
+    "tractionScore": 19,
+    "tractionReason": "Partner manufacturing capacity claimed; no named completed company shipment"
+  },
+  "paths": {
+    "memo": "fall2026/memos/applied-kinetics.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/applied-kinetics.md",
+      "elad-gil": "fall2026/evals/elad-gil/applied-kinetics.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/applied-kinetics.md",
+      "paul-graham": "fall2026/evals/paul-graham/applied-kinetics.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/applied-kinetics.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/applied-kinetics.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/applied-kinetics.md"
+    }
+  }
+}

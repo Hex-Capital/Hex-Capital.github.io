@@ -1,0 +1,81 @@
+{
+  "slug": "vyra",
+  "name": "Vyra",
+  "oneLiner": "Personal video editing agent for shortform content",
+  "metadata": {
+    "website": "https://usevyra.com",
+    "yc_page": "https://www.ycombinator.com/companies/vyra",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/vyra))",
+    "industry": "Consumer / Consumer -> Content",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Video, Automation, SMB",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/vyra))",
+    "emails": "caleb@usevyra.com, sulan@usevyra.com ([Vyra](https://www.usevyra.com/blog/vyra-mobile)); sulanzhangart@gmail.com ([About](https://www.usevyra.com/about)); calebpongj@gmail.com ([Caleb’s portfolio](https://www.calebjune.com/)); sulan_zhang@brown.edu ([Sulan’s portfolio](https://www.sulanzhang.com/about))"
+  },
+  "tags": [
+    "Video",
+    "Automation",
+    "SMB"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:10:01.453Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 26,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 32,
+    "NR": 49,
+    "PG": 54,
+    "PT": 32,
+    "SL": 32,
+    "VK": 26
+  },
+  "consolidatedAvg": 37.86,
+  "consolidatedRank": 80,
+  "traction": {
+    "tractionRank": 42,
+    "tractionScore": 54,
+    "tractionReason": "93,984 creators claimed; activity and paying-user definitions undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/vyra.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/vyra.md",
+      "elad-gil": "fall2026/evals/elad-gil/vyra.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/vyra.md",
+      "paul-graham": "fall2026/evals/paul-graham/vyra.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/vyra.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/vyra.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/vyra.md"
+    }
+  }
+}

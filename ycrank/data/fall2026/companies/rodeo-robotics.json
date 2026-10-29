@@ -1,0 +1,82 @@
+{
+  "slug": "rodeo-robotics",
+  "name": "Rodeo Robotics",
+  "oneLiner": "Robots for vehicle maintenance.",
+  "metadata": {
+    "website": "https://www.rodeorobotics.com/",
+    "yc_page": "https://www.ycombinator.com/companies/rodeo-robotics",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/rodeo-robotics))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Robotics, AI, Automotive",
+    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/rodeo-robotics))",
+    "emails": "me@colby.codes — founder’s professional contact ([Colby Duke’s website](https://colby.codes/))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "AI",
+    "Automotive"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:25:07.805Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 29,
+    "NR": 38,
+    "PG": 29,
+    "PT": 31,
+    "SL": 28,
+    "VK": 25
+  },
+  "consolidatedAvg": 31.86,
+  "consolidatedRank": 163,
+  "traction": {
+    "tractionRank": 166,
+    "tractionScore": 10,
+    "tractionReason": "Product launch coverage; no disclosed deployments or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/rodeo-robotics.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/rodeo-robotics.md",
+      "elad-gil": "fall2026/evals/elad-gil/rodeo-robotics.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/rodeo-robotics.md",
+      "paul-graham": "fall2026/evals/paul-graham/rodeo-robotics.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/rodeo-robotics.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/rodeo-robotics.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/rodeo-robotics.md"
+    }
+  }
+}

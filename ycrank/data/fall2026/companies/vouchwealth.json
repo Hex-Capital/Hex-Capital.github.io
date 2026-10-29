@@ -1,0 +1,79 @@
+{
+  "slug": "vouchwealth",
+  "name": "Vouch",
+  "oneLiner": "The AI wealth manager for every Indian",
+  "metadata": {
+    "website": "https://vouchwealth.com/",
+    "yc_page": "https://www.ycombinator.com/companies/vouchwealth",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/vouchwealth))",
+    "industry": "Fintech / Fintech -> Consumer Finance",
+    "tags": "Fintech, Consumer, Consumer Finance",
+    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/vouchwealth))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Fintech",
+    "Consumer",
+    "Consumer Finance"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:07:09.982Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 25,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 31,
+    "EG": 26,
+    "NR": 41,
+    "PG": 29,
+    "PT": 25,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 29.57,
+  "consolidatedRank": 183,
+  "traction": {
+    "tractionRank": 189,
+    "tractionScore": 0,
+    "tractionReason": "Prelaunch; November release planned subject to licensing"
+  },
+  "paths": {
+    "memo": "fall2026/memos/vouchwealth.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/vouchwealth.md",
+      "elad-gil": "fall2026/evals/elad-gil/vouchwealth.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/vouchwealth.md",
+      "paul-graham": "fall2026/evals/paul-graham/vouchwealth.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/vouchwealth.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/vouchwealth.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/vouchwealth.md"
+    }
+  }
+}

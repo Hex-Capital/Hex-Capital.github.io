@@ -1,0 +1,81 @@
+{
+  "slug": "wondersearch",
+  "name": "Wondersearch",
+  "oneLiner": "Instant semantic search over your data without embeddings.",
+  "metadata": {
+    "website": "https://wondersearch.com",
+    "yc_page": "https://www.ycombinator.com/companies/wondersearch",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/wondersearch))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Infrastructure, AI",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/wondersearch))",
+    "emails": "team@evokoa.com ([WonderSearch](https://wondersearch.ai/pricing/))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:51:34.197Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 37,
+    "NR": 54,
+    "PG": 37,
+    "PT": 42,
+    "SL": 32,
+    "VK": 30
+  },
+  "consolidatedAvg": 39.29,
+  "consolidatedRank": 64,
+  "traction": {
+    "tractionRank": 127,
+    "tractionScore": 21,
+    "tractionReason": "128,943 launch-post views; no disclosed current-product users"
+  },
+  "paths": {
+    "memo": "fall2026/memos/wondersearch.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/wondersearch.md",
+      "elad-gil": "fall2026/evals/elad-gil/wondersearch.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/wondersearch.md",
+      "paul-graham": "fall2026/evals/paul-graham/wondersearch.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/wondersearch.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/wondersearch.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/wondersearch.md"
+    }
+  }
+}

@@ -61,9 +61,9 @@
     "VK": 31
   },
   "consolidatedAvg": 42.14,
-  "consolidatedRank": 144,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 93,
+    "tractionRank": 89,
     "tractionScore": 58,
     "tractionReason": "Profitable with two live trading pods"
   },

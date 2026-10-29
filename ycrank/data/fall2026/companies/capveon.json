@@ -1,0 +1,79 @@
+{
+  "slug": "capveon",
+  "name": "Capveon",
+  "oneLiner": "Turning infrastructure demand into action",
+  "metadata": {
+    "website": "https://capveon.ai",
+    "yc_page": "https://www.ycombinator.com/companies/capveon",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/capveon))",
+    "industry": "Government / Government",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "GovTech",
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/capveon))",
+    "emails": "hello@capveon.ai ([website](https://capveon.ai)); reports@capveon.ai ([WEFTEC tool](https://capveon.ai/weftec)); founders@capveon.ai ([indexed careers page, via search snippet](https://capveon.ai/careers)); finn@capveon.ai ([City of St. Louis](https://www.stlouis-mo.gov/government/departments/public-service/announcements/details.cfm?id=49090&source=2))"
+  },
+  "tags": [
+    "GovTech"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:10:57.750Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 35,
+    "NR": 35,
+    "PG": 33,
+    "PT": 33,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 32.43,
+  "consolidatedRank": 158,
+  "traction": {
+    "tractionRank": 134,
+    "tractionScore": 20,
+    "tractionReason": "Free conference tool launched; no disclosed user totals"
+  },
+  "paths": {
+    "memo": "fall2026/memos/capveon.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/capveon.md",
+      "elad-gil": "fall2026/evals/elad-gil/capveon.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/capveon.md",
+      "paul-graham": "fall2026/evals/paul-graham/capveon.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/capveon.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/capveon.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/capveon.md"
+    }
+  }
+}

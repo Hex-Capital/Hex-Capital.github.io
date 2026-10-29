@@ -1,0 +1,81 @@
+{
+  "slug": "ploid",
+  "name": "Ploid",
+  "oneLiner": "The people data company for the agent era",
+  "metadata": {
+    "website": "https://ploid.com",
+    "yc_page": "https://www.ycombinator.com/companies/ploid",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/ploid))",
+    "industry": "B2B / B2B -> Sales",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Sales, API, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/ploid))",
+    "emails": "manny@ploid.com ([founder website](https://mannyh.com/)); Kamran@ploid.co ([Ploid](https://ploid.com/data-rights)); useploid@gmail.com ([company GitHub](https://github.com/ploidcom))"
+  },
+  "tags": [
+    "Sales",
+    "API",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:53:18.272Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 36,
+    "EG": 41,
+    "NR": 47,
+    "PG": 40,
+    "PT": 37,
+    "SL": 30,
+    "VK": 30
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 89,
+  "traction": {
+    "tractionRank": 45,
+    "tractionScore": 53,
+    "tractionReason": "Thousands of companies claimed; paid/free breakdown undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ploid.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ploid.md",
+      "elad-gil": "fall2026/evals/elad-gil/ploid.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ploid.md",
+      "paul-graham": "fall2026/evals/paul-graham/ploid.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ploid.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ploid.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ploid.md"
+    }
+  }
+}

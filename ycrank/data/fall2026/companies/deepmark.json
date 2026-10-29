@@ -1,0 +1,80 @@
+{
+  "slug": "deepmark",
+  "name": "DeepMark",
+  "oneLiner": "A live watermark inside AI voice that survives phone calls",
+  "metadata": {
+    "website": "https://www.deepmark.me",
+    "yc_page": "https://www.ycombinator.com/companies/deepmark",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/deepmark))",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Cybersecurity",
+    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/deepmark))",
+    "emails": "slavko@deepmark.me, hello@deepmark.me ([YC](https://www.ycombinator.com/companies/deepmark), [official GitHub profile](https://github.com/deepmark))"
+  },
+  "tags": [
+    "B2B",
+    "Cybersecurity"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:51:44.023Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 60,
+    "EG": 50,
+    "NR": 60,
+    "PG": 51,
+    "PT": 43,
+    "SL": 38,
+    "VK": 29
+  },
+  "consolidatedAvg": 47.29,
+  "consolidatedRank": 7,
+  "traction": {
+    "tractionRank": 22,
+    "tractionScore": 60,
+    "tractionReason": "Commercial platform license in production; named customer testimonials"
+  },
+  "paths": {
+    "memo": "fall2026/memos/deepmark.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/deepmark.md",
+      "elad-gil": "fall2026/evals/elad-gil/deepmark.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/deepmark.md",
+      "paul-graham": "fall2026/evals/paul-graham/deepmark.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/deepmark.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/deepmark.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/deepmark.md"
+    }
+  }
+}

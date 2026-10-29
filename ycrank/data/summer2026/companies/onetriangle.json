@@ -61,9 +61,9 @@
     "VK": 42
   },
   "consolidatedAvg": 45.14,
-  "consolidatedRank": 114,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 186,
+    "tractionRank": 175,
     "tractionScore": 35,
     "tractionReason": "Paid inference live; no usage disclosed"
   },

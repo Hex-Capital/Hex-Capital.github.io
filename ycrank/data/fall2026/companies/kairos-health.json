@@ -1,0 +1,81 @@
+{
+  "slug": "kairos-health",
+  "name": "Kairos Health",
+  "oneLiner": "AI front desk that fills every chair for dental practices",
+  "metadata": {
+    "website": "https://kairoshealthai.com",
+    "yc_page": "https://www.ycombinator.com/companies/kairos-health",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/kairos-health))",
+    "industry": "Healthcare / Healthcare -> Healthcare IT",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, Health Tech, Conversational AI",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/kairos-health))",
+    "emails": "contact@kairoshealthai.com ([website](https://kairoshealthai.com)); founders@kairoshealthai.com ([YC launch](https://www.ycombinator.com/launches/W5m-kairos-health-ai-front-desk-for-dental-practices)); tanushchintala@gmail.com ([founder portfolio](https://tanush-chintala.github.io/))"
+  },
+  "tags": [
+    "SaaS",
+    "Health Tech",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:55:57.120Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 45,
+    "EG": 48,
+    "NR": 46,
+    "PG": 55,
+    "PT": 32,
+    "SL": 42,
+    "VK": 27
+  },
+  "consolidatedAvg": 42.14,
+  "consolidatedRank": 36,
+  "traction": {
+    "tractionRank": 10,
+    "tractionScore": 70,
+    "tractionReason": "$4K+ MRR, approximately $48K annualized; 13 paying practices"
+  },
+  "paths": {
+    "memo": "fall2026/memos/kairos-health.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/kairos-health.md",
+      "elad-gil": "fall2026/evals/elad-gil/kairos-health.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/kairos-health.md",
+      "paul-graham": "fall2026/evals/paul-graham/kairos-health.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/kairos-health.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/kairos-health.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/kairos-health.md"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "chempilotai",
+  "name": "ChemPilot.ai",
+  "oneLiner": "Discover novel defense related materials/molecules.",
+  "metadata": {
+    "website": "https://chempilot.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/chempilotai",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/chempilotai))",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "3",
+    "location": "Haifa, Haifa District, Israel",
+    "tags": "Machine Learning, Advanced Materials, Defense",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/chempilotai))",
+    "emails": "contact@chempilot.ai ([company website, via search snippet](https://chempilot.ai/)); alon@technion.ac.il ([CSO’s Technion profile](https://chemeng.technion.ac.il/en/team/alon-grinberg-dana/))"
+  },
+  "tags": [
+    "Machine Learning",
+    "Advanced Materials",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:15:24.215Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 29,
+    "NR": 41,
+    "PG": 36,
+    "PT": 31,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 34,
+  "consolidatedRank": 145,
+  "traction": {
+    "tractionRank": 177,
+    "tractionScore": 7,
+    "tractionReason": "No disclosed current customers; preceding research collaborations excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/chempilotai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/chempilotai.md",
+      "elad-gil": "fall2026/evals/elad-gil/chempilotai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/chempilotai.md",
+      "paul-graham": "fall2026/evals/paul-graham/chempilotai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/chempilotai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/chempilotai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/chempilotai.md"
+    }
+  }
+}

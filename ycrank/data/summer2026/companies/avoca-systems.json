@@ -60,9 +60,9 @@
     "VK": 29
   },
   "consolidatedAvg": 49.86,
-  "consolidatedRank": 66,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 38,
+    "tractionRank": 36,
     "tractionScore": 69,
     "tractionReason": "Several radiology networks spanning 150 clinics"
   },

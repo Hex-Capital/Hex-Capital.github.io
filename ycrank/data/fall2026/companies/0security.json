@@ -1,0 +1,83 @@
+{
+  "slug": "0security",
+  "name": "0.security",
+  "oneLiner": "The autonomous cybersecurity team",
+  "metadata": {
+    "website": "https://0.security",
+    "yc_page": "https://www.ycombinator.com/companies/0security",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/0security))",
+    "industry": "B2B / B2B -> Security",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Open Source, Cybersecurity, Enterprise, Defense",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/0security))",
+    "emails": "admin@0.security ([company GitHub](https://github.com/0sec-labs)); doruk@peaktwilight.com ([Doruk’s website](https://doruk.ch/)); hello@fabianzbinden.ch ([Fabian’s website](https://www.fabianzbinden.ch/))"
+  },
+  "tags": [
+    "B2B",
+    "Open Source",
+    "Cybersecurity",
+    "Enterprise",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:53:35.107Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 46,
+    "NR": 51,
+    "PG": 44,
+    "PT": 29,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 38,
+  "consolidatedRank": 76,
+  "traction": {
+    "tractionRank": 67,
+    "tractionScore": 47,
+    "tractionReason": "EY work reported; 526 harness stars; contract values undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/0security.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/0security.md",
+      "elad-gil": "fall2026/evals/elad-gil/0security.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/0security.md",
+      "paul-graham": "fall2026/evals/paul-graham/0security.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/0security.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/0security.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/0security.md"
+    }
+  }
+}

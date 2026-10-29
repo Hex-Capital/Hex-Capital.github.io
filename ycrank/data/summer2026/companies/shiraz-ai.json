@@ -60,9 +60,9 @@
     "VK": 37
   },
   "consolidatedAvg": 45.43,
-  "consolidatedRank": 108,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 121,
+    "tractionRank": 115,
     "tractionScore": 52,
     "tractionReason": "Robots operational at initial customer sites"
   },

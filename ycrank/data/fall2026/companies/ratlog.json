@@ -1,0 +1,79 @@
+{
+  "slug": "ratlog",
+  "name": "RATLOG",
+  "oneLiner": "Reusable heavy-lift rockets",
+  "metadata": {
+    "website": "https://www.ratlog.space/",
+    "yc_page": "https://www.ycombinator.com/companies/ratlog",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/ratlog))",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "4",
+    "location": "Dresden, SN, Germany",
+    "tags": "Commercial Space Launch",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/ratlog))",
+    "emails": "charlie.weise@ratlog.space, paul.kunhart@ratlog.space, felix.kelm@ratlog.space, matty.driesnack@ratlog.space ([RATLOG website](https://www.ratlog.space/))"
+  },
+  "tags": [
+    "Commercial Space Launch"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:55:01.901Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 42,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 62,
+    "EG": 40,
+    "NR": 59,
+    "PG": 39,
+    "PT": 42,
+    "SL": 33,
+    "VK": 42
+  },
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 15,
+  "traction": {
+    "tractionRank": 29,
+    "tractionScore": 59,
+    "tractionReason": "$400M signed launch reservations; payment and cancellation terms undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ratlog.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ratlog.md",
+      "elad-gil": "fall2026/evals/elad-gil/ratlog.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ratlog.md",
+      "paul-graham": "fall2026/evals/paul-graham/ratlog.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ratlog.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ratlog.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ratlog.md"
+    }
+  }
+}

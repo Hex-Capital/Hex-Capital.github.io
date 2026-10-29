@@ -1,0 +1,82 @@
+{
+  "slug": "aikido-technologies",
+  "name": "Aikido Technologies",
+  "oneLiner": "Clean marine AI datacenters",
+  "metadata": {
+    "website": "https://www.aikidotechnologies.com",
+    "yc_page": "https://www.ycombinator.com/companies/aikido-technologies",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/aikido-technologies))",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA; Remote",
+    "tags": "Energy, Renewable Energy, Cloud Computing, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/aikido-technologies))",
+    "emails": "info@aikidotechnologies.com ([company website](https://www.aikidotechnologies.com))"
+  },
+  "tags": [
+    "Energy",
+    "Renewable Energy",
+    "Cloud Computing",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:51:24.363Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 35,
+    "NR": 59,
+    "PG": 44,
+    "PT": 36,
+    "SL": 30,
+    "VK": 29
+  },
+  "consolidatedAvg": 41.29,
+  "consolidatedRank": 41,
+  "traction": {
+    "tractionRank": 153,
+    "tractionScore": 14,
+    "tractionReason": "Datacenter proof of concept planned; no disclosed customer commitments"
+  },
+  "paths": {
+    "memo": "fall2026/memos/aikido-technologies.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/aikido-technologies.md",
+      "elad-gil": "fall2026/evals/elad-gil/aikido-technologies.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/aikido-technologies.md",
+      "paul-graham": "fall2026/evals/paul-graham/aikido-technologies.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/aikido-technologies.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/aikido-technologies.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/aikido-technologies.md"
+    }
+  }
+}

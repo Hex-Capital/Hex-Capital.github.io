@@ -59,9 +59,9 @@
     "VK": 25
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 204,
+  "consolidatedRank": 201,
   "traction": {
-    "tractionRank": 196,
+    "tractionRank": 185,
     "tractionScore": 27,
     "tractionReason": "Running MVP; no customer traction"
   },

@@ -1,0 +1,80 @@
+{
+  "slug": "plek",
+  "name": "Plek",
+  "oneLiner": "Maps what employees do and what it costs",
+  "metadata": {
+    "website": "https://www.plek.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/plek",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/plek))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Enterprise, AI",
+    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/plek))",
+    "emails": "pierre@plek.ai, support@plek.ai ([Plek Help](https://plek.ai/help/)); pibou149@mit.edu ([founder website](https://pierre-bouquet.github.io/website/index.html))"
+  },
+  "tags": [
+    "Enterprise",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:58:58.261Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 39,
+    "NR": 48,
+    "PG": 40,
+    "PT": 30,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 96,
+  "traction": {
+    "tractionRank": 94,
+    "tractionScore": 40,
+    "tractionReason": "Real engagement mapped 250-person organization; other cases illustrative"
+  },
+  "paths": {
+    "memo": "fall2026/memos/plek.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/plek.md",
+      "elad-gil": "fall2026/evals/elad-gil/plek.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/plek.md",
+      "paul-graham": "fall2026/evals/paul-graham/plek.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/plek.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/plek.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/plek.md"
+    }
+  }
+}

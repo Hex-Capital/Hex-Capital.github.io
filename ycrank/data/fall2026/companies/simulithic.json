@@ -1,0 +1,81 @@
+{
+  "slug": "simulithic",
+  "name": "Simulithic",
+  "oneLiner": "AI users that test your app on every device and browser",
+  "metadata": {
+    "website": "https://simulithic.com",
+    "yc_page": "https://www.ycombinator.com/companies/simulithic",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/simulithic))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Infrastructure, AI",
+    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/simulithic))",
+    "emails": "team@simulithic.com ([website](https://www.simulithic.com/)); ryan@simulithic.com ([YC](https://www.ycombinator.com/companies/simulithic)); hello@simulithic.com ([app privacy policy](https://app.simulithic.com/privacy))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:16:24.328Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 47,
+    "NR": 42,
+    "PG": 40,
+    "PT": 31,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 74,
+  "traction": {
+    "tractionRank": 70,
+    "tractionScore": 46,
+    "tractionReason": "Several company deployments reported; customer identities and revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/simulithic.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/simulithic.md",
+      "elad-gil": "fall2026/evals/elad-gil/simulithic.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/simulithic.md",
+      "paul-graham": "fall2026/evals/paul-graham/simulithic.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/simulithic.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/simulithic.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/simulithic.md"
+    }
+  }
+}

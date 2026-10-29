@@ -60,9 +60,9 @@
     "VK": 37
   },
   "consolidatedAvg": 49,
-  "consolidatedRank": 73,
+  "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 91,
+    "tractionRank": 87,
     "tractionScore": 58,
     "tractionReason": "300 fields growing 20% weekly"
   },

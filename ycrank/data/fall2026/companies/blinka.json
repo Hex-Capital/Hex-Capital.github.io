@@ -1,0 +1,80 @@
+{
+  "slug": "blinka",
+  "name": "Blinka",
+  "oneLiner": "Banking for US companies operating globally",
+  "metadata": {
+    "website": "https://blinka.co",
+    "yc_page": "https://www.ycombinator.com/companies/blinka",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/blinka))",
+    "industry": "Fintech / Fintech -> Banking and Exchange",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, AI",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/blinka))",
+    "emails": "support@blinka.co ([Blinka](https://blinka.co))"
+  },
+  "tags": [
+    "Fintech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:01:13.546Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 53,
+    "NR": 48,
+    "PG": 51,
+    "PT": 32,
+    "SL": 40,
+    "VK": 29
+  },
+  "consolidatedAvg": 43,
+  "consolidatedRank": 26,
+  "traction": {
+    "tractionRank": 30,
+    "tractionScore": 58,
+    "tractionReason": "$10M payments processed; 25 prelaunch clients; named customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/blinka.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/blinka.md",
+      "elad-gil": "fall2026/evals/elad-gil/blinka.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/blinka.md",
+      "paul-graham": "fall2026/evals/paul-graham/blinka.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/blinka.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/blinka.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/blinka.md"
+    }
+  }
+}

@@ -61,9 +61,9 @@
     "VK": 45
   },
   "consolidatedAvg": 50.57,
-  "consolidatedRank": 61,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 81,
+    "tractionRank": 78,
     "tractionScore": 60,
     "tractionReason": "Live deployments across four operational sectors"
   },

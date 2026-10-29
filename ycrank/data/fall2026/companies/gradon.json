@@ -1,0 +1,81 @@
+{
+  "slug": "gradon",
+  "name": "Gradon",
+  "oneLiner": "Legora for AEC (Architecture, Engineering, & Construction) firms",
+  "metadata": {
+    "website": "https://heygradon.com/",
+    "yc_page": "https://www.ycombinator.com/companies/gradon",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/gradon))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Construction, B2B, AI",
+    "yc_partner": "Ankit Gupta ([YC](https://www.ycombinator.com/companies/gradon))",
+    "emails": "hello@heygradon.com ([website](https://heygradon.com/)); nour@heygradon.com ([YC launch](https://www.ycombinator.com/companies/gradon)); yousefh@stanford.edu, founder contact ([profile](https://www.yousefh.org/))"
+  },
+  "tags": [
+    "Construction",
+    "B2B",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:21:00.767Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 56,
+    "NR": 45,
+    "PG": 39,
+    "PT": 35,
+    "SL": 35,
+    "VK": 31
+  },
+  "consolidatedAvg": 40.14,
+  "consolidatedRank": 48,
+  "traction": {
+    "tractionRank": 62,
+    "tractionScore": 48,
+    "tractionReason": "Multiple firms using product; detailed civil-engineering customer case"
+  },
+  "paths": {
+    "memo": "fall2026/memos/gradon.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/gradon.md",
+      "elad-gil": "fall2026/evals/elad-gil/gradon.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/gradon.md",
+      "paul-graham": "fall2026/evals/paul-graham/gradon.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/gradon.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/gradon.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/gradon.md"
+    }
+  }
+}

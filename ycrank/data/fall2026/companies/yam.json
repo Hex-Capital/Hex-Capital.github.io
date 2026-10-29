@@ -1,0 +1,81 @@
+{
+  "slug": "yam",
+  "name": "Yam",
+  "oneLiner": "AI-powered dating sims for women",
+  "metadata": {
+    "website": "https://hiyam.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/yam",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/yam))",
+    "industry": "Consumer / Consumer",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Gaming, Creator Economy",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/yam))",
+    "emails": "hi@yamstudio.ai ([Yam pricing](https://www.hiyam.ai/pricing))"
+  },
+  "tags": [
+    "Generative AI",
+    "Gaming",
+    "Creator Economy"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:14:32.436Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 46,
+    "NR": 46,
+    "PG": 49,
+    "PT": 30,
+    "SL": 37,
+    "VK": 25
+  },
+  "consolidatedAvg": 38.29,
+  "consolidatedRank": 75,
+  "traction": {
+    "tractionRank": 41,
+    "tractionScore": 54,
+    "tractionReason": "Leading games exceed 2M combined plays; three hours per DAU"
+  },
+  "paths": {
+    "memo": "fall2026/memos/yam.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/yam.md",
+      "elad-gil": "fall2026/evals/elad-gil/yam.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/yam.md",
+      "paul-graham": "fall2026/evals/paul-graham/yam.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/yam.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/yam.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/yam.md"
+    }
+  }
+}

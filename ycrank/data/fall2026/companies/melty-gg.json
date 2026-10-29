@@ -1,0 +1,80 @@
+{
+  "slug": "melty-gg",
+  "name": "Melty",
+  "oneLiner": "Mashup any game",
+  "metadata": {
+    "website": "https://www.melty.gg",
+    "yc_page": "https://www.ycombinator.com/companies/melty-gg",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/melty-gg))",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Gaming, AI",
+    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/melty-gg))",
+    "emails": "david@melty.gg ([Melty Privacy Policy](https://melty.gg/privacy))"
+  },
+  "tags": [
+    "Gaming",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T23:04:04.455Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 35,
+    "NR": 39,
+    "PG": 36,
+    "PT": 32,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 33.43,
+  "consolidatedRank": 150,
+  "traction": {
+    "tractionRank": 54,
+    "tractionScore": 50,
+    "tractionReason": "10,611 Discord members; free launcher; no disclosed revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/melty-gg.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/melty-gg.md",
+      "elad-gil": "fall2026/evals/elad-gil/melty-gg.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/melty-gg.md",
+      "paul-graham": "fall2026/evals/paul-graham/melty-gg.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/melty-gg.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/melty-gg.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/melty-gg.md"
+    }
+  }
+}

@@ -62,7 +62,7 @@
   "consolidatedAvg": 55.86,
   "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 127,
+    "tractionRank": 121,
     "tractionScore": 51,
     "tractionReason": "Live FPGA service with active design partners"
   },

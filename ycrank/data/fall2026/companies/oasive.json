@@ -1,0 +1,81 @@
+{
+  "slug": "oasive",
+  "name": "Oasive",
+  "oneLiner": "Credit research for municipal bond analysts",
+  "metadata": {
+    "website": "https://www.oasive.ai",
+    "yc_page": "https://www.ycombinator.com/companies/oasive",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/oasive))",
+    "industry": "Fintech / Fintech -> Asset Management",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "FinOps, Fintech, Investments",
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/oasive))",
+    "emails": "anais@oasive.ai ([YC](https://www.ycombinator.com/companies/oasive)); hello@oasive.ai ([Oasive](https://oasive.ai/contact))"
+  },
+  "tags": [
+    "FinOps",
+    "Fintech",
+    "Investments"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:56:57.921Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 31,
+    "NR": 50,
+    "PG": 42,
+    "PT": 31,
+    "SL": 32,
+    "VK": 25
+  },
+  "consolidatedAvg": 35.57,
+  "consolidatedRank": 120,
+  "traction": {
+    "tractionRank": 103,
+    "tractionScore": 34,
+    "tractionReason": "Municipal adoption undisclosed; 15 institutional desks used MBS/rates"
+  },
+  "paths": {
+    "memo": "fall2026/memos/oasive.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/oasive.md",
+      "elad-gil": "fall2026/evals/elad-gil/oasive.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/oasive.md",
+      "paul-graham": "fall2026/evals/paul-graham/oasive.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/oasive.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/oasive.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/oasive.md"
+    }
+  }
+}

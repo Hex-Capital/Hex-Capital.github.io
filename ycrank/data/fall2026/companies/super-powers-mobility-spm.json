@@ -1,0 +1,83 @@
+{
+  "slug": "super-powers-mobility-spm",
+  "name": "Super Powers Mobility (SPM)",
+  "oneLiner": "The highest performance modular battery packs for mobility/vehicles",
+  "metadata": {
+    "website": "https://www.spm.fun",
+    "yc_page": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/super-powers-mobility-spm))",
+    "industry": "Industrials / Industrials -> Defense",
+    "team_size": "4",
+    "location": "Pittsburgh, PA, USA",
+    "tags": "Energy Storage, Unmanned Vehicle, Manufacturing, Electric Vehicles, Electronics",
+    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/super-powers-mobility-spm))",
+    "emails": "info@spm.fun ([SPM shipping policy](https://spm.fun/policies/shipping-policy)); info@spm.us ([SPM](https://spm.us/))"
+  },
+  "tags": [
+    "Energy Storage",
+    "Unmanned Vehicle",
+    "Manufacturing",
+    "Electric Vehicles",
+    "Electronics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-27T22:52:04.116Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 50,
+    "NR": 59,
+    "PG": 49,
+    "PT": 32,
+    "SL": 33,
+    "VK": 28
+  },
+  "consolidatedAvg": 42.43,
+  "consolidatedRank": 31,
+  "traction": {
+    "tractionRank": 3,
+    "tractionScore": 93,
+    "tractionReason": "$421,815 realized battery revenue in one month after pivot"
+  },
+  "paths": {
+    "memo": "fall2026/memos/super-powers-mobility-spm.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/super-powers-mobility-spm.md",
+      "elad-gil": "fall2026/evals/elad-gil/super-powers-mobility-spm.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/super-powers-mobility-spm.md",
+      "paul-graham": "fall2026/evals/paul-graham/super-powers-mobility-spm.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/super-powers-mobility-spm.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/super-powers-mobility-spm.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/super-powers-mobility-spm.md"
+    }
+  }
+}

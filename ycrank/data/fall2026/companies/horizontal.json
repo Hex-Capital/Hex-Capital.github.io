@@ -1,0 +1,81 @@
+{
+  "slug": "horizontal",
+  "name": "horizontal.",
+  "oneLiner": "AI agents that run factory operations end-to-end.",
+  "metadata": {
+    "website": "https://horizontal-tech.com",
+    "yc_page": "https://www.ycombinator.com/companies/horizontal",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/horizontal))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Manufacturing, Automation, Industrial",
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/horizontal))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Manufacturing",
+    "Automation",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T04:06:30.999Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 28,
+    "NR": 37,
+    "PG": 31,
+    "PT": 27,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 30.57,
+  "consolidatedRank": 177,
+  "traction": {
+    "tractionRank": 97,
+    "tractionScore": 40,
+    "tractionReason": "Working with international manufacturers; deployment and payment details undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/horizontal.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/horizontal.md",
+      "elad-gil": "fall2026/evals/elad-gil/horizontal.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/horizontal.md",
+      "paul-graham": "fall2026/evals/paul-graham/horizontal.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/horizontal.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/horizontal.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/horizontal.md"
+    }
+  }
+}

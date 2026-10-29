@@ -1,0 +1,81 @@
+{
+  "slug": "orca-aerospace",
+  "name": "Orca Aerospace",
+  "oneLiner": "AI spacecraft operators that lives onboard the vehicle",
+  "metadata": {
+    "website": "https://orcaaerospace.com/",
+    "yc_page": "https://www.ycombinator.com/companies/orca-aerospace",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/orca-aerospace))",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "5",
+    "location": "San Francisco, CA, USA",
+    "tags": "AIOps, Space Exploration, Satellites",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/orca-aerospace))",
+    "emails": "founders@orcaaerospace.com ([company website](https://orcaaerospace.com/))"
+  },
+  "tags": [
+    "AIOps",
+    "Space Exploration",
+    "Satellites"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-28T03:53:35.094Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 39,
+    "NR": 45,
+    "PG": 32,
+    "PT": 26,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 36.29,
+  "consolidatedRank": 105,
+  "traction": {
+    "tractionRank": 143,
+    "tractionScore": 17,
+    "tractionReason": "Lyra concept integration study; no disclosed customer contracts"
+  },
+  "paths": {
+    "memo": "fall2026/memos/orca-aerospace.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/orca-aerospace.md",
+      "elad-gil": "fall2026/evals/elad-gil/orca-aerospace.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/orca-aerospace.md",
+      "paul-graham": "fall2026/evals/paul-graham/orca-aerospace.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/orca-aerospace.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/orca-aerospace.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/orca-aerospace.md"
+    }
+  }
+}

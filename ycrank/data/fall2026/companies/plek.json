@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 96,
+  "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 94,
+    "tractionRank": 90,
     "tractionScore": 40,
-    "tractionReason": "Real engagement mapped 250-person organization; other cases illustrative"
+    "tractionReason": "Real assessment mapped 250 employees and 735 tasks"
   },
   "paths": {
     "memo": "fall2026/memos/plek.md",

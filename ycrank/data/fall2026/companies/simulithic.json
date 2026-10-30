@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 74,
+  "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 46,
-    "tractionReason": "Several company deployments reported; customer identities and revenue undisclosed"
+    "tractionRank": 63,
+    "tractionScore": 47,
+    "tractionReason": "Several company deployments reported, spanning YC to Series A"
   },
   "paths": {
     "memo": "fall2026/memos/simulithic.md",

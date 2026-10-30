@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 43,
+  "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 33,
-    "tractionReason": "Three announced partnerships; cloud simulation beta; revenue undisclosed"
+    "tractionRank": 100,
+    "tractionScore": 37,
+    "tractionReason": "Three announced partnerships; cloud simulation beta live"
   },
   "paths": {
     "memo": "fall2026/memos/simantic.md",

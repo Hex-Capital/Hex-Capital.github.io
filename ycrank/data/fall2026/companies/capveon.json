@@ -58,11 +58,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 158,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 134,
+    "tractionRank": 140,
     "tractionScore": 20,
-    "tractionReason": "Free conference tool launched; no disclosed user totals"
+    "tractionReason": "Free tool launched; customer meetings reported, conversions undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/capveon.md",

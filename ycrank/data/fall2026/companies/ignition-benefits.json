@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 65,
+  "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 48,
+    "tractionRank": 50,
     "tractionScore": 52,
-    "tractionReason": "Two named brokerage customers; recurring qualified inbound; revenue undisclosed"
+    "tractionReason": "Two named benefits customers; carrier-paid brokerage model"
   },
   "paths": {
     "memo": "fall2026/memos/ignition-benefits.md",

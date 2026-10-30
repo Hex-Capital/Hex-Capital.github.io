@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 32,
+  "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 50,
-    "tractionReason": "229.6K listed package downloads; approximately 1,000 stars; team-use testimonial"
+    "tractionRank": 67,
+    "tractionScore": 46,
+    "tractionReason": "229.6K package downloads; approximately 1,000 stars; team-use testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/agent-relay.md",

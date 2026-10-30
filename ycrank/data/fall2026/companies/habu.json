@@ -60,11 +60,11 @@
     "VK": 22
   },
   "consolidatedAvg": 31.71,
-  "consolidatedRank": 165,
+  "consolidatedRank": 166,
   "traction": {
-    "tractionRank": 135,
+    "tractionRank": 142,
     "tractionScore": 19,
-    "tractionReason": "Public launch; no disclosed customers or supported project results"
+    "tractionReason": "Public launch; no supporting customer deployments disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/habu.md",

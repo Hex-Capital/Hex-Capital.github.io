@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 36,
-  "consolidatedRank": 113,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 51,
-    "tractionReason": "Multiple named customer logos; billions in covered projects; revenue undisclosed"
+    "tractionRank": 48,
+    "tractionScore": 52,
+    "tractionReason": "Five named customer logos; construction-project deployments"
   },
   "paths": {
     "memo": "fall2026/memos/telamont.md",

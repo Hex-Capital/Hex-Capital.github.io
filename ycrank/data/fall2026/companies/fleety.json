@@ -1,0 +1,82 @@
+{
+  "slug": "fleety",
+  "name": "Fleety",
+  "oneLiner": "Fleety is an AI dispatcher for plumbing and HVAC companies.",
+  "metadata": {
+    "website": "https://usefleety.com",
+    "yc_page": "https://www.ycombinator.com/companies/fleety",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/fleety))",
+    "industry": "B2B / B2B",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "SaaS, B2B, Home Services, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/fleety))",
+    "emails": "ben@usefleety.com, support@usefleety.com ([Fleety privacy policy](https://usefleety.com/privacy-policy.html))"
+  },
+  "tags": [
+    "SaaS",
+    "B2B",
+    "Home Services",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-30T06:03:29.189Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 47,
+    "NR": 46,
+    "PG": 41,
+    "PT": 28,
+    "SL": 33,
+    "VK": 28
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 83,
+  "traction": {
+    "tractionRank": 49,
+    "tractionScore": 52,
+    "tractionReason": "Three named customer references across operating plumbing shops"
+  },
+  "paths": {
+    "memo": "fall2026/memos/fleety.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/fleety.md",
+      "elad-gil": "fall2026/evals/elad-gil/fleety.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/fleety.md",
+      "paul-graham": "fall2026/evals/paul-graham/fleety.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/fleety.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/fleety.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/fleety.md"
+    }
+  }
+}

@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 61,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 95,
+    "tractionRank": 92,
     "tractionScore": 40,
-    "tractionReason": "Blood draws open and samples processing; paid-test counts undisclosed"
+    "tractionReason": "Blood draws open; customer samples processing; sales undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/canos.md",

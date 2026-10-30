@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 131,
+  "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 168,
-    "tractionScore": 9,
-    "tractionReason": "Scaled demonstrator built; no disclosed cargo customers or orders"
+    "tractionRank": 160,
+    "tractionScore": 13,
+    "tractionReason": "Scaled demonstrator built; no disclosed cargo customers"
   },
   "paths": {
     "memo": "fall2026/memos/aviern.md",

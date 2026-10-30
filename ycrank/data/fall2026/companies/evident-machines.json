@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31,
-  "consolidatedRank": 172,
+  "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 3,
-    "tractionReason": "No disclosed current-product customers or benchmark adoption"
+    "tractionRank": 186,
+    "tractionScore": 5,
+    "tractionReason": "Current benchmark adoption undisclosed; earlier analytics product excluded"
   },
   "paths": {
     "memo": "fall2026/memos/evident-machines.md",

@@ -59,11 +59,11 @@
     "VK": 33
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 28,
+  "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 11,
-    "tractionReason": "Internal robotic benchmarks; no disclosed customer adoption"
+    "tractionRank": 163,
+    "tractionScore": 12,
+    "tractionReason": "Robotic task benchmarks; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/hemlock.md",

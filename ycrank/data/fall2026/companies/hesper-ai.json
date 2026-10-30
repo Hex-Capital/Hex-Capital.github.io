@@ -62,9 +62,9 @@
   "consolidatedAvg": 47,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 55,
-    "tractionReason": "10,000+ claims investigated; production MGA deployment; revenue undisclosed"
+    "tractionRank": 37,
+    "tractionScore": 57,
+    "tractionReason": "10,000+ claims investigated; production MGA deployment"
   },
   "paths": {
     "memo": "fall2026/memos/hesper-ai.md",

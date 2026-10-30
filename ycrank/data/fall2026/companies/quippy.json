@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 34.57,
-  "consolidatedRank": 138,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 102,
-    "tractionScore": 35,
-    "tractionReason": "100+ Android downloads; 24 US iOS ratings"
+    "tractionRank": 106,
+    "tractionScore": 31,
+    "tractionReason": "100+ Android downloads; 24 iOS ratings; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/quippy.md",

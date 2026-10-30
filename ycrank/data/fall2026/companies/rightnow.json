@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 141,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 38,
-    "tractionReason": "Autokernel approximately 1,600 stars; inference revenue undisclosed"
+    "tractionRank": 102,
+    "tractionScore": 35,
+    "tractionReason": "Autokernel approximately 1,600 stars; RunInfra revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rightnow.md",

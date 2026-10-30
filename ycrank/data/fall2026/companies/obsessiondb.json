@@ -62,9 +62,9 @@
   "consolidatedAvg": 57.71,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 68,
-    "tractionReason": "Paying production customers; petabytes processed monthly; named customer case study"
+    "tractionRank": 11,
+    "tractionScore": 71,
+    "tractionReason": "Paying production customers; petabytes processed monthly"
   },
   "paths": {
     "memo": "fall2026/memos/obsessiondb.md",

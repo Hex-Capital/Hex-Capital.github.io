@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 135,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 124,
-    "tractionScore": 23,
-    "tractionReason": "Five runtime repository stars; no disclosed users or customers"
+    "tractionRank": 137,
+    "tractionScore": 20,
+    "tractionReason": "Runtime has five stars; no disclosed deployments"
   },
   "paths": {
     "memo": "fall2026/memos/uxduck.md",

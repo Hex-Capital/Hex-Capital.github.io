@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 125,
+  "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 6,
-    "tractionReason": "Current CRO adoption undisclosed; earlier matching-product pilots excluded"
+    "tractionRank": 174,
+    "tractionScore": 8,
+    "tractionReason": "Current CRO traction undisclosed; earlier matching-product pilots excluded"
   },
   "paths": {
     "memo": "fall2026/memos/nxtcure-labs.md",

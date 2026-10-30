@@ -62,10 +62,10 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 159,
+  "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 183,
-    "tractionScore": 4,
+    "tractionRank": 185,
+    "tractionScore": 5,
     "tractionReason": "No disclosed customers, usage or revenue"
   },
   "paths": {

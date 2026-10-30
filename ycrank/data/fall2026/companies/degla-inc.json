@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36,
-  "consolidatedRank": 112,
+  "consolidatedRank": 113,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 15,
-    "tractionReason": "Government observers attended demonstration; no disclosed customer relationships"
+    "tractionRank": 149,
+    "tractionScore": 18,
+    "tractionReason": "Flight demonstration observed by agencies; no disclosed contracts"
   },
   "paths": {
     "memo": "fall2026/memos/degla-inc.md",

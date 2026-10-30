@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 86,
+  "consolidatedRank": 88,
   "traction": {
     "tractionRank": 5,
     "tractionScore": 84,
-    "tractionReason": "Multiple six figures ARR; 1.8 GW managed"
+    "tractionReason": "Multiple six-figure ARR; 1.8 GW managed"
   },
   "paths": {
     "memo": "fall2026/memos/invertix.md",

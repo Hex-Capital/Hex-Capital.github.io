@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 51,
+  "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 33,
-    "tractionReason": "Ten recent setup calls; paid status undisclosed; eight repository stars"
+    "tractionRank": 115,
+    "tractionScore": 26,
+    "tractionReason": "Ten setup calls; customer identities and payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/composal.md",

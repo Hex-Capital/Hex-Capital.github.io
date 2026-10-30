@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 139,
+  "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 20,
-    "tractionReason": "297 LinkedIn followers; no disclosed current-product customers or revenue"
+    "tractionRank": 143,
+    "tractionScore": 19,
+    "tractionReason": "Monthly contract terms described; current customers and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/definite.md",

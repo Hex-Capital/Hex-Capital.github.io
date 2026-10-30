@@ -1,0 +1,80 @@
+{
+  "slug": "jinko",
+  "name": "Jinko",
+  "oneLiner": "Travel Search & Booking Infrastructure for AI agents",
+  "metadata": {
+    "website": "https://gojinko.com",
+    "yc_page": "https://www.ycombinator.com/companies/jinko",
+    "batch": "Fall 2026 ([Jinko LinkedIn](https://www.linkedin.com/company/jinkotravel/))",
+    "industry": "B2B / B2B",
+    "team_size": "6",
+    "location": "Paris, ?le-de-France, France",
+    "tags": "Travel, APIs",
+    "yc_partner": "Not listed; YC profile could not be retrieved",
+    "emails": "partnership@gojinko.com ([Website](https://gojinko.com/)), privacy@gojinko.com ([Privacy policy](https://gojinko.com/privacy/)), support@gojinko.com ([Older official terms](https://old.gojinko.com/legal/terms-and-conditions))"
+  },
+  "tags": [
+    "Travel",
+    "APIs"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-30T06:04:18.760Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 55,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 55,
+    "EG": 51,
+    "NR": 59,
+    "PG": 41,
+    "PT": 36,
+    "SL": 33,
+    "VK": 27
+  },
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 25,
+  "traction": {
+    "tractionRank": 118,
+    "tractionScore": 25,
+    "tractionReason": "Exa Connect listing; booking volume and revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/jinko.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/jinko.md",
+      "elad-gil": "fall2026/evals/elad-gil/jinko.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/jinko.md",
+      "paul-graham": "fall2026/evals/paul-graham/jinko.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/jinko.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/jinko.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/jinko.md"
+    }
+  }
+}

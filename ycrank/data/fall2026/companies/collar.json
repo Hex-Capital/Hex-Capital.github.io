@@ -62,11 +62,11 @@
     "VK": 22
   },
   "consolidatedAvg": 31.57,
-  "consolidatedRank": 167,
+  "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 44,
-    "tractionReason": "IR partners cover $300B market cap; payment status undisclosed"
+    "tractionRank": 86,
+    "tractionScore": 42,
+    "tractionReason": "Current IR partners disclosed; contract values and count unspecified"
   },
   "paths": {
     "memo": "fall2026/memos/collar.md",

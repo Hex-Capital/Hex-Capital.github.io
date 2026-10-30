@@ -64,7 +64,7 @@
   "traction": {
     "tractionRank": 2,
     "tractionScore": 95,
-    "tractionReason": "$2M ARR within six months; 2,200+ paying customers"
+    "tractionReason": "$2M ARR; 2,200+ paying customers within six months"
   },
   "paths": {
     "memo": "fall2026/memos/native.md",

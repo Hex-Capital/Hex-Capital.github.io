@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 119,
+  "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 74,
+    "tractionRank": 73,
     "tractionScore": 45,
-    "tractionReason": "Approximately 4,000 stars and 403 forks; cloud beta available"
+    "tractionReason": "Approximately 4,000 stars; 403 forks; cloud open beta"
   },
   "paths": {
     "memo": "fall2026/memos/phone-harness.md",

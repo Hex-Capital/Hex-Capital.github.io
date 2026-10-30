@@ -58,11 +58,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 171,
+  "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 10,
-    "tractionReason": "Emerged from stealth October 15; no disclosed customers"
+    "tractionRank": 151,
+    "tractionScore": 17,
+    "tractionReason": "Public emergence from stealth; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/particularity.md",

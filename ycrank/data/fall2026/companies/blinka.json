@@ -59,10 +59,10 @@
     "VK": 29
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 26,
+  "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 58,
+    "tractionRank": 27,
+    "tractionScore": 60,
     "tractionReason": "$10M payments processed; 25 prelaunch clients; named customers"
   },
   "paths": {

@@ -60,11 +60,11 @@
     "VK": 22
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 54,
+  "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 67,
-    "tractionReason": "Commission revenue grew 4.4× over six months; 30+ startup customers"
+    "tractionRank": 14,
+    "tractionScore": 68,
+    "tractionReason": "30+ customers; commission revenue grew approximately 4.4×"
   },
   "paths": {
     "memo": "fall2026/memos/spine.md",

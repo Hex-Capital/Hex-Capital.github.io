@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 41.29,
-  "consolidatedRank": 41,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 153,
-    "tractionScore": 14,
-    "tractionReason": "Datacenter proof of concept planned; no disclosed customer commitments"
+    "tractionRank": 162,
+    "tractionScore": 13,
+    "tractionReason": "Datacenter proof of concept planned; no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/aikido-technologies.md",

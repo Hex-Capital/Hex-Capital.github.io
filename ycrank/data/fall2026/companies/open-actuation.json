@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 88,
+  "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 45,
-    "tractionReason": "Building motors for drone OEMs; customer samples undergoing feedback"
+    "tractionRank": 69,
+    "tractionScore": 46,
+    "tractionReason": "Motors built for drone OEMs; customer samples undergoing feedback"
   },
   "paths": {
     "memo": "fall2026/memos/open-actuation.md",

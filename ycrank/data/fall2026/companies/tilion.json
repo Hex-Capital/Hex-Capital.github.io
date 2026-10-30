@@ -59,11 +59,11 @@
     "VK": 32
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 44,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 44,
+    "tractionRank": 45,
     "tractionScore": 54,
-    "tractionReason": "100K+ installs; engineers at 170+ companies; millions of daily operations"
+    "tractionReason": "100K+ installs; engineers at 170+ companies; millions daily operations"
   },
   "paths": {
     "memo": "fall2026/memos/tilion.md",

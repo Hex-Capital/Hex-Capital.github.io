@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 84,
+  "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 48,
-    "tractionReason": "Active billing engagement collects hundreds of thousands monthly for client"
+    "tractionRank": 94,
+    "tractionScore": 40,
+    "tractionReason": "Billing operational for treatment practice; company fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/altair-health.md",

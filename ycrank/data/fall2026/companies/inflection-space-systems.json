@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 49,
+  "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 14,
-    "tractionReason": "Launch booked for 2028; no named signed payload customers"
+    "tractionRank": 167,
+    "tractionScore": 10,
+    "tractionReason": "Supplier launch booked; payload customers still being solicited"
   },
   "paths": {
     "memo": "fall2026/memos/inflection-space-systems.md",

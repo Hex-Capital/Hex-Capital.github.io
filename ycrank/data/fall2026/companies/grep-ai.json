@@ -61,9 +61,9 @@
   "consolidatedAvg": 54.14,
   "consolidatedRank": 2,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 59,
-    "tractionReason": "Named enterprise customers; continued production compliance deployments; revenue undisclosed"
+    "tractionRank": 28,
+    "tractionScore": 60,
+    "tractionReason": "Named enterprise customers; continuing production compliance deployments"
   },
   "paths": {
     "memo": "fall2026/memos/grep-ai.md",

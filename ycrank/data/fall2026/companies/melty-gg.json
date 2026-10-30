@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 150,
+  "consolidatedRank": 151,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 50,
-    "tractionReason": "10,611 Discord members; free launcher; no disclosed revenue"
+    "tractionRank": 66,
+    "tractionScore": 46,
+    "tractionReason": "10,611 Discord members reported; product free"
   },
   "paths": {
     "memo": "fall2026/memos/melty-gg.md",

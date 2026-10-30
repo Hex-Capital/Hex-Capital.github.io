@@ -58,11 +58,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 85,
+  "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 16,
-    "tractionReason": "Exhibition packed 800+ pens; no disclosed customer deployments"
+    "tractionRank": 148,
+    "tractionScore": 18,
+    "tractionReason": "Exhibition demonstration only; no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/deploy.md",

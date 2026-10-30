@@ -1,0 +1,80 @@
+{
+  "slug": "ernd",
+  "name": "ernd",
+  "oneLiner": "The credit card for companies that pay for AI",
+  "metadata": {
+    "website": "https://ernd.io/",
+    "yc_page": "https://www.ycombinator.com/companies/ernd",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/ernd), via search snippet)",
+    "industry": "Fintech / Fintech",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, AI",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/ernd), via search snippet)",
+    "emails": "nikhil@ernd.io ([Privacy policy](https://ernd.io/privacy), Oct 27, 2026, via search snippet)"
+  },
+  "tags": [
+    "Fintech",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-10-30T06:03:49.560Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 19,
+      "tier": "Strong Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 36,
+    "NR": 39,
+    "PG": 32,
+    "PT": 30,
+    "SL": 31,
+    "VK": 19
+  },
+  "consolidatedAvg": 32.29,
+  "consolidatedRank": 164,
+  "traction": {
+    "tractionRank": 96,
+    "tractionScore": 39,
+    "tractionReason": "10 startups onboarded; five vendor partnerships; cards early access"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ernd.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ernd.md",
+      "elad-gil": "fall2026/evals/elad-gil/ernd.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ernd.md",
+      "paul-graham": "fall2026/evals/paul-graham/ernd.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ernd.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ernd.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ernd.md"
+    }
+  }
+}

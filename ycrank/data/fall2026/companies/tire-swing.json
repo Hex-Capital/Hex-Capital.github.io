@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.43,
-  "consolidatedRank": 169,
+  "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 4,
-    "tractionReason": "No disclosed affordable-housing customers, usage or revenue"
+    "tractionRank": 184,
+    "tractionScore": 5,
+    "tractionReason": "Current housing-compliance customers and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/tire-swing.md",

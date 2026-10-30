@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 30.57,
-  "consolidatedRank": 177,
+  "consolidatedRank": 178,
   "traction": {
     "tractionRank": 97,
-    "tractionScore": 40,
-    "tractionReason": "Working with international manufacturers; deployment and payment details undisclosed"
+    "tractionScore": 38,
+    "tractionReason": "Working with international manufacturers; deployments and payment unquantified"
   },
   "paths": {
     "memo": "fall2026/memos/horizontal.md",

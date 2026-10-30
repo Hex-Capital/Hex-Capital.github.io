@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 34.14,
-  "consolidatedRank": 143,
+  "consolidatedRank": 144,
   "traction": {
     "tractionRank": 79,
-    "tractionScore": 43,
-    "tractionReason": "Deployment underway to three founding partners; completed installations undisclosed"
+    "tractionScore": 44,
+    "tractionReason": "Deploying to three founding partners; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hundred.md",

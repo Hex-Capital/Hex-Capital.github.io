@@ -60,10 +60,10 @@
     "VK": 27
   },
   "consolidatedAvg": 42.14,
-  "consolidatedRank": 36,
+  "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 70,
+    "tractionRank": 18,
+    "tractionScore": 66,
     "tractionReason": "$4K+ MRR, approximately $48K annualized; 13 paying practices"
   },
   "paths": {

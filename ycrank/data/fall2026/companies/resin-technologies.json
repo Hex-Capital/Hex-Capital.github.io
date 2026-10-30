@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 34.14,
-  "consolidatedRank": 144,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 20,
-    "tractionReason": "Public launch; 176 LinkedIn followers; no disclosed adoption"
+    "tractionRank": 128,
+    "tractionScore": 21,
+    "tractionReason": "Product launched; 176 followers; no disclosed users or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/resin-technologies.md",

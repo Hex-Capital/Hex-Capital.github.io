@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 30,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 65,
-    "tractionReason": "Revenue confirmed; named customers; 10,000+ client accounts managed"
+    "tractionRank": 17,
+    "tractionScore": 67,
+    "tractionReason": "Revenue confirmed; named clients managing 10,000+ customer accounts"
   },
   "paths": {
     "memo": "fall2026/memos/quivly-ai.md",

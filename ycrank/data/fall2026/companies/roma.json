@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 106,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 112,
-    "tractionScore": 30,
-    "tractionReason": "Nine App Store ratings; beta feedback; free download"
+    "tractionRank": 113,
+    "tractionScore": 27,
+    "tractionReason": "Nine iOS ratings; beta feedback; free download"
   },
   "paths": {
     "memo": "fall2026/memos/roma.md",

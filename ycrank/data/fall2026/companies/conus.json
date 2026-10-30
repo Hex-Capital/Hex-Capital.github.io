@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 62,
+  "consolidatedRank": 63,
   "traction": {
     "tractionRank": 16,
-    "tractionScore": 64,
-    "tractionReason": "Paid manufacturer services finance operations; 20+ hospitals live"
+    "tractionScore": 67,
+    "tractionReason": "Paid manufacturer services; 20+ hospitals live"
   },
   "paths": {
     "memo": "fall2026/memos/conus.md",

@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 53,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 29,
-    "tractionReason": "22 Chrome users; named user example; no disclosed revenue"
+    "tractionRank": 110,
+    "tractionScore": 28,
+    "tractionReason": "22 Chrome users; named user example; payment unspecified"
   },
   "paths": {
     "memo": "fall2026/memos/spacesheep.md",

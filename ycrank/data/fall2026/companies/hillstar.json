@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 34,
+  "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 49,
-    "tractionReason": "Multiple utility case studies; completed sourcing and evaluation workflows"
+    "tractionRank": 61,
+    "tractionScore": 48,
+    "tractionReason": "Multiple utility sourcing case studies; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hillstar.md",

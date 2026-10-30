@@ -61,11 +61,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 40,
+  "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 111,
-    "tractionScore": 30,
-    "tractionReason": "99 repository stars and 13 forks; no disclosed revenue"
+    "tractionRank": 109,
+    "tractionScore": 29,
+    "tractionReason": "99 repository stars; 13 forks; no disclosed revenue"
   },
   "paths": {
     "memo": "fall2026/memos/ufoai.md",

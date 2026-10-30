@@ -61,11 +61,11 @@
     "VK": 33
   },
   "consolidatedAvg": 42.86,
-  "consolidatedRank": 29,
+  "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 40,
-    "tractionReason": "Just Eat Takeaway engineering testimonial; paying status undisclosed"
+    "tractionRank": 87,
+    "tractionScore": 41,
+    "tractionReason": "Just Eat Takeaway engineering testimonial; paid status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/armorer-labs.md",

@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 89,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 53,
-    "tractionReason": "Thousands of companies claimed; paid/free breakdown undisclosed"
+    "tractionRank": 43,
+    "tractionScore": 54,
+    "tractionReason": "Thousands of companies claimed; paid-customer breakdown undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ploid.md",

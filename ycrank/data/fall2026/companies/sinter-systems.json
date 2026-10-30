@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.71,
-  "consolidatedRank": 147,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 15,
-    "tractionReason": "Current manufacturing orders undisclosed; prior printer marketplace excluded"
+    "tractionRank": 155,
+    "tractionScore": 16,
+    "tractionReason": "Current manufacturing adoption undisclosed; prior marketplace supply excluded"
   },
   "paths": {
     "memo": "fall2026/memos/sinter-systems.md",

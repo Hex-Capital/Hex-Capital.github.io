@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 27.43,
-  "consolidatedRank": 189,
+  "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 2,
-    "tractionReason": "No disclosed enrollment, customers or revenue"
+    "tractionRank": 193,
+    "tractionScore": 0,
+    "tractionReason": "No disclosed enrollment, customers, usage or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/cardinal-square.md",

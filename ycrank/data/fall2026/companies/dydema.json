@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 128,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 16,
-    "tractionReason": "Control demonstrations and live API; customer adoption undisclosed"
+    "tractionRank": 135,
+    "tractionScore": 20,
+    "tractionReason": "API live; demonstrations published; customer adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/dydema.md",

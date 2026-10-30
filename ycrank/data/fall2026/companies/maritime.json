@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 94,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 28,
-    "tractionReason": "Seven SDK stars; 253 Product Hunt followers; revenue undisclosed"
+    "tractionRank": 119,
+    "tractionScore": 24,
+    "tractionReason": "253 Product Hunt followers; SDK has seven stars"
   },
   "paths": {
     "memo": "fall2026/memos/maritime.md",

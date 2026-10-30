@@ -59,11 +59,11 @@
     "VK": 22
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 111,
+  "consolidatedRank": 112,
   "traction": {
     "tractionRank": 40,
-    "tractionScore": 55,
-    "tractionReason": "AI Desktop reports 50,000+ users and 130,000+ agents"
+    "tractionScore": 56,
+    "tractionReason": "AI Desktop reports 50K+ users and 130K+ agents"
   },
   "paths": {
     "memo": "fall2026/memos/rivereditor.md",

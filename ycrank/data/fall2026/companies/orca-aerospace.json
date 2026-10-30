@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 105,
+  "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 143,
+    "tractionRank": 153,
     "tractionScore": 17,
-    "tractionReason": "Lyra concept integration study; no disclosed customer contracts"
+    "tractionReason": "Concept-level integration study; no disclosed commercial deployments"
   },
   "paths": {
     "memo": "fall2026/memos/orca-aerospace.md",

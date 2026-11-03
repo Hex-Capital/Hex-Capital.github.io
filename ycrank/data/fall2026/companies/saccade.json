@@ -62,10 +62,10 @@
     "VK": 27
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 135,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 45,
+    "tractionRank": 69,
+    "tractionScore": 47,
     "tractionReason": "San Francisco clinic deployments claimed; assessment volumes undisclosed"
   },
   "paths": {

@@ -58,11 +58,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 87,
+  "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 148,
+    "tractionRank": 136,
     "tractionScore": 18,
-    "tractionReason": "Exhibition demonstration only; no disclosed customer deployments"
+    "tractionReason": "Exhibition packing demonstration; no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/deploy.md",

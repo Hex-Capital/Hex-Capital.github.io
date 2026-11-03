@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 84,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 43,
-    "tractionReason": "Customer confirmed fermentation finding; additional bioprocessing collaboration"
+    "tractionRank": 91,
+    "tractionScore": 40,
+    "tractionReason": "Customer confirmed fermentation finding; commercial terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/halmos-labs.md",

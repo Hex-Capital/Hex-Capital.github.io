@@ -61,10 +61,10 @@
     "VK": 29
   },
   "consolidatedAvg": 41.29,
-  "consolidatedRank": 42,
+  "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 13,
+    "tractionRank": 158,
+    "tractionScore": 11,
     "tractionReason": "Datacenter proof of concept planned; no disclosed customers"
   },
   "paths": {

@@ -60,9 +60,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 60,
-    "tractionReason": "$400M signed launch reservations; payment and cancellation terms undisclosed"
+    "tractionRank": 32,
+    "tractionScore": 59,
+    "tractionReason": "$400M signed reservations; payment and cancellation terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ratlog.md",

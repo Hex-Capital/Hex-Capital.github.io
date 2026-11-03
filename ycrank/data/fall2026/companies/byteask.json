@@ -60,11 +60,11 @@
     "VK": 33
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 28,
+  "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 45,
-    "tractionReason": "Weekly active users reportedly doubling; absolute counts undisclosed"
+    "tractionRank": 95,
+    "tractionScore": 39,
+    "tractionReason": "Weekly active users reportedly doubling; absolute count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/byteask.md",

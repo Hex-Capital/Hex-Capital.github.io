@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 42.14,
-  "consolidatedRank": 37,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 66,
-    "tractionReason": "$4K+ MRR, approximately $48K annualized; 13 paying practices"
+    "tractionRank": 16,
+    "tractionScore": 67,
+    "tractionReason": "$4K+ MRR, approximately $48K ARR; 13 paying practices"
   },
   "paths": {
     "memo": "fall2026/memos/kairos-health.md",

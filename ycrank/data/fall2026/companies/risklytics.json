@@ -1,0 +1,83 @@
+{
+  "slug": "risklytics",
+  "name": "Risklytics",
+  "oneLiner": "AI-Native Insurance for Frontier Tech",
+  "metadata": {
+    "website": "https://www.risklytics.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/risklytics",
+    "batch": "Summer 2026 ([Risklytics](https://www.risklytics.ai/about/))",
+    "industry": "Fintech / Fintech -> Insurance",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Machine Learning, B2B, Insurance, AI",
+    "yc_partner": "Ankit Gupta ([YC, via search snippet](https://www.ycombinator.com/companies/risklytics))",
+    "emails": "hello@risklytics.ai ([website](https://www.risklytics.ai/)); alex@risklytics.ai ([founder launch](https://news.ycombinator.com/item?id=49451495)); ajrisio@college.harvard.edu ([founder portfolio](https://www.alexanderrisio.com/))"
+  },
+  "tags": [
+    "Hardware",
+    "Machine Learning",
+    "B2B",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-03T16:55:14.543Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 48,
+    "NR": 47,
+    "PG": 52,
+    "PT": 37,
+    "SL": 38,
+    "VK": 30
+  },
+  "consolidatedAvg": 43.14,
+  "consolidatedRank": 26,
+  "traction": {
+    "tractionRank": 34,
+    "tractionScore": 58,
+    "tractionReason": "Three companies obtained coverage; nearly 50 application users"
+  },
+  "paths": {
+    "memo": "fall2026/memos/risklytics.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/risklytics.md",
+      "elad-gil": "fall2026/evals/elad-gil/risklytics.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/risklytics.md",
+      "paul-graham": "fall2026/evals/paul-graham/risklytics.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/risklytics.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/risklytics.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/risklytics.md"
+    }
+  }
+}

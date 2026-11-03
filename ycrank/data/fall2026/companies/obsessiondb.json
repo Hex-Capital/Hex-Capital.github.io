@@ -62,9 +62,9 @@
   "consolidatedAvg": 57.71,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 71,
-    "tractionReason": "Paying production customers; petabytes processed monthly"
+    "tractionRank": 12,
+    "tractionScore": 69,
+    "tractionReason": "Paying production customers; petabytes processed monthly; named Numia deployment"
   },
   "paths": {
     "memo": "fall2026/memos/obsessiondb.md",

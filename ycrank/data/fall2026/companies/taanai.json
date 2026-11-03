@@ -1,0 +1,79 @@
+{
+  "slug": "taanai",
+  "name": "Taan.ai",
+  "oneLiner": "the most precise & controllable foundation music models",
+  "metadata": {
+    "website": "https://taan.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/taanai",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/industry/generative-ai/san-francisco), Nov 2026)",
+    "industry": "B2B / B2B",
+    "team_size": "0",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI",
+    "yc_partner": "Not listed",
+    "emails": "team@taan.ai ([Taan documentation](https://github.com/aalap-mvp/mcp-user-docs)); ad1thya.rohith@gmail.com ([founder website](https://ad1thya.com/))"
+  },
+  "tags": [
+    "Generative AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-03T16:54:59.342Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 44,
+    "NR": 51,
+    "PG": 38,
+    "PT": 35,
+    "SL": 32,
+    "VK": 32
+  },
+  "consolidatedAvg": 39.14,
+  "consolidatedRank": 70,
+  "traction": {
+    "tractionRank": 141,
+    "tractionScore": 17,
+    "tractionReason": "Public beta launched; no disclosed users or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/taanai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/taanai.md",
+      "elad-gil": "fall2026/evals/elad-gil/taanai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/taanai.md",
+      "paul-graham": "fall2026/evals/paul-graham/taanai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/taanai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/taanai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/taanai.md"
+    }
+  }
+}

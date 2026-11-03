@@ -1,6 +1,6 @@
 {
   "batch": "fall2026",
-  "companyCount": 193,
+  "companyCount": 201,
   "personas": [
     {
       "slug": "cyan-banister",
@@ -83,9 +83,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 11,
-      "tractionScore": 71,
-      "tractionReason": "Paying production customers; petabytes processed monthly"
+      "tractionRank": 12,
+      "tractionScore": 69,
+      "tractionReason": "Paying production customers; petabytes processed monthly; named Numia deployment"
     },
     {
       "rank": 2,
@@ -125,7 +125,7 @@
       "memoDate": "2026-10-28",
       "tractionRank": 28,
       "tractionScore": 60,
-      "tractionReason": "Named enterprise customers; continuing production compliance deployments"
+      "tractionReason": "Named enterprise customers; continuing production compliance deployment"
     },
     {
       "rank": 3,
@@ -163,9 +163,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 19,
-      "tractionScore": 66,
-      "tractionReason": "2,000+ parts shipped; operating factory reports profitability"
+      "tractionRank": 11,
+      "tractionScore": 70,
+      "tractionReason": "Profitable factory; 2,000+ parts shipped; named customer order"
     },
     {
       "rank": 4,
@@ -203,9 +203,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 7,
-      "tractionScore": 79,
-      "tractionReason": "$150K+ revenue over recent months; 10+ paying institutions"
+      "tractionRank": 8,
+      "tractionScore": 73,
+      "tractionReason": "$150K+ cumulative revenue over months; 10+ paying institutions"
     },
     {
       "rank": 5,
@@ -246,7 +246,7 @@
       "memoDate": "2026-10-27",
       "tractionRank": 2,
       "tractionScore": 95,
-      "tractionReason": "$2M ARR; 2,200+ paying customers within six months"
+      "tractionReason": "$2M ARR within six months; 2,200+ paying customers"
     },
     {
       "rank": 6,
@@ -286,9 +286,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 89,
-      "tractionScore": 41,
-      "tractionReason": "External pilot discovered Slack integration bug; payment undisclosed"
+      "tractionRank": 92,
+      "tractionScore": 40,
+      "tractionReason": "Customer pilot discovered Slack integration bug; payment undisclosed"
     },
     {
       "rank": 7,
@@ -326,9 +326,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 32,
-      "tractionScore": 59,
-      "tractionReason": "Commercial platform license signed and operating in production"
+      "tractionRank": 30,
+      "tractionScore": 60,
+      "tractionReason": "Commercial platform license operating in production; named customer testimonials"
     },
     {
       "rank": 8,
@@ -367,8 +367,8 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 38,
-      "tractionScore": 57,
+      "tractionRank": 39,
+      "tractionScore": 56,
       "tractionReason": "1.64M cumulative installs; 46,194 stars; no disclosed revenue"
     },
     {
@@ -408,9 +408,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 37,
-      "tractionScore": 57,
-      "tractionReason": "10,000+ claims investigated; production MGA deployment"
+      "tractionRank": 51,
+      "tractionScore": 53,
+      "tractionReason": "10,000+ claims investigated; production MGA deployment; revenue undisclosed"
     },
     {
       "rank": 10,
@@ -449,7 +449,7 @@
       "scoreTips": {},
       "memoDate": "2026-10-28",
       "tractionRank": 6,
-      "tractionScore": 82,
+      "tractionScore": 80,
       "tractionReason": "Six-figure ARR; 1,000+ active paying users"
     },
     {
@@ -488,9 +488,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 47,
-      "tractionScore": 53,
-      "tractionReason": "Live TresVista deployment; additional fund customer case study"
+      "tractionRank": 53,
+      "tractionScore": 52,
+      "tractionReason": "TresVista production deployment; additional fund customer case studies"
     },
     {
       "rank": 12,
@@ -528,9 +528,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 26,
-      "tractionScore": 60,
-      "tractionReason": "50–55 facilities deployed; named 12-community customer"
+      "tractionRank": 21,
+      "tractionScore": 64,
+      "tractionReason": "50–55 facilities deployed; named 12-community customer rollout"
     },
     {
       "rank": 13,
@@ -568,8 +568,8 @@
       "scoreTips": {},
       "memoDate": "2026-10-28",
       "tractionRank": 10,
-      "tractionScore": 72,
-      "tractionReason": "1.2T tokens monthly; 1,000+ customers, paying breakdown undisclosed"
+      "tractionScore": 71,
+      "tractionReason": "1.2T tokens monthly; 1,000+ customers; paying share undisclosed"
     },
     {
       "rank": 14,
@@ -610,9 +610,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 3,
+      "tractionRank": 4,
       "tractionScore": 91,
-      "tractionReason": "$1M company ARR; continuing interview module reports 100K+ interviews"
+      "tractionReason": "$1M company ARR; product allocation undisclosed; interview module remains active"
     },
     {
       "rank": 15,
@@ -649,9 +649,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 30,
-      "tractionScore": 60,
-      "tractionReason": "$400M signed launch reservations; payment and cancellation terms undisclosed"
+      "tractionRank": 32,
+      "tractionScore": 59,
+      "tractionReason": "$400M signed reservations; payment and cancellation terms undisclosed"
     },
     {
       "rank": 16,
@@ -691,9 +691,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 29,
-      "tractionScore": 60,
-      "tractionReason": "10,000+ interviews; signed top-three consulting firm"
+      "tractionRank": 24,
+      "tractionScore": 62,
+      "tractionReason": "10,000+ interviews; signed top-three consulting firm; named customer testimonial"
     },
     {
       "rank": 17,
@@ -732,9 +732,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 95,
-      "tractionScore": 40,
-      "tractionReason": "345 competing agents; 4.89M scored trajectories; no disclosed revenue"
+      "tractionRank": 71,
+      "tractionScore": 46,
+      "tractionReason": "345+ competing agents; 4.89M scored trajectories; revenue undisclosed"
     },
     {
       "rank": 18,
@@ -774,9 +774,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 13,
-      "tractionScore": 69,
-      "tractionReason": "100+ current-platform companies; reported ARR lacks product allocation"
+      "tractionRank": 14,
+      "tractionScore": 68,
+      "tractionReason": "100K company ARR claim; 100+ companies; product split undisclosed"
     },
     {
       "rank": 19,
@@ -818,8 +818,8 @@
       "scoreTips": {},
       "memoDate": "2026-10-27",
       "tractionRank": 33,
-      "tractionScore": 59,
-      "tractionReason": "67 companies working with brokerage; named customer testimonials"
+      "tractionScore": 58,
+      "tractionReason": "67 companies working with brokerage; named completed customer engagements"
     },
     {
       "rank": 20,
@@ -860,9 +860,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 34,
+      "tractionRank": 35,
       "tractionScore": 58,
-      "tractionReason": "50+ agencies; named deployment, payment status undisclosed"
+      "tractionReason": "50+ agencies; named customer recorded 155 tasks over two weeks"
     },
     {
       "rank": 21,
@@ -900,9 +900,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 51,
-      "tractionScore": 51,
-      "tractionReason": "Live seafood and broadline distributor deployments"
+      "tractionRank": 54,
+      "tractionScore": 52,
+      "tractionReason": "Live seafood and broadline distributor deployments; revenue undisclosed"
     },
     {
       "rank": 22,
@@ -941,9 +941,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 15,
-      "tractionScore": 68,
-      "tractionReason": "1,000+ teams; thousands of production desktops; paying customer confirmed"
+      "tractionRank": 31,
+      "tractionScore": 59,
+      "tractionReason": "1,000+ teams; thousands of production desktops; confirmed paying customer"
     },
     {
       "rank": 23,
@@ -982,9 +982,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 77,
-      "tractionScore": 44,
-      "tractionReason": "Named Munari deployment; HUD partnership; payment undisclosed"
+      "tractionRank": 76,
+      "tractionScore": 45,
+      "tractionReason": "Named Munari deployment; HUD partnership; payment status undisclosed"
     },
     {
       "rank": 24,
@@ -1025,9 +1025,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 20,
-      "tractionScore": 65,
-      "tractionReason": "$3,125 MRR, $37,500 annualized; 35 active subscriptions"
+      "tractionRank": 17,
+      "tractionScore": 66,
+      "tractionReason": "$3,125 MRR, $37,500 ARR; 35 active subscriptions"
     },
     {
       "rank": 25,
@@ -1065,12 +1065,55 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-30",
-      "tractionRank": 118,
-      "tractionScore": 25,
-      "tractionReason": "Exa Connect listing; booking volume and revenue undisclosed"
+      "tractionRank": 119,
+      "tractionScore": 29,
+      "tractionReason": "Exa Connect provider listing; booking volumes and revenue undisclosed"
     },
     {
       "rank": 26,
+      "name": "Risklytics",
+      "slug": "risklytics",
+      "scores": {
+        "CB": 50,
+        "EG": 48,
+        "NR": 47,
+        "PG": 52,
+        "PT": 37,
+        "SL": 38,
+        "VK": 30
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 43.14,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 2,
+      "ycPartner": "Ankit Gupta)",
+      "oneLiner": "AI-Native Insurance for Frontier Tech",
+      "industry": "Fintech / Fintech -> Insurance",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Hardware",
+        "Machine Learning",
+        "B2B",
+        "Insurance",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 34,
+      "tractionScore": 58,
+      "tractionReason": "Three companies obtained coverage; nearly 50 application users"
+    },
+    {
+      "rank": 27,
       "name": "Viraj Aero",
       "slug": "viraj-aero",
       "scores": {
@@ -1107,12 +1150,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 46,
-      "tractionScore": 53,
-      "tractionReason": "13M aviation LOIs; Safran work reported, revenue undisclosed"
+      "tractionRank": 47,
+      "tractionScore": 54,
+      "tractionReason": "€13M aviation LOIs; Safran engagement; realized revenue undisclosed"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "Blinka",
       "slug": "blinka",
       "scores": {
@@ -1147,12 +1190,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 27,
-      "tractionScore": 60,
-      "tractionReason": "$10M payments processed; 25 prelaunch clients; named customers"
+      "tractionRank": 23,
+      "tractionScore": 63,
+      "tractionReason": "$10M+ payments processed; 25 early clients; named customers"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "ByteAsk",
       "slug": "byteask",
       "scores": {
@@ -1188,12 +1231,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 71,
-      "tractionScore": 45,
-      "tractionReason": "Weekly active users reportedly doubling; absolute counts undisclosed"
+      "tractionRank": 95,
+      "tractionScore": 39,
+      "tractionReason": "Weekly active users reportedly doubling; absolute count undisclosed"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Hemlock",
       "slug": "hemlock",
       "scores": {
@@ -1228,12 +1271,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 163,
-      "tractionScore": 12,
-      "tractionReason": "Robotic task benchmarks; no disclosed customers or revenue"
+      "tractionRank": 151,
+      "tractionScore": 13,
+      "tractionReason": "Robotic task benchmarks; no disclosed customer usage"
     },
     {
-      "rank": 30,
+      "rank": 31,
       "name": "Armorer Labs",
       "slug": "armorer-labs",
       "scores": {
@@ -1270,12 +1313,55 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 87,
-      "tractionScore": 41,
+      "tractionRank": 75,
+      "tractionScore": 45,
       "tractionReason": "Just Eat Takeaway engineering testimonial; paid status undisclosed"
     },
     {
-      "rank": 31,
+      "rank": 32,
+      "name": "Ryhla",
+      "slug": "ryhla",
+      "scores": {
+        "CB": 50,
+        "EG": 53,
+        "NR": 47,
+        "PG": 43,
+        "PT": 33,
+        "SL": 41,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 42.71,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 2,
+      "ycPartner": "Pete Koomen)",
+      "oneLiner": "Faster power grid connection for your projects",
+      "industry": "Industrials / Industrials -> Energy",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Solar Power",
+        "Climate",
+        "Energy",
+        "Renewable Energy",
+        "Infrastructure"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 88,
+      "tractionScore": 41,
+      "tractionReason": "Solar developer deployment reported; realized company revenue undisclosed"
+    },
+    {
+      "rank": 33,
       "name": "Quivly AI",
       "slug": "quivly-ai",
       "scores": {
@@ -1311,12 +1397,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 17,
-      "tractionScore": 67,
-      "tractionReason": "Revenue confirmed; named clients managing 10,000+ customer accounts"
+      "tractionRank": 18,
+      "tractionScore": 65,
+      "tractionReason": "Revenue acknowledged; named customers; 10,000+ client accounts managed"
     },
     {
-      "rank": 32,
+      "rank": 34,
       "name": "Super Powers Mobility (SPM)",
       "slug": "super-powers-mobility-spm",
       "scores": {
@@ -1354,12 +1440,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 4,
-      "tractionScore": 89,
-      "tractionReason": "$421,815 realized battery revenue in one month"
+      "tractionRank": 3,
+      "tractionScore": 93,
+      "tractionReason": "$421,815 realized battery-product revenue in one month"
     },
     {
-      "rank": 33,
+      "rank": 35,
       "name": "Agent Relay",
       "slug": "agent-relay",
       "scores": {
@@ -1396,12 +1482,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 67,
+      "tractionRank": 72,
       "tractionScore": 46,
-      "tractionReason": "229.6K package downloads; approximately 1,000 stars; team-use testimonial"
+      "tractionReason": "229,600 package downloads; approximately 1,000 stars; ongoing team usage"
     },
     {
-      "rank": 34,
+      "rank": 36,
       "name": "Axonnic",
       "slug": "axonnic",
       "scores": {
@@ -1437,12 +1523,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 58,
-      "tractionScore": 49,
-      "tractionReason": "Named industrial pilot; signed manufacturing LOI; robotic-hand integration"
+      "tractionRank": 74,
+      "tractionScore": 45,
+      "tractionReason": "Named industrial pilot; manufacturing LOI; robotic-hand integration"
     },
     {
-      "rank": 35,
+      "rank": 37,
       "name": "HillStar",
       "slug": "hillstar",
       "scores": {
@@ -1478,12 +1564,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 61,
-      "tractionScore": 48,
-      "tractionReason": "Multiple utility sourcing case studies; payment status undisclosed"
+      "tractionRank": 63,
+      "tractionScore": 49,
+      "tractionReason": "Multiple utility case studies; completed procurement workflow usage"
     },
     {
-      "rank": 36,
+      "rank": 38,
       "name": "Sintropix",
       "slug": "sintropix",
       "scores": {
@@ -1519,12 +1605,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 24,
-      "tractionScore": 61,
-      "tractionReason": "10 active accounting clients across four countries"
+      "tractionRank": 29,
+      "tractionScore": 60,
+      "tractionReason": "10 active clients across four countries; recurring service pricing"
     },
     {
-      "rank": 37,
+      "rank": 39,
       "name": "Kairos Health",
       "slug": "kairos-health",
       "scores": {
@@ -1560,12 +1646,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 18,
-      "tractionScore": 66,
-      "tractionReason": "$4K+ MRR, approximately $48K annualized; 13 paying practices"
+      "tractionRank": 16,
+      "tractionScore": 67,
+      "tractionReason": "$4K+ MRR, approximately $48K ARR; 13 paying practices"
     },
     {
-      "rank": 38,
+      "rank": 40,
       "name": "Lark",
       "slug": "lark-2",
       "scores": {
@@ -1601,12 +1687,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 56,
-      "tractionScore": 50,
-      "tractionReason": "Interline Hardware deployment; additional customer reports weekly workflow savings"
+      "tractionRank": 57,
+      "tractionScore": 51,
+      "tractionReason": "Interline Hardware deployment; additional customer workflow savings reported"
     },
     {
-      "rank": 39,
+      "rank": 41,
       "name": "Clean",
       "slug": "clean",
       "scores": {
@@ -1641,12 +1727,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 8,
+      "tractionRank": 7,
       "tractionScore": 74,
-      "tractionReason": "$240K ARR attributed to current sales product"
+      "tractionReason": "$240K ARR from current sales intelligence product"
     },
     {
-      "rank": 40,
+      "rank": 42,
       "name": "Superserve",
       "slug": "superserve",
       "scores": {
@@ -1682,12 +1768,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 35,
-      "tractionScore": 58,
-      "tractionReason": "100K+ machines weekly; Lindy and YC named users"
+      "tractionRank": 36,
+      "tractionScore": 57,
+      "tractionReason": "100,000+ machines weekly; Lindy and YC named users"
     },
     {
-      "rank": 41,
+      "rank": 43,
       "name": "UFO.ai",
       "slug": "ufoai",
       "scores": {
@@ -1724,12 +1810,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 109,
-      "tractionScore": 29,
-      "tractionReason": "99 repository stars; 13 forks; no disclosed revenue"
+      "tractionRank": 122,
+      "tractionScore": 27,
+      "tractionReason": "99 repository stars; 13 forks; revenue undisclosed"
     },
     {
-      "rank": 42,
+      "rank": 44,
       "name": "Aikido Technologies",
       "slug": "aikido-technologies",
       "scores": {
@@ -1766,12 +1852,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 162,
-      "tractionScore": 13,
+      "tractionRank": 158,
+      "tractionScore": 11,
       "tractionReason": "Datacenter proof of concept planned; no disclosed customers"
     },
     {
-      "rank": 43,
+      "rank": 45,
       "name": "The Agentic Data Co.",
       "slug": "the-agentic-data-co",
       "scores": {
@@ -1807,12 +1893,52 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 76,
-      "tractionScore": 44,
-      "tractionReason": "Public dataset sample has 3,022 monthly downloads"
+      "tractionRank": 101,
+      "tractionScore": 37,
+      "tractionReason": "Dataset sample has 3,022 monthly downloads; commercial revenue undisclosed"
     },
     {
-      "rank": 44,
+      "rank": 46,
+      "name": "Kanopy",
+      "slug": "kanopy",
+      "scores": {
+        "CB": 46,
+        "EG": 50,
+        "NR": 46,
+        "PG": 47,
+        "PT": 36,
+        "SL": 35,
+        "VK": 28
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Neutral",
+        "NR": "Neutral",
+        "PG": "Neutral",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 41.14,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 2,
+      "ycPartner": "Christopher Golda)",
+      "oneLiner": "Computer vision operating layer for physical infrastructure",
+      "industry": "Industrials / Industrials -> Energy",
+      "location": "New York City, NY, USA",
+      "tags": [
+        "Energy",
+        "Industrial"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 46,
+      "tractionScore": 54,
+      "tractionReason": "Six LOIs/MSAs; 3,093 miles mapped; payment status undisclosed"
+    },
+    {
+      "rank": 47,
       "name": "Simantic",
       "slug": "simantic",
       "scores": {
@@ -1850,12 +1976,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 100,
-      "tractionScore": 37,
-      "tractionReason": "Three announced partnerships; cloud simulation beta live"
+      "tractionRank": 108,
+      "tractionScore": 33,
+      "tractionReason": "Named partner announcements; cloud beta; no disclosed paying customers"
     },
     {
-      "rank": 45,
+      "rank": 48,
       "name": "Tilion",
       "slug": "tilion",
       "scores": {
@@ -1890,12 +2016,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 45,
-      "tractionScore": 54,
-      "tractionReason": "100K+ installs; engineers at 170+ companies; millions daily operations"
+      "tractionRank": 38,
+      "tractionScore": 57,
+      "tractionReason": "100,000+ installs; engineers at 170+ companies; millions daily operations"
     },
     {
-      "rank": 46,
+      "rank": 49,
       "name": "Papaya",
       "slug": "papaya",
       "scores": {
@@ -1933,12 +2059,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 53,
-      "tractionScore": 51,
+      "tractionRank": 52,
+      "tractionScore": 53,
       "tractionReason": "1.1M+ conversations analyzed; Sunny Health and Hamlet testimonials"
     },
     {
-      "rank": 47,
+      "rank": 50,
       "name": "ClaimKit",
       "slug": "claimkit",
       "scores": {
@@ -1973,12 +2099,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 12,
-      "tractionScore": 70,
-      "tractionReason": "80+ tax-service customers across two countries within six months"
+      "tractionRank": 20,
+      "tractionScore": 64,
+      "tractionReason": "80+ customers within six months; completed tax-service engagements"
     },
     {
-      "rank": 48,
+      "rank": 51,
       "name": "Perit.AI",
       "slug": "peritai",
       "scores": {
@@ -2014,10 +2140,10 @@
       "memoDate": "2026-10-27",
       "tractionRank": 1,
       "tractionScore": 96,
-      "tractionReason": "Multiple millions in ARR; six major AI-lab customers"
+      "tractionReason": "Multiple millions ARR; six AI labs; 4,000+ audio hours delivered"
     },
     {
-      "rank": 49,
+      "rank": 52,
       "name": "Gradon",
       "slug": "gradon",
       "scores": {
@@ -2053,12 +2179,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 57,
-      "tractionScore": 49,
-      "tractionReason": "Multiple firms using product; 50-person civil-firm case study"
+      "tractionRank": 59,
+      "tractionScore": 50,
+      "tractionReason": "Firms using product; documented 50-person civil-firm project"
     },
     {
-      "rank": 50,
+      "rank": 53,
       "name": "Inflection Space Systems",
       "slug": "inflection-space-systems",
       "scores": {
@@ -2094,12 +2220,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 167,
-      "tractionScore": 10,
-      "tractionReason": "Supplier launch booked; payload customers still being solicited"
+      "tractionRank": 140,
+      "tractionScore": 17,
+      "tractionReason": "Launch booked for 2028; no signed payload customers disclosed"
     },
     {
-      "rank": 51,
+      "rank": 54,
       "name": "RouterPlus",
       "slug": "routerplus",
       "scores": {
@@ -2136,12 +2262,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 31,
-      "tractionScore": 59,
-      "tractionReason": "Largest customer runs 3M agent conversations daily; payment undisclosed"
+      "tractionRank": 37,
+      "tractionScore": 57,
+      "tractionReason": "Largest customer runs 3M conversations daily; payment undisclosed"
     },
     {
-      "rank": 52,
+      "rank": 55,
       "name": "Composal",
       "slug": "composal",
       "scores": {
@@ -2178,12 +2304,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 115,
-      "tractionScore": 26,
-      "tractionReason": "Ten setup calls; customer identities and payment status undisclosed"
+      "tractionRank": 117,
+      "tractionScore": 29,
+      "tractionReason": "Ten recent setup calls; paid conversions undisclosed"
     },
     {
-      "rank": 53,
+      "rank": 56,
       "name": "Frontrunner",
       "slug": "frontrunner",
       "scores": {
@@ -2219,12 +2345,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 55,
-      "tractionScore": 50,
-      "tractionReason": "Multiple customer testimonials document recurring GTM workflow usage"
+      "tractionRank": 58,
+      "tractionScore": 51,
+      "tractionReason": "Multiple customer testimonials document recurring sales workflow usage"
     },
     {
-      "rank": 54,
+      "rank": 57,
       "name": "Spacesheep",
       "slug": "spacesheep",
       "scores": {
@@ -2262,12 +2388,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 110,
+      "tractionRank": 120,
       "tractionScore": 28,
-      "tractionReason": "22 Chrome users; named user example; payment unspecified"
+      "tractionReason": "22 Chrome users; named user example; revenue undisclosed"
     },
     {
-      "rank": 55,
+      "rank": 58,
       "name": "Spine",
       "slug": "spine",
       "scores": {
@@ -2303,12 +2429,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 14,
-      "tractionScore": 68,
-      "tractionReason": "30+ customers; commission revenue grew approximately 4.4×"
+      "tractionRank": 13,
+      "tractionScore": 69,
+      "tractionReason": "Commission revenue grew 4.4×; 30+ startup customers"
     },
     {
-      "rank": 56,
+      "rank": 59,
       "name": "Veeza AI",
       "slug": "veeza-ai",
       "scores": {
@@ -2344,12 +2470,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 22,
-      "tractionScore": 63,
+      "tractionRank": 19,
+      "tractionScore": 65,
       "tractionReason": "Paying customers; 7,000+ users; vendor reports doubled revenue"
     },
     {
-      "rank": 57,
+      "rank": 60,
       "name": "Adside.ai",
       "slug": "adsideai",
       "scores": {
@@ -2384,12 +2510,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 36,
-      "tractionScore": 57,
-      "tractionReason": "30 companies live; paying status undisclosed"
+      "tractionRank": 56,
+      "tractionScore": 51,
+      "tractionReason": "30 companies live; paying status and revenue undisclosed"
     },
     {
-      "rank": 58,
+      "rank": 61,
       "name": "Lyon",
       "slug": "lyon",
       "scores": {
@@ -2427,11 +2553,11 @@
       "scoreTips": {},
       "memoDate": "2026-10-28",
       "tractionRank": 60,
-      "tractionScore": 48,
-      "tractionReason": "Fintech model deployment underway; additional major insurer engagement"
+      "tractionScore": 50,
+      "tractionReason": "Enterprise fintech deployment underway; additional major insurer engagement"
     },
     {
-      "rank": 59,
+      "rank": 62,
       "name": "Sentient OS",
       "slug": "sentient-os",
       "scores": {
@@ -2466,12 +2592,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 54,
-      "tractionScore": 50,
-      "tractionReason": "10,000+ users; users at 130+ companies; free offering"
+      "tractionRank": 49,
+      "tractionScore": 54,
+      "tractionReason": "10,000+ users; adoption across 130+ companies; initially free"
     },
     {
-      "rank": 60,
+      "rank": 63,
       "name": "antimattr",
       "slug": "antimattr",
       "scores": {
@@ -2507,12 +2633,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 25,
-      "tractionScore": 60,
-      "tractionReason": "40+ early units sold; 300+ paid preorders"
+      "tractionRank": 26,
+      "tractionScore": 61,
+      "tractionReason": "40+ units sold; 300+ paid preorders; manufacturing integration partnership"
     },
     {
-      "rank": 61,
+      "rank": 64,
       "name": "Archgen Labs",
       "slug": "archgen-labs",
       "scores": {
@@ -2548,12 +2674,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 111,
-      "tractionScore": 28,
-      "tractionReason": "GlobalFoundries development collaboration claimed; no disclosed paying relationship"
+      "tractionRank": 98,
+      "tractionScore": 38,
+      "tractionReason": "GlobalFoundries collaboration claimed; no disclosed paying customer"
     },
     {
-      "rank": 62,
+      "rank": 65,
       "name": "Canos",
       "slug": "canos",
       "scores": {
@@ -2589,12 +2715,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 92,
-      "tractionScore": 40,
-      "tractionReason": "Blood draws open; customer samples processing; sales undisclosed"
+      "tractionRank": 89,
+      "tractionScore": 41,
+      "tractionReason": "Blood draws open; samples processing; customer counts undisclosed"
     },
     {
-      "rank": 63,
+      "rank": 66,
       "name": "CONUS",
       "slug": "conus",
       "scores": {
@@ -2629,12 +2755,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 16,
-      "tractionScore": 67,
-      "tractionReason": "Paid manufacturer services; 20+ hospitals live"
+      "tractionRank": 15,
+      "tractionScore": 68,
+      "tractionReason": "Paid manufacturer services; 20+ hospitals; named manufacturer relationships"
     },
     {
-      "rank": 64,
+      "rank": 67,
       "name": "Tilo",
       "slug": "tilo",
       "scores": {
@@ -2669,12 +2795,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 138,
-      "tractionScore": 20,
-      "tractionReason": "Public operating-system mirror has three stars"
+      "tractionRank": 164,
+      "tractionScore": 10,
+      "tractionReason": "Three repository stars; no disclosed users or revenue"
     },
     {
-      "rank": 65,
+      "rank": 68,
       "name": "Wondersearch",
       "slug": "wondersearch",
       "scores": {
@@ -2710,12 +2836,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 130,
-      "tractionScore": 21,
-      "tractionReason": "Launch reach disclosed; current users and revenue undisclosed"
+      "tractionRank": 127,
+      "tractionScore": 23,
+      "tractionReason": "128,943 launch views; current-product customer adoption undisclosed"
     },
     {
-      "rank": 66,
+      "rank": 69,
       "name": "Ignition Benefits",
       "slug": "ignition-benefits",
       "scores": {
@@ -2752,11 +2878,50 @@
       "scoreTips": {},
       "memoDate": "2026-10-27",
       "tractionRank": 50,
-      "tractionScore": 52,
-      "tractionReason": "Two named benefits customers; carrier-paid brokerage model"
+      "tractionScore": 53,
+      "tractionReason": "Two named customer brokerage engagements; recurring qualified inbound leads"
     },
     {
-      "rank": 67,
+      "rank": 70,
+      "name": "Taan.ai",
+      "slug": "taanai",
+      "scores": {
+        "CB": 42,
+        "EG": 44,
+        "NR": 51,
+        "PG": 38,
+        "PT": 35,
+        "SL": 32,
+        "VK": 32
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 39.14,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 0,
+      "ycPartner": "Not listed",
+      "oneLiner": "the most precise & controllable foundation music models",
+      "industry": "B2B / B2B",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Generative AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 141,
+      "tractionScore": 17,
+      "tractionReason": "Public beta launched; no disclosed users or revenue"
+    },
+    {
+      "rank": 71,
       "name": "Voyager",
       "slug": "voyager",
       "scores": {
@@ -2792,12 +2957,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 132,
-      "tractionScore": 21,
-      "tractionReason": "Current product launched; prior Moda users excluded"
+      "tractionRank": 125,
+      "tractionScore": 24,
+      "tractionReason": "Current product launched; adoption undisclosed; prior Moda users excluded"
     },
     {
-      "rank": 68,
+      "rank": 72,
       "name": "Acyclic Labs",
       "slug": "acyclic",
       "scores": {
@@ -2832,12 +2997,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 116,
-      "tractionScore": 26,
-      "tractionReason": "36 SDK stars; approximately 40 discovery conversations"
+      "tractionRank": 129,
+      "tractionScore": 22,
+      "tractionReason": "36 SDK stars; discovery conversations without disclosed conversions"
     },
     {
-      "rank": 69,
+      "rank": 73,
       "name": "Lux Foods",
       "slug": "lux-foods",
       "scores": {
@@ -2875,12 +3040,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 161,
+      "tractionRank": 154,
       "tractionScore": 13,
-      "tractionReason": "Internal tomato-growing pilot; no disclosed commercial sales"
+      "tractionReason": "Internal tomato pilot; no disclosed commercial sales"
     },
     {
-      "rank": 70,
+      "rank": 74,
       "name": "Theo",
       "slug": "theo",
       "scores": {
@@ -2916,12 +3081,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 44,
-      "tractionScore": 54,
-      "tractionReason": "10,000+ sites built; approximately 4,000 monthly audits"
+      "tractionRank": 45,
+      "tractionScore": 55,
+      "tractionReason": "10,000+ sites built; 4,000 monthly audits; 37 customer reviews"
     },
     {
-      "rank": 71,
+      "rank": 75,
       "name": "Latent",
       "slug": "trylatent",
       "scores": {
@@ -2955,12 +3120,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 129,
-      "tractionScore": 21,
-      "tractionReason": "SDK publicly distributed; no disclosed customers or revenue"
+      "tractionRank": 183,
+      "tractionScore": 6,
+      "tractionReason": "SDK and public launch; no disclosed users or revenue"
     },
     {
-      "rank": 72,
+      "rank": 76,
       "name": "Veltha",
       "slug": "veltha",
       "scores": {
@@ -2995,12 +3160,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 120,
-      "tractionScore": 24,
-      "tractionReason": "Workflow improvements claimed; current TPA customer deployments undisclosed"
+      "tractionRank": 123,
+      "tractionScore": 26,
+      "tractionReason": "Current TPA outcomes claimed; customer count and revenue undisclosed"
     },
     {
-      "rank": 73,
+      "rank": 77,
       "name": "Caveman",
       "slug": "caveman",
       "scores": {
@@ -3037,12 +3202,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 39,
+      "tractionRank": 40,
       "tractionScore": 56,
-      "tractionReason": "115.5K toolkit stars; paid infrastructure adoption undisclosed"
+      "tractionReason": "Toolkit has 115,500 stars; monetization and active usage undisclosed"
     },
     {
-      "rank": 74,
+      "rank": 78,
       "name": "Hopper",
       "slug": "hopper",
       "scores": {
@@ -3077,12 +3242,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 117,
-      "tractionScore": 25,
-      "tractionReason": "Dograh integration merged; no disclosed customers or revenue"
+      "tractionRank": 118,
+      "tractionScore": 29,
+      "tractionReason": "Dograh provider integration merged; no disclosed customers or revenue"
     },
     {
-      "rank": 75,
+      "rank": 79,
       "name": "Simulithic",
       "slug": "simulithic",
       "scores": {
@@ -3118,12 +3283,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 63,
-      "tractionScore": 47,
-      "tractionReason": "Several company deployments reported, spanning YC to Series A"
+      "tractionRank": 67,
+      "tractionScore": 48,
+      "tractionReason": "Several company deployments reported; paid status undisclosed"
     },
     {
-      "rank": 76,
+      "rank": 80,
       "name": "Yam",
       "slug": "yam",
       "scores": {
@@ -3159,12 +3324,53 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 41,
+      "tractionRank": 42,
       "tractionScore": 55,
-      "tractionReason": "Leading game has 1.8M plays; three hours per DAU"
+      "tractionReason": "Leading games exceed 2M combined plays; three-hour daily engagement"
     },
     {
-      "rank": 77,
+      "rank": 81,
+      "name": "Limnion",
+      "slug": "limnion",
+      "scores": {
+        "CB": 58,
+        "EG": 36,
+        "NR": 47,
+        "PG": 37,
+        "PT": 28,
+        "SL": 31,
+        "VK": 30
+      },
+      "tiers": {
+        "CB": "Neutral",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 38.14,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 3,
+      "ycPartner": "Not listed; individual YC profile text was not retrievable",
+      "oneLiner": "Telemetry storage for the agentic era.",
+      "industry": "B2B / B2B -> Infrastructure",
+      "location": "Seattle, WA, USA; Remote",
+      "tags": [
+        "Open Source",
+        "Infrastructure",
+        "Databases"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 104,
+      "tractionScore": 35,
+      "tractionReason": "Siglake has 577 stars; no disclosed customers or revenue"
+    },
+    {
+      "rank": 82,
       "name": "0.security",
       "slug": "0security",
       "scores": {
@@ -3202,12 +3408,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 52,
-      "tractionScore": 51,
-      "tractionReason": "EY work reported; pharmaceutical, financial-services and defense engagements"
+      "tractionRank": 64,
+      "tractionScore": 49,
+      "tractionReason": "EY work reported; 526 harness stars; revenue undisclosed"
     },
     {
-      "rank": 78,
+      "rank": 83,
       "name": "Ageospatial",
       "slug": "ageospatial",
       "scores": {
@@ -3243,12 +3449,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 23,
-      "tractionScore": 62,
-      "tractionReason": "Growing revenue reported; signed insurance customer"
+      "tractionRank": 27,
+      "tractionScore": 61,
+      "tractionReason": "Increasing revenue reported; signed insurance customer; amount undisclosed"
     },
     {
-      "rank": 79,
+      "rank": 84,
       "name": "OpEra",
       "slug": "opera",
       "scores": {
@@ -3286,12 +3492,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 101,
-      "tractionScore": 36,
-      "tractionReason": "Operational-data customer results reported; current production adoption unclear"
+      "tractionRank": 110,
+      "tractionScore": 32,
+      "tractionReason": "Operational-data case studies; no confirmed paid production deployments"
     },
     {
-      "rank": 80,
+      "rank": 85,
       "name": "Verdun",
       "slug": "verdun",
       "scores": {
@@ -3327,12 +3533,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 182,
-      "tractionScore": 6,
-      "tractionReason": "No disclosed security-service customers or revenue"
+      "tractionRank": 177,
+      "tractionScore": 8,
+      "tractionReason": "Hiring and industry mention; no disclosed customers or revenue"
     },
     {
-      "rank": 81,
+      "rank": 86,
       "name": "Vyra",
       "slug": "vyra",
       "scores": {
@@ -3368,12 +3574,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 42,
+      "tractionRank": 43,
       "tractionScore": 55,
-      "tractionReason": "93,984 creators claimed; 10,000 campaign signups; payment undisclosed"
+      "tractionReason": "93,984 creators claimed; active and paying shares undisclosed"
     },
     {
-      "rank": 82,
+      "rank": 87,
       "name": "EveryApp",
       "slug": "everyapp",
       "scores": {
@@ -3409,12 +3615,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 104,
-      "tractionScore": 33,
+      "tractionRank": 106,
+      "tractionScore": 34,
       "tractionReason": "Current platform has 351 stars; OpenSEO adoption excluded"
     },
     {
-      "rank": 83,
+      "rank": 88,
       "name": "Fleety",
       "slug": "fleety",
       "scores": {
@@ -3451,12 +3657,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-30",
-      "tractionRank": 49,
+      "tractionRank": 55,
       "tractionScore": 52,
-      "tractionReason": "Three named customer references across operating plumbing shops"
+      "tractionReason": "Three named customer references; shops across California and Florida"
     },
     {
-      "rank": 84,
+      "rank": 89,
       "name": "Halmos Labs",
       "slug": "halmos-labs",
       "scores": {
@@ -3492,12 +3698,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 81,
-      "tractionScore": 43,
-      "tractionReason": "Customer confirmed fermentation finding; additional bioprocessing collaboration"
+      "tractionRank": 91,
+      "tractionScore": 40,
+      "tractionReason": "Customer confirmed fermentation finding; commercial terms undisclosed"
     },
     {
-      "rank": 85,
+      "rank": 90,
       "name": "Micora",
       "slug": "micora",
       "scores": {
@@ -3533,12 +3739,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 64,
-      "tractionScore": 47,
-      "tractionReason": "Pacific-island and manufacturing deployments claimed; contract values undisclosed"
+      "tractionRank": 66,
+      "tractionScore": 48,
+      "tractionReason": "Island and manufacturing deployments claimed; contract values undisclosed"
     },
     {
-      "rank": 86,
+      "rank": 91,
       "name": "Altair Health",
       "slug": "altair-health",
       "scores": {
@@ -3574,12 +3780,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 94,
-      "tractionScore": 40,
-      "tractionReason": "Billing operational for treatment practice; company fees undisclosed"
+      "tractionRank": 83,
+      "tractionScore": 43,
+      "tractionReason": "Active billing engagement; client collections disclosed, company revenue undisclosed"
     },
     {
-      "rank": 87,
+      "rank": 92,
       "name": "Deploy",
       "slug": "deploy",
       "scores": {
@@ -3613,12 +3819,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 148,
+      "tractionRank": 136,
       "tractionScore": 18,
-      "tractionReason": "Exhibition demonstration only; no disclosed customer deployments"
+      "tractionReason": "Exhibition packing demonstration; no disclosed customer deployments"
     },
     {
-      "rank": 88,
+      "rank": 93,
       "name": "Invertix",
       "slug": "invertix",
       "scores": {
@@ -3655,11 +3861,11 @@
       "scoreTips": {},
       "memoDate": "2026-10-28",
       "tractionRank": 5,
-      "tractionScore": 84,
-      "tractionReason": "Multiple six-figure ARR; 1.8 GW managed"
+      "tractionScore": 83,
+      "tractionReason": "Multiple six figures ARR; 1.8+ GW managed"
     },
     {
-      "rank": 89,
+      "rank": 94,
       "name": "Cesara",
       "slug": "cesara",
       "scores": {
@@ -3694,12 +3900,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 65,
-      "tractionScore": 47,
-      "tractionReason": "Outcome-based pilots report actual underpayment recovery"
+      "tractionRank": 78,
+      "tractionScore": 44,
+      "tractionReason": "Outcome-based pilots report recoveries; revenue and cohort undisclosed"
     },
     {
-      "rank": 90,
+      "rank": 95,
       "name": "Open Actuation",
       "slug": "open-actuation",
       "scores": {
@@ -3737,12 +3943,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 69,
-      "tractionScore": 46,
-      "tractionReason": "Motors built for drone OEMs; customer samples undergoing feedback"
+      "tractionRank": 80,
+      "tractionScore": 43,
+      "tractionReason": "Motors built for drone OEMs; customer sample feedback reported"
     },
     {
-      "rank": 91,
+      "rank": 96,
       "name": "Ploid",
       "slug": "ploid",
       "scores": {
@@ -3778,12 +3984,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 43,
-      "tractionScore": 54,
-      "tractionReason": "Thousands of companies claimed; paid-customer breakdown undisclosed"
+      "tractionRank": 44,
+      "tractionScore": 55,
+      "tractionReason": "Thousands of companies reportedly use product; paying share undisclosed"
     },
     {
-      "rank": 92,
+      "rank": 97,
       "name": "Forward",
       "slug": "useforward",
       "scores": {
@@ -3820,11 +4026,11 @@
       "scoreTips": {},
       "memoDate": "2026-10-28",
       "tractionRank": 9,
-      "tractionScore": 73,
-      "tractionReason": "180K annualized revenue, currency unspecified; 50+ funds onboarded"
+      "tractionScore": 72,
+      "tractionReason": "$180K annualized revenue; 50+ private credit funds onboarded"
     },
     {
-      "rank": 93,
+      "rank": 98,
       "name": "Fire Wallet",
       "slug": "fire-wallet",
       "scores": {
@@ -3861,12 +4067,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 78,
-      "tractionScore": 44,
-      "tractionReason": "Signed Trustboop LOI; prospective volumes remain unprocessed"
+      "tractionRank": 86,
+      "tractionScore": 42,
+      "tractionReason": "Signed Trustboop LOI; enterprise prospects; no processed-volume evidence"
     },
     {
-      "rank": 94,
+      "rank": 99,
       "name": "OpenHack",
       "slug": "openhack",
       "scores": {
@@ -3902,12 +4108,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 82,
-      "tractionScore": 43,
-      "tractionReason": "Six displayed customer logos; 430 stars; payment undisclosed"
+      "tractionRank": 68,
+      "tractionScore": 47,
+      "tractionReason": "Six displayed customer logos; 430 stars; payment status undisclosed"
     },
     {
-      "rank": 95,
+      "rank": 100,
       "name": "Kiwi",
       "slug": "kiwi",
       "scores": {
@@ -3942,12 +4148,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 125,
-      "tractionScore": 22,
-      "tractionReason": "100+ discovery conversations; no disclosed customer conversions"
+      "tractionRank": 134,
+      "tractionScore": 19,
+      "tractionReason": "100+ discovery conversations; no disclosed customers or revenue"
     },
     {
-      "rank": 96,
+      "rank": 101,
       "name": "Maritime",
       "slug": "maritime",
       "scores": {
@@ -3983,12 +4189,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 119,
-      "tractionScore": 24,
-      "tractionReason": "253 Product Hunt followers; SDK has seven stars"
+      "tractionRank": 126,
+      "tractionScore": 23,
+      "tractionReason": "253 Product Hunt followers; seven SDK stars; revenue undisclosed"
     },
     {
-      "rank": 97,
+      "rank": 102,
       "name": "Nodus Compute",
       "slug": "nodus-compute",
       "scores": {
@@ -4020,12 +4226,12 @@
       "tags": [],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 68,
-      "tractionScore": 46,
-      "tractionReason": "Pilots with 10 startups; paid status undisclosed"
+      "tractionRank": 73,
+      "tractionScore": 45,
+      "tractionReason": "10 startup pilots reported; payment status undisclosed"
     },
     {
-      "rank": 98,
+      "rank": 103,
       "name": "Plek",
       "slug": "plek",
       "scores": {
@@ -4060,12 +4266,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 90,
-      "tractionScore": 40,
-      "tractionReason": "Real assessment mapped 250 employees and 735 tasks"
+      "tractionRank": 99,
+      "tractionScore": 38,
+      "tractionReason": "Actual 250-person assessment reported; larger case studies illustrative"
     },
     {
-      "rank": 99,
+      "rank": 104,
       "name": "Helios Intelligence",
       "slug": "helios-intelligence",
       "scores": {
@@ -4103,12 +4309,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 164,
-      "tractionScore": 12,
-      "tractionReason": "Molecular test forthcoming; separate supplement availability excluded"
+      "tractionRank": 167,
+      "tractionScore": 9,
+      "tractionReason": "Molecular test forthcoming; separate supplement sales excluded"
     },
     {
-      "rank": 100,
+      "rank": 105,
       "name": "Faraday",
       "slug": "faraday",
       "scores": {
@@ -4145,12 +4351,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 139,
-      "tractionScore": 20,
-      "tractionReason": "Public benchmark has zero stars; no disclosed customers"
+      "tractionRank": 182,
+      "tractionScore": 6,
+      "tractionReason": "Synthetic benchmark published; no disclosed customers or revenue"
     },
     {
-      "rank": 101,
+      "rank": 106,
       "name": "Mantle",
       "slug": "mantle-2",
       "scores": {
@@ -4187,12 +4393,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 183,
-      "tractionScore": 6,
-      "tractionReason": "Founder announcements; no disclosed maintenance customers or revenue"
+      "tractionRank": 191,
+      "tractionScore": 4,
+      "tractionReason": "Founder announcements; no disclosed service customers or revenue"
     },
     {
-      "rank": 102,
+      "rank": 107,
       "name": "Primordiant",
       "slug": "primordiant",
       "scores": {
@@ -4230,12 +4436,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 145,
-      "tractionScore": 18,
-      "tractionReason": "Internal laboratory demonstration; unquantified early-access waitlist"
+      "tractionRank": 153,
+      "tractionScore": 13,
+      "tractionReason": "Internal lab demonstration; unquantified early-access waitlist"
     },
     {
-      "rank": 103,
+      "rank": 108,
       "name": "Kailash Labs",
       "slug": "kailash-labs",
       "scores": {
@@ -4270,12 +4476,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 157,
-      "tractionScore": 15,
-      "tractionReason": "Current robot adoption undisclosed; earlier Marlin downloads excluded"
+      "tractionRank": 168,
+      "tractionScore": 9,
+      "tractionReason": "Current offering adoption undisclosed; earlier Marlin downloads excluded"
     },
     {
-      "rank": 104,
+      "rank": 109,
       "name": "Archangel Health",
       "slug": "archangel-health",
       "scores": {
@@ -4309,12 +4515,53 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 59,
-      "tractionScore": 49,
+      "tractionRank": 61,
+      "tractionScore": 50,
       "tractionReason": "Frontier labs and medical AI companies reportedly use infrastructure"
     },
     {
-      "rank": 105,
+      "rank": 110,
+      "name": "Bayworks",
+      "slug": "bayworks",
+      "scores": {
+        "CB": 35,
+        "EG": 40,
+        "NR": 45,
+        "PG": 43,
+        "PT": 30,
+        "SL": 37,
+        "VK": 25
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 36.43,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 2,
+      "ycPartner": "Not listed in accessible YC directory text",
+      "oneLiner": "Intelligence that runs Automotive Operations",
+      "industry": "Industrials / Industrials -> Automotive",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "B2B",
+        "AI",
+        "Automotive"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 22,
+      "tractionScore": 63,
+      "tractionReason": "80+ dealerships in 110 days; payment status undisclosed"
+    },
+    {
+      "rank": 111,
       "name": "Pomerado",
       "slug": "pomerado",
       "scores": {
@@ -4352,12 +4599,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 103,
-      "tractionScore": 34,
-      "tractionReason": "1,100 repository stars; 100 forks; no disclosed revenue"
+      "tractionRank": 102,
+      "tractionScore": 36,
+      "tractionReason": "1,100 stars; 100 forks; no disclosed paying customers"
     },
     {
-      "rank": 106,
+      "rank": 112,
       "name": "Orca Aerospace",
       "slug": "orca-aerospace",
       "scores": {
@@ -4393,12 +4640,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 153,
-      "tractionScore": 17,
-      "tractionReason": "Concept-level integration study; no disclosed commercial deployments"
+      "tractionRank": 128,
+      "tractionScore": 23,
+      "tractionReason": "Lyra concept-level integration study; no commercial deployment disclosed"
     },
     {
-      "rank": 107,
+      "rank": 113,
       "name": "Roma",
       "slug": "roma",
       "scores": {
@@ -4434,12 +4681,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 113,
+      "tractionRank": 121,
       "tractionScore": 27,
-      "tractionReason": "Nine iOS ratings; beta feedback; free download"
+      "tractionReason": "Nine iOS ratings; beta feedback; free application"
     },
     {
-      "rank": 108,
+      "rank": 114,
       "name": "Shire Intelligence",
       "slug": "shire-intelligence",
       "scores": {
@@ -4474,12 +4721,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 88,
-      "tractionScore": 41,
-      "tractionReason": "Named restaurant testimonial; current CCTV adoption unquantified"
+      "tractionRank": 79,
+      "tractionScore": 44,
+      "tractionReason": "Mathews Restaurant testimonial; customer payment savings, revenue undisclosed"
     },
     {
-      "rank": 109,
+      "rank": 115,
       "name": "Stacktrace",
       "slug": "stacktrace",
       "scores": {
@@ -4516,12 +4763,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 85,
-      "tractionScore": 42,
-      "tractionReason": "Design partners running agents locally and in cloud"
+      "tractionRank": 90,
+      "tractionScore": 40,
+      "tractionReason": "Design partners running agents; contracts and deployment counts undisclosed"
     },
     {
-      "rank": 110,
+      "rank": 116,
       "name": "Nitroduck",
       "slug": "nitroduck",
       "scores": {
@@ -4557,12 +4804,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 172,
-      "tractionScore": 8,
-      "tractionReason": "Prior research awards; no disclosed current-product customers"
+      "tractionRank": 160,
+      "tractionScore": 10,
+      "tractionReason": "Research awards and following; no disclosed commercial adoption"
     },
     {
-      "rank": 111,
+      "rank": 117,
       "name": "Reconero",
       "slug": "reconero",
       "scores": {
@@ -4599,12 +4846,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 93,
-      "tractionScore": 40,
-      "tractionReason": "Police-unit trials and iterative officer feedback reported"
+      "tractionRank": 87,
+      "tractionScore": 41,
+      "tractionReason": "Police-unit trials and officer feedback; payment status unspecified"
     },
     {
-      "rank": 112,
+      "rank": 118,
       "name": "River",
       "slug": "rivereditor",
       "scores": {
@@ -4639,12 +4886,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 40,
+      "tractionRank": 41,
       "tractionScore": 56,
-      "tractionReason": "AI Desktop reports 50K+ users and 130K+ agents"
+      "tractionReason": "AI Desktop reports 50,000+ users and 130,000+ agents"
     },
     {
-      "rank": 113,
+      "rank": 119,
       "name": "Degla Inc",
       "slug": "degla-inc",
       "scores": {
@@ -4681,12 +4928,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 149,
+      "tractionRank": 137,
       "tractionScore": 18,
-      "tractionReason": "Flight demonstration observed by agencies; no disclosed contracts"
+      "tractionReason": "Government observers attended demonstration; no customer relationship established"
     },
     {
-      "rank": 114,
+      "rank": 120,
       "name": "Telamont",
       "slug": "telamont",
       "scores": {
@@ -4723,11 +4970,11 @@
       "scoreTips": {},
       "memoDate": "2026-10-27",
       "tractionRank": 48,
-      "tractionScore": 52,
-      "tractionReason": "Five named customer logos; construction-project deployments"
+      "tractionScore": 54,
+      "tractionReason": "Five named customer logos; billions in projects covered"
     },
     {
-      "rank": 115,
+      "rank": 121,
       "name": "GrayPass",
       "slug": "graypass",
       "scores": {
@@ -4763,12 +5010,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 21,
-      "tractionScore": 64,
-      "tractionReason": "Five-figure revenue reported; European pilots and customer win"
+      "tractionRank": 25,
+      "tractionScore": 62,
+      "tractionReason": "Five-figure revenue, period unspecified; European pilots; customer win"
     },
     {
-      "rank": 116,
+      "rank": 122,
       "name": "Hickory & Company",
       "slug": "hickory-and-company",
       "scores": {
@@ -4804,12 +5051,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 74,
-      "tractionScore": 44,
-      "tractionReason": "Live-bank integration claimed; institution and payment undisclosed"
+      "tractionRank": 82,
+      "tractionScore": 43,
+      "tractionReason": "Live bank integration claimed; institution and revenue undisclosed"
     },
     {
-      "rank": 117,
+      "rank": 123,
       "name": "twentyfour26",
       "slug": "twentyfour26",
       "scores": {
@@ -4845,12 +5092,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 84,
-      "tractionScore": 42,
-      "tractionReason": "Taking current manufacturing orders; quantities and receipts undisclosed"
+      "tractionRank": 96,
+      "tractionScore": 39,
+      "tractionReason": "Taking manufacturing orders; quantities, shipments, and receipts undisclosed"
     },
     {
-      "rank": 118,
+      "rank": 124,
       "name": "Vorelios",
       "slug": "vorelios",
       "scores": {
@@ -4886,12 +5133,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 169,
-      "tractionScore": 10,
-      "tractionReason": "Solver benchmark results; no disclosed users or revenue"
+      "tractionRank": 170,
+      "tractionScore": 9,
+      "tractionReason": "Solver benchmarks published; no disclosed customers or revenue"
     },
     {
-      "rank": 119,
+      "rank": 125,
       "name": "Boxes.dev",
       "slug": "boxesdev",
       "scores": {
@@ -4927,12 +5174,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 114,
-      "tractionScore": 26,
-      "tractionReason": "10+ Android downloads; one iOS rating"
+      "tractionRank": 124,
+      "tractionScore": 25,
+      "tractionReason": "10+ Android downloads; one iOS rating; revenue undisclosed"
     },
     {
-      "rank": 120,
+      "rank": 126,
       "name": "Phone Harness",
       "slug": "phone-harness",
       "scores": {
@@ -4969,12 +5216,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 73,
-      "tractionScore": 45,
+      "tractionRank": 77,
+      "tractionScore": 44,
       "tractionReason": "Approximately 4,000 stars; 403 forks; cloud open beta"
     },
     {
-      "rank": 121,
+      "rank": 127,
       "name": "Oasive",
       "slug": "oasive",
       "scores": {
@@ -5010,12 +5257,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 141,
-      "tractionScore": 19,
-      "tractionReason": "Municipal adoption undisclosed; 15 desks concern earlier product scope"
+      "tractionRank": 114,
+      "tractionScore": 30,
+      "tractionReason": "Municipal adoption undisclosed; 15 desks reported for MBS/rates"
     },
     {
-      "rank": 122,
+      "rank": 128,
       "name": "Synara",
       "slug": "synara",
       "scores": {
@@ -5052,12 +5299,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 152,
-      "tractionScore": 17,
-      "tractionReason": "Public launch; no disclosed monitoring customers or revenue"
+      "tractionRank": 178,
+      "tractionScore": 7,
+      "tractionReason": "Public launch only; no disclosed customers or revenue"
     },
     {
-      "rank": 123,
+      "rank": 129,
       "name": "Wingman Law",
       "slug": "wingman-law",
       "scores": {
@@ -5093,12 +5340,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 187,
-      "tractionScore": 4,
-      "tractionReason": "No disclosed clients, recoveries or contingency-fee revenue"
+      "tractionRank": 196,
+      "tractionScore": 1,
+      "tractionReason": "No disclosed clients, recoveries, or earned contingency fees"
     },
     {
-      "rank": 124,
+      "rank": 130,
       "name": "The Subvocal Company",
       "slug": "the-subvocal-company",
       "scores": {
@@ -5134,12 +5381,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 166,
-      "tractionScore": 11,
-      "tractionReason": "Prototype performance reported; no disclosed customers or orders"
+      "tractionRank": 163,
+      "tractionScore": 10,
+      "tractionReason": "Prototype benchmarks; no disclosed customer usage or revenue"
     },
     {
-      "rank": 125,
+      "rank": 131,
       "name": "Theseus Robotics",
       "slug": "theseus-robotics",
       "scores": {
@@ -5175,12 +5422,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 159,
-      "tractionScore": 14,
+      "tractionRank": 162,
+      "tractionScore": 10,
       "tractionReason": "Private previews advertised; no disclosed deployments or customers"
     },
     {
-      "rank": 126,
+      "rank": 132,
       "name": "Nxtcure Labs",
       "slug": "nxtcure-labs",
       "scores": {
@@ -5220,7 +5467,7 @@
       "tractionReason": "Current CRO traction undisclosed; earlier matching-product pilots excluded"
     },
     {
-      "rank": 127,
+      "rank": 133,
       "name": "Raven",
       "slug": "ravenphone",
       "scores": {
@@ -5255,12 +5502,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-29",
-      "tractionRank": 80,
-      "tractionScore": 43,
-      "tractionReason": "Initial orders shipping; hundreds of community signups"
+      "tractionRank": 70,
+      "tractionScore": 46,
+      "tractionReason": "Initial phone orders shipping; hundreds of community signups"
     },
     {
-      "rank": 128,
+      "rank": 134,
       "name": "Terse",
       "slug": "useterse",
       "scores": {
@@ -5296,12 +5543,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 107,
-      "tractionScore": 30,
-      "tractionReason": "256 stars; 53 Hacker News points; no disclosed revenue"
+      "tractionRank": 109,
+      "tractionScore": 33,
+      "tractionReason": "256 repository stars; 53 Hacker News points; revenue undisclosed"
     },
     {
-      "rank": 129,
+      "rank": 135,
       "name": "Dydema",
       "slug": "dydema",
       "scores": {
@@ -5339,12 +5586,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 135,
-      "tractionScore": 20,
-      "tractionReason": "API live; demonstrations published; customer adoption undisclosed"
+      "tractionRank": 152,
+      "tractionScore": 13,
+      "tractionReason": "Live API and demonstrations; no disclosed customers or revenue"
     },
     {
-      "rank": 130,
+      "rank": 136,
       "name": "Applied Kinetics",
       "slug": "applied-kinetics",
       "scores": {
@@ -5382,12 +5629,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 144,
-      "tractionScore": 18,
-      "tractionReason": "No named deliveries; partner manufacturing capacity excluded"
+      "tractionRank": 149,
+      "tractionScore": 14,
+      "tractionReason": "Partner capacity disclosed; no named company shipment"
     },
     {
-      "rank": 131,
+      "rank": 137,
       "name": "Asim",
       "slug": "asim-group",
       "scores": {
@@ -5423,12 +5670,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 171,
-      "tractionScore": 9,
-      "tractionReason": "Prototype lineage only; founder research stars excluded"
+      "tractionRank": 173,
+      "tractionScore": 8,
+      "tractionReason": "Prototype and memberships; no disclosed commercial deployments"
     },
     {
-      "rank": 132,
+      "rank": 138,
       "name": "Aviern",
       "slug": "aviern",
       "scores": {
@@ -5465,12 +5712,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 160,
-      "tractionScore": 13,
+      "tractionRank": 166,
+      "tractionScore": 9,
       "tractionReason": "Scaled demonstrator built; no disclosed cargo customers"
     },
     {
-      "rank": 133,
+      "rank": 139,
       "name": "Graphide",
       "slug": "graphide",
       "scores": {
@@ -5506,12 +5753,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 108,
-      "tractionScore": 30,
-      "tractionReason": "Developers using own codebases; user totals and payments undisclosed"
+      "tractionRank": 116,
+      "tractionScore": 29,
+      "tractionReason": "Developers using alpha reported; user totals and revenue undisclosed"
     },
     {
-      "rank": 134,
+      "rank": 140,
       "name": "Kairox Systems",
       "slug": "kairox-systems",
       "scores": {
@@ -5549,12 +5796,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 112,
-      "tractionScore": 27,
-      "tractionReason": "Military end-user engagement reported; no purchase commitments disclosed"
+      "tractionRank": 111,
+      "tractionScore": 32,
+      "tractionReason": "Marine Corps engagement reported; purchase commitments undisclosed"
     },
     {
-      "rank": 135,
+      "rank": 141,
       "name": "Saccade",
       "slug": "saccade",
       "scores": {
@@ -5592,12 +5839,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 70,
-      "tractionScore": 45,
+      "tractionRank": 69,
+      "tractionScore": 47,
       "tractionReason": "San Francisco clinic deployments claimed; assessment volumes undisclosed"
     },
     {
-      "rank": 136,
+      "rank": 142,
       "name": "UXDuck",
       "slug": "uxduck",
       "scores": {
@@ -5633,12 +5880,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 137,
-      "tractionScore": 20,
-      "tractionReason": "Runtime has five stars; no disclosed deployments"
+      "tractionRank": 165,
+      "tractionScore": 10,
+      "tractionReason": "Five repository stars; no disclosed customers or revenue"
     },
     {
-      "rank": 137,
+      "rank": 143,
       "name": "Praxis",
       "slug": "praxis",
       "scores": {
@@ -5674,12 +5921,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 62,
+      "tractionRank": 65,
       "tractionScore": 48,
-      "tractionReason": "Live deployments across US law firms; revenue undisclosed"
+      "tractionReason": "Live with multiple US law firms; payment status undisclosed"
     },
     {
-      "rank": 138,
+      "rank": 144,
       "name": "OpenCrawl",
       "slug": "opencrawl",
       "scores": {
@@ -5715,12 +5962,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 131,
-      "tractionScore": 21,
-      "tractionReason": "Search launched; prior observability usage excluded"
+      "tractionRank": 187,
+      "tractionScore": 4,
+      "tractionReason": "Search adoption undisclosed; prior observability usage excluded"
     },
     {
-      "rank": 139,
+      "rank": 145,
       "name": "Quippy",
       "slug": "quippy",
       "scores": {
@@ -5756,12 +6003,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 106,
+      "tractionRank": 112,
       "tractionScore": 31,
       "tractionReason": "100+ Android downloads; 24 iOS ratings; revenue undisclosed"
     },
     {
-      "rank": 140,
+      "rank": 146,
       "name": "Definite",
       "slug": "definite",
       "scores": {
@@ -5798,12 +6045,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 143,
-      "tractionScore": 19,
-      "tractionReason": "Monthly contract terms described; current customers and revenue undisclosed"
+      "tractionRank": 147,
+      "tractionScore": 15,
+      "tractionReason": "Monthly contracts offered; no disclosed current-product customer adoption"
     },
     {
-      "rank": 141,
+      "rank": 147,
       "name": "Mirrors",
       "slug": "mirrors",
       "scores": {
@@ -5841,12 +6088,53 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 83,
-      "tractionScore": 42,
-      "tractionReason": "711,933 agent sessions reported; product-version allocation undisclosed"
+      "tractionRank": 62,
+      "tractionScore": 49,
+      "tractionReason": "711,933 agent sessions displayed; timeframe and product allocation undisclosed"
     },
     {
-      "rank": 142,
+      "rank": 148,
+      "name": "Proto",
+      "slug": "proto",
+      "scores": {
+        "CB": 39,
+        "EG": 34,
+        "NR": 48,
+        "PG": 35,
+        "PT": 27,
+        "SL": 33,
+        "VK": 25
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 34.43,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 2,
+      "ycPartner": "Harj Taggar)",
+      "oneLiner": "A design tool with the accuracy of Cursor & creative freedom of Figma",
+      "industry": "B2B / B2B -> Engineering, Product and Design",
+      "location": "San Francisco, CA, USA",
+      "tags": [
+        "Design",
+        "Design Tools",
+        "AI"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 142,
+      "tractionScore": 17,
+      "tractionReason": "65 company X followers; no disclosed adoption"
+    },
+    {
+      "rank": 149,
       "name": "RightNow",
       "slug": "rightnow",
       "scores": {
@@ -5884,12 +6172,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 102,
-      "tractionScore": 35,
-      "tractionReason": "Autokernel approximately 1,600 stars; RunInfra revenue undisclosed"
+      "tractionRank": 105,
+      "tractionScore": 34,
+      "tractionReason": "Autokernel approximately 1,600 stars; RunInfra paid adoption undisclosed"
     },
     {
-      "rank": 143,
+      "rank": 150,
       "name": "Munito AI",
       "slug": "munito-ai",
       "scores": {
@@ -5925,12 +6213,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 127,
-      "tractionScore": 22,
-      "tractionReason": "Free and paid tiers launched; adoption undisclosed"
+      "tractionRank": 145,
+      "tractionScore": 15,
+      "tractionReason": "Paid tiers launched; no disclosed usage or customer counts"
     },
     {
-      "rank": 144,
+      "rank": 151,
       "name": "Hundred",
       "slug": "hundred",
       "scores": {
@@ -5968,12 +6256,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 79,
-      "tractionScore": 44,
-      "tractionReason": "Deploying to three founding partners; payment status undisclosed"
+      "tractionRank": 84,
+      "tractionScore": 42,
+      "tractionReason": "Deployments underway with three founding partners; payment unconfirmed"
     },
     {
-      "rank": 145,
+      "rank": 152,
       "name": "Resin Technologies",
       "slug": "resin-technologies",
       "scores": {
@@ -6009,12 +6297,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 128,
-      "tractionScore": 21,
-      "tractionReason": "Product launched; 176 followers; no disclosed users or revenue"
+      "tractionRank": 144,
+      "tractionScore": 15,
+      "tractionReason": "Public launch and pricing; no disclosed customers or revenue"
     },
     {
-      "rank": 146,
+      "rank": 153,
       "name": "ChemPilot.ai",
       "slug": "chempilotai",
       "scores": {
@@ -6050,12 +6338,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 173,
-      "tractionScore": 8,
-      "tractionReason": "Prior research collaborations excluded; current commercial traction undisclosed"
+      "tractionRank": 186,
+      "tractionScore": 5,
+      "tractionReason": "Funding disclosed; preceding research collaborations excluded"
     },
     {
-      "rank": 147,
+      "rank": 154,
       "name": "GodHands",
       "slug": "godhands",
       "scores": {
@@ -6093,12 +6381,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 91,
-      "tractionScore": 40,
-      "tractionReason": "Anonymous support leader reports two-week documentation deployment"
+      "tractionRank": 94,
+      "tractionScore": 39,
+      "tractionReason": "Anonymous current-product testimonial documents two-week support workflow engagement"
     },
     {
-      "rank": 148,
+      "rank": 155,
       "name": "Sinter",
       "slug": "sinter-systems",
       "scores": {
@@ -6134,12 +6422,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 155,
-      "tractionScore": 16,
-      "tractionReason": "Current manufacturing adoption undisclosed; prior marketplace supply excluded"
+      "tractionRank": 159,
+      "tractionScore": 11,
+      "tractionReason": "Current manufacturing adoption undisclosed; prior marketplace printer supply excluded"
     },
     {
-      "rank": 149,
+      "rank": 156,
       "name": "Workers IO",
       "slug": "workers-io",
       "scores": {
@@ -6176,12 +6464,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 105,
-      "tractionScore": 32,
+      "tractionRank": 115,
+      "tractionScore": 30,
       "tractionReason": "208 repository stars; 32 forks; no disclosed customers"
     },
     {
-      "rank": 150,
+      "rank": 157,
       "name": "Aucert",
       "slug": "aucert",
       "scores": {
@@ -6217,12 +6505,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 133,
-      "tractionScore": 21,
-      "tractionReason": "Public launch and free scans; no disclosed customers"
+      "tractionRank": 146,
+      "tractionScore": 15,
+      "tractionReason": "Public launch; 317 LinkedIn followers; no disclosed customers"
     },
     {
-      "rank": 151,
+      "rank": 158,
       "name": "Melty",
       "slug": "melty-gg",
       "scores": {
@@ -6257,12 +6545,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 66,
-      "tractionScore": 46,
-      "tractionReason": "10,611 Discord members reported; product free"
+      "tractionRank": 81,
+      "tractionScore": 43,
+      "tractionReason": "10,611 Discord members; free launcher; active-user count undisclosed"
     },
     {
-      "rank": 152,
+      "rank": 159,
       "name": "Streamline Systems",
       "slug": "streamline-systems",
       "scores": {
@@ -6298,12 +6586,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 72,
-      "tractionScore": 45,
-      "tractionReason": "Signed LOIs; government trials scheduled; values undisclosed"
+      "tractionRank": 85,
+      "tractionScore": 42,
+      "tractionReason": "Signed LOIs; government trials scheduled; counterparties and values undisclosed"
     },
     {
-      "rank": 153,
+      "rank": 160,
       "name": "Audora",
       "slug": "audora",
       "scores": {
@@ -6339,12 +6627,55 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 122,
-      "tractionScore": 23,
-      "tractionReason": "161 Product Hunt votes reported; no disclosed users or revenue"
+      "tractionRank": 130,
+      "tractionScore": 22,
+      "tractionReason": "161 Product Hunt votes reported; no disclosed customer usage"
     },
     {
-      "rank": 154,
+      "rank": 161,
+      "name": "Caladh",
+      "slug": "caladh",
+      "scores": {
+        "CB": 37,
+        "EG": 26,
+        "NR": 45,
+        "PG": 41,
+        "PT": 28,
+        "SL": 30,
+        "VK": 25
+      },
+      "tiers": {
+        "CB": "Pass",
+        "EG": "Pass",
+        "NR": "Neutral",
+        "PG": "Pass",
+        "PT": "Pass",
+        "SL": "Pass",
+        "VK": "Pass"
+      },
+      "avg": 33.14,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": null,
+      "ycPartner": "Not listed; company profile could not be read",
+      "oneLiner": "Anti-drone defense for the maritime domain",
+      "industry": "Industrials / Industrials -> Defense",
+      "location": "Boston, MA, USA",
+      "tags": [
+        "Hard Tech",
+        "Hardware",
+        "Drones",
+        "Maritime",
+        "Defense"
+      ],
+      "scoreTips": {},
+      "memoDate": "2026-11-03",
+      "tractionRank": 197,
+      "tractionScore": 1,
+      "tractionReason": "YC participation only; no disclosed commercial traction"
+    },
+    {
+      "rank": 162,
       "name": "STASIS",
       "slug": "stasis",
       "scores": {
@@ -6381,12 +6712,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 154,
-      "tractionScore": 16,
-      "tractionReason": "Personal wear test; no verified current-product orders or partnerships"
+      "tractionRank": 156,
+      "tractionScore": 12,
+      "tractionReason": "Founder wear test; no verified customer orders or partnerships"
     },
     {
-      "rank": 155,
+      "rank": 163,
       "name": "Vexo",
       "slug": "vexo",
       "scores": {
@@ -6424,12 +6755,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 134,
-      "tractionScore": 21,
-      "tractionReason": "One app rating; hardware preorders offered, quantities undisclosed"
+      "tractionRank": 143,
+      "tractionScore": 16,
+      "tractionReason": "One iOS rating; hardware preorders offered; sales undisclosed"
     },
     {
-      "rank": 156,
+      "rank": 164,
       "name": "The Letter Company",
       "slug": "the-letter-company",
       "scores": {
@@ -6465,12 +6796,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 156,
-      "tractionScore": 15,
-      "tractionReason": "Current coding-agent adoption undisclosed; separate-product metrics excluded"
+      "tractionRank": 175,
+      "tractionScore": 8,
+      "tractionReason": "Coding-agent adoption undisclosed; separate-product users and contracts excluded"
     },
     {
-      "rank": 157,
+      "rank": 165,
       "name": "Odin Robotics",
       "slug": "odin-robotics",
       "scores": {
@@ -6506,12 +6837,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 150,
+      "tractionRank": 139,
       "tractionScore": 18,
-      "tractionReason": "CNC and packing demonstrations; no disclosed customer installations"
+      "tractionReason": "CNC and packing demonstrations; no customer deployment count"
     },
     {
-      "rank": 158,
+      "rank": 166,
       "name": "AnyAlpha",
       "slug": "anyalpha",
       "scores": {
@@ -6548,12 +6879,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 121,
-      "tractionScore": 23,
-      "tractionReason": "Shared app has 42 ratings; current-product adoption cannot be isolated"
+      "tractionRank": 132,
+      "tractionScore": 21,
+      "tractionReason": "Shared app ratings exist; current agent adoption cannot be isolated"
     },
     {
-      "rank": 159,
+      "rank": 167,
       "name": "Capveon",
       "slug": "capveon",
       "scores": {
@@ -6587,12 +6918,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 140,
-      "tractionScore": 20,
-      "tractionReason": "Free tool launched; customer meetings reported, conversions undisclosed"
+      "tractionRank": 150,
+      "tractionScore": 14,
+      "tractionReason": "Customer meetings reported; no disclosed deployments or revenue"
     },
     {
-      "rank": 160,
+      "rank": 168,
       "name": "Epsilab",
       "slug": "epsilab-com",
       "scores": {
@@ -6630,12 +6961,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 185,
-      "tractionScore": 5,
-      "tractionReason": "No disclosed customers, usage or revenue"
+      "tractionRank": 188,
+      "tractionScore": 4,
+      "tractionReason": "46 followers and funding; no disclosed adoption"
     },
     {
-      "rank": 161,
+      "rank": 169,
       "name": "Hue",
       "slug": "hue",
       "scores": {
@@ -6671,12 +7002,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 136,
-      "tractionScore": 20,
-      "tractionReason": "SDK released; repository has zero stars; customers undisclosed"
+      "tractionRank": 185,
+      "tractionScore": 5,
+      "tractionReason": "SDK released; zero repository stars; no disclosed customers"
     },
     {
-      "rank": 162,
+      "rank": 170,
       "name": "Preload",
       "slug": "preload",
       "scores": {
@@ -6714,12 +7045,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 165,
-      "tractionScore": 11,
-      "tractionReason": "Launch-video reach only; no disclosed customer adoption"
+      "tractionRank": 138,
+      "tractionScore": 18,
+      "tractionReason": "246,186 launch-video views; no disclosed customer deployments"
     },
     {
-      "rank": 163,
+      "rank": 171,
       "name": "Talos",
       "slug": "talos-us",
       "scores": {
@@ -6757,12 +7088,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 168,
+      "tractionRank": 161,
       "tractionScore": 10,
-      "tractionReason": "Pump-sensor demonstration; no disclosed customer deployment"
+      "tractionReason": "Pump-sensing demonstration; no disclosed customer deployment"
     },
     {
-      "rank": 164,
+      "rank": 172,
       "name": "ernd",
       "slug": "ernd",
       "scores": {
@@ -6797,12 +7128,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-30",
-      "tractionRank": 96,
-      "tractionScore": 39,
-      "tractionReason": "10 startups onboarded; five vendor partnerships; cards early access"
+      "tractionRank": 93,
+      "tractionScore": 40,
+      "tractionReason": "10 startups onboarded; five vendor partnerships; cards in early access"
     },
     {
-      "rank": 165,
+      "rank": 173,
       "name": "Rodeo Robotics",
       "slug": "rodeo-robotics",
       "scores": {
@@ -6839,12 +7170,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 176,
+      "tractionRank": 181,
       "tractionScore": 7,
-      "tractionReason": "Launch coverage only; no disclosed customers or revenue"
+      "tractionReason": "Launch coverage; no disclosed customer deployments or revenue"
     },
     {
-      "rank": 166,
+      "rank": 174,
       "name": "HABU",
       "slug": "habu",
       "scores": {
@@ -6880,12 +7211,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 142,
-      "tractionScore": 19,
-      "tractionReason": "Public launch; no supporting customer deployments disclosed"
+      "tractionRank": 148,
+      "tractionScore": 14,
+      "tractionReason": "Public launch; productivity claims lack supporting customer results"
     },
     {
-      "rank": 167,
+      "rank": 175,
       "name": "Petrichor",
       "slug": "petrichor",
       "scores": {
@@ -6920,12 +7251,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 175,
+      "tractionRank": 180,
       "tractionScore": 7,
-      "tractionReason": "Current wet-lab customers undisclosed; prior instrument-data product excluded"
+      "tractionReason": "Current wet-lab offering has no disclosed customers or revenue"
     },
     {
-      "rank": 168,
+      "rank": 176,
       "name": "Collar",
       "slug": "collar",
       "scores": {
@@ -6963,12 +7294,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 86,
-      "tractionScore": 42,
-      "tractionReason": "Current IR partners disclosed; contract values and count unspecified"
+      "tractionRank": 113,
+      "tractionScore": 31,
+      "tractionReason": "Current IR partners reported; customer counts and contract values undisclosed"
     },
     {
-      "rank": 169,
+      "rank": 177,
       "name": "Runtime.si",
       "slug": "runtimesi",
       "scores": {
@@ -7004,12 +7335,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 170,
+      "tractionRank": 169,
       "tractionScore": 9,
-      "tractionReason": "Simulation collection forthcoming; no disclosed customers"
+      "tractionReason": "Simulation benchmark forthcoming; no disclosed commercial adoption"
     },
     {
-      "rank": 170,
+      "rank": 178,
       "name": "Tire Swing",
       "slug": "tire-swing",
       "scores": {
@@ -7047,12 +7378,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 184,
-      "tractionScore": 5,
-      "tractionReason": "Current housing-compliance customers and revenue undisclosed"
+      "tractionRank": 190,
+      "tractionScore": 4,
+      "tractionReason": "Current housing-compliance adoption undisclosed; funding alone"
     },
     {
-      "rank": 171,
+      "rank": 179,
       "name": "Keres",
       "slug": "keres",
       "scores": {
@@ -7088,12 +7419,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 177,
-      "tractionScore": 7,
-      "tractionReason": "Media profile only; no disclosed contracts or customers"
+      "tractionRank": 194,
+      "tractionScore": 2,
+      "tractionReason": "Media profile only; no disclosed orders or deployments"
     },
     {
-      "rank": 172,
+      "rank": 180,
       "name": "Particularity",
       "slug": "particularity",
       "scores": {
@@ -7127,12 +7458,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 151,
-      "tractionScore": 17,
-      "tractionReason": "Public emergence from stealth; no disclosed customers or revenue"
+      "tractionRank": 179,
+      "tractionScore": 7,
+      "tractionReason": "Emerged from stealth; no disclosed deployments or revenue"
     },
     {
-      "rank": 173,
+      "rank": 181,
       "name": "Evident Machines",
       "slug": "evident-machines",
       "scores": {
@@ -7170,12 +7501,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 186,
-      "tractionScore": 5,
-      "tractionReason": "Current benchmark adoption undisclosed; earlier analytics product excluded"
+      "tractionRank": 189,
+      "tractionScore": 4,
+      "tractionReason": "No disclosed current-product customers, usage, or revenue"
     },
     {
-      "rank": 174,
+      "rank": 182,
       "name": "Shepherd Robotics",
       "slug": "shepherd-robotics",
       "scores": {
@@ -7213,12 +7544,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 98,
-      "tractionScore": 38,
-      "tractionReason": "Hyperscaler and manufacturer engagements claimed; deployments undisclosed"
+      "tractionRank": 107,
+      "tractionScore": 34,
+      "tractionReason": "Hyperscaler and manufacturer engagements claimed; deployments and payments undisclosed"
     },
     {
-      "rank": 175,
+      "rank": 183,
       "name": "Liquid Energy",
       "slug": "liquid-energy",
       "scores": {
@@ -7255,12 +7586,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 179,
-      "tractionScore": 7,
-      "tractionReason": "No disclosed module customers, deployments or revenue"
+      "tractionRank": 176,
+      "tractionScore": 8,
+      "tractionReason": "247 followers and affiliations; no disclosed deployments"
     },
     {
-      "rank": 176,
+      "rank": 184,
       "name": "Neomatter",
       "slug": "neomatter",
       "scores": {
@@ -7296,12 +7627,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 124,
-      "tractionScore": 22,
-      "tractionReason": "200+ discovery interviews; no disclosed customers"
+      "tractionRank": 135,
+      "tractionScore": 19,
+      "tractionReason": "200+ legal-team interviews; no disclosed customers or revenue"
     },
     {
-      "rank": 177,
+      "rank": 185,
       "name": "TrueMile",
       "slug": "truemile",
       "scores": {
@@ -7338,12 +7669,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 180,
-      "tractionScore": 6,
-      "tractionReason": "No disclosed trucking customers, loads or revenue"
+      "tractionRank": 171,
+      "tractionScore": 9,
+      "tractionReason": "Hiring and 94 followers; no disclosed trucking revenue"
     },
     {
-      "rank": 178,
+      "rank": 186,
       "name": "horizontal.",
       "slug": "horizontal",
       "scores": {
@@ -7379,12 +7710,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 97,
-      "tractionScore": 38,
-      "tractionReason": "Working with international manufacturers; deployments and payment unquantified"
+      "tractionRank": 103,
+      "tractionScore": 35,
+      "tractionReason": "Working with international manufacturers claimed; deployment counts undisclosed"
     },
     {
-      "rank": 179,
+      "rank": 187,
       "name": "Topos",
       "slug": "topos",
       "scores": {
@@ -7419,12 +7750,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 190,
-      "tractionScore": 2,
-      "tractionReason": "No disclosed verification customers, usage or revenue"
+      "tractionRank": 198,
+      "tractionScore": 1,
+      "tractionReason": "YC participation only; no disclosed users or revenue"
     },
     {
-      "rank": 180,
+      "rank": 188,
       "name": "Rhem Labs",
       "slug": "rhem-labs",
       "scores": {
@@ -7460,12 +7791,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 123,
-      "tractionScore": 23,
-      "tractionReason": "100 Product Hunt points; rentals and revenue undisclosed"
+      "tractionRank": 133,
+      "tractionScore": 20,
+      "tractionReason": "100 Product Hunt points; no disclosed deployments or revenue"
     },
     {
-      "rank": 181,
+      "rank": 189,
       "name": "Volaren",
       "slug": "volaren",
       "scores": {
@@ -7502,12 +7833,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-30",
-      "tractionRank": 75,
-      "tractionScore": 44,
-      "tractionReason": "900+ funds and retail traders claimed; payment undisclosed"
+      "tractionRank": 97,
+      "tractionScore": 38,
+      "tractionReason": "900+ funds and traders claimed; activity and payment undefined"
     },
     {
-      "rank": 182,
+      "rank": 190,
       "name": "Redoubt Insurance",
       "slug": "redoubt-insurance",
       "scores": {
@@ -7542,12 +7873,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 181,
-      "tractionScore": 6,
-      "tractionReason": "No disclosed policies, customers or commission revenue"
+      "tractionRank": 172,
+      "tractionScore": 9,
+      "tractionReason": "115 followers; no disclosed customers, policies, or revenue"
     },
     {
-      "rank": 183,
+      "rank": 191,
       "name": "The Company Company",
       "slug": "the-company-company",
       "scores": {
@@ -7579,12 +7910,12 @@
       "tags": [],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 126,
+      "tractionRank": 131,
       "tractionScore": 22,
-      "tractionReason": "Estimated 2,232 monthly visits; no disclosed customers"
+      "tractionReason": "Estimated 2,232 monthly visits; no disclosed users or revenue"
     },
     {
-      "rank": 184,
+      "rank": 192,
       "name": "Silica",
       "slug": "silica",
       "scores": {
@@ -7620,12 +7951,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 147,
-      "tractionScore": 18,
+      "tractionRank": 155,
+      "tractionScore": 12,
       "tractionReason": "Preorders offered; prototypes and production remain future milestones"
     },
     {
-      "rank": 185,
+      "rank": 193,
       "name": "Vouch",
       "slug": "vouchwealth",
       "scores": {
@@ -7661,12 +7992,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 188,
+      "tractionRank": 192,
       "tractionScore": 3,
-      "tractionReason": "App launch planned; licensing pending; no disclosed customers"
+      "tractionReason": "App launch pending licensing; no disclosed users or revenue"
     },
     {
-      "rank": 186,
+      "rank": 194,
       "name": "Cyclon",
       "slug": "cyclon",
       "scores": {
@@ -7702,12 +8033,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 146,
-      "tractionScore": 18,
-      "tractionReason": "Waitlist open; enrollment and customer adoption undisclosed"
+      "tractionRank": 157,
+      "tractionScore": 11,
+      "tractionReason": "Unquantified waitlist; no disclosed users or revenue"
     },
     {
-      "rank": 187,
+      "rank": 195,
       "name": "Obia",
       "slug": "obia",
       "scores": {
@@ -7743,12 +8074,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 99,
+      "tractionRank": 100,
       "tractionScore": 38,
-      "tractionReason": "Logistics-operator research engagement; no completed brokerage transaction disclosed"
+      "tractionReason": "Logistics research engagement; no completed brokerage transaction disclosed"
     },
     {
-      "rank": 188,
+      "rank": 196,
       "name": "Confetti",
       "slug": "confetti",
       "scores": {
@@ -7786,12 +8117,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 158,
-      "tractionScore": 15,
-      "tractionReason": "58 followers; no disclosed current-product users or revenue"
+      "tractionRank": 184,
+      "tractionScore": 5,
+      "tractionReason": "58 followers; no disclosed current-product adoption"
     },
     {
-      "rank": 189,
+      "rank": 197,
       "name": "OpenScaffold",
       "slug": "openscaffold",
       "scores": {
@@ -7826,12 +8157,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-28",
-      "tractionRank": 189,
-      "tractionScore": 3,
-      "tractionReason": "No disclosed customers, deployments or revenue"
+      "tractionRank": 193,
+      "tractionScore": 2,
+      "tractionReason": "No disclosed customers, product usage, or revenue"
     },
     {
-      "rank": 190,
+      "rank": 198,
       "name": "Polemos Industries",
       "slug": "polemos-industries",
       "scores": {
@@ -7866,12 +8197,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-27",
-      "tractionRank": 178,
-      "tractionScore": 7,
-      "tractionReason": "Blog coverage only; no disclosed purchase commitments"
+      "tractionRank": 195,
+      "tractionScore": 2,
+      "tractionReason": "Blog coverage only; no disclosed orders or deployments"
     },
     {
-      "rank": 191,
+      "rank": 199,
       "name": "Cardinal Square",
       "slug": "cardinal-square",
       "scores": {
@@ -7907,12 +8238,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-29",
-      "tractionRank": 193,
+      "tractionRank": 199,
       "tractionScore": 0,
-      "tractionReason": "No disclosed enrollment, customers, usage or revenue"
+      "tractionReason": "No disclosed traction"
     },
     {
-      "rank": 192,
+      "rank": 200,
       "name": "Routant",
       "slug": "routant",
       "scores": {
@@ -7948,12 +8279,12 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-30",
-      "tractionRank": 192,
-      "tractionScore": 1,
-      "tractionReason": "No disclosed deployments, customers or revenue"
+      "tractionRank": 201,
+      "tractionScore": 0,
+      "tractionReason": "No disclosed traction"
     },
     {
-      "rank": 193,
+      "rank": 201,
       "name": "Perceptual Labs",
       "slug": "perceptual-labs",
       "scores": {
@@ -7988,9 +8319,9 @@
       ],
       "scoreTips": {},
       "memoDate": "2026-10-30",
-      "tractionRank": 191,
-      "tractionScore": 1,
-      "tractionReason": "No disclosed product adoption, customers or revenue"
+      "tractionRank": 200,
+      "tractionScore": 0,
+      "tractionReason": "No disclosed traction"
     }
   ],
   "disagreements": [],
@@ -8076,34 +8407,34 @@
       "persona": "CB",
       "values": {
         "CB": null,
-        "EG": 0.54,
-        "NR": 0.65,
-        "PG": 0.55,
-        "PT": 0.52,
-        "SL": 0.42,
-        "VK": 0.49
+        "EG": 0.53,
+        "NR": 0.64,
+        "PG": 0.54,
+        "PT": 0.51,
+        "SL": 0.41,
+        "VK": 0.5
       }
     },
     {
       "persona": "EG",
       "values": {
-        "CB": 0.54,
+        "CB": 0.53,
         "EG": null,
-        "NR": 0.5,
+        "NR": 0.49,
         "PG": 0.71,
-        "PT": 0.47,
+        "PT": 0.48,
         "SL": 0.68,
-        "VK": 0.51
+        "VK": 0.52
       }
     },
     {
       "persona": "NR",
       "values": {
-        "CB": 0.65,
-        "EG": 0.5,
+        "CB": 0.64,
+        "EG": 0.49,
         "NR": null,
-        "PG": 0.63,
-        "PT": 0.45,
+        "PG": 0.62,
+        "PT": 0.44,
         "SL": 0.5,
         "VK": 0.41
       }
@@ -8111,11 +8442,11 @@
     {
       "persona": "PG",
       "values": {
-        "CB": 0.55,
+        "CB": 0.54,
         "EG": 0.71,
-        "NR": 0.63,
+        "NR": 0.62,
         "PG": null,
-        "PT": 0.42,
+        "PT": 0.43,
         "SL": 0.64,
         "VK": 0.4
       }
@@ -8123,10 +8454,10 @@
     {
       "persona": "PT",
       "values": {
-        "CB": 0.52,
-        "EG": 0.47,
-        "NR": 0.45,
-        "PG": 0.42,
+        "CB": 0.51,
+        "EG": 0.48,
+        "NR": 0.44,
+        "PG": 0.43,
         "PT": null,
         "SL": 0.32,
         "VK": 0.53
@@ -8135,7 +8466,7 @@
     {
       "persona": "SL",
       "values": {
-        "CB": 0.42,
+        "CB": 0.41,
         "EG": 0.68,
         "NR": 0.5,
         "PG": 0.64,
@@ -8147,8 +8478,8 @@
     {
       "persona": "VK",
       "values": {
-        "CB": 0.49,
-        "EG": 0.51,
+        "CB": 0.5,
+        "EG": 0.52,
         "NR": 0.41,
         "PG": 0.4,
         "PT": 0.53,

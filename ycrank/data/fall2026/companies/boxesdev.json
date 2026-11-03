@@ -60,11 +60,11 @@
     "VK": 22
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 119,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 26,
-    "tractionReason": "10+ Android downloads; one iOS rating"
+    "tractionRank": 124,
+    "tractionScore": 25,
+    "tractionReason": "10+ Android downloads; one iOS rating; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/boxesdev.md",

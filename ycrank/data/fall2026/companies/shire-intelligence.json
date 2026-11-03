@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 108,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 41,
-    "tractionReason": "Named restaurant testimonial; current CCTV adoption unquantified"
+    "tractionRank": 79,
+    "tractionScore": 44,
+    "tractionReason": "Mathews Restaurant testimonial; customer payment savings, revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/shire-intelligence.md",

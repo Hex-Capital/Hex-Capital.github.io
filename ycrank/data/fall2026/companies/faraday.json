@@ -61,11 +61,11 @@
     "VK": 32
   },
   "consolidatedAvg": 36.71,
-  "consolidatedRank": 100,
+  "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 139,
-    "tractionScore": 20,
-    "tractionReason": "Public benchmark has zero stars; no disclosed customers"
+    "tractionRank": 182,
+    "tractionScore": 6,
+    "tractionReason": "Synthetic benchmark published; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/faraday.md",

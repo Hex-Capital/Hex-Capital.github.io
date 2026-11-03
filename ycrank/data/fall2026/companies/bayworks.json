@@ -1,0 +1,81 @@
+{
+  "slug": "bayworks",
+  "name": "Bayworks",
+  "oneLiner": "Intelligence that runs Automotive Operations",
+  "metadata": {
+    "website": "https://bayworks.app",
+    "yc_page": "https://www.ycombinator.com/companies/bayworks",
+    "batch": "Fall 2026 ([GPAgent directory](https://www.gpagent.ai/yc/company/bayworks))",
+    "industry": "Industrials / Industrials -> Automotive",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, AI, Automotive",
+    "yc_partner": "Not listed in accessible YC directory text",
+    "emails": "kaustubh@bayworks.app, tech@bayworks.app ([Bayworks](https://bayworks.app/app-privacy)); shubhamgl2003@gmail.com ([founder website](https://www.shubhamgl.com/))"
+  },
+  "tags": [
+    "B2B",
+    "AI",
+    "Automotive"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-03T16:56:01.044Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 35,
+    "EG": 40,
+    "NR": 45,
+    "PG": 43,
+    "PT": 30,
+    "SL": 37,
+    "VK": 25
+  },
+  "consolidatedAvg": 36.43,
+  "consolidatedRank": 110,
+  "traction": {
+    "tractionRank": 22,
+    "tractionScore": 63,
+    "tractionReason": "80+ dealerships in 110 days; payment status undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/bayworks.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/bayworks.md",
+      "elad-gil": "fall2026/evals/elad-gil/bayworks.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/bayworks.md",
+      "paul-graham": "fall2026/evals/paul-graham/bayworks.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/bayworks.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/bayworks.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/bayworks.md"
+    }
+  }
+}

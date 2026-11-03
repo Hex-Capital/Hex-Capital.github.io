@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 64,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 20,
-    "tractionReason": "Public operating-system mirror has three stars"
+    "tractionRank": 164,
+    "tractionScore": 10,
+    "tractionReason": "Three repository stars; no disclosed users or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/tilo.md",

@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 26.57,
-  "consolidatedRank": 193,
+  "consolidatedRank": 201,
   "traction": {
-    "tractionRank": 191,
-    "tractionScore": 1,
-    "tractionReason": "No disclosed product adoption, customers or revenue"
+    "tractionRank": 200,
+    "tractionScore": 0,
+    "tractionReason": "No disclosed traction"
   },
   "paths": {
     "memo": "fall2026/memos/perceptual-labs.md",

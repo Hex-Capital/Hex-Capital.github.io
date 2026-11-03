@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 111,
+  "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 40,
-    "tractionReason": "Police-unit trials and iterative officer feedback reported"
+    "tractionRank": 87,
+    "tractionScore": 41,
+    "tractionReason": "Police-unit trials and officer feedback; payment status unspecified"
   },
   "paths": {
     "memo": "fall2026/memos/reconero.md",

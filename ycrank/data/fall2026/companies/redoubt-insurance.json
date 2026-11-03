@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.86,
-  "consolidatedRank": 182,
+  "consolidatedRank": 190,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 6,
-    "tractionReason": "No disclosed policies, customers or commission revenue"
+    "tractionRank": 172,
+    "tractionScore": 9,
+    "tractionReason": "115 followers; no disclosed customers, policies, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/redoubt-insurance.md",

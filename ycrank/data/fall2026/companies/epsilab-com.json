@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 160,
+  "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 5,
-    "tractionReason": "No disclosed customers, usage or revenue"
+    "tractionRank": 188,
+    "tractionScore": 4,
+    "tractionReason": "46 followers and funding; no disclosed adoption"
   },
   "paths": {
     "memo": "fall2026/memos/epsilab-com.md",

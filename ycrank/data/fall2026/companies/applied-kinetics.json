@@ -62,11 +62,11 @@
     "VK": 31
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 130,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 18,
-    "tractionReason": "No named deliveries; partner manufacturing capacity excluded"
+    "tractionRank": 149,
+    "tractionScore": 14,
+    "tractionReason": "Partner capacity disclosed; no named company shipment"
   },
   "paths": {
     "memo": "fall2026/memos/applied-kinetics.md",

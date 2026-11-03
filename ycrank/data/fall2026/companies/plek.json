@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 98,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 90,
-    "tractionScore": 40,
-    "tractionReason": "Real assessment mapped 250 employees and 735 tasks"
+    "tractionRank": 99,
+    "tractionScore": 38,
+    "tractionReason": "Actual 250-person assessment reported; larger case studies illustrative"
   },
   "paths": {
     "memo": "fall2026/memos/plek.md",

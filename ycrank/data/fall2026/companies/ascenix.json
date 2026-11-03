@@ -61,9 +61,9 @@
   "consolidatedAvg": 46.14,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 60,
-    "tractionReason": "50–55 facilities deployed; named 12-community customer"
+    "tractionRank": 21,
+    "tractionScore": 64,
+    "tractionReason": "50–55 facilities deployed; named 12-community customer rollout"
   },
   "paths": {
     "memo": "fall2026/memos/ascenix.md",

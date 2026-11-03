@@ -1,0 +1,82 @@
+{
+  "slug": "caladh",
+  "name": "Caladh",
+  "oneLiner": "Anti-drone defense for the maritime domain",
+  "metadata": {
+    "website": "https://caladh.com",
+    "yc_page": "https://www.ycombinator.com/companies/caladh",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/location/boston), Nov 2026)",
+    "industry": "Industrials / Industrials -> Defense",
+    "location": "Boston, MA, USA",
+    "tags": "Hard Tech, Hardware, Drones, Maritime, Defense",
+    "yc_partner": "Not listed; company profile could not be read",
+    "emails": "contact@caladh.com, founders@caladh.com ([Caladh](https://caladh.com), accessed Nov 3, 2026)"
+  },
+  "tags": [
+    "Hard Tech",
+    "Hardware",
+    "Drones",
+    "Maritime",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-03T16:54:19.019Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 26,
+    "NR": 45,
+    "PG": 41,
+    "PT": 28,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 33.14,
+  "consolidatedRank": 161,
+  "traction": {
+    "tractionRank": 197,
+    "tractionScore": 1,
+    "tractionReason": "YC participation only; no disclosed commercial traction"
+  },
+  "paths": {
+    "memo": "fall2026/memos/caladh.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/caladh.md",
+      "elad-gil": "fall2026/evals/elad-gil/caladh.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/caladh.md",
+      "paul-graham": "fall2026/evals/paul-graham/caladh.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/caladh.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/caladh.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/caladh.md"
+    }
+  }
+}

@@ -59,10 +59,10 @@
     "VK": 27
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 82,
+  "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 33,
+    "tractionRank": 106,
+    "tractionScore": 34,
     "tractionReason": "Current platform has 351 stars; OpenSEO adoption excluded"
   },
   "paths": {

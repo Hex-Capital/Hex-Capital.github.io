@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.57,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 69,
-    "tractionReason": "100+ current-platform companies; reported ARR lacks product allocation"
+    "tractionRank": 14,
+    "tractionScore": 68,
+    "tractionReason": "100K company ARR claim; 100+ companies; product split undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/agent-37.md",

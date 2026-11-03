@@ -1,0 +1,81 @@
+{
+  "slug": "limnion",
+  "name": "Limnion",
+  "oneLiner": "Telemetry storage for the agentic era.",
+  "metadata": {
+    "website": "https://limnion.ai",
+    "yc_page": "https://www.ycombinator.com/companies/limnion",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/industry/infrastructure), Nov 2026)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "3",
+    "location": "Seattle, WA, USA; Remote",
+    "tags": "Open Source, Infrastructure, Databases",
+    "yc_partner": "Not listed; individual YC profile text was not retrievable",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Open Source",
+    "Infrastructure",
+    "Databases"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-03T16:54:54.518Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 30,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 36,
+    "NR": 47,
+    "PG": 37,
+    "PT": 28,
+    "SL": 31,
+    "VK": 30
+  },
+  "consolidatedAvg": 38.14,
+  "consolidatedRank": 81,
+  "traction": {
+    "tractionRank": 104,
+    "tractionScore": 35,
+    "tractionReason": "Siglake has 577 stars; no disclosed customers or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/limnion.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/limnion.md",
+      "elad-gil": "fall2026/evals/elad-gil/limnion.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/limnion.md",
+      "paul-graham": "fall2026/evals/paul-graham/limnion.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/limnion.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/limnion.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/limnion.md"
+    }
+  }
+}

@@ -61,10 +61,10 @@
     "VK": 29
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 132,
+  "consolidatedRank": 138,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 13,
+    "tractionRank": 166,
+    "tractionScore": 9,
     "tractionReason": "Scaled demonstrator built; no disclosed cargo customers"
   },
   "paths": {

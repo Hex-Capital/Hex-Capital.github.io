@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 85,
+  "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 47,
-    "tractionReason": "Pacific-island and manufacturing deployments claimed; contract values undisclosed"
+    "tractionRank": 66,
+    "tractionScore": 48,
+    "tractionReason": "Island and manufacturing deployments claimed; contract values undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/micora.md",

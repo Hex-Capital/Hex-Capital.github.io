@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 33.29,
-  "consolidatedRank": 152,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 45,
-    "tractionReason": "Signed LOIs; government trials scheduled; values undisclosed"
+    "tractionRank": 85,
+    "tractionScore": 42,
+    "tractionReason": "Signed LOIs; government trials scheduled; counterparties and values undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/streamline-systems.md",

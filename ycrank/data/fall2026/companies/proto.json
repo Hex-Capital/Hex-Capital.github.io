@@ -1,0 +1,81 @@
+{
+  "slug": "proto",
+  "name": "Proto",
+  "oneLiner": "A design tool with the accuracy of Cursor & creative freedom of Figma",
+  "metadata": {
+    "website": "https://www.prototypes.fun/",
+    "yc_page": "https://www.ycombinator.com/companies/proto",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/proto))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Design, Design Tools, AI",
+    "yc_partner": "Harj Taggar ([YC, via search snippet](https://www.ycombinator.com/companies/proto))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Design",
+    "Design Tools",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-03T16:56:19.064Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 34,
+    "NR": 48,
+    "PG": 35,
+    "PT": 27,
+    "SL": 33,
+    "VK": 25
+  },
+  "consolidatedAvg": 34.43,
+  "consolidatedRank": 148,
+  "traction": {
+    "tractionRank": 142,
+    "tractionScore": 17,
+    "tractionReason": "65 company X followers; no disclosed adoption"
+  },
+  "paths": {
+    "memo": "fall2026/memos/proto.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/proto.md",
+      "elad-gil": "fall2026/evals/elad-gil/proto.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/proto.md",
+      "paul-graham": "fall2026/evals/paul-graham/proto.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/proto.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/proto.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/proto.md"
+    }
+  }
+}

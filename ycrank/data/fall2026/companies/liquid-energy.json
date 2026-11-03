@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 30.86,
-  "consolidatedRank": 175,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 7,
-    "tractionReason": "No disclosed module customers, deployments or revenue"
+    "tractionRank": 176,
+    "tractionScore": 8,
+    "tractionReason": "247 followers and affiliations; no disclosed deployments"
   },
   "paths": {
     "memo": "fall2026/memos/liquid-energy.md",

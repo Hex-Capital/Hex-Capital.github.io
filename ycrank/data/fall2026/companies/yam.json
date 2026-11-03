@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 76,
+  "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 41,
+    "tractionRank": 42,
     "tractionScore": 55,
-    "tractionReason": "Leading game has 1.8M plays; three hours per DAU"
+    "tractionReason": "Leading games exceed 2M combined plays; three-hour daily engagement"
   },
   "paths": {
     "memo": "fall2026/memos/yam.md",

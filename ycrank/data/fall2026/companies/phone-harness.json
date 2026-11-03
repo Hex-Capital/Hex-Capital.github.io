@@ -61,10 +61,10 @@
     "VK": 25
   },
   "consolidatedAvg": 35.71,
-  "consolidatedRank": 120,
+  "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 45,
+    "tractionRank": 77,
+    "tractionScore": 44,
     "tractionReason": "Approximately 4,000 stars; 403 forks; cloud open beta"
   },
   "paths": {

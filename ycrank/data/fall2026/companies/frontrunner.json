@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 53,
+  "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 50,
-    "tractionReason": "Multiple customer testimonials document recurring GTM workflow usage"
+    "tractionRank": 58,
+    "tractionScore": 51,
+    "tractionReason": "Multiple customer testimonials document recurring sales workflow usage"
   },
   "paths": {
     "memo": "fall2026/memos/frontrunner.md",

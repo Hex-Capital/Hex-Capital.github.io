@@ -61,9 +61,9 @@
   "consolidatedAvg": 43.14,
   "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 25,
-    "tractionReason": "Exa Connect listing; booking volume and revenue undisclosed"
+    "tractionRank": 119,
+    "tractionScore": 29,
+    "tractionReason": "Exa Connect provider listing; booking volumes and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/jinko.md",

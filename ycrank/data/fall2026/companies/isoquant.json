@@ -61,8 +61,8 @@
   "consolidatedRank": 13,
   "traction": {
     "tractionRank": 10,
-    "tractionScore": 72,
-    "tractionReason": "1.2T tokens monthly; 1,000+ customers, paying breakdown undisclosed"
+    "tractionScore": 71,
+    "tractionReason": "1.2T tokens monthly; 1,000+ customers; paying share undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/isoquant.md",

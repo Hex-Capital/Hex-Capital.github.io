@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 163,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 168,
+    "tractionRank": 161,
     "tractionScore": 10,
-    "tractionReason": "Pump-sensor demonstration; no disclosed customer deployment"
+    "tractionReason": "Pump-sensing demonstration; no disclosed customer deployment"
   },
   "paths": {
     "memo": "fall2026/memos/talos-us.md",

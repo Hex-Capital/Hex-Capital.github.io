@@ -1,0 +1,83 @@
+{
+  "slug": "ryhla",
+  "name": "Ryhla",
+  "oneLiner": "Faster power grid connection for your projects",
+  "metadata": {
+    "website": "https://ryhla.ai",
+    "yc_page": "https://www.ycombinator.com/companies/ryhla",
+    "batch": "Fall 2026 ([YC directory, Nov 2026, via search snippet](https://www.ycombinator.com/companies/ryhla))",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Solar Power, Climate, Energy, Renewable Energy, Infrastructure",
+    "yc_partner": "Pete Koomen ([YC directory, Nov 2026, via search snippet](https://www.ycombinator.com/companies/ryhla))",
+    "emails": "founders@ryhla.ai ([YC launch, Nov 2026](https://www.ycombinator.com/launches/Wkq-ryhla-faster-power-grid-connection-for-your-project))"
+  },
+  "tags": [
+    "Solar Power",
+    "Climate",
+    "Energy",
+    "Renewable Energy",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-03T16:55:24.493Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 53,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 32,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 50,
+    "EG": 53,
+    "NR": 47,
+    "PG": 43,
+    "PT": 33,
+    "SL": 41,
+    "VK": 32
+  },
+  "consolidatedAvg": 42.71,
+  "consolidatedRank": 32,
+  "traction": {
+    "tractionRank": 88,
+    "tractionScore": 41,
+    "tractionReason": "Solar developer deployment reported; realized company revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ryhla.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ryhla.md",
+      "elad-gil": "fall2026/evals/elad-gil/ryhla.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ryhla.md",
+      "paul-graham": "fall2026/evals/paul-graham/ryhla.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ryhla.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ryhla.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ryhla.md"
+    }
+  }
+}

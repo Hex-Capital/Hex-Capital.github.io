@@ -59,11 +59,11 @@
     "VK": 22
   },
   "consolidatedAvg": 39.57,
-  "consolidatedRank": 57,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 36,
-    "tractionScore": 57,
-    "tractionReason": "30 companies live; paying status undisclosed"
+    "tractionRank": 56,
+    "tractionScore": 51,
+    "tractionReason": "30 companies live; paying status and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/adsideai.md",

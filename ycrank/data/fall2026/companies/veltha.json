@@ -59,11 +59,11 @@
     "VK": 34
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 72,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 24,
-    "tractionReason": "Workflow improvements claimed; current TPA customer deployments undisclosed"
+    "tractionRank": 123,
+    "tractionScore": 26,
+    "tractionReason": "Current TPA outcomes claimed; customer count and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/veltha.md",

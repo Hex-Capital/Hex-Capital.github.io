@@ -63,7 +63,7 @@
   "traction": {
     "tractionRank": 28,
     "tractionScore": 60,
-    "tractionReason": "Named enterprise customers; continuing production compliance deployments"
+    "tractionReason": "Named enterprise customers; continuing production compliance deployment"
   },
   "paths": {
     "memo": "fall2026/memos/grep-ai.md",

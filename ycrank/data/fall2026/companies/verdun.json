@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 80,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 6,
-    "tractionReason": "No disclosed security-service customers or revenue"
+    "tractionRank": 177,
+    "tractionScore": 8,
+    "tractionReason": "Hiring and industry mention; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/verdun.md",

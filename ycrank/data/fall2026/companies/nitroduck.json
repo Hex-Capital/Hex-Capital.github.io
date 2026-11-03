@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 110,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 172,
-    "tractionScore": 8,
-    "tractionReason": "Prior research awards; no disclosed current-product customers"
+    "tractionRank": 160,
+    "tractionScore": 10,
+    "tractionReason": "Research awards and following; no disclosed commercial adoption"
   },
   "paths": {
     "memo": "fall2026/memos/nitroduck.md",

@@ -64,9 +64,9 @@
   "consolidatedAvg": 41.14,
   "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 34,
-    "tractionReason": "Three announced partners; cloud beta; paying usage undisclosed"
+    "tractionRank": 118,
+    "tractionScore": 32,
+    "tractionReason": "Three partner announcements; cloud beta; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/simantic.md",

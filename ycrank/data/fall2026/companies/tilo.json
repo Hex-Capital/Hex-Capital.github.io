@@ -61,9 +61,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 15,
-    "tractionReason": "Three repository stars; no customer or revenue metrics"
+    "tractionRank": 139,
+    "tractionScore": 20,
+    "tractionReason": "Public product launch; repository mirror has three stars"
   },
   "paths": {
     "memo": "fall2026/memos/tilo.md",

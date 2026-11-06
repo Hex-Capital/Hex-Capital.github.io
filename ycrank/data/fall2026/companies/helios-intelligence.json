@@ -62,10 +62,10 @@
     "VK": 28
   },
   "consolidatedAvg": 36.86,
-  "consolidatedRank": 109,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 7,
+    "tractionRank": 196,
+    "tractionScore": 3,
     "tractionReason": "Molecular test forthcoming; separate supplement sales excluded"
   },
   "paths": {

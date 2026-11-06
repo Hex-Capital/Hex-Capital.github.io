@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 108,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 37,
-    "tractionReason": "One reported 250-person assessment; other case studies illustrative"
+    "tractionRank": 112,
+    "tractionScore": 38,
+    "tractionReason": "Actual 250-person assessment reported; broader case studies illustrative"
   },
   "paths": {
     "memo": "fall2026/memos/plek.md",

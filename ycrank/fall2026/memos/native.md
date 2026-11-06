@@ -12,7 +12,7 @@
 | Location | San Francisco, CA, USA |
 | Tags | Machine Learning, Social Media, AI |
 | YC Partner | Harj Taggar ([YC](https://www.ycombinator.com/companies/native)) |
-| Emails | hi@native.no ([Contact](https://native.no/contact)), hei@native.no ([Terms](https://native.no/terms-and-conditions)), research@native.no ([Research](https://native.no/research)) |
+| Emails | benjamin@native.no — Benjamin Bekken, CEO/co-founder; published as privacy contact ([Cookie Policy](https://native.no/cookies)); hi@native.no ([Contact](https://native.no/contact)), hei@native.no ([Terms](https://native.no/terms-and-conditions)), research@native.no ([Research](https://native.no/research)) |
 
 ## The Idea
 
@@ -50,6 +50,7 @@
 ## Founders & Team
 
 - **Benjamin Bekken (Founder/CEO):**
+  - Email: benjamin@native.no, published as Native's privacy contact ([Cookie Policy](https://native.no/cookies)).
   - Background: NTNU double master’s, former Minecraft video creator, and content work for OBOS, NTE, and BERRE ([YC](https://www.ycombinator.com/founders/benjamin-bekken), [Native](https://native.no/about-us/benjamin-bekken)).
   - Twitter/X: @BenjaminBekken; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/benjamin-bekken)).
   - LinkedIn: Headline not retrievable; approximately 8K followers displayed ([LinkedIn, via search snippet](https://no.linkedin.com/in/bekken/no)).
@@ -88,4 +89,4 @@
 | Risk Factors | Observational efficacy evidence ([Native Research](https://native.no/research/the-taste-layer)), platform dependency and content liability ([Terms](https://native.no/terms-and-conditions)) |
 | Founder Reach | LinkedIn: Bekken ~8K, Græsberg ~2K, Hauga ~4K ([profiles via search snippets](https://no.linkedin.com/in/bekken/no), [Græsberg](https://no.linkedin.com/in/hakon-grasberg/en), [Hauga](https://www.linkedin.com/in/trondha/no)) |
 | Distribution Signals | LinkedIn 8,220 followers, retrieved October 2026 ([LinkedIn](https://no.linkedin.com/company/trynative)); X 204 followers, September 2026 ([frontrun](https://www.frontrun.vc/blog/yc-f26-companies-not-in-yc-directory/)) |
-| Emails | hi@native.no ([Contact](https://native.no/contact)), hei@native.no ([Terms](https://native.no/terms-and-conditions)), research@native.no ([Research](https://native.no/research)) |
+| Emails | benjamin@native.no — Benjamin Bekken, CEO/co-founder; published as privacy contact ([Cookie Policy](https://native.no/cookies)); hi@native.no ([Contact](https://native.no/contact)), hei@native.no ([Terms](https://native.no/terms-and-conditions)), research@native.no ([Research](https://native.no/research)) |

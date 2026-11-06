@@ -61,23 +61,23 @@
 
   <!-- Top Nav -->
   <nav class="bg-claude-bg border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
-    <div class="max-w-[1600px] mx-auto px-3 py-2 flex items-center justify-between gap-2">
-      <div class="flex items-center gap-2 sm:gap-3 min-w-0">
+    <div class="nav-inner max-w-[1600px] mx-auto px-3 py-2 flex items-center justify-between gap-2">
+      <div class="nav-brand flex items-center gap-2 sm:gap-3 min-w-0">
         <div class="nav-dots">
           <div class="nav-dot nav-dot-red"></div>
           <div class="nav-dot nav-dot-yellow"></div>
           <div class="nav-dot nav-dot-green"></div>
         </div>
         <h1 class="text-base font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
-        <span class="text-claude-border">|</span>
+        <span class="nav-separator text-claude-border">|</span>
         <select x-model="currentBatch" @change="loadBatch(currentBatch)" aria-label="Select YC batch"
-          class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-sm rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[140px] xs:max-w-none">
+          class="nav-batch bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-sm rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[140px] xs:max-w-none">
           <template x-for="b in batches" :key="b">
             <option :value="b" x-text="formatBatch(b)"></option>
           </template>
         </select>
       </div>
-      <div class="flex items-center gap-1 text-sm overflow-hidden">
+      <div class="nav-actions flex items-center gap-1 text-sm">
         <button @click="navigate('dashboard')"
           :class="view === 'dashboard' ? 'bg-claude-orange text-claude-bg px-1.5 sm:px-2 py-1.5' : 'text-claude-text hover:text-claude-orange px-1.5 sm:px-2 py-1.5'"
           class="transition-colors font-mono hidden sm:inline">Dashboard</button>
@@ -384,7 +384,7 @@
             <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
               <div class="min-w-0">
                 <div class="flex items-center gap-2">
-                  <h2 class="text-2xl font-bold text-claude-orange" x-text="companyData.name"></h2>
+                  <h2 class="min-w-0 break-words text-2xl font-bold text-claude-orange" x-text="companyData.name"></h2>
                   <button @click="toggleWatchlist(companyData.slug, $event)" x-show="!staticMode"
                     :class="isWatchlisted(companyData.slug) ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
                     class="text-xl transition-colors cursor-pointer"
@@ -395,7 +395,7 @@
                   <p class="text-claude-red text-xs mt-1" x-text="'Key tension: ' + getKeyTension(companyData?.name)"></p>
                 </template>
               </div>
-              <div class="flex-shrink-0 flex gap-2">
+              <div class="flex-shrink-0 flex flex-wrap gap-2">
                 <select @change="setPipelineStage(companyData.slug, $event.target.value)" x-show="!staticMode"
                   :value="getPipelineStage(companyData.slug)"
                   class="bg-claude-bg border border-claude-border text-sm px-2 py-1.5 rounded-none focus:outline-none focus:border-claude-orange"
@@ -429,7 +429,7 @@
                   class="text-xs border border-claude-blue text-claude-blue px-1.5 py-0.5 rounded-none hover:bg-claude-blue hover:text-claude-bg truncate max-w-[200px] sm:max-w-xs inline-block" x-text="companyData.metadata.website"></a>
               </template>
               <template x-if="companyData.metadata.yc_partner && companyData.metadata.yc_partner !== 'Not listed'">
-                <span class="text-xs border border-claude-purple text-claude-purple px-1.5 py-0.5 rounded-none" x-text="'YC Partner: ' + companyData.metadata.yc_partner"></span>
+                <span class="min-w-0 max-w-full break-words text-xs border border-claude-purple text-claude-purple px-1.5 py-0.5 rounded-none" x-text="'YC Partner: ' + companyData.metadata.yc_partner"></span>
               </template>
               <template x-if="companyData.memoGeneratedAt">
                 <span class="text-xs border border-claude-border text-claude-dim px-1.5 py-0.5 rounded-none" x-text="'Memo: ' + formatDate(companyData.memoGeneratedAt)"></span>

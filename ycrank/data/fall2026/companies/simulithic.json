@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 84,
+  "consolidatedRank": 85,
   "traction": {
-    "tractionRank": 71,
+    "tractionRank": 73,
     "tractionScore": 47,
-    "tractionReason": "Several company deployments reported; payment status undisclosed"
+    "tractionReason": "Deployments at several companies reported; paying status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/simulithic.md",

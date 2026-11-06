@@ -63,8 +63,8 @@
   "consolidatedRank": 43,
   "traction": {
     "tractionRank": 50,
-    "tractionScore": 55,
-    "tractionReason": "Named distributor deployment; additional customer reports 50 hours saved weekly"
+    "tractionScore": 54,
+    "tractionReason": "Interline Hardware live deployment; additional customer reported"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",

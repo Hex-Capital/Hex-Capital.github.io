@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 137,
+  "consolidatedRank": 138,
   "traction": {
-    "tractionRank": 184,
-    "tractionScore": 9,
-    "tractionReason": "Prototype demonstrations; no customer usage or revenue disclosed"
+    "tractionRank": 183,
+    "tractionScore": 7,
+    "tractionReason": "Prototype performance only; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/the-subvocal-company.md",

@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 83,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 24,
-    "tractionReason": "Dograh integration merged; customer usage and revenue undisclosed"
+    "tractionRank": 124,
+    "tractionScore": 27,
+    "tractionReason": "Dograh provider integration merged; no disclosed usage or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/hopper.md",

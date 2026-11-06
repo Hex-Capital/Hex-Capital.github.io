@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.29,
   "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 12,
-    "tractionReason": "Datacenter proof of concept planned; no customers or revenue disclosed"
+    "tractionRank": 181,
+    "tractionScore": 7,
+    "tractionReason": "Datacenter proof of concept planned; no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/aikido-technologies.md",

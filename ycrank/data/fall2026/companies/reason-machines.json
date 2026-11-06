@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.86,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 54,
+    "tractionRank": 52,
     "tractionScore": 54,
-    "tractionReason": "10,000 users and 300 active customer Slack channels reported"
+    "tractionReason": "10,000 users; 300 active customer Slack channels"
   },
   "paths": {
     "memo": "fall2026/memos/reason-machines.md",

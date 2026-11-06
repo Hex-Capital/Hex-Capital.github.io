@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 148,
+  "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 29,
-    "tractionReason": "Developer alpha use reported; user totals and revenue undisclosed"
+    "tractionRank": 114,
+    "tractionScore": 34,
+    "tractionReason": "Developers reportedly using own codebases; totals undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/graphide.md",

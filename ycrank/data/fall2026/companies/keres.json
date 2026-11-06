@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 190,
+  "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 196,
-    "tractionScore": 5,
-    "tractionReason": "Company profile coverage; no contracts or deployments disclosed"
+    "tractionRank": 197,
+    "tractionScore": 3,
+    "tractionReason": "Press profile only; no disclosed customers or contracts"
   },
   "paths": {
     "memo": "fall2026/memos/keres.md",

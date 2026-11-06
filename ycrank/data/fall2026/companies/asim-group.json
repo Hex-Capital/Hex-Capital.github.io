@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 146,
+  "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 8,
-    "tractionReason": "Prototype and memberships; no current commercial adoption disclosed"
+    "tractionRank": 187,
+    "tractionScore": 5,
+    "tractionReason": "Affiliations and prototype award; no disclosed customer adoption"
   },
   "paths": {
     "memo": "fall2026/memos/asim-group.md",

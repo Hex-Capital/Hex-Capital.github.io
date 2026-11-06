@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.57,
-  "consolidatedRank": 113,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 84,
+    "tractionRank": 92,
     "tractionScore": 43,
-    "tractionReason": "First signed customer Califrais; purchase preceded product launch"
+    "tractionReason": "First signed customer Califrais; purchase preceded launch"
   },
   "paths": {
     "memo": "fall2026/memos/championeffect-inc.md",

@@ -120,6 +120,25 @@ function app() {
     },
 
     async init() {
+      // Sticky offsets must follow the rendered chrome, including font scaling,
+      // wrapped footer text, orientation changes and phone safe areas.
+      this.$nextTick(() => {
+        const root = document.documentElement;
+        const chrome = [
+          [document.querySelector('nav[aria-label="Main navigation"]'), '--nav-h'],
+          [document.querySelector('.sticky-search'), '--search-h'],
+          [document.querySelector('.status-footer'), '--footer-h'],
+        ];
+        const measure = () => {
+          for (const [element, property] of chrome) {
+            const height = element?.getBoundingClientRect().height;
+            if (height > 0) root.style.setProperty(property, `${Math.ceil(height)}px`);
+          }
+        };
+        measure();
+        const observer = new ResizeObserver(measure);
+        for (const [element] of chrome) if (element) observer.observe(element);
+      });
       // Listen for hash changes
       window.addEventListener('hashchange', () => this.handleRoute());
       window.addEventListener('keydown', (e) => this.handleKeydown(e));

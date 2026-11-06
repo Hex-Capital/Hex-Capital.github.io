@@ -63,9 +63,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 29,
-    "tractionReason": "99 repository stars and 13 forks; revenue undisclosed"
+    "tractionRank": 126,
+    "tractionScore": 27,
+    "tractionReason": "99 repository stars; 13 forks; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ufoai.md",

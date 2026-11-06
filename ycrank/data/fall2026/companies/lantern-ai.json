@@ -64,9 +64,9 @@
   "consolidatedAvg": 45.57,
   "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 90,
-    "tractionReason": "$1M company ARR; active interview module conducted 100K+ interviews"
+    "tractionRank": 3,
+    "tractionScore": 91,
+    "tractionReason": "$1M ARR across hiring platform; product allocation undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/lantern-ai.md",

@@ -62,8 +62,8 @@
   "consolidatedRank": 13,
   "traction": {
     "tractionRank": 25,
-    "tractionScore": 64,
-    "tractionReason": "50–55 facilities; named deployment across 12 communities"
+    "tractionScore": 61,
+    "tractionReason": "50–55 facilities deployed; named 12-community customer"
   },
   "paths": {
     "memo": "fall2026/memos/ascenix.md",

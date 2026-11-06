@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 82,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 56,
-    "tractionReason": "Toolkit has 115.5K stars; realized revenue undisclosed"
+    "tractionRank": 40,
+    "tractionScore": 58,
+    "tractionReason": "Current toolkit repository has 115,500 stars; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/caveman.md",

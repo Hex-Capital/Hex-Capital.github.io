@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.29,
-  "consolidatedRank": 207,
+  "consolidatedRank": 208,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 7,
-    "tractionReason": "58 LinkedIn followers; no current-product usage disclosed"
+    "tractionRank": 184,
+    "tractionScore": 6,
+    "tractionReason": "Current hardware product has no disclosed commercial adoption"
   },
   "paths": {
     "memo": "fall2026/memos/confetti.md",

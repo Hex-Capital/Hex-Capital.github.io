@@ -64,9 +64,9 @@
   "consolidatedAvg": 40.86,
   "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 52,
-    "tractionReason": "1.1M+ conversations analyzed; Sunny Health and Hamlet testimonials"
+    "tractionRank": 56,
+    "tractionScore": 53,
+    "tractionReason": "1.1M+ conversations analyzed; two named customer testimonials"
   },
   "paths": {
     "memo": "fall2026/memos/papaya.md",

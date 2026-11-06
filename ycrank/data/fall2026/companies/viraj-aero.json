@@ -61,9 +61,9 @@
   "consolidatedAvg": 43.14,
   "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 51,
-    "tractionReason": "€13M aviation LOIs; prototype integration; Safran work reported"
+    "tractionRank": 58,
+    "tractionScore": 52,
+    "tractionReason": "€13M aviation LOIs; prototype integration; no disclosed revenue"
   },
   "paths": {
     "memo": "fall2026/memos/viraj-aero.md",

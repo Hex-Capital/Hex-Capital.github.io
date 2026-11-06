@@ -61,9 +61,9 @@
   "consolidatedAvg": 39.71,
   "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 66,
-    "tractionReason": "Paying customers reported; 7,000+ users; revenue doubled, baseline undisclosed"
+    "tractionRank": 30,
+    "tractionScore": 60,
+    "tractionReason": "Paying customers reported; 7,000+ users"
   },
   "paths": {
     "memo": "fall2026/memos/veeza-ai.md",

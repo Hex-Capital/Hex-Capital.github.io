@@ -61,11 +61,11 @@
     "VK": 22
   },
   "consolidatedAvg": 30,
-  "consolidatedRank": 200,
+  "consolidatedRank": 201,
   "traction": {
-    "tractionRank": 102,
-    "tractionScore": 40,
-    "tractionReason": "900+ funds and retail traders claimed; activity and payment undefined"
+    "tractionRank": 65,
+    "tractionScore": 49,
+    "tractionReason": "Claims 900+ funds and traders; paying status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/volaren.md",

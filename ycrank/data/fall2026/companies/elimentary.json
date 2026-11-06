@@ -61,9 +61,9 @@
   "consolidatedAvg": 46.86,
   "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 58,
-    "tractionReason": "Live TresVista deployment; enterprise fund case study; revenue undisclosed"
+    "tractionRank": 48,
+    "tractionScore": 55,
+    "tractionReason": "TresVista production deployment; additional fund customer case study"
   },
   "paths": {
     "memo": "fall2026/memos/elimentary.md",

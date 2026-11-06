@@ -63,9 +63,9 @@
   "consolidatedAvg": 43.43,
   "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 56,
-    "tractionScore": 53,
-    "tractionReason": "Six-state deployments claimed; two named Shopify reviews"
+    "tractionRank": 64,
+    "tractionScore": 50,
+    "tractionReason": "Six-state deployment claim; two named Shopify reviewers"
   },
   "paths": {
     "memo": "fall2026/memos/organizely.md",

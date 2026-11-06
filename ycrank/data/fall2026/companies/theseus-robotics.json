@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 138,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 10,
-    "tractionReason": "Private previews advertised; no deployments or customers disclosed"
+    "tractionRank": 176,
+    "tractionScore": 9,
+    "tractionReason": "Private previews advertised; no disclosed deployments or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/theseus-robotics.md",

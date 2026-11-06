@@ -61,11 +61,11 @@
     "VK": 43
   },
   "consolidatedAvg": 47.86,
-  "consolidatedRank": 7,
+  "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 40,
-    "tractionReason": "Customer pilot found Slack integration bug; payment status undisclosed"
+    "tractionRank": 94,
+    "tractionScore": 42,
+    "tractionReason": "One customer pilot found integration bug; payment undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rystic.md",

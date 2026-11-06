@@ -63,9 +63,9 @@
   "consolidatedAvg": 45.29,
   "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 61,
-    "tractionReason": "10,000+ interviews; signed top-three consulting firm; named customer testimonial"
+    "tractionRank": 28,
+    "tractionScore": 60,
+    "tractionReason": "10,000+ interviews; signed top-three consulting firm"
   },
   "paths": {
     "memo": "fall2026/memos/sona8.md",

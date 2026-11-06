@@ -62,8 +62,8 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 41,
+    "tractionRank": 70,
+    "tractionScore": 48,
     "tractionReason": "Utility deployment footprint claimed; published outcome studies are simulations"
   },
   "paths": {

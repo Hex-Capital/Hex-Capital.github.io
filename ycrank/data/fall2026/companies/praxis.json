@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 34.71,
-  "consolidatedRank": 152,
+  "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 53,
-    "tractionReason": "Live deployments with multiple US law firms; payment status undisclosed"
+    "tractionRank": 69,
+    "tractionScore": 48,
+    "tractionReason": "Live with US law firms; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/praxis.md",

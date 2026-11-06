@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 90,
-    "tractionScore": 42,
-    "tractionReason": "Blood draws open; samples processing; completed-test counts undisclosed"
+    "tractionRank": 101,
+    "tractionScore": 40,
+    "tractionReason": "Blood draws open; samples processing; completed-test count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/canos.md",

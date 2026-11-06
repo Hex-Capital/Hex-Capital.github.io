@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 31.57,
-  "consolidatedRank": 188,
+  "consolidatedRank": 189,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 15,
-    "tractionReason": "Simulation collection forthcoming; research results, no customers disclosed"
+    "tractionRank": 180,
+    "tractionScore": 8,
+    "tractionReason": "Benchmark forthcoming; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/runtimesi.md",

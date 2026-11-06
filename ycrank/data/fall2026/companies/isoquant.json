@@ -60,9 +60,9 @@
   "consolidatedAvg": 46.14,
   "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 70,
-    "tractionReason": "1.2T tokens monthly; 1,000+ customers, paying breakdown undisclosed"
+    "tractionRank": 11,
+    "tractionScore": 71,
+    "tractionReason": "1.2T tokens monthly; 1,000+ customers; paying breakdown undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/isoquant.md",

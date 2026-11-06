@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Machine Learning, Social Media, AI",
     "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/native))",
-    "emails": "hi@native.no ([Contact](https://native.no/contact)), hei@native.no ([Terms](https://native.no/terms-and-conditions)), research@native.no ([Research](https://native.no/research))"
+    "emails": "benjamin@native.no — Benjamin Bekken, CEO/co-founder; published as privacy contact ([Cookie Policy](https://native.no/cookies)); hi@native.no ([Contact](https://native.no/contact)), hei@native.no ([Terms](https://native.no/terms-and-conditions)), research@native.no ([Research](https://native.no/research))"
   },
   "tags": [
     "Machine Learning",
@@ -19,7 +19,7 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:13:52.211Z",
+  "memoGeneratedAt": "2026-11-06T17:42:28.233Z",
   "evalScores": {
     "cyan-banister": {
       "score": 52,
@@ -38,7 +38,7 @@
       "tier": "Neutral"
     },
     "peter-thiel": {
-      "score": 41,
+      "score": 39,
       "tier": "Pass"
     },
     "sam-lessin": {
@@ -46,7 +46,7 @@
       "tier": "Pass"
     },
     "vinod-khosla": {
-      "score": 28,
+      "score": 27,
       "tier": "Pass"
     }
   },
@@ -55,12 +55,12 @@
     "EG": 62,
     "NR": 59,
     "PG": 51,
-    "PT": 41,
+    "PT": 39,
     "SL": 43,
-    "VK": 28
+    "VK": 27
   },
-  "consolidatedAvg": 48,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 47.57,
+  "consolidatedRank": 7,
   "traction": {
     "tractionRank": 2,
     "tractionScore": 96,

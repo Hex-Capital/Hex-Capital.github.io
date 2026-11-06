@@ -63,9 +63,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 32,
-    "tractionReason": "Ten recent setup calls; paid conversions undisclosed"
+    "tractionRank": 120,
+    "tractionScore": 30,
+    "tractionReason": "10 setup calls reported; paid status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/composal.md",

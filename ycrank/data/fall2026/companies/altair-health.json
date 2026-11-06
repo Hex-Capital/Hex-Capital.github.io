@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 96,
+  "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 44,
-    "tractionReason": "Managed billing deployment; client collections disclosed, startup revenue undisclosed"
+    "tractionRank": 77,
+    "tractionScore": 46,
+    "tractionReason": "Live billing practice; client collections disclosed, own revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/altair-health.md",

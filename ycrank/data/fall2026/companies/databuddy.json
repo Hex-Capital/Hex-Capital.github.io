@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.14,
   "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 21,
+    "tractionRank": 16,
     "tractionScore": 66,
-    "tractionReason": "$3,125 MRR; 35 active subscriptions verified through Stripe"
+    "tractionReason": "$3,125 MRR; 35 active subscriptions; Stripe-connected verification"
   },
   "paths": {
     "memo": "fall2026/memos/databuddy.md",

@@ -61,9 +61,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 7,
+    "tractionRank": 9,
     "tractionScore": 74,
-    "tractionReason": "$240K ARR reported before YC"
+    "tractionReason": "$240K ARR from current sales product"
   },
   "paths": {
     "memo": "fall2026/memos/clean.md",

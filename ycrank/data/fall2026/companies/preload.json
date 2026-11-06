@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 179,
+  "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 18,
-    "tractionReason": "Launch video views; no customer deployments or revenue disclosed"
+    "tractionRank": 161,
+    "tractionScore": 14,
+    "tractionReason": "Launch video views only; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/preload.md",

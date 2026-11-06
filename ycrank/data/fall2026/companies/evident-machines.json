@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31,
-  "consolidatedRank": 192,
+  "consolidatedRank": 193,
   "traction": {
-    "tractionRank": 205,
-    "tractionScore": 3,
-    "tractionReason": "No current benchmark customers or revenue disclosed"
+    "tractionRank": 203,
+    "tractionScore": 2,
+    "tractionReason": "Current benchmark adoption undisclosed; prior Buildbox launch excluded"
   },
   "paths": {
     "memo": "fall2026/memos/evident-machines.md",

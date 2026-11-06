@@ -21,6 +21,7 @@
   --c-card-hover: #242019;
   --nav-h: calc(45px + env(safe-area-inset-top, 0px));
   --search-h: 42px;
+  --footer-h: calc(28px + env(safe-area-inset-bottom, 0px));
 }
 
 /* ===== Base Reset ===== */
@@ -355,6 +356,19 @@ button:disabled {
 }
 
 /* ===== Nav Traffic Light Dots ===== */
+nav > .nav-inner {
+  padding-left: max(12px, env(safe-area-inset-left, 0px));
+  padding-right: max(12px, env(safe-area-inset-right, 0px));
+}
+
+.nav-actions { flex-shrink: 0; }
+
+@media (max-width: 479px) {
+  .nav-dots, .nav-separator { display: none !important; }
+  .nav-brand { flex: 1; }
+  .nav-batch { flex: 1; }
+}
+
 .nav-dots {
   display: flex;
   gap: 5px;
@@ -391,6 +405,8 @@ button:disabled {
   align-items: center;
   gap: 8px;
   font-family: 'JetBrains Mono', 'Consolas', monospace;
+  flex-wrap: wrap;
+  isolation: isolate;
 }
 
 .status-footer .sf-dot {
@@ -403,7 +419,9 @@ button:disabled {
 
 /* Bottom padding for main to clear the status footer */
 main {
-  padding-bottom: 28px !important;
+  padding-bottom: calc(var(--footer-h) + 12px) !important;
+  padding-left: max(8px, env(safe-area-inset-left, 0px));
+  padding-right: max(8px, env(safe-area-inset-right, 0px));
 }
 
 /* ===== Safe Area (notched iPhones / Dynamic Island) ===== */
@@ -413,9 +431,6 @@ main {
   }
   .status-footer {
     padding-bottom: calc(4px + env(safe-area-inset-bottom));
-  }
-  main {
-    padding-bottom: calc(28px + env(safe-area-inset-bottom)) !important;
   }
   .council-header {
     padding-top: calc(0.5rem + env(safe-area-inset-top));
@@ -634,9 +649,9 @@ main {
   .mobile-card-container {
     display: flex;
     flex-direction: column;
-    /* 100dvh minus: nav, search row, main top padding (8px from py-2),
-       search-to-card gap (12px margin-top below), status-footer (28px), buffer (4px) */
-    height: calc(100dvh - var(--nav-h) - var(--search-h) - 8px - 12px - 28px - 4px - env(safe-area-inset-bottom, 0px));
+    /* Reserve measured nav/search/footer heights, main top padding,
+       the search-to-card gap and bottom clearance. */
+    height: calc(100dvh - var(--nav-h) - var(--search-h) - 8px - 12px - var(--footer-h) - 12px);
     margin-top: 12px;
   }
 
@@ -869,10 +884,8 @@ main {
   .status-footer {
     padding: 5px 12px calc(5px + env(safe-area-inset-bottom, 0px));
     font-size: 9px;
-    opacity: 0.7;
-    background: rgba(32, 29, 24, 0.85);
-    -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(8px);
+    opacity: 1;
+    background: var(--c-panel);
   }
 
   /* Autocomplete: mobile overrides */

@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 33.71,
-  "consolidatedRank": 165,
+  "consolidatedRank": 166,
   "traction": {
-    "tractionRank": 124,
+    "tractionRank": 123,
     "tractionScore": 29,
-    "tractionReason": "Skills repository has 208 stars; customer adoption undisclosed"
+    "tractionReason": "208 repository stars; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/workers-io.md",

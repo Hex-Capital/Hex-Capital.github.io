@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 94,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 99,
+    "tractionRank": 104,
     "tractionScore": 40,
-    "tractionReason": "Unnamed customer confirmed fermentation finding; paid status undisclosed"
+    "tractionReason": "Customer confirmed fermentation finding; commercial terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/halmos-labs.md",

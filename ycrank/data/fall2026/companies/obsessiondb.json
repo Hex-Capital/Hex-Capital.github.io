@@ -62,8 +62,8 @@
   "consolidatedAvg": 57.71,
   "consolidatedRank": 1,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 71,
+    "tractionRank": 13,
+    "tractionScore": 69,
     "tractionReason": "Paying production customers; petabytes processed monthly"
   },
   "paths": {

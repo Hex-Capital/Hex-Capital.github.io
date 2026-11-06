@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 120,
+  "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 87,
-    "tractionScore": 43,
-    "tractionReason": "Mathews Restaurant testimonial; paid offering; revenue undisclosed"
+    "tractionRank": 85,
+    "tractionScore": 45,
+    "tractionReason": "Mathews Restaurant testimonial; company revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/shire-intelligence.md",

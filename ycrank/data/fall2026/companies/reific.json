@@ -1,0 +1,83 @@
+{
+  "slug": "reific",
+  "name": "Reific",
+  "oneLiner": "RL environments for superhuman reasoning over time",
+  "metadata": {
+    "website": "https://www.reific.co/",
+    "yc_page": "https://www.ycombinator.com/companies/reific",
+    "batch": "Fall 2026 ([GPAgent directory, via search snippet](https://www.gpagent.ai/yc/company/reific))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, Machine Learning, Reinforcement Learning, Infrastructure, AI",
+    "yc_partner": "Not listed; YC page content was not retrievable",
+    "emails": "legal@reific.co ([Company details, via search snippet](https://reific.co/company)), security@reific.co ([Security, via search snippet](https://reific.co/security))"
+  },
+  "tags": [
+    "Generative AI",
+    "Machine Learning",
+    "Reinforcement Learning",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T17:34:31.925Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 49,
+    "EG": 43,
+    "NR": 49,
+    "PG": 36,
+    "PT": 34,
+    "SL": 30,
+    "VK": 28
+  },
+  "consolidatedAvg": 38.43,
+  "consolidatedRank": 79,
+  "traction": {
+    "tractionRank": 168,
+    "tractionScore": 11,
+    "tractionReason": "Internal evaluation results; no disclosed customers or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/reific.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/reific.md",
+      "elad-gil": "fall2026/evals/elad-gil/reific.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/reific.md",
+      "paul-graham": "fall2026/evals/paul-graham/reific.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/reific.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/reific.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/reific.md"
+    }
+  }
+}

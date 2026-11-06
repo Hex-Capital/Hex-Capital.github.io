@@ -60,11 +60,11 @@
     "VK": 23
   },
   "consolidatedAvg": 32.71,
-  "consolidatedRank": 173,
+  "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 199,
-    "tractionScore": 5,
-    "tractionReason": "Coding-agent adoption undisclosed; separate-product users and contracts excluded"
+    "tractionRank": 200,
+    "tractionScore": 3,
+    "tractionReason": "Current coding-agent adoption undisclosed; separate product metrics excluded"
   },
   "paths": {
     "memo": "fall2026/memos/the-letter-company.md",

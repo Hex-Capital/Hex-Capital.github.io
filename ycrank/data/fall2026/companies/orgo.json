@@ -63,8 +63,8 @@
   "consolidatedRank": 23,
   "traction": {
     "tractionRank": 14,
-    "tractionScore": 69,
-    "tractionReason": "1,000+ teams; thousands of production desktops; paying customer identified"
+    "tractionScore": 68,
+    "tractionReason": "1,000+ teams; thousands of production desktops; confirmed paying customer"
   },
   "paths": {
     "memo": "fall2026/memos/orgo.md",

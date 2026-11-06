@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 73,
+    "tractionRank": 74,
     "tractionScore": 47,
-    "tractionReason": "Named industrial pilot; manufacturing LOI; robotic-hand integration"
+    "tractionReason": "Named industrial pilot; signed manufacturing LOI; payment undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/axonnic.md",

@@ -63,9 +63,9 @@
   "consolidatedAvg": 39.57,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 63,
+    "tractionRank": 62,
     "tractionScore": 51,
-    "tractionReason": "Fintech deployment underway; insurer engagement; revenue undisclosed"
+    "tractionReason": "Fintech model deployment underway; additional insurer engagement"
   },
   "paths": {
     "memo": "fall2026/memos/lyon.md",

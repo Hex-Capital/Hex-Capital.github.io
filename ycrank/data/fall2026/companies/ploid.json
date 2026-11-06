@@ -60,10 +60,10 @@
     "VK": 30
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 101,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 52,
+    "tractionRank": 55,
+    "tractionScore": 53,
     "tractionReason": "Thousands of companies claimed; paid/free breakdown undisclosed"
   },
   "paths": {

@@ -62,10 +62,10 @@
     "VK": 28
   },
   "consolidatedAvg": 47.86,
-  "consolidatedRank": 6,
+  "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 72,
+    "tractionRank": 7,
+    "tractionScore": 79,
     "tractionReason": "Five-figure monthly contracts with Envoy and Fieldguide"
   },
   "paths": {

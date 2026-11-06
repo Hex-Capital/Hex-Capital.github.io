@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 166,
+  "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 148,
+    "tractionRank": 146,
     "tractionScore": 18,
-    "tractionReason": "Public launch and 317 LinkedIn followers; no adoption disclosed"
+    "tractionReason": "Public launch; no disclosed users, customers, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/aucert.md",

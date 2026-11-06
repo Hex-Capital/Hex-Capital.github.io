@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 87,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 54,
-    "tractionReason": "EY work reported; 526 repository stars; revenue undisclosed"
+    "tractionRank": 61,
+    "tractionScore": 51,
+    "tractionReason": "EY work reported; 526 stars; contract values undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/0security.md",

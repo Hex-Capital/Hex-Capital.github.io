@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.57,
   "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 20,
-    "tractionReason": "Current product launched; prior Moda's 100K+ users excluded"
+    "tractionRank": 152,
+    "tractionScore": 18,
+    "tractionReason": "New product launched; prior Moda users excluded"
   },
   "paths": {
     "memo": "fall2026/memos/voyager.md",

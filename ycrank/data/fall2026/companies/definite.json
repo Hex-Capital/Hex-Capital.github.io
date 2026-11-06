@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 155,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 20,
-    "tractionReason": "Monthly contracts offered; current customer adoption undisclosed"
+    "tractionRank": 147,
+    "tractionScore": 18,
+    "tractionReason": "Commercial terms described; current-product customers and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/definite.md",

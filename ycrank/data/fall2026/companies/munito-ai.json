@@ -60,11 +60,11 @@
     "VK": 22
   },
   "consolidatedAvg": 34.29,
-  "consolidatedRank": 150,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 15,
-    "tractionReason": "Paid tiers launched; no disclosed usage or customer counts"
+    "tractionRank": 143,
+    "tractionScore": 20,
+    "tractionReason": "Free and paid tiers launched; customer adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/munito-ai.md",

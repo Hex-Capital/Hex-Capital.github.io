@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 67,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 10,
-    "tractionReason": "Three repository stars; no disclosed users or revenue"
+    "tractionRank": 159,
+    "tractionScore": 15,
+    "tractionReason": "Three repository stars; no customer or revenue metrics"
   },
   "paths": {
     "memo": "fall2026/memos/tilo.md",

@@ -60,11 +60,11 @@
     "VK": 22
   },
   "consolidatedAvg": 31.71,
-  "consolidatedRank": 174,
+  "consolidatedRank": 185,
   "traction": {
-    "tractionRank": 148,
-    "tractionScore": 14,
-    "tractionReason": "Public launch; productivity claims lack supporting customer results"
+    "tractionRank": 152,
+    "tractionScore": 17,
+    "tractionReason": "Launched; automation claims lack disclosed customer projects"
   },
   "paths": {
     "memo": "fall2026/memos/habu.md",

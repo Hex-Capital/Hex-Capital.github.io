@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 42.14,
-  "consolidatedRank": 40,
+  "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 51,
-    "tractionReason": "Interline Hardware deployment; additional customer workflow savings reported"
+    "tractionRank": 50,
+    "tractionScore": 55,
+    "tractionReason": "Named distributor deployment; additional customer reports 50 hours saved weekly"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",

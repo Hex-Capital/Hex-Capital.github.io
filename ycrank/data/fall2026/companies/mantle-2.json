@@ -60,11 +60,11 @@
     "VK": 22
   },
   "consolidatedAvg": 36.71,
-  "consolidatedRank": 106,
+  "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 191,
-    "tractionScore": 4,
-    "tractionReason": "Founder announcements; no disclosed service customers or revenue"
+    "tractionRank": 193,
+    "tractionScore": 6,
+    "tractionReason": "Founder announcements; no service customers or revenue disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/mantle-2.md",

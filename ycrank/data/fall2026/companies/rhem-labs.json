@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 30.29,
-  "consolidatedRank": 188,
+  "consolidatedRank": 199,
   "traction": {
     "tractionRank": 133,
-    "tractionScore": 20,
-    "tractionReason": "100 Product Hunt points; no disclosed deployments or revenue"
+    "tractionScore": 25,
+    "tractionReason": "100 Product Hunt points; customer deployments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rhem-labs.md",

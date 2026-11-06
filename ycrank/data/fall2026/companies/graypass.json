@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 121,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 62,
-    "tractionReason": "Five-figure revenue, period unspecified; European pilots; customer win"
+    "tractionRank": 23,
+    "tractionScore": 65,
+    "tractionReason": "Five figures in revenue reported; European pilots"
   },
   "paths": {
     "memo": "fall2026/memos/graypass.md",

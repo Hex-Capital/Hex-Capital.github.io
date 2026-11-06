@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 71,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 24,
-    "tractionReason": "Current product launched; adoption undisclosed; prior Moda users excluded"
+    "tractionRank": 145,
+    "tractionScore": 20,
+    "tractionReason": "Current product launched; prior Moda's 100K+ users excluded"
   },
   "paths": {
     "memo": "fall2026/memos/voyager.md",

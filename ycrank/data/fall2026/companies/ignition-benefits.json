@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 69,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 53,
-    "tractionReason": "Two named customer brokerage engagements; recurring qualified inbound leads"
+    "tractionRank": 48,
+    "tractionScore": 55,
+    "tractionReason": "Two named brokerage customers; recurring inbound leads; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ignition-benefits.md",

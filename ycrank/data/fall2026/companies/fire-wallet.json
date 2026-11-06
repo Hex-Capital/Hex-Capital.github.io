@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 98,
+  "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 42,
-    "tractionReason": "Signed Trustboop LOI; enterprise prospects; no processed-volume evidence"
+    "tractionRank": 100,
+    "tractionScore": 40,
+    "tractionReason": "Signed Trustboop LOI; prospective volumes excluded from realized traction"
   },
   "paths": {
     "memo": "fall2026/memos/fire-wallet.md",

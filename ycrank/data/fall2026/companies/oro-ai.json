@@ -60,11 +60,11 @@
     "VK": 35
   },
   "consolidatedAvg": 44.71,
-  "consolidatedRank": 17,
+  "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 46,
-    "tractionReason": "345+ competing agents; 4.89M scored trajectories; revenue undisclosed"
+    "tractionRank": 91,
+    "tractionScore": 42,
+    "tractionReason": "345+ competing agents; four completed competitions; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/oro-ai.md",

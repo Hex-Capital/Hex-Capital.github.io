@@ -62,11 +62,11 @@
     "VK": 32
   },
   "consolidatedAvg": 42.71,
-  "consolidatedRank": 32,
+  "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 41,
-    "tractionReason": "Solar developer deployment reported; realized company revenue undisclosed"
+    "tractionRank": 86,
+    "tractionScore": 43,
+    "tractionReason": "Midwest solar developer deployment reported; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ryhla.md",

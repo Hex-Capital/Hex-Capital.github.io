@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 28,
+  "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 23,
+    "tractionRank": 27,
     "tractionScore": 63,
-    "tractionReason": "$10M+ payments processed; 25 early clients; named customers"
+    "tractionReason": "$10M+ processed payments; 25 pre-launch clients; named customers"
   },
   "paths": {
     "memo": "fall2026/memos/blinka.md",

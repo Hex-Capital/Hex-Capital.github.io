@@ -1,0 +1,83 @@
+{
+  "slug": "adalat-ai",
+  "name": "Adalat AI",
+  "oneLiner": "AI OS transforming courts, accelerating justice",
+  "metadata": {
+    "website": "https://adalat.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/adalat-ai",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/industry/government))",
+    "industry": "Government / Government",
+    "team_size": "80",
+    "location": "Bengaluru, KA, India; Remote",
+    "tags": "GovTech, Nonprofit, Legal, NLP, AI",
+    "yc_partner": "Not listed; company profile could not be retrieved",
+    "emails": "support@adalat.ai ([website](https://www.adalat.ai/)); security@adalat.ai ([security page](https://www.adalat.ai/security)); tech@adalat.ai ([Google Play](https://play.google.com/store/apps/details?id=com.adalatai.app)); careers@adalat.ai ([team post](https://www.linkedin.com/posts/asthakhurana_our-new-website-is-live-adalat-ai-is-activity-7327929523746885632-ZeAz)); utkarsh@adalat.ai, arghya@adalat.ai, kush@adalat.ai, sai@adalat.ai ([team publication, 2025](https://aclanthology.org/anthology-files/pdf/nllp/2025.nllp-1.26.pdf))"
+  },
+  "tags": [
+    "GovTech",
+    "Nonprofit",
+    "Legal",
+    "NLP",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T06:34:51.613Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 51,
+    "EG": 43,
+    "NR": 43,
+    "PG": 59,
+    "PT": 29,
+    "SL": 40,
+    "VK": 33
+  },
+  "consolidatedAvg": 42.57,
+  "consolidatedRank": 35,
+  "traction": {
+    "tractionRank": 65,
+    "tractionScore": 50,
+    "tractionReason": "6,300+ courtrooms reported; court software free under pro bono agreements"
+  },
+  "paths": {
+    "memo": "fall2026/memos/adalat-ai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/adalat-ai.md",
+      "elad-gil": "fall2026/evals/elad-gil/adalat-ai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/adalat-ai.md",
+      "paul-graham": "fall2026/evals/paul-graham/adalat-ai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/adalat-ai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/adalat-ai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/adalat-ai.md"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "reason-machines",
+  "name": "Reason Machines",
+  "oneLiner": "Reason is the AI teammate for work and code.",
+  "metadata": {
+    "website": "https://reasonmachines.com",
+    "yc_page": "https://www.ycombinator.com/companies/reason-machines",
+    "batch": "Fall 2026 in current [YC jobs metadata](https://www.ycombinator.com/companies/reason-machines/jobs); Spring 2026 in [earlier listings](https://ycwatcher.info/en/companies/reason-machines)",
+    "industry": "B2B / B2B -> Productivity",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Enterprise Software, Cloud Computing",
+    "yc_partner": "Aaron Epstein ([YC founder profile](https://www.ycombinator.com/founders/adifounder))",
+    "emails": "contact@reasonmachines.com ([website](https://reasonmachines.com)); adi@reasonmachines.com ([Adi’s website](https://www.adisingh.com/)); sven@reasonmachines.com ([Sven’s LinkedIn](https://www.linkedin.com/in/svemyh), via search snippet)"
+  },
+  "tags": [
+    "Developer Tools",
+    "Enterprise Software",
+    "Cloud Computing"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T06:38:34.442Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 60,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 60,
+    "NR": 44,
+    "PG": 46,
+    "PT": 42,
+    "SL": 31,
+    "VK": 29
+  },
+  "consolidatedAvg": 41.86,
+  "consolidatedRank": 45,
+  "traction": {
+    "tractionRank": 54,
+    "tractionScore": 54,
+    "tractionReason": "10,000 users and 300 active customer Slack channels reported"
+  },
+  "paths": {
+    "memo": "fall2026/memos/reason-machines.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/reason-machines.md",
+      "elad-gil": "fall2026/evals/elad-gil/reason-machines.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/reason-machines.md",
+      "paul-graham": "fall2026/evals/paul-graham/reason-machines.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/reason-machines.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/reason-machines.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/reason-machines.md"
+    }
+  }
+}

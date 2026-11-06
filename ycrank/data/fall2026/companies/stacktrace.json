@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 115,
+  "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 90,
+    "tractionRank": 97,
     "tractionScore": 40,
-    "tractionReason": "Design partners running agents; contracts and deployment counts undisclosed"
+    "tractionReason": "Design partners running agents locally and in cloud"
   },
   "paths": {
     "memo": "fall2026/memos/stacktrace.md",

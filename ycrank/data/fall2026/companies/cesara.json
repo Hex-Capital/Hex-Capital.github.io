@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 94,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 44,
-    "tractionReason": "Outcome-based pilots report recoveries; revenue and cohort undisclosed"
+    "tractionRank": 83,
+    "tractionScore": 43,
+    "tractionReason": "Outcome-based pilots report underpayment recoveries; cohort and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cesara.md",

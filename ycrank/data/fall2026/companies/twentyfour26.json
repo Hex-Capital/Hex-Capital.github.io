@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 123,
+  "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 39,
-    "tractionReason": "Taking manufacturing orders; quantities, shipments, and receipts undisclosed"
+    "tractionRank": 89,
+    "tractionScore": 43,
+    "tractionReason": "Taking manufacturing orders after pivot; quantities and receipts undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/twentyfour26.md",

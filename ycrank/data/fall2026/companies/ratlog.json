@@ -58,11 +58,11 @@
     "VK": 42
   },
   "consolidatedAvg": 45.29,
-  "consolidatedRank": 15,
+  "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 32,
+    "tractionRank": 34,
     "tractionScore": 59,
-    "tractionReason": "$400M signed reservations; payment and cancellation terms undisclosed"
+    "tractionReason": "$400M signed launch reservations; payment and cancellation terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ratlog.md",

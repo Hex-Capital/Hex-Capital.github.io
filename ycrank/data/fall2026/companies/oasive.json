@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 127,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 30,
-    "tractionReason": "Municipal adoption undisclosed; 15 desks reported for MBS/rates"
+    "tractionRank": 157,
+    "tractionScore": 15,
+    "tractionReason": "Municipal adoption undisclosed; earlier MBS/rates desk usage excluded"
   },
   "paths": {
     "memo": "fall2026/memos/oasive.md",

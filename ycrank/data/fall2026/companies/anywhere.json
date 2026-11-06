@@ -1,0 +1,80 @@
+{
+  "slug": "anywhere",
+  "name": "Anywhere",
+  "oneLiner": "Your places, plans, friends and memories, all on one living map",
+  "metadata": {
+    "website": "http://anywhere.fenn.chat",
+    "yc_page": "https://www.ycombinator.com/companies/anywhere",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/anywhere))",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Social, Conversational AI",
+    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/anywhere))",
+    "emails": "c@fenn.chat ([Anywhere privacy policy](https://anywhere.fenn.chat/privacy))"
+  },
+  "tags": [
+    "Social",
+    "Conversational AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T06:36:29.609Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 34,
+    "NR": 42,
+    "PG": 38,
+    "PT": 28,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 34.86,
+  "consolidatedRank": 144,
+  "traction": {
+    "tractionRank": 139,
+    "tractionScore": 22,
+    "tractionReason": "Four iOS ratings; newly launched free app"
+  },
+  "paths": {
+    "memo": "fall2026/memos/anywhere.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/anywhere.md",
+      "elad-gil": "fall2026/evals/elad-gil/anywhere.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/anywhere.md",
+      "paul-graham": "fall2026/evals/paul-graham/anywhere.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/anywhere.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/anywhere.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/anywhere.md"
+    }
+  }
+}

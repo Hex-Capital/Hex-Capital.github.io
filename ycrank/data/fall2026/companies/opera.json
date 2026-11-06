@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 84,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 32,
-    "tractionReason": "Operational-data case studies; no confirmed paid production deployments"
+    "tractionRank": 111,
+    "tractionScore": 35,
+    "tractionReason": "Operational-data results reported; current paying deployments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/opera.md",

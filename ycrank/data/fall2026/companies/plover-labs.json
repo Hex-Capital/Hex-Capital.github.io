@@ -1,0 +1,83 @@
+{
+  "slug": "plover-labs",
+  "name": "Plover Labs",
+  "oneLiner": "Enable enterprises to ship agent code without human review",
+  "metadata": {
+    "website": "https://ploverlabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/plover-labs",
+    "batch": "Fall 2026 ([YC, Nov. 2026, via search snippet](https://www.ycombinator.com/companies/plover-labs))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, Enterprise, Enterprise Software, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/plover-labs))",
+    "emails": "edward@edwardahn.me ([founder website](https://edwardahn.me/))"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Enterprise",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T06:34:21.561Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 59,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 62,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 54,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 59,
+    "EG": 62,
+    "NR": 50,
+    "PG": 54,
+    "PT": 41,
+    "SL": 41,
+    "VK": 28
+  },
+  "consolidatedAvg": 47.86,
+  "consolidatedRank": 6,
+  "traction": {
+    "tractionRank": 9,
+    "tractionScore": 72,
+    "tractionReason": "Five-figure monthly contracts with Envoy and Fieldguide"
+  },
+  "paths": {
+    "memo": "fall2026/memos/plover-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/plover-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/plover-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/plover-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/plover-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/plover-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/plover-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/plover-labs.md"
+    }
+  }
+}

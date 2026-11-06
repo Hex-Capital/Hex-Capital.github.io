@@ -1,0 +1,83 @@
+{
+  "slug": "trepo",
+  "name": "Trepo",
+  "oneLiner": "The agentic grocery shopper that knows what you have and need.",
+  "metadata": {
+    "website": "https://hellotrepo.com/",
+    "yc_page": "https://www.ycombinator.com/companies/trepo",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/trepo))",
+    "industry": "Consumer / Consumer",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Grocery, Hardware, Consumer, E-commerce, AI",
+    "yc_partner": "Andrew Miklas ([YC, via search snippet](https://www.ycombinator.com/companies/trepo))",
+    "emails": "hello@trepo.ai, founders@trepo.ai ([Trepo website](https://hellotrepo.com/), [App Store](https://apps.apple.com/us/app/trepo/id6764135986))"
+  },
+  "tags": [
+    "Grocery",
+    "Hardware",
+    "Consumer",
+    "E-commerce",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T06:33:32.679Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 30,
+    "EG": 37,
+    "NR": 44,
+    "PG": 43,
+    "PT": 32,
+    "SL": 36,
+    "VK": 25
+  },
+  "consolidatedAvg": 35.29,
+  "consolidatedRank": 139,
+  "traction": {
+    "tractionRank": 49,
+    "tractionScore": 55,
+    "tractionReason": "Six hardware beta batches sold out; 150,000+ item check-ins"
+  },
+  "paths": {
+    "memo": "fall2026/memos/trepo.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/trepo.md",
+      "elad-gil": "fall2026/evals/elad-gil/trepo.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/trepo.md",
+      "paul-graham": "fall2026/evals/paul-graham/trepo.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/trepo.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/trepo.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/trepo.md"
+    }
+  }
+}

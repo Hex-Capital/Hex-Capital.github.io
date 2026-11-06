@@ -1,0 +1,82 @@
+{
+  "slug": "openlake-technologies",
+  "name": "OpenLake Technologies",
+  "oneLiner": "OpenLake deploys, trains, and serves models that update in real time.",
+  "metadata": {
+    "website": "https://openlakehq.com",
+    "yc_page": "https://www.ycombinator.com/companies/openlake-technologies",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/openlake-technologies))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Generative AI, SaaS, Big Data, Infrastructure",
+    "yc_partner": "Pete Koomen ([YC, via search snippet](https://www.ycombinator.com/companies/openlake-technologies))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Generative AI",
+    "SaaS",
+    "Big Data",
+    "Infrastructure"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T06:32:41.491Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 26,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 37,
+    "EG": 28,
+    "NR": 42,
+    "PG": 36,
+    "PT": 26,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 32,
+  "consolidatedRank": 182,
+  "traction": {
+    "tractionRank": 195,
+    "tractionScore": 6,
+    "tractionReason": "Current training-platform adoption undisclosed; earlier storage stars excluded"
+  },
+  "paths": {
+    "memo": "fall2026/memos/openlake-technologies.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/openlake-technologies.md",
+      "elad-gil": "fall2026/evals/elad-gil/openlake-technologies.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/openlake-technologies.md",
+      "paul-graham": "fall2026/evals/paul-graham/openlake-technologies.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/openlake-technologies.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/openlake-technologies.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/openlake-technologies.md"
+    }
+  }
+}

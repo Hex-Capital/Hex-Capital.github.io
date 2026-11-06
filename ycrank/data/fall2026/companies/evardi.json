@@ -1,0 +1,81 @@
+{
+  "slug": "evardi",
+  "name": "Evardi",
+  "oneLiner": "Agents that engineer the grid edge",
+  "metadata": {
+    "website": "https://evardi.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/evardi",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/evardi))",
+    "industry": "Industrials / Industrials -> Energy",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Smart Grid, Energy, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/evardi))",
+    "emails": "contact@evardi.ai ([Evardi](https://evardi.ai/))"
+  },
+  "tags": [
+    "Smart Grid",
+    "Energy",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-06T06:34:01.556Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 56,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 52,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 56,
+    "EG": 52,
+    "NR": 45,
+    "PG": 41,
+    "PT": 33,
+    "SL": 31,
+    "VK": 36
+  },
+  "consolidatedAvg": 42,
+  "consolidatedRank": 44,
+  "traction": {
+    "tractionRank": 95,
+    "tractionScore": 41,
+    "tractionReason": "Utility deployment footprint claimed; published outcome studies are simulations"
+  },
+  "paths": {
+    "memo": "fall2026/memos/evardi.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/evardi.md",
+      "elad-gil": "fall2026/evals/elad-gil/evardi.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/evardi.md",
+      "paul-graham": "fall2026/evals/paul-graham/evardi.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/evardi.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/evardi.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/evardi.md"
+    }
+  }
+}

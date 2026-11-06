@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 30.86,
-  "consolidatedRank": 185,
+  "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 9,
-    "tractionReason": "Hiring and 94 followers; no disclosed trucking revenue"
+    "tractionRank": 187,
+    "tractionScore": 8,
+    "tractionReason": "Hiring and company presence; no shipments or revenue disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/truemile.md",

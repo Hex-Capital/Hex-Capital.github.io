@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 50,
+  "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 64,
-    "tractionReason": "80+ customers within six months; completed tax-service engagements"
+    "tractionRank": 15,
+    "tractionScore": 68,
+    "tractionReason": "80+ customers in six months; named completed engagement"
   },
   "paths": {
     "memo": "fall2026/memos/claimkit.md",

@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31,
-  "consolidatedRank": 182,
+  "consolidatedRank": 193,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 34,
-    "tractionReason": "Hyperscaler and manufacturer engagements claimed; deployments and payments undisclosed"
+    "tractionRank": 121,
+    "tractionScore": 31,
+    "tractionReason": "Hyperscaler and manufacturer work claimed; deployments and payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/shepherd-robotics.md",

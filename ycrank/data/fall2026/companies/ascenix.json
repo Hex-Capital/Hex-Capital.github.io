@@ -59,11 +59,11 @@
     "VK": 31
   },
   "consolidatedAvg": 46.14,
-  "consolidatedRank": 12,
+  "consolidatedRank": 13,
   "traction": {
-    "tractionRank": 21,
+    "tractionRank": 25,
     "tractionScore": 64,
-    "tractionReason": "50–55 facilities deployed; named 12-community customer rollout"
+    "tractionReason": "50–55 facilities; named deployment across 12 communities"
   },
   "paths": {
     "memo": "fall2026/memos/ascenix.md",

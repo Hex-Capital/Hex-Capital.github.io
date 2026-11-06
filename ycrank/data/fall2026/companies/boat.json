@@ -59,11 +59,11 @@
     "VK": 33
   },
   "consolidatedAvg": 46.86,
-  "consolidatedRank": 10,
+  "consolidatedRank": 11,
   "traction": {
     "tractionRank": 6,
-    "tractionScore": 80,
-    "tractionReason": "Six-figure ARR; 1,000+ active paying users"
+    "tractionScore": 78,
+    "tractionReason": "Six-figure ARR reported; 1,000+ active paying users"
   },
   "paths": {
     "memo": "fall2026/memos/boat.md",

@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 134,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 33,
-    "tractionReason": "256 repository stars; 53 Hacker News points; revenue undisclosed"
+    "tractionRank": 119,
+    "tractionScore": 32,
+    "tractionReason": "256 repository stars; 53 Hacker News points"
   },
   "paths": {
     "memo": "fall2026/memos/useterse.md",

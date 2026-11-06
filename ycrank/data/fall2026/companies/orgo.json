@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 44,
-  "consolidatedRank": 22,
+  "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 59,
-    "tractionReason": "1,000+ teams; thousands of production desktops; confirmed paying customer"
+    "tractionRank": 14,
+    "tractionScore": 69,
+    "tractionReason": "1,000+ teams; thousands of production desktops; paying customer identified"
   },
   "paths": {
     "memo": "fall2026/memos/orgo.md",

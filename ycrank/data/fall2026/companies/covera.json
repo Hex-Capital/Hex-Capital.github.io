@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 20,
+  "consolidatedRank": 21,
   "traction": {
     "tractionRank": 35,
-    "tractionScore": 58,
-    "tractionReason": "50+ agencies; named customer recorded 155 tasks over two weeks"
+    "tractionScore": 59,
+    "tractionReason": "50+ agencies; named customer logged 155 tasks in two weeks"
   },
   "paths": {
     "memo": "fall2026/memos/covera.md",

@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 33.71,
-  "consolidatedRank": 156,
+  "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 30,
-    "tractionReason": "208 repository stars; 32 forks; no disclosed customers"
+    "tractionRank": 124,
+    "tractionScore": 29,
+    "tractionReason": "Skills repository has 208 stars; customer adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/workers-io.md",

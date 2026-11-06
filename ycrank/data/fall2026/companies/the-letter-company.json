@@ -60,10 +60,10 @@
     "VK": 23
   },
   "consolidatedAvg": 32.71,
-  "consolidatedRank": 164,
+  "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 8,
+    "tractionRank": 199,
+    "tractionScore": 5,
     "tractionReason": "Coding-agent adoption undisclosed; separate-product users and contracts excluded"
   },
   "paths": {

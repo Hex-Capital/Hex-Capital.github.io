@@ -58,11 +58,11 @@
     "VK": 32
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 70,
+  "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 17,
-    "tractionReason": "Public beta launched; no disclosed users or revenue"
+    "tractionRank": 151,
+    "tractionScore": 18,
+    "tractionReason": "Public beta available; user and revenue counts undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/taanai.md",

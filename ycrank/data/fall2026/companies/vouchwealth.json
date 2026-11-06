@@ -58,11 +58,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.57,
-  "consolidatedRank": 193,
+  "consolidatedRank": 204,
   "traction": {
-    "tractionRank": 192,
+    "tractionRank": 206,
     "tractionScore": 3,
-    "tractionReason": "App launch pending licensing; no disclosed users or revenue"
+    "tractionReason": "App launch planned, subject to licensing; no adoption disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/vouchwealth.md",

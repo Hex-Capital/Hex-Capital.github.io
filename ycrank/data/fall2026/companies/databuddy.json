@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 43.14,
-  "consolidatedRank": 24,
+  "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 17,
+    "tractionRank": 21,
     "tractionScore": 66,
-    "tractionReason": "$3,125 MRR, $37,500 ARR; 35 active subscriptions"
+    "tractionReason": "$3,125 MRR; 35 active subscriptions verified through Stripe"
   },
   "paths": {
     "memo": "fall2026/memos/databuddy.md",

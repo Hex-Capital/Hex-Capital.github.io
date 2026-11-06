@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 38,
+  "consolidatedRank": 41,
   "traction": {
     "tractionRank": 29,
-    "tractionScore": 60,
-    "tractionReason": "10 active clients across four countries; recurring service pricing"
+    "tractionScore": 62,
+    "tractionReason": "10 active clients across four countries"
   },
   "paths": {
     "memo": "fall2026/memos/sintropix.md",

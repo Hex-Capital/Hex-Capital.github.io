@@ -62,11 +62,11 @@
     "VK": 23
   },
   "consolidatedAvg": 32.86,
-  "consolidatedRank": 163,
+  "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 16,
-    "tractionReason": "One iOS rating; hardware preorders offered; sales undisclosed"
+    "tractionRank": 140,
+    "tractionScore": 21,
+    "tractionReason": "One iOS rating; hardware preorders offered, order count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/vexo.md",

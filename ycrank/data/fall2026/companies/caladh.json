@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.14,
-  "consolidatedRank": 161,
+  "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 197,
+    "tractionRank": 210,
     "tractionScore": 1,
-    "tractionReason": "YC participation only; no disclosed commercial traction"
+    "tractionReason": "No customers, contracts, deployments, or revenue disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/caladh.md",

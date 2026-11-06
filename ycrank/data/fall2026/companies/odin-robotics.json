@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.57,
-  "consolidatedRank": 165,
+  "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 139,
-    "tractionScore": 18,
-    "tractionReason": "CNC and packing demonstrations; no customer deployment count"
+    "tractionRank": 170,
+    "tractionScore": 13,
+    "tractionReason": "CNC and packing demonstrations; no customer deployments disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/odin-robotics.md",

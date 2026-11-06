@@ -60,10 +60,10 @@
     "VK": 32
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 36,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 45,
+    "tractionRank": 73,
+    "tractionScore": 47,
     "tractionReason": "Named industrial pilot; manufacturing LOI; robotic-hand integration"
   },
   "paths": {

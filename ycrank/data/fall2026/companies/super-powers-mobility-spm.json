@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 42.43,
-  "consolidatedRank": 34,
+  "consolidatedRank": 37,
   "traction": {
     "tractionRank": 3,
-    "tractionScore": 93,
-    "tractionReason": "$421,815 realized battery-product revenue in one month"
+    "tractionScore": 94,
+    "tractionReason": "$421,815 realized battery revenue in one month"
   },
   "paths": {
     "memo": "fall2026/memos/super-powers-mobility-spm.md",

@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 54,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 37,
+    "tractionRank": 40,
     "tractionScore": 57,
-    "tractionReason": "Largest customer runs 3M conversations daily; payment undisclosed"
+    "tractionReason": "Largest customer runs 3M agent conversations daily; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/routerplus.md",

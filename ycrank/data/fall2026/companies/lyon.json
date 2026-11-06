@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.57,
-  "consolidatedRank": 61,
+  "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 50,
-    "tractionReason": "Enterprise fintech deployment underway; additional major insurer engagement"
+    "tractionRank": 63,
+    "tractionScore": 51,
+    "tractionReason": "Fintech deployment underway; insurer engagement; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/lyon.md",

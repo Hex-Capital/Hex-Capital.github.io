@@ -62,8 +62,8 @@
   "consolidatedRank": 4,
   "traction": {
     "tractionRank": 8,
-    "tractionScore": 76,
-    "tractionReason": "$150K+ cumulative revenue; paying teams at 10+ institutions"
+    "tractionScore": 80,
+    "tractionReason": "$150K+ cumulative revenue over recent months; 10+ paying institutions"
   },
   "paths": {
     "memo": "fall2026/memos/sutrix.md",

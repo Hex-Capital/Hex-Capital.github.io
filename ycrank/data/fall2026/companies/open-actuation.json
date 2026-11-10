@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 101,
+  "consolidatedRank": 103,
   "traction": {
     "tractionRank": 91,
     "tractionScore": 43,
-    "tractionReason": "Motors built for unnamed OEMs; initial customer samples"
+    "tractionReason": "Motors built for unnamed OEMs; initial samples receiving customer feedback"
   },
   "paths": {
     "memo": "fall2026/memos/open-actuation.md",

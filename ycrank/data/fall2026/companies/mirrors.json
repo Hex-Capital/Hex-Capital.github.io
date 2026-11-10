@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 157,
+  "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 50,
-    "tractionReason": "711,933 agent sessions displayed; period and product allocation undisclosed"
+    "tractionRank": 88,
+    "tractionScore": 44,
+    "tractionReason": "711,933 agent sessions; product allocation and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/mirrors.md",

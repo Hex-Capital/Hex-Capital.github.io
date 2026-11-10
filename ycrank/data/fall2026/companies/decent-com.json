@@ -64,9 +64,9 @@
   "consolidatedAvg": 44.43,
   "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 57,
-    "tractionReason": "67 companies working with brokerage; named customer testimonials"
+    "tractionRank": 30,
+    "tractionScore": 62,
+    "tractionReason": "67 companies working with brokerage; named customer savings testimonials"
   },
   "paths": {
     "memo": "fall2026/memos/decent-com.md",

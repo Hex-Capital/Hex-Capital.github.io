@@ -59,10 +59,10 @@
     "VK": 28
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 141,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 204,
-    "tractionScore": 2,
+    "tractionRank": 212,
+    "tractionScore": 4,
     "tractionReason": "Current CRO adoption undisclosed; earlier matching-product pilots excluded"
   },
   "paths": {

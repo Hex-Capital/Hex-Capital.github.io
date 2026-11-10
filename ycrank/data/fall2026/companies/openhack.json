@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 105,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 45,
-    "tractionReason": "Six displayed customer/team logos; 430 repository stars"
+    "tractionRank": 93,
+    "tractionScore": 42,
+    "tractionReason": "Six displayed team logos; 430 repository stars; payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/openhack.md",

@@ -59,11 +59,11 @@
     "VK": 29
   },
   "consolidatedAvg": 40.71,
-  "consolidatedRank": 55,
+  "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 65,
-    "tractionReason": "80+ customers across two countries within six months"
+    "tractionRank": 12,
+    "tractionScore": 71,
+    "tractionReason": "80+ tax-service customers across two countries within six months"
   },
   "paths": {
     "memo": "fall2026/memos/claimkit.md",

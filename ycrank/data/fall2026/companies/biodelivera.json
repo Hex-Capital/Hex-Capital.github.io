@@ -1,0 +1,81 @@
+{
+  "slug": "biodelivera",
+  "name": "BioDelivera",
+  "oneLiner": "Programmable drug delivery precisely targets only diseased cells",
+  "metadata": {
+    "website": "https://biodelivera.com/",
+    "yc_page": "https://www.ycombinator.com/companies/biodelivera",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera))",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Gene Therapy, Cell Therapy, Drug Delivery",
+    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera))",
+    "emails": "founders@biodelivera.com — shared contact ([company website](https://biodelivera.com/))"
+  },
+  "tags": [
+    "Gene Therapy",
+    "Cell Therapy",
+    "Drug Delivery"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:56:08.935Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 33,
+    "NR": 50,
+    "PG": 38,
+    "PT": 37,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 36.57,
+  "consolidatedRank": 119,
+  "traction": {
+    "tractionRank": 199,
+    "tractionScore": 6,
+    "tractionReason": "Research efficacy claims; no disclosed commercial partnerships or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/biodelivera.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/biodelivera.md",
+      "elad-gil": "fall2026/evals/elad-gil/biodelivera.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/biodelivera.md",
+      "paul-graham": "fall2026/evals/paul-graham/biodelivera.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/biodelivera.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/biodelivera.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/biodelivera.md"
+    }
+  }
+}

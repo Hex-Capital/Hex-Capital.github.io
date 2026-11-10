@@ -1,0 +1,81 @@
+{
+  "slug": "rezora-io",
+  "name": "Rezora IO",
+  "oneLiner": "AI voice agents for home services and real estate",
+  "metadata": {
+    "website": "https://rezora.io/",
+    "yc_page": "https://www.ycombinator.com/companies/rezora-io",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/rezora-io))",
+    "industry": "B2B / B2B",
+    "team_size": "5",
+    "location": "New York City, NY, USA; Remote",
+    "tags": "SaaS, AI, AI Assistant",
+    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/rezora-io))",
+    "emails": "info@rezora.io — general and privacy inquiries ([Rezora Privacy Policy](https://rezora.io/privacy-policy))"
+  },
+  "tags": [
+    "SaaS",
+    "AI",
+    "AI Assistant"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:55:59.065Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 43,
+    "EG": 43,
+    "NR": 48,
+    "PG": 46,
+    "PT": 28,
+    "SL": 36,
+    "VK": 27
+  },
+  "consolidatedAvg": 38.71,
+  "consolidatedRank": 76,
+  "traction": {
+    "tractionRank": 27,
+    "tractionScore": 62,
+    "tractionReason": "2,400+ users or teams; reported revenue has predecessor attribution ambiguity"
+  },
+  "paths": {
+    "memo": "fall2026/memos/rezora-io.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/rezora-io.md",
+      "elad-gil": "fall2026/evals/elad-gil/rezora-io.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/rezora-io.md",
+      "paul-graham": "fall2026/evals/paul-graham/rezora-io.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/rezora-io.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/rezora-io.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/rezora-io.md"
+    }
+  }
+}

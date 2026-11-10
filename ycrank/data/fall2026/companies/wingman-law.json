@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 136,
+  "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 5,
-    "tractionReason": "No disclosed clients, recoveries, or revenue"
+    "tractionRank": 215,
+    "tractionScore": 4,
+    "tractionReason": "No disclosed clients, recoveries, or realized contingency revenue"
   },
   "paths": {
     "memo": "fall2026/memos/wingman-law.md",

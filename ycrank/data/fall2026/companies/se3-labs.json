@@ -1,0 +1,81 @@
+{
+  "slug": "se3-labs",
+  "name": "SE3 Labs",
+  "oneLiner": "Real-World RL Environments for Physical AI",
+  "metadata": {
+    "website": "https://se3labs.ai",
+    "yc_page": "https://www.ycombinator.com/companies/se3-labs",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/se3-labs))",
+    "industry": "B2B / B2B",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotic Process Automation, Enterprise, AI",
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/se3-labs))",
+    "emails": "conan@se3labs.ai — general, privacy, and contractual contact; founder ownership unverified ([SE3 Terms](https://se3labs.ai/terms/))"
+  },
+  "tags": [
+    "Robotic Process Automation",
+    "Enterprise",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:56:48.626Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 36,
+    "NR": 30,
+    "PG": 43,
+    "PT": 27,
+    "SL": 28,
+    "VK": 28
+  },
+  "consolidatedAvg": 33.29,
+  "consolidatedRank": 178,
+  "traction": {
+    "tractionRank": 182,
+    "tractionScore": 10,
+    "tractionReason": "Robot evaluation episodes published; no disclosed paying customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/se3-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/se3-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/se3-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/se3-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/se3-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/se3-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/se3-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/se3-labs.md"
+    }
+  }
+}

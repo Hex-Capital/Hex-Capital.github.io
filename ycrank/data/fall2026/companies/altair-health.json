@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 97,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 77,
+    "tractionRank": 82,
     "tractionScore": 46,
-    "tractionReason": "Live billing practice; client collections disclosed, own revenue undisclosed"
+    "tractionReason": "Billing deployed at substance-use practice; client collections aren't company revenue"
   },
   "paths": {
     "memo": "fall2026/memos/altair-health.md",

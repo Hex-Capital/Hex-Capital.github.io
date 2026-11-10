@@ -1,0 +1,83 @@
+{
+  "slug": "alkera-ai",
+  "name": "Alkera AI",
+  "oneLiner": "Reliable and safe data engineering and data science agents",
+  "metadata": {
+    "website": "https://alkera.ai",
+    "yc_page": "https://www.ycombinator.com/companies/alkera-ai",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/alkera-ai))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Data Science, Data Engineering, Enterprise Software, AI",
+    "yc_partner": "Ankit Gupta ([YC directory](https://www.ycombinator.com/companies/alkera-ai))",
+    "emails": "andrew@alkera.ai — CTO business ([founder website](https://andrewtrandev.com/)); contact@alkera.ai — support; security@alkera.ai — vulnerability reporting ([Alkera Support](https://www.alkera.ai/support))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Data Science",
+    "Data Engineering",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:59:51.944Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 38,
+    "NR": 49,
+    "PG": 39,
+    "PT": 35,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 37,
+  "consolidatedRank": 109,
+  "traction": {
+    "tractionRank": 128,
+    "tractionScore": 26,
+    "tractionReason": "Databench has 13 stars; 475 Product Hunt followers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/alkera-ai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/alkera-ai.md",
+      "elad-gil": "fall2026/evals/elad-gil/alkera-ai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/alkera-ai.md",
+      "paul-graham": "fall2026/evals/paul-graham/alkera-ai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/alkera-ai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/alkera-ai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/alkera-ai.md"
+    }
+  }
+}

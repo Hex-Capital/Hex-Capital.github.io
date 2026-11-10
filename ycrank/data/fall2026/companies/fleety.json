@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 94,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 33,
-    "tractionScore": 60,
-    "tractionReason": "Three named customer references; shops across two states"
+    "tractionRank": 37,
+    "tractionScore": 59,
+    "tractionReason": "Three named plumbing customers; operating across California and Florida"
   },
   "paths": {
     "memo": "fall2026/memos/fleety.md",

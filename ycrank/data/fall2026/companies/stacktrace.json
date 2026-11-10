@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 122,
+  "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 42,
-    "tractionReason": "Design partners running agents; counts and contracts undisclosed"
+    "tractionRank": 106,
+    "tractionScore": 40,
+    "tractionReason": "Design partners running agents; names, contracts, and counts undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/stacktrace.md",

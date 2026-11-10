@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 129,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 42,
-    "tractionReason": "Live-bank integration claimed; institution and revenue undisclosed"
+    "tractionRank": 103,
+    "tractionScore": 40,
+    "tractionReason": "Live-bank integration claimed; institution and commercial terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hickory-and-company.md",

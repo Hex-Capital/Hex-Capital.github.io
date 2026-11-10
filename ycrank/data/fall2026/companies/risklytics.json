@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.14,
   "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 34,
+    "tractionRank": 35,
     "tractionScore": 60,
-    "tractionReason": "Three companies obtained coverage; carrier commission model"
+    "tractionReason": "Three companies obtained coverage; nearly 50 application users"
   },
   "paths": {
     "memo": "fall2026/memos/risklytics.md",

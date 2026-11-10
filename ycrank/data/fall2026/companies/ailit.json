@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 137,
+  "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 5,
-    "tractionReason": "No disclosed customers, deployments, or revenue"
+    "tractionRank": 197,
+    "tractionScore": 6,
+    "tractionReason": "No disclosed customer deployments, orders, or booked revenue"
   },
   "paths": {
     "memo": "fall2026/memos/ailit.md",

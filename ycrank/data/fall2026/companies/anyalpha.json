@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 176,
+  "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 22,
-    "tractionReason": "Shared app has 42 ratings; current-product adoption unisolated"
+    "tractionRank": 137,
+    "tractionScore": 23,
+    "tractionReason": "Shared app has 100+ downloads; current-product adoption cannot be isolated"
   },
   "paths": {
     "memo": "fall2026/memos/anyalpha.md",

@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.14,
-  "consolidatedRank": 172,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 169,
-    "tractionScore": 11,
-    "tractionReason": "Personal wear test; current-product orders and partnerships unverified"
+    "tractionRank": 193,
+    "tractionScore": 8,
+    "tractionReason": "Founder wear test; no verified partnerships or disclosed preorder count"
   },
   "paths": {
     "memo": "fall2026/memos/stasis.md",

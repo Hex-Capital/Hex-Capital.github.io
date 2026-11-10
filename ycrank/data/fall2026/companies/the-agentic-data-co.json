@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 41.29,
-  "consolidatedRank": 50,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 41,
-    "tractionReason": "Public sample downloaded 3,022 times monthly; commercial revenue undisclosed"
+    "tractionRank": 112,
+    "tractionScore": 36,
+    "tractionReason": "Public sample has 3,022 monthly downloads; commercial license revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/the-agentic-data-co.md",

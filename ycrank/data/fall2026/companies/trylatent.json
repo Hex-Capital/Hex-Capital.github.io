@@ -58,11 +58,11 @@
     "VK": 30
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 81,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 16,
-    "tractionReason": "Public launch and SDK; no disclosed product adoption"
+    "tractionRank": 175,
+    "tractionScore": 11,
+    "tractionReason": "SDK and paid plans available; no disclosed customer adoption"
   },
   "paths": {
     "memo": "fall2026/memos/trylatent.md",

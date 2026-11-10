@@ -64,9 +64,9 @@
   "consolidatedAvg": 39.71,
   "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 119,
-    "tractionScore": 31,
-    "tractionReason": "22 Chrome users; named user example; revenue undisclosed"
+    "tractionRank": 135,
+    "tractionScore": 25,
+    "tractionReason": "Chrome extension has 22 users; named user example; payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/spacesheep.md",

@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 117,
+  "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 62,
-    "tractionReason": "80+ dealerships in 110 days; paying status undisclosed"
+    "tractionRank": 42,
+    "tractionScore": 58,
+    "tractionReason": "80+ dealerships in 110 days; deployments handle 4,000 repairs daily"
   },
   "paths": {
     "memo": "fall2026/memos/bayworks.md",

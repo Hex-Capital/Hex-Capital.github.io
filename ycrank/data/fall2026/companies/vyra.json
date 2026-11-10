@@ -60,11 +60,11 @@
     "VK": 26
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 92,
+  "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 57,
-    "tractionReason": "Claims 93,984 creators; active and paying definitions undisclosed"
+    "tractionRank": 51,
+    "tractionScore": 56,
+    "tractionReason": "93,984 creators claimed; activity and payment definitions undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/vyra.md",

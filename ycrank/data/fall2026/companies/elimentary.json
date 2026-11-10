@@ -59,11 +59,11 @@
     "VK": 34
   },
   "consolidatedAvg": 46.86,
-  "consolidatedRank": 12,
+  "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 55,
-    "tractionReason": "TresVista production deployment; additional fund customer case study"
+    "tractionRank": 58,
+    "tractionScore": 53,
+    "tractionReason": "TresVista live deployment and separate fund case study; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/elimentary.md",

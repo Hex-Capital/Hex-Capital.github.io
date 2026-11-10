@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.71,
-  "consolidatedRank": 185,
+  "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 208,
-    "tractionScore": 0,
-    "tractionReason": "No disclosed customers, usage, or revenue"
+    "tractionRank": 220,
+    "tractionScore": 1,
+    "tractionReason": "No disclosed current-product commercial traction"
   },
   "paths": {
     "memo": "fall2026/memos/axiomat.md",

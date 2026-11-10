@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 34.14,
-  "consolidatedRank": 162,
+  "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 18,
-    "tractionReason": "Public paid plans; no disclosed users or revenue"
+    "tractionRank": 160,
+    "tractionScore": 13,
+    "tractionReason": "Product and paid plans launched; no disclosed customer adoption"
   },
   "paths": {
     "memo": "fall2026/memos/resin-technologies.md",

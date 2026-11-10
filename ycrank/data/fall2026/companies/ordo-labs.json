@@ -1,0 +1,82 @@
+{
+  "slug": "ordo-labs",
+  "name": "Ordo Labs",
+  "oneLiner": "The AI-native OS for regulated labs",
+  "metadata": {
+    "website": "https://ordolabs.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/ordo-labs",
+    "batch": "Fall 2026 ([Synch, September 2026](https://synch.law/post/synch-advises-ordo-labs-in-connection-with-its-y-combinator-entry-and-related-investment))",
+    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "team_size": "4",
+    "location": "San Francisco, CA, USA",
+    "tags": "Biotech, Compliance, Automation, AI",
+    "yc_partner": "Not listed; YC company profile inaccessible during research",
+    "emails": "founders@ordolabs.ai — demos ([company LinkedIn](https://www.linkedin.com/company/weareordo/)); hello@ordolabs.ai — general contact/privacy ([Ordo Privacy](https://ordolabs.ai/privacy))"
+  },
+  "tags": [
+    "Biotech",
+    "Compliance",
+    "Automation",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:56:38.710Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 61,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 61,
+    "NR": 42,
+    "PG": 43,
+    "PT": 29,
+    "SL": 35,
+    "VK": 28
+  },
+  "consolidatedAvg": 40,
+  "consolidatedRank": 60,
+  "traction": {
+    "tractionRank": 43,
+    "tractionScore": 58,
+    "tractionReason": "Paid laboratory pilots across US and Europe; amounts undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ordo-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ordo-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/ordo-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ordo-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/ordo-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ordo-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ordo-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ordo-labs.md"
+    }
+  }
+}

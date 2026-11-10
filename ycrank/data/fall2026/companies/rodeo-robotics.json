@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.86,
-  "consolidatedRank": 184,
+  "consolidatedRank": 194,
   "traction": {
-    "tractionRank": 199,
-    "tractionScore": 3,
-    "tractionReason": "Launch coverage only; no disclosed customers or deployments"
+    "tractionRank": 207,
+    "tractionScore": 5,
+    "tractionReason": "Launch coverage only; no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/rodeo-robotics.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 68,
+    "tractionRank": 74,
     "tractionScore": 49,
-    "tractionReason": "Utility customer case studies demonstrate completed sourcing workflows"
+    "tractionReason": "Multiple utility procurement case studies; customer identities and payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hillstar.md",

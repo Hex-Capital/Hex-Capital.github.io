@@ -46,6 +46,9 @@ function app() {
     activeTab: 'memo',
     tabContent: '',
     tabLoading: false,
+    companyChatEnabled: false,
+    companyChatThreads: {},
+    _companyLoadId: 0,
     mdCache: {}, // path -> rendered html
     _mdCacheSize: 0, // approximate total bytes in mdCache
 
@@ -159,6 +162,7 @@ function app() {
             const llmConfig = await llmResp.json();
             if (llmConfig.provider) this.councilProvider = llmConfig.provider;
             if (llmConfig.model) this.councilModel = llmConfig.model;
+            this.companyChatEnabled = llmConfig.companyChat?.available === true;
           }
         } catch (e) { /* keep local defaults */ }
       }
@@ -640,22 +644,83 @@ function app() {
     // --- Company Detail ---
 
     async showCompany(slug) {
+      const loadId = ++this._companyLoadId;
       this.view = 'company';
       this.activeTab = 'memo';
       this.tabContent = '';
+      this.companyData = null;
 
       try {
         const resp = await fetch(`data/${this.currentBatch}/companies/${slug}.json`);
         if (!resp.ok) throw new Error('Company not found');
-        this.companyData = await resp.json();
+        const company = await resp.json();
+        if (loadId !== this._companyLoadId) return;
+        this.companyData = company;
         // Load memo content
         await this.loadTabContent('memo');
         // Load annotations
         await this.loadAnnotations(slug);
       } catch (e) {
         console.error('Failed to load company:', e);
-        this.companyData = null;
+        if (loadId === this._companyLoadId) this.companyData = null;
       }
+    },
+
+    get companyChatThread() {
+      if (!this.companyData) return null;
+      const key = `${this.currentBatch}/${this.companyData.slug}`;
+      if (!this.companyChatThreads[key]) {
+        this.companyChatThreads[key] = { messages: [], input: '', asking: false, error: '' };
+      }
+      return this.companyChatThreads[key];
+    },
+
+    async sendCompanyChat() {
+      const thread = this.companyChatThread;
+      const question = thread?.input.trim();
+      if (!question || thread.asking) return;
+      const history = thread.messages.slice(-12).map(m => ({ role: m.role, content: m.content }));
+      const batch = this.currentBatch;
+      const company = this.companyData.slug;
+      thread.messages.push({ role: 'user', content: question });
+      thread.input = '';
+      thread.asking = true;
+      thread.error = '';
+      this.scrollCompanyChat();
+      try {
+        const response = await fetch('/api/company-chat', {
+          method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify({ batch, company, question, history }),
+        });
+        const result = await response.json();
+        if (!response.ok) throw new Error(result.error || 'Unable to get an answer.');
+        thread.messages.push({ role: 'assistant', content: result.answer });
+      } catch (error) {
+        thread.messages.pop();
+        if (!thread.input) thread.input = question;
+        thread.error = error.message;
+      } finally {
+        thread.asking = false;
+        this.scrollCompanyChat();
+      }
+    },
+
+    scrollCompanyChat() {
+      this.$nextTick(() => {
+        const pane = this.$refs.companyChatMessages;
+        if (pane) pane.scrollTop = pane.scrollHeight;
+      });
+    },
+
+    clearCompanyChat() {
+      const thread = this.companyChatThread;
+      if (!thread || thread.asking) return;
+      thread.messages = [];
+      thread.error = '';
+    },
+
+    renderChatAnswer(content) {
+      return DOMPurify.sanitize(marked.parse(content));
     },
 
     async loadTabContent(tab) {

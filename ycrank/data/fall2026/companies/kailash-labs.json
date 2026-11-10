@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 36.57,
-  "consolidatedRank": 115,
+  "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 8,
-    "tractionReason": "Current robot customer metrics undisclosed; earlier Marlin adoption excluded"
+    "tractionRank": 176,
+    "tractionScore": 11,
+    "tractionReason": "Current robot customer metrics undisclosed; earlier Marlin downloads excluded"
   },
   "paths": {
     "memo": "fall2026/memos/kailash-labs.md",

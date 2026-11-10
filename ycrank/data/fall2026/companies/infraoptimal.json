@@ -1,0 +1,81 @@
+{
+  "slug": "infraoptimal",
+  "name": "InfraOptimal",
+  "oneLiner": "Self optimizing dedicated inference endpoints",
+  "metadata": {
+    "website": "https://infraoptimal.com",
+    "yc_page": "https://www.ycombinator.com/companies/infraoptimal",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/infraoptimal))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "Boston, MA, USA",
+    "tags": "Edge Computing Semiconductors, Generative AI, SaaS",
+    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/infraoptimal))",
+    "emails": "parthko05@gmail.com — Parth’s published professional contact ([founder website](https://www.parthkocheta.com/)); team@velobyte.ai — company contact ([Terms](https://infraoptimal.com/terms))"
+  },
+  "tags": [
+    "Edge Computing Semiconductors",
+    "Generative AI",
+    "SaaS"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:56:00.554Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 39,
+    "EG": 42,
+    "NR": 43,
+    "PG": 37,
+    "PT": 34,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 36,
+  "consolidatedRank": 133,
+  "traction": {
+    "tractionRank": 174,
+    "tractionScore": 11,
+    "tractionReason": "Current inference endpoints marketed; no disclosed customers or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/infraoptimal.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/infraoptimal.md",
+      "elad-gil": "fall2026/evals/elad-gil/infraoptimal.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/infraoptimal.md",
+      "paul-graham": "fall2026/evals/paul-graham/infraoptimal.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/infraoptimal.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/infraoptimal.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/infraoptimal.md"
+    }
+  }
+}

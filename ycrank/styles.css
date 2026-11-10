@@ -356,6 +356,47 @@ button:disabled {
 }
 
 /* ===== Nav Traffic Light Dots ===== */
+.company-details { min-width: 0; }
+.company-chat { display: none; }
+
+@media (min-width: 1024px) {
+  .company-chat-active {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) clamp(340px, 26vw, 480px);
+    align-items: start;
+    gap: 20px;
+  }
+  .company-chat {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: calc(var(--nav-h) + var(--search-h) + 12px);
+    height: calc(100dvh - var(--nav-h) - var(--search-h) - var(--footer-h) - 24px);
+    min-height: 240px;
+    border: 1px solid var(--c-border);
+    background: var(--c-panel);
+    margin-top: 12px;
+    overflow: hidden;
+  }
+  .company-chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 12px;
+    padding: 14px 14px 10px;
+  }
+  .company-chat-context { padding: 0 14px 12px; border-bottom: 1px solid var(--c-border); }
+  .company-chat-messages { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; padding: 14px; }
+  .company-chat-message { margin-bottom: 16px; overflow-wrap: anywhere; }
+  .company-chat-user { background: var(--c-bg); border-left: 2px solid var(--c-accent); padding: 10px; }
+  .company-chat .markdown-body { font-size: 0.875rem; }
+  .company-chat-compose { flex-shrink: 0; border-top: 1px solid var(--c-border); padding: 12px; }
+  .company-chat-compose textarea { width: 100%; resize: vertical; max-height: 140px; background: var(--c-bg); border: 1px solid var(--c-border); padding: 8px; font-size: 0.875rem; }
+  .company-chat-compose textarea:focus { outline: 1px solid var(--c-accent); }
+  .company-chat-send { padding: 6px 12px; background: var(--c-accent); color: var(--c-bg); font-size: 0.875rem; }
+  .company-chat-send:disabled { opacity: 0.4; cursor: default; }
+}
+
 nav > .nav-inner {
   padding-left: max(12px, env(safe-area-inset-left, 0px));
   padding-right: max(12px, env(safe-area-inset-right, 0px));

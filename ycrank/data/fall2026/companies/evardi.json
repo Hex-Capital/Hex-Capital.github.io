@@ -62,9 +62,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 70,
+    "tractionRank": 75,
     "tractionScore": 48,
-    "tractionReason": "Utility deployment footprint claimed; published outcome studies are simulations"
+    "tractionReason": "Utility deployments claimed; published outcome studies explicitly use simulations"
   },
   "paths": {
     "memo": "fall2026/memos/evardi.md",

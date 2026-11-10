@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 49,
-    "tractionScore": 55,
-    "tractionReason": "Two named brokerage customers with documented savings testimonials"
+    "tractionRank": 32,
+    "tractionScore": 61,
+    "tractionReason": "Two named benefits customers; carrier-paid brokerage; ongoing qualified inbound"
   },
   "paths": {
     "memo": "fall2026/memos/ignition-benefits.md",

@@ -60,9 +60,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 20,
-    "tractionReason": "Public beta launched; no disclosed users or revenue"
+    "tractionRank": 155,
+    "tractionScore": 14,
+    "tractionReason": "Public beta launched; no disclosed users, customers, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/taanai.md",

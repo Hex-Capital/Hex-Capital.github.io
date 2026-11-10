@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 38.14,
-  "consolidatedRank": 87,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 33,
-    "tractionReason": "Siglake has 577 stars; no disclosed customers or revenue"
+    "tractionRank": 119,
+    "tractionScore": 31,
+    "tractionReason": "Siglake has 577 stars and three forks; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/limnion.md",

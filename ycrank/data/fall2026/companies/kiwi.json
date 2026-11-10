@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 106,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 19,
-    "tractionReason": "100+ discovery conversations; no disclosed customers or revenue"
+    "tractionRank": 153,
+    "tractionScore": 14,
+    "tractionReason": "100+ discovery conversations; no disclosed customer conversions or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/kiwi.md",

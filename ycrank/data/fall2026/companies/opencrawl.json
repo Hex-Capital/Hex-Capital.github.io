@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 34.57,
-  "consolidatedRank": 154,
+  "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 16,
-    "tractionReason": "Search offering launched; prior OnePatch usage excluded"
+    "tractionRank": 181,
+    "tractionScore": 10,
+    "tractionReason": "Current search adoption undisclosed; prior OnePatch telemetry excluded"
   },
   "paths": {
     "memo": "fall2026/memos/opencrawl.md",

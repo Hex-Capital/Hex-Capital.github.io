@@ -1,0 +1,81 @@
+{
+  "slug": "vorflux",
+  "name": "Vorflux",
+  "oneLiner": "A cloud-based AI coding agent for teams",
+  "metadata": {
+    "website": "https://vorflux.ai",
+    "yc_page": "https://www.ycombinator.com/companies/vorflux",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/vorflux))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, B2B, Enterprise Software, AI",
+    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/vorflux))",
+    "emails": "support@vorflux.com — support/privacy ([Vorflux](https://vorflux.ai/support/)); apps@vorflux.com — mobile app support ([Google Play](https://play.google.com/store/apps/details?id=com.vorflux.app))"
+  },
+  "tags": [
+    "Developer Tools",
+    "B2B",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:57:18.700Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 47,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 47,
+    "NR": 49,
+    "PG": 42,
+    "PT": 32,
+    "SL": 27,
+    "VK": 25
+  },
+  "consolidatedAvg": 37.71,
+  "consolidatedRank": 98,
+  "traction": {
+    "tractionRank": 73,
+    "tractionScore": 49,
+    "tractionReason": "Supermemory and TrashLab customer examples; realized company revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/vorflux.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/vorflux.md",
+      "elad-gil": "fall2026/evals/elad-gil/vorflux.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/vorflux.md",
+      "paul-graham": "fall2026/evals/paul-graham/vorflux.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/vorflux.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/vorflux.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/vorflux.md"
+    }
+  }
+}

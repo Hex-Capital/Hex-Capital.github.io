@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.86,
-  "consolidatedRank": 91,
+  "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 201,
-    "tractionScore": 3,
-    "tractionReason": "Security service announced; no disclosed customer adoption"
+    "tractionRank": 203,
+    "tractionScore": 6,
+    "tractionReason": "Security service announced; no disclosed customer deployments or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/verdun.md",

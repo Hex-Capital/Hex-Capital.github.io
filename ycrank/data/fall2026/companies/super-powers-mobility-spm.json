@@ -64,9 +64,9 @@
   "consolidatedAvg": 42.43,
   "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 90,
-    "tractionReason": "$421,815 realized battery revenue in one month"
+    "tractionRank": 3,
+    "tractionScore": 94,
+    "tractionReason": "$421,815 realized battery revenue in one month after pivot"
   },
   "paths": {
     "memo": "fall2026/memos/super-powers-mobility-spm.md",

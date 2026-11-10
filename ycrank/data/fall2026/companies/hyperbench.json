@@ -1,0 +1,81 @@
+{
+  "slug": "hyperbench",
+  "name": "HyperBench",
+  "oneLiner": "AI agents for hardware/software co-development",
+  "metadata": {
+    "website": "https://hyperbench.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/hyperbench",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/hyperbench))",
+    "industry": "B2B / B2B -> Engineering, Product and Design",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hardware, Enterprise Software, AI",
+    "yc_partner": "David Lieb ([YC, via search snippet](https://www.ycombinator.com/companies/hyperbench))",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Hardware",
+    "Enterprise Software",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:56:08.610Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 29,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 39,
+    "NR": 39,
+    "PG": 36,
+    "PT": 37,
+    "SL": 32,
+    "VK": 29
+  },
+  "consolidatedAvg": 37.14,
+  "consolidatedRank": 107,
+  "traction": {
+    "tractionRank": 166,
+    "tractionScore": 12,
+    "tractionReason": "Private-beta enrollment open; no disclosed active users or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/hyperbench.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/hyperbench.md",
+      "elad-gil": "fall2026/evals/elad-gil/hyperbench.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/hyperbench.md",
+      "paul-graham": "fall2026/evals/paul-graham/hyperbench.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/hyperbench.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/hyperbench.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/hyperbench.md"
+    }
+  }
+}

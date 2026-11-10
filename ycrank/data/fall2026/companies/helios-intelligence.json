@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 36.86,
-  "consolidatedRank": 110,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 196,
-    "tractionScore": 3,
-    "tractionReason": "Molecular test forthcoming; separate supplement sales excluded"
+    "tractionRank": 210,
+    "tractionScore": 4,
+    "tractionReason": "Molecular test forthcoming; separate supplement offering excluded"
   },
   "paths": {
     "memo": "fall2026/memos/helios-intelligence.md",

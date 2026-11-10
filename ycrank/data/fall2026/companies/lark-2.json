@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.14,
   "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 54,
-    "tractionReason": "Interline Hardware live deployment; additional customer reported"
+    "tractionRank": 65,
+    "tractionScore": 52,
+    "tractionReason": "Interline Hardware deployment plus separate customer workflow testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",

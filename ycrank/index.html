@@ -61,7 +61,7 @@
 
   <!-- Top Nav -->
   <nav class="bg-claude-bg border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
-    <div class="nav-inner max-w-[1600px] mx-auto px-3 py-2 flex items-center justify-between gap-2">
+    <div class="nav-inner max-w-[2240px] mx-auto px-3 py-2 flex items-center justify-between gap-2">
       <div class="nav-brand flex items-center gap-2 sm:gap-3 min-w-0">
         <div class="nav-dots">
           <div class="nav-dot nav-dot-red"></div>
@@ -94,7 +94,7 @@
   </nav>
 
   <!-- Main Content -->
-  <main class="max-w-[1600px] mx-auto px-2 sm:px-3 py-2 sm:py-3">
+  <main class="max-w-[2240px] mx-auto px-2 sm:px-3 py-2 sm:py-3">
 
     <!-- Loading -->
     <div x-show="loading" class="text-center py-20 text-claude-orange terminal-blink">Loading_</div>
@@ -378,7 +378,8 @@
     <!-- Company Detail View -->
     <div x-show="view === 'company' && !loading" x-cloak>
       <template x-if="companyData">
-        <div>
+        <div class="company-layout" :class="{ 'company-chat-active': companyChatEnabled && !staticMode }">
+          <div class="company-details">
           <!-- Header -->
           <div class="mb-4 mt-3">
             <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
@@ -533,6 +534,42 @@
               <p class="text-claude-dim text-xs">No notes yet.</p>
             </template>
           </div>
+          </div>
+
+          <template x-if="companyChatEnabled && !staticMode && companyChatThread">
+            <aside class="company-chat" aria-label="Company chat">
+              <header class="company-chat-header">
+                <div>
+                  <h2 class="text-sm font-bold text-claude-orange">Ask about <span x-text="companyData.name"></span></h2>
+                  <p class="text-xs text-claude-gray mt-1">GPT-6.1 Sol · Medium</p>
+                </div>
+                <button type="button" @click="clearCompanyChat()" :disabled="companyChatThread.asking || !companyChatThread.messages.length"
+                  class="text-xs text-claude-gray disabled:opacity-40" aria-label="Clear company chat">Clear</button>
+              </header>
+              <p class="company-chat-context text-xs text-claude-gray">Memo + live web · Codex subscription</p>
+              <div class="company-chat-messages" x-ref="companyChatMessages" role="log" aria-label="Company conversation" aria-live="polite" :aria-busy="companyChatThread.asking">
+                <p x-show="!companyChatThread.messages.length" class="text-sm text-claude-dim">Ask about the business, traction, risks, or questions to raise with the founders.</p>
+                <template x-for="(message, index) in companyChatThread.messages" :key="index">
+                  <div class="company-chat-message" :class="{ 'company-chat-user': message.role === 'user' }">
+                    <p class="text-xs text-claude-gray mb-1" x-text="message.role === 'user' ? 'You' : 'Assistant'"></p>
+                    <template x-if="message.role === 'user'"><p class="whitespace-pre-wrap text-sm break-words" x-text="message.content"></p></template>
+                    <template x-if="message.role === 'assistant'"><div class="markdown-body" x-html="renderChatAnswer(message.content)"></div></template>
+                  </div>
+                </template>
+                <p x-show="companyChatThread.asking" class="text-sm text-claude-orange" role="status">Thinking…</p>
+              </div>
+              <form class="company-chat-compose" @submit.prevent="sendCompanyChat()">
+                <p x-show="companyChatThread.error" x-text="companyChatThread.error" class="text-xs text-claude-red mb-2" role="alert"></p>
+                <label class="sr-only" for="company-chat-question">Ask about this company</label>
+                <textarea id="company-chat-question" x-model="companyChatThread.input" maxlength="8000" rows="3"
+                  placeholder="Ask about this company…" @keydown.enter="if (!$event.shiftKey && !$event.isComposing) { $event.preventDefault(); sendCompanyChat(); }"></textarea>
+                <div class="flex items-center justify-between gap-2 mt-2">
+                  <span class="text-xs text-claude-dim" x-text="companyChatThread.asking ? 'You can draft your next question while I think.' : 'Enter to send · Shift+Enter for a new line'"></span>
+                  <button type="submit" :disabled="companyChatThread.asking || !companyChatThread.input.trim()" class="company-chat-send">Send</button>
+                </div>
+              </form>
+            </aside>
+          </template>
         </div>
       </template>
     </div>

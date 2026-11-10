@@ -61,9 +61,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 10,
-    "tractionReason": "Task demonstrations only; no disclosed customers or revenue"
+    "tractionRank": 173,
+    "tractionScore": 11,
+    "tractionReason": "Robot-task improvements demonstrated; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/hemlock.md",

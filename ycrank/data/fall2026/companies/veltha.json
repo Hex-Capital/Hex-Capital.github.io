@@ -59,11 +59,11 @@
     "VK": 34
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 82,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 18,
-    "tractionReason": "Current TPA outcome claims lack identified customers"
+    "tractionRank": 143,
+    "tractionScore": 20,
+    "tractionReason": "Efficiency claims lack identified customers; prior conference leads aren't customers"
   },
   "paths": {
     "memo": "fall2026/memos/veltha.md",

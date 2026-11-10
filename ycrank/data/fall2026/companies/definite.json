@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 156,
+  "consolidatedRank": 163,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 18,
-    "tractionReason": "Commercial terms described; current-product customers and revenue undisclosed"
+    "tractionRank": 150,
+    "tractionScore": 15,
+    "tractionReason": "Current product marketed; customer count and realized revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/definite.md",

@@ -60,10 +60,10 @@
     "VK": 31
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 139,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 176,
-    "tractionScore": 9,
+    "tractionRank": 161,
+    "tractionScore": 13,
     "tractionReason": "Private previews advertised; no disclosed deployments or revenue"
   },
   "paths": {

@@ -1,0 +1,83 @@
+{
+  "slug": "elithia",
+  "name": "Elithia",
+  "oneLiner": "Agents for the medical review behind every claim",
+  "metadata": {
+    "website": "https://elithia.com",
+    "yc_page": "https://www.ycombinator.com/companies/elithia",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/elithia))",
+    "industry": "B2B / B2B -> Legal",
+    "team_size": "1",
+    "location": "San Francisco, CA, USA",
+    "tags": "Health Tech, B2B, LegalTech, Insurance, AI",
+    "yc_partner": "David Lieb ([YC, via search snippet](https://www.ycombinator.com/companies/elithia))",
+    "emails": "sarthak@elithia.com — Sarthak Jain, Founder/CEO ([company LinkedIn](https://uk.linkedin.com/company/elithia))"
+  },
+  "tags": [
+    "Health Tech",
+    "B2B",
+    "LegalTech",
+    "Insurance",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:55:48.917Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 38,
+    "EG": 35,
+    "NR": 43,
+    "PG": 39,
+    "PT": 31,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 34.29,
+  "consolidatedRank": 167,
+  "traction": {
+    "tractionRank": 34,
+    "tractionScore": 60,
+    "tractionReason": "Sales reported to physician expert witnesses and medical-legal firms"
+  },
+  "paths": {
+    "memo": "fall2026/memos/elithia.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/elithia.md",
+      "elad-gil": "fall2026/evals/elad-gil/elithia.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/elithia.md",
+      "paul-graham": "fall2026/evals/paul-graham/elithia.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/elithia.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/elithia.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/elithia.md"
+    }
+  }
+}

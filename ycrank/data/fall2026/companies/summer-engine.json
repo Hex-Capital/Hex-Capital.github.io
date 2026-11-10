@@ -1,0 +1,80 @@
+{
+  "slug": "summer-engine",
+  "name": "Summer Engine",
+  "oneLiner": "The AI game engine.",
+  "metadata": {
+    "website": "https://www.summerengine.com",
+    "yc_page": "https://www.ycombinator.com/companies/summer-engine",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/summer-engine))",
+    "industry": "Consumer / Consumer -> Gaming",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Gaming, AI",
+    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/summer-engine))",
+    "emails": "founders@summerengine.com — shared founders/sales ([Pricing](https://www.summerengine.com/pricing)); support@summerengine.com — support/privacy ([Contact](https://www.summerengine.com/contact)); dpo@summerengine.com — historical DPO address, September 2026 policy via search snippet, absent from current policy ([Privacy](https://www.summerengine.com/privacy))"
+  },
+  "tags": [
+    "Gaming",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-09T23:56:38.594Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 42,
+    "NR": 42,
+    "PG": 48,
+    "PT": 30,
+    "SL": 29,
+    "VK": 25
+  },
+  "consolidatedAvg": 36.86,
+  "consolidatedRank": 115,
+  "traction": {
+    "tractionRank": 118,
+    "tractionScore": 33,
+    "tractionReason": "Approximately 1,140 Discord members and 97 stars; revenue undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/summer-engine.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/summer-engine.md",
+      "elad-gil": "fall2026/evals/elad-gil/summer-engine.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/summer-engine.md",
+      "paul-graham": "fall2026/evals/paul-graham/summer-engine.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/summer-engine.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/summer-engine.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/summer-engine.md"
+    }
+  }
+}

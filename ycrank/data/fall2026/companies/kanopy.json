@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 41.14,
-  "consolidatedRank": 51,
+  "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 53,
-    "tractionReason": "Six utility/contractor LOIs or MSAs; 3,093 miles mapped"
+    "tractionRank": 44,
+    "tractionScore": 57,
+    "tractionReason": "Six utilities signed LOIs/MSAs; 3,093 miles actually mapped"
   },
   "paths": {
     "memo": "fall2026/memos/kanopy.md",

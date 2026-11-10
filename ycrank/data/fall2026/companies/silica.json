@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.57,
-  "consolidatedRank": 204,
+  "consolidatedRank": 214,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 14,
-    "tractionReason": "Preorders open; future production; order counts undisclosed"
+    "tractionRank": 151,
+    "tractionScore": 15,
+    "tractionReason": "Preorders open without counts; prototypes and production scheduled later"
   },
   "paths": {
     "memo": "fall2026/memos/silica.md",

@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 98,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 49,
-    "tractionReason": "Supermemory and TrashLab customer examples; realized company revenue undisclosed"
+    "tractionRank": 58,
+    "tractionScore": 54,
+    "tractionReason": "Named customer deployments; over 1T tokens consumed"
   },
   "paths": {
     "memo": "fall2026/memos/vorflux.md",

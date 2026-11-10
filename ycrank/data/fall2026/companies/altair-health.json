@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 99,
+  "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 46,
-    "tractionReason": "Billing deployed at substance-use practice; client collections aren't company revenue"
+    "tractionRank": 71,
+    "tractionScore": 49,
+    "tractionReason": "Operating billing engagement; client collections are not startup revenue"
   },
   "paths": {
     "memo": "fall2026/memos/altair-health.md",

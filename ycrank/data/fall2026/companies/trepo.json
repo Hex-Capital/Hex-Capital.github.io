@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.29,
-  "consolidatedRank": 147,
+  "consolidatedRank": 150,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 53,
-    "tractionReason": "Six beta hardware batches sold out; 150,000+ item check-ins"
+    "tractionRank": 40,
+    "tractionScore": 59,
+    "tractionReason": "Six sold-out beta batches; 150,000+ item check-ins"
   },
   "paths": {
     "memo": "fall2026/memos/trepo.md",

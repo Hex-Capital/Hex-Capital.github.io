@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 61,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 67,
-    "tractionScore": 51,
-    "tractionReason": "Multiple customer usage testimonials; 100+ opportunities actioned daily"
+    "tractionRank": 64,
+    "tractionScore": 52,
+    "tractionReason": "Multiple customer testimonials; 100+ opportunities actioned daily"
   },
   "paths": {
     "memo": "fall2026/memos/frontrunner.md",

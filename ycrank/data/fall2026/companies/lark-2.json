@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 42.14,
-  "consolidatedRank": 43,
+  "consolidatedRank": 44,
   "traction": {
     "tractionRank": 65,
-    "tractionScore": 52,
-    "tractionReason": "Interline Hardware deployment plus separate customer workflow testimonial"
+    "tractionScore": 51,
+    "tractionReason": "Interline deployment; additional customer workflow automation reported"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",

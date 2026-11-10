@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 94,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 122,
-    "tractionScore": 30,
-    "tractionReason": "Current platform has 351 stars; standalone OpenSEO metrics excluded"
+    "tractionRank": 121,
+    "tractionScore": 33,
+    "tractionReason": "Current platform has 351 stars; OpenSEO metrics excluded"
   },
   "paths": {
     "memo": "fall2026/memos/everyapp.md",

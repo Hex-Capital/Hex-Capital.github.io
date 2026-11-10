@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 40,
+  "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 49,
-    "tractionReason": "Multiple utility procurement case studies; customer identities and payments undisclosed"
+    "tractionRank": 76,
+    "tractionScore": 48,
+    "tractionReason": "Multiple utility procurement case studies; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hillstar.md",

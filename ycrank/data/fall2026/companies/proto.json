@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 165,
+  "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 10,
-    "tractionReason": "Product launched; no disclosed users, customers, or revenue"
+    "tractionRank": 160,
+    "tractionScore": 16,
+    "tractionReason": "Product launched; no disclosed users or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/proto.md",

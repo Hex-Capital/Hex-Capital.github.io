@@ -58,11 +58,11 @@
     "VK": 26
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 122,
+  "consolidatedRank": 124,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 50,
-    "tractionReason": "Frontier labs and medical AI companies reportedly use infrastructure"
+    "tractionRank": 82,
+    "tractionScore": 47,
+    "tractionReason": "Frontier labs and medical AI companies reportedly using infrastructure"
   },
   "paths": {
     "memo": "fall2026/memos/archangel-health.md",

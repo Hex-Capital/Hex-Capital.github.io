@@ -58,11 +58,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 187,
+  "consolidatedRank": 190,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 12,
-    "tractionReason": "Free event-planning tool launched; no disclosed users or revenue"
+    "tractionRank": 155,
+    "tractionScore": 18,
+    "tractionReason": "Customer meetings reported; no disclosed deployments"
   },
   "paths": {
     "memo": "fall2026/memos/capveon.md",

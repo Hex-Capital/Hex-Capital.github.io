@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 81,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 56,
-    "tractionReason": "10,000+ sites built; 4,000 monthly audits; 37 Trustpilot reviews"
+    "tractionRank": 56,
+    "tractionScore": 55,
+    "tractionReason": "10,000+ sites built; approximately 4,000 audits monthly"
   },
   "paths": {
     "memo": "fall2026/memos/theo.md",

@@ -59,11 +59,11 @@
     "VK": 19
   },
   "consolidatedAvg": 32.29,
-  "consolidatedRank": 192,
+  "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 39,
-    "tractionReason": "10 startups onboarded in 48 hours; cards remain early access"
+    "tractionRank": 115,
+    "tractionScore": 38,
+    "tractionReason": "Ten startups onboarded; five vendor partnerships in 48 hours"
   },
   "paths": {
     "memo": "fall2026/memos/ernd.md",

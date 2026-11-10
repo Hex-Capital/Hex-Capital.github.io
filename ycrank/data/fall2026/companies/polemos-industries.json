@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 27.57,
-  "consolidatedRank": 220,
+  "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 213,
+    "tractionRank": 215,
     "tractionScore": 4,
-    "tractionReason": "Blog coverage only; no disclosed customer contracts or orders"
+    "tractionReason": "Blog coverage; no disclosed orders or contracts"
   },
   "paths": {
     "memo": "fall2026/memos/polemos-industries.md",

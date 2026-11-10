@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 77,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 15,
-    "tractionReason": "Current harness launched; prior Moda's 100K users excluded"
+    "tractionRank": 153,
+    "tractionScore": 20,
+    "tractionReason": "Voyager launched; prior Moda users excluded"
   },
   "paths": {
     "memo": "fall2026/memos/voyager.md",

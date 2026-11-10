@@ -1,0 +1,82 @@
+{
+  "slug": "ample-computer",
+  "name": "Ample Computer",
+  "oneLiner": "Everything your agent needs to ship a web app",
+  "metadata": {
+    "website": "https://ample.computer/",
+    "yc_page": "https://www.ycombinator.com/companies/ample-computer",
+    "batch": "Fall 2026 ([SignalHire founder profile](https://www.signalhire.com/profiles/ravi-mishra%27s-email/109019156); YC page inaccessible during research)",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "B2B, Cloud Computing, Infrastructure, AI",
+    "yc_partner": "Not listed",
+    "emails": "legal@ample.computer (legal), privacy@ample.computer (privacy requests) ([Ample Contact](https://ample.computer/contact))"
+  },
+  "tags": [
+    "B2B",
+    "Cloud Computing",
+    "Infrastructure",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-10T21:50:02.084Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 40,
+    "NR": 43,
+    "PG": 38,
+    "PT": 28,
+    "SL": 31,
+    "VK": 25
+  },
+  "consolidatedAvg": 35,
+  "consolidatedRank": 154,
+  "traction": {
+    "tractionRank": 123,
+    "tractionScore": 31,
+    "tractionReason": "Six showcased apps; verified Claude connector; payments undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/ample-computer.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/ample-computer.md",
+      "elad-gil": "fall2026/evals/elad-gil/ample-computer.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/ample-computer.md",
+      "paul-graham": "fall2026/evals/paul-graham/ample-computer.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/ample-computer.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/ample-computer.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/ample-computer.md"
+    }
+  }
+}

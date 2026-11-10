@@ -61,9 +61,9 @@
   "consolidatedAvg": 48.57,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 8,
-    "tractionScore": 80,
-    "tractionReason": "$150K+ cumulative revenue over recent months; 10+ paying institutions"
+    "tractionRank": 9,
+    "tractionScore": 74,
+    "tractionReason": "$150K+ cumulative revenue; 10+ paying institutions"
   },
   "paths": {
     "memo": "fall2026/memos/sutrix.md",

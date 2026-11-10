@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32,
-  "consolidatedRank": 193,
+  "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 7,
-    "tractionReason": "Current training-platform adoption undisclosed; earlier storage repository interest excluded"
+    "tractionRank": 204,
+    "tractionScore": 5,
+    "tractionReason": "Current training-platform adoption undisclosed; prior storage stars excluded"
   },
   "paths": {
     "memo": "fall2026/memos/openlake-technologies.md",

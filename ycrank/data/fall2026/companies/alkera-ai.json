@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 109,
+  "consolidatedRank": 111,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 26,
-    "tractionReason": "Databench has 13 stars; 475 Product Hunt followers"
+    "tractionRank": 140,
+    "tractionScore": 24,
+    "tractionReason": "Databench has 13 stars; no disclosed paying users"
   },
   "paths": {
     "memo": "fall2026/memos/alkera-ai.md",

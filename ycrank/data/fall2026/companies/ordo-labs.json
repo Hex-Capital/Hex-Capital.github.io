@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 60,
+  "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 43,
+    "tractionRank": 41,
     "tractionScore": 58,
-    "tractionReason": "Paid laboratory pilots across US and Europe; amounts undisclosed"
+    "tractionReason": "Paid laboratory pilots across US and Europe"
   },
   "paths": {
     "memo": "fall2026/memos/ordo-labs.md",

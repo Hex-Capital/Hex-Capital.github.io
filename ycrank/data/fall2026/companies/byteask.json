@@ -60,10 +60,10 @@
     "VK": 33
   },
   "consolidatedAvg": 43,
-  "consolidatedRank": 31,
+  "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 38,
+    "tractionRank": 114,
+    "tractionScore": 39,
     "tractionReason": "Weekly active users reportedly doubling; absolute base undisclosed"
   },
   "paths": {

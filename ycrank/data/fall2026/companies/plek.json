@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 113,
+  "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 102,
+    "tractionRank": 112,
     "tractionScore": 40,
-    "tractionReason": "Reported assessment of 250-person organization; other cases explicitly illustrative"
+    "tractionReason": "Reported 250-person organizational assessment; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/plek.md",

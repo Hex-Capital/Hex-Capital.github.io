@@ -60,10 +60,10 @@
     "VK": 32
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 41,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 65,
+    "tractionRank": 16,
+    "tractionScore": 68,
     "tractionReason": "10 active accounting clients across four countries"
   },
   "paths": {

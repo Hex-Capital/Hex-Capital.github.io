@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 36.71,
-  "consolidatedRank": 118,
+  "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 12,
-    "tractionReason": "Initial laboratory demonstration and unquantified waitlist; no disclosed customers"
+    "tractionRank": 187,
+    "tractionScore": 9,
+    "tractionReason": "Internal laboratory demonstration; waitlist size undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/primordiant.md",

@@ -59,11 +59,11 @@
     "VK": 34
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 83,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 20,
-    "tractionReason": "Efficiency claims lack identified customers; prior conference leads aren't customers"
+    "tractionRank": 162,
+    "tractionScore": 16,
+    "tractionReason": "Current TPA customer identities and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/veltha.md",

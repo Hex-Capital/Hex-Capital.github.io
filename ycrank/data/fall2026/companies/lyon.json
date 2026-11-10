@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.57,
-  "consolidatedRank": 66,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 50,
-    "tractionReason": "Fintech model engagement and insurer work; commercial terms undisclosed"
+    "tractionRank": 75,
+    "tractionScore": 48,
+    "tractionReason": "Fintech model engagement; insurer engagement; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/lyon.md",

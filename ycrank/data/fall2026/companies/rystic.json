@@ -63,9 +63,9 @@
   "consolidatedAvg": 47.86,
   "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 101,
+    "tractionRank": 110,
     "tractionScore": 40,
-    "tractionReason": "Unnamed pilot discovered Slack integration bug; revenue undisclosed"
+    "tractionReason": "Customer pilot discovered Slack integration bug; payment undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rystic.md",

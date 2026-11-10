@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 36.43,
-  "consolidatedRank": 124,
+  "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 98,
+    "tractionRank": 109,
     "tractionScore": 40,
-    "tractionReason": "1.1K stars and 100 forks; no disclosed revenue"
+    "tractionReason": "1,100 stars; 100 forks; realized revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/pomerado.md",

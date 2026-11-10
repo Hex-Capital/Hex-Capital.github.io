@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 30.86,
-  "consolidatedRank": 206,
+  "consolidatedRank": 209,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 15,
-    "tractionReason": "200+ discovery interviews; no disclosed customers or revenue"
+    "tractionRank": 146,
+    "tractionScore": 22,
+    "tractionReason": "200+ legal-team interviews; no disclosed customer conversions"
   },
   "paths": {
     "memo": "fall2026/memos/neomatter.md",

@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 34.29,
-  "consolidatedRank": 167,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 60,
-    "tractionReason": "Sales reported to physician expert witnesses and medical-legal firms"
+    "tractionRank": 30,
+    "tractionScore": 62,
+    "tractionReason": "Sales to expert witnesses and medical-legal firms"
   },
   "paths": {
     "memo": "fall2026/memos/elithia.md",

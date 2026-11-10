@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 73,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 13,
-    "tractionReason": "Launch attention disclosed; no current-product customers or revenue"
+    "tractionRank": 154,
+    "tractionScore": 20,
+    "tractionReason": "Public launch; views disclosed, product usage undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/wondersearch.md",

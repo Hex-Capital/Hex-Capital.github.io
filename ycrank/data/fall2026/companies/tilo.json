@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 72,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 13,
-    "tractionReason": "Public OS mirror has three stars; no disclosed users"
+    "tractionRank": 166,
+    "tractionScore": 14,
+    "tractionReason": "GitHub mirror has three stars; no disclosed users"
   },
   "paths": {
     "memo": "fall2026/memos/tilo.md",

@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 104,
+  "consolidatedRank": 105,
   "traction": {
     "tractionRank": 53,
-    "tractionScore": 55,
-    "tractionReason": "Thousands of companies reportedly use people-data platform; payment undisclosed"
+    "tractionScore": 56,
+    "tractionReason": "Thousands of companies claimed; paid breakdown undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ploid.md",

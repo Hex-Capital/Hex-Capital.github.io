@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36,
-  "consolidatedRank": 133,
+  "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 174,
-    "tractionScore": 11,
-    "tractionReason": "Current inference endpoints marketed; no disclosed customers or revenue"
+    "tractionRank": 164,
+    "tractionScore": 14,
+    "tractionReason": "Inference endpoints offered; no disclosed customer adoption"
   },
   "paths": {
     "memo": "fall2026/memos/infraoptimal.md",

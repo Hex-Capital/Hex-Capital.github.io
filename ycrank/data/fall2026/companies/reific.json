@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 80,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 13,
-    "tractionReason": "Internal evaluation benchmarks published; no disclosed customers or revenue"
+    "tractionRank": 172,
+    "tractionScore": 12,
+    "tractionReason": "Internal evaluation results; no disclosed commercial adoption"
   },
   "paths": {
     "memo": "fall2026/memos/reific.md",

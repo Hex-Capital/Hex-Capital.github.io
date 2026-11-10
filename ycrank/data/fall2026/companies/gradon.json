@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 56,
+  "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 51,
-    "tractionReason": "Firms using product; documented civil-firm engagement; revenue undisclosed"
+    "tractionRank": 73,
+    "tractionScore": 49,
+    "tractionReason": "Firms using product; documented 180-hour customer project"
   },
   "paths": {
     "memo": "fall2026/memos/gradon.md",

@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 43.14,
-  "consolidatedRank": 26,
+  "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 19,
+    "tractionRank": 21,
     "tractionScore": 66,
-    "tractionReason": "$3,125 MRR; 35 active subscriptions; $11,087 cumulative revenue"
+    "tractionReason": "$3,125 platform MRR; 35 active subscriptions"
   },
   "paths": {
     "memo": "fall2026/memos/databuddy.md",

@@ -1,0 +1,80 @@
+{
+  "slug": "constor",
+  "name": "Constor",
+  "oneLiner": "AI native OS for the construction industry",
+  "metadata": {
+    "website": "https://constor.ai",
+    "yc_page": "https://www.ycombinator.com/companies/constor",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/constor))",
+    "industry": "Real Estate and Construction / Real Estate and Construction -> Construction",
+    "team_size": "3",
+    "tags": "Computer Vision, Construction, AI",
+    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/constor))",
+    "emails": "louis@constor.ai, dany@constor.ai, elio@constor.ai ([Constor contact](https://constor.ai/contact)); contact@constor.ai ([official App Store listing](https://apps.apple.com/sn/app/constor/id6792308954))"
+  },
+  "tags": [
+    "Computer Vision",
+    "Construction",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-10T21:49:31.141Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 51,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 50,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 46,
+    "EG": 49,
+    "NR": 51,
+    "PG": 50,
+    "PT": 30,
+    "SL": 44,
+    "VK": 33
+  },
+  "consolidatedAvg": 43.29,
+  "consolidatedRank": 26,
+  "traction": {
+    "tractionRank": 25,
+    "tractionScore": 64,
+    "tractionReason": "Five paying design partners; approximately twelve prepaid orders"
+  },
+  "paths": {
+    "memo": "fall2026/memos/constor.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/constor.md",
+      "elad-gil": "fall2026/evals/elad-gil/constor.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/constor.md",
+      "paul-graham": "fall2026/evals/paul-graham/constor.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/constor.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/constor.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/constor.md"
+    }
+  }
+}

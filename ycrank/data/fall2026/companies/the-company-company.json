@@ -55,11 +55,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.71,
-  "consolidatedRank": 213,
+  "consolidatedRank": 216,
   "traction": {
-    "tractionRank": 141,
+    "tractionRank": 148,
     "tractionScore": 21,
-    "tractionReason": "Estimated 2,232 monthly visits; product users and revenue undisclosed"
+    "tractionReason": "Estimated 2,232 monthly visits; product adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/the-company-company.md",

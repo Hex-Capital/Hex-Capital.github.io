@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 38.71,
-  "consolidatedRank": 76,
+  "consolidatedRank": 77,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 62,
-    "tractionReason": "2,400+ users or teams; reported revenue has predecessor attribution ambiguity"
+    "tractionRank": 48,
+    "tractionScore": 57,
+    "tractionReason": "2,400+ users/teams claimed; 1,000 meetings booked"
   },
   "paths": {
     "memo": "fall2026/memos/rezora-io.md",

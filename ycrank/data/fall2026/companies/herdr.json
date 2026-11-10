@@ -62,9 +62,9 @@
   "consolidatedAvg": 47.29,
   "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 59,
-    "tractionReason": "1.64M cumulative installs; 46,194 stars; monetization undisclosed"
+    "tractionRank": 42,
+    "tractionScore": 58,
+    "tractionReason": "1.64M cumulative installs; 46,194 stars; free runtime"
   },
   "paths": {
     "memo": "fall2026/memos/herdr.md",

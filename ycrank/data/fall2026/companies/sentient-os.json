@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 39.43,
-  "consolidatedRank": 67,
+  "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 61,
+    "tractionRank": 59,
     "tractionScore": 53,
-    "tractionReason": "10,000+ users; users at 130+ companies; enterprise payments undisclosed"
+    "tractionReason": "10,000+ users; free consumer product"
   },
   "paths": {
     "memo": "fall2026/memos/sentient-os.md",

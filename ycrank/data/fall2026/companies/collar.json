@@ -62,11 +62,11 @@
     "VK": 22
   },
   "consolidatedAvg": 31.57,
-  "consolidatedRank": 198,
+  "consolidatedRank": 201,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 40,
-    "tractionReason": "IR partners disclosed; current revenue and customer count undisclosed"
+    "tractionRank": 100,
+    "tractionScore": 43,
+    "tractionReason": "Current IR partners disclosed; contracts and customer count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/collar.md",

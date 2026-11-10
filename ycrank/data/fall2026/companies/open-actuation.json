@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 103,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 91,
+    "tractionRank": 98,
     "tractionScore": 43,
-    "tractionReason": "Motors built for unnamed OEMs; initial samples receiving customer feedback"
+    "tractionReason": "Drone OEM motor builds; customer samples; shipments unquantified"
   },
   "paths": {
     "memo": "fall2026/memos/open-actuation.md",

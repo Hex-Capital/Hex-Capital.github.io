@@ -62,9 +62,9 @@
   "consolidatedAvg": 44.71,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 39,
-    "tractionReason": "345 competing agents; 4.89M scored trajectories; builder incentives, revenue undisclosed"
+    "tractionRank": 79,
+    "tractionScore": 47,
+    "tractionReason": "345+ competing agents; 4.89M scored trajectories; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/oro-ai.md",

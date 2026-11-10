@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 39,
+  "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 46,
-    "tractionReason": "Named industrial pilot; signed manufacturing LOI; robotic-hand integration"
+    "tractionRank": 74,
+    "tractionScore": 48,
+    "tractionReason": "Named industrial pilot; manufacturing LOI; robotic-hand integration"
   },
   "paths": {
     "memo": "fall2026/memos/axonnic.md",

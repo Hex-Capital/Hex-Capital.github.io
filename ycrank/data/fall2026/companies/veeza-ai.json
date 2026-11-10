@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 39.71,
-  "consolidatedRank": 64,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 63,
-    "tractionReason": "Paying customers; 7,000+ users; vendor reports doubled revenue"
+    "tractionRank": 22,
+    "tractionScore": 66,
+    "tractionReason": "Paying customers confirmed; 7,000+ users"
   },
   "paths": {
     "memo": "fall2026/memos/veeza-ai.md",

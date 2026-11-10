@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 33.29,
-  "consolidatedRank": 178,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 10,
-    "tractionReason": "Robot evaluation episodes published; no disclosed paying customers"
+    "tractionRank": 173,
+    "tractionScore": 12,
+    "tractionReason": "Published robot evaluation episodes; no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/se3-labs.md",

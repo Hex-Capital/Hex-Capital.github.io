@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 150,
+  "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 29,
-    "tractionReason": "256 stars and 19 forks; no disclosed customers or revenue"
+    "tractionRank": 122,
+    "tractionScore": 32,
+    "tractionReason": "256 stars; Show HN earned 53 points"
   },
   "paths": {
     "memo": "fall2026/memos/useterse.md",

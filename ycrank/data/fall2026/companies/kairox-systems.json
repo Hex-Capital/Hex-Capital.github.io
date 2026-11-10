@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 157,
+  "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 21,
-    "tractionReason": "Marine Corps engagement claimed; no purchase commitments or revenue disclosed"
+    "tractionRank": 139,
+    "tractionScore": 25,
+    "tractionReason": "Marine Corps engagement reported; no purchase commitments disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/kairox-systems.md",

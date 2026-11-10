@@ -60,11 +60,11 @@
     "VK": 23
   },
   "consolidatedAvg": 33.14,
-  "consolidatedRank": 180,
+  "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 25,
-    "tractionReason": "Reported 161 Product Hunt votes; current usage and revenue undisclosed"
+    "tractionRank": 132,
+    "tractionScore": 27,
+    "tractionReason": "161 Product Hunt votes reported; no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/audora.md",

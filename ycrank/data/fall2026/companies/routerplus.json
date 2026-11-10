@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 58,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 58,
-    "tractionReason": "Largest customer runs three million agent conversations daily; payment undisclosed"
+    "tractionRank": 37,
+    "tractionScore": 59,
+    "tractionReason": "Largest customer runs three million agent conversations daily"
   },
   "paths": {
     "memo": "fall2026/memos/routerplus.md",

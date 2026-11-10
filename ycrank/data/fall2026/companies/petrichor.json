@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.71,
-  "consolidatedRank": 197,
+  "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 206,
-    "tractionScore": 5,
-    "tractionReason": "Current wet-lab offering has no disclosed customers or revenue"
+    "tractionRank": 212,
+    "tractionScore": 4,
+    "tractionReason": "No disclosed wet-lab customers; earlier product audience excluded"
   },
   "paths": {
     "memo": "fall2026/memos/petrichor.md",

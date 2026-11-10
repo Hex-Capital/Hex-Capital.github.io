@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 138,
+  "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 183,
-    "tractionScore": 9,
-    "tractionReason": "Solver-comparison benchmarks only; no disclosed customer adoption"
+    "tractionRank": 196,
+    "tractionScore": 8,
+    "tractionReason": "Internal solver benchmarks; no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/vorelios.md",

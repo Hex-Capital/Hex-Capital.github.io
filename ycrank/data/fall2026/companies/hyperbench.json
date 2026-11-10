@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 37.14,
-  "consolidatedRank": 107,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 12,
-    "tractionReason": "Private-beta enrollment open; no disclosed active users or revenue"
+    "tractionRank": 178,
+    "tractionScore": 10,
+    "tractionReason": "Private beta offered; active-user counts undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hyperbench.md",

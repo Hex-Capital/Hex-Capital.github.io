@@ -59,11 +59,11 @@
     "VK": 31
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 46,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 9,
+    "tractionRank": 8,
     "tractionScore": 74,
-    "tractionReason": "$240K ARR before YC from current sales product"
+    "tractionReason": "$240K ARR attributed to current sales product"
   },
   "paths": {
     "memo": "fall2026/memos/clean.md",

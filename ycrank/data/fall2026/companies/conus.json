@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 71,
+  "consolidatedRank": 72,
   "traction": {
     "tractionRank": 17,
-    "tractionScore": 67,
-    "tractionReason": "Paid manufacturer services; 20+ hospitals live; named manufacturer relationships"
+    "tractionScore": 68,
+    "tractionReason": "Paid manufacturer services; 20+ hospitals live"
   },
   "paths": {
     "memo": "fall2026/memos/conus.md",

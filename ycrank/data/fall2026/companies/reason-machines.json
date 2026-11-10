@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 41.86,
-  "consolidatedRank": 45,
+  "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 57,
-    "tractionReason": "10,000 users and 300 active customer Slack channels within 14 days"
+    "tractionRank": 52,
+    "tractionScore": 56,
+    "tractionReason": "10,000 users; 300 active customer Slack channels"
   },
   "paths": {
     "memo": "fall2026/memos/reason-machines.md",

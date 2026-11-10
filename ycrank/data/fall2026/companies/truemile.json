@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 30.86,
-  "consolidatedRank": 207,
+  "consolidatedRank": 210,
   "traction": {
-    "tractionRank": 196,
-    "tractionScore": 7,
-    "tractionReason": "No disclosed shipments, customers, operating volume, or revenue"
+    "tractionRank": 207,
+    "tractionScore": 5,
+    "tractionReason": "No disclosed shipments, customers, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/truemile.md",

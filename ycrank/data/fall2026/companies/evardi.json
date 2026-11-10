@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 44,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 48,
-    "tractionReason": "Utility deployments claimed; published outcome studies explicitly use simulations"
+    "tractionRank": 103,
+    "tractionScore": 42,
+    "tractionReason": "Utility deployment footprint claimed; customer count and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/evardi.md",

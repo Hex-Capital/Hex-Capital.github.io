@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 33.43,
-  "consolidatedRank": 176,
+  "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 167,
-    "tractionScore": 12,
-    "tractionReason": "Public launch and free scan; no disclosed customer adoption"
+    "tractionRank": 149,
+    "tractionScore": 20,
+    "tractionReason": "Public launch; no disclosed users or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/aucert.md",

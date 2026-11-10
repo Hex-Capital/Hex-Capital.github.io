@@ -1,0 +1,82 @@
+{
+  "slug": "verno",
+  "name": "Verno",
+  "oneLiner": "AI that helps engineers draft, edit and check documents",
+  "metadata": {
+    "website": "https://verno-ai.com",
+    "yc_page": "https://www.ycombinator.com/companies/verno",
+    "batch": "Fall 2026 ([Verno announcement](https://www.linkedin.com/posts/verno-inc_verno-yc-f26-is-in-y-combinator-fall-2026-activity-7507794284075466752-EL6w))",
+    "industry": "Industrials / Industrials",
+    "team_size": "3",
+    "location": "San Francisco, CA, USA",
+    "tags": "Manufacturing, Energy, AI, Industrial",
+    "yc_partner": "Not listed",
+    "emails": "oliver@verno-ai.com — CEO; ujjawal@verno-ai.com — CTO ([Verno contact](https://www.verno-ai.com/contact)); security@verno-ai.com — privacy/security, overseen by CTO ([Verno privacy notice](https://www.verno-ai.com/privacy))"
+  },
+  "tags": [
+    "Manufacturing",
+    "Energy",
+    "AI",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-10T21:50:01.322Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 40,
+    "EG": 41,
+    "NR": 43,
+    "PG": 38,
+    "PT": 34,
+    "SL": 37,
+    "VK": 28
+  },
+  "consolidatedAvg": 37.29,
+  "consolidatedRank": 107,
+  "traction": {
+    "tractionRank": 72,
+    "tractionScore": 49,
+    "tractionReason": "Live customer sites; EPC design partnership processing drawings"
+  },
+  "paths": {
+    "memo": "fall2026/memos/verno.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/verno.md",
+      "elad-gil": "fall2026/evals/elad-gil/verno.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/verno.md",
+      "paul-graham": "fall2026/evals/paul-graham/verno.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/verno.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/verno.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/verno.md"
+    }
+  }
+}

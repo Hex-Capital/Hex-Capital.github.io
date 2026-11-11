@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.14,
   "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 53,
-    "tractionReason": "Two named benefits customers; realized commissions undisclosed"
+    "tractionRank": 55,
+    "tractionScore": 55,
+    "tractionReason": "Named brokerage customers AWM Capital and Light Labs"
   },
   "paths": {
     "memo": "fall2026/memos/ignition-benefits.md",

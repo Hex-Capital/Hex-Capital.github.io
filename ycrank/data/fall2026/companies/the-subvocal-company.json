@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.29,
   "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 195,
+    "tractionRank": 197,
     "tractionScore": 8,
-    "tractionReason": "Prototype demonstrated; no disclosed customer usage"
+    "tractionReason": "Prototype performance reported; no disclosed customer adoption"
   },
   "paths": {
     "memo": "fall2026/memos/the-subvocal-company.md",

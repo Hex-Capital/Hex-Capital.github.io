@@ -62,9 +62,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 64,
-    "tractionReason": "Increasing revenue reported; signed insurance customer"
+    "tractionRank": 28,
+    "tractionScore": 62,
+    "tractionReason": "Increasing revenue reported; signed insurance customer; AXA displayed"
   },
   "paths": {
     "memo": "fall2026/memos/ageospatial.md",

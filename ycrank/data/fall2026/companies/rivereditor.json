@@ -61,9 +61,9 @@
   "consolidatedAvg": 36.14,
   "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 43,
+    "tractionRank": 41,
     "tractionScore": 58,
-    "tractionReason": "50,000+ AI Desktop users; 130,000+ agents created"
+    "tractionReason": "50K+ AI Desktop users; current homepage claims 100K+ creators"
   },
   "paths": {
     "memo": "fall2026/memos/rivereditor.md",

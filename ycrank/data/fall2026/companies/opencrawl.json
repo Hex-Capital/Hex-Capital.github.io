@@ -62,9 +62,9 @@
   "consolidatedAvg": 34.57,
   "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 12,
-    "tractionReason": "Current search usage undisclosed; prior OnePatch metrics excluded"
+    "tractionRank": 164,
+    "tractionScore": 14,
+    "tractionReason": "Search product adoption undisclosed; prior observability usage excluded"
   },
   "paths": {
     "memo": "fall2026/memos/opencrawl.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 30.29,
   "consolidatedRank": 213,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 24,
-    "tractionReason": "100 Product Hunt points; no disclosed customer deployments"
+    "tractionRank": 143,
+    "tractionScore": 22,
+    "tractionReason": "Product Hunt shows 100 points; customer deployments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rhem-labs.md",

@@ -61,9 +61,9 @@
   "consolidatedAvg": 32.29,
   "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 38,
-    "tractionReason": "Ten startups onboarded; five vendor partnerships in 48 hours"
+    "tractionRank": 105,
+    "tractionScore": 40,
+    "tractionReason": "Ten startups onboarded and five vendor partnerships within 48 hours"
   },
   "paths": {
     "memo": "fall2026/memos/ernd.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 71,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 40,
-    "tractionReason": "Customer blood draws open; samples processing; volumes undisclosed"
+    "tractionRank": 109,
+    "tractionScore": 39,
+    "tractionReason": "Blood draws open and samples processing; test sales undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/canos.md",

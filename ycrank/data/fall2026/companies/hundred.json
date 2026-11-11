@@ -64,9 +64,9 @@
   "consolidatedAvg": 34.14,
   "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 43,
-    "tractionReason": "Deploying to three founding partners; payments unconfirmed"
+    "tractionRank": 97,
+    "tractionScore": 42,
+    "tractionReason": "Deploying to three founding partners; payments and completed installations undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hundred.md",

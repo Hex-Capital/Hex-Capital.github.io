@@ -61,9 +61,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 62,
-    "tractionReason": "$10M+ processed payments; 25 clients; named customer references"
+    "tractionRank": 35,
+    "tractionScore": 60,
+    "tractionReason": "$10M+ payments processed; 25 initial clients; named customer references"
   },
   "paths": {
     "memo": "fall2026/memos/blinka.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 16,
-    "tractionScore": 68,
-    "tractionReason": "10 active accounting clients across four countries"
+    "tractionRank": 32,
+    "tractionScore": 61,
+    "tractionReason": "Ten active accounting clients across four countries"
   },
   "paths": {
     "memo": "fall2026/memos/sintropix.md",

@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 103,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 84,
+    "tractionRank": 78,
     "tractionScore": 46,
-    "tractionReason": "Outcome-based recovery pilots; realized fees undisclosed"
+    "tractionReason": "Outcome-contingent hospital pilots; underpayment recoveries reported, fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cesara.md",

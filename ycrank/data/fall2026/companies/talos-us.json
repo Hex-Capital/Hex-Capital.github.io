@@ -64,9 +64,9 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 194,
   "traction": {
-    "tractionRank": 186,
+    "tractionRank": 187,
     "tractionScore": 10,
-    "tractionReason": "Pump demonstration; no disclosed customer deployment"
+    "tractionReason": "Pump-sensing demonstration; no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/talos-us.md",

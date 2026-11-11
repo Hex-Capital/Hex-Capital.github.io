@@ -62,9 +62,9 @@
   "consolidatedAvg": 31.71,
   "consolidatedRank": 199,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 16,
-    "tractionReason": "Public launch; no supporting customer-level results disclosed"
+    "tractionRank": 159,
+    "tractionScore": 17,
+    "tractionReason": "Launched; automation claims lack project-level results or customer counts"
   },
   "paths": {
     "memo": "fall2026/memos/habu.md",

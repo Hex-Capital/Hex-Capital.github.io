@@ -61,9 +61,9 @@
   "consolidatedAvg": 27.57,
   "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 215,
+    "tractionRank": 216,
     "tractionScore": 4,
-    "tractionReason": "Blog coverage; no disclosed orders or contracts"
+    "tractionReason": "Blog coverage only; no disclosed contracts or deliveries"
   },
   "paths": {
     "memo": "fall2026/memos/polemos-industries.md",

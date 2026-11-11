@@ -61,9 +61,9 @@
   "consolidatedAvg": 30.57,
   "consolidatedRank": 212,
   "traction": {
-    "tractionRank": 227,
-    "tractionScore": 0,
-    "tractionReason": "No disclosed customers, usage, or revenue"
+    "tractionRank": 223,
+    "tractionScore": 1,
+    "tractionReason": "No disclosed verification customers, usage, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/topos.md",

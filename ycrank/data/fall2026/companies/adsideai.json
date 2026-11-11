@@ -61,9 +61,9 @@
   "consolidatedAvg": 39.57,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 54,
+    "tractionRank": 52,
     "tractionScore": 55,
-    "tractionReason": "30 companies live; paying status unspecified"
+    "tractionReason": "30 companies live; paying status and realized revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/adsideai.md",

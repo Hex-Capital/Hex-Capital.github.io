@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.43,
   "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 59,
-    "tractionReason": "80+ dealerships in 110 days; payment status undisclosed"
+    "tractionRank": 25,
+    "tractionScore": 62,
+    "tractionReason": "80+ dealerships in 110 days; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/bayworks.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.86,
   "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 196,
+    "tractionRank": 198,
     "tractionScore": 8,
-    "tractionReason": "Internal solver benchmarks; no disclosed customers"
+    "tractionReason": "Solver-comparison benchmarks; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/vorelios.md",

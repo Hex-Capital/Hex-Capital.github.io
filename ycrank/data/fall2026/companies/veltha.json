@@ -61,9 +61,9 @@
   "consolidatedAvg": 38.43,
   "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 16,
-    "tractionReason": "Current TPA customer identities and revenue undisclosed"
+    "tractionRank": 176,
+    "tractionScore": 12,
+    "tractionReason": "Current TPA adoption undisclosed; prior conference leads excluded"
   },
   "paths": {
     "memo": "fall2026/memos/veltha.md",

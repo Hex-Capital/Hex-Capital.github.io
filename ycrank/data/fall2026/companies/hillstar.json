@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 48,
-    "tractionReason": "Multiple utility procurement case studies; payment status undisclosed"
+    "tractionRank": 71,
+    "tractionScore": 47,
+    "tractionReason": "Multiple utility case studies; 22 submissions evaluated in one engagement"
   },
   "paths": {
     "memo": "fall2026/memos/hillstar.md",

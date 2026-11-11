@@ -63,9 +63,9 @@
   "consolidatedAvg": 34.43,
   "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 18,
-    "tractionReason": "Commercial terms available; no disclosed current-product customers"
+    "tractionRank": 151,
+    "tractionScore": 19,
+    "tractionReason": "Commercial terms published; current customers and realized revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/definite.md",

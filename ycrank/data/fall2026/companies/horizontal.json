@@ -62,9 +62,9 @@
   "consolidatedAvg": 30.57,
   "consolidatedRank": 211,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 30,
-    "tractionReason": "International manufacturer work claimed; deployments unquantified"
+    "tractionRank": 134,
+    "tractionScore": 26,
+    "tractionReason": "Working with manufacturers claimed; customers and deployments unquantified"
   },
   "paths": {
     "memo": "fall2026/memos/horizontal.md",

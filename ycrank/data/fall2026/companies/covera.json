@@ -64,9 +64,9 @@
   "consolidatedAvg": 44.29,
   "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 51,
+    "tractionRank": 50,
     "tractionScore": 56,
-    "tractionReason": "50+ agencies; named customer records 155 tasks"
+    "tractionReason": "50+ agencies; named customer logged 155 tasks in fortnight"
   },
   "paths": {
     "memo": "fall2026/memos/covera.md",

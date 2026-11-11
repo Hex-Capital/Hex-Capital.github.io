@@ -61,8 +61,8 @@
   "consolidatedRank": 56,
   "traction": {
     "tractionRank": 1,
-    "tractionScore": 97,
-    "tractionReason": "Multiple millions ARR; six AI lab customers"
+    "tractionScore": 95,
+    "tractionReason": "Multiple millions in ARR; six AI-lab customers"
   },
   "paths": {
     "memo": "fall2026/memos/peritai.md",

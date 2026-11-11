@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.29,
   "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 8,
-    "tractionReason": "Private previews advertised; no disclosed deployments"
+    "tractionRank": 193,
+    "tractionScore": 9,
+    "tractionReason": "Private previews advertised; no disclosed deployments or purchase commitments"
   },
   "paths": {
     "memo": "fall2026/memos/theseus-robotics.md",

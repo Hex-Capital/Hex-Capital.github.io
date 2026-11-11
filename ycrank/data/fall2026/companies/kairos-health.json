@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.14,
   "consolidatedRank": 43,
   "traction": {
-    "tractionRank": 20,
+    "tractionRank": 16,
     "tractionScore": 67,
-    "tractionReason": "$4K+ MRR; 13 paying practices; 16 live locations"
+    "tractionReason": "$4K+ MRR ($48K+ annualized); 13 paying dental practices"
   },
   "paths": {
     "memo": "fall2026/memos/kairos-health.md",

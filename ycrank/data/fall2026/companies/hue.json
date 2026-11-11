@@ -62,8 +62,8 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 16,
+    "tractionRank": 165,
+    "tractionScore": 14,
     "tractionReason": "SDK released; zero repository stars; no disclosed customers"
   },
   "paths": {

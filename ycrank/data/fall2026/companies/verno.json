@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 107,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 49,
-    "tractionReason": "Live customer sites; EPC design partnership processing drawings"
+    "tractionRank": 77,
+    "tractionScore": 46,
+    "tractionReason": "EPC design partnership processing real drawings; live customer sites"
   },
   "paths": {
     "memo": "fall2026/memos/verno.md",

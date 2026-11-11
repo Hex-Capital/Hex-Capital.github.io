@@ -61,9 +61,9 @@
   "consolidatedAvg": 31.71,
   "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 212,
-    "tractionScore": 4,
-    "tractionReason": "No disclosed wet-lab customers; earlier product audience excluded"
+    "tractionRank": 210,
+    "tractionScore": 5,
+    "tractionReason": "Current wet-lab customers undisclosed; earlier instrument-data product excluded"
   },
   "paths": {
     "memo": "fall2026/memos/petrichor.md",

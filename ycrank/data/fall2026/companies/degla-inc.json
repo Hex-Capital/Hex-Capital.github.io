@@ -63,9 +63,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 10,
-    "tractionReason": "Flight demonstration; observer attendance establishes no customers"
+    "tractionRank": 168,
+    "tractionScore": 13,
+    "tractionReason": "Flight demonstration with agency observers; no disclosed customer contracts"
   },
   "paths": {
     "memo": "fall2026/memos/degla-inc.md",

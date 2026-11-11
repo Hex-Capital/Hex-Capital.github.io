@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 48,
-    "tractionReason": "Named industrial pilot; manufacturing LOI; robotic-hand integration"
+    "tractionRank": 73,
+    "tractionScore": 47,
+    "tractionReason": "Manufacturing LOI; named Perloro Packing pilot; Proception integration"
   },
   "paths": {
     "memo": "fall2026/memos/axonnic.md",

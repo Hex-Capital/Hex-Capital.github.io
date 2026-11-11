@@ -64,9 +64,9 @@
   "consolidatedAvg": 34.43,
   "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 48,
-    "tractionReason": "711,933 agent sessions; product-version allocation undisclosed"
+    "tractionRank": 86,
+    "tractionScore": 45,
+    "tractionReason": "711,933 agent sessions displayed; period and product allocation unspecified"
   },
   "paths": {
     "memo": "fall2026/memos/mirrors.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.57,
   "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 57,
-    "tractionReason": "Named customers plus 100+ others; payment status undisclosed"
+    "tractionRank": 51,
+    "tractionScore": 56,
+    "tractionReason": "Named customers plus 100+ more claimed; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/letter-dev.md",

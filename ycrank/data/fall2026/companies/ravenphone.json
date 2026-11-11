@@ -61,9 +61,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 43,
-    "tractionReason": "Initial phone orders shipping; quantities and payments undisclosed"
+    "tractionRank": 95,
+    "tractionScore": 42,
+    "tractionReason": "Initial phone orders shipping; hundreds of community signups"
   },
   "paths": {
     "memo": "fall2026/memos/ravenphone.md",

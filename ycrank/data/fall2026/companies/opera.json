@@ -64,9 +64,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 25,
-    "tractionReason": "Operational-data results; current commercial deployments unconfirmed"
+    "tractionRank": 108,
+    "tractionScore": 40,
+    "tractionReason": "Sugar-producer and marketplace operational results; commercial terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/opera.md",

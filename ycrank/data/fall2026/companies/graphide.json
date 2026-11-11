@@ -62,9 +62,9 @@
   "consolidatedAvg": 34.86,
   "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 124,
-    "tractionScore": 30,
-    "tractionReason": "Developers using alpha; user totals and revenue undisclosed"
+    "tractionRank": 119,
+    "tractionScore": 35,
+    "tractionReason": "Developers reportedly using own codebases; customer totals undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/graphide.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 34.29,
   "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 150,
-    "tractionScore": 20,
-    "tractionReason": "Paid tiers launched; no disclosed customer adoption"
+    "tractionRank": 153,
+    "tractionScore": 18,
+    "tractionReason": "Free and paid tiers launched; customer usage undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/munito-ai.md",

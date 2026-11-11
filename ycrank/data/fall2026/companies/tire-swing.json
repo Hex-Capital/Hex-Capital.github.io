@@ -64,9 +64,9 @@
   "consolidatedAvg": 31.43,
   "consolidatedRank": 203,
   "traction": {
-    "tractionRank": 206,
+    "tractionRank": 212,
     "tractionScore": 5,
-    "tractionReason": "Current housing product has no disclosed customers"
+    "tractionReason": "Housing-compliance customers undisclosed; earlier healthcare positioning excluded"
   },
   "paths": {
     "memo": "fall2026/memos/tire-swing.md",

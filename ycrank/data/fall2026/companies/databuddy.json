@@ -64,9 +64,9 @@
   "consolidatedAvg": 43.14,
   "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 66,
-    "tractionReason": "$3,125 platform MRR; 35 active subscriptions"
+    "tractionRank": 19,
+    "tractionScore": 65,
+    "tractionReason": "$3,125 platform MRR ($37.5K annualized); 35 active subscriptions"
   },
   "paths": {
     "memo": "fall2026/memos/databuddy.md",

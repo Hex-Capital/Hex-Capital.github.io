@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.71,
   "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 47,
-    "tractionReason": "Island and manufacturing deployments claimed; customer counts undisclosed"
+    "tractionRank": 89,
+    "tractionScore": 44,
+    "tractionReason": "Island and manufacturing deployments claimed; customers and contract values undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/micora.md",

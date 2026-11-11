@@ -63,9 +63,9 @@
   "consolidatedAvg": 33.14,
   "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 193,
+    "tractionRank": 196,
     "tractionScore": 8,
-    "tractionReason": "Founder wear test; no verified current-product orders"
+    "tractionReason": "Founder wear test; no verified partnerships or disclosed orders"
   },
   "paths": {
     "memo": "fall2026/memos/stasis.md",

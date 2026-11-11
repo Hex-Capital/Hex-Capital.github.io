@@ -62,9 +62,9 @@
   "consolidatedAvg": 35.71,
   "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 27,
-    "tractionReason": "Ten-plus Android downloads; one iOS rating"
+    "tractionRank": 140,
+    "tractionScore": 23,
+    "tractionReason": "10+ Android downloads; one iOS rating; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/boxesdev.md",

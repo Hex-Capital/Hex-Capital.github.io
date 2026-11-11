@@ -62,9 +62,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 42,
-    "tractionReason": "Utility deployment footprint claimed; customer count and revenue undisclosed"
+    "tractionRank": 88,
+    "tractionScore": 44,
+    "tractionReason": "Utility deployments claimed; customer counts and commercial terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/evardi.md",

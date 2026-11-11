@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.57,
   "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 49,
-    "tractionReason": "Operating billing engagement; client collections are not startup revenue"
+    "tractionRank": 70,
+    "tractionScore": 47,
+    "tractionReason": "Active billing engagement; client collections disclosed, own revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/altair-health.md",

@@ -60,9 +60,9 @@
   "consolidatedAvg": 31.29,
   "consolidatedRank": 205,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 14,
-    "tractionReason": "Emerged from stealth; no disclosed customers or revenue"
+    "tractionRank": 189,
+    "tractionScore": 10,
+    "tractionReason": "Emerged from stealth; no disclosed commercial adoption"
   },
   "paths": {
     "memo": "fall2026/memos/particularity.md",

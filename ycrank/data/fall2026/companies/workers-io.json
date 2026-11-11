@@ -64,8 +64,8 @@
   "consolidatedRank": 179,
   "traction": {
     "tractionRank": 129,
-    "tractionScore": 29,
-    "tractionReason": "208 repository stars; 32 forks; no disclosed revenue"
+    "tractionScore": 30,
+    "tractionReason": "208 repository stars and 32 forks; customer adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/workers-io.md",

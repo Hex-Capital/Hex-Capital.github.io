@@ -64,9 +64,9 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 193,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 10,
-    "tractionReason": "Launch video reach; no disclosed product customers"
+    "tractionRank": 166,
+    "tractionScore": 13,
+    "tractionReason": "Launch-video views only; customer adoption and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/preload.md",

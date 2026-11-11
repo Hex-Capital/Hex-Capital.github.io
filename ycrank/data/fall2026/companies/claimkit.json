@@ -61,9 +61,9 @@
   "consolidatedAvg": 40.71,
   "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 71,
-    "tractionReason": "80+ customers within six months; completed tax engagements"
+    "tractionRank": 13,
+    "tractionScore": 70,
+    "tractionReason": "80+ customers within six months; fee-based tax engagements"
   },
   "paths": {
     "memo": "fall2026/memos/claimkit.md",

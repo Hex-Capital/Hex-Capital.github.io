@@ -62,9 +62,9 @@
   "consolidatedAvg": 39.29,
   "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 154,
+    "tractionRank": 146,
     "tractionScore": 20,
-    "tractionReason": "Public launch; views disclosed, product usage undisclosed"
+    "tractionReason": "Launch reach disclosed; current search customers and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/wondersearch.md",

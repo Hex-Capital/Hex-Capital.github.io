@@ -62,9 +62,9 @@
   "consolidatedAvg": 40.14,
   "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 49,
-    "tractionReason": "Firms using product; documented 180-hour customer project"
+    "tractionRank": 81,
+    "tractionScore": 45,
+    "tractionReason": "Multiple firms using product; documented 50-person civil-firm engagement"
   },
   "paths": {
     "memo": "fall2026/memos/gradon.md",

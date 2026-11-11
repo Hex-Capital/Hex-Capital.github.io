@@ -63,9 +63,9 @@
   "consolidatedAvg": 42.29,
   "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 48,
-    "tractionReason": "229.6K package downloads; approximately 1,000 stars"
+    "tractionRank": 75,
+    "tractionScore": 46,
+    "tractionReason": "229.6K package downloads; approximately 1,000 repository stars"
   },
   "paths": {
     "memo": "fall2026/memos/agent-relay.md",

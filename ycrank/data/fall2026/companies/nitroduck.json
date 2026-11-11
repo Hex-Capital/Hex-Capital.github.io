@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.14,
   "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 203,
+    "tractionRank": 208,
     "tractionScore": 5,
-    "tractionReason": "Research awards; no disclosed current crop sales"
+    "tractionReason": "Prior research awards; no disclosed current crop-product customers"
   },
   "paths": {
     "memo": "fall2026/memos/nitroduck.md",

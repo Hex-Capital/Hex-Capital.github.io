@@ -1,0 +1,80 @@
+{
+  "slug": "plek-ai",
+  "name": "Plek AI",
+  "oneLiner": "The AI company brain for PE value creation",
+  "metadata": {
+    "website": "https://www.plek.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/plek-ai",
+    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/plek-ai))",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Enterprise, AI",
+    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/founders/pierre-bouquet))",
+    "emails": "pierre@plek.ai — CEO/data requests; support@plek.ai — support ([Plek Help](https://plek.ai/help/)); pibou149@mit.edu — CEO’s published academic address ([personal website](https://pierre-bouquet.github.io/website/index.html)); contact@plek.ai — general/privacy ([Privacy](https://plek.ai/privacy/)); security@plek.ai — security ([Security](https://plek.ai/security/))"
+  },
+  "tags": [
+    "Enterprise",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-11T17:16:36.221Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 42,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 49,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 28,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 42,
+    "EG": 39,
+    "NR": 49,
+    "PG": 37,
+    "PT": 37,
+    "SL": 31,
+    "VK": 28
+  },
+  "consolidatedAvg": 37.57,
+  "consolidatedRank": 103,
+  "traction": {
+    "tractionRank": 113,
+    "tractionScore": 38,
+    "tractionReason": "Enterprise assessment benchmark reported; customer payment and realized savings undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/plek-ai.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/plek-ai.md",
+      "elad-gil": "fall2026/evals/elad-gil/plek-ai.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/plek-ai.md",
+      "paul-graham": "fall2026/evals/paul-graham/plek-ai.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/plek-ai.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/plek-ai.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/plek-ai.md"
+    }
+  }
+}

@@ -62,9 +62,9 @@
   "consolidatedAvg": 29.57,
   "consolidatedRank": 217,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 9,
-    "tractionReason": "Preorders open; no quantities; production scheduled for 2027"
+    "tractionRank": 178,
+    "tractionScore": 11,
+    "tractionReason": "Preorders offered; prototypes and production scheduled; orders undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/silica.md",

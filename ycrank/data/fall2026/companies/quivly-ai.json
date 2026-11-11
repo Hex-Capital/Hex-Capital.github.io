@@ -62,9 +62,9 @@
   "consolidatedAvg": 42.57,
   "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 18,
-    "tractionScore": 68,
-    "tractionReason": "Revenue confirmed; named customers managing 10,000+ client accounts"
+    "tractionRank": 21,
+    "tractionScore": 64,
+    "tractionReason": "Revenue acknowledged; named customers; 10,000+ client accounts managed"
   },
   "paths": {
     "memo": "fall2026/memos/quivly-ai.md",

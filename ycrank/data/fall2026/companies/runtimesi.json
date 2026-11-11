@@ -62,9 +62,9 @@
   "consolidatedAvg": 31.57,
   "consolidatedRank": 202,
   "traction": {
-    "tractionRank": 183,
+    "tractionRank": 185,
     "tractionScore": 10,
-    "tractionReason": "Benchmark forthcoming; no disclosed external customers"
+    "tractionReason": "Simulation collection forthcoming; research results without disclosed commercial adoption"
   },
   "paths": {
     "memo": "fall2026/memos/runtimesi.md",

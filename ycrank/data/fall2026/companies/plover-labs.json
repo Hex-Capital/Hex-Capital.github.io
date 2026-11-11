@@ -64,9 +64,9 @@
   "consolidatedAvg": 47.86,
   "consolidatedRank": 5,
   "traction": {
-    "tractionRank": 7,
+    "tractionRank": 6,
     "tractionScore": 80,
-    "tractionReason": "Envoy and Fieldguide: five-figure monthly contracts"
+    "tractionReason": "Five-figure monthly contracts with Envoy and Fieldguide"
   },
   "paths": {
     "memo": "fall2026/memos/plover-labs.md",

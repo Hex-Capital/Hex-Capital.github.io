@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.57,
   "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 153,
-    "tractionScore": 20,
-    "tractionReason": "Voyager launched; prior Moda users excluded"
+    "tractionRank": 145,
+    "tractionScore": 21,
+    "tractionReason": "Current product launched; 708 X followers; prior Moda users excluded"
   },
   "paths": {
     "memo": "fall2026/memos/voyager.md",

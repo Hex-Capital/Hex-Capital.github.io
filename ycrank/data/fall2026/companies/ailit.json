@@ -64,9 +64,9 @@
   "consolidatedAvg": 35.29,
   "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 198,
+    "tractionRank": 202,
     "tractionScore": 5,
-    "tractionReason": "No disclosed customers, deployments, or booked revenue"
+    "tractionReason": "No disclosed rail customers, deployments, or booked revenue"
   },
   "paths": {
     "memo": "fall2026/memos/ailit.md",

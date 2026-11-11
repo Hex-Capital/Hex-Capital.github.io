@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 41,
-    "tractionReason": "Active design partners; names and contracts undisclosed"
+    "tractionRank": 104,
+    "tractionScore": 40,
+    "tractionReason": "Active design partners; names, deployment counts, and payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/stacktrace.md",

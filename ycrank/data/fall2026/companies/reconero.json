@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.14,
   "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 42,
-    "tractionReason": "Police-unit trials and officer feedback; payments unspecified"
+    "tractionRank": 101,
+    "tractionScore": 41,
+    "tractionReason": "Police-unit trials and officer feedback; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/reconero.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.57,
   "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 200,
+    "tractionRank": 203,
     "tractionScore": 5,
-    "tractionReason": "Research efficacy claims; no disclosed commercial customers"
+    "tractionReason": "Research-stage efficacy claims; no disclosed commercial customers"
   },
   "paths": {
     "memo": "fall2026/memos/biodelivera.md",

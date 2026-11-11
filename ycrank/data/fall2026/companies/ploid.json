@@ -60,11 +60,11 @@
     "VK": 30
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 105,
+  "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 53,
-    "tractionScore": 56,
-    "tractionReason": "Thousands of companies claimed; paid breakdown undisclosed"
+    "tractionRank": 67,
+    "tractionScore": 50,
+    "tractionReason": "Thousands of companies claimed; paid and active shares undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ploid.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 38.29,
   "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 44,
+    "tractionRank": 43,
     "tractionScore": 58,
-    "tractionReason": "Leading game has 1.8M plays; three-hour daily engagement"
+    "tractionReason": "Leading game has 1.8M plays; three-plus hours per DAU"
   },
   "paths": {
     "memo": "fall2026/memos/yam.md",

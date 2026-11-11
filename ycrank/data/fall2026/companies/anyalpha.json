@@ -63,9 +63,9 @@
   "consolidatedAvg": 32.43,
   "consolidatedRank": 189,
   "traction": {
-    "tractionRank": 143,
+    "tractionRank": 142,
     "tractionScore": 22,
-    "tractionReason": "Live app; current-product adoption cannot be isolated"
+    "tractionReason": "Shared app has 100+ downloads; current-product adoption cannot be isolated"
   },
   "paths": {
     "memo": "fall2026/memos/anyalpha.md",

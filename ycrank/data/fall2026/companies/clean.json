@@ -61,9 +61,9 @@
   "consolidatedAvg": 41.43,
   "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 8,
+    "tractionRank": 9,
     "tractionScore": 74,
-    "tractionReason": "$240K ARR attributed to current sales product"
+    "tractionReason": "$240K ARR before YC; paying sales-product customers"
   },
   "paths": {
     "memo": "fall2026/memos/clean.md",

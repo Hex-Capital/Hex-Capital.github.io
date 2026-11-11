@@ -64,9 +64,9 @@
   "consolidatedAvg": 36.71,
   "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 9,
-    "tractionReason": "Internal laboratory demonstration; waitlist size undisclosed"
+    "tractionRank": 179,
+    "tractionScore": 11,
+    "tractionReason": "Internal laboratory demonstration; unquantified early-access waitlist"
   },
   "paths": {
     "memo": "fall2026/memos/primordiant.md",

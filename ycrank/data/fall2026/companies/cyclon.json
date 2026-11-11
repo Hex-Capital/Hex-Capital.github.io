@@ -62,9 +62,9 @@
   "consolidatedAvg": 29.43,
   "consolidatedRank": 219,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 8,
-    "tractionReason": "Waitlist open; enrollment count undisclosed"
+    "tractionRank": 181,
+    "tractionScore": 11,
+    "tractionReason": "Unquantified early-access waitlist; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/cyclon.md",

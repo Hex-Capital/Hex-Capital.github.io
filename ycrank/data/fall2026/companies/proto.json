@@ -62,9 +62,9 @@
   "consolidatedAvg": 34.43,
   "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 16,
-    "tractionReason": "Product launched; no disclosed users or revenue"
+    "tractionRank": 162,
+    "tractionScore": 15,
+    "tractionReason": "Public launch; 65 X followers; no disclosed product users"
   },
   "paths": {
     "memo": "fall2026/memos/proto.md",

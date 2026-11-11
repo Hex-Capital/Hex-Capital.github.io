@@ -63,9 +63,9 @@
   "consolidatedAvg": 35.71,
   "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 45,
-    "tractionReason": "Approximately 4,000 stars; cloud open beta"
+    "tractionRank": 91,
+    "tractionScore": 43,
+    "tractionReason": "Approximately 4,000 stars, 403 forks; cloud open beta"
   },
   "paths": {
     "memo": "fall2026/memos/phone-harness.md",

@@ -62,9 +62,9 @@
   "consolidatedAvg": 41.29,
   "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 116,
+    "tractionRank": 115,
     "tractionScore": 38,
-    "tractionReason": "3,022 monthly sample downloads; commercial licensing revenue undisclosed"
+    "tractionReason": "Public sample had 3,022 monthly downloads; commercial licenses unquantified"
   },
   "paths": {
     "memo": "fall2026/memos/the-agentic-data-co.md",

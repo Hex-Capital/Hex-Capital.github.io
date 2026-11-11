@@ -61,9 +61,9 @@
   "consolidatedAvg": 35.14,
   "consolidatedRank": 151,
   "traction": {
-    "tractionRank": 211,
-    "tractionScore": 4,
-    "tractionReason": "Current CRO adoption undisclosed; earlier matching pilots excluded"
+    "tractionRank": 209,
+    "tractionScore": 5,
+    "tractionReason": "Current CRO adoption undisclosed; earlier matching-product pilots excluded"
   },
   "paths": {
     "memo": "fall2026/memos/nxtcure-labs.md",

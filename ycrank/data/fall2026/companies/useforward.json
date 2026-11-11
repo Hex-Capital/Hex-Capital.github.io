@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 106,
+  "consolidatedRank": 107,
   "traction": {
     "tractionRank": 10,
     "tractionScore": 73,
-    "tractionReason": "$180K annualized revenue; 50+ funds onboarded"
+    "tractionReason": "180K annualized revenue; 50+ funds onboarded"
   },
   "paths": {
     "memo": "fall2026/memos/useforward.md",

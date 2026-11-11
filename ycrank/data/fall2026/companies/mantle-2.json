@@ -62,9 +62,9 @@
   "consolidatedAvg": 36.71,
   "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 180,
-    "tractionScore": 10,
-    "tractionReason": "Service announced; no disclosed customers or revenue"
+    "tractionRank": 207,
+    "tractionScore": 5,
+    "tractionReason": "Service announced; no disclosed maintenance customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/mantle-2.md",

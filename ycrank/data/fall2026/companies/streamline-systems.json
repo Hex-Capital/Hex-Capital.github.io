@@ -62,9 +62,9 @@
   "consolidatedAvg": 33.29,
   "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 43,
-    "tractionReason": "Signed LOIs; government trials scheduled; counterparties undisclosed"
+    "tractionRank": 85,
+    "tractionScore": 45,
+    "tractionReason": "Signed LOIs; government trials scheduled; counterparties and values undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/streamline-systems.md",

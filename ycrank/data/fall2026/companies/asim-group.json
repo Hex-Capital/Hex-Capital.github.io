@@ -63,8 +63,8 @@
   "consolidatedRank": 158,
   "traction": {
     "tractionRank": 199,
-    "tractionScore": 5,
-    "tractionReason": "Prototype history; no disclosed current-product adoption"
+    "tractionScore": 7,
+    "tractionReason": "Safety prototype background; no disclosed current-product customers"
   },
   "paths": {
     "memo": "fall2026/memos/asim-group.md",

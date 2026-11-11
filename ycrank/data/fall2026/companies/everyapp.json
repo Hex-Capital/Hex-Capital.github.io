@@ -61,9 +61,9 @@
   "consolidatedAvg": 37.71,
   "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 121,
-    "tractionScore": 33,
-    "tractionReason": "Current platform has 351 stars; OpenSEO metrics excluded"
+    "tractionRank": 127,
+    "tractionScore": 31,
+    "tractionReason": "Current platform has 351 stars; separate OpenSEO metrics excluded"
   },
   "paths": {
     "memo": "fall2026/memos/everyapp.md",

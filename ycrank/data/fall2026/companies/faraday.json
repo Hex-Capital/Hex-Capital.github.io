@@ -63,9 +63,9 @@
   "consolidatedAvg": 36.71,
   "consolidatedRank": 118,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 14,
-    "tractionReason": "Public synthetic benchmark; zero stars; no disclosed customers"
+    "tractionRank": 184,
+    "tractionScore": 10,
+    "tractionReason": "Synthetic benchmark published; zero repository stars; no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/faraday.md",

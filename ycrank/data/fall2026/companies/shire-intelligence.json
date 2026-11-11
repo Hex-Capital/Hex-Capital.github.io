@@ -61,9 +61,9 @@
   "consolidatedAvg": 36.29,
   "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 92,
-    "tractionScore": 45,
-    "tractionReason": "Named restaurant customer testimonial; own revenue undisclosed"
+    "tractionRank": 116,
+    "tractionScore": 38,
+    "tractionReason": "Restaurant testimonial; current CCTV adoption and own revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/shire-intelligence.md",

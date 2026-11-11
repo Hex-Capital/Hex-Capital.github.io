@@ -63,9 +63,9 @@
   "consolidatedAvg": 44.57,
   "consolidatedRank": 19,
   "traction": {
-    "tractionRank": 19,
-    "tractionScore": 67,
-    "tractionReason": "Reported 100K ARR company-wide; 100+ Cloud companies"
+    "tractionRank": 15,
+    "tractionScore": 68,
+    "tractionReason": "Reported 100K company ARR; 100+ companies using current platform"
   },
   "paths": {
     "memo": "fall2026/memos/agent-37.md",

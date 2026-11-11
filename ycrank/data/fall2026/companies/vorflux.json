@@ -62,9 +62,9 @@
   "consolidatedAvg": 37.71,
   "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 58,
-    "tractionScore": 54,
-    "tractionReason": "Named customer deployments; over 1T tokens consumed"
+    "tractionRank": 54,
+    "tractionScore": 55,
+    "tractionReason": "1T+ cumulative tokens; Supermemory and TrashLab customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/vorflux.md",

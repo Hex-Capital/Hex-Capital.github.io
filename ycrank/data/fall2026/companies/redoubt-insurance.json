@@ -61,9 +61,9 @@
   "consolidatedAvg": 29.86,
   "consolidatedRank": 215,
   "traction": {
-    "tractionRank": 213,
-    "tractionScore": 4,
-    "tractionReason": "No disclosed bound policies, customers, or commissions"
+    "tractionRank": 200,
+    "tractionScore": 6,
+    "tractionReason": "Brokerage presence; no disclosed clients, bound policies, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/redoubt-insurance.md",

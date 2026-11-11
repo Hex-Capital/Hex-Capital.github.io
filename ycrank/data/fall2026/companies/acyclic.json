@@ -61,9 +61,9 @@
   "consolidatedAvg": 38.43,
   "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 131,
-    "tractionScore": 28,
-    "tractionReason": "SDK has 36 stars; approximately 40 discovery conversations"
+    "tractionRank": 133,
+    "tractionScore": 27,
+    "tractionReason": "36 SDK stars; nearly 40 discovery conversations, conversions undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/acyclic.md",

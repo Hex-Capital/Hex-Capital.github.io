@@ -60,9 +60,9 @@
   "consolidatedAvg": 38.43,
   "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 16,
-    "tractionReason": "Public SDK and launch; no disclosed adoption"
+    "tractionRank": 158,
+    "tractionScore": 17,
+    "tractionReason": "Public SDK and launch; customers and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/trylatent.md",

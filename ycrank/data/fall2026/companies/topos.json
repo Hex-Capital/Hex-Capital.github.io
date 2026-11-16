@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 30.57,
-  "consolidatedRank": 212,
+  "consolidatedRank": 220,
   "traction": {
-    "tractionRank": 223,
+    "tractionRank": 230,
     "tractionScore": 1,
-    "tractionReason": "No disclosed verification customers, usage, or revenue"
+    "tractionReason": "YC participation only; no disclosed usage or commercial contracts"
   },
   "paths": {
     "memo": "fall2026/memos/topos.md",

@@ -60,11 +60,11 @@
     "VK": 31
   },
   "consolidatedAvg": 40.14,
-  "consolidatedRank": 57,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 45,
-    "tractionReason": "Multiple firms using product; documented 50-person civil-firm engagement"
+    "tractionRank": 70,
+    "tractionScore": 52,
+    "tractionReason": "Multiple firms using product; documented 50-person firm project outcome"
   },
   "paths": {
     "memo": "fall2026/memos/gradon.md",

@@ -60,10 +60,10 @@
     "VK": 29
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 98,
+  "consolidatedRank": 101,
   "traction": {
-    "tractionRank": 89,
-    "tractionScore": 44,
+    "tractionRank": 80,
+    "tractionScore": 50,
     "tractionReason": "Island and manufacturing deployments claimed; customers and contract values undisclosed"
   },
   "paths": {

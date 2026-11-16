@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 70,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 35,
-    "tractionReason": "GlobalFoundries collaboration claimed; no disclosed paying relationship"
+    "tractionRank": 122,
+    "tractionScore": 40,
+    "tractionReason": "GlobalFoundries development collaboration claimed; no paying relationship disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/archgen-labs.md",

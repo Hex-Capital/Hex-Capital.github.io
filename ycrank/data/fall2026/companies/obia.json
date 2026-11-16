@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.43,
-  "consolidatedRank": 220,
+  "consolidatedRank": 228,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 38,
-    "tractionReason": "Logistics-operator research engagement; no completed transaction or commission disclosed"
+    "tractionRank": 118,
+    "tractionScore": 41,
+    "tractionReason": "Logistics-operator research engagement; no completed brokerage transaction disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/obia.md",

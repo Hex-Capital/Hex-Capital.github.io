@@ -1,0 +1,83 @@
+{
+  "slug": "libra-robotics",
+  "name": "Libra Robotics",
+  "oneLiner": "The robot workforce for infrastructure of the AI era",
+  "metadata": {
+    "website": "https://www.librabots.com/",
+    "yc_page": "https://www.ycombinator.com/companies/libra-robotics",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/libra-robotics))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Hard Tech, Robotics, Construction, Energy, AI",
+    "yc_partner": "Tyler Bosmeny ([YC](https://www.ycombinator.com/companies/libra-robotics))",
+    "emails": "founders@librabots.com — shared founder inbox ([website](https://www.librabots.com/)); contact@librabots.com — brochure assistance ([company brochure page, via search snippet](https://www.librabots.com/brochure/))"
+  },
+  "tags": [
+    "Hard Tech",
+    "Robotics",
+    "Construction",
+    "Energy",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-16T05:18:20.352Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "naval-ravikant": {
+      "score": 58,
+      "tier": "Neutral"
+    },
+    "paul-graham": {
+      "score": 46,
+      "tier": "Neutral"
+    },
+    "peter-thiel": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 31,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 58,
+    "EG": 48,
+    "NR": 58,
+    "PG": 46,
+    "PT": 37,
+    "SL": 39,
+    "VK": 31
+  },
+  "consolidatedAvg": 45.29,
+  "consolidatedRank": 16,
+  "traction": {
+    "tractionRank": 37,
+    "tractionScore": 60,
+    "tractionReason": "Solar deployments, signed commercial installation agreements, and datacenter pilots"
+  },
+  "paths": {
+    "memo": "fall2026/memos/libra-robotics.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/libra-robotics.md",
+      "elad-gil": "fall2026/evals/elad-gil/libra-robotics.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/libra-robotics.md",
+      "paul-graham": "fall2026/evals/paul-graham/libra-robotics.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/libra-robotics.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/libra-robotics.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/libra-robotics.md"
+    }
+  }
+}

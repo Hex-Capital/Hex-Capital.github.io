@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 153,
+  "consolidatedRank": 156,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 31,
-    "tractionReason": "256 stars; 19 forks; Show HN earned 53 points"
+    "tractionRank": 133,
+    "tractionScore": 33,
+    "tractionReason": "256 repository stars; Show HN received 53 points"
   },
   "paths": {
     "memo": "fall2026/memos/useterse.md",

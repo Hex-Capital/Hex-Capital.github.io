@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.29,
-  "consolidatedRank": 105,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 69,
+    "tractionRank": 88,
     "tractionScore": 48,
-    "tractionReason": "Motors built for unnamed drone OEMs; samples undergoing customer feedback"
+    "tractionReason": "Motors built for unnamed drone OEMs; paid status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/open-actuation.md",

@@ -60,11 +60,11 @@
     "VK": 36
   },
   "consolidatedAvg": 42,
-  "consolidatedRank": 45,
+  "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 44,
-    "tractionReason": "Utility deployments claimed; customer counts and commercial terms undisclosed"
+    "tractionRank": 84,
+    "tractionScore": 49,
+    "tractionReason": "Utility deployments claimed; footprint measures utilities, revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/evardi.md",

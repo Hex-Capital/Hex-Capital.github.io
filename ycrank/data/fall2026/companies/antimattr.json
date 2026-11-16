@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 39.29,
-  "consolidatedRank": 69,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 24,
-    "tractionScore": 63,
-    "tractionReason": "300+ paid preorders; 40+ early units sold"
+    "tractionRank": 32,
+    "tractionScore": 62,
+    "tractionReason": "40+ units sold; 300+ paid preorders"
   },
   "paths": {
     "memo": "fall2026/memos/antimattr.md",

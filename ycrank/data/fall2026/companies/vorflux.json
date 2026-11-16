@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 37.71,
-  "consolidatedRank": 99,
+  "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 55,
-    "tractionReason": "1T+ cumulative tokens; Supermemory and TrashLab customer deployments"
+    "tractionRank": 68,
+    "tractionScore": 53,
+    "tractionReason": "1T+ tokens consumed; named customer used $600 compute session"
   },
   "paths": {
     "memo": "fall2026/memos/vorflux.md",

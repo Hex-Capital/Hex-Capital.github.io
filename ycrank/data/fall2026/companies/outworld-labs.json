@@ -1,0 +1,78 @@
+{
+  "slug": "outworld-labs",
+  "name": "Outworld Labs",
+  "oneLiner": "Robotics simulation indistinguishable from reality",
+  "metadata": {
+    "website": "https://outworldlabs.com",
+    "yc_page": "https://www.ycombinator.com/companies/outworld-labs",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/outworld-labs))",
+    "industry": "B2B / B2B",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/outworld-labs))",
+    "emails": "Matei Gardea: matei.gardea@berkeley.edu—archived teaching contact ([Berkeley staff directory, Fall 2024](https://inst.eecs.berkeley.edu/~cs188/archive/fa24/staff/)); Daniel Grant: dgrant@berkeley.edu—published institutional contact ([founder website](https://danielgrant.io/)); company-domain addresses: No public data found"
+  },
+  "tags": [
+    "Robotics"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-16T05:18:20.346Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 30,
+    "NR": 35,
+    "PG": 34,
+    "PT": 32,
+    "SL": 28,
+    "VK": 27
+  },
+  "consolidatedAvg": 33.43,
+  "consolidatedRank": 186,
+  "traction": {
+    "tractionRank": 204,
+    "tractionScore": 8,
+    "tractionReason": "Showcase placement; no disclosed usage, customers, or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/outworld-labs.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/outworld-labs.md",
+      "elad-gil": "fall2026/evals/elad-gil/outworld-labs.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/outworld-labs.md",
+      "paul-graham": "fall2026/evals/paul-graham/outworld-labs.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/outworld-labs.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/outworld-labs.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/outworld-labs.md"
+    }
+  }
+}

@@ -61,11 +61,11 @@
     "VK": 27
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 85,
+  "consolidatedRank": 88,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 59,
-    "tractionReason": "115.5K toolkit stars; 6.7K forks; revenue undisclosed"
+    "tractionRank": 54,
+    "tractionScore": 57,
+    "tractionReason": "115.5K toolkit stars, 6.7K forks; monetization undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/caveman.md",

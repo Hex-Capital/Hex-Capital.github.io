@@ -55,11 +55,11 @@
     "VK": 27
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 115,
+  "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 48,
-    "tractionReason": "Ten startup pilots; payment status undisclosed"
+    "tractionRank": 94,
+    "tractionScore": 47,
+    "tractionReason": "Ten startup pilots; payment status and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/nodus-compute.md",

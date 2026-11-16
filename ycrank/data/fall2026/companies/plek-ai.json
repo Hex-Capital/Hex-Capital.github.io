@@ -59,11 +59,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37.57,
-  "consolidatedRank": 103,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 38,
-    "tractionReason": "Enterprise assessment benchmark reported; customer payment and realized savings undisclosed"
+    "tractionRank": 123,
+    "tractionScore": 40,
+    "tractionReason": "Assessment at unnamed 3,600-person company; payment and realized savings undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/plek-ai.md",

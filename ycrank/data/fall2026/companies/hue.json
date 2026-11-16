@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 192,
+  "consolidatedRank": 198,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 14,
-    "tractionReason": "SDK released; zero repository stars; no disclosed customers"
+    "tractionRank": 164,
+    "tractionScore": 20,
+    "tractionReason": "SDK released; zero repository stars; no disclosed customer adoption"
   },
   "paths": {
     "memo": "fall2026/memos/hue.md",

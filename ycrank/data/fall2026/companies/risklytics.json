@@ -62,11 +62,11 @@
     "VK": 30
   },
   "consolidatedAvg": 43.14,
-  "consolidatedRank": 29,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 52,
-    "tractionReason": "Three companies obtained coverage; almost 50 application users"
+    "tractionRank": 41,
+    "tractionScore": 60,
+    "tractionReason": "Three companies obtained coverage; commission-based brokerage; approximately 50 application users"
   },
   "paths": {
     "memo": "fall2026/memos/risklytics.md",

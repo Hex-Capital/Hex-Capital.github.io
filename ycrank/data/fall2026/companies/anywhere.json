@@ -59,11 +59,11 @@
     "VK": 25
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 156,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 20,
-    "tractionReason": "Four US App Store ratings; free newly launched app"
+    "tractionRank": 150,
+    "tractionScore": 23,
+    "tractionReason": "Four iOS ratings; newly launched free map app"
   },
   "paths": {
     "memo": "fall2026/memos/anywhere.md",

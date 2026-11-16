@@ -61,11 +61,11 @@
     "VK": 31
   },
   "consolidatedAvg": 44.57,
-  "consolidatedRank": 19,
+  "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 68,
-    "tractionReason": "Reported 100K company ARR; 100+ companies using current platform"
+    "tractionRank": 14,
+    "tractionScore": 70,
+    "tractionReason": "Reported 100K company ARR; current Cloud revenue allocation undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/agent-37.md",

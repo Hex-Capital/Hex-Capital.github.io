@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.43,
-  "consolidatedRank": 219,
+  "consolidatedRank": 227,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 11,
-    "tractionReason": "Unquantified early-access waitlist; no disclosed customers or revenue"
+    "tractionRank": 198,
+    "tractionScore": 12,
+    "tractionReason": "Waitlist open; enrollment, orders, and revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cyclon.md",

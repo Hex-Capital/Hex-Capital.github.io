@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 90,
+  "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 46,
-    "tractionReason": "EY work reported; 526 harness stars; revenue undisclosed"
+    "tractionRank": 78,
+    "tractionScore": 50,
+    "tractionReason": "EY work reported; 526 harness stars; contract values undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/0security.md",

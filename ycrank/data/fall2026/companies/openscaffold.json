@@ -58,11 +58,11 @@
     "VK": 25
   },
   "consolidatedAvg": 28.29,
-  "consolidatedRank": 222,
+  "consolidatedRank": 230,
   "traction": {
-    "tractionRank": 220,
-    "tractionScore": 3,
-    "tractionReason": "No disclosed customers, product usage, or revenue"
+    "tractionRank": 232,
+    "tractionScore": 0,
+    "tractionReason": "No disclosed traction evidence"
   },
   "paths": {
     "memo": "fall2026/memos/openscaffold.md",

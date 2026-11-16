@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 33.71,
-  "consolidatedRank": 179,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 30,
-    "tractionReason": "208 repository stars and 32 forks; customer adoption undisclosed"
+    "tractionRank": 135,
+    "tractionScore": 32,
+    "tractionReason": "Company repository has 208 stars and 32 forks; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/workers-io.md",

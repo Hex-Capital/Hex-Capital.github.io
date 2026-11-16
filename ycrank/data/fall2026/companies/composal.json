@@ -61,11 +61,11 @@
     "VK": 28
   },
   "consolidatedAvg": 40,
-  "consolidatedRank": 60,
+  "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 30,
-    "tractionReason": "Ten recent setup calls; eight harness stars; paid status undisclosed"
+    "tractionRank": 134,
+    "tractionScore": 32,
+    "tractionReason": "Ten setup calls reported; deployed and paying customers undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/composal.md",

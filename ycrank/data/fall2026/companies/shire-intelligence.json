@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36.29,
-  "consolidatedRank": 129,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 38,
-    "tractionReason": "Restaurant testimonial; current CCTV adoption and own revenue undisclosed"
+    "tractionRank": 91,
+    "tractionScore": 47,
+    "tractionReason": "Named restaurant deployment testimonial; own revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/shire-intelligence.md",

@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 80,
+  "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 195,
-    "tractionScore": 8,
-    "tractionReason": "Internal tomato pilot batches; no disclosed commercial crop sales"
+    "tractionRank": 191,
+    "tractionScore": 12,
+    "tractionReason": "Internal tomato pilot batches; no disclosed sales or customers"
   },
   "paths": {
     "memo": "fall2026/memos/lux-foods.md",

@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 40,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 47,
-    "tractionReason": "Manufacturing LOI; named Perloro Packing pilot; Proception integration"
+    "tractionRank": 96,
+    "tractionScore": 46,
+    "tractionReason": "Signed manufacturing LOI; named industrial pilot; Proception integration"
   },
   "paths": {
     "memo": "fall2026/memos/axonnic.md",

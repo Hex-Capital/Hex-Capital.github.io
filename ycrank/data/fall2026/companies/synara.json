@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.43,
-  "consolidatedRank": 145,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 10,
-    "tractionReason": "Public launch only; no disclosed customers, usage, or revenue"
+    "tractionRank": 168,
+    "tractionScore": 20,
+    "tractionReason": "Monitoring service publicly launched; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/synara.md",

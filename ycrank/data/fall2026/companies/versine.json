@@ -62,11 +62,11 @@
     "VK": 22
   },
   "consolidatedAvg": 26.57,
-  "consolidatedRank": 226,
+  "consolidatedRank": 235,
   "traction": {
-    "tractionRank": 213,
-    "tractionScore": 5,
-    "tractionReason": "Payments product unlaunched; no disclosed customers or transaction volume"
+    "tractionRank": 226,
+    "tractionScore": 2,
+    "tractionReason": "Payments product unlaunched; no customers, transactions, or waitlist count"
   },
   "paths": {
     "memo": "fall2026/memos/versine.md",

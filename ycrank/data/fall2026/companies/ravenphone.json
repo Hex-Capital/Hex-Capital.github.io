@@ -59,11 +59,11 @@
     "VK": 27
   },
   "consolidatedAvg": 35.14,
-  "consolidatedRank": 152,
+  "consolidatedRank": 155,
   "traction": {
-    "tractionRank": 95,
+    "tractionRank": 114,
     "tractionScore": 42,
-    "tractionReason": "Initial phone orders shipping; hundreds of community signups"
+    "tractionReason": "Initial phone orders shipping; quantities and payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ravenphone.md",

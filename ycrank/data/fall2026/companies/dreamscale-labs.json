@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 43.57,
-  "consolidatedRank": 24,
+  "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 42,
-    "tractionReason": "Munari deployment example; HUD partnership; payment status undisclosed"
+    "tractionRank": 99,
+    "tractionScore": 45,
+    "tractionReason": "Named Munari deployment and HUD partnership; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/dreamscale-labs.md",

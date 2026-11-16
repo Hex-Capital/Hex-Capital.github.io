@@ -61,11 +61,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 154,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 34,
-    "tractionReason": "Six showcased applications; verified connector; payment status undisclosed"
+    "tractionRank": 121,
+    "tractionScore": 40,
+    "tractionReason": "Six showcased applications; verified connector; customer payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ample-computer.md",

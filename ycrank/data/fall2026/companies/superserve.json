@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 41.43,
-  "consolidatedRank": 48,
+  "consolidatedRank": 50,
   "traction": {
     "tractionRank": 36,
-    "tractionScore": 60,
-    "tractionReason": "100K+ machines weekly; Lindy and YC named as users"
+    "tractionScore": 61,
+    "tractionReason": "100K+ machines weekly; Lindy and YC named users"
   },
   "paths": {
     "memo": "fall2026/memos/superserve.md",

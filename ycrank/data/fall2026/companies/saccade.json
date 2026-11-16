@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 162,
+  "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 90,
-    "tractionScore": 44,
-    "tractionReason": "San Francisco clinic deployments; assessment volumes and revenue undisclosed"
+    "tractionRank": 85,
+    "tractionScore": 48,
+    "tractionReason": "San Francisco clinic deployments reported; assessment volumes and payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/saccade.md",

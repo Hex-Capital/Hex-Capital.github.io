@@ -59,11 +59,11 @@
     "VK": 22
   },
   "consolidatedAvg": 36.14,
-  "consolidatedRank": 133,
+  "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 41,
+    "tractionRank": 50,
     "tractionScore": 58,
-    "tractionReason": "50K+ AI Desktop users; current homepage claims 100K+ creators"
+    "tractionReason": "50K+ AI Desktop users; 100K+ creators claimed; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rivereditor.md",

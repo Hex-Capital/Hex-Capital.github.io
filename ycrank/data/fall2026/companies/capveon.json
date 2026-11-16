@@ -58,11 +58,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 190,
+  "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 16,
-    "tractionReason": "Free tool and customer meetings; no disclosed adoption or revenue"
+    "tractionRank": 170,
+    "tractionScore": 18,
+    "tractionReason": "Free tool and customer meetings; no disclosed deployments or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/capveon.md",

@@ -61,11 +61,11 @@
     "VK": 29
   },
   "consolidatedAvg": 30.86,
-  "consolidatedRank": 208,
+  "consolidatedRank": 215,
   "traction": {
-    "tractionRank": 206,
-    "tractionScore": 5,
-    "tractionReason": "No disclosed NanoDC customers, deployments, or revenue"
+    "tractionRank": 207,
+    "tractionScore": 8,
+    "tractionReason": "Accelerator affiliations only; no disclosed deployments, orders, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/liquid-energy.md",

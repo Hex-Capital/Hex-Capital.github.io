@@ -58,11 +58,11 @@
     "VK": 22
   },
   "consolidatedAvg": 40.57,
-  "consolidatedRank": 56,
+  "consolidatedRank": 58,
   "traction": {
     "tractionRank": 1,
-    "tractionScore": 95,
-    "tractionReason": "Multiple millions in ARR; six AI-lab customers"
+    "tractionScore": 97,
+    "tractionReason": "Multiple millions ARR; six AI labs; 4,000+ audio hours delivered"
   },
   "paths": {
     "memo": "fall2026/memos/peritai.md",

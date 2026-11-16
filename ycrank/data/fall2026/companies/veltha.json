@@ -59,12 +59,8 @@
     "VK": 34
   },
   "consolidatedAvg": 38.43,
-  "consolidatedRank": 84,
-  "traction": {
-    "tractionRank": 176,
-    "tractionScore": 12,
-    "tractionReason": "Current TPA adoption undisclosed; prior conference leads excluded"
-  },
+  "consolidatedRank": 87,
+  "traction": null,
   "paths": {
     "memo": "fall2026/memos/veltha.md",
     "evals": {

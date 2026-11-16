@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 27.43,
-  "consolidatedRank": 224,
+  "consolidatedRank": 233,
   "traction": {
-    "tractionRank": 225,
+    "tractionRank": 234,
     "tractionScore": 0,
-    "tractionReason": "No public customers, usage, or revenue disclosed"
+    "tractionReason": "No disclosed traction evidence"
   },
   "paths": {
     "memo": "fall2026/memos/routant.md",

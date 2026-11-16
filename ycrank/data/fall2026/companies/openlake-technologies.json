@@ -61,10 +61,10 @@
     "VK": 25
   },
   "consolidatedAvg": 32,
-  "consolidatedRank": 196,
+  "consolidatedRank": 203,
   "traction": {
-    "tractionRank": 201,
-    "tractionScore": 6,
+    "tractionRank": 196,
+    "tractionScore": 12,
     "tractionReason": "Current training-platform adoption undisclosed; earlier storage stars excluded"
   },
   "paths": {

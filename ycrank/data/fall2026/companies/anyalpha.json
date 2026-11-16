@@ -61,10 +61,10 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 189,
+  "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 22,
+    "tractionRank": 149,
+    "tractionScore": 23,
     "tractionReason": "Shared app has 100+ downloads; current-product adoption cannot be isolated"
   },
   "paths": {

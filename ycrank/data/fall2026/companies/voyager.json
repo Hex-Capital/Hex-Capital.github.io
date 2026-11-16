@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 38.57,
-  "consolidatedRank": 78,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 21,
-    "tractionReason": "Current product launched; 708 X followers; prior Moda users excluded"
+    "tractionRank": 161,
+    "tractionScore": 20,
+    "tractionReason": "Current harness launched; prior Moda users excluded"
   },
   "paths": {
     "memo": "fall2026/memos/voyager.md",

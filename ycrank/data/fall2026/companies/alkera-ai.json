@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 112,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 25,
-    "tractionReason": "Databench has 13 stars; product users and revenue undisclosed"
+    "tractionRank": 143,
+    "tractionScore": 27,
+    "tractionReason": "13 Databench stars; Product Hunt launch; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/alkera-ai.md",

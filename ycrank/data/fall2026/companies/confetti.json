@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 29.29,
-  "consolidatedRank": 221,
+  "consolidatedRank": 229,
   "traction": {
-    "tractionRank": 205,
-    "tractionScore": 5,
-    "tractionReason": "No disclosed hardware-product customers, usage, or revenue"
+    "tractionRank": 197,
+    "tractionScore": 12,
+    "tractionReason": "Current hardware product adoption undisclosed; earlier retail product excluded"
   },
   "paths": {
     "memo": "fall2026/memos/confetti.md",

@@ -1,0 +1,81 @@
+{
+  "slug": "central-blue",
+  "name": "Central Blue",
+  "oneLiner": "The power grid for space: we build power-beaming satellites.",
+  "metadata": {
+    "website": "https://www.centralblue.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/central-blue",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/central-blue))",
+    "industry": "Industrials / Industrials -> Aviation and Space",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Space Exploration, Aerospace, Defense",
+    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/central-blue))",
+    "emails": "brian@bwu.ai (CEO; [personal website](https://www.bwu.ai/)); brianwu@cs.stanford.edu (CEO, older résumé, via search snippet; [résumé](https://www.bwu.ai/static/bwu_resume.pdf)); jchoi6122@gmail.com (CTO, tutoring inquiries, via search snippet; [tutoring website](https://jeemeche.com/tutoring)); jchoi23@stanford.edu (CTO, academic; [Stanford CHARM](https://charm.stanford.edu/Main/LabAlumni)); info@centralblue.ai (general inquiries; [company LinkedIn](https://www.linkedin.com/company/centralblue))"
+  },
+  "tags": [
+    "Space Exploration",
+    "Aerospace",
+    "Defense"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-16T05:18:40.352Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 48,
+      "tier": "Neutral"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 27,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 48,
+    "EG": 28,
+    "NR": 33,
+    "PG": 29,
+    "PT": 30,
+    "SL": 30,
+    "VK": 27
+  },
+  "consolidatedAvg": 32.14,
+  "consolidatedRank": 202,
+  "traction": {
+    "tractionRank": 203,
+    "tractionScore": 8,
+    "tractionReason": "Prototype nearing completion; demonstrations planned, no disclosed customers"
+  },
+  "paths": {
+    "memo": "fall2026/memos/central-blue.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/central-blue.md",
+      "elad-gil": "fall2026/evals/elad-gil/central-blue.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/central-blue.md",
+      "paul-graham": "fall2026/evals/paul-graham/central-blue.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/central-blue.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/central-blue.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/central-blue.md"
+    }
+  }
+}

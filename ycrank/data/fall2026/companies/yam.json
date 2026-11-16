@@ -60,10 +60,10 @@
     "VK": 25
   },
   "consolidatedAvg": 38.29,
-  "consolidatedRank": 88,
+  "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 43,
-    "tractionScore": 58,
+    "tractionRank": 57,
+    "tractionScore": 56,
     "tractionReason": "Leading game has 1.8M plays; three-plus hours per DAU"
   },
   "paths": {

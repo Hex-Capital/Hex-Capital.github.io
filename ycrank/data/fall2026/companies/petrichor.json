@@ -59,10 +59,10 @@
     "VK": 25
   },
   "consolidatedAvg": 31.71,
-  "consolidatedRank": 200,
+  "consolidatedRank": 207,
   "traction": {
-    "tractionRank": 210,
-    "tractionScore": 5,
+    "tractionRank": 224,
+    "tractionScore": 3,
     "tractionReason": "Current wet-lab customers undisclosed; earlier instrument-data product excluded"
   },
   "paths": {

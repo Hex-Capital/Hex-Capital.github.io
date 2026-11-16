@@ -62,11 +62,11 @@
     "VK": 25
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 193,
+  "consolidatedRank": 199,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 13,
-    "tractionReason": "Launch-video views only; customer adoption and revenue undisclosed"
+    "tractionRank": 178,
+    "tractionScore": 15,
+    "tractionReason": "Sensor launch demonstration; no disclosed customer deployments or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/preload.md",

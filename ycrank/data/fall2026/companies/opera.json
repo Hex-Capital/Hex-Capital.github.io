@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 92,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 40,
-    "tractionReason": "Sugar-producer and marketplace operational results; commercial terms undisclosed"
+    "tractionRank": 92,
+    "tractionScore": 47,
+    "tractionReason": "Three operational-data engagements reported; current paid deployments unclear"
   },
   "paths": {
     "memo": "fall2026/memos/opera.md",

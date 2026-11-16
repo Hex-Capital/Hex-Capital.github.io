@@ -59,11 +59,11 @@
     "VK": 31
   },
   "consolidatedAvg": 43.14,
-  "consolidatedRank": 30,
+  "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 56,
-    "tractionReason": "13M aviation LOIs; Safran collaboration; realized revenue undisclosed"
+    "tractionRank": 59,
+    "tractionScore": 55,
+    "tractionReason": "13M aviation LOIs; aircraft integration and Safran work reported"
   },
   "paths": {
     "memo": "fall2026/memos/viraj-aero.md",

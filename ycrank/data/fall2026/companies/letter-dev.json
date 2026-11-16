@@ -60,11 +60,11 @@
     "VK": 25
   },
   "consolidatedAvg": 35.57,
-  "consolidatedRank": 143,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 56,
-    "tractionReason": "Named customers plus 100+ more claimed; payment status undisclosed"
+    "tractionRank": 47,
+    "tractionScore": 58,
+    "tractionReason": "Named customers plus 100+ others; payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/letter-dev.md",

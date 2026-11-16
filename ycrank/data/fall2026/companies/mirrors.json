@@ -62,10 +62,10 @@
     "VK": 25
   },
   "consolidatedAvg": 34.43,
-  "consolidatedRank": 168,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 45,
+    "tractionRank": 66,
+    "tractionScore": 53,
     "tractionReason": "711,933 agent sessions displayed; period and product allocation unspecified"
   },
   "paths": {

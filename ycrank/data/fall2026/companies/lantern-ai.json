@@ -65,8 +65,8 @@
   "consolidatedRank": 15,
   "traction": {
     "tractionRank": 3,
-    "tractionScore": 90,
-    "tractionReason": "Reported $1M+ company ARR; 100K+ interview-module interviews"
+    "tractionScore": 91,
+    "tractionReason": "$1M company ARR; interview module retained, product allocation undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/lantern-ai.md",

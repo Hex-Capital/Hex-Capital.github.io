@@ -60,11 +60,11 @@
     "VK": 32
   },
   "consolidatedAvg": 42.29,
-  "consolidatedRank": 42,
+  "consolidatedRank": 44,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 61,
-    "tractionReason": "Ten active accounting clients across four countries"
+    "tractionRank": 31,
+    "tractionScore": 62,
+    "tractionReason": "Ten active clients across four countries; priced accounting services"
   },
   "paths": {
     "memo": "fall2026/memos/sintropix.md",

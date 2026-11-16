@@ -60,11 +60,11 @@
     "VK": 29
   },
   "consolidatedAvg": 39.14,
-  "consolidatedRank": 75,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 55,
-    "tractionReason": "Named brokerage customers AWM Capital and Light Labs"
+    "tractionRank": 53,
+    "tractionScore": 57,
+    "tractionReason": "Named brokerage customers AWM and Light Labs; revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ignition-benefits.md",

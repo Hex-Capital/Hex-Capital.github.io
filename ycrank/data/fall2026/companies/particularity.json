@@ -58,11 +58,11 @@
     "VK": 25
   },
   "consolidatedAvg": 31.29,
-  "consolidatedRank": 205,
+  "consolidatedRank": 212,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 10,
-    "tractionReason": "Emerged from stealth; no disclosed commercial adoption"
+    "tractionRank": 167,
+    "tractionScore": 20,
+    "tractionReason": "Emerged from stealth; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/particularity.md",

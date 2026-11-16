@@ -1,0 +1,80 @@
+{
+  "slug": "nines",
+  "name": "Nines",
+  "oneLiner": "Robot pit crew for AI data centers",
+  "metadata": {
+    "website": "https://ninesrobotics.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/nines",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/nines))",
+    "industry": "Industrials / Industrials -> Manufacturing and Robotics",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, AI",
+    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/nines))",
+    "emails": "taerim@ninesrobotics.ai — Taerim Eom, CEO ([company website](https://ninesrobotics.ai/))"
+  },
+  "tags": [
+    "Robotics",
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-16T05:18:40.864Z",
+  "evalScores": {
+    "cyan-banister": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "elad-gil": {
+      "score": 28,
+      "tier": "Pass"
+    },
+    "naval-ravikant": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "paul-graham": {
+      "score": 29,
+      "tier": "Pass"
+    },
+    "peter-thiel": {
+      "score": 27,
+      "tier": "Pass"
+    },
+    "sam-lessin": {
+      "score": 30,
+      "tier": "Pass"
+    },
+    "vinod-khosla": {
+      "score": 25,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "CB": 41,
+    "EG": 28,
+    "NR": 34,
+    "PG": 29,
+    "PT": 27,
+    "SL": 30,
+    "VK": 25
+  },
+  "consolidatedAvg": 30.57,
+  "consolidatedRank": 219,
+  "traction": {
+    "tractionRank": 209,
+    "tractionScore": 7,
+    "tractionReason": "Launch views only; no disclosed customer deployments or revenue"
+  },
+  "paths": {
+    "memo": "fall2026/memos/nines.md",
+    "evals": {
+      "cyan-banister": "fall2026/evals/cyan-banister/nines.md",
+      "elad-gil": "fall2026/evals/elad-gil/nines.md",
+      "naval-ravikant": "fall2026/evals/naval-ravikant/nines.md",
+      "paul-graham": "fall2026/evals/paul-graham/nines.md",
+      "peter-thiel": "fall2026/evals/peter-thiel/nines.md",
+      "sam-lessin": "fall2026/evals/sam-lessin/nines.md",
+      "vinod-khosla": "fall2026/evals/vinod-khosla/nines.md"
+    }
+  }
+}

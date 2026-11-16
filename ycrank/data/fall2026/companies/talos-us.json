@@ -62,11 +62,11 @@
     "VK": 27
   },
   "consolidatedAvg": 32.43,
-  "consolidatedRank": 194,
+  "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 10,
-    "tractionReason": "Pump-sensing demonstration; no disclosed customer deployments"
+    "tractionRank": 179,
+    "tractionScore": 15,
+    "tractionReason": "Pump-sensing demonstration; no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/talos-us.md",

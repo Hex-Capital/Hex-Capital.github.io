@@ -60,11 +60,11 @@
     "VK": 28
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 175,
+  "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 204,
-    "tractionScore": 5,
-    "tractionReason": "Preceding research collaborations only; current commercial adoption undisclosed"
+    "tractionRank": 212,
+    "tractionScore": 6,
+    "tractionReason": "Prior research collaboration; no disclosed current commercial customers"
   },
   "paths": {
     "memo": "fall2026/memos/chempilotai.md",

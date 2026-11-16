@@ -62,11 +62,11 @@
     "VK": 28
   },
   "consolidatedAvg": 44.29,
-  "consolidatedRank": 21,
+  "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 56,
-    "tractionReason": "50+ agencies; named customer logged 155 tasks in fortnight"
+    "tractionRank": 48,
+    "tractionScore": 58,
+    "tractionReason": "50+ agencies; named Hello Risk deployment; paid count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/covera.md",

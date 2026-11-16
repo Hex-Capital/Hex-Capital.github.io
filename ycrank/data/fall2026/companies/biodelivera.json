@@ -60,11 +60,11 @@
     "VK": 27
   },
   "consolidatedAvg": 36.57,
-  "consolidatedRank": 121,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 203,
-    "tractionScore": 5,
-    "tractionReason": "Research-stage efficacy claims; no disclosed commercial customers"
+    "tractionRank": 211,
+    "tractionScore": 6,
+    "tractionReason": "Research and competition awards; no disclosed commercial customers"
   },
   "paths": {
     "memo": "fall2026/memos/biodelivera.md",

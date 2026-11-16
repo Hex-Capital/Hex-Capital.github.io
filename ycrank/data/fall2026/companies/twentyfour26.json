@@ -60,10 +60,10 @@
     "VK": 27
   },
   "consolidatedAvg": 35.86,
-  "consolidatedRank": 139,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 112,
-    "tractionScore": 39,
+    "tractionRank": 87,
+    "tractionScore": 48,
     "tractionReason": "Taking manufacturing orders after pivot; quantities and receipts undisclosed"
   },
   "paths": {

@@ -62,11 +62,11 @@
     "VK": 29
   },
   "consolidatedAvg": 34.86,
-  "consolidatedRank": 161,
+  "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 32,
-    "tractionReason": "Marine Corps engagement and end-user validation; no purchase commitments disclosed"
+    "tractionRank": 130,
+    "tractionScore": 35,
+    "tractionReason": "Marine Corps engagement and end-user validation; purchase commitments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/kairox-systems.md",

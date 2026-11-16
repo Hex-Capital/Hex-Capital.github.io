@@ -62,11 +62,11 @@
     "VK": 33
   },
   "consolidatedAvg": 42.57,
-  "consolidatedRank": 36,
+  "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 62,
+    "tractionRank": 72,
     "tractionScore": 52,
-    "tractionReason": "6,300+ courtrooms deployed; software free under pro bono agreements"
+    "tractionReason": "6,300+ courtrooms deployed; free software, no commercial revenue disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/adalat-ai.md",

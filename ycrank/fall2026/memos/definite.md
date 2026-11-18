@@ -1,76 +1,74 @@
 ﻿# Definite
 
-> Build everyday back-office agents on one live model of your books
+> Connect operational data with finance to see what drives the numbers.
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.usedefinite.com |
 | YC Page | https://www.ycombinator.com/companies/definite |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/definite)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/definite)) |
 | Industry | B2B / B2B -> Finance and Accounting |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Fintech, SaaS, Finance, AI |
-| YC Partner | Ankit Gupta ([YC](https://www.ycombinator.com/companies/definite)) |
-| Emails | gurshabd@usedefinite.com ([YC launch](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)); mazin@usedefinite.com ([LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet); jeevsidak@usedefinite.com ([Contact](https://www.usedefinite.com/contact)); historical indexed address: contact@usedefinite.com ([Terms](https://www.usedefinite.com/terms), via search snippet) |
+| YC Partner | Ankit Gupta ([Y Combinator](https://www.ycombinator.com/companies/definite)) |
+| Emails | mazin@usedefinite.com ([Mazin’s LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet), farhan@usedefinite.com ([privacy and outreach requests](https://www.usedefinite.com/privacy)), jeevsidak@usedefinite.com ([general and technical inquiries](https://www.usedefinite.com/contact)), contact@usedefinite.com ([shared inbox listed by Head of Ops](https://www.linkedin.com/in/tyler-teng), via search snippet) |
 
 ## The Idea
 
-- **Problem:** Finance teams repeatedly reconstruct relationships across ledgers, operational systems and spreadsheets to complete reconciliations and reporting, using manual data assembly ([Definite About](https://www.usedefinite.com/about)).
-- **Approach:** Read-only connectors map records into a shared financial ontology, while deterministic rules calculate results and models propose mappings and explanations ([Definite](https://www.usedefinite.com/)).
-- **Differentiation:** Definite emphasizes a finance-specific shared model beneath agents, whereas n8n provides general workflow orchestration and Workato combines enterprise connectivity, semantic context and executable actions ([Definite](https://www.usedefinite.com/), [n8n](https://n8n.io/press/), [Workato](https://www.workato.com/platform)).
-- **Business Model:** A founder interview describes monthly contracts, no deployment fee or annual lock-in, and an opt-out during the first two months; published monetary prices: No public data found ([Build from Here, September 28, 2026](https://buildfromhere.substack.com/p/mazin-al-ani-on-selling-before-you)).
+- **Problem:** Manufacturers, logistics operators, and contractors track work by site, line, or day while finance records it by entity, account, and month, so controllers rebuild spreadsheet mappings and can spend days tracing an operating change to its financial impact ([YC company profile](https://www.ycombinator.com/companies/definite)).
+- **Approach:** Definite reads operating and finance systems into a shared data model, uses AI to propose record mappings, and applies deterministic rules to calculate and check results with links to the source records ([Definite product page](https://www.usedefinite.com/)).
+- **Differentiation:** Definite uses one read-only, rule-governed model across close, planning, billing, and tax, while Numeric emphasizes close and cash matching, Aleph embeds planning in Excel and Google Sheets, and Concourse offers self-serve agents for analysis and reporting ([Definite](https://www.usedefinite.com/), [Numeric](https://www.numeric.io/blog/numeric-raises-51m-series-b), [Aleph](https://www.getaleph.com/blog/series-b), [Concourse](https://www.concourse.ai/)).
+- **Business Model:** [Inferred]: A negotiated software contract is a plausible monetization path because Definite scopes each deployment around the customer's systems and workflow under a written agreement ([Definite contact page](https://www.usedefinite.com/contact), [terms](https://www.usedefinite.com/terms)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Founder sales target finance VPs as internal champions, supplemented by LinkedIn outreach, demos and industry events ([Build from Here, September 2026](https://buildfromhere.substack.com/p/mazin-al-ani-on-selling-before-you), [company LinkedIn](https://www.linkedin.com/company/usedefinite/)).
+- **GTM / Distribution:** Definite offers founder-led demos scoped to a recurring workflow and describes outbound email and LinkedIn contact with finance and accounting leaders ([Definite product page](https://www.usedefinite.com/), [privacy policy](https://www.usedefinite.com/privacy)).
 
 ## Defensibility
 
-- **Moat today:** Documented technical mechanisms include customer-specific mappings, source-to-cell lineage, retained rules and historical snapshots; independent defensibility evidence: No public data found ([Definite Security](https://www.usedefinite.com/security)).
-- **Future moat:** [Inferred]: Embedded mappings, approval histories and dependent workflows could create switching costs, although migration-cost and retention metrics remain unverified.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given Workato’s existing connectivity, semantic context and agent orchestration capabilities ([Workato Platform](https://www.workato.com/platform)).
-- **Commoditization risk:** [Inferred]: Integration platforms could add finance-specific modeling, although reproducing Definite’s customer-specific definitions and evidence lineage would require implementation work ([Workato](https://www.workato.com/platform), [Definite integrations](https://www.usedefinite.com/integrations)).
+- **Moat today:** Definite documents reproducible runs that preserve inputs, mappings, rules, results, and approvals, with figures traceable to a source record, field, or spreadsheet cell ([Definite product page](https://www.usedefinite.com/)).
+- **Future moat:** [Inferred]: Customer-specific definitions, rules, and review history could raise switching costs as workflows accumulate, while customer retention and migration costs remain unquantified in public sources ([Definite implementation and reproducibility details](https://www.usedefinite.com/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Microsoft already offers prebuilt finance agents and ERP data access in Copilot, giving Dynamics customers a native option for overlapping finance workflows ([Microsoft Dynamics 365 Finance](https://www.microsoft.com/en-us/dynamics-365/products/finance)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company LinkedIn: 297 followers, observed October 27, 2026 ([LinkedIn](https://www.linkedin.com/company/usedefinite/)).
-  - Company X: 32 followers in a cached September 2026 mirror; live count not retrievable ([Instalker](https://instalker.org/Position_VC)).
-  - Microsoft Dynamics Communities Roadshow booth and finance-leader dinner outreach announced in a company update displayed as two months old ([LinkedIn, observed October 2026](https://www.linkedin.com/company/usedefinite/)).
-  - Founder coverage published by YesPress on August 28 and October 22, 2026 ([August profile](https://yespress.io/gurshabd-varaich), [October profile](https://yespress.io/gurshabd-singh-varaich)).
-  - Earlier regulatory-reporting product: company-reported FinBalance performance exceeded GPT-5 using DeepSeek V3 plus its verification engine at approximately 50× lower cost, a benchmark claim rather than current-product customer traction ([YC launch](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)).
+  - Prior product, bank regulatory reporting: Definite launched in July 2026 and said it was live with banks in the US and Canada ([YC launch video](https://www.linkedin.com/posts/y-combinator_definite-yc-s26-automates-regulatory-reporting-activity-7483173633046126593-dPjA), July 2026).
+  - Current product: By September 2026, Definite was publicly positioning the product as a shared finance data layer for multiple workflows, with coverage in October and November ([aVenture website archive](https://aventure.vc/companies/definite-san-francisco-ca-us/website), September 2026, [YesPress](https://yespress.io/gurshabd-singh-varaich), October 2026, [Founderland](https://www.founderland.ai/articles/definite-launches-ai-back-office-agents-for-finance-teams-mvye4t42), November 2026).
+  - Company-wide: 302 LinkedIn followers and 37 X followers at @UseDefinite ([company LinkedIn](https://ca.linkedin.com/company/usedefinite), [Teapawt X mirror](https://www.teapawt.net/UseDefinite), November 2026 snapshots).
+  - Company-wide: 0 open positions on YC ([YC Jobs](https://www.ycombinator.com/companies/definite/jobs), November 2026).
 - **Competitors:**
-  - **Numeric ($89M raised, revenue unknown):** Finance applications spanning close, reporting and cash management rather than Definite’s read-only modeling layer; latest identified round was $51M Series B led by IVP in November 2025 ([Numeric announcement](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html)).
-  - **Workato (over $420M raised, revenue unknown):** Adjacent enterprise orchestration platform with semantic context and executable business actions; latest identified financing was $200M Series E led by Battery Ventures in November 2021 ([funding announcement](https://www.businesswire.com/news/home/20211110005457/en/Workato-Raises-%24200-Million-Series-E-at-a-%245.7-Billion-Valuation-to-Accelerate-Record-Growth-and-Capitalize-on-Surging-Demand-for-Enterprise-Automation), [platform](https://www.workato.com/platform)).
-  - **n8n ($240M company-reported funding plus an undisclosed SAP investment, revenue unknown):** Adjacent general orchestration platform with self-hosting; $180M Series C led by Accel in October 2025 preceded SAP’s May 2026 strategic investment ([n8n Press](https://n8n.io/press/)).
-- **Why now:** [Inferred]: SAP’s May 2026 decision to embed n8n into Joule Studio illustrates ERP-native agent orchestration creating demand for governed financial context ([n8n announcement](https://blog.n8n.io/n8n-sap/)).
+  - Concourse ($20M raised, revenue unknown) offers self-serve finance agents for analysis and reporting. Its $12M Series A was led by Standard Capital ([YC profile](https://www.ycombinator.com/companies/concourse), [Concourse announcement](https://www.concourse.ai/), January 2026).
+  - Numeric ($89M raised, revenue unknown) centers on close management and cash matching. Its $51M Series B was led by IVP ([Numeric funding announcement](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html), November 2025).
+  - Aleph ($46M raised, revenue unknown) centers on FP&A with bidirectional Excel and Google Sheets add-ins. Its $29M Series B was led by Khosla Ventures ([Aleph funding announcement](https://www.getaleph.com/blog/series-b), September 2025).
+- **Why now:** [Inferred]: The March 2025 release of the Responses API and Agents SDK with tracing made tool calls and agent steps easier to inspect, lowering the implementation burden for finance workflows that need a review trail ([OpenAI release](https://openai.com/index/new-tools-for-building-agents), March 2025).
 
 ## Founders & Team
 
 - **Gurshabd Singh Varaich (Founder/CEO):**
-  - Background: Studied Waterloo computer science and interned at BitGo on wallet policy and approval controls ([YC](https://www.ycombinator.com/companies/definite)).
-  - Twitter/X: @GurshabdV, 73 followers in a September 2026 cached mirror; live count not retrievable ([TwStalker](https://c63706c8-c7b0-4ef4-8c3d-1b3ed59bea37.twstalker.com/GurshabdV)).
-  - LinkedIn: Profile found; headline not retrievable, with 1K followers shown in indexed content ([LinkedIn](https://www.linkedin.com/in/gvaraich), via search snippet).
-  - GitHub: Personal handle unverified; credited on the shared Excelerate repository, which displayed 0 stars ([GitHub, October 2026](https://github.com/LuffyAI/HackDearborn2023Work)).
+  - **Background:** Studied computer science at the University of Waterloo, built wallet policy and approval controls at BitGo, and co-built a manufacturing data analysis tool at Hack Dearborn ([YC founder profile](https://www.ycombinator.com/founders/gurshabd-varaich), [Devpost](https://devpost.com/software/exelerator)). Direct business email: No public data found.
+  - **Twitter/X:** @GurshabdV, 114 followers ([Instalker X mirror](https://instalker.org/GurshabdV), November 2026).
+  - **LinkedIn:** “Definite (YC S26),” 1K followers ([LinkedIn public profile snapshot](https://www.linkedin.com/in/gvaraich)).
+  - **GitHub:** Co-built Excelerate in the shared `HackDearborn2023Work` repository, 0 stars ([GitHub](https://github.com/LuffyAI/HackDearborn2023Work), November 2026).
 - **Mazin Al-Ani (Founder):**
-  - Background: Studied Waterloo computer science and interned at Optiver on trading systems and Boosted.ai on financial-analysis agents ([YC](https://www.ycombinator.com/companies/definite)).
-  - Twitter/X: @mazinalanii, 38 followers in a September 2026 cached mirror; live count not retrievable ([TwStalker](https://msbrewwc.twstalker.com/theophorus7)).
-  - LinkedIn: Profile found; headline not retrievable, with 2K followers shown in indexed content ([LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet).
-  - GitHub: No public repos found.
+  - **Background:** Studied computer science at Waterloo and interned on quantitative trading systems at Optiver and on AI tools for financial analysts at Boosted.ai ([YC founder profile](https://www.ycombinator.com/founders/mazin-al-ani)). Business email: mazin@usedefinite.com ([LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet).
+  - **Twitter/X:** @mazinalanii, 44 followers ([Teapawt X mirror](https://www.teapawt.net/mazinalanii), November 2026).
+  - **LinkedIn:** “Definite (YC S26),” 2K followers ([LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet).
+  - **GitHub:** @mazinal-ani, `Buffer-Calculator`, 0 stars ([Devpost profile](https://devpost.com/mazinal-ani/achievements), [GitHub](https://github.com/mazinal-ani/Buffer-Calculator), November 2026).
 - **Farhan Ur Rehman (Founder):**
-  - Background: Studied Waterloo statistics and previously worked at Meta on Instagram Reels recommendations ([YC](https://www.ycombinator.com/companies/definite)).
-  - Twitter/X: @re__farhan, 37 followers in a September 2026 cached mirror; live count not retrievable ([TwStalker](https://kyawgyii.twstalker.com/re__farhan)).
-  - LinkedIn: Profile linked from the company page; headline not retrievable ([company LinkedIn](https://www.linkedin.com/company/usedefinite/)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** The founders met at Waterloo; a September interview places their working location in Waterloo despite YC’s San Francisco listing ([Build from Here](https://buildfromhere.substack.com/p/mazin-al-ani-on-selling-before-you), [YC](https://www.ycombinator.com/companies/definite)).
-- **Founder-market fit:** Documented experience spans custody controls, trading-system checks, financial-analysis agents and machine learning, with YC backing confirmed ([YC launch](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)).
+  - **Background:** Studied statistics at Waterloo and worked on Instagram Reels recommendations at Meta ([YC founder profile](https://www.ycombinator.com/founders/farhan-rehman)). Business email: farhan@usedefinite.com ([Definite privacy policy](https://www.usedefinite.com/privacy)).
+  - **Twitter/X:** @re__farhan, 64 followers ([Teapawt X mirror](https://www.teapawt.net/re__farhan), November 2026).
+  - **LinkedIn:** “Co-Founder of Definite (YC S26),” 1K followers ([LinkedIn](https://www.linkedin.com/in/farhan-ur-rehman), via search snippet).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** The founders met at the University of Waterloo ([YC company profile](https://www.ycombinator.com/companies/definite)).
+- **Founder-market fit:** The team's prior work covers financial approval controls at BitGo, event-to-metric mapping at Meta, and financial analyst workflows at Boosted.ai, and Definite is backed by Y Combinator and Barn Ventures ([YC company profile](https://www.ycombinator.com/companies/definite), [Barn Ventures portfolio](https://barnvc.com/)).
 
 ## Key Risks
 
-- **Technical correctness:** Definite acknowledges outputs can be incomplete or incorrect and requires contextual review, with deterministic rules and human approvals providing documented controls ([Terms](https://www.usedefinite.com/terms), [Security](https://www.usedefinite.com/security)).
-- **Implementation burden:** [Inferred]: Customer-specific definitions and missing connectors can require recurring engineering work because Definite builds scoped connections during implementation ([Integrations](https://www.usedefinite.com/integrations)).
-- **Procurement conversion:** The founder interview records deals failing after demos and earlier compliance-product LOIs failing to establish purchase commitment, followed by contract-first selling ([Build from Here, September 2026](https://buildfromhere.substack.com/p/mazin-al-ani-on-selling-before-you)).
-- **Product-history attribution:** July launch coverage describes bank regulatory reporting, while current materials describe a broader ontology layer; the exact transition date is undisclosed ([Stompstart](https://stompstart.com/s/definite), [Definite](https://www.usedefinite.com/)).
-- **Name collision:** Dealroom mixes usedefinite.com with Mike Ritchie’s analytics business and Fi product, so its funding and pricing claims cannot be attributed to this startup ([Dealroom](https://app.dealroom.co/companies/definite_3), [separate Definite website](https://www.definite.app/)).
+- **Implementation effort:** [Inferred]: Customer-specific definitions and missing connectors can extend onboarding, which Definite scopes around an initial workflow ([Definite implementation FAQ](https://www.usedefinite.com/)).
+- **Mapping accuracy:** [Inferred]: A misclassified source record can flow through a deterministic calculation, so Definite retains conflicting inputs and supports mandatory human review ([Definite product page](https://www.usedefinite.com/)).
+- **ERP substitution:** [Inferred]: Dynamics customers can start with Microsoft's native finance agents for overlapping workflows, while Definite supports data from multiple ERP vendors ([Microsoft Dynamics 365 Finance](https://www.microsoft.com/en-us/dynamics-365/products/finance), [Definite integrations](https://www.usedefinite.com/integrations)).
+- **Name collision:** Definite shares its name with the separate data-platform company at definite.app, whose $10M seed announcement can be misattributed in funding searches ([definite.app funding announcement](https://www.definite.app/blog/definite-raises-%2410M), August 2025, [YC company profile](https://www.ycombinator.com/companies/definite)).
 
 ## Key Facts
 
@@ -78,12 +76,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | 297 LinkedIn followers ([LinkedIn, October 27, 2026](https://www.linkedin.com/company/usedefinite/)) |
-| Revenue Signal | Monthly contracts, no deployment fee, first-two-month opt-out; monetary price undisclosed ([Build from Here, September 2026](https://buildfromhere.substack.com/p/mazin-al-ani-on-selling-before-you)) |
-| Founders | Gurshabd Singh Varaich, CEO: Waterloo CS, BitGo; Mazin Al-Ani, Founder: Waterloo CS, Optiver, Boosted.ai; Farhan Ur Rehman, Founder: Waterloo statistics, Meta ([YC](https://www.ycombinator.com/companies/definite)) |
-| Competitors | Numeric: $89M raised, revenue unknown, finance applications ([Numeric](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html)); Workato: over $420M raised, revenue unknown, enterprise orchestration ([Workato announcement](https://www.businesswire.com/news/home/20211110005457/en/Workato-Raises-%24200-Million-Series-E-at-a-%245.7-Billion-Valuation-to-Accelerate-Record-Growth-and-Capitalize-on-Surging-Demand-for-Enterprise-Automation)); n8n: $240M plus undisclosed SAP investment, revenue unknown, general workflows ([n8n](https://n8n.io/press/)) |
-| Moat Signals | Documented lineage, retained rules and historical snapshots ([Definite Security](https://www.usedefinite.com/security)) |
-| Risk Factors | Incorrect outputs; customer-specific connector implementation ([Terms](https://www.usedefinite.com/terms), [Integrations](https://www.usedefinite.com/integrations)) |
-| Founder Reach | Gurshabd: LinkedIn 1K followers; Mazin: LinkedIn 2K followers ([Gurshabd](https://www.linkedin.com/in/gvaraich), [Mazin](https://www.linkedin.com/in/mazinalani), via search snippets, 2026) |
-| Distribution Signals | Dynamics Roadshow booth and finance-leader dinner outreach ([company LinkedIn, 2026](https://www.linkedin.com/company/usedefinite/)) |
-| Emails | gurshabd@usedefinite.com ([YC launch](https://www.ycombinator.com/launches/RWQ-definite-turn-weeks-of-regulatory-reports-into-hours)); mazin@usedefinite.com ([LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet); jeevsidak@usedefinite.com ([Contact](https://www.usedefinite.com/contact)); historical contact@usedefinite.com ([Terms](https://www.usedefinite.com/terms), via search snippet) |
+| Traction | Prior bank-reporting product live with banks in the US and Canada, per Definite ([YC launch video](https://www.linkedin.com/posts/y-combinator_definite-yc-s26-automates-regulatory-reporting-activity-7483173633046126593-dPjA), July 2026). Current finance platform covered by [Founderland](https://www.founderland.ai/articles/definite-launches-ai-back-office-agents-for-finance-teams-mvye4t42) (November 2026). |
+| Revenue Signal | No public data found |
+| Founders | Gurshabd Singh Varaich (Founder/CEO), Waterloo CS and BitGo wallet controls. Mazin Al-Ani (Founder), Waterloo CS, Optiver, and Boosted.ai. Farhan Ur Rehman (Founder), Waterloo statistics and Meta Reels recommendations ([YC company profile](https://www.ycombinator.com/companies/definite)). |
+| Competitors | Concourse ($20M raised, revenue unknown, self-serve finance agents, [YC](https://www.ycombinator.com/companies/concourse)), Numeric ($89M raised, revenue unknown, close and cash matching, [Numeric announcement](https://www.prnewswire.com/news-releases/numeric-raises-51m-series-b-expanding-from-close-management-to-comprehensive-finance-platform-302619774.html)), Aleph ($46M raised, revenue unknown, spreadsheet-based FP&A, [Aleph announcement](https://www.getaleph.com/blog/series-b)). |
+| Moat Signals | Reproducible workflow runs with source-level lineage and recorded review decisions ([Definite product page](https://www.usedefinite.com/)). |
+| Risk Factors | Customer-specific integration scope and mapping accuracy ([Definite product page](https://www.usedefinite.com/)), native ERP finance agents ([Microsoft Dynamics 365 Finance](https://www.microsoft.com/en-us/dynamics-365/products/finance)). |
+| Founder Reach | Gurshabd: X 114, LinkedIn 1K, shared GitHub repo 0 stars ([Instalker](https://instalker.org/GurshabdV), [LinkedIn](https://www.linkedin.com/in/gvaraich), [GitHub](https://github.com/LuffyAI/HackDearborn2023Work)). Mazin: X 44, LinkedIn 2K, Buffer-Calculator 0 stars ([Teapawt](https://www.teapawt.net/mazinalanii), [LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet, [GitHub](https://github.com/mazinal-ani/Buffer-Calculator)). Farhan: X 64, LinkedIn 1K ([Teapawt](https://www.teapawt.net/re__farhan), [LinkedIn](https://www.linkedin.com/in/farhan-ur-rehman), via search snippet). |
+| Distribution Signals | Founder-led demos ([Definite product page](https://www.usedefinite.com/)), outbound email and LinkedIn ([Definite privacy policy](https://www.usedefinite.com/privacy), November 2026), announced Microsoft Dynamics Communities Roadshow booth in Toronto ([company LinkedIn](https://ca.linkedin.com/company/usedefinite), 2026). |
+| Emails | mazin@usedefinite.com ([Mazin’s LinkedIn](https://www.linkedin.com/in/mazinalani), via search snippet), farhan@usedefinite.com ([privacy and outreach requests](https://www.usedefinite.com/privacy)), jeevsidak@usedefinite.com ([general and technical inquiries](https://www.usedefinite.com/contact)), contact@usedefinite.com ([shared inbox listed by Head of Ops](https://www.linkedin.com/in/tyler-teng), via search snippet). |

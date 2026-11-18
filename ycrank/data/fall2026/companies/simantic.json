@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://simantic.com",
     "yc_page": "https://www.ycombinator.com/companies/simantic",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/simantic))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/simantic))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "4",
     "location": "Waterloo, ON, Canada",
     "tags": "Developer Tools, Hardware, Semiconductors, Electronics, AI",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/simantic))",
-    "emails": "founders@simantic.dev ([Investors](https://simantic.com/investors)); privacy@simantic.dev ([Privacy](https://simantic.com/privacy)); founder@simantic.dev ([Official SDK](https://github.com/simantic-dev/pippy))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/simantic))",
+    "emails": "seungmin@simantic.dev (CEO, [Hong on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7406133746917343232/)), founders@simantic.dev (sales and investor inquiries, [Launch YC](https://www.ycombinator.com/launches/WhY-simantic-firmware-simulation-for-ai-agents), [Simantic Investors](https://simantic.com/investors)), privacy@simantic.dev (privacy, [Privacy Policy](https://simantic.com/privacy)), legal@simantic.dev (legal notices, [Terms](https://simantic.com/terms))"
   },
   "tags": [
     "Developer Tools",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:17:59.969Z",
+  "memoGeneratedAt": "2026-11-18T00:35:03.647Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 52,
+    "agi": {
+      "score": 48,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 44,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 49,
-    "NR": 53,
-    "PG": 44,
-    "PT": 31,
-    "SL": 31,
-    "VK": 28
+    "AGI": 48,
+    "HG": 37,
+    "EXIT": 40
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 54,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 35,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 44,
-    "tractionReason": "Embedder, WATFlight, and BoardRepo partnerships; beta live, revenue undisclosed"
+    "tractionRank": 79,
+    "tractionScore": 53,
+    "tractionReason": "1.5M simulation runs, 70% weekly run growth, first satellite customer"
   },
   "paths": {
     "memo": "fall2026/memos/simantic.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/simantic.md",
-      "elad-gil": "fall2026/evals/elad-gil/simantic.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/simantic.md",
-      "paul-graham": "fall2026/evals/paul-graham/simantic.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/simantic.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/simantic.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/simantic.md"
+      "agi": "fall2026/evals/agi/simantic.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/simantic.md",
+      "exit": "fall2026/evals/exit/simantic.md"
     }
   }
 }

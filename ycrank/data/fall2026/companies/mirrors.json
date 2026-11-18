@@ -1,83 +1,59 @@
 {
   "slug": "mirrors",
   "name": "Mirrors",
-  "oneLiner": "Give AI agents the right context at the right moment",
+  "oneLiner": "The guidance system for production AI agents",
   "metadata": {
     "website": "https://www.mirrors.dev",
     "yc_page": "https://www.ycombinator.com/companies/mirrors",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/mirrors))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/mirrors))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, Developer Tools, SaaS, B2B, AI",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/mirrors))",
-    "emails": "devs@runmirrors.com ([Mirrors](https://mirrors.dev/)); aryan.singhal2016@gmail.com ([founder website](https://www.aisinghal.com/)); aryan@profine.ai, prior-project address ([GitHub](https://github.com/ai-singhal))"
+    "tags": "Developer Tools, SaaS, B2B, Infrastructure, AI",
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/mirrors))",
+    "emails": "aryan@profine.ai (Aryan Singhal’s Profine business address, [GitHub](https://github.com/ai-singhal)), aryan.singhal2016@gmail.com (Singhal’s published preferred contact, [founder site](https://www.aisinghal.com/)), devs@mirrors.dev (shared inquiries and privacy requests, [Mirrors Privacy Policy](https://mirrors.dev/privacy)), devs@runmirrors.com (shared launch inquiries, [Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance))"
   },
   "tags": [
-    "AIOps",
     "Developer Tools",
     "SaaS",
     "B2B",
+    "Infrastructure",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:04:05.876Z",
+  "memoGeneratedAt": "2026-11-18T00:09:38.216Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
+    "agi": {
+      "score": 34,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 39,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 39,
-    "NR": 41,
-    "PG": 35,
-    "PT": 30,
-    "SL": 29,
-    "VK": 25
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 34.43,
-  "consolidatedRank": 171,
+  "consolidatedAvg": 35.67,
+  "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 53,
-    "tractionReason": "711,933 agent sessions displayed; period and product allocation unspecified"
+    "tractionRank": 158,
+    "tractionScore": 34,
+    "tractionReason": "63,052 reported agent turns and one design-partner example"
   },
   "paths": {
     "memo": "fall2026/memos/mirrors.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/mirrors.md",
-      "elad-gil": "fall2026/evals/elad-gil/mirrors.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/mirrors.md",
-      "paul-graham": "fall2026/evals/paul-graham/mirrors.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/mirrors.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/mirrors.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/mirrors.md"
+      "agi": "fall2026/evals/agi/mirrors.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/mirrors.md",
+      "exit": "fall2026/evals/exit/mirrors.md"
     }
   }
 }

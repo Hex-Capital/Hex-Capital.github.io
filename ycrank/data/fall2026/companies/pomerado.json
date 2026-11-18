@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.pomerado.ai",
     "yc_page": "https://www.ycombinator.com/companies/pomerado",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/pomerado))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/pomerado))",
     "industry": "B2B / B2B -> Infrastructure",
-    "team_size": "2",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/pomerado))",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, B2B, Workflow Automation, API, AI",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/pomerado))",
-    "emails": "founders@pomerado.ai, akshay@pomerado.ai ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/pomerado))",
+    "emails": "akshay@pomerado.ai (CEO, introductions), founders@pomerado.ai (shared feedback and company notices) ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use), [Pomerado Terms of Service](https://pomerado.ai/terms-of-service))"
   },
   "tags": [
     "Developer Tools",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:17:18.684Z",
+  "memoGeneratedAt": "2026-11-17T23:30:52.537Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 43,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 43,
-    "NR": 44,
-    "PG": 40,
-    "PT": 30,
-    "SL": 31,
-    "VK": 28
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 130,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 127,
-    "tractionScore": 38,
-    "tractionReason": "1,100 stars and 100 forks; paid adoption undisclosed"
+    "tractionRank": 91,
+    "tractionScore": 51,
+    "tractionReason": "35K weekly package downloads and reported dealership use"
   },
   "paths": {
     "memo": "fall2026/memos/pomerado.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/pomerado.md",
-      "elad-gil": "fall2026/evals/elad-gil/pomerado.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/pomerado.md",
-      "paul-graham": "fall2026/evals/paul-graham/pomerado.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/pomerado.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/pomerado.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/pomerado.md"
+      "agi": "fall2026/evals/agi/pomerado.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/pomerado.md",
+      "exit": "fall2026/evals/exit/pomerado.md"
     }
   }
 }

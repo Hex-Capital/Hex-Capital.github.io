@@ -1,0 +1,59 @@
+{
+  "slug": "flashdrive",
+  "name": "FlashDrive",
+  "oneLiner": "A shared drive for your team and all your AI agents.",
+  "metadata": {
+    "website": "https://flashdrive.space",
+    "yc_page": "https://www.ycombinator.com/companies/flashdrive",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/flashdrive))",
+    "industry": "B2B / B2B -> Infrastructure",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Developer Tools, Cloud Computing, Infrastructure, AI, Databases",
+    "yc_partner": "Pete Koomen ([Y Combinator](https://www.ycombinator.com/companies/flashdrive))",
+    "emails": "team@evokoa.com, shared Evokoa team inbox ([Evokoa team page](https://wondersearch.ai/team/))"
+  },
+  "tags": [
+    "Developer Tools",
+    "Cloud Computing",
+    "Infrastructure",
+    "AI",
+    "Databases"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-17T22:38:52.645Z",
+  "evalScores": {
+    "agi": {
+      "score": 33,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 36,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "AGI": 33,
+    "HG": 36,
+    "EXIT": 36
+  },
+  "consolidatedAvg": 35,
+  "consolidatedRank": 206,
+  "traction": {
+    "tractionRank": 189,
+    "tractionScore": 24,
+    "tractionReason": "Free early access launched, current-user count undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/flashdrive.md",
+    "evals": {
+      "agi": "fall2026/evals/agi/flashdrive.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/flashdrive.md",
+      "exit": "fall2026/evals/exit/flashdrive.md"
+    }
+  }
+}

@@ -6,84 +6,89 @@
 |-------|-------|
 | Website | https://www.vexoai.com/ |
 | YC Page | https://www.ycombinator.com/companies/vexo |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/vexo)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/vexo)) |
 | Industry | Consumer / Consumer -> Consumer Electronics |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | AI-Enhanced Learning, Hardware, Productivity, Conversational AI, AI Assistant |
-| YC Partner | David Lieb ([YC](https://www.ycombinator.com/companies/vexo)) |
-| Emails | info@vexoai.com ([Vexo](https://www.vexoai.com/)); haris@vexoai.com ([founder website](https://harismalik.com/)); legacy haris@vexoring.com ([founder website, earlier search snippet](https://harismalik.com/)) |
+| YC Partner | David Lieb ([Y Combinator](https://www.ycombinator.com/companies/vexo)) |
+| Emails | haris@vexoai.com (CEO), kiani@vexoai.com (CTO), vikram@vexoai.com (CPO) ([Launch YC](https://www.ycombinator.com/launches/XTy-vexo-an-always-listening-ai-bracelet-that-remembers-and-acts)), support@vexoai.com (orders and support) ([Vexo terms](https://www.vexoai.com/terms)), info@vexoai.com (integrations, partnerships and security) ([Vexo developer docs](https://www.vexoai.com/docs)) |
 
 ## The Idea
 
-- **Problem:** Vexo targets people who forget conversational details and must retype context into AI assistants, with company posts specifically describing co-founder conversations and meetings ([Vexo LinkedIn, Oct 2026](https://www.linkedin.com/company/tryvexoai)).
-- **Approach:** The bracelet sends microphone audio to a phone over Bluetooth for local or cloud transcription, while its MCP server exposes searchable conversational memory to authorized agents ([privacy policy](https://www.vexoai.com/privacy), [developer documentation](https://www.vexoai.com/developers/mcp), Oct 2026).
-- **Differentiation:** Vexo combines conversational capture, health sensors, and advertised app actions; Omi emphasizes open-source capture, Bee integrates with Amazon services, and Plaud emphasizes recording and meeting notes ([Vexo](https://www.vexoai.com/), [Omi](https://www.omi.me/), [Bee announcement](https://www.publicnow.com/view/24A0808CCAF4292C60FACF2D3A79CBC08F4BFFD1), [Plaud](https://www.plaud.ai/products/plaud-notepin)).
-- **Business Model:** Hardware preorders cost $199 with free shipping, payment occurs when ordered, and the iOS app is free; subscription pricing: No public data found ([Vexo](https://www.vexoai.com/), [terms](https://www.vexoai.com/terms), [App Store](https://apps.apple.com/us/app/vexo-band/id6787324778), accessed Oct 27, 2026).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Distribution includes direct website preorders, launch-update email collection, founder demonstrations on social media, and an iOS companion app ([Vexo](https://www.vexoai.com/), [company LinkedIn](https://www.linkedin.com/company/tryvexoai), [App Store](https://apps.apple.com/us/app/vexo-band/id6787324778)).
+- **Problem:** Professionals who make commitments in meetings and informal conversations can lose details needed for follow-up and must reconstruct that context from memory or manually enter it into their AI assistant ([Launch YC](https://www.ycombinator.com/companies/vexo), [Vexo LinkedIn](https://www.linkedin.com/company/tryvexoai)).
+- **Approach:** The Band streams conversation audio through a Bluetooth-paired phone for cloud transcription, turns transcripts into searchable memory, and prepares actions such as sending email or changing calendar events for user approval ([Vexo privacy policy](https://www.vexoai.com/privacy), [Launch YC](https://www.ycombinator.com/companies/vexo)).
+- **Differentiation:** Vexo gives existing assistants such as Claude and ChatGPT permissioned access to all-day conversation memory, while Bee Frontier offers Alexa+ and Amazon.com integrations and Pocket captures meetings and calls with a phone-mounted recorder ([Vexo developer docs](https://www.vexoai.com/docs), [Amazon](https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse), [Pocket investor Lobster Capital](https://lobstercap.substack.com/p/from-1m-to-100m-arr-in-7-months-why)).
+- **Business Model:** Vexo charges US$199 at checkout for the Band, offers full refunds before shipment, and lists January 30, 2027 as the shipping start date ([Vexo checkout](https://www.vexoai.com/checkout), [Vexo terms](https://www.vexoai.com/terms)).
+- **TAM/SAM:** Grand View Research projects the broader global wearable AI market, including smartwatches, earwear and medical wearables, at $55.7B in 2026 with 27.8% CAGR through 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/wearable-ai-market-report)).
+- **GTM / Distribution:** Vexo takes direct preorders and email sign-ups on its site, promoted the Band through Launch YC and X, and made bracelets available to developers at VexoHacks ([Vexo site](https://www.vexoai.com/), [Launch YC](https://www.ycombinator.com/companies/vexo), [Malik’s X launch via teapawt](https://xitter.cf/realharismalik/status/2121289799617462738), [Vexo LinkedIn](https://www.linkedin.com/company/tryvexoai)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Accumulated conversation history could create switching costs, but retention and migration behavior are undisclosed; the documented memory includes people, preferences, projects, and commitments ([Vexo developer documentation](https://www.vexoai.com/developers/mcp)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given existing overlapping products from Omi and Amazon-owned Bee ([Omi](https://www.omi.me/), [Bee](https://bee.computer/)).
-- **Commoditization risk:** [Inferred]: Omi’s published hardware, firmware, software, API, and MCP interface reduce the implementation barrier for competing conversation-memory products ([Omi, Oct 16, 2026](https://www.omi.me/blogs/articles/omi-vs-fieldy)).
+- **Moat today:** The founders report designing the circuit board, enclosure, firmware, app and agents in-house, and Vexo documents a permissioned connector that returns source references with retrieved memories ([Launch YC](https://www.ycombinator.com/companies/vexo), [Vexo developer docs](https://www.vexoai.com/docs)).
+- **Future moat:** [Inferred]: An accumulated history of conversations, commitments and preferences could increase switching costs, with no public retention or migration data to establish that effect ([Vexo developer docs](https://www.vexoai.com/docs)).
+- **Market structure:** No structural barrier identified at this stage ([Amazon Bee Frontier announcement](https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse), [Omi GitHub](https://github.com/BasedHardware/omi)).
+- **Commoditization risk:** Omi publishes wearable firmware, apps and an MCP server under an MIT license, giving competing teams reusable components for audio capture and agent access ([Omi GitHub](https://github.com/BasedHardware/omi)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - iOS rating: 5.0/5 from one rating ([US App Store, accessed Oct 27, 2026](https://apps.apple.com/us/app/vexo-band/id6787324778)).
-  - Company LinkedIn: 156 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/tryvexoai)).
-  - Product coverage published October 8, 2026 ([Geeky Fisher](https://www.geekyfisher.com/what-is-vexo-ai-bracelet/)).
-  - Public Cursor integration repository: one star, labeled “In development” ([GitHub, accessed Oct 27, 2026](https://github.com/VexoAI-Org/vexo-cursor-plugin)).
-  - Active YC job listings: zero ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/vexo)).
+  - Prior product, Vexo health-ring prototype: The team shifted to the bracelet shortly after joining YC Fall 2026, according to Malik ([The Bay Signal, Oct 27, 2026](https://thebaysignal.com/episodes/haris-malik-vexo), [Y Combinator](https://www.ycombinator.com/companies/vexo)).
+  - Band prototypes distributed to preorder customers in San Francisco, according to Malik, with quantity undisclosed ([The Bay Signal, Oct 27, 2026](https://thebaysignal.com/episodes/haris-malik-vexo)).
+  - 3,333,841 views on the November 13 Band launch post ([Doomers AI, Nov 16, 2026 snapshot](https://doomers.ai/launches/vexo)).
+  - 5.0/5 from 2 ratings for the Vexo Band iOS app ([U.S. App Store, Nov 2026](https://apps.apple.com/us/app/vexo-band/id6787324778)).
+  - 568 LinkedIn followers and 156 X followers at @tryvexoai ([Vexo LinkedIn, Nov 2026](https://www.linkedin.com/company/tryvexoai), [X via teapawt, Nov 2026](https://www.teapawt.org/tryvexoai)).
+  - 193 VexoHacks participants listed on Devpost, with sponsors including OpenAI, ElevenLabs and Stripe ([Devpost, Nov 14, 2026](https://vexohacks.devpost.com/), [VexoHacks](https://www.vexoai.com/hackathon)).
+  - Band coverage ([RuntimeWire, Oct 2, 2026](https://runtimewire.com/article/vexo-ai-bracelet-conversation-memory), [Raised, Nov 16, 2026](https://raisednews.com/article/vexo-ai-bracelet-memory-actions/)).
+  - 0 open roles on YC’s jobs board ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/vexo/jobs)).
+  - $125K in funding tracked by Dealroom, with no company-disclosed round size found ([Dealroom, Nov 2026](https://dealroom.co/just-founded/vexo/)).
 - **Competitors:**
-  - **Omi ($2M+ announced funding, revenue unknown):** Open-source conversation capture and memory; announced a $2M financing on January 30, 2025, from Tim Draper with Dropbox co-founder Arash Ferdowsi, 468 Capital, and Embedding VC participating ([funding announcement](https://www.omi.me/blogs/news/omi-raises-2m), [product](https://www.omi.me/)).
-  - **Bee ($7M disclosed funding, revenue unknown):** Amazon-owned ambient assistant with Alexa+ and shopping integration; its July 2024 Exor-led funding disclosure included $1.5M previously raised ([TechCrunch via Yahoo search snippet](https://finance.yahoo.com/news/bee-ai-raises-7m-wearable-171000579.html), [Amazon announcement via search snippet, Oct 15, 2026](https://www.publicnow.com/view/24A0808CCAF4292C60FACF2D3A79CBC08F4BFFD1)).
-  - **Plaud (approximately $5M disclosed funding, $100M software ARR reported):** Recording and transcription devices with paid software; Sacra identifies an April 24, 2025 convertible financing led by Carbide Ventures and attributes the software ARR milestone to June 2026 ([Sacra](https://sacra.com/c/plaud/)).
-- **Why now:** [Inferred]: MCP’s introduction in November 2024 created a shared interface for connecting assistants to external context, which Vexo now uses for personal memory access ([Anthropic, Nov 25, 2024](https://www.anthropic.com/news/model-context-protocol), [Vexo documentation](https://www.vexoai.com/developers/mcp)).
+  - **Omi** ($2.7M reported raised, revenue unknown): Open-source pendant and developer ecosystem, with a $2M financing announced in January 2025 naming Tim Draper, Arash Ferdowsi and other backers without identifying a lead ([Inception Studio](https://23586544.fs1.hubspotusercontent-na2.net/hubfs/23586544/InceptionStudioSponsorDeckFull.pdf), [Omi founder announcement](https://www.linkedin.com/posts/nik-shevchenko-08565b18b_omi-raises-2m-to-build-the-future-of-ai-activity-7290870225871192065-lAHI), [Omi GitHub](https://github.com/BasedHardware/omi)).
+  - **Bee** ($7M disclosed before acquisition, revenue unknown): Wrist or clip-on device tied to Alexa+ and Amazon.com, with its July 2024 seed financing led by Exor and the disclosed total including earlier pre-seed funding ([TechCrunch founder interview, Jul 2024](https://techcrunch.com/2024/07/29/former-squad-and-twitter-execs-raise-7m-to-build-a-hardware-ai-assistant/), [Amazon](https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse)).
+  - **Pocket** ($11M announced funding, $100M annualized revenue run rate): Phone-mounted recorder for meetings and calls, with an $11M Series A led by Accel in June 2026 ([Pocket announcement](https://www.globenewswire.com/news-release/2026/06/29/3318980/0/en/pocket-raises-11m-from-accel-and-others-as-demand-surges-for-its-personal-ai-assistant-device.html), [Lobster Capital, Aug 2026](https://lobstercap.substack.com/p/from-1m-to-100m-arr-in-7-months-why)).
+  - **Plaud** (approximately $5M disclosed funding, $100M software ARR): NotePin S focuses on recording and organizing professional conversations, with a $4.75M convertible note led by Carbide Ventures in April 2025, per Sacra ([Sacra](https://sacra.com/c/plaud/), [Plaud, Jun 2026](https://global.plaud.ai/blogs/news/plaud-scales-from-1m-to-100m-arr)).
+- **Why now:** [Inferred]: OpenAI’s December 2025 opening of app submissions with MCP connectivity gave Vexo a standard way to expose permissioned conversation memory inside an assistant people already use ([OpenAI, Dec 2025](https://openai.com/index/developers-can-now-submit-apps-to-chatgpt/), [Vexo developer docs](https://www.vexoai.com/docs)).
 
 ## Founders & Team
 
-- **Haris Malik (Founder/CEO):**
-  - Background: University of Toronto computer science and Pearson Scholar; previously developed Tesla firmware and K-Scale robot firmware, controls, and perception ([founder website](https://harismalik.com/)).
-  - Twitter/X: @realharismalik; count not retrievable ([founder-linked account](https://x.com/realharismalik)).
-  - LinkedIn: Headline: No public data found; About says “built robots and operating systems”; 2K followers ([LinkedIn via search snippet, Oct 2026](https://www.linkedin.com/in/haris-malik-)).
-  - GitHub: @harismalik-1; pinned `imu_bmi088` Rust sensor-driver repository, zero stars ([GitHub, Oct 27, 2026](https://github.com/harismalik-1/imu_bmi088)).
-- **Farqaleet Kiani (Founder/CTO):**
-  - Background: McMaster mechatronics; previously Tesla, AMD, GM, Geotab, and Molex ([YC founder profile](https://www.ycombinator.com/founders/farqaleet-kiani)).
-  - Twitter/X: @Kianif98; count not retrievable ([Vexo-related posts reproduced by Sotwe](https://www.sotwe.com/vikramnarra13?lang=en)).
-  - LinkedIn: Headline: No public data found; 2K followers ([LinkedIn via search snippet, Oct 2026](https://www.linkedin.com/in/kianif)).
+- **Haris Malik (Founder/CEO):** haris@vexoai.com ([Launch YC](https://www.ycombinator.com/companies/vexo)).
+  - Background: Studied computer science at the University of Toronto, wrote firmware for Tesla Optimus and energy products, worked on humanoid robotics at K-Scale Labs, and co-founded Offline ([Haris Malik](https://harismalik.com/)).
+  - Twitter/X: @realharismalik, 318 followers ([X via teapawt, Nov 2026](https://nitter.cf/realharismalik)).
+  - LinkedIn: “built robots and operating systems. now building vexo.” ([LinkedIn, via search snippet](https://www.linkedin.com/in/haris-malik-)).
+  - GitHub: @harismalk, with 3 stars on the linked `2024sp-exoskeleton` team project ([Haris Malik](https://harismalik.com/), [GitHub](https://github.com/epfl-cs358/2024sp-exoskeleton)).
+- **Farqaleet Kiani (Founder/CTO):** kiani@vexoai.com ([Launch YC](https://www.ycombinator.com/companies/vexo)).
+  - Background: Studied mechatronics at McMaster, built hardware and firmware for Tesla energy products and Optimus, and previously worked at AMD, GM, Geotab and Molex ([Y Combinator](https://www.ycombinator.com/companies/vexo)).
+  - Twitter/X: @Kianif98, 58 followers ([X via teapawt, Nov 2026](https://nitter.gq/Kianif98)).
+  - LinkedIn: Public profile found, headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/kianif)).
   - GitHub: No public repos found.
-- **Vikram Narra (Founder/CPO):**
-  - Background: University of Toronto computer science; previously Amazon and Shopify, with prior on-device wearable AI work described on his personal website ([YC](https://www.ycombinator.com/founders/vikram-narra), [personal website via search snippet](https://www.vikramnarra.com/)).
-  - Twitter/X: @vikramnarra13; 185 followers in the retrieved mirror ([Sotwe, accessed Oct 27, 2026](https://www.sotwe.com/vikramnarra13?lang=en)).
-  - LinkedIn: Headline: No public data found; About says “In Pursuit of Greatness”; 4K followers ([LinkedIn via search snippet, Oct 2026](https://www.linkedin.com/in/vikramnarra)).
+- **Vikram Narra (Founder/CPO):** vikram@vexoai.com ([Launch YC](https://www.ycombinator.com/companies/vexo)).
+  - Background: Studied computer science at the University of Toronto, worked at Amazon and Shopify, and built on-device wearable AI and Coloruno, an iOS game that reached 6,000+ daily active users ([Vikram Narra, via search snippet](https://www.vikramnarra.com/), [Launch YC](https://www.ycombinator.com/companies/vexo)).
+  - Twitter/X: @vikramnarra13, 226 followers ([X via teapawt, Nov 2026](https://nitter.gq/vikramnarra13)).
+  - LinkedIn: Public profile found, headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/vikramnarra)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Malik and Narra previously co-founded Offline while studying computer science at Toronto; Kiani’s relationship history with them is undisclosed ([The Varsity, Sep 21, 2025](https://thevarsity.ca/2025/09/21/building-real-world-connections-on-offline-a-new-social-app/)).
-- **Founder-market fit:** [Inferred]: Documented embedded firmware, robotics, and wearable AI experience relates to Vexo’s hardware/software requirements ([Malik](https://harismalik.com/), [Kiani](https://www.ycombinator.com/founders/farqaleet-kiani), [Narra via search snippet](https://www.vikramnarra.com/)).
+- **Co-founder relationship:** Malik and Narra studied at the University of Toronto and co-founded Offline before Vexo, and Malik and Kiani both worked at Tesla ([The Varsity, Sep 2025](https://thevarsity.ca/2025/09/21/building-real-world-connections-on-offline-a-new-social-app/), [Y Combinator](https://www.ycombinator.com/companies/vexo)).
+- **Founder-market fit:** Malik and Kiani bring embedded systems experience from Tesla, Narra brings wearable AI and consumer app experience, and Malik identifies YC and Paul Graham as backers ([Launch YC](https://www.ycombinator.com/companies/vexo), [Vikram Narra, via search snippet](https://www.vikramnarra.com/), [Malik’s X launch via teapawt](https://xitter.cf/realharismalik/status/2121289799617462738)).
 
 ## Key Risks
 
-- **Recording and privacy:** The microphone captures bystanders, and cloud transcription sends audio to external providers; Vexo documents local transcription, account deletion, and revocable sharing controls ([privacy policy, Oct 25, 2026](https://www.vexoai.com/privacy)).
-- **Execution capability:** Advertised task execution exceeds the documented MCP interface, whose tools cannot write, send, or delete; the Cursor repository separately labels spoken-request execution as in development ([developer documentation](https://www.vexoai.com/developers/mcp), [GitHub](https://github.com/VexoAI-Org/vexo-cursor-plugin)).
-- **Hardware delivery:** Shipping is estimated to start December 2, 2026, with manufacturing, certification, supply, and logistics identified as possible delay causes; preorders are refundable before shipment ([terms](https://www.vexoai.com/terms)).
-- **Product-history ambiguity:** An earlier indexed founder biography described a tap-to-log health ring, whereas current materials describe an always-listening bracelet; the transition date is undisclosed ([earlier founder search snippet](https://harismalik.com/), [current Vexo](https://www.vexoai.com/)).
-- **Name collision:** The Product Hunt listing named Vexo concerns React Native analytics at vexo.co, so its reviews and launch ranking do not establish bracelet traction ([Product Hunt](https://www.producthunt.com/products/vexo?launch=vexo)).
+- **Bystander consent:** The microphone captures nearby speakers, and Vexo’s policy places responsibility for obtaining required consent on the wearer, who can pause capture from the band, app or by voice ([Vexo privacy policy](https://www.vexoai.com/privacy)).
+- **Transcription and action accuracy:** The band relies on a connected phone and cloud transcription, and Vexo says derived memories can contain errors, with approval required before sensitive actions ([Vexo privacy policy](https://www.vexoai.com/privacy), [Launch YC](https://www.ycombinator.com/companies/vexo)).
+- **Platform dependency:** Gmail and Calendar actions depend on Google permissions, and transcription depends on AssemblyAI, with revocable account connections and support for multiple external assistants ([Vexo privacy policy](https://www.vexoai.com/privacy), [Vexo developer docs](https://www.vexoai.com/docs)).
+- **Substitution:** Amazon’s Bee Frontier already offers wrist-worn conversation capture and follow-up workflows, with distribution on Amazon.com and integration with Alexa+ ([Amazon, Oct 2026](https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse)).
+- **Name confusion:** Vexo also names a separate analytics product at vexo.co, making unqualified search results unreliable for attributing app listings or traction ([Vexo Analytics](https://www.vexo.co/), [Y Combinator](https://www.ycombinator.com/companies/vexo)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | Broader global wearable AI market forecast of $55.7B in 2026, with 27.8% CAGR through 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/wearable-ai-market-report)) |
 | SAM | No public data found |
-| Traction | iOS 5.0/5, one rating; LinkedIn 156 followers ([App Store](https://apps.apple.com/us/app/vexo-band/id6787324778), [LinkedIn](https://www.linkedin.com/company/tryvexoai), Oct 27, 2026) |
-| Revenue Signal | $199 hardware preorder; free iOS app; realized revenue undisclosed ([Vexo](https://www.vexoai.com/), [App Store](https://apps.apple.com/us/app/vexo-band/id6787324778), Oct 2026) |
-| Founders | Malik, CEO: Toronto CS, Tesla, K-Scale; Kiani, CTO: McMaster mechatronics, Tesla, AMD; Narra, CPO: Toronto CS, Amazon, Shopify ([YC](https://www.ycombinator.com/companies/vexo)) |
-| Competitors | Omi ($2M+ announced, revenue unknown, open source); Bee ($7M disclosed, revenue unknown, Amazon integrations); Plaud (≈$5M disclosed, $100M software ARR reported, recording/transcription) ([Omi](https://www.omi.me/blogs/news/omi-raises-2m), [Bee funding via search snippet](https://finance.yahoo.com/news/bee-ai-raises-7m-wearable-171000579.html), [Sacra](https://sacra.com/c/plaud/)) |
-| Moat Signals | No public data found |
-| Risk Factors | Bystander recording, shipment uncertainty, read-only MCP interface ([privacy](https://www.vexoai.com/privacy), [terms](https://www.vexoai.com/terms), [developer docs](https://www.vexoai.com/developers/mcp)) |
-| Founder Reach | Malik: LinkedIn 2K; Kiani: LinkedIn 2K; Narra: LinkedIn 4K, X mirror 185 ([Malik](https://www.linkedin.com/in/haris-malik-), [Kiani](https://www.linkedin.com/in/kianif), [Narra](https://www.linkedin.com/in/vikramnarra), LinkedIn via search snippets; [Sotwe](https://www.sotwe.com/vikramnarra13?lang=en), Oct 2026) |
-| Distribution Signals | Website preorders, iOS app, company LinkedIn ([Vexo](https://www.vexoai.com/), [App Store](https://apps.apple.com/us/app/vexo-band/id6787324778), [LinkedIn](https://www.linkedin.com/company/tryvexoai)) |
-| Emails | info@vexoai.com; haris@vexoai.com; legacy haris@vexoring.com ([Vexo](https://www.vexoai.com/), [founder website and earlier search snippet](https://harismalik.com/)) |
+| Traction | Band prototypes distributed to preorder customers ([The Bay Signal, Oct 2026](https://thebaysignal.com/episodes/haris-malik-vexo)), 5.0/5 from 2 iOS ratings ([U.S. App Store, Nov 2026](https://apps.apple.com/us/app/vexo-band/id6787324778)) |
+| Revenue Signal | US$199 Band preorder charged at purchase, refundable before shipment ([Vexo checkout](https://www.vexoai.com/checkout), [Vexo terms](https://www.vexoai.com/terms)) |
+| Founders | Haris Malik (CEO), Tesla firmware and K-Scale robotics. Farqaleet Kiani (CTO), Tesla hardware and McMaster mechatronics. Vikram Narra (CPO), Amazon and Shopify software and Coloruno ([Y Combinator](https://www.ycombinator.com/companies/vexo), [Vikram Narra, via search snippet](https://www.vikramnarra.com/)) |
+| Competitors | Omi ($2.7M raised, revenue unknown, open-source pendant) ([Inception Studio](https://23586544.fs1.hubspotusercontent-na2.net/hubfs/23586544/InceptionStudioSponsorDeckFull.pdf), [Omi GitHub](https://github.com/BasedHardware/omi)), Bee ($7M raised, revenue unknown, Alexa+ integration) ([TechCrunch](https://techcrunch.com/2024/07/29/former-squad-and-twitter-execs-raise-7m-to-build-a-hardware-ai-assistant/), [Amazon](https://www.aboutamazon.com/news/devices/amazon-personal-ai-bee-frontier-bee-eclipse)), Pocket ($11M announced funding, $100M annualized revenue run rate, phone-mounted recorder) ([Pocket announcement](https://www.globenewswire.com/news-release/2026/06/29/3318980/0/en/pocket-raises-11m-from-accel-and-others-as-demand-surges-for-its-personal-ai-assistant-device.html), [Lobster Capital](https://lobstercap.substack.com/p/from-1m-to-100m-arr-in-7-months-why)), Plaud (approximately $5M disclosed funding, $100M software ARR, professional note-taking) ([Sacra](https://sacra.com/c/plaud/), [Plaud](https://global.plaud.ai/blogs/news/plaud-scales-from-1m-to-100m-arr)) |
+| Moat Signals | In-house circuit board, enclosure and firmware design, plus permissioned memory retrieval with source references ([Launch YC](https://www.ycombinator.com/companies/vexo), [Vexo developer docs](https://www.vexoai.com/docs)) |
+| Risk Factors | Bystander consent, cloud transcription accuracy, connected-app dependency ([Vexo privacy policy](https://www.vexoai.com/privacy)) |
+| Founder Reach | Malik: 318 X followers, 2K LinkedIn followers, 3 GitHub stars on linked team repo ([X via teapawt](https://nitter.cf/realharismalik), [LinkedIn, via search snippet](https://www.linkedin.com/in/haris-malik-), [GitHub](https://github.com/epfl-cs358/2024sp-exoskeleton)). Kiani: 58 X and 2K LinkedIn followers ([X via teapawt](https://nitter.gq/Kianif98), [LinkedIn, via search snippet](https://www.linkedin.com/in/kianif)). Narra: 226 X and 4K LinkedIn followers ([X via teapawt](https://nitter.gq/vikramnarra13), [LinkedIn, via search snippet](https://www.linkedin.com/in/vikramnarra)) |
+| Distribution Signals | 3.33M X launch-post views ([Doomers AI, Nov 16, 2026](https://doomers.ai/launches/vexo)), 193 VexoHacks participants ([Devpost, Nov 14, 2026](https://vexohacks.devpost.com/)), 568 LinkedIn and 156 X followers ([Vexo LinkedIn, Nov 2026](https://www.linkedin.com/company/tryvexoai), [X via teapawt, Nov 2026](https://www.teapawt.org/tryvexoai)) |
+| Emails | haris@vexoai.com (CEO), kiani@vexoai.com (CTO), vikram@vexoai.com (CPO) ([Launch YC](https://www.ycombinator.com/companies/vexo)), support@vexoai.com (orders and support) ([Vexo terms](https://www.vexoai.com/terms)), info@vexoai.com (integrations, partnerships and security) ([Vexo developer docs](https://www.vexoai.com/docs)) |

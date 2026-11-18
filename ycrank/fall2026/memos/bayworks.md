@@ -1,83 +1,90 @@
 ﻿# Bayworks
 
-> Intelligence that runs Automotive Operations
+> Intelligence that keeps America’s vehicles running
 
 | Field | Value |
 |-------|-------|
 | Website | https://bayworks.app |
 | YC Page | https://www.ycombinator.com/companies/bayworks |
-| Batch | Fall 2026 ([GPAgent directory](https://www.gpagent.ai/yc/company/bayworks)) |
+| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/bayworks)) |
 | Industry | Industrials / Industrials -> Automotive |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | B2B, AI, Automotive |
-| YC Partner | Not listed in accessible YC directory text |
-| Emails | kaustubh@bayworks.app, tech@bayworks.app ([Bayworks](https://bayworks.app/app-privacy)); shubhamgl2003@gmail.com ([founder website](https://www.shubhamgl.com/)) |
+| YC Partner | Grey Baker ([YC](https://www.ycombinator.com/companies/bayworks)) |
+| Emails | shubham@bayworks.app, CTO ([Stealth Startup Spy](https://stealthstartupspy.substack.com/p/stealth-startup-spy-372)), founders@bayworks.app, general inquiries ([Bayworks](https://bayworks.app/)), tech@bayworks.app, support and privacy ([Bayworks privacy policy](https://bayworks.app/privacy-policy)) |
 
 ## The Idea
 
-- **Problem:** Automotive dealership technicians manually type repair narratives, consuming billable time and sometimes omitting information warranty administrators require ([Bayworks Google Play listing, updated Oct 3, 2026](https://play.google.com/store/apps/details?id=com.bayworks.app)).
-- **Approach:** Technicians dictate against a repair-order line, Bayworks requests missing measurements or findings, and it generates a cause-and-correction narrative for review and return to the dealership management system, or DMS ([Google Play, Oct 2026](https://play.google.com/store/apps/details?id=com.bayworks.app)).
-- **Differentiation:** Bayworks captures technicians’ repair explanations at source, whereas WarrCloud processes warranty claims through payment and Tekion embeds inspection documentation within its dealership platform ([Bayworks](https://play.google.com/store/apps/details?id=com.bayworks.app), [WarrCloud](https://warrcloud.com/), [Tekion](https://tekion.com/service-ai), retrieved Nov 3, 2026).
-- **Business Model:** [Inferred]: Dealership software subscriptions are a possible monetization path because employers provision technician accounts; public prices and billing units were not found ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; a broader proxy is global auto-dealer software, estimated at $5.72B in 2025 with 7.30% CAGR during 2026–2034 ([The Insight Partners, Apr 2026](https://www.theinsightpartners.com/reports/auto-dealer-software-market)).
-- **GTM / Distribution:** The website directs prospects to booked demos, while dealerships issue app accounts to technicians ([Bayworks website](https://bayworks.app/), [Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app), retrieved Nov 3, 2026).
+- **Problem:** Dealership technicians spend billable time manually typing warranty narratives, and those write-ups can omit details the warranty administrator needs ([Bayworks on Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app), Oct 2026).
+- **Approach:** Technicians dictate against an assigned repair-order line, attach photos or video, answer prompts for missing warranty details, and review the manufacturer-formatted narrative before saving it to the dealership management system ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app), [Bayworks privacy policy](https://bayworks.app/privacy-policy)).
+- **Differentiation:** Bayworks connects technician dictation and repair evidence to the repair order, Wrench Voice also offers in-ear diagnostic guidance, WarrantyWriter centers on typed notes and copyable drafts, and WarrCloud automates downstream claim processing ([Bayworks](https://play.google.com/store/apps/details?id=com.bayworks.app), [Wrench Voice](https://www.wrenchvoice.com/), [WarrantyWriter](https://warrantywriter.com/), [WarrCloud](https://warrcloud.com/warrcloud-raises-20-million-in-series-b-funding-led-by-centana-growth-partners/)).
+- **Business Model:** [Inferred]: Dealership-level recurring contracts are consistent with Bayworks’ dealership-issued accounts and reported cARR, with no public pricing found ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app), [YC](https://www.ycombinator.com/companies/bayworks), [VendorMotive](https://www.vendormotive.com/vendors/bayworks)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment (the broader U.S. dealer management system market was estimated at $3.08 billion in 2025 with 4.6% projected CAGR for 2026–2035, [Global Insight Services](https://www.globalinsightservices.com/press-releases/u-s-dealer-management-system-market/)).
+- **GTM / Distribution:** Bayworks solicits demos through a dealership-specific form, and dealerships issue technician accounts for the app ([Bayworks demo booking](https://bayworks.app/book), [Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app)).
 
 ## Defensibility
 
-- **Moat today:** Bayworks captures repair-level operational data and retrieves previous repair stories as drafting examples, demonstrating workflow-specific data accumulation without establishing exclusive ownership ([Bayworks app privacy policy, effective Sep 19, 2026](https://bayworks.app/app-privacy)).
-- **Future moat:** [Inferred]: Repair histories and technician corrections could improve dealership-specific drafting, but cross-customer learning rights and measured performance advantages remain unverified.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given Tekion already combines a dealership system of record with technician voice documentation ([Tekion Service AI](https://tekion.com/service-ai)).
-- **Commoditization risk:** [Inferred]: Existing DMS vendors could bundle overlapping documentation features using their installed workflows and customer records, although replicating individual integrations would require implementation work ([Tekion Service AI](https://tekion.com/service-ai)).
+- **Moat today:** Bayworks uses past repair-order narratives as reference examples for new drafts and reads assigned repair orders from dealership systems ([Bayworks privacy policy](https://bayworks.app/privacy-policy), [Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app)).
+- **Future moat:** [Inferred]: A larger dataset linking symptoms, diagnoses, repairs, and outcomes could improve guidance if Bayworks secures reuse rights and demonstrates that the data improves results across dealerships ([Launch YC](https://www.ycombinator.com/launches/WhL-bayworks-intelligence-that-keeps-america-s-vehicles-running), [Bayworks privacy policy](https://bayworks.app/privacy-policy)).
+- **Market structure:** No structural barrier identified at this stage ([Wrench Voice integrations](https://www.wrenchvoice.com/), [Dealer-FX packages](https://www.dealer-fx.com/packages)).
+- **Commoditization risk:** Wrench Voice already converts technician speech into structured warranty documentation and lists integrations with multiple dealership systems ([Wrench Voice](https://www.wrenchvoice.com/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported growth from zero to 80+ dealerships in 110 days, with those dealerships handling 4,000 repairs daily ([YC automotive directory, retrieved Nov 3, 2026](https://www.ycombinator.com/companies/industry/automotive)).
-  - Company-reported deployment includes an unnamed top-50 US dealer group with $3B+ revenue, which is the customer’s revenue ([YC directory, retrieved Nov 3, 2026](https://www.ycombinator.com/companies/industry/automotive)).
-  - Android listing displays 0+ downloads and an initial-release update dated Oct 3, 2026, without providing a usable total adoption count ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app)).
-  - Company LinkedIn lists an 11–50 employee size band and two linked employee profiles, differing from the supplied team-size field ([LinkedIn, retrieved Nov 3, 2026](https://www.linkedin.com/company/bayworks12/)).
+  - Nearly seven figures in company-reported cARR within four months ([YC company profile](https://www.ycombinator.com/companies/bayworks), Nov 2026).
+  - More than 50,000 repairs and six dealership groups, including an unnamed top-50 U.S. dealer group ([YC company profile](https://www.ycombinator.com/companies/bayworks), Nov 2026).
+  - 80+ dealership locations in 110 days, covering 4,000 repairs per day, company-reported ([Launch YC](https://www.ycombinator.com/launches/WhL-bayworks-intelligence-that-keeps-america-s-vehicles-running), Nov 4, 2026).
+  - Customer testimonial: Harvey Auto Group fixed-operations director Brian Keegan endorses the product ([Bayworks homepage](https://bayworks.app/), accessed Nov 2026).
+  - $125,000 in September seed funding listed by Dealroom, with YC backing confirmed separately ([Dealroom](https://dealroom.co/market-maps/new-this-week/2026-w45/), [YC jobs](https://www.ycombinator.com/companies/bayworks/jobs/YCmU5J5-founding-engineer), Nov 2026).
+  - 100+ Android downloads ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app), accessed Nov 2026).
+  - Browser extension available for PBS ([Bayworks download page](https://bayworks.app/pbs-download), Oct 11, 2026).
+  - 28 X followers for @bayworks_app and approximately 175,000 views on Bansal’s Nov 4 launch post ([X mirror](https://xitter.gq/bayworks_app), [Launch Video Company](https://www.launchvideo.com/directory/bayworks), Nov 2026).
+  - Four San Francisco job listings, including a founding SDR ([YC Jobs](https://www.ycombinator.com/companies/bayworks/jobs), accessed Nov 2026).
+  - Coverage of the warranty documentation product ([frontrun](https://www.frontrun.vc/blog/yc-f26-companies-not-in-yc-directory/), Sep 2026).
 - **Competitors:**
-  - **WarrCloud ($40M raised as of Oct 2024; revenue unknown):** Automates warranty administration and payment tracking rather than concentrating on technician narrative capture; its disclosed Series B was $20M, led by Centana Growth Partners on Oct 22, 2024 ([funding announcement](https://warrcloud.com/warrcloud-raises-20-million-in-series-b-funding-led-by-centana-growth-partners/), [product](https://warrcloud.com/)).
-  - **Tekion (approximately $640M raised reported by Stock Analysis; approximately $250M year-end 2025 ARR reported by Goldman Sachs):** Provides a full dealership platform with native technician voice-to-form inspections; its latest identified financing was $200M from Dragoneer in July 2024 ([Stock Analysis](https://stockanalysis.com/private/tekion/), [Goldman Sachs, Apr 15, 2026, p. 32](https://storage.ghost.io/c/ea/a0/eaa014ba-c39c-4d9a-a133-41045822028c/content/files/2026/04/Americas-Technology_-Software_-Revisiting-Moats-IV_-Shifting-Center-of-Gravity--1-.pdf), [Tekion financing](https://tekion.com/blog/tekion-secures--200-million-in-growth-capital-from-dragoneer-investment-group), [product](https://tekion.com/service-ai)).
-  - **myKaarma ($15M disclosed funding tracked by CB Insights; revenue unknown):** An adjacent service-lane suite covering communications, scheduling, payments and video inspections; Warburg Pincus announced an investment of undisclosed size on Jan 14, 2026 ([CB Insights](https://www.cbinsights.com/company/mykaarma/financials), [company announcement](https://mykaarma.com/news/mykaarma-accelerates-ai-enabled-service-lane-solutions-with-warburg-pincus-investment/)).
-- **Why now:** [Inferred]: Increased warranty workload raises the value of documentation automation, with WarrCloud reporting US dealership warranty revenue of $32.13B in 2025, up 13.9% year over year ([WarrCloud, retrieved Nov 3, 2026](https://warrcloud.com/32-billion-and-growing-the-new-economics-of-warranty-in-fixed-ops/)).
+  - Wrench Voice (funding unknown, revenue unknown): technician dictation, dealership-system writeback, and headset delivery of diagnostic guidance ([Wrench Voice](https://www.wrenchvoice.com/)).
+  - WarrantyWriter (funding unknown, revenue unknown): typed complaint, cause, and correction notes converted into drafts technicians can copy into their workflows ([WarrantyWriter](https://warrantywriter.com/)).
+  - WarrCloud (at least $26.5 million across disclosed rounds, revenue unknown): warranty claim processing, with a $20 million Series B led by Centana Growth Partners in October 2024 ([WarrCloud](https://warrcloud.com/warrcloud-raises-20-million-in-series-b-funding-led-by-centana-growth-partners/)).
+  - Dealer-FX (funding unknown, current standalone revenue unknown): service-lane scheduling and shop management, acquired by Snap-on for $200 million net of acquired cash in February 2021 ([Dealer-FX](https://www.dealer-fx.com/packages), [Snap-on annual report](https://www.snapon.com/Snap-on-Files/Annual-Reports/Snap-on2021AnnualReport.pdf)).
+- **Why now:** [Inferred]: Dealership service departments may be more receptive to AI workflow tools as reported use in franchised fixed operations rose from 38% to 46% between Q1 and Q2 2026 ([Cox Automotive AI in Auto Retail Tracker](https://www.coxautoinc.com/retail/ai-in-auto-retail-tracker/)).
 
 ## Founders & Team
 
-- **Kaustubh Bansal (Founder/CEO, [GPAgent](https://www.gpagent.ai/yc/company/bayworks)):**
-  - Background: Attended BITS Pilani; verified prior employers, exits and automotive experience: No public data found ([LinkedIn, via search snippet](https://www.linkedin.com/in/kaustubh-bansal)).
-  - Twitter/X: @bansal_kaustubh; count not retrievable ([profile linked by GPAgent](https://www.gpagent.ai/yc/company/bayworks)).
-  - LinkedIn: Profile lists “Bayworks (YC F26)” and approximately 2K followers; headline not retrievable ([LinkedIn, retrieved Nov 3, 2026, via search snippet](https://www.linkedin.com/in/kaustubh-bansal)).
+- **Kaustubh Bansal (Founder/CEO):**
+  - Background: Studied engineering at BITS Pilani, built voice AI deployed across Indian government and public enterprises at Sarvam AI, and worked in automotive retail lending at Yelow Autofin ([YC founder profile](https://www.ycombinator.com/founders/kaustubh-bansal)). Direct business email: No public data found.
+  - Twitter/X: @bansal_kaustubh, 221 followers ([X mirror](https://www.teapaw.org/bansal_kaustubh), Nov 2026).
+  - LinkedIn: Headline unavailable, 2K followers ([LinkedIn](https://www.linkedin.com/in/kaustubh-bansal), via search snippet).
   - GitHub: No public repos found.
-- **Shubham Goyal (Founder/CTO, [founder website](https://www.shubhamgl.com/)):**
-  - Background: Studied computer science at BITS Pilani during 2021–2025, worked in backend engineering at Navi and interned at Scapia and Cisco, and dates his Bayworks role to June 2026 ([founder website](https://www.shubhamgl.com/)).
-  - Twitter/X: @shubhamgl2003; count not retrievable ([profile linked by GPAgent](https://www.gpagent.ai/yc/company/bayworks)).
-  - LinkedIn: Profile lists “Bayworks (YC F26)” and approximately 3K followers; headline not retrievable ([LinkedIn, retrieved Nov 3, 2026, via search snippet](https://www.linkedin.com/in/shubham-goyal-633201211)).
+- **Shubham Goyal (Founder/CTO):**
+  - Background: Studied computer science at BITS Pilani’s Hyderabad campus, built Navi’s credit underwriting engine, and built the first version of Scapia’s mobile app ([YC founder profile](https://www.ycombinator.com/founders/shubham-goyal), [Goyal’s portfolio](https://www.shubhamgl.com/)). Business email: shubham@bayworks.app ([Stealth Startup Spy](https://stealthstartupspy.substack.com/p/stealth-startup-spy-372)).
+  - Twitter/X: @shubhamgl2003, 436 followers ([X mirror](https://xitter.gq/shubhamgl2003), Nov 2026).
+  - LinkedIn: Headline unavailable, 3K followers ([LinkedIn](https://www.linkedin.com/in/shubham-goyal-633201211), via search snippet).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both list BITS Pilani education, but their meeting and prior collaboration history are not publicly documented ([Bansal LinkedIn, via search snippet](https://www.linkedin.com/in/kaustubh-bansal), [Goyal website](https://www.shubhamgl.com/)).
-- **Founder-market fit:** [Inferred]: Goyal’s backend and mobile development experience supports the documented software workflow, while automotive employment history remains unverified; YC backing is confirmed on his website ([founder website](https://www.shubhamgl.com/)).
+- **Co-founder relationship:** Both studied at BITS Pilani ([Launch YC](https://www.ycombinator.com/launches/WhL-bayworks-intelligence-that-keeps-america-s-vehicles-running)).
+- **Founder-market fit:** Bansal brings deployed speech AI and automotive lending experience, Goyal brings mobile and underwriting systems experience, and YC lists Grey Baker as primary partner ([YC company profile](https://www.ycombinator.com/companies/bayworks)).
 
 ## Key Risks
 
-- **Warranty-document accuracy:** [Inferred]: Missing or incorrect generated details could affect claim reimbursement; Bayworks provides missing-information prompts and technician review, but public error-rate or claim-acceptance validation was not found ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app)).
-- **DMS integration dependency:** [Inferred]: Reading repair orders and writing narratives and time records depends on dealership-system access, creating exposure to interface or permission changes ([Bayworks privacy policy](https://bayworks.app/app-privacy)).
-- **Data rights:** [Inferred]: A cross-dealership data advantage depends on contractual permissions because Bayworks states dealership operational data belongs to the engaging dealership ([Bayworks privacy policy](https://bayworks.app/app-privacy)).
-- **Native-platform substitution:** [Inferred]: Tekion’s existing voice documentation and inspection automation could reduce demand for an additional technician application ([Tekion Service AI](https://tekion.com/service-ai)).
-- **Name ambiguity:** [Inferred]: Research can conflate this company with the unrelated Tokyo software studio using Bayworks and bay-works.com; the studio lists different directors and products ([Japanese company website](https://bay-works.com/about)).
+- **Technical feasibility:** [Inferred]: Noisy shop-floor recordings and inconsistent dealer records can introduce errors in repair guidance or warranty drafts, with technician review available before writeback and model evaluations listed in the engineering hiring scope ([Bayworks privacy policy](https://bayworks.app/privacy-policy), [YC engineering listing](https://www.ycombinator.com/companies/bayworks/jobs/YCmU5J5-founding-engineer)).
+- **Integration dependency:** [Inferred]: Changes to dealer software can disrupt repair-order access or writeback, and Bayworks distributes a PBS-specific extension ([Bayworks privacy policy](https://bayworks.app/privacy-policy), [Bayworks PBS download](https://bayworks.app/pbs-download)).
+- **Data reuse rights:** [Inferred]: Cross-dealer learning depends on permission to reuse repair data that Bayworks says belongs to dealerships, which can also request deletion ([Bayworks privacy policy](https://bayworks.app/privacy-policy)).
+- **Revenue visibility:** Bayworks reports cARR and leaves the ARR amount unspecified in its hiring copy, so the share attributable to live, paying deployments is undisclosed ([YC profile](https://www.ycombinator.com/companies/bayworks), [YC engineering listing](https://www.ycombinator.com/companies/bayworks/jobs/YCmU5J5-founding-engineer)).
+- **Name ambiguity:** Bayworks Auto uses a similar name and operates a separate business acquiring and partnering with independent repair shops ([Bayworks Auto](https://bayworksauto.com/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader auto-dealer software proxy: $5.72B in 2025, 7.30% CAGR during 2026–2034; segment-specific TAM unavailable ([The Insight Partners, Apr 2026](https://www.theinsightpartners.com/reports/auto-dealer-software-market)) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Company reports 80+ dealerships in 110 days, handling 4,000 repairs daily, including an unnamed top-50 US dealer group ([YC directory, Nov 2026](https://www.ycombinator.com/companies/industry/automotive)) |
-| Revenue Signal | No public data found |
-| Founders | Kaustubh Bansal, CEO: BITS Pilani ([LinkedIn](https://www.linkedin.com/in/kaustubh-bansal), via search snippet); Shubham Goyal, CTO: BITS CS, Navi, Scapia ([founder website](https://www.shubhamgl.com/)) |
-| Competitors | WarrCloud ($40M raised, revenue unknown, claims administration) ([company announcement, 2024](https://warrcloud.com/warrcloud-raises-20-million-in-series-b-funding-led-by-centana-growth-partners/)); Tekion ($640M reported funding, full DMS) ([Stock Analysis, 2026](https://stockanalysis.com/private/tekion/)); myKaarma ($15M tracked funding, revenue unknown, service-lane suite) ([CB Insights](https://www.cbinsights.com/company/mykaarma/financials)) |
-| Moat Signals | Captured repair histories and retrieval of previous stories for drafting ([Bayworks privacy policy, 2026](https://bayworks.app/app-privacy)) |
-| Risk Factors | DMS access dependency, dealership-owned data ([Bayworks policy](https://bayworks.app/app-privacy)); competing native documentation ([Tekion](https://tekion.com/service-ai)) |
-| Founder Reach | Bansal: LinkedIn approximately 2K; Goyal: LinkedIn approximately 3K ([Bansal](https://www.linkedin.com/in/kaustubh-bansal), [Goyal](https://www.linkedin.com/in/shubham-goyal-633201211), retrieved Nov 3, 2026, via search snippets) |
-| Distribution Signals | Booked demos ([Bayworks](https://bayworks.app/)); employer-provisioned Android app, updated Oct 3, 2026 ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app)) |
-| Emails | kaustubh@bayworks.app, tech@bayworks.app ([Bayworks policy](https://bayworks.app/app-privacy)); shubhamgl2003@gmail.com ([founder website](https://www.shubhamgl.com/)) |
+| Traction | Six dealership groups and 50,000+ repairs ([YC profile](https://www.ycombinator.com/companies/bayworks), Nov 2026), 80+ dealership locations covering 4,000 repairs per day ([Launch YC](https://www.ycombinator.com/launches/WhL-bayworks-intelligence-that-keeps-america-s-vehicles-running), Nov 4, 2026), Harvey Auto Group testimonial ([Bayworks](https://bayworks.app/), accessed Nov 2026) |
+| Revenue Signal | Nearly seven figures in company-reported cARR after four months ([YC profile](https://www.ycombinator.com/companies/bayworks), Nov 2026) |
+| Founders | Kaustubh Bansal (CEO), Sarvam AI and automotive lending ([YC founder profile](https://www.ycombinator.com/founders/kaustubh-bansal)); Shubham Goyal (CTO), Navi underwriting and Scapia mobile app ([YC founder profile](https://www.ycombinator.com/founders/shubham-goyal)) |
+| Competitors | Wrench Voice (funding and revenue unknown, voice documentation and in-ear guidance, [Wrench Voice](https://www.wrenchvoice.com/)); WarrantyWriter (funding and revenue unknown, typed warranty drafts, [WarrantyWriter](https://warrantywriter.com/)); WarrCloud (at least $26.5 million raised, revenue unknown, claim processing, [WarrCloud](https://warrcloud.com/warrcloud-raises-20-million-in-series-b-funding-led-by-centana-growth-partners/)); Dealer-FX (funding and current standalone revenue unknown, shop management, [Dealer-FX](https://www.dealer-fx.com/packages)) |
+| Moat Signals | Repair-order writeback and use of prior narratives as drafting examples ([Bayworks privacy policy](https://bayworks.app/privacy-policy)) |
+| Risk Factors | Noisy service-bay inputs ([YC engineering listing](https://www.ycombinator.com/companies/bayworks/jobs/YCmU5J5-founding-engineer)), dealership-system dependency and dealership-owned data ([Bayworks privacy policy](https://bayworks.app/privacy-policy)) |
+| Founder Reach | Bansal, 221 X followers ([X mirror](https://www.teapaw.org/bansal_kaustubh)) and 2K LinkedIn followers ([LinkedIn](https://www.linkedin.com/in/kaustubh-bansal), via search snippet); Goyal, 436 X followers ([X mirror](https://xitter.gq/shubhamgl2003)) and 3K LinkedIn followers ([LinkedIn](https://www.linkedin.com/in/shubham-goyal-633201211), via search snippet) |
+| Distribution Signals | 100+ Android downloads ([Google Play](https://play.google.com/store/apps/details?id=com.bayworks.app), Nov 2026), PBS extension ([Bayworks](https://bayworks.app/pbs-download), Oct 2026), 28 X followers ([X mirror](https://xitter.gq/bayworks_app), Nov 2026), company LinkedIn count unavailable ([LinkedIn](https://www.linkedin.com/company/bayworks12)), approximately 175,000 launch-post views ([Launch Video Company](https://www.launchvideo.com/directory/bayworks), Nov 2026) |
+| Emails | shubham@bayworks.app, CTO ([Stealth Startup Spy](https://stealthstartupspy.substack.com/p/stealth-startup-spy-372)), founders@bayworks.app, general inquiries ([Bayworks](https://bayworks.app/)), tech@bayworks.app, support and privacy ([Bayworks privacy policy](https://bayworks.app/privacy-policy)) |

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://appliedkinetics.ai",
     "yc_page": "https://www.ycombinator.com/companies/applied-kinetics",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/applied-kinetics))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/applied-kinetics))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Manufacturing, Energy, AI, Industrial",
-    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/applied-kinetics))",
-    "emails": "rohit@appliedkinetics.ai ([company privacy policy](https://appliedkinetics.ai/privacy))"
+    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/applied-kinetics))",
+    "emails": "rohit@appliedkinetics.ai ([YC launch post](https://www.ycombinator.com/launches/WJj-applied-kinetics-ai-native-manufacturing-for-data-center-and-energy-projects), equipment inquiries, Oct 2026)"
   },
   "tags": [
     "B2B",
@@ -21,63 +21,39 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:10:42.797Z",
+  "memoGeneratedAt": "2026-11-18T00:19:18.916Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 40,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 40,
-    "NR": 39,
-    "PG": 32,
-    "PT": 35,
-    "SL": 28,
-    "VK": 31
+    "AGI": 38,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 34.86,
-  "consolidatedRank": 160,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 174,
+    "tractionRank": 204,
     "tractionScore": 16,
-    "tractionReason": "Partner manufacturing capacity claimed; no own shipments or customers disclosed"
+    "tractionReason": "Transformer turnaround quoted, no disclosed customer orders"
   },
   "paths": {
     "memo": "fall2026/memos/applied-kinetics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/applied-kinetics.md",
-      "elad-gil": "fall2026/evals/elad-gil/applied-kinetics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/applied-kinetics.md",
-      "paul-graham": "fall2026/evals/paul-graham/applied-kinetics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/applied-kinetics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/applied-kinetics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/applied-kinetics.md"
+      "agi": "fall2026/evals/agi/applied-kinetics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/applied-kinetics.md",
+      "exit": "fall2026/evals/exit/applied-kinetics.md"
     }
   }
 }

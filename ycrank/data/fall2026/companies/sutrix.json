@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://www.sutrix.ai/",
     "yc_page": "https://www.ycombinator.com/companies/sutrix",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sutrix))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/sutrix))",
     "industry": "Healthcare / Healthcare -> Healthcare IT",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Healthcare, Healthcare IT",
-    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/sutrix))",
-    "emails": "supra@sutrix.ai ([Sutrix privacy policy](https://www.sutrix.ai/privacy))"
+    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/sutrix))",
+    "emails": "ritvik@sutrix.ai (CEO, [LinkedIn, via search snippet](https://www.linkedin.com/in/ritvik-panuganti-739822273)), supra@sutrix.ai (CTO and privacy contact, [LinkedIn](https://www.linkedin.com/posts/supratik-panuganti-4732532a4_after-working-with-15-labs-running-50-activity-7508551437677932544-4akH), [Sutrix Privacy Policy](https://www.sutrix.ai/privacy)), founders@sutrix.ai (shared, [Launch YC](https://www.ycombinator.com/launches/WbF-sutrix-ai-that-turns-patient-data-into-study-ready-datasets))"
   },
   "tags": [
     "Healthcare",
     "Healthcare IT"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:07:50.337Z",
+  "memoGeneratedAt": "2026-11-17T23:16:22.876Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 51,
+    "agi": {
+      "score": 49,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
+    "hypergrowth": {
+      "score": 40,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 71,
-    "NR": 54,
-    "PG": 54,
-    "PT": 36,
-    "SL": 46,
-    "VK": 28
+    "AGI": 49,
+    "HG": 40,
+    "EXIT": 43
   },
-  "consolidatedAvg": 48.57,
-  "consolidatedRank": 4,
+  "consolidatedAvg": 44,
+  "consolidatedRank": 11,
   "traction": {
     "tractionRank": 9,
-    "tractionScore": 77,
-    "tractionReason": "$150K+ cumulative revenue over recent months; 10+ paying institutions"
+    "tractionScore": 83,
+    "tractionReason": "$150K+ before software release, paying teams at 10+ institutions"
   },
   "paths": {
     "memo": "fall2026/memos/sutrix.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/sutrix.md",
-      "elad-gil": "fall2026/evals/elad-gil/sutrix.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/sutrix.md",
-      "paul-graham": "fall2026/evals/paul-graham/sutrix.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/sutrix.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/sutrix.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/sutrix.md"
+      "agi": "fall2026/evals/agi/sutrix.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/sutrix.md",
+      "exit": "fall2026/evals/exit/sutrix.md"
     }
   }
 }

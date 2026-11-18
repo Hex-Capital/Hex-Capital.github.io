@@ -1,7 +1,7 @@
 {
   "slug": "stacktrace",
   "name": "Stacktrace",
-  "oneLiner": "See and control what your agents actually do",
+  "oneLiner": "Give agents autonomy without losing control",
   "metadata": {
     "website": "https://stacktrace.ai",
     "yc_page": "https://www.ycombinator.com/companies/stacktrace",
@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "DevSecOps, Cybersecurity, Infrastructure, AI",
     "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/stacktrace))",
-    "emails": "hello@stacktrace.ai ([company LinkedIn](https://www.linkedin.com/company/stacktrace-ai)); founders@stacktrace.ai ([founder profile, via search snippet](https://www.linkedin.com/in/michealb))"
+    "emails": "vinod@stacktrace.ai (CEO, [Company Launch Tracker](https://companylaunchtracker.substack.com/p/company-launch-tracker-114)), prasanth@openaca.dev (Ganta’s package author contact, [PyPI](https://pypi.org/project/stacktrace-cli/0.2.0/)), hello@stacktrace.ai (design partner inquiries, [Ganta on LinkedIn](https://www.linkedin.com/posts/prasanthganta_excited-to-share-that-stacktrace-is-backed-activity-7507979137169633280-5eHP)), founders@stacktrace.ai (company package contact, [PyPI](https://pypi.org/project/stacktrace-cli/))"
   },
   "tags": [
     "DevSecOps",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:09:37.235Z",
+  "memoGeneratedAt": "2026-11-18T00:14:49.484Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 34,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 41,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 34,
-    "NR": 46,
-    "PG": 41,
-    "PT": 30,
-    "SL": 32,
-    "VK": 25
+    "AGI": 38,
+    "HG": 37,
+    "EXIT": 37
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 134,
+  "consolidatedAvg": 37.33,
+  "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 43,
-    "tractionReason": "Design partners running agents locally and in cloud; payments undisclosed"
+    "tractionRank": 157,
+    "tractionScore": 35,
+    "tractionReason": "Unnamed design partners running local or unattended cloud agents"
   },
   "paths": {
     "memo": "fall2026/memos/stacktrace.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/stacktrace.md",
-      "elad-gil": "fall2026/evals/elad-gil/stacktrace.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/stacktrace.md",
-      "paul-graham": "fall2026/evals/paul-graham/stacktrace.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/stacktrace.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/stacktrace.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/stacktrace.md"
+      "agi": "fall2026/evals/agi/stacktrace.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/stacktrace.md",
+      "exit": "fall2026/evals/exit/stacktrace.md"
     }
   }
 }

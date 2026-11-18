@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, GovTech, Data Visualization, AI",
     "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/reconero))",
-    "emails": "contact@reconero.com ([Reconero contact page](https://reconero.com/contact/))"
+    "emails": "riwan@reconero.com (CEO), edward@reconero.com (CTO), contact@reconero.com (general inquiries and demos) ([Reconero About](https://reconero.com/about/), [Reconero Contact](https://reconero.com/contact/))"
   },
   "tags": [
     "SaaS",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:13:03.005Z",
+  "memoGeneratedAt": "2026-11-17T23:26:55.613Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 40,
+    "agi": {
+      "score": 32,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 37,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 41,
-    "NR": 42,
-    "PG": 37,
-    "PT": 31,
-    "SL": 33,
-    "VK": 29
+    "AGI": 32,
+    "HG": 37,
+    "EXIT": 34
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 136,
+  "consolidatedAvg": 34.33,
+  "consolidatedRank": 227,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 43,
-    "tractionReason": "Police-unit product trials and officer feedback; payment status unspecified"
+    "tractionRank": 181,
+    "tractionScore": 29,
+    "tractionReason": "100+ officer discovery interviews, current deployments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/reconero.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/reconero.md",
-      "elad-gil": "fall2026/evals/elad-gil/reconero.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/reconero.md",
-      "paul-graham": "fall2026/evals/paul-graham/reconero.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/reconero.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/reconero.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/reconero.md"
+      "agi": "fall2026/evals/agi/reconero.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/reconero.md",
+      "exit": "fall2026/evals/exit/reconero.md"
     }
   }
 }

@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://cesara.com",
     "yc_page": "https://www.ycombinator.com/companies/cesara",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/cesara))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/cesara))",
     "industry": "Healthcare / Healthcare",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Healthcare, AI",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/cesara))",
-    "emails": "team@cesara.com ([Cesara contact page](https://cesara.com/contact))"
+    "yc_partner": "Pete Koomen ([YC company profile](https://www.ycombinator.com/companies/cesara))",
+    "emails": "team@cesara.com ([Cesara Contact](https://cesara.com/contact), shared inbox for demos and claims audits)"
   },
   "tags": [
     "Healthcare",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:51:36.888Z",
+  "memoGeneratedAt": "2026-11-17T22:39:12.659Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 40,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 41,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 49,
-    "NR": 40,
-    "PG": 41,
-    "PT": 29,
-    "SL": 30,
-    "VK": 27
+    "AGI": 38,
+    "HG": 37,
+    "EXIT": 36
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 108,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 138,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 44,
-    "tractionReason": "Outcome-based recovery pilots underway; realized fees undisclosed"
+    "tractionRank": 116,
+    "tractionScore": 41,
+    "tractionReason": "Hospital underpayment recovery pilot, outcome-based fee terms"
   },
   "paths": {
     "memo": "fall2026/memos/cesara.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/cesara.md",
-      "elad-gil": "fall2026/evals/elad-gil/cesara.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/cesara.md",
-      "paul-graham": "fall2026/evals/paul-graham/cesara.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/cesara.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/cesara.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/cesara.md"
+      "agi": "fall2026/evals/agi/cesara.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/cesara.md",
+      "exit": "fall2026/evals/exit/cesara.md"
     }
   }
 }

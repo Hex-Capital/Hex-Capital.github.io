@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://shepherdrobotics.ai/",
     "yc_page": "https://www.ycombinator.com/companies/shepherd-robotics",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/shepherd-robotics))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/shepherd-robotics))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Robotics, Manufacturing, Automation, AI",
-    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/shepherd-robotics))",
-    "emails": "contact@shepherdrobotics.ai ([company website](https://www.shepherdrobotics.ai/), via search snippet)"
+    "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/shepherd-robotics))",
+    "emails": "feifei@shepherdrobotics.ai, CEO ([Stealth Startup Spy founder profile, Oct 2026](https://stealthstartupspy.substack.com/p/stealth-startup-spy-382)), contact@shepherdrobotics.ai, general inquiries ([Shepherd Robotics](https://shepherdrobotics.ai/))"
   },
   "tags": [
     "Hardware",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:57:37.594Z",
+  "memoGeneratedAt": "2026-11-17T23:44:01.701Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 32,
-    "NR": 37,
-    "PG": 29,
-    "PT": 27,
-    "SL": 31,
-    "VK": 25
+    "AGI": 41,
+    "HG": 36,
+    "EXIT": 39
   },
-  "consolidatedAvg": 31,
-  "consolidatedRank": 214,
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 124,
-    "tractionScore": 40,
-    "tractionReason": "Hyperscaler and manufacturer work reported; deployment counts and payments undisclosed"
+    "tractionRank": 212,
+    "tractionScore": 12,
+    "tractionReason": "Prototype bench results, no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/shepherd-robotics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/shepherd-robotics.md",
-      "elad-gil": "fall2026/evals/elad-gil/shepherd-robotics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/shepherd-robotics.md",
-      "paul-graham": "fall2026/evals/paul-graham/shepherd-robotics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/shepherd-robotics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/shepherd-robotics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/shepherd-robotics.md"
+      "agi": "fall2026/evals/agi/shepherd-robotics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/shepherd-robotics.md",
+      "exit": "fall2026/evals/exit/shepherd-robotics.md"
     }
   }
 }

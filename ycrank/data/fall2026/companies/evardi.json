@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://evardi.ai/",
     "yc_page": "https://www.ycombinator.com/companies/evardi",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/evardi))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/evardi))",
     "industry": "Industrials / Industrials -> Energy",
-    "team_size": "4",
+    "team_size": "4 ([Y Combinator](https://www.ycombinator.com/companies/evardi))",
     "location": "San Francisco, CA, USA",
     "tags": "Smart Grid, Energy, AI",
-    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/evardi))",
-    "emails": "contact@evardi.ai ([Evardi](https://evardi.ai/))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/evardi))",
+    "emails": "diva@evardi.ai, Diva Shah, CEO ([Launch YC](https://www.ycombinator.com/launches/Wwy-evardi-agents-that-engineer-the-grid-edge)); contact@evardi.ai, general and privacy inquiries ([Evardi privacy policy](https://evardi.ai/privacy))"
   },
   "tags": [
     "Smart Grid",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T06:34:01.556Z",
+  "memoGeneratedAt": "2026-11-17T23:40:45.817Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 41,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
+    "hypergrowth": {
       "score": 36,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 52,
-    "NR": 45,
-    "PG": 41,
-    "PT": 33,
-    "SL": 31,
-    "VK": 36
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 41
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 47,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 49,
-    "tractionReason": "Utility deployments claimed; footprint measures utilities, revenue undisclosed"
+    "tractionRank": 139,
+    "tractionScore": 38,
+    "tractionReason": "Reported deployments at utilities, published outcomes from simulations"
   },
   "paths": {
     "memo": "fall2026/memos/evardi.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/evardi.md",
-      "elad-gil": "fall2026/evals/elad-gil/evardi.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/evardi.md",
-      "paul-graham": "fall2026/evals/paul-graham/evardi.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/evardi.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/evardi.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/evardi.md"
+      "agi": "fall2026/evals/agi/evardi.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/evardi.md",
+      "exit": "fall2026/evals/exit/evardi.md"
     }
   }
 }

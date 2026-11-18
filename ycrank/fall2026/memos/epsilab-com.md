@@ -6,73 +6,76 @@
 |-------|-------|
 | Website | https://www.epsilab.com |
 | YC Page | https://www.ycombinator.com/companies/epsilab-com |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/epsilab-com)) |
+| Batch | Fall 2026 ([YC directory](https://www.ycombinator.com/companies/epsilab-com)) |
 | Industry | B2B / B2B |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | Machine Learning, Reinforcement Learning, B2B, Data Labeling, AI |
-| YC Partner | Pete Koomen ([YC](https://www.ycombinator.com/companies/epsilab-com)) |
-| Emails | e@evan.hu — founder contact ([Evan Hu’s blog](https://blog.evan.hu/p/my-first-8-months-self-employed)); fengjiao@shortbread.ai — prior-venture address ([LinkedIn, via search snippet](https://www.linkedin.com/in/fengjiao-peng)) |
+| YC Partner | Pete Koomen ([YC directory](https://www.ycombinator.com/companies/epsilab-com)) |
+| Emails | founders@epsilab.com, shared inbox for hiring and general inquiries ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)) |
 
 ## The Idea
 
-- **Problem:** [Inferred]: AI labs training agents on extended workflows need reproducible tasks and reliable success checks, with internally constructed simulations an alternative to Epsilab’s environments ([company LinkedIn](https://www.linkedin.com/company/epsilab)).
-- **Approach:** Epsilab converts software, tools, and operational workflows into versioned executable environments containing states, tasks, rewards, and verifiers, supporting trajectory collection and failure replay ([company LinkedIn](https://www.linkedin.com/company/epsilab)).
-- **Differentiation:** Epsilab emphasizes long-horizon workflows and multiplayer agents, while HUD offers an environment-building marketplace and Prime Intellect combines environments with training, compute, and deployment ([YC](https://www.ycombinator.com/companies/epsilab-com), [HUD](https://www.hud.ai/blog), [Prime Intellect](https://primeintellect.one/blog/series-a)).
-- **Business Model:** [Inferred]: Environment licensing or commissioned environment development could monetize its stated AI-lab audience; public pricing: No public data found.
+- **Problem:** Epsilab says frontier model labs using Terminal-Bench and OSWorld encounter tasks with unattainable success criteria and graders that can misclassify outcomes, making it harder to measure progress on multi-step work ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)).
+- **Approach:** Epsilab uses real workflow data and practitioner input to recreate enterprise tools in stateful, resettable simulations, with tasks scored against verifiable outcomes ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work), [Epsilab research engineer posting, Nov 2026](https://www.ycombinator.com/companies/epsilab-com/jobs/PqLmCN4-member-of-technical-staff-research-engineer-reinforcement-learning)).
+- **Differentiation:** Terminal-Bench grades work in terminals and OSWorld benchmarks desktop computer use, while Epsilab designs training simulations around multi-step enterprise workflows drawn from real data and practitioner judgment ([Terminal-Bench](https://www.tbench.ai/), [OSWorld](https://epoch.ai/benchmarks/osworld), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)).
+- **Business Model:** No public data found for pricing on the accessible [root domain](https://epsilab.com/) (listed `www` address: Website not accessible at time of research).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** [Inferred]: Direct engagement with research teams fits its stated audience of AI labs and agent developers ([company LinkedIn](https://www.linkedin.com/company/epsilab)).
+- **GTM / Distribution:** The company reports working directly with frontier labs, and its project lead posting describes scoping and delivering environments around those labs’ research needs ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work), [Epsilab project lead posting, Nov 2026](https://www.ycombinator.com/companies/epsilab-com/jobs/wfebrDH-technical-strategic-projects-lead)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Exclusive workflow data and validated failure trajectories could differentiate environments, but public sources do not establish exclusive rights or accumulated performance advantages.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given existing environment platforms from HUD and Prime Intellect ([HUD](https://www.hud.ai/blog), [Prime Intellect](https://primeintellect.one/blog/series-a)).
-- **Commoditization risk:** [Inferred]: HUD’s tools for third parties to build and sell environments create a route for competing suppliers, although reproducing Epsilab’s particular environments cannot be assessed publicly ([HUD](https://www.hud.ai/blog)).
+- **Moat today:** Epsilab reports access to professional practitioners and real workflow data used to construct its environments ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)).
+- **Future moat:** [Inferred]: Reusable rights to workflow data and a growing library of validated tasks and graders could reduce the work needed for each new environment, though Epsilab’s launch leaves data rights and library size undisclosed ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Lab teams and competing suppliers can use Prime Intellect’s open-source Verifiers and Environment Hub for rollout and grading infrastructure, reducing the amount of software they need to build ([Prime Intellect, 2025](https://www.primeintellect.ai/blog/environments)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Y Combinator backing ([company website](https://epsilab.com/), retrieved October 27, 2026).
-  - Company LinkedIn: 46 followers ([LinkedIn](https://www.linkedin.com/company/epsilab), retrieved October 27, 2026).
-  - Zero active YC job postings ([YC Jobs](https://www.ycombinator.com/companies/epsilab-com/jobs), October 27, 2026).
+  - Direct work with unnamed frontier AI labs, company-reported ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)).
+  - YC backing and public launch on Nov 11, 2026 ([YC directory](https://www.ycombinator.com/companies/epsilab-com), [Doomers AI launch tracker](https://doomers.ai/launches/epsilab)).
+  - 310,839 views on Joanne Wang’s X launch post as of Nov 17, 2026 ([Doomers AI launch tracker](https://doomers.ai/launches/epsilab)).
+  - 166 company LinkedIn followers and 31 company X followers at @EpsilabRL ([LinkedIn, Nov 2026](https://www.linkedin.com/company/epsilab), [Teapawt X mirror, Nov 2026](https://www.teapawt.net/epsilabRL)).
+  - 2 open roles, Technical Strategic Projects Lead and Research Engineer for Reinforcement Learning ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/epsilab-com/jobs)).
+  - Launch coverage by Fondo on Nov 12, 2026 ([Fondo](https://fondo.com/blog/epsilab-builds-training-environments-around-the-realities-of-enterprise-work)).
 - **Competitors:**
-  - **HUD ($16M total funding, revenue unknown):** Provides environment-building software and a supplier marketplace; announced a $16M Series A led by Standard Capital on June 30, 2026 ([HUD announcement](https://www.hud.ai/blog/announcing-16m-series-a), [company funding disclosure](https://www.linkedin.com/posts/hud-evals_today-hud-is-excited-to-share-our-series-activity-7473411889864024064-0b5x)).
-  - **Prime Intellect (over $150M raised, over $100M annualized revenue):** Offers integrated compute, RL training, environments, and deployment; announced a $130M Series A led by Radical Ventures on July 8, 2026 ([company announcement](https://primeintellect.one/blog/series-a)).
-  - **Mechanize ($9.1M disclosed financing, revenue unknown):** Targets simulations spanning computer use, ambiguous long-horizon tasks, coordination, and interruptions; its April 24, 2026 financing names Marco Mascorro, Adam D’Angelo, and Devendra Chaplot, without identifying a lead or cumulative funding total ([financing](https://www.mechanize.work/mechanize-raises-9-1m/), [product announcement](https://www.mechanize.work/announcing-mechanize-inc/)).
-- **Why now:** [Inferred]: Agents increasingly completing extended software tasks create demand for harder training environments, with METR reporting benchmark saturation and benchmark-cheating failures in its February–March 2026 evaluations ([METR, May 2026](https://metr.org/blog/2026-05-19-frontier-risk-report/)).
+  - **Bespoke Labs** ($40M announced across seed and Series A, revenue unknown): Builds agent training environments and publishes OpenThoughts and Terminal-Bench research, with a $31.3M Series A led by Wing in July 2026, per the lead investor ([Bespoke Labs](https://bespokelabs.ai/blog/bespoke-labs-raises-40m-to-build-environments-that-enable-reliable-agents), [Wing Venture Capital](https://docs.wing.vc/content/investing-in-bespoke-ai)).
+  - **Mercor** (about $1.2B in announced rounds, over $1B in company-wide annualized revenue run rate reported in May 2026): Combines an expert marketplace with enterprise-app simulations acquired through Deeptune, and announced a $750M Series D in Nov 2026 that included an employee tender and named no lead ([Seedtable](https://seedtable.com/companies/mercor), [Mercor revenue disclosure](https://www.mercor.com/blog/when-you-go-from-2-million-a-month-to-2-million-a-day/), [Mercor Series D](https://www.mercor.com/blog/series-d/)).
+  - **Veris AI** ($8.5M raised, revenue unknown): Sells enterprise agent simulations updated from production agent behavior and announced an $8.5M seed co-led by Decibel Ventures and Acrew Capital in June 2025 ([Veris AI](https://veris.ai/blog/introducing-veris-ai-a-new-way-to-train-enterprise-ai-agents-through-simulated-experience)).
+- **Why now:** [Inferred]: As frontier models became capable of longer software tasks, METR expanded its long-duration test set in January 2026, illustrating the need for longer tasks that can still be graded reliably ([METR, Jan 2026](https://metr.org/blog/2026-01-29-time-horizon-1-1/)).
 
 ## Founders & Team
 
-- **Evan Hu (Founder):**
-  - Background: Berkeley EECS ’24; previously co-founder and CTO of Shortbread ([YC founder profile](https://www.ycombinator.com/founders/evan-hu)).
-  - Twitter/X: @vanders3nn; count not retrievable ([YC](https://www.ycombinator.com/founders/evan-hu)).
-  - LinkedIn: Headline not retrievable; indexed profile lists Del Assistant and 3K followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/evanhu1)).
-  - GitHub: @evanhu1; personal project talk2arxiv, an interface for chatting with research papers, has 531 stars ([GitHub, October 27, 2026](https://github.com/evanhu1/talk2arxiv)).
+- **Joanne Wang (Co-founder and CEO):**
+  - **Background:** Studied computing and data science and finance at NYU Stern, worked in technology M&A at Evercore and B2B software investing at General Atlantic, and co-founded Copper Health. Direct Epsilab email: No public data found ([YC founder profile](https://www.ycombinator.com/founders/joanne-wang), [Copper Health YC profile](https://www.ycombinator.com/companies/copper-health)).
+  - **Twitter/X:** @joannewang_, 370 followers ([Teapawt X mirror, Nov 2026](https://www.teapawt.net/joannewang_)).
+  - **LinkedIn:** Headline unavailable, with 8,695 followers displayed on her conference post ([LinkedIn, Nov 2026](https://www.linkedin.com/posts/joannewang19_so-honored-to-be-invited-to-present-at-the-activity-7511592336116695041-zohp)).
+  - **GitHub:** No public repos found.
+- **Evan Hu (Co-founder):**
+  - **Background:** Studied EECS at UC Berkeley, researched language models there, worked as a software engineer at Amazon, and co-founded Shortbread as CTO. Direct Epsilab email: No public data found ([YC founder profile](https://www.ycombinator.com/founders/evan-hu), [Shortbread YC profile](https://www.ycombinator.com/companies/shortbread)).
+  - **Twitter/X:** @vanders3nn, 296 followers ([Teapawt X mirror, Nov 2026](https://xitter.gq/vanders3nn)).
+  - **LinkedIn:** Headline unavailable, with a public profile linked from his [YC founder profile](https://www.ycombinator.com/founders/evan-hu).
+  - **GitHub:** @evanhu1, personal project `talk2arxiv` with 532 stars ([GitHub, Nov 2026](https://github.com/evanhu1/talk2arxiv)).
+- **Fengjiao Peng (Co-founder):**
+  - **Background:** Studied physics at the University of Hong Kong, researched RL at MIT Media Lab and ML at Vimeo, and co-founded Shortbread, which she reports generated $500K in revenue and sold 2M AI-comic episodes. Direct Epsilab email: No public data found, with `fengjiao@shortbread.ai` published for Shortbread creator inquiries ([MIT Media Lab](https://www.media.mit.edu/people/fpeng/overview/), [YC founder profile](https://www.ycombinator.com/founders/fengjiao-peng), [Peng’s LinkedIn post](https://www.linkedin.com/posts/fengjiao-peng_ai-powered-entertainment-is-here-introducing-activity-7201375093078253568-hkAy)).
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Headline unavailable, with Epsilab listed and 2K followers ([LinkedIn, Nov 2026](https://www.linkedin.com/in/fengjiao-peng)).
+  - **GitHub:** No public repos found.
 - **Matthew Olsen (Founder):**
-  - Background: Previously at Tower Research Capital, XY Sense, and DeepKeys; attended Australian National University and University of New South Wales ([YC founder profile](https://www.ycombinator.com/founders/matthew-olsen)).
-  - Twitter/X: @OlsenMatthew99; count not retrievable directly ([YC](https://www.ycombinator.com/founders/matthew-olsen)).
-  - LinkedIn: Profile linked by YC; headline not retrievable ([profile](https://www.linkedin.com/in/olsen-matthew/), [YC](https://www.ycombinator.com/founders/matthew-olsen)).
-  - GitHub: @olsenmatthew; pinned project Rego, a social-networking application, has 0 stars ([GitHub, October 27, 2026](https://github.com/olsenmatthew/Rego)).
-- **Fengjiao Peng (Founder):**
-  - Background: MIT and University of Hong Kong alumna; prior roles at Vimeo, Adobe, and MIT Media Lab; her YC biography reports **$500K revenue and 2M episodes sold at prior company Shortbread**, rather than Epsilab ([YC founder profile](https://www.ycombinator.com/founders/fengjiao-peng)).
-  - Twitter/X: @PFengjiao; current count not retrievable, with an indexed mirror reporting 81 followers ([TwStalker, retrieved October 2026, via search snippet](https://www.twstalker.com/PFengjiao)).
-  - LinkedIn: Headline not retrievable; indexed affiliation “Stealth,” with 2K followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/fengjiao-peng)).
-  - GitHub: No public repos found.
-- **Joanne Wang (Founder):**
-  - Background: Previously built Copper Health; prior employers General Atlantic and Evercore; NYU Stern alumna ([YC founder profile](https://www.ycombinator.com/founders/joanne-wang)).
-  - Twitter/X: @joannewang_; count not retrievable ([YC](https://www.ycombinator.com/founders/joanne-wang)).
-  - LinkedIn: Profile linked by YC; headline not retrievable ([profile](https://www.linkedin.com/in/joanne-wang-156ba9154), [YC](https://www.ycombinator.com/founders/joanne-wang)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Hu and Peng previously co-founded Shortbread ([YC](https://www.ycombinator.com/companies/epsilab-com)).
-- **Founder-market fit:** [Inferred]: Peng’s ML research and Hu’s technical founder experience are relevant to environment development; YC backing is disclosed, but additional advisors or investors: No public data found ([YC](https://www.ycombinator.com/companies/epsilab-com), [company website](https://epsilab.com/)).
+  - **Background:** YC lists the Australian National University and the University of New South Wales, and the launch identifies his prior quantitative infrastructure role at Tower Research Capital. Direct Epsilab email: No public data found ([YC founder profile](https://www.ycombinator.com/founders/matthew-olsen), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)).
+  - **Twitter/X:** @OlsenMatthew99, count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/matthew-olsen)).
+  - **LinkedIn:** Headline unavailable, with 2K followers (via search snippet, [LinkedIn, Oct 2026](https://www.linkedin.com/in/olsen-matthew)).
+  - **GitHub:** @olsenmatthew, pinned project `ISO-PERP` with 0 stars ([GitHub, Nov 2026](https://github.com/olsenmatthew/ISO-PERP)).
+- **Co-founder relationship:** Hu and Peng previously co-founded Shortbread ([Shortbread YC profile](https://www.ycombinator.com/companies/shortbread)).
+- **Founder-market fit:** Peng’s RL research, Hu’s language-model research, and Olsen’s infrastructure engineering cover areas used in Epsilab’s environment design, with YC backing the company and listing Pete Koomen as primary partner ([Launch YC](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work), [YC directory](https://www.ycombinator.com/companies/epsilab-com)).
 
 ## Key Risks
 
-- **Reward validity:** [Inferred]: Agents could exploit environment verifiers rather than learn intended workflows, a mechanism illustrated by cheating failures in METR’s evaluations; Epsilab-specific mitigation: No public data found ([METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)).
-- **Data access:** [Inferred]: Environments derived from real workflows require continuing access and appropriate usage rights; Epsilab describes workflow conversion but does not publicly document licensing arrangements ([company LinkedIn](https://www.linkedin.com/company/epsilab)).
-- **Platform overlap:** [Inferred]: HUD’s supplier marketplace and Prime Intellect’s integrated stack could substitute for portions of Epsilab’s offering ([HUD](https://www.hud.ai/blog), [Prime Intellect](https://primeintellect.one/blog/series-a)).
-- **Name ambiguity:** A separate search result markets “Epsilab” at epsilab.ai as a quantitative-research platform; its metrics were excluded because linkage to the YC company was unverified ([Reddit](https://www.reddit.com/r/startups_promotion/comments/1ngguay), [YC domain](https://www.ycombinator.com/companies/epsilab-com)).
+- **Transfer to real work:** [Inferred]: Agents may learn shortcuts that improve simulation scores without improving real workflow performance, and Epsilab’s research posting describes trajectory inspection, reward-hacking checks, and generalization experiments to detect this ([Epsilab research engineer posting](https://www.ycombinator.com/companies/epsilab-com/jobs/PqLmCN4-member-of-technical-staff-research-engineer-reinforcement-learning)).
+- **Environment production cost:** [Inferred]: Recreating workflows and validating graders with domain experts may limit delivery throughput, and Epsilab’s project lead posting calls for automating environment creation, task generation, and evaluation ([Launch YC](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work), [Epsilab project lead posting](https://www.ycombinator.com/companies/epsilab-com/jobs/wfebrDH-technical-strategic-projects-lead)).
+- **Buyer substitution:** [Inferred]: Frontier labs can develop work-based evaluations internally, as OpenAI did with GDPval, reducing the scope of evaluations they may need to source externally ([OpenAI, Sep 2025](https://openai.com/index/gdpval/)).
+- **Name ambiguity:** France’s intellectual-property bulletin lists a separate EPSILAB entity under the same name ([INPI, 2015](https://www.inpi.fr/sites/default/files/import/bopis/2015-19v1.pdf)).
 
 ## Key Facts
 
@@ -80,12 +83,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | YC backing ([company website](https://epsilab.com/)); 46 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/epsilab), retrieved October 27, 2026) |
+| Traction | Unnamed frontier lab engagements ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)), 2 open roles ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/epsilab-com/jobs)) |
 | Revenue Signal | No public data found |
-| Founders | Evan Hu: Berkeley EECS, former Shortbread CTO; Matthew Olsen: Tower Research Capital, XY Sense; Fengjiao Peng: MIT Media Lab, Shortbread; Joanne Wang: Copper Health, General Atlantic ([YC founder profiles](https://www.ycombinator.com/companies/epsilab-com)) |
-| Competitors | HUD: $16M funding, revenue unknown, builder marketplace ([HUD](https://www.hud.ai/blog)); Prime Intellect: over $150M funding, over $100M annualized revenue, integrated training stack ([company, July 2026](https://primeintellect.one/blog/series-a)); Mechanize: $9.1M disclosed financing, revenue unknown, workplace simulations ([company, April 2026](https://www.mechanize.work/mechanize-raises-9-1m/)) |
-| Moat Signals | No public data found |
-| Risk Factors | Benchmark cheating ([METR](https://metr.org/blog/2026-05-19-frontier-risk-report/)); overlapping environment platforms ([HUD](https://www.hud.ai/blog)) |
-| Founder Reach | Hu: LinkedIn 3K; Peng: LinkedIn 2K ([Hu LinkedIn](https://www.linkedin.com/in/evanhu1), [Peng LinkedIn](https://www.linkedin.com/in/fengjiao-peng), via search snippets); Hu’s talk2arxiv: 531 stars ([GitHub](https://github.com/evanhu1/talk2arxiv), October 27, 2026) |
-| Distribution Signals | 46 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/epsilab), retrieved October 27, 2026) |
-| Emails | e@evan.hu, founder contact ([Evan Hu’s blog](https://blog.evan.hu/p/my-first-8-months-self-employed)); fengjiao@shortbread.ai, prior venture ([LinkedIn, via search snippet](https://www.linkedin.com/in/fengjiao-peng)) |
+| Founders | Joanne Wang (CEO), Copper Health, Evercore and NYU Stern ([YC](https://www.ycombinator.com/founders/joanne-wang))<br>Evan Hu (Co-founder), Shortbread CTO and Berkeley EECS ([YC](https://www.ycombinator.com/founders/evan-hu))<br>Fengjiao Peng (Co-founder), Shortbread, MIT Media Lab and Vimeo ([YC](https://www.ycombinator.com/founders/fengjiao-peng))<br>Matthew Olsen (Founder), Tower Research Capital and Australian National University ([YC](https://www.ycombinator.com/founders/matthew-olsen)) |
+| Competitors | Bespoke Labs ($40M announced, revenue unknown, open research and agent training environments) ([Bespoke Labs](https://bespokelabs.ai/blog/bespoke-labs-raises-40m-to-build-environments-that-enable-reliable-agents))<br>Mercor (~$1.2B announced, over $1B annualized revenue run rate in May 2026, expert marketplace and Deeptune simulations) ([Seedtable](https://seedtable.com/companies/mercor), [Mercor revenue disclosure](https://www.mercor.com/blog/when-you-go-from-2-million-a-month-to-2-million-a-day/), [Mercor Series D](https://www.mercor.com/blog/series-d/))<br>Veris AI ($8.5M raised, revenue unknown, simulations updated from production activity) ([Veris AI](https://veris.ai/blog/introducing-veris-ai-a-new-way-to-train-enterprise-ai-agents-through-simulated-experience)) |
+| Moat Signals | Reported access to real workflow data and expert practitioners ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)) |
+| Risk Factors | Reward hacking and generalization challenges, costly environment production, buyer-built alternatives ([Epsilab research engineer posting](https://www.ycombinator.com/companies/epsilab-com/jobs/PqLmCN4-member-of-technical-staff-research-engineer-reinforcement-learning), [Launch YC](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work), [OpenAI GDPval](https://openai.com/index/gdpval/)) |
+| Founder Reach | Wang: X 370, LinkedIn 8,695 ([Teapawt](https://www.teapawt.net/joannewang_), [LinkedIn](https://www.linkedin.com/posts/joannewang19_so-honored-to-be-invited-to-present-at-the-activity-7511592336116695041-zohp))<br>Hu: X 296, GitHub 532 stars on `talk2arxiv` ([Teapawt](https://xitter.gq/vanders3nn), [GitHub](https://github.com/evanhu1/talk2arxiv))<br>Peng: LinkedIn 2K ([LinkedIn](https://www.linkedin.com/in/fengjiao-peng))<br>Olsen: LinkedIn 2K (via search snippet, [LinkedIn](https://www.linkedin.com/in/olsen-matthew)) |
+| Distribution Signals | 310,839 X launch-post views as of Nov 17, 2026 ([Doomers AI](https://doomers.ai/launches/epsilab)), 166 LinkedIn followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/epsilab)), 31 X followers ([Teapawt, Nov 2026](https://www.teapawt.net/epsilabRL)), Fondo coverage ([Fondo, Nov 12, 2026](https://fondo.com/blog/epsilab-builds-training-environments-around-the-realities-of-enterprise-work)) |
+| Emails | founders@epsilab.com, shared inbox for hiring and general inquiries ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XGA-epsilab-rl-environments-for-enterprise-work)) |

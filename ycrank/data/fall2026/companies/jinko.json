@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://gojinko.com",
     "yc_page": "https://www.ycombinator.com/companies/jinko",
-    "batch": "Fall 2026 ([Jinko LinkedIn](https://www.linkedin.com/company/jinkotravel/))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/jinko))",
     "industry": "B2B / B2B",
     "team_size": "6",
     "location": "Paris, ?le-de-France, France",
     "tags": "Travel, APIs",
-    "yc_partner": "Not listed; YC profile could not be retrieved",
-    "emails": "partnership@gojinko.com ([Website](https://gojinko.com/)), privacy@gojinko.com ([Privacy policy](https://gojinko.com/privacy/)), support@gojinko.com ([Older official terms](https://old.gojinko.com/legal/terms-and-conditions))"
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/jinko))",
+    "emails": "partnership@gojinko.com for sales and partnerships, support@gojinko.com for support ([Jinko Contact](https://gojinko.com/contact/)), privacy@gojinko.com for privacy requests ([Jinko Privacy Policy](https://gojinko.com/privacy/))"
   },
   "tags": [
     "Travel",
     "APIs"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-30T06:04:18.760Z",
+  "memoGeneratedAt": "2026-11-17T22:38:52.720Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "agi": {
       "score": 41,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 36,
+    "hypergrowth": {
+      "score": 41,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 51,
-    "NR": 59,
-    "PG": 41,
-    "PT": 36,
-    "SL": 33,
-    "VK": 27
+    "AGI": 41,
+    "HG": 41,
+    "EXIT": 38
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 30,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 30,
-    "tractionReason": "Exa Connect provider listing; bookings and paying customers undisclosed"
+    "tractionRank": 100,
+    "tractionScore": 49,
+    "tractionReason": "Live bookings testimonial, named integrations, 1% flight booking fee"
   },
   "paths": {
     "memo": "fall2026/memos/jinko.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/jinko.md",
-      "elad-gil": "fall2026/evals/elad-gil/jinko.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/jinko.md",
-      "paul-graham": "fall2026/evals/paul-graham/jinko.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/jinko.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/jinko.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/jinko.md"
+      "agi": "fall2026/evals/agi/jinko.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/jinko.md",
+      "exit": "fall2026/evals/exit/jinko.md"
     }
   }
 }

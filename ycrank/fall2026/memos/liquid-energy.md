@@ -6,88 +6,86 @@
 |-------|-------|
 | Website | https://www.liquidenergy.world |
 | YC Page | https://www.ycombinator.com/companies/liquid-energy |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/liquid-energy)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/liquid-energy)) |
 | Industry | Industrials / Industrials -> Energy |
-| Team Size | 5 |
+| Team Size | 5 ([Y Combinator](https://www.ycombinator.com/companies/liquid-energy)) |
 | Location | Waterloo, ON, Canada |
 | Tags | Hard Tech, Solar Power, Energy, AI |
-| YC Partner | Andrew Miklas ([YC](https://www.ycombinator.com/companies/liquid-energy)) |
-| Emails | saj@liquidenergy.world ([company privacy policy](https://www.liquidenergy.world/privacy)) |
+| YC Partner | Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/liquid-energy)) |
+| Emails | saj@liquidenergy.world — Sajan Khosa, published contact for business inquiries ([Liquid Energy](https://www.liquidenergy.world/)) |
 
 ## The Idea
 
-- **Problem:** Companies seeking inference capacity face grid-connection waits averaging over four years in primary data-center markets, constraining conventional facility development ([JLL, January 2026](https://www.jll.com/en-us/insights/market-outlook/global-data-centers)).
-- **Approach:** Factory-completed NanoDC units combine compute, power, cooling and networking with an unfolding solar array, with the company advertising first-token delivery within eight weeks of contract signing ([Liquid Energy, accessed October 2026](https://www.liquidenergy.world/)).
-- **Differentiation:** NanoDC carries its own solar generation, whereas Rune attaches compute to existing solar facilities and Exowatt supplies dispatchable solar power through thermal storage ([Liquid Energy](https://www.liquidenergy.world/), [Rune announcement, September 2026](https://www.streetinsider.com/Business%2BWire/Rune%2BDebuts%2BRELIC%2C%2Bthe%2BFirst%2BDrama-Free%2BData%2BCenter%2BPowered%2Bby%2BSolar%2C%2BWith%2B%2440M%2Bin%2BNew%2BFunding/27068118.html), [Exowatt, November 2025](https://www.exowatt.com/news/www-exowatt-com-news-series-a-additional-50m-press-release)).
-- **Business Model:** [Inferred]: Negotiated inference-capacity contracts, based on the website’s inference-sales description and contract-to-delivery process; public rates and billing units: No public data found ([Liquid Energy](https://www.liquidenergy.world/)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; the broader modular-data-center market was estimated at $29.04 billion in 2024, reaching $75.77 billion by 2030 at 17.4% CAGR during 2025–2030 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/modular-data-center-market-report)).
-- **GTM / Distribution:** Capacity inquiries are directed to saj@liquidenergy.world, and the website describes selling inference to companies of every size ([Liquid Energy](https://www.liquidenergy.world/)).
+- **Problem** — AI companies seeking inference capacity can wait months for conventional compute contracts and data-center capacity, with grid connections and permitting among the delays Liquid Energy identifies ([Fondo founder interview, Sep 2026](https://fondo.com/blog/start-sajan-khosa), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute)).
+- **Approach** — Factory-built NanoDCs ship with GPUs, fold-out solar panels, batteries, air cooling and Starlink, with a company-stated deployment time of four weeks and activation within 30 minutes of arrival ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute)).
+- **Differentiation** — NanoDC carries its own fold-out array, while Greenference pairs containers with site-scale solar, Armada sells modular data-center infrastructure, and Exowatt supplies dispatchable power through thermal storage ([Launch YC](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute), [Greenference](https://greenference.com/), [Armada](https://www.armada.ai/product/leviathan), [Exowatt, via search snippet](https://www.exowatt.com/news/www-exowatt-com-news-series-a-additional-50m-press-release)).
+- **Business Model** — Customers contract for inference capacity while Liquid Energy owns and deploys the hardware, and public rates were unavailable ([Liquid Energy](https://www.liquidenergy.world/), [Fondo founder interview, Sep 2026](https://fondo.com/blog/start-sajan-khosa)).
+- **TAM/SAM** — No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution** — Liquid Energy takes capacity requests directly and reports agreements with unnamed inference platforms that can distribute its tokens ([Liquid Energy](https://www.liquidenergy.world/), [company funding application published by LvlUp Ventures](https://www.lvlup.vc/portfolio-company-database/liquid-energy)).
 
 ## Defensibility
 
-- **Moat today:** Public descriptions identify proprietary modules and cooling technology, but independently measured advantages and patent identifiers: No public data found ([YC](https://www.ycombinator.com/companies/liquid-energy), [Velocity](https://www.velocityincubator.com/company/liquid-energy)).
-- **Future moat:** [Inferred]: Manufacturing yield improvements and fleet-operating experience could create cost advantages if deployment scales; demonstrated production economics: No public data found.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given existing solar-linked compute and modular AI infrastructure offerings ([Rune, September 2026](https://www.streetinsider.com/Business%2BWire/Rune%2BDebuts%2BRELIC%2C%2Bthe%2BFirst%2BDrama-Free%2BData%2BCenter%2BPowered%2Bby%2BSolar%2C%2BWith%2B%2440M%2Bin%2BNew%2BFunding/27068118.html), [Crusoe, September 2026](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding)).
-- **Commoditization risk:** [Inferred]: Rune and Crusoe already supply overlapping infrastructure, making replication of the deployment category plausible, although copying NanoDC’s specific engineering cannot be assessed publicly ([Rune](https://www.streetinsider.com/Business%2BWire/Rune%2BDebuts%2BRELIC%2C%2Bthe%2BFirst%2BDrama-Free%2BData%2BCenter%2BPowered%2Bby%2BSolar%2C%2BWith%2B%2440M%2Bin%2BNew%2BFunding/27068118.html), [Crusoe](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding)).
+- **Moat today** — Liquid Energy describes its high-density air cooling as patent-pending ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute)).
+- **Future moat** — [Inferred]: Repeated factory builds could reduce per-unit assembly costs, with the learning effect still unproven at the company’s planned production rate ([LvlUp Ventures](https://www.lvlup.vc/portfolio-company-database/liquid-energy), [Y Combinator](https://www.ycombinator.com/companies/liquid-energy)).
+- **Market structure** — No structural barrier identified at this stage.
+- **Commoditization risk** — Greenference already markets solar-and-battery inference containers and Armada manufactures deployable GPU modules with Johnson Controls, providing alternative routes to modular inference capacity ([Greenference](https://greenference.com/), [Armada, Nov 2026](https://www.armada.ai/blog/armada-sovereign-johnson-controls-galleon-forge-two-leviathan)).
 
 ## Market & Traction
 
-- **Traction signals:**
-  - Company LinkedIn: 247 followers ([LinkedIn, accessed October 27, 2026](https://www.linkedin.com/company/liquid-energy)).
-  - YC Fall 2026 participation ([YC, accessed October 27, 2026](https://www.ycombinator.com/companies/liquid-energy)).
-  - Velocity participation since 2024 ([Velocity, accessed October 2026](https://www.velocityincubator.com/company/liquid-energy)).
-  - NVIDIA Inception affiliation displayed by the company ([Liquid Energy, accessed October 2026](https://www.liquidenergy.world/)).
-  - Zero active YC job postings ([YC Jobs, October 27, 2026](https://www.ycombinator.com/companies/liquid-energy/jobs)).
-  - Startup spotlight published October 26, 2026 ([The AI Read](https://theairead.com/ventures)).
-- **Competitors:**
-  - **Rune ($53.5M raised, revenue unknown):** RELIC uses existing solar generation rather than carrying its own array; its $40M Series A was led by Spark Capital in September 2026 ([company announcement](https://www.streetinsider.com/Business%2BWire/Rune%2BDebuts%2BRELIC%2C%2Bthe%2BFirst%2BDrama-Free%2BData%2BCenter%2BPowered%2Bby%2BSolar%2C%2BWith%2B%2440M%2Bin%2BNew%2BFunding/27068118.html)).
-  - **Crusoe ($3,900M Series F raised, over $100M contracted inference ARR):** Offers cloud inference and modular Spark units across multiple power sources; the September 2026 round was co-led by Atreides, Mubadala Capital and Valor, and contracted ARR is distinct from recognized revenue ([Crusoe announcement](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding)).
-  - **Exowatt ($140M raised, including debt, revenue unknown):** Adjacent power supplier using solar-thermal storage; its $50M Series A extension was led by MVP Ventures and 8090 Industries in November 2025 ([Exowatt announcement](https://www.exowatt.com/news/www-exowatt-com-news-series-a-additional-50m-press-release)).
-- **Why now:** JLL’s January 2026 outlook identifies grid delays and emerging “bring your own power” mandates in markets including Texas and Ireland as drivers of on-site generation ([JLL](https://www.jll.com/en-us/insights/market-outlook/global-data-centers)).
+- **Traction signals**
+  - 20 NanoDC units on hand and 2 MW/month manufacturing capability reported, with 20 MW/month targeted over the following year ([Y Combinator, Nov 2026](https://www.ycombinator.com/companies/liquid-energy)).
+  - NanoDC launched Nov 5, with first deployments targeted for November and no public go-live confirmation found ([Launch YC](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute), [Founderland, Nov 2026](https://founderland.ai/articles/liquid-energy-launches-nanodc-to-run-ai-inference-on-solar-p-mw6yy3ab)).
+  - Agreements with unnamed inference platforms reported in Liquid Energy’s funding application ([LvlUp Ventures, accessed Nov 2026](https://www.lvlup.vc/portfolio-company-database/liquid-energy)).
+  - Fall 2026 YC participation and a pre-seed investment listing for LvlUp Ventures, with no public round amount found ([Y Combinator](https://www.ycombinator.com/companies/liquid-energy), [Crunchbase](https://www.crunchbase.com/organization/liquid-energy-technologies-limited)).
+  - 173K X launch-post views as of Nov 9, approximately 1.3K X followers, and 750 LinkedIn followers ([Doomers AI, Nov 9, 2026](https://doomers.ai/launches/liquid-energy), [X profile mirror, Nov 2026](https://xitter.gq/_LiquidEnergy), [LinkedIn, Nov 2026](https://www.linkedin.com/company/liquid-energy)).
+  - Launch coverage in Interesting Engineering and ShiftDelete.Net ([Interesting Engineering, Nov 2026](https://interestingengineering.com/videos/this-ai-data-center-unfolds-its-own-solar-panels), [ShiftDelete.Net, Nov 2026](https://shiftdelete.net/en/liquid-energy-nanodc-ai)).
+  - Earlier offering — renewable-energy storage and waste-heat recovery for on-site heating, cooling and electricity, with modular solar compute documented in Velocity’s 2025 report and no public metrics found for the earlier offering ([F4](https://f4.fund/startups/liquidenergy-world), [Velocity, 2025](https://www.velocityincubator.com/momentum-2025)).
+- **Competitors**
+  - Greenference (funding unknown, revenue unknown) — Sunverter containers draw from site-scale solar and storage, with software that schedules inference around solar availability ([Greenference](https://greenference.com/)).
+  - Armada ($469M raised, revenue unknown) — Galleon modules serve edge and high-performance computing, with a $230M Series B co-led by Overmatch, BlackRock and 8090 Industries ([aVenture](https://aventure.vc/companies/armada-san-francisco-ca-us/fundraising), [Armada, May 2026](https://www.armada.ai/blog/armada-230m-series-b-johnson-controls-galleon-edge-ai)).
+  - Exowatt ($140M raised, revenue unknown) — P3 supplies dispatchable solar power using thermal storage, with a $50M Series A extension led by MVP Ventures and 8090 Industries ([Exowatt, Nov 2025, via search snippet](https://www.exowatt.com/news/www-exowatt-com-news-series-a-additional-50m-press-release), [Contrary Research](https://research.contrary.com/report/exowatt)).
+  - Crusoe (approximately $8.18B in tracked funding, over $100M contracted managed-inference ARR) — sells managed inference through its GPU cloud and operates larger AI campuses, with a $3.9B Series F announced at initial close and co-led by Atreides Management, Mubadala Capital and Valor Equity Partners ([SetterVC](https://settervc.com/company/crusoe), [Crusoe, Sep 2026](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding)).
+- **Why now** — [Inferred]: FERC’s December 2025 order directing PJM to write new rules for large loads co-located with generators illustrates the grid-access uncertainty that off-grid modules are designed to bypass ([FERC, Dec 2025](https://www.ferc.gov/news-events/news/fact-sheet-ferc-directs-nations-largest-grid-operator-create-new-rules-embrace), [Launch YC](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute)).
 
 ## Founders & Team
 
-- **Sid Ravikumar (Co-founder/CEO):**
-  - Background: Previously founding engineer at Jelly.fm and senior software engineer at Lotus Laboratories; computer-science master’s degrees from Georgia Tech and Buffalo, and bachelor’s degree from Illinois Institute of Technology ([YC founder profile](https://www.ycombinator.com/founders/sid-ravikumar)).
-  - Twitter/X: @sidravi_; direct count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/sid-ravikumar)).
-  - LinkedIn: Headline: No public data found; approximately 1K followers ([LinkedIn via search snippet, retrieved October 2026](https://www.linkedin.com/in/sid-ravikumar)).
-  - GitHub: @sid-ravikumar; listed repositories include ChatGPT-Pro and macos-discrete-gpu, each with one star ([GitHub, October 27, 2026](https://github.com/sid-ravikumar)).
-
-- **Sajan Khosa (Co-founder/Chief Commercial Officer):**
-  - Background: YC lists University of Toronto education, founding AJMER with three brokerages signed, and founding Dasvandh Charity, which raised over $100K for animal shelters; these are prior-organization metrics ([YC](https://www.ycombinator.com/founders/sajan-khosa), [current role](https://www.liquidenergy.world/)).
-  - Twitter/X: @SajKhosa; 138 followers on a third-party mirror ([Sotwe, October 27, 2026](https://www.sotwe.com/SajKhosa)).
-  - LinkedIn: [Profile linked by YC](https://www.linkedin.com/in/sajan-khosa-1541b8222); headline: No public data found.
-  - GitHub: No public repos found.
-
-- **Arsh Sekhon (Co-founder/President):**
-  - Background: University of Waterloo graduate whose YC profile lists prior experience at Carbonified, Sunnybrook and Aries Intel ([YC founder profile](https://www.ycombinator.com/founders/arsh-sekhon)).
-  - Twitter/X: @ArshSek; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/arsh-sekhon)).
-  - LinkedIn: Headline: No public data found; approximately 2K followers ([LinkedIn via search snippet, retrieved October 2026](https://www.linkedin.com/in/arsh-sekhon-carbon)).
-  - GitHub: No public repos found.
-
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Ravikumar’s software engineering and distributed-data-transfer work relates to compute operations, while Khosa’s prior brokerage acquisition provides documented commercial experience ([Ravikumar LinkedIn via search snippet](https://www.linkedin.com/in/sid-ravikumar), [Khosa YC profile](https://www.ycombinator.com/founders/sajan-khosa)).
+- **Sid Ravikumar (Founder/CEO)**
+  - **Background** — MS degrees in computer science from Georgia Tech and University at Buffalo, BS from Illinois Institute of Technology, founding engineer at Jelly.fm and senior software engineer at Lotus Laboratories ([Y Combinator](https://www.ycombinator.com/founders/sid-ravikumar)); business email — No public data found.
+  - **Twitter/X** — @sidravi_, approximately 1.9K followers ([X profile mirror, Nov 2026](https://www.nitter.cf/sidravi_)).
+  - **LinkedIn** — Profile found, headline unavailable ([LinkedIn](https://www.linkedin.com/in/sid-ravikumar)).
+  - **GitHub** — @sid-ravikumar, `macos-discrete-gpu` with 1 star ([GitHub, Nov 2026](https://github.com/sid-ravikumar/macos-discrete-gpu)).
+- **Sajan Khosa (Founder/Chief Commercial Officer)**
+  - **Background** — Attended University of Toronto and founded property-tech platform AJMER and Dasvandh Charity ([Y Combinator](https://www.ycombinator.com/founders/sajan-khosa)); business email — saj@liquidenergy.world ([Liquid Energy](https://www.liquidenergy.world/)).
+  - **Twitter/X** — @SajKhosa, 252 followers ([X profile mirror, Nov 2026](https://xitter.gq/sajkhosa)).
+  - **LinkedIn** — Profile found, headline unavailable ([Y Combinator founder profile](https://www.ycombinator.com/founders/sajan-khosa)).
+  - **GitHub** — No public repos found.
+- **Arsh Sekhon (Founder/President)**
+  - **Background** — University of Waterloo graduate with prior work at Carbonified and commodities supply-chain intelligence firm Aries Intel ([Y Combinator](https://www.ycombinator.com/founders/arsh-sekhon), [Founderland](https://founderland.ai/founder/arsh-sekhon)); business email — No public data found.
+  - **Twitter/X** — @ArshSek, 248 followers ([X profile mirror, Nov 2026](https://www.nitter.cf/ArshSek)).
+  - **LinkedIn** — Profile found, headline unavailable ([LinkedIn, via search snippet](https://ca.linkedin.com/in/arsh-sekhon-carbon)).
+  - **GitHub** — No public repos found.
+- **Co-founder relationship** — No public data on co-founder history among the YC-listed founders before Liquid Energy. Velocity’s 2025 report names Kelly Sun alongside Ravikumar, and the company lists Romit Bali as founding engineer ([Velocity](https://www.velocityincubator.com/momentum-2025), [Liquid Energy](https://www.liquidenergy.world/)).
+- **Founder-market fit** — Ravikumar brings software engineering experience, Sekhon commodities supply-chain work, and Khosa prior commercial contracting at AJMER, with backing listed from YC and the Velocity Fund and program support from NVIDIA Inception ([Y Combinator](https://www.ycombinator.com/companies/liquid-energy), [Founderland](https://founderland.ai/founder/arsh-sekhon), [Liquid Energy](https://www.liquidenergy.world/)).
 
 ## Key Risks
 
-- **Technical performance:** Product specifications remain in development and advertised capabilities may never be offered, according to the company’s terms; independent NanoDC benchmarks: No public data found ([Liquid Energy terms, October 2026](https://www.liquidenergy.world/terms)).
-- **Solar variability:** [Inferred]: Variable generation could reduce compute availability or increase storage requirements; research documents workload disruption in renewable-powered modular data centers, while NanoDC storage sizing and measured uptime: No public data found ([Sun et al., June 2024](https://arxiv.org/abs/2406.02252)).
-- **Competitive substitution:** [Inferred]: Buyers could select Rune’s solar-linked capacity or Crusoe’s managed inference instead, because both address overlapping compute demand ([Rune](https://www.streetinsider.com/Business%2BWire/Rune%2BDebuts%2BRELIC%2C%2Bthe%2BFirst%2BDrama-Free%2BData%2BCenter%2BPowered%2Bby%2BSolar%2C%2BWith%2B%2440M%2Bin%2BNew%2BFunding/27068118.html), [Crusoe](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding)).
-- **Product-history ambiguity:** An older same-domain profile describes renewable storage and waste-heat recovery, whereas current materials describe inference; pivot date: No public data found ([F4](https://f4.fund/startups/liquidenergy-world), [current website](https://www.liquidenergy.world/)).
-- **Name collision:** [Inferred]: Research attribution can be confused with the unrelated European Liquid Energy LNG project, which uses l-energy.org ([project website](https://www.l-energy.org/public/success-story-of-the-liquid-energy-project/)).
+- **Off-grid uptime** — Nighttime operation depends on onboard batteries, and no field data on battery autonomy or sustained token throughput were found ([Launch YC](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute), [Founderland, Nov 2026](https://founderland.ai/articles/liquid-energy-launches-nanodc-to-run-ai-inference-on-solar-p-mw6yy3ab)).
+- **Connectivity** — The launch design uses Starlink, so satellite-link interruptions could interrupt token delivery at sites without backup connectivity ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute)).
+- **Manufacturing scale-up** — The planned increase from 2 to 20 MW/month makes delivery timing dependent on factory output and component supply at the higher rate ([Y Combinator, Nov 2026](https://www.ycombinator.com/companies/liquid-energy)).
+- **Name and location ambiguity** — Trademark records include a separate Liquid Energy LLC associated with energy drinks, while the YC startup’s LinkedIn page lists its headquarters in Kitchener and YC lists Waterloo ([Justia trademark records](https://trademarks.justia.com/owners/liquid-energy-llc-1011911/), [LinkedIn](https://www.linkedin.com/company/liquid-energy), [Y Combinator](https://www.ycombinator.com/companies/liquid-energy)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader category proxy: modular data centers, $29.04B in 2024; 17.4% CAGR, 2025–2030 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/modular-data-center-market-report)). |
+| TAM | Broader AI inference market proxy of $132.7B in 2026, with 18.0% projected CAGR from 2026 to 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-inference-market-report)) |
 | SAM | No public data found |
-| Traction | 247 company followers ([LinkedIn, October 27, 2026](https://www.linkedin.com/company/liquid-energy)); Fall 2026 participation ([YC](https://www.ycombinator.com/companies/liquid-energy)); Velocity since 2024 ([Velocity](https://www.velocityincubator.com/company/liquid-energy)). |
-| Revenue Signal | No public data found |
-| Founders | Sid Ravikumar, CEO: Jelly.fm, Lotus, CS master’s degrees ([YC](https://www.ycombinator.com/founders/sid-ravikumar)); Sajan Khosa, founder: AJMER, Dasvandh ([YC](https://www.ycombinator.com/founders/sajan-khosa)); Arsh Sekhon, president: Waterloo, Carbonified ([YC](https://www.ycombinator.com/founders/arsh-sekhon)). |
-| Competitors | Rune: $53.5M raised, revenue unknown, existing-solar compute ([announcement, September 2026](https://www.streetinsider.com/Business%2BWire/Rune%2BDebuts%2BRELIC%2C%2Bthe%2BFirst%2BDrama-Free%2BData%2BCenter%2BPowered%2Bby%2BSolar%2C%2BWith%2B%2440M%2Bin%2BNew%2BFunding/27068118.html)); Crusoe: $3,900M Series F, over $100M contracted inference ARR, cloud/Spark ([announcement, September 2026](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding)); Exowatt: $140M raised including debt, revenue unknown, thermal-storage power ([announcement, November 2025](https://www.exowatt.com/news/www-exowatt-com-news-series-a-additional-50m-press-release)). |
-| Moat Signals | Proprietary modules claimed ([YC](https://www.ycombinator.com/companies/liquid-energy)); cooling technology described ([Velocity](https://www.velocityincubator.com/company/liquid-energy)). |
-| Risk Factors | Specifications may change or never be offered ([company terms](https://www.liquidenergy.world/terms)); overlapping commercial offerings ([Rune announcement](https://www.streetinsider.com/Business%2BWire/Rune%2BDebuts%2BRELIC%2C%2Bthe%2BFirst%2BDrama-Free%2BData%2BCenter%2BPowered%2Bby%2BSolar%2C%2BWith%2B%2440M%2Bin%2BNew%2BFunding/27068118.html)). |
-| Founder Reach | Sid: LinkedIn ~1K ([search snippet](https://www.linkedin.com/in/sid-ravikumar)), GitHub repositories up to one star ([GitHub](https://github.com/sid-ravikumar)); Sajan: X 138 ([Sotwe](https://www.sotwe.com/SajKhosa)); Arsh: LinkedIn ~2K ([search snippet](https://www.linkedin.com/in/arsh-sekhon-carbon)); retrieved October 2026. |
-| Distribution Signals | Direct capacity-inquiry email ([Liquid Energy](https://www.liquidenergy.world/)); startup spotlight ([The AI Read, October 26, 2026](https://theairead.com/ventures)). |
-| Emails | saj@liquidenergy.world ([company privacy policy](https://www.liquidenergy.world/privacy)). |
+| Traction | 20 units and 2 MW/month manufacturing capability ([Y Combinator, Nov 2026](https://www.ycombinator.com/companies/liquid-energy)); unnamed inference-platform agreements ([LvlUp Ventures, accessed Nov 2026](https://www.lvlup.vc/portfolio-company-database/liquid-energy)) |
+| Revenue Signal | Company application models approximately $1,500 in annual compute revenue per NanoDC at commodity token pricing; no realized revenue or published rate found ([LvlUp Ventures](https://www.lvlup.vc/portfolio-company-database/liquid-energy)) |
+| Founders | Sid Ravikumar (CEO), Jelly.fm and Lotus Laboratories; Sajan Khosa (CCO), AJMER and Dasvandh Charity; Arsh Sekhon (President), University of Waterloo and Carbonified ([Y Combinator](https://www.ycombinator.com/companies/liquid-energy), [Liquid Energy](https://www.liquidenergy.world/), [YC founder profile](https://www.ycombinator.com/founders/arsh-sekhon)) |
+| Competitors | Greenference (funding and revenue unknown, site-scale solar inference) ([Greenference](https://greenference.com/)); Armada ($469M raised, revenue unknown, modular edge data centers) ([aVenture](https://aventure.vc/companies/armada-san-francisco-ca-us/fundraising)); Exowatt ($140M raised, revenue unknown, thermal-storage power) ([Exowatt, via search snippet](https://www.exowatt.com/news/www-exowatt-com-news-series-a-additional-50m-press-release)); Crusoe (~$8.18B tracked funding, over $100M contracted managed-inference ARR, GPU cloud) ([SetterVC](https://settervc.com/company/crusoe), [Crusoe](https://www.crusoe.ai/resources/newsroom/crusoe-announces-series-f-funding)) |
+| Moat Signals | Company-reported patent-pending high-density air cooling ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute)) |
+| Risk Factors | Off-grid uptime, Starlink connectivity, manufacturing scale-up ([Launch YC](https://www.ycombinator.com/launches/Wvu-liquid-energy-solar-powered-compute), [Y Combinator](https://www.ycombinator.com/companies/liquid-energy)) |
+| Founder Reach | Sid Ravikumar, X ~1.9K and LinkedIn ~2K ([X profile mirror](https://www.nitter.cf/sidravi_), [LinkedIn](https://www.linkedin.com/in/sid-ravikumar)); Sajan Khosa, X 252 ([X profile mirror](https://xitter.gq/sajkhosa)); Arsh Sekhon, X 248 and LinkedIn ~2K ([X profile mirror](https://www.nitter.cf/ArshSek), [LinkedIn, via search snippet](https://ca.linkedin.com/in/arsh-sekhon-carbon)) |
+| Distribution Signals | 173K X launch-post views Nov 9, ~1.3K X followers and 750 LinkedIn followers ([Doomers AI](https://doomers.ai/launches/liquid-energy), [X profile mirror](https://xitter.gq/_LiquidEnergy), [LinkedIn](https://www.linkedin.com/company/liquid-energy)) |
+| Emails | saj@liquidenergy.world — Sajan Khosa, business inquiries ([Liquid Energy](https://www.liquidenergy.world/)) |

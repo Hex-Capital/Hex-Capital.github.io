@@ -1,83 +1,59 @@
 {
   "slug": "versine",
   "name": "Versine",
-  "oneLiner": "Let your agents send and receive money. We're Venmo for agents.",
+  "oneLiner": "The agent-first consumer bank.",
   "metadata": {
-    "website": "https://versine.com/",
+    "website": "https://versine.com?utm_source=ycombinator",
     "yc_page": "https://www.ycombinator.com/companies/versine",
-    "batch": "Fall 2026 ([founder website](https://www.param.me/))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/versine))",
     "industry": "Fintech / Fintech -> Consumer Finance",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Fintech, Consumer Finance, Consumer Products, Neobank, AI",
-    "yc_partner": "Not listed; YC page could not be retrieved",
-    "emails": "support@versine.com, legal@versine.com ([Terms](https://versine.com/legal/terms)); privacy@versine.com ([Privacy](https://versine.com/legal/privacy)); privacy@oversine.com ([prior privacy policy](https://www.versine.com/privacy)); harshithl1777@gmail.com ([founder website](https://www.harshith.dev/)); p28thakk@uwaterloo.ca ([founder website](https://www.param.me/)); phthakka@uwaterloo.ca ([founder résumé](https://www.param.me/resume/ParamThakkarResume.pdf))"
+    "tags": "Fintech, Consumer, Consumer Finance, Neobank, AI",
+    "yc_partner": "David Lieb ([YC company profile](https://www.ycombinator.com/companies/versine))",
+    "emails": "harshithl1777@gmail.com (Harshith, [founder website](https://www.harshith.dev/)), support@versine.com (support, [Versine](https://versine.com/about)), privacy@versine.com (privacy, [Privacy Policy](https://versine.com/legal/privacy)), legal@versine.com (legal, [Terms of Service](https://versine.com/legal/terms)), privacy@oversine.com (earlier sign-in product, [legacy terms](https://versine.com/terms))"
   },
   "tags": [
     "Fintech",
+    "Consumer",
     "Consumer Finance",
-    "Consumer Products",
     "Neobank",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T06:33:52.944Z",
+  "memoGeneratedAt": "2026-11-17T23:11:30.536Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 26,
+    "agi": {
+      "score": 36,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 31,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
+    "exit": {
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 31,
-    "NR": 23,
-    "PG": 29,
-    "PT": 26,
-    "SL": 29,
-    "VK": 22
+    "AGI": 36,
+    "HG": 36,
+    "EXIT": 32
   },
-  "consolidatedAvg": 26.57,
-  "consolidatedRank": 235,
+  "consolidatedAvg": 34.67,
+  "consolidatedRank": 219,
   "traction": {
-    "tractionRank": 226,
-    "tractionScore": 2,
-    "tractionReason": "Payments product unlaunched; no customers, transactions, or waitlist count"
+    "tractionRank": 185,
+    "tractionScore": 26,
+    "tractionReason": "Five-plus Android downloads at payments launch"
   },
   "paths": {
     "memo": "fall2026/memos/versine.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/versine.md",
-      "elad-gil": "fall2026/evals/elad-gil/versine.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/versine.md",
-      "paul-graham": "fall2026/evals/paul-graham/versine.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/versine.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/versine.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/versine.md"
+      "agi": "fall2026/evals/agi/versine.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/versine.md",
+      "exit": "fall2026/evals/exit/versine.md"
     }
   }
 }

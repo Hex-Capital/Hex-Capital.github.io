@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://streamlinesystems.ltd/",
     "yc_page": "https://www.ycombinator.com/companies/streamline-systems",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/streamline-systems))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/streamline-systems))",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Autonomous Delivery, Drones, Navigation",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/streamline-systems))",
-    "emails": "No public data found"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/streamline-systems))",
+    "emails": "charlie@streamlinesystems.ltd — Charlie Jessett, COO ([Launch YC](https://www.ycombinator.com/launches/Xcr-streamline-systems-a-replacement-for-gps))"
   },
   "tags": [
     "Autonomous Delivery",
@@ -19,63 +19,39 @@
     "Navigation"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:53:55.142Z",
+  "memoGeneratedAt": "2026-11-17T23:41:41.307Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
+    "agi": {
+      "score": 50,
+      "tier": "Neutral"
     },
-    "elad-gil": {
+    "hypergrowth": {
       "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 38,
-    "NR": 30,
-    "PG": 37,
-    "PT": 30,
-    "SL": 29,
-    "VK": 27
+    "AGI": 50,
+    "HG": 38,
+    "EXIT": 38
   },
-  "consolidatedAvg": 33.29,
-  "consolidatedRank": 189,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 102,
-    "tractionScore": 44,
-    "tractionReason": "Signed LOIs and scheduled government trials; values undisclosed"
+    "tractionRank": 38,
+    "tractionScore": 64,
+    "tractionReason": "Over $80K contracted, plus module reservation deposits"
   },
   "paths": {
     "memo": "fall2026/memos/streamline-systems.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/streamline-systems.md",
-      "elad-gil": "fall2026/evals/elad-gil/streamline-systems.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/streamline-systems.md",
-      "paul-graham": "fall2026/evals/paul-graham/streamline-systems.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/streamline-systems.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/streamline-systems.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/streamline-systems.md"
+      "agi": "fall2026/evals/agi/streamline-systems.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/streamline-systems.md",
+      "exit": "fall2026/evals/exit/streamline-systems.md"
     }
   }
 }

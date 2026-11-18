@@ -5,12 +5,12 @@
   "metadata": {
     "website": "https://organizely.io/",
     "yc_page": "https://www.ycombinator.com/companies/organizely",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/organizely))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/organizely))",
     "industry": "B2B / B2B -> Supply Chain and Logistics",
     "location": "San Francisco, CA, USA",
     "tags": "Logistics, Manufacturing, E-commerce, Supply Chain, AI",
-    "yc_partner": "Harj Taggar ([YC, via search snippet](https://www.ycombinator.com/companies/organizely))",
-    "emails": "support@organizely.io ([Organizely documentation](https://docs.organizely.io/p/yIfUJta0h3UuLZ/Account-and-Settings))"
+    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/organizely))",
+    "emails": "founders@organizely.io, manufacturer inquiries ([Launch YC](https://www.ycombinator.com/launches/X0A-organizely-a-new-ai-native-erp-for-american-manufacturers)); support@organizely.io, product support ([Organizely Docs](https://docs.organizely.io/p/4B2eQfTYaaEe9h/Migrating-Data-from-Stocky))"
   },
   "tags": [
     "Logistics",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T06:34:01.551Z",
+  "memoGeneratedAt": "2026-11-17T23:29:32.481Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 36,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 48,
-    "NR": 53,
-    "PG": 58,
-    "PT": 34,
-    "SL": 36,
-    "VK": 29
+    "AGI": 40,
+    "HG": 38,
+    "EXIT": 37
   },
-  "consolidatedAvg": 43.43,
-  "consolidatedRank": 26,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 77,
-    "tractionScore": 51,
-    "tractionReason": "Six-state deployment claim; two external Shopify customer reviews"
+    "tractionRank": 99,
+    "tractionScore": 49,
+    "tractionReason": "Factory ERP deployed across six states, paying count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/organizely.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/organizely.md",
-      "elad-gil": "fall2026/evals/elad-gil/organizely.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/organizely.md",
-      "paul-graham": "fall2026/evals/paul-graham/organizely.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/organizely.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/organizely.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/organizely.md"
+      "agi": "fall2026/evals/agi/organizely.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/organizely.md",
+      "exit": "fall2026/evals/exit/organizely.md"
     }
   }
 }

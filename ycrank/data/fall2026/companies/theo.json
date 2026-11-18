@@ -5,12 +5,12 @@
   "metadata": {
     "website": "https://theo.site/",
     "yc_page": "https://www.ycombinator.com/companies/theo",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/theo))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/theo))",
     "industry": "B2B / B2B -> Marketing",
     "location": "New York City, NY, USA",
     "tags": "SMB, SEO, AI",
-    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/theo))",
-    "emails": "team@theo.site ([Theo Contact](https://theo.site/contact-us)); miles@theo.site ([YC](https://www.ycombinator.com/companies/theo))"
+    "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/theo))",
+    "emails": "miles@theo.site, CEO ([Launch YC](https://www.ycombinator.com/launches/W36-theo-the-site-builder-and-engine-that-gets-your-business-found)), team@theo.site, support ([Theo Contact](https://theo.site/contact-us)), press@theo.site, media ([Theo Press](https://theo.site/press)), privacy@theo.site, privacy ([Theo Privacy Policy](https://theo.site/privacy-policy))"
   },
   "tags": [
     "SMB",
@@ -18,63 +18,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:16:09.564Z",
+  "memoGeneratedAt": "2026-11-18T00:29:37.847Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 51,
-    "NR": 45,
-    "PG": 49,
-    "PT": 31,
-    "SL": 32,
-    "VK": 25
+    "AGI": 39,
+    "HG": 38,
+    "EXIT": 36
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 85,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 122,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 54,
-    "tractionReason": "10,000+ sites built; 4,000 monthly audits; named customer outcomes"
+    "tractionRank": 70,
+    "tractionScore": 55,
+    "tractionReason": "One reviewer reports paying about $69 monthly, 10,000+ builds"
   },
   "paths": {
     "memo": "fall2026/memos/theo.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/theo.md",
-      "elad-gil": "fall2026/evals/elad-gil/theo.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/theo.md",
-      "paul-graham": "fall2026/evals/paul-graham/theo.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/theo.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/theo.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/theo.md"
+      "agi": "fall2026/evals/agi/theo.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/theo.md",
+      "exit": "fall2026/evals/exit/theo.md"
     }
   }
 }

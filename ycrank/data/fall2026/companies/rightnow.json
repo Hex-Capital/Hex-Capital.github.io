@@ -1,83 +1,58 @@
 {
   "slug": "rightnow",
   "name": "RightNow",
-  "oneLiner": "Co-designing the fastest intelligence",
+  "oneLiner": "The kernel lab behind instant AI",
   "metadata": {
-    "website": "https://runinfra.ai/",
+    "website": "https://www.rightnowai.co",
     "yc_page": "https://www.ycombinator.com/companies/rightnow",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/rightnow))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/rightnow))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, Generative AI, Machine Learning, Infrastructure, AI",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/rightnow))",
-    "emails": "jaber@rightnowai.co, osama@rightnowai.co ([company GitHub](https://github.com/RightNow-AI/StreamIndex/blob/main/pyproject.toml)); jaber@runinfra.ai ([Privacy Policy](https://runinfra.ai/privacy-policy)); jaberib647@gmail.com ([founder GitHub](https://github.com/jaberjaber23))"
+    "tags": "Generative AI, Machine Learning, Infrastructure, AI",
+    "yc_partner": "Nicolas Dessaigne ([YC directory](https://www.ycombinator.com/companies/rightnow))",
+    "emails": "jaber@rightnowai.co (Jaber Jaber, [RightNow contact](https://www.rightnowai.co/contact)), jaber@runinfra.ai (Jaber Jaber, security and audit requests, [RightNow security](https://www.rightnowai.co/open-models/security)), osama@rightnowai.co (Osama Jaber, privacy and legal inquiries, [RightNow privacy policy](https://www.rightnowai.co/open-models/privacy-policy))"
   },
   "tags": [
-    "Developer Tools",
     "Generative AI",
     "Machine Learning",
     "Infrastructure",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:24:11.518Z",
+  "memoGeneratedAt": "2026-11-18T00:51:38.284Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 35,
-    "NR": 42,
-    "PG": 39,
-    "PT": 28,
-    "SL": 31,
-    "VK": 27
+    "AGI": 40,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 34.43,
-  "consolidatedRank": 173,
+  "consolidatedAvg": 37.33,
+  "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 37,
-    "tractionReason": "Autokernel approximately 1,600 stars; RunInfra launched, paid adoption undisclosed"
+    "tractionRank": 125,
+    "tractionScore": 39,
+    "tractionReason": "Named kernel-tool users and hosted inference with prepaid top-ups"
   },
   "paths": {
     "memo": "fall2026/memos/rightnow.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/rightnow.md",
-      "elad-gil": "fall2026/evals/elad-gil/rightnow.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/rightnow.md",
-      "paul-graham": "fall2026/evals/paul-graham/rightnow.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/rightnow.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/rightnow.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/rightnow.md"
+      "agi": "fall2026/evals/agi/rightnow.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/rightnow.md",
+      "exit": "fall2026/evals/exit/rightnow.md"
     }
   }
 }

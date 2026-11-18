@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://voyager.so",
     "yc_page": "https://www.ycombinator.com/companies/voyager",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/voyager))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/voyager))",
     "industry": "B2B / B2B -> Marketing",
     "team_size": "6",
     "location": "New York City, NY, USA",
     "tags": "Design, Video, Marketing",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/voyager))",
-    "emails": "support@voyager.so ([Voyager](https://voyager.so/privacy)); sam@moda.app, founding designer ([team profile](https://www.linkedin.com/posts/iconsam_thrilled-to-share-some-news-im-joining-activity-7442244089057673216-tEiu), via search snippet)"
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/voyager))",
+    "emails": "support@voyager.so — support, billing, privacy, and abuse reports ([Voyager Terms](https://voyager.so/terms))"
   },
   "tags": [
     "Design",
@@ -19,63 +19,39 @@
     "Marketing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:18:29.906Z",
+  "memoGeneratedAt": "2026-11-18T00:34:33.522Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
+    "agi": {
       "score": 37,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 30,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 43,
-    "NR": 49,
-    "PG": 39,
-    "PT": 37,
-    "SL": 30,
-    "VK": 25
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 35
   },
-  "consolidatedAvg": 38.57,
-  "consolidatedRank": 81,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 174,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 20,
-    "tractionReason": "Current harness launched; prior Moda users excluded"
+    "tractionRank": 166,
+    "tractionScore": 32,
+    "tractionReason": "1,600 research-preview stars, 266 reported Discord members"
   },
   "paths": {
     "memo": "fall2026/memos/voyager.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/voyager.md",
-      "elad-gil": "fall2026/evals/elad-gil/voyager.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/voyager.md",
-      "paul-graham": "fall2026/evals/paul-graham/voyager.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/voyager.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/voyager.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/voyager.md"
+      "agi": "fall2026/evals/agi/voyager.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/voyager.md",
+      "exit": "fall2026/evals/exit/voyager.md"
     }
   }
 }

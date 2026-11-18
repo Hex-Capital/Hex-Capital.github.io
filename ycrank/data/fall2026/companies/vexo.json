@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.vexoai.com/",
     "yc_page": "https://www.ycombinator.com/companies/vexo",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/vexo))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/vexo))",
     "industry": "Consumer / Consumer -> Consumer Electronics",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "AI-Enhanced Learning, Hardware, Productivity, Conversational AI, AI Assistant",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/vexo))",
-    "emails": "info@vexoai.com ([Vexo](https://www.vexoai.com/)); haris@vexoai.com ([founder website](https://harismalik.com/)); legacy haris@vexoring.com ([founder website, earlier search snippet](https://harismalik.com/))"
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/vexo))",
+    "emails": "haris@vexoai.com (CEO), kiani@vexoai.com (CTO), vikram@vexoai.com (CPO) ([Launch YC](https://www.ycombinator.com/launches/XTy-vexo-an-always-listening-ai-bracelet-that-remembers-and-acts)), support@vexoai.com (orders and support) ([Vexo terms](https://www.vexoai.com/terms)), info@vexoai.com (integrations, partnerships and security) ([Vexo developer docs](https://www.vexoai.com/docs))"
   },
   "tags": [
     "AI-Enhanced Learning",
@@ -21,63 +21,39 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:13:58.075Z",
+  "memoGeneratedAt": "2026-11-17T23:25:55.982Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 33,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 33,
-    "NR": 39,
-    "PG": 34,
-    "PT": 28,
-    "SL": 30,
-    "VK": 23
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 38
   },
-  "consolidatedAvg": 32.86,
-  "consolidatedRank": 193,
+  "consolidatedAvg": 37.33,
+  "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 148,
-    "tractionScore": 23,
-    "tractionReason": "One iOS rating; hardware preorders offered, order count undisclosed"
+    "tractionRank": 156,
+    "tractionScore": 35,
+    "tractionReason": "Band prototypes delivered to preorder customers, quantity undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/vexo.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/vexo.md",
-      "elad-gil": "fall2026/evals/elad-gil/vexo.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/vexo.md",
-      "paul-graham": "fall2026/evals/paul-graham/vexo.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/vexo.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/vexo.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/vexo.md"
+      "agi": "fall2026/evals/agi/vexo.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/vexo.md",
+      "exit": "fall2026/evals/exit/vexo.md"
     }
   }
 }

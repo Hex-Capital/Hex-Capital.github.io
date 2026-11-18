@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://dualizer.com",
     "yc_page": "https://www.ycombinator.com/companies/dualizer",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/dualizer))",
+    "batch": "[Fall 2026](https://www.ycombinator.com/companies/dualizer)",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Machine Learning, SaaS, Manufacturing, Enterprise Software",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/dualizer))",
-    "emails": "nathan@dualizer.com — Nathan Liu, CEO ([Dualizer, via search snippet](https://dualizer.com/)); nathanl2132@berkeley.edu — Nathan Liu, research contact ([Yang Group](https://nanowires.berkeley.edu/people/))"
+    "yc_partner": "[Christopher Golda](https://www.ycombinator.com/companies/dualizer)",
+    "emails": "nathan@dualizer.com, CEO and company contact ([Dualizer website](https://dualizer.com/), via search snippet, [Crunchbase](https://www.crunchbase.com/organization/dualizer))"
   },
   "tags": [
     "Hard Tech",
@@ -21,63 +21,39 @@
     "Enterprise Software"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-16T05:18:50.368Z",
+  "memoGeneratedAt": "2026-11-17T23:18:23.092Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 33,
-    "NR": 45,
-    "PG": 35,
-    "PT": 31,
-    "SL": 31,
-    "VK": 25
+    "AGI": 39,
+    "HG": 37,
+    "EXIT": 40
   },
-  "consolidatedAvg": 34.29,
-  "consolidatedRank": 174,
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 12,
-    "tractionReason": "First paid industrial pilot remains prospective; awards excluded"
+    "tractionRank": 108,
+    "tractionScore": 46,
+    "tractionReason": "Several active industry pilots, buyer names and payment undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/dualizer.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/dualizer.md",
-      "elad-gil": "fall2026/evals/elad-gil/dualizer.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/dualizer.md",
-      "paul-graham": "fall2026/evals/paul-graham/dualizer.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/dualizer.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/dualizer.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/dualizer.md"
+      "agi": "fall2026/evals/agi/dualizer.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/dualizer.md",
+      "exit": "fall2026/evals/exit/dualizer.md"
     }
   }
 }

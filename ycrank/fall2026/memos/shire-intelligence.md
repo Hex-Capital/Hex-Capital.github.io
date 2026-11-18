@@ -1,88 +1,97 @@
 ﻿# Shire Intelligence
 
-> Shire uses CCTV to run restaurants in real time.
+> Real-time restaurant intelligence
 
 | Field | Value |
 |-------|-------|
 | Website | https://shireintelligence.com/ |
 | YC Page | https://www.ycombinator.com/companies/shire-intelligence |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/shire-intelligence)) |
-| Industry | Consumer / Consumer -> Food and Beverage |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/shire-intelligence)) |
+| Industry | B2B / B2B |
 | Team Size | 4 |
 | Location | Myrtle Beach, SC, USA |
 | Tags | Deep Learning, Food Tech |
-| YC Partner | Grey Baker ([YC](https://www.ycombinator.com/companies/shire-intelligence)) |
-| Emails | alex@shireintelligence.com, founders@shireintelligence.com ([Shire privacy policy](https://shireintelligence.com/privacy-policy)) |
+| YC Partner | Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/shire-intelligence)) |
+| Emails | alex@shireintelligence.com, Alex Tabaku ([Shire website](https://shireintelligence.com/)), founders@shireintelligence.com, shared launch and privacy inbox ([Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes), [Shire Privacy Policy](https://shireintelligence.com/privacy-policy)) |
 
 ## The Idea
 
-- **Problem:** Full-service restaurant hosts manually track tables and server workloads during service, creating coordination problems when guests need attention ([Guduru, LinkedIn, retrieved Oct 2026, via search snippet](https://www.linkedin.com/posts/harshith-guduru_7000-applicants-1500-competitors-1-activity-7419061143924674560-2bsC)).
-- **Approach:** Existing CCTV feeds update table states, balance seating assignments, and trigger tasks for hosts, servers, and bussers ([Shire website, Oct 2026](https://shireintelligence.com/)).
-- **Differentiation:** Shire observes dining-room service through cameras, while PreciTaste guides kitchen production and Hostie automates guest calls and messages ([YC](https://www.ycombinator.com/companies/shire-intelligence), [PreciTaste investor](https://round2cap.com/round2-capital-invests-7-figure-sum-in-precitaste-to-accelerate-ai-driven-kitchen-management/), [Hostie](https://hostie.ai/)).
-- **Business Model:** Shire Intelligence starts at $40/month alongside an existing POS, Shire POS advertises free installation, and Enterprise uses custom pricing ([Shire website, Oct 2026](https://shireintelligence.com/)).
-- **TAM/SAM:** The broader global restaurant-management software market is estimated at $7.6 billion in 2026 with 18.0% CAGR through 2033; Shire-specific SAM: No public data found ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/restaurant-management-software-market)).
-- **GTM / Distribution:** The website solicits restaurant demos and presents owner and reseller options ([Shire website, Oct 2026](https://shireintelligence.com/)).
+- **Problem:** During busy shifts, full-service restaurants rely on managers scanning the floor and POS records of orders and payments, leaving staff to spot guests waiting for service, tables needing clearance, and uneven server workloads ([Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)).
+- **Approach:** Shire analyzes existing CCTV feeds to update table status, alert servers and bussers, and help hosts seat parties according to live server workload ([Shire Vision](https://shireintelligence.com/features/vision), [Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)).
+- **Differentiation:** Shire combines camera-derived floor events with POS and seating workflows, while Toast Tables updates status from POS and kitchen-display activity, GuardMind Reflex sends clips for staff to confirm table resets, and DTiQ ACTIONiQ emphasizes multi-site monitoring and audits ([Shire](https://shireintelligence.com/), [Toast](https://pos.toasttab.com/news/introducing-toast-tables-reservation-waitlist-management), [GuardMind](https://www.guardmind.com/industries/restaurants), [DTiQ](https://www.dtiq.com/actioniq)).
+- **Business Model:** Shire publishes quote-based Intelligence, POS, and Enterprise tiers, with lower transaction fees listed for POS and custom data migration for Enterprise ([Shire pricing, Nov 2026](https://shireintelligence.com/)).
+- **TAM/SAM:** Grand View Research estimates the broader global restaurant management software market at $7.6 billion in 2026 with 18.0% CAGR through 2033, while no public SAM data was found for camera-based floor management ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/restaurant-management-software-market)).
+- **GTM / Distribution:** Shire offers demos and a reseller inquiry path on its website and publicly solicits restaurant owners, groups, and POS distributors ([Shire](https://shireintelligence.com/), [Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)).
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Restaurant-specific footage and staff corrections could improve service-event detection, but exclusive training rights and a deployed feedback loop remain undocumented.
+- **Future moat:** [Inferred]: A dataset linking video events to staff actions and table outcomes could improve detection across locations, but Shire’s published terms give it a limited license to process uploaded restaurant data for platform operation and do not establish cross-customer training rights ([Shire Terms of Use](https://shireintelligence.com/terms-of-use)).
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** [Inferred]: Other restaurant-software vendors could combine available vision models with workflow integrations, given Shire’s disclosed prototype use of SAM3 segmentation and DINOv3 classification ([Tabaku, LinkedIn, via search snippet](https://www.linkedin.com/posts/alex-tabaku_7000-applicants-1500-competitors-1-winner-activity-7419768671205752832-kdhN)).
+- **Commoditization risk:** GuardMind and Koca Ventures already describe table tracking from existing cameras, and Shire’s January prototype used Meta’s SAM 3 and DINOv3 models for segmentation and table-state classification ([GuardMind](https://www.guardmind.com/industries/restaurants), [Koca Ventures](https://kocaventures.com/products/kobor-ai), [Shire prototype, Devpost](https://devpost.com/software/shire)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customer testimonial: Mathews Restaurant reports $65,000 saved on payment processing, with no measurement period disclosed ([Shire website, retrieved Oct 27, 2026](https://shireintelligence.com/)).
-  - Company-reported customer outcomes: $40,000+ average annual savings, 14% more guests served monthly, and seven-minute faster table turns, without disclosed sample sizes ([Shire website, retrieved Oct 27, 2026](https://shireintelligence.com/)).
-  - Funding database reports $500,000 raised from YC in September 2026 ([CB Insights](https://www.cbinsights.com/company/shire-intelligence/financials)).
-  - Shire AI prototype won NexHacks’ general track, according to its founders ([Tabaku, LinkedIn, retrieved Oct 2026, via search snippet](https://www.linkedin.com/posts/alex-tabaku_7000-applicants-1500-competitors-1-winner-activity-7419768671205752832-kdhN)).
-  - Zero jobs posted on YC as of October 27, 2026 ([YC Jobs](https://www.ycombinator.com/companies/shire-intelligence/jobs)).
+  - 13 live restaurants at launch, company-reported ([Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes), [TrustList launch date, Oct 30, 2026](https://trustlist.uk/launches/launch-weekly47-shire-restaurant-camera-floor-intelligence)).
+  - 12% average reduction in table-turn time across live restaurants, company-reported ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)).
+  - $40K+ average annual customer savings, 14% more guests served per month, and table turns 7 minutes faster, company-reported ([Shire website, Nov 2026](https://shireintelligence.com/)).
+  - Customer testimonial: Mathews Restaurant reported $65,000 in payment-processing savings ([Shire website, Nov 2026](https://shireintelligence.com/)).
+  - $500K in September financing listed by CB Insights and $125K listed by Dealroom, alongside YC’s published $500K standard deal ([CB Insights](https://www.cbinsights.com/company/shire-intelligence/financials), [Dealroom](https://app.dealroom.co/companies/shire_intelligence), [YC Standard Deal](https://www.ycombinator.com/deal)).
+  - Grand Strand Dispatch covered Shire’s admission to YC ([Grand Strand Dispatch, Nov 11, 2026](https://grandstranddispatch.com/horry-county/2026/11/myrtle-beach-startup-shire-y-combinator/)).
+  - 322 LinkedIn followers ([Shire LinkedIn, Nov 2026](https://www.linkedin.com/company/shireintelligence)).
+  - X account @ShireIntel, count not retrievable ([FS/TEC sponsor profile](https://informaconnect.com/fstec/sponsors/shire-intelligence/)).
+  - 5.4K estimated September visits to shireintelligence.com, from a small-sample traffic panel ([Mindspent, Sep 2026](https://mindspent.com/c/shire-intelligence)).
+  - 0 open roles on YC’s jobs board ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/shire-intelligence/jobs)).
 - **Competitors:**
-  - **PreciTaste (at least $24M raised, revenue unknown):** Vision-based kitchen production guidance rather than Shire’s dining-room coordination; its $24M Series A was co-led by Melitas Ventures and Cleveland Avenue in August 2022, followed by seven-figure Round2 revenue-based financing announced in July 2026 ([company release](https://www.prnewswire.com/news-releases/precitaste-raises-24m-series-a-to-redefine-foodservice-operations-with-vision-ai-technology-301601973.html), [Round2](https://round2cap.com/round2-capital-invests-7-figure-sum-in-precitaste-to-accelerate-ai-driven-kitchen-management/)).
-  - **Eat App (>$23M raised, $12M ARR):** Adjacent reservation and table-management platform; January 2026 financing comprised a $10M Series B extension led by PSG through Zenchef ([TechCrunch, Jan 2026](https://techcrunch.com/2026/01/20/eat-app-wants-a-bite-of-indias-restaurant-reservation-business-with-an-acquisition-and-swiggy-partnership/), [PSG announcement, via search snippet](https://ebs.publicnow.com/view/7D8594703B78B3A400B147D441885CAAD48E1520)).
-  - **Hostie ($16M raised, revenue unknown):** Adjacent restaurant voice/text concierge; its latest announced round was a $12M Series A led by Obvious Ventures in July 2026 ([Hostie release](https://www.prnewswire.com/news-releases/hostie-raises-12m-series-a-to-power-the-future-of-restaurant-hospitality-302820521.html)).
-  - [Inferred]: The closest retrieved alternatives address kitchen execution or guest communications, leaving fewer directly comparable camera-driven dining-room products.
-- **Why now:** [Inferred]: DINOv3’s August 2025 release and SAM3’s November 2025 release supplied reusable vision components matching those disclosed in Shire’s prototype ([Meta DINOv3](https://ai.meta.com/blog/dinov3-self-supervised-vision-model/), [Meta SAM3](https://ai.meta.com/research/publications/sam-3-segment-anything-with-concepts/), [founder disclosure, via search snippet](https://www.linkedin.com/posts/alex-tabaku_7000-applicants-1500-competitors-1-winner-activity-7419768671205752832-kdhN)).
+  - **DTiQ ACTIONiQ** ($145M disclosed growth investment from Bain Capital Private Credit, Oct 2024, revenue unknown): analyzes existing feeds for multi-location service timing, traffic, and audits ([DTiQ financing](https://www.dtiq.com/news/dtiq-secures-145m-growth-investment-from-bain-capital), [ACTIONiQ](https://www.dtiq.com/actioniq)).
+  - **GuardMind Reflex** (funding unknown, revenue unknown): sends table-reset clips and requires staff confirmation before marking a table ready ([GuardMind](https://www.guardmind.com/industries/restaurants)).
+  - **Koca Ventures Restaurant Operations AI** (funding unknown, revenue unknown): pairs camera-based table tracking with voice order routing ([Koca Ventures](https://kocaventures.com/products/kobor-ai)).
+  - **Toast Tables** ($1B gross IPO proceeds, Sep 2021, and $2.5B companywide annualized recurring run-rate, Sep 2026): updates table status from POS and kitchen-display activity ([Toast IPO](https://pos.toasttab.com/news/toast-announces-closing-of-initial-public-offering-and-full-exercise-of-underwriters-option-to-purchase-additional-shares), [Toast Q3 results](https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm), [Toast Tables](https://pos.toasttab.com/news/introducing-toast-tables-reservation-waitlist-management)).
+- **Why now:** [Inferred]: Meta’s August 2025 DINOv3 and November 2025 SAM 3 releases gave Shire reusable vision components for its January 2026 restaurant prototype ([Meta DINOv3](https://ai.meta.com/blog/dinov3-self-supervised-vision-model/), [Meta SAM 3](https://about.fb.com/news/2025/11/new-sam-models-detect-objects-create-3d-reconstructions/), [Devpost](https://devpost.com/software/shire)).
 
 ## Founders & Team
 
 - **Cameron Kuperman (Founder/CEO):**
-  - Background: Studied mathematics, ECE, and CS at Duke, worked in restaurants, and conducted spintronics research; prior exits: No public data found ([YC founder profile](https://www.ycombinator.com/founders/cameron-kuperman)).
+  - Background: Studied math, electrical and computer engineering, and computer science at Duke, worked at Mimosas Restaurant, and researched spintronics ([YC founder profile](https://www.ycombinator.com/founders/cameron-kuperman)).
   - Twitter/X: No public account found.
-  - LinkedIn: Headline: No public data found; indexed profile shows 559 followers ([LinkedIn, retrieved Oct 2026, via search snippet](https://www.linkedin.com/in/cameron-kuperman)).
-  - GitHub: No public repos found.
+  - LinkedIn: Shire affiliation visible, headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/cameron-kuperman)).
+  - GitHub: @cameronkuperman, `seimeo-mobile`, 1 star ([GitHub, Nov 2026](https://github.com/cameronkuperman/seimeo-mobile)).
+  - Business email: No public data found.
 - **Harshith Guduru (Founder/CTO):**
-  - Background: Studied CS and electrical engineering at Duke, interned at Walmart Global Tech and Bastazo, and reports cybersecurity and cancer-classification research; prior exits: No public data found ([YC founder profile](https://www.ycombinator.com/founders/harshith-guduru)).
+  - Background: Studied computer science and electrical engineering at Duke, interned at Walmart Global Tech and Bastazo, and co-authored graph-learning research in *Scientific Reports* ([YC founder profile](https://www.ycombinator.com/founders/harshith-guduru), [Scientific Reports, Jul 2025](https://www.nature.com/articles/s41598-025-13337-0)).
   - Twitter/X: No public account found.
-  - LinkedIn: Headline: No public data found; indexed profile shows approximately 1K followers ([LinkedIn, retrieved Oct 2026, via search snippet](https://www.linkedin.com/in/harshith-guduru)).
-  - GitHub: No public repos found.
+  - LinkedIn: Bastazo affiliation visible, headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/harshith-guduru)).
+  - GitHub: Personal handle unverified, with a documented contribution to ReVU, whose repository has 0 stars ([Devpost](https://devpost.com/software/revu-r3b2ew), [GitHub, Nov 2026](https://github.com/kwamebb/radiologyproject)).
+  - Business email: No public data found.
 - **Alex Tabaku (Founder/CFO):**
-  - Background: Studied mechanical engineering and mathematics at Clemson, worked in restaurants for four years, and researched VLA pathfinding; prior exits: No public data found ([YC founder profile](https://www.ycombinator.com/founders/alex-tabaku)).
+  - Background: Studied mechanical engineering and math at Clemson, worked in restaurants for four years, managed two restaurants, and researched vision-language-action models for robotic pathfinding ([YC founder profile](https://www.ycombinator.com/founders/alex-tabaku), [Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)).
   - Twitter/X: No public account found.
-  - LinkedIn: Headline: No public data found; indexed profile shows 391 followers ([LinkedIn, retrieved Oct 2026, via search snippet](https://www.linkedin.com/in/alex-tabaku)).
+  - LinkedIn: Profile bio reads “Founder @ Shire Intelligence (YC F26)” ([LinkedIn, via search snippet](https://www.linkedin.com/in/alex-tabaku)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Kuperman says he and Tabaku have known each other since kindergarten and worked in restaurants together, and reports that the team moved to San Francisco ([LinkedIn, via search snippet](https://www.linkedin.com/in/cameron-kuperman)).
-- **Founder-market fit:** [Inferred]: Kuperman and Tabaku’s restaurant experience supplies operating context, while Guduru’s engineering and research history supplies software experience ([Kuperman](https://www.ycombinator.com/founders/cameron-kuperman), [Tabaku](https://www.ycombinator.com/founders/alex-tabaku), [Guduru](https://www.ycombinator.com/founders/harshith-guduru), YC).
+  - Business email: alex@shireintelligence.com ([Shire website](https://shireintelligence.com/)).
+- **Co-founder relationship:** Kuperman and Tabaku have known each other since kindergarten and worked together in restaurants, while Kuperman and Guduru attended Duke ([Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes), [Duke Innovation & Entrepreneurship](https://entrepreneurship.duke.edu/news-events/duke-ie-network-news/)).
+- **Founder-market fit:** Kuperman’s front-of-house work and Tabaku’s restaurant management cover the workflows Shire automates, Guduru previously built reinforcement-learning systems at Bastazo, and YC’s current profile lists a team of 5 with Grey Baker as primary partner ([Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes), [YC company profile, Nov 2026](https://www.ycombinator.com/companies/shire-intelligence)).
 
 ## Key Risks
 
-- **Service-event accuracy:** [Inferred]: Classifying tables as clean, dirty, or occupied does not establish reliable recognition of ordering or payment intent; public production accuracy and latency measurements were not found ([prototype disclosure, via search snippet](https://www.linkedin.com/posts/alex-tabaku_7000-applicants-1500-competitors-1-winner-activity-7419768671205752832-kdhN), [YC product description](https://www.ycombinator.com/companies/shire-intelligence)).
-- **Camera-data governance:** [Inferred]: Deployment may encounter questions about footage handling because the published policy describes reservation and staff information without specifying camera-footage retention or model-training use ([Shire privacy policy, May 2026](https://shireintelligence.com/privacy-policy)).
-- **Competitive extension:** [Inferred]: PreciTaste could extend its existing vision, POS-integration, and staff-guidance capabilities toward overlapping workflows ([Round2, July 2026](https://round2cap.com/round2-capital-invests-7-figure-sum-in-precitaste-to-accelerate-ai-driven-kitchen-management/)).
+- **Camera coverage and detection:** [Inferred]: Blind spots and classification errors can produce missed or mistimed alerts, a risk supported by Shire’s prototype report of inconsistent classifications and Koca’s documentation of camera coverage limits ([Shire prototype, Devpost](https://devpost.com/software/shire), [Koca Ventures](https://kocaventures.com/products/kobor-ai)).
+- **Video governance:** Shire analyzes dining-room CCTV, but its public privacy policy does not specify footage retention or access controls, and YC partner Grey Baker has described processing as local ([Shire Vision](https://shireintelligence.com/features/vision), [Shire Privacy Policy](https://shireintelligence.com/privacy-policy), [Grey Baker on X, Oct 2026, mirrored](https://teapawt.org/greybaker/with_replies)).
+- **Incumbent substitution:** [Inferred]: Toast’s bundled reservations, seating, and live table status can satisfy part of the host workflow through the restaurant’s existing POS ([Toast Tables](https://pos.toasttab.com/products/toast-tables)).
+- **Outcome attribution:** Shire’s reported 12% average reduction in table-turn time lacks a published comparison baseline or measurement window ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader restaurant-management software: $7.6B in 2026; 18.0% CAGR, 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/restaurant-management-software-market)) |
+| TAM | $7.6B global restaurant management software in 2026, 18.0% CAGR through 2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/restaurant-management-software-market)) |
 | SAM | No public data found |
-| Traction | Customer testimonial: $65K processing savings; company claims 14% more monthly guests and seven-minute faster turns ([Shire, Oct 2026](https://shireintelligence.com/)) |
-| Revenue Signal | Intelligence starts at $40/month; POS installation free; Enterprise custom pricing ([Shire, Oct 2026](https://shireintelligence.com/)) |
-| Founders | Kuperman, CEO: Duke, restaurants; Guduru, CTO: Duke, Walmart/Bastazo; Tabaku, CFO: Clemson, restaurants ([YC](https://www.ycombinator.com/companies/shire-intelligence)) |
-| Competitors | PreciTaste: ≥$24M raised, revenue unknown, kitchen guidance ([company release](https://www.prnewswire.com/news-releases/precitaste-raises-24m-series-a-to-redefine-foodservice-operations-with-vision-ai-technology-301601973.html)); Eat App: >$23M raised, $12M ARR, reservations ([TechCrunch, Jan 2026](https://techcrunch.com/2026/01/20/eat-app-wants-a-bite-of-indias-restaurant-reservation-business-with-an-acquisition-and-swiggy-partnership/)); Hostie: $16M raised, revenue unknown, communications ([company release, July 2026](https://www.prnewswire.com/news-releases/hostie-raises-12m-series-a-to-power-the-future-of-restaurant-hospitality-302820521.html)) |
+| Traction | 13 live restaurants, 12% average reduction in table-turn time ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)). Customer testimonial: Mathews Restaurant reported $65,000 in processing savings ([Shire website, Nov 2026](https://shireintelligence.com/)). |
+| Revenue Signal | Quote-based Intelligence, POS, and Enterprise plans, with lower transaction fees advertised for POS ([Shire pricing, Nov 2026](https://shireintelligence.com/)) |
+| Founders | Cameron Kuperman (CEO): Duke, Mimosas Restaurant ([YC](https://www.ycombinator.com/founders/cameron-kuperman)). Harshith Guduru (CTO): Duke, Walmart Global Tech, Bastazo ([YC](https://www.ycombinator.com/founders/harshith-guduru)). Alex Tabaku (CFO): Clemson, restaurant management ([YC](https://www.ycombinator.com/founders/alex-tabaku), [Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)). |
+| Competitors | DTiQ ($145M disclosed growth investment, revenue unknown, multi-site video analytics) ([DTiQ financing](https://www.dtiq.com/news/dtiq-secures-145m-growth-investment-from-bain-capital), [ACTIONiQ](https://www.dtiq.com/actioniq)). GuardMind (funding and revenue unknown, staff-confirmed resets) ([GuardMind](https://www.guardmind.com/industries/restaurants)). Koca Ventures (funding and revenue unknown, voice order routing) ([Koca Ventures](https://kocaventures.com/products/kobor-ai)). Toast ($1B gross IPO proceeds, $2.5B annualized recurring run-rate as of Sep 2026, POS-linked table status) ([Toast IPO](https://pos.toasttab.com/news/toast-announces-closing-of-initial-public-offering-and-full-exercise-of-underwriters-option-to-purchase-additional-shares), [Toast Q3 results](https://www.sec.gov/Archives/edgar/data/1650164/000165016426000214/tost-20260930xexhibit991.htm), [Toast Tables](https://pos.toasttab.com/products/toast-tables)). |
 | Moat Signals | No public data found |
-| Risk Factors | Camera-based service inference ([YC](https://www.ycombinator.com/companies/shire-intelligence)), guest/staff data handling ([Shire policy](https://shireintelligence.com/privacy-policy)), overlapping vision automation ([Round2](https://round2cap.com/round2-capital-invests-7-figure-sum-in-precitaste-to-accelerate-ai-driven-kitchen-management/)) |
-| Founder Reach | LinkedIn: Kuperman 559, Guduru ~1K, Tabaku 391 followers ([Kuperman](https://www.linkedin.com/in/cameron-kuperman), [Guduru](https://www.linkedin.com/in/harshith-guduru), [Tabaku](https://www.linkedin.com/in/alex-tabaku); Oct 2026, via search snippets) |
-| Distribution Signals | Demo and reseller options ([Shire](https://shireintelligence.com/)); company LinkedIn present, follower count not retrievable ([LinkedIn](https://www.linkedin.com/company/shireintelligence/)); @ShireIntel listed, count not retrievable ([FS/TEC](https://informaconnect.com/fstec/sponsors/shire-intelligence/)) |
-| Emails | alex@shireintelligence.com, founders@shireintelligence.com ([Shire privacy policy](https://shireintelligence.com/privacy-policy)) |
+| Risk Factors | Camera classification errors ([Devpost](https://devpost.com/software/shire)), footage governance ([Shire Privacy Policy](https://shireintelligence.com/privacy-policy)), POS substitution ([Toast Tables](https://pos.toasttab.com/products/toast-tables)) |
+| Founder Reach | Kuperman: 559 LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/cameron-kuperman)), 1 GitHub repo star ([GitHub](https://github.com/cameronkuperman/seimeo-mobile)). Guduru: 1K LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/harshith-guduru)). Tabaku: 391 LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/alex-tabaku)). |
+| Distribution Signals | Launch YC post (Oct 2026, [Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes)), 322 company LinkedIn followers (Nov 2026, [LinkedIn](https://www.linkedin.com/company/shireintelligence)), 5.4K estimated site visits (Sep 2026, [Mindspent](https://mindspent.com/c/shire-intelligence)), website demos and reseller inquiries (Nov 2026, [Shire](https://shireintelligence.com/)) |
+| Emails | alex@shireintelligence.com, Alex Tabaku ([Shire website](https://shireintelligence.com/)), founders@shireintelligence.com, shared launch and privacy inbox ([Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes), [Shire Privacy Policy](https://shireintelligence.com/privacy-policy)) |

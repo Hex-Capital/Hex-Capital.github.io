@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Robotic Process Automation, Enterprise, AI",
     "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/se3-labs))",
-    "emails": "conan@se3labs.ai — general, privacy, and contractual contact; founder ownership unverified ([SE3 Terms](https://se3labs.ai/terms/))"
+    "emails": "conan@se3labs.ai — Conan Yu, company inquiries and privacy contact ([SE3 Labs](https://se3labs.ai/), [Privacy Policy](https://se3labs.ai/privacy/))"
   },
   "tags": [
     "Robotic Process Automation",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-09T23:56:48.626Z",
+  "memoGeneratedAt": "2026-11-18T00:23:59.704Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 41,
+    "agi": {
+      "score": 42,
       "tier": "Pass"
     },
-    "elad-gil": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 36,
-    "NR": 30,
-    "PG": 43,
-    "PT": 27,
-    "SL": 28,
-    "VK": 28
+    "AGI": 42,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 33.29,
-  "consolidatedRank": 188,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 15,
-    "tractionReason": "Published robot evaluations; no disclosed paying customers"
+    "tractionRank": 168,
+    "tractionScore": 32,
+    "tractionReason": "1,596 monthly dataset downloads, training sites planned"
   },
   "paths": {
     "memo": "fall2026/memos/se3-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/se3-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/se3-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/se3-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/se3-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/se3-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/se3-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/se3-labs.md"
+      "agi": "fall2026/evals/agi/se3-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/se3-labs.md",
+      "exit": "fall2026/evals/exit/se3-labs.md"
     }
   }
 }

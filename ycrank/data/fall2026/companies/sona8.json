@@ -1,82 +1,58 @@
 {
   "slug": "sona8",
   "name": "Sona8",
-  "oneLiner": "Voice agents survey employees to map, improve & automate workflows",
+  "oneLiner": "AI context layer: interviews employees to map and automate workflows",
   "metadata": {
     "website": "https://sona8.com",
     "yc_page": "https://www.ycombinator.com/companies/sona8",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sona8))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/sona8))",
     "industry": "B2B / B2B -> Operations",
-    "team_size": "5",
+    "team_size": "5 ([Y Combinator](https://www.ycombinator.com/companies/sona8))",
     "location": "San Francisco, CA, USA",
-    "tags": "HR Tech, Infrastructure, AI, Conversational AI",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/sona8))",
-    "emails": "anton@sona8.com ([YC](https://www.ycombinator.com/companies/sona8)); thilo@sona8.com, legal@sona8.com ([Imprint](https://sona8.com/imprint)); privacy@sona8.com ([Privacy Policy](https://sona8.com/privacy-policy)); security@sona8.com ([Trust Center, via search snippet](https://trust.sona8.com/))"
+    "tags": "B2B, Infrastructure, AI, Conversational AI",
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/sona8))",
+    "emails": "anton@sona8.com, CEO ([Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows)); legal@sona8.com, legal inquiries ([Sona8 Legal](https://sona8.com/legal)); privacy@sona8.com, privacy inquiries ([Sona8 Privacy Policy](https://sona8.com/privacy-policy))"
   },
   "tags": [
-    "HR Tech",
+    "B2B",
     "Infrastructure",
     "AI",
     "Conversational AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:06:59.534Z",
+  "memoGeneratedAt": "2026-11-17T23:12:51.494Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
+    "agi": {
       "score": 39,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 29,
+    "hypergrowth": {
+      "score": 40,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 55,
-    "NR": 52,
-    "PG": 51,
-    "PT": 42,
-    "SL": 39,
-    "VK": 29
+    "AGI": 39,
+    "HG": 40,
+    "EXIT": 39
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 18,
+  "consolidatedAvg": 39.33,
+  "consolidatedRank": 74,
   "traction": {
-    "tractionRank": 28,
-    "tractionScore": 63,
-    "tractionReason": "10,000+ interviews; signed top-three consulting firm; named customer testimonial"
+    "tractionRank": 55,
+    "tractionScore": 59,
+    "tractionReason": "10,000+ interviews, signed consultancy, named s.Oliver deployment"
   },
   "paths": {
     "memo": "fall2026/memos/sona8.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/sona8.md",
-      "elad-gil": "fall2026/evals/elad-gil/sona8.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/sona8.md",
-      "paul-graham": "fall2026/evals/paul-graham/sona8.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/sona8.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/sona8.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/sona8.md"
+      "agi": "fall2026/evals/agi/sona8.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/sona8.md",
+      "exit": "fall2026/evals/exit/sona8.md"
     }
   }
 }

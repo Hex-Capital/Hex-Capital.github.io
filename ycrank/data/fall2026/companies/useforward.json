@@ -1,17 +1,17 @@
 {
   "slug": "useforward",
   "name": "Forward",
-  "oneLiner": "Unifying Global Private Credit",
+  "oneLiner": "AI-native brokerage for private credit.",
   "metadata": {
     "website": "https://www.useforward.co/",
     "yc_page": "https://www.ycombinator.com/companies/useforward",
-    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/useforward))",
-    "industry": "B2B / B2B",
-    "team_size": "4",
+    "batch": "Fall 2026",
+    "industry": "Fintech / Fintech -> Credit and Lending",
+    "team_size": "7",
     "location": "San Francisco, CA, USA",
     "tags": "Fintech, B2B, AI",
-    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/useforward))",
-    "emails": "inquiry@useforward.co ([Forward privacy policy](https://www.useforward.co/privacy))"
+    "yc_partner": "David Lieb ([YC company directory](https://www.ycombinator.com/companies/useforward))",
+    "emails": "inquiry@useforward.co, general inquiries and Privacy Officer ([Forward privacy policy](https://www.useforward.co/privacy))"
   },
   "tags": [
     "Fintech",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:09:22.298Z",
+  "memoGeneratedAt": "2026-11-18T00:14:42.848Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 46,
+    "agi": {
+      "score": 45,
       "tier": "Neutral"
     },
-    "paul-graham": {
+    "hypergrowth": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 39,
-    "NR": 46,
-    "PG": 40,
-    "PT": 35,
-    "SL": 32,
-    "VK": 27
+    "AGI": 45,
+    "HG": 41,
+    "EXIT": 40
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 111,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 28,
   "traction": {
-    "tractionRank": 12,
-    "tractionScore": 72,
-    "tractionReason": "180K annualized revenue; 50+ funds onboarded"
+    "tractionRank": 13,
+    "tractionScore": 78,
+    "tractionReason": "Reported $180K annualized and $545K contracted, currency unspecified"
   },
   "paths": {
     "memo": "fall2026/memos/useforward.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/useforward.md",
-      "elad-gil": "fall2026/evals/elad-gil/useforward.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/useforward.md",
-      "paul-graham": "fall2026/evals/paul-graham/useforward.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/useforward.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/useforward.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/useforward.md"
+      "agi": "fall2026/evals/agi/useforward.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/useforward.md",
+      "exit": "fall2026/evals/exit/useforward.md"
     }
   }
 }

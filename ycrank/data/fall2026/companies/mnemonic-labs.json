@@ -5,75 +5,51 @@
   "metadata": {
     "website": "https://mnemoniclabs.ai/",
     "yc_page": "https://www.ycombinator.com/companies/mnemonic-labs",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/mnemonic-labs))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/mnemonic-labs))",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "AI",
-    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/mnemonic-labs))",
-    "emails": "founders@mnemoniclabs.ai — shared founder inbox ([YC launch](https://www.ycombinator.com/launches/XRK-mnemonic-labs-openai-for-financial-markets))"
+    "yc_partner": "Max Kolysh ([Y Combinator](https://www.ycombinator.com/companies/mnemonic-labs))",
+    "emails": "founders@mnemoniclabs.ai, shared founder inbox ([Launch YC](https://www.ycombinator.com/launches/XRK-mnemonic-labs-openai-for-financial-markets))"
   },
   "tags": [
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-16T05:17:50.629Z",
+  "memoGeneratedAt": "2026-11-17T22:44:27.266Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
+    "agi": {
       "score": 32,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 39,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 32,
-    "NR": 39,
-    "PG": 34,
-    "PT": 38,
-    "SL": 31,
-    "VK": 25
+    "AGI": 32,
+    "HG": 36,
+    "EXIT": 32
   },
-  "consolidatedAvg": 33.29,
-  "consolidatedRank": 187,
+  "consolidatedAvg": 33.33,
+  "consolidatedRank": 232,
   "traction": {
-    "tractionRank": 199,
+    "tractionRank": 216,
     "tractionScore": 10,
-    "tractionReason": "Internal model training underway; no disclosed customers or revenue"
+    "tractionReason": "Model training run and launch, no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/mnemonic-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/mnemonic-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/mnemonic-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/mnemonic-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/mnemonic-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/mnemonic-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/mnemonic-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/mnemonic-labs.md"
+      "agi": "fall2026/evals/agi/mnemonic-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/mnemonic-labs.md",
+      "exit": "fall2026/evals/exit/mnemonic-labs.md"
     }
   }
 }

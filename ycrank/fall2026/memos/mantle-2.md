@@ -6,74 +6,82 @@
 |-------|-------|
 | Website |  |
 | YC Page | https://www.ycombinator.com/companies/mantle-2 |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/mantle-2)) |
+| Batch | Fall 2026 ([YC directory](https://www.ycombinator.com/companies/mantle-2)) |
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Hardware, Robotics, AI, Industrial |
-| YC Partner | Pete Koomen ([YC](https://www.ycombinator.com/companies/mantle-2)) |
-| Emails | No public data found |
+| YC Partner | Pete Koomen ([YC directory](https://www.ycombinator.com/companies/mantle-2)) |
+| Emails | kieran@mantlemachines.com, CEO and sales inquiries ([YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)), info@mantlemachines.com, general and privacy inquiries ([Mantle website](https://www.mantlemachines.com/), [privacy policy](https://www.mantlemachines.com/privacy/)) |
 
 ## The Idea
 
-- **Problem:** Machine manufacturers must support deployed equipment, and White reports that missed uptime guarantees affected Curo’s contracts with Uber, Zoox and Google, illustrating the consequences of relying on internal support operations ([White’s announcement](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb), accessed October 27, 2026).
-- **Approach:** Mantle installs, repairs and maintains customers’ machines directly, assuming responsibility for uptime instead of providing a technician marketplace or software tool ([Mantle LinkedIn](https://www.linkedin.com/company/mantlemachines), accessed October 27, 2026).
-- **Differentiation:** Mantle targets equipment builders’ service needs, whereas Formic bundles equipment ownership, financing and maintenance for manufacturers; Roboworx already offers overlapping installation, repair and preventive maintenance for robot makers ([Mantle](https://www.linkedin.com/company/mantlemachines), [Formic](https://www.businesswire.com/news/home/20261022651853/en/Formic-Raises-$50-Million-to-Scale-Physical-AI-Across-American-Manufacturing), [Roboworx](https://roboworx.io/)).
-- **Business Model:** [Inferred]: Installation fees and maintenance contracts are possible monetization paths given the published service scope; actual pricing and contract structure: No public data found.
-- **TAM/SAM:** Mantle claims annual US machine-upkeep spending exceeds $500B without publishing methodology, while an adjacent Census category—commercial machinery repair and maintenance—recorded $62.12B revenue in 2024, up 8.24% year over year by calculation; Mantle-specific SAM: No public data found ([YC](https://www.ycombinator.com/companies/mantle-2), [Census via FRED](https://fred.stlouisfed.org/series/AIES8113RCT00US), September 2026).
-- **GTM / Distribution:** The stated customer is the machine manufacturer, and both founders publicly introduced Mantle through LinkedIn announcements ([White](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb), [Smith](https://www.linkedin.com/posts/graham-smith-a69572130_im-back-building-and-made-it-into-y-combinators-activity-7511169230101422080-PxLV), accessed October 27, 2026).
+- **Problem:** When equipment fails at customer sites, machine builders must pull engineers off other work and fly them out, retain local staff, or hire repair shops unfamiliar with the equipment, according to Mantle’s account of the alternatives ([YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)).
+- **Approach:** Mantle builds a record for each machine from manuals, telemetry, and repair history, uses AI to diagnose faults and attempt remote fixes, and dispatches trained technicians with parts and live expert support when a site visit is needed ([Mantle website](https://www.mantlemachines.com/), [YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)).
+- **Differentiation:** Mantle advertises per-unit service across robots and conventional factory equipment, Roboworx focuses on robot fleets with its Robot Service Manager software, and Formic bundles upkeep with the automation systems it deploys ([Mantle website](https://www.mantlemachines.com/), [Roboworx](https://roboworx.io/), [Formic](https://formic.co/full-service-automation)).
+- **Business Model:** Mantle offers a flat monthly fee per machine, with free onboarding and a custom quote ([Mantle website](https://www.mantlemachines.com/)).
+- **TAM/SAM:** Mantle estimates $500B+ in annual U.S. machine upkeep, while the Census Bureau’s narrower commercial and industrial machinery repair and maintenance category recorded $62.1B in 2024 revenue, up 8.2% year over year, with no public SAM estimate for Mantle’s target segment ([YC directory, 2026](https://www.ycombinator.com/companies/mantle-2), [U.S. Census Bureau via FRED](https://fred.stlouisfed.org/series/AIES8113RCT00US)).
+- **GTM / Distribution:** Mantle solicits quote requests from machine builders with distributed fleets, overseas OEMs entering the U.S., and factories operating mixed-brand equipment ([Mantle website](https://www.mantlemachines.com/)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Repeated repairs could create equipment-specific diagnostic knowledge and denser technician coverage, but no public repair dataset, coverage map or retention evidence establishes this today.
-- **Market structure:** [Inferred]: No structural barrier is established by the published offering because Roboworx already provides outsourced, nationwide robot service to equipment manufacturers ([Roboworx](https://roboworx.io/)).
-- **Commoditization risk:** [Inferred]: Existing service networks could reproduce the advertised service categories, although execution requires technicians and field operations; Roboworx and Burroughs already advertise those capabilities ([Roboworx](https://roboworx.io/), [Burroughs](https://www.burroughs.com/)).
+- **Moat today:** Mantle reports operating regional parts hubs and recording each service visit to update machine-specific procedures, with no public data found on exclusive data rights or customer switching costs ([Mantle website](https://www.mantlemachines.com/)).
+- **Future moat:** [Inferred]: Repeated repairs on the same machine models could build a fault history that improves diagnosis and parts selection, with no public data found on whether repair times or first-visit fix rates improve as records accumulate ([Mantle website](https://www.mantlemachines.com/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Roboworx already combines nationwide technician coverage with AI-based failure prediction, overlapping with Mantle’s field service and diagnostics ([Roboworx services](https://roboworx.io/), [Roboworx announcement, Feb 2026](https://www.linkedin.com/posts/roboworx-management_roboworx-predictiveanalytics-industrialrobotics-activity-7428090634097475585-pYig)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Public founder announcements introducing Mantle and its service scope ([White](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb), [Smith](https://www.linkedin.com/posts/graham-smith-a69572130_im-back-building-and-made-it-into-y-combinators-activity-7511169230101422080-PxLV), accessed October 27, 2026).
-  - Zero advertised YC job openings ([YC Jobs](https://www.ycombinator.com/companies/mantle-2/jobs), October 27, 2026).
+  - Multiple live customers, company-reported ([YC launch, Nov 2026](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)).
+  - 250+ field technicians, company-reported ([YC launch, Nov 2026](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)).
+  - Public launch on November 12, 2026 ([Kieran White’s launch post via Nitter](https://www.nitter.cf/mantlemachines)).
+  - Launch coverage ([Fondo, Nov 13, 2026](https://fondo.com/blog/mantle-machines-combines-field-technicians-with-ai-maintenance-operations)).
+  - 55 followers on X, @mantlemachines ([X profile via Nitter, Nov 17, 2026](https://www.nitter.cf/mantlemachines)).
+  - 0 open roles on YC ([YC Jobs, Nov 17, 2026](https://www.ycombinator.com/companies/mantle-2/jobs)).
 - **Competitors:**
-  - **Roboworx** (funding: No public data found; revenue unknown): Direct overlap through white-label robot installation, preventive maintenance and break/fix services, with an advertised nationwide technician network ([Roboworx](https://roboworx.io/), accessed October 27, 2026).
-  - **Burroughs** (funding: No public data found; $107M revenue in 2024): An adjacent OEM-agnostic service network covering transaction devices, IoT equipment and robotic systems, acquired by Loomis in June 2025 rather than operating as a robot-focused startup ([Loomis announcement](https://www.loomisusa.com/resources/press-releases-news/loomis-makes-strategic-acquisition-us-acquiring-burroughs), May 2025; [annual report](https://www.loomis.com/-/media/Files/Loomis-Corporate/Reports-and-Presentations/Annual-Report/Loomis-Annual-and-Sustainability-Report-2025.pdf); [Burroughs](https://www.burroughs.com/)).
-  - **Formic** ($50M latest combined equity/debt financing; cumulative funding: No public data found; revenue unknown): Its October 2026 financing included a Mercato Partners-led Series B and S2G debt, supporting equipment, deployment, financing and maintenance bundled into a monthly payment ([company release](https://www.businesswire.com/news/home/20261022651853/en/Formic-Raises-$50-Million-to-Scale-Physical-AI-Across-American-Manufacturing), October 22, 2026).
-- **Why now:** [Inferred]: Customers’ shift toward robot subscription and rental agreements makes ongoing service the supplier’s responsibility, a behavior change documented alongside 31% growth in the surveyed robot-as-a-service fleet in IFR’s 2025 report ([IFR](https://ifr.org/news), October 2025).
+  - Roboworx (funding unknown, revenue unknown) provides nationwide robot fleet service through certified technicians and uses predictive analytics to flag component failures ([Roboworx](https://roboworx.io/), [Roboworx announcement](https://www.linkedin.com/posts/roboworx-management_roboworx-predictiveanalytics-industrialrobotics-activity-7428090634097475585-pYig)).
+  - Robo Reliance (funding unknown, revenue unknown) recruits and trains technicians market by market for commercial, industrial, and home robot fleets ([Robo Reliance](https://www.roboreliance.com/)).
+  - Autonomy Field Services (funding unknown, revenue unknown) provides on-site robotics support in Tennessee and the Southeast, including work directed by the customer’s off-site engineering team ([Autonomy Field Services](https://www.autonomyfieldservices.com/)).
+  - Formic (at least $93.9M in disclosed Series A and B equity, revenue unknown) deploys and maintains factory automation as a service and announced a $40M Series B led by Mercato Partners in October 2026, alongside $10M in debt ([Formic Series A announcement](https://pricing--formic.netlify.app/resources/articles/the-next-chapter), [Formic Series B announcement](https://www.businesswire.com/news/home/20261022651853/en/), [Axios, Oct 2026](https://www.axios.com/newsletters/axios-pro-rata-9cbbf683-f661-4dba-8181-d8d618b4c13a7)).
+- **Why now:** [Inferred]: U.S. industrial robot installations rose 12% to nearly 38,500 units in 2025, adding equipment that manufacturers and operators will need to service ([International Federation of Robotics, Sep 2026](https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally)).
 
 ## Founders & Team
 
-- **Kieran White (Co-founder/CEO):**
-  - Background: Attended Bedford Modern School and did not pursue university, worked on Tesla’s European operations, and founded Curo, which his YC biography says reached 5,000 charging stations before acquisition by Inspiration Mobility Group; these are prior-company achievements ([school alumni magazine](https://embed-rech-01.dialog.cm/bedfordmodern/docs/eagle-news-spreads-digital), [YC founder profile](https://www.ycombinator.com/founders/kieran-white)).
-  - Twitter/X: No public account found.
-  - LinkedIn: [Public profile](https://www.linkedin.com/in/kieran-luke-white); headline not retrievable; 16,238 followers displayed on his announcement page ([LinkedIn](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb), accessed October 27, 2026).
+- **Kieran White (Founder/CEO):**
+  - Background: Studied business at Bedford Modern School, attended Draper University’s Hero Training, helped set up Tesla’s European Model 3 service network, and founded EV charging platform Curo, which Inspiration Mobility Group acquired ([Fundraising Fox](https://fundraisingfox.com/people/kieran-white), [YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots), [YC Curo profile](https://www.ycombinator.com/companies/curo)).
+  - Twitter/X: @kierwhite, 1.1K followers ([X profile via Nitter, Nov 17, 2026](https://www.nitter.cf/kierwhite)).
+  - LinkedIn: “Stealth” ([LinkedIn, via search snippet](https://www.linkedin.com/in/kieran-luke-white)).
   - GitHub: No public repos found.
-- **Graham Smith (Co-founder/CTO):**
-  - Background: UVA biomedical engineering graduate who co-founded Babylon Micro-Farms and previously operated an electronics-repair business; his Mantle announcement reports 450+ Babylon units, while YC reports $22M raised by Babylon, both separate from Mantle traction ([UVA](https://engineering.virginia.edu/news-events/news/grown-uva-babylon-micro-farms-thriving-including-model-aspiring-engineers), June 2024; [Smith announcement](https://www.linkedin.com/posts/graham-smith-a69572130_im-back-building-and-made-it-into-y-combinators-activity-7511169230101422080-PxLV); [YC founder profile](https://www.ycombinator.com/founders/graham-smith)).
-  - Twitter/X: No public account found.
-  - LinkedIn: [Public profile](https://www.linkedin.com/in/graham-smith-a69572130); headline not retrievable; 3,801 followers displayed on his announcement page ([LinkedIn](https://www.linkedin.com/posts/graham-smith-a69572130_im-back-building-and-made-it-into-y-combinators-activity-7511169230101422080-PxLV), accessed October 27, 2026).
+  - Email: kieran@mantlemachines.com ([YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)).
+- **Graham Smith (Founder/CTO):**
+  - Background: Studied biomedical engineering at the University of Virginia, ran an electronics repair business, and co-founded and served as CTO of Babylon Micro-Farms, where he developed automated indoor farming systems ([University of Virginia](https://engineering.virginia.edu/news-events/news/grown-uva-babylon-micro-farms-thriving-including-model-aspiring-engineers), [YC founder profile](https://www.ycombinator.com/founders/graham-smith)).
+  - Twitter/X: @GrahamShips, 20 followers ([X profile via Nitter, Nov 17, 2026](https://www.nitter.cf/GrahamShips)).
+  - LinkedIn: Headline not retrievable ([LinkedIn profile](https://www.linkedin.com/in/graham-smith-a69572130)).
   - GitHub: No public repos found.
+  - Email: No public data found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Both founders identify maintaining distributed equipment at their previous companies as the problem motivating Mantle, and both acknowledge Pete Koomen’s support ([White](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb), [Smith](https://www.linkedin.com/posts/graham-smith-a69572130_im-back-building-and-made-it-into-y-combinators-activity-7511169230101422080-PxLV)).
+- **Founder-market fit:** White ran a distributed EV charging network with uptime commitments, Smith co-founded a business that deployed and serviced automated farms, and YC lists Pete Koomen as Mantle’s primary partner ([White’s account](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb), [Smith’s account](https://www.linkedin.com/posts/graham-smith-a69572130_im-back-building-and-made-it-into-y-combinators-activity-7511169230101422080-PxLV), [YC directory](https://www.ycombinator.com/companies/mantle-2)).
 
 ## Key Risks
 
-- **Uptime exposure:** [Inferred]: Taking responsibility for uptime creates exposure to repeat callouts and service-level remedies, while White’s account of Curo explicitly documents contracts affected by missed uptime guarantees ([White announcement](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb)).
-- **Existing service substitutes:** [Inferred]: OEM customers can evaluate an overlapping outsourced service from Roboworx, which already advertises nationwide coverage, robotics-trained technicians and white-label support ([Roboworx](https://roboworx.io/)).
-- **Name ambiguity:** [Inferred]: The separate Mantle metal-printing company creates attribution risk for funding and product searches because it publishes news under the same company name ([Mantle 3D news](https://mantle3d.com/news/), [Mantle YC listing](https://www.ycombinator.com/companies/mantle-2)).
+- **Fixed-fee service costs:** [Inferred]: Repeat site visits and parts usage can raise costs on a fixed monthly contract, which Mantle seeks to limit through preventive maintenance, remote troubleshooting, and regional parts stocking ([Mantle website](https://www.mantlemachines.com/)).
+- **Diagnostic reliability:** [Inferred]: Incomplete telemetry or service history can limit fault diagnosis across machine models, and Mantle describes expert oversight as a fallback, with no public first-visit fix rate found ([Mantle website](https://www.mantlemachines.com/)).
+- **Local coverage:** [Inferred]: Response times depend on a technician trained for the specific machine and access to the right part, which Mantle addresses by assigning technicians to sites and stocking regional depots ([Mantle website](https://www.mantlemachines.com/)).
+- **Name collision:** [Inferred]: Search results can conflate Mantle Machines with San Francisco-based metal 3D printing company Mantle Inc., which uses the domain mantle3d.com ([Mantle Machines](https://www.mantlemachines.com/), [Mantle 3D](https://mantle3d.com/news/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Company-claimed $500B+ annual US machine-upkeep spending; methodology and growth rate undisclosed ([YC](https://www.ycombinator.com/companies/mantle-2), accessed October 2026). |
+| TAM | $500B+ annual U.S. machine upkeep, company estimate ([YC directory, 2026](https://www.ycombinator.com/companies/mantle-2)); $62.1B in the narrower U.S. commercial and industrial machinery repair and maintenance category in 2024, up 8.2% year over year ([U.S. Census Bureau via FRED](https://fred.stlouisfed.org/series/AIES8113RCT00US)) |
 | SAM | No public data found |
-| Traction | Zero YC job postings ([YC Jobs](https://www.ycombinator.com/companies/mantle-2/jobs), October 27, 2026). |
-| Revenue Signal | No public data found |
-| Founders | Kieran White, CEO: Tesla operations, Curo founder and acquisition ([YC](https://www.ycombinator.com/founders/kieran-white)); Graham Smith, CTO: Babylon co-founder, UVA engineering graduate ([YC](https://www.ycombinator.com/founders/graham-smith)). |
-| Competitors | Roboworx: funding undisclosed, revenue unknown, outsourced robot service ([company](https://roboworx.io/)); Burroughs: funding undisclosed, $107M 2024 revenue, broader device maintenance ([Loomis](https://www.loomisusa.com/resources/press-releases-news/loomis-makes-strategic-acquisition-us-acquiring-burroughs)); Formic: $50M latest financing, revenue unknown, equipment-plus-service subscription ([release](https://www.businesswire.com/news/home/20261022651853/en/Formic-Raises-$50-Million-to-Scale-Physical-AI-Across-American-Manufacturing), October 2026). |
-| Moat Signals | No public data found |
-| Risk Factors | Uptime responsibility ([Mantle LinkedIn](https://www.linkedin.com/company/mantlemachines)); overlapping OEM service offerings ([Roboworx](https://roboworx.io/)); shared company name ([Mantle 3D](https://mantle3d.com/news/)). |
-| Founder Reach | White: LinkedIn 16,238 ([LinkedIn](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb)); Smith: LinkedIn 3,801 ([LinkedIn](https://www.linkedin.com/posts/graham-smith-a69572130_im-back-building-and-made-it-into-y-combinators-activity-7511169230101422080-PxLV)); accessed October 27, 2026. |
-| Distribution Signals | Founder-led LinkedIn introduction ([White announcement](https://www.linkedin.com/posts/kieran-luke-white_im-joining-y-combinator-for-the-second-activity-7511095426830376960-Ozwb), accessed October 2026). |
-| Emails | No public data found |
+| Traction | Multiple live customers and 250+ field technicians, company-reported ([YC launch, Nov 2026](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)) |
+| Revenue Signal | Flat monthly fee per machine, priced by quote, with free onboarding ([Mantle website](https://www.mantlemachines.com/)) |
+| Founders | Kieran White (CEO), Tesla service network and Curo acquisition ([YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)); Graham Smith (CTO), UVA biomedical engineering and Babylon Micro-Farms co-founder ([University of Virginia](https://engineering.virginia.edu/news-events/news/grown-uva-babylon-micro-farms-thriving-including-model-aspiring-engineers)) |
+| Competitors | Roboworx (funding unknown, revenue unknown, robot service and predictive analytics) ([Roboworx](https://roboworx.io/), [Roboworx announcement](https://www.linkedin.com/posts/roboworx-management_roboworx-predictiveanalytics-industrialrobotics-activity-7428090634097475585-pYig)); Robo Reliance (funding unknown, revenue unknown, locally recruited robot technicians) ([Robo Reliance](https://www.roboreliance.com/)); Autonomy Field Services (funding unknown, revenue unknown, Southeast robotics support) ([Autonomy Field Services](https://www.autonomyfieldservices.com/)); Formic (at least $93.9M in disclosed Series A and B equity, revenue unknown, managed automation deployments) ([Formic Series A announcement](https://pricing--formic.netlify.app/resources/articles/the-next-chapter), [Formic Series B announcement](https://www.businesswire.com/news/home/20261022651853/en/), [Axios](https://www.axios.com/newsletters/axios-pro-rata-9cbbf683-f661-4dba-8181-d8d618b4c13a7)) |
+| Moat Signals | Unit-level service histories, machine-specific technician training, and regional parts hubs, company-reported ([Mantle website](https://www.mantlemachines.com/)) |
+| Risk Factors | Fixed monthly service fee, diagnosis dependent on unit records, technician and parts availability ([Mantle website](https://www.mantlemachines.com/)) |
+| Founder Reach | Kieran White, 1.1K X followers ([X profile via Nitter, Nov 17, 2026](https://www.nitter.cf/kierwhite)); Graham Smith, 20 X followers ([X profile via Nitter, Nov 17, 2026](https://www.nitter.cf/GrahamShips)) |
+| Distribution Signals | YC launch (Nov 2026) ([Launch YC](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)); 55 X followers ([X profile via Nitter, Nov 17, 2026](https://www.nitter.cf/mantlemachines)); LinkedIn company page, count not retrievable ([LinkedIn](https://www.linkedin.com/company/mantlemachines)); launch coverage ([Fondo, Nov 13, 2026](https://fondo.com/blog/mantle-machines-combines-field-technicians-with-ai-maintenance-operations)) |
+| Emails | kieran@mantlemachines.com, CEO and sales inquiries ([YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)), info@mantlemachines.com, general and privacy inquiries ([Mantle website](https://www.mantlemachines.com/), [privacy policy](https://www.mantlemachines.com/privacy/)) |

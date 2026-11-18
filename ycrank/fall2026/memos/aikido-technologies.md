@@ -6,85 +6,85 @@
 |-------|-------|
 | Website | https://www.aikidotechnologies.com |
 | YC Page | https://www.ycombinator.com/companies/aikido-technologies |
-| Batch | Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/aikido-technologies)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/aikido-technologies)) |
 | Industry | Industrials / Industrials -> Energy |
-| Team Size | 5 |
+| Team Size | 5 ([Y Combinator](https://www.ycombinator.com/companies/aikido-technologies)) |
 | Location | San Francisco, CA, USA; Remote |
 | Tags | Energy, Renewable Energy, Cloud Computing, AI |
-| YC Partner | Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/aikido-technologies)) |
-| Emails | info@aikidotechnologies.com ([company website](https://www.aikidotechnologies.com)) |
+| YC Partner | Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/aikido-technologies)) |
+| Emails | sam.kanner@aikidotechnologies.com, CEO ([Aikido seed announcement, Jun 2024](https://www.businesswire.com/news/home/20240620853924/en/Floating-Wind-Startup-Aikido-Technologies-Raises-4M-in-Seed-Financing); info@aikidotechnologies.com, general inquiries ([Aikido contact](https://www.aikidotechnologies.com/)); reserve@aikidotechnologies.com, capacity inquiries ([Aikido Reserve](https://www.aikidotechnologies.com/reserve)) |
 
 ## The Idea
 
-- **Problem:** AI infrastructure developers face constraints obtaining power, land, and cooling water near demand centers when building conventional terrestrial datacenters ([Aikido announcement, March 2026](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)).
-- **Approach:** The proposed platform integrates a 15MW+ wind turbine, four-plus hours of batteries, modular data halls, and closed-loop cooling that transfers heat through the hull into seawater ([Aikido technology page, accessed October 2026](https://www.aikidotechnologies.com/technology)).
-- **Differentiation:** Aikido combines wind generation and accessible data halls on one platform, whereas Panthalassa uses wave-powered autonomous nodes and Subsea Cloud submerges compute units ([Aikido](https://www.aikidotechnologies.com/technology), [Panthalassa announcement, May 2026](https://markets.financialcontent.com/wral/article/bizwire-2026-5-4-panthalassa-raises-140-million-to-power-ai-at-sea), [Subsea Cloud](https://www.subseacloud.com)).
-- **Business Model:** [Inferred]: Contracted powered datacenter capacity or compute services appear possible because Aikido describes supplying offshore infrastructure to datacenter customers; public pricing: No public data found ([company announcement, March 2026](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)).
-- **TAM/SAM:** The broader floating-datacenter market was estimated at $450M in 2025, reaching $2.445B in 2032 at 27.3% CAGR during 2026–2032; this includes configurations beyond Aikido’s segment, whose SAM is undisclosed ([MarketsandMarkets, 2026](https://www.marketsandmarkets.com/Market-Reports/floating-data-center-market-129965127.html)).
-- **GTM / Distribution:** Aikido reports interest from AI inference customers and commercial discussions for an identified UK site targeting operations in 2028 ([company announcement, March 2026](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)).
+- **Problem:** AI labs and cloud operators sourcing compute from onshore data centers face multiyear waits for firm power connections in constrained grids ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea), [IEA, Oct 2026](https://www.iea.org/files/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf)).
+- **Approach:** AO60DC is designed to house 10+ MW of IT load on a modular floating platform with a 15+ MW wind turbine, battery storage, diesel backup and closed-loop cooling that transfers heat to seawater ([YC company profile](https://www.ycombinator.com/companies/aikido-technologies), [Aikido Technology](https://www.aikidotechnologies.com/technology)).
+- **Differentiation:** Aikido integrates a wind turbine into its floating data center, while Panthalassa uses wave-powered inference nodes, Atomarine plans gas-powered barges ahead of nuclear deployment, and Hailanyun runs subsea modules supplied by an offshore wind farm ([Aikido](https://www.aikidotechnologies.com/technology), [Panthalassa](https://www.prnewswire.com/news-releases/panthalassa-raises-140-million-to-power-ai-at-sea-302761078.html), [Atomarine](https://www.ycombinator.com/companies/atomarine), [Highlander](https://www.highlander-global.com/info/1299.html)).
+- **Business Model:** Aikido offers bring-your-own-hardware colocation and dedicated GPU capacity, with pricing, capacity and delivery dates set by agreement ([Aikido Reserve](https://www.aikidotechnologies.com/reserve)).
+- **TAM/SAM:** Global Market Insights estimates the broader floating and underwater data center market at $260.8M in 2026 with 12.7% CAGR through 2035, and no public TAM/SAM data was found for wind-integrated floating AI data centers specifically ([Global Market Insights, Oct 2026](https://www.gminsights.com/industry-analysis/floating-data-center-market)).
+- **GTM / Distribution:** Aikido solicits introductions to neoclouds, AI labs, inference providers and compute aggregators through its YC launch and routes prospects to a direct capacity inquiry form ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea), [Aikido Reserve](https://www.aikidotechnologies.com/reserve)).
 
 ## Defensibility
 
-- **Moat today:** US patent 12,571,372, granted March 10, 2026, lists Aikido as assignee and covers floating wind turbine systems and methods ([patent record](https://patents.google.com/patent/US12571372B2/en)).
-- **Future moat:** [Inferred]: Deployment experience could accumulate into operating know-how, but the published technology page describes a non-operational platform demonstration and a planned datacenter retrofit ([Aikido technology page](https://www.aikidotechnologies.com/technology)).
-- **Market structure:** [Inferred]: Offshore installation and qualification create engineering requirements, but no structural incumbent exclusion is established, and Aikido explicitly uses existing offshore suppliers and vessels ([company website](https://www.aikidotechnologies.com)).
-- **Commoditization risk:** [Inferred]: Marine engineering and datacenter suppliers could integrate competing systems, although assembly and qualification require development, as illustrated by ABS’s staged assessment of Aikido’s platform ([ABS, February 2025](https://ww2.eagle.org/en/newsdetail.ff14c0e2.html)).
+- **Moat today:** U.S. patent US12631161B2, assigned to Aikido and granted in May 2026, covers floating wind turbine systems including a platform that folds for transport and unfolds for deployment ([U.S. patent record](https://patents.google.com/patent/US12631161B2/en)).
+- **Future moat:** [Inferred]: Operating data from repeated deployments could improve platform design and maintenance planning, but Aikido’s published milestones cover a pilot retrofit and initial full-scale design ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Samsung Heavy Industries, Capital Clean Energy Carriers and Lloyd’s Register are jointly developing a floating data center design, giving shipbuilders and vessel operators a route to offer competing marine capacity ([Capital Clean Energy Carriers](https://ir.capitalpplp.com/news-releases/news-release-details/capital-clean-energy-carriers-corp-lloyds-register-and-samsung)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Prior floating-wind business: $4M seed financing led by Azolla Ventures, with Propeller, Sabanci Climate Ventures, Cisco Foundation, and Anthropocene Ventures participating ([Azolla, June 2024](https://azollaventures.com/floating-wind-startup-aikido-technologies-raises-4m-in-seed-financing/)).
-  - Additional equity offering: $1,721,999 sold to four investors against a $1,999,999 offering ([SEC Form D/A, October 8, 2026](https://www.sec.gov/Archives/edgar/data/2026799/000202679926000005/xslFormDX01/primary_doc.xml)).
-  - Prior platform milestone: ABS issued a statement of maturity after witnessing a quarter-scale upending demonstration; this concerned floating-wind technology ([ABS, February 2025](https://ww2.eagle.org/en/newsdetail.ff14c0e2.html)).
-  - Datacenter product expansion announced March 3, 2026, with Norway proof-of-concept deployment planned that year ([Aikido announcement](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)).
-  - NVIDIA Inception membership and planned GTC 2026 participation ([company news](https://www.aikidotechnologies.com/news-stories/aikido-selected-for-nvidia-inception-program)).
-  - 1,992 company LinkedIn followers in the retrieved index ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/company/aikido-technologies)).
-  - No active job postings ([official careers board, accessed October 2026](https://jobs.polymer.co/aikido-technologies)).
+  - Prospective GPU renters lined up, according to Aikido, with buyer names, contract terms and payment status undisclosed ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)).
+  - A1DC pilot retrofit began in June and received final platform permits in September, with a November test fit and December water deployment planned ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)).
+  - $1,721,999 in equity sold against a $1,999,999 offering ([SEC Form D/A, Oct 2026](https://www.sec.gov/Archives/edgar/data/2026799/000202679926000005/xslFormDX01/primary_doc.xml)).
+  - NVIDIA Inception membership disclosed at the AO60DC announcement ([Aikido release, Mar 2026](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)).
+  - AO60DC and the planned Norway pilot covered by TechCrunch and Data Center Dynamics ([TechCrunch, Mar 2026](https://techcrunch.com/2026/03/04/who-needs-data-centers-in-space-when-they-can-float-offshore/), [Data Center Dynamics, Mar 2026](https://www.datacenterdynamics.com/en/news/aikido-launches-floating-wind-platform-integrated-with-modular-ai-data-center/)).
+  - 2,268 company LinkedIn followers and zero YC job listings ([LinkedIn, Nov 2026](https://www.linkedin.com/company/aikido-technologies/), [YC Jobs, Nov 2026](https://www.ycombinator.com/companies/aikido-technologies/jobs)).
+  - **Prior product, floating wind platforms:** Azolla Ventures led a $4M seed in June 2024 and Morrison completed Aikido One’s structural assembly in under 40 working hours that November, ahead of the early-2025 data center pivot ([Aikido seed release](https://www.businesswire.com/news/home/20240620853924/en/Floating-Wind-Startup-Aikido-Technologies-Raises-4M-in-Seed-Financing), [Aikido One release](https://www.businesswire.com/news/home/20241126598113/en/Aikido-Announces-Final-Assembly-of-their-First-Floating-Offshore-Wind-Platform-in-40-hours-Representing-10x-Speed-Up), [YC launch](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)).
 - **Competitors:**
-  - **Panthalassa** ($210M total confirmed in May 2026; revenue unknown): wave-powered autonomous compute, with a $140M Series B led by Peter Thiel; an August report described another $225M raise in progress ([GeekWire, May 2026](https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/), [The Information, August 2026](https://www.theinformation.com/articles/ocean-powered-data-center-startup-set-double-valuation-2-billion/)).
-  - **Nautilus Data Technologies** ($318.02M reported raised; revenue unknown): adjacent facility-scale liquid cooling supplier, with a January 2026 Series B led by Pangaea Ventures whose size the company did not disclose ([CB Insights, via search snippet](https://www.cbinsights.com/company/nautilus-data-technologies/financials), [Nautilus announcement](https://nautilusdt.com/press-release/nautilus-data-technologies-secures-strategic-series-b-funding-to-expand-facility-scale-liquid-cooling-platform-globally/)).
-  - **Subsea Cloud** (funding: No public data found; revenue unknown): submerged datacenter units rather than Aikido’s wind-platform data halls ([Subsea Cloud](https://www.subseacloud.com), [Aikido](https://www.aikidotechnologies.com/technology)).
-- **Why now:** [Inferred]: Aikido’s March 2026 launch connects constrained AI infrastructure deployment with offshore wind sites it says can be repurposed for compute ([company announcement](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)).
+  - **Panthalassa** ($210M raised through May 2026, revenue unknown): Wave-powered inference nodes use satellite links, with a $140M May Series B led by Peter Thiel and an August investment from NAVER of undisclosed size ([GeekWire](https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/), [Panthalassa](https://www.prnewswire.com/news-releases/panthalassa-raises-140-million-to-power-ai-at-sea-302761078.html), [NAVER](https://navercorp.com/media/pressReleasesDetail?seq=10034595)).
+  - **Atomarine** ($19M announced, revenue unknown): Its barges are designed for gas generation first and ship-mounted nuclear reactors later, with a $19M November 2026 seed led by YC ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/atomarine-raises-19m-for-nuclear-powered-floating-data-centers/)).
+  - **Hailanyun / HiCloud** (over RMB 100M raised by 2025, revenue unknown): Its sealed seabed modules draw power from a separate wind farm, and the National Green Development Fund disclosed a strategic investment of unspecified size in September 2026 ([Lin-gang administration](https://www.lingang.gov.cn/html/website/lg/English/News1630758253379031042/Updates/1955470371938476034.html), [Highlander](https://www.highlander-global.com/info/1299.html)).
+- **Why now:** [Inferred]: A queue of at least 180 GW of data center projects at advanced stages globally as of May 2026 gives developers a reason to test designs that generate power on site ([IEA, Oct 2026](https://www.iea.org/files/cd360a30-aaef-43cd-84e6-a125c3a0bc67/PoweringArtificialIntelligence.pdf)).
 
 ## Founders & Team
 
-- **Sam Kanner (Co-founder/CEO):**
-  - Background: UC Berkeley PhD; previously led R&D at Principle Power ([company biography](https://www.aikidotechnologies.com/about)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable; approximately 3K followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/sam-kanner)).
-  - GitHub: No public repos found.
-- **Bingbin Yu (Co-founder/Chief Engineer, Platforms):**
-  - Background: University of Michigan PhD; previously led hydrodynamics analysis at Principle Power ([company biography](https://www.aikidotechnologies.com/about)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable; 541 followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/bingbin-yu)).
-  - GitHub: No public repos found.
-- **James Reeves (Co-founder/Chief Engineer, Wind Turbines):**
-  - Background: Aerospace engineer and former helicopter designer; education lists University of the Witwatersrand ([company biography](https://www.aikidotechnologies.com/about), [LinkedIn, via search snippet](https://uk.linkedin.com/in/james-o-reeves)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable; 646 followers ([LinkedIn, retrieved October 2026, via search snippet](https://uk.linkedin.com/in/james-o-reeves)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Kanner and Yu previously worked at Principle Power ([company biographies](https://www.aikidotechnologies.com/about)).
-- **Founder-market fit:** Documented experience spans offshore R&D, hydrodynamics, and turbine engineering, while investor Azolla financed the original floating-wind development ([company biographies](https://www.aikidotechnologies.com/about), [Azolla, June 2024](https://azollaventures.com/floating-wind-startup-aikido-technologies-raises-4m-in-seed-financing/)).
+- **Sam Kanner (Co-founder and CEO):**
+  - **Background:** UC Berkeley mechanical engineering PhD, former Principle Power head of R&D, and previously at Otherlab. His published business email is sam.kanner@aikidotechnologies.com ([YC founder profile](https://www.ycombinator.com/founders/sam-kanner), [Aikido About](https://www.aikidotechnologies.com/about), [Aikido seed release](https://www.businesswire.com/news/home/20240620853924/en/Floating-Wind-Startup-Aikido-Technologies-Raises-4M-in-Seed-Financing)).
+  - **Twitter/X:** @samkanner, 231 followers on a public mirror ([Teapawt, Nov 2026](https://www.teapaw.org/samkanner)).
+  - **LinkedIn:** Headline not retrievable ([LinkedIn profile](https://www.linkedin.com/in/sam-kanner)).
+  - **GitHub:** No public repos found.
+- **James Reeves (Co-founder and Chief Engineer, Wind Turbines):**
+  - **Background:** University of the Witwatersrand alumnus and former helicopter designer who worked with the team at Otherlab ([YC founder profile](https://www.ycombinator.com/founders/james-reeves), [YC launch](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)). Business email: No public data found.
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Headline not retrievable ([LinkedIn profile](https://uk.linkedin.com/in/james-o-reeves)).
+  - **GitHub:** No public repos found.
+- **Bingbin Yu (Co-founder and Chief Engineer, Platforms):**
+  - **Background:** University of Michigan PhD in naval architecture and marine engineering, former Principle Power head of hydrodynamics analysis, and previously at Otherlab ([YC founder profile](https://www.ycombinator.com/founders/bingbin-yu), [Aikido About](https://www.aikidotechnologies.com/about)). Business email: No public data found.
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Headline not retrievable ([LinkedIn profile](https://www.linkedin.com/in/bingbin-yu)).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** Kanner and Yu met at Principle Power in 2014 and later met Reeves at Otherlab ([Aikido About](https://www.aikidotechnologies.com/about), [YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)).
+- **Founder-market fit:** Kanner’s floating wind R&D, Yu’s platform hydrodynamics and Reeves’s aerospace design experience map to the platform’s engineering work, which began with support from Breakthrough Energy Fellows ([Aikido About](https://www.aikidotechnologies.com/about), [Breakthrough Energy](https://www.breakthroughenergy.org/fellows-project/aikido-technologies/)).
 
 ## Key Risks
 
-- **Technical validation:** [Inferred]: The projected PUE below 1.08 requires integrated operating validation; the technology page describes a non-operational demonstration and planned compute retrofit ([Aikido](https://www.aikidotechnologies.com/technology)).
-- **Power continuity:** [Inferred]: Dependence on variable wind requires backup infrastructure; Aikido includes batteries, subsea grid connections, and diesel generation ([technology page](https://www.aikidotechnologies.com/technology), [YC, via search snippet](https://www.ycombinator.com/companies/aikido-technologies)).
-- **Marine servicing:** [Inferred]: Offshore hardware replacement depends on vessel access; Aikido proposes scheduled vessel trips and temporary technician accommodation ([technology page](https://www.aikidotechnologies.com/technology)).
-- **Name collision:** A third-party profile mixes this marine company with Aikido Security’s founders and software product, creating attribution risk ([Dealroom, via search snippet](https://app.dealroom.co/companies/aikido_technologies)).
+- **Technical scale-up:** Aikido targets power usage effectiveness below 1.08 for AO60DC, with the A1DC retrofit serving as the proof of concept and full-scale third-party certification still planned in its launch update ([Aikido Technology](https://www.aikidotechnologies.com/technology), [YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)).
+- **Power and maintenance continuity:** Wind variability and vessel-dependent servicing can interrupt offshore operations, with batteries, backup generation and robotic inspection included in the design ([YC company profile](https://www.ycombinator.com/companies/aikido-technologies), [YC launch](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)).
+- **Buyer conversion:** The reservation form collects requirements without binding buyers, and capacity, pricing and delivery are confirmed in a separate agreement ([Aikido Reserve](https://www.aikidotechnologies.com/reserve)).
+- **Name confusion:** Aikido Security uses the same short name for its application security business and publishes at aikido.dev, while the marine data center company publishes at aikidotechnologies.com ([Aikido Security](https://www.aikido.dev/), [YC company profile](https://www.ycombinator.com/companies/aikido-technologies)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader floating datacenters: $450M in 2025; 27.3% CAGR, 2026–2032 ([MarketsandMarkets, 2026](https://www.marketsandmarkets.com/Market-Reports/floating-data-center-market-129965127.html)) |
+| TAM | Broader market proxy: $260.8M in 2026, 12.7% CAGR through 2035 ([Global Market Insights, Oct 2026](https://www.gminsights.com/industry-analysis/floating-data-center-market)). |
 | SAM | No public data found |
-| Traction | Datacenter launch, March 2026; Norway proof of concept planned for 2026 ([Aikido announcement](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)) |
-| Revenue Signal | No public data found |
-| Founders | Kanner: CEO, Berkeley PhD; Yu: platforms chief engineer, Michigan PhD; Reeves: wind-turbine chief engineer, helicopter design ([company biographies](https://www.aikidotechnologies.com/about)) |
-| Competitors | Panthalassa ($210M through May 2026, revenue unknown, wave power) ([GeekWire](https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/)); Nautilus ($318.02M reported, revenue unknown, liquid cooling) ([CB Insights, via search snippet](https://www.cbinsights.com/company/nautilus-data-technologies/financials)); Subsea Cloud (funding undisclosed, revenue unknown, submerged units) ([company website](https://www.subseacloud.com)) |
-| Moat Signals | Floating-wind patent US12571372B2, granted March 2026 ([patent record](https://patents.google.com/patent/US12571372B2/en)) |
-| Risk Factors | Projected cooling performance, backup-power dependence, vessel-based servicing ([Aikido technology page](https://www.aikidotechnologies.com/technology)) |
-| Founder Reach | LinkedIn: Kanner approximately 3K, Yu 541, Reeves 646 followers ([Kanner](https://www.linkedin.com/in/sam-kanner), [Yu](https://www.linkedin.com/in/bingbin-yu), [Reeves](https://uk.linkedin.com/in/james-o-reeves), retrieved October 2026, via search snippets) |
-| Distribution Signals | NVIDIA Inception membership ([company news, 2026](https://www.aikidotechnologies.com/news-stories/aikido-selected-for-nvidia-inception-program)) |
-| Emails | info@aikidotechnologies.com ([company website](https://www.aikidotechnologies.com)) |
+| Traction | Prospective GPU renters and A1DC platform permits reported ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)); NVIDIA Inception membership ([Aikido, Mar 2026](https://www.globenewswire.com/news-release/2026/03/03/3248183/0/en/Aikido-Launches-Offshore-Datacenter-Technology-to-Deploy-GW-scale-Sovereign-AI-Compute-Onboard-Their-Floating-Wind-Platform.html)). |
+| Revenue Signal | Colocation and dedicated GPU capacity priced by agreement ([Aikido Reserve](https://www.aikidotechnologies.com/reserve)). Realized revenue: No public data found. |
+| Founders | Sam Kanner (CEO), Berkeley PhD and former Principle Power R&D head. James Reeves (Wind Turbines), Witwatersrand alumnus and former helicopter designer. Bingbin Yu (Platforms), Michigan PhD and former Principle Power hydrodynamics lead ([Aikido About](https://www.aikidotechnologies.com/about), [YC founder profile](https://www.ycombinator.com/founders/james-reeves)). |
+| Competitors | Panthalassa ($210M through May 2026, revenue unknown, wave-powered nodes) ([GeekWire](https://www.geekwire.com/2026/data-centers-at-sea-oregons-panthalassa-nets-140m-led-by-peter-thiel-for-wave-powered-ai/)); Atomarine ($19M, revenue unknown, gas-to-nuclear barges) ([Data Center Dynamics](https://www.datacenterdynamics.com/en/news/atomarine-raises-19m-for-nuclear-powered-floating-data-centers/)); Hailanyun (over RMB 100M by 2025, revenue unknown, seabed modules) ([Lin-gang administration](https://www.lingang.gov.cn/html/website/lg/English/News1630758253379031042/Updates/1955470371938476034.html)). |
+| Moat Signals | U.S. floating wind platform patent US12631161B2 ([U.S. patent record, May 2026](https://patents.google.com/patent/US12631161B2/en)). |
+| Risk Factors | Full-scale validation and offshore service continuity ([YC launch](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea)), conversion of capacity inquiries to contracts ([Aikido Reserve](https://www.aikidotechnologies.com/reserve)). |
+| Founder Reach | Sam Kanner: 231 X followers ([Teapawt, Nov 2026](https://www.teapaw.org/samkanner)), 4K LinkedIn followers ([LinkedIn, Nov 2026](https://www.linkedin.com/in/sam-kanner)); Bingbin Yu: 541 LinkedIn followers ([LinkedIn, Sep 2026, via search snippet](https://www.linkedin.com/in/bingbin-yu)); James Reeves: No public data found. |
+| Distribution Signals | YC Launch and direct capacity inquiries ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Wa5-aikido-technologies-gw-scale-datacenters-at-sea), [Aikido Reserve](https://www.aikidotechnologies.com/reserve)); 2,268 company LinkedIn followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/aikido-technologies/)). |
+| Emails | sam.kanner@aikidotechnologies.com, CEO ([Aikido seed announcement, Jun 2024](https://www.businesswire.com/news/home/20240620853924/en/Floating-Wind-Startup-Aikido-Technologies-Raises-4M-in-Seed-Financing)); info@aikidotechnologies.com, general inquiries ([Aikido contact](https://www.aikidotechnologies.com/)); reserve@aikidotechnologies.com, capacity inquiries ([Aikido Reserve](https://www.aikidotechnologies.com/reserve)). |

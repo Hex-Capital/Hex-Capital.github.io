@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://openhack.com",
     "yc_page": "https://www.ycombinator.com/companies/openhack",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/openhack))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/openhack))",
     "industry": "B2B / B2B -> Security",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "DevSecOps, Cybersecurity, AI",
-    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/openhack))",
-    "emails": "ananay@openhack.com, security@openhack.com, legal@openhack.com ([Contact](https://openhack.com/contact)); privacy@openhack.com ([Trust Center](https://openhack.com/trust)); team@openhack.com ([GitHub](https://github.com/openhackai))"
+    "yc_partner": "Max Kolysh ([Y Combinator](https://www.ycombinator.com/companies/openhack))",
+    "emails": "ananay@openhack.com (Ananay Arora, founder and CEO, [YC launch](https://www.ycombinator.com/launches/Wkw-openhack-always-on-ai-security-engineer)), security@openhack.com and legal@openhack.com (security advisories and legal inquiries, [OpenHack Contact](https://openhack.com/contact)), privacy@openhack.com (data deletion and subprocessor notices, [OpenHack Trust Center](https://openhack.com/trust)), team@openhack.com (organization contact, [OpenHack GitHub](https://github.com/openhackai))"
   },
   "tags": [
     "DevSecOps",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:54:37.343Z",
+  "memoGeneratedAt": "2026-11-17T22:48:24.971Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
+    "agi": {
+      "score": 35,
       "tier": "Pass"
     },
-    "elad-gil": {
+    "hypergrowth": {
       "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 39,
-    "NR": 48,
-    "PG": 43,
-    "PT": 28,
-    "SL": 32,
-    "VK": 28
+    "AGI": 35,
+    "HG": 39,
+    "EXIT": 39
   },
-  "consolidatedAvg": 37.14,
-  "consolidatedRank": 115,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 98,
-    "tractionScore": 45,
-    "tractionReason": "Six displayed customer logos; 430 stars; payment status undisclosed"
+    "tractionRank": 122,
+    "tractionScore": 39,
+    "tractionReason": "Six named launch users and 444 GitHub stars"
   },
   "paths": {
     "memo": "fall2026/memos/openhack.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/openhack.md",
-      "elad-gil": "fall2026/evals/elad-gil/openhack.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/openhack.md",
-      "paul-graham": "fall2026/evals/paul-graham/openhack.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/openhack.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/openhack.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/openhack.md"
+      "agi": "fall2026/evals/agi/openhack.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/openhack.md",
+      "exit": "fall2026/evals/exit/openhack.md"
     }
   }
 }

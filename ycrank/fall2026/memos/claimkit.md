@@ -6,80 +6,81 @@
 |-------|-------|
 | Website | https://claimkit.co/ |
 | YC Page | https://www.ycombinator.com/companies/claimkit |
-| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/claimkit)) |
-| Industry | B2B / B2B |
+| Batch | Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/claimkit)) |
+| Industry | B2B / B2B -> Finance and Accounting |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | B2B, AI |
-| YC Partner | David Lieb ([Y Combinator](https://www.ycombinator.com/companies/claimkit)) |
-| Emails | No public data found |
+| Tags | Finance, B2B, AI |
+| YC Partner | David Lieb ([YC company profile](https://www.ycombinator.com/companies/claimkit)) |
+| Emails | rachel@claimkit.co (Rachel Huang, CEO, [YC launch post](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)). The website footer, privacy and legal addresses were masked in the accessible pages ([ClaimKit homepage](https://claimkit.co/en-us), [Privacy Policy](https://claimkit.co/privacy), [Terms](https://claimkit.co/terms)). |
 
 ## The Idea
 
-- **Problem:** Technology-company founders and finance teams assemble technical evidence and expenditure records for R&D claims through manual consultant engagements, a process Huang says she performed at KPMG ([Huang, LinkedIn](https://www.linkedin.com/posts/rach-huang_yc-ycombinator-activity-7506490927952105472-VQJM), accessed October 2026).
-- **Approach:** ClaimKit connects engineering and accounting systems, maps records to R&D activities, drafts documentation with AI, and uses tax specialists to review and lodge claims ([ClaimKit](https://claimkit.co/en-au), October 2026).
-- **Differentiation:** ClaimKit offers Australian and US claim preparation, versus Boast’s US/Canada coverage and Neo.Tax’s enterprise tax, capitalization, and FP&A offering ([ClaimKit](https://claimkit.co/en-au), [Boast](https://www.boast.ai/en-ca/press-and-awards/boast-secures-100m-usd-to-fuel-rd-tax-credit-based-financing-for-startups/), [Neo.Tax](https://www.neo.tax/)).
-- **Business Model:** Contracts specify an upfront software fee plus a tax-service fee equal to the greater of a quoted minimum or an agreed percentage of the benefit, invoiced upon lodgement ([ClaimKit Terms](https://claimkit.co/terms), July 2026).
-- **TAM/SAM:** An adjacent global R&D tax-credit software market estimate is $1.45B for 2025, with 9.7% forecast CAGR for 2026–2034; ClaimKit-specific SAM is unavailable ([Intel Market Research](https://www.intelmarketresearch.com/r-d-tax-credit-software-market-36840), March 2026).
-- **GTM / Distribution:** Distribution includes website demo bookings and founder-led education, including an R&D incentives event announced with Airwallex for June 2026 ([ClaimKit](https://claimkit.co/), [Huang, LinkedIn](https://www.linkedin.com/posts/rach-huang_airwallex-x-claimkit-present-rdyou-luma-activity-7467034145949626368-miBf)).
+- **Problem:** Technology companies’ finance and engineering leads reconstruct months of work from project records, code logs and payroll to substantiate R&D tax credits, either internally or through specialist consultants ([ClaimKit YC launch post, Nov 2026](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)).
+- **Approach:** ClaimKit connects engineering, document and accounting tools, uses AI to tie evidence and costs to each R&D activity, and has a tax specialist review the claim package ([ClaimKit US product page](https://claimkit.co/en-us)).
+- **Differentiation:** ClaimKit combines ongoing evidence collection with specialist claim preparation across the US, UK and Australia, while Neo.Tax also sells software capitalization, Boast offers credit-backed financing, WhisperClaims equips UK accountants to prepare claims, and RAD focuses on Australian evidence records ([YC](https://www.ycombinator.com/companies/claimkit), [Neo.Tax](https://www.neo.tax/), [Boast](https://www.boast.ai/en-us/press-and-awards/boast-secures-100m-usd-to-fuel-rd-tax-credit-based-financing-for-startups), [WhisperClaims](https://www.whisperclaims.co.uk/), [RAD](https://www.radrnd.com/about)).
+- **Business Model:** Australian terms specify an upfront quoted software fee and a tax-agent fee equal to the greater of a quoted minimum or an agreed percentage of the tax benefit, invoiced on lodgement ([ClaimKit Terms, Jul 2026](https://claimkit.co/terms)).
+- **TAM/SAM:** Industry Research estimates the global R&D tax credit services market at US$3.02B in 2026 with 8.4% projected CAGR through 2035, and no public SAM estimate was found for ClaimKit’s target segment ([Industry Research, Apr 2026](https://www.industryresearch.co/market-reports/r-d-tax-credit-services-market-306102)).
+- **GTM / Distribution:** ClaimKit offers direct sign-up, demos and a US credit calculator, and its YC launch asks for introductions to R&D teams with 50+ engineers ([ClaimKit sign-up](https://claimkit.co/signup), [US product page](https://claimkit.co/en-us), [YC launch post, Nov 2026](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)).
 
 ## Defensibility
 
-- **Moat today:** Public operational assets include connected engineering/accounting workflows and retained historical claim records, but no exclusive dataset or patent protection was identified ([ClaimKit Help](https://claimkit.co/help), October 2026).
-- **Future moat:** [Inferred]: Repeated claim preparation could accumulate customer-specific evidence mappings and review knowledge, although public retention and switching-cost measurements are unavailable.
-- **Market structure:** No structural barrier identified at this stage; Thomson Reuters already distributes overlapping Neo.Tax functionality through ONESOURCE ([Thomson Reuters partner directory](https://www.thomsonreuters.com/en/the-power-of-partnership/partner-directory.html)).
-- **Commoditization risk:** Competitors already combine automated evidence processing with tax expertise, so AI drafting and expert review are available elsewhere ([Onshore announcement](https://finance.yahoo.com/news/onshore-formerly-sprx-raises-31m-195500560.html), February 2026).
+- **Moat today:** ClaimKit says it continuously links evidence from 50+ supported tools and lets customers export the resulting evidence files, a documented workflow integration with no disclosed switching-cost data ([ClaimKit Australia product page, Nov 2026](https://claimkit.co/en-au)).
+- **Future moat:** [Inferred]: Anonymized statistics from claim workflows could improve evidence matching over time, but the terms establish permission to use those statistics and public sources provide no measured improvement ([ClaimKit Terms, Jul 2026](https://claimkit.co/terms)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Neo.Tax already automates credit work from source records, and RAD already captures R&D evidence continuously from connected tools ([Neo.Tax product page](https://www.neo.tax/), [RAD product profile](https://www.radrnd.com/about)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported 80+ customers across the US and Australia within six months of launch ([ClaimKit LinkedIn](https://www.linkedin.com/company/claimkitco), accessed October 27, 2026).
-  - Company-reported 100% claim success rate, without a published denominator or measurement period ([ClaimKit](https://claimkit.co/en-au), accessed October 27, 2026).
-  - Customer testimonial: Edexia’s COO reports switching from accountants mid-project and completing the engagement at lower cost and faster speed ([ClaimKit](https://claimkit.co/en-au), accessed October 27, 2026).
-  - Company LinkedIn: 206 followers ([ClaimKit LinkedIn](https://www.linkedin.com/company/claimkitco), accessed October 27, 2026).
-  - Team-history metric: $100M+ credits claimed by the team, which is neither ClaimKit revenue nor explicitly current-product volume ([ClaimKit US](https://claimkit.co/en-us), October 2026).
-  - Product history: The standalone Grants module was retired April 22, 2026, to focus on R&D tax claims ([ClaimKit Help](https://claimkit.co/help)).
-  - Founder interview on *The Digital Project Manager*, discussing the earlier grants/funding product ([podcast transcript](https://metacast.app/podcast/the-digital-project-manager/mFgaVPZd/how-to-fund-your-innovation-projects-without-venture-capital/z9RX0WBo), January 21, 2026).
+  - 80+ clients across three countries, seven months after product launch, company-reported ([ClaimKit YC launch post, Nov 2026](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)).
+  - Customer testimonial: Edexia COO Kyel Steensma reports lower cost and faster completion after switching from his accountants mid-project ([ClaimKit US product page, Nov 2026 snapshot](https://claimkit.co/en-us)).
+  - Customer testimonial: Fluer COO Sayan reports time savings and says his team could supply raw data without writing the claim report ([ClaimKit US product page, Nov 2026 snapshot](https://claimkit.co/en-us)).
+  - YC Fall 2026 backing and a public Launch YC release on November 6, 2026, covered by TrustList ([YC company profile](https://www.ycombinator.com/companies/claimkit), [TrustList, Nov 2026](https://trustlist.uk/launches/launch-weekly48-claimkit-r-and-d-tax-credit-claims)).
+  - 383 company LinkedIn followers ([ClaimKit LinkedIn, Nov 2026 snapshot](https://www.linkedin.com/company/claimkitco)).
+  - Zero open jobs on YC’s platform ([YC Jobs, Nov 2026 snapshot](https://www.ycombinator.com/companies/claimkit/jobs)).
+  - Earlier product scope: Huang discussed automating innovation grant applications in January, and by April ClaimKit was publishing help for Australian R&D tax claims ([The Digital Project Manager, Jan 2026](https://podcasts.apple.com/au/podcast/how-to-fund-your-innovation-projects-without-venture/id1262608127?i=1000746084438), [ClaimKit Help Center, Apr 2026](https://claimkit.co/help)).
 - **Competitors:**
-  - **Boast ($23M disclosed equity plus $100M credit facility; revenue unknown):** US/Canada coverage and credit-backed advances distinguish its offering; disclosed financing includes a Radian-led Series A in December 2020 and Brevet facility in February 2021 ([Boast announcement](https://www.boast.ai/en-ca/press-and-awards/boast-secures-100m-usd-to-fuel-rd-tax-credit-based-financing-for-startups/)).
-  - **Neo.Tax ($25M reported raised; revenue unknown):** Enterprise tax, capitalization, and FP&A coverage extends beyond claim preparation; CB Insights lists a subsequent $12M round, while the company’s published February 2022 $10M Series A named Infinity Ventures as lead ([CB Insights](https://www.cbinsights.com/company/neotax), [Neo.Tax funding announcement](https://www.neo.tax/blog/neo-tax-raises-10m-and-partners-with-mercury), [product](https://www.neo.tax/)).
-  - **Onshore, formerly SPRX ($46M raised; revenue unknown):** Covers R&D credits, 179D deductions, and cost segregation; its latest located round was a $31M Series B led by FPV Ventures in February 2026 ([company announcement](https://finance.yahoo.com/news/onshore-formerly-sprx-raises-31m-195500560.html)).
-- **Why now:** [Inferred]: Expanded business-component reporting creates demand for evidence automation because Form 6765 Section G becomes mandatory for tax years beginning after 2025, subject to exemptions ([IRS instructions](https://www.irs.gov/instructions/i6765), December 2025).
+  - Neo.Tax (US$13M across disclosed rounds, revenue unknown): Combines R&D credits with software capitalization and announced a Mercury distribution partnership alongside its US$10M Series A, led by Infinity Ventures in February 2022 ([TechCrunch, Jun 2020](https://techcrunch.com/2020/06/30/rd-tax-credits-are-due-july-15th-neo-tax-wants-to-help-startups-apply-and-raised-3m-to-do-it/), [Neo.Tax, Feb 2022](https://www.neo.tax/blog/neo-tax-raises-10m-and-partners-with-mercury)).
+  - Boast (US$23M disclosed equity funding, revenue unknown): Serves the US and Canada and offers credit-backed financing, with a US$23M Series A led by Radian Capital in December 2020 ([Boast Series A release](https://www.boast.ai/en-us/press-and-awards/boast-raises-23m-usd-series-a-to-revolutionize-rd-tax-credits-with-ai-powered-approach/), [Boast financing announcement](https://www.boast.ai/en-us/press-and-awards/boast-secures-100m-usd-to-fuel-rd-tax-credit-based-financing-for-startups)).
+  - WhisperClaims (funding unknown, revenue unknown): Sells UK claim-preparation software and support to accountants and advisers who serve their own clients ([WhisperClaims](https://www.whisperclaims.co.uk/)).
+  - RAD (funding unknown, revenue unknown): Captures contemporaneous Australian R&D activity and evidence for companies and their tax advisers ([RAD](https://www.radrnd.com/about)).
+- **Why now:** [Inferred]: The IRS’s move to require Form 6765 Section G business-component reporting for applicable filers in tax years beginning after 2025 increases the work involved in matching expenses to specific projects ([IRS Form 6765 instructions, Dec 2025](https://www.irs.gov/instructions/i6765)).
 
 ## Founders & Team
 
 - **Rachel Huang (Founder/CEO):**
-  - Background: University of Queensland graduate in Chemical and Biological Engineering and Biomedical Science, former KPMG R&D specialist, and founder of Powersphere and The Network Loop ([graduation post](https://www.linkedin.com/posts/rach-huang_graduate-engineering-science-activity-7016598637455572992-S4Rp), [Engineers Australia](https://portal.engineersaustralia.org.au/event/2022/02/blazing-trail-41186), [ClaimKit About](https://claimkit.co/en-au/about)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable, with approximately 5K followers displayed ([LinkedIn](https://www.linkedin.com/in/rach-huang), October 2026, via search snippet).
-  - GitHub: No public repos found.
+  - **Background:** Studied chemical engineering and biomedical science at the University of Queensland, worked in R&D tax at KPMG and in commercialization at UniQuest, and co-founded The Network Loop ([YC founder profile](https://www.ycombinator.com/founders/rachel-huang), [The Digital Project Manager](https://thedigitalprojectmanager.com/podcast/how-to-fund-your-innovation-projects-without-venture-capital/), [SmartCompany](https://www.smartcompany.com.au/finance/equity-crowdfunding-the-network-loop/)). Business email `rachel@claimkit.co` ([YC launch post](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)).
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Visible profile text “Professional tennis player turned chemical engineer then a start-up…” ([LinkedIn, via search snippet](https://au.linkedin.com/in/rach-huang)).
+  - **GitHub:** No public repos found.
 - **William Mahon (Founder/CTO):**
-  - Background: University of Queensland alumnus and former Google, Akuna, and IMC Trading engineer; a reposted founder statement identifies DevDuck as a previous idea, with transition timing unavailable ([YC founder profile](https://www.ycombinator.com/founders/william-mahon), [ClaimKit About](https://claimkit.co/en-au/about), [LinkedIn repost](https://au.linkedin.com/in/andrew-k-01a6a920a)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable, with approximately 1K followers displayed ([LinkedIn](https://www.linkedin.com/in/wmaho), October 2026, via search snippet).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both founders attended the University of Queensland; meeting history is unavailable ([Rachel’s YC profile](https://www.ycombinator.com/founders/rachel-huang), [William’s YC profile](https://www.ycombinator.com/founders/william-mahon)).
-- **Founder-market fit:** Huang brings R&D tax experience and Mahon software engineering experience, supported by Director of Tax Edward See, formerly BDO, and advisor Pratiti Nath, formerly KPMG, BDO, and PwC ([ClaimKit About](https://claimkit.co/en-au/about)).
+  - **Background:** University of Queensland alumnus who built a ChromeOS testing system at Google and previously engineered software at Akuna Capital and IMC Trading ([YC founder profile](https://www.ycombinator.com/founders/william-mahon), [ClaimKit About](https://claimkit.co/en-us/about)). Business email: No public data found.
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Visible profile text “Ex-Google Software Engineer” ([LinkedIn, via search snippet](https://www.linkedin.com/in/wmaho)).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** Both attended the University of Queensland ([Huang’s YC profile](https://www.ycombinator.com/founders/rachel-huang), [Mahon’s YC profile](https://www.ycombinator.com/founders/william-mahon)).
+- **Founder-market fit:** Huang brings KPMG R&D tax experience and Mahon brings engineering automation experience, with former BDO practitioner Edward See overseeing tax review and former KPMG, BDO and PwC practitioner Pratiti Nath advising the team ([ClaimKit About](https://claimkit.co/en-us/about)).
 
 ## Key Risks
 
-- **Claim eligibility and substantiation:** ClaimKit acknowledges that registration or receipt of a refund does not close a claim to review; expert preparation does not guarantee regulatory outcomes ([ClaimKit review guide](https://claimkit.co/resources/what-triggers-an-rd-tax-incentive-review-in-australia), August 2026).
-- **Sensitive customer records:** Integrations ingest technical and financial information; ClaimKit reports encryption, exclusion from model training, and a SOC 2 audit in progress rather than a published completed report ([ClaimKit Help](https://claimkit.co/help), October 2026).
-- **Competitive distribution:** [Inferred]: Neo.Tax’s ONESOURCE reseller channel could reach finance teams through existing tax-software relationships ([Thomson Reuters](https://www.thomsonreuters.com/en/the-power-of-partnership/partner-directory.html)).
-- **Name confusion:** An unrelated insurance business uses ClaimKit and claimkit.ai; its social metrics and healthcare claims do not describe this company ([unrelated LinkedIn page](https://www.linkedin.com/company/claimkit)).
+- **Evidence quality:** Incomplete customer records can affect automated outputs, and ClaimKit’s Australian terms require customers to confirm accuracy before lodgement and quote audit assistance separately ([ClaimKit Privacy Policy](https://claimkit.co/privacy), [ClaimKit Terms](https://claimkit.co/terms)).
+- **Specialist review capacity:** [Inferred]: Review capacity can constrain filing throughput because ClaimKit assigns specialists to every claim and operates across distinct US, UK and Australian filing workflows ([YC launch post](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot), [US](https://claimkit.co/en-us), [UK](https://claimkit.co/en-gb), [Australia](https://claimkit.co/en-au)).
+- **Sensitive data:** ClaimKit processes engineering and accounting records and uses third-party AI providers, with stated encryption safeguards and contractual restrictions on providers’ use of personal data for model training ([ClaimKit US product page](https://claimkit.co/en-us), [Privacy Policy](https://claimkit.co/privacy)).
+- **Name confusion:** [Inferred]: The separate ClaimKit AI at `claimkit.ai` and the former insurance software company ClaimKit, later RiskGenius, can cause prospect and coverage misattribution ([ClaimKit AI](https://www.claimkit.ai/), [Enterprise Center in Johnson County, Mar 2021](https://www.ecjc.com/wp-content/uploads/2021/05/Claimkit-acquistion_030521.pdf)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Adjacent global R&D tax-credit software: $1.45B in 2025; forecast CAGR 9.7%, 2026–2034 ([Intel Market Research, 2026](https://www.intelmarketresearch.com/r-d-tax-credit-software-market-36840)) |
+| TAM | US$3.02B global R&D tax credit services market in 2026, 8.4% projected CAGR through 2035 ([Industry Research, Apr 2026](https://www.industryresearch.co/market-reports/r-d-tax-credit-services-market-306102)) |
 | SAM | No public data found |
-| Traction | Company-reported 80+ customers across US/Australia within six months; 206 LinkedIn followers ([ClaimKit LinkedIn, October 2026](https://www.linkedin.com/company/claimkitco)) |
-| Revenue Signal | Upfront software fee plus minimum-or-percentage tax-service fee; own revenue undisclosed ([ClaimKit Terms, July 2026](https://claimkit.co/terms)) |
-| Founders | Rachel Huang, CEO: ex-KPMG, engineering/science background; William Mahon, CTO: ex-Google, Akuna, IMC ([ClaimKit About](https://claimkit.co/en-au/about)) |
-| Competitors | Boast: $23M equity plus $100M facility, revenue unknown, financing offering ([Boast](https://www.boast.ai/en-ca/press-and-awards/boast-secures-100m-usd-to-fuel-rd-tax-credit-based-financing-for-startups/)); Neo.Tax: $25M reported raised, revenue unknown, enterprise breadth ([CB Insights](https://www.cbinsights.com/company/neotax), [Neo.Tax](https://www.neo.tax/)); Onshore: $46M raised, revenue unknown, additional tax services ([company announcement](https://finance.yahoo.com/news/onshore-formerly-sprx-raises-31m-195500560.html)) |
-| Moat Signals | Integrated evidence workflows and retained historical claims ([ClaimKit Help](https://claimkit.co/help)) |
-| Risk Factors | Regulatory review exposure ([ClaimKit guide](https://claimkit.co/resources/what-triggers-an-rd-tax-incentive-review-in-australia)); sensitive-data handling and pending SOC 2 audit ([ClaimKit Help](https://claimkit.co/help)) |
-| Founder Reach | Rachel: approximately 5K LinkedIn followers; William: approximately 1K ([Rachel LinkedIn](https://www.linkedin.com/in/rach-huang), [William LinkedIn](https://www.linkedin.com/in/wmaho), October 2026, via search snippets) |
-| Distribution Signals | Airwallex educational event announcement ([Huang LinkedIn, June 2026](https://www.linkedin.com/posts/rach-huang_airwallex-x-claimkit-present-rdyou-luma-activity-7467034145949626368-miBf)) |
-| Emails | No public data found |
+| Traction | 80+ clients in three countries, company-reported ([YC launch post, Nov 2026](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)). Customer testimonial: Edexia reports lower cost and faster completion, and Fluer reports less report-writing work ([ClaimKit US product page, Nov 2026 snapshot](https://claimkit.co/en-us)). |
+| Revenue Signal | Quoted upfront software fee and tax-agent fee based on the greater of a minimum or an agreed share of the benefit ([ClaimKit Australian Terms, Jul 2026](https://claimkit.co/terms)) |
+| Founders | Rachel Huang (CEO), KPMG R&D tax and UniQuest commercialization ([YC founder profile](https://www.ycombinator.com/founders/rachel-huang)). William Mahon (CTO), ChromeOS testing and trading systems ([ClaimKit About](https://claimkit.co/en-us/about)). |
+| Competitors | Neo.Tax (US$13M across disclosed rounds, revenue unknown, software capitalization) ([TechCrunch](https://techcrunch.com/2020/06/30/rd-tax-credits-are-due-july-15th-neo-tax-wants-to-help-startups-apply-and-raised-3m-to-do-it/), [Neo.Tax](https://www.neo.tax/blog/neo-tax-raises-10m-and-partners-with-mercury)). Boast (US$23M disclosed equity, revenue unknown, credit-backed financing) ([Boast Series A release](https://www.boast.ai/en-us/press-and-awards/boast-raises-23m-usd-series-a-to-revolutionize-rd-tax-credits-with-ai-powered-approach/), [Boast financing announcement](https://www.boast.ai/en-us/press-and-awards/boast-secures-100m-usd-to-fuel-rd-tax-credit-based-financing-for-startups)). WhisperClaims (funding unknown, revenue unknown, UK adviser software) ([WhisperClaims](https://www.whisperclaims.co.uk/)). RAD (funding unknown, revenue unknown, Australian evidence tracking) ([RAD](https://www.radrnd.com/about)). |
+| Moat Signals | Continuous evidence linking across 50+ supported tools in Australia ([ClaimKit Australia product page, Nov 2026 snapshot](https://claimkit.co/en-au)) |
+| Risk Factors | Dependence on customer records, specialist review on every claim, sensitive data processing ([ClaimKit Terms](https://claimkit.co/terms), [YC launch post](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot), [ClaimKit Privacy Policy](https://claimkit.co/privacy)) |
+| Founder Reach | Rachel Huang: 5K LinkedIn followers ([LinkedIn, via search snippet](https://au.linkedin.com/in/rach-huang)). William Mahon: 1K LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/wmaho)). |
+| Distribution Signals | Launch YC release on Nov 6, 2026 ([TrustList](https://trustlist.uk/launches/launch-weekly48-claimkit-r-and-d-tax-credit-claims)), 383 LinkedIn company followers ([ClaimKit LinkedIn, Nov 2026 snapshot](https://www.linkedin.com/company/claimkitco)) |
+| Emails | rachel@claimkit.co (Rachel Huang, CEO, [YC launch post, Nov 2026](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)) |

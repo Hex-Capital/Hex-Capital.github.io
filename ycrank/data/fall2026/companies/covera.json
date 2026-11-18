@@ -1,17 +1,17 @@
 {
   "slug": "covera",
   "name": "Covera",
-  "oneLiner": "AI-native OS for insurance brokers",
+  "oneLiner": "Covera gets insurance brokers to quote first and win more business.",
   "metadata": {
     "website": "https://www.covera-agents.com/?utm_source=ycombinator&utm_medium=company_profile&utm_campaign=yc_f26",
     "yc_page": "https://www.ycombinator.com/companies/covera",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/covera))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/covera))",
     "industry": "Fintech / Fintech -> Insurance",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "AIOps, SaaS, B2B, Insurance, AI Assistant",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/covera))",
-    "emails": "contact@covera-agents.com ([Covera legal notice](https://www.covera-agents.com/legal))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/covera))",
+    "emails": "contact@covera-agents.com, general inquiries and privacy requests ([Covera legal notice](https://www.covera-agents.com/legal), [privacy policy](https://www.covera-agents.com/privacy))"
   },
   "tags": [
     "AIOps",
@@ -21,63 +21,39 @@
     "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:16:13.462Z",
+  "memoGeneratedAt": "2026-11-17T23:28:41.819Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
+    "agi": {
+      "score": 43,
       "tier": "Pass"
     },
-    "sam-lessin": {
+    "hypergrowth": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 63,
-    "NR": 45,
-    "PG": 49,
-    "PT": 34,
-    "SL": 39,
-    "VK": 28
+    "AGI": 43,
+    "HG": 44,
+    "EXIT": 39
   },
-  "consolidatedAvg": 44.29,
-  "consolidatedRank": 22,
+  "consolidatedAvg": 42,
+  "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 58,
-    "tractionReason": "50+ agencies; named Hello Risk deployment; paid count undisclosed"
+    "tractionRank": 72,
+    "tractionScore": 55,
+    "tractionReason": "90+ brokers live, two named customer case studies"
   },
   "paths": {
     "memo": "fall2026/memos/covera.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/covera.md",
-      "elad-gil": "fall2026/evals/elad-gil/covera.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/covera.md",
-      "paul-graham": "fall2026/evals/paul-graham/covera.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/covera.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/covera.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/covera.md"
+      "agi": "fall2026/evals/agi/covera.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/covera.md",
+      "exit": "fall2026/evals/exit/covera.md"
     }
   }
 }

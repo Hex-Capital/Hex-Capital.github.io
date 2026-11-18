@@ -1,80 +1,56 @@
 {
   "slug": "redoubt-insurance",
   "name": "Redoubt Insurance",
-  "oneLiner": "Commercial insurance for small businesses",
+  "oneLiner": "Autonomous commercial insurance",
   "metadata": {
     "website": "https://www.redoubt.insure",
     "yc_page": "https://www.ycombinator.com/companies/redoubt-insurance",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/redoubt-insurance))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/redoubt-insurance))",
     "industry": "Fintech / Fintech -> Insurance",
-    "team_size": "0",
+    "team_size": "1",
     "location": "Salt Lake City, UT, USA",
     "tags": "Insurance, AI",
-    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/redoubt-insurance))",
-    "emails": "hello@redoubt.agency ([Redoubt founder contact card](https://www.redoubt.agency/andre), via search snippet)"
+    "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/redoubt-insurance))",
+    "emails": "hello@redoubt.agency, agency contact published on [Andre Beukers’s Redoubt contact card](https://www.redoubt.insure/andre), and investors@redoubt.insure, investor inquiries ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/WfS-redoubt-the-autonomous-insurance-company))"
   },
   "tags": [
     "Insurance",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:58:08.716Z",
+  "memoGeneratedAt": "2026-11-17T22:54:30.383Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 34,
+    "agi": {
+      "score": 43,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 29,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 29,
-    "NR": 31,
-    "PG": 33,
-    "PT": 28,
-    "SL": 29,
-    "VK": 25
+    "AGI": 43,
+    "HG": 39,
+    "EXIT": 37
   },
-  "consolidatedAvg": 29.86,
-  "consolidatedRank": 223,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 219,
-    "tractionScore": 5,
-    "tractionReason": "Funding and social presence; no disclosed policies or revenue"
+    "tractionRank": 34,
+    "tractionScore": 65,
+    "tractionReason": "19 customer accounts, $37,600 in expected annual net commissions"
   },
   "paths": {
     "memo": "fall2026/memos/redoubt-insurance.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/redoubt-insurance.md",
-      "elad-gil": "fall2026/evals/elad-gil/redoubt-insurance.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/redoubt-insurance.md",
-      "paul-graham": "fall2026/evals/paul-graham/redoubt-insurance.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/redoubt-insurance.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/redoubt-insurance.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/redoubt-insurance.md"
+      "agi": "fall2026/evals/agi/redoubt-insurance.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/redoubt-insurance.md",
+      "exit": "fall2026/evals/exit/redoubt-insurance.md"
     }
   }
 }

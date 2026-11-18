@@ -1,85 +1,87 @@
 ﻿# RightNow
 
-> Co-designing the fastest intelligence
+> The kernel lab behind instant AI
 
 | Field | Value |
 |-------|-------|
-| Website | https://runinfra.ai/ |
+| Website | https://www.rightnowai.co |
 | YC Page | https://www.ycombinator.com/companies/rightnow |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/rightnow)) |
+| Batch | Fall 2026 ([YC directory](https://www.ycombinator.com/companies/rightnow)) |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Developer Tools, Generative AI, Machine Learning, Infrastructure, AI |
-| YC Partner | Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/rightnow)) |
-| Emails | jaber@rightnowai.co, osama@rightnowai.co ([company GitHub](https://github.com/RightNow-AI/StreamIndex/blob/main/pyproject.toml)); jaber@runinfra.ai ([Privacy Policy](https://runinfra.ai/privacy-policy)); jaberib647@gmail.com ([founder GitHub](https://github.com/jaberjaber23)) |
+| Tags | Generative AI, Machine Learning, Infrastructure, AI |
+| YC Partner | Nicolas Dessaigne ([YC directory](https://www.ycombinator.com/companies/rightnow)) |
+| Emails | jaber@rightnowai.co (Jaber Jaber, [RightNow contact](https://www.rightnowai.co/contact)), jaber@runinfra.ai (Jaber Jaber, security and audit requests, [RightNow security](https://www.rightnowai.co/open-models/security)), osama@rightnowai.co (Osama Jaber, privacy and legal inquiries, [RightNow privacy policy](https://www.rightnowai.co/open-models/privacy-policy)) |
 
 ## The Idea
 
-- **Problem:** Coding agents repeatedly submit conversation context, increasing inference costs; RunInfra targets developers using existing coding agents and model APIs ([RunInfra, accessed Oct 2026](https://runinfra.ai/)).
-- **Approach:** RunInfra serves open models through compatible APIs, optimizes GPU kernels, and routes recurring sessions toward replicas holding cached context ([RunInfra](https://runinfra.ai/)).
-- **Differentiation:** RunInfra emphasizes session-aware caching and coding subscriptions, while Together AI combines inference with training and compute, and Fireworks emphasizes customized models ([RunInfra](https://runinfra.ai/), [Together AI](https://www.together.ai/blog/announcing-our-series-c), [Fireworks](https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d)).
-- **Business Model:** Prepaid consumption starts at $5, while workspace subscriptions cost $10/$29/$99 monthly with usage allowances and five-hour/weekly limits ([pricing, Oct 2026](https://runinfra.ai/pricing)).
-- **TAM/SAM:** The broader AI inference market is estimated at $132.7B in 2026, growing 18% annually through 2033, but this includes hardware and applications beyond RunInfra’s segment; No public TAM/SAM data found for this specific segment ([Grand View Research, Oct 2026](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-inference-market-report)).
-- **GTM / Distribution:** Distribution includes self-service API access, coding-agent integrations, Product Hunt launches, and an application-based startup credits program ([RunInfra](https://runinfra.ai/), [startup program](https://runinfra.ai/startups), [Product Hunt](https://www.producthunt.com/products/runinfra)).
+- **Problem:** Engineering teams serving open-weight models face GPU costs, latency, and tuning work when they self-host on rented GPUs, while closed-model APIs set their own prices and serving speeds ([Launch YC](https://www.ycombinator.com/launches/XcZ-rightnow-own-your-ai-at-full-speed)).
+- **Approach:** RightNow tunes model precision, decoding, batching, caching, and GPU kernels for the serving hardware, exposes open weights through OpenAI- and Anthropic-compatible endpoints, and offers its own multimodal decision model ([RightNow serving stack](https://www.rightnowai.co/), [RightNow product reference](https://www.rightnowai.co/ai-info)).
+- **Differentiation:** RightNow sells kernel-level optimization of customer models, while Fireworks also trains and fine-tunes models, Together rents GPU clusters and builds its own inference compiler, and DeepInfra already offers dedicated serving ([Launch YC](https://www.ycombinator.com/launches/XcZ-rightnow-own-your-ai-at-full-speed), [Fireworks](https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d), [Together AI](https://www.together.ai/blog/announcing-our-series-c), [Together Compiler](https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference), [DeepInfra](https://deepinfra.com/pricing)).
+- **Business Model:** Shared inference is pay-as-you-go with no seat fees, prepaid top-ups start at $5, Nemotron 3.5 Lightning costs $0.05 input and $0.15 output per million tokens, batch costs half of list price, and reserved capacity and dedicated deployments are listed as forthcoming ([RightNow pricing](https://www.rightnowai.co/pricing), [API release notes](https://www.rightnowai.co/docs/open-models/release-notes), Nov 2026).
+- **TAM/SAM:** Meticulous Research estimates the broader open-weight models market, including hosting, tooling, fine-tuning, and support, at $7–10B in 2026 with 26% CAGR through 2033 ([Meticulous Research](https://www.meticulousresearch.com/meticulous-next/open-weight-ai-models-outlook-2026-2033)); no public TAM/SAM data found for hosted open-weight inference alone.
+- **GTM / Distribution:** RightNow offers self-serve API keys, up to $2,600 in startup credits, and a workload migration and benchmark offer for teams spending over $1,000 a month on inference ([Launch YC](https://www.ycombinator.com/launches/XcZ-rightnow-own-your-ai-at-full-speed)).
 
 ## Defensibility
 
-- **Moat today:** Public technical evidence includes Autokernel’s GPU-kernel optimization implementation and correctness harness, although its MIT license permits reuse ([GitHub](https://github.com/RightNow-AI/autokernel)).
-- **Future moat:** [Inferred]: Accumulated workload-specific optimizations could improve serving economics, but a durable proprietary advantage is not publicly established.
-- **Market structure:** No structural barrier identified at this stage; Together AI already develops kernel optimizations alongside inference infrastructure ([Together AI, July 2026](https://www.together.ai/blog/announcing-our-series-c)).
-- **Commoditization risk:** [Inferred]: Existing inference providers could reproduce parts of the offering using open optimization code and their own serving infrastructure ([Autokernel](https://github.com/RightNow-AI/autokernel), [Together AI](https://www.together.ai/blog/announcing-our-series-c)).
+- **Moat today:** RightNow has documented a workflow that profiles PyTorch bottlenecks and iteratively benchmarks replacement Triton or CUDA kernels, and its hosted stack tunes kernels and serving settings together ([AutoKernel preprint](https://arxiv.org/abs/2603.21331), [RightNow serving stack](https://www.rightnowai.co/)).
+- **Future moat:** [Inferred]: A growing library of validated kernels across model and GPU pairs could reduce the time to support new workloads, but the durability of that advantage is unproven ([AutoKernel preprint](https://arxiv.org/abs/2603.21331), [Together Compiler](https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Together AI already uses agents to tune inference performance, and RightNow publishes the AutoKernel implementation under Apache 2.0, giving other serving providers access to part of its optimization workflow ([Together Compiler](https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference), [AutoKernel GitHub](https://github.com/RightNow-AI/autokernel)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - RunInfra initial launch July 1, 2026, ranked #14 with 155 points ([Product Hunt leaderboard](https://www.producthunt.com/leaderboard/daily/2026/7/1)).
-  - RunInfra coding-plan launch ranked #8 with 115 points on October 20, 2026 ([Product Hunt leaderboard](https://www.producthunt.com/leaderboard/daily/2026/10/20)).
-  - Autokernel: approximately 1,600 GitHub stars; separate OpenFang agent project: approximately 18,200 stars, rather than RunInfra users ([Autokernel](https://github.com/RightNow-AI/autokernel), [OpenFang](https://github.com/RightNow-AI/openfang), accessed Oct 27, 2026).
-  - Company LinkedIn: 2,263 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/rightnowai/)).
-  - Company X @rightnowai_co: approximately 1,000 followers; RunInfra @runinfrai: approximately 10,000 ([TwStalker, Oct 2026, via search snippet](https://ww1.twstalker.com/rightnowai_co)).
-  - Earlier product RightNow AI V2.0 ranked #1 daily and #2 weekly on April 27, 2025; these editor metrics predate RunInfra’s launch, and no formal pivot date was found ([Product Hunt](https://www.producthunt.com/products/rightnow-ai/awards)).
-  - Zero YC job listings ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/rightnow)).
+  - Hosted inference debuted as RunInfra on Product Hunt in July 2026, received 119 votes for its October hosted-model launch, and moved under RightNow in November with existing keys and balances carried over ([Product Hunt](https://www.producthunt.com/products/runinfra), [RightNow migration docs](https://www.rightnowai.co/docs/open-models/moving-from-runinfra)).
+  - Hosted API press coverage by Founderland ([Founderland](https://www.founderland.ai/articles/rightnow-ai-launches-runinfra-to-cut-ai-agent-costs-at-the-g-mvyg5jwa), Nov 2026).
+  - Kernel-tool adoption reported by RightNow at NVIDIA, Hugging Face, Samsung, AMD, Modal, and Reddit ([RightNow homepage](https://www.rightnowai.co/), Nov 2026).
+  - Research and open-source projects: AutoKernel 1.6K stars, OpenFang 18.3K stars, and picoLM 2.2K stars ([AutoKernel](https://github.com/RightNow-AI/autokernel), [OpenFang](https://github.com/RightNow-AI/openfang), [picoLM](https://github.com/RightNow-AI/picolm), Nov 2026).
+  - AutoKernel press coverage by MarkTechPost ([MarkTechPost](https://www.marktechpost.com/2026/04/06/rightnow-ai-releases-autokernel-an-open-source-framework-that-applies-an-autonomous-agent-loop-to-gpu-kernel-optimization-for-arbitrary-pytorch-models/), Apr 2026).
+  - Prior CUDA editor ranked #5 of the day ([Product Hunt](https://www.producthunt.com/products/rightnow-ai?launch=rightnow-ai-2), Dec 8, 2025).
+  - Company reach: 2,521 LinkedIn followers, approximately 10K X followers at `@rightnow_co`, and 1,053 Discord members ([LinkedIn](https://www.linkedin.com/company/rightnowai/), [TwStalker X snapshot](https://ww1.twstalker.com/rightnow_co), [GroupFinds Discord snapshot](https://www.groupfinds.com/discord/rightnow), Nov 2026).
+  - Estimated 354 monthly visits to `rightnowai.co` during the earlier coding-agent period ([INITE Atlas](https://inite.ai/en/atlas/rightnowai.co), Sep 2026).
+  - YC backing with no publicly disclosed company-specific amount, and zero active YC job listings ([YC directory](https://www.ycombinator.com/companies/rightnow), [Founderland](https://www.founderland.ai/articles/rightnow-ai-launches-runinfra-to-cut-ai-agent-costs-at-the-g-mvyg5jwa), [YC Jobs](https://www.ycombinator.com/companies/rightnow/jobs), Nov 2026).
 - **Competitors:**
-  - **Together AI** ($1,334M raised; estimated $1,000M annualized revenue, February 2026): broader training, GPU rental, and inference platform; latest announced $800M Series C, July 2026, led by Aramco Ventures ([CB Insights, via search snippet](https://www.cbinsights.com/company/together-4/financials), [Sacra estimate](https://sacra.com/c/together-ai/), [Reuters](https://www.investing.com/news/stock-market-news/together-ai-raises-800-million-at-83-billion-valuation-4771027)).
-  - **Fireworks AI** ($1,830M raised; over $1,000M annualized revenue): specializes enterprise models; latest company-confirmed financing was $1,505M Series D, July 2026, led by Atreides Management, Index Ventures, and TCV ([Stock Analysis](https://stockanalysis.com/private/fireworks-ai/valuation/), [Fireworks](https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d)).
-  - **Baseten** ($2,090M raised; revenue unknown): combines embedded engineering, post-training, and production inference; $1,500M Series F, June 2026, led by Altimeter, Conviction, and Spark, co-led by Sands and Wellington ([Caplight](https://www.caplight.com/company/baseten), [Baseten](https://www.baseten.co/blog/announcing-our-series-f/)).
-- **Why now:** Open-weight models becoming alternatives to closed APIs, alongside reinforcement-learning customization, are identified adoption catalysts ([Baseten, January 2026](https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/)).
+  - Fireworks AI (over $1.8B raised, over $1B annualized revenue in July 2026): trains and serves custom models, and its July 2026 $1.505B Series D was led by Atreides Management, Index Ventures, and TCV ([Fireworks](https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d), [Sacra](https://sacra.com/c/fireworks-ai/)).
+  - Together AI (approximately $1.33B raised, estimated $1B annualized revenue in February 2026): combines hosted inference with GPU clusters and training, and its July 2026 $800M Series C was led by Aramco Ventures ([Together AI](https://www.together.ai/blog/announcing-our-series-c), [Sacra](https://sacra.com/c/together-ai/)).
+  - DeepInfra (at least $125M across announced rounds, over $100M ARR in September 2026): offers dedicated serving and third-party gateway distribution, and its May 2026 $107M Series B was co-led by 500 Global and Georges Harik ([Series A](https://deepinfra.com/blog/18m-milestone), [Series B](https://deepinfra.com/series-b), [ARR announcement](https://www.globenewswire.com/news-release/2026/09/29/3370896/0/en/deepinfra-surpasses-100m-arr-triples-token-volume.html), [Opper partnership](https://deepinfra.com/blog/deepinfra-opper-partnership)).
+- **Why now:** [Inferred]: Open-weight models crossed a usage threshold on Vercel AI Gateway in August 2026, when they first accounted for a majority of tokens, indicating more production traffic for specialized hosts to serve ([Vercel AI Gateway Production Index](https://vercel.com/blog/ai-gateway-production-index-october-2026), Oct 2026).
 
 ## Founders & Team
 
 - **Jaber Jaber (Technical Co-founder):**
-  - Background: YC lists previous affiliations with Microsoft, Nujoom AI, and Al Hussein Technical University, plus HTU and Stanford alumni affiliations without specifying qualifications ([YC](https://www.ycombinator.com/founders/jaber-jaber)).
-  - Twitter/X: @Akashi203; 4,983 followers reported October 22, 2026 ([TwitterScore, via search snippet](https://twitterscore.io/twitter/Akashi203/)).
-  - LinkedIn: Profile linked by YC; headline not retrievable ([YC profile link](https://www.ycombinator.com/founders/jaber-jaber)).
-  - GitHub: @jaberjaber23; pinned OpenFang repository approximately 18,200 stars ([GitHub, Oct 2026](https://github.com/jaberjaber23)).
-- **Osama Jaber (Commercial Co-founder/CMO):**
-  - Background: University of Petra alumnus; previously founded Antilab and worked as an undergraduate researcher at Petra ([YC](https://www.ycombinator.com/founders/osama-jaber), [Fundraising Fox](https://fundraisingfox.com/people/osama-jaber)).
-  - Twitter/X: @OsamaKakashi; approximately 160 followers ([TwStalker, Oct 2026, via search snippet](https://ww1.twstalker.com/rightnowai_co)).
-  - LinkedIn: RightNow affiliation shown; headline unavailable; approximately 6,000 followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/osama-jaber-osama2001)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Both founders coauthored inference and model research, including RightNow-Arabic; YC backs the company and lists Nicolas Dessaigne as partner ([research paper](https://arxiv.org/abs/2605.28827), [YC](https://www.ycombinator.com/companies/rightnow)).
+  - Background: YC lists Al Hussein Technical University and Stanford University under education and Microsoft and Nujoom AI under prior experience, and Jaber co-authored AutoKernel ([YC founder profile](https://www.ycombinator.com/founders/jaber-jaber), [AutoKernel preprint](https://arxiv.org/abs/2603.21331)). Business emails are `jaber@rightnowai.co` and `jaber@runinfra.ai` ([RightNow contact](https://www.rightnowai.co/contact), [RightNow security](https://www.rightnowai.co/open-models/security)).
+  - Twitter/X: `@Akashi203`, approximately 7K followers ([YC founder profile](https://www.ycombinator.com/founders/jaber-jaber), [TwStalker](https://ww1.twstalker.com/Akashi203), Nov 2026).
+  - LinkedIn: RightNow (YC F26) affiliation, approximately 10K followers, with no separate public headline displayed ([LinkedIn](https://jo.linkedin.com/in/jaber-j-b65246234), Nov 2026).
+  - GitHub: `@jaberjaber23`, with company repository OpenFang pinned at 18.3K stars ([GitHub profile](https://github.com/jaberjaber23), [OpenFang](https://github.com/RightNow-AI/openfang), Nov 2026).
+- **Osama Jaber (Commercial Co-founder / CMO):**
+  - Background: Osama earned a pharmacy degree at the University of Petra, founded chest X-ray AI startup Antilab, which Founderland reports was acquired in 2025, and co-authored AutoKernel ([YC founder profile](https://www.ycombinator.com/founders/osama-jaber), [Founderland](https://www.founderland.ai/founder/osama-jaber), [AutoKernel preprint](https://arxiv.org/abs/2603.21331)). His business email is `osama@rightnowai.co` ([RightNow privacy policy](https://www.rightnowai.co/open-models/privacy-policy)).
+  - Twitter/X: `@OsamaKakashi`, 178 followers ([YC founder profile](https://www.ycombinator.com/founders/osama-jaber), [TwStalker](https://ww1.twstalker.com/OsamaKakashi), Nov 2026).
+  - LinkedIn: RightNow (YC F26) affiliation, approximately 6K followers, with no separate public headline displayed ([LinkedIn](https://www.linkedin.com/in/osama-jaber-osama2001), 2026).
+  - GitHub: No public repos found under a verified personal handle, and RightNow’s StreamIndex repository credits Osama as a co-author ([StreamIndex](https://github.com/RightNow-AI/StreamIndex/blob/main/pyproject.toml)).
+- **Co-founder relationship:** Jaber and Osama are brothers ([Founderland](https://www.founderland.ai/founder/osama-jaber)).
+- **Founder-market fit:** Both founders co-authored GPU-kernel optimization research, Osama previously built a healthcare AI product, and YC lists Nicolas Dessaigne as their primary partner ([AutoKernel preprint](https://arxiv.org/abs/2603.21331), [Founderland](https://www.founderland.ai/founder/osama-jaber), [YC directory](https://www.ycombinator.com/companies/rightnow)).
 
 ## Key Risks
 
-- **Benchmark reproducibility:** RunInfra says historical benchmarks lack runtime details and its engine-comparison harness/raw data are unavailable, limiting independent verification; its methodology discloses these omissions ([methodology, September 2026](https://runinfra.ai/methodology)).
-- **Cache-dependent economics:** Published cache rates represent the highest qualifying account rather than typical performance, and hits remain best effort; realized customer costs can therefore differ from displayed effective prices ([methodology](https://runinfra.ai/methodology)).
-- **Competitive overlap:** Together AI already develops kernels, compilers, and inference systems, overlapping RunInfra’s optimization mechanism ([Together AI](https://www.together.ai/blog/announcing-our-series-c)).
-- **Name ambiguity:** Oracle’s unrelated RightNow customer-service business shares the name; its acquisition and operating metrics must be excluded from this dossier ([Oracle](https://www.oracle.com/applications/rightnow/)).
+- **GPU capacity:** [Inferred]: Traffic spikes could strain shared capacity because RightNow rents GPUs and lists reserved and dedicated options as forthcoming, though its November release added batch processing on idle capacity ([RunInfra privacy policy](https://runinfra.ai/privacy-policy), [RightNow pricing](https://www.rightnowai.co/pricing), [API release notes](https://www.rightnowai.co/docs/open-models/release-notes)).
+- **Performance portability:** [Inferred]: Customers with different prompts, cache reuse, or concurrency may see different cost and latency from RightNow’s published measurements, and RightNow offers to benchmark a prospect’s own workload ([RightNow homepage](https://www.rightnowai.co/), [Launch YC](https://www.ycombinator.com/launches/XcZ-rightnow-own-your-ai-at-full-speed), [Hosted API measurement study](https://arxiv.org/abs/2605.02821)).
+- **Competitive overlap:** [Inferred]: Together’s inference compiler targets the same serving-efficiency gains, which could reduce the performance difference buyers see between providers ([Together Compiler](https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference), [RightNow serving stack](https://www.rightnowai.co/)).
+- **Name collision:** [Inferred]: Buyers searching for RightNow may encounter Oracle’s RightNow customer-service product, while the YC profile identifies the GPU company by its `rightnowai.co` domain ([Oracle](https://www.oracle.com/anz/applications/rightnow/), [YC directory](https://www.ycombinator.com/companies/rightnow)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader AI inference: $132.7B in 2026; 18% CAGR through 2033, exceeding RunInfra’s scope ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/artificial-intelligence-ai-inference-market-report)) |
+| TAM | $7–10B in 2026, 26% CAGR through 2033 for the broader open-weight model ecosystem ([Meticulous Research](https://www.meticulousresearch.com/meticulous-next/open-weight-ai-models-outlook-2026-2033)) |
 | SAM | No public data found |
-| Traction | RunInfra #14 July launch; #8 October launch; Autokernel approximately 1,600 stars ([Product Hunt, July 2026](https://www.producthunt.com/leaderboard/daily/2026/7/1), [October 2026](https://www.producthunt.com/leaderboard/daily/2026/10/20), [GitHub, Oct 2026](https://github.com/RightNow-AI/autokernel)) |
-| Revenue Signal | $5 minimum prepaid credits; $10/$29/$99 monthly workspace plans ([pricing, Oct 2026](https://runinfra.ai/pricing)) |
-| Founders | Jaber: technical co-founder, Microsoft/Nujoom affiliations; Osama: CMO, Petra alumnus ([Jaber YC](https://www.ycombinator.com/founders/jaber-jaber), [Osama YC](https://www.ycombinator.com/founders/osama-jaber)) |
-| Competitors | Together AI: training/compute/inference; Fireworks: specialized models; Baseten: embedded optimization/post-training ([Together](https://www.together.ai/blog/announcing-our-series-c), [Fireworks](https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d), [Baseten](https://www.baseten.co/blog/announcing-our-series-f/)) |
-| Moat Signals | Public kernel optimization implementation and correctness harness ([Autokernel, GitHub](https://github.com/RightNow-AI/autokernel)) |
-| Risk Factors | Benchmark reproducibility, non-typical cache rates, overlapping competitor technology ([methodology](https://runinfra.ai/methodology), [Together AI](https://www.together.ai/blog/announcing-our-series-c)) |
-| Founder Reach | Jaber: X 4,983; Osama: LinkedIn approximately 6,000 ([TwitterScore, Oct 2026, via search snippet](https://twitterscore.io/twitter/Akashi203/), [LinkedIn, via search snippet](https://www.linkedin.com/in/osama-jaber-osama2001)) |
-| Distribution Signals | Product Hunt launches; startup credits program ([Product Hunt](https://www.producthunt.com/products/runinfra), [RunInfra Startups](https://runinfra.ai/startups)) |
-| Emails | jaber@rightnowai.co, osama@rightnowai.co ([company GitHub](https://github.com/RightNow-AI/StreamIndex/blob/main/pyproject.toml)); jaber@runinfra.ai ([Privacy Policy](https://runinfra.ai/privacy-policy)); jaberib647@gmail.com ([founder GitHub](https://github.com/jaberjaber23)) |
+| Traction | Kernel-tool use reported at NVIDIA, Hugging Face, Samsung, AMD, Modal, and Reddit ([RightNow](https://www.rightnowai.co/), Nov 2026). Hosted API coverage ([Founderland](https://www.founderland.ai/articles/rightnow-ai-launches-runinfra-to-cut-ai-agent-costs-at-the-g-mvyg5jwa), Nov 2026). AutoKernel coverage ([MarkTechPost](https://www.marktechpost.com/2026/04/06/rightnow-ai-releases-autokernel-an-open-source-framework-that-applies-an-autonomous-agent-loop-to-gpu-kernel-optimization-for-arbitrary-pytorch-models/), Apr 2026). |
+| Revenue Signal | API input from $0.05 per million tokens, $5 minimum top-up, and half-price batch ([RightNow pricing](https://www.rightnowai.co/pricing), [API release notes](https://www.rightnowai.co/docs/open-models/release-notes), Nov 2026). Realized revenue — No public data found. |
+| Founders | Jaber Jaber (Technical Co-founder), formerly Microsoft and Nujoom AI, AutoKernel co-author ([YC](https://www.ycombinator.com/founders/jaber-jaber), [AutoKernel](https://arxiv.org/abs/2603.21331)). Osama Jaber (CMO), University of Petra pharmacy graduate and Antilab founder ([YC](https://www.ycombinator.com/founders/osama-jaber), [Founderland](https://www.founderland.ai/founder/osama-jaber)). |
+| Competitors | Fireworks AI (over $1.8B raised, over $1B annualized revenue, model training and serving) ([Fireworks](https://fireworks.ai/news/fireworks-raises-1-5-billion-series-d), [Sacra](https://sacra.com/c/fireworks-ai/)). Together AI (approximately $1.33B raised, estimated $1B annualized revenue, GPU clusters and training) ([Sacra](https://sacra.com/c/together-ai/)). DeepInfra (at least $125M announced, over $100M ARR, dedicated serving) ([DeepInfra Series A](https://deepinfra.com/blog/18m-milestone), [Series B](https://deepinfra.com/series-b), [ARR announcement](https://www.globenewswire.com/news-release/2026/09/29/3370896/0/en/deepinfra-surpasses-100m-arr-triples-token-volume.html)). |
+| Moat Signals | Published profiling and kernel-search workflow plus model-specific serving configuration ([AutoKernel](https://arxiv.org/abs/2603.21331), [RightNow](https://www.rightnowai.co/)). |
+| Risk Factors | Rented GPU capacity ([RunInfra privacy policy](https://runinfra.ai/privacy-policy)), workload-dependent cache performance ([RightNow](https://www.rightnowai.co/)), competing inference compiler ([Together AI](https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference)). |
+| Founder Reach | Jaber Jaber, X ~7K and LinkedIn ~10K ([TwStalker](https://ww1.twstalker.com/Akashi203), [LinkedIn](https://jo.linkedin.com/in/jaber-j-b65246234)). Osama Jaber, X 178 and LinkedIn ~6K ([TwStalker](https://ww1.twstalker.com/OsamaKakashi), [LinkedIn](https://www.linkedin.com/in/osama-jaber-osama2001)). |
+| Distribution Signals | RunInfra 119 Product Hunt votes (Oct 2026) and prior CUDA editor #5 of the day (Dec 2025) ([RunInfra](https://www.producthunt.com/products/runinfra), [CUDA editor](https://www.producthunt.com/products/rightnow-ai?launch=rightnow-ai-2)). Company LinkedIn 2,521, X ~10K, and Discord 1,053 (Nov 2026) ([LinkedIn](https://www.linkedin.com/company/rightnowai/), [TwStalker](https://ww1.twstalker.com/rightnow_co), [GroupFinds](https://www.groupfinds.com/discord/rightnow)). |
+| Emails | jaber@rightnowai.co (Jaber Jaber, [RightNow contact](https://www.rightnowai.co/contact)), jaber@runinfra.ai (Jaber Jaber, security and audit requests, [RightNow security](https://www.rightnowai.co/open-models/security)), osama@rightnowai.co (Osama Jaber, privacy and legal inquiries, [RightNow privacy policy](https://www.rightnowai.co/open-models/privacy-policy)). |

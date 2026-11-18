@@ -1,76 +1,79 @@
 ﻿# Polemos Industries
 
-> AI-guided ballistic missiles, cheap enough to field in numbers that?
+> AI-guided ballistic missiles, built for mass manufacturing
 
 | Field | Value |
 |-------|-------|
-| Website | https://lokberg.com/ |
+| Website | https://polemosindustries.com/ |
 | YC Page | https://www.ycombinator.com/companies/polemos-industries |
-| Batch | Fall 2026 ([YC, accessed Oct 2026](https://www.ycombinator.com/companies/polemos-industries)) |
+| Batch | Fall 2026 ([YC company directory](https://www.ycombinator.com/companies/polemos-industries)) |
 | Industry | Industrials / Industrials -> Defense |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Defense, AI |
-| YC Partner | Harj Taggar ([YC, accessed Oct 2026](https://www.ycombinator.com/companies/polemos-industries)) |
-| Emails | No public data found |
+| YC Partner | Harj Taggar ([YC company directory](https://www.ycombinator.com/companies/polemos-industries)) |
+| Emails | hello@polemosindustries.com, general inquiries ([Polemos Industries contact page](https://polemosindustries.com/#contact)) |
 
 ## The Idea
 
-- **Problem:** Polemos targets armed forces that identify more targets than they can afford to engage with existing precision-strike weapons, according to its company description ([YC, Oct 2026](https://www.ycombinator.com/companies/polemos-industries)).
-- **Approach:** The company describes compact launchers connected to existing reconnaissance drones, which geolocate targets for engagement by short-range, AI-guided ballistic missiles manufactured using existing production lines ([YC, Oct 2026](https://www.ycombinator.com/companies/polemos-industries)).
-- **Differentiation:** Polemos describes short-range ballistic missiles and compact launchers, versus Castelion’s hypersonic Blackbeard, Mach’s jet-powered Viper, and Ares’s container-launched subsonic missiles; comparative performance data: No public data found ([YC](https://www.ycombinator.com/companies/polemos-industries), [Castelion](https://www.castelion.com/news/series-c/), [Mach](https://www.prnewswire.com/news-releases/mach-industries-raises-300-million-in-series-c-funding-302787788.html), [Ares](https://www.aresindustries.com/), accessed Oct 2026).
-- **Business Model:** [Inferred]: Hardware procurement contracts for missiles and launchers are a possible monetization path given the described products; company pricing and contract terms: No public data found.
-- **TAM/SAM:** The broader global precision-guided munition market is estimated at $44.3B in 2026, growing at 6.5% CAGR through 2033, encompassing products beyond Polemos’s segment; company-specific SAM: No public data found ([Grand View Research, Oct 2026](https://www.grandviewresearch.com/industry-analysis/precision-guided-munition-market)).
-- **GTM / Distribution:** No public GTM data found.
+- **Problem:** Polemos says the cost and limited availability of existing precision-strike systems constrain how often armed forces can use them. ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike))
+- **Approach:** Polemos is developing ballistic missiles and launchers with the stated goal of lowering unit costs through volume production. ([Polemos Industries](https://polemosindustries.com/))
+- **Differentiation:** Polemos describes a single product family, while Lockheed Martin and Northrop Grumman report multiple aerospace and defense businesses and RTX also reports commercial aerospace sales. ([YC company directory](https://www.ycombinator.com/companies/polemos-industries), [Lockheed Martin 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/936468/000162828026004195/lmt-20251231.htm), [Northrop Grumman FY2025 results](https://www.sec.gov/Archives/edgar/data/1133421/000113342126000002/noc-12312025xearningsrelea.htm), [RTX 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm))
+- **Business Model:** No public data found.
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Polemos announced the company through Launch YC and the founder’s X account. ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike), [Doomers AI, Nov 2026](https://doomers.ai/launches/polemos-industries))
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Validated manufacturing processes and operational integrations could create production know-how and switching costs, but public evidence establishing either advantage was not found.
+- **Future moat:** [Inferred]: Repeat contract awards could establish customer retention, which requires an award history to assess.
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** [Inferred]: Ares’s stated use of commercial components and simplified manufacturing, alongside Castelion’s mass-production program, indicates competing approaches to affordable missile supply, although the difficulty of replicating Polemos’s implementation cannot be established ([Ares](https://www.aresindustries.com/), [Castelion](https://www.castelion.com/news/series-c/), accessed Oct 2026).
+- **Commoditization risk:** No public data found.
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Coverage discussing Polemos’s manufacturing approach appeared in the Tremendous blog on October 23, 2026 ([Tremendous, via search snippet](https://tremendous.blog/2026/10/23/reusable-jet-interceptors-cheap-missiles-and-car-repair-robots-my-favorite-yc-f26-startups-so-far/)).
-  - Zero jobs were posted on the YC platform at the time of research ([YC Jobs, Oct 27, 2026](https://www.ycombinator.com/companies/polemos-industries/jobs)).
-- **Competitors:**
-  - **Castelion** (~$1.27B equity funding reported, revenue unknown): Blackbeard targets hypersonic strike rather than Polemos’s stated short-range approach; its August 19, 2026 financing comprised $800M equity, co-led by JPMorganChase’s Strategic Investment Group, Andreessen Horowitz, and Carlyle-managed funds, plus a separate $250M committed revolving credit facility ([Tech Funding News, Aug 2026](https://techfundingnews.com/former-spacex-engineers-castelion-raises-1b-at-13b-valuation-to-mass-produce-hypersonic-weapons/), [Castelion, Aug 2026](https://www.castelion.com/news/series-c/)).
-  - **Mach Industries** (~$1.1B cumulative funding reported, revenue unknown): Its adjacent portfolio includes jet-powered Viper and long-range Pike; a $600M Series C continuation announced September 10, 2026 named Ribbit Capital, Infinite Capital, Bedrock Capital, and Sequoia as investors without identifying a lead ([Multiples, accessed Oct 2026](https://multiples.vc/private-comps/mach-industries), [Mach, June 2026](https://www.prnewswire.com/news-releases/mach-industries-raises-300-million-in-series-c-funding-302787788.html), [Mach, Sept 2026](https://www.prnewswire.com/news-releases/mach-industries-raises-additional-600-million-to-scale-defense-manufacturing-302874488.html)).
-  - **Ares Industries** ($0.5M pre-seed recorded, complete funding total unavailable, revenue unknown): Its adjacent products are container-launched subsonic missiles rather than ballistic missiles; TipRanks records a September 21, 2024 pre-seed with YC as the listed investor, while a subsequent financing amount or lead could not be verified ([TipRanks, accessed Oct 2026](https://www.tipranks.com/private-companies/ares-industries), [Ares, accessed Oct 2026](https://www.aresindustries.com/)).
-- **Why now:** [Inferred]: The March 2026 agreement intended to quadruple Lockheed Martin’s PrSM production capacity provides a dated procurement catalyst for expanding precision-munition supply, although it establishes no demand for Polemos specifically ([Lockheed Martin, Mar 25, 2026](https://www.lockheedmartin.com/en-us/news/features/2026/lockheed-martin-and-the-us-department-of-war-further-expand-prsm-production.html)).
+  - Public launch on Nov 5, 2026, with 566,813 views on the founder’s X post as of Nov 10. ([Doomers AI, Nov 2026](https://doomers.ai/launches/polemos-industries))
+  - Approximately 1,700 followers on the company’s X account, `@polemos_inc`. ([Nitter mirror of X, Nov 2026](https://www.nitter.cf/polemos_inc))
+  - The company website says it is hiring, and the YC directory shows zero posted jobs. ([Polemos Industries](https://polemosindustries.com/#contact), [YC company directory, Nov 2026](https://www.ycombinator.com/companies/polemos-industries))
+  - CB Insights reports $500,000 in financing from Y Combinator dated Oct 1, 2026. ([CB Insights, via search snippet](https://www.cbinsights.com/company/polemos-industries/financials))
+  - MentionFox recorded an interceptor description on the former Lokberg Industries website on Oct 13, 2026, and fru.dev recorded the switch to the Polemos domain on Nov 2, 2026. No public data found on traction for the earlier interceptor offering. ([MentionFox, Oct 2026](https://mentionfox.com/funding/yc-polemos-industries), [fru.dev, Nov 2026](https://startups.fru.dev/companies/polemos-industries))
+- **Competitors** (public-company financial peers):
+  - **Lockheed Martin** ($75.0B FY2025 sales): Its portfolio includes aeronautics and space businesses. ([Lockheed Martin FY2025 results, Jan 2026](https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-reports-fourth-quarter-and-full-year-2025/))
+  - **Northrop Grumman** ($42.0B FY2025 sales): Its portfolio includes a separately reported Space Systems business. ([Northrop Grumman FY2025 results, Jan 2026](https://www.sec.gov/Archives/edgar/data/1133421/000113342126000002/noc-12312025xearningsrelea.htm))
+  - **RTX** ($88.6B FY2025 sales): Its portfolio includes commercial aircraft engines and aerospace systems. ([RTX 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm))
+- **Why now:** [Inferred]: NATO’s June 2025 commitment to spend 5% of GDP annually on defense and security-related priorities by 2035 creates a broader budget backdrop for defense suppliers. ([NATO Hague Summit Declaration, Jun 2025](https://nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration))
 
 ## Founders & Team
 
-- **Founder identities and roles:** No public data found; the YC page contains a Founders heading without named profiles ([YC, Oct 2026](https://www.ycombinator.com/companies/polemos-industries)).
-  - Background: No public data found.
-  - Twitter/X: No public data found.
-  - LinkedIn: No public data found.
-  - GitHub: No public data found.
+- **Henrijs Dandzbergs (Founder and CEO):** ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike), [aVenture Research](https://aventure.vc/companies/polemos-industries-san-francisco-ca-us/employees))
+  - **Background:** Dandzbergs says he studied aerospace and mechanical engineering at Astra Nova and worked with engineering teams at two unnamed defense companies. ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike))
+  - **Twitter/X:** `@henrijsdan`, 3,127 followers at launch. ([Doomers AI, Nov 2026](https://doomers.ai/launches/polemos-industries))
+  - **LinkedIn:** 456 followers in the indexed profile, with no public headline visible. ([LinkedIn, via search snippet](https://www.linkedin.com/in/henrijs-dandzbergs-31b278302))
+  - **GitHub:** No public repos found.
+  - **Direct business email:** No public data found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** No public data found.
+- **Founder-market fit:** The launch post describes Dandzbergs’s prior defense engineering work and cites team backgrounds at NASA JPL, Caltech’s aerospace laboratory, the U.S. Army Research Laboratory, and Imperial College London. ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike))
 
 ## Key Risks
 
-- **Technical feasibility:** [Inferred]: The described drone-to-launcher engagement depends on successful end-to-end integration, while independently documented flight tests, accuracy results, and operational demonstrations were not found ([company description, YC, Oct 2026](https://www.ycombinator.com/companies/polemos-industries)).
-- **Manufacturing economics:** [Inferred]: The affordability proposition depends on existing production lines delivering acceptable costs and output, but public unit costs, production yields, and manufacturing agreements were not found ([company description, YC, Oct 2026](https://www.ycombinator.com/companies/polemos-industries)).
-- **Competitive overlap:** [Inferred]: Affordability and manufacturing scale alone may provide limited differentiation because Ares also advertises commercial components, simplified tooling, and mass-manufacturable missiles ([Ares, accessed Oct 2026](https://www.aresindustries.com/)).
-- **Export constraints:** [Inferred]: International distribution could face export authorization constraints because ballistic and guided missiles fall within USML Category IV; Polemos-specific authorizations or mitigation: No public data found ([DDTC, FY2025 categories published 2026](https://deccs.pmddtc.state.gov/sys_attachment.do?sys_id=2d6361521b414b108e3086eae54bcb58), [DDTC export-control overview](https://deccs.pmddtc.state.gov/ddtc_public?id=ddtc_kb_article_page&sys_id=47ee3b08dbc7bf0044f9ff621f9619d7)).
-- **Public verification and name ambiguity:** Website not accessible at time of research on October 27, 2026, and results for the separate Polemos gaming business were excluded because its industry and domain differ from this company ([company domain](https://lokberg.com/), [YC](https://www.ycombinator.com/companies/polemos-industries), [The Org gaming profile](https://theorg.com/org/polemos)).
+- **Technical validation:** Polemos lists testing as a next step, with no independently verified test results found. ([Polemos Industries, Nov 2026](https://polemosindustries.com/))
+- **Commercial validation:** Public launch metrics quantify attention, with no public data found on paying customers, signed contracts, or letters of intent. ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike), [Doomers AI, Nov 2026](https://doomers.ai/launches/polemos-industries))
+- **Export licensing:** U.S. law generally requires a license to export designated defense articles, making international sales subject to regulatory approval. ([22 U.S.C. § 2778](https://uscode.house.gov/us/usc/119-118/t22/s2778/))
+- **Name ambiguity:** Public records also use Polemos for a Singapore blockchain gaming company and a former UK-listed cash shell. ([BounceWatch, Apr 2026](https://bouncewatch.com/company/polemos), [Polemos plc shareholder circular, Mar 2018](https://digitalbox.com/notices/GM%20Notice%20of%20General%20Meeting%20and%20Form%20of%20Proxy%20May%202018.pdf))
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader precision-guided munition market: $44.3B in 2026; 6.5% CAGR, 2026–2033; not a company-specific addressable-market estimate ([Grand View Research, Oct 2026](https://www.grandviewresearch.com/industry-analysis/precision-guided-munition-market)) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Blog coverage ([Tremendous, Oct 23, 2026, via search snippet](https://tremendous.blog/2026/10/23/reusable-jet-interceptors-cheap-missiles-and-car-repair-robots-my-favorite-yc-f26-startups-so-far/)); zero open YC jobs ([YC Jobs, Oct 27, 2026](https://www.ycombinator.com/companies/polemos-industries/jobs)) |
+| Traction | Nov 5 launch with 566,813 X views by Nov 10 ([Doomers AI, Nov 2026](https://doomers.ai/launches/polemos-industries)), approximately 1,700 company X followers ([Nitter mirror of X, Nov 2026](https://www.nitter.cf/polemos_inc)), zero YC job listings ([YC company directory, Nov 2026](https://www.ycombinator.com/companies/polemos-industries)) |
 | Revenue Signal | No public data found |
-| Founders | No public data found |
-| Competitors | Castelion (~$1.27B equity reported, revenue unknown, hypersonic strike: [TFN](https://techfundingnews.com/former-spacex-engineers-castelion-raises-1b-at-13b-valuation-to-mass-produce-hypersonic-weapons/)); Mach (~$1.1B reported, revenue unknown, unmanned strike portfolio: [Multiples](https://multiples.vc/private-comps/mach-industries), [Mach](https://www.prnewswire.com/news-releases/mach-industries-raises-300-million-in-series-c-funding-302787788.html)); Ares ($0.5M pre-seed recorded, revenue unknown, subsonic container-launched missiles: [TipRanks](https://www.tipranks.com/private-companies/ares-industries), [Ares](https://www.aresindustries.com/)) |
+| Founders | Henrijs Dandzbergs (Founder and CEO), Astra Nova and prior defense engineering work ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike), [aVenture Research](https://aventure.vc/companies/polemos-industries-san-francisco-ca-us/employees)) |
+| Competitors | Public-company peers: Lockheed Martin ($75.0B FY2025 sales, aeronautics and space) ([Lockheed Martin FY2025 results](https://investors.lockheedmartin.com/news-releases/news-release-details/lockheed-martin-reports-fourth-quarter-and-full-year-2025/)), Northrop Grumman ($42.0B, Space Systems segment) ([Northrop Grumman FY2025 results](https://www.sec.gov/Archives/edgar/data/1133421/000113342126000002/noc-12312025xearningsrelea.htm)), RTX ($88.6B, commercial aerospace) ([RTX 2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/101829/000010182926000006/rtx-20251231.htm)) |
 | Moat Signals | No public data found |
-| Risk Factors | Overlapping affordable missile offerings ([Ares, Oct 2026](https://www.aresindustries.com/)), missile export controls ([DDTC, 2026](https://deccs.pmddtc.state.gov/sys_attachment.do?sys_id=2d6361521b414b108e3086eae54bcb58)) |
-| Founder Reach | No public data found |
-| Distribution Signals | YC directory presence ([YC, Oct 2026](https://www.ycombinator.com/companies/polemos-industries)); blog coverage ([Tremendous, Oct 23, 2026, via search snippet](https://tremendous.blog/2026/10/23/reusable-jet-interceptors-cheap-missiles-and-car-repair-robots-my-favorite-yc-f26-startups-so-far/)) |
-| Emails | No public data found |
+| Risk Factors | Product validation ([Polemos Industries](https://polemosindustries.com/)), commercial validation ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike)), export licensing ([22 U.S.C. § 2778](https://uscode.house.gov/us/usc/119-118/t22/s2778/)) |
+| Founder Reach | Henrijs Dandzbergs: 3,127 X followers at launch ([Doomers AI, Nov 2026](https://doomers.ai/launches/polemos-industries)), 456 LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/henrijs-dandzbergs-31b278302)) |
+| Distribution Signals | Launch YC announcement and founder-led X launch ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wzg-polemos-industries-the-next-generation-of-autonomous-precision-strike), [Doomers AI, Nov 2026](https://doomers.ai/launches/polemos-industries)) |
+| Emails | hello@polemosindustries.com, general inquiries ([Polemos Industries contact page](https://polemosindustries.com/#contact)) |

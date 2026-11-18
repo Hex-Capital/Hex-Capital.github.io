@@ -1,15 +1,15 @@
 {
   "slug": "vouchwealth",
   "name": "Vouch",
-  "oneLiner": "The AI wealth manager for every Indian",
+  "oneLiner": "Personal wealth manager for 100M+ Indian professionals",
   "metadata": {
     "website": "https://vouchwealth.com/",
     "yc_page": "https://www.ycombinator.com/companies/vouchwealth",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/vouchwealth))",
+    "batch": "Fall 2026",
     "industry": "Fintech / Fintech -> Consumer Finance",
     "tags": "Fintech, Consumer, Consumer Finance",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/vouchwealth))",
-    "emails": "No public data found"
+    "yc_partner": "Andrew Miklas ([YC company profile](https://www.ycombinator.com/companies/vouchwealth))",
+    "emails": "arnav@vouchwealth.com, founder and CEO ([Launch YC](https://www.ycombinator.com/launches/XWf-vouch-india-s-personal-wealth-manager)), hello@vouchwealth.com, general contact and grievances ([Vouch privacy policy](https://www.vouchwealth.com/privacy))"
   },
   "tags": [
     "Fintech",
@@ -17,63 +17,39 @@
     "Consumer Finance"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:07:09.982Z",
+  "memoGeneratedAt": "2026-11-17T23:15:03.227Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 31,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 26,
+    "hypergrowth": {
+      "score": 35,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 26,
-    "NR": 41,
-    "PG": 29,
-    "PT": 25,
-    "SL": 30,
-    "VK": 25
+    "AGI": 37,
+    "HG": 35,
+    "EXIT": 36
   },
-  "consolidatedAvg": 29.57,
-  "consolidatedRank": 226,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 185,
   "traction": {
-    "tractionRank": 225,
-    "tractionScore": 2,
-    "tractionReason": "Prelaunch pending regulatory licensing; no disclosed users or revenue"
+    "tractionRank": 170,
+    "tractionScore": 32,
+    "tractionReason": "27 fund houses empanelled, consumer app still forthcoming"
   },
   "paths": {
     "memo": "fall2026/memos/vouchwealth.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/vouchwealth.md",
-      "elad-gil": "fall2026/evals/elad-gil/vouchwealth.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/vouchwealth.md",
-      "paul-graham": "fall2026/evals/paul-graham/vouchwealth.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/vouchwealth.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/vouchwealth.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/vouchwealth.md"
+      "agi": "fall2026/evals/agi/vouchwealth.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/vouchwealth.md",
+      "exit": "fall2026/evals/exit/vouchwealth.md"
     }
   }
 }

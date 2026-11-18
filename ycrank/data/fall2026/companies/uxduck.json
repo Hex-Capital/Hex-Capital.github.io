@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://uxduck.com",
     "yc_page": "https://www.ycombinator.com/companies/uxduck",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/uxduck))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/uxduck))",
     "industry": "Industrials / Industrials -> Drones",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Hardware, AI",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/uxduck))",
-    "emails": "stadium-had-possum@duck.com, founder contact ([personal website](https://tlduck.com/about/)); cv@mail.orth.uk, professional CV contact ([CV](https://tlduck.com/cv.pdf))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/uxduck))",
+    "emails": "cv@mail.orth.uk (Ben Butterworth’s professional contact, [founder CV](https://tlduck.com/cv.pdf)), hello@uxduck.com (demos, [Launch YC](https://www.ycombinator.com/launches/X9D-uxduck-the-ai-native-software-for-the-next-billion-drones)), support@uxduck.com (support and pricing, [UXDuck pricing](https://uxduck.com/pricing))"
   },
   "tags": [
     "Developer Tools",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:06:09.497Z",
+  "memoGeneratedAt": "2026-11-17T23:10:36.223Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
       "score": 40,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 32,
-    "NR": 44,
-    "PG": 43,
-    "PT": 28,
-    "SL": 32,
-    "VK": 25
+    "AGI": 36,
+    "HG": 40,
+    "EXIT": 37
   },
-  "consolidatedAvg": 34.86,
-  "consolidatedRank": 166,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 126,
   "traction": {
     "tractionRank": 152,
-    "tractionScore": 22,
-    "tractionReason": "Five runtime repository stars; no disclosed customers or revenue"
+    "tractionScore": 36,
+    "tractionReason": "500+ external simulated flight hours and a customer testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/uxduck.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/uxduck.md",
-      "elad-gil": "fall2026/evals/elad-gil/uxduck.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/uxduck.md",
-      "paul-graham": "fall2026/evals/paul-graham/uxduck.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/uxduck.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/uxduck.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/uxduck.md"
+      "agi": "fall2026/evals/agi/uxduck.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/uxduck.md",
+      "exit": "fall2026/evals/exit/uxduck.md"
     }
   }
 }

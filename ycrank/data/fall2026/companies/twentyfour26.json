@@ -1,7 +1,7 @@
 {
   "slug": "twentyfour26",
   "name": "twentyfour26",
-  "oneLiner": "On Demand CNC Prototyping",
+  "oneLiner": "Building Autonomous Factories in America, Starting with On-Demand CNC?",
   "metadata": {
     "website": "https://twentyfour26.com/",
     "yc_page": "https://www.ycombinator.com/companies/twentyfour26",
@@ -9,73 +9,51 @@
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Robotics, Manufacturing, Industrial",
+    "tags": "Hard Tech, Hardware, Manufacturing, AI, Industrial",
     "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/twentyfour26))",
-    "emails": "No public data found"
+    "emails": "founders@twentyfour26.com, shared launch inquiries ([LinkedIn, via search snippet](https://in.linkedin.com/in/nisar-khan-6b34aa14)), hello@twentyfour26.com, general company contact ([Crunchbase](https://www.crunchbase.com/organization/twentyfour26))"
   },
   "tags": [
-    "Robotics",
+    "Hard Tech",
+    "Hardware",
     "Manufacturing",
+    "AI",
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:54:55.158Z",
+  "memoGeneratedAt": "2026-11-17T23:40:30.689Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 40,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 34,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "exit": {
       "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 34,
-    "NR": 48,
-    "PG": 38,
-    "PT": 34,
-    "SL": 30,
-    "VK": 27
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 38
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 142,
+  "consolidatedAvg": 37.33,
+  "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 87,
-    "tractionScore": 48,
-    "tractionReason": "Taking manufacturing orders after pivot; quantities and receipts undisclosed"
+    "tractionRank": 110,
+    "tractionScore": 45,
+    "tractionReason": "Manufactures parts for Bay Area hardware companies using per-job quotes"
   },
   "paths": {
     "memo": "fall2026/memos/twentyfour26.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/twentyfour26.md",
-      "elad-gil": "fall2026/evals/elad-gil/twentyfour26.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/twentyfour26.md",
-      "paul-graham": "fall2026/evals/paul-graham/twentyfour26.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/twentyfour26.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/twentyfour26.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/twentyfour26.md"
+      "agi": "fall2026/evals/agi/twentyfour26.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/twentyfour26.md",
+      "exit": "fall2026/evals/exit/twentyfour26.md"
     }
   }
 }

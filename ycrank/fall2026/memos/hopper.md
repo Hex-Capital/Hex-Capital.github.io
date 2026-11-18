@@ -1,85 +1,85 @@
 ﻿# Hopper
 
-> Inference and post-training for realtime agents
+> The Inference cloud for voice 
 
 | Field | Value |
 |-------|-------|
-| Website | https://withhopper.com |
+| Website | https://withhopper.com/code |
 | YC Page | https://www.ycombinator.com/companies/hopper |
-| Batch | Fall 2026 ([YC profile](https://www.ycombinator.com/companies/hopper)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/hopper)) |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Infrastructure, AI |
-| YC Partner | Charlie Warren ([YC profile](https://www.ycombinator.com/companies/hopper)) |
-| Emails | founders@withhopper.com ([Hopper website](https://withhopper.com)) |
+| YC Partner | Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/hopper)) |
+| Emails | founders@withhopper.com, shared inbox for general, privacy and security inquiries ([Hopper](https://withhopper.com/), [Privacy Policy](https://withhopper.com/privacy), [Trust Center](https://withhopper.com/trust)) |
 
 ## The Idea
 
-- **Problem:** Voice-agent developers face response delays and inference costs when combining speech recognition, language models, and speech synthesis, currently using proprietary APIs, transcript streaming, caching, and filler greetings to reduce perceived latency ([Hopper’s YC launch, Oct 2026](https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents)).
-- **Approach:** Hopper deploys open-weight speech and language models, builds evaluations with customers, and post-trains models on authorized production calls before serving them against live traffic ([YC launch](https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents)).
-- **Differentiation:** Hopper claims Gemma 4 inference at 80ms time to first token, Qwen 3 TTS at 150ms time to first audio, and lower costs than GPT-4.1, ElevenLabs, and Deepgram respectively; these are company-reported comparisons ([YC launch](https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents)).
-- **Business Model:** Consumption billing uses prepaid credits, optional automatic top-ups, and introductory credits, while the homepage advertises Gemma 4 31B input pricing of $0.30 per million tokens ([Terms, Oct 2026](https://withhopper.com/terms); [Hopper website, accessed Oct 27, 2026](https://withhopper.com)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Distribution includes founder engineering consultations, developer documentation, and a merged integration making Hopper selectable within Dograh ([Hopper consultation page](https://withhopper.com/talk-to-us); [Documentation](https://docs.withhopper.com); [Dograh integration, Oct 1, 2026](https://github.com/dograh-hq/dograh/pull/831)).
+- **Problem:** Voice-agent developers face delays across transcription, language-model generation and speech synthesis, and use interim transcripts, cached audio and filler greetings to reduce the wait callers perceive ([Launch YC](https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents)).
+- **Approach:** Hopper deploys optimized open-weight speech and language models, builds evaluations with customers and tunes models on authorized production calls before testing them against live traffic ([Launch YC](https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents), [Hopper Privacy Policy](https://withhopper.com/privacy)).
+- **Differentiation:** Hopper offers customer-specific tuning across the voice pipeline, including Qwen speech synthesis as an alternative to ElevenLabs’ models, Nemotron transcription as an alternative to Deepgram’s Nova and Gemma as an alternative to OpenAI’s GPT-4.1 ([Launch YC](https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents)).
+- **Business Model:** Voice API usage draws on prepaid credits, with Gemma input at $0.30 per million tokens and Qwen speech synthesis at $0.30 per generated hour, while Hopper Code offers DeepSeek access in $20, $50 and $200 monthly tiers ([Hopper model catalog, Nov 2026](https://docs.withhopper.com/models), [Hopper Code, Nov 2026](https://withhopper.com/code)).
+- **TAM/SAM:** Meticulous Research estimates the broader enterprise voice AI market at $12–17 billion in 2026 with 24% projected CAGR through 2033, including applications and implementation services, and no public TAM/SAM data was found for managed open-weight voice inference specifically ([Meticulous Research, 2026](https://www.meticulousresearch.com/meticulous-next/voice-ai-outlook-2026-2033)).
+- **GTM / Distribution:** Hopper expanded from voice serving into customer-specific post-training by September, launched its voice offering publicly on October 26 and was selling Hopper Code through integrations with OpenCode, Hermes Agent and Pi by November ([Neon, Sep 2026](https://neon.fund/blog/why-neon-invested-in-hopper/), [Katta’s launch post, Oct 2026, X mirror](https://nitter.gq/PavanKatta1998), [Hopper Code, Nov 2026](https://withhopper.com/code)).
 
 ## Defensibility
 
-- **Moat today:** Public technical artifacts include a voice-specific client that maintains reusable HTTP/2 connections to reduce connection overhead, but no exclusive technology rights are established by that disclosure ([Hopper engineering article, June 2026](https://withhopper.com/blog/llm-client-voice-agents)).
-- **Future moat:** [Inferred]: Customer-specific evaluations and model tuning could create integration and retraining costs, although training requires separately negotiated consent and therefore does not establish an automatic shared-data advantage ([Privacy policy, Oct 26, 2026](https://withhopper.com/privacy)).
-- **Market structure:** [Inferred]: Speech vendors selling complete agents may compete with their infrastructure customers, but this channel conflict does not prevent copying Hopper’s offering ([Cartesia products](https://www.cartesia.ai/)).
-- **Commoditization risk:** Fireworks already offers customer-data specialization and inference, while Hopper exposes an OpenAI-compatible API, providing overlapping capabilities and a standardized integration interface ([Fireworks, July 2026](https://fireworks.ai/blog/fireworks-series-d-funding); [Hopper documentation](https://docs.withhopper.com)).
+- **Moat today:** Hopper documents custom inference kernels and a cache-aware request router it built after its initial serving stack yielded lower cache hit rates ([Hopper engineering](https://withhopper.com/blog/gemma-tpu-megakernel), [Pedapudi, Nov 2026, X mirror](https://nitter.gq/jashwanth_p/article/2120485592308101335)).
+- **Future moat:** [Inferred]: Customer-specific evaluations and tuned models could raise switching costs if customers must reproduce that work elsewhere, with retention and migration costs still unverified ([Neon](https://neon.fund/blog/why-neon-invested-in-hopper/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Daily documents how developers can self-host its open-weight voice-agent model, and Baseten offers managed deployment of open speech models with regional co-location ([Daily](https://www.daily.co/blog/announcing-pipecat-phonellm-alpha-1/), [Baseten](https://www.baseten.co/blog/introducing-the-baseten-voice-agent-stack/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 215 company LinkedIn followers (public page accessed Oct 27, 2026; [LinkedIn](https://www.linkedin.com/company/hopper-inference/)).
-  - 54 company X followers in an indexed snapshot, rather than a verified live count ([TwStalker, Oct 2026, via search snippet](https://free-wifi-password-recovery.twstalker.com/hopper_research)).
-  - Hopper provider integration merged into Dograh on October 1, 2026 ([GitHub](https://github.com/dograh-hq/dograh/pull/831)).
-  - Company included in “Y Combinator Launches of the Week” ([Menlo Times, Oct 27, 2026](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-190)).
-  - Backing identified from YC and Vijay Krishnan, Turing’s CTO, with additional unnamed backers affiliated with xAI, Stripe, and Rubrik ([Hopper website, Oct 2026](https://withhopper.com)).
-  - Zero active YC job postings ([YC jobs, accessed Oct 27, 2026](https://www.ycombinator.com/companies/hopper/jobs)).
+  - More than 10 billion tokens per day within four weeks across Hopper’s inference platform, including one signed customer that moved its traffic into production ([Pedapudi, Nov 11, 2026, X mirror](https://nitter.gq/jashwanth_p/article/2120485592308101335)).
+  - Hopper Code used by developers in 44 countries ([Hopper Code, Nov 2026](https://withhopper.com/code)).
+  - One unnamed gaming customer requested speech-synthesis tuning for character accents and emotion ([Hopper Audio Perception-1 announcement, Oct 2026](https://withhopper.com/blog/audio-perception-1)).
+  - PhoneLLM hosting from its first day of availability, according to Hopper ([Hopper LinkedIn, Sep 2026](https://www.linkedin.com/company/hopper-inference/)).
+  - 338 LinkedIn followers and 149 X followers ([Hopper LinkedIn, Nov 2026](https://www.linkedin.com/company/hopper-inference/), [Hopper X mirror, Nov 2026](https://www.xitter.gq/hopper_research)).
+  - Voice launch coverage in Reveneau and zero open roles on YC’s job board ([Reveneau, Oct 2026](https://reveneau.com/ainews/hopper-yc-fall-2026-voice-agent-inference-production-traces), [YC Jobs, Nov 2026](https://www.ycombinator.com/companies/hopper/jobs)).
 - **Competitors:**
-  - **Deepgram** (>$215M raised; $100M annualized revenue estimated by Sacra for August 2026): offers its own speech models and complete Voice Agent API, versus Hopper’s open-weight optimization; its announced $130M Series C was led by AVP in January 2026 ([Sacra](https://sacra.com/c/deepgram/); [Deepgram announcement](https://deepgram.com/learn/press-release-deepgram-raises-series-c)).
-  - **Cartesia** ($191M reported raised; revenue unknown): develops Sonic and Ink speech models plus managed agents, versus Hopper’s serving and post-training approach; its latest reported $100M round in October 2025 was led by Kleiner Perkins ([Sacra](https://sacra.com/c/cartesia/); [Contrary Research](https://research.contrary.com/company/cartesia); [Cartesia products](https://www.cartesia.ai/)).
-  - **Fireworks** (>$1.8B announced financing, including secondary transactions; >$1B annualized revenue run rate): specializes models across enterprise workloads rather than focusing exclusively on realtime agents; its $1.505B Series D in July 2026 was led by Atreides Management, Index Ventures, and TCV ([Series C announcement](https://fireworks.ai/blog/series-c); [Series D announcement](https://fireworks.ai/blog/fireworks-series-d-funding)).
-- **Why now:** [Inferred]: The availability of open speech models such as Nemotron and Qwen during 2026 creates demand for production streaming infrastructure that model releases alone do not supply ([Pedapudi’s engineering account, April 2026](https://jashwanthpedapudi.com/writing/voice-agent-journey)).
+  - **ElevenLabs** ($781M raised as of February 2026, over $500M ARR by April 2026): develops its own speech models and deploys agents through ElevenAgents, with a $500M Series D led by Sequoia in February and a third close announced in May ([ElevenLabs Series D](https://elevenlabs.io/blog/series-d), [ElevenLabs ARR update](https://elevenlabs.io/blog/500m-arr-and-new-investors)).
+  - **Deepgram** (over $215M raised, estimated $100M annualized revenue in August 2026): sells its own speech APIs and agent stack, with a $130M January 2026 Series C led by AVP and an August extension from EDBI of undisclosed size ([Sacra](https://sacra.com/c/deepgram/), [Deepgram Series C](https://deepgram.com/blog/press-release-deepgram-raises-series-c), [Deepgram EDBI announcement](https://deepgram.com/blog/voice-ai-infrastructure-leader-deepgram-to-establish-apac-headquarters-in-singapore-following-strategic-investment-from-edbi)).
+  - **Cartesia** ($191M raised, revenue unknown): builds Sonic speech synthesis, Ink transcription and an agent platform, with a $100M round in October 2025 led by Kleiner Perkins ([Cartesia](https://www.cartesia.ai/), [Karan Goel](https://www.linkedin.com/posts/krandiash_weve-raised-100m-from-kleiner-perkins-activity-7388968595499728896-0UJn), [Contrary Research](https://research.contrary.com/company/cartesia)).
+  - **Baseten** (approximately $2.085B raised, estimated $600M annualized revenue in March 2026): hosts models across workloads and offers a co-located voice-agent stack, with a $1.5B June 2026 Series F led by Altimeter, Conviction and Spark, with Sands and Wellington as co-leads ([Sacra](https://sacra.com/c/baseten/), [Baseten Series F](https://www.baseten.co/blog/announcing-our-series-f/), [Baseten Voice Agent Stack](https://www.baseten.co/blog/introducing-the-baseten-voice-agent-stack/)).
+- **Why now:** [Inferred]: Daily’s August 2026 release of open-weight PhoneLLM made a model tuned for phone-agent workloads available for independent hosting and customization ([Daily, Aug 2026](https://www.daily.co/blog/announcing-pipecat-phonellm-alpha-1/)).
 
 ## Founders & Team
 
 - **Pavan Katta (Founder/CEO):**
-  - Background: Electrical engineering at IIT Madras and prior post-training leadership at Salient ([YC profile](https://www.ycombinator.com/companies/hopper)).
-  - Twitter/X: @PavanKatta1998; direct follower count not retrievable, with an indexed snapshot reporting 128 followers ([TwStalker, Oct 2026, via search snippet](https://es.twstalker.com/_yhshin)).
-  - LinkedIn: Profile identified with Hopper; headline not retrievable; indexed profile reports 3K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/pavankatta1998)).
-  - GitHub: @pavanyellow; `feature-steering`, an LLM activation-steering project, has 1 star ([GitHub, Oct 27, 2026](https://github.com/pavanyellow/feature-steering)).
+  - **Background:** Studied electrical engineering at IIT Madras, built Bing search infrastructure, was the first hire at Dashworks before its acquisition by HubSpot, and worked on voice inference and post-training at Salient (direct business email: No public data found) ([YC founder profile](https://www.ycombinator.com/founders/pavan-katta), [Neon](https://neon.fund/blog/why-neon-invested-in-hopper/), [HubSpot Form 10-K](https://ir.hubspot.com/static-files/efb8d22a-4fcd-4c15-b154-7cf59069c05c)).
+  - **Twitter/X:** @PavanKatta1998, 588 followers ([X mirror, Nov 2026](https://nitter.gq/PavanKatta1998)).
+  - **LinkedIn:** Hopper affiliation and 3K followers visible, headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/pavankatta1998)).
+  - **GitHub:** @pavanyellow, `alphasae` (0 stars) ([GitHub, Nov 2026](https://github.com/pavanyellow/alphasae)).
 - **Jashwanth Pedapudi (Founder/CTO):**
-  - Background: Electrical engineering at IIT Madras, inference-kernel work at Meta Reality Labs, and earlier Uber payments and streaming-infrastructure work ([YC profile](https://www.ycombinator.com/companies/hopper); [Personal website](https://jashwanthpedapudi.com/)).
-  - Twitter/X: @jashwanth_p; direct follower count not retrievable, with an indexed snapshot reporting 61 followers ([TwStalker, Oct 2026, via search snippet](https://www30.twstalker.com/jashwanth_p)).
-  - LinkedIn: Company-linked profile at `/in/jashwanth12`; headline and follower count not retrievable ([Hopper team links](https://withhopper.com)).
-  - GitHub: @jashwanth-12; `hopper-client`, a voice-agent client package, has 0 stars ([GitHub, Oct 27, 2026](https://github.com/jashwanth-12/hopper-client)).
-- **Co-founder relationship:** The founders say they met in high school more than 13 years ago and subsequently studied together at IIT Madras ([Hopper website](https://withhopper.com)).
-- **Founder-market fit:** Katta’s production voice-inference experience and Pedapudi’s inference-kernel work correspond to Hopper’s serving workload, with Vijay Krishnan named as an investor ([Hopper team description](https://withhopper.com)).
+  - **Background:** Studied electrical engineering at IIT Madras, built payments and real-time data infrastructure at Uber, wrote Quest 3 inference kernels at Meta Reality Labs, and co-founded speech-serving project Monosemantic (direct business email: No public data found) ([YC founder profile](https://www.ycombinator.com/founders/jashwanth-pedapudi), [Pedapudi’s website](https://jashwanthpedapudi.com/), [Hopper](https://withhopper.com/)).
+  - **Twitter/X:** @jashwanth_p, 95 followers ([X mirror, Nov 2026](https://nitter.gq/jashwanth_p)).
+  - **LinkedIn:** Hopper affiliation and 3K followers visible, headline unavailable ([LinkedIn, Nov 2026](https://www.linkedin.com/in/jashwanth12)).
+  - **GitHub:** @jashwanth-12, `hopper-client` (0 stars) ([GitHub, Nov 2026](https://github.com/jashwanth-12/hopper-client)).
+- **Co-founder relationship:** Katta and Pedapudi met in high school and studied together at IIT Madras ([Hopper](https://withhopper.com/)).
+- **Founder-market fit:** Katta’s production voice-inference work and Pedapudi’s kernel engineering match Hopper’s serving and tuning work, with backing from Y Combinator, Neon and Turing CTO Vijay Krishnan ([Hopper](https://withhopper.com/), [Neon investment announcement, Sep 2026](https://neon.fund/blog/why-neon-invested-in-hopper/)).
 
 ## Key Risks
 
-- **Technical performance transfer:** [Inferred]: Advertised model latency may vary with geography, connection reuse, and concurrency; Hopper’s own engineering article documents workload-dependent latency and provides a reusable-connection client as mitigation ([Engineering article, June 2026](https://withhopper.com/blog/llm-client-voice-agents)).
-- **Overlapping specialization platforms:** [Inferred]: Fireworks’ existing customer-data training and serving capabilities create substitution risk for Hopper’s post-training offering ([Fireworks, July 2026](https://fireworks.ai/blog/fireworks-series-d-funding)).
-- **Training-data permissions:** [Inferred]: Production-trace customization depends on customers granting training rights; Hopper requires prior written consent and separates logging permission from training authorization ([Privacy policy](https://withhopper.com/privacy)).
-- **Enterprise procurement:** [Inferred]: Customers requiring completed security audits may defer adoption while SOC 2 Type 1 and Type 2 remain in progress, with Oneleet identified as the compliance provider ([Trust center](https://withhopper.com/trust)).
-- **Name ambiguity:** Hopper shares its name with a separate travel company, requiring domain and founder checks when attributing funding or usage figures ([Hopper Inference](https://withhopper.com); [Travel Hopper newsroom](https://media.hopper.com/news)).
+- **Latency under load:** Pedapudi reports that p95 latency on one deployment rose from about 11 to 42 seconds under higher load, with spare GPUs and customer-side overflow routing used to absorb bursts ([Pedapudi, Nov 2026, X mirror](https://nitter.gq/jashwanth_p/article/2120485592308101335)).
+- **Training-data access:** Tuning on production calls depends on prior written customer consent and agreed retention terms, while standard serving defaults to zero content retention ([Hopper Privacy Policy](https://withhopper.com/privacy)).
+- **Bundled substitutes:** Deepgram’s announced acquisition of Daily combines speech APIs with communications infrastructure and the Pipecat framework, giving developers a route to source more of the voice stack from one vendor ([Deepgram, Oct 2026](https://deepgram.com/blog/daily-pipecat-deepgram)).
+- **Name overlap:** Hopper shares its name with the travel-booking company, making unqualified search results and press mentions ambiguous ([YC company listing](https://www.ycombinator.com/companies/hopper), [Hopper travel company](https://hopper.com/about)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | Broader enterprise voice AI: $12–17B in 2026, 24% projected CAGR through 2033 ([Meticulous Research](https://www.meticulousresearch.com/meticulous-next/voice-ai-outlook-2026-2033)). |
 | SAM | No public data found |
-| Traction | 215 LinkedIn followers ([LinkedIn, Oct 2026](https://www.linkedin.com/company/hopper-inference/)); Dograh integration merged October 1, 2026 ([GitHub](https://github.com/dograh-hq/dograh/pull/831)) |
-| Revenue Signal | $0.30 per million Gemma 4 31B input tokens ([Hopper website, Oct 2026](https://withhopper.com)); prepaid usage credits ([Terms](https://withhopper.com/terms)) |
-| Founders | Pavan Katta, CEO: IIT Madras, Salient post-training; Jashwanth Pedapudi, CTO: IIT Madras, Meta inference kernels ([YC](https://www.ycombinator.com/companies/hopper)) |
-| Competitors | Deepgram (>$215M raised, $100M estimated annualized revenue, speech models; [Sacra](https://sacra.com/c/deepgram/)); Cartesia ($191M reported raised, revenue unknown, proprietary speech stack; [Sacra](https://sacra.com/c/cartesia/)); Fireworks (>$1.8B announced financing including secondary, >$1B annualized revenue, broader specialization platform; [Series C](https://fireworks.ai/blog/series-c), [Series D](https://fireworks.ai/blog/fireworks-series-d-funding)) |
-| Moat Signals | Voice-specific HTTP/2 connection optimization ([Hopper engineering](https://withhopper.com/blog/llm-client-voice-agents)) |
-| Risk Factors | Overlapping training/serving capabilities ([Fireworks](https://fireworks.ai/blog/fireworks-series-d-funding)); SOC 2 audits in progress ([Hopper Trust](https://withhopper.com/trust)) |
-| Founder Reach | Katta: LinkedIn 3K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/pavankatta1998)), feature-steering 1 star ([GitHub](https://github.com/pavanyellow/feature-steering)); Pedapudi: hopper-client 0 stars ([GitHub](https://github.com/jashwanth-12/hopper-client)) |
-| Distribution Signals | Dograh integration ([GitHub, Oct 2026](https://github.com/dograh-hq/dograh/pull/831)); launch-roundup coverage ([Menlo Times, Oct 2026](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-190)) |
-| Emails | founders@withhopper.com ([Hopper website](https://withhopper.com)) |
+| Traction | Over 10B tokens/day platform-wide, one signed production customer ([Pedapudi, Nov 2026, X mirror](https://nitter.gq/jashwanth_p/article/2120485592308101335)); Hopper Code used across 44 countries ([Hopper Code, Nov 2026](https://withhopper.com/code)). |
+| Revenue Signal | Initial users spent under $1 as reported by the CTO ([Pedapudi, Nov 2026, X mirror](https://nitter.gq/jashwanth_p/article/2120485592308101335)); prepaid voice API, Gemma input $0.30/million tokens ([Hopper model catalog](https://docs.withhopper.com/models)); Hopper Code $20/$50/$200 monthly ([Hopper Code](https://withhopper.com/code)). |
+| Founders | Pavan Katta, CEO: IIT Madras, Salient voice inference, Dashworks ([YC](https://www.ycombinator.com/founders/pavan-katta)); Jashwanth Pedapudi, CTO: IIT Madras, Meta inference kernels, Uber infrastructure ([YC](https://www.ycombinator.com/founders/jashwanth-pedapudi)). |
+| Competitors | ElevenLabs ($781M raised as of Feb 2026, over $500M ARR, proprietary speech and agents) ([ElevenLabs funding](https://elevenlabs.io/blog/series-d), [ARR](https://elevenlabs.io/blog/500m-arr-and-new-investors)); Deepgram (over $215M raised, estimated $100M annualized revenue, speech and agent APIs) ([Sacra](https://sacra.com/c/deepgram/)); Cartesia ($191M raised, revenue unknown, Sonic/Ink/Line) ([Sacra](https://sacra.com/c/cartesia/)); Baseten (about $2.085B raised, estimated $600M annualized revenue, multi-workload inference) ([Sacra](https://sacra.com/c/baseten/)). |
+| Moat Signals | Custom inference kernels and cache-aware routing ([Hopper engineering](https://withhopper.com/blog/gemma-tpu-megakernel), [Pedapudi, Nov 2026, X mirror](https://nitter.gq/jashwanth_p/article/2120485592308101335)). |
+| Risk Factors | Latency during bursts ([Pedapudi](https://nitter.gq/jashwanth_p/article/2120485592308101335)), written consent for training data ([Hopper Privacy Policy](https://withhopper.com/privacy)), competing voice-stack bundles ([Deepgram](https://deepgram.com/blog/daily-pipecat-deepgram)). |
+| Founder Reach | Katta: X 588 ([X mirror](https://nitter.gq/PavanKatta1998)), LinkedIn 3K ([LinkedIn, via search snippet](https://www.linkedin.com/in/pavankatta1998)), `alphasae` 0 stars ([GitHub](https://github.com/pavanyellow/alphasae)); Pedapudi: X 95 ([X mirror](https://nitter.gq/jashwanth_p)), LinkedIn 3K ([LinkedIn](https://www.linkedin.com/in/jashwanth12)), `hopper-client` 0 stars ([GitHub](https://github.com/jashwanth-12/hopper-client)). |
+| Distribution Signals | Launch YC, Oct 2026 ([Launch YC](https://www.ycombinator.com/launches/WUF-hopper-fast-open-source-inference-for-real-time-agents)); Pipecat integration ([GitHub](https://github.com/hopper-inc/pipecat-hopper)); OpenCode, Hermes Agent and Pi integrations ([Hopper Code](https://withhopper.com/code)); 338 LinkedIn and 149 X followers ([LinkedIn](https://www.linkedin.com/company/hopper-inference/), [X mirror](https://www.xitter.gq/hopper_research), Nov 2026). |
+| Emails | founders@withhopper.com, shared inbox ([Hopper](https://withhopper.com/), [Privacy Policy](https://withhopper.com/privacy), [Trust Center](https://withhopper.com/trust)). |

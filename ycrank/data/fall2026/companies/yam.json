@@ -1,17 +1,17 @@
 {
   "slug": "yam",
   "name": "Yam",
-  "oneLiner": "AI-powered dating sims for women",
+  "oneLiner": "AI-powered romance sims for women",
   "metadata": {
     "website": "https://hiyam.ai/",
     "yc_page": "https://www.ycombinator.com/companies/yam",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/yam))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/yam))",
     "industry": "Consumer / Consumer",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, Gaming, Creator Economy",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/yam))",
-    "emails": "hi@yamstudio.ai ([Yam pricing](https://www.hiyam.ai/pricing))"
+    "yc_partner": "David Lieb ([YC directory](https://www.ycombinator.com/companies/yam))",
+    "emails": "hi@yamstudio.ai, shared contact, support, and copyright inbox ([Yam About](https://www.hiyam.ai/about), [Yam Terms](https://www.hiyam.ai/terms))"
   },
   "tags": [
     "Generative AI",
@@ -19,63 +19,39 @@
     "Creator Economy"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:14:32.436Z",
+  "memoGeneratedAt": "2026-11-17T23:26:00.394Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 35,
+    "agi": {
+      "score": 44,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 46,
-    "NR": 46,
-    "PG": 49,
-    "PT": 30,
-    "SL": 37,
-    "VK": 25
+    "AGI": 44,
+    "HG": 39,
+    "EXIT": 36
   },
-  "consolidatedAvg": 38.29,
-  "consolidatedRank": 91,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 56,
-    "tractionReason": "Leading game has 1.8M plays; three-plus hours per DAU"
+    "tractionRank": 59,
+    "tractionScore": 58,
+    "tractionReason": "1M beta play hours, 3+ hours daily per active user"
   },
   "paths": {
     "memo": "fall2026/memos/yam.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/yam.md",
-      "elad-gil": "fall2026/evals/elad-gil/yam.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/yam.md",
-      "paul-graham": "fall2026/evals/paul-graham/yam.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/yam.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/yam.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/yam.md"
+      "agi": "fall2026/evals/agi/yam.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/yam.md",
+      "exit": "fall2026/evals/exit/yam.md"
     }
   }
 }

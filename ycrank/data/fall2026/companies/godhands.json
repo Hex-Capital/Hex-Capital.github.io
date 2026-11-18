@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://godhands.ai",
     "yc_page": "https://www.ycombinator.com/companies/godhands",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/godhands))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/godhands))",
     "industry": "B2B / B2B -> Operations",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Enterprise, Automation, Operations, AI",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/godhands))",
-    "emails": "founders@godhands.dev ([YC launch](https://www.ycombinator.com/launches/Vn7-godhands-agents-that-learn-by-watching-your-best-people))"
+    "yc_partner": "Nicolas Dessaigne ([YC directory](https://www.ycombinator.com/companies/godhands))",
+    "emails": "founders@godhands.dev, shared founder inbox for demos and introductions ([Launch YC](https://www.ycombinator.com/launches/Vn7-godhands-agents-that-learn-by-watching-your-best-people)); privacy and security addresses were masked in the accessible [privacy policy](https://godhands.ai/privacy)."
   },
   "tags": [
     "B2B",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:27:22.499Z",
+  "memoGeneratedAt": "2026-11-18T00:52:13.517Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 31,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 31,
-    "NR": 43,
-    "PG": 38,
-    "PT": 28,
-    "SL": 33,
-    "VK": 25
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 36
   },
-  "consolidatedAvg": 33.86,
-  "consolidatedRank": 180,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 41,
-    "tractionReason": "Anonymous current-product support-documentation testimonial; customer payments undisclosed"
+    "tractionRank": 132,
+    "tractionScore": 38,
+    "tractionReason": "Current-product testimonials from support operations and finance teams"
   },
   "paths": {
     "memo": "fall2026/memos/godhands.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/godhands.md",
-      "elad-gil": "fall2026/evals/elad-gil/godhands.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/godhands.md",
-      "paul-graham": "fall2026/evals/paul-graham/godhands.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/godhands.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/godhands.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/godhands.md"
+      "agi": "fall2026/evals/agi/godhands.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/godhands.md",
+      "exit": "fall2026/evals/exit/godhands.md"
     }
   }
 }

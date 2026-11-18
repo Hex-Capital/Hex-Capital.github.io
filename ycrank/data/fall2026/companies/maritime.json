@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://maritime.sh/",
     "yc_page": "https://www.ycombinator.com/companies/maritime",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/maritime))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/maritime))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Cloud Computing, Infrastructure",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/maritime))",
-    "emails": "contact@maritime.sh, security@maritime.sh ([Maritime Security](https://maritime.sh/security))"
+    "yc_partner": "Pete Koomen ([Y Combinator](https://www.ycombinator.com/companies/maritime))",
+    "emails": "contact@maritime.sh, general and privacy inquiries ([Maritime Contact](https://maritime.sh/contact)); security@maritime.sh, vulnerability reports ([Maritime Security](https://maritime.sh/security))"
   },
   "tags": [
     "Developer Tools",
@@ -19,63 +19,39 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:53:14.199Z",
+  "memoGeneratedAt": "2026-11-17T22:43:53.119Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 44,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 35,
-    "NR": 49,
-    "PG": 43,
-    "PT": 31,
-    "SL": 32,
-    "VK": 25
+    "AGI": 40,
+    "HG": 37,
+    "EXIT": 37
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 118,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 26,
-    "tractionReason": "Seven SDK stars; launched service; paid adoption undisclosed"
+    "tractionRank": 136,
+    "tractionScore": 38,
+    "tractionReason": "1,107 agents on platform, 29 concurrently awake, Keiki integration"
   },
   "paths": {
     "memo": "fall2026/memos/maritime.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/maritime.md",
-      "elad-gil": "fall2026/evals/elad-gil/maritime.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/maritime.md",
-      "paul-graham": "fall2026/evals/paul-graham/maritime.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/maritime.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/maritime.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/maritime.md"
+      "agi": "fall2026/evals/agi/maritime.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/maritime.md",
+      "exit": "fall2026/evals/exit/maritime.md"
     }
   }
 }

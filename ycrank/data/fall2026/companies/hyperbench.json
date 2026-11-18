@@ -5,12 +5,12 @@
   "metadata": {
     "website": "https://hyperbench.ai/",
     "yc_page": "https://www.ycombinator.com/companies/hyperbench",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/hyperbench))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/hyperbench))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
-    "team_size": "2",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/hyperbench))",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Enterprise Software, AI",
-    "yc_partner": "David Lieb ([YC, via search snippet](https://www.ycombinator.com/companies/hyperbench))",
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/hyperbench))",
     "emails": "No public data found"
   },
   "tags": [
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-09T23:56:08.610Z",
+  "memoGeneratedAt": "2026-11-17T23:39:10.918Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 39,
+    "agi": {
+      "score": 34,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 39,
-    "NR": 39,
-    "PG": 36,
-    "PT": 37,
-    "SL": 32,
-    "VK": 29
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 35
   },
-  "consolidatedAvg": 37.14,
-  "consolidatedRank": 114,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 208,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 15,
-    "tractionReason": "Private-beta enrollment and internal benchmarks; user counts undisclosed"
+    "tractionRank": 194,
+    "tractionScore": 22,
+    "tractionReason": "Private beta announced, participants undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hyperbench.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/hyperbench.md",
-      "elad-gil": "fall2026/evals/elad-gil/hyperbench.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/hyperbench.md",
-      "paul-graham": "fall2026/evals/paul-graham/hyperbench.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/hyperbench.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/hyperbench.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/hyperbench.md"
+      "agi": "fall2026/evals/agi/hyperbench.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/hyperbench.md",
+      "exit": "fall2026/evals/exit/hyperbench.md"
     }
   }
 }

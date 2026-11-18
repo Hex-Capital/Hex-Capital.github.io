@@ -5,75 +5,51 @@
   "metadata": {
     "website": "https://taan.ai/",
     "yc_page": "https://www.ycombinator.com/companies/taanai",
-    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/industry/generative-ai/san-francisco), Nov 2026)",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/taanai))",
     "industry": "B2B / B2B",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI",
-    "yc_partner": "Not listed",
-    "emails": "team@taan.ai ([Taan documentation](https://github.com/aalap-mvp/mcp-user-docs)); ad1thya.rohith@gmail.com ([founder website](https://ad1thya.com/))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/taanai))",
+    "emails": "ad1thya.rohith@gmail.com (CEO business inquiries, [Rohith’s site](https://ad1thya.com/)), devanshgupta2810@gmail.com (company GitHub contact, [Taan GitHub](https://github.com/aalap-mvp)), founders@taan.ai (partnership inquiries, [Launch YC](https://www.ycombinator.com/launches/WlG-taan-ai-the-most-controllable-foundation-music-model)), team@taan.ai (developer inquiries) and support@taan.ai (bug reports, [Taan developer docs](https://github.com/aalap-mvp/mcp-user-docs))"
   },
   "tags": [
     "Generative AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-03T16:54:59.342Z",
+  "memoGeneratedAt": "2026-11-18T00:14:29.413Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
       "score": 42,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 44,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "exit": {
       "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 44,
-    "NR": 51,
-    "PG": 38,
-    "PT": 35,
-    "SL": 32,
-    "VK": 32
+    "AGI": 42,
+    "HG": 37,
+    "EXIT": 38
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 79,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 20,
-    "tractionReason": "Public beta and subscription pricing; no disclosed usage or revenue"
+    "tractionRank": 155,
+    "tractionScore": 35,
+    "tractionReason": "Named scoring integration with Music for Video AI"
   },
   "paths": {
     "memo": "fall2026/memos/taanai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/taanai.md",
-      "elad-gil": "fall2026/evals/elad-gil/taanai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/taanai.md",
-      "paul-graham": "fall2026/evals/paul-graham/taanai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/taanai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/taanai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/taanai.md"
+      "agi": "fall2026/evals/agi/taanai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/taanai.md",
+      "exit": "fall2026/evals/exit/taanai.md"
     }
   }
 }

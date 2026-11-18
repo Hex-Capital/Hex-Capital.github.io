@@ -1,17 +1,17 @@
 {
   "slug": "synara",
   "name": "Synara",
-  "oneLiner": "We are the last monitoring station, run by AI",
+  "oneLiner": "Building the next generation of AI enabled monitoring",
   "metadata": {
     "website": "https://synaraops.com",
     "yc_page": "https://www.ycombinator.com/companies/synara",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/synara))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/synara))",
     "industry": "B2B / B2B -> Analytics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Deep Learning, Security Orchestration, Automation and Response (SOAR), Monitoring",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/synara))",
-    "emails": "hello@synaraops.com ([Synara privacy policy](https://synaraops.com/privacy))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/synara))",
+    "emails": "hello@synaraops.com, partner inquiries and support ([Synara](https://synaraops.com/#contact), [SMS terms](https://synaraops.com/sms/terms))"
   },
   "tags": [
     "Deep Learning",
@@ -20,63 +20,39 @@
     "Monitoring"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:10:06.435Z",
+  "memoGeneratedAt": "2026-11-17T23:21:30.264Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "agi": {
       "score": 34,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 27,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 39,
-    "NR": 48,
-    "PG": 34,
-    "PT": 27,
-    "SL": 32,
-    "VK": 25
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 35.43,
-  "consolidatedRank": 148,
+  "consolidatedAvg": 35.67,
+  "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 168,
-    "tractionScore": 20,
-    "tractionReason": "Monitoring service publicly launched; no disclosed customers or revenue"
+    "tractionRank": 222,
+    "tractionScore": 8,
+    "tractionReason": "Public product announcement, no disclosed monitoring deployments"
   },
   "paths": {
     "memo": "fall2026/memos/synara.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/synara.md",
-      "elad-gil": "fall2026/evals/elad-gil/synara.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/synara.md",
-      "paul-graham": "fall2026/evals/paul-graham/synara.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/synara.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/synara.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/synara.md"
+      "agi": "fall2026/evals/agi/synara.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/synara.md",
+      "exit": "fall2026/evals/exit/synara.md"
     }
   }
 }

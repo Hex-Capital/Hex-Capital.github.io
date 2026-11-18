@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://www.plek.ai/",
     "yc_page": "https://www.ycombinator.com/companies/plek-ai",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/plek-ai))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/plek-ai))",
     "industry": "B2B / B2B",
-    "team_size": "2",
+    "team_size": "2 ([YC company profile](https://www.ycombinator.com/companies/plek-ai))",
     "location": "San Francisco, CA, USA",
     "tags": "Enterprise, AI",
-    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/founders/pierre-bouquet))",
-    "emails": "pierre@plek.ai — CEO/data requests; support@plek.ai — support ([Plek Help](https://plek.ai/help/)); pibou149@mit.edu — CEO’s published academic address ([personal website](https://pierre-bouquet.github.io/website/index.html)); contact@plek.ai — general/privacy ([Privacy](https://plek.ai/privacy/)); security@plek.ai — security ([Security](https://plek.ai/security/))"
+    "yc_partner": "Garry Tan ([YC company profile](https://www.ycombinator.com/companies/plek-ai))",
+    "emails": "pierre@plek.ai (CEO and demos, [Launch YC](https://www.ycombinator.com/launches/XKX-plek-ai-the-ai-company-brain-for-value-creation)), contact@plek.ai (general and privacy inquiries, [Plek Privacy Policy](https://plek.ai/privacy/)), security@plek.ai (security and audit requests, [Plek Security](https://plek.ai/security/)), support@plek.ai (product support, [Plek Help](https://plek.ai/help/))"
   },
   "tags": [
     "Enterprise",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-11T17:16:36.221Z",
+  "memoGeneratedAt": "2026-11-17T23:47:58.420Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
       "score": 42,
       "tier": "Pass"
     },
-    "elad-gil": {
+    "hypergrowth": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 39,
-    "NR": 49,
-    "PG": 37,
-    "PT": 37,
-    "SL": 31,
-    "VK": 28
+    "AGI": 42,
+    "HG": 38,
+    "EXIT": 39
   },
-  "consolidatedAvg": 37.57,
-  "consolidatedRank": 107,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 40,
-    "tractionReason": "Assessment at unnamed 3,600-person company; payment and realized savings undisclosed"
+    "tractionRank": 98,
+    "tractionScore": 50,
+    "tractionReason": "Four completed pilots, deployment at a $2B private equity fund"
   },
   "paths": {
     "memo": "fall2026/memos/plek-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/plek-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/plek-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/plek-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/plek-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/plek-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/plek-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/plek-ai.md"
+      "agi": "fall2026/evals/agi/plek-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/plek-ai.md",
+      "exit": "fall2026/evals/exit/plek-ai.md"
     }
   }
 }

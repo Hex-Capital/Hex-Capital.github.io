@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://obsessiondb.com",
     "yc_page": "https://www.ycombinator.com/companies/obsessiondb",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/obsessiondb))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/obsessiondb))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "5",
     "location": "San Francisco, CA, USA",
     "tags": "Analytics, Big Data, Databases",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/obsessiondb))",
-    "emails": "founders@obsessiondb.com ([YC](https://www.ycombinator.com/companies/obsessiondb)); marc@obsessiondb.com ([GitHub](https://github.com/obsessiondb))"
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/obsessiondb))",
+    "emails": "founders@obsessiondb.com, shared founder inbox ([Launch YC](https://www.ycombinator.com/launches/VpG-obsessiondb-a-real-time-data-warehouse-built-for-agents)); additional addresses on the [security page](https://obsessiondb.com/security) and [privacy policy](https://obsessiondb.com/privacy) were masked in the retrieved pages."
   },
   "tags": [
     "Analytics",
@@ -19,63 +19,39 @@
     "Databases"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:06:59.732Z",
+  "memoGeneratedAt": "2026-11-17T23:14:51.622Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 74,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
+    "agi": {
       "score": 50,
       "tier": "Neutral"
     },
-    "sam-lessin": {
-      "score": 44,
+    "hypergrowth": {
+      "score": 40,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 33,
+    "exit": {
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 74,
-    "EG": 71,
-    "NR": 61,
-    "PG": 71,
-    "PT": 50,
-    "SL": 44,
-    "VK": 33
+    "AGI": 50,
+    "HG": 40,
+    "EXIT": 44
   },
-  "consolidatedAvg": 57.71,
-  "consolidatedRank": 1,
+  "consolidatedAvg": 44.67,
+  "consolidatedRank": 8,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 69,
-    "tractionReason": "Paying production customers; petabytes processed monthly; named Numia deployment"
+    "tractionRank": 21,
+    "tractionScore": 71,
+    "tractionReason": "Paying production customers, petabytes processed monthly, 50 TB deployment"
   },
   "paths": {
     "memo": "fall2026/memos/obsessiondb.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/obsessiondb.md",
-      "elad-gil": "fall2026/evals/elad-gil/obsessiondb.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/obsessiondb.md",
-      "paul-graham": "fall2026/evals/paul-graham/obsessiondb.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/obsessiondb.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/obsessiondb.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/obsessiondb.md"
+      "agi": "fall2026/evals/agi/obsessiondb.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/obsessiondb.md",
+      "exit": "fall2026/evals/exit/obsessiondb.md"
     }
   }
 }

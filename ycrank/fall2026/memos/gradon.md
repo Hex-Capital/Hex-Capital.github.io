@@ -6,79 +6,86 @@
 |-------|-------|
 | Website | https://heygradon.com/ |
 | YC Page | https://www.ycombinator.com/companies/gradon |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/gradon)) |
+| Batch | Fall 2026 ([YC directory](https://www.ycombinator.com/companies/gradon)) |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Construction, B2B, AI |
-| YC Partner | Ankit Gupta ([YC](https://www.ycombinator.com/companies/gradon)) |
-| Emails | hello@heygradon.com ([website](https://heygradon.com/)); nour@heygradon.com ([YC launch](https://www.ycombinator.com/companies/gradon)); yousefh@stanford.edu, founder contact ([profile](https://www.yousefh.org/)) |
+| YC Partner | Ankit Gupta ([YC directory](https://www.ycombinator.com/companies/gradon)) |
+| Emails | nour@heygradon.com (Nour Zahzah, CEO, [Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)), hello@heygradon.com (general inquiries and privacy, [Gradon privacy policy](https://heygradon.com/privacy)) |
 
 ## The Idea
 
-- **Problem:** AEC firms face engineering-capacity constraints while staff manually produce CAD designs, calculations and plan sets in existing engineering software ([YC, October 2026](https://www.ycombinator.com/companies/gradon)).
-- **Approach:** Engineers assign work conversationally, and Gradon uses firm-specific historical projects and standards to execute tasks inside applications including Civil 3D, Revit, ETABS and Bluebeam ([Gradon, October 2026](https://heygradon.com/)).
-- **Differentiation:** Gradon advertises cross-discipline execution, while [SWAPP](https://swapp.ai/) emphasizes architectural production, [Augmenta](https://www.augmenta.ai/) automates building-system design, and [DraftAid](https://www.ycombinator.com/companies/draftaid) generates manufacturing drawings ([Gradon](https://heygradon.com/), October 2026).
-- **Business Model:** Subscriptions use named seats with unlimited usage and no per-task charges, with prices and pilot fees specified privately in order forms ([Gradon terms, October 14, 2026](https://heygradon.com/terms)).
-- **TAM/SAM:** The broader AEC software market is estimated at $12.04 billion in 2026, reaching $17.98 billion by 2031 at 8.35% CAGR; Gradon-specific SAM: No public data found ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/aec-software-market)).
-- **GTM / Distribution:** Gradon solicits demos and compensated introductions to engineering-firm owners and principals, supported by on-site implementation ([YC launch, October 2026](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)).
+- **Problem:** Gradon targets AEC firms whose engineers spend project hours on drafting, calculations, and plan production in tools such as Civil 3D and Revit, citing an engineer shortage as a constraint on taking more work ([Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms), [Gradon](https://heygradon.com/)).
+- **Approach:** Engineers send tasks by text, voice, or screen share to a Windows agent that uses a firm-specific index of past projects and standards, works in existing engineering software, and delivers work for review ([Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms), [Gradon privacy policy](https://heygradon.com/privacy)).
+- **Differentiation:** Gradon spans civil, structural, MEP, and architectural work in firms’ existing tools, while Endra focuses on MEP design, Augmenta on electrical design, and SWAPP on architectural modeling and construction documentation ([Gradon](https://heygradon.com/), [Endra](https://www.endra.ai/press/50M-series-a-a16z), [Augmenta](https://www.augmenta.ai/), [SWAPP](https://swapp.ai/)).
+- **Business Model:** Gradon advertises paid pilots and contracts for named-seat subscriptions with unlimited use, with fees specified in customer order forms ([Gradon](https://heygradon.com/), [Gradon terms](https://heygradon.com/terms)).
+- **TAM/SAM:** Mordor Intelligence estimates the broader global AEC software market at $12.04 billion in 2026 with 8.35% CAGR through 2031, and no public TAM/SAM data was found for Gradon’s specific segment ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/aec-software-market)).
+- **GTM / Distribution:** Gradon solicits demo bookings and compensated referrals to firm principals, starts with a paid pilot on a live project, and configures workflows on-site ([Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms), [Gradon](https://heygradon.com/)).
 
 ## Defensibility
 
-- **Moat today:** Firm Brain incorporates customers’ historical projects, standards and details, providing evidence of account-specific configuration ([Gradon, October 2026](https://heygradon.com/)).
-- **Future moat:** [Inferred]: Accumulated approved workflows could increase replacement effort, although measured switching costs and retention are undisclosed.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage.
-- **Commoditization risk:** SWAPP already advertises overlapping AI execution, firm-standard validation and workflow memory inside Revit and ArchiCAD; replication effort for Gradon’s full scope: No public data found ([SWAPP, October 2026](https://swapp.ai/)).
+- **Moat today:** Each deployment has a Firm Brain with the customer’s indexed files, drafting standards, instructions, and learned memory, plus workflows configured around its existing tools ([Gradon](https://heygradon.com/), [Gradon privacy policy](https://heygradon.com/privacy)).
+- **Future moat:** [Inferred]: Accumulated firm-specific workflows and corrections could make switching costly, although public evidence of retention or migration costs was unavailable ([Gradon privacy policy](https://heygradon.com/privacy)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Autodesk already offers an assistant in technical preview for Revit and Civil 3D, giving it a route to ship overlapping automation in the applications Gradon uses ([Autodesk Assistant](https://www.autodesk.com/solutions/autodesk-ai/autodesk-assistant), [Gradon](https://heygradon.com/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported customer outcome: more than 75% lower average project times across firms using Gradon ([YC launch, October 2026](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)).
-  - Company-reported customer outcome: an unnamed 50-person civil firm completed a project in 180 hours against a 750-hour manual estimate, while the homepage advertises doubled revenue per engineer ([Gradon, accessed October 27, 2026](https://heygradon.com/)).
-  - Company LinkedIn: 1,819 followers, with attendance announced for AEC THRIVE and the ACEC Fall Conference ([LinkedIn, accessed October 27, 2026](https://www.linkedin.com/company/heygradon)).
-  - Company X account @heygradon: 518 followers, including history from Vendo ([Teapawt mirror, accessed October 27, 2026](https://teapawt.org/heygradon)).
-  - Zero active YC job postings ([YC, accessed October 27, 2026](https://www.ycombinator.com/companies/gradon)).
-  - **Prior product—Vendo:** Company accounts retain Vendo launch material from July–August 2026, preceding Gradon’s October 13 announcement; the precise pivot date is undisclosed ([company LinkedIn](https://www.linkedin.com/company/heygradon), [founder announcement mirror](https://teapawt.org/nourzahzah)).
+  - Mid-six-figure contracted ARR from zero in four weeks ([CEO’s X post, mirrored by Teapawt, Nov 13, 2026](https://teapawt.net/nourzahzah/status/2121379692968042551)).
+  - 50% week-over-week growth and new firms onboarding weekly, per the CEO ([CEO’s X post, mirrored by Teapawt, Nov 13, 2026](https://teapawt.net/nourzahzah/status/2121379692968042551)).
+  - First customer was an unnamed civil engineering firm using Gradon for plan sets, CAD, and reports ([CEO’s X reply, mirrored by Teapawt, Nov 14, 2026](https://teapawt.net/nourzahzah/status/2121379692968042551)).
+  - Company-reported customer outcomes include more than 75% lower average project time, a project completed in 180 hours against a 750-hour manual estimate, and a headline claim of 2× revenue per engineer at customer firms ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms), [Gradon, accessed Nov 2026](https://heygradon.com/)).
+  - 2,075 company LinkedIn followers and 564 X followers on @heygradon ([LinkedIn, Nov 2026](https://www.linkedin.com/company/heygradon), [X profile mirrored by Teapawt, Nov 2026](https://www.teapawt.org/heygradon)).
+  - Zero open jobs on YC’s platform ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/gradon/jobs)).
+  - Dealroom records a $125K YC seed entry in September 2026, and YC’s published standard deal is $500K across two SAFEs ([Dealroom](https://app.dealroom.co/companies/gradon), [YC standard deal](https://www.ycombinator.com/deal)).
+  - Prior product **Vendo**, an embedded SaaS customization tool, ranked #4 on Product Hunt on August 17, 2026, before the founders pivoted and announced Gradon’s AEC product on October 13, 2026 ([Product Hunt](https://www.producthunt.com/products/vendo), [CEO’s pivot account](https://teapawt.net/nourzahzah/status/2121379692968042551), [AEC launch post](https://www.teapawt.org/nourzahzah/status/2110055848265535738)).
 - **Competitors:**
-  - **Augmenta ($25.6M raised, revenue unknown):** Electrical-system design automation with mechanical/plumbing expansion, compared with Gradon’s advertised cross-discipline scope; disclosed financing was $10M seed funding led by Prelude Ventures on March 12, 2025 ([company announcement](https://www.globenewswire.com/news-release/2025/03/12/3041392/0/en/augmenta-secures-10-million-usd-in-funding-to-pioneer-ai-driven-building-design.html)).
-  - **SWAPP ($18.5M raised, revenue unknown):** Architecture-focused documentation, modeling and QA; its $11.5M Series A was led by Eurazeo in May 2023 ([SWAPP](https://swapp.ai/news/swapp-raises-11-5-million-series-a-to-help-architects-with-ai-platform/), [Construction Dive, June 2023](https://www.constructiondive.com/news/demand-rises-contech-firms-funding-software-construction/654168/)).
-  - **DraftAid ($0.5M reported raised, revenue unknown):** Adjacent manufacturing-drawing automation rather than cross-discipline engineering execution, with January 2024 YC financing reported ([CB Insights, accessed October 2026, via search snippet](https://www.cbinsights.com/company/draftaid/financials); [YC product profile](https://www.ycombinator.com/companies/draftaid)).
-- **Why now:** [Inferred]: Conversational agents capable of generating editable CAD models became commercially available during 2026, expanding the technical basis for delegated design workflows ([Zoo’s Zookeeper announcement, February 5, 2026](https://zoo.dev/press/zoo-introduces-zookeeper)).
+  - **Endra** ($75M raised, revenue unknown): Automates MEP design and produces coordinated models and drawings, with a $50M Series A led by Andreessen Horowitz in June 2026 ([Endra](https://www.endra.ai/press/50M-series-a-a16z)).
+  - **Augmenta** ($25.6M raised, revenue unknown): Automates electrical system design, with a $10M seed round led by Prelude Ventures in March 2025 ([Augmenta](https://www.augmenta.ai/), [funding announcement](https://www.globenewswire.com/news-release/2025/03/12/3041392/0/en/Augmenta-Secures-10-Million-USD-in-Funding-to-Pioneer-AI-Driven-Building-Design.html)).
+  - **SWAPP** ($18.5M company-reported at Series A close, revenue unknown): Automates architectural modeling, documentation, and QA in Revit and Archicad, with an $11.5M Series A led by Eurazeo in May 2023 ([SWAPP product](https://swapp.ai/), [SWAPP funding announcement](https://swapp.ai/news/swapp-raises-11-5-million-series-a-to-help-architects-with-ai-platform/), [Startup Nation Central](https://finder.startupnationcentral.org/company_page/buildos)).
+- **Why now:** [Inferred]: The computer-use gains Anthropic reported with Sonnet 4.6 in February 2026 expanded what agents could attempt in existing desktop interfaces ([Anthropic, Feb 2026](https://www.anthropic.com/news/claude-sonnet-4-6)).
 
 ## Founders & Team
 
-- **Nour Zahzah (Co-founder/CEO):**
-  - Background: Studied mechanical engineering at UC Berkeley, performed mechanical design for startups, and previously founded an in-store AI shopping-assistant company identified as Aisle ([YC founder profile](https://www.ycombinator.com/founders/nour-zahzah)).
-  - Twitter/X: @nourzahzah, approximately 1.1K followers ([Teapawt mirror, October 27, 2026](https://teapawt.org/nourzahzah)).
-  - LinkedIn: Profile found; headline: No public data found; indexed snapshot reports 4K followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/nourzahzah)).
+- **Nour Zahzah (Co-founder and CEO):**
+  - Background: Studied mechanical engineering at UC Berkeley before leaving, worked in mechanical design, and co-founded Aisle and Vendo before Gradon, where his public business email is nour@heygradon.com ([YC founder profile](https://www.ycombinator.com/founders/nour-zahzah), [founder update](https://www.linkedin.com/posts/nourzahzah_big-update-we-got-into-yc-the-past-couple-activity-7477466741304999937-ndjK), [Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)).
+  - Twitter/X: @nourzahzah, 1.2K followers ([X profile mirrored by Teapawt, Nov 2026](https://www.teapaw.org/nourzahzah)).
+  - LinkedIn: Indexed title “Vendo (YC S26),” with 4K followers and 500+ connections ([LinkedIn, via search snippet](https://www.linkedin.com/in/nourzahzah)).
   - GitHub: No public repos found.
-- **Yousef Helal (Co-founder/CTO):**
-  - Background: Berkeley EECS graduate and Stanford MS graduate, with Apple FPGA-infrastructure and AMD processor-design experience, plus prior retail AI startup experience ([YC founder profile](https://www.ycombinator.com/founders/yousef-helal)).
-  - Twitter/X: @yousefhll, approximately 1.6K followers ([Teapawt mirror, October 27, 2026](https://teapawt.org/yousefhll)).
-  - LinkedIn: Profile found; headline: No public data found; indexed snapshot reports 2K followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/yousef-helal)).
-  - GitHub: @yousefh409, with pinned prior-product repository runvendo/vendo at 633 stars, which represents Vendo developer interest ([GitHub, October 27, 2026](https://github.com/yousefh409)).
-- **Co-founder relationship:** The founders report knowing each other since kindergarten and both attended Berkeley ([YC launch](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)).
-- **Founder-market fit:** [Inferred]: Zahzah’s mechanical-design experience and Helal’s engineering/software background relate to CAD automation, while the website identifies YC and Founders, Inc. as backers ([Zahzah](https://www.ycombinator.com/founders/nour-zahzah), [Helal](https://www.ycombinator.com/founders/yousef-helal), [Gradon](https://heygradon.com/)).
+- **Yousef Helal (Co-founder and CTO):**
+  - Background: Earned a Berkeley EECS bachelor’s and Stanford electrical engineering master’s, worked on FPGA infrastructure at Apple and chip design at AMD, and co-founded Aisle and Vendo ([YC founder profile](https://www.ycombinator.com/founders/yousef-helal), [personal site](https://www.yousefh.org/), [Vendo launch](https://www.linkedin.com/pulse/introducing-vendo-let-your-users-edit-product-ankit-gupta-0uu9c)); public Gradon email: No public data found.
+  - Twitter/X: @yousefhll, 1.6K followers ([X profile mirrored by Teapawt, Nov 2026](https://www.teapawt.org/yousefhll)).
+  - LinkedIn: Indexed title “Vendo (YC S26),” with 2K followers and 500+ connections ([LinkedIn, via search snippet](https://www.linkedin.com/in/yousef-helal)).
+  - GitHub: @yousefh409 pins prior-product repository `runvendo/vendo`, with 640 stars ([GitHub, Nov 2026](https://github.com/yousefh409)).
+- **Mohammad Pasta (Co-founder, announced November 2026):**
+  - Background: Pasta identifies himself as a civil engineer and Gradon co-founder on LinkedIn, while SignalHire lists a UC Berkeley engineering degree and civil engineering work at Kimley-Horn ([Gradon LinkedIn](https://www.linkedin.com/company/heygradon), [SignalHire](https://www.signalhire.com/profiles/mohammad-pasta%27s-email/172848379)); public Gradon email: No public data found.
+  - Twitter/X: No public account found.
+  - LinkedIn: Profile linked from Gradon’s company page, with the headline unavailable ([Gradon LinkedIn](https://www.linkedin.com/company/heygradon)).
+  - GitHub: No public repos found.
+- **Co-founder relationship:** Zahzah and Helal have known each other since kindergarten, both attended UC Berkeley, and previously built Vendo together ([Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms), [Vendo launch](https://www.linkedin.com/pulse/introducing-vendo-let-your-users-edit-product-ankit-gupta-0uu9c)).
+- **Founder-market fit:** Zahzah’s mechanical design work, Helal’s software and hardware engineering experience, and Pasta’s civil engineering background map to Gradon’s engineering workflows, and Gradon names Y Combinator and Founders, Inc. as backers ([YC directory](https://www.ycombinator.com/companies/gradon), [Gradon LinkedIn](https://www.linkedin.com/company/heygradon), [Gradon](https://heygradon.com/)).
 
 ## Key Risks
 
-- **Engineering accuracy:** [Inferred]: Errors in generated calculations could reach deliverables unless review detects them; Gradon classifies outputs as preliminary and requires licensed-professional approval ([terms, October 2026](https://heygradon.com/terms)).
-- **Implementation workload:** [Inferred]: On-site onboarding and custom workflows create delivery obligations per customer, although implementation costs and capacity are undisclosed ([Gradon implementation description](https://heygradon.com/)).
-- **Data governance:** The public privacy page remains labeled draft and not in effect, while contractual terms prohibit using customer content to train models ([privacy page](https://heygradon.com/privacy), [terms](https://heygradon.com/terms), October 2026).
-- **Attribution ambiguity:** Unrelated Gradon Limited shares the name, and Gradon’s social accounts retain Vendo material, requiring separation of company identities and product metrics ([Companies House](https://find-and-update.company-information.service.gov.uk/company/05016627), [company LinkedIn](https://www.linkedin.com/company/heygradon)).
+- **Technical feasibility:** Multi-tool workflows can propagate geometric or calculation errors, a failure mode documented in the EngiWorld benchmark, and Gradon requires licensed professionals to review and approve its output ([EngiWorld, Sep 2026](https://arxiv.org/abs/2609.37686), [Gradon terms](https://heygradon.com/terms)).
+- **Data restrictions:** Gradon sends selected task content to external AI processors and excludes federal contract information and controlled unclassified information from supported use, while offering firm-controlled upload and diagnostic settings ([Gradon privacy policy, Nov 2026](https://heygradon.com/privacy)).
+- **Deployment capacity:** [Inferred]: Firm-specific setup and at least a week of on-site work per deployment could limit how many customers Gradon can onboard concurrently ([Gradon](https://heygradon.com/)).
+- **Name ambiguity:** UK planning records list an unrelated practice called Gradon Architecture, creating a risk of misattributing its projects to the startup ([UK planning record](https://docs.planning.org.uk/20251204/87/T6G4PPGDHRW00/f9psn1otmzuyao6c.pdf), [YC directory](https://www.ycombinator.com/companies/gradon)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | AEC software category proxy: $12.04B in 2026, 8.35% CAGR through 2031 ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/aec-software-market)) |
+| TAM | Broader global AEC software market: $12.04B in 2026, 8.35% CAGR through 2031 ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/aec-software-market)) |
 | SAM | No public data found |
-| Traction | Company-reported customer outcome: >75% lower project times ([YC launch, October 2026](https://www.ycombinator.com/companies/gradon)) |
-| Revenue Signal | Named-seat subscriptions with unlimited usage; paid pilots offered; public prices and realized revenue: No public data found ([terms](https://heygradon.com/terms), [website](https://heygradon.com/), October 2026) |
-| Founders | Nour Zahzah, CEO: Berkeley mechanical engineering, mechanical design; Yousef Helal, CTO: Berkeley, Stanford, Apple and AMD ([YC, October 2026](https://www.ycombinator.com/companies/gradon)) |
-| Competitors | Augmenta ($25.6M raised, revenue unknown, electrical design) ([announcement](https://www.globenewswire.com/news-release/2025/03/12/3041392/0/en/augmenta-secures-10-million-usd-in-funding-to-pioneer-ai-driven-building-design.html)); SWAPP ($18.5M, revenue unknown, architecture production) ([SWAPP](https://swapp.ai/news/swapp-raises-11-5-million-series-a-to-help-architects-with-ai-platform/)); DraftAid ($0.5M reported, revenue unknown, manufacturing drawings) ([CB Insights, via search snippet](https://www.cbinsights.com/company/draftaid/financials), [YC](https://www.ycombinator.com/companies/draftaid)) |
-| Moat Signals | Firm-specific historical-project and standards integration ([Gradon, October 2026](https://heygradon.com/)) |
-| Risk Factors | Licensed-review requirement, draft privacy policy, on-site implementation obligations ([terms](https://heygradon.com/terms), [privacy](https://heygradon.com/privacy), [website](https://heygradon.com/)) |
-| Founder Reach | Nour: X ~1.1K; Yousef: X ~1.6K ([Teapawt mirrors, October 2026](https://teapawt.org/nourzahzah), [Yousef](https://teapawt.org/yousefhll)); Yousef’s pinned Vendo repository: 633 stars ([GitHub](https://github.com/yousefh409)) |
-| Distribution Signals | LinkedIn 1,819 followers and AEC conference attendance ([LinkedIn, October 2026](https://www.linkedin.com/company/heygradon)); X 518 followers on reused account ([Teapawt](https://teapawt.org/heygradon)) |
-| Emails | hello@heygradon.com ([website](https://heygradon.com/)); nour@heygradon.com ([YC](https://www.ycombinator.com/companies/gradon)); yousefh@stanford.edu ([founder profile](https://www.yousefh.org/)) |
+| Traction | 50% week-over-week growth and weekly firm onboarding ([CEO’s X post, Nov 2026](https://teapawt.net/nourzahzah/status/2121379692968042551)), over 75% lower average customer project time ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)), 180 hours versus 750 estimated and 2× customer revenue per engineer ([Gradon, Nov 2026](https://heygradon.com/)) |
+| Revenue Signal | CEO-reported mid-six-figure contracted ARR reached in four weeks ([CEO’s X post, Nov 13, 2026](https://teapawt.net/nourzahzah/status/2121379692968042551)), paid pilots and unlimited-use named seats ([Gradon](https://heygradon.com/), [Gradon terms](https://heygradon.com/terms)) |
+| Founders | Nour Zahzah (CEO): Berkeley mechanical engineering, Aisle ([YC](https://www.ycombinator.com/founders/nour-zahzah)). Yousef Helal (CTO): Berkeley and Stanford, Apple and AMD ([YC](https://www.ycombinator.com/founders/yousef-helal)). Mohammad Pasta (co-founder): civil engineer, November announcement ([Gradon LinkedIn](https://www.linkedin.com/company/heygradon)) |
+| Competitors | Endra ($75M raised, revenue unknown, MEP design, [Endra](https://www.endra.ai/press/50M-series-a-a16z)), Augmenta ($25.6M raised, revenue unknown, electrical design, [Augmenta](https://www.globenewswire.com/news-release/2025/03/12/3041392/0/en/Augmenta-Secures-10-Million-USD-in-Funding-to-Pioneer-AI-Driven-Building-Design.html)), SWAPP ($18.5M company-reported, revenue unknown, architecture documentation, [SWAPP](https://swapp.ai/news/swapp-raises-11-5-million-series-a-to-help-architects-with-ai-platform/)) |
+| Moat Signals | Firm-specific project index, standards, learned memory, and configured workflows ([Gradon](https://heygradon.com/), [Gradon privacy policy](https://heygradon.com/privacy)) |
+| Risk Factors | Licensed review of preliminary outputs ([Gradon terms](https://heygradon.com/terms)), third-party processing and restricted-data exclusions ([Gradon privacy policy](https://heygradon.com/privacy)), on-site onboarding ([Gradon](https://heygradon.com/)) |
+| Founder Reach | Zahzah: X 1.2K ([Teapawt](https://www.teapaw.org/nourzahzah)), LinkedIn 4K ([LinkedIn, via search snippet](https://www.linkedin.com/in/nourzahzah)). Helal: X 1.6K ([Teapawt](https://www.teapawt.org/yousefhll)), LinkedIn 2K ([LinkedIn, via search snippet](https://www.linkedin.com/in/yousef-helal)), 640 stars on prior-product Vendo repo ([GitHub](https://github.com/runvendo/vendo)). Pasta: No public data found |
+| Distribution Signals | 2,075 LinkedIn followers ([Gradon LinkedIn, Nov 2026](https://www.linkedin.com/company/heygradon)), 564 X followers ([Teapawt, Nov 2026](https://www.teapawt.org/heygradon)), compensated referrals to AEC principals ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)) |
+| Emails | nour@heygradon.com (Nour Zahzah, [Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)), hello@heygradon.com (general inquiries and privacy, [Gradon privacy policy](https://heygradon.com/privacy)) |

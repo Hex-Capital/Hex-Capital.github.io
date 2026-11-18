@@ -5,76 +5,53 @@
   "metadata": {
     "website": "https://claimkit.co/",
     "yc_page": "https://www.ycombinator.com/companies/claimkit",
-    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/claimkit))",
-    "industry": "B2B / B2B",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/claimkit))",
+    "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, AI",
-    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/claimkit))",
-    "emails": "No public data found"
+    "tags": "Finance, B2B, AI",
+    "yc_partner": "David Lieb ([YC company profile](https://www.ycombinator.com/companies/claimkit))",
+    "emails": "rachel@claimkit.co (Rachel Huang, CEO, [YC launch post](https://www.ycombinator.com/launches/WuX-claimkit-global-r-d-tax-credits-on-autopilot)). The website footer, privacy and legal addresses were masked in the accessible pages ([ClaimKit homepage](https://claimkit.co/en-us), [Privacy Policy](https://claimkit.co/privacy), [Terms](https://claimkit.co/terms))."
   },
   "tags": [
+    "Finance",
     "B2B",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:26:32.109Z",
+  "memoGeneratedAt": "2026-11-18T00:51:38.119Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "hypergrowth": {
       "score": 46,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 46,
-    "NR": 49,
-    "PG": 49,
-    "PT": 27,
-    "SL": 39,
-    "VK": 29
+    "AGI": 45,
+    "HG": 46,
+    "EXIT": 38
   },
-  "consolidatedAvg": 40.71,
-  "consolidatedRank": 57,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 16,
-    "tractionScore": 69,
-    "tractionReason": "80+ customers within six months; fee-based tax engagements"
+    "tractionRank": 20,
+    "tractionScore": 71,
+    "tractionReason": "80+ tax clients across three countries, fee-based engagements"
   },
   "paths": {
     "memo": "fall2026/memos/claimkit.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/claimkit.md",
-      "elad-gil": "fall2026/evals/elad-gil/claimkit.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/claimkit.md",
-      "paul-graham": "fall2026/evals/paul-graham/claimkit.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/claimkit.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/claimkit.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/claimkit.md"
+      "agi": "fall2026/evals/agi/claimkit.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/claimkit.md",
+      "exit": "fall2026/evals/exit/claimkit.md"
     }
   }
 }

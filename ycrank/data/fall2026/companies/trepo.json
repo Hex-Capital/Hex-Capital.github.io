@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://hellotrepo.com/",
     "yc_page": "https://www.ycombinator.com/companies/trepo",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/trepo))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/trepo))",
     "industry": "Consumer / Consumer",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Grocery, Hardware, Consumer, E-commerce, AI",
-    "yc_partner": "Andrew Miklas ([YC, via search snippet](https://www.ycombinator.com/companies/trepo))",
-    "emails": "hello@trepo.ai, founders@trepo.ai ([Trepo website](https://hellotrepo.com/), [App Store](https://apps.apple.com/us/app/trepo/id6764135986))"
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/trepo))",
+    "emails": "matt@trepo.ai (CEO, [Crunchbase](https://www.crunchbase.com/organization/trepo)), founders@trepo.ai (shared founder inbox, [Launch YC](https://www.ycombinator.com/launches/WhS-trepo-the-agentic-grocery-shopper-that-knows-what-you-have-and-need)), hello@trepo.ai (app feedback, [Apple App Store](https://apps.apple.com/us/app/trepo/id6764135986), via search snippet)"
   },
   "tags": [
     "Grocery",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T06:33:32.679Z",
+  "memoGeneratedAt": "2026-11-17T22:50:04.916Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 30,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "elad-gil": {
+    "hypergrowth": {
       "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 37,
-    "NR": 44,
-    "PG": 43,
-    "PT": 32,
-    "SL": 36,
-    "VK": 25
+    "AGI": 38,
+    "HG": 37,
+    "EXIT": 35
   },
-  "consolidatedAvg": 35.29,
-  "consolidatedRank": 153,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 52,
-    "tractionReason": "Six beta hardware batches sold out; 150K+ item check-ins"
+    "tractionRank": 140,
+    "tractionScore": 37,
+    "tractionReason": "Household grocery beta, grocery partner pilots, 59 iOS ratings"
   },
   "paths": {
     "memo": "fall2026/memos/trepo.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/trepo.md",
-      "elad-gil": "fall2026/evals/elad-gil/trepo.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/trepo.md",
-      "paul-graham": "fall2026/evals/paul-graham/trepo.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/trepo.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/trepo.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/trepo.md"
+      "agi": "fall2026/evals/agi/trepo.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/trepo.md",
+      "exit": "fall2026/evals/exit/trepo.md"
     }
   }
 }

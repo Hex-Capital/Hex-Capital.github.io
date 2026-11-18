@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.risklytics.ai/",
     "yc_page": "https://www.ycombinator.com/companies/risklytics",
-    "batch": "Summer 2026 ([Risklytics](https://www.risklytics.ai/about/))",
+    "batch": "Fall 2026 ([current YC directory](https://www.ycombinator.com/companies/risklytics))",
     "industry": "Fintech / Fintech -> Insurance",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Machine Learning, B2B, Insurance, AI",
-    "yc_partner": "Ankit Gupta ([YC, via search snippet](https://www.ycombinator.com/companies/risklytics))",
-    "emails": "hello@risklytics.ai ([website](https://www.risklytics.ai/)); alex@risklytics.ai ([founder launch](https://news.ycombinator.com/item?id=49451495)); ajrisio@college.harvard.edu ([founder portfolio](https://www.alexanderrisio.com/))"
+    "yc_partner": "Ankit Gupta ([YC directory](https://www.ycombinator.com/companies/risklytics))",
+    "emails": "alex@risklytics.ai (Alexander Risio, [Launch HN](https://news.ycombinator.com/item?id=49451495)), hello@risklyticsteam.com (general, media and privacy inquiries, [Contact](https://www.risklytics.ai/contact/), [launch announcement](https://www.risklytics.ai/news/risklytics-yc-launch/), [Privacy](https://www.risklytics.ai/privacy/)), hello@risklytics.ai (shared tracker inquiries, [Risklytics tracker methodology](https://www.risklytics.ai/ai-exclusions/about-the-data/))"
   },
   "tags": [
     "Hardware",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-03T16:55:14.543Z",
+  "memoGeneratedAt": "2026-11-18T00:40:04.947Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
+    "agi": {
+      "score": 35,
+      "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
+    "hypergrowth": {
+      "score": 39,
+      "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
+    "exit": {
       "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 48,
-    "NR": 47,
-    "PG": 52,
-    "PT": 37,
-    "SL": 38,
-    "VK": 30
+    "AGI": 35,
+    "HG": 39,
+    "EXIT": 37
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 31,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 41,
+    "tractionRank": 51,
     "tractionScore": 60,
-    "tractionReason": "Three companies obtained coverage; commission-based brokerage; approximately 50 application users"
+    "tractionReason": "Carrier-paid brokerage secured coverage for three businesses in one week"
   },
   "paths": {
     "memo": "fall2026/memos/risklytics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/risklytics.md",
-      "elad-gil": "fall2026/evals/elad-gil/risklytics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/risklytics.md",
-      "paul-graham": "fall2026/evals/paul-graham/risklytics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/risklytics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/risklytics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/risklytics.md"
+      "agi": "fall2026/evals/agi/risklytics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/risklytics.md",
+      "exit": "fall2026/evals/exit/risklytics.md"
     }
   }
 }

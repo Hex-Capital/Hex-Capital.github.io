@@ -1,17 +1,17 @@
 {
   "slug": "openlake-technologies",
   "name": "OpenLake Technologies",
-  "oneLiner": "OpenLake deploys, trains, and serves models that update in real time.",
+  "oneLiner": "OpenLake lets companies deploy models that improve in real time",
   "metadata": {
     "website": "https://openlakehq.com",
     "yc_page": "https://www.ycombinator.com/companies/openlake-technologies",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/openlake-technologies))",
+    "batch": "Fall 2026 ([YC company directory](https://www.ycombinator.com/companies/openlake-technologies))",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, SaaS, Big Data, Infrastructure",
-    "yc_partner": "Pete Koomen ([YC, via search snippet](https://www.ycombinator.com/companies/openlake-technologies))",
-    "emails": "No public data found"
+    "yc_partner": "Pete Koomen ([YC company directory](https://www.ycombinator.com/companies/openlake-technologies))",
+    "emails": "arnav@openlakehq.com — Arnav Balyan, founder and CEO ([Launch YC](https://www.ycombinator.com/launches/Wsz-openlake-fast-inference-for-self-improving-models))"
   },
   "tags": [
     "Generative AI",
@@ -20,63 +20,39 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T06:32:41.491Z",
+  "memoGeneratedAt": "2026-11-18T00:08:44.680Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "agi": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 26,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 28,
-    "NR": 42,
-    "PG": 36,
-    "PT": 26,
-    "SL": 30,
-    "VK": 25
+    "AGI": 36,
+    "HG": 37,
+    "EXIT": 40
   },
-  "consolidatedAvg": 32,
-  "consolidatedRank": 203,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 196,
-    "tractionScore": 12,
-    "tractionReason": "Current training-platform adoption undisclosed; earlier storage stars excluded"
+    "tractionRank": 40,
+    "tractionScore": 63,
+    "tractionReason": "100B+ tokens served daily across products, one model-training testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/openlake-technologies.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/openlake-technologies.md",
-      "elad-gil": "fall2026/evals/elad-gil/openlake-technologies.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/openlake-technologies.md",
-      "paul-graham": "fall2026/evals/paul-graham/openlake-technologies.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/openlake-technologies.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/openlake-technologies.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/openlake-technologies.md"
+      "agi": "fall2026/evals/agi/openlake-technologies.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/openlake-technologies.md",
+      "exit": "fall2026/evals/exit/openlake-technologies.md"
     }
   }
 }

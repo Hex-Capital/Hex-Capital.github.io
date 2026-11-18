@@ -1,17 +1,17 @@
 {
   "slug": "native",
   "name": "Native",
-  "oneLiner": "Artificial Intuition for marketing",
+  "oneLiner": "A proactive marketing assistant for businesses",
   "metadata": {
     "website": "https://native.no/",
     "yc_page": "https://www.ycombinator.com/companies/native",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/native))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/native))",
     "industry": "B2B / B2B -> Marketing",
     "team_size": "6",
     "location": "San Francisco, CA, USA",
     "tags": "Machine Learning, Social Media, AI",
-    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/native))",
-    "emails": "benjamin@native.no — Benjamin Bekken, CEO/co-founder; published as privacy contact ([Cookie Policy](https://native.no/cookies)); hi@native.no ([Contact](https://native.no/contact)), hei@native.no ([Terms](https://native.no/terms-and-conditions)), research@native.no ([Research](https://native.no/research))"
+    "yc_partner": "Harj Taggar ([YC directory](https://www.ycombinator.com/companies/native))",
+    "emails": "hi@native.no, general inquiries ([Native Contact](https://native.no/contact)), hei@native.no, privacy and legal inquiries ([Native Privacy Policy](https://native.no/privacy-policy))"
   },
   "tags": [
     "Machine Learning",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T17:42:28.233Z",
+  "memoGeneratedAt": "2026-11-17T23:24:49.920Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 47,
+    "agi": {
+      "score": 48,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 63,
+    "hypergrowth": {
+      "score": 57,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
+    "exit": {
       "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 63,
-    "NR": 58,
-    "PG": 51,
-    "PT": 39,
-    "SL": 43,
-    "VK": 27
+    "AGI": 48,
+    "HG": 57,
+    "EXIT": 39
   },
-  "consolidatedAvg": 46.86,
-  "consolidatedRank": 12,
+  "consolidatedAvg": 48,
+  "consolidatedRank": 1,
   "traction": {
     "tractionRank": 2,
-    "tractionScore": 95,
-    "tractionReason": "$2M ARR; 2,200+ paying customers within six months"
+    "tractionScore": 97,
+    "tractionReason": "Over $2M ARR and 2,200+ paying customers"
   },
   "paths": {
     "memo": "fall2026/memos/native.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/native.md",
-      "elad-gil": "fall2026/evals/elad-gil/native.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/native.md",
-      "paul-graham": "fall2026/evals/paul-graham/native.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/native.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/native.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/native.md"
+      "agi": "fall2026/evals/agi/native.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/native.md",
+      "exit": "fall2026/evals/exit/native.md"
     }
   }
 }

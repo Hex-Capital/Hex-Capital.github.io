@@ -1,17 +1,17 @@
 {
   "slug": "orca-aerospace",
   "name": "Orca Aerospace",
-  "oneLiner": "AI spacecraft operators that lives onboard the vehicle",
+  "oneLiner": "AI spacecraft operators that live onboard the vehicle",
   "metadata": {
     "website": "https://orcaaerospace.com/",
     "yc_page": "https://www.ycombinator.com/companies/orca-aerospace",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/orca-aerospace))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/orca-aerospace))",
     "industry": "Industrials / Industrials -> Aviation and Space",
     "team_size": "5",
     "location": "San Francisco, CA, USA",
     "tags": "AIOps, Space Exploration, Satellites",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/orca-aerospace))",
-    "emails": "founders@orcaaerospace.com ([company website](https://orcaaerospace.com/))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/orca-aerospace))",
+    "emails": "hakan@orcaaerospace.com, Hakan Chunton ([Stealth Startup Spy founder profile, Aug 2026](https://stealthstartupspy.substack.com/p/stealth-startup-spy-370)), founders@orcaaerospace.com, shared founder inbox ([Orca Aerospace](https://orcaaerospace.com/founders.html))"
   },
   "tags": [
     "AIOps",
@@ -19,63 +19,39 @@
     "Satellites"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:53:35.094Z",
+  "memoGeneratedAt": "2026-11-17T23:38:35.008Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 39,
+    "agi": {
+      "score": 41,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 32,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 39,
-    "NR": 45,
-    "PG": 32,
-    "PT": 26,
-    "SL": 30,
-    "VK": 27
+    "AGI": 41,
+    "HG": 38,
+    "EXIT": 40
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 131,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 28,
-    "tractionReason": "Named Lyra concept study; no operational customers disclosed"
+    "tractionRank": 65,
+    "tractionScore": 56,
+    "tractionReason": "Orbital LOI worth up to $20M, Lyra integration study"
   },
   "paths": {
     "memo": "fall2026/memos/orca-aerospace.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/orca-aerospace.md",
-      "elad-gil": "fall2026/evals/elad-gil/orca-aerospace.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/orca-aerospace.md",
-      "paul-graham": "fall2026/evals/paul-graham/orca-aerospace.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/orca-aerospace.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/orca-aerospace.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/orca-aerospace.md"
+      "agi": "fall2026/evals/agi/orca-aerospace.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/orca-aerospace.md",
+      "exit": "fall2026/evals/exit/orca-aerospace.md"
     }
   }
 }

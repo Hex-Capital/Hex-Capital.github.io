@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://tilion.com",
     "yc_page": "https://www.ycombinator.com/companies/tilion",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/tilion))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/tilion))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Infrastructure",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/tilion))",
-    "emails": "team@tilion.dev ([subscription terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)), arman@tilion.dev ([founder comment](https://github.com/tiliondev/fortress/discussions/31))"
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/tilion))",
+    "emails": "arman@tilion.dev, Arman Luthra ([GitHub discussion](https://github.com/tiliondev/fortress/discussions/31)); team@tilion.dev, company notices ([Fortress subscription terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)); hello@tilion.dev, package contact ([Tilion on PyPI](https://pypi.org/project/tilion/), via search snippet)"
   },
   "tags": [
     "B2B",
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:02:58.982Z",
+  "memoGeneratedAt": "2026-11-17T23:05:50.580Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
+    "agi": {
+      "score": 41,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 51,
-    "NR": 47,
-    "PG": 49,
-    "PT": 36,
-    "SL": 30,
-    "VK": 32
+    "AGI": 41,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 55,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 55,
-    "tractionScore": 56,
-    "tractionReason": "100K+ installs; millions of daily operations; paid contracts undisclosed"
+    "tractionRank": 58,
+    "tractionScore": 58,
+    "tractionReason": "100,000 reported installs, engineers at 170+ companies"
   },
   "paths": {
     "memo": "fall2026/memos/tilion.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/tilion.md",
-      "elad-gil": "fall2026/evals/elad-gil/tilion.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/tilion.md",
-      "paul-graham": "fall2026/evals/paul-graham/tilion.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/tilion.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/tilion.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/tilion.md"
+      "agi": "fall2026/evals/agi/tilion.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/tilion.md",
+      "exit": "fall2026/evals/exit/tilion.md"
     }
   }
 }

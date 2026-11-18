@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://boat.dev",
     "yc_page": "https://www.ycombinator.com/companies/boat",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/boat))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/boat))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "3",
-    "location": "Paris, ?le-de-France, France; Remote",
+    "location": "Paris, Île-de-France, France; Remote",
     "tags": "Developer Tools, Cloud Computing",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/boat))",
-    "emails": "support@ascii.dev ([Boat support](https://docs.boat.dev/support))"
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/boat))",
+    "emails": "an.nougaret@gmail.com (Anicet Nougaret, recruiting contact in the [2025 Ariana posting](https://github.com/ariana-dot-dev/founding-engineer-offer-0)), support@ascii.dev (Boat support and privacy requests, [Boat Privacy Policy](https://boat.dev/privacy))"
   },
   "tags": [
     "Developer Tools",
     "Cloud Computing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:10:12.925Z",
+  "memoGeneratedAt": "2026-11-18T00:20:59.170Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 59,
+    "agi": {
+      "score": 45,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 62,
+    "hypergrowth": {
+      "score": 46,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
+    "exit": {
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 62,
-    "NR": 53,
-    "PG": 53,
-    "PT": 35,
-    "SL": 33,
-    "VK": 33
+    "AGI": 45,
+    "HG": 46,
+    "EXIT": 40
   },
-  "consolidatedAvg": 46.86,
-  "consolidatedRank": 10,
+  "consolidatedAvg": 43.67,
+  "consolidatedRank": 12,
   "traction": {
-    "tractionRank": 7,
-    "tractionScore": 81,
-    "tractionReason": "Six-figure ARR; 1,000+ active paying users"
+    "tractionRank": 4,
+    "tractionScore": 94,
+    "tractionReason": "$1M ARR, up from $200K one month earlier"
   },
   "paths": {
     "memo": "fall2026/memos/boat.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/boat.md",
-      "elad-gil": "fall2026/evals/elad-gil/boat.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/boat.md",
-      "paul-graham": "fall2026/evals/paul-graham/boat.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/boat.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/boat.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/boat.md"
+      "agi": "fall2026/evals/agi/boat.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/boat.md",
+      "exit": "fall2026/evals/exit/boat.md"
     }
   }
 }

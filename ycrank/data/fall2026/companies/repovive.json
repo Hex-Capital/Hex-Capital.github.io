@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://research.repovive.com",
     "yc_page": "https://www.ycombinator.com/companies/repovive",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/repovive))",
+    "batch": "Fall 2026 ([YC Directory](https://www.ycombinator.com/companies/repovive))",
     "industry": "B2B / B2B",
-    "team_size": "5",
+    "team_size": "5 ([YC Directory](https://www.ycombinator.com/companies/repovive))",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Data Science, AI",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/repovive))",
-    "emails": "schjahan@umd.edu — Shayan, academic contact ([UMD](https://www.cs.umd.edu/people/schjahan)); support@repovive.com — extension support ([Repovive privacy policy](https://repovive.com/privacy-extension))"
+    "yc_partner": "Christopher Golda ([YC Directory](https://www.ycombinator.com/companies/repovive))",
+    "emails": "founders@repovive.com, shared lab inquiries and sample requests ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software)), support@repovive.com, competitive-programming extension support ([Repovive Extension Privacy Policy](https://repovive.com/privacy-extension))"
   },
   "tags": [
     "B2B",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-16T05:18:10.322Z",
+  "memoGeneratedAt": "2026-11-17T23:46:55.183Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
+    "agi": {
+      "score": 44,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 41,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 49,
-    "NR": 43,
-    "PG": 41,
-    "PT": 31,
-    "SL": 40,
-    "VK": 28
+    "AGI": 44,
+    "HG": 38,
+    "EXIT": 38
   },
-  "consolidatedAvg": 40.57,
-  "consolidatedRank": 59,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 38,
-    "tractionScore": 60,
-    "tractionReason": "$100K formalization-environment contracts; recognized revenue undisclosed"
+    "tractionRank": 32,
+    "tractionScore": 66,
+    "tractionReason": "$100K in signed contracts and a separate $200K LOI"
   },
   "paths": {
     "memo": "fall2026/memos/repovive.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/repovive.md",
-      "elad-gil": "fall2026/evals/elad-gil/repovive.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/repovive.md",
-      "paul-graham": "fall2026/evals/paul-graham/repovive.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/repovive.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/repovive.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/repovive.md"
+      "agi": "fall2026/evals/agi/repovive.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/repovive.md",
+      "exit": "fall2026/evals/exit/repovive.md"
     }
   }
 }

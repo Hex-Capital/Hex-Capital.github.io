@@ -1,82 +1,59 @@
 {
   "slug": "faraday",
   "name": "Faraday",
-  "oneLiner": "Agents running manufacturers from the back office to the shop floor",
+  "oneLiner": "Industrial aOS coordinating humans, agents, and machines",
   "metadata": {
     "website": "https://faradaycompute.com",
     "yc_page": "https://www.ycombinator.com/companies/faraday",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/faraday))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/faraday))",
     "industry": "Industrials / Industrials",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "B2B, Manufacturing, Enterprise Software, AI",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/faraday))",
-    "emails": "team@faradaycompute.com ([Faraday Privacy Policy](https://faradaycompute.com/privacy))"
+    "tags": "B2B, Manufacturing, Enterprise Software, AI, Industrial",
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/faraday))",
+    "emails": "team@faradaycompute.com (general inquiries, [Faraday Contact](https://faradaycompute.com/contact?inquiry=industrial-autonomy))"
   },
   "tags": [
     "B2B",
     "Manufacturing",
     "Enterprise Software",
-    "AI"
+    "AI",
+    "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:12:53.282Z",
+  "memoGeneratedAt": "2026-11-18T00:24:55.499Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 42,
+    "hypergrowth": {
+      "score": 35,
       "tier": "Pass"
     },
-    "naval-ravikant": {
+    "exit": {
       "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 42,
-    "NR": 37,
-    "PG": 34,
-    "PT": 37,
-    "SL": 32,
-    "VK": 32
+    "AGI": 38,
+    "HG": 35,
+    "EXIT": 37
   },
-  "consolidatedAvg": 36.71,
-  "consolidatedRank": 122,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 18,
-    "tractionReason": "Product launch and synthetic benchmark; no disclosed customer deployments"
+    "tractionRank": 147,
+    "tractionScore": 36,
+    "tractionReason": "Founder reports one unnamed industrial customer deployment"
   },
   "paths": {
     "memo": "fall2026/memos/faraday.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/faraday.md",
-      "elad-gil": "fall2026/evals/elad-gil/faraday.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/faraday.md",
-      "paul-graham": "fall2026/evals/paul-graham/faraday.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/faraday.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/faraday.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/faraday.md"
+      "agi": "fall2026/evals/agi/faraday.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/faraday.md",
+      "exit": "fall2026/evals/exit/faraday.md"
     }
   }
 }

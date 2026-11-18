@@ -57,7 +57,7 @@
     }
   </script>
 </head>
-<body class="bg-claude-bg text-claude-text font-sans min-h-screen" x-data="app()" x-init="init()">
+<body class="bg-claude-bg text-claude-text font-sans min-h-screen" x-data="app()">
 
   <!-- Top Nav -->
   <nav class="bg-claude-bg border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
@@ -70,7 +70,7 @@
         </div>
         <h1 class="text-base font-bold text-claude-orange cursor-pointer sm:tracking-wider flex-shrink-0" @click="navigate('dashboard')">[YCRank]</h1>
         <span class="nav-separator text-claude-border">|</span>
-        <select x-model="currentBatch" @change="loadBatch(currentBatch)" aria-label="Select YC batch"
+        <select x-model="currentBatch" @change="selectBatch($event.target.value)" aria-label="Select YC batch"
           class="nav-batch bg-claude-bg border border-claude-border text-claude-orange px-1.5 sm:px-2 py-0.5 text-sm rounded-none focus:outline-none focus:border-claude-orange min-w-0 max-w-[140px] xs:max-w-none">
           <template x-for="b in batches" :key="b">
             <option :value="b" x-text="formatBatch(b)"></option>
@@ -179,14 +179,14 @@
               <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap hidden lg:table-cell"
                 @click="sortBy('ycPartner')">YC Partner<span x-show="sortCol === 'ycPartner'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
-              <template x-for="p in personas" :key="p.abbr">
+              <template x-for="p in evaluators" :key="p.abbr">
                 <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-10 border border-claude-border whitespace-nowrap hidden sm:table-cell"
                   @click="sortBy(p.abbr)"
-                  :title="p.fullName"><span x-text="p.abbr"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+                  :title="p.fullName"><span x-text="thesisEvaluations ? p.fullName : p.abbr"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
                 </th>
               </template>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
-                @click="sortBy('avg')">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+                @click="sortBy('avg')" :title="thesisEvaluations ? 'Average thesis score' : 'Average persona score'">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap"
                 @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
@@ -200,7 +200,7 @@
           <!-- MOBILE-SCORES: Each company is a <tbody> so Alpine can render two rows (data + mobile scores).
                To revert: replace this <template>...<tbody> structure with a single <tbody> wrapping the <template>,
                remove the second <tr class="sm:hidden">, and remove the mobile-scores-group CSS. -->
-          <template x-for="row in filteredTable" :key="row.rank">
+          <template x-for="row in filteredTable" :key="row.slug">
             <tbody class="mobile-scores-group">
               <tr class="border-b border-claude-border hover:bg-claude-panel cursor-pointer transition-colors"
                 @click="row.slug && navigate('company/' + row.slug)">
@@ -224,7 +224,7 @@
                   x-text="formatMemoDate(row.memoDate)"></td>
                 <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[120px]"
                   x-text="row.ycPartner || '-'"></td>
-                <template x-for="p in personas" :key="p.abbr">
+                <template x-for="p in evaluators" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"
                     :class="tierColor(row.tiers[p.abbr])"
                     :title="row.scoreTips && row.scoreTips[p.abbr] ? p.fullName + ': ' + row.scoreTips[p.abbr] : ''"
@@ -248,7 +248,7 @@
                 @click="row.slug && navigate('company/' + row.slug)">
                 <td colspan="99" class="px-1.5 border-x border-claude-border mobile-scores-cell">
                   <div class="flex justify-around">
-                    <template x-for="p in personas" :key="'mob-'+p.abbr">
+                    <template x-for="p in evaluators" :key="'mob-'+p.abbr">
                       <span class="inline-flex items-baseline tabular-nums">
                         <span class="text-[11px] text-claude-dim opacity-60 tracking-tight" x-text="p.abbr"></span>
                         <span class="text-[13px] font-medium ml-px" :class="tierColor(row.tiers[p.abbr])" x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></span>
@@ -333,7 +333,7 @@
                       <p class="text-xs text-claude-gray line-clamp-2 pl-2 leading-relaxed" style="border-left: 2px solid var(--c-dim)"
                         x-text="mobileCards[slideIdx].oneLiner || ''"></p>
 
-                      <!-- Persona scores line graph -->
+                      <!-- Evaluation scores line graph -->
                       <div class="mobile-score-graph" x-html="scoreGraphSVG(mobileCards[slideIdx])"></div>
 
                       <!-- Footer -->
@@ -440,8 +440,8 @@
 
           <!-- Score Summary -->
           <div class="mb-4">
-            <div class="grid grid-cols-2 xs:grid-cols-4 md:grid-cols-8 gap-1.5">
-              <template x-for="p in personas" :key="p.slug">
+            <div class="grid grid-cols-2 gap-1.5" :class="thesisEvaluations ? 'sm:grid-cols-4' : 'xs:grid-cols-4 md:grid-cols-8'">
+              <template x-for="p in evaluators" :key="p.slug">
                 <div class="score-card p-1.5 text-center"
                   :class="{ 'cursor-pointer': companyData.paths.evals[p.slug], 'score-card-active': activeTab === p.slug }"
                   :title="getScoreTip(companyData.slug, p.abbr)"
@@ -484,12 +484,12 @@
                 :aria-selected="activeTab === 'memo'"
                 :class="activeTab === 'memo' ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
                 class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0">Memo</button>
-              <template x-for="p in personas" :key="p.slug">
+              <template x-for="p in evaluators" :key="p.slug">
                 <button @click="loadTabContent(p.slug)" role="tab"
                   :aria-selected="activeTab === p.slug"
                   x-show="companyData.paths.evals[p.slug]"
                   :class="activeTab === p.slug ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
-                  class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0" x-text="p.abbr"></button>
+                  class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0" :title="p.fullName" x-text="thesisEvaluations ? p.fullName : p.abbr"></button>
               </template>
             </div>
             <div class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto" role="tabpanel" aria-label="Tab content">
@@ -582,7 +582,7 @@
       <template x-if="manifest && manifest.disagreements.length > 0">
         <div class="mb-6">
           <h3 class="text-sm font-bold mb-1 text-claude-red">&gt;&gt; Disagreement Highlights</h3>
-          <p class="text-claude-dim text-[10px] mb-2">Companies where personas diverge most (std dev >= 20).</p>
+          <p class="text-claude-dim text-[10px] mb-2" x-text="thesisEvaluations ? 'Companies whose thesis scores diverge most (standard deviation ≥ 20).' : 'Companies whose persona scores diverge most (standard deviation ≥ 20).'"></p>
           <div class="overflow-x-auto">
           <table class="w-full text-sm terminal-table">
             <thead>
@@ -601,8 +601,8 @@
                   <td class="px-1.5 py-1 text-claude-text font-medium border border-claude-border" x-text="d.company"></td>
                   <td class="px-1.5 py-1 text-center tabular-nums text-claude-orange border border-claude-border" x-text="d.avg.toFixed(2)"></td>
                   <td class="px-1.5 py-1 text-center tabular-nums text-claude-red border border-claude-border" x-text="d.stddev.toFixed(2)"></td>
-                  <td class="px-1.5 py-1 text-claude-green border border-claude-border" x-text="d.high"></td>
-                  <td class="px-1.5 py-1 text-claude-red border border-claude-border" x-text="d.low"></td>
+                  <td class="px-1.5 py-1 text-claude-green border border-claude-border" x-text="evaluatorScoreLabel(d.high)"></td>
+                  <td class="px-1.5 py-1 text-claude-red border border-claude-border" x-text="evaluatorScoreLabel(d.low)"></td>
                   <td class="px-1.5 py-1 text-claude-dim text-[10px] border border-claude-border max-w-[300px]"
                     x-text="d.keyTension || ''" :title="d.keyTension || ''"></td>
                 </tr>
@@ -617,7 +617,7 @@
       <template x-if="manifest && manifest.convergenceWarnings.length > 0">
         <div class="mb-6">
           <h3 class="text-sm font-bold mb-1 text-claude-amber">&gt;&gt; Convergence Warnings</h3>
-          <p class="text-claude-dim text-[10px] mb-2">Companies where all personas score within 10 points.</p>
+          <p class="text-claude-dim text-[10px] mb-2" x-text="thesisEvaluations ? 'Companies whose thesis scores are all within 10 points.' : 'Companies whose persona scores are all within 10 points.'"></p>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0">
             <template x-for="c in manifest.convergenceWarnings" :key="c.company">
               <div class="border border-claude-border px-2 py-1 text-xs">
@@ -632,23 +632,23 @@
       <!-- Correlation Matrix -->
       <template x-if="manifest && manifest.correlationMatrix.length > 0">
         <div class="mb-6">
-          <h3 class="text-sm font-bold mb-1 text-claude-blue">&gt;&gt; Persona Correlation Matrix</h3>
-          <p class="text-claude-dim text-[10px] mb-2">Pearson r between persona score vectors. High correlation (r > 0.80) suggests insufficient differentiation.</p>
+          <h3 class="text-sm font-bold mb-1 text-claude-blue" x-text="thesisEvaluations ? '>> Thesis Correlation Matrix' : '>> Persona Correlation Matrix'"></h3>
+          <p class="text-claude-dim text-[10px] mb-2" x-text="thesisEvaluations ? 'Pearson r between thesis scores across companies.' : 'Pearson r between persona scores across companies. High correlation (r > 0.80) suggests insufficient differentiation.'"></p>
           <div class="overflow-x-auto">
             <table class="text-sm terminal-table">
               <thead>
                 <tr class="border-b border-claude-border">
                   <th class="px-2 py-1 border border-claude-border"></th>
-                  <template x-for="p in personas" :key="'corr-h-'+p.abbr">
-                    <th class="px-2 py-1 text-center text-claude-gray border border-claude-border" x-text="p.abbr"></th>
+                  <template x-for="p in evaluators" :key="'corr-h-'+p.abbr">
+                    <th class="px-2 py-1 text-center text-claude-gray border border-claude-border" :title="p.fullName" x-text="thesisEvaluations ? p.fullName : p.abbr"></th>
                   </template>
                 </tr>
               </thead>
               <tbody>
                 <template x-for="row in manifest.correlationMatrix" :key="row.persona">
                   <tr class="border-b border-claude-border">
-                    <td class="px-2 py-1 font-bold text-claude-text border border-claude-border" x-text="row.persona"></td>
-                    <template x-for="p in personas" :key="'corr-'+row.persona+'-'+p.abbr">
+                    <td class="px-2 py-1 font-bold text-claude-text border border-claude-border" x-text="thesisEvaluations ? evaluatorName(row.persona) : row.persona"></td>
+                    <template x-for="p in evaluators" :key="'corr-'+row.persona+'-'+p.abbr">
                       <td class="px-2 py-1 text-center tabular-nums border border-claude-border"
                         :class="corrColor(row.values[p.abbr])"
                         x-text="row.values[p.abbr] != null ? row.values[p.abbr].toFixed(2) : '--'"></td>
@@ -696,11 +696,11 @@
       <div class="px-3 py-1.5 border-b border-claude-border flex-shrink-0">
         <div class="flex flex-wrap gap-1 mb-1.5">
           <button @click="selectAllCouncilPersonas()"
-            :class="councilPersonas.length === personas.length
+            :class="councilPersonas.length === councilRoster.length
               ? 'bg-claude-orange text-claude-bg border-claude-orange'
               : 'text-claude-text border-claude-border hover:border-claude-orange'"
             class="px-1.5 py-0 text-[10px] border transition-colors rounded-none">All</button>
-          <template x-for="p in personas" :key="p.slug">
+          <template x-for="p in councilRoster" :key="p.slug">
             <button @click="toggleCouncilPersona(p.slug)"
               :class="councilPersonas.includes(p.slug)
                 ? 'bg-claude-orange text-claude-bg border-claude-orange'
@@ -773,8 +773,8 @@
             :disabled="councilAsking"
             placeholder="ask the council..." aria-label="Council question input"
             class="flex-1 bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs focus:outline-none focus:border-claude-orange disabled:opacity-50 rounded-none placeholder-claude-dim">
-          <button @click="askCouncil()" :disabled="councilAsking || !councilInput.trim()"
-            :class="councilAsking || !councilInput.trim() ? 'text-claude-dim border-claude-border cursor-not-allowed' : 'text-claude-orange border-claude-orange hover:bg-claude-orange hover:text-claude-bg'"
+          <button @click="askCouncil()" :disabled="councilAsking || !councilInput.trim() || !councilPersonas.length"
+            :class="councilAsking || !councilInput.trim() || !councilPersonas.length ? 'text-claude-dim border-claude-border cursor-not-allowed' : 'text-claude-orange border-claude-orange hover:bg-claude-orange hover:text-claude-bg'"
             class="px-3 py-1 border text-xs transition-colors rounded-none min-w-[52px] text-center">
             <span x-show="!councilAsking">[send]</span>
             <span x-show="councilAsking" class="terminal-blink">...</span>

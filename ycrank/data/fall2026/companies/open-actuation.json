@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://openactuation.com",
     "yc_page": "https://www.ycombinator.com/companies/open-actuation",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/open-actuation))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/open-actuation))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "Los Angeles, CA, USA",
     "tags": "Hard Tech, Robotics, Drones, Manufacturing, Electronics",
-    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/open-actuation))",
-    "emails": "sales@openactuation.com, careers@openactuation.com, sales@usadronemotors.com, sales@pendulumrobotics.com ([Contact](https://openactuation.com/contact), [Careers](https://openactuation.com/careers), [USA Drone Motors](https://usadronemotors.com/contact), [Pendulum](https://pendulumrobotics.com/))"
+    "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/open-actuation))",
+    "emails": "sales@pendulumrobotics.com (storefront sales and privacy inquiries, [Pendulum Robotics](https://pendulumrobotics.com/policies/privacy-policy)), sales@usadronemotors.com (custom motor sales, [USA Drone Motors](https://usadronemotors.com/contact))"
   },
   "tags": [
     "Hard Tech",
@@ -21,63 +21,39 @@
     "Electronics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:58:34.664Z",
+  "memoGeneratedAt": "2026-11-17T23:47:48.255Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
+    "agi": {
+      "score": 44,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 40,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 40,
-    "NR": 56,
-    "PG": 38,
-    "PT": 28,
-    "SL": 31,
-    "VK": 25
+    "AGI": 44,
+    "HG": 39,
+    "EXIT": 37
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 109,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 88,
-    "tractionScore": 48,
-    "tractionReason": "Motors built for unnamed drone OEMs; paid status undisclosed"
+    "tractionRank": 46,
+    "tractionScore": 62,
+    "tractionReason": "Fulfilling volume motor orders for an unnamed drone OEM"
   },
   "paths": {
     "memo": "fall2026/memos/open-actuation.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/open-actuation.md",
-      "elad-gil": "fall2026/evals/elad-gil/open-actuation.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/open-actuation.md",
-      "paul-graham": "fall2026/evals/paul-graham/open-actuation.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/open-actuation.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/open-actuation.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/open-actuation.md"
+      "agi": "fall2026/evals/agi/open-actuation.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/open-actuation.md",
+      "exit": "fall2026/evals/exit/open-actuation.md"
     }
   }
 }

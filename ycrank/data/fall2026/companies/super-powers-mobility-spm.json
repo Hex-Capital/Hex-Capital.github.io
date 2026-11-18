@@ -3,15 +3,15 @@
   "name": "Super Powers Mobility (SPM)",
   "oneLiner": "The highest performance modular battery packs for mobility/vehicles",
   "metadata": {
-    "website": "https://www.spm.fun",
+    "website": "https://www.spm.us",
     "yc_page": "https://www.ycombinator.com/companies/super-powers-mobility-spm",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/super-powers-mobility-spm))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/super-powers-mobility-spm))",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "4",
     "location": "Pittsburgh, PA, USA",
     "tags": "Energy Storage, Unmanned Vehicle, Manufacturing, Electric Vehicles, Electronics",
-    "yc_partner": "Charlie Warren ([YC](https://www.ycombinator.com/companies/super-powers-mobility-spm))",
-    "emails": "info@spm.fun ([SPM shipping policy](https://spm.fun/policies/shipping-policy)); info@spm.us ([SPM](https://spm.us/))"
+    "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/super-powers-mobility-spm))",
+    "emails": "info@spm.us for government and enterprise inquiries ([SPM](https://spm.us/)), info@spm.fun for battery and custom vehicle inquiries ([Launch YC](https://www.ycombinator.com/launches/Wdz-spm-batteries-are-the-bottleneck-to-american-energy-dominance))"
   },
   "tags": [
     "Energy Storage",
@@ -21,63 +21,39 @@
     "Electronics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:52:04.116Z",
+  "memoGeneratedAt": "2026-11-17T22:42:16.303Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 45,
+      "tier": "Neutral"
+    },
+    "hypergrowth": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 46,
       "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 50,
-    "NR": 59,
-    "PG": 49,
-    "PT": 32,
-    "SL": 33,
-    "VK": 28
+    "AGI": 45,
+    "HG": 37,
+    "EXIT": 46
   },
-  "consolidatedAvg": 42.43,
-  "consolidatedRank": 40,
+  "consolidatedAvg": 42.67,
+  "consolidatedRank": 21,
   "traction": {
-    "tractionRank": 4,
-    "tractionScore": 89,
-    "tractionReason": "$421,815 realized battery revenue in one month; recurrence unproven"
+    "tractionRank": 5,
+    "tractionScore": 93,
+    "tractionReason": "Reported $421,815 realized in one month, with bookings into February"
   },
   "paths": {
     "memo": "fall2026/memos/super-powers-mobility-spm.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/super-powers-mobility-spm.md",
-      "elad-gil": "fall2026/evals/elad-gil/super-powers-mobility-spm.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/super-powers-mobility-spm.md",
-      "paul-graham": "fall2026/evals/paul-graham/super-powers-mobility-spm.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/super-powers-mobility-spm.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/super-powers-mobility-spm.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/super-powers-mobility-spm.md"
+      "agi": "fall2026/evals/agi/super-powers-mobility-spm.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/super-powers-mobility-spm.md",
+      "exit": "fall2026/evals/exit/super-powers-mobility-spm.md"
     }
   }
 }

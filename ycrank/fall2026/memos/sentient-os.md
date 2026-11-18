@@ -1,86 +1,90 @@
 ﻿# Sentient OS
 
-> On-device AI that knows your entire life and does your work overnight.
+> The personal agent with zero inference cost.
 
 | Field | Value |
 |-------|-------|
 | Website | https://sentient-os.ai |
 | YC Page | https://www.ycombinator.com/companies/sentient-os |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/sentient-os)) |
+| Batch | Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/sentient-os)) |
 | Industry | B2B / B2B -> Productivity |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Productivity, AI |
-| YC Partner | Aaron Epstein ([YC](https://www.ycombinator.com/companies/sentient-os)) |
-| Emails | feedback@sentient-os.ai ([website](https://sentient-os.ai/team)), jesai@sentient-os.ai ([company GitHub](https://github.com/Sentient-OS-Labs)), jesaitarun@gmail.com ([founder GitHub](https://github.com/theJayTea)) |
+| YC Partner | Aaron Epstein ([YC company profile](https://www.ycombinator.com/companies/sentient-os)) |
+| Emails | jesaitarun@gmail.com (Jesai Tarun’s published professional contact, [GitHub profile](https://github.com/theJayTea)), feedback@sentient-os.ai (team inquiries, feedback, privacy and licensing, [company privacy policy](https://sentient-os.ai/privacy), [licensing](https://github.com/Sentient-OS-Labs/sentient-os/blob/main/LICENSING.md)), security@sentient-os.ai (vulnerability reports, [company security policy](https://github.com/Sentient-OS-Labs/sentient-os/blob/main/SECURITY.md)) |
 
 ## The Idea
 
-- **Problem:** Knowledge workers must reconstruct context scattered across messages, emails, notes, and files before delegating tasks to chatbots or completing follow-ups manually ([YC launch, accessed Oct 27, 2026](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work)).
-- **Approach:** An on-device model processes selected sources overnight into editable Markdown knowledge, which supplies context for reply drafting, proactive suggestions, and Sidekick’s computer actions ([YC launch](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work)).
-- **Differentiation:** Screenpipe captures screen/audio history, Highlight builds shared organizational context, and Cluely assists during meetings, whereas Sentient combines overnight personal-source analysis with drafting and computer use ([Screenpipe](https://screenpipe.com/), [Highlight](https://highlightai.com/), [Cluely](https://cluely.com/), [Sentient](https://sentient-os.ai/)).
-- **Business Model:** The consumer assistant is described as free, with lifetime access offered through `FINAL_1000`, while enterprise integrations, commercial licensing, and support are the stated monetization channels; initial teams currently receive free access ([website](https://sentient-os.ai/), [GitHub](https://github.com/Sentient-OS-Labs/sentient-os), [Teams](https://sentient-os.ai/team)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; the broader AI productivity tools category is estimated at $10.32 billion in 2026 with 16% CAGR through 2034 ([Straits Research, 2026](https://straitsresearch.com/report/ai-productivity-tools-market)).
-- **GTM / Distribution:** Public distribution includes Reddit launches, GitHub source code, direct Mac downloads, Homebrew installation, and founder-led enterprise contact ([founder launch, Jul 20, 2026](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/), [website](https://sentient-os.ai/)).
+- **Problem** — Mac-based knowledge workers reconstruct context across email, messages, meeting notes and files to handle follow-ups, draft replies or brief a general-purpose chatbot ([Launch YC](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work)).
+- **Approach** — A custom LiteRT-LM stack runs Gemma 4 E4B overnight on Apple silicon Macs with 8 GB of RAM, updating an editable Markdown knowledge base that powers Double Tap reply drafts, suggestions queued for approval and Sidekick’s cross-app actions ([Sentient OS GitHub](https://github.com/Sentient-OS-Labs/sentient-os), [Launch YC](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work)).
+- **Differentiation** — Sentient builds context overnight for inline replies and cross-app handoffs, while Incredible focuses on voice-triggered actions across Mac and Windows, Highlight AI on shared team context, and Raycast on launcher commands and extensions ([Sentient OS](https://sentient-os.ai/), [Incredible](https://www.incredible.one/), [Highlight AI](https://highlightai.com/about), [Raycast AI](https://www.raycast.com/core-features/ai)).
+- **Business Model** — The company offers a free, open-source personal app, advertises lifetime access for the next 1,000 users and offers enterprise integrations, support and commercial licenses without publishing enterprise rates ([Sentient OS](https://sentient-os.ai/), [company licensing terms](https://github.com/Sentient-OS-Labs/sentient-os/blob/main/LICENSING.md)).
+- **TAM/SAM** — No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution** — Sentient distributed its July alpha through r/macapps, offers direct Mac and Homebrew downloads, and routes team and commercial licensing inquiries to the founders ([founder’s r/macapps launch, Jul 2026](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/), [Sentient OS](https://sentient-os.ai/), [Teams](https://sentient-os.ai/team)).
 
 ## Defensibility
 
-- **Moat today:** Public technical evidence comprises a customized LiteRT-LM integration using Metal, speculative decoding, bounded context budgets, and engine reuse across batches ([company GitHub](https://github.com/Sentient-OS-Labs/sentient-os)).
-- **Future moat:** [Inferred]: Accumulated personal knowledge could improve contextual usefulness, although editable, portable Markdown and optional sharing reduce exclusive control over that context ([privacy architecture](https://sentient-os.ai/privacy-core)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given Screenpipe’s existing local-history and model-agnostic context offering ([Screenpipe](https://screenpipe.com/)).
-- **Commoditization risk:** [Inferred]: Other assistant developers can inspect Sentient’s AGPL-3.0 implementation and combine available inference frameworks with source connectors, although matching integration reliability requires engineering work ([GitHub](https://github.com/Sentient-OS-Labs/sentient-os)).
+- **Moat today** — The company’s technical differentiation is its customized LiteRT-LM integration, which reuses inference state and compresses the model to run overnight on 8 GB Macs ([Sentient OS GitHub](https://github.com/Sentient-OS-Labs/sentient-os), [YC company profile](https://www.ycombinator.com/companies/sentient-os)).
+- **Future moat** — [Inferred]: Accumulated context and configured workflows could make switching inconvenient, though the editable Markdown files are portable and retention by usage history has no public data ([Launch YC](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work)).
+- **Market structure** — No structural barrier identified at this stage.
+- **Commoditization risk** — [Inferred]: Apple and desktop assistant vendors can build overlapping features using public local inference tooling, and Apple already documents personal context, screen awareness and app actions in macOS ([Google LiteRT-LM](https://developers.google.com/edge/litert-lm/overview), [Apple Developer](https://developer.apple.com/macos/)).
 
 ## Market & Traction
 
-- **Traction signals:**
-  - Company-reported 10,000+ users, including users at 130+ companies such as Adobe; company affiliation does not establish enterprise purchasing ([YC launch, accessed Oct 27, 2026](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work)).
-  - Company-reported alpha adoption of 4,000+ users in its first week with $0 marketing, plus use by over 30 enterprises, without disclosed payment status ([YC profile, accessed Oct 27, 2026](https://www.ycombinator.com/companies/sentient-os)).
-  - Founder-reported prelaunch waitlist of 2,500; the July launch thread shows 689 votes ([Reddit, Jul 20, 2026; accessed Oct 27](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/)).
-  - Main repository: 653 stars and 63 forks ([GitHub, accessed Oct 27, 2026](https://github.com/Sentient-OS-Labs/sentient-os)).
-  - Company LinkedIn: 881 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/sentient-os)).
-  - Company-reported financing exceeding $1 million from YC, Afore, Pioneer Fund, and a16z speedrun’s scout fund ([YC profile, accessed Oct 27, 2026](https://www.ycombinator.com/companies/sentient-os)).
-  - Product coverage in DoNews ([DoNews, Oct 13, 2026](https://www.donews.com/news/detail/1/6739173.html)).
-  - Zero advertised YC jobs ([YC profile, accessed Oct 27, 2026](https://www.ycombinator.com/companies/sentient-os)).
-- **Competitors:**
-  - **Screenpipe** (reported $0.5M raised; revenue unknown): local screen/audio memory and workflow discovery, versus Sentient’s selected-source overnight processing; Caplight lists YC accelerator funding dated May 14, 2026 ([Caplight](https://www.caplight.com/company/screenpipe), [product](https://screenpipe.com/)).
-  - **Highlight AI** ($50M raised; revenue unknown): shared team context rather than primarily personal context, with a $40M Series A led by Khosla Ventures in March 2026 ([CB Insights](https://www.cbinsights.com/company/highlight-ai/financials), [company announcement, Mar 24, 2026](https://www.streetinsider.com/Business%2BWire/Highlight%2BAI%2BRaises%2B%2440%2BMillion%2BSeries%2BA%2Bto%2BBuild%2Bthe%2BShared%2BIntelligence%2BLayer%2Bfor%2Bthe%2BAgentic%2BAge%2Bof%2BWork/26206347.html)).
-  - **Cluely** ($20.3M raised; revenue unknown): meeting notes and live answers; latest identified financing was a $15M Series A from a16z in June 2025 ([TechCrunch](https://techcrunch.com/2025/06/20/cluely-a-startup-that-helps-cheat-on-everything-raises-15m-from-a16z/), [product](https://cluely.com/)).
-- **Why now:** [Inferred]: Compact models and optimized local inference now permit repeated context processing on consumer hardware, illustrated by Sentient’s Gemma 4 E4B stack supporting an 8 GB baseline ([GitHub, Oct 2026](https://github.com/Sentient-OS-Labs/sentient-os)).
+- **Traction signals**
+  - 2,500 waitlist signups attributed to the May preview, which proposed a Mac and iPhone assistant focused on recall, reminders and knowledge graphs ([May preview](https://www.reddit.com/r/macapps/comments/1t19lg8/sentient_os_your_mac_iphone_understand_your/), [founder’s July launch post](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/), 2026).
+  - 4,000+ first-week installs for the July Mac alpha on $0 in marketing, reported by the company and investor ([YC company profile](https://www.ycombinator.com/companies/sentient-os), [Afore Capital](https://intros.afore.vc/), 2026).
+  - 2,264 computer-use tasks completed in the first 48 hours of the July alpha, founder-reported ([Aditya Vellanki on LinkedIn, via search snippet](https://www.linkedin.com/in/adityahemanth), Jul 2026).
+  - Top r/macapps post of the month for the July alpha, company-reported ([Sentient OS](https://sentient-os.ai/), [July launch post](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/), Jul 2026).
+  - 10,000+ users at the October launch, including individuals at 130+ companies such as Adobe ([Launch YC](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work), Oct 2026).
+  - More than 30 enterprises using Sentient, company-reported, with contract and payment status undisclosed ([YC company profile](https://www.ycombinator.com/companies/sentient-os), accessed Nov 2026).
+  - Over $1M raised with participation from YC, Afore, Pioneer Fund and a16z Speedrun’s scout fund, with Afore describing the pre-seed as approximately $1M ([YC company profile](https://www.ycombinator.com/companies/sentient-os), [Afore Capital](https://intros.afore.vc/), accessed Nov 2026).
+  - Founder interview with AIM Network and launch coverage in The Independent AI ([AIM Network](https://www.youtube.com/watch?v=NsVZzJ5ESV4), Aug 2026, [The Independent AI](https://theindependentai.com/news/2026-10-28/n9), Oct 2026).
+  - 493,000 views on the October 27 X launch post ([Doomers AI](https://doomers.ai/launches/sentient-os), Nov 2026).
+  - 762 stars on the open-source Sentient OS repository ([GitHub](https://github.com/Sentient-OS-Labs/sentient-os), Nov 2026).
+  - 1,641 LinkedIn followers and 20 X followers for @sentientos_ai ([company LinkedIn](https://www.linkedin.com/company/sentient-os), [X profile mirror](https://www.xitter.gq/sentientos_ai), Nov 2026).
+- **Competitors**
+  - **Incredible** ($2.7M raised, revenue unknown) — Voice-triggered actions across Mac and Windows, with a $2M pre-seed extension disclosed in August 2026 by backers Spintop Ventures and Starbright Invest ([Spintop Ventures](https://spintopventures.com/news/spintop-ventures-backs-incredible-the-swedish-startup-letting-you-talk-to-your-computer)).
+  - **Highlight AI** (approximately $50M raised, revenue unknown) — Shared context and coordination across teams, with a $40M Series A led by Khosla Ventures in March 2026 ([TechCrunch, seed](https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/), [company announcement](https://www.businesswire.com/news/home/20260324500318/en/Highlight-AI-Raises-%2440-Million-Series-A-to-Build-the-Shared-Intelligence-Layer-for-the-Agentic-Age-of-Work)).
+  - **Raycast** ($47.7M across announced rounds, revenue unknown) — Launcher-based AI commands, extensions and screen awareness, with a $30M Series B led by Atomico in September 2024 ([Raycast funding history](https://www.raycast.com/careers), [Series B announcement](https://www.raycast.com/blog/series-b), [Raycast AI](https://www.raycast.com/core-features/ai)).
+- **Why now** — [Inferred]: Google’s April 2026 release of Gemma 4 E4B and LiteRT-LM support for macOS provided an off-the-shelf model and runtime for Sentient’s overnight local processing ([Google Developers Blog](https://developers.googleblog.com/bring-state-of-the-art-agentic-skills-to-the-edge-with-gemma-4/), [Sentient OS GitHub](https://github.com/Sentient-OS-Labs/sentient-os)).
 
 ## Founders & Team
 
-- **Jesai Tarun (Founder/CEO):**
-  - Background: UMass Amherst affiliation, prior Writing Tools and Bliss AI projects, and on-device inference research; Writing Tools’ reported 30,000+ users belong to that separate project ([YC founder profile](https://www.ycombinator.com/founders/jesai-tarun), [founder GitHub](https://github.com/theJayTea)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Headline: No public data found; indexed profile shows approximately 3K followers ([LinkedIn, retrieved Oct 27, 2026, via search snippet](https://www.linkedin.com/in/jesai-tarun-37004725a)).
-  - GitHub: @theJayTea; WritingTools displays 2.5K stars ([GitHub, accessed Oct 27, 2026](https://github.com/theJayTea/WritingTools)).
-- **Aditya Vellanki (Founder/CTO):**
-  - Background: UMass Amherst computer science student, previously at Exerton, ArthaNet, and Superteam, with AI and decentralized-software projects ([YC founder profile](https://www.ycombinator.com/founders/aditya-vellanki), [personal website via search snippet](https://adityahemanth.com/)).
-  - Twitter/X: @aditya_vellanki; count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/aditya-vellanki)).
-  - LinkedIn: Headline: No public data found; indexed profile shows approximately 4K followers ([LinkedIn, retrieved Oct 27, 2026, via search snippet](https://www.linkedin.com/in/adityahemanth)).
-  - GitHub: @AdityaHemanthVellanki; pinned Contexto MCP-server project has 1 star ([GitHub, accessed Oct 27, 2026](https://github.com/AdityaHemanthVellanki)).
-- **Co-founder relationship:** Both list UMass Amherst, and Tarun publicly describes Vellanki as his best friend ([Tarun YC](https://www.ycombinator.com/founders/jesai-tarun), [Vellanki YC](https://www.ycombinator.com/founders/aditya-vellanki), [founder post](https://www.linkedin.com/posts/jesai-tarun-37004725a_couldnt-have-asked-for-a-better-co-founder-activity-7474919320905539584-d1DE)).
-- **Founder-market fit:** [Inferred]: Tarun’s writing-assistant and inference work and Vellanki’s Contexto and enterprise-software background relate to contextual automation; disclosed investors include YC and Afore ([Tarun](https://github.com/theJayTea), [Vellanki](https://github.com/AdityaHemanthVellanki), [YC company profile](https://www.ycombinator.com/companies/sentient-os)).
+- **Jesai Tarun (Founder/CEO)**
+  - **Background** — Attended UMass Amherst and Indus International School Bangalore, worked on Bliss AI and model quantization, and created the open-source Writing Tools assistant ([YC founder profile](https://www.ycombinator.com/founders/jesai-tarun), [founder GitHub](https://github.com/theJayTea)). Public professional email is jesaitarun@gmail.com ([founder GitHub](https://github.com/theJayTea)).
+  - **Twitter/X** — @the_jesai, 49 followers ([X profile mirror](https://www.nitter.cf/the_jesai), Nov 2026).
+  - **LinkedIn** — Sentient OS (YC F26) listed as affiliation, headline unavailable ([LinkedIn profile, via search snippet](https://www.linkedin.com/in/jesai-tarun-37004725a)).
+  - **GitHub** — @theJayTea, WritingTools at 2.5K stars ([GitHub](https://github.com/theJayTea/WritingTools), Nov 2026).
+- **Aditya Vellanki (Founder/CTO)**
+  - **Background** — Attended UMass Amherst and Oakridge International School, founded ArthaNet and worked at Exerton and Superteam DAO across enterprise software and decentralized protocols ([YC founder profile](https://www.ycombinator.com/founders/aditya-vellanki), [founder résumé](https://peerlist.io/adityahv/resume)). Direct business email — No public data found.
+  - **Twitter/X** — @aditya_vellanki, 2.7K followers ([X profile mirror](https://teapawt.org/aditya_vellanki), Nov 2026).
+  - **LinkedIn** — Sentient OS (YC F26) listed as affiliation, headline unavailable ([LinkedIn profile, via search snippet](https://www.linkedin.com/in/adityahemanth)).
+  - **GitHub** — @AdityaHemanthVellanki, Contexto at 1 star ([GitHub](https://github.com/AdityaHemanthVellanki/contexto), Nov 2026).
+- **Co-founder relationship** — Both attended UMass Amherst, and Tarun described Vellanki as his best friend in the July launch post ([YC profiles for Tarun](https://www.ycombinator.com/founders/jesai-tarun) and [Vellanki](https://www.ycombinator.com/founders/aditya-vellanki), [r/macapps](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/)).
+- **Founder-market fit** — Tarun brought experience shipping a desktop writing assistant and researching model compression, Vellanki brought consumer and enterprise software experience, and YC assigned Aaron Epstein as primary partner ([Tarun GitHub](https://github.com/theJayTea), [Vellanki YC profile](https://www.ycombinator.com/founders/aditya-vellanki), [YC company profile](https://www.ycombinator.com/companies/sentient-os)).
 
 ## Key Risks
 
-- **Technical reliability:** A user reported repeated long-item inference failures exhausting overnight runs, with the issue still open when accessed ([GitHub issue, Oct 21, 2026](https://github.com/Sentient-OS-Labs/sentient-os/issues/353)).
-- **Privacy boundary:** Cloud-enabled features can transmit knowledge and screenshots, while local models are available as mitigation and the covered Double Tap service claims Zero Data Retention ([privacy architecture](https://sentient-os.ai/privacy-core)).
-- **Platform dependence:** Deployment requires Apple silicon and macOS 15.4+, with Windows on a waitlist, while local-source access requires Full Disk Access ([website](https://sentient-os.ai/)).
-- **Name ambiguity:** Unrelated SentientOS humanoid software shares the name, requiring domain and founder checks when attributing coverage or metrics ([unrelated product](https://sentientos.io/), [YC identity](https://www.ycombinator.com/companies/sentient-os)).
+- **Platform substitution** — Apple documents overlapping app actions, screen awareness and personal context in macOS, where Sentient currently distributes its app ([Apple Developer](https://developer.apple.com/macos/), [Sentient OS](https://sentient-os.ai/)).
+- **Enterprise privacy approval** — Some sources require Full Disk Access, and cloud-assisted features can transmit screenshots or personal context, with compatible local models available as an option ([Sentient OS FAQ](https://sentient-os.ai/), [privacy policy](https://sentient-os.ai/privacy)).
+- **Local execution constraints** — [Inferred]: The 8 GB requirement applies to the built-in model, so fully local deployments that need larger models for demanding tasks may require more memory ([Sentient OS FAQ](https://sentient-os.ai/)).
+- **Provider limits** — Sidekick usage can hit limits on a user’s ChatGPT plan, and the app offers provider switching and compatible local models ([GitHub release notes](https://github.com/Sentient-OS-Labs/sentient-os/releases), [Sentient OS FAQ](https://sentient-os.ai/)).
+- **Name ambiguity** — [Inferred]: Searches for Sentient can mix this Mac assistant with Sentient Labs, a separate open-source AI reasoning project at sentient.xyz ([YC company profile](https://www.ycombinator.com/companies/sentient-os), [Sentient Labs](https://www.sentient.xyz/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader AI productivity category: $10.32B in 2026; 16% CAGR, 2026–2034 ([Straits Research](https://straitsresearch.com/report/ai-productivity-tools-market)) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Company reports 10,000+ users and users at 130+ companies ([YC launch, Oct 2026](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work)) |
-| Revenue Signal | Free consumer offering; enterprise integrations/support monetization; initial teams free; realized revenue: No public data found ([website](https://sentient-os.ai/), [Teams](https://sentient-os.ai/team)) |
-| Founders | Jesai Tarun, CEO: Writing Tools, inference research ([YC](https://www.ycombinator.com/founders/jesai-tarun)); Aditya Vellanki, CTO: Exerton, ArthaNet ([YC](https://www.ycombinator.com/founders/aditya-vellanki)) |
-| Competitors | Screenpipe ($0.5M reported, revenue unknown, screen/audio memory; [Caplight](https://www.caplight.com/company/screenpipe)); Highlight ($50M, revenue unknown, team context; [CB Insights](https://www.cbinsights.com/company/highlight-ai/financials)); Cluely ($20.3M, revenue unknown, meetings; [TechCrunch](https://techcrunch.com/2025/06/20/cluely-a-startup-that-helps-cheat-on-everything-raises-15m-from-a16z/)) |
-| Moat Signals | Customized local inference stack; 653 repository stars ([GitHub, Oct 27, 2026](https://github.com/Sentient-OS-Labs/sentient-os)) |
-| Risk Factors | Reported overnight failures ([GitHub](https://github.com/Sentient-OS-Labs/sentient-os/issues/353)), cloud-context transmission ([privacy architecture](https://sentient-os.ai/privacy-core)), Mac dependence ([website](https://sentient-os.ai/)) |
-| Founder Reach | Tarun: LinkedIn ~3K ([indexed profile](https://www.linkedin.com/in/jesai-tarun-37004725a), via search snippet), WritingTools 2.5K stars ([GitHub](https://github.com/theJayTea/WritingTools)); Vellanki: LinkedIn ~4K ([indexed profile](https://www.linkedin.com/in/adityahemanth), via search snippet), Contexto 1 star ([GitHub](https://github.com/AdityaHemanthVellanki)); retrieved Oct 27, 2026 |
-| Distribution Signals | 689-vote July Reddit launch ([Reddit](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/)); company LinkedIn 881 followers ([LinkedIn](https://www.linkedin.com/company/sentient-os)); accessed Oct 27, 2026 |
-| Emails | feedback@sentient-os.ai ([website](https://sentient-os.ai/team)), jesai@sentient-os.ai ([company GitHub](https://github.com/Sentient-OS-Labs)), jesaitarun@gmail.com ([founder GitHub](https://github.com/theJayTea)) |
+| Traction | 4,000+ first-week alpha installs ([Afore](https://intros.afore.vc/), Jul 2026), 10,000+ users including individuals at 130+ companies ([Launch YC](https://www.ycombinator.com/launches/WUE-sentient-os-on-device-ai-that-knows-you-and-takes-over-your-work), Oct 2026), 30+ enterprises using the app ([YC company profile](https://www.ycombinator.com/companies/sentient-os), Nov 2026) |
+| Revenue Signal | Free personal app, enterprise integrations and support, commercial licensing by inquiry, no public rates, revenue or paid-customer count ([Sentient OS](https://sentient-os.ai/), [licensing terms](https://github.com/Sentient-OS-Labs/sentient-os/blob/main/LICENSING.md), Nov 2026) |
+| Founders | Jesai Tarun (CEO), Writing Tools and model quantization research ([GitHub](https://github.com/theJayTea)). Aditya Vellanki (CTO), ArthaNet and Exerton ([YC founder profile](https://www.ycombinator.com/founders/aditya-vellanki)) |
+| Competitors | Incredible ($2.7M raised, revenue unknown, voice control for Mac and Windows, [Spintop Ventures](https://spintopventures.com/news/spintop-ventures-backs-incredible-the-swedish-startup-letting-you-talk-to-your-computer)), Highlight AI (~$50M raised, revenue unknown, shared team context, [seed](https://techcrunch.com/2024/10/22/desktop-ai-assistant-app-highlight-spins-out-of-medal-with-10m-in-funding/), [Series A](https://www.businesswire.com/news/home/20260324500318/en/Highlight-AI-Raises-%2440-Million-Series-A-to-Build-the-Shared-Intelligence-Layer-for-the-Agentic-Age-of-Work)), Raycast ($47.7M across announced rounds, revenue unknown, launcher and extensions, [Raycast](https://www.raycast.com/careers)) |
+| Moat Signals | Customized LiteRT-LM integration, overnight processing on 8 GB Macs, 762 stars on the AGPL-licensed repository ([YC company profile](https://www.ycombinator.com/companies/sentient-os), [GitHub](https://github.com/Sentient-OS-Labs/sentient-os), Nov 2026) |
+| Risk Factors | Native feature overlap, enterprise privacy approval, local model memory limits ([Apple Developer](https://developer.apple.com/macos/), [Sentient OS privacy policy](https://sentient-os.ai/privacy), [Sentient OS FAQ](https://sentient-os.ai/)) |
+| Founder Reach | Tarun — X 49 ([X mirror](https://www.nitter.cf/the_jesai)), LinkedIn 3K ([via search snippet](https://www.linkedin.com/in/jesai-tarun-37004725a)), WritingTools 2.5K stars ([GitHub](https://github.com/theJayTea/WritingTools)). Vellanki — X 2.7K ([X mirror](https://teapawt.org/aditya_vellanki)), LinkedIn 4K ([via search snippet](https://www.linkedin.com/in/adityahemanth)), Contexto 1 star ([GitHub](https://github.com/AdityaHemanthVellanki/contexto)) |
+| Distribution Signals | 2,500 preview waitlist signups ([founder’s r/macapps post](https://www.reddit.com/r/macapps/comments/1v18pdf/os_3_months_ago_2500_of_you_joined_the_waitlist/), Jul 2026), 493,000 X launch views ([Doomers AI](https://doomers.ai/launches/sentient-os), Nov 2026), 1,641 LinkedIn followers ([company LinkedIn](https://www.linkedin.com/company/sentient-os), Nov 2026) |
+| Emails | jesaitarun@gmail.com (CEO, [GitHub profile](https://github.com/theJayTea)), feedback@sentient-os.ai (team inquiries, feedback, privacy and licensing, [privacy policy](https://sentient-os.ai/privacy), [licensing](https://github.com/Sentient-OS-Labs/sentient-os/blob/main/LICENSING.md)), security@sentient-os.ai (vulnerability reports, [company security policy](https://github.com/Sentient-OS-Labs/sentient-os/blob/main/SECURITY.md)) |

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://indexlaw.com",
     "yc_page": "https://www.ycombinator.com/companies/index-law",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/index-law))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/index-law))",
     "industry": "B2B / B2B",
     "team_size": "5",
     "location": "San Francisco, CA, USA; Remote",
     "tags": "Legal, LegalTech, AI",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/index-law))",
-    "emails": "q@indexlaw.com — CEO ([Index Law, Sep 2026](https://indexlaw.com/blog/dominic-raab-joins-index-law)); mike1@indexlaw.con — work inquiries, published with apparent domain typo; unverified ([homepage](https://indexlaw.com/))"
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/index-law))",
+    "emails": "q@indexlaw.com — Quddus Pativada, founder and CEO, also the published privacy contact ([YC launch](https://www.ycombinator.com/launches/XP1-meet-mike-1-your-company-s-ai-lawyer), [Mike Privacy Policy](https://usemike.com/privacy))"
   },
   "tags": [
     "Legal",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-16T05:19:03.055Z",
+  "memoGeneratedAt": "2026-11-17T23:11:31.278Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
+    "agi": {
+      "score": 36,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 45,
-    "NR": 42,
-    "PG": 41,
-    "PT": 32,
-    "SL": 30,
-    "VK": 31
+    "AGI": 36,
+    "HG": 37,
+    "EXIT": 36
   },
-  "consolidatedAvg": 37.57,
-  "consolidatedRank": 105,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 117,
-    "tractionScore": 41,
-    "tractionReason": "Customer contract-turnaround outcomes reported; preview free, paid plans forthcoming"
+    "tractionRank": 131,
+    "tractionScore": 38,
+    "tractionReason": "Reports serving companies on live legal matters, paid plans upcoming"
   },
   "paths": {
     "memo": "fall2026/memos/index-law.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/index-law.md",
-      "elad-gil": "fall2026/evals/elad-gil/index-law.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/index-law.md",
-      "paul-graham": "fall2026/evals/paul-graham/index-law.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/index-law.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/index-law.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/index-law.md"
+      "agi": "fall2026/evals/agi/index-law.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/index-law.md",
+      "exit": "fall2026/evals/exit/index-law.md"
     }
   }
 }

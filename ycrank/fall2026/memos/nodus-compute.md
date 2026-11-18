@@ -1,84 +1,84 @@
 ﻿# Nodus Compute
 
-> Intelligent Cloud for AI workloads
+> Maximize the AI you get from your Infrastructure
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.nodus-compute.ai/ |
 | YC Page | https://www.ycombinator.com/companies/nodus-compute |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/nodus-compute)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/nodus-compute)) |
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags |  |
-| YC Partner | Andrew Miklas ([YC](https://www.ycombinator.com/companies/nodus-compute)) |
-| Emails | pranav@nodus-compute.ai ([Careers](https://careers.nodus-compute.ai/)); admin@nodus-compute.ai ([Official GitHub](https://github.com/nodus-compute/)) |
+| YC Partner | Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/nodus-compute)) |
+| Emails | pranav@nodus-compute.ai (Pranav Varshney, [Nodus Careers](https://careers.nodus-compute.ai/)), admin@nodus-compute.ai (organization contact, [Nodus GitHub](https://github.com/nodus-compute/)) |
 
 ## The Idea
 
-- **Problem:** [Inferred]: AI teams with prepaid GPU commitments can pay for unused capacity while separately managing provider selection and interrupted jobs, the problems described in Nodus’s positioning ([YC](https://www.ycombinator.com/companies/nodus-compute)).
-- **Approach:** Nodus matches container and resource requirements to available compute, executes jobs, and restores saved files on replacement machines so customer code can reload checkpoints ([Nodus](https://www.nodus-compute.ai/)).
-- **Differentiation:** Nodus emphasizes cost-to-completion routing and recovery, versus Modal’s composable serverless infrastructure and SF Compute’s capacity resale order book ([Nodus Terms](https://www.nodus-compute.ai/terms/), [Modal](https://modal.com/blog/1-billion-annualized-run-rate-series-d), [SF Compute](https://sfcompute.com/news/abel-ledger)).
-- **Business Model:** Usage-based billing is recorded through a ledger, with published hourly supply prices including H100 SXM at $2.600 and RTX 4090 at $0.290; the homepage describes supply pricing as before Nodus fees ([Terms](https://www.nodus-compute.ai/terms/), [Pricing](https://www.nodus-compute.ai/pricing/), [Nodus](https://nodus-compute.ai/)).
-- **TAM/SAM:** The adjacent GPU orchestration platform market is estimated at $3.96B in 2026, reaching $12.01B in 2030 at 32% CAGR, but no Nodus-specific SAM was found ([Research and Markets, 2026](https://www.researchandmarkets.com/reports/6231681/graphics-processing-unit-gpu-orchestration)).
-- **GTM / Distribution:** Public acquisition paths include console signup, meeting booking, coding-agent integrations, and LinkedIn outreach to holders of idle reserved GPUs ([Nodus](https://www.nodus-compute.ai/), [LinkedIn](https://www.linkedin.com/company/nodus-compute)).
+- **Problem:** AI teams and fleet operators reserve GPUs that sit idle between workloads, with Cast AI measuring 5% average GPU utilization across its sampled Kubernetes clusters ([Launch YC](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist), [Cast AI, 2026](https://cast.ai/reports/kubernetes-optimization-report/)).
+- **Approach:** Nodus routes training, reinforcement learning, inference, and agent jobs to compatible hardware, prioritizes customers’ own machines, and makes eligible idle capacity available to other teams while supporting checkpoint recovery for compatible workloads ([Launch YC](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist), [Nodus Liquid Capacity docs](https://www.nodus-compute.ai/docs/guides/pools/liquid-capacity/)).
+- **Differentiation:** Modal packages execution as hosted functions and sandboxes, Runpod offers self-serve GPU infrastructure and serverless execution, and SkyPilot pools an organization’s own infrastructure across clouds, while Nodus combines owner-first routing with lending idle hosts to other customers ([Modal](https://frontend.modal.com/blog/1-billion-annualized-run-rate-series-d), [Runpod](https://www.runpod.io/press/runpod-raises-100m-summit-partners), [SkyPilot](https://skypilot.ai/blog/skypilot-the-company), [Nodus Liquid Capacity docs](https://www.nodus-compute.ai/docs/guides/pools/liquid-capacity/)).
+- **Business Model:** Published usage rates include $2.60/hour for an H100 SXM and $0.29/hour for an RTX 4090, and dedicated reservations are available by inquiry ([Nodus Pricing, Nov 2026](https://www.nodus-compute.ai/pricing/), [Nodus website](https://www.nodus-compute.ai/)).
+- **TAM/SAM:** The broader global GPU-as-a-service market is projected at $5.1B in 2026 with 16.0% CAGR through 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/gpu-as-a-service-gpuaas-market-report)).
+- **GTM / Distribution:** Developers can sign up through the console, install the CLI and Python SDK, or connect through Claude Code, Codex, or Cursor, while operators can book a founder call for fleet and reservation discussions ([Nodus website](https://www.nodus-compute.ai/), [Nodus Install docs](https://www.nodus-compute.ai/docs/getting-started/install/), [Launch YC](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist)).
 
 ## Defensibility
 
-- **Moat today:** Published implementation signals include checkpoint integrity checks and generation fencing, but these document controls rather than demonstrated exclusivity ([Nodus Security](https://www.nodus-compute.ai/security/)).
-- **Future moat:** [Inferred]: Workload observations could improve placement and optimization research, but the proposed workload-to-research feedback loop lacks publicly demonstrated cross-customer results ([YC](https://www.ycombinator.com/companies/nodus-compute), [Research](https://www.nodus-compute.ai/research/)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, since Modal already pools capacity across clouds and SF Compute supports resale of committed capacity ([Modal, October 2026](https://modal.com/blog/1-billion-annualized-run-rate-series-d), [SF Compute](https://sfcompute.com/news/abel-ledger)).
-- **Commoditization risk:** [Inferred]: GPU clouds and orchestration vendors could assemble overlapping scheduling and execution capabilities, although comparable reliability would require systems engineering, as illustrated by Modal’s custom runtime, scheduler, filesystem, and networking ([Modal](https://modal.com/blog/1-billion-annualized-run-rate-series-d)).
+- **Moat today:** Nodus reports that restoring a warmed inference engine from a snapshot cut cold start time to 7.158 seconds on one A100, 7.66× faster than its best stock boot, with a verifier reproducing a 7.65× speedup ([Nodus Research, Nov 2026](https://research.nodus-compute.ai/snapshot-cold-start)).
+- **Future moat:** [Inferred]: A larger pool could improve placement and give Nodus more workload data for optimization, with production savings from that feedback loop still unverified in the cited launch and research ([Launch YC](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist), [Nodus Research](https://research.nodus-compute.ai/elastic-gpu-pool)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Rivals already ship parts of the stack, including SkyPilot’s cross-cloud pooling and Cast AI’s GPU scheduling, which narrows the work required to replicate placement and utilization features ([SkyPilot](https://skypilot.ai/blog/skypilot-the-company), [Cast AI](https://cast.ai/blog/kubernetes-gpu-scheduling-bin-packing/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Founder-reported pilots with 10 startups and compute-cost reductions above 30%; payment status and measurement methodology unspecified (Viswa Kotra’s X post, mirrored by [TwStalker, October 2026, via search snippet](https://workingww.twstalker.com/viswa_kotra)).
-  - 127 company LinkedIn followers ([LinkedIn, retrieved October 27, 2026](https://www.linkedin.com/company/nodus-compute)).
-  - Six research and engineering openings on the company careers site, despite zero jobs on YC ([Careers](https://careers.nodus-compute.ai/), [YC](https://www.ycombinator.com/companies/nodus-compute), October 27, 2026).
-  - Two stars on the public Python SDK repository ([Official GitHub, October 27, 2026](https://github.com/nodus-compute/)).
-  - Founder interview published by Retrograde ([October 6, 2026](https://retrogradenews.com/2026/10/06/cs-students-frontier-ai-startup-tell-all/)).
-  - $500K funding reported by a secondary database, attributed to YC ([CB Insights, retrieved October 27, 2026](https://www.cbinsights.com/company/nodus-compute/financials)).
+  - More than 200 teams joined following the October 2026 product launch, according to the founders’ November announcement ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist)).
+  - UC Berkeley, VoiceStudio, GrayPass, Axiomat, ByteAsk, Reason Machines, and tasksmind are listed as users ([Nodus website, Nov 2026](https://www.nodus-compute.ai/)).
+  - Launch coverage in Reveneau on Nov 9 and Fondo on Nov 10 ([Reveneau, Nov 2026](https://reveneau.com/ainews/nodus-compute-yc-fall-2026-gpu-utilization-shared-pools), [Fondo, Nov 2026](https://fondo.com/blog/nodus-compute-existing-gpu-capacity)).
+  - 285 LinkedIn followers, 46 X followers at @nodus_compute, and 2 stars for the public Python SDK ([LinkedIn](https://www.linkedin.com/company/nodus-compute), [X profile via Teapawt](https://www.xitter.gq/nodus_compute), [GitHub](https://github.com/nodus-compute/Nodus-sdk-python), Nov 2026).
+  - One research internship listed on Nodus Careers and zero openings on the YC listing ([Nodus Careers](https://careers.nodus-compute.ai/), [Y Combinator](https://www.ycombinator.com/companies/nodus-compute), Nov 2026).
+  - CB Insights lists $500K from YC in September 2026, while Dealroom displays a $125K seed entry, and a company-confirmed total was unavailable ([CB Insights, via search snippet](https://www.cbinsights.com/company/nodus-compute/financials), [Dealroom](https://app.dealroom.co/companies/nodus_2)).
 - **Competitors:**
-  - **Modal ($1.215B raised; above $1B annualized revenue run rate):** Offers serverless functions, sandboxes, and multi-node training; its latest $750M Series D was led by Accel in October 2026 ([aVenture](https://aventure.vc/companies/modal-labs-new-york-city-ny-us/fundraising), [Modal](https://modal.com/blog/1-billion-annualized-run-rate-series-d)).
-  - **Runpod (at least $120M disclosed funding; above $325M ARR):** Offers developer-selected GPU infrastructure and a full AI development platform; its latest $100M growth investment was led by Summit Partners in June 2026 ([Funding](https://stockanalysis.com/private/runpod/), [Round announcement](https://www.runpod.io/press/runpod-raises-100m-summit-partners), [October 2026 ARR announcement](https://www.runpod.io/press/runpod-325m-arr-new-cfo)).
-  - **SF Compute ($52M raised; revenue unknown):** Operates GPU clusters and a capacity resale market; its latest identified $40M Series A was co-led by DCVC and Wing in November 2025 ([CB Insights](https://www.cbinsights.com/company/san-francisco-compute-company), [DCVC](https://www.dcvc.com/companies/the-san-francisco-compute-company/), [Round details](https://www.datacenterdynamics.com/en/news/sf-compute-raises-40m-for-ai-compute-marketplace-offering/)).
-- **Why now:** [Inferred]: Production-ready open-weight models and maturing vLLM/SGLang inference engines expanded the practical scope for teams to own and operate models, creating demand for execution infrastructure ([Modal’s assessment, May 2026](https://modal.com/blog/modal-series-c)).
+  - **Modal** ($1.215B raised, over $1B annualized run rate): Hosted functions and sandboxes, with a $750M Series D led by Accel in October 2026 ([CB Insights, via search snippet](https://www.cbinsights.com/company/modal-3/financials), [Modal](https://frontend.modal.com/blog/1-billion-annualized-run-rate-series-d)).
+  - **Runpod** ($120.25M raised, over $325M ARR): Self-serve GPU infrastructure and serverless execution, with a $100M Series A led by Summit Partners in June 2026 ([CB Insights, via search snippet](https://www.cbinsights.com/company/runpod/financials), [Runpod funding](https://www.runpod.io/blog/one-million-developers), [Runpod ARR, Oct 2026](https://www.runpod.io/press/runpod-325m-arr-new-cfo)).
+  - **SkyPilot** (over $20M raised, revenue unknown): Open-source orchestration across a customer’s own infrastructure, with a July 2026 funding announcement naming Lux Capital as lead ([SkyPilot](https://skypilot.ai/blog/skypilot-the-company)).
+- **Why now:** [Inferred]: Cast AI observed lower-end GPU spot capacity becoming more available in early 2026, giving checkpointable jobs more opportunities to trade uninterrupted execution for lower compute prices ([Cast AI, 2026](https://cast.ai/reports/kubernetes-optimization-report/)).
 
 ## Founders & Team
 
+- **Pranav Varshney (Co-founder and CEO):**
+  - **Background:** Computer science at the University of Michigan, infrastructure experience at Google, Uber, AWS, and Scale AI, and research fellowships at Cortical Labs and Maxel Lab (business email `pranav@nodus-compute.ai`, [personal site](https://pvarshh.me/), [Launch YC](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist), [Nodus Careers](https://careers.nodus-compute.ai/)).
+  - **Twitter/X:** @pvarshh, 142 followers, with CEO listed in the bio ([X profile via Teapawt, Nov 2026](https://www.teapawt.org/pvarshh)).
+  - **LinkedIn:** Profile indexed with Google and 5K followers, headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/pvarshh)).
+  - **GitHub:** @pvarshh, pinned `pvarshh.me` repository with 0 stars ([GitHub, Nov 2026](https://github.com/pvarshh/pvarshh.me)).
 - **Viswa Kotra (Co-founder):**
-  - Background: Studied computer science at UT Dallas and held internships at Citadel Securities, Snowflake, Scale AI, Capital One, and Cadence; no public exit data found ([Personal site](https://www.viswaretas-kotra.me/)).
-  - Twitter/X: @viswa_kotra, 42 followers ([TwStalker, October 2026, via search snippet](https://workingww.twstalker.com/viswa_kotra)).
-  - LinkedIn: Profile lists Nodus Compute and 4K followers; headline not retrievable ([LinkedIn, October 2026, via search snippet](https://www.linkedin.com/in/viswa-kotra)).
-  - GitHub: @vk1815918; pinned C++ Orderbook repository has 1 star ([GitHub, October 27, 2026](https://github.com/vk1815918)).
-- **Pranav Varshney (Co-founder):**
-  - Background: Studied computer science at Michigan, interned at Google, Uber, AWS, and Scale AI, and lists research fellowships at Cortical Labs and Maxel Lab; no public exit data found ([Personal site](https://pvarshh.me/)).
-  - Twitter/X: @pvarshh, count not retrievable ([GitHub-linked account](https://github.com/pvarshh)).
-  - LinkedIn: Indexed profile lists Google and 5K followers; headline not retrievable ([LinkedIn, October 2026, via search snippet](https://www.linkedin.com/in/pvarshh)).
-  - GitHub: @pvarshh; pinned personal-site repository has 0 stars ([GitHub, October 27, 2026](https://github.com/pvarshh/pvarshh.me)).
-- **Co-founder relationship:** Met during an internship at Scale AI in San Francisco and continued discussing GPU-market problems afterward ([Retrograde, October 6, 2026](https://retrogradenews.com/2026/10/06/cs-students-frontier-ai-startup-tell-all/)).
-- **Founder-market fit:** [Inferred]: Their documented infrastructure and AI internships relate to workload execution, including Varshney’s Google cost-optimization work; YC is the confirmed institutional backer ([Kotra](https://www.viswaretas-kotra.me/), [Varshney résumé](https://pvarshh.me/src/pdf/resume.pdf), [YC](https://www.ycombinator.com/companies/nodus-compute)).
+  - **Background:** Computer science at UT Dallas, software engineering internships at Citadel Securities and Snowflake, and a generative AI internship at Scale AI ([personal site](https://www.viswaretas-kotra.me/)); direct business email — No public data found.
+  - **Twitter/X:** @viswa_kotra, 116 followers ([X profile via Teapawt, Nov 2026](https://www.teapaw.org/viswa_kotra)).
+  - **LinkedIn:** Profile indexed with Nodus Compute and 4K followers, headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/viswa-kotra)).
+  - **GitHub:** @vk1815918, contributor to `Blockchain-Based-Federated-Learning-Optimization`, with 15 repository stars ([GitHub profile](https://github.com/vk1815918), [GitHub repository, Nov 2026](https://github.com/ACM-Research/Blockchain-Based-Federated-Learning-Optimization)).
+- **Co-founder relationship:** Varshney and Kotra met at Scale AI ([Launch YC](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist)).
+- **Founder-market fit:** Varshney built infrastructure at AWS, Google, and Uber, Kotra worked at Snowflake and Scale AI, and both co-authored Nodus’s GPU systems research ([Launch YC](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist), [Nodus Research, Nov 2026](https://research.nodus-compute.ai/elastic-gpu-pool)).
 
 ## Key Risks
 
-- **Recovery limitations:** Recovery depends on declared continuity mode, and ephemeral workloads are not resumed; pilot service has no SLA unless separately signed ([Nodus Terms](https://www.nodus-compute.ai/terms/)).
-- **Enterprise security requirements:** [Inferred]: Procurement may be constrained by disclosed absence of SOC 2, ISO certification, external security assessment, private networking, and customer-managed encryption keys, despite documented tenant isolation and integrity controls ([Security](https://www.nodus-compute.ai/security/)).
-- **Optimization feasibility:** [Inferred]: The proposed research feedback loop requires reproducible savings without degrading quality or latency, while Nodus describes its program as a research agenda with results to be published ([Research](https://www.nodus-compute.ai/research/)).
-- **Competitive substitution:** [Inferred]: Modal’s multi-cloud execution platform and SF Compute’s resale market overlap with Nodus’s execution and liquidity propositions, potentially reducing differentiation ([Modal](https://modal.com/blog/1-billion-annualized-run-rate-series-d), [SF Compute](https://sfcompute.com/news/abel-ledger)).
+- **Capacity interruption:** Owners can reclaim lent hosts, leaving borrowers waiting if replacement capacity is unavailable, and Nodus limits eligible jobs to workloads that support checkpoint recovery or safe retries ([Nodus Liquid Capacity docs](https://www.nodus-compute.ai/docs/guides/pools/liquid-capacity/)).
+- **Production performance:** Nodus’s elastic GPU pooling benchmark used synthetic tenants and replayed traffic on a single node, and the company identifies the tested configuration as a research prototype ([Nodus Research, Nov 2026](https://research.nodus-compute.ai/elastic-gpu-pool)).
+- **Workload confidentiality:** Community hosts can inspect job data, so Nodus provides explicit private-pool placement for workloads that must stay on the customer’s infrastructure ([Nodus Liquid Capacity docs](https://www.nodus-compute.ai/docs/guides/pools/liquid-capacity/)).
+- **Name confusion:** Adaptive Computing markets a similarly named NODUS Cloud OS in cloud and HPC orchestration ([Adaptive Computing](https://adaptivecomputing.com/wp-content/uploads/2020/05/NODUS_Cloud_OS_GENERIC_datasheet.pdf), [Y Combinator](https://www.ycombinator.com/companies/nodus-compute)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Adjacent GPU orchestration: $3.96B in 2026; 32% forecast CAGR through 2030 ([Research and Markets, 2026](https://www.researchandmarkets.com/reports/6231681/graphics-processing-unit-gpu-orchestration)) |
+| TAM | $5.1B global GPU-as-a-service market in 2026, 16.0% CAGR through 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/gpu-as-a-service-gpuaas-market-report)) |
 | SAM | No public data found |
-| Traction | Founder claims 10 startup pilots and >30% compute savings ([TwStalker, October 2026, via search snippet](https://workingww.twstalker.com/viswa_kotra)) |
-| Revenue Signal | H100 SXM supply $2.600/hour; RTX 4090 $0.290/hour, before Nodus fees; realized revenue undisclosed ([Pricing](https://www.nodus-compute.ai/pricing/), [Homepage](https://nodus-compute.ai/), October 2026) |
-| Founders | Viswa Kotra: UT Dallas CS; Citadel/Snowflake internships ([Profile](https://www.viswaretas-kotra.me/)); Pranav Varshney: Michigan CS; Google/Uber internships ([Profile](https://pvarshh.me/)) |
-| Competitors | Modal: $1.215B raised, >$1B annualized run rate, serverless platform ([Funding](https://aventure.vc/companies/modal-labs-new-york-city-ny-us/fundraising), [Modal](https://modal.com/blog/1-billion-annualized-run-rate-series-d)); Runpod: ≥$120M raised, >$325M ARR, GPU developer cloud ([Funding](https://stockanalysis.com/private/runpod/), [Runpod](https://www.runpod.io/press/runpod-325m-arr-new-cfo)); SF Compute: $52M raised, revenue unknown, capacity resale ([Funding](https://www.cbinsights.com/company/san-francisco-compute-company), [Product](https://sfcompute.com/news/abel-ledger)) |
-| Moat Signals | Documented checkpoint integrity and generation fencing ([Nodus Security](https://www.nodus-compute.ai/security/)) |
-| Risk Factors | Conditional recovery and pilot SLA limitations ([Terms](https://www.nodus-compute.ai/terms/)); absent external security assessment ([Security](https://www.nodus-compute.ai/security/)) |
-| Founder Reach | Kotra: LinkedIn 4K; Varshney: LinkedIn 5K ([Kotra](https://www.linkedin.com/in/viswa-kotra), [Varshney](https://www.linkedin.com/in/pvarshh), October 2026, via search snippets) |
-| Distribution Signals | LinkedIn 127 followers ([LinkedIn, October 2026](https://www.linkedin.com/company/nodus-compute)); public Python SDK, 2 stars ([GitHub, October 2026](https://github.com/nodus-compute/)) |
-| Emails | pranav@nodus-compute.ai ([Careers](https://careers.nodus-compute.ai/)); admin@nodus-compute.ai ([Official GitHub](https://github.com/nodus-compute/)) |
+| Traction | Over 200 teams joined since October ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/Wr8-nodus-compute-get-more-ai-from-the-gpus-that-already-exist)), named users include UC Berkeley and VoiceStudio ([Nodus website, Nov 2026](https://www.nodus-compute.ai/)) |
+| Revenue Signal | Published supply pricing of $2.60/hour for H100 SXM, $0.29/hour for RTX 4090, and $0.0075/hour for 1 vCPU with 1 GiB RAM ([Nodus Pricing, Nov 2026](https://www.nodus-compute.ai/pricing/)) |
+| Founders | Pranav Varshney (Co-founder and CEO), University of Michigan CS and Google infrastructure ([personal site](https://pvarshh.me/), [X profile via Teapawt](https://www.teapawt.org/pvarshh)); Viswa Kotra (Co-founder), UT Dallas CS, Snowflake, and Scale AI ([personal site](https://www.viswaretas-kotra.me/)) |
+| Competitors | Modal ($1.215B raised, over $1B annualized run rate, hosted functions and sandboxes) ([CB Insights, via search snippet](https://www.cbinsights.com/company/modal-3/financials), [Modal](https://frontend.modal.com/blog/1-billion-annualized-run-rate-series-d)); Runpod ($120.25M raised, over $325M ARR, self-serve GPU cloud) ([CB Insights, via search snippet](https://www.cbinsights.com/company/runpod/financials), [Runpod](https://www.runpod.io/press/runpod-325m-arr-new-cfo)); SkyPilot (over $20M raised, revenue unknown, open-source cross-cloud orchestration) ([SkyPilot](https://skypilot.ai/blog/skypilot-the-company)) |
+| Moat Signals | Snapshot restoration reproduced at a 7.65× cold-start speedup in the verifier run reported by Nodus ([Nodus Research, Nov 2026](https://research.nodus-compute.ai/snapshot-cold-start)) |
+| Risk Factors | Host reclaim and workload confidentiality ([Nodus Liquid Capacity docs](https://www.nodus-compute.ai/docs/guides/pools/liquid-capacity/)), production performance of GPU pooling ([Nodus Research](https://research.nodus-compute.ai/elastic-gpu-pool)) |
+| Founder Reach | Pranav Varshney — 142 X followers, 5K LinkedIn followers, 0 stars on pinned repository ([Teapawt](https://www.teapawt.org/pvarshh), [LinkedIn, via search snippet](https://www.linkedin.com/in/pvarshh), [GitHub](https://github.com/pvarshh/pvarshh.me)); Viswa Kotra — 116 X followers, 4K LinkedIn followers, 15 stars on project repository ([Teapawt](https://www.teapaw.org/viswa_kotra), [LinkedIn, via search snippet](https://www.linkedin.com/in/viswa-kotra), [GitHub](https://github.com/ACM-Research/Blockchain-Based-Federated-Learning-Optimization)) |
+| Distribution Signals | 285 LinkedIn followers, 46 X followers, and 2 Python SDK stars ([LinkedIn](https://www.linkedin.com/company/nodus-compute), [Teapawt](https://www.xitter.gq/nodus_compute), [GitHub](https://github.com/nodus-compute/Nodus-sdk-python), Nov 2026) |
+| Emails | pranav@nodus-compute.ai (Pranav Varshney, [Nodus Careers](https://careers.nodus-compute.ai/)), admin@nodus-compute.ai (organization contact, [Nodus GitHub](https://github.com/nodus-compute/)) |

@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://blinka.co",
     "yc_page": "https://www.ycombinator.com/companies/blinka",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/blinka))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/blinka))",
     "industry": "Fintech / Fintech -> Banking and Exchange",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Fintech, AI",
-    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/blinka))",
-    "emails": "support@blinka.co ([Blinka](https://blinka.co))"
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/blinka))",
+    "emails": "jp@blinka.co (CEO and referrals, [Launch YC](https://www.ycombinator.com/launches/Wkv-blinka-the-banking-platform-designed-for-global-companies)), support@blinka.co (support and privacy, [Blinka Privacy Policy](https://docs.blinka.co/legal/privacy-policy))"
   },
   "tags": [
     "Fintech",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:01:13.546Z",
+  "memoGeneratedAt": "2026-11-17T23:03:08.843Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 40,
+    "hypergrowth": {
+      "score": 43,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 53,
-    "NR": 48,
-    "PG": 51,
-    "PT": 32,
-    "SL": 40,
-    "VK": 29
+    "AGI": 37,
+    "HG": 43,
+    "EXIT": 37
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 33,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 62,
-    "tractionReason": "$10M payments processed; 25 initial clients; named business customers"
+    "tractionRank": 60,
+    "tractionScore": 58,
+    "tractionReason": "400+ onboarded businesses and $18M+ processed payment volume"
   },
   "paths": {
     "memo": "fall2026/memos/blinka.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/blinka.md",
-      "elad-gil": "fall2026/evals/elad-gil/blinka.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/blinka.md",
-      "paul-graham": "fall2026/evals/paul-graham/blinka.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/blinka.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/blinka.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/blinka.md"
+      "agi": "fall2026/evals/agi/blinka.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/blinka.md",
+      "exit": "fall2026/evals/exit/blinka.md"
     }
   }
 }

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://workers.io",
     "yc_page": "https://www.ycombinator.com/companies/workers-io",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/workers-io))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/workers-io))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, B2B, Infrastructure, AI",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/workers-io))",
-    "emails": "contact@workers.io ([Terms](https://workers.io/terms/)); security@workers.io ([Security](https://workers.io/security/)); chai@workers.io ([GitHub](https://github.com/workersio))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/workers-io))",
+    "emails": "chai@workers.io, CEO contact ([Workers IO GitHub](https://github.com/workersio)), contact@workers.io, general and privacy inquiries ([Privacy Policy](https://workers.io/privacy/)), security@workers.io, security reports ([Security](https://workers.io/security/))"
   },
   "tags": [
     "Developer Tools",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:57:43.209Z",
+  "memoGeneratedAt": "2026-11-17T23:47:07.759Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 36,
+    "agi": {
+      "score": 39,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 35,
-    "NR": 43,
-    "PG": 34,
-    "PT": 30,
-    "SL": 30,
-    "VK": 28
+    "AGI": 39,
+    "HG": 39,
+    "EXIT": 39
   },
-  "consolidatedAvg": 33.71,
-  "consolidatedRank": 183,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 32,
-    "tractionReason": "Company repository has 208 stars and 32 forks; revenue undisclosed"
+    "tractionRank": 30,
+    "tractionScore": 67,
+    "tractionReason": "Paying customers and reported expansion across customer teams"
   },
   "paths": {
     "memo": "fall2026/memos/workers-io.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/workers-io.md",
-      "elad-gil": "fall2026/evals/elad-gil/workers-io.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/workers-io.md",
-      "paul-graham": "fall2026/evals/paul-graham/workers-io.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/workers-io.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/workers-io.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/workers-io.md"
+      "agi": "fall2026/evals/agi/workers-io.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/workers-io.md",
+      "exit": "fall2026/evals/exit/workers-io.md"
     }
   }
 }

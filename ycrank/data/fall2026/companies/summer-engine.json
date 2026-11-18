@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://www.summerengine.com",
     "yc_page": "https://www.ycombinator.com/companies/summer-engine",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/summer-engine))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/summer-engine))",
     "industry": "Consumer / Consumer -> Gaming",
-    "team_size": "3",
+    "team_size": "3 ([Y Combinator](https://www.ycombinator.com/companies/summer-engine))",
     "location": "San Francisco, CA, USA",
     "tags": "Gaming, AI",
-    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/summer-engine))",
-    "emails": "founders@summerengine.com — shared founders/sales ([Pricing](https://www.summerengine.com/pricing)); support@summerengine.com — support/privacy ([Contact](https://www.summerengine.com/contact)); dpo@summerengine.com — historical DPO address, September 2026 policy via search snippet, absent from current policy ([Privacy](https://www.summerengine.com/privacy))"
+    "yc_partner": "Garry Tan ([Y Combinator](https://www.ycombinator.com/companies/summer-engine))",
+    "emails": "founders@summerengine.com (Mathias Heide’s published contact and shared sales inbox, [LinkedIn Jobs](https://dk.linkedin.com/jobs/view/ai-game-developer-internship-designers-vibe-coders-welcome-at-summer-engine-4426361474), [Summer Pricing](https://www.summerengine.com/pricing)), support@summerengine.com (product, billing, privacy, [Summer Contact](https://www.summerengine.com/contact))"
   },
   "tags": [
     "Gaming",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-09T23:56:38.594Z",
+  "memoGeneratedAt": "2026-11-18T00:31:32.805Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
       "score": 42,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 42,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 42,
-    "NR": 42,
-    "PG": 48,
-    "PT": 30,
-    "SL": 29,
-    "VK": 25
+    "AGI": 42,
+    "HG": 39,
+    "EXIT": 36
   },
-  "consolidatedAvg": 36.86,
-  "consolidatedRank": 121,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 38,
-    "tractionReason": "Approximately 1,140 Discord members; 97 repository stars; revenue undisclosed"
+    "tractionRank": 17,
+    "tractionScore": 74,
+    "tractionReason": "Revenue grew 40% in 30 days, 60,000+ organic users"
   },
   "paths": {
     "memo": "fall2026/memos/summer-engine.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/summer-engine.md",
-      "elad-gil": "fall2026/evals/elad-gil/summer-engine.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/summer-engine.md",
-      "paul-graham": "fall2026/evals/paul-graham/summer-engine.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/summer-engine.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/summer-engine.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/summer-engine.md"
+      "agi": "fall2026/evals/agi/summer-engine.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/summer-engine.md",
+      "exit": "fall2026/evals/exit/summer-engine.md"
     }
   }
 }

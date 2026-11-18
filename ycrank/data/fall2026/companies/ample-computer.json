@@ -1,17 +1,17 @@
 {
   "slug": "ample-computer",
   "name": "Ample Computer",
-  "oneLiner": "Everything your agent needs to ship a web app",
+  "oneLiner": "The one-stop cloud for agents to ship complex web apps",
   "metadata": {
     "website": "https://ample.computer/",
     "yc_page": "https://www.ycombinator.com/companies/ample-computer",
-    "batch": "Fall 2026 ([SignalHire founder profile](https://www.signalhire.com/profiles/ravi-mishra%27s-email/109019156); YC page inaccessible during research)",
+    "batch": "Fall 2026 ([YC company directory](https://www.ycombinator.com/companies/ample-computer))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Cloud Computing, Infrastructure, AI",
-    "yc_partner": "Not listed",
-    "emails": "legal@ample.computer (legal), privacy@ample.computer (privacy requests) ([Ample Contact](https://ample.computer/contact))"
+    "yc_partner": "Christopher Golda ([YC company directory](https://www.ycombinator.com/companies/ample-computer))",
+    "emails": "legal@ample.computer (legal and terms), privacy@ample.computer (privacy and data requests) ([Ample Contact](https://ample.computer/contact))"
   },
   "tags": [
     "B2B",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-10T21:50:02.084Z",
+  "memoGeneratedAt": "2026-11-18T00:19:03.447Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 41,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 40,
-    "NR": 43,
-    "PG": 38,
-    "PT": 28,
-    "SL": 31,
-    "VK": 25
+    "AGI": 41,
+    "HG": 39,
+    "EXIT": 40
   },
-  "consolidatedAvg": 35,
-  "consolidatedRank": 157,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 53,
   "traction": {
-    "tractionRank": 121,
-    "tractionScore": 40,
-    "tractionReason": "Six showcased applications; verified connector; customer payment status undisclosed"
+    "tractionRank": 94,
+    "tractionScore": 51,
+    "tractionReason": "5,000 users at public launch, with two live deployment examples"
   },
   "paths": {
     "memo": "fall2026/memos/ample-computer.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/ample-computer.md",
-      "elad-gil": "fall2026/evals/elad-gil/ample-computer.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/ample-computer.md",
-      "paul-graham": "fall2026/evals/paul-graham/ample-computer.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/ample-computer.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/ample-computer.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/ample-computer.md"
+      "agi": "fall2026/evals/agi/ample-computer.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/ample-computer.md",
+      "exit": "fall2026/evals/exit/ample-computer.md"
     }
   }
 }

@@ -1,17 +1,17 @@
 {
   "slug": "bayworks",
   "name": "Bayworks",
-  "oneLiner": "Intelligence that runs Automotive Operations",
+  "oneLiner": "Intelligence that keeps America’s vehicles running",
   "metadata": {
     "website": "https://bayworks.app",
     "yc_page": "https://www.ycombinator.com/companies/bayworks",
-    "batch": "Fall 2026 ([GPAgent directory](https://www.gpagent.ai/yc/company/bayworks))",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/bayworks))",
     "industry": "Industrials / Industrials -> Automotive",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, AI, Automotive",
-    "yc_partner": "Not listed in accessible YC directory text",
-    "emails": "kaustubh@bayworks.app, tech@bayworks.app ([Bayworks](https://bayworks.app/app-privacy)); shubhamgl2003@gmail.com ([founder website](https://www.shubhamgl.com/))"
+    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/bayworks))",
+    "emails": "shubham@bayworks.app, CTO ([Stealth Startup Spy](https://stealthstartupspy.substack.com/p/stealth-startup-spy-372)), founders@bayworks.app, general inquiries ([Bayworks](https://bayworks.app/)), tech@bayworks.app, support and privacy ([Bayworks privacy policy](https://bayworks.app/privacy-policy))"
   },
   "tags": [
     "B2B",
@@ -19,63 +19,39 @@
     "Automotive"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-03T16:56:01.044Z",
+  "memoGeneratedAt": "2026-11-18T00:29:27.611Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
+    "agi": {
       "score": 45,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 43,
+    "hypergrowth": {
+      "score": 41,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
+    "exit": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 40,
-    "NR": 45,
-    "PG": 43,
-    "PT": 30,
-    "SL": 37,
-    "VK": 25
+    "AGI": 45,
+    "HG": 41,
+    "EXIT": 47
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 129,
+  "consolidatedAvg": 44.33,
+  "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 61,
-    "tractionReason": "80+ dealerships in 110 days; payment status undisclosed"
+    "tractionRank": 11,
+    "tractionScore": 80,
+    "tractionReason": "Nearly $1M contracted ARR, six dealer groups, 80+ locations"
   },
   "paths": {
     "memo": "fall2026/memos/bayworks.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/bayworks.md",
-      "elad-gil": "fall2026/evals/elad-gil/bayworks.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/bayworks.md",
-      "paul-graham": "fall2026/evals/paul-graham/bayworks.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/bayworks.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/bayworks.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/bayworks.md"
+      "agi": "fall2026/evals/agi/bayworks.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/bayworks.md",
+      "exit": "fall2026/evals/exit/bayworks.md"
     }
   }
 }

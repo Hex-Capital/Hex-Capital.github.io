@@ -1,80 +1,58 @@
 {
   "slug": "elimentary",
   "name": "Elimentary",
-  "oneLiner": "Agents that run middle/back-office operations for Private Capital",
+  "oneLiner": "AI agents that run middle and back office for private credit funds",
   "metadata": {
     "website": "https://www.elimentary.com",
     "yc_page": "https://www.ycombinator.com/companies/elimentary",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/elimentary))",
-    "industry": "Fintech / Fintech -> Asset Management",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/elimentary))",
+    "industry": "Fintech / Fintech",
     "team_size": "5",
     "location": "New York City, NY, USA",
-    "tags": "FinOps, Enterprise",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/elimentary))",
-    "emails": "founders@elimentary.com ([Security](https://www.elimentary.com/newsroom/security-was-never-phase-two-for-us)); contact@elimentary.com ([Terms](https://policy.elimentary.com/Terms_and_Services.html)); labs@elimentary.com ([Labs](https://labs.elimentary.com/contact))"
+    "tags": "Fintech, B2B, Enterprise, AI",
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/elimentary))",
+    "emails": "founders@elimentary.com for introductions and diligence ([Launch YC](https://www.ycombinator.com/launches/X66-elimentary-your-ai-operations-team-for-private-credit)), contact@elimentary.com for site and privacy inquiries ([Elimentary Privacy Policy](https://policy.elimentary.com/privacy_policy_v1.html)), labs@elimentary.com for research collaboration ([Elimentary Labs](https://labs.elimentary.com/contact))"
   },
   "tags": [
-    "FinOps",
-    "Enterprise"
+    "Fintech",
+    "B2B",
+    "Enterprise",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:01:09.578Z",
+  "memoGeneratedAt": "2026-11-17T23:51:34.336Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
+    "agi": {
       "score": 48,
       "tier": "Neutral"
     },
-    "paul-graham": {
+    "hypergrowth": {
+      "score": 44,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 45,
       "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 71,
-    "NR": 48,
-    "PG": 45,
-    "PT": 36,
-    "SL": 43,
-    "VK": 34
+    "AGI": 48,
+    "HG": 44,
+    "EXIT": 45
   },
-  "consolidatedAvg": 46.86,
-  "consolidatedRank": 11,
+  "consolidatedAvg": 45.67,
+  "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 65,
-    "tractionScore": 53,
-    "tractionReason": "Named TresVista deployment and additional fund case study; revenue undisclosed"
+    "tractionRank": 33,
+    "tractionScore": 65,
+    "tractionReason": "Multi-year TresVista deployment, 25+ production agents"
   },
   "paths": {
     "memo": "fall2026/memos/elimentary.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/elimentary.md",
-      "elad-gil": "fall2026/evals/elad-gil/elimentary.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/elimentary.md",
-      "paul-graham": "fall2026/evals/paul-graham/elimentary.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/elimentary.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/elimentary.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/elimentary.md"
+      "agi": "fall2026/evals/agi/elimentary.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/elimentary.md",
+      "exit": "fall2026/evals/exit/elimentary.md"
     }
   }
 }

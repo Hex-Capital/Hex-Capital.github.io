@@ -1,80 +1,58 @@
 {
   "slug": "tilo",
   "name": "Tilo",
-  "oneLiner": "A Linux-based, AI-native operating system.",
+  "oneLiner": "The Microsoft of the AI era: the operating system for AI agents.",
   "metadata": {
     "website": "https://tilo.so",
     "yc_page": "https://www.ycombinator.com/companies/tilo",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/tilo))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/tilo))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "AIOps, AI",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/tilo))",
-    "emails": "security@tilo.so ([Tilo security policy](https://code.tilo.so/tilo/tilo/src/branch/main/SECURITY.md))"
+    "tags": "Developer Tools, Open Source, Infrastructure, AI",
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/tilo))",
+    "emails": "xaver@tilo.so, CEO and company contact ([Crunchbase](https://www.crunchbase.com/organization/tilo-os)); security@tilo.so, vulnerability reports ([Tilo security policy](https://code.tilo.so/tilo/tilo/src/branch/main/SECURITY.md))"
   },
   "tags": [
-    "AIOps",
+    "Developer Tools",
+    "Open Source",
+    "Infrastructure",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:56:13.010Z",
+  "memoGeneratedAt": "2026-11-17T22:49:54.015Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 39,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 46,
-    "NR": 42,
-    "PG": 39,
-    "PT": 35,
-    "SL": 31,
-    "VK": 28
+    "AGI": 40,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 39.29,
-  "consolidatedRank": 76,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 22,
-    "tractionReason": "Three repository stars; customers and revenue undisclosed"
+    "tractionRank": 217,
+    "tractionScore": 10,
+    "tractionReason": "Internal benchmarks, no disclosed commercial adoption"
   },
   "paths": {
     "memo": "fall2026/memos/tilo.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/tilo.md",
-      "elad-gil": "fall2026/evals/elad-gil/tilo.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/tilo.md",
-      "paul-graham": "fall2026/evals/paul-graham/tilo.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/tilo.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/tilo.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/tilo.md"
+      "agi": "fall2026/evals/agi/tilo.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/tilo.md",
+      "exit": "fall2026/evals/exit/tilo.md"
     }
   }
 }

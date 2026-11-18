@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.rodeorobotics.com/",
     "yc_page": "https://www.ycombinator.com/companies/rodeo-robotics",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/rodeo-robotics))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/rodeo-robotics))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Robotics, AI, Automotive",
-    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/rodeo-robotics))",
-    "emails": "me@colby.codes — founder’s professional contact ([Colby Duke’s website](https://colby.codes/))"
+    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/rodeo-robotics))",
+    "emails": "mh@rodeorobotics.com, CEO ([Company Launch Tracker, Oct 2026](https://companylaunchtracker.substack.com/p/company-launch-tracker-118)), me@colby.codes, CTO’s published contact ([Colby Duke’s profile](https://colby.codes/)), contact@rodeorobotics.com, shop inquiries ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8y-rodeo-robotics-robots-for-vehicle-maintenance))"
   },
   "tags": [
     "Hard Tech",
@@ -20,63 +20,39 @@
     "Automotive"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:25:07.805Z",
+  "memoGeneratedAt": "2026-11-18T00:45:42.220Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 29,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 29,
-    "NR": 38,
-    "PG": 29,
-    "PT": 31,
-    "SL": 28,
-    "VK": 25
+    "AGI": 37,
+    "HG": 39,
+    "EXIT": 39
   },
-  "consolidatedAvg": 31.86,
-  "consolidatedRank": 204,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 206,
-    "tractionScore": 8,
-    "tractionReason": "Launch coverage only; no disclosed customer deployments or revenue"
+    "tractionRank": 192,
+    "tractionScore": 23,
+    "tractionReason": "First customer deployments planned for January"
   },
   "paths": {
     "memo": "fall2026/memos/rodeo-robotics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/rodeo-robotics.md",
-      "elad-gil": "fall2026/evals/elad-gil/rodeo-robotics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/rodeo-robotics.md",
-      "paul-graham": "fall2026/evals/paul-graham/rodeo-robotics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/rodeo-robotics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/rodeo-robotics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/rodeo-robotics.md"
+      "agi": "fall2026/evals/agi/rodeo-robotics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/rodeo-robotics.md",
+      "exit": "fall2026/evals/exit/rodeo-robotics.md"
     }
   }
 }

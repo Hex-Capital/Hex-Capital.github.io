@@ -6,87 +6,89 @@
 |-------|-------|
 | Website | https://chempilot.ai/ |
 | YC Page | https://www.ycombinator.com/companies/chempilotai |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/chempilotai)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/chempilotai)) |
 | Industry | Industrials / Industrials -> Defense |
 | Team Size | 3 |
-| Location | Haifa, Haifa District, Israel |
-| Tags | Machine Learning, Advanced Materials, Defense |
-| YC Partner | Aaron Epstein ([YC](https://www.ycombinator.com/companies/chempilotai)) |
-| Emails | contact@chempilot.ai ([company website, via search snippet](https://chempilot.ai/)); alon@technion.ac.il ([CSO’s Technion profile](https://chemeng.technion.ac.il/en/team/alon-grinberg-dana/)) |
+| Location | San Francisco, CA, USA |
+| Tags | Robotics, Workflow Automation, Aerospace, Advanced Materials, Defense |
+| YC Partner | Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/chempilotai)) |
+| Emails | sam@chempilot.ai (CEO and launch inquiries, [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)) |
 
 ## The Idea
 
-- **Problem:** Defense and dual-use materials developers face sole-source supply chains and trial-and-error development taking over a decade, according to [ChemPilot’s YC description](https://www.ycombinator.com/companies/chempilotai).
-- **Approach:** Generative models propose molecules, then synthesizability ranking, density functional theory, molecular dynamics, and kinetics screen candidates before laboratory synthesis ([company website, via search snippet](https://chempilot.ai/)).
-- **Differentiation:** ChemPilot targets defense materials, whereas [Orbital Industries](https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million) initially commercializes data-center hardware and [Periodic Labs](https://periodic.com/) develops scientific models and autonomous laboratories ([ChemPilot LinkedIn](https://www.linkedin.com/company/chempilot/)).
-- **Business Model:** [Inferred]: Paid discovery projects or technology licensing are possible monetization paths given its selective, problem-specific access process; public pricing was not found ([company website, via search snippet](https://chempilot.ai/)).
-- **TAM/SAM:** The broader AI materials-discovery market is estimated at $968.4 million in 2026, growing 30.9% annually through 2033, but this includes applications outside ChemPilot’s defense segment ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/ai-material-discovery-market-report)).
-- **GTM / Distribution:** [Inferred]: Direct research partnerships are the apparent entry route, supported by the founders’ reported work with defense primes and government R&D agencies ([YC](https://www.ycombinator.com/companies/chempilotai)).
+- **Problem:** ChemPilot says defense and aerospace manufacturers rely on concentrated supply chains and manual trial-and-error R&D, with new material development taking a decade or more ([ChemPilot](https://chempilot.ai/), [YC company profile](https://www.ycombinator.com/companies/chempilotai)).
+- **Approach:** ChemPilot uses computational models to select candidates for physical testing and feeds lab measurements back into its software, with polymers, coatings, resins and composites among its initial programs ([ChemPilot](https://chempilot.ai/), [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+- **Differentiation:** ChemPilot is building an in-house lab for defense and aerospace materials, CuspAI coordinates discovery through a network of partner facilities, and Orbital Industries applies its discovery platform to data-center cooling hardware ([ChemPilot](https://chempilot.ai/), [NEA](https://www.nea.com/blog/from-algorithms-to-atoms-part-ii-doubling-down-on-cuspai), [Orbital Industries](https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million)).
+- **Business Model:** [Inferred]: Project-based R&D contracts are a possible monetization path because the company solicits briefs with customer-specific performance, cost and qualification requirements ([ChemPilot contact page](https://chempilot.ai/contact)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** ChemPilot invites materials and R&D leaders at defense, aerospace and chemical companies to submit project requirements through direct email and its contact page ([Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials), [ChemPilot contact page](https://chempilot.ai/contact)).
 
 ## Defensibility
 
-- **Moat today:** The founders report two years of shared materials research and defense-industry collaboration at the Technion, documenting technical experience rather than exclusive IP ownership ([YC](https://www.ycombinator.com/companies/chempilotai)).
-- **Future moat:** [Inferred]: Experimental results could improve candidate selection if ChemPilot retains reusable data rights, but ownership and feedback-loop performance remain undisclosed.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage.
-- **Commoditization risk:** Microsoft provides open-source materials-generation and simulation tools, while ChemPilot’s originating laboratory also publishes computational chemistry software, making components available to alternative developers ([Microsoft Research, January 2025](https://www.microsoft.com/en-us/research/podcast/ideas-ai-for-materials-discovery-with-tian-xie-and-ziheng-lu/); [Dana Research Group](https://dana.technion.ac.il/)).
+- **Moat today:** ChemPilot says it trains models on proprietary experimental data and has robots running experiments alongside scientists in its first lab ([ChemPilot](https://chempilot.ai/), [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+- **Future moat:** [Inferred]: A reusable dataset across materials programs could improve subsequent predictions, with the size of that effect unverified because the launch disclosed no cross-program performance benchmarks ([Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Periodic Labs has deployed an experimental-analysis model in its own physical labs, demonstrating that another funded team has built the combination of software and lab infrastructure ([Periodic Labs, Sep 2026](https://periodic.com/news)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Pre-seed round led by Fresh Defense, amount undisclosed, reported by CEO Sam Cogan ([company LinkedIn update, observed October 27, 2026](https://www.linkedin.com/company/chempilot/)).
-  - Investor confirmation of backing Sam Cogan, Ofir Simhi, Maor Goldman, and Alon Grinberg Dana ([Fresh Fund LinkedIn, October 2026, via search snippet](https://il.linkedin.com/company/freshfund)).
-  - Defense-prime and government R&D collaboration during the founders’ preceding research, without named counterparties or disclosed commercial terms ([YC, accessed October 27, 2026](https://www.ycombinator.com/companies/chempilotai)).
-  - Zero open YC job listings ([YC Jobs, accessed October 27, 2026](https://www.ycombinator.com/companies/chempilotai/jobs)).
+  - Pre-seed round led by Fresh Defense, with the amount undisclosed in the CEO’s announcement ([Sam Cogan, Fall 2026](https://www.linkedin.com/company/chempilot)).
+  - Pre-incorporation Technion research collaboration with an unnamed defense prime and unnamed government R&D agencies ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+  - First lab running experiments with robots alongside scientists, according to the founders ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+  - Public YC launch covered by Menlo Times on Nov 4, 2026 ([Menlo Times](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-199)).
+  - Computational Scientist listing in Tel Aviv District closed to applications, with zero jobs listed on YC when checked ([LinkedIn Jobs](https://il.linkedin.com/jobs/view/computational-scientist-at-chempilot-ai-4437221453), [YC Jobs](https://www.ycombinator.com/companies/chempilotai/jobs), Nov 2026).
 - **Competitors:**
-  - **CuspAI** (over $650M raised, revenue unknown): Industrial materials-design platform and partner foundry spanning semiconductors and other applications; latest announced financing was $450M Series B on July 20, 2026, led by Kleiner Perkins and NEA ([Amsterdam AI, July 2026](https://amsterdamai.com/news/cuspai-raises-450-million-and-launches-ai-materials-foundry/)).
-  - **Orbital Industries** ($70.8M raised, revenue unknown): Integrates discovery with manufactured products, initially cooling fluids and modular data-center infrastructure; latest round was $50M Series B led by Plural on May 28, 2026 ([CB Insights](https://www.cbinsights.com/company/orbital-materials/financials); [company announcement](https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million)).
-  - **Periodic Labs** ($300M disclosed founding round, revenue unknown): Develops AI scientists and autonomous experimental laboratories across physical sciences, versus ChemPilot’s defense-materials focus; a16z announced leading the round on September 30, 2025 ([a16z](https://a16z.com/announcement/investing-in-periodic-labs/); [Periodic Labs](https://periodic.com/)).
-- **Why now:** [Inferred]: Microsoft’s January 2025 release of MatterGen’s property-conditioned materials generation illustrates newly available computational tools, although its inorganic-crystal results do not establish performance on ChemPilot’s target materials ([Microsoft Research](https://www.microsoft.com/en-us/research/blog/mattergen-a-new-paradigm-of-materials-design-with-generative-ai/)).
+  - **Periodic Labs** ($300M raised, revenue unknown): Its September 2025 founding round was led by a16z, and its autonomous labs serve scientific R&D across sectors including semiconductors, space and defense ([a16z](https://a16z.com/announcement/investing-in-periodic-labs/), [Periodic Labs](https://periodic.com/news)).
+  - **CuspAI** (over $650M reported raised, revenue unknown): Its July 2026 $450M Series B was co-led by NEA and Kleiner Perkins, and its AI Materials Foundry coordinates a network of external labs and industrial partners ([Tech Funding News](https://techfundingnews.com/cuspai-400m-series-b-2-6b-valuation-bezos-materials-search/), [NEA](https://www.nea.com/blog/from-algorithms-to-atoms-part-ii-doubling-down-on-cuspai)).
+  - **Orbital Industries** ($71M reported raised, revenue unknown): Its May 2026 $50M Series B was led by Plural, and its initial hardware business focuses on data-center cooling ([Resilience Media](https://resiliencemedia.co/orbital-industries-an-alphafold-for-materials-science-raises-50m/), [Orbital Industries](https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million)).
+  - [Inferred]: Periodic Labs overlaps in defense R&D, while CuspAI and Orbital are adjacent alternatives based on their disclosed customer programs and product focus ([a16z](https://a16z.com/announcement/investing-in-periodic-labs/), [NEA](https://www.nea.com/blog/from-algorithms-to-atoms-part-ii-doubling-down-on-cuspai), [Orbital Industries](https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million)).
+- **Why now:** [Inferred]: NSF’s July 2026 award of $20M to the University of Tennessee for automated materials discovery is a concrete expansion of public funding for AI-enabled experimental infrastructure ([University of Tennessee](https://www.utk.edu/news/2026/07/23/ut-secures-20m-nsf-grant-to-pioneer-breakthroughs-in-automated-materials-discovery/)).
 
 ## Founders & Team
 
-- **Sam Cogan (Co-founder/CEO):**
-  - Background: MSc in Biochemical Engineering from Technion; prior affiliations include Biodesign Israel and Technion’s Knowledge Center for Innovation ([YC founder profile](https://www.ycombinator.com/founders/sam-cogan)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile verified through YC; headline not retrievable; approximately 1K followers displayed ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/sam-cogan-16435916b)).
-  - GitHub: No public repos found.
-- **Ofir Simhi (Co-founder/CTO):**
-  - Background: BSc in Biochemical Engineering; previously a developer at Skiff, acquired by Notion, and StoreMaven, acquired by Zynga, rather than a disclosed founder of those businesses ([YC founder profile](https://www.ycombinator.com/founders/ofir-simhi)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Headline not retrievable; profile describes building ChemPilot and displays 616 followers ([LinkedIn, retrieved October 2026, via search snippet](https://il.linkedin.com/in/ofir-simhi-b8098a196)).
-  - GitHub: No public repos found.
+- **Sam Cogan (Co-founder and CEO):**
+  - **Background:** Technion MSc in biochemical engineering, materials-discovery research at Technion, and prior roles at Biodesign Israel and Sterling National Bank, with sam@chempilot.ai published for business inquiries ([YC founder profile](https://www.ycombinator.com/founders/sam-cogan), [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Public profile found with 1K followers, headline not retrievable ([LinkedIn, via search snippet](https://www.linkedin.com/in/sam-cogan-16435916b)).
+  - **GitHub:** No public repos found.
+- **Ofir Simhi (Co-founder and CTO):**
+  - **Background:** YC lists a biochemical engineering BSc and developer roles at Skiff, acquired by Notion, and StoreMaven, acquired by Zynga, while Technion lists him as a research assistant ([YC founder profile](https://www.ycombinator.com/founders/ofir-simhi), [Technion](https://dana.technion.ac.il/)). Company email — No public data found.
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Public profile found with 616 followers, headline not retrievable ([LinkedIn, via search snippet](https://il.linkedin.com/in/ofir-simhi-b8098a196)).
+  - **GitHub:** No public repos found.
 - **Maor Goldman (Co-founder):**
-  - Background: Technion BS in Computer Engineering, ethical hacker, former Unit 8200 service, and prior Cyberbit affiliation ([YC founder profile](https://www.ycombinator.com/founders/maor-goldman)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Headline not retrievable; profile describes building ChemPilot and displays approximately 2K followers ([LinkedIn, retrieved October 2026, via search snippet](https://il.linkedin.com/in/maor-goldman-03b43a119)).
-  - GitHub: No public repos found.
-- **Alon Grinberg Dana (Co-founder/CSO, identified in the CEO’s [company update](https://www.linkedin.com/company/chempilot/)):**
-  - Background: Technion associate professor with a Technion PhD and prior MIT postdoctoral research ([Technion](https://chemeng.technion.ac.il/en/team/alon-grinberg-dana/)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile verified; headline and follower count not retrievable ([profile, via search snippet](https://il.linkedin.com/in/alongd)).
-  - GitHub: @alongd; co-author of ARC, with 52 repository stars, an academic project rather than ChemPilot product traction ([profile](https://github.com/alongd); [ARC, accessed October 27, 2026](https://github.com/ReactionMechanismGenerator/ARC)).
-- **Co-founder relationship:** The active founders report researching together in Grinberg Dana’s Technion laboratory for two years ([YC](https://www.ycombinator.com/companies/chempilotai)).
-- **Founder-market fit:** Documented experience combines biochemical engineering, software development, cybersecurity, and computational chemistry, with Grinberg Dana’s laboratory developing automated chemical-prediction tools ([YC founder profiles](https://www.ycombinator.com/founders/ofir-simhi); [Technion laboratory](https://dana.technion.ac.il/)).
+  - **Background:** Technion BS in computer engineering, prior experience at Cyberbit and Unit 8200, and software and automation work on the Technion project ([YC founder profile](https://www.ycombinator.com/founders/maor-goldman), [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)). Company email — No public data found.
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Public profile found with 2K followers, headline not retrievable ([LinkedIn, via search snippet](https://il.linkedin.com/in/maor-goldman-03b43a119)).
+  - **GitHub:** No public repos found.
+- **Alon Grinberg Dana (Founding CSO):**
+  - **Background:** Cogan identifies him as a co-founder and CSO, and Technion records his PhD, MIT postdoctoral training and leadership of the lab behind the spinout ([Sam Cogan](https://www.linkedin.com/company/chempilot), [Technion](https://dana.technion.ac.il/)). Company email — No public data found.
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Public profile found, headline not retrievable ([LinkedIn, via search snippet](https://il.linkedin.com/in/alongd)).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** Cogan and Simhi conducted two and a half years of research in Grinberg Dana’s Technion lab, with Goldman joining during the project ([Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+- **Founder-market fit:** The founding team worked on materials discovery with industry and government research partners at Technion, and the spinout received backing from Fresh Defense and Y Combinator ([Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials), [Sam Cogan](https://www.linkedin.com/company/chempilot)).
 
 ## Key Risks
 
-- **Simulation-to-experiment transfer:** [Inferred]: Predicted stability or synthesizability may fail during synthesis or testing; the claimed reduction from years to months lacks a disclosed validation dataset, while the company describes laboratory testing as part of its process ([YC](https://www.ycombinator.com/companies/chempilotai); [company LinkedIn](https://www.linkedin.com/company/chempilot/)).
-- **Research access versus commercial adoption:** [Inferred]: Prior defense-research relationships may not translate into procurement contracts; named paying customers and signed commercial agreements were not found ([YC’s collaboration description](https://www.ycombinator.com/companies/chempilotai)).
-- **Exclusivity uncertainty:** [Inferred]: Academic provenance alone may not prevent replication because the originating laboratory distributes open-source tools; ChemPilot-specific licensing and patent rights were not found ([Dana Research Group](https://dana.technion.ac.il/)).
-- **Public-source ambiguity and accessibility:** Website not accessible at time of research through direct retrieval; a separate ChemPilot AI LinkedIn page describes plant diagnostics and was excluded from company metrics ([company website](https://chempilot.ai/); [namesake LinkedIn page](https://www.linkedin.com/company/chempilot-ai/)).
+- **Automation performance:** [Inferred]: The development schedule depends on repeatable lab throughput, and the launch documents robots working alongside scientists while full autonomy remains a development goal ([Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+- **Aircraft qualification:** [Inferred]: Adoption in composite aircraft structures can require separate material and process qualification even after a candidate meets lab targets ([FAA Advisory Circular 20-107B](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-107B_with_change_1.pdf)).
+- **Research-to-contract conversion:** [Inferred]: The disclosed Technion collaborations establish prior access to industrial and government researchers, with no named commercial contract disclosed in the launch ([Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)).
+- **Name ambiguity:** LinkedIn hosts a separate ChemPilot AI page for plant diagnostics, while the YC startup’s profile links to chempilot.ai and identifies the Technion spinout ([ChemPilot AI](https://www.linkedin.com/company/chempilot-ai/), [ChemPilot.ai](https://www.linkedin.com/company/chempilot)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader AI materials discovery: $968.4M in 2026; 30.9% CAGR, 2026–2033; not a defense-specific TAM ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/ai-material-discovery-market-report)) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Fresh Defense-led pre-seed, amount undisclosed ([company LinkedIn, October 2026](https://www.linkedin.com/company/chempilot/)); prior defense research collaboration ([YC, October 2026](https://www.ycombinator.com/companies/chempilotai)) |
+| Traction | Fresh Defense-led pre-seed, amount undisclosed ([Sam Cogan, Fall 2026](https://www.linkedin.com/company/chempilot)), first lab running experiments and prior Technion collaborations ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)), launch coverage ([Menlo Times, Nov 2026](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-199)) |
 | Revenue Signal | No public data found |
-| Founders | Sam Cogan, CEO: Technion MSc ([YC](https://www.ycombinator.com/founders/sam-cogan)); Ofir Simhi, CTO: biochemical engineering, Skiff/StoreMaven developer ([YC](https://www.ycombinator.com/founders/ofir-simhi)); Maor Goldman: computer engineering, Unit 8200 ([YC](https://www.ycombinator.com/founders/maor-goldman)); Alon Grinberg Dana, CSO: Technion professor, MIT postdoc ([company LinkedIn](https://www.linkedin.com/company/chempilot/); [Technion](https://chemeng.technion.ac.il/en/team/alon-grinberg-dana/)) |
-| Competitors | CuspAI: >$650M, revenue unknown, industrial foundry ([Amsterdam AI, 2026](https://amsterdamai.com/news/cuspai-raises-450-million-and-launches-ai-materials-foundry/)); Orbital: $70.8M, revenue unknown, manufactured infrastructure ([CB Insights](https://www.cbinsights.com/company/orbital-materials/financials)); Periodic: $300M founding round, revenue unknown, autonomous laboratories ([a16z, 2025](https://a16z.com/announcement/investing-in-periodic-labs/)) |
-| Moat Signals | Two years of shared Technion research and defense collaboration ([YC](https://www.ycombinator.com/companies/chempilotai)) |
-| Risk Factors | Simulation validation dependence ([company LinkedIn](https://www.linkedin.com/company/chempilot/)); externally available computational tools ([Dana Research Group](https://dana.technion.ac.il/)) |
-| Founder Reach | LinkedIn: Sam ~1K, Ofir 616, Maor ~2K ([Sam](https://www.linkedin.com/in/sam-cogan-16435916b), [Ofir](https://il.linkedin.com/in/ofir-simhi-b8098a196), [Maor](https://il.linkedin.com/in/maor-goldman-03b43a119), October 2026, via search snippets); Alon: ARC co-author, 52 stars ([GitHub, October 2026](https://github.com/ReactionMechanismGenerator/ARC)) |
-| Distribution Signals | Problem-specific email access requests ([company website, via search snippet](https://chempilot.ai/)); founder launch update ([company LinkedIn, October 2026](https://www.linkedin.com/company/chempilot/)) |
-| Emails | contact@chempilot.ai ([company website, via search snippet](https://chempilot.ai/)); alon@technion.ac.il ([Technion](https://chemeng.technion.ac.il/en/team/alon-grinberg-dana/)) |
+| Founders | Sam Cogan (CEO), Technion MSc and materials research ([YC](https://www.ycombinator.com/founders/sam-cogan)). Ofir Simhi (CTO), biochemical engineering and Skiff/StoreMaven development ([YC](https://www.ycombinator.com/founders/ofir-simhi)). Maor Goldman (co-founder), Technion computer engineering and Cyberbit ([YC](https://www.ycombinator.com/founders/maor-goldman)). Alon Grinberg Dana (founding CSO), Technion lab lead and former MIT postdoc ([Sam Cogan](https://www.linkedin.com/company/chempilot), [Technion](https://dana.technion.ac.il/)). |
+| Competitors | Periodic Labs ($300M raised, revenue unknown, multisector autonomous labs, [a16z](https://a16z.com/announcement/investing-in-periodic-labs/)), CuspAI (over $650M reported raised, revenue unknown, partner-lab network, [Tech Funding News](https://techfundingnews.com/cuspai-400m-series-b-2-6b-valuation-bezos-materials-search/), [NEA](https://www.nea.com/blog/from-algorithms-to-atoms-part-ii-doubling-down-on-cuspai)), Orbital Industries ($71M reported raised, revenue unknown, data-center cooling hardware, [Resilience Media](https://resiliencemedia.co/orbital-industries-an-alphafold-for-materials-science-raises-50m/), [Orbital Industries](https://www.orbitalindustries.com/news/press/orbital-industries-series-b-50-million)) |
+| Moat Signals | Company-reported proprietary experimental data and an operating, partially automated lab ([ChemPilot](https://chempilot.ai/), [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)) |
+| Risk Factors | Partial lab automation and unnamed pre-incorporation collaborators ([Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)), aircraft composite qualification ([FAA](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_20-107B_with_change_1.pdf)) |
+| Founder Reach | Sam Cogan, LinkedIn 1K ([LinkedIn, via search snippet](https://www.linkedin.com/in/sam-cogan-16435916b)), Ofir Simhi, LinkedIn 616 ([LinkedIn, via search snippet](https://il.linkedin.com/in/ofir-simhi-b8098a196)), Maor Goldman, LinkedIn 2K ([LinkedIn, via search snippet](https://il.linkedin.com/in/maor-goldman-03b43a119)) |
+| Distribution Signals | Launch YC announcement (Nov 2026, [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)), direct R&D inquiry page ([ChemPilot](https://chempilot.ai/contact)), verified company LinkedIn page with follower count not retrievable ([LinkedIn](https://www.linkedin.com/company/chempilot)) |
+| Emails | sam@chempilot.ai (CEO and launch inquiries, [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials)). The website contact address was masked in the accessible page ([ChemPilot contact page](https://chempilot.ai/contact)). |

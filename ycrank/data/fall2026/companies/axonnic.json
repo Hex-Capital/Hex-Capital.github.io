@@ -1,17 +1,17 @@
 {
   "slug": "axonnic",
   "name": "Axonnic",
-  "oneLiner": "Bringing human dexterity to every robot",
+  "oneLiner": "Creating human skill at robot scale",
   "metadata": {
     "website": "https://www.axonnic.com",
     "yc_page": "https://www.ycombinator.com/companies/axonnic",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/axonnic))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/axonnic))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA; Remote",
     "tags": "Neurotechnology, Robotics, Data Labeling",
-    "yc_partner": "Aaron Epstein ([YC, via search snippet](https://www.ycombinator.com/companies/axonnic))",
-    "emails": "info@axonnic.com ([Axonnic](https://www.axonnic.com))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/axonnic))",
+    "emails": "arsh@axonnic.com (Arsh Patankar’s [Hacker News profile](https://news.ycombinator.com/user?id=arshpatankar)), info@axonnic.com (shared contact for pilots, orders, partnerships, press and investors, [Axonnic](https://www.axonnic.com/#contact))"
   },
   "tags": [
     "Neurotechnology",
@@ -19,63 +19,39 @@
     "Data Labeling"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:03:34.687Z",
+  "memoGeneratedAt": "2026-11-17T23:10:45.757Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 57,
+    "agi": {
+      "score": 46,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 40,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 42,
-    "NR": 53,
-    "PG": 40,
-    "PT": 35,
-    "SL": 37,
-    "VK": 32
+    "AGI": 46,
+    "HG": 40,
+    "EXIT": 39
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 42,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 96,
-    "tractionScore": 46,
-    "tractionReason": "Signed manufacturing LOI; named industrial pilot; Proception integration"
+    "tractionRank": 49,
+    "tractionScore": 61,
+    "tractionReason": "Paid design-partner pilots, shipping sleeves, signed sewing LOI"
   },
   "paths": {
     "memo": "fall2026/memos/axonnic.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/axonnic.md",
-      "elad-gil": "fall2026/evals/elad-gil/axonnic.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/axonnic.md",
-      "paul-graham": "fall2026/evals/paul-graham/axonnic.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/axonnic.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/axonnic.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/axonnic.md"
+      "agi": "fall2026/evals/agi/axonnic.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/axonnic.md",
+      "exit": "fall2026/evals/exit/axonnic.md"
     }
   }
 }

@@ -11,7 +11,7 @@
     "location": "Phoenix, AZ, USA",
     "tags": "Hard Tech, Real Estate, Housing",
     "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/habu))",
-    "emails": "founders@buildhabu.com ([HABU privacy policy](https://www.buildhabu.com/privacy))"
+    "emails": "founders@buildhabu.com (shared inbox for investment inquiries, general questions, and privacy requests, [HABU Company Facts](https://www.buildhabu.com/company-facts), [HABU Privacy Policy](https://www.buildhabu.com/privacy))"
   },
   "tags": [
     "Hard Tech",
@@ -19,63 +19,39 @@
     "Housing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:58:13.586Z",
+  "memoGeneratedAt": "2026-11-17T22:55:20.941Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 36,
+    "agi": {
+      "score": 35,
       "tier": "Pass"
     },
-    "elad-gil": {
+    "hypergrowth": {
+      "score": 35,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 38,
-    "NR": 34,
-    "PG": 32,
-    "PT": 30,
-    "SL": 30,
-    "VK": 22
+    "AGI": 35,
+    "HG": 35,
+    "EXIT": 38
   },
-  "consolidatedAvg": 31.71,
-  "consolidatedRank": 206,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 20,
-    "tractionReason": "Public launch; no named customers, deployments, or revenue disclosed"
+    "tractionRank": 176,
+    "tractionScore": 31,
+    "tractionReason": "First Phoenix development site under contract, development fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/habu.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/habu.md",
-      "elad-gil": "fall2026/evals/elad-gil/habu.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/habu.md",
-      "paul-graham": "fall2026/evals/paul-graham/habu.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/habu.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/habu.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/habu.md"
+      "agi": "fall2026/evals/agi/habu.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/habu.md",
+      "exit": "fall2026/evals/exit/habu.md"
     }
   }
 }

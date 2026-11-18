@@ -1,7 +1,7 @@
 {
   "slug": "rhem-labs",
   "name": "Rhem Labs",
-  "oneLiner": "Home care technology for aging parents and their families",
+  "oneLiner": "",
   "metadata": {
     "website": "https://rhem.ai",
     "yc_page": "https://www.ycombinator.com/companies/rhem-labs",
@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Robotics, Health & Wellness, Consumer Products",
     "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/rhem-labs))",
-    "emails": "support@rhem.ai, service@rhem.ai, cancel@rhem.ai, privacy@rhem.ai ([Rhem contact page](https://www.rhem.ai/contact))"
+    "emails": "support@rhem.ai (general inquiries and product emails), service@rhem.ai (orders, returns and warranty), cancel@rhem.ai (pre-dispatch cancellations), privacy@rhem.ai (personal data requests) ([Rhem Contact & Support](https://www.rhem.ai/contact), [Privacy Policy](https://www.rhem.ai/privacy))"
   },
   "tags": [
     "Robotics",
@@ -19,63 +19,39 @@
     "Consumer Products"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:07:16.797Z",
+  "memoGeneratedAt": "2026-11-18T00:14:12.051Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
+    "agi": {
       "score": 35,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 29,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 29,
-    "NR": 35,
-    "PG": 29,
-    "PT": 33,
-    "SL": 29,
-    "VK": 25
+    "AGI": 35,
+    "HG": 36,
+    "EXIT": 35
   },
-  "consolidatedAvg": 30.29,
-  "consolidatedRank": 221,
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 24,
-    "tractionReason": "100 Product Hunt points; no customers or rentals disclosed"
+    "tractionRank": 161,
+    "tractionScore": 33,
+    "tractionReason": "One user testimonial and hardware preorders open"
   },
   "paths": {
     "memo": "fall2026/memos/rhem-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/rhem-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/rhem-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/rhem-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/rhem-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/rhem-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/rhem-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/rhem-labs.md"
+      "agi": "fall2026/evals/agi/rhem-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/rhem-labs.md",
+      "exit": "fall2026/evals/exit/rhem-labs.md"
     }
   }
 }

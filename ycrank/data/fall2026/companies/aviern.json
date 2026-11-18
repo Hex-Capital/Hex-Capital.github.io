@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://aviern.com/",
     "yc_page": "https://www.ycombinator.com/companies/aviern",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/aviern))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/aviern))",
     "industry": "Industrials / Industrials -> Drones",
-    "team_size": "4",
+    "team_size": "5",
     "location": "Los Angeles, CA, USA",
     "tags": "Airplanes, Logistics, Aerospace, Infrastructure",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/aviern))",
-    "emails": "hello@aviern.com ([Aviern website](https://www.aviern.com/))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/aviern))",
+    "emails": "hello@aviern.com (general inquiries, [Aviern Contact](https://www.aviern.com/#contact))"
   },
   "tags": [
     "Airplanes",
@@ -20,63 +20,39 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:09:27.359Z",
+  "memoGeneratedAt": "2026-11-18T00:14:33.011Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 30,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 30,
-    "NR": 41,
-    "PG": 36,
-    "PT": 28,
-    "SL": 30,
-    "VK": 29
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 34.86,
-  "consolidatedRank": 162,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 202,
-    "tractionScore": 10,
-    "tractionReason": "Scaled aircraft demonstrator; no disclosed cargo customers or orders"
+    "tractionRank": 214,
+    "tractionScore": 11,
+    "tractionReason": "150 autonomous demonstrator miles, no cargo customers disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/aviern.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/aviern.md",
-      "elad-gil": "fall2026/evals/elad-gil/aviern.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/aviern.md",
-      "paul-graham": "fall2026/evals/paul-graham/aviern.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/aviern.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/aviern.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/aviern.md"
+      "agi": "fall2026/evals/agi/aviern.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/aviern.md",
+      "exit": "fall2026/evals/exit/aviern.md"
     }
   }
 }

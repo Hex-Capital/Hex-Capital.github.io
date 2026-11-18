@@ -6,83 +6,80 @@
 |-------|-------|
 | Website | https://biodelivera.com/ |
 | YC Page | https://www.ycombinator.com/companies/biodelivera |
-| Batch | Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera)) |
-| Industry | Healthcare / Healthcare -> Drug Discovery and Delivery |
+| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/biodelivera)) |
+| Industry | Healthcare / Healthcare -> Therapeutics |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | Gene Therapy, Cell Therapy, Drug Delivery |
-| YC Partner | Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera)) |
-| Emails | founders@biodelivera.com — shared contact ([company website](https://biodelivera.com/)) |
+| Tags | Gene Therapy, Drug Delivery, Therapeutics, AI, Biotechnology |
+| YC Partner | Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/biodelivera)) |
+| Emails | founders@biodelivera.com (shared founder inbox, [BioDelivera](https://biodelivera.com/)) |
 
 ## The Idea
 
-- **Problem:** Developers of genetic medicines face constraints in reaching tissues beyond the liver, with existing alternatives including lipid nanoparticles and viral vectors ([Sixfold](https://www.sixfold.bio/post/sixfold-bioscience-completes-10-5m-usd-ps7-8m-gbp-seed-financing)).
-- **Approach:** BioDelivera describes engineered virus-like particles with programmable targeting for markers including HER2, PDGFRβ, and PD-L1, manufactured through bacterial self-assembly without subsequent modification ([founder interview, AlbPhD Circle](https://albphdcircle.com/startup/)).
-- **Differentiation:** BioDelivera describes delivery spanning genetic medicines and small molecules, whereas Sixfold focuses on RNA delivery and Aera develops targeted lipid nanoparticles, antibody–oligonucleotide conjugates, and protein nanoparticles ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera), [Sixfold](https://www.sixfold.bio/post/sixfold-bioscience-completes-10-5m-usd-ps7-8m-gbp-seed-financing), [Aera](https://aeratx.com/pipeline/)).
-- **Business Model:** [Inferred]: Platform licensing or research partnerships with therapeutic developers could monetize its delivery technology; public pricing and commercial terms: No public data found.
-- **TAM/SAM:** Custom Market Insights estimates the broad targeted drug delivery market at $11.4 billion in 2025, growing at 15.5% annually through 2034; a BioDelivera-specific serviceable segment estimate: No public data found ([CMI, September 2026](https://www.custommarketinsights.com/report/targeted-drug-delivery-market/)).
-- **GTM / Distribution:** Public outreach includes participation in Nucleate, Draper University, and Boston Biotech Week to meet biotech participants; a documented customer acquisition process: No public data found ([founder LinkedIn, via search snippet](https://www.linkedin.com/in/ikeda-trashi-phd-16aa071b4)).
+- **Problem:** Conventional chemotherapy can damage healthy cells in cancer patients, producing side effects that developers of more selective treatments aim to reduce ([National Cancer Institute](https://www.cancer.gov/about-cancer/treatment/types/chemotherapy), [Launch YC](https://www.ycombinator.com/companies/biodelivera)).
+- **Approach:** BioDelivera’s Guided Chimeric Vehicles are particles designed to carry therapeutic cargo, bind to intended cells, and release the cargo inside them ([Launch YC](https://www.ycombinator.com/companies/biodelivera)).
+- **Differentiation:** BioDelivera describes a platform for multiple therapeutic cargo types and tissues, while Aera lists separate delivery programs by indication, Capstan’s lead program targets autoimmune disease, and Umoja’s clinical pipeline centers on CAR-T therapies ([YC](https://www.ycombinator.com/companies/biodelivera), [Aera pipeline](https://aeratx.com/pipeline/), [AbbVie](https://news.abbvie.com/2025-08-19-AbbVie-Completes-Acquisition-of-Capstan-Therapeutics), [Umoja pipeline](https://www.umoja-biopharma.com/our-pipeline/)).
+- **Business Model:** [Inferred]: BioDelivera could license delivery rights by therapeutic program, a model AbbVie and Umoja have used in their delivery-platform collaboration ([AbbVie](https://news.abbvie.com/2024-01-04-AbbVie-and-Umoja-Biopharma-Announce-Strategic-Collaboration-to-Develop-Novel-In-Situ-CAR-T-Cell-Therapies)).
+- **TAM/SAM:** Meticulous Research estimates the adjacent market for lipid nanoparticle delivery beyond the liver and related services at $200–400 million in 2026, with 27% projected annual growth through 2036 ([Meticulous Research](https://www.meticulousresearch.com/meticulous-next/extrahepatic-delivery-outlook-2026-2036)).
+- **GTM / Distribution:** BioDelivera solicits inbound contact through its shared founder inbox on its website and YC launch page ([BioDelivera](https://biodelivera.com/), [Launch YC](https://www.ycombinator.com/companies/biodelivera)).
 
 ## Defensibility
 
-- **Moat today:** The company attributes its platform to five years of programmable-delivery research, while its founder interview describes marker-specific targeting and bacterial self-assembly; patent identifiers and exclusive licensing terms: No public data found ([company team](https://biodelivera.com/team/), [AlbPhD Circle](https://albphdcircle.com/startup/)).
-- **Future moat:** [Inferred]: Reproducible tissue-targeting results and validated manufacturing processes could accumulate platform know-how, but public comparative datasets and commercial manufacturing validation remain unavailable.
-- **Market structure:** [Inferred]: Public evidence establishes no structural restriction preventing existing delivery companies from developing competing carriers.
-- **Commoditization risk:** Aera already develops programmable protein nanoparticles and targeted lipid nanoparticles, demonstrating competing technical routes to tissue-selective delivery; equivalent performance or ease of replication is not established ([Aera science](https://aeratx.com/science/)).
+- **Moat today:** BioDelivera describes GCV as proprietary and traces it to five years of doctoral research ([BioDelivera team](https://biodelivera.com/team/), [YC](https://www.ycombinator.com/companies/biodelivera)).
+- **Future moat:** [Inferred]: Reproducible clinical evidence across multiple therapeutic programs could give partners a reason to reuse GCV, with that advantage contingent on human validation ([YC](https://www.ycombinator.com/companies/biodelivera)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Aera, Capstan, and Umoja already have competing delivery programs, making them potential substitutes for individual indications even where their portfolios differ ([Aera pipeline](https://aeratx.com/pipeline/), [AbbVie](https://news.abbvie.com/2025-08-19-AbbVie-Completes-Acquisition-of-Capstan-Therapeutics), [Umoja pipeline](https://www.umoja-biopharma.com/our-pipeline/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported efficacy in tumors, muscle, and brain; quantitative results and human outcomes: No public data found ([YC, retrieved November 9, 2026, via search snippet](https://www.ycombinator.com/companies/biodelivera)).
-  - First place in UT Dallas’s 2025 student competition, with conflicting official prize figures of $12,000 and $15,000 ([UT Dallas News, May 2025, via search snippet](https://news.utdallas.edu/campus-community/big-idea-competition-2025/), [competition record, via search snippet](https://innovation.utdallas.edu/programs/bigideacompetition/)).
-  - Founder-reported ACS/BrightEdge EDS Phase I grant with Gassensmith Lab; amount: No public data found ([Orikeda LinkedIn, retrieved November 9, 2026, via search snippet](https://www.linkedin.com/in/orikeda-trashi-1290961ba)).
-  - LinkedIn: 226 followers in the indexed snapshot ([company LinkedIn, retrieved November 9, 2026, via search snippet](https://www.linkedin.com/company/biodelivera)).
-  - DraperU Ventures identifies BioDelivera as a portfolio company ([Draper University post on founder LinkedIn, retrieved November 9, 2026, via search snippet](https://www.linkedin.com/in/ikeda-trashi-phd-16aa071b4)).
+  - First place in the UT Dallas Big Idea Competition student track in April 2025, with a $12,000 prize reported by the university’s News Center and a $15,000 prize listed in its competition archive ([UT Dallas News Center](https://news.utdallas.edu/campus-community/big-idea-competition-2025/), May 2025, [UT Dallas competition archive, via search snippet](https://innovation.utdallas.edu/draper-pitch-competition/)).
+  - Texas Trailblazer award for best overall pitch at Nucleate Texas Demo Day ([UT Southwestern](https://www.utsouthwestern.edu/ctplus/stories/2025/nucleate-biotech-event.html), May 2025 event).
+  - Top 50 selection for the 2026 Baylor New Venture Competition ([Baylor University](https://sites.baylor.edu/newventurecompetition/2025/11/17/2026-baylor-new-venture-competition-top-50-teams/), Nov 2025).
+  - Press coverage of the original oncology focus ([Dallas Innovates](https://dallasinnovates.com/twin-chemistry-students-win-first-prize-at-utds-big-idea-competition/), 2025).
+  - YC backing and company-reported efficacy in tumors, muscle, and brain as the platform expanded beyond its original oncology focus ([YC](https://www.ycombinator.com/companies/biodelivera), Fall 2026).
+  - 15,666 views on Orikeda Trashi’s Nov 11 launch post ([Doomers AI](https://doomers.ai/launches/biodelivera-yc-f26), Nov 14, 2026 snapshot).
+  - 962 company LinkedIn followers and 147 company X followers ([LinkedIn](https://www.linkedin.com/company/biodelivera), [X profile mirror](https://xitter.gq/BioDelivera), Nov 2026 snapshots).
+  - Zero open roles on YC’s jobs page ([YC Jobs](https://www.ycombinator.com/companies/biodelivera/jobs), Nov 2026).
 - **Competitors:**
-  - **Aera Therapeutics ($193 million announced financing; revenue unknown):** Combined Series A/B announced February 2023, led by ARCH, GV, and Lux, supports delivery platforms including endogenous human protein nanoparticles ([Aera release](https://aeratx.com/aera-therapeutics-launches-with-193-million-in-financing-to-enable-and-advance-the-next-generation-of-transformative-genetic-medicines/)).
-  - **Sixfold Bioscience ($10.5 million disclosed capital including grants; revenue unknown):** Its December 2021 announcement included a $2.2 million seed close, named Cantos, YC, Lombard Street, and Pi Campus without identifying a lead, and described RNA-focused Mergo carriers ([Sixfold](https://www.sixfold.bio/post/sixfold-bioscience-completes-10-5m-usd-ps7-8m-gbp-seed-financing), [YC date, via search snippet](https://www.ycombinator.com/companies/sixfold-bioscience)).
-  - **ReCode Therapeutics ($425.8 million database-reported funding; revenue unknown):** Uses lipid nanoparticles for genetic medicines, with additional Cystic Fibrosis Foundation funding announced August 2026 at an undisclosed amount ([CB Insights, via search snippet](https://www.cbinsights.com/company/recode-therapeutics/financials), [ReCode](https://recodetx.com/recode-therapeutics-announces-new-funding-from-the-cystic-fibrosis-foundation-collaboration-with-a-leading-gene-editing-company-and-leadership-transition/)).
-- **Why now:** [Inferred]: The 2025 clinical report of patient-specific, lipid-nanoparticle-delivered base editing provides human evidence for programmable genetic payload delivery, while BioDelivera’s broader tissue claims require separate validation ([NEJM, 2025](https://www.nejm.org/doi/full/10.1056/NEJMoa2504747)).
+  - **Aera Therapeutics** ($193 million raised, revenue unknown) develops genetic-medicine and autoimmune programs, with combined Series A and B financing announced in February 2023 and led by ARCH Venture Partners, GV, and Lux Capital ([Aera financing release](https://aeratx.com/aera-therapeutics-launches-with-193-million-in-financing-to-enable-and-advance-the-next-generation-of-transformative-genetic-medicines/), [Aera pipeline](https://aeratx.com/pipeline/)).
+  - **Capstan Therapeutics** ($340 million raised, revenue unknown) focuses on targeted lipid nanoparticles for in vivo CAR-T, with a $175 million Series B led by RA Capital in March 2024 ([Capstan launch release](https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2022-9-14-capstan-therapeutics-launches-with-165-million-to-deliver-on-the-clinical-promise-of-precise-in-vivo-cell-engineering), [Forbion](https://forbion.com/news-insights/news/forbion-invests-in-capstan-therapeutics-with-participation-in-175m-oversubscribed-series-b-financing/), [AbbVie](https://news.abbvie.com/2025-08-19-AbbVie-Completes-Acquisition-of-Capstan-Therapeutics)).
+  - **Umoja Biopharma** ($363 million in disclosed rounds, revenue unknown) develops in vivo CAR-T therapies, with a $100 million Series C co-led by Double Point Ventures and DCVC Bio in January 2025 ([aVenture](https://aventure.vc/companies/umoja-biopharma-seattle-wa-us/fundraising), [Umoja financing release](https://www.umoja-biopharma.com/news/umoja-biopharma-announces-oversubscribed-100-million-series-c-financing-to-advance-in-vivo-car-t-pipeline-through-key-oncology-clinical-milestones/)).
+- **Why now:** [Inferred]: Lilly’s May 2026 acquisition of Orna Therapeutics, announced at up to $2.4 billion, shows pharma demand for a clinical-stage platform in the adjacent targeted-delivery market ([Lilly announcement](https://investor.lilly.com/news-releases/news-release-details/lilly-acquire-orna-therapeutics-advance-cell-therapies), [Lilly SEC filing](https://www.sec.gov/Archives/edgar/data/59478/000005947826000081/lly-20260630.htm)).
 
 ## Founders & Team
 
-- **Ikeda Trashi (Co-founder/CEO):**
-  - Background: UT Dallas biochemistry PhD researching targeted in vivo GCV delivery; prior exits and direct business email: No public data found ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera)).
-  - Twitter/X: @ikeda_trashi; 61 followers in an indexed mirror snapshot ([TwStalker, retrieved November 9, 2026, via search snippet](https://www.twstalker.com/ikeda_trashi)).
-  - LinkedIn: Public profile found; headline not retrievable; displayed reach approximately 2K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/ikeda-trashi-phd-16aa071b4)).
+- **Ikeda Trashi (Co-founder and CEO):**
+  - Background: UT Dallas PhD and drug-delivery researcher, described by YC as a repeat founder ([BioDelivera team](https://biodelivera.com/team/), [UT Dallas](https://news.utdallas.edu/campus-community/big-idea-competition-2025/), [YC founder profile](https://www.ycombinator.com/founders/ikeda-trashi)). Prior venture names, exits, and direct business email: No public data found.
+  - Twitter/X: @ikeda_trashi, 154 followers ([X profile mirror](https://www.nitter.cf/ikeda_trashi), Nov 2026).
+  - LinkedIn: BioDelivera affiliation and 2K followers, headline unavailable ([LinkedIn, via search snapshot](https://www.linkedin.com/in/ikeda-trashi-phd-16aa071b4), Oct 2026).
   - GitHub: No public repos found.
-- **Orikeda Trashi (Co-founder/Chief Scientific Officer & President):**
-  - Background: Company identifies her as a PhD and CSO/President, while YC describes doctoral drug-delivery research underlying GCV; prior exits and direct business email: No public data found ([company team](https://biodelivera.com/team/), [YC, via search snippet](https://www.ycombinator.com/companies/biodelivera)).
-  - Twitter/X: @OTrashi; count not retrievable ([founder-linked posts, via search snippet](https://www.twstalker.com/ikeda_trashi)).
-  - LinkedIn: Public profile found; headline not retrievable; indexed snapshot shows 729 followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/orikeda-trashi-1290961ba)).
+- **Orikeda Trashi (Co-founder, Chief Scientific Officer and President):**
+  - Background: UT Dallas PhD and former graduate teaching assistant whose doctoral drug-delivery research informed GCV ([BioDelivera team](https://biodelivera.com/team/), [YC founder profile](https://www.ycombinator.com/founders/orikeda-trashi), [Crunchbase](https://www.crunchbase.com/person/orikeda-trashi)). Prior ventures, exits, and direct business email: No public data found.
+  - Twitter/X: @OTrashi, 443 followers ([X profile mirror](https://xitter.gq/OTrashi), Nov 2026).
+  - LinkedIn: BioDelivera affiliation and 1K followers, headline unavailable ([LinkedIn, via search snapshot](https://www.linkedin.com/in/orikeda-trashi-phd-1290961ba), Oct 2026).
   - GitHub: No public repos found.
-- **Mateusz Durbacz (Historical co-founder named in an interview; current role unverified):**
-  - Background: The founder interview names him in the founding team; current company role, confirmed career linkage, and direct business email: No public data found ([AlbPhD Circle](https://albphdcircle.com/startup/)).
-  - Twitter/X: No public account found.
-  - LinkedIn: No company-linked profile verified.
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Ikeda and Orikeda are twin sisters who conducted doctoral research at UT Dallas ([UT Dallas News, via search snippet](https://news.utdallas.edu/campus-community/big-idea-competition-2025/)).
-- **Founder-market fit:** Their documented research concerns the delivery platform being commercialized, with Gassensmith Lab named in grant-related work and YC providing backing ([company team](https://biodelivera.com/team/), [founder LinkedIn, via search snippet](https://www.linkedin.com/in/orikeda-trashi-1290961ba), [company website](https://biodelivera.com/)).
+- **Co-founder relationship:** The co-founders are twin sisters who conducted doctoral research at UT Dallas and co-authored a drug-delivery study ([UT Dallas](https://news.utdallas.edu/campus-community/big-idea-competition-2025/), [Acta Biomaterialia](https://pubmed.ncbi.nlm.nih.gov/39694719/)).
+- **Founder-market fit:** Both founders conducted drug-delivery research before commercializing GCV through the Nucleate Activator and Y Combinator ([BioDelivera team](https://biodelivera.com/team/), [UT Southwestern](https://www.utsouthwestern.edu/ctplus/stories/2025/nucleate-biotech-event.html), [YC](https://www.ycombinator.com/companies/biodelivera)).
 
 ## Key Risks
 
-- **Technical translation:** [Inferred]: Reported preclinical tumor efficacy does not establish human targeting, tolerability, or repeat-dose performance; human results: No public data found ([AlbPhD Circle](https://albphdcircle.com/startup/)).
-- **Manufacturing reproducibility:** [Inferred]: The claimed bacterial self-assembly process requires consistent payload loading and targeting across production batches; public commercial-scale validation: No public data found ([AlbPhD Circle](https://albphdcircle.com/startup/)).
-- **Competitive substitution:** [Inferred]: Therapeutic developers can pursue alternative lipid, conjugate, or protein carriers addressing overlapping delivery requirements ([Aera](https://aeratx.com/science/)).
-- **Founder-record discrepancy:** The interview names Durbacz alongside the sisters, while the current company team page identifies only Ikeda and Orikeda as founders ([AlbPhD Circle](https://albphdcircle.com/startup/), [company team](https://biodelivera.com/team/)).
+- **Human tissue selectivity:** [Inferred]: The company’s reported tissue efficacy leaves human selectivity unresolved, and FDA guidance identifies distribution to target and non-target tissues as a development consideration for gene therapies ([YC](https://www.ycombinator.com/companies/biodelivera), [FDA S12 guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s12-nonclinical-biodistribution-considerations-gene-therapy-products)).
+- **Manufacturing consistency:** [Inferred]: Supporting different cargo types could complicate consistent potency across products, an area addressed in FDA’s lifecycle guidance for cellular and gene therapies ([YC](https://www.ycombinator.com/companies/biodelivera), [FDA potency guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products)).
+- **Competition for pharma partners:** [Inferred]: Existing relationships can narrow partnership options in overlapping indications, as AbbVie already has exclusive options with Umoja and owns Capstan ([AbbVie–Umoja agreement](https://news.abbvie.com/2024-01-04-AbbVie-and-Umoja-Biopharma-Announce-Strategic-Collaboration-to-Develop-Novel-In-Situ-CAR-T-Cell-Therapies), [AbbVie acquisition release](https://news.abbvie.com/2025-08-19-AbbVie-Completes-Acquisition-of-Capstan-Therapeutics)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broad-market proxy: targeted delivery, $11.4B in 2025; 15.5% CAGR through 2034 ([CMI, 2026](https://www.custommarketinsights.com/report/targeted-drug-delivery-market/)) |
+| TAM | Adjacent lipid nanoparticle delivery market beyond the liver: $200–400 million in 2026, 27% projected annual growth through 2036 ([Meticulous Research](https://www.meticulousresearch.com/meticulous-next/extrahepatic-delivery-outlook-2026-2036)) |
 | SAM | No public data found |
-| Traction | 2025 competition winner; official prize figures conflict at $12K/$15K ([UT Dallas News, via search snippet](https://news.utdallas.edu/campus-community/big-idea-competition-2025/), [competition record, via search snippet](https://innovation.utdallas.edu/programs/bigideacompetition/)) |
+| Traction | UT Dallas student-track win, $12,000 per the News Center and $15,000 per the competition archive ([UT Dallas News Center](https://news.utdallas.edu/campus-community/big-idea-competition-2025/), [UT Dallas competition archive, via search snippet](https://innovation.utdallas.edu/draper-pitch-competition/), 2025). Texas Trailblazer award ([UT Southwestern](https://www.utsouthwestern.edu/ctplus/stories/2025/nucleate-biotech-event.html), 2025). YC Fall 2026 backing and company-reported efficacy in tumors, muscle, and brain ([YC](https://www.ycombinator.com/companies/biodelivera)). |
 | Revenue Signal | No public data found |
-| Founders | Ikeda Trashi, CEO; Orikeda Trashi, CSO/President; both PhDs ([company team](https://biodelivera.com/team/)) |
-| Competitors | Aera ($193M, revenue unknown, protein carriers); Sixfold ($10.5M including grants, revenue unknown, RNA carriers); ReCode ($425.8M reported, revenue unknown, LNPs) ([Aera](https://aeratx.com/aera-therapeutics-launches-with-193-million-in-financing-to-enable-and-advance-the-next-generation-of-transformative-genetic-medicines/), [Sixfold](https://www.sixfold.bio/post/sixfold-bioscience-completes-10-5m-usd-ps7-8m-gbp-seed-financing), [CB Insights, via search snippet](https://www.cbinsights.com/company/recode-therapeutics/financials)) |
-| Moat Signals | Five years of platform research ([company team](https://biodelivera.com/team/)) |
-| Risk Factors | Preclinical evidence, manufacturing claims, conflicting founder records ([AlbPhD Circle](https://albphdcircle.com/startup/), [company team](https://biodelivera.com/team/)) |
-| Founder Reach | Ikeda: LinkedIn approximately 2K; Orikeda: 729 followers, indexed snapshots ([Ikeda LinkedIn, via search snippet](https://www.linkedin.com/in/ikeda-trashi-phd-16aa071b4), [Orikeda LinkedIn, via search snippet](https://www.linkedin.com/in/orikeda-trashi-1290961ba)) |
-| Distribution Signals | Company LinkedIn: 226 followers, indexed snapshot retrieved November 9, 2026 ([LinkedIn, via search snippet](https://www.linkedin.com/company/biodelivera)) |
-| Emails | founders@biodelivera.com — shared contact ([company website](https://biodelivera.com/)) |
+| Founders | Ikeda Trashi (CEO), UT Dallas PhD and repeat founder ([UT Dallas](https://news.utdallas.edu/campus-community/big-idea-competition-2025/), [YC](https://www.ycombinator.com/founders/ikeda-trashi)). Orikeda Trashi (President and CSO), UT Dallas PhD and drug-delivery researcher ([BioDelivera team](https://biodelivera.com/team/), [YC](https://www.ycombinator.com/founders/orikeda-trashi)). |
+| Competitors | Aera Therapeutics ($193M raised, revenue unknown, genetic-medicine programs, [Aera](https://aeratx.com/aera-therapeutics-launches-with-193-million-in-financing-to-enable-and-advance-the-next-generation-of-transformative-genetic-medicines/)). Capstan Therapeutics ($340M raised, revenue unknown, targeted lipid nanoparticles for CAR-T, [Meticulous Research](https://www.meticulousresearch.com/meticulous-next/extrahepatic-delivery-outlook-2026-2036)). Umoja Biopharma ($363M in disclosed rounds, revenue unknown, in vivo CAR-T pipeline, [aVenture](https://aventure.vc/companies/umoja-biopharma-seattle-wa-us/fundraising), [Umoja](https://www.umoja-biopharma.com/our-pipeline/)). |
+| Moat Signals | Company-described proprietary GCV platform built on five years of research ([BioDelivera team](https://biodelivera.com/team/), [YC](https://www.ycombinator.com/companies/biodelivera)) |
+| Risk Factors | Human tissue selectivity, manufacturing potency, competing pharma relationships ([FDA S12](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/s12-nonclinical-biodistribution-considerations-gene-therapy-products), [FDA potency guidance](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-potency-assurance-cellular-and-gene-therapy-products), [AbbVie](https://news.abbvie.com/2024-01-04-AbbVie-and-Umoja-Biopharma-Announce-Strategic-Collaboration-to-Develop-Novel-In-Situ-CAR-T-Cell-Therapies)) |
+| Founder Reach | Ikeda Trashi: X 154, LinkedIn 2K ([X profile mirror](https://www.nitter.cf/ikeda_trashi), [LinkedIn, via search snapshot](https://www.linkedin.com/in/ikeda-trashi-phd-16aa071b4)). Orikeda Trashi: X 443, LinkedIn 1K ([X profile mirror](https://xitter.gq/OTrashi), [LinkedIn, via search snapshot](https://www.linkedin.com/in/orikeda-trashi-phd-1290961ba)). |
+| Distribution Signals | 15,666 launch-post views, 962 company LinkedIn followers, 147 company X followers ([Doomers AI](https://doomers.ai/launches/biodelivera-yc-f26), [LinkedIn](https://www.linkedin.com/company/biodelivera), [X profile mirror](https://xitter.gq/BioDelivera), Nov 2026) |
+| Emails | founders@biodelivera.com (shared founder inbox, [BioDelivera](https://biodelivera.com/)) |

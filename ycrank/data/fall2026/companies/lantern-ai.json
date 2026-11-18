@@ -1,7 +1,7 @@
 {
   "slug": "lantern-ai",
   "name": "Lantern AI",
-  "oneLiner": "Turn Your Taste Into Hires",
+  "oneLiner": "Agentic Recruiting Platform for Enterprise",
   "metadata": {
     "website": "https://lantern.md",
     "yc_page": "https://www.ycombinator.com/companies/lantern-ai",
@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Human Resources, Recruiting, HR Tech, Talent Acquisition, AI",
     "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/lantern-ai))",
-    "emails": "team@lantern.md ([Lantern](https://lantern.md/))"
+    "emails": "thomas.chan@ourlanterns.com (CEO, [Hong Kong Smart LAB](https://www.smartlab.gov.hk/en/ai_solutions/a-0257)), team@lantern.md (general and privacy, [Lantern](https://lantern.md/privacy-policy)), team@ourlanterns.com (legacy product inquiries, [Lantern Ario, via search snippet](https://www.ourlanterns.com/product/ario)), support@ourlanterns.com (candidate support, [Lantern AI Explainability, via search snippet](https://www.ourlanterns.com/ai-explainability))"
   },
   "tags": [
     "Human Resources",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:06:36.227Z",
+  "memoGeneratedAt": "2026-11-18T00:14:17.460Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 46,
+    "agi": {
+      "score": 48,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 53,
+    "hypergrowth": {
+      "score": 51,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
+    "exit": {
       "score": 43,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 53,
-    "NR": 58,
-    "PG": 56,
-    "PT": 31,
-    "SL": 43,
-    "VK": 32
+    "AGI": 48,
+    "HG": 51,
+    "EXIT": 43
   },
-  "consolidatedAvg": 45.57,
-  "consolidatedRank": 15,
+  "consolidatedAvg": 47.33,
+  "consolidatedRank": 2,
   "traction": {
     "tractionRank": 3,
-    "tractionScore": 91,
-    "tractionReason": "$1M company ARR; interview module retained, product allocation undisclosed"
+    "tractionScore": 95,
+    "tractionReason": "$1M enterprise ARR, 30% monthly growth, 270% net dollar retention"
   },
   "paths": {
     "memo": "fall2026/memos/lantern-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/lantern-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/lantern-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/lantern-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/lantern-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/lantern-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/lantern-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/lantern-ai.md"
+      "agi": "fall2026/evals/agi/lantern-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/lantern-ai.md",
+      "exit": "fall2026/evals/exit/lantern-ai.md"
     }
   }
 }

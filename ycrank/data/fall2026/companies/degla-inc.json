@@ -8,10 +8,10 @@
     "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/degla-inc))",
     "industry": "Industrials / Industrials -> Drones",
     "team_size": "2",
-    "location": "Boston, MA, USA",
+    "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Drones, Aerospace, AI",
     "yc_partner": "Garry Tan ([Y Combinator](https://www.ycombinator.com/companies/degla-inc))",
-    "emails": "ceo@deglai.ai ([Degla website](https://degla.ai)); sales@degla.ai ([company LinkedIn](https://www.linkedin.com/company/deglaai/))"
+    "emails": "ceo@degla.ai (CEO, [Launch YC](https://www.ycombinator.com/launches/XEX-degla-your-intent-onboard-autonomous-execution)), ceo@deglai.ai (CEO, [Degla website](https://degla.ai/)), ceo@deglaai.com (CEO, [alternate Degla landing page](https://deglaai.com/)), sales@degla.ai (sales and pilots, [Degla LinkedIn](https://www.linkedin.com/company/deglaai))"
   },
   "tags": [
     "Hard Tech",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:25:32.672Z",
+  "memoGeneratedAt": "2026-11-18T00:50:02.830Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 40,
+    "agi": {
+      "score": 34,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 40,
-    "NR": 46,
-    "PG": 35,
-    "PT": 28,
-    "SL": 30,
-    "VK": 25
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 36,
-  "consolidatedRank": 138,
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 199,
   "traction": {
-    "tractionRank": 186,
-    "tractionScore": 14,
-    "tractionReason": "Flight demonstration observed by agencies; no disclosed customer contracts"
+    "tractionRank": 202,
+    "tractionScore": 17,
+    "tractionReason": "Field demonstration at REACH, commercial uptake undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/degla-inc.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/degla-inc.md",
-      "elad-gil": "fall2026/evals/elad-gil/degla-inc.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/degla-inc.md",
-      "paul-graham": "fall2026/evals/paul-graham/degla-inc.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/degla-inc.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/degla-inc.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/degla-inc.md"
+      "agi": "fall2026/evals/agi/degla-inc.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/degla-inc.md",
+      "exit": "fall2026/evals/exit/degla-inc.md"
     }
   }
 }

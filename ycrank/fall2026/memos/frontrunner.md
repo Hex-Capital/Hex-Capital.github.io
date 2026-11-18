@@ -1,85 +1,86 @@
 ﻿# Frontrunner
 
-> Cursor for GTM
+> Engineer your GTM
 
 | Field | Value |
 |-------|-------|
 | Website | https://usefr.com/ |
 | YC Page | https://www.ycombinator.com/companies/frontrunner |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/frontrunner)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/frontrunner)) |
 | Industry | B2B / B2B -> Sales |
-| Team Size | 2 |
+| Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Sales, Marketing, AI |
-| YC Partner | Aaron Epstein ([YC](https://www.ycombinator.com/companies/frontrunner)) |
-| Emails | founders@usefr.com ([Frontrunner Terms](https://usefr.com/terms-of-service)) |
+| YC Partner | Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/frontrunner)) |
+| Emails | maya@usefr.com, CEO business contact ([Company Launch Tracker, Oct 2026](https://companylaunchtracker.substack.com/p/company-launch-tracker-115)), founders@usefr.com, general inbox ([Frontrunner](https://usefr.com/about)) |
 
 ## The Idea
 
-- **Problem:** GTM teams repeatedly reconstruct account context across disconnected tools and general-purpose AI sessions instead of retaining information across sales workflows ([YC company profile, retrieved Oct 2026](https://www.ycombinator.com/companies/frontrunner)).
-- **Approach:** Frontrunner connects CRM, email, calendar, product data, and call recordings into a business graph on which agents research accounts, enrich prospects, monitor signals, prioritize targets, and route actions ([YC company profile, retrieved Oct 2026](https://www.ycombinator.com/companies/frontrunner)).
-- **Differentiation:** Frontrunner positions persistent GTM context against standalone Claude sessions, while RegieOne supplies an integrated sales-engagement platform with parallel dialing and Relevance AI supplies an agent builder spanning multiple business functions ([YC](https://www.ycombinator.com/companies/frontrunner), [Regie.ai, Feb 2025](https://regie.ai/blog/introducing-regie-one), [Relevance AI, May 2025](https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission)).
-- **Business Model:** Scope, fees, billing periods, and service levels are specified in individual customer agreements; public prices and company revenue: No public data found ([Frontrunner Terms, effective Aug 2026](https://usefr.com/terms-of-service)).
-- **TAM/SAM:** Adjacent-market context is global sales intelligence, estimated at $5.37B in 2026 with 11.10% CAGR through 2034; Frontrunner-specific TAM/SAM: No public data found ([Fortune Business Insights, Oct 2026](https://www.fortunebusinessinsights.com/sales-intelligence-market-109103)).
-- **GTM / Distribution:** YC launch material and LinkedIn promotion invite GTM teams to request demos; Website not accessible at time of research—the homepage returned no readable content ([LinkedIn](https://www.linkedin.com/company/frontrunnerai/), [website access attempt, Oct 27, 2026](https://usefr.com/)).
+- **Problem:** GTM engineers and revenue operations teams stitch together sales and marketing tools, then manually update qualification rules and buying signals across campaigns whenever targeting changes ([YC company profile](https://www.ycombinator.com/companies/frontrunner)).
+- **Approach:** Frontrunner links CRM, email, calendar, product and call data into a shared graph that agents use to research accounts, route leads, run outbound and incorporate sales outcomes into subsequent workflows ([Launch YC](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
+- **Differentiation:** Frontrunner emphasizes a shared graph that feeds outcomes into multiple agents, Claude Projects organizes knowledge and chats within workspaces, and Clay emphasizes data-provider enrichment and configurable workflows ([Launch YC](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm), [Anthropic](https://support.claude.com/en/articles/9517075-what-are-projects), [Clay](https://www.clay.com/series-c)).
+- **Business Model:** Organization-specific agreements set fees, billing periods and service levels, with no public rate or pricing unit found ([Frontrunner Terms of Service, Aug 2026](https://usefr.com/terms-of-service)).
+- **TAM/SAM:** The Insight Partners estimates the broader global sales engagement software market at $3.89B in 2025, with 10.76% projected CAGR for 2026–2034 ([The Insight Partners, 2026](https://www.theinsightpartners.com/reports/sales-engagement-platform-software-market)).
+- **GTM / Distribution:** Frontrunner directs prospects to a live demo and reports adoption by AI startups, agencies running GTM for clients, and businesses with established sales teams ([Demo page](https://usefr.com/demo), [YC company profile](https://www.ycombinator.com/companies/frontrunner)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Accumulated account context and workflow configurations could create switching costs, but retention and portability evidence is unavailable ([product mechanism described by YC](https://www.ycombinator.com/companies/frontrunner)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given Clay’s overlapping announcement of agents that combine company context and learn from outcomes ([Clay, Sep 2026](https://www.clay.com/blog/series-d)).
-- **Commoditization risk:** [Inferred]: Relevance AI’s existing visual and natural-language agent builders provide an alternative foundation for implementing GTM workflows, although equivalent execution quality is unverified ([Relevance AI, May 2025](https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission)).
+- **Moat today:** Customer-specific playbooks, prompts and configurations that Frontrunner builds are licensed for use within its service by default, creating potential migration work ([Frontrunner Terms of Service, Aug 2026](https://usefr.com/terms-of-service)).
+- **Future moat:** [Inferred]: Accumulated workflow and conversion history could improve account prioritization and make configured agents harder to replace, with public evidence currently limited to company-reported customer outcomes and simulations ([PipelineBench, Oct 2026](https://usefr.com/pipelinebench), [Launch YC](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Unify already uses general-purpose models for prospect research and outreach, and Zoom has added buyer signals and agents through Common Room ([OpenAI, Jun 2025](https://openai.com/index/unify/), [Zoom, Jul 2026](https://www.zoom.com/en/blog/zoom-to-acquire-common-room/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Customer testimonial: 15% higher new-business win rate, without disclosed baseline or measurement period ([company-authored YC launch, retrieved Oct 27, 2026](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
-  - Customer testimonial: 40–50% conversion from signal-based outbound to booked meetings ([YC launch, retrieved Oct 27, 2026](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
-  - Customer testimonial: 10,000+ contacts sourced and enriched ([YC launch, retrieved Oct 27, 2026](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
-  - Customer testimonial: 100+ signal-based opportunities actioned daily ([YC launch, retrieved Oct 27, 2026](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
-  - Company X account @frontrunnerai: 126 followers in a cached snapshot ([TwStalker, retrieved Oct 27, 2026, via search snippet](https://msbrewwc.twstalker.com/frontrunnerai)).
-  - Zero active YC job postings ([YC Jobs, Oct 27, 2026](https://www.ycombinator.com/companies/frontrunner/jobs)).
+  - Customer testimonial: Foresight Health booked 7 meetings in 48 hours after onboarding, according to CEO Tienlan Sun ([Frontrunner homepage, Nov 2026 access](https://usefr.com/)).
+  - Petra Labs and LDGR Systems supplied named testimonials ([Frontrunner homepage, Nov 2026 access](https://usefr.com/)).
+  - Frontrunner reported customer outcomes of 15% higher new-business win rate, 40–50% signal-based outbound conversion to booked meetings, 10,000+ contacts sourced and enriched, and 100+ signal-based opportunities acted on daily ([Launch YC, 2026](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
+  - Maya Nayyar disclosed 7% equity for YC in the October 12 launch video, and YC publishes a $500K standard deal ([Launch Video Company, Oct 2026](https://www.launchvideo.com/directory/frontrunner), [YC standard deal](https://www.ycombinator.com/deal)).
+  - October 12 launch video reached 57,450 views on X ([Launch Video Company, Oct 2026](https://www.launchvideo.com/directory/frontrunner)).
+  - 1,775 LinkedIn followers and 545 X followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/frontrunnerai/), [X profile mirror, Nov 2026](https://nitter.gq/frontrunnerai)).
+  - TechSavvy profiled Bager and Frontrunner on October 27 ([TechSavvy, Oct 2026](https://techsavvy.media/han-startede-sin-foerste-virksomhed-som-14-aarig-nu-er-han-med-i-y-combinator/)).
+  - Company site advertises a Founding Engineer role, and the linked YC board shows 0 listings ([Frontrunner About](https://usefr.com/about), [YC Jobs, Nov 2026](https://www.ycombinator.com/companies/frontrunner/jobs)).
 - **Competitors:**
-  - **Clay ($392M reported total raised, $100M ARR reported Dec 2025):** Data and workflow infrastructure expanding into a self-learning revenue engine overlapping Frontrunner’s positioning; latest announced round was $115M Series D led by Wellington in September 2026 ([funding directory](https://www.clay.com/dossier/clay-funding), [ARR announcement](https://www.clay.com/blog/100m-arr), [round and product announcement](https://www.clay.com/blog/series-d)).
-  - **Regie.ai (over $50M raised, revenue unknown):** Integrated prospecting, engagement, enrichment, and parallel dialing compared with Frontrunner’s orchestration across connected systems; announced a $30M Series B co-led by Scale Venture Partners and Foundation Capital in February 2025, stating the capital was raised the preceding year ([Regie.ai, Feb 2025](https://regie.ai/blog/introducing-regie-one)).
-  - **Relevance AI ($37M reported total raised, revenue unknown):** Agent-building platform covering sales, marketing, support, and operations; announced $24M Series B led by Bessemer in May 2025, while CB Insights lists a subsequent June 2025 extension with undisclosed size ([CB Insights, via search snippet](https://www.cbinsights.com/company/relevance-ai/financials), [company announcement](https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission)).
-- **Why now:** [Inferred]: Natural-language agent creation and visual multi-agent orchestration, described publicly by Relevance AI in May 2025, reduce the engineering work required to configure business agents ([Relevance AI, May 2025](https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission)).
+  - Clay ($392M reported including employee tenders, $100M ARR reached in Dec 2025): enrichment marketplace and configurable workflows, with a $115M Series D led by Wellington Management in September 2026 ([Clay funding](https://www.clay.com/dossier/clay-funding), [Clay ARR](https://www.clay.com/blog/100m-arr), [Clay product](https://www.clay.com/series-c)).
+  - Unify ($58.6M raised, eight-figure 2025 ARR): intent-triggered outbound sequences and account research, with a $40M Series B led by Battery Ventures in July 2025 ([Unify Series B](https://www.unifygtm.com/blog/series-b), [CEO interview, Oct 2026](https://www.withtitan.com/founders/austin)).
+  - Common Room ($52.9M disclosed, revenue unknown): person-level buyer intelligence and signals integrated into Zoom’s revenue platform, after a $32.3M Greylock-led Series B announced in March 2021 and acquisition by Zoom in July 2026 ([aVenture](https://aventure.vc/companies/common-room-seattle-wa-us), [Forbes, Mar 2021](https://tollbit.forbes.com/sites/alexkonrad/2021/03/31/common-room-launches-community-software-with-52-million-funding/), [Zoom filing](https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm)).
+- **Why now:** [Inferred]: Deployment of tool-using models for account research in 2025–2026 made recurring research and outreach preparation practical within connected GTM workflows ([OpenAI, Jun 2025](https://openai.com/index/unify/), [Unify changelog, Mar 2026](https://www.unifygtm.com/changelog/run-ai-research-on-any-company-powered-by-gpt-5)).
 
 ## Founders & Team
 
-- **Maya Nayyar (Founder/CEO):**
-  - Background: Columbia BA in Economics; previously Head of Growth at Console, Growth Lead at Encord, and an associate at Bank of America ([YC founder profile](https://www.ycombinator.com/founders/maya-nayyar)).
-  - Twitter/X: @mayanayyar1; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/maya-nayyar)).
-  - LinkedIn: Headline: No public data found; indexed profile displays 3K followers and 500+ connections ([LinkedIn, retrieved Oct 2026, via search snippet](https://www.linkedin.com/in/mayanayyar)).
+- **Maya Nayyar (CEO):**
+  - Background: Columbia economics BA, former Console Head of Growth, Encord Growth Lead and Bank of America associate ([YC founder profile](https://www.ycombinator.com/founders/maya-nayyar)). Business email: maya@usefr.com ([Company Launch Tracker, Oct 2026](https://companylaunchtracker.substack.com/p/company-launch-tracker-115)).
+  - Twitter/X: @mayanayyar1, 732 followers ([YC founder profile](https://www.ycombinator.com/founders/maya-nayyar), [X profile mirror, Nov 2026](https://teapawt.org/mayanayyar1)).
+  - LinkedIn: Frontrunner affiliation and approximately 5K followers, headline unavailable ([LinkedIn via search snippet](https://www.linkedin.com/in/mayanayyar)).
   - GitHub: No public repos found.
-- **Carl Bager (Founder/CTO):**
-  - Background: Yale BA; previously CEO of Diciv, acquired by Madison AI, Growth Engineering Lead at Encord, and a growth engineer at Instawork and The Org ([YC founder profile](https://www.ycombinator.com/founders/carl-bager)).
-  - Twitter/X: @carlbager; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/carl-bager)).
-  - LinkedIn: Headline: No public data found; indexed profile displays 8K followers and 500+ connections ([LinkedIn, retrieved Oct 2026, via search snippet](https://www.linkedin.com/in/carlbager)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both previously worked at Encord, where colleague James Sutton credited them with implementing website flows and account-intent routing ([Sutton, LinkedIn](https://www.linkedin.com/posts/jsut_lets-call-this-my-public-apology-to-maya-activity-7378805828637700097-LQ1q)).
-- **Founder-market fit:** Documented experience includes GTM leadership, growth engineering, and account-intent workflows; YC is the publicly identified accelerator investor ([Maya’s YC profile](https://www.ycombinator.com/founders/maya-nayyar), [Carl’s YC profile](https://www.ycombinator.com/founders/carl-bager), [YC company profile](https://www.ycombinator.com/companies/frontrunner)).
+- **Carl Bager (CTO):**
+  - Background: Yale BA, former Diciv CEO before its acquisition by Madison AI, Encord Growth Engineering Lead, and growth engineer at Instawork and The Org ([YC founder profile](https://www.ycombinator.com/founders/carl-bager)). Direct business email: No public data found.
+  - Twitter/X: @carlbager, 190 followers ([YC founder profile](https://www.ycombinator.com/founders/carl-bager), [X profile mirror, Nov 2026](https://nitter.gq/carlbager)).
+  - LinkedIn: Frontrunner affiliation and approximately 8K followers, headline unavailable ([LinkedIn via search snippet](https://www.linkedin.com/in/carlbager)).
+  - GitHub: @carlbager, 0 public repositories ([GitHub, Nov 2026](https://github.com/carlbager)).
+- **Co-founder relationship:** Both held growth roles at Encord before Frontrunner ([YC company profile](https://www.ycombinator.com/companies/frontrunner)).
+- **Founder-market fit:** Nayyar led growth at Console and Bager built internal GTM systems at Encord, the same type of work their product automates, and YC assigned Aaron Epstein as primary partner ([Launch YC](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm), [YC company profile](https://www.ycombinator.com/companies/frontrunner)).
 
 ## Key Risks
 
-- **API dependency:** Connected products control API availability and changes, which Frontrunner’s terms exclude from its responsibility ([Frontrunner Terms](https://usefr.com/terms-of-service)).
-- **Execution accuracy:** Agents can write to connected systems, while the terms acknowledge inaccurate AI outputs and assign customers responsibility for reviewing communications ([Frontrunner Terms](https://usefr.com/terms-of-service)).
-- **Competitive overlap:** Clay describes shared business context, autonomous workflows, and outcome-based learning that overlap Frontrunner’s stated mechanism ([Clay, Sep 2026](https://www.clay.com/blog/series-d)).
-- **Outcome verification:** Published customer results omit customer identities, cohort sizes, and measurement windows, limiting independent assessment ([YC launch](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)).
-- **Name collision:** A separate sports-prediction startup also uses Frontrunner; its funding coverage is excluded from this dossier ([The Block, Dec 2022](https://www.theblock.co/news/deals/2022-12-14-susquehanna-bets-on-decentralized-sports-prediction-market-frontrunner-194496)).
+- **Agent reliability:** Frontrunner’s simulations found agents used stale prospect data or stopped early, and its mitigations include record rechecks, resumable runs and send-layer suppression rules ([PipelineBench, Oct 2026](https://usefr.com/pipelinebench)).
+- **Integration dependence:** CRM and outreach workflows rely on third-party APIs whose availability and changes Frontrunner does not control ([Frontrunner Terms of Service](https://usefr.com/terms-of-service)).
+- **Bundled competition:** Zoom combines Common Room’s buyer intelligence and agents with sales conversation data inside Zoom Revenue Accelerator, overlapping with Frontrunner’s account research and prioritization ([Zoom filing, Aug 2026](https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm)).
+- **Name ambiguity:** An unrelated insurance-agency sales tracking product also uses FrontRunner, so search results can mix the two businesses ([FrontRunner insurance software](https://www.imafrontrunner.com/), [YC company profile](https://www.ycombinator.com/companies/frontrunner)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Adjacent sales-intelligence market: $5.37B in 2026, 11.10% CAGR through 2034 ([Fortune Business Insights, 2026](https://www.fortunebusinessinsights.com/sales-intelligence-market-109103)) |
+| TAM | Broader global sales engagement software market: $3.89B in 2025, 10.76% projected CAGR in 2026–2034 ([The Insight Partners](https://www.theinsightpartners.com/reports/sales-engagement-platform-software-market)) |
 | SAM | No public data found |
-| Traction | Customer claims: 15% higher win rate; 40–50% outbound-to-meeting conversion; 10,000+ contacts enriched; 100+ opportunities actioned daily ([YC launch, retrieved Oct 2026](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)) |
-| Revenue Signal | Contract-specific fees and billing periods; public amounts unavailable ([Frontrunner Terms, Aug 2026](https://usefr.com/terms-of-service)) |
-| Founders | Maya Nayyar, CEO: Columbia, Console, Encord ([YC](https://www.ycombinator.com/founders/maya-nayyar)); Carl Bager, CTO: Yale, Encord, Diciv acquisition ([YC](https://www.ycombinator.com/founders/carl-bager)) |
-| Competitors | Clay ($392M reported raised, $100M ARR reported Dec 2025, overlapping revenue engine) ([funding](https://www.clay.com/dossier/clay-funding), [ARR](https://www.clay.com/blog/100m-arr), [product](https://www.clay.com/blog/series-d)); Regie.ai (over $50M raised, revenue unknown, integrated engagement/dialing) ([Regie.ai](https://regie.ai/blog/introducing-regie-one)); Relevance AI ($37M reported raised, revenue unknown, cross-functional agent builder) ([CB Insights, via search snippet](https://www.cbinsights.com/company/relevance-ai/financials), [Relevance AI](https://relevanceai.com/blog/the-ai-workforce-revolution-24m-series-b-to-accelerate-our-mission)) |
-| Moat Signals | No public data found |
-| Risk Factors | API dependence, inaccurate AI outputs ([Frontrunner Terms](https://usefr.com/terms-of-service)); competing shared-context agents ([Clay](https://www.clay.com/blog/series-d)) |
-| Founder Reach | Maya: LinkedIn 3K followers; Carl: LinkedIn 8K followers ([Maya](https://www.linkedin.com/in/mayanayyar), [Carl](https://www.linkedin.com/in/carlbager), retrieved Oct 2026, via search snippets) |
-| Distribution Signals | YC launch and demo solicitation ([YC launch](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)); cached company X count: 126 followers ([TwStalker, retrieved Oct 2026, via search snippet](https://msbrewwc.twstalker.com/frontrunnerai)) |
-| Emails | founders@usefr.com ([Frontrunner Terms](https://usefr.com/terms-of-service)) |
+| Traction | Customer testimonial: Foresight Health booked 7 meetings in 48 hours ([Frontrunner homepage, Nov 2026 access](https://usefr.com/)). Frontrunner reported 15% higher new-business win rate, 40–50% outbound-to-meeting conversion, 10,000+ contacts enriched, and 100+ signal-based opportunities acted on daily ([Launch YC, 2026](https://www.ycombinator.com/launches/VXB-frontrunner-cursor-for-gtm)). |
+| Revenue Signal | Fees and billing periods are set in customer agreements ([Frontrunner Terms of Service, Aug 2026](https://usefr.com/terms-of-service)) |
+| Founders | Maya Nayyar (CEO), Console and Encord growth lead. Carl Bager (CTO), Encord growth engineering lead and former Diciv CEO, acquired by Madison AI ([YC company profile](https://www.ycombinator.com/companies/frontrunner)). |
+| Competitors | Clay ($392M reported including tenders, $100M ARR, enrichment workflows) ([Clay funding](https://www.clay.com/dossier/clay-funding), [Clay ARR](https://www.clay.com/blog/100m-arr)). Unify ($58.6M raised, eight-figure ARR, intent-based outbound) ([CEO interview](https://www.withtitan.com/founders/austin)). Common Room ($52.9M raised, revenue unknown, Zoom-integrated buyer intelligence) ([aVenture](https://aventure.vc/companies/common-room-seattle-wa-us), [Zoom](https://www.zoom.com/en/blog/zoom-to-acquire-common-room/)). |
+| Moat Signals | Organization-specific playbooks and configurations licensed for in-service use by default ([Frontrunner Terms of Service](https://usefr.com/terms-of-service)) |
+| Risk Factors | Agent errors ([PipelineBench](https://usefr.com/pipelinebench)), external API dependency ([Frontrunner Terms of Service](https://usefr.com/terms-of-service)), bundled competition ([Zoom filing](https://www.sec.gov/Archives/edgar/data/1585521/000158552126000121/zm-20260731.htm)) |
+| Founder Reach | Maya: 732 X followers ([X profile mirror](https://teapawt.org/mayanayyar1)), approximately 5K LinkedIn followers ([LinkedIn via search snippet](https://www.linkedin.com/in/mayanayyar)). Carl: 190 X followers ([X profile mirror](https://nitter.gq/carlbager)), approximately 8K LinkedIn followers ([LinkedIn via search snippet](https://www.linkedin.com/in/carlbager)), 0 public GitHub repos ([GitHub](https://github.com/carlbager)). |
+| Distribution Signals | 57,450 X launch views ([Launch Video Company, Oct 2026](https://www.launchvideo.com/directory/frontrunner)), 1,775 LinkedIn followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/frontrunnerai/)), 545 X followers ([X profile mirror, Nov 2026](https://nitter.gq/frontrunnerai)) |
+| Emails | maya@usefr.com, CEO business contact ([Company Launch Tracker, Oct 2026](https://companylaunchtracker.substack.com/p/company-launch-tracker-115)), founders@usefr.com, general inbox ([Frontrunner](https://usefr.com/about)) |

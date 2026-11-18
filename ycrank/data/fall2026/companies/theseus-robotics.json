@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://theseus.bot/",
     "yc_page": "https://www.ycombinator.com/companies/theseus-robotics",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/theseus-robotics))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/theseus-robotics))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "7",
     "location": "ZH, Switzerland",
     "tags": "Hard Tech, Robotics, Retail Tech",
-    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/theseus-robotics))",
-    "emails": "hello@theseusrobotics.ch ([legacy company website](https://www.theseusrobotics.ch/), via search snippet)"
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/theseus-robotics))",
+    "emails": "samarth@theseus.bot, CEO and pilot inquiries ([Launch YC](https://www.ycombinator.com/launches/X2p-theseus-robotics-humanoids-for-the-retail-aisle)), kristof@theseusrobotics.ch, CTO ([Stealth Startup Spy founder profile](https://stealthstartupspy.substack.com/p/stealth-startup-spy-384)). The [company imprint](https://theseus.bot/imprint) and [privacy policy](https://theseus.bot/privacy) mask their contact addresses in the accessible copies."
   },
   "tags": [
     "Hard Tech",
@@ -19,63 +19,39 @@
     "Retail Tech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:59:40.888Z",
+  "memoGeneratedAt": "2026-11-17T23:00:32.570Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 33,
+    "agi": {
+      "score": 43,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 37,
+    "hypergrowth": {
+      "score": 40,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 33,
-    "NR": 37,
-    "PG": 35,
-    "PT": 29,
-    "SL": 32,
-    "VK": 31
+    "AGI": 43,
+    "HG": 40,
+    "EXIT": 39
   },
-  "consolidatedAvg": 35.29,
-  "consolidatedRank": 152,
+  "consolidatedAvg": 40.67,
+  "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 14,
-    "tractionReason": "Private previews advertised; no disclosed customers or deployments"
+    "tractionRank": 96,
+    "tractionScore": 50,
+    "tractionReason": "Two robots live in two stores, additional pilots planned"
   },
   "paths": {
     "memo": "fall2026/memos/theseus-robotics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/theseus-robotics.md",
-      "elad-gil": "fall2026/evals/elad-gil/theseus-robotics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/theseus-robotics.md",
-      "paul-graham": "fall2026/evals/paul-graham/theseus-robotics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/theseus-robotics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/theseus-robotics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/theseus-robotics.md"
+      "agi": "fall2026/evals/agi/theseus-robotics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/theseus-robotics.md",
+      "exit": "fall2026/evals/exit/theseus-robotics.md"
     }
   }
 }

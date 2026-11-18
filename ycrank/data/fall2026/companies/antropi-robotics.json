@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://www.antropi.world/",
     "yc_page": "https://www.ycombinator.com/companies/antropi-robotics",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/antropi-robotics))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/antropi-robotics))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Robotics, Manufacturing",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/antropi-robotics))",
-    "emails": "founders@antropi.world ([company contact page](https://www.antropi.world/request-demo))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/antropi-robotics))",
+    "emails": "founders@antropi.world, shared demo and inquiries inbox ([Antropi demo page](https://www.antropi.world/request-demo), via search snippet)"
   },
   "tags": [
     "Robotics",
     "Manufacturing"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:00:49.689Z",
+  "memoGeneratedAt": "2026-11-17T23:52:30.557Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 53,
+    "agi": {
+      "score": 51,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 62,
+    "hypergrowth": {
+      "score": 48,
       "tier": "Neutral"
     },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
+    "exit": {
       "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 68,
-    "EG": 53,
-    "NR": 62,
-    "PG": 49,
-    "PT": 37,
-    "SL": 42,
-    "VK": 32
+    "AGI": 51,
+    "HG": 48,
+    "EXIT": 42
   },
-  "consolidatedAvg": 49,
+  "consolidatedAvg": 47,
   "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 71,
-    "tractionReason": "Profitable factory; 2,000+ parts shipped; named Pave Robotics order"
+    "tractionRank": 6,
+    "tractionScore": 89,
+    "tractionReason": "$100K October revenue, 2,000+ parts shipped, repeat orders"
   },
   "paths": {
     "memo": "fall2026/memos/antropi-robotics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/antropi-robotics.md",
-      "elad-gil": "fall2026/evals/elad-gil/antropi-robotics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/antropi-robotics.md",
-      "paul-graham": "fall2026/evals/paul-graham/antropi-robotics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/antropi-robotics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/antropi-robotics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/antropi-robotics.md"
+      "agi": "fall2026/evals/agi/antropi-robotics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/antropi-robotics.md",
+      "exit": "fall2026/evals/exit/antropi-robotics.md"
     }
   }
 }

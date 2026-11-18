@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://agentrelay.com",
     "yc_page": "https://www.ycombinator.com/companies/agent-relay",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/agent-relay))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/agent-relay))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Swarm AI, Open Source, AI",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/agent-relay))",
-    "emails": "hello@agentrelay.com ([Support](https://agentrelay.com/support)); hi@agentrelay.com ([Careers](https://agentrelay.com/careers)); founders@agentrelay.com ([YC](https://www.ycombinator.com/companies/agent-relay)); security@agentrelay.com ([Security](https://agentrelay.com/security))"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/agent-relay))",
+    "emails": "founders@agentrelay.com for founder and enterprise inquiries ([Launch YC](https://www.ycombinator.com/launches/WI4-agent-relay-let-your-teams-coding-agents-message-each-other), [Self-hosting docs](https://agentrelay.com/docs/self-hosting/agents/overview)), hello@agentrelay.com for support and privacy ([Agent Relay Support](https://agentrelay.com/support), [Privacy Policy](https://agentrelay.com/privacy)), hi@agentrelay.com for partnership inquiries ([Agent Relay Careers](https://agentrelay.com/careers)), security@agentrelay.com for vulnerability reports ([Agent Relay Security](https://agentrelay.com/security))"
   },
   "tags": [
     "Developer Tools",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:00:54.174Z",
+  "memoGeneratedAt": "2026-11-17T23:50:50.608Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
+    "agi": {
+      "score": 44,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 42,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 45,
-    "NR": 43,
-    "PG": 59,
-    "PT": 36,
-    "SL": 36,
-    "VK": 27
+    "AGI": 44,
+    "HG": 39,
+    "EXIT": 42
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 41,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 49,
-    "tractionReason": "229.6K package downloads; approximately 1,000 stars; sustained team-use testimonial"
+    "tractionRank": 105,
+    "tractionScore": 47,
+    "tractionReason": "Pomerado exchanged 38,000 messages, CLI reached 3,907 weekly downloads"
   },
   "paths": {
     "memo": "fall2026/memos/agent-relay.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/agent-relay.md",
-      "elad-gil": "fall2026/evals/elad-gil/agent-relay.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/agent-relay.md",
-      "paul-graham": "fall2026/evals/paul-graham/agent-relay.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/agent-relay.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/agent-relay.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/agent-relay.md"
+      "agi": "fall2026/evals/agi/agent-relay.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/agent-relay.md",
+      "exit": "fall2026/evals/exit/agent-relay.md"
     }
   }
 }

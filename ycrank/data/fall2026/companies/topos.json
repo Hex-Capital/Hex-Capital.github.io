@@ -1,7 +1,7 @@
 {
   "slug": "topos",
   "name": "Topos",
-  "oneLiner": "Agent swarms for formal verification",
+  "oneLiner": "Agent swarms",
   "metadata": {
     "website": "https://www.toposlab.com",
     "yc_page": "https://www.ycombinator.com/companies/topos",
@@ -11,70 +11,46 @@
     "location": "San Francisco, CA, USA",
     "tags": "Swarm AI, AI",
     "yc_partner": "Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/topos))",
-    "emails": "No public data found"
+    "emails": "contact@toposlab.com — general inquiries ([Topos Contact](https://toposlab.com/contact/))"
   },
   "tags": [
     "Swarm AI",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:13:24.000Z",
+  "memoGeneratedAt": "2026-11-18T00:25:26.112Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
+    "agi": {
       "score": 30,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 25,
+    "hypergrowth": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 29,
-    "NR": 35,
-    "PG": 32,
-    "PT": 31,
-    "SL": 30,
-    "VK": 25
+    "AGI": 30,
+    "HG": 36,
+    "EXIT": 34
   },
-  "consolidatedAvg": 30.57,
-  "consolidatedRank": 220,
+  "consolidatedAvg": 33.33,
+  "consolidatedRank": 235,
   "traction": {
-    "tractionRank": 230,
-    "tractionScore": 1,
-    "tractionReason": "YC participation only; no disclosed usage or commercial contracts"
+    "tractionRank": 196,
+    "tractionScore": 21,
+    "tractionReason": "Research beta accepting access requests, uptake undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/topos.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/topos.md",
-      "elad-gil": "fall2026/evals/elad-gil/topos.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/topos.md",
-      "paul-graham": "fall2026/evals/paul-graham/topos.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/topos.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/topos.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/topos.md"
+      "agi": "fall2026/evals/agi/topos.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/topos.md",
+      "exit": "fall2026/evals/exit/topos.md"
     }
   }
 }

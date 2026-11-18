@@ -5,77 +5,55 @@
   "metadata": {
     "website": "https://chempilot.ai/",
     "yc_page": "https://www.ycombinator.com/companies/chempilotai",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/chempilotai))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/chempilotai))",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "3",
-    "location": "Haifa, Haifa District, Israel",
-    "tags": "Machine Learning, Advanced Materials, Defense",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/chempilotai))",
-    "emails": "contact@chempilot.ai ([company website, via search snippet](https://chempilot.ai/)); alon@technion.ac.il ([CSO’s Technion profile](https://chemeng.technion.ac.il/en/team/alon-grinberg-dana/))"
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, Workflow Automation, Aerospace, Advanced Materials, Defense",
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/chempilotai))",
+    "emails": "sam@chempilot.ai (CEO and launch inquiries, [Launch YC](https://www.ycombinator.com/launches/WhR-chempilot-building-an-autonomous-lab-to-discover-the-next-generation-of-defense-materials))"
   },
   "tags": [
-    "Machine Learning",
+    "Robotics",
+    "Workflow Automation",
+    "Aerospace",
     "Advanced Materials",
     "Defense"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:15:24.215Z",
+  "memoGeneratedAt": "2026-11-18T00:31:22.268Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 29,
-    "NR": 41,
-    "PG": 36,
-    "PT": 31,
-    "SL": 31,
-    "VK": 28
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 34,
-  "consolidatedRank": 179,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 212,
-    "tractionScore": 6,
-    "tractionReason": "Prior research collaboration; no disclosed current commercial customers"
+    "tractionRank": 235,
+    "tractionScore": 1,
+    "tractionReason": "First lab running, no disclosed commercial engagements"
   },
   "paths": {
     "memo": "fall2026/memos/chempilotai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/chempilotai.md",
-      "elad-gil": "fall2026/evals/elad-gil/chempilotai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/chempilotai.md",
-      "paul-graham": "fall2026/evals/paul-graham/chempilotai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/chempilotai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/chempilotai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/chempilotai.md"
+      "agi": "fall2026/evals/agi/chempilotai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/chempilotai.md",
+      "exit": "fall2026/evals/exit/chempilotai.md"
     }
   }
 }

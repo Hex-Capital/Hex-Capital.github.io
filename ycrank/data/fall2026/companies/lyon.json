@@ -1,17 +1,17 @@
 {
   "slug": "lyon",
   "name": "Lyon",
-  "oneLiner": "Foundation models on enterprise transaction data.",
+  "oneLiner": "Foundation models on enterprise event data.",
   "metadata": {
     "website": "https://lyon.so",
     "yc_page": "https://www.ycombinator.com/companies/lyon",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/lyon))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/lyon))",
     "industry": "B2B / B2B -> Analytics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Machine Learning, Finance, Data Science, Big Data",
-    "yc_partner": "Gustaf Alstromer ([YC](https://www.ycombinator.com/companies/lyon))",
-    "emails": "founders@lyon.so ([Lyon](https://lyon.so)); markus@lyon.so ([Höhn](https://markushoehn.com/)); founder profile contacts: gkn@cs.stanford.edu ([Noya](https://www.gabrielnoya.com/)), hoehn@stanford.edu ([Höhn’s GitHub](https://github.com/MarkOfUs))"
+    "yc_partner": "Gustaf Alstromer ([Y Combinator](https://www.ycombinator.com/companies/lyon))",
+    "emails": "markus@lyon.so (Markus Höhn, [founder site](https://markushoehn.com/)), founders@lyon.so (shared inbox and policy contact, [Lyon Privacy Policy](https://lyon.so/privacy.html))"
   },
   "tags": [
     "Machine Learning",
@@ -20,63 +20,39 @@
     "Big Data"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:22:06.245Z",
+  "memoGeneratedAt": "2026-11-18T00:43:41.454Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
+    "agi": {
       "score": 35,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 38,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 47,
-    "NR": 47,
-    "PG": 38,
-    "PT": 35,
-    "SL": 38,
-    "VK": 28
+    "AGI": 35,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 39.57,
-  "consolidatedRank": 70,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 74,
-    "tractionScore": 51,
-    "tractionReason": "Fintech model deployment underway; major insurer engagement; payments undisclosed"
+    "tractionRank": 144,
+    "tractionScore": 37,
+    "tractionReason": "Reported fintech model trial and work with an unnamed insurer"
   },
   "paths": {
     "memo": "fall2026/memos/lyon.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/lyon.md",
-      "elad-gil": "fall2026/evals/elad-gil/lyon.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/lyon.md",
-      "paul-graham": "fall2026/evals/paul-graham/lyon.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/lyon.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/lyon.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/lyon.md"
+      "agi": "fall2026/evals/agi/lyon.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/lyon.md",
+      "exit": "fall2026/evals/exit/lyon.md"
     }
   }
 }

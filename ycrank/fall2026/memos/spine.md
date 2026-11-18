@@ -6,80 +6,86 @@
 |-------|-------|
 | Website | https://www.joinspine.ai/ |
 | YC Page | https://www.ycombinator.com/companies/spine |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/spine)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/spine)) |
 | Industry | B2B / B2B -> Human Resources |
 | Team Size | 0 |
 | Location | San Francisco, CA, USA |
 | Tags | Human Resources, Insurance, SMB |
-| YC Partner | Andrew Miklas ([YC](https://www.ycombinator.com/companies/spine)) |
-| Emails | onur@joinspine.ai ([YC](https://www.ycombinator.com/companies/spine)); tech@tryheal.ai, app support ([App Store](https://apps.apple.com/us/app/spine-family-health/id6503223686)) |
+| YC Partner | Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/spine)) |
+| Emails | onur@joinspine.ai, CEO ([Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)), hello@joinspine.ai, general inquiries ([Crunchbase company profile](https://www.crunchbase.com/organization/spine-1cde)) |
 
 ## The Idea
 
-- **Problem:** Startup founders and finance teams must operate HR software themselves, including carrier coordination, enrollment, payroll issues, and employee questions, which Spine describes as becoming a second job ([YC launch](https://www.ycombinator.com/companies/spine), accessed Oct 2026).
-- **Approach:** Dedicated HR and benefits specialists execute workflows through Slack on customers’ existing HRIS, supplemented by AI for plan analysis and compliance monitoring ([Spine](https://www.joinspine.ai/), Oct 2026).
-- **Differentiation:** Spine operates Rippling, Deel, Gusto, and ADP for customers rather than requiring replacement software, and positions its brokerage service against PEO co-employment ([YC launch](https://www.ycombinator.com/companies/spine); [Spine](https://www.joinspine.ai/)).
-- **Business Model:** Employers pay no setup, administration, or per-employee service fees because insurance carriers pay Spine brokerage commissions; premiums and third-party costs remain payable ([Spine](https://www.joinspine.ai/); [LinkedIn company profile](https://www.linkedin.com/company/joinspine/?viewAsMember=true)).
-- **TAM/SAM:** The broader global employee-benefit brokerage market is estimated at $49.5 billion in 2026, with 5.5% CAGR through 2033; startup-specific SAM: No public data found ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/employee-benefit-broker-market-report), 2026).
-- **GTM / Distribution:** The growth hiring brief specifies founder events, VC portfolio introductions, YC channels, targeted outbound, and referrals from fractional CFOs, HR practitioners, and startup law firms ([YC job posting](https://www.ycombinator.com/companies/spine/jobs/xq4GAY5-growth-community-lead), Oct 2026).
+- **Problem:** At early-stage startups, founders and operations leads using tools such as Rippling or Gusto still handle payroll exceptions, carrier coordination, employee questions and compliance deadlines ([Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)).
+- **Approach:** Spine becomes the benefits broker of record and assigns specialists who take requests in Slack, compare carrier plans, and execute payroll, enrollment and filings in the customer’s existing systems ([Spine product page](https://www.joinspine.ai/)).
+- **Differentiation:** Spine operates inside the customer’s HR system, Rippling and Justworks offer co-employment on their own platforms, and Thatch administers employer allowances for employees to buy individual health plans ([Spine](https://www.joinspine.ai/), [Rippling PEO](https://www.rippling.com/products/hr/peo), [Justworks PEO](https://www.justworks.com/peo/), [Thatch](https://thatch.com/health-benefits-v2)).
+- **Business Model:** Spine charges employers $0 for setup, administration and per-employee service, and collects broker commissions from insurance carriers ([Spine pricing FAQ](https://www.joinspine.ai/#questions), [Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)).
+- **TAM/SAM:** The adjacent U.S. PEO industry generated $446B in 2025 revenue and its worksite employment grew at a 7.2% CAGR from 2008 to 2025, with no public estimate found for Spine’s specific serviceable segment ([NAPEO Industry Footprint, 2026](https://napeo.org/wp-content/uploads/2026/10/PEOIndustryFootprint_WhitePaper2026.pdf)).
+- **GTM / Distribution:** Spine offers a free benefits cost audit, solicits introductions through YC and recruits fractional HR and finance practitioners as referral partners ([Spine](https://www.joinspine.ai/), [Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free), [Spine People Layer](https://www.joinspine.ai/partners/fractional-hr)).
 
 ## Defensibility
 
-- **Moat today:** Spine reports a network of 50+ vetted fractional CFO and HR practitioners exchanging referrals; contractual exclusivity: No public data found ([The People Layer](https://www.joinspine.ai/partners/fractional-hr), Oct 2026).
-- **Future moat:** [Inferred]: Accumulated claims and usage data could improve renewal recommendations, but Acadian describes this data feedback mechanism as a prospective investment thesis ([Acadian Ventures](https://acadianventures.substack.com/p/our-investment-in-spine), Sept 2026).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given overlapping brokerage, payroll, benefits, and compliance offerings from existing providers ([Gusto](https://gusto.com/company-news/series-e-announcement); [Rippling](https://www.rippling.com/blog/series-g-fundraising-tender-offer)).
-- **Commoditization risk:** [Inferred]: Existing benefits brokers could add operational services and HR platforms could expand managed support, although replication costs and delivery performance are undisclosed ([Spine service description](https://www.joinspine.ai/)).
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: Claims and usage history could improve plan recommendations across renewals, but Spine’s investor describes the mechanism as a thesis and provides no measured impact attributable to it ([Acadian Ventures, Sep 2026](https://acadianventures.substack.com/p/our-investment-in-spine)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Rippling already sells compliance and HR support without co-employment, and Bennie already combines insurance brokerage with benefits administration technology ([Rippling HR Services](https://www.rippling.com/products/hr/hr-services), [Bennie](https://www.bennie.com/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - 30+ startup customers, including YC companies, company-reported ([YC launch](https://www.ycombinator.com/companies/spine), observed Oct 27, 2026).
-  - $3 million seed round involving Acadian Ventures, YC, Recursive Ventures, Meridian VC, and Pioneer Fund, investor-reported ([Acadian Ventures](https://acadianventures.substack.com/p/our-investment-in-spine), Sept 29, 2026).
-  - Approximately 15% average customer healthcare savings, company-reported ([YC](https://www.ycombinator.com/companies/spine), Oct 2026).
-  - LinkedIn: 528 followers and an 11–50 employee size band, updating the supplied zero-person field ([LinkedIn](https://www.linkedin.com/company/joinspine/?viewAsMember=true), observed Oct 27, 2026).
-  - Two advertised roles: Growth & Community Lead and Senior Health & Benefits Broker ([YC jobs](https://www.ycombinator.com/companies/spine), Oct 2026).
-  - People Layer: 50+ vetted practitioners ([Spine partner page](https://www.joinspine.ai/partners/fractional-hr), Oct 2026).
-  - Consumer-app history, separate from employer-service traction: Spine: Family Health has 4.9/5 from 582 ratings, including reviews predating its Heal-to-Spine rebranding; the precise business-pivot date is undisclosed ([App Store](https://apps.apple.com/us/app/spine-family-health/id6503223686), observed Oct 27, 2026).
+  - 30+ startups using Spine, including YC companies, according to the founders ([Launch YC, Fall 2026](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)).
+  - About 15% average reduction in customer healthcare costs, as reported by Spine ([Launch YC, Fall 2026](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)).
+  - Approximately 4.4× commission revenue growth over the six months through July 2026 ([Acadian Ventures, Sep 2026](https://acadianventures.substack.com/p/our-investment-in-spine)).
+  - $3M seed round with Acadian Ventures, YC, Recursive Ventures, Meridian VC and Pioneer Fund among the investors ([Acadian Ventures, Sep 29, 2026](https://acadianventures.substack.com/p/our-investment-in-spine)).
+  - Launch YC release announced October 3, 2026 ([Spine’s X announcement, mirrored](https://xitter.cf/JoinSpine/status/2106246789380878836)).
+  - 50+ fractional HR and CFO practitioners in Spine’s partner network, company-reported ([Spine People Layer, accessed Nov 2026](https://www.joinspine.ai/partners/fractional-hr)).
+  - 748 LinkedIn followers and 16 X followers for @JoinSpine ([LinkedIn](https://www.linkedin.com/company/joinspine/), [X profile mirror](https://xitter.cf/joinspine), Nov 2026).
+  - Three open roles in growth and community, benefits brokerage, and AI operations ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/spine/jobs)).
+  - LinkedIn company-size band of 11–50 employees ([Spine LinkedIn profile, Nov 2026](https://www.linkedin.com/company/joinspine/)).
+  - Company profile published by MentionFox ([MentionFox, Oct 2026](https://mentionfox.com/funding/yc-spine)).
 - **Competitors:**
-  - **Rippling** ($1,849 million raised; estimated $1 billion annualized revenue in March 2026): supplies its own HR/IT platform and optional PEO rather than operating customers’ existing stack; $450 million Series G in May 2025, with no lead investor reported ([CB Insights](https://www.cbinsights.com/company/rippling/financials); [Sacra](https://sacra.com/c/rippling/); [Rippling](https://www.rippling.com/blog/series-g-fundraising-tender-offer)).
-  - **Gusto** (approximately $746 million raised; over $1 billion trailing annual revenue reported May 2026): sells payroll and benefits software; latest reported primary financing was a roughly $55 million Series E extension in May 2022 led by T. Rowe Price ([Sacra](https://sacra.com/c/gusto/), [funding report via search snippet](https://sacra-pdfs.s3.us-east-2.amazonaws.com/gusto.pdf); [Gusto revenue announcement](https://gusto.com/company-news/gusto-reaches-1b-in-revenue)).
-  - **Thatch** ($192 million raised; revenue unknown): emphasizes employee-directed health budgets through ICHRA rather than Spine’s broader operational service; $108 million Series C in September 2026, with participating investors named but no single lead specified ([aVenture](https://aventure.vc/companies/thatch-san-francisco-ca-us-1/fundraising); [Thatch](https://thatch.com/blog/thatch-series-c-announcement)).
-- **Why now:** [Inferred]: Employer family-health premiums rose 6% to $26,993 in 2025, increasing the financial incentive to review coverage and brokerage arrangements ([KFF](https://www.kff.org/health-costs/2025-employer-health-benefits-survey/), Oct 2025).
+  - Rippling ($1.8B raised, over $1B ARR): Runs payroll and benefits on its own platform, with a $450M Series G in May 2025 ([Rippling newsroom](https://www.rippling.com/company/newsroom), [Series G announcement](https://www.rippling.com/blog/series-g-fundraising-tender-offer), [CEO Parker Conrad, 2026](https://www.linkedin.com/posts/parkerconrad_rippling-ai-was-the-most-successful-launch-activity-7449995605591883776-aVRW)).
+  - Justworks ($143M raised as of January 2020, $1.008B revenue in the nine months through February 2022): Sells per-employee PEO plans and closed a $50M Series E co-led by Union Square Ventures and FirstMark ([Justworks funding release](https://www.justworks.com/press/press-release/justworks-raises-usd50-million-to-level-the-playing-field-for-small), [pricing](https://www.justworks.com/pricing), [SEC filing](https://www.sec.gov/Archives/edgar/data/1623414/000162828022018013/justworkss-1a4.htm)).
+  - TriNet ($240M gross IPO proceeds in March 2014, $5.0B FY2025 revenue): Sells co-employment PEO and administrative-services packages ([SEC IPO disclosure](https://www.sec.gov/Archives/edgar/data/937098/000156459014003215/tnet-10q_20140630.htm), [FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/937098/000093709826000010/tnet-20251231.htm)).
+  - Bennie ($50M disclosed investment, revenue unknown): Focuses on benefits brokerage and technology for midsize and larger employers, with investment from LNC Partners in December 2025 ([Bennie announcement](https://www.bennie.com/blog/bennie-receives-50-million-strategic-investment-to-accelerate-growth)).
+  - Thatch (at least $186M across Series A–C, revenue unknown): Administers individual health reimbursement arrangements and announced a $108M Series C in September 2026 ([Thatch Series A](https://thatch.com/blog/thatch-series-a-announcement), [Series B](https://thatch.com/blog/thatch-series-b-announcement), [Series C](https://thatch.com/blog/thatch-series-c-announcement)).
+- **Why now:** [Inferred]: A 7.3% rise in average employer health benefit spending per employee in 2026 gives employers a reason to shop plans at renewal ([Mercer employer health survey, Nov 2026](https://www.mercer.com/en-us/insights/us-health-news/2026-survey-employers-doubled-down-on-health-benefit-cost-management/)).
 
 ## Founders & Team
 
 - **Onur Kardesler (Founder/CEO):**
-  - Background: Previously co-founded Firefly; holds an INSEAD MBA and engineering degrees from EPFL and Koç University; prior exit: No public data found ([YC founder profile](https://www.ycombinator.com/founders/onur-kardesler)).
-  - Twitter/X: @okardesler; count not retrievable from X ([YC-linked account](https://www.ycombinator.com/founders/onur-kardesler)).
-  - LinkedIn: Headline: No public data found; indexed profile lists Feed and 5K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/onurkardesler), Oct 2026).
+  - Background: INSEAD MBA, engineering degrees from EPFL and Koç University, and prior co-founder of Firefly and Feed ([YC founder profile](https://www.ycombinator.com/founders/onur-kardesler), [Feed launch](https://www.producthunt.com/products/feed-6?launch=feed-6)). Business email is onur@joinspine.ai ([Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)).
+  - Twitter/X: @okardesler, 420 followers ([YC founder profile](https://www.ycombinator.com/founders/onur-kardesler), [X profile mirror, Nov 2026](https://nitter.gq/okardesler)).
+  - LinkedIn: Headline unavailable in the public preview, which lists Feed ([LinkedIn, via search snippet](https://www.linkedin.com/in/onurkardesler)).
   - GitHub: No public repos found.
-- **Ece Cokar (Founder; COO per investor):**
-  - Background: Oxford-trained lawyer who previously co-founded Feed in 2021; prior exit: No public data found ([YC founder profile](https://www.ycombinator.com/founders/ece-cokar); [Acadian](https://acadianventures.substack.com/p/our-investment-in-spine)).
+- **Ece Cokar (Founder, COO per Acadian Ventures):**
+  - Background: Oxford-trained lawyer and prior co-founder of Feed ([YC founder profile](https://www.ycombinator.com/founders/ece-cokar), [Acadian Ventures](https://acadianventures.substack.com/p/our-investment-in-spine)). Business email: No public data found.
   - Twitter/X: No public account found.
-  - LinkedIn: Headline: No public data found; indexed profile lists Spine and 896 followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/ece-cokar-48319037), Oct 2026).
+  - LinkedIn: Headline unavailable in the public preview, which lists Spine ([LinkedIn, via search snippet](https://www.linkedin.com/in/ece-cokar-48319037)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Both previously worked on Feed, and Acadian describes Spine as their third company together ([Onur LinkedIn](https://www.linkedin.com/in/onurkardesler); [Ece YC](https://www.ycombinator.com/founders/ece-cokar); [Acadian](https://acadianventures.substack.com/p/our-investment-in-spine)).
-- **Founder-market fit:** [Inferred]: Their engineering, legal, and company-operating backgrounds relate to Spine’s software-plus-compliance delivery model; Acadian and YC are disclosed investors ([YC](https://www.ycombinator.com/companies/spine); [Acadian](https://acadianventures.substack.com/p/our-investment-in-spine)).
+- **Co-founder relationship:** Kardesler and Cokar previously co-founded Feed ([Feed launch](https://www.producthunt.com/products/feed-6?launch=feed-6)).
+- **Founder-market fit:** The founders trace Spine to payroll, benefits and compliance work they handled at prior startups, and Cokar brings legal training ([Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free), [YC founder profile](https://www.ycombinator.com/founders/ece-cokar)).
 
 ## Key Risks
 
-- **Savings measurement:** Spine’s homepage simultaneously advertises 25% average healthcare-cost reduction and 15% elsewhere, leaving the measurement basis unclear ([Spine](https://www.joinspine.ai/), Oct 2026).
-- **Carrier-funded service economics:** [Inferred]: Commissions must fund dedicated operational support, creating exposure to commission changes and service workload; Acadian’s approximately 78% contribution margin is explicitly company-modeled ([Acadian](https://acadianventures.substack.com/p/our-investment-in-spine), Sept 2026).
-- **Sensitive-data exposure:** [Inferred]: Processing health information creates privacy and access-control risks; Spine’s policy states that health-data collection requires consent ([Privacy Policy](https://www.joinspine.ai/privacy), July 2026).
-- **Platform overlap:** [Inferred]: HRIS providers can both enable Spine and compete for its customers because payroll, benefits, and compliance already overlap with their offerings ([Gusto](https://gusto.com/company-news/series-e-announcement); [Spine](https://www.joinspine.ai/)).
+- **Commission dependency:** [Inferred]: Lower carrier commissions or a lost broker-of-record appointment could reduce the revenue that pays for payroll and compliance work ([Spine pricing FAQ](https://www.joinspine.ai/)).
+- **Platform dependency:** [Inferred]: Changes to third-party HRIS permissions could interrupt payroll or onboarding, with support for multiple systems reducing reliance on any single vendor ([Spine product page](https://www.joinspine.ai/)).
+- **Filing errors:** [Inferred]: Errors in AI-drafted responses could lead to missed or incorrect filings, and Spine says a specialist checks drafts before submission ([Spine product page](https://www.joinspine.ai/)).
+- **Sensitive data:** [Inferred]: Health and benefits workflows expose employee data to processing and sharing, and Spine’s privacy policy describes consent and deletion rights ([Spine privacy policy](https://www.joinspine.ai/privacy)).
+- **Name collision:** [Inferred]: Search and launch metrics can be misattributed because YC also lists Spine AI, a Summer 2023 agent-workspace company ([YC Spine AI profile](https://www.ycombinator.com/companies/spine-ai)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader employee-benefit brokerage: $49.5B in 2026; 5.5% CAGR, 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/employee-benefit-broker-market-report)) |
+| TAM | Adjacent U.S. PEO market proxy of $446B in 2025 revenue, with 7.2% worksite employment CAGR during 2008–2025 ([NAPEO Industry Footprint, 2026](https://napeo.org/wp-content/uploads/2026/10/PEOIndustryFootprint_WhitePaper2026.pdf)) |
 | SAM | No public data found |
-| Traction | 30+ startups; approximately 15% average healthcare savings, company-reported ([YC](https://www.ycombinator.com/companies/spine), Oct 2026) |
-| Revenue Signal | Carrier-paid commissions; approximately 4.4× commission-revenue growth over six months through July 2026; absolute revenue undisclosed ([Acadian](https://acadianventures.substack.com/p/our-investment-in-spine), Sept 2026) |
-| Founders | Onur Kardesler, CEO: Firefly, INSEAD, engineering; Ece Cokar, founder: Feed, Oxford-trained lawyer ([YC](https://www.ycombinator.com/companies/spine)) |
-| Competitors | Rippling ($1,849M raised, own platform), Gusto (~$746M raised, payroll software), Thatch ($192M raised, revenue unknown, health budgets) ([CB Insights](https://www.cbinsights.com/company/rippling/financials); [Sacra](https://sacra.com/c/gusto/); [aVenture](https://aventure.vc/companies/thatch-san-francisco-ca-us-1/fundraising)) |
-| Moat Signals | 50+ vetted referral practitioners ([Spine People Layer](https://www.joinspine.ai/partners/fractional-hr), Oct 2026) |
-| Risk Factors | Conflicting savings figures; carrier-funded support; health-data handling ([Spine](https://www.joinspine.ai/); [Privacy Policy](https://www.joinspine.ai/privacy)) |
-| Founder Reach | Onur: LinkedIn 5K; Ece: LinkedIn 896 followers ([Onur](https://www.linkedin.com/in/onurkardesler), [Ece](https://www.linkedin.com/in/ece-cokar-48319037), via search snippets, Oct 2026) |
-| Distribution Signals | LinkedIn 528 followers; practitioner referral network; growth/community hiring ([LinkedIn](https://www.linkedin.com/company/joinspine/?viewAsMember=true); [People Layer](https://www.joinspine.ai/partners/fractional-hr); [YC job](https://www.ycombinator.com/companies/spine/jobs/xq4GAY5-growth-community-lead), Oct 2026) |
-| Emails | onur@joinspine.ai ([YC](https://www.ycombinator.com/companies/spine)); tech@tryheal.ai ([App Store](https://apps.apple.com/us/app/spine-family-health/id6503223686)) |
+| Traction | 30+ startups and about 15% average customer healthcare cost reduction ([Launch YC, Fall 2026](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)), $3M seed ([Acadian Ventures, Sep 2026](https://acadianventures.substack.com/p/our-investment-in-spine)) |
+| Revenue Signal | $0 employer setup, administration and per-employee fees, with carrier commissions ([Spine FAQ](https://www.joinspine.ai/)), approximately 4.4× commission revenue growth over six months through July 2026 ([Acadian Ventures, Sep 2026](https://acadianventures.substack.com/p/our-investment-in-spine)) |
+| Founders | Onur Kardesler (CEO), Firefly and Feed co-founder, INSEAD MBA ([YC](https://www.ycombinator.com/founders/onur-kardesler), [Feed launch](https://www.producthunt.com/products/feed-6?launch=feed-6)); Ece Cokar (COO), Feed co-founder and Oxford-trained lawyer ([YC](https://www.ycombinator.com/founders/ece-cokar), [Acadian Ventures](https://acadianventures.substack.com/p/our-investment-in-spine)) |
+| Competitors | Rippling ($1.8B raised, over $1B ARR, proprietary HR platform) ([Rippling](https://www.rippling.com/company/newsroom), [Parker Conrad](https://www.linkedin.com/posts/parkerconrad_rippling-ai-was-the-most-successful-launch-activity-7449995605591883776-aVRW)); Justworks ($143M raised, $1.008B nine-month revenue through February 2022, per-employee PEO) ([Justworks](https://www.justworks.com/press/press-release/justworks-raises-usd50-million-to-level-the-playing-field-for-small), [SEC](https://www.sec.gov/Archives/edgar/data/1623414/000162828022018013/justworkss-1a4.htm)); TriNet ($240M gross IPO proceeds, $5.0B FY2025 revenue, PEO and administrative services) ([SEC IPO disclosure](https://www.sec.gov/Archives/edgar/data/937098/000156459014003215/tnet-10q_20140630.htm), [TriNet Form 10-K](https://www.sec.gov/Archives/edgar/data/937098/000093709826000010/tnet-20251231.htm)); Bennie ($50M disclosed investment, revenue unknown, midsize and large employer brokerage) ([Bennie](https://www.bennie.com/blog/bennie-receives-50-million-strategic-investment-to-accelerate-growth)); Thatch (at least $186M across Series A–C, revenue unknown, individual-plan allowances) ([Thatch Series A](https://thatch.com/blog/thatch-series-a-announcement), [Series B](https://thatch.com/blog/thatch-series-b-announcement), [Series C](https://thatch.com/blog/thatch-series-c-announcement)) |
+| Moat Signals | No public data found |
+| Risk Factors | Carrier commission dependency, third-party HRIS access ([Spine product page](https://www.joinspine.ai/)), employee health data handling ([Spine privacy policy](https://www.joinspine.ai/privacy)) |
+| Founder Reach | Onur Kardesler, 420 X followers ([X profile mirror, Nov 2026](https://nitter.gq/okardesler)), 5K LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/onurkardesler)); Ece Cokar, 896 LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/ece-cokar-48319037)) |
+| Distribution Signals | 50+ partner practitioners ([Spine People Layer](https://www.joinspine.ai/partners/fractional-hr)), 748 LinkedIn followers ([Spine LinkedIn, Nov 2026](https://www.linkedin.com/company/joinspine/)), 16 X followers ([X profile mirror, Nov 2026](https://xitter.cf/joinspine)), three job openings ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/spine/jobs)) |
+| Emails | onur@joinspine.ai, CEO ([Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)), hello@joinspine.ai, general inquiries ([Crunchbase company profile](https://www.crunchbase.com/organization/spine-1cde)) |

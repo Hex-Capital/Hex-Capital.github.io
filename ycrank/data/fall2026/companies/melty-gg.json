@@ -1,80 +1,56 @@
 {
   "slug": "melty-gg",
   "name": "Melty",
-  "oneLiner": "Mashup any game",
+  "oneLiner": "Programmable games for RL and evals",
   "metadata": {
     "website": "https://www.melty.gg",
     "yc_page": "https://www.ycombinator.com/companies/melty-gg",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/melty-gg))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/melty-gg))",
     "industry": "Consumer / Consumer -> Gaming",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Gaming, AI",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/melty-gg))",
-    "emails": "david@melty.gg ([Melty Privacy Policy](https://melty.gg/privacy))"
+    "yc_partner": "David Lieb ([YC company profile](https://www.ycombinator.com/companies/melty-gg))",
+    "emails": "david@melty.gg — David Miller, Gym inquiries, privacy and legal notices ([Launch YC](https://www.ycombinator.com/launches/XT3-melty-gym-programmable-games-for-rl-and-evals), [Melty Privacy Policy](https://melty.gg/privacy), [Melty Terms](https://melty.gg/terms))"
   },
   "tags": [
     "Gaming",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:04:04.455Z",
+  "memoGeneratedAt": "2026-11-17T23:08:56.032Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 37,
+    "agi": {
+      "score": 34,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 35,
-    "NR": 39,
-    "PG": 36,
-    "PT": 32,
-    "SL": 30,
-    "VK": 25
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 33.43,
-  "consolidatedRank": 185,
+  "consolidatedAvg": 35.67,
+  "consolidatedRank": 190,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 44,
-    "tractionReason": "10,611 Discord members; free launcher; active usage undisclosed"
+    "tractionRank": 76,
+    "tractionScore": 54,
+    "tractionReason": "Gym developing custom tasks with teams, Mashups reached 170,000 players"
   },
   "paths": {
     "memo": "fall2026/memos/melty-gg.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/melty-gg.md",
-      "elad-gil": "fall2026/evals/elad-gil/melty-gg.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/melty-gg.md",
-      "paul-graham": "fall2026/evals/paul-graham/melty-gg.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/melty-gg.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/melty-gg.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/melty-gg.md"
+      "agi": "fall2026/evals/agi/melty-gg.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/melty-gg.md",
+      "exit": "fall2026/evals/exit/melty-gg.md"
     }
   }
 }

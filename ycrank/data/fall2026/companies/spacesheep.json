@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://spacesheep.dev/",
     "yc_page": "https://www.ycombinator.com/companies/spacesheep",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/spacesheep))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/spacesheep))",
     "industry": "B2B / B2B -> Productivity",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Generative AI, Consumer, Productivity, Collaboration",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/spacesheep))",
-    "emails": "feedback@spacesheep.dev, support@spacesheep.dev ([YC](https://www.ycombinator.com/companies/spacesheep), [Support](https://spacesheep.dev/support))"
+    "yc_partner": "Pete Koomen ([Y Combinator](https://www.ycombinator.com/companies/spacesheep))",
+    "emails": "michael@spacesheep.dev, CEO ([Company Launch Tracker](https://companylaunchtracker.substack.com/p/company-launch-tracker-120)); feedback@spacesheep.dev, product feedback ([Launch YC](https://www.ycombinator.com/launches/WK8-spacesheep-documents-of-the-future)); support@spacesheep.dev, support, privacy and abuse reports ([Spacesheep Privacy](https://spacesheep.dev/privacy), [Spacesheep Abuse](https://spacesheep.dev/abuse))"
   },
   "tags": [
     "Developer Tools",
@@ -21,63 +21,39 @@
     "Collaboration"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:51:23.991Z",
+  "memoGeneratedAt": "2026-11-17T22:39:20.219Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
+    "agi": {
       "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 38,
-    "NR": 52,
-    "PG": 49,
-    "PT": 28,
-    "SL": 32,
-    "VK": 25
+    "AGI": 38,
+    "HG": 36,
+    "EXIT": 35
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 66,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 139,
-    "tractionScore": 29,
-    "tractionReason": "22 Chrome users; named user example; payments unspecified"
+    "tractionRank": 173,
+    "tractionScore": 31,
+    "tractionReason": "28 Chrome users, three Firefox users, one dashboard example"
   },
   "paths": {
     "memo": "fall2026/memos/spacesheep.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/spacesheep.md",
-      "elad-gil": "fall2026/evals/elad-gil/spacesheep.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/spacesheep.md",
-      "paul-graham": "fall2026/evals/paul-graham/spacesheep.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/spacesheep.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/spacesheep.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/spacesheep.md"
+      "agi": "fall2026/evals/agi/spacesheep.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/spacesheep.md",
+      "exit": "fall2026/evals/exit/spacesheep.md"
     }
   }
 }

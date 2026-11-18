@@ -1,84 +1,85 @@
 ﻿# Faraday
 
-> Agents running manufacturers from the back office to the shop floor
+> Industrial aOS coordinating humans, agents, and machines
 
 | Field | Value |
 |-------|-------|
 | Website | https://faradaycompute.com |
 | YC Page | https://www.ycombinator.com/companies/faraday |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/faraday)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/faraday)) |
 | Industry | Industrials / Industrials |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | B2B, Manufacturing, Enterprise Software, AI |
-| YC Partner | David Lieb ([YC](https://www.ycombinator.com/companies/faraday)) |
-| Emails | team@faradaycompute.com ([Faraday Privacy Policy](https://faradaycompute.com/privacy)) |
+| Tags | B2B, Manufacturing, Enterprise Software, AI, Industrial |
+| YC Partner | David Lieb ([Y Combinator](https://www.ycombinator.com/companies/faraday)) |
+| Emails | team@faradaycompute.com (general inquiries, [Faraday Contact](https://faradaycompute.com/contact?inquiry=industrial-autonomy)) |
 
 ## The Idea
 
-- **Problem:** Manufacturers and distributors coordinate orders, inventory, engineering, and production across fragmented business systems, with manual handoffs and quoting delays described in company posts ([Faraday LinkedIn, Oct 2026](https://www.linkedin.com/company/faraday-compute)).
-- **Approach:** Faraday maps records, dependencies, permissions, and approvals into executable workflows, then uses company-specific reinforcement-learning environments and a shared runtime to coordinate agents, people, and optional robot controllers ([Faraday Platform](https://faradaycompute.com/platform)).
-- **Differentiation:** [Inferred]: Compared with Didero’s procurement focus, Augury’s machine/process-health focus, and Tulip’s frontline operations platform, Faraday targets coordination across back-office workflows and physical execution ([Faraday](https://faradaycompute.com/), [Didero](https://sacra.com/c/didero/), [Augury](https://app.dealroom.co/companies/augury), [Tulip](https://www.tulip.co/about-us/)).
-- **Business Model:** Faraday’s terms describe subscription or agreed-pilot access governed by signed services agreements and applicable fees; public prices and billing units were not found ([Faraday EULA, effective Sep 23, 2026](https://faradaycompute.com/eula)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Faraday offers walkthroughs using prospects’ records, while Rangel reports meeting manufacturers at Fabtech ([Faraday website](https://faradaycompute.com/), [company LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/faraday-compute)).
+- **Problem:** Manufacturers and distributors rely on employees to reconcile orders, schedules, and exceptions across disconnected software, machines, spreadsheets, and email, with bespoke automation historically requiring forward-deployed engineers ([Launch YC](https://www.ycombinator.com/companies/faraday)).
+- **Approach:** Faraday connects existing software and machines through a shared runtime, builds reinforcement-learning environments from each customer’s workflows and data, and uses job checks and employee corrections to improve agents ([Faraday Platform](https://faradaycompute.com/platform), [Y Combinator](https://www.ycombinator.com/companies/faraday)).
+- **Differentiation:** Faraday uses customer-specific simulations and a shared runtime across back-office and shop-floor workflows, while Forgepoint focuses on quote-to-order, Didero on procurement, Evos on capturing expert judgment in logistics workflows, and CADDi on structuring manufacturing data for search and agents ([Faraday Platform](https://faradaycompute.com/platform), [Forgepoint](https://www.globenewswire.com/news-release/2026/10/14/3380766/0/en/forgepoint-raises-9-8m-to-help-manufacturers-quote-faster-and-win-more-business.html), [Didero](https://www.didero.ai/), [Uncork Capital](https://uncorkcapital.com/blog/investing-in-evos), [CADDi](https://caddi.com/en-us/news/announcements/caddi-seriesd-unicorn-status/)).
+- **Business Model:** [Inferred]: Faraday likely negotiates enterprise contracts directly, given its workflow-specific demos and terms covering subscriptions, pilots, and signed order forms ([Faraday](https://faradaycompute.com/), [Faraday EULA](https://faradaycompute.com/eula)).
+- **TAM/SAM:** Grand View Research estimates global manufacturing and industrial agentic AI at $1.4B in 2025 and forecasts 41.5% CAGR from 2026 to 2033, a broader category than Faraday’s target segment ([Grand View Research](https://www.grandviewresearch.com/horizon/statistics/agentic-ai-market/end-use/manufacturing-industrial/global)).
+- **GTM / Distribution:** Faraday offers demos on prospects’ own records, asked for introductions to industrial operators through Launch YC, and advertised inventory and quoting demos at SEMA ([Faraday](https://faradaycompute.com/), [Launch YC](https://www.ycombinator.com/companies/faraday), [Faraday LinkedIn, Nov 2026](https://www.linkedin.com/company/faraday-compute/)).
 
 ## Defensibility
 
-- **Moat today:** Faraday reports a technical performance signal: its GPT-5.5-powered harness scored 96.2 versus the GPT-5.5 baseline’s 71.7, at 2.6 times lower run cost, on its own synthetic industrial benchmark ([Faraday Benchmark](https://faradaycompute.com/faraday-industrial-benchmark)).
-- **Future moat:** [Inferred]: Customer-specific workflow mappings and correction histories could increase switching costs, but public evidence does not establish their accumulated scale or exclusivity ([YC product description](https://www.ycombinator.com/companies/faraday)).
+- **Moat today:** Faraday reported that its manufacturing harness raised benchmark task accuracy from 38% to 94% with the underlying model held fixed ([Faraday Research, Nov 2026](https://faradaycompute.com/research/faraday-cage-m1-d1)).
+- **Future moat:** [Inferred]: Customer-specific workflow rules and correction histories could raise switching costs if agents improve across repeated deployments, a mechanism that still needs longitudinal evidence from live customer systems ([Y Combinator](https://www.ycombinator.com/companies/faraday), [Faraday Research](https://faradaycompute.com/research/faraday-cage-m1-d1)).
 - **Market structure:** No structural barrier identified at this stage.
-- **Commoditization risk:** [Inferred]: ERP vendors, industrial-software providers, and integrators could assemble overlapping agent workflows, as Didero already executes procurement tasks within existing systems and Tulip supplies adaptable frontline software ([Didero announcement, Feb 2026](https://www.prnewswire.com/news-releases/didero-raises-30m-series-a-to-bring-ai-agents-to-global-supply-chains-302686927.html), [Tulip](https://www.tulip.co/about-us/)).
+- **Commoditization risk:** [Inferred]: ERP vendors can bundle overlapping tasks through existing integrations, as shown by Infor’s manufacturing and distribution agents for orders, items, and invoices ([Infor, Oct 2026](https://www.infor.com/en-gb/blog/infor-industry-ai-2026-10-release), [Infor Distribution Enterprise, Oct 2026](https://community.infor.com/releases/october2026/distributionenterprise)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Database-reported $500K financing from YC, dated September 1, 2026 ([CB Insights, via search snippet](https://www.cbinsights.com/company/faraday-systems/financials)).
-  - Company LinkedIn: 57 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/faraday-compute)).
-  - Public industrial benchmark: 74 episodes across 33 scenario families, using synthetic enterprise records ([Faraday Benchmark, accessed Oct 27, 2026](https://faradaycompute.com/faraday-industrial-benchmark)).
-  - Company benchmark repository: 0 stars and 0 forks ([GitHub, accessed Oct 27, 2026](https://github.com/Faraday-Cage-AI/faraday-industrial-benchmark)).
-  - Launch coverage in Founderland ([Founderland, Oct 19, 2026](https://founderland.ai/articles/faraday-launches-ai-agents-for-industrial-manufacturing-mvfgierc)).
-  - YC job postings: 0 ([YC Jobs, accessed Oct 27, 2026](https://www.ycombinator.com/companies/faraday/jobs)).
+  - Customer deployment for an unnamed customer involving a legacy system accessed over remote desktop, with SuperServe credited for resolving a deployment blocker ([Datta Kaligotla on X, mirrored by teapawt, Nov 8, 2026](https://teapawt.org/Dattakaligotla/status/2119570529090977972)).
+  - Public launch on Oct 29, 2026, covered by Reveneau, with a founder profile published by YesPress in September ([Reveneau, Oct 2026](https://reveneau.com/ainews/faraday-yc-fall-2026-company-specific-ai-manufacturers), [YesPress, Sep 2026](https://yespress.io/datta-kaligotla)).
+  - 159 company LinkedIn followers and an announced SEMA demo booth ([Faraday LinkedIn, Nov 2026](https://www.linkedin.com/company/faraday-compute/)).
+  - Public industrial benchmark with 249 tasks across 46 workflow families and 2 GitHub stars ([Faraday Industrial Benchmark](https://faradaycompute.com/faraday-industrial-benchmark), [GitHub, Nov 2026](https://github.com/Faraday-Cage-AI/faraday-industrial-benchmark)).
+  - 0 open roles on the YC jobs page ([Y Combinator Jobs, Nov 2026](https://www.ycombinator.com/companies/faraday/jobs)).
 - **Competitors:**
-  - **Didero** ($37M raised, revenue unknown): concentrates on procurement within existing enterprise systems; its latest disclosed round was $30M Series A, February 12, 2026, co-led by Chemistry and Headline ([Sacra](https://sacra.com/c/didero/), [company announcement](https://www.prnewswire.com/news-releases/didero-raises-30m-series-a-to-bring-ai-agents-to-global-supply-chains-302686927.html)).
-  - **Augury** (approximately $369M raised, revenue unknown): adjacent competitor focused on machine reliability and process optimization; its latest identified round was $75M Series F, February 19, 2025, led by Lightrock ([Dealroom](https://app.dealroom.co/companies/augury), [Augury announcement](https://www.augury.com/media-center/press/augury-announces-75-million-of-funding-and-maintains-1b-valuation-as-it-accelerates-leadership-in-industrial-ai-solutions/)).
-  - **Tulip** (reported $272.9M raised, revenue unknown): adjacent competitor emphasizing operator-configurable frontline applications and composable MES; its latest announced round was $120M Series D in January 2026, led by Mitsubishi Electric ([CB Insights, via search snippet](https://www.cbinsights.com/company/tulip-interfaces), [Tulip](https://www.tulip.co/about-us/)).
-- **Why now:** Rangel attributes the opportunity to improved foundation-model capabilities, arguing that company-specific agent harnesses have become the remaining deployment bottleneck ([Oscar Rangel, Sep 24, 2026](https://oscar-rangel.com/blog/on-industrials)).
+  - Forgepoint ($9.8M raised, seven-figure ARR): Frank automates manufacturer quoting and inside sales, with an Oct 2026 seed led by Primary Venture Partners and a16z speedrun ([Forgepoint](https://www.globenewswire.com/news-release/2026/10/14/3380766/0/en/forgepoint-raises-9-8m-to-help-manufacturers-quote-faster-and-win-more-business.html)).
+  - Evos ($9M raised, crossed $1M ARR): Its agents learn expert decisions in logistics back offices, with an Oct 2026 pre-seed co-led by Uncork Capital and Field Ventures ([Uncork Capital](https://uncorkcapital.com/blog/investing-in-evos)).
+  - Didero ($37M in announced rounds, revenue unknown): It automates purchasing and supplier follow-up, with a $30M Feb 2026 Series A co-led by Chemistry and Headline ([Didero seed announcement](https://www.didero.ai/blog/introducing-didero-ai-procurement), [Didero Series A announcement](https://www.didero.ai/blog/series-a-announcement)).
+  - CADDi ($234M raised, revenue unknown): Its agents use a structured manufacturing data layer, with a $114M Sep 2026 Series D that included Moore Strategic Ventures and Coreline Ventures ([CADDi](https://caddi.com/en-us/news/announcements/caddi-seriesd-unicorn-status/)).
+- **Why now:** [Inferred]: OpenAI’s March 2026 release of native computer use in GPT-5.4 expanded the set of desktop applications agents could operate, relevant to Faraday’s reported remote-desktop deployment ([OpenAI](https://openai.com/index/introducing-gpt-5-4/), [Datta Kaligotla on X, mirrored by teapawt](https://teapawt.org/Dattakaligotla/status/2119570529090977972)).
 
 ## Founders & Team
 
 - **Datta Kaligotla (Founder/CEO):**
-  - Background: University of Maryland alumnus; previously engineering at Microsoft, Endeavor, and Boeing, founding engineering at Handshake AI Enterprise, and quantitative work at Pretium Capital ([YC founder profile](https://www.ycombinator.com/founders/datta-kaligotla)).
-  - Twitter/X: @Dattakaligotla; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/datta-kaligotla)).
-  - LinkedIn: Headline—No public data found; indexed profile shows 5K followers ([LinkedIn, crawled approximately Aug 2026, via search snippet](https://www.linkedin.com/in/datta-kaligotla-b2a0b712a)).
-  - GitHub: No public repos found.
-- **Oscar Rangel (Co-Founder):**
-  - Background: University of Michigan engineering alumnus; previously built factory systems at Worthington Steel, shipped medical devices at Stryker, and worked on projects for NASA astronauts ([YC founder profile](https://www.ycombinator.com/founders/oscar-rangel)).
-  - Twitter/X: @oscarrangelmora; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/oscar-rangel)).
-  - LinkedIn: Profile linked by YC; headline and follower count—No public data found ([YC founder profile](https://www.ycombinator.com/founders/oscar-rangel)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Kaligotla’s enterprise engineering and agent experience and Rangel’s factory-systems experience relate to the integration work Faraday describes; YC is a documented backer ([YC founder profiles](https://www.ycombinator.com/founders/datta-kaligotla), [Rangel profile](https://www.ycombinator.com/founders/oscar-rangel), [Faraday website](https://faradaycompute.com/)).
+  - **Background:** University of Maryland graduate, founding engineer at Handshake AI Enterprise, engineer at Microsoft and Endeavor AI, and quant at Pretium Capital ([YC founder profile](https://www.ycombinator.com/founders/datta-kaligotla)). Direct business email — No public data found.
+  - **Twitter/X:** @Dattakaligotla, 257 followers ([X mirror, Nov 2026, via search snippet](https://teapawt.org/Dattakaligotla)).
+  - **LinkedIn:** Indexed profile lists “Faraday” ([LinkedIn via search snippet](https://www.linkedin.com/in/datta-kaligotla-b2a0b712a)).
+  - **GitHub:** No public repos found.
+- **Oscar Rangel (Founder):**
+  - **Background:** Studied computer science and engineering and mathematics at the University of Michigan, worked at Endeavor AI and Nyne.ai, and built factory systems for Worthington Steel and medical devices at Stryker ([LinkedIn via search snippet](https://www.linkedin.com/in/oscar-rangel), [YC founder profile](https://www.ycombinator.com/founders/oscar-rangel)). Direct business email — No public data found.
+  - **Twitter/X:** @oscarrangelmora, 134 followers ([X mirror, Nov 2026](https://teapawt.org/oscarrangelmora)).
+  - **LinkedIn:** Indexed profile lists “Nyne.ai” ([LinkedIn via search snippet](https://www.linkedin.com/in/oscar-rangel)).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** The founders met at Endeavor AI and worked together deploying software at manufacturers in the Midwest ([Y Combinator announcement reposted by Faraday](https://www.linkedin.com/company/faraday-compute/)).
+- **Founder-market fit:** Kaligotla built enterprise agent environments at Handshake and Rangel built factory software, with YC providing backing and the founders crediting David Lieb and Max Kolysh for guidance ([Y Combinator announcement reposted by Faraday](https://www.linkedin.com/company/faraday-compute/), [Launch YC](https://www.ycombinator.com/companies/faraday), [Faraday](https://faradaycompute.com/)).
 
 ## Key Risks
 
-- **Technical validation:** [Inferred]: Performance on Faraday’s synthetic development suite may not transfer to live factories; its published benchmark supports development comparisons, while its platform describes approval gates and replayable environments as controls ([benchmark card](https://github.com/Faraday-Cage-AI/faraday-industrial-benchmark/blob/main/BENCHMARK_CARD.md), [platform](https://faradaycompute.com/platform)).
-- **Integration dependency:** Third-party outages, permission changes, and data-quality problems can affect connected workflows; Faraday requires separate authorization and agreed controls for write-enabled workflows ([Faraday EULA](https://faradaycompute.com/eula)).
-- **Enterprise data handling:** Selected workflow inputs may reach external model providers, whose retention and processing terms vary by deployment; Faraday specifies customer agreements and deployment-specific data-processing terms ([Faraday Privacy Policy](https://faradaycompute.com/privacy)).
-- **Name ambiguity:** Search results also identify Faraday at faraday.so, a home-services automation company, so its hiring and growth claims must be excluded from this dossier ([Hacker News, Feb 2026](https://news.ycombinator.com/item?id=46857488)).
+- **Technical feasibility:** Faraday’s reported accuracy comes from benchmark environments, and the company says performance must be evaluated against each customer’s workflows, constraints, and exceptions ([Faraday Research](https://faradaycompute.com/research/faraday-cage-m1-d1)).
+- **Legacy integration:** A customer’s lengthy exports over remote desktop blocked deployment until Faraday switched to SuperServe’s sandbox ([Datta Kaligotla on X, mirrored by teapawt](https://teapawt.org/Dattakaligotla/status/2119570529090977972)).
+- **Write permissions:** Agents can produce inaccurate outputs that affect purchasing, inventory, and other operations, with Faraday’s terms requiring separate authorization and agreed controls for write-enabled workflows ([Faraday EULA](https://faradaycompute.com/eula)).
+- **Incumbent substitution:** Infor added agents that can create or update orders, items, and invoices within its distribution suite, overlapping with workflows Faraday sells ([Infor Distribution Enterprise, Oct 2026](https://community.infor.com/releases/october2026/distributionenterprise), [Faraday](https://faradaycompute.com/)).
+- **Name collision:** Faraday Future also uses “Faraday” in its filings, creating scope for mistaken attribution of coverage and financing ([Faraday Future SEC filing](https://www.sec.gov/Archives/edgar/data/1805521/000162828026074167/ffie-20260930.htm), [Y Combinator](https://www.ycombinator.com/companies/faraday)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $1.4B global manufacturing and industrial agentic AI market in 2025, with 41.5% forecast CAGR for 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/horizon/statistics/agentic-ai-market/end-use/manufacturing-industrial/global)) |
 | SAM | No public data found |
-| Traction | 57 LinkedIn followers ([company LinkedIn, Oct 27, 2026](https://www.linkedin.com/company/faraday-compute)); launch coverage ([Founderland, Oct 19, 2026](https://founderland.ai/articles/faraday-launches-ai-agents-for-industrial-manufacturing-mvfgierc)) |
+| Traction | Unnamed customer deployment ([Datta Kaligotla on X, Nov 2026](https://teapawt.org/Dattakaligotla/status/2119570529090977972)), launch coverage ([Reveneau, Oct 2026](https://reveneau.com/ainews/faraday-yc-fall-2026-company-specific-ai-manufacturers)), 159 LinkedIn followers ([Faraday LinkedIn, Nov 2026](https://www.linkedin.com/company/faraday-compute/)), 249 public benchmark tasks and 2 GitHub stars ([Faraday benchmark](https://faradaycompute.com/faraday-industrial-benchmark), [GitHub, Nov 2026](https://github.com/Faraday-Cage-AI/faraday-industrial-benchmark)) |
 | Revenue Signal | No public data found |
-| Founders | Datta Kaligotla, CEO: Maryland, Microsoft, Handshake AI ([YC](https://www.ycombinator.com/founders/datta-kaligotla)); Oscar Rangel, co-founder: Michigan, Worthington Steel, Stryker ([YC](https://www.ycombinator.com/founders/oscar-rangel)) |
-| Competitors | Didero ($37M raised, revenue unknown, procurement focus; [Sacra](https://sacra.com/c/didero/)); Augury (~$369M raised, revenue unknown, machine/process health; [Dealroom](https://app.dealroom.co/companies/augury)); Tulip ($272.9M reported raised, revenue unknown, frontline applications; [CB Insights, via search snippet](https://www.cbinsights.com/company/tulip-interfaces)) |
-| Moat Signals | Company-reported harness score 96.2 versus baseline 71.7 on synthetic workflows ([Faraday Benchmark](https://faradaycompute.com/faraday-industrial-benchmark)) |
-| Risk Factors | AI-output inaccuracies, integration outages, deployment-dependent model-provider processing ([Faraday EULA](https://faradaycompute.com/eula), [Privacy Policy](https://faradaycompute.com/privacy)) |
-| Founder Reach | Datta: LinkedIn 5K followers ([LinkedIn, approximately Aug 2026, via search snippet](https://www.linkedin.com/in/datta-kaligotla-b2a0b712a)) |
-| Distribution Signals | Fabtech prospect conversations ([company LinkedIn, Oct 2026](https://www.linkedin.com/company/faraday-compute)); public benchmark repository, 0 stars ([GitHub, Oct 27, 2026](https://github.com/Faraday-Cage-AI/faraday-industrial-benchmark)) |
-| Emails | team@faradaycompute.com ([Faraday Privacy Policy](https://faradaycompute.com/privacy)) |
+| Founders | Datta Kaligotla (Founder/CEO), Handshake AI Enterprise and Microsoft ([YC founder profile](https://www.ycombinator.com/founders/datta-kaligotla)). Oscar Rangel (Founder), Worthington Steel factory systems and Stryker medical devices ([YC founder profile](https://www.ycombinator.com/founders/oscar-rangel)). |
+| Competitors | Forgepoint ($9.8M raised, seven-figure ARR, industrial quoting) ([Forgepoint](https://www.globenewswire.com/news-release/2026/10/14/3380766/0/en/forgepoint-raises-9-8m-to-help-manufacturers-quote-faster-and-win-more-business.html)), Evos ($9M raised, crossed $1M ARR, logistics operators) ([Uncork Capital](https://uncorkcapital.com/blog/investing-in-evos)), Didero ($37M in announced rounds, revenue unknown, procurement) ([Didero seed](https://www.didero.ai/blog/introducing-didero-ai-procurement), [Didero Series A](https://www.didero.ai/blog/series-a-announcement)), CADDi ($234M raised, revenue unknown, manufacturing data platform) ([CADDi](https://caddi.com/en-us/news/announcements/caddi-seriesd-unicorn-status/)) |
+| Moat Signals | Manufacturing benchmark task accuracy rose from 38% to 94% with Faraday’s harness and the same base model ([Faraday Research, Nov 2026](https://faradaycompute.com/research/faraday-cage-m1-d1)) |
+| Risk Factors | Live-workflow reliability ([Faraday Research](https://faradaycompute.com/research/faraday-cage-m1-d1)), legacy-system integration ([Datta Kaligotla on X](https://teapawt.org/Dattakaligotla/status/2119570529090977972)), ERP-native substitution ([Infor](https://community.infor.com/releases/october2026/distributionenterprise)) |
+| Founder Reach | Datta Kaligotla, 257 X followers ([X mirror, Nov 2026, via search snippet](https://teapawt.org/Dattakaligotla)), 5K LinkedIn followers ([LinkedIn via search snippet](https://www.linkedin.com/in/datta-kaligotla-b2a0b712a)). Oscar Rangel, 134 X followers ([X mirror, Nov 2026](https://teapawt.org/oscarrangelmora)), 1K LinkedIn followers ([LinkedIn via search snippet](https://www.linkedin.com/in/oscar-rangel)). |
+| Distribution Signals | Launch YC and referral request ([Y Combinator, Oct 2026](https://www.ycombinator.com/companies/faraday)), SEMA demo booth announcement ([Faraday LinkedIn, Nov 2026](https://www.linkedin.com/company/faraday-compute/)), demos on prospects’ records ([Faraday](https://faradaycompute.com/)) |
+| Emails | team@faradaycompute.com (general inquiries, [Faraday Contact](https://faradaycompute.com/contact?inquiry=industrial-autonomy)) |

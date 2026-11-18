@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.canos.ai",
     "yc_page": "https://www.ycombinator.com/companies/canos",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/canos))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/canos))",
     "industry": "Healthcare / Healthcare -> Diagnostics",
     "team_size": "0",
     "location": "Oxford, England, United Kingdom",
     "tags": "Anti-Aging, Diagnostics, Biotechnology",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/canos))",
-    "emails": "hello@canos.ai ([Canos](https://www.canos.ai/))"
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/canos))",
+    "emails": "mingshan@canos.ai (CEO, [Launch YC](https://www.ycombinator.com/launches/X1P-canos-cancer-detection-for-dogs-with-a-tube-not-a-drop-of-blood)), ms.tsai@canos.ai (CEO, [Humanimal Trust](https://humanimaltrust.org.uk/canos/)), hello@canos.ai (general and privacy inquiries, [Canos Privacy Policy](https://www.canos.ai/privacy)), contact@canos.ai (previously published for study-data deletion, [Canos study signup](https://www.canos.ai/stories/share), via search snippet)"
   },
   "tags": [
     "Anti-Aging",
@@ -19,63 +19,39 @@
     "Biotechnology"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:57:08.135Z",
+  "memoGeneratedAt": "2026-11-17T22:49:09.392Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 33,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 38,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 33,
-    "NR": 53,
-    "PG": 38,
-    "PT": 35,
-    "SL": 32,
-    "VK": 29
+    "AGI": 37,
+    "HG": 38,
+    "EXIT": 38
   },
-  "consolidatedAvg": 39.29,
-  "consolidatedRank": 74,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 113,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 44,
-    "tractionReason": "Commercial test accepting blood draws and processing samples; volumes undisclosed"
+    "tractionRank": 128,
+    "tractionScore": 39,
+    "tractionReason": "10 clinics and mobile vets onboarding, 150+ show signups"
   },
   "paths": {
     "memo": "fall2026/memos/canos.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/canos.md",
-      "elad-gil": "fall2026/evals/elad-gil/canos.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/canos.md",
-      "paul-graham": "fall2026/evals/paul-graham/canos.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/canos.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/canos.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/canos.md"
+      "agi": "fall2026/evals/agi/canos.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/canos.md",
+      "exit": "fall2026/evals/exit/canos.md"
     }
   }
 }

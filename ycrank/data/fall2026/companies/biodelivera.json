@@ -5,77 +5,55 @@
   "metadata": {
     "website": "https://biodelivera.com/",
     "yc_page": "https://www.ycombinator.com/companies/biodelivera",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera))",
-    "industry": "Healthcare / Healthcare -> Drug Discovery and Delivery",
+    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/biodelivera))",
+    "industry": "Healthcare / Healthcare -> Therapeutics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Gene Therapy, Cell Therapy, Drug Delivery",
-    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/biodelivera))",
-    "emails": "founders@biodelivera.com — shared contact ([company website](https://biodelivera.com/))"
+    "tags": "Gene Therapy, Drug Delivery, Therapeutics, AI, Biotechnology",
+    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/biodelivera))",
+    "emails": "founders@biodelivera.com (shared founder inbox, [BioDelivera](https://biodelivera.com/))"
   },
   "tags": [
     "Gene Therapy",
-    "Cell Therapy",
-    "Drug Delivery"
+    "Drug Delivery",
+    "Therapeutics",
+    "AI",
+    "Biotechnology"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-09T23:56:08.935Z",
+  "memoGeneratedAt": "2026-11-17T22:54:20.770Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 41,
+    "agi": {
+      "score": 34,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 33,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "exit": {
       "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 33,
-    "NR": 50,
-    "PG": 38,
-    "PT": 37,
-    "SL": 30,
-    "VK": 27
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 38
   },
-  "consolidatedAvg": 36.57,
-  "consolidatedRank": 125,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 176,
   "traction": {
-    "tractionRank": 211,
-    "tractionScore": 6,
-    "tractionReason": "Research and competition awards; no disclosed commercial customers"
+    "tractionRank": 236,
+    "tractionScore": 0,
+    "tractionReason": "Research-stage efficacy reported, no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/biodelivera.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/biodelivera.md",
-      "elad-gil": "fall2026/evals/elad-gil/biodelivera.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/biodelivera.md",
-      "paul-graham": "fall2026/evals/paul-graham/biodelivera.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/biodelivera.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/biodelivera.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/biodelivera.md"
+      "agi": "fall2026/evals/agi/biodelivera.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/biodelivera.md",
+      "exit": "fall2026/evals/exit/biodelivera.md"
     }
   }
 }

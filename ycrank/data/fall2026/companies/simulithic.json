@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://simulithic.com",
     "yc_page": "https://www.ycombinator.com/companies/simulithic",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/simulithic))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/simulithic))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
-    "team_size": "2",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/simulithic))",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Infrastructure, AI",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/simulithic))",
-    "emails": "team@simulithic.com ([website](https://www.simulithic.com/)); ryan@simulithic.com ([YC](https://www.ycombinator.com/companies/simulithic)); hello@simulithic.com ([app privacy policy](https://app.simulithic.com/privacy))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/simulithic))",
+    "emails": "ryan@simulithic.com, CEO and demos ([Launch YC](https://www.ycombinator.com/launches/W3D-simulithic-ai-users-that-test-your-app-on-every-device-and-browser)), satyam@simulithic.com, CTO and recruiting ([Singh on X, Nov 2026](https://teapaw.org/KlausCodes/status/2117694293066584142)), team@simulithic.com, general inquiries and privacy ([Simulithic Privacy Policy](https://www.simulithic.com/privacy))"
   },
   "tags": [
     "Developer Tools",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:16:24.328Z",
+  "memoGeneratedAt": "2026-11-18T00:30:37.414Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "agi": {
       "score": 40,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 31,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 47,
-    "NR": 42,
-    "PG": 40,
-    "PT": 31,
-    "SL": 31,
-    "VK": 28
+    "AGI": 40,
+    "HG": 38,
+    "EXIT": 39
   },
-  "consolidatedAvg": 38.29,
-  "consolidatedRank": 90,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 89,
-    "tractionScore": 48,
-    "tractionReason": "Deployed at several YC-to-Series-A companies; payments undisclosed"
+    "tractionRank": 114,
+    "tractionScore": 43,
+    "tractionReason": "Several live deployments, reported doubling on an unspecified metric"
   },
   "paths": {
     "memo": "fall2026/memos/simulithic.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/simulithic.md",
-      "elad-gil": "fall2026/evals/elad-gil/simulithic.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/simulithic.md",
-      "paul-graham": "fall2026/evals/paul-graham/simulithic.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/simulithic.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/simulithic.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/simulithic.md"
+      "agi": "fall2026/evals/agi/simulithic.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/simulithic.md",
+      "exit": "fall2026/evals/exit/simulithic.md"
     }
   }
 }

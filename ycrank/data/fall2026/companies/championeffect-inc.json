@@ -3,15 +3,15 @@
   "name": "ChampionEffect Inc.",
   "oneLiner": "An AI coach for every employee!",
   "metadata": {
-    "website": "https://championeffect.com/home",
+    "website": "https://championeffect.com",
     "yc_page": "https://www.ycombinator.com/companies/championeffect-inc",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/championeffect-inc))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/championeffect-inc))",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, eLearning, AI",
-    "yc_partner": "Christopher Golda ([YC, via search snippet](https://www.ycombinator.com/companies/championeffect-inc))",
-    "emails": "No public data found"
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/championeffect-inc))",
+    "emails": "emre@championeffect.com, Emre Simdi’s business email ([Company Launch Tracker, Oct 2026](https://companylaunchtracker.substack.com/p/company-launch-tracker-116))"
   },
   "tags": [
     "Generative AI",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T06:32:32.580Z",
+  "memoGeneratedAt": "2026-11-17T22:39:49.932Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
+    "agi": {
       "score": 33,
       "tier": "Pass"
     },
-    "sam-lessin": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 39,
-    "NR": 43,
-    "PG": 37,
-    "PT": 33,
-    "SL": 36,
-    "VK": 25
+    "AGI": 33,
+    "HG": 36,
+    "EXIT": 35
   },
-  "consolidatedAvg": 36.57,
-  "consolidatedRank": 126,
+  "consolidatedAvg": 34.67,
+  "consolidatedRank": 213,
   "traction": {
-    "tractionRank": 111,
-    "tractionScore": 42,
-    "tractionReason": "First customer Califrais signed before launch; value undisclosed"
+    "tractionRank": 227,
+    "tractionScore": 6,
+    "tractionReason": "Launch coverage, no disclosed coaching customers"
   },
   "paths": {
     "memo": "fall2026/memos/championeffect-inc.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/championeffect-inc.md",
-      "elad-gil": "fall2026/evals/elad-gil/championeffect-inc.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/championeffect-inc.md",
-      "paul-graham": "fall2026/evals/paul-graham/championeffect-inc.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/championeffect-inc.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/championeffect-inc.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/championeffect-inc.md"
+      "agi": "fall2026/evals/agi/championeffect-inc.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/championeffect-inc.md",
+      "exit": "fall2026/evals/exit/championeffect-inc.md"
     }
   }
 }

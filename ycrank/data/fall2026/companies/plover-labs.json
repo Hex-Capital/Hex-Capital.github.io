@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://ploverlabs.ai/",
     "yc_page": "https://www.ycombinator.com/companies/plover-labs",
-    "batch": "Fall 2026 ([YC, Nov. 2026, via search snippet](https://www.ycombinator.com/companies/plover-labs))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/plover-labs))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, B2B, Enterprise, Enterprise Software, AI",
-    "yc_partner": "Nicolas Dessaigne ([YC, via search snippet](https://www.ycombinator.com/companies/plover-labs))",
-    "emails": "edward@edwardahn.me ([founder website](https://edwardahn.me/))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/plover-labs))",
+    "emails": "edward@edwardahn.me, CEO ([Ahn’s website](https://edwardahn.me/)), zmwang622@gmail.com, CTO ([Wang’s website](https://zmwang622.github.io/))"
   },
   "tags": [
     "Developer Tools",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T06:34:21.561Z",
+  "memoGeneratedAt": "2026-11-17T23:41:05.108Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 59,
+    "agi": {
+      "score": 48,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 41,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 62,
-    "NR": 50,
-    "PG": 54,
-    "PT": 41,
-    "SL": 41,
-    "VK": 28
+    "AGI": 48,
+    "HG": 39,
+    "EXIT": 40
   },
-  "consolidatedAvg": 47.86,
-  "consolidatedRank": 5,
+  "consolidatedAvg": 42.33,
+  "consolidatedRank": 22,
   "traction": {
-    "tractionRank": 6,
-    "tractionScore": 82,
-    "tractionReason": "Five-figure monthly contracts with Envoy and Fieldguide"
+    "tractionRank": 8,
+    "tractionScore": 85,
+    "tractionReason": "Five-figure monthly contracts with paying customers Envoy and Fieldguide"
   },
   "paths": {
     "memo": "fall2026/memos/plover-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/plover-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/plover-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/plover-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/plover-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/plover-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/plover-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/plover-labs.md"
+      "agi": "fall2026/evals/agi/plover-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/plover-labs.md",
+      "exit": "fall2026/evals/exit/plover-labs.md"
     }
   }
 }

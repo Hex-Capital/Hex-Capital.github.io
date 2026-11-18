@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://audora.art",
     "yc_page": "https://www.ycombinator.com/companies/audora",
-    "batch": "Fall 2026 ([YC profile](https://www.ycombinator.com/companies/audora), accessed Oct 27, 2026)",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/audora))",
     "industry": "Consumer / Consumer",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, Consumer, Entertainment",
-    "yc_partner": "Tyler Bosmeny ([YC profile](https://www.ycombinator.com/companies/audora))",
-    "emails": "talent@audora.art ([founder post](https://www.linkedin.com/posts/dhanushrv_i-got-into-y-combinator-im-18-and-a-solo-activity-7480644401665421312-n_mJ)); tristan@audora.art ([team LinkedIn](https://ca.linkedin.com/in/tristan-ly-381432381), via search snippet); hii@rambhat.la ([founder LinkedIn](https://www.linkedin.com/in/dhanushrv), via search snippet); hi@towu.dev ([founder GitHub](https://github.com/TheOnlyWayUp))"
+    "yc_partner": "Tyler Bosmeny ([Y Combinator](https://www.ycombinator.com/companies/audora))",
+    "emails": "hii@rambhat.la, founder contact ([Dhanush R., LinkedIn, via search snippet](https://www.linkedin.com/in/dhanushrv)), hi@towu.dev, founder contact ([Dhanush R., GitHub](https://github.com/TheOnlyWayUp)), talent@audora.art, recruiting ([Dhanush R., LinkedIn](https://www.linkedin.com/posts/dhanushrv_i-got-into-y-combinator-im-18-and-a-solo-activity-7480644401665421312-n_mJ))"
   },
   "tags": [
     "Generative AI",
@@ -19,63 +19,39 @@
     "Entertainment"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:20:45.766Z",
+  "memoGeneratedAt": "2026-11-18T00:40:40.096Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 40,
+    "agi": {
+      "score": 36,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 25,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
+    "exit": {
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 25,
-    "NR": 44,
-    "PG": 41,
-    "PT": 28,
-    "SL": 31,
-    "VK": 23
+    "AGI": 36,
+    "HG": 36,
+    "EXIT": 33
   },
-  "consolidatedAvg": 33.14,
-  "consolidatedRank": 190,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 203,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 24,
-    "tractionReason": "161 reported Product Hunt votes; users and revenue undisclosed"
+    "tractionRank": 103,
+    "tractionScore": 48,
+    "tractionReason": "10,000 waitlisted readers and authors, two inbound leads"
   },
   "paths": {
     "memo": "fall2026/memos/audora.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/audora.md",
-      "elad-gil": "fall2026/evals/elad-gil/audora.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/audora.md",
-      "paul-graham": "fall2026/evals/paul-graham/audora.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/audora.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/audora.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/audora.md"
+      "agi": "fall2026/evals/agi/audora.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/audora.md",
+      "exit": "fall2026/evals/exit/audora.md"
     }
   }
 }

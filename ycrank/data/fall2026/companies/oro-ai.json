@@ -1,81 +1,57 @@
 {
   "slug": "oro-ai",
   "name": "ORO AI",
-  "oneLiner": "Continuously improving evals for agentic commerce",
+  "oneLiner": "Teaching AI the judgment to run businesses",
   "metadata": {
     "website": "https://www.oroagents.com",
     "yc_page": "https://www.ycombinator.com/companies/oro-ai",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/oro-ai))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/oro-ai))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "Vancouver, BC, Canada",
-    "tags": "Crypto / Web3, Consumer Products, AI",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/oro-ai))",
-    "emails": "team@oroagents.com ([ORO website](https://oroagents.com/)); support@oroagents.com ([ORO privacy policy](https://app.oroagents.com/privacy-policy))"
+    "tags": "Deep Learning, Reinforcement Learning, AI",
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/oro-ai))",
+    "emails": "team@oroagents.com for research access and data partnerships ([ORO AI LinkedIn](https://www.linkedin.com/company/oro-agents)), support@oroagents.com for support and privacy ([ORO Privacy & Terms](https://oroagents.com/privacy-policy))"
   },
   "tags": [
-    "Crypto / Web3",
-    "Consumer Products",
+    "Deep Learning",
+    "Reinforcement Learning",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:53:45.094Z",
+  "memoGeneratedAt": "2026-11-17T23:41:30.831Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 44,
+    "agi": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 44,
-    "NR": 53,
-    "PG": 55,
-    "PT": 38,
-    "SL": 31,
-    "VK": 35
+    "AGI": 39,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 44.71,
-  "consolidatedRank": 19,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 44,
-    "tractionReason": "345+ competing agents; 4.89M scored trajectories; customer revenue undisclosed"
+    "tractionRank": 174,
+    "tractionScore": 31,
+    "tractionReason": "670 monthly benchmark downloads, GetASAP helped calibrate simulations"
   },
   "paths": {
     "memo": "fall2026/memos/oro-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/oro-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/oro-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/oro-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/oro-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/oro-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/oro-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/oro-ai.md"
+      "agi": "fall2026/evals/agi/oro-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/oro-ai.md",
+      "exit": "fall2026/evals/exit/oro-ai.md"
     }
   }
 }

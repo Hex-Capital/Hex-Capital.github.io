@@ -1,17 +1,17 @@
 {
   "slug": "preload",
   "name": "Preload",
-  "oneLiner": "Sensorimotor context for physical AI",
+  "oneLiner": "Multisensory systems (EMG+tactile+video) for training physical AI",
   "metadata": {
     "website": "https://preload.ai",
     "yc_page": "https://www.ycombinator.com/companies/preload",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/preload))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/preload))",
     "industry": "B2B / B2B",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Neurotechnology, Robotics, Robotic Surgery, B2B, AI",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/preload))",
-    "emails": "tony@preload.ai, surya@preload.ai ([founder post reproduced on LinkedIn](https://fr.linkedin.com/in/lucas-fridman), via search snippet)"
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/preload))",
+    "emails": "surya@preload.ai — Surya Pandiaraju, robotics data inquiries ([launch post reproduced by Digg](https://digg.com/ai/3dqrswvp)); tony@preload.ai — Runming Wang, robotics data inquiries ([Wang’s LinkedIn post via search snippet](https://www.linkedin.com/in/christinezhwei))"
   },
   "tags": [
     "Neurotechnology",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:09:31.067Z",
+  "memoGeneratedAt": "2026-11-17T23:19:43.941Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 31,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 34,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 31,
-    "NR": 34,
-    "PG": 33,
-    "PT": 27,
-    "SL": 30,
-    "VK": 25
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 199,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 15,
-    "tractionReason": "Sensor launch demonstration; no disclosed customer deployments or revenue"
+    "tractionRank": 200,
+    "tractionScore": 18,
+    "tractionReason": "Proception demonstration, no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/preload.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/preload.md",
-      "elad-gil": "fall2026/evals/elad-gil/preload.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/preload.md",
-      "paul-graham": "fall2026/evals/paul-graham/preload.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/preload.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/preload.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/preload.md"
+      "agi": "fall2026/evals/agi/preload.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/preload.md",
+      "exit": "fall2026/evals/exit/preload.md"
     }
   }
 }

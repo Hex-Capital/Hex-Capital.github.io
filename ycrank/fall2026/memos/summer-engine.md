@@ -6,82 +6,82 @@
 |-------|-------|
 | Website | https://www.summerengine.com |
 | YC Page | https://www.ycombinator.com/companies/summer-engine |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/summer-engine)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/summer-engine)) |
 | Industry | Consumer / Consumer -> Gaming |
-| Team Size | 3 |
+| Team Size | 3 ([Y Combinator](https://www.ycombinator.com/companies/summer-engine)) |
 | Location | San Francisco, CA, USA |
 | Tags | Gaming, AI |
-| YC Partner | Garry Tan ([YC](https://www.ycombinator.com/companies/summer-engine)) |
-| Emails | founders@summerengine.com — shared founders/sales ([Pricing](https://www.summerengine.com/pricing)); support@summerengine.com — support/privacy ([Contact](https://www.summerengine.com/contact)); dpo@summerengine.com — historical DPO address, September 2026 policy via search snippet, absent from current policy ([Privacy](https://www.summerengine.com/privacy)) |
+| YC Partner | Garry Tan ([Y Combinator](https://www.ycombinator.com/companies/summer-engine)) |
+| Emails | founders@summerengine.com (Mathias Heide’s published contact and shared sales inbox, [LinkedIn Jobs](https://dk.linkedin.com/jobs/view/ai-game-developer-internship-designers-vibe-coders-welcome-at-summer-engine-4426361474), [Summer Pricing](https://www.summerengine.com/pricing)), support@summerengine.com (product, billing, privacy, [Summer Contact](https://www.summerengine.com/contact)) |
 
 ## The Idea
 
-- **Problem:** Aspiring game makers must integrate generated code with scenes, assets, and engine systems, work Summer says remains after using coding agents with conventional game-development workflows ([Summer About](https://www.summerengine.com/about)).
-- **Approach:** Summer modifies Godot so agents can manipulate projects, scenes, code, and assets, then connects creation to hosted multiplayer, publishing, and analytics ([About](https://www.summerengine.com/about), [Product](https://www.summerengine.com)).
-- **Differentiation:** Summer offers an editable desktop engine and external-agent connections, whereas Rosebud emphasizes browser-based prompt-to-play creation and GDevelop centers visual event logic with integrated AI ([Summer](https://www.summerengine.com/source-status), [Rosebud](https://rosebud.ai/), [GDevelop](https://gdevelop.io/page/gdevelop-for-game-studios-indies-and-education)).
-- **Business Model:** Free editor/local MCP access accompanies hosted-AI subscriptions at $20/month Pro, $60 Pro+, and $200 Ultra, while the creator program allocates Summer 30% of applicable Sparks spending ([Pricing](https://www.summerengine.com/pricing), [Creator Terms](https://www.summerengine.com/legal/creator-program)).
-- **TAM/SAM:** The broader game-engine market is estimated at $4.2 billion in 2026 with 15.6% CAGR through 2033, but this includes uses beyond Summer’s segment; specific SAM: No public data found ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/game-engines-market-report)).
-- **GTM / Distribution:** Summer recruits regional ambassadors through Discord, supports community content with credits, and hosts game jams that direct submissions onto Summer Games ([Ambassadors](https://www.summerengine.com/ambassadors), [itch.io](https://itch.io/jam/summer-games-weekly-jam-3)).
+- **Problem:** Indie developers and hobbyists can prototype games with general-purpose AI tools, but adding multiplayer, analytics, payments, and publishing still requires separate implementation work ([Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai), Nov 2026).
+- **Approach:** Summer gives a built-in assistant or external coding agent access to scenes, scripts, and assets in a Godot-based editor, with hosted multiplayer, publishing, and analytics accessible through the same workflow ([Summer About](https://www.summerengine.com/about), [Summer GitHub](https://github.com/SummerEngine/summer)).
+- **Differentiation:** Summer combines external-agent control with editable Godot-compatible projects and its own player portal, while Roblox Build creates Roblox experiences and Unity AI works inside the Unity editor ([Summer Games](https://summer.games/build), [Roblox Creator Hub](https://create.roblox.com/docs/ai/build), [Unity AI](https://unity.com/blog/unity-ai-how-to-get-started)).
+- **Business Model:** The editor, manual exports, and external-agent connection are free, with paid hosted-AI tiers at $20/month for Pro, $60/month for Pro+, and $200/month for Ultra ([Summer Pricing](https://www.summerengine.com/pricing), Nov 2026).
+- **TAM/SAM:** Reports and Data estimated the global AI game engine market at $1.5B in 2024 and projected 13.5% annual growth through 2034 ([Reports and Data](https://www.reportsanddata.com/report-detail/ai-game-engine-market), Dec 2025).
+- **GTM / Distribution:** Summer reports word-of-mouth acquisition and distributes through a free desktop editor, browser creation, and community game jams ([YC on LinkedIn](https://www.linkedin.com/company/summerengine/), [Summer Browser Launch](https://www.summerengine.com/blog/build-your-game-in-the-browser), [Summer Game Jams](https://www.summerengine.com/jam)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Connected creator, player, and modder participation could produce network effects, but public retention and cross-side conversion data were not found ([Summer About](https://www.summerengine.com/about)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given GDevelop already combines AI assistance, publishing, multiplayer, and analytics ([GDevelop Pricing](https://gdevelop.io/pricing)).
-- **Commoditization risk:** Competing developers can reuse Summer’s MIT-licensed agent layer, although its proprietary desktop application and hosted infrastructure are outside that public codebase ([Source Status](https://www.summerengine.com/source-status)).
+- **Moat today:** Creators can reuse 240,000+ community-made assets, an existing supply-side network signal reported at launch ([Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai), Nov 2026).
+- **Future moat:** [Inferred]: Games, reusable assets, and player feedback could attract more creators and players to Summer Games, but public marketplace retention and repeat-publishing data are unavailable ([Summer About](https://www.summerengine.com/about)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Unity, Roblox, and GDevelop already connect coding agents to their editors through MCP, giving creators access to agent-assisted workflows in tools they already use ([Unity AI](https://unity.com/blog/unity-ai-how-to-get-started), [Roblox Newsroom](https://about.roblox.com/newsroom/2026/11/building-the-next-era-of-creation-on-roblox), [GDevelop Docs](https://wiki.gdevelop.io/gdevelop5/interface/ai/mcp/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Public agent repository: 97 stars and 9 forks ([GitHub, retrieved November 9, 2026](https://github.com/SummerEngine/summer)).
-  - Discord: approximately 1,140 members in a third-party invite-API snapshot ([GuildRegister, retrieved November 9, 2026](https://guildregister.com/guild/1349000131802042429)).
-  - Company X account @SummerEngineCom: 537 followers in a mirrored snapshot ([Sotwe, retrieved November 9, 2026](https://www.sotwe.com/SummerEngineCom)).
-  - Company LinkedIn: 126 followers ([LinkedIn, retrieved November 9, 2026](https://www.linkedin.com/company/summerengine/)).
-  - Product Hunt: 2 followers, 2 launch points, and no reviews ([Product Hunt, retrieved November 9, 2026](https://www.producthunt.com/products/summer-engine)).
-  - Weekly game jam: 5 submissions during October 19–25, with other engines permitted, so entries are not an engine-adoption count ([itch.io, October 2026](https://itch.io/jam/summer-games-weekly-jam-3)).
-  - Website traffic: approximately 6,500 monthly visits, explicitly a third-party estimate ([INITE Atlas, September 2026 estimate](https://inite.ai/en/atlas/summerengine.com)).
-  - Product coverage: asset-generation update covered by AICrier ([AICrier, October 15, 2026](https://aicrier.com/post/0jvt5qeon2i49xts0ijq)).
-  - YC job board: 0 postings ([YC, retrieved November 9, 2026](https://www.ycombinator.com/companies/summer-engine)).
+  - 60,000+ users acquired organically and 40% revenue growth over the preceding 30 days, both company-reported ([Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai), Nov 12, 2026).
+  - Initial public release on Jan 27, 2026 ([Summer Changelog](https://www.summerengine.com/changelog/0.1.0)).
+  - 109 stars for the MIT-licensed MCP and CLI repository ([GitHub](https://github.com/SummerEngine/summer), Nov 2026).
+  - 2,966 weekly npm downloads for `summer-engine`, the MCP and CLI package ([PluginStats, npm API data](https://www.pluginstats.com/plugins/npm/summer-engine), Nov 15, 2026).
+  - 554 LinkedIn followers and 579 X followers for @SummerEngineCom ([LinkedIn](https://www.linkedin.com/company/summerengine/), [teapawt X mirror](https://xitter.gq/SummerEngineCom), Nov 2026).
+  - An estimated 6,194 Google search visits to summerengine.com ([RankDude](https://rankdude.ai/statistics/ai-tools-statistics/summer-engine-statistics), Oct 2026).
+  - 13 entries in Summer Engine Jam #1 ([itch.io](https://itch.io/jam/summer-engine-jam), Jun 2026).
+  - Six Steam reviews for *Don’t Pray*, Summer’s engine showcase game ([Summer Games & Jams](https://www.summerengine.com/games), [Steam](https://store.steampowered.com/app/4176260), Oct 2026 snapshot).
+  - Zero open YC listings as of Nov 2026, and applications closed for a previously advertised Copenhagen game-developer internship ([YC Jobs](https://www.ycombinator.com/companies/summer-engine/jobs), [LinkedIn Jobs](https://dk.linkedin.com/jobs/view/ai-game-developer-internship-designers-vibe-coders-welcome-at-summer-engine-4426361474)).
 - **Competitors:**
-  - **Rosebud AI ($8.8M reported raised, revenue unknown):** Browser-based creation versus Summer’s desktop engine; a funding database lists its latest round as $6.6M Series A in December 2021 led by Animoca Brands ([The Company Check](https://www.thecompanycheck.com/company/b/rose-bud/ztn3u206vlqoy14qp), [Rosebud](https://rosebud.ai/)).
-  - **Astrocade ($56M reported total, revenue unknown):** Natural-language game creation within a social entertainment platform versus Summer’s exportable engine workflow; Dentsu disclosed a Sequoia-led Series B in May 2026 without separating its amount ([Dentsu, May 11, 2026](https://www.group.dentsu.com/en/news/release/001671.html)).
-  - **GDevelop ($2.29M reported raised, revenue unknown):** Visual event-based creation plus AI versus Summer’s Godot-derived engine; CB Insights lists $890K in July 2023 with Seedcamp among investors, without identifying a lead ([CB Insights, via search snippet](https://www.cbinsights.com/company/gdevelop/financials), [GDevelop](https://gdevelop.io/page/gdevelop-for-game-studios-indies-and-education)).
-- **Why now:** [Inferred]: Agents moving from code suggestions into live scene manipulation makes integrated game-building workflows possible, illustrated by Summer’s September 10, 2026 conversational scene-editing release ([Changelog](https://www.summerengine.com/changelog)).
+  - **Astrocade** ($68M across announced rounds, revenue unknown): prompt-to-play social games and remixes, compared with Summer’s editable engine projects and standalone exports ([Astrocade Seed Announcement](https://gamesbeat.com/astrocade-raises-12m-for-ai-based-social-gaming-platform/), Jun 2024; [Astrocade Funding Announcement](https://www.astrocade.com/blog/astrocade-raises-56m-funding), May 2026, $56M combined Series A led by Sea and Series B led by Sequoia).
+  - **GDevelop** ($2.7M across rounds tracked by Dealroom, revenue unknown): an open-source engine centered on visual no-code events, with an AI agent and MCP support ([Dealroom](https://app.dealroom.co/companies/gdevelop_1), latest tracked seed $1.1M in Jul 2023; [Vox Capital](https://vox.capital/en/gdevelop/), participating investor; [GDevelop Docs](https://wiki.gdevelop.io/gdevelop5/interface/ai/)).
+  - **Unity** ($1.3B gross IPO proceeds in Sep 2020, $622M company revenue and $165M Create Solutions revenue in Q3 2026): AI assistance and asset generation integrated into the existing Unity editor ([SEC Prospectus](https://www.sec.gov/Archives/edgar/data/1810806/000119312520249257/d908875d424b4.htm), [Unity Q3 Results](https://investors.unity.com/news/news-details/2026/Unity-Reports-Third-Quarter-2026-Financial-Results/default.aspx), [Unity AI](https://unity.com/blog/unity-ai-how-to-get-started)).
+- **Why now:** [Inferred]: Claude Code’s general release in May 2025 and Summer’s MCP integration made it possible for creators to direct an existing coding agent to edit live game projects ([Anthropic](https://www.anthropic.com/news/claude-4), [Summer 4.0](https://www.summerengine.com/blog/game-engine-for-ai-agents), Oct 2026).
 
 ## Founders & Team
 
-- **Mathias Heide (Founder/CEO):**
-  - Background: Copenhagen Business School alumnus, previously at JustDoStuff, We Do Handcraft, Sennr, and MyLoyal; direct business email: No public data found, with founders@summerengine.com published as a shared contact ([YC Profile](https://www.ycombinator.com/founders/mathias-heide), [Pricing](https://www.summerengine.com/pricing)).
-  - Twitter/X: @MathiasHeide, 389 followers in a mirrored snapshot ([Sotwe, retrieved November 9, 2026](https://www.sotwe.com/MathiasHeide)).
-  - LinkedIn: Headline not retrievable; indexed profile identifies Summer Engine and Copenhagen Business School, with 4K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/mathiasheide/en)).
-  - GitHub: @mathias-heide; VibeRead, a Mac dictation/read-aloud application, has 2 stars ([GitHub, retrieved November 9, 2026](https://github.com/mathias-heide)).
-- **Marcus Teller (Founder/CTO):**
-  - Background: University of Copenhagen alumnus and PhD dropout, previously at Arcu.ai and Corpay One, with AI work at roger.ai before its FLEETCOR acquisition; direct business email: No public data found ([YC Profile](https://www.ycombinator.com/founders/marcus-teller)).
-  - Twitter/X: @marcustellx; count not retrievable ([YC Profile](https://www.ycombinator.com/founders/marcus-teller)).
-  - LinkedIn: Profile linked by YC; headline not retrievable ([YC Profile](https://www.ycombinator.com/founders/marcus-teller)).
-  - GitHub: No public repos found under a verified personal identity.
+- **Mathias Heide (Co-founder and CEO):**
+  - Background: Attended Copenhagen Business School, previously worked at JustDoStuff, Sennr, and MyLoyal, and reports founding his first company at 19 and subsequently exiting ([YC Founder Profile](https://www.ycombinator.com/founders/mathias-heide), [Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai)). He publishes founders@summerengine.com as his business contact ([LinkedIn Jobs](https://dk.linkedin.com/jobs/view/ai-game-developer-internship-designers-vibe-coders-welcome-at-summer-engine-4426361474)).
+  - Twitter/X: @MathiasHeide, 801 followers ([teapawt X mirror](https://xitter.gq/MathiasHeide), Nov 2026).
+  - LinkedIn: Profile lists Summer Engine and approximately 4,000 followers; headline unavailable ([LinkedIn, via search snippet](https://www.linkedin.com/in/mathiasheide/en)).
+  - GitHub: @mathias-heide, 11 followers, with 2 stars on VibeRead ([GitHub Profile](https://github.com/mathias-heide), [VibeRead](https://github.com/mathias-heide/VibeRead), Nov 2026).
+- **Marcus Teller (Co-founder and CTO):**
+  - Background: University of Copenhagen alumnus who left his PhD, previously worked at Arcu.ai and in AI at Roger.ai, which FLEETCOR acquired in 2021 ([YC Founder Profile](https://www.ycombinator.com/founders/marcus-teller), [Corpay Acquisition Announcement](https://www.corpayone.com/post/roger-acquired-by-fleetcor)). Direct business email: No public data found.
+  - Twitter/X: @marcustellx, 70 followers ([teapawt X mirror](https://xitter.gq/marcustellx), Nov 2026).
+  - LinkedIn: Profile linked from YC, headline unavailable ([YC Founder Profile](https://www.ycombinator.com/founders/marcus-teller)).
+  - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Heide’s documented creative work and Teller’s AI employment and competitive-gaming history connect to Summer’s creative-tooling focus; YC identifies Garry Tan as the assigned partner ([YC](https://www.ycombinator.com/companies/summer-engine)).
+- **Founder-market fit:** Heide brings startup operating experience, Teller brings AI research and competitive gaming experience, and YC primary partner Garry Tan built the Summer game *Founderstar* ([YC Company Profile](https://www.ycombinator.com/companies/summer-engine), [Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai)).
 
 ## Key Risks
 
-- **Feature substitution:** [Inferred]: GDevelop’s integrated AI, multiplayer, and publishing overlap with Summer’s offering, creating substitution pressure despite differences in editing workflows ([GDevelop](https://gdevelop.io/pricing)).
-- **Export constraints:** C# projects cannot export to the web under Summer’s documented Godot limitation, with GDScript identified as the supported alternative ([Summer Export Guide](https://www.summerengine.com/jam/vibe-jam-2026)).
-- **Engine reliability:** October and November releases fixed publishing and Windows shutdown crashes, documenting failure modes alongside shipped fixes ([Changelog, October–November 2026](https://www.summerengine.com/changelog)).
-- **Project confidentiality:** Prompts and code snippets reach external model providers, and training use is permitted when Privacy Mode is disabled; paid accounts can enable that protection ([Privacy Policy, October 16, 2026](https://www.summerengine.com/privacy)).
+- **Incumbent substitution:** [Inferred]: Unity and Roblox can retain creators inside their existing editors by offering native agents and external-agent connections ([Unity AI](https://unity.com/blog/unity-ai-how-to-get-started), [Roblox Newsroom](https://about.roblox.com/newsroom/2026/11/building-the-next-era-of-creation-on-roblox)).
+- **Export readiness:** Mobile releases require platform-specific toolchains, and browser play is a research preview, while Mac and Windows exports are available ([Summer Games Build Guide](https://summer.games/build)).
+- **Hosted model dependency:** [Inferred]: Upstream provider outages can disrupt hosted generation, while the free MCP connection lets creators use their own coding agent for editor work ([Summer Privacy Policy](https://www.summerengine.com/privacy), [Summer Pricing](https://www.summerengine.com/pricing)).
+- **Marketplace rollout:** Summer reserves direct dollar-priced game sales for a future rollout, while creators can use Sparks on Summer Games or sell exported titles elsewhere ([Paid Games Notice](https://www.summerengine.com/legal/paid-games-notice), [Summer About](https://www.summerengine.com/about)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader game engines: $4.2B in 2026; 15.6% CAGR, 2026–2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/game-engines-market-report)) |
+| TAM | $1.5B global AI game engine market in 2024, projected 13.5% CAGR through 2034 ([Reports and Data](https://www.reportsanddata.com/report-detail/ai-game-engine-market), Dec 2025) |
 | SAM | No public data found |
-| Traction | 97 GitHub stars ([GitHub, November 2026](https://github.com/SummerEngine/summer)); approximately 1,140 Discord members ([GuildRegister, November 2026](https://guildregister.com/guild/1349000131802042429)) |
-| Revenue Signal | Free tier; $20/$60/$200 monthly subscriptions ([Pricing, November 2026](https://www.summerengine.com/pricing)); realized revenue: No public data found |
-| Founders | Mathias Heide, CEO: CBS, MyLoyal, Sennr; Marcus Teller, CTO: Copenhagen university, roger.ai, Arcu.ai ([YC Profiles](https://www.ycombinator.com/companies/summer-engine)) |
-| Competitors | Rosebud ($8.8M reported raised, revenue unknown, browser creation; [Company Check](https://www.thecompanycheck.com/company/b/rose-bud/ztn3u206vlqoy14qp)); Astrocade ($56M reported total, revenue unknown, social platform; [Dentsu](https://www.group.dentsu.com/en/news/release/001671.html)); GDevelop ($2.29M reported raised, revenue unknown, visual events; [CB Insights](https://www.cbinsights.com/company/gdevelop)) |
-| Moat Signals | No public data found |
-| Risk Factors | Overlapping competitor functionality ([GDevelop](https://gdevelop.io/pricing)), C# web-export restriction ([Summer](https://www.summerengine.com/jam/vibe-jam-2026)), confidentiality settings ([Privacy](https://www.summerengine.com/privacy)) |
-| Founder Reach | Heide: X 389 ([Sotwe](https://www.sotwe.com/MathiasHeide)), LinkedIn 4K via search snippet ([LinkedIn](https://www.linkedin.com/in/mathiasheide/en)), VibeRead 2 stars ([GitHub](https://github.com/mathias-heide)); November 2026 retrieval |
-| Distribution Signals | Product Hunt 2 followers ([Product Hunt, November 2026](https://www.producthunt.com/products/summer-engine)); 5 jam entries ([itch.io, October 2026](https://itch.io/jam/summer-games-weekly-jam-3)) |
-| Emails | founders@summerengine.com, shared ([Pricing](https://www.summerengine.com/pricing)); support@summerengine.com, support/privacy ([Contact](https://www.summerengine.com/contact)); historical dpo@summerengine.com ([September 2026 Privacy Policy, via search snippet](https://www.summerengine.com/privacy)) |
+| Traction | 60,000+ organic users ([Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai), Nov 2026), 109 MCP/CLI repository stars ([GitHub](https://github.com/SummerEngine/summer), Nov 2026) |
+| Revenue Signal | Company-reported revenue up 40% over 30 days ([Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai), Nov 2026), free editor and hosted-AI plans at $20/$60/$200 per month ([Summer Pricing](https://www.summerengine.com/pricing), Nov 2026) |
+| Founders | Mathias Heide (CEO), Copenhagen Business School and prior exit ([YC Profile](https://www.ycombinator.com/founders/mathias-heide), [Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai)). Marcus Teller (CTO), University of Copenhagen and AI work at Roger.ai ([YC Profile](https://www.ycombinator.com/founders/marcus-teller)). |
+| Competitors | Astrocade ($68M across announcements, revenue unknown, prompt-to-play social games, [2024 Seed Announcement](https://gamesbeat.com/astrocade-raises-12m-for-ai-based-social-gaming-platform/), [2026 Astrocade Announcement](https://www.astrocade.com/blog/astrocade-raises-56m-funding)); GDevelop ($2.7M tracked, revenue unknown, visual no-code editor, [Dealroom](https://app.dealroom.co/companies/gdevelop_1), [GDevelop](https://gdevelop.io/)); Unity ($1.3B gross IPO proceeds, $622M Q3 2026 revenue, AI inside Unity editor, [SEC Prospectus](https://www.sec.gov/Archives/edgar/data/1810806/000119312520249257/d908875d424b4.htm), [Unity Results](https://investors.unity.com/news/news-details/2026/Unity-Reports-Third-Quarter-2026-Financial-Results/default.aspx), [Unity AI](https://unity.com/blog/unity-ai-how-to-get-started)) |
+| Moat Signals | 240,000+ community-made reusable assets ([Launch YC](https://www.ycombinator.com/launches/XJ4-summer-engine-make-and-play-games-together-by-chatting-with-ai), Nov 2026) |
+| Risk Factors | Incumbent editor-agent overlap ([Unity AI](https://unity.com/blog/unity-ai-how-to-get-started)), mobile toolchain requirements ([Summer Games](https://summer.games/build)), direct paid-game sales pending ([Paid Games Notice](https://www.summerengine.com/legal/paid-games-notice)) |
+| Founder Reach | Mathias Heide: X 801 ([teapawt](https://xitter.gq/MathiasHeide)), LinkedIn approximately 4,000 ([LinkedIn, via search snippet](https://www.linkedin.com/in/mathiasheide/en)), VibeRead 2 stars ([GitHub](https://github.com/mathias-heide/VibeRead)). Marcus Teller: X 70 ([teapawt](https://xitter.gq/marcustellx)). |
+| Distribution Signals | 554 LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/summerengine/), Nov 2026), 579 company X followers ([teapawt](https://xitter.gq/SummerEngineCom), Nov 2026), 2,966 weekly npm downloads ([PluginStats](https://www.pluginstats.com/plugins/npm/summer-engine), Nov 15, 2026), 13 jam entries ([itch.io](https://itch.io/jam/summer-engine-jam), Jun 2026) |
+| Emails | founders@summerengine.com (Mathias Heide’s published contact and shared sales inbox, [LinkedIn Jobs](https://dk.linkedin.com/jobs/view/ai-game-developer-internship-designers-vibe-coders-welcome-at-summer-engine-4426361474), [Summer Pricing](https://www.summerengine.com/pricing)), support@summerengine.com (product, billing, privacy, [Summer Contact](https://www.summerengine.com/contact)) |

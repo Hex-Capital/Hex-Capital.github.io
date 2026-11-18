@@ -1,17 +1,17 @@
 {
   "slug": "neomatter",
   "name": "Neomatter",
-  "oneLiner": "AI that works for in-house legal teams",
+  "oneLiner": "AI harness that does all corporate legal work",
   "metadata": {
     "website": "https://neomatter.com",
     "yc_page": "https://www.ycombinator.com/companies/neomatter",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/neomatter))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/neomatter))",
     "industry": "B2B / B2B -> Legal",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, B2B, Legal",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/neomatter))",
-    "emails": "luke.wagner@neomatter.com, support@neomatter.com, security@neomatter.com ([Support](https://neomatter.com/support)); legal@neomatter.com ([Trust Center](https://neomatter.com/trust)); founders@neomatter.com ([YC](https://www.ycombinator.com/companies/neomatter)); lukemainwaring@dahliaintel.com, prior-venture address ([Mainwaring’s website](https://lukemainwaring.com/))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/neomatter))",
+    "emails": "luke.wagner@neomatter.com (CEO, [Neomatter](https://neomatter.com/)), founders@neomatter.com (founders, [Launch YC](https://www.ycombinator.com/launches/Vnk-neomatter-the-operating-system-for-in-house-legal-teams)), support@neomatter.com (support, [Neomatter Support](https://neomatter.com/support)), security@neomatter.com (security and privacy, [Neomatter Privacy Policy](https://neomatter.com/privacy)), legal@neomatter.com (legal, [Neomatter Trust Center](https://neomatter.com/trust))"
   },
   "tags": [
     "SaaS",
@@ -19,63 +19,39 @@
     "Legal"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:18:45.017Z",
+  "memoGeneratedAt": "2026-11-18T00:34:48.636Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 34,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 32,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 32,
-    "NR": 33,
-    "PG": 33,
-    "PT": 30,
-    "SL": 29,
-    "VK": 25
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 35
   },
-  "consolidatedAvg": 30.86,
-  "consolidatedRank": 216,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 20,
-    "tractionReason": "200+ discovery interviews; no disclosed customers or revenue"
+    "tractionRank": 137,
+    "tractionScore": 38,
+    "tractionReason": "Reported 73% weekly user growth, one early customer"
   },
   "paths": {
     "memo": "fall2026/memos/neomatter.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/neomatter.md",
-      "elad-gil": "fall2026/evals/elad-gil/neomatter.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/neomatter.md",
-      "paul-graham": "fall2026/evals/paul-graham/neomatter.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/neomatter.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/neomatter.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/neomatter.md"
+      "agi": "fall2026/evals/agi/neomatter.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/neomatter.md",
+      "exit": "fall2026/evals/exit/neomatter.md"
     }
   }
 }

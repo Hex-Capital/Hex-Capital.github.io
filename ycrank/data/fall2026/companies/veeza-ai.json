@@ -5,12 +5,13 @@
   "metadata": {
     "website": "https://veeza.ai",
     "yc_page": "https://www.ycombinator.com/companies/veeza-ai",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/veeza-ai))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/veeza-ai))",
     "industry": "Consumer / Consumer -> Travel, Leisure and Tourism",
     "team_size": "2",
+    "location": "San Francisco, CA, USA",
     "tags": "AIOps, Consumer, AI",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/veeza-ai))",
-    "emails": "info@veeza.ai ([company](https://www.veeza.ai/en/about)); founders@veeza.ai ([YC](https://www.ycombinator.com/companies/veeza-ai)); moursy.aly@gmail.com ([founder website](https://www.alymoursy.com/))"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/veeza-ai))",
+    "emails": "moursy.aly@gmail.com, Aly Moursy’s direct contact ([founder website](https://www.alymoursy.com/)); founders@veeza.ai, partnership inquiries ([YC launch](https://www.ycombinator.com/launches/VrY-veeza-ai-ai-tourist-visa-agent-for-people-with-weak-passports)); info@veeza.ai, customer support and privacy requests ([Veeza AI privacy policy](https://www.veeza.ai/en/privacy)); hieraticbench@veeza.ai, benchmark inquiries ([HieraticBench](https://hieraticbench.vercel.app/method/))"
   },
   "tags": [
     "AIOps",
@@ -18,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:14:28.985Z",
+  "memoGeneratedAt": "2026-11-18T00:29:11.512Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
+    "agi": {
+      "score": 44,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
+    "hypergrowth": {
+      "score": 48,
+      "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 47,
-    "NR": 51,
-    "PG": 46,
-    "PT": 31,
-    "SL": 30,
-    "VK": 27
+    "AGI": 44,
+    "HG": 48,
+    "EXIT": 37
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 68,
+  "consolidatedAvg": 43,
+  "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 63,
-    "tractionReason": "Paying customers; 7,000+ users; revenue reportedly doubled"
+    "tractionRank": 14,
+    "tractionScore": 77,
+    "tractionReason": "Five figures in monthly cash revenue, 10,000 cumulative signups"
   },
   "paths": {
     "memo": "fall2026/memos/veeza-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/veeza-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/veeza-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/veeza-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/veeza-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/veeza-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/veeza-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/veeza-ai.md"
+      "agi": "fall2026/evals/agi/veeza-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/veeza-ai.md",
+      "exit": "fall2026/evals/exit/veeza-ai.md"
     }
   }
 }

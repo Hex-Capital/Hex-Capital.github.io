@@ -1,17 +1,17 @@
 {
   "slug": "micora",
   "name": "Micora",
-  "oneLiner": "Microgrids in a box built anywhere in days",
+  "oneLiner": "Micro-grids in a box deploying industrial power autonomously in weeks",
   "metadata": {
     "website": "https://micora.com",
     "yc_page": "https://www.ycombinator.com/companies/micora",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/micora))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/micora))",
     "industry": "Industrials / Industrials -> Energy",
-    "team_size": "4",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Energy Storage, Robotics, Solar Power",
-    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/micora))",
-    "emails": "hello@micora.com ([Contact](https://www.micora.com/contact)); careers@micora.com ([Careers](https://www.micora.com/careers))"
+    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/micora))",
+    "emails": "hello@micora.com, general inquiries ([Micora Contact](https://www.micora.com/contact)), careers@micora.com, recruiting ([Micora Careers](https://www.micora.com/careers))"
   },
   "tags": [
     "Energy Storage",
@@ -19,63 +19,39 @@
     "Solar Power"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:05:51.008Z",
+  "memoGeneratedAt": "2026-11-18T00:08:34.722Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
+    "agi": {
       "score": 42,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 34,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 47,
-    "NR": 42,
-    "PG": 34,
-    "PT": 34,
-    "SL": 33,
-    "VK": 29
+    "AGI": 42,
+    "HG": 38,
+    "EXIT": 39
   },
-  "consolidatedAvg": 37.71,
-  "consolidatedRank": 101,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 50,
-    "tractionReason": "Island and manufacturing deployments claimed; customers and contract values undisclosed"
+    "tractionRank": 101,
+    "tractionScore": 49,
+    "tractionReason": "Reported Pacific island and manufacturing deployments underway"
   },
   "paths": {
     "memo": "fall2026/memos/micora.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/micora.md",
-      "elad-gil": "fall2026/evals/elad-gil/micora.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/micora.md",
-      "paul-graham": "fall2026/evals/paul-graham/micora.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/micora.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/micora.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/micora.md"
+      "agi": "fall2026/evals/agi/micora.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/micora.md",
+      "exit": "fall2026/evals/exit/micora.md"
     }
   }
 }

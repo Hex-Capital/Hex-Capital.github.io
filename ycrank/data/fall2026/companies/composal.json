@@ -1,17 +1,17 @@
 {
   "slug": "composal",
   "name": "Composal",
-  "oneLiner": "Swarms of agents acting like users to find bugs before release",
+  "oneLiner": "Always-on agents that keep working after engineers log off",
   "metadata": {
     "website": "https://composal.com",
     "yc_page": "https://www.ycombinator.com/companies/composal",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/composal))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/composal))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
     "location": "London, England, United Kingdom",
     "tags": "Developer Tools, DevSecOps, Cloud Computing, AI",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/composal))",
-    "emails": "support@composal.ai ([Composal terms](https://composal.com/legal/terms)); me@jonathandavi.es ([Davies’s website](https://www.jonathandavi.es/))"
+    "yc_partner": "Pete Koomen ([Y Combinator](https://www.ycombinator.com/companies/composal))",
+    "emails": "me@jonathandavi.es ([Jonathan Davies’s professional site](https://www.jonathandavi.es/)), jonathanmdavies@me.com ([Jonathan Davies’s GitHub](https://github.com/jonathanmdavies)), support@composal.ai ([Composal Terms](https://composal.com/legal/terms))"
   },
   "tags": [
     "Developer Tools",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:05:04.038Z",
+  "memoGeneratedAt": "2026-11-17T23:08:11.296Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 33,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 46,
-    "NR": 47,
-    "PG": 43,
-    "PT": 33,
-    "SL": 31,
-    "VK": 28
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 37
   },
-  "consolidatedAvg": 40,
-  "consolidatedRank": 63,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 134,
-    "tractionScore": 32,
-    "tractionReason": "Ten setup calls reported; deployed and paying customers undisclosed"
+    "tractionRank": 117,
+    "tractionScore": 40,
+    "tractionReason": "1,500+ bugs found in customer apps, $500 monthly plan"
   },
   "paths": {
     "memo": "fall2026/memos/composal.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/composal.md",
-      "elad-gil": "fall2026/evals/elad-gil/composal.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/composal.md",
-      "paul-graham": "fall2026/evals/paul-graham/composal.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/composal.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/composal.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/composal.md"
+      "agi": "fall2026/evals/agi/composal.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/composal.md",
+      "exit": "fall2026/evals/exit/composal.md"
     }
   }
 }

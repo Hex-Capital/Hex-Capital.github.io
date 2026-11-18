@@ -4,13 +4,13 @@
   "oneLiner": "The pit crew for machines and robots.",
   "metadata": {
     "yc_page": "https://www.ycombinator.com/companies/mantle-2",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/mantle-2))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/mantle-2))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Robotics, AI, Industrial",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/mantle-2))",
-    "emails": "No public data found"
+    "yc_partner": "Pete Koomen ([YC directory](https://www.ycombinator.com/companies/mantle-2))",
+    "emails": "kieran@mantlemachines.com, CEO and sales inquiries ([YC launch](https://www.ycombinator.com/launches/XPC-mantle-machines-the-ai-native-pit-crew-for-machines-and-robots)), info@mantlemachines.com, general and privacy inquiries ([Mantle website](https://www.mantlemachines.com/), [privacy policy](https://www.mantlemachines.com/privacy/))"
   },
   "tags": [
     "Hardware",
@@ -19,63 +19,39 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:52:54.086Z",
+  "memoGeneratedAt": "2026-11-17T22:37:52.689Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 56,
+    "agi": {
+      "score": 45,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 35,
-    "NR": 52,
-    "PG": 34,
-    "PT": 25,
-    "SL": 33,
-    "VK": 22
+    "AGI": 45,
+    "HG": 37,
+    "EXIT": 36
   },
-  "consolidatedAvg": 36.71,
-  "consolidatedRank": 123,
+  "consolidatedAvg": 39.33,
+  "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 218,
-    "tractionScore": 5,
-    "tractionReason": "Service announced; no disclosed clients or revenue"
+    "tractionRank": 83,
+    "tractionScore": 52,
+    "tractionReason": "Multiple live customers, flat monthly per-machine pricing"
   },
   "paths": {
     "memo": "fall2026/memos/mantle-2.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/mantle-2.md",
-      "elad-gil": "fall2026/evals/elad-gil/mantle-2.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/mantle-2.md",
-      "paul-graham": "fall2026/evals/paul-graham/mantle-2.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/mantle-2.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/mantle-2.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/mantle-2.md"
+      "agi": "fall2026/evals/agi/mantle-2.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/mantle-2.md",
+      "exit": "fall2026/evals/exit/mantle-2.md"
     }
   }
 }

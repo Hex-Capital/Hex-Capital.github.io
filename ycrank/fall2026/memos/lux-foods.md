@@ -6,79 +6,82 @@
 |-------|-------|
 | Website | https://www.luxfoods.xyz |
 | YC Page | https://www.ycombinator.com/companies/lux-foods |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/lux-foods)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/lux-foods)) |
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Cellular Agriculture, Robotics, Agriculture, AI, Biotechnology |
-| YC Partner | Charlie Warren ([YC](https://www.ycombinator.com/companies/lux-foods)) |
-| Emails | andre@luxfoods.farm ([Lux Foods](https://www.luxfoods.xyz/our-people/)); robert.jinkerson@ucr.edu ([NASA investigator profile](https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=B82A3D71DCC330C71CDD487C94D4B9A4)) |
+| Tags | Cellular Agriculture, Robotics, Manufacturing, Agriculture, Biotechnology |
+| YC Partner | Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/lux-foods)) |
+| Emails | andre@luxfoods.farm, Andre Yeung, CEO and buyer inquiries ([Lux Foods](https://www.luxfoods.xyz/)), robert.jinkerson@ucr.edu, Robert Jinkerson’s university contact ([UC Riverside](https://plantbiology.ucr.edu/people/cooperating-faculty)) |
 
 ## The Idea
 
-- **Problem:** Lux targets chefs, grocery buyers, and distributors seeking consistent fruit supply, addressing seasonality and transport constraints associated with conventional growing regions ([Lux Foods, accessed Oct 2026](https://www.luxfoods.xyz/for-buyers/)).
-- **Approach:** Lux develops compact, fruit-dominant plants, feeds them sugar through nutrient media under low artificial light, and combines clonal propagation with robotic tissue handling and production records ([Lux Foods platform, Oct 2026](https://www.luxfoods.xyz/platform/)).
-- **Differentiation:** [Inferred]: Compared with Oishii’s illuminated indoor farms and Pairwise’s crop-editing platform, Lux combines sugar-fed vessel cultivation with plant development and automation ([Lux Foods](https://www.luxfoods.xyz/science/), [Oishii](https://www.prnewswire.com/news-releases/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model-302770199.html), [Pairwise](https://www.pairwise.com/insights/pairwise-poised-to-revolutionize-agriculture-with-industry-leading-fulcrum-tm-platform-following-40m-series-c-funding)).
-- **Business Model:** [Inferred]: Produce sales through negotiated supply relationships are the indicated monetization path because Lux solicits buyers’ volumes, packaging requirements, and price points; published prices: No public data found ([Lux Foods buyers page, Oct 2026](https://www.luxfoods.xyz/for-buyers/)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Lux solicits meetings with chefs, foodservice operators, grocery buyers, and distributors to plan early commercial tomato supply relationships ([Lux Foods buyers page, Oct 2026](https://www.luxfoods.xyz/for-buyers/)).
+- **Problem:** Chefs and grocers seeking a year-round supply of specialty tomatoes rely on supply chains that favor varieties suited to shipping, with greenhouse-grown fruit accounting for nearly 80% of U.S. cherry and grape tomato imports in 2023 ([Launch YC](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight), [USDA ERS, Jun 2024](https://ers.usda.gov/data-products/charts-of-note/109371)).
+- **Approach:** Lux grows compact, fruit-dominant cherry tomato plants in sugar-fed vessels and designs the plant architecture and robotic handling together, reporting 90% lower light intensity than conventional cultivation ([Lux Foods](https://www.luxfoods.xyz/), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight)).
+- **Differentiation:** Lux pairs sugar-fed vessel culture with crop-specific robotics, while NatureSweet supplies greenhouse-grown snacking tomatoes and Oishii grows its Rubī tomato in automated indoor farms ([Lux Foods](https://www.luxfoods.xyz/), [NatureSweet Foodservice](https://naturesweetfoodservice.com/wp-content/uploads/2025/06/sell_sheet_tomatoes.pdf), [Oishii](https://oishii.com/pages/the-rubi-tomato)).
+- **Business Model:** [Inferred]: Lux would sell fresh tomatoes through wholesale supply agreements, based on its invitation to buyers to discuss pilots and future supply ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight)).
+- **TAM/SAM:** The broader global greenhouse tomato market is estimated at $22.66B in 2026 with a 7.4% projected CAGR through 2031 ([Deep Market Insights, May 2026](https://deepmarketinsights.com/report/greenhouse-tomato-market-research-report)). No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Lux invites chefs, grocers, produce distributors and foodservice operators to book meetings about pilots or future supply from its planned first San Francisco farm ([Lux Foods](https://www.luxfoods.xyz/), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight)).
 
 ## Defensibility
 
-- **Moat today:** Jinkerson co-invented university-assigned patent US12442013B2 covering plants with reduced non-edible biomass, whose experiments report tomato harvest indices of 0.77 versus 0.60 for controls; Lux’s licensing rights: No public data found ([patent, Oct 2025](https://patents.google.com/patent/US12442013B2/es)).
-- **Future moat:** [Inferred]: Cultivar-specific propagation protocols, tissue-handling routines, and accumulated batch histories could create production know-how, but Lux currently describes these systems as under development ([Lux Foods platform, Oct 2026](https://www.luxfoods.xyz/platform/)).
-- **Market structure:** [Inferred]: Replication requires integrating plant development, sterile culture, and robotic manipulation, but no demonstrated structural barrier prevents an incumbent from assembling those capabilities ([Lux Foods platform](https://www.luxfoods.xyz/platform/)).
-- **Commoditization risk:** [Inferred]: Plant-biotechnology laboratories and micropropagation operators possess relevant capabilities, while published cultured-fruit research makes the broader approach accessible; replication difficulty remains unquantified ([van der Zee et al., 2026](https://research.wur.nl/en/publications/cultured-fruit-growing-fruit-without-plants/)).
+- **Moat today:** Robert Jinkerson and Martha Orozco-Cárdenas are inventors on a U.S. patent covering compact, fruit-focused plants, which is assigned to the University of California Regents ([U.S. Patent 12,442,013, Oct 2025](https://patents.google.com/patent/US12442013B2/en)).
+- **Future moat:** [Inferred]: Repeated growing and harvesting cycles could generate data that improve vessel yield and robotic handling, but Lux says its projected yield and vessel-to-module design still need validation ([Lux Foods facility model](https://www.luxfoods.xyz/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Oishii already uses robotics in indoor fruit production, and Nolux Inc. is developing light-independent crop production through the Activate fellowship ([Oishii, May 2026](https://www.prnewswire.com/news-releases/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model-302770199.html), [Activate, 2026](https://activate.org/nolux)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - San Francisco pilot reports growing early tomato batches and developing robotic handling workflows ([Lux Foods, accessed Oct 2026](https://www.luxfoods.xyz/platform/)).
-  - Company-specific feature, “Growing Tomatoes Without Photosynthesis” ([Offrange, July 17, 2026](https://ambrook.com/offrange/technology/outer-space-tomatoes)).
-  - Founding-team research: SPACE tomatoes demonstrated germination and early growth aboard the ISS, rather than demonstrated commercial fruit production ([NASA FY2026 report](https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=B82A3D71DCC330C71CDD487C94D4B9A4)).
-  - Founding-team research: Jinkerson-led university team Nolux received a $250,000 runner-up award, separate from Lux Foods financing ([NASA, Aug 2024](https://www.nasa.gov/news-release/nasa-awards-1-25-million-to-three-teams-at-deep-space-food-finale/)).
-  - Zero posted YC jobs ([YC jobs page, accessed Oct 2026](https://www.ycombinator.com/companies/lux-foods/jobs)).
+  - First San Francisco farm reported as under development ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight)).
+  - $500K convertible note dated Nov 1, 2026, listed by [CB Insights, via search snippet](https://www.cbinsights.com/company/lux-foods/financials).
+  - Public X launch on Nov 10, 2026, with 4,972 recorded post views ([LaunchVideo, Nov 2026](https://www.launchvideo.com/directory/lux-foods)).
+  - 144 company LinkedIn followers and 32 X followers for @luxfoodsinc ([LinkedIn, Nov 2026](https://www.linkedin.com/company/lux-foods/), [Teapawt X snapshot, Nov 2026](https://teapawt.net/luxfoodsinc)).
+  - Company coverage in [Offrange, Jul 17, 2026](https://ambrook.com/offrange/technology/outer-space-tomatoes) and CEO appearance on [The Modern Acre, Nov 12, 2026](https://podcasts.apple.com/nz/podcast/new-bushel-ceo-announced-y-combinators-latest-agtech-bet/id1344108573?i=1000801551246).
+  - Pre-commercial research milestone: Jinkerson told Offrange that 23 of 24 SPACE tomato seeds germinated in orbit in 2025, and NASA lists a full seed-to-seed cycle aboard the ISS as a research objective ([Offrange, Jul 2026](https://ambrook.com/offrange/technology/outer-space-tomatoes), [NASA Task Book, FY 2026](https://taskbook.nasaprs.com/tbp/index.cfm?TASKID=41A06F7E5D2861DDC72FC9018515CA24&action=public_query_taskbook_content)).
+  - 0 open jobs on YC’s platform ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/lux-foods/jobs)).
 - **Competitors:**
-  - **Oishii ($370M raised, revenue unknown):** Indoor fruit farming with controlled lighting and bee pollination; announced a $150M Series C first closing led by SPARX in May 2026 ([Oishii announcement](https://www.prnewswire.com/news-releases/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model-302770199.html)).
-  - **Pairwise ($155M raised, revenue unknown):** Adjacent alternative developing edited fruit and crop varieties rather than operating Lux’s vessel-production system; its $40M Series C was led by Deerfield in September 2024 ([Pairwise announcement](https://www.pairwise.com/insights/pairwise-poised-to-revolutionize-agriculture-with-industry-leading-fulcrum-tm-platform-following-40m-series-c-funding)).
-  - **Plenty (approximately $1B raised historically, revenue unknown):** Adjacent vertical-strawberry producer and farm supplier that emerged from bankruptcy in May 2025 with One Madison and SoftBank exit financing, amount undisclosed ([AgFunderNews, Jan 2022](https://agfundernews.com/plenty-raises-400m-from-walmart-and-others-in-vertical-farmings-largest-funding-to-date), [Plenty, May 2025](https://www.prnewswire.com/news-releases/plenty-completes-restructuring-emerges-from-chapter-11-302468944.html)).
-  - [Inferred]: The directly comparable set is narrower because these alternatives address indoor fruit production or crop genetics separately, while Lux combines both with sugar-fed culture ([Lux Foods platform](https://www.luxfoods.xyz/platform/)).
-- **Why now:** [Inferred]: SPACE tomatoes’ ISS germination and early growth, documented in NASA’s FY2026 report, provide a recent biological validation milestone for confined-environment cultivation ([NASA](https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=B82A3D71DCC330C71CDD487C94D4B9A4)).
+  - Oishii ($370M raised, revenue unknown): Sells Rubī tomatoes from automated indoor farms and announced a $150M Series C first close led by SPARX Asset Management in May 2026 ([Oishii product page](https://oishii.com/pages/the-rubi-tomato), [Oishii announcement](https://www.prnewswire.com/news-releases/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model-302770199.html)).
+  - NatureSweet (funding undisclosed, over $329M in 2016 sales): Sells greenhouse-grown snacking tomatoes and was acquired by Blue Road Capital in September 2023 on undisclosed terms ([NatureSweet Foodservice](https://naturesweetfoodservice.com/wp-content/uploads/2025/06/sell_sheet_tomatoes.pdf), [Silver Ventures](https://silverventures.com/portfolio/nature-sweet/), [Latham & Watkins](https://www.lw.com/en/news/latham-watkins-advises-blue-road-capital-in-acquisition-of-naturesweet)).
+  - Village Fresh / Verdexa ($55M initial investor capital, revenue unknown): Supplies greenhouse tomatoes through an established retail and foodservice network, with Kennedy Lewis and Sweat Equities backing the May 2025 carve-out ([SEC Form 8-K](https://www.sec.gov/Archives/edgar/data/1584549/000095017025082470/vff-20250530.htm), [Village Fresh](https://villagefarmsfresh.com/whats-fresh/what-the-vine-holds)).
+  - Nolux Inc. (funding undisclosed, revenue unknown): Develops light-independent crop production and joined Activate’s 2026 Berkeley cohort ([Activate, 2026](https://activate.org/nolux)).
+- **Why now:** [Inferred]: The July 2025 U.S. antidumping order, which set a 17.09% rate for most Mexican fresh-tomato exporters and remained in force after the June 2026 review, gives domestic suppliers room to compete on delivered price ([U.S. Department of Commerce](https://www.govinfo.gov/content/pkg/FR-2025-07-17/html/2025-13453.htm), [USITC](https://www.usitc.gov/press_room/news_release/2026/er0630_68831.htm)).
 
 ## Founders & Team
 
-- **Andre Yeung (Co-founder/CEO):**
-  - Background: Stanford bioengineering and computer-science degrees, plant synthetic-circuit research at Brophy Lab, and algae research in Jinkerson’s laboratory ([YC founder profile](https://www.ycombinator.com/founders/andre-yeung)).
-  - Twitter/X: @ayyeung42; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/andre-yeung)).
-  - LinkedIn: Profile found; headline not retrievable; 606 followers and 500+ connections ([LinkedIn, Oct 2026, via search snippet](https://www.linkedin.com/in/andre-yeung)).
-  - GitHub: No public repos found.
-- **Robert Jinkerson (Co-founder/CSO):**
-  - Background: UC Riverside chemical-engineering faculty, applied-chemistry PhD from Colorado School of Mines, biological-engineering BS from Missouri, and Carnegie/Stanford research fellowship ([UCR biography](https://jinkersonlab.engr.ucr.edu/people/robert_jinkerson/), [YC](https://www.ycombinator.com/founders/robert-jinkerson)).
-  - Twitter/X: @jinkersonlab, a laboratory account; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/robert-jinkerson)).
-  - LinkedIn: No public profile found.
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Yeung previously researched in Jinkerson’s UCR laboratory, and Offrange describes him as Jinkerson’s long-time mentee ([YC](https://www.ycombinator.com/founders/andre-yeung), [Offrange, July 2026](https://ambrook.com/offrange/technology/outer-space-tomatoes)).
-- **Founder-market fit:** Yeung’s plant-engineering research and Jinkerson’s controlled-environment crop research match Lux’s development work, with company-listed advisors Blake Scholl and Jeremy Wertheimer ([YC](https://www.ycombinator.com/companies/lux-foods), [Lux Foods team](https://www.luxfoods.xyz/our-people/)).
+- **Andre Yeung (Co-founder and CEO):**
+  - **Background:** Stanford bioengineering and computer science degrees, plant genetics research at Stanford’s Brophy Lab and UC Riverside, and founder of Fruit for Homeless, which distributed 300,000 pounds of produce according to YC, with andre@luxfoods.farm published for buyer inquiries ([YC founder profile](https://www.ycombinator.com/founders/andre-yeung), [Lux Foods](https://www.luxfoods.xyz/)).
+  - **Twitter/X:** @ayyeung42, 167 followers ([YC founder profile](https://www.ycombinator.com/founders/andre-yeung), [Teapawt X snapshot, Nov 2026](https://teapawt.net/ayyeung42)).
+  - **LinkedIn:** Headline unavailable in the indexed profile, which lists Y Combinator and 606 followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/andre-yeung)).
+  - **GitHub:** No verified public repos found.
+- **Robert Jinkerson (Co-founder and Chief Science Officer):**
+  - **Background:** PhD from Colorado School of Mines, Stanford postdoctoral research and UC Riverside faculty research on crops for controlled environments and space, with robert.jinkerson@ucr.edu published for university correspondence ([YC founder profile](https://www.ycombinator.com/founders/robert-jinkerson), [UC Riverside](https://plantbiology.ucr.edu/people/cooperating-faculty)).
+  - **Twitter/X:** @JinkersonLab, 467 followers ([YC founder profile](https://www.ycombinator.com/founders/robert-jinkerson), [Teapawt X snapshot, Nov 2026](https://teapawt.net/JinkersonLab)).
+  - **LinkedIn:** No public profile found.
+  - **GitHub:** Lab account @JinkersonLab, `chlamy-screen` with 1 star ([GitHub, Nov 2026](https://github.com/JinkersonLab/chlamy-screen)).
+- **Co-founder relationship:** Yeung joined Jinkerson’s UC Riverside lab in 2017 ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight)).
+- **Founder-market fit:** Yeung’s plant genetics and robotic manipulation work complements Jinkerson’s controlled-environment crop research, and YC lists Lux in its Fall 2026 batch ([YC founder profiles](https://www.ycombinator.com/companies/lux-foods), [Stanford CS224R, 2025](https://cs224r.stanford.edu/spring_2025/projects/pdfs/rda-submission.pdf), [NASA Task Book](https://taskbook.nasaprs.com/tbp/index.cfm?TASKID=41A06F7E5D2861DDC72FC9018515CA24&action=public_query_taskbook_content)).
 
 ## Key Risks
 
-- **Technical scale-up:** Lux explicitly states projected facility yield is not demonstrated and vessel/module mapping remains unvalidated, preventing projected footprint comparisons from establishing achieved productivity ([Lux Foods, Oct 2026](https://www.luxfoods.xyz/)).
-- **Delivered-cost uncertainty:** [Inferred]: Reduced lighting can be offset by sugar, climate control, sterile operations, labor, equipment, and losses, all of which Lux identifies as production-cost inputs ([Lux Foods science](https://www.luxfoods.xyz/science/)).
-- **University IP rights:** [Inferred]: University assignment of Jinkerson’s compact-plant patent makes licensing scope relevant to exclusivity; public Lux license terms: No public data found ([patent record](https://patents.google.com/patent/US12442013B2/es)).
-- **Name confusion:** Unrelated businesses use Lux Foods, including a Canadian butcher and Australian foodservice broker, creating a research-attribution risk ([Luxfoods.ca](https://luxfoods.ca/), [Luxfoods Australia](https://luxfoods.com.au/)).
+- **Commercial yield:** Lux says its flagship yield projection remains undemonstrated and its vessel-to-module design still requires validation ([Lux Foods facility model](https://www.luxfoods.xyz/)).
+- **Production economics:** [Inferred]: Lower light intensity may reduce lighting costs, but the published footprint comparison excludes sugar-feedstock land and provides no facility energy or production-cost results ([Lux Foods facility model](https://www.luxfoods.xyz/)).
+- **IP access:** [Inferred]: Exclusive use of the patented plant technology depends on licensing rights, with the patent assigned to the University of California Regents and Lux’s license terms unverified in public sources ([U.S. Patent 12,442,013](https://patents.google.com/patent/US12442013B2/en)).
+- **Buyer adoption:** [Inferred]: Lux’s pilot outreach targets buyers already served by year-round greenhouse suppliers with branded snacking tomatoes ([Launch YC](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight), [NatureSweet Foodservice](https://naturesweetfoodservice.com/wp-content/uploads/2025/06/sell_sheet_tomatoes.pdf)).
+- **Namesake confusion:** [Inferred]: Searches for Lux Foods can surface Lux Foods Ltd. in British Columbia, creating a risk of attributing its records to the San Francisco startup ([OpenCorporates](https://opencorporates.com/companies/ca_bc/BC1028173), [Y Combinator](https://www.ycombinator.com/companies/lux-foods)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $22.66B global greenhouse tomato market in 2026, with 7.4% projected CAGR through 2031, as a broader market benchmark ([Deep Market Insights, May 2026](https://deepmarketinsights.com/report/greenhouse-tomato-market-research-report)) |
 | SAM | No public data found |
-| Traction | Early tomato batches at San Francisco pilot ([Lux Foods, Oct 2026](https://www.luxfoods.xyz/platform/)); company feature ([Offrange, July 2026](https://ambrook.com/offrange/technology/outer-space-tomatoes)) |
+| Traction | First San Francisco farm under development ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight)), company coverage ([Offrange, Jul 2026](https://ambrook.com/offrange/technology/outer-space-tomatoes)), CEO appearance ([The Modern Acre, Nov 2026](https://podcasts.apple.com/nz/podcast/new-bushel-ceo-announced-y-combinators-latest-agtech-bet/id1344108573?i=1000801551246)) |
 | Revenue Signal | No public data found |
-| Founders | Andre Yeung, CEO: Stanford bioengineering/computer science, plant-circuit research; Robert Jinkerson, CSO: UCR faculty, controlled-environment crops ([YC](https://www.ycombinator.com/companies/lux-foods)) |
-| Competitors | Oishii ($370M raised, revenue unknown, illuminated indoor fruit farming) ([Oishii, 2026](https://www.prnewswire.com/news-releases/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model-302770199.html)); Pairwise ($155M raised, revenue unknown, crop genetics) ([Pairwise, 2024](https://www.pairwise.com/insights/pairwise-poised-to-revolutionize-agriculture-with-industry-leading-fulcrum-tm-platform-following-40m-series-c-funding)); Plenty (approximately $1B historically, revenue unknown, vertical farming) ([AgFunderNews, 2022](https://agfundernews.com/plenty-raises-400m-from-walmart-and-others-in-vertical-farmings-largest-funding-to-date)) |
-| Moat Signals | Jinkerson co-invented university-assigned compact-plant patent; Lux rights undisclosed ([US12442013B2, 2025](https://patents.google.com/patent/US12442013B2/es)) |
-| Risk Factors | Undemonstrated facility yield and unvalidated vessel/module mapping ([Lux Foods, Oct 2026](https://www.luxfoods.xyz/)) |
-| Founder Reach | Andre Yeung: LinkedIn 606 followers, 500+ connections ([LinkedIn, Oct 2026, via search snippet](https://www.linkedin.com/in/andre-yeung)) |
-| Distribution Signals | Solicits chefs, grocery buyers, and distributors for early supply relationships ([Lux Foods, Oct 2026](https://www.luxfoods.xyz/for-buyers/)) |
-| Emails | andre@luxfoods.farm ([Lux Foods](https://www.luxfoods.xyz/our-people/)); robert.jinkerson@ucr.edu ([NASA](https://taskbook.nasaprs.com/tbp/tbpdf.cfm?id=B82A3D71DCC330C71CDD487C94D4B9A4)) |
+| Founders | Andre Yeung (CEO), Stanford bioengineering and CS, Brophy Lab, Fruit for Homeless ([YC](https://www.ycombinator.com/founders/andre-yeung)). Robert Jinkerson (CSO), Colorado School of Mines PhD, Stanford postdoc, UC Riverside faculty ([YC](https://www.ycombinator.com/founders/robert-jinkerson)). |
+| Competitors | Oishii ($370M raised, revenue unknown, automated indoor tomatoes) ([Oishii](https://www.prnewswire.com/news-releases/oishii-announces-first-closing-of-150m-in-series-c-financing-as-it-scales-its-indoor-smart-farm-model-302770199.html), [Rubī Tomato](https://oishii.com/pages/the-rubi-tomato)). NatureSweet (funding undisclosed, over $329M in 2016 sales, greenhouse snacking tomatoes) ([Silver Ventures](https://silverventures.com/portfolio/nature-sweet/)). Village Fresh / Verdexa ($55M initial investor capital, revenue unknown, greenhouse distribution) ([SEC Form 8-K](https://www.sec.gov/Archives/edgar/data/1584549/000095017025082470/vff-20250530.htm)). Nolux Inc. (funding undisclosed, revenue unknown, light-independent crops) ([Activate](https://activate.org/nolux)). |
+| Moat Signals | Co-inventor Robert Jinkerson, University of California Regents assignee, compact-plant patent issued in October 2025 ([U.S. Patent 12,442,013](https://patents.google.com/patent/US12442013B2/en)) |
+| Risk Factors | Undemonstrated flagship yield and unvalidated vessel-to-module design ([Lux Foods](https://www.luxfoods.xyz/)), university-owned patent ([U.S. Patent 12,442,013](https://patents.google.com/patent/US12442013B2/en)) |
+| Founder Reach | Andre Yeung, 167 X followers ([Teapawt, Nov 2026](https://teapawt.net/ayyeung42)) and 606 LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/andre-yeung)). Robert Jinkerson, 467 X followers ([Teapawt, Nov 2026](https://teapawt.net/JinkersonLab)) and 1 star on the lab’s `chlamy-screen` repo ([GitHub, Nov 2026](https://github.com/JinkersonLab/chlamy-screen)). |
+| Distribution Signals | Launch YC post ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/X8u-lux-foods-crops-engineered-for-premium-fruit-grown-without-sunlight)), 4,972 X launch-post views ([LaunchVideo, Nov 2026](https://www.launchvideo.com/directory/lux-foods)), 144 company LinkedIn followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/lux-foods/)), 32 company X followers ([Teapawt, Nov 2026](https://teapawt.net/luxfoodsinc)) |
+| Emails | andre@luxfoods.farm, CEO and buyer inquiries ([Lux Foods](https://www.luxfoods.xyz/)), robert.jinkerson@ucr.edu, CSO’s university contact ([UC Riverside](https://plantbiology.ucr.edu/people/cooperating-faculty)) |

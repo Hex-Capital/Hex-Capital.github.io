@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.quivly.ai/",
     "yc_page": "https://www.ycombinator.com/companies/quivly-ai",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/quivly-ai))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/quivly-ai))",
     "industry": "B2B / B2B",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, Enterprise Software, AI",
-    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/quivly-ai))",
-    "emails": "chandrika@quivly.ai, tanay@quivly.ai ([CMU](https://www.cmu.edu/swartz-center-for-entrepreneurship/resources-funding-and-talent/venturebridge/venturebridge-2025-spotlight-quivly.html)); developer@quivly.ai ([GitHub](https://github.com/quivly))"
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/quivly-ai))",
+    "emails": "chandrika@quivly.ai (CEO), tanay@quivly.ai (CTO) ([Carnegie Mellon](https://www.cmu.edu/swartz-center-for-entrepreneurship/resources-funding-and-talent/venturebridge/venturebridge-2025-spotlight-quivly.html)), hello@quivly.ai (general and terms inquiries), support@quivly.ai (technical support), privacy@quivly.ai (privacy) ([Quivly Terms](https://www.quivly.ai/terms), [Product Terms](https://www.quivly.ai/product-terms), [Privacy Policy](https://www.quivly.ai/privacy-policy))"
   },
   "tags": [
     "SaaS",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:57:27.910Z",
+  "memoGeneratedAt": "2026-11-17T23:45:52.502Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 63,
+    "agi": {
+      "score": 45,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
+    "hypergrowth": {
       "score": 40,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 63,
-    "NR": 47,
-    "PG": 52,
-    "PT": 28,
-    "SL": 40,
-    "VK": 29
+    "AGI": 45,
+    "HG": 40,
+    "EXIT": 40
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 39,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 64,
-    "tractionReason": "Revenue acknowledged; named customers; 10,000+ client accounts managed"
+    "tractionRank": 71,
+    "tractionScore": 55,
+    "tractionReason": "Six named customers, 18,000+ downstream accounts managed"
   },
   "paths": {
     "memo": "fall2026/memos/quivly-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/quivly-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/quivly-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/quivly-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/quivly-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/quivly-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/quivly-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/quivly-ai.md"
+      "agi": "fall2026/evals/agi/quivly-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/quivly-ai.md",
+      "exit": "fall2026/evals/exit/quivly-ai.md"
     }
   }
 }

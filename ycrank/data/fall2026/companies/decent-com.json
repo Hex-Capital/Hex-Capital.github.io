@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://decent.com",
     "yc_page": "https://www.ycombinator.com/companies/decent-com",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/decent-com))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/decent-com))",
     "industry": "Fintech / Fintech -> Insurance",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Fintech, Health Tech, B2B, Health Insurance, AI",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/decent-com))",
-    "emails": "hello@decent.com; nick@decent.com ([Decent Privacy](https://www.decent.com/privacy), Oct 2026; nick address appeared in September version via search snippet)"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/decent-com))",
+    "emails": "nick@decent.com (Nick Soman, [Decent Privacy](https://www.decent.com/privacy)), hello@decent.com (general inquiries, [Decent About](https://www.decent.com/about))"
   },
   "tags": [
     "Fintech",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:00:19.939Z",
+  "memoGeneratedAt": "2026-11-17T23:00:07.093Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 39,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 33,
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 59,
-    "NR": 47,
-    "PG": 48,
-    "PT": 32,
-    "SL": 39,
-    "VK": 33
+    "AGI": 40,
+    "HG": 38,
+    "EXIT": 41
   },
-  "consolidatedAvg": 44.43,
-  "consolidatedRank": 21,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 61,
-    "tractionReason": "67 companies working with brokerage; named customer savings testimonials"
+    "tractionRank": 26,
+    "tractionScore": 68,
+    "tractionReason": "67 companies working with its carrier-paid benefits brokerage"
   },
   "paths": {
     "memo": "fall2026/memos/decent-com.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/decent-com.md",
-      "elad-gil": "fall2026/evals/elad-gil/decent-com.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/decent-com.md",
-      "paul-graham": "fall2026/evals/paul-graham/decent-com.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/decent-com.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/decent-com.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/decent-com.md"
+      "agi": "fall2026/evals/agi/decent-com.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/decent-com.md",
+      "exit": "fall2026/evals/exit/decent-com.md"
     }
   }
 }

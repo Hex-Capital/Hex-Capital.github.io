@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.useterse.ai/",
     "yc_page": "https://www.ycombinator.com/companies/useterse",
-    "batch": "Fall 2026 ([YC profile](https://www.ycombinator.com/companies/useterse))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/useterse))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "New York City, NY, USA",
     "tags": "API, Infrastructure, AI",
-    "yc_partner": "Aaron Epstein ([YC profile](https://www.ycombinator.com/companies/useterse))",
-    "emails": "founders@useterse.ai ([website](https://www.useterse.ai/)); support@useterse.ai ([Terms](https://www.useterse.ai/terms)); privacy@useterse.ai ([Privacy Policy](https://www.useterse.ai/privacy))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/useterse))",
+    "emails": "founders@useterse.ai, shared founder inbox ([Terse website](https://www.useterse.ai/)), support@useterse.ai, service support ([Terse terms](https://www.useterse.ai/terms)), privacy@useterse.ai, privacy requests ([Terse privacy policy](https://www.useterse.ai/privacy))"
   },
   "tags": [
     "API",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:01:22.011Z",
+  "memoGeneratedAt": "2026-11-17T23:00:37.426Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 41,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 39,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 39,
-    "NR": 39,
-    "PG": 42,
-    "PT": 28,
-    "SL": 32,
-    "VK": 25
+    "AGI": 40,
+    "HG": 38,
+    "EXIT": 35
   },
-  "consolidatedAvg": 35.14,
-  "consolidatedRank": 156,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 33,
-    "tractionReason": "256 repository stars; Show HN received 53 points"
+    "tractionRank": 135,
+    "tractionScore": 38,
+    "tractionReason": "1.4M requests in one day and a named partner demo"
   },
   "paths": {
     "memo": "fall2026/memos/useterse.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/useterse.md",
-      "elad-gil": "fall2026/evals/elad-gil/useterse.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/useterse.md",
-      "paul-graham": "fall2026/evals/paul-graham/useterse.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/useterse.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/useterse.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/useterse.md"
+      "agi": "fall2026/evals/agi/useterse.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/useterse.md",
+      "exit": "fall2026/evals/exit/useterse.md"
     }
   }
 }

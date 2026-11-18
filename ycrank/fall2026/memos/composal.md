@@ -1,90 +1,91 @@
 ﻿# Composal
 
-> Swarms of agents acting like users to find bugs before release
+> Always-on agents that keep working after engineers log off
 
 | Field | Value |
 |-------|-------|
 | Website | https://composal.com |
 | YC Page | https://www.ycombinator.com/companies/composal |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/composal)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/composal)) |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 3 |
 | Location | London, England, United Kingdom |
 | Tags | Developer Tools, DevSecOps, Cloud Computing, AI |
-| YC Partner | Pete Koomen ([YC](https://www.ycombinator.com/companies/composal)) |
-| Emails | support@composal.ai ([Composal terms](https://composal.com/legal/terms)); me@jonathandavi.es ([Davies’s website](https://www.jonathandavi.es/)) |
+| YC Partner | Pete Koomen ([Y Combinator](https://www.ycombinator.com/companies/composal)) |
+| Emails | me@jonathandavi.es ([Jonathan Davies’s professional site](https://www.jonathandavi.es/)), jonathanmdavies@me.com ([Jonathan Davies’s GitHub](https://github.com/jonathanmdavies)), support@composal.ai ([Composal Terms](https://composal.com/legal/terms)) |
 
 ## The Idea
 
-- **Problem:** Engineering teams manually check user journeys even after automated tests pass because coding agents can produce features that satisfy their own tests without working for users ([Composal customer research, Oct 2026](https://composal.com/reflog/verification-core-dev-stack)).
-- **Approach:** Browser agents ingest product context, explore flows and edge cases in parallel, and return recordings, logs, and reproduction steps for coding agents to investigate ([Composal](https://composal.com/)).
-- **Differentiation:** Composal emphasizes autonomous exploration from product context, whereas Momentic emphasizes plain-English test definitions and QA Wolf supplies managed test creation and maintenance ([Composal](https://composal.com/about), [Momentic](https://momentic.ai/blog/series-a), [QA Wolf](https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist)).
-- **Business Model:** Documentation lists Team subscriptions at $500 monthly with 3,000 browser minutes, alongside prepaid packages offering additional minutes at $1 each and separate Enterprise terms ([Composal Verify documentation, accessed Oct 27, 2026](https://composal.com/docs/verify)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Public onboarding starts with an application URL, while CLI, MCP, and repository integrations place verification inside existing development workflows ([Composal documentation](https://composal.com/docs/verify), [GitHub organization](https://github.com/ComposalAI)).
+- **Problem:** Engineering teams using coding agents still click through user journeys manually before releases because CI and code review can pass while a customer-facing workflow remains broken ([Launch YC](https://www.ycombinator.com/launches/WdS-composal-a-swarm-of-agents-that-tests-your-product-like-real-users)).
+- **Approach:** Verify uses product specs and connected sources to guide parallel browser agents, saves journeys as repeatable scenarios, and returns recordings, logs, and reproduction steps, while the Sparks beta gives cloud agents persistent workspaces, memory, and event-triggered standing orders ([Composal About](https://composal.com/about), [Sparks](https://composal.com/sparks)).
+- **Differentiation:** Verify starts from user goals and a running app, Meticulous replays recorded sessions and generates tests from pull-request diffs, and QA Wolf maintains customer-owned Playwright and Appium suites ([Composal Verify](https://composal.com/docs/verify), [Meticulous Changelog](https://app.meticulous.ai/changelog), [QA Wolf](https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist)).
+- **Business Model:** Verify documents a $500 monthly Team subscription with 3,000 browser minutes, an included discovery scan before checkout, and a prepaid option for additional minutes at $1 each before tax ([Composal Verify Reference, Nov 2026](https://composal.com/docs/verify/reference)).
+- **TAM/SAM:** Meticulous Research estimates the broader AI test automation agents market at $0.80–$1.40 billion in 2026 with 30% projected CAGR through 2032, while a Composal-specific SAM remains undisclosed ([Meticulous Research, 2026](https://www.meticulousresearch.com/meticulous-next/ai-test-automation-agents-outlook-2026-2032)).
+- **GTM / Distribution:** Composal documented source-control and review tooling in August and September 2026, launched browser QA through YC in October with self-serve scans and founder-assisted setup, and shifted its YC headline to always-on agents on November 16 while marketing Sparks through a beta waitlist ([Composal Reflog](https://composal.com/reflog/source-control-for-the-age-of-agents), [Launch YC](https://www.ycombinator.com/launches/WdS-composal-a-swarm-of-agents-that-tests-your-product-like-real-users), [YC directory change history](https://startups.fru.dev/companies/composal), [Sparks](https://composal.com/sparks)).
 
 ## Defensibility
 
-- **Moat today:** Composal documents persistent product knowledge and reusable journey maps, but provides no evidence that these assets are exclusive or create measured switching costs ([Composal About](https://composal.com/about), [Verify documentation](https://composal.com/docs/verify)).
-- **Future moat:** [Inferred]: Accumulated application-specific journeys and failure history could increase replacement effort, although public retention or migration evidence does not establish this effect.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given overlapping independent verification products and customer-built QA agents ([mabl, Oct 2026](https://www.prnewswire.com/news-releases/mabl-introduces-agentic-testing-harness-to-clear-the-verification-bottleneck-created-by-coding-agents-302914831.html), [Composal research](https://composal.com/reflog/verification-core-dev-stack)).
-- **Commoditization risk:** Composal reports that nine interviewed teams had already built internal QA agents, demonstrating an in-house alternative without establishing equivalent reliability or operating cost ([Composal, Oct 23, 2026](https://composal.com/reflog/verification-core-dev-stack)).
+- **Moat today:** Verify retains product maps, reusable scenarios, and failure evidence across runs, creating a record of how each customer’s app is expected to behave ([Composal About](https://composal.com/about), [Verify Reference](https://composal.com/docs/verify/reference)).
+- **Future moat:** [Inferred]: A customer’s accumulated test history and workflow integrations could raise switching costs if they improve coverage over time, a relationship for which no public retention or coverage data was found ([Composal About](https://composal.com/about)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Composal reported that nine teams it spoke with had already built QA agents in-house, commonly using nightly browser-agent runs that leave tickets for engineers ([Composal Reflog, Oct 2026](https://composal.com/reflog/verification-core-dev-stack)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company LinkedIn: 175 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/composalai)).
-  - Customer engagement: company reports ten recent setup calls, without identifying customers or paid status ([Composal, Oct 23, 2026](https://composal.com/reflog/verification-core-dev-stack)).
-  - Associated open-source harness Roder: 8 GitHub stars ([GitHub, accessed Oct 27, 2026](https://github.com/RoderAI/roder)).
-  - YC job postings: 0 ([YC Jobs, accessed Oct 27, 2026](https://www.ycombinator.com/companies/composal/jobs)).
-  - Company X account: @composalai; count not retrievable ([official GitHub profile](https://github.com/ComposalAI)).
+  - Verify reported finding more than 1,500 bugs in customer apps since mid-October ([Composal’s YC profile, Nov 2026](https://www.ycombinator.com/companies/composal)).
+  - Verify’s October 30 launch post reached about 132,000 X views ([Launch Video Company, Nov 2026](https://www.launchvideo.com/directory/composal)).
+  - 268 LinkedIn followers and 58 X followers for @ComposalAI ([Company LinkedIn, Nov 2026](https://www.linkedin.com/company/composalai/), [Teapawt X mirror, Nov 2026](https://www.teapaw.org/ComposalAI)).
+  - Launch coverage by Founderland and TrustList ([Founderland, Oct 27, 2026](https://www.founderland.ai/articles/composal-launches-ai-agent-swarms-to-test-software-like-user-mvr8sd71), [TrustList, Oct 2026](https://trustlist.uk/automated-testing-software/composal-agent-product-testing)).
+  - Composal Recorder began rolling out to early-access customers as an unpacked Chrome extension ([Composal Reflog, Nov 1, 2026](https://composal.com/reflog/launch-week), [Recorder documentation](https://composal.com/docs/verify/chrome-recorder)).
+  - Zero active postings on YC Jobs ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/composal/jobs)).
 - **Competitors:**
-  - **Momentic ($18.7M in disclosed rounds, revenue unknown):** intent-based, plain-English tests that adapt to interface changes; latest identified round was $15M Series A led by Standard Capital in November 2025 ([seed announcement](https://momentic.ai/blog/seed-round), [Series A announcement](https://momentic.ai/blog/series-a)).
-  - **QA Wolf ($56.1M raised, revenue unknown):** managed test creation, infrastructure, and maintenance rather than Composal’s browser-agent tool; latest identified round was $36M Series B led by Scale Venture Partners in July 2024 ([CB Insights](https://www.cbinsights.com/company/qa-wolf/financials), [company announcement](https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist)).
-  - **mabl ($77M raised, revenue unknown):** enterprise testing platform with independent verification and quality-team guardrails; latest identified round was $40M Series C led by Vista’s Endeavor Fund in November 2021 ([funding announcement](https://www.mabl.com/awards-and-press/mabl-raises-40m-series-c), [October 2026 release](https://www.prnewswire.com/news-releases/mabl-introduces-agentic-testing-harness-to-clear-the-verification-bottleneck-created-by-coding-agents-302914831.html)).
-- **Product history:** September materials described source-control infrastructure, while the October 16 changelog separated Vex repository tooling from Composal product operations; the cited 80,000 repositories belonged to founder Zembashis’s prior employer Cosine, not Composal testing traction ([September article](https://composal.com/reflog/source-control-for-the-age-of-agents), [changelog](https://composal.ai/docs/cli/changelog)).
-- **Why now:** Composal attributes verification demand to expanding coding-agent output and reports customers continuing manual checks after automated tests pass ([Composal, Oct 23, 2026](https://composal.com/reflog/verification-core-dev-stack)).
+  - **Meticulous** ($19M across disclosed rounds, revenue unknown): Replays recorded sessions and generates tests for uncovered code changes, with a $15M Series A led by Chemistry in July 2026 ([Meticulous Seed](https://www.meticulous.ai/blog/meticulous-announces-4m-seed-round), [Series A](https://www.meticulous.ai/blog/series-a), [Axios](https://www.axios.com/newsletters/axios-pro-rata-3e3edfc3-b0fd-4ff0-9d16-92a53a295ec9), [Changelog](https://app.meticulous.ai/changelog)).
+  - **Momentic** ($18.7M across disclosed rounds, revenue unknown): Uses intent-based self-healing tests across web and native mobile, with a $15M Series A led by Standard Capital in November 2025 ([Momentic Seed](https://momentic.ai/blog/seed-round), [Series A](https://momentic.ai/blog/series-a), [Meticulous Research](https://www.meticulousresearch.com/meticulous-next/ai-test-automation-agents-outlook-2026-2032), [Momentic Product](https://momentic.ai/)).
+  - **QA Wolf** ($56.1M raised, revenue unknown): Provides managed Playwright and Appium coverage, with a $36M Series B led by Scale Venture Partners in July 2024 ([CB Insights](https://www.cbinsights.com/company/qa-wolf/financials), [Scale Venture Partners](https://www.scalevp.com/blog/announcing-our-investment-in-qa-wolf), [QA Wolf](https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist)).
+  - **Cognition / Devin** (over $3B across disclosed Series D and E alone, over $1B company-wide annualized revenue run rate in September 2026): Provides a cloud software engineer for general coding work that overlaps with Sparks, with a Series E of over $2B led by Andreessen Horowitz and Accel in September 2026 ([Cognition Series D](https://cognition.com/blog/series-d), [Series E](https://cognition.com/blog/series-e), [Revenue Update](https://cognition.com/blog/1b-run-rate)).
+- **Why now:** [Inferred]: The rise in agent-drafted GitHub pull requests from 17% in March 2026 to more than 40% in September expands the volume of changes engineering teams need to verify ([GitHub Octoverse, Nov 2026](https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/)).
 
 ## Founders & Team
 
-- **Pandelis Zembashis (Co-founder/CEO):**
-  - Background: Birmingham City University alumnus, former Cosine CTO and 11x Head of Engineering, with coding-agent, sandbox, and repository infrastructure experience; exit history: No public data found ([YC](https://www.ycombinator.com/founders/pandelis-zembashis), [Composal](https://composal.com/about)).
-  - Twitter/X: @pandelisz; count not retrievable ([YC profile](https://www.ycombinator.com/founders/pandelis-zembashis)).
-  - LinkedIn: profile found; headline not retrievable; 3K followers displayed ([LinkedIn, via search snippet, Oct 2026](https://www.linkedin.com/in/pandelis)).
-  - GitHub: @PandelisZ; pinned repository `skills` has 1 star ([GitHub, accessed Oct 27, 2026](https://github.com/pandelisz)).
-- **Jonathan Davies (Co-founder/CTO):**
-  - Background: University of Birmingham alumnus, mmtm co-founder and former Papaya senior product engineer, with software work for Telefonica, Mitie, and Vodafone; exit history: No public data found ([YC](https://www.ycombinator.com/founders/jonathan-davies), [personal website](https://www.jonathandavi.es/)).
-  - Twitter/X: @jonathandavies; count not retrievable ([YC profile](https://www.ycombinator.com/founders/jonathan-davies)).
-  - LinkedIn: lists Composal; headline not retrievable; 239 followers ([LinkedIn, via search snippet, Oct 2026](https://uk.linkedin.com/in/jonathan-m-davies)).
-  - GitHub: @jonathanmdavies; repository details and star counts not retrievable ([personal website](https://www.jonathandavi.es/), [GitHub](https://github.com/jonathanmdavies)).
-- **Jan Moehlmann (Co-founder/CRO):**
-  - Background: London Business School and KIT alumnus who previously built commercial functions at 11x, Encord, and Tractable; exit history: No public data found ([YC](https://www.ycombinator.com/founders/jan-moehlmann), [Composal](https://composal.com/about)).
-  - Twitter/X: No public account found.
-  - LinkedIn: lists Composal; headline not retrievable; 3K followers ([LinkedIn, via search snippet, Oct 2026](https://uk.linkedin.com/in/jan-moehlmann-a3a23352)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Zembashis and Davies previously worked at Papaya, while Zembashis and Moehlmann both worked at 11x ([YC founder profiles](https://www.ycombinator.com/founders/pandelis-zembashis), [Davies](https://www.ycombinator.com/founders/jonathan-davies), [Moehlmann](https://www.ycombinator.com/founders/jan-moehlmann)).
-- **Founder-market fit:** Documented experience spans coding-agent infrastructure, product engineering, and AI-company commercial functions, with YC backing ([YC company profile](https://www.ycombinator.com/companies/composal)).
+- **Pandelis Zembashis (Founder/CEO):**
+  - **Background:** Birmingham City University alumnus, former Cosine CTO who built coding-agent harnesses and sandboxes, and former 11x head of engineering ([YC Founder Profile](https://www.ycombinator.com/founders/pandelis-zembashis), [Composal About](https://composal.com/about)). **Business email:** No public data found.
+  - **Twitter/X:** @pandelisz, approximately 1.1K followers ([YC Founder Profile](https://www.ycombinator.com/founders/pandelis-zembashis), [Teapawt, Nov 2026](https://www.teapaw.org/PandelisZ)).
+  - **LinkedIn:** Headline unavailable in the public profile view, which lists Cosine and approximately 3K followers ([LinkedIn, 2026](https://www.linkedin.com/in/pandelis)).
+  - **GitHub:** @PandelisZ, `tuiwright` terminal UI testing, 1 star ([GitHub, Nov 2026](https://github.com/PandelisZ/tuiwright)).
+- **Jonathan Davies (Founder/CTO):**
+  - **Background:** University of Birmingham, mmtm consultancy co-founder, former Papaya engineer, and software development for Telefónica, Vodafone, and Mitie ([LinkedIn](https://uk.linkedin.com/in/jonathan-m-davies), [Professional Site](https://www.jonathandavi.es/), [Y Combinator](https://www.ycombinator.com/companies/composal)). **Business emails:** me@jonathandavi.es and jonathanmdavies@me.com ([Professional Site](https://www.jonathandavi.es/), [GitHub](https://github.com/jonathanmdavies)).
+  - **Twitter/X:** @jonathandavies, 513 followers ([Sotwe X mirror, Nov 2026](https://www.sotwe.com/jonathandavies?lang=en)).
+  - **LinkedIn:** Headline unavailable in the public profile view, which lists Composal and 239 followers ([LinkedIn, 2026](https://uk.linkedin.com/in/jonathan-m-davies)).
+  - **GitHub:** @jonathanmdavies, `gooey-rails` RSS reader, 5 stars ([GitHub, Nov 2026](https://github.com/jonathanmdavies/gooey-rails)).
+- **Jan Moehlmann (Founder/CRO):**
+  - **Background:** London Business School and commercial roles at 11x, Encord, and Tractable ([LinkedIn](https://uk.linkedin.com/in/jan-moehlmann-a3a23352), [Composal About](https://composal.com/about)). **Business email:** No public data found.
+  - **Twitter/X:** @JanMoehlmann, 262 followers ([Teapawt, Nov 2026](https://www.teapaw.org/janmoehlmann)).
+  - **LinkedIn:** Headline unavailable in the public profile view, which lists Composal and approximately 3K followers ([LinkedIn, 2026](https://uk.linkedin.com/in/jan-moehlmann-a3a23352)).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** Zembashis met Davies at Papaya and Moehlmann at 11x ([Zembashis’s launch thread, Oct 2026](https://www.teapaw.org/PandelisZ/status/2115974012308537454)).
+- **Founder-market fit:** The YC-backed team combines Zembashis’s coding-agent infrastructure work, Davies’s product engineering, and Moehlmann’s enterprise AI commercialization experience ([Y Combinator](https://www.ycombinator.com/companies/composal), [Composal About](https://composal.com/about)).
 
 ## Key Risks
 
-- **Verification accuracy:** A company-run local benchmark passed 157/166 attempts but recorded one false success, and Composal explicitly says these fixtures do not establish production performance on unseen customer websites ([Composal, Oct 18, 2026](https://composal.com/reflog/openai-decisions-browser-agents)).
-- **Authentication friction:** Half of ten recent setup calls stalled on authentication or network restrictions, with dedicated agent accounts and allowlisting among reported workarounds ([Composal, Oct 23, 2026](https://composal.com/reflog/verification-core-dev-stack)).
-- **Sensitive-data exposure:** Tests can capture credentials, page content, and recordings processed by external AI providers; Composal recommends disposable accounts and documents access controls and encrypted connections ([privacy policy](https://composal.com/legal/privacy)).
-- **Competitive overlap:** mabl introduced independent coding-agent verification within developer workflows in October 2026, overlapping Composal’s stated positioning ([mabl announcement](https://www.prnewswire.com/news-releases/mabl-introduces-agentic-testing-harness-to-clear-the-verification-bottleneck-created-by-coding-agents-302914831.html)).
-- **Name ambiguity:** An unrelated maintenance-software platform also uses Composal, requiring domain and founder checks when attributing third-party metrics ([Composal.ch, via search snippet](https://composal.ch/en/)).
+- **Test environment access:** Half of the 10 setup calls Composal described stalled on authentication or network controls, and Verify supports dedicated test accounts and private-network connections ([Composal Reflog, Oct 2026](https://composal.com/reflog/verification-core-dev-stack), [Verify Docs](https://composal.com/docs/verify)).
+- **Verification accuracy:** [Inferred]: Browser-run coverage can miss journeys that agents never attempt, and Composal supports explicit required checks and recorded evidence for human review ([Verify Reference](https://composal.com/docs/verify/reference), [Composal Terms](https://composal.com/legal/terms)).
+- **Production permissions:** [Inferred]: Standing orders that touch repositories and deployment systems can propagate an erroneous change, and Sparks shows per-agent integration access and approval steps for merges and deploys ([Sparks](https://composal.com/sparks)).
+- **In-house substitution:** Composal’s customer research documents teams already running internal QA-agent swarms, while Verify packages scenario reuse and failure evidence into the pull-request workflow ([Composal Reflog](https://composal.com/reflog/verification-core-dev-stack), [Verify Docs](https://composal.com/docs/verify)).
+- **Name collision:** [Inferred]: Search results can mix the startup with IPALLE’s Composal compost product, which has separate branding and distribution ([IPALLE](https://ipalle.be/wp-content/uploads/2023/05/2020-Fiches-Thumaide-en-anglais-Nouveau-logo.pdf), [Y Combinator](https://www.ycombinator.com/companies/composal)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | AI test automation agents, $0.80–$1.40B in 2026, 30% projected CAGR through 2032 ([Meticulous Research, 2026](https://www.meticulousresearch.com/meticulous-next/ai-test-automation-agents-outlook-2026-2032)) |
 | SAM | No public data found |
-| Traction | LinkedIn 175 followers; Roder 8 stars ([LinkedIn](https://www.linkedin.com/company/composalai), [GitHub](https://github.com/RoderAI/roder), Oct 27, 2026) |
-| Revenue Signal | $500/month includes 3,000 browser minutes; prepaid extra minutes $1 each ([Composal documentation](https://composal.com/docs/verify), Oct 27, 2026) |
-| Founders | Zembashis, CEO: Cosine CTO; Davies, CTO: mmtm/Papaya; Moehlmann, CRO: 11x/Encord/Tractable ([Composal About](https://composal.com/about)) |
-| Competitors | Momentic ($18.7M disclosed rounds, revenue unknown, intent-based tests); QA Wolf ($56.1M raised, revenue unknown, managed testing); mabl ($77M raised, revenue unknown, enterprise verification) ([Momentic funding](https://momentic.ai/blog/series-a), [seed](https://momentic.ai/blog/seed-round), [CB Insights](https://www.cbinsights.com/company/qa-wolf/financials), [mabl funding](https://www.mabl.com/awards-and-press/mabl-raises-40m-series-c)) |
-| Moat Signals | Persistent product knowledge and journey maps ([Composal documentation](https://composal.com/docs/verify)) |
-| Risk Factors | False-success findings, authentication setup friction, external AI processing ([engineering evaluation](https://composal.com/reflog/openai-decisions-browser-agents), [customer research](https://composal.com/reflog/verification-core-dev-stack), [privacy policy](https://composal.com/legal/privacy)) |
-| Founder Reach | LinkedIn: Zembashis 3K, Davies 239, Moehlmann 3K followers ([Zembashis](https://www.linkedin.com/in/pandelis), [Davies](https://uk.linkedin.com/in/jonathan-m-davies), [Moehlmann](https://uk.linkedin.com/in/jan-moehlmann-a3a23352), via search snippets, Oct 2026) |
-| Distribution Signals | Public CLI, MCP, and repository integrations ([official GitHub](https://github.com/ComposalAI)) |
-| Emails | support@composal.ai; me@jonathandavi.es ([Composal terms](https://composal.com/legal/terms), [Davies’s website](https://www.jonathandavi.es/)) |
+| Traction | Verify reported 1,500+ bugs found in customer apps since mid-October ([YC, Nov 2026](https://www.ycombinator.com/companies/composal)) |
+| Revenue Signal | Verify Team, $500/month for 3,000 browser minutes, with $1/minute prepaid add-ons ([Verify Reference, Nov 2026](https://composal.com/docs/verify/reference)) |
+| Founders | Pandelis Zembashis (CEO), Cosine CTO and 11x engineering lead. Jonathan Davies (CTO), mmtm co-founder and Papaya engineer. Jan Moehlmann (CRO), commercial roles at 11x, Encord, and Tractable ([Composal About](https://composal.com/about)) |
+| Competitors | Meticulous ($19M disclosed, revenue unknown, session replay and diff-driven testing) ([Seed](https://www.meticulous.ai/blog/meticulous-announces-4m-seed-round), [Series A](https://www.meticulous.ai/blog/series-a), [Changelog](https://app.meticulous.ai/changelog)). Momentic ($18.7M disclosed, revenue unknown, self-healing web and mobile tests) ([Seed](https://momentic.ai/blog/seed-round), [Series A](https://momentic.ai/blog/series-a), [Product](https://momentic.ai/)). QA Wolf ($56.1M raised, revenue unknown, managed test suites) ([CB Insights](https://www.cbinsights.com/company/qa-wolf/financials), [QA Wolf](https://www.qawolf.com/blog/qa-wolf-raises-36-million-series-b-and-opens-mobile-app-waitlist)). Cognition (over $3B disclosed across Series D and E, over $1B company-wide annualized revenue run rate, general cloud software engineering) ([Series D](https://cognition.com/blog/series-d), [Series E](https://cognition.com/blog/series-e), [Revenue Update](https://cognition.com/blog/1b-run-rate)) |
+| Moat Signals | Persistent product maps, reusable scenarios, and retained test evidence ([Composal About](https://composal.com/about), [Verify Reference](https://composal.com/docs/verify/reference)) |
+| Risk Factors | Test environment access and in-house substitution ([Composal Reflog](https://composal.com/reflog/verification-core-dev-stack)), production permissions ([Sparks](https://composal.com/sparks)) |
+| Founder Reach | Zembashis: X 1.1K, LinkedIn 3K, `tuiwright` 1 star ([Teapawt](https://www.teapaw.org/PandelisZ), [LinkedIn](https://www.linkedin.com/in/pandelis), [GitHub](https://github.com/PandelisZ/tuiwright)). Davies: X 513, LinkedIn 239, `gooey-rails` 5 stars ([Sotwe](https://www.sotwe.com/jonathandavies?lang=en), [LinkedIn](https://uk.linkedin.com/in/jonathan-m-davies), [GitHub](https://github.com/jonathanmdavies/gooey-rails)). Moehlmann: X 262, LinkedIn 3K ([Teapawt](https://www.teapaw.org/janmoehlmann), [LinkedIn](https://uk.linkedin.com/in/jan-moehlmann-a3a23352)) |
+| Distribution Signals | 132K X launch views, 268 company LinkedIn followers, 58 company X followers, and a Sparks beta waitlist ([Launch Video Company, Nov 2026](https://www.launchvideo.com/directory/composal), [LinkedIn, Nov 2026](https://www.linkedin.com/company/composalai/), [Teapawt, Nov 2026](https://www.teapaw.org/ComposalAI), [Sparks](https://composal.com/sparks)) |
+| Emails | me@jonathandavi.es ([Jonathan Davies’s professional site](https://www.jonathandavi.es/)), jonathanmdavies@me.com ([Jonathan Davies’s GitHub](https://github.com/jonathanmdavies)), support@composal.ai ([Composal Terms](https://composal.com/legal/terms)) |

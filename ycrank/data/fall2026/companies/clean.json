@@ -1,80 +1,55 @@
 {
   "slug": "clean",
   "name": "Clean",
-  "oneLiner": "We tell sellers exactly when a company is ready to buy.",
+  "oneLiner": "Revenue intelligence for agents and sales teams.",
   "metadata": {
-    "website": "http://www.tryclean.ai",
+    "website": "https://www.tryclean.ai/",
     "yc_page": "https://www.ycombinator.com/companies/clean",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/clean))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/clean))",
     "industry": "B2B / B2B",
-    "team_size": "5",
+    "team_size": "5 ([Y Combinator](https://www.ycombinator.com/companies/clean))",
     "location": "San Francisco, CA, USA",
-    "tags": "Deep Learning, SaaS",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/clean))",
-    "emails": "hello@tryclean.ai ([Clean](https://www.tryclean.ai/contact)); founder professional contacts: prathambiren2618@gmail.com ([Pratham](https://www.meetpratham.me/)), infernotech2618@gmail.com ([GitHub](https://github.com/CodeWithInferno)), csaputra@ucsd.edu ([Clarissa](https://www.clarissabuilds.com/))"
+    "tags": "SaaS",
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/clean))",
+    "emails": "prathambiren2618@gmail.com (Pratham, [portfolio](https://meetpratham.me/)), csaputra@ucsd.edu (Clarissa, [professional inquiries](https://www.clarissabuilds.com/)), hello@tryclean.ai (general, sales and support, [Clean Contact](https://www.tryclean.ai/contact)), yc@tryclean.ai (demo inquiries, [Launch YC](https://www.ycombinator.com/launches/WhX-clean-real-time-company-data-for-sales-teams-and-their-agents))"
   },
   "tags": [
-    "Deep Learning",
     "SaaS"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:03:18.656Z",
+  "memoGeneratedAt": "2026-11-17T23:05:54.682Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 44,
+    "agi": {
+      "score": 39,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 46,
-    "NR": 49,
-    "PG": 47,
-    "PT": 31,
-    "SL": 42,
-    "VK": 31
+    "AGI": 39,
+    "HG": 38,
+    "EXIT": 38
   },
-  "consolidatedAvg": 41.43,
-  "consolidatedRank": 49,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 10,
-    "tractionScore": 74,
-    "tractionReason": "$240K ARR before YC; paying sales-intelligence customers"
+    "tractionRank": 12,
+    "tractionScore": 79,
+    "tractionReason": "Reported $200K+ ARR and a paying customer for sales product"
   },
   "paths": {
     "memo": "fall2026/memos/clean.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/clean.md",
-      "elad-gil": "fall2026/evals/elad-gil/clean.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/clean.md",
-      "paul-graham": "fall2026/evals/paul-graham/clean.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/clean.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/clean.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/clean.md"
+      "agi": "fall2026/evals/agi/clean.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/clean.md",
+      "exit": "fall2026/evals/exit/clean.md"
     }
   }
 }

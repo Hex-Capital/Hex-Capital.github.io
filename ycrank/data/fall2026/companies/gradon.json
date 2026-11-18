@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://heygradon.com/",
     "yc_page": "https://www.ycombinator.com/companies/gradon",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/gradon))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/gradon))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Construction, B2B, AI",
-    "yc_partner": "Ankit Gupta ([YC](https://www.ycombinator.com/companies/gradon))",
-    "emails": "hello@heygradon.com ([website](https://heygradon.com/)); nour@heygradon.com ([YC launch](https://www.ycombinator.com/companies/gradon)); yousefh@stanford.edu, founder contact ([profile](https://www.yousefh.org/))"
+    "yc_partner": "Ankit Gupta ([YC directory](https://www.ycombinator.com/companies/gradon))",
+    "emails": "nour@heygradon.com (Nour Zahzah, CEO, [Launch YC](https://www.ycombinator.com/launches/Vf8-gradon-legora-for-aec-architecture-engineering-construction-firms)), hello@heygradon.com (general inquiries and privacy, [Gradon privacy policy](https://heygradon.com/privacy))"
   },
   "tags": [
     "Construction",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:21:00.767Z",
+  "memoGeneratedAt": "2026-11-18T00:40:09.968Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 40,
+    "agi": {
+      "score": 44,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 39,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 56,
-    "NR": 45,
-    "PG": 39,
-    "PT": 35,
-    "SL": 35,
-    "VK": 31
+    "AGI": 44,
+    "HG": 39,
+    "EXIT": 41
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 60,
+  "consolidatedAvg": 41.33,
+  "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 52,
-    "tractionReason": "Multiple firms using product; documented 50-person firm project outcome"
+    "tractionRank": 15,
+    "tractionScore": 76,
+    "tractionReason": "Mid-six-figure contracted ARR in four weeks, plus paid pilots"
   },
   "paths": {
     "memo": "fall2026/memos/gradon.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/gradon.md",
-      "elad-gil": "fall2026/evals/elad-gil/gradon.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/gradon.md",
-      "paul-graham": "fall2026/evals/paul-graham/gradon.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/gradon.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/gradon.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/gradon.md"
+      "agi": "fall2026/evals/agi/gradon.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/gradon.md",
+      "exit": "fall2026/evals/exit/gradon.md"
     }
   }
 }

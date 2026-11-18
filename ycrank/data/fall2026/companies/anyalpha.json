@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://anyalpha.ai/",
     "yc_page": "https://www.ycombinator.com/companies/anyalpha",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/anyalpha))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/anyalpha))",
     "industry": "Fintech / Fintech",
-    "team_size": "2",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/anyalpha))",
     "location": "San Francisco, CA, USA",
     "tags": "Fintech, Marketplace, Consumer Finance, Trading",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/anyalpha))",
-    "emails": "jerry@anyalpha.ai ([website](https://anyalpha.ai/)); shirley@anyalpha.ai, sherry@anyalpha.ai ([YC launch](https://www.ycombinator.com/launches/WOO-anyalpha-the-agentic-trading-platform)); Android support: nativcontactus@gmail.com; developer: binxumiao@charmchat.app ([Google Play](https://play.google.com/store/apps/details?id=pro.betalpha.betalpha.us))"
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/anyalpha))",
+    "emails": "shirley@anyalpha.ai, CEO contact for traders and data providers ([Launch YC](https://www.ycombinator.com/launches/WOO-anyalpha-the-agentic-trading-platform)), jerry@anyalpha.ai, CTO contact for support and privacy ([AnyAlpha Privacy Policy](https://anyalpha.ai/privacy))"
   },
   "tags": [
     "Fintech",
@@ -20,63 +20,39 @@
     "Trading"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:11:53.255Z",
+  "memoGeneratedAt": "2026-11-18T00:23:25.150Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 36,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 35,
-    "NR": 31,
-    "PG": 36,
-    "PT": 32,
-    "SL": 32,
-    "VK": 25
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 34
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 195,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 175,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 23,
-    "tractionReason": "Shared app has 100+ downloads; current-product adoption cannot be isolated"
+    "tractionRank": 78,
+    "tractionScore": 53,
+    "tractionReason": "1,000+ active traders and over $1M weekly trading volume"
   },
   "paths": {
     "memo": "fall2026/memos/anyalpha.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/anyalpha.md",
-      "elad-gil": "fall2026/evals/elad-gil/anyalpha.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/anyalpha.md",
-      "paul-graham": "fall2026/evals/paul-graham/anyalpha.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/anyalpha.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/anyalpha.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/anyalpha.md"
+      "agi": "fall2026/evals/agi/anyalpha.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/anyalpha.md",
+      "exit": "fall2026/evals/exit/anyalpha.md"
     }
   }
 }

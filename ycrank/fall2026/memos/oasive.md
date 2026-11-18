@@ -1,6 +1,6 @@
 ﻿# Oasive
 
-> Credit research for municipal bond analysts
+> AI credit research for municipal bond investors
 
 | Field | Value |
 |-------|-------|
@@ -12,53 +12,56 @@
 | Location | San Francisco, CA, USA |
 | Tags | FinOps, Fintech, Investments |
 | YC Partner | Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/oasive)) |
-| Emails | anais@oasive.ai ([YC](https://www.ycombinator.com/companies/oasive)); hello@oasive.ai ([Oasive](https://oasive.ai/contact)) |
+| Emails | anais@oasive.ai (founder, [Launch YC](https://www.ycombinator.com/launches/UEq-oasive-find-better-bonds-to-buy)), sales@oasive.ai (enterprise sales) and hello@oasive.ai (general inquiries and support, [Oasive](https://www.oasive.ai/)), legal@oasive.ai (legal inquiries, [archived Oasive Terms, Jun 2026](https://oasive.ai/legal/2026-06-03/terms)) |
 
 ## The Idea
 
-- **Problem:** Municipal credit analysts researching cities, school districts, hospitals, and airports manually gather audited financials, debt information, board minutes, and local news from scattered PDFs and websites before investment decisions ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/oasive)).
-- **Approach:** Oasive assembles borrower information into sector-specific research pages with numerical claims linked to their sources, alongside separate MBS collateral, prepayment, and relative-value tools ([Oasive LinkedIn, Oct 2026](https://www.linkedin.com/company/oasive)).
-- **Differentiation:** Oasive emphasizes borrower research incorporating board meetings and local news, versus MuniPro’s debt-record-based Word memos and SOLVE’s quote aggregation and predictive pricing ([Oasive](https://www.linkedin.com/company/oasive), [MuniPro](https://www.munipro.com/marketing/solutions/credit-analysts/), [SOLVE](https://solvefixedincome.com/)).
-- **Business Model:** Macro & Rates costs $200/user/month with a 14-day trial and 200 monthly queries, while Agency MBS starts with a custom paid pilot followed by an annual agreement based on seats and coverage; municipal pricing: No public data found ([Oasive pricing, Oct 27, 2026](https://oasive.ai/join)).
+- **Problem:** Municipal bond fund analysts can spend hours searching issuer filings, board meetings and local news to assess repayment risk for cities, school districts, hospitals and airports ([Y Combinator](https://www.ycombinator.com/companies/oasive)).
+- **Approach:** Oasive combines source-linked audited financials, sector metrics, debt security terms, local news and timestamped meeting summaries on borrower pages, with portfolio watchlists and sourced answers to analyst questions ([Oasive](https://www.oasive.ai/), [Y Combinator](https://www.ycombinator.com/companies/oasive)).
+- **Differentiation:** Oasive combines audited financials with timestamped board-meeting coverage, while CreditScope emphasizes credit-research workflow and AI-filtered news, DPC DATA offers normalized obligor data and disclosure feeds, and SOLVE emphasizes dealer quotes and predictive pricing ([Oasive](https://www.oasive.ai/), [Investortools](https://www.investortools.com/creditscope/), [DPC DATA](https://www.dpcdata.com/corporate-fact-sheet/), [SOLVE](https://solvefixedincome.com/market-coverage/municipals/)).
+- **Business Model:** Municipal Bonds and Agency MBS have custom team pricing and onboarding, and Macro & Rates is self-serve at $200 per user per month with a 14-day trial ([Oasive pricing, Nov 2026](https://www.oasive.ai/#pricing)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Public acquisition paths include a monthly research email, individual research trials, institutional MBS demos, municipal early-access registration, and the founder’s request for introductions to fixed-income professionals ([Oasive](https://oasive.ai/contact), [pricing](https://oasive.ai/join), [early access](https://oasive.ai/early-access), [YC launch](https://www.ycombinator.com/launches/UEq-oasive-find-better-bonds-to-buy)).
+- **GTM / Distribution:** Oasive takes municipal access requests through its website and offers demos and enterprise contracts, while Howland publishes product walkthroughs and invites analysts to request access on social channels ([Oasive](https://www.oasive.ai/), [Oasive LinkedIn](https://www.linkedin.com/company/oasive/)).
 
 ## Defensibility
 
-- **Moat today:** Oasive advertises proprietary prepayment and valuation models for Agency MBS, although municipal-specific exclusive data or independently validated model advantages have no public documentation found ([Oasive pricing](https://oasive.ai/join)).
-- **Future moat:** [Inferred]: Accumulated borrower histories and analyst corrections could improve research coverage and create workflow dependence, but public materials establish source-linked aggregation rather than an exclusive municipal dataset ([Oasive LinkedIn](https://www.linkedin.com/company/oasive)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, because existing vendors already sell municipal financial data, source-based research workflows, and AI-compatible data products ([DPC DATA](https://www.dpcdata.com/), [MuniPro](https://www.munipro.com/marketing/solutions/credit-analysts/)).
-- **Commoditization risk:** [Inferred]: Data vendors and institutional engineering teams could reproduce parts of the aggregation workflow using commercially available AI-ready municipal datasets, although implementation effort cannot be quantified from public evidence ([DPC DATA, Mar 26, 2026](https://www.dpcdata.com/resources/press-release-dpc-data-launches-ai-ready-municipal-bond-data-for-institutional-investors/)).
+- **Moat today:** Howland reports that Oasive has assembled data on more than 8,600 school districts across 43 states where districts borrow in their own name ([Howland on X, Nov 15, 2026, via teapawt mirror](https://teapawt.net/AnaisHowland18)).
+- **Future moat:** [Inferred]: A history of standardized borrower financials and timestamped credit events could make the dataset harder to reproduce as coverage deepens, with exclusivity and customer switching costs still unverified ([Oasive](https://www.oasive.ai/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Investortools and DPC DATA already combine municipal financials with news monitoring, giving them a starting point for adding meeting summaries with commercially available video models ([Investortools](https://www.investortools.com/creditscope/), [DPC DATA](https://www.dpcdata.com/corporate-fact-sheet/), [Google Developers](https://developers.googleblog.com/en/gemini-2-5-video-understanding/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported use across 15 institutional desks, including global banks, asset managers managing over $100B, and Fortune 500 treasury teams, at the MBS/rates launch rather than specifically for municipal research ([Oasive, Sep 24, 2026](https://oasive.ai/news/oasive-launch-y-combinator)).
-  - YC backing announced publicly ([Oasive, Sep 24, 2026](https://oasive.ai/news/oasive-launch-y-combinator)).
-  - Launch coverage published by RuntimeWire ([RuntimeWire, Sep 23, 2026](https://runtimewire.com/article/oasive-yc-bond-research-launch)).
-  - Zero active job postings on YC ([YC Jobs, Oct 27, 2026](https://www.ycombinator.com/companies/oasive/jobs)).
+  - Oasive for Munis launched on Nov 4, 2026 ([Howland on X, Nov 2026, via teapawt mirror](https://teapawt.net/AnaisHowland18)).
+  - Municipal product coverage of 8,600+ school districts across 43 states, founder-reported ([Howland on X, Nov 15, 2026, via teapawt mirror](https://teapawt.net/AnaisHowland18)).
+  - 15 institutional desks using the original Macro & Rates and Agency MBS offering, including global banks, asset managers and Fortune 500 treasury teams, company-reported at launch ([Oasive, Sep 24, 2026](https://oasive.ai/news/oasive-launch-y-combinator)).
+  - YC backing announced alongside the original fixed-income launch, which was covered by RuntimeWire ([Oasive, Sep 24, 2026](https://oasive.ai/news/oasive-launch-y-combinator), [RuntimeWire, Sep 23, 2026](https://runtimewire.com/article/oasive-yc-bond-research-launch)).
+  - 83 X followers for @OasiveAI ([Sotwe profile snapshot, Nov 2026](https://www.sotwe.com/OasiveAI?lang=tr)).
 - **Competitors:**
-  - **DPC DATA** (funding: No public data found; revenue unknown): Offers standardized obligor financials, disclosure archives, and issuer news as data products, overlapping Oasive’s municipal research inputs ([DPC DATA, Oct 2026](https://www.dpcdata.com/)).
-  - **MuniPro** ($0 external capital reported by its founder in 2025; revenue unknown): Builds an issuer debt record and generates AI-drafted Word memos, compared with Oasive’s borrower research page ([founder interview, GFOA Today, 2025](https://arizent.brightspotcdn.com/4f/67/0091a83941d9bb6dae47f7af0496/gfoa-2025-day-1.pdf), [MuniPro product](https://www.munipro.com/marketing/solutions/credit-analysts/)).
-  - **SOLVE** (over $80M invested by Charlesbank in February 2022, following an earlier undisclosed round; revenue unknown): Emphasizes observable quotes, predictive municipal pricing, and relative-value analytics rather than Oasive’s borrower-document research presentation ([SOLVE funding announcement](https://solvefixedincome.com/news/solve-advisors-secures-investment-from-charlesbank-capital-partners/), [product site](https://solvefixedincome.com/)).
-- **Why now:** [Inferred]: DPC DATA’s March 2026 release of normalized municipal datasets explicitly designed for AI ingestion provides a recent enabling input for automated credit research, without establishing that Oasive uses that vendor ([DPC DATA, Mar 26, 2026](https://www.dpcdata.com/resources/press-release-dpc-data-launches-ai-ready-municipal-bond-data-for-institutional-investors/)).
+  - **Investortools CreditScope** (funding and revenue unknown): Combines municipal credit data, internal research workflows and AI-filtered news ([Investortools](https://www.investortools.com/creditscope/)).
+  - **DPC DATA** (funding and revenue unknown): Sells normalized financial and operating data, disclosure alerts and relative-value signals, with its MuniCREDIT product covering 28,000+ obligors ([DPC DATA](https://www.dpcdata.com/corporate-fact-sheet/)).
+  - **SOLVE** (total funding and revenue unknown, $80M+ growth investment from Charlesbank Technology Opportunities Fund in Feb 2022): Focuses on predictive municipal bond pricing, dealer quotes and trade data ([SOLVE financing announcement](https://solvefixedincome.com/news/solve-advisors-secures-investment-from-charlesbank-capital-partners/), [SOLVE municipal coverage](https://solvefixedincome.com/market-coverage/municipals/)).
+- **Why now:** [Inferred]: Google’s 2025 release of long-video processing through the Gemini API made public meeting recordings practical inputs for a credit-monitoring workflow, and Oasive says it uses a Google model to transcribe them ([Google Developers, 2025](https://developers.googleblog.com/en/gemini-2-5-video-understanding/), [Oasive Privacy Policy, Nov 2026](https://oasive.ai/legal/2026-11-03/privacy)).
 
 ## Founders & Team
 
-- **Anaïs Howland (Founder/CEO):**
-  - Background: BA Economics, UC Berkeley; CFA charterholder; Wells Fargo MBS quantitative analyst, Google Treasury MBS/ABS portfolio manager, and Google consumer AI strategist; previously founded the separate computer-use infrastructure venture Paradigm Shift AI ([CFA Society San Francisco](https://cfa-sf.org/about/about-us.html)).
-  - Twitter/X: @AnaisHowland18; count not retrievable from X, with account identity corroborated by her GitHub profile ([GitHub](https://github.com/anaishowland), [X](https://x.com/AnaisHowland18)).
-  - LinkedIn: Public profile found; headline not retrievable; indexed profile shows 2K followers ([LinkedIn, accessed Oct 27, 2026, via search snippet](https://www.linkedin.com/in/anaishowland)).
-  - GitHub: @anaishowland; Captr_Windows, a screen and interaction recording tool associated with her earlier computer-use work, has 9 stars ([GitHub, Oct 27, 2026](https://github.com/anaishowland/Captr_Windows)).
-- **Co-founder relationship:** YC lists Howland as the sole founder; No public data on co-founder history ([YC](https://www.ycombinator.com/companies/oasive)).
-- **Founder-market fit:** Howland’s documented experience combines institutional mortgage-security investing with consumer AI product strategy, and Oasive publicly identifies YC as a backer ([CFA Society San Francisco](https://cfa-sf.org/about/about-us.html), [Oasive launch](https://oasive.ai/news/oasive-launch-y-combinator)).
+- **Anaïs Howland (Founder/CEO)** ([Y Combinator](https://www.ycombinator.com/companies/oasive)):
+  - **Background:** UC Berkeley economics BA and CFA charterholder, formerly a Wells Fargo mortgage-bond quant analyst, Google Treasury portfolio manager and Google consumer AI product lead, and founder of Paradigm Shift AI, which she wound down ([CFA Society San Francisco](https://cfa-sf.org/about/about-us.html), [Howland’s shutdown announcement](https://www.linkedin.com/posts/anaishowland_over-the-past-month-i-have-been-open-sourcing-activity-7396317567663038464-Qilo)).
+  - **Twitter/X:** @AnaisHowland18, 513 followers ([teapawt profile snapshot, Nov 2026](https://teapawt.net/AnaisHowland18)).
+  - **LinkedIn:** “Stealth AI Startup” ([LinkedIn search snippet](https://www.linkedin.com/in/anaishowland)).
+  - **GitHub:** @anaishowland, with 10 stars on Captr_Windows from her prior company, Paradigm Shift AI ([GitHub, Nov 2026](https://github.com/anaishowland/Captr_Windows), [Howland’s open-source announcement](https://www.linkedin.com/posts/anaishowland_over-the-past-month-i-have-been-open-sourcing-activity-7396317567663038464-Qilo)).
+  - **Business email:** anais@oasive.ai, published for fixed-income desk introductions ([Launch YC](https://www.ycombinator.com/launches/UEq-oasive-find-better-bonds-to-buy)).
+- **Co-founder relationship:** No public data on co-founder history.
+- **Founder-market fit:** Howland combines buy-side fixed-income experience from Google Treasury and Wells Fargo with AI product work on Google Search and Gemini, and YC lists Kulveer Taggar as primary partner ([Y Combinator](https://www.ycombinator.com/companies/oasive), [Oasive About](https://oasive.ai/about)).
 
 ## Key Risks
 
-- **Output accuracy:** Oasive’s terms state that AI output may be inaccurate, incomplete, or outdated and is delivered without prior review, while requiring customers to evaluate outputs themselves ([Oasive terms, Oct 26, 2026](https://oasive.ai/legal/2026-10-26/terms)).
-- **Licensed-data continuity:** Agency MBS data access automatically ends if Oasive’s applicable enterprise license terminates, while TRACE-derived statistics face export restrictions that constrain downstream workflows ([Oasive data addendum, Oct 26, 2026](https://oasive.ai/legal/2026-10-26/third-party-terms)).
-- **Municipal availability ambiguity:** YC currently describes municipal research, but Oasive’s website still solicits municipal early-access registrations, leaving general availability unclear from public materials ([YC](https://www.ycombinator.com/companies/oasive), [Oasive early access, Oct 27, 2026](https://oasive.ai/early-access)).
-- **Competing workflow consolidation:** [Inferred]: MuniPro’s source-record-based AI memos and DPC DATA’s AI-ready financial and local-news datasets create overlapping alternatives to Oasive’s aggregation workflow ([MuniPro](https://www.munipro.com/marketing/solutions/credit-analysts/), [DPC DATA](https://www.dpcdata.com/resources/press-release-dpc-data-launches-ai-ready-municipal-bond-data-for-institutional-investors/)).
+- **Credit-data accuracy:** Oasive’s terms say automated output can be inaccurate, incomplete or stale and reaches users without company review, while the product links to original records and timestamps so analysts can verify it ([Oasive Terms, Nov 2026](https://oasive.ai/legal/2026-11-03/terms), [Oasive](https://www.oasive.ai/)).
+- **Recording availability:** Meeting coverage depends on public YouTube uploads, and Oasive deletes stored API data it cannot refresh within 30 days, including when videos are removed or made private ([Oasive Privacy Policy, Nov 2026](https://oasive.ai/legal/2026-11-03/privacy)).
+- **Licensed-data continuity:** Oasive’s terms allow immediate suspension of customer access to licensed data at a provider’s direction ([Oasive Terms, Nov 2026](https://oasive.ai/legal/2026-11-03/terms)).
+- **Incumbent overlap:** CreditScope already offers municipal issuer data and AI-filtered local news, overlapping with Oasive’s credit-monitoring workflow ([Investortools](https://www.investortools.com/creditscope/), [Oasive](https://www.oasive.ai/)).
+- **Name ambiguity:** Canada’s trademark registry lists a separate active OASIVE registration for goods including document-template software, creating a potential source of brand confusion ([Canadian Intellectual Property Office](https://ised-isde.canada.ca/cipo/trademark-search/1713350)).
 
 ## Key Facts
 
@@ -66,12 +69,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | 15 institutional desks at MBS/rates launch; municipal-specific adoption not disclosed ([Oasive, Sep 24, 2026](https://oasive.ai/news/oasive-launch-y-combinator)) |
-| Revenue Signal | Macro & Rates: $200/user/month; Agency MBS: custom paid pilot, then annual agreement ([Oasive pricing, Oct 27, 2026](https://oasive.ai/join)) |
-| Founders | Anaïs Howland, CEO: Berkeley Economics, CFA, Wells Fargo MBS and Google Treasury/AI experience ([CFA Society San Francisco](https://cfa-sf.org/about/about-us.html)) |
-| Competitors | DPC DATA (funding undisclosed, revenue unknown, municipal data products) ([DPC](https://www.dpcdata.com/)); MuniPro ($0 external capital reported in 2025, revenue unknown, debt-based AI memos) ([founder interview](https://arizent.brightspotcdn.com/4f/67/0091a83941d9bb6dae47f7af0496/gfoa-2025-day-1.pdf), [product](https://www.munipro.com/marketing/solutions/credit-analysts/)); SOLVE (over $80M Charlesbank investment, revenue unknown, pricing analytics) ([SOLVE, Feb 2022](https://solvefixedincome.com/news/solve-advisors-secures-investment-from-charlesbank-capital-partners/)) |
-| Moat Signals | Advertised proprietary MBS valuation and prepayment models ([Oasive pricing](https://oasive.ai/join)) |
-| Risk Factors | AI output accuracy ([terms](https://oasive.ai/legal/2026-10-26/terms)); licensed-data continuity and export constraints ([data addendum](https://oasive.ai/legal/2026-10-26/third-party-terms)) |
-| Founder Reach | Howland: LinkedIn 2K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/anaishowland)); Captr_Windows 9 stars ([GitHub, Oct 27, 2026](https://github.com/anaishowland/Captr_Windows)) |
-| Distribution Signals | Monthly research email, research trial, institutional demos, municipal early-access form ([Oasive contact](https://oasive.ai/contact), [pricing](https://oasive.ai/join), [early access](https://oasive.ai/early-access)) |
-| Emails | anais@oasive.ai ([YC](https://www.ycombinator.com/companies/oasive)); hello@oasive.ai ([Oasive contact](https://oasive.ai/contact)) |
+| Traction | Municipal product launched Nov 4 and covered 8,600+ school districts across 43 states by Nov 15 ([Howland on X, Nov 2026, via teapawt mirror](https://teapawt.net/AnaisHowland18)); 15 institutional desks reported for the original Macro & Rates and Agency MBS launch ([Oasive, Sep 2026](https://oasive.ai/news/oasive-launch-y-combinator)) |
+| Revenue Signal | Municipal Bonds and Agency MBS custom team pricing; Macro & Rates $200 per user per month ([Oasive pricing, Nov 2026](https://www.oasive.ai/#pricing)) |
+| Founders | Anaïs Howland (Founder/CEO), CFA charterholder, former Google Treasury portfolio manager and Wells Fargo quant analyst ([CFA Society San Francisco](https://cfa-sf.org/about/about-us.html)) |
+| Competitors | CreditScope (funding and revenue unknown, municipal credit workflow, [Investortools](https://www.investortools.com/creditscope/)); DPC DATA (funding and revenue unknown, normalized obligor data, [DPC DATA](https://www.dpcdata.com/corporate-fact-sheet/)); SOLVE ($80M+ Charlesbank investment, total funding and revenue unknown, predictive muni pricing, [SOLVE financing](https://solvefixedincome.com/news/solve-advisors-secures-investment-from-charlesbank-capital-partners/), [SOLVE product](https://solvefixedincome.com/market-coverage/municipals/)) |
+| Moat Signals | Municipal dataset covering 8,600+ school districts across 43 states, founder-reported ([Howland on X, Nov 2026, via teapawt mirror](https://teapawt.net/AnaisHowland18)) |
+| Risk Factors | Credit-data accuracy and licensed-data suspension ([Oasive Terms, Nov 2026](https://oasive.ai/legal/2026-11-03/terms)), dependence on public meeting recordings ([Oasive Privacy Policy, Nov 2026](https://oasive.ai/legal/2026-11-03/privacy)) |
+| Founder Reach | Anaïs Howland has 513 X followers and 10 GitHub stars on prior-company repo Captr_Windows ([teapawt](https://teapawt.net/AnaisHowland18), [GitHub](https://github.com/anaishowland/Captr_Windows), Nov 2026) |
+| Distribution Signals | Municipal access requests and demos ([Oasive, Nov 2026](https://www.oasive.ai/)), LinkedIn product walkthroughs ([Oasive LinkedIn, Nov 2026](https://www.linkedin.com/company/oasive/)), 83 company X followers ([Sotwe, Nov 2026](https://www.sotwe.com/OasiveAI?lang=tr)) |
+| Emails | anais@oasive.ai (founder, [Launch YC](https://www.ycombinator.com/launches/UEq-oasive-find-better-bonds-to-buy)), sales@oasive.ai (enterprise sales) and hello@oasive.ai (general inquiries and support, [Oasive](https://www.oasive.ai/)), legal@oasive.ai (legal inquiries, [archived Oasive Terms, Jun 2026](https://oasive.ai/legal/2026-06-03/terms)) |

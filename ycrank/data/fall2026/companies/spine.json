@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.joinspine.ai/",
     "yc_page": "https://www.ycombinator.com/companies/spine",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/spine))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/spine))",
     "industry": "B2B / B2B -> Human Resources",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Human Resources, Insurance, SMB",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/spine))",
-    "emails": "onur@joinspine.ai ([YC](https://www.ycombinator.com/companies/spine)); tech@tryheal.ai, app support ([App Store](https://apps.apple.com/us/app/spine-family-health/id6503223686))"
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/spine))",
+    "emails": "onur@joinspine.ai, CEO ([Launch YC](https://www.ycombinator.com/launches/URD-spine-we-run-hr-backoffice-benefits-for-startups-for-free)), hello@joinspine.ai, general inquiries ([Crunchbase company profile](https://www.crunchbase.com/organization/spine-1cde))"
   },
   "tags": [
     "Human Resources",
@@ -19,63 +19,39 @@
     "SMB"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:00:42.375Z",
+  "memoGeneratedAt": "2026-11-17T23:01:33.044Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 44,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
+    "exit": {
       "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 55,
-    "NR": 44,
-    "PG": 38,
-    "PT": 38,
-    "SL": 39,
-    "VK": 22
+    "AGI": 40,
+    "HG": 37,
+    "EXIT": 39
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 67,
+  "consolidatedAvg": 38.67,
+  "consolidatedRank": 90,
   "traction": {
     "tractionRank": 18,
-    "tractionScore": 68,
-    "tractionReason": "30+ customers; commission revenue grew approximately 4.4× over six months"
+    "tractionScore": 73,
+    "tractionReason": "Commission revenue grew 4.4× in six months, 30+ startups"
   },
   "paths": {
     "memo": "fall2026/memos/spine.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/spine.md",
-      "elad-gil": "fall2026/evals/elad-gil/spine.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/spine.md",
-      "paul-graham": "fall2026/evals/paul-graham/spine.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/spine.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/spine.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/spine.md"
+      "agi": "fall2026/evals/agi/spine.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/spine.md",
+      "exit": "fall2026/evals/exit/spine.md"
     }
   }
 }

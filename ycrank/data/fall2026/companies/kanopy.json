@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://www.kanopy-ai.com/",
     "yc_page": "https://www.ycombinator.com/companies/kanopy",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/kanopy))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/kanopy))",
     "industry": "Industrials / Industrials -> Energy",
     "team_size": "2",
     "location": "New York City, NY, USA",
     "tags": "Energy, Industrial",
-    "yc_partner": "Christopher Golda ([YC, via search snippet](https://www.ycombinator.com/companies/kanopy))",
-    "emails": "No public data found"
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/kanopy))",
+    "emails": "support@kanopy-ai.com, shared technical support ([Kanopy Status](https://status.kanopy-ai.com/index.html))"
   },
   "tags": [
     "Energy",
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-03T16:55:19.018Z",
+  "memoGeneratedAt": "2026-11-17T23:18:43.065Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
+    "agi": {
+      "score": 43,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 50,
-    "NR": 46,
-    "PG": 47,
-    "PT": 36,
-    "SL": 35,
-    "VK": 28
+    "AGI": 43,
+    "HG": 39,
+    "EXIT": 41
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 53,
+  "consolidatedAvg": 41,
+  "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 59,
-    "tractionReason": "Six utility/contractor LOIs or MSAs; 3,093 miles actually mapped"
+    "tractionRank": 67,
+    "tractionScore": 56,
+    "tractionReason": "Six LOIs or MSAs, 3,093 miles mapped, ACRT integration"
   },
   "paths": {
     "memo": "fall2026/memos/kanopy.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/kanopy.md",
-      "elad-gil": "fall2026/evals/elad-gil/kanopy.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/kanopy.md",
-      "paul-graham": "fall2026/evals/paul-graham/kanopy.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/kanopy.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/kanopy.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/kanopy.md"
+      "agi": "fall2026/evals/agi/kanopy.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/kanopy.md",
+      "exit": "fall2026/evals/exit/kanopy.md"
     }
   }
 }

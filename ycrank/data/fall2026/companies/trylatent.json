@@ -1,79 +1,55 @@
 {
   "slug": "trylatent",
   "name": "Latent",
-  "oneLiner": "Catch wrong LLM answers before your customers do",
+  "oneLiner": "Stop AI agent mistakes by reading the model?s mind",
   "metadata": {
     "website": "http://runlatent.ai/",
     "yc_page": "https://www.ycombinator.com/companies/trylatent",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/trylatent))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/trylatent))",
     "industry": "B2B / B2B -> Security",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "AI",
-    "yc_partner": "Harj Taggar ([YC](https://www.ycombinator.com/companies/trylatent))",
-    "emails": "vedant@runlatent.ai ([YC](https://www.ycombinator.com/companies/trylatent)); founders@runlatent.ai ([Company](https://runlatent.ai/company)); support@runlatent.ai, billing@runlatent.ai, calibration@runlatent.ai ([Pricing](https://runlatent.ai/pricing)); security@runlatent.ai ([Security](https://runlatent.ai/security)); hello@runlatent.ai ([PyPI](https://pypi.org/project/runlatent/0.0.1/))"
+    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/trylatent))",
+    "emails": "vedant@runlatent.ai, founder ([YC Launch](https://www.ycombinator.com/launches/WBw-latent-stop-ai-agent-mistakes-by-reading-the-model-s-mind)); founders@runlatent.ai, company inquiries ([Latent Company](https://runlatent.ai/company)); support@runlatent.ai, support and privacy ([Latent Privacy](https://runlatent.ai/privacy)); billing@runlatent.ai, billing, and calibration@runlatent.ai, calibration requests ([Latent Pricing](https://runlatent.ai/pricing)); security@runlatent.ai, vulnerability reports ([Latent Disclosure](https://runlatent.ai/disclosure)); research@runlatent.ai, research inquiries ([Latent Research](https://runlatent.ai/blog/agent-shortcut-hold)); hello@runlatent.ai, SDK author contact ([PyPI](https://pypi.org/project/runlatent/0.0.1/))"
   },
   "tags": [
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:12:31.773Z",
+  "memoGeneratedAt": "2026-11-17T23:23:09.396Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
+    "agi": {
+      "score": 36,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 41,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
+    "exit": {
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 41,
-    "NR": 51,
-    "PG": 37,
-    "PT": 41,
-    "SL": 30,
-    "VK": 30
+    "AGI": 36,
+    "HG": 36,
+    "EXIT": 40
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 86,
+  "consolidatedAvg": 37.33,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 20,
-    "tractionReason": "Public launch and SDK; no disclosed customer adoption"
+    "tractionRank": 205,
+    "tractionScore": 16,
+    "tractionReason": "Self-serve product launched, no disclosed customer uptake"
   },
   "paths": {
     "memo": "fall2026/memos/trylatent.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/trylatent.md",
-      "elad-gil": "fall2026/evals/elad-gil/trylatent.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/trylatent.md",
-      "paul-graham": "fall2026/evals/paul-graham/trylatent.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/trylatent.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/trylatent.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/trylatent.md"
+      "agi": "fall2026/evals/agi/trylatent.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/trylatent.md",
+      "exit": "fall2026/evals/exit/trylatent.md"
     }
   }
 }

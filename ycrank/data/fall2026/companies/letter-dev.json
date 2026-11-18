@@ -1,17 +1,17 @@
 {
   "slug": "letter-dev",
   "name": "Letter",
-  "oneLiner": "The world's first coding agent, IDE & infra for growth engineering.",
+  "oneLiner": "The coding agent and IDE for the agentic internet",
   "metadata": {
     "website": "https://letter.dev",
     "yc_page": "https://www.ycombinator.com/companies/letter-dev",
-    "batch": "Fall 2026 ([YC, via search snippet](https://www.ycombinator.com/companies/letter-dev))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/letter-dev))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "6",
     "location": "New York City, NY, USA",
     "tags": "Developer Tools, SaaS, Web Development",
-    "yc_partner": "Christopher Golda ([YC, via search snippet](https://www.ycombinator.com/companies/letter-dev))",
-    "emails": "privacy@letterbrace.com — Lettertrace privacy/data requests ([Lettertrace privacy policy, Aug 2026](https://lettertrace.com/privacy))"
+    "yc_partner": "Christopher Golda ([YC directory](https://www.ycombinator.com/companies/letter-dev))",
+    "emails": "support@letterbrace.com, Lettertrace support ([Lettertrace](https://lettertrace.com/)); privacy@letterbrace.com, privacy requests ([Lettertrace privacy policy](https://lettertrace.com/privacy)); team@letterbrace.com, legacy agency inquiries ([Letterbrace](https://letterbrace.com/))"
   },
   "tags": [
     "Developer Tools",
@@ -19,63 +19,39 @@
     "Web Development"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-10T21:49:22.392Z",
+  "memoGeneratedAt": "2026-11-18T00:25:39.776Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 38,
+    "agi": {
+      "score": 36,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 40,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 40,
-    "NR": 44,
-    "PG": 40,
-    "PT": 31,
-    "SL": 31,
-    "VK": 25
+    "AGI": 36,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 146,
+  "consolidatedAvg": 36,
+  "consolidatedRank": 182,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 58,
-    "tractionReason": "Named customers plus 100+ others; payment status undisclosed"
+    "tractionRank": 53,
+    "tractionScore": 59,
+    "tractionReason": "100+ Letterpress customers, thousands of pull requests, paid plans"
   },
   "paths": {
     "memo": "fall2026/memos/letter-dev.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/letter-dev.md",
-      "elad-gil": "fall2026/evals/elad-gil/letter-dev.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/letter-dev.md",
-      "paul-graham": "fall2026/evals/paul-graham/letter-dev.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/letter-dev.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/letter-dev.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/letter-dev.md"
+      "agi": "fall2026/evals/agi/letter-dev.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/letter-dev.md",
+      "exit": "fall2026/evals/exit/letter-dev.md"
     }
   }
 }

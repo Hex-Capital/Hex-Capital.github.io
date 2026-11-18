@@ -11,7 +11,7 @@
     "location": "Baltimore, MD, USA",
     "tags": "Deep Learning, Hardware, IoT, Energy, AI",
     "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/talos-us))",
-    "emails": "founders@talos-us.com, contact@talos-us.com ([Talos](https://www.talos-us.com/))"
+    "emails": "founders@talos-us.com (shared founder inbox and demo requests), contact@talos-us.com (general inquiries) ([Talos website](https://www.talos-us.com/), [Launch YC](https://www.ycombinator.com/launches/WCf-talos-early-warning-system-for-power-grid-infrastructure))"
   },
   "tags": [
     "Deep Learning",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:07:46.718Z",
+  "memoGeneratedAt": "2026-11-18T00:14:02.015Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 38,
+    "agi": {
+      "score": 42,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 34,
-    "NR": 34,
-    "PG": 36,
-    "PT": 28,
-    "SL": 30,
-    "VK": 27
+    "AGI": 42,
+    "HG": 36,
+    "EXIT": 39
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 200,
+  "consolidatedAvg": 39,
+  "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 15,
-    "tractionReason": "Pump-sensing demonstration; no disclosed customers or revenue"
+    "tractionRank": 95,
+    "tractionScore": 50,
+    "tractionReason": "40+ monitored assets, up from 25+ in late October"
   },
   "paths": {
     "memo": "fall2026/memos/talos-us.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/talos-us.md",
-      "elad-gil": "fall2026/evals/elad-gil/talos-us.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/talos-us.md",
-      "paul-graham": "fall2026/evals/paul-graham/talos-us.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/talos-us.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/talos-us.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/talos-us.md"
+      "agi": "fall2026/evals/agi/talos-us.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/talos-us.md",
+      "exit": "fall2026/evals/exit/talos-us.md"
     }
   }
 }

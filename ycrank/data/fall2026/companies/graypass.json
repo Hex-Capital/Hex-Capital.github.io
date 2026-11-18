@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://graypass.com/",
     "yc_page": "https://www.ycombinator.com/companies/graypass",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/graypass))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/graypass))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "Toronto, ON, Canada",
     "tags": "Biometrics, Identity, Infrastructure",
-    "yc_partner": "Max Kolysh ([YC](https://www.ycombinator.com/companies/graypass))",
-    "emails": "founders@graypass.org ([company](https://graypass.com/company)); tools@graypass.org ([terms](https://graypass.com/terms)); aditya@graypass.org ([LinkedIn](https://www.linkedin.com/in/ad1tyaranjan), via search snippet); aravmathur23@gmail.com ([founder portfolio](https://aravmathur.vercel.app/))"
+    "yc_partner": "Max Kolysh ([Y Combinator](https://www.ycombinator.com/companies/graypass))",
+    "emails": "aravmathur23@gmail.com ([Mathur’s GitHub contact](https://github.com/aravM23)), aditya@graypass.org ([Ranjan’s LinkedIn, via search snippet](https://www.linkedin.com/in/ad1tyaranjan)), founders@graypass.org ([founder and evaluation inbox](https://graypass.com/company)), tools@graypass.org ([legal, privacy, and security inbox](https://graypass.com/privacy))"
   },
   "tags": [
     "Biometrics",
@@ -19,63 +19,39 @@
     "Infrastructure"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:59:34.489Z",
+  "memoGeneratedAt": "2026-11-17T22:56:01.527Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 36,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
+    "exit": {
       "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 36,
-    "NR": 42,
-    "PG": 37,
-    "PT": 34,
-    "SL": 32,
-    "VK": 27
+    "AGI": 40,
+    "HG": 39,
+    "EXIT": 42
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 140,
+  "consolidatedAvg": 40.33,
+  "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 22,
-    "tractionScore": 66,
-    "tractionReason": "Five-figure revenue, period unspecified; European pilots and customer win"
+    "tractionRank": 7,
+    "tractionScore": 86,
+    "tractionReason": "$50K October revenue and 900,000+ customer-app sessions"
   },
   "paths": {
     "memo": "fall2026/memos/graypass.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/graypass.md",
-      "elad-gil": "fall2026/evals/elad-gil/graypass.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/graypass.md",
-      "paul-graham": "fall2026/evals/paul-graham/graypass.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/graypass.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/graypass.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/graypass.md"
+      "agi": "fall2026/evals/agi/graypass.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/graypass.md",
+      "exit": "fall2026/evals/exit/graypass.md"
     }
   }
 }

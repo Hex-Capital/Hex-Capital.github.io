@@ -1,7 +1,7 @@
 {
   "slug": "hue",
   "name": "Hue",
-  "oneLiner": "Test agents in realistic worlds built from production usage",
+  "oneLiner": "Realistic worlds for agent evaluation",
   "metadata": {
     "website": "https://hue.run/",
     "yc_page": "https://www.ycombinator.com/companies/hue",
@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Infrastructure, AI",
     "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/hue))",
-    "emails": "founders@hue.run ([Hue](https://hue.run/)); team@hue.run ([GitHub](https://github.com/hue-run)); aneesh@hue.run ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini))"
+    "emails": "aneesh@hue.run, CEO ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)); founders@hue.run, intros and service ([Launch YC](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents), [Hue Terms](https://hue.run/terms)); team@hue.run, team contact ([Hue GitHub](https://github.com/hue-run)); security@hue.run, security and privacy ([Hue Terms](https://hue.run/terms))"
   },
   "tags": [
     "Developer Tools",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:17:19.641Z",
+  "memoGeneratedAt": "2026-11-18T00:33:32.999Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 35,
+    "agi": {
+      "score": 34,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 32,
-    "NR": 38,
-    "PG": 36,
-    "PT": 30,
-    "SL": 31,
-    "VK": 25
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 33
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 198,
+  "consolidatedAvg": 34.33,
+  "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 20,
-    "tractionReason": "SDK released; zero repository stars; no disclosed customer adoption"
+    "tractionRank": 93,
+    "tractionScore": 51,
+    "tractionReason": "69K weekly SDK downloads, paid subscriptions described in terms"
   },
   "paths": {
     "memo": "fall2026/memos/hue.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/hue.md",
-      "elad-gil": "fall2026/evals/elad-gil/hue.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/hue.md",
-      "paul-graham": "fall2026/evals/paul-graham/hue.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/hue.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/hue.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/hue.md"
+      "agi": "fall2026/evals/agi/hue.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/hue.md",
+      "exit": "fall2026/evals/exit/hue.md"
     }
   }
 }

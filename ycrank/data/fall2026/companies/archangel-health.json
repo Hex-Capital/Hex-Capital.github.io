@@ -5,75 +5,51 @@
   "metadata": {
     "website": "https://www.archangelhealth.ai/",
     "yc_page": "https://www.ycombinator.com/companies/archangel-health",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/archangel-health))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/archangel-health))",
     "industry": "Healthcare / Healthcare",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Health Tech",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/archangel-health))",
-    "emails": "tejpatel@berkeley.edu ([company products page](https://www.archangelhealth.ai/products), via search snippet)"
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/archangel-health))",
+    "emails": "tejpatel@berkeley.edu — Tej Patel, co-CEO and published product contact ([Archangel Health Products, via search snippet](https://www.archangelhealth.ai/products))"
   },
   "tags": [
     "Health Tech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:14:07.939Z",
+  "memoGeneratedAt": "2026-11-17T23:26:20.601Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 34,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 26,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 55,
-    "NR": 34,
-    "PG": 36,
-    "PT": 28,
-    "SL": 29,
-    "VK": 26
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 128,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 49,
-    "tractionReason": "Frontier labs and medical AI companies reportedly use infrastructure"
+    "tractionRank": 145,
+    "tractionScore": 37,
+    "tractionReason": "Reported use by frontier labs and medical AI developers"
   },
   "paths": {
     "memo": "fall2026/memos/archangel-health.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/archangel-health.md",
-      "elad-gil": "fall2026/evals/elad-gil/archangel-health.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/archangel-health.md",
-      "paul-graham": "fall2026/evals/paul-graham/archangel-health.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/archangel-health.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/archangel-health.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/archangel-health.md"
+      "agi": "fall2026/evals/agi/archangel-health.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/archangel-health.md",
+      "exit": "fall2026/evals/exit/archangel-health.md"
     }
   }
 }

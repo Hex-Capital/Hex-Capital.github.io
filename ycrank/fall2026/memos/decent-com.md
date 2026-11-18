@@ -6,67 +6,70 @@
 |-------|-------|
 | Website | https://decent.com |
 | YC Page | https://www.ycombinator.com/companies/decent-com |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/decent-com)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/decent-com)) |
 | Industry | Fintech / Fintech -> Insurance |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Fintech, Health Tech, B2B, Health Insurance, AI |
-| YC Partner | Grey Baker ([YC](https://www.ycombinator.com/companies/decent-com)) |
-| Emails | hello@decent.com; nick@decent.com ([Decent Privacy](https://www.decent.com/privacy), Oct 2026; nick address appeared in September version via search snippet) |
+| YC Partner | Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/decent-com)) |
+| Emails | nick@decent.com (Nick Soman, [Decent Privacy](https://www.decent.com/privacy)), hello@decent.com (general inquiries, [Decent About](https://www.decent.com/about)) |
 
 ## The Idea
 
-- **Problem:** Small employers choosing insurance primarily at renewal can miss billing errors and opportunities to address claims costs during the year, according to Decent’s founder ([YC launch](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year), Oct 2026).
-- **Approach:** Decent compares coverage arrangements, recommends a plan, reviews available claims data throughout the year, and presents cost evidence to insurers before renewal pricing is finalized ([Decent About](https://www.decent.com/about), accessed Oct 27, 2026).
-- **Differentiation:** Decent compares multiple funding arrangements versus Thatch’s ICHRA focus, emphasizes ongoing claims review alongside SimplyInsured’s online shopping and administration, and overlaps with Nava’s year-round advice and bill audits ([Decent](https://www.decent.com/), [Thatch](https://thatch.com/blog/thatch-series-c-announcement), [SimplyInsured](https://www.globenewswire.com/news-release/2015/06/30/748522/28671/en/simplyinsured-raises-5-9m-million-in-series-a-funding-led-by-polaris-partners-with-participation-from-bessemer-others.html), [Nava](https://www.navabenefits.com/)).
-- **Business Model:** Employers pay no brokerage fee, while insurers, PEOs, or administrators pay commissions that vary by provider and plan and sometimes include bonuses ([Decent About](https://www.decent.com/about), Oct 2026).
+- **Problem:** U.S. small employers typically revisit coverage at annual renewal, allowing charges for departed employees and one-off claims that influence renewal pricing to go unchallenged during the plan year ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year)).
+- **Approach:** Decent compares six coverage structures and reviews available bills and claims during the year to identify billing errors, lower-cost care options, and evidence for renewal negotiations ([Decent homepage](https://www.decent.com/), [Decent About](https://www.decent.com/about)).
+- **Differentiation:** Decent combines self-serve quotes for standard plans and individual coverage health reimbursement arrangements (ICHRAs) with claims review, while Thatch administers employee health budgets and Ignition Benefits handles enrollment, compliance, and life events ([Decent About](https://www.decent.com/about), [Thatch](https://thatch.com/blog/thatch-series-c-announcement), [Ignition Benefits](https://www.ignitionbenefits.com/)).
+- **Business Model:** Employers pay no separate brokerage fee, and the selected insurer, professional employer organization (PEO), or plan administrator pays Decent a commission that varies by provider and plan and may include bonuses ([Decent About](https://www.decent.com/about)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Acquisition channels include self-service quotes, founder consultations, renewal reminders, and paid introductions rewarded when an eligible referred company receives a quote ([Decent website](https://www.decent.com/), [referral program](https://www.decent.com/refer), Oct 2026).
+- **GTM / Distribution:** Decent offers self-serve quotes, consultations with Nick Soman, renewal reminders, and referral fees triggered when an eligible employer receives a written quote ([Decent quote tool](https://www.decent.com/quote), [Decent homepage](https://www.decent.com/), [Decent referral terms](https://www.decent.com/refer)).
 
 ## Defensibility
 
-- **Moat today:** Decent operates through a licensed insurance broker and obtains quotes from carriers, PEOs, and general agents, establishing regulated distribution capability without disclosed exclusivity ([Decent Privacy](https://www.decent.com/privacy), Oct 2026).
-- **Future moat:** [Inferred]: Accumulated renewal and claims histories could improve account-specific recommendations and increase continuity value, but public sources do not establish proprietary datasets or retention advantages.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given Nava’s existing combination of brokerage services, AI tools, automated bill audits, and year-round support ([Nava](https://www.navabenefits.com/), accessed Oct 27, 2026).
-- **Commoditization risk:** [Inferred]: Established benefits brokers can assemble overlapping workflows using carrier relationships and software, with Nava already marketing those capabilities; implementation cost and time are not publicly quantified ([Nava](https://www.navabenefits.com/)).
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: A history of claims reviews, employer interventions, and renewal outcomes could improve recommendations across plan years, although Decent’s public materials do not establish longitudinal results or data reuse rights across clients ([Decent About](https://www.decent.com/about), [Decent Privacy](https://www.decent.com/privacy)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Corridor already uses AI agents to compare carrier quotes and build proposals, and Ignition automates benefits administration with licensed staff, demonstrating overlap with Decent’s quoting and service workflows ([Corridor launch, Sep 2026](https://corridoradvisors.com/newsroom/corridor-launches-with-25m-seed-round-led-by-bain-capital-ventures), [Ignition Benefits](https://www.ignitionbenefits.com/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported 67 companies “working with us,” without a disclosed paying-customer breakdown ([YC launch](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year), accessed Oct 27, 2026).
-  - Company-reported AI execution of 89% of brokerage work, without a published measurement methodology ([YC launch](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year), accessed Oct 27, 2026).
-  - Customer testimonial: Serif Health reports annual savings of $60,000 after Decent compared PEOs, carriers, and plans ([Decent website](https://www.decent.com/), accessed Oct 27, 2026).
-  - Customer testimonial: Locate reports savings exceeding $100,000 annually against its renewal proposal ([Decent website](https://www.decent.com/), accessed Oct 27, 2026).
-  - LinkedIn company page shows 4,360 followers, including an audience inherited from the earlier Decent business ([LinkedIn](https://www.linkedin.com/company/decenthealth), accessed Oct 27, 2026).
-  - Zero advertised YC jobs ([YC](https://www.ycombinator.com/companies/decent-com), accessed Oct 27, 2026).
-  - Current company announced September 29, 2026, as a new entity and team using the Decent name; earlier health-plan business metrics are excluded here ([founder announcement](https://www.decent.com/blog/run-it-back)).
+  - 67 companies working with Decent and 89% of brokerage work handled by AI, both founder-reported at launch ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year)).
+  - Company-reported client outcome: a one-time surgery accounted for 46% of a client’s claims spend and was excluded from the following year’s rates ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year)).
+  - Customer testimonial: Serif Health reported $60,000 in annual savings ([Decent homepage, accessed Nov 2026](https://www.decent.com/)).
+  - Customer testimonial: Locate reported more than $100,000 in annual savings against its renewal quote ([Decent homepage, accessed Nov 2026](https://www.decent.com/)).
+  - Customer testimonial: Reflex Careers reported paying 10% less than the previous year after receiving a proposed 15% increase ([Decent homepage, accessed Nov 2026](https://www.decent.com/)).
+  - 4,379 LinkedIn followers and 932 X followers on accounts carrying the current brokerage branding ([Decent LinkedIn, Nov 2026](https://www.linkedin.com/company/decenthealth), [@Decent on X, mirrored by Teapawt, Nov 2026](https://www.xitter.cf/Decent)).
+  - 6,700 estimated visits to the shared decent.com domain, a small-sample estimate that cannot isolate brokerage traffic ([Mindspent / traffic.cv, Sep 2026](https://mindspent.com/c/decent-com)).
+  - 0 active YC job postings ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/decent-com/jobs)).
 - **Competitors:**
-  - **Thatch ($192M raised; revenue unknown):** ICHRA-centered employer benefits platform versus Decent’s comparison across funding arrangements; latest $108M Series C announced September 15, 2026, with The General Partnership, Index Ventures, General Catalyst, and a16z among investors, without a designated lead in the company announcement ([aVenture funding history](https://aventure.vc/companies/thatch-san-francisco-ca-us-1/fundraising), [Thatch announcement](https://thatch.com/blog/thatch-series-c-announcement)).
-  - **SimplyInsured ($10M+ raised; revenue unknown):** Online small-business insurance shopping and administration versus Decent’s emphasis on continuous claims intervention; latest publicly located named round was $5.9M Series A led by Polaris Partners in June 2015 ([company About](https://get.simplyinsured.com/about-us), [investor announcement](https://www.globenewswire.com/news-release/2015/06/30/748522/28671/en/simplyinsured-raises-5-9m-million-in-series-a-funding-led-by-polaris-partners-with-participation-from-bessemer-others.html)).
-  - **Nava Benefits ($90M raised; revenue unknown):** Brokerage plus an HR platform and employee app; latest financing was $30M Series C led by Thrive Capital in October 2025, and its current website announces acquisition by Alliant ([CB Insights](https://www.cbinsights.com/company/nava-benefits/financials), [Nava funding release](https://www.streetinsider.com/news.php?classic=1&id=25431103), [Nava website](https://www.navabenefits.com/)).
-- **Why now:** Decent identifies claims-data availability and AI processing as catalysts, citing 51% of covered workers at employers with 10–199 employees being on self-funded or level-funded plans in 2025 ([Decent About, citing KFF](https://www.decent.com/about)).
+  - **Corridor** ($25M raised, revenue unknown): pairs dedicated licensed advisors with automated proposals and enrollment for employers with 1–500 employees, versus Decent’s self-serve entry point and focus on in-year claims review ($25M seed led by Bain Capital Ventures, [Corridor, Sep 2026](https://corridoradvisors.com/newsroom/corridor-launches-with-25m-seed-round-led-by-bain-capital-ventures), [Decent About](https://www.decent.com/about)).
+  - **Ignition Benefits** (funding amount unknown, revenue unknown): combines brokerage with enrollment, compliance, and life-event administration ([Y Combinator](https://www.ycombinator.com/companies/ignition-benefits)).
+  - **SimplyInsured** ($10M+ raised, revenue unknown): offers online small-group plan purchasing and payroll-embedded distribution ($5.9M Series A led by Polaris Partners, [SimplyInsured, Jun 2015](https://www.globenewswire.com/news-release/2015/06/30/748522/28671/en/simplyinsured-raises-5-9m-million-in-series-a-funding-led-by-polaris-partners-with-participation-from-bessemer-others.html), [SimplyInsured About](https://get.simplyinsured.com/about-us), [Square Payroll](https://assets.ctfassets.net/2d5q1td6cyxq/7evtxcL5ZEzD9MROrbP0QR/ccb7fd0f7cbd2a9f9f4c6e7456ae6282/Simply-Insured_One_Pager_2021.pdf)).
+  - **Thatch** (approximately $192M raised, ARR amount unknown): administers employee health budgets and individual plan selection, and reported nearly 7× year-over-year ARR growth ($108M Series C led by The General Partnership, [Thatch, Sep 2026](https://thatch.com/blog/thatch-series-c-announcement), [The General Partnership](https://www.thegp.com/writing/building-personalized-choice-into-healthcare-with-thatch), [Forge](https://forgeglobal.com/thatch_stock/)).
+  - **StretchDollar** ($7.8M in announced funding, revenue unknown): specializes in administering individual premium reimbursements through ICHRAs ($6M in seed financing led by Fika Ventures and Oscar Health following a $1.8M pre-seed, [StretchDollar release, Dec 2024, via search snippet](https://finance.yahoo.com/news/stretchdollar-raises-6m-simplify-small-121500367.html), [StretchDollar product](https://www.stretchdollar.com/)).
+- **Why now:** Decent cites the availability of in-year claims reports from level-funded and self-insured plans and the ability to process them with AI, with KFF reporting that those arrangements covered 50% of insured workers at firms with 10–199 employees in 2026 ([Decent About](https://www.decent.com/about), [KFF Employer Health Benefits Survey, 2026](https://www.kff.org/health-costs/2026-employer-health-benefits-survey/)).
 
 ## Founders & Team
 
 - **Nick Soman (Founder/CEO):**
-  - Background: Stanford BA and Harvard MBA; previously led growth at Gusto, worked on Kindle at Amazon, founded LikeBright/Reveal acquired by Napster, and founded the earlier Decent acquired by Nice Healthcare ([YC biography](https://www.ycombinator.com/companies/decent-com)).
-  - Twitter/X: @nicksoman; count not retrievable from X ([profile mirror](https://nitter.rdrama.net/nicksoman), [X](https://x.com/nicksoman)).
-  - LinkedIn: Indexed affiliation “Black Flag Fund”; 16K followers ([LinkedIn](https://www.linkedin.com/in/nicksoman), retrieved Oct 2026 via search snippet).
-  - GitHub: No public repos found.
+  - **Background:** Stanford BA and Harvard MBA, former Gusto growth product lead and Amazon Kindle product manager, and founder of LikeBright/Reveal, acquired by Napster, and the earlier Decent, Inc., acquired by Nice Healthcare ([Y Combinator](https://www.ycombinator.com/companies/decent-com), [Lowenstein Sandler, Jun 2025](https://www.lowenstein.com/news-insights/firm-news/lowenstein-represents-health-plan-provider-decent-in-its-acquisition-by-nice)). His business email is nick@decent.com ([Decent Privacy](https://www.decent.com/privacy)).
+  - **Twitter/X:** @nicksoman, 2.1K followers ([X profile mirrored by Teapawt, Nov 2026](https://www.xitter.cf/nicksoman)).
+  - **LinkedIn:** Indexed profile title “Nick Soman - Black Flag Fund” ([LinkedIn, via search snippet](https://www.linkedin.com/in/nicksoman)).
+  - **GitHub:** No public repos found.
 - **Andrew Budker (Founder/CTO):**
-  - Background: UCLA BS in Applied Mathematics; formerly Meta engineering director leading Metamate and Oculus computer-vision systems, Amazon engineering manager, and Microsoft engineer ([YC biography](https://www.ycombinator.com/companies/decent-com)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Indexed affiliation “Meta”; 1K followers ([LinkedIn](https://www.linkedin.com/in/abudker), retrieved Oct 2026 via search snippet).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Soman and Budker say they met building Kindle at Amazon approximately 16 years before the current launch ([founder announcement](https://www.decent.com/blog/run-it-back), Sep 2026).
-- **Founder-market fit:** Soman’s documented experience operating health plans and a PEO complements Budker’s production AI engineering background, with YC backing the current company ([Decent About](https://www.decent.com/about), [YC](https://www.ycombinator.com/companies/decent-com)).
+  - **Background:** UCLA BS in applied mathematics, former Microsoft engineer and Amazon engineering manager, and former Meta engineering director who led the Metamate internal AI assistant and agent platform and built computer vision systems for Oculus ([Y Combinator](https://www.ycombinator.com/companies/decent-com)). Business email — No public data found.
+  - **Twitter/X:** @abudker, 82 followers ([X profile mirrored by Teapawt, Nov 2026](https://www.nitter.cf/abudker)).
+  - **LinkedIn:** Indexed profile title “👀 Andrew Budker - Meta” ([LinkedIn, via search snippet](https://www.linkedin.com/in/abudker)).
+  - **GitHub:** @abudker, `rails_sample` with 1 star ([GitHub, Nov 2026](https://github.com/abudker)).
+- **Co-founder relationship:** Soman and Budker met while working on Kindle at Amazon ([Decent founder announcement, Sep 2026](https://www.decent.com/blog/run-it-back)).
+- **Founder-market fit:** Soman has run level-funded plans, association plans, and a PEO, Budker led deployment of internal AI agents at Meta, and Y Combinator lists Grey Baker as the company’s primary partner ([Decent About](https://www.decent.com/about), [Y Combinator](https://www.ycombinator.com/companies/decent-com)).
 
 ## Key Risks
 
-- **Claims-data dependency:** Continuous review depends on plans sharing claims reports, and Decent’s claims-report process excludes fully insured and PEO arrangements; it limits review commitments to available data ([Decent Privacy](https://www.decent.com/privacy), [About](https://www.decent.com/about)).
-- **Compensation incentives:** [Inferred]: Provider-dependent commissions and bonuses could influence recommendations; Decent offers written compensation disclosure before renewal ([Decent About](https://www.decent.com/about)).
-- **Carrier approval dependency:** Website prices are informational, insurers or PEOs determine final pricing and eligibility, and coverage starts only after approval ([Decent Terms](https://www.decent.com/terms), Oct 2026).
-- **Entity and name confusion:** The earlier Decent was acquired in June 2025, while the founder announced a new Decent entity in September 2026, creating attribution risk for historical financing, employees, and customer metrics ([transaction counsel](https://www.lowenstein.com/news-insights/firm-news/lowenstein-represents-health-plan-provider-decent-in-its-acquisition-by-nice), [founder announcement](https://www.decent.com/blog/run-it-back)).
+- **Claims-data access:** Decent’s in-year review depends on what the carrier or administrator shares, and the company describes using available claims reports to challenge renewal pricing for level-funded and self-funded clients ([Decent About](https://www.decent.com/about), [Decent Privacy](https://www.decent.com/privacy)).
+- **Commission incentives:** Provider- and plan-specific commissions and bonuses can create an incentive to favor one option, and Decent offers written disclosure of its compensation and payer before renewal ([Decent About](https://www.decent.com/about)).
+- **Sensitive data handling:** Quotes require employee and dependent census data, and claims review can involve protected health information, for which Decent describes restricted access, encryption, and business associate agreements ([Decent Privacy](https://www.decent.com/privacy), [Decent About](https://www.decent.com/about)).
+- **Name reuse:** Soman announced the brokerage as a new entity in September 2026 after Nice Healthcare acquired the earlier Decent, Inc. health plan administrator in June 2025, and the shared domain and social accounts complicate attribution of historical metrics ([Decent founder announcement](https://www.decent.com/blog/run-it-back), [Lowenstein Sandler](https://www.lowenstein.com/news-insights/firm-news/lowenstein-represents-health-plan-provider-decent-in-its-acquisition-by-nice), [@Decent account history](https://www.xitter.cf/Decent)).
 
 ## Key Facts
 
@@ -74,12 +77,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | 67 companies working with Decent; 89% of brokerage work reportedly automated ([YC launch](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year), Oct 2026) |
-| Revenue Signal | No employer brokerage fee; variable provider commissions and bonuses; realized revenue undisclosed ([Decent About](https://www.decent.com/about), Oct 2026) |
-| Founders | Nick Soman, CEO: Stanford/Harvard, Gusto, prior acquisitions; Andrew Budker, CTO: UCLA, Meta AI leadership ([YC](https://www.ycombinator.com/companies/decent-com)) |
-| Competitors | Thatch ($192M raised, revenue unknown, ICHRA focus; [aVenture](https://aventure.vc/companies/thatch-san-francisco-ca-us-1/fundraising)); SimplyInsured ($10M+ raised, revenue unknown, online administration; [company](https://get.simplyinsured.com/about-us)); Nava ($90M raised, revenue unknown, HR and employee platform; [CB Insights](https://www.cbinsights.com/company/nava-benefits/financials), [company](https://www.navabenefits.com/)) |
-| Moat Signals | Licensed broker and carrier/PEO quoting relationships ([Decent Privacy](https://www.decent.com/privacy), Oct 2026) |
-| Risk Factors | Claims-data dependency, variable provider compensation, carrier approval dependency ([Privacy](https://www.decent.com/privacy), [About](https://www.decent.com/about), [Terms](https://www.decent.com/terms)) |
-| Founder Reach | Soman: LinkedIn 16K; Budker: LinkedIn 1K ([Soman](https://www.linkedin.com/in/nicksoman), [Budker](https://www.linkedin.com/in/abudker), Oct 2026 via search snippets) |
-| Distribution Signals | Company LinkedIn 4,360 followers; paid quote referrals ([LinkedIn](https://www.linkedin.com/company/decenthealth), [Decent referrals](https://www.decent.com/refer), Oct 2026) |
-| Emails | hello@decent.com; nick@decent.com ([Decent Privacy](https://www.decent.com/privacy), Oct 2026; nick address from September version via search snippet) |
+| Traction | 67 companies working with Decent and 89% of brokerage work handled by AI, both founder-reported ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year)); customer testimonials: $60K annual savings at Serif Health, more than $100K against renewal at Locate, and 10% below prior-year rates at Reflex Careers ([Decent homepage, accessed Nov 2026](https://www.decent.com/)) |
+| Revenue Signal | No separate employer brokerage fee; provider-paid commissions vary by provider and plan and may include bonuses; realized brokerage revenue was undisclosed in the cited materials ([Decent About](https://www.decent.com/about), [Launch YC, Oct 2026](https://www.ycombinator.com/launches/UoR-decent-your-health-plan-should-get-better-year-round-not-just-once-a-year)) |
+| Founders | Nick Soman (Founder/CEO): prior Decent and LikeBright/Reveal exits, Gusto growth product lead. Andrew Budker (Founder/CTO): Meta Metamate engineering lead, Amazon engineering manager, UCLA applied mathematics BS ([Y Combinator](https://www.ycombinator.com/companies/decent-com)) |
+| Competitors | Corridor ($25M raised, revenue unknown, advisor-led quoting and enrollment; [Corridor](https://corridoradvisors.com/newsroom/corridor-launches-with-25m-seed-round-led-by-bain-capital-ventures)); Ignition Benefits (funding amount unknown, revenue unknown, enrollment and compliance; [YC](https://www.ycombinator.com/companies/ignition-benefits)); SimplyInsured ($10M+ raised, revenue unknown, online small-group marketplace; [SimplyInsured](https://get.simplyinsured.com/about-us)); Thatch (approximately $192M raised, ARR amount unknown, employee health budgets; [Forge](https://forgeglobal.com/thatch_stock/), [Thatch](https://thatch.com/blog/thatch-series-c-announcement)); StretchDollar ($7.8M announced, revenue unknown, ICHRA administration; [StretchDollar release, via search snippet](https://finance.yahoo.com/news/stretchdollar-raises-6m-simplify-small-121500367.html)) |
+| Moat Signals | No public data found |
+| Risk Factors | Claims-report access, variable provider commissions, handling of employee health data ([Decent About](https://www.decent.com/about), [Decent Privacy](https://www.decent.com/privacy)) |
+| Founder Reach | Nick Soman: X 2.1K ([Teapawt, Nov 2026](https://www.xitter.cf/nicksoman)), LinkedIn 16K ([LinkedIn, via search snippet](https://www.linkedin.com/in/nicksoman)); Andrew Budker: X 82 ([Teapawt, Nov 2026](https://www.nitter.cf/abudker)), LinkedIn 1K ([LinkedIn, via search snippet](https://www.linkedin.com/in/abudker)), 1 GitHub star on `rails_sample` ([GitHub, Nov 2026](https://github.com/abudker)) |
+| Distribution Signals | YC launch Oct 5, 2026 ([Soman launch announcement](https://www.linkedin.com/posts/nicksoman_we-launched-decent-on-y-combinator-today-activity-7512905439945101314-3aDU)); self-serve quotes and paid referrals ([Decent](https://www.decent.com/quote), [referral terms](https://www.decent.com/refer)); 4,379 LinkedIn and 932 X followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/decenthealth), [Teapawt, Nov 2026](https://www.xitter.cf/Decent)) |
+| Emails | nick@decent.com (Nick Soman, [Decent Privacy](https://www.decent.com/privacy)), hello@decent.com (general inquiries, [Decent About](https://www.decent.com/about)) |

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://routant.ai/",
     "yc_page": "https://www.ycombinator.com/companies/routant",
-    "batch": "No public data found",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/routant))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "AIOps, Cybersecurity, AI",
-    "yc_partner": "Not listed — page could not be verified",
-    "emails": "No public data found"
+    "yc_partner": "Charlie Warren ([YC directory](https://www.ycombinator.com/companies/routant))",
+    "emails": "aditya@routant.ai (Aditya Mehta, [Company Launch Tracker, Nov 11, 2026](https://companylaunchtracker.substack.com/p/company-launch-tracker-124)), support@alphadilabs.ai (company support and privacy inquiries, [Routant Privacy Policy](https://routant.ai/privacy))"
   },
   "tags": [
     "AIOps",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-30T06:02:28.971Z",
+  "memoGeneratedAt": "2026-11-17T23:31:27.860Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 29,
+    "agi": {
+      "score": 33,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 31,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 31,
-    "NR": 24,
-    "PG": 29,
-    "PT": 26,
-    "SL": 28,
-    "VK": 25
+    "AGI": 33,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 27.43,
-  "consolidatedRank": 233,
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 202,
   "traction": {
-    "tractionRank": 234,
-    "tractionScore": 0,
-    "tractionReason": "No disclosed traction evidence"
+    "tractionRank": 220,
+    "tractionScore": 8,
+    "tractionReason": "Public launch, no disclosed deployments"
   },
   "paths": {
     "memo": "fall2026/memos/routant.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/routant.md",
-      "elad-gil": "fall2026/evals/elad-gil/routant.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/routant.md",
-      "paul-graham": "fall2026/evals/paul-graham/routant.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/routant.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/routant.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/routant.md"
+      "agi": "fall2026/evals/agi/routant.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/routant.md",
+      "exit": "fall2026/evals/exit/routant.md"
     }
   }
 }

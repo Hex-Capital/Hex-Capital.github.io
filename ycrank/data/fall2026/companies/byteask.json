@@ -5,77 +5,54 @@
   "metadata": {
     "website": "https://byteask.ai/",
     "yc_page": "https://www.ycombinator.com/companies/byteask",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/byteask))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/byteask))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, Enterprise Software, AI",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/byteask))",
-    "emails": "founders@byteask.ai, anirudha@byteask.ai ([GitHub organization](https://github.com/ByteAsk), [official extension](https://github.com/ByteAsk/byteask-extensions))"
+    "tags": "Developer Tools, Open Source, Enterprise Software, AI",
+    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/byteask))",
+    "emails": "anirudha@byteask.ai (CEO), pratyush@byteask.ai (CTO), founders@byteask.ai (founders), contact@byteask.ai (general), support@byteask.ai (support), security@byteask.ai (security reports) ([ByteAsk Research](https://byteask.ai/papers/context-large-codebases-cpp-2026-11.pdf?v=4), [Launch YC](https://www.ycombinator.com/launches/WuU-byteask-your-ai-c-engineer-and-a-swarm-of-them), [ByteAsk Contact](https://byteask.ai/contact), [APIs.io support listing](https://apis.io/apis/byteask-ai/byteask-public-status-endpoints-api-api/), [APIs.io security listing](https://apis.io/security/byteask-ai/byteask-ai-vulnerability-disclosure/))"
   },
   "tags": [
     "Developer Tools",
+    "Open Source",
     "Enterprise Software",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:03:30.068Z",
+  "memoGeneratedAt": "2026-11-17T23:52:40.640Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
       "score": 45,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 51,
+    "hypergrowth": {
+      "score": 45,
       "tier": "Neutral"
     },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
+    "exit": {
+      "score": 44,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 51,
-    "NR": 46,
-    "PG": 54,
-    "PT": 39,
-    "SL": 33,
-    "VK": 33
+    "AGI": 45,
+    "HG": 45,
+    "EXIT": 44
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 34,
+  "consolidatedAvg": 44.67,
+  "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 120,
-    "tractionScore": 41,
-    "tractionReason": "Weekly active users reportedly doubling; absolute counts and revenue undisclosed"
+    "tractionRank": 42,
+    "tractionScore": 63,
+    "tractionReason": "Existing paid CLI subscribers, named deployments at Nodus and Zith"
   },
   "paths": {
     "memo": "fall2026/memos/byteask.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/byteask.md",
-      "elad-gil": "fall2026/evals/elad-gil/byteask.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/byteask.md",
-      "paul-graham": "fall2026/evals/paul-graham/byteask.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/byteask.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/byteask.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/byteask.md"
+      "agi": "fall2026/evals/agi/byteask.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/byteask.md",
+      "exit": "fall2026/evals/exit/byteask.md"
     }
   }
 }

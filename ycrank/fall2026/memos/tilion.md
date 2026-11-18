@@ -6,78 +6,81 @@
 |-------|-------|
 | Website | https://tilion.com |
 | YC Page | https://www.ycombinator.com/companies/tilion |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/tilion)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/tilion)) |
 | Industry | B2B / B2B -> Infrastructure |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
 | Tags | B2B, Infrastructure |
-| YC Partner | Christopher Golda ([YC](https://www.ycombinator.com/companies/tilion)) |
-| Emails | team@tilion.dev ([subscription terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)), arman@tilion.dev ([founder comment](https://github.com/tiliondev/fortress/discussions/31)) |
+| YC Partner | Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/tilion)) |
+| Emails | arman@tilion.dev, Arman Luthra ([GitHub discussion](https://github.com/tiliondev/fortress/discussions/31)); team@tilion.dev, company notices ([Fortress subscription terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)); hello@tilion.dev, package contact ([Tilion on PyPI](https://pypi.org/project/tilion/), via search snippet) |
 
 ## The Idea
 
-- **Problem:** Developers running browser agents encounter anti-bot challenges that interrupt data collection and workflows using ordinary browser automation or fetch requests ([Tilion blog, Aug 2026](https://tilion.com/blog/stealth-is-a-speed-problem)).
-- **Approach:** Fortress modifies browser fingerprints inside Chromium’s C++, generates coherent device identities, and connects existing Playwright/Puppeteer code through Chrome DevTools Protocol ([Fortress documentation](https://github.com/tiliondev/fortress)).
-- **Differentiation:** Tilion documents native Chromium patches versus puppeteer-extra-stealth’s JavaScript injection and Camoufox’s Firefox engine, with changing identities for browser fleets ([Fortress comparison](https://github.com/tiliondev/fortress#how-fortress-compares)).
-- **Business Model:** Fortress offers free development use and a $2,000/month organization subscription with three-month terms, while an August announcement lists hosted consumption pricing of $0.03/browser-hour ([license](https://github.com/tiliondev/fortress/blob/main/LICENSE), [terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md), [Tilion, Aug 2026](https://tilion.com/blog/stealth-is-a-speed-problem)).
+- **Problem:** Teams using browser agents for data collection and monitoring can lose entire runs when sites block standard browser automation or return challenge pages. ([Tilion Cloud launch](https://tilion.com/blog/tilion-cloud), Jul 2026)
+- **Approach:** Tilion Cloud hosts sessions on Fortress, its Chromium fork, and can hand a failed session’s task to another session. ([Tilion Cloud launch](https://tilion.com/blog/tilion-cloud), Jul 2026; [Prothom Alo](https://en.prothomalo.com/corporate/6juv5pdngk), 2026)
+- **Differentiation:** In ComputeSDK’s November 13 run, pre-release Tilion recorded a 0.11-second median browser session lifecycle, versus 0.15 seconds for Kernel, 0.37 for Browser Use, and 0.88 for Browserbase. ([ComputeSDK lifecycle benchmark](https://www.computesdk.com/benchmarks/browsers/lifecycle), Nov 2026)
+- **Business Model:** Tilion announced usage-based Cloud pricing of $0.03 per browser-hour with free trial credits, and Fortress advertised a free Developer tier and a $2,000-per-month self-hosted Enterprise tier. ([Tilion Cloud launch](https://tilion.com/blog/stealth-is-a-speed-problem), Aug 2026; [Fortress pricing](https://fortress.tilion.com/pricing), Oct 2026 via search snippet)
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Distribution includes GitHub, pip, npm, Docker, and MCP integrations, with call booking and waitlist links on the company homepage ([Fortress](https://github.com/tiliondev/fortress), [Tilion](https://tilion.com)).
+- **GTM / Distribution:** Tilion distributes Fortress through GitHub and package registries, opened a Cloud closed beta in July, announced public access in August, and currently presents a waitlist and call booking on its homepage. ([Fortress GitHub](https://github.com/tiliondev/fortress), [July beta](https://tilion.com/blog/tilion-cloud), [August launch](https://tilion.com/blog/stealth-is-a-speed-problem), [Tilion homepage](https://tilion.com/), Nov 2026)
 
 ## Defensibility
 
-- **Moat today:** Public technical assets include native fingerprint patches and per-session identity generation, alongside 779 GitHub stars; these establish implementation and adoption signals rather than exclusivity ([GitHub, accessed Oct 27, 2026](https://github.com/tiliondev/fortress)).
-- **Future moat:** [Inferred]: Accumulated detection reports could support faster maintenance, but no proprietary feedback dataset is disclosed and detection reports are requested publicly ([security policy](https://github.com/tiliondev/fortress/blob/main/SECURITY.md)).
-- **Market structure:** [Inferred]: No structural barrier to incumbent entry is established, because Tilion itself identifies earlier browser-engine patching implementations ([Fortress documentation](https://github.com/tiliondev/fortress#how-fortress-compares)).
-- **Commoditization risk:** Camoufox, Multilogin, GoLogin, and Dolphin also patch browser engines, and earlier Fortress BSD-licensed material remains available for forks ([comparison](https://github.com/tiliondev/fortress#how-fortress-compares), [license](https://github.com/tiliondev/fortress/blob/main/LICENSE)).
+- **Moat today:** Fortress’s custom Chromium fork requires recurring upstream rebases and regression testing, which Tilion says it performs monthly. ([Fortress GitHub](https://github.com/tiliondev/fortress), Nov 2026)
+- **Future moat:** [Inferred]: Historical failure data across customer workflows could improve recovery behavior, although Tilion has published no evidence that it aggregates this data or that recovery improves with volume. ([Y Combinator](https://www.ycombinator.com/companies/tilion), Nov 2026)
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Support for standard browser automation interfaces can make provider substitution easier, while Steel already offers a self-hosted browser server and a managed browser service. ([Tilion Cloud launch](https://tilion.com/blog/stealth-is-a-speed-problem), [Steel FAQ](https://steel.dev/faq))
 
 ## Market & Traction
 
-- **Traction signals:**
-  - Fortress: 100,000+ installs and use by engineers at 170+ companies, company-reported rather than disclosed paid contracts ([Fortress website, accessed Oct 27, 2026](https://fortress.tilion.com)).
-  - Fortress repository: 779 stars and 52 forks ([GitHub, accessed Oct 27, 2026](https://github.com/tiliondev/fortress)).
-  - Hosted browser benchmark: 156 ms median lifecycle latency and 99/100 successful runs on October 22 ([BrowserArena, Oct 2026](https://www.browserarena.ai/provider/tilion)).
-  - Company claims millions of agent operations daily, without a customer or workload breakdown ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/tilion)).
-  - Company LinkedIn: 105 followers; headquarters listed as Menlo Park, differing from YC’s San Francisco listing ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/tiliondev/)).
-  - Reported $500,000 YC investment and coverage in ET Edge Insights’ “Brands Speak” section ([ET Edge Insights, Oct 15, 2026](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/)).
-  - Active YC job postings: 0 ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/tilion/jobs)).
-- **Competitors:**
-  - **Browserbase** ($67.5M raised, current revenue unknown): managed browsers plus Stagehand and Director automation; latest disclosed round was $40M Series B led by Notable Capital in June 2025 ([Sourcery founder interview](https://www.sourcery.vc/p/breaking-browserbase-raises-40m-series), [Browserbase announcement](https://www.browserbase.com/blog/series-b-and-beyond)).
-  - **Kernel** ($22M combined seed/Series A raised, revenue unknown): emphasizes persistent state, credential handling, human intervention, and agent authentication; Accel led the financing announced October 15, 2025, without separate round amounts ([Kernel](https://www.kernel.sh/blog/series-a-announcement)).
-  - **Browser Use** ($17M disclosed financing, revenue unknown): supplies an agent framework that converts interfaces into structured text, alongside browser infrastructure; $17M seed led by Felicis announced March 22, 2025 ([Browser Use](https://browser-use.com/posts/seed-round)).
-- **Why now:** [Inferred]: Cloudflare’s September 2026 default blocking of Agent and Training crawlers on ad-supported pages of newly onboarded domains increases access friction for browser automation ([Cloudflare, Jul 2026](https://blog.cloudflare.com/content-independence-day-ai-options/)).
+- **Traction signals**
+  - $500,000 in reported Y Combinator funding. ([ET Edge Insights](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/), Oct 2026)
+  - 100,000 reported Fortress installs, up from more than 15,000 in July. ([ET Edge Insights](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/), Oct 2026; [Tilion Cloud launch](https://tilion.com/blog/tilion-cloud), Jul 2026)
+  - Fortress used by engineers at more than 170 companies, according to Tilion, including reported use by an unnamed Fortune 500 company and an unnamed AI lab. ([Prothom Alo](https://en.prothomalo.com/corporate/6juv5pdngk), 2026)
+  - Millions of unattended agent operations per day, company-reported. ([Y Combinator](https://www.ycombinator.com/companies/tilion), Nov 2026)
+  - 804 Fortress GitHub stars and 54 forks. ([Fortress GitHub](https://github.com/tiliondev/fortress), Nov 2026)
+  - 367 LinkedIn followers, 55 X followers for @tiliondev, and zero open jobs on YC. ([LinkedIn](https://www.linkedin.com/company/tiliondev/), [X via Teapawt mirror](https://www.teapaw.org/tiliondev), [Y Combinator](https://www.ycombinator.com/companies/tilion), Nov 2026)
+  - Hacker News front-page appearance, company-reported, and coverage in ET Edge Insights and The Daily Observer. ([Tilion Cloud launch](https://tilion.com/blog/tilion-cloud), Jul 2026; [ET Edge Insights](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/), Oct 2026; [The Daily Observer](https://observerbd.com/news/603297), Nov 2026)
+- **Competitors**
+  - **Browserbase** ($67.5M raised, about $3M in reported revenue in its first 16 months) offers the Stagehand framework and session replay alongside cloud browsers, with a $40M Series B in June 2025 led by Notable Capital. ([Contrary Research](https://research.contrary.com/company/browserbase), [Browserbase](https://www.browserbase.com/about))
+  - **Kernel** ($22M raised, revenue unknown) offers a browser service and a runtime for deploying agent code, with an Accel-led Series A announced alongside its seed in October 2025. ([Kernel](https://www.kernel.sh/blog/series-a-announcement), [Accel](https://www.accel.com/news/our-investment-in-kernel-the-best-browser-infrastructure-for-agents), [Y Combinator](https://www.ycombinator.com/companies/kernel))
+  - **Browser Use** ($17M raised, revenue unknown) offers a framework that turns model instructions into browser actions alongside hosted browsers, with a March 2025 seed led by Felicis. ([Browser Use](https://browser-use.com/posts/seed-round), [Felicis](https://www.felicis.com/blog/investing-in-browser-use))
+- **Why now:** [Inferred]: As AI agents take more actions on live sites, browser reliability matters to more workflows, with DataDome measuring 4.7× as many agentic browser requests in September 2026 as in August. ([DataDome Q3 AI Traffic Report](https://datadome.co/threat-research/ai-traffic-report-q3-2026/), Oct 2026)
 
 ## Founders & Team
 
-- **Arman Luthra (CEO):**
-  - Background: Wabash alumnus; previously American Enterprise Institute and Superfluid DX; earlier product Scribia reportedly reached 5,000 installs in two weeks, separately from Tilion ([YC profile](https://www.ycombinator.com/founders/arman-luthra), [ET Edge Insights, Oct 2026](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/)).
-  - Twitter/X: @armanluthra_; count not retrievable ([YC profile](https://www.ycombinator.com/founders/arman-luthra)).
-  - LinkedIn: Profile found; headline not retrievable; indexed count 970 followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/armanluthra)).
-  - GitHub: @Arman-Luthra; pinned personal project aftr has 24 stars ([GitHub, accessed Oct 27, 2026](https://github.com/Arman-Luthra)).
-- **Md Shahrier Islam Arham (CTO):**
-  - Background: Wabash education; previously The Talks Private Limited BD; Fortress release maintainer ([YC profile](https://www.ycombinator.com/founders/md-shahrier-islam-arham), [GitHub releases](https://github.com/tiliondev/fortress/releases)).
-  - Twitter/X: @shahrier_arham; count not retrievable ([YC profile](https://www.ycombinator.com/founders/md-shahrier-islam-arham)).
-  - LinkedIn: Profile found; headline not retrievable; indexed count 989 followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/shahrierislamarham)).
-  - GitHub: @arham766; pinned fortress_dev fork has 1 star ([GitHub, accessed Oct 27, 2026](https://github.com/arham766)).
-- **Kazi Fardinul Hoque (Co-founder):**
-  - Background: Wabash alumnus; previously AWS and VacHub AI ([YC profile](https://www.ycombinator.com/founders/kazi-fardinul-hoque)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile describes work on agentic AI and LLM inference; headline not retrievable ([LinkedIn, via search snippet](https://www.linkedin.com/in/kazi-fardinul-hoque)).
-  - GitHub: No public repos found.
-- **Abdul Basit Tonmoy (CPO):**
-  - Background: Wabash education; previously Skop Intelligence; co-author of multimodal embedding research ([YC profile](https://www.ycombinator.com/founders/abdul-basit-tonmoy), [arXiv, Jul 2026](https://arxiv.org/abs/2607.18666)).
-  - Twitter/X: @basittonmoy; count not retrievable ([YC profile](https://www.ycombinator.com/founders/abdul-basit-tonmoy)).
-  - LinkedIn: Profile found; headline not retrievable ([LinkedIn, via search snippet](https://www.linkedin.com/in/abdul-basit-tonmoy)).
-  - GitHub: @abtonmoy; pinned shared fusion-embedding repository has 13 stars ([GitHub, accessed Oct 27, 2026](https://github.com/abtonmoy)).
-- **Co-founder relationship:** The founders met in college and have jointly authored research ([ET Edge Insights, Oct 2026](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/), [arXiv](https://arxiv.org/abs/2607.18666)).
-- **Founder-market fit:** Documented experience includes browser-engine development, AWS employment, and shared AI research; YC is an investor ([Fortress releases](https://github.com/tiliondev/fortress/releases), [Hoque’s YC profile](https://www.ycombinator.com/founders/kazi-fardinul-hoque), [arXiv](https://arxiv.org/abs/2607.18666), [Tilion](https://tilion.com)).
+- **Arman Luthra (Founder/CEO)**
+  - **Background:** Studied computer science at Wabash College, worked at the American Enterprise Institute, and built the Scribia study app. ([Wabash College student newspaper](https://media.wabash.edu/bachelor/Bachelor-2026-02-20.pdf), [YC founder profile](https://www.ycombinator.com/founders/arman-luthra), [ET Edge Insights](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/))
+  - **Twitter/X:** @armanluthra_, 97 followers. ([Teapawt mirror](https://nitter.gq/armanluthra_), Nov 2026)
+  - **LinkedIn:** Headline unavailable in the public preview, which showed 970 followers. ([LinkedIn](https://www.linkedin.com/in/armanluthra), via search snippet)
+  - **GitHub:** @Arman-Luthra, `aftr`, 27 stars. ([GitHub](https://github.com/Arman-Luthra/aftr), Nov 2026)
+  - **Email:** arman@tilion.dev. ([GitHub discussion](https://github.com/tiliondev/fortress/discussions/31))
+- **Md Shahrier Islam Arham (Founder/CTO)**
+  - **Background:** Attended Wabash College, built student job-search software, and developed Tilion’s browser infrastructure. ([Wabash catalog](https://bulletin.wabash.edu/chronicle/students/), [Prothom Alo](https://en.prothomalo.com/corporate/6juv5pdngk))
+  - **Twitter/X:** @shahrier_arham, 79 followers. ([Teapawt mirror](https://nitter.gq/shahrier_arham), Nov 2026)
+  - **LinkedIn:** Headline unavailable in the public preview, which showed 989 followers. ([LinkedIn](https://www.linkedin.com/in/shahrierislamarham), via search snippet)
+  - **GitHub:** @arham766, `fortress_dev` fork, 1 star. ([GitHub](https://github.com/arham766/fortress_dev), Nov 2026)
+  - **Email:** No public data found.
+- **Kazi Fardinul Hoque (Founder)**
+  - **Background:** Attended Wabash College and worked on model serving at AWS Bedrock. ([The Daily Observer](https://observerbd.com/news/603297), [GitHub profile](https://github.com/kfhfar))
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Headline unavailable in the public preview, which showed 542 followers. ([LinkedIn](https://www.linkedin.com/in/kazi-fardinul-hoque), via search snippet)
+  - **GitHub:** @kfhfar, `vllm` fork, 0 stars. ([GitHub](https://github.com/kfhfar/vllm), Nov 2026)
+  - **Email:** No public data found.
+- **Abdul Basit Tonmoy (Founder/CPO)**
+  - **Background:** Attended Wabash College and led authorship of the team’s *Fusion Embedding* paper on multimodal representation learning. ([The Daily Observer](https://observerbd.com/news/603297), [arXiv](https://arxiv.org/abs/2607.18666))
+  - **Twitter/X:** @basittonmoy, count not retrievable. ([YC founder profile](https://www.ycombinator.com/founders/abdul-basit-tonmoy))
+  - **LinkedIn:** Headline unavailable in the public preview, which showed 2K followers. ([LinkedIn](https://www.linkedin.com/in/abdul-basit-tonmoy), via search snippet)
+  - **GitHub:** @abtonmoy, co-authored `fusion-embedding`, 17 stars. ([GitHub profile](https://github.com/abtonmoy), [project repository](https://github.com/Eximius-Labs/fusion-embedding), Nov 2026)
+  - **Email:** No public data found.
+- **Co-founder relationship:** The founders met at Wabash College and jointly authored *Fusion Embedding*. ([The Daily Observer](https://observerbd.com/news/603297), [arXiv](https://arxiv.org/abs/2607.18666))
+- **Founder-market fit:** Arham traces Fortress to browser failures the team encountered collecting school-board data, Hoque previously worked on model serving at AWS, and YC lists Christopher Golda as Tilion’s primary partner. ([Founder’s Hacker News post, mirrored](https://brianlovin.com/hn/49928454), [YC founder profile](https://www.ycombinator.com/founders/kazi-fardinul-hoque), [YC company profile](https://www.ycombinator.com/companies/tilion))
 
 ## Key Risks
 
-- **Technical coverage:** Company testing achieved 86.4% successful loads across 92 protected sites, so access was not universal; reproducible test tooling is published ([Fortress benchmark](https://github.com/tiliondev/fortress#results)).
-- **IP reputation dependency:** Self-hosted Fortress requires separately supplied network egress where datacenter IP reputation triggers blocking ([Fortress documentation](https://github.com/tiliondev/fortress#the-four-layers-of-bot-detection)).
-- **Licensing transition:** September 30, 2026 introduced source-available production restrictions, while prior BSD releases retain their permissions ([license](https://github.com/tiliondev/fortress/blob/main/LICENSE)).
-- **Availability inconsistency:** August’s announcement says hosted access is open, while the current homepage offers a waitlist; present onboarding availability is unclear ([August announcement](https://tilion.com/blog/stealth-is-a-speed-problem), [homepage](https://tilion.com)).
-- **Name ambiguity:** Searches return unrelated Tilion Brewing Company records, which were excluded ([Goodhue County filing, Jun 2026, via search snippet](https://goodhuecountymn.gov/files/agenda_items/lowerpotency_hemp_edible_retail_registration_application_tilion_brewing_company_llc_17337.pdf)).
+- **Site-owner access controls:** Cloudflare now defaults newly onboarded domains to blocking classified agent traffic on pages with ads, and Fortress advises users to respect site terms and local law. ([Cloudflare changelog](https://developers.cloudflare.com/changelog/product/bots/), Sep 2026; [Fortress GitHub](https://github.com/tiliondev/fortress))
+- **Session reliability:** Browser Arena observed a failed Tilion session launch in November, and Prothom Alo reports that Tilion mitigates session failures by reassigning the task. ([Browser Arena](https://www.browserarena.ai/proxies?country=US&date=2026-11-07), Nov 2026; [Prothom Alo](https://en.prothomalo.com/corporate/6juv5pdngk), 2026)
+- **Cloud availability:** Tilion announced public access in August, while its homepage currently directs visitors to a waitlist and ComputeSDK labels the service pre-release. ([Tilion Cloud launch](https://tilion.com/blog/stealth-is-a-speed-problem), Aug 2026; [Tilion homepage](https://tilion.com/), [ComputeSDK](https://www.computesdk.com/benchmarks/browsers), Nov 2026)
+- **Name collision:** A historical USPTO filing lists a separate Tilion.com, Inc. for supply-chain software, which can confound name-based searches. ([USPTO Official Gazette](https://www.uspto.gov/web/trademarks/tmog/20010911_OG.pdf), Sep 2001)
 
 ## Key Facts
 
@@ -85,12 +88,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | Fortress: 100K+ installs, engineers at 170+ companies ([Fortress, Oct 2026](https://fortress.tilion.com)); millions of daily operations claimed ([YC, Oct 2026](https://www.ycombinator.com/companies/tilion)) |
-| Revenue Signal | $2,000/month organization license ([subscription terms, Oct 2026](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)); hosted $0.03/browser-hour announced ([Tilion, Aug 2026](https://tilion.com/blog/stealth-is-a-speed-problem)) |
-| Founders | Luthra, CEO: Wabash, AEI; Arham, CTO: Wabash, Fortress maintainer; Hoque: Wabash, AWS; Tonmoy, CPO: Wabash, multimodal research ([YC profiles](https://www.ycombinator.com/companies/tilion), [arXiv](https://arxiv.org/abs/2607.18666)) |
-| Competitors | Browserbase ($67.5M raised, revenue unknown, Stagehand/Director; [Sourcery](https://www.sourcery.vc/p/breaking-browserbase-raises-40m-series)); Kernel ($22M raised, revenue unknown, authentication; [Kernel](https://www.kernel.sh/blog/series-a-announcement)); Browser Use ($17M disclosed, revenue unknown, agent framework; [Browser Use](https://browser-use.com/posts/seed-round)) |
-| Moat Signals | Native browser patches, generated identities, 779 repository stars ([GitHub, Oct 2026](https://github.com/tiliondev/fortress)) |
-| Risk Factors | Incomplete protected-site coverage, external egress dependency, legacy BSD forks ([Fortress documentation](https://github.com/tiliondev/fortress), [license](https://github.com/tiliondev/fortress/blob/main/LICENSE)) |
-| Founder Reach | Indexed LinkedIn followers: Luthra 970, Arham 989, Hoque 542, Tonmoy 2K ([Luthra](https://www.linkedin.com/in/armanluthra), [Arham](https://www.linkedin.com/in/shahrierislamarham), [Hoque](https://www.linkedin.com/in/kazi-fardinul-hoque), [Tonmoy](https://www.linkedin.com/in/abdul-basit-tonmoy), via search snippets) |
-| Distribution Signals | GitHub: 779 stars, 52 forks ([GitHub, Oct 2026](https://github.com/tiliondev/fortress)); LinkedIn: 105 followers ([LinkedIn, Oct 2026](https://www.linkedin.com/company/tiliondev/)) |
-| Emails | team@tilion.dev ([terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)); arman@tilion.dev ([founder comment](https://github.com/tiliondev/fortress/discussions/31)) |
+| Traction | 100,000 reported Fortress installs ([ET Edge Insights](https://etedge-insights.com/brands-speak/from-jammu-to-silicon-valley-4-college-friends-raise-half-a-million-dollars-for-ai-startup-tilion/), Oct 2026); engineers at 170+ companies, company-reported ([Prothom Alo](https://en.prothomalo.com/corporate/6juv5pdngk), 2026); millions of daily operations, company-reported ([Y Combinator](https://www.ycombinator.com/companies/tilion), Nov 2026) |
+| Revenue Signal | Cloud launch rate of $0.03/browser-hour ([Tilion](https://tilion.com/blog/stealth-is-a-speed-problem), Aug 2026); Fortress free Developer tier and $2,000/month Enterprise tier ([Fortress pricing](https://fortress.tilion.com/pricing), Oct 2026 via search snippet) |
+| Founders | Luthra (CEO), Wabash and AEI ([Wabash](https://www.wabash.edu/news/story/13449), [YC](https://www.ycombinator.com/founders/arman-luthra)); Arham (CTO), Wabash and browser infrastructure ([YC](https://www.ycombinator.com/founders/md-shahrier-islam-arham), [Prothom Alo](https://en.prothomalo.com/corporate/6juv5pdngk)); Hoque (Founder), AWS Bedrock and model serving ([GitHub](https://github.com/kfhfar)); Tonmoy (CPO), Wabash and multimodal ML ([YC](https://www.ycombinator.com/founders/abdul-basit-tonmoy), [arXiv](https://arxiv.org/abs/2607.18666)) |
+| Competitors | Browserbase ($67.5M raised, about $3M reported revenue in its first 16 months, Stagehand and replay) ([Contrary Research](https://research.contrary.com/company/browserbase), [Browserbase](https://www.browserbase.com/about)); Kernel ($22M raised, revenue unknown, agent runtime) ([Kernel](https://www.kernel.sh/blog/series-a-announcement), [YC](https://www.ycombinator.com/companies/kernel)); Browser Use ($17M raised, revenue unknown, agent framework) ([Felicis](https://www.felicis.com/blog/investing-in-browser-use)) |
+| Moat Signals | Custom Chromium fork with monthly rebases and published regression benchmarks ([Fortress GitHub](https://github.com/tiliondev/fortress), Nov 2026) |
+| Risk Factors | Site-owner blocking defaults ([Cloudflare](https://developers.cloudflare.com/changelog/product/bots/)), session launch failures ([Browser Arena](https://www.browserarena.ai/proxies?country=US&date=2026-11-07)), Cloud waitlist ([Tilion](https://tilion.com/)) |
+| Founder Reach | Luthra: X 97, LinkedIn 970, `aftr` 27 stars ([Teapawt](https://nitter.gq/armanluthra_), [LinkedIn](https://www.linkedin.com/in/armanluthra) via search snippet, [GitHub](https://github.com/Arman-Luthra/aftr)); Arham: X 79, LinkedIn 989, `fortress_dev` 1 star ([Teapawt](https://nitter.gq/shahrier_arham), [LinkedIn](https://www.linkedin.com/in/shahrierislamarham) via search snippet, [GitHub](https://github.com/arham766/fortress_dev)); Hoque: LinkedIn 542, `vllm` fork 0 stars ([LinkedIn](https://www.linkedin.com/in/kazi-fardinul-hoque) via search snippet, [GitHub](https://github.com/kfhfar/vllm)); Tonmoy: LinkedIn 2K, `fusion-embedding` 17 stars ([LinkedIn](https://www.linkedin.com/in/abdul-basit-tonmoy) via search snippet, [GitHub](https://github.com/Eximius-Labs/fusion-embedding)) |
+| Distribution Signals | Hacker News front page, company-reported ([Tilion](https://tilion.com/blog/tilion-cloud), Jul 2026); 804 GitHub stars ([Fortress GitHub](https://github.com/tiliondev/fortress), Nov 2026); 367 LinkedIn and 55 X followers ([LinkedIn](https://www.linkedin.com/company/tiliondev/), [Teapawt mirror](https://www.teapaw.org/tiliondev), Nov 2026) |
+| Emails | arman@tilion.dev, CEO ([GitHub discussion](https://github.com/tiliondev/fortress/discussions/31)); team@tilion.dev, company notices ([Fortress subscription terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)); hello@tilion.dev, package contact ([Tilion on PyPI](https://pypi.org/project/tilion/), via search snippet) |

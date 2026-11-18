@@ -1,89 +1,93 @@
 ﻿# Sona8
 
-> Voice agents survey employees to map, improve & automate workflows
+> AI context layer: interviews employees to map and automate workflows
 
 | Field | Value |
 |-------|-------|
 | Website | https://sona8.com |
 | YC Page | https://www.ycombinator.com/companies/sona8 |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/sona8)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/sona8)) |
 | Industry | B2B / B2B -> Operations |
-| Team Size | 5 |
+| Team Size | 5 ([Y Combinator](https://www.ycombinator.com/companies/sona8)) |
 | Location | San Francisco, CA, USA |
-| Tags | HR Tech, Infrastructure, AI, Conversational AI |
-| YC Partner | Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/sona8)) |
-| Emails | anton@sona8.com ([YC](https://www.ycombinator.com/companies/sona8)); thilo@sona8.com, legal@sona8.com ([Imprint](https://sona8.com/imprint)); privacy@sona8.com ([Privacy Policy](https://sona8.com/privacy-policy)); security@sona8.com ([Trust Center, via search snippet](https://trust.sona8.com/)) |
+| Tags | B2B, Infrastructure, AI, Conversational AI |
+| YC Partner | Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/sona8)) |
+| Emails | anton@sona8.com, CEO ([Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows)); legal@sona8.com, legal inquiries ([Sona8 Legal](https://sona8.com/legal)); privacy@sona8.com, privacy inquiries ([Sona8 Privacy Policy](https://sona8.com/privacy-policy)) |
 
 ## The Idea
 
-- **Problem:** Consulting and transformation teams rely on selective employee interviews and interpreters, leaving undocumented workarounds outside their diagnosis of operational problems ([YC launch](https://www.ycombinator.com/companies/sona8)).
-- **Approach:** Employees complete multilingual voice interviews with adaptive follow-ups, optionally sharing screens or cameras, and Sona8 organizes responses into themes that teams can query through connected AI assistants ([Sona8](https://sona8.com/how-it-works)).
-- **Differentiation:** Sona8 investigates employee workflows, whereas Listen Labs emphasizes customer research and Celonis derives process intelligence from enterprise-system data ([YC](https://www.ycombinator.com/companies/sona8), [Listen Labs](https://listenlabs.ai/blog/announcing-listen-s-series-b), [Celonis](https://www.celonis.com/)).
-- **Business Model:** CEO Anton Hantel describes a platform fee plus usage charges for interviews and external AI queries; published dollar prices: No public data found ([Trending Topics, October 5, 2026](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)).
-- **TAM/SAM:** Adjacent-market proxy: employee feedback and continuous listening represents $1.22 billion globally in 2026, projected at 14.59% CAGR through 2031; Sona8-specific SAM: No public data found ([Mordor Intelligence, September 2026](https://www.mordorintelligence.com/industry-reports/employee-feedback-and-continuous-listening-market)).
-- **GTM / Distribution:** Initial customers came through founder networks, with consulting projects serving as entry points to recurring deployments across consulting clients and enterprise transformation teams ([Trending Topics, October 2026](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)).
+- **Problem:** Transformation and consulting teams use sampled stakeholder interviews and existing documentation, which can miss site-specific workarounds and leave teams without current information when implementation stalls ([StartupValley CEO interview](https://startupvalley.news/de/sona8-unternehmen-interviews-ki/), Oct 2026).
+- **Approach:** Sona8 asks employees adaptive questions in their language by phone or browser, accepts screen or camera demonstrations, and turns their answers into themes and workflow maps that teams can query through Model Context Protocol ([Sona8 How It Works](https://sona8.com/how-it-works), [Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows)).
+- **Differentiation:** Sona8 combines employee interviews, task demonstrations and repeat interviews after rollout, while Horizon ranks improvement opportunities, kawaru.ai estimates automation payback, Listen Labs interviews customers, and Celonis reconstructs workflows from system events ([Launch YC](https://www.ycombinator.com/companies/sona8), [Horizon](https://usehorizon.ai/), [kawaru.ai](https://www.kawaru.ai/recommendations), [Listen Labs](https://listenlabs.ai/blog/announcing-listen-s-series-b), [Celonis](https://www.celonis.com/company/about-us)).
+- **Business Model:** Hantel described a platform fee plus usage charges for interviews and queries from other AI tools, with fees set in customer order forms ([Trending Topics CEO interview](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/), Oct 2026, [Sona8 Master SaaS Agreement](https://sona8.com/legal/msa)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Sona8 acquired its first customers through the founders’ network, sells into consulting engagements, and targets enterprise strategy and transformation teams directly through demos ([Trending Topics CEO interview](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/), Oct 2026, [Sona8](https://sona8.com/book-demo)).
 
 ## Defensibility
 
-- **Moat today:** Technical-method evidence includes independently coding statements with ten agents, requiring six-agent agreement, fixing the codebook beforehand, and tracing themes to excerpts; exclusive-IP evidence: No public data found ([Sona8](https://sona8.com/roles/works-councils)).
-- **Future moat:** [Inferred]: Repeated interviews connected to enterprise systems could accumulate customer-specific operational history and switching costs, although YC describes the live workflow graph as a development goal ([YC](https://www.ycombinator.com/companies/sona8)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given existing employee-listening platforms and process-intelligence providers serving overlapping organizational needs ([inFeedo](https://www.infeedo.ai/), [Celonis](https://www.celonis.com/)).
-- **Commoditization risk:** [Inferred]: Existing survey vendors could assemble overlapping interview features using commercially available multilingual audio models, although matching enterprise integrations and research controls requires additional implementation ([Google, June 2025](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-2-5-native-audio/)).
+- **Moat today:** The company reports completing more than 10,000 employee interviews, and its data policy restricts customer interview content to serving that customer and excludes it from model training ([Y Combinator](https://www.ycombinator.com/companies/sona8), Nov 2026, [Sona8 Data Policy](https://sona8.com/data-policy)).
+- **Future moat:** [Inferred]: Repeated interviews and workflow updates could make a customer’s accumulated process history costly to recreate, with the effect dependent on customers reusing those maps across projects and agents ([Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Workflow vendors can source real-time voice through a commercial API, and kawaru.ai already offers interview-generated workflow maps and MCP access ([OpenAI](https://openai.com/index/introducing-gpt-realtime/), [kawaru.ai](https://www.kawaru.ai/discovery)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - More than 10,000 employee interviews completed, company-reported ([YC, retrieved October 27, 2026](https://www.ycombinator.com/companies/sona8)).
-  - One signed consulting firm described as among the world’s top three, unnamed ([YC, retrieved October 27, 2026](https://www.ycombinator.com/companies/sona8)).
-  - More than $500,000 total funding from YC and angel investors, reported without a round breakdown ([Trending Topics, October 5, 2026](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)).
-  - Customer testimonial: Pacific Southwest Container’s strategy director reports identifying previously unseen operational-efficiency and safety opportunities ([Sona8, retrieved October 27, 2026](https://sona8.com/)).
-  - LinkedIn company page displays 1,444 followers ([LinkedIn, retrieved October 27, 2026](https://www.linkedin.com/company/sona8/)).
-  - Coverage in The AI Journal on September 25, 2026, and Trending Topics on October 5, 2026 ([The AI Journal](https://aijourn.com/what-employees-tell-a-voice-agent-about-how-they-use-ai/), [Trending Topics](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)).
-  - Zero YC job listings ([YC, retrieved October 27, 2026](https://www.ycombinator.com/companies/sona8/jobs)).
+  - 10,000+ employee interviews completed, company-reported ([Y Combinator](https://www.ycombinator.com/companies/sona8), Nov 2026).
+  - One signed top-three management consulting firm, unnamed in the announcement, using Sona8 to map client processes ([Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows), Nov 2026).
+  - Customer testimonial: s.Oliver Group’s CEO office used Sona8 to map processes and identify where teams’ planning requirements differed ([Sona8](https://sona8.com/), Nov 2026).
+  - More than $500,000 in funding from YC and angels, as reported by Trending Topics ([Trending Topics](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/), Oct 2026).
+  - YC voice-interview launch in October, followed by a workflow-mapping launch featuring task capture in November ([October Launch YC](https://www.ycombinator.com/launches/VMv-sona8-ai-voice-agents-surveying-employees-about-their-work), [November Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows), 2026).
+  - Press coverage in Trending Topics and Fondo ([Trending Topics](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/), [Fondo](https://fondo.com/blog/sona8-uses-voice-agents-to-uncover-how-employees-actually-work), Oct 2026).
+  - 2,261 company followers ([LinkedIn](https://www.linkedin.com/company/sona8/), Nov 2026).
+  - 8,600 estimated website visits, based on a small traffic-panel sample ([Mindspent](https://mindspent.com/c/sona8), Sep 2026).
+  - Zero open roles on YC ([YC Jobs](https://www.ycombinator.com/companies/sona8/jobs), Nov 2026).
 - **Competitors:**
-  - **Listen Labs** ($100M total funding; eight-figure annualized revenue): customer-focused AI interviews, with a $69M Series B led by Ribbit Capital in January 2026 and a subsequent Salesforce acquisition agreement announced in September ([Listen Labs](https://listenlabs.ai/blog/announcing-listen-s-series-b), [company release](https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html), [Salesforce](https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/)).
-  - **inFeedo** ($16M total funding reported at Series A; ₹42.2 crore FY2023 revenue): employee engagement, attrition prediction, and HR automation rather than Sona8’s transformation-project focus, with a $12M Series A led by Jungle Ventures in March 2022 ([inFeedo funding](https://www.infeedo.ai/blog/infeedo-raises-from-tiger-global-and-jungle-ventures), [Jungle Ventures](https://jungle.vc/resources/jungle-ventures-leads-12m-in-series-a-funding-in-infeedo), [Inc42](https://inc42.com/company/infeedo/financials/), [product](https://www.infeedo.ai/)).
-  - **Celonis** (over $1,700M funding reported in May 2025; current revenue unknown): system-derived process intelligence and enterprise AI context, with its latest verified equity announcement comprising a $400M Series D extension led by QIA in August 2022 ([SiliconANGLE](https://siliconangle.com/2025/05/13/celonis-adds-new-ai-data-management-features-business-process-platform/), [QIA](https://www.qia.qa/en/Newsroom/Pages/QIA-leads-Series-D-extension-in-Celonis%2C-market-leader-in-process-mining.aspx), [Celonis](https://www.celonis.com/)).
-- **Why now:** [Inferred]: Google’s June 2025 release of native multilingual audio dialogue with low latency and tool calling expands the available infrastructure for adaptive employee interviews ([Google](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-2-5-native-audio/)).
+  - **Horizon** ($3.5M disclosed seed, led by NXTP in Jan 2026, revenue unknown): Interviews employees and prioritizes improvement opportunities by expected ROI ([Gunderson Dettmer](https://www.gunder.com/en/news-insights/client-news/uruguayan-ai-startup-horizon-raises-35-million-usd-seed-investment), [Horizon](https://usehorizon.ai/)).
+  - **kawaru.ai** (funding and revenue unknown): Starts with industry process templates and estimates cost, time savings and payback for automation options ([kawaru.ai Discovery](https://www.kawaru.ai/discovery), [kawaru.ai Recommendations](https://www.kawaru.ai/recommendations)).
+  - **Listen Labs** ($100M total, including a $69M Series B led by Ribbit Capital in Jan 2026, approximately $30M annualized revenue reported in Sep 2026): Conducts customer research interviews and signed an acquisition agreement with Salesforce ([Listen Labs](https://listenlabs.ai/blog/announcing-listen-s-series-b), [Pear VC](https://pear.vc/listen-labs-series-b/), [TechCrunch](https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/), [Covington](https://www.cov.com/en/news-and-insights/news/2026/09/covington-advises-salesforce-on-acquisition-of-listen-labs)).
+  - **Celonis** (approximately $1.77B across announced equity rounds, including a $400M Series D extension led by Qatar Investment Authority in Aug 2022, revenue unknown): Uses enterprise system event data for process mining ([Celonis funding announcement](https://www.celonis.com/news/press/celonis-secures-one-billion-to-help-customers-fight-economic-and-supply-change-challenges), [Celonis](https://www.celonis.com/company/about-us)).
+- **Why now:** [Inferred]: OpenAI’s August 2025 Realtime API release made speech-to-speech interaction, image input and SIP telephony available through one production API, reducing the integration work for phone-based and multimodal interviews ([OpenAI](https://openai.com/index/introducing-gpt-realtime/)).
 
 ## Founders & Team
 
 - **Anton Hantel (Founder/CEO):**
-  - Background: Former BCG consultant who left MIT’s MBA program; YC also lists prior affiliations with Picus Capital and J.P. Morgan ([YC founder profile](https://www.ycombinator.com/founders/anton-hantel)).
-  - Twitter/X: @anton_hantel; count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/anton-hantel)).
-  - LinkedIn: Headline: No public data found; indexed profile shows 4,127 followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/anton-hantel/de)).
-  - GitHub: @antonhantel; Events-Synthetic-Consumer-Research has 2 stars ([GitHub, October 2026](https://github.com/antonhantel)).
+  - Background: Left MIT Sloan’s MBA after starting Sona8, previously worked on BCG transformation projects and was a visiting investor at Picus Capital, and publishes anton@sona8.com ([Sona8 founder profile](https://sona8.com/anton)).
+  - Twitter/X: @anton_hantel, count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/anton-hantel)).
+  - LinkedIn: Profile lists “Sona8 (YC F26)” ([LinkedIn](https://www.linkedin.com/in/anton-hantel/de), via search snippet).
+  - GitHub: @antonhantel, `Events-Synthetic-Consumer-Research`, 2 stars ([GitHub](https://github.com/antonhantel/Events-Synthetic-Consumer-Research), Nov 2026).
 - **Madeleine Malmsten (Founder/CTO):**
-  - Background: Self-taught engineer and repeat founder, formerly principal engineer at McKinsey QuantumBlack; reporting describes no high-school diploma ([YC](https://www.ycombinator.com/companies/sona8), [Trending Topics, October 2026](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)).
-  - Twitter/X: @madde; count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/madeleine-malmsten)).
-  - LinkedIn: Headline: No public data found; indexed profile shows 890 followers ([LinkedIn, retrieved October 2026, via search snippet](https://de.linkedin.com/in/mmalmsten)).
-  - GitHub: @mmalmsten; personal-site repository mmalmsten.github.io has 0 stars ([GitHub, October 2026](https://github.com/mmalmsten/mmalmsten.github.io)).
+  - Background: Self-taught engineer, repeat founder and former QuantumBlack principal engineer, and Sona8’s named EU contact via its shared privacy and legal inboxes ([Y Combinator](https://www.ycombinator.com/companies/sona8), [Sona8 Privacy Policy](https://sona8.com/privacy-policy), [Sona8 Imprint](https://sona8.com/imprint)). Direct Sona8 email: No public data found.
+  - Twitter/X: @madde, count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/madeleine-malmsten)).
+  - LinkedIn: Current headline not retrievable ([LinkedIn](https://www.linkedin.com/in/mmalmsten)).
+  - GitHub: @mmalmsten, `mmalmsten.github.io`, 0 stars ([GitHub](https://github.com/mmalmsten/mmalmsten.github.io), Nov 2026).
 - **Thilo Tamme (Founder/CPO):**
-  - Background: Former BCG X project lead and TUM conversational-AI researcher who left his PhD, with master’s qualifications from Maastricht, ESB, and Victoria ([YC](https://www.ycombinator.com/companies/sona8), [TUM profile](https://www.tumcso.com/team/thilo-tamme)).
+  - Background: Former BCG X project lead with an MSc from Maastricht University who left his conversational-AI doctorate at the Technical University of Munich to build Sona8 ([Y Combinator](https://www.ycombinator.com/companies/sona8), [TUM profile](https://cso.super.site/team/thilo-tamme)). Direct Sona8 email: No public data found.
   - Twitter/X: No public account found.
-  - LinkedIn: Headline: No public data found; indexed profile shows 17K followers ([LinkedIn, retrieved October 2026, via search snippet](https://www.linkedin.com/in/ttamme)).
-  - GitHub: @turbotanne; pinned whisper fork has 0 stars ([GitHub, October 2026](https://github.com/turbotanne/whisper)).
-- **Co-founder relationship:** Hantel and Tamme worked together at BCG and developed the idea from their employee-interview work ([YC](https://www.ycombinator.com/companies/sona8)).
-- **Founder-market fit:** [Inferred]: Their consulting, conversational-AI research, and enterprise-engineering histories relate directly to the product’s interview and deployment requirements, with YC providing institutional backing ([Sona8 team](https://sona8.com/), [YC](https://www.ycombinator.com/companies/sona8)).
+  - LinkedIn: Profile lists “Sona8” ([LinkedIn](https://www.linkedin.com/in/ttamme), via search snippet).
+  - GitHub: @turbotanne, `whisper` fork, 0 stars ([GitHub](https://github.com/turbotanne/whisper), Nov 2026).
+- **Co-founder relationship:** Hantel and Tamme worked together at BCG, where they interviewed employees during transformation projects ([Y Combinator](https://www.ycombinator.com/companies/sona8)).
+- **Founder-market fit:** Hantel and Tamme conducted the manual interviews Sona8 automates, Tamme researched conversational AI, and Malmsten built enterprise AI software at QuantumBlack ([Y Combinator](https://www.ycombinator.com/companies/sona8), [Startbase](https://www.startbase.com/portraits/sona8-was-unternehmen-ueber-sich-selbst-nicht-wissen/)).
 
 ## Key Risks
 
-- **Employee disclosure and trust:** [Inferred]: Collecting internal-process accounts creates confidentiality and participation risks; Sona8 describes voluntary participation, aggregation, minimum group sizes, and works-council agreement as controls ([Sona8](https://sona8.com/roles/works-councils)).
-- **Technical—minority-voice loss:** A founder-coauthored audit found singleton concerns omitted 86% of the time across 45 LLM summaries, documenting a methodological failure mode without establishing Sona8’s production error rate ([Tamme, Hantel and Khosrawi-Rad, September 2026](https://arxiv.org/abs/2609.38818)).
-- **Incumbent overlap:** [Inferred]: Celonis’s enterprise context model overlaps Sona8’s planned context-layer positioning, while Salesforce’s agreement to acquire Listen Labs could extend AI interviewing through an existing enterprise channel ([Celonis](https://www.celonis.com/), [Salesforce, September 2026](https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-listen-labs/)).
+- **Employee participation:** [Inferred]: Voluntary interviews and employer consultation requirements can limit coverage or delay rollout, and Sona8 mitigates disclosure risk through de-identification and minimum group sizes ([StartupValley](https://startupvalley.news/de/sona8-unternehmen-interviews-ki/), [Sona8 Data Policy](https://sona8.com/data-policy), [Sona8 Data Processing Agreement](https://sona8.com/legal/dpa)).
+- **Workflow-map accuracy:** [Inferred]: Rare exceptions can disappear during summarization, a failure mode Hantel and Tamme documented on employee free-text feedback, while Sona8 exposes supporting statements so teams can inspect its themes ([Tamme et al.](https://arxiv.org/abs/2609.38818), Sep 2026, [Sona8 How It Works](https://sona8.com/how-it-works)).
+- **Consulting-channel dependency:** [Inferred]: Adoption through consultants can track the cadence of client engagements, and Sona8 also sells directly to enterprise strategy and transformation teams ([Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows), [Trending Topics CEO interview](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)).
+- **Security procurement:** [Inferred]: Buyers requiring a completed SOC 2 Type II report could defer purchase, as Sona8 lists the observation period as underway and expects the report in Q1 2027 ([Sona8 Data Policy](https://sona8.com/data-policy), Nov 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Adjacent employee-listening market: $1.22B in 2026; 14.59% CAGR through 2031 ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/employee-feedback-and-continuous-listening-market)) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | 10,000+ interviews; one unnamed top-three consulting firm signed ([YC, October 2026](https://www.ycombinator.com/companies/sona8)) |
-| Revenue Signal | Platform fee plus interview/query usage charges; no dollar rates disclosed ([Trending Topics, October 2026](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)) |
-| Founders | Hantel, CEO: BCG, MIT MBA dropout; Malmsten, CTO: QuantumBlack principal engineer; Tamme, CPO: BCG X, TUM AI researcher ([YC, 2026](https://www.ycombinator.com/companies/sona8)) |
-| Competitors | Listen Labs: $100M raised, eight-figure annualized revenue, customer research ([company](https://listenlabs.ai/blog/announcing-listen-s-series-b), [release](https://www.prnewswire.com/news-releases/listen-labs-raises-69-million-series-b-to-bring-customer-voices-into-every-decision-302661000.html)); inFeedo: $16M raised, ₹42.2 crore FY2023 revenue, HR listening ([company](https://www.infeedo.ai/blog/infeedo-raises-from-tiger-global-and-jungle-ventures), [Inc42](https://inc42.com/company/infeedo/financials/)); Celonis: over $1,700M raised, current revenue unknown, system-derived context ([SiliconANGLE, 2025](https://siliconangle.com/2025/05/13/celonis-adds-new-ai-data-management-features-business-process-platform/), [company](https://www.celonis.com/)) |
-| Moat Signals | Fixed codebook, multi-agent coding consensus, excerpt traceability ([Sona8, October 2026](https://sona8.com/roles/works-councils)) |
-| Risk Factors | Sensitive employee disclosures ([Sona8](https://sona8.com/roles/works-councils)), minority-theme loss in founder research ([arXiv, 2026](https://arxiv.org/abs/2609.38818)), enterprise context overlap ([Celonis](https://www.celonis.com/)) |
-| Founder Reach | LinkedIn: Hantel 4,127, Malmsten 890, Tamme 17K ([profiles, October 2026, via search snippets](https://www.linkedin.com/in/anton-hantel/de), [Malmsten](https://de.linkedin.com/in/mmalmsten), [Tamme](https://www.linkedin.com/in/ttamme)) |
-| Distribution Signals | 1,444 company LinkedIn followers ([LinkedIn, October 2026](https://www.linkedin.com/company/sona8/)); consulting-led project distribution ([Trending Topics, October 2026](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/)) |
-| Emails | anton@sona8.com ([YC](https://www.ycombinator.com/companies/sona8)); thilo@sona8.com, legal@sona8.com ([Imprint](https://sona8.com/imprint)); privacy@sona8.com ([Privacy Policy](https://sona8.com/privacy-policy)); security@sona8.com ([Trust Center, via search snippet](https://trust.sona8.com/)) |
+| Traction | 10,000+ employee interviews and one signed top-three consultancy ([Y Combinator](https://www.ycombinator.com/companies/sona8), Nov 2026), customer testimonial: s.Oliver used Sona8 for process mapping ([Sona8](https://sona8.com/), Nov 2026), more than $500,000 in reported funding ([Trending Topics](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/), Oct 2026) |
+| Revenue Signal | Platform fee plus usage charges for interviews and AI queries ([Trending Topics CEO interview](https://www.trendingtopics.eu/sona8-y-combinator-ai-interviews/), Oct 2026) |
+| Founders | Anton Hantel (CEO), BCG transformation consulting and MIT Sloan MBA studies; Madeleine Malmsten (CTO), former QuantumBlack principal engineer and repeat founder; Thilo Tamme (CPO), BCG X project lead and TUM conversational-AI research ([Y Combinator](https://www.ycombinator.com/companies/sona8)) |
+| Competitors | Horizon ($3.5M disclosed, revenue unknown, ROI prioritization) ([Gunderson Dettmer](https://www.gunder.com/en/news-insights/client-news/uruguayan-ai-startup-horizon-raises-35-million-usd-seed-investment), [Horizon](https://usehorizon.ai/)); kawaru.ai (funding and revenue unknown, industry templates and payback estimates) ([kawaru.ai](https://www.kawaru.ai/discovery)); Listen Labs ($100M raised, approximately $30M reported annualized revenue, customer interviews) ([Listen Labs](https://listenlabs.ai/blog/announcing-listen-s-series-b), [TechCrunch](https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/)); Celonis (approximately $1.77B in announced equity, revenue unknown, process mining) ([Celonis](https://www.celonis.com/news/press/celonis-secures-one-billion-to-help-customers-fight-economic-and-supply-change-challenges)) |
+| Moat Signals | No public data found |
+| Risk Factors | Employee consultation and participation ([Sona8 DPA](https://sona8.com/legal/dpa), [StartupValley](https://startupvalley.news/de/sona8-unternehmen-interviews-ki/)), omission of rare exceptions in summaries ([Tamme et al.](https://arxiv.org/abs/2609.38818)), pending SOC 2 Type II report ([Sona8 Data Policy](https://sona8.com/data-policy)) |
+| Founder Reach | Hantel: 4,127 LinkedIn followers ([LinkedIn](https://www.linkedin.com/in/anton-hantel/de), via search snippet), 2 stars on his featured research repo ([GitHub](https://github.com/antonhantel/Events-Synthetic-Consumer-Research)); Malmsten: 890 LinkedIn followers ([LinkedIn](https://de.linkedin.com/in/mmalmsten), via search snippet), 0 stars on her public website repo ([GitHub](https://github.com/mmalmsten/mmalmsten.github.io)); Tamme: 0 stars on his Whisper fork ([GitHub](https://github.com/turbotanne/whisper)) |
+| Distribution Signals | 2,261 company followers ([LinkedIn](https://www.linkedin.com/company/sona8/), Nov 2026), 8,600 estimated visits ([Mindspent](https://mindspent.com/c/sona8), Sep 2026), YC launches ([October Launch YC](https://www.ycombinator.com/launches/VMv-sona8-ai-voice-agents-surveying-employees-about-their-work), [November Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows), 2026) |
+| Emails | anton@sona8.com, CEO ([Launch YC](https://www.ycombinator.com/launches/Wt1-sona8-understand-improve-and-automate-workflows)); legal@sona8.com, legal inquiries ([Sona8 Legal](https://sona8.com/legal)); privacy@sona8.com, privacy inquiries ([Sona8 Privacy Policy](https://sona8.com/privacy-policy)) |

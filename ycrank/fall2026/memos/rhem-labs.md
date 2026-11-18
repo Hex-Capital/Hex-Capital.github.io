@@ -1,6 +1,6 @@
 ﻿# Rhem Labs
 
-> Home care technology for aging parents and their families
+>
 
 | Field | Value |
 |-------|-------|
@@ -12,72 +12,77 @@
 | Location | San Francisco, CA, USA |
 | Tags | Robotics, Health & Wellness, Consumer Products |
 | YC Partner | Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/rhem-labs)) |
-| Emails | support@rhem.ai, service@rhem.ai, cancel@rhem.ai, privacy@rhem.ai ([Rhem contact page](https://www.rhem.ai/contact)) |
+| Emails | support@rhem.ai (general inquiries and product emails), service@rhem.ai (orders, returns and warranty), cancel@rhem.ai (pre-dispatch cancellations), privacy@rhem.ai (personal data requests) ([Rhem Contact & Support](https://www.rhem.ai/contact), [Privacy Policy](https://www.rhem.ai/privacy)) |
 
 ## The Idea
 
-- **Problem:** Families relying on calls, texts, and occasional visits can miss changes in an older relative’s health and routines until a serious incident occurs ([YC launch](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
-- **Approach:** Rhem combines a voice-operated tabletop robot for calls, reminders, appointments, and supported online tasks with wellness readings and a family app showing shared routines, requests, and alerts ([YC launch](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
-- **Differentiation:** Rhem emphasizes completing everyday tasks, while ElliQ emphasizes proactive companionship and wellness engagement, Nobi embeds fall monitoring in lighting, and Vayyar uses radar-based monitoring ([Rhem](https://www.rhem.ai/), [Intuition Robotics/Kanematsu](https://d11k6pweekc5r2.cloudfront.net/4fc335af47b5f95e26a8020ed3401146/common/archives/en/files/press/attach/20250909_release_en.pdf?1757028903=), [Angelini Ventures](https://www.angeliniventures.com/media/ht0hczns/angelini-ventures-nobi-investment-international.pdf), [Vayyar](https://vayyar.com/care/)).
-- **Business Model:** The current offer is a $99/month robot rental including service, standard shipping, and cancellation without a cancellation fee; an earlier launch offer advertised a $1,099 purchase with two years of Rhem Plus ([Rhem FAQ, accessed Oct 27, 2026](https://www.rhem.ai/), [YC launch](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
-- **TAM/SAM:** Grand View Research estimates the global elder-care assistive-robots market at $3.9 billion in 2026, growing at 14.2% annually through 2033, encompassing physical assistance beyond Rhem’s product; company-specific SAM: No public data found ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/elder-care-assistive-robots-market-report)).
-- **GTM / Distribution:** Rhem solicits consumer orders online and care-home demonstrations with discounted volume pricing, alongside recruitment for launch-film and brand production ([Rhem care homes](https://www.rhem.ai/care-homes), [YC job listing](https://www.ycombinator.com/companies/rhem-labs/jobs/TCR7cgZ-founding-creative-generalist)).
+- **Problem:** Older adults living at home can need help with calls, appointments and errands, while relatives relying on phone, text or video check-ins can miss changes in routines between conversations ([Launch YC](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
+- **Approach:** Rhemy is a voice-operated tabletop robot that makes calls, browses websites and manages reminders, while the Rhem Connect family app shares selected wellness readings and lets relatives step in on tasks ([Rhem product page](https://www.rhem.ai/), [Launch YC](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
+- **Differentiation:** Rhemy adds web errands and wellness readings to the conversational assistance also offered by ElliQ, while the separate Halo accessory overlaps with Nobi’s ceiling-light fall detection and Vayyar Care’s room radar ([Rhem](https://www.rhem.ai/), [ElliQ](https://elliq.com/), [Nobi](https://www.nobi.life/en), [Vayyar Care](https://www.vayyar.com/care)).
+- **Business Model:** Rhem’s October launch advertised a $1,099 Founding Edition with Halo and two years of Rhem Plus, while its November site lists a $99/month hardware-and-service rental and a separate outright purchase option ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents), [Rhem pricing FAQ, Nov 2026](https://www.rhem.ai/#faq)).
+- **TAM/SAM:** 360iResearch projects a $361.85M global elderly-care monitoring systems market in 2026 and 6.74% CAGR through 2032, a category estimate covering hardware, software and services, with no public Rhem-specific SAM found ([360iResearch, Jun 2026](https://www.360iresearch.com/library/intelligence/elderly-care-monitoring-system)).
+- **GTM / Distribution:** The company publicized a planned Kickstarter in June, opened website preorders at its October launch and now limits ordering to the U.S. ([Rhem press release, Jun 2026](https://www.financialcontent.com/article/marketersmedia-2026-6-6-meet-rhem-the-ai-home-robot-that-measures-your-familys-health-and-acts-on-it), [Launch YC, Oct 2026](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents), [Rhem FAQ, Nov 2026](https://www.rhem.ai/)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Remembering household task corrections could create personalization and switching costs, but their effects on retention remain unreported ([YC launch](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given ElliQ’s existing combination of companion hardware, health reminders, and caregiver-oriented services ([Intuition Robotics/Kanematsu, Sep 2025](https://d11k6pweekc5r2.cloudfront.net/4fc335af47b5f95e26a8020ed3401146/common/archives/en/files/press/attach/20250909_release_en.pdf?1757028903=)).
-- **Commoditization risk:** [Inferred]: Intuition Robotics could extend ElliQ into overlapping task automation using its existing conversational platform, although implementation cost and time cannot be established publicly ([Intuition Robotics/Kanematsu](https://d11k6pweekc5r2.cloudfront.net/4fc335af47b5f95e26a8020ed3401146/common/archives/en/files/press/attach/20250909_release_en.pdf?1757028903=)).
+- **Moat today:** Rhem reports onboard processing for voice, vision and wellness data, a product architecture that supports local operation for some interactions ([Rhem Privacy Policy, Oct 2026](https://www.rhem.ai/privacy)).
+- **Future moat:** [Inferred]: Saved household routines and task preferences could raise switching costs if families use the device regularly, with no public retention data found ([Launch YC](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
+- **Market structure:** No structural barrier identified at this stage ([ElliQ product](https://elliq.com/), [Vayyar Care](https://www.vayyar.com/care)).
+- **Commoditization risk:** ElliQ already offers conversation, reminders and family check-ins, while Vayyar already sells touchless radar monitoring, giving buyers alternatives for individual functions ([ElliQ FAQ](https://elliq.com/pages/faqs), [Vayyar Care](https://www.vayyar.com/care)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Reported $500,000 pre-seed financing from Y Combinator ([TradedVC, Oct 6, 2026](https://traded.co/vc/deal/rhem-labs-raises-500000-in-pre-seed-funding-from-y-combinator-to-develop-home-care-robotics/)).
-  - Product Hunt daily rank #15 and 100 points displayed ([Product Hunt, accessed Oct 27, 2026](https://www.producthunt.com/products/rhem-labs)).
-  - Company LinkedIn page displays 603 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/rhem-labs/)).
-  - Company X account @rhem_labs displays 210 followers in an indexed mirror ([Sotwe, retrieved Oct 27, 2026, via search snippet](https://www.sotwe.com/rhem_labs?lang=en)).
-  - Founding Creative Generalist marketing vacancy advertises $70,000–$110,000 compensation and 0.50%–1.50% equity in San Mateo ([YC Jobs, accessed Oct 27, 2026](https://www.ycombinator.com/companies/rhem-labs/jobs/TCR7cgZ-founding-creative-generalist)).
+  - Public product launch and website preorders, October 6, 2026 ([Jacob Shen’s launch post via Teapawt](https://www.teapawt.org/jacobshenn)).
+  - Customer testimonial: A user identified as Lori said Rhemy reminds her to check her blood pressure and records her readings ([Rhem homepage, observed Nov 2026](https://www.rhem.ai/)).
+  - $500K YC pre-seed reported by TradedVC, with a separate $125K seed entry in Dealroom ([TradedVC, Oct 2026](https://traded.co/vc/deal/rhem-labs-raises-500000-in-pre-seed-funding-from-y-combinator-to-develop-home-care-robotics/), [Dealroom, Sep 2026 entry](https://app.dealroom.co/companies/rhem_labs_1)).
+  - Launch coverage ([Founderland, Oct 2026](https://www.founderland.ai/articles/rhem-labs-launches-ai-robot-for-aging-in-place-monitoring-muubjwe1)).
+  - #15 daily rank and 100 points ([Product Hunt, Oct 7, 2026](https://www.producthunt.com/products/rhem-labs)).
+  - 766 LinkedIn followers ([Rhem Labs LinkedIn, Nov 2026](https://www.linkedin.com/company/rhem-labs)).
+  - 220 X followers, @rhem_labs ([X profile via Teapawt, Nov 2026](https://www.teapawt.org/rhem_labs)).
+  - One listed opening for an Applied AI Engineer focused on consumer robotics and voice systems ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/rhem-labs/jobs)).
 - **Competitors:**
-  - **Intuition Robotics / ElliQ ($85 million equity raised, revenue unknown):** Proactive companionship, wellness engagement, and reminders overlap with Rhem’s assistance functions; its latest located investment was from Kanematsu in September 2025, amount undisclosed, following a Woven Capital-led $25 million financing comprising equity and debt ([joint announcement](https://d11k6pweekc5r2.cloudfront.net/4fc335af47b5f95e26a8020ed3401146/common/archives/en/files/press/attach/20250909_release_en.pdf?1757028903=), [Intuition Robotics, Aug 2023](https://www.intuitionrobotics.com/post/intuition-robotics-raises-25m)).
-  - **Nobi ($52.52 million raised, revenue unknown):** AI-equipped lights address fall detection and prevention rather than Rhem’s tabletop task interface; the latest located round was €35 million Series B, announced January 28, 2025, co-led by Angelini Ventures and Nexus NeuroTech Ventures ([CB Insights, via search snippet](https://www.cbinsights.com/company/nobi-smart-lamps/financials), [Angelini Ventures](https://www.angeliniventures.com/media/ht0hczns/angelini-ventures-nobi-investment-international.pdf)).
-  - **Vayyar (over $300 million raised, revenue unknown):** Radar-based care monitoring overlaps with Rhem’s monitoring functions; its latest located financing was a $108 million Series E led by Koch Disruptive Technologies in June 2022 ([Vayyar funding announcement](https://vayyar.com/blog/vayyar/vayyar-wins-108m-series-e-funding), [Vayyar Care](https://vayyar.com/care/)).
-- **Why now:** [Inferred]: OpenAI’s August 2025 release combining production speech-to-speech, tool calling, and telephone integration reduced integration work for voice assistants that perform everyday tasks ([OpenAI, Aug 28, 2025](https://openai.com/index/introducing-gpt-realtime/)).
+  - **Intuition Robotics / ElliQ** ($83M raised per NTT DATA, revenue unknown): Tabletop companion centered on conversation and wellness coaching, with a September 2025 strategic investment from Kanematsu of undisclosed size following a $25M Woven Capital-led financing in August 2023 ([ElliQ](https://elliq.com/), [NTT DATA, 2026](https://services.global.ntt/-/media/ntt/global/insights/ntt-data-technology-foresight-2026_022.pdf), [Kanematsu, Sep 2025](https://www.kanematsu.co.jp/press/release/20250909_release), [Intuition Robotics, Aug 2023](https://blog.elliq.com/intuition-robotics-raises-25m)).
+  - **Nobi** (over €48M across announced rounds, revenue unknown): Ceiling lights detect falls and provide automatic lighting, with a €35M Series B co-led by Angelini Ventures and Nexus NeuroTech Ventures in January 2025 ([Nobi, Jan 2022](https://nobi-smart-lamps.prezly.com/belgian-scale-up-nobi-acquires-an-investment-eur-13-million-for-international-expansion), [Nobi, Jan 2025](https://nobi-smart-lamps.prezly.com/nobi-smart-lights-secures-35-million-in-oversubscribed-series-b-funding)).
+  - **Vayyar Imaging / Vayyar Care** (over $300M raised, revenue unknown): Room radar monitors activity and detects falls without cameras or audio, with a $108M Series E led by Koch Disruptive Technologies in June 2022 ([Vayyar Care](https://www.vayyar.com/care), [Vayyar financing](https://www.vayyar.com/blog/vayyar/vayyar-wins-108m-series-e-funding/)).
+  - **Sensi.AI** (over $98M raised, revenue unknown): Passive audio monitoring alerts home-care teams to changes, with a $45M Series C led by Qumra Capital in October 2025 ([Sensi product](https://www.sensi.ai/product/), [Sensi financing history](https://www.sensi.ai/innovation-journey/)).
+  - [Inferred]: The direct set is narrow because the products above cover different parts of Rhemy’s bundle, including conversation, task completion, wellness readings and fall alerts ([Rhem product page](https://www.rhem.ai/)).
+- **Why now:** [Inferred]: AI adoption among adults 50 and older rose from 18% in 2024 to 30% in 2025, indicating greater familiarity with AI in part of Rhem’s target population ([AARP, 2026](https://www.aarp.org/pri/topics/technology/internet-media-devices/2026-technology-trends-older-adults/)).
 
 ## Founders & Team
 
-- **Jacob Shen (CEO / Founder, company website):**
-  - Background: Berkeley CS and data science, Berkeley robotics research, and Mattoboard founding engineer; previously co-founded Bridge and raised $200,000 through MiraclePlus, which is prior-company funding; YC’s profile header inconsistently labels him CTO ([YC founder profile](https://www.ycombinator.com/founders/jacob-shen), [Rhem team](https://www.rhem.ai/story)).
-  - Twitter/X: @jacobshenn, 199 followers on the retrieved mirror ([Sotwe, accessed Oct 27, 2026](https://www.sotwe.com/jacobshenn?lang=tr)).
-  - LinkedIn: Indexed profile title “Stealth Startup,” with a Mattoboard applied-AI description ([LinkedIn, via search snippet, retrieved Oct 27, 2026](https://www.linkedin.com/in/jacobshenn)).
-  - GitHub: No public repos found.
-- **Huey Shen (CTO / Founder):**
-  - Background: Company reports 30+ years in embedded smart hardware, vehicle-system integration, manufacturing quality, and international supply chains; education, named prior employers, and exits: No public data found ([Rhem team](https://www.rhem.ai/story)).
-  - Twitter/X: No public account found.
-  - LinkedIn: No public profile found.
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Jacob and Huey are son and father ([Rhem story](https://www.rhem.ai/story)).
-- **Founder-market fit:** [Inferred]: Their robotics, hardware, and family-caregiving histories relate to the product’s engineering and household use; senior advisor Dr. Jack Stephens is identified as Ocean View Behavioral’s CEO ([Rhem story](https://www.rhem.ai/story)).
+- **Jacob Shen (Founder and CEO):**
+  - **Background:** Studied computer science and data science at UC Berkeley, researched autonomous navigation at Berkeley AUTOLab and was a founding engineer at MattoBoard (direct business email: No public data found) ([Rhem team](https://www.rhem.ai/story), [YC profile](https://www.ycombinator.com/companies/rhem-labs)).
+  - **Twitter/X:** @jacobshenn, 262 followers ([X profile via Teapawt, Nov 2026](https://www.teapawt.org/jacobshenn)).
+  - **LinkedIn:** “Stealth Startup,” 459 followers in the indexed profile ([LinkedIn, via search snippet](https://www.linkedin.com/in/jacobshenn)).
+  - **GitHub:** @jacobshenn, `mockrhemchat`, 0 stars ([GitHub, Nov 2026](https://github.com/jacobshenn/mockrhemchat)).
+- **Huey Shen (Founder and CTO):**
+  - **Background:** Also known as Freeman Shen, he earned an executive MBA from the University of Minnesota, co-founded EV maker WM Motor and has more than 30 years of smart-hardware experience per Rhem (direct business email: No public data found) ([Rhem team](https://www.rhem.ai/story), [Standout](https://standout.work/companies/1965b243-078c-4c82-8fc7-31e4ace85deb), [University of Minnesota](https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2021-08/CGI21_YearinReview_Spreads.pdf)).
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** “WM Motor 威马汽车,” 18K followers under Freeman Shen ([LinkedIn, via search snippet](https://www.linkedin.com/in/freeman-shen-3868271a?originalSubdomain=cn)).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** Jacob and Huey are son and father, and their family cared for Jacob’s grandmother and aunt at home for nearly 20 years ([Rhem team](https://www.rhem.ai/story)).
+- **Founder-market fit:** Jacob’s robotics research and Huey’s hardware manufacturing experience address the device’s engineering and production requirements, and Rhem lists behavioral-health executive Dr. Jack Stephens as senior advisor and YC as a backer ([Rhem team](https://www.rhem.ai/story), [Y Combinator](https://www.ycombinator.com/companies/rhem-labs)).
 
 ## Key Risks
 
-- **Delivery execution:** Rhem states that it is not ready to ship and expects U.S. Founder Edition shipments during January 20–31, 2027, leaving delivery performance unobserved ([Rhem FAQ, accessed Oct 27, 2026](https://www.rhem.ai/)).
-- **Technical feasibility:** [Inferred]: Claims about detecting routine changes require validation under home conditions; independent sensitivity, false-alert rates, and task-completion results: No public data found ([claimed functions, YC launch](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)).
-- **Connectivity dependency:** Calls, websites, family updates, and remote alerts require internet, and Rhem lacks cellular connectivity; some conversations can run locally ([Rhem FAQ](https://www.rhem.ai/)).
-- **Sensitive-data exposure:** Pre-delivery setup sends Wi-Fi credentials and welcome recordings to company storage accessible to authorized fulfillment staff; Rhem states that stored details are encrypted and can be removed before shipment preparation ([Rhem privacy policy, Oct 6, 2026](https://www.rhem.ai/privacy)).
+- **Reading accuracy:** Rhemy’s blood pressure and oxygen values are estimates, and Rhem positions the device for wellness use alongside existing medical equipment ([Rhem product FAQ](https://www.rhem.ai/)).
+- **Alert delivery:** Halo can miss falls or trigger false alerts, and family notifications depend on room coverage, power and internet connectivity, with chosen contacts responsible for arranging help ([Halo product page](https://www.rhem.ai/halo/order), [Rhem FAQ](https://www.rhem.ai/)).
+- **Sensitive-data exposure:** Family sharing syncs wellness history and some features send requests to external AI services, with access limited to approved contacts and controls for optional cloud features ([Rhem Privacy Policy, Oct 2026](https://www.rhem.ai/privacy)).
+- **Name ambiguity:** An Australian forensic-science firm also operates as RHEM Labs under rhemlabs.com.au, creating a risk of misattributing search results ([Australian RHEM Labs](https://www.rhemlabs.com.au/), [YC company profile](https://www.ycombinator.com/companies/rhem-labs)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Adjacent global elder-care assistive robots: $3.9B in 2026; 14.2% CAGR through 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/elder-care-assistive-robots-market-report)) |
+| TAM | $361.85M global elderly-care monitoring systems market in 2026, projected 6.74% CAGR to 2032 ([360iResearch, Jun 2026](https://www.360iresearch.com/library/intelligence/elderly-care-monitoring-system)) |
 | SAM | No public data found |
-| Traction | Product Hunt #15, 100 points; LinkedIn 603 followers ([Product Hunt](https://www.producthunt.com/products/rhem-labs), [LinkedIn](https://www.linkedin.com/company/rhem-labs/), accessed Oct 27, 2026) |
-| Revenue Signal | $99/month rental including service; realized revenue: No public data found ([Rhem FAQ, Oct 2026](https://www.rhem.ai/)) |
-| Founders | Jacob Shen, CEO: Berkeley robotics, prior Bridge co-founder; Huey Shen, CTO: embedded hardware and manufacturing ([Rhem team](https://www.rhem.ai/story)) |
-| Competitors | ElliQ ($85M equity, revenue unknown, proactive companion); Nobi ($52.52M, revenue unknown, smart lights); Vayyar (>$300M, revenue unknown, radar monitoring) ([Kanematsu](https://d11k6pweekc5r2.cloudfront.net/4fc335af47b5f95e26a8020ed3401146/common/archives/en/files/press/attach/20250909_release_en.pdf?1757028903=), [CB Insights, via search snippet](https://www.cbinsights.com/company/nobi-smart-lamps/financials), [Vayyar](https://vayyar.com/blog/vayyar/vayyar-wins-108m-series-e-funding)) |
-| Moat Signals | No public data found |
-| Risk Factors | Pending January 2027 shipments, internet-dependent remote alerts, server-stored setup credentials ([Rhem FAQ](https://www.rhem.ai/), [privacy policy](https://www.rhem.ai/privacy)) |
-| Founder Reach | Jacob: X 199 followers; Huey: No public data found ([Sotwe, accessed Oct 27, 2026](https://www.sotwe.com/jacobshenn?lang=tr)) |
-| Distribution Signals | Product Hunt launch; care-home demo and volume-pricing channel; marketing vacancy ([Product Hunt](https://www.producthunt.com/products/rhem-labs), [Rhem](https://www.rhem.ai/care-homes), [YC Jobs](https://www.ycombinator.com/companies/rhem-labs/jobs/TCR7cgZ-founding-creative-generalist), Oct 2026) |
-| Emails | support@rhem.ai, service@rhem.ai, cancel@rhem.ai, privacy@rhem.ai ([Rhem contact page](https://www.rhem.ai/contact)) |
+| Traction | October 6 preorder launch ([Jacob Shen via Teapawt, Oct 2026](https://www.teapawt.org/jacobshenn)); customer testimonial on blood-pressure tracking ([Rhem, Nov 2026](https://www.rhem.ai/)); $500K YC pre-seed reported ([TradedVC, Oct 2026](https://traded.co/vc/deal/rhem-labs-raises-500000-in-pre-seed-funding-from-y-combinator-to-develop-home-care-robotics/)), with a $125K seed entry reported separately ([Dealroom, Sep 2026](https://app.dealroom.co/companies/rhem_labs_1)); launch coverage ([Founderland, Oct 2026](https://www.founderland.ai/articles/rhem-labs-launches-ai-robot-for-aging-in-place-monitoring-muubjwe1)); one applied-AI opening ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/rhem-labs/jobs)) |
+| Revenue Signal | $99/month rental ([Rhem FAQ, Nov 2026](https://www.rhem.ai/)); $1,099 Founding Edition preorder at launch ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/Ug5-rhem-labs-health-assistant-robots-for-your-parents)); realized revenue: No public data found |
+| Founders | Jacob Shen (CEO), Berkeley AUTOLab and MattoBoard ([Rhem team](https://www.rhem.ai/story), [YC](https://www.ycombinator.com/companies/rhem-labs)); Huey Shen (CTO), WM Motor co-founder and Minnesota EMBA ([Standout](https://standout.work/companies/1965b243-078c-4c82-8fc7-31e4ace85deb), [University of Minnesota](https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2021-08/CGI21_YearinReview_Spreads.pdf)) |
+| Competitors | ElliQ ($83M raised, revenue unknown, companion robot) ([NTT DATA](https://nttdata-solutions.com/wp-content/usermedia/NTT-DATA-Technology-Foresight-2026-1.pdf), [ElliQ](https://elliq.com/)); Nobi (over €48M announced, revenue unknown, fall-detection lighting) ([Nobi 2022](https://nobi-smart-lamps.prezly.com/belgian-scale-up-nobi-acquires-an-investment-eur-13-million-for-international-expansion), [Nobi 2025](https://nobi-smart-lamps.prezly.com/nobi-smart-lights-secures-35-million-in-oversubscribed-series-b-funding)); Vayyar (over $300M raised, revenue unknown, room radar) ([Vayyar](https://www.vayyar.com/blog/vayyar/vayyar-wins-108m-series-e-funding/)); Sensi.AI (over $98M raised, revenue unknown, audio monitoring) ([Sensi.AI](https://www.sensi.ai/innovation-journey/)) |
+| Moat Signals | Onboard voice, vision and wellness processing ([Rhem Privacy Policy](https://www.rhem.ai/privacy)) |
+| Risk Factors | Wellness-reading accuracy and fall-alert coverage ([Rhem FAQ](https://www.rhem.ai/)), sensitive-data sharing ([Rhem Privacy Policy](https://www.rhem.ai/privacy)) |
+| Founder Reach | Jacob: 262 X followers ([Teapawt, Nov 2026](https://www.teapawt.org/jacobshenn)), 459 LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/jacobshenn)), 0 GitHub repo stars ([GitHub](https://github.com/jacobshenn/mockrhemchat)); Huey: 18K LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/freeman-shen-3868271a?originalSubdomain=cn)) |
+| Distribution Signals | Product Hunt #15 with 100 points ([Product Hunt, Oct 7, 2026](https://www.producthunt.com/products/rhem-labs)); 766 LinkedIn followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/rhem-labs)); 220 X followers ([Teapawt, Nov 2026](https://www.teapawt.org/rhem_labs)) |
+| Emails | support@rhem.ai (general inquiries and product emails), service@rhem.ai (orders, returns and warranty), cancel@rhem.ai (pre-dispatch cancellations), privacy@rhem.ai (personal data requests) ([Rhem Contact & Support](https://www.rhem.ai/contact), [Privacy Policy](https://www.rhem.ai/privacy)) |

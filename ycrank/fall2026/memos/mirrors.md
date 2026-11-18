@@ -1,79 +1,87 @@
 ﻿# Mirrors
 
-> Give AI agents the right context at the right moment
+> The guidance system for production AI agents
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.mirrors.dev |
 | YC Page | https://www.ycombinator.com/companies/mirrors |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/mirrors)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/mirrors)) |
 | Industry | B2B / B2B -> Engineering, Product and Design |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
-| Tags | AIOps, Developer Tools, SaaS, B2B, AI |
-| YC Partner | Andrew Miklas ([YC](https://www.ycombinator.com/companies/mirrors)) |
-| Emails | devs@runmirrors.com ([Mirrors](https://mirrors.dev/)); aryan.singhal2016@gmail.com ([founder website](https://www.aisinghal.com/)); aryan@profine.ai, prior-project address ([GitHub](https://github.com/ai-singhal)) |
+| Tags | Developer Tools, SaaS, B2B, Infrastructure, AI |
+| YC Partner | Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/mirrors)) |
+| Emails | aryan@profine.ai (Aryan Singhal’s Profine business address, [GitHub](https://github.com/ai-singhal)), aryan.singhal2016@gmail.com (Singhal’s published preferred contact, [founder site](https://www.aisinghal.com/)), devs@mirrors.dev (shared inquiries and privacy requests, [Mirrors Privacy Policy](https://mirrors.dev/privacy)), devs@runmirrors.com (shared launch inquiries, [Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance)) |
 
 ## The Idea
 
-- **Problem:** Engineering teams maintaining customer-facing agents repeatedly inspect failed traces and add exceptions to growing global prompts, making behavior improvement recurring engineering work ([YC](https://www.ycombinator.com/companies/mirrors)).
-- **Approach:** Engineers scope guidance to recurring situations, preview matches, and deliver reviewed context at runtime through an SDK integrated at the agent’s user-turn boundary ([Mirrors documentation](https://mirrors.dev/docs/llms.txt)).
-- **Differentiation:** Papaya turns trace-derived fixes into pull requests and Mem0 retrieves persistent conversational memories, whereas Mirrors routes reviewed, conditional guidance into existing agents ([Papaya](https://www.ycombinator.com/companies/papaya), [Mem0 research](https://arxiv.org/abs/2504.19413), [Mirrors documentation](https://mirrors.dev/docs/llms.txt)).
-- **Business Model:** Pricing is scoped around the customer’s workflow and use case through a demo conversation; no public price list or billing unit is published ([Mirrors FAQ](https://mirrors.dev/), accessed Oct 27, 2026).
-- **TAM/SAM:** AIMG estimates the broader context-layer software market at $8.3B in 2026, reaching $24.5B in 2030 at 31% CAGR, but this includes categories beyond Mirrors’ product and provides no Mirrors-specific SAM ([AIMG, Sep 2026](https://aimarkets.group/insights/from-8-3-billion-to-24-5-billion-why-context-is-becoming-enterprise-ais-most-valuable-layer/)).
-- **GTM / Distribution:** The website directs engineering teams to book a demo and bring traces from a workflow, supported by public integration documentation ([Mirrors](https://mirrors.dev/), [quickstart](https://mirrors.dev/docs/quickstart)).
+- **Problem:** Developers running customer-facing agents add recurring fixes to system prompts or skills, yet agents can still repeat troubleshooting steps or keep pitching an offer after a customer declines ([Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance), Oct 2026).
+- **Approach:** Developers scope a rule to an account or workflow, preview which past conversations it would have reached, deliver it to matching runs through the SDK, and compare outcomes with and without it ([Mirrors](https://mirrors.dev/), Nov 2026).
+- **Differentiation:** Mirrors delivers scoped rules during a live turn and measures their effect, LangSmith manages and versions prompts and context, and Papaya proposes trace-derived code changes for engineers to approve as pull requests ([Mirrors](https://mirrors.dev/), [LangSmith](https://www.langchain.com/resources/what-is-langsmith), [Papaya YC profile](https://www.ycombinator.com/companies/papaya)).
+- **Business Model:** Hobby includes 1,000 turns per month free, Growth costs $299 per month plus $0.005 per turn, and Enterprise offers custom volume pricing against a usage commitment ([Mirrors Pricing](https://mirrors.dev/#pricing), Nov 2026).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Mirrors offers self-serve signup, TypeScript and Python SDKs, and founder-led demos, and its YC launch invited developers to bring a failed run for review ([Mirrors](https://mirrors.dev/), [Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance), Oct–Nov 2026).
 
 ## Defensibility
 
 - **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Customer-specific guidance, routing conditions, and outcome histories could increase replacement costs, but public evidence of retention or accumulated proprietary datasets is unavailable.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given adjacent vendors already provide trace-based optimization and memory infrastructure ([Papaya](https://www.ycombinator.com/companies/papaya), [Mem0](https://arxiv.org/abs/2504.19413)).
-- **Commoditization risk:** [Inferred]: Agent-framework vendors and internal platform teams could implement conditional context delivery, although reproducing review, rollout, and measurement workflows would require additional engineering ([Mirrors documentation](https://mirrors.dev/docs/llms.txt)).
+- **Future moat:** [Inferred]: Account-specific rule histories and outcome comparisons could create switching costs if customers build up workflows around them, and portability and retention evidence would be needed to establish that effect ([Mirrors](https://mirrors.dev/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Teams using Strands Agents can implement conditional guidance with its existing steering hooks, while building their own rule preview and outcome measurement would require additional work ([Strands Agents](https://strandsagents.com/blog/steering-accuracy-beats-prompts-workflows/), [Mirrors](https://mirrors.dev/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Website displays **711,933 agent sessions**, without a measurement period, customer breakdown, or allocation between product versions ([Mirrors](https://mirrors.dev/), accessed Oct 27, 2026).
-  - $500,000 financing from YC dated September 1, 2026, reported by a funding database rather than a company announcement ([CB Insights](https://www.cbinsights.com/company/mirrors/financials), accessed Oct 27, 2026).
-  - Company LinkedIn page displays 170 followers ([LinkedIn](https://www.linkedin.com/company/runmirrors/), accessed Oct 27, 2026).
-  - Company X account @mirrorsdotdev displays 54 followers through a third-party mirror ([Teapawt](https://teapawt.org/mirrorsdotdev), accessed Oct 27, 2026).
-  - YC lists zero open jobs ([YC](https://www.ycombinator.com/companies/mirrors), accessed Oct 27, 2026).
-- **Product history:** Older YC listings describe production-session replay against reconstructed tools, while current documentation describes runtime context delivery; no dated transition announcement or separately attributable prior-product traction was found ([older YC listing](https://www.ycombinator.com/companies/industry/Infrastructure), [current documentation](https://mirrors.dev/docs/llms.txt)).
+  - 63,052 agent turns displayed by Mirrors, with the counting period unspecified ([Mirrors](https://mirrors.dev/), Nov 2026 snapshot).
+  - One disclosed design-partner example in which an agent hit 75 errors editing a travel guide despite the stop rule appearing four times in its prompt ([Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance), Oct 2026).
+  - 295 LinkedIn followers and 71 X followers at @mirrorsdotdev, with the X count from a mirrored profile ([LinkedIn](https://www.linkedin.com/company/runmirrors/), [Teapawt](https://xitter.gq/mirrorsdotdev), Nov 2026 snapshots).
+  - Zero jobs listed on YC’s platform ([YC Jobs](https://www.ycombinator.com/companies/mirrors/jobs), Nov 2026 snapshot).
+  - Launch YC on Oct 30, Python SDK release on Nov 6, and Show HN on Nov 16 with 1 point at the research snapshot ([Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance), [Reveneau](https://reveneau.com/ainews/mirrors-yc-fall-2026-recurring-agent-mistakes-targeted-corrections), [PyPI](https://pypi.org/project/mirrors-sdk/), [Hacker News](https://news.ycombinator.com/item?id=50519326), 2026).
+  - Coverage by Reveneau on Oct 30 and AgenticFeed on Nov 10 ([Reveneau](https://reveneau.com/ainews/mirrors-yc-fall-2026-recurring-agent-mistakes-targeted-corrections), [AgenticFeed](https://agenticfeed.io/mirrors-targets-recurring-ai-agent-mistakes/), 2026).
+  - Prior product, **Mirrors staging and regression testing**, reported initial pilots and a caught duplicate-refund bug by September, before the October launch of runtime guidance ([founder’s LinkedIn post](https://www.linkedin.com/posts/aisinghal_after-spending-the-summer-sleeping-in-the-activity-7503655741501657089-Ee0T), [Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance), 2026).
 - **Competitors:**
-  - **Papaya** (funding: No public data found; revenue unknown): analyzes production traces and ships approved optimization recommendations as pull requests, rather than routing guidance during conversations ([YC](https://www.ycombinator.com/companies/papaya)).
-  - **Mem0** ($24M announced funding; revenue unknown): provides persistent memory extraction and retrieval rather than engineer-authored situational corrections, with a $20M Series A led by Basis Set Ventures announced October 2025 ([funding breakdown](https://sacra.com/c/mem0/), [company announcement](https://www.prnewswire.com/news-releases/mem0-raises-24m-series-a-to-build-memory-layer-for-ai-agents-302597157.html), [research](https://arxiv.org/abs/2504.19413)).
-  - **Letta** ($10M disclosed seed funding; revenue unknown): develops agents that retain memories and improve themselves, rather than adding reviewed guidance to another team’s agent, with its disclosed seed led by Felicis in September 2024 ([company](https://www.letta.com/), [funding announcement](https://www.prnewswire.com/news-releases/berkeley-ai-research-lab-spinout-letta-raises-10m-seed-financing-led-by-felicis-to-build-ai-with-memory-302257004.html)).
-- **Why now:** [Inferred]: Production deployment creates demand for behavior correction, with 57.3% of respondents running production agents versus 51% in the preceding survey ([LangChain, Jun 2026; survey conducted Nov–Dec 2025](https://www.langchain.com/state-of-agent-engineering?trk=article-ssr-frontend-pulse_little-text-block)).
+  - **LangChain** ($460M raised, $12M–$16M ARR reported July 2025) manages versioned context and automates prompt and code fixes through LangSmith, with a $300M Series C led by CapitalG in November 2026 ([The Next Web](https://thenextweb.com/news/langchain-300m-series-c-3bn-valuation-capitalg-langsmith), [TechCrunch](https://techcrunch.com/2025/07/08/langchain-is-about-to-become-a-unicorn-sources-say/), [LangChain](https://www.langchain.com/blog/series-c)).
+  - **Braintrust** ($125M across announced financings, revenue unknown) traces and evaluates production outputs, with an $80M Series B led by ICONIQ in February 2026 ([Braintrust Series A](https://www.braintrust.dev/blog/announcing-series-a), [Braintrust Series B](https://www.braintrust.dev/blog/announcing-series-b)).
+  - **Portkey** ($18M raised, revenue unknown) applies guardrails at an AI gateway, with a $15M Series A led by Elevation Capital in February 2026 and acquisition by Palo Alto Networks in May 2026 ([Acquired](https://www.startupsacquired.com/deals/palo-alto-networks-acquires-portkey), [Portkey](https://portkey.ai/blog/series-a-funding/), [Palo Alto Networks](https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-completes-acquisition-portkey-secure-ai)).
+  - **Papaya** (YC-backed, funding amount and revenue unknown) turns trace-derived recommendations into approved pull requests ([Papaya YC profile](https://www.ycombinator.com/companies/papaya)).
+  - [Inferred]: The direct set is small because overlapping products act at different points, including code review, evaluation, or gateway enforcement, while Mirrors delivers scoped instructions during the turn ([Papaya YC profile](https://www.ycombinator.com/companies/papaya), [Braintrust](https://www.braintrust.dev/articles/how-to-eval), [Mirrors](https://mirrors.dev/)).
+- **Why now:** [Inferred]: Anthropic’s December 2025 release of Agent Skills as an open standard and adoption by more than 70 platforms by October 2026 expanded the use of on-demand agent instructions, creating a use case for developer-controlled delivery ([Anthropic](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation), [Mirrors FAQ](https://mirrors.dev/#faq)).
 
 ## Founders & Team
 
-- **Aryan Singhal (Founder/CEO):**
-  - Background: Studies artificial intelligence at Purdue, previously researched machine learning at UT Austin and UCSB, and previously built GPU-optimization project Profine, which his website says he no longer works on ([founder website](https://www.aisinghal.com/)).
-  - Twitter/X: @ai_singhal, 484 followers through a third-party mirror ([Teapawt](https://teapawt.org/ai_singhal), accessed Oct 27, 2026).
-  - LinkedIn: Public headline not retrievable; the indexed About section says “Building regression testing for AI agents at www.runmirrors.com” ([LinkedIn](https://www.linkedin.com/in/aisinghal), via search snippet, Oct 2026).
-  - GitHub: @ai-singhal; pinned prior-project repository ProfineAI/profine-cli has 18 stars, separate from Mirrors traction ([GitHub](https://github.com/ai-singhal), accessed Oct 27, 2026).
-- **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Singhal’s documented ML research includes language-model evaluation, and YC identifies four high-school AI/ML papers associated with NeurIPS and EMNLP, while YC is the publicly identified institutional backer ([founder website](https://www.aisinghal.com/), [YC](https://www.ycombinator.com/companies/mirrors)).
+- **Aryan Singhal (Co-founder and CEO):**
+  - **Background:** Studied AI at Purdue, researched ML at UT Austin and UC Santa Barbara, co-built Profine, and publishes aryan.singhal2016@gmail.com as his preferred contact and aryan@profine.ai on GitHub ([founder site](https://www.aisinghal.com/), [GitHub](https://github.com/ai-singhal)).
+  - **Twitter/X:** @ai_singhal, 558 followers ([Teapawt mirrored profile](https://xitter.gq/ai_singhal), Nov 2026 snapshot).
+  - **LinkedIn:** “Mirrors (YC F26)” in the public profile title, with 3K followers ([LinkedIn](https://www.linkedin.com/in/aisinghal), 2026 cached snapshot).
+  - **GitHub:** @ai-singhal, co-built `profine-cli`, 18 stars ([GitHub profile](https://github.com/ai-singhal), [repository](https://github.com/ProfineAI/profine-cli), Nov 2026).
+- **Aditya Gupta (Co-founder and CTO):**
+  - **Background:** Studied computer engineering at Purdue, previously worked at Recharm and MerQube, and built computer-vision and agent workflows ([YC founder profile](https://www.ycombinator.com/founders/aditya-gupta), [Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance)); direct business email: No public data found.
+  - **Twitter/X:** @idyeetya_, 9 followers ([Teapawt mirrored profile](https://teapawt.net/idyeetya_), Nov 2026 snapshot).
+  - **LinkedIn:** “Mirrors (YC F26)” in the public profile title, with 406 followers ([LinkedIn](https://www.linkedin.com/in/aditya-gupta-6a771a231), 2026 cached snapshot).
+  - **GitHub:** @idyeetya, co-built `profine-cli`, 18 stars ([GitHub profile](https://github.com/idyeetya), [founder’s Profine post](https://www.linkedin.com/posts/aisinghal_github-profineaiprofine-cli-profile-your-activity-7460066004388298752-z3Dy), [repository](https://github.com/ProfineAI/profine-cli), Nov 2026).
+- **Co-founder relationship:** Both studied at Purdue and built the PyTorch optimization tool Profine together ([YC company profile](https://www.ycombinator.com/companies/mirrors), [founder’s Profine post](https://www.linkedin.com/posts/aisinghal_github-profineaiprofine-cli-profile-your-activity-7460066004388298752-z3Dy)).
+- **Founder-market fit:** Singhal researched LLM failure modes and Gupta built agent workflows, and Y Combinator backs Mirrors with Andrew Miklas listed as primary partner ([YC company profile](https://www.ycombinator.com/companies/mirrors), [Mirrors](https://mirrors.dev/)).
 
 ## Key Risks
 
-- **Context misapplication:** [Inferred]: Incorrect matching could deliver inappropriate guidance into unrelated workflows; documented mitigations include reviewing matches before activation and using shadow or off modes ([Mirrors documentation](https://mirrors.dev/docs/llms.txt)).
-- **Runtime latency and delivery:** The SDK documents a total context-wait budget of 1,000 milliseconds and states that an accepted server decision does not establish application of context or agent success; shorter timeouts and local disabling are available ([SDK reference](https://mirrors.dev/docs/sdk/reference)).
-- **Effectiveness measurement:** [Inferred]: Session volume does not establish causal improvement, and Mirrors explicitly says illustrative workflows are not customer results or guarantees of avoiding mistakes ([website terms](https://mirrors.dev/terms)).
-- **Substitution:** [Inferred]: Teams could address overlapping needs through Papaya’s optimization pull requests or Mem0’s memory layer, reducing demand for a separate context-routing product ([Papaya](https://www.ycombinator.com/companies/papaya), [Mem0 research](https://arxiv.org/abs/2504.19413)).
+- **Rule adherence:** A model can disregard a delivered rule, and Mirrors lets developers compare outcomes on runs with and without that rule ([Mirrors FAQ](https://mirrors.dev/#faq)).
+- **Runtime dependency:** Mirrors reports a 200 ms average response time and a fail-open threshold of 750 ms, after which the agent proceeds without Mirrors’ rules ([Mirrors FAQ](https://mirrors.dev/#faq), Nov 2026).
+- **Native substitution:** [Inferred]: Strands steering hooks and LangChain middleware give engineering teams ways to implement runtime guidance inside frameworks they already use ([Strands Agents](https://strandsagents.com/blog/steering-accuracy-beats-prompts-workflows/), [LangChain](https://www.langchain.com/blog/three-years-langchain)).
+- **Name ambiguity:** [Inferred]: The similarly named Mirrors.social AI product can create search and attribution confusion, so company references can be verified against the mirrors.dev domain and YC profile ([Mirrors.social exhibitor profile](https://cdn-assets.inwink.com/094dd8fe-6acf-40d8-aea1-fbfbc95cf9a4/835878fa-ccb7-4d0f-a213-1c7e89238ee1), [YC company profile](https://www.ycombinator.com/companies/mirrors)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader context-layer proxy: $8.3B in 2026, $24.5B by 2030, 31% CAGR ([AIMG, Sep 2026](https://aimarkets.group/insights/from-8-3-billion-to-24-5-billion-why-context-is-becoming-enterprise-ais-most-valuable-layer/)). |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | Website displays 711,933 agent sessions, scope unspecified ([Mirrors, Oct 27, 2026](https://mirrors.dev/)); 170 LinkedIn followers ([LinkedIn, Oct 27, 2026](https://www.linkedin.com/company/runmirrors/)). |
-| Revenue Signal | Custom use-case pricing; no public price list ([Mirrors FAQ, Oct 2026](https://mirrors.dev/)). |
-| Founders | Aryan Singhal, CEO: Purdue AI studies; UT Austin/UCSB ML research ([founder website](https://www.aisinghal.com/)). |
-| Competitors | Papaya: funding unavailable, revenue unknown, optimization PRs ([YC](https://www.ycombinator.com/companies/papaya)); Mem0: $24M announced, revenue unknown, persistent memory ([Sacra](https://sacra.com/c/mem0/)); Letta: $10M disclosed seed, revenue unknown, learning agents ([announcement](https://www.prnewswire.com/news-releases/berkeley-ai-research-lab-spinout-letta-raises-10m-seed-financing-led-by-felicis-to-build-ai-with-memory-302257004.html), [company](https://www.letta.com/)). |
+| Traction | 63,052 company-reported agent turns ([Mirrors](https://mirrors.dev/), Nov 2026 snapshot), one disclosed design-partner example ([Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance), Oct 2026), initial pilots for the prior staging product ([founder’s LinkedIn post](https://www.linkedin.com/posts/aisinghal_after-spending-the-summer-sleeping-in-the-activity-7503655741501657089-Ee0T), Sep 2026) |
+| Revenue Signal | Hobby free for 1,000 turns per month, Growth $299 per month plus $0.005 per turn, Enterprise custom ([Mirrors Pricing](https://mirrors.dev/#pricing), Nov 2026). Realized revenue: No public data found. |
+| Founders | Aryan Singhal (CEO), Purdue AI and UT Austin/UC Santa Barbara ML research. Aditya Gupta (CTO), Purdue computer engineering and prior roles at Recharm and MerQube ([YC company profile](https://www.ycombinator.com/companies/mirrors), [Gupta’s YC profile](https://www.ycombinator.com/founders/aditya-gupta)). |
+| Competitors | LangChain ($460M raised, $12M–$16M ARR reported July 2025, versioned context and automated fixes) ([The Next Web](https://thenextweb.com/news/langchain-300m-series-c-3bn-valuation-capitalg-langsmith), [TechCrunch](https://techcrunch.com/2025/07/08/langchain-is-about-to-become-a-unicorn-sources-say/), [LangChain](https://www.langchain.com/blog/series-c)); Braintrust ($125M announced, revenue unknown, tracing and evals) ([Braintrust Series A](https://www.braintrust.dev/blog/announcing-series-a), [Braintrust Series B](https://www.braintrust.dev/blog/announcing-series-b)); Portkey ($18M raised, revenue unknown, gateway guardrails) ([Acquired](https://www.startupsacquired.com/deals/palo-alto-networks-acquires-portkey), [Palo Alto Networks](https://paloaltonetworks.gcs-web.com/news-releases/news-release-details/palo-alto-networks-completes-acquisition-portkey-secure-ai)); Papaya (funding amount and revenue unknown, trace-derived pull requests) ([Papaya YC profile](https://www.ycombinator.com/companies/papaya)). |
 | Moat Signals | No public data found |
-| Risk Factors | Context matching and rollout control ([documentation](https://mirrors.dev/docs/llms.txt)); runtime delivery limitations ([SDK](https://mirrors.dev/docs/sdk/reference)); illustrative results ([terms](https://mirrors.dev/terms)). |
-| Founder Reach | Aryan: X 484 followers ([Teapawt, Oct 2026](https://teapawt.org/ai_singhal)); LinkedIn approximately 3K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/aisinghal)); prior-project Profine CLI 18 stars ([GitHub, Oct 2026](https://github.com/ai-singhal)). |
-| Distribution Signals | Demo booking and developer documentation ([Mirrors](https://mirrors.dev/), [docs](https://mirrors.dev/docs)); company X 54 followers ([Teapawt, Oct 2026](https://teapawt.org/mirrorsdotdev)). |
-| Emails | devs@runmirrors.com ([Mirrors](https://mirrors.dev/)); aryan.singhal2016@gmail.com ([founder website](https://www.aisinghal.com/)); prior-project aryan@profine.ai ([GitHub](https://github.com/ai-singhal)). |
+| Risk Factors | Model adherence and fail-open delivery ([Mirrors FAQ](https://mirrors.dev/#faq)), framework-native steering ([Strands Agents](https://strandsagents.com/blog/steering-accuracy-beats-prompts-workflows/)). |
+| Founder Reach | Singhal: 558 X followers, 3K LinkedIn followers. Gupta: 9 X followers, 406 LinkedIn followers. Their shared Profine CLI has 18 GitHub stars ([Singhal X mirror](https://xitter.gq/ai_singhal), [Singhal LinkedIn](https://www.linkedin.com/in/aisinghal), [Gupta X mirror](https://teapawt.net/idyeetya_), [Gupta LinkedIn](https://www.linkedin.com/in/aditya-gupta-6a771a231), [GitHub](https://github.com/ProfineAI/profine-cli), 2026 snapshots). |
+| Distribution Signals | Launch YC (Oct 30), Python SDK on PyPI (Nov 6), Show HN (Nov 16), 295 LinkedIn and 71 X followers (Nov 2026 snapshots) ([Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance), [Reveneau](https://reveneau.com/ainews/mirrors-yc-fall-2026-recurring-agent-mistakes-targeted-corrections), [PyPI](https://pypi.org/project/mirrors-sdk/), [Hacker News](https://news.ycombinator.com/item?id=50519326), [LinkedIn](https://www.linkedin.com/company/runmirrors/), [X mirror](https://xitter.gq/mirrorsdotdev)). |
+| Emails | aryan@profine.ai (CEO’s Profine business address, [GitHub](https://github.com/ai-singhal)), aryan.singhal2016@gmail.com (CEO’s published preferred contact, [founder site](https://www.aisinghal.com/)), devs@mirrors.dev (shared inquiries and privacy, [Mirrors Privacy Policy](https://mirrors.dev/privacy)), devs@runmirrors.com (shared launch inquiries, [Launch YC](https://www.ycombinator.com/launches/WGV-mirrors-fix-recurring-ai-agent-mistakes-with-real-time-guidance)). |

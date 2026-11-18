@@ -1,17 +1,17 @@
 {
   "slug": "hundred",
   "name": "Hundred",
-  "oneLiner": "100% automated inspection for consumer electronics parts",
+  "oneLiner": "100% automated inspection for precision hardware parts",
   "metadata": {
     "website": "http://hundred.systems/",
     "yc_page": "https://www.ycombinator.com/companies/hundred",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/hundred))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/hundred))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Hardware, Machine Learning, Computer Vision, Industrial",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/hundred))",
-    "emails": "info@hundred.systems ([Hundred](https://hundred.systems/))"
+    "yc_partner": "Grey Baker ([YC company profile](https://www.ycombinator.com/companies/hundred))",
+    "emails": "info@hundred.systems, general inquiries ([Hundred website](https://hundred.systems/))"
   },
   "tags": [
     "Hard Tech",
@@ -21,63 +21,39 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:56:47.750Z",
+  "memoGeneratedAt": "2026-11-17T22:49:14.567Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
+    "agi": {
       "score": 32,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 30,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 30,
-    "NR": 41,
-    "PG": 40,
-    "PT": 32,
-    "SL": 30,
-    "VK": 27
+    "AGI": 32,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 34.14,
-  "consolidatedRank": 177,
+  "consolidatedAvg": 35,
+  "consolidatedRank": 207,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 47,
-    "tractionReason": "Deployments underway to three founding partners; payment status undisclosed"
+    "tractionRank": 225,
+    "tractionScore": 7,
+    "tractionReason": "Public launch, no disclosed inspection customers"
   },
   "paths": {
     "memo": "fall2026/memos/hundred.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/hundred.md",
-      "elad-gil": "fall2026/evals/elad-gil/hundred.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/hundred.md",
-      "paul-graham": "fall2026/evals/paul-graham/hundred.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/hundred.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/hundred.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/hundred.md"
+      "agi": "fall2026/evals/agi/hundred.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/hundred.md",
+      "exit": "fall2026/evals/exit/hundred.md"
     }
   }
 }

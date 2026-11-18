@@ -6,79 +6,80 @@
 |-------|-------|
 | Website | https://research.repovive.com |
 | YC Page | https://www.ycombinator.com/companies/repovive |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/repovive)) |
+| Batch | Fall 2026 ([YC Directory](https://www.ycombinator.com/companies/repovive)) |
 | Industry | B2B / B2B |
-| Team Size | 5 |
+| Team Size | 5 ([YC Directory](https://www.ycombinator.com/companies/repovive)) |
 | Location | San Francisco, CA, USA |
 | Tags | B2B, Data Science, AI |
-| YC Partner | Christopher Golda ([YC](https://www.ycombinator.com/companies/repovive)) |
-| Emails | schjahan@umd.edu — Shayan, academic contact ([UMD](https://www.cs.umd.edu/people/schjahan)); support@repovive.com — extension support ([Repovive privacy policy](https://repovive.com/privacy-extension)) |
+| YC Partner | Christopher Golda ([YC Directory](https://www.ycombinator.com/companies/repovive)) |
+| Emails | founders@repovive.com, shared lab inquiries and sample requests ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software)), support@repovive.com, competitive-programming extension support ([Repovive Extension Privacy Policy](https://repovive.com/privacy-extension)) |
 
 ## The Idea
 
-- **Problem:** AI labs need training material for machine-checkable reasoning, where scarce formal-verification data and precise specifications constrain approaches based on plausible code generation and testing ([Tan, May 2026](https://arxiv.org/abs/2605.30914)).
-- **Approach:** Repovive supplies formalization reinforcement-learning environments to AI labs and describes its research product as a Lean theorem solver ([YC](https://www.ycombinator.com/companies/repovive), [Repovive website](https://repovive.com/)).
-- **Differentiation:** Repovive’s disclosed commercial work supplies lab-training environments, whereas Harmonic’s Aristotle verifies software and hardware and &Truth develops a code-verification engine ([YC](https://www.ycombinator.com/companies/repovive), [Harmonic](https://www.harmonic.fun/news/aristotle-software-hardware-verification/), [&Truth](https://andtruth.com/mission/)).
-- **Business Model:** [Inferred]: Bespoke contracts for formalization environments and coding data are the monetization path suggested by its disclosed agreements; public pricing schedule: No public data found ([YC](https://www.ycombinator.com/companies/repovive)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** [Inferred]: Programming contests provide an expert-recruitment channel, with educational/community tools documented in December 2025 and lab-facing verification work disclosed by November 2026; exact pivot date: No public data found ([Repovive blog](https://repovive.com/blog/p-1fa9b3-repovive-map), [YC](https://www.ycombinator.com/companies/repovive)).
+- **Problem:** Chip and critical-software teams often use tests that cover selected scenarios because writing formal proofs requires specialized manual work, leaving gaps where defects can go undetected. ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software))
+- **Approach:** Repovive supplies AI labs with non-public Lean tasks, machine-checked reference proofs, and reinforcement learning environments for model training and evaluation. ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software))
+- **Differentiation:** Repovive packages private tasks in training environments, Reinforce Labs catalogs paired natural-language statements and checked Lean proofs, Harmonic’s Aristotle verifies C and Verilog directly, and Axiom Math develops its own Lean prover. ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software), [Reinforce Labs Datasets](https://www.reinforcelabs.ai/data), [Harmonic](https://www.harmonic.fun/news/aristotle-software-hardware-verification/), [Axiom Math](https://axiommath.ai/fundraising/))
+- **Business Model:** [Inferred]: Contract-based sales to AI labs are the monetization path indicated by the disclosed environment agreements, with public pricing unavailable and the research subdomain returning a 403 (“Website not accessible at time of research”). ([YC Directory](https://www.ycombinator.com/companies/repovive), [Repovive Research](https://research.repovive.com))
+- **TAM/SAM:** Meticulous Research estimates the broader AI-assisted formal verification market at $300–500M in 2026 with 28% projected annual growth through 2034, and no public SAM was found for Lean training data and environments. ([Meticulous Research, Nov 2026](https://www.meticulousresearch.com/meticulous-next/ai-assisted-formal-verification-outlook-2026-2034))
+- **GTM / Distribution:** The founders solicit introductions to AI lab post-training teams through Launch YC and offer sample Lean tasks through their shared inbox. ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software))
 
 ## Defensibility
 
-- **Moat today:** Repovive reports a community of 12,000 IMO, IOI and ICPC medalists, providing an identified expert-sourcing asset; exclusivity: No public data found ([YC, retrieved November 15, 2026](https://www.ycombinator.com/companies/repovive)).
-- **Future moat:** [Inferred]: Repeated expert contributions could accumulate differentiated formalization tasks and training trajectories, but exclusive rights and sustained model improvements remain undocumented.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given that competitors also build on the open-source Lean ecosystem ([&Truth mission](https://andtruth.com/mission/)).
-- **Commoditization risk:** Academic researchers demonstrate verifier-guided reinforcement learning using open-source models, making the underlying approach available outside Repovive; equivalent dataset quality and reproduction cost are unknown ([Tan, May 2026](https://arxiv.org/abs/2605.30914)).
+- **Moat today:** Repovive describes its Lean tasks as non-public and reports a community of 12,000 competition participants, with inconsistent descriptions of medalist status across public disclosures. ([YC Directory](https://www.ycombinator.com/companies/repovive), [Shayan Chashm Jahan launch post, Nov 2026](https://teapawt.org/ShayanCJahan/status/2122451780026122474))
+- **Future moat:** [Inferred]: Recurring contributions from contest participants could replenish private evaluation sets, but contributor participation and exclusivity are undisclosed. ([Repovive Contests](https://repovive.com/contests), [Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software))
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Labs can use LeanDojo’s open training environment and proof datasets, and Reinforce Labs already offers type-checked Lean proof data. ([LeanDojo](https://leandojo.org/leandojo), [Reinforce Labs Datasets](https://www.reinforcelabs.ai/data))
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported expert community: 12,000 medalists, distinct from paying verification customers ([YC, retrieved November 15, 2026](https://www.ycombinator.com/companies/repovive)).
-  - Internal formalization experiment: founder reports an 8.3-percentage-point pass-rate gain with GRPO on Leanstral 1.5, with benchmark publication pending ([Repovive LinkedIn, retrieved November 15, 2026](https://www.linkedin.com/company/repoviveinc/)).
-  - Company LinkedIn: 1,569 followers ([LinkedIn, retrieved November 15, 2026](https://www.linkedin.com/company/repoviveinc/)).
-  - Company X account @repovive: 72 followers in a mirrored profile snapshot ([Teapawt, retrieved November 15, 2026](https://teapawt.org/repovive)).
-  - Earlier product—Repovive Competitive Programming extension: archived 879 installs and 4.91/5 from 11 ratings; delisted August 21, 2026 ([Extpose](https://extpose.com/ext/dgpbaoocbmidlfchoplgcjeelbihjeoi)).
-  - Community distribution: Cognition sponsored the November 1, 2026 programming contest with $1,850 in Devin rewards, separate from verification-product sales ([Repovive organizer on Codeforces](https://codeforces.com/blog/AmShZ)).
+  - $100K in signed contracts across two formalization environments, with a separate $200K letter of intent for broader coding data ([YC Directory, Nov 2026](https://www.ycombinator.com/companies/repovive)).
+  - Formal-verification launch announcement on November 16, 2026 ([founder’s X post, archived by Teapawt](https://teapawt.org/ShayanCJahan/status/2122451780026122474)).
+  - 12,000 competition participants in the reported community ([founder’s X post, Nov 2026](https://teapawt.org/ShayanCJahan/status/2122451780026122474)).
+  - 1,621 company LinkedIn followers ([Repovive LinkedIn, Nov 2026 snapshot](https://www.linkedin.com/company/repoviveinc/)).
+  - Zero active YC job listings ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/repovive/jobs)).
+  - Earlier Repovive competitive-programming platform, publicly running contests by December 2025 and reporting 10,000 users in fall 2026 ([Repovive Opening Round](https://repovive.com/contests/0), [founder LinkedIn post via search snippet](https://www.linkedin.com/in/gagan-singh-a568273)).
+  - Earlier Repovive Competitive Programming Chrome extension, 879 users and a 4.91 rating from 11 reviews in its final archived snapshot, dated August 21, 2026 ([Chrome-Stats](https://chrome-stats.com/d/dgpbaoocbmidlfchoplgcjeelbihjeoi?hl=pt)).
+  - Cognition sponsored prizes for the competitive-programming platform’s November 1 contest ([Repovive contest announcement on Codeforces, Nov 2026](https://codeforces.com/blog/entry/158321?locale=en)).
 - **Competitors:**
-  - **Harmonic** ($295M across disclosed rounds; revenue unknown): operates Aristotle for C/Verilog verification, versus Repovive’s disclosed training-environment contracts; latest disclosed round was $120M Series C, November 2025, led by Ribbit Capital ([Harmonic Series A](https://www.harmonic.fun/news/series-a/), [Series C and preceding rounds](https://www.harmonic.fun/news/series-c/), [product](https://www.harmonic.fun/news/aristotle-software-hardware-verification/)).
-  - **Axiom Math** ($264M across disclosed rounds; revenue unknown): develops formal-mathematics systems extending into code, cryptography and finance; latest disclosed round was $200M Series A, March 2026, led by Menlo Ventures ([Axiom fundraising](https://axiommath.ai/fundraising/)).
-  - **&Truth** ($70M seed; revenue unknown): builds independently checkable software-verification machinery rather than primarily supplying lab-training environments; announced October 2026, with lead investor undisclosed ([company announcement](https://www.businesswire.com/news/home/20261029287395/en/Truth-Emerges-From-Stealth-Pioneering-the-Universal-Verification-Machine-for-Code)).
-- **Why now:** [Inferred]: Reinforcement learning against machine-checkable verifier feedback supplies a concrete technical catalyst, with May 2026 research demonstrating improvements while identifying specification-hacking limitations ([Tan](https://arxiv.org/abs/2605.30914)).
+  - **Reinforce Labs** (total raised undisclosed, revenue unknown) offers cataloged Lean datasets and broader AI evaluation tools, with Peak XV’s Surge listing it in its September 2026 seed cohort and no round size or lead disclosed. ([Reinforce Labs Datasets](https://www.reinforcelabs.ai/data), [Peak XV Surge](https://surge.peakxv.com/companies/reinforce-labs), [Caplight](https://www.caplight.com/company/reinforcelabs))
+  - **Harmonic** ($295M across announced rounds, revenue unknown) offers direct software and hardware verification through Aristotle and announced a $120M Series C led by Ribbit Capital in November 2025. ([Harmonic Series C](https://www.harmonic.fun/news/series-c/), [Series B](https://www.harmonic.fun/news/series-b/), [Series A](https://www.harmonic.fun/news/series-a/), [Aristotle](https://www.harmonic.fun/news/aristotle-software-hardware-verification/))
+  - **Axiom Math** ($264M across announced rounds, revenue unknown) develops its own prover and formalizes research mathematics, with a $200M Series A led by Menlo Ventures in March 2026. ([Axiom Fundraising](https://axiommath.ai/fundraising/), [Axiom Formalizations](https://axiommath.ai/formalizations/))
+- **Why now:** [Inferred]: Anthropic’s September 2026 Lean formalization of Fermat’s Last Theorem showed that model-driven proof generation can handle research-scale work, adding a use case for training and evaluation on machine-checkable proofs. ([Anthropic, Sep 2026](https://www.anthropic.com/research/formalizing-fermats-last-theorem))
 
 ## Founders & Team
 
 - **Shayan Chashm Jahan (Founder/CEO):**
-  - Background: UMD lists him as a PhD student, while his YC profile reports Lean-verified dataset work, NeurIPS/ICLR publications and ICPC participation; published academic email: schjahan@umd.edu; Repovive-specific direct email: No public data found ([UMD](https://www.cs.umd.edu/people/schjahan), [YC founder profile](https://www.ycombinator.com/founders/shayan-chashm-jahan)).
-  - Twitter/X: @ShayanCJahan; count not retrievable from X ([YC-linked account](https://www.ycombinator.com/founders/shayan-chashm-jahan)).
-  - LinkedIn: headline: No public data found; profile reports 10K followers and describes pursuing a theoretical-computer-science PhD ([LinkedIn, retrieved November 15, 2026, via search snippet](https://www.linkedin.com/in/shayan-chashm-jahan-32b4a2216)).
-  - GitHub: No public repos found.
+  - **Background:** University of Maryland computer science PhD student and Sharif alumnus who built Lean-verified datasets for AI labs, competed at the ICPC World Finals, and previously worked at Axal. UMD lists `schjahan@umd.edu` for academic correspondence, and no direct Repovive business email was found. ([YC founder profile](https://www.ycombinator.com/founders/shayan-chashm-jahan), [UMD](https://www.cs.umd.edu/people/schjahan), [Lacuna](https://lacuna.tiptreesystems.com/author/shayan-chashm-jahan))
+  - **Twitter/X:** @ShayanCJahan, 720 followers in the mirrored snapshot ([YC founder profile](https://www.ycombinator.com/founders/shayan-chashm-jahan), [Sotwe, checked Nov 2026](https://www.sotwe.com/ShayanCJahan?lang=tr)).
+  - **LinkedIn:** Headline unavailable, with approximately 10K followers visible ([LinkedIn, via search snippet](https://www.linkedin.com/in/shayan-chashm-jahan-32b4a2216)).
+  - **GitHub:** No public repos found.
 - **Amir Mostafavi (Founder/CPO):**
-  - Background: Previously worked at Google and YouTube, including Gemini post-training for Home and YouTube Shorts, with an MS in Human-Computer Interaction and BS in Computer Science from UT Austin; direct business email: No public data found ([YC founder profile](https://www.ycombinator.com/founders/amir-mostafavi)).
-  - Twitter/X: @amirmstai, identified as “Amir | Repovive (YC F’26)” in the CEO’s mirrored timeline; count not retrievable ([Sotwe](https://www.sotwe.com/ShayanCJahan?lang=tr)).
-  - LinkedIn: YC links [amirrmostafavi](https://www.linkedin.com/in/amirrmostafavi/); headline and follower count: No public data found ([YC founder profile](https://www.ycombinator.com/founders/amir-mostafavi)).
-  - GitHub: No public repos found.
+  - **Background:** UT Austin CS bachelor’s and HCI master’s graduate who led work on Gemini post-training for Google Home and on YouTube Shorts, and previously launched ELU. No public direct Repovive business email found. ([YC founder profile](https://www.ycombinator.com/founders/amir-mostafavi), [ELU Product Hunt launch](https://www.producthunt.com/products/elu-2))
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** YC links to his profile, but the headline was inaccessible. ([YC founder profile](https://www.ycombinator.com/founders/amir-mostafavi), [LinkedIn profile](https://www.linkedin.com/in/amirrmostafavi/))
+  - **GitHub:** @Amirmst, with one star on `complaints-classification` ([GitHub, Nov 2026](https://github.com/Amirmst/complaints-classification)).
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Shayan documents formal-proof dataset work and Amir documents model post-training experience, connecting their histories to the stated product ([Shayan’s YC profile](https://www.ycombinator.com/founders/shayan-chashm-jahan), [Amir’s YC profile](https://www.ycombinator.com/founders/amir-mostafavi)).
+- **Founder-market fit:** Chashm Jahan’s Lean dataset work and Mostafavi’s Gemini post-training experience match the team’s lab-facing product, and the founder’s launch announcement reports backing from individuals affiliated with OpenAI, Anthropic, xAI, and Cognition. ([YC founder profiles](https://www.ycombinator.com/companies/repovive), [founder’s launch post, Nov 2026](https://teapawt.org/ShayanCJahan/status/2122451780026122474))
 
 ## Key Risks
 
-- **Production transfer:** [Inferred]: Gains on an unpublished formalization benchmark may not establish performance on production chips or critical software; the founder reports benchmark publication as pending, and the research website was not accessible at time of research ([LinkedIn](https://www.linkedin.com/company/repoviveinc/), [research website](https://research.repovive.com)).
-- **Specification correctness:** [Inferred]: Verifier acceptance can reward inadequate specifications rather than intended behavior, a failure demonstrated in formal-verification RL research ([Tan, May 2026](https://arxiv.org/abs/2605.30914)).
-- **LOI conversion:** [Inferred]: The broader coding-data opportunity depends on converting the disclosed LOI into a contract and payment ([YC](https://www.ycombinator.com/companies/repovive)).
-- **Historical distribution dependency:** [Inferred]: Extension delisting removes an earlier acquisition channel, although browser-based contests remain available ([Extpose](https://extpose.com/ext/dgpbaoocbmidlfchoplgcjeelbihjeoi), [Repovive](https://repovive.com/)).
+- **Technical feasibility:** A machine-checked proof establishes the specified property, so deployment on chips or critical software also requires specifications that capture the intended behavior. ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software), [Anthropic, Oct 2026](https://www.anthropic.com/research/formal-verification))
+- **Lab insourcing:** [Inferred]: Prospective lab buyers can build verification infrastructure internally, as shown by Google DeepMind’s AlphaProof Code research. ([Google DeepMind, Nov 2026](https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf))
+- **End-market overlap:** [Inferred]: Harmonic’s shipped C and Verilog verification product could compete for the same end users as Repovive’s planned proof-generation system. ([Harmonic, Oct 2026](https://www.harmonic.fun/news/aristotle-software-hardware-verification/), [Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software))
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $300–500M broader AI-assisted formal verification market in 2026, 28% projected CAGR through 2034 ([Meticulous Research, Nov 2026](https://www.meticulousresearch.com/meticulous-next/ai-assisted-formal-verification-outlook-2026-2034)) |
 | SAM | No public data found |
-| Traction | 12,000-person medalist community ([YC, November 2026](https://www.ycombinator.com/companies/repovive)); internal formalization pass-rate improvement of 8.3 percentage points ([Repovive LinkedIn, November 2026](https://www.linkedin.com/company/repoviveinc/)) |
-| Revenue Signal | Company reports $100K in contracts across two formalization RL environments and a separate $200K LOI for coding data; recognized revenue and cash collected: No public data found ([YC, November 2026](https://www.ycombinator.com/companies/repovive)) |
-| Founders | Shayan Chashm Jahan, CEO: UMD PhD student, Lean dataset experience ([UMD](https://www.cs.umd.edu/people/schjahan), [YC](https://www.ycombinator.com/founders/shayan-chashm-jahan)); Amir Mostafavi, CPO: Google/YouTube, UT Austin MS/BS ([YC](https://www.ycombinator.com/founders/amir-mostafavi)) |
-| Competitors | Harmonic ($295M disclosed rounds, revenue unknown, Aristotle verification) ([Harmonic](https://www.harmonic.fun/news/series-c/), [Series A](https://www.harmonic.fun/news/series-a/)); Axiom ($264M, revenue unknown, formal-mathematics systems) ([Axiom](https://axiommath.ai/fundraising/)); &Truth ($70M, revenue unknown, software-verification engine) ([&Truth](https://andtruth.com/mission/)) |
-| Moat Signals | Reported medalist community ([YC](https://www.ycombinator.com/companies/repovive)) |
-| Risk Factors | Benchmark publication pending ([LinkedIn](https://www.linkedin.com/company/repoviveinc/)); specification hacking in related research ([Tan](https://arxiv.org/abs/2605.30914)); historical extension delisting ([Extpose](https://extpose.com/ext/dgpbaoocbmidlfchoplgcjeelbihjeoi)) |
-| Founder Reach | Shayan: LinkedIn 10K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/shayan-chashm-jahan-32b4a2216)); YouTube 33,000 subscribers and 1M+ views, self-reported ([YC founder profile](https://www.ycombinator.com/founders/shayan-chashm-jahan)) |
-| Distribution Signals | Earlier programming extension: 879 installs, 4.91/5, 11 ratings, archived/delisted August 2026 ([Extpose](https://extpose.com/ext/dgpbaoocbmidlfchoplgcjeelbihjeoi)); company LinkedIn 1,569 followers ([LinkedIn, November 2026](https://www.linkedin.com/company/repoviveinc/)) |
-| Emails | schjahan@umd.edu — CEO’s academic contact ([UMD](https://www.cs.umd.edu/people/schjahan)); support@repovive.com — extension support ([Repovive privacy policy](https://repovive.com/privacy-extension)) |
+| Traction | 12,000 reported competition-community participants ([founder’s launch post, Nov 2026](https://teapawt.org/ShayanCJahan/status/2122451780026122474)); 10,000 users on the earlier competitive-programming platform ([founder LinkedIn post, fall 2026, via search snippet](https://www.linkedin.com/in/gagan-singh-a568273)) |
+| Revenue Signal | $100K in signed contracts across two formalization environments and a separate $200K coding-data LOI ([YC Directory, Nov 2026](https://www.ycombinator.com/companies/repovive)) |
+| Founders | Shayan Chashm Jahan (CEO), UMD CS PhD student, ICPC World Finalist, Lean datasets; Amir Mostafavi (CPO), UT Austin HCI master’s, Google Home and YouTube ([YC founder profiles](https://www.ycombinator.com/companies/repovive), [UMD](https://www.cs.umd.edu/people/schjahan)) |
+| Competitors | Reinforce Labs (funding undisclosed, revenue unknown, Lean datasets) ([Reinforce Labs](https://www.reinforcelabs.ai/data), [Caplight](https://www.caplight.com/company/reinforcelabs)); Harmonic ($295M announced, revenue unknown, C and Verilog verification) ([Harmonic newsroom](https://www.harmonic.fun/news/)); Axiom Math ($264M announced, revenue unknown, proprietary prover) ([Axiom Fundraising](https://axiommath.ai/fundraising/)) |
+| Moat Signals | Non-public Lean task sets with formally verified reference proofs ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software)) |
+| Risk Factors | Specification fidelity, in-house lab verification, overlap with shipped C and Verilog tools ([Anthropic](https://www.anthropic.com/research/formal-verification), [Google DeepMind](https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf), [Harmonic](https://www.harmonic.fun/news/aristotle-software-hardware-verification/)) |
+| Founder Reach | Shayan Chashm Jahan, 720 X followers ([Sotwe](https://www.sotwe.com/ShayanCJahan?lang=tr)), about 10K LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/shayan-chashm-jahan-32b4a2216)), 33K YouTube subscribers and 1M+ views ([YC founder profile](https://www.ycombinator.com/founders/shayan-chashm-jahan)); Amir Mostafavi, one star on `complaints-classification` ([GitHub](https://github.com/Amirmst/complaints-classification)) |
+| Distribution Signals | Lab introductions and Lean samples ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software)); 1,621 LinkedIn followers ([Repovive LinkedIn, Nov 2026](https://www.linkedin.com/company/repoviveinc/)); 879 users of the earlier Chrome extension ([Chrome-Stats, Aug 2026](https://chrome-stats.com/d/dgpbaoocbmidlfchoplgcjeelbihjeoi?hl=pt)) |
+| Emails | founders@repovive.com, shared lab inquiries and sample requests ([Launch YC](https://www.ycombinator.com/launches/XVi-repovive-enabling-ai-to-formally-verify-chips-and-critical-software)); support@repovive.com, competitive-programming extension support ([Repovive Extension Privacy Policy](https://repovive.com/privacy-extension)) |

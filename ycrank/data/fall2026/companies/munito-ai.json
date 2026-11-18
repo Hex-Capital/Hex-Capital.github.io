@@ -8,10 +8,10 @@
     "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/munito-ai))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "1",
-    "location": "Paris, ?le-de-France, France; Remote",
+    "location": "Paris, Île-de-France, France; Remote",
     "tags": "Enterprise, Infrastructure, AI",
     "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/munito-ai))",
-    "emails": "support@munito.ai ([website](https://munito.ai)); founders@munito.ai ([YC](https://www.ycombinator.com/companies/munito-ai)); hello@munito.ai ([company documentation](https://docs.munito.ai/company)); security@munito.ai ([trust center](https://trust.munito.ai)); legal@munito.ai ([legal notice](https://legal.munito.ai/notice))"
+    "emails": "founders@munito.ai for founder and model requests ([Launch YC](https://www.ycombinator.com/launches/WJe-munito-ai-open-model-inference-provider-for-europe-private-by-default)), hello@munito.ai for contracts ([Munito Docs](https://docs.munito.ai/company)), support@munito.ai for support ([Munito](https://munito.ai/)), legal@munito.ai for privacy and legal notices ([Munito Privacy Policy](https://legal.munito.ai/privacy)), security@munito.ai for security reports ([Munito Trust Center](https://trust.munito.ai/))"
   },
   "tags": [
     "Enterprise",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:06:01.163Z",
+  "memoGeneratedAt": "2026-11-18T00:09:34.840Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 28,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 28,
-    "NR": 48,
-    "PG": 41,
-    "PT": 27,
-    "SL": 32,
-    "VK": 22
+    "AGI": 38,
+    "HG": 39,
+    "EXIT": 36
   },
-  "consolidatedAvg": 34.29,
-  "consolidatedRank": 176,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 20,
-    "tractionReason": "Free and paid tiers launched; usage and revenue undisclosed"
+    "tractionRank": 124,
+    "tractionScore": 39,
+    "tractionReason": "Live inference integrations with Opper AI and RouterPlus"
   },
   "paths": {
     "memo": "fall2026/memos/munito-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/munito-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/munito-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/munito-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/munito-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/munito-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/munito-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/munito-ai.md"
+      "agi": "fall2026/evals/agi/munito-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/munito-ai.md",
+      "exit": "fall2026/evals/exit/munito-ai.md"
     }
   }
 }

@@ -6,75 +6,77 @@
 |-------|-------|
 | Website | https://www.keresaero.com/ |
 | YC Page | https://www.ycombinator.com/companies/keres |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/keres)) |
+| Batch | Fall 2026 |
 | Industry | Industrials / Industrials -> Defense |
 | Team Size | 3 |
 | Location | Denver, CO, USA |
 | Tags | Airplanes, Aerospace, Defense |
-| YC Partner | Pete Koomen ([YC](https://www.ycombinator.com/companies/keres)) |
-| Emails | parker@keresaero.com ([company website](https://www.keresaero.com/)) |
+| YC Partner | Pete Koomen |
+| Emails | parker@keresaero.com, CEO and general inquiries ([Keres website](https://www.keresaero.com/)) |
 
 ## The Idea
 
-- **Problem:** Military air-defense operators face interceptor inventory depletion and unfavorable engagement costs when countering drones, with existing missiles among the alternatives ([Defense Innovation Unit, 2025](https://www.diu.mil/latest/two-companies-selected-to-support-dius-counter-unmanned-aerial-systems-next)).
-- **Approach:** Keres describes Garmur as an unmanned jet that launches on cue, identifies and destroys drones or cruise missiles, then lands for reuse ([YC](https://www.ycombinator.com/companies/keres)).
-- **Differentiation:** Keres proposes recovery after destroying a target, whereas Anduril’s Roadrunner-M returns when an engagement does not require destruction and Fortem’s DroneHunter captures targets with nets ([YC](https://www.ycombinator.com/companies/keres); [Anduril](https://www.anduril.com/news/anduril-unveils-roadrunner-and-roadrunner-m); [Fortem](https://fortemtech.com/products/dronehunter-f700/)).
-- **Business Model:** [Inferred]: Aircraft sales and maintenance support are possible monetization paths for reusable military aircraft; pricing: No public data found.
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; broader global counter-UAS spending is forecast at $12.6B in 2026, reaching $24.1B by 2030 at approximately 18% CAGR ([Unmanned Airspace, June 2026, via search snippet](https://www.unmannedairspace.info/counter-uas-systems-and-policies/global-spending-on-counter-uas-systems-reach-usd12-6-billion-this-year/)).
-- **GTM / Distribution:** [Inferred]: Direct engagement with U.S. military buyers is consistent with the company’s stated U.S. tactical-airpower focus and email contact channel ([company website](https://www.keresaero.com/)).
+- **Problem:** Military commanders defending personnel and installations against drones face a cost tradeoff when using expendable interceptors or crewed aircraft against lower-cost threats ([Congressional Budget Office, Jul 2026](https://www.cbo.gov/publication/62262), [YC company profile](https://www.ycombinator.com/companies/keres)).
+- **Approach:** Keres describes Garmur as an uncrewed jet designed to intercept drones and cruise missiles, then return for reuse ([YC company profile](https://www.ycombinator.com/companies/keres)).
+- **Differentiation:** Keres describes recovery after an intercept, Anduril’s Roadrunner-M can be recovered when unused, Fortem’s DroneHunter captures drones with nets, and Cambridge Aerospace supplies the Skyhammer interceptor missile ([YC](https://www.ycombinator.com/companies/keres), [Anduril](https://www.anduril.com/news/anduril-unveils-roadrunner-and-roadrunner-m), [Fortem](https://fortemtech.com/products/dronehunter-f700/), [UK Ministry of Defence, Apr 2026](https://www.gov.uk/government/news/uk-start-up-to-supply-interceptor-missiles-to-uk-military-and-gulf-partners)).
+- **Business Model:** [Inferred]: Government hardware sales are a possible revenue path given the military buyer Keres identifies and the UK’s announced purchase of a comparable interceptor ([YC](https://www.ycombinator.com/companies/keres), [UK Ministry of Defence, Apr 2026](https://www.gov.uk/government/news/uk-start-up-to-supply-interceptor-missiles-to-uk-military-and-gulf-partners)).
+- **TAM/SAM:** Fortune Business Insights estimates the broader global counter-UAS market at $14.41B in 2026 and forecasts 22.4% annual growth through 2034, with no public TAM/SAM data found for reusable jet interceptors specifically ([Fortune Business Insights, 2026](https://www.fortunebusinessinsights.com/counter-uas-market-111906)).
+- **GTM / Distribution:** The July 2026 OASW SO/LIC Accelerator gave Keres a venue to present to U.S. defense operators and acquisition officials, and the organizer subsequently listed Keres as an awardee ([Accelerator event](https://webtest.iwtsd.gov/IndustryDay), [organizer’s awardee announcement, Oct 2026](https://www.teapawt.org/OSS_DOW/status/2107916350631088445)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Repeated interception and recovery missions could generate proprietary flight-control, reliability, and maintenance data, but public evidence of that accumulated dataset was not found.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage.
-- **Commoditization risk:** Anduril already markets a reusable turbojet platform and Fortem markets autonomous capture aircraft, demonstrating existing competing capabilities without establishing how easily Garmur’s proposed post-engagement recovery could be replicated ([Anduril](https://www.anduril.com/roadrunner); [Fortem](https://fortemtech.com/products/dronehunter-f700/)).
+- **Moat today:** No defensibility signals found in public sources ([C-UAS Index, Oct 2026](https://cuas.minipax.tech/en/companies/keres-inc)).
+- **Future moat:** [Inferred]: A record of repeat flights and maintenance costs could differentiate Garmur in procurement, but public evidence of a completed intercept-and-recovery demonstration remains unavailable ([C-UAS Index, Oct 2026](https://cuas.minipax.tech/en/companies/keres-inc)).
+- **Market structure:** No structural barrier identified at this stage ([Anduril Roadrunner](https://www.anduril.com/roadrunner), [Fortem procurement announcement, Jan 2026](https://fortemtech.com/press-releases/2026-01-14-fortem-technologies-welcomes-jiatf-401-s-selection-of-dronehunter-as-first-replicator-2-purchase/)).
+- **Commoditization risk:** Buyers already have alternatives in recoverable aircraft and interceptor missiles, with Fortem announcing a U.S. purchase and the UK Ministry of Defence announcing a Cambridge Aerospace purchase ([Fortem, Jan 2026](https://fortemtech.com/press-releases/2026-01-14-fortem-technologies-welcomes-jiatf-401-s-selection-of-dronehunter-as-first-replicator-2-purchase/), [UK Ministry of Defence, Apr 2026](https://www.gov.uk/government/news/uk-start-up-to-supply-interceptor-missiles-to-uk-military-and-gulf-partners)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company profile published in SME Business Review, October 12, 2026 ([SME Business Review](https://smebusinessreview.com/public/profiles/profile/garmur-keres-reusable-jet-interceptors-drones-cruise-missiles)).
-  - Zero active YC job postings at research, October 27, 2026 ([YC Jobs](https://www.ycombinator.com/companies/keres/jobs)).
+  - OASW SO/LIC Accelerator awardee for the July 2026 event, with the Keres-specific amount undisclosed ([organizer’s announcement, Oct 2026](https://www.teapawt.org/OSS_DOW/status/2107916350631088445)).
+  - $125K listed as raised by Dealroom, with round terms and proceeds unconfirmed by Keres or YC ([Dealroom, accessed Nov 2026](https://dealroom.co/just-founded/keres/)).
+  - Garmur coverage in SME Business Review and Founderland ([SME Business Review, Oct 12, 2026](https://smebusinessreview.com/profiles/profile/garmur-keres-reusable-jet-interceptors-drones-cruise-missiles), [Founderland, Oct 31, 2026](https://www.founderland.ai/articles/keres-launches-garmur-reusable-jet-interceptor-for-air-defen-mvwnvrh7)).
+  - 0 active job postings on YC ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/keres/jobs)).
 - **Competitors:**
-  - **Anduril** (>$11B raised; $2.2B 2025 revenue, rather than ARR): Roadrunner-M is a turbojet explosive interceptor recoverable when unused, compared with Keres’s proposed recovery after a kill; its latest verified financing was a $5B Series H led by Thrive Capital and Andreessen Horowitz in May 2026 ([TechCrunch, May 2026](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/); [transaction counsel](https://www.gunder.com/print/v2/content/26792/anduril-raises-5-billion-usd-series-h-at-61-billion-usd-valuation.pdf?lang=en); [Anduril product announcement](https://www.anduril.com/news/anduril-unveils-roadrunner-and-roadrunner-m)).
-  - **Fortem Technologies** ($104.8M cumulative funding reported by CB Insights; revenue unknown): DroneHunter uses nets and parachutes rather than Garmur’s unspecified destruction mechanism; a $50M Series B closed September 30, 2026, led by Lockheed Martin ([CB Insights, via search snippet](https://www.cbinsights.com/company/fortem-technologies/financials); [Fortem financing announcement](https://fortemtech.com/press-releases/2026-09-30-fortem-technologies-closes-50m-series-b-financing-led-by-lockheed-martin/); [product page](https://fortemtech.com/products/dronehunter-f700/)).
-  - **TYTAN Technologies** (€46M raised; revenue unknown): METIS uses kinetic interception and EOS offers kinetic/fragmentation engagement, versus Keres’s reusable jet concept; its €30M Series A was announced February 24, 2026, co-led by Armira and NATO Innovation Fund ([TYTAN financing announcement](https://www.tytan-technologies.com/blog-posts/tytan-raises-30-mio); [product specifications](https://www.tytan-technologies.com/)).
-- **Why now:** [Inferred]: DIU’s 2025 follow-on funding after counter-UAS flight demonstrations provides a recent procurement-development catalyst for alternatives addressing interceptor cost asymmetry and magazine depth ([DIU](https://www.diu.mil/latest/two-companies-selected-to-support-dius-counter-unmanned-aerial-systems-next)).
+  - Anduril (over $11B raised, $2.2B in 2025 company revenue, Roadrunner revenue unknown): Roadrunner-M is recoverable when unused, and the latest publicly priced round was a $5B Series H led by Thrive Capital and Andreessen Horowitz ([Anduril product announcement](https://www.anduril.com/news/anduril-unveils-roadrunner-and-roadrunner-m), [TechCrunch, May 2026](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/)).
+  - Fortem Technologies ($128.63M raised, revenue unknown): DroneHunter captures drones with nets, and Lockheed Martin led its $50M Series B ([Fortem product page](https://fortemtech.com/products/dronehunter-f700/), [Stock Analysis](https://stockanalysis.com/private/fortem-technologies/valuation/), [Fortem, Sep 2026](https://fortemtech.com/press-releases/2026-09-30-fortem-technologies-closes-50m-series-b-financing-led-by-lockheed-martin/)).
+  - Cambridge Aerospace (approximately $636M raised, revenue unknown): Skyhammer is an interceptor missile selected for UK procurement, and DFJ Growth led its $300M Series C ([UK Ministry of Defence, Apr 2026](https://www.gov.uk/government/news/uk-start-up-to-supply-interceptor-missiles-to-uk-military-and-gulf-partners), [Vestbee, Sep 2026](https://www.vestbee.com/insights/articles/european-funding-rounds-closed-in-august-2026), [Axios, Aug 2026](https://www.axios.com/2026/08/10/anti-drone-defense-cambridge-aerospace)).
+- **Why now:** [Inferred]: The U.S. Army’s September 2026 Domestic Shield awards and streamlined Counter-UAS Marketplace give commercial vendors a new federal acquisition channel ([U.S. Army, Sep 2026](https://www.army.mil/article/295771)).
 
 ## Founders & Team
 
-- **Christopher Palazzolo (Co-founder/CTO):**
-  - Background: BS in Mechanical Engineering from Oakland University, formerly H3X Head of Operations, with more than four years at Boom Supersonic spanning aircraft maintenance, avionics, flight testing, and XB-1 production operations ([YC founder profile](https://www.ycombinator.com/founders/christopher-palazzolo)).
-  - Twitter/X: No public account found.
-  - LinkedIn: [Profile linked by YC](https://www.linkedin.com/in/cjpalazzolo/); headline and follower count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/christopher-palazzolo)).
+- **Parker Jamieson (Founder/CEO):**
+  - Background: Studied at the U.S. Air Force Academy and École de l’air et de l’espace, spent 11 years as a U.S. Air Force pilot, led cadet training operations at Air Force ROTC headquarters, and serves in the Air Force Reserve with NORAD J3 ([YC founder profile](https://www.ycombinator.com/founders/parker-jamieson)). Business email: parker@keresaero.com ([Keres website](https://www.keresaero.com/)).
+  - Twitter/X: @keresralph, 119 followers ([Teapawt mirror, Nov 2026](https://teapaw.org/keresralph)).
+  - LinkedIn: Profile linked by YC, headline and follower count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/parker-jamieson)).
   - GitHub: No public repos found.
-- **Parker Jamieson (Co-founder/CEO, identified by secondary sources):**
-  - Background: Education, prior companies, exits, and individual military credentials: No public data found; SME Business Review and Dealroom identify him as CEO ([SME Business Review, October 2026](https://smebusinessreview.com/public/profiles/profile/garmur-keres-reusable-jet-interceptors-drones-cruise-missiles); [Dealroom](https://app.dealroom.co/news/note/keres-reusable-unmanned-jet-interceptors-yc-fall-2026)).
+- **Christopher Palazzolo (Founder/CTO):**
+  - Background: Earned a B.S. in mechanical engineering at Oakland University, headed operations at H3X Technologies, and led avionics, flight test, and manufacturing for Boom Supersonic’s XB-1 ([YC founder profile](https://www.ycombinator.com/founders/christopher-palazzolo)). Business email: No public data found.
   - Twitter/X: No public account found.
-  - LinkedIn: No public profile found.
+  - LinkedIn: Headline not retrievable, 2K followers displayed ([LinkedIn, Nov 2026, via search snippet](https://www.linkedin.com/in/cjpalazzolo)).
   - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** [Inferred]: Palazzolo’s documented aircraft testing, avionics, manufacturing, and operations experience is relevant to interceptor development, although it does not establish Garmur’s performance ([YC founder profile](https://www.ycombinator.com/founders/christopher-palazzolo)).
+- **Founder-market fit:** Jamieson brings military aviation and NORAD experience, Palazzolo brings jet flight-test and production experience, and YC lists Pete Koomen as primary partner ([YC company profile](https://www.ycombinator.com/companies/keres)).
 
 ## Key Risks
 
-- **Technical feasibility:** [Inferred]: Garmur must combine target destruction with aircraft survival and recovery, but the public YC description supplies no flight-test results demonstrating that complete sequence ([YC](https://www.ycombinator.com/companies/keres)).
-- **Reuse economics:** [Inferred]: Recovery, inspection, damage repair, and turnaround requirements could offset acquisition-cost savings; public operating-cost and service-life data were not found to test the company’s lower-cost claim ([YC](https://www.ycombinator.com/companies/keres)).
-- **Procurement integration:** [Inferred]: Compatibility with military combat systems and safety evaluation could gate adoption, as DIU’s counter-UAS program explicitly requires integration and safety testing before live-fire trials ([DIU](https://www.diu.mil/latest/two-companies-selected-to-support-dius-counter-unmanned-aerial-systems-next)).
-- **Existing supplier access:** [Inferred]: Fortem’s disclosed Army and DHS contracts and Lockheed Martin integration give an alternative supplier established buyer access that Keres would need to compete against ([Fortem, September 2026](https://fortemtech.com/press-releases/2026-09-30-fortem-technologies-closes-50m-series-b-financing-led-by-lockheed-martin/)).
+- **Technical feasibility:** Public sources have yet to document Garmur completing an intercept and recovering for reuse, leaving its core performance claim unverified ([C-UAS Index, Oct 2026](https://cuas.minipax.tech/en/companies/keres-inc)).
+- **Cost per intercept:** [Inferred]: Keres’s claimed cost advantage depends on how often Garmur can fly again and what it costs to return it to service, with public pricing and test results undisclosed ([YC](https://www.ycombinator.com/companies/keres), [Founderland, Oct 2026](https://www.founderland.ai/articles/keres-launches-garmur-reusable-jet-interceptor-for-air-defen-mvwnvrh7)).
+- **Procurement conversion:** [Inferred]: The accelerator award gives Keres a government evaluation opportunity, but a transition to procurement remains unverified in public reporting ([OASW accelerator event](https://webtest.iwtsd.gov/IndustryDay), [Founderland, Oct 2026](https://www.founderland.ai/articles/keres-launches-garmur-reusable-jet-interceptor-for-air-defen-mvwnvrh7)).
+- **Name ambiguity:** Federal records for Keres Consulting and product records for Diehl Defence’s GARMR refer to different entities and can be confused with the Denver startup or its Garmur product ([GSA eLibrary](https://www.gsaelibrary.gsa.gov/ElibMain/contractorInfo.do?contractNumber=GS-00F-154CA&contractorName=KERES+CONSULTING+INC&executeQuery=YES), [Diehl Defence](https://new.diehl.com/defence/en/products/reconnaissance-and-protection/garmr), [YC](https://www.ycombinator.com/companies/keres)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader counter-UAS proxy: $12.6B spending in 2026, $24.1B by 2030, approximately 18% CAGR; includes products beyond reusable interceptors ([Unmanned Airspace, June 2026, via search snippet](https://www.unmannedairspace.info/counter-uas-systems-and-policies/global-spending-on-counter-uas-systems-reach-usd12-6-billion-this-year/)). |
+| TAM | $14.41B global counter-UAS market in 2026, 22.4% forecast CAGR through 2034 ([Fortune Business Insights, 2026](https://www.fortunebusinessinsights.com/counter-uas-market-111906)) |
 | SAM | No public data found |
-| Traction | Media profile published October 12, 2026 ([SME Business Review](https://smebusinessreview.com/public/profiles/profile/garmur-keres-reusable-jet-interceptors-drones-cruise-missiles)). |
+| Traction | July accelerator award, amount undisclosed ([OASW, Oct 2026](https://www.teapawt.org/OSS_DOW/status/2107916350631088445)). $125K listed as raised, unconfirmed by Keres or YC ([Dealroom, Nov 2026](https://dealroom.co/just-founded/keres/)). Garmur coverage ([SME Business Review, Oct 2026](https://smebusinessreview.com/profiles/profile/garmur-keres-reusable-jet-interceptors-drones-cruise-missiles), [Founderland, Oct 2026](https://www.founderland.ai/articles/keres-launches-garmur-reusable-jet-interceptor-for-air-defen-mvwnvrh7)). 0 active YC job postings ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/keres/jobs)) |
 | Revenue Signal | No public data found |
-| Founders | Christopher Palazzolo, CTO: Oakland mechanical engineering, H3X operations, Boom XB-1 ([YC](https://www.ycombinator.com/founders/christopher-palazzolo)); Parker Jamieson, CEO ([Dealroom](https://app.dealroom.co/news/note/keres-reusable-unmanned-jet-interceptors-yc-fall-2026)). |
-| Competitors | Anduril (>$11B raised, $2.2B FY2025 revenue, explosive interceptor) ([TechCrunch, May 2026](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/)); Fortem ($104.8M raised, revenue unknown, net capture) ([CB Insights, via search snippet](https://www.cbinsights.com/company/fortem-technologies/financials); [Fortem](https://fortemtech.com/products/dronehunter-f700/)); TYTAN (€46M raised, revenue unknown, kinetic/fragmentation interceptors) ([TYTAN, February 2026](https://www.tytan-technologies.com/blog-posts/tytan-raises-30-mio); [products](https://www.tytan-technologies.com/)). |
+| Founders | Parker Jamieson (CEO), U.S. Air Force pilot and NORAD reservist. Christopher Palazzolo (CTO), Boom XB-1 operations and H3X operations ([YC](https://www.ycombinator.com/companies/keres)) |
+| Competitors | Anduril (over $11B raised, $2.2B in 2025 company revenue, Roadrunner-M recoverable when unused) ([TechCrunch](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/), [Anduril](https://www.anduril.com/news/anduril-unveils-roadrunner-and-roadrunner-m)). Fortem ($128.63M raised, revenue unknown, net capture) ([Stock Analysis](https://stockanalysis.com/private/fortem-technologies/valuation/), [Fortem](https://fortemtech.com/products/dronehunter-f700/)). Cambridge Aerospace (approximately $636M raised, revenue unknown, Skyhammer interceptor missile) ([Vestbee](https://www.vestbee.com/insights/articles/european-funding-rounds-closed-in-august-2026), [UK Ministry of Defence](https://www.gov.uk/government/news/uk-start-up-to-supply-interceptor-missiles-to-uk-military-and-gulf-partners)) |
 | Moat Signals | No public data found |
-| Risk Factors | Garmur flight-test evidence and operating economics undisclosed in public product description ([YC](https://www.ycombinator.com/companies/keres)); competing supplier’s military contracts ([Fortem, September 2026](https://fortemtech.com/press-releases/2026-09-30-fortem-technologies-closes-50m-series-b-financing-led-by-lockheed-martin/)). |
-| Founder Reach | No public data found |
-| Distribution Signals | Public business-inquiry email ([company website](https://www.keresaero.com/)); Fall 2026 YC directory listing ([YC](https://www.ycombinator.com/companies/keres)). |
-| Emails | parker@keresaero.com ([company website](https://www.keresaero.com/)). |
+| Risk Factors | Intercept-and-recovery validation, cost per intercept, procurement conversion ([C-UAS Index, Oct 2026](https://cuas.minipax.tech/en/companies/keres-inc), [Founderland, Oct 2026](https://www.founderland.ai/articles/keres-launches-garmur-reusable-jet-interceptor-for-air-defen-mvwnvrh7)) |
+| Founder Reach | Parker Jamieson: 119 X followers ([Teapawt mirror, Nov 2026](https://teapaw.org/keresralph)). Christopher Palazzolo: 2K LinkedIn followers ([LinkedIn, Nov 2026, via search snippet](https://www.linkedin.com/in/cjpalazzolo)) |
+| Distribution Signals | U.S. defense accelerator participation ([OASW, Jul 2026](https://webtest.iwtsd.gov/IndustryDay), [awardee announcement, Oct 2026](https://www.teapawt.org/OSS_DOW/status/2107916350631088445)) |
+| Emails | parker@keresaero.com, CEO and general inquiries ([Keres website](https://www.keresaero.com/)) |

@@ -5,77 +5,55 @@
   "metadata": {
     "website": "https://cyclon.ai/",
     "yc_page": "https://www.ycombinator.com/companies/cyclon",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/cyclon))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/cyclon))",
     "industry": "Consumer / Consumer -> Consumer Electronics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Hardware, Consumer, AI",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/cyclon))",
-    "emails": "contact@cyclon.ai ([Contact](https://cyclon.ai/contact)), privacy@cyclon.ai ([Privacy](https://cyclon.ai/privacy))"
+    "tags": "Hardware, Consumer, Telecommunications, AI, AI Assistant",
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/cyclon))",
+    "emails": "contact@cyclon.ai, general inquiries and preorders ([Cyclon Contact](https://cyclon.ai/contact), [Preorder Terms](https://cyclon.ai/preorder-terms)); privacy@cyclon.ai, privacy requests ([Cyclon Privacy](https://cyclon.ai/privacy))"
   },
   "tags": [
     "Hardware",
     "Consumer",
-    "AI"
+    "Telecommunications",
+    "AI",
+    "AI Assistant"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:57:44.706Z",
+  "memoGeneratedAt": "2026-11-17T22:55:37.558Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 33,
+    "agi": {
+      "score": 32,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 30,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 30,
-    "NR": 34,
-    "PG": 29,
-    "PT": 25,
-    "SL": 30,
-    "VK": 25
+    "AGI": 32,
+    "HG": 36,
+    "EXIT": 35
   },
-  "consolidatedAvg": 29.43,
-  "consolidatedRank": 227,
+  "consolidatedAvg": 34.33,
+  "consolidatedRank": 222,
   "traction": {
-    "tractionRank": 198,
-    "tractionScore": 12,
-    "tractionReason": "Waitlist open; enrollment, orders, and revenue undisclosed"
+    "tractionRank": 188,
+    "tractionScore": 25,
+    "tractionReason": "Refundable $199 reservations offered, volume undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cyclon.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/cyclon.md",
-      "elad-gil": "fall2026/evals/elad-gil/cyclon.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/cyclon.md",
-      "paul-graham": "fall2026/evals/paul-graham/cyclon.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/cyclon.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/cyclon.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/cyclon.md"
+      "agi": "fall2026/evals/agi/cyclon.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/cyclon.md",
+      "exit": "fall2026/evals/exit/cyclon.md"
     }
   }
 }

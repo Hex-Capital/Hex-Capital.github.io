@@ -1,79 +1,81 @@
 ﻿# CONUS
 
-> The AI knowledge layer for medical devices
+> Medical Device Platform for Hospitals
 
 | Field | Value |
 |-------|-------|
 | Website | https://www.conus-med.com |
 | YC Page | https://www.ycombinator.com/companies/conus |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/conus)) |
+| Batch | Fall 2026 ([YC directory](https://www.ycombinator.com/companies/conus)) |
 | Industry | Healthcare / Healthcare |
 | Team Size | 3 |
 | Location | Cologne, NRW, Germany |
 | Tags | Healthcare, AI |
-| YC Partner | Grey Baker ([YC](https://www.ycombinator.com/companies/conus)) |
-| Emails | info@conus-med.com ([CONUS imprint](https://conus-med.com/en/imprint)); vincent.paffrath@conus-med.com ([YC](https://www.ycombinator.com/companies/conus)) |
+| YC Partner | Grey Baker ([YC directory](https://www.ycombinator.com/companies/conus)) |
+| Emails | vincent.paffrath@conus-med.com (CEO, [Launch YC](https://www.ycombinator.com/launches/Vdh-conus-the-ai-knowledge-layer-for-medical-devices)), info@conus-med.com (general inquiries and support, [CONUS Support](https://conus-med.com/en/support)) |
 
 ## The Idea
 
-- **Problem:** Surgeons and device field teams search disconnected manufacturer PDFs, portals, hospital protocols, or personal contacts to assemble procedure-specific information ([YC](https://www.ycombinator.com/companies/conus)).
-- **Approach:** CONUS combines implant variants, manufacturer instructions, hospital-specific standards, and medical literature in a structured platform with AI answers linking to original source pages ([CONUS](https://conus-med.com/), [Intelligence](https://conus-med.com/en/conus-intelligence)).
-- **Differentiation:** CONUS emphasizes manufacturer portfolios linked to hospital implant inventories, while C8 Health emphasizes local clinical protocols and Incision Assist emphasizes surgical preparation, surgeon preferences, and operating-room setups ([CONUS](https://conus-med.com/), [C8 Health](https://c8health.com/blog/series-a-announcement), [Incision](https://www.incision.care/products/assist)).
-- **Business Model:** Free core access supports paid per-user AI subscriptions, institutional AI licenses, and manufacturer services priced by product groups; indexed web pricing lists Basic €9.99, Plus €19.99, and Pro €49.99 monthly, although the live plan table failed to load ([pricing, Oct 2026, via search snippet](https://conus-med.com/en/pricing), [FAQ](https://conus-med.com/en/faq)).
+- **Problem:** Surgeons preparing a procedure may have to search manufacturer PDFs, vendor portals and hospital systems or call a colleague to find device instructions and local protocols ([Launch YC](https://www.ycombinator.com/launches/Vdh-conus-the-ai-knowledge-layer-for-medical-devices)).
+- **Approach:** CONUS maps procedures to implant systems available at the clinician’s hospital and indexes manufacturer documentation, local protocols and research so its AI can cite original sources ([Launch YC](https://www.ycombinator.com/launches/Vdh-conus-the-ai-knowledge-layer-for-medical-devices)).
+- **Differentiation:** CONUS combines multi-manufacturer device guidance with hospital-specific workflows, while M-Eido focuses on component compatibility, Casechek on implant logistics and billing, and OpenEvidence on clinical literature search ([CONUS](https://conus-med.com/en/about-us), [M-Eido](https://www.m-eido.com/), [Casechek](https://www.casechek.com/), [OpenEvidence](https://trust.openevidence.com/)).
+- **Business Model:** CONUS offers free core hospital access, individual AI web plans at €0, €9.99, €19.99 and €49.99 per user per month, and separately quoted institutional AI licenses ([CONUS Pricing, via search snippet](https://conus-med.com/en/pricing)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Distribution includes free hospital licenses, manufacturer portfolio integration, conference outreach, and a stated US expansion effort ([institutional terms](https://conus-med.com/en/institution-terms-of-use), [CONUS LinkedIn, Oct 2026](https://www.linkedin.com/company/conus-med/)).
+- **GTM / Distribution:** CONUS offers direct hospital sign-up and manufacturer demos, and its YC launch solicits introductions to U.S. orthopedic surgeons, hospital leaders and device-company teams ([Hospital Access](https://conus-med.com/en/create-hospital-license), [Manufacturer License](https://conus-med.com/en/request-manufacturer-license), [Launch YC](https://www.ycombinator.com/launches/Vdh-conus-the-ai-knowledge-layer-for-medical-devices)).
 
 ## Defensibility
 
-- **Moat today:** CONUS reports aggregating over 500,000 academic papers and 2,000 manufacturer documents alongside hospital-specific knowledge ([CONUS Intelligence, accessed Oct 2026](https://conus-med.com/en/conus-intelligence)).
-- **Future moat:** [Inferred]: More manufacturer portfolios and embedded hospital protocols could increase coverage and replacement effort, but public deployment counts do not establish retention or switching costs ([CONUS](https://conus-med.com/en/about-us)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given existing platforms organizing institution-specific clinical and surgical knowledge ([C8 Health](https://c8health.com/blog/series-a-announcement), [Incision](https://www.incision.care/products/assist)).
-- **Commoditization risk:** [Inferred]: C8 Health and Incision could extend their existing knowledge platforms toward device-document retrieval; the engineering effort and commercial access required are not publicly quantified ([C8 Health](https://c8health.com/blog/series-a-announcement), [Incision](https://www.incision.care/products/assist)).
+- **Moat today:** CONUS reports that manufacturers integrate their catalogs and hospitals add site-specific device lists and operating procedures, creating a dataset tied to each deployment ([CONUS About](https://conus-med.com/en/about-us), [Hospital Access](https://conus-med.com/en/create-hospital-license)).
+- **Future moat:** [Inferred]: More manufacturer catalogs could attract hospitals whose device lists and workflows make the platform more valuable to suppliers, though public sources give no retention or cross-side usage figures ([CONUS About](https://conus-med.com/en/about-us)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** M-Eido already offers AI search across uploaded implant manuals, showing that an adjacent vendor can replicate the document-search feature ([M-Eido](https://www.m-eido.com/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - More than 20 European hospitals live within six months of the company-described launch ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/conus)).
-  - Company-reported relationships with Johnson & Johnson, Stryker, Zimmer Biomet, and B. Braun ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/conus)).
-  - Paid manufacturer services explicitly identified as a financing source, without disclosed revenue amounts ([institutional terms, Aug 2026](https://conus-med.com/en/institution-terms-of-use)).
-  - German iOS listing rated 5.0/5 from 26 ratings ([Apple App Store, accessed Oct 27, 2026](https://apps.apple.com/de/app/conus/id6739941931)).
-  - Android listing shows 100+ downloads ([Google Play, accessed Oct 27, 2026](https://play.google.com/store/apps/details?hl=en&id=com.conus_med.app.twa)).
-  - Company LinkedIn page shows 650 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/conus-med/)).
-  - Company X account @CONUS_med had two followers in a historical snapshot; current count not retrievable ([Frontrun, Sep 25, 2026](https://www.frontrun.vc/blog/fundraise_receipts-2026-09-25/)).
-  - Two advertised engineering positions cover backend AI/data and frontend product/UX ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/conus)).
-  - Timeline qualification: the company dates incorporation to March 2022, while Apple lists initial app release in January 2025 and Intelligence introduction in May 2026, leaving the six-month launch milestone unspecified ([CONUS history](https://conus-med.com/en/about-us), [Apple version history](https://apps.apple.com/de/app/conus/id6739941931)).
+  - CONUS reports 28 live hospitals and 53 onboarding in the current YC profile, while its YC founder Q&A lists 25 live European hospitals ([YC directory, Nov 2026](https://www.ycombinator.com/companies/conus)).
+  - CONUS reports working with Johnson & Johnson, Stryker, Zimmer Biomet and B. Braun, and lists BG Kliniken, Helios and Kliniken Köln among its partners ([YC directory](https://www.ycombinator.com/companies/conus), [CONUS About](https://conus-med.com/en/about-us), Nov 2026).
+  - The iOS version history dates the original app to Jan 2025, and the later YC-era X launch post ran on Oct 13, 2026 ([Apple App Store](https://apps.apple.com/us/app/conus-for-clinicians/id6739941931), [Launch Video Company](https://www.launchvideo.com/directory/conus)).
+  - 5.0/5 across 27 ratings in Germany ([Apple App Store, Nov 2026](https://apps.apple.com/de/app/conus/id6739941931)).
+  - 100+ Android downloads ([Google Play, Nov 2026](https://play.google.com/store/apps/details?hl=en&id=com.conus_med.app.twa)).
+  - 708 LinkedIn followers ([CONUS LinkedIn, Nov 2026](https://www.linkedin.com/company/conus-med/)).
+  - 12 X followers at @CONUS_med ([X profile mirror, Nov 2026](https://nitter.gq/conus_med)).
+  - 3.8K views on the October X launch post ([Launch Video Company, Nov 2026](https://www.launchvideo.com/directory/conus)).
+  - Two Cologne engineering openings, one backend and one frontend ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/conus/jobs)).
+  - Launch coverage in Founderland ([Founderland, Oct 2, 2026](https://founderland.ai/articles/conus-launches-ai-surgery-assistant-live-in-17-hospitals-mur8i52l)).
 - **Competitors:**
-  - **C8 Health ($18M raised, revenue unknown):** Its latest disclosed round was a $12M Series A led by Team8 in July 2025, supporting site-specific clinical knowledge and protocol implementation ([company announcement](https://c8health.com/blog/series-a-announcement)).
-  - **Incision (at least €8M in separately disclosed equity investments, revenue unknown):** Surgical preparation and training overlap with CONUS, with €5M announced from SHS/Rubio in May 2021 and a later €3M investment from Invest International in April 2024; a complete lifetime total and latest round lead were not established ([Incision](https://www.incision.care/news/incision-secures-5m-funding-for-new-services-for-its-users), [Invest International](https://investinternational.nl/news-items/invest-international-partners-with-incision-for-the-best-surgical-healthcare-worldwide/)).
-  - **OpenEvidence (nearly $1B raised, revenue unknown):** An adjacent medical-search alternative, with a $250M September 2026 round led by Andreessen Horowitz and Byers Capital, focused on clinical evidence rather than CONUS’s hospital-linked device portfolios ([Becker’s, Sep 2026](https://www.beckershospitalreview.com/healthcare-information-technology/ai/openevidence-raises-250m-at-15b-valuation/), [CONUS](https://conus-med.com/)).
-- **Why now:** [Inferred]: Adoption of medical-search AI creates a distribution catalyst, with OpenEvidence reporting 1.12 million verified US clinician users by September 2026 ([Fierce Healthcare, Oct 2026](https://www.fiercehealthcare.com/ai-and-machine-learning/johns-hopkins-medicine-taps-openevidence-design-ai-tools-medical-training)).
+  - **M-Eido** (funding and revenue unknown): Checks orthopedic implant component compatibility by barcode and offers AI search of uploaded manuals ([M-Eido](https://www.m-eido.com/)).
+  - **Casechek** (at least $10.09M raised, revenue unknown): Automates implant supply and billing, with $4.0M in its latest SEC-filed offering and no lead named in the filing ([Casechek](https://www.casechek.com/), [SEC Form D, Aug 2022](https://www.sec.gov/Archives/edgar/data/1943236/000194323622000001/xslFormDX01/primary_doc.xml), [SEC Form D, Sep 2025](https://www.sec.gov/Archives/edgar/data/1943236/000194323625000001/xslFormDX01/primary_doc.xml)).
+  - **OpenEvidence** ($990M reported raised, approximately $300M in reported annualized revenue): Answers clinical questions from medical literature and raised $250M in a September round led by Byers Capital and Andreessen Horowitz ([aVenture](https://aventure.vc/companies/openevidence-miami-fl-us/fundraising), [The Information, Jul 2026, via search snippet](https://www.theinformation.com/articles/chatgpt-doctors-mulls-new-financing-20-billion-valuation), [Forbes, Sep 2026](https://tollbit.forbes.com/sites/innovationrx/2026/09/16/a-premier-cancer-hospital-makes-its-data-available-to-doctors-nationwide-through-openevidence/)).
+  - [Inferred]: Direct overlap is limited because these products focus on separate parts of the workflow: compatibility, purchasing and billing, or evidence retrieval.
+- **Why now:** [Inferred]: The September 2026 agreement to distribute Memorial Sloan Kettering’s oncology knowledge through OpenEvidence in Epic shows a hospital moving curated clinical knowledge into an AI tool used at the point of care ([Memorial Sloan Kettering](https://www.mskcc.org/news-releases/mskcc-msk-and-openevidence-partner-to-advance-precision-oncology-at-point-of-care)).
 
 ## Founders & Team
 
-- **Vincent Paffrath (CEO):**
-  - Background: YC lists St. Gallen and WHU among his educational affiliations, former AI research with ETH Zurich, Bosch GenAI rollout work, and healthcare strategy consulting ([YC founder profile](https://www.ycombinator.com/founders/vincent-paffrath)).
-  - Twitter/X: @vincentpaffrath; count not retrievable ([YC profile](https://www.ycombinator.com/founders/vincent-paffrath)).
-  - LinkedIn: Profile found; headline not retrievable; 956 followers in an indexed snapshot ([LinkedIn, Oct 2026, via search snippet](https://www.linkedin.com/in/vincent-paffrath)).
+- **Vincent Paffrath (Founder/CEO):**
+  - Background: WHU entrepreneurship MSc, University of St. Gallen doctoral research through the Bosch Lab at HSG/ETH, Bosch generative-AI rollout and healthcare strategy consulting at WMC Healthcare, with vincent.paffrath@conus-med.com published as his business email ([Bosch Lab](https://bosch-lab.ch/team), [YC biography](https://www.ycombinator.com/founders/vincent-paffrath), [Launch YC](https://www.ycombinator.com/launches/Vdh-conus-the-ai-knowledge-layer-for-medical-devices)).
+  - Twitter/X: @VincentPaffrath, 89 followers ([X profile mirror, Nov 2026](https://nitter.gq/VincentPaffrath)).
+  - LinkedIn: CONUS profile, headline unavailable, 956 followers ([LinkedIn, Oct 2026, via search snippet](https://www.linkedin.com/in/vincent-paffrath)).
   - GitHub: No public repos found.
-- **Maximilian Becker (CPO):**
-  - Background: Industrial engineer with FAU and Rheinische Fachhochschule Köln affiliations, former ETH AI researcher, and early Cleansort engineer working across hardware and automation software ([YC founder profile](https://www.ycombinator.com/founders/maximilian-becker)).
+- **Maximilian Becker (Founder/CPO):**
+  - Background: FAU Erlangen-Nürnberg student, former ETH Zurich AI researcher and early Cleansort engineer across hardware, manufacturing and automation software ([FAU Entrepreneurship](https://de.linkedin.com/posts/faunding-center_fau-gr%C3%BCndung-startup-activity-7516050530821906432-TWtn), [YC biography](https://www.ycombinator.com/founders/maximilian-becker)). Direct business email: No public data found.
   - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable; 410 followers in an indexed snapshot ([LinkedIn, Oct 2026, via search snippet](https://de.linkedin.com/in/maximilian-becker-koeln/de)).
+  - LinkedIn: CONUS profile, headline unavailable, 410 followers ([LinkedIn, Oct 2026, via search snippet](https://de.linkedin.com/in/maximilian-becker-koeln/de)).
   - GitHub: No public repos found.
-- **Alexander Schulz (CTO):**
-  - Background: Electrical engineer with RWTH Aachen and TH Köln affiliations who developed electronics and embedded software for biomedical instruments at Miltenyi Biotec ([YC founder profile](https://www.ycombinator.com/founders/alexander-schulz)).
+- **Alexander Schulz (Founder/CTO):**
+  - Background: RWTH Aachen electrical engineer who developed electronics and embedded software for biomedical instruments at Miltenyi Biotec ([YC biography](https://www.ycombinator.com/founders/alexander-schulz)). Direct business email: No public data found.
   - Twitter/X: No public account found.
-  - LinkedIn: Profile linked by YC; headline and follower count not retrievable ([YC profile](https://www.ycombinator.com/founders/alexander-schulz)).
+  - LinkedIn: Profile linked from the company page, headline and follower count unavailable ([CONUS LinkedIn](https://www.linkedin.com/company/conus-med/)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Paffrath says Becker and Schulz joined in 2024 after he began building CONUS in 2022 ([founder LinkedIn post](https://www.linkedin.com/posts/vincent-paffrath_sometimes-life-turns-out-differently-than-activity-7497940936530845697-qeBT)).
-- **Founder-market fit:** Documented AI, biomedical engineering, and product-development experience is supplemented by five chief-surgeon medical founders/advisors and AUC managing director Markus Blätzinger ([CONUS team](https://conus-med.com/en/about-us)).
+- **Co-founder relationship:** Paffrath and Becker both researched AI with ETH Zurich, and Paffrath says Becker and Schulz joined the CONUS project in 2024 ([YC directory](https://www.ycombinator.com/companies/conus), [Paffrath LinkedIn post](https://www.linkedin.com/posts/vincent-paffrath_sometimes-life-turns-out-differently-than-activity-7497940936530845697-qeBT)).
+- **Founder-market fit:** The team combines AI deployment, product engineering and biomedical instrumentation, with clinical input from five orthopedic and trauma chiefs and advice from German Academy for Trauma Surgery managing director Markus Blätzinger ([CONUS About](https://conus-med.com/en/about-us)).
 
 ## Key Risks
 
-- **Clinical answer verification:** [Inferred]: Incorrect retrieval or synthesis could misinform surgical preparation; CONUS requires checking AI outputs against original documents and excludes patient-specific medical decisions ([user terms](https://conus-med.com/en/terms-of-use)).
-- **Supplier neutrality:** [Inferred]: Manufacturer financing creates potential tension with cross-manufacturer discovery; institutional terms prohibit paid preferential sorting and manufacturer access to hospital-specific usage data ([institutional terms](https://conus-med.com/en/institution-terms-of-use)).
-- **Procurement expansion:** [Inferred]: Moving into implant selection requires extending a product whose current terms exclude patient-specific product-selection decisions ([YC vision](https://www.ycombinator.com/companies/conus), [user terms](https://conus-med.com/en/terms-of-use)).
-- **Name ambiguity:** CONUS Airway is a separate Spanish device startup, creating a risk of misattributing funding or product claims ([4YFN 2026](https://www.4yfn.com/exhibitors/34964-conus-airway-s-l)).
+- **Answer accuracy:** CONUS warns that AI answers may be outdated or unsupported by their citations and requires users to verify the original source ([CONUS User Terms](https://conus-med.com/en/terms-of-use)).
+- **Document currency:** [Inferred]: Stale implant documents or hospital protocols can surface obsolete guidance, and CONUS assigns protocol approval and version control to each institution ([CONUS User Terms](https://conus-med.com/en/terms-of-use)).
+- **Manufacturer neutrality:** [Inferred]: Selling to suppliers while presenting competing implants creates a ranking conflict, which CONUS addresses by prohibiting paid placement and withholding hospital-specific usage data from manufacturers ([CONUS Institution Terms](https://conus-med.com/en/institution-terms-of-use)).
+- **Name ambiguity:** The CONUS name also appears in Spain’s Conus Airway venture, creating a source-matching risk that the Cologne company’s legal name, CONUS Medical Solutions GmbH, helps resolve ([BHV Partners](https://bhvpartners.com/wp-content/uploads/2023/11/230321_BHV_PR_en.pdf), [CONUS Imprint](https://conus-med.com/en/imprint)).
 
 ## Key Facts
 
@@ -81,12 +83,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | 20+ hospitals; named manufacturer relationships ([YC, Oct 2026](https://www.ycombinator.com/companies/conus)); 26 iOS ratings averaging 5.0/5 ([Apple, Oct 2026](https://apps.apple.com/de/app/conus/id6739941931)) |
-| Revenue Signal | Paid manufacturer services finance operations; amounts undisclosed ([institutional terms](https://conus-med.com/en/institution-terms-of-use)); indexed monthly web tiers €9.99/€19.99/€49.99 ([pricing, Oct 2026, via search snippet](https://conus-med.com/en/pricing)) |
-| Founders | Paffrath, CEO: Bosch/AI research; Becker, CPO: Cleansort/AI research; Schulz, CTO: RWTH/Miltenyi ([CONUS team](https://conus-med.com/en/about-us)) |
-| Competitors | C8 Health ($18M, revenue unknown, clinical protocols; [company](https://c8health.com/blog/series-a-announcement)); Incision (≥€8M disclosed equity, revenue unknown, surgical preparation; [Incision](https://www.incision.care/news/incision-secures-5m-funding-for-new-services-for-its-users), [investor](https://investinternational.nl/news-items/invest-international-partners-with-incision-for-the-best-surgical-healthcare-worldwide/)); OpenEvidence (nearly $1B, revenue unknown, medical search; [Becker’s](https://www.beckershospitalreview.com/healthcare-information-technology/ai/openevidence-raises-250m-at-15b-valuation/)) |
-| Moat Signals | Company-reported 500,000+ papers and 2,000 manufacturer documents ([CONUS Intelligence](https://conus-med.com/en/conus-intelligence)) |
-| Risk Factors | AI verification requirements, patient-specific selection exclusions ([user terms](https://conus-med.com/en/terms-of-use)); manufacturer financing ([institutional terms](https://conus-med.com/en/institution-terms-of-use)) |
-| Founder Reach | Paffrath: LinkedIn 956; Becker: LinkedIn 410 ([LinkedIn snapshots, Oct 2026, via search snippet](https://www.linkedin.com/in/vincent-paffrath), [Becker](https://de.linkedin.com/in/maximilian-becker-koeln/de)) |
-| Distribution Signals | Android 100+ downloads ([Google Play, Oct 2026](https://play.google.com/store/apps/details?hl=en&id=com.conus_med.app.twa)); LinkedIn 650 followers ([LinkedIn, Oct 2026](https://www.linkedin.com/company/conus-med/)) |
-| Emails | info@conus-med.com ([imprint](https://conus-med.com/en/imprint)); vincent.paffrath@conus-med.com ([YC](https://www.ycombinator.com/companies/conus)) |
+| Traction | 28 live hospitals and 53 onboarding, company-reported ([YC directory, Nov 2026](https://www.ycombinator.com/companies/conus)) |
+| Revenue Signal | Free core hospital access and paid institutional AI licenses ([CONUS Pricing](https://conus-med.com/en/pricing)); individual web tiers €0, €9.99, €19.99 and €49.99 per user/month ([CONUS Pricing, via search snippet](https://conus-med.com/en/pricing)). Realized revenue: No public data found |
+| Founders | Vincent Paffrath (CEO), Bosch AI rollout and HSG/ETH research; Maximilian Becker (CPO), ETH AI research and Cleansort; Alexander Schulz (CTO), RWTH Aachen and Miltenyi Biotec ([CONUS About](https://conus-med.com/en/about-us)) |
+| Competitors | M-Eido (funding and revenue unknown, implant compatibility, [M-Eido](https://www.m-eido.com/)); Casechek (at least $10.09M raised, revenue unknown, implant supply and billing, [2022 SEC filing](https://www.sec.gov/Archives/edgar/data/1943236/000194323622000001/xslFormDX01/primary_doc.xml), [2025 SEC filing](https://www.sec.gov/Archives/edgar/data/1943236/000194323625000001/xslFormDX01/primary_doc.xml), [Casechek](https://www.casechek.com/)); OpenEvidence ($990M reported raised, approximately $300M reported annualized revenue, clinical literature search, [aVenture](https://aventure.vc/companies/openevidence-miami-fl-us/fundraising), [The Information, via search snippet](https://www.theinformation.com/articles/chatgpt-doctors-mulls-new-financing-20-billion-valuation), [OpenEvidence](https://trust.openevidence.com/)) |
+| Moat Signals | Manufacturer catalogs integrated with institution-specific product lists and protocols ([CONUS About](https://conus-med.com/en/about-us), [Hospital Access](https://conus-med.com/en/create-hospital-license)) |
+| Risk Factors | AI answer accuracy and source currency ([CONUS User Terms](https://conus-med.com/en/terms-of-use)), manufacturer neutrality ([CONUS Institution Terms](https://conus-med.com/en/institution-terms-of-use)) |
+| Founder Reach | Paffrath: 89 X followers ([X profile mirror, Nov 2026](https://nitter.gq/VincentPaffrath)), 956 LinkedIn followers ([LinkedIn, Oct 2026, via search snippet](https://www.linkedin.com/in/vincent-paffrath)); Becker: 410 LinkedIn followers ([LinkedIn, Oct 2026, via search snippet](https://de.linkedin.com/in/maximilian-becker-koeln/de)); Schulz: No public data found |
+| Distribution Signals | 5.0/5 from 27 German iOS ratings ([Apple App Store](https://apps.apple.com/de/app/conus/id6739941931)), 100+ Android downloads ([Google Play](https://play.google.com/store/apps/details?hl=en&id=com.conus_med.app.twa)), 708 company LinkedIn followers ([LinkedIn](https://www.linkedin.com/company/conus-med/)), 12 company X followers ([X profile mirror](https://nitter.gq/conus_med)), 3.8K X launch views ([Launch Video Company](https://www.launchvideo.com/directory/conus)), observed Nov 2026 |
+| Emails | vincent.paffrath@conus-med.com (CEO, [Launch YC](https://www.ycombinator.com/launches/Vdh-conus-the-ai-knowledge-layer-for-medical-devices)), info@conus-med.com (general inquiries and support, [CONUS Support](https://conus-med.com/en/support)) |

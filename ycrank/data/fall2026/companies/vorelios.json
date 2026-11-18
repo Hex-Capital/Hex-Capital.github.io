@@ -1,81 +1,56 @@
 {
   "slug": "vorelios",
   "name": "Vorelios",
-  "oneLiner": "Solving engineering, then using it to solve everything else",
+  "oneLiner": "AI that can engineer anything",
   "metadata": {
     "website": "https://vorelios.com",
     "yc_page": "https://www.ycombinator.com/companies/vorelios",
     "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/vorelios))",
-    "industry": "B2B / B2B -> Engineering, Product and Design",
-    "team_size": "2",
+    "industry": "Industrials / Industrials",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/vorelios))",
     "location": "San Francisco, CA, USA",
-    "tags": "Hard Tech, B2B, AI",
+    "tags": "Hard Tech, AI",
     "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/vorelios))",
-    "emails": "founders@vorelios.com ([company website](https://vorelios.com))"
+    "emails": "founders@vorelios.com, shared founder inbox ([Vorelios Contact](https://vorelios.com/#contact), [Launch YC](https://www.ycombinator.com/launches/Whd-vorelios-ai-that-can-engineer-anything))"
   },
   "tags": [
     "Hard Tech",
-    "B2B",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:18:04.588Z",
+  "memoGeneratedAt": "2026-11-17T23:34:18.547Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
+    "agi": {
       "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
+    "hypergrowth": {
       "score": 36,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 37,
-    "NR": 49,
-    "PG": 35,
-    "PT": 32,
-    "SL": 29,
-    "VK": 36
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 143,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 200,
-    "tractionScore": 10,
-    "tractionReason": "Simulation benchmarks only; no disclosed customers or revenue"
+    "tractionRank": 213,
+    "tractionScore": 12,
+    "tractionReason": "Internal design runs, no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/vorelios.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/vorelios.md",
-      "elad-gil": "fall2026/evals/elad-gil/vorelios.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/vorelios.md",
-      "paul-graham": "fall2026/evals/paul-graham/vorelios.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/vorelios.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/vorelios.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/vorelios.md"
+      "agi": "fall2026/evals/agi/vorelios.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/vorelios.md",
+      "exit": "fall2026/evals/exit/vorelios.md"
     }
   }
 }

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://horizontal-tech.com",
     "yc_page": "https://www.ycombinator.com/companies/horizontal",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/horizontal))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/horizontal))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Manufacturing, Automation, Industrial",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/horizontal))",
-    "emails": "No public data found"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/horizontal))",
+    "emails": "niklas@horizontal-tech.com — Niklas Marxer, CEO and published contact for hiring, privacy and security ([Horizontal careers](https://horizontal-tech.com/careers), [privacy policy](https://horizontal-tech.com/privacy), [company website](https://horizontal-tech.com/))"
   },
   "tags": [
     "Manufacturing",
@@ -19,63 +19,39 @@
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:06:30.999Z",
+  "memoGeneratedAt": "2026-11-18T00:08:54.641Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 38,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 28,
-    "NR": 37,
-    "PG": 31,
-    "PT": 27,
-    "SL": 31,
-    "VK": 25
+    "AGI": 36,
+    "HG": 38,
+    "EXIT": 35
   },
-  "consolidatedAvg": 30.57,
-  "consolidatedRank": 218,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 39,
-    "tractionReason": "International manufacturer work claimed; no quantified deployments or revenue"
+    "tractionRank": 153,
+    "tractionScore": 35,
+    "tractionReason": "Reported manufacturer work and testing in operating plants"
   },
   "paths": {
     "memo": "fall2026/memos/horizontal.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/horizontal.md",
-      "elad-gil": "fall2026/evals/elad-gil/horizontal.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/horizontal.md",
-      "paul-graham": "fall2026/evals/paul-graham/horizontal.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/horizontal.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/horizontal.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/horizontal.md"
+      "agi": "fall2026/evals/agi/horizontal.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/horizontal.md",
+      "exit": "fall2026/evals/exit/horizontal.md"
     }
   }
 }

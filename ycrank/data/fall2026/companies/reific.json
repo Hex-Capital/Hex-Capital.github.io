@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.reific.co/",
     "yc_page": "https://www.ycombinator.com/companies/reific",
-    "batch": "Fall 2026 ([GPAgent directory, via search snippet](https://www.gpagent.ai/yc/company/reific))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/reific))",
     "industry": "B2B / B2B -> Infrastructure",
-    "team_size": "1",
+    "team_size": "1 ([Y Combinator](https://www.ycombinator.com/companies/reific))",
     "location": "San Francisco, CA, USA",
     "tags": "Generative AI, Machine Learning, Reinforcement Learning, Infrastructure, AI",
-    "yc_partner": "Not listed; YC page content was not retrievable",
-    "emails": "legal@reific.co ([Company details, via search snippet](https://reific.co/company)), security@reific.co ([Security, via search snippet](https://reific.co/security))"
+    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/reific))",
+    "emails": "antanas.zilinskas.research@gmail.com (Antanas Žilinskas, [ICLR 2026 research correspondence](https://openreview.net/pdf?id=ScpCaOVGw1)), legal@reific.co ([company enquiries](https://reific.co/company)), security@reific.co ([security reports](https://reific.co/security))"
   },
   "tags": [
     "Generative AI",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-06T17:34:31.925Z",
+  "memoGeneratedAt": "2026-11-18T00:25:16.012Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 43,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 43,
-    "NR": 49,
-    "PG": 36,
-    "PT": 34,
-    "SL": 30,
-    "VK": 28
+    "AGI": 38,
+    "HG": 36,
+    "EXIT": 41
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 84,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 15,
-    "tractionReason": "Internal evaluations and sandbox testing; no disclosed customer adoption"
+    "tractionRank": 208,
+    "tractionScore": 14,
+    "tractionReason": "Internal benchmark improvement, no disclosed customer use"
   },
   "paths": {
     "memo": "fall2026/memos/reific.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/reific.md",
-      "elad-gil": "fall2026/evals/elad-gil/reific.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/reific.md",
-      "paul-graham": "fall2026/evals/paul-graham/reific.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/reific.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/reific.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/reific.md"
+      "agi": "fall2026/evals/agi/reific.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/reific.md",
+      "exit": "fall2026/evals/exit/reific.md"
     }
   }
 }

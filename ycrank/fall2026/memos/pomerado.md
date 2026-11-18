@@ -6,64 +6,71 @@
 |-------|-------|
 | Website | https://www.pomerado.ai |
 | YC Page | https://www.ycombinator.com/companies/pomerado |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/pomerado)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/pomerado)) |
 | Industry | B2B / B2B -> Infrastructure |
-| Team Size | 2 |
+| Team Size | 2 ([Y Combinator](https://www.ycombinator.com/companies/pomerado)) |
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, B2B, Workflow Automation, API, AI |
-| YC Partner | Aaron Epstein ([YC](https://www.ycombinator.com/companies/pomerado)) |
-| Emails | founders@pomerado.ai, akshay@pomerado.ai ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use)) |
+| YC Partner | Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/pomerado)) |
+| Emails | akshay@pomerado.ai (CEO, introductions), founders@pomerado.ai (shared feedback and company notices) ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use), [Pomerado Terms of Service](https://pomerado.ai/terms-of-service)) |
 
 ## The Idea
 
-- **Problem:** Teams deploying agents into insurance, healthcare, logistics, and internal systems encounter websites without APIs, requiring browser agents or manually built integrations that the founders describe as delaying deployments ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use)).
-- **Approach:** A model explores a website using Chromium and Playwright, writes and tests reusable operations, and submits them to a separate review model before a runtime executes the saved integration without further model requests ([Pomerado architecture, retrieved Oct 27, 2026](https://github.com/Pomerado/pomerado/blob/main/docs/how-it-works.md)).
-- **Differentiation:** Pomerado packages hosted API/MCP generation, authentication, and maintenance, while Browserbase offers browser infrastructure and generated Stagehand scripts and Browser Use offers hosted agents plus reusable scripts, meaning script reuse is shared functionality ([Pomerado](https://pomerado.ai/), [Browserbase](https://www.browserbase.com/blog/series-b-and-beyond), [Browser Use](https://browser-use.com/developers)).
-- **Business Model:** Freemium subscriptions include Free at $0/month with 100 calls/day and 10 new integrations/month, Premium at $50/month with 1,000 calls/day and 100 integrations/month, and custom-priced Business plans ([Pomerado pricing, retrieved Oct 27, 2026](https://pomerado.ai/)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Public acquisition channels include a free signup, open-source repository, Product Hunt launch, Discord community, enterprise demos, and requests for introductions to agent-building teams ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use), [Product Hunt](https://www.producthunt.com/products/pomerado/awards), Oct 2026).
+- **Problem:** Enterprise teams building agents for insurance, healthcare, and back-office work rely on manual browser work, browser agents, or custom integrations when legacy portals lack APIs, delaying deployments and making repeated tasks harder to reproduce ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use)).
+- **Approach:** Pomerado builds a reusable tool for a website task, publishes it through MCP or REST, and triggers an automated repair when execution fails, with hosting and sign-in managed in its cloud offering ([Pomerado Docs](https://docs.pomerado.ai/), [Launch HN, Nov 2026, mirrored](https://hn.max-richter.dev/item/50455811)).
+- **Differentiation:** Pomerado exposes reusable, task-specific APIs and MCP tools, while Browserbase rents browser sessions and provides workflow tooling, Browser Use supplies agents that navigate websites, and Unbrowse prioritizes replaying a site’s existing API calls with browser fallback ([Pomerado Docs](https://docs.pomerado.ai/), [Browserbase](https://www.browserbase.com/blog/series-b-and-beyond), [Browser Use](https://browser-use.com/posts/seed-round), [Unbrowse](https://unbrowse.ai/)).
+- **Business Model:** Free includes 100 calls per day and 10 new integrations per month, Premium costs $50 per month for 1,000 calls per day and 100 new integrations per month, and Business uses custom outcome-based pricing ([Pomerado Pricing, Nov 2026](https://pomerado.ai/#pricing)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment
+- **GTM / Distribution:** Pomerado offers self-serve signup and an MIT-licensed core, uses Product Hunt and Hacker News for launches, and solicits enterprise demos and introductions to teams integrating legacy portals ([Pomerado](https://pomerado.ai/), [GitHub](https://github.com/Pomerado/pomerado), [Product Hunt](https://www.producthunt.com/products/pomerado/awards), [Launch HN](https://hn.max-richter.dev/item/50455811), [Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use)).
 
 ## Defensibility
 
-- **Moat today:** Public technical assets include integration generation, live-site testing, and a separate model reviewing browser actions and generated code, although these assets are published rather than exclusive ([Pomerado architecture](https://github.com/Pomerado/pomerado/blob/main/docs/how-it-works.md), [MIT-licensed repository](https://github.com/Pomerado/pomerado)).
-- **Future moat:** [Inferred]: A maintained integration library embedded in customer workflows could increase migration work, but public reuse, retention, and switching-cost data were not found.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given the available core source and competitors’ existing script-generation capabilities ([Pomerado GitHub](https://github.com/Pomerado/pomerado), [Browser Use changelog](https://browser-use.com/changelog)).
-- **Commoditization risk:** [Inferred]: Developers can adapt the MIT-licensed core, while Skyvern already describes compiling successful browser paths into Playwright scripts and repairing them after website changes, reducing exclusivity of that mechanism ([Pomerado GitHub](https://github.com/Pomerado/pomerado), [Skyvern, Dec 2025](https://www.skyvern.com/blog/skyvern-we-raised-2-7m-to-fix-browser-automation-open-source/)).
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: A growing catalog of maintained integrations could make the service harder to replace for customers with many configured workflows, but no public retention or switching data was found ([Pomerado Docs](https://docs.pomerado.ai/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Pomerado publishes its core under MIT, and Skyvern has announced a similar approach that compiles successful browser runs into reusable scripts and repairs them after site changes ([Pomerado GitHub](https://github.com/Pomerado/pomerado), [Skyvern, Dec 2025](https://www.skyvern.com/blog/skyvern-we-raised-2-7m-to-fix-browser-automation-open-source/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Repository displays 1.1k stars and 100 forks ([GitHub, retrieved Oct 27, 2026](https://github.com/Pomerado/pomerado)).
-  - Product Hunt daily rank #5 on October 16, 2026, with 181 points and 234 product followers displayed at research ([Product Hunt, retrieved Oct 27, 2026](https://www.producthunt.com/products/pomerado/awards)).
-  - Launch YC announcement published October 25, 2026 ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use); [AI Tamer, Oct 26, 2026, via search snippet](https://aitamer.news/posts/pomerado-yc-open-source-websites-to-mcp-integrations/)).
+  - Founder-reported users include car dealerships connecting agents to dealer systems, a personal trainer automating workouts and client messages, and personal-assistant users ([Launch HN, Nov 11, 2026, mirrored](https://hn.max-richter.dev/item/50455811)).
+  - 1.8K stars on the public `Pomerado/pomerado` repository ([GitHub, Nov 17, 2026](https://github.com/Pomerado/pomerado)).
+  - #5 of the day on October 16 and 235 product followers in November 2026 ([Product Hunt awards](https://www.producthunt.com/products/pomerado/awards), [Product Hunt listing](https://www.producthunt.com/products/pomerado?launch=pomerado)).
+  - 35K weekly npm package downloads in a November 12 snapshot ([Anchor Terminal, Nov 12, 2026](https://www.anchorterminal.com/tools/pomerado)).
+  - Public catalog grew from 46 read-only tools across 23 sites on October 17 to 584 tools across 447 sites on November 2 ([Anchor Terminal, 2026](https://www.anchorterminal.com/tools/pomerado)).
+  - 460 followers on @pomeradoai ([Teapawt X mirror, Nov 17, 2026](https://www.nitter.gq/pomeradoai)).
+  - 64 points on the November 11 Launch HN post ([Hacker News via Algolia, Nov 17, 2026](https://hn.algolia.com/?q=Turn+any+website+into+an+API)).
+  - Launch coverage in Get Ready for Agents and The Terminal ([Get Ready for Agents, Nov 12, 2026](https://www.getreadyforagents.com/news/pomerado-website-to-mcp-api-platform/), [The Terminal, Nov 14, 2026](https://theterminal.space/startups/pomerado-yc-fall-2026-website-to-mcp-pricing)).
+  - Zero active jobs on YC’s platform ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/pomerado/jobs)).
+  - CB Insights reports a $500K YC convertible note dated September 1, 2026, with no amount published on Pomerado’s YC profile ([CB Insights, via search snippet](https://www.cbinsights.com/company/pomerado/financials), [Y Combinator](https://www.ycombinator.com/companies/pomerado)).
 - **Competitors:**
-  - **Browserbase** ($67.5M raised; ARR unknown): Browser infrastructure, Stagehand, and Director script generation overlap with Pomerado’s integration tooling; its latest identified round was a $40M Series B announced June 18, 2025, led by Notable Capital ([Sacra](https://sacra.com/research/browserbase/), [Browserbase](https://www.browserbase.com/blog/series-b-and-beyond)).
-  - **Browser Use** ($17M disclosed funding; revenue unknown): Offers hosted browser agents, infrastructure, and replayable scripts; its $17M seed announced March 22, 2025, was led by Felicis ([funding announcement](https://browser-use.com/posts/seed-round), [developer documentation](https://browser-use.com/developers)).
-  - **Skyvern** ($2.7M disclosed seed; total funding: No public data found; revenue unknown): Browser workflow automation includes route compilation and repair, overlapping Pomerado’s mechanism; its December 18, 2025 announcement does not identify a lead investor ([Skyvern](https://www.skyvern.com/blog/skyvern-we-raised-2-7m-to-fix-browser-automation-open-source/)).
-- **Why now:** [Inferred]: MCP’s introduction on November 25, 2024, created a common interface for connecting assistants to tools, providing a distribution format for website integrations ([Anthropic](https://www.anthropic.com/news/model-context-protocol)).
+  - **Browserbase** ($67.5M across announced rounds, over $3M in revenue reported in June 2025): sells cloud browser sessions and workflow tooling, with a $40M Series B led by Notable Capital in June 2025 ([Browserbase](https://www.browserbase.com/blog/series-b-and-beyond), [Alion funding history](https://alion.io/company/browserbase/news), [Upstarts Media](https://www.upstartsmedia.com/p/browserbase-raises-40m-and-launches-director)).
+  - **Browser Use** (at least $17M raised, revenue unknown): provides an open-source browser agent library and cloud infrastructure, with a $17M seed led by Felicis in March 2025 ([Browser Use](https://browser-use.com/posts/seed-round), [Felicis](https://www.felicis.com/blog/investing-in-browser-use)).
+  - **Skyvern** (at least $2.7M raised, revenue unknown): uses visual browser agents and has announced workflow-to-script compilation, funded by a December 2025 seed with the lead undisclosed ([Skyvern](https://www.skyvern.com/blog/skyvern-we-raised-2-7m-to-fix-browser-automation-open-source/)).
+  - **Unbrowse** (funding unknown, revenue unknown): learns and reuses first-party API routes, with cloud browser fallback ([Unbrowse](https://unbrowse.ai/)).
+- **Why now:** [Inferred]: Anthropic’s December 2025 donation of MCP to the Linux Foundation’s Agentic AI Foundation gave website integration vendors a shared interface for reaching agents from multiple providers ([Anthropic, Dec 2025](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)).
 
 ## Founders & Team
 
-- **Akshay Manglik (Co-founder, CEO):**
-  - Background: Columbia BA in Computer Science and Economics, mathematics minor, graduating in 2025; previously a Scale AI applied engineer building enterprise agents, including Mayo Clinic deployments, and researching agent-trace diagnostics ([personal website](https://akshaymanglik.com/), [YC founder profile](https://www.ycombinator.com/founders/akshay-manglik)).
-  - Twitter/X: @akshay_manglik; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/akshay-manglik)).
-  - LinkedIn: Profile found; headline: No public data found; indexed count of 1K followers ([LinkedIn, retrieved Oct 27, 2026, via search snippet](https://www.linkedin.com/in/akshay-manglik)).
-  - GitHub: @AkshayM21; highlighted contributed project aakritil/SafeSip has 3 stars ([profile](https://github.com/AkshayM21), [repository, retrieved Oct 27, 2026](https://github.com/aakritil/SafeSip)).
-- **Alan Ma (Co-founder, CTO):**
-  - Background: Studied Mathematics and Computer Science at Columbia; previously a McKinsey business analyst working on enterprise data and AI strategy, with RBC Capital Markets and Kargo also listed in his history ([YC founder profile](https://www.ycombinator.com/founders/alan-ma), [company role](https://pomerado.ai/about)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline: No public data found; indexed count of 827 followers ([LinkedIn, retrieved Oct 27, 2026, via search snippet](https://www.linkedin.com/in/ajma867)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both attended Columbia and previously collaborated on SafeSip, a separate alcohol-safety application listed by Columbia’s healthcare venture competition ([Columbia University](https://www.publichealth.columbia.edu/fast-pitch-competition)).
-- **Founder-market fit:** Their documented experience combines enterprise agent engineering at Scale AI with enterprise data/AI strategy at McKinsey; YC identifies Aaron Epstein as the assigned partner ([company background](https://pomerado.ai/about), [YC](https://www.ycombinator.com/companies/pomerado)).
+- **Akshay Manglik (Co-founder and CEO)** ([Pomerado About](https://pomerado.ai/about))
+  - **Background:** Columbia BA in Computer Science and Economics, former Scale AI Applied AI Engineer who built enterprise agents including for Mayo Clinic, and former PayPal AI engineering intern (business email akshay@pomerado.ai) ([Founder site](https://akshaymanglik.com/), [Founder CV](https://www.akshaymanglik.com/assets/cv/cv_web.pdf), [YC founder profile](https://www.ycombinator.com/founders/akshay-manglik), [Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use)).
+  - **Twitter/X:** @akshay_manglik, 1.6K followers ([YC founder profile](https://www.ycombinator.com/founders/akshay-manglik), [Teapawt X mirror, Nov 2026](https://teapaw.org/akshay_manglik)).
+  - **LinkedIn:** “Scale AI” in the indexed profile title, with 1K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/akshay-manglik)).
+  - **GitHub:** @AkshayM21, contributor to `Pomerado/pomerado` with 1.8K repository stars ([GitHub pull requests](https://github.com/Pomerado/pomerado/pulls), [GitHub repository, Nov 2026](https://github.com/Pomerado/pomerado)).
+- **Alan Ma (Co-founder and CTO)** ([Pomerado About](https://pomerado.ai/about))
+  - **Background:** Studied Mathematics and Computer Science at Columbia and worked as a McKinsey business analyst on data and AI strategy for Fortune 500 companies (direct business email — No public data found) ([YC founder profile](https://www.ycombinator.com/founders/alan-ma)).
+  - **Twitter/X:** @Alanmrsa1, 148 followers ([Teapawt X mirror, Nov 2026](https://teapawt.org/Alanmrsa1)).
+  - **LinkedIn:** Public profile linked from the company site, headline and follower count not retrievable ([Pomerado About](https://pomerado.ai/about), [LinkedIn](https://www.linkedin.com/in/ajma867/)).
+  - **GitHub:** @alanmrsa, contributor to `Pomerado/pomerado` with 1.8K repository stars ([GitHub pull requests](https://github.com/Pomerado/pomerado/pulls), [GitHub repository, Nov 2026](https://github.com/Pomerado/pomerado)).
+- **Co-founder relationship:** Both attended Columbia and placed second together with the SafeSip student project at Columbia’s November 2024 Healthcare Ventures Fast-Pitch Competition ([Columbia University](https://www.publichealth.columbia.edu/fast-pitch-competition)).
+- **Founder-market fit:** Manglik built enterprise agents at Scale AI and Ma advised enterprises on AI strategy at McKinsey, and the YC-backed company attributes its product to integration delays the founders encountered in that work ([YC directory and launch](https://www.ycombinator.com/companies/pomerado), [Pomerado About](https://pomerado.ai/about)).
 
 ## Key Risks
 
-- **Technical compatibility:** Pomerado’s terms acknowledge that website, authentication, and access-policy changes can interrupt integrations and provide no universal restoration deadline, while committing to commercially reasonable repair efforts ([Terms, Oct 4, 2026](https://pomerado.ai/terms-of-service)).
-- **Performance verification:** Reported speed, cost, and reliability improvements are company claims; AI Tamer explicitly states that it created no integrations and did not verify those gains ([AI Tamer, Oct 26, 2026, via search snippet](https://aitamer.news/posts/pomerado-yc-open-source-websites-to-mcp-integrations/)).
-- **Sensitive workflows:** Pomerado supports authenticated actions and optional credential storage, while its terms require separate agreements before processing HIPAA-regulated information ([website FAQ](https://pomerado.ai/), [Terms](https://pomerado.ai/terms-of-service)).
-- **Automation permissions:** Having login credentials does not establish permission for every automated activity, and customers must discontinue affected activities when authorization expires or is revoked ([Terms](https://pomerado.ai/terms-of-service)).
-- **Name disambiguation:** Dealroom’s Pomerado entry includes a narrative about Pomo and different founders, so its financing narrative is excluded from this dossier ([Dealroom](https://app.dealroom.co/companies/pomerado), [verified YC identity](https://www.ycombinator.com/companies/pomerado)).
+- **Third-party access:** Portal operators can change their interfaces, authentication, or access policies and interrupt integrations, while Pomerado’s terms require customers to maintain authorization and its product can attempt automatic repairs ([Pomerado Terms](https://pomerado.ai/terms-of-service), [Pomerado](https://pomerado.ai/)).
+- **Technical reliability:** The company benchmark used prebuilt integrations and one attempt per task across 30 tasks in 25 apps. The founders separately reported a 2.2% run error rate, with 82% of errors automatically resolved and the highest failure rates on travel and automotive marketplaces ([Pomerado benchmark](https://pomerado.ai/), [Launch HN, Nov 2026, mirrored](https://hn.max-richter.dev/item/50455811)).
+- **Sensitive data processing:** Pomerado says it masks credentials before model processing, while browser, proxy, and sandbox providers may process original content before screening and model providers may still receive other personal information ([Pomerado Privacy Policy, Nov 2026](https://pomerado.ai/privacy-policy)).
+- **Company-name confusion:** Dealroom’s Pomerado entry incorporates financing and founder details belonging to the separate marketing startup Pomo, whose own site identifies the Kindred Ventures round ([Dealroom](https://app.dealroom.co/companies/pomerado), [Pomo About](https://usepomo.ai/about)).
 
 ## Key Facts
 
@@ -71,12 +78,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | 1.1k stars, 100 forks ([GitHub, Oct 27, 2026](https://github.com/Pomerado/pomerado)); Product Hunt #5 daily, Oct 16, 2026 ([Product Hunt](https://www.producthunt.com/products/pomerado/awards)) |
-| Revenue Signal | Free $0/month; Premium $50/month; Business custom pricing ([Pomerado pricing, Oct 27, 2026](https://pomerado.ai/)) |
-| Founders | Akshay Manglik, CEO: Columbia, Scale AI; Alan Ma, CTO: Columbia, McKinsey ([YC](https://www.ycombinator.com/companies/pomerado), [company](https://pomerado.ai/about)) |
-| Competitors | Browserbase: $67.5M raised, revenue unknown, browser infrastructure ([Sacra](https://sacra.com/research/browserbase/)); Browser Use: $17M disclosed, revenue unknown, hosted agents ([company](https://browser-use.com/posts/seed-round)); Skyvern: $2.7M disclosed seed, revenue unknown, compiled workflows ([company](https://www.skyvern.com/blog/skyvern-we-raised-2-7m-to-fix-browser-automation-open-source/)) |
+| Traction | Founder-reported use by car dealerships, a personal trainer, and personal-assistant users ([Launch HN, Nov 2026](https://hn.max-richter.dev/item/50455811)); 1.8K repository stars ([GitHub, Nov 2026](https://github.com/Pomerado/pomerado)) |
+| Revenue Signal | Free tier, $50/month Premium, custom outcome-based Business pricing ([Pomerado Pricing, Nov 2026](https://pomerado.ai/#pricing)) |
+| Founders | Akshay Manglik (CEO), Columbia and Scale AI; Alan Ma (CTO), Columbia and McKinsey ([Y Combinator](https://www.ycombinator.com/companies/pomerado), [Pomerado About](https://pomerado.ai/about)) |
+| Competitors | Browserbase ($67.5M raised, over $3M revenue reported June 2025, cloud browsers) ([Alion](https://alion.io/company/browserbase/news), [Upstarts Media](https://www.upstartsmedia.com/p/browserbase-raises-40m-and-launches-director)); Browser Use (at least $17M raised, revenue unknown, browser agent library) ([Browser Use](https://browser-use.com/posts/seed-round)); Skyvern (at least $2.7M raised, revenue unknown, visual browser workflows) ([Skyvern](https://www.skyvern.com/blog/skyvern-we-raised-2-7m-to-fix-browser-automation-open-source/)); Unbrowse (funding and revenue unknown, first-party API replay) ([Unbrowse](https://unbrowse.ai/)) |
 | Moat Signals | No public data found |
-| Risk Factors | Third-party compatibility changes, automation permissions, regulated-data restrictions ([Pomerado Terms](https://pomerado.ai/terms-of-service)) |
-| Founder Reach | Manglik: LinkedIn 1K; Ma: LinkedIn 827 followers ([Manglik](https://www.linkedin.com/in/akshay-manglik), [Ma](https://www.linkedin.com/in/ajma867), retrieved Oct 27, 2026, via search snippets) |
-| Distribution Signals | Product Hunt #5 daily, 234 followers displayed ([Product Hunt, Oct 27, 2026](https://www.producthunt.com/products/pomerado/awards)); open-source distribution ([GitHub](https://github.com/Pomerado/pomerado)) |
-| Emails | founders@pomerado.ai, akshay@pomerado.ai ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use)) |
+| Risk Factors | Third-party access changes ([Pomerado Terms](https://pomerado.ai/terms-of-service)), run failures across site categories ([Launch HN](https://hn.max-richter.dev/item/50455811)), sensitive data processing ([Pomerado Privacy Policy](https://pomerado.ai/privacy-policy)) |
+| Founder Reach | Manglik, 1.6K X and 1K LinkedIn followers ([Teapawt](https://teapaw.org/akshay_manglik), [LinkedIn via search snippet](https://www.linkedin.com/in/akshay-manglik)); Ma, 148 X followers ([Teapawt](https://teapawt.org/Alanmrsa1)); both contribute to the company repo with 1.8K stars ([GitHub pull requests](https://github.com/Pomerado/pomerado/pulls), [GitHub repository, Nov 2026](https://github.com/Pomerado/pomerado)) |
+| Distribution Signals | Product Hunt #5 of the day ([Oct 16, 2026](https://www.producthunt.com/products/pomerado/awards)); 35K weekly npm downloads ([Anchor Terminal, Nov 12, 2026](https://www.anchorterminal.com/tools/pomerado)); 460 company X followers ([Teapawt, Nov 2026](https://www.nitter.gq/pomeradoai)); 64 Launch HN points ([Hacker News via Algolia, Nov 2026](https://hn.algolia.com/?q=Turn+any+website+into+an+API)) |
+| Emails | akshay@pomerado.ai (CEO, introductions), founders@pomerado.ai (shared feedback and company notices) ([Launch YC](https://www.ycombinator.com/launches/WSd-pomerado-the-faster-cheaper-and-more-reliable-alternative-to-browser-use), [Pomerado Terms](https://pomerado.ai/terms-of-service)) |

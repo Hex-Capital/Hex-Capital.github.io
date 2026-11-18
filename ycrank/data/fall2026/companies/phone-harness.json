@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://phone-harness.com/",
     "yc_page": "https://www.ycombinator.com/companies/phone-harness",
-    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/phone-harness))",
+    "batch": "Fall 2026 ([Y Combinator directory](https://www.ycombinator.com/companies/phone-harness))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Open Source, API, Automation, AI",
-    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/phone-harness))",
-    "emails": "support@phone-harness.com ([Pricing](https://phone-harness.com/pricing))"
+    "yc_partner": "Andrew Miklas ([Y Combinator directory](https://www.ycombinator.com/companies/phone-harness))",
+    "emails": "support@phone-harness.com, shared support, billing and privacy inbox ([company terms](https://phone-harness.com/terms), [privacy policy](https://phone-harness.com/privacy))"
   },
   "tags": [
     "Open Source",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:54:32.856Z",
+  "memoGeneratedAt": "2026-11-17T22:43:17.523Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 40,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 36,
-    "NR": 43,
-    "PG": 44,
-    "PT": 31,
-    "SL": 31,
-    "VK": 25
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 36
   },
-  "consolidatedAvg": 35.71,
-  "consolidatedRank": 145,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 46,
-    "tractionReason": "Approximately 4,000 stars and 403 forks; cloud beta available"
+    "tractionRank": 92,
+    "tractionScore": 51,
+    "tractionReason": "5,100 GitHub stars, 522 forks, paid cloud plans"
   },
   "paths": {
     "memo": "fall2026/memos/phone-harness.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/phone-harness.md",
-      "elad-gil": "fall2026/evals/elad-gil/phone-harness.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/phone-harness.md",
-      "paul-graham": "fall2026/evals/paul-graham/phone-harness.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/phone-harness.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/phone-harness.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/phone-harness.md"
+      "agi": "fall2026/evals/agi/phone-harness.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/phone-harness.md",
+      "exit": "fall2026/evals/exit/phone-harness.md"
     }
   }
 }

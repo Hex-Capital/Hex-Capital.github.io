@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Cloud Computing, AI",
     "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/orgo))",
-    "emails": "contact@orgo.ai ([Docs](https://docs.orgo.ai/introduction)); spencer@orgo.ai ([Terms](https://www.orgo.ai/terms)); privacy@orgo.ai ([Privacy](https://www.orgo.ai/privacy)); email@spencerkinney.dev ([Founder website](https://www.spencerkinney.dev/))"
+    "emails": "spencer@orgo.ai (CEO, billing and urgent inquiries), email@spencerkinney.dev (CEO portfolio), nick@orgo.ai (COO), yunwangt@gmail.com (CTO portfolio), contact@orgo.ai (general), privacy@orgo.ai (privacy and security) ([Orgo About](https://www.orgo.ai/about), [Kinney](https://www.spencerkinney.dev/), [Vasilescu](https://www.nickvasilescu.com/), [Wang](https://tigerywang.github.io/), [Orgo Privacy Policy](https://www.orgo.ai/privacy))"
   },
   "tags": [
     "Developer Tools",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:11:43.078Z",
+  "memoGeneratedAt": "2026-11-18T00:20:54.211Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 53,
+    "agi": {
+      "score": 46,
       "tier": "Neutral"
     },
-    "elad-gil": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 54,
-    "NR": 51,
-    "PG": 56,
-    "PT": 31,
-    "SL": 38,
-    "VK": 25
+    "AGI": 46,
+    "HG": 37,
+    "EXIT": 37
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 24,
+  "consolidatedAvg": 40,
+  "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 67,
-    "tractionReason": "1,000+ teams; thousands of production desktops; confirmed paying customer"
+    "tractionRank": 28,
+    "tractionScore": 68,
+    "tractionReason": "1,000+ teams, thousands of production desktops, reported revenue generation"
   },
   "paths": {
     "memo": "fall2026/memos/orgo.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/orgo.md",
-      "elad-gil": "fall2026/evals/elad-gil/orgo.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/orgo.md",
-      "paul-graham": "fall2026/evals/paul-graham/orgo.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/orgo.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/orgo.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/orgo.md"
+      "agi": "fall2026/evals/agi/orgo.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/orgo.md",
+      "exit": "fall2026/evals/exit/orgo.md"
     }
   }
 }

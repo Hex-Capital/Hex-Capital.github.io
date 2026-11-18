@@ -1,17 +1,17 @@
 {
   "slug": "frontrunner",
   "name": "Frontrunner",
-  "oneLiner": "Cursor for GTM",
+  "oneLiner": "Engineer your GTM",
   "metadata": {
     "website": "https://usefr.com/",
     "yc_page": "https://www.ycombinator.com/companies/frontrunner",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/frontrunner))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/frontrunner))",
     "industry": "B2B / B2B -> Sales",
-    "team_size": "2",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Sales, Marketing, AI",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/frontrunner))",
-    "emails": "founders@usefr.com ([Frontrunner Terms](https://usefr.com/terms-of-service))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/frontrunner))",
+    "emails": "maya@usefr.com, CEO business contact ([Company Launch Tracker, Oct 2026](https://companylaunchtracker.substack.com/p/company-launch-tracker-115)), founders@usefr.com, general inbox ([Frontrunner](https://usefr.com/about))"
   },
   "tags": [
     "Sales",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:01:10.342Z",
+  "memoGeneratedAt": "2026-11-17T22:58:27.175Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 49,
-    "NR": 46,
-    "PG": 43,
-    "PT": 31,
-    "SL": 39,
-    "VK": 27
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 41
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 65,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 96,
   "traction": {
-    "tractionRank": 71,
+    "tractionRank": 85,
     "tractionScore": 52,
-    "tractionReason": "Customer reports 100+ daily opportunities actioned; multiple usage testimonials"
+    "tractionReason": "Three named testimonials, Foresight booked seven meetings in 48 hours"
   },
   "paths": {
     "memo": "fall2026/memos/frontrunner.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/frontrunner.md",
-      "elad-gil": "fall2026/evals/elad-gil/frontrunner.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/frontrunner.md",
-      "paul-graham": "fall2026/evals/paul-graham/frontrunner.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/frontrunner.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/frontrunner.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/frontrunner.md"
+      "agi": "fall2026/evals/agi/frontrunner.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/frontrunner.md",
+      "exit": "fall2026/evals/exit/frontrunner.md"
     }
   }
 }

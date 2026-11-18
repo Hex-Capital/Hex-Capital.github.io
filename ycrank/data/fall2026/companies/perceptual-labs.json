@@ -1,80 +1,56 @@
 {
   "slug": "perceptual-labs",
   "name": "Perceptual Labs",
-  "oneLiner": "Building the next generation of visual intelligence",
+  "oneLiner": "Building intelligence that can understand and rewrite itself",
   "metadata": {
     "website": "https://www.perceptuallabs.com/",
     "yc_page": "https://www.ycombinator.com/companies/perceptual-labs",
-    "batch": "No public data found",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/perceptual-labs))",
     "industry": "B2B / B2B -> Infrastructure",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, AI",
-    "yc_partner": "Not listed",
-    "emails": "No public data found"
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/perceptual-labs))",
+    "emails": "kevin@bryel.ai (Kevin Miao, [MuSP-Bench author contact, Nov 2026](https://arxiv.org/pdf/2608.28212v3)), frankie@bryel.ai (Frankie Li, [Launch YC training inquiries, Oct 2026](https://www.ycombinator.com/launches/V2o-bryel-building-your-in-house-frontier-ai-lab))"
   },
   "tags": [
     "B2B",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-30T06:02:09.273Z",
+  "memoGeneratedAt": "2026-11-17T23:52:40.101Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 26,
+    "agi": {
+      "score": 31,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 26,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 26,
-    "NR": 24,
-    "PG": 29,
-    "PT": 28,
-    "SL": 28,
-    "VK": 25
+    "AGI": 31,
+    "HG": 36,
+    "EXIT": 33
   },
-  "consolidatedAvg": 26.57,
+  "consolidatedAvg": 33.33,
   "consolidatedRank": 234,
   "traction": {
-    "tractionRank": 233,
-    "tractionScore": 0,
-    "tractionReason": "No disclosed traction evidence"
+    "tractionRank": 183,
+    "tractionScore": 28,
+    "tractionReason": "Early-access waitlist for weight editing, signups undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/perceptual-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/perceptual-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/perceptual-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/perceptual-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/perceptual-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/perceptual-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/perceptual-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/perceptual-labs.md"
+      "agi": "fall2026/evals/agi/perceptual-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/perceptual-labs.md",
+      "exit": "fall2026/evals/exit/perceptual-labs.md"
     }
   }
 }

@@ -1,80 +1,56 @@
 {
   "slug": "shire-intelligence",
   "name": "Shire Intelligence",
-  "oneLiner": "Shire uses CCTV to run restaurants in real time.",
+  "oneLiner": "Real-time restaurant intelligence",
   "metadata": {
     "website": "https://shireintelligence.com/",
     "yc_page": "https://www.ycombinator.com/companies/shire-intelligence",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/shire-intelligence))",
-    "industry": "Consumer / Consumer -> Food and Beverage",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/shire-intelligence))",
+    "industry": "B2B / B2B",
     "team_size": "4",
     "location": "Myrtle Beach, SC, USA",
     "tags": "Deep Learning, Food Tech",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/shire-intelligence))",
-    "emails": "alex@shireintelligence.com, founders@shireintelligence.com ([Shire privacy policy](https://shireintelligence.com/privacy-policy))"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/shire-intelligence))",
+    "emails": "alex@shireintelligence.com, Alex Tabaku ([Shire website](https://shireintelligence.com/)), founders@shireintelligence.com, shared launch and privacy inbox ([Launch YC](https://www.ycombinator.com/launches/WfG-shire-intelligence-giving-restaurants-software-eyes), [Shire Privacy Policy](https://shireintelligence.com/privacy-policy))"
   },
   "tags": [
     "Deep Learning",
     "Food Tech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:12:57.321Z",
+  "memoGeneratedAt": "2026-11-17T23:23:24.851Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
       "score": 38,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 41,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 41,
-    "NR": 43,
-    "PG": 40,
-    "PT": 34,
-    "SL": 31,
-    "VK": 27
+    "AGI": 38,
+    "HG": 37,
+    "EXIT": 38
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 133,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 121,
   "traction": {
-    "tractionRank": 91,
-    "tractionScore": 47,
-    "tractionReason": "Named restaurant deployment testimonial; own revenue undisclosed"
+    "tractionRank": 81,
+    "tractionScore": 53,
+    "tractionReason": "13 live restaurants, named Mathews Restaurant testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/shire-intelligence.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/shire-intelligence.md",
-      "elad-gil": "fall2026/evals/elad-gil/shire-intelligence.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/shire-intelligence.md",
-      "paul-graham": "fall2026/evals/paul-graham/shire-intelligence.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/shire-intelligence.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/shire-intelligence.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/shire-intelligence.md"
+      "agi": "fall2026/evals/agi/shire-intelligence.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/shire-intelligence.md",
+      "exit": "fall2026/evals/exit/shire-intelligence.md"
     }
   }
 }

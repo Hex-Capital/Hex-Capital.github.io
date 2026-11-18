@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Legal, LegalTech, AI",
     "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/praxis))",
-    "emails": "founders@runpraxis.ai ([Praxis Privacy Policy](https://runpraxis.ai/privacy))"
+    "emails": "founders@runpraxis.ai, shared inbox for privacy, subprocessor and terms inquiries ([Praxis privacy policy](https://runpraxis.ai/privacy), [Praxis terms](https://runpraxis.ai/terms))"
   },
   "tags": [
     "Legal",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:57:07.714Z",
+  "memoGeneratedAt": "2026-11-17T23:44:46.930Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 38,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 40,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "exit": {
       "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 40,
-    "NR": 42,
-    "PG": 36,
-    "PT": 27,
-    "SL": 32,
-    "VK": 28
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 36
   },
-  "consolidatedAvg": 34.71,
-  "consolidatedRank": 167,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 50,
-    "tractionReason": "Live with US law firms; customer count and payments undisclosed"
+    "tractionRank": 112,
+    "tractionScore": 44,
+    "tractionReason": "Live deployments at US law firms, fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/praxis.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/praxis.md",
-      "elad-gil": "fall2026/evals/elad-gil/praxis.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/praxis.md",
-      "paul-graham": "fall2026/evals/paul-graham/praxis.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/praxis.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/praxis.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/praxis.md"
+      "agi": "fall2026/evals/agi/praxis.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/praxis.md",
+      "exit": "fall2026/evals/exit/praxis.md"
     }
   }
 }

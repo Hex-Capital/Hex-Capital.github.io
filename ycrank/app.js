@@ -30,7 +30,7 @@ function app() {
     batches: [],
     currentBatch: '',
     manifest: null,
-    personas: [],
+    _batchLoadId: 0,
     loading: true,
     view: 'dashboard', // dashboard | company | analytics
 
@@ -49,6 +49,7 @@ function app() {
     companyChatEnabled: false,
     companyChatThreads: {},
     _companyLoadId: 0,
+    _tabLoadId: 0,
     mdCache: {}, // path -> rendered html
     _mdCacheSize: 0, // approximate total bytes in mdCache
 
@@ -57,6 +58,7 @@ function app() {
     councilInput: '',
     councilAsking: false,
     councilMessages: [],
+    councilRoster: [],
     councilPersonas: [],
     councilProvider: 'codex',
     councilModel: 'balanced',
@@ -182,9 +184,15 @@ function app() {
         }
         this.batches = await batchesResp.json();
 
-        // Load personas
-        const personasResp = await fetch('data/personas.json');
-        this.personas = await personasResp.json();
+        // Council has its own roster, independent of the batch's evaluation method.
+        if (!this.staticMode) {
+          try {
+            const personasResp = await fetch('data/personas.json');
+            if (personasResp.ok) this.councilRoster = await personasResp.json();
+          } catch (e) {
+            console.error('Failed to load the Council roster:', e);
+          }
+        }
 
         // Load default batch
         if (this.batches.length > 0) {
@@ -196,7 +204,7 @@ function app() {
 
         // Initialize council: all personas active, generate session ID
         this.councilSessionId = crypto.randomUUID();
-        this.councilPersonas = this.personas.map(p => p.slug);
+        this.councilPersonas = this.councilRoster.map(p => p.slug);
 
         // Load user state (watchlist, etc.)
         await this.loadUserState();
@@ -309,24 +317,69 @@ function app() {
       return labels[stage] || stage.slice(0, 3).toUpperCase();
     },
 
+    get evaluators() {
+      return this.manifest?.evaluators ?? this.manifest?.personas ?? [];
+    },
+
+    get thesisEvaluations() {
+      return this.manifest?.evaluationMode === 'thesis';
+    },
+
+    evaluatorName(abbr) {
+      return this.evaluators.find(evaluator => evaluator.abbr === abbr)?.fullName || abbr;
+    },
+
+    evaluatorScoreLabel(label) {
+      if (!this.thesisEvaluations || !label) return label;
+      const abbr = label.split(' (', 1)[0];
+      return this.evaluatorName(abbr) + label.slice(abbr.length);
+    },
+
+    selectBatch(batchName) {
+      this.currentBatch = batchName;
+      if (this.view === 'company') this.navigate('dashboard');
+      return this.loadBatch(batchName);
+    },
+
     async loadBatch(batchName) {
+      const loadId = ++this._batchLoadId;
+      const previousEvaluators = this.evaluators;
+      this._companyLoadId++;
+      this._tabLoadId++;
       this.loading = true;
+      this.buildMeta = null;
+      this.companyData = null;
+      this.activeTab = 'memo';
+      this.tabContent = '';
+      this.tabLoading = false;
       try {
         const resp = await fetch(`data/${batchName}/manifest.json`);
+        if (loadId !== this._batchLoadId) return;
         if (!resp.ok) {
           this.noBuildData = true;
           this.manifest = null;
+          this.disagreementSet = new Set();
           return;
         }
+        const manifest = await resp.json();
+        if (loadId !== this._batchLoadId) return;
         this.noBuildData = false;
-        this.manifest = await resp.json();
-        this.personas = this.manifest.personas;
+        this.manifest = manifest;
+        if (previousEvaluators.some(p => p.abbr === this.sortCol) && !this.evaluators.some(p => p.abbr === this.sortCol)) {
+          this.sortCol = 'avg';
+          this.sortDir = -1;
+        }
 
         // Load build metadata
         try {
           const metaResp = await fetch(`data/${batchName}/buildMeta.json`);
-          if (metaResp.ok) this.buildMeta = await metaResp.json();
+          if (metaResp.ok) {
+            const buildMeta = await metaResp.json();
+            if (loadId !== this._batchLoadId) return;
+            this.buildMeta = buildMeta;
+          }
         } catch (e) { /* optional */ }
+        if (loadId !== this._batchLoadId) return;
 
         // Build disagreement set
         this.disagreementSet = new Set(this.manifest.disagreements.map(d => d.company));
@@ -341,18 +394,21 @@ function app() {
           }
         }
         const gPad = Math.max((gMax - gMin) * 0.02, 1);
-        this._graphScaleMin = Math.max(Math.floor(gMin - gPad), 0);
-        this._graphScaleMax = Math.min(Math.ceil(gMax + gPad), 100);
+        this._graphScaleMin = gMin > gMax ? 0 : Math.max(Math.floor(gMin - gPad), 0);
+        this._graphScaleMax = gMin > gMax ? 100 : Math.min(Math.ceil(gMax + gPad), 100);
 
         // Clear caches
         this.mdCache = {};
         this._mdCacheSize = 0;
-        this.companyData = null;
         this.mobileCardIndex = 0;
       } catch (e) {
+        if (loadId !== this._batchLoadId) return;
+        this.manifest = null;
+        this.disagreementSet = new Set();
+        this.noBuildData = true;
         console.error('Failed to load batch:', e);
       } finally {
-        this.loading = false;
+        if (loadId === this._batchLoadId) this.loading = false;
       }
     },
 
@@ -401,6 +457,7 @@ function app() {
       // Sort
       const col = this.sortCol;
       const dir = this.sortDir;
+      const isEvaluationColumn = this.evaluators.some(evaluator => evaluator.abbr === col);
       rows = [...rows].sort((a, b) => {
         let va, vb;
         if (col === 'name') {
@@ -408,8 +465,9 @@ function app() {
           vb = b.name.toLowerCase();
           return va < vb ? -dir : va > vb ? dir : 0;
         } else if (col === 'avg') {
-          va = a.avg || 0;
-          vb = b.avg || 0;
+          va = a.avg;
+          vb = b.avg;
+          if (va == null || vb == null) return Number(va == null) - Number(vb == null);
         } else if (col === 'revenue') {
           va = a.revenue != null ? a.revenue : -1;
           vb = b.revenue != null ? b.revenue : -1;
@@ -428,10 +486,11 @@ function app() {
           // Unranked companies always sort last regardless of direction
           va = a.tractionRank != null ? a.tractionRank : Infinity;
           vb = b.tractionRank != null ? b.tractionRank : Infinity;
-        } else if (a.scores && a.scores[col] !== undefined) {
-          // Persona abbreviation column (CB, EG, NR, PG, PT, SL, VK)
-          va = a.scores[col] != null ? a.scores[col] : -1;
-          vb = b.scores[col] != null ? b.scores[col] : -1;
+        } else if (isEvaluationColumn) {
+          // Evaluation score column
+          va = a.scores?.[col];
+          vb = b.scores?.[col];
+          if (va == null || vb == null) return Number(va == null) - Number(vb == null);
         } else {
           va = a[col] || 0;
           vb = b[col] || 0;
@@ -456,7 +515,7 @@ function app() {
       if (this.watchlistFilter) {
         rows = rows.filter(r => this.watchlist.includes(r.slug));
       }
-      return [...rows].sort((a, b) => (b.avg || 0) - (a.avg || 0));
+      return [...rows].sort((a, b) => (b.avg ?? -1) - (a.avg ?? -1));
     },
 
     get autocompleteResults() {
@@ -538,7 +597,7 @@ function app() {
     },
 
     scoreGraphSVG(card) {
-      if (!card) return '';
+      if (!card || !this.evaluators.length) return '';
       // Measure the actual graph container to match the viewBox aspect ratio
       const graphEl = document.querySelector('.mobile-score-graph');
       const cw = graphEl?.offsetWidth || 280;
@@ -546,7 +605,7 @@ function app() {
       const vbW = 280;
       const vbH = Math.max(Math.round(vbW * ch / cw), 80);
 
-      const count = this.personas.length;
+      const count = this.evaluators.length;
       const yTop = 16;                // room for score text above top dot
       const yBottom = vbH - 6;        // dots can go near the bottom (labels are HTML)
       const xStart = 25, xEnd = 255;
@@ -557,7 +616,7 @@ function app() {
       const scaleMax = this._graphScaleMax;
       const scaleRange = scaleMax - scaleMin || 1;
 
-      const pts = this.personas.map((p, i) => {
+      const pts = this.evaluators.map((p, i) => {
         const score = card.scores[p.abbr];
         return {
           x: Math.round(xStart + i * xStep),
@@ -606,7 +665,7 @@ function app() {
           out += `<span style="position:absolute;left:${xPct}%;top:calc(${yPct}% - ${yOffset}px);transform:translateX(-50%);font:700 13px 'JetBrains Mono',monospace;color:${pt.color}">${val}</span>`;
         }
       }
-      // HTML persona labels: positioned at bottom
+      // Evaluation labels positioned at bottom
       out += `<div style="position:absolute;bottom:0;left:0;right:0;display:flex;justify-content:space-between;padding:0 9%;line-height:1">`;
       for (const pt of pts) {
         out += `<span style="font:600 12px 'JetBrains Mono',monospace;color:var(--c-gray)">${pt.label}</span>`;
@@ -635,16 +694,17 @@ function app() {
       return d ? d.keyTension || '' : '';
     },
 
-    getScoreTip(slug, personaAbbr) {
+    getScoreTip(slug, evaluatorAbbr) {
       if (!this.manifest) return '';
       const row = this.manifest.table.find(r => r.slug === slug);
-      return row && row.scoreTips && row.scoreTips[personaAbbr] ? row.scoreTips[personaAbbr] : '';
+      return row?.scoreTips?.[evaluatorAbbr] || '';
     },
 
     // --- Company Detail ---
 
     async showCompany(slug) {
       const loadId = ++this._companyLoadId;
+      this._tabLoadId++;
       this.view = 'company';
       this.activeTab = 'memo';
       this.tabContent = '';
@@ -658,6 +718,7 @@ function app() {
         this.companyData = company;
         // Load memo content
         await this.loadTabContent('memo');
+        if (loadId !== this._companyLoadId) return;
         // Load annotations
         await this.loadAnnotations(slug);
       } catch (e) {
@@ -725,6 +786,7 @@ function app() {
 
     async loadTabContent(tab) {
       if (!this.companyData) return;
+      const loadId = ++this._tabLoadId;
       this.tabLoading = true;
       this.activeTab = tab;
 
@@ -753,6 +815,7 @@ function app() {
         const resp = await fetch((this.staticMode ? '' : '../') + mdPath);
         if (!resp.ok) throw new Error('Failed to fetch ' + mdPath);
         let md = await resp.text();
+        if (loadId !== this._tabLoadId) return;
         // Strip BOM
         md = md.replace(/^\uFEFF/, '');
         const html = DOMPurify.sanitize(marked.parse(md));
@@ -769,37 +832,37 @@ function app() {
         this.mdCache[mdPath] = html;
         this.tabContent = html;
       } catch (e) {
+        if (loadId !== this._tabLoadId) return;
         this.tabContent = '<p class="text-claude-red">Failed to load content.</p>';
         console.error(e);
       } finally {
-        this.tabLoading = false;
+        if (loadId === this._tabLoadId) this.tabLoading = false;
       }
     },
 
+    adjacentCompany(offset) {
+      const rows = this.manifest?.table;
+      if (!this.companyData || !rows) return null;
+      const index = rows.findIndex(row => row.slug === this.companyData.slug);
+      return index < 0 ? null : rows[index + offset]?.slug;
+    },
+
     hasPrevCompany() {
-      if (!this.companyData || !this.manifest) return false;
-      const rank = this.companyData.consolidatedRank;
-      return rank && rank > 1;
+      return Boolean(this.adjacentCompany(-1));
     },
 
     hasNextCompany() {
-      if (!this.companyData || !this.manifest) return false;
-      const rank = this.companyData.consolidatedRank;
-      return rank && rank < this.manifest.table.length;
+      return Boolean(this.adjacentCompany(1));
     },
 
     prevCompany() {
-      if (!this.hasPrevCompany()) return;
-      const rank = this.companyData.consolidatedRank;
-      const prev = this.manifest.table.find(r => r.rank === rank - 1);
-      if (prev && prev.slug) this.navigate('company/' + prev.slug);
+      const slug = this.adjacentCompany(-1);
+      if (slug) this.navigate('company/' + slug);
     },
 
     nextCompany() {
-      if (!this.hasNextCompany()) return;
-      const rank = this.companyData.consolidatedRank;
-      const next = this.manifest.table.find(r => r.rank === rank + 1);
-      if (next && next.slug) this.navigate('company/' + next.slug);
+      const slug = this.adjacentCompany(1);
+      if (slug) this.navigate('company/' + slug);
     },
 
     // --- Council ---
@@ -842,10 +905,11 @@ function app() {
     },
 
     selectAllCouncilPersonas() {
-      if (this.councilPersonas.length === this.personas.length) {
-        this.councilPersonas = [this.personas[0].slug];
+      if (this.councilRoster.length === 0) return;
+      if (this.councilPersonas.length === this.councilRoster.length) {
+        this.councilPersonas = [this.councilRoster[0].slug];
       } else {
-        this.councilPersonas = this.personas.map(p => p.slug);
+        this.councilPersonas = this.councilRoster.map(p => p.slug);
       }
     },
 
@@ -863,7 +927,7 @@ function app() {
     async askCouncil() {
       if (this.staticMode) return;
       const question = this.councilInput.trim();
-      if (!question || this.councilAsking) return;
+      if (!question || this.councilAsking || this.councilPersonas.length === 0) return;
 
       this.councilAsking = true;
       this.councilInput = '';
@@ -875,7 +939,7 @@ function app() {
       const activeList = [...this.councilPersonas];
       const placeholders = {};
       for (const slug of activeList) {
-        const p = this.personas.find(x => x.slug === slug);
+        const p = this.councilRoster.find(x => x.slug === slug);
         if (!p) continue;
         const idx = this.councilMessages.length;
         this.councilMessages.push({

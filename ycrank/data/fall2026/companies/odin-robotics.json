@@ -5,77 +5,55 @@
   "metadata": {
     "website": "https://odin-robotics.com",
     "yc_page": "https://www.ycombinator.com/companies/odin-robotics",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/odin-robotics))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/odin-robotics))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
-    "location": "ZH, Switzerland",
-    "tags": "Robotics, Manufacturing, Industrial",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/odin-robotics))",
-    "emails": "founders@odin-robotics.com ([company website](https://odin-robotics.com))"
+    "location": "San Francisco, CA, USA",
+    "tags": "Robotics, B2B, Manufacturing, Automation, Industrial",
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/odin-robotics))",
+    "emails": "founders@odin-robotics.com — shared inbox for factory task inquiries ([Odin Robotics](https://odin-robotics.com/))"
   },
   "tags": [
     "Robotics",
+    "B2B",
     "Manufacturing",
+    "Automation",
     "Industrial"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:09:51.298Z",
+  "memoGeneratedAt": "2026-11-17T23:21:11.264Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 37,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 30,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 30,
-    "NR": 41,
-    "PG": 35,
-    "PT": 28,
-    "SL": 30,
-    "VK": 27
+    "AGI": 40,
+    "HG": 36,
+    "EXIT": 38
   },
-  "consolidatedAvg": 32.57,
-  "consolidatedRank": 194,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 15,
-    "tractionReason": "Robot demonstrations only; customer deployments and payments undisclosed"
+    "tractionRank": 159,
+    "tractionScore": 34,
+    "tractionReason": "Founder reports on-site factory work with manufacturing teams"
   },
   "paths": {
     "memo": "fall2026/memos/odin-robotics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/odin-robotics.md",
-      "elad-gil": "fall2026/evals/elad-gil/odin-robotics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/odin-robotics.md",
-      "paul-graham": "fall2026/evals/paul-graham/odin-robotics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/odin-robotics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/odin-robotics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/odin-robotics.md"
+      "agi": "fall2026/evals/agi/odin-robotics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/odin-robotics.md",
+      "exit": "fall2026/evals/exit/odin-robotics.md"
     }
   }
 }

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.archgen.tech/",
     "yc_page": "https://www.ycombinator.com/companies/archgen-labs",
-    "batch": "Fall 2026 ([YC, accessed Oct 2026, via search snippet](https://www.ycombinator.com/companies/archgen-labs))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/archgen-labs))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
-    "team_size": "2",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/archgen-labs))",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Semiconductors, AI",
-    "yc_partner": "Kulveer Taggar ([YC, via search snippet](https://www.ycombinator.com/companies/archgen-labs))",
-    "emails": "hari@archgen.tech, naveen@archgen.tech ([company website](https://www.archgen.tech/))"
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/archgen-labs))",
+    "emails": "hari@archgen.tech (CEO), naveen@archgen.tech (CTO), founders@archgen.tech (shared founder inbox) ([Archgen Labs](https://archgenlabs.com/), [Launch YC](https://www.ycombinator.com/launches/Wf3-archgen-labs-building-skyscrapers-for-semiconductor-chips))"
   },
   "tags": [
     "Hardware",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:16:33.659Z",
+  "memoGeneratedAt": "2026-11-17T23:31:02.293Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 44,
+    "agi": {
+      "score": 39,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 30,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 48,
-    "NR": 46,
-    "PG": 44,
-    "PT": 30,
-    "SL": 30,
-    "VK": 28
+    "AGI": 39,
+    "HG": 37,
+    "EXIT": 38
   },
-  "consolidatedAvg": 39.29,
-  "consolidatedRank": 73,
+  "consolidatedAvg": 38,
+  "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 122,
-    "tractionScore": 40,
-    "tractionReason": "GlobalFoundries development collaboration claimed; no paying relationship disclosed"
+    "tractionRank": 109,
+    "tractionScore": 46,
+    "tractionReason": "Signed pilots and GlobalFoundries development, payment terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/archgen-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/archgen-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/archgen-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/archgen-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/archgen-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/archgen-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/archgen-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/archgen-labs.md"
+      "agi": "fall2026/evals/agi/archgen-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/archgen-labs.md",
+      "exit": "fall2026/evals/exit/archgen-labs.md"
     }
   }
 }

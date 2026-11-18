@@ -6,65 +6,67 @@
 |-------|-------|
 | Website | https://www.centralblue.ai/ |
 | YC Page | https://www.ycombinator.com/companies/central-blue |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/central-blue)) |
+| Batch | Fall 2026 ([YC directory](https://www.ycombinator.com/companies/central-blue)) |
 | Industry | Industrials / Industrials -> Aviation and Space |
 | Team Size | 2 |
 | Location | San Francisco, CA, USA |
 | Tags | Space Exploration, Aerospace, Defense |
-| YC Partner | Max Kolysh ([YC](https://www.ycombinator.com/companies/central-blue)) |
-| Emails | brian@bwu.ai (CEO; [personal website](https://www.bwu.ai/)); brianwu@cs.stanford.edu (CEO, older résumé, via search snippet; [résumé](https://www.bwu.ai/static/bwu_resume.pdf)); jchoi6122@gmail.com (CTO, tutoring inquiries, via search snippet; [tutoring website](https://jeemeche.com/tutoring)); jchoi23@stanford.edu (CTO, academic; [Stanford CHARM](https://charm.stanford.edu/Main/LabAlumni)); info@centralblue.ai (general inquiries; [company LinkedIn](https://www.linkedin.com/company/centralblue)) |
+| YC Partner | Max Kolysh ([YC directory](https://www.ycombinator.com/companies/central-blue)) |
+| Emails | brian@bwu.ai (Brian Wu, [professional profile](https://www.bwu.ai/)), founders@centralblue.ai (founder inbox and mission inquiries, [Launch YC](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)), info@centralblue.ai (general inquiries, [company LinkedIn](https://www.linkedin.com/company/centralblue)) |
 
 ## The Idea
 
-- **Problem:** Satellite operators rely on onboard generation and storage, which constrain payload operation during eclipses and as solar panels degrade ([Pitchdrive, July 2026](https://www.pitchdrive.com/stories/investing-in-oris-the-new-way-to-power-space)).
-- **Approach:** Central Blue plans satellites that collect sunlight and transmit laser energy to receiver panels on other spacecraft, with CORE software managing faults and recovery ([YC](https://www.ycombinator.com/companies/central-blue)).
-- **Differentiation:** Central Blue combines HELION energy storage, dedicated receivers and CORE autonomy, while Star Catcher emphasizes delivering power to existing solar arrays without retrofits ([Central Blue](https://www.centralblue.ai/); [Star Catcher](https://www.star-catcher.com/technology)).
-- **Business Model:** [Inferred]: Mission-specific power supply contracts are the apparent monetization path because the website solicits power buyers and receiver design partners; public pricing: No public data found ([contact page](https://www.centralblue.ai/contact/)).
+- **Problem:** Satellite operators rely on onboard solar arrays and batteries, which take up payload mass and constrain imaging and electric propulsion when spacecraft run on stored power in eclipse ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
+- **Approach:** HELION satellites would collect sunlight and beam energy by near-infrared laser to dedicated customer receiver panels that convert it to electricity, with CORE software handling fault detection and planned delivery handoffs ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space), [Central Blue product site](https://www.centralblue.ai/)).
+- **Differentiation:** Central Blue specifies dedicated receivers and starts with satellite-to-satellite links, while Star Catcher targets standard solar panels, Volta prioritizes lunar surface receivers, and Dcubed is developing solar arrays manufactured in orbit as the supply platform ([Launch YC](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space), [Star Catcher](https://www.star-catcher.com/news/protostar-announcement), [Volta](https://www.voltaspace.co/araqys-d3), [Dcubed](https://dcubed.space/dcubed-powers-ahead-introducing-araqys-the-power-solution-for-space/)).
+- **Business Model:** [Inferred]: Mission-specific power delivery contracts are a possible monetization path because the company asks prospective buyers for power requirements, location, and timing to develop a delivery plan ([Central Blue mission intake](https://www.centralblue.ai/contact/)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** The company recruits spacecraft design partners through a mission-intake form to help shape receivers and shared power infrastructure ([contact page](https://www.centralblue.ai/contact/)).
+- **GTM / Distribution:** Central Blue solicits mission requirements directly from spacecraft builders and operators through its website and YC launch, and plans ground tests before its initial low-Earth-orbit rollout ([Central Blue mission intake](https://www.centralblue.ai/contact/), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
 
 ## Defensibility
 
-- **Moat today:** Publicly disclosed technical work comprises a nearly completed power-beaming prototype and CORE fault-recovery software; patent ownership and operational-network evidence: No public data found ([YC](https://www.ycombinator.com/companies/central-blue)).
-- **Future moat:** [Inferred]: Fleet operating data and receiver integration could create operational learning and switching costs, but these mechanisms remain unverified.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given competing orbital power systems from Star Catcher and ORiS ([Star Catcher](https://www.star-catcher.com/technology); [Pitchdrive](https://www.pitchdrive.com/stories/investing-in-oris-the-new-way-to-power-space)).
-- **Commoditization risk:** Competing implementation requires optical tracking, thermal management and spacecraft integration rather than software replication alone, capabilities already under development elsewhere ([U.S. SBIR award description](https://www.sbir.gov/awards/216315)).
+- **Moat today:** Central Blue describes a technical integration between its planned power nodes and CORE, which combines ground-side spacecraft stress testing with onboard fault diagnosis and response recommendations ([Central Blue product site](https://www.centralblue.ai/)).
+- **Future moat:** [Inferred]: Flight data on faults and delivery handoffs could improve CORE across the network, contingent on successful flight tests and deployment across operating power nodes ([Central Blue product site](https://www.centralblue.ai/), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Star Catcher uses off-the-shelf solar panels for its orbital prototype receiver and has demonstrated orbital acquisition and tracking, showing that an alternative receiver architecture can use commercially available panels while still requiring spacecraft tracking and pointing ([Star Catcher, Apr and Sep 2026](https://www.star-catcher.com/news/protostar-announcement), [tracking demonstration](https://www.star-catcher.com/news/star-catcher-completes-on-orbit-precision-acquisition-and-tracking-demonstration)).
 
 ## Market & Traction
 
-- **Traction signals:**
-  - Power-beaming prototype described as nearly complete in Seattle, with a propulsion demonstration planned with Wave Motion Launch Technologies; completion results: No public data found ([YC, accessed November 15, 2026](https://www.ycombinator.com/companies/central-blue)).
-  - CORE demonstration with Blackwing Space targeted for 2027, representing software validation rather than demonstrated power delivery ([company LinkedIn, accessed November 15, 2026](https://www.linkedin.com/company/centralblue)).
-  - Company-reported HELION targets include 300 kWh storage and 10 kW delivered for 4–5 hours per discharge, rather than achieved flight performance ([company website, accessed November 15, 2026](https://www.centralblue.ai/)).
-  - Company LinkedIn displays 130 followers and Palo Alto headquarters, whereas YC lists San Francisco ([LinkedIn](https://www.linkedin.com/company/centralblue); [YC](https://www.ycombinator.com/companies/central-blue), accessed November 15, 2026).
-  - Earlier launch messaging centered on standalone CORE recovery assurance; current positioning centers on power-beaming infrastructure incorporating CORE, with the exact repositioning date unavailable ([founder announcement](https://www.linkedin.com/posts/brianywu_as-a-kid-i-didnt-just-want-to-work-in-space-activity-7505306566900965376-LghN); [current website](https://www.centralblue.ai/)).
-- **Competitors:**
-  - **Star Catcher ($88M raised, revenue unknown):** Existing-array compatibility distinguishes its offering; its $65M Series A was announced May 12, 2026, led by B Capital and co-led by Shield Capital and Cerberus Ventures ([funding announcement](https://www.star-catcher.com/news/star-catcher-raises-65-million-to-build-the-first-power-grid-in-space); [technology](https://www.star-catcher.com/technology)).
-  - **ORiS (€5M disclosed capital including grants, revenue unknown):** Combines orbital power development with LOONA drone charging; July 2026 financing comprised €4.5M pre-seed led by Earlybird and co-led by Pitchdrive plus €0.5M grant ([transaction counsel](https://www.rplt.it/en/oris-completes-e5-million-pre-seed-round-rplt-and-orrick-among-the-legal-advisors-to-the-transaction/); [Pitchdrive](https://www.pitchdrive.com/stories/investing-in-oris-the-new-way-to-power-space)).
-  - **Volta Space Technologies (total funding: No public data found; revenue unknown):** LightGrid focuses on lunar-surface power, and the company announced a C$569,000 CSA study contract in June 2026; latest equity-round size and lead: No public data found ([Volta](https://www.voltaspace.co/); [contract announcement](https://www.voltaspace.co/lsei)).
-- **Why now:** [Inferred]: Recent terrestrial demonstrations reduce uncertainty around optical energy transfer, including DARPA’s delivery of more than 800 W across 8.6 km for 30 seconds in May 2025, although that result does not validate orbital service ([DARPA](https://www.darpa.mil/news/2025/darpa-program-distance-record-power-beaming)).
+- **Traction signals**
+  - Power beaming: first Seattle prototype reported nearly complete, with a Wave Motion Launch Technologies propulsion demonstration planned for early December 2026 ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
+  - CORE software: Central Blue came out of stealth with spacecraft fault testing as its product focus in September 2026 and announced a planned Blackwing Space orbital demonstration for 2027 ([Brian Wu on LinkedIn, Sep 2026](https://www.linkedin.com/posts/brianywu_as-a-kid-i-didnt-just-want-to-work-in-space-activity-7505306566900965376-LghN)).
+  - CORE software: the November power-grid launch retained CORE as a subsystem and described a Satlyt flight test in preparation ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
+  - Accelerator backing: YC Fall 2026, with a published standard commitment of $500,000 per accepted company ([YC directory](https://www.ycombinator.com/companies/central-blue), [YC standard deal](https://www.ycombinator.com/deal)).
+  - Press: Founderland covered the orbital power-grid launch on November 16, 2026 ([Founderland](https://founderland.ai/articles/central-blue-develops-power-beaming-satellites-for-space-gri-mwjenojz)).
+  - Company LinkedIn: 394 followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/centralblue)).
+  - YC jobs: 0 active postings ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/central-blue/jobs)).
+- **Competitors**
+  - **Star Catcher ($88M raised, revenue unknown):** Targets standard satellite solar panels and announced a $65M Series A in May 2026 led by B Capital, with Shield Capital and Cerberus Ventures as co-leads ([Star Catcher financing](https://www.star-catcher.com/news/star-catcher-raises-65-million-to-build-the-first-power-grid-in-space), [prototype](https://www.star-catcher.com/news/protostar-announcement)).
+  - **Volta Space Technologies (equity funding total unknown, revenue unknown):** Prioritizes power delivery from lunar orbit to surface receivers and received a C$861,858.65 Canadian Space Agency contribution in September 2026 ([Volta](https://www.voltaspace.co/araqys-d3), [Government of Canada](https://search.open.canada.ca/grants/record/csa-asc,003-2026-2027-Q2-00034,current)).
+  - **Dcubed (funding total unverified, revenue unknown):** Builds in-space-manufactured solar arrays for power beaming, and Dealroom lists a €2.5M June 2026 early venture investment from the EIC Fund ([Dcubed](https://dcubed.space/dcubed-powers-ahead-introducing-araqys-the-power-solution-for-space/), [Dealroom](https://app.dealroom.co/companies/dcubed)).
+- **Why now:** [Inferred]: Star Catcher’s late-2025 demonstration of in-orbit acquisition and pointing at distances it described as representative of commercial operations reduced uncertainty about a prerequisite for delivering power between spacecraft ([Star Catcher, Apr 2026](https://www.star-catcher.com/news/star-catcher-completes-on-orbit-precision-acquisition-and-tracking-demonstration)).
 
 ## Founders & Team
 
-- **Brian Wu (Founder/CEO):**
-  - Background: Stanford computer-science BS/MS, Perseverance visual-navigation work at NASA JPL, Apple AI research, Field AI robotics, and co-founding drone and lunar-rover ventures; contacts include brian@bwu.ai and older résumé address brianwu@cs.stanford.edu ([company biography](https://www.centralblue.ai/company/); [personal website](https://www.bwu.ai/); [résumé, via search snippet](https://www.bwu.ai/static/bwu_resume.pdf)).
-  - Twitter/X: No public account found.
-  - LinkedIn: YC links to [brianywu](https://www.linkedin.com/in/brianywu/); headline and follower count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/brian-wu)).
-  - GitHub: @787-10, 49 followers, with pinned DroneFormer at 26 stars ([GitHub, accessed November 15, 2026](https://github.com/787-10)).
-- **Jeewoo Choi (Founder/CTO):**
-  - Background: Stanford mechanical-engineering BS/MS and Boeing thermal, airflow and environmental testing; public contacts are jchoi6122@gmail.com for tutoring and jchoi23@stanford.edu for academic work ([company biography](https://www.centralblue.ai/company/); [tutoring site, via search snippet](https://jeemeche.com/tutoring); [Stanford CHARM](https://charm.stanford.edu/Main/LabAlumni)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile headline not retrievable; indexed profile displays 1K followers ([LinkedIn, via search snippet, accessed November 15, 2026](https://www.linkedin.com/in/jeewoo-choi)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both attended Stanford Engineering and collaborated on a planetary-exploration robotics hackathon project before the public company launch ([company biography](https://www.centralblue.ai/company/); [Choi LinkedIn, via search snippet](https://www.linkedin.com/in/jeewoo-choi)).
-- **Founder-market fit:** Documented experience covers spacecraft autonomy, robotics and aerospace testing; YC backing is disclosed, while founder exits and named technical advisors: No public data found ([company biography](https://www.centralblue.ai/company/); [YC](https://www.ycombinator.com/companies/central-blue)).
+- **Brian Wu (CEO)**
+  - **Background:** Stanford BS and MS in computer science, Perseverance visual navigation at NASA JPL, robotics at Field AI, AI research at Apple, and co-founder roles at Foundational Machines and Daelus Space ([Central Blue](https://www.centralblue.ai/company/), [Brian Wu’s profile](https://www.bwu.ai/)). **Business email:** brian@bwu.ai ([Brian Wu’s profile](https://www.bwu.ai/)).
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** Headline and follower count not retrievable ([profile linked by YC](https://www.ycombinator.com/founders/brian-wu)).
+  - **GitHub:** @787-10, with DroneFormer at 26 stars ([GitHub profile](https://github.com/787-10), [DroneFormer, Nov 2026](https://github.com/DroneFormer/DroneFormer)).
+- **Jeewoo Choi (CTO)**
+  - **Background:** Stanford BS and MS in mechanical engineering, thermal, airflow, and environmental testing at Boeing Defense, Space & Security, and Stanford research in ignition and soft robotics ([Central Blue](https://www.centralblue.ai/company/)). **Central Blue business email:** No public data found.
+  - **Twitter/X:** No public account found.
+  - **LinkedIn:** No public headline found, with 1K followers displayed ([LinkedIn, via search snippet](https://www.linkedin.com/in/jeewoo-choi)).
+  - **GitHub:** No public repos found.
+- **Co-founder relationship:** Wu and Choi met while studying engineering at Stanford ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
+- **Founder-market fit:** Wu’s spacecraft navigation and robotics work covers autonomy, while Choi’s aerospace testing and controls work covers hardware validation, and YC lists Max Kolysh as primary partner ([Central Blue](https://www.centralblue.ai/company/), [YC directory](https://www.ycombinator.com/companies/central-blue)).
 
 ## Key Risks
 
-- **Technical feasibility:** [Inferred]: Achieving sustained orbital power delivery requires validating the complete transmission chain, because HELION’s published performance remains targeted and the prototype is described as incomplete; the Wave Motion demonstration is a planned validation step ([website](https://www.centralblue.ai/); [YC](https://www.ycombinator.com/companies/central-blue)).
-- **Delivery interruptions:** [Inferred]: Orbit geometry and line of sight constrain service availability, requiring customers to retain generation and batteries between deliveries, as acknowledged in the company’s delivery-planning description ([website](https://www.centralblue.ai/)).
-- **Customer integration:** [Inferred]: Receiver compatibility, pointing and heat limits can constrain usable delivered power; the company proposes dedicated receivers and assessment of existing panels as mitigation ([website](https://www.centralblue.ai/)).
-- **Competitive implementation:** Star Catcher reports orbital tracking validation and a power-beaming demonstration payload launched October 1, 2026, while Central Blue discloses a terrestrial prototype under construction ([Star Catcher](https://www.star-catcher.com/technology); [YC](https://www.ycombinator.com/companies/central-blue)).
+- **Orbital power delivery:** HELION targets 10 kW at the customer power bus for 4–5 hours per full discharge, while Central Blue’s announced Wave Motion prototype demonstration is ground-based and tests propulsion ([Central Blue product site](https://www.centralblue.ai/), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
+- **Customer integration:** [Inferred]: Dedicated receiver panels add a spacecraft integration step that could narrow the addressable fleet, particularly where operators can use their existing solar panels with Star Catcher’s design ([Launch YC](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space), [Star Catcher](https://www.star-catcher.com/news/protostar-announcement)).
+- **CORE flight validation:** The product site lists Satlyt under Q2 2026 flight validation, while the November YC launch describes that test as in preparation, leaving its completion status unclear in public materials ([Central Blue product site](https://www.centralblue.ai/), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)).
+- **Customer contracting:** [Inferred]: Star Catcher’s 10 announced power purchase agreements may reduce the pool of operators available for initial deployments where the suppliers target the same missions ([Star Catcher, Sep 2026](https://www.star-catcher.com/news/protostar-announcement)).
 
 ## Key Facts
 
@@ -72,12 +74,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | Prototype nearing completion; Wave Motion demonstration planned ([YC, November 2026](https://www.ycombinator.com/companies/central-blue)); CORE/Blackwing demonstration targeted for 2027 ([company LinkedIn](https://www.linkedin.com/company/centralblue)) |
+| Traction | Seattle prototype reported nearly complete and Wave Motion demonstration planned for December 2026 ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)), CORE tests planned with Satlyt and Blackwing ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space), [company LinkedIn, Sep 2026](https://www.linkedin.com/company/centralblue)), YC Fall 2026 backing ([YC directory](https://www.ycombinator.com/companies/central-blue)), launch coverage ([Founderland, Nov 2026](https://founderland.ai/articles/central-blue-develops-power-beaming-satellites-for-space-gri-mwjenojz)) |
 | Revenue Signal | No public data found |
-| Founders | Brian Wu, CEO: Stanford CS, JPL, Apple; Jeewoo Choi, CTO: Stanford mechanical engineering, Boeing ([company biographies](https://www.centralblue.ai/company/)) |
-| Competitors | Star Catcher ($88M raised, revenue unknown, existing-array delivery; [company](https://www.star-catcher.com/news/star-catcher-raises-65-million-to-build-the-first-power-grid-in-space)); ORiS (€5M including grant, revenue unknown, drone/orbital applications; [counsel](https://www.rplt.it/en/oris-completes-e5-million-pre-seed-round-rplt-and-orrick-among-the-legal-advisors-to-the-transaction/)); Volta (funding undisclosed, revenue unknown, lunar focus; [company](https://www.voltaspace.co/)) |
-| Moat Signals | Prototype development and CORE recovery software disclosed ([YC](https://www.ycombinator.com/companies/central-blue)) |
-| Risk Factors | Targeted performance, line-of-sight constraints, receiver thermal compatibility ([company website](https://www.centralblue.ai/)) |
-| Founder Reach | Brian: GitHub 49 followers, DroneFormer 26 stars ([GitHub, November 2026](https://github.com/787-10)); Jeewoo: LinkedIn 1K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/jeewoo-choi)) |
-| Distribution Signals | Design-partner recruitment ([contact page](https://www.centralblue.ai/contact/)); 130 company followers ([LinkedIn, November 2026](https://www.linkedin.com/company/centralblue)) |
-| Emails | brian@bwu.ai (CEO; [website](https://www.bwu.ai/)); brianwu@cs.stanford.edu (older CEO résumé; [via search snippet](https://www.bwu.ai/static/bwu_resume.pdf)); jchoi6122@gmail.com (CTO tutoring; [via search snippet](https://jeemeche.com/tutoring)); jchoi23@stanford.edu (CTO academic; [Stanford](https://charm.stanford.edu/Main/LabAlumni)); info@centralblue.ai (general; [company LinkedIn](https://www.linkedin.com/company/centralblue)) |
+| Founders | Brian Wu (CEO), Stanford CS and NASA JPL navigation. Jeewoo Choi (CTO), Stanford mechanical engineering and Boeing aerospace testing ([Central Blue](https://www.centralblue.ai/company/)). |
+| Competitors | Star Catcher ($88M raised, revenue unknown, standard solar panels) ([Star Catcher](https://www.star-catcher.com/news/protostar-announcement)), Volta (equity funding total unknown, revenue unknown, lunar surface receivers) ([Volta](https://www.voltaspace.co/araqys-d3)), Dcubed (funding total unverified, revenue unknown, in-space solar-array manufacturing) ([Dcubed](https://dcubed.space/dcubed-powers-ahead-introducing-araqys-the-power-solution-for-space/), [Dealroom](https://app.dealroom.co/companies/dcubed)) |
+| Moat Signals | CORE architecture combines spacecraft stress testing and onboard fault diagnosis for planned HELION operations ([Central Blue](https://www.centralblue.ai/)). |
+| Risk Factors | Orbital power delivery, dedicated receiver integration, CORE flight validation ([Central Blue](https://www.centralblue.ai/), [Launch YC, Nov 2026](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)). |
+| Founder Reach | Brian Wu: DroneFormer 26 GitHub stars ([GitHub, Nov 2026](https://github.com/DroneFormer/DroneFormer)). Jeewoo Choi: 1K LinkedIn followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/jeewoo-choi)). |
+| Distribution Signals | Mission intake form ([Central Blue](https://www.centralblue.ai/contact/)), 394 company LinkedIn followers ([LinkedIn, Nov 2026](https://www.linkedin.com/company/centralblue)). |
+| Emails | brian@bwu.ai (CEO, [Brian Wu’s profile](https://www.bwu.ai/)), founders@centralblue.ai (founder inbox and mission inquiries, [Launch YC](https://www.ycombinator.com/launches/XTR-central-blue-the-power-grid-for-space)), info@centralblue.ai (general inquiries, [company LinkedIn](https://www.linkedin.com/company/centralblue)). |

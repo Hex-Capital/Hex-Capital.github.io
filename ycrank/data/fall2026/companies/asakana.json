@@ -5,76 +5,52 @@
   "metadata": {
     "website": "https://www.asakana.co/",
     "yc_page": "https://www.ycombinator.com/companies/asakana",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/asakana))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/asakana))",
     "industry": "B2B / B2B -> Supply Chain and Logistics",
-    "team_size": "4",
+    "team_size": "4 ([YC directory](https://www.ycombinator.com/companies/asakana))",
     "location": "San Francisco, CA, USA",
     "tags": "SaaS, Food & Beverage",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/asakana))",
-    "emails": "yudai_matsuoka@asakana.co ([YC launch](https://www.ycombinator.com/launches/VrR-asakana-automating-sales-and-the-entire-back-office-for-food-distributors))"
+    "yc_partner": "Grey Baker ([YC directory](https://www.ycombinator.com/companies/asakana))",
+    "emails": "yudai_matsuoka@asakana.co, founder and President ([Launch YC](https://www.ycombinator.com/launches/VrR-asakana-automating-sales-and-the-entire-back-office-for-food-distributors))"
   },
   "tags": [
     "SaaS",
     "Food & Beverage"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:04:05.408Z",
+  "memoGeneratedAt": "2026-11-18T00:08:04.903Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 29,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 39,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 58,
-    "NR": 52,
-    "PG": 50,
-    "PT": 29,
-    "SL": 39,
-    "VK": 29
+    "AGI": 38,
+    "HG": 38,
+    "EXIT": 37
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 23,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 59,
-    "tractionReason": "Live distributor deployments; existing broadline customers; commission-based model"
+    "tractionRank": 111,
+    "tractionScore": 45,
+    "tractionReason": "Live seafood distributor deployments, transaction-based pricing"
   },
   "paths": {
     "memo": "fall2026/memos/asakana.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/asakana.md",
-      "elad-gil": "fall2026/evals/elad-gil/asakana.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/asakana.md",
-      "paul-graham": "fall2026/evals/paul-graham/asakana.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/asakana.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/asakana.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/asakana.md"
+      "agi": "fall2026/evals/agi/asakana.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/asakana.md",
+      "exit": "fall2026/evals/exit/asakana.md"
     }
   }
 }

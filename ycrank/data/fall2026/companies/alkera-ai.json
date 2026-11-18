@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://alkera.ai",
     "yc_page": "https://www.ycombinator.com/companies/alkera-ai",
-    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/alkera-ai))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/alkera-ai), Nov 2026)",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Data Science, Data Engineering, Enterprise Software, AI",
-    "yc_partner": "Ankit Gupta ([YC directory](https://www.ycombinator.com/companies/alkera-ai))",
-    "emails": "andrew@alkera.ai — CTO business ([founder website](https://andrewtrandev.com/)); contact@alkera.ai — support; security@alkera.ai — vulnerability reporting ([Alkera Support](https://www.alkera.ai/support))"
+    "yc_partner": "Ankit Gupta ([YC company profile](https://www.ycombinator.com/companies/alkera-ai))",
+    "emails": "rickgao.contact@gmail.com, Rick Gao ([founder site](https://rickgao.dev/), via search snippet), tony.li.tl699@yale.edu and tony.li.4722@gmail.com, Tony Li ([founder site](https://www.tonyli.info/), [GitHub profile](https://github.com/orange472)), contact@alkera.ai, general inquiries and support, and security@alkera.ai, security reports ([Alkera Support](https://www.alkera.ai/support))"
   },
   "tags": [
     "Developer Tools",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-09T23:59:51.944Z",
+  "memoGeneratedAt": "2026-11-18T00:41:35.645Z",
   "evalScores": {
-    "cyan-banister": {
+    "agi": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "exit": {
       "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 38,
-    "NR": 49,
-    "PG": 39,
-    "PT": 35,
-    "SL": 31,
-    "VK": 28
+    "AGI": 37,
+    "HG": 36,
+    "EXIT": 39
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 116,
+  "consolidatedAvg": 37.33,
+  "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 143,
+    "tractionRank": 184,
     "tractionScore": 27,
-    "tractionReason": "13 Databench stars; Product Hunt launch; revenue undisclosed"
+    "tractionReason": "Public Databench release with 13 GitHub stars"
   },
   "paths": {
     "memo": "fall2026/memos/alkera-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/alkera-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/alkera-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/alkera-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/alkera-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/alkera-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/alkera-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/alkera-ai.md"
+      "agi": "fall2026/evals/agi/alkera-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/alkera-ai.md",
+      "exit": "fall2026/evals/exit/alkera-ai.md"
     }
   }
 }

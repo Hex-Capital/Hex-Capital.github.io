@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://primordiant.com",
     "yc_page": "https://www.ycombinator.com/companies/primordiant",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/primordiant))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/primordiant))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
-    "team_size": "3",
+    "team_size": "3 ([Y Combinator](https://www.ycombinator.com/companies/primordiant))",
     "location": "San Francisco, CA, USA",
     "tags": "Robotics, Energy, Advanced Materials, AI, Biotechnology",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/primordiant))",
-    "emails": "Published academic contacts: owen_tower@brown.edu ([Brown](https://sites.brown.edu/ling-lab/members/), via search snippet), cooper_niu@brown.edu ([Niu](https://cooperniu.com/about.html)), benedict_quartey@brown.edu ([Quartey](https://benedictquartey.github.io/)); company-domain addresses: No public data found"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/primordiant))",
+    "emails": "founders@primordiant.com, shared founder inbox ([Launch YC](https://www.ycombinator.com/launches/WhK-primordiant-programmable-access-to-flexible-scientific-experimentation-at-scale)), info@primordiant.com, general inquiries ([Primordiant Contact](https://www.primordiant.com/contact))"
   },
   "tags": [
     "Robotics",
@@ -21,63 +21,39 @@
     "Biotechnology"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:53:36.065Z",
+  "memoGeneratedAt": "2026-11-17T23:37:24.519Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 29,
+    "agi": {
+      "score": 40,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 35,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 29,
-    "NR": 45,
-    "PG": 35,
-    "PT": 30,
-    "SL": 32,
-    "VK": 28
+    "AGI": 40,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 36.71,
-  "consolidatedRank": 124,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 14,
-    "tractionReason": "Initial laboratory demonstration; waitlist size and customer adoption undisclosed"
+    "tractionRank": 151,
+    "tractionScore": 36,
+    "tractionReason": "Two client engagements, beta billing disabled"
   },
   "paths": {
     "memo": "fall2026/memos/primordiant.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/primordiant.md",
-      "elad-gil": "fall2026/evals/elad-gil/primordiant.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/primordiant.md",
-      "paul-graham": "fall2026/evals/paul-graham/primordiant.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/primordiant.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/primordiant.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/primordiant.md"
+      "agi": "fall2026/evals/agi/primordiant.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/primordiant.md",
+      "exit": "fall2026/evals/exit/primordiant.md"
     }
   }
 }

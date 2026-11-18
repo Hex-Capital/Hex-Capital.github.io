@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.librabots.com/",
     "yc_page": "https://www.ycombinator.com/companies/libra-robotics",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/libra-robotics))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/libra-robotics), Nov 2026)",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Hard Tech, Robotics, Construction, Energy, AI",
-    "yc_partner": "Tyler Bosmeny ([YC](https://www.ycombinator.com/companies/libra-robotics))",
-    "emails": "founders@librabots.com — shared founder inbox ([website](https://www.librabots.com/)); contact@librabots.com — brochure assistance ([company brochure page, via search snippet](https://www.librabots.com/brochure/))"
+    "yc_partner": "Tyler Bosmeny ([YC company profile](https://www.ycombinator.com/companies/libra-robotics), Nov 2026)",
+    "emails": "founders@librabots.com, shared founder inbox ([Libra website](https://www.librabots.com/)); contact@librabots.com, brochure assistance ([Libra product brochure](https://www.librabots.com/brochure/), via search snippet)"
   },
   "tags": [
     "Hard Tech",
@@ -21,63 +21,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-16T05:18:20.352Z",
+  "memoGeneratedAt": "2026-11-18T00:54:39.044Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "agi": {
       "score": 46,
       "tier": "Neutral"
     },
-    "peter-thiel": {
-      "score": 37,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 48,
-    "NR": 58,
-    "PG": 46,
-    "PT": 37,
-    "SL": 39,
-    "VK": 31
+    "AGI": 46,
+    "HG": 38,
+    "EXIT": 41
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 16,
+  "consolidatedAvg": 41.67,
+  "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 37,
+    "tractionRank": 52,
     "tractionScore": 60,
-    "tractionReason": "Solar deployments, signed commercial installation agreements, and datacenter pilots"
+    "tractionReason": "Live solar deployments, signed installation agreements, data-center pilots"
   },
   "paths": {
     "memo": "fall2026/memos/libra-robotics.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/libra-robotics.md",
-      "elad-gil": "fall2026/evals/elad-gil/libra-robotics.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/libra-robotics.md",
-      "paul-graham": "fall2026/evals/paul-graham/libra-robotics.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/libra-robotics.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/libra-robotics.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/libra-robotics.md"
+      "agi": "fall2026/evals/agi/libra-robotics.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/libra-robotics.md",
+      "exit": "fall2026/evals/exit/libra-robotics.md"
     }
   }
 }

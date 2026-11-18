@@ -6,88 +6,89 @@
 |-------|-------|
 | Website | https://www.asim-group.com |
 | YC Page | https://www.ycombinator.com/companies/asim-group |
-| Batch | Fall 2026 ([YC List](https://yclist.com/f26/)) |
+| Batch | Fall 2026 ([YC Robotics Directory](https://www.ycombinator.com/companies/industry/Robotics)) |
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
 | Team Size | 4 |
 | Location | San Francisco, CA, USA |
-| Tags | Deep Learning, Robotic Process Automation, Robotics |
-| YC Partner | Nicolas Dessaigne ([YC directory mirror, Sep 2026](https://mentionfox.com/funding/yc-asim-group); original YC page inaccessible during research) |
-| Emails | contact@asim-group.com ([Asim](https://www.asim-group.com/about)) |
+| Tags | Deep Learning, Hard Tech, Hardware, Robotic Process Automation, Robotics |
+| YC Partner | Nicolas Dessaigne ([YC founder profile](https://www.ycombinator.com/founders/douglas-tilley), which lists Asim’s primary partner) |
+| Emails | contact@asim-group.com, general inquiries ([Asim contact page](https://www.asim-group.com/about)), security@asim-group.com, website vulnerability reports ([Asim responsible disclosure](https://www.asim-group.com/responsible-disclosure)) |
 
 ## The Idea
 
-- **Problem:** Robotics developers must assess physical collisions, unsafe interpretations of tasks, and malicious instructions around people, with existing alternatives including manual supervision, emergency stops, and stack-specific safety logic ([Asim About](https://www.asim-group.com/about); [VIGIE](https://www.vigierobotics.com/)).
-- **Approach:** Asim tests robots in physical and simulated scenarios, provides public-audit feedback and private-test safety scores, and is building a runtime layer that monitors policy actions to predict, block, and adapt ([Asim LinkedIn, Oct 2026](https://www.linkedin.com/company/asim-group/)).
-- **Differentiation:** Asim combines safety assessment and runtime research, whereas Robocurve publishes independent capability/safety evaluations and Realtime Robotics provides collision-free industrial motion planning ([Asim About](https://www.asim-group.com/about); [Robocurve](https://robocurve.org/); [Realtime Robotics](https://rtr.ai/)).
-- **Business Model:** [Inferred]: Negotiated business-to-business testing engagements are a possible monetization path because services require separate written agreements, but public pricing and billing units were not found ([Asim Terms, Sep 2026](https://www.asim-group.com/terms)).
-- **TAM/SAM:** An adjacent robot-safety-monitoring AI market was estimated at $2.26 billion in 2025, reaching $5.11 billion by 2030 at 17.8% CAGR, but no Asim-specific TAM/SAM was found ([The Business Research Company, Sep 2026](https://www.thebusinessresearchcompany.com/report/robot-safety-monitoring-artificial-intelligence-ai-market-report)).
-- **GTM / Distribution:** Asim solicits robotics teams through its contact form and founder outreach, including an IROS conference invitation to discuss robot safety and alignment ([Asim About](https://www.asim-group.com/about); [company LinkedIn, Oct 2026](https://www.linkedin.com/company/asim-group/)).
+- **Problem:** Robotics developers relying on simulation or narrow hardware trials can miss failures that emerge when objects or operating conditions change before deployment ([UC Berkeley AutoEval](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-42.pdf), [YC Robotics Directory](https://www.ycombinator.com/companies/industry/Robotics)).
+- **Approach:** Asim varies object shape, weight, friction and material in repeatable physical trials, supplements them with simulation, and uses public and held-out scenarios to assess capabilities and failure modes ([YC Robotics Directory](https://www.ycombinator.com/companies/industry/Robotics), [Asim benchmarking](https://www.asim-group.com/)).
+- **Differentiation:** Asim defines tests around a developer’s robot and operating conditions, while Robocurve publishes model comparisons on common tasks, Coop starts with warehouse workflows, and SafeWorld emphasizes simulated interactions between robots and people ([Asim](https://www.asim-group.com/), [Robocurve](https://robocurve.org/), [a16z speedrun](https://speedrun.a16z.com/companies/coop), [SafeWorld](https://www.safeworld.ai/)).
+- **Business Model:** [Inferred]: Asim could charge per evaluation engagement because it scopes tasks and success criteria with each developer and says services are covered by separate written agreements ([Asim benchmarking](https://www.asim-group.com/), [Asim terms](https://www.asim-group.com/terms)).
+- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
+- **GTM / Distribution:** Asim invites robotics developers to submit their robot, tasks and operating environment through its contact form, and Lecourtois solicited feedback from hardware practitioners at launch ([Asim contact](https://www.asim-group.com/about), [Reddit launch discussion, Nov 2026](https://www.reddit.com/r/humanoidrobotics/comments/1xok5q8/were_building_a_real_world_benchmark_for_humanoid/)).
 
 ## Defensibility
 
-- **Moat today:** Asim describes private scenarios withheld from customers’ models, providing an evaluation-integrity mechanism, although scenario exclusivity and corpus scale are undisclosed ([Asim](https://www.asim-group.com/)).
-- **Future moat:** [Inferred]: Cross-robot incident data and repeated assessments could improve hazard coverage, but public sources do not establish deployed integrations or a proprietary incident corpus.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage.
-- **Commoditization risk:** Robotics laboratories and developers can build on Robocurve’s MIT-licensed evaluation harness, which supports physical robots and simulation, reducing the exclusivity of basic evaluation infrastructure ([Robocurve](https://robocurve.org/)).
+- **Moat today:** Asim describes private test scenarios that withhold test details from developers while returning results, allowing evaluation on cases outside the public test set ([Asim benchmarking](https://www.asim-group.com/)).
+- **Future moat:** [Inferred]: Repeated evaluations could produce a proprietary library of failure cases across robots and software releases if Asim can retain comparable results and secure reuse rights, neither of which is documented in its public terms ([Asim benchmarking](https://www.asim-group.com/), [Asim terms](https://www.asim-group.com/terms)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** NIST plans to distribute baseline test apparatus to participating US manufacturers and test facilities, giving them a way to run common locomotion and manipulation tests themselves ([NIST, May 2026](https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - YC backing confirmed by the company; CB Insights reports $500,000 financing dated September 1, 2026 ([Asim LinkedIn](https://www.linkedin.com/company/asim-group/); [CB Insights, accessed Oct 2026](https://www.cbinsights.com/company/asim/financials)).
-  - Membership in A3 and NVIDIA Inception, with no customer relationship implied ([Asim LinkedIn, Oct 2026](https://www.linkedin.com/company/asim-group/)).
-  - Pre-company prototype achievement: first prize at the YC Paris × Unaite hackathon for an external robot-safety watchdog in June 2026 ([Tristan Lecourtois’s portfolio](https://tristanlecourtois.github.io/index.html)).
-  - Founder-owned research project, rather than Asim product adoption: Maëlic Neau’s RelateAnything repository displays approximately 1,200 stars ([GitHub, Oct 2026](https://github.com/Maelic/RelateAnything)).
-  - No open positions listed on the company careers page ([Asim Careers, Oct 2026](https://www.asim-group.com/careers)).
+  - Benchmarking launch on November 5, 2026, with 33,442 views on Lecourtois’s X launch post as of November 16 ([Doomers AI, Nov 2026](https://doomers.ai/launches/asim)).
+  - Launch coverage in Raised and Menlo Times ([Raised, Nov 13, 2026](https://raisednews.com/article/asim-real-world-robot-safety-tests/), [Menlo Times, Nov 2026](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-203)).
+  - 51 X followers for @asim_group ([teapawt X mirror, Nov 2026](https://nitter.cf/asim_group)).
+  - Zero open roles listed ([Asim Careers, Nov 2026 research](https://www.asim-group.com/careers)).
+- **Funding:** YC backs Asim, and the company-specific amounts reported by CB Insights and Dealroom differ at $500,000 and $125,000, respectively ([Asim](https://www.asim-group.com/), [CB Insights](https://www.cbinsights.com/company/asim/financials), [Dealroom](https://dealroom.co/just-founded/asim/)).
+- **Product evolution:** Lecourtois published the Vigie runtime-safety hackathon prototype in June 2026, earlier Asim materials described runtime monitoring, and the November launch focused on pre-deployment benchmarking ([Lecourtois project notes](https://tristanlecourtois.github.io/blog.html), [GPAgent Fall 2026 directory](https://www.gpagent.ai/yc/batch/fall-2026), [Raised, Nov 2026](https://raisednews.com/article/asim-real-world-robot-safety-tests/)).
 - **Competitors:**
-  - **Robocurve ($10M disclosed seed funding; revenue unknown):** Independent public robotics evaluations and open benchmarks, versus Asim’s testing engagements and runtime research; its September 2026 seed round was led by Initialized Capital ([Robocurve, Sep 14, 2026](https://robocurve.org/blog/seed-raise/)).
-  - **FORT Robotics ($60.5M cumulative funding disclosed August 2025; revenue unknown):** Safety communications and machine control, versus Asim’s behavioral testing; October 2026 commitments comprised approximately $10M financing led by Tiger Global with Mark Cuban Companies participation and another $10M conditional PIPE commitment ([FORT, Aug 2025](https://www.fortrobotics.com/news/fort-secures-additional-18.9m-in-series-b-funding); [FORT, Oct 22, 2026](https://www.fortrobotics.com/news/fort-robotics-secures-approximately-20-million-in-additional-funding-led-by-tiger-global-and-mark-cuban-companies)).
-  - **Realtime Robotics ($78.4M reported raised; revenue unknown):** Industrial collision-free motion planning rather than semantic-safety assessment; its latest listed round is May 2024, with the company reporting a $21.1M initial Series B close led by Mitsubishi Electric ([Caplight, Oct 2026](https://www.caplight.com/company/realtime-robotics); [Realtime Robotics](https://rtr.ai/about/)).
-- **Why now:** [Inferred]: Generative simulation expands available safety-testing methods, illustrated by research demonstrating physical and semantic safety evaluation using a Veo world simulator in December 2025 ([research paper](https://arxiv.org/abs/2512.10675)).
+  - **Robocurve** ($10M raised, revenue unknown): Publishes independent physical evaluations across models and hardware and announced a $10M seed led by Initialized Capital in September 2026 ([Robocurve seed announcement](https://robocurve.org/blog/seed-raise/)).
+  - **Coop** (funding amount unknown, revenue unknown): Benchmarks warehouse workflows and lists a16z speedrun and SignalFire as backers ([a16z speedrun](https://speedrun.a16z.com/companies/coop)).
+  - **SafeWorld** ($12.2M raised, revenue unknown): Simulates robot behavior around people and announced a $12.2M seed co-led by Shine Capital and a16z speedrun in October 2026 ([SafeWorld](https://www.safeworld.ai/), [MEKAWIRE, Oct 2026](https://mekawire.com/news/safeworld-12-2m-seed-shine-a16z-speedrun-robot-safety-20261005)).
+- **Why now:** [Inferred]: NIST’s 2026 proposal for a humanoid locomotion and manipulation baseline gives manufacturers a shared reference point for comparing platform capabilities ([NIST, May 2026](https://www.nist.gov/el/intelligent-systems-division-73500/humanoid-robot-baseline-performance-benchmark)).
 
 ## Founders & Team
 
-- **Douglas Tilley (Co-founder):**
-  - Background: University of Bath ART-AI PhD candidate researching human–robot interaction; previously CTO at DOTResearch, with research collaboration at NII Tokyo ([Asim](https://www.asim-group.com/); [personal research site](https://douglas-tilley.github.io/)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Asim affiliation displayed; headline not retrievable; approximately 1,000 followers ([LinkedIn, Oct 2026](https://www.linkedin.com/in/douglas-tilley-uob2021phdart-ai)).
-  - GitHub: @Douglas-Tilley; MistralAI_team8 displays 1 star ([GitHub, Oct 2026](https://github.com/Douglas-Tilley)).
-- **Raphaël Lafargue (Co-founder):**
-  - Background: Machine-learning PhD through IMT Atlantique and the University of Adelaide; previously Senior Research Scientist at Sony ([LinkedIn](https://fr.linkedin.com/in/raflaf/fr); [Asim](https://www.asim-group.com/)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Asim affiliation displayed; profile describes AI and physics specialization; approximately 1,000 followers ([LinkedIn, Oct 2026](https://fr.linkedin.com/in/raflaf/fr)).
-  - GitHub: @RafLaf; webcam displays 7 stars and FSL-benchmark-again displays 4 stars ([GitHub, Oct 2026](https://github.com/RafLaf)).
-- **Tristan Lecourtois (Co-founder/COO):**
-  - Background: ENS Paris-Saclay MVA and Mines Saint-Étienne studies; research experience at NASA JPL, Atos, and InstaDeep ([portfolio](https://tristanlecourtois.github.io/index.html); [role recorded in YC directory mirror](https://mentionfox.com/funding/yc-asim-group)).
-  - Twitter/X: @tristanlecourt appears with a matching NASA JPL biography; current count not retrievable ([TwStalker via search snippet](https://twstalker.com/monsieurlabatut)).
-  - LinkedIn: Asim affiliation displayed; headline not retrievable; approximately 3,000 followers ([LinkedIn, Oct 2026](https://www.linkedin.com/in/tristan-lecourtois)).
-  - GitHub: @TristanLecourtois; NL2SQL displays 8 stars ([GitHub, Oct 2026](https://github.com/TristanLecourtois)).
-- **Maëlic Neau (Co-founder):**
-  - Background: Computer-science doctorate involving ENIB and Flinders University, followed by computer-vision/social-robotics research at Umeå University ([LinkedIn](https://fr.linkedin.com/in/maelicneau/fr)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Umeå University affiliation displayed in the indexed profile; 669 followers ([LinkedIn, Oct 2026](https://fr.linkedin.com/in/maelicneau/fr)).
-  - GitHub: @Maelic; RelateAnything displays approximately 1,200 stars ([GitHub, Oct 2026](https://github.com/Maelic/RelateAnything)).
-- **Co-founder relationship:** Lecourtois describes meeting future co-founders at a Paris hackathon before forming Asim ([LinkedIn](https://www.linkedin.com/in/tristan-lecourtois)).
-- **Founder-market fit:** Documented experience spans robot-control research, machine learning, and embodied agents, with YC backing and founders naming Nicolas Dessaigne and Nemil Dalal as supporting partners ([Tilley](https://douglas-tilley.github.io/); [Lecourtois](https://tristanlecourtois.github.io/index.html); [Lafargue](https://fr.linkedin.com/in/raflaf/fr)).
+- **Douglas Tilley (CEO):**
+  - Background: University of Bath AI and robotics PhD candidate, former DOTResearch CTO and machine-learning researcher at Japan’s National Institute of Informatics and Tianjin University, with `djt49@bath.ac.uk` published as his academic contact ([YC profile](https://www.ycombinator.com/founders/douglas-tilley), [Tilley profile](https://douglas-tilley.github.io/), [Asim](https://www.asim-group.com/)).
+  - Twitter/X: @DougTilley7, 84 followers ([TwStalker, via search snippet](https://twstalker.com/1x_tech), [YC profile](https://www.ycombinator.com/founders/douglas-tilley)).
+  - LinkedIn: “Asim (YC F26),” 1K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/douglas-tilley-uob2021phdart-ai)).
+  - GitHub: @Douglas-Tilley, MistralAI_team8, 1 star ([GitHub](https://github.com/douglas-tilley)).
+- **Raphaël Lafargue (CTO):**
+  - Background: AI PhD from IMT Atlantique and the University of Adelaide, physics MSc from ENS Paris-Saclay, and former Sony senior research scientist, with `raphael.lafargue@imt-atlantique.fr` published as his research contact ([YC profile](https://www.ycombinator.com/founders/raphael-lafargue), [TMLR, Sep 2024](https://openreview.net/pdf?id=JxxkKt9yrx)).
+  - Twitter/X: @raflaf_, 144 followers ([teapawt X mirror, Nov 2026](https://teapawt.org/raflaf_)).
+  - LinkedIn: “Asim (YC F26)” ([LinkedIn, via search snippet](https://fr.linkedin.com/in/raflaf/fr)).
+  - GitHub: @RafLaf, webcam, 7 stars ([GitHub](https://github.com/RafLaf)).
+- **Tristan Lecourtois (COO):**
+  - Background: ENS Paris-Saclay MS, prior research at NASA JPL and InstaDeep, and `tristanlecourtois4@gmail.com` published on his developer profile ([YC profile](https://www.ycombinator.com/founders/tristan-lecourtois), [research profile](https://tristanlecourtois.github.io/index.html), [GitHub](https://github.com/TristanLecourtois)).
+  - Twitter/X: @tristanlecourt, 281 followers ([teapawt X mirror, Nov 2026](https://www.nitter.gq/tristanlecourt)).
+  - LinkedIn: “Asim (YC F26),” 3K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/tristan-lecourtois)).
+  - GitHub: @TristanLecourtois, JEPA-Histo, 3 stars ([GitHub](https://github.com/TristanLecourtois)).
+- **Maëlic Neau (Founder):**
+  - Background: Joint computer science and robotics PhD from Flinders University and ENIB, former Umeå University postdoctoral fellow and two-time RoboCup@Home champion, with `neau@enib.fr` published as his academic contact ([YC profile](https://www.ycombinator.com/founders/maelic-neau), [academic CV](https://web.enib.fr/~neau/assets/publications/Academic_CV_2025.pdf)).
+  - Twitter/X: @MaelicN, count not retrievable ([YC profile](https://www.ycombinator.com/founders/maelic-neau)).
+  - LinkedIn: Headline not retrievable ([YC-linked LinkedIn profile](https://www.linkedin.com/in/maelicneau/)).
+  - GitHub: @Maelic, RelateAnything, 1.3K stars ([GitHub](https://github.com/Maelic/RelateAnything)).
+- **Co-founder relationship:** Lafargue and Neau were both PhD researchers at IRL CNRS CROSSING ([IRL CNRS CROSSING](https://au.linkedin.com/in/irl-crossing-b27557281/en)).
+- **Founder-market fit:** Tilley’s human–robot safety research, Lafargue’s benchmark research, Lecourtois’s JPL robotics work and Neau’s robotics competition experience align with the evaluation work, and Neau names Nicolas Dessaigne and Nemil Dalal as YC advisers ([Asim team](https://www.asim-group.com/#team), [TMLR](https://openreview.net/pdf?id=JxxkKt9yrx), [Neau’s announcement](https://www.linkedin.com/posts/maelicneau_today-with-a-touch-of-nostalgia-but-also-activity-7508044864454881281-KcYo)).
 
 ## Key Risks
 
-- **Technical validation:** [Inferred]: Illustrative demonstrations do not establish reliable intervention across unfamiliar robots and environments; Asim explicitly says its demonstrations are illustrative and assessments depend on system, task, and setting ([Asim Terms](https://www.asim-group.com/terms)).
-- **Certification gap:** [Inferred]: Customers requiring certified safety functions may need additional validation because Asim states its website provides neither safety certification nor deployment assurance ([Asim Terms](https://www.asim-group.com/terms)).
-- **Internal development and substitution:** [Inferred]: Open-source evaluation infrastructure gives robotics teams an alternative to purchasing external assessment tooling ([Robocurve](https://robocurve.org/)).
-- **Name ambiguity:** Dealroom’s robotics-domain record contains an unrelated Vietnamese telecommunications description, creating a specific risk of misattributing funding, employees, or traction ([Dealroom](https://app.dealroom.co/companies/asim_4)).
+- **Benchmark transfer:** A robot’s performance under tested conditions may differ after deployment when objects or environments change, so Asim uses held-out scenarios to probe generalization ([UC Berkeley AutoEval](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-42.pdf), [Asim benchmarking](https://www.asim-group.com/)).
+- **Physical testing throughput:** Hardware trials can require supervision and scene resets, limiting how many conditions can be tested, and Asim also runs simulated scenarios ([UC Berkeley AutoEval](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-42.pdf), [Asim benchmarking](https://www.asim-group.com/)).
+- **Certification scope:** Customers seeking formal approval need a separate assessment because Asim’s terms tie safety assessment to the specific system, task and environment and describe its website demonstrations as illustrative ([Asim terms](https://www.asim-group.com/terms)).
+- **Name collision:** Searches can mix up the robotics company with YC-backed mini-app company aSim or Vietnam’s ASIM Group, whose listings identify different domains ([YC aSim](https://www.ycombinator.com/companies/asim), [ASIM Group LinkedIn](https://www.linkedin.com/company/asimgroupvn)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Adjacent-market proxy: robot-safety-monitoring AI, $2.26B in 2025, forecast $5.11B in 2030, 17.8% CAGR ([The Business Research Company, 2026](https://www.thebusinessresearchcompany.com/report/robot-safety-monitoring-artificial-intelligence-ai-market-report)) |
+| TAM | No public data found |
 | SAM | No public data found |
-| Traction | YC backing; A3 and NVIDIA Inception membership ([Asim LinkedIn, Oct 2026](https://www.linkedin.com/company/asim-group/)) |
+| Traction | November 5 launch, 33,442 X launch-post views as of November 16 ([Doomers AI, Nov 2026](https://doomers.ai/launches/asim)), launch coverage ([Raised](https://raisednews.com/article/asim-real-world-robot-safety-tests/), [Menlo Times](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-203), Nov 2026) |
 | Revenue Signal | No public data found |
-| Founders | Tilley: Bath robotics researcher; Lafargue: ML PhD, ex-Sony; Lecourtois: ex-NASA JPL/InstaDeep; Neau: ML/robotics PhD ([Asim](https://www.asim-group.com/)) |
-| Competitors | Robocurve ($10M seed, revenue unknown, public evaluation: [company](https://robocurve.org/blog/seed-raise/)); FORT ($60.5M disclosed August 2025, revenue unknown, safety control: [company](https://www.fortrobotics.com/news/fort-secures-additional-18.9m-in-series-b-funding)); Realtime Robotics ($78.4M reported, revenue unknown, motion planning: [Caplight](https://www.caplight.com/company/realtime-robotics), [company](https://rtr.ai/)) |
-| Moat Signals | Private, withheld test scenarios ([Asim](https://www.asim-group.com/)) |
-| Risk Factors | Illustrative demonstrations; no certification or deployment assurance ([Asim Terms](https://www.asim-group.com/terms)) |
-| Founder Reach | LinkedIn: Tilley ~1K, Lafargue ~1K, Lecourtois ~3K, Neau 669 ([Tilley](https://www.linkedin.com/in/douglas-tilley-uob2021phdart-ai), [Lafargue](https://fr.linkedin.com/in/raflaf/fr), [Lecourtois](https://www.linkedin.com/in/tristan-lecourtois), [Neau](https://fr.linkedin.com/in/maelicneau/fr), Oct 2026) |
-| Distribution Signals | Robotics-conference outreach through IROS ([Asim LinkedIn, Oct 2026](https://www.linkedin.com/company/asim-group/)) |
-| Emails | contact@asim-group.com ([Asim About](https://www.asim-group.com/about)) |
+| Founders | Douglas Tilley (CEO), Bath robotics PhD candidate and former DOTResearch CTO. Raphaël Lafargue (CTO), AI PhD and former Sony researcher. Tristan Lecourtois (COO), ENS Paris-Saclay and NASA JPL. Maëlic Neau (Founder), robotics PhD and two RoboCup@Home titles ([Asim team](https://www.asim-group.com/#team), [YC founder profiles](https://www.ycombinator.com/founders/douglas-tilley)) |
+| Competitors | Robocurve ($10M raised, revenue unknown, public model comparisons) ([Robocurve](https://robocurve.org/blog/seed-raise/)), Coop (funding amount unknown, revenue unknown, warehouse benchmarks) ([a16z](https://speedrun.a16z.com/companies/coop)), SafeWorld ($12.2M raised, revenue unknown, simulated human–robot interactions) ([MEKAWIRE](https://mekawire.com/news/safeworld-12-2m-seed-shine-a16z-speedrun-robot-safety-20261005)) |
+| Moat Signals | Private test scenarios with undisclosed test details and reported results ([Asim benchmarking](https://www.asim-group.com/)) |
+| Risk Factors | Benchmark transfer and physical trial throughput ([UC Berkeley AutoEval](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/Archive/EECS-2025-42.pdf)), certification scope ([Asim terms](https://www.asim-group.com/terms)) |
+| Founder Reach | Tilley: LinkedIn 1K ([LinkedIn, via search snippet](https://www.linkedin.com/in/douglas-tilley-uob2021phdart-ai)). Lafargue: X 144 ([teapawt](https://teapawt.org/raflaf_)). Lecourtois: X 281, LinkedIn 3K ([teapawt](https://www.nitter.gq/tristanlecourt), [LinkedIn, via search snippet](https://www.linkedin.com/in/tristan-lecourtois)). Neau: RelateAnything 1.3K GitHub stars ([GitHub](https://github.com/Maelic/RelateAnything)) |
+| Distribution Signals | 51 company X followers ([teapawt X mirror, Nov 2026](https://nitter.cf/asim_group)), 33,442 founder launch-post views ([Doomers AI, Nov 2026](https://doomers.ai/launches/asim)) |
+| Emails | contact@asim-group.com, general inquiries ([Asim contact page](https://www.asim-group.com/about)), security@asim-group.com, website vulnerability reports ([Asim responsible disclosure](https://www.asim-group.com/responsible-disclosure)) |

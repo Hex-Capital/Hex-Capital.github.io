@@ -1,86 +1,89 @@
 ﻿# Hundred
 
-> 100% automated inspection for consumer electronics parts
+> 100% automated inspection for precision hardware parts
 
 | Field | Value |
 |-------|-------|
 | Website | http://hundred.systems/ |
 | YC Page | https://www.ycombinator.com/companies/hundred |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/hundred)) |
+| Batch | Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/hundred)) |
 | Industry | Industrials / Industrials -> Manufacturing and Robotics |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | Hard Tech, Hardware, Machine Learning, Computer Vision, Industrial |
-| YC Partner | Grey Baker ([YC](https://www.ycombinator.com/companies/hundred)) |
-| Emails | info@hundred.systems ([Hundred](https://hundred.systems/)) |
+| YC Partner | Grey Baker ([YC company profile](https://www.ycombinator.com/companies/hundred)) |
+| Emails | info@hundred.systems, general inquiries ([Hundred website](https://hundred.systems/)) |
 
 ## The Idea
 
-- **Problem:** Electronics factories inspect incoming components through sampling and manual examination, allowing damaged parts into assembly and leaving engineers without photographic evidence of their incoming condition ([Hundred](https://hundred.systems/), accessed Oct 2026).
-- **Approach:** Hundred combines ambient-light exclusion and controlled illumination with whole-tray imaging, reference-part comparison, within-batch comparison, and known-defect detection to grade cosmetic flaws below 100 µm ([YC](https://www.ycombinator.com/companies/hundred); [Hundred technical description](https://hundred.systems/how-it-works)).
-- **Differentiation:** Hundred emphasizes a dedicated tray station calibrated from one acceptable part, whereas Elementary’s VisionLink upgrades existing cameras and Instrumental combines inspection with assembly data and failure analysis ([Hundred](https://hundred.systems/how-it-works); [Elementary](https://www.elementaryml.com/product/visionlink); [Instrumental](https://instrumental.com/?p=8292)).
-- **Business Model:** The founding-partner program promises continuing preferential pricing but publishes no price, billing unit, or hardware-versus-software fee breakdown ([Hundred Partners](https://hundred.systems/partners), accessed Oct 2026).
-- **TAM/SAM:** The broader global machine-vision market is estimated at $25.3B in 2026, growing at 13.4% annually through 2033; this includes applications beyond Hundred’s segment, whose TAM/SAM is undisclosed ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/machine-vision-market)).
-- **GTM / Distribution:** Hundred recruits contract manufacturers, OEMs, and component vendors through its founding-partner application, offering onsite setup, monitoring, and customer-specific hardware/software changes ([Hundred Partners](https://hundred.systems/partners)).
+- **Problem** Electronics factories use manual microscope checks and incoming-part sampling, and Hundred estimates trained inspectors miss roughly 15% of defects that can cause scrap or stop assembly ([Launch YC](https://www.ycombinator.com/launches/WhN-hundred-automated-inspection-for-precision-hardware-parts), Nov 2026).
+- **Approach** Hundred says its benchtop station blocks ambient light and varies illumination to scan whole shipping trays, using one known-good sample to detect and grade defects smaller than 100 µm ([Hundred website](https://hundred.systems/), [YC company profile](https://www.ycombinator.com/companies/hundred)).
+- **Differentiation** Hundred targets whole-tray inspection at receiving, while Instrumental connects inspection data across factories, Overview AI uses on-device models in production-line cameras, and Elementary VisionLink adds AI to installed cameras ([Hundred](https://hundred.systems/), [Instrumental](https://instrumental.com/?p=8292), [Overview AI investor profile](https://www.array.vc/portfolio/overview-ai), [Elementary](https://www.elementaryml.com/blog/elementary-launches-visionlink-tm-globally-bringing-ai-to-legacy-vision-systems)).
+- **Business Model** [Inferred]: A per-station sale or lease could monetize the benchtop hardware used at incoming inspection ([Hundred website](https://hundred.systems/)).
+- **TAM/SAM** BCC Research forecast $8.60B in 2025 global machine-vision quality assurance and inspection spending, with 6.7% CAGR for 2022–2027, as a broader market proxy ([BCC Research](https://staging.bccresearch.com/public/RedactedRO/IAS010J.pdf), 2023).
+- **GTM / Distribution** Hundred solicits precision hardware companies and contract manufacturers through its YC launch and a website form offering direct work with the founders on defect priorities ([Launch YC](https://www.ycombinator.com/launches/WhN-hundred-automated-inspection-for-precision-hardware-parts), [Hundred website](https://hundred.systems/)).
 
 ## Defensibility
 
-- **Moat today:** Public technical evidence consists of the company-described combination of controlled optics and complementary inspection methods; independent performance validation and patent protection have no public data found ([YC](https://www.ycombinator.com/companies/hundred); [Hundred](https://hundred.systems/how-it-works)).
-- **Future moat:** [Inferred]: Retained component photographs and customer-specific cosmetic specifications could embed Hundred in quality investigations, but data ownership and demonstrated switching costs remain undisclosed ([Hundred](https://hundred.systems/)).
-- **Market structure:** [Inferred]: No structural barrier is identified because existing vendors already combine imaging hardware, inspection software, and factory integration ([Overview](https://www.overview.ai/company/)).
-- **Commoditization risk:** Elementary already offers AI inspection through installed cameras, providing a competing route that avoids purchasing a replacement imaging system ([Elementary VisionLink](https://www.elementaryml.com/product/visionlink)).
+- **Moat today** Hundred documents controlled-light calibration from one reference part and retention of a photo for every inspected part ([YC company profile](https://www.ycombinator.com/companies/hundred), [Hundred website](https://hundred.systems/)).
+- **Future moat** [Inferred]: Part-image histories and customer-specific grading rules could create switching costs if factories use them in failure investigations, with production use still unverified ([Hundred website](https://hundred.systems/)).
+- **Market structure** No structural barrier identified at this stage.
+- **Commoditization risk** Overview AI already sells configurable inspection cameras with onboard processing, and Elementary offers inspection software for installed cameras, giving factories options that reuse existing equipment or camera workflows ([Overview AI](https://www.overview.ai/), [Elementary](https://www.elementaryml.com/blog/elementary-launches-visionlink-tm-globally-bringing-ai-to-legacy-vision-systems)).
 
 ## Market & Traction
 
-- **Traction signals:**
-  - Deployment underway to three unnamed founding partners, according to the company; completed installations, payment status, and signed contracts are undisclosed ([Hundred Partners](https://hundred.systems/partners), accessed Oct 27, 2026).
-  - Zero advertised vacancies on YC ([YC Jobs](https://www.ycombinator.com/companies/hundred/jobs), accessed Oct 27, 2026).
-  - Company LinkedIn page identified as Hundred Systems; follower count not retrievable ([LinkedIn](https://www.linkedin.com/company/hundred-systems-inc/), accessed Oct 27, 2026).
-- **Competitors:**
-  - **Instrumental** (over $80M disclosed funding by 2022; revenue unknown): combines visual inspection with production-data analysis across electronics assembly rather than focusing on incoming trays; its latest announced investment came from NVentures and Root Ventures in March 2026, with amount and lead undisclosed ([2022 financing announcement](https://instrumental.com/?p=2627); [March 2026 announcement](https://instrumental.com/?p=8292)).
-  - **Elementary** ($47.5M disclosed funding; revenue unknown): VisionLink adds AI to existing cameras; its latest identified financing was an undisclosed Rockwell Automation investment in May 2024, following a $30M Tiger Global-led Series B in December 2021 ([Owler funding history](https://www.owler.com/company/elementaryml/funding); [company updates](https://www.elementaryml.com/topics/company-updates); [VisionLink](https://www.elementaryml.com/product/visionlink)).
-  - **Overview** ($14.9M reported funding; revenue unknown): sells configurable industrial AI cameras and inspection software rather than Hundred’s dedicated tray station; CB Insights reports a $3.75M convertible note in May 2025 involving Koru Capital and Momenta, with lead undisclosed ([CB Insights, via search snippet](https://www.cbinsights.com/company/overview/financials); [Overview](https://www.overview.ai/company/)).
-- **Why now:** [Inferred]: Meta’s August 2025 release of DINOv3’s pretrained visual models and commercially licensed code could reduce development effort for inspection with scarce annotations, although Hundred has not disclosed using it ([Meta, Aug 2025](https://ai.meta.com/blog/dinov3-self-supervised-vision-model/)).
+- **Traction signals**
+  - $125K seed investment attributed to YC in September 2026 by Dealroom, which lists the same amount as the fixed-equity portion of YC’s published $500K standard deal ([Dealroom funding record](https://app.dealroom.co/companies/hundred_2), [YC standard deal](https://www.ycombinator.com/deal)).
+  - Public launch on Nov 3, 2026 ([Launch YC](https://www.ycombinator.com/launches/WhN-hundred-automated-inspection-for-precision-hardware-parts), [Hundred launch post via Teapawt](https://teapawt.org/HundredSystems/status/2117670803823362294)).
+  - Coverage in The AI Read’s YC spotlight and Menlo Times’ YC launch roundup ([The AI Read](https://theairead.com/ventures), Oct 19, 2026, [Menlo Times](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-199), Nov 4, 2026).
+  - 130 YouTube launch-video views ([Launchscene](https://launchscene.app/v/hundred-yc-launch-hundred?play=1&s=7), Nov 11, 2026).
+  - 13 X followers at @HundredSystems and 10,538 views on its launch post ([X profile via Teapawt](https://teapawt.org/HundredSystems), [post via Teapawt](https://teapawt.org/HundredSystems/status/2117670803823362294), Nov 17, 2026).
+  - 0 open roles on YC Jobs ([YC Jobs](https://www.ycombinator.com/companies/hundred/jobs), Nov 17, 2026).
+- **Competitors**
+  - **Instrumental** ($80M+ raised by February 2022, revenue unknown) provides a cross-factory electronics inspection and failure-analysis platform and announced an investment of undisclosed size from NVentures and Root Ventures in March 2026 ([Instrumental Series C](https://instrumental.com/resources/company/instrumental-secures-50m-in-series-c-funding-to-expand-manufacturing-optimization-solutions/), [Instrumental investment announcement](https://instrumental.com/?p=8292)).
+  - **Overview AI** ($13.3M raised per Array Ventures, revenue unknown) sells production-line smart cameras that train and run models on-device and announced a $10M Series A led by Blumberg Capital in February 2022 ([Array Ventures](https://www.array.vc/portfolio/overview-ai), [Overview AI announcement](https://www.prnewswire.com/news-releases/overview-lands-10-million-series-a-to-help-manufacturers-radically-reduce-defects-and-waste-301484847.html)).
+  - **Elementary** (at least $47.5M in disclosed rounds, revenue unknown) adds AI to existing cameras through VisionLink and announced a strategic investment of undisclosed size from Rockwell Automation in May 2024 ([Dealroom funding history](https://app.dealroom.co/companies/elementary_robotics), [Elementary investment announcement](https://www.elementaryml.com/blog/elementary-vision-ai-investment-rockwell-automation), [Elementary VisionLink](https://www.elementaryml.com/blog/elementary-launches-visionlink-tm-globally-bringing-ai-to-legacy-vision-systems)).
+- **Why now** [Inferred]: Apple’s October 2026 expansion of U.S. iPhone component sourcing creates opportunities to qualify inspection workflows as suppliers ramp production, consistent with Hundred’s stated rationale that manufacturing shifts leave new sites with less experienced inspectors ([Apple Newsroom](https://www.apple.com/newsroom/2026/10/apple-announces-american-manufacturing-program-partners-for-latest-iphone-lineup/), [Launch YC](https://www.ycombinator.com/launches/WhN-hundred-automated-inspection-for-precision-hardware-parts)).
 
 ## Founders & Team
 
-- **Erica Diaz (CEO):**
-  - Background: Columbia mechanical-engineering graduate with over five-and-a-half years designing consumer hardware at Meta, Google, and Magic Leap, including supplier troubleshooting in China and Mexico ([YC founder profile](https://www.ycombinator.com/founders/erica-diaz)).
-  - Twitter/X: No public account found.
-  - LinkedIn: YC-linked profile; headline not retrievable; 734 followers shown in indexed content ([LinkedIn, via search snippet](https://www.linkedin.com/in/erica-diaz1), accessed Oct 2026).
-  - GitHub: No public repos found.
-- **Imani Gosserand (CPO):**
-  - Background: Columbia computer-science graduate who spent over five years at Twitch working on notifications, short-form content, and machine learning ([Hundred About](https://hundred.systems/about)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile linked by YC; headline and follower count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/imani-gosserand)).
-  - GitHub: No public repos found.
-- **Iris Liao (CTO):**
-  - Background: Columbia mathematics graduate with an Imperial applied-mathematics MSc, prior Citadel quantitative research, and research involving machine learning on meshes and structured data ([YC founder profile](https://www.ycombinator.com/founders/iris-liao)).
-  - Twitter/X: No public account found.
-  - LinkedIn: YC-linked profile; headline not retrievable; 702 followers shown in indexed content ([LinkedIn, via search snippet](https://www.linkedin.com/in/iris-liao-03b041152), accessed Oct 2026).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Diaz and Gosserand met at Columbia’s admitted-students event in 2017, and Diaz subsequently met Liao in the Bay Area ([YC](https://www.ycombinator.com/companies/hundred)).
-- **Founder-market fit:** Diaz has documented electronics and supplier experience, Gosserand has production-software experience, and Liao has quantitative/ML research experience; YC backing is confirmed ([Hundred About](https://hundred.systems/about); [YC](https://www.ycombinator.com/companies/hundred)).
+- **Erica Diaz (CEO)** · Direct business email — No public data found
+  - **Background** Columbia BS in mechanical engineering and 5.5+ years designing consumer hardware at Meta, Google and Magic Leap, including resolving vendor issues in China and Mexico ([YC founder profile](https://www.ycombinator.com/founders/erica-diaz)).
+  - **Twitter/X** No public account found.
+  - **LinkedIn** Profile lists Hundred and 1K followers, with no headline displayed ([LinkedIn](https://www.linkedin.com/in/erica-diaz1), Nov 2026).
+  - **GitHub** No public repos found.
+- **Imani Gosserand (CPO)** · Direct business email — No public data found
+  - **Background** Columbia BS in computer science and five years in software engineering at Twitch across notifications, short-form content and machine learning ([YC founder profile](https://www.ycombinator.com/founders/imani-gosserand), [Launch YC](https://www.ycombinator.com/launches/WhN-hundred-automated-inspection-for-precision-hardware-parts)).
+  - **Twitter/X** No public account found.
+  - **LinkedIn** Profile linked by YC, headline and follower count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/imani-gosserand)).
+  - **GitHub** No public repos found.
+- **Iris Liao (CTO)** · Direct business email — No public data found
+  - **Background** Columbia BA in mathematics, Imperial College London MSc in applied mathematics, former Citadel quantitative researcher and research on machine learning for 3D meshes and structured data ([YC founder profile](https://www.ycombinator.com/founders/iris-liao)).
+  - **Twitter/X** No public account found.
+  - **LinkedIn** Headline not retrievable, 702 followers ([LinkedIn](https://www.linkedin.com/in/iris-liao-03b041152), Oct 2026 via search snippet).
+  - **GitHub** No public repos found.
+- **Co-founder relationship** All three attended Columbia, Diaz met Gosserand at admitted-students day in 2017, and Diaz later met Liao in the Bay Area ([YC company profile](https://www.ycombinator.com/companies/hundred)).
+- **Founder-market fit** Diaz traced device failures to supplier parts, Gosserand built production software at Twitch, and Liao researched machine learning on structured geometry, with Grey Baker listed as YC primary partner ([Launch YC](https://www.ycombinator.com/launches/WhN-hundred-automated-inspection-for-precision-hardware-parts), [YC company profile](https://www.ycombinator.com/companies/hundred)).
 
 ## Key Risks
 
-- **Technical validation:** [Inferred]: Calibration from one acceptable component may misclassify legitimate material variation; independent false-accept, false-reject, and production-throughput results have no public data found ([Hundred technical claims](https://hundred.systems/how-it-works)).
-- **Deployment customization:** [Inferred]: Promised onsite monitoring and hardware adaptation could require substantial installation work per factory, although these services also support initial implementation ([Hundred Partners](https://hundred.systems/partners)).
-- **Substitution:** [Inferred]: Customers with installed inspection cameras may choose an AI retrofit instead of a separate tray station ([Elementary VisionLink](https://www.elementaryml.com/product/visionlink)).
-- **Name ambiguity:** [Inferred]: Search results can conflate this company with Hundred Health at hundred.com, whose founder is Tyler Smith; health-product metrics and partnerships were excluded ([Cymbiotika announcement, Aug 2026](https://www.prnewswire.com/news-releases/cymbiotika-partners-with-hundred-health-to-bring-personalized-health-intelligence-to-its-community-302864443.html)).
+- **Detection accuracy** [Inferred]: Reflective finishes or acceptable variation from the reference sample could produce false rejects or missed defects, and Hundred describes controlled lighting as its mitigation without publishing production error rates ([YC company profile](https://www.ycombinator.com/companies/hundred), [Hundred website](https://hundred.systems/)).
+- **Inspection throughput** [Inferred]: Inspecting every incoming part could create a receiving bottleneck if scan and quarantine times exceed incoming volume, and Hundred describes whole-tray scanning without publishing a sustained parts-per-hour rate ([Hundred website](https://hundred.systems/)).
+- **Installed-camera substitution** [Inferred]: Factories with legacy vision cameras can add AI through Elementary VisionLink, which could reduce demand for a separate benchtop station ([Elementary VisionLink](https://www.elementaryml.com/blog/elementary-launches-visionlink-tm-globally-bringing-ai-to-legacy-vision-systems), [Hundred website](https://hundred.systems/)).
+- **Name ambiguity** Hundred Health also uses Hundred in its branding, making the domain and founder names relevant when attributing coverage or app metrics ([Hundred Health](https://www.hundred.com/), [YC company profile](https://www.ycombinator.com/companies/hundred)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader machine vision: $25.3B in 2026; 13.4% CAGR through 2033, exceeding Hundred’s specific scope ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/machine-vision-market)). |
+| TAM | $8.60B global machine-vision quality assurance and inspection forecast for 2025, 6.7% CAGR for 2022–2027, broad-market proxy ([BCC Research](https://staging.bccresearch.com/public/RedactedRO/IAS010J.pdf), 2023) |
 | SAM | No public data found |
-| Traction | Company reports deploying to three unnamed founding partners ([Hundred Partners](https://hundred.systems/partners), accessed Oct 2026). |
-| Revenue Signal | Continuing founding-partner pricing offered; amounts undisclosed ([Hundred Partners](https://hundred.systems/partners), accessed Oct 2026). |
-| Founders | Erica Diaz, CEO: consumer hardware; Imani Gosserand, CPO: Twitch software; Iris Liao, CTO: Citadel quantitative research; all Columbia graduates ([Hundred About](https://hundred.systems/about)). |
-| Competitors | Instrumental (>$80M disclosed, revenue unknown, production analytics); Elementary ($47.5M disclosed, revenue unknown, camera retrofits); Overview ($14.9M reported, revenue unknown, configurable cameras) ([Instrumental](https://instrumental.com/?p=2627); [Owler](https://www.owler.com/company/elementaryml/funding); [CB Insights, via search snippet](https://www.cbinsights.com/company/overview/financials)). |
-| Moat Signals | Company-described reference-part, batch-comparison, and process-defect inspection methods ([Hundred](https://hundred.systems/how-it-works)). |
-| Risk Factors | Single-reference calibration, customer-specific hardware adaptation, camera-retrofit alternatives ([Hundred](https://hundred.systems/how-it-works); [Partners](https://hundred.systems/partners); [Elementary](https://www.elementaryml.com/product/visionlink)). |
-| Founder Reach | Diaz: LinkedIn 734 followers; Liao: LinkedIn 702 followers ([Diaz](https://www.linkedin.com/in/erica-diaz1); [Liao](https://www.linkedin.com/in/iris-liao-03b041152), both via search snippets, accessed Oct 2026). |
-| Distribution Signals | Founding-partner application targeting manufacturers, OEMs, and part vendors ([Hundred Partners](https://hundred.systems/partners), accessed Oct 2026). |
-| Emails | info@hundred.systems ([Hundred](https://hundred.systems/)). |
+| Traction | $125K YC seed entry ([Dealroom](https://app.dealroom.co/companies/hundred_2), Sep 2026), public launch ([Launch YC](https://www.ycombinator.com/launches/WhN-hundred-automated-inspection-for-precision-hardware-parts), Nov 2026), 0 open YC roles ([YC Jobs](https://www.ycombinator.com/companies/hundred/jobs), Nov 17, 2026) |
+| Revenue Signal | No public data found |
+| Founders | Erica Diaz (CEO), Meta, Google and Magic Leap hardware ([YC](https://www.ycombinator.com/founders/erica-diaz)); Imani Gosserand (CPO), Twitch and Columbia CS ([YC](https://www.ycombinator.com/founders/imani-gosserand)); Iris Liao (CTO), Citadel and Imperial applied mathematics ([YC](https://www.ycombinator.com/founders/iris-liao)) |
+| Competitors | Instrumental ($80M+ raised by February 2022, revenue unknown, cross-factory analytics) ([Instrumental](https://instrumental.com/resources/company/instrumental-secures-50m-in-series-c-funding-to-expand-manufacturing-optimization-solutions/)); Overview AI ($13.3M raised, revenue unknown, on-device inspection) ([Array Ventures](https://www.array.vc/portfolio/overview-ai)); Elementary (at least $47.5M raised, revenue unknown, legacy-camera AI) ([Dealroom](https://app.dealroom.co/companies/elementary_robotics), [Elementary](https://www.elementaryml.com/blog/elementary-launches-visionlink-tm-globally-bringing-ai-to-legacy-vision-systems)) |
+| Moat Signals | Single-reference calibration and per-part photo retention ([YC company profile](https://www.ycombinator.com/companies/hundred), [Hundred website](https://hundred.systems/)) |
+| Risk Factors | Production error and throughput metrics undisclosed in product materials ([Hundred website](https://hundred.systems/), [YC company profile](https://www.ycombinator.com/companies/hundred)), competing retrofits for installed cameras ([Elementary VisionLink](https://www.elementaryml.com/blog/elementary-launches-visionlink-tm-globally-bringing-ai-to-legacy-vision-systems)) |
+| Founder Reach | Erica Diaz, LinkedIn 1K ([LinkedIn](https://www.linkedin.com/in/erica-diaz1), Nov 2026); Imani Gosserand, No public data found; Iris Liao, LinkedIn 702 ([LinkedIn](https://www.linkedin.com/in/iris-liao-03b041152), Oct 2026 via search snippet) |
+| Distribution Signals | 130 YouTube views ([Launchscene](https://launchscene.app/v/hundred-yc-launch-hundred?play=1&s=7), Nov 11, 2026), 13 X followers and 10,538 launch-post views ([profile](https://teapawt.org/HundredSystems) and [post](https://teapawt.org/HundredSystems/status/2117670803823362294) via Teapawt, Nov 17, 2026), launch roundup coverage ([Menlo Times](https://www.menlotimes.com/post/y-combinator-launches-of-the-week-199), Nov 4, 2026) |
+| Emails | info@hundred.systems, general inquiries ([Hundred website](https://hundred.systems/)) |

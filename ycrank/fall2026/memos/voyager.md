@@ -6,87 +6,87 @@
 |-------|-------|
 | Website | https://voyager.so |
 | YC Page | https://www.ycombinator.com/companies/voyager |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/voyager)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/voyager)) |
 | Industry | B2B / B2B -> Marketing |
 | Team Size | 6 |
 | Location | New York City, NY, USA |
 | Tags | Design, Video, Marketing |
-| YC Partner | Andrew Miklas ([YC](https://www.ycombinator.com/companies/voyager)) |
-| Emails | support@voyager.so ([Voyager](https://voyager.so/privacy)); sam@moda.app, founding designer ([team profile](https://www.linkedin.com/posts/iconsam_thrilled-to-share-some-news-im-joining-activity-7442244089057673216-tEiu), via search snippet) |
+| YC Partner | Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/voyager)) |
+| Emails | support@voyager.so — support, billing, privacy, and abuse reports ([Voyager Terms](https://voyager.so/terms)) |
 
 ## The Idea
 
-- **Problem:** Creative teams assemble storyboards, generated footage, sound, and edits across separate applications and providers, requiring coordination that Voyager proposes consolidating ([YC launch](https://www.ycombinator.com/launches/Ufz-voyager-ai-harness-for-video-and-creative-work)).
-- **Approach:** A desktop agent selects generation models, executes production steps in existing creative applications, and maintains editable projects using bundled design, video, and music editors ([Voyager](https://voyager.so/)).
-- **Differentiation:** Voyager positions its desktop application control and editable project delivery against Higgsfield’s browser generation workflows, OpenArt’s character-based storytelling, and Runway’s video studio ([Higgsfield comparison](https://voyager.so/compare/voyager-vs-higgsfield), [OpenArt comparison](https://voyager.so/compare/voyager-vs-openart), [Runway comparison](https://voyager.so/compare/voyager-vs-runway)).
-- **Business Model:** Freemium subscriptions include 1,000 monthly workspace credits free, with monthly individual plans at $19 Starter, $49 Creator, $149 Ultra, and $500 GigaMax, plus prepaid credit purchases ([pricing, accessed Oct. 27, 2026](https://voyager.so/pricing)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Distribution includes a downloadable desktop application, reusable production guides, a YC launch, founder demonstrations on X, and plugins for existing coding-agent workflows ([website](https://voyager.so/), [launch thread, Oct. 8, 2026, mirrored by teapawt](https://teapawt.net/anvisha/status/2108252061209088159), [FAQ](https://voyager.so/faq)).
+- **Problem** Video editors, marketers, and small studios assembling finished videos switch among model providers, API keys, and separate apps for storyboarding, generation, sound, and editing ([Launch YC](https://www.ycombinator.com/launches/Ufz-voyager-ai-harness-for-video-and-creative-work), Oct 2026).
+- **Approach** A desktop agent uses a creative brief to generate media and edit project files through bundled tools or connected applications such as Blender, DaVinci Resolve, and Ableton Live, with support for Claude, ChatGPT, and Voyager’s own agent ([Voyager](https://voyager.so/), Nov 2026).
+- **Differentiation** Voyager executes edits in installed creative apps, while Higgsfield Supercomputer connects external apps to its agent workspace, Runway assembles reusable model pipelines, and Krea Agent produces visual assets within Krea ([Voyager FAQ](https://voyager.so/faq), [Higgsfield](https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-supercomputer), [Runway](https://runway.com/workflows), [Krea](https://www.krea.ai/agent)).
+- **Business Model** The free workspace includes 1,000 monthly credits and accepts users’ existing agent accounts and keys, while paid plans cost $19, $49, $149, or $500 per month, with top-ups from $11 ([Voyager Pricing](https://voyager.so/pricing), Nov 2026).
+- **TAM/SAM** Grand View Research estimates the global AI video generator market at $946.4M in 2026, growing at 20.3% CAGR through 2033, as a proxy for Voyager’s video segment ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-video-generator-market-report), 2026).
+- **GTM / Distribution** Voyager distributes through a free desktop download and Launch YC, and its first dedicated growth hire is tasked with creator campaigns, an ambassador program, and events ([Voyager Download](https://voyager.so/download), [Launch YC](https://www.ycombinator.com/launches/Ufz-voyager-ai-harness-for-video-and-creative-work), [YC Jobs](https://www.ycombinator.com/companies/voyager/jobs/bFePnh9-growth-partnerships), Nov 2026).
 
 ## Defensibility
 
-- **Moat today:** Public implementation signals include proprietary creative editors, application-specific automation, and reusable skills; evidence of exclusive data, patents, or network effects: No public data found ([FAQ](https://voyager.so/faq)).
-- **Future moat:** [Inferred]: Saved workflows and preference memory could increase switching costs, but their effect on retention has not been publicly quantified ([described functionality](https://voyager.so/faq)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, because competing creative platforms already combine generation, editing, and agent interfaces ([Runway](https://voyager.so/compare/voyager-vs-runway), [OpenArt](https://voyager.so/compare/voyager-vs-openart)).
-- **Commoditization risk:** Competitors can access overlapping generation models, while Voyager’s application remains proprietary despite its “open” positioning ([model overlap](https://voyager.so/compare/voyager-vs-higgsfield), [source availability](https://voyager.so/faq)).
+- **Moat today** Voyager reports support for 100+ creative tools and publishes a source-available headless 3D and VFX engine, `vork`, with 1.6K GitHub stars ([Voyager](https://voyager.so/), [GitHub](https://github.com/voyager-so/vork), Nov 2026).
+- **Future moat** [Inferred]: Saved skills and project preferences could create switching costs if teams reuse them across productions, with no public retention data showing that behavior ([Voyager FAQ](https://voyager.so/faq)).
+- **Market structure** No structural barrier identified at this stage.
+- **Commoditization risk** [Inferred]: Rivals can package similar model access and workflow automation using shared media models and MCP, as Runway and Krea already offer agent connectors ([Runway MCP](https://runway.com/news/company-news/mcp), [Krea MCP](https://www.krea.ai/mcp)).
 
 ## Market & Traction
 
-- **Traction signals:**
-  - Voyager launch dated October 8, 2026 ([founder’s X thread, teapawt mirror](https://teapawt.net/anvisha/status/2108252061209088159)).
-  - Prior product **Moda: 100,000+ users**, explicitly distinct from Voyager ([YC, accessed Oct. 27, 2026](https://www.ycombinator.com/companies/voyager)).
-  - Team funding of **$16M**, founder-reported without round terms in the launch thread; an earlier **$7.5M Moda seed**, led by General Catalyst with Pear VC and WndrCo participating, was announced March 24, 2026 ([October launch thread](https://teapawt.net/anvisha/status/2108252061209088159), [Moda announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/moda-raises-7-5m-to-give-every-professional-a-design-agent.html)).
-  - Company X account **@startvoyager: 708 followers** ([teapawt mirror, accessed Oct. 27, 2026](https://teapawt.net/startvoyager)).
-  - Company LinkedIn: **214 followers** ([LinkedIn, accessed Oct. 27, 2026](https://www.linkedin.com/company/voyagerso)).
-  - Discord: **266 members**, directory-reported ([ToolPotion, indexed Oct. 2026, via search snippet](https://toolpotion.ai/ja/ai-apps/voyager)).
-  - Desktop release repository: **18 stars**, representing downloads and updates rather than application source ([GitHub, accessed Oct. 27, 2026](https://github.com/usevoyager/voyager-releases)).
-  - **One filmmaker vacancy**, San Francisco, **$100,000–$140,000** advertised salary ([YC jobs, accessed Oct. 27, 2026](https://www.ycombinator.com/companies/voyager/jobs)).
-  - Coverage in **AI Insiders**, October 9, 2026 ([publication](https://www.aiinsiders.net/article/voyager-pitches-an-ai-toolkit-for-artists-not-just)).
-- **Competitors:**
-  - **Higgsfield ($538M raised through August 2026; $1B annualized revenue run rate in September):** browser creative suite versus Voyager’s desktop application control; its $400M Series B was led by DST Global, followed by an October 23 extension from TCV and NVIDIA whose size was undisclosed ([funding total](https://sacra.com/c/openart/), [August round](https://www.prnewswire.com/news-releases/higgsfield-raises-400-million-series-b-financing-at-5-4-billion-valuation-with-annualized-revenue-reaching-700-million-302852430.html), [extension and revenue](https://higgsfield.ai/blog/higgsfield-series-b-extension-tcv-nvidia), [comparison](https://voyager.so/compare/voyager-vs-higgsfield)).
-  - **OpenArt ($35M total raised; $70M+ ARR reported January 2026):** persistent characters and browser storytelling versus Voyager’s external-editor workflows; Canaan led its $30M Series A on January 30, 2026 ([funding total](https://sacra.com/c/openart/), [lead investor](https://www.canaan.com/news/why-we-led-openart-s-30m-series-a), [comparison](https://voyager.so/compare/voyager-vs-openart)).
-  - **Runway (approximately $860M raised by February 2026; $200M ARR estimated August 2026):** proprietary video models and a web studio versus Voyager’s desktop orchestration; General Atlantic led its $315M Series E, and Lionsgate subsequently obtained an undisclosed equity interest in June ([funding total](https://news.crunchbase.com/venture/gen-ai-video-startup-unicorn-runway-seriese-raise/), [round](https://runway.com/news/runway-series-e-funding), [ARR estimate](https://sacra.com/c/runway/), [Lionsgate](https://runway.com/news/company-news/runway-and-lionsgate-expand-partnership), [comparison](https://voyager.so/compare/voyager-vs-runway)).
-- **Why now:** The founders attribute the October 2026 launch to recent model improvements enabling production across multiple tools and media formats ([launch thread](https://teapawt.net/anvisha/status/2108252061209088159)).
+- **Traction signals**
+  - Voyager’s public introduction received coverage in AI Insiders in October 2026 ([AI Insiders](https://www.aiinsiders.net/article/voyager-pitches-an-ai-toolkit-for-artists-not-just), Oct 9, 2026).
+  - 2.1M views on Anvisha Pai’s Nov 4 Voyager launch post on X ([The Launch Video Company](https://www.launchvideo.com/directory/voyager), Nov 2026).
+  - 1.4K followers on @startvoyager and 359 company followers on LinkedIn ([X profile mirror](https://nitter.cf/startvoyager), [Voyager LinkedIn](https://www.linkedin.com/company/voyagerso), Nov 2026).
+  - 266 Discord members in a directory snapshot ([ToolPotion](https://toolpotion.ai/ru/ai-apps/voyager), accessed Nov 2026).
+  - 1 open Growth & Partnerships role and 1.6K stars for the `vork` research preview ([YC Jobs](https://www.ycombinator.com/companies/voyager), [GitHub](https://github.com/voyager-so/vork), Nov 2026).
+  - Customer testimonial: Evan Schindler reported producing the short *Nightcap* with Voyager, Meshy, and ElevenLabs, using 78 generations and $128.99 in generation spend across the workflow ([Schindler’s X post, mirrored](https://nitter.cf/anvisha), Nov 2026).
+  - Moda, the team’s separate design product, had 100K+ users when Voyager launched ([Nullframe](https://nullframe.ai/), [Launch YC](https://www.ycombinator.com/launches/Ufz-voyager-ai-harness-for-video-and-creative-work), Oct 2026).
+- **Funding** Dealroom lists a $125K YC entry for Voyager in September 2026, with the complete investment amount unverified, while Moda separately announced a $7.5M seed led by General Catalyst with Pear VC in March 2026 ([Dealroom](https://app.dealroom.co/companies/voyager_6), [YC Standard Deal](https://www.ycombinator.com/deal/), [Moda announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/Moda-Raises-7-5M-to-give-every-professional-a-design-agent.html)).
+- **Competitors**
+  - **Higgsfield** ($538M raised through Aug 2026, $1B+ company-reported annualized revenue run rate) offers Marketing Studio and Supercomputer, with a $400M August Series B led by DST Global and an October extension from TCV and NVIDIA of undisclosed size ([Sacra](https://sacra.com/c/higgsfield/), [Higgsfield financing](https://higgsfield.ai/blog/higgsfield-series-b-extension-tcv-nvidia), [Supercomputer docs](https://higgsfield.ai/creator-hub/help-center/tools/how-do-i-use-supercomputer)).
+  - **Runway** ($863.5M tracked by Forge, $200M estimated ARR) develops its own video models and reusable node pipelines, and raised a $315M Series E led by General Atlantic in February 2026 ([Forge](https://forgeglobal.com/runway_stock/), [Sacra](https://sacra.com/c/runway/), [Runway funding](https://runway.com/news/runway-series-e-funding), [Runway Workflows](https://runway.com/workflows)).
+  - **Krea** ($83M raised, revenue unknown) offers a visual asset agent and node editor, and its latest disclosed round was a $47M Series B led by Bain Capital Ventures in April 2025 ([TechCrunch](https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/), [Krea](https://www.krea.ai/app)).
+- **Why now** [Inferred]: In January 2026, 64% of surveyed ad executives cited cost efficiency as a benefit of AI in ad creation, a demand signal for tools that combine generation and editing ([IAB and Sonata Insights](https://www.iab.com/insights/the-ai-gap-widens/), Jan 2026).
 
 ## Founders & Team
 
-- **Anvisha Pai (Co-founder; Moda CEO):**
-  - Background: MIT EECS graduate, former Dropbox employee, and Dover co-founder ([LinkedIn, via search snippet](https://www.linkedin.com/in/anvisha), [company announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/moda-raises-7-5m-to-give-every-professional-a-design-agent.html)).
-  - Twitter/X: @anvisha, **12.8K followers** ([teapawt mirror, Oct. 27, 2026](https://teapawt.net/anvisha)).
-  - LinkedIn: “building Moda.app”; **13K followers** ([LinkedIn sources, via search snippet](https://www.linkedin.com/in/anvisha)).
-  - GitHub: @anvisha; codelet, **2 stars** ([GitHub, Oct. 27, 2026](https://github.com/anvisha)).
-- **John Holliman (Founder listed by YC; Moda CTO):**
-  - Background: MIT SB and MEng; previously Dover’s founding engineer and CTO, following work at Expanse, acquired by Palo Alto Networks ([YC founder profile](https://www.ycombinator.com/founders/jhh3)).
-  - Twitter/X: @j_h_h_3, **44 followers** ([Sotwe mirror, Oct. 27, 2026](https://www.sotwe.com/j_h_h_3)).
-  - LinkedIn: Moda affiliation; headline: No public data found; **1K followers** ([LinkedIn, via search snippet](https://www.linkedin.com/in/jhhiii)).
-  - GitHub: @jhh3; 6.869-final-project, retinal-disease classification, **3 stars** ([GitHub, Oct. 27, 2026](https://github.com/jhh3)).
-- **Ravi Parikh (Co-founder; Moda COO):**
-  - Background: Stanford bachelor’s and master’s degrees in computer science; co-founded Heap, acquired by Contentsquare, and Airplane, acquired by Airtable ([education](https://www.crunchbase.com/person/ravi-parikh-2), [company announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/moda-raises-7-5m-to-give-every-professional-a-design-agent.html)).
-  - Twitter/X: @ravisparikh, **4,895 followers** ([Nitter, via search snippet, Oct. 2026](https://nitter.rdrama.net/ravisparikh)).
-  - LinkedIn: Profile identified; headline: No public data found ([profile linked by Crunchbase](https://www.crunchbase.com/person/ravi-parikh-2)).
-  - GitHub: @swag; swag.github.io, **4 stars** ([GitHub, Oct. 27, 2026](https://github.com/swag)).
-- **Co-founder relationship:** Pai and Holliman previously worked together at Dover, and all three founded Moda ([company announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/moda-raises-7-5m-to-give-every-professional-a-design-agent.html)).
-- **Founder-market fit:** Documented experience includes building Moda’s design agent, operating software companies, and Parikh’s prior work as a touring musician; investors include General Catalyst, Pear VC, and WndrCo ([announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/moda-raises-7-5m-to-give-every-professional-a-design-agent.html), [Parikh](https://swag.github.io/)).
+- **Anvisha Pai (Co-founder and CEO)**
+  - **Background** MIT computer science graduate, Dover co-founder, and former Dropbox employee ([YC founder profile](https://www.ycombinator.com/founders/anvisha-pai), [Voyager byline](https://voyager.so/resources/models/compare/eleven-v4-vs-eleven-v3)); direct business email — No public data found.
+  - **Twitter/X** @anvisha, 13.7K followers ([X profile mirror](https://nitter.cf/anvisha), Nov 2026).
+  - **LinkedIn** “Moda,” 13K followers ([LinkedIn](https://www.linkedin.com/in/anvisha), Nov 2026).
+  - **GitHub** @anvisha, `codelet` with 2 stars ([GitHub](https://github.com/anvisha), Nov 2026).
+- **John Holliman (Co-founder)**
+  - **Background** MIT SB and MEng, founding engineer and later CTO at Dover, former Expanse employee, and Moda co-founder and CTO ([YC founder profile](https://www.ycombinator.com/founders/jhh3)); direct business email — No public data found.
+  - **Twitter/X** @j_h_h_3, 58 followers ([X profile mirror](https://teapawt.org/j_h_h_3), Nov 2026).
+  - **LinkedIn** “Moda,” 1K followers ([LinkedIn](https://www.linkedin.com/in/jhhiii), Nov 2026).
+  - **GitHub** @jhh3, `6.869-final-project` with 3 stars ([GitHub](https://github.com/jhh3), Nov 2026).
+- **Ravi Parikh (Co-founder)**
+  - **Background** Stanford computer science alumnus who co-founded Heap, acquired by Contentsquare in 2023, and Airplane, whose team Airtable acquired in 2024 ([YC founder profile](https://www.ycombinator.com/founders/ravi-parikh), [Contentsquare](https://contentsquare.com/blog/whats-next-in-experience-analytics/), [Airtable](https://www.airtable.com/newsroom/airplane-balsa-join-airtable)); direct business email — No public data found.
+  - **Twitter/X** @ravisparikh, 7.8K followers ([X profile mirror](https://nitter.cf/ravisparikh), Nov 2026).
+  - **LinkedIn** “Co-Founder at Moda” in a public profile index, with follower count unavailable ([YC-linked profile](https://www.linkedin.com/in/raviparikh2/), [Humantic AI](https://humantic.ai/public-profile/ravi-p-f643c504f85b4405)).
+  - **GitHub** @swag, `swag.github.io` with 4 stars ([GitHub](https://github.com/swag), Nov 2026).
+- **Co-founder relationship** Pai and Holliman worked together at Dover and attended MIT, and all three built Moda ([YC](https://www.ycombinator.com/companies/voyager), [Moda announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/Moda-Raises-7-5M-to-give-every-professional-a-design-agent.html)).
+- **Founder-market fit** The team previously shipped Moda’s editable AI design canvas, Parikh authored Voyager’s `vork` technical release, and YC lists Andrew Miklas as primary partner ([Moda announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/Moda-Raises-7-5M-to-give-every-professional-a-design-agent.html), [Voyager](https://voyager.so/blog/what-is-vork), [YC](https://www.ycombinator.com/companies/voyager)).
 
 ## Key Risks
 
-- **Integration reliability:** Windows and Linux builds remain alpha, Linux lacks computer control, and application prerequisites vary; bundled editors provide an alternative workflow ([FAQ](https://voyager.so/faq)).
-- **Supplier dependency:** [Inferred]: Changes to model access or pricing could affect workflows and costs, partially mitigated by multiple providers and customer-supplied credentials ([provider options](https://voyager.so/compare/voyager-vs-higgsfield)).
-- **Workflow substitution:** [Inferred]: Competing agent studios could reduce differentiation as their editing capabilities expand ([Runway comparison](https://voyager.so/compare/voyager-vs-runway)).
-- **Product attribution:** Moda launched in March and Voyager in October 2026; Moda’s user counts and funding announcements do not establish Voyager adoption or revenue ([Moda announcement](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/moda-raises-7-5m-to-give-every-professional-a-design-agent.html), [Voyager launch](https://teapawt.net/anvisha/status/2108252061209088159)).
+- **Native substitution** Adobe added its own agent and third-party models to Firefly, giving Creative Cloud users an overlapping workflow inside Adobe’s suite ([Adobe](https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity), Nov 2026).
+- **Integration compatibility** App versions and permissions determine which controls work, and Voyager documents multiple connection methods, including scripting, project files, and MCP ([Voyager App Reference](https://voyager.so/resources/apps), Oct 2026).
+- **Technical feasibility** Voyager’s `vork` benchmark measures render time without establishing equivalent image quality, and its documentation reports artifacts in low-sample renders and offers higher sample settings ([GitHub](https://github.com/voyager-so/vork), Nov 2026).
+- **Customer asset handling** Model-backed tasks can send selected files and context to the provider, creating a disclosure risk for confidential footage that Voyager addresses with per-task review and local project storage ([Voyager FAQ](https://voyager.so/faq), Nov 2026).
+- **Name collision** Product Hunt lists a separate Voyager macOS file browser at voyager.fm, making domain checks necessary when attributing launch rankings or reviews ([Product Hunt](https://www.producthunt.com/products/vygr?launch=voyager-9), Nov 2026).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | $946.4M global AI video generator market in 2026, 20.3% CAGR through 2033 ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/ai-video-generator-market-report), 2026) |
 | SAM | No public data found |
-| Traction | Prior product Moda: 100K+ users ([YC, Oct. 2026](https://www.ycombinator.com/companies/voyager)); Voyager LinkedIn: 214 followers ([LinkedIn, Oct. 2026](https://www.linkedin.com/company/voyagerso)) |
-| Revenue Signal | Free tier; paid individual plans $19/$49/$149/$500 monthly ([Voyager pricing, Oct. 27, 2026](https://voyager.so/pricing)) |
-| Founders | Pai: CEO, Dover/Dropbox; Holliman: CTO, Dover/Expanse; Parikh: COO, Heap/Airplane ([Moda announcement, Mar. 2026](https://www.globenewswire.com/news-release/2026/03/24/3261496/0/en/moda-raises-7-5m-to-give-every-professional-a-design-agent.html)) |
-| Competitors | Higgsfield ($538M raised, $1B annualized run rate, browser suite); OpenArt ($35M raised, $70M+ reported ARR, character storytelling); Runway (~$860M raised, $200M estimated ARR, proprietary models) ([Higgsfield](https://higgsfield.ai/blog/higgsfield-series-b-extension-tcv-nvidia), [OpenArt](https://sacra.com/c/openart/), [Runway funding](https://news.crunchbase.com/venture/gen-ai-video-startup-unicorn-runway-seriese-raise/), [Runway ARR](https://sacra.com/c/runway/)) |
-| Moat Signals | Proprietary editors and application-specific automation ([Voyager FAQ](https://voyager.so/faq)) |
-| Risk Factors | Platform limitations, provider dependencies ([Voyager FAQ](https://voyager.so/faq)) |
-| Founder Reach | Pai: X 12.8K; Holliman: X 44; Parikh: X 4,895 ([teapawt](https://teapawt.net/anvisha), [Sotwe](https://www.sotwe.com/j_h_h_3), [Nitter, via search snippet](https://nitter.rdrama.net/ravisparikh), Oct. 2026) |
-| Distribution Signals | X: 708 followers; release repository: 18 stars ([teapawt](https://teapawt.net/startvoyager), [GitHub](https://github.com/usevoyager/voyager-releases), Oct. 27, 2026) |
-| Emails | support@voyager.so ([Voyager](https://voyager.so/privacy)); sam@moda.app ([team profile, via search snippet](https://www.linkedin.com/posts/iconsam_thrilled-to-share-some-news-im-joining-activity-7442244089057673216-tEiu)) |
+| Traction | 2.1M X launch-post views ([The Launch Video Company](https://www.launchvideo.com/directory/voyager), Nov 2026), 1.6K `vork` stars ([GitHub](https://github.com/voyager-so/vork), Nov 2026), 1 open growth role ([YC](https://www.ycombinator.com/companies/voyager), Nov 2026) |
+| Revenue Signal | Free tier with 1,000 monthly credits, paid plans at $19, $49, $149, and $500 per month, and credit packs from $11 ([Voyager Pricing](https://voyager.so/pricing), Nov 2026). Realized revenue and paying-customer count — No public data found. |
+| Founders | Anvisha Pai (CEO), MIT CS, Dover, Dropbox ([YC](https://www.ycombinator.com/founders/anvisha-pai), [Voyager](https://voyager.so/resources/models/compare/eleven-v4-vs-eleven-v3)); John Holliman (Co-founder), MIT, Dover CTO, Moda CTO ([YC](https://www.ycombinator.com/founders/jhh3)); Ravi Parikh (Co-founder), Stanford, Heap, Airplane ([YC](https://www.ycombinator.com/founders/ravi-parikh), [Airtable](https://www.airtable.com/newsroom/airplane-balsa-join-airtable)) |
+| Competitors | Higgsfield ($538M through Aug 2026, $1B+ annualized revenue run rate, agent workspace and ad templates, [Sacra](https://sacra.com/c/higgsfield/), [Higgsfield](https://higgsfield.ai/blog/higgsfield-series-b-extension-tcv-nvidia)); Runway ($863.5M tracked, $200M estimated ARR, proprietary models and node pipelines, [Forge](https://forgeglobal.com/runway_stock/), [Sacra](https://sacra.com/c/runway/), [Runway](https://runway.com/workflows)); Krea ($83M, revenue unknown, visual asset agent and node editor, [TechCrunch](https://techcrunch.com/2025/04/07/kreas-founders-snubbed-postgrad-grants-from-the-king-of-spain-to-build-their-ai-startup-now-its-valued-at-500m/), [Krea](https://www.krea.ai/app)) |
+| Moat Signals | 100+ tool connections and a headless 3D engine with 1.6K GitHub stars ([Voyager](https://voyager.so/), [GitHub](https://github.com/voyager-so/vork), Nov 2026) |
+| Risk Factors | Native agent substitution, integration compatibility, third-party processing of customer assets ([Adobe](https://news.adobe.com/news/2026/11/adobe-powers-new-era-of-creativity), [Voyager App Reference](https://voyager.so/resources/apps), [Voyager FAQ](https://voyager.so/faq)) |
+| Founder Reach | Pai — 13.7K X, 13K LinkedIn, 2 `codelet` stars ([X mirror](https://nitter.cf/anvisha), [LinkedIn](https://www.linkedin.com/in/anvisha), [GitHub](https://github.com/anvisha)); Holliman — 58 X, 1K LinkedIn, 3 project stars ([X mirror](https://teapawt.org/j_h_h_3), [LinkedIn](https://www.linkedin.com/in/jhhiii), [GitHub](https://github.com/jhh3)); Parikh — 7.8K X, 4 `swag.github.io` stars ([X mirror](https://nitter.cf/ravisparikh), [GitHub](https://github.com/swag)) |
+| Distribution Signals | 1.4K X followers, 359 LinkedIn followers, 266 Discord members, direct desktop download ([X mirror](https://nitter.cf/startvoyager), [LinkedIn](https://www.linkedin.com/company/voyagerso), [ToolPotion](https://toolpotion.ai/ru/ai-apps/voyager), [Voyager Download](https://voyager.so/download), Nov 2026) |
+| Emails | support@voyager.so ([Voyager Terms](https://voyager.so/terms)) |

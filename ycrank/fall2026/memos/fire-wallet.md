@@ -1,88 +1,89 @@
 ﻿# Fire Wallet
 
-> Fire Wallet is a privacy-first crypto wallet designed to just work,?
+> Fire Wallet is a privacy-first crypto wallet designed to just work,…
 
 | Field | Value |
 |-------|-------|
 | Website | https://fire.co |
 | YC Page | https://www.ycombinator.com/companies/fire-wallet |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/fire-wallet)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/fire-wallet)) |
 | Industry | Fintech / Fintech |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | FinOps, Fintech, Security, Cryptocurrency |
-| YC Partner | Garry Tan ([YC](https://www.ycombinator.com/companies/fire-wallet)) |
-| Emails | founders@fire.co ([YC](https://www.ycombinator.com/companies/fire-wallet)) |
+| YC Partner | Garry Tan ([Y Combinator](https://www.ycombinator.com/companies/fire-wallet)) |
+| Emails | founders@fire.co (shared inbox for founders and partnerships, [Launch YC](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet)) |
 
 ## The Idea
 
-- **Problem:** Fire targets businesses using wallets and payment processors that, according to its description, expose financial activity and route payments for intermediary compensation rather than customer cost ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/fire-wallet)).
-- **Approach:** Fire advertises encrypted, noncustodial wallets combining least-cost routing, invoices, checkout, fiat conversion, and agent sub-wallets, although its App Store description currently specifies Ethereum-only transfers ([YC](https://www.ycombinator.com/companies/fire-wallet); [App Store](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467)).
-- **Differentiation:** Fire emphasizes private self-custody and direct wallet receipt, versus Request Finance’s finance-operations dashboard and Rain’s enterprise card infrastructure ([Fire](https://fire.co/); [Request Finance](https://www.requestfinance.com/); [Rain](https://www.rain.xyz/)).
-- **Business Model:** Downloads have no subscription charge, while terms permit per-transaction interface fees disclosed before confirmation, exclude revenue from spreads and payment for order flow, and publish no numerical fee schedule ([Fire](https://fire.co/); [Terms §10](https://fire.co/terms/)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment; adjacent observed stablecoin payments reached a $72B annualized run rate, growing 88% year over year in February 2025, rather than representing wallet revenue opportunity ([Artemis, May 2025](https://research.artemis.ai/p/what-are-stablecoins-used-for)).
-- **GTM / Distribution:** Fire seeks introductions to cross-border, ecommerce, and DTC businesses moving $1M+/month and fintech integration partners, alongside a consumer waitlist ([YC](https://www.ycombinator.com/companies/fire-wallet); [Fire](https://fire.co/)).
+- **Problem:** Fire targets merchants and developers whose agents need to make small payments, arguing that card fees make micropayments impractical, card credentials grant broad spending authority, and public blockchains expose payment history. ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet))
+- **Approach:** Fire gives agents separate, funded accounts with spending limits and revocation, uses e402 to settle per-request payments privately in eUSD on MobileCoin, and offers checkout that deposits payments into a merchant-controlled wallet. ([Fire e402](https://fire.co/e402/), [Fire](https://fire.co/))
+- **Differentiation:** Fire combines agent budgets and private eUSD checkout, while Crossmint offers embedded wallets for USDC payments, Payy offers private USDC spending with a Visa card, and Hinkal supplies confidential merchant settlement through an SDK. ([Fire e402](https://fire.co/e402/), [Crossmint](https://www.crossmint.com/products/agentic-wallets), [FirstMark](https://firstmark.com/story/investing-in-payy-the-apple-pay-for-stablecoins/), [Hinkal](https://hinkal.io/blog/finon-private-stablecoin-payouts))
+- **Business Model:** Fire advertises a free download, no subscriptions, 0% Fire merchant fees and no Fire fee on e402 payments, which carry a $0.00256 MobileCoin network fee. ([Fire](https://fire.co/), [Fire e402](https://fire.co/e402/))
+- **TAM/SAM:** The broader stablecoin payments market processed at least $401B in January–August 2026, up 42% year over year, with no public TAM/SAM data found for private merchant and agent payments specifically. ([Alvarez & Marsal, Sep 2026](https://akamai.alvarezandmarsal.com/thought-leadership/stablecoin-payment-activity-report))
+- **GTM / Distribution:** Fire solicits introductions to cross-border and ecommerce merchants, recruits agent developers and API providers through Launch YC, and offers a WordPress beta and a consumer waitlist. ([YC company profile](https://www.ycombinator.com/companies/fire-wallet), [Launch YC](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet), [Fire](https://fire.co/))
 
 ## Defensibility
 
-- **Moat today:** Fire describes threshold cryptography across geographically distributed hardware security modules; exclusive IP and independent security validation: No public data found ([Terms §3](https://fire.co/terms/)).
-- **Future moat:** [Inferred]: Merchant checkout and accounting integrations could create switching costs, but the disclosed LOI and onboarding activity do not establish retention ([YC](https://www.ycombinator.com/companies/fire-wallet)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given existing enterprise wallet, payment, and finance-workflow offerings ([Fireblocks](https://www.fireblocks.com/pricing); [Request Finance](https://www.requestfinance.com/)).
-- **Commoditization risk:** Fire’s disclosed routing and fiat components use 0x and MoonPay, while competing providers already supply wallets and payment infrastructure; comparative implementation effort is undisclosed ([Privacy Policy](https://fire.co/privacy/); [Rain](https://www.rain.xyz/)).
+- **Moat today:** Fire reports an e402 mainnet test that returned a paid response in under two seconds, using MobileCoin, a payment network previously integrated into Signal. ([Fire e402, Nov 9, 2026](https://fire.co/e402/), [Signal, Apr 2021](https://signal.org/blog/help-us-test-payments-in-signal/))
+- **Future moat:** [Inferred]: Merchant integrations and agent spending policies could create switching costs if customers build recurring workflows around them, with public evidence currently limited to Fire’s reported onboarding, beta and mainnet test. ([YC company profile](https://www.ycombinator.com/companies/fire-wallet), [Fire](https://fire.co/), [Fire e402](https://fire.co/e402/))
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** Wallet providers already have components to reproduce parts of Fire’s offering, with Crossmint shipping programmable agent wallets and Hinkal offering an SDK for confidential settlement. ([Crossmint](https://www.crossmint.com/products/agentic-wallets), [Hinkal](https://hinkal.io/blog/finon-private-stablecoin-payouts))
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported signed LOI with Trustboop, without disclosed contract value or realized revenue ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/fire-wallet)).
-  - Company-reported enterprise onboarding prospect handles approximately $1.5M/month and introduced 10 additional companies, described as a roughly $100M/year GMV opportunity; these are prospective customer volumes, not Fire-processed volume ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/fire-wallet)).
-  - iPhone app rated 5.0/5 from 3 ratings, with seller Prometheus Solutions Inc., matching Fire’s legal entity ([App Store, accessed Oct 27, 2026](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467)).
-  - Product coverage published by Founderland ([Founderland, Oct 18, 2026](https://founderland.ai/articles/fire-wallet-launches-encrypted-stablecoin-payment-platform-mvd3id58)).
-  - Zero advertised YC jobs ([YC, accessed Oct 27, 2026](https://www.ycombinator.com/companies/fire-wallet)).
+  - Signed LOI with Trustboop, as reported by Fire. ([YC company profile, Nov 2026](https://www.ycombinator.com/companies/fire-wallet))
+  - First enterprise customer in ecommerce packaging and marketing onboarding, with about $1.5M/month in the customer’s existing volume and introductions to 10 companies representing an estimated $100M/year in potential GMV, per Fire. ([YC company profile, Nov 2026](https://www.ycombinator.com/companies/fire-wallet))
+  - The Ethereum-only *Fire Wallet: Digital Assets* iPhone app shows 5.0/5 from 3 ratings and 3 visible written reviews. ([US App Store, Nov 17, 2026](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467))
+  - Public agent-wallet announcement on Launch YC and coverage by Fondo. ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet), [Fondo, Nov 12, 2026](https://fondo.com/blog/fire-wallet-gives-ai-agents-separate-accounts-for-limited-spending))
+  - $500K in YC funding recorded on Nov 1. ([CB Insights, Nov 2026, via search snippet](https://www.cbinsights.com/company/fire-wallet/financials))
+  - Zero open positions on YC’s job board. ([YC Jobs, Nov 17, 2026](https://www.ycombinator.com/companies/fire-wallet/jobs))
 - **Competitors:**
-  - **Request Finance ($5.5M disclosed funding, revenue unknown):** Its disclosed seed round included Animoca Brands, Balderton, and XAnge in June 2022; it emphasizes accounts payable, receivable, approvals, and accounting rather than Fire’s consumer-wallet interface ([company release](https://finance.yahoo.com/news/request-finance-raises-5-5m-044500764.html); [product](https://www.requestfinance.com/)).
-  - **Rain (over $338M raised, revenue unknown):** Raised a $250M Series C led by ICONIQ in January 2026 and supplies enterprise stablecoin wallets, payouts, and Visa card programs, versus Fire’s direct wallet checkout ([Rain release, Jan 2026](https://www.prnewswire.com/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-enterprises-302657084.html)).
-  - **Fireblocks ($1,000M raised, $124M 2024 revenue):** Its latest located round was a $550M Series E co-led by D1 Capital and Spark Capital in January 2022; it supplies institutional wallet infrastructure and controls rather than Fire’s consumer-first interface ([funding announcement](https://www.fireblocks.com/blog/550m-series-e-zero-to-crypto); [Forbes, Mar 2026](https://www.forbes.com/companies/fireblocks/); [product](https://www.fireblocks.com/pricing)).
-- **Why now:** [Inferred]: Stripe’s June 2025 announcement enabling Shopify merchants across 34 countries to accept USDC created additional merchant infrastructure for wallet-based commerce ([Stripe, June 2025](https://stripe.com/newsroom/news/shopify-stripe-stablecoin-payments)).
+  - **Crossmint** ($23.6M disclosed across rounds, revenue unknown): Embeds USDC wallets and per-request payments for developers, with Ribbit Capital leading the Series A disclosed in March 2025. ([Crossmint funding announcement](https://www.crossmint.com/announcement/crossmint-raises-23-6m-led-by-ribbit-capital), [Fortune](https://fortune.com/crypto/2025/03/18/crossmint-24-million-ribbit-capital-franklin-templeton-developer-platform-fundraise/), [Crossmint agent wallets](https://www.crossmint.com/products/agentic-wallets))
+  - **Payy** ($6M raised, revenue unknown): Uses a zero-knowledge rollup for private USDC transfers and Visa card spending, with a $6M seed led by FirstMark in March 2026. ([FirstMark](https://firstmark.com/story/investing-in-payy-the-apple-pay-for-stablecoins/), [FF News](https://ffnews.com/news/firstmark-capital-leads-6m-round-in-payy-to-bring-private-transactions-to-stablecoins))
+  - **Hinkal** ($6M raised, revenue unknown): Sells a privacy layer for merchant payouts and settlement, with a disclosed $1.4M strategic round led by SALT Fund in April 2024. ([Hinkal funding total](https://hinkal.io/blog/hinkal-vs-privacy-pools-vs-houdini-swap), [Hinkal funding release](https://www.prnewswire.com/news-releases/hinkal-raises-1-4-million-in-strategic-funding-round-led-by-salt-fund-to-address-institutional-demand-in-crypto-market-302128709.html), [Hinkal merchant payouts](https://hinkal.io/blog/finon-private-stablecoin-payouts))
+- **Why now:** [Inferred]: AWS’s May 2026 preview of AgentCore Payments with Coinbase and Stripe gave developers a managed way to integrate per-request payments for agents, the same workflow Fire targets with e402. ([AWS, May 2026](https://aws.amazon.com/about-aws/whats-new/2026/04/amazon-bedrock-agentcore-payments-preview/), [Fire e402](https://fire.co/e402/))
 
 ## Founders & Team
 
-- **Joshua Goldbard (co-founder):**
-  - Background: Previously founded MobileCoin and worked in telecom/product roles; Fire reports MobileCoin raised $100M+ and was acquired in 2026, without identifying buyer or terms; formal education: No public data found ([Wellfound](https://wellfound.com/p/joshua-goldbard); [YC](https://www.ycombinator.com/companies/fire-wallet)).
-  - Twitter/X: @ThePBXGuy, 4K followers displayed by a mirror, with direct count not retrievable ([TwStalker, Oct 2026, via search snippet](https://ngntipkolamrenang.twstalker.com/ThePBXGuy)).
-  - LinkedIn: Headline not retrievable; profile lists Stealth and 4K followers ([LinkedIn, Oct 2026](https://www.linkedin.com/in/joshuagoldbard)).
-  - GitHub: No public repos found.
-- **Michael Divine (co-founder; product and design):**
-  - Background: YC lists Syracuse University and prior work at Firedex; he reports leaving college after two years, while Fire credits him with international exhibitions and two art books ([YC founder profile](https://www.ycombinator.com/founders/michael-divine); [company description](https://www.ycombinator.com/companies/fire-wallet)).
-  - Twitter/X: No public account found.
-  - LinkedIn: YC links to /in/mdivine; headline and count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/michael-divine)).
-  - GitHub: No public repos found.
-- **Manuel / “Manny” (co-founder; operations):**
-  - Background: Fire reports MobileCoin leadership experience; surname, education, and independently documented employment history: No public data found ([YC](https://www.ycombinator.com/companies/fire-wallet)).
-  - Twitter/X: No public account found.
-  - LinkedIn: No public profile found.
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Fire states Josh and Manuel previously worked together creating MobileCoin; Michael’s prior connection is undisclosed ([YC](https://www.ycombinator.com/companies/fire-wallet)).
-- **Founder-market fit:** [Inferred]: MobileCoin experience and Divine’s design history relate to wallet payments and usability; YC backing and Garry Tan’s partner assignment are documented ([YC](https://www.ycombinator.com/companies/fire-wallet)).
+- **Joshua Goldbard (Co-founder):**
+  - **Background:** Co-founded and previously led MobileCoin, founded Secret Party and worked at Ultra Mobile. Fire reports that MobileCoin raised over $100M and was acquired in 2026, with buyer and terms undisclosed in the announcement. ([YC founder profile](https://www.ycombinator.com/founders/joshua-goldbard), [YesPress](https://yespress.io/joshua-goldbard), [Launch YC](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet)) · Education and direct Fire email: No public data found
+  - **Twitter/X:** @ThePBXGuy, approximately 4K followers. ([YC founder profile](https://www.ycombinator.com/founders/joshua-goldbard), [TwStalker, Nov 2026](https://ngntipkolamrenang.twstalker.com/ThePBXGuy))
+  - **LinkedIn:** Indexed as “Stealth,” with about 4K followers. ([LinkedIn, via search snippet](https://www.linkedin.com/in/joshuagoldbard))
+  - **GitHub:** No public personal repos found · MobileCoin Foundation’s prior-project repository displays 1.2K stars. ([GitHub, Nov 2026](https://github.com/mobilecoinfoundation/mobilecoin))
+- **Michael Divine (Co-founder, product and design):**
+  - **Background:** Attended Syracuse University, previously worked at Firedex, and published two art books, per Fire. ([YC founder profile](https://www.ycombinator.com/founders/michael-divine), [YC company profile](https://www.ycombinator.com/companies/fire-wallet)) · Direct Fire email: No public data found
+  - **Twitter/X:** No public account found
+  - **LinkedIn:** “Fine artist of 20+ years, software builder, and founder,” with 56 followers in the indexed snapshot. ([LinkedIn, via search snippet](https://www.linkedin.com/in/mdivine/))
+  - **GitHub:** No public repos found
+- **Manuel San Agustin (Co-founder, operations):**
+  - **Background:** Leads operations at Fire and helped create MobileCoin, per Fire’s launch announcement. ([Launch YC](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet)) · Education and direct Fire email: No public data found
+  - **Twitter/X:** No public account found
+  - **LinkedIn:** No public profile found
+  - **GitHub:** No public repos found
+- **Co-founder relationship:** Goldbard and San Agustin worked together on MobileCoin before founding Fire. ([Launch YC](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet))
+- **Founder-market fit:** Goldbard and San Agustin worked on the payment network Signal integrated, Divine brings prior design and software experience from Firedex, and YC backs Fire. ([Signal](https://signal.org/blog/help-us-test-payments-in-signal/), [YC founder profile](https://www.ycombinator.com/founders/michael-divine), [YC company profile](https://www.ycombinator.com/companies/fire-wallet))
 
 ## Key Risks
 
-- **Technical specification discrepancies:** The app describes Ethereum-only operation and recovery phrases, the homepage advertises multichain access and email/PIN recovery, and legal terms describe distributed HSM key management, leaving the deployed architecture unclear ([App Store](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467); [Fire](https://fire.co/); [Terms](https://fire.co/terms/)).
-- **Provider dependence:** Fiat conversion and settlement rely on third parties that may freeze, delay, or reject transactions, limiting Fire’s control over service availability ([Terms §3](https://fire.co/terms/)).
-- **Privacy boundaries:** Fire discloses identity verification through MoonPay/SumSub and permanently public metadata for some transactions, qualifying its privacy claims ([Privacy Policy §§1.4, 9](https://fire.co/privacy/)).
-- **Name and legacy attribution:** Goldbard explicitly distinguishes fire.co from wound-down Xederif/Fire Digital, so that venture’s token activity cannot establish Fire Wallet traction ([Goldbard statement mirrored by TwStalker, Oct 2026, via search snippet](https://ngntipkolamrenang.twstalker.com/ThePBXGuy)).
+- **Merchant integration:** [Inferred]: e402 acceptance depends on merchants implementing the payment challenge and verifying payments, and Fire documents how merchants can offer e402 and x402 together. ([Fire e402](https://fire.co/e402/))
+- **Third-party dependencies:** [Inferred]: Changes to MoonPay’s eligibility or 0x’s routing coverage could affect fiat conversion or swaps because Fire delegates those functions to those providers. ([Fire Privacy Policy, Nov 2026](https://fire.co/privacy/))
+- **Product availability:** The App Store listing describes an Ethereum-only wallet, while Fire’s website advertises a forthcoming iOS and Chrome rollout and labels WordPress as beta. ([US App Store](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467), [Fire](https://fire.co/))
+- **Name collision:** [Inferred]: Discovery and install metrics can be misattributed because an unrelated transaction-simulation extension also appeared as “Fire Wallet,” and Goldbard separately identifies Fire Digital as a prior venture. ([Bankless](https://www.bankless.com/6-crypto-new-years-resolutions-for-2023), [YesPress](https://yespress.io/joshua-goldbard))
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | Broader market proxy: at least $401B in global stablecoin payments in Jan–Aug 2026, up 42% YoY ([Alvarez & Marsal, Sep 2026](https://akamai.alvarezandmarsal.com/thought-leadership/stablecoin-payment-activity-report)) |
 | SAM | No public data found |
-| Traction | Trustboop LOI; enterprise prospect at approximately $1.5M/month; 10 referrals and approximately $100M/year prospective GMV, not processed volume ([YC, Oct 2026](https://www.ycombinator.com/companies/fire-wallet)). |
-| Revenue Signal | Free download, no subscription; transaction interface fees permitted, rates undisclosed; realized revenue undisclosed ([Fire](https://fire.co/), [Terms §10](https://fire.co/terms/), Oct 2026). |
-| Founders | Joshua Goldbard: MobileCoin founder; Michael Divine: product/design, Syracuse attendance; Manuel: operations and company-reported MobileCoin experience ([YC](https://www.ycombinator.com/companies/fire-wallet), [founder profile](https://www.ycombinator.com/founders/michael-divine)). |
-| Competitors | Request Finance ($5.5M disclosed funding, revenue unknown, finance workflows) ([release](https://finance.yahoo.com/news/request-finance-raises-5-5m-044500764.html)); Rain (>$338M raised, revenue unknown, card infrastructure) ([release](https://www.prnewswire.com/news-releases/rain-raises-250m-series-c-to-scale-stablecoin-powered-payments-infrastructure-for-global-enterprises-302657084.html)); Fireblocks ($1,000M raised, $124M 2024 revenue, institutional infrastructure) ([Forbes, Mar 2026](https://www.forbes.com/companies/fireblocks/)). |
-| Moat Signals | Company-described distributed threshold-HSM key management ([Fire Terms §3](https://fire.co/terms/)). |
-| Risk Factors | Conflicting architecture descriptions, third-party financial-service dependence, privacy exceptions ([App Store](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467), [Terms](https://fire.co/terms/), [Privacy Policy](https://fire.co/privacy/)). |
-| Founder Reach | Joshua: X 4K displayed ([TwStalker, via search snippet](https://ngntipkolamrenang.twstalker.com/ThePBXGuy)); LinkedIn 4K ([LinkedIn, Oct 2026](https://www.linkedin.com/in/joshuagoldbard)). |
-| Distribution Signals | iPhone app: 5.0/5, 3 ratings ([App Store, Oct 27, 2026](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467)); public waitlist ([Fire](https://fire.co/)); coverage ([Founderland, Oct 18, 2026](https://founderland.ai/articles/fire-wallet-launches-encrypted-stablecoin-payment-platform-mvd3id58)). |
-| Emails | founders@fire.co ([YC](https://www.ycombinator.com/companies/fire-wallet)). |
+| Traction | Signed Trustboop LOI, enterprise onboarding with about $1.5M/month in existing customer volume, 10 introductions and about $100M/year in potential GMV ([YC company profile, Nov 2026](https://www.ycombinator.com/companies/fire-wallet)) · $500K YC financing ([CB Insights, Nov 2026, via search snippet](https://www.cbinsights.com/company/fire-wallet/financials)) |
+| Revenue Signal | Free download, no subscription fees, 0% Fire merchant fees and no Fire fee on e402 ([Fire](https://fire.co/), [Fire e402](https://fire.co/e402/)) |
+| Founders | Joshua Goldbard (co-founder, former MobileCoin CEO, Secret Party founder), Michael Divine (product and design, Firedex, Syracuse), Manuel San Agustin (operations, MobileCoin) ([YesPress](https://yespress.io/joshua-goldbard), [YC founder profile](https://www.ycombinator.com/founders/michael-divine), [Launch YC](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet)) |
+| Competitors | Crossmint ($23.6M raised, revenue unknown, embedded agent wallets) ([Crossmint](https://www.crossmint.com/announcement/crossmint-raises-23-6m-led-by-ribbit-capital)) · Payy ($6M raised, revenue unknown, private USDC and card spending) ([FirstMark](https://firstmark.com/story/investing-in-payy-the-apple-pay-for-stablecoins/), [FF News](https://ffnews.com/news/firstmark-capital-leads-6m-round-in-payy-to-bring-private-transactions-to-stablecoins)) · Hinkal ($6M raised, revenue unknown, merchant privacy SDK) ([Hinkal funding](https://hinkal.io/blog/hinkal-vs-privacy-pools-vs-houdini-swap), [Hinkal payouts](https://hinkal.io/blog/finon-private-stablecoin-payouts)) |
+| Moat Signals | Company-reported e402 mainnet paid response in under two seconds ([Fire e402, Nov 9, 2026](https://fire.co/e402/)) |
+| Risk Factors | Merchant-side e402 integration ([Fire e402](https://fire.co/e402/)), MoonPay and 0x dependencies ([Fire Privacy Policy](https://fire.co/privacy/)), Ethereum-only App Store listing and broader rollout pending ([US App Store](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467), [Fire](https://fire.co/)) |
+| Founder Reach | Goldbard: X approximately 4K ([TwStalker, Nov 2026](https://ngntipkolamrenang.twstalker.com/ThePBXGuy)), LinkedIn approximately 4K ([LinkedIn, via search snippet](https://www.linkedin.com/in/joshuagoldbard)) · Divine: LinkedIn 56 ([LinkedIn, via search snippet](https://www.linkedin.com/in/mdivine/)) |
+| Distribution Signals | *Fire Wallet: Digital Assets*: 5.0/5, 3 ratings, 3 visible reviews ([US App Store, Nov 2026](https://apps.apple.com/us/app/fire-wallet-digital-assets/id6792120467)) · Agent wallet announcement ([Launch YC, Nov 2026](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet)) · WordPress beta and iOS/Chrome waitlist ([Fire](https://fire.co/)) |
+| Emails | founders@fire.co (shared inbox for founders and partnerships, [Launch YC](https://www.ycombinator.com/launches/XBP-fire-wallet-the-last-crypto-wallet)) |

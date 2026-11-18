@@ -1,80 +1,56 @@
 {
   "slug": "nxtcure-labs",
   "name": "Nxtcure Labs",
-  "oneLiner": "The full-stack AI CRO for drug discovery.",
+  "oneLiner": "Engineering the future of Cancer Drug Discovery",
   "metadata": {
     "website": "https://nxtcure.com",
     "yc_page": "https://www.ycombinator.com/companies/nxtcure-labs",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/nxtcure-labs))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/nxtcure-labs))",
     "industry": "Healthcare / Healthcare -> Therapeutics",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Health Tech, Healthcare",
-    "yc_partner": "Aaron Epstein ([YC](https://www.ycombinator.com/companies/nxtcure-labs))",
-    "emails": "superadmin@nxtcure.com ([Privacy Policy](https://nxtcure.com/privacypolicy))"
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/nxtcure-labs))",
+    "emails": "superadmin@nxtcure.com, shared demo and privacy contact ([YC launch](https://www.ycombinator.com/companies/nxtcure-labs), [Nxtcure Privacy Policy](https://nxtcure.com/privacypolicy))"
   },
   "tags": [
     "Health Tech",
     "Healthcare"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:24:57.797Z",
+  "memoGeneratedAt": "2026-11-18T00:46:07.272Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 41,
+    "agi": {
+      "score": 30,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 33,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 33,
-    "NR": 46,
-    "PG": 41,
-    "PT": 26,
-    "SL": 31,
-    "VK": 28
+    "AGI": 30,
+    "HG": 36,
+    "EXIT": 34
   },
-  "consolidatedAvg": 35.14,
-  "consolidatedRank": 154,
+  "consolidatedAvg": 33.33,
+  "consolidatedRank": 233,
   "traction": {
-    "tractionRank": 213,
-    "tractionScore": 6,
-    "tractionReason": "Current CRO adoption undisclosed; earlier matching-product pilots excluded"
+    "tractionRank": 198,
+    "tractionScore": 19,
+    "tractionReason": "Current oncology offering has a demo, no disclosed paying customers"
   },
   "paths": {
     "memo": "fall2026/memos/nxtcure-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/nxtcure-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/nxtcure-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/nxtcure-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/nxtcure-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/nxtcure-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/nxtcure-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/nxtcure-labs.md"
+      "agi": "fall2026/evals/agi/nxtcure-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/nxtcure-labs.md",
+      "exit": "fall2026/evals/exit/nxtcure-labs.md"
     }
   }
 }

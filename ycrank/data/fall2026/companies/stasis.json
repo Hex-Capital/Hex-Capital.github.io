@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.get-stasis.com/",
     "yc_page": "https://www.ycombinator.com/companies/stasis",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/stasis))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/stasis))",
     "industry": "Consumer / Consumer",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Sports Tech, Consumer Health Services, Health & Wellness",
-    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/stasis))",
-    "emails": "soham.chakraborty@berkeley.edu ([founder website](https://soham-ch.com/))"
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/stasis))",
+    "emails": "soham.chakraborty@berkeley.edu, Chakraborty’s published professional contact ([founder profile](https://soham-ch.com/)), info@wearstasis.com, shared customer questions ([STASIS checkout, via search snippet](https://www.wearstasis.com/checkout))"
   },
   "tags": [
     "Hardware",
@@ -20,63 +20,39 @@
     "Health & Wellness"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:55:27.885Z",
+  "memoGeneratedAt": "2026-11-17T22:50:14.205Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 40,
+    "agi": {
+      "score": 33,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 28,
-    "NR": 41,
-    "PG": 36,
-    "PT": 32,
-    "SL": 30,
-    "VK": 25
+    "AGI": 33,
+    "HG": 36,
+    "EXIT": 34
   },
-  "consolidatedAvg": 33.14,
-  "consolidatedRank": 192,
+  "consolidatedAvg": 34.33,
+  "consolidatedRank": 228,
   "traction": {
-    "tractionRank": 195,
-    "tractionScore": 12,
-    "tractionReason": "Personal wear test only; no verified customer orders or partnerships"
+    "tractionRank": 187,
+    "tractionScore": 25,
+    "tractionReason": "Refundable reservations open, order count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/stasis.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/stasis.md",
-      "elad-gil": "fall2026/evals/elad-gil/stasis.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/stasis.md",
-      "paul-graham": "fall2026/evals/paul-graham/stasis.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/stasis.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/stasis.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/stasis.md"
+      "agi": "fall2026/evals/agi/stasis.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/stasis.md",
+      "exit": "fall2026/evals/exit/stasis.md"
     }
   }
 }

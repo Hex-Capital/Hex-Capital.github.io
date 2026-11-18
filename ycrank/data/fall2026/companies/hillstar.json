@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://hillstar.ai",
     "yc_page": "https://www.ycombinator.com/companies/hillstar",
-    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/hillstar))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/hillstar))",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "GovTech, Big Data, AI",
-    "yc_partner": "Garry Tan ([Y Combinator](https://www.ycombinator.com/companies/hillstar))",
-    "emails": "info@hillstar.ai ([HillStar](https://www.hillstar.ai/our-team)); hey@kenny.io ([Kenny Stone](https://kenny.io/))"
+    "yc_partner": "Garry Tan ([YC directory](https://www.ycombinator.com/companies/hillstar))",
+    "emails": "nooshin@hillstar.ai (CEO, [Launch YC](https://www.ycombinator.com/launches/XFi-hillstar-speed-to-power)), hey@kenny.io (CTO, [Kenny Stone’s site](https://kenny.io/)), info@hillstar.ai (general inquiries, [HillStar FAQ](https://hillstar.ai/faq))"
   },
   "tags": [
     "GovTech",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T22:39:48.883Z",
+  "memoGeneratedAt": "2026-11-18T00:36:04.287Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
+    "agi": {
       "score": 39,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 30,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 59,
-    "NR": 51,
-    "PG": 39,
-    "PT": 30,
-    "SL": 40,
-    "VK": 28
+    "AGI": 39,
+    "HG": 38,
+    "EXIT": 38
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 43,
+  "consolidatedAvg": 38.33,
+  "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 51,
-    "tractionReason": "Multiple utility procurement case studies; contracts and revenue undisclosed"
+    "tractionRank": 107,
+    "tractionScore": 46,
+    "tractionReason": "Case studies document utility procurement use, fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hillstar.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/hillstar.md",
-      "elad-gil": "fall2026/evals/elad-gil/hillstar.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/hillstar.md",
-      "paul-graham": "fall2026/evals/paul-graham/hillstar.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/hillstar.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/hillstar.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/hillstar.md"
+      "agi": "fall2026/evals/agi/hillstar.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/hillstar.md",
+      "exit": "fall2026/evals/exit/hillstar.md"
     }
   }
 }

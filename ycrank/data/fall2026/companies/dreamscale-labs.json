@@ -1,17 +1,17 @@
 {
   "slug": "dreamscale-labs",
   "name": "Dreamscale Labs",
-  "oneLiner": "Real-time cloud inference for robotics.",
+  "oneLiner": "Cloud inference and training infrastructure for robotics.",
   "metadata": {
     "website": "https://dreamscalelabs.com",
     "yc_page": "https://www.ycombinator.com/companies/dreamscale-labs",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/dreamscale-labs))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/dreamscale-labs))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "Robotics, Infrastructure, AI",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/dreamscale-labs))",
-    "emails": "founders@dreamscalelabs.com ([website](https://www.dreamscalelabs.com/)); contact@dreamscalelabs.com ([company blog](https://www.dreamscalelabs.com/blog/why/))"
+    "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/dreamscale-labs))",
+    "emails": "eric@dreamscalelabs.com, CEO ([Eric Ren’s website](https://erzhrn.github.io/)); founders@dreamscalelabs.com, shared founder inbox ([Launch YC](https://www.ycombinator.com/launches/U24-dreamscale-labs-running-robot-brains-in-the-cloud)); contact@dreamscalelabs.com, feedback ([Dreamscale blog](https://www.dreamscalelabs.com/blog/why/)); team@dreamscalelabs.com, organization contact ([Dreamscale GitHub](https://github.com/Dreamscale-Labs))"
   },
   "tags": [
     "Robotics",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:17:49.132Z",
+  "memoGeneratedAt": "2026-11-17T23:34:44.769Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
+    "agi": {
       "score": 42,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 43,
+    "hypergrowth": {
+      "score": 39,
       "tier": "Pass"
     },
-    "peter-thiel": {
+    "exit": {
       "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 53,
-    "NR": 42,
-    "PG": 43,
-    "PT": 40,
-    "SL": 36,
-    "VK": 32
+    "AGI": 42,
+    "HG": 39,
+    "EXIT": 40
   },
-  "consolidatedAvg": 43.57,
-  "consolidatedRank": 25,
+  "consolidatedAvg": 40.33,
+  "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 45,
-    "tractionReason": "Named Munari deployment and HUD partnership; payment status undisclosed"
+    "tractionRank": 169,
+    "tractionScore": 32,
+    "tractionReason": "HUD research partnership and Actor Labs joint evaluation"
   },
   "paths": {
     "memo": "fall2026/memos/dreamscale-labs.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/dreamscale-labs.md",
-      "elad-gil": "fall2026/evals/elad-gil/dreamscale-labs.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/dreamscale-labs.md",
-      "paul-graham": "fall2026/evals/paul-graham/dreamscale-labs.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/dreamscale-labs.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/dreamscale-labs.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/dreamscale-labs.md"
+      "agi": "fall2026/evals/agi/dreamscale-labs.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/dreamscale-labs.md",
+      "exit": "fall2026/evals/exit/dreamscale-labs.md"
     }
   }
 }

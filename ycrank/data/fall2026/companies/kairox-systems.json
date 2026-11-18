@@ -5,13 +5,13 @@
   "metadata": {
     "website": "http://www.kairoxsys.com/",
     "yc_page": "https://www.ycombinator.com/companies/kairox-systems",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/kairox-systems))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/kairox-systems))",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Drones, Aerospace, Maritime, Defense",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/kairox-systems))",
-    "emails": "info@kairoxsys.com ([company contact page](https://www.kairoxsys.com/contact)); joelsanbar@mit.edu — Joel’s university fundraising contact ([MIT](https://vets.mit.edu/sva-executive-board/))"
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/kairox-systems))",
+    "emails": "joel@kairoxsys.com, CEO ([Launch YC](https://www.ycombinator.com/launches/XFg-kairox-systems-drones-that-can-fly-and-swim)), info@kairoxsys.com, general and privacy inquiries ([Kairox Contact](https://www.kairoxsys.com/contact), [Kairox Privacy Policy](https://www.kairoxsys.com/privacy))"
   },
   "tags": [
     "Hardware",
@@ -21,63 +21,39 @@
     "Defense"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:56:57.981Z",
+  "memoGeneratedAt": "2026-11-17T23:42:32.183Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 40,
+    "agi": {
+      "score": 36,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 29,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
+    "exit": {
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 29,
-    "NR": 52,
-    "PG": 34,
-    "PT": 30,
-    "SL": 30,
-    "VK": 29
+    "AGI": 36,
+    "HG": 38,
+    "EXIT": 33
   },
-  "consolidatedAvg": 34.86,
-  "consolidatedRank": 164,
+  "consolidatedAvg": 35.67,
+  "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 35,
-    "tractionReason": "Marine Corps engagement and end-user validation; purchase commitments undisclosed"
+    "tractionRank": 162,
+    "tractionScore": 33,
+    "tractionReason": "PitchBook flags revenue without an amount, Marine Corps engagement reported"
   },
   "paths": {
     "memo": "fall2026/memos/kairox-systems.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/kairox-systems.md",
-      "elad-gil": "fall2026/evals/elad-gil/kairox-systems.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/kairox-systems.md",
-      "paul-graham": "fall2026/evals/paul-graham/kairox-systems.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/kairox-systems.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/kairox-systems.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/kairox-systems.md"
+      "agi": "fall2026/evals/agi/kairox-systems.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/kairox-systems.md",
+      "exit": "fall2026/evals/exit/kairox-systems.md"
     }
   }
 }

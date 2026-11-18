@@ -5,75 +5,51 @@
   "metadata": {
     "website": "https://deployrobotics.co/",
     "yc_page": "https://www.ycombinator.com/companies/deploy",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/deploy))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/deploy))",
     "industry": "Industrials / Industrials -> Manufacturing and Robotics",
-    "team_size": "2",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/deploy))",
     "location": "San Francisco, CA, USA",
     "tags": "Robotics",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/deploy))",
-    "emails": "founders@deployrobotics.co ([YC](https://www.ycombinator.com/companies/deploy)); hello@deployrobotics.co ([Deploy website](https://deployrobotics.co/), via search snippet)"
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/deploy))",
+    "emails": "founders@deployrobotics.co, shared founder inbox for introductions ([Launch YC](https://www.ycombinator.com/launches/Ve4-deploy-the-generalist-robot-deployment-company)), hello@deployrobotics.co, pilot inquiries ([Deploy website](https://deployrobotics.co/), via search snippet)"
   },
   "tags": [
     "Robotics"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:57:42.473Z",
+  "memoGeneratedAt": "2026-11-17T23:45:01.975Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 44,
+    "agi": {
+      "score": 39,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 43,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 44,
-    "NR": 43,
-    "PG": 35,
-    "PT": 31,
-    "SL": 30,
-    "VK": 27
+    "AGI": 39,
+    "HG": 36,
+    "EXIT": 34
   },
-  "consolidatedAvg": 37.57,
-  "consolidatedRank": 104,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 176,
-    "tractionScore": 15,
-    "tractionReason": "Exhibition packed 800+ pens; no disclosed customer deployment"
+    "tractionRank": 203,
+    "tractionScore": 17,
+    "tractionReason": "Trade-show packing demonstration, no disclosed deployments"
   },
   "paths": {
     "memo": "fall2026/memos/deploy.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/deploy.md",
-      "elad-gil": "fall2026/evals/elad-gil/deploy.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/deploy.md",
-      "paul-graham": "fall2026/evals/paul-graham/deploy.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/deploy.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/deploy.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/deploy.md"
+      "agi": "fall2026/evals/agi/deploy.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/deploy.md",
+      "exit": "fall2026/evals/exit/deploy.md"
     }
   }
 }

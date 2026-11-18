@@ -1,80 +1,56 @@
 {
   "slug": "rivereditor",
   "name": "River",
-  "oneLiner": "The AI computer.",
+  "oneLiner": "AI that works everywhere you do.",
   "metadata": {
     "website": "https://meetriver.com/",
     "yc_page": "https://www.ycombinator.com/companies/rivereditor",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/rivereditor))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/rivereditor))",
     "industry": "B2B / B2B -> Productivity",
-    "team_size": "2",
+    "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "Productivity, AI",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/rivereditor))",
-    "emails": "support@rivereditor.com, sales@rivereditor.com, partners@rivereditor.com, press@rivereditor.com, security@rivereditor.com, chandler@rivereditor.com ([River Contact](https://rivereditor.com/contact))"
+    "yc_partner": "Pete Koomen ([YC directory](https://www.ycombinator.com/companies/rivereditor))",
+    "emails": "chandler@rivereditor.com (Chandler Supple), support@meetriver.com (support), sales@rivereditor.com (sales), partners@rivereditor.com (partnerships), press@rivereditor.com (media), security@rivereditor.com (security reports), team@rivereditor.com (privacy and legal) ([River Contact](https://meetriver.com/contact), [River Privacy Policy](https://meetriver.com/privacy), [River Terms](https://meetriver.com/terms))"
   },
   "tags": [
     "Productivity",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:02:14.972Z",
+  "memoGeneratedAt": "2026-11-18T00:09:34.881Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 37,
+    "agi": {
+      "score": 35,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 40,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
+    "exit": {
+      "score": 35,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 40,
-    "NR": 48,
-    "PG": 43,
-    "PT": 33,
-    "SL": 30,
-    "VK": 22
+    "AGI": 35,
+    "HG": 36,
+    "EXIT": 35
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 137,
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 201,
   "traction": {
-    "tractionRank": 50,
+    "tractionRank": 57,
     "tractionScore": 58,
-    "tractionReason": "50K+ AI Desktop users; 100K+ creators claimed; revenue undisclosed"
+    "tractionReason": "100,000+ creators and published subscriptions, paid adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rivereditor.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/rivereditor.md",
-      "elad-gil": "fall2026/evals/elad-gil/rivereditor.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/rivereditor.md",
-      "paul-graham": "fall2026/evals/paul-graham/rivereditor.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/rivereditor.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/rivereditor.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/rivereditor.md"
+      "agi": "fall2026/evals/agi/rivereditor.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/rivereditor.md",
+      "exit": "fall2026/evals/exit/rivereditor.md"
     }
   }
 }

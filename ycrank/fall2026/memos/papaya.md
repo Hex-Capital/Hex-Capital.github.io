@@ -6,87 +6,89 @@
 |-------|-------|
 | Website | https://papaya.fyi/ |
 | YC Page | https://www.ycombinator.com/companies/papaya |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/papaya)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/papaya)) |
 | Industry | B2B / B2B |
 | Team Size | 3 |
 | Location | San Francisco, CA, USA |
 | Tags | AIOps, Developer Tools, B2B, Enterprise Software, AI |
-| YC Partner | Andrew Miklas ([YC](https://www.ycombinator.com/companies/papaya)) |
-| Emails | macy@papaya.fyi ([YC](https://www.ycombinator.com/companies/papaya)), info@papaya.fyi ([LinkedIn](https://www.linkedin.com/company/papayaai)), hello@papaya.fyi ([GitHub](https://github.com/Papaya-AI-Inc)), support@papaya.fyi ([Terms](https://papaya.fyi/terms-of-service)) |
+| YC Partner | Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/papaya)) |
+| Emails | macy@papaya.fyi (CEO, [Launch YC](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)), info@papaya.fyi (general inquiries, [Papaya LinkedIn](https://www.linkedin.com/company/papayaai)), support@papaya.fyi (support and privacy, [Papaya Privacy Policy](https://papaya.fyi/privacy-policy)) |
 
 ## The Idea
 
-- **Problem:** Engineering teams maintaining production agents manually inspect traces to diagnose regressions after model or prompt changes, diverting time from product development ([YC launch](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)).
-- **Approach:** Papaya ingests traces through an SDK or exports, groups recurring workflows, runs 200+ analyses, ranks changes by expected impact, and opens pull requests after approval ([Papaya Research](https://papaya.fyi/research)).
-- **Differentiation:** Papaya emphasizes approved PR delivery, whereas Langfuse emphasizes self-hostable tracing/evaluation and Braintrust Loop generates datasets and scorers; LangSmith Engine already offers overlapping code-fix automation ([Papaya](https://papaya.fyi/research), [Langfuse](https://langfuse.com/blog/joining-clickhouse), [Braintrust](https://www.braintrust.dev/blog/loop), [LangSmith](https://www.langchain.com/langsmith/engine)).
-- **Business Model:** Developer is free for one agent and 1,000 monthly traces; Business costs $500/month for three agents and 50,000 traces, including automated PRs, Slack and SSO; Enterprise has custom pricing ([pricing, Oct 2026](https://papaya.fyi/pricing)).
-- **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Papaya offers a free initial workflow analysis, demo-led onboarding, and a YC launch asking production-agent teams for introductions ([Papaya Research](https://papaya.fyi/research), [YC launch](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)).
+- **Problem:** Engineering teams running production AI agents manually inspect traces to diagnose regressions, context bloat, and failed tool calls, taking time away from building features ([Launch YC](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)).
+- **Approach:** Papaya ingests traces through its SDK or imports, groups runs by use case, applies 200+ analyses, ranks fixes by estimated impact on quality, latency, and cost, and opens pull requests for approved changes when code is connected ([Papaya](https://papaya.fyi/)).
+- **Differentiation:** Papaya delivers impact-ranked fixes with trace evidence as code pull requests, while LangSmith pairs trace insights with agent deployment and governance, Braintrust offers recurring trace analysis and debugger workflows, and Langfuse emphasizes self-hostable tracing and prompt versioning ([Papaya](https://papaya.fyi/), [LangChain](https://www.langchain.com/blog/series-c), [Braintrust](https://www.braintrust.dev/blog/patterns-topics-loop-faq), [Langfuse](https://langfuse.com/press)).
+- **Business Model:** Trace-volume tiers include free Developer for 1 agent and 1,000 monthly traces, Business at $500/month for up to 3 agents and 50,000 monthly traces with automated pull requests, and custom Enterprise pricing ([Papaya Pricing, Nov 2026](https://papaya.fyi/pricing)).
+- **TAM/SAM:** The broader global agentic AI monitoring, analytics, and observability tools market was estimated at $539.4M in 2025 with 31.4% forecast CAGR through 2032, while Papaya’s serviceable segment has no public estimate ([Global Industry Analysts, May 2026](https://www.marketresearch.com/Market-Glass-Inc-v1039/Agentic-AI-Monitoring-Analytics-Observability-44877166/)).
+- **GTM / Distribution:** Papaya offers demo-led onboarding and a free analysis of one workflow from a raw trace export, and the founders solicit introductions through Launch YC ([Papaya](https://papaya.fyi/), [Launch YC](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)).
 
 ## Defensibility
 
-- **Moat today:** [Inferred]: Workflow history and integrations could create switching costs, but published functionality does not establish exclusive IP or network effects ([Papaya Research](https://papaya.fyi/research)).
-- **Future moat:** [Inferred]: Recorded fixes and subsequent outcomes could improve workflow-specific recommendations, although comparative evidence of this advantage is unavailable ([Papaya](https://papaya.fyi/)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, because an existing agent-engineering vendor already offers issue detection, fixes and regression monitoring ([LangSmith Engine](https://www.langchain.com/langsmith/engine)).
-- **Commoditization risk:** LangChain markets automated prompt/code fixes, while Braintrust offers recurring-pattern discovery and suggested fixes from production traces ([LangSmith Engine](https://www.langchain.com/langsmith/engine), [Braintrust, Sept 2026](https://www.braintrust.dev/blog/patterns-topics-loop-faq)).
+- **Moat today:** Papaya reports 200+ analyses and links each recommendation to specific production runs, providing evidence of an implemented analysis library ([Papaya](https://papaya.fyi/)).
+- **Future moat:** [Inferred]: Anonymized patterns from shipped fixes could improve recommendation ranking as usage grows, but cross-customer performance gains have no public validation ([Papaya Terms of Service](https://papaya.fyi/terms-of-service), [Papaya](https://papaya.fyi/)).
+- **Market structure:** No structural barrier identified at this stage ([Braintrust](https://www.braintrust.dev/blog/patterns-topics-loop-faq), [Langfuse](https://langfuse.com/press)).
+- **Commoditization risk:** Braintrust already groups production failures and automates recurring trace analyses, giving it an existing workflow into which it could add code remediation ([Braintrust](https://www.braintrust.dev/blog/patterns-topics-loop-faq)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Company-reported 1.1M+ conversations analyzed, without a disclosed measurement period ([Papaya, accessed Oct 27, 2026](https://papaya.fyi/)).
-  - Company-reported typical first-analysis quality improvement of 20%+, latency reduction of 30%, and annualized customer cost savings of $25K+ per large-scale workflow ([Papaya, Oct 2026](https://papaya.fyi/)).
-  - Customer testimonial: Sunny Health’s Ayush Tomar reports reduced inference error states, without quantified results ([Papaya, Oct 2026](https://papaya.fyi/)).
-  - Customer testimonial: Hamlet’s Jeff Hui reports actionable agent recommendations and easier trace inspection ([Papaya, Oct 2026](https://papaya.fyi/)).
-  - Company LinkedIn: 857 followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/papayaai)).
-  - Public tracing SDK: four GitHub stars; the separate prior-product Nile Local repository has five ([GitHub, retrieved Oct 2026](https://github.com/Papaya-AI-Inc)).
-  - Estimated September website traffic: approximately 7K, versus 76 in August; this is an external estimate ([SiteData, via search snippet](https://www2.sitedata.dev/fastest-growing-new-websites/tags/use-case/lead-generation)).
-  - Coverage in *The American Bazaar* on September 16, 2026 ([publication, via search snippet](https://americanbazaaronline.com/2026/09/16/papaya-ai-y-combinator-fall-2026-488282/)).
-  - Product history: Nile Local’s data IDE was documented in April 2026; founders subsequently disclosed pivoting from an analytics agent to its optimization harness, without specifying the pivot date ([Nile](https://getnile.ai/articles/nile-local), [YC launch](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)).
+  - **Pivot:** The founders moved from Nile’s analytics agent and data stack to its internal agent-optimization harness, with Papaya trace SDK updates public by June 2026 ([Nile Articles](https://getnile.ai/articles), [Papaya June product update](https://papaya.fyi/blog/product-updates-june-16), [Launch YC](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)).
+  - First paying customers discussed by the founders, with customer count and revenue undisclosed in the episode notes ([Fondo START, Oct 15, 2026, 03:34](https://podcasts.apple.com/us/podcast/start-faiz-vadakkumpadath-niyaz-puzhikkunnath-co-founders/id1790754910?i=1000796564187)).
+  - 1.1M+ conversations analyzed ([Papaya, accessed Nov 2026](https://papaya.fyi/)).
+  - Company-reported 20% typical first-workflow success-rate gain, 30% latency reduction, and $25K+ annualized savings per large-scale workflow ([Papaya, accessed Nov 2026](https://papaya.fyi/)).
+  - Customer testimonial: Sunny Health’s Ayush Tomar reported fewer inference errors ([Papaya, accessed Nov 2026](https://papaya.fyi/)).
+  - Customer testimonial: Hamlet’s Jeff Hui reported that the trace viewer helped him understand agent behavior faster ([Papaya, accessed Nov 2026](https://papaya.fyi/)).
+  - 924 LinkedIn followers and 40+ AI and engineering leaders contacted at YC’s Early Access Network event ([Papaya LinkedIn, Nov 2026](https://www.linkedin.com/company/papayaai)).
+  - 6,900 estimated September website visits, based on a small traffic panel ([Mindspent, Sep 2026](https://mindspent.com/c/papaya)).
+  - 4 GitHub stars for Papaya’s TypeScript tracing SDK ([GitHub, Nov 2026](https://github.com/Papaya-AI-Inc/papaya-ai)).
+  - 0 open jobs on YC’s job board ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/papaya/jobs)).
+  - Press coverage of YC acceptance and product mechanics ([The American Bazaar, Sep 16, 2026](https://americanbazaaronline.com/2026/09/16/papaya-ai-y-combinator-fall-2026-488282/), [MoneyMakers, Nov 2026](https://www.moneymakers.com/articles/news/papaya-ai-agent-traces-proposed-fixes)).
 - **Competitors:**
-  - **LangSmith / LangChain ($160M raised; reported $12–16M ARR):** latest announced round was $125M led by IVP in October 2025, while Engine directly overlaps with Papaya’s fix automation ([TrueUp](https://www.trueup.io/co/langchain), [LangChain](https://www.langchain.com/blog/series-b), [Engine](https://www.langchain.com/langsmith/engine)); ARR was reported in July 2025 and was not company-confirmed ([TechCrunch](https://techcrunch.com/2025/07/08/langchain-is-about-to-become-a-unicorn-sources-say/)).
-  - **Braintrust ($124.3M raised; revenue unknown):** $80M Series B led by ICONIQ in February 2026; Patterns and Loop connect failure discovery with evaluations and suggested fixes ([CB Insights, via search snippet](https://www.cbinsights.com/company/braintrust-data/financials), [funding announcement](https://www.braintrust.dev/blog/announcing-series-b), [product documentation](https://www.braintrust.dev/blog/patterns-topics-loop-faq)).
-  - **Langfuse ($4M disclosed seed funding; revenue unknown):** November 2023 seed led by Lightspeed, General Catalyst/La Famiglia and YC, followed by acquisition by ClickHouse in January 2026; offers open-source, self-hostable observability/evaluation ([Langfuse press](https://langfuse.com/press), [acquisition](https://langfuse.com/blog/joining-clickhouse)).
-- **Why now:** [Inferred]: Production deployment of multi-step agents creates trace volumes beyond manual inspection, increasing demand for automated diagnosis ([Braintrust CEO, Feb 2026](https://www.braintrust.dev/blog/announcing-series-b)).
+  - **LangChain / LangSmith** ($460M raised, revenue unknown): combines trace insights with deployment and governance, with a $300M Series C led by CapitalG in November 2026 ([LangChain](https://www.langchain.com/blog/series-c), [company release via Morningstar search snippet](https://www.morningstar.com/news/business-wire/20261113716429/langchain-raises-300m-to-enable-every-company-to-own-their-intelligence)).
+  - **Braintrust** ($121.1M raised across tracked rounds, revenue unknown): runs recurring trace analyses and diagnoses failure patterns, with an $80M Series B led by ICONIQ in February 2026 ([MTS Atlas](https://api.intelligence.mts.now/atlas/braintrust), [ICONIQ](https://www.iconiq.com/growth/insights/partnering-with-braintrust-the-observability-layer-for-ai), [Braintrust](https://www.braintrust.dev/blog/patterns-topics-loop-faq)).
+  - **Langfuse** ($4M raised, revenue unknown): offers self-hosted tracing and versioned prompts, with a November 2023 seed led by Lightspeed, General Catalyst’s La Famiglia, and YC, followed by acquisition by ClickHouse in January 2026 ([Langfuse](https://langfuse.com/press)).
+- **Why now:** [Inferred]: Agent-framework adoption among Datadog’s observed organizations rose from just over 9% in early 2025 to nearly 18% in early 2026, expanding the workflows that generate traces for tools like Papaya ([Datadog, 2026](https://www.datadoghq.com/state-of-ai-engineering/)).
 
 ## Founders & Team
 
 - **Macy Mody (Founder/CEO):**
-  - Background: University of Michigan undergraduate and Harvard MBA; led SafeBase GTM/operations from $0–10M ARR through acquisition, following HqO and AmEx Digital Labs roles ([YC founder profile](https://www.ycombinator.com/founders/macy-mody)).
-  - Twitter/X: @macyymay, 68 followers ([teapawt mirror, Oct 27, 2026](https://teapawt.net/macyymay)).
-  - LinkedIn: Profile found; headline not retrievable ([profile](https://www.linkedin.com/in/macy-berg)).
+  - Background: University of Michigan undergraduate and Harvard MBA, led SafeBase GTM and operations through its acquisition by Drata, led analytics products at HqO, and managed investments at AmEx Digital Labs ([YC](https://www.ycombinator.com/founders/macy-mody), [Drata](https://drata.com/blog/acquiring-safebase)); business email macy@papaya.fyi ([Papaya](https://papaya.fyi/authors/macy-mody)).
+  - Twitter/X: @macyymay, 71 followers ([X mirror, Nov 2026](https://xitter.cf/macyymay)).
+  - LinkedIn: [Public profile](https://www.linkedin.com/in/macy-berg), headline not retrievable.
   - GitHub: No public repos found.
 - **Niyaz Puzhikkunnath (Founder/CPO):**
-  - Background: Rajiv Gandhi Institute of Technology alumnus; Amazon senior engineer for 10+ years across ML and agent evaluation, previously an early Zovi engineer ([YC founder profile](https://www.ycombinator.com/founders/niyaz-puzhikkunnath)).
-  - Twitter/X: @niyazpk, 907 followers ([teapawt mirror, Oct 27, 2026](https://teapawt.net/niyazpk)).
-  - LinkedIn: Profile lists Papaya; headline not retrievable ([LinkedIn, via search snippet](https://ca.linkedin.com/in/niyazpk)).
-  - GitHub: @niyazpk; Chess.js has 25 stars ([GitHub, Oct 2026](https://github.com/niyazpk/Chess.js)).
+  - Background: Attended Rajiv Gandhi Institute of Technology, Kottayam, built ML systems and agent evaluations at Amazon, and was an early engineer at Zovi.com ([LinkedIn](https://ca.linkedin.com/in/niyazpk), [YC](https://www.ycombinator.com/founders/niyaz-puzhikkunnath)). Business email: No public data found.
+  - Twitter/X: @niyazpk, 949 followers ([X mirror, Nov 2026](https://nitter.gq/niyazpk)).
+  - LinkedIn: [Public profile](https://ca.linkedin.com/in/niyazpk), headline not retrievable.
+  - GitHub: @niyazpk, Chess.js, 25 stars ([GitHub, Nov 2026](https://github.com/niyazpk/Chess.js)).
 - **Faiz Vadakkumpadath (Founder):**
-  - Background: Rajiv Gandhi Institute of Technology alumnus; Amazon senior data engineer for ten years, previously IBM on M-Pesa; co-founded OpenReporting ([YC founder profile](https://www.ycombinator.com/founders/faiz-vadakkumpadath)).
-  - Twitter/X: @vpfaiz, 226 followers ([teapawt mirror, Oct 27, 2026](https://teapawt.net/vpfaiz)).
-  - LinkedIn: About section describes Amazon data engineering; headline not retrievable ([LinkedIn, via search snippet](https://www.linkedin.com/in/vpfaiz)).
-  - GitHub: @vpfaiz; cron-builder-ui has four stars ([GitHub, Oct 2026](https://github.com/vpfaiz/cron-builder-ui)).
-- **Co-founder relationship:** Niyaz and Faiz share Amazon employment and Rajiv Gandhi Institute of Technology affiliation ([Niyaz](https://www.ycombinator.com/founders/niyaz-puzhikkunnath), [Faiz](https://www.ycombinator.com/founders/faiz-vadakkumpadath)).
-- **Founder-market fit:** Documented experience combines agent evaluation, data infrastructure and SaaS GTM; named backers are YC, Engineering Capital and Everywhere Ventures ([founder profiles](https://www.ycombinator.com/companies/papaya), [Papaya Research](https://papaya.fyi/research)).
+  - Background: Attended Rajiv Gandhi Institute of Technology, Kottayam, led enterprise data lake work at Amazon, scaled M-PESA at IBM, and co-founded OpenReporting ([LinkedIn](https://www.linkedin.com/in/vpfaiz), [YC](https://www.ycombinator.com/founders/faiz-vadakkumpadath)). Business email: No public data found.
+  - Twitter/X: @vpfaiz, 246 followers ([X mirror, Nov 2026](https://www.xitter.gq/vpfaiz)).
+  - LinkedIn: [Public profile](https://www.linkedin.com/in/vpfaiz), headline not retrievable.
+  - GitHub: @vpfaiz, cron-builder-ui, 4 stars ([GitHub, Nov 2026](https://github.com/vpfaiz/cron-builder-ui)).
+- **Co-founder relationship:** Puzhikkunnath and Vadakkumpadath both attended Rajiv Gandhi Institute of Technology, Kottayam, and previously worked at Amazon ([Puzhikkunnath LinkedIn](https://ca.linkedin.com/in/niyazpk), [Vadakkumpadath LinkedIn](https://www.linkedin.com/in/vpfaiz), [YC](https://www.ycombinator.com/companies/papaya)).
+- **Founder-market fit:** The team brings agent evaluation, data infrastructure, and enterprise GTM experience, and Papaya lists YC, Engineering Capital, and Everywhere Ventures as backers ([YC](https://www.ycombinator.com/companies/papaya), [Papaya](https://papaya.fyi/)).
 
 ## Key Risks
 
-- **Feature convergence:** [Inferred]: LangSmith Engine’s overlapping diagnosis and code-fix functionality reduces differentiation based solely on PR automation ([LangSmith](https://www.langchain.com/langsmith/engine)).
-- **Evaluation correctness:** [Inferred]: Automatically generated judges could misclassify success; Papaya permits edited rubrics, existing evaluations and user feedback as controls ([Papaya](https://papaya.fyi/)).
-- **Data-access requirements:** [Inferred]: Full traces and optional code access can create enterprise adoption friction; Papaya describes redaction, encryption and an SOC 2 Type 2 audit completed with its final report pending ([Papaya](https://papaya.fyi/)).
-- **Name confusion:** [Inferred]: An unrelated consumer relationship app also uses Papaya, requiring domain verification before attributing funding or downloads ([consumer Papaya, via search snippet](https://papaya.tepoyan.com/)).
+- **Sensitive trace data:** Production traces can contain personal data, and Papaya’s privacy policy says automated scrubbing may miss it and provides for customer-side filtering before transmission ([Papaya Privacy Policy](https://papaya.fyi/privacy-policy)).
+- **Remediation accuracy:** Papaya estimates fix impact from traces, with less specific findings on partial exports, and supports trace-level review and post-deployment regression monitoring ([Papaya](https://papaya.fyi/), [Launch YC](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)).
+- **Bundled substitution:** Braintrust already automates recurring trace diagnosis, while Papaya can mitigate replacement friction by importing traces from existing observability tools ([Braintrust](https://www.braintrust.dev/blog/patterns-topics-loop-faq), [Papaya](https://papaya.fyi/)).
+- **Name ambiguity:** Papaya shares its name with payroll provider Papaya Global, making the `papaya.fyi` domain and YC profile useful for attribution ([Papaya Global](https://www.papayaglobal.com/about/), [YC](https://www.ycombinator.com/companies/papaya)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | No public data found |
+| TAM | Broader category $539.4M in 2025, 31.4% forecast CAGR through 2032 ([Global Industry Analysts, May 2026](https://www.marketresearch.com/Market-Glass-Inc-v1039/Agentic-AI-Monitoring-Analytics-Observability-44877166/)) |
 | SAM | No public data found |
-| Traction | Company-reported 1.1M+ conversations analyzed; Sunny Health and Hamlet testimonials ([Papaya, Oct 2026](https://papaya.fyi/)) |
-| Revenue Signal | Free Developer; Business $500/month; custom Enterprise pricing ([pricing, Oct 2026](https://papaya.fyi/pricing)) |
-| Founders | Macy Mody, CEO: SafeBase, Harvard MBA; Niyaz Puzhikkunnath, CPO: Amazon ML; Faiz Vadakkumpadath, Founder: Amazon data infrastructure, OpenReporting ([YC](https://www.ycombinator.com/companies/papaya)) |
-| Competitors | LangSmith/LangChain ($160M raised, reported $12–16M ARR, overlapping fix automation); Braintrust ($124.3M raised, revenue unknown, evaluation workflows); Langfuse ($4M disclosed seed, revenue unknown, self-hosting) ([TrueUp](https://www.trueup.io/co/langchain), [TechCrunch](https://techcrunch.com/2025/07/08/langchain-is-about-to-become-a-unicorn-sources-say/), [CB Insights, via search snippet](https://www.cbinsights.com/company/braintrust-data/financials), [Langfuse](https://langfuse.com/press)) |
-| Moat Signals | No public data found |
-| Risk Factors | Overlapping incumbent functionality, trace/code access requirements, automatically generated judges ([LangSmith](https://www.langchain.com/langsmith/engine), [Papaya](https://papaya.fyi/)) |
-| Founder Reach | Macy: X 68; Niyaz: X 907; Faiz: X 226 ([teapawt mirrors, Oct 27, 2026](https://teapawt.net/macyymay), [Niyaz](https://teapawt.net/niyazpk), [Faiz](https://teapawt.net/vpfaiz)) |
-| Distribution Signals | LinkedIn 857 followers; tracing SDK four stars ([LinkedIn](https://www.linkedin.com/company/papayaai), [GitHub, Oct 2026](https://github.com/Papaya-AI-Inc)) |
-| Emails | macy@papaya.fyi, info@papaya.fyi, hello@papaya.fyi, support@papaya.fyi ([YC](https://www.ycombinator.com/companies/papaya), [LinkedIn](https://www.linkedin.com/company/papayaai), [GitHub](https://github.com/Papaya-AI-Inc), [Terms](https://papaya.fyi/terms-of-service)) |
+| Traction | 1.1M+ conversations analyzed and testimonials from Sunny Health and Hamlet ([Papaya, Nov 2026](https://papaya.fyi/)), 40+ event contacts ([Papaya LinkedIn, Nov 2026](https://www.linkedin.com/company/papayaai)), first paying customers discussed ([Fondo START, Oct 2026](https://podcasts.apple.com/us/podcast/start-faiz-vadakkumpadath-niyaz-puzhikkunnath-co-founders/id1790754910?i=1000796564187)) |
+| Revenue Signal | Free Developer, $500/month Business, custom Enterprise ([Papaya Pricing, Nov 2026](https://papaya.fyi/pricing)) |
+| Founders | Macy Mody (CEO), SafeBase GTM and Harvard MBA. Niyaz Puzhikkunnath (CPO), Amazon agent evaluation and Zovi.com. Faiz Vadakkumpadath (Founder), Amazon data lake and OpenReporting ([YC](https://www.ycombinator.com/companies/papaya)) |
+| Competitors | LangChain ($460M raised, revenue unknown, agent deployment and governance), Braintrust ($121.1M raised, revenue unknown, recurring trace diagnosis), Langfuse ($4M raised, revenue unknown, self-hosted tracing and prompt versioning) ([LangChain release via Morningstar search snippet](https://www.morningstar.com/news/business-wire/20261113716429/langchain-raises-300m-to-enable-every-company-to-own-their-intelligence), [MTS Atlas](https://api.intelligence.mts.now/atlas/braintrust), [Langfuse](https://langfuse.com/press)) |
+| Moat Signals | 200+ production-trace analyses with run-level evidence ([Papaya, Nov 2026](https://papaya.fyi/)) |
+| Risk Factors | Sensitive trace data, reduced specificity on partial traces, overlapping automated diagnosis ([Papaya Privacy Policy](https://papaya.fyi/privacy-policy), [Papaya](https://papaya.fyi/), [Braintrust](https://www.braintrust.dev/blog/patterns-topics-loop-faq)) |
+| Founder Reach | Macy: X 71, LinkedIn 5K via search snippet ([X mirror](https://xitter.cf/macyymay), [LinkedIn](https://www.linkedin.com/in/macy-berg)). Niyaz: X 949, LinkedIn 2K, Chess.js 25 stars ([X mirror](https://nitter.gq/niyazpk), [LinkedIn](https://ca.linkedin.com/in/niyazpk), [GitHub](https://github.com/niyazpk/Chess.js)). Faiz: X 246, LinkedIn 927, cron-builder-ui 4 stars ([X mirror](https://www.xitter.gq/vpfaiz), [LinkedIn](https://www.linkedin.com/in/vpfaiz), [GitHub](https://github.com/vpfaiz/cron-builder-ui)) |
+| Distribution Signals | Launch YC ([YC, Fall 2026](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)), 924 LinkedIn followers ([Papaya LinkedIn, Nov 2026](https://www.linkedin.com/company/papayaai)), 6,900 estimated website visits ([Mindspent, Sep 2026](https://mindspent.com/c/papaya)), 4 SDK stars ([GitHub, Nov 2026](https://github.com/Papaya-AI-Inc/papaya-ai)) |
+| Emails | macy@papaya.fyi (CEO, [Launch YC](https://www.ycombinator.com/launches/U2g-papaya-continuous-optimization-for-your-ai-agents)), info@papaya.fyi (general inquiries, [Papaya LinkedIn](https://www.linkedin.com/company/papayaai)), support@papaya.fyi (support and privacy, [Papaya Privacy Policy](https://papaya.fyi/privacy-policy)) |

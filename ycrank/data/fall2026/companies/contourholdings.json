@@ -1,7 +1,7 @@
 {
   "slug": "contourholdings",
   "name": "Contour",
-  "oneLiner": "AI-native permitting and compliance for America?s buildout",
+  "oneLiner": "AI-native environmental permitting & compliance for America?s buildout",
   "metadata": {
     "website": "https://contourholdings.ai/",
     "yc_page": "https://www.ycombinator.com/companies/contourholdings",
@@ -11,70 +11,46 @@
     "location": "San Francisco, CA, USA",
     "tags": "Energy, AI",
     "yc_partner": "David Lieb ([Y Combinator](https://www.ycombinator.com/companies/contourholdings))",
-    "emails": "info@contourholdings.ai — acquisition/general inquiries ([Contour website](https://contourholdings.ai/))"
+    "emails": "founders@contourholdings.ai for permitting inquiries ([Launch YC](https://www.ycombinator.com/launches/Xeo-contour-ai-native-enviromental-permitting-and-compliance-for-america-s-buildout)), info@contourholdings.ai for environmental practice owners ([Contour](https://contourholdings.ai/))"
   },
   "tags": [
     "Energy",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-16T05:18:31.096Z",
+  "memoGeneratedAt": "2026-11-17T22:50:20.652Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 29,
+    "agi": {
+      "score": 33,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 29,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 34,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 29,
-    "NR": 27,
-    "PG": 29,
-    "PT": 28,
-    "SL": 29,
-    "VK": 25
+    "AGI": 33,
+    "HG": 36,
+    "EXIT": 34
   },
-  "consolidatedAvg": 28,
-  "consolidatedRank": 231,
+  "consolidatedAvg": 34.33,
+  "consolidatedRank": 221,
   "traction": {
-    "tractionRank": 229,
-    "tractionScore": 1,
-    "tractionReason": "YC participation only; no disclosed customers or revenue"
+    "tractionRank": 219,
+    "tractionScore": 9,
+    "tractionReason": "Public launch, no disclosed permitting engagements"
   },
   "paths": {
     "memo": "fall2026/memos/contourholdings.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/contourholdings.md",
-      "elad-gil": "fall2026/evals/elad-gil/contourholdings.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/contourholdings.md",
-      "paul-graham": "fall2026/evals/paul-graham/contourholdings.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/contourholdings.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/contourholdings.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/contourholdings.md"
+      "agi": "fall2026/evals/agi/contourholdings.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/contourholdings.md",
+      "exit": "fall2026/evals/exit/contourholdings.md"
     }
   }
 }

@@ -1,88 +1,92 @@
 ﻿# Roma
 
-> Roma is the to-do list that does itself
+> The task list for your team of AI agents
 
 | Field | Value |
 |-------|-------|
 | Website | https://roma.app |
 | YC Page | https://www.ycombinator.com/companies/roma |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/roma)) |
-| Industry | Consumer / Consumer |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/roma)) |
+| Industry | B2B / B2B -> Productivity |
 | Team Size | 3 |
 | Location |  |
 | Tags | Consumer, Productivity, AI Assistant |
-| YC Partner | David Lieb ([YC](https://www.ycombinator.com/companies/roma)) |
-| Emails | hello@roma.app ([Roma terms](https://roma.app/terms)) |
+| YC Partner | David Lieb ([Y Combinator](https://www.ycombinator.com/companies/roma)) |
+| Emails | hello@roma.app, support and privacy requests ([Roma Help](https://roma.app/learn/get-help-and-send-feedback)); team@milo.app, app seller contact ([Apple App Store, Germany](https://apps.apple.com/de/app/roma-ai-tasks-reminders/id6762153252)) |
 
 ## The Idea
 
-- **Problem:** People managing work through task lists and AI chats must still execute tasks themselves or retrieve work scattered across conversations, inboxes, and documents ([YC launch](https://www.ycombinator.com/launches/UfU-roma-the-to-do-list-that-does-itself)).
-- **Approach:** Voice or text becomes a task whose Operator starts background work using connected email, calendars, files, and a cloud browser, with results retained beside the task ([Roma](https://roma.app/)).
-- **Differentiation:** Roma combines task records and execution, while Motion emphasizes scheduling and project management and Lindy presents work through an AI employee connected to business tools ([Roma](https://roma.app/), [Motion](https://www.usemotion.com/), [Lindy](https://www.lindy.ai/)).
-- **Business Model:** The iPhone app is listed as free; paid subscription tiers and company revenue: No public data found ([Apple App Store](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252), accessed Oct 27, 2026).
-- **TAM/SAM:** The broader AI-assistant market is estimated at $7.11B in 2026, reaching $26.75B by 2031 at 30.4% CAGR; no Roma-specific serviceable-market estimate was found ([MarketsandMarkets, Oct 2026](https://www.marketsandmarkets.com/Market-Reports/ai-assistant-market-40111511.html)).
-- **GTM / Distribution:** Public distribution includes a YC launch, direct Mac downloads, an iPhone app, and connections that expose Roma tasks to existing AI assistants ([YC launch](https://www.ycombinator.com/launches/UfU-roma-the-to-do-list-that-does-itself), [Roma developers](https://roma.app/developers)).
+- **Problem:** People who use several AI agents track work across separate chat threads, inboxes and documents, copying context between tools and following up manually for status ([Roma 2.0 announcement](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents)).
+- **Approach:** Roma turns requests into shared tasks that users and agents can assign, hand off and review, with decisions, edits and results stored in each task’s history ([Roma 2.0 announcement](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents)).
+- **Differentiation:** Roma centers on handoffs among agents users already use, including Claude, ChatGPT and Muse, while Notion centers on workspace-built Custom Agents, ClickUp on assignable Super Agents inside its productivity suite, and Asana on AI Teammates embedded in its Work Graph ([Roma](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents), [Notion](https://www.notion.com/releases/2026-02-24), [ClickUp](https://feedback.clickup.com/changelog/introducing-super-agents-the-worlds-first-human-like-ai-agents), [Asana](https://investors.asana.com/news-releases/news-release-details/asana-unveils-operating-system-human-agent-teams)).
+- **Business Model:** The iPhone app is free to download, and CEO Jan Senderek announced free access through year-end 2026 ([US App Store](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252), [Senderek on X, Nov 11, 2026, mirrored by Teapawt](https://xitter.gq/jans/status/2120546962357338149)).
+- **TAM/SAM:** Grand View Research estimates the broader global task-management software market at $4.5 billion in 2026 with 15.6% CAGR through 2033; no public TAM/SAM data found for this specific segment ([Grand View Research, Jun 2026](https://www.grandviewresearch.com/industry-analysis/task-management-software-market-report)).
+- **GTM / Distribution:** Roma lists San Francisco as its headquarters and distributes through its website and the App Store, with iPhone acquisition campaigns on Meta, TikTok and Google ([Roma LinkedIn](https://www.linkedin.com/company/romaromahq), [Roma Downloads](https://roma.app/download), [Roma Privacy Policy, Nov 2026](https://roma.app/privacy)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Accumulated task history, personal memory, and connected workflows could create switching costs, but published retention evidence does not establish this mechanism ([Roma privacy policy](https://roma.app/privacy)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage.
-- **Commoditization risk:** [Inferred]: Existing task managers can add agent access, as Todoist already offers ChatGPT, Claude, and Muse integrations, reducing the exclusivity of Roma’s shared task interface ([Todoist integrations](https://www.todoist.com/integrations/category/ai-agents)).
+- **Moat today:** Roma retains workspace-specific task histories, including decisions, edits and attribution, that teammates and agents can reuse during handoffs ([Roma 2.0 announcement](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents)).
+- **Future moat:** [Inferred]: Shared histories and recurring workflows could increase switching costs as teams accumulate them, with no public data found on their effect on retention ([Roma 2.0 announcement](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents), [Roma product site](https://roma.app/)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** [Inferred]: Existing task platforms have a path to replicating basic delegation because ClickUp already assigns work to agents and Notion already connects its agents to external tools over MCP ([ClickUp Changelog](https://feedback.clickup.com/changelog/introducing-super-agents-the-worlds-first-human-like-ai-agents), [Notion release notes](https://www.notion.com/releases/2026-02-24)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - US iPhone App Store rating: 5.0/5 from nine ratings ([Apple](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252), accessed Oct 27, 2026).
-  - Company LinkedIn following: 231 followers; headquarters listed as San Francisco ([LinkedIn](https://www.linkedin.com/company/romaromahq), accessed Oct 27, 2026).
-  - Public launch and beta-user feedback reported by Senderek, without a user total ([founder announcement](https://www.linkedin.com/posts/jansenderek_today-were-launching-roma-yc-f26-the-activity-7513241469932126208-nJh1), Oct 2026, via search snippet).
-  - Coverage in Founderland ([Founderland](https://founderland.ai/articles/roma-launches-self-executing-to-do-list-from-loom-alumni-mvee7a7i), Oct 18, 2026).
-  - Zero advertised YC jobs ([YC jobs](https://www.ycombinator.com/companies/roma/jobs), accessed Oct 27, 2026).
+  - Roma 2.0 launched Nov 11, 2026, adding two-way agent delegation and handoffs to the original app launched Oct 6, 2026 ([Roma 2.0 announcement](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents), [Welcome to Roma](https://roma.app/news/welcome-to-roma)).
+  - Original Roma app: Roma reported that many of its most active users spent more than 3 hours daily in the app and some exceeded 100,000 tool calls per user before the 2.0 launch ([Roma, Nov 11, 2026](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents)).
+  - Customer testimonial: A user identified as Sam completed 39 follow-ups in a week using Claude with the original Roma app, as reported by Senderek ([Senderek on X, Oct 28, 2026, mirrored by Teapawt](https://www.nitter.cf/romaromahq)).
+  - Roma 2.0: Senderek reported some users connecting 10 or more agents ([Senderek on X, Nov 13, 2026, mirrored by Teapawt](https://www.nitter.cf/tobioaks)).
+  - 4.5/5 from 35 US iPhone ratings ([US App Store, Nov 17, 2026](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252)).
+  - 782 LinkedIn followers and 456 X followers for @romaromahq ([Roma LinkedIn](https://www.linkedin.com/company/romaromahq), [Roma on X, mirrored by Teapawt](https://www.nitter.cf/romaromahq), Nov 17, 2026).
+  - 1.6 million views for the Roma 2.0 launch post on X ([LaunchVideo, Nov 2026](https://www.launchvideo.com/directory/roma-2)).
+  - Roma 2.0 launch covered by [Lapaas Voice, Nov 12, 2026](https://lapaasvoice.com/roma-launches-roma-2-0-a-shared-to-do-list-that-connects-multiple-ai-agents/).
+  - Senderek solicited applicants on X on Nov 12, 2026; YC showed 0 listed roles on Nov 17 ([Senderek on X, mirrored by Teapawt](https://xitter.cf/jans/status/2120667967533015261), [YC Jobs](https://www.ycombinator.com/companies/roma/jobs)).
 - **Competitors:**
-  - **Motion ($75M raised, revenue unknown):** Business work suite spanning scheduling, projects, and workflows; its September 2025 announcement covered $60M across Series B/C/C2, including a $38M Series C led by Scale Venture Partners ([Motion, Sep 8, 2025](https://www.usemotion.com/blog/motion-raises-60m-to-build-the-agentic-work-suite-for-businesses)).
-  - **Lindy ($52M raised including predecessor Teamflow, exact revenue unknown):** Emphasizes an AI employee operating across business tools; its CEO reported high-seven-figure revenue, while the latest located disclosed round was Teamflow’s $35M Series B led by Coatue in July 2021 ([CEO interview](https://saasclub.io/podcast/lindy-flo-crivello-450/), [Teamflow announcement](https://www.teamflowhq.com/blog/teamflow-raises-35m-series-b), [round date](https://siliconangle.com/2021/07/26/virtual-office-startup-teamflow-raises-35m-new-funding/), [current product](https://www.lindy.ai/)).
-  - **Todoist ($0 external funding reported, current revenue unknown):** Established task organization with external AI-agent integrations; the company describes itself as bootstrapped, with no financing round to report ([Todoist](https://www.todoist.com/inspiration/no-exit-strategy), [integrations](https://www.todoist.com/integrations/category/ai-agents)).
-- **Why now:** [Inferred]: MCP’s introduction in November 2024 supplied a common integration standard that Roma now uses to let different assistants access the same task workspace ([Anthropic, Nov 25, 2024](https://www.anthropic.com/news/model-context-protocol), [Roma developers](https://roma.app/developers)).
+  - **Notion** (approximately $344M raised, estimated $865M ARR in Jul 2026, per [Sacra](https://sacra.com/c/notion/)): Custom Agents run on workspace triggers across documents and connected tools; its Oct 2021 $275M Series C was led by Coatue and Sequoia, and GIC, Sequoia and Index participated in a separate $270M employee tender in Jan 2026 ([Notion release notes](https://www.notion.com/releases/2026-02-24), [Notion tender announcement](https://www.notion.com/en-gb/blog/gic-sequoia-index-purchase-notion-shares)).
+  - **ClickUp** ($535M raised per [ClickUp](https://www.prnewswire.com/news-releases/clickup-raises-400m-in-series-c-funding-the-biggest-investment-in-workplace-productivity-history-301409506.html), over $300M ARR per [CEO via Axios, Sep 2025](https://www.axios.com/pro/enterprise-software-deals/2025/09/09/click-up-project-management-ipo-plans)): Assignable Super Agents run inside a suite covering projects, documents and chat; Andreessen Horowitz and Tiger Global co-led its $400M Series C in Oct 2021 ([ClickUp Changelog](https://feedback.clickup.com/changelog/introducing-super-agents-the-worlds-first-human-like-ai-agents), [ClickUp funding announcement](https://www.prnewswire.com/news-releases/clickup-raises-400m-in-series-c-funding-the-biggest-investment-in-workplace-productivity-history-301409506.html)).
+  - **Asana** ($213M in reported funding through its Nov 2018 Series E per [TechCrunch](https://techcrunch.com/2018/11/29/asana-a-work-management-platform-nabs-50m-growth-round-at-a-1-5b-valuation/), $790.8M FY2026 revenue per [SEC filing](https://www.sec.gov/Archives/edgar/data/1477720/000147772026000012/asana8-kex991q4fy26.htm)): AI Teammates use Asana’s Work Graph and industry workflows; Generation Investment Management led the announced $50M Series E, followed by a $300M founder-affiliated convertible note in Jan 2020 ([Asana product announcement](https://investors.asana.com/news-releases/news-release-details/asana-unveils-operating-system-human-agent-teams), [SEC prospectus](https://www.sec.gov/Archives/edgar/data/1477720/000119312520249231/d855753ds1a.htm)).
+- **Why now:** [Inferred]: The Dec 2025 transfer of MCP to the Linux Foundation’s Agentic AI Foundation helped establish a shared integration standard that Roma uses to connect agents from multiple providers ([Anthropic, Dec 2025](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation), [Roma Developers](https://roma.app/developers)).
 
 ## Founders & Team
 
-- **Jan Senderek (Co-founder/CEO):**
-  - Background: Studied Media Management at Hochschule Fresenius and subsequently Technology Entrepreneurship in London; founded photo-storage company Loom, acquired by Dropbox in 2014, and later worked on Dropbox mobile products ([Fresenius viewbook](https://www.einstieg.com/fileadmin/Anbieterprofile/Downloads/Viewbook_2015_Hochschule_Fresenius_DE.pdf), [Wellfound](https://wellfound.com/p/jan)).
-  - Twitter/X: @jans; count not retrievable ([YC profile](https://www.ycombinator.com/founders/jan-senderek)).
-  - LinkedIn: Profile found; headline: No public data found ([LinkedIn](https://www.linkedin.com/in/jansenderek), via search snippet).
-  - GitHub: @moopoints; `roma-claude-plugin`, zero stars ([GitHub](https://github.com/moopoints/roma-claude-plugin), accessed Oct 27, 2026).
+- **Jan Senderek (Co-founder and CEO):**
+  - Background: Attended Fresenius University Cologne and University College London, founded cloud-photo startup Loom, which Dropbox acquired in 2014, and worked at Dropbox ([YC founder profile](https://www.ycombinator.com/founders/jan-senderek), [TechCrunch, Apr 2014](https://techcrunch.com/2014/04/17/dropbox-acquires-cloud-photos-startup-loom-service-to-be-shut-down-as-users-transferred-to-carousel/)); direct business email: No public data found.
+  - Twitter/X: @jans, 3.7K followers ([X profile mirrored by Teapawt, Nov 2026](https://www.teapawt.net/jans)).
+  - LinkedIn: [Public profile](https://www.linkedin.com/in/jansenderek/); headline not retrievable.
+  - GitHub: @moopoints, `roma-claude-plugin`, 1 star ([GitHub, Nov 2026](https://github.com/moopoints/roma-claude-plugin)).
 - **Tobias Eichenwald (Co-founder):**
-  - Background: Studied Business Administration at Hochschule Fresenius; co-founded Senic, acquired by Gira, and describes himself as a self-taught designer/programmer who led product design and partnerships ([XING](https://www.xing.com/profile/Tobias_Eichenwald), [personal site](https://www.tobiaseichenwald.com/about), [YC](https://www.ycombinator.com/founders/tobias-eichenwald)).
-  - Twitter/X: @tobioaks; count not retrievable ([YC profile](https://www.ycombinator.com/founders/tobias-eichenwald)).
-  - LinkedIn: Profile found; headline: No public data found ([LinkedIn](https://www.linkedin.com/in/tobias-eichenwald), via search snippet).
+  - Background: Co-founded smart-home controls maker Senic, acquired by Gira, and worked across UX and programming with companies including Sonos and Steelcase ([personal site](https://www.tobiaseichenwald.com/), [YC Senic profile](https://www.ycombinator.com/companies/senic)); education and direct business email: No public data found.
+  - Twitter/X: @tobioaks, 107 followers ([X profile mirrored by Teapawt, Nov 2026](https://www.nitter.cf/tobioaks)).
+  - LinkedIn: Headline not retrievable; 2K followers ([LinkedIn snapshot, Oct 2026](https://www.linkedin.com/in/tobias-eichenwald)).
   - GitHub: No public repos found.
 - **Cody Osborne (Co-founder):**
-  - Background: University of Oregon alumnus, previously an agency creative at Goodby Silverstein & Partners and 72andSunny, an in-house director at Dropbox, and co-founder of The Goondocks ([LinkedIn](https://www.linkedin.com/in/acodyosborne), via search snippet; [YC](https://www.ycombinator.com/founders/cody-osborne)).
+  - Background: Attended the University of Oregon, worked in brand creative at Goodby Silverstein & Partners and 72andSunny, directed in-house at Dropbox and co-founded The Goondocks ([LinkedIn](https://www.linkedin.com/in/acodyosborne), [YC founder profile](https://www.ycombinator.com/founders/cody-osborne)); direct business email: No public data found.
   - Twitter/X: No public account found.
-  - LinkedIn: Profile under A. Cody Osborne; headline: No public data found ([LinkedIn](https://www.linkedin.com/in/acodyosborne), via search snippet).
+  - LinkedIn: Headline not retrievable; 1K followers ([LinkedIn snapshot, Oct 2026](https://www.linkedin.com/in/acodyosborne)).
   - GitHub: No public repos found.
-- **Co-founder relationship:** Eichenwald says he and Senderek met approximately 20 years earlier and built a running app before Roma; no prior-product metrics are attributed to Roma here ([LinkedIn](https://www.linkedin.com/in/tobias-eichenwald), Oct 2026, via search snippet).
-- **Founder-market fit:** [Inferred]: Senderek’s consumer-software work, Eichenwald’s product-design/programming experience, and Osborne’s creative background align with a consumer productivity product; YC lists David Lieb as their partner ([Wellfound](https://wellfound.com/p/jan), [Eichenwald](https://www.tobiaseichenwald.com/about), [YC](https://www.ycombinator.com/companies/roma)).
+- **Co-founder relationship:** Senderek and Osborne both worked at Dropbox ([Senderek YC profile](https://www.ycombinator.com/founders/jan-senderek), [Osborne YC profile](https://www.ycombinator.com/founders/cody-osborne)).
+- **Founder-market fit:** The YC-backed team brings consumer software and cloud-product experience from Loom and Dropbox, connected-product design from Senic, and brand marketing and production from Osborne’s agency and studio work ([Y Combinator](https://www.ycombinator.com/companies/roma), [Eichenwald personal site](https://www.tobiaseichenwald.com/)).
 
 ## Key Risks
 
-- **Execution limits:** Roma’s beta browser stops at unsupported verification steps or blocked automation and requires users to complete payments, limiting unattended completion; its documentation describes approval controls ([Roma browser documentation](https://roma.app/learn/the-operators-browser)).
-- **Provider dependence:** [Inferred]: Reliance on OpenAI for models and Composio for connection credentials exposes execution to external service changes; Roma permits users to disconnect integrations ([privacy policy](https://roma.app/privacy)).
-- **Sensitive-data access:** [Inferred]: Processing email, files, recordings, and personal memory creates exposure if access controls fail; Roma states that Google data is not used for model training and provides permission controls ([privacy policy](https://roma.app/privacy), [approvals](https://roma.app/learn/approvals)).
-- **Name ambiguity:** [Inferred]: An unrelated ROMA meta-agent framework occupies Product Hunt search results, potentially confusing discovery and traction attribution ([Product Hunt](https://www.producthunt.com/products/roma/reviews)).
+- **Platform dependency:** [Inferred]: Changes to third-party permissions or service availability could interrupt task execution because Roma uses Composio for app connections and OpenAI for its built-in assistant, while supporting multiple external agents for delegation ([Roma Privacy Policy](https://roma.app/privacy), [Roma Developers](https://roma.app/developers)).
+- **Delegation reliability:** Roma reported that some iPhone mentions failed to wake an agent, shipped a fix in iOS version 1.3.4, and added missed-pickup notices and retries in version 1.3.6 ([Roma on X, mirrored by Teapawt](https://www.nitter.cf/romaromahq), [US App Store version history](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252)).
+- **Incumbent substitution:** [Inferred]: Teams can assign tasks to agents within ClickUp or run triggered agents inside Notion, reducing the need to adopt another workspace for those workflows ([ClickUp Changelog](https://feedback.clickup.com/changelog/introducing-super-agents-the-worlds-first-human-like-ai-agents), [Notion release notes](https://www.notion.com/releases/2026-02-24)).
+- **Name collision:** [Inferred]: Searches for Roma and AI agents can surface Sentient Foundation’s separate ROMA framework, creating a risk of attributing its repository or adoption metrics to the startup ([Sentient Foundation GitHub](https://github.com/sentient-agi/ROMA), [Y Combinator](https://www.ycombinator.com/companies/roma)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broad AI-assistant category: $7.11B in 2026; 30.4% CAGR through 2031 ([MarketsandMarkets, Oct 2026](https://www.marketsandmarkets.com/Market-Reports/ai-assistant-market-40111511.html)) |
+| TAM | Broader global task-management software market estimated at $4.5B in 2026, 15.6% CAGR through 2033 ([Grand View Research, Jun 2026](https://www.grandviewresearch.com/industry-analysis/task-management-software-market-report)) |
 | SAM | No public data found |
-| Traction | 5.0/5, nine US App Store ratings ([Apple, Oct 27, 2026](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252)); 231 company followers ([LinkedIn, Oct 27, 2026](https://www.linkedin.com/company/romaromahq)) |
-| Revenue Signal | Free iPhone download ([Apple, Oct 27, 2026](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252)) |
-| Founders | Jan Senderek, CEO: Loom/Dropbox; Tobias Eichenwald, co-founder: Senic/Gira; Cody Osborne, co-founder: Dropbox/The Goondocks ([YC](https://www.ycombinator.com/companies/roma)) |
-| Competitors | Motion ($75M raised, revenue unknown, business work suite) ([Motion](https://www.usemotion.com/blog/motion-raises-60m-to-build-the-agentic-work-suite-for-businesses)); Lindy ($52M including predecessor, exact revenue unknown, AI employee) ([CEO interview](https://saasclub.io/podcast/lindy-flo-crivello-450/)); Todoist ($0 external funding reported, revenue unknown, task organization) ([Todoist](https://www.todoist.com/inspiration/no-exit-strategy)) |
-| Moat Signals | No public data found |
-| Risk Factors | Browser verification limits ([Roma documentation](https://roma.app/learn/the-operators-browser)); external model/integration dependencies and sensitive-data processing ([privacy policy](https://roma.app/privacy)) |
-| Founder Reach | LinkedIn displayed followers: Senderek 1K, Eichenwald 2K, Osborne 1K ([Senderek](https://www.linkedin.com/in/jansenderek), [Eichenwald](https://www.linkedin.com/in/tobias-eichenwald), [Osborne](https://www.linkedin.com/in/acodyosborne), retrieved Oct 27, 2026, via search snippets) |
-| Distribution Signals | YC launch ([YC](https://www.ycombinator.com/launches/UfU-roma-the-to-do-list-that-does-itself)); Mac/iPhone distribution ([Roma](https://roma.app/)); public Claude plugin ([GitHub](https://github.com/moopoints/roma-claude-plugin)) |
-| Emails | hello@roma.app ([Roma terms](https://roma.app/terms)) |
+| Traction | Original Roma app: some users exceeded 100K tool calls per user ([Roma, Nov 2026](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents)); customer testimonial: Sam completed 39 follow-ups in one week ([Senderek on X via Teapawt, Oct 2026](https://www.nitter.cf/romaromahq)). Roma 2.0: some users connected 10+ agents ([Senderek on X via Teapawt, Nov 2026](https://www.nitter.cf/tobioaks)); iPhone listing: 4.5/5 from 35 US ratings ([US App Store, Nov 2026](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252)). |
+| Revenue Signal | Free iPhone download and free access announced through year-end 2026 ([US App Store](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252), [Senderek on X via Teapawt, Nov 2026](https://xitter.gq/jans/status/2120546962357338149)). |
+| Founders | Jan Senderek (CEO), Loom founder and Dropbox alumnus; Tobias Eichenwald (Co-founder), Senic co-founder and product designer; Cody Osborne (Co-founder), former Dropbox director and Goondocks co-founder ([Y Combinator](https://www.ycombinator.com/companies/roma)). |
+| Competitors | Notion (approximately $344M raised, estimated $865M ARR, workspace Custom Agents; [Sacra](https://sacra.com/c/notion/), [Notion](https://www.notion.com/releases/2026-02-24)); ClickUp ($535M raised, over $300M ARR, assignable Super Agents; [ClickUp](https://www.prnewswire.com/news-releases/clickup-raises-400m-in-series-c-funding-the-biggest-investment-in-workplace-productivity-history-301409506.html), [Axios CEO interview](https://www.axios.com/pro/enterprise-software-deals/2025/09/09/click-up-project-management-ipo-plans), [ClickUp Changelog](https://feedback.clickup.com/changelog/introducing-super-agents-the-worlds-first-human-like-ai-agents)); Asana ($213M reported through Series E, $790.8M FY2026 revenue, Work Graph-based AI Teammates; [TechCrunch](https://techcrunch.com/2018/11/29/asana-a-work-management-platform-nabs-50m-growth-round-at-a-1-5b-valuation/), [SEC](https://www.sec.gov/Archives/edgar/data/1477720/000147772026000012/asana8-kex991q4fy26.htm), [Asana](https://investors.asana.com/news-releases/news-release-details/asana-unveils-operating-system-human-agent-teams)). |
+| Moat Signals | Persistent task histories record decisions, edits and authorship across agent handoffs ([Roma 2.0 announcement](https://roma.app/news/roma-the-to-do-list-for-your-ai-agents)). |
+| Risk Factors | Third-party dependency ([Roma Privacy Policy](https://roma.app/privacy)), missed agent pickups ([US App Store version history](https://apps.apple.com/us/app/roma-ai-tasks-reminders/id6762153252)), incumbent feature overlap ([ClickUp Changelog](https://feedback.clickup.com/changelog/introducing-super-agents-the-worlds-first-human-like-ai-agents)). |
+| Founder Reach | Jan Senderek: X 3.7K ([Teapawt](https://www.teapawt.net/jans)), GitHub 1 repository star ([GitHub](https://github.com/moopoints/roma-claude-plugin)); Tobias Eichenwald: X 107 ([Teapawt](https://www.nitter.cf/tobioaks)), LinkedIn 2K ([LinkedIn](https://www.linkedin.com/in/tobias-eichenwald)); Cody Osborne: LinkedIn 1K ([LinkedIn](https://www.linkedin.com/in/acodyosborne)). |
+| Distribution Signals | 1.6M Roma 2.0 launch-post views ([LaunchVideo, Nov 2026](https://www.launchvideo.com/directory/roma-2)); 782 LinkedIn followers and 456 X followers ([Roma LinkedIn](https://www.linkedin.com/company/romaromahq), [X via Teapawt](https://www.nitter.cf/romaromahq), Nov 2026). |
+| Emails | hello@roma.app, support and privacy requests ([Roma Help](https://roma.app/learn/get-help-and-send-feedback)); team@milo.app, app seller contact ([Apple App Store, Germany](https://apps.apple.com/de/app/roma-ai-tasks-reminders/id6762153252)). |

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://resineda.com/",
     "yc_page": "https://www.ycombinator.com/companies/resin-technologies",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/resin-technologies))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/resin-technologies))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "0",
     "location": "San Francisco, CA, USA",
     "tags": "Hardware, Electronics, AI",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/resin-technologies))",
-    "emails": "anmol@resineda.com ([YC](https://www.ycombinator.com/companies/resin-technologies)); hello@resineda.com, support@resineda.com ([Resin Support](https://resineda.com/support))"
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/resin-technologies))",
+    "emails": "anmol@resineda.com, CEO ([Launch YC](https://www.ycombinator.com/launches/VG7-resin-codex-for-electronics)), hello@resineda.com, general and sales, support@resineda.com, product support ([Resin Contact](https://resineda.com/contact))"
   },
   "tags": [
     "Hardware",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:16:34.154Z",
+  "memoGeneratedAt": "2026-11-17T23:31:47.934Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 39,
+    "agi": {
+      "score": 37,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 32,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 32,
-    "NR": 43,
-    "PG": 35,
-    "PT": 33,
-    "SL": 30,
-    "VK": 27
+    "AGI": 37,
+    "HG": 37,
+    "EXIT": 36
   },
-  "consolidatedAvg": 34.14,
-  "consolidatedRank": 178,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 157,
-    "tractionScore": 20,
-    "tractionReason": "Product launched with paid pricing; no disclosed customer adoption"
+    "tractionRank": 150,
+    "tractionScore": 36,
+    "tractionReason": "Founder reports unnamed teams shipped boards using Resin"
   },
   "paths": {
     "memo": "fall2026/memos/resin-technologies.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/resin-technologies.md",
-      "elad-gil": "fall2026/evals/elad-gil/resin-technologies.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/resin-technologies.md",
-      "paul-graham": "fall2026/evals/paul-graham/resin-technologies.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/resin-technologies.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/resin-technologies.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/resin-technologies.md"
+      "agi": "fall2026/evals/agi/resin-technologies.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/resin-technologies.md",
+      "exit": "fall2026/evals/exit/resin-technologies.md"
     }
   }
 }

@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://larkagents.com",
     "yc_page": "https://www.ycombinator.com/companies/lark-2",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/lark-2))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/lark-2))",
     "industry": "Industrials / Industrials",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Supply Chain, AI",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/lark-2))",
-    "emails": "founders@larkagents.com ([Privacy](https://larkagents.com/privacy)); security@larkagents.com ([Security](https://larkagents.com/security)); michael@larkagents.com ([LinkedIn](https://www.linkedin.com/in/michael-wang-40061923b), via search snippet)"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/lark-2))",
+    "emails": "michael@larkagents.com, Michael Wang ([LinkedIn, via search snippet](https://www.linkedin.com/in/michael-wang-40061923b)); michael@trylark.ai, previously listed by Michael Wang ([cached LinkedIn, via search snippet](https://bwf.mashreqdevelopments.com/?_=%2Fin%2Fmichael-wang-40061923b%23aU4iOhb7bFvice0yymyvWGRePyRLoiwZ&trk=public_profile__reactions-text)); founders@larkagents.com, shared privacy contact ([Lark Privacy Policy](https://larkagents.com/privacy))"
   },
   "tags": [
     "B2B",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:57:38.457Z",
+  "memoGeneratedAt": "2026-11-17T22:54:50.271Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 40,
+    "agi": {
+      "score": 39,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
+    "hypergrowth": {
+      "score": 44,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 27,
+    "exit": {
+      "score": 39,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 61,
-    "NR": 40,
-    "PG": 48,
-    "PT": 32,
-    "SL": 40,
-    "VK": 27
+    "AGI": 39,
+    "HG": 44,
+    "EXIT": 39
   },
-  "consolidatedAvg": 42.14,
-  "consolidatedRank": 46,
+  "consolidatedAvg": 40.67,
+  "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 51,
-    "tractionReason": "Named Interline deployment and separate first-customer usage; revenue undisclosed"
+    "tractionRank": 126,
+    "tractionScore": 39,
+    "tractionReason": "Live inventory workflow at Interline Hardware, fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/lark-2.md",
-      "elad-gil": "fall2026/evals/elad-gil/lark-2.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/lark-2.md",
-      "paul-graham": "fall2026/evals/paul-graham/lark-2.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/lark-2.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/lark-2.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/lark-2.md"
+      "agi": "fall2026/evals/agi/lark-2.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/lark-2.md",
+      "exit": "fall2026/evals/exit/lark-2.md"
     }
   }
 }

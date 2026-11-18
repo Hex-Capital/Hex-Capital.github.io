@@ -1,17 +1,17 @@
 {
   "slug": "sintropix",
   "name": "Sintropix",
-  "oneLiner": "Autonomous accounting platform for global companies",
+  "oneLiner": "AI-native ERP that closes your books and files your taxes",
   "metadata": {
     "website": "https://sintropix.com/",
     "yc_page": "https://www.ycombinator.com/companies/sintropix",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/sintropix))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/sintropix))",
     "industry": "B2B / B2B -> Finance and Accounting",
     "team_size": "2",
-    "location": "Santiago, Santiago Metropolitan Region, Chile",
+    "location": "San Francisco, CA, USA",
     "tags": "Fintech, B2B, AI",
-    "yc_partner": "Kulveer Taggar ([YC](https://www.ycombinator.com/companies/sintropix))",
-    "emails": "alfonso@sintropix.com ([Sintropix contact](https://sintropix.com/contact))"
+    "yc_partner": "Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/sintropix))",
+    "emails": "alfonso@sintropix.com, CEO ([Alfonso’s LinkedIn](https://cl.linkedin.com/in/alfonsompm/en)), founders@sintropix.com, sales inquiries ([Launch YC](https://www.ycombinator.com/launches/WdU-sintropix-the-ai-native-erp-that-closes-your-books-and-files-your-taxes)), support@sintropix.com, privacy requests ([Sintropix Privacy Policy](https://sintropix.com/privacy))"
   },
   "tags": [
     "Fintech",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:55:26.604Z",
+  "memoGeneratedAt": "2026-11-17T22:43:52.172Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
+    "agi": {
       "score": 39,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 32,
+    "hypergrowth": {
+      "score": 43,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 48,
-    "NR": 47,
-    "PG": 54,
-    "PT": 34,
-    "SL": 39,
-    "VK": 32
+    "AGI": 39,
+    "HG": 43,
+    "EXIT": 37
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 44,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 62,
-    "tractionReason": "Ten active clients across four countries; priced accounting services"
+    "tractionRank": 35,
+    "tractionScore": 65,
+    "tractionReason": "10 ERP customers across four countries, monthly fee model"
   },
   "paths": {
     "memo": "fall2026/memos/sintropix.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/sintropix.md",
-      "elad-gil": "fall2026/evals/elad-gil/sintropix.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/sintropix.md",
-      "paul-graham": "fall2026/evals/paul-graham/sintropix.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/sintropix.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/sintropix.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/sintropix.md"
+      "agi": "fall2026/evals/agi/sintropix.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/sintropix.md",
+      "exit": "fall2026/evals/exit/sintropix.md"
     }
   }
 }

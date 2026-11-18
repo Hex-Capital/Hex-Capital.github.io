@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://nitroduck.tech/",
     "yc_page": "https://www.ycombinator.com/companies/nitroduck",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/nitroduck))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/nitroduck))",
     "industry": "Industrials / Industrials -> Agriculture",
     "team_size": "3",
     "location": "Brno, South Moravian Region, Czechia",
     "tags": "CRISPR, Sustainable Agriculture, Biotechnology",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/companies/nitroduck))",
-    "emails": "mafia@nitroduck.tech, matej@nitroduck.tech, matus@nitroduck.tech, miro@nitroduck.tech ([company website, via search snippet](https://nitroduck.tech/))"
+    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/nitroduck))",
+    "emails": "matej@nitroduck.tech (CEO), matus@nitroduck.tech (CTO), miro@nitroduck.tech (CSO), mafia@nitroduck.tech (shared crop inquiries) ([Nitroduck homepage](https://nitroduck.tech/), via search snippet)"
   },
   "tags": [
     "CRISPR",
@@ -19,63 +19,39 @@
     "Biotechnology"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:07:16.724Z",
+  "memoGeneratedAt": "2026-11-18T00:13:46.696Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 44,
+    "agi": {
+      "score": 31,
       "tier": "Pass"
     },
-    "elad-gil": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 36,
-    "NR": 41,
-    "PG": 42,
-    "PT": 32,
-    "SL": 30,
-    "VK": 28
+    "AGI": 31,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 135,
+  "consolidatedAvg": 34.67,
+  "consolidatedRank": 215,
   "traction": {
-    "tractionRank": 205,
-    "tractionScore": 8,
-    "tractionReason": "Prior research awards; no disclosed current-product customers or revenue"
+    "tractionRank": 229,
+    "tractionScore": 5,
+    "tractionReason": "Crop product announced, no disclosed buyers or customer trials"
   },
   "paths": {
     "memo": "fall2026/memos/nitroduck.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/nitroduck.md",
-      "elad-gil": "fall2026/evals/elad-gil/nitroduck.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/nitroduck.md",
-      "paul-graham": "fall2026/evals/paul-graham/nitroduck.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/nitroduck.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/nitroduck.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/nitroduck.md"
+      "agi": "fall2026/evals/agi/nitroduck.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/nitroduck.md",
+      "exit": "fall2026/evals/exit/nitroduck.md"
     }
   }
 }

@@ -3,77 +3,54 @@
   "name": "OpenScaffold",
   "oneLiner": "Superagent for Deployment Teams",
   "metadata": {
+    "website": "https://openscaffold.ai",
     "yc_page": "https://www.ycombinator.com/companies/openscaffold",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/openscaffold))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/openscaffold))",
     "industry": "B2B / B2B",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, AI",
-    "yc_partner": "David Lieb ([YC](https://www.ycombinator.com/companies/openscaffold))",
-    "emails": "No public data found"
+    "yc_partner": "David Lieb ([YC directory](https://www.ycombinator.com/companies/openscaffold))",
+    "emails": "founders@openscaffold.ai, shared inbox for support, privacy requests, and team or contract inquiries ([OpenScaffold Support](https://openscaffold.ai/support), [Privacy Policy](https://openscaffold.ai/privacy), [Pricing](https://openscaffold.ai/pricing))"
   },
   "tags": [
     "B2B",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:12:58.484Z",
+  "memoGeneratedAt": "2026-11-18T00:24:30.208Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 30,
+    "agi": {
+      "score": 34,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 26,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 26,
-    "NR": 30,
-    "PG": 29,
-    "PT": 28,
-    "SL": 30,
-    "VK": 25
+    "AGI": 34,
+    "HG": 36,
+    "EXIT": 37
   },
-  "consolidatedAvg": 28.29,
-  "consolidatedRank": 230,
+  "consolidatedAvg": 35.67,
+  "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 232,
-    "tractionScore": 0,
-    "tractionReason": "No disclosed traction evidence"
+    "tractionRank": 143,
+    "tractionScore": 37,
+    "tractionReason": "One publicly identified customer and a reported pilot partner"
   },
   "paths": {
     "memo": "fall2026/memos/openscaffold.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/openscaffold.md",
-      "elad-gil": "fall2026/evals/elad-gil/openscaffold.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/openscaffold.md",
-      "paul-graham": "fall2026/evals/paul-graham/openscaffold.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/openscaffold.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/openscaffold.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/openscaffold.md"
+      "agi": "fall2026/evals/agi/openscaffold.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/openscaffold.md",
+      "exit": "fall2026/evals/exit/openscaffold.md"
     }
   }
 }

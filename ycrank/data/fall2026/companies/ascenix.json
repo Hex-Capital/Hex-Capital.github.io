@@ -1,80 +1,56 @@
 {
   "slug": "ascenix",
   "name": "Ascenix",
-  "oneLiner": "Clinical intelligence layer for skilled nursing facilities.",
+  "oneLiner": "Custom software for senior care facilities.",
   "metadata": {
     "website": "https://www.ascenix.co/",
     "yc_page": "https://www.ycombinator.com/companies/ascenix",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/ascenix))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/ascenix))",
     "industry": "Healthcare / Healthcare -> Healthcare IT",
     "team_size": "7",
     "location": "Toronto, ON, Canada",
     "tags": "Digital Health, Healthcare IT",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/ascenix))",
-    "emails": "support@ascenix.co, rishi.mehta@ascenix.co ([Ascenix](https://www.ascenix.co/about)); ayaan@ascenix.co ([founder LinkedIn, via search snippet](https://ca.linkedin.com/in/ayaan-esmail))"
+    "yc_partner": "Pete Koomen ([Y Combinator](https://www.ycombinator.com/companies/ascenix))",
+    "emails": "rishi.mehta@ascenix.co, CEO ([Rishi Mehta on LinkedIn](https://www.linkedin.com/posts/rishi-mehta-12b569140_ascenix-the-incident-intelligence-layer-activity-7504252539740008448-eIxR)), ayaan@ascenix.co, president and demos ([Ascenix About](https://www.ascenix.co/about)), owen@ascenix.co, demos and sales ([Ascenix homepage](https://www.ascenix.co/)), support@ascenix.co, support ([Ascenix footer](https://www.ascenix.co/)), info@ascenix.co, general inquiries ([Ascenix Training Hub](https://ascenix-learning.com/kindera-falls), via search snippet)"
   },
   "tags": [
     "Digital Health",
     "Healthcare IT"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:59:29.611Z",
+  "memoGeneratedAt": "2026-11-17T23:00:26.648Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
+    "agi": {
+      "score": 42,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
+    "hypergrowth": {
+      "score": 49,
+      "tier": "Neutral"
     },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 63,
-    "NR": 46,
-    "PG": 52,
-    "PT": 35,
-    "SL": 41,
-    "VK": 31
+    "AGI": 42,
+    "HG": 49,
+    "EXIT": 43
   },
-  "consolidatedAvg": 46.14,
-  "consolidatedRank": 13,
+  "consolidatedAvg": 44.67,
+  "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 17,
+    "tractionRank": 27,
     "tractionScore": 68,
-    "tractionReason": "50–55 facilities; named deployment across 12 Responsive communities"
+    "tractionReason": "55 live facilities, monthly invoicing, named multi-site deployment"
   },
   "paths": {
     "memo": "fall2026/memos/ascenix.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/ascenix.md",
-      "elad-gil": "fall2026/evals/elad-gil/ascenix.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/ascenix.md",
-      "paul-graham": "fall2026/evals/paul-graham/ascenix.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/ascenix.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/ascenix.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/ascenix.md"
+      "agi": "fall2026/evals/agi/ascenix.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/ascenix.md",
+      "exit": "fall2026/evals/exit/ascenix.md"
     }
   }
 }

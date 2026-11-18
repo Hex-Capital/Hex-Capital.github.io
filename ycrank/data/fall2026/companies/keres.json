@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://www.keresaero.com/",
     "yc_page": "https://www.ycombinator.com/companies/keres",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/keres))",
+    "batch": "Fall 2026",
     "industry": "Industrials / Industrials -> Defense",
     "team_size": "3",
     "location": "Denver, CO, USA",
     "tags": "Airplanes, Aerospace, Defense",
-    "yc_partner": "Pete Koomen ([YC](https://www.ycombinator.com/companies/keres))",
-    "emails": "parker@keresaero.com ([company website](https://www.keresaero.com/))"
+    "yc_partner": "Pete Koomen",
+    "emails": "parker@keresaero.com, CEO and general inquiries ([Keres website](https://www.keresaero.com/))"
   },
   "tags": [
     "Airplanes",
@@ -19,63 +19,39 @@
     "Defense"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:51:24.554Z",
+  "memoGeneratedAt": "2026-11-17T22:39:02.726Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
+    "agi": {
       "score": 36,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 29,
+    "hypergrowth": {
+      "score": 40,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 34,
-    "NR": 36,
-    "PG": 29,
-    "PT": 32,
-    "SL": 30,
-    "VK": 25
+    "AGI": 36,
+    "HG": 40,
+    "EXIT": 37
   },
-  "consolidatedAvg": 31.29,
-  "consolidatedRank": 211,
+  "consolidatedAvg": 37.67,
+  "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 215,
-    "tractionScore": 6,
-    "tractionReason": "Press profile only; no disclosed contracts, orders, or revenue"
+    "tractionRank": 231,
+    "tractionScore": 4,
+    "tractionReason": "Public product coverage, no disclosed orders or deployments"
   },
   "paths": {
     "memo": "fall2026/memos/keres.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/keres.md",
-      "elad-gil": "fall2026/evals/elad-gil/keres.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/keres.md",
-      "paul-graham": "fall2026/evals/paul-graham/keres.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/keres.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/keres.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/keres.md"
+      "agi": "fall2026/evals/agi/keres.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/keres.md",
+      "exit": "fall2026/evals/exit/keres.md"
     }
   }
 }

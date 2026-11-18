@@ -6,89 +6,90 @@
 |-------|-------|
 | Website | https://www.ratlog.space/ |
 | YC Page | https://www.ycombinator.com/companies/ratlog |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/ratlog)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/ratlog)) |
 | Industry | Industrials / Industrials -> Aviation and Space |
 | Team Size | 4 |
 | Location | Dresden, SN, Germany |
 | Tags | Commercial Space Launch |
-| YC Partner | Kulveer Taggar ([YC](https://www.ycombinator.com/companies/ratlog)) |
-| Emails | charlie.weise@ratlog.space, paul.kunhart@ratlog.space, felix.kelm@ratlog.space, matty.driesnack@ratlog.space ([RATLOG website](https://www.ratlog.space/)) |
+| YC Partner | Kulveer Taggar ([Y Combinator](https://www.ycombinator.com/companies/ratlog)) |
+| Emails | charlie.weise@ratlog.space, CEO and launch inquiries ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)), paul.kunhart@ratlog.space, CTO, felix.kelm@ratlog.space, avionics, matty.driesnack@ratlog.space, COO ([RATLOG team page](https://ratlog-space.com/), via search snippet) |
 
 ## The Idea
 
-- **Problem:** Satellite operators face launch delays that postpone operations and revenue, with RATLOG reporting waits of 3–4 years and prices reaching $15,000/kg through existing providers ([YC company page, Oct 2026](https://www.ycombinator.com/companies/ratlog)).
-- **Approach:** RATLOG proposes reusable rockets carrying up to 20 tonnes, using an engine cycle that eliminates the turbopump through alternative propellant pressurization and targets 90% fewer engine parts ([YC company page](https://www.ycombinator.com/companies/ratlog)).
-- **Differentiation:** RATLOG targets turbopump-free propulsion, whereas Isar’s Spectrum uses turbopump-fed engines, while SpaceX already offers reusable Falcon 9 launches ([RATLOG launch](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts); [Isar](https://isaraerospace.com/spectrum); [SpaceX, via search snippet](https://new.spacex.com/vehicles/falcon-9)).
-- **Business Model:** Customers would reserve shared-flight capacity and pay per kilogram; a numerical price is not published ([RATLOG website](https://www.ratlog.space/)).
-- **TAM/SAM:** The broader satellite-launch-services market is estimated at $12.1B in 2026, reaching $27.7B by 2033 at 12.5% CAGR; this includes services beyond RATLOG’s proposed offering, and company-specific SAM has no public data ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/satellite-launch-services-market-report)).
-- **GTM / Distribution:** RATLOG solicits launch-planning calls directly from satellite, space-station, and orbital-data-center developers through its YC launch and website ([YC launch](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts); [website](https://www.ratlog.space/)).
+- **Problem** — Satellite operators buy dedicated launches or rideshare slots from providers such as SpaceX, and RATLOG says some available slots are 3–4 years out and can cost up to $15,000/kg, delaying the start of satellite operations ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026; [SpaceX Rideshare](https://new.spacex.com/rideshare)).
+- **Approach** — RATLOG is developing a reusable launcher with a payload target of up to 20 tonnes and an engine designed to eliminate the conventional turbopump and use 90% fewer parts ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026).
+- **Differentiation** — SpaceX already sells Falcon 9 rideshare capacity and Arianespace flies Ariane 6 constellation missions, while RATLOG proposes a reusable European alternative with a lower engine part count and a potentially wider payload fairing than Falcon 9 ([SpaceX Rideshare](https://new.spacex.com/rideshare), [Arianespace](https://www.arianespace.com/news/ariane-6-builds-on-commercial-success-at-the-international-space-summit-with-its-largest-order-intake-since-entering-service/), [Payload CEO interview](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/), Oct 2026).
+- **Business Model** — RATLOG plans to charge by payload kilogram on shared flights and has disclosed the billing unit ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026).
+- **TAM/SAM** — Worldwide commercial launch revenue reached $12.4B in 2025, up 33% year over year, and no public SAM data was found for RATLOG’s specific segment ([Satellite Industry Association and BryceTech](https://sia.org/affordability-productivity-drive-historic-satellite-industry-growth-satellite-industry-association-releases-29th-annual-state-of-the-satellite-industry-report/), May 2026).
+- **GTM / Distribution** — The YC launch post directs satellite, space station, and orbital data center operators to book a call or email the CEO ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026). Website not accessible at time of research.
 
 ## Defensibility
 
-- **Moat today:** Technical-development evidence consists of a completed engine hot-fire and a proposed proprietary engine cycle, rather than demonstrated orbital operation ([YC launch](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)).
-- **Future moat:** [Inferred]: Engine-test data, manufacturing processes, and eventual recovery-and-reflight experience could accumulate into technical know-how, but their operational advantage remains unestablished.
-- **Market structure:** [Inferred]: No structural barrier preventing incumbent launch providers from developing competing propulsion or launch services has been established publicly.
-- **Commoditization risk:** Reusability is already offered by SpaceX and pursued through fully reusable stages by Stoke, so that feature alone is shared across competitors ([SpaceX](https://www.spacex.com/mission/); [Stoke](https://www.stokespace.com/)).
+- **Moat today** — RATLOG reports a successful prototype engine hot-fire, a test of its proposed engine architecture at prototype scale ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026).
+- **Future moat** — [Inferred]: Data from repeated flights and refurbishment could reduce turnaround costs, with the first orbital flight still targeted for 2029 or 2030 ([Payload CEO interview](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/), Oct 2026).
+- **Market structure** — No structural barrier identified at this stage.
+- **Commoditization risk** — SpaceX already offers rideshare priced by payload mass, and Blue Origin has recovered a New Glenn booster after an orbital mission, so both elements of RATLOG’s commercial proposition have operating precedents ([SpaceX Rideshare](https://new.spacex.com/rideshare), [Blue Origin](https://www.blueorigin.com/news/new-glenn-launches-nasa-escapade-lands-fully-reusable-booster), Nov 2025).
 
 ## Market & Traction
 
-- **Traction signals:**
-  - Company-reported $400M in signed launch reservation agreements; payment, cancellation, and revenue-recognition terms are undisclosed ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)).
-  - First engine built and hot-fired in four months for under $30,000, according to the company ([YC launch, Oct 2026](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)).
-  - Discussions with 70+ potential launch customers ([YC company page, Oct 2026](https://www.ycombinator.com/companies/ratlog)).
-  - €30,000 German government grant received in April 2026 ([Payload, Oct 16, 2026](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/)).
-  - Coverage in Payload on October 16, 2026 ([Payload](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/)).
-  - LinkedIn displays 1,031 company followers and San Francisco headquarters ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/ratlog-space)).
-  - Zero advertised YC jobs ([YC Jobs, accessed Oct 27, 2026](https://www.ycombinator.com/companies/ratlog/jobs)).
-- **Competitors:**
-  - **SpaceX** ($85,675M net IPO proceeds in June 2026; $648M launch-services revenue in Q2 2026, not ARR): operates reusable Falcon launches, while RATLOG remains at engine development ([SEC filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm); [SpaceX](https://www.spacex.com/mission/)).
-  - **Stoke Space** ($2,300M total raised; revenue unknown): develops fully reusable stages and a planned 15-tonne Nova Block 2; its $1,000M September 2026 Series E was co-led by Point72 Ventures and Spark Capital ([Stoke, Sep 8, 2026](https://www.stokespace.com/news/stoke-space-series-e)).
-  - **Isar Aerospace** (€270M June 2026 Series D; cumulative total: No public data found; revenue unknown): Spectrum targets 1,000kg to LEO rather than RATLOG’s heavy-lift segment, with Island Green Capital and Molten Ventures among the round’s investors ([financing announcement](https://isaraerospace.com/press/isar-aerospace-secures-eur-270m-to-provide-sovereign-space-capabilities-globally); [Spectrum](https://isaraerospace.com/spectrum)).
-- **Why now:** [Inferred]: ESA’s July 2025 selection of new launcher challengers creates a concrete procurement catalyst for European launch diversification, although RATLOG was not among the selected companies ([ESA, Jul 7, 2025](https://www.esa.int/Newsroom/Press_Releases/European_Launcher_Challenge_preselected_challengers_unveiled)).
+- **Traction signals**
+  - $400M in signed launch reservations, with customer names, deposits, and cancellation terms undisclosed ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), [MoneyMakers](https://www.moneymakers.com/articles/news/ratlog-400-million-launch-reservations-customer-interest), Oct 2026).
+  - More than 10 flights described as booked on RATLOG’s website, as reported by [MoneyMakers](https://www.moneymakers.com/articles/news/ratlog-400-million-launch-reservations-customer-interest) in Oct 2026.
+  - 70+ prospective customer conversations and a first prototype hot-fire achieved in four months for under $30K ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026).
+  - €30K German government grant in Apr 2026, followed by YC backing in Fall 2026 ([Payload CEO interview](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/), [YC company profile](https://www.ycombinator.com/companies/ratlog)).
+  - Public YC launch by Oct 15, with coverage from Wissensland on Oct 12 and Payload on Oct 16 ([Schub](https://www.schub.tech/notes/ratlog-launched-on-y-combinator-400m-launch-reservations/), [Wissensland](https://www.wissensland.de/en/technology-materials/dresden-based-rocket-startup-ratlog-makes-the-leap-to-silicon-valley-3190302), [Payload](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/), 2026).
+  - 1,344 LinkedIn followers, 8 X followers, and zero YC job postings in Nov 2026 ([Company LinkedIn](https://www.linkedin.com/company/ratlog-space), [X profile mirror](https://xitter.gq/ratlog_space), [YC Jobs](https://www.ycombinator.com/companies/ratlog/jobs)).
+- **Competitors**
+  - **SpaceX** ($85.675B net IPO proceeds, Jun 2026, and $2.576B FY2025 launch services revenue) — Operates Falcon rideshare and dedicated launch services ([SpaceX 10-Q](https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm), [IPO prospectus](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001181412/590df001-1c6e-4932-b4c1-07685e3d0351.html), [SpaceX Rideshare](https://new.spacex.com/rideshare)).
+  - **Arianespace** (€200.0M net equity recapitalization in 2025 and €508.5M FY2025 revenue) — Operates Ariane 6 and has deployed Amazon Leo satellites ([Arianespace FY2025 accounts](https://www.pappers.fr/entreprise/arianespace-318516457/comptes/ARIANESPACE%20-%20Comptes%20sociaux%202025%2012-05-2026.pdf), [Arianespace mission and orders update](https://www.arianespace.com/news/ariane-6-builds-on-commercial-success-at-the-international-space-summit-with-its-largest-order-intake-since-entering-service/)).
+  - **Blue Origin** ($10B financing reported by Nov 2026, including $2B from Jeff Bezos, revenue unknown) — New Glenn has flown an orbital mission and recovered its first stage ([Rothschild & Co](https://www.rothschildandco.com/en/newsroom/insights/2026/11/ga_growth_equity_update_edition_56/), [Blue Origin](https://www.blueorigin.com/news/new-glenn-launches-nasa-escapade-lands-fully-reusable-booster)).
+  - **Rocket Lab** ($1.944B gross from its Aug 2026 at-the-market equity program through September, with Deutsche Bank and Wells Fargo as sales agents, and $601.8M FY2025 revenue) — Developing Neutron for medium-lift constellation launches ([Rocket Lab 10-Q](https://rocketlabcorp.gcs-web.com/static-files/e7184018-2d30-4ec7-afed-7ed8659bd281), [Rocket Lab 10-K](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm)).
+- **Why now** — [Inferred]: Amazon Leo’s Mar 2026 disclosure that hundreds of flight-ready satellites were awaiting launch indicates that constellation manufacturing can outpace available launch capacity ([Amazon](https://www.aboutamazon.com/news/amazon-leo/amazon-leo-plans-double-launch-rate-20-missions)).
 
 ## Founders & Team
 
-- **Charlie Weise (CEO):**
-  - Background: Aerospace engineering studies at TU Dresden, Argonaut lunar-lander research, Fraunhofer IWS space-telescope work, and co-founding propulsion project Innuendo ([TU Dresden](https://tu-dresden.de/bu/wirtschaft/die-fakultaet/news/vom-dresdner-hoersaal-ins-silicon-valley-ratlog-beim-y-combinator?set_language=en); [YC profile](https://www.ycombinator.com/founders/charlie-weise)).
-  - Twitter/X: @_charlieweise; count not retrievable ([YC profile](https://www.ycombinator.com/founders/charlie-weise)).
-  - LinkedIn: Profile found; headline not retrievable; 998 followers ([LinkedIn, Oct 2026, via search snippet](https://de.linkedin.com/in/charlieweise)).
-  - GitHub: No public repos found.
-- **Paul Kunhart (CTO):**
-  - Background: Studies aerospace engineering at TU Dresden, designed Argonaut engine nozzles, and co-founded Innuendo leading engine design ([YC profile](https://www.ycombinator.com/founders/paul-kunhart)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable; 675 followers ([LinkedIn, Oct 2026, via search snippet](https://de.linkedin.com/in/paul-kunhart-577266392)).
-  - GitHub: No public repos found.
-- **Matty Driesnack (COO):**
-  - Background: YC lists an MS in Business Administration from TU Dresden and founding-team experience at Lio ([YC profile](https://www.ycombinator.com/founders/matty-driesnack)).
-  - Twitter/X: @MattyDriesnack; count not retrievable ([YC profile](https://www.ycombinator.com/founders/matty-driesnack)).
-  - LinkedIn: Profile found; headline not retrievable; approximately 3,000 followers ([LinkedIn, Oct 2026, via search snippet](https://www.linkedin.com/in/matty-driesnack)).
-  - GitHub: No public repos found.
-- **Felix Kelm (Chief Avionics Officer):**
-  - Background: Electrical engineering at TU Dresden, telecommunications at INSA Lyon, and electronics leadership at Innuendo ([YC profile](https://www.ycombinator.com/founders/felix-kelm); [company website](https://www.ratlog.space/)).
-  - Twitter/X: No public account found.
-  - LinkedIn: Profile found; headline not retrievable; 103 followers ([LinkedIn, Oct 2026, via search snippet](https://de.linkedin.com/in/felix-kelm-666a00407)).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Charlie and Paul met through propulsion interests, while Charlie and Matty met through YETI Fellowship ([YC launch](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts); [TU Dresden](https://tu-dresden.de/bu/wirtschaft/die-fakultaet/news/vom-dresdner-hoersaal-ins-silicon-valley-ratlog-beim-y-combinator?set_language=en)).
-- **Founder-market fit:** Documented experience spans propulsion, avionics, and startup operations, with university-reported support from Thomas Kirchner and YETI Fellowship; the team was working in Silicon Valley during YC ([founder profiles](https://www.ycombinator.com/companies/ratlog); [TU Dresden, Oct 2026](https://tu-dresden.de/bu/wirtschaft/die-fakultaet/news/vom-dresdner-hoersaal-ins-silicon-valley-ratlog-beim-y-combinator?set_language=en)).
+- **Charlie Weise (CEO)** — charlie.weise@ratlog.space ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)).
+  - **Background** — TU Dresden aerospace engineering, ESA Argonaut work at its Aerospace Institute, ESA telescope research at Fraunhofer IWS, and YETI Fellowship ([TU Dresden](https://tu-dresden.de/kooperation/news/vom-hoersaal-nach-kalifornien-dresdner-startup-in-us-gruendungszentrum-aufgenommen?set_language=en), [YC founder profile](https://www.ycombinator.com/founders/charlie-weise)).
+  - **Twitter/X** — `@_charlieweise`, 310 followers ([X profile mirror](https://www.xitter.gq/_charlieweise), Nov 2026).
+  - **LinkedIn** — RATLOG affiliation, 998 followers ([LinkedIn](https://de.linkedin.com/in/charlieweise), Oct 2026, via search snippet).
+  - **GitHub** — No public repos found.
+- **Paul Kunhart (CTO)** — paul.kunhart@ratlog.space ([RATLOG team page](https://ratlog-space.com/), via search snippet).
+  - **Background** — TU Dresden aerospace engineering, ESA Argonaut engine design work, and co-founder of Innuendo ([YC founder profile](https://www.ycombinator.com/founders/paul-kunhart)).
+  - **Twitter/X** — No public account found.
+  - **LinkedIn** — RATLOG affiliation, 675 followers ([LinkedIn](https://de.linkedin.com/in/paul-kunhart-577266392), Oct 2026, via search snippet).
+  - **GitHub** — No public repos found.
+- **Felix Kelm (Chief Avionics Officer)** — felix.kelm@ratlog.space ([RATLOG team page](https://ratlog-space.com/), via search snippet).
+  - **Background** — Electrical engineering at TU Dresden, telecommunications at INSA Lyon, and former electronics lead at Innuendo ([YC founder profile](https://www.ycombinator.com/founders/felix-kelm)).
+  - **Twitter/X** — No public account found.
+  - **LinkedIn** — RATLOG affiliation, 103 followers ([LinkedIn](https://de.linkedin.com/in/felix-kelm-666a00407), Sep 2026, via search snippet).
+  - **GitHub** — No public repos found.
+- **Matty Driesnack (COO)** — matty.driesnack@ratlog.space ([RATLOG team page](https://ratlog-space.com/), via search snippet).
+  - **Background** — MS in business administration from TU Dresden and former founding-team member at Lio ([YC founder profile](https://www.ycombinator.com/founders/matty-driesnack)).
+  - **Twitter/X** — `@MattyDriesnack`, count not retrievable ([YC founder profile](https://www.ycombinator.com/founders/matty-driesnack)).
+  - **LinkedIn** — RATLOG affiliation, about 3,000 followers ([LinkedIn](https://www.linkedin.com/in/matty-driesnack), Oct 2026, via search snippet).
+  - **GitHub** — No public repos found.
+- **Co-founder relationship** — All four attended TU Dresden, and Weise and Driesnack met through the YETI Fellowship ([TU Dresden](https://tu-dresden.de/bu/wirtschaft/die-fakultaet/news/vom-dresdner-hoersaal-ins-silicon-valley-ratlog-beim-y-combinator?set_language=en), Oct 2026).
+- **Founder-market fit** — The founders bring experience in ESA propulsion research, electronics, and startup operations, with support from Thomas Kirchner, YETI Fellowship, Schub, and YC ([YC company profile](https://www.ycombinator.com/companies/ratlog), [TU Dresden](https://tu-dresden.de/kooperation/news/vom-hoersaal-nach-kalifornien-dresdner-startup-in-us-startup-hub?set_language=en), [Schub](https://www.schub.tech/notes/ratlog-launched-on-y-combinator-400m-launch-reservations/)).
 
 ## Key Risks
 
-- **Technical feasibility:** The CEO acknowledges increased bearing demands from physically rotating the engine; flight-ready propulsion and orbital launch remain planned milestones, targeting 2027 and 2029–2030 respectively ([Payload, Oct 2026](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/)).
-- **Reservation conversion:** [Inferred]: The disclosed reservation value cannot establish realized revenue without payment and performance terms, which the announcement does not disclose ([YC launch](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)).
-- **Launch-site dependency:** [Inferred]: Exploring Oman and UAE sites leaves infrastructure access and operating arrangements unresolved, potentially affecting the launch schedule ([Payload, Oct 2026](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/)).
+- **Technical scale-up** — RATLOG has reported a prototype hot-fire, with a flight-ready engine targeted for 2027, a first-stage test for 2028, and orbital launch for 2029 or 2030 ([Payload CEO interview](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/), Oct 2026).
+- **Reservation conversion** — RATLOG has disclosed the face value of reservations, while customer identities, deposits, and cancellation terms remain undisclosed ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), [MoneyMakers](https://www.moneymakers.com/articles/news/ratlog-400-million-launch-reservations-customer-interest), Oct 2026).
+- **Launch-site dependency** — RATLOG was still evaluating launch sites, including Oman and the UAE, when it disclosed its orbital launch timeline ([Payload CEO interview](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/), Oct 2026).
+- **Entity identification** — YC lists Dresden and a 2026 founding year, LinkedIn lists San Francisco as headquarters, TU Dresden dates the founding to 2025, and Finland’s trade register separately lists RatLog Oy ([YC](https://www.ycombinator.com/companies/ratlog), [Company LinkedIn](https://www.linkedin.com/company/ratlog-space), [TU Dresden](https://tu-dresden.de/kooperation/news/vom-hoersaal-nach-kalifornien-dresdner-startup-in-us-gruendungszentrum-aufgenommen?set_language=en), [Finnish Patent and Registration Office](https://www.prh.fi/material/sites/prh/attachments/kaupparekisteri/tilinpaatos/wnaeApNp0/20190107_TP-poistoprosessi_kehotuskirje.pdf)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Broader satellite-launch-services proxy: $12.1B in 2026; 12.5% CAGR through 2033 ([Grand View Research, 2026](https://www.grandviewresearch.com/industry-analysis/satellite-launch-services-market-report)) |
+| TAM | $12.4B worldwide commercial launch revenue in 2025, up 33% year over year ([Satellite Industry Association and BryceTech](https://sia.org/affordability-productivity-drive-historic-satellite-industry-growth-satellite-industry-association-releases-29th-annual-state-of-the-satellite-industry-report/), May 2026) |
 | SAM | No public data found |
-| Traction | $400M reservations, engine hot-fire, 70+ customer discussions ([YC, Oct 2026](https://www.ycombinator.com/companies/ratlog)) |
-| Revenue Signal | Proposed shared-flight pricing per kilogram; recognized revenue: No public data found ([RATLOG website](https://www.ratlog.space/)) |
-| Founders | Weise, CEO: Argonaut/Fraunhofer; Kunhart, CTO: engine nozzles/Innuendo; Driesnack, COO: Lio/business administration; Kelm, avionics: electronics/Innuendo ([YC profiles](https://www.ycombinator.com/companies/ratlog)) |
-| Competitors | SpaceX: $85,675M net IPO proceeds, $648M Q2 launch-services revenue, operational launches ([SEC, 2026](https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm)); Stoke: $2,300M raised, revenue unknown, full reuse ([Stoke, 2026](https://www.stokespace.com/news/stoke-space-series-e)); Isar: €270M latest round, revenue unknown, smaller payloads ([Isar, 2026](https://isaraerospace.com/press/isar-aerospace-secures-eur-270m-to-provide-sovereign-space-capabilities-globally)) |
-| Moat Signals | Turbopump-free engine architecture and prototype hot-fire ([YC launch, 2026](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)) |
-| Risk Factors | Bearing demands, future flight milestones, launch-site selection ([Payload, Oct 2026](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/)) |
-| Founder Reach | LinkedIn followers: Weise 998, Kunhart 675, Driesnack approximately 3,000, Kelm 103 ([Weise](https://de.linkedin.com/in/charlieweise), [Kunhart](https://de.linkedin.com/in/paul-kunhart-577266392), [Driesnack](https://www.linkedin.com/in/matty-driesnack), [Kelm](https://de.linkedin.com/in/felix-kelm-666a00407); Oct 2026, via search snippets) |
-| Distribution Signals | 1,031 LinkedIn followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/ratlog-space)) |
-| Emails | charlie.weise@ratlog.space, paul.kunhart@ratlog.space, felix.kelm@ratlog.space, matty.driesnack@ratlog.space ([RATLOG website](https://www.ratlog.space/)) |
+| Traction | $400M signed launch reservations, 70+ prospective customer conversations, first prototype hot-fire in four months for under $30K ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026) |
+| Revenue Signal | Planned per-kilogram billing for shared launches ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026) |
+| Founders | Charlie Weise (CEO), ESA lunar lander and telescope research. Paul Kunhart (CTO), ESA Argonaut and TU Dresden aerospace. Felix Kelm (avionics), TU Dresden and INSA Lyon. Matty Driesnack (COO), Lio and TU Dresden MS ([YC company profile](https://www.ycombinator.com/companies/ratlog)) |
+| Competitors | SpaceX ($85.675B net IPO, $2.576B FY2025 launch revenue, Falcon rideshare, [SEC filings](https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm), [prospectus](https://d18rn0p25nwr6d.cloudfront.net/CIK-0001181412/590df001-1c6e-4932-b4c1-07685e3d0351.html)). Arianespace (€200.0M recapitalization, €508.5M FY2025 revenue, Ariane 6, [FY2025 accounts](https://www.pappers.fr/entreprise/arianespace-318516457/comptes/ARIANESPACE%20-%20Comptes%20sociaux%202025%2012-05-2026.pdf)). Blue Origin ($10B financing, revenue unknown, New Glenn, [Rothschild & Co](https://www.rothschildandco.com/en/newsroom/insights/2026/11/ga_growth_equity_update_edition_56/), [Blue Origin](https://www.blueorigin.com/news/new-glenn-launches-nasa-escapade-lands-fully-reusable-booster)). Rocket Lab ($1.944B Aug 2026 equity program, $601.8M FY2025 revenue, medium-lift Neutron, [10-Q](https://rocketlabcorp.gcs-web.com/static-files/e7184018-2d30-4ec7-afed-7ed8659bd281), [10-K](https://www.sec.gov/Archives/edgar/data/1819994/000181999426000013/rklb-20251231.htm)) |
+| Moat Signals | Prototype hot-fire of the proposed engine architecture ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026) |
+| Risk Factors | Engine scale-up, reservation conversion, launch-site selection ([Payload](https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/), [MoneyMakers](https://www.moneymakers.com/articles/news/ratlog-400-million-launch-reservations-customer-interest), Oct 2026) |
+| Founder Reach | Weise: 310 X, 998 LinkedIn ([X profile mirror](https://www.xitter.gq/_charlieweise), [LinkedIn](https://de.linkedin.com/in/charlieweise), via search snippet). Kunhart: 675 LinkedIn ([LinkedIn](https://de.linkedin.com/in/paul-kunhart-577266392), via search snippet). Kelm: 103 LinkedIn ([LinkedIn](https://de.linkedin.com/in/felix-kelm-666a00407), via search snippet). Driesnack: about 3,000 LinkedIn ([LinkedIn](https://www.linkedin.com/in/matty-driesnack), via search snippet) |
+| Distribution Signals | Direct launch inquiries via CEO email and meeting link ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts), Oct 2026), 1,344 LinkedIn followers and 8 X followers ([Company LinkedIn](https://www.linkedin.com/company/ratlog-space), [X profile mirror](https://xitter.gq/ratlog_space), Nov 2026) |
+| Emails | charlie.weise@ratlog.space, CEO and launch inquiries ([Launch YC](https://www.ycombinator.com/launches/Vkz-ratlog-reusable-heavy-lift-rockets-powered-by-an-engine-with-90-fewer-parts)), paul.kunhart@ratlog.space, CTO, felix.kelm@ratlog.space, avionics, matty.driesnack@ratlog.space, COO ([RATLOG team page](https://ratlog-space.com/), via search snippet) |

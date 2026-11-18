@@ -1,69 +1,72 @@
 ﻿# EveryApp
 
-> Make every app open source
+> Making every SaaS open source
 
 | Field | Value |
 |-------|-------|
 | Website | https://everyapp.com |
 | YC Page | https://www.ycombinator.com/companies/everyapp |
-| Batch | Fall 2026 ([YC](https://www.ycombinator.com/companies/everyapp)) |
+| Batch | Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/everyapp)) |
 | Industry | B2B / B2B |
 | Team Size | 2 |
 | Location |  |
 | Tags | Developer Tools, Open Source, Marketing |
-| YC Partner | Charlie Warren ([YC](https://www.ycombinator.com/companies/everyapp)) |
-| Emails | support@everyapp.dev ([EveryApp](https://everyapp.com/privacy)); support@openseo.so, privacy@openseo.so ([OpenSEO](https://openseo.so/support)) |
+| YC Partner | Charlie Warren ([Y Combinator](https://www.ycombinator.com/companies/everyapp)) |
+| Emails | ben@openseo.so (Ben Senescu, [archived OpenSEO README](https://github.com/smarks26/everyapp-open-seo)), support@everyapp.dev (EveryApp support, [EveryApp Privacy](https://everyapp.com/privacy)), support@openseo.so (OpenSEO support and cancellation), legal@openseo.so (legal notices), privacy@openseo.so (privacy requests), DMCA@openseo.so (copyright notices) ([OpenSEO Terms](https://openseo.so/terms-and-conditions)) |
 
 ## The Idea
 
-- **Problem:** Developers building internal tools face hosting, authentication, database and deployment work, while businesses seeking alternatives to proprietary subscriptions must operate open-source software themselves ([Northeastern, May 2026](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/)).
-- **Approach:** EveryApp deploys applications into the customer’s Cloudflare account behind a shared Gateway that handles sign-in, permissions and API credentials, using Workers, D1, R2 and KV ([EveryApp](https://everyapp.com/)).
-- **Differentiation:** EveryApp standardizes Cloudflare-native applications and shared identity, whereas Cloudron packages applications on customer servers and Coolify deploys Docker-compatible services across SSH-connected servers ([EveryApp](https://everyapp.com/), [Cloudron](https://www.cloudron.io/), [Coolify](https://coolify.io/)).
-- **Business Model:** Self-hosted EveryApp is free, with infrastructure paid separately to Cloudflare; the announced managed service would start at $10/month and scale with usage ([documentation](https://everyapp.com/docs), [YC launch](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)).
+- **Problem:** Small teams using subscription SaaS face per-seat costs and limited customization, while self-hosting open-source or agent-built alternatives requires setting up deployment, authentication and shared access ([EveryApp Docs](https://everyapp.com/docs), [Northeastern Khoury College, May 2026](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/)).
+- **Approach:** EveryApp runs its Gateway and apps as separate Workers in the customer’s Cloudflare account, with shared sign-in, centrally brokered API keys and app actions exposed to agents through MCP ([EveryApp architecture](https://everyapp.com/docs/how-it-works), [Launch YC, Oct 2026](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)).
+- **Differentiation:** EveryApp pairs ready-to-install business apps with an agent-oriented Cloudflare deployment stack, compared with Cloudron’s Ubuntu-based app catalog and the visual internal-tool builders from Appsmith and Retool ([EveryApp Docs](https://everyapp.com/docs), [Cloudron](https://docs.cloudron.io/installation/), [Appsmith](https://www.appsmith.com/), [Retool](https://retool.com/)).
+- **Business Model:** Self-hosted EveryApp is free, customers pay Cloudflare and connected providers directly, and the company announced a managed service planned to start at $10/month and scale with usage ([EveryApp Pricing](https://everyapp.com/pricing), [Launch YC, Oct 2026](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Distribution uses public GitHub repositories, setup prompts for coding agents, Discord support and promotion from the existing OpenSEO website ([EveryApp](https://everyapp.com/), [OpenSEO](https://openseo.so/)).
+- **GTM / Distribution:** EveryApp distributes through GitHub, an agent-assisted self-install flow and Discord, and features OpenSEO as an entry point from its homepage ([EveryApp](https://everyapp.com/), [GitHub](https://github.com/every-app/every-app)).
 
 ## Defensibility
 
-- **Moat today:** [Inferred]: Gateway permissions, application databases and configured integrations could create migration work, but public evidence does not establish measured switching costs ([documentation](https://everyapp.com/docs)).
-- **Future moat:** [Inferred]: A growing catalog of compatible apps and shared integrations could attract developers and users, but public sources do not establish ecosystem network effects ([app catalog](https://everyapp.com/)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, because the MIT license permits commercial reuse and competing hosting platforms already exist ([license](https://github.com/every-app/every-app/blob/main/LICENSE), [Coolify](https://coolify.io/)).
-- **Commoditization risk:** Other hosting providers can legally copy, modify and sell the platform under its MIT license, while Coolify already offers deployment management through MCP for AI agents ([license](https://github.com/every-app/every-app/blob/main/LICENSE), [Coolify](https://coolify.io/)).
+- **Moat today:** No defensibility signals found in public sources.
+- **Future moat:** [Inferred]: A catalog of third-party apps could attract more users and contributors, but the public signal is the ability to publish installable apps through GitHub releases ([EveryApp app publishing docs](https://everyapp.com/docs/create-an-app)).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** The MIT license allows competing hosts to reuse the Gateway code, and Cloudflare already offers deployment infrastructure for coding agents ([EveryApp GitHub](https://github.com/every-app/every-app), [Cloudflare, Apr 2026](https://blog.cloudflare.com/agents-stripe-projects/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Current EveryApp platform: 351 GitHub stars and 16 forks ([GitHub, accessed Oct 27, 2026](https://github.com/every-app/every-app)).
-  - Current platform launch: October 26, 2026, with 128,561 launch-post views recorded the following day ([Doomers tracker, Oct 27, 2026](https://doomers.ai/launches/everyapp)).
-  - Product history: the founder describes an initial January Gateway launch, subsequently building standalone OpenSEO, and returning to the broader platform launch; OpenSEO remains a separately identified application ([YC launch](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)).
-  - Earlier standalone product, OpenSEO: 25.3K GitHub stars ([GitHub, accessed Oct 27, 2026](https://github.com/every-app/open-seo)).
-  - OpenSEO: company claims “3,000+ entrepreneurs,” without identifying how many pay ([OpenSEO, accessed Oct 27, 2026](https://openseo.so/)).
-  - OpenSEO: Product Hunt #1 daily on July 19, #3 monthly for July, and #2 daily on October 8, 2026; rating 5.0 from two reviews ([Product Hunt, accessed Oct 27, 2026](https://www.producthunt.com/products/openseo?launch=openseo-2)).
-  - OpenSEO: 558 LinkedIn followers ([LinkedIn, accessed Oct 27, 2026](https://www.linkedin.com/company/openseo-so/)).
-  - Company and founder coverage: Northeastern’s Khoury College published a profile on May 7, 2026 ([Northeastern](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/)).
-  - Hiring: zero jobs posted on YC ([YC Jobs, accessed Oct 27, 2026](https://www.ycombinator.com/companies/everyapp/jobs)).
+  - EveryApp launched a Gateway-only version in January 2026, then built OpenSEO as a standalone product and relaunched the platform with installable apps on October 26, 2026 ([Launch YC](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source), [Reveneau, Oct 2026](https://reveneau.com/ainews/everyapp-yc-fall-2026-open-source-saas-cloudflare-managed-platform)).
+  - EveryApp platform repository reached 906 GitHub stars, and the organization had 308 GitHub followers ([GitHub, Nov 17, 2026](https://github.com/every-app)).
+  - EveryApp’s launch post received 203,309 X views as of November 9 ([Doomers AI, Nov 2026](https://doomers.ai/launches/everyapp)).
+  - EveryApp had 0 open roles listed on YC ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/everyapp/jobs)).
+  - EveryApp’s relaunch was covered by [Reveneau, Oct 26, 2026](https://reveneau.com/ainews/everyapp-yc-fall-2026-open-source-saas-cloudflare-managed-platform) and [Fondo, Oct 30, 2026](https://fondo.com/blog/everyapp-puts-agent-built-business-tools-inside-your-own-cloudflare-account).
+  - Standalone OpenSEO brought in hundreds of paying customers following its July launch, according to Senescu ([LinkedIn, Aug 2026](https://www.linkedin.com/posts/bensenescu_how-to-win-on-product-hunt-in-2026-from-activity-7495876088267427841-QMEy)).
+  - Standalone OpenSEO reached 28,098 GitHub stars ([GitHub, Nov 17, 2026](https://github.com/every-app)).
+  - Standalone OpenSEO ranked #1 of the day on July 19, #3 for July and #2 of the day on October 8 ([Product Hunt, 2026](https://www.producthunt.com/products/openseo)).
+  - Standalone OpenSEO had 627 LinkedIn followers and approximately 3,200 X followers ([LinkedIn](https://www.linkedin.com/company/openseo-so/), [public X mirror](https://www.xitter.cf/openseo), Nov 2026).
+  - Customer testimonial, OpenSEO: Importivity reported approximately 7× organic clicks in six months after building a content workflow on an OpenSEO fork ([OpenSEO case study, Oct 2026](https://openseo.so/blogs/replace-seo-agency-with-ai)).
+  - Dealroom lists $125,000 in early funding under OpenSEO ([Dealroom, accessed Nov 2026](https://dealroom.co/just-founded/openseo/)).
 - **Competitors:**
-  - **Cloudron** (bootstrapped; amount raised: No public data found; revenue unknown): runs packaged apps with updates, backups and centralized users on customer servers ([company funding description](https://www.cloudron.io/opensource.html), [product](https://www.cloudron.io/)).
-  - **Coolify** (company states no investors; amount raised: No public data found; revenue unknown): supports Docker-compatible apps across customer servers rather than requiring EveryApp’s Cloudflare stack ([Coolify](https://coolify.io/)).
-  - **Appsmith** ($51.5M raised, [CB Insights via search snippet](https://www.cbinsights.com/company/appsmith/financials); Indian entity FY25 revenue ₹33.9 crore, [Inc42](https://inc42.com/company/appsmith/)): adjacent internal-app builder rather than an app-hosting catalog, with a latest disclosed $41M Series B led by Insight Partners in June 2022 ([funding announcement](https://www.appsmith.com/blog/series-b-funding), [product](https://www.appsmith.com/)).
-- **Why now:** [Inferred]: Improved coding agents during 2026 reduce application-building work, shifting attention toward deployment and access management; Senescu describes building OpenSEO after coding agents improved ([founder interview, Aug 2026](https://the-unscripted-seo-interview-podcast.castos.com/episodes/ben-senescu-on-open-source-seo-and-the-99-ceiling)).
+  - Cloudron (funding unknown, revenue unknown): Ubuntu-based app catalog with managed updates, backups and shared sign-in ([Cloudron](https://www.cloudron.io/), [installation docs](https://docs.cloudron.io/installation/)).
+  - Appsmith ($51.5M raised, revenue unknown): Open-source low-code builder for internal apps, with a $41M Series B led by Insight Partners in June 2022 ([Appsmith announcement](https://www.businesswire.com/news/home/20220622005219/en/Appsmith-Raises-$41-Million-to-Scale-Open-Source-Platform-that-Speeds-Critical-Internal-App-Development)).
+  - Budibase ($9.25M raised, revenue unknown): Self-hosted builder for operations apps, agents and automations, with a $7M Seed II led by SignalFire in November 2022 ([Budibase funding](https://budibase.com/blog/updates/budibase-raises-7m-to-help-every-company-on-the-planet-build-their-own-tools/), [Budibase 4.0](https://budibase.com/blog/budibase-4-0/)).
+  - Retool ($141M raised, $120M estimated ARR in October 2025): Enterprise internal-app builder with AI generation and self-hosting, with a $45M Series C2 in July 2022 led by Sequoia according to Sacra ([Retool](https://retool.com/), [Retool funding announcement](https://retool.com/newsroom/series-c2), [Sacra](https://sacra.com/c/retool/)).
+- **Why now:** [Inferred]: Cloudflare’s April 2026 rollout of agent-driven account creation and deployment reduces the manual steps between generating an app and running it for a team ([Cloudflare, Apr 2026](https://blog.cloudflare.com/agents-stripe-projects/)).
 
 ## Founders & Team
 
 - **Ben Senescu (Founder/CEO):**
-  - Background: Northeastern computer science graduate, class of 2021; previously senior software engineer at Klaviyo, worked at Patrol, and co-founded musician-subscription platform artst ([Northeastern](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/), [YC profile](https://www.ycombinator.com/founders/ben-senescu)).
-  - Twitter/X: @bensenescu, approximately 5K followers according to the launch tracker; direct X count not retrievable ([YC profile](https://www.ycombinator.com/founders/ben-senescu), [Doomers, Oct 27, 2026](https://doomers.ai/launches/everyapp)).
-  - LinkedIn: visible affiliation “OpenSEO”; headline not retrievable, with 3K followers shown in the indexed profile ([LinkedIn via search snippet, accessed Oct 27, 2026](https://www.linkedin.com/in/bensenescu)).
-  - GitHub: @bensenescu, 228 followers; associated project OpenSEO has 25.3K stars ([profile](https://github.com/bensenescu), [repository, accessed Oct 27, 2026](https://github.com/every-app/open-seo)).
+  - Background: Northeastern computer science graduate, class of 2021, artst co-founder, former Klaviyo senior software engineer and Patrol AI founding engineer building compliance agents, with `ben@openseo.so` published as his direct business email ([Northeastern Khoury College](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/), [YC founder profile](https://www.ycombinator.com/founders/ben-senescu), [archived OpenSEO README](https://github.com/smarks26/everyapp-open-seo)).
+  - Twitter/X: @bensenescu, approximately 5,300 followers ([YC founder profile](https://www.ycombinator.com/founders/ben-senescu), [public X mirror, Nov 2026](https://www.xitter.cf/bensenescu)).
+  - LinkedIn: “OpenSEO” ([LinkedIn profile, via search snippet](https://www.linkedin.com/in/bensenescu)), with 3,557 followers on his [public LinkedIn post, Nov 2026 snapshot](https://www.linkedin.com/posts/bensenescu_how-to-win-on-product-hunt-in-2026-from-activity-7495876088267427841-QMEy).
+  - GitHub: @bensenescu, with 199 stars for his personal repo Downy and 28,098 stars for the organization-owned OpenSEO project ([Downy](https://github.com/bensenescu/downy), [EveryApp GitHub, Nov 2026](https://github.com/every-app)).
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** Senescu’s prior software-engineering work and construction of OpenSEO on EveryApp document experience building the applications and infrastructure the platform targets; YC publicly identifies him as its founder ([Northeastern](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/), [YC](https://www.ycombinator.com/companies/everyapp)).
+- **Founder-market fit:** Senescu built compliance agents at Patrol and used EveryApp to prototype and deploy OpenSEO, and YC lists Charlie Warren as primary partner ([Launch YC](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source), [Northeastern Khoury College](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/), [YC directory](https://www.ycombinator.com/companies/everyapp)).
 
 ## Key Risks
 
-- **Cloudflare dependency:** [Inferred]: Requiring Cloudflare primitives limits compatibility with existing software and makes migration to another runtime an engineering project ([architecture](https://everyapp.com/)).
-- **Upgrade compatibility:** EveryApp explicitly declines to promise backward compatibility, although deployments preserve data and create database restore points ([early-adopter documentation](https://everyapp.com/docs/early-adopters)).
-- **Commercial replication:** [Inferred]: MIT licensing permits competing managed offerings using the same code, limiting exclusivity over software functionality ([license](https://github.com/every-app/every-app/blob/main/LICENSE)).
-- **Name ambiguity:** An unrelated EveryApp digital agency uses everyapp.shop and identifies Nicolò Cauli as founder; its products and metrics should be excluded ([agency website](https://everyapp.shop/)).
+- **Cloudflare dependency:** [Inferred]: Changes to Workers pricing or Cloudflare’s storage primitives could affect deployment costs or require migration work, while EveryApp offers spending caps for connected services ([EveryApp architecture](https://everyapp.com/docs/how-it-works), [EveryApp Pricing](https://everyapp.com/pricing)).
+- **Self-hosting friction:** [Inferred]: Requiring a paid Cloudflare account, a configured domain and service credentials can interrupt setup, which EveryApp addresses with guided installation and a proposed managed tier ([EveryApp Quick Start](https://everyapp.com/docs/quickstart), [Launch YC](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)).
+- **Standalone adoption transfer:** [Inferred]: OpenSEO users can stay on its hosted service or deploy it independently via Docker or Cloudflare, while EveryApp offers shared sign-in and team access as reasons to install it through the Gateway ([OpenSEO self-hosting docs](https://openseo.so/docs/self-hosting)).
+- **Name collision:** [Inferred]: The separate EveryApp at everyapp.pro can cause misattribution of app listings and downloads, while YC links directly to everyapp.com ([everyapp.pro](https://everyapp.pro/download), [YC directory](https://www.ycombinator.com/companies/everyapp)).
 
 ## Key Facts
 
@@ -71,12 +74,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | EveryApp: 351 stars ([GitHub, Oct 27, 2026](https://github.com/every-app/every-app)); earlier standalone OpenSEO: 25.3K stars ([GitHub, Oct 27, 2026](https://github.com/every-app/open-seo)), company claims 3,000+ entrepreneurs ([OpenSEO](https://openseo.so/)). |
-| Revenue Signal | EveryApp self-hosted: free ([docs](https://everyapp.com/docs)); managed service announced from $10/month ([YC launch](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)); OpenSEO Base/Pro/Agency: $10/$30/$200 monthly, including $10/$36/$240 usage respectively, with additional usage charged separately ([pricing, Oct 27, 2026](https://openseo.so/pricing)). |
-| Founders | Ben Senescu, Founder/CEO: Northeastern CS graduate; former Klaviyo senior engineer; OpenSEO creator ([YC profile](https://www.ycombinator.com/founders/ben-senescu), [Northeastern](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/)). |
-| Competitors | Cloudron: bootstrapped, revenue unknown, server-hosted app catalog ([Cloudron](https://www.cloudron.io/opensource.html)); Coolify: no investors, revenue unknown, deployment across customer servers ([Coolify](https://coolify.io/)); Appsmith: $51.5M raised ([CB Insights via search snippet](https://www.cbinsights.com/company/appsmith/financials)), Indian entity FY25 revenue ₹33.9 crore ([Inc42](https://inc42.com/company/appsmith/)), internal-app builder ([Appsmith](https://www.appsmith.com/)). |
+| Traction | EveryApp: 906 GitHub stars ([GitHub, Nov 2026](https://github.com/every-app)), 203,309 launch-post views ([Doomers AI, Nov 2026](https://doomers.ai/launches/everyapp)). Standalone OpenSEO: hundreds of paying customers, founder-reported ([LinkedIn, Aug 2026](https://www.linkedin.com/posts/bensenescu_how-to-win-on-product-hunt-in-2026-from-activity-7495876088267427841-QMEy)), 28,098 GitHub stars ([GitHub, Nov 2026](https://github.com/every-app)). |
+| Revenue Signal | EveryApp self-hosting is free ([EveryApp Pricing](https://everyapp.com/pricing)), managed service announced from $10/month ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)). Standalone OpenSEO hosted tiers are $10, $30 and $100/month plus extra usage ([OpenSEO Pricing, Nov 2026](https://openseo.so/pricing)). |
+| Founders | Ben Senescu (Founder/CEO), Northeastern computer science, former Klaviyo senior engineer and Patrol AI founding engineer ([Northeastern Khoury College](https://www.khoury.northeastern.edu/khoury-alum-ben-senescu-wants-to-make-open-source-software-you-can-actually-use/), [Launch YC](https://www.ycombinator.com/launches/WKA-everyapp-make-every-app-open-source)). |
+| Competitors | Cloudron (funding unknown, revenue unknown, Ubuntu app catalog) ([Cloudron](https://www.cloudron.io/)), Appsmith ($51.5M raised, revenue unknown, low-code app builder) ([Appsmith](https://www.businesswire.com/news/home/20220622005219/en/Appsmith-Raises-$41-Million-to-Scale-Open-Source-Platform-that-Speeds-Critical-Internal-App-Development)), Budibase ($9.25M raised, revenue unknown, operations automations) ([Budibase](https://budibase.com/blog/updates/budibase-raises-7m-to-help-every-company-on-the-planet-build-their-own-tools/)), Retool ($141M raised, $120M estimated ARR in Oct 2025, enterprise internal-app builder) ([Retool](https://retool.com/), [Sacra](https://sacra.com/c/retool/)). |
 | Moat Signals | No public data found |
-| Risk Factors | Cloudflare-specific runtime ([EveryApp](https://everyapp.com/)), backward compatibility not promised ([documentation](https://everyapp.com/docs/early-adopters)), commercially reusable MIT code ([license](https://github.com/every-app/every-app/blob/main/LICENSE)). |
-| Founder Reach | Ben Senescu: X approximately 5K ([Doomers, Oct 27, 2026](https://doomers.ai/launches/everyapp)); LinkedIn 3K ([LinkedIn via search snippet](https://www.linkedin.com/in/bensenescu)); GitHub 228 followers ([GitHub, Oct 27, 2026](https://github.com/bensenescu)). |
-| Distribution Signals | EveryApp launch: 128,561 X views ([Doomers, Oct 27, 2026](https://doomers.ai/launches/everyapp)); OpenSEO: Product Hunt #1 daily, July 19, and #2 daily, October 8, 2026 ([Product Hunt](https://www.producthunt.com/products/openseo?launch=openseo-2)); Discord linked from [EveryApp](https://everyapp.com/). |
-| Emails | support@everyapp.dev ([EveryApp privacy](https://everyapp.com/privacy)); support@openseo.so, privacy@openseo.so ([OpenSEO support](https://openseo.so/support)). |
+| Risk Factors | Cloudflare dependency and setup requirements ([EveryApp Quick Start](https://everyapp.com/docs/quickstart)), standalone OpenSEO deployment options ([OpenSEO Docs](https://openseo.so/docs/self-hosting)). |
+| Founder Reach | Ben Senescu, approximately 5,300 X followers, 3,557 LinkedIn followers, 199 stars on Downy ([public X mirror](https://www.xitter.cf/bensenescu), [LinkedIn](https://www.linkedin.com/posts/bensenescu_how-to-win-on-product-hunt-in-2026-from-activity-7495876088267427841-QMEy), [GitHub](https://github.com/bensenescu/downy), Nov 2026). |
+| Distribution Signals | EveryApp: GitHub and Discord ([EveryApp GitHub](https://github.com/every-app/every-app)). Standalone OpenSEO: Product Hunt #1 of day and #3 of month in July, #2 of day in October ([Product Hunt, 2026](https://www.producthunt.com/products/openseo)). |
+| Emails | ben@openseo.so (Ben Senescu, [archived OpenSEO README](https://github.com/smarks26/everyapp-open-seo)), support@everyapp.dev (EveryApp support, [EveryApp Privacy](https://everyapp.com/privacy)), support@openseo.so (OpenSEO support and cancellation), legal@openseo.so (legal notices), privacy@openseo.so (privacy requests), DMCA@openseo.so (copyright notices) ([OpenSEO Terms](https://openseo.so/terms-and-conditions)). |

@@ -1,81 +1,58 @@
 {
   "slug": "opencrawl",
   "name": "OpenCrawl",
-  "oneLiner": "Search infrastructure, built for your agents.",
+  "oneLiner": "Multiplayer for your coding agents.",
   "metadata": {
     "website": "https://getopencrawl.com",
     "yc_page": "https://www.ycombinator.com/companies/opencrawl",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/opencrawl))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/opencrawl))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Data Engineering, Search, AI",
-    "yc_partner": "Andrew Miklas ([YC](https://www.ycombinator.com/companies/opencrawl))",
-    "emails": "patel.shalin@outlook.com — founder’s published contact ([founder résumé](https://www.shalin-patel.com/Shalin-Patel-Resume.pdf))"
+    "tags": "Developer Tools, Collaboration, Open Source, AI",
+    "yc_partner": "Andrew Miklas ([YC company profile](https://www.ycombinator.com/companies/opencrawl))",
+    "emails": "patel.shalin@outlook.com, Shalin Patel’s published professional contact ([founder résumé](https://www.shalin-patel.com/Shalin-Patel-Resume.pdf)), founders@getopencrawl.com, shared setup and self-hosting inbox ([Launch YC](https://www.ycombinator.com/launches/XFb-opencrawl-multiplayer-for-your-coding-agents))"
   },
   "tags": [
-    "Data Engineering",
-    "Search",
+    "Developer Tools",
+    "Collaboration",
+    "Open Source",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:05:25.625Z",
+  "memoGeneratedAt": "2026-11-18T00:08:45.221Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
+    "agi": {
       "score": 35,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 34,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 35,
-    "NR": 49,
-    "PG": 34,
-    "PT": 31,
-    "SL": 32,
-    "VK": 25
+    "AGI": 35,
+    "HG": 36,
+    "EXIT": 33
   },
-  "consolidatedAvg": 34.57,
-  "consolidatedRank": 168,
+  "consolidatedAvg": 34.67,
+  "consolidatedRank": 216,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 20,
-    "tractionReason": "Search offering launched; prior OnePatch telemetry excluded"
+    "tractionRank": 175,
+    "tractionScore": 31,
+    "tractionReason": "CTO reports onboarding, 57 repository stars"
   },
   "paths": {
     "memo": "fall2026/memos/opencrawl.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/opencrawl.md",
-      "elad-gil": "fall2026/evals/elad-gil/opencrawl.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/opencrawl.md",
-      "paul-graham": "fall2026/evals/paul-graham/opencrawl.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/opencrawl.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/opencrawl.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/opencrawl.md"
+      "agi": "fall2026/evals/agi/opencrawl.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/opencrawl.md",
+      "exit": "fall2026/evals/exit/opencrawl.md"
     }
   }
 }

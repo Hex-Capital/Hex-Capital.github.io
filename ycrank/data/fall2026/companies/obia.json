@@ -11,7 +11,7 @@
     "location": "San Francisco, CA, USA",
     "tags": "Real Estate, B2B, Proptech",
     "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/obia))",
-    "emails": "admin@obia.io ([Obia](https://obia.io/news/corenet-global-summit-2026))"
+    "emails": "sam@obia.io, Samuel Cho’s address for brokerage inquiries ([Cho’s X announcement, mirrored](https://www.teapawt.org/SamuelMCho/status/2110842930546270399), Oct 2026), admin@obia.io, shared team, privacy, and SMS support inbox ([Obia announcement](https://obia.io/news/corenet-global-summit-2026), [Obia Privacy Policy](https://obia.io/privacy-policy), Oct 2026)"
   },
   "tags": [
     "Real Estate",
@@ -19,63 +19,39 @@
     "Proptech"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T03:54:45.700Z",
+  "memoGeneratedAt": "2026-11-17T23:36:24.117Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 30,
+    "agi": {
+      "score": 35,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 31,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 37,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 31,
-    "NR": 33,
-    "PG": 31,
-    "PT": 28,
-    "SL": 28,
-    "VK": 25
+    "AGI": 35,
+    "HG": 38,
+    "EXIT": 37
   },
-  "consolidatedAvg": 29.43,
-  "consolidatedRank": 228,
+  "consolidatedAvg": 36.67,
+  "consolidatedRank": 151,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 41,
-    "tractionReason": "Logistics-operator research engagement; no completed brokerage transaction disclosed"
+    "tractionRank": 47,
+    "tractionScore": 62,
+    "tractionReason": "$1.05M in closed lease value under landlord-paid brokerage model"
   },
   "paths": {
     "memo": "fall2026/memos/obia.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/obia.md",
-      "elad-gil": "fall2026/evals/elad-gil/obia.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/obia.md",
-      "paul-graham": "fall2026/evals/paul-graham/obia.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/obia.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/obia.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/obia.md"
+      "agi": "fall2026/evals/agi/obia.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/obia.md",
+      "exit": "fall2026/evals/exit/obia.md"
     }
   }
 }

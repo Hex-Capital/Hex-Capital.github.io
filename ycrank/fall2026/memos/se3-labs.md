@@ -12,54 +12,68 @@
 | Location | San Francisco, CA, USA |
 | Tags | Robotic Process Automation, Enterprise, AI |
 | YC Partner | David Lieb ([Y Combinator](https://www.ycombinator.com/companies/se3-labs)) |
-| Emails | conan@se3labs.ai — general, privacy, and contractual contact; founder ownership unverified ([SE3 Terms](https://se3labs.ai/terms/)) |
+| Emails | conan@se3labs.ai — Conan Yu, company inquiries and privacy contact ([SE3 Labs](https://se3labs.ai/), [Privacy Policy](https://se3labs.ai/privacy/)) |
 
 ## The Idea
 
-- **Problem:** [Inferred]: Robot-policy developers need to identify failures under deployment conditions that simulation and internal laboratory tests may miss, requiring access to physical hardware and repeatable tasks ([SE3](https://se3labs.ai/)).
-- **Approach:** SE3 runs customer policies on robot workcells, captures operator interventions following failures, and packages synchronized, annotated trajectories for subsequent training ([SE3](https://se3labs.ai/)).
-- **Differentiation:** SE3 provides physical evaluation and partner-site tasks, while Bifrost Manifold evaluates in simulation and Poke & Wiggle offers remote evaluation on Franka FR3 Duo stations ([SE3](https://se3labs.ai/), [Bifrost](https://www.bifrost.ai/manifold/), [Poke & Wiggle](https://pokeandwiggle.com/products)).
-- **Business Model:** Project scope, deliverables, and fees are specified in individual orders or statements of work; public prices and billing units: No public data found ([SE3 Terms, September 2026](https://se3labs.ai/terms/)).
+- **Problem:** Robot model teams testing factory and hotel workflows face a physical bottleneck after simulation or in-house lab tests because each trial requires hardware, task setup, a way to verify success, and a reset ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), Nov 2026).
+- **Approach:** SE3 runs customer policies on standardized robot workcells, captures human interventions when a policy fails or reaches a safety boundary, and packages the recordings as annotated training data for the next model update ([SE3 Labs](https://se3labs.ai/), Nov 2026).
+- **Differentiation:** SE3 emphasizes partner-site workcells and correction recordings, while Enact retrains customer policies in-house, Asim emphasizes standardized safety stress tests, Lightwheel offers simulation-based evaluation, and Config pairs bimanual training data with its own foundation model ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), [Enact on YC](https://www.ycombinator.com/companies/enact), [Asim](https://www.asim-group.com/), [Lightwheel](https://www.lightwheel.ai/robofinals), [Config](https://config.inc/)).
+- **Business Model:** SE3 sets project fees, hardware, test scope, and deliverables in customer orders or statements of work ([SE3 Labs Terms of Service](https://se3labs.ai/terms/), Sep 2026).
 - **TAM/SAM:** No public TAM/SAM data found for this specific segment.
-- **GTM / Distribution:** Public research, Python documentation, task specifications, and an inquiry form provide entry points for robot-model developers and industrial partners ([SE3 Documentation](https://docs.se3labs.ai/), [SE3](https://se3labs.ai/)).
+- **GTM / Distribution:** SE3 solicits robot model and simulation teams through its YC launch and website, offers an initial evaluation with one policy and one task, and recruits factories and hotels to supply workflows and site access ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), [SE3 Labs](https://se3labs.ai/), Nov 2026).
 
 ## Defensibility
 
-- **Moat today:** SE3 has published physical task implementations, scoring sheets, and downloadable recordings from 100 Dream-model evaluation episodes, documenting an operating evaluation system ([SE3 Research, October 2026](https://se3labs.ai/blog/dream-eval-1/)).
-- **Future moat:** [Inferred]: Repeated evaluations could accumulate task-specific failure histories and operating knowledge, but customer-data permissions constrain reuse and no exclusive dataset advantage is established publicly ([SE3 Privacy Policy](https://se3labs.ai/privacy/)).
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given competing commercial robot farms and academic distributed-evaluation infrastructure ([Poke & Wiggle](https://pokeandwiggle.com/products), [RoboArena](https://arxiv.org/abs/2506.18123)).
-- **Commoditization risk:** [Inferred]: Robotics laboratories could implement overlapping evaluation services using their own hardware and published evaluation methods, although operating physical stations remains necessary ([RoboArena](https://arxiv.org/abs/2506.18123)).
+- **Moat today:** SE3 reports access to U.S. automotive, processing, and hospitality sites and operates standardized workcells for comparing policy versions ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), [SE3 Labs](https://se3labs.ai/), Nov 2026).
+- **Future moat:** [Inferred]: Repeated evaluations could build a library of site-specific failure cases, with reuse dependent on contract rights and customer authorization for model training ([SE3 Labs Terms of Service](https://se3labs.ai/terms/), Sep 2026).
+- **Market structure:** No structural barrier identified at this stage.
+- **Commoditization risk:** The public RoboDojo project provides tools for teams to run their own simulation and physical benchmarks, while Enact already offers physical rollouts and failure-targeted recovery data ([RoboDojo](https://robodojo-benchmark.com/), Jul 2026, [Enact on YC](https://www.ycombinator.com/companies/enact)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Published 100 real-robot Dream evaluation episodes across 10 tasks, including recordings and telemetry ([SE3 Research, October 30, 2026](https://se3labs.ai/blog/dream-eval-1/)).
-  - Published a 40-episode comparison reporting 6 completed placements with code-as-policy and 18 with agentic control, from 20 attempts per approach ([SE3 Research, September 20, 2026](https://se3labs.ai/blog/agentic-vs-code-as-policy/)).
-  - Displays NVIDIA Inception membership on its website ([SE3, accessed November 9, 2026](https://se3labs.ai/)).
-  - Lists 0 open jobs on its YC profile ([Y Combinator, accessed November 9, 2026](https://www.ycombinator.com/companies/se3-labs)).
+  - Y Combinator backing, with a $125K September seed entry reported by Dealroom and total financing unverified ([Y Combinator](https://www.ycombinator.com/companies/se3-labs), [Dealroom](https://app.dealroom.co/companies/se3_labs_1), Nov 2026).
+  - U.S. site network covering three types of environments across industrial, processing, and hospitality operations, with physical training sandboxes at partner sites described as the next step ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), Nov 2026).
+  - 500 teleoperation episodes across 10 benchmark tasks, with 1,596 dataset downloads in the preceding month as displayed by Hugging Face ([SE3 Labs RoboDojo–Real dataset](https://huggingface.co/datasets/se3labs/real-robodojo-teleop-500), Nov 17, 2026).
+  - 27,075 views on Paige Xu’s Nov 9 launch post as of Nov 15 ([Doomers AI](https://doomers.ai/launches/se3-labs), Nov 2026).
+  - NVIDIA Inception membership displayed on the company site ([SE3 Labs](https://se3labs.ai/), Nov 2026).
+  - Coverage in Pub-AI’s *Radar Weekly* ([Pub-AI](https://www.pub-ai.com/news/radar-weekly-2026-11-13/), Nov 13, 2026).
+  - 0 active YC job postings ([YC Jobs](https://www.ycombinator.com/companies/se3-labs/jobs), Nov 17, 2026).
+  - Company X handle @se3labs and LinkedIn page identified, with follower counts not retrievable ([Dealroom](https://app.dealroom.co/companies/se3_labs_1), Nov 2026).
 - **Competitors:**
-  - **Bifrost ($13.7M raised, revenue unknown):** Manifold supplies simulation-based policy evaluation and failure analysis; its latest identified round was an $8M Series A in October 2024 led by Carbide Ventures ([Korea JoongAng Daily, May 2026](https://www.koreajoongangdaily.com/business/bifrost-pitches-3-d-ai-training-platform-to-korean-manufacturers/12611683), [funding announcement](https://www.vcaonline.com/news/2024103106/bifrost-raises-8m-to-accelerate-ai-s-ability-to-solve-problems-in-the-physical-world/), [Manifold](https://www.bifrost.ai/manifold/)).
-  - **Poke & Wiggle (total raised: No public data found; revenue unknown):** Offers standardized physical benchmarks and targeted data collection on FR3 Duo stations; Crunchbase lists a Fly Ventures-led pre-seed round, with amount and date unavailable publicly ([Poke & Wiggle](https://pokeandwiggle.com/products), [Crunchbase](https://www.crunchbase.com/organization/poke-wiggle)).
-  - **BodenAI (total raised: No public data found; revenue unknown):** Provides real-world RL datasets and scenario infrastructure; Preqin reports A+ and A++ rounds in May 2026, but publicly accessible round amounts and leads: No public data found ([BodenAI](https://www.boden.ai/post/joint-open-source-release-1-000-hours-of-real-world-robot-reinforcement-learning-data-rw-rl-dataset), [Preqin](https://www.preqin.com/data/profile/asset/boden-ai/511371)).
-- **Why now:** [Inferred]: API-accessible robot foundation models permit external physical testing without possession of model weights, demonstrated by SE3’s October 2026 evaluation of Dream through its closed-source API ([SE3 Research](https://se3labs.ai/blog/dream-eval-1/)).
+  - Enact (YC-backed, funding amount unverified, revenue unknown): Recreates repeatable failure states and fine-tunes customer policies in-house ([Enact on YC](https://www.ycombinator.com/companies/enact), 2026).
+  - Asim (Dealroom lists $125K raised, CB Insights lists a $500K September convertible note via search snippet, revenue unknown): Stress-tests robots under changing physical conditions to assess capabilities and safety limits ([Dealroom](https://dealroom.co/just-founded/asim/), [CB Insights](https://www.cbinsights.com/company/asim/financials), [Asim on YC](https://www.ycombinator.com/companies/asim-group), 2026).
+  - Lightwheel (at least RMB 2B across reported 2026 rounds, revenue unknown): Offers RoboFinals simulation evaluation and raised RMB 1B in June strategic financing with investors including Zhongguancun Science City Fund, with a lead investor undisclosed ([Lightwheel](https://www.lightwheel.ai/robofinals), [Gasgoo](https://autonews.gasgoo.com/articles/news/seeds-lightwheel-secures-another-1-billion-yuan-in-strategic-financing-2069405877394952193), Jun 2026).
+  - Config ($35M raised, revenue unknown): Supplies bimanual training data and adapts its own foundation model, with a $27M seed announced in May led by Samsung Venture Investment ([Config](https://config.inc/), [TechCrunch](https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/), May 2026).
+- **Why now:** [Inferred]: Physical Intelligence’s November 2025 demonstration of a generalist robot policy learning from real-world outcomes and human corrections gives model teams a method for using the rollouts and interventions SE3 collects ([Physical Intelligence](https://www.pi.website/blog/pistar06), Nov 2025, [SE3 Labs](https://se3labs.ai/)).
 
 ## Founders & Team
 
-- **Founder identities and roles:** No public data found; the accessible YC page contains an empty Founders section ([Y Combinator, November 2026](https://www.ycombinator.com/companies/se3-labs)).
-- **Paige Xu (publicly associated builder; SE3 founder status and title unverified):**
-  - Background: RootData reports Dartmouth economics and environmental-science studies, prior OpenMind COO work, OKX investment management, and McKinsey experience; her social profile identifies work at SE3, while her current SE3 business email: No public data found ([RootData](https://www.rootdata.com/member/Paige%20Xu?k=MjExNDM%3D), [profile mirror, via search snippet](https://ssstwitterx.app/paigeinsf/)).
-  - Twitter/X: @paigeinsf; TwitterScore records 3,967 followers as of August 2026 ([TwitterScore](https://twitterscore.io/twitter/paigeinsf/)).
-  - LinkedIn: Profile linked as /in/paigexu; headline: No public data found ([RootData](https://www.rootdata.com/member/Paige%20Xu?k=MjExNDM%3D)).
+- **Paige Xu (Co-founder):**
+  - Background: Studied economics and environmental studies at Dartmouth, worked at McKinsey and OKX, and co-founded OpenMind, where she helped deploy robots in factories ([Dartmouth Women in Business](https://bpb-us-e1.wpmucdn.com/journeys.dartmouth.edu/dist/9/5090/files/2020/06/20S-Alumni-Newsletter-1.pdf), [LinkedIn](https://www.linkedin.com/posts/paigexu_opl-boba-time-from-mckinsey-to-web3-investment-activity-7099519952415576064-x-Ra), [Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models)). Business email and prior exits: No public data found.
+  - Twitter/X: @paigeinsf, 4,541 followers at launch ([Doomers AI](https://doomers.ai/launches/se3-labs), Nov 9, 2026).
+  - LinkedIn: Profile identified, current headline not retrievable ([Paige Xu’s LinkedIn post](https://www.linkedin.com/posts/paigexu_opl-boba-time-from-mckinsey-to-web3-investment-activity-7099519952415576064-x-Ra)).
+  - GitHub: No public repos found.
+- **Mark Chen (Co-founder):**
+  - Background: Robotics research at Stanford and experience at Amazon FAR ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models)). Degree, prior exits, and business email: No public data found.
+  - Twitter/X: No public account found.
+  - LinkedIn: No public profile found.
+  - GitHub: No public repos found.
+- **Conan Yu (Co-founder):**
+  - Background: Built a data infrastructure company serving IMC Trading and OpenSea and is SE3’s published business and privacy contact at conan@se3labs.ai ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), [SE3 Labs Privacy Policy](https://se3labs.ai/privacy/)). Education and prior exits: No public data found.
+  - Twitter/X: No public account found.
+  - LinkedIn: No public profile found.
   - GitHub: No public repos found.
 - **Co-founder relationship:** No public data on co-founder history.
-- **Founder-market fit:** No public data found on verified founders’ backgrounds; YC participation and David Lieb’s assignment are confirmed ([Y Combinator](https://www.ycombinator.com/companies/se3-labs)).
+- **Founder-market fit:** Xu’s factory deployments, Chen’s robotics research, and Yu’s data infrastructure work cover site operations, policy testing, and data delivery, with David Lieb listed as the assigned YC partner ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), [Y Combinator](https://www.ycombinator.com/companies/se3-labs), Nov 2026).
 
 ## Key Risks
 
-- **Technical improvement loop:** [Inferred]: Published evaluations document measurement but do not establish that failure-directed collection improves deployed policies; the Dream report places fine-tuning and comparative retesting in a subsequent research round ([SE3 Research](https://se3labs.ai/blog/dream-eval-1/)).
-- **Data reuse restrictions:** Customer raw evaluation content cannot train SE3’s or another customer’s general-purpose model without written authorization, limiting unrestricted cross-customer learning; aggregated or de-identified operational information may support benchmarking ([SE3 Privacy Policy](https://se3labs.ai/privacy/)).
-- **Physical testing interruptions:** Machinery and unexpected behavior can require evaluations to stop; SE3 specifies safety plans and pause authority and states that evaluation does not certify production safety ([SE3 Terms](https://se3labs.ai/terms/)).
-- **Company-name ambiguity:** A separate Munich business uses SE3 Labs at se3.ai, creating attribution risk; its management and products differ from this YC company, so its funding and customer claims are excluded ([Munich company](https://www.se3.ai/), [YC company](https://www.ycombinator.com/companies/se3-labs)).
+- **Deployment transfer:** SE3 reported zero full-task completions across 100 zero-shot Dream-1 episodes on its test station and plans to test updated policies on held-out task variations ([SE3 Labs Dream-1 evaluation](https://se3labs.ai/blog/dream-eval-1/), Oct 2026, [Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), Nov 2026).
+- **Site access:** [Inferred]: Partner permissions and operating schedules can constrain on-site testing, while standardized workcells let SE3 run initial evaluations in controlled labs ([SE3 Labs](https://se3labs.ai/), Nov 2026, [Terms of Service](https://se3labs.ai/terms/), Sep 2026).
+- **Data permissions:** Evaluation recordings may include workers or sensitive site details, so SE3 disables raw recording by default and requires authorization to enable it ([SE3 Labs Privacy Policy](https://se3labs.ai/privacy/), Sep 2026).
+- **Name collision:** The former SE3 Labs in Munich uses `se3.ai`, creating a risk of attributing its funding and press coverage to the San Francisco company at `se3labs.ai` ([Fortune](https://fortune.com/2026/11/12/exclusive-se3-a-munich-startup-building-spatial-intelligence-for-military-drones-gets-30-million-in-series-a-funding/), Nov 2026, [Y Combinator](https://www.ycombinator.com/companies/se3-labs)).
 
 ## Key Facts
 
@@ -67,12 +81,12 @@
 |-----------|------|
 | TAM | No public data found |
 | SAM | No public data found |
-| Traction | 100 Dream evaluation episodes across 10 tasks (SE3 Research, [October 2026](https://se3labs.ai/blog/dream-eval-1/)); 40-episode control-method study (SE3 Research, [September 2026](https://se3labs.ai/blog/agentic-vs-code-as-policy/)); self-reported NVIDIA Inception membership (SE3, [November 2026](https://se3labs.ai/)) |
-| Revenue Signal | Contract-specific project fees; public amounts and realized revenue unavailable (SE3 Terms, [September 2026](https://se3labs.ai/terms/)) |
-| Founders | No public data found |
-| Competitors | Bifrost ($13.7M raised, revenue unknown, simulation evaluation) (Korea JoongAng Daily, [May 2026](https://www.koreajoongangdaily.com/business/bifrost-pitches-3-d-ai-training-platform-to-korean-manufacturers/12611683); [Bifrost](https://www.bifrost.ai/manifold/)); Poke & Wiggle (funding amount unavailable, revenue unknown, FR3 Duo evaluation) ([Crunchbase](https://www.crunchbase.com/organization/poke-wiggle); [company](https://pokeandwiggle.com/products)); BodenAI (funding amount unavailable, revenue unknown, RL datasets and scenario infrastructure) ([Preqin](https://www.preqin.com/data/profile/asset/boden-ai/511371); [company](https://www.boden.ai/post/joint-open-source-release-1-000-hours-of-real-world-robot-reinforcement-learning-data-rw-rl-dataset)) |
-| Moat Signals | Physical task implementations, scoring sheets, and downloadable evaluation recordings (SE3 Research, [October 2026](https://se3labs.ai/blog/dream-eval-1/)) |
-| Risk Factors | Customer-data reuse restrictions, physical testing interruptions, company-name ambiguity (SE3 [Privacy](https://se3labs.ai/privacy/), SE3 [Terms](https://se3labs.ai/terms/), separate [Munich company](https://www.se3.ai/)) |
-| Founder Reach | No public data found |
-| Distribution Signals | Public Python documentation and task catalog (SE3 [Developer Resources](https://docs.se3labs.ai/), [Tasks](https://docs.se3labs.ai/tasks/), November 2026) |
-| Emails | conan@se3labs.ai — general, privacy, and contractual contact; named-founder association unverified (SE3 [Terms](https://se3labs.ai/terms/), [Privacy Policy](https://se3labs.ai/privacy/)) |
+| Traction | Three U.S. site categories ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), Nov 2026), 500 released episodes and 1,596 monthly dataset downloads ([Hugging Face](https://huggingface.co/datasets/se3labs/real-robodojo-teleop-500), Nov 17, 2026), NVIDIA Inception membership ([SE3 Labs](https://se3labs.ai/), Nov 2026), coverage in *Radar Weekly* ([Pub-AI](https://www.pub-ai.com/news/radar-weekly-2026-11-13/), Nov 2026) |
+| Revenue Signal | No public data found |
+| Founders | Paige Xu (co-founder), Dartmouth and OpenMind factory deployments ([Dartmouth](https://bpb-us-e1.wpmucdn.com/journeys.dartmouth.edu/dist/9/5090/files/2020/06/20S-Alumni-Newsletter-1.pdf), [Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models)). Mark Chen (co-founder), Amazon FAR and Stanford robotics research. Conan Yu (co-founder), data infrastructure for IMC Trading and OpenSea ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), Nov 2026). |
+| Competitors | Enact (YC-backed, amount unverified, revenue unknown, in-house policy retraining, [YC](https://www.ycombinator.com/companies/enact)), Asim (funding records differ, revenue unknown, safety stress testing, [Dealroom](https://dealroom.co/just-founded/asim/), [CB Insights, via search snippet](https://www.cbinsights.com/company/asim/financials), [YC](https://www.ycombinator.com/companies/asim-group)), Lightwheel (at least RMB 2B reported, revenue unknown, simulation evaluation, [Gasgoo](https://autonews.gasgoo.com/articles/news/seeds-lightwheel-secures-another-1-billion-yuan-in-strategic-financing-2069405877394952193), [Lightwheel](https://www.lightwheel.ai/robofinals)), Config ($35M raised, revenue unknown, bimanual data and proprietary model, [TechCrunch](https://techcrunch.com/2026/05/11/koreas-biggest-manufacturers-back-config-the-tsmc-of-robot-data/), [Config](https://config.inc/)) |
+| Moat Signals | Industry site access and standardized physical workcells ([Launch YC](https://www.ycombinator.com/launches/XBQ-se3-labs-real-world-rl-environments-for-robot-models), [SE3 Labs](https://se3labs.ai/), Nov 2026) |
+| Risk Factors | Deployment transfer ([SE3 Labs evaluation](https://se3labs.ai/blog/dream-eval-1/)), site access ([Terms of Service](https://se3labs.ai/terms/)), recording and reuse permissions ([Privacy Policy](https://se3labs.ai/privacy/)) |
+| Founder Reach | Paige Xu: 4,541 X followers at launch ([Doomers AI](https://doomers.ai/launches/se3-labs), Nov 9, 2026) |
+| Distribution Signals | 27,075 X launch-post views ([Doomers AI](https://doomers.ai/launches/se3-labs), Nov 15, 2026), 1,596 monthly benchmark dataset downloads ([Hugging Face](https://huggingface.co/datasets/se3labs/real-robodojo-teleop-500), Nov 17, 2026) |
+| Emails | conan@se3labs.ai — Conan Yu, company inquiries and privacy contact ([SE3 Labs](https://se3labs.ai/), [Privacy Policy](https://se3labs.ai/privacy/)) |

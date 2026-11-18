@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://quippyapp.com",
     "yc_page": "https://www.ycombinator.com/companies/quippy",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/quippy))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/quippy))",
     "industry": "Consumer / Consumer",
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "AI-Enhanced Learning, Social, Health & Wellness",
-    "yc_partner": "Garry Tan ([YC](https://www.ycombinator.com/companies/quippy))",
-    "emails": "hello@quippyapp.com, support@quippyapp.com ([Google Play developer profile](https://play.google.com/store/apps/details?id=com.quippy.app))"
+    "yc_partner": "Garry Tan ([Y Combinator](https://www.ycombinator.com/companies/quippy))",
+    "emails": "hello@quippyapp.com (general inquiries and privacy requests, [Quippy](https://quippyapp.com/privacy)), support@quippyapp.com (developer contact, [Google Play](https://play.google.com/store/apps/details?id=com.quippy.app))"
   },
   "tags": [
     "AI-Enhanced Learning",
@@ -19,63 +19,39 @@
     "Health & Wellness"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:04:44.261Z",
+  "memoGeneratedAt": "2026-11-17T23:07:45.873Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 35,
+    "agi": {
+      "score": 39,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 36,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 33,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 36,
-    "NR": 44,
-    "PG": 41,
-    "PT": 30,
-    "SL": 31,
-    "VK": 25
+    "AGI": 39,
+    "HG": 37,
+    "EXIT": 33
   },
-  "consolidatedAvg": 34.57,
-  "consolidatedRank": 169,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 136,
-    "tractionScore": 32,
-    "tractionReason": "100+ Android downloads; 24 iOS ratings; paying users undisclosed"
+    "tractionRank": 121,
+    "tractionScore": 39,
+    "tractionReason": "Estimated 10,000 iOS installs, 92 ratings, paid tiers available"
   },
   "paths": {
     "memo": "fall2026/memos/quippy.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/quippy.md",
-      "elad-gil": "fall2026/evals/elad-gil/quippy.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/quippy.md",
-      "paul-graham": "fall2026/evals/paul-graham/quippy.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/quippy.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/quippy.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/quippy.md"
+      "agi": "fall2026/evals/agi/quippy.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/quippy.md",
+      "exit": "fall2026/evals/exit/quippy.md"
     }
   }
 }

@@ -1,80 +1,59 @@
 {
   "slug": "acyclic",
   "name": "Acyclic Labs",
-  "oneLiner": "Agent swarms that make long-running tasks exponentially faster",
+  "oneLiner": "Benchmarks, RL envs and infra for scaling agent swarms",
   "metadata": {
     "website": "https://acyclic.dev",
     "yc_page": "https://www.ycombinator.com/companies/acyclic",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/acyclic/jobs))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/acyclic))",
     "industry": "B2B / B2B -> Infrastructure",
-    "team_size": "2",
+    "team_size": "2 ([Y Combinator](https://www.ycombinator.com/companies/acyclic))",
     "location": "London, England, United Kingdom",
-    "tags": "Swarm AI, Open Source",
-    "yc_partner": "Not listed; company page could not be retrieved",
-    "emails": "No public data found"
+    "tags": "Swarm AI, Open Source, Data Engineering, Infrastructure, AI",
+    "yc_partner": "Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/acyclic))",
+    "emails": "ram@acyclic.dev (CEO), var@acyclic.dev (CTO) ([Launch YC](https://www.ycombinator.com/launches/XSq-acyclic-labs-building-the-foundations-for-ai-swarms), [Acyclic Labs GitHub](https://github.com/acyclic-labs))"
   },
   "tags": [
     "Swarm AI",
-    "Open Source"
+    "Open Source",
+    "Data Engineering",
+    "Infrastructure",
+    "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:03:03.276Z",
+  "memoGeneratedAt": "2026-11-17T23:08:01.419Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 42,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 44,
+    "hypergrowth": {
+      "score": 37,
       "tier": "Pass"
     },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
+    "exit": {
+      "score": 36,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 42,
-    "NR": 44,
-    "PG": 43,
-    "PT": 31,
-    "SL": 32,
-    "VK": 31
+    "AGI": 38,
+    "HG": 37,
+    "EXIT": 36
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 82,
+  "consolidatedAvg": 37,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 142,
-    "tractionScore": 27,
-    "tractionReason": "36 SDK stars; nearly 40 discovery conversations, conversions undisclosed"
+    "tractionRank": 163,
+    "tractionScore": 33,
+    "tractionReason": "Teams onboarding, database flags revenue without product attribution"
   },
   "paths": {
     "memo": "fall2026/memos/acyclic.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/acyclic.md",
-      "elad-gil": "fall2026/evals/elad-gil/acyclic.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/acyclic.md",
-      "paul-graham": "fall2026/evals/paul-graham/acyclic.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/acyclic.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/acyclic.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/acyclic.md"
+      "agi": "fall2026/evals/agi/acyclic.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/acyclic.md",
+      "exit": "fall2026/evals/exit/acyclic.md"
     }
   }
 }

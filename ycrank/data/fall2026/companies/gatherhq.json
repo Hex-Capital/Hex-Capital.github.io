@@ -1,17 +1,17 @@
 {
   "slug": "gatherhq",
   "name": "GatherHQ",
-  "oneLiner": "Applied AI for Enterprise GTM (3X founders, 10X growth, backed by ANT)",
+  "oneLiner": "Applied AI for Enterprise GTM (3x founders, 10x growth, backed by ANT)",
   "metadata": {
     "website": "https://www.gatherhq.com",
     "yc_page": "https://www.ycombinator.com/companies/gatherhq",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/gatherhq))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/gatherhq))",
     "industry": "B2B / B2B -> Marketing",
     "team_size": "9",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Marketing, Market Research, AI",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/gatherhq))",
-    "emails": "mayank@gatherhq.com—CEO/security; success@gatherhq.com—support/deletion ([Slack Marketplace](https://slack.com/marketplace/A0BC06WJV4M-gatherhq)); support@gatherhq.com—press/general ([About](https://www.gatherhq.com/about)); legal@gatherhq.com—legal ([Terms](https://www.gatherhq.com/terms-of-service)); hi@gobeheard.com—privacy/general ([Privacy](https://www.gatherhq.com/privacy-policy))"
+    "yc_partner": "Christopher Golda ([YC directory](https://www.ycombinator.com/companies/gatherhq))",
+    "emails": "mayank@gatherhq.com (CEO and media, [Slack Marketplace](https://slack.com/marketplace/A0BC06WJV4M-gatherhq)), mayank@gobeheard.com (CEO, [Gather pricing research guide](https://www.gatherhq.com/learn/pricing-research)), jay@gatherhq.com (CBO and pricing, [Emma pricing](https://share.gatherhq.com/pricing)), support@gatherhq.com (press and general inquiries, [Gather About](https://www.gatherhq.com/about)), success@gatherhq.com (workspace deletion, [Slack Marketplace](https://slack.com/marketplace/A0BC06WJV4M-gatherhq)), legal@gatherhq.com (legal, [Gather Terms](https://www.gatherhq.com/terms-of-service)), hi@gobeheard.com (privacy, [Gather Privacy Policy](https://www.gatherhq.com/privacy-policy))"
   },
   "tags": [
     "B2B",
@@ -20,63 +20,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-11-16T05:18:30.596Z",
+  "memoGeneratedAt": "2026-11-17T22:38:39.640Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
+    "agi": {
+      "score": 43,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 40,
+    "hypergrowth": {
+      "score": 44,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 28,
+    "exit": {
+      "score": 43,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 46,
-    "NR": 54,
-    "PG": 48,
-    "PT": 38,
-    "SL": 40,
-    "VK": 28
+    "AGI": 43,
+    "HG": 44,
+    "EXIT": 43
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 29,
+  "consolidatedAvg": 43.33,
+  "consolidatedRank": 13,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 73,
-    "tractionReason": "65+ enterprise teams; 300K interviews; six-figure day ambiguously defined"
+    "tractionRank": 10,
+    "tractionScore": 82,
+    "tractionReason": "Quarterly revenue more than doubled, 65+ enterprise marketing teams"
   },
   "paths": {
     "memo": "fall2026/memos/gatherhq.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/gatherhq.md",
-      "elad-gil": "fall2026/evals/elad-gil/gatherhq.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/gatherhq.md",
-      "paul-graham": "fall2026/evals/paul-graham/gatherhq.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/gatherhq.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/gatherhq.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/gatherhq.md"
+      "agi": "fall2026/evals/agi/gatherhq.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/gatherhq.md",
+      "exit": "fall2026/evals/exit/gatherhq.md"
     }
   }
 }

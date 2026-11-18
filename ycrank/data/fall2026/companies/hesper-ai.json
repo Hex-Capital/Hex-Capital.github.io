@@ -5,13 +5,13 @@
   "metadata": {
     "website": "https://gethesperai.com",
     "yc_page": "https://www.ycombinator.com/companies/hesper-ai",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/hesper-ai))",
+    "batch": "Fall 2026 ([YC company profile](https://www.ycombinator.com/companies/hesper-ai))",
     "industry": "Fintech / Fintech -> Insurance",
-    "team_size": "2",
+    "team_size": "3",
     "location": "New York City, NY, USA",
     "tags": "Insurance, Fraud Detection, AI",
-    "yc_partner": "Nicolas Dessaigne ([YC](https://www.ycombinator.com/companies/hesper-ai))",
-    "emails": "hello@gethesperai.com, support@gethesperai.com ([website](https://gethesperai.com/)); privacy@gethesperai.com ([privacy policy](https://gethesperai.com/privacy/)); legal@gethesperai.com ([MSA](https://gethesperai.com/legal/msa/)); founder contact: dhariwalpankaj10@gmail.com ([founder website, via search snippet](https://pankajdhariwal.com/))"
+    "yc_partner": "Nicolas Dessaigne ([YC company profile](https://www.ycombinator.com/companies/hesper-ai))",
+    "emails": "pankaj@gethesperai.com (CEO), founders@gethesperai.com (introductions) ([Launch YC](https://www.ycombinator.com/launches/WpY-hesper-ai-ai-agents-that-work-every-insurance-claim-end-to-end)), hello@gethesperai.com (general) ([Hesper homepage](https://gethesperai.com/)), support@gethesperai.com (support), legal@gethesperai.com (legal), privacy@gethesperai.com (privacy), security@gethesperai.com (security) ([Hesper Legal](https://gethesperai.com/legal/))"
   },
   "tags": [
     "Insurance",
@@ -19,63 +19,39 @@
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T23:15:43.114Z",
+  "memoGeneratedAt": "2026-11-17T23:28:46.905Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
+    "agi": {
       "score": 40,
       "tier": "Pass"
     },
-    "sam-lessin": {
-      "score": 37,
+    "hypergrowth": {
+      "score": 38,
       "tier": "Pass"
     },
-    "vinod-khosla": {
-      "score": 38,
+    "exit": {
+      "score": 41,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 71,
-    "NR": 44,
-    "PG": 56,
-    "PT": 40,
-    "SL": 37,
-    "VK": 38
+    "AGI": 40,
+    "HG": 38,
+    "EXIT": 41
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 9,
+  "consolidatedAvg": 39.67,
+  "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 55,
-    "tractionReason": "10,000+ claims investigated; production MGA deployment; revenue undisclosed"
+    "tractionRank": 29,
+    "tractionScore": 67,
+    "tractionReason": "Paying production customers, carrier pilots, $5M in claim value processed"
   },
   "paths": {
     "memo": "fall2026/memos/hesper-ai.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/hesper-ai.md",
-      "elad-gil": "fall2026/evals/elad-gil/hesper-ai.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/hesper-ai.md",
-      "paul-graham": "fall2026/evals/paul-graham/hesper-ai.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/hesper-ai.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/hesper-ai.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/hesper-ai.md"
+      "agi": "fall2026/evals/agi/hesper-ai.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/hesper-ai.md",
+      "exit": "fall2026/evals/exit/hesper-ai.md"
     }
   }
 }

@@ -1,81 +1,59 @@
 {
   "slug": "aucert",
   "name": "Aucert",
-  "oneLiner": "A team of expert AI agents that test mobile apps on their own.",
+  "oneLiner": "Expert AI agents that explore, understand, and verify mobile apps.",
   "metadata": {
     "website": "https://www.aucert.ai/",
     "yc_page": "https://www.ycombinator.com/companies/aucert",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/companies/aucert))",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/aucert))",
     "industry": "B2B / B2B -> Engineering, Product and Design",
     "team_size": "2",
     "location": "San Francisco, CA, USA",
-    "tags": "Developer Tools, B2B, AI",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/aucert))",
-    "emails": "founders@aucert.ai ([YC](https://www.ycombinator.com/companies/aucert)); contact@aucert.ai, support@aucert.ai, legal@aucert.ai, privacy@aucert.ai, abuse@aucert.ai, security@aucert.ai ([Aucert](https://www.aucert.ai/llms-full.txt))"
+    "tags": "Developer Tools, SaaS, B2B, Automation, AI",
+    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/aucert))",
+    "emails": "founders@aucert.ai (founder inbox), contact@aucert.ai (general inquiries), support@aucert.ai (technical support), legal@aucert.ai (legal notices), privacy@aucert.ai (privacy), security@aucert.ai (security reports), abuse@aucert.ai (abuse reports) ([Launch YC](https://www.ycombinator.com/launches/WGP-aucert-ai-agents-that-verify-mobile-apps-autonomously), [Aucert contact and policies](https://www.aucert.ai/llms-full.txt))"
   },
   "tags": [
     "Developer Tools",
+    "SaaS",
     "B2B",
+    "Automation",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-27T22:54:46.875Z",
+  "memoGeneratedAt": "2026-11-17T22:45:33.388Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 37,
+    "agi": {
+      "score": 35,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
+    "hypergrowth": {
       "score": 36,
       "tier": "Pass"
     },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
+    "exit": {
+      "score": 38,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 33,
-    "NR": 43,
-    "PG": 36,
-    "PT": 28,
-    "SL": 32,
-    "VK": 25
+    "AGI": 35,
+    "HG": 36,
+    "EXIT": 38
   },
-  "consolidatedAvg": 33.43,
-  "consolidatedRank": 184,
+  "consolidatedAvg": 36.33,
+  "consolidatedRank": 163,
   "traction": {
-    "tractionRank": 156,
-    "tractionScore": 20,
-    "tractionReason": "Public launch and free scan; no disclosed users or revenue"
+    "tractionRank": 193,
+    "tractionScore": 22,
+    "tractionReason": "Private beta, no disclosed users or paid orders"
   },
   "paths": {
     "memo": "fall2026/memos/aucert.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/aucert.md",
-      "elad-gil": "fall2026/evals/elad-gil/aucert.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/aucert.md",
-      "paul-graham": "fall2026/evals/paul-graham/aucert.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/aucert.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/aucert.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/aucert.md"
+      "agi": "fall2026/evals/agi/aucert.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/aucert.md",
+      "exit": "fall2026/evals/exit/aucert.md"
     }
   }
 }

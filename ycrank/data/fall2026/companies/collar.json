@@ -1,83 +1,59 @@
 {
   "slug": "collar",
   "name": "Collar",
-  "oneLiner": "AI-Native Investor Relations",
+  "oneLiner": "Helping Enterprises Fundraise Faster",
   "metadata": {
     "website": "https://usecollarai.com",
     "yc_page": "https://www.ycombinator.com/companies/collar",
-    "batch": "Fall 2026 ([YC](https://www.ycombinator.com/founders/kazel-koh))",
+    "batch": "Fall 2026 ([YC directory](https://www.ycombinator.com/companies/industry/generative-ai/san-francisco))",
     "industry": "B2B / B2B",
-    "team_size": "4",
+    "team_size": "3",
     "location": "San Francisco, CA, USA",
-    "tags": "Generative AI, Finance, Enterprise, Operations, AI",
-    "yc_partner": "Grey Baker ([YC](https://www.ycombinator.com/founders/kazel-koh))",
-    "emails": "news@usecollarai.com ([Collar privacy policy](https://www.usecollarai.com/privacy.html))"
+    "tags": "Generative AI, SaaS, B2B, Enterprise, AI",
+    "yc_partner": "Grey Baker ([YC founder profile](https://www.ycombinator.com/founders/jamie-yau))",
+    "emails": "news@usecollarai.com (shared inbox for privacy and terms inquiries, [Collar privacy policy](https://www.usecollarai.com/privacy.html) and [terms](https://www.usecollarai.com/terms.html))"
   },
   "tags": [
     "Generative AI",
-    "Finance",
+    "SaaS",
+    "B2B",
     "Enterprise",
-    "Operations",
     "AI"
   ],
   "slideImage": null,
-  "memoGeneratedAt": "2026-10-28T04:25:51.910Z",
+  "memoGeneratedAt": "2026-11-18T00:49:03.193Z",
   "evalScores": {
-    "cyan-banister": {
-      "score": 34,
+    "agi": {
+      "score": 38,
       "tier": "Pass"
     },
-    "elad-gil": {
-      "score": 39,
+    "hypergrowth": {
+      "score": 36,
       "tier": "Pass"
     },
-    "naval-ravikant": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
-      "tier": "Pass"
+    "exit": {
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 39,
-    "NR": 32,
-    "PG": 34,
-    "PT": 31,
-    "SL": 29,
-    "VK": 22
+    "AGI": 38,
+    "HG": 36,
+    "EXIT": 47
   },
-  "consolidatedAvg": 31.57,
-  "consolidatedRank": 208,
+  "consolidatedAvg": 40.33,
+  "consolidatedRank": 48,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 47,
-    "tractionReason": "IR partners represent $300B market capitalization; contract values undisclosed"
+    "tractionRank": 19,
+    "tractionScore": 72,
+    "tractionReason": "Reported 4× monthly revenue growth, $1.4M pending compliance"
   },
   "paths": {
     "memo": "fall2026/memos/collar.md",
     "evals": {
-      "cyan-banister": "fall2026/evals/cyan-banister/collar.md",
-      "elad-gil": "fall2026/evals/elad-gil/collar.md",
-      "naval-ravikant": "fall2026/evals/naval-ravikant/collar.md",
-      "paul-graham": "fall2026/evals/paul-graham/collar.md",
-      "peter-thiel": "fall2026/evals/peter-thiel/collar.md",
-      "sam-lessin": "fall2026/evals/sam-lessin/collar.md",
-      "vinod-khosla": "fall2026/evals/vinod-khosla/collar.md"
+      "agi": "fall2026/evals/agi/collar.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/collar.md",
+      "exit": "fall2026/evals/exit/collar.md"
     }
   }
 }

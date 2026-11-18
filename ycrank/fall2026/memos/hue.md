@@ -1,6 +1,6 @@
 ﻿# Hue
 
-> Test agents in realistic worlds built from production usage
+> Realistic worlds for agent evaluation
 
 | Field | Value |
 |-------|-------|
@@ -12,72 +12,71 @@
 | Location | San Francisco, CA, USA |
 | Tags | Developer Tools, Infrastructure, AI |
 | YC Partner | Aaron Epstein ([Y Combinator](https://www.ycombinator.com/companies/hue)) |
-| Emails | founders@hue.run ([Hue](https://hue.run/)); team@hue.run ([GitHub](https://github.com/hue-run)); aneesh@hue.run ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)) |
+| Emails | aneesh@hue.run, CEO ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)); founders@hue.run, intros and service ([Launch YC](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents), [Hue Terms](https://hue.run/terms)); team@hue.run, team contact ([Hue GitHub](https://github.com/hue-run)); security@hue.run, security and privacy ([Hue Terms](https://hue.run/terms)) |
 
 ## The Idea
 
-- **Problem:** [Inferred]: Teams deploying agents need regression tests that reproduce changing tool and data conditions, beyond the recorded-output evaluations available in platforms such as [Braintrust](https://www.braintrust.dev/docs/evaluate).
-- **Approach:** Hue captures production tasks, recreates their context, supplies simulated APIs and MCPs, preserves changes within resettable environments, and scores reruns across agent versions ([Hue](https://hue.run/)).
-- **Differentiation:** Hue emphasizes reconstructing production environments, while Braintrust organizes dataset experiments and trace scoring, LangSmith combines evaluation with deployment, and Patronus builds world models for simulation and training ([Hue](https://hue.run/), [Braintrust](https://www.braintrust.dev/docs/evaluate), [LangChain](https://www.langchain.com/blog/series-b), [Patronus](https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html)).
-- **Business Model:** [Inferred]: Hosted subscriptions or usage billing are possible monetization paths because the SDK connects to Hue Cloud, but public pricing and revenue: No public data found ([Hue SDK](https://github.com/hue-run/hue-sdk)).
-- **TAM/SAM:** Mordor Intelligence estimates the broader AI agent testing and validation market at $1.01B in 2026, reaching $2.58B in 2031 at 20.58% CAGR; this is a category proxy, and Hue-specific SAM: No public data found ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/ai-agent-testing-and-validation-market)).
-- **GTM / Distribution:** Public SDKs, coding-agent integration instructions, documentation, and contact booking provide developer discovery and onboarding routes ([Hue SDK](https://github.com/hue-run/hue-sdk), [Hue](https://hue.run/)).
+- **Problem:** Teams shipping agents that send email or update CRMs struggle to reproduce production failures because mocked APIs and empty sandbox accounts omit the data and state the agent encountered ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents)).
+- **Approach:** Hue seeds stateful replicas of apps such as Gmail, Slack, and Salesforce from a scenario description or recorded tool requests, then gives each test run an isolated copy of the starting state ([Hue docs](https://docs.hue.run/), [Launch YC, Oct 2026](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents)).
+- **Differentiation:** Hue replays a recorded user’s app state at a selected checkpoint, while Arga Labs emphasizes parallel API twins and shared multi-app scenarios, Ancha adds simulated participants and a controllable clock to trace-based tests, and Veris AI uses simulations for policy-specific benchmarks and agent training ([Hue docs](https://docs.hue.run/worlds/from-traces), [Arga Labs](https://www.argalabs.com/blog/making-ai-agents-ready-for-the-real-world), [Ancha](https://ancha.io/), [Veris AI](https://www.veris.ai/blog/introducing-veris-ai-a-new-way-to-train-enterprise-ai-agents-through-simulated-experience)).
+- **Business Model:** Hue documents free plans, trials, and self-serve paid subscriptions that renew monthly by default, with subscription fees and any usage rates set at checkout or in an order ([Hue Terms, Oct 2026](https://hue.run/terms)).
+- **TAM/SAM:** Mordor Intelligence estimates the broader AI agent testing and validation market at $1.01B in 2026, growing at 20.58% CAGR through 2031, with no public TAM/SAM data found for the specific app-simulation segment ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/ai-agent-testing-and-validation-market)).
+- **GTM / Distribution:** Hue solicits demos and referrals through Launch YC and distributes TypeScript and Python SDKs through npm and PyPI ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents), [Hue Quickstart](https://docs.hue.run/quickstart)).
 
 ## Defensibility
 
-- **Moat today:** No defensibility signals found in public sources.
-- **Future moat:** [Inferred]: Accumulated environment adapters and customer regression suites could create switching costs, although retention and exclusive-data advantages: No public data found.
-- **Market structure:** [Inferred]: No structural barrier identified at this stage, given that Patronus already offers simulation environments for agent evaluation ([Patronus](https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html)).
-- **Commoditization risk:** [Inferred]: Braintrust and LangChain could extend their existing production-data evaluation workflows into environment reconstruction, although implementation effort cannot be established publicly ([Braintrust](https://www.braintrust.dev/docs/evaluate), [LangChain](https://www.langchain.com/blog/series-b)).
+- **Moat today:** Hue documents reconstructing time-specific app state from retained observations across traces and freezing that state for repeated tests ([Hue Worlds from Traces](https://docs.hue.run/worlds/from-traces)).
+- **Future moat:** [Inferred]: A team’s library of trace-derived cases and app-state checkpoints could raise switching costs as it grows, with no public data found on retention or migration behavior ([Hue docs](https://docs.hue.run/)).
+- **Market structure:** No structural barrier identified at this stage, with Ancha already offering trace-to-world conversion and Arga Labs offering stateful SaaS replicas ([Ancha](https://ancha.io/), [Arga Labs](https://www.argalabs.com/blog/making-ai-agents-ready-for-the-real-world)).
+- **Commoditization risk:** Open-source ClawsBench implements stateful Gmail and Slack simulations with snapshot restoration, and Ancha offers commercial trace-based replay ([ClawsBench, Apr 2026](https://arxiv.org/abs/2604.05172), [Ancha](https://ancha.io/)).
 
 ## Market & Traction
 
 - **Traction signals:**
-  - Python SDK first release September 15, 2026; version 0.14.0 released October 25, 2026 ([PyPI](https://pypi.org/project/hue-run/)).
-  - Public SDK repository: 0 stars; organization: 2 followers, observed October 27, 2026 ([repository](https://github.com/hue-run/hue-sdk), [organization](https://github.com/hue-run)).
-  - Launch coverage published October 2, 2026 ([Founderland](https://founderland.ai/articles/hue-launches-testing-platform-for-ai-agents-in-production-murgu5xn)).
-  - Website identifies backing from investors affiliated with Y Combinator, Cursor, Clay, and Vercel, without naming individuals or investment amounts ([Hue](https://hue.run/), observed October 27, 2026).
-  - Active YC job postings: 0 ([YC Jobs](https://www.ycombinator.com/companies/hue/jobs), October 27, 2026).
+  - 69K weekly downloads of the `@hue-run/sdk` npm package ([Socket, Nov 2026 snapshot](https://socket.dev/npm/package/@hue-run%2Fsdk)).
+  - Launch YC debut on Oct 29, 2026, with 34 votes reported in its first hours ([Launch YC](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents), [Reveneau, Oct 2026](https://reveneau.com/ainews/hue-yc-fall-2026-stateful-app-simulations-agent-testing)).
+  - Launch coverage in RuntimeWire and Reveneau ([RuntimeWire, Oct 2026](https://runtimewire.com/article/hue-simulated-workspaces-ai-agent-testing), [Reveneau, Oct 2026](https://reveneau.com/ainews/hue-yc-fall-2026-stateful-app-simulations-agent-testing)).
+  - 0 open YC job listings ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/hue/jobs)).
 - **Competitors:**
-  - **Patronus AI ($70M raised, revenue unknown):** Digital World Models target simulation and agent training, overlapping Hue’s environment approach; latest disclosed round was $50M Series B, June 25, 2026, led by Greenfield Partners ([company announcement](https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html)).
-  - **Braintrust ($121M raised, revenue unknown):** Dataset experiments, custom scorers, and production trace evaluation provide an adjacent workflow; latest disclosed round was $80M Series B, February 17, 2026, led by ICONIQ ([funding total](https://multiples.vc/private-comps/braintrust), [announcement](https://www.braintrust.dev/blog/announcing-series-b), [product documentation](https://www.braintrust.dev/docs/evaluate)).
-  - **LangSmith / LangChain ($160M raised, revenue unknown):** Integrates tracing, evaluation, deployment, and agent building; latest disclosed round was $125M Series B, October 20, 2025, led by IVP ([TrueUp](https://www.trueup.io/co/langchain), [LangChain announcement](https://www.langchain.com/blog/series-b)).
-- **Why now:** [Inferred]: LangChain’s October 2025 expansion into production-data evaluation and deployment documents the shift toward operating agents as maintained production systems, creating demand for repeatable regression testing ([LangChain](https://www.langchain.com/blog/series-b)).
+  - **Arga Labs** ($10M disclosed, revenue unknown), with an August 2026 seed led by General Catalyst and an emphasis on parallel SaaS replicas and shared scenarios ([Arga Labs, Aug 2026](https://www.argalabs.com/blog/making-ai-agents-ready-for-the-real-world)).
+  - **Ancha** (funding undisclosed, revenue unknown), with simulated participants, a controllable clock, and checks on app state and action order ([Ancha, Nov 2026](https://ancha.io/)).
+  - **Veris AI** ($8.5M disclosed, revenue unknown), with a June 2025 seed co-led by Decibel Ventures and Acrew Capital and an emphasis on enterprise benchmarks and simulation-based training ([Veris AI, Jun 2025](https://www.veris.ai/blog/introducing-veris-ai-a-new-way-to-train-enterprise-ai-agents-through-simulated-experience)).
+- **Why now:** [Inferred]: As agents make more calls into business systems, teams face more app states to test before release, with Datadog reporting that observed MCP tool calls grew more than 22-fold from Q4 2025 to Q2 2026 ([Datadog earnings call, Aug 2026](https://investors.datadoghq.com/static-files/2360a5cc-f17a-4731-b74a-fb6f4617baf5)).
 
 ## Founders & Team
 
-- **Aneesh Kethini (Co-founder/CEO):**
-  - Background: NYU Stern alumnus; previously an AI product manager at Datadog who built and launched its AI SRE, and a quantitative trader at SIG ([YC founder profile](https://www.ycombinator.com/founders/aneesh-kethini)).
-  - Twitter/X: @aneeshkethini; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/aneesh-kethini)).
-  - LinkedIn: Headline: No public data found; profile lists Hue and NYU Stern, with approximately 1K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini), retrieved October 27, 2026).
-  - GitHub: No public repos found.
-- **Josh Le (Co-founder/CTO):**
-  - Background: NYU alumnus and Kleiner Perkins fellow; previous engineering experience at Apple, Gusto, August, Wayfair, SendBlue, and Sixtyfour ([YC founder profile](https://www.ycombinator.com/founders/josh-le)).
-  - Twitter/X: @joshuadle; count not retrievable ([YC-linked account](https://www.ycombinator.com/founders/josh-le)).
-  - LinkedIn: Headline: No public data found; profile lists Hue and NYU, with approximately 3K followers ([LinkedIn, via search snippet](https://www.linkedin.com/in/joshua-d-le), retrieved October 27, 2026).
-  - GitHub: No public repos found.
-- **Co-founder relationship:** Both attended NYU; how they met: No public data found ([Kethini](https://www.ycombinator.com/founders/aneesh-kethini), [Le](https://www.ycombinator.com/founders/josh-le)).
-- **Founder-market fit:** [Inferred]: Kethini’s AI SRE product work and Le’s engineering background provide experience relevant to agent reliability and infrastructure integration ([Kethini](https://www.ycombinator.com/founders/aneesh-kethini), [Le](https://www.ycombinator.com/founders/josh-le)).
+- **Aneesh Kethini (Founder/CEO):**
+  - **Background:** NYU Stern alumnus, former Susquehanna quantitative trader, and AI product manager who helped build and launch Datadog’s AI SRE agent, with `aneesh@hue.run` published as his business email ([YC founder profile](https://www.ycombinator.com/founders/aneesh-kethini), [LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)).
+  - **Twitter/X:** @aneeshkethini, 309 followers ([YC founder profile](https://www.ycombinator.com/founders/aneesh-kethini), [Teapawt X mirror, Nov 2026](https://www.xitter.gq/aneeshkethini)).
+  - **LinkedIn:** Headline not retrievable, with 1K followers visible ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)).
+  - **GitHub:** No public repos found.
+- **Josh Le (Founder/CTO):**
+  - **Background:** NYU alumnus and Kleiner Perkins Fellow who built legal agents at August and held engineering roles at Apple, Gusto, Wayfair, SendBlue, and Sixtyfour, with no public data found for a direct business email ([YC founder profile](https://www.ycombinator.com/founders/josh-le), [Launch YC, Oct 2026](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents)).
+  - **Twitter/X:** @joshuadle, 75 followers ([YC founder profile](https://www.ycombinator.com/founders/josh-le), [Teapawt X mirror, Nov 2026](https://xitter.cf/joshuadle)).
+  - **LinkedIn:** Headline not retrievable, with 3K followers visible ([LinkedIn, via search snippet](https://www.linkedin.com/in/joshua-d-le)).
+  - **GitHub:** @joshle298 contributed to TechAtNYU’s website repository, which had 4 stars ([GitHub Explorer](https://ghe.derekchia.com/related/hue-run/docs), [GitHub, Nov 2026](https://github.com/TechAtNYU/techatnyu.org2022-2025)).
+- **Co-founder relationship:** Both attended NYU, and Le says they met during their first week there ([YC founder profiles](https://www.ycombinator.com/companies/hue), [Le’s LinkedIn post, via search snippet](https://in.linkedin.com/in/anshul-gupta-460049253)).
+- **Founder-market fit:** The founders report building testing environments and replay infrastructure in their prior roles at Datadog and August, and YC lists Aaron Epstein as Hue’s primary partner ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents), [Y Combinator](https://www.ycombinator.com/companies/hue)).
 
 ## Key Risks
 
-- **Simulation fidelity:** [Inferred]: Differences between simulated APIs and production behavior could produce misleading test results; independent validation of Hue’s fidelity: No public data found ([product mechanism](https://hue.run/)).
-- **Incomplete instrumentation:** The SDK cannot observe uninstrumented provider calls, leaving coverage dependent on application instrumentation ([Hue SDK](https://github.com/hue-run/hue-sdk)).
-- **Sensitive production content:** Custom redaction does not inspect arbitrary OpenTelemetry attributes or logs, requiring users to configure broader filtering; supported content hooks provide a mitigation ([Python SDK documentation](https://pypi.org/project/hue-run/)).
-- **Name ambiguity:** Hue shares its name with Philips Hue and Cloudera Hue; its package documentation explicitly disclaims affiliation, providing a disambiguation reference ([PyPI](https://pypi.org/project/hue-run/0.2.0/)).
+- **Replay fidelity:** Unobserved fields can remain absent and insufficient evidence can prevent reconstruction, while checkpoint previews expose the retained values used to start each run ([Hue Worlds from Traces](https://docs.hue.run/worlds/from-traces)).
+- **Production data restrictions:** Hue requires a data processing addendum before customer personal-data processing and separate written authorization for restricted categories such as identifiable health data, while its SDK supports local redaction before export ([Hue Terms, Oct 2026](https://hue.run/terms), [Hue Data Privacy](https://docs.hue.run/guides/redaction)).
+- **Competitive overlap:** Ancha already recreates stateful environments from production traces, while Hue documents selecting a checkpoint from retained user history and reusing that state across versions ([Ancha](https://ancha.io/), [Hue Worlds from Traces](https://docs.hue.run/worlds/from-traces)).
+- **Search discoverability:** Website not accessible at time of research. Philips Hue and the Hue SQL editor share the name, while the YC listing and developer docs identify the startup’s domain ([TrustList, Nov 2026](https://trustlist.uk/launches/launch-weekly46-hue-run-agent-simulations), [Y Combinator](https://www.ycombinator.com/companies/hue), [Hue docs](https://docs.hue.run/)).
 
 ## Key Facts
 
 | Dimension | Data |
 |-----------|------|
-| TAM | Category proxy: $1.01B AI agent testing and validation market, 2026; 20.58% CAGR through 2031 ([Mordor Intelligence](https://www.mordorintelligence.com/industry-reports/ai-agent-testing-and-validation-market)) |
+| TAM | Broader AI agent testing and validation market: $1.01B in 2026 and 20.58% CAGR through 2031 ([Mordor Intelligence, 2026](https://www.mordorintelligence.com/industry-reports/ai-agent-testing-and-validation-market)). |
 | SAM | No public data found |
-| Traction | Python SDK released September 15, 2026 ([PyPI](https://pypi.org/project/hue-run/)); 0 repository stars, October 27, 2026 ([GitHub](https://github.com/hue-run/hue-sdk)); launch coverage, October 2, 2026 ([Founderland](https://founderland.ai/articles/hue-launches-testing-platform-for-ai-agents-in-production-murgu5xn)) |
-| Revenue Signal | No public data found |
-| Founders | Aneesh Kethini, CEO: NYU Stern, Datadog AI SRE, SIG ([YC](https://www.ycombinator.com/founders/aneesh-kethini)); Josh Le, CTO: NYU, Apple/Gusto engineering, KP fellow ([YC](https://www.ycombinator.com/founders/josh-le)) |
-| Competitors | Patronus AI ($70M raised, revenue unknown, world-model simulation/training) ([announcement](https://www.prnewswire.com/news-releases/patronus-ai-raises-50-million-series-b-and-unveils-first-digital-world-models-for-ai-agent-training-and-simulation-302811248.html)); Braintrust ($121M raised, revenue unknown, dataset/scorer evaluations) ([Multiples](https://multiples.vc/private-comps/braintrust), [documentation](https://www.braintrust.dev/docs/evaluate)); LangChain ($160M raised, revenue unknown, integrated development/deployment) ([TrueUp](https://www.trueup.io/co/langchain), [LangChain](https://www.langchain.com/blog/series-b)) |
-| Moat Signals | No public data found |
-| Risk Factors | Simulated API dependency ([Hue](https://hue.run/)), uninstrumented-call blind spots ([SDK](https://github.com/hue-run/hue-sdk)), custom redaction boundaries ([PyPI](https://pypi.org/project/hue-run/)) |
-| Founder Reach | Kethini: LinkedIn approximately 1K; Le: LinkedIn approximately 3K, retrieved October 27, 2026 ([Kethini](https://www.linkedin.com/in/aneeshkethini), [Le](https://www.linkedin.com/in/joshua-d-le), via search snippets) |
-| Distribution Signals | Public Python package ([PyPI](https://pypi.org/project/hue-run/)); coding-agent setup integrations ([GitHub SDK](https://github.com/hue-run/hue-sdk)) |
-| Emails | founders@hue.run ([Hue](https://hue.run/)); team@hue.run ([GitHub](https://github.com/hue-run)); aneesh@hue.run ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)) |
+| Traction | 69K weekly npm SDK downloads ([Socket, Nov 2026](https://socket.dev/npm/package/@hue-run%2Fsdk)); 34 Launch YC votes in the first hours ([Reveneau, Oct 2026](https://reveneau.com/ainews/hue-yc-fall-2026-stateful-app-simulations-agent-testing)); launch coverage ([RuntimeWire, Oct 2026](https://runtimewire.com/article/hue-simulated-workspaces-ai-agent-testing)); 0 open YC jobs ([YC Jobs, Nov 2026](https://www.ycombinator.com/companies/hue/jobs)). |
+| Revenue Signal | Terms document free plans, trials, and monthly-by-default paid subscriptions with fees set at checkout or in an order ([Hue Terms, Oct 2026](https://hue.run/terms)). |
+| Founders | Aneesh Kethini (CEO), Datadog AI SRE and Susquehanna; Josh Le (CTO), August legal agents and Apple engineering ([Y Combinator](https://www.ycombinator.com/companies/hue)). |
+| Competitors | Arga Labs ($10M disclosed, revenue unknown, parallel SaaS twins) ([Arga Labs](https://www.argalabs.com/blog/making-ai-agents-ready-for-the-real-world)); Ancha (funding undisclosed, revenue unknown, simulated participants and clock) ([Ancha](https://ancha.io/)); Veris AI ($8.5M disclosed, revenue unknown, simulation-based training) ([Veris AI](https://www.veris.ai/blog/introducing-veris-ai-a-new-way-to-train-enterprise-ai-agents-through-simulated-experience)). |
+| Moat Signals | Retained trace evidence and fixed app-state checkpoints for repeatable runs ([Hue Worlds from Traces](https://docs.hue.run/worlds/from-traces)). |
+| Risk Factors | Replay fidelity ([Hue Worlds from Traces](https://docs.hue.run/worlds/from-traces)), production data restrictions ([Hue Terms](https://hue.run/terms)), overlapping trace replay ([Ancha](https://ancha.io/)). |
+| Founder Reach | Kethini: X 309 ([Teapawt, Nov 2026](https://www.xitter.gq/aneeshkethini)), LinkedIn 1K ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)); Le: X 75 ([Teapawt, Nov 2026](https://xitter.cf/joshuadle)), LinkedIn 3K ([LinkedIn, via search snippet](https://www.linkedin.com/in/joshua-d-le)), contributed to a repo with 4 stars ([GitHub Explorer](https://ghe.derekchia.com/related/hue-run/docs), [GitHub](https://github.com/TechAtNYU/techatnyu.org2022-2025)). |
+| Distribution Signals | Launch YC demo and referral channel ([Launch YC, Oct 2026](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents)); SDK distribution via npm and PyPI ([Hue Quickstart](https://docs.hue.run/quickstart)). |
+| Emails | aneesh@hue.run, CEO ([LinkedIn, via search snippet](https://www.linkedin.com/in/aneeshkethini)); founders@hue.run, introductions and service ([Launch YC](https://www.ycombinator.com/launches/WWw-hue-simulations-for-ai-agents), [Hue Terms](https://hue.run/terms)); team@hue.run, team ([Hue GitHub](https://github.com/hue-run)); security@hue.run, security and privacy ([Hue Terms](https://hue.run/terms)). |

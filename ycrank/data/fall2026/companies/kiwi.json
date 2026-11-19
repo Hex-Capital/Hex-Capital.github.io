@@ -41,9 +41,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 181,
   "traction": {
-    "tractionRank": 199,
-    "tractionScore": 19,
-    "tractionReason": "100+ discovery interviews, no disclosed deployments"
+    "tractionRank": 185,
+    "tractionScore": 21,
+    "tractionReason": "100+ companies consulted during discovery. No disclosed product adoption"
   },
   "paths": {
     "memo": "fall2026/memos/kiwi.md",

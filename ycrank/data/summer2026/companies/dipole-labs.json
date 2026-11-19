@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/dipole-labs.jpg",
   "memoGeneratedAt": "2026-08-26T05:25:21.523Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 47,
-    "NR": 54,
-    "PG": 30,
-    "PT": 35,
-    "SL": 30,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.57,
-  "consolidatedRank": 151,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 191,
     "tractionScore": 24,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/dipole-labs.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/dipole-labs.md",
-      "elad-gil": "summer2026/evals/elad-gil/dipole-labs.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/dipole-labs.md",
-      "paul-graham": "summer2026/evals/paul-graham/dipole-labs.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/dipole-labs.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/dipole-labs.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/dipole-labs.md"
-    }
+    "evals": {}
   }
 }

@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/exosat.jpg",
   "memoGeneratedAt": "2026-08-11T05:19:31.912Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 71,
-    "EG": 60,
-    "NR": 68,
-    "PG": 52,
-    "PT": 47,
-    "SL": 46,
-    "VK": 47
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 55.86,
-  "consolidatedRank": 23,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 53,
     "tractionScore": 66,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/exosat.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/exosat.md",
-      "elad-gil": "summer2026/evals/elad-gil/exosat.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/exosat.md",
-      "paul-graham": "summer2026/evals/paul-graham/exosat.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/exosat.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/exosat.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/exosat.md"
-    }
+    "evals": {}
   }
 }

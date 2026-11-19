@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:12:29.024Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 70,
-    "NR": 68,
-    "PG": 52,
-    "PT": 45,
-    "SL": 40,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 50.43,
-  "consolidatedRank": 18,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/zerodrift.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/zerodrift.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/zerodrift.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/zerodrift.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/zerodrift.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/zerodrift.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/zerodrift.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/zerodrift.md"
-    }
+    "evals": {}
   }
 }

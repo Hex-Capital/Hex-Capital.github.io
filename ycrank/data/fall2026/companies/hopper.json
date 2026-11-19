@@ -41,9 +41,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 68,
-    "tractionScore": 56,
-    "tractionReason": "10B daily tokens and one signed production customer"
+    "tractionRank": 50,
+    "tractionScore": 63,
+    "tractionReason": "10B+ tokens daily, one signed production customer, initial paid usage"
   },
   "paths": {
     "memo": "fall2026/memos/hopper.md",

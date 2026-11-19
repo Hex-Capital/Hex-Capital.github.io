@@ -44,9 +44,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 233,
-    "tractionScore": 3,
-    "tractionReason": "Full-scale prototype, Swedish entity reported zero FY2025 turnover"
+    "tractionRank": 228,
+    "tractionScore": 5,
+    "tractionReason": "Full-scale prototype completed. No reported commercial deployment"
   },
   "paths": {
     "memo": "fall2026/memos/ailit.md",

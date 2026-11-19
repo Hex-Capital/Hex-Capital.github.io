@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "spring2026/slides/images/clara-2.jpg",
   "memoGeneratedAt": "2026-05-28T03:08:54.321Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 67,
-    "EG": 54,
-    "NR": 51,
-    "PG": 71,
-    "PT": 41,
-    "SL": 46,
-    "VK": 46
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 53.71,
-  "consolidatedRank": 6,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 32,
     "tractionScore": 44,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/clara-2.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/clara-2.md",
-      "elad-gil": "spring2026/evals/elad-gil/clara-2.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/clara-2.md",
-      "paul-graham": "spring2026/evals/paul-graham/clara-2.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/clara-2.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/clara-2.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/clara-2.md"
-    }
+    "evals": {}
   }
 }

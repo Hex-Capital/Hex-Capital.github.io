@@ -44,8 +44,8 @@
   "consolidatedRank": 103,
   "traction": {
     "tractionRank": 89,
-    "tractionScore": 51,
-    "tractionReason": "$2B+ in projects monitored, six named construction organizations displayed"
+    "tractionScore": 55,
+    "tractionReason": "Monitored $2B+ in construction projects across multiple deployments"
   },
   "paths": {
     "memo": "fall2026/memos/telamont.md",

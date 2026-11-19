@@ -15,58 +15,17 @@
   "tags": [],
   "slideImage": "winter2026/slides/images/arcline.jpg",
   "memoGeneratedAt": "2026-03-06T05:47:52.744Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 45,
-    "NR": 43,
-    "PG": 59,
-    "PT": 33,
-    "SL": 33,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 77,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/arcline.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/arcline.md",
-      "elad-gil": "winter2026/evals/elad-gil/arcline.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/arcline.md",
-      "paul-graham": "winter2026/evals/paul-graham/arcline.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/arcline.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/arcline.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/arcline.md"
-    }
+    "evals": {}
   }
 }

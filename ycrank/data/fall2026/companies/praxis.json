@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 112,
-    "tractionScore": 44,
-    "tractionReason": "Live deployments at US law firms, fees undisclosed"
+    "tractionRank": 135,
+    "tractionScore": 41,
+    "tractionReason": "Live at U.S. law firms. One attorney testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/praxis.md",

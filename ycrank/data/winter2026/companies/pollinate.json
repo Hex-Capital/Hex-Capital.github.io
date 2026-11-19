@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/pollinate.jpg",
   "memoGeneratedAt": "2026-02-27T06:42:08.391Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 42,
-    "NR": 41,
-    "PG": 56,
-    "PT": 28,
-    "SL": 28,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38.43,
-  "consolidatedRank": 124,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/pollinate.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/pollinate.md",
-      "elad-gil": "winter2026/evals/elad-gil/pollinate.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/pollinate.md",
-      "paul-graham": "winter2026/evals/paul-graham/pollinate.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/pollinate.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/pollinate.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/pollinate.md"
-    }
+    "evals": {}
   }
 }

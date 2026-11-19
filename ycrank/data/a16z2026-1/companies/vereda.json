@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:12:48.592Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 50,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 64,
-    "EG": 57,
-    "NR": 65,
-    "PG": 58,
-    "PT": 48,
-    "SL": 61,
-    "VK": 50
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 57.57,
-  "consolidatedRank": 5,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/vereda.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/vereda.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/vereda.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/vereda.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/vereda.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/vereda.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/vereda.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/vereda.md"
-    }
+    "evals": {}
   }
 }

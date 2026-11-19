@@ -42,9 +42,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 46,
-    "tractionReason": "Signed pilots and GlobalFoundries development, payment terms undisclosed"
+    "tractionRank": 97,
+    "tractionScore": 53,
+    "tractionReason": "Signed pilots with undisclosed payment terms and development with GlobalFoundries"
   },
   "paths": {
     "memo": "fall2026/memos/archgen-labs.md",

@@ -41,11 +41,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 209,
+  "consolidatedRank": 210,
   "traction": {
-    "tractionRank": 177,
-    "tractionScore": 30,
-    "tractionReason": "First launch booked for 2028, spacecraft customer orders undisclosed"
+    "tractionRank": 196,
+    "tractionScore": 15,
+    "tractionReason": "First launch booked for 2028. Spacecraft customer orders undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/inflection-space-systems.md",

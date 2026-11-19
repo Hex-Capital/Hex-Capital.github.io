@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/floracene.jpg",
   "memoGeneratedAt": "2026-08-11T05:27:58.765Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 19,
-      "tier": "Strong Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 40,
-    "NR": 44,
-    "PG": 29,
-    "PT": 37,
-    "SL": 31,
-    "VK": 19
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 34.86,
-  "consolidatedRank": 202,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 207,
     "tractionScore": 10,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/floracene.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/floracene.md",
-      "elad-gil": "summer2026/evals/elad-gil/floracene.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/floracene.md",
-      "paul-graham": "summer2026/evals/paul-graham/floracene.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/floracene.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/floracene.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/floracene.md"
-    }
+    "evals": {}
   }
 }

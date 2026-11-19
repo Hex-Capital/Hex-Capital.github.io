@@ -43,9 +43,9 @@
   "consolidatedAvg": 34.33,
   "consolidatedRank": 227,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 29,
-    "tractionReason": "100+ officer discovery interviews, current deployments undisclosed"
+    "tractionRank": 187,
+    "tractionScore": 20,
+    "tractionReason": "100+ officers consulted during product development. Current adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/reconero.md",

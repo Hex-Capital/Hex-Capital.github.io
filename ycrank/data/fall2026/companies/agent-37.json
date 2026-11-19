@@ -43,9 +43,9 @@
   "consolidatedAvg": 42.67,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 69,
-    "tractionReason": "250+ startups, customers averaged $0.37 monthly per sandbox"
+    "tractionRank": 38,
+    "tractionScore": 65,
+    "tractionReason": "250+ startups using current platform. Reported spend averages $0.37 per sandbox-month"
   },
   "paths": {
     "memo": "fall2026/memos/agent-37.md",

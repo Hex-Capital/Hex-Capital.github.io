@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/enact.jpg",
   "memoGeneratedAt": "2026-08-11T05:35:46.163Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 24,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 40,
-    "NR": 23,
-    "PG": 29,
-    "PT": 23,
-    "SL": 28,
-    "VK": 24
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 28.14,
-  "consolidatedRank": 221,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 202,
     "tractionScore": 15,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/enact.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/enact.md",
-      "elad-gil": "summer2026/evals/elad-gil/enact.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/enact.md",
-      "paul-graham": "summer2026/evals/paul-graham/enact.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/enact.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/enact.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/enact.md"
-    }
+    "evals": {}
   }
 }

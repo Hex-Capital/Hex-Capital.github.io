@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/transload.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:37.650Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 43,
-    "NR": 37,
-    "PG": 51,
-    "PT": 42,
-    "SL": 35,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.29,
-  "consolidatedRank": 117,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 157,
     "tractionScore": 6,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/transload.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/transload.md",
-      "elad-gil": "spring2026/evals/elad-gil/transload.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/transload.md",
-      "paul-graham": "spring2026/evals/paul-graham/transload.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/transload.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/transload.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/transload.md"
-    }
+    "evals": {}
   }
 }

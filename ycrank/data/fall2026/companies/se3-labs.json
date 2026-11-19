@@ -42,9 +42,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 109,
   "traction": {
-    "tractionRank": 168,
-    "tractionScore": 32,
-    "tractionReason": "1,596 monthly dataset downloads, training sites planned"
+    "tractionRank": 169,
+    "tractionScore": 35,
+    "tractionReason": "1,596 monthly dataset downloads. Partner-site training deployments still planned"
   },
   "paths": {
     "memo": "fall2026/memos/se3-labs.md",

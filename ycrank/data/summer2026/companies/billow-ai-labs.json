@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/billow-ai-labs.jpg",
   "memoGeneratedAt": "2026-08-11T04:28:51.629Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 68,
-    "NR": 55,
-    "PG": 52,
-    "PT": 39,
-    "SL": 41,
-    "VK": 35
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.43,
-  "consolidatedRank": 85,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 100,
     "tractionScore": 56,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/billow-ai-labs.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/billow-ai-labs.md",
-      "elad-gil": "summer2026/evals/elad-gil/billow-ai-labs.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/billow-ai-labs.md",
-      "paul-graham": "summer2026/evals/paul-graham/billow-ai-labs.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/billow-ai-labs.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/billow-ai-labs.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/billow-ai-labs.md"
-    }
+    "evals": {}
   }
 }

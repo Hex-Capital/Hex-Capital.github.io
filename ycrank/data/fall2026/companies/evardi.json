@@ -42,9 +42,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 105,
   "traction": {
-    "tractionRank": 139,
-    "tractionScore": 38,
-    "tractionReason": "Reported deployments at utilities, published outcomes from simulations"
+    "tractionRank": 106,
+    "tractionScore": 52,
+    "tractionReason": "Utility deployments reported across networks serving 10M+ electricity customers"
   },
   "paths": {
     "memo": "fall2026/memos/evardi.md",

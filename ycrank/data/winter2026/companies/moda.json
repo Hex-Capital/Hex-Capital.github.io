@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/moda.jpg",
   "memoGeneratedAt": "2026-02-27T15:59:51.556Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 21,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 34,
-    "NR": 39,
-    "PG": 45,
-    "PT": 26,
-    "SL": 21,
-    "VK": 34
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 32.29,
-  "consolidatedRank": 175,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/moda.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/moda.md",
-      "elad-gil": "winter2026/evals/elad-gil/moda.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/moda.md",
-      "paul-graham": "winter2026/evals/paul-graham/moda.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/moda.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/moda.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/moda.md"
-    }
+    "evals": {}
   }
 }

@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "spring2026/slides/images/dayjob.jpg",
   "memoGeneratedAt": "2026-05-28T03:00:55.000Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 58,
-    "NR": 42,
-    "PG": 71,
-    "PT": 33,
-    "SL": 40,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 48.57,
-  "consolidatedRank": 23,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 8,
     "tractionScore": 76,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/dayjob.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/dayjob.md",
-      "elad-gil": "spring2026/evals/elad-gil/dayjob.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/dayjob.md",
-      "paul-graham": "spring2026/evals/paul-graham/dayjob.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/dayjob.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/dayjob.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/dayjob.md"
-    }
+    "evals": {}
   }
 }

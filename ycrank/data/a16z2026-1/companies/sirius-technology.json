@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:08:38.594Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 51,
-    "NR": 51,
-    "PG": 44,
-    "PT": 37,
-    "SL": 32,
-    "VK": 41
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.86,
-  "consolidatedRank": 44,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/sirius-technology.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/sirius-technology.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/sirius-technology.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/sirius-technology.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/sirius-technology.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/sirius-technology.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/sirius-technology.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/sirius-technology.md"
-    }
+    "evals": {}
   }
 }

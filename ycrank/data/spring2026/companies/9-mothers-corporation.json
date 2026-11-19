@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/9-mothers-corporation.jpg",
   "memoGeneratedAt": "2026-05-28T03:08:34.051Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 51,
-    "NR": 32,
-    "PG": 61,
-    "PT": 52,
-    "SL": 31,
-    "VK": 43
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.43,
-  "consolidatedRank": 38,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 181,
     "tractionScore": 4,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/9-mothers-corporation.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/9-mothers-corporation.md",
-      "elad-gil": "spring2026/evals/elad-gil/9-mothers-corporation.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/9-mothers-corporation.md",
-      "paul-graham": "spring2026/evals/paul-graham/9-mothers-corporation.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/9-mothers-corporation.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/9-mothers-corporation.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/9-mothers-corporation.md"
-    }
+    "evals": {}
   }
 }

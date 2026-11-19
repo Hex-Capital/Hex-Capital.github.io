@@ -44,9 +44,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 33,
-    "tractionReason": "PitchBook flags revenue without an amount, Marine Corps engagement reported"
+    "tractionRank": 140,
+    "tractionScore": 39,
+    "tractionReason": "PitchBook lists revenue generation. Marine Corps engagement reported"
   },
   "paths": {
     "memo": "fall2026/memos/kairox-systems.md",

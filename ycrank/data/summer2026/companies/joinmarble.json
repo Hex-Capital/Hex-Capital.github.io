@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/joinmarble.jpg",
   "memoGeneratedAt": "2026-08-11T05:22:17.495Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 66,
-    "NR": 59,
-    "PG": 54,
-    "PT": 42,
-    "SL": 41,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 50,
-  "consolidatedRank": 62,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 45,
     "tractionScore": 67,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/joinmarble.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/joinmarble.md",
-      "elad-gil": "summer2026/evals/elad-gil/joinmarble.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/joinmarble.md",
-      "paul-graham": "summer2026/evals/paul-graham/joinmarble.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/joinmarble.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/joinmarble.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/joinmarble.md"
-    }
+    "evals": {}
   }
 }

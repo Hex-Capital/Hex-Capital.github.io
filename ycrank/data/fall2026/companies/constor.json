@@ -41,9 +41,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 38,
   "traction": {
-    "tractionRank": 31,
-    "tractionScore": 66,
-    "tractionReason": "Five paying design partners, 12 paid preorders, 15 contractors bidding"
+    "tractionRank": 36,
+    "tractionScore": 65,
+    "tractionReason": "Five paying design partners, 12 paid preorders, about 15 contractors bidding"
   },
   "paths": {
     "memo": "fall2026/memos/constor.md",

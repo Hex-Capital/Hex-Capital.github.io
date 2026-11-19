@@ -41,11 +41,11 @@
     "EXIT": 33
   },
   "consolidatedAvg": 34.67,
-  "consolidatedRank": 216,
+  "consolidatedRank": 217,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 31,
-    "tractionReason": "CTO reports onboarding, 57 repository stars"
+    "tractionRank": 177,
+    "tractionScore": 28,
+    "tractionReason": "Early onboarding reported and 57 GitHub stars"
   },
   "paths": {
     "memo": "fall2026/memos/opencrawl.md",

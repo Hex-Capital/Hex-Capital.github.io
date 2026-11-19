@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:54:19.160Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 47,
-    "NR": 58,
-    "PG": 46,
-    "PT": 32,
-    "SL": 35,
-    "VK": 41
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.71,
-  "consolidatedRank": 39,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/grove-tax.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/grove-tax.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/grove-tax.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/grove-tax.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/grove-tax.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/grove-tax.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/grove-tax.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/grove-tax.md"
-    }
+    "evals": {}
   }
 }

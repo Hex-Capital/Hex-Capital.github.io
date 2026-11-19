@@ -20,47 +20,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-26T05:15:59.977Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 67,
-    "EG": 66,
-    "NR": 68,
-    "PG": 57,
-    "PT": 54,
-    "SL": 45,
-    "VK": 29
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 55.14,
-  "consolidatedRank": 29,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 42,
     "tractionScore": 68,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/tarifflo-inc.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/tarifflo-inc.md",
-      "elad-gil": "summer2026/evals/elad-gil/tarifflo-inc.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/tarifflo-inc.md",
-      "paul-graham": "summer2026/evals/paul-graham/tarifflo-inc.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/tarifflo-inc.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/tarifflo-inc.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/tarifflo-inc.md"
-    }
+    "evals": {}
   }
 }

@@ -43,9 +43,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 55,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 39,
-    "tractionReason": "Just Eat Takeaway testimonial, SnapLogic collaboration discussions"
+    "tractionRank": 152,
+    "tractionScore": 38,
+    "tractionReason": "Just Eat Takeaway reported resolving a security problem with Armorer"
   },
   "paths": {
     "memo": "fall2026/memos/armorer-labs.md",

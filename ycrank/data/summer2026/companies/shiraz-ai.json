@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/shiraz-ai.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:39.126Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 51,
-    "NR": 49,
-    "PG": 47,
-    "PT": 36,
-    "SL": 38,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.43,
-  "consolidatedRank": 103,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 115,
     "tractionScore": 52,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/shiraz-ai.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/shiraz-ai.md",
-      "elad-gil": "summer2026/evals/elad-gil/shiraz-ai.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/shiraz-ai.md",
-      "paul-graham": "summer2026/evals/paul-graham/shiraz-ai.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/shiraz-ai.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/shiraz-ai.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/shiraz-ai.md"
-    }
+    "evals": {}
   }
 }

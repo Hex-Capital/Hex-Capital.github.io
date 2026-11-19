@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/beacon-health.jpg",
   "memoGeneratedAt": "2026-03-05T07:11:05.781Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 51,
-    "NR": 47,
-    "PG": 63,
-    "PT": 32,
-    "SL": 33,
-    "VK": 45
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.86,
-  "consolidatedRank": 59,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/beacon-health.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/beacon-health.md",
-      "elad-gil": "winter2026/evals/elad-gil/beacon-health.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/beacon-health.md",
-      "paul-graham": "winter2026/evals/paul-graham/beacon-health.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/beacon-health.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/beacon-health.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/beacon-health.md"
-    }
+    "evals": {}
   }
 }

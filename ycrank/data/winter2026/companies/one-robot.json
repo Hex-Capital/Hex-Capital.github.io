@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/one-robot.jpg",
   "memoGeneratedAt": "2026-03-09T22:06:10.157Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 52,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 57,
-    "NR": 67,
-    "PG": 66,
-    "PT": 47,
-    "SL": 42,
-    "VK": 52
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 53.43,
-  "consolidatedRank": 19,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/one-robot.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/one-robot.md",
-      "elad-gil": "winter2026/evals/elad-gil/one-robot.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/one-robot.md",
-      "paul-graham": "winter2026/evals/paul-graham/one-robot.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/one-robot.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/one-robot.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/one-robot.md"
-    }
+    "evals": {}
   }
 }

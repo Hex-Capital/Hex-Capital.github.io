@@ -14,58 +14,17 @@
   "tags": [],
   "slideImage": "winter2026/slides/images/fixture.jpg",
   "memoGeneratedAt": "2026-03-24T16:37:25.473Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 46,
-    "NR": 52,
-    "PG": 57,
-    "PT": 35,
-    "SL": 28,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.86,
-  "consolidatedRank": 95,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/fixture.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/fixture.md",
-      "elad-gil": "winter2026/evals/elad-gil/fixture.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/fixture.md",
-      "paul-graham": "winter2026/evals/paul-graham/fixture.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/fixture.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/fixture.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/fixture.md"
-    }
+    "evals": {}
   }
 }

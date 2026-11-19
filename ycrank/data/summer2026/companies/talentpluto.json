@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/talentpluto.jpg",
   "memoGeneratedAt": "2026-08-11T05:12:49.943Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 30,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 58,
-    "NR": 60,
-    "PG": 56,
-    "PT": 48,
-    "SL": 46,
-    "VK": 30
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 50.86,
-  "consolidatedRank": 58,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 32,
     "tractionScore": 73,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/talentpluto.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/talentpluto.md",
-      "elad-gil": "summer2026/evals/elad-gil/talentpluto.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/talentpluto.md",
-      "paul-graham": "summer2026/evals/paul-graham/talentpluto.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/talentpluto.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/talentpluto.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/talentpluto.md"
-    }
+    "evals": {}
   }
 }

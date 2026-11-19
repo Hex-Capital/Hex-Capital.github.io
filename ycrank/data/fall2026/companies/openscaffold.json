@@ -41,9 +41,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 143,
-    "tractionScore": 37,
-    "tractionReason": "One publicly identified customer and a reported pilot partner"
+    "tractionRank": 151,
+    "tractionScore": 38,
+    "tractionReason": "Faraday CEO identified himself as a customer. One pilot reported"
   },
   "paths": {
     "memo": "fall2026/memos/openscaffold.md",

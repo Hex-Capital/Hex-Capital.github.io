@@ -44,9 +44,9 @@
   "consolidatedAvg": 34.67,
   "consolidatedRank": 219,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 26,
-    "tractionReason": "Five-plus Android downloads at payments launch"
+    "tractionRank": 181,
+    "tractionScore": 23,
+    "tractionReason": "5+ Android downloads at payments launch. Transaction activity undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/versine.md",

@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/rise-reforming.jpg",
   "memoGeneratedAt": "2026-08-11T05:28:34.131Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 73,
-    "EG": 51,
-    "NR": 61,
-    "PG": 49,
-    "PT": 51,
-    "SL": 43,
-    "VK": 42
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52.86,
-  "consolidatedRank": 43,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 91,
     "tractionScore": 58,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/rise-reforming.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/rise-reforming.md",
-      "elad-gil": "summer2026/evals/elad-gil/rise-reforming.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/rise-reforming.md",
-      "paul-graham": "summer2026/evals/paul-graham/rise-reforming.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/rise-reforming.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/rise-reforming.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/rise-reforming.md"
-    }
+    "evals": {}
   }
 }

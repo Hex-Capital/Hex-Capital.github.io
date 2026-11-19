@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:08:02.821Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 43,
-    "NR": 53,
-    "PG": 48,
-    "PT": 35,
-    "SL": 33,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42,
-  "consolidatedRank": 43,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/sentra.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/sentra.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/sentra.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/sentra.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/sentra.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/sentra.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/sentra.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/sentra.md"
-    }
+    "evals": {}
   }
 }

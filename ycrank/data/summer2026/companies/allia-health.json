@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/allia-health.jpg",
   "memoGeneratedAt": "2026-08-26T05:07:32.780Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 70,
-    "NR": 72,
-    "PG": 58,
-    "PT": 59,
-    "SL": 39,
-    "VK": 42
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 58.43,
-  "consolidatedRank": 11,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 10,
     "tractionScore": 88,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/allia-health.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/allia-health.md",
-      "elad-gil": "summer2026/evals/elad-gil/allia-health.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/allia-health.md",
-      "paul-graham": "summer2026/evals/paul-graham/allia-health.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/allia-health.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/allia-health.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/allia-health.md"
-    }
+    "evals": {}
   }
 }

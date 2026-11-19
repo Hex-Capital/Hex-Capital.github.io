@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/maquoketa-research.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:17.577Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 50,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 43,
-    "NR": 39,
-    "PG": 43,
-    "PT": 58,
-    "SL": 31,
-    "VK": 50
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 65,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 168,
     "tractionScore": 5,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/maquoketa-research.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/maquoketa-research.md",
-      "elad-gil": "spring2026/evals/elad-gil/maquoketa-research.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/maquoketa-research.md",
-      "paul-graham": "spring2026/evals/paul-graham/maquoketa-research.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/maquoketa-research.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/maquoketa-research.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/maquoketa-research.md"
-    }
+    "evals": {}
   }
 }

@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/zerosettle.jpg",
   "memoGeneratedAt": "2026-03-05T01:06:40.064Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 48,
-    "NR": 51,
-    "PG": 48,
-    "PT": 29,
-    "SL": 29,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.57,
-  "consolidatedRank": 101,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/zerosettle.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/zerosettle.md",
-      "elad-gil": "winter2026/evals/elad-gil/zerosettle.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/zerosettle.md",
-      "paul-graham": "winter2026/evals/paul-graham/zerosettle.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/zerosettle.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/zerosettle.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/zerosettle.md"
-    }
+    "evals": {}
   }
 }

@@ -42,9 +42,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 70,
   "traction": {
-    "tractionRank": 35,
-    "tractionScore": 65,
-    "tractionReason": "10 ERP customers across four countries, monthly fee model"
+    "tractionRank": 64,
+    "tractionScore": 60,
+    "tractionReason": "10 ERP customers across four countries. Recurring ERP fee model"
   },
   "paths": {
     "memo": "fall2026/memos/sintropix.md",

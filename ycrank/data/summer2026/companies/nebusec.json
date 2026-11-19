@@ -22,58 +22,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-10-27T22:44:00.510Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 45,
-    "NR": 52,
-    "PG": 46,
-    "PT": 28,
-    "SL": 33,
-    "VK": 28
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40,
-  "consolidatedRank": 156,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "summer2026/memos/nebusec.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/nebusec.md",
-      "elad-gil": "summer2026/evals/elad-gil/nebusec.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/nebusec.md",
-      "paul-graham": "summer2026/evals/paul-graham/nebusec.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/nebusec.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/nebusec.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/nebusec.md"
-    }
+    "evals": {}
   }
 }

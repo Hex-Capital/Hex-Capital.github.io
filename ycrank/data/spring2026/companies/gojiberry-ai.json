@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/gojiberry-ai.jpg",
   "memoGeneratedAt": "2026-06-02T18:49:56.602Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 63,
-    "NR": 41,
-    "PG": 54,
-    "PT": 29,
-    "SL": 39,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 72,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 2,
     "tractionScore": 92,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/gojiberry-ai.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/gojiberry-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/gojiberry-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/gojiberry-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/gojiberry-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/gojiberry-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/gojiberry-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/gojiberry-ai.md"
-    }
+    "evals": {}
   }
 }

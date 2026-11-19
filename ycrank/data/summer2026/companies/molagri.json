@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/molagri.jpg",
   "memoGeneratedAt": "2026-08-11T05:13:05.413Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 48,
-    "NR": 66,
-    "PG": 44,
-    "PT": 41,
-    "SL": 30,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.57,
-  "consolidatedRank": 84,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 140,
     "tractionScore": 47,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/molagri.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/molagri.md",
-      "elad-gil": "summer2026/evals/elad-gil/molagri.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/molagri.md",
-      "paul-graham": "summer2026/evals/paul-graham/molagri.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/molagri.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/molagri.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/molagri.md"
-    }
+    "evals": {}
   }
 }

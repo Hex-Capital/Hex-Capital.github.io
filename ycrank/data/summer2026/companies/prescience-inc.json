@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/prescience-inc.jpg",
   "memoGeneratedAt": "2026-08-11T06:02:21.104Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 47,
-    "NR": 55,
-    "PG": 39,
-    "PT": 39,
-    "SL": 34,
-    "VK": 41
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.14,
-  "consolidatedRank": 110,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 169,
     "tractionScore": 41,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/prescience-inc.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/prescience-inc.md",
-      "elad-gil": "summer2026/evals/elad-gil/prescience-inc.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/prescience-inc.md",
-      "paul-graham": "summer2026/evals/paul-graham/prescience-inc.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/prescience-inc.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/prescience-inc.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/prescience-inc.md"
-    }
+    "evals": {}
   }
 }

@@ -19,58 +19,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:58:49.385Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 53,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 47,
-    "NR": 54,
-    "PG": 68,
-    "PT": 50,
-    "SL": 51,
-    "VK": 53
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54.14,
-  "consolidatedRank": 9,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/miraka.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/miraka.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/miraka.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/miraka.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/miraka.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/miraka.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/miraka.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/miraka.md"
-    }
+    "evals": {}
   }
 }

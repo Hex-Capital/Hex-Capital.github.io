@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/kyten-technologies.jpg",
   "memoGeneratedAt": "2026-03-05T01:04:43.956Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 56,
-    "NR": 62,
-    "PG": 62,
-    "PT": 48,
-    "SL": 53,
-    "VK": 46
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 23,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/kyten-technologies.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/kyten-technologies.md",
-      "elad-gil": "winter2026/evals/elad-gil/kyten-technologies.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/kyten-technologies.md",
-      "paul-graham": "winter2026/evals/paul-graham/kyten-technologies.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/kyten-technologies.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/kyten-technologies.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/kyten-technologies.md"
-    }
+    "evals": {}
   }
 }

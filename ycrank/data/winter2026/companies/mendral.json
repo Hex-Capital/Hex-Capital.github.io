@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/mendral.jpg",
   "memoGeneratedAt": "2026-02-28T04:20:23.013Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 82,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 68,
-    "NR": 72,
-    "PG": 82,
-    "PT": 49,
-    "SL": 37,
-    "VK": 47
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 57.14,
-  "consolidatedRank": 9,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/mendral.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/mendral.md",
-      "elad-gil": "winter2026/evals/elad-gil/mendral.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/mendral.md",
-      "paul-graham": "winter2026/evals/paul-graham/mendral.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/mendral.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/mendral.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/mendral.md"
-    }
+    "evals": {}
   }
 }

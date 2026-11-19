@@ -42,9 +42,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 49,
+    "tractionRank": 58,
     "tractionScore": 61,
-    "tractionReason": "Paid design-partner pilots, shipping sleeves, signed sewing LOI"
+    "tractionReason": "Paid pilots, sleeve shipments, and a signed sewing automation LOI"
   },
   "paths": {
     "memo": "fall2026/memos/axonnic.md",

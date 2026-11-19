@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/runanywhere.jpg",
   "memoGeneratedAt": "2026-03-05T07:20:08.060Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 47,
-    "NR": 50,
-    "PG": 58,
-    "PT": 32,
-    "SL": 36,
-    "VK": 45
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43.71,
-  "consolidatedRank": 69,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/runanywhere.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/runanywhere.md",
-      "elad-gil": "winter2026/evals/elad-gil/runanywhere.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/runanywhere.md",
-      "paul-graham": "winter2026/evals/paul-graham/runanywhere.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/runanywhere.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/runanywhere.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/runanywhere.md"
-    }
+    "evals": {}
   }
 }

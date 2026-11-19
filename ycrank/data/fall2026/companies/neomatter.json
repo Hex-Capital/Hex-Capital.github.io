@@ -42,9 +42,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 137,
-    "tractionScore": 38,
-    "tractionReason": "Reported 73% weekly user growth, one early customer"
+    "tractionRank": 129,
+    "tractionScore": 43,
+    "tractionReason": "Reported 73% weekly user growth. One early customer documented"
   },
   "paths": {
     "memo": "fall2026/memos/neomatter.md",

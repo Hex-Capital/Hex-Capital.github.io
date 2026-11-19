@@ -15,58 +15,17 @@
   "tags": [],
   "slideImage": "winter2026/slides/images/pocket.jpg",
   "memoGeneratedAt": "2026-03-03T23:06:58.781Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 75,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 46,
-    "NR": 55,
-    "PG": 75,
-    "PT": 33,
-    "SL": 39,
-    "VK": 43
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.29,
-  "consolidatedRank": 46,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/pocket.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/pocket.md",
-      "elad-gil": "winter2026/evals/elad-gil/pocket.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/pocket.md",
-      "paul-graham": "winter2026/evals/paul-graham/pocket.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/pocket.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/pocket.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/pocket.md"
-    }
+    "evals": {}
   }
 }

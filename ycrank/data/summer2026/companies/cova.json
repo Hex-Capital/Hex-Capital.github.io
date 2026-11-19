@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/cova.jpg",
   "memoGeneratedAt": "2026-08-11T05:55:35.069Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 47,
-    "NR": 54,
-    "PG": 61,
-    "PT": 44,
-    "SL": 34,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.57,
-  "consolidatedRank": 83,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 62,
     "tractionScore": 64,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/cova.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/cova.md",
-      "elad-gil": "summer2026/evals/elad-gil/cova.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/cova.md",
-      "paul-graham": "summer2026/evals/paul-graham/cova.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/cova.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/cova.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/cova.md"
-    }
+    "evals": {}
   }
 }

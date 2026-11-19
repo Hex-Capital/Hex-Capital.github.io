@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/ditto-biosciences.jpg",
   "memoGeneratedAt": "2026-02-28T04:13:54.213Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "vinod-khosla": {
-      "score": 68,
-      "tier": "Invest"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 63,
-    "EG": 45,
-    "NR": 71,
-    "PG": 56,
-    "PT": 53,
-    "SL": 66,
-    "VK": 68
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 60.29,
-  "consolidatedRank": 7,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/ditto-biosciences.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/ditto-biosciences.md",
-      "elad-gil": "winter2026/evals/elad-gil/ditto-biosciences.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/ditto-biosciences.md",
-      "paul-graham": "winter2026/evals/paul-graham/ditto-biosciences.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/ditto-biosciences.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/ditto-biosciences.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/ditto-biosciences.md"
-    }
+    "evals": {}
   }
 }

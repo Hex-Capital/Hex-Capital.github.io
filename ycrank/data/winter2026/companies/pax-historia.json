@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/pax-historia.jpg",
   "memoGeneratedAt": "2026-03-06T05:43:07.443Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 53,
-    "NR": 46,
-    "PG": 56,
-    "PT": 38,
-    "SL": 37,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43.29,
-  "consolidatedRank": 71,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/pax-historia.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/pax-historia.md",
-      "elad-gil": "winter2026/evals/elad-gil/pax-historia.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/pax-historia.md",
-      "paul-graham": "winter2026/evals/paul-graham/pax-historia.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/pax-historia.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/pax-historia.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/pax-historia.md"
-    }
+    "evals": {}
   }
 }

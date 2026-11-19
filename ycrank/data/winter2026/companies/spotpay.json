@@ -18,58 +18,17 @@
   ],
   "slideImage": "winter2026/slides/images/spotpay.jpg",
   "memoGeneratedAt": "2026-02-27T15:59:37.412Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 41,
-    "NR": 43,
-    "PG": 55,
-    "PT": 30,
-    "SL": 36,
-    "VK": 45
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.86,
-  "consolidatedRank": 75,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/spotpay.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/spotpay.md",
-      "elad-gil": "winter2026/evals/elad-gil/spotpay.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/spotpay.md",
-      "paul-graham": "winter2026/evals/paul-graham/spotpay.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/spotpay.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/spotpay.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/spotpay.md"
-    }
+    "evals": {}
   }
 }

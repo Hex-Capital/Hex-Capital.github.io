@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/samora-ai.jpg",
   "memoGeneratedAt": "2026-02-28T04:25:41.614Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 42,
-    "NR": 54,
-    "PG": 66,
-    "PT": 36,
-    "SL": 32,
-    "VK": 45
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 48.71,
-  "consolidatedRank": 39,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/samora-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/samora-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/samora-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/samora-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/samora-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/samora-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/samora-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/samora-ai.md"
-    }
+    "evals": {}
   }
 }

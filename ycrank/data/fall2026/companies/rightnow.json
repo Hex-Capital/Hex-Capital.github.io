@@ -43,9 +43,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 39,
-    "tractionReason": "Named kernel-tool users and hosted inference with prepaid top-ups"
+    "tractionRank": 76,
+    "tractionScore": 59,
+    "tractionReason": "Kernel tools used at NVIDIA and others. Hosted balances migrated"
   },
   "paths": {
     "memo": "fall2026/memos/rightnow.md",

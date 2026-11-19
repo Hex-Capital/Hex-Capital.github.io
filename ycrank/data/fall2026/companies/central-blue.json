@@ -40,11 +40,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 35.33,
-  "consolidatedRank": 198,
+  "consolidatedRank": 199,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 30,
-    "tractionReason": "Named Wave Motion demonstration planned, power-beaming prototype unfinished"
+    "tractionRank": 176,
+    "tractionScore": 29,
+    "tractionReason": "Wave Motion demonstration planned. Spacecraft tests with Satlyt and Blackwing pending"
   },
   "paths": {
     "memo": "fall2026/memos/central-blue.md",

@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/memoir.jpg",
   "memoGeneratedAt": "2026-05-28T03:04:36.911Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 19,
-      "tier": "Strong Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 31,
-    "NR": 30,
-    "PG": 29,
-    "PT": 24,
-    "SL": 19,
-    "VK": 25
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 26.57,
-  "consolidatedRank": 196,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 64,
     "tractionScore": 20,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/memoir.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/memoir.md",
-      "elad-gil": "spring2026/evals/elad-gil/memoir.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/memoir.md",
-      "paul-graham": "spring2026/evals/paul-graham/memoir.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/memoir.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/memoir.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/memoir.md"
-    }
+    "evals": {}
   }
 }

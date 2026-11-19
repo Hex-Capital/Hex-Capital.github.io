@@ -42,9 +42,9 @@
   "consolidatedAvg": 34,
   "consolidatedRank": 229,
   "traction": {
-    "tractionRank": 221,
-    "tractionScore": 8,
-    "tractionReason": "Public launch, no disclosed bank or fintech customers"
+    "tractionRank": 216,
+    "tractionScore": 7,
+    "tractionReason": "Public compliance product launch. No disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/hickory-and-company.md",

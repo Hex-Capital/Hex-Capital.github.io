@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "spring2026/slides/images/openwork.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:07.720Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 50,
-    "NR": 54,
-    "PG": 53,
-    "PT": 31,
-    "SL": 33,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.14,
-  "consolidatedRank": 81,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 42,
     "tractionScore": 34,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/openwork.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/openwork.md",
-      "elad-gil": "spring2026/evals/elad-gil/openwork.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/openwork.md",
-      "paul-graham": "spring2026/evals/paul-graham/openwork.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/openwork.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/openwork.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/openwork.md"
-    }
+    "evals": {}
   }
 }

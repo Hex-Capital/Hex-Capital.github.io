@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:08:43.802Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 37,
-    "NR": 46,
-    "PG": 39,
-    "PT": 29,
-    "SL": 30,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 59,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/simula.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/simula.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/simula.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/simula.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/simula.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/simula.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/simula.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/simula.md"
-    }
+    "evals": {}
   }
 }

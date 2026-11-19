@@ -42,9 +42,9 @@
   "consolidatedAvg": 34,
   "consolidatedRank": 230,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 24,
-    "tractionReason": "Early access opened, active-user count undisclosed"
+    "tractionRank": 191,
+    "tractionScore": 17,
+    "tractionReason": "Early access open. No disclosed user counts or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/proto.md",

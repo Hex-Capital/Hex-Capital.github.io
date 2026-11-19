@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/egoist-machines.jpg",
   "memoGeneratedAt": "2026-08-11T05:40:26.574Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 35,
-    "NR": 31,
-    "PG": 37,
-    "PT": 36,
-    "SL": 37,
-    "VK": 23
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36,
-  "consolidatedRank": 198,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 174,
     "tractionScore": 40,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/egoist-machines.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/egoist-machines.md",
-      "elad-gil": "summer2026/evals/elad-gil/egoist-machines.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/egoist-machines.md",
-      "paul-graham": "summer2026/evals/paul-graham/egoist-machines.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/egoist-machines.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/egoist-machines.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/egoist-machines.md"
-    }
+    "evals": {}
   }
 }

@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/denta.jpg",
   "memoGeneratedAt": "2026-08-11T04:58:01.629Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 40,
-    "NR": 42,
-    "PG": 47,
-    "PT": 35,
-    "SL": 37,
-    "VK": 23
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.29,
-  "consolidatedRank": 163,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 113,
     "tractionScore": 53,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/denta.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/denta.md",
-      "elad-gil": "summer2026/evals/elad-gil/denta.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/denta.md",
-      "paul-graham": "summer2026/evals/paul-graham/denta.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/denta.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/denta.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/denta.md"
-    }
+    "evals": {}
   }
 }

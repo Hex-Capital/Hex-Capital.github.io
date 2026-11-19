@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/ornadyne.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:39.984Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 74,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 74,
-    "EG": 44,
-    "NR": 41,
-    "PG": 66,
-    "PT": 60,
-    "SL": 47,
-    "VK": 48
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54.29,
-  "consolidatedRank": 4,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 109,
     "tractionScore": 10,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/ornadyne.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/ornadyne.md",
-      "elad-gil": "spring2026/evals/elad-gil/ornadyne.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/ornadyne.md",
-      "paul-graham": "spring2026/evals/paul-graham/ornadyne.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/ornadyne.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ornadyne.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/ornadyne.md"
-    }
+    "evals": {}
   }
 }

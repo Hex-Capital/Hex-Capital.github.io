@@ -42,9 +42,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 126,
   "traction": {
-    "tractionRank": 152,
-    "tractionScore": 36,
-    "tractionReason": "500+ external simulated flight hours and a customer testimonial"
+    "tractionRank": 154,
+    "tractionScore": 38,
+    "tractionReason": "500+ external simulated flight hours and one customer testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/uxduck.md",

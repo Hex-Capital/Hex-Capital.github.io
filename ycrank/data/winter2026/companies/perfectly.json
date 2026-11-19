@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/perfectly.jpg",
   "memoGeneratedAt": "2026-03-03T23:12:10.526Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 42,
-    "NR": 45,
-    "PG": 55,
-    "PT": 32,
-    "SL": 30,
-    "VK": 43
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 106,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/perfectly.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/perfectly.md",
-      "elad-gil": "winter2026/evals/elad-gil/perfectly.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/perfectly.md",
-      "paul-graham": "winter2026/evals/paul-graham/perfectly.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/perfectly.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/perfectly.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/perfectly.md"
-    }
+    "evals": {}
   }
 }

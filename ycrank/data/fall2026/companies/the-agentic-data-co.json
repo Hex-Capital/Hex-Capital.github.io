@@ -42,9 +42,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 64,
-    "tractionReason": "Reported AI lab buyers and 8,204 monthly dataset downloads"
+    "tractionRank": 49,
+    "tractionScore": 63,
+    "tractionReason": "Reports AI labs buying data. 8,204 monthly public dataset downloads"
   },
   "paths": {
     "memo": "fall2026/memos/the-agentic-data-co.md",

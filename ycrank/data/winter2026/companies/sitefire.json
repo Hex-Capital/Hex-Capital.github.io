@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/sitefire.jpg",
   "memoGeneratedAt": "2026-03-02T19:43:01.533Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 35,
-    "NR": 36,
-    "PG": 39,
-    "PT": 23,
-    "SL": 25,
-    "VK": 35
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 31.57,
-  "consolidatedRank": 180,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/sitefire.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/sitefire.md",
-      "elad-gil": "winter2026/evals/elad-gil/sitefire.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/sitefire.md",
-      "paul-graham": "winter2026/evals/paul-graham/sitefire.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/sitefire.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/sitefire.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/sitefire.md"
-    }
+    "evals": {}
   }
 }

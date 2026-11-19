@@ -18,47 +18,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-05-28T02:34:25.767Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 45,
-    "NR": 44,
-    "PG": 53,
-    "PT": 33,
-    "SL": 36,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 64,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 193,
     "tractionScore": 2,
@@ -66,14 +33,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/lattice-health.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/lattice-health.md",
-      "elad-gil": "spring2026/evals/elad-gil/lattice-health.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/lattice-health.md",
-      "paul-graham": "spring2026/evals/paul-graham/lattice-health.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/lattice-health.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/lattice-health.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/lattice-health.md"
-    }
+    "evals": {}
   }
 }

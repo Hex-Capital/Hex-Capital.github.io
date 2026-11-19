@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 37,
-    "tractionReason": "Household grocery beta, grocery partner pilots, 59 iOS ratings"
+    "tractionRank": 139,
+    "tractionScore": 40,
+    "tractionReason": "Grocery-partner pilots reported. 59 U.S. app ratings"
   },
   "paths": {
     "memo": "fall2026/memos/trepo.md",

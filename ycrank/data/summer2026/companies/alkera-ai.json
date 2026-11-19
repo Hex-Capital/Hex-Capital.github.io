@@ -22,47 +22,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-11T05:15:16.142Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 43,
-    "NR": 52,
-    "PG": 40,
-    "PT": 46,
-    "SL": 32,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.86,
-  "consolidatedRank": 157,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 166,
     "tractionScore": 42,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/alkera-ai.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/alkera-ai.md",
-      "elad-gil": "summer2026/evals/elad-gil/alkera-ai.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/alkera-ai.md",
-      "paul-graham": "summer2026/evals/paul-graham/alkera-ai.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/alkera-ai.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/alkera-ai.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/alkera-ai.md"
-    }
+    "evals": {}
   }
 }

@@ -41,9 +41,9 @@
   "consolidatedAvg": 33.33,
   "consolidatedRank": 233,
   "traction": {
-    "tractionRank": 198,
-    "tractionScore": 19,
-    "tractionReason": "Current oncology offering has a demo, no disclosed paying customers"
+    "tractionRank": 203,
+    "tractionScore": 12,
+    "tractionReason": "GalenOps demo available. Current-product pilots or sales undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/nxtcure-labs.md",

@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/praxis-robotics.jpg",
   "memoGeneratedAt": "2026-08-26T05:11:28.851Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 24,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 54,
-    "EG": 45,
-    "NR": 47,
-    "PG": 36,
-    "PT": 40,
-    "SL": 30,
-    "VK": 24
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 161,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 129,
     "tractionScore": 50,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/praxis-robotics.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/praxis-robotics.md",
-      "elad-gil": "summer2026/evals/elad-gil/praxis-robotics.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/praxis-robotics.md",
-      "paul-graham": "summer2026/evals/paul-graham/praxis-robotics.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/praxis-robotics.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/praxis-robotics.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/praxis-robotics.md"
-    }
+    "evals": {}
   }
 }

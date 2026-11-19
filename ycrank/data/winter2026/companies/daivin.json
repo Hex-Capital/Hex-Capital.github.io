@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/daivin.jpg",
   "memoGeneratedAt": "2026-02-27T06:34:33.437Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 56,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 53,
-    "EG": 33,
-    "NR": 47,
-    "PG": 47,
-    "PT": 57,
-    "SL": 61,
-    "VK": 56
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 50.57,
-  "consolidatedRank": 32,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/daivin.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/daivin.md",
-      "elad-gil": "winter2026/evals/elad-gil/daivin.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/daivin.md",
-      "paul-graham": "winter2026/evals/paul-graham/daivin.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/daivin.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/daivin.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/daivin.md"
-    }
+    "evals": {}
   }
 }

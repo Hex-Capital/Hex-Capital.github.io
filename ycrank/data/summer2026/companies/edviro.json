@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/edviro.jpg",
   "memoGeneratedAt": "2026-08-11T04:28:13.415Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 39,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 60,
-    "NR": 65,
-    "PG": 73,
-    "PT": 47,
-    "SL": 45,
-    "VK": 39
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 55.14,
-  "consolidatedRank": 28,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 48,
     "tractionScore": 67,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/edviro.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/edviro.md",
-      "elad-gil": "summer2026/evals/elad-gil/edviro.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/edviro.md",
-      "paul-graham": "summer2026/evals/paul-graham/edviro.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/edviro.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/edviro.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/edviro.md"
-    }
+    "evals": {}
   }
 }

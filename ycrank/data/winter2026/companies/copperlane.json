@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/copperlane.jpg",
   "memoGeneratedAt": "2026-03-09T16:28:36.101Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 55,
-    "NR": 48,
-    "PG": 63,
-    "PT": 36,
-    "SL": 29,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.43,
-  "consolidatedRank": 55,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/copperlane.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/copperlane.md",
-      "elad-gil": "winter2026/evals/elad-gil/copperlane.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/copperlane.md",
-      "paul-graham": "winter2026/evals/paul-graham/copperlane.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/copperlane.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/copperlane.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/copperlane.md"
-    }
+    "evals": {}
   }
 }

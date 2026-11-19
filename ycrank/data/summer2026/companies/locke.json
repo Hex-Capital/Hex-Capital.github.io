@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/locke.jpg",
   "memoGeneratedAt": "2026-08-11T04:38:36.522Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 16,
-      "tier": "Strong Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 61,
-    "NR": 47,
-    "PG": 46,
-    "PT": 40,
-    "SL": 39,
-    "VK": 16
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 138,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 14,
     "tractionScore": 85,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/locke.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/locke.md",
-      "elad-gil": "summer2026/evals/elad-gil/locke.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/locke.md",
-      "paul-graham": "summer2026/evals/paul-graham/locke.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/locke.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/locke.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/locke.md"
-    }
+    "evals": {}
   }
 }

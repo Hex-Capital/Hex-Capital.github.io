@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/robodock.jpg",
   "memoGeneratedAt": "2026-03-05T01:02:07.038Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 54,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 56,
-    "NR": 58,
-    "PG": 60,
-    "PT": 38,
-    "SL": 43,
-    "VK": 54
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 50.86,
-  "consolidatedRank": 31,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/robodock.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/robodock.md",
-      "elad-gil": "winter2026/evals/elad-gil/robodock.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/robodock.md",
-      "paul-graham": "winter2026/evals/paul-graham/robodock.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/robodock.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/robodock.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/robodock.md"
-    }
+    "evals": {}
   }
 }

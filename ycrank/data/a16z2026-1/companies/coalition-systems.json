@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:54:06.167Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 52,
-    "NR": 40,
-    "PG": 44,
-    "PT": 43,
-    "SL": 40,
-    "VK": 42
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 31,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/coalition-systems.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/coalition-systems.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/coalition-systems.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/coalition-systems.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/coalition-systems.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/coalition-systems.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/coalition-systems.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/coalition-systems.md"
-    }
+    "evals": {}
   }
 }

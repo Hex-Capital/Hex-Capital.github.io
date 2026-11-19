@@ -44,9 +44,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 34,
-    "tractionReason": "Testing at San Francisco clinics, paid test offered"
+    "tractionRank": 157,
+    "tractionScore": 37,
+    "tractionReason": "Testing in San Francisco clinics. Paying test volume undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/saccade.md",

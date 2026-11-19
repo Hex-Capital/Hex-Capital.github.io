@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/lexius.jpg",
   "memoGeneratedAt": "2026-03-05T07:15:22.057Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 45,
-    "NR": 41,
-    "PG": 57,
-    "PT": 30,
-    "SL": 31,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.43,
-  "consolidatedRank": 88,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/lexius.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/lexius.md",
-      "elad-gil": "winter2026/evals/elad-gil/lexius.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/lexius.md",
-      "paul-graham": "winter2026/evals/paul-graham/lexius.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/lexius.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/lexius.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/lexius.md"
-    }
+    "evals": {}
   }
 }

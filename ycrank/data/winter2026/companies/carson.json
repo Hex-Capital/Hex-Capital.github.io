@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/carson.jpg",
   "memoGeneratedAt": "2026-03-09T16:31:52.717Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 39,
-    "NR": 40,
-    "PG": 43,
-    "PT": 31,
-    "SL": 29,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 146,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/carson.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/carson.md",
-      "elad-gil": "winter2026/evals/elad-gil/carson.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/carson.md",
-      "paul-graham": "winter2026/evals/paul-graham/carson.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/carson.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/carson.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/carson.md"
-    }
+    "evals": {}
   }
 }

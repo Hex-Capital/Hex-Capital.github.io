@@ -44,9 +44,9 @@
   "consolidatedAvg": 34.33,
   "consolidatedRank": 222,
   "traction": {
-    "tractionRank": 188,
-    "tractionScore": 25,
-    "tractionReason": "Refundable $199 reservations offered, volume undisclosed"
+    "tractionRank": 189,
+    "tractionScore": 17,
+    "tractionReason": "Refundable $199 reservations offered. Reservation count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cyclon.md",

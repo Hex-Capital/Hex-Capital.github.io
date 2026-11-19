@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/saudara-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:45.314Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 30,
-    "NR": 44,
-    "PG": 52,
-    "PT": 31,
-    "SL": 52,
-    "VK": 29
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.57,
-  "consolidatedRank": 75,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 88,
     "tractionScore": 13,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/saudara-ai.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/saudara-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/saudara-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/saudara-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/saudara-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/saudara-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/saudara-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/saudara-ai.md"
-    }
+    "evals": {}
   }
 }

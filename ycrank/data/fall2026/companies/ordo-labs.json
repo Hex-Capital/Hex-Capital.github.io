@@ -43,9 +43,9 @@
   "consolidatedAvg": 42.67,
   "consolidatedRank": 20,
   "traction": {
-    "tractionRank": 48,
-    "tractionScore": 61,
-    "tractionReason": "Paid pilots with regulated labs in the US and Europe"
+    "tractionRank": 53,
+    "tractionScore": 62,
+    "tractionReason": "Paid pilots with regulated labs in the U.S. and Europe"
   },
   "paths": {
     "memo": "fall2026/memos/ordo-labs.md",

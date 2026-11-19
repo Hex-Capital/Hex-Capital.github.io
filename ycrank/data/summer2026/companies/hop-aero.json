@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "summer2026/slides/images/hop-aero.jpg",
   "memoGeneratedAt": "2026-08-11T04:38:31.982Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 51,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 47,
-    "NR": 69,
-    "PG": 47,
-    "PT": 43,
-    "SL": 40,
-    "VK": 51
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52.29,
-  "consolidatedRank": 49,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 5,
     "tractionScore": 92,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/hop-aero.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/hop-aero.md",
-      "elad-gil": "summer2026/evals/elad-gil/hop-aero.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/hop-aero.md",
-      "paul-graham": "summer2026/evals/paul-graham/hop-aero.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/hop-aero.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/hop-aero.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/hop-aero.md"
-    }
+    "evals": {}
   }
 }

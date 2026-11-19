@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/kebra.jpg",
   "memoGeneratedAt": "2026-08-11T05:45:17.685Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 21,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 55,
-    "NR": 44,
-    "PG": 44,
-    "PT": 27,
-    "SL": 37,
-    "VK": 21
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.86,
-  "consolidatedRank": 180,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 96,
     "tractionScore": 57,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/kebra.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/kebra.md",
-      "elad-gil": "summer2026/evals/elad-gil/kebra.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/kebra.md",
-      "paul-graham": "summer2026/evals/paul-graham/kebra.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/kebra.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/kebra.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/kebra.md"
-    }
+    "evals": {}
   }
 }

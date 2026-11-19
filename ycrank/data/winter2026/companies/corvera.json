@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/corvera.jpg",
   "memoGeneratedAt": "2026-03-06T05:56:09.586Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 51,
-    "NR": 51,
-    "PG": 60,
-    "PT": 33,
-    "SL": 28,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.71,
-  "consolidatedRank": 76,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/corvera.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/corvera.md",
-      "elad-gil": "winter2026/evals/elad-gil/corvera.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/corvera.md",
-      "paul-graham": "winter2026/evals/paul-graham/corvera.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/corvera.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/corvera.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/corvera.md"
-    }
+    "evals": {}
   }
 }

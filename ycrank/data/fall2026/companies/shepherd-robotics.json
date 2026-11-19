@@ -44,9 +44,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 89,
   "traction": {
-    "tractionRank": 212,
-    "tractionScore": 12,
-    "tractionReason": "Prototype bench results, no disclosed customer deployments"
+    "tractionRank": 218,
+    "tractionScore": 7,
+    "tractionReason": "Robot bench tests released. No disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/shepherd-robotics.md",

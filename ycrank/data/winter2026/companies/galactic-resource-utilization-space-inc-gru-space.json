@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/galactic-resource-utilization-space-inc-gru-space.jpg",
   "memoGeneratedAt": "2026-03-06T06:12:42.751Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 66,
-      "tier": "Invest"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 28,
-    "NR": 42,
-    "PG": 39,
-    "PT": 44,
-    "SL": 64,
-    "VK": 66
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.43,
-  "consolidatedRank": 44,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/galactic-resource-utilization-space-inc-gru-space.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/galactic-resource-utilization-space-inc-gru-space.md",
-      "elad-gil": "winter2026/evals/elad-gil/galactic-resource-utilization-space-inc-gru-space.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/galactic-resource-utilization-space-inc-gru-space.md",
-      "paul-graham": "winter2026/evals/paul-graham/galactic-resource-utilization-space-inc-gru-space.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/galactic-resource-utilization-space-inc-gru-space.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/galactic-resource-utilization-space-inc-gru-space.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/galactic-resource-utilization-space-inc-gru-space.md"
-    }
+    "evals": {}
   }
 }

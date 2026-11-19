@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "spring2026/slides/images/humwork.jpg",
   "memoGeneratedAt": "2026-05-28T03:11:25.192Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 52,
-    "NR": 63,
-    "PG": 58,
-    "PT": 39,
-    "SL": 29,
-    "VK": 33
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.43,
-  "consolidatedRank": 47,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 34,
     "tractionScore": 42,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/humwork.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/humwork.md",
-      "elad-gil": "spring2026/evals/elad-gil/humwork.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/humwork.md",
-      "paul-graham": "spring2026/evals/paul-graham/humwork.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/humwork.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/humwork.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/humwork.md"
-    }
+    "evals": {}
   }
 }

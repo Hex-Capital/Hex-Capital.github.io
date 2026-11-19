@@ -20,47 +20,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-26T05:06:12.602Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 42,
-    "NR": 43,
-    "PG": 36,
-    "PT": 32,
-    "SL": 28,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38.29,
-  "consolidatedRank": 173,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 190,
     "tractionScore": 24,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/magma.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/magma.md",
-      "elad-gil": "summer2026/evals/elad-gil/magma.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/magma.md",
-      "paul-graham": "summer2026/evals/paul-graham/magma.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/magma.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/magma.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/magma.md"
-    }
+    "evals": {}
   }
 }

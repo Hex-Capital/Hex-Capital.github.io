@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/meteoric.jpg",
   "memoGeneratedAt": "2026-08-26T05:26:11.741Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 68,
-    "EG": 42,
-    "NR": 51,
-    "PG": 43,
-    "PT": 44,
-    "SL": 30,
-    "VK": 33
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.43,
-  "consolidatedRank": 116,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 154,
     "tractionScore": 44,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/meteoric.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/meteoric.md",
-      "elad-gil": "summer2026/evals/elad-gil/meteoric.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/meteoric.md",
-      "paul-graham": "summer2026/evals/paul-graham/meteoric.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/meteoric.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/meteoric.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/meteoric.md"
-    }
+    "evals": {}
   }
 }

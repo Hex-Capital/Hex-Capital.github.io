@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/frontier-computing.jpg",
   "memoGeneratedAt": "2026-09-10T14:35:50.826Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 64,
-    "EG": 50,
-    "NR": 61,
-    "PG": 53,
-    "PT": 52,
-    "SL": 40,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 50.86,
-  "consolidatedRank": 57,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 151,
     "tractionScore": 45,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/frontier-computing.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/frontier-computing.md",
-      "elad-gil": "summer2026/evals/elad-gil/frontier-computing.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/frontier-computing.md",
-      "paul-graham": "summer2026/evals/paul-graham/frontier-computing.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/frontier-computing.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/frontier-computing.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/frontier-computing.md"
-    }
+    "evals": {}
   }
 }

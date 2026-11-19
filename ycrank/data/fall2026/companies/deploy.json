@@ -40,9 +40,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 203,
-    "tractionScore": 17,
-    "tractionReason": "Trade-show packing demonstration, no disclosed deployments"
+    "tractionRank": 201,
+    "tractionScore": 13,
+    "tractionReason": "Packed 800+ pens in booth demo. Customer sites undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/deploy.md",

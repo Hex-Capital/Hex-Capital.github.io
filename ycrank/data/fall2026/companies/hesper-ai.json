@@ -42,9 +42,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 67,
-    "tractionReason": "Paying production customers, carrier pilots, $5M in claim value processed"
+    "tractionRank": 31,
+    "tractionScore": 66,
+    "tractionReason": "Paying production customers plus pilots across carriers, MGAs, and TPAs"
   },
   "paths": {
     "memo": "fall2026/memos/hesper-ai.md",

@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/strand-ai.jpg",
   "memoGeneratedAt": "2026-03-05T01:11:36.873Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 58,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 54,
-    "NR": 67,
-    "PG": 59,
-    "PT": 42,
-    "SL": 37,
-    "VK": 58
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 51.71,
-  "consolidatedRank": 30,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/strand-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/strand-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/strand-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/strand-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/strand-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/strand-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/strand-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/strand-ai.md"
-    }
+    "evals": {}
   }
 }

@@ -41,9 +41,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 83,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 54,
-    "tractionReason": "28 hospitals live, 53 onboarding, free core hospital access"
+    "tractionRank": 77,
+    "tractionScore": 58,
+    "tractionReason": "28 hospitals live and 53 onboarding. Core access free"
   },
   "paths": {
     "memo": "fall2026/memos/conus.md",

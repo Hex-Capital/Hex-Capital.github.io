@@ -44,9 +44,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 46,
-    "tractionReason": "Several active industry pilots, buyer names and payment undisclosed"
+    "tractionRank": 117,
+    "tractionScore": 49,
+    "tractionReason": "Several active industry pilots. Counterparties and payment terms undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/dualizer.md",

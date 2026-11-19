@@ -18,47 +18,14 @@
   ],
   "slideImage": "spring2026/slides/images/plena-health.jpg",
   "memoGeneratedAt": "2026-05-30T22:53:55.923Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 57,
-    "NR": 38,
-    "PG": 47,
-    "PT": 35,
-    "SL": 34,
-    "VK": 30
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 108,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 3,
     "tractionScore": 88,
@@ -66,14 +33,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/plena-health.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/plena-health.md",
-      "elad-gil": "spring2026/evals/elad-gil/plena-health.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/plena-health.md",
-      "paul-graham": "spring2026/evals/paul-graham/plena-health.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/plena-health.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/plena-health.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/plena-health.md"
-    }
+    "evals": {}
   }
 }

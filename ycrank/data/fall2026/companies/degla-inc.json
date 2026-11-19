@@ -41,11 +41,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 35.33,
-  "consolidatedRank": 199,
+  "consolidatedRank": 200,
   "traction": {
     "tractionRank": 202,
-    "tractionScore": 17,
-    "tractionReason": "Field demonstration at REACH, commercial uptake undisclosed"
+    "tractionScore": 12,
+    "tractionReason": "Field demonstration at REACH. Customer deployments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/degla-inc.md",

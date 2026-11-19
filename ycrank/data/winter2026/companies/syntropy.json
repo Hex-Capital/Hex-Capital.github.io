@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/syntropy.jpg",
   "memoGeneratedAt": "2026-03-03T21:43:02.226Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 22,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 21,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 22,
-    "EG": 28,
-    "NR": 32,
-    "PG": 27,
-    "PT": 25,
-    "SL": 21,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 26.71,
-  "consolidatedRank": 196,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/syntropy.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/syntropy.md",
-      "elad-gil": "winter2026/evals/elad-gil/syntropy.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/syntropy.md",
-      "paul-graham": "winter2026/evals/paul-graham/syntropy.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/syntropy.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/syntropy.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/syntropy.md"
-    }
+    "evals": {}
   }
 }

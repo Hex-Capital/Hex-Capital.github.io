@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/byteport.jpg",
   "memoGeneratedAt": "2026-02-28T04:18:31.435Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 46,
-    "NR": 50,
-    "PG": 53,
-    "PT": 36,
-    "SL": 37,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43.71,
-  "consolidatedRank": 67,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/byteport.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/byteport.md",
-      "elad-gil": "winter2026/evals/elad-gil/byteport.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/byteport.md",
-      "paul-graham": "winter2026/evals/paul-graham/byteport.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/byteport.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/byteport.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/byteport.md"
-    }
+    "evals": {}
   }
 }

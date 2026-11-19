@@ -18,47 +18,14 @@
   ],
   "slideImage": "spring2026/slides/images/silmaril.jpg",
   "memoGeneratedAt": "2026-05-28T02:42:15.604Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 48,
-    "NR": 50,
-    "PG": 65,
-    "PT": 31,
-    "SL": 34,
-    "VK": 35
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 53,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 98,
     "tractionScore": 11,
@@ -66,14 +33,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/silmaril.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/silmaril.md",
-      "elad-gil": "spring2026/evals/elad-gil/silmaril.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/silmaril.md",
-      "paul-graham": "spring2026/evals/paul-graham/silmaril.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/silmaril.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/silmaril.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/silmaril.md"
-    }
+    "evals": {}
   }
 }

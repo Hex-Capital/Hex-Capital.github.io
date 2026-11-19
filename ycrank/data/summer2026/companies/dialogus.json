@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/dialogus.jpg",
   "memoGeneratedAt": "2026-08-11T05:25:45.693Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 51,
-    "NR": 54,
-    "PG": 52,
-    "PT": 37,
-    "SL": 35,
-    "VK": 33
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 132,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 37,
     "tractionScore": 69,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/dialogus.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/dialogus.md",
-      "elad-gil": "summer2026/evals/elad-gil/dialogus.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/dialogus.md",
-      "paul-graham": "summer2026/evals/paul-graham/dialogus.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/dialogus.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/dialogus.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/dialogus.md"
-    }
+    "evals": {}
   }
 }

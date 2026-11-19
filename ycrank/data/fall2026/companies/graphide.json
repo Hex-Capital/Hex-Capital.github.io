@@ -44,9 +44,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 36,
-    "tractionReason": "Unnamed teams report switching to Graphide CI"
+    "tractionRank": 159,
+    "tractionScore": 37,
+    "tractionReason": "Unnamed teams report switching to Graphide CI. Revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/graphide.md",

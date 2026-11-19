@@ -44,9 +44,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 70,
-    "tractionReason": "Stripe-connected $3,345 company-wide MRR and 38 active subscriptions"
+    "tractionRank": 32,
+    "tractionScore": 66,
+    "tractionReason": "Stripe-connected $3,345 company-wide MRR ($40,140 annualized) and 38 active subscriptions"
   },
   "paths": {
     "memo": "fall2026/memos/databuddy.md",

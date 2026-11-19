@@ -18,58 +18,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:07:47.716Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 39,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 49,
-    "NR": 55,
-    "PG": 52,
-    "PT": 39,
-    "SL": 34,
-    "VK": 39
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43.86,
-  "consolidatedRank": 37,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/sellara.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/sellara.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/sellara.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/sellara.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/sellara.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/sellara.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/sellara.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/sellara.md"
-    }
+    "evals": {}
   }
 }

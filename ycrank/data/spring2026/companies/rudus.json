@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/rudus.jpg",
   "memoGeneratedAt": "2026-05-28T03:03:46.552Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 38,
-    "NR": 26,
-    "PG": 47,
-    "PT": 29,
-    "SL": 23,
-    "VK": 29
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 33.29,
-  "consolidatedRank": 181,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 160,
     "tractionScore": 6,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/rudus.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/rudus.md",
-      "elad-gil": "spring2026/evals/elad-gil/rudus.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/rudus.md",
-      "paul-graham": "spring2026/evals/paul-graham/rudus.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/rudus.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/rudus.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/rudus.md"
-    }
+    "evals": {}
   }
 }

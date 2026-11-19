@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/asendia-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:05.775Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 52,
-    "NR": 41,
-    "PG": 58,
-    "PT": 28,
-    "SL": 30,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 118,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 9,
     "tractionScore": 74,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/asendia-ai.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/asendia-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/asendia-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/asendia-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/asendia-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/asendia-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/asendia-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/asendia-ai.md"
-    }
+    "evals": {}
   }
 }

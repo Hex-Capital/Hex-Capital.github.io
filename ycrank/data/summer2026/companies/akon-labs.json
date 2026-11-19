@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/akon-labs.jpg",
   "memoGeneratedAt": "2026-08-26T05:14:04.507Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 68,
-    "EG": 70,
-    "NR": 59,
-    "PG": 69,
-    "PT": 57,
-    "SL": 40,
-    "VK": 45
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 58.29,
-  "consolidatedRank": 12,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 30,
     "tractionScore": 74,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/akon-labs.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/akon-labs.md",
-      "elad-gil": "summer2026/evals/elad-gil/akon-labs.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/akon-labs.md",
-      "paul-graham": "summer2026/evals/paul-graham/akon-labs.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/akon-labs.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/akon-labs.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/akon-labs.md"
-    }
+    "evals": {}
   }
 }

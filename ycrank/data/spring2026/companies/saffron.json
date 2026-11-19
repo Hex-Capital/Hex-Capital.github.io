@@ -20,47 +20,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-05-28T03:01:41.017Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 50,
-    "NR": 42,
-    "PG": 53,
-    "PT": 31,
-    "SL": 27,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38.14,
-  "consolidatedRank": 136,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 57,
     "tractionScore": 23,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/saffron.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/saffron.md",
-      "elad-gil": "spring2026/evals/elad-gil/saffron.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/saffron.md",
-      "paul-graham": "spring2026/evals/paul-graham/saffron.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/saffron.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/saffron.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/saffron.md"
-    }
+    "evals": {}
   }
 }

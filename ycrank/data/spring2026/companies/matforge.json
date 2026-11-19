@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/matforge.jpg",
   "memoGeneratedAt": "2026-05-28T03:02:20.879Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 50,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 42,
-    "NR": 49,
-    "PG": 70,
-    "PT": 61,
-    "SL": 41,
-    "VK": 50
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52.86,
-  "consolidatedRank": 9,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 120,
     "tractionScore": 9,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/matforge.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/matforge.md",
-      "elad-gil": "spring2026/evals/elad-gil/matforge.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/matforge.md",
-      "paul-graham": "spring2026/evals/paul-graham/matforge.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/matforge.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/matforge.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/matforge.md"
-    }
+    "evals": {}
   }
 }

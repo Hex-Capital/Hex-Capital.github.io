@@ -42,9 +42,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 194,
   "traction": {
-    "tractionRank": 201,
-    "tractionScore": 18,
-    "tractionReason": "Current robot policy launched with task demos, no disclosed customers"
+    "tractionRank": 209,
+    "tractionScore": 8,
+    "tractionReason": "Current robot policy launched. No disclosed customer deployments for it"
   },
   "paths": {
     "memo": "fall2026/memos/runtimesi.md",

@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/axelrod.jpg",
   "memoGeneratedAt": "2026-08-11T04:46:19.073Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 67,
-    "NR": 48,
-    "PG": 52,
-    "PT": 39,
-    "SL": 37,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.86,
-  "consolidatedRank": 79,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 112,
     "tractionScore": 53,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/axelrod.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/axelrod.md",
-      "elad-gil": "summer2026/evals/elad-gil/axelrod.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/axelrod.md",
-      "paul-graham": "summer2026/evals/paul-graham/axelrod.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/axelrod.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/axelrod.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/axelrod.md"
-    }
+    "evals": {}
   }
 }

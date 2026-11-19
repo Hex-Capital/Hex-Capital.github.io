@@ -44,9 +44,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 68,
-    "tractionReason": "67 companies working with its carrier-paid benefits brokerage"
+    "tractionRank": 22,
+    "tractionScore": 71,
+    "tractionReason": "67 companies served through a carrier-commission brokerage model"
   },
   "paths": {
     "memo": "fall2026/memos/decent-com.md",

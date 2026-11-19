@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 35.33,
-  "consolidatedRank": 200,
+  "consolidatedRank": 201,
   "traction": {
     "tractionRank": 161,
-    "tractionScore": 33,
-    "tractionReason": "One user testimonial and hardware preorders open"
+    "tractionScore": 37,
+    "tractionReason": "One user testimonial. Hardware preorder volume undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rhem-labs.md",

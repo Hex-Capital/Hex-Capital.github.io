@@ -44,9 +44,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 118,
   "traction": {
-    "tractionRank": 154,
-    "tractionScore": 35,
-    "tractionReason": "Reported projects with a sugar producer and services marketplace"
+    "tractionRank": 150,
+    "tractionScore": 38,
+    "tractionReason": "Reported logistics projects for a sugar producer and services marketplace"
   },
   "paths": {
     "memo": "fall2026/memos/opera.md",

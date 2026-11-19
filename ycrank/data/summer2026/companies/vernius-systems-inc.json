@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/vernius-systems-inc.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:20.744Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 76,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 51,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 73,
-    "EG": 67,
-    "NR": 73,
-    "PG": 76,
-    "PT": 71,
-    "SL": 47,
-    "VK": 51
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 65.43,
-  "consolidatedRank": 1,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 52,
     "tractionScore": 66,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/vernius-systems-inc.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/vernius-systems-inc.md",
-      "elad-gil": "summer2026/evals/elad-gil/vernius-systems-inc.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/vernius-systems-inc.md",
-      "paul-graham": "summer2026/evals/paul-graham/vernius-systems-inc.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/vernius-systems-inc.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/vernius-systems-inc.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/vernius-systems-inc.md"
-    }
+    "evals": {}
   }
 }

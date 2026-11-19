@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/end-close.jpg",
   "memoGeneratedAt": "2026-02-28T04:32:30.962Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 55,
-    "NR": 57,
-    "PG": 65,
-    "PT": 36,
-    "SL": 32,
-    "VK": 46
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.71,
-  "consolidatedRank": 43,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/end-close.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/end-close.md",
-      "elad-gil": "winter2026/evals/elad-gil/end-close.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/end-close.md",
-      "paul-graham": "winter2026/evals/paul-graham/end-close.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/end-close.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/end-close.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/end-close.md"
-    }
+    "evals": {}
   }
 }

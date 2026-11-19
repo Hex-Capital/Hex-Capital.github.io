@@ -41,9 +41,9 @@
   "consolidatedAvg": 34.33,
   "consolidatedRank": 221,
   "traction": {
-    "tractionRank": 219,
-    "tractionScore": 9,
-    "tractionReason": "Public launch, no disclosed permitting engagements"
+    "tractionRank": 221,
+    "tractionScore": 6,
+    "tractionReason": "Public permitting product launch. No disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/contourholdings.md",

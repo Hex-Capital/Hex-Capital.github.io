@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/general-legal.jpg",
   "memoGeneratedAt": "2026-03-03T23:00:58.367Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 58,
-    "NR": 62,
-    "PG": 70,
-    "PT": 45,
-    "SL": 46,
-    "VK": 49
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 22,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/general-legal.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/general-legal.md",
-      "elad-gil": "winter2026/evals/elad-gil/general-legal.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/general-legal.md",
-      "paul-graham": "winter2026/evals/paul-graham/general-legal.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/general-legal.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/general-legal.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/general-legal.md"
-    }
+    "evals": {}
   }
 }

@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/carsignal.jpg",
   "memoGeneratedAt": "2026-08-11T04:48:49.167Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 18,
-      "tier": "Strong Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 41,
-    "NR": 33,
-    "PG": 46,
-    "PT": 24,
-    "SL": 35,
-    "VK": 18
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 33.43,
-  "consolidatedRank": 210,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 76,
     "tractionScore": 61,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/carsignal.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/carsignal.md",
-      "elad-gil": "summer2026/evals/elad-gil/carsignal.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/carsignal.md",
-      "paul-graham": "summer2026/evals/paul-graham/carsignal.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/carsignal.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/carsignal.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/carsignal.md"
-    }
+    "evals": {}
   }
 }

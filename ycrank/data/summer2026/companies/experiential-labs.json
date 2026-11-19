@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/experiential-labs.jpg",
   "memoGeneratedAt": "2026-08-11T04:29:13.274Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 70,
-    "EG": 65,
-    "NR": 59,
-    "PG": 48,
-    "PT": 42,
-    "SL": 38,
-    "VK": 46
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52.57,
-  "consolidatedRank": 45,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 99,
     "tractionScore": 56,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/experiential-labs.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/experiential-labs.md",
-      "elad-gil": "summer2026/evals/elad-gil/experiential-labs.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/experiential-labs.md",
-      "paul-graham": "summer2026/evals/paul-graham/experiential-labs.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/experiential-labs.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/experiential-labs.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/experiential-labs.md"
-    }
+    "evals": {}
   }
 }

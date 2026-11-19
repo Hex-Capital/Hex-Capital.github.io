@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/bentolabs-ai.jpg",
   "memoGeneratedAt": "2026-05-28T02:51:20.559Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 52,
-    "NR": 53,
-    "PG": 62,
-    "PT": 37,
-    "SL": 31,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.29,
-  "consolidatedRank": 60,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 167,
     "tractionScore": 5,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/bentolabs-ai.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/bentolabs-ai.md",
-      "elad-gil": "spring2026/evals/elad-gil/bentolabs-ai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/bentolabs-ai.md",
-      "paul-graham": "spring2026/evals/paul-graham/bentolabs-ai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/bentolabs-ai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/bentolabs-ai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/bentolabs-ai.md"
-    }
+    "evals": {}
   }
 }

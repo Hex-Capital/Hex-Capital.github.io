@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/autumn-ai.jpg",
   "memoGeneratedAt": "2026-03-06T06:09:47.332Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 22,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 33,
-    "NR": 38,
-    "PG": 47,
-    "PT": 27,
-    "SL": 22,
-    "VK": 33
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 32.86,
-  "consolidatedRank": 171,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/autumn-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/autumn-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/autumn-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/autumn-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/autumn-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/autumn-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/autumn-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/autumn-ai.md"
-    }
+    "evals": {}
   }
 }

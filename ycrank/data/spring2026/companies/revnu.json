@@ -19,47 +19,14 @@
   ],
   "slideImage": "spring2026/slides/images/revnu.jpg",
   "memoGeneratedAt": "2026-05-28T02:34:55.945Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 33,
-    "NR": 40,
-    "PG": 69,
-    "PT": 29,
-    "SL": 28,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.86,
-  "consolidatedRank": 138,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 188,
     "tractionScore": 3,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/revnu.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/revnu.md",
-      "elad-gil": "spring2026/evals/elad-gil/revnu.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/revnu.md",
-      "paul-graham": "spring2026/evals/paul-graham/revnu.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/revnu.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/revnu.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/revnu.md"
-    }
+    "evals": {}
   }
 }

@@ -41,9 +41,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 138,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 41,
-    "tractionReason": "Hospital underpayment recovery pilot, outcome-based fee terms"
+    "tractionRank": 130,
+    "tractionScore": 43,
+    "tractionReason": "Underpayment recovery pilots with outcome-based fees. Collections undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cesara.md",

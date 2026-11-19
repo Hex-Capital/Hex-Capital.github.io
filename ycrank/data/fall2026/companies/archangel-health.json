@@ -41,8 +41,8 @@
   "consolidatedRank": 161,
   "traction": {
     "tractionRank": 145,
-    "tractionScore": 37,
-    "tractionReason": "Reported use by frontier labs and medical AI developers"
+    "tractionScore": 39,
+    "tractionReason": "Reports use by unnamed frontier labs and medical AI developers"
   },
   "paths": {
     "memo": "fall2026/memos/archangel-health.md",

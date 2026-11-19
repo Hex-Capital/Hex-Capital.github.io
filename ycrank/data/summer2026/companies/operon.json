@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-10-27T22:43:43.924Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 43,
-    "NR": 49,
-    "PG": 40,
-    "PT": 28,
-    "SL": 34,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 155,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "summer2026/memos/operon.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/operon.md",
-      "elad-gil": "summer2026/evals/elad-gil/operon.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/operon.md",
-      "paul-graham": "summer2026/evals/paul-graham/operon.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/operon.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/operon.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/operon.md"
-    }
+    "evals": {}
   }
 }

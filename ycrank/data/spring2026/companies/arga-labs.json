@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/arga-labs.jpg",
   "memoGeneratedAt": "2026-05-28T02:53:21.892Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 63,
-    "NR": 52,
-    "PG": 59,
-    "PT": 39,
-    "SL": 29,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.86,
-  "consolidatedRank": 43,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 62,
     "tractionScore": 21,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/arga-labs.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/arga-labs.md",
-      "elad-gil": "spring2026/evals/elad-gil/arga-labs.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arga-labs.md",
-      "paul-graham": "spring2026/evals/paul-graham/arga-labs.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arga-labs.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arga-labs.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arga-labs.md"
-    }
+    "evals": {}
   }
 }

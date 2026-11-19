@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/openprose.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:34.216Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 48,
-    "NR": 60,
-    "PG": 56,
-    "PT": 27,
-    "SL": 31,
-    "VK": 28
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.29,
-  "consolidatedRank": 93,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 81,
     "tractionScore": 15,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/openprose.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/openprose.md",
-      "elad-gil": "spring2026/evals/elad-gil/openprose.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/openprose.md",
-      "paul-graham": "spring2026/evals/paul-graham/openprose.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/openprose.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/openprose.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/openprose.md"
-    }
+    "evals": {}
   }
 }

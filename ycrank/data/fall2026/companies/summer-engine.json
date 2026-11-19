@@ -41,9 +41,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 17,
-    "tractionScore": 74,
-    "tractionReason": "Revenue grew 40% in 30 days, 60,000+ organic users"
+    "tractionRank": 14,
+    "tractionScore": 75,
+    "tractionReason": "40% revenue growth in 30 days and 60,000+ organic users"
   },
   "paths": {
     "memo": "fall2026/memos/summer-engine.md",

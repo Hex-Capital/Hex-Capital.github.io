@@ -21,47 +21,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-26T05:17:40.215Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 49,
-    "NR": 52,
-    "PG": 40,
-    "PT": 37,
-    "SL": 36,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.14,
-  "consolidatedRank": 139,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 89,
     "tractionScore": 58,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/spectre-intelligence.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/spectre-intelligence.md",
-      "elad-gil": "summer2026/evals/elad-gil/spectre-intelligence.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/spectre-intelligence.md",
-      "paul-graham": "summer2026/evals/paul-graham/spectre-intelligence.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/spectre-intelligence.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/spectre-intelligence.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/spectre-intelligence.md"
-    }
+    "evals": {}
   }
 }

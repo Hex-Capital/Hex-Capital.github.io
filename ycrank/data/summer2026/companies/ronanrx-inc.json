@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/ronanrx-inc.jpg",
   "memoGeneratedAt": "2026-08-11T04:55:30.841Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 42,
-    "NR": 44,
-    "PG": 39,
-    "PT": 30,
-    "SL": 33,
-    "VK": 23
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37,
-  "consolidatedRank": 192,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 173,
     "tractionScore": 40,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/ronanrx-inc.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/ronanrx-inc.md",
-      "elad-gil": "summer2026/evals/elad-gil/ronanrx-inc.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/ronanrx-inc.md",
-      "paul-graham": "summer2026/evals/paul-graham/ronanrx-inc.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/ronanrx-inc.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/ronanrx-inc.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/ronanrx-inc.md"
-    }
+    "evals": {}
   }
 }

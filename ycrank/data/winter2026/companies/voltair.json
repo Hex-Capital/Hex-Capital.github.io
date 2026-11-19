@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/voltair.jpg",
   "memoGeneratedAt": "2026-03-06T06:03:00.882Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "vinod-khosla": {
-      "score": 64,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 60,
-    "NR": 63,
-    "PG": 67,
-    "PT": 57,
-    "SL": 66,
-    "VK": 64
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 62,
-  "consolidatedRank": 4,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/voltair.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/voltair.md",
-      "elad-gil": "winter2026/evals/elad-gil/voltair.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/voltair.md",
-      "paul-graham": "winter2026/evals/paul-graham/voltair.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/voltair.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/voltair.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/voltair.md"
-    }
+    "evals": {}
   }
 }

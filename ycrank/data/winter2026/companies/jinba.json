@@ -15,58 +15,17 @@
   "tags": [],
   "slideImage": "winter2026/slides/images/jinba.jpg",
   "memoGeneratedAt": "2026-02-28T04:39:12.809Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 42,
-    "NR": 40,
-    "PG": 46,
-    "PT": 28,
-    "SL": 29,
-    "VK": 34
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.43,
-  "consolidatedRank": 139,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/jinba.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/jinba.md",
-      "elad-gil": "winter2026/evals/elad-gil/jinba.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/jinba.md",
-      "paul-graham": "winter2026/evals/paul-graham/jinba.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/jinba.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/jinba.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/jinba.md"
-    }
+    "evals": {}
   }
 }

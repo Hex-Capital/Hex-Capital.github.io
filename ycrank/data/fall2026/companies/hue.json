@@ -42,9 +42,9 @@
   "consolidatedAvg": 34.33,
   "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 51,
-    "tractionReason": "69K weekly SDK downloads, paid subscriptions described in terms"
+    "tractionRank": 92,
+    "tractionScore": 55,
+    "tractionReason": "69K weekly SDK downloads. Paid subscriptions offered"
   },
   "paths": {
     "memo": "fall2026/memos/hue.md",

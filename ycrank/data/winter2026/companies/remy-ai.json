@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/remy-ai.jpg",
   "memoGeneratedAt": "2026-02-27T16:05:40.609Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 53,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 38,
-    "NR": 46,
-    "PG": 45,
-    "PT": 34,
-    "SL": 33,
-    "VK": 53
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 94,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/remy-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/remy-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/remy-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/remy-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/remy-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/remy-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/remy-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/remy-ai.md"
-    }
+    "evals": {}
   }
 }

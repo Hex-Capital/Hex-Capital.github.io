@@ -40,9 +40,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 29,
-    "tractionReason": "Tender product launched, no disclosed current customers"
+    "tractionRank": 199,
+    "tractionScore": 14,
+    "tractionReason": "Current tender product launched. No disclosed paying customers for it"
   },
   "paths": {
     "memo": "fall2026/memos/capveon.md",

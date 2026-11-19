@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/agency-tool-company.jpg",
   "memoGeneratedAt": "2026-08-11T05:14:40.724Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 73,
-    "EG": 65,
-    "NR": 57,
-    "PG": 67,
-    "PT": 57,
-    "SL": 41,
-    "VK": 30
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 55.71,
-  "consolidatedRank": 24,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 118,
     "tractionScore": 52,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/agency-tool-company.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/agency-tool-company.md",
-      "elad-gil": "summer2026/evals/elad-gil/agency-tool-company.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/agency-tool-company.md",
-      "paul-graham": "summer2026/evals/paul-graham/agency-tool-company.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/agency-tool-company.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/agency-tool-company.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/agency-tool-company.md"
-    }
+    "evals": {}
   }
 }

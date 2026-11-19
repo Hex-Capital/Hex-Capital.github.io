@@ -41,9 +41,9 @@
   "consolidatedAvg": 44.67,
   "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 68,
-    "tractionReason": "55 live facilities, monthly invoicing, named multi-site deployment"
+    "tractionRank": 40,
+    "tractionScore": 65,
+    "tractionReason": "55 live senior-care facilities, with monthly platform invoicing"
   },
   "paths": {
     "memo": "fall2026/memos/ascenix.md",

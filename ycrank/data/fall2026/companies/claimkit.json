@@ -42,9 +42,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 71,
-    "tractionReason": "80+ tax clients across three countries, fee-based engagements"
+    "tractionRank": 18,
+    "tractionScore": 73,
+    "tractionReason": "80+ clients in three countries, including named customers who switched providers"
   },
   "paths": {
     "memo": "fall2026/memos/claimkit.md",

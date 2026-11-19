@@ -43,9 +43,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 105,
-    "tractionScore": 47,
-    "tractionReason": "Pomerado exchanged 38,000 messages, CLI reached 3,907 weekly downloads"
+    "tractionRank": 91,
+    "tractionScore": 55,
+    "tractionReason": "3,907 weekly CLI downloads. Pomerado exchanged 38,000 messages"
   },
   "paths": {
     "memo": "fall2026/memos/agent-relay.md",

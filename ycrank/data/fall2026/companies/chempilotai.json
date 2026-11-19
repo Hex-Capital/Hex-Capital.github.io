@@ -45,8 +45,8 @@
   "consolidatedRank": 146,
   "traction": {
     "tractionRank": 235,
-    "tractionScore": 1,
-    "tractionReason": "First lab running, no disclosed commercial engagements"
+    "tractionScore": 2,
+    "tractionReason": "First lab running. No disclosed current commercial engagements"
   },
   "paths": {
     "memo": "fall2026/memos/chempilotai.md",

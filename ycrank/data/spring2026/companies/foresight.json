@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/foresight.jpg",
   "memoGeneratedAt": "2026-05-28T03:11:05.119Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 46,
-    "NR": 32,
-    "PG": 43,
-    "PT": 26,
-    "SL": 29,
-    "VK": 29
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 33.29,
-  "consolidatedRank": 180,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 136,
     "tractionScore": 8,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/foresight.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/foresight.md",
-      "elad-gil": "spring2026/evals/elad-gil/foresight.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/foresight.md",
-      "paul-graham": "spring2026/evals/paul-graham/foresight.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/foresight.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/foresight.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/foresight.md"
-    }
+    "evals": {}
   }
 }

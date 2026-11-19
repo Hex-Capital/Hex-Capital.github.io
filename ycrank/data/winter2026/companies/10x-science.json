@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/10x-science.jpg",
   "memoGeneratedAt": "2026-03-05T07:13:56.242Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 52,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 58,
-    "NR": 73,
-    "PG": 61,
-    "PT": 45,
-    "SL": 38,
-    "VK": 52
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52.43,
-  "consolidatedRank": 26,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/10x-science.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/10x-science.md",
-      "elad-gil": "winter2026/evals/elad-gil/10x-science.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/10x-science.md",
-      "paul-graham": "winter2026/evals/paul-graham/10x-science.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/10x-science.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/10x-science.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/10x-science.md"
-    }
+    "evals": {}
   }
 }

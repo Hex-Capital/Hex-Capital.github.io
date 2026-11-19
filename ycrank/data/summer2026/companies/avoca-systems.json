@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/avoca-systems.jpg",
   "memoGeneratedAt": "2026-08-11T04:34:28.006Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 62,
-    "NR": 48,
-    "PG": 56,
-    "PT": 51,
-    "SL": 44,
-    "VK": 29
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 49.86,
-  "consolidatedRank": 64,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 36,
     "tractionScore": 69,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/avoca-systems.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/avoca-systems.md",
-      "elad-gil": "summer2026/evals/elad-gil/avoca-systems.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/avoca-systems.md",
-      "paul-graham": "summer2026/evals/paul-graham/avoca-systems.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/avoca-systems.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/avoca-systems.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/avoca-systems.md"
-    }
+    "evals": {}
   }
 }

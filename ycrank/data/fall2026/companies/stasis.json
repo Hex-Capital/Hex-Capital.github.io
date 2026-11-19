@@ -43,9 +43,9 @@
   "consolidatedAvg": 34.33,
   "consolidatedRank": 228,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 25,
-    "tractionReason": "Refundable reservations open, order count undisclosed"
+    "tractionRank": 190,
+    "tractionScore": 17,
+    "tractionReason": "Refundable $99 reservations opened. Reservation count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/stasis.md",

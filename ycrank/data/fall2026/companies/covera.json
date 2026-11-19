@@ -44,9 +44,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 23,
   "traction": {
-    "tractionRank": 72,
-    "tractionScore": 55,
-    "tractionReason": "90+ brokers live, two named customer case studies"
+    "tractionRank": 74,
+    "tractionScore": 59,
+    "tractionReason": "90+ brokers live in three months and 50+ independent agencies"
   },
   "paths": {
     "memo": "fall2026/memos/covera.md",

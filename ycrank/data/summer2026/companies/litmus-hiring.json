@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/litmus-hiring.jpg",
   "memoGeneratedAt": "2026-08-11T05:52:09.297Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 27,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 55,
-    "NR": 56,
-    "PG": 57,
-    "PT": 44,
-    "SL": 46,
-    "VK": 27
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.86,
-  "consolidatedRank": 91,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 33,
     "tractionScore": 70,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/litmus-hiring.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/litmus-hiring.md",
-      "elad-gil": "summer2026/evals/elad-gil/litmus-hiring.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/litmus-hiring.md",
-      "paul-graham": "summer2026/evals/paul-graham/litmus-hiring.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/litmus-hiring.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/litmus-hiring.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/litmus-hiring.md"
-    }
+    "evals": {}
   }
 }

@@ -37,9 +37,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 102,
-    "tractionScore": 48,
-    "tractionReason": "200+ teams joined since October, UC Berkeley named as user"
+    "tractionRank": 81,
+    "tractionScore": 57,
+    "tractionReason": "200+ teams joined after launch. Named users include VoiceStudio"
   },
   "paths": {
     "memo": "fall2026/memos/nodus-compute.md",

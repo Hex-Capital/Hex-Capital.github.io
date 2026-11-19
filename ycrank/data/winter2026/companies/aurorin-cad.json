@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/aurorin-cad.jpg",
   "memoGeneratedAt": "2026-03-09T22:02:43.063Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 65,
-      "tier": "Invest"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 51,
-    "NR": 67,
-    "PG": 58,
-    "PT": 54,
-    "SL": 48,
-    "VK": 65
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 56.43,
-  "consolidatedRank": 11,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/aurorin-cad.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/aurorin-cad.md",
-      "elad-gil": "winter2026/evals/elad-gil/aurorin-cad.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/aurorin-cad.md",
-      "paul-graham": "winter2026/evals/paul-graham/aurorin-cad.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/aurorin-cad.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/aurorin-cad.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/aurorin-cad.md"
-    }
+    "evals": {}
   }
 }

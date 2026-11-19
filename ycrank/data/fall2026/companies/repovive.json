@@ -42,9 +42,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 61,
   "traction": {
-    "tractionRank": 32,
-    "tractionScore": 66,
-    "tractionReason": "$100K in signed contracts and a separate $200K LOI"
+    "tractionRank": 37,
+    "tractionScore": 65,
+    "tractionReason": "$100K signed across two environments, plus a separate $200K LOI"
   },
   "paths": {
     "memo": "fall2026/memos/repovive.md",

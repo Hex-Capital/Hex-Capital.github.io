@@ -44,9 +44,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 110,
-    "tractionScore": 45,
-    "tractionReason": "Manufactures parts for Bay Area hardware companies using per-job quotes"
+    "tractionRank": 104,
+    "tractionScore": 52,
+    "tractionReason": "Produces parts for Bay Area hardware companies on per-job quotes"
   },
   "paths": {
     "memo": "fall2026/memos/twentyfour26.md",

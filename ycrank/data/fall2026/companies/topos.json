@@ -41,9 +41,9 @@
   "consolidatedAvg": 33.33,
   "consolidatedRank": 235,
   "traction": {
-    "tractionRank": 196,
-    "tractionScore": 21,
-    "tractionReason": "Research beta accepting access requests, uptake undisclosed"
+    "tractionRank": 204,
+    "tractionScore": 12,
+    "tractionReason": "Research beta accepting requests. No disclosed users"
   },
   "paths": {
     "memo": "fall2026/memos/topos.md",

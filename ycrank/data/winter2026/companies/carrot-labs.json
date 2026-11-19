@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-03-03T17:13:37.322Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 25,
-    "EG": 34,
-    "NR": 40,
-    "PG": 36,
-    "PT": 23,
-    "SL": 24,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 31.43,
-  "consolidatedRank": 181,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/carrot-labs.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/carrot-labs.md",
-      "elad-gil": "winter2026/evals/elad-gil/carrot-labs.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/carrot-labs.md",
-      "paul-graham": "winter2026/evals/paul-graham/carrot-labs.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/carrot-labs.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/carrot-labs.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/carrot-labs.md"
-    }
+    "evals": {}
   }
 }

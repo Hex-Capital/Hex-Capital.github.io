@@ -19,47 +19,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-11T05:45:17.944Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 59,
-    "EG": 55,
-    "NR": 67,
-    "PG": 46,
-    "PT": 39,
-    "SL": 30,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 48,
-  "consolidatedRank": 78,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 130,
     "tractionScore": 49,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/proprio-robotics.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/proprio-robotics.md",
-      "elad-gil": "summer2026/evals/elad-gil/proprio-robotics.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/proprio-robotics.md",
-      "paul-graham": "summer2026/evals/paul-graham/proprio-robotics.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/proprio-robotics.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/proprio-robotics.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/proprio-robotics.md"
-    }
+    "evals": {}
   }
 }

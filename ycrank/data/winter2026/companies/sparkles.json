@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/sparkles.jpg",
   "memoGeneratedAt": "2026-03-04T06:23:53.258Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 31,
-    "EG": 33,
-    "NR": 34,
-    "PG": 44,
-    "PT": 28,
-    "SL": 24,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 32.86,
-  "consolidatedRank": 172,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/sparkles.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/sparkles.md",
-      "elad-gil": "winter2026/evals/elad-gil/sparkles.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/sparkles.md",
-      "paul-graham": "winter2026/evals/paul-graham/sparkles.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/sparkles.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/sparkles.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/sparkles.md"
-    }
+    "evals": {}
   }
 }

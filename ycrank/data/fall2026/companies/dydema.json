@@ -44,9 +44,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 179,
   "traction": {
-    "tractionRank": 215,
-    "tractionScore": 11,
-    "tractionReason": "Consumer prototype demonstrated, no disclosed orders"
+    "tractionRank": 230,
+    "tractionScore": 5,
+    "tractionReason": "Consumer BCI prototype demonstrated. Product adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/dydema.md",

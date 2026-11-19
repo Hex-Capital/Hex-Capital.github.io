@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/manicule.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:00.461Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 59,
-    "NR": 51,
-    "PG": 71,
-    "PT": 34,
-    "SL": 65,
-    "VK": 34
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 53,
-  "consolidatedRank": 8,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 6,
     "tractionScore": 81,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/manicule.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/manicule.md",
-      "elad-gil": "spring2026/evals/elad-gil/manicule.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/manicule.md",
-      "paul-graham": "spring2026/evals/paul-graham/manicule.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/manicule.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/manicule.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/manicule.md"
-    }
+    "evals": {}
   }
 }

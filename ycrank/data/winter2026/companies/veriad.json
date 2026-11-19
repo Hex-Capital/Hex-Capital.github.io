@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/veriad.jpg",
   "memoGeneratedAt": "2026-02-27T15:59:29.350Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 44,
-    "NR": 40,
-    "PG": 56,
-    "PT": 26,
-    "SL": 26,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 135,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/veriad.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/veriad.md",
-      "elad-gil": "winter2026/evals/elad-gil/veriad.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/veriad.md",
-      "paul-graham": "winter2026/evals/paul-graham/veriad.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/veriad.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/veriad.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/veriad.md"
-    }
+    "evals": {}
   }
 }

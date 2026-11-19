@@ -42,9 +42,9 @@
   "consolidatedAvg": 35.33,
   "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 180,
-    "tractionScore": 29,
-    "tractionReason": "Current billing platform adoption undisclosed, earlier clinic deployment reported"
+    "tractionRank": 188,
+    "tractionScore": 17,
+    "tractionReason": "Prior-authorization trial listed. Current billing product adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/altair-health.md",

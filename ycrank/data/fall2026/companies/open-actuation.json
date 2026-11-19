@@ -44,9 +44,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 59,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 62,
-    "tractionReason": "Fulfilling volume motor orders for an unnamed drone OEM"
+    "tractionRank": 83,
+    "tractionScore": 56,
+    "tractionReason": "Fulfilling volume motor orders for one unnamed OEM"
   },
   "paths": {
     "memo": "fall2026/memos/open-actuation.md",

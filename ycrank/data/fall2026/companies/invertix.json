@@ -42,9 +42,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 75,
-    "tractionScore": 54,
-    "tractionReason": "Agents cover roughly 2 GW, named energy partners"
+    "tractionRank": 62,
+    "tractionScore": 61,
+    "tractionReason": "Agents cover roughly 2 GW. Works with Altenia and Terna"
   },
   "paths": {
     "memo": "fall2026/memos/invertix.md",

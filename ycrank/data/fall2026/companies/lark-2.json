@@ -43,8 +43,8 @@
   "consolidatedRank": 45,
   "traction": {
     "tractionRank": 126,
-    "tractionScore": 39,
-    "tractionReason": "Live inventory workflow at Interline Hardware, fees undisclosed"
+    "tractionScore": 46,
+    "tractionReason": "Interline Hardware uses Lark for inventory replenishment. Fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",

@@ -37,11 +37,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 211,
+  "consolidatedRank": 212,
   "traction": {
-    "tractionRank": 209,
-    "tractionScore": 14,
-    "tractionReason": "Horizon demo launched, no disclosed customers"
+    "tractionRank": 215,
+    "tractionScore": 7,
+    "tractionReason": "Horizon simulation launched. Commercial deployments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/outworld-labs.md",

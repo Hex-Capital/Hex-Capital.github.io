@@ -44,9 +44,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 163,
+    "tractionRank": 171,
     "tractionScore": 33,
-    "tractionReason": "Teams onboarding, database flags revenue without product attribution"
+    "tractionReason": "Managed service onboarding teams without fees. SDK has 46 stars"
   },
   "paths": {
     "memo": "fall2026/memos/acyclic.md",

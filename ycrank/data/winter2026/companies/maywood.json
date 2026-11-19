@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/maywood.jpg",
   "memoGeneratedAt": "2026-03-06T05:41:47.131Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 61,
-    "NR": 49,
-    "PG": 63,
-    "PT": 39,
-    "SL": 34,
-    "VK": 42
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.43,
-  "consolidatedRank": 50,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/maywood.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/maywood.md",
-      "elad-gil": "winter2026/evals/elad-gil/maywood.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/maywood.md",
-      "paul-graham": "winter2026/evals/paul-graham/maywood.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/maywood.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/maywood.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/maywood.md"
-    }
+    "evals": {}
   }
 }

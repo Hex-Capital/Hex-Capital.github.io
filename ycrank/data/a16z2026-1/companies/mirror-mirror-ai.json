@@ -19,58 +19,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:59:46.004Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 44,
-    "NR": 63,
-    "PG": 58,
-    "PT": 34,
-    "SL": 46,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 20,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/mirror-mirror-ai.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/mirror-mirror-ai.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/mirror-mirror-ai.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/mirror-mirror-ai.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/mirror-mirror-ai.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/mirror-mirror-ai.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/mirror-mirror-ai.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/mirror-mirror-ai.md"
-    }
+    "evals": {}
   }
 }

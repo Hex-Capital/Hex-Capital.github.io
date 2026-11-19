@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/zaplar.jpg",
   "memoGeneratedAt": "2026-08-11T05:18:26.610Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 62,
-    "EG": 47,
-    "NR": 55,
-    "PG": 47,
-    "PT": 46,
-    "SL": 39,
-    "VK": 29
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.43,
-  "consolidatedRank": 95,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 110,
     "tractionScore": 54,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/zaplar.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/zaplar.md",
-      "elad-gil": "summer2026/evals/elad-gil/zaplar.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/zaplar.md",
-      "paul-graham": "summer2026/evals/paul-graham/zaplar.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/zaplar.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/zaplar.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/zaplar.md"
-    }
+    "evals": {}
   }
 }

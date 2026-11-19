@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/takecareos.jpg",
   "memoGeneratedAt": "2026-05-28T03:09:29.618Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 39,
-    "NR": 37,
-    "PG": 49,
-    "PT": 30,
-    "SL": 24,
-    "VK": 28
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 35.57,
-  "consolidatedRank": 165,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 51,
     "tractionScore": 27,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/takecareos.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/takecareos.md",
-      "elad-gil": "spring2026/evals/elad-gil/takecareos.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/takecareos.md",
-      "paul-graham": "spring2026/evals/paul-graham/takecareos.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/takecareos.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/takecareos.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/takecareos.md"
-    }
+    "evals": {}
   }
 }

@@ -43,9 +43,9 @@
   "consolidatedAvg": 34.67,
   "consolidatedRank": 220,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 33,
-    "tractionReason": "950+ reported fund and trader signups, paid uptake undisclosed"
+    "tractionRank": 146,
+    "tractionScore": 39,
+    "tractionReason": "950+ funds and traders claimed. Activity and payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/volaren.md",

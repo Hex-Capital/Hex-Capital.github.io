@@ -44,9 +44,9 @@
   "consolidatedAvg": 34.33,
   "consolidatedRank": 224,
   "traction": {
-    "tractionRank": 234,
-    "tractionScore": 2,
-    "tractionReason": "First farm under development, no disclosed buyers"
+    "tractionRank": 232,
+    "tractionScore": 4,
+    "tractionReason": "First farm under development. No disclosed sales or buyers"
   },
   "paths": {
     "memo": "fall2026/memos/lux-foods.md",

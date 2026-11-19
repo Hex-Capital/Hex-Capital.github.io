@@ -41,9 +41,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 58,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 49,
-    "tractionReason": "Live bookings testimonial, named integrations, 1% flight booking fee"
+    "tractionRank": 107,
+    "tractionScore": 51,
+    "tractionReason": "Live bookings reported. Named integrations include Exa and Twin"
   },
   "paths": {
     "memo": "fall2026/memos/jinko.md",

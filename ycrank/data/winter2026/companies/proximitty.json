@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/proximitty.jpg",
   "memoGeneratedAt": "2026-03-03T23:09:15.030Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 50,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 58,
-    "NR": 51,
-    "PG": 48,
-    "PT": 31,
-    "SL": 32,
-    "VK": 50
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.43,
-  "consolidatedRank": 64,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/proximitty.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/proximitty.md",
-      "elad-gil": "winter2026/evals/elad-gil/proximitty.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/proximitty.md",
-      "paul-graham": "winter2026/evals/paul-graham/proximitty.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/proximitty.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/proximitty.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/proximitty.md"
-    }
+    "evals": {}
   }
 }

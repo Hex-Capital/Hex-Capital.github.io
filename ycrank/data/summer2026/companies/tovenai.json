@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/tovenai.jpg",
   "memoGeneratedAt": "2026-08-26T05:06:30.746Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 72,
-    "NR": 51,
-    "PG": 68,
-    "PT": 56,
-    "SL": 38,
-    "VK": 43
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54.14,
-  "consolidatedRank": 34,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 39,
     "tractionScore": 68,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/tovenai.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/tovenai.md",
-      "elad-gil": "summer2026/evals/elad-gil/tovenai.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/tovenai.md",
-      "paul-graham": "summer2026/evals/paul-graham/tovenai.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/tovenai.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/tovenai.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/tovenai.md"
-    }
+    "evals": {}
   }
 }

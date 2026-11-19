@@ -22,47 +22,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-11T04:57:01.198Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 47,
-    "NR": 46,
-    "PG": 33,
-    "PT": 32,
-    "SL": 30,
-    "VK": 33
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.57,
-  "consolidatedRank": 160,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 75,
     "tractionScore": 61,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/pacific.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/pacific.md",
-      "elad-gil": "summer2026/evals/elad-gil/pacific.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/pacific.md",
-      "paul-graham": "summer2026/evals/paul-graham/pacific.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/pacific.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/pacific.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/pacific.md"
-    }
+    "evals": {}
   }
 }

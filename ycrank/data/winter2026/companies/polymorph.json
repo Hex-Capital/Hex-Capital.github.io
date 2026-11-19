@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/polymorph.jpg",
   "memoGeneratedAt": "2026-02-27T06:38:42.947Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 30,
-    "NR": 43,
-    "PG": 39,
-    "PT": 30,
-    "SL": 27,
-    "VK": 30
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 174,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/polymorph.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/polymorph.md",
-      "elad-gil": "winter2026/evals/elad-gil/polymorph.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/polymorph.md",
-      "paul-graham": "winter2026/evals/paul-graham/polymorph.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/polymorph.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/polymorph.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/polymorph.md"
-    }
+    "evals": {}
   }
 }

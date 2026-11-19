@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/pirislabs.jpg",
   "memoGeneratedAt": "2026-03-05T01:06:34.982Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 72,
-      "tier": "Invest"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 45,
-    "NR": 70,
-    "PG": 54,
-    "PT": 43,
-    "SL": 49,
-    "VK": 72
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54.29,
-  "consolidatedRank": 16,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/pirislabs.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/pirislabs.md",
-      "elad-gil": "winter2026/evals/elad-gil/pirislabs.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/pirislabs.md",
-      "paul-graham": "winter2026/evals/paul-graham/pirislabs.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/pirislabs.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/pirislabs.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/pirislabs.md"
-    }
+    "evals": {}
   }
 }

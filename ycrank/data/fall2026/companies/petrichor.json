@@ -41,9 +41,9 @@
   "consolidatedAvg": 34.67,
   "consolidatedRank": 218,
   "traction": {
-    "tractionRank": 228,
-    "tractionScore": 5,
-    "tractionReason": "Wet-lab service announced, no disclosed buyers"
+    "tractionRank": 214,
+    "tractionScore": 7,
+    "tractionReason": "Wet-lab service launched. No disclosed buyers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/petrichor.md",

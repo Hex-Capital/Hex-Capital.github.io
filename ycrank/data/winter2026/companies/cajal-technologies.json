@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/cajal-technologies.jpg",
   "memoGeneratedAt": "2026-03-09T16:28:36.785Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 51,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 43,
-    "NR": 50,
-    "PG": 36,
-    "PT": 35,
-    "SL": 30,
-    "VK": 51
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.43,
-  "consolidatedRank": 102,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/cajal-technologies.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/cajal-technologies.md",
-      "elad-gil": "winter2026/evals/elad-gil/cajal-technologies.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/cajal-technologies.md",
-      "paul-graham": "winter2026/evals/paul-graham/cajal-technologies.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/cajal-technologies.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/cajal-technologies.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/cajal-technologies.md"
-    }
+    "evals": {}
   }
 }

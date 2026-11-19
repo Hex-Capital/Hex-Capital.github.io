@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/overdrive-health.jpg",
   "memoGeneratedAt": "2026-03-09T16:35:18.398Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 60,
-    "NR": 51,
-    "PG": 59,
-    "PT": 37,
-    "SL": 46,
-    "VK": 45
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 48.29,
-  "consolidatedRank": 41,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/overdrive-health.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/overdrive-health.md",
-      "elad-gil": "winter2026/evals/elad-gil/overdrive-health.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/overdrive-health.md",
-      "paul-graham": "winter2026/evals/paul-graham/overdrive-health.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/overdrive-health.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/overdrive-health.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/overdrive-health.md"
-    }
+    "evals": {}
   }
 }

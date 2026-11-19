@@ -42,9 +42,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 17,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 77,
-    "tractionReason": "Five figures in monthly cash revenue, 10,000 cumulative signups"
+    "tractionRank": 13,
+    "tractionScore": 76,
+    "tractionReason": "Five-figure monthly cash revenue within 45 days and 10,000 signups"
   },
   "paths": {
     "memo": "fall2026/memos/veeza-ai.md",

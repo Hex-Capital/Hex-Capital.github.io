@@ -43,9 +43,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 178,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 28,
-    "tractionReason": "Finance data platform announced, current deployments undisclosed"
+    "tractionRank": 206,
+    "tractionScore": 10,
+    "tractionReason": "Current finance platform announced. No disclosed deployments for it"
   },
   "paths": {
     "memo": "fall2026/memos/definite.md",

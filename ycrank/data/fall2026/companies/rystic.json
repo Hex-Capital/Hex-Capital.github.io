@@ -43,9 +43,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 43,
-    "tractionReason": "Two named customer deployments and another reported pilot"
+    "tractionRank": 116,
+    "tractionScore": 49,
+    "tractionReason": "HJBL and Tilo report simulator use. Another pilot reported"
   },
   "paths": {
     "memo": "fall2026/memos/rystic.md",

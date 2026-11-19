@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "spring2026/slides/images/huscarl.jpg",
   "memoGeneratedAt": "2026-06-16T04:31:59.420Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 63,
-    "EG": 42,
-    "NR": 44,
-    "PG": 58,
-    "PT": 47,
-    "SL": 39,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 34,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 171,
     "tractionScore": 5,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/huscarl.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/huscarl.md",
-      "elad-gil": "spring2026/evals/elad-gil/huscarl.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/huscarl.md",
-      "paul-graham": "spring2026/evals/paul-graham/huscarl.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/huscarl.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/huscarl.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/huscarl.md"
-    }
+    "evals": {}
   }
 }

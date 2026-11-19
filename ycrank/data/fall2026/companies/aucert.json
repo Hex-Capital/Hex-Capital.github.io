@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 163,
   "traction": {
-    "tractionRank": 193,
-    "tractionScore": 22,
-    "tractionReason": "Private beta, no disclosed users or paid orders"
+    "tractionRank": 194,
+    "tractionScore": 16,
+    "tractionReason": "Private beta and free first scan. No disclosed beta cohort"
   },
   "paths": {
     "memo": "fall2026/memos/aucert.md",

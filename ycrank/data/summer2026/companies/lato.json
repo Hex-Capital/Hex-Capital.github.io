@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/lato.jpg",
   "memoGeneratedAt": "2026-08-11T16:33:54.191Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 42,
-    "NR": 44,
-    "PG": 51,
-    "PT": 38,
-    "SL": 37,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.14,
-  "consolidatedRank": 147,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 94,
     "tractionScore": 57,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/lato.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/lato.md",
-      "elad-gil": "summer2026/evals/elad-gil/lato.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/lato.md",
-      "paul-graham": "summer2026/evals/paul-graham/lato.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/lato.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/lato.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/lato.md"
-    }
+    "evals": {}
   }
 }

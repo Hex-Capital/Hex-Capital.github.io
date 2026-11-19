@@ -43,9 +43,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 47,
-    "tractionReason": "Signed Trustboop LOI and first enterprise onboarding"
+    "tractionRank": 114,
+    "tractionScore": 49,
+    "tractionReason": "Signed Trustboop LOI and first enterprise customer onboarding"
   },
   "paths": {
     "memo": "fall2026/memos/fire-wallet.md",

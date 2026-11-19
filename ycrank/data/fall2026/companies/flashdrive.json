@@ -42,11 +42,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 206,
+  "consolidatedRank": 207,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 24,
-    "tractionReason": "Free early access launched, current-user count undisclosed"
+    "tractionRank": 186,
+    "tractionScore": 20,
+    "tractionReason": "Free early access and 1,500 X followers. User adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/flashdrive.md",

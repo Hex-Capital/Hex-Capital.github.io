@@ -42,8 +42,8 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 124,
-    "tractionScore": 39,
+    "tractionRank": 132,
+    "tractionScore": 42,
     "tractionReason": "Live inference integrations with Opper AI and RouterPlus"
   },
   "paths": {

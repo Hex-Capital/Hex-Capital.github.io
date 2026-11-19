@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/octapulse.jpg",
   "memoGeneratedAt": "2026-03-04T06:28:34.363Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 57,
-    "NR": 46,
-    "PG": 63,
-    "PT": 44,
-    "SL": 51,
-    "VK": 48
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 28,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/octapulse.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/octapulse.md",
-      "elad-gil": "winter2026/evals/elad-gil/octapulse.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/octapulse.md",
-      "paul-graham": "winter2026/evals/paul-graham/octapulse.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/octapulse.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/octapulse.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/octapulse.md"
-    }
+    "evals": {}
   }
 }

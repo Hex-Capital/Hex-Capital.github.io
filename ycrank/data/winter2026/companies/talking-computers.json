@@ -18,58 +18,17 @@
   ],
   "slideImage": "winter2026/slides/images/talking-computers.jpg",
   "memoGeneratedAt": "2026-03-03T21:41:11.970Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 23,
-    "EG": 35,
-    "NR": 38,
-    "PG": 33,
-    "PT": 23,
-    "SL": 26,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 30.71,
-  "consolidatedRank": 185,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/talking-computers.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/talking-computers.md",
-      "elad-gil": "winter2026/evals/elad-gil/talking-computers.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/talking-computers.md",
-      "paul-graham": "winter2026/evals/paul-graham/talking-computers.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/talking-computers.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/talking-computers.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/talking-computers.md"
-    }
+    "evals": {}
   }
 }

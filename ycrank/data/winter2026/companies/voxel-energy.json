@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/voxel-energy.jpg",
   "memoGeneratedAt": "2026-03-03T23:04:13.753Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 65,
-      "tier": "Invest"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 46,
-    "EG": 57,
-    "NR": 55,
-    "PG": 60,
-    "PT": 42,
-    "SL": 54,
-    "VK": 65
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54.14,
-  "consolidatedRank": 17,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/voxel-energy.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/voxel-energy.md",
-      "elad-gil": "winter2026/evals/elad-gil/voxel-energy.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/voxel-energy.md",
-      "paul-graham": "winter2026/evals/paul-graham/voxel-energy.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/voxel-energy.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/voxel-energy.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/voxel-energy.md"
-    }
+    "evals": {}
   }
 }

@@ -1,0 +1,58 @@
+{
+  "slug": "avout",
+  "name": "Avout",
+  "oneLiner": "Avout - new finance company for the American frontier",
+  "metadata": {
+    "website": "https://www.avoutcapital.com",
+    "yc_page": "https://www.ycombinator.com/companies/avout",
+    "batch": "Fall 2026 ([Y Combinator](https://www.ycombinator.com/companies/avout))",
+    "industry": "Fintech / Fintech -> Credit and Lending",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "Fintech, Finance, Lending, Neobank",
+    "yc_partner": "Andrew Miklas ([Y Combinator](https://www.ycombinator.com/companies/avout))",
+    "emails": "hello@avoutcapital.com (shared inbox for capital providers, [Avout’s Launch YC post](https://www.ycombinator.com/launches/X8v-avout-financing-for-frontier-hardware-companies))"
+  },
+  "tags": [
+    "Fintech",
+    "Finance",
+    "Lending",
+    "Neobank"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-19T17:16:54.527Z",
+  "evalScores": {
+    "agi": {
+      "score": 34,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 37,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 35,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "AGI": 34,
+    "HG": 37,
+    "EXIT": 35
+  },
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 197,
+  "traction": {
+    "tractionRank": 134,
+    "tractionScore": 41,
+    "tractionReason": "Arranged $1.5M data-center financing term sheet. Closing undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/avout.md",
+    "evals": {
+      "agi": "fall2026/evals/agi/avout.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/avout.md",
+      "exit": "fall2026/evals/exit/avout.md"
+    }
+  }
+}

@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/generalastro.jpg",
   "memoGeneratedAt": "2026-03-09T22:12:36.155Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 52,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 29,
-    "NR": 41,
-    "PG": 36,
-    "PT": 39,
-    "SL": 41,
-    "VK": 52
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.43,
-  "consolidatedRank": 113,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/generalastro.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/generalastro.md",
-      "elad-gil": "winter2026/evals/elad-gil/generalastro.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/generalastro.md",
-      "paul-graham": "winter2026/evals/paul-graham/generalastro.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/generalastro.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/generalastro.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/generalastro.md"
-    }
+    "evals": {}
   }
 }

@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": null,
   "memoGeneratedAt": "2026-05-28T03:00:19.876Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 21,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 41,
-    "EG": 34,
-    "NR": 42,
-    "PG": 44,
-    "PT": 21,
-    "SL": 31,
-    "VK": 41
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 154,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 180,
     "tractionScore": 4,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/the-company-company.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/the-company-company.md",
-      "elad-gil": "spring2026/evals/elad-gil/the-company-company.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/the-company-company.md",
-      "paul-graham": "spring2026/evals/paul-graham/the-company-company.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/the-company-company.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/the-company-company.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/the-company-company.md"
-    }
+    "evals": {}
   }
 }

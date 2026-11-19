@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "summer2026/slides/images/sunflower.jpg",
   "memoGeneratedAt": "2026-08-26T05:27:41.926Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 70,
-    "EG": 71,
-    "NR": 72,
-    "PG": 66,
-    "PT": 57,
-    "SL": 42,
-    "VK": 43
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 60.14,
-  "consolidatedRank": 7,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 6,
     "tractionScore": 91,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/sunflower.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/sunflower.md",
-      "elad-gil": "summer2026/evals/elad-gil/sunflower.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/sunflower.md",
-      "paul-graham": "summer2026/evals/paul-graham/sunflower.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/sunflower.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/sunflower.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/sunflower.md"
-    }
+    "evals": {}
   }
 }

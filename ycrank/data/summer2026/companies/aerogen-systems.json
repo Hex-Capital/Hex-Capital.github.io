@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/aerogen-systems.jpg",
   "memoGeneratedAt": "2026-08-26T05:15:59.699Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 65,
-    "EG": 45,
-    "NR": 67,
-    "PG": 49,
-    "PT": 55,
-    "SL": 37,
-    "VK": 43
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 51.57,
-  "consolidatedRank": 53,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 120,
     "tractionScore": 51,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/aerogen-systems.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/aerogen-systems.md",
-      "elad-gil": "summer2026/evals/elad-gil/aerogen-systems.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/aerogen-systems.md",
-      "paul-graham": "summer2026/evals/paul-graham/aerogen-systems.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/aerogen-systems.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/aerogen-systems.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/aerogen-systems.md"
-    }
+    "evals": {}
   }
 }

@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/aktoria-robotics.jpg",
   "memoGeneratedAt": "2026-08-11T05:04:43.320Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 38,
-    "NR": 55,
-    "PG": 50,
-    "PT": 49,
-    "SL": 40,
-    "VK": 30
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.86,
-  "consolidatedRank": 90,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 111,
     "tractionScore": 53,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/aktoria-robotics.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/aktoria-robotics.md",
-      "elad-gil": "summer2026/evals/elad-gil/aktoria-robotics.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/aktoria-robotics.md",
-      "paul-graham": "summer2026/evals/paul-graham/aktoria-robotics.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/aktoria-robotics.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/aktoria-robotics.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/aktoria-robotics.md"
-    }
+    "evals": {}
   }
 }

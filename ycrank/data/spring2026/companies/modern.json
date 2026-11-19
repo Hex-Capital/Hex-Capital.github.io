@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/modern.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:44.367Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 47,
-    "NR": 42,
-    "PG": 47,
-    "PT": 29,
-    "SL": 23,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38.29,
-  "consolidatedRank": 134,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 24,
     "tractionScore": 52,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/modern.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/modern.md",
-      "elad-gil": "spring2026/evals/elad-gil/modern.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/modern.md",
-      "paul-graham": "spring2026/evals/paul-graham/modern.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/modern.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/modern.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/modern.md"
-    }
+    "evals": {}
   }
 }

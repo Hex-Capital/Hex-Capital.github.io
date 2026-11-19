@@ -40,9 +40,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 35,
-    "tractionReason": "Named scoring integration with Music for Video AI"
+    "tractionRank": 160,
+    "tractionScore": 37,
+    "tractionReason": "Music for Video AI identifies Taan as its scoring provider"
   },
   "paths": {
     "memo": "fall2026/memos/taanai.md",

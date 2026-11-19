@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/hex-security.jpg",
   "memoGeneratedAt": "2026-03-03T23:08:29.461Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 45,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 37,
-    "NR": 48,
-    "PG": 51,
-    "PT": 32,
-    "SL": 28,
-    "VK": 45
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.14,
-  "consolidatedRank": 105,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/hex-security.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/hex-security.md",
-      "elad-gil": "winter2026/evals/elad-gil/hex-security.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/hex-security.md",
-      "paul-graham": "winter2026/evals/paul-graham/hex-security.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/hex-security.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/hex-security.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/hex-security.md"
-    }
+    "evals": {}
   }
 }

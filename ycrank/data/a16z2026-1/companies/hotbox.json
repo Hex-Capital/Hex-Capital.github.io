@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:55:05.653Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 47,
-    "NR": 67,
-    "PG": 47,
-    "PT": 39,
-    "SL": 38,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.71,
-  "consolidatedRank": 29,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/hotbox.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/hotbox.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/hotbox.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/hotbox.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/hotbox.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/hotbox.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/hotbox.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/hotbox.md"
-    }
+    "evals": {}
   }
 }

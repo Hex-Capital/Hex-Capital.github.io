@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/tepali.jpg",
   "memoGeneratedAt": "2026-03-09T22:02:34.356Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 34,
-    "EG": 38,
-    "NR": 39,
-    "PG": 41,
-    "PT": 30,
-    "SL": 23,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 33.86,
-  "consolidatedRank": 161,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/tepali.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/tepali.md",
-      "elad-gil": "winter2026/evals/elad-gil/tepali.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/tepali.md",
-      "paul-graham": "winter2026/evals/paul-graham/tepali.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/tepali.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/tepali.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/tepali.md"
-    }
+    "evals": {}
   }
 }

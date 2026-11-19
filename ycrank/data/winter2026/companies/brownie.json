@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-03-03T23:10:10.271Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 46,
-    "NR": 47,
-    "PG": 48,
-    "PT": 30,
-    "SL": 25,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38.86,
-  "consolidatedRank": 117,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/brownie.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/brownie.md",
-      "elad-gil": "winter2026/evals/elad-gil/brownie.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/brownie.md",
-      "paul-graham": "winter2026/evals/paul-graham/brownie.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/brownie.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/brownie.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/brownie.md"
-    }
+    "evals": {}
   }
 }

@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/oddpool.jpg",
   "memoGeneratedAt": "2026-05-28T02:51:00.252Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 21,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 58,
-    "NR": 38,
-    "PG": 56,
-    "PT": 37,
-    "SL": 36,
-    "VK": 21
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.71,
-  "consolidatedRank": 100,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 137,
     "tractionScore": 8,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/oddpool.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/oddpool.md",
-      "elad-gil": "spring2026/evals/elad-gil/oddpool.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/oddpool.md",
-      "paul-graham": "spring2026/evals/paul-graham/oddpool.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/oddpool.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/oddpool.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/oddpool.md"
-    }
+    "evals": {}
   }
 }

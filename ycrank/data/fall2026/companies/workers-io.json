@@ -43,9 +43,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 67,
-    "tractionReason": "Paying customers and reported expansion across customer teams"
+    "tractionRank": 35,
+    "tractionScore": 65,
+    "tractionReason": "Paying customers reported. Founder cites expansion across teams and projects"
   },
   "paths": {
     "memo": "fall2026/memos/workers-io.md",

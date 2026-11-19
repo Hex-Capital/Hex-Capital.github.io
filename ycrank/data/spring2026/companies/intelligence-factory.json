@@ -19,47 +19,14 @@
   ],
   "slideImage": "spring2026/slides/images/intelligence-factory.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:07.911Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 60,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 39,
-    "NR": 48,
-    "PG": 54,
-    "PT": 43,
-    "SL": 24,
-    "VK": 60
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 48,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 153,
     "tractionScore": 6,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/intelligence-factory.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/intelligence-factory.md",
-      "elad-gil": "spring2026/evals/elad-gil/intelligence-factory.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/intelligence-factory.md",
-      "paul-graham": "spring2026/evals/paul-graham/intelligence-factory.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/intelligence-factory.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/intelligence-factory.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/intelligence-factory.md"
-    }
+    "evals": {}
   }
 }

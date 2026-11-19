@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/nine-fives.jpg",
   "memoGeneratedAt": "2026-05-28T03:02:30.541Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 79,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 76,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 79,
-    "EG": 45,
-    "NR": 47,
-    "PG": 76,
-    "PT": 61,
-    "SL": 44,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54.86,
-  "consolidatedRank": 2,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 125,
     "tractionScore": 9,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/nine-fives.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/nine-fives.md",
-      "elad-gil": "spring2026/evals/elad-gil/nine-fives.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/nine-fives.md",
-      "paul-graham": "spring2026/evals/paul-graham/nine-fives.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/nine-fives.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/nine-fives.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/nine-fives.md"
-    }
+    "evals": {}
   }
 }

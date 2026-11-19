@@ -42,9 +42,9 @@
   "consolidatedAvg": 38.33,
   "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 107,
-    "tractionScore": 46,
-    "tractionReason": "Case studies document utility procurement use, fees undisclosed"
+    "tractionRank": 100,
+    "tractionScore": 53,
+    "tractionReason": "Multiple utility procurement engagements, including evaluation of 22 bids"
   },
   "paths": {
     "memo": "fall2026/memos/hillstar.md",

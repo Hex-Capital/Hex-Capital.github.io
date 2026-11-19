@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:54:40.086Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 63,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 32,
-    "NR": 62,
-    "PG": 53,
-    "PT": 45,
-    "SL": 54,
-    "VK": 63
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52,
-  "consolidatedRank": 11,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/clair-health.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/clair-health.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/clair-health.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/clair-health.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/clair-health.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/clair-health.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/clair-health.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/clair-health.md"
-    }
+    "evals": {}
   }
 }

@@ -44,9 +44,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 119,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 36,
-    "tractionReason": "Two client engagements, beta billing disabled"
+    "tractionRank": 142,
+    "tractionScore": 39,
+    "tractionReason": "Two client engagements. Beta billing disabled"
   },
   "paths": {
     "memo": "fall2026/memos/primordiant.md",

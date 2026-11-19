@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/greypoint-industries.jpg",
   "memoGeneratedAt": "2026-08-11T05:08:44.113Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 69,
-    "EG": 59,
-    "NR": 61,
-    "PG": 49,
-    "PT": 49,
-    "SL": 39,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52.29,
-  "consolidatedRank": 48,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 80,
     "tractionScore": 60,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/greypoint-industries.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/greypoint-industries.md",
-      "elad-gil": "summer2026/evals/elad-gil/greypoint-industries.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/greypoint-industries.md",
-      "paul-graham": "summer2026/evals/paul-graham/greypoint-industries.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/greypoint-industries.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/greypoint-industries.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/greypoint-industries.md"
-    }
+    "evals": {}
   }
 }

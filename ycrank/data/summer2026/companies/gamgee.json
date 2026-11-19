@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/gamgee.jpg",
   "memoGeneratedAt": "2026-08-11T16:32:57.207Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 49,
-    "NR": 42,
-    "PG": 60,
-    "PT": 39,
-    "SL": 29,
-    "VK": 42
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.43,
-  "consolidatedRank": 102,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 149,
     "tractionScore": 45,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/gamgee.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/gamgee.md",
-      "elad-gil": "summer2026/evals/elad-gil/gamgee.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/gamgee.md",
-      "paul-graham": "summer2026/evals/paul-graham/gamgee.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/gamgee.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/gamgee.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/gamgee.md"
-    }
+    "evals": {}
   }
 }

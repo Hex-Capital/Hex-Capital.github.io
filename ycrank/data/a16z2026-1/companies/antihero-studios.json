@@ -18,58 +18,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:48:45.819Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 40,
-    "NR": 64,
-    "PG": 53,
-    "PT": 48,
-    "SL": 42,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.71,
-  "consolidatedRank": 27,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/antihero-studios.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/antihero-studios.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/antihero-studios.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/antihero-studios.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/antihero-studios.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/antihero-studios.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/antihero-studios.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/antihero-studios.md"
-    }
+    "evals": {}
   }
 }

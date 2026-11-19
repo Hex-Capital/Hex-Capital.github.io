@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/hedge.jpg",
   "memoGeneratedAt": "2026-05-28T03:06:38.021Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 52,
-    "NR": 39,
-    "PG": 54,
-    "PT": 39,
-    "SL": 34,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.71,
-  "consolidatedRank": 88,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 106,
     "tractionScore": 10,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/hedge.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/hedge.md",
-      "elad-gil": "spring2026/evals/elad-gil/hedge.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/hedge.md",
-      "paul-graham": "spring2026/evals/paul-graham/hedge.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hedge.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/hedge.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/hedge.md"
-    }
+    "evals": {}
   }
 }

@@ -42,9 +42,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 107,
   "traction": {
-    "tractionRank": 136,
-    "tractionScore": 38,
-    "tractionReason": "1,107 agents on platform, 29 concurrently awake, Keiki integration"
+    "tractionRank": 124,
+    "tractionScore": 47,
+    "tractionReason": "1,107 agents, 29 concurrently awake, and Keiki integration"
   },
   "paths": {
     "memo": "fall2026/memos/maritime.md",

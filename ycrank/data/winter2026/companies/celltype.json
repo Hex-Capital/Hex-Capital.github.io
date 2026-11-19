@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/celltype.jpg",
   "memoGeneratedAt": "2026-03-05T01:06:20.317Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 66,
-      "tier": "Invest"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 55,
-    "NR": 72,
-    "PG": 65,
-    "PT": 48,
-    "SL": 46,
-    "VK": 66
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 55.71,
-  "consolidatedRank": 12,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/celltype.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/celltype.md",
-      "elad-gil": "winter2026/evals/elad-gil/celltype.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/celltype.md",
-      "paul-graham": "winter2026/evals/paul-graham/celltype.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/celltype.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/celltype.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/celltype.md"
-    }
+    "evals": {}
   }
 }

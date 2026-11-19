@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/rex-inc.jpg",
   "memoGeneratedAt": "2026-08-11T05:34:35.607Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 79,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 74,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 70,
-    "EG": 79,
-    "NR": 65,
-    "PG": 74,
-    "PT": 60,
-    "SL": 46,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 61.71,
-  "consolidatedRank": 5,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 26,
     "tractionScore": 76,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/rex-inc.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/rex-inc.md",
-      "elad-gil": "summer2026/evals/elad-gil/rex-inc.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/rex-inc.md",
-      "paul-graham": "summer2026/evals/paul-graham/rex-inc.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/rex-inc.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/rex-inc.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/rex-inc.md"
-    }
+    "evals": {}
   }
 }

@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 34.67,
-  "consolidatedRank": 213,
+  "consolidatedRank": 214,
   "traction": {
-    "tractionRank": 227,
-    "tractionScore": 6,
-    "tractionReason": "Launch coverage, no disclosed coaching customers"
+    "tractionRank": 231,
+    "tractionScore": 5,
+    "tractionReason": "Launch reported. No disclosed users, customers, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/championeffect-inc.md",

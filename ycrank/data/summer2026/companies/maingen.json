@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/maingen.jpg",
   "memoGeneratedAt": "2026-08-11T05:33:50.260Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 66,
-    "EG": 60,
-    "NR": 51,
-    "PG": 65,
-    "PT": 59,
-    "SL": 38,
-    "VK": 42
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54.43,
-  "consolidatedRank": 31,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 132,
     "tractionScore": 49,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/maingen.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/maingen.md",
-      "elad-gil": "summer2026/evals/elad-gil/maingen.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/maingen.md",
-      "paul-graham": "summer2026/evals/paul-graham/maingen.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/maingen.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/maingen.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/maingen.md"
-    }
+    "evals": {}
   }
 }

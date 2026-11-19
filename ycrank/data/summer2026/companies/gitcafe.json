@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/gitcafe.jpg",
   "memoGeneratedAt": "2026-08-11T05:46:58.039Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 24,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 35,
-    "NR": 41,
-    "PG": 49,
-    "PT": 34,
-    "SL": 33,
-    "VK": 24
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38,
-  "consolidatedRank": 176,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 95,
     "tractionScore": 57,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/gitcafe.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/gitcafe.md",
-      "elad-gil": "summer2026/evals/elad-gil/gitcafe.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/gitcafe.md",
-      "paul-graham": "summer2026/evals/paul-graham/gitcafe.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/gitcafe.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/gitcafe.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/gitcafe.md"
-    }
+    "evals": {}
   }
 }

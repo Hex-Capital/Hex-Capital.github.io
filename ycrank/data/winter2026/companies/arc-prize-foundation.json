@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/arc-prize-foundation.jpg",
   "memoGeneratedAt": "2026-03-09T23:21:40.480Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 44,
-    "NR": 64,
-    "PG": 65,
-    "PT": 48,
-    "SL": 42,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 48.57,
-  "consolidatedRank": 40,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/arc-prize-foundation.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/arc-prize-foundation.md",
-      "elad-gil": "winter2026/evals/elad-gil/arc-prize-foundation.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/arc-prize-foundation.md",
-      "paul-graham": "winter2026/evals/paul-graham/arc-prize-foundation.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/arc-prize-foundation.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/arc-prize-foundation.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/arc-prize-foundation.md"
-    }
+    "evals": {}
   }
 }

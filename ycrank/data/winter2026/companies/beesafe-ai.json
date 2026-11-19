@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/beesafe-ai.jpg",
   "memoGeneratedAt": "2026-03-03T23:01:38.140Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 54,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 63,
-    "NR": 69,
-    "PG": 66,
-    "PT": 54,
-    "SL": 59,
-    "VK": 54
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 60.86,
-  "consolidatedRank": 6,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/beesafe-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/beesafe-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/beesafe-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/beesafe-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/beesafe-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/beesafe-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/beesafe-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/beesafe-ai.md"
-    }
+    "evals": {}
   }
 }

@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/spaceflow-technologies-inc.jpg",
   "memoGeneratedAt": "2026-08-11T04:35:06.225Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 75,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 73,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 64,
-    "EG": 75,
-    "NR": 68,
-    "PG": 73,
-    "PT": 62,
-    "SL": 46,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 60.57,
-  "consolidatedRank": 6,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 19,
     "tractionScore": 80,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/spaceflow-technologies-inc.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/spaceflow-technologies-inc.md",
-      "elad-gil": "summer2026/evals/elad-gil/spaceflow-technologies-inc.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/spaceflow-technologies-inc.md",
-      "paul-graham": "summer2026/evals/paul-graham/spaceflow-technologies-inc.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/spaceflow-technologies-inc.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/spaceflow-technologies-inc.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/spaceflow-technologies-inc.md"
-    }
+    "evals": {}
   }
 }

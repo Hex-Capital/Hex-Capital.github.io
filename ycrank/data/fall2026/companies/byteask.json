@@ -43,9 +43,9 @@
   "consolidatedAvg": 44.67,
   "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 42,
-    "tractionScore": 63,
-    "tractionReason": "Existing paid CLI subscribers, named deployments at Nodus and Zith"
+    "tractionRank": 52,
+    "tractionScore": 62,
+    "tractionReason": "Existing paid CLI subscribers and named customer case studies"
   },
   "paths": {
     "memo": "fall2026/memos/byteask.md",

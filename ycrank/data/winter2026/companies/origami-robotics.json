@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/origami-robotics.jpg",
   "memoGeneratedAt": "2026-02-27T16:00:16.957Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 59,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 40,
-    "NR": 55,
-    "PG": 53,
-    "PT": 39,
-    "SL": 42,
-    "VK": 59
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.14,
-  "consolidatedRank": 53,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/origami-robotics.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/origami-robotics.md",
-      "elad-gil": "winter2026/evals/elad-gil/origami-robotics.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/origami-robotics.md",
-      "paul-graham": "winter2026/evals/paul-graham/origami-robotics.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/origami-robotics.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/origami-robotics.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/origami-robotics.md"
-    }
+    "evals": {}
   }
 }

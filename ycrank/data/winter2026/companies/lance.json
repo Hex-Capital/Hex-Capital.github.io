@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/lance.jpg",
   "memoGeneratedAt": "2026-03-05T07:18:28.267Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 50,
-    "NR": 48,
-    "PG": 66,
-    "PT": 43,
-    "SL": 32,
-    "VK": 49
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.57,
-  "consolidatedRank": 48,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/lance.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/lance.md",
-      "elad-gil": "winter2026/evals/elad-gil/lance.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/lance.md",
-      "paul-graham": "winter2026/evals/paul-graham/lance.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/lance.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/lance.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/lance.md"
-    }
+    "evals": {}
   }
 }

@@ -44,9 +44,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 60,
-    "tractionReason": "Carrier-paid brokerage secured coverage for three businesses in one week"
+    "tractionRank": 80,
+    "tractionScore": 57,
+    "tractionReason": "Three businesses obtained coverage in one week. Carrier commissions undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/risklytics.md",

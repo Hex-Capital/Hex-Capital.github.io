@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/general-instinct.jpg",
   "memoGeneratedAt": "2026-05-28T02:46:27.643Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 33,
-    "EG": 42,
-    "NR": 44,
-    "PG": 48,
-    "PT": 42,
-    "SL": 35,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.29,
-  "consolidatedRank": 103,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 152,
     "tractionScore": 6,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/general-instinct.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/general-instinct.md",
-      "elad-gil": "spring2026/evals/elad-gil/general-instinct.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/general-instinct.md",
-      "paul-graham": "spring2026/evals/paul-graham/general-instinct.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/general-instinct.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/general-instinct.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/general-instinct.md"
-    }
+    "evals": {}
   }
 }

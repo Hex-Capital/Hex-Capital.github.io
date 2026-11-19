@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/haladir.jpg",
   "memoGeneratedAt": "2026-03-06T05:59:30.469Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 57,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 35,
-    "NR": 48,
-    "PG": 34,
-    "PT": 31,
-    "SL": 29,
-    "VK": 57
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38.57,
-  "consolidatedRank": 121,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/haladir.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/haladir.md",
-      "elad-gil": "winter2026/evals/elad-gil/haladir.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/haladir.md",
-      "paul-graham": "winter2026/evals/paul-graham/haladir.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/haladir.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/haladir.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/haladir.md"
-    }
+    "evals": {}
   }
 }

@@ -40,11 +40,11 @@
     "EXIT": 33
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 203,
+  "consolidatedRank": 204,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 48,
-    "tractionReason": "10,000 waitlisted readers and authors, two inbound leads"
+    "tractionRank": 110,
+    "tractionScore": 51,
+    "tractionReason": "10,000 readers and authors waitlisted with paid conversions undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/audora.md",

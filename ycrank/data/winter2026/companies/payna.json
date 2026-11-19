@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/payna.jpg",
   "memoGeneratedAt": "2026-03-09T22:11:20.960Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 21,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 20,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 37,
-    "NR": 31,
-    "PG": 32,
-    "PT": 21,
-    "SL": 20,
-    "VK": 30
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 28.14,
-  "consolidatedRank": 194,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/payna.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/payna.md",
-      "elad-gil": "winter2026/evals/elad-gil/payna.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/payna.md",
-      "paul-graham": "winter2026/evals/paul-graham/payna.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/payna.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/payna.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/payna.md"
-    }
+    "evals": {}
   }
 }

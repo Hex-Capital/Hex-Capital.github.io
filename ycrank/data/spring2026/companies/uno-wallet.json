@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/uno-wallet.jpg",
   "memoGeneratedAt": "2026-05-28T02:35:06.151Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 20,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 31,
-    "NR": 36,
-    "PG": 50,
-    "PT": 26,
-    "SL": 32,
-    "VK": 20
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 32.43,
-  "consolidatedRank": 188,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 117,
     "tractionScore": 9,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/uno-wallet.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/uno-wallet.md",
-      "elad-gil": "spring2026/evals/elad-gil/uno-wallet.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/uno-wallet.md",
-      "paul-graham": "spring2026/evals/paul-graham/uno-wallet.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/uno-wallet.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/uno-wallet.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/uno-wallet.md"
-    }
+    "evals": {}
   }
 }

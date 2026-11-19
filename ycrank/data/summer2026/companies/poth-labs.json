@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/poth-labs.jpg",
   "memoGeneratedAt": "2026-08-11T05:53:04.859Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 43,
-    "NR": 39,
-    "PG": 46,
-    "PT": 30,
-    "SL": 34,
-    "VK": 25
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 195,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 97,
     "tractionScore": 56,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/poth-labs.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/poth-labs.md",
-      "elad-gil": "summer2026/evals/elad-gil/poth-labs.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/poth-labs.md",
-      "paul-graham": "summer2026/evals/paul-graham/poth-labs.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/poth-labs.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/poth-labs.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/poth-labs.md"
-    }
+    "evals": {}
   }
 }

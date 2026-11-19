@@ -41,9 +41,9 @@
   "consolidatedAvg": 38.33,
   "consolidatedRank": 94,
   "traction": {
-    "tractionRank": 54,
-    "tractionScore": 59,
-    "tractionReason": "30 companies live at launch, published paid plans"
+    "tractionRank": 105,
+    "tractionScore": 52,
+    "tractionReason": "30 companies live at launch. $50 per demo offered"
   },
   "paths": {
     "memo": "fall2026/memos/adsideai.md",

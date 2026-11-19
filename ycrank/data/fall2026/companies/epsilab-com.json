@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 166,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 37,
-    "tractionReason": "Reported work with unnamed frontier labs, terms undisclosed"
+    "tractionRank": 168,
+    "tractionScore": 35,
+    "tractionReason": "Reports working directly with unnamed frontier AI labs"
   },
   "paths": {
     "memo": "fall2026/memos/epsilab-com.md",

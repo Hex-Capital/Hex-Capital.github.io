@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/provenmetal.jpg",
   "memoGeneratedAt": "2026-08-11T04:51:40.038Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 22,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 31,
-    "NR": 46,
-    "PG": 45,
-    "PT": 33,
-    "SL": 35,
-    "VK": 22
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 188,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 141,
     "tractionScore": 47,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/provenmetal.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/provenmetal.md",
-      "elad-gil": "summer2026/evals/elad-gil/provenmetal.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/provenmetal.md",
-      "paul-graham": "summer2026/evals/paul-graham/provenmetal.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/provenmetal.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/provenmetal.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/provenmetal.md"
-    }
+    "evals": {}
   }
 }

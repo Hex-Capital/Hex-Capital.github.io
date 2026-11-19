@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/klaimee.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:44.781Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 30,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 53,
-    "NR": 50,
-    "PG": 52,
-    "PT": 51,
-    "SL": 44,
-    "VK": 30
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.29,
-  "consolidatedRank": 39,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 173,
     "tractionScore": 5,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/klaimee.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/klaimee.md",
-      "elad-gil": "spring2026/evals/elad-gil/klaimee.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/klaimee.md",
-      "paul-graham": "spring2026/evals/paul-graham/klaimee.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/klaimee.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/klaimee.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/klaimee.md"
-    }
+    "evals": {}
   }
 }

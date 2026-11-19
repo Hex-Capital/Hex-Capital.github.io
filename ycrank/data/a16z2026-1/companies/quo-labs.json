@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:06:16.979Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 53,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 31,
-    "NR": 45,
-    "PG": 63,
-    "PT": 38,
-    "SL": 36,
-    "VK": 53
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.71,
-  "consolidatedRank": 33,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/quo-labs.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/quo-labs.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/quo-labs.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/quo-labs.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/quo-labs.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/quo-labs.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/quo-labs.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/quo-labs.md"
-    }
+    "evals": {}
   }
 }

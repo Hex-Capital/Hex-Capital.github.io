@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/seeing-systems.jpg",
   "memoGeneratedAt": "2026-03-02T19:18:19.015Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 72,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 51,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 52,
-    "NR": 47,
-    "PG": 72,
-    "PT": 46,
-    "SL": 47,
-    "VK": 51
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 52.43,
-  "consolidatedRank": 27,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/seeing-systems.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/seeing-systems.md",
-      "elad-gil": "winter2026/evals/elad-gil/seeing-systems.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/seeing-systems.md",
-      "paul-graham": "winter2026/evals/paul-graham/seeing-systems.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/seeing-systems.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/seeing-systems.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/seeing-systems.md"
-    }
+    "evals": {}
   }
 }

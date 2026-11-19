@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/general-aviation.jpg",
   "memoGeneratedAt": "2026-05-28T02:39:23.962Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 77,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 55,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 77,
-    "EG": 46,
-    "NR": 41,
-    "PG": 53,
-    "PT": 51,
-    "SL": 49,
-    "VK": 55
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 53.14,
-  "consolidatedRank": 7,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 196,
     "tractionScore": 1,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/general-aviation.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/general-aviation.md",
-      "elad-gil": "spring2026/evals/elad-gil/general-aviation.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/general-aviation.md",
-      "paul-graham": "spring2026/evals/paul-graham/general-aviation.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/general-aviation.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/general-aviation.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/general-aviation.md"
-    }
+    "evals": {}
   }
 }

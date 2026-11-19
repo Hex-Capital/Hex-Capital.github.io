@@ -20,47 +20,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-11T05:36:55.959Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 58,
-    "NR": 47,
-    "PG": 46,
-    "PT": 50,
-    "SL": 35,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45,
-  "consolidatedRank": 111,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 184,
     "tractionScore": 30,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/trope.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/trope.md",
-      "elad-gil": "summer2026/evals/elad-gil/trope.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/trope.md",
-      "paul-graham": "summer2026/evals/paul-graham/trope.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/trope.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/trope.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/trope.md"
-    }
+    "evals": {}
   }
 }

@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/agnost-ai.jpg",
   "memoGeneratedAt": "2026-08-11T04:50:30.000Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 28,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 51,
-    "EG": 56,
-    "NR": 46,
-    "PG": 53,
-    "PT": 43,
-    "SL": 40,
-    "VK": 28
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.29,
-  "consolidatedRank": 105,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 67,
     "tractionScore": 63,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/agnost-ai.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/agnost-ai.md",
-      "elad-gil": "summer2026/evals/elad-gil/agnost-ai.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/agnost-ai.md",
-      "paul-graham": "summer2026/evals/paul-graham/agnost-ai.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/agnost-ai.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/agnost-ai.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/agnost-ai.md"
-    }
+    "evals": {}
   }
 }

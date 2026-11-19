@@ -18,47 +18,14 @@
   ],
   "slideImage": "summer2026/slides/images/verdant.jpg",
   "memoGeneratedAt": "2026-08-11T05:30:14.294Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 36,
-    "NR": 33,
-    "PG": 35,
-    "PT": 23,
-    "SL": 29,
-    "VK": 23
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 30.57,
-  "consolidatedRank": 218,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 195,
     "tractionScore": 20,
@@ -66,14 +33,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/verdant.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/verdant.md",
-      "elad-gil": "summer2026/evals/elad-gil/verdant.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/verdant.md",
-      "paul-graham": "summer2026/evals/paul-graham/verdant.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/verdant.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/verdant.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/verdant.md"
-    }
+    "evals": {}
   }
 }

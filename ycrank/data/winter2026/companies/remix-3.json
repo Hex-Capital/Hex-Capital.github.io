@@ -15,58 +15,17 @@
   "tags": [],
   "slideImage": "winter2026/slides/images/remix-3.jpg",
   "memoGeneratedAt": "2026-03-24T16:49:23.216Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 21,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 22,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 24,
-    "NR": 31,
-    "PG": 30,
-    "PT": 21,
-    "SL": 22,
-    "VK": 25
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 25.71,
-  "consolidatedRank": 198,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/remix-3.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/remix-3.md",
-      "elad-gil": "winter2026/evals/elad-gil/remix-3.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/remix-3.md",
-      "paul-graham": "winter2026/evals/paul-graham/remix-3.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/remix-3.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/remix-3.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/remix-3.md"
-    }
+    "evals": {}
   }
 }

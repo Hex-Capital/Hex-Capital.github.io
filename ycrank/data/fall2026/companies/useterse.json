@@ -42,9 +42,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 125,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 38,
-    "tractionReason": "1.4M requests in one day and a named partner demo"
+    "tractionRank": 109,
+    "tractionScore": 51,
+    "tractionReason": "1.4M requests in a day. Munito demonstrated coordinated VMs"
   },
   "paths": {
     "memo": "fall2026/memos/useterse.md",

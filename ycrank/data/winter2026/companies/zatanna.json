@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/zatanna.jpg",
   "memoGeneratedAt": "2026-03-05T01:00:57.719Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 26,
-    "EG": 30,
-    "NR": 33,
-    "PG": 43,
-    "PT": 27,
-    "SL": 27,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 31.86,
-  "consolidatedRank": 179,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/zatanna.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/zatanna.md",
-      "elad-gil": "winter2026/evals/elad-gil/zatanna.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/zatanna.md",
-      "paul-graham": "winter2026/evals/paul-graham/zatanna.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/zatanna.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/zatanna.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/zatanna.md"
-    }
+    "evals": {}
   }
 }

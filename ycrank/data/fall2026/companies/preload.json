@@ -45,8 +45,8 @@
   "consolidatedRank": 153,
   "traction": {
     "tractionRank": 200,
-    "tractionScore": 18,
-    "tractionReason": "Proception demonstration, no disclosed customers"
+    "tractionScore": 14,
+    "tractionReason": "Joint ProHand demonstration. No disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/preload.md",

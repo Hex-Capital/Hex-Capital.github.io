@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/impact-drones.jpg",
   "memoGeneratedAt": "2026-08-11T05:29:34.398Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 50,
-    "NR": 59,
-    "PG": 34,
-    "PT": 40,
-    "SL": 32,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.14,
-  "consolidatedRank": 121,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 142,
     "tractionScore": 47,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/impact-drones.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/impact-drones.md",
-      "elad-gil": "summer2026/evals/elad-gil/impact-drones.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/impact-drones.md",
-      "paul-graham": "summer2026/evals/paul-graham/impact-drones.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/impact-drones.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/impact-drones.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/impact-drones.md"
-    }
+    "evals": {}
   }
 }

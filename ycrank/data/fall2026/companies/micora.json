@@ -42,9 +42,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 65,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 49,
-    "tractionReason": "Reported Pacific island and manufacturing deployments underway"
+    "tractionRank": 102,
+    "tractionScore": 52,
+    "tractionReason": "Pacific island and manufacturing deployments underway"
   },
   "paths": {
     "memo": "fall2026/memos/micora.md",

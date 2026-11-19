@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/ontora.jpg",
   "memoGeneratedAt": "2026-05-28T02:51:15.154Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 37,
-    "NR": 40,
-    "PG": 52,
-    "PT": 32,
-    "SL": 31,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.14,
-  "consolidatedRank": 142,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 50,
     "tractionScore": 28,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/ontora.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/ontora.md",
-      "elad-gil": "spring2026/evals/elad-gil/ontora.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/ontora.md",
-      "paul-graham": "spring2026/evals/paul-graham/ontora.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/ontora.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/ontora.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/ontora.md"
-    }
+    "evals": {}
   }
 }

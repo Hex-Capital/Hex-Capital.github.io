@@ -19,58 +19,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-03-09T05:24:11.778Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 34,
-    "NR": 43,
-    "PG": 37,
-    "PT": 27,
-    "SL": 27,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 33.86,
-  "consolidatedRank": 160,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/glue.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/glue.md",
-      "elad-gil": "winter2026/evals/elad-gil/glue.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/glue.md",
-      "paul-graham": "winter2026/evals/paul-graham/glue.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/glue.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/glue.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/glue.md"
-    }
+    "evals": {}
   }
 }

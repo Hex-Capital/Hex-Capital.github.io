@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/avea-robotics.jpg",
   "memoGeneratedAt": "2026-05-28T02:34:40.556Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 43,
-    "NR": 42,
-    "PG": 52,
-    "PT": 32,
-    "SL": 36,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.86,
-  "consolidatedRank": 85,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 53,
     "tractionScore": 25,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/avea-robotics.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/avea-robotics.md",
-      "elad-gil": "spring2026/evals/elad-gil/avea-robotics.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/avea-robotics.md",
-      "paul-graham": "spring2026/evals/paul-graham/avea-robotics.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/avea-robotics.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/avea-robotics.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/avea-robotics.md"
-    }
+    "evals": {}
   }
 }

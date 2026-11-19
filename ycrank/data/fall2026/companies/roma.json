@@ -41,9 +41,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 37,
-    "tractionReason": "Some original users exceeded 100K tool calls, 35 iOS ratings"
+    "tractionRank": 167,
+    "tractionScore": 36,
+    "tractionReason": "Some users connected 10+ agents. Access free through year-end"
   },
   "paths": {
     "memo": "fall2026/memos/roma.md",

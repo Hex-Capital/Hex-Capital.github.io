@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/hoplite.jpg",
   "memoGeneratedAt": "2026-08-11T05:43:12.224Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 24,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 42,
-    "NR": 28,
-    "PG": 55,
-    "PT": 35,
-    "SL": 35,
-    "VK": 24
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.29,
-  "consolidatedRank": 186,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 159,
     "tractionScore": 43,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/hoplite.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/hoplite.md",
-      "elad-gil": "summer2026/evals/elad-gil/hoplite.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/hoplite.md",
-      "paul-graham": "summer2026/evals/paul-graham/hoplite.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/hoplite.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/hoplite.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/hoplite.md"
-    }
+    "evals": {}
   }
 }

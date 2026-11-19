@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/fenrock-ai.jpg",
   "memoGeneratedAt": "2026-03-05T01:01:26.832Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 23,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 39,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 35,
-    "EG": 37,
-    "NR": 33,
-    "PG": 31,
-    "PT": 25,
-    "SL": 23,
-    "VK": 39
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 31.86,
-  "consolidatedRank": 178,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/fenrock-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/fenrock-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/fenrock-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/fenrock-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/fenrock-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/fenrock-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/fenrock-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/fenrock-ai.md"
-    }
+    "evals": {}
   }
 }

@@ -46,8 +46,8 @@ function app() {
     activeTab: 'memo',
     tabContent: '',
     tabLoading: false,
-    companyChatEnabled: false,
-    companyChatThreads: {},
+    councilChatEnabled: false,
+    councilChatThreads: {},
     _companyLoadId: 0,
     _tabLoadId: 0,
     mdCache: {}, // path -> rendered html
@@ -55,15 +55,8 @@ function app() {
 
     // Council state
     councilOpen: false,
-    councilInput: '',
-    councilAsking: false,
-    councilMessages: [],
-    councilRoster: [],
-    councilPersonas: [],
     councilProvider: 'codex',
     councilModel: 'balanced',
-    councilCost: 0,
-    councilSessionId: '',
 
     // Static mode (set by config.json)
     staticMode: false,
@@ -164,7 +157,7 @@ function app() {
             const llmConfig = await llmResp.json();
             if (llmConfig.provider) this.councilProvider = llmConfig.provider;
             if (llmConfig.model) this.councilModel = llmConfig.model;
-            this.companyChatEnabled = llmConfig.companyChat?.available === true;
+            this.councilChatEnabled = llmConfig.councilChat?.available === true;
           }
         } catch (e) { /* keep local defaults */ }
       }
@@ -184,16 +177,6 @@ function app() {
         }
         this.batches = await batchesResp.json();
 
-        // Council has its own roster, independent of the batch's evaluation method.
-        if (!this.staticMode) {
-          try {
-            const personasResp = await fetch('data/personas.json');
-            if (personasResp.ok) this.councilRoster = await personasResp.json();
-          } catch (e) {
-            console.error('Failed to load the Council roster:', e);
-          }
-        }
-
         // Load default batch
         if (this.batches.length > 0) {
           this.currentBatch = this.batches[0]; // newest (sorted chronologically)
@@ -201,10 +184,6 @@ function app() {
         } else {
           this.noBuildData = true;
         }
-
-        // Initialize council: all personas active, generate session ID
-        this.councilSessionId = crypto.randomUUID();
-        this.councilPersonas = this.councilRoster.map(p => p.slug);
 
         // Load user state (watchlist, etc.)
         await this.loadUserState();
@@ -318,11 +297,7 @@ function app() {
     },
 
     get evaluators() {
-      return this.manifest?.evaluators ?? this.manifest?.personas ?? [];
-    },
-
-    get thesisEvaluations() {
-      return this.manifest?.evaluationMode === 'thesis';
+      return this.manifest?.evaluators ?? [];
     },
 
     evaluatorName(abbr) {
@@ -330,7 +305,7 @@ function app() {
     },
 
     evaluatorScoreLabel(label) {
-      if (!this.thesisEvaluations || !label) return label;
+      if (!label) return '';
       const abbr = label.split(' (', 1)[0];
       return this.evaluatorName(abbr) + label.slice(abbr.length);
     },
@@ -423,13 +398,10 @@ function app() {
       const parts = hash.split('/');
 
       if (parts[0] === 'company' && parts[1]) {
-        this.councilOpen = false;
         this.showCompany(parts[1]);
       } else if (parts[0] === 'analytics') {
-        this.councilOpen = false;
         this.view = 'analytics';
       } else {
-        this.councilOpen = false;
         this.view = 'dashboard';
       }
     },
@@ -727,29 +699,33 @@ function app() {
       }
     },
 
-    get companyChatThread() {
-      if (!this.companyData) return null;
-      const key = `${this.currentBatch}/${this.companyData.slug}`;
-      if (!this.companyChatThreads[key]) {
-        this.companyChatThreads[key] = { messages: [], input: '', asking: false, error: '' };
-      }
-      return this.companyChatThreads[key];
+    get councilCompany() {
+      return this.view === 'company' ? this.companyData : null;
     },
 
-    async sendCompanyChat() {
-      const thread = this.companyChatThread;
+    get councilChatThread() {
+      if (!this.currentBatch || this.loading || (this.view === 'company' && !this.companyData)) return null;
+      const key = `${this.currentBatch}/${this.councilCompany?.slug || ''}`;
+      if (!this.councilChatThreads[key]) {
+        this.councilChatThreads[key] = { messages: [], input: '', asking: false, error: '' };
+      }
+      return this.councilChatThreads[key];
+    },
+
+    async sendCouncilChat() {
+      const thread = this.councilChatThread;
       const question = thread?.input.trim();
       if (!question || thread.asking) return;
       const history = thread.messages.slice(-12).map(m => ({ role: m.role, content: m.content }));
       const batch = this.currentBatch;
-      const company = this.companyData.slug;
+      const company = this.councilCompany?.slug ?? null;
       thread.messages.push({ role: 'user', content: question });
       thread.input = '';
       thread.asking = true;
       thread.error = '';
-      this.scrollCompanyChat();
+      this.scrollCouncilChat();
       try {
-        const response = await fetch('/api/company-chat', {
+        const response = await fetch('/api/council/chat', {
           method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
           body: JSON.stringify({ batch, company, question, history }),
         });
@@ -762,19 +738,19 @@ function app() {
         thread.error = error.message;
       } finally {
         thread.asking = false;
-        this.scrollCompanyChat();
+        this.scrollCouncilChat();
       }
     },
 
-    scrollCompanyChat() {
+    scrollCouncilChat() {
       this.$nextTick(() => {
-        const pane = this.$refs.companyChatMessages;
+        const pane = this.$refs.councilChatMessages;
         if (pane) pane.scrollTop = pane.scrollHeight;
       });
     },
 
-    clearCompanyChat() {
-      const thread = this.companyChatThread;
+    clearCouncilChat() {
+      const thread = this.councilChatThread;
       if (!thread || thread.asking) return;
       thread.messages = [];
       thread.error = '';
@@ -867,8 +843,12 @@ function app() {
 
     // --- Council ---
 
-    openCouncil() {
-      this.councilOpen = true;
+    toggleCouncil() {
+      this.councilOpen = !this.councilOpen;
+      this.$nextTick(() => {
+        const target = this.councilOpen ? this.$refs.councilChatInput : this.$refs.councilToggle;
+        target?.focus();
+      });
     },
 
     logout() {
@@ -902,178 +882,6 @@ function app() {
         model: this.councilModel
       });
       window.open(`/api/meetingnotes/generate?${params}`, '_blank');
-    },
-
-    selectAllCouncilPersonas() {
-      if (this.councilRoster.length === 0) return;
-      if (this.councilPersonas.length === this.councilRoster.length) {
-        this.councilPersonas = [this.councilRoster[0].slug];
-      } else {
-        this.councilPersonas = this.councilRoster.map(p => p.slug);
-      }
-    },
-
-    toggleCouncilPersona(slug) {
-      if (this.councilPersonas.includes(slug)) {
-        // Don't allow deselecting all
-        if (this.councilPersonas.length > 1) {
-          this.councilPersonas = this.councilPersonas.filter(s => s !== slug);
-        }
-      } else {
-        this.councilPersonas = [...this.councilPersonas, slug];
-      }
-    },
-
-    async askCouncil() {
-      if (this.staticMode) return;
-      const question = this.councilInput.trim();
-      if (!question || this.councilAsking || this.councilPersonas.length === 0) return;
-
-      this.councilAsking = true;
-      this.councilInput = '';
-
-      // Add user question to messages
-      this.councilMessages.push({ type: 'question', text: question });
-
-      // Add placeholder "thinking" messages for each active persona
-      const activeList = [...this.councilPersonas];
-      const placeholders = {};
-      for (const slug of activeList) {
-        const p = this.councilRoster.find(x => x.slug === slug);
-        if (!p) continue;
-        const idx = this.councilMessages.length;
-        this.councilMessages.push({
-          type: 'response',
-          persona: slug,
-          fullName: p.fullName,
-          abbr: p.abbr,
-          text: '',
-          cost: '',
-          elapsed: '',
-          loading: true
-        });
-        placeholders[slug] = idx;
-      }
-
-      // Scroll to bottom
-      this.$nextTick(() => {
-        if (this.$refs.councilMessages) {
-          this.$refs.councilMessages.scrollTop = this.$refs.councilMessages.scrollHeight;
-        }
-      });
-
-      try {
-        const resp = await fetch('/api/council/ask', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            question,
-            companySlug: this.companyData ? this.companyData.slug : null,
-            personas: activeList,
-            sessionId: this.councilSessionId,
-            provider: this.councilProvider,
-            model: this.councilModel,
-            batch: this.currentBatch
-          })
-        });
-
-        const reader = resp.body.getReader();
-        const decoder = new TextDecoder();
-        let buffer = '';
-
-        while (true) {
-          const { value, done } = await reader.read();
-          if (done) break;
-          buffer += decoder.decode(value, { stream: true });
-
-          // Process complete SSE lines
-          const lines = buffer.split('\n');
-          buffer = lines.pop(); // keep incomplete line in buffer
-
-          for (const line of lines) {
-            if (!line.startsWith('data: ')) continue;
-            try {
-              const data = JSON.parse(line.slice(6));
-
-              if (data.type === 'error' && data.message && !data.persona) {
-                // Global error (e.g., all personas failed)
-                this.councilMessages.push({
-                  type: 'error',
-                  text: data.message,
-                  loading: false
-                });
-                // Mark all still-loading placeholders as done
-                for (const slug of Object.keys(placeholders)) {
-                  const idx = placeholders[slug];
-                  if (this.councilMessages[idx] && this.councilMessages[idx].loading) {
-                    this.councilMessages[idx].loading = false;
-                  }
-                }
-                this.$nextTick(() => {
-                  if (this.$refs.councilMessages) {
-                    this.$refs.councilMessages.scrollTop = this.$refs.councilMessages.scrollHeight;
-                  }
-                });
-              } else if (data.type === 'result' || data.type === 'error') {
-                const idx = placeholders[data.persona];
-                if (idx !== undefined && this.councilMessages[idx]) {
-                  this.councilMessages[idx].text = data.text;
-                  this.councilMessages[idx].cost = data.cost || '';
-                  this.councilMessages[idx].elapsed = data.elapsed || '';
-                  this.councilMessages[idx].loading = false;
-                }
-                // Scroll on each response
-                this.$nextTick(() => {
-                  if (this.$refs.councilMessages) {
-                    this.$refs.councilMessages.scrollTop = this.$refs.councilMessages.scrollHeight;
-                  }
-                });
-              }
-
-              if (data.type === 'done') {
-                const cost = parseFloat(data.totalCost);
-                if (!isNaN(cost)) this.councilCost += cost;
-              }
-            } catch (e) {
-              // skip malformed SSE
-            }
-          }
-        }
-      } catch (e) {
-        console.error('Council ask failed:', e);
-        // Mark all loading placeholders as errored
-        for (const slug of Object.keys(placeholders)) {
-          const idx = placeholders[slug];
-          if (this.councilMessages[idx] && this.councilMessages[idx].loading) {
-            this.councilMessages[idx].text = 'Request failed.';
-            this.councilMessages[idx].loading = false;
-          }
-        }
-      } finally {
-        this.councilAsking = false;
-      }
-    },
-
-    async clearCouncilHistory() {
-      this.councilMessages = [];
-      this.councilCost = 0;
-      try {
-        await fetch(`/api/council/session/${this.councilSessionId}`, { method: 'DELETE' });
-      } catch (e) { /* ignore */ }
-      this.councilSessionId = crypto.randomUUID();
-    },
-
-    personaColor(slug) {
-      const colors = {
-        'cyan-banister': 'persona-terracotta',
-        'elad-gil': 'persona-sage',
-        'naval-ravikant': 'persona-blue',
-        'paul-graham': 'persona-amber',
-        'peter-thiel': 'persona-purple',
-        'sam-lessin': 'persona-rose',
-        'vinod-khosla': 'persona-cream',
-      };
-      return colors[slug] || 'text-claude-dim';
     },
 
     // --- Tier helpers ---
@@ -1340,12 +1148,12 @@ function app() {
       if (e.key === 'Escape') {
         e.preventDefault();
         if (this.councilOpen) {
-          this.councilOpen = false;
+          this.toggleCouncil();
         } else if (this.view !== 'dashboard') {
           this.navigate('dashboard');
         }
       }
-      if (this.view === 'dashboard' && !this.councilOpen) {
+      if (this.view === 'dashboard') {
         if (e.key === 'ArrowLeft') {
           e.preventDefault();
           this.mobileCardNav(-1);
@@ -1354,7 +1162,7 @@ function app() {
           this.mobileCardNav(1);
         }
       }
-      if (this.view === 'company' && !this.councilOpen) {
+      if (this.view === 'company') {
         if (e.key === 'ArrowLeft') {
           e.preventDefault();
           this.prevCompany();

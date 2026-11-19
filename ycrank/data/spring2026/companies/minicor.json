@@ -15,47 +15,14 @@
   "tags": [],
   "slideImage": "spring2026/slides/images/minicor.jpg",
   "memoGeneratedAt": "2026-05-28T02:46:28.043Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 62,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 56,
-    "NR": 42,
-    "PG": 62,
-    "PT": 37,
-    "SL": 31,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.14,
-  "consolidatedRank": 50,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 21,
     "tractionScore": 55,
@@ -63,14 +30,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/minicor.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/minicor.md",
-      "elad-gil": "spring2026/evals/elad-gil/minicor.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/minicor.md",
-      "paul-graham": "spring2026/evals/paul-graham/minicor.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/minicor.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/minicor.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/minicor.md"
-    }
+    "evals": {}
   }
 }

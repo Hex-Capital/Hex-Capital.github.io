@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/playablai.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:37.621Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 33,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 55,
-    "EG": 44,
-    "NR": 60,
-    "PG": 56,
-    "PT": 30,
-    "SL": 35,
-    "VK": 33
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.71,
-  "consolidatedRank": 55,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 82,
     "tractionScore": 15,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/playablai.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/playablai.md",
-      "elad-gil": "spring2026/evals/elad-gil/playablai.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/playablai.md",
-      "paul-graham": "spring2026/evals/paul-graham/playablai.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/playablai.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/playablai.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/playablai.md"
-    }
+    "evals": {}
   }
 }

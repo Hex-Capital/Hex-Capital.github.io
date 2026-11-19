@@ -42,9 +42,9 @@
   "consolidatedAvg": 39.33,
   "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 52,
-    "tractionReason": "Multiple live customers, flat monthly per-machine pricing"
+    "tractionRank": 96,
+    "tractionScore": 54,
+    "tractionReason": "Multiple live maintenance customers and a network of 250+ field technicians"
   },
   "paths": {
     "memo": "fall2026/memos/mantle-2.md",

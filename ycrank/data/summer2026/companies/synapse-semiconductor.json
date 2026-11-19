@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/synapse-semiconductor.jpg",
   "memoGeneratedAt": "2026-08-11T05:33:10.109Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 42,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 60,
-    "EG": 51,
-    "NR": 66,
-    "PG": 49,
-    "PT": 44,
-    "SL": 30,
-    "VK": 42
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 48.86,
-  "consolidatedRank": 72,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 153,
     "tractionScore": 45,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/synapse-semiconductor.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/synapse-semiconductor.md",
-      "elad-gil": "summer2026/evals/elad-gil/synapse-semiconductor.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/synapse-semiconductor.md",
-      "paul-graham": "summer2026/evals/paul-graham/synapse-semiconductor.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/synapse-semiconductor.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/synapse-semiconductor.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/synapse-semiconductor.md"
-    }
+    "evals": {}
   }
 }

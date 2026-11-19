@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-10-27T22:44:00.330Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 36,
-    "NR": 37,
-    "PG": 35,
-    "PT": 32,
-    "SL": 28,
-    "VK": 25
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 33.57,
-  "consolidatedRank": 207,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "summer2026/memos/musicarena.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/musicarena.md",
-      "elad-gil": "summer2026/evals/elad-gil/musicarena.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/musicarena.md",
-      "paul-graham": "summer2026/evals/paul-graham/musicarena.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/musicarena.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/musicarena.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/musicarena.md"
-    }
+    "evals": {}
   }
 }

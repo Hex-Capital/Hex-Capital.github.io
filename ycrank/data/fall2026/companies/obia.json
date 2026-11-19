@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 151,
   "traction": {
-    "tractionRank": 47,
-    "tractionScore": 62,
-    "tractionReason": "$1.05M in closed lease value under landlord-paid brokerage model"
+    "tractionRank": 65,
+    "tractionScore": 60,
+    "tractionReason": "$1.05M lease value closed in 22 days. Landlord-paid brokerage model"
   },
   "paths": {
     "memo": "fall2026/memos/obia.md",

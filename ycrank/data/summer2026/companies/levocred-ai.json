@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/levocred-ai.jpg",
   "memoGeneratedAt": "2026-08-11T04:48:14.253Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 55,
-    "NR": 55,
-    "PG": 58,
-    "PT": 39,
-    "SL": 45,
-    "VK": 25
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.57,
-  "consolidatedRank": 93,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 28,
     "tractionScore": 75,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/levocred-ai.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/levocred-ai.md",
-      "elad-gil": "summer2026/evals/elad-gil/levocred-ai.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/levocred-ai.md",
-      "paul-graham": "summer2026/evals/paul-graham/levocred-ai.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/levocred-ai.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/levocred-ai.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/levocred-ai.md"
-    }
+    "evals": {}
   }
 }

@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/alloovium.jpg",
   "memoGeneratedAt": "2026-08-11T05:24:05.615Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 60,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 36,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 60,
-    "NR": 49,
-    "PG": 49,
-    "PT": 37,
-    "SL": 40,
-    "VK": 36
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.71,
-  "consolidatedRank": 100,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 50,
     "tractionScore": 66,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/alloovium.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/alloovium.md",
-      "elad-gil": "summer2026/evals/elad-gil/alloovium.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/alloovium.md",
-      "paul-graham": "summer2026/evals/paul-graham/alloovium.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/alloovium.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/alloovium.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/alloovium.md"
-    }
+    "evals": {}
   }
 }

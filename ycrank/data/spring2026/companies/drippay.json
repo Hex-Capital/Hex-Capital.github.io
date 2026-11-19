@@ -21,47 +21,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-05-28T02:54:41.823Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 42,
-    "NR": 35,
-    "PG": 40,
-    "PT": 28,
-    "SL": 25,
-    "VK": 23
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 32.86,
-  "consolidatedRank": 183,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 94,
     "tractionScore": 12,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/drippay.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/drippay.md",
-      "elad-gil": "spring2026/evals/elad-gil/drippay.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/drippay.md",
-      "paul-graham": "spring2026/evals/paul-graham/drippay.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/drippay.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/drippay.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/drippay.md"
-    }
+    "evals": {}
   }
 }

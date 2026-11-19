@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/sequence-markets.jpg",
   "memoGeneratedAt": "2026-03-03T23:00:38.649Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 28,
-    "EG": 37,
-    "NR": 42,
-    "PG": 35,
-    "PT": 25,
-    "SL": 27,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 33,
-  "consolidatedRank": 169,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/sequence-markets.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/sequence-markets.md",
-      "elad-gil": "winter2026/evals/elad-gil/sequence-markets.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/sequence-markets.md",
-      "paul-graham": "winter2026/evals/paul-graham/sequence-markets.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/sequence-markets.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/sequence-markets.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/sequence-markets.md"
-    }
+    "evals": {}
   }
 }

@@ -44,9 +44,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 54,
   "traction": {
-    "tractionRank": 63,
-    "tractionScore": 57,
-    "tractionReason": "Sold-out first shipment, 2,000+ preorders, two enterprise pilots"
+    "tractionRank": 42,
+    "tractionScore": 64,
+    "tractionReason": "First batch shipped and sold out. 2,000+ preorders, two enterprise pilots"
   },
   "paths": {
     "memo": "fall2026/memos/antimattr.md",

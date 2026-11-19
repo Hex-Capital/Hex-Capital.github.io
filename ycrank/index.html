@@ -88,13 +88,17 @@
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-gray px-1.5 sm:px-2 hidden sm:inline" x-show="manifest" x-text="manifest ? manifest.companyCount + ' companies' : ''"></span>
         <span class="text-claude-border hidden sm:inline">|</span>
+        <button type="button" x-ref="councilToggle" x-cloak x-show="councilChatEnabled && !staticMode" @click="toggleCouncil()"
+          :aria-expanded="councilOpen" aria-controls="thesis-council" class="council-toggle">Thesis Council</button>
         <a href="#" @click.prevent="logout()" class="text-claude-dim hover:text-claude-red px-1.5 sm:px-2 py-1.5 transition-colors font-mono">[logout]</a>
       </div>
     </div>
   </nav>
 
   <!-- Main Content -->
-  <main class="max-w-[2240px] mx-auto px-2 sm:px-3 py-2 sm:py-3">
+  <div class="dashboard-layout max-w-[2240px] mx-auto px-2 sm:px-3"
+    :class="{ 'dashboard-with-council': councilOpen && councilChatEnabled && !staticMode && !loading }">
+  <main class="min-w-0 py-2 sm:py-3">
 
     <!-- Loading -->
     <div x-show="loading" class="text-center py-20 text-claude-orange terminal-blink">Loading_</div>
@@ -182,11 +186,11 @@
               <template x-for="p in evaluators" :key="p.abbr">
                 <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-10 border border-claude-border whitespace-nowrap hidden sm:table-cell"
                   @click="sortBy(p.abbr)"
-                  :title="p.fullName"><span x-text="thesisEvaluations ? p.fullName : p.abbr"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+                  :title="p.fullName"><span x-text="p.fullName"></span><span x-show="sortCol === p.abbr" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
                 </th>
               </template>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-12 border border-claude-border whitespace-nowrap"
-                @click="sortBy('avg')" :title="thesisEvaluations ? 'Average thesis score' : 'Average persona score'">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
+                @click="sortBy('avg')" title="Average thesis score">Avg<span x-show="sortCol === 'avg'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-14 border border-claude-border whitespace-nowrap"
                 @click="sortBy('teamSize')">Team Size<span x-show="sortCol === 'teamSize'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
@@ -378,7 +382,7 @@
     <!-- Company Detail View -->
     <div x-show="view === 'company' && !loading" x-cloak>
       <template x-if="companyData">
-        <div class="company-layout" :class="{ 'company-chat-active': companyChatEnabled && !staticMode }">
+        <div>
           <div class="company-details">
           <!-- Header -->
           <div class="mb-4 mt-3">
@@ -414,13 +418,10 @@
                   <span class="sm:hidden">Email</span>
                 </button>
                 <button @click="generateMeetingNotes()" x-show="!staticMode"
+                  title="Generate meeting preparation using the investment theses"
                   class="px-2 sm:px-3 py-1.5 border border-claude-green text-claude-green hover:bg-claude-green hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">
                   <span class="hidden sm:inline">Meeting Prep</span>
                   <span class="sm:hidden">Prep</span>
-                </button>
-                <button @click="openCouncil()" x-show="!staticMode"
-                  class="px-2 sm:px-3 py-1.5 border border-claude-orange text-claude-orange hover:bg-claude-orange hover:text-claude-bg text-sm transition-colors rounded-none flex items-center gap-1.5">
-                  <span>[council]</span>
                 </button>
               </div>
             </div>
@@ -440,7 +441,7 @@
 
           <!-- Score Summary -->
           <div class="mb-4">
-            <div class="grid grid-cols-2 gap-1.5" :class="thesisEvaluations ? 'sm:grid-cols-4' : 'xs:grid-cols-4 md:grid-cols-8'">
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
               <template x-for="p in evaluators" :key="p.slug">
                 <div class="score-card p-1.5 text-center"
                   :class="{ 'cursor-pointer': companyData.paths.evals[p.slug], 'score-card-active': activeTab === p.slug }"
@@ -489,7 +490,7 @@
                   :aria-selected="activeTab === p.slug"
                   x-show="companyData.paths.evals[p.slug]"
                   :class="activeTab === p.slug ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
-                  class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0" :title="p.fullName" x-text="thesisEvaluations ? p.fullName : p.abbr"></button>
+                  class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0" x-text="p.fullName"></button>
               </template>
             </div>
             <div class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto" role="tabpanel" aria-label="Tab content">
@@ -536,40 +537,6 @@
           </div>
           </div>
 
-          <template x-if="companyChatEnabled && !staticMode && companyChatThread">
-            <aside class="company-chat" aria-label="Company chat">
-              <header class="company-chat-header">
-                <div>
-                  <h2 class="text-sm font-bold text-claude-orange">Ask about <span x-text="companyData.name"></span></h2>
-                  <p class="text-xs text-claude-gray mt-1">GPT-6.1 Sol · Medium</p>
-                </div>
-                <button type="button" @click="clearCompanyChat()" :disabled="companyChatThread.asking || !companyChatThread.messages.length"
-                  class="text-xs text-claude-gray disabled:opacity-40" aria-label="Clear company chat">Clear</button>
-              </header>
-              <p class="company-chat-context text-xs text-claude-gray">Memo + live web · Codex subscription</p>
-              <div class="company-chat-messages" x-ref="companyChatMessages" role="log" aria-label="Company conversation" aria-live="polite" :aria-busy="companyChatThread.asking">
-                <p x-show="!companyChatThread.messages.length" class="text-sm text-claude-dim">Ask about the business, traction, risks, or questions to raise with the founders.</p>
-                <template x-for="(message, index) in companyChatThread.messages" :key="index">
-                  <div class="company-chat-message" :class="{ 'company-chat-user': message.role === 'user' }">
-                    <p class="text-xs text-claude-gray mb-1" x-text="message.role === 'user' ? 'You' : 'Assistant'"></p>
-                    <template x-if="message.role === 'user'"><p class="whitespace-pre-wrap text-sm break-words" x-text="message.content"></p></template>
-                    <template x-if="message.role === 'assistant'"><div class="markdown-body" x-html="renderChatAnswer(message.content)"></div></template>
-                  </div>
-                </template>
-                <p x-show="companyChatThread.asking" class="text-sm text-claude-orange" role="status">Thinking…</p>
-              </div>
-              <form class="company-chat-compose" @submit.prevent="sendCompanyChat()">
-                <p x-show="companyChatThread.error" x-text="companyChatThread.error" class="text-xs text-claude-red mb-2" role="alert"></p>
-                <label class="sr-only" for="company-chat-question">Ask about this company</label>
-                <textarea id="company-chat-question" x-model="companyChatThread.input" maxlength="8000" rows="3"
-                  placeholder="Ask about this company…" @keydown.enter="if (!$event.shiftKey && !$event.isComposing) { $event.preventDefault(); sendCompanyChat(); }"></textarea>
-                <div class="flex items-center justify-between gap-2 mt-2">
-                  <span class="text-xs text-claude-dim" x-text="companyChatThread.asking ? 'You can draft your next question while I think.' : 'Enter to send · Shift+Enter for a new line'"></span>
-                  <button type="submit" :disabled="companyChatThread.asking || !companyChatThread.input.trim()" class="company-chat-send">Send</button>
-                </div>
-              </form>
-            </aside>
-          </template>
         </div>
       </template>
     </div>
@@ -582,7 +549,7 @@
       <template x-if="manifest && manifest.disagreements.length > 0">
         <div class="mb-6">
           <h3 class="text-sm font-bold mb-1 text-claude-red">&gt;&gt; Disagreement Highlights</h3>
-          <p class="text-claude-dim text-[10px] mb-2" x-text="thesisEvaluations ? 'Companies whose thesis scores diverge most (standard deviation ≥ 20).' : 'Companies whose persona scores diverge most (standard deviation ≥ 20).'"></p>
+          <p class="text-claude-dim text-[10px] mb-2">Companies whose thesis scores diverge most (standard deviation ≥ 20).</p>
           <div class="overflow-x-auto">
           <table class="w-full text-sm terminal-table">
             <thead>
@@ -617,7 +584,7 @@
       <template x-if="manifest && manifest.convergenceWarnings.length > 0">
         <div class="mb-6">
           <h3 class="text-sm font-bold mb-1 text-claude-amber">&gt;&gt; Convergence Warnings</h3>
-          <p class="text-claude-dim text-[10px] mb-2" x-text="thesisEvaluations ? 'Companies whose thesis scores are all within 10 points.' : 'Companies whose persona scores are all within 10 points.'"></p>
+          <p class="text-claude-dim text-[10px] mb-2">Companies whose thesis scores are all within 10 points.</p>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-0">
             <template x-for="c in manifest.convergenceWarnings" :key="c.company">
               <div class="border border-claude-border px-2 py-1 text-xs">
@@ -632,23 +599,23 @@
       <!-- Correlation Matrix -->
       <template x-if="manifest && manifest.correlationMatrix.length > 0">
         <div class="mb-6">
-          <h3 class="text-sm font-bold mb-1 text-claude-blue" x-text="thesisEvaluations ? '>> Thesis Correlation Matrix' : '>> Persona Correlation Matrix'"></h3>
-          <p class="text-claude-dim text-[10px] mb-2" x-text="thesisEvaluations ? 'Pearson r between thesis scores across companies.' : 'Pearson r between persona scores across companies. High correlation (r > 0.80) suggests insufficient differentiation.'"></p>
+          <h3 class="text-sm font-bold mb-1 text-claude-blue">&gt;&gt; Thesis Correlation Matrix</h3>
+          <p class="text-claude-dim text-[10px] mb-2">Pearson r between thesis scores across companies.</p>
           <div class="overflow-x-auto">
             <table class="text-sm terminal-table">
               <thead>
                 <tr class="border-b border-claude-border">
                   <th class="px-2 py-1 border border-claude-border"></th>
                   <template x-for="p in evaluators" :key="'corr-h-'+p.abbr">
-                    <th class="px-2 py-1 text-center text-claude-gray border border-claude-border" :title="p.fullName" x-text="thesisEvaluations ? p.fullName : p.abbr"></th>
+                    <th class="px-2 py-1 text-center text-claude-gray border border-claude-border" x-text="p.fullName"></th>
                   </template>
                 </tr>
               </thead>
               <tbody>
-                <template x-for="row in manifest.correlationMatrix" :key="row.persona">
+                <template x-for="row in manifest.correlationMatrix" :key="row.evaluator">
                   <tr class="border-b border-claude-border">
-                    <td class="px-2 py-1 font-bold text-claude-text border border-claude-border" x-text="thesisEvaluations ? evaluatorName(row.persona) : row.persona"></td>
-                    <template x-for="p in evaluators" :key="'corr-'+row.persona+'-'+p.abbr">
+                    <td class="px-2 py-1 font-bold text-claude-text border border-claude-border" x-text="evaluatorName(row.evaluator)"></td>
+                    <template x-for="p in evaluators" :key="'corr-'+row.evaluator+'-'+p.abbr">
                       <td class="px-2 py-1 text-center tabular-nums border border-claude-border"
                         :class="corrColor(row.values[p.abbr])"
                         x-text="row.values[p.abbr] != null ? row.values[p.abbr].toFixed(2) : '--'"></td>
@@ -663,125 +630,41 @@
     </div>
 
   </main>
-
-  <!-- Council Slide-out Panel -->
-  <div x-show="councilOpen && !staticMode" x-cloak
-    role="dialog" aria-label="Investor Council" aria-modal="true"
-    class="fixed inset-y-0 right-0 z-50 flex"
-    x-transition:enter="transition ease-out duration-200"
-    x-transition:enter-start="translate-x-full"
-    x-transition:enter-end="translate-x-0"
-    x-transition:leave="transition ease-in duration-150"
-    x-transition:leave-start="translate-x-0"
-    x-transition:leave-end="translate-x-full">
-
-    <!-- Backdrop -->
-    <div class="fixed inset-0 bg-black/50 z-0" @click="councilOpen = false"></div>
-
-    <!-- Panel -->
-    <div class="relative z-10 w-full sm:w-[520px] sm:max-w-full bg-claude-bg border-l-2 border-claude-orange flex flex-col h-[100dvh]">
-      <!-- Panel Header -->
-      <div class="council-header flex items-center justify-between px-3 py-2 border-b border-claude-border flex-shrink-0">
-        <div>
-          <h3 class="font-bold text-claude-orange text-sm">[Investor Council]</h3>
-          <p class="text-[10px] text-claude-dim" x-text="companyData ? companyData.name : 'No company loaded'"></p>
-        </div>
-        <div class="flex items-center gap-2">
-          <span class="text-[10px] text-claude-dim" x-text="'$' + councilCost.toFixed(3)"></span>
-          <button @click="councilOpen = false" aria-label="Close council panel" class="text-claude-gray hover:text-claude-red text-xs px-1">[x]</button>
-        </div>
-      </div>
-
-      <!-- Persona Toggles + Model Selector -->
-      <div class="px-3 py-1.5 border-b border-claude-border flex-shrink-0">
-        <div class="flex flex-wrap gap-1 mb-1.5">
-          <button @click="selectAllCouncilPersonas()"
-            :class="councilPersonas.length === councilRoster.length
-              ? 'bg-claude-orange text-claude-bg border-claude-orange'
-              : 'text-claude-text border-claude-border hover:border-claude-orange'"
-            class="px-1.5 py-0 text-[10px] border transition-colors rounded-none">All</button>
-          <template x-for="p in councilRoster" :key="p.slug">
-            <button @click="toggleCouncilPersona(p.slug)"
-              :class="councilPersonas.includes(p.slug)
-                ? 'bg-claude-orange text-claude-bg border-claude-orange'
-                : 'text-claude-dim border-claude-border hover:text-claude-text hover:border-claude-orange'"
-              class="px-1.5 py-0 text-[10px] border transition-colors rounded-none" x-text="p.abbr"></button>
+          <template x-if="councilOpen && councilChatEnabled && !staticMode && councilChatThread">
+            <aside id="thesis-council" class="company-chat" aria-label="Thesis Council chat">
+              <header class="company-chat-header">
+                <div>
+                  <h2 class="text-sm font-bold text-claude-orange">Thesis Council</h2>
+                  <p class="text-xs text-claude-gray mt-1">GPT-6.1 Sol · Medium</p>
+                </div>
+                <button type="button" @click="clearCouncilChat()" :disabled="councilChatThread.asking || !councilChatThread.messages.length"
+                  class="text-xs text-claude-gray disabled:opacity-40" aria-label="Clear Council chat">Clear</button>
+                <button type="button" @click="toggleCouncil()" class="text-xs text-claude-gray" aria-label="Collapse Council">Collapse</button>
+              </header>
+              <p class="company-chat-context text-xs text-claude-gray">AGI · Hypergrowth · Exit<br><span x-text="councilCompany ? councilCompany.name : formatBatch(currentBatch)"></span></p>
+              <div class="company-chat-messages" x-ref="councilChatMessages" role="log" aria-label="Council conversation" aria-live="polite" :aria-busy="councilChatThread.asking">
+                <p x-show="!councilChatThread.messages.length" class="text-sm text-claude-dim">Ask about a thesis, compare companies, or dig into the saved evaluations.</p>
+                <template x-for="(message, index) in councilChatThread.messages" :key="index">
+                  <div class="company-chat-message" :class="{ 'company-chat-user': message.role === 'user' }">
+                    <p class="text-xs text-claude-gray mb-1" x-text="message.role === 'user' ? 'You' : 'Assistant'"></p>
+                    <template x-if="message.role === 'user'"><p class="whitespace-pre-wrap text-sm break-words" x-text="message.content"></p></template>
+                    <template x-if="message.role === 'assistant'"><div class="markdown-body" x-html="renderChatAnswer(message.content)"></div></template>
+                  </div>
+                </template>
+                <p x-show="councilChatThread.asking" class="text-sm text-claude-orange" role="status">Thinking…</p>
+              </div>
+              <form class="company-chat-compose" @submit.prevent="sendCouncilChat()">
+                <p x-show="councilChatThread.error" x-text="councilChatThread.error" class="text-xs text-claude-red mb-2" role="alert"></p>
+                <label class="sr-only" for="company-chat-question">Ask the Thesis Council</label>
+                <textarea id="company-chat-question" x-ref="councilChatInput" x-model="councilChatThread.input" maxlength="8000" rows="3"
+                  placeholder="Ask the Thesis Council…" @keydown.enter="if (!$event.shiftKey && !$event.isComposing) { $event.preventDefault(); sendCouncilChat(); }"></textarea>
+                <div class="flex items-center justify-between gap-2 mt-2">
+                  <span class="text-xs text-claude-dim" x-text="councilChatThread.asking ? 'You can draft your next question while I think.' : 'Enter to send · Shift+Enter for a new line'"></span>
+                  <button type="submit" :disabled="councilChatThread.asking || !councilChatThread.input.trim()" class="company-chat-send">Send</button>
+                </div>
+              </form>
+            </aside>
           </template>
-        </div>
-        <div class="flex items-center gap-2">
-          <select x-model="councilProvider" class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 py-0 text-[10px] rounded-none focus:outline-none">
-            <option value="codex">Codex</option>
-            <option value="claude">Claude</option>
-          </select>
-          <select x-model="councilModel" class="bg-claude-bg border border-claude-border text-claude-orange px-1.5 py-0 text-[10px] rounded-none focus:outline-none">
-            <option value="quality">Quality</option>
-            <option value="balanced">Balanced</option>
-            <option value="fast">Fast</option>
-          </select>
-          <button @click="clearCouncilHistory()" class="text-[10px] text-claude-dim hover:text-claude-red transition-colors">[clear]</button>
-        </div>
-      </div>
-
-      <!-- Chat Messages -->
-      <div class="flex-1 overflow-y-auto px-3 py-2 space-y-3" x-ref="councilMessages">
-        <template x-if="councilMessages.length === 0">
-          <div class="text-center text-claude-dim text-xs mt-10">
-            Ask a question to get opinions from the investor council.
-          </div>
-        </template>
-        <template x-for="(msg, i) in councilMessages" :key="i">
-          <div>
-            <!-- User question -->
-            <template x-if="msg.type === 'question'">
-              <div class="mb-2">
-                <div class="text-xs text-claude-text">
-                  <span class="text-claude-orange">&gt; </span><span x-text="msg.text"></span>
-                </div>
-              </div>
-            </template>
-            <!-- Global error (e.g., all personas failed) -->
-            <template x-if="msg.type === 'error'">
-              <div class="mb-2 text-xs text-claude-red border-l-2 border-claude-red pl-2 ml-1" x-text="msg.text"></div>
-            </template>
-            <!-- Persona response -->
-            <template x-if="msg.type === 'response'">
-              <div class="mb-2">
-                <div class="flex items-center gap-2 mb-0.5">
-                  <span class="text-[10px] font-bold" :class="personaColor(msg.persona)" x-text="msg.fullName + ' (' + msg.abbr + ')'"></span>
-                  <span class="text-[10px] text-claude-dim" x-text="msg.cost && msg.elapsed ? msg.cost + ', ' + msg.elapsed : ''"></span>
-                </div>
-                <div class="border-l-2 border-claude-border pl-2 ml-1">
-                  <template x-if="msg.loading">
-                    <div class="text-xs text-claude-dim terminal-blink">processing_</div>
-                  </template>
-                  <template x-if="!msg.loading">
-                    <p class="text-xs text-claude-text whitespace-pre-wrap" x-text="msg.text"></p>
-                  </template>
-                </div>
-              </div>
-            </template>
-          </div>
-        </template>
-      </div>
-
-      <!-- Input Area -->
-      <div class="council-input px-3 py-2 border-t border-claude-border flex-shrink-0">
-        <div class="flex gap-1.5">
-          <span class="text-claude-orange text-xs py-1">&gt;</span>
-          <input type="text" x-model="councilInput"
-            @keydown.enter="askCouncil()"
-            :disabled="councilAsking"
-            placeholder="ask the council..." aria-label="Council question input"
-            class="flex-1 bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-xs focus:outline-none focus:border-claude-orange disabled:opacity-50 rounded-none placeholder-claude-dim">
-          <button @click="askCouncil()" :disabled="councilAsking || !councilInput.trim() || !councilPersonas.length"
-            :class="councilAsking || !councilInput.trim() || !councilPersonas.length ? 'text-claude-dim border-claude-border cursor-not-allowed' : 'text-claude-orange border-claude-orange hover:bg-claude-orange hover:text-claude-bg'"
-            class="px-3 py-1 border text-xs transition-colors rounded-none min-w-[52px] text-center">
-            <span x-show="!councilAsking">[send]</span>
-            <span x-show="councilAsking" class="terminal-blink">...</span>
-          </button>
-        </div>
-      </div>
-    </div>
   </div>
 
   <!-- Status Footer -->

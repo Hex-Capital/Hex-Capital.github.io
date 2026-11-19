@@ -18,58 +18,17 @@
   ],
   "slideImage": "winter2026/slides/images/prana-health.jpg",
   "memoGeneratedAt": "2026-02-28T04:41:14.930Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 46,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 37,
-    "NR": 36,
-    "PG": 40,
-    "PT": 26,
-    "SL": 29,
-    "VK": 46
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.14,
-  "consolidatedRank": 143,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/prana-health.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/prana-health.md",
-      "elad-gil": "winter2026/evals/elad-gil/prana-health.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/prana-health.md",
-      "paul-graham": "winter2026/evals/paul-graham/prana-health.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/prana-health.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/prana-health.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/prana-health.md"
-    }
+    "evals": {}
   }
 }

@@ -19,58 +19,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T23:12:11.413Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 61,
-    "NR": 56,
-    "PG": 44,
-    "PT": 35,
-    "SL": 39,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.71,
-  "consolidatedRank": 30,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/taxnova.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/taxnova.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/taxnova.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/taxnova.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/taxnova.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/taxnova.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/taxnova.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/taxnova.md"
-    }
+    "evals": {}
   }
 }

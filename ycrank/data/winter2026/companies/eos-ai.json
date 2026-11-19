@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/eos-ai.jpg",
   "memoGeneratedAt": "2026-03-02T19:19:10.638Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 43,
-    "NR": 49,
-    "PG": 52,
-    "PT": 35,
-    "SL": 39,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43.43,
-  "consolidatedRank": 70,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/eos-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/eos-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/eos-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/eos-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/eos-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/eos-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/eos-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/eos-ai.md"
-    }
+    "evals": {}
   }
 }

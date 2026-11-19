@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/confluence-labs.jpg",
   "memoGeneratedAt": "2026-03-09T16:28:27.110Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 64,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 37,
-    "NR": 54,
-    "PG": 42,
-    "PT": 39,
-    "SL": 34,
-    "VK": 64
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44,
-  "consolidatedRank": 66,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/confluence-labs.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/confluence-labs.md",
-      "elad-gil": "winter2026/evals/elad-gil/confluence-labs.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/confluence-labs.md",
-      "paul-graham": "winter2026/evals/paul-graham/confluence-labs.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/confluence-labs.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/confluence-labs.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/confluence-labs.md"
-    }
+    "evals": {}
   }
 }

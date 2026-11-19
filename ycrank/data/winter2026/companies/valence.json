@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/valence.jpg",
   "memoGeneratedAt": "2026-03-03T00:47:21.086Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 67,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 30,
-    "EG": 53,
-    "NR": 58,
-    "PG": 67,
-    "PT": 38,
-    "SL": 41,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.43,
-  "consolidatedRank": 51,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/valence.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/valence.md",
-      "elad-gil": "winter2026/evals/elad-gil/valence.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/valence.md",
-      "paul-graham": "winter2026/evals/paul-graham/valence.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/valence.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/valence.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/valence.md"
-    }
+    "evals": {}
   }
 }

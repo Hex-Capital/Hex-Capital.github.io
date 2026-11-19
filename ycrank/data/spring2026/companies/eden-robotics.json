@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/eden-robotics.jpg",
   "memoGeneratedAt": "2026-05-28T02:40:54.470Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 60,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 40,
-    "NR": 42,
-    "PG": 55,
-    "PT": 37,
-    "SL": 27,
-    "VK": 60
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 44.29,
-  "consolidatedRank": 62,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 111,
     "tractionScore": 10,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/eden-robotics.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/eden-robotics.md",
-      "elad-gil": "spring2026/evals/elad-gil/eden-robotics.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/eden-robotics.md",
-      "paul-graham": "spring2026/evals/paul-graham/eden-robotics.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/eden-robotics.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/eden-robotics.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/eden-robotics.md"
-    }
+    "evals": {}
   }
 }

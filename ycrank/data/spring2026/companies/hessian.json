@@ -21,47 +21,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-05-28T02:39:39.310Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 39,
-    "EG": 45,
-    "NR": 44,
-    "PG": 52,
-    "PT": 30,
-    "SL": 30,
-    "VK": 34
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.14,
-  "consolidatedRank": 119,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 65,
     "tractionScore": 19,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/hessian.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/hessian.md",
-      "elad-gil": "spring2026/evals/elad-gil/hessian.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/hessian.md",
-      "paul-graham": "spring2026/evals/paul-graham/hessian.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hessian.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/hessian.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/hessian.md"
-    }
+    "evals": {}
   }
 }

@@ -21,58 +21,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-02-28T04:17:00.398Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 21,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 24,
-    "EG": 33,
-    "NR": 35,
-    "PG": 37,
-    "PT": 25,
-    "SL": 21,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 29.43,
-  "consolidatedRank": 192,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/arzule.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/arzule.md",
-      "elad-gil": "winter2026/evals/elad-gil/arzule.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/arzule.md",
-      "paul-graham": "winter2026/evals/paul-graham/arzule.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/arzule.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/arzule.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/arzule.md"
-    }
+    "evals": {}
   }
 }

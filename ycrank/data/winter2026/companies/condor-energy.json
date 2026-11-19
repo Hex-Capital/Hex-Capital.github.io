@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/condor-energy.jpg",
   "memoGeneratedAt": "2026-02-27T06:28:39.647Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 55,
-    "NR": 44,
-    "PG": 49,
-    "PT": 28,
-    "SL": 32,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40.29,
-  "consolidatedRank": 104,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/condor-energy.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/condor-energy.md",
-      "elad-gil": "winter2026/evals/elad-gil/condor-energy.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/condor-energy.md",
-      "paul-graham": "winter2026/evals/paul-graham/condor-energy.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/condor-energy.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/condor-energy.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/condor-energy.md"
-    }
+    "evals": {}
   }
 }

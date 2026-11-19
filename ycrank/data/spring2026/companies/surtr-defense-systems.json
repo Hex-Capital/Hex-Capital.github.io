@@ -18,47 +18,14 @@
   ],
   "slideImage": "spring2026/slides/images/surtr-defense-systems.jpg",
   "memoGeneratedAt": "2026-05-28T03:06:07.846Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 54,
-    "NR": 43,
-    "PG": 52,
-    "PT": 53,
-    "SL": 33,
-    "VK": 49
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 48.57,
-  "consolidatedRank": 25,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 130,
     "tractionScore": 8,
@@ -66,14 +33,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/surtr-defense-systems.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/surtr-defense-systems.md",
-      "elad-gil": "spring2026/evals/elad-gil/surtr-defense-systems.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/surtr-defense-systems.md",
-      "paul-graham": "spring2026/evals/paul-graham/surtr-defense-systems.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/surtr-defense-systems.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/surtr-defense-systems.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/surtr-defense-systems.md"
-    }
+    "evals": {}
   }
 }

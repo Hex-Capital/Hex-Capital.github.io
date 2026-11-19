@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/arzana.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:07.331Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 44,
-    "EG": 44,
-    "NR": 33,
-    "PG": 64,
-    "PT": 27,
-    "SL": 26,
-    "VK": 35
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39,
-  "consolidatedRank": 122,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 30,
     "tractionScore": 46,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/arzana.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/arzana.md",
-      "elad-gil": "spring2026/evals/elad-gil/arzana.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arzana.md",
-      "paul-graham": "spring2026/evals/paul-graham/arzana.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arzana.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arzana.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arzana.md"
-    }
+    "evals": {}
   }
 }

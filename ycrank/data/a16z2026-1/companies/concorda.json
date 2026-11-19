@@ -19,58 +19,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:53:11.350Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 41,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 42,
-    "NR": 54,
-    "PG": 53,
-    "PT": 38,
-    "SL": 33,
-    "VK": 41
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 38,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/concorda.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/concorda.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/concorda.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/concorda.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/concorda.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/concorda.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/concorda.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/concorda.md"
-    }
+    "evals": {}
   }
 }

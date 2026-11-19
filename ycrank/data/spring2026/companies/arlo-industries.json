@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/arlo-industries.jpg",
   "memoGeneratedAt": "2026-05-28T02:32:30.178Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 75,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 49,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 64,
-    "EG": 48,
-    "NR": 43,
-    "PG": 75,
-    "PT": 54,
-    "SL": 45,
-    "VK": 49
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 54,
-  "consolidatedRank": 5,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 140,
     "tractionScore": 7,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/arlo-industries.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/arlo-industries.md",
-      "elad-gil": "spring2026/evals/elad-gil/arlo-industries.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arlo-industries.md",
-      "paul-graham": "spring2026/evals/paul-graham/arlo-industries.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arlo-industries.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arlo-industries.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arlo-industries.md"
-    }
+    "evals": {}
   }
 }

@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/valgo.jpg",
   "memoGeneratedAt": "2026-03-06T05:53:14.275Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 75,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 63,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "vinod-khosla": {
-      "score": 58,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 58,
-    "NR": 75,
-    "PG": 64,
-    "PT": 63,
-    "SL": 65,
-    "VK": 58
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 62.86,
-  "consolidatedRank": 2,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/valgo.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/valgo.md",
-      "elad-gil": "winter2026/evals/elad-gil/valgo.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/valgo.md",
-      "paul-graham": "winter2026/evals/paul-graham/valgo.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/valgo.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/valgo.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/valgo.md"
-    }
+    "evals": {}
   }
 }

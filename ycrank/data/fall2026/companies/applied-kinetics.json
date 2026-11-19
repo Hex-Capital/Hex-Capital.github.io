@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 204,
+    "tractionRank": 195,
     "tractionScore": 16,
-    "tractionReason": "Transformer turnaround quoted, no disclosed customer orders"
+    "tractionReason": "Published seven-week transformer turnaround. Customer orders undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/applied-kinetics.md",

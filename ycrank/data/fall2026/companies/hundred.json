@@ -42,11 +42,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 207,
+  "consolidatedRank": 208,
   "traction": {
-    "tractionRank": 225,
-    "tractionScore": 7,
-    "tractionReason": "Public launch, no disclosed inspection customers"
+    "tractionRank": 220,
+    "tractionScore": 6,
+    "tractionReason": "Launched inspection product. No disclosed customer adoption"
   },
   "paths": {
     "memo": "fall2026/memos/hundred.md",

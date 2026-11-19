@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/andustry.jpg",
   "memoGeneratedAt": "2026-05-28T03:01:25.464Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 28,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 29,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 38,
-    "EG": 41,
-    "NR": 39,
-    "PG": 45,
-    "PT": 28,
-    "SL": 31,
-    "VK": 29
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 35.86,
-  "consolidatedRank": 159,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 38,
     "tractionScore": 38,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/andustry.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/andustry.md",
-      "elad-gil": "spring2026/evals/elad-gil/andustry.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/andustry.md",
-      "paul-graham": "spring2026/evals/paul-graham/andustry.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/andustry.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/andustry.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/andustry.md"
-    }
+    "evals": {}
   }
 }

@@ -41,9 +41,9 @@
   "consolidatedAvg": 31,
   "consolidatedRank": 236,
   "traction": {
-    "tractionRank": 232,
-    "tractionScore": 3,
-    "tractionReason": "Public announcement, no disclosed customer orders"
+    "tractionRank": 233,
+    "tractionScore": 4,
+    "tractionReason": "Product announced. No disclosed customer orders or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/polemos-industries.md",

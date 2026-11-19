@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/canary.jpg",
   "memoGeneratedAt": "2026-03-03T23:01:27.477Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 29,
-    "EG": 44,
-    "NR": 49,
-    "PG": 51,
-    "PT": 35,
-    "SL": 26,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 39.71,
-  "consolidatedRank": 109,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/canary.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/canary.md",
-      "elad-gil": "winter2026/evals/elad-gil/canary.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/canary.md",
-      "paul-graham": "winter2026/evals/paul-graham/canary.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/canary.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/canary.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/canary.md"
-    }
+    "evals": {}
   }
 }

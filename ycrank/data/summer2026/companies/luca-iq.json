@@ -21,47 +21,14 @@
   ],
   "slideImage": "summer2026/slides/images/luca-iq.jpg",
   "memoGeneratedAt": "2026-08-11T04:56:11.272Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 59,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 66,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 48,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 57,
-    "EG": 65,
-    "NR": 59,
-    "PG": 66,
-    "PT": 51,
-    "SL": 41,
-    "VK": 48
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 55.29,
-  "consolidatedRank": 27,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 86,
     "tractionScore": 59,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/luca-iq.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/luca-iq.md",
-      "elad-gil": "summer2026/evals/elad-gil/luca-iq.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/luca-iq.md",
-      "paul-graham": "summer2026/evals/paul-graham/luca-iq.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/luca-iq.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/luca-iq.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/luca-iq.md"
-    }
+    "evals": {}
   }
 }

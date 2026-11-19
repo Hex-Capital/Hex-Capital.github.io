@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/crosslayer-labs.jpg",
   "memoGeneratedAt": "2026-03-09T23:22:00.564Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 48,
-    "EG": 53,
-    "NR": 70,
-    "PG": 57,
-    "PT": 52,
-    "SL": 45,
-    "VK": 47
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 53.14,
-  "consolidatedRank": 20,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/crosslayer-labs.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/crosslayer-labs.md",
-      "elad-gil": "winter2026/evals/elad-gil/crosslayer-labs.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/crosslayer-labs.md",
-      "paul-graham": "winter2026/evals/paul-graham/crosslayer-labs.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/crosslayer-labs.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/crosslayer-labs.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/crosslayer-labs.md"
-    }
+    "evals": {}
   }
 }

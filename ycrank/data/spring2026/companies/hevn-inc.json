@@ -22,47 +22,14 @@
   ],
   "slideImage": "spring2026/slides/images/hevn-inc.jpg",
   "memoGeneratedAt": "2026-05-28T02:57:58.459Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "vinod-khosla": {
-      "score": 43,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 47,
-    "EG": 51,
-    "NR": 55,
-    "PG": 70,
-    "PT": 49,
-    "SL": 45,
-    "VK": 43
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 51.43,
-  "consolidatedRank": 16,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 113,
     "tractionScore": 10,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/hevn-inc.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/hevn-inc.md",
-      "elad-gil": "spring2026/evals/elad-gil/hevn-inc.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/hevn-inc.md",
-      "paul-graham": "spring2026/evals/paul-graham/hevn-inc.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/hevn-inc.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/hevn-inc.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/hevn-inc.md"
-    }
+    "evals": {}
   }
 }

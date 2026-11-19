@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/arctic-health.jpg",
   "memoGeneratedAt": "2026-05-28T02:30:27.735Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 24,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 50,
-    "NR": 32,
-    "PG": 43,
-    "PT": 35,
-    "SL": 30,
-    "VK": 24
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 152,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 77,
     "tractionScore": 16,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/arctic-health.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/arctic-health.md",
-      "elad-gil": "spring2026/evals/elad-gil/arctic-health.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/arctic-health.md",
-      "paul-graham": "spring2026/evals/paul-graham/arctic-health.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/arctic-health.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/arctic-health.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/arctic-health.md"
-    }
+    "evals": {}
   }
 }

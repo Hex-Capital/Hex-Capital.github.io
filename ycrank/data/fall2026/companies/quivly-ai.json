@@ -42,9 +42,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 34,
   "traction": {
-    "tractionRank": 71,
-    "tractionScore": 55,
-    "tractionReason": "Six named customers, 18,000+ downstream accounts managed"
+    "tractionRank": 70,
+    "tractionScore": 59,
+    "tractionReason": "Six named customers. Downstream accounts managed grew to 18,000+"
   },
   "paths": {
     "memo": "fall2026/memos/quivly-ai.md",

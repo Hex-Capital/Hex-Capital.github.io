@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/aemon.jpg",
   "memoGeneratedAt": "2026-03-09T22:03:04.039Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 50,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 43,
-    "NR": 53,
-    "PG": 45,
-    "PT": 42,
-    "SL": 29,
-    "VK": 50
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43.14,
-  "consolidatedRank": 72,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/aemon.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/aemon.md",
-      "elad-gil": "winter2026/evals/elad-gil/aemon.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/aemon.md",
-      "paul-graham": "winter2026/evals/paul-graham/aemon.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/aemon.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/aemon.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/aemon.md"
-    }
+    "evals": {}
   }
 }

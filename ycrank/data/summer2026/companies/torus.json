@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/torus.jpg",
   "memoGeneratedAt": "2026-08-11T05:43:42.425Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 46,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 61,
-    "NR": 46,
-    "PG": 47,
-    "PT": 41,
-    "SL": 39,
-    "VK": 34
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 45.43,
-  "consolidatedRank": 104,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 85,
     "tractionScore": 59,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/torus.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/torus.md",
-      "elad-gil": "summer2026/evals/elad-gil/torus.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/torus.md",
-      "paul-graham": "summer2026/evals/paul-graham/torus.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/torus.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/torus.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/torus.md"
-    }
+    "evals": {}
   }
 }

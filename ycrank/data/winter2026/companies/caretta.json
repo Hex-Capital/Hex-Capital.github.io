@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/caretta.jpg",
   "memoGeneratedAt": "2026-02-28T04:24:14.171Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 20,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 27,
-    "EG": 32,
-    "NR": 37,
-    "PG": 37,
-    "PT": 27,
-    "SL": 20,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 31.14,
-  "consolidatedRank": 184,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/caretta.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/caretta.md",
-      "elad-gil": "winter2026/evals/elad-gil/caretta.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/caretta.md",
-      "paul-graham": "winter2026/evals/paul-graham/caretta.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/caretta.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/caretta.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/caretta.md"
-    }
+    "evals": {}
   }
 }

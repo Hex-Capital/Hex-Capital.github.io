@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/useparrot.jpg",
   "memoGeneratedAt": "2026-05-28T02:49:09.218Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 40,
-    "NR": 31,
-    "PG": 49,
-    "PT": 32,
-    "SL": 29,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.29,
-  "consolidatedRank": 155,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 135,
     "tractionScore": 8,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/useparrot.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/useparrot.md",
-      "elad-gil": "spring2026/evals/elad-gil/useparrot.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/useparrot.md",
-      "paul-graham": "spring2026/evals/paul-graham/useparrot.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/useparrot.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/useparrot.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/useparrot.md"
-    }
+    "evals": {}
   }
 }

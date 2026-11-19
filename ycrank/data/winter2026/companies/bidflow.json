@@ -21,58 +21,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-03-06T06:12:37.874Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 40,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 40,
-    "EG": 40,
-    "NR": 35,
-    "PG": 48,
-    "PT": 31,
-    "SL": 26,
-    "VK": 40
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.14,
-  "consolidatedRank": 136,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/bidflow.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/bidflow.md",
-      "elad-gil": "winter2026/evals/elad-gil/bidflow.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/bidflow.md",
-      "paul-graham": "winter2026/evals/paul-graham/bidflow.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/bidflow.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/bidflow.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/bidflow.md"
-    }
+    "evals": {}
   }
 }

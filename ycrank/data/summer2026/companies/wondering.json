@@ -22,47 +22,14 @@
   ],
   "slideImage": "summer2026/slides/images/wondering.jpg",
   "memoGeneratedAt": "2026-08-11T04:35:31.358Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 23,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 42,
-    "EG": 35,
-    "NR": 47,
-    "PG": 49,
-    "PT": 30,
-    "SL": 42,
-    "VK": 23
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 38.29,
-  "consolidatedRank": 174,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 64,
     "tractionScore": 63,
@@ -70,14 +37,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/wondering.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/wondering.md",
-      "elad-gil": "summer2026/evals/elad-gil/wondering.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/wondering.md",
-      "paul-graham": "summer2026/evals/paul-graham/wondering.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/wondering.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/wondering.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/wondering.md"
-    }
+    "evals": {}
   }
 }

@@ -19,58 +19,17 @@
   ],
   "slideImage": "winter2026/slides/images/rhizome-ai.jpg",
   "memoGeneratedAt": "2026-02-28T04:43:16.194Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 69,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 74,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 41,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 50,
-    "EG": 69,
-    "NR": 68,
-    "PG": 74,
-    "PT": 47,
-    "SL": 41,
-    "VK": 47
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 56.57,
-  "consolidatedRank": 10,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/rhizome-ai.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/rhizome-ai.md",
-      "elad-gil": "winter2026/evals/elad-gil/rhizome-ai.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/rhizome-ai.md",
-      "paul-graham": "winter2026/evals/paul-graham/rhizome-ai.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/rhizome-ai.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/rhizome-ai.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/rhizome-ai.md"
-    }
+    "evals": {}
   }
 }

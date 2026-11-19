@@ -19,47 +19,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-08-11T05:25:58.252Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 20,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 52,
-    "EG": 42,
-    "NR": 38,
-    "PG": 43,
-    "PT": 35,
-    "SL": 30,
-    "VK": 20
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 37.14,
-  "consolidatedRank": 189,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 180,
     "tractionScore": 30,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/mosaic-inc.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/mosaic-inc.md",
-      "elad-gil": "summer2026/evals/elad-gil/mosaic-inc.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/mosaic-inc.md",
-      "paul-graham": "summer2026/evals/paul-graham/mosaic-inc.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/mosaic-inc.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/mosaic-inc.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/mosaic-inc.md"
-    }
+    "evals": {}
   }
 }

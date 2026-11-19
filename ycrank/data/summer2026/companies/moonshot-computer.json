@@ -21,47 +21,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-09-10T14:23:10.037Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 26,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 32,
-    "EG": 47,
-    "NR": 31,
-    "PG": 56,
-    "PT": 32,
-    "SL": 26,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 36.57,
-  "consolidatedRank": 193,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 161,
     "tractionScore": 43,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/moonshot-computer.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/moonshot-computer.md",
-      "elad-gil": "summer2026/evals/elad-gil/moonshot-computer.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/moonshot-computer.md",
-      "paul-graham": "summer2026/evals/paul-graham/moonshot-computer.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/moonshot-computer.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/moonshot-computer.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/moonshot-computer.md"
-    }
+    "evals": {}
   }
 }

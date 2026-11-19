@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/mochacare.jpg",
   "memoGeneratedAt": "2026-03-06T05:41:36.540Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 55,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 34,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 45,
-    "NR": 43,
-    "PG": 55,
-    "PT": 27,
-    "SL": 30,
-    "VK": 34
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.43,
-  "consolidatedRank": 89,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/mochacare.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/mochacare.md",
-      "elad-gil": "winter2026/evals/elad-gil/mochacare.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/mochacare.md",
-      "paul-graham": "winter2026/evals/paul-graham/mochacare.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/mochacare.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/mochacare.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/mochacare.md"
-    }
+    "evals": {}
   }
 }

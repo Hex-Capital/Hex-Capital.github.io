@@ -19,47 +19,14 @@
   ],
   "slideImage": "spring2026/slides/images/cignara.jpg",
   "memoGeneratedAt": "2026-05-28T03:08:14.174Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 27,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 22,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 35,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 36,
-    "EG": 39,
-    "NR": 37,
-    "PG": 33,
-    "PT": 27,
-    "SL": 22,
-    "VK": 35
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 32.71,
-  "consolidatedRank": 184,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 128,
     "tractionScore": 8,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/cignara.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/cignara.md",
-      "elad-gil": "spring2026/evals/elad-gil/cignara.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/cignara.md",
-      "paul-graham": "spring2026/evals/paul-graham/cignara.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/cignara.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/cignara.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/cignara.md"
-    }
+    "evals": {}
   }
 }

@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/most-robotic.jpg",
   "memoGeneratedAt": "2026-08-26T05:25:06.508Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 25,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 24,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 25,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 25,
-    "EG": 30,
-    "NR": 31,
-    "PG": 30,
-    "PT": 24,
-    "SL": 29,
-    "VK": 25
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 27.71,
-  "consolidatedRank": 223,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 218,
     "tractionScore": 0,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/most-robotic.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/most-robotic.md",
-      "elad-gil": "summer2026/evals/elad-gil/most-robotic.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/most-robotic.md",
-      "paul-graham": "summer2026/evals/paul-graham/most-robotic.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/most-robotic.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/most-robotic.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/most-robotic.md"
-    }
+    "evals": {}
   }
 }

@@ -41,9 +41,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 33,
-    "tractionReason": "906 platform repository stars, managed hosting announced from $10/month"
+    "tractionRank": 15,
+    "tractionScore": 75,
+    "tractionReason": "Hundreds of paying customers at standalone OpenSEO and 906 EveryApp stars"
   },
   "paths": {
     "memo": "fall2026/memos/everyapp.md",

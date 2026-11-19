@@ -20,58 +20,17 @@
   ],
   "slideImage": "winter2026/slides/images/visibl-semiconductors.jpg",
   "memoGeneratedAt": "2026-02-28T04:35:19.280Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 37,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 37,
-    "EG": 49,
-    "NR": 47,
-    "PG": 53,
-    "PT": 33,
-    "SL": 33,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 42.29,
-  "consolidatedRank": 80,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/visibl-semiconductors.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/visibl-semiconductors.md",
-      "elad-gil": "winter2026/evals/elad-gil/visibl-semiconductors.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/visibl-semiconductors.md",
-      "paul-graham": "winter2026/evals/paul-graham/visibl-semiconductors.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/visibl-semiconductors.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/visibl-semiconductors.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/visibl-semiconductors.md"
-    }
+    "evals": {}
   }
 }

@@ -19,47 +19,14 @@
   ],
   "slideImage": "summer2026/slides/images/atomarine.jpg",
   "memoGeneratedAt": "2026-08-11T04:29:11.706Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "elad-gil": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 29,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 47,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 68,
-    "EG": 44,
-    "NR": 54,
-    "PG": 31,
-    "PT": 32,
-    "SL": 29,
-    "VK": 47
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 43.57,
-  "consolidatedRank": 127,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 193,
     "tractionScore": 24,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/atomarine.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/atomarine.md",
-      "elad-gil": "summer2026/evals/elad-gil/atomarine.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/atomarine.md",
-      "paul-graham": "summer2026/evals/paul-graham/atomarine.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/atomarine.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/atomarine.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/atomarine.md"
-    }
+    "evals": {}
   }
 }

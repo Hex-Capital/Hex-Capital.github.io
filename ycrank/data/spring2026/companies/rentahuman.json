@@ -19,47 +19,14 @@
   ],
   "slideImage": "spring2026/slides/images/rentahuman.jpg",
   "memoGeneratedAt": "2026-05-28T02:55:22.058Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "elad-gil": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 71,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 35,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 38,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 43,
-    "EG": 53,
-    "NR": 71,
-    "PG": 65,
-    "PT": 35,
-    "SL": 30,
-    "VK": 38
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47.86,
-  "consolidatedRank": 30,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 13,
     "tractionScore": 67,
@@ -67,14 +34,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/rentahuman.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/rentahuman.md",
-      "elad-gil": "spring2026/evals/elad-gil/rentahuman.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/rentahuman.md",
-      "paul-graham": "spring2026/evals/paul-graham/rentahuman.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/rentahuman.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/rentahuman.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/rentahuman.md"
-    }
+    "evals": {}
   }
 }

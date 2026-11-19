@@ -21,47 +21,14 @@
   ],
   "slideImage": "spring2026/slides/images/expanse.jpg",
   "memoGeneratedAt": "2026-05-28T02:37:12.380Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 44,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 64,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 32,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 32,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 52,
-    "NR": 44,
-    "PG": 64,
-    "PT": 49,
-    "SL": 32,
-    "VK": 32
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 47,
-  "consolidatedRank": 33,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 118,
     "tractionScore": 9,
@@ -69,14 +36,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/expanse.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/expanse.md",
-      "elad-gil": "spring2026/evals/elad-gil/expanse.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/expanse.md",
-      "paul-graham": "spring2026/evals/paul-graham/expanse.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/expanse.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/expanse.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/expanse.md"
-    }
+    "evals": {}
   }
 }

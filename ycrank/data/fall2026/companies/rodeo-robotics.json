@@ -43,9 +43,9 @@
   "consolidatedAvg": 38.33,
   "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 192,
-    "tractionScore": 23,
-    "tractionReason": "First customer deployments planned for January"
+    "tractionRank": 183,
+    "tractionScore": 22,
+    "tractionReason": "Customer deployments planned for January 2027. Commercial commitments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/rodeo-robotics.md",

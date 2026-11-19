@@ -44,9 +44,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 33,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 60,
-    "tractionReason": "Live solar deployments, signed installation agreements, data-center pilots"
+    "tractionRank": 46,
+    "tractionScore": 64,
+    "tractionReason": "Live solar deployments, signed installation agreements, and pilots booked"
   },
   "paths": {
     "memo": "fall2026/memos/libra-robotics.md",

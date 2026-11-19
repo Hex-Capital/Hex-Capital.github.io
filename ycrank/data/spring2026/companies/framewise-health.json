@@ -20,47 +20,14 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-05-28T02:30:17.620Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 56,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 36,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 53,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 31,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 56,
-    "EG": 36,
-    "NR": 40,
-    "PG": 53,
-    "PT": 33,
-    "SL": 31,
-    "VK": 31
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 40,
-  "consolidatedRank": 110,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 178,
     "tractionScore": 4,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/framewise-health.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/framewise-health.md",
-      "elad-gil": "spring2026/evals/elad-gil/framewise-health.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/framewise-health.md",
-      "paul-graham": "spring2026/evals/paul-graham/framewise-health.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/framewise-health.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/framewise-health.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/framewise-health.md"
-    }
+    "evals": {}
   }
 }

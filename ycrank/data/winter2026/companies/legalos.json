@@ -22,58 +22,17 @@
   ],
   "slideImage": "winter2026/slides/images/legalos.jpg",
   "memoGeneratedAt": "2026-03-05T01:11:17.249Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 58,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 48,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 57,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 68,
-      "tier": "Invest"
-    },
-    "peter-thiel": {
-      "score": 38,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 34,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 44,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 58,
-    "EG": 48,
-    "NR": 57,
-    "PG": 68,
-    "PT": 38,
-    "SL": 34,
-    "VK": 44
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 49.57,
-  "consolidatedRank": 34,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/legalos.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/legalos.md",
-      "elad-gil": "winter2026/evals/elad-gil/legalos.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/legalos.md",
-      "paul-graham": "winter2026/evals/paul-graham/legalos.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/legalos.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/legalos.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/legalos.md"
-    }
+    "evals": {}
   }
 }

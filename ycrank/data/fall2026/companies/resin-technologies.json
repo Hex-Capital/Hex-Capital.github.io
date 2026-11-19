@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 154,
   "traction": {
-    "tractionRank": 150,
+    "tractionRank": 165,
     "tractionScore": 36,
-    "tractionReason": "Founder reports unnamed teams shipped boards using Resin"
+    "tractionReason": "Reports unnamed teams shipping boards with Resin. Payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/resin-technologies.md",

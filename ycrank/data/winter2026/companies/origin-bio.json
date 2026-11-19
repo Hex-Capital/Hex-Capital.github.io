@@ -21,58 +21,17 @@
   ],
   "slideImage": "winter2026/slides/images/origin-bio.jpg",
   "memoGeneratedAt": "2026-03-05T07:21:34.460Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "paul-graham": {
-      "score": 39,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "sam-lessin": {
-      "score": 40,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 62,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 45,
-    "EG": 50,
-    "NR": 50,
-    "PG": 39,
-    "PT": 40,
-    "SL": 40,
-    "VK": 62
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 46.57,
-  "consolidatedRank": 49,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "winter2026/memos/origin-bio.md",
-    "evals": {
-      "cyan-banister": "winter2026/evals/cyan-banister/origin-bio.md",
-      "elad-gil": "winter2026/evals/elad-gil/origin-bio.md",
-      "naval-ravikant": "winter2026/evals/naval-ravikant/origin-bio.md",
-      "paul-graham": "winter2026/evals/paul-graham/origin-bio.md",
-      "peter-thiel": "winter2026/evals/peter-thiel/origin-bio.md",
-      "sam-lessin": "winter2026/evals/sam-lessin/origin-bio.md",
-      "vinod-khosla": "winter2026/evals/vinod-khosla/origin-bio.md"
-    }
+    "evals": {}
   }
 }

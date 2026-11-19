@@ -42,9 +42,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 114,
   "traction": {
-    "tractionRank": 231,
+    "tractionRank": 234,
     "tractionScore": 4,
-    "tractionReason": "Public product coverage, no disclosed orders or deployments"
+    "tractionReason": "No disclosed customers, orders, or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/keres.md",

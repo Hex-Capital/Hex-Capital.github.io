@@ -20,47 +20,14 @@
   ],
   "slideImage": "summer2026/slides/images/tarebio.jpg",
   "memoGeneratedAt": "2026-08-11T05:07:08.882Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 52,
-      "tier": "Neutral"
-    },
-    "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 47,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 50,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 31,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 52,
-    "NR": 65,
-    "PG": 47,
-    "PT": 50,
-    "SL": 31,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 49,
-  "consolidatedRank": 70,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 150,
     "tractionScore": 45,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "summer2026/memos/tarebio.md",
-    "evals": {
-      "cyan-banister": "summer2026/evals/cyan-banister/tarebio.md",
-      "elad-gil": "summer2026/evals/elad-gil/tarebio.md",
-      "naval-ravikant": "summer2026/evals/naval-ravikant/tarebio.md",
-      "paul-graham": "summer2026/evals/paul-graham/tarebio.md",
-      "peter-thiel": "summer2026/evals/peter-thiel/tarebio.md",
-      "sam-lessin": "summer2026/evals/sam-lessin/tarebio.md",
-      "vinod-khosla": "summer2026/evals/vinod-khosla/tarebio.md"
-    }
+    "evals": {}
   }
 }

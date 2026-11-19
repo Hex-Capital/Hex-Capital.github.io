@@ -20,58 +20,17 @@
   ],
   "slideImage": null,
   "memoGeneratedAt": "2026-04-10T22:48:28.399Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 49,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 70,
-      "tier": "Invest"
-    },
-    "naval-ravikant": {
-      "score": 65,
-      "tier": "Invest"
-    },
-    "paul-graham": {
-      "score": 54,
-      "tier": "Neutral"
-    },
-    "peter-thiel": {
-      "score": 51,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 56,
-      "tier": "Neutral"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 49,
-    "EG": 70,
-    "NR": 65,
-    "PG": 54,
-    "PT": 51,
-    "SL": 43,
-    "VK": 56
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 55.43,
-  "consolidatedRank": 8,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": null,
   "paths": {
     "memo": "a16z2026-1/memos/august.md",
-    "evals": {
-      "cyan-banister": "a16z2026-1/evals/cyan-banister/august.md",
-      "elad-gil": "a16z2026-1/evals/elad-gil/august.md",
-      "naval-ravikant": "a16z2026-1/evals/naval-ravikant/august.md",
-      "paul-graham": "a16z2026-1/evals/paul-graham/august.md",
-      "peter-thiel": "a16z2026-1/evals/peter-thiel/august.md",
-      "sam-lessin": "a16z2026-1/evals/sam-lessin/august.md",
-      "vinod-khosla": "a16z2026-1/evals/vinod-khosla/august.md"
-    }
+    "evals": {}
   }
 }

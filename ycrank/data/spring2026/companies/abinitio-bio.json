@@ -20,47 +20,14 @@
   ],
   "slideImage": "spring2026/slides/images/abinitio-bio.jpg",
   "memoGeneratedAt": "2026-05-28T02:41:10.092Z",
-  "evalScores": {
-    "cyan-banister": {
-      "score": 61,
-      "tier": "Neutral"
-    },
-    "elad-gil": {
-      "score": 30,
-      "tier": "Pass"
-    },
-    "naval-ravikant": {
-      "score": 43,
-      "tier": "Pass"
-    },
-    "paul-graham": {
-      "score": 42,
-      "tier": "Pass"
-    },
-    "peter-thiel": {
-      "score": 45,
-      "tier": "Neutral"
-    },
-    "sam-lessin": {
-      "score": 33,
-      "tier": "Pass"
-    },
-    "vinod-khosla": {
-      "score": 37,
-      "tier": "Pass"
-    }
-  },
+  "evalScores": {},
   "consolidatedScores": {
-    "CB": 61,
-    "EG": 30,
-    "NR": 43,
-    "PG": 42,
-    "PT": 45,
-    "SL": 33,
-    "VK": 37
+    "AGI": null,
+    "HG": null,
+    "EXIT": null
   },
-  "consolidatedAvg": 41.57,
-  "consolidatedRank": 90,
+  "consolidatedAvg": null,
+  "consolidatedRank": null,
   "traction": {
     "tractionRank": 127,
     "tractionScore": 8,
@@ -68,14 +35,6 @@
   },
   "paths": {
     "memo": "spring2026/memos/abinitio-bio.md",
-    "evals": {
-      "cyan-banister": "spring2026/evals/cyan-banister/abinitio-bio.md",
-      "elad-gil": "spring2026/evals/elad-gil/abinitio-bio.md",
-      "naval-ravikant": "spring2026/evals/naval-ravikant/abinitio-bio.md",
-      "paul-graham": "spring2026/evals/paul-graham/abinitio-bio.md",
-      "peter-thiel": "spring2026/evals/peter-thiel/abinitio-bio.md",
-      "sam-lessin": "spring2026/evals/sam-lessin/abinitio-bio.md",
-      "vinod-khosla": "spring2026/evals/vinod-khosla/abinitio-bio.md"
-    }
+    "evals": {}
   }
 }

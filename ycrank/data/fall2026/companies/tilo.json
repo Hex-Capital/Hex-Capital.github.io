@@ -10,7 +10,7 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Open Source, Infrastructure, AI",
-    "yc_partner": "Grey Baker ([Y Combinator](https://www.ycombinator.com/companies/tilo))",
+    "yc_partner": "Grey Baker",
     "emails": "xaver@tilo.so, CEO and company contact ([Crunchbase](https://www.crunchbase.com/organization/tilo-os)); security@tilo.so, vulnerability reports ([Tilo security policy](https://code.tilo.so/tilo/tilo/src/branch/main/SECURITY.md))"
   },
   "tags": [

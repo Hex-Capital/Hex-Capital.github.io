@@ -10,7 +10,7 @@
     "team_size": "2",
     "location": "San Francisco, CA, USA",
     "tags": "Developer Tools, Open Source, Enterprise Software, AI",
-    "yc_partner": "Nicolas Dessaigne ([Y Combinator](https://www.ycombinator.com/companies/byteask))",
+    "yc_partner": "Nicolas Dessaigne",
     "emails": "anirudha@byteask.ai (CEO), pratyush@byteask.ai (CTO), founders@byteask.ai (founders), contact@byteask.ai (general), support@byteask.ai (support), security@byteask.ai (security reports) ([ByteAsk Research](https://byteask.ai/papers/context-large-codebases-cpp-2026-11.pdf?v=4), [Launch YC](https://www.ycombinator.com/launches/WuU-byteask-your-ai-c-engineer-and-a-swarm-of-them), [ByteAsk Contact](https://byteask.ai/contact), [APIs.io support listing](https://apis.io/apis/byteask-ai/byteask-public-status-endpoints-api-api/), [APIs.io security listing](https://apis.io/security/byteask-ai/byteask-ai-vulnerability-disclosure/))"
   },
   "tags": [

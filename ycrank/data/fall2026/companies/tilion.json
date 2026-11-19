@@ -10,7 +10,7 @@
     "team_size": "4",
     "location": "San Francisco, CA, USA",
     "tags": "B2B, Infrastructure",
-    "yc_partner": "Christopher Golda ([Y Combinator](https://www.ycombinator.com/companies/tilion))",
+    "yc_partner": "Christopher Golda",
     "emails": "arman@tilion.dev, Arman Luthra ([GitHub discussion](https://github.com/tiliondev/fortress/discussions/31)); team@tilion.dev, company notices ([Fortress subscription terms](https://github.com/tiliondev/fortress/blob/main/SUBSCRIPTION-TERMS.md)); hello@tilion.dev, package contact ([Tilion on PyPI](https://pypi.org/project/tilion/), via search snippet)"
   },
   "tags": [

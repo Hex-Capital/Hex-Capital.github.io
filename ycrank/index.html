@@ -4,13 +4,13 @@
   <base href="/ycrank/">
   <meta charset="UTF-8">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YCRank</title>
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.json">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="theme-color" content="#1a1815">
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.9/dist/cdn.min.js" integrity="sha384-MEh8ZMZhsmD6/1Bd3kfTiGZoYIKR9u+BilQQWl5DOonh+pvKg6fP2AejtOozsZK8" crossorigin="anonymous"></script>
@@ -60,7 +60,7 @@
 <body class="bg-claude-bg text-claude-text font-sans min-h-screen" x-data="app()">
 
   <!-- Top Nav -->
-  <nav class="bg-claude-bg border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
+  <nav class="dashboard-nav border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
     <div class="nav-inner max-w-[2240px] mx-auto px-3 py-2 flex items-center justify-between gap-2">
       <div class="nav-brand flex items-center gap-2 sm:gap-3 min-w-0">
         <div class="nav-dots">
@@ -88,8 +88,6 @@
         <span class="text-claude-border hidden sm:inline">|</span>
         <span class="text-claude-gray px-1.5 sm:px-2 hidden sm:inline" x-show="manifest" x-text="manifest ? manifest.companyCount + ' companies' : ''"></span>
         <span class="text-claude-border hidden sm:inline">|</span>
-        <button type="button" x-ref="councilToggle" x-cloak x-show="councilChatEnabled && !staticMode" @click="toggleCouncil()"
-          :aria-expanded="councilOpen" aria-controls="thesis-council" class="council-toggle">Thesis Council</button>
         <a href="#" @click.prevent="logout()" class="text-claude-dim hover:text-claude-red px-1.5 sm:px-2 py-1.5 transition-colors font-mono">[logout]</a>
       </div>
     </div>
@@ -630,19 +628,19 @@
     </div>
 
   </main>
-          <template x-if="councilOpen && councilChatEnabled && !staticMode && councilChatThread">
-            <aside id="thesis-council" class="company-chat" aria-label="Thesis Council chat">
+          <template x-if="councilChatEnabled && !staticMode && councilChatThread">
+            <aside id="ycrank-assistant" x-ref="councilPanel" x-show="councilOpen" class="company-chat" aria-label="YCRank Assistant">
               <header class="company-chat-header">
                 <div>
-                  <h2 class="text-sm font-bold text-claude-orange">Thesis Council</h2>
+                  <h2 class="text-sm font-bold text-claude-orange">YCRank Assistant</h2>
                   <p class="text-xs text-claude-gray mt-1">GPT-6.1 Sol · Medium</p>
                 </div>
                 <button type="button" @click="clearCouncilChat()" :disabled="councilChatThread.asking || !councilChatThread.messages.length"
-                  class="text-xs text-claude-gray disabled:opacity-40" aria-label="Clear Council chat">Clear</button>
-                <button type="button" @click="toggleCouncil()" class="text-xs text-claude-gray" aria-label="Collapse Council">Collapse</button>
+                  class="text-xs text-claude-gray disabled:opacity-40" aria-label="Clear conversation">Clear</button>
+                <button type="button" @click="toggleCouncil()" class="text-xs text-claude-gray" aria-label="Collapse YCRank Assistant">Collapse</button>
               </header>
-              <p class="company-chat-context text-xs text-claude-gray">AGI · Hypergrowth · Exit<br><span x-text="councilCompany ? councilCompany.name : formatBatch(currentBatch)"></span></p>
-              <div class="company-chat-messages" x-ref="councilChatMessages" role="log" aria-label="Council conversation" aria-live="polite" :aria-busy="councilChatThread.asking">
+              <p class="company-chat-context text-xs text-claude-gray" x-text="councilCompany ? councilCompany.name : formatBatch(currentBatch)"></p>
+              <div class="company-chat-messages" x-ref="councilChatMessages" role="log" aria-label="Conversation" aria-live="polite" :aria-busy="councilChatThread.asking">
                 <p x-show="!councilChatThread.messages.length" class="text-sm text-claude-dim">Ask about a thesis, compare companies, or dig into the saved evaluations.</p>
                 <template x-for="(message, index) in councilChatThread.messages" :key="index">
                   <div class="company-chat-message" :class="{ 'company-chat-user': message.role === 'user' }">
@@ -655,9 +653,9 @@
               </div>
               <form class="company-chat-compose" @submit.prevent="sendCouncilChat()">
                 <p x-show="councilChatThread.error" x-text="councilChatThread.error" class="text-xs text-claude-red mb-2" role="alert"></p>
-                <label class="sr-only" for="company-chat-question">Ask the Thesis Council</label>
+                <label class="sr-only" for="company-chat-question">Ask YCRank Assistant</label>
                 <textarea id="company-chat-question" x-ref="councilChatInput" x-model="councilChatThread.input" maxlength="8000" rows="3"
-                  placeholder="Ask the Thesis Council…" @keydown.enter="if (!$event.shiftKey && !$event.isComposing) { $event.preventDefault(); sendCouncilChat(); }"></textarea>
+                  placeholder="Ask a question…" @keydown.enter="if (!$event.shiftKey && !$event.isComposing) { $event.preventDefault(); sendCouncilChat(); }"></textarea>
                 <div class="flex items-center justify-between gap-2 mt-2">
                   <span class="text-xs text-claude-dim" x-text="councilChatThread.asking ? 'You can draft your next question while I think.' : 'Enter to send · Shift+Enter for a new line'"></span>
                   <button type="submit" :disabled="councilChatThread.asking || !councilChatThread.input.trim()" class="company-chat-send">Send</button>
@@ -666,6 +664,14 @@
             </aside>
           </template>
   </div>
+
+  <button type="button" x-ref="councilDock" x-cloak x-show="!councilOpen && councilChatEnabled && !staticMode && councilChatThread"
+    @click="toggleCouncil()" aria-expanded="false" aria-controls="ycrank-assistant" class="council-dock">
+    <span>YCRank Assistant</span>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <path d="m4 10 4-4 4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  </button>
 
   <!-- Status Footer -->
   <div class="status-footer">

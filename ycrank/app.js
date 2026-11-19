@@ -158,6 +158,7 @@ function app() {
             if (llmConfig.provider) this.councilProvider = llmConfig.provider;
             if (llmConfig.model) this.councilModel = llmConfig.model;
             this.councilChatEnabled = llmConfig.councilChat?.available === true;
+            this.councilOpen = this.councilChatEnabled;
           }
         } catch (e) { /* keep local defaults */ }
       }
@@ -846,7 +847,7 @@ function app() {
     toggleCouncil() {
       this.councilOpen = !this.councilOpen;
       this.$nextTick(() => {
-        const target = this.councilOpen ? this.$refs.councilChatInput : this.$refs.councilToggle;
+        const target = this.councilOpen ? this.$refs.councilChatInput : this.$refs.councilDock;
         target?.focus();
       });
     },
@@ -1147,7 +1148,7 @@ function app() {
 
       if (e.key === 'Escape') {
         e.preventDefault();
-        if (this.councilOpen) {
+        if (this.councilOpen && this.$refs.councilPanel?.getClientRects().length) {
           this.toggleCouncil();
         } else if (this.view !== 'dashboard') {
           this.navigate('dashboard');

@@ -10,7 +10,7 @@
     "team_size": "3",
     "location": "San Francisco, CA, USA",
     "tags": "DevSecOps, Cybersecurity, Infrastructure, AI",
-    "yc_partner": "Christopher Golda ([YC](https://www.ycombinator.com/companies/stacktrace))",
+    "yc_partner": "Christopher Golda",
     "emails": "vinod@stacktrace.ai (CEO, [Company Launch Tracker](https://companylaunchtracker.substack.com/p/company-launch-tracker-114)), prasanth@openaca.dev (Ganta’s package author contact, [PyPI](https://pypi.org/project/stacktrace-cli/0.2.0/)), hello@stacktrace.ai (design partner inquiries, [Ganta on LinkedIn](https://www.linkedin.com/posts/prasanthganta_excited-to-share-that-stacktrace-is-backed-activity-7507979137169633280-5eHP)), founders@stacktrace.ai (company package contact, [PyPI](https://pypi.org/project/stacktrace-cli/))"
   },
   "tags": [

@@ -22,6 +22,7 @@
   --nav-h: calc(45px + env(safe-area-inset-top, 0px));
   --search-h: 42px;
   --footer-h: calc(28px + env(safe-area-inset-bottom, 0px));
+  background-color: var(--c-bg);
 }
 
 /* ===== Base Reset ===== */
@@ -348,7 +349,7 @@ button:disabled {
 
 /* ===== Nav Traffic Light Dots ===== */
 .company-details { min-width: 0; }
-.company-chat, .council-toggle { display: none; }
+.company-chat, .council-dock { display: none; }
 
 @media (min-width: 1024px) {
   .dashboard-with-council {
@@ -357,7 +358,26 @@ button:disabled {
     align-items: start;
     gap: 20px;
   }
-  .council-toggle { display: inline-flex; padding: 6px 10px; border: 1px solid var(--c-border); color: var(--c-accent); white-space: nowrap; }
+  .council-dock {
+    position: fixed;
+    right: 16px;
+    bottom: var(--footer-h);
+    z-index: 39;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    width: 260px;
+    padding: 10px 14px;
+    border: 1px solid var(--c-border);
+    border-radius: 6px 6px 0 0;
+    background: var(--c-panel);
+    box-shadow: 0 -2px 12px rgb(0 0 0 / 25%);
+    color: var(--c-accent);
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  .council-dock:hover, .council-dock:focus-visible { border-color: var(--c-accent); }
   .company-chat {
     display: flex;
     flex-direction: column;
@@ -389,7 +409,12 @@ button:disabled {
   .company-chat-send:disabled { opacity: 0.4; cursor: default; }
 }
 
-nav > .nav-inner {
+.dashboard-nav {
+  background-color: var(--c-bg);
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.dashboard-nav > .nav-inner {
   padding-left: max(12px, env(safe-area-inset-left, 0px));
   padding-right: max(12px, env(safe-area-inset-right, 0px));
 }
@@ -459,9 +484,6 @@ main {
 
 /* ===== Safe Area (notched iPhones / Dynamic Island) ===== */
 @supports (padding: env(safe-area-inset-top)) {
-  nav.sticky {
-    padding-top: env(safe-area-inset-top);
-  }
   .status-footer {
     padding-bottom: calc(4px + env(safe-area-inset-bottom));
   }
@@ -714,13 +736,13 @@ main {
     align-items: center;
     justify-content: center;
     gap: 6px;
-    background: var(--c-card);
+    background: transparent;
     border: none;
     padding: 8px 2px;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
     touch-action: manipulation;
-    transition: opacity 0.2s, background 0.15s;
+    transition: opacity 0.2s;
     overflow: hidden;
   }
 
@@ -734,7 +756,6 @@ main {
 
   .mobile-card-peek:active {
     opacity: 0.9;
-    background: var(--c-card-hover);
   }
 
   .mobile-card-peek-disabled {

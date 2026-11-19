@@ -10,7 +10,7 @@
     "team_size": "2",
     "location": "Bengaluru, KA, India",
     "tags": "Deep Learning, Edge Computing Semiconductors",
-    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/kailash-labs))",
+    "yc_partner": "Harj Taggar",
     "emails": "shubham@kailashlabs.com, CEO and robot-pilot inquiries ([Kailash Labs](https://www.kailashlabs.com/)); aryan@letsnemo.com, Marlin fine-tuning and integration inquiries ([NemoStation model card](https://huggingface.co/NemoStation/Marlin-2B))"
   },
   "tags": [

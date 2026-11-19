@@ -10,7 +10,7 @@
     "team_size": "1",
     "location": "San Francisco, CA, USA",
     "tags": "AI",
-    "yc_partner": "Harj Taggar ([Y Combinator](https://www.ycombinator.com/companies/trylatent))",
+    "yc_partner": "Harj Taggar",
     "emails": "vedant@runlatent.ai, founder ([YC Launch](https://www.ycombinator.com/launches/WBw-latent-stop-ai-agent-mistakes-by-reading-the-model-s-mind)); founders@runlatent.ai, company inquiries ([Latent Company](https://runlatent.ai/company)); support@runlatent.ai, support and privacy ([Latent Privacy](https://runlatent.ai/privacy)); billing@runlatent.ai, billing, and calibration@runlatent.ai, calibration requests ([Latent Pricing](https://runlatent.ai/pricing)); security@runlatent.ai, vulnerability reports ([Latent Disclosure](https://runlatent.ai/disclosure)); research@runlatent.ai, research inquiries ([Latent Research](https://runlatent.ai/blog/agent-shortcut-hold)); hello@runlatent.ai, SDK author contact ([PyPI](https://pypi.org/project/runlatent/0.0.1/))"
   },
   "tags": [

@@ -81,29 +81,18 @@ function app() {
 
     // Color palette: single source of truth for tier-based styling
     COLOR_PALETTE: {
-      'strong-invest': { cls: 'score-claude-deepgreen score-bg-deepgreen', hex: '#2d8a4e', label: 'Strong Invest', suffix: 'deepgreen' },
-      'invest':        { cls: 'score-claude-green score-bg-green',         hex: '#4a9e4a', label: 'Invest',        suffix: 'green' },
-      'neutral':       { cls: 'score-claude-orange score-bg-orange',       hex: '#d9923a', label: 'Neutral',       suffix: 'orange' },
-      'pass':          { cls: 'score-claude-red score-bg-red',             hex: '#cc3838', label: 'Pass',          suffix: 'red' },
-      'strong-pass':   { cls: 'score-claude-deepred score-bg-deepred',     hex: '#8b2525', label: 'Strong Pass',   suffix: 'deepred' },
+      'strong-invest': { cls: 'score-claude-deepgreen score-bg-deepgreen' },
+      'invest':        { cls: 'score-claude-green score-bg-green' },
+      'neutral':       { cls: 'score-claude-orange score-bg-orange' },
+      'pass':          { cls: 'score-claude-red score-bg-red' },
+      'strong-pass':   { cls: 'score-claude-deepred score-bg-deepred' },
     },
 
     // Disagreement lookup
     disagreementSet: new Set(),
 
-    // Mobile card state
-    mobileCardIndex: 0,
-    mobileSwipeX: 0,
-    mobileSwiping: false,
-    _touchStartX: 0,
-    _touchStartY: 0,
-    _touchStartTime: 0,
-    _touchLocked: false,   // true once we commit to horizontal swipe
-    _touchCancelled: false, // true if vertical movement detected first
-    _swipeConsumed: false,  // true if swipe gesture occurred (prevents tap navigation)
-    _animating: false,     // true during carousel slide animation
-    _graphScaleMin: 0,     // global min score across all companies
-    _graphScaleMax: 100,   // global max score across all companies
+    mobileLayout: false,
+    expandedCompanySlug: null,
 
     formatBatch(b) {
       const m = b.match(/^([a-z]+)(\d{4})$/);
@@ -137,6 +126,10 @@ function app() {
         const observer = new ResizeObserver(measure);
         for (const [element] of chrome) if (element) observer.observe(element);
       });
+      const mobileViewport = window.matchMedia('(max-width: 639px)');
+      this.mobileLayout = mobileViewport.matches;
+      mobileViewport.addEventListener('change', event => { this.mobileLayout = event.matches; });
+
       // Listen for hash changes
       window.addEventListener('hashchange', () => this.handleRoute());
       window.addEventListener('keydown', (e) => this.handleKeydown(e));
@@ -189,8 +182,7 @@ function app() {
         // Load user state (watchlist, etc.)
         await this.loadUserState();
 
-        // Reset mobile card index on search change
-        this.$watch('search', (val) => { this.mobileCardIndex = 0; this.acIndex = -1; this.acOpen = val.length > 0; });
+        this.$watch('search', (val) => { this.acIndex = -1; this.acOpen = val.length > 0; });
 
         // Handle initial route
         this.handleRoute();
@@ -360,23 +352,10 @@ function app() {
         // Build disagreement set
         this.disagreementSet = new Set(this.manifest.disagreements.map(d => d.company));
 
-        // Compute global min/max scores across all companies for consistent graph scale
-        let gMin = 100, gMax = 0;
-        for (const row of this.manifest.table) {
-          if (!row.scores) continue;
-          for (const key of Object.keys(row.scores)) {
-            const s = row.scores[key];
-            if (s != null) { if (s < gMin) gMin = s; if (s > gMax) gMax = s; }
-          }
-        }
-        const gPad = Math.max((gMax - gMin) * 0.02, 1);
-        this._graphScaleMin = gMin > gMax ? 0 : Math.max(Math.floor(gMin - gPad), 0);
-        this._graphScaleMax = gMin > gMax ? 100 : Math.min(Math.ceil(gMax + gPad), 100);
-
         // Clear caches
         this.mdCache = {};
         this._mdCacheSize = 0;
-        this.mobileCardIndex = 0;
+        this.expandedCompanySlug = null;
       } catch (e) {
         if (loadId !== this._batchLoadId) return;
         this.manifest = null;
@@ -397,6 +376,7 @@ function app() {
     handleRoute() {
       const hash = window.location.hash.slice(1) || 'dashboard';
       const parts = hash.split('/');
+      this.$refs.dashboardLayout?.scrollTo(0, 0);
 
       if (parts[0] === 'company' && parts[1]) {
         this.showCompany(parts[1]);
@@ -474,23 +454,6 @@ function app() {
       return rows;
     },
 
-    get mobileCards() {
-      if (!this.manifest) return [];
-      let rows = this.manifest.table;
-      if (this.search) {
-        const q = this.search.toLowerCase();
-        rows = rows.filter(r =>
-          r.name.toLowerCase().includes(q) ||
-          (r.oneLiner && r.oneLiner.toLowerCase().includes(q))
-        );
-      }
-      // Watchlist filter
-      if (this.watchlistFilter) {
-        rows = rows.filter(r => this.watchlist.includes(r.slug));
-      }
-      return [...rows].sort((a, b) => (b.avg ?? -1) - (a.avg ?? -1));
-    },
-
     get autocompleteResults() {
       if (!this.manifest || !this.search) return [];
       const q = this.search.toLowerCase();
@@ -545,106 +508,14 @@ function app() {
       }
     },
 
-    // Returns [prevIdx, currentIdx, nextIdx] for the 3-card carousel (-1 = empty slot)
-    get mobileVisibleSlides() {
-      const cards = this.mobileCards;
-      if (cards.length === 0) return [-1, -1, -1];
-      const idx = this.mobileCardIndex;
-      return [
-        idx > 0 ? idx - 1 : -1,
-        idx,
-        idx < cards.length - 1 ? idx + 1 : -1
-      ];
+    toggleCompanyPreview(slug) {
+      this.expandedCompanySlug = this.expandedCompanySlug === slug ? null : slug;
     },
 
-    mobileTrackStyle() {
-      const transition = this.mobileSwiping
-        ? 'none'
-        : 'transform 0.35s cubic-bezier(0.22, 1, 0.36, 1)';
-      const swipe = this.mobileSwipeX;
-      // Base offset: -33.333% of track width = -1 viewport width (shows center slide)
-      // Swipe pixels added on top via calc() so it works even before ref is laid out
-      return swipe === 0
-        ? `transform:translateX(-33.333%);transition:${transition}`
-        : `transform:translateX(calc(-33.333% + ${swipe}px));transition:${transition}`;
-    },
-
-    scoreGraphSVG(card) {
-      if (!card || !this.evaluators.length) return '';
-      // Measure the actual graph container to match the viewBox aspect ratio
-      const graphEl = document.querySelector('.mobile-score-graph');
-      const cw = graphEl?.offsetWidth || 280;
-      const ch = graphEl?.offsetHeight || 140;
-      const vbW = 280;
-      const vbH = Math.max(Math.round(vbW * ch / cw), 80);
-
-      const count = this.evaluators.length;
-      const yTop = 16;                // room for score text above top dot
-      const yBottom = vbH - 6;        // dots can go near the bottom (labels are HTML)
-      const xStart = 25, xEnd = 255;
-      const xStep = count > 1 ? (xEnd - xStart) / (count - 1) : 0;
-
-      // Use global min/max score range for consistent scale across all cards
-      const scaleMin = this._graphScaleMin;
-      const scaleMax = this._graphScaleMax;
-      const scaleRange = scaleMax - scaleMin || 1;
-
-      const pts = this.evaluators.map((p, i) => {
-        const score = card.scores[p.abbr];
-        return {
-          x: Math.round(xStart + i * xStep),
-          y: score != null ? Math.round(yBottom - ((score - scaleMin) / scaleRange) * (yBottom - yTop)) : yBottom,
-          label: p.abbr,
-          value: score != null ? score : null,
-          color: this.tierBarBg(card.tiers[p.abbr])
-        };
-      });
-      const linePoints = pts.filter(p => p.value !== null).map(p => `${p.x},${p.y}`).join(' ');
-      const svgH = 'calc(100% - 18px)';
-      // SVG: line only (dots and text are HTML to avoid stretch distortion)
-      let out = `<svg viewBox="0 0 ${vbW} ${vbH}" preserveAspectRatio="none" style="position:absolute;top:0;left:0;width:100%;height:${svgH}">`;
-      if (linePoints) out += `<polyline points="${linePoints}" fill="none" stroke="var(--c-accent)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>`;
-      out += `</svg>`;
-      // HTML dots: positioned to match SVG coordinates but stay circular
-      for (const pt of pts) {
-        const xPct = (pt.x / vbW * 100).toFixed(2);
-        const yFrac = pt.y / vbH;
-        const yAdj = (yFrac * 18).toFixed(1);
-        out += `<span style="position:absolute;left:${xPct}%;top:calc(${(yFrac * 100).toFixed(2)}% - ${yAdj}px);transform:translate(-50%,-50%);width:9px;height:9px;border-radius:50%;background:${pt.color};border:1.5px solid var(--c-card)"></span>`;
-      }
-      // HTML score values: positioned above or below each dot
-      // Place below if this point is a local dip (lower score than both neighbors)
-      for (let i = 0; i < pts.length; i++) {
-        const pt = pts[i];
-        const val = pt.value != null ? pt.value : '-';
-        const xPct = (pt.x / vbW * 100).toFixed(2);
-        const yFrac = pt.y / vbH;
-        const yPct = (yFrac * 100).toFixed(2);
-        // A point is a dip if its score is lower than both neighbors (use raw scores, not y-coords)
-        const prevScore = i > 0 ? pts[i-1].value : null;
-        const nextScore = i < pts.length-1 ? pts[i+1].value : null;
-        const s = pt.value;
-        const isDip = s != null
-          && ((prevScore != null && nextScore != null && s < prevScore && s < nextScore)
-            || (prevScore == null && nextScore != null && s < nextScore - 5)
-            || (nextScore == null && prevScore != null && s < prevScore - 5));
-        if (isDip) {
-          // Below the dot
-          const yOffset = (yFrac * 18 - 6).toFixed(1);
-          out += `<span style="position:absolute;left:${xPct}%;top:calc(${yPct}% - ${yOffset}px);transform:translateX(-50%);font:700 13px 'JetBrains Mono',monospace;color:${pt.color}">${val}</span>`;
-        } else {
-          // Above the dot
-          const yOffset = (yFrac * 18 + 20).toFixed(1);
-          out += `<span style="position:absolute;left:${xPct}%;top:calc(${yPct}% - ${yOffset}px);transform:translateX(-50%);font:700 13px 'JetBrains Mono',monospace;color:${pt.color}">${val}</span>`;
-        }
-      }
-      // Evaluation labels positioned at bottom
-      out += `<div style="position:absolute;bottom:0;left:0;right:0;display:flex;justify-content:space-between;padding:0 9%;line-height:1">`;
-      for (const pt of pts) {
-        out += `<span style="font:600 12px 'JetBrains Mono',monospace;color:var(--c-gray)">${pt.label}</span>`;
-      }
-      out += `</div>`;
-      return out;
+    reportedArr(tractionReason) {
+      // Keep the qualifiers on explicit ARR figures. General revenue and run rates are separate metrics.
+      const match = tractionReason?.match(/^((?:(?:reported|nearly|over|more than|at least|about|approximately|roughly) )*[$€£]\d[\d,.]*[KMB]?\+?(?: (?:enterprise|committed|contracted|realized|reported|founder-reported))*) (?:ARR|annual recurring (?:contract )?revenue)\b/i);
+      return match?.[1] || '';
     },
 
     sortBy(col) {
@@ -909,39 +780,6 @@ function app() {
       return 'strong-pass';
     },
 
-    // --- Card helpers ---
-
-    fmtLocation(loc) {
-      if (!loc) return '';
-      // take first segment before semicolons, strip parenthetical source citations
-      let s = loc.split(';')[0].replace(/\s*\([^)]*\)/g, '').trim();
-      if (/^(not listed|not specified|no public data found|unknown)$/i.test(s)) return '';
-      // strip "/ Remote" suffix
-      s = s.replace(/\s*\/\s*Remote\s*$/i, '');
-      // strip ", USA" or ", United States"
-      s = s.replace(/,\s*(USA|United States)\s*$/i, '');
-      // strip postal codes (e.g. 94404)
-      s = s.replace(/\s+\d{5}(-\d{4})?\b/, '');
-      // full state names → abbreviations
-      const st = {Alabama:'AL',Alaska:'AK',Arizona:'AZ',Arkansas:'AR',California:'CA',Colorado:'CO',Connecticut:'CT',Delaware:'DE',Florida:'FL',Georgia:'GA',Hawaii:'HI',Idaho:'ID',Illinois:'IL',Indiana:'IN',Iowa:'IA',Kansas:'KS',Kentucky:'KY',Louisiana:'LA',Maine:'ME',Maryland:'MD',Massachusetts:'MA',Michigan:'MI',Minnesota:'MN',Mississippi:'MS',Missouri:'MO',Montana:'MT',Nebraska:'NE',Nevada:'NV','New Hampshire':'NH','New Jersey':'NJ','New Mexico':'NM','New York':'NY','North Carolina':'NC','North Dakota':'ND',Ohio:'OH',Oklahoma:'OK',Oregon:'OR',Pennsylvania:'PA','Rhode Island':'RI','South Carolina':'SC','South Dakota':'SD',Tennessee:'TN',Texas:'TX',Utah:'UT',Vermont:'VT',Virginia:'VA',Washington:'WA','West Virginia':'WV',Wisconsin:'WI',Wyoming:'WY'};
-      for (const [full, abbr] of Object.entries(st)) {
-        const re = new RegExp(',\\s*' + full + '\\s*$', 'i');
-        if (re.test(s)) { s = s.replace(re, ', ' + abbr); break; }
-      }
-      return s.trim();
-    },
-
-    tierBarBg(tier) {
-      const entry = this.COLOR_PALETTE[this.getTierCategory(tier)];
-      return entry ? entry.hex : '#d9923a';
-    },
-
-    avgTierLabel(avg) {
-      const cat = this.avgTierCategory(avg);
-      const entry = cat ? this.COLOR_PALETTE[cat] : null;
-      return entry ? entry.label : '--';
-    },
-
     // --- Helpers ---
 
     tierColor(tier) {
@@ -971,127 +809,6 @@ function app() {
       if (val > 0.60) return 'corr-medium';
       if (val > 0.40) return 'corr-low';
       return 'text-claude-dim corr-none';
-    },
-
-    avgTierClass(avg) {
-      const cat = this.avgTierCategory(avg);
-      const entry = cat ? this.COLOR_PALETTE[cat] : null;
-      return entry ? entry.suffix : 'dim';
-    },
-
-    // --- Mobile card swipe ---
-
-    mobileCardTouchStart(e) {
-      if (this._animating) return;
-      const t = e.touches[0];
-      this._touchStartX = t.clientX;
-      this._touchStartY = t.clientY;
-      this._touchStartTime = Date.now();
-      this._touchLocked = false;
-      this._touchCancelled = false;
-      this._swipeConsumed = false;
-      this.mobileSwiping = true;
-    },
-
-    mobileCardTouchMove(e) {
-      if (this._touchCancelled) return;
-      const t = e.touches[0];
-      const dx = t.clientX - this._touchStartX;
-      const dy = t.clientY - this._touchStartY;
-
-      // Axis lock: first significant movement decides
-      if (!this._touchLocked && (Math.abs(dx) > 8 || Math.abs(dy) > 8)) {
-        if (Math.abs(dy) > Math.abs(dx)) {
-          // Vertical — cancel swipe, let browser scroll
-          this._touchCancelled = true;
-          this.mobileSwipeX = 0;
-          this.mobileSwiping = false;
-          return;
-        }
-        this._touchLocked = true;
-      }
-
-      if (this._touchLocked) {
-        e.preventDefault();
-        this._swipeConsumed = true;
-        const cards = this.mobileCards;
-        const atStart = this.mobileCardIndex === 0 && dx > 0;
-        const atEnd = this.mobileCardIndex === cards.length - 1 && dx < 0;
-        this.mobileSwipeX = (atStart || atEnd) ? dx * 0.3 : dx;
-      }
-    },
-
-    mobileCardTouchEnd(e) {
-      if (this._touchCancelled || !this.mobileSwiping) {
-        this.mobileSwiping = false;
-        return;
-      }
-      const dx = this.mobileSwipeX;
-      const elapsed = Date.now() - this._touchStartTime;
-      const velocity = Math.abs(dx) / (elapsed || 1);
-      const cards = this.mobileCards;
-      const vw = this.$refs.cardViewport?.offsetWidth || 300;
-
-      let newIndex = this.mobileCardIndex;
-      if ((Math.abs(dx) > 50 || velocity > 0.3) && cards.length > 1) {
-        if (dx < 0 && this.mobileCardIndex < cards.length - 1) {
-          newIndex = this.mobileCardIndex + 1;
-        } else if (dx > 0 && this.mobileCardIndex > 0) {
-          newIndex = this.mobileCardIndex - 1;
-        }
-      }
-
-      if (newIndex !== this.mobileCardIndex) {
-        // Animate carousel to next/prev card
-        const dir = newIndex > this.mobileCardIndex ? -1 : 1;
-        this.mobileSwiping = false; // enable CSS transition
-        this.mobileSwipeX = dir * vw;
-        this._animating = true;
-
-        setTimeout(() => {
-          this.mobileSwiping = true; // suppress transition for instant reset
-          this.mobileCardIndex = newIndex;
-          this.mobileSwipeX = 0;
-          // Double-rAF: ensure browser paints the no-transition state
-          // before re-enabling transitions (prevents ghost second animation)
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-              this.mobileSwiping = false;
-              this._animating = false;
-            });
-          });
-        }, 380);
-      } else {
-        // Snap back
-        this.mobileSwipeX = 0;
-        this.mobileSwiping = false;
-      }
-    },
-
-    mobileCardNav(dir) {
-      const cards = this.mobileCards;
-      const newIndex = this.mobileCardIndex + dir;
-      if (newIndex < 0 || newIndex >= cards.length) return;
-      if (this._animating) return;
-
-      this._animating = true;
-      const vw = this.$refs.cardViewport?.offsetWidth || 300;
-
-      // Animate carousel slide
-      this.mobileSwiping = false; // enable CSS transition
-      this.mobileSwipeX = dir > 0 ? -vw : vw;
-
-      setTimeout(() => {
-        this.mobileSwiping = true; // suppress transition for instant reset
-        this.mobileCardIndex = newIndex;
-        this.mobileSwipeX = 0;
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            this.mobileSwiping = false;
-            this._animating = false;
-          });
-        });
-      }, 380);
     },
 
     // --- Annotations ---
@@ -1152,15 +869,6 @@ function app() {
           this.toggleCouncil();
         } else if (this.view !== 'dashboard') {
           this.navigate('dashboard');
-        }
-      }
-      if (this.view === 'dashboard') {
-        if (e.key === 'ArrowLeft') {
-          e.preventDefault();
-          this.mobileCardNav(-1);
-        } else if (e.key === 'ArrowRight') {
-          e.preventDefault();
-          this.mobileCardNav(1);
         }
       }
       if (this.view === 'company') {

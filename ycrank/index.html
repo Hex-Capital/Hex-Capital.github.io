@@ -57,7 +57,7 @@
     }
   </script>
 </head>
-<body class="bg-claude-bg text-claude-text font-sans min-h-screen" x-data="app()">
+<body class="dashboard-page bg-claude-bg text-claude-text font-sans min-h-screen" x-data="app()">
 
   <!-- Top Nav -->
   <nav class="dashboard-nav border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
@@ -94,7 +94,7 @@
   </nav>
 
   <!-- Main Content -->
-  <div class="dashboard-layout max-w-[2240px] mx-auto px-2 sm:px-3"
+  <div class="dashboard-layout max-w-[2240px] mx-auto px-2 sm:px-3" x-ref="dashboardLayout"
     :class="{ 'dashboard-with-council': councilOpen && councilChatEnabled && !staticMode && !loading }">
   <main class="min-w-0 py-2 sm:py-3">
 
@@ -199,11 +199,8 @@
               <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border whitespace-nowrap hidden lg:table-cell">Traction Details</th>
             </tr>
           </thead>
-          <!-- MOBILE-SCORES: Each company is a <tbody> so Alpine can render two rows (data + mobile scores).
-               To revert: replace this <template>...<tbody> structure with a single <tbody> wrapping the <template>,
-               remove the second <tr class="sm:hidden">, and remove the mobile-scores-group CSS. -->
           <template x-for="row in filteredTable" :key="row.slug">
-            <tbody class="mobile-scores-group">
+            <tbody>
               <tr class="border-b border-claude-border hover:bg-claude-panel cursor-pointer transition-colors"
                 @click="row.slug && navigate('company/' + row.slug)">
                 <td class="px-1 py-1 text-center border border-claude-border" x-show="!staticMode"
@@ -246,135 +243,87 @@
                   :title="row.tractionReason || ''"
                   x-text="row.tractionReason || '-'"></td>
               </tr>
-              <tr class="sm:hidden border-b border-claude-border cursor-pointer transition-colors mobile-scores-row"
-                @click="row.slug && navigate('company/' + row.slug)">
-                <td colspan="99" class="px-1.5 border-x border-claude-border mobile-scores-cell">
-                  <div class="flex justify-around">
-                    <template x-for="p in evaluators" :key="'mob-'+p.abbr">
-                      <span class="inline-flex items-baseline tabular-nums">
-                        <span class="text-[11px] text-claude-dim opacity-60 tracking-tight" x-text="p.abbr"></span>
-                        <span class="text-[13px] font-medium ml-px" :class="tierColor(row.tiers[p.abbr])" x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></span>
-                      </span>
-                    </template>
-                  </div>
-                </td>
-              </tr>
             </tbody>
           </template>
-          <!-- /MOBILE-SCORES -->
         </table>
       </div>
 
-      <!-- Mobile Card View (< 640px only) -->
-      <div class="sm:hidden mobile-card-container">
-        <!-- Progress bar -->
-        <div class="mobile-card-progress" x-show="mobileCards.length > 1">
-          <div class="mobile-card-progress-fill"
-            :style="'width: ' + ((mobileCardIndex + 1) / mobileCards.length * 100) + '%'"></div>
-        </div>
-
-        <!-- Card row with side nav buttons -->
-        <div class="mobile-card-layout">
-          <!-- Left nav -->
-          <div @click="mobileCardNav(-1)" role="button" aria-label="Previous company"
-            class="mobile-card-peek"
-            :class="{ 'mobile-card-peek-disabled': mobileCardIndex <= 0 || mobileCards.length === 0 }">
-            <span class="mobile-card-peek-chevron">&lsaquo;</span>
-          </div>
-
-          <!-- Swipeable card viewport (3-card carousel) -->
-          <div class="mobile-card-viewport"
-            @touchstart="mobileCardTouchStart($event)"
-            @touchmove="mobileCardTouchMove($event)"
-            @touchend="mobileCardTouchEnd($event)"
-            x-ref="cardViewport">
-
-            <div class="mobile-card-track" x-show="mobileCards.length > 0" :style="mobileTrackStyle()">
-              <template x-for="(slideIdx, si) in mobileVisibleSlides" :key="'slot-'+si">
-                <div class="mobile-card-slide">
-                  <template x-if="slideIdx >= 0">
-                    <div class="mobile-card border border-claude-border"
-                      :class="{ ['tier-' + avgTierClass(mobileCards[slideIdx].avg)]: true, 'has-disagreement': isDisagreement(mobileCards[slideIdx].name) }"
-                      @click="!_swipeConsumed && si === 1 && mobileCards[slideIdx].slug && navigate('company/' + mobileCards[slideIdx].slug)">
-
-                      <!-- Header: name + location -->
-                      <div class="flex items-center justify-between">
-                        <div class="flex items-center gap-1.5 min-w-0">
-                          <h3 class="text-xl font-bold text-claude-orange truncate tracking-tight" x-text="mobileCards[slideIdx].name"></h3>
-                          <span x-show="isDisagreement(mobileCards[slideIdx].name)"
-                            class="text-claude-red text-xs flex-shrink-0 font-mono" :title="getKeyTension(mobileCards[slideIdx].name) || 'High disagreement (stddev >= 20)'">!!</span>
-                        </div>
-                        <span class="text-[10px] text-claude-dim font-mono flex-shrink-0 ml-2 truncate max-w-[120px]"
-                          x-text="fmtLocation(mobileCards[slideIdx].location)"></span>
-                      </div>
-
-                      <!-- Score strip -->
-                      <div class="v1-hero-strip" :style="'border-color:' + tierBarBg(avgTierLabel(mobileCards[slideIdx].avg))">
-                        <div class="v1-meta-grid" style="grid-template-columns:repeat(4,1fr)">
-                          <div class="v1-meta-cell">
-                            <span class="v1-meta-label">avg</span>
-                            <span class="font-mono tabular-nums" style="font-size:1.5rem;font-weight:700;line-height:1" :class="avgColor(mobileCards[slideIdx].avg)"
-                              x-text="mobileCards[slideIdx].avg != null ? Math.round(mobileCards[slideIdx].avg) : '-'"></span>
-                          </div>
-                          <div class="v1-meta-cell">
-                            <span class="v1-meta-label">team</span>
-                            <span class="v1-meta-value" x-text="mobileCards[slideIdx].teamSize != null ? mobileCards[slideIdx].teamSize : '-'"></span>
-                          </div>
-                          <div class="v1-meta-cell">
-                            <span class="v1-meta-label">partner</span>
-                            <span class="v1-meta-value" x-text="mobileCards[slideIdx].ycPartner || '-'"></span>
-                          </div>
-                          <div class="v1-meta-cell">
-                            <span class="v1-meta-label">arr</span>
-                            <span class="v1-meta-value" x-text="formatRevenue(mobileCards[slideIdx].revenue, mobileCards[slideIdx].hasSlide)"></span>
-                          </div>
-                        </div>
-                      </div>
-
-                      <!-- One-liner -->
-                      <p class="text-xs text-claude-gray line-clamp-2 pl-2 leading-relaxed" style="border-left: 2px solid var(--c-dim)"
-                        x-text="mobileCards[slideIdx].oneLiner || ''"></p>
-
-                      <!-- Evaluation scores line graph -->
-                      <div class="mobile-score-graph" x-html="scoreGraphSVG(mobileCards[slideIdx])"></div>
-
-                      <!-- Footer -->
-                      <div class="mobile-card-footer">
-                        <span @click.stop="toggleWatchlist(mobileCards[slideIdx].slug, $event)" x-show="!staticMode"
-                          :class="isWatchlisted(mobileCards[slideIdx].slug) ? 'text-claude-amber' : 'text-claude-dim'"
-                          class="cursor-pointer text-base mr-auto"
-                          x-text="isWatchlisted(mobileCards[slideIdx].slug) ? '\u2605' : '\u2606'"></span>
-                        <span x-show="!staticMode && getPipelineStage(mobileCards[slideIdx].slug)"
-                          class="text-[9px] font-mono px-1 py-0.5 border border-current"
-                          :class="pipelineColor(getPipelineStage(mobileCards[slideIdx].slug))"
-                          x-text="pipelineBadge(getPipelineStage(mobileCards[slideIdx].slug))"></span>
-                        <span class="font-mono text-claude-dim" x-text="(slideIdx + 1) + '/' + mobileCards.length"></span>
-                      </div>
-                    </div>
-                  </template>
-                </div>
-              </template>
-            </div>
-
-            <!-- Empty state -->
-            <template x-if="mobileCards.length === 0">
-              <div class="mobile-card border border-claude-border tier-orange" style="height:100%">
-                <div class="mobile-card-hero-score" style="flex:1">
-                  <p class="text-claude-dim text-sm font-mono">No results_</p>
-                </div>
-              </div>
+      <!-- Mobile company list -->
+      <template x-if="mobileLayout && view === 'dashboard' && !loading && !noBuildData">
+        <section class="mobile-company-list" aria-label="Companies"
+          :class="{ 'mobile-company-list-no-scores': !evaluators.length }">
+          <div class="mobile-company-grid mobile-company-columns" aria-label="Sort companies">
+            <button type="button" @click="sortBy('name')" :aria-pressed="sortCol === 'name'">Company</button>
+            <template x-for="thesis in evaluators" :key="thesis.slug">
+              <button type="button" @click="sortBy(thesis.abbr)" :aria-pressed="sortCol === thesis.abbr"
+                :aria-label="'Sort by ' + thesis.fullName">
+                <span class="mobile-thesis-label" x-text="thesis.fullName"></span>
+                <span class="mobile-thesis-abbr" x-text="thesis.abbr === 'EXIT' ? 'Exit' : thesis.abbr"></span>
+              </button>
             </template>
-
+            <button type="button" @click="sortBy('avg')" :aria-pressed="sortCol === 'avg'">
+              Avg<span aria-hidden="true" x-show="sortCol === 'avg'" x-text="sortDir === -1 ? '↓' : '↑'"></span>
+            </button>
+            <button type="button" @click="sortBy('tractionRank')" :aria-pressed="sortCol === 'tractionRank'"
+              aria-label="Sort by traction rank"><span class="mobile-traction-label">Traction</span><span class="mobile-traction-abbr">Trac.</span></button>
           </div>
 
-          <!-- Right nav -->
-          <div @click="mobileCardNav(1)" role="button" aria-label="Next company"
-            class="mobile-card-peek"
-            :class="{ 'mobile-card-peek-disabled': mobileCardIndex >= mobileCards.length - 1 || mobileCards.length === 0 }">
-            <span class="mobile-card-peek-chevron">&rsaquo;</span>
-          </div>
-        </div>
-      </div>
+          <template x-for="row in filteredTable" :key="row.slug">
+            <article class="mobile-company-card" :class="{ 'is-expanded': expandedCompanySlug === row.slug }">
+              <a class="mobile-company-memo" :href="'#company/' + row.slug"
+                :aria-label="'Open ' + row.name + ' memo'">
+                <div class="mobile-company-grid mobile-company-summary">
+                  <div class="min-w-0">
+                    <h2 class="mobile-company-name" x-text="row.name"></h2>
+                    <p class="mobile-company-description" x-show="row.oneLiner" x-text="row.oneLiner"></p>
+                  </div>
+                  <template x-for="thesis in evaluators" :key="thesis.slug">
+                    <span class="mobile-company-number" x-text="row.scores?.[thesis.abbr] ?? '–'"></span>
+                  </template>
+                  <span class="mobile-company-number mobile-company-avg" x-text="row.avg == null ? '–' : Number(row.avg).toFixed(2)"></span>
+                  <span class="mobile-company-number" x-text="row.tractionRank == null ? '–' : '#' + row.tractionRank"></span>
+                </div>
+
+                <template x-if="expandedCompanySlug === row.slug">
+                  <div class="mobile-company-details" :class="{ 'has-watchlist': !staticMode }">
+                    <div class="mobile-company-bars" x-show="evaluators.length">
+                      <template x-for="thesis in evaluators" :key="thesis.slug">
+                        <div class="mobile-company-bar">
+                          <span x-text="thesis.fullName"></span>
+                          <span class="mobile-company-bar-track" aria-hidden="true">
+                            <span :style="{ width: (row.scores?.[thesis.abbr] ?? 0) + '%' }"></span>
+                          </span>
+                          <span class="mobile-company-number" x-text="row.scores?.[thesis.abbr] == null ? '–' : row.scores[thesis.abbr] + ' / 100'"></span>
+                        </div>
+                      </template>
+                    </div>
+                    <dl class="mobile-company-facts">
+                      <div><dt>Team</dt><dd x-text="row.teamSize ?? '–'"></dd></div>
+                      <div><dt>YC partner</dt><dd x-text="row.ycPartner || '–'"></dd></div>
+                      <div><dt>ARR</dt><dd x-text="reportedArr(row.tractionReason) || '–'"></dd></div>
+                    </dl>
+                    <p class="mobile-company-evidence" x-show="row.tractionReason" x-text="row.tractionReason"></p>
+                    <p class="mobile-company-evidence text-claude-red" x-show="isDisagreement(row.name)" x-text="getKeyTension(row.name)"></p>
+                    <p class="mobile-company-evidence" x-show="!staticMode && getPipelineStage(row.slug)"
+                      :class="pipelineColor(getPipelineStage(row.slug))" x-text="pipelineBadge(getPipelineStage(row.slug))"></p>
+                  </div>
+                </template>
+              </a>
+              <button type="button" class="mobile-company-expand" @click="toggleCompanyPreview(row.slug)"
+                :aria-expanded="expandedCompanySlug === row.slug"
+                :aria-label="(expandedCompanySlug === row.slug ? 'Collapse ' : 'Expand ') + row.name + ' details'">
+                <span aria-hidden="true"></span>
+              </button>
+              <template x-if="!staticMode && expandedCompanySlug === row.slug">
+                <button type="button" class="mobile-company-star" @click="toggleWatchlist(row.slug, $event)"
+                  :aria-label="'Watchlist ' + row.name" :aria-pressed="isWatchlisted(row.slug)"
+                  x-text="isWatchlisted(row.slug) ? '★' : '☆'"></button>
+              </template>
+            </article>
+          </template>
+          <p class="mobile-company-empty" x-show="!filteredTable.length">No matching companies</p>
+        </section>
+      </template>
     </div>
 
     <!-- Company Detail View -->

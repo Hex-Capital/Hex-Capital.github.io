@@ -61,7 +61,7 @@
 
   <!-- Top Nav -->
   <nav class="dashboard-nav border-b border-claude-border sticky top-0 z-50" aria-label="Main navigation">
-    <div class="nav-inner max-w-[2240px] mx-auto px-3 py-2 flex items-center justify-between gap-2">
+    <div class="nav-inner px-3 py-2 flex items-center justify-between gap-2">
       <div class="nav-brand flex items-center gap-2 sm:gap-3 min-w-0">
         <div class="nav-dots">
           <div class="nav-dot nav-dot-red"></div>
@@ -94,7 +94,7 @@
   </nav>
 
   <!-- Main Content -->
-  <div class="dashboard-layout max-w-[2240px] mx-auto px-2 sm:px-3" x-ref="dashboardLayout"
+  <div class="dashboard-layout px-2 sm:px-3" x-ref="dashboardLayout"
     :class="{ 'dashboard-with-council': councilOpen && councilChatEnabled && !staticMode && !loading }">
   <main class="min-w-0 py-2 sm:py-3">
 
@@ -160,7 +160,7 @@
 
       <!-- Table (hidden on mobile, replaced by card view) -->
       <div class="hidden sm:block">
-        <table class="w-full text-sm terminal-table">
+        <table class="w-full text-sm terminal-table dashboard-table">
           <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
               <th class="px-1 py-1 text-center w-8 border border-claude-border cursor-pointer transition-colors"
@@ -169,7 +169,7 @@
                   :title="watchlistFilter ? 'Showing watchlist only (click to show all)' : 'Click to filter by watchlist'"
                   x-show="!staticMode"
                   x-text="watchlistFilter ? '\u2605' : '\u2606'"></th>
-              <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
+              <th class="dashboard-company-column px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap"
                 @click="sortBy('name')">Company<span x-show="sortCol === 'name'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-24 border border-claude-border whitespace-nowrap"
@@ -178,7 +178,7 @@
               <th class="px-1.5 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-20 border border-claude-border whitespace-nowrap hidden lg:table-cell"
                 @click="sortBy('memoDate')">Memo Date<span x-show="sortCol === 'memoDate'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
-              <th class="px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap hidden lg:table-cell"
+              <th class="dashboard-partner-column px-1.5 py-1 text-left text-claude-gray cursor-pointer hover:text-claude-orange border border-claude-border whitespace-nowrap hidden lg:table-cell"
                 @click="sortBy('ycPartner')">YC Partner<span x-show="sortCol === 'ycPartner'" x-text="sortDir === 1 ? '\u25B2' : '\u25BC'" class="text-xs ml-0.5"></span>
               </th>
               <template x-for="p in evaluators" :key="p.abbr">
@@ -215,13 +215,13 @@
                     <span x-show="isDisagreement(row.name)"
                       class="text-claude-red text-xs" :title="getKeyTension(row.name) || 'High disagreement (stddev >= 20)'">!!</span>
                   </div>
-                  <div class="text-xs text-claude-dim truncate max-w-[100px] xs:max-w-[150px] sm:max-w-xs md:max-w-md hidden xs:block" x-text="row.oneLiner"></div>
+                  <div class="dashboard-table-copy text-xs text-claude-dim" x-text="row.oneLiner"></div>
                 </td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border"
                   x-text="formatRevenue(row.revenue, row.hasSlide)"></td>
                 <td class="px-1.5 py-1 text-center tabular-nums text-claude-dim border border-claude-border hidden lg:table-cell whitespace-nowrap"
                   x-text="formatMemoDate(row.memoDate)"></td>
-                <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[120px]"
+                <td class="dashboard-table-copy px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell"
                   x-text="row.ycPartner || '-'"></td>
                 <template x-for="p in evaluators" :key="p.abbr">
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"
@@ -239,7 +239,7 @@
                     :title="row.tractionRank != null ? ('#' + row.tractionRank + ' by traction' + (row.tractionReason ? ' — ' + row.tractionReason : '')) : 'No traction rank'">
                   <span x-text="row.tractionRank != null ? ('#' + row.tractionRank) : '-'"></span>
                 </td>
-                <td class="px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell truncate max-w-[240px]"
+                <td class="dashboard-table-copy px-1.5 py-1 text-claude-dim border border-claude-border hidden lg:table-cell"
                   :title="row.tractionReason || ''"
                   x-text="row.tractionReason || '-'"></td>
               </tr>

@@ -70,6 +70,13 @@
   font-family: 'JetBrains Mono', 'Consolas', monospace;
 }
 
+.dashboard-table-copy { overflow-wrap: anywhere; }
+
+@media (min-width: 1024px) {
+  .dashboard-table .dashboard-company-column { width: clamp(9rem, 23%, 24rem); }
+  .dashboard-table .dashboard-partner-column { width: clamp(7rem, 11%, 12rem); }
+}
+
 
 /* Sticky search bar (dashboard) */
 .sticky-search {

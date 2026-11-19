@@ -159,7 +159,7 @@
     <div x-show="view === 'dashboard' && !loading && !noBuildData" x-cloak>
 
       <!-- Table (hidden on mobile, replaced by card view) -->
-      <div class="hidden sm:block">
+      <div class="dashboard-table-wrap hidden sm:block">
         <table class="w-full text-sm terminal-table dashboard-table">
           <thead class="sticky-thead">
             <tr class="border-b border-claude-border bg-claude-panel">
@@ -196,7 +196,7 @@
               <th class="px-1 py-1 text-center text-claude-gray cursor-pointer hover:text-claude-orange w-16 border border-claude-border whitespace-nowrap"
                 @click="sortBy('tractionRank')" title="Traction stack-rank (Opus, memo-based)">Traction<span x-show="sortCol === 'tractionRank'" x-text="sortDir === 1 ? '▲' : '▼'" class="text-xs ml-0.5"></span>
               </th>
-              <th class="px-1.5 py-1 text-left text-claude-gray border border-claude-border whitespace-nowrap hidden lg:table-cell">Traction Details</th>
+              <th class="dashboard-traction-details-column px-1.5 py-1 text-left text-claude-gray border border-claude-border whitespace-nowrap hidden lg:table-cell">Traction Details</th>
             </tr>
           </thead>
           <template x-for="row in filteredTable" :key="row.slug">
@@ -211,7 +211,7 @@
                 </td>
                 <td class="px-1.5 py-1 border border-claude-border">
                   <div class="flex items-center gap-1.5">
-                    <span class="text-claude-text font-medium" x-text="row.name"></span>
+                    <span class="dashboard-table-copy text-claude-text font-medium" x-text="row.name"></span>
                     <span x-show="isDisagreement(row.name)"
                       class="text-claude-red text-xs" :title="getKeyTension(row.name) || 'High disagreement (stddev >= 20)'">!!</span>
                   </div>
@@ -272,7 +272,8 @@
                 <div class="mobile-company-grid mobile-company-summary">
                   <h2 class="mobile-company-name" x-text="row.name"></h2>
                   <template x-for="thesis in evaluators" :key="thesis.slug">
-                    <span class="mobile-company-number" x-text="row.scores?.[thesis.abbr] ?? '–'"></span>
+                    <span class="mobile-company-number" :class="tierColor(row.tiers?.[thesis.abbr]).split(' ')[0]"
+                      x-text="row.scores?.[thesis.abbr] ?? '–'"></span>
                   </template>
                   <span class="mobile-company-number" x-text="row.tractionRank == null ? '–' : '#' + row.tractionRank"></span>
                 </div>

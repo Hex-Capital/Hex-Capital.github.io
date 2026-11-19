@@ -44,9 +44,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 23,
-    "tractionReason": "Helios Test waitlist open. Signup count undisclosed"
+    "tractionRank": 183,
+    "tractionScore": 27,
+    "tractionReason": "Current Helios Test waitlist, signup count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/helios-intelligence.md",

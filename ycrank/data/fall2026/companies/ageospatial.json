@@ -42,9 +42,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 75,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 56,
-    "tractionReason": "Signed insurance customer. AXA and Die Mobiliar listed as references"
+    "tractionRank": 126,
+    "tractionScore": 42,
+    "tractionReason": "Signed insurance customer, contract value undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ageospatial.md",

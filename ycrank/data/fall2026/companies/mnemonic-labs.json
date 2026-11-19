@@ -38,11 +38,11 @@
     "EXIT": 32
   },
   "consolidatedAvg": 33.33,
-  "consolidatedRank": 232,
+  "consolidatedRank": 233,
   "traction": {
-    "tractionRank": 208,
-    "tractionScore": 8,
-    "tractionReason": "Quant model launched. No disclosed customer use or revenue"
+    "tractionRank": 214,
+    "tractionScore": 15,
+    "tractionReason": "Financial modeling launch and training run, customer use undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/mnemonic-labs.md",

@@ -41,9 +41,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 76,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 67,
-    "tractionReason": "400+ businesses onboarded and $18M+ in payments processed"
+    "tractionRank": 54,
+    "tractionScore": 58,
+    "tractionReason": "400+ onboarded businesses, $18M+ processed payment volume"
   },
   "paths": {
     "memo": "fall2026/memos/blinka.md",

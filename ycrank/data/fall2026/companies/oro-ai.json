@@ -42,9 +42,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 30,
-    "tractionReason": "670 dataset downloads. GetASAP helped calibrate SMB Bench"
+    "tractionRank": 163,
+    "tractionScore": 35,
+    "tractionReason": "670 monthly benchmark dataset downloads, GetASAP calibration collaboration"
   },
   "paths": {
     "memo": "fall2026/memos/oro-ai.md",

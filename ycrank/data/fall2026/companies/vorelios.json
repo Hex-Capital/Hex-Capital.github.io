@@ -41,9 +41,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 158,
   "traction": {
-    "tractionRank": 227,
-    "tractionScore": 6,
-    "tractionReason": "Prototype design runs reported. No disclosed customer deployments"
+    "tractionRank": 216,
+    "tractionScore": 14,
+    "tractionReason": "Initial engineering design runs reported, customers undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/vorelios.md",

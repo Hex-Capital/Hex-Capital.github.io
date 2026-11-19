@@ -40,11 +40,11 @@
     "EXIT": 33
   },
   "consolidatedAvg": 34.33,
-  "consolidatedRank": 223,
+  "consolidatedRank": 224,
   "traction": {
-    "tractionRank": 92,
-    "tractionScore": 55,
-    "tractionReason": "69K weekly SDK downloads. Paid subscriptions offered"
+    "tractionRank": 91,
+    "tractionScore": 49,
+    "tractionReason": "69,000 weekly SDK downloads, paid usage undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hue.md",

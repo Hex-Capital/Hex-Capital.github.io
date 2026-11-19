@@ -43,9 +43,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 116,
-    "tractionScore": 49,
-    "tractionReason": "HJBL and Tilo report simulator use. Another pilot reported"
+    "tractionRank": 124,
+    "tractionScore": 42,
+    "tractionReason": "HJBL and Tilo report active use, plus one unnamed pilot"
   },
   "paths": {
     "memo": "fall2026/memos/rystic.md",

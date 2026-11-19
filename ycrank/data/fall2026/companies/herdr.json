@@ -42,9 +42,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 24,
   "traction": {
-    "tractionRank": 26,
-    "tractionScore": 69,
-    "tractionReason": "2.16M reported TUI installs and 51.6K stars. Cloud waitlist open"
+    "tractionRank": 51,
+    "tractionScore": 58,
+    "tractionReason": "2.16M reported TUI installs, up from 340K downloads in August"
   },
   "paths": {
     "memo": "fall2026/memos/herdr.md",

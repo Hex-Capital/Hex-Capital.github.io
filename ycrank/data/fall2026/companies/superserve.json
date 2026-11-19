@@ -42,9 +42,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 39,
-    "tractionScore": 65,
-    "tractionReason": "100K+ machines weekly and 50+ teams, including Lindy and YC"
+    "tractionRank": 46,
+    "tractionScore": 60,
+    "tractionReason": "100K+ machines weekly, 48M sandbox-minutes, 50+ teams"
   },
   "paths": {
     "memo": "fall2026/memos/superserve.md",

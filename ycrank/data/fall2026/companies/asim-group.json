@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 162,
   "traction": {
-    "tractionRank": 207,
-    "tractionScore": 9,
-    "tractionReason": "Robot safety benchmarking launched. No disclosed customer usage"
+    "tractionRank": 208,
+    "tractionScore": 17,
+    "tractionReason": "Benchmarking launch November 5, customer use undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/asim-group.md",

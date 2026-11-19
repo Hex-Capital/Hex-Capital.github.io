@@ -43,9 +43,9 @@
   "consolidatedAvg": 38.33,
   "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 89,
-    "tractionScore": 55,
-    "tractionReason": "Monitored $2B+ in construction projects across multiple deployments"
+    "tractionRank": 102,
+    "tractionScore": 47,
+    "tractionReason": "$2B+ in construction projects monitored and named contractor logos"
   },
   "paths": {
     "memo": "fall2026/memos/telamont.md",

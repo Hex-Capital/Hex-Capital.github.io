@@ -1,0 +1,58 @@
+{
+  "slug": "foreshadow-industries",
+  "name": "Foreshadow Industries",
+  "oneLiner": "Defense robotics built on AI models that reason over space and time",
+  "metadata": {
+    "website": "https://foreshadow-industries.ai/",
+    "yc_page": "https://www.ycombinator.com/companies/foreshadow-industries",
+    "batch": "Fall 2026 ([YC event recap](https://businessdatasolutions.github.io/ai-wiki/sources/2026-09-30-yc-root-access-startup-industrial-base-dc), Oct 2026)",
+    "industry": "Industrials / Industrials",
+    "team_size": "2",
+    "location": "Coronado, CA, USA",
+    "tags": "Robotics, Defense, AI, Industrial",
+    "yc_partner": "Not listed",
+    "emails": "No public data found"
+  },
+  "tags": [
+    "Robotics",
+    "Defense",
+    "AI",
+    "Industrial"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-19T23:06:50.877Z",
+  "evalScores": {
+    "agi": {
+      "score": 32,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 36,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 38,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "AGI": 32,
+    "HG": 36,
+    "EXIT": 38
+  },
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 201,
+  "traction": {
+    "tractionRank": 139,
+    "tractionScore": 38,
+    "tractionReason": "Three reported integrations, customer payments undisclosed"
+  },
+  "paths": {
+    "memo": "fall2026/memos/foreshadow-industries.md",
+    "evals": {
+      "agi": "fall2026/evals/agi/foreshadow-industries.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/foreshadow-industries.md",
+      "exit": "fall2026/evals/exit/foreshadow-industries.md"
+    }
+  }
+}

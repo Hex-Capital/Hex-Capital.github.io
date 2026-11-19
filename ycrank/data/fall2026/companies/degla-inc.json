@@ -43,9 +43,9 @@
   "consolidatedAvg": 35.33,
   "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 202,
-    "tractionScore": 12,
-    "tractionReason": "Field demonstration at REACH. Customer deployments undisclosed"
+    "tractionRank": 201,
+    "tractionScore": 19,
+    "tractionReason": "Demonstration at Chula Vista test site, customer orders undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/degla-inc.md",

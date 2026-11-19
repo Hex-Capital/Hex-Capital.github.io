@@ -41,9 +41,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 69,
   "traction": {
-    "tractionRank": 44,
-    "tractionScore": 64,
-    "tractionReason": "19 customer accounts and $37,600 in expected annual net commissions"
+    "tractionRank": 38,
+    "tractionScore": 62,
+    "tractionReason": "19 customer accounts, $37,600 in expected annual net commissions"
   },
   "paths": {
     "memo": "fall2026/memos/redoubt-insurance.md",

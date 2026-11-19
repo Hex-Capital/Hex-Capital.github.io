@@ -42,9 +42,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 73,
-    "tractionScore": 59,
-    "tractionReason": "Signed Orbital LOI worth up to $20M and Lyra integration study"
+    "tractionRank": 60,
+    "tractionScore": 56,
+    "tractionReason": "Orbital signed an LOI worth up to $20M"
   },
   "paths": {
     "memo": "fall2026/memos/orca-aerospace.md",

@@ -41,9 +41,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 57,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 57,
-    "tractionReason": "First commercial platform license in production and two named user testimonials"
+    "tractionRank": 63,
+    "tractionScore": 55,
+    "tractionReason": "First commercial platform license in production, two named testimonials"
   },
   "paths": {
     "memo": "fall2026/memos/deepmark.md",

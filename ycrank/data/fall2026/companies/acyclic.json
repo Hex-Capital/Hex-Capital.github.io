@@ -44,9 +44,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 171,
-    "tractionScore": 33,
-    "tractionReason": "Managed service onboarding teams without fees. SDK has 46 stars"
+    "tractionRank": 164,
+    "tractionScore": 34,
+    "tractionReason": "Managed teams onboarding, unallocated company-level revenue classification"
   },
   "paths": {
     "memo": "fall2026/memos/acyclic.md",

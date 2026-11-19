@@ -41,9 +41,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 57,
-    "tractionScore": 61,
-    "tractionReason": "Three named paying listing partners. Eight partnerships signed in a week"
+    "tractionRank": 35,
+    "tractionScore": 63,
+    "tractionReason": "Three named paying listing partners, eight partners signed in week one"
   },
   "paths": {
     "memo": "fall2026/memos/ernd.md",

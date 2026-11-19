@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 54,
-    "tractionReason": "35K weekly npm downloads. Use reported at car dealerships"
+    "tractionRank": 89,
+    "tractionScore": 50,
+    "tractionReason": "35,000 weekly npm downloads, reported dealership and personal-assistant use"
   },
   "paths": {
     "memo": "fall2026/memos/pomerado.md",

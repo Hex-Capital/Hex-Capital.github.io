@@ -44,9 +44,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 184,
-    "tractionScore": 22,
-    "tractionReason": "Databench has 13 GitHub stars. Paying customers undisclosed"
+    "tractionRank": 189,
+    "tractionScore": 24,
+    "tractionReason": "Databench has 13 GitHub stars, paid adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/alkera-ai.md",

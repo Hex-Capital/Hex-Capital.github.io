@@ -43,9 +43,9 @@
   "consolidatedAvg": 45.67,
   "consolidatedRank": 4,
   "traction": {
-    "tractionRank": 45,
-    "tractionScore": 64,
-    "tractionReason": "Multi-year TresVista deployment and 25+ production agents"
+    "tractionRank": 39,
+    "tractionScore": 62,
+    "tractionReason": "Multi-year TresVista agreement with production deployments, 25+ production agents"
   },
   "paths": {
     "memo": "fall2026/memos/elimentary.md",

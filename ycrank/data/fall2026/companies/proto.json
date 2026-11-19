@@ -40,11 +40,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 230,
+  "consolidatedRank": 231,
   "traction": {
-    "tractionRank": 191,
-    "tractionScore": 17,
-    "tractionReason": "Early access open. No disclosed user counts or revenue"
+    "tractionRank": 186,
+    "tractionScore": 26,
+    "tractionReason": "Early access opened November 6, adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/proto.md",

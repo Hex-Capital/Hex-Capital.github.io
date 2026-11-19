@@ -41,9 +41,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 61,
-    "tractionReason": "One paying engine manufacturer. GENA demand exceeds 1.3 GW under LOIs"
+    "tractionRank": 62,
+    "tractionScore": 56,
+    "tractionReason": "One paying engine manufacturer, over 1.3 GW under LOIs"
   },
   "paths": {
     "memo": "fall2026/memos/viraj-aero.md",

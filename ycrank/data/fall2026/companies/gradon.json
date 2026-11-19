@@ -42,9 +42,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 17,
+    "tractionRank": 15,
     "tractionScore": 73,
-    "tractionReason": "Mid-six-figure contracted ARR in four weeks, plus paid pilots"
+    "tractionReason": "Mid-six-figure contracted ARR in four weeks, paid pilots"
   },
   "paths": {
     "memo": "fall2026/memos/gradon.md",

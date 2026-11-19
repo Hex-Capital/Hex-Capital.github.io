@@ -43,8 +43,8 @@
   "consolidatedRank": 199,
   "traction": {
     "tractionRank": 176,
-    "tractionScore": 29,
-    "tractionReason": "Wave Motion demonstration planned. Spacecraft tests with Satlyt and Blackwing pending"
+    "tractionScore": 32,
+    "tractionReason": "Wave Motion demonstration planned, first prototype nearly complete"
   },
   "paths": {
     "memo": "fall2026/memos/central-blue.md",

@@ -42,9 +42,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 115,
   "traction": {
-    "tractionRank": 132,
-    "tractionScore": 42,
-    "tractionReason": "Live inference integrations with Opper AI and RouterPlus"
+    "tractionRank": 112,
+    "tractionScore": 45,
+    "tractionReason": "Live Opper AI and RouterPlus integrations, usage undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/munito-ai.md",

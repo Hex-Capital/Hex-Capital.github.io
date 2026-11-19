@@ -40,9 +40,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 198,
-    "tractionScore": 14,
-    "tractionReason": "Self-serve product launched. No disclosed customer adoption"
+    "tractionRank": 192,
+    "tractionScore": 22,
+    "tractionReason": "Self-serve product launched October 4, paid adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/trylatent.md",

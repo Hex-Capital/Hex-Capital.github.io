@@ -40,11 +40,11 @@
     "EXIT": 33
   },
   "consolidatedAvg": 34.33,
-  "consolidatedRank": 226,
+  "consolidatedRank": 227,
   "traction": {
-    "tractionRank": 60,
-    "tractionScore": 61,
-    "tractionReason": "Thousands of companies reported using Ploid. Founder reports closing clients"
+    "tractionRank": 44,
+    "tractionScore": 60,
+    "tractionReason": "Thousands of companies reportedly using product, founder reports closed clients"
   },
   "paths": {
     "memo": "fall2026/memos/ploid.md",

@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 46,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 49,
-    "tractionReason": "Two robots live in two stores. Additional pilots planned"
+    "tractionRank": 68,
+    "tractionScore": 54,
+    "tractionReason": "Two robots live in two stores, up to ten additional planned"
   },
   "paths": {
     "memo": "fall2026/memos/theseus-robotics.md",

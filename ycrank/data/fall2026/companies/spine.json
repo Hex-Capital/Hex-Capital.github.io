@@ -42,9 +42,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 20,
-    "tractionScore": 72,
-    "tractionReason": "4.4× commission revenue growth in six months. 30+ startups served"
+    "tractionRank": 18,
+    "tractionScore": 71,
+    "tractionReason": "Commission revenue grew 4.4× over six months, 30+ startup clients"
   },
   "paths": {
     "memo": "fall2026/memos/spine.md",

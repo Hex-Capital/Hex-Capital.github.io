@@ -40,11 +40,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 34,
-  "consolidatedRank": 229,
+  "consolidatedRank": 230,
   "traction": {
-    "tractionRank": 216,
-    "tractionScore": 7,
-    "tractionReason": "Public compliance product launch. No disclosed customers"
+    "tractionRank": 219,
+    "tractionScore": 13,
+    "tractionReason": "October 30 launch, no disclosed bank deployments"
   },
   "paths": {
     "memo": "fall2026/memos/hickory-and-company.md",

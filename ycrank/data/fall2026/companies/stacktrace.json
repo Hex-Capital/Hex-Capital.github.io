@@ -42,11 +42,7 @@
   },
   "consolidatedAvg": 37.33,
   "consolidatedRank": 132,
-  "traction": {
-    "tractionRank": 153,
-    "tractionScore": 38,
-    "tractionReason": "Unnamed design partners running local or unattended cloud agents"
-  },
+  "traction": null,
   "paths": {
     "memo": "fall2026/memos/stacktrace.md",
     "evals": {

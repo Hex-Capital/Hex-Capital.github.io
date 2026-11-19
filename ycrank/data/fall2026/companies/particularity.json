@@ -41,8 +41,8 @@
   "consolidatedRank": 193,
   "traction": {
     "tractionRank": 222,
-    "tractionScore": 6,
-    "tractionReason": "Public launch. No disclosed regulator deployments or revenue"
+    "tractionScore": 12,
+    "tractionReason": "October 15 launch, regulator customer adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/particularity.md",

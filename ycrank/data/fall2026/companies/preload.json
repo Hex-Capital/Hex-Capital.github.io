@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 200,
-    "tractionScore": 14,
-    "tractionReason": "Joint ProHand demonstration. No disclosed customer deployments"
+    "tractionRank": 202,
+    "tractionScore": 19,
+    "tractionReason": "ProHand demo with Proception, commercial commitments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/preload.md",

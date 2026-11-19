@@ -43,8 +43,8 @@
   "consolidatedRank": 61,
   "traction": {
     "tractionRank": 37,
-    "tractionScore": 65,
-    "tractionReason": "$100K signed across two environments, plus a separate $200K LOI"
+    "tractionScore": 62,
+    "tractionReason": "$100K in signed contracts across two formalization environments"
   },
   "paths": {
     "memo": "fall2026/memos/repovive.md",

@@ -43,9 +43,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 71,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 52,
-    "tractionReason": "$57K freight booked in three weeks. Company revenue undisclosed"
+    "tractionRank": 105,
+    "tractionScore": 47,
+    "tractionReason": "$57K in freight booked in three weeks, realized revenue undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/truemile.md",

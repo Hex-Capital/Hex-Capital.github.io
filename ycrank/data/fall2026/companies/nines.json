@@ -39,11 +39,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 34.67,
-  "consolidatedRank": 215,
+  "consolidatedRank": 216,
   "traction": {
-    "tractionRank": 217,
-    "tractionScore": 7,
-    "tractionReason": "Public robotics launch. No disclosed deployments or revenue"
+    "tractionRank": 207,
+    "tractionScore": 17,
+    "tractionReason": "Data-center robotics launch, orders and pilots undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/nines.md",

@@ -41,9 +41,9 @@
   "consolidatedAvg": 44.67,
   "consolidatedRank": 6,
   "traction": {
-    "tractionRank": 40,
+    "tractionRank": 29,
     "tractionScore": 65,
-    "tractionReason": "55 live senior-care facilities, with monthly platform invoicing"
+    "tractionReason": "55 live facilities, multi-site rollout at Responsive Health Management"
   },
   "paths": {
     "memo": "fall2026/memos/ascenix.md",

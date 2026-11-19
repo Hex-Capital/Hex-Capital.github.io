@@ -43,9 +43,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 189,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 36,
-    "tractionReason": "Reports unnamed inference-platform agreements. Live deployments undisclosed"
+    "tractionRank": 169,
+    "tractionScore": 33,
+    "tractionReason": "Unnamed inference-platform agreements, initial go-live unconfirmed"
   },
   "paths": {
     "memo": "fall2026/memos/liquid-energy.md",

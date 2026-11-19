@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 168,
   "traction": {
-    "tractionRank": 149,
-    "tractionScore": 38,
-    "tractionReason": "Reports testing current product in operating plants with international manufacturers"
+    "tractionRank": 144,
+    "tractionScore": 37,
+    "tractionReason": "Reports testing with manufacturers in operating plants"
   },
   "paths": {
     "memo": "fall2026/memos/horizontal.md",

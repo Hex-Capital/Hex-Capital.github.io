@@ -43,9 +43,9 @@
   "consolidatedAvg": 44.67,
   "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 52,
-    "tractionScore": 62,
-    "tractionReason": "Existing paid CLI subscribers and named customer case studies"
+    "tractionRank": 36,
+    "tractionScore": 63,
+    "tractionReason": "Existing paid CLI subscribers, weekly active users reportedly doubling"
   },
   "paths": {
     "memo": "fall2026/memos/byteask.md",

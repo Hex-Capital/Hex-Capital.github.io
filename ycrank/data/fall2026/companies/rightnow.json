@@ -43,9 +43,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 130,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 59,
-    "tractionReason": "Kernel tools used at NVIDIA and others. Hosted balances migrated"
+    "tractionRank": 86,
+    "tractionScore": 50,
+    "tractionReason": "Kernel tooling reportedly used at NVIDIA, AMD, and other named organizations"
   },
   "paths": {
     "memo": "fall2026/memos/rightnow.md",

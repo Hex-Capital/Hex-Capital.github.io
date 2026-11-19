@@ -39,11 +39,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 33.33,
-  "consolidatedRank": 235,
+  "consolidatedRank": 236,
   "traction": {
-    "tractionRank": 204,
-    "tractionScore": 12,
-    "tractionReason": "Research beta accepting requests. No disclosed users"
+    "tractionRank": 232,
+    "tractionScore": 9,
+    "tractionReason": "Research beta accepts access requests, uptake undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/topos.md",

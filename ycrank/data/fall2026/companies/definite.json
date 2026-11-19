@@ -43,9 +43,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 178,
   "traction": {
-    "tractionRank": 206,
-    "tractionScore": 10,
-    "tractionReason": "Current finance platform announced. No disclosed deployments for it"
+    "tractionRank": 198,
+    "tractionScore": 20,
+    "tractionReason": "Current finance platform publicly introduced, customer adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/definite.md",

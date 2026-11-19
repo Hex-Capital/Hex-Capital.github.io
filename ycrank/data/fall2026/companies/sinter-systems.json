@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 155,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 55,
-    "tractionReason": "500+ kg of parts produced with customers in first month"
+    "tractionRank": 85,
+    "tractionScore": 51,
+    "tractionReason": "Produced 500+ kg of customer parts in first month"
   },
   "paths": {
     "memo": "fall2026/memos/sinter-systems.md",

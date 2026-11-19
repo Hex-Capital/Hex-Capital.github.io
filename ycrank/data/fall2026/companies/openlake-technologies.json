@@ -43,9 +43,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 25,
-    "tractionScore": 70,
-    "tractionReason": "100B+ tokens served daily company-wide. Paid routing model available"
+    "tractionRank": 47,
+    "tractionScore": 59,
+    "tractionReason": "100B+ tokens daily platform-wide, customer training use reported"
   },
   "paths": {
     "memo": "fall2026/memos/openlake-technologies.md",

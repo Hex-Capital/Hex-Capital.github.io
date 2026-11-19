@@ -41,9 +41,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 15,
-    "tractionScore": 75,
-    "tractionReason": "Hundreds of paying customers at standalone OpenSEO and 906 EveryApp stars"
+    "tractionRank": 160,
+    "tractionScore": 35,
+    "tractionReason": "906 GitHub stars for EveryApp’s platform, paid adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/everyapp.md",

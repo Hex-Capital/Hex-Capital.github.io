@@ -39,11 +39,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 35.33,
-  "consolidatedRank": 202,
+  "consolidatedRank": 203,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 66,
-    "tractionReason": "100,000+ creators reported, with 130,000 agents created by July"
+    "tractionRank": 48,
+    "tractionScore": 59,
+    "tractionReason": "100,000+ creators reported, up from 75,000 users in September"
   },
   "paths": {
     "memo": "fall2026/memos/rivereditor.md",

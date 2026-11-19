@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 125,
+    "tractionRank": 107,
     "tractionScore": 46,
-    "tractionReason": "Multiple six-figure cases in progress. Fees contingent on recovery"
+    "tractionReason": "Multiple six-figure cases in progress, contingency fees tied to recovery"
   },
   "paths": {
     "memo": "fall2026/memos/wingman-law.md",

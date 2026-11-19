@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 46,
-    "tractionReason": "Interline Hardware uses Lark for inventory replenishment. Fees undisclosed"
+    "tractionRank": 118,
+    "tractionScore": 44,
+    "tractionReason": "Interline Hardware deployment and reported use by an unnamed first customer"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",

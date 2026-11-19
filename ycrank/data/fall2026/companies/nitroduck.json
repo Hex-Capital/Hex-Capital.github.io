@@ -40,11 +40,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 34.67,
-  "consolidatedRank": 216,
+  "consolidatedRank": 217,
   "traction": {
-    "tractionRank": 225,
-    "tractionScore": 6,
-    "tractionReason": "Crop-editing product announced. No disclosed commercial customers"
+    "tractionRank": 226,
+    "tractionScore": 10,
+    "tractionReason": "Crop-editing offering announced, no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/nitroduck.md",

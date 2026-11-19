@@ -39,11 +39,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 213,
+  "consolidatedRank": 214,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 36,
-    "tractionReason": "1,000+ inbound contacts and first test handsets delivered"
+    "tractionRank": 143,
+    "tractionScore": 37,
+    "tractionReason": "1,000+ inbound contacts, first test handsets delivered"
   },
   "paths": {
     "memo": "fall2026/memos/ravenphone.md",

@@ -44,9 +44,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 191,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 40,
-    "tractionReason": "63,052 agent turns reported. One disclosed design-partner example"
+    "tractionRank": 153,
+    "tractionScore": 36,
+    "tractionReason": "63,052 reported agent turns and one design-partner example"
   },
   "paths": {
     "memo": "fall2026/memos/mirrors.md",

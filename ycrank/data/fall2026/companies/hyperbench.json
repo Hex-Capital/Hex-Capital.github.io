@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 209,
+  "consolidatedRank": 210,
   "traction": {
-    "tractionRank": 192,
-    "tractionScore": 17,
-    "tractionReason": "Private beta announced. No disclosed beta users or payments"
+    "tractionRank": 187,
+    "tractionScore": 26,
+    "tractionReason": "Private beta launched November 11, participant count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/hyperbench.md",

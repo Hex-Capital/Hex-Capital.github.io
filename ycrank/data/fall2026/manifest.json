@@ -1,6 +1,6 @@
 {
   "batch": "fall2026",
-  "companyCount": 236,
+  "companyCount": 237,
   "evaluators": [
     {
       "slug": "agi",
@@ -53,7 +53,7 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 2,
-      "tractionScore": 99,
+      "tractionScore": 98,
       "tractionReason": "Over $2M ARR and 2,200+ paying customers across 20+ countries"
     },
     {
@@ -93,7 +93,7 @@
       "memoDate": "2026-11-18",
       "tractionRank": 3,
       "tractionScore": 96,
-      "tractionReason": "$1M enterprise ARR, 30% monthly growth, and 270% net dollar retention"
+      "tractionReason": "$1M enterprise ARR, 30% monthly growth, 270% net dollar retention"
     },
     {
       "rank": 3,
@@ -128,8 +128,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 6,
-      "tractionScore": 91,
-      "tractionReason": "$100K October revenue, 2,000+ parts shipped, and repeat orders"
+      "tractionScore": 90,
+      "tractionReason": "$100K October revenue, 2,000+ parts shipped, repeat orders"
     },
     {
       "rank": 4,
@@ -165,9 +165,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 45,
-      "tractionScore": 64,
-      "tractionReason": "Multi-year TresVista deployment and 25+ production agents"
+      "tractionRank": 39,
+      "tractionScore": 62,
+      "tractionReason": "Multi-year TresVista agreement with production deployments, 25+ production agents"
     },
     {
       "rank": 5,
@@ -202,7 +202,7 @@
       "memoDate": "2026-11-17",
       "tractionRank": 1,
       "tractionScore": 100,
-      "tractionReason": "Reported $11M+ revenue in 4.5 months and six AI lab customers"
+      "tractionReason": "$9M–$11M+ reported revenue in 4.5 months, six lab customers"
     },
     {
       "rank": 6,
@@ -236,9 +236,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 40,
+      "tractionRank": 29,
       "tractionScore": 65,
-      "tractionReason": "55 live senior-care facilities, with monthly platform invoicing"
+      "tractionReason": "55 live facilities, multi-site rollout at Responsive Health Management"
     },
     {
       "rank": 7,
@@ -274,9 +274,9 @@
         "EXIT": "A strategic acquisition by a coding-agent or software-delivery platform is ByteAsk’s strongest path to shareholder cash."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 52,
-      "tractionScore": 62,
-      "tractionReason": "Existing paid CLI subscribers and named customer case studies"
+      "tractionRank": 36,
+      "tractionScore": 63,
+      "tractionReason": "Existing paid CLI subscribers, weekly active users reportedly doubling"
     },
     {
       "rank": 8,
@@ -312,8 +312,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 23,
-      "tractionScore": 70,
-      "tractionReason": "Paying production customers, petabytes processed monthly, and a 50 TB deployment"
+      "tractionScore": 68,
+      "tractionReason": "Paying production customers, petabytes processed monthly, named Osmosis migration"
     },
     {
       "rank": 9,
@@ -348,9 +348,9 @@
         "EXIT": "Strategic acquisition by a dealership software or fixed-operations platform is Bayworks’ strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 16,
-      "tractionScore": 74,
-      "tractionReason": "Nearly $1M committed ARR and 80+ live dealership locations"
+      "tractionRank": 10,
+      "tractionScore": 80,
+      "tractionReason": "Nearly $1M committed ARR, six groups, 80+ dealership locations"
     },
     {
       "rank": 10,
@@ -386,9 +386,9 @@
         "EXIT": "A strategic acquisition by an inference gateway or infrastructure platform is RouterPlus’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 61,
-      "tractionScore": 61,
-      "tractionReason": "Largest customer runs 3M daily agent conversations. Platform revenue undisclosed"
+      "tractionRank": 52,
+      "tractionScore": 58,
+      "tractionReason": "Largest customer runs 3M daily conversations, platform fees undisclosed"
     },
     {
       "rank": 11,
@@ -422,9 +422,9 @@
         "EXIT": "A strategic acquisition by an EHR-integrated clinical research platform is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 21,
-      "tractionScore": 71,
-      "tractionReason": "Paying research teams at 10+ institutions using current offering"
+      "tractionRank": 14,
+      "tractionScore": 74,
+      "tractionReason": "Paying research teams at 10+ institutions"
     },
     {
       "rank": 12,
@@ -460,7 +460,7 @@
       "memoDate": "2026-11-18",
       "tractionRank": 4,
       "tractionScore": 95,
-      "tractionReason": "$1M ARR, up fivefold in a month, and 350+ paying users"
+      "tractionReason": "$1M ARR from $200K one month earlier, 350+ paying users"
     },
     {
       "rank": 13,
@@ -498,7 +498,7 @@
       "memoDate": "2026-11-17",
       "tractionRank": 9,
       "tractionScore": 82,
-      "tractionReason": "Quarterly revenue more than doubled. 65+ enterprise marketing teams"
+      "tractionReason": "Quarterly revenue more than doubled, 65+ enterprise teams"
     },
     {
       "rank": 14,
@@ -533,9 +533,9 @@
         "EXIT": "**Strategic acquisition by a consumer-device platform** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 66,
-      "tractionScore": 60,
-      "tractionReason": "About 750 preorders backed by $150K in refundable deposits"
+      "tractionRank": 58,
+      "tractionScore": 57,
+      "tractionReason": "Roughly 750 paid preorders and $150K in refundable deposits"
     },
     {
       "rank": 15,
@@ -570,9 +570,9 @@
         "EXIT": "**Strategic acquisition is the strongest path.** An R&D tax advisory firm could buy ClaimKit to bring continuous evidence collection and specialist..."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 18,
-      "tractionScore": 73,
-      "tractionReason": "80+ clients in three countries, including named customers who switched providers"
+      "tractionRank": 21,
+      "tractionScore": 69,
+      "tractionReason": "80+ tax clients across three countries within seven months"
     },
     {
       "rank": 16,
@@ -608,9 +608,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 116,
-      "tractionScore": 49,
-      "tractionReason": "HJBL and Tilo report simulator use. Another pilot reported"
+      "tractionRank": 124,
+      "tractionScore": 42,
+      "tractionReason": "HJBL and Tilo report active use, plus one unnamed pilot"
     },
     {
       "rank": 17,
@@ -645,9 +645,9 @@
         "EXIT": "Strategic acquisition by a visa processor is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 13,
+      "tractionRank": 12,
       "tractionScore": 76,
-      "tractionReason": "Five-figure monthly cash revenue within 45 days and 10,000 signups"
+      "tractionReason": "Five-figure monthly cash revenue within 45 days, 10,000 signups"
     },
     {
       "rank": 18,
@@ -683,9 +683,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 38,
-      "tractionScore": 65,
-      "tractionReason": "250+ startups using current platform. Reported spend averages $0.37 per sandbox-month"
+      "tractionRank": 45,
+      "tractionScore": 60,
+      "tractionReason": "250+ startups on current platform, reported customer sandbox spending"
     },
     {
       "rank": 19,
@@ -720,9 +720,9 @@
         "EXIT": "Strategic acquisition by an established employee-benefits broker is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 54,
-      "tractionScore": 62,
-      "tractionReason": "Five named brokerage customers. Carrier-paid commissions undisclosed"
+      "tractionRank": 64,
+      "tractionScore": 55,
+      "tractionReason": "Five named employer case studies, carrier-paid brokerage model"
     },
     {
       "rank": 20,
@@ -758,9 +758,9 @@
         "EXIT": "Strategic acquisition is Ordo’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 53,
-      "tractionScore": 62,
-      "tractionReason": "Paid pilots with regulated labs in the U.S. and Europe"
+      "tractionRank": 55,
+      "tractionScore": 58,
+      "tractionReason": "Paid pilots with regulated labs in the US and Europe"
     },
     {
       "rank": 21,
@@ -798,8 +798,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 5,
-      "tractionScore": 94,
-      "tractionReason": "YC profile reports $421,815 realized in one month with production booked"
+      "tractionScore": 93,
+      "tractionReason": "$421,815 realized in one month, production booked into February 2027"
     },
     {
       "rank": 22,
@@ -837,8 +837,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 8,
-      "tractionScore": 84,
-      "tractionReason": "Five-figure monthly contracts with paid enterprise customers Envoy and Fieldguide"
+      "tractionScore": 85,
+      "tractionReason": "Five-figure monthly contracts with Envoy and Fieldguide"
     },
     {
       "rank": 23,
@@ -875,9 +875,9 @@
         "EXIT": "**Strategic acquisition by an agency management software vendor** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 74,
-      "tractionScore": 59,
-      "tractionReason": "90+ brokers live in three months and 50+ independent agencies"
+      "tractionRank": 70,
+      "tractionScore": 54,
+      "tractionReason": "90+ brokers live in three months, two named customer testimonials"
     },
     {
       "rank": 24,
@@ -912,9 +912,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 26,
-      "tractionScore": 69,
-      "tractionReason": "2.16M reported TUI installs and 51.6K stars. Cloud waitlist open"
+      "tractionRank": 51,
+      "tractionScore": 58,
+      "tractionReason": "2.16M reported TUI installs, up from 340K downloads in August"
     },
     {
       "rank": 25,
@@ -949,9 +949,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 11,
-      "tractionScore": 78,
-      "tractionReason": "1.5T tokens served, 1,000+ customers, and 40% reported weekly growth"
+      "tractionRank": 22,
+      "tractionScore": 68,
+      "tractionReason": "1,000+ inference customers, 1.5T+ tokens served, paid share undisclosed"
     },
     {
       "rank": 26,
@@ -986,9 +986,9 @@
         "EXIT": "Strategic acquisition is Kairos’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 27,
-      "tractionScore": 68,
-      "tractionReason": "$4K+ MRR ($48K+ annualized), 13 paying practices, 16 live locations"
+      "tractionRank": 19,
+      "tractionScore": 70,
+      "tractionReason": "$4K+ MRR, equivalent to $48K+ annualized, 13 paying practices"
     },
     {
       "rank": 27,
@@ -1023,9 +1023,9 @@
         "EXIT": "The strongest path is a strategic acquisition by a drone manufacturer."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 43,
-      "tractionScore": 64,
-      "tractionReason": "Over $80K contracted. Customer deposits reserved $87K+ in modules"
+      "tractionRank": 41,
+      "tractionScore": 61,
+      "tractionReason": "$80K+ contracted module sales, deposits reserving $87K+ of modules"
     },
     {
       "rank": 28,
@@ -1060,9 +1060,9 @@
         "EXIT": "Strategic acquisition is Forward’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 10,
-      "tractionScore": 79,
-      "tractionReason": "Reported $180K annualized revenue. 100 funds signed fee agreements"
+      "tractionRank": 11,
+      "tractionScore": 78,
+      "tractionReason": "$180K reported annualized revenue, $545K contracted, 100 funds signed fee agreements"
     },
     {
       "rank": 29,
@@ -1098,9 +1098,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 59,
-      "tractionScore": 61,
-      "tractionReason": "One paying engine manufacturer. GENA demand exceeds 1.3 GW under LOIs"
+      "tractionRank": 62,
+      "tractionScore": 56,
+      "tractionReason": "One paying engine manufacturer, over 1.3 GW under LOIs"
     },
     {
       "rank": 30,
@@ -1136,9 +1136,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 91,
-      "tractionScore": 55,
-      "tractionReason": "3,907 weekly CLI downloads. Pomerado exchanged 38,000 messages"
+      "tractionRank": 88,
+      "tractionScore": 50,
+      "tractionReason": "Pomerado exchanged 38,000+ messages, 3,907 weekly CLI downloads"
     },
     {
       "rank": 31,
@@ -1173,9 +1173,9 @@
         "EXIT": "A strategic acquisition by a robotics OEM or factory automation integrator is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 58,
-      "tractionScore": 61,
-      "tractionReason": "Paid pilots, sleeve shipments, and a signed sewing automation LOI"
+      "tractionRank": 56,
+      "tractionScore": 57,
+      "tractionReason": "Paid pilots underway, sleeves shipped, signed manufacturer LOI"
     },
     {
       "rank": 32,
@@ -1209,9 +1209,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 85,
-      "tractionScore": 56,
-      "tractionReason": "Named deployments at IG and Shopmonkey. 64 Shopmonkey research jobs"
+      "tractionRank": 103,
+      "tractionScore": 47,
+      "tractionReason": "Named customer deployments, Shopmonkey ran 64 jobs in 30 days"
     },
     {
       "rank": 33,
@@ -1248,9 +1248,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 46,
-      "tractionScore": 64,
-      "tractionReason": "Live solar deployments, signed installation agreements, and pilots booked"
+      "tractionRank": 40,
+      "tractionScore": 61,
+      "tractionReason": "Signed installation agreements, live solar deployments, data-center pilots"
     },
     {
       "rank": 34,
@@ -1285,9 +1285,9 @@
         "EXIT": "Strategic acquisition is Quivly’s strongest private-company exit path in Fall 2026."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 70,
-      "tractionScore": 59,
-      "tractionReason": "Six named customers. Downstream accounts managed grew to 18,000+"
+      "tractionRank": 67,
+      "tractionScore": 55,
+      "tractionReason": "Six named customers, downstream accounts grew from 10,000 to 18,000+"
     },
     {
       "rank": 35,
@@ -1324,9 +1324,9 @@
         "EXIT": "The strongest path is a **strategic acquisition by an embedded-toolchain vendor**."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 69,
-      "tractionScore": 59,
-      "tractionReason": "1.5M+ runs with 70% average weekly growth. First satellite customer"
+      "tractionRank": 79,
+      "tractionScore": 52,
+      "tractionReason": "1.5M simulation runs, 70% average weekly run growth, first satellite customer"
     },
     {
       "rank": 36,
@@ -1361,9 +1361,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 39,
-      "tractionScore": 65,
-      "tractionReason": "100K+ machines weekly and 50+ teams, including Lindy and YC"
+      "tractionRank": 46,
+      "tractionScore": 60,
+      "tractionReason": "100K+ machines weekly, 48M sandbox-minutes, 50+ teams"
     },
     {
       "rank": 37,
@@ -1399,9 +1399,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 180,
-      "tractionScore": 24,
-      "tractionReason": "Prospective GPU renters reported. Commercial agreements undisclosed"
+      "tractionRank": 181,
+      "tractionScore": 28,
+      "tractionReason": "Prospective GPU renters reported, names and contract terms undisclosed"
     },
     {
       "rank": 38,
@@ -1436,8 +1436,8 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 36,
-      "tractionScore": 65,
+      "tractionRank": 32,
+      "tractionScore": 64,
       "tractionReason": "Five paying design partners, 12 paid preorders, about 15 contractors bidding"
     },
     {
@@ -1473,9 +1473,9 @@
         "EXIT": "Strategic acquisition is Gradon’s strongest path to investor cash in Fall 2026."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 17,
+      "tractionRank": 15,
       "tractionScore": 73,
-      "tractionReason": "Mid-six-figure contracted ARR in four weeks, plus paid pilots"
+      "tractionReason": "Mid-six-figure contracted ARR in four weeks, paid pilots"
     },
     {
       "rank": 40,
@@ -1510,9 +1510,9 @@
         "EXIT": "**Strategic acquisition by a large solar operator is the strongest path.** The memo documents TotalEnergies On accelerator selection and reports te..."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 62,
-      "tractionScore": 61,
-      "tractionReason": "Agents cover roughly 2 GW. Works with Altenia and Terna"
+      "tractionRank": 69,
+      "tractionScore": 54,
+      "tractionReason": "Agents cover roughly 2 GW, named energy counterparties"
     },
     {
       "rank": 41,
@@ -1549,9 +1549,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 47,
-      "tractionScore": 64,
-      "tractionReason": "6,800+ courtrooms and 12 High Court partnerships. Reviewed deployments pro bono"
+      "tractionRank": 53,
+      "tractionScore": 58,
+      "tractionReason": "6,800+ courtrooms, 12 High Court partnerships, reviewed agreements pro bono"
     },
     {
       "rank": 42,
@@ -1585,9 +1585,9 @@
         "EXIT": "Strategic acquisition by a grid software vendor is Kanopy’s strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 67,
-      "tractionScore": 60,
-      "tractionReason": "Six signed LOIs or MSAs and 3,093 miles mapped"
+      "tractionRank": 61,
+      "tractionScore": 56,
+      "tractionReason": "Six counterparties signed LOIs or MSAs, 3,093 miles mapped"
     },
     {
       "rank": 43,
@@ -1624,9 +1624,9 @@
         "EXIT": "Strategic acquisition by an observability or agent-development platform is Papaya’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 48,
-      "tractionScore": 63,
-      "tractionReason": "First paying customers reported and 1.1M+ conversations analyzed"
+      "tractionRank": 27,
+      "tractionScore": 66,
+      "tractionReason": "First paying customers, 1.1M+ conversations analyzed"
     },
     {
       "rank": 44,
@@ -1663,9 +1663,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 137,
-      "tractionScore": 40,
-      "tractionReason": "Live Midwest solar developer deployment. Payment undisclosed"
+      "tractionRank": 135,
+      "tractionScore": 38,
+      "tractionReason": "One live solar-developer deployment, payment undisclosed"
     },
     {
       "rank": 45,
@@ -1700,9 +1700,9 @@
         "EXIT": "**Strategic acquisition** is Lark’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 126,
-      "tractionScore": 46,
-      "tractionReason": "Interline Hardware uses Lark for inventory replenishment. Fees undisclosed"
+      "tractionRank": 118,
+      "tractionScore": 44,
+      "tractionReason": "Interline Hardware deployment and reported use by an unnamed first customer"
     },
     {
       "rank": 46,
@@ -1737,9 +1737,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 115,
-      "tractionScore": 49,
-      "tractionReason": "Two robots live in two stores. Additional pilots planned"
+      "tractionRank": 68,
+      "tractionScore": 54,
+      "tractionReason": "Two robots live in two stores, up to ten additional planned"
     },
     {
       "rank": 47,
@@ -1774,9 +1774,9 @@
         "EXIT": "**Strategic acquisition** is Verdun’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 158,
-      "tractionScore": 37,
-      "tractionReason": "Shows monitoring activity across anonymized customer sites"
+      "tractionRank": 136,
+      "tractionScore": 38,
+      "tractionReason": "Anonymized customer-site monitoring activity, paid contracts undisclosed"
     },
     {
       "rank": 48,
@@ -1813,9 +1813,9 @@
         "EXIT": "Strategic acquisition is Collar’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 19,
+      "tractionRank": 16,
       "tractionScore": 72,
-      "tractionReason": "4× monthly revenue growth with $1.4M in deals pending compliance"
+      "tractionReason": "4× monthly revenue growth from undisclosed base, $1.4M pending compliance"
     },
     {
       "rank": 49,
@@ -1850,9 +1850,9 @@
         "EXIT": "**Strategic acquisition is the strongest path.** A GPU cloud provider could buy Dreamscale’s robot-specific transport, model optimization, and inte..."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 172,
-      "tractionScore": 33,
-      "tractionReason": "HUD research partnership and joint excavator evaluation with Actor Labs"
+      "tractionRank": 174,
+      "tractionScore": 32,
+      "tractionReason": "HUD research partnership and joint Actor Labs evaluation"
     },
     {
       "rank": 50,
@@ -1888,7 +1888,7 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 7,
-      "tractionScore": 86,
+      "tractionScore": 87,
       "tractionReason": "$50K October revenue and 900,000+ customer-app sessions"
     },
     {
@@ -1925,9 +1925,9 @@
         "EXIT": "A strategic acquisition by a multi-brand consumer operator is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 78,
-      "tractionScore": 58,
-      "tractionReason": "10 agent-run brands and seven named in agency case studies"
+      "tractionRank": 109,
+      "tractionScore": 46,
+      "tractionReason": "Ten agent-run brands, seven named agency case studies"
     },
     {
       "rank": 52,
@@ -1963,9 +1963,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 136,
-      "tractionScore": 41,
-      "tractionReason": "Named testimonials from TrashLab and Supermemory. Paid usage undisclosed"
+      "tractionRank": 140,
+      "tractionScore": 38,
+      "tractionReason": "Named testimonials from TrashLab and Supermemory, paid usage undisclosed"
     },
     {
       "rank": 53,
@@ -2001,9 +2001,9 @@
         "EXIT": "The strongest path is a **strategic acquisition by a developer hosting platform**."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 90,
-      "tractionScore": 55,
-      "tractionReason": "Crossed 5,000 users at launch with live customer order submissions"
+      "tractionRank": 93,
+      "tractionScore": 49,
+      "tractionReason": "5,000 users at public launch, two documented live applications"
     },
     {
       "rank": 54,
@@ -2040,9 +2040,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 42,
-      "tractionScore": 64,
-      "tractionReason": "First batch shipped and sold out. 2,000+ preorders, two enterprise pilots"
+      "tractionRank": 57,
+      "tractionScore": 57,
+      "tractionReason": "First batch shipped and sold out, 2,000+ preorders, two pilots"
     },
     {
       "rank": 55,
@@ -2078,9 +2078,9 @@
         "EXIT": "A strategic acquisition by an enterprise security platform is the strongest private exit path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 152,
-      "tractionScore": 38,
-      "tractionReason": "Just Eat Takeaway reported resolving a security problem with Armorer"
+      "tractionRank": 149,
+      "tractionScore": 37,
+      "tractionReason": "Just Eat Takeaway testimonial, SnapLogic collaboration discussions"
     },
     {
       "rank": 56,
@@ -2115,9 +2115,9 @@
         "EXIT": "Strategic acquisition is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 93,
-      "tractionScore": 54,
-      "tractionReason": "10,611 weekly standalone CLI downloads. One customer ran 200+ agents"
+      "tractionRank": 90,
+      "tractionScore": 50,
+      "tractionReason": "10,611 weekly standalone CLI downloads, customer ran 200+ agents"
     },
     {
       "rank": 57,
@@ -2151,9 +2151,9 @@
         "EXIT": "Strategic acquisition is DeepMark’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 79,
-      "tractionScore": 57,
-      "tractionReason": "First commercial platform license in production and two named user testimonials"
+      "tractionRank": 63,
+      "tractionScore": 55,
+      "tractionReason": "First commercial platform license in production, two named testimonials"
     },
     {
       "rank": 58,
@@ -2187,9 +2187,9 @@
         "EXIT": "Strategic acquisition by a travel distributor is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 107,
-      "tractionScore": 51,
-      "tractionReason": "Live bookings reported. Named integrations include Exa and Twin"
+      "tractionRank": 115,
+      "tractionScore": 44,
+      "tractionReason": "Live bookings reported, Exa integration, named travel collaborators"
     },
     {
       "rank": 59,
@@ -2226,9 +2226,9 @@
         "EXIT": "The strongest path is a **strategic acquisition by an established propulsion supplier** seeking to add quick-turn custom motor production."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 83,
-      "tractionScore": 56,
-      "tractionReason": "Fulfilling volume motor orders for one unnamed OEM"
+      "tractionRank": 42,
+      "tractionScore": 61,
+      "tractionReason": "Fulfilling volume orders for one OEM, revenue undisclosed"
     },
     {
       "rank": 60,
@@ -2264,8 +2264,8 @@
       },
       "memoDate": "2026-11-18",
       "tractionRank": 24,
-      "tractionScore": 70,
-      "tractionReason": "1,000+ teams, thousands of production desktops. PitchBook reports revenue generation"
+      "tractionScore": 67,
+      "tractionReason": "1,000+ teams, thousands of production desktops, revenue reported without amount"
     },
     {
       "rank": 61,
@@ -2301,8 +2301,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 37,
-      "tractionScore": 65,
-      "tractionReason": "$100K signed across two environments, plus a separate $200K LOI"
+      "tractionScore": 62,
+      "tractionReason": "$100K in signed contracts across two formalization environments"
     },
     {
       "rank": 62,
@@ -2339,9 +2339,9 @@
         "EXIT": "The strongest path is a strategic acquisition by a benefits broker or payroll platform."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 22,
-      "tractionScore": 71,
-      "tractionReason": "67 companies served through a carrier-commission brokerage model"
+      "tractionRank": 28,
+      "tractionScore": 66,
+      "tractionReason": "67 employer clients reported, carrier-paid brokerage commissions"
     },
     {
       "rank": 63,
@@ -2378,9 +2378,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 159,
+      "tractionRank": 150,
       "tractionScore": 37,
-      "tractionReason": "Unnamed teams report switching to Graphide CI. Revenue undisclosed"
+      "tractionReason": "Unnamed teams report using its CI runners, revenue undisclosed"
     },
     {
       "rank": 64,
@@ -2416,8 +2416,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 31,
-      "tractionScore": 66,
-      "tractionReason": "Paying production customers plus pilots across carriers, MGAs, and TPAs"
+      "tractionScore": 65,
+      "tractionReason": "Paying production customers and pilots across three insurance segments"
     },
     {
       "rank": 65,
@@ -2452,9 +2452,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 102,
-      "tractionScore": 52,
-      "tractionReason": "Pacific island and manufacturing deployments underway"
+      "tractionRank": 84,
+      "tractionScore": 51,
+      "tractionReason": "Pacific island and manufacturing deployments underway, payment undisclosed"
     },
     {
       "rank": 66,
@@ -2486,8 +2486,8 @@
       },
       "memoDate": "2026-11-18",
       "tractionRank": 81,
-      "tractionScore": 57,
-      "tractionReason": "200+ teams joined after launch. Named users include VoiceStudio"
+      "tractionScore": 51,
+      "tractionReason": "200+ teams joined since October, named users include UC Berkeley"
     },
     {
       "rank": 67,
@@ -2522,9 +2522,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 73,
-      "tractionScore": 59,
-      "tractionReason": "Signed Orbital LOI worth up to $20M and Lyra integration study"
+      "tractionRank": 60,
+      "tractionScore": 56,
+      "tractionReason": "Orbital signed an LOI worth up to $20M"
     },
     {
       "rank": 68,
@@ -2558,9 +2558,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 98,
-      "tractionScore": 53,
-      "tractionReason": "Four completed pilots and deployment at one private equity fund"
+      "tractionRank": 108,
+      "tractionScore": 46,
+      "tractionReason": "Four completed pilots and a private-equity fund deployment"
     },
     {
       "rank": 69,
@@ -2594,9 +2594,9 @@
         "EXIT": "**Strategic acquisition by a transportation insurance brokerage** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 44,
-      "tractionScore": 64,
-      "tractionReason": "19 customer accounts and $37,600 in expected annual net commissions"
+      "tractionRank": 38,
+      "tractionScore": 62,
+      "tractionReason": "19 customer accounts, $37,600 in expected annual net commissions"
     },
     {
       "rank": 70,
@@ -2631,9 +2631,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 64,
-      "tractionScore": 60,
-      "tractionReason": "10 ERP customers across four countries. Recurring ERP fee model"
+      "tractionRank": 33,
+      "tractionScore": 64,
+      "tractionReason": "Ten ERP customers across four countries, monthly fee model"
     },
     {
       "rank": 71,
@@ -2669,9 +2669,9 @@
         "EXIT": "Strategic acquisition is TrueMile’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 103,
-      "tractionScore": 52,
-      "tractionReason": "$57K freight booked in three weeks. Company revenue undisclosed"
+      "tractionRank": 105,
+      "tractionScore": 47,
+      "tractionReason": "$57K in freight booked in three weeks, realized revenue undisclosed"
     },
     {
       "rank": 72,
@@ -2706,9 +2706,9 @@
         "EXIT": "Strategic acquisition by a romance-game publisher is Yam’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 28,
-      "tractionScore": 68,
-      "tractionReason": "1M beta play hours and 3+ hours per daily active user"
+      "tractionRank": 49,
+      "tractionScore": 59,
+      "tractionReason": "1M beta play hours, over three hours daily per active user"
     },
     {
       "rank": 73,
@@ -2744,9 +2744,9 @@
         "EXIT": "Strategic acquisition by an industrial equipment maker with a distributed fleet is Mantle’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 96,
-      "tractionScore": 54,
-      "tractionReason": "Multiple live maintenance customers and a network of 250+ field technicians"
+      "tractionRank": 75,
+      "tractionScore": 53,
+      "tractionReason": "Multiple live customers and 250+ field technicians"
     },
     {
       "rank": 74,
@@ -2782,9 +2782,9 @@
         "EXIT": "**Strategic acquisition** is Sona8’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 71,
-      "tractionScore": 59,
-      "tractionReason": "10,000+ employee interviews and a signed top-three consultancy"
+      "tractionRank": 43,
+      "tractionScore": 61,
+      "tractionReason": "Signed major consultancy, 10,000+ interviews, s.Oliver deployment"
     },
     {
       "rank": 75,
@@ -2819,9 +2819,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 84,
-      "tractionScore": 56,
-      "tractionReason": "Signed insurance customer. AXA and Die Mobiliar listed as references"
+      "tractionRank": 126,
+      "tractionScore": 42,
+      "tractionReason": "Signed insurance customer, contract value undisclosed"
     },
     {
       "rank": 76,
@@ -2855,9 +2855,9 @@
         "EXIT": "Strategic acquisition is Blinka’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 30,
-      "tractionScore": 67,
-      "tractionReason": "400+ businesses onboarded and $18M+ in payments processed"
+      "tractionRank": 54,
+      "tractionScore": 58,
+      "tractionReason": "400+ onboarded businesses, $18M+ processed payment volume"
     },
     {
       "rank": 77,
@@ -2894,9 +2894,9 @@
         "EXIT": "A strategic acquisition by a legal or claims workflow vendor is Elithia’s strongest private exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 29,
+      "tractionRank": 25,
       "tractionScore": 67,
-      "tractionReason": "Reports sales, 70+ experts using live cases, and two contracted agencies"
+      "tractionReason": "Sales reported, 70+ physicians on live cases, two agency contracts"
     },
     {
       "rank": 78,
@@ -2931,9 +2931,9 @@
         "EXIT": "The strongest path is a **strategic acquisition by a device-cloud or test automation provider**."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 119,
-      "tractionScore": 48,
-      "tractionReason": "Several live deployments. Reported growth metric unspecified"
+      "tractionRank": 122,
+      "tractionScore": 43,
+      "tractionReason": "Several live deployments, reported growth metric unspecified"
     },
     {
       "rank": 79,
@@ -2967,9 +2967,9 @@
         "EXIT": "Strategic acquisition is the strongest private-company path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 14,
-      "tractionScore": 75,
-      "tractionReason": "40% revenue growth in 30 days and 60,000+ organic users"
+      "tractionRank": 17,
+      "tractionScore": 71,
+      "tractionReason": "Revenue grew 40% in 30 days, 60,000+ organic users"
     },
     {
       "rank": 80,
@@ -3002,9 +3002,9 @@
         "EXIT": "The strongest private exit path is a strategic acquisition by a video-editing or video-creation platform."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 160,
+      "tractionRank": 148,
       "tractionScore": 37,
-      "tractionReason": "Music for Video AI identifies Taan as its scoring provider"
+      "tractionReason": "Named scoring integration with Music for Video AI"
     },
     {
       "rank": 81,
@@ -3041,9 +3041,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 113,
-      "tractionScore": 49,
-      "tractionReason": "Sensors deployed on 40+ assets, up from 25+ in October"
+      "tractionRank": 83,
+      "tractionScore": 51,
+      "tractionReason": "Deployed sensors increased from 25+ to 40+ assets"
     },
     {
       "rank": 82,
@@ -3079,9 +3079,9 @@
         "EXIT": "The strongest path is a **strategic acquisition** by a reliability or developer-tooling platform."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 35,
-      "tractionScore": 65,
-      "tractionReason": "Paying customers reported. Founder cites expansion across teams and projects"
+      "tractionRank": 26,
+      "tractionScore": 66,
+      "tractionReason": "Paying customers and reported expansion across teams or projects"
     },
     {
       "rank": 83,
@@ -3115,9 +3115,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 77,
-      "tractionScore": 58,
-      "tractionReason": "28 hospitals live and 53 onboarding. Core access free"
+      "tractionRank": 71,
+      "tractionScore": 54,
+      "tractionReason": "28 hospitals live, 53 onboarding, free core hospital access"
     },
     {
       "rank": 84,
@@ -3154,9 +3154,9 @@
         "EXIT": "Strategic acquisition by an industrial simulation or automation vendor is the strongest private exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 117,
-      "tractionScore": 49,
-      "tractionReason": "Several active industry pilots. Counterparties and payment terms undisclosed"
+      "tractionRank": 110,
+      "tractionScore": 46,
+      "tractionReason": "Several active industry pilots, payment terms undisclosed"
     },
     {
       "rank": 85,
@@ -3193,9 +3193,9 @@
         "EXIT": "A strategic acquisition by a frontier AI lab is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 205,
-      "tractionScore": 11,
-      "tractionReason": "FrontierEE benchmark launched. No disclosed customer adoption"
+      "tractionRank": 213,
+      "tractionScore": 15,
+      "tractionReason": "FrontierEE Bench released with ten tasks, no disclosed customers"
     },
     {
       "rank": 86,
@@ -3231,9 +3231,9 @@
         "EXIT": "Strategic acquisition by a field-service software platform is Fleety’s strongest path to investor cash."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 87,
-      "tractionScore": 55,
-      "tractionReason": "Named dispatch deployments including Albert Nahman and Panther Services Group"
+      "tractionRank": 101,
+      "tractionScore": 47,
+      "tractionReason": "Named plumbing deployments, reported zero churn with cohort undisclosed"
     },
     {
       "rank": 87,
@@ -3267,9 +3267,9 @@
         "EXIT": "Strategic acquisition is Hopper’s strongest path to cash for a seed investor."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 50,
-      "tractionScore": 63,
-      "tractionReason": "10B+ tokens daily, one signed production customer, initial paid usage"
+      "tractionRank": 80,
+      "tractionScore": 52,
+      "tractionReason": "10B+ tokens daily across platform, one signed production customer"
     },
     {
       "rank": 88,
@@ -3304,9 +3304,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 75,
-      "tractionScore": 59,
-      "tractionReason": "20,000 users in four weeks. Paid plans offered"
+      "tractionRank": 76,
+      "tractionScore": 53,
+      "tractionReason": "20,000 reported users in four weeks, paid conversion undisclosed"
     },
     {
       "rank": 89,
@@ -3343,9 +3343,9 @@
         "EXIT": "A **strategic acquisition by an industrial automation vendor** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 218,
-      "tractionScore": 7,
-      "tractionReason": "Robot bench tests released. No disclosed customer deployments"
+      "tractionRank": 212,
+      "tractionScore": 15,
+      "tractionReason": "Public robot demo and internal benchmarks, customer trials undisclosed"
     },
     {
       "rank": 90,
@@ -3380,9 +3380,9 @@
         "EXIT": "**Strategic acquisition by a benefits brokerage** is Spine’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 20,
-      "tractionScore": 72,
-      "tractionReason": "4.4× commission revenue growth in six months. 30+ startups served"
+      "tractionRank": 18,
+      "tractionScore": 71,
+      "tractionReason": "Commission revenue grew 4.4× over six months, 30+ startup clients"
     },
     {
       "rank": 91,
@@ -3417,9 +3417,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path in Fall 2026."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 49,
+      "tractionRank": 34,
       "tractionScore": 63,
-      "tractionReason": "Reports AI labs buying data. 8,204 monthly public dataset downloads"
+      "tractionReason": "AI labs reportedly buy data, 8,204 monthly open-dataset downloads"
     },
     {
       "rank": 92,
@@ -3455,9 +3455,9 @@
         "EXIT": "Strategic acquisition by an industrial CAD or engineering software vendor is Verno’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 131,
-      "tractionScore": 42,
-      "tractionReason": "Active pilot and live industrial customer sites reported"
+      "tractionRank": 134,
+      "tractionScore": 39,
+      "tractionReason": "Active pilot and live customer sites, customer count undisclosed"
     },
     {
       "rank": 93,
@@ -3494,9 +3494,9 @@
         "EXIT": "Strategic acquisition by an enterprise application-security vendor is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 101,
-      "tractionScore": 53,
-      "tractionReason": "1.4K GitHub stars plus engagements with EY and Swiss defense officials"
+      "tractionRank": 87,
+      "tractionScore": 50,
+      "tractionReason": "EY and Swiss defense department engagements, 1,400 GitHub stars"
     },
     {
       "rank": 94,
@@ -3530,9 +3530,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 105,
-      "tractionScore": 52,
-      "tractionReason": "30 companies live at launch. $50 per demo offered"
+      "tractionRank": 73,
+      "tractionScore": 53,
+      "tractionReason": "30 companies live at launch, paying share undisclosed"
     },
     {
       "rank": 95,
@@ -3565,9 +3565,9 @@
         "EXIT": "The strongest path is a **strategic acquisition by a sales-intelligence platform**."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 12,
-      "tractionScore": 77,
-      "tractionReason": "Reported over $200K ARR in October. Named sales-product customers"
+      "tractionRank": 13,
+      "tractionScore": 74,
+      "tractionReason": "Over $200K ARR reported in October, paying customer disclosed"
     },
     {
       "rank": 96,
@@ -3602,9 +3602,9 @@
         "EXIT": "Strategic acquisition is Frontrunner’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 108,
-      "tractionScore": 51,
-      "tractionReason": "Three named customer testimonials. Reports acting on 100+ daily opportunities"
+      "tractionRank": 116,
+      "tractionScore": 44,
+      "tractionReason": "Named customer testimonials from Foresight Health, Petra Labs, and LDGR Systems"
     },
     {
       "rank": 97,
@@ -3639,9 +3639,9 @@
         "EXIT": "Strategic acquisition by an enterprise sourcing platform is HillStar’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 100,
-      "tractionScore": 53,
-      "tractionReason": "Multiple utility procurement engagements, including evaluation of 22 bids"
+      "tractionRank": 120,
+      "tractionScore": 43,
+      "tractionReason": "Utility procurement case studies, including evaluation of 22 bids"
     },
     {
       "rank": 98,
@@ -3678,9 +3678,9 @@
         "EXIT": "A **strategic acquisition by a manufacturing ERP vendor** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 121,
-      "tractionScore": 48,
-      "tractionReason": "Factory ERP deployments across six states. Two Shopify app reviews"
+      "tractionRank": 82,
+      "tractionScore": 51,
+      "tractionReason": "Current factory ERP deployments across six states, revenue undisclosed"
     },
     {
       "rank": 99,
@@ -3717,9 +3717,9 @@
         "EXIT": "Strategic acquisition is Reific’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 210,
-      "tractionScore": 8,
-      "tractionReason": "RL environments launched. No disclosed external adoption or sales"
+      "tractionRank": 211,
+      "tractionScore": 16,
+      "tractionReason": "Public environments and leaderboard, no disclosed commercial deployments"
     },
     {
       "rank": 100,
@@ -3755,9 +3755,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 183,
-      "tractionScore": 22,
-      "tractionReason": "Customer deployments planned for January 2027. Commercial commitments undisclosed"
+      "tractionRank": 173,
+      "tractionScore": 33,
+      "tractionReason": "Customer deployments targeted for January 2027"
     },
     {
       "rank": 101,
@@ -3791,9 +3791,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 63,
-      "tractionScore": 61,
-      "tractionReason": "10,000+ users and 30+ enterprises using the app"
+      "tractionRank": 78,
+      "tractionScore": 52,
+      "tractionReason": "10,000+ users and reported use at 30+ enterprises"
     },
     {
       "rank": 102,
@@ -3828,9 +3828,9 @@
         "EXIT": "Strategic acquisition is Silica’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 112,
-      "tractionScore": 50,
-      "tractionReason": "60,000+ actuator units requested in one month. Deposits undisclosed"
+      "tractionRank": 113,
+      "tractionScore": 45,
+      "tractionReason": "60,000+ units requested within a month, paid orders undisclosed"
     },
     {
       "rank": 103,
@@ -3866,9 +3866,9 @@
         "EXIT": "A strategic acquisition by a construction software platform is Telamont’s strongest private exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 89,
-      "tractionScore": 55,
-      "tractionReason": "Monitored $2B+ in construction projects across multiple deployments"
+      "tractionRank": 102,
+      "tractionScore": 47,
+      "tractionReason": "$2B+ in construction projects monitored and named contractor logos"
     },
     {
       "rank": 104,
@@ -3903,9 +3903,9 @@
         "EXIT": "A strategic acquisition by an established EDA vendor is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 97,
-      "tractionScore": 53,
-      "tractionReason": "Signed pilots with undisclosed payment terms and development with GlobalFoundries"
+      "tractionRank": 111,
+      "tractionScore": 45,
+      "tractionReason": "Signed pilots and joint development with GlobalFoundries"
     },
     {
       "rank": 105,
@@ -3940,9 +3940,9 @@
         "EXIT": "A strategic acquisition by a distribution or outage-management software vendor is Evardi’s strongest path to investor cash."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 106,
-      "tractionScore": 52,
-      "tractionReason": "Utility deployments reported across networks serving 10M+ electricity customers"
+      "tractionRank": 114,
+      "tractionScore": 44,
+      "tractionReason": "Reported utility deployments, payment and deployment count undisclosed"
     },
     {
       "rank": 106,
@@ -3977,9 +3977,9 @@
         "EXIT": "Strategic acquisition is Hemlock’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 211,
-      "tractionScore": 8,
-      "tractionReason": "Robotics training data demonstrated. No disclosed customer use"
+      "tractionRank": 205,
+      "tractionScore": 18,
+      "tractionReason": "Internal robotics results published, no disclosed customers or revenue"
     },
     {
       "rank": 107,
@@ -4014,9 +4014,9 @@
         "EXIT": "Strategic acquisition is Maritime’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 124,
-      "tractionScore": 47,
-      "tractionReason": "1,107 agents, 29 concurrently awake, and Keiki integration"
+      "tractionRank": 98,
+      "tractionScore": 48,
+      "tractionReason": "1,107 agents provisioned and live Keiki integration"
     },
     {
       "rank": 108,
@@ -4053,9 +4053,9 @@
         "EXIT": "**Strategic acquisition is the strongest path.** An industrial automation vendor or systems integrator could buy Odin’s operator-taught software an..."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 163,
-      "tractionScore": 36,
-      "tractionReason": "On-site factory work reported. No disclosed paid pilots"
+      "tractionRank": 166,
+      "tractionScore": 34,
+      "tractionReason": "Reported on-site factory work and automation design with operations teams"
     },
     {
       "rank": 109,
@@ -4090,9 +4090,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 169,
+      "tractionRank": 162,
       "tractionScore": 35,
-      "tractionReason": "1,596 monthly dataset downloads. Partner-site training deployments still planned"
+      "tractionReason": "1,596 monthly dataset downloads, partner-site training deployments planned"
     },
     {
       "rank": 110,
@@ -4126,9 +4126,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 33,
-      "tractionScore": 66,
-      "tractionReason": "100K Fortress installs, engineers at 170+ companies, millions of daily operations"
+      "tractionRank": 50,
+      "tractionScore": 59,
+      "tractionReason": "100,000 Fortress installs, engineers at 170+ companies"
     },
     {
       "rank": 111,
@@ -4165,9 +4165,9 @@
         "EXIT": "Strategic acquisition by a video-editing platform is Vyra’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 55,
-      "tractionScore": 62,
-      "tractionReason": "104,982 reported creators. Edited content reached 40M views"
+      "tractionRank": 77,
+      "tractionScore": 52,
+      "tractionReason": "104,982 creator counter, 40M+ edited-content views, paid conversion undisclosed"
     },
     {
       "rank": 112,
@@ -4201,9 +4201,9 @@
         "EXIT": "Strategic acquisition by a food-distribution ERP vendor is Asakana’s strongest path in Fall 2026."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 122,
-      "tractionScore": 48,
-      "tractionReason": "Live at U.S. seafood distributors. Transaction commissions priced by agreement"
+      "tractionRank": 119,
+      "tractionScore": 43,
+      "tractionReason": "Live deployments at U.S. seafood distributors, revenue undisclosed"
     },
     {
       "rank": 113,
@@ -4238,9 +4238,9 @@
         "EXIT": "A strategic acquisition by an established veterinary diagnostics distributor is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 127,
-      "tractionScore": 45,
-      "tractionReason": "10 clinics and mobile vets onboarding. 150+ trade-show signups"
+      "tractionRank": 130,
+      "tractionScore": 39,
+      "tractionReason": "Ten clinics and mobile vets onboarding, paid test volume undisclosed"
     },
     {
       "rank": 114,
@@ -4275,8 +4275,8 @@
         "EXIT": "A strategic acquisition by a defense prime is Keres’s strongest private-company exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 234,
-      "tractionScore": 4,
+      "tractionRank": 235,
+      "tractionScore": 6,
       "tractionReason": "No disclosed customers, orders, or revenue"
     },
     {
@@ -4312,9 +4312,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 132,
-      "tractionScore": 42,
-      "tractionReason": "Live inference integrations with Opper AI and RouterPlus"
+      "tractionRank": 112,
+      "tractionScore": 45,
+      "tractionReason": "Live Opper AI and RouterPlus integrations, usage undisclosed"
     },
     {
       "rank": 116,
@@ -4349,9 +4349,9 @@
         "EXIT": "A strategic acquisition by a developer-security platform is OpenHack’s strongest private exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 118,
-      "tractionScore": 49,
-      "tractionReason": "Six named launch users and 444 open-source scanner stars"
+      "tractionRank": 123,
+      "tractionScore": 42,
+      "tractionReason": "Six named users and 444 GitHub stars, paid conversion undisclosed"
     },
     {
       "rank": 117,
@@ -4387,9 +4387,9 @@
         "EXIT": "A strategic acquisition by an inference platform is the strongest path to cash while OpenLake is private."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 25,
-      "tractionScore": 70,
-      "tractionReason": "100B+ tokens served daily company-wide. Paid routing model available"
+      "tractionRank": 47,
+      "tractionScore": 59,
+      "tractionReason": "100B+ tokens daily platform-wide, customer training use reported"
     },
     {
       "rank": 118,
@@ -4426,9 +4426,9 @@
         "EXIT": "**Strategic acquisition** is OpEra’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 150,
-      "tractionScore": 38,
-      "tractionReason": "Reported logistics projects for a sugar producer and services marketplace"
+      "tractionRank": 147,
+      "tractionScore": 37,
+      "tractionReason": "Reported outcomes for a sugar producer and a services marketplace"
     },
     {
       "rank": 119,
@@ -4465,9 +4465,9 @@
         "EXIT": "Strategic acquisition is Primordiant’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 142,
-      "tractionScore": 39,
-      "tractionReason": "Two client engagements. Beta billing disabled"
+      "tractionRank": 138,
+      "tractionScore": 38,
+      "tractionReason": "Two unnamed client engagements, beta billing disabled"
     },
     {
       "rank": 120,
@@ -4500,9 +4500,9 @@
         "EXIT": "Strategic acquisition by an established launch provider is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 82,
-      "tractionScore": 57,
-      "tractionReason": "$400M in signed launch reservations. Buyers and deposits undisclosed"
+      "tractionRank": 59,
+      "tractionScore": 56,
+      "tractionReason": "$400M in signed launch reservations, deposits and cancellation terms undisclosed"
     },
     {
       "rank": 121,
@@ -4536,9 +4536,9 @@
         "EXIT": "**Strategic acquisition by a restaurant POS or operations platform** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 95,
-      "tractionScore": 54,
-      "tractionReason": "13 live restaurants and a Mathews Restaurant testimonial"
+      "tractionRank": 74,
+      "tractionScore": 53,
+      "tractionReason": "13 live restaurants and named Mathews Restaurant testimonial"
     },
     {
       "rank": 122,
@@ -4573,9 +4573,9 @@
         "EXIT": "**Strategic acquisition** is Theo’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 72,
-      "tractionScore": 59,
-      "tractionReason": "10,000+ site builds. One reviewer reported paying roughly $69 monthly"
+      "tractionRank": 65,
+      "tractionScore": 55,
+      "tractionReason": "10,000+ site builds, one reviewer reports paying about $69 monthly"
     },
     {
       "rank": 123,
@@ -4611,9 +4611,9 @@
         "EXIT": "Strategic acquisition is Tilo’s strongest private exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 213,
-      "tractionScore": 8,
-      "tractionReason": "Internal benchmark demonstrated. No disclosed customers or revenue"
+      "tractionRank": 217,
+      "tractionScore": 14,
+      "tractionReason": "Internal test of 50 concurrent agents, customer use undisclosed"
     },
     {
       "rank": 124,
@@ -4650,9 +4650,9 @@
         "EXIT": "**Strategic acquisition by an affordable-housing property software vendor** is Tire Swing’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 88,
-      "tractionScore": 55,
-      "tractionReason": "Dozens of properties live across eight states. Subscription terms published"
+      "tractionRank": 72,
+      "tractionScore": 53,
+      "tractionReason": "Dozens of affordable-housing properties live across eight states"
     },
     {
       "rank": 125,
@@ -4687,9 +4687,9 @@
         "EXIT": "The strongest path is a **strategic acquisition** by a cloud or developer-infrastructure platform that wants to integrate durable state for collabo..."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 109,
-      "tractionScore": 51,
-      "tractionReason": "1.4M requests in a day. Munito demonstrated coordinated VMs"
+      "tractionRank": 99,
+      "tractionScore": 48,
+      "tractionReason": "1.4M requests in one day, external Munito demonstration"
     },
     {
       "rank": 126,
@@ -4724,9 +4724,9 @@
         "EXIT": "Strategic acquisition is UXDuck’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 154,
-      "tractionScore": 38,
-      "tractionReason": "500+ external simulated flight hours and one customer testimonial"
+      "tractionRank": 155,
+      "tractionScore": 36,
+      "tractionReason": "500+ external simulation hours, one customer testimonial"
     },
     {
       "rank": 127,
@@ -4763,9 +4763,9 @@
         "EXIT": "**Strategic acquisition** is Alkera’s strongest path to investor cash."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 184,
-      "tractionScore": 22,
-      "tractionReason": "Databench has 13 GitHub stars. Paying customers undisclosed"
+      "tractionRank": 189,
+      "tractionScore": 24,
+      "tractionReason": "Databench has 13 GitHub stars, paid adoption undisclosed"
     },
     {
       "rank": 128,
@@ -4801,9 +4801,9 @@
         "EXIT": "Strategic acquisition is Caveman’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 56,
-      "tractionScore": 62,
-      "tractionReason": "Original open-source ecosystem exceeded 10M downloads. Paid products launched"
+      "tractionRank": 97,
+      "tractionScore": 48,
+      "tractionReason": "Original open-source ecosystem reports 10M+ downloads, paid uptake undisclosed"
     },
     {
       "rank": 129,
@@ -4839,9 +4839,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 99,
-      "tractionScore": 53,
-      "tractionReason": "Current platform booked 1,000 meetings. Named customer Jose Toro used it"
+      "tractionRank": 131,
+      "tractionScore": 39,
+      "tractionReason": "1,000 meetings booked through current platform, named customer testimonial"
     },
     {
       "rank": 130,
@@ -4877,9 +4877,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 76,
-      "tractionScore": 59,
-      "tractionReason": "Kernel tools used at NVIDIA and others. Hosted balances migrated"
+      "tractionRank": 86,
+      "tractionScore": 50,
+      "tractionReason": "Kernel tooling reportedly used at NVIDIA, AMD, and other named organizations"
     },
     {
       "rank": 131,
@@ -4916,9 +4916,9 @@
         "EXIT": "**Strategic acquisition is the strongest path.** A diagnostics company with a downstream blood-testing business could buy Saccade to control an ear..."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 157,
-      "tractionScore": 37,
-      "tractionReason": "Testing in San Francisco clinics. Paying test volume undisclosed"
+      "tractionRank": 167,
+      "tractionScore": 34,
+      "tractionReason": "San Francisco clinic testing reported, paying test volume undisclosed"
     },
     {
       "rank": 132,
@@ -4954,9 +4954,9 @@
         "EXIT": "A strategic acquisition by an enterprise security platform is Stacktrace’s strongest private exit path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 153,
-      "tractionScore": 38,
-      "tractionReason": "Unnamed design partners running local or unattended cloud agents"
+      "tractionRank": null,
+      "tractionScore": null,
+      "tractionReason": ""
     },
     {
       "rank": 133,
@@ -4989,9 +4989,9 @@
         "EXIT": "Strategic acquisition is Latent’s strongest path to private shareholder cash."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 198,
-      "tractionScore": 14,
-      "tractionReason": "Self-serve product launched. No disclosed customer adoption"
+      "tractionRank": 192,
+      "tractionScore": 22,
+      "tractionReason": "Self-serve product launched October 4, paid adoption undisclosed"
     },
     {
       "rank": 134,
@@ -5028,9 +5028,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 104,
-      "tractionScore": 52,
-      "tractionReason": "Produces parts for Bay Area hardware companies on per-job quotes"
+      "tractionRank": 100,
+      "tractionScore": 48,
+      "tractionReason": "Manufacturing parts for Bay Area customers, pricing by accepted quote"
     },
     {
       "rank": 135,
@@ -5067,9 +5067,9 @@
         "EXIT": "A private strategic acquisition by an AI assistant platform is Vexo’s strongest exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 147,
+      "tractionRank": 142,
       "tractionScore": 38,
-      "tractionReason": "Prototypes distributed to refundable preorder customers. Order count undisclosed"
+      "tractionReason": "Prototypes reached preorder customers, refundable order count undisclosed"
     },
     {
       "rank": 136,
@@ -5106,9 +5106,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 171,
-      "tractionScore": 33,
-      "tractionReason": "Managed service onboarding teams without fees. SDK has 46 stars"
+      "tractionRank": 164,
+      "tractionScore": 34,
+      "tractionReason": "Managed teams onboarding, unallocated company-level revenue classification"
     },
     {
       "rank": 137,
@@ -5145,9 +5145,9 @@
         "EXIT": "**Strategic acquisition** is Ailit’s strongest private-company exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 228,
-      "tractionScore": 5,
-      "tractionReason": "Full-scale prototype completed. No reported commercial deployment"
+      "tractionRank": 233,
+      "tractionScore": 8,
+      "tractionReason": "Full-scale prototype awaiting commissioning, no disclosed orders"
     },
     {
       "rank": 138,
@@ -5181,9 +5181,9 @@
         "EXIT": "**Strategic acquisition by a revenue-cycle software vendor** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 130,
-      "tractionScore": 43,
-      "tractionReason": "Underpayment recovery pilots with outcome-based fees. Collections undisclosed"
+      "tractionRank": 137,
+      "tractionScore": 38,
+      "tractionReason": "Pilot recovered underpayments under outcome-based pricing, fees undisclosed"
     },
     {
       "rank": 139,
@@ -5219,9 +5219,9 @@
         "EXIT": "The strongest path is a strategic acquisition of Verify by a developer tooling or coding-agent platform."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 120,
-      "tractionScore": 48,
-      "tractionReason": "Found 1,500+ bugs in customer apps since mid-October"
+      "tractionRank": 104,
+      "tractionScore": 47,
+      "tractionReason": "Reported finding 1,500+ bugs in customer applications since mid-October"
     },
     {
       "rank": 140,
@@ -5258,9 +5258,9 @@
         "EXIT": "Strategic acquisition by a product-analytics platform is the strongest private-company path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 32,
-      "tractionScore": 66,
-      "tractionReason": "Stripe-connected $3,345 company-wide MRR ($40,140 annualized) and 38 active subscriptions"
+      "tractionRank": 20,
+      "tractionScore": 69,
+      "tractionReason": "$3,345 company-wide MRR, $40,140 annualized, 38 active subscriptions"
     },
     {
       "rank": 141,
@@ -5296,8 +5296,8 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 114,
-      "tractionScore": 49,
+      "tractionRank": 125,
+      "tractionScore": 42,
       "tractionReason": "Signed Trustboop LOI and first enterprise customer onboarding"
     },
     {
@@ -5333,9 +5333,9 @@
         "EXIT": "A strategic acquisition by an AI lab or an agent-training platform is ORO’s strongest path to shareholder cash."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 175,
-      "tractionScore": 30,
-      "tractionReason": "670 dataset downloads. GetASAP helped calibrate SMB Bench"
+      "tractionRank": 163,
+      "tractionScore": 35,
+      "tractionReason": "670 monthly benchmark dataset downloads, GetASAP calibration collaboration"
     },
     {
       "rank": 143,
@@ -5372,9 +5372,9 @@
         "EXIT": "**Strategic acquisition by an established commercial insurance brokerage** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 80,
-      "tractionScore": 57,
-      "tractionReason": "Three businesses obtained coverage in one week. Carrier commissions undisclosed"
+      "tractionRank": 106,
+      "tractionScore": 46,
+      "tractionReason": "Placed coverage for three businesses in one week, commissions undisclosed"
     },
     {
       "rank": 144,
@@ -5409,9 +5409,9 @@
         "EXIT": "Strategic acquisition by a work-management platform is Roma’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 167,
+      "tractionRank": 156,
       "tractionScore": 36,
-      "tractionReason": "Some users connected 10+ agents. Access free through year-end"
+      "tractionReason": "35 U.S. app ratings, some users connected 10+ agents"
     },
     {
       "rank": 145,
@@ -5448,9 +5448,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 195,
-      "tractionScore": 16,
-      "tractionReason": "Published seven-week transformer turnaround. Customer orders undisclosed"
+      "tractionRank": 225,
+      "tractionScore": 11,
+      "tractionReason": "Advertised seven-week transformer turnaround, no disclosed orders"
     },
     {
       "rank": 146,
@@ -5487,9 +5487,9 @@
         "EXIT": "**Strategic acquisition by a defense or aerospace prime** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 235,
-      "tractionScore": 2,
-      "tractionReason": "First lab running. No disclosed current commercial engagements"
+      "tractionRank": 231,
+      "tractionScore": 9,
+      "tractionReason": "First lab running internal experiments, no disclosed current contracts"
     },
     {
       "rank": 147,
@@ -5524,9 +5524,9 @@
         "EXIT": "Strategic acquisition is EveryApp’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 15,
-      "tractionScore": 75,
-      "tractionReason": "Hundreds of paying customers at standalone OpenSEO and 906 EveryApp stars"
+      "tractionRank": 160,
+      "tractionScore": 35,
+      "tractionReason": "906 GitHub stars for EveryApp’s platform, paid adoption undisclosed"
     },
     {
       "rank": 148,
@@ -5563,9 +5563,9 @@
         "EXIT": "**Strategic acquisition** is Faraday’s strongest private-company exit path in Fall 2026."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 141,
-      "tractionScore": 39,
-      "tractionReason": "Founder reports one customer deployment involving a legacy system"
+      "tractionRank": 152,
+      "tractionScore": 36,
+      "tractionReason": "One unnamed industrial customer deployment reported"
     },
     {
       "rank": 149,
@@ -5602,9 +5602,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 143,
-      "tractionScore": 39,
-      "tractionReason": "Two current-product testimonials covering escalations and month-end close"
+      "tractionRank": 146,
+      "tractionScore": 37,
+      "tractionReason": "Current-product workflow testimonials from unnamed customers, payment undisclosed"
     },
     {
       "rank": 150,
@@ -5639,9 +5639,9 @@
         "EXIT": "A **strategic acquisition** by a municipal credit-data or fixed-income workflow provider is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 111,
-      "tractionScore": 50,
-      "tractionReason": "15 institutional desks reported for Macro & Rates and Agency MBS"
+      "tractionRank": 195,
+      "tractionScore": 21,
+      "tractionReason": "Municipal product launched November 4, current-product desk adoption undisclosed"
     },
     {
       "rank": 151,
@@ -5676,9 +5676,9 @@
         "EXIT": "A strategic acquisition by a large commercial real estate brokerage is Obia’s strongest private-company exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 65,
-      "tractionScore": 60,
-      "tractionReason": "$1.05M lease value closed in 22 days. Landlord-paid brokerage model"
+      "tractionRank": 66,
+      "tractionScore": 55,
+      "tractionReason": "$1.05M in closed lease value in 22 days, fee undisclosed"
     },
     {
       "rank": 152,
@@ -5713,9 +5713,9 @@
         "EXIT": "Strategic acquisition by a legal practice-management platform such as Clio or Filevine is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 135,
-      "tractionScore": 41,
-      "tractionReason": "Live at U.S. law firms. One attorney testimonial"
+      "tractionRank": 117,
+      "tractionScore": 44,
+      "tractionReason": "Live at multiple U.S. law firms, paid status undisclosed"
     },
     {
       "rank": 153,
@@ -5752,9 +5752,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 200,
-      "tractionScore": 14,
-      "tractionReason": "Joint ProHand demonstration. No disclosed customer deployments"
+      "tractionRank": 202,
+      "tractionScore": 19,
+      "tractionReason": "ProHand demo with Proception, commercial commitments undisclosed"
     },
     {
       "rank": 154,
@@ -5789,9 +5789,9 @@
         "EXIT": "A strategic acquisition by an established PCB design software vendor is Resin’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 165,
+      "tractionRank": 151,
       "tractionScore": 36,
-      "tractionReason": "Reports unnamed teams shipping boards with Resin. Payments undisclosed"
+      "tractionReason": "Founder reports unnamed teams used Resin to ship boards"
     },
     {
       "rank": 155,
@@ -5826,9 +5826,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 86,
-      "tractionScore": 55,
-      "tractionReason": "500+ kg of parts produced with customers in first month"
+      "tractionRank": 85,
+      "tractionScore": 51,
+      "tractionReason": "Produced 500+ kg of customer parts in first month"
     },
     {
       "rank": 156,
@@ -5859,9 +5859,9 @@
         "EXIT": "Strategic acquisition is the strongest candidate."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 148,
-      "tractionScore": 38,
-      "tractionReason": "One named customer reported using its agents for months"
+      "tractionRank": 133,
+      "tractionScore": 39,
+      "tractionReason": "One named customer reports months of use, payment undisclosed"
     },
     {
       "rank": 157,
@@ -5898,9 +5898,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 139,
-      "tractionScore": 40,
-      "tractionReason": "Grocery-partner pilots reported. 59 U.S. app ratings"
+      "tractionRank": 141,
+      "tractionScore": 38,
+      "tractionReason": "Grocery-partner pilots, household beta, 59 U.S. app ratings"
     },
     {
       "rank": 158,
@@ -5934,9 +5934,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 227,
-      "tractionScore": 6,
-      "tractionReason": "Prototype design runs reported. No disclosed customer deployments"
+      "tractionRank": 216,
+      "tractionScore": 14,
+      "tractionReason": "Initial engineering design runs reported, customers undisclosed"
     },
     {
       "rank": 159,
@@ -5971,9 +5971,9 @@
         "EXIT": "The strongest path is a **strategic acquisition of Wingman’s workflow software by an established personal injury firm**."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 125,
+      "tractionRank": 107,
       "tractionScore": 46,
-      "tractionReason": "Multiple six-figure cases in progress. Fees contingent on recovery"
+      "tractionReason": "Multiple six-figure cases in progress, contingency fees tied to recovery"
     },
     {
       "rank": 160,
@@ -6007,9 +6007,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 133,
-      "tractionScore": 42,
-      "tractionReason": "Thousands of first-week signups. Free app with nine U.S. ratings"
+      "tractionRank": 158,
+      "tractionScore": 35,
+      "tractionReason": "Thousands of first-week signups, free app with nine U.S. ratings"
     },
     {
       "rank": 161,
@@ -6042,9 +6042,9 @@
         "EXIT": "Strategic acquisition by a frontier lab or medical AI developer is the strongest private exit path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 145,
-      "tractionScore": 39,
-      "tractionReason": "Reports use by unnamed frontier labs and medical AI developers"
+      "tractionRank": 127,
+      "tractionScore": 40,
+      "tractionReason": "Frontier labs and medical AI developers reportedly using current product"
     },
     {
       "rank": 162,
@@ -6081,9 +6081,9 @@
         "EXIT": "Strategic acquisition is Asim’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 207,
-      "tractionScore": 9,
-      "tractionReason": "Robot safety benchmarking launched. No disclosed customer usage"
+      "tractionRank": 208,
+      "tractionScore": 17,
+      "tractionReason": "Benchmarking launch November 5, customer use undisclosed"
     },
     {
       "rank": 163,
@@ -6120,9 +6120,9 @@
         "EXIT": "**Strategic acquisition** is Aucert’s strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 194,
-      "tractionScore": 16,
-      "tractionReason": "Private beta and free first scan. No disclosed beta cohort"
+      "tractionRank": 185,
+      "tractionScore": 26,
+      "tractionReason": "Private beta, customer count and paid use undisclosed"
     },
     {
       "rank": 164,
@@ -6158,9 +6158,9 @@
         "EXIT": "**Strategic acquisition** is Aviern’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 229,
-      "tractionScore": 5,
-      "tractionReason": "150+ demonstrator miles. No disclosed cargo customers"
+      "tractionRank": 203,
+      "tractionScore": 18,
+      "tractionReason": "150+ cargo demonstrator miles, no disclosed customer orders"
     },
     {
       "rank": 165,
@@ -6193,9 +6193,9 @@
         "EXIT": "Strategic acquisition by a warehouse automation vendor is Deploy’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 201,
-      "tractionScore": 13,
-      "tractionReason": "Packed 800+ pens in booth demo. Customer sites undisclosed"
+      "tractionRank": 200,
+      "tractionScore": 19,
+      "tractionReason": "Trade-show demo packed 800+ pens, customer deployments undisclosed"
     },
     {
       "rank": 166,
@@ -6232,9 +6232,9 @@
         "EXIT": "**Strategic acquisition is the strongest path.** A frontier model lab or training-data supplier could buy Epsilab to secure a reusable library of e..."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 168,
-      "tractionScore": 35,
-      "tractionReason": "Reports working directly with unnamed frontier AI labs"
+      "tractionRank": 128,
+      "tractionScore": 40,
+      "tractionReason": "Direct work with unnamed frontier AI labs, payments undisclosed"
     },
     {
       "rank": 167,
@@ -6271,9 +6271,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 173,
-      "tractionScore": 33,
-      "tractionReason": "Bioprocess simulation collaboration. Customer payments and deployments undisclosed"
+      "tractionRank": 175,
+      "tractionScore": 32,
+      "tractionReason": "Halmos Bio validation release and reported bioprocessing collaboration"
     },
     {
       "rank": 168,
@@ -6308,9 +6308,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 149,
-      "tractionScore": 38,
-      "tractionReason": "Reports testing current product in operating plants with international manufacturers"
+      "tractionRank": 144,
+      "tractionScore": 37,
+      "tractionReason": "Reports testing with manufacturers in operating plants"
     },
     {
       "rank": 169,
@@ -6345,9 +6345,9 @@
         "EXIT": "Strategic acquisition by a legal workflow software vendor is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 144,
-      "tractionScore": 39,
-      "tractionReason": "Reports serving companies on legal matters. Mike-1 preview free"
+      "tractionRank": 121,
+      "tractionScore": 43,
+      "tractionReason": "Reports serving startups and larger companies, paid conversion undisclosed"
     },
     {
       "rank": 170,
@@ -6383,9 +6383,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 128,
-      "tractionScore": 45,
-      "tractionReason": "5.1K GitHub stars and 522 forks. Paid cloud plans offered"
+      "tractionRank": 92,
+      "tractionScore": 49,
+      "tractionReason": "5,100 GitHub stars and 522 forks, cloud revenue undisclosed"
     },
     {
       "rank": 171,
@@ -6422,9 +6422,9 @@
         "EXIT": "Strategic acquisition is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 94,
-      "tractionScore": 54,
-      "tractionReason": "35K weekly npm downloads. Use reported at car dealerships"
+      "tractionRank": 89,
+      "tractionScore": 50,
+      "tractionReason": "35,000 weekly npm downloads, reported dealership and personal-assistant use"
     },
     {
       "rank": 172,
@@ -6459,9 +6459,9 @@
         "EXIT": "Strategic acquisition is Quippy’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 123,
-      "tractionScore": 47,
-      "tractionReason": "10,000+ estimated iOS installs, 92 U.S. ratings, and paid subscriptions offered"
+      "tractionRank": 95,
+      "tractionScore": 49,
+      "tractionReason": "Estimated 10,000+ lifetime iOS installs and 92 U.S. ratings"
     },
     {
       "rank": 173,
@@ -6498,9 +6498,9 @@
         "EXIT": "A **strategic acquisition by an enterprise collaboration or developer-tool vendor** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 179,
-      "tractionScore": 26,
-      "tractionReason": "28 Chrome extension users and three Firefox extension users"
+      "tractionRank": 180,
+      "tractionScore": 29,
+      "tractionReason": "28 Chrome extension users and one named dashboard example"
     },
     {
       "rank": 174,
@@ -6535,9 +6535,9 @@
         "EXIT": "Strategic acquisition is Voyager’s strongest path to private-company liquidity."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 155,
-      "tractionScore": 38,
-      "tractionReason": "1.6K research preview stars and 266 Discord members"
+      "tractionRank": 159,
+      "tractionScore": 35,
+      "tractionReason": "1,600 research-preview repository stars, paid usage undisclosed"
     },
     {
       "rank": 175,
@@ -6573,9 +6573,9 @@
         "EXIT": "The strongest private exit path is a strategic acquisition by a prediction-market exchange."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 41,
-      "tractionScore": 65,
-      "tractionReason": "1,000+ active traders and over $1M in growing weekly trading volume"
+      "tractionRank": 94,
+      "tractionScore": 49,
+      "tractionReason": "1,000+ active traders, $1M+ weekly trading volume"
     },
     {
       "rank": 176,
@@ -6613,8 +6613,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 236,
-      "tractionScore": 0,
-      "tractionReason": "Research-stage efficacy reported. No disclosed commercial traction"
+      "tractionScore": 5,
+      "tractionReason": "Early research results reported, no disclosed commercial engagements"
     },
     {
       "rank": 177,
@@ -6647,9 +6647,9 @@
         "EXIT": "**Strategic acquisition is the strongest path.** A procurement intelligence platform could buy Capveon to connect early infrastructure project sign..."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 199,
-      "tractionScore": 14,
-      "tractionReason": "Current tender product launched. No disclosed paying customers for it"
+      "tractionRank": 197,
+      "tractionScore": 21,
+      "tractionReason": "Current tender product covers 14 countries, paying customers undisclosed"
     },
     {
       "rank": 178,
@@ -6685,9 +6685,9 @@
         "EXIT": "**Strategic acquisition** is the strongest private-company path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 206,
-      "tractionScore": 10,
-      "tractionReason": "Current finance platform announced. No disclosed deployments for it"
+      "tractionRank": 198,
+      "tractionScore": 20,
+      "tractionReason": "Current finance platform publicly introduced, customer adoption undisclosed"
     },
     {
       "rank": 179,
@@ -6724,9 +6724,9 @@
         "EXIT": "A strategic acquisition by a gaming-peripheral maker is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 230,
-      "tractionScore": 5,
-      "tractionReason": "Consumer BCI prototype demonstrated. Product adoption undisclosed"
+      "tractionRank": 204,
+      "tractionScore": 18,
+      "tractionReason": "Consumer prototype demonstrated, sales and customer trials undisclosed"
     },
     {
       "rank": 180,
@@ -6761,9 +6761,9 @@
         "EXIT": "A **strategic acquisition by a multifamily developer** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 156,
-      "tractionScore": 37,
-      "tractionReason": "First Phoenix development site under contract. Development fees undisclosed"
+      "tractionRank": 170,
+      "tractionScore": 33,
+      "tractionReason": "First Phoenix project site under contract, development fees undisclosed"
     },
     {
       "rank": 181,
@@ -6797,9 +6797,9 @@
         "EXIT": "Strategic acquisition is Kiwi’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 185,
-      "tractionScore": 21,
-      "tractionReason": "100+ companies consulted during discovery. No disclosed product adoption"
+      "tractionRank": 193,
+      "tractionScore": 22,
+      "tractionReason": "Consulted 100+ companies during discovery, pilot uptake undisclosed"
     },
     {
       "rank": 182,
@@ -6834,9 +6834,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 51,
-      "tractionScore": 63,
-      "tractionReason": "100+ customers and thousands of pull requests. Paid plans available"
+      "tractionRank": 30,
+      "tractionScore": 65,
+      "tractionReason": "100+ reported customers and thousands of pull requests"
     },
     {
       "rank": 183,
@@ -6872,9 +6872,9 @@
         "EXIT": "A strategic acquisition by a financial decisioning platform is Lyon’s strongest path to private-company liquidity."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 164,
-      "tractionScore": 36,
-      "tractionReason": "Fintech model benchmark and reported insurer engagement. No disclosed revenue"
+      "tractionRank": 165,
+      "tractionScore": 34,
+      "tractionReason": "Unnamed fintech benchmark and reported insurer engagement"
     },
     {
       "rank": 184,
@@ -6909,9 +6909,9 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 129,
-      "tractionScore": 43,
-      "tractionReason": "Reported 73% weekly user growth. One early customer documented"
+      "tractionRank": 132,
+      "tractionScore": 39,
+      "tractionReason": "73% weekly user growth from undisclosed base, one reported customer outcome"
     },
     {
       "rank": 185,
@@ -6946,9 +6946,9 @@
         "EXIT": "**Strategic acquisition** is Vouch’s strongest path in Fall 2026."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 170,
-      "tractionScore": 33,
-      "tractionReason": "27+ fund houses empanelled. App still in early access"
+      "tractionRank": 177,
+      "tractionScore": 31,
+      "tractionReason": "27+ fund houses empanelled, investor adoption undisclosed"
     },
     {
       "rank": 186,
@@ -6982,9 +6982,9 @@
         "EXIT": "Strategic acquisition is ernd’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 57,
-      "tractionScore": 61,
-      "tractionReason": "Three named paying listing partners. Eight partnerships signed in a week"
+      "tractionRank": 35,
+      "tractionScore": 63,
+      "tractionReason": "Three named paying listing partners, eight partners signed in week one"
     },
     {
       "rank": 187,
@@ -7021,9 +7021,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 182,
-      "tractionScore": 23,
-      "tractionReason": "Helios Test waitlist open. Signup count undisclosed"
+      "tractionRank": 183,
+      "tractionScore": 27,
+      "tractionReason": "Current Helios Test waitlist, signup count undisclosed"
     },
     {
       "rank": 188,
@@ -7060,9 +7060,9 @@
         "EXIT": "Strategic acquisition by a defense integrator is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 140,
-      "tractionScore": 39,
-      "tractionReason": "PitchBook lists revenue generation. Marine Corps engagement reported"
+      "tractionRank": 171,
+      "tractionScore": 33,
+      "tractionReason": "Reported Marine Corps engagement, unquantified PitchBook revenue classification"
     },
     {
       "rank": 189,
@@ -7098,9 +7098,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 162,
-      "tractionScore": 36,
-      "tractionReason": "Reports unnamed inference-platform agreements. Live deployments undisclosed"
+      "tractionRank": 169,
+      "tractionScore": 33,
+      "tractionReason": "Unnamed inference-platform agreements, initial go-live unconfirmed"
     },
     {
       "rank": 190,
@@ -7134,9 +7134,9 @@
         "EXIT": "**Strategic acquisition of Melty Gym** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 68,
-      "tractionScore": 60,
-      "tractionReason": "170,000 Mashups players and custom Gym tasks for unnamed teams"
+      "tractionRank": 129,
+      "tractionScore": 39,
+      "tractionReason": "Gym reports building custom training tasks with unnamed teams"
     },
     {
       "rank": 191,
@@ -7173,9 +7173,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 138,
-      "tractionScore": 40,
-      "tractionReason": "63,052 agent turns reported. One disclosed design-partner example"
+      "tractionRank": 153,
+      "tractionScore": 36,
+      "tractionReason": "63,052 reported agent turns and one design-partner example"
     },
     {
       "rank": 192,
@@ -7209,9 +7209,9 @@
         "EXIT": "Strategic acquisition is the strongest private-company path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 151,
-      "tractionScore": 38,
-      "tractionReason": "Faraday CEO identified himself as a customer. One pilot reported"
+      "tractionRank": 145,
+      "tractionScore": 37,
+      "tractionReason": "One self-identified customer and an unnamed pilot partner"
     },
     {
       "rank": 193,
@@ -7245,8 +7245,8 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 222,
-      "tractionScore": 6,
-      "tractionReason": "Public launch. No disclosed regulator deployments or revenue"
+      "tractionScore": 12,
+      "tractionReason": "October 15 launch, regulator customer adoption undisclosed"
     },
     {
       "rank": 194,
@@ -7281,9 +7281,9 @@
         "EXIT": "A strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 209,
-      "tractionScore": 8,
-      "tractionReason": "Current robot policy launched. No disclosed customer deployments for it"
+      "tractionRank": 210,
+      "tractionScore": 16,
+      "tractionReason": "Current robot policy demonstrated, customer adoption undisclosed"
     },
     {
       "rank": 195,
@@ -7319,9 +7319,9 @@
         "EXIT": "A strategic acquisition by a wholesale security-monitoring operator is Synara’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 224,
-      "tractionScore": 6,
-      "tractionReason": "Monitoring platform launched. Customer sites and revenue undisclosed"
+      "tractionRank": 206,
+      "tractionScore": 17,
+      "tractionReason": "Monitoring product launched publicly, customer deployments undisclosed"
     },
     {
       "rank": 196,
@@ -7356,9 +7356,9 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 188,
-      "tractionScore": 17,
-      "tractionReason": "Prior-authorization trial listed. Current billing product adoption undisclosed"
+      "tractionRank": 199,
+      "tractionScore": 20,
+      "tractionReason": "Current billing product has no disclosed sales or deployments"
     },
     {
       "rank": 197,
@@ -7394,9 +7394,9 @@
         "EXIT": "**Strategic acquisition is the strongest path.** An equipment lender could buy Avout to gain control of a borrower origination channel and an under..."
       },
       "memoDate": "2026-11-19",
-      "tractionRank": 134,
-      "tractionScore": 41,
-      "tractionReason": "Arranged $1.5M data-center financing term sheet. Closing undisclosed"
+      "tractionRank": 168,
+      "tractionScore": 34,
+      "tractionReason": "Helped arrange a $1.5M term sheet, closing undisclosed"
     },
     {
       "rank": 198,
@@ -7431,9 +7431,9 @@
         "EXIT": "**Strategic acquisition** is Axiomat’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 212,
-      "tractionScore": 8,
-      "tractionReason": "Public launch. No disclosed customer adoption or revenue"
+      "tractionRank": 218,
+      "tractionScore": 13,
+      "tractionReason": "Public November launch, no disclosed customers or revenue"
     },
     {
       "rank": 199,
@@ -7469,8 +7469,8 @@
       },
       "memoDate": "2026-11-18",
       "tractionRank": 176,
-      "tractionScore": 29,
-      "tractionReason": "Wave Motion demonstration planned. Spacecraft tests with Satlyt and Blackwing pending"
+      "tractionScore": 32,
+      "tractionReason": "Wave Motion demonstration planned, first prototype nearly complete"
     },
     {
       "rank": 200,
@@ -7506,12 +7506,50 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 202,
-      "tractionScore": 12,
-      "tractionReason": "Field demonstration at REACH. Customer deployments undisclosed"
+      "tractionRank": 201,
+      "tractionScore": 19,
+      "tractionReason": "Demonstration at Chula Vista test site, customer orders undisclosed"
     },
     {
       "rank": 201,
+      "name": "Foreshadow Industries",
+      "slug": "foreshadow-industries",
+      "scores": {
+        "AGI": 32,
+        "HG": 36,
+        "EXIT": 38
+      },
+      "tiers": {
+        "AGI": "Pass",
+        "HG": "Pass",
+        "EXIT": "Pass"
+      },
+      "avg": 35.33,
+      "revenue": null,
+      "hasSlide": false,
+      "teamSize": 2,
+      "ycPartner": "Not listed",
+      "oneLiner": "Defense robotics built on AI models that reason over space and time",
+      "industry": "Industrials / Industrials",
+      "location": "Coronado, CA, USA",
+      "tags": [
+        "Robotics",
+        "Defense",
+        "AI",
+        "Industrial"
+      ],
+      "scoreTips": {
+        "AGI": "**Path A — Scarce complements.** Foreshadow’s strongest case is that naval operators seeking longer missions with less crew exposure will need qual...",
+        "HG": "**Path B — Repeatable sales or partner distribution with account expansion.** Naval fleet operators are the clearest first buyer.",
+        "EXIT": "Strategic acquisition is the strongest path."
+      },
+      "memoDate": "2026-11-19",
+      "tractionRank": 139,
+      "tractionScore": 38,
+      "tractionReason": "Three reported integrations, customer payments undisclosed"
+    },
+    {
+      "rank": 202,
       "name": "Rhem Labs",
       "slug": "rhem-labs",
       "scores": {
@@ -7543,12 +7581,12 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 161,
-      "tractionScore": 37,
-      "tractionReason": "One user testimonial. Hardware preorder volume undisclosed"
+      "tractionRank": 154,
+      "tractionScore": 36,
+      "tractionReason": "One named user testimonial, preorder volume undisclosed"
     },
     {
-      "rank": 202,
+      "rank": 203,
       "name": "River",
       "slug": "rivereditor",
       "scores": {
@@ -7579,12 +7617,12 @@
         "EXIT": "Strategic acquisition is River’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 34,
-      "tractionScore": 66,
-      "tractionReason": "100,000+ creators reported, with 130,000 agents created by July"
+      "tractionRank": 48,
+      "tractionScore": 59,
+      "tractionReason": "100,000+ creators reported, up from 75,000 users in September"
     },
     {
-      "rank": 203,
+      "rank": 204,
       "name": "Routant",
       "slug": "routant",
       "scores": {
@@ -7617,11 +7655,11 @@
       },
       "memoDate": "2026-11-17",
       "tractionRank": 223,
-      "tractionScore": 6,
-      "tractionReason": "Public launch. No disclosed product users or customer revenue"
+      "tractionScore": 12,
+      "tractionReason": "Public YC launch, no disclosed deployments or revenue"
     },
     {
-      "rank": 204,
+      "rank": 205,
       "name": "Audora",
       "slug": "audora",
       "scores": {
@@ -7653,12 +7691,12 @@
         "EXIT": "The strongest path is a **strategic acquisition by an audiobook distributor**."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 110,
-      "tractionScore": 51,
-      "tractionReason": "10,000 readers and authors waitlisted with paid conversions undisclosed"
+      "tractionRank": 96,
+      "tractionScore": 48,
+      "tractionReason": "10,000 waitlisted readers and authors, paid conversion undisclosed"
     },
     {
-      "rank": 205,
+      "rank": 206,
       "name": "Caladh",
       "slug": "caladh",
       "scores": {
@@ -7692,12 +7730,12 @@
         "EXIT": "Strategic acquisition is Caladh’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 226,
-      "tractionScore": 6,
-      "tractionReason": "Launched publicly. No disclosed customer commitments or revenue"
+      "tractionRank": 227,
+      "tractionScore": 10,
+      "tractionReason": "Public launch, no disclosed customers or orders"
     },
     {
-      "rank": 206,
+      "rank": 207,
       "name": "Confetti",
       "slug": "confetti",
       "scores": {
@@ -7731,12 +7769,12 @@
         "EXIT": "**Strategic acquisition by a fabrication marketplace** is Confetti’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 178,
-      "tractionScore": 27,
-      "tractionReason": "36 public design pages and 70 Discord members"
+      "tractionRank": 179,
+      "tractionScore": 30,
+      "tractionReason": "36 public design pages and 70 reported Discord members"
     },
     {
-      "rank": 207,
+      "rank": 208,
       "name": "FlashDrive",
       "slug": "flashdrive",
       "scores": {
@@ -7770,12 +7808,12 @@
         "EXIT": "Strategic acquisition is FlashDrive’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 186,
-      "tractionScore": 20,
-      "tractionReason": "Free early access and 1,500 X followers. User adoption undisclosed"
+      "tractionRank": 196,
+      "tractionScore": 21,
+      "tractionReason": "Current shared drive launched with free early access, adoption undisclosed"
     },
     {
-      "rank": 208,
+      "rank": 209,
       "name": "Hundred",
       "slug": "hundred",
       "scores": {
@@ -7809,12 +7847,12 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 220,
-      "tractionScore": 6,
-      "tractionReason": "Launched inspection product. No disclosed customer adoption"
+      "tractionRank": 221,
+      "tractionScore": 12,
+      "tractionReason": "Inspection product announced, customer deployments undisclosed"
     },
     {
-      "rank": 209,
+      "rank": 210,
       "name": "HyperBench",
       "slug": "hyperbench",
       "scores": {
@@ -7846,12 +7884,12 @@
         "EXIT": "Strategic acquisition by a hardware-test automation platform is HyperBench’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 192,
-      "tractionScore": 17,
-      "tractionReason": "Private beta announced. No disclosed beta users or payments"
+      "tractionRank": 187,
+      "tractionScore": 26,
+      "tractionReason": "Private beta launched November 11, participant count undisclosed"
     },
     {
-      "rank": 210,
+      "rank": 211,
       "name": "Inflection Space Systems",
       "slug": "inflection-space-systems",
       "scores": {
@@ -7885,12 +7923,12 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 196,
-      "tractionScore": 15,
-      "tractionReason": "First launch booked for 2028. Spacecraft customer orders undisclosed"
+      "tractionRank": 172,
+      "tractionScore": 33,
+      "tractionReason": "First launch booked for 2028, customer orders undisclosed"
     },
     {
-      "rank": 211,
+      "rank": 212,
       "name": "Limnion",
       "slug": "limnion",
       "scores": {
@@ -7922,12 +7960,12 @@
         "EXIT": "Strategic acquisition is Limnion’s strongest private exit path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 174,
-      "tractionScore": 33,
-      "tractionReason": "854 GitHub stars and 11 forks for free self-hosted Siglake"
+      "tractionRank": 161,
+      "tractionScore": 35,
+      "tractionReason": "Siglake has 854 GitHub stars and 11 forks"
     },
     {
-      "rank": 212,
+      "rank": 213,
       "name": "Outworld Labs",
       "slug": "outworld-labs",
       "scores": {
@@ -7957,12 +7995,12 @@
         "EXIT": "The strongest path is a strategic acquisition by a robotics foundation-model developer or simulation platform."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 215,
-      "tractionScore": 7,
-      "tractionReason": "Horizon simulation launched. Commercial deployments undisclosed"
+      "tractionRank": 209,
+      "tractionScore": 16,
+      "tractionReason": "Horizon simulation demo released, customer deployments undisclosed"
     },
     {
-      "rank": 213,
+      "rank": 214,
       "name": "Raven",
       "slug": "ravenphone",
       "scores": {
@@ -7993,12 +8031,12 @@
         "EXIT": "Raven’s strongest path is a private strategic acquisition by a handset maker."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 166,
-      "tractionScore": 36,
-      "tractionReason": "1,000+ inbound contacts and first test handsets delivered"
+      "tractionRank": 143,
+      "tractionScore": 37,
+      "tractionReason": "1,000+ inbound contacts, first test handsets delivered"
     },
     {
-      "rank": 214,
+      "rank": 215,
       "name": "ChampionEffect Inc.",
       "slug": "championeffect-inc",
       "scores": {
@@ -8030,12 +8068,12 @@
         "EXIT": "The strongest path is a strategic acquisition by an enterprise digital-adoption vendor such as SAP WalkMe."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 231,
-      "tractionScore": 5,
-      "tractionReason": "Launch reported. No disclosed users, customers, or revenue"
+      "tractionRank": 234,
+      "tractionScore": 7,
+      "tractionReason": "Launch reported, no disclosed customers, usage, or revenue"
     },
     {
-      "rank": 215,
+      "rank": 216,
       "name": "Nines",
       "slug": "nines",
       "scores": {
@@ -8066,12 +8104,12 @@
         "EXIT": "**Strategic acquisition** is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 217,
-      "tractionScore": 7,
-      "tractionReason": "Public robotics launch. No disclosed deployments or revenue"
+      "tractionRank": 207,
+      "tractionScore": 17,
+      "tractionReason": "Data-center robotics launch, orders and pilots undisclosed"
     },
     {
-      "rank": 216,
+      "rank": 217,
       "name": "Nitroduck",
       "slug": "nitroduck",
       "scores": {
@@ -8103,12 +8141,12 @@
         "EXIT": "**Strategic acquisition by a specialty-crop breeder** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 225,
-      "tractionScore": 6,
-      "tractionReason": "Crop-editing product announced. No disclosed commercial customers"
+      "tractionRank": 226,
+      "tractionScore": 10,
+      "tractionReason": "Crop-editing offering announced, no disclosed customers or revenue"
     },
     {
-      "rank": 217,
+      "rank": 218,
       "name": "OpenCrawl",
       "slug": "opencrawl",
       "scores": {
@@ -8141,12 +8179,12 @@
         "EXIT": "The strongest path is a private strategic acquisition by a coding-agent platform."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 177,
-      "tractionScore": 28,
-      "tractionReason": "Early onboarding reported and 57 GitHub stars"
+      "tractionRank": 178,
+      "tractionScore": 31,
+      "tractionReason": "Current product onboarding reported, 57 GitHub stars"
     },
     {
-      "rank": 218,
+      "rank": 219,
       "name": "Petrichor",
       "slug": "petrichor",
       "scores": {
@@ -8177,12 +8215,12 @@
         "EXIT": "Strategic acquisition by a frontier AI lab is Petrichor’s strongest path to investor cash."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 214,
-      "tractionScore": 7,
-      "tractionReason": "Wet-lab service launched. No disclosed buyers or revenue"
+      "tractionRank": 224,
+      "tractionScore": 11,
+      "tractionReason": "Wet-lab service announced, no disclosed customers or revenue"
     },
     {
-      "rank": 219,
+      "rank": 220,
       "name": "Versine",
       "slug": "versine",
       "scores": {
@@ -8216,12 +8254,12 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 181,
-      "tractionScore": 23,
-      "tractionReason": "5+ Android downloads at payments launch. Transaction activity undisclosed"
+      "tractionRank": 188,
+      "tractionScore": 25,
+      "tractionReason": "Five or more Android downloads, transaction activity undisclosed"
     },
     {
-      "rank": 220,
+      "rank": 221,
       "name": "Volaren",
       "slug": "volaren",
       "scores": {
@@ -8254,12 +8292,12 @@
         "EXIT": "Strategic acquisition by a retail brokerage is Volaren’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 146,
-      "tractionScore": 39,
-      "tractionReason": "950+ funds and traders claimed. Activity and payment status undisclosed"
+      "tractionRank": 157,
+      "tractionScore": 35,
+      "tractionReason": "950+ funds and traders claimed, activity and paid share undisclosed"
     },
     {
-      "rank": 221,
+      "rank": 222,
       "name": "Contour",
       "slug": "contourholdings",
       "scores": {
@@ -8290,12 +8328,12 @@
         "EXIT": "A private strategic acquisition by an environmental consulting consolidator is Contour’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 221,
-      "tractionScore": 6,
-      "tractionReason": "Public permitting product launch. No disclosed customers or revenue"
+      "tractionRank": 220,
+      "tractionScore": 13,
+      "tractionReason": "November 17 launch, no disclosed customers or revenue"
     },
     {
-      "rank": 222,
+      "rank": 223,
       "name": "Cyclon",
       "slug": "cyclon",
       "scores": {
@@ -8329,12 +8367,12 @@
         "EXIT": "**Strategic acquisition is the strongest path.** An Android handset maker could pay for Cyclon’s OS and agent software if owning it would give the ..."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 189,
-      "tractionScore": 17,
-      "tractionReason": "Refundable $199 reservations offered. Reservation count undisclosed"
+      "tractionRank": 190,
+      "tractionScore": 23,
+      "tractionReason": "Refundable reservation offered, reservation count undisclosed"
     },
     {
-      "rank": 223,
+      "rank": 224,
       "name": "Hue",
       "slug": "hue",
       "scores": {
@@ -8366,12 +8404,12 @@
         "EXIT": "Strategic acquisition is Hue’s strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 92,
-      "tractionScore": 55,
-      "tractionReason": "69K weekly SDK downloads. Paid subscriptions offered"
+      "tractionRank": 91,
+      "tractionScore": 49,
+      "tractionReason": "69,000 weekly SDK downloads, paid usage undisclosed"
     },
     {
-      "rank": 224,
+      "rank": 225,
       "name": "Lux Foods",
       "slug": "lux-foods",
       "scores": {
@@ -8405,12 +8443,12 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 232,
-      "tractionScore": 4,
-      "tractionReason": "First farm under development. No disclosed sales or buyers"
+      "tractionRank": 230,
+      "tractionScore": 9,
+      "tractionReason": "First farm under development, no disclosed orders or sales"
     },
     {
-      "rank": 225,
+      "rank": 226,
       "name": "Metalcraft",
       "slug": "metalcraft",
       "scores": {
@@ -8442,12 +8480,12 @@
         "EXIT": "A strategic acquisition by a life-science model developer is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 219,
-      "tractionScore": 6,
-      "tractionReason": "Released six tasksets. No disclosed user adoption or revenue"
+      "tractionRank": 215,
+      "tractionScore": 14,
+      "tractionReason": "Six current-product tasksets published, customer use undisclosed"
     },
     {
-      "rank": 226,
+      "rank": 227,
       "name": "Ploid",
       "slug": "ploid",
       "scores": {
@@ -8479,12 +8517,12 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 60,
-      "tractionScore": 61,
-      "tractionReason": "Thousands of companies reported using Ploid. Founder reports closing clients"
+      "tractionRank": 44,
+      "tractionScore": 60,
+      "tractionReason": "Thousands of companies reportedly using product, founder reports closed clients"
     },
     {
-      "rank": 227,
+      "rank": 228,
       "name": "Reconero",
       "slug": "reconero",
       "scores": {
@@ -8517,12 +8555,12 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 187,
-      "tractionScore": 20,
-      "tractionReason": "100+ officers consulted during product development. Current adoption undisclosed"
+      "tractionRank": 182,
+      "tractionScore": 28,
+      "tractionReason": "100+ officer interviews, earlier beta tested by several police units"
     },
     {
-      "rank": 228,
+      "rank": 229,
       "name": "STASIS",
       "slug": "stasis",
       "scores": {
@@ -8555,12 +8593,12 @@
         "EXIT": "Strategic acquisition by an eyewear or smart-glasses maker is the strongest private-company path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 190,
-      "tractionScore": 17,
-      "tractionReason": "Refundable $99 reservations opened. Reservation count undisclosed"
+      "tractionRank": 191,
+      "tractionScore": 23,
+      "tractionReason": "Reservations opened November 9, deposit count undisclosed"
     },
     {
-      "rank": 229,
+      "rank": 230,
       "name": "Hickory & Company",
       "slug": "hickory-and-company",
       "scores": {
@@ -8592,12 +8630,12 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 216,
-      "tractionScore": 7,
-      "tractionReason": "Public compliance product launch. No disclosed customers"
+      "tractionRank": 219,
+      "tractionScore": 13,
+      "tractionReason": "October 30 launch, no disclosed bank deployments"
     },
     {
-      "rank": 230,
+      "rank": 231,
       "name": "Proto",
       "slug": "proto",
       "scores": {
@@ -8629,12 +8667,12 @@
         "EXIT": "Strategic acquisition is Proto’s strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 191,
-      "tractionScore": 17,
-      "tractionReason": "Early access open. No disclosed user counts or revenue"
+      "tractionRank": 186,
+      "tractionScore": 26,
+      "tractionReason": "Early access opened November 6, adoption undisclosed"
     },
     {
-      "rank": 231,
+      "rank": 232,
       "name": "Kailash Labs",
       "slug": "kailash-labs",
       "scores": {
@@ -8665,12 +8703,12 @@
         "EXIT": "**Strategic acquisition by an industrial automation integrator** is the strongest path."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 197,
-      "tractionScore": 15,
-      "tractionReason": "Robot-station pilot bookings open. No disclosed bookings taken"
+      "tractionRank": 194,
+      "tractionScore": 22,
+      "tractionReason": "Current robot-station pilot bookings open, signed pilots undisclosed"
     },
     {
-      "rank": 232,
+      "rank": 233,
       "name": "Mnemonic Labs",
       "slug": "mnemonic-labs",
       "scores": {
@@ -8700,12 +8738,12 @@
         "EXIT": "Strategic acquisition is the strongest conditional path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 208,
-      "tractionScore": 8,
-      "tractionReason": "Quant model launched. No disclosed customer use or revenue"
+      "tractionRank": 214,
+      "tractionScore": 15,
+      "tractionReason": "Financial modeling launch and training run, customer use undisclosed"
     },
     {
-      "rank": 233,
+      "rank": 234,
       "name": "Nxtcure Labs",
       "slug": "nxtcure-labs",
       "scores": {
@@ -8736,12 +8774,12 @@
         "EXIT": "The strongest path is a strategic acquisition by an established CRO."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 203,
-      "tractionScore": 12,
-      "tractionReason": "GalenOps demo available. Current-product pilots or sales undisclosed"
+      "tractionRank": 229,
+      "tractionScore": 9,
+      "tractionReason": "Current GalenOps product demonstrated, no disclosed commercial engagements"
     },
     {
-      "rank": 234,
+      "rank": 235,
       "name": "Perceptual Labs",
       "slug": "perceptual-labs",
       "scores": {
@@ -8772,12 +8810,12 @@
         "EXIT": "Strategic acquisition is the strongest path."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 193,
-      "tractionScore": 17,
-      "tractionReason": "Current product opened a waitlist. Signup count undisclosed"
+      "tractionRank": 184,
+      "tractionScore": 27,
+      "tractionReason": "Current weight-editing offering opened an unquantified early-access waitlist"
     },
     {
-      "rank": 235,
+      "rank": 236,
       "name": "Topos",
       "slug": "topos",
       "scores": {
@@ -8808,12 +8846,12 @@
         "EXIT": "Strategic acquisition is the strongest private-company path for Topos in Fall 2026."
       },
       "memoDate": "2026-11-18",
-      "tractionRank": 204,
-      "tractionScore": 12,
-      "tractionReason": "Research beta accepting requests. No disclosed users"
+      "tractionRank": 232,
+      "tractionScore": 9,
+      "tractionReason": "Research beta accepts access requests, uptake undisclosed"
     },
     {
-      "rank": 236,
+      "rank": 237,
       "name": "Polemos Industries",
       "slug": "polemos-industries",
       "scores": {
@@ -8844,9 +8882,9 @@
         "EXIT": "A domestic strategic acquisition is the strongest hypothesis."
       },
       "memoDate": "2026-11-17",
-      "tractionRank": 233,
-      "tractionScore": 4,
-      "tractionReason": "Product announced. No disclosed customer orders or revenue"
+      "tractionRank": 228,
+      "tractionScore": 10,
+      "tractionReason": "November launch announcement, no disclosed customers or contracts"
     }
   ],
   "disagreements": [],
@@ -9812,6 +9850,11 @@
       "range": 2
     },
     {
+      "company": "Foreshadow Industries",
+      "avg": 35.33,
+      "range": 6
+    },
+    {
       "company": "Rhem Labs",
       "avg": 35.33,
       "range": 1
@@ -9998,7 +10041,7 @@
       "values": {
         "AGI": null,
         "HG": 0.51,
-        "EXIT": 0.64
+        "EXIT": 0.63
       }
     },
     {
@@ -10012,7 +10055,7 @@
     {
       "evaluator": "EXIT",
       "values": {
-        "AGI": 0.64,
+        "AGI": 0.63,
         "HG": 0.39,
         "EXIT": null
       }

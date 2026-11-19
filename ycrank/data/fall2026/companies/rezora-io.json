@@ -43,9 +43,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 53,
-    "tractionReason": "Current platform booked 1,000 meetings. Named customer Jose Toro used it"
+    "tractionRank": 131,
+    "tractionScore": 39,
+    "tractionReason": "1,000 meetings booked through current platform, named customer testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/rezora-io.md",

@@ -40,9 +40,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 185,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 33,
-    "tractionReason": "27+ fund houses empanelled. App still in early access"
+    "tractionRank": 177,
+    "tractionScore": 31,
+    "tractionReason": "27+ fund houses empanelled, investor adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/vouchwealth.md",

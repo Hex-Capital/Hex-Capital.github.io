@@ -42,9 +42,9 @@
   "consolidatedAvg": 43.33,
   "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 60,
-    "tractionReason": "About 750 preorders backed by $150K in refundable deposits"
+    "tractionRank": 58,
+    "tractionScore": 57,
+    "tractionReason": "Roughly 750 paid preorders and $150K in refundable deposits"
   },
   "paths": {
     "memo": "fall2026/memos/the-subvocal-company.md",

@@ -41,11 +41,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 205,
+  "consolidatedRank": 206,
   "traction": {
-    "tractionRank": 226,
-    "tractionScore": 6,
-    "tractionReason": "Launched publicly. No disclosed customer commitments or revenue"
+    "tractionRank": 227,
+    "tractionScore": 10,
+    "tractionReason": "Public launch, no disclosed customers or orders"
   },
   "paths": {
     "memo": "fall2026/memos/caladh.md",

@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 123,
-    "tractionScore": 47,
-    "tractionReason": "10,000+ estimated iOS installs, 92 U.S. ratings, and paid subscriptions offered"
+    "tractionRank": 95,
+    "tractionScore": 49,
+    "tractionReason": "Estimated 10,000+ lifetime iOS installs and 92 U.S. ratings"
   },
   "paths": {
     "memo": "fall2026/memos/quippy.md",

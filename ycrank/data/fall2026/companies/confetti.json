@@ -42,11 +42,11 @@
     "EXIT": 31
   },
   "consolidatedAvg": 35,
-  "consolidatedRank": 206,
+  "consolidatedRank": 207,
   "traction": {
-    "tractionRank": 178,
-    "tractionScore": 27,
-    "tractionReason": "36 public design pages and 70 Discord members"
+    "tractionRank": 179,
+    "tractionScore": 30,
+    "tractionReason": "36 public design pages and 70 reported Discord members"
   },
   "paths": {
     "memo": "fall2026/memos/confetti.md",

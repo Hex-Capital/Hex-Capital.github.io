@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 39,
-    "tractionReason": "Founder reports one customer deployment involving a legacy system"
+    "tractionRank": 152,
+    "tractionScore": 36,
+    "tractionReason": "One unnamed industrial customer deployment reported"
   },
   "paths": {
     "memo": "fall2026/memos/faraday.md",

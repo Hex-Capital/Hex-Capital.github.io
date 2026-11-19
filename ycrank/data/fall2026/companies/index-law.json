@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 39,
-    "tractionReason": "Reports serving companies on legal matters. Mike-1 preview free"
+    "tractionRank": 121,
+    "tractionScore": 43,
+    "tractionReason": "Reports serving startups and larger companies, paid conversion undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/index-law.md",

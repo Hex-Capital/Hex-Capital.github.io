@@ -44,9 +44,9 @@
   "consolidatedAvg": 37.33,
   "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 147,
+    "tractionRank": 142,
     "tractionScore": 38,
-    "tractionReason": "Prototypes distributed to refundable preorder customers. Order count undisclosed"
+    "tractionReason": "Prototypes reached preorder customers, refundable order count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/vexo.md",

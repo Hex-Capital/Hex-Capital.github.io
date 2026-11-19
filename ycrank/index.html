@@ -113,31 +113,37 @@
       class="sticky-search flex items-center gap-2 py-2"
       :class="{ 'border-b border-claude-border': view === 'company' }"
       @click.outside="acOpen = false">
-      <span class="text-claude-dim text-sm font-mono">&gt;&gt;</span>
-      <div class="relative flex-1 min-w-0 sm:w-56 sm:flex-none">
-        <input type="text" x-model.debounce.150ms="search" placeholder="search..." aria-label="Search companies"
+      <span class="text-claude-dim text-sm font-mono hidden sm:inline" aria-hidden="true">&gt;&gt;</span>
+      <div class="company-search-field relative flex-1 min-w-0 sm:w-56 sm:flex-none" :class="{ 'has-search-text': search }">
+        <input x-ref="companySearch" type="text" x-model.debounce.150ms="search" placeholder="Search companies" aria-label="Search companies"
+          role="combobox" autocomplete="off" aria-autocomplete="list" aria-controls="company-search-results"
+          :aria-expanded="acOpen && autocompleteResults.length > 0"
+          :aria-activedescendant="acOpen && autocompleteResults[acIndex] ? 'company-search-option-' + acIndex : null"
           @focus="if (search) acOpen = true"
           @keydown="handleSearchKeydown($event)"
           class="bg-claude-bg border border-claude-border text-claude-text px-2 py-1 text-sm w-full focus:outline-none focus:border-claude-orange rounded-none placeholder-claude-dim font-mono">
-        <button x-show="search" @click="search = ''" class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
+        <button type="button" aria-label="Clear company search" x-show="search" @click="search = ''; $refs.companySearch.focus()"
+          class="search-clear-btn absolute right-1.5 top-1/2 -translate-y-1/2 sm:hidden">&times;</button>
         <!-- Autocomplete dropdown -->
-        <div x-show="acOpen && autocompleteResults.length > 0" class="ac-dropdown">
+        <div id="company-search-results" role="listbox" aria-label="Company suggestions"
+          x-show="acOpen && autocompleteResults.length > 0" class="ac-dropdown">
           <template x-for="(r, i) in autocompleteResults" :key="r.slug">
-            <div class="ac-item" :class="{ 'ac-item-active': i === acIndex }"
+            <div role="option" :id="'company-search-option-' + i" :aria-selected="i === acIndex"
+              class="ac-item" :class="{ 'ac-item-active': i === acIndex }"
               @mouseenter="acIndex = i"
-              @mousedown.prevent="selectAutocomplete(r.slug)">
+              @mousedown.prevent @click="selectAutocomplete(r.slug)">
               <span class="ac-item-name" x-text="r.name"></span>
-              <span class="ac-item-score" :class="avgColor(r.avg)" x-text="r.avg != null ? r.avg.toFixed(1) : '-'"></span>
+              <span class="ac-item-score hidden sm:inline" :class="avgColor(r.avg)" x-text="r.avg != null ? r.avg.toFixed(1) : '-'"></span>
             </div>
           </template>
         </div>
       </div>
       <template x-if="view === 'dashboard'">
-        <div class="flex items-center gap-2">
+        <div class="company-search-meta flex items-center gap-2">
           <span class="text-claude-border hidden sm:inline">|</span>
           <span class="text-claude-dim text-sm" x-text="filteredTable.length + '/' + (manifest ? manifest.table.length : 0) + ' companies'"></span>
           <span class="text-claude-border hidden sm:inline">|</span>
-          <button @click="watchlistFilter = !watchlistFilter" x-show="!staticMode"
+          <button type="button" @click="watchlistFilter = !watchlistFilter; acOpen = false" :aria-pressed="watchlistFilter" x-show="!staticMode"
             :class="watchlistFilter ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
             class="text-sm transition-colors whitespace-nowrap">
             <span x-text="watchlistFilter ? '\u2605 Watchlist' : '\u2606 Watchlist'"></span>
@@ -145,10 +151,11 @@
         </div>
       </template>
       <template x-if="view === 'company' && companyData">
-        <div class="flex items-center gap-2 sm:gap-3 text-sm ml-auto">
+        <div class="company-browse-controls flex items-center gap-2 sm:gap-3 text-sm ml-auto">
+          <a href="#dashboard" @click.prevent="navigate('dashboard')" class="sm:hidden mr-auto">‹ Companies</a>
           <button @click="prevCompany()" :disabled="!hasPrevCompany()"
             :class="hasPrevCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'">&lt;- Prev</button>
-          <span class="text-claude-orange" x-text="'#' + (companyData.consolidatedRank || '?')"></span>
+          <span class="text-claude-orange hidden sm:inline" x-show="companyData.consolidatedRank" x-text="'#' + companyData.consolidatedRank"></span>
           <button @click="nextCompany()" :disabled="!hasNextCompany()"
             :class="hasNextCompany() ? 'text-claude-text hover:text-claude-orange' : 'text-claude-dim cursor-not-allowed'">Next -&gt;</button>
         </div>
@@ -202,7 +209,7 @@
           <template x-for="row in filteredTable" :key="row.slug">
             <tbody>
               <tr class="border-b border-claude-border hover:bg-claude-panel cursor-pointer transition-colors"
-                @click="row.slug && navigate('company/' + row.slug)">
+                @click="row.slug && openCompany(row.slug)">
                 <td class="px-1 py-1 text-center border border-claude-border" x-show="!staticMode"
                     @click.stop="toggleWatchlist(row.slug, $event)">
                   <span :class="isWatchlisted(row.slug) ? 'text-claude-amber' : 'text-claude-dim hover:text-claude-amber'"
@@ -251,32 +258,39 @@
       <!-- Mobile company list -->
       <template x-if="mobileLayout && view === 'dashboard' && !loading && !noBuildData">
         <section class="mobile-company-list" aria-label="Companies"
-          :class="{ 'mobile-company-list-no-scores': !evaluators.length }">
-          <div class="mobile-company-grid mobile-company-columns" aria-label="Sort companies">
-            <button type="button" @click="sortBy('name')" :aria-pressed="sortCol === 'name'">Company</button>
-            <template x-for="thesis in evaluators" :key="thesis.slug">
-              <button type="button" @click="sortBy(thesis.abbr)" :aria-pressed="sortCol === thesis.abbr"
-                :aria-label="'Sort by ' + thesis.fullName">
-                <span class="mobile-thesis-label" x-text="thesis.fullName"></span>
-                <span class="mobile-thesis-abbr" x-text="thesis.abbr === 'EXIT' ? 'Exit' : thesis.abbr"></span>
-              </button>
+          :style="{ '--score-columns': mobileEvaluators.length ? 'repeat(' + mobileEvaluators.length + ', clamp(1.55rem, 7.6vw, 2.25rem))' : '', '--traction-column': hasMobileTraction ? 'clamp(2.9rem, 12vw, 3.5rem)' : '' }">
+          <label class="mobile-company-sort">Sort by
+            <select :value="sortCol + ':' + sortDir" @change="selectMobileSort($event.target.value); $event.target.blur()">
+              <template x-for="[value, label] in mobileSortOptions" :key="value">
+                <option :value="value" :selected="value === sortCol + ':' + sortDir" x-text="label"></option>
+              </template>
+            </select>
+          </label>
+          <div class="mobile-company-grid mobile-company-columns" aria-hidden="true">
+            <span>Company</span>
+            <template x-for="thesis in mobileEvaluators" :key="thesis.slug">
+              <span :title="thesis.fullName" x-text="thesis.abbr === 'EXIT' ? 'Exit' : thesis.abbr"></span>
             </template>
-            <button type="button" @click="sortBy('tractionRank')" :aria-pressed="sortCol === 'tractionRank'"
-              aria-label="Sort by traction rank"><span class="mobile-traction-label">Traction</span><span class="mobile-traction-abbr">Trac.</span><span aria-hidden="true" x-show="sortCol === 'tractionRank'" x-text="sortDir === 1 ? '↑' : '↓'"></span></button>
+            <template x-if="hasMobileTraction"><span>Traction</span></template>
           </div>
 
           <template x-for="row in filteredTable" :key="row.slug">
             <article class="mobile-company-card" :class="{ 'is-expanded': expandedCompanySlug === row.slug }">
-              <a class="mobile-company-memo" :href="'#company/' + row.slug"
-                :aria-label="'Open ' + row.name + ' memo'">
+              <a class="mobile-company-memo" :href="companyHash(row.slug)" :id="'mobile-company-' + row.slug"
+                @click="followCompanyLink($event, row.slug)"
+                :aria-label="'Open ' + row.name + ' memo'" :aria-describedby="'mobile-company-scores-' + row.slug">
                 <div class="mobile-company-grid mobile-company-summary">
                   <h2 class="mobile-company-name" x-text="row.name"></h2>
-                  <template x-for="thesis in evaluators" :key="thesis.slug">
+                  <template x-for="thesis in mobileEvaluators" :key="thesis.slug">
                     <span class="mobile-company-number" :class="tierColor(row.tiers?.[thesis.abbr]).split(' ')[0]"
                       x-text="row.scores?.[thesis.abbr] ?? '–'"></span>
                   </template>
-                  <span class="mobile-company-number" x-text="row.tractionRank == null ? '–' : '#' + row.tractionRank"></span>
+                  <template x-if="hasMobileTraction">
+                    <span class="mobile-company-number" x-text="row.tractionRank == null ? '–' : '#' + row.tractionRank"></span>
+                  </template>
                 </div>
+                <span class="sr-only" :id="'mobile-company-scores-' + row.slug"
+                  x-text="[...mobileEvaluators.map(thesis => thesis.fullName + ': ' + (row.scores?.[thesis.abbr] ?? 'Unavailable')), hasMobileTraction && 'Traction rank: ' + (row.tractionRank ?? 'Unavailable')].filter(Boolean).join('. ')"></span>
                 <p class="mobile-company-description" x-show="row.oneLiner" x-text="row.oneLiner"></p>
 
                 <template x-if="expandedCompanySlug === row.slug">
@@ -312,6 +326,10 @@
 
     <!-- Company Detail View -->
     <div x-show="view === 'company' && !loading" x-cloak>
+      <div x-show="companyError" class="py-6 text-sm">
+        <p role="alert" x-text="companyError"></p>
+        <a class="inline-block py-3 text-claude-orange" href="#dashboard">‹ Companies</a>
+      </div>
       <template x-if="companyData">
         <div>
           <div class="company-details">
@@ -326,7 +344,7 @@
                     class="text-xl transition-colors cursor-pointer"
                     x-text="isWatchlisted(companyData.slug) ? '\u2605' : '\u2606'"></button>
                 </div>
-                <p class="text-claude-dim text-sm mt-0.5" x-text="companyData.oneLiner"></p>
+                <p class="company-detail-description text-claude-dim text-sm mt-0.5" x-text="companyData.oneLiner"></p>
                 <template x-if="isDisagreement(companyData?.name)">
                   <p class="text-claude-red text-xs mt-1" x-text="'Key tension: ' + getKeyTension(companyData?.name)"></p>
                 </template>
@@ -356,7 +374,7 @@
                 </button>
               </div>
             </div>
-            <div class="flex flex-wrap gap-1.5 mt-2">
+            <div class="company-detail-meta hidden sm:flex flex-wrap gap-1.5 mt-2">
               <template x-if="companyData.metadata.website">
                 <a :href="companyData.metadata.website" target="_blank" rel="noopener"
                   class="text-xs border border-claude-blue text-claude-blue px-1.5 py-0.5 rounded-none hover:bg-claude-blue hover:text-claude-bg truncate max-w-[200px] sm:max-w-xs inline-block" x-text="companyData.metadata.website"></a>
@@ -371,13 +389,13 @@
           </div>
 
           <!-- Score Summary -->
-          <div class="mb-4">
-            <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
+          <div class="hidden sm:block mb-4">
+            <div class="grid grid-cols-4 gap-1.5">
               <template x-for="p in evaluators" :key="p.slug">
                 <div class="score-card p-1.5 text-center"
                   :class="{ 'cursor-pointer': companyData.paths.evals[p.slug], 'score-card-active': activeTab === p.slug }"
                   :title="getScoreTip(companyData.slug, p.abbr)"
-                  @click="companyData.paths.evals[p.slug] && loadTabContent(p.slug)">
+                  @click="companyData.paths.evals[p.slug] && selectCompanyTab(p.slug)">
                   <div class="text-xs text-claude-dim truncate" x-text="p.fullName"></div>
                   <div class="text-lg font-bold tabular-nums" :class="tierColor(companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : null)"
                     x-text="companyData.consolidatedScores[p.abbr] != null ? companyData.consolidatedScores[p.abbr] : '-'"></div>
@@ -395,7 +413,7 @@
           </div>
 
           <!-- Demo Day Slide -->
-          <div class="mb-4">
+          <div class="mb-4" :class="{ 'hidden sm:block': !companyData.slideImage }">
             <template x-if="companyData.slideImage">
               <div class="border border-claude-border overflow-hidden max-w-4xl mx-auto">
                 <img :src="(staticMode ? '' : '../') + companyData.slideImage" :alt="companyData.name + ' demo day slide'"
@@ -411,22 +429,29 @@
 
           <!-- Tabbed Content: Memo + Evals -->
           <div class="mb-4">
-            <div class="flex border-b border-claude-border overflow-x-auto" role="tablist" aria-label="Company data tabs">
-              <button @click="loadTabContent('memo')" role="tab"
+            <div class="company-data-tabs flex border-b border-claude-border" role="tablist" aria-label="Company data tabs"
+              @keydown="handleCompanyTabsKeydown($event)">
+              <button type="button" @click="selectCompanyTab('memo')" role="tab" id="company-tab-memo" aria-controls="company-tab-panel"
+                :tabindex="activeTab === 'memo' ? 0 : -1"
                 :aria-selected="activeTab === 'memo'"
                 :class="activeTab === 'memo' ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
                 class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0">Memo</button>
-              <template x-for="p in evaluators" :key="p.slug">
-                <button @click="loadTabContent(p.slug)" role="tab"
+              <template x-for="p in evaluators.filter(thesis => companyData.paths.evals[thesis.slug])" :key="p.slug">
+                <button type="button" @click="selectCompanyTab(p.slug)" role="tab" :id="'company-tab-' + p.slug" aria-controls="company-tab-panel"
+                  :tabindex="activeTab === p.slug ? 0 : -1"
                   :aria-selected="activeTab === p.slug"
-                  x-show="companyData.paths.evals[p.slug]"
                   :class="activeTab === p.slug ? 'bg-claude-orange text-claude-bg' : 'text-claude-text hover:text-claude-orange'"
-                  class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0" x-text="p.fullName"></button>
+                  class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0">
+                  <span x-text="p.fullName"></span>
+                  <span class="company-tab-score sm:hidden tabular-nums" :class="tierColor(companyData.evalScores[p.slug]?.tier).split(' ')[0]"
+                    x-show="companyData.consolidatedScores[p.abbr] != null" x-text="companyData.consolidatedScores[p.abbr]"></span>
+                </button>
               </template>
             </div>
-            <div class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto" role="tabpanel" aria-label="Tab content">
+            <div id="company-tab-panel" class="border border-t-0 border-claude-border p-2 sm:p-4 overflow-x-auto" role="tabpanel"
+              :aria-labelledby="'company-tab-' + activeTab">
               <div x-show="tabLoading" class="text-claude-orange text-sm terminal-blink" aria-live="polite">Loading_</div>
-              <div x-show="!tabLoading" class="markdown-body" x-html="tabContent"></div>
+              <div x-show="!tabLoading" class="markdown-body" :class="{ 'company-memo-markdown': activeTab === 'memo' }" x-html="tabContent"></div>
             </div>
           </div>
 

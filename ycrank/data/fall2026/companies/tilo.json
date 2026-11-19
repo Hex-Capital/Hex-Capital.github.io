@@ -43,9 +43,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 213,
-    "tractionScore": 8,
-    "tractionReason": "Internal benchmark demonstrated. No disclosed customers or revenue"
+    "tractionRank": 217,
+    "tractionScore": 14,
+    "tractionReason": "Internal test of 50 concurrent agents, customer use undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/tilo.md",

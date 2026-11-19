@@ -42,9 +42,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 25,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 78,
-    "tractionReason": "1.5T tokens served, 1,000+ customers, and 40% reported weekly growth"
+    "tractionRank": 22,
+    "tractionScore": 68,
+    "tractionReason": "1,000+ inference customers, 1.5T+ tokens served, paid share undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/isoquant.md",

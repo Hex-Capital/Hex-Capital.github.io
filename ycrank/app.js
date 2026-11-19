@@ -31,6 +31,7 @@ function app() {
     currentBatch: '',
     manifest: null,
     _batchLoadId: 0,
+    _routeLoadId: 0,
     loading: true,
     view: 'dashboard', // dashboard | company | analytics
 
@@ -40,9 +41,11 @@ function app() {
     acIndex: -1,
     desktopSort: { col: 'avg', dir: -1 },
     mobileSort: { col: 'tractionRank', dir: 1 },
+    listReturn: null,
 
     // Company detail state
     companyData: null,
+    companyError: '',
     activeTab: 'memo',
     tabContent: '',
     tabLoading: false,
@@ -158,7 +161,7 @@ function app() {
 
       // Auth gate in static mode
       if (this.staticMode && !localStorage.getItem('ycrank_auth')) {
-        window.location.href = 'login.html';
+        window.location.href = 'login.html' + window.location.hash;
         return;
       }
 
@@ -173,7 +176,8 @@ function app() {
 
         // Load default batch
         if (this.batches.length > 0) {
-          this.currentBatch = this.batches[0]; // newest (sorted chronologically)
+          const { batch } = this.readRoute();
+          this.currentBatch = this.batches.includes(batch) ? batch : this.batches[0];
           await this.loadBatch(this.currentBatch);
         } else {
           this.noBuildData = true;
@@ -182,10 +186,13 @@ function app() {
         // Load user state (watchlist, etc.)
         await this.loadUserState();
 
-        this.$watch('search', (val) => { this.acIndex = -1; this.acOpen = val.length > 0; });
+        this.$watch('search', (val) => {
+          this.acIndex = -1;
+          this.acOpen = Boolean(val) && document.activeElement === this.$refs.companySearch;
+        });
 
         // Handle initial route
-        this.handleRoute();
+        await this.handleRoute();
       } catch (e) {
         console.error('Init failed:', e);
       } finally {
@@ -304,8 +311,10 @@ function app() {
     },
 
     selectBatch(batchName) {
+      this._routeLoadId++;
+      this.listReturn = null;
       this.currentBatch = batchName;
-      if (this.view === 'company') this.navigate('dashboard');
+      if (this.readRoute().view === 'company') this.navigate('dashboard');
       return this.loadBatch(batchName);
     },
 
@@ -336,9 +345,7 @@ function app() {
         if (previousEvaluators.some(p => p.abbr === this.desktopSort.col) && !this.evaluators.some(p => p.abbr === this.desktopSort.col)) {
           this.desktopSort = { col: 'avg', dir: -1 };
         }
-        if (previousEvaluators.some(p => p.abbr === this.mobileSort.col) && !this.evaluators.some(p => p.abbr === this.mobileSort.col)) {
-          this.mobileSort = { col: 'tractionRank', dir: 1 };
-        }
+        this.mobileSort = { col: this.hasMobileTraction ? 'tractionRank' : 'name', dir: 1 };
 
         // Load build metadata
         try {
@@ -375,17 +382,84 @@ function app() {
       window.location.hash = '#' + route;
     },
 
-    handleRoute() {
-      const hash = window.location.hash.slice(1) || 'dashboard';
-      const parts = hash.split('/');
-      this.$refs.dashboardLayout?.scrollTo(0, 0);
+    companyHash(slug, tab = 'memo') {
+      return `#company/${this.currentBatch}/${slug}${tab === 'memo' ? '' : '/' + tab}`;
+    },
 
-      if (parts[0] === 'company' && parts[1]) {
-        this.showCompany(parts[1]);
-      } else if (parts[0] === 'analytics') {
-        this.view = 'analytics';
+    openCompany(slug) {
+      this.rememberCompanyList(slug);
+      window.location.hash = this.companyHash(slug);
+    },
+
+    followCompanyLink(event, slug) {
+      if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      this.openCompany(slug);
+    },
+
+    rememberCompanyList(slug) {
+      if (!this.mobileLayout || this.view !== 'dashboard' || this.listReturn) return;
+      this.listReturn = {
+        batch: this.currentBatch, slug, search: this.search,
+        scrollTop: this.$refs.dashboardLayout?.scrollTop || 0,
+        slugs: this.filteredTable.map(row => row.slug)
+      };
+    },
+
+    readRoute() {
+      const [view, first, second, third] = window.location.hash.slice(1).split('/');
+      if (view === 'company' && first) {
+        return second ? { view, batch: first, slug: second, tab: third }
+          : { view, slug: first };
+      }
+      return { view: view === 'analytics' ? 'analytics' : 'dashboard' };
+    },
+
+    async handleRoute() {
+      const routeId = ++this._routeLoadId;
+      const { view, batch, slug, tab = 'memo' } = this.readRoute();
+      const scroller = this.$refs.dashboardLayout;
+      this.acOpen = false;
+      if (view === 'company') {
+        if (batch && !this.batches.includes(batch)) {
+          this._companyLoadId++;
+          this._tabLoadId++;
+          this.view = 'company';
+          this.companyData = null;
+          this.companyError = 'The requested batch is unavailable.';
+          return;
+        }
+        if (routeId > 1 && this.mobileLayout && this.view === 'dashboard' && (!batch || batch === this.currentBatch)) {
+          this.rememberCompanyList(slug);
+        }
+        if (batch && batch !== this.currentBatch) {
+          this.listReturn = null;
+          this.currentBatch = batch;
+          await this.loadBatch(batch);
+          if (routeId !== this._routeLoadId) return;
+        }
+        if (this.view === 'company' && this.companyData?.slug === slug) {
+          if (tab !== this.activeTab) await this.loadTabContent(tab);
+          return;
+        }
+        scroller?.scrollTo(0, 0);
+        await this.showCompany(slug, tab);
+        return;
+      }
+      this._companyLoadId++;
+      this._tabLoadId++;
+      this.view = view;
+      const saved = this.listReturn;
+      this.listReturn = null;
+      if (view === 'dashboard' && this.mobileLayout && saved?.batch === this.currentBatch) {
+        this.search = saved.search;
+        await this.$nextTick();
+        await new Promise(resolve => requestAnimationFrame(resolve));
+        if (routeId !== this._routeLoadId) return;
+        scroller?.scrollTo(0, saved.scrollTop);
+        document.getElementById(`mobile-company-${saved.slug}`)?.focus({ preventScroll: true });
       } else {
-        this.view = 'dashboard';
+        scroller?.scrollTo(0, 0);
       }
     },
 
@@ -397,6 +471,31 @@ function app() {
 
     get sortCol() { return this.activeSort.col; },
     get sortDir() { return this.activeSort.dir; },
+
+    get mobileEvaluators() {
+      return this.evaluators.filter(thesis => this.manifest?.table.some(row => row.scores?.[thesis.abbr] != null));
+    },
+
+    get hasMobileTraction() {
+      return this.manifest?.table.some(row => row.tractionRank != null) ?? false;
+    },
+
+    get mobileSortOptions() {
+      return [
+        ...(this.hasMobileTraction ? [['tractionRank:1', 'Traction · #1 first'], ['tractionRank:-1', 'Traction · #1 last']] : []),
+        ['name:1', 'Company · A–Z'], ['name:-1', 'Company · Z–A'],
+        ...this.mobileEvaluators.flatMap(({ abbr, fullName }) => [
+          [abbr + ':-1', fullName + ' · Highest first'], [abbr + ':1', fullName + ' · Lowest first']
+        ])
+      ];
+    },
+
+    selectMobileSort(value) {
+      const [col, dir] = value.split(':');
+      this.mobileSort = { col, dir: Number(dir) };
+      this.acOpen = false;
+      this.$refs.dashboardLayout?.scrollTo(0, 0);
+    },
 
     get filteredTable() {
       if (!this.manifest) return [];
@@ -473,10 +572,10 @@ function app() {
     },
 
     selectAutocomplete(slug) {
-      this.search = '';
+      if (!this.mobileLayout || this.view === 'company') this.search = '';
       this.acOpen = false;
       this.acIndex = -1;
-      this.navigate('company/' + slug);
+      this.openCompany(slug);
     },
 
     handleSearchKeydown(e) {
@@ -556,28 +655,29 @@ function app() {
 
     // --- Company Detail ---
 
-    async showCompany(slug) {
+    async showCompany(slug, tab = 'memo') {
       const loadId = ++this._companyLoadId;
       this._tabLoadId++;
       this.view = 'company';
       this.activeTab = 'memo';
       this.tabContent = '';
       this.companyData = null;
+      this.companyError = '';
 
       try {
+        if (!this.manifest?.table.some(row => row.slug === slug)) throw new Error('Company not found');
         const resp = await fetch(`data/${this.currentBatch}/companies/${slug}.json`);
         if (!resp.ok) throw new Error('Company not found');
         const company = await resp.json();
         if (loadId !== this._companyLoadId) return;
         this.companyData = company;
-        // Load memo content
-        await this.loadTabContent('memo');
+        await this.loadTabContent(tab);
         if (loadId !== this._companyLoadId) return;
         // Load annotations
         await this.loadAnnotations(slug);
       } catch (e) {
         console.error('Failed to load company:', e);
-        if (loadId === this._companyLoadId) this.companyData = null;
+        if (loadId === this._companyLoadId) this.companyError = 'This company could not be opened in the selected batch.';
       }
     },
 
@@ -642,8 +742,29 @@ function app() {
       return DOMPurify.sanitize(marked.parse(content));
     },
 
+    renderCompanyDocument(markdown, tab) {
+      const html = DOMPurify.sanitize(marked.parse(markdown));
+      if (tab !== 'memo') return html;
+
+      const template = document.createElement('template');
+      template.innerHTML = html;
+      const table = template.content.querySelector('table');
+      const headers = table?.querySelectorAll('thead th');
+      if (headers?.length !== 2 || headers[0].textContent.trim() !== 'Field' || headers[1].textContent.trim() !== 'Value') return html;
+
+      const facts = document.createElement('details');
+      facts.className = 'mobile-memo-facts';
+      const summary = document.createElement('summary');
+      summary.textContent = 'Company facts';
+      facts.append(summary, table.cloneNode(true));
+      table.classList.add('desktop-memo-facts');
+      table.after(facts);
+      return template.innerHTML;
+    },
+
     async loadTabContent(tab) {
       if (!this.companyData) return;
+      if (tab !== 'memo' && !Object.hasOwn(this.companyData.paths.evals, tab)) tab = 'memo';
       const loadId = ++this._tabLoadId;
       this.tabLoading = true;
       this.activeTab = tab;
@@ -676,7 +797,7 @@ function app() {
         if (loadId !== this._tabLoadId) return;
         // Strip BOM
         md = md.replace(/^\uFEFF/, '');
-        const html = DOMPurify.sanitize(marked.parse(md));
+        const html = this.renderCompanyDocument(md, tab);
         // Cap cache: evict oldest entries if over 5MB or 50 entries
         const htmlLen = html.length;
         this._mdCacheSize += htmlLen;
@@ -699,10 +820,13 @@ function app() {
     },
 
     adjacentCompany(offset) {
-      const rows = this.manifest?.table;
-      if (!this.companyData || !rows) return null;
-      const index = rows.findIndex(row => row.slug === this.companyData.slug);
-      return index < 0 ? null : rows[index + offset]?.slug;
+      if (!this.companyData) return null;
+      const saved = this.listReturn;
+      const slug = this.companyData.slug;
+      const slugs = this.mobileLayout && saved?.batch === this.currentBatch && saved.slugs.includes(slug)
+        ? saved.slugs : (this.manifest?.table ?? []).map(row => row.slug);
+      const index = slugs.indexOf(slug);
+      return index < 0 ? null : slugs[index + offset];
     },
 
     hasPrevCompany() {
@@ -715,12 +839,29 @@ function app() {
 
     prevCompany() {
       const slug = this.adjacentCompany(-1);
-      if (slug) this.navigate('company/' + slug);
+      if (slug) this.openCompany(slug);
     },
 
     nextCompany() {
       const slug = this.adjacentCompany(1);
-      if (slug) this.navigate('company/' + slug);
+      if (slug) this.openCompany(slug);
+    },
+
+    selectCompanyTab(tab) {
+      window.location.hash = this.companyHash(this.companyData.slug, tab);
+    },
+
+    handleCompanyTabsKeydown(event) {
+      const tabs = [...event.currentTarget.querySelectorAll('[role="tab"]')];
+      const index = tabs.indexOf(event.target);
+      const offsets = { ArrowLeft: -1, ArrowRight: 1 };
+      if (index < 0 || !(event.key in offsets) && event.key !== 'Home' && event.key !== 'End') return;
+      event.preventDefault();
+      event.stopPropagation();
+      const next = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1
+        : (index + offsets[event.key] + tabs.length) % tabs.length;
+      tabs[next].focus();
+      tabs[next].click();
     },
 
     // --- Council ---
@@ -871,7 +1012,7 @@ function app() {
     // --- Keyboard shortcuts ---
 
     handleKeydown(e) {
-      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+      if (e.target.matches('input, textarea, select, [contenteditable]')) return;
 
       if (e.key === 'Escape') {
         e.preventDefault();

@@ -43,9 +43,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 131,
-    "tractionScore": 42,
-    "tractionReason": "Active pilot and live industrial customer sites reported"
+    "tractionRank": 134,
+    "tractionScore": 39,
+    "tractionReason": "Active pilot and live customer sites, customer count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/verno.md",

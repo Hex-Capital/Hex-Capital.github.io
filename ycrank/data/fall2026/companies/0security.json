@@ -44,9 +44,9 @@
   "consolidatedAvg": 38.33,
   "consolidatedRank": 93,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 53,
-    "tractionReason": "1.4K GitHub stars plus engagements with EY and Swiss defense officials"
+    "tractionRank": 87,
+    "tractionScore": 50,
+    "tractionReason": "EY and Swiss defense department engagements, 1,400 GitHub stars"
   },
   "paths": {
     "memo": "fall2026/memos/0security.md",

@@ -44,9 +44,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 81,
   "traction": {
-    "tractionRank": 113,
-    "tractionScore": 49,
-    "tractionReason": "Sensors deployed on 40+ assets, up from 25+ in October"
+    "tractionRank": 83,
+    "tractionScore": 51,
+    "tractionReason": "Deployed sensors increased from 25+ to 40+ assets"
   },
   "paths": {
     "memo": "fall2026/memos/talos-us.md",

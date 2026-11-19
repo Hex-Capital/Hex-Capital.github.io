@@ -42,9 +42,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 211,
-    "tractionScore": 8,
-    "tractionReason": "Robotics training data demonstrated. No disclosed customer use"
+    "tractionRank": 205,
+    "tractionScore": 18,
+    "tractionReason": "Internal robotics results published, no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/hemlock.md",

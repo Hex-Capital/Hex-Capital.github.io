@@ -42,9 +42,9 @@
   "consolidatedAvg": 38.33,
   "consolidatedRank": 97,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 53,
-    "tractionReason": "Multiple utility procurement engagements, including evaluation of 22 bids"
+    "tractionRank": 120,
+    "tractionScore": 43,
+    "tractionReason": "Utility procurement case studies, including evaluation of 22 bids"
   },
   "paths": {
     "memo": "fall2026/memos/hillstar.md",

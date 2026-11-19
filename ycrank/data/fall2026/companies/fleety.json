@@ -43,9 +43,9 @@
   "consolidatedAvg": 38.67,
   "consolidatedRank": 86,
   "traction": {
-    "tractionRank": 87,
-    "tractionScore": 55,
-    "tractionReason": "Named dispatch deployments including Albert Nahman and Panther Services Group"
+    "tractionRank": 101,
+    "tractionScore": 47,
+    "tractionReason": "Named plumbing deployments, reported zero churn with cohort undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/fleety.md",

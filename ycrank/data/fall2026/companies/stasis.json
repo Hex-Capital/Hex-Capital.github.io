@@ -41,11 +41,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 34.33,
-  "consolidatedRank": 228,
+  "consolidatedRank": 229,
   "traction": {
-    "tractionRank": 190,
-    "tractionScore": 17,
-    "tractionReason": "Refundable $99 reservations opened. Reservation count undisclosed"
+    "tractionRank": 191,
+    "tractionScore": 23,
+    "tractionReason": "Reservations opened November 9, deposit count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/stasis.md",

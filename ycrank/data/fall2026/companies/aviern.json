@@ -43,9 +43,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 229,
-    "tractionScore": 5,
-    "tractionReason": "150+ demonstrator miles. No disclosed cargo customers"
+    "tractionRank": 203,
+    "tractionScore": 18,
+    "tractionReason": "150+ cargo demonstrator miles, no disclosed customer orders"
   },
   "paths": {
     "memo": "fall2026/memos/aviern.md",

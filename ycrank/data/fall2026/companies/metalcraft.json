@@ -40,11 +40,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 34.33,
-  "consolidatedRank": 225,
+  "consolidatedRank": 226,
   "traction": {
-    "tractionRank": 219,
-    "tractionScore": 6,
-    "tractionReason": "Released six tasksets. No disclosed user adoption or revenue"
+    "tractionRank": 215,
+    "tractionScore": 14,
+    "tractionReason": "Six current-product tasksets published, customer use undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/metalcraft.md",

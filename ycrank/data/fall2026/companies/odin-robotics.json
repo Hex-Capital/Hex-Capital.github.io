@@ -44,9 +44,9 @@
   "consolidatedAvg": 38,
   "consolidatedRank": 108,
   "traction": {
-    "tractionRank": 163,
-    "tractionScore": 36,
-    "tractionReason": "On-site factory work reported. No disclosed paid pilots"
+    "tractionRank": 166,
+    "tractionScore": 34,
+    "tractionReason": "Reported on-site factory work and automation design with operations teams"
   },
   "paths": {
     "memo": "fall2026/memos/odin-robotics.md",

@@ -42,9 +42,9 @@
   "consolidatedAvg": 44.33,
   "consolidatedRank": 9,
   "traction": {
-    "tractionRank": 16,
-    "tractionScore": 74,
-    "tractionReason": "Nearly $1M committed ARR and 80+ live dealership locations"
+    "tractionRank": 10,
+    "tractionScore": 80,
+    "tractionReason": "Nearly $1M committed ARR, six groups, 80+ dealership locations"
   },
   "paths": {
     "memo": "fall2026/memos/bayworks.md",

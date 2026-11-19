@@ -39,11 +39,11 @@
     "EXIT": 33
   },
   "consolidatedAvg": 33.33,
-  "consolidatedRank": 234,
+  "consolidatedRank": 235,
   "traction": {
-    "tractionRank": 193,
-    "tractionScore": 17,
-    "tractionReason": "Current product opened a waitlist. Signup count undisclosed"
+    "tractionRank": 184,
+    "tractionScore": 27,
+    "tractionReason": "Current weight-editing offering opened an unquantified early-access waitlist"
   },
   "paths": {
     "memo": "fall2026/memos/perceptual-labs.md",

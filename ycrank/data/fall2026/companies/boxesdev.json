@@ -42,9 +42,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 56,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 54,
-    "tractionReason": "10,611 weekly standalone CLI downloads. One customer ran 200+ agents"
+    "tractionRank": 90,
+    "tractionScore": 50,
+    "tractionReason": "10,611 weekly standalone CLI downloads, customer ran 200+ agents"
   },
   "paths": {
     "memo": "fall2026/memos/boxesdev.md",

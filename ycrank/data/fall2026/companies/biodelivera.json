@@ -45,8 +45,8 @@
   "consolidatedRank": 176,
   "traction": {
     "tractionRank": 236,
-    "tractionScore": 0,
-    "tractionReason": "Research-stage efficacy reported. No disclosed commercial traction"
+    "tractionScore": 5,
+    "tractionReason": "Early research results reported, no disclosed commercial engagements"
   },
   "paths": {
     "memo": "fall2026/memos/biodelivera.md",

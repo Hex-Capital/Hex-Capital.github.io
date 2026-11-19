@@ -44,9 +44,9 @@
   "consolidatedAvg": 39,
   "consolidatedRank": 77,
   "traction": {
-    "tractionRank": 29,
+    "tractionRank": 25,
     "tractionScore": 67,
-    "tractionReason": "Reports sales, 70+ experts using live cases, and two contracted agencies"
+    "tractionReason": "Sales reported, 70+ physicians on live cases, two agency contracts"
   },
   "paths": {
     "memo": "fall2026/memos/elithia.md",

@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 173,
-    "tractionScore": 33,
-    "tractionReason": "Bioprocess simulation collaboration. Customer payments and deployments undisclosed"
+    "tractionRank": 175,
+    "tractionScore": 32,
+    "tractionReason": "Halmos Bio validation release and reported bioprocessing collaboration"
   },
   "paths": {
     "memo": "fall2026/memos/halmos-labs.md",

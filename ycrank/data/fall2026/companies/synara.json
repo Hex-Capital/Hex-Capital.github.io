@@ -43,9 +43,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 224,
-    "tractionScore": 6,
-    "tractionReason": "Monitoring platform launched. Customer sites and revenue undisclosed"
+    "tractionRank": 206,
+    "tractionScore": 17,
+    "tractionReason": "Monitoring product launched publicly, customer deployments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/synara.md",

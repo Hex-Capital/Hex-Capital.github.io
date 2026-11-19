@@ -42,11 +42,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 34.33,
-  "consolidatedRank": 222,
+  "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 189,
-    "tractionScore": 17,
-    "tractionReason": "Refundable $199 reservations offered. Reservation count undisclosed"
+    "tractionRank": 190,
+    "tractionScore": 23,
+    "tractionReason": "Refundable reservation offered, reservation count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cyclon.md",

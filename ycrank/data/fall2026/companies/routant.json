@@ -40,11 +40,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 35.33,
-  "consolidatedRank": 203,
+  "consolidatedRank": 204,
   "traction": {
     "tractionRank": 223,
-    "tractionScore": 6,
-    "tractionReason": "Public launch. No disclosed product users or customer revenue"
+    "tractionScore": 12,
+    "tractionReason": "Public YC launch, no disclosed deployments or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/routant.md",

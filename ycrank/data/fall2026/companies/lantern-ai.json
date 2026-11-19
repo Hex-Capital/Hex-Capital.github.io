@@ -46,7 +46,7 @@
   "traction": {
     "tractionRank": 3,
     "tractionScore": 96,
-    "tractionReason": "$1M enterprise ARR, 30% monthly growth, and 270% net dollar retention"
+    "tractionReason": "$1M enterprise ARR, 30% monthly growth, 270% net dollar retention"
   },
   "paths": {
     "memo": "fall2026/memos/lantern-ai.md",

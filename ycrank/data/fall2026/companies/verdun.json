@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 158,
-    "tractionScore": 37,
-    "tractionReason": "Shows monitoring activity across anonymized customer sites"
+    "tractionRank": 136,
+    "tractionScore": 38,
+    "tractionReason": "Anonymized customer-site monitoring activity, paid contracts undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/verdun.md",

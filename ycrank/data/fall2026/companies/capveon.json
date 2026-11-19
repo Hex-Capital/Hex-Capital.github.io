@@ -40,9 +40,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 199,
-    "tractionScore": 14,
-    "tractionReason": "Current tender product launched. No disclosed paying customers for it"
+    "tractionRank": 197,
+    "tractionScore": 21,
+    "tractionReason": "Current tender product covers 14 countries, paying customers undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/capveon.md",

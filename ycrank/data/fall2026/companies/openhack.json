@@ -42,9 +42,9 @@
   "consolidatedAvg": 37.67,
   "consolidatedRank": 116,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 49,
-    "tractionReason": "Six named launch users and 444 open-source scanner stars"
+    "tractionRank": 123,
+    "tractionScore": 42,
+    "tractionReason": "Six named users and 444 GitHub stars, paid conversion undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/openhack.md",

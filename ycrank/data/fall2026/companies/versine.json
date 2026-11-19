@@ -42,11 +42,11 @@
     "EXIT": 32
   },
   "consolidatedAvg": 34.67,
-  "consolidatedRank": 219,
+  "consolidatedRank": 220,
   "traction": {
-    "tractionRank": 181,
-    "tractionScore": 23,
-    "tractionReason": "5+ Android downloads at payments launch. Transaction activity undisclosed"
+    "tractionRank": 188,
+    "tractionScore": 25,
+    "tractionReason": "Five or more Android downloads, transaction activity undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/versine.md",

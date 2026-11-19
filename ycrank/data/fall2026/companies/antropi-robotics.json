@@ -42,8 +42,8 @@
   "consolidatedRank": 3,
   "traction": {
     "tractionRank": 6,
-    "tractionScore": 91,
-    "tractionReason": "$100K October revenue, 2,000+ parts shipped, and repeat orders"
+    "tractionScore": 90,
+    "tractionReason": "$100K October revenue, 2,000+ parts shipped, repeat orders"
   },
   "paths": {
     "memo": "fall2026/memos/antropi-robotics.md",

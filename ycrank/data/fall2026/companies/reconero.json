@@ -41,11 +41,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 34.33,
-  "consolidatedRank": 227,
+  "consolidatedRank": 228,
   "traction": {
-    "tractionRank": 187,
-    "tractionScore": 20,
-    "tractionReason": "100+ officers consulted during product development. Current adoption undisclosed"
+    "tractionRank": 182,
+    "tractionScore": 28,
+    "tractionReason": "100+ officer interviews, earlier beta tested by several police units"
   },
   "paths": {
     "memo": "fall2026/memos/reconero.md",

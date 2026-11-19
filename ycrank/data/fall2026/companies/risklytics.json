@@ -44,9 +44,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 143,
   "traction": {
-    "tractionRank": 80,
-    "tractionScore": 57,
-    "tractionReason": "Three businesses obtained coverage in one week. Carrier commissions undisclosed"
+    "tractionRank": 106,
+    "tractionScore": 46,
+    "tractionReason": "Placed coverage for three businesses in one week, commissions undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/risklytics.md",

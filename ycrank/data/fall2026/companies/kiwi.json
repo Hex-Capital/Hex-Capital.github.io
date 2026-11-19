@@ -41,9 +41,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 181,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 21,
-    "tractionReason": "100+ companies consulted during discovery. No disclosed product adoption"
+    "tractionRank": 193,
+    "tractionScore": 22,
+    "tractionReason": "Consulted 100+ companies during discovery, pilot uptake undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/kiwi.md",

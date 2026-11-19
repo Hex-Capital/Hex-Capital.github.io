@@ -584,6 +584,8 @@ main {
   margin-left: 8px;
 }
 
+.mobile-memo-facts { display: none; }
+
 /* ===== Mobile Responsive ===== */
 @media (max-width: 639px) {
   /* Keep the header outside the scroll area and prevent scroll chaining to browser chrome. */
@@ -606,7 +608,38 @@ main {
     overscroll-behavior-y: none;
   }
 
-  .sticky-search { top: 0; }
+  .dashboard-layout .sticky-search {
+    top: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+
+  .company-search-field input {
+    min-height: 44px;
+    padding-inline: 12px;
+  }
+
+  .company-search-field input::placeholder,
+  .company-search-meta .text-claude-dim,
+  .company-detail-description { color: var(--c-gray); }
+  .company-search-field.has-search-text input { padding-right: 50px; }
+
+  .company-search-field .search-clear-btn {
+    right: 1px;
+    width: 44px;
+    height: 44px;
+    color: var(--c-gray);
+    background: transparent;
+  }
+
+  .company-search-meta, .company-browse-controls { justify-content: space-between; width: 100%; }
+  .company-search-meta button, .company-browse-controls a, .company-browse-controls button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+  }
+  .company-browse-controls a { color: var(--c-accent); }
 
   /* Smooth horizontal scrolling with touch */
   .overflow-x-auto {
@@ -644,7 +677,7 @@ main {
   }
 
   .markdown-body {
-    font-size: 0.875rem;
+    font-size: 1rem;
   }
 
   .markdown-body h1 { font-size: 1.25rem; }
@@ -667,6 +700,41 @@ main {
     padding-left: 0.875rem;
   }
 
+  .markdown-body li { margin-bottom: 0.5rem; }
+  .markdown-body a { overflow-wrap: anywhere; text-decoration: underline; }
+
+  .company-memo-markdown > h1:first-child,
+  .company-memo-markdown > h1:first-child + blockquote,
+  .company-memo-markdown > table.desktop-memo-facts { display: none; }
+
+  .mobile-memo-facts { display: block; margin-bottom: 0.75rem; }
+  .mobile-memo-facts summary { padding-block: 0.625rem; color: var(--c-gray); cursor: pointer; }
+  .mobile-memo-facts table { display: table; width: 100%; table-layout: fixed; overflow-wrap: anywhere; }
+  .mobile-memo-facts table :is(th,td):first-child { width: 32%; }
+
+  .company-data-tabs {
+    position: sticky;
+    top: var(--search-h);
+    z-index: 25;
+    background: var(--c-bg);
+  }
+
+  .company-data-tabs button {
+    flex: 1 1 auto;
+    min-height: 44px;
+    padding: 4px 6px;
+    font-size: 0.8125rem;
+    line-height: 1.15;
+  }
+
+  .company-tab-score { display: block; margin-top: 2px; font-weight: 700; }
+  .company-data-tabs button[aria-selected="true"] .company-tab-score { color: inherit; }
+
+  .mobile-company-number.score-claude-deepred, .company-tab-score.score-claude-deepred { color: #f17a76; }
+  .mobile-company-number.score-claude-red, .company-tab-score.score-claude-red { color: #e57572; }
+  .mobile-company-number.score-claude-deepgreen, .company-tab-score.score-claude-deepgreen { color: #50a775; }
+  .mobile-company-number.text-claude-dim { color: #969087; }
+
   /* Prevent iOS auto-zoom on input focus (requires >= 16px) */
   input[type="text"], select, textarea {
     font-size: 16px !important;
@@ -678,17 +746,31 @@ main {
 
   /* Expandable company list */
   .mobile-company-list {
-    --company-columns: minmax(0, 1fr) 26px 65px 25px 53px;
     --company-card-radius: 12px;
   }
 
-  .mobile-company-list-no-scores {
-    --company-columns: minmax(0, 1fr) 53px;
+  .mobile-company-sort {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8125rem;
+    color: var(--c-gray);
+  }
+
+  .mobile-company-sort select {
+    flex: 1;
+    min-width: 0;
+    min-height: 44px;
+    border: 1px solid var(--c-border);
+    border-radius: 8px;
+    padding-inline: 8px;
+    background: var(--c-card);
+    color: var(--c-text);
   }
 
   .mobile-company-grid {
     display: grid;
-    grid-template-columns: var(--company-columns);
+    grid-template-columns: minmax(0, 1fr) var(--score-columns,) var(--traction-column,);
     align-items: center;
     column-gap: 3px;
     padding-inline: 10px 44px;
@@ -702,12 +784,11 @@ main {
     border-inline: 1px solid transparent;
     color: var(--c-gray);
     font-size: 0.6875rem;
+    min-height: 32px;
+    text-align: center;
   }
 
-  .mobile-company-columns button { min-height: 44px; }
-  .mobile-company-columns button:first-child { text-align: left; }
-  .mobile-company-columns button[aria-pressed="true"] { color: var(--c-accent); }
-  .mobile-thesis-abbr, .mobile-traction-abbr { display: none; }
+  .mobile-company-columns > span:first-child { text-align: left; }
 
   .mobile-company-card {
     position: relative;
@@ -718,12 +799,9 @@ main {
 
   .mobile-company-card:first-of-type,
   .mobile-company-card.is-expanded + .mobile-company-card {
+    border-top-color: var(--c-border);
     border-start-start-radius: var(--company-card-radius);
     border-start-end-radius: var(--company-card-radius);
-  }
-
-  .mobile-company-card.is-expanded + .mobile-company-card {
-    border-top-color: var(--c-border);
   }
 
   .mobile-company-card:last-of-type {
@@ -742,8 +820,6 @@ main {
     border-radius: var(--company-card-radius);
     background: var(--c-panel);
   }
-
-  .mobile-company-card:first-of-type { border-top-color: transparent; }
 
   .mobile-company-memo { display: block; border-radius: inherit; }
   .mobile-company-memo:active { background: var(--c-card-hover); }
@@ -766,7 +842,7 @@ main {
 
   .mobile-company-number {
     text-align: center;
-    font: 500 0.6875rem 'JetBrains Mono', monospace;
+    font: 600 0.8125rem 'JetBrains Mono', monospace;
     font-variant-numeric: tabular-nums;
   }
 
@@ -809,15 +885,6 @@ main {
   .mobile-company-evidence { margin-top: 8px; color: var(--c-gray); overflow-wrap: anywhere; }
   .mobile-company-empty { padding: 20px 10px; color: var(--c-gray); font-size: 0.875rem; }
 
-  @media (max-width: 389px) {
-    .mobile-company-list {
-      --company-columns: minmax(0, 1fr) 22px 25px 25px 41px;
-    }
-    .mobile-company-list-no-scores { --company-columns: minmax(0, 1fr) 41px; }
-    .mobile-thesis-label, .mobile-traction-label { display: none; }
-    .mobile-thesis-abbr, .mobile-traction-abbr { display: inline; }
-  }
-
   /* Status footer: subtle on mobile, extra bottom padding for browser chrome / gesture bar */
   .status-footer {
     padding: 5px 12px calc(5px + env(safe-area-inset-bottom, 0px));
@@ -838,6 +905,7 @@ main {
   }
 
   .ac-item {
+    min-height: 44px;
     padding: 10px 10px;
   }
 

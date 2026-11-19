@@ -41,9 +41,9 @@
   "consolidatedAvg": 44,
   "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 21,
-    "tractionScore": 71,
-    "tractionReason": "Paying research teams at 10+ institutions using current offering"
+    "tractionRank": 14,
+    "tractionScore": 74,
+    "tractionReason": "Paying research teams at 10+ institutions"
   },
   "paths": {
     "memo": "fall2026/memos/sutrix.md",

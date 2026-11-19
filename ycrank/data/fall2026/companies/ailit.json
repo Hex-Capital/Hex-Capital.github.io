@@ -44,9 +44,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 228,
-    "tractionScore": 5,
-    "tractionReason": "Full-scale prototype completed. No reported commercial deployment"
+    "tractionRank": 233,
+    "tractionScore": 8,
+    "tractionReason": "Full-scale prototype awaiting commissioning, no disclosed orders"
   },
   "paths": {
     "memo": "fall2026/memos/ailit.md",

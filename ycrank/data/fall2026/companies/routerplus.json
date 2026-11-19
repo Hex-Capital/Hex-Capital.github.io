@@ -43,9 +43,9 @@
   "consolidatedAvg": 44,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 61,
-    "tractionScore": 61,
-    "tractionReason": "Largest customer runs 3M daily agent conversations. Platform revenue undisclosed"
+    "tractionRank": 52,
+    "tractionScore": 58,
+    "tractionReason": "Largest customer runs 3M daily conversations, platform fees undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/routerplus.md",

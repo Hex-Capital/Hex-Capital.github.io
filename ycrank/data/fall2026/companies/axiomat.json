@@ -42,9 +42,9 @@
   "consolidatedAvg": 35.33,
   "consolidatedRank": 198,
   "traction": {
-    "tractionRank": 212,
-    "tractionScore": 8,
-    "tractionReason": "Public launch. No disclosed customer adoption or revenue"
+    "tractionRank": 218,
+    "tractionScore": 13,
+    "tractionReason": "Public November launch, no disclosed customers or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/axiomat.md",

@@ -41,9 +41,9 @@
   "consolidatedAvg": 41,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 67,
-    "tractionScore": 60,
-    "tractionReason": "Six signed LOIs or MSAs and 3,093 miles mapped"
+    "tractionRank": 61,
+    "tractionScore": 56,
+    "tractionReason": "Six counterparties signed LOIs or MSAs, 3,093 miles mapped"
   },
   "paths": {
     "memo": "fall2026/memos/kanopy.md",

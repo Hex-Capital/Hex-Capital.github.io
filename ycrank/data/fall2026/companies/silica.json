@@ -42,9 +42,9 @@
   "consolidatedAvg": 38.33,
   "consolidatedRank": 102,
   "traction": {
-    "tractionRank": 112,
-    "tractionScore": 50,
-    "tractionReason": "60,000+ actuator units requested in one month. Deposits undisclosed"
+    "tractionRank": 113,
+    "tractionScore": 45,
+    "tractionReason": "60,000+ units requested within a month, paid orders undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/silica.md",

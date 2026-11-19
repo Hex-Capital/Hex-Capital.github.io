@@ -261,11 +261,8 @@
                 <span class="mobile-thesis-abbr" x-text="thesis.abbr === 'EXIT' ? 'Exit' : thesis.abbr"></span>
               </button>
             </template>
-            <button type="button" @click="sortBy('avg')" :aria-pressed="sortCol === 'avg'">
-              Avg<span aria-hidden="true" x-show="sortCol === 'avg'" x-text="sortDir === -1 ? '↓' : '↑'"></span>
-            </button>
             <button type="button" @click="sortBy('tractionRank')" :aria-pressed="sortCol === 'tractionRank'"
-              aria-label="Sort by traction rank"><span class="mobile-traction-label">Traction</span><span class="mobile-traction-abbr">Trac.</span></button>
+              aria-label="Sort by traction rank"><span class="mobile-traction-label">Traction</span><span class="mobile-traction-abbr">Trac.</span><span aria-hidden="true" x-show="sortCol === 'tractionRank'" x-text="sortDir === 1 ? '↑' : '↓'"></span></button>
           </div>
 
           <template x-for="row in filteredTable" :key="row.slug">
@@ -273,30 +270,16 @@
               <a class="mobile-company-memo" :href="'#company/' + row.slug"
                 :aria-label="'Open ' + row.name + ' memo'">
                 <div class="mobile-company-grid mobile-company-summary">
-                  <div class="min-w-0">
-                    <h2 class="mobile-company-name" x-text="row.name"></h2>
-                    <p class="mobile-company-description" x-show="row.oneLiner" x-text="row.oneLiner"></p>
-                  </div>
+                  <h2 class="mobile-company-name" x-text="row.name"></h2>
                   <template x-for="thesis in evaluators" :key="thesis.slug">
                     <span class="mobile-company-number" x-text="row.scores?.[thesis.abbr] ?? '–'"></span>
                   </template>
-                  <span class="mobile-company-number mobile-company-avg" x-text="row.avg == null ? '–' : Number(row.avg).toFixed(2)"></span>
                   <span class="mobile-company-number" x-text="row.tractionRank == null ? '–' : '#' + row.tractionRank"></span>
                 </div>
+                <p class="mobile-company-description" x-show="row.oneLiner" x-text="row.oneLiner"></p>
 
                 <template x-if="expandedCompanySlug === row.slug">
                   <div class="mobile-company-details" :class="{ 'has-watchlist': !staticMode }">
-                    <div class="mobile-company-bars" x-show="evaluators.length">
-                      <template x-for="thesis in evaluators" :key="thesis.slug">
-                        <div class="mobile-company-bar">
-                          <span x-text="thesis.fullName"></span>
-                          <span class="mobile-company-bar-track" aria-hidden="true">
-                            <span :style="{ width: (row.scores?.[thesis.abbr] ?? 0) + '%' }"></span>
-                          </span>
-                          <span class="mobile-company-number" x-text="row.scores?.[thesis.abbr] == null ? '–' : row.scores[thesis.abbr] + ' / 100'"></span>
-                        </div>
-                      </template>
-                    </div>
                     <dl class="mobile-company-facts">
                       <div><dt>Team</dt><dd x-text="row.teamSize ?? '–'"></dd></div>
                       <div><dt>YC partner</dt><dd x-text="row.ycPartner || '–'"></dd></div>

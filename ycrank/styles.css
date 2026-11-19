@@ -660,11 +660,12 @@ main {
 
   /* Expandable company list */
   .mobile-company-list {
-    --company-columns: minmax(0, 1fr) 26px 61px 25px 38px 43px;
+    --company-columns: minmax(0, 1fr) 26px 65px 25px 53px;
+    --company-card-radius: 12px;
   }
 
   .mobile-company-list-no-scores {
-    --company-columns: minmax(0, 1fr) 38px 43px;
+    --company-columns: minmax(0, 1fr) 53px;
   }
 
   .mobile-company-grid {
@@ -695,13 +696,30 @@ main {
     position: relative;
     background: var(--c-card);
     border: 1px solid transparent;
-    border-bottom-color: var(--c-border);
+    border-color: transparent var(--c-border) var(--c-border);
+  }
+
+  .mobile-company-card:first-of-type,
+  .mobile-company-card.is-expanded + .mobile-company-card {
+    border-top-color: var(--c-border);
+    border-start-start-radius: var(--company-card-radius);
+    border-start-end-radius: var(--company-card-radius);
+  }
+
+  .mobile-company-card:last-of-type {
+    border-end-start-radius: var(--company-card-radius);
+    border-end-end-radius: var(--company-card-radius);
+  }
+
+  .mobile-company-card:has(+ .mobile-company-card.is-expanded) {
+    border-end-start-radius: var(--company-card-radius);
+    border-end-end-radius: var(--company-card-radius);
   }
 
   .mobile-company-card.is-expanded {
-    margin-block: 6px;
+    margin-block: 8px;
     border-color: var(--c-border);
-    border-radius: 8px;
+    border-radius: var(--company-card-radius);
     background: var(--c-panel);
   }
 
@@ -714,14 +732,12 @@ main {
     outline-offset: -2px;
   }
 
-  .mobile-company-summary { min-height: 60px; padding-block: 8px; }
+  .mobile-company-summary { min-height: 44px; padding-block: 6px; }
   .mobile-company-name { font-size: 0.875rem; font-weight: 700; line-height: 1.2; overflow-wrap: anywhere; }
 
   .mobile-company-description {
-    margin-top: 3px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    margin: 0 10px 8px;
+    overflow-wrap: anywhere;
     color: var(--c-gray);
     font-size: 0.6875rem;
   }
@@ -731,7 +747,6 @@ main {
     font: 500 0.6875rem 'JetBrains Mono', monospace;
     font-variant-numeric: tabular-nums;
   }
-  .mobile-company-avg { color: var(--c-accent); }
 
   .mobile-company-expand, .mobile-company-star {
     position: absolute;
@@ -742,9 +757,10 @@ main {
     height: 44px;
     color: var(--c-gray);
     background: transparent;
+    border-radius: 8px;
   }
 
-  .mobile-company-expand { top: 8px; }
+  .mobile-company-expand { top: 0; }
   .mobile-company-expand span {
     width: 8px;
     height: 8px;
@@ -765,22 +781,6 @@ main {
   }
   .mobile-company-details.has-watchlist { padding-right: 34px; }
 
-  .mobile-company-bars { display: grid; gap: 8px; margin-bottom: 12px; }
-  .mobile-company-bar {
-    display: grid;
-    grid-template-columns: 78px minmax(0, 1fr) 60px;
-    align-items: center;
-    gap: 8px;
-  }
-  .mobile-company-bar .mobile-company-number { text-align: right; }
-  .mobile-company-bar-track {
-    overflow: hidden;
-    height: 7px;
-    border-radius: 8px;
-    background: var(--c-border);
-  }
-  .mobile-company-bar-track span { display: block; height: 100%; background: var(--c-accent); }
-
   .mobile-company-facts { display: grid; grid-template-columns: minmax(40px, auto) 1fr 1fr; gap: 10px; }
   .mobile-company-facts dt { color: var(--c-gray); }
   .mobile-company-facts dd { margin-top: 2px; font-weight: 600; overflow-wrap: anywhere; }
@@ -789,9 +789,9 @@ main {
 
   @media (max-width: 389px) {
     .mobile-company-list {
-      --company-columns: minmax(0, 1fr) 22px 25px 25px 36px 33px;
+      --company-columns: minmax(0, 1fr) 22px 25px 25px 41px;
     }
-    .mobile-company-list-no-scores { --company-columns: minmax(0, 1fr) 36px 33px; }
+    .mobile-company-list-no-scores { --company-columns: minmax(0, 1fr) 41px; }
     .mobile-thesis-label, .mobile-traction-label { display: none; }
     .mobile-thesis-abbr, .mobile-traction-abbr { display: inline; }
   }
@@ -805,6 +805,12 @@ main {
   }
 
   /* Autocomplete: mobile overrides */
+  .dashboard-nav .nav-batch,
+  .sticky-search input[type="text"],
+  .ac-dropdown {
+    border-radius: 8px;
+  }
+
   .ac-dropdown {
     max-height: 240px;
   }

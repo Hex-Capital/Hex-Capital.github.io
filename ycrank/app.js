@@ -38,8 +38,8 @@ function app() {
     search: '',
     acOpen: false,
     acIndex: -1,
-    sortCol: 'avg',
-    sortDir: -1,
+    desktopSort: { col: 'avg', dir: -1 },
+    mobileSort: { col: 'tractionRank', dir: 1 },
 
     // Company detail state
     companyData: null,
@@ -333,9 +333,11 @@ function app() {
         if (loadId !== this._batchLoadId) return;
         this.noBuildData = false;
         this.manifest = manifest;
-        if (previousEvaluators.some(p => p.abbr === this.sortCol) && !this.evaluators.some(p => p.abbr === this.sortCol)) {
-          this.sortCol = 'avg';
-          this.sortDir = -1;
+        if (previousEvaluators.some(p => p.abbr === this.desktopSort.col) && !this.evaluators.some(p => p.abbr === this.desktopSort.col)) {
+          this.desktopSort = { col: 'avg', dir: -1 };
+        }
+        if (previousEvaluators.some(p => p.abbr === this.mobileSort.col) && !this.evaluators.some(p => p.abbr === this.mobileSort.col)) {
+          this.mobileSort = { col: 'tractionRank', dir: 1 };
         }
 
         // Load build metadata
@@ -389,6 +391,13 @@ function app() {
 
     // --- Dashboard ---
 
+    get activeSort() {
+      return this.mobileLayout ? this.mobileSort : this.desktopSort;
+    },
+
+    get sortCol() { return this.activeSort.col; },
+    get sortDir() { return this.activeSort.dir; },
+
     get filteredTable() {
       if (!this.manifest) return [];
       let rows = this.manifest.table;
@@ -436,9 +445,9 @@ function app() {
           vb = (b.ycPartner || '').toLowerCase();
           return va < vb ? -dir : va > vb ? dir : 0;
         } else if (col === 'tractionRank') {
-          // Unranked companies always sort last regardless of direction
-          va = a.tractionRank != null ? a.tractionRank : Infinity;
-          vb = b.tractionRank != null ? b.tractionRank : Infinity;
+          va = a.tractionRank;
+          vb = b.tractionRank;
+          if (va == null || vb == null) return Number(va == null) - Number(vb == null);
         } else if (isEvaluationColumn) {
           // Evaluation score column
           va = a.scores?.[col];
@@ -519,12 +528,13 @@ function app() {
     },
 
     sortBy(col) {
-      if (this.sortCol === col) {
-        this.sortDir *= -1;
+      const sort = this.activeSort;
+      if (sort.col === col) {
+        sort.dir *= -1;
       } else {
-        this.sortCol = col;
+        sort.col = col;
         // Default ascending for rank/name/tractionRank, descending for scores/avg
-        this.sortDir = (col === 'rank' || col === 'name' || col === 'ycPartner' || col === 'tractionRank') ? 1 : -1;
+        sort.dir = (col === 'rank' || col === 'name' || col === 'ycPartner' || col === 'tractionRank') ? 1 : -1;
       }
     },
 

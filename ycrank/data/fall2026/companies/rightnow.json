@@ -43,9 +43,9 @@
   "consolidatedAvg": 40.33,
   "consolidatedRank": 100,
   "traction": {
-    "tractionRank": 86,
-    "tractionScore": 50,
-    "tractionReason": "Kernel tooling reportedly used at NVIDIA, AMD, and other named organizations"
+    "tractionRank": 101,
+    "tractionScore": 51,
+    "tractionReason": "Named kernel-tool users, existing hosted API accounts and balances migrated"
   },
   "paths": {
     "memo": "fall2026/memos/rightnow.md",

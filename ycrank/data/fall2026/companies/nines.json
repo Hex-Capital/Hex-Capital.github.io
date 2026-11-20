@@ -41,9 +41,9 @@
   "consolidatedAvg": 35,
   "consolidatedRank": 230,
   "traction": {
-    "tractionRank": 207,
-    "tractionScore": 17,
-    "tractionReason": "Data-center robotics launch, orders and pilots undisclosed"
+    "tractionRank": 216,
+    "tractionScore": 13,
+    "tractionReason": "Public robot launch, no disclosed data center deployments"
   },
   "paths": {
     "memo": "fall2026/memos/nines.md",

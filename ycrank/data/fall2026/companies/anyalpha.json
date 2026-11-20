@@ -43,9 +43,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 118,
   "traction": {
-    "tractionRank": 94,
-    "tractionScore": 49,
-    "tractionReason": "1,000+ active traders, $1M+ weekly trading volume"
+    "tractionRank": 66,
+    "tractionScore": 57,
+    "tractionReason": "1,000+ active traders, $1M+ weekly trading volume, reported weekly doubling"
   },
   "paths": {
     "memo": "fall2026/memos/anyalpha.md",

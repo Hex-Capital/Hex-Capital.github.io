@@ -42,9 +42,9 @@
   "consolidatedAvg": 39.33,
   "consolidatedRank": 129,
   "traction": {
-    "tractionRank": 126,
-    "tractionScore": 42,
-    "tractionReason": "Signed insurance customer, contract value undisclosed"
+    "tractionRank": 87,
+    "tractionScore": 53,
+    "tractionReason": "Signed largest insurance customer to date, contract value undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ageospatial.md",

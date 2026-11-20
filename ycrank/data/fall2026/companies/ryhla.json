@@ -44,9 +44,9 @@
   "consolidatedAvg": 44.33,
   "consolidatedRank": 32,
   "traction": {
-    "tractionRank": 135,
-    "tractionScore": 38,
-    "tractionReason": "One live solar-developer deployment, payment undisclosed"
+    "tractionRank": 131,
+    "tractionScore": 47,
+    "tractionReason": "Live Midwest solar deployment, model coverage across 11 utility territories"
   },
   "paths": {
     "memo": "fall2026/memos/ryhla.md",

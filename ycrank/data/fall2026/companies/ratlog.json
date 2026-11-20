@@ -38,11 +38,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 171,
+  "consolidatedRank": 170,
   "traction": {
-    "tractionRank": 59,
-    "tractionScore": 56,
-    "tractionReason": "$400M in signed launch reservations, deposits and cancellation terms undisclosed"
+    "tractionRank": 77,
+    "tractionScore": 55,
+    "tractionReason": "$400M in signed launch reservations, deposits and buyers undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/ratlog.md",

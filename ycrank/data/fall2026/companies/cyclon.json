@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 212,
   "traction": {
-    "tractionRank": 190,
+    "tractionRank": 191,
     "tractionScore": 23,
-    "tractionReason": "Refundable reservation offered, reservation count undisclosed"
+    "tractionReason": "$199 refundable handset reservations open, reservation count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/cyclon.md",

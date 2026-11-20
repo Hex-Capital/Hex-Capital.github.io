@@ -44,9 +44,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 117,
   "traction": {
-    "tractionRank": 164,
-    "tractionScore": 34,
-    "tractionReason": "Managed teams onboarding, unallocated company-level revenue classification"
+    "tractionRank": 170,
+    "tractionScore": 36,
+    "tractionReason": "Managed teams onboarding without fees, SDK has 46 stars"
   },
   "paths": {
     "memo": "fall2026/memos/acyclic.md",

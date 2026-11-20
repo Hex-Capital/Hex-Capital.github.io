@@ -37,9 +37,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 79,
   "traction": {
-    "tractionRank": 81,
-    "tractionScore": 51,
-    "tractionReason": "200+ teams joined since October, named users include UC Berkeley"
+    "tractionRank": 85,
+    "tractionScore": 54,
+    "tractionReason": "200+ teams joined since October, seven named users"
   },
   "paths": {
     "memo": "fall2026/memos/nodus-compute.md",

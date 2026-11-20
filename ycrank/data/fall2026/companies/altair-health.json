@@ -40,11 +40,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 174,
+  "consolidatedRank": 173,
   "traction": {
-    "tractionRank": 199,
-    "tractionScore": 20,
-    "tractionReason": "Current billing product has no disclosed sales or deployments"
+    "tractionRank": 204,
+    "tractionScore": 17,
+    "tractionReason": "Earlier co-pilot clinic use, current billing product adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/altair-health.md",

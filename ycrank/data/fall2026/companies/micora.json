@@ -42,9 +42,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 110,
   "traction": {
-    "tractionRank": 84,
-    "tractionScore": 51,
-    "tractionReason": "Pacific island and manufacturing deployments underway, payment undisclosed"
+    "tractionRank": 86,
+    "tractionScore": 53,
+    "tractionReason": "Initial microgrid projects under construction at island and manufacturing sites"
   },
   "paths": {
     "memo": "fall2026/memos/micora.md",

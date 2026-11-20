@@ -42,8 +42,8 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 66,
   "traction": {
-    "tractionRank": 37,
-    "tractionScore": 62,
+    "tractionRank": 32,
+    "tractionScore": 64,
     "tractionReason": "$100K in signed contracts across two formalization environments"
   },
   "paths": {

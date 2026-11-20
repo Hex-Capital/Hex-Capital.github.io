@@ -41,9 +41,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 50,
   "traction": {
-    "tractionRank": 62,
-    "tractionScore": 56,
-    "tractionReason": "One paying engine manufacturer, over 1.3 GW under LOIs"
+    "tractionRank": 75,
+    "tractionScore": 55,
+    "tractionReason": "One paying engine manufacturer and 1.3 GW under letters of intent"
   },
   "paths": {
     "memo": "fall2026/memos/viraj-aero.md",

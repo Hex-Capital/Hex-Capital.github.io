@@ -41,11 +41,11 @@
     "EXIT": 39
   },
   "consolidatedAvg": 37.33,
-  "consolidatedRank": 188,
+  "consolidatedRank": 187,
   "traction": {
-    "tractionRank": 201,
-    "tractionScore": 19,
-    "tractionReason": "Demonstration at Chula Vista test site, customer orders undisclosed"
+    "tractionRank": 205,
+    "tractionScore": 17,
+    "tractionReason": "Third-party test-site demonstration, no disclosed sales"
   },
   "paths": {
     "memo": "fall2026/memos/degla-inc.md",

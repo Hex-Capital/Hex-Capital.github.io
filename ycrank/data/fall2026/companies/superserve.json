@@ -42,9 +42,9 @@
   "consolidatedAvg": 44.67,
   "consolidatedRank": 27,
   "traction": {
-    "tractionRank": 46,
-    "tractionScore": 60,
-    "tractionReason": "100K+ machines weekly, 48M sandbox-minutes, 50+ teams"
+    "tractionRank": 52,
+    "tractionScore": 59,
+    "tractionReason": "100K+ machines weekly, 48M customer sandbox-minutes, 50+ teams"
   },
   "paths": {
     "memo": "fall2026/memos/superserve.md",

@@ -42,11 +42,11 @@
     "EXIT": 38
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 198,
+  "consolidatedRank": 197,
   "traction": {
-    "tractionRank": 183,
-    "tractionScore": 27,
-    "tractionReason": "Current Helios Test waitlist, signup count undisclosed"
+    "tractionRank": 190,
+    "tractionScore": 24,
+    "tractionReason": "Molecular test waitlist open, signup count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/helios-intelligence.md",

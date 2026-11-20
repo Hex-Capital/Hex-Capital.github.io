@@ -42,9 +42,9 @@
   "consolidatedAvg": 42.33,
   "consolidatedRank": 60,
   "traction": {
-    "tractionRank": 64,
-    "tractionScore": 55,
-    "tractionReason": "Five named employer case studies, carrier-paid brokerage model"
+    "tractionRank": 45,
+    "tractionScore": 61,
+    "tractionReason": "Five named brokerage customers, carrier-paid commissions"
   },
   "paths": {
     "memo": "fall2026/memos/ignition-benefits.md",

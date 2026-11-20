@@ -41,9 +41,9 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 16,
   "traction": {
-    "tractionRank": 29,
-    "tractionScore": 65,
-    "tractionReason": "55 live facilities, multi-site rollout at Responsive Health Management"
+    "tractionRank": 30,
+    "tractionScore": 64,
+    "tractionReason": "55 live care facilities, monthly invoicing, named multi-site deployment"
   },
   "paths": {
     "memo": "fall2026/memos/ascenix.md",

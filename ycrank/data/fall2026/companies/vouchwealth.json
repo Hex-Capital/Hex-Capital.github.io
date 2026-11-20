@@ -40,9 +40,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 220,
   "traction": {
-    "tractionRank": 177,
+    "tractionRank": 179,
     "tractionScore": 31,
-    "tractionReason": "27+ fund houses empanelled, investor adoption undisclosed"
+    "tractionReason": "27+ fund houses empanelled, early access announced"
   },
   "paths": {
     "memo": "fall2026/memos/vouchwealth.md",

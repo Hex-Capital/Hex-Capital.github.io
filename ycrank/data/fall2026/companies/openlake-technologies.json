@@ -43,9 +43,9 @@
   "consolidatedAvg": 40,
   "consolidatedRank": 112,
   "traction": {
-    "tractionRank": 47,
+    "tractionRank": 51,
     "tractionScore": 59,
-    "tractionReason": "100B+ tokens daily platform-wide, customer training use reported"
+    "tractionReason": "100B+ tokens served daily, customer trained a production model"
   },
   "paths": {
     "memo": "fall2026/memos/openlake-technologies.md",

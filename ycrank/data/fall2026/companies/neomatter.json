@@ -40,11 +40,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 39.33,
-  "consolidatedRank": 135,
+  "consolidatedRank": 134,
   "traction": {
-    "tractionRank": 132,
-    "tractionScore": 39,
-    "tractionReason": "73% weekly user growth from undisclosed base, one reported customer outcome"
+    "tractionRank": 145,
+    "tractionScore": 44,
+    "tractionReason": "Reported 73% weekly user growth and one customer outcome"
   },
   "paths": {
     "memo": "fall2026/memos/neomatter.md",

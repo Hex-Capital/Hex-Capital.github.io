@@ -42,11 +42,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 184,
+  "consolidatedRank": 183,
   "traction": {
-    "tractionRank": 180,
-    "tractionScore": 29,
-    "tractionReason": "28 Chrome extension users and one named dashboard example"
+    "tractionRank": 178,
+    "tractionScore": 31,
+    "tractionReason": "28 Chrome users, three Firefox users, one dashboard example"
   },
   "paths": {
     "memo": "fall2026/memos/spacesheep.md",

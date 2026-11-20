@@ -41,11 +41,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 178,
+  "consolidatedRank": 177,
   "traction": {
-    "tractionRank": 198,
-    "tractionScore": 20,
-    "tractionReason": "Current finance platform publicly introduced, customer adoption undisclosed"
+    "tractionRank": 200,
+    "tractionScore": 18,
+    "tractionReason": "Current finance platform public, deployment disclosed only for prior product"
   },
   "paths": {
     "memo": "fall2026/memos/definite.md",

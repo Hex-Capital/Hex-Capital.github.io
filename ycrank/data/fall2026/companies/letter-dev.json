@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 90,
   "traction": {
-    "tractionRank": 30,
-    "tractionScore": 65,
-    "tractionReason": "100+ reported customers and thousands of pull requests"
+    "tractionRank": 48,
+    "tractionScore": 60,
+    "tractionReason": "100+ customers, thousands of pull requests, $250/month entry plan"
   },
   "paths": {
     "memo": "fall2026/memos/letter-dev.md",

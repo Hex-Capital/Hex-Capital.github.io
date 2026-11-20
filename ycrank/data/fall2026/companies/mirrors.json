@@ -42,11 +42,11 @@
     "EXIT": 38
   },
   "consolidatedAvg": 39.33,
-  "consolidatedRank": 134,
+  "consolidatedRank": 133,
   "traction": {
-    "tractionRank": 153,
-    "tractionScore": 36,
-    "tractionReason": "63,052 reported agent turns and one design-partner example"
+    "tractionRank": 160,
+    "tractionScore": 42,
+    "tractionReason": "63,052 agent turns and one disclosed design-partner example"
   },
   "paths": {
     "memo": "fall2026/memos/mirrors.md",

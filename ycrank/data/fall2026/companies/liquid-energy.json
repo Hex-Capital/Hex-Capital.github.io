@@ -41,11 +41,11 @@
     "EXIT": 39
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 146,
+  "consolidatedRank": 145,
   "traction": {
-    "tractionRank": 169,
-    "tractionScore": 33,
-    "tractionReason": "Unnamed inference-platform agreements, initial go-live unconfirmed"
+    "tractionRank": 142,
+    "tractionScore": 45,
+    "tractionReason": "Unnamed inference-platform agreements, first go-live unconfirmed"
   },
   "paths": {
     "memo": "fall2026/memos/liquid-energy.md",

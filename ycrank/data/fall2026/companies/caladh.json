@@ -43,9 +43,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 206,
   "traction": {
-    "tractionRank": 227,
+    "tractionRank": 226,
     "tractionScore": 10,
-    "tractionReason": "Public launch, no disclosed customers or orders"
+    "tractionReason": "Public launch, no disclosed buyers or deployments"
   },
   "paths": {
     "memo": "fall2026/memos/caladh.md",

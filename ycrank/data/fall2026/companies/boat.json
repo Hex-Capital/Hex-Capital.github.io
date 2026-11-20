@@ -41,9 +41,9 @@
   "consolidatedAvg": 46.67,
   "consolidatedRank": 10,
   "traction": {
-    "tractionRank": 4,
+    "tractionRank": 3,
     "tractionScore": 95,
-    "tractionReason": "$1M ARR from $200K one month earlier, 350+ paying users"
+    "tractionReason": "$1M ARR, up fivefold in one month, 350+ paying users"
   },
   "paths": {
     "memo": "fall2026/memos/boat.md",

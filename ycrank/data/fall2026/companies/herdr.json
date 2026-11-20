@@ -42,9 +42,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 45,
   "traction": {
-    "tractionRank": 51,
-    "tractionScore": 58,
-    "tractionReason": "2.16M reported TUI installs, up from 340K downloads in August"
+    "tractionRank": 64,
+    "tractionScore": 57,
+    "tractionReason": "2.16M reported terminal installs and 3,100 desktop repository stars"
   },
   "paths": {
     "memo": "fall2026/memos/herdr.md",

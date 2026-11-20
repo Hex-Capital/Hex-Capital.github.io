@@ -42,11 +42,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 38.67,
-  "consolidatedRank": 154,
+  "consolidatedRank": 153,
   "traction": {
-    "tractionRank": 146,
-    "tractionScore": 37,
-    "tractionReason": "Current-product workflow testimonials from unnamed customers, payment undisclosed"
+    "tractionRank": 138,
+    "tractionScore": 45,
+    "tractionReason": "Current-product testimonials from support and finance teams"
   },
   "paths": {
     "memo": "fall2026/memos/godhands.md",

@@ -42,11 +42,11 @@
     "EXIT": 40
   },
   "consolidatedAvg": 39.33,
-  "consolidatedRank": 138,
+  "consolidatedRank": 137,
   "traction": {
-    "tractionRank": 212,
-    "tractionScore": 15,
-    "tractionReason": "Public robot demo and internal benchmarks, customer trials undisclosed"
+    "tractionRank": 217,
+    "tractionScore": 13,
+    "tractionReason": "Bench testing reported, no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/shepherd-robotics.md",

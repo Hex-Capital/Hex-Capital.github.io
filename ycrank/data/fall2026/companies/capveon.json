@@ -38,11 +38,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 37.33,
-  "consolidatedRank": 187,
+  "consolidatedRank": 186,
   "traction": {
-    "tractionRank": 197,
-    "tractionScore": 21,
-    "tractionReason": "Current tender product covers 14 countries, paying customers undisclosed"
+    "tractionRank": 199,
+    "tractionScore": 19,
+    "tractionReason": "Current tender product launched, earlier workflow product reported customers"
   },
   "paths": {
     "memo": "fall2026/memos/capveon.md",

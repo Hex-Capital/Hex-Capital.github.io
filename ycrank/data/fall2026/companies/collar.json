@@ -44,9 +44,9 @@
   "consolidatedAvg": 42.67,
   "consolidatedRank": 52,
   "traction": {
-    "tractionRank": 16,
-    "tractionScore": 72,
-    "tractionReason": "4× monthly revenue growth from undisclosed base, $1.4M pending compliance"
+    "tractionRank": 25,
+    "tractionScore": 66,
+    "tractionReason": "Reported 4× monthly revenue growth from undisclosed base, 30 partners"
   },
   "paths": {
     "memo": "fall2026/memos/collar.md",

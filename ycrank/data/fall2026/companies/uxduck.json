@@ -40,11 +40,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 39.33,
-  "consolidatedRank": 141,
+  "consolidatedRank": 140,
   "traction": {
-    "tractionRank": 155,
-    "tractionScore": 36,
-    "tractionReason": "500+ external simulation hours, one customer testimonial"
+    "tractionRank": 162,
+    "tractionScore": 41,
+    "tractionReason": "500+ external simulated flight hours and one named user testimonial"
   },
   "paths": {
     "memo": "fall2026/memos/uxduck.md",

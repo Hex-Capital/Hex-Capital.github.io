@@ -40,11 +40,11 @@
     "EXIT": 40
   },
   "consolidatedAvg": 39.33,
-  "consolidatedRank": 136,
+  "consolidatedRank": 135,
   "traction": {
-    "tractionRank": 66,
-    "tractionScore": 55,
-    "tractionReason": "$1.05M in closed lease value in 22 days, fee undisclosed"
+    "tractionRank": 37,
+    "tractionScore": 62,
+    "tractionReason": "$1.05M in leases closed in 22 days, landlord-paid brokerage model"
   },
   "paths": {
     "memo": "fall2026/memos/obia.md",

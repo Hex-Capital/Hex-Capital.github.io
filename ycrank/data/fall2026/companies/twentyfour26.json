@@ -44,9 +44,9 @@
   "consolidatedAvg": 40.33,
   "consolidatedRank": 103,
   "traction": {
-    "tractionRank": 100,
-    "tractionScore": 48,
-    "tractionReason": "Manufacturing parts for Bay Area customers, pricing by accepted quote"
+    "tractionRank": 107,
+    "tractionScore": 50,
+    "tractionReason": "Producing CNC parts for Bay Area hardware companies"
   },
   "paths": {
     "memo": "fall2026/memos/twentyfour26.md",

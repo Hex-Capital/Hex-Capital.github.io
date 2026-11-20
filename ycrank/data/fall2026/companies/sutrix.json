@@ -41,9 +41,9 @@
   "consolidatedAvg": 46.33,
   "consolidatedRank": 14,
   "traction": {
-    "tractionRank": 14,
-    "tractionScore": 74,
-    "tractionReason": "Paying research teams at 10+ institutions"
+    "tractionRank": 10,
+    "tractionScore": 81,
+    "tractionReason": "$150K+ before software release, paying teams at 10+ institutions"
   },
   "paths": {
     "memo": "fall2026/memos/sutrix.md",

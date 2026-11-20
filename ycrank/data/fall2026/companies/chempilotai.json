@@ -42,11 +42,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 177,
+  "consolidatedRank": 176,
   "traction": {
     "tractionRank": 231,
-    "tractionScore": 9,
-    "tractionReason": "First lab running internal experiments, no disclosed current contracts"
+    "tractionScore": 7,
+    "tractionReason": "First lab running, no disclosed current commercial engagements"
   },
   "paths": {
     "memo": "fall2026/memos/chempilotai.md",

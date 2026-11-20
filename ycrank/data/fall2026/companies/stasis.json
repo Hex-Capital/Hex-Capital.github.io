@@ -43,9 +43,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 218,
   "traction": {
-    "tractionRank": 191,
+    "tractionRank": 192,
     "tractionScore": 23,
-    "tractionReason": "Reservations opened November 9, deposit count undisclosed"
+    "tractionReason": "$99 refundable glasses reservations open, reservation count undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/stasis.md",

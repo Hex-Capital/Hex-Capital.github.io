@@ -42,11 +42,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 38.33,
-  "consolidatedRank": 162,
+  "consolidatedRank": 161,
   "traction": {
-    "tractionRank": 128,
-    "tractionScore": 40,
-    "tractionReason": "Direct work with unnamed frontier AI labs, payments undisclosed"
+    "tractionRank": 120,
+    "tractionScore": 48,
+    "tractionReason": "Direct work reported with unnamed frontier AI labs"
   },
   "paths": {
     "memo": "fall2026/memos/epsilab-com.md",

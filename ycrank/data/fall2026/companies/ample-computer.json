@@ -43,9 +43,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 68,
   "traction": {
-    "tractionRank": 93,
-    "tractionScore": 49,
-    "tractionReason": "5,000 users at public launch, two documented live applications"
+    "tractionRank": 68,
+    "tractionScore": 56,
+    "tractionReason": "5,000 users at public launch, two live customer storefront examples"
   },
   "paths": {
     "memo": "fall2026/memos/ample-computer.md",

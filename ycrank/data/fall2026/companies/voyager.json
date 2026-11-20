@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.33,
   "consolidatedRank": 106,
   "traction": {
-    "tractionRank": 159,
-    "tractionScore": 35,
-    "tractionReason": "1,600 research-preview repository stars, paid usage undisclosed"
+    "tractionRank": 168,
+    "tractionScore": 38,
+    "tractionReason": "1,600 research-preview repository stars and 266 Discord members"
   },
   "paths": {
     "memo": "fall2026/memos/voyager.md",

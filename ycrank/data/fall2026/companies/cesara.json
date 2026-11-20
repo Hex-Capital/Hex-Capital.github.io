@@ -41,9 +41,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 120,
   "traction": {
-    "tractionRank": 137,
-    "tractionScore": 38,
-    "tractionReason": "Pilot recovered underpayments under outcome-based pricing, fees undisclosed"
+    "tractionRank": 132,
+    "tractionScore": 47,
+    "tractionReason": "Outcome-priced pilot recovered over 70% of identified valid underpayments"
   },
   "paths": {
     "memo": "fall2026/memos/cesara.md",

@@ -42,9 +42,9 @@
   "consolidatedAvg": 44.33,
   "consolidatedRank": 30,
   "traction": {
-    "tractionRank": 69,
-    "tractionScore": 54,
-    "tractionReason": "Agents cover roughly 2 GW, named energy counterparties"
+    "tractionRank": 72,
+    "tractionScore": 56,
+    "tractionReason": "Approximately 2 GW covered by agents, named energy partners"
   },
   "paths": {
     "memo": "fall2026/memos/invertix.md",

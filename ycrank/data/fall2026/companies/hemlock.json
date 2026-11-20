@@ -42,9 +42,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 78,
   "traction": {
-    "tractionRank": 205,
-    "tractionScore": 18,
-    "tractionReason": "Internal robotics results published, no disclosed customers or revenue"
+    "tractionRank": 207,
+    "tractionScore": 16,
+    "tractionReason": "Internal robotics benchmarks, no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/hemlock.md",

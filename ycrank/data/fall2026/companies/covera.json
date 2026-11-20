@@ -44,9 +44,9 @@
   "consolidatedAvg": 46.33,
   "consolidatedRank": 11,
   "traction": {
-    "tractionRank": 70,
-    "tractionScore": 54,
-    "tractionReason": "90+ brokers live in three months, two named customer testimonials"
+    "tractionRank": 69,
+    "tractionScore": 56,
+    "tractionReason": "90+ brokers live in three months, two named usage testimonials"
   },
   "paths": {
     "memo": "fall2026/memos/covera.md",

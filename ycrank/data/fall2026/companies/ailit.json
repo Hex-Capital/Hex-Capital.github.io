@@ -42,11 +42,11 @@
     "EXIT": 39
   },
   "consolidatedAvg": 37.33,
-  "consolidatedRank": 186,
+  "consolidatedRank": 185,
   "traction": {
-    "tractionRank": 233,
-    "tractionScore": 8,
-    "tractionReason": "Full-scale prototype awaiting commissioning, no disclosed orders"
+    "tractionRank": 236,
+    "tractionScore": 4,
+    "tractionReason": "Full-scale prototype completed, no disclosed customer orders"
   },
   "paths": {
     "memo": "fall2026/memos/ailit.md",

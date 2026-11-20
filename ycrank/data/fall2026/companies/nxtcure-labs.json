@@ -41,9 +41,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 225,
   "traction": {
-    "tractionRank": 229,
-    "tractionScore": 9,
-    "tractionReason": "Current GalenOps product demonstrated, no disclosed commercial engagements"
+    "tractionRank": 233,
+    "tractionScore": 6,
+    "tractionReason": "Current GalenOps product demonstrated, no disclosed customers"
   },
   "paths": {
     "memo": "fall2026/memos/nxtcure-labs.md",

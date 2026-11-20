@@ -41,9 +41,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 216,
   "traction": {
-    "tractionRank": 145,
-    "tractionScore": 37,
-    "tractionReason": "One self-identified customer and an unnamed pilot partner"
+    "tractionRank": 140,
+    "tractionScore": 45,
+    "tractionReason": "One reported pilot partner and a self-identified Faraday customer"
   },
   "paths": {
     "memo": "fall2026/memos/openscaffold.md",

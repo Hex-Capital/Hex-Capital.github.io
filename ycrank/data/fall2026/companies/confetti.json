@@ -44,9 +44,9 @@
   "consolidatedAvg": 40.33,
   "consolidatedRank": 98,
   "traction": {
-    "tractionRank": 179,
-    "tractionScore": 30,
-    "tractionReason": "36 public design pages and 70 reported Discord members"
+    "tractionRank": 177,
+    "tractionScore": 32,
+    "tractionReason": "36 public designs and approximately 70 Discord members"
   },
   "paths": {
     "memo": "fall2026/memos/confetti.md",

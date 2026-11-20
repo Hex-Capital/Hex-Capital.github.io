@@ -41,9 +41,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 200,
   "traction": {
-    "tractionRank": 129,
-    "tractionScore": 39,
-    "tractionReason": "Gym reports building custom training tasks with unnamed teams"
+    "tractionRank": 127,
+    "tractionScore": 47,
+    "tractionReason": "Building custom Melty Gym training tasks with unnamed teams"
   },
   "paths": {
     "memo": "fall2026/memos/melty-gg.md",

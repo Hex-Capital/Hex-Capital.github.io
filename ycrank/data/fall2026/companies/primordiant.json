@@ -42,11 +42,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 39.33,
-  "consolidatedRank": 137,
+  "consolidatedRank": 136,
   "traction": {
-    "tractionRank": 138,
-    "tractionScore": 38,
-    "tractionReason": "Two unnamed client engagements, beta billing disabled"
+    "tractionRank": 147,
+    "tractionScore": 44,
+    "tractionReason": "Two reported client engagements, beta billing disabled"
   },
   "paths": {
     "memo": "fall2026/memos/primordiant.md",

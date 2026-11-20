@@ -44,9 +44,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 92,
   "traction": {
-    "tractionRank": 211,
-    "tractionScore": 16,
-    "tractionReason": "Public environments and leaderboard, no disclosed commercial deployments"
+    "tractionRank": 213,
+    "tractionScore": 14,
+    "tractionReason": "Published reasoning benchmarks, no disclosed lab customers"
   },
   "paths": {
     "memo": "fall2026/memos/reific.md",

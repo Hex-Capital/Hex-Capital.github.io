@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 211,
   "traction": {
-    "tractionRank": 236,
-    "tractionScore": 5,
-    "tractionReason": "Early research results reported, no disclosed commercial engagements"
+    "tractionRank": 237,
+    "tractionScore": 2,
+    "tractionReason": "Research-stage platform, no disclosed commercial partners or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/biodelivera.md",

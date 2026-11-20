@@ -41,11 +41,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 199,
+  "consolidatedRank": 198,
   "traction": {
-    "tractionRank": 172,
-    "tractionScore": 33,
-    "tractionReason": "First launch booked for 2028, customer orders undisclosed"
+    "tractionRank": 134,
+    "tractionScore": 46,
+    "tractionReason": "First launch booked for Q1 2028, payment undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/inflection-space-systems.md",

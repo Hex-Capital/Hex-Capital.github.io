@@ -41,11 +41,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 166,
+  "consolidatedRank": 165,
   "traction": {
-    "tractionRank": 104,
-    "tractionScore": 47,
-    "tractionReason": "Reported finding 1,500+ bugs in customer applications since mid-October"
+    "tractionRank": 122,
+    "tractionScore": 48,
+    "tractionReason": "1,500+ bugs found in customer apps since mid-October"
   },
   "paths": {
     "memo": "fall2026/memos/composal.md",

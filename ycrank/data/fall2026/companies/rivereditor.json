@@ -41,9 +41,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 217,
   "traction": {
-    "tractionRank": 48,
+    "tractionRank": 53,
     "tractionScore": 59,
-    "tractionReason": "100,000+ creators reported, up from 75,000 users in September"
+    "tractionReason": "100,000+ creators, earlier beta users created 200,000+ files"
   },
   "paths": {
     "memo": "fall2026/memos/rivereditor.md",

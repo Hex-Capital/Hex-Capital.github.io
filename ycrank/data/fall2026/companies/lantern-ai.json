@@ -44,9 +44,9 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 18,
   "traction": {
-    "tractionRank": 3,
-    "tractionScore": 96,
-    "tractionReason": "$1M enterprise ARR, 30% monthly growth, 270% net dollar retention"
+    "tractionRank": 4,
+    "tractionScore": 94,
+    "tractionReason": "$1M enterprise recurring contracts, 30% monthly growth, 270% NDR"
   },
   "paths": {
     "memo": "fall2026/memos/lantern-ai.md",

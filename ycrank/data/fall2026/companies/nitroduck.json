@@ -42,9 +42,9 @@
   "consolidatedAvg": 35,
   "consolidatedRank": 231,
   "traction": {
-    "tractionRank": 226,
-    "tractionScore": 10,
-    "tractionReason": "Crop-editing offering announced, no disclosed customers or revenue"
+    "tractionRank": 230,
+    "tractionScore": 8,
+    "tractionReason": "Crop-editing offering announced, no disclosed customers or pilots"
   },
   "paths": {
     "memo": "fall2026/memos/nitroduck.md",

@@ -43,9 +43,9 @@
   "consolidatedAvg": 39.33,
   "consolidatedRank": 132,
   "traction": {
-    "tractionRank": 165,
-    "tractionScore": 34,
-    "tractionReason": "Unnamed fintech benchmark and reported insurer engagement"
+    "tractionRank": 151,
+    "tractionScore": 44,
+    "tractionReason": "Fintech evaluation and reported work with an unnamed insurer"
   },
   "paths": {
     "memo": "fall2026/memos/lyon.md",

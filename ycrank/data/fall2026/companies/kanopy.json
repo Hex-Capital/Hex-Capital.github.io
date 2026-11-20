@@ -41,9 +41,9 @@
   "consolidatedAvg": 43.33,
   "consolidatedRank": 40,
   "traction": {
-    "tractionRank": 61,
-    "tractionScore": 56,
-    "tractionReason": "Six counterparties signed LOIs or MSAs, 3,093 miles mapped"
+    "tractionRank": 76,
+    "tractionScore": 55,
+    "tractionReason": "Six LOIs or service agreements, 3,093 miles mapped, ACRT integration"
   },
   "paths": {
     "memo": "fall2026/memos/kanopy.md",

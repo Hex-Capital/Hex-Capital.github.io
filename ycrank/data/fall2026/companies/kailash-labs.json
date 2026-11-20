@@ -41,9 +41,9 @@
   "consolidatedAvg": 35,
   "consolidatedRank": 229,
   "traction": {
-    "tractionRank": 194,
-    "tractionScore": 22,
-    "tractionReason": "Current robot-station pilot bookings open, signed pilots undisclosed"
+    "tractionRank": 201,
+    "tractionScore": 18,
+    "tractionReason": "Robot-station pilot bookings open, no disclosed bookings"
   },
   "paths": {
     "memo": "fall2026/memos/kailash-labs.md",

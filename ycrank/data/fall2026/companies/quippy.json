@@ -40,11 +40,11 @@
     "EXIT": 33
   },
   "consolidatedAvg": 38.33,
-  "consolidatedRank": 164,
+  "consolidatedRank": 163,
   "traction": {
-    "tractionRank": 95,
-    "tractionScore": 49,
-    "tractionReason": "Estimated 10,000+ lifetime iOS installs and 92 U.S. ratings"
+    "tractionRank": 96,
+    "tractionScore": 52,
+    "tractionReason": "10,000+ estimated iOS installs and 92 US ratings"
   },
   "paths": {
     "memo": "fall2026/memos/quippy.md",

@@ -43,9 +43,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 73,
   "traction": {
-    "tractionRank": 217,
-    "tractionScore": 14,
-    "tractionReason": "Internal test of 50 concurrent agents, customer use undisclosed"
+    "tractionRank": 211,
+    "tractionScore": 15,
+    "tractionReason": "Internal concurrency benchmark, primary repository has one star"
   },
   "paths": {
     "memo": "fall2026/memos/tilo.md",

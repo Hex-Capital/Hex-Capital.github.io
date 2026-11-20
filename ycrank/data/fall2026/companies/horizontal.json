@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 37.33,
-  "consolidatedRank": 189,
+  "consolidatedRank": 188,
   "traction": {
-    "tractionRank": 144,
-    "tractionScore": 37,
-    "tractionReason": "Reports testing with manufacturers in operating plants"
+    "tractionRank": 128,
+    "tractionScore": 47,
+    "tractionReason": "Reports working with international manufacturers and testing in operating plants"
   },
   "paths": {
     "memo": "fall2026/memos/horizontal.md",

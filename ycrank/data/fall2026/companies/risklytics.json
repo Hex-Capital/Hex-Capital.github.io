@@ -42,11 +42,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 148,
+  "consolidatedRank": 147,
   "traction": {
-    "tractionRank": 106,
-    "tractionScore": 46,
-    "tractionReason": "Placed coverage for three businesses in one week, commissions undisclosed"
+    "tractionRank": 93,
+    "tractionScore": 52,
+    "tractionReason": "Three businesses placed in one week, carrier-paid commission model"
   },
   "paths": {
     "memo": "fall2026/memos/risklytics.md",

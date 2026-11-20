@@ -35,11 +35,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 150,
+  "consolidatedRank": 149,
   "traction": {
-    "tractionRank": 133,
-    "tractionScore": 39,
-    "tractionReason": "One named customer reports months of use, payment undisclosed"
+    "tractionRank": 117,
+    "tractionScore": 49,
+    "tractionReason": "Named customer reports months of use coordinating agents"
   },
   "paths": {
     "memo": "fall2026/memos/the-company-company.md",

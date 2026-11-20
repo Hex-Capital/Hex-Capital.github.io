@@ -40,11 +40,11 @@
     "EXIT": 34
   },
   "consolidatedAvg": 37.33,
-  "consolidatedRank": 193,
+  "consolidatedRank": 192,
   "traction": {
-    "tractionRank": 210,
-    "tractionScore": 16,
-    "tractionReason": "Current robot policy demonstrated, customer adoption undisclosed"
+    "tractionRank": 206,
+    "tractionScore": 17,
+    "tractionReason": "Current policy demonstrated, pilots disclosed only for earlier offering"
   },
   "paths": {
     "memo": "fall2026/memos/runtimesi.md",

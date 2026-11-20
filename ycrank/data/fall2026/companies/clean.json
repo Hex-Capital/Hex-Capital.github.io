@@ -40,9 +40,9 @@
   "consolidatedAvg": 42.67,
   "consolidatedRank": 51,
   "traction": {
-    "tractionRank": 13,
-    "tractionScore": 74,
-    "tractionReason": "Over $200K ARR reported in October, paying customer disclosed"
+    "tractionRank": 11,
+    "tractionScore": 76,
+    "tractionReason": "$240K reported ARR and multiple named sales-product customers"
   },
   "paths": {
     "memo": "fall2026/memos/clean.md",

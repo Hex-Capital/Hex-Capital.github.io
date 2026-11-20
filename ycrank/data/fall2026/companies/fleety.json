@@ -43,9 +43,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 77,
   "traction": {
-    "tractionRank": 101,
-    "tractionScore": 47,
-    "tractionReason": "Named plumbing deployments, reported zero churn with cohort undisclosed"
+    "tractionRank": 89,
+    "tractionScore": 53,
+    "tractionReason": "Named dispatch deployments in two states, zero churn reported"
   },
   "paths": {
     "memo": "fall2026/memos/fleety.md",

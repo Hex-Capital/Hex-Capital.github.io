@@ -41,9 +41,9 @@
   "consolidatedAvg": 43.33,
   "consolidatedRank": 39,
   "traction": {
-    "tractionRank": 115,
-    "tractionScore": 44,
-    "tractionReason": "Live bookings reported, Exa integration, named travel collaborators"
+    "tractionRank": 102,
+    "tractionScore": 51,
+    "tractionReason": "Live bookings reported, named integrations, published 1% booking fee"
   },
   "paths": {
     "memo": "fall2026/memos/jinko.md",

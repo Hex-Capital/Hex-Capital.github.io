@@ -43,9 +43,9 @@
   "consolidatedAvg": 46,
   "consolidatedRank": 15,
   "traction": {
-    "tractionRank": 45,
+    "tractionRank": 50,
     "tractionScore": 60,
-    "tractionReason": "250+ startups on current platform, reported customer sandbox spending"
+    "tractionReason": "250+ startups using current platform, reported $0.37 average sandbox spend"
   },
   "paths": {
     "memo": "fall2026/memos/agent-37.md",

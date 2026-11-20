@@ -41,11 +41,11 @@
     "EXIT": 39
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 179,
+  "consolidatedRank": 178,
   "traction": {
-    "tractionRank": 139,
-    "tractionScore": 38,
-    "tractionReason": "Three reported integrations, customer payments undisclosed"
+    "tractionRank": 114,
+    "tractionScore": 49,
+    "tractionReason": "Three vessel integrations and repeated field demonstrations"
   },
   "paths": {
     "memo": "fall2026/memos/foreshadow-industries.md",

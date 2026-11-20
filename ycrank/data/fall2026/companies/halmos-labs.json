@@ -42,11 +42,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 197,
+  "consolidatedRank": 196,
   "traction": {
-    "tractionRank": 175,
-    "tractionScore": 32,
-    "tractionReason": "Halmos Bio validation release and reported bioprocessing collaboration"
+    "tractionRank": 182,
+    "tractionScore": 28,
+    "tractionReason": "Bioprocess simulation collaboration, current-product sales undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/halmos-labs.md",

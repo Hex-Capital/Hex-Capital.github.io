@@ -40,11 +40,11 @@
     "EXIT": 38
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 145,
+  "consolidatedRank": 144,
   "traction": {
-    "tractionRank": 161,
-    "tractionScore": 35,
-    "tractionReason": "Siglake has 854 GitHub stars and 11 forks"
+    "tractionRank": 169,
+    "tractionScore": 37,
+    "tractionReason": "854 Siglake repository stars, 11 forks, no disclosed sales"
   },
   "paths": {
     "memo": "fall2026/memos/limnion.md",

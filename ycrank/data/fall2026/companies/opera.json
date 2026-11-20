@@ -42,11 +42,11 @@
     "EXIT": 38
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 170,
+  "consolidatedRank": 169,
   "traction": {
-    "tractionRank": 147,
-    "tractionScore": 37,
-    "tractionReason": "Reported outcomes for a sugar producer and a services marketplace"
+    "tractionRank": 130,
+    "tractionScore": 47,
+    "tractionReason": "Reported deployments with a sugar producer and services marketplace"
   },
   "paths": {
     "memo": "fall2026/memos/opera.md",

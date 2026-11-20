@@ -41,9 +41,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 128,
   "traction": {
-    "tractionRank": 50,
-    "tractionScore": 59,
-    "tractionReason": "100,000 Fortress installs, engineers at 170+ companies"
+    "tractionRank": 63,
+    "tractionScore": 57,
+    "tractionReason": "100,000 Fortress installs, engineers at 170+ companies, millions of daily operations"
   },
   "paths": {
     "memo": "fall2026/memos/tilion.md",

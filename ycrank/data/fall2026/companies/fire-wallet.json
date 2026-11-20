@@ -41,10 +41,10 @@
     "EXIT": 37
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 168,
+  "consolidatedRank": 167,
   "traction": {
-    "tractionRank": 125,
-    "tractionScore": 42,
+    "tractionRank": 115,
+    "tractionScore": 49,
     "tractionReason": "Signed Trustboop LOI and first enterprise customer onboarding"
   },
   "paths": {

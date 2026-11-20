@@ -42,11 +42,11 @@
     "EXIT": 38
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 173,
+  "consolidatedRank": 172,
   "traction": {
-    "tractionRank": 167,
-    "tractionScore": 34,
-    "tractionReason": "San Francisco clinic testing reported, paying test volume undisclosed"
+    "tractionRank": 163,
+    "tractionScore": 41,
+    "tractionReason": "Testing at San Francisco clinics, no paid adoption disclosed"
   },
   "paths": {
     "memo": "fall2026/memos/saccade.md",

@@ -38,11 +38,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 143,
+  "consolidatedRank": 142,
   "traction": {
-    "tractionRank": 200,
-    "tractionScore": 19,
-    "tractionReason": "Trade-show demo packed 800+ pens, customer deployments undisclosed"
+    "tractionRank": 202,
+    "tractionScore": 18,
+    "tractionReason": "Trade-show packing demonstration, no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/deploy.md",

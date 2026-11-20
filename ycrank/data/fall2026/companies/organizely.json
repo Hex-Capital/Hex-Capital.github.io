@@ -43,9 +43,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 123,
   "traction": {
-    "tractionRank": 82,
-    "tractionScore": 51,
-    "tractionReason": "Current factory ERP deployments across six states, revenue undisclosed"
+    "tractionRank": 113,
+    "tractionScore": 50,
+    "tractionReason": "Factory ERP deployed across six states, company-reported"
   },
   "paths": {
     "memo": "fall2026/memos/organizely.md",

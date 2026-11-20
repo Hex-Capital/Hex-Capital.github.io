@@ -42,9 +42,9 @@
   "consolidatedAvg": 42.33,
   "consolidatedRank": 63,
   "traction": {
-    "tractionRank": 49,
+    "tractionRank": 54,
     "tractionScore": 59,
-    "tractionReason": "1M beta play hours, over three hours daily per active user"
+    "tractionReason": "One million beta play hours, three-plus hours daily per active user"
   },
   "paths": {
     "memo": "fall2026/memos/yam.md",

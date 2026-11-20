@@ -42,9 +42,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 80,
   "traction": {
-    "tractionRank": 76,
-    "tractionScore": 53,
-    "tractionReason": "20,000 reported users in four weeks, paid conversion undisclosed"
+    "tractionRank": 67,
+    "tractionScore": 56,
+    "tractionReason": "20,000 users in four weeks, paid plans available"
   },
   "paths": {
     "memo": "fall2026/memos/reason-machines.md",

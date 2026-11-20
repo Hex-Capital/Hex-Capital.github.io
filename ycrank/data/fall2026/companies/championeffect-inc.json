@@ -42,9 +42,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 223,
   "traction": {
-    "tractionRank": 234,
-    "tractionScore": 7,
-    "tractionReason": "Launch reported, no disclosed customers, usage, or revenue"
+    "tractionRank": 224,
+    "tractionScore": 10,
+    "tractionReason": "Launch announced, no disclosed employer customers or users"
   },
   "paths": {
     "memo": "fall2026/memos/championeffect-inc.md",

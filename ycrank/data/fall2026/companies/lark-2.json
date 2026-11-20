@@ -42,9 +42,9 @@
   "consolidatedAvg": 44.33,
   "consolidatedRank": 31,
   "traction": {
-    "tractionRank": 118,
-    "tractionScore": 44,
-    "tractionReason": "Interline Hardware deployment and reported use by an unnamed first customer"
+    "tractionRank": 129,
+    "tractionScore": 47,
+    "tractionReason": "Interline Hardware deployed replenishment workflows covering 60,000+ items"
   },
   "paths": {
     "memo": "fall2026/memos/lark-2.md",

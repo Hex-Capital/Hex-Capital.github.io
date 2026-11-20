@@ -41,9 +41,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 87,
   "traction": {
-    "tractionRank": 119,
-    "tractionScore": 43,
-    "tractionReason": "Live deployments at U.S. seafood distributors, revenue undisclosed"
+    "tractionRank": 111,
+    "tractionScore": 50,
+    "tractionReason": "Live at U.S. seafood distributors, agreement-based transaction commissions"
   },
   "paths": {
     "memo": "fall2026/memos/asakana.md",

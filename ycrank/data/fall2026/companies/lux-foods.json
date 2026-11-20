@@ -42,11 +42,11 @@
     "EXIT": 33
   },
   "consolidatedAvg": 34.33,
-  "consolidatedRank": 234,
+  "consolidatedRank": 235,
   "traction": {
-    "tractionRank": 230,
-    "tractionScore": 9,
-    "tractionReason": "First farm under development, no disclosed orders or sales"
+    "tractionRank": 232,
+    "tractionScore": 7,
+    "tractionReason": "First farm under development, no disclosed produce sales"
   },
   "paths": {
     "memo": "fall2026/memos/lux-foods.md",

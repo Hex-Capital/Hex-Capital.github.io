@@ -40,11 +40,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 142,
+  "consolidatedRank": 141,
   "traction": {
-    "tractionRank": 130,
-    "tractionScore": 39,
-    "tractionReason": "Ten clinics and mobile vets onboarding, paid test volume undisclosed"
+    "tractionRank": 95,
+    "tractionScore": 52,
+    "tractionReason": "Ten veterinary providers onboarding and 150+ trade-show signups"
   },
   "paths": {
     "memo": "fall2026/memos/canos.md",

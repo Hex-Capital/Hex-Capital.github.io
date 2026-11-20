@@ -44,9 +44,9 @@
   "consolidatedAvg": 40.33,
   "consolidatedRank": 99,
   "traction": {
-    "tractionRank": 213,
+    "tractionRank": 212,
     "tractionScore": 15,
-    "tractionReason": "FrontierEE Bench released with ten tasks, no disclosed customers"
+    "tractionReason": "Published physical benchmark, external adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/evident-machines.md",

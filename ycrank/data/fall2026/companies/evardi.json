@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 38.67,
-  "consolidatedRank": 153,
+  "consolidatedRank": 152,
   "traction": {
-    "tractionRank": 114,
-    "tractionScore": 44,
-    "tractionReason": "Reported utility deployments, payment and deployment count undisclosed"
+    "tractionRank": 94,
+    "tractionScore": 52,
+    "tractionReason": "Utility deployments covering networks with 10M+ downstream customers"
   },
   "paths": {
     "memo": "fall2026/memos/evardi.md",

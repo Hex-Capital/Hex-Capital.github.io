@@ -40,11 +40,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 149,
+  "consolidatedRank": 148,
   "traction": {
-    "tractionRank": 85,
-    "tractionScore": 51,
-    "tractionReason": "Produced 500+ kg of customer parts in first month"
+    "tractionRank": 74,
+    "tractionScore": 55,
+    "tractionReason": "500+ kg produced with customers in first month, prepaid prototype quotes"
   },
   "paths": {
     "memo": "fall2026/memos/sinter-systems.md",

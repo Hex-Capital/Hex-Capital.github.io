@@ -41,9 +41,9 @@
   "consolidatedAvg": 35.33,
   "consolidatedRank": 227,
   "traction": {
-    "tractionRank": 220,
-    "tractionScore": 13,
-    "tractionReason": "November 17 launch, no disclosed customers or revenue"
+    "tractionRank": 223,
+    "tractionScore": 11,
+    "tractionReason": "Public launch, no disclosed permitting clients"
   },
   "paths": {
     "memo": "fall2026/memos/contourholdings.md",

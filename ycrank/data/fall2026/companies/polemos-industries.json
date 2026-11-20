@@ -39,11 +39,11 @@
     "EXIT": 30
   },
   "consolidatedAvg": 31,
-  "consolidatedRank": 237,
+  "consolidatedRank": 238,
   "traction": {
-    "tractionRank": 228,
+    "tractionRank": 225,
     "tractionScore": 10,
-    "tractionReason": "November launch announcement, no disclosed customers or contracts"
+    "tractionReason": "Public launch, no disclosed buyers or contracts"
   },
   "paths": {
     "memo": "fall2026/memos/polemos-industries.md",

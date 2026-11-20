@@ -41,11 +41,11 @@
     "EXIT": 40
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 185,
+  "consolidatedRank": 184,
   "traction": {
-    "tractionRank": 206,
-    "tractionScore": 17,
-    "tractionReason": "Monitoring product launched publicly, customer deployments undisclosed"
+    "tractionRank": 222,
+    "tractionScore": 11,
+    "tractionReason": "Monitoring product announced, no disclosed deployments"
   },
   "paths": {
     "memo": "fall2026/memos/synara.md",

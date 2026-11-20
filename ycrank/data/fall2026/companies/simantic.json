@@ -44,9 +44,9 @@
   "consolidatedAvg": 43.33,
   "consolidatedRank": 42,
   "traction": {
-    "tractionRank": 79,
-    "tractionScore": 52,
-    "tractionReason": "1.5M simulation runs, 70% average weekly run growth, first satellite customer"
+    "tractionRank": 80,
+    "tractionScore": 54,
+    "tractionReason": "1.5M+ simulation runs, 70% weekly run growth, first satellite customer"
   },
   "paths": {
     "memo": "fall2026/memos/simantic.md",

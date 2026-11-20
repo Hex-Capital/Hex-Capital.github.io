@@ -43,9 +43,9 @@
   "consolidatedAvg": 34.67,
   "consolidatedRank": 233,
   "traction": {
-    "tractionRank": 182,
-    "tractionScore": 28,
-    "tractionReason": "100+ officer interviews, earlier beta tested by several police units"
+    "tractionRank": 174,
+    "tractionScore": 34,
+    "tractionReason": "Several police units tested the earlier beta, current adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/reconero.md",

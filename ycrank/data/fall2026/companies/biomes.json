@@ -1,0 +1,55 @@
+{
+  "slug": "biomes",
+  "name": "Biomes",
+  "oneLiner": "Deploying AI",
+  "metadata": {
+    "website": "https://biomes.co/",
+    "yc_page": "https://www.ycombinator.com/companies/biomes",
+    "batch": "Fall 2026",
+    "industry": "B2B / B2B",
+    "team_size": "2",
+    "location": "San Francisco, CA, USA",
+    "tags": "AI",
+    "yc_partner": "Charlie Warren",
+    "emails": "jpa6tx@gmail.com (Jai Pal’s professional contact, [founder site](https://yourpaljai.com/)), founders@biomes.co (portfolio inquiries and hiring, [Biomes](https://biomes.co/)), hello@cardinalsquare.com (Cardinal Square inquiries, [Cardinal Square](https://cardinalsquare.com/))"
+  },
+  "tags": [
+    "AI"
+  ],
+  "slideImage": null,
+  "memoGeneratedAt": "2026-11-20T04:45:38.756Z",
+  "evalScores": {
+    "agi": {
+      "score": 31,
+      "tier": "Pass"
+    },
+    "hypergrowth": {
+      "score": 39,
+      "tier": "Pass"
+    },
+    "exit": {
+      "score": 33,
+      "tier": "Pass"
+    }
+  },
+  "consolidatedScores": {
+    "AGI": 31,
+    "HG": 39,
+    "EXIT": 33
+  },
+  "consolidatedAvg": 34.33,
+  "consolidatedRank": 234,
+  "traction": {
+    "tractionRank": 238,
+    "tractionScore": 0,
+    "tractionReason": "No disclosed customers, usage, or revenue for current offering"
+  },
+  "paths": {
+    "memo": "fall2026/memos/biomes.md",
+    "evals": {
+      "agi": "fall2026/evals/agi/biomes.md",
+      "hypergrowth": "fall2026/evals/hypergrowth/biomes.md",
+      "exit": "fall2026/evals/exit/biomes.md"
+    }
+  }
+}

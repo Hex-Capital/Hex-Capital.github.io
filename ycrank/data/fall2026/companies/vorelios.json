@@ -39,11 +39,11 @@
     "EXIT": 39
   },
   "consolidatedAvg": 38.67,
-  "consolidatedRank": 161,
+  "consolidatedRank": 160,
   "traction": {
-    "tractionRank": 216,
+    "tractionRank": 214,
     "tractionScore": 14,
-    "tractionReason": "Initial engineering design runs reported, customers undisclosed"
+    "tractionReason": "Initial design runs demonstrated, no disclosed customer use"
   },
   "paths": {
     "memo": "fall2026/memos/vorelios.md",

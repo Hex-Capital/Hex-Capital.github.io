@@ -42,9 +42,9 @@
   "consolidatedAvg": 42.67,
   "consolidatedRank": 53,
   "traction": {
-    "tractionRank": 174,
-    "tractionScore": 32,
-    "tractionReason": "HUD research partnership and joint Actor Labs evaluation"
+    "tractionRank": 150,
+    "tractionScore": 44,
+    "tractionReason": "Joint robot evaluations with HUD and Actor Labs"
   },
   "paths": {
     "memo": "fall2026/memos/dreamscale-labs.md",

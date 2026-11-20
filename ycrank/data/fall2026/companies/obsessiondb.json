@@ -42,9 +42,9 @@
   "consolidatedAvg": 49,
   "consolidatedRank": 3,
   "traction": {
-    "tractionRank": 23,
-    "tractionScore": 68,
-    "tractionReason": "Paying production customers, petabytes processed monthly, named Osmosis migration"
+    "tractionRank": 20,
+    "tractionScore": 69,
+    "tractionReason": "Paying production customers, petabytes processed monthly, 50 TB deployment"
   },
   "paths": {
     "memo": "fall2026/memos/obsessiondb.md",

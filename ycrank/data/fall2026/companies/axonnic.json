@@ -42,9 +42,9 @@
   "consolidatedAvg": 43.33,
   "consolidatedRank": 37,
   "traction": {
-    "tractionRank": 56,
-    "tractionScore": 57,
-    "tractionReason": "Paid pilots underway, sleeves shipped, signed manufacturer LOI"
+    "tractionRank": 43,
+    "tractionScore": 61,
+    "tractionReason": "Multiple paid pilots, sleeves shipping, signed manufacturer LOI"
   },
   "paths": {
     "memo": "fall2026/memos/axonnic.md",

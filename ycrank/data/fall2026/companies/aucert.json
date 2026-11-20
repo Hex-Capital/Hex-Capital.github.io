@@ -42,11 +42,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 194,
+  "consolidatedRank": 193,
   "traction": {
-    "tractionRank": 185,
-    "tractionScore": 26,
-    "tractionReason": "Private beta, customer count and paid use undisclosed"
+    "tractionRank": 194,
+    "tractionScore": 22,
+    "tractionReason": "Private beta with a free first scan"
   },
   "paths": {
     "memo": "fall2026/memos/aucert.md",

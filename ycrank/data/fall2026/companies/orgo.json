@@ -42,9 +42,9 @@
   "consolidatedAvg": 43.33,
   "consolidatedRank": 41,
   "traction": {
-    "tractionRank": 24,
+    "tractionRank": 23,
     "tractionScore": 67,
-    "tractionReason": "1,000+ teams, thousands of production desktops, revenue reported without amount"
+    "tractionReason": "1,000+ teams, thousands of production desktops, reported revenue generation"
   },
   "paths": {
     "memo": "fall2026/memos/orgo.md",

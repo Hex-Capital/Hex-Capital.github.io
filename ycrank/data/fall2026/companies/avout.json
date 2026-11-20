@@ -41,11 +41,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 195,
+  "consolidatedRank": 194,
   "traction": {
-    "tractionRank": 168,
+    "tractionRank": 173,
     "tractionScore": 34,
-    "tractionReason": "Helped arrange a $1.5M term sheet, closing undisclosed"
+    "tractionReason": "Arranged a $1.5M financing term sheet, closing unconfirmed"
   },
   "paths": {
     "memo": "fall2026/memos/avout.md",

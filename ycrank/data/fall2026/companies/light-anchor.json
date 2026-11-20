@@ -43,9 +43,9 @@
   "consolidatedAvg": 44.67,
   "consolidatedRank": 26,
   "traction": {
-    "tractionRank": 109,
-    "tractionScore": 46,
-    "tractionReason": "Ten agent-run brands, seven named agency case studies"
+    "tractionRank": 90,
+    "tractionScore": 53,
+    "tractionReason": "Ten agent-run brands, named agency customers, sales-based fees"
   },
   "paths": {
     "memo": "fall2026/memos/light-anchor.md",

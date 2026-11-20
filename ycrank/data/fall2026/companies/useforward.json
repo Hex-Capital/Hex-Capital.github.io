@@ -42,9 +42,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 49,
   "traction": {
-    "tractionRank": 11,
-    "tractionScore": 78,
-    "tractionReason": "$180K reported annualized revenue, $545K contracted, 100 funds signed fee agreements"
+    "tractionRank": 14,
+    "tractionScore": 74,
+    "tractionReason": "$180K reported annualized revenue, 100 funds signed fee agreements"
   },
   "paths": {
     "memo": "fall2026/memos/useforward.md",

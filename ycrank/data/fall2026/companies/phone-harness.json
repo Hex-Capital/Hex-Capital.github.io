@@ -41,11 +41,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 39,
-  "consolidatedRank": 147,
+  "consolidatedRank": 146,
   "traction": {
-    "tractionRank": 92,
-    "tractionScore": 49,
-    "tractionReason": "5,100 GitHub stars and 522 forks, cloud revenue undisclosed"
+    "tractionRank": 136,
+    "tractionScore": 46,
+    "tractionReason": "5,100 repository stars, 522 forks, paid cloud launched"
   },
   "paths": {
     "memo": "fall2026/memos/phone-harness.md",

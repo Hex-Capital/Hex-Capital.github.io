@@ -41,9 +41,9 @@
   "consolidatedAvg": 43,
   "consolidatedRank": 47,
   "traction": {
-    "tractionRank": 108,
-    "tractionScore": 46,
-    "tractionReason": "Four completed pilots and a private-equity fund deployment"
+    "tractionRank": 88,
+    "tractionScore": 53,
+    "tractionReason": "Four completed pilots and deployment at a private equity fund"
   },
   "paths": {
     "memo": "fall2026/memos/plek-ai.md",

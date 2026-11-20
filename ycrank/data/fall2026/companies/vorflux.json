@@ -42,9 +42,9 @@
   "consolidatedAvg": 42.33,
   "consolidatedRank": 62,
   "traction": {
-    "tractionRank": 140,
-    "tractionScore": 38,
-    "tractionReason": "Named testimonials from TrashLab and Supermemory, paid usage undisclosed"
+    "tractionRank": 125,
+    "tractionScore": 48,
+    "tractionReason": "Named customer testimonials from TrashLab and Supermemory"
   },
   "paths": {
     "memo": "fall2026/memos/vorflux.md",

@@ -43,9 +43,9 @@
   "consolidatedAvg": 41,
   "consolidatedRank": 84,
   "traction": {
-    "tractionRank": 181,
+    "tractionRank": 183,
     "tractionScore": 28,
-    "tractionReason": "Prospective GPU renters reported, names and contract terms undisclosed"
+    "tractionReason": "Prospective GPU renters identified, contracts and payments undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/aikido-technologies.md",

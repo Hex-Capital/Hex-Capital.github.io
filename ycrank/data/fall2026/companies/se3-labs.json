@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 38.67,
-  "consolidatedRank": 158,
+  "consolidatedRank": 157,
   "traction": {
-    "tractionRank": 162,
-    "tractionScore": 35,
-    "tractionReason": "1,596 monthly dataset downloads, partner-site training deployments planned"
+    "tractionRank": 165,
+    "tractionScore": 39,
+    "tractionReason": "1,596 monthly dataset downloads, physical partner-site sandboxes planned"
   },
   "paths": {
     "memo": "fall2026/memos/se3-labs.md",

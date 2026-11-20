@@ -42,11 +42,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 38.33,
-  "consolidatedRank": 163,
+  "consolidatedRank": 162,
   "traction": {
-    "tractionRank": 166,
-    "tractionScore": 34,
-    "tractionReason": "Reported on-site factory work and automation design with operations teams"
+    "tractionRank": 159,
+    "tractionScore": 42,
+    "tractionReason": "Reported on-site work with manufacturing operations teams"
   },
   "paths": {
     "memo": "fall2026/memos/odin-robotics.md",

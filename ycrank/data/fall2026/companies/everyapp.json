@@ -41,9 +41,9 @@
   "consolidatedAvg": 39.33,
   "consolidatedRank": 131,
   "traction": {
-    "tractionRank": 160,
-    "tractionScore": 35,
-    "tractionReason": "906 GitHub stars for EveryApp’s platform, paid adoption undisclosed"
+    "tractionRank": 167,
+    "tractionScore": 39,
+    "tractionReason": "906 platform repository stars, managed-service adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/everyapp.md",

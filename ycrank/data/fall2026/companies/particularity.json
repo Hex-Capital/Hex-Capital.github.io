@@ -40,9 +40,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 202,
   "traction": {
-    "tractionRank": 222,
+    "tractionRank": 220,
     "tractionScore": 12,
-    "tractionReason": "October 15 launch, regulator customer adoption undisclosed"
+    "tractionReason": "Public launch, no disclosed regulator customers"
   },
   "paths": {
     "memo": "fall2026/memos/particularity.md",

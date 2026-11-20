@@ -41,11 +41,11 @@
     "EXIT": 41
   },
   "consolidatedAvg": 38.67,
-  "consolidatedRank": 160,
+  "consolidatedRank": 159,
   "traction": {
-    "tractionRank": 157,
-    "tractionScore": 35,
-    "tractionReason": "950+ funds and traders claimed, activity and paid share undisclosed"
+    "tractionRank": 164,
+    "tractionScore": 40,
+    "tractionReason": "950+ claimed signups, activity and payment status undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/volaren.md",

@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.33,
   "consolidatedRank": 104,
   "traction": {
-    "tractionRank": 99,
-    "tractionScore": 48,
-    "tractionReason": "1.4M requests in one day, external Munito demonstration"
+    "tractionRank": 144,
+    "tractionScore": 44,
+    "tractionReason": "1.4M requests in one day, named Munito demonstration"
   },
   "paths": {
     "memo": "fall2026/memos/useterse.md",

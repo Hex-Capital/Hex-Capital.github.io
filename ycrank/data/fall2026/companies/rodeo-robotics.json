@@ -41,11 +41,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 38,
-  "consolidatedRank": 172,
+  "consolidatedRank": 171,
   "traction": {
-    "tractionRank": 173,
-    "tractionScore": 33,
-    "tractionReason": "Customer deployments targeted for January 2027"
+    "tractionRank": 181,
+    "tractionScore": 29,
+    "tractionReason": "Customer deployments planned for January 2027"
   },
   "paths": {
     "memo": "fall2026/memos/rodeo-robotics.md",

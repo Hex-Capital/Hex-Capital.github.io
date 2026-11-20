@@ -43,9 +43,9 @@
   "consolidatedAvg": 44.33,
   "consolidatedRank": 29,
   "traction": {
-    "tractionRank": 9,
-    "tractionScore": 82,
-    "tractionReason": "Quarterly revenue more than doubled, 65+ enterprise teams"
+    "tractionRank": 8,
+    "tractionScore": 85,
+    "tractionReason": "Quarterly revenue more than doubled, 65+ enterprise marketing teams"
   },
   "paths": {
     "memo": "fall2026/memos/gatherhq.md",

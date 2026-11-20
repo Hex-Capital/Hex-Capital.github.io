@@ -43,9 +43,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 64,
   "traction": {
-    "tractionRank": 97,
-    "tractionScore": 48,
-    "tractionReason": "Original open-source ecosystem reports 10M+ downloads, paid uptake undisclosed"
+    "tractionRank": 166,
+    "tractionScore": 39,
+    "tractionReason": "Original repository has 121K stars, current paid adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/caveman.md",

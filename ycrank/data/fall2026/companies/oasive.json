@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 209,
   "traction": {
-    "tractionRank": 195,
-    "tractionScore": 21,
-    "tractionReason": "Municipal product launched November 4, current-product desk adoption undisclosed"
+    "tractionRank": 184,
+    "tractionScore": 27,
+    "tractionReason": "Municipal product live, institutional usage disclosed for earlier offerings"
   },
   "paths": {
     "memo": "fall2026/memos/oasive.md",

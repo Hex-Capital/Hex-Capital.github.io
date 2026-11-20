@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 91,
   "traction": {
-    "tractionRank": 163,
+    "tractionRank": 171,
     "tractionScore": 35,
-    "tractionReason": "670 monthly benchmark dataset downloads, GetASAP calibration collaboration"
+    "tractionReason": "670 monthly benchmark downloads and one named calibration participant"
   },
   "paths": {
     "memo": "fall2026/memos/oro-ai.md",

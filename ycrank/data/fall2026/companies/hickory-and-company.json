@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.33,
   "consolidatedRank": 213,
   "traction": {
-    "tractionRank": 219,
-    "tractionScore": 13,
-    "tractionReason": "October 30 launch, no disclosed bank deployments"
+    "tractionRank": 221,
+    "tractionScore": 12,
+    "tractionReason": "Public launch, no disclosed banks or fintechs using product"
   },
   "paths": {
     "memo": "fall2026/memos/hickory-and-company.md",

@@ -44,9 +44,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 204,
   "traction": {
-    "tractionRank": 208,
-    "tractionScore": 17,
-    "tractionReason": "Benchmarking launch November 5, customer use undisclosed"
+    "tractionRank": 209,
+    "tractionScore": 16,
+    "tractionReason": "Benchmarking launched, no disclosed users or contracts"
   },
   "paths": {
     "memo": "fall2026/memos/asim-group.md",

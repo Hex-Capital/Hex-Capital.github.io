@@ -42,11 +42,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 39.33,
-  "consolidatedRank": 140,
+  "consolidatedRank": 139,
   "traction": {
-    "tractionRank": 141,
-    "tractionScore": 38,
-    "tractionReason": "Grocery-partner pilots, household beta, 59 U.S. app ratings"
+    "tractionRank": 126,
+    "tractionScore": 47,
+    "tractionReason": "Grocery-partner pilots, San Francisco household beta, 59 U.S. ratings"
   },
   "paths": {
     "memo": "fall2026/memos/trepo.md",

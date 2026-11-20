@@ -44,9 +44,9 @@
   "consolidatedAvg": 41.33,
   "consolidatedRank": 82,
   "traction": {
-    "tractionRank": 83,
-    "tractionScore": 51,
-    "tractionReason": "Deployed sensors increased from 25+ to 40+ assets"
+    "tractionRank": 84,
+    "tractionScore": 54,
+    "tractionReason": "Sensor deployments grew from 25+ to 40+ assets"
   },
   "paths": {
     "memo": "fall2026/memos/talos-us.md",

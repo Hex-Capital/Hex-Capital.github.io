@@ -42,9 +42,9 @@
   "consolidatedAvg": 35.67,
   "consolidatedRank": 224,
   "traction": {
-    "tractionRank": 215,
-    "tractionScore": 14,
-    "tractionReason": "Six current-product tasksets published, customer use undisclosed"
+    "tractionRank": 229,
+    "tractionScore": 8,
+    "tractionReason": "Six public tasksets, no disclosed users or customers"
   },
   "paths": {
     "memo": "fall2026/memos/metalcraft.md",

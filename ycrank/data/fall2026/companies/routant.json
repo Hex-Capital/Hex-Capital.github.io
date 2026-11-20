@@ -42,9 +42,9 @@
   "consolidatedAvg": 36,
   "consolidatedRank": 222,
   "traction": {
-    "tractionRank": 223,
+    "tractionRank": 219,
     "tractionScore": 12,
-    "tractionReason": "Public YC launch, no disclosed deployments or revenue"
+    "tractionReason": "Public launch, no disclosed usage or revenue"
   },
   "paths": {
     "memo": "fall2026/memos/routant.md",

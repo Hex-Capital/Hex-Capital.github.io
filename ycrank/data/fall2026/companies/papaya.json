@@ -44,9 +44,9 @@
   "consolidatedAvg": 43.67,
   "consolidatedRank": 36,
   "traction": {
-    "tractionRank": 27,
-    "tractionScore": 66,
-    "tractionReason": "First paying customers, 1.1M+ conversations analyzed"
+    "tractionRank": 35,
+    "tractionScore": 63,
+    "tractionReason": "First paying customers and 1.1M+ conversations analyzed"
   },
   "paths": {
     "memo": "fall2026/memos/papaya.md",

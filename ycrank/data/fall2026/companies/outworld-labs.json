@@ -39,9 +39,9 @@
   "consolidatedAvg": 37,
   "consolidatedRank": 201,
   "traction": {
-    "tractionRank": 209,
-    "tractionScore": 16,
-    "tractionReason": "Horizon simulation demo released, customer deployments undisclosed"
+    "tractionRank": 210,
+    "tractionScore": 15,
+    "tractionReason": "Horizon demonstration released, no disclosed customer deployments"
   },
   "paths": {
     "memo": "fall2026/memos/outworld-labs.md",

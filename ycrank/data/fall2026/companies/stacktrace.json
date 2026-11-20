@@ -41,8 +41,12 @@
     "EXIT": 37
   },
   "consolidatedAvg": 38.67,
-  "consolidatedRank": 159,
-  "traction": null,
+  "consolidatedRank": 158,
+  "traction": {
+    "tractionRank": 161,
+    "tractionScore": 41,
+    "tractionReason": "Unnamed design partners running local or unattended cloud agents"
+  },
   "paths": {
     "memo": "fall2026/memos/stacktrace.md",
     "evals": {

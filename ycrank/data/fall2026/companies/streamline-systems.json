@@ -42,9 +42,9 @@
   "consolidatedAvg": 40.67,
   "consolidatedRank": 95,
   "traction": {
-    "tractionRank": 41,
-    "tractionScore": 61,
-    "tractionReason": "$80K+ contracted module sales, deposits reserving $87K+ of modules"
+    "tractionRank": 33,
+    "tractionScore": 63,
+    "tractionReason": "$80K+ in contracted module sales, additional reservation deposits reported"
   },
   "paths": {
     "memo": "fall2026/memos/streamline-systems.md",

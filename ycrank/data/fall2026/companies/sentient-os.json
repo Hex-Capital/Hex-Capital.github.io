@@ -41,9 +41,9 @@
   "consolidatedAvg": 41.67,
   "consolidatedRank": 72,
   "traction": {
-    "tractionRank": 78,
-    "tractionScore": 52,
-    "tractionReason": "10,000+ users and reported use at 30+ enterprises"
+    "tractionRank": 65,
+    "tractionScore": 57,
+    "tractionReason": "10,000+ users and 30+ enterprises using the free app"
   },
   "paths": {
     "memo": "fall2026/memos/sentient-os.md",

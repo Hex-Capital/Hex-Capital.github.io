@@ -41,9 +41,9 @@
   "consolidatedAvg": 47.67,
   "consolidatedRank": 7,
   "traction": {
-    "tractionRank": 103,
-    "tractionScore": 47,
-    "tractionReason": "Named customer deployments, Shopmonkey ran 64 jobs in 30 days"
+    "tractionRank": 105,
+    "tractionScore": 50,
+    "tractionReason": "Named deployments at IG and Shopmonkey, 64 research jobs monthly"
   },
   "paths": {
     "memo": "fall2026/memos/grep-ai.md",

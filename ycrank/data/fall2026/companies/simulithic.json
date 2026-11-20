@@ -42,9 +42,9 @@
   "consolidatedAvg": 39.67,
   "consolidatedRank": 127,
   "traction": {
-    "tractionRank": 122,
-    "tractionScore": 43,
-    "tractionReason": "Several live deployments, reported growth metric unspecified"
+    "tractionRank": 118,
+    "tractionScore": 49,
+    "tractionReason": "Several live deployments, reported weekly doubling on unspecified metric"
   },
   "paths": {
     "memo": "fall2026/memos/simulithic.md",

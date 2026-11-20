@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 37,
-  "consolidatedRank": 196,
+  "consolidatedRank": 195,
   "traction": {
-    "tractionRank": 170,
-    "tractionScore": 33,
-    "tractionReason": "First Phoenix project site under contract, development fees undisclosed"
+    "tractionRank": 172,
+    "tractionScore": 35,
+    "tractionReason": "First Phoenix development site under contract, no disclosed fees earned"
   },
   "paths": {
     "memo": "fall2026/memos/habu.md",

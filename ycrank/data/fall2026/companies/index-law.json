@@ -40,11 +40,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 38.67,
-  "consolidatedRank": 156,
+  "consolidatedRank": 155,
   "traction": {
-    "tractionRank": 121,
+    "tractionRank": 155,
     "tractionScore": 43,
-    "tractionReason": "Reports serving startups and larger companies, paid conversion undisclosed"
+    "tractionReason": "Early legal users reported, including a sub-hour contract turnaround"
   },
   "paths": {
     "memo": "fall2026/memos/index-law.md",

@@ -42,9 +42,9 @@
   "consolidatedAvg": 36.67,
   "consolidatedRank": 207,
   "traction": {
-    "tractionRank": 176,
-    "tractionScore": 32,
-    "tractionReason": "Wave Motion demonstration planned, first prototype nearly complete"
+    "tractionRank": 180,
+    "tractionScore": 30,
+    "tractionReason": "Named Wave Motion demonstration planned, prototype nearly complete"
   },
   "paths": {
     "memo": "fall2026/memos/central-blue.md",

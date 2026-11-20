@@ -42,11 +42,11 @@
     "EXIT": 36
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 182,
+  "consolidatedRank": 181,
   "traction": {
-    "tractionRank": 202,
-    "tractionScore": 19,
-    "tractionReason": "ProHand demo with Proception, commercial commitments undisclosed"
+    "tractionRank": 208,
+    "tractionScore": 16,
+    "tractionReason": "Joint ProHand demonstration, no disclosed commercial deployment"
   },
   "paths": {
     "memo": "fall2026/memos/preload.md",

@@ -39,11 +39,11 @@
     "EXIT": 37
   },
   "consolidatedAvg": 37.67,
-  "consolidatedRank": 181,
+  "consolidatedRank": 180,
   "traction": {
-    "tractionRank": 193,
-    "tractionScore": 22,
-    "tractionReason": "Consulted 100+ companies during discovery, pilot uptake undisclosed"
+    "tractionRank": 185,
+    "tractionScore": 27,
+    "tractionReason": "100+ discovery interviews, product adoption undisclosed"
   },
   "paths": {
     "memo": "fall2026/memos/kiwi.md",

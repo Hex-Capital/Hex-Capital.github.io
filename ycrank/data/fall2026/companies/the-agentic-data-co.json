@@ -42,9 +42,9 @@
   "consolidatedAvg": 42,
   "consolidatedRank": 67,
   "traction": {
-    "tractionRank": 34,
-    "tractionScore": 63,
-    "tractionReason": "AI labs reportedly buy data, 8,204 monthly open-dataset downloads"
+    "tractionRank": 44,
+    "tractionScore": 61,
+    "tractionReason": "AI labs buy its speech data, 8,204 monthly dataset downloads"
   },
   "paths": {
     "memo": "fall2026/memos/the-agentic-data-co.md",

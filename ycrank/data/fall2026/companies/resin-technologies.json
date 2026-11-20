@@ -40,11 +40,11 @@
     "EXIT": 35
   },
   "consolidatedAvg": 38.33,
-  "consolidatedRank": 165,
+  "consolidatedRank": 164,
   "traction": {
-    "tractionRank": 151,
-    "tractionScore": 36,
-    "tractionReason": "Founder reports unnamed teams used Resin to ship boards"
+    "tractionRank": 175,
+    "tractionScore": 33,
+    "tractionReason": "Founder reports unnamed teams used Resin to ship circuit boards"
   },
   "paths": {
     "memo": "fall2026/memos/resin-technologies.md",

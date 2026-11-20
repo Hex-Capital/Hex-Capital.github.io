@@ -5,26 +5,22 @@
 
 ### Company case
 
-Inflection’s strongest path is to sell the same Exponent spacecraft in batches to commercial constellation operators that outsource manufacturing. Assuming strong fit with the first operator, the same need to add and replace spacecraft plausibly recurs across markets. Exponent’s single published configuration and common parts support reuse for payloads within its 100 kg and 1.5 kW limits. The work required to qualify and integrate that configuration for other operators and markets remains uncertain. (The Idea, Key Risks)
+Assuming strong product-market fit with an initial constellation operator, Exponent could scale by selling the same spacecraft in larger batches. The memo documents one published configuration built around common parts. Operators in other markets plausibly have the same procurement need when their payloads fit Exponent’s 100 kg and 1.5 kW limits. The extent of integration and qualification work across buyers remains uncertain. Published prices and web inquiries make discovery and initial scoping repeatable. Payload integration and mission acceptance are likely to require direct engineering involvement. (*The Idea*, *Key Risks*)
 
-Website inquiries, published specifications, and volume pricing make discovery and quoting repeatable. The sales path appears high-touch. Inflection says it is booking payload customers, and first value likely requires coordination on payload fit, integration, and qualification. (The Idea, Key Risks)
+A buyer that has already integrated a payload on Exponent could reuse that work when ordering more spacecraft for the same constellation. That supports a plausible repeat-purchase mechanism, with revenue tied to individual orders and no documented renewals or paid follow-on orders. As of Fall 2026, Inflection reports hardware fabrication and testing underway and a first launch booked for Q1 2028. The memo leaves realized revenue and paying-customer status unknown, so the launch booking establishes no commercial growth rate and initial traction takes the default. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-An operator adding or replacing satellites could reorder the same bus and reuse payload integration and fleet software. That gives existing customers a concrete way to spend more through additional orders. The published business model charges per spacecraft, and the memo leaves reorder cadence and recurring billing unverified. (The Idea, Defensibility)
-
-Inflection went public with Exponent in October 2026 and reports hardware fabrication and testing underway and a first launch booked for Q1 2028. Those are development signals. The memo leaves realized revenue, paying customers, and pre-revenue status unverified, so initial traction uses the absent-evidence default. (Market & Traction, Key Facts)
-
-At the published 100-unit price, assuming Inflection realizes list price, each spacecraft brings in $700,000. Positive incremental contribution requires attributable parts, fabrication, testing, integration, sales effort, and any added capacity the order requires to cost less than that per unit. Common tooling and planned robotic fabrication and testing could lower those costs. The memo gives no measured throughput, yields, or cost inputs to establish the margin. (The Idea, Defensibility, Key Risks)
+At published prices, a hypothetical 100-unit order would generate $70 million in sales, or $700,000 per spacecraft before costs, compared with $1.5 million for a single unit. Positive contribution at that tier requires attributable sales, integration, hardware, assembly, testing, and added capacity costs to average less than $700,000 per spacecraft. Common parts, reusable tooling, and planned automation offer ways to lower those costs. The memo supplies no measured yields, cycle times, or representative production costs, which leaves the decisive scaling assumption weakly supported. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Exponent could become a viable spacecraft supplier while growing one engineering-intensive contract at a time. It has yet to demonstrate performance in orbit, each payload may require substantial integration, and higher volumes may require new factory capacity as per-unit prices fall. Operators can also build in-house or buy from suppliers with flown spacecraft. The structural gate stays open because a common bus and reusable testing offer a plausible route to lower incremental work, and the memo leaves the size of that work and the cost of added capacity unresolved. (The Idea, Defensibility, Key Risks)
+The steep volume discount leaves less room per spacecraft to absorb engineering work, testing, and factory expansion. If those costs rise roughly in step with deliveries, larger orders could compress contribution just as Inflection needs more capacity. The first flight is still ahead, and the factory scale-up depends on tooling and process controls that the company assigns to an open manufacturing leadership role. The structural downside gate remains open because the shared platform and reusable production work offer a concrete way to lower costs, with the size of the savings unresolved. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 5/25 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 8/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
@@ -33,4 +29,4 @@ Exponent could become a viable spacecraft supplier while growing one engineering
 
 ### Decisive diligence question
 
-Can a flight-qualified Exponent earn repeat batch orders at volume pricing using the same configuration across markets? Paid deliveries to independent operators in more than one market, including a follow-on order, would answer it if the deliveries show bounded integration work and positive contribution after attributable labor and added capacity. That evidence would move the action to Reach out if it brings the score to at least 65 with Medium or High confidence. Evidence that unavoidable integration or capacity costs make faster growth uneconomic would move the action to Pass.
+Can Inflection deliver a paid follow-on batch of standard Exponent spacecraft at a published volume tier with positive contribution per spacecraft? An accepted delivery, earned revenue, and actual costs including buyer-specific engineering and added factory capacity would answer it. A profitable repeat batch would justify rescoring for outreach if the score and confidence meet the required thresholds. Evidence that unavoidable customization or capacity costs make repeat batches uneconomic, with no credible improvement lever, would change Watch to Pass.

@@ -5,34 +5,36 @@
 
 ### Company case
 
-Decent’s strongest exit path is a strategic sale to a benefits brokerage or benefits platform. An acquirer could earn provider-paid commissions from Decent’s employer relationships and use its in-year claims review to improve client retention at renewal. Serif Health reported $60,000 in annual savings, Locate reported more than $100,000 in savings against its renewal quote, and Decent reported getting a one-time surgery excluded from a client’s next-year rates. Those outcomes support a reason for a buyer to value the service. The acquisition of the earlier Decent health plan administrator is an adjacent transaction involving a different entity, with limited relevance to the current brokerage’s sale price. (The Idea, Market & Traction, Key Risks)
+Decent’s strongest supported route is a strategic sale to an established benefits brokerage. A buyer could acquire a small-employer commission book and use Decent’s year-round claims review to improve retention across its own customers. That buyer benefit is an inference. Decent reports that a one-time surgery accounting for 46% of one client’s claims spend was excluded from the following year’s rates. Separately, Serif Health reported $60,000 in annual savings, and Locate reported more than $100,000 against its renewal quote. The earlier Decent health plan administrator’s sale to Nice Healthcare establishes an adjacent transaction for a different business. (The Idea; Market & Traction; Founders & Team; Key Risks)
 
-Under the benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with zero follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity value at 3%. The sale cases below assume the holder is eligible to sell its full stake, participates pro rata without a senior preference reducing its share, and receives all proceeds in cash at closing within eight years. The prices and deductions are illustrative assumptions.
+The founders report 67 companies working with Decent and 89% of brokerage work handled by AI. That supports testing whether the current cohort converts into retained, commission-paying accounts with positive contribution margins through a full renewal cycle. Realized commissions, servicing costs, runway, and the capital required to scale remain unknown. A sale of the brokerage entity is a plausible structure, subject to confirming whether commission arrangements and claims-data access would survive a change of control. Decent describes using business associate agreements, and access depends on what carriers and administrators share. The memo gives no evidence of an independent route to holder liquidity. (Market & Traction; Key Facts; Key Risks)
 
-| Scenario | Enterprise value to distributable equity | Gross cash to holder |
-|----------|-------------------------------------------|----------------------|
-| Modest sale | $40M enterprise value less $5M in net debt and deal adjustments leaves $35M | $1.05M, or 2.1× |
-| Strong sale | $100M enterprise value less $10M in net debt and deal adjustments leaves $90M | $2.70M, or 5.4×. Selling only 75% of the stake at the same price would yield about $2.03M, or 4.05×. |
-| Prolonged private | Continued operation with cash reinvested and zero eligible share sales or distributions | $0 realized within eight years |
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity at 3%. The sale cases below are illustrative sensitivities. They assume an eligible holder, a full cash sale by year eight, and a pro rata waterfall after debt and deal costs, with no further deductions for preferences, escrow, or contingent payments.
 
-The commission model supplies a basis for testing buyer economics, while realized brokerage revenue, buyer pricing, and holder terms remain unverified. The next annual renewal cohort is the operating milestone. Decent’s founder-reported 67 companies working with the brokerage gives it a starting pool to measure paid commissions, retention, and servicing costs through renewal. The budget and runway to complete that test are unknown. Carrier-dependent claims access and Decent’s described business associate agreements make post-close permissions a diligence item. The memo is silent on an independent route that could pay this holder. (The Idea, Market & Traction, Key Facts, Key Risks)
+| Scenario | Proceeds bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $40 million enterprise value less $5 million in debt and deal costs leaves $35 million in distributable equity | $1.05 million (2.1×) |
+| Strong sale | $100 million enterprise value less $10 million in debt and deal costs leaves $90 million in distributable equity | $2.70 million (5.4×) |
+| Prolonged private | Cash is reinvested through year eight, with no eligible share purchase or distribution | $0 (0×) |
+
+In the strong case, selling only half the holding at the same per-share price yields $1.35 million by year eight. The memo provides no realized commission base, acquisition pricing, or holder terms to support either sale price or the cash waterfall. Customer savings support the buyer rationale and leave realizable proceeds unestablished. (Market & Traction; Key Facts; Founders & Team)
 
 ### Countercase
 
-A buyer could reproduce or source much of the workflow. Corridor already automates quoting and proposals, Ignition automates benefits administration, and Decent’s claims review depends on what carriers or administrators share. The reported savings establish possible employer value, while recurring commission margins, retention, and continuity of claims access under new ownership remain uncertain. These open questions justify Watch. The Pass gate requires evidence of a structural block or materially inadequate proceeds on the strongest credible route. (Defensibility, Market & Traction, Key Risks)
+An established brokerage could build or buy overlapping automation and see little reason to pay a premium for Decent’s book. Corridor already automates quote comparison and proposals, while Ignition automates benefits administration with licensed staff. Decent’s most distinctive workflow depends on carrier and administrator data access, and the memo leaves cross-client data reuse rights unverified. If a buyer cannot retain that access, the value of owning the claims-review workflow could fall materially. The evidence establishes a credible substitution and access risk. It leaves both a structural closing block and materially inadequate proceeds under the strongest credible route unresolved, so the Pass gate does not trigger. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-What price would a strategic buyer underwrite for Decent’s brokerage book and claims-review workflow after observing a full renewal cohort? A buyer-backed range grounded in retained commissions, servicing costs, and confirmed post-close claims access would answer it. Move to Reach out if that range supports $2.5 million in holder cash within eight years after deal adjustments and the payout waterfall. Move to Pass if the strongest credible range leaves the holder materially short.
+Can Decent’s first full renewal cohort demonstrate retained commission earnings that could support at least $83.3 million in distributable equity to all holders combined within eight years? Cohort records showing collected commissions, retention, and servicing costs, paired with a prospective buyer’s valuation range and confirmation that key agreements would survive a sale, would answer it. A supported path above the hurdle would move Watch to Reach out. Evidence that the strongest credible sale would leave this holder materially short would move it to Pass.

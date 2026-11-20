@@ -5,28 +5,27 @@
 
 ### Company case
 
-New Economies is Redoubt’s strongest path. Its agents use a shared account record to prepare submissions, compare quotes, and handle certificates and renewals. The thesis is that reducing licensed broker time per successful placement and subsequent servicing could make small fleets economical to serve where the manual workload previously kept brokers from taking them on. The memo describes costly delays for fleets, but gives no measure of the former delivery cost, Redoubt’s cost per successful placement, or a fleet newly served because of that cost change. (The Idea; Key Risks)
+Redoubt has a narrow AGI-enabled industry path. Small trucking fleets can lose loads when their brokers miss a deadline for an insurance certificate or policy change. Redoubt says its agents use a shared account record to prepare and service requests. The seed-stage hypothesis is that reusing account information cuts staff time enough to make reliable short-notice service economical for small fleets. That could let fleets accept loads they would otherwise lose. Even with comparable AI, fleets would still need a brokerage that can arrange coverage and handle applicable filings. The memo documents the workflow and the cost of delay, while the labor savings, filing accuracy, and rate of loads recovered remain unmeasured. The building-blocks path scores zero because the capacity constraint described in the memo is trucking insurance coverage, with no connection to a scarce input for AI deployment. (The Idea, Key Risks)
 
-The founder reports 19 customer accounts and $37,600 in expected annual net commissions after the October launch. A company-published testimonial reports $56,000 in premium savings within two days. These are early demand signals. The testimonial measures the customer’s premium savings, leaving broker labor savings and renewal behavior unverified. Beukers’s insurance license, prior AI work in medical coding and legal workflows, and brokerage launch support execution. The company describes phasing in autonomy through human approval, with filing accuracy and exception workload still to be demonstrated. (Market & Traction; Key Facts; Founders & Team; Key Risks)
-
-If the expected commissions cover the same 19 accounts, they imply about $1,980 per account annually. That is a starting point for unit economics. Contribution depends on acquisition, model use, licensed review, exception handling, and ongoing servicing costs, which the memo does not quantify. (The Idea; Key Facts; Key Risks)
+The founder reports 19 customer accounts, and a company-published testimonial describes a 32% premium reduction within two days. Those are early demand signals for the brokerage. Redoubt’s first-party account histories could make repeat servicing easier, though the memo shows no retention or pricing advantage from them. The licensed solo founder has launched the brokerage and brings experience building AI for medical coding and legal workflows. Dependable handling of coverage exceptions remains unproven. If the projected $37,600 in annual net commissions covers the same 19 accounts, it implies roughly $1,980 per account. Realized commissions and the cost of acquisition, human review, servicing, and rework remain unknown. (Market & Traction, Defensibility, Founders & Team, Key Facts, Key Risks)
 
 ### Countercase
 
-Redoubt may be winning existing brokerage business by finding cheaper coverage faster. The strongest customer example concerns premium savings, and the memo identifies both an AI brokerage competitor and automation available to incumbent brokers. Redoubt runs the brokerage and builds first-party account histories, which could help it serve fleets across renewals. Buyer preference under comparable automation remains untested, and carriers and wholesalers control placement capacity. That leaves the scarce-complement path unsupported. The evidence does not establish that the proposed segment was already economical to serve or that buyers readily switch at model parity, so the New Economies path stays open at Watch. (Market & Traction; Defensibility; Key Risks)
+Redoubt may be a faster broker serving fleets that incumbents already cover. The testimonial shows a reported premium saving and turnaround, while leaving open whether automation enabled the customer to take a load it would otherwise have lost. Incumbent brokers can adopt similar intake and quoting tools, and carriers still control coverage capacity. This leaves the new-use threshold unresolved and supports Watch. If comparable brokers can already serve the same deadline-sensitive requests economically, both AGI paths would score zero and the action would be Pass. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 4/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 28/150** (Pass)
 
 ### Decisive diligence question
 
-Can Redoubt profitably serve small fleets that were previously uneconomic for brokers to take on and retain them when competing brokers offer comparable automation? A cohort with documented prior broker economics, lower fully loaded cost per successful placement and servicing cycle, positive contribution, and renewals despite comparable offers would move the action to Reach out. Evidence that the proposed segment was already economical to serve or that fleets readily switch at parity would move it to Pass.
+Can Redoubt profitably complete accurate insurance requests before load deadlines for small fleets that previously lost loads waiting for a broker? A paid cohort that tracks prior broker turnaround, loads actually accepted, and cost per correct on-time request, including human review and rework, would answer it. Move to Reach out if fleets repeatedly accept loads they previously missed and realized commissions cover fully loaded acquisition and servicing costs. Move to Pass if the cohort shows only faster handling of requests incumbents already fulfill within the required window.

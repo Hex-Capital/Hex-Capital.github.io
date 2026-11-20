@@ -1,30 +1,33 @@
 ﻿# Organizely -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is **New Economies**. Organizely could make continuous production planning affordable for small factories that currently rely on spreadsheets because they cannot justify dedicated planning staff. In that scenario, the former delivery cost is the staff time spent reconciling materials, equipment availability, and schedules. Kinetic Labs, the founders’ prior business, uses Organizely for demand planning and supplier-order approvals by text and reports saving 10 hours per employee per week. That testimonial supports the labor-saving mechanism, while baseline planning labor, savings per successful plan, and adoption by a previously priced-out factory remain unverified. (The Idea, Defensibility, Market & Traction)
+Organizely uses AI to coordinate materials, production, and maintenance for manufacturers. The memo identifies factory bottlenecks such as missing components and stopped machines. It identifies no scarce input that Organizely supplies to an AI workload, so the building-blocks path scores zero. (The Idea)
 
-A relevant unit is the cost per weekly production plan executed with materials available. The comparison would include labor spent on all plans and exceptions, plus amortized setup, software, and inference costs with Organizely. The memo documents on-site setup and human approval for supplier orders, while factory pricing and repeat deployment costs are unknown. The company reports deployments across six states without identifying the factories or disclosing payment or renewal. Two named Shopify reviews show usage of the inventory app. The founders’ six years operating Kinetic Labs, their software engineering experience, and the shipped products support seed-stage execution. Repeatable factory onboarding remains unverified. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Manufacturers already perform planning and purchasing through legacy ERP systems and spreadsheets. Organizely’s factory data model and text-based purchase approvals could reduce manual coordination, but the memo identifies no buyer or planning cadence that has become economically viable because of AI. The industry-enabled path also scores zero, triggering Pass. (The Idea, Market & Traction)
+
+At the founders’ prior business, Kinetic Labs, demand planning and supplier approvals run through linked workflows. That integration could make switching harder, though competing products already cover parts of the workflow and retention is unverified. Spreadsheet workarounds support early demand credit. The six-state deployment claim lacks installation counts and customer identities, and the two Shopify reviews cover the inventory app. The founders’ factory operations experience and the shipped app support execution credit. Factory ERP pricing and the cost of on-site setup and ongoing support are undisclosed, leaving scale economics at the default and confidence low. (Defensibility, The Idea, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Organizely may save staff time within the existing ERP market while leaving buyers with comparable options. Sutton already sells AI manufacturing ERP, and Bizmark automates procurement and production planning. Linked workflows at Kinetic Labs make switching costs plausible, but customer preference under functional parity and network effects remain unverified. The overlap raises a credible substitution risk. The memo provides no direct evidence of buyers switching at parity, so the path remains open for a specific test. (The Idea, Defensibility, Market & Traction)
+AI could make daily integrated production and purchasing plans affordable for a small factory that previously lacked the staff to produce them. Kinetic Labs reported 10 hours saved per employee per week and a 22% higher operating margin. Those founder-affiliated figures suggest a labor-saving mechanism, while the live factory data and approval workflow suggest why a customer might still need an integrated product when comparable models are available. The memo does not establish that Kinetic Labs previously lacked access to the outcome or that the savings cross an affordability threshold for another buyer. The countercase therefore leaves the Pass gate in effect. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 20/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent small factory that previously found continuous planning uneconomic renew Organizely at a price that covers deployment and ongoing service costs after testing an alternative with comparable functionality? Move to **Reach out** if baseline and pilot records show that a lower cost per successfully executed plan made continuous planning viable and the factory chooses to renew after the comparison. Move to **Pass** if the trial shows the cost reduction fails to make planning viable or the buyer switches readily at parity.
+Can Organizely make reliable daily production and purchasing plans affordable for an unaffiliated factory that previously could not sustain that cadence? A paid deployment showing sustained daily use, a before-and-after cost per usable plan that includes setup, staff review, and exception handling, and continued reliance on Organizely’s integrations with comparable models available would change the action to Reach out.

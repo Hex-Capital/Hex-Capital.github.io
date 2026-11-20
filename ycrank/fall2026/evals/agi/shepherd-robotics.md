@@ -5,26 +5,29 @@
 
 ### Company case
 
-New Economies is the strongest path. Data center commissioning currently uses skilled technicians for variable cabling work. Shepherd’s supervised dual-arm robot could lower the technician time and cost per accepted cabling job enough to make small, variable jobs economical when they would otherwise be deferred. That is a scenario assumption. The memo gives neither the manual cost baseline nor an example of a previously excluded job. It documents a public demo and cites company-reported bench success of 95% for cable routing and 60% for cable insertion, with technician supervision and exception handling still part of the workflow. (The Idea, Market & Traction, Key Risks)
+Shepherd has a plausible building-blocks path in rack-cabling commissioning for AI data centers. The constrained input would be skilled technician time for variable wiring and testing. The memo records a 49.1% year-over-year rise in U.S. private data center construction spending through September 2026. That supports a growing volume of commissioning work. The link to a bottleneck rests mainly on Shepherd’s account that conventional automation struggles with variation and that repetitive work ties up technicians who also troubleshoot equipment. Buyer-level delays and the time needed to add equivalent crew capacity remain unverified. (The Idea, Market & Traction)
 
-The expansion unit is one site deployment. Compare the fully loaded technician cost per accepted job today with Shepherd’s hardware, site integration, supervision, retries, and rework costs spread across accepted jobs at actual utilization. Under model parity, buyers could still pay Shepherd to adapt the hardware on site and deliver work that meets commissioning standards. Control of that service advantage remains unproven, and the memo records no paid pilot or buyer commitment. Duan’s factory robot deployments, the team’s autonomy experience, and the public prototype support seed-stage execution capacity. Production commissioning remains the next test. (The Idea, Defensibility, Key Facts, Founders & Team)
+Shepherd showed a prototype publicly and reported bench success of 95% for cable routing and 60% for cable insertion. If routing is a meaningful share of a commissioning crew’s workload, adapting supervised robots to site-specific equipment could free technicians for troubleshooting. The bench results leave net labor savings and accepted rack throughput open. The industry-enabled path scores zero because the memo describes automating existing work and identifies no previously excluded buyer, use, or cadence. (The Idea, Market & Traction, Key Risks)
+
+Local task adaptation gives Shepherd some operating know-how, and the founders bring relevant factory deployment and robotics experience. Transfer across sites and durable pricing power remain unproven amid overlapping offerings. The memo identifies no buyer commitment or funded trial and supplies no deployment pricing or fully loaded delivery costs. (Defensibility, Founders & Team, Market & Traction, Key Facts)
 
 ### Countercase
 
-Shepherd may automate parts of commissioning that customers already buy while leaving technicians responsible for enough exceptions to erase the savings. The reported insertion result and site-specific integration burden make that plausible. Open model checkpoints and overlapping competitors also give buyers potential alternatives. The memo establishes neither ready substitution in production nor Shepherd’s control of a scarce commissioning resource, so the New Economies path remains open for a field test. (Defensibility, Market & Traction, Key Risks)
+Shepherd could move labor from manual cabling into site-specific training, supervision, and rework while leaving the commissioning schedule unchanged. Its reported insertion reliability and need to adapt to equipment available only on site make that a credible risk. Even a routing labor saving would have limited value as an AI bottleneck solution if cabling rarely determines the commissioning date. This is the decisive gap behind Watch. The specific routing mechanism still has enough support to clear the two-zero Pass gate. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 17/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 37/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent data center operator place a paid follow-on order for cabling work it previously deferred after a production pilot shows lower all-in cost per accepted job than technician-only delivery? Move to **Reach out** if the pilot meets the operator’s acceptance standards, supports positive contribution at observed utilization, and the operator chooses Shepherd for its site execution despite access to a comparably capable model. Move to **Pass** if representative supervision and rework erase the savings.
+Can Shepherd shorten a buyer-documented, labor-constrained rack commissioning schedule? A customer-verified pilot against a comparable manual baseline would move the action to Reach out if it maintains the buyer’s acceptance standard and reduces skilled technician hours enough to shorten the schedule, counting site setup, supervision, exception handling, and rework.

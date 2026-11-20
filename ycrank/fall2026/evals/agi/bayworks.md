@@ -1,32 +1,33 @@
 ﻿# Bayworks -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass
 **Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Bayworks’ strongest path. Dealerships already spend billable technician time typing warranty narratives and may spend additional time resolving omissions. Bayworks’ shipped app lets technicians dictate against a repair-order line, attach evidence, and answer prompts for missing details before reviewing the draft. A plausible new use is checking every eligible repair line for completeness at dealerships where manual review is too costly. That scenario remains untested. The memo gives no baseline labor cost or measured change in cost per narrative accepted by a warranty administrator, including review and rework. (The Idea, Market & Traction)
+Bayworks earns zero on both AGI paths. Its warranty documentation workflow supplies no scarce input to an AI workload or infrastructure buildout. For the enabled-industry path, technicians already write warranty narratives manually. Bayworks uses dictation, repair evidence, and prompts for missing details to draft a manufacturer-formatted narrative for technician review and writeback. That workflow can plausibly save billable time and improve completeness. The memo identifies no previously excluded buyer, claim type, or documentation frequency that those savings make viable. (The Idea)
 
-Bayworks reports nearly seven figures in contracted annual recurring revenue within four months and more than 50,000 repairs across six dealership groups. A named Harvey Auto Group director endorses the product. These are meaningful early demand signals, though live paying revenue, renewals, and willingness to pay for the proposed new use remain unknown. The Android app and PBS extension show the two-person team can ship dealership-facing software, consistent with the founders’ prior voice AI and mobile delivery experience. A comparison of accepted narratives under real shop-floor conditions remains the next execution milestone. (Market & Traction, Key Risks, Founders & Team)
+The strongest commercial case is selling workflow software to dealership service departments. Repair-order integration gives Bayworks a place in the technician’s workflow, but Wrench Voice already offers voice documentation and writeback. Dealership ownership and deletion rights also leave cross-dealer learning dependent on reuse permission. (Defensibility, Market & Traction, Key Risks)
 
-The dealership location is a plausible expansion unit. Bayworks reports reaching more than 80 locations in 110 days. Location-level contribution depends on recurring fees covering model and media processing, integration and onboarding, and support for exceptions. The reported rollout supports deployment feasibility, while pricing and per-location costs remain undisclosed. (The Idea, Market & Traction, Key Risks)
+A named Harvey Auto Group operator endorses the product. Bayworks reports six dealership groups, more than 50,000 repairs, and nearly seven figures in cARR. Those signals support early demand, with live paid adoption and renewal still unclear. The available Android app and PBS extension, along with the founders’ prior voice AI and mobile delivery, support execution credit. The memo provides no revenue-to-cost bridge for adding a dealership after integration, support, and processing costs, so scale economics receives the absent-evidence default. (Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Bayworks may save time in an established workflow whose buyers can obtain comparable results elsewhere. Wrench Voice already offers technician dictation, structured warranty documentation, and dealership-system integrations. Bayworks’ repair-order integration and use of prior narratives could make the workflow more useful, but the memo shows no preference for Bayworks at functional parity, cross-dealer network effect, or control of a scarce complement. Dealership ownership of the data also leaves cross-dealer reuse rights uncertain. The overlap leaves both New Economies gates open for testing. The memo establishes neither a newly viable use nor actual switching at parity. (Defensibility, Market & Traction, Key Risks)
+If dealerships routinely skip lower-value warranty claims because technician and administrator time absorbs the expected reimbursement, Bayworks could make those claims economical to submit. Repair-order access, evidence capture, and writeback would still matter to the delivered outcome under model parity. The documented manual burden and missing details make this plausible. The memo supplies no evidence that dealerships skip those claims for cost reasons or that Bayworks has made them viable, so the two-zero Pass gate applies. (The Idea, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 13/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 22/150** (Pass)
 
 ### Decisive diligence question
 
-Will dealerships that previously found comprehensive completeness checks too costly keep paying Bayworks at a price that supports positive location-level contribution when they can use an alternative with comparable functionality? A paid field trial should measure all-in cost per accepted narrative against the manual baseline and track whether buyers continue with Bayworks after trying the alternative. Move to Reach out if the trial shows the cost reduction enables comprehensive checks and buyers keep paying at a viable price. Move to Pass if the trial shows the use remains uneconomic or buyers readily switch at parity.
+Can a dealership use Bayworks to profitably submit a recurring class of warranty claims it previously skipped because of documentation cost? A paid pilot would need to show that otherwise comparable claims were previously skipped for that reason and that reimbursements now exceed fully loaded submission costs, including software, technician review, administrator time, and rework. A repeatable result would move the action to Reach out. Savings confined to claims the dealership already submitted would leave it at Pass.

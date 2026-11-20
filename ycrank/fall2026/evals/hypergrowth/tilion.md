@@ -5,28 +5,28 @@
 
 ### Company case
 
-Tilion’s strongest path is to convert developers who discover and install Fortress into recurring Tilion Cloud customers. Teams running browser agents for data collection and monitoring can use the same Chromium-based product and standard automation interfaces across markets. Site-owner restrictions narrow which workloads Tilion can serve, while the core developer workflow appears portable. (The Idea, Defensibility, Key Risks)
+Conditional on strong product-market fit, Tilion can serve agent developers running recurring data collection and monitoring jobs across markets. Fortress is distributed through GitHub and package registries, supports standard browser automation interfaces, and has a self-hosted option. Those features support reuse across markets with modest adaptation. Site-owner controls can still narrow which workloads are practical. (*The Idea*, *Defensibility*, *Key Risks*)
 
-GitHub and package registries give developers a bottom-up route to Fortress, which reportedly grew from more than 15,000 installs in July to 100,000 in October. The paid Cloud path is less clear. Tilion announced public access in August, while the November homepage directed visitors to a waitlist or call and the benchmark listed Cloud as pre-release. Paying customers, realized revenue, and billed volume remain unknown, so initial traction uses the absent-evidence default. (The Idea, Market & Traction, Key Risks, Key Facts)
+Fortress gives developers a bottom-up route to try the technology. Tilion announced public Cloud access, trial credits, and usage billing in August. The November homepage showed a waitlist and call booking, and Cloud was labeled pre-release in a benchmark. Whether a typical developer can independently start a paid production workload remains unresolved. Reported Fortress installs rose from more than 15,000 in July to 100,000 in October. That shows early developer adoption among a four-person team, while realized revenue, paying-customer growth, and even pre-revenue status remain unknown. (*The Idea*, *Key Risks*, *Market & Traction*, *Key Facts*)
 
-Recurring monitoring gives customers a reason to keep using Cloud. If the announced $0.03 per browser-hour rate applies in production, retained customers would spend more as their workloads grow. Whether that expansion can offset churn remains uncertain. The advertised $2,000 monthly self-hosted tier adds a recurring pricing option, with limited evidence of how accounts could expand their spend. At the announced Cloud rate, each billed hour must cover compute for the session and any retries, as well as attributable onboarding and support. The benchmark’s 0.11-second median session lifecycle suggests a way to reduce per-session overhead if it translates into lower compute use in production. The memo leaves contribution at realistic utilization and retry rates uncertain. (The Idea, Key Risks, Key Facts)
+At the announced $0.03 per browser-hour, retained customers would spend more as they run more jobs or add workflows. That gives expansion a plausible way to offset churn, with durability uncertain because the standard interfaces also make switching easier. In an illustrative scenario, 1,000 billed browser-hours yield $30 before incremental hosting, failed-session recovery, onboarding, and support costs. The measured 0.11-second median lifecycle suggests a possible cost lever if faster session turnover reduces capacity needed per billed hour. Contribution remains uncertain without production utilization and retry costs. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Developers may keep using free, self-hosted Fortress while Cloud struggles to convert them into repeat paying customers. The current waitlist makes paid conversion uncertain, and the observed failed session launch shows how reliability issues could add retry cost and weaken the value customers receive. Site-owner restrictions could also shrink the set of workloads customers can run repeatedly. The structural downside gate stays open because the memo supports a portable product and leaves room for low-touch delivery with viable contribution. The unresolved Cloud access and cost evidence keeps confidence Low. (The Idea, Defensibility, Key Risks)
+Free Fortress adoption could grow while paid Cloud conversion stays weak. The current access restrictions make that risk concrete. Site-owner blocking and an observed session-launch failure also raise the possibility that retries consume enough capacity to erode contribution at the announced price. The structural gate stays open because broad site inaccessibility and persistently uneconomic serving costs remain unestablished. (*Market & Traction*, *The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 13/25 |
-| Retention economics | 11/20 |
+| Repeatable acquisition and onboarding | 15/25 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 56/100** (Neutral)
+**Total Score: 63/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of Fortress users activate paid Cloud on their own and grow its billed usage at positive incremental contribution across successive billing periods? Records showing independent activation, rising paid browser-hours from the same accounts after trial credits, and positive contribution after compute, retries, onboarding, and support would move the action to Reach out.
+Can a cohort of Fortress users independently start paying for Cloud and keep running production workloads at positive incremental contribution? Activation and billing records over successive billing periods, paired with attributable hosting, retry, and support costs, would answer it. A representative cohort showing repeat paid use and positive contribution after those costs would move the action to Reach out.

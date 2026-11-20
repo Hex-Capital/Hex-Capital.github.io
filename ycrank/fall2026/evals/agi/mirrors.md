@@ -1,30 +1,35 @@
 ﻿# Mirrors -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is **New Economies**. Mirrors could reduce the engineering labor needed to diagnose recurring agent failures, revise prompts, and validate fixes. In one company-reported design-partner case, a travel-guide editing agent hit 75 errors despite having the stop rule in its prompt four times. Mirrors offers scoped rules delivered during live turns, previews which past runs would have received them, and compares outcomes with and without them. If that workflow reduces engineer time and rework per successful task, teams could afford to automate low-volume, account-specific workflows they previously handled manually. The memo supplies neither the former delivery cost nor a measured improvement in cost per successful task, and it identifies no buyer newly served by that change. (The Idea, Market & Traction)
+Mirrors sells runtime guidance for production AI agents. Developers can scope rules to an account or workflow, preview where they would apply, and compare outcomes with and without them. The memo identifies recurring agent errors, but provides no evidence that access to runtime guidance constrains AI deployment as demand grows. Existing framework hooks can supply conditional steering, and the memo establishes no shortage of equivalent capacity. The building-blocks path scores zero. (The Idea, Defensibility, Key Risks)
 
-Mirrors reports 63,052 agent turns. The reporting period, customer mix, payment, and repeat usage are unknown. The Python SDK release and the founders’ shared work on Profine show relevant execution for a seed team. Growth list pricing of $299 per month plus $0.005 per turn gives a starting point for evaluating expansion economics. Contribution depends on serving and support costs per turn, while buyer savings depend on successful outcomes after accounting for rule adherence, fail-open runs, and human rework. The memo provides no measurements of those economics. (Market & Traction, Founders & Team, The Idea, Key Facts, Key Risks)
+The industry-enabled path also scores zero. Mirrors targets workflows where agents already operate and developers maintain prompts or skills. The memo shows room to reduce retries and manual correction, but identifies no buyer or workflow previously excluded by delivery cost. It also provides no measured change in successful outcomes or human supervision. (The Idea, Market & Traction)
+
+Account-specific rule histories and outcome comparisons could create switching costs. That advantage remains an inference, while framework-native steering offers a substitute for the core runtime function. For demand, Mirrors reports that a design partner repeated a stop rule four times in a prompt and still saw 75 errors in a travel-guide editing task. That is one concrete buyer workaround. The company-reported 63,052 turns have no stated counting period, and the memo gives no evidence of paid conversion or repeat purchases. (Defensibility, Key Risks, Market & Traction, Key Facts)
+
+The released Python SDK and the founders’ prior work shipping Profine support seed-stage execution credit. Dependable production delivery remains unverified. Published per-turn pricing gives a revenue schedule, while serving costs and contribution per successful task are unknown. Company-reported usage and the lack of buyer-confirmed outcomes limit evidence confidence. (Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Strands steering hooks and LangChain middleware give buyers a route to implement runtime guidance in frameworks they already use. If those tools can match scoped delivery, previews, and outcome measurement, Mirrors may sell a convenience feature to teams already running agents. Accumulated rule histories could create switching costs, but the memo shows no buyer preference at functional parity or network effects. It also provides no evidence of a scarce asset Mirrors controls. Native substitution is credible, but the memo establishes neither functional parity nor buyer switching, so the New Economies path remains open on Watch. (Defensibility, Key Risks, The Idea)
+If recurring errors make agent-led editing too expensive to supervise, scoped rules could cut interventions enough to make that work viable. Rule preview and outcome measurement could give buyers a reason to pay for Mirrors even with access to the same model. The design-partner example establishes the failure mode, but the memo supplies neither a measured improvement after deployment nor evidence that the workflow crossed an affordability threshold. Models can also disregard delivered rules. The countercase leaves both path scores at zero, which triggers Pass. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can independent customers profitably deploy workflows they previously left manual and keep paying Mirrors when framework-native tooling offers comparable functionality on the same model? A paid production cohort that records prior manual delivery costs, measures engineer time and total cost per successful task, and renews at contribution-positive pricing after evaluating the native alternative would move the action to Reach out. Direct evidence that the savings only improve existing deployments, or that buyers readily switch at parity, would move it to Pass.
+Can Mirrors make a previously uneconomic editing workflow viable for a paying customer using the same model available through its existing framework? A paid pilot comparing Mirrors with framework-native steering on comparable tasks would answer it. If Mirrors alone meets the buyer’s reliability and cost thresholds after accounting for fees, retries, and human review, change the action to Reach out.

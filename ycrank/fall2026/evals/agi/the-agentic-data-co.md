@@ -5,28 +5,29 @@
 
 ### Company case
 
-The strongest path is **scarce complements**. The Agentic Data Co. could capture value if speech-model developers need consented, synchronized recordings of natural interruptions and overlapping speech that are hard to source elsewhere. The company says common training sources underrepresent those behaviors. Sesame’s leaderboard placed OpenYap Turn second for end-of-turn detection, which supports the technical relevance of the work on English conversational timing. The result leaves open how much the corpus contributed to performance and whether buyers can get equivalent results elsewhere. (The Idea, Market & Traction, Key Risks)
+The building-block path is training and evaluation data for full-duplex speech models that must handle interruptions and overlapping speech. If more deployed voice agents need those behaviors, model teams could need more consented, synchronized recordings that capture them. YapRoom has produced 1,602 conversations from 239 speakers, and OpenYap Turn placed second on an independent English end-of-turn benchmark. The company says conventional and synthetic sources underrepresent these interactions. The benchmark establishes performance on one timing task. The corpus’s incremental training value, buyer procurement friction, and the time needed to add equivalent supply remain unverified. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
-YapRoom gives the company operational control over collection, consent, and screening. It delivered 1,602 conversations from 239 speakers, and the founders bring prior software delivery and growth operations experience. The next execution gap is delivering a repeatable, paid lab deployment. Open Yap 1K recorded 8,204 monthly downloads, a signal of interest in the free dataset. The company says unnamed labs buy its data, while independent paid commitments and repeat orders remain unverified. (Defensibility, Founders & Team, Market & Traction, Key Facts)
+The industry-enabled path scores zero. The recordings and reinforcement-learning environments serve an existing model-development workflow. The memo identifies no previously excluded buyer or use made viable by a demonstrated reduction in cost per successful outcome. (*The Idea*, *Market & Traction*)
 
-The expansion unit is a usable two-person audio hour. Participant payouts alone cost $20 per usable hour before human review and automated screening. In a scenario where buyers treat oto’s $10 entry offering as equivalent on the same audio-hour basis, matching that price would leave a $10 shortfall per hour before screening. A viable rollout depends on a price premium or lower collection costs, with paid volume and fully loaded costs still unknown. (Key Risks, Defensibility)
+The company-operated collection app and consent workflow provide some operating know-how, with participant retention and exclusive rights still unverified. The shipped corpus and the founders’ software and growth experience support seed-stage execution. Free downloads show interest, and the company claims unnamed labs buy its data. Paid trials, conversion, and repeat orders remain unverified. A usable two-person hour costs about $20 in speaker payouts before screening and review. If the same hour can be licensed repeatedly, those sales could spread collection costs, but realized prices, licensing frequency, and review costs are unknown. (*Defensibility*, *Founders & Team*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-Consented full-duplex audio may be interchangeable. Oto already licenses it, and the memo identifies no structural barrier or demonstrated exclusive access to specialized recordings. Oto’s offering puts scarcity in doubt but leaves buyer substitution for the specific training task untested. That keeps the scarce-complement path open at Watch. The memo does not independently support a New Economies path because it shows neither a labor-cost reduction that opens a previously uneconomic use nor a reason those buyers would keep paying the company under model parity. (Defensibility, Market & Traction, The Idea)
+oto already offers consented full-duplex audio starting at $10 per audio hour. A lab could get equivalent training gains from that supply or from synthetic dialogue, especially if its needs are limited to English turn timing. The benchmark ranking alone cannot show that a buyer would get better results from Open Yap than from those alternatives. Ready substitution would zero the building-block score and trigger Pass. The memo establishes available alternatives, with equivalence on the target workload still unresolved. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 18/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 38/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent speech-model lab renew a paid license at a price above fully loaded marginal cost after a matched training comparison shows a meaningful conversational-timing gain over the best available substitute? A renewal on those terms would move the action to Reach out. Comparable results followed by a switch to the cheaper source would move it to Pass.
+Will a speech-model lab pay for Open Yap after a controlled comparison with its best available substitute? A matched training trial on the buyer’s own interruption and overlap tasks, followed by a paid order tied to a material performance gain, would move the action to Reach out. Comparable performance from a readily available substitute would move it to Pass.

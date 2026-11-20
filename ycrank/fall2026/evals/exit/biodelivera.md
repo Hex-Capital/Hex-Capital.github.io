@@ -5,34 +5,36 @@
 
 ### Company case
 
-A strategic acquisition by a pharma company is BioDelivera’s strongest exit path. BioDelivera reports efficacy in tumors, muscle, and brain. If human data show reproducible selectivity in one therapeutic program, a buyer could acquire GCV to secure delivery rights for that program and potentially reuse the platform. AbbVie’s acquisition of Capstan establishes that pharma has bought an adjacent delivery platform. Buyer interest in BioDelivera remains an inference. (*The Idea*, *Market & Traction*, *Key Risks*)
+Strategic acquisition by a pharma company is BioDelivera’s strongest supported exit route. The memo records AbbVie’s acquisition of Capstan and Lilly’s announced acquisition of Orna for up to $2.4 billion. Those transactions show demand for adjacent delivery assets. BioDelivera reports efficacy in tumors, muscle, and brain, which gives a potential buyer a reason to evaluate GCV for an underserved program. The benefit to that buyer remains an inference because the memo provides no comparative results or buyer engagement. (*The Idea*, *Market & Traction*)
 
-Lilly’s acquisition of clinical-stage Orna, announced at up to $2.4 billion, shows that an adjacent transaction can exceed the size needed here. The announced maximum leaves upfront cash and BioDelivera’s achievable price uncertain. Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. (*Market & Traction*)
+A reproducible human result showing selective delivery in one indication would materially strengthen the acquisition case. The founders’ published drug-delivery research and YC backing support an early development path. The memo gives no funded validation plan, budget, or timeline for reaching that milestone. BioDelivera describes GCV as proprietary, while ownership and transfer rights remain unverified. Program licensing could bring cash into the company, but the memo provides no evidence of a funded distribution or another independent route that would pay this holder. (*Founders & Team*, *Market & Traction*, *Defensibility*, *Key Risks*, *The Idea*)
 
-The acquisition cases below are sensitivities. Both assume an eligible sale of the holder’s entire stake, a pro rata waterfall with no senior preferences, and full cash payment by year eight.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The following sale prices and adjustments are scenario assumptions. The Orna headline supports the possibility of strategic demand, while its clinical stage and “up to” price limit its value as a pricing benchmark for BioDelivera. (*Market & Traction*)
 
-- **Modest acquisition.** $50 million in enterprise value less $10 million in assumed debt and deal adjustments leaves $40 million in distributable equity. The holder receives $1.2 million, or 2.4×.
-- **Strong acquisition.** $125 million in enterprise value less $25 million in assumed debt and deal adjustments leaves $100 million in distributable equity. The holder receives $3 million, or 6×. If 20% of that allocation remains unpaid at year eight, realized cash falls to $2.4 million, or 4.8×.
-- **Prolonged private operation.** Continued operation with cash reinvested yields zero realized proceeds. Program licensing could bring cash into BioDelivera, but the memo provides no evidence of a funded holder payout or eligible share purchase. (*The Idea*, *Key Facts*)
+| Scenario | Proceeds bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $60 million enterprise value less $10 million in assumed net debt and closing adjustments leaves $50 million to distribute. | $1.5 million (3×) |
+| Strong sale | $120 million enterprise value less $20 million in assumed net debt and closing adjustments leaves $100 million to distribute. | $3 million (6×) |
+| Prolonged private | The company keeps operating and reinvests available cash, with no funded payout or eligible share purchase within eight years. | $0 |
 
-The founders’ drug-delivery research and YC backing support pursuing a measurable human selectivity milestone in one program. The memo leaves the study plan, funding, and timing open. It also leaves ownership and transfer rights for the university-origin technology unverified. (*Founders & Team*, *Market & Traction*, *Defensibility*, *Key Risks*)
+Both sale cases assume an all-cash closing within eight years, an eligible holder selling the full stake, and pro rata distribution after the modeled adjustments with no additional senior preference claims. In the strong case, dilution to 2% cuts the payout to $2 million, and selling only half the 3% stake cuts it to $1.5 million. Either change puts realized cash below the objective.
 
 ### Countercase
 
-A pharma buyer may already have a workable delivery option. AbbVie owns Capstan and holds exclusive options with Umoja, which could narrow demand in overlapping indications. BioDelivera’s reported efficacy leaves human selectivity and manufacturing consistency unresolved. That makes a delayed or smaller sale credible, but the memo establishes neither a structural closing barrier nor a proceeds ceiling below the holder’s objective. The specific validation and buyer-economics gap supports Watch. (*Defensibility*, *Key Risks*)
+AbbVie already owns Capstan and has exclusive options with Umoja, giving it substitutes in overlapping programs. BioDelivera’s reported tissue efficacy leaves human selectivity unresolved, and consistent manufacturing potency remains an open risk. A buyer could therefore prefer an existing platform or wait for more data, leaving BioDelivera private beyond the eight-year horizon. This supports Watch. The memo establishes neither a structural block across plausible buyers nor a proceeds ceiling that would trigger Pass. (*Defensibility*, *Key Risks*, *Market & Traction*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Counterparty rationale or source of cash | 17/30 |
-| Plausible investor proceeds | 10/30 |
-| Milestones and capital needed | 10/20 |
+| Plausible investor proceeds | 12/30 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-What cash acquisition range would a named pharma buyer consider if BioDelivera demonstrated reproducible human selectivity in one program? Documented buyer feedback tied to a funded study with a defined selectivity endpoint would move the action to Reach out if the indicated range could yield at least $83.3 million in distributable equity within eight years.
+Would a pharma buyer fund validation in one indication and consider a cash acquisition that clears the holder’s proceeds hurdle if BioDelivera meets a prespecified human selectivity milestone? A funded plan with a defined readout and written buyer feedback supporting a price range that clears the hurdle after expected deal adjustments would move the action to Reach out. Without that evidence, the action remains Watch.

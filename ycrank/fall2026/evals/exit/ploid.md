@@ -5,36 +5,34 @@
 
 ### Company case
 
-Ploid’s strongest exit path is a strategic acquisition by an enrichment platform such as Clay. Clay already combines data from multiple providers, and Ploid’s documented API offers profile research and enrichment. Ploid claims a proprietary index of more than 2 billion people and a system that links identities across sites. If those links materially improve the rate of correct, usable matches, owning the system could give Clay more control over data quality and reduce the cost of assembling profiles. That buyer benefit is an inference. The memo provides no measured lift or evidence of acquisition interest. (The Idea, Defensibility, Market & Traction)
+Ploid’s strongest exit path is a strategic acquisition by a sales or recruiting platform. Clay is a plausible buyer because it already combines data providers in customer workflows. Ploid says its index covers more than 2 billion people and links professional and social identities. If those links resolve more profiles correctly and reduce manual review, owning the matching layer could improve a platform’s economics. The memo establishes the product fit, while the buyer benefit remains an inference. (The Idea, Defensibility, Market & Traction)
 
-A paid production pilot that measures correct-match lift and cost per usable profile against the buyer’s current providers is a plausible seed-stage milestone. Ploid has launched the product, and a founder reports closing clients without disclosing contract values. A pilot lasting a few months is a scenario assumption. The memo leaves its budget, funding, and the capital needed to scale data coverage and quality unverified. A whole-company stock sale is a plausible structure, with vendor change-of-control terms and the buyer’s ability to carry forward privacy and deletion obligations still open. (Market & Traction, Key Risks)
+Ploid has a documented API and published paid plans. A founder reports closing clients, with contract values undisclosed. A paid production pilot using the existing API could measure correct matches at comparable coverage and the cost of manual review against the buyer’s current setup. That is a plausible seed-stage milestone. The memo leaves the pilot budget, realized revenue, and runway unknown. It also identifies reliance on FullEnrich and deletion obligations for covered data brokers. A buyer would need to verify which data rights carry over and how deletion requests would be handled after closing. (The Idea, Market & Traction, Key Facts, Key Risks)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity value at full pro rata participation. The sale cases below assume an all-cash close within that horizon, $10 million in combined debt and other deal deductions, no preference or other waterfall diversion, and eligibility to sell the entire stake.
+The proceeds bridge uses the shared benchmark of a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity at 3%. Both sale scenarios assume the company sells in full for cash within eight years, $5 million in combined net debt and deal deductions, and an eligible holder paid pro rata with no senior preferences diverting proceeds.
 
-| Scenario | Enterprise value to distributable equity | Gross cash to holder |
-|---|---|---:|
-| Modest sale | $30M less $10M = $20M | $600,000 (1.2×) |
-| Strong sale | $100M less $10M = $90M | $2.7M (5.4×) |
-| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or payout | $0 |
+- **Modest sale.** A hypothetical $40 million enterprise value leaves $35 million of distributable equity and pays the holder $1.05 million, or 2.1×.
+- **Strong sale.** A hypothetical $100 million enterprise value leaves $95 million of distributable equity and pays the holder $2.85 million, or 5.7×. If only 80% of the holder’s allocation is paid within eight years, realized cash falls to $2.28 million, or 4.56×.
+- **Prolonged private.** Continued operation with reinvested cash yields zero realized proceeds. The memo provides no evidence of funded payouts or eligible secondary demand for Ploid shares. (Market & Traction, Key Facts)
 
-These are sensitivity cases. Ploid’s listed subscription prices establish an offering, while realized revenue and buyer economics are undisclosed. The strong case clears the objective by $200,000, so a reduction in the holder’s share of the waterfall or the fraction sold could erase the margin. The memo supplies no independent liquidity route. (Key Facts, Market & Traction)
+The sale values are scenario assumptions. Published prices establish what Ploid charges, while realized revenue, buyer savings, and acquisition pricing remain unknown. Plausible investor proceeds and independent alternatives therefore take their absent-evidence defaults. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could keep integrating existing providers. Clay already uses multiple providers, Apollo offers people search through MCP, and Crustdata sells live people data by API. Ploid also relies on upstream vendors for some contact information. If Ploid’s cross-site matching delivers little incremental value, a buyer would have limited reason to acquire the company at a price that clears the holder’s hurdle. The overlap supports that countercase, while relative match performance, transferable rights, and a credible price ceiling remain unresolved. The evidence therefore supports Watch. (Defensibility, Market & Traction, Key Risks)
+Apollo already offers people search through MCP, Crustdata sells live people data through an API, and Clay already integrates multiple providers. A platform may be able to buy enough of the functionality as a service. The memo identifies no structural barrier and provides no head-to-head evidence that Ploid’s matching changes the economics of buying the company. That weakens the acquisition case, but the evidence falls short of establishing a structural block or showing that the strongest credible sale would leave the holder materially short. Watch fits the unresolved buyer economics. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production pilot with an enrichment platform show enough value from owning Ploid’s matching system to support the holder’s $2.5 million cash objective? Buyer-validated gains in correct, usable matches and cost per usable profile, together with a buy-versus-license analysis supporting a price range that clears the hurdle after deal deductions and the waterfall, would move the action to Reach out.
+What would a sales or recruiting platform pay to own Ploid’s identity-matching layer after testing it against its current providers? A paid production pilot showing sustained gains in correct matches and lower review costs, paired with a buyer’s valuation range grounded in those gains, would answer it. Move to Reach out if that range credibly clears the holder’s cash hurdle after deal deductions. Stay on Watch if the pilot shows product value but leaves purchase economics unresolved.

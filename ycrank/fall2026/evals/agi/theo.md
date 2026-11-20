@@ -1,32 +1,31 @@
 ﻿# Theo -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is Theo’s strongest path. Small businesses currently handle website upkeep themselves or hire freelancers or agencies. Theo automates weekly SEO drafting and technical fixes within its hosted website product. At $69.99 per month for Starter, the plausible new use is ongoing SEO for owners who previously skipped it because manual delivery cost too much. The memo gives no comparable agency fees, owner hours, or cost per qualified organic lead. Customer testimonials report search gains, including Buy My Lunch’s increase from 131 to 929 Google clicks over 90 days. Those reports support the possibility of a useful search outcome while leaving attribution, labor savings, and market opening unresolved. (The Idea, Market & Traction, Key Risks)
+Theo uses AI to draft weekly pages and posts and help make technical SEO fixes for small businesses. The memo identifies no scarce input Theo supplies to AI workloads, so the building-blocks path scores zero. The industry-enabled path also scores zero. Theo’s self-selected audit estimated that 47% of 7,071 sites with search data received zero monthly Google search visits. That establishes a visibility problem in the audited sample and leaves open whether those businesses were priced out of ongoing SEO through DIY work, freelancers, or agencies. Theo reports more than 50% average traffic uplift without publishing the cohort size or baseline. Its two named testimonials show reported gains for individual customers, with prior SEO costs and affordability still unknown. (The Idea, Market & Traction, Key Risks)
 
-The memo records one reviewer citing roughly $69 per month, a limited buyer-side payment signal. Theo’s build and audit counts include free activity, and the memo gives no paid renewal data for previously excluded buyers. Theo’s hosted publishing workflow creates migration work, which could help retain customers. Customers own their domains, and Pro users can copy their site code. Preference under functional parity and network effects remain untested. (Key Facts, Market & Traction, Defensibility)
-
-Solo founder Miles Pines shipped the hosted product and reports having grown organic traffic for Endgrate and run SEO for other small businesses. That supports seed-stage execution. Repeatable onboarding and publishing quality remain open. The expansion unit is one paid Starter site-month. At list price, $69.99 must cover hosting, inference, human review and support, and an allocated share of the free build and onboarding work. The memo gives no measured costs or retention to support that contribution estimate. (Founders & Team, The Idea, Key Risks)
+Theo controls hosting and publishing, so customers face some work to migrate away. Customer-owned domains, Pro code access, and overlapping features from Durable and Wix limit that advantage. Buyer interest is visible in 42 reviews averaging 4.8/5, including one reviewer who reported paying roughly $69 per month. Theo’s reported build and free-audit counts leave paid conversion and retention unknown. The shipped product and the solo founder’s reported prior SEO work support execution credit, with dependable publishing quality across customers still unproven. Starter’s $69.99 monthly price gives one side of the scale economics. Hosting, AI usage, support, and exception-handling costs per retained account are unreported. (Defensibility, Market & Traction, Founders & Team, Key Facts, Key Risks)
 
 ### Countercase
 
-Theo may be selling a cheaper bundle in an existing market. Durable already automates blog research and drafting, and Wix combines AI site generation with SEO tools. Theo also depends on Google authorization for activation and on Google visibility for the customer outcome. Feature overlap makes substitution credible, while actual switching and buyer preference under comparable functionality remain untested. The market-opening and model-parity gates therefore remain unresolved, which supports Watch. The memo identifies no independently supported scarce complement. (Defensibility, Market & Traction, Key Risks)
+If hiring someone to do weekly SEO costs more than some small businesses can afford, automating drafts and bundling publication and technical fixes into a $69.99 monthly plan could make that cadence viable for them. Even with comparable drafting models, those owners could still pay for Theo to maintain the site and carry out the work. The plan and reported customer gains make that scenario plausible. The memo leaves the prior affordability limit and the full cost of achieving repeatable results, including owner review time, unverified. Both path scores remain zero, which triggers Pass. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 23/150** (Pass)
 
 ### Decisive diligence question
 
-Can Theo win paid renewals from SMBs that previously skipped ongoing SEO because of cost, after those buyers try a functionally comparable alternative? Move to Reach out if a paid cohort with documented prior cost barriers shows lower fully loaded cost per qualified organic lead than comparable manual delivery and renews at list price after trying the alternative. Move to Pass if the test shows buyers were already served at viable cost or readily switch under parity. An inconclusive result keeps Theo on Watch.
+Can a paid Starter cohort of small businesses with a documented history of being priced out of weekly SEO achieve sustained organic lead gains and renew at $69.99 per month? Compare the prior cost of weekly SEO with Theo’s price plus the value of owner review time. If the cohort clears that affordability threshold and renewals show that owners value Theo’s publishing and maintenance despite access to comparable drafting tools, change the action to Reach out. (The Idea, Key Facts, Key Risks)

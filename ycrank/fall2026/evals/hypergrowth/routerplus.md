@@ -1,32 +1,34 @@
 ﻿# RouterPlus -- Hypergrowth Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-Assuming strong product-market fit, RouterPlus’s strongest path is to pool recurring inference workloads and sell managed capacity behind a single API. Production AI teams can plausibly use the same interface and workflow across markets where provider access and data policies permit. The memo documents a self-serve playground and API signup, while the managed offer relies on workload evaluation, provider bids, peak testing, and backup arrangements. That gives developers a reusable entry point and leaves substantial human work on the path to a capacity purchase. (The Idea, Key Risks)
+Assuming strong product-market fit with production AI teams, RouterPlus can plausibly serve the same recurring inference job across markets through a single API. The documented shared-endpoint policy allows up to 30 days of prompt and response retention, with opt-out or dedicated endpoints available. That can complicate adoption for privacy-sensitive teams, while the core integration looks broadly portable. (*The Idea*, *Key Risks*)
 
-A customer testimonial describes capacity sourced for peaks of 15× average traffic. That supports a recurring production need. Larger workloads could lead to larger capacity purchases, though renewal and expansion terms are undisclosed. The three-person team launched the managed marketplace on October 29, and RouterPlus reports 3 million daily agent conversations at its largest customer. The memo leaves the billing status of that traffic and paid growth unknown, so commercial traction receives the absent-evidence default. (RouterPlus, Market & Traction, Key Facts)
+Developers can discover RouterPlus through its launch and website, try the playground, sign up for the API, and prepay for marketplace usage. The managed-capacity path still involves individual quotes, workload testing, provider bids, and peak validation. The API integration and ongoing need for capacity give teams a reason to stay. Larger workloads could increase what an account spends on reserved capacity, but the memo establishes neither recurring capacity payments nor how much of that spend RouterPlus keeps. Marketplace usage carries no token markup, and bring-your-own-key usage carries no RouterPlus inference fee. (*The Idea*, *Key Facts*)
 
-In a pooled-capacity scenario, contribution is the customer capacity charge less provider commitments, backup and gateway costs, and attributable sales, benchmarking, onboarding, and support labor. RouterPlus reports one pooled provider deal. Pooling could improve utilization if customer peaks are staggered. Realized contribution remains unknown. (The Idea, Defensibility, Key Risks)
+The managed marketplace launched on October 29 with a listed team of three. By November, RouterPlus reported 3 million daily agent conversations at its largest customer. A customer also reported that RouterPlus sourced capacity for peaks of 15× average traffic. Those are early deployment signals. The memo leaves payment status, billed volume, and commercial growth unknown, so Initial traction takes the rubric default. (*RouterPlus*, *Market & Traction*, *Key Facts*)
+
+Under a pooled-capacity scenario, incremental contribution is the customer’s capacity payment less provider and backup capacity costs, gateway infrastructure, and attributable sales, testing, onboarding, and support. RouterPlus reported one pooled provider deal. Pooling could improve utilization if customers peak at different times, while simultaneous peaks or minimum commitments could erase that gain. The memo gives no contract amounts or operating costs to establish positive contribution. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Traffic could grow while RouterPlus captures little value. Marketplace tokens carry zero markup, bring-your-own-key traffic carries zero RouterPlus inference fee, and individually quoted capacity may require substantial work and backup commitments for each buyer. The structural gate clears because the shared API and reported pooled deal support a credible path to reuse. Confidence is Low because paid uptake and contribution on that path remain unverified. (The Idea, Defensibility, Key Risks)
+The self-serve gateway could attract substantial traffic while generating little revenue for RouterPlus, leaving individually negotiated capacity deals to fund the business. If each deal requires fresh benchmarking, procurement, and backup arrangements, revenue could grow in step with labor and capacity commitments. Existing routing and failover alternatives could also limit pricing power. The structural downside gate stays open because the reported pooled deal offers a concrete way to share capacity across customers, though its repeatability and economics remain unproven. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 7/25 |
-| Retention economics | 11/20 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 8/25 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 51/100** (Neutral)
 
 ### Decisive diligence question
 
-Can RouterPlus repeatedly onboard production teams onto one pooled capacity offer and earn positive contribution as those accounts grow? A cohort of independent customers using the same onboarding flow, with repeat paid invoices showing expansion and costs that include delivery labor and backup capacity, would move the action to Reach out. If each additional account requires bespoke work and capacity commitments that absorb its contribution, the action would move to Pass.
+Can several production teams enter through the standard API and expand paid pooled-capacity usage with little manual work and positive incremental contribution? Invoices, provider and backup costs, and onboarding and support time across those accounts over several billing periods would answer it. Move to Reach out if that evidence establishes repeatable paid expansion and lifts the score to at least 65 with Medium or High confidence.

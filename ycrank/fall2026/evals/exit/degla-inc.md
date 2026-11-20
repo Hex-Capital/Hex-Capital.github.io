@@ -5,23 +5,23 @@
 
 ### Company case
 
-Degla’s strongest exit path is a strategic sale of its onboard autonomy software to a drone manufacturer or public-safety platform with an established distribution channel. Degla says its software interprets spoken mission objectives and replans onboard. If it consistently reduced operator time while preserving search reliability, a buyer could deploy it across an existing fleet. Axon’s primary investment in Skydio and Motorola Solutions’ lead investment in BRINC show strategic capital going into drone response. Both were financings, so they leave Degla-specific buyer interest and acquisition pricing unverified. (The Idea, Market & Traction, Key Risks)
+A strategic acquisition is Degla’s strongest supported route. Degla claims its onboard software can interpret spoken mission objectives and replan during flight. Motorola Solutions, which led BRINC’s financing, is an illustrative buyer. Owning the software could reduce operator workload in BRINC’s teleoperator-led service if Degla can demonstrate repeatable savings at comparable mission reliability. The financing shows strategic interest in drone response. The memo provides no measured buyer benefit or basis for an acquisition price. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The Chula Vista flight demonstration and confirmed YC backing support a next milestone of a paid manufacturer pilot on the partner’s aircraft. The pilot would need to measure operator time and miss rates against the partner’s current workflow across repeat flights. Integration, flight authorization, and testing require capital, and the memo leaves the pilot budget, runway, and timing unverified. The reported Jetson implementation makes a software acquisition plausible at seed. Transferability of the code, model, and training-data rights remains unverified. The memo identifies no independent route to holder liquidity. (The Idea, Defensibility, Market & Traction, Key Risks)
+The Chula Vista flight demonstration and confirmed YC backing make an authorized production pilot plausible. The memo leaves the pilot budget and funding runway unknown and gives no repeatability benchmark. It also leaves IP transfer rights and holder eligibility unverified and identifies no independent liquidity route. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
-The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year goal is $2.5 million in gross cash, which requires about $83.3 million in distributable equity value. The sale scenarios assume an eligible holder, a full cash sale within eight years, and a pro rata, as-converted payout with no incremental preference leakage. The prices and deductions are illustrative assumptions. The memo supplies no Degla revenue or transaction-price evidence to support either sale price. (Key Facts, Market & Traction)
+With actual terms unavailable, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. The sale scenarios assume an all-cash close within eight years, an eligible holder selling its full stake, and pro rata distribution after the stated adjustments with no additional senior claims.
 
-| Scenario | Enterprise value to distributable equity | Holder cash |
-|---|---|---|
-| Modest sale | $40M less $5M in assumed net debt and deal adjustments = $35M | $1.05M (2.1×) |
-| Strong sale | $100M less $10M in assumed net debt and deal adjustments = $90M | $2.70M (5.4×) |
-| Prolonged private | Continued operation with cash reinvested and no eligible share sale or payout within eight years | $0 |
+| Scenario | Illustrative proceeds bridge |
+|---|---|
+| Modest sale | $50 million enterprise value less $5 million in net debt and deal adjustments leaves $45 million in distributable equity. The holder receives $1.35 million, or 2.7×. |
+| Strong sale | $110 million enterprise value less $10 million in net debt and deal adjustments leaves $100 million in distributable equity. The holder receives $3 million, or 6×. If the holder can sell only 75% of its stake, cash received falls to $2.25 million, or 4.5×. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share sale or distribution yields zero realized proceeds within eight years. |
 
-The strong case clears the objective by $200,000. At 2.5% ownership, the same sale yields $2.25 million (4.5×).
+The sale values are illustrative assumptions. The memo leaves open whether a strategic buyer could justify a price that clears the hurdle. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Incumbents already have operator workflows and distribution, and drone manufacturers can prototype onboard inference on commercially available Jetson hardware. Degla reports pilot-informed training, but the memo provides no evidence of exclusive training data, measured operator savings, or repeatable search performance. A buyer could keep its existing workflow or build the feature internally. That risk supports Watch. The memo establishes neither a ready equivalent that blocks a sale nor a credible sale-price ceiling below the holder’s hurdle. (The Idea, Defensibility, Key Risks)
+An incumbent could keep its existing workflow or build onboard inference using commercially available Jetson hardware. Degla’s reported flight testing leaves miss rates and repeatability unknown, and the memo does not establish exclusive training data. Flight authorization could also delay a production pilot. These facts weaken the case for buying Degla and support Watch. The Pass gate would require evidence of a structural block or materially inadequate proceeds under the strongest credible route. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -29,12 +29,12 @@ Incumbents already have operator workflows and distribution, and drone manufactu
 |-----------|-------|
 | Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Would a drone manufacturer’s measured results from a paid pilot justify buying Degla at a price that could leave at least $83.3 million in distributable equity within eight years? A buyer’s valuation indication tied to repeatable operator-time savings and acceptable miss rates would move the action to Reach out if the modeled holder payout clears $2.5 million after deal adjustments and the waterfall.
+Can a strategic buyer’s production pilot show enough repeatable operator savings at comparable mission reliability to justify a purchase price that clears the holder’s hurdle? Move to Reach out if buyer-validated pilot results and a build-versus-buy analysis support a price range that leaves at least $83.3 million in distributable equity under plausible deal terms.

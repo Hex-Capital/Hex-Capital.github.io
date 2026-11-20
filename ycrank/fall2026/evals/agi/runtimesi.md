@@ -5,28 +5,31 @@
 
 ### Company case
 
-New Economies is Runtime.si’s strongest path. The memo describes robot builders spending hours on teleoperated demonstrations and policy tuning when a manipulation task changes. Runtime searches for actions in a reconstructed scene and updates the simulation from physical feedback. The investment scenario is that this approach cuts setup labor enough to make short production runs with frequent task changes economical for a buyer that currently handles them manually. Runtime reports matching or beating unnamed robot foundation models on tasks including rope threading and egg grasping. The undisclosed trial counts and success rates limit what those tests establish about repeatability and labor savings. (The Idea, Market & Traction)
+Runtime’s strongest AGI path is making short-run robot manipulation economical. The memo describes a workflow that can require hours of teleoperated demonstrations and fresh policy tuning when a task changes. Runtime says its policy reconstructs the scene, searches candidate actions in simulation, and updates the scene from physical feedback. The seed-stage hypothesis is that a deployer who currently leaves frequently changing jobs manual could automate them if Runtime cuts setup labor enough to offset planning compute, integration, and interventions. The robot-specific control and feedback loop could remain a distinct product under model parity. Whether deployers need Runtime’s implementation remains open. (The Idea, Key Risks)
 
-The relevant comparison is cost per successful manipulation at comparable throughput and quality. Runtime could reduce demonstration and tuning labor, while simulation compute, integration, maintenance, and human recovery from failed actions would count toward the delivered cost. Each additional deployment is a plausible expansion unit, with a software license as an inferred revenue model. The memo supplies no deployment-level cost or pricing evidence to establish a viable contribution margin. (The Idea, Key Risks, Key Facts)
+The memo records a policy launch and relevant founder experience in manipulation, manufacturing, and controls. Runtime reports rope-threading and egg-grasping experiments against unnamed models, with trial counts and success rates undisclosed. Those experiments support prototype delivery. Live cycle time, repeatability, and fully loaded cost per successful task remain unverified. (Market & Traction, Founders & Team, Key Risks)
 
-RoboSkillHub documents reusable skills and records physical verification, which could give Runtime an integration advantage. Buyer preference under functional parity and benefits that increase as more users join remain untested. The November policy launch and the founders’ manipulation, manufacturing, and control experience support seed-stage execution. Launch attention and early-access signup leave buyer commitment to the current policy unverified, so customer demand receives the absent-evidence default. The reported data-center pilots concerned an earlier product. (Defensibility, Founders & Team, Market & Traction, Key Facts)
+The building-block path scores zero. The current policy addresses robot manipulation, and the memo identifies no AI buildout workload for which it relieves a scarce input. The earlier data-center automation effort has unspecified pilot references and identifies no constrained input that the robots could supply or free up. (The Idea, Market & Traction)
+
+Teleoperated demonstration collection is a concrete buyer workaround. Launch votes show attention, and the announced early-access program has no documented buyer commitments or paid use. RoboSkillHub records hardware verification of reusable skills, but open physics tools and published simulation-search research make the core approach replicable in principle. The memo establishes neither a price for the inferred software license nor a cost per successful outcome, so scale economics take the default. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Simulation planning could shift costs from demonstration labor to compute and operator recovery. Runtime says it is working to accelerate the live planning loop, and the memo identifies reconstruction and contact errors that could undermine physical execution. Open physics tools, a research demonstration of parallel simulation search, and competing policies that adapt from short examples make substitution credible. The memo leaves both market opening and durable buyer preference unresolved. That triggers Watch. There is also no independently supported scarce complement. (Defensibility, Market & Traction, Key Risks)
+Short-demo and video-conditioned policies may already make the same task changes affordable. Runtime adds live search, and errors in scene reconstruction or contact simulation could increase cycle time and interventions enough to erase its setup savings. The memo leaves both outcomes unresolved, so the decisive test is whether Runtime opens a previously uneconomic use. If it only speeds up work already viable with an available policy, the enabled-industry path falls to zero and the two-zero gate calls for Pass. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 17/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robot deployer pay to expand Runtime from a pilot to a second short-run task that was previously uneconomic to automate? Move to Reach out if the pilot shows that Runtime lowers all-in cost per successful manipulation enough to make the task viable at the buyer’s required throughput and quality, and the buyer chooses Runtime at a viable price after testing a functionally comparable alternative. Move to Pass if a representative trial shows that the cost reduction cannot open the use case or that the buyer switches readily at parity.
+Can Runtime bring a deployer’s previously uneconomic short-run manipulation task below its cost threshold at the required throughput? A buyer-run pilot across repeated task changes should compare Runtime with the best available alternative and count setup labor, compute, integration, failures, and interventions per successful outcome. If Runtime meets the buyer’s preset cost and throughput targets and the alternative misses them, move to Reach out. If both meet the targets or Runtime’s delivery costs erase the savings, move to Pass.

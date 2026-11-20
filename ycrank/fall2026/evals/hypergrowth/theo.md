@@ -5,28 +5,28 @@
 
 ### Company case
 
-Theo’s strongest path is to turn free website audits and previews into paid hosting and weekly SEO subscriptions for small businesses. Assuming strong product-market fit, the same site builder, publishing workflow, and Google integrations could serve this recurring job across many markets. The memo leaves open how well Theo handles local languages and search terms. The no-login audit, site preview, and Starter trial give owners a way to begin independently. Paid activation still requires a domain cutover and Google authorization, and the memo leaves open how many owners complete checkout and migration unaided. *(The Idea, Key Risks)*
+Assuming strong product-market fit with its initial small-business buyers, Theo could serve the same recurring job across markets where buyers can use its Google-linked workflow. Site building or import, hosting, weekly publishing, and technical fixes are reusable. Keyword research and copy still need to fit local language and search behavior, and the memo leaves the extent of that adaptation uncertain. (The Idea, Key Risks)
 
-Hosting and weekly publishing give customers reasons to keep paying. Starter and Pro offer a concrete upgrade path through more publishing and credits, with limited evidence that upgrades could offset churn. One reviewer reported paying roughly $69 per month. Theo reported more than 10,000 builds, a figure that can include free drafts. The memo gives no paid-customer trajectory from which to judge the pace of commercial growth. *(The Idea, Defensibility, Market & Traction, Key Facts)*
+Theo’s free no-login audit and site preview provide a concrete route from discovery to first use. The paid SEO workflow also requires a domain cutover for existing sites and connections to Google Analytics and Search Console. The memo documents those steps and a Starter trial, while independent checkout and full activation by typical buyers remain unverified. Theo reports more than 10,000 site builds and 10,470 audited domains, and a reviewer reported paying roughly $69 per month. That payment is an early commercial signal. The build and audit counts include free activity and leave the pace of paid growth unclear. (The Idea, Key Risks, Market & Traction, Key Facts)
 
-For a Starter account, the cost scenario starts at the listed $69.99 monthly fee. Incremental contribution depends on hosting, weekly generation and search-data costs, and support. Over the account’s paid life, that contribution also needs to cover any attributable ad spend, free audit and preview costs, and migration help. Automated drafting, optional auto-publishing, and owner review could limit Theo’s labor per account. The memo provides no measured costs to establish the size or durability of that advantage. *(The Idea, Key Risks)*
+Hosting and weekly SEO give customers ongoing reasons to renew. Starter at $69.99 per month and Pro at $129.99 create a concrete expansion path for accounts that need more publishing and credits. Whether upgrades can offset churn remains uncertain. In an illustrative Starter month, the $69.99 fee must cover incremental hosting, content generation, and support, plus a share of attributable acquisition and activation costs over the payback period. Automated publishing and technical fixes could limit staff time per site. The memo gives no operating inputs to estimate contribution. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The audit and preview may attract owners who hesitate to move a live site. Owners who do migrate must connect Google services before growth work begins, and weak automated content could erode the search visibility they pay Theo to improve. Theo’s reported average traffic uplift lacks a disclosed cohort and baseline, so typical customer outcomes remain uncertain. The structural downside gate clears because the memo establishes neither unavoidable hands-on migration nor a market-by-market rebuild. *(The Idea, Market & Traction, Key Risks)*
+Theo could attract many free audits and previews while converting few existing-site owners through migration and Google authorization. Even after activation, weak automated content could hurt search visibility and weaken the reason to renew or upgrade. Theo’s launch uplift claim omits the cohort size and baseline, and the named testimonials establish individual outcomes whose typicality is unknown. The structural downside gate stays open because the documented setup uses standard connections and the memo establishes neither required staff intervention for each buyer nor structurally unfavorable contribution. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 19/25 |
+| Global buyer demand | 20/25 |
 | Repeatable acquisition and onboarding | 16/25 |
 | Retention economics | 15/20 |
 | Initial traction | 8/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 63/100** (Neutral)
+**Total Score: 64/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Theo’s free audit funnel produce a growing number of paid Starter sites at positive contribution? Move to Reach out if several comparable monthly cohorts show rising paid activations, most owners complete setup unaided, and contribution earned during the observed paid period covers acquisition and activation costs.
+Can successive cohorts of existing-site SMBs go from free audit to a paid, SEO-active site without Theo staff intervention? Dated funnel data linking audits to checkout, site cutover, Google authorization, and first publication would answer it. Repeatable independent activation at a conversion rate that covers attributable acquisition and onboarding costs would move the action to Reach out.

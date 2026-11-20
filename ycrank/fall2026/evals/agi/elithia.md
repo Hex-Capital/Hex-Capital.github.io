@@ -1,32 +1,33 @@
 ﻿# Elithia -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-Elithia’s strongest AGI path is **New Economies**. Automating record sorting, deduplication, and chronology drafting could lower the cost of producing an expert-approved chronology enough to serve smaller malpractice or serious-injury matters that cannot justify days of manual review. That buyer segment is a scenario assumption. The founder reported that one expert, his mother, went from nearly a week to about two days to produce a report and that the software surfaced a missed document. The account supports a plausible efficiency gain. It measures elapsed time on one case, leaving labor hours, cost per approved report, and previously excluded demand unmeasured. (*The Idea*, *Market & Traction*)
+Elithia has no supported building-blocks path. Its software uses AI to assemble medical chronologies for expert review. The memo identifies no scarce input that Elithia supplies to an AI workload and no AI deployment bottleneck it could relieve. (The Idea, Market & Traction)
 
-Elithia reports more than 70 physician experts using the product on live cases, two agency contracts, and sales to experts and firms. Those are meaningful seed-stage demand signals. Contract terms, repeat paid use, and whether customers are paying for newly viable cases remain unknown. Jain’s prior work with unstructured data and delivery of an editable, source-linked workflow support the execution score. The next execution gap is measuring material omissions and review burden across independent cases. (*Market & Traction*, *Key Facts*, *Founders & Team*, *The Idea*, *Key Risks*)
+The industry-enabled path also scores zero. Physicians, nurses, and paralegals can spend days reconstructing a record manually. Elithia’s described workflow automates deduplication, sorting, and chronology drafting while keeping source verification, corrections, and sign-off with the expert. That design plausibly reduces labor on existing cases. The memo identifies no buyer, case type, or review frequency that was previously uneconomic and became viable. Under model parity, a source-linked editing and sign-off workflow could still provide value as a distinct product, although competing products already offer source-linked chronologies and at least one serves physician reviewers. (The Idea, Defensibility, Key Risks)
 
-The expansion unit is one expert-approved chronology. In the scenario, savings on manual preparation must exceed software fees and the cost of remaining expert review and rework. Elithia’s contribution per case would depend on realized pricing, document volume, inference costs, and any support needed to resolve exceptions. The memo supplies no measured unit costs or count of newly viable cases. (*The Idea*, *Key Facts*, *Key Risks*)
+Organization-specific templates could create some switching friction, but overlapping products and Word and PDF export limit the case for durable value capture. Elithia reports more than 70 physician experts using it on live cases and two agencies under contract. Those are concrete demand signals, with payment terms, conversion from the free allowance, and repeat paid use unverified. The memo describes a shipped product and a founder with relevant unstructured-data experience. Dependable detection of material omissions and handling of conflicting records remain unverified. The first 1,000 pages are free for physician and nurse experts, and the memo supplies no paid price or delivery cost per signed-off case from which to estimate contribution. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Elithia may make an existing paid workflow faster while leaving its market and competitive economics largely intact. Medrecords AI also serves physician reviewers, and both it and Wisedocs offer source-linked chronologies. Organization-specific templates could give experts a reason to stay, but the memo provides no observed preference at functional parity or network effect. The overlap makes substitution credible. Buyers’ actual switching behavior and the existence of a newly viable segment remain untested, so the New Economies path stays open on Watch. The memo establishes no independent scarce-complement path. (*Defensibility*, *Market & Traction*)
+The founder reports that one expert’s report went from nearly a week to about two days and that the software surfaced a missed document. If similar gains translated into lower fully loaded review costs, agencies might be able to commission reviews for cases they currently skip on cost grounds. The example involves the founder’s mother, measures elapsed turnaround, and concerns a review already being performed. It leaves the economic threshold unproven, so the zero-path Pass gate applies. (Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 12/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 9/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent medico-legal buyers repeatedly pay Elithia for expert-approved chronologies on cases they previously skipped because of review cost, even when a functionally comparable tool is available? A paid cohort would answer this by documenting prior case exclusions, comparing all-in cost per approved chronology at the same material-omission standard, and observing repeat purchases after buyers try the alternative. Reach out if lower costs unlock those cases and buyers repeatedly choose Elithia at a price that covers its variable delivery costs. Stay on Watch if the cohort is inconclusive. Pass if buyers use it only on existing work and readily switch under parity.
+Can an independent medico-legal agency use Elithia to commission and pay for expert reviews on cases it previously declined because manual review cost too much? A paid pilot on that case class would change the action to **Reach out** if it showed that the cost per completed, signed-off review, including expert verification and rework, fell below the agency’s documented purchasing threshold while meeting its quality standard. Savings confined to reviews the agency already commissions would retain **Pass**.

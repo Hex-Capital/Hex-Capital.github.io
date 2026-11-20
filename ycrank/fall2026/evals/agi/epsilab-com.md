@@ -5,28 +5,29 @@
 
 ### Company case
 
-**Scarce complements** is the strongest path. As frontier models take on longer tasks, labs may place more value on training environments that reproduce enterprise workflows and reliably grade the outcome. The memo documents an expansion of long-duration testing. Epsilab reports that existing benchmarks can misgrade outcomes and that it uses real workflow data and practitioner input to build resettable simulations. The memo provides no comparative test showing that Epsilab’s graders are more reliable or that training gains transfer to real work. (*The Idea*, *Market & Traction*, *Key Risks*)
+Epsilab has a plausible building-blocks path in reinforcement learning for frontier agents that carry out multi-step work across enterprise tools. The candidate bottleneck is a supply of realistic, resettable tasks with attainable success criteria and graders that reliably recognize correct outcomes. The memo records METR expanding its long-duration test set as models became capable of longer software tasks. Epsilab reports that existing benchmarks sometimes set unattainable goals or misclassify results, and describes using real workflow data and practitioners to build stateful simulations. If labs expand training into more enterprise workflows, recreating those workflows and validating their graders could become a bottleneck. The memo leaves lab procurement delays, supplier capacity, and transfer to real work unverified. (The Idea, Market & Traction, Key Risks)
 
-Epsilab reports direct work with unnamed frontier labs. Payment, buyer commitments, and repeat orders remain unverified. The founders’ RL, language-model, and infrastructure experience supports early execution, and the research posting describes tests for reward hacking and generalization. Results from those tests remain open. (*Market & Traction*, *Founders & Team*, *Key Risks*)
+The industry-enabled path scores zero. The memo describes a training input for labs and identifies no previously excluded buyer or use for which AI crosses a delivered-cost threshold. (The Idea)
 
-The expansion unit is one validated workflow environment. If Epsilab can reuse data rights, simulation components, and graders across orders, revenue per environment could outpace the incremental cost of simulation engineering, practitioner review, grader validation, and maintenance. Pricing, reuse rights, and delivery costs are unknown. (*The Idea*, *Defensibility*, *Key Risks*)
+Reported access to practitioners and workflow data gives Epsilab a starting advantage in sourcing and designing tasks. Reusable data rights and a validated task library remain unverified. The company reports work with unnamed frontier labs, with no defined trial, payment, or repeat order disclosed. The founders’ RL and language-model research, infrastructure experience, and prior work together at Shortbread support seed-stage execution, while dependable environment delivery remains unproven. Scale economics remain at the default because the memo gives no price or measured production cost for the next lab-qualified environment, including practitioner time and grader validation. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Labs could build comparable environments internally or buy them from rivals. The memo documents an in-house work-based evaluation, open-source rollout and grading infrastructure, and a competitor with both an expert marketplace and enterprise simulations. Epsilab’s reported access to data and practitioners gives it a plausible starting advantage. Exclusive access or an advantage that compounds with each delivery remains unproven. The alternatives make substitution credible without establishing equivalent performance, so the scarce-complements path stays open on Watch. The memo supplies no independent New Economies case showing a labor-cost reduction that brings previously excluded buyers into the market. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Frontier labs may be able to build adequate substitutes on their own research timelines. The memo records a lab building work-based evaluations internally, open-source rollout and grading infrastructure, and competing suppliers of agent environments. Epsilab’s simulations could also reward shortcuts that raise scores without improving performance on real workflows. Readily available equivalents would eliminate the building-blocks path and trigger Pass. The memo leaves equivalence for long-horizon enterprise RL unresolved, which supports Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 19/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 37/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent frontier lab place a paid follow-on order after a head-to-head test against its best available alternative? Move to Reach out if the lab reorders because Epsilab delivers materially better performance on held-out real workflows and attributes the gain to workflow inputs the alternative cannot readily obtain. Move to Pass if a readily available substitute matches the outcome at comparable cost and turnaround.
+Can Epsilab close a frontier lab’s long-horizon training gap within a deadline the lab’s best available alternative cannot meet? A buyer-confirmed paid qualification would move the action to Reach out if the lab documented that constraint and a matched training comparison showed better performance on independently graded, held-out enterprise workflows.

@@ -1,19 +1,21 @@
 ﻿# Rystic -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Rystic’s strongest path is selling its standard simulator catalog to engineering teams that repeatedly test agents and code changes in CI. Conditional on strong product-market fit, the same Slack, Stripe, and GitHub API simulations can serve teams using those workflows across markets with little geographic adaptation. Homebrew and GitHub releases, self-serve signup, and documented CI setup give developers a route to first value. The memo leaves independent purchase and production onboarding unverified. (The Idea)
+Assuming strong product-market fit with engineering teams, Rystic’s strongest growth path is selling its standard simulators to teams that repeatedly test agents and code changes in CI. The same local runtime and familiar Slack, GitHub, and Stripe API interfaces can plausibly serve the same job across markets with little geographic adaptation. Metered CI requires license connectivity, which limits where the standard product can run. (The Idea, Key Risks)
 
-Tilo’s CTO reports using Rystic in CI for migration-assistant testing. I infer that recurring test runs and saved scenarios can sustain usage. Monthly Pro seats and metered overages offer ways for retained accounts to expand spend, although pooled credits can absorb workload growth before it raises the bill. The two-founder team publicly launched on October 26, 2026. The usage reports leave payment status and commercial growth unknown, so initial traction receives the default. (Market & Traction, Defensibility, Founders & Team, The Idea)
+Homebrew and GitHub Releases give developers a direct route to the CLI, and GitHub or Google signup lets them start independently. Tilo’s CTO reports using Rystic in CI, giving a concrete example of first value. Published Pro pricing and usage terms make monetization plausible. Whether typical developers can upgrade and put a paid CI workload into regular use without founder help remains unresolved. (The Idea, Market & Traction)
 
-In an illustrative scenario, one Pro seat with 1,000 simulator-minutes beyond its credits yields $101.99 in monthly revenue before incremental costs. Running simulations on the buyer’s own CI can limit Rystic’s execution costs, and catalog verification can be shared across buyers. Contribution still depends on incremental licensing infrastructure, onboarding, support, and any simulator maintenance added by the account. The memo gives no measured contribution or paid renewal evidence. (The Idea, Defensibility, Key Risks)
+Recurring CI runs give teams a reason to keep paying $89.99 per seat per month. Saved scenarios and state checks could reinforce continued use, while added seats and usage above pooled credits can expand account spend. Expansion could offset churn, though account-level retention is unobserved. The two-person team’s October 26 launch and customer testimonials establish early use. Payment status, realized revenue, and commercial growth are unknown, so initial traction receives the absent-evidence default. (The Idea, Defensibility, Market & Traction, Key Facts)
+
+In an illustrative scenario, 1,000 simulator-minutes above pooled credits add $12 in revenue before incremental costs. Local execution can keep Rystic’s serving costs low, and the shared verification pipeline spreads simulator maintenance across buyers. License operations, support, and any buyer-specific engineering still draw on that revenue. The memo gives no measured contribution per workload. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The strongest risk is that production buyers routinely need bespoke simulator work or offline licensing. HJBL reports using exchange simulators built for it. Rystic reports 92.4% agreement on its GitHub Pulls checks, and metered simulators can stop if their license lease goes unrenewed for two hours. If those limits make founder-led work routine, acquisition and support costs could rise with each account. The structural gate remains open because the memo does not establish that this work is unavoidable for teams using the standard catalog. (Market & Traction, Key Risks)
+The risk is that the workloads customers will pay for routinely need custom simulators or offline deployment. HJBL reports using exchange simulators built for it, and Rystic reports 92.4% agreement across 645 GitHub Pulls checks. A metered simulator can also stop if it cannot renew its license lease within two hours of its last renewal. If these limits routinely require founder engineering or custom Enterprise rollouts, both onboarding and contribution could deteriorate as sales grow. Tilo’s reported CI use shows a plausible route for the standard product, and the memo does not establish that bespoke work is unavoidable for the target segment. The structural gate clears. Evidence that the standard path converts to paid, recurring use would move the case beyond Watch. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -23,10 +25,10 @@ The strongest risk is that production buyers routinely need bespoke simulator wo
 | Repeatable acquisition and onboarding | 18/25 |
 | Retention economics | 16/20 |
 | Initial traction | 7/20 |
-| Cost economics | 6/10 |
+| Cost economics | 5/10 |
 
-**Total Score: 70/100** (Invest)
+**Total Score: 69/100** (Invest)
 
 ### Decisive diligence question
 
-Can multiple engineering teams independently set up the standard catalog in CI, buy Pro, and renew after a month of recurring use? Billing and usage records showing that path without custom builds or founder-led onboarding would move the action to Reach out. Continued usage with payment or onboarding still unverified would keep it at Watch.
+Can a cohort of engineering teams install the standard simulators, upgrade to Pro independently, and keep running paid CI workloads through a second billing cycle without founder-led setup or custom simulator work? Signup, billing, and CI usage records showing that progression would move the action to Reach out. Until then, Watch.

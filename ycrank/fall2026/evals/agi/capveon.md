@@ -1,32 +1,33 @@
 ﻿# Capveon -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest path. Infrastructure suppliers manually monitor agency portals and read plans, specifications, and addenda. Capveon says it links early project records and checks bid documents against a supplier’s capabilities, with page citations for review. The thesis is that this could let a small equipment supplier pursue additional territories or lower-value opportunities that previously cost too much staff time to screen. That is a scenario. The relevant comparison is fully loaded cost per verified, eligible opportunity pursued on time, from manual monitoring and review to subscription fees plus staff verification and rework. The memo gives no measured baseline, savings, or newly viable pursuits. (The Idea, Key Risks)
+Both AGI paths score zero. Capveon uses AI to help infrastructure suppliers find public projects and review bid requirements. The constraint described in the memo is seller time spent tracking agency portals and reading specifications. The product addresses that sales workflow, and the memo identifies no AI deployment workload that depends on an input Capveon supplies. (The Idea)
 
-The memo documents the October launch and relevant founder experience in search engineering and B2B sales. Accuracy on live bids, especially when addenda change requirements, remains the next execution gap. Earlier company copy claimed paying customers for a workflow-handoff product. The memo provides no paid adoption or repeat usage for the current offering. (Market & Traction, Founders & Team, Key Facts, Key Risks)
+For the enabled-industry path, Capveon says it links planning records to projects and checks specifications, drawings, and addenda against a seller’s capabilities. The manual workflow can surface projects after requirements are set. That establishes a timing problem, while the memo leaves open whether any seller had to forgo a territory or an economically useful monitoring cadence because of cost. The evidence supports faster pursuit of existing opportunities. (The Idea; Key Risks)
 
-Capveon’s reported coverage across more than 185,000 agencies could give it a head start in linking fragmented records. Customer bid histories could make its recommendations more useful over time. Both advantages remain untested under model parity. A plausible expansion unit is a supplier territory, but quote-based pricing and broader tender coverage leave contribution per territory unknown, especially after feed maintenance, document processing, and exception handling. (Defensibility, The Idea, Market & Traction, Key Risks)
+Capveon reports broad linked-record coverage, but competitors already offer meeting intelligence and cited bid analysis, and switching costs from customer bid history are inferred. Manual tracking is a concrete buyer workaround. Earlier company-reported payments for a workflow-handoff product offer a weak demand signal for the current offering. The public launch and the founders’ search engineering and B2B sales experience support early execution. Quote-based pricing leaves the cost of keeping feeds current and verifying bid fit unresolved. (Defensibility; The Idea; Key Facts; Market & Traction; Founders & Team)
 
 ### Countercase
 
-Capveon may make existing bid work faster without changing which opportunities suppliers can afford to pursue. GovSpend already offers meeting-record search and opportunity ranking, and GovSignals offers cited bid analysis and drafting. That overlap makes substitution credible. The memo contains no observed switching or parity test, so the New Economies path remains open. The memo also identifies no controlled scarce complement. (Defensibility, Key Risks)
+A small water-equipment supplier might be able to monitor a territory it previously skipped because staff could only track a few agencies. Capveon’s combination of early planning signals and page-cited fit checks could make that territory affordable to cover. Even with equivalent models, the supplier would still need current, linked agency records and a way to verify requirements and addenda. The memo describes that workflow, but supplies no buyer baseline or measured cost per verified opportunity. The scenario therefore falls short of the supported-path gate. (The Idea; Key Facts; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent equipment suppliers pay and renew after Capveon lowers their cost per verified, eligible pursuit enough to enter territory or bid categories they previously skipped? Move to **Reach out** if a paid cohort documents that change against its manual baseline and still chooses Capveon after trying a functionally comparable alternative. Move to **Pass** if the comparison shows that the cost reduction fails to make those pursuits viable or that buyers switch readily at parity.
+Can a water-equipment supplier use Capveon to cover a territory it previously skipped because manual monitoring was too costly? A paid pilot would change the action to Reach out if it repeatedly surfaced verified, actionable opportunities before specifications were set, at a fully loaded cost within the buyer’s budget after staff review and addendum checks.

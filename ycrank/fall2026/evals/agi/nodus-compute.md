@@ -5,28 +5,29 @@
 
 ### Company case
 
-The strongest path is a **scarce complement** in dependable GPU time for checkpointable AI workloads. Nodus’s owner-first routing could turn idle hours across fleets into usable capacity for other teams. The memo cites 5% average utilization in one sample of Kubernetes clusters, which supports the existence of idle supply. Nodus’s pooling test used synthetic tenants and replayed traffic on a single node, leaving open how much compatible capacity borrowers could reliably access in production. (The Idea, Key Risks)
+Nodus has a plausible building-blocks path for checkpointable training jobs that need a compatible GPU within a defined time window. A sample of Kubernetes clusters averaged 5% GPU utilization, showing idle capacity in those fleets. Nodus says its scheduler prioritizes owners’ jobs, lends eligible idle GPU time to other teams, and supports checkpoint recovery. If training demand grows faster than the supply of compatible GPUs available on short notice, Nodus could make some of that idle time usable. This assumes borrowers can tolerate interruptions, replacement hosts are available when owners reclaim their machines, and borrowers can share job data with those hosts. The memo leaves buyer wait times and performance under real reclaims unmeasured. (The Idea, Key Risks)
 
-Nodus reports a verifier reproduced a 7.65× cold-start speedup from snapshot restoration on one A100. That demonstrates a narrow operating advantage, while durable access to third-party capacity remains unproven. The founders report that more than 200 teams joined after launch and list several users. The memo provides no evidence of repeat paid borrowing. For a two-person seed team, the launched CLI and SDK and the founders’ infrastructure experience support execution capacity. Multi-fleet delivery remains the next test. (Defensibility, Market & Traction, The Idea, Founders & Team)
+The industry-enabled path scores zero. The memo describes a way to improve access to GPU time for existing AI workloads. It identifies no previously excluded buyer or use made viable by AI lowering the cost of delivering a distinct outcome. (The Idea, Market & Traction)
 
-In an owner-financed expansion scenario, the unit is one successfully completed borrowed job. Contribution is billed GPU time less host payouts, including any payable time lost to preemption, and incremental recovery and support costs. Published hourly rates provide a revenue reference. The memo leaves host payouts, billable utilization, and retry costs unquantified. (The Idea, Key Facts, Key Risks)
+Owners can reclaim lent capacity, limiting Nodus’s control over the supply it sells. The founders report that more than 200 teams joined after launch and list named users, with paid use and repeat purchasing unverified. The launch and a reported verifier run reproducing a 7.65× cold-start speedup on one A100 support seed-stage execution. The pooling benchmark used synthetic tenants and replayed traffic on one node. Published rates establish asking prices, while host payouts, retry costs, and contribution per completed job remain unknown. Those gaps keep evidence confidence low. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Countercase
 
-Nodus may be bundling features that buyers can source separately. SkyPilot and Cast AI already cover parts of pooling and scheduling, lower-end spot supply was reported to be improving, and owners can recall lent hosts. Community hosts can inspect job data, further narrowing eligible workloads. These facts make substitution credible, but buyer switching and equivalent job completion remain untested, so the scarce-complement path stays open on Watch. The New Economies path lacks evidence of a labor-cost change that brings in previously excluded buyers and gives them a reason to keep paying Nodus under model parity. (Defensibility, Market & Traction, Key Risks, The Idea)
+The jobs best suited to Nodus are also the ones most able to use spot GPUs. The memo reports improving lower-end spot availability, and competitors already offer GPU scheduling or cross-cloud pooling. Low utilization establishes that GPUs sit idle in the sampled fleets. Whether borrowers face a shortage of compatible capacity they can use on acceptable terms remains open. The evidence supports a narrow path and warrants Watch while that substitution question is unresolved. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 16/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 33/150** (Pass)
 
 ### Decisive diligence question
 
-Can Nodus use committed capacity from multiple independent fleet owners to win repeat paid jobs from independent buyers at positive contribution and a lower cost per completed job than comparable spot capacity? A production cohort that clears that bar after host recalls and retries would change the action to **Reach out**. If comparable spot capacity consistently matches completion cost and reliability and buyers switch readily, change the action to **Pass**.
+Can a paying team with documented delays securing compatible GPUs repeatedly finish checkpointable training runs by its deadline at a lower all-in cost per successful run than its best available spot option? A paid trial that logs actual owner reclaims and includes recovery time and recompute costs would answer it. Meeting both the deadline and cost targets would move the action to Reach out.

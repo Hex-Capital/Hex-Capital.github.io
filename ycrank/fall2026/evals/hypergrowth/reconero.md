@@ -1,32 +1,32 @@
 ﻿# Reconero -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Assuming strong fit with the first police departments, Reconero’s strongest path is to sell footage-linked report drafting as a repeatable agency subscription. The memo documents a demo path using sample data or agency exports. Reconero says it can find timestamped events across several video sources, draft narratives linked to the footage, and let officers review and sign them. The portability scenario assumes agencies in other jurisdictions can use that same drafting workflow with their existing reporting systems and configure it for local requirements. Reconero’s advertised audit logging and open-format export make that scenario plausible, with production transfer still unproven. (The Idea, Key Risks)
+Assuming strong product-market fit with its initial police agencies, Reconero addresses a recurring job. Officers review footage, enter incident details, and check policy during a shift. Reconero says it links draft narratives to footage timestamps, fills agency forms, and answers policy questions using department rules and state law. Timestamped video analysis could transfer across markets. The full workflow would likely require substantial adaptation to local records and dispatch systems, forms, legal rules, and audit requirements. California’s disclosure and draft-retention rules illustrate how jurisdiction-specific requirements affect the reporting workflow. These dependencies trigger the structural downside gate for the integrated product. (The Idea, Key Risks)
 
-Founder introductions and demos give Reconero a reusable sales motion, with human involvement at the documented entry point and no demonstrated self-serve path to paid use. Daily reporting and embedded workflows could support renewals, but the subscription is inferred and the memo gives no pricing mechanism for expansion within an agency. The two-person team launched the current product on October 30, 2026. Reconero reported consulting more than 100 officers, and a founder described testing an earlier beta with several U.S. police units. The memo leaves current paid usage and pre-revenue status unknown, so initial traction receives the default. (The Idea, Defensibility, Market & Traction, Key Facts)
+The documented acquisition path runs through introductions to agency leaders and demos using sample data or agency exports. The demo can be reused, while the path to production appears founder-led and dependent on agency-specific setup. Daily reporting and embedded form mappings could support continued use. A department subscription is a scenario assumption, and the memo gives no billing terms or basis for estimating same-account expansion. (The Idea, Defensibility)
 
-Under the subscription scenario, incremental contribution per agency would be the fee minus attributable sales and setup labor, video processing and storage, and ongoing support. Reusing export setup and audit controls could reduce labor per rollout. The memo provides too little evidence on fees, workloads, or labor to estimate contribution, so cost economics receives the default. (The Idea, Key Risks, Key Facts)
+The two-person team publicly launched the product on October 30, 2026. Reconero reports consulting more than 100 officers, and its founder reported testing an earlier ReconeroRMS beta with several U.S. police units. Neither signal establishes paid use of the current product, and its revenue status is unknown, so initial traction receives the default. For a new agency, incremental contribution would depend on the contract price less attributable sales and onboarding labor, footage processing, and support. The memo gives no usable pricing or operating inputs for estimating that contribution, so cost economics also receives the default. (Founders & Team, Market & Traction, Key Facts, The Idea)
 
 ### Countercase
 
-Even footage-linked drafting may require bespoke work wherever it enters an official reporting workflow. The full product reads agency records and dispatch systems, maps department forms, and answers questions using department policy and state law. California’s disclosure, first-draft retention, and audit requirements show how local rules can reach the drafting workflow itself. The structural downside gate remains open because the memo leaves a plausible export-based path for the core workflow. Whether that path actually avoids market-specific rebuilding is the decisive uncertainty. (The Idea, Defensibility, Key Risks)
+The strongest case for Watch is that timestamped footage analysis and source-linked drafting could serve the same reporting job abroad, with local forms and rules handled through configuration. Reconero’s advertised audit logging and open-format export could help that approach. The gate still applies because the memo gives no concrete transfer path for the records integrations, local policies, and forms that the integrated workflow depends on. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
-| Repeatable acquisition and onboarding | 5/25 |
-| Retention economics | 9/20 |
+| Global buyer demand | 7/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paying agency in a second jurisdiction put footage-linked drafting into production on the same product with bounded configuration? A live rollout with a record of integration work, staff hours, and how local reporting requirements were met would answer it. Configuration-only transfer would support keeping Reconero on Watch and rescoring. If the core workflow requires bespoke rebuilding to meet local requirements, move to Pass.
+Can a police agency in another country put the full footage-to-report workflow into paid production on the same core product? A deployment that meets local reporting and audit requirements through standard connectors and configuration, with documented and bounded implementation effort, would move the action to Watch.

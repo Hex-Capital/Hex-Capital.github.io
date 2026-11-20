@@ -5,26 +5,28 @@
 
 ### Company case
 
-Conditional on strong product-market fit, Preload’s strongest path is to license reusable dexterous-manipulation datasets to robotics teams. The demonstrated rig synchronizes first-person video, glove contact readings, and forearm EMG. Preload reports that the EMG signal distinguished light from heavy handling in a preliminary test. The same capture stack could plausibly serve robotics teams across markets, though the work required to adapt the data to each team’s training pipeline remains unclear. *(The Idea, Defensibility)*
+Assuming strong product-market fit with dexterous-manipulation teams, the recurring job is collecting human demonstrations for robot training. Preload has demonstrated synchronized video, tactile, and forearm EMG capture. The same rig could plausibly serve robotics teams in multiple markets. How much the recordings and integration can be reused across tasks and robot platforms remains uncertain. Preload reports that EMG distinguished light from heavy handling in a preliminary test. The effect on physical robot task success remains unverified. (*The Idea*, *Defensibility*, *Key Risks*)
 
-In a licensing scenario, the same recordings could serve multiple buyers, spreading capture, calibration, and quality-control costs across licenses. Incremental contribution would be the license fee less buyer acquisition, integration, support, delivery, and any fresh collection the buyer requires. Ongoing training creates a reason to buy additional task coverage. Repeat purchases, pricing, and contribution remain unverified. The three-person team’s October launch drew 249K video views, and the memo records a ProHand demo. Commercial launch timing, paid use, and revenue status are unknown. *(The Idea, Defensibility, Market & Traction, Key Facts)*
+The documented buyer path starts with founder outreach and runs through Preload-led collection and offered integration help. The memo provides little evidence of reusable buyer onboarding. Launch views and the ProHand demo show attention and technical activity. Commercial traction and paid repeat use remain unknown, so both dimensions receive their absent-evidence defaults. (*The Idea*, *Market & Traction*, *Key Facts*)
+
+In an illustrative per-dataset sale, contribution would be the price less attributable sales, collection labor, rig use, calibration, processing, quality checks, and integration. Selling the same recordings to multiple buyers could spread collection costs. Pricing and delivery inputs remain unknown, so cost economics receives its absent-evidence default. (*The Idea*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Preload’s documented offer is founder-led custom collection with hands-on training integration. If each buyer needs fresh recordings and custom integration, operator time, wearable fitting, calibration, and engineering could rise with sales. The preliminary EMG result leaves open whether the extra sensor channels improve physical robot task success enough to justify those costs. The structural gate stays open because the memo does not establish that buyer-specific collection is unavoidable or that it makes faster growth economically infeasible. *(The Idea, Defensibility, Key Risks)*
+Even with strong initial fit, each buyer could require new recordings and robot-specific integration. Wearable fit and collection consistency could add work for each new operator, while surgical collection carries site approvals and protocol requirements. The structural gate stays open because the memo leaves dataset reuse and the amount of unavoidable delivery work unresolved for general robotics. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 4/25 |
 | Retention economics | 7/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can Preload sell the same dataset to robotics teams in two markets that integrate it from shared documentation and pay again for additional task coverage? A rollout with positive contribution after attributable acquisition, collection, integration, and support costs would move the action to Reach out. Evidence that each rollout requires enough bespoke work to make faster growth uneconomic would move it to Pass.
+Can independent robotics teams in different markets buy the same dataset offering, integrate it with minimal Preload help, and pay for additional data at positive incremental contribution? Paid production use, repeat invoices, and delivery records showing reuse and limited support would answer it. Move to Reach out if that evidence brings the score to at least 65 and confidence to Medium or High. If delivery records instead show unavoidable bespoke work that makes faster growth uneconomic, move to Pass.

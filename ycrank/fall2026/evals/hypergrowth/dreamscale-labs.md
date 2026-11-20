@@ -5,28 +5,28 @@
 
 ### Company case
 
-The strongest path is SDK-led cloud inference for robotics teams running recurring model evaluations and latency-tolerant workloads. Assuming strong product-market fit with those teams, the same SDK and hosted models could serve the same job across markets where connectivity and regional GPU placement meet workload requirements. The HUD evaluation cookbook documents a reusable starting point. Public pricing and a $5 new-account credit support a low-friction trial, while the path from trial to paid production without hands-on help remains unclear. (*The Idea*, *Market & Traction*, *Key Risks*)
+Assuming strong product-market fit with robotics teams that can run inference in the cloud, Dreamscale can plausibly serve the same recurring job across markets. Its SDK and hosted models give teams a reusable way to stream robot observations and receive action predictions. Regional GPU placement and reliable connectivity narrow the set of deployments the current product can serve. The HUD evaluation cookbook provides a concrete route from discovery to a first test. Published prepaid pricing gives developers a way to start, while the memo leaves open whether a typical team can move from that test to paid production without hands-on help. (The Idea, Market & Traction, Key Risks)
 
-At $5 per connected robot-hour, retained accounts can spend more as they run more evaluations or connect more robots. That gives expansion a way to offset churn, though the memo establishes neither the frequency of paid usage nor its durability. The HUD collaboration and Actor Labs evaluation show technical adoption around launch. Realized revenue, paying-customer counts, and commercial growth remain unknown, so initial traction receives the absent-evidence default. (*The Idea*, *Market & Traction*, *Key Facts*)
+At $5 per connected robot-hour, an existing customer could spend more as it adds robots or runs them longer. That is an expansion mechanism under a production scenario. The HUD and Actor Labs evaluations document early use, with no reported paid production volume, repeat purchasing, or commercial growth rate. (The Idea, Market & Traction, Key Facts)
 
-At list price, positive incremental contribution requires GPU capacity, including idle capacity reserved to meet latency targets, plus networking, onboarding, support, and trial credits to cost less than $5 per paid robot-hour in aggregate. Dreamscale reports running DreamZero 14B at 320 ms versus 350 ms for the comparison implementation while using half the GPUs. That result supports model optimization as a cost lever. GPU utilization and support costs on representative paid workloads remain uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
+At the listed price, incremental inference contribution starts with $5 per connected robot-hour and subtracts GPU capacity, including the cost of keeping capacity available in each region, streaming infrastructure, and attributable onboarding and support. Dreamscale reports matching or beating a DreamZero latency benchmark with half the GPUs, which points to a concrete cost lever. Contribution at representative production loads remains uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The SDK may be easiest to adopt for intermittent evaluations, where spending could stay small. Higher-volume physical deployments could require stack customization and nearby GPU capacity, while operators remain responsible for independent safety systems. Dreamscale’s reported tail-latency improvement came from one home Wi-Fi test with synthetic frames and simulated compute. The structural downside gate stays open because the memo documents a reusable evaluation workflow and leaves open whether recurring paid workloads can scale without bespoke work or uneconomic capacity commitments. (*The Idea*, *Market & Traction*, *Key Risks*)
+The strongest countercase is that the SDK scales evaluations while production remains bespoke. Dreamscale reports customizing stacks, the operator is responsible for independent safety systems, and the reported packet-recovery improvement came from one home Wi-Fi test with synthetic frames and simulated compute. If ordinary deployments require extensive tuning and spare regional GPU capacity, incremental costs could rise with each customer. The structural downside gate clears on the current evidence because the memo establishes those constraints without showing that bespoke work or costly capacity commitments are unavoidable for the target segment. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 18/25 |
-| Repeatable acquisition and onboarding | 15/25 |
+| Global buyer demand | 17/25 |
+| Repeatable acquisition and onboarding | 14/25 |
 | Retention economics | 16/20 |
 | Initial traction | 7/20 |
 | Cost economics | 6/10 |
 
-**Total Score: 62/100** (Neutral)
+**Total Score: 60/100** (Neutral)
 
 ### Decisive diligence question
 
-Can independent robotics teams onboard through the SDK and expand recurring paid evaluation usage at positive incremental contribution? A cohort showing rising billed robot-hours across successive months, with onboarding records and GPU, network, and support costs confirming positive contribution at actual utilization, would move the action to Reach out.
+Can a cohort of robotics teams in more than one region go from the standard SDK to production with minimal hands-on help, then grow paid robot-hours at positive incremental contribution? Deployment records, repeat bills from those same accounts, and attributable GPU and support costs would answer it. A positive result would support Reach out if the updated score reaches 65. Evidence that required customization or regional capacity makes scaling uneconomic without a credible improvement lever would trigger Pass.

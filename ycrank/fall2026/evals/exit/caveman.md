@@ -5,34 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an enterprise AI gateway vendor. Caveman’s proprietary coding harness and Cloud replay and rollback tools could give a buyer a way to lower customers’ agent costs while preserving task quality. Palo Alto Networks’ acquisition of Portkey shows that a strategic buyer has acquired adjacent gateway controls. The memo gives no deal price. Caveman reports 21% lower list-price cost per solved task than Codex in a company-run benchmark where each solved 90 of 192 runs. The memo records about 121,000 stars for the original open-source repository, a distribution signal whose conversion into paid deployments remains unknown. (The Idea, Defensibility, Market & Traction)
+The strongest route is a strategic sale to a coding-agent platform or AI gateway vendor. Caveman’s multi-agent harness and workload replay tools could give an acquirer a way to lower customers’ cost per successful task and verify that savings hold before rollout. In company-run tests, Caveman reported 21% lower list-price cost per solved task against Codex, with both solving 90 of 192 runs. Palo Alto Networks’ acquisition of Portkey shows that a strategic buyer has acquired adjacent gateway capabilities. Caveman’s savings in customer production and the value a buyer could capture remain unverified. (The Idea, Market & Traction)
 
-A paid production pilot that repeatedly demonstrates lower all-in cost per successful task at comparable quality would give a potential acquirer a basis for valuing the product. Caveman’s solo founder has shipped Cloud and Code, and Cloud’s replay and limited-traffic rollout features make the test plausible. Pilot commitments, execution costs, and runway remain unverified. The proprietary harness gives a buyer an identifiable asset to acquire. IP title and any permissions required to transfer integrations or customer data remain open. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
+A practical seed milestone is a paid pilot across several production teams that demonstrates sustained savings per successful task after Caveman’s fees, at comparable quality. The product launches, reported $500,000 in YC funding, and existing replay and rollback features support attempting that test. The memo leaves runway and pilot costs open. The proprietary harness gives a buyer an identifiable asset, while IP ownership, open-source obligations, and third-party integration rights remain unverified. The memo supports no independent liquidity route. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. Both sale scenarios assume an eligible holder sells the full stake for cash within eight years and receives 3% of equity proceeds after $5 million in assumed net debt and deal deductions, with no senior preference reducing the payout.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The sale scenarios assume an all-cash close within eight years, $5 million in combined net debt and deal adjustments, no senior claims that divert proceeds, and an eligible holder selling the full stake pro rata.
 
-- **Modest sale.** $50 million enterprise value leaves $45 million in distributable equity and pays the holder $1.35 million, or 2.7×.
-- **Strong sale.** $100 million enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×.
-- **Prolonged private.** Continued operation with reinvestment yields zero realized cash within eight years. The memo supplies no evidence of an independent payout route.
+| Scenario | Enterprise value to distributable equity | Holder cash |
+|---|---|---|
+| Modest sale | $40M less $5M = $35M | $1.05M (2.1×) |
+| Strong sale | $100M less $5M = $95M | $2.85M (5.7×) |
+| Prolonged private | Cash is reinvested throughout the eight-year horizon | $0 (0×) |
 
-The sale prices are illustrative assumptions. The memo supplies no booked revenue, acquisition price, or buyer economics that would support an achievable price range. (Market & Traction, Key Facts)
+The sale values are illustrative assumptions. The strong case clears the hurdle at 3% ownership and falls to $1.90 million (3.8×) at 2%. Listed prices give Caveman a way to charge for the product. With booked revenue unknown and no supported acquisition price range, realizable proceeds remain unsubstantiated. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A gateway vendor could get enough of the benefit through existing compression tools and have little reason to buy the full Caveman stack. Edgee already offers gateway-level compression. In a separate test of Caveman’s original skill, JetBrains measured fewer output tokens but a higher total bill after one run crossed a long-context pricing tier. That result makes all-in production cost the relevant test for the current product. The evidence leaves buyer willingness to pay unresolved and establishes neither a structural closing block nor a proceeds ceiling, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+A buyer could use an existing compression gateway or build comparable optimization if Caveman’s savings prove workload-specific. Edgee already offers compression for existing agents, and a test of Caveman’s original skill recorded fewer output tokens alongside a higher total bill after one run crossed a pricing tier. That evidence makes repeatable production savings central to the acquisition case. It leaves open whether an existing substitute matches the full product and whether the strongest credible sale would fall below the proceeds hurdle. The Pass gate is therefore unmet. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 19/30 |
+| Counterparty rationale or source of cash | 20/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a prospective gateway acquirer justify a price that leaves at least $83.3 million in distributable equity after seeing Caveman run on its customers’ production workloads? A paid pilot showing repeatable all-in savings at comparable task quality, coupled with a buyer-side valuation range that clears that hurdle after deal adjustments, would move the action from Watch to Reach out.
+Would a plausible strategic buyer, after reviewing paid production results, value Caveman highly enough to support at least $83.3 million in distributable equity under the benchmark terms? Move to Reach out if buyer feedback ties a credible price range that clears the hurdle to repeatable savings and comparable task quality. Stay at Watch while pricing remains unsubstantiated. Move to Pass if the strongest credible price range leaves the holder materially short after deal adjustments.

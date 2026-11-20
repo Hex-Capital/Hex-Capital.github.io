@@ -1,30 +1,32 @@
 ﻿# Graphide -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Graphide’s strongest path is selling faster CI to engineering teams that already run GitHub Actions. Assuming strong product-market fit with those teams, the same GitHub App and repository migration workflow can serve eligible jobs across markets. Unsupported jobs can stay on existing runners, which lets teams adopt Graphide incrementally. Developers can install the app and start a trial themselves. The documented path to paid CI goes through a sales quote, and the memo also describes founder-assisted migrations. (The Idea, Key Risks)
+Assuming strong fit with engineering teams running frequent GitHub Actions jobs, Graphide can plausibly serve the same recurring CI workload across markets through its GitHub App and repository migration workflow. The GitHub organization requirement and unsupported jobs narrow the eligible segment. Teams can install the app and begin migration themselves, but CI pricing requires a sales quote, and the memo does not establish how often ordinary teams need the CEO-assisted migration Graphide offers. (The Idea, Key Risks)
 
-Every code change can generate another CI run, giving teams a recurring reason to keep the product. Fixed monthly quotes support recurring billing, but the memo leaves open whether a growing workload raises the same customer’s bill. The separate $1-per-pull-request reviewer offers a potential expansion path if CI customers adopt it. Actual renewals and cross-sell are unknown. The two-person team launched CI publicly on November 11. The company relays unnamed teams’ reports of faster delivery after switching, while realized revenue, paying-customer counts, and billed volume remain unknown. Initial traction therefore uses the absent-evidence default. (The Idea, Market & Traction, Key Facts, Graphide)
+Fixed monthly CI quotes fit a recurring workload, but the memo does not show whether growing CI usage raises existing customers’ bills. The separate $1-per-pull-request reviewer gives accounts a way to spend more if they adopt it, with uptake and renewals unverified. Graphide’s two-person team launched the current CI product on November 11. The founders report that unnamed teams switched, but offer no realized revenue, paying-customer count, or billed production volume from which to judge the commercial slope. (The Idea, Graphide, Market & Traction, Key Facts)
+
+For a representative account, incremental contribution is the monthly CI fee less runner compute, including idle prewarmed capacity, plus the attributable costs of sales, migration, tuning, and support. The improvement scenario assumes reusable cache tuning cuts compute or labor per account. Faster wall-clock runs can help customers while leaving Graphide’s compute costs unchanged or higher if parallelism uses more total capacity. The memo identifies the improvement lever but gives no production cost measurements to establish its effect. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Graphide could make jobs finish faster while spending more to run them. Its benchmark included hand-tuned jobs on 64- or 128-vCPU runners, while customer runners topped out at 32 vCPUs. Production still runs the full test suite, and the company’s 70% bill-savings figure is a target. Under a fixed quote, if workload grows before repricing, additional jobs bring in zero incremental revenue while consuming runner capacity and potentially adding tuning and support costs. Cache reuse could reduce compute, but the memo leaves contribution on representative workloads unresolved. The structural gate remains open because the memo establishes neither unavoidable bespoke work nor structurally uneconomic capacity needs. (The Idea, Defensibility, Key Risks)
+Graphide may need hands-on migration and ongoing tuning to deliver enough savings to win customers, while absorbing bursty compute costs under fixed monthly quotes. Its reported speedups include hand-tuned jobs on 64- or 128-vCPU runners, while customer runners topped out at 32 vCPUs. The structural downside gate stays open because the memo leaves unresolved whether that labor is unavoidable and whether representative workloads can be served at positive contribution. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 22/25 |
-| Repeatable acquisition and onboarding | 8/25 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 15/25 |
 | Retention economics | 13/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 55/100** (Neutral)
+**Total Score: 61/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of unrelated GitHub organizations move from app install to paid production without founder-led sales or migration and remain contribution-positive as CI volume grows? Paid invoices, onboarding records, and account-level costs covering runner capacity, tuning, and support would answer it. A cohort that demonstrates this on ordinary workloads would move the action to Reach out.
+Can a representative cohort of GitHub Actions teams migrate with minimal founder help, convert to paid CI, and renew at positive contribution? Cohort records showing paid renewals, actual runner costs through peak usage, and attributable sales and support time would justify Reach out if they lift the score to the investment threshold. Evidence that routine accounts require unavoidable hands-on work that makes faster growth economically infeasible would change the action to Pass.

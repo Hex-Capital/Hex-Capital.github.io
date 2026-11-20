@@ -5,28 +5,26 @@
 
 ### Company case
 
-Avout’s strongest path is to standardize equipment financing for data-center operators. Assuming strong fit with that initial buyer, Avout could reuse the same operating-data package for comparable equipment purchases and route it to third-party lenders. The buyer’s job plausibly recurs across markets. The underwriting package is the reusable part of the reported product, while the work needed to secure lender acceptance abroad remains uncertain. A borrower could return for its next equipment purchase, though repeat use and recurring fees are unverified. (The Idea, Defensibility, Key Risks)
+Assuming strong product-market fit with U.S. Series A and B hardware startups, Avout could serve similar borrowers abroad that need to finance equipment and inventory ahead of revenue. Avout says it uses borrower operating data to underwrite applicants and packages the findings for lenders. Those steps could transfer across markets, although the memo leaves the scope of local adaptation uncertain. The YC launch provides a borrower signup and a lender inbox. The memo records that the website was inaccessible during research, and funding depends on a lender accepting each deal’s collateral and terms. (The Idea, Key Facts, Key Risks)
 
-The November launch directed borrowers to a website and capital providers to an inbox. The memo records that the website was inaccessible during research, leaving borrower onboarding unverified. Avout reports arranging a $1.5 million term sheet for a data-center company. Closing, disbursement, and fee collection are undisclosed, leaving the two-person team’s commercial pace unknown. (The Idea, Market & Traction, Key Facts)
-
-Assuming Avout earns a placement fee on funded deals, incremental contribution would be the fees collected less the cost of sourcing, underwriting, coordinating with lenders, and closing, including work on applications that go unfunded. Reusing the underwriting package could reduce labor, and third-party funding could limit Avout’s own capital needs. Fee levels and deal effort are unknown. (The Idea, Key Risks)
+Avout reports arranging a $1.5 million data-center term sheet. Closing, disbursement, and any fee to Avout remain undisclosed, leaving the pace of paid adoption unknown. An origination or placement fee is an inferred business model. Recurring equipment purchases could bring borrowers back, but the memo gives no evidence of repeat paid use or expansion within an account. Under the fee scenario, contribution on the next funded deal would be the fee collected less the incremental cost of acquiring the borrower, underwriting the deal, placing it with a lender, and supporting the close. The memo provides neither a fee nor a cost estimate. (Market & Traction, The Idea, Key Facts)
 
 ### Countercase
 
-Avout may be building a deal-by-deal brokerage. Each lender must accept the collateral and terms, and GPU obsolescence could make recoverable value harder to assess. If each market requires a new lender network and each deal requires substantial manual underwriting, growth could remain labor-intensive even with strong borrower demand. The structural downside gate remains open because the memo leaves the extent of that work unresolved. (The Idea, Key Risks)
+Even with strong borrower demand, lender-specific collateral review could keep each closing labor-intensive. Expansion abroad could require building new lender relationships and adapting underwriting to local collateral requirements. The memo supports the dependency on lender approval and leaves the scale of the required work uncertain. The structural downside gate remains open. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 7/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can Avout repeatedly turn comparable data-center equipment applications into funded, fee-paying deals in the U.S. and one additional market using the same underwriting workflow? Move to Reach out if a paid cohort shows that ordinary borrowers can complete intake with minimal help, lenders accept the same package with bounded changes, and collected fees cover attributable deal work, including failed applications, at a pace that supports a score of at least 65. Move to Pass if the rollout shows that substantial market-by-market rebuilding is unavoidable.
+Can Avout complete multiple paid financings in a second market using the same underwriting workflow at positive incremental contribution? Funded deals with collected fees, documented local changes, and measured staff time would answer it. Repeatable closings with bounded adaptation and healthy contribution would support Reach out if the updated assessment reaches 65 points and at least Medium confidence. Evidence that expansion requires substantial rebuilding in each market or that unavoidable deal work makes faster growth uneconomic would move the action to Pass.

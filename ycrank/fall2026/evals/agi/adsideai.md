@@ -1,32 +1,33 @@
 ﻿# Adside.ai -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest path. Adside says its agents draft campaigns, adapt creative, and monitor performance across ad platforms, with customer confirmation for changes made through the agent connector. The former delivery cost includes staff or agency time for tracking setup, creative adaptation, campaign management, and reporting. The market-opening hypothesis is that small teams previously priced out of ongoing multi-channel management could run campaigns if automation cuts that labor enough. Under model parity, Adside’s best reason for buyers to keep paying is that its cross-channel workflow uses their campaign history and preferences. The value of that history under comparable alternatives remains untested. (The Idea, Defensibility)
+Adside.ai uses AI to operate paid advertising campaigns. Its agents draw on connected ad accounts and public ad libraries to draft campaigns, produce creative variants, and monitor performance. Changes through its agent connector require confirmation. This workflow shows how Adside could cut labor in ad operations. The memo identifies no AI buildout workload that depends on a scarce input Adside supplies, and no buyer or campaign cadence that was previously uneconomic and becomes viable through Adside. Both AGI paths therefore score zero, triggering Pass. (The Idea, Key Risks)
 
-One expansion unit is one brand-month. In a scenario where media spend and performance targets are comparable, measure buyer cost per qualified acquisition using the service fee and remaining staff time, against the former staff or agency cost. Adside lists self-serve at $990 per brand-month or $490 per month with annual prepayment. Its contribution per brand-month depends on inference, creative delivery, support, and human exceptions. Managed service starts at $2,500 per month, making operator time a separate cost to measure. The memo gives prices while labor savings, acquisition outcomes, and delivery costs remain unmeasured. (The Idea)
+Adside’s strongest commercial case is coordinating campaigns across channels. Account history and preferences can personalize that work, but the memo shows no resulting retention or pricing advantage. Google’s official connector and Meta’s direct agent access lower the integration barrier for substitutes, while Adside relies on those platforms for account access. (Defensibility, Key Risks)
 
-Adside reports 30 companies live at launch. Their payment, renewal, and prior ability to afford multi-channel management are unclear. The published Framer plugin and the founders’ prior delivery together at Botdog support seed-stage execution. Live campaign reliability and exception handling still need field evidence. (Market & Traction, Key Facts, Founders & Team, Key Risks)
+Adside reports 30 companies live at launch. The reported usage supports early demand, with payment and repeat use unverified. A published Framer plugin and the founders’ prior delivery at Botdog support execution at seed. Dependable campaign delivery and exception handling remain unverified. Published prices establish what Adside asks buyers to pay. The memo gives no delivery-cost data for the next account, including human review and rework, so scale economics stays at the default. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Adside may make an existing ad-operations workflow cheaper for buyers already running campaigns. Google’s connector and Meta’s direct agent access lower integration barriers, while competing products already offer cross-platform execution. Both platforms control the delegated access Adside relies on. Account personalization offers a plausible reason to stay, but the memo documents neither buyer preference under functional parity nor a network effect. These risks leave market opening and durable value capture unproven. Direct evidence of easy multi-channel substitution is absent, so the New Economies path stays open on Watch. The memo identifies no independently supported scarce complement. (Defensibility, Market & Traction, Key Risks)
+A lean startup that cannot justify hiring a specialist could use Adside to run recurring campaigns across multiple channels. That is a scenario assumption. Adside lists self-serve at $490 per brand per month with annual prepayment and managed service at a $2,500 monthly minimum. Automating setup, creative resizing, and reporting could close an affordability gap, and cross-channel coordination could remain valuable with equally capable models. The two prices cover different service scopes, and the memo provides no buyer baseline or comparable campaign outcomes showing that anyone crossed that threshold. The Pass gate still applies. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent small teams previously priced out of multi-channel ad management renew at Adside’s listed price after testing an alternative with comparable model capabilities and channel coverage? Move to Reach out if a paid cohort chooses Adside at renewal, shows lower all-in cost per qualified acquisition against a priced manual baseline at comparable spend and quality, and yields positive contribution after inference, creative delivery, support, and exception handling. Move to Pass if the test shows the labor savings are too small to serve those buyers or that they readily switch at functional parity. An inconclusive result keeps Watch.
+Can startups that previously priced out recurring multichannel campaigns run them with Adside at an affordable cost and choose to renew when native platform tools are available? A paid pilot with those buyers would change the action to **Reach out** if it showed campaigns meeting an agreed performance target at comparable ad spend, with fully loaded cost per successful campaign below the buyers’ prior affordability threshold after approvals and rework, followed by renewal.

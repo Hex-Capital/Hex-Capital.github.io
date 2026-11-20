@@ -643,6 +643,11 @@ function app() {
       return row?.scoreTips?.[evaluatorAbbr] || '';
     },
 
+    formatThesisScore(score, maxScore, empty = '-') {
+      if (score == null) return empty;
+      return maxScore && maxScore !== 100 ? `${score}/${maxScore}` : score;
+    },
+
     // --- Company Detail ---
 
     async showCompany(slug, tab = 'memo') {

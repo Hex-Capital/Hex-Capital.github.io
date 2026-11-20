@@ -5,15 +5,15 @@
 
 ### Company case
 
-Definite’s strongest path is to turn monthly operations-to-finance reconciliation into a repeatable deployment for controllers at manufacturers and logistics operators. Under strong product-market fit, the same job plausibly recurs in other markets. Definite describes a read-only data model that connects operating and finance systems, proposes mappings, and applies traceable rules. Multi-ERP support gives that workflow a reusable base. How much of each customer’s mapping can carry over remains uncertain. (The Idea, Key Risks)
+Assuming strong product-market fit with controllers at manufacturers, logistics operators, or contractors, Definite could take the same monthly reconciliation job into other markets. The product it describes combines a shared data model, read-only access to multiple ERP vendors, and deterministic checks that trace figures back to source records. Those components are plausibly reusable across markets. The extent of adaptation for local accounting practices and customer-specific mappings remains uncertain. (The Idea, Key Risks)
 
-The documented route to first value runs through founder-led demos and customer-specific scoping. Once live, recurring close cycles give customers a reason to keep using the product. Stored mappings, rules, approvals, and source history could deepen that dependence. Recurring billing and paid expansion remain unverified. The memo dates public positioning of the current product to September 2026 and gives no usable evidence of its paid adoption or commercial growth. Definite’s reported bank deployments were for its earlier product. (The Idea, Defensibility, Market & Traction, Key Facts)
+The documented acquisition path is outbound contact followed by a founder-led demo scoped to one workflow. Existing connectors and a shared data model give the team something to reuse, while buyer-led purchase and setup remain unverified. Monthly close creates a recurring job, and saved mappings, rules, and approvals give controllers a reason to keep using the product. Adding planning or billing could increase account spend if contracts charge for additional workflows. Recurring pricing, renewals, and paid expansion are unverified. (The Idea, Defensibility, Key Risks)
 
-Under a negotiated recurring contract, which is a scenario assumption, incremental contribution would be the fee less attributable selling, integration, mapping validation, infrastructure, and support costs. Existing connectors, AI-assisted mapping, and reusable calculation rules could reduce the labor required for the next account. The memo gives no contract values or measured delivery effort, so the direction and magnitude of contribution remain uncertain. (The Idea, Key Risks)
+The memo dates public positioning for the current platform to September 2026 and provides no usable evidence of paid adoption or revenue for it. Definite’s July claim of live bank deployments in the US and Canada concerned its prior regulatory-reporting product. For the current platform, a scenario with recurring software fees would need to cover attributable sales, integration, mapping, support, and compute costs for each additional account. Reusable connectors and rules could reduce that work, but the memo supplies neither contract prices nor deployment effort to establish contribution. (Market & Traction, Key Facts, The Idea, Key Risks)
 
 ### Countercase
 
-Each customer could require a fresh integration and substantial validation before finance can rely on the output. Missing connectors and customer-specific definitions can extend setup, and a mapping error can propagate through the calculation. Definite supports mandatory human review, so automated calculations alone may leave substantial work at activation and during recurring runs. The structural downside gate remains open because the extent of unavoidable vendor work across comparable accounts is unresolved, and the existing connectors and rules give Definite a plausible route to reuse. (The Idea, Key Risks)
+Definite could become a bespoke implementation business. Each controller may bring different systems, definitions, and approval rules, and missing connectors can extend setup. If Definite staff must repeatedly build mappings and troubleshoot exceptions, delivery labor could rise alongside customer count even with strong fit. The structural downside gate stays open because the memo establishes implementation risk but does not show that substantial country-specific rebuilding or uneconomic per-account labor is unavoidable. (The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -23,10 +23,10 @@ Each customer could require a fresh integration and substantial validation befor
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Definite grow a paid cohort of comparable operators on the same monthly reconciliation workflow with little vendor setup and positive incremental contribution? A dated series of paid deployments through a repeatable channel would answer it if customers reached their first reconciled close using existing connectors, continued paying across close cycles, and generated enough revenue to cover measured acquisition, setup, infrastructure, and support costs. That result would support moving from Watch to Reach out if the updated score reaches 65 and confidence reaches Medium.
+Can multiple ordinary buyers, including one in a second market, purchase and run the same monthly close workflow using existing connectors and minimal staff assistance? Completed paid rollouts showing a standard recurring price, time to first close, and positive contribution after attributable sales, setup, support, and compute would justify rescoring for Reach out if the result reaches 65 with at least Medium confidence. Evidence that every rollout requires bespoke work that makes faster growth uneconomic would change the action to Pass.

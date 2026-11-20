@@ -5,25 +5,23 @@
 
 ### Company case
 
-Ploid’s strongest Hypergrowth path is becoming the people-data API that sales and recruiting platforms call repeatedly in production. Assuming strong fit with those developers, the documented REST API, CLI, and MCP server can carry the same search and enrichment workflow across markets with limited integration changes. The company’s claim of 2B+ indexed profiles speaks to breadth. Usable local coverage and data-rights obligations remain the main limits on portability. (The Idea, Defensibility, Key Risks)
+Assuming strong fit with sales and recruiting platform developers, Ploid can serve the same recurring search and enrichment workflow through its REST API, CLI, and MCP server. Those interfaces make the integration portable across markets. The company’s claimed index of 2B+ people supports potential breadth, while usable contact coverage and compliance in additional markets remain uncertain. Launch YC gives developers a discovery route, and documented self-serve signup gives them a way to start. Published prices establish the offer, while independent checkout and production activation remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The public launch, self-serve signup, and developer docs give buyers a concrete route to try the API. Published plans give them a clear price, while independent payment and production activation remain unverified. Monthly workspace fees, tier upgrades, and overages give retained customers a way to spend more as their workloads grow. Expansion could offset churn if customers embed Ploid in recurring workflows. That is an inference from the product and pricing. (The Idea, Market & Traction)
+Monthly workspace fees and credit overages give existing customers room to spend more as their workloads grow. For example, assuming the workspace stays on Growth, an increase from 1,000 to 2,000 credits would raise its monthly bill from $200 to $400. That pricing creates a plausible path for expansion to offset churn. The memo provides no evidence of realized account expansion or cohort retention. The founder reports closing clients in summer 2026, and Ploid claims thousands of companies use the product. Paid production use, realized revenue, and its growth rate remain unverified, so initial traction receives the absent-evidence default. (The Idea, Market & Traction, Key Facts)
 
-Ploid reports thousands of companies using the product, and a founder reported closing clients in summer 2026. The memo leaves realized revenue, paid production use, and the commercial growth rate of the current API unverified, so initial traction receives the absent-evidence default. (Market & Traction, Key Facts)
-
-At full use of the included credits, Growth and Scale bring in $0.20 and $0.15 per credit, respectively, matching their overage rates. A plausible cost lever is serving suitable requests from the existing index and reserving live retrieval or paid vendor calls for requests that need them. Positive contribution depends on how often those calls are needed and what Ploid spends on serving, onboarding, and support. The memo gives no representative workload costs. (The Idea, Key Risks)
+An overage credit brings in $0.20 on Growth or $0.15 on Scale before attributable vendor charges, live retrieval and identity-matching costs, and any incremental onboarding, support, or deletion work. If Ploid can serve more lookups from its existing index when freshness and the requested fields permit, it could reduce live retrieval and vendor costs. The memo leaves the workload mix and contribution at either price unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-A standard API can make integration portable while the underlying data remains market-specific. Stale vendor data and ambiguous matches can shift validation work onto customers, while privacy and deletion obligations can add work in new markets. If dependable coverage requires new sources and substantial operational work in each market, Ploid’s reach and contribution could both fall short. The structural gate stays open because the memo leaves the extent of that work unresolved. (Key Risks)
+The API can travel while the underlying data workflow remains difficult to scale. Stale vendor contacts and ambiguous identity matches can push validation back onto customers. Privacy and deletion obligations can add work as coverage expands, and competing APIs give customers alternatives if quality falls short. These risks could weaken retention and contribution even with strong initial fit. The memo establishes neither a need for substantial market-by-market rebuilding nor unavoidable per-customer costs that make growth infeasible, so the structural downside gate stays open. (Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 18/25 |
+| Global buyer demand | 19/25 |
 | Repeatable acquisition and onboarding | 17/25 |
-| Retention economics | 17/20 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
@@ -31,4 +29,4 @@ A standard API can make integration portable while the underlying data remains m
 
 ### Decisive diligence question
 
-Can a cohort of sales and recruiting developers sign up, pay, reach production without founder help, and renew at positive contribution? Signup and billing records through first renewal, paired with vendor, infrastructure, and support costs for the same accounts, would answer it. A demonstrated cohort would move the action to Reach out.
+Can sales or recruiting platforms in a second market independently reach paid production on the current API? Signup, activation, and billing records from several such customers, with usable match quality and no bespoke data build or founder-led implementation, would establish a repeatable paid path and move the action to Reach out.

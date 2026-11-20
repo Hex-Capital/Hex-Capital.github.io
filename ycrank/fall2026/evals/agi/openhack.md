@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is OpenHack’s strongest path. Periodic penetration tests and manual alert triage consume specialist time. If automated verification and proposed fixes lower the cost per material issue remediated at comparable coverage, teams that can only afford periodic testing today could buy continuous coverage. OpenHack reports detecting 277 of 761 planted vulnerabilities in its own white-box benchmark. That shows some automated detection capability. The labor savings and the newly viable buyer segment remain assumptions. (The Idea, Key Risks)
+OpenHack applies AI to application security. The memo identifies no scarce input that OpenHack supplies to AI infrastructure or workloads, so the building-blocks path scores zero. (The Idea, Market & Traction)
 
-OpenHack named six users at launch and reported that Papermark fixed an issue it flagged. That is an early signal that a customer acted on a finding. Paid conversion and repeat use remain unknown. The published CLI, platform launch, and Arora’s software engineering and security research experience support seed-stage execution. The memo gives no plan for closing the measured coverage gap. (Market & Traction, Key Facts, Founders & Team, Key Risks)
+The enabled-industry path is security testing at each release for teams that rely on periodic penetration tests. OpenHack says those tests can fall out of date as software ships and that conventional scanners consume staff time sorting false positives. Its product maps applications, prioritizes verified findings, and prepares fixes for review. The seed-stage assumption is that reducing specialist time per verified and remediated issue could bring release-by-release testing within those teams’ budgets. Under model parity, a buyer could still pay for a product that maintains application context and integrates review into its release workflow. The memo leaves the cost threshold and sustained cadence unverified. (The Idea, Defensibility)
 
-A plausible expansion unit is one application under continuous coverage. Compare the former cost of periodic testing and manual triage with OpenHack’s inference, onboarding, human verification, and fix-review costs per material issue remediated. The memo provides no measured cost bridge or realized pricing to establish contribution per application. (The Idea, Key Facts, Key Risks)
+The memo documents a shipped CLI and relevant founder experience. OpenHack names six users and reports that Papermark fixed an issue it surfaced, an early signal that a buyer acted on a finding. Customer-specific maps and triage rules could create switching costs, though retention remains unproven. Listed pricing supplies neither realized revenue nor delivery costs, leaving the economics of the next paid deployment unknown. (Key Facts, Founders & Team, Market & Traction, Defensibility)
 
 ### Countercase
 
-OpenHack may improve an existing application-security workflow while leaving buyers free to switch. Strix already offers scheduled testing, remediation pull requests, and retesting, while GitHub overlaps on native remediation. OpenHack’s lead in its own six-configuration F1 comparison supports some current differentiation. Switching costs from configured application maps and workflows are an inference, with no evidence of buyer preference at functional parity or of network effects. The overlap leaves the model-parity gate unproven. The memo establishes neither easy switching nor an independently controlled scarce complement. (Defensibility, Key Risks)
+OpenHack may make existing security work faster without making a new testing cadence affordable. Its own benchmark found 277 of 761 planted vulnerabilities even with source access, leaving open how much specialist review and supplemental testing a buyer would still need. Strix already offers scheduled testing and retesting, and GitHub overlaps on remediation inside the repository. Those alternatives weaken OpenHack’s case for retaining pricing power under model parity. The release-level use is concrete enough to keep the enabled-industry path open, but the evidence does not yet support outreach. (Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 14/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent teams previously priced out of continuous testing pay to renew OpenHack after comparing it with a functionally comparable option using similarly capable models? Reach out if a paid cohort shows renewals at prices that cover delivery costs and a measured reduction in cost per material issue remediated at comparable coverage. Stay at Watch while those results are pending. Pass if the trial shows that continuous coverage remains unaffordable or that buyers readily switch at parity.
+Can a team that previously relied on periodic penetration tests pay for and sustain testing across successive releases within its existing security budget? A buyer-confirmed paid deployment that maintains comparable coverage and brings fully loaded cost per verified, remediated issue low enough to afford the higher cadence, including staff review and supplemental testing, would move the action to Reach out.

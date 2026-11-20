@@ -22,24 +22,27 @@
   "evalScores": {
     "agi": {
       "score": 49,
+      "maxScore": 150,
       "tier": "Neutral"
     },
     "hypergrowth": {
-      "score": 53,
+      "score": 54,
+      "maxScore": 100,
       "tier": "Neutral"
     },
     "exit": {
-      "score": 46,
+      "score": 45,
+      "maxScore": 100,
       "tier": "Neutral"
     }
   },
   "consolidatedScores": {
     "AGI": 49,
-    "HG": 53,
-    "EXIT": 46
+    "HG": 54,
+    "EXIT": 45
   },
-  "consolidatedAvg": 49.33,
-  "consolidatedRank": 36,
+  "consolidatedAvg": 43.89,
+  "consolidatedRank": 15,
   "traction": {
     "tractionRank": 34,
     "tractionScore": 63,

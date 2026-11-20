@@ -5,23 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a municipal credit-data provider such as Investortools or DPC DATA. Both already sell related research tools. Oasive’s source-linked financials and timestamped meeting summaries could give either buyer a way to expand the credit monitoring it sells to existing customers. The founder reports coverage of more than 8,600 school districts across 43 states. That breadth makes integration worth testing. The potential savings from buying the workflow remain unmeasured. (The Idea, Defensibility, Market & Traction)
+A strategic acquisition by a municipal fixed-income data vendor is Oasive’s strongest route. The memo describes a workflow that brings source-linked financials and timestamped public meeting summaries into borrower research. A pricing vendor such as SOLVE could use that workflow to add credit monitoring to its existing pricing and trade-data products. That is an inferred reason to buy. The memo gives no evidence of buyer interest or measured savings for analysts. (*The Idea*, *Market & Traction*)
 
-A measurable milestone is paid municipal teams renewing after demonstrating recurring analyst time savings. The November municipal launch and scheduled demos give Oasive a way to test that milestone. The company-reported 15 institutional desks used the earlier Macro & Rates and Agency MBS products. With one founder and no disclosed runway or paid municipal adoption, the time and capital needed to reach the milestone remain uncertain. (The Idea, Market & Traction, Founders & Team)
+The founder reports coverage of more than 8,600 school districts across 43 states shortly after the municipal launch. The company separately reports 15 institutional desks using its earlier Macro & Rates and Agency MBS products. That earlier adoption supports testing the municipal product with institutions. The relevant milestone is paid municipal deployments that show repeat use and measurable analyst time savings. The memo provides no municipal contract values, funded test plan, or estimate of the time and capital needed to reach that milestone. (*Market & Traction*, *Key Facts*)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash objective within eight years. The sale scenarios assume a full cash acquisition within eight years, $5 million in net debt and deal adjustments, and an eligible holder selling the entire stake and receiving 3% of distributable equity at closing, with no senior preference reducing the payout.
+The benchmark is a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash objective within eight years. The scenarios below assume an eligible holder sells the entire stake in an all-cash acquisition within eight years, with no preference or other priority claim diverting the residual equity proceeds.
 
-| Scenario | Enterprise value | Distributable equity | Gross cash to holder |
-|-----------|-----------------:|---------------------:|---------------------:|
-| Modest sale | $40M | $35M | $1.05M (2.1×) |
-| Strong sale | $100M | $95M | $2.85M (5.7×) |
-| Prolonged private operation with cash reinvested | — | — | $0 realized |
+| Scenario | Enterprise value to distributable equity | Gross cash to holder |
+|---|---|---|
+| Modest sale | $40 million less $5 million in assumed debt and deal deductions leaves $35 million | $1.05 million, or 2.1× |
+| Strong sale | $100 million less $10 million in assumed debt and deal deductions leaves $90 million | $2.7 million, or 5.4× |
+| Prolonged private | The company continues operating and reinvests available cash, with no payout or eligible share purchase | $0 realized within eight years |
 
-The objective requires about $83.3 million in distributable equity, or $88.3 million in enterprise value under those assumptions. The sale values are illustrative. The memo gives pricing for Oasive’s products but no buyer valuation, verified revenue, or acquisition comparable that supports the hurdle. It provides no evidence of an independent route that would pay the holder. (The Idea, Market & Traction, Key Facts)
+The sale prices and deductions are illustrative. At 3% ownership, the holder needs about $83.3 million in distributable equity value. The memo supplies no buyer price evidence, municipal revenue, or holder terms to establish that Oasive could clear that hurdle. It also supplies no evidence of an independent liquidity route. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Investortools and DPC DATA already combine municipal financial data with news monitoring. They could add meeting summaries using commercially available video models, reducing the value of acquiring Oasive. The memo also documents that licensed-data access can be suspended and stored API data must be deleted when Oasive cannot refresh it within 30 days. A software acquisition is plausible, with continuity of the data inputs and change-of-control terms still unverified. The evidence leaves both a below-hurdle sale and a deal impediment possible, without establishing either Pass gate. (Defensibility, Market & Traction, Key Risks)
+Incumbents may be able to build the feature themselves. CreditScope already combines municipal credit data with AI-filtered news, and DPC DATA already has broad obligor coverage. The memo infers that both have a head start on adding meeting summaries with commercially available models. A buyer would also need to verify that it could keep operating the workflow after closing. Oasive depends on public recordings that can disappear, and licensed-data access can be suspended at a provider’s direction. These risks weaken the case for paying a premium. The memo establishes neither a structural closing block nor materially inadequate proceeds under the strongest credible route, so the Pass gate is untriggered. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -29,12 +29,12 @@ Investortools and DPC DATA already combine municipal financial data with news mo
 |-----------|-------|
 | Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-What would a municipal credit-data incumbent pay to acquire Oasive once paid municipal teams demonstrate recurring analyst time savings? Buyer-side estimates of build costs or incremental revenue, grounded in measured savings and paid renewals, would move the action to Reach out if they support a plausible price above the proceeds hurdle. If that evidence puts the strongest credible sale materially below the hurdle, the action moves to Pass.
+What would a municipal data vendor pay to own Oasive’s workflow given the cost and expected benefit of building it in-house? Buyer-validated pricing grounded in repeat paid municipal use and measured analyst savings would move the action to Reach out if it supports clearing the $83.3 million distributable equity hurdle under reasonable deal deductions. A supported price range that leaves the holder materially short even at its upper end would move the action to Pass.

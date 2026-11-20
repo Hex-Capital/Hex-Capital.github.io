@@ -5,28 +5,28 @@
 
 ### Company case
 
-Assuming strong product-market fit, Rhem’s best path is to rent Rhemy directly to families helping older adults live at home. Reminders, calls, and family check-ins are recurring jobs that plausibly travel across markets. The tabletop device and Rhem Connect app give Rhem a reusable core, while U.S.-only ordering and uncertain language, web-errand, and delivery requirements limit the portability case. Website preorders establish a direct ordering channel. The device and app suggest a standard setup, but independent activation remains unverified. (The Idea)
+Assuming strong product-market fit with U.S. households, Rhemy’s core job could recur abroad. Older adults use the tabletop device for reminders, calls, and errands, while relatives can help through Rhem Connect. The same device and app could plausibly serve families elsewhere. Ordering is currently U.S.-only, and the work needed to adapt voice interactions, website errands, and wellness-data sharing remains uncertain. The October 6 website preorder launch provides a direct route to order, but paid conversion and independent setup through first use remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The advertised $99 monthly rental gives Rhem a way to monetize ongoing use. In a testimonial published by Rhem, one user described using Rhemy to prompt blood-pressure checks and log readings. That supports the recurring workflow. Paid renewal remains unverified, and the documented pricing suggests broadly flat spend per household. The October 6 preorder launch dates public availability for orders, while realized revenue and pre-revenue status both remain unknown. Initial traction therefore uses the absent-evidence default. (The Idea, Market & Traction, Key Facts)
+The advertised $99 monthly rental ties recurring billing to recurring household tasks. A company-published testimonial describes blood-pressure reminders and logging, giving a concrete example of repeat use. The memo establishes neither paid renewals nor a mechanism for retained households to increase recurring spend. The two-person team has a dated preorder launch, but realized revenue and paying-customer growth are unknown, so there is no usable commercial growth rate. (The Idea, Market & Traction, Key Facts)
 
-In a scenario with 12 paid months at the advertised rate, one rental generates $1,188 before device cost, shipping, acquisition, setup, support, returns, warranty, and cloud usage. Rhem reports that some processing runs onboard, which could reduce incremental cloud costs. Actual paid tenure, hardware costs, and support costs remain unknown, leaving contribution and payback unresolved. (The Idea, Defensibility, Key Risks)
+In a rental scenario, each paid month adds $99 toward the landed device cost, shipping, acquisition and activation, ongoing support and cloud usage, and any returns or warranty costs. Rhem reports that some processing runs onboard, which could limit incremental cloud costs. Device cost and paid rental duration are unknown, leaving contribution and payback unverified. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-Even with strong household demand, each rental puts a device into the field before Rhem recovers its cost. Early cancellations, returns, or hands-on support could erase contribution, especially with little documented room to expand the household bill. Serving families abroad could also require changes to voice interactions and web errands alongside local fulfillment. The structural downside gate stays open because the memo establishes neither substantial market-by-market rebuilding nor an unavoidable per-household cost that makes growth infeasible. (The Idea, Key Risks, Key Facts)
+Even with strong household demand, Rhem must supply a physical device before collecting enough monthly payments to recover its cost. Short rentals or frequent setup and service calls could make faster growth consume more cash. Voice and web workflows could also require more adaptation abroad than the shared device and app suggest. The memo establishes U.S.-only ordering and dependencies on connectivity and some external AI services. It leaves open whether substantial rebuilding or economically prohibitive per-household work is unavoidable, so the structural downside gate stays open. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 11/25 |
-| Retention economics | 13/20 |
+| Retention economics | 12/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Rhem repeat its paid rental launch in a second market with the same device and app? A launch with bounded local changes, growing paid signups across successive cohorts, independent household activation, and recovery of device and other incremental costs within observed paid tenure would move the action to Reach out.
+Can Rhem grow a paid rental cohort in one market outside the U.S. using the same device and app with limited localization? A growing cohort whose households order and activate independently and renew long enough to cover attributable acquisition, device, and service costs would move the action to Reach out.

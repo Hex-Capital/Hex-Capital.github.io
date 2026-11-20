@@ -1,23 +1,23 @@
 ﻿# Proto -- Exit Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is a strategic acquisition by a design platform such as Figma. Proto’s alpha combines code-backed prototypes, visual variant comparison, and shareable flow maps. Proto says it splits prototype changes into smaller pull requests to ease engineering review. A buyer could have a reason to acquire the workflow if teams use it repeatedly and it measurably shortens the path from design exploration to approved code. Proto’s early-access launch shows it can begin testing that proposition. Paid adoption, repeat use, and measured time savings remain unverified. (The Idea, Market & Traction, Key Risks)
+A strategic acquisition by a design platform is Proto’s strongest plausible liquidity route. The memo records a November 2026 early-access launch and describes visual variant comparison, linked user flows, and collaborative review. Proto says designers have moved into developer IDEs to build interactive prototypes. If teams repeatedly use Proto to review variants and hand off code with less engineering rework, a platform buyer could gain a workflow its customers already value. The launch and founder’s prior visual coding work support a seed-stage test with paying teams. Repeat use, measured savings, and the capital needed to reach that milestone remain unverified. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
-A paid team pilot on existing codebases could measure repeat use across projects and time to an approved pull request. The live alpha makes that test plausible at seed. The memo leaves its budget and runway unverified. IP ownership and transferability, required approvals, and the holder’s eligibility to participate in a sale also remain unverified. (Market & Traction, Founders & Team, Key Risks)
+Using the benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity value. Both sale scenarios assume an all-cash sale by year eight, $5 million in combined debt and deal deductions, no senior preference payouts or holdbacks, and an eligible holder selling the entire stake and receiving 3% of the remaining equity proceeds at closing.
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, which dilutes to 3% with no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at full pro rata participation. The two sale cases below assume an eligible holder, no senior claims altering the pro rata waterfall, and the entire stake cashed out within eight years. The prices and deductions are illustrative assumptions. The memo leaves buyer pricing and actual deal terms unverified. (Market & Traction, Key Facts)
+- **Modest sale.** $40 million in enterprise value leaves $35 million for equity and $1.05 million in holder cash, or 2.1×.
+- **Strong sale.** $100 million in enterprise value leaves $95 million for equity and $2.85 million in holder cash, or 5.7×. Under these assumptions, the enterprise-value hurdle is about $88.3 million.
+- **Prolonged private.** If Proto stays private and reinvests available cash, the holder realizes $0 within eight years. The memo supplies no evidence of an independent route that would pay this holder. (Market & Traction, Key Facts)
 
-- **Modest sale.** $50 million in enterprise value less $5 million in assumed debt and deal adjustments leaves $45 million for equity. The holder receives $1.35 million, or 2.7×.
-- **Strong sale.** $100 million in enterprise value less $10 million in assumed debt and deal adjustments leaves $90 million for equity. The holder receives $2.7 million, or 5.4×. If only 90% of the stake is cashed out and the rest rolls over, cash proceeds fall to $2.43 million, below the objective.
-- **Prolonged private operation.** If Proto reinvests available cash and no eligible share sale occurs, the holder realizes $0 within eight years.
+The sale prices are sensitivities. The memo supplies no Proto-specific valuation or buyer economics to support them, and it leaves deal funding, transfer rights, and holder eligibility open. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Figma already offers code-backed prototype comparison within its Design canvas, and Onlook offers open-source visual editing that writes changes back to code. Figma’s existing feature gives the clearest potential buyer a ready substitute for a core part of Proto’s workflow. Proto’s flow mapping and smaller pull requests could still matter if they produce a measurable advantage across projects. The overlap weakens the acquisition rationale. The memo leaves both a structural closing block and a price ceiling below the proceeds hurdle unestablished, so the Pass gate is unmet. (Defensibility, Market & Traction, Key Risks)
+Figma already offers code-backed prototype comparison inside its Design canvas, and Onlook offers open-source visual editing that writes changes back to code. Those substitutes weaken the case for a strategic buyer to pay for Proto. Proto’s workflow could still prove valuable if teams repeatedly use its linked variants and handoff features and see measurable gains after engineering review. The memo leaves that gap open and establishes neither a structural closing block nor a credible sale-price ceiling below the proceeds hurdle. The Pass gate therefore does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -33,4 +33,4 @@ Figma already offers code-backed prototype comparison within its Design canvas, 
 
 ### Decisive diligence question
 
-Does Proto save paying teams enough time from prototype to approved pull request, across repeated projects, for a strategic buyer to justify a price that clears the holder’s proceeds hurdle? A paid pilot comparing that workflow with Figma Code Layers, paired with a buyer-side estimate of the value of acquiring it, would answer the question. A durable advantage and a price range that plausibly clears $83.3 million in distributable equity value would move the action to Reach out.
+Can Proto demonstrate enough incremental workflow value over Figma’s Code Layers to support a strategic sale near the $88.3 million enterprise-value hurdle? Repeated paid use across projects, measured reductions in time from prototype to engineering approval, and a credible estimate of what those gains are worth to a platform buyer would move the action to Reach out if they support that price range. (Defensibility, Market & Traction, Key Risks)

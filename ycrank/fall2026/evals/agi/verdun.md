@@ -1,32 +1,33 @@
 ﻿# Verdun -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**New Economies** is the strongest path. Conventional remote monitoring uses operator time to open and assess alarms before responding. Verdun says queues can push that initial review past 20 minutes during spikes, and that its AI closed about 85% of alerts in a 14-day sample. That supports the mechanism for reducing manual review. The sample leaves baseline labor cost, threat recall, and the change in cost per correctly handled incident unresolved. An anonymized screenshot shows alarm activity across customer sites. Paid conversion and repeat usage remain unverified. (The Idea; Market & Traction)
+Verdun has an early AGI-enabled industry case for making timely human intervention affordable during alarm spikes. In the outsourced workflow Verdun describes, operators can take 20 minutes or more just to open an alarm during a spike. Verdun uses AI to review alarms in parallel on existing cameras and routes threats and uncertain events to operators who can issue warnings or dispatch help. Verdun reports that AI closed about 85% of alerts in a 14-day sample. That result supports the possibility of freeing operators to respond sooner. Whether it makes timely coverage affordable for sites that previously could not justify the staffing depends on operator time saved, threat recall, and cost per correctly handled event. Under model parity, buyers would still need camera access, site-specific response protocols, and staffed intervention. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption.** A dealership group could add live response at sites it previously left unmonitored because conventional service cost too much. Verdun bills by installed camera, but the economic test is fully loaded cost per correctly handled incident within the required response time. That includes inference, operator staffing at peak load, exception handling, and missed-incident costs. Under model parity, buyers could still pay Verdun for reliable intervention and site-specific response protocols. Those workflows and auditable records give buyers a plausible reason to stay, while preference under comparable alternatives remains untested. (The Idea; Defensibility; Key Risks)
+Verdun earns zero for building blocks of superintelligence. It uses AI to deliver physical security monitoring, and the memo identifies no scarce input Verdun supplies to an AI workload or infrastructure buildout. (The Idea, Market & Traction)
 
-Tai previously built and sold physical-security computer vision at Actuate, which Verdun says reached over 110,000 cameras. Hoang built Actuate’s first gun-detection model. That is relevant delivery experience. Verdun’s next execution test is whether escalation and threat recall hold up during peak loads. (Founders & Team; Key Risks)
+Site-specific protocols and audit records could create switching costs, though their effect on retention or pricing is untested. An anonymized screenshot shows alarm activity across sites Verdun identifies as customers, and the company offers a defined parallel trial. These are early demand signals, with paid conversion and repeat use unverified. The founders’ prior work building and selling camera security products at Actuate supports execution, with dependable staffed response still to prove. Verdun markets monitoring per camera, but undisclosed pricing and operator costs leave the economics of adding a site unresolved. The short, company-reported sample and limited buyer evidence keep confidence low. (Defensibility, The Idea, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-Verdun could make an established service more efficient without bringing new sites into the market. Its free parallel trial and switching discount target existing monitoring customers, and Deep Sentinel and Blue Eye already combine AI detection with live intervention. If comparable providers can match Verdun’s response quality, its site protocols and records may offer limited defense, particularly where dealers hold the customer contract. The memo leaves both market opening and durable buyer preference unproven. It documents neither failed expansion into previously unserved sites nor ready substitution at equivalent service quality, so the decision gate calls for Watch. The memo also identifies no independently supported scarce complement. (The Idea; Defensibility; Market & Traction)
+Verdun may be improving an existing service for buyers already paying for monitoring. Deep Sentinel and Blue Eye already combine AI detection with live intervention. Closing a high share of alerts can coexist with costly operator workload during spikes if the remaining alerts take longer to resolve, and a dismissed threat may never reach an operator. If a representative trial shows only faster triage for existing buyers without making timely coverage viable for a previously underserved site or use, the industry path falls to zero and the action becomes Pass. The memo leaves that gate unresolved. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 8/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 29/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent dealership group renew paid monitoring at sites it previously left unmonitored because of cost when a comparable AI-enabled service is available? Move to **Reach out** if a paid cohort renews and a matched comparison shows lower fully loaded cost per correctly handled incident than conventional monitoring, with comparable threat recall and response times through peak loads. The buyer should identify Verdun’s response execution as a reason for renewing. Stay on **Watch** if the comparison is inconclusive. Move to **Pass** if the trial shows that the savings disappear at comparable service quality or that buyers readily switch at parity.
+Can a side-by-side trial at a site that previously could not justify staffing for timely peak-hour response show that Verdun meets the buyer’s response-time and threat-recall requirements at a lower fully loaded cost per correctly handled event? A representative trial that accounts for operator time and missed threats, followed by paid conversion at a price that covers delivery, would move the action to Reach out.

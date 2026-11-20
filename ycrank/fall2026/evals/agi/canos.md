@@ -1,32 +1,31 @@
 ﻿# Canos -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is New Economies through more frequent monitoring of dogs after cancer treatment. The memo describes CT as costly and requiring sedation. Canos uses a veterinary blood draw, sequencing, and model-based analysis to establish an individual baseline and track changes over time. Canos reports 90.6% sensitivity at 95.1% specificity in retrospective cross-validation on a 303-dog diagnostic subset. That result supports the feasibility of detecting a cancer signal from blood. Prospective detection of actionable recurrence remains unproven. (The Idea, Market & Traction, Key Risks)
+Canos has a plausible AGI-enabled path in routine screening for asymptomatic dogs. The memo describes routine bloodwork as rarely identifying cancer and CT as costly and requiring sedation. Canos says its test combines three signals from cell-free DNA collected in a single veterinary blood draw. The investment hypothesis is that automated interpretation could make screening practical at routine visits and reserve imaging for dogs with concerning results. The memo leaves the cost per confirmed case and the model’s contribution to any savings unresolved. Even with access to equally capable models, clinics would still need sample collection, sequencing, and a clinically validated testing service. The building-blocks path scores zero because the assay serves veterinary diagnostics and the memo identifies no scarce input it supplies to AI deployment. (*The Idea*, *Key Risks*)
 
-If a blood draw replaces some scheduled imaging visits, it could reduce veterinary labor and cost enough to make closer surveillance viable for owners who currently forgo it. The comparison is the total cost per correctly detected, actionable recurrence, including blood collection, sequencing, repeat tests, and confirmatory workups. If the blood test adds visits without reducing imaging or improving detection, the cost advantage could disappear. At the listed $399 OncoTrack price, repeat deployment also depends on what Canos retains after collection support, shipping, lab work, and reporting. The memo gives no cost or paid-volume data to establish that margin. (The Idea, Key Risks)
-
-Under model parity, clinics could still pay Canos for a clinically validated assay, reliable sample handling, and continuity with a dog's prior results. Canos reports a patent filing and a longitudinal analysis of 117 dogs across 514 time points. Those assets give it a starting point, while control of scarce lab capacity and clinic preference under comparable alternatives remain unestablished. Canos reports ten clinics and mobile vets onboarding, an early demand signal. Paid repeat orders remain unverified, and Canos advertises a free OncoTrack trial. The founders' prior work together in veterinary pathology and their complementary diagnostics and computational experience support their ability to run the next test. (Defensibility, Market & Traction, The Idea, Founders & Team)
+The founder-reported patent filing and the company’s longitudinal analysis offer early support for defensibility. Repeat samples paired with confirmed outcomes could improve Canos’s test, but the memo leaves patent scope and commercial retention unresolved. The company reports ten clinics and mobile vets onboarding, an early trial signal with paid conversion and repeat ordering still open. The founders’ complementary diagnostics and computational pathology backgrounds and the reported retrospective benchmark support execution credit, with prospective clinical delivery still to prove. Posted prices establish what Canos plans to charge. The memo lacks delivery costs for the next paid test, so scale economics stays at the default. (*Defensibility*, *Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*)
 
 ### Countercase
 
-Canos may be entering an existing diagnostics market with a test that adds cost and follow-up work. CanCan already offers sequencing-based canine cancer monitoring, and VolitionRx reaches clinics through Antech's in-clinic analyzers. If those options meet the same clinical need and Canos positives still require substantial imaging, clinics may have little reason to pay for Canos or expand surveillance. The memo establishes competitive alternatives and clinical follow-up risk. It leaves clinical equivalence, buyer switching, and the cost per actionable recurrence unresolved, which supports Watch. The memo provides no independently supported scarce-complement path. (Defensibility, Market & Traction, Key Risks)
+Canos could be an incremental entrant in an existing screening market. The memo lists competing blood and urine assays, and the company’s reported 90.6% sensitivity and 95.1% specificity come from retrospective cross-validation. If those rates carried over to a hypothetical screening population with 1% cancer prevalence, 1,000 tests would yield about nine true positives and 49 false positives. The resulting workups could erase the savings that make routine screening viable. That gap warrants Watch. Evidence that the assay only shifts demand among existing tests would remove the supported AGI path and trigger Pass. (*Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 16/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 7/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 39/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent clinics repeatedly buy OncoTrack at a viable price for dogs that previously went without scheduled surveillance? A prospective paid cohort would move the action to Reach out if clinics reorder, choose Canos when a clinically comparable option is available, and record lower veterinary labor and total cost per actionable recurrence than imaging-based surveillance after confirmatory workups. If the study shows that workups erase the savings or that clinics readily switch at comparable performance, move to Pass.
+Can Canos make routine screening viable for asymptomatic dogs whose owners currently forgo it? A prospective paid clinic pilot would move the action to Reach out if it showed clinics repeatedly ordering the test for those dogs and demonstrated that model-based interpretation improves the cost per confirmed case after collection, sequencing, and follow-up.

@@ -1,30 +1,32 @@
 ﻿# UXDuck -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Assuming strong product-market fit with commercial teams building custom drones, UXDuck’s strongest path is bottom-up adoption through browser simulation, followed by desktop use for recurring vehicle testing, configuration, and flight review. MAVLink compatibility and the ability to run alongside existing ground stations make substantially the same product usable by comparable teams across markets. The account-free simulator and desktop download give developers a way to start on their own. One CTO reported flying a custom-imported aircraft within five minutes of downloading the app and using it with his team for demos and flying. Commercial pricing requires an inquiry, leaving a gap between self-serve activation and payment. (The Idea, Market & Traction, Defensibility)
+Assuming strong product-market fit with custom-drone engineering teams, UXDuck’s simulation, configuration, and flight-review workflow looks portable across markets. The documented product supports custom firmware, works with existing MAVLink tooling, and can run alongside Mission Planner or QGroundControl. Those features let teams adopt the same core product within their existing workflow. The extent of vehicle-specific integration and security review remains uncertain. (The Idea, Defensibility, Key Risks)
 
-Saved configurations and vehicle histories could make UXDuck part of each development cycle. That supports repeat use, while billing cadence and ways for existing accounts to spend more remain unknown. UXDuck reports more than 500 simulated flight hours outside testing and development. The commercial traction default applies because paid use, revenue growth, and pre-revenue status are all unestablished. (Defensibility, Market & Traction, Key Facts)
+Launch YC and developer events give teams a way to discover UXDuck, then try the account-free simulator or download the desktop app independently. One startup CTO reported flying a custom-imported aircraft within five minutes of download. Businesses still have to inquire about pricing, leaving the path from first use to payment unproven. Saved configurations and vehicle histories could encourage repeat use as teams test and revise aircraft. The memo provides no recurring commercial terms or billable units that show how existing accounts could spend more. (The Idea, Market & Traction, Defensibility, Key Facts)
+
+UXDuck reported more than 500 simulated flight hours excluding testing and development. That indicates early use, while paid adoption and commercial growth remain unknown. In a scenario where UXDuck sells a recurring commercial license, contribution from the next account would be the license revenue less attributable sales, onboarding, support, and hosted AI costs. Local vehicle connections could limit hosted processing for some workflows. The memo gives too little information about pricing, inference usage, or support effort to estimate contribution. (Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-Teams could keep their incumbent ground station as their primary tool and use UXDuck occasionally for simulation or demos. The documented PX4 regression illustrates the reliability burden of supporting live vehicles. Standard downloads can limit setup effort, but contribution per commercial account depends on the quoted fee minus the cost of sales, onboarding, compatibility support, and hosted AI when used. The memo gives too little evidence to estimate that contribution, so cost economics stays at the default. The structural gate remains open because standard interfaces and a reported quick setup make a repeatable path plausible. (The Idea, Market & Traction, Key Risks, Key Facts)
+Teams could use UXDuck for simulation and demos while retaining their existing tools for production. Overlapping incumbent features give teams that option, and UXDuck documented and fixed a PX4 regression that could send a vehicle to an unintended location. If production adoption routinely requires vehicle-specific validation and review of hosted AI data handling, a quick trial may lead to a labor-intensive rollout. The structural downside gate stays open because the memo does not establish that this work is unavoidable or that it would make incremental sales uneconomic. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 16/25 |
+| Repeatable acquisition and onboarding | 17/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 57/100** (Neutral)
+**Total Score: 58/100** (Neutral)
 
 ### Decisive diligence question
 
-Can commercial drone teams that start on their own convert to standard paid terms and renew with routine support? A cohort of independent teams that converts and renews through that path, with account revenue comfortably covering attributable sales and support costs, would move the action to Reach out.
+Can a cohort of unrelated commercial drone teams go from self-serve trial to recurring paid production use at positive incremental contribution? A cohort that converts on standard terms, renews or sustains billable usage, and covers its attributable sales, onboarding, support, and inference costs would move the action to **Reach out**.

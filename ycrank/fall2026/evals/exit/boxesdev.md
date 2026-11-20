@@ -5,36 +5,32 @@
 
 ### Company case
 
-The strongest path is a strategic sale to a developer workspace platform such as Coder. Boxes.dev’s snapshot workflow could let a buyer give engineering teams parallel agent environments that inherit a working setup, including versioned templates and startup scripts. OpenAI’s acquisition of Ona shows that a strategic buyer has acquired an adjacent workspace product. For a buyer like Coder, the rationale would depend on whether Boxes.dev’s cloning workflow delivers enough incremental value over its existing workspace provisioning to justify buying it. (The Idea, Defensibility, Market & Traction, Key Risks)
+A strategic sale to a developer-workspace platform is the strongest supported route. Coder already serves developers and agents. A platform serving those users could buy Boxes.dev to add snapshot-based cloning of configured environments and support parallel Claude Code and Codex sessions. OpenAI’s acquisition of Ona shows that workspace infrastructure can attract a strategic buyer. The memo gives no transaction price or measured buyer benefit that would support an acquisition valuation for Boxes.dev. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The memo records 10,611 standalone CLI downloads in one week. Separately, the founders report that one unnamed customer ran more than 200 agents on over 100 machines for a build. Those signals make a paid, multi-team production pilot plausible. Repeated use and measured setup-time savings would strengthen the acquisition case. Paid retention, cloud delivery costs, and the capital needed to reach that milestone remain unknown. A software acquisition appears feasible in principle, with customer-provided API keys offering one integration path. IP transfer rights, provider permissions, and holder participation remain unverified. The memo supplies no evidence of an independent liquidity route. (Market & Traction, The Idea, Key Facts, Key Risks)
+The next milestone is repeat paid use by teams, with measured setup time saved and contribution margin after compute costs. The memo records 10,611 standalone CLI downloads in one week. The founders report that one unnamed customer ran over 200 agents on more than 100 machines for a software build. These signals make a paid pilot plausible. Paid retention, operating costs, and runway remain unknown, limiting estimates of the capital and time needed to reach the milestone. A product acquisition appears feasible at seed stage. Customer API keys give a buyer an operating option given Anthropic’s subscription authentication restrictions, with provider permissions, IP transfer, and holder participation still to verify. (The Idea, Market & Traction, Key Facts, Key Risks)
 
-Using the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in gross cash within eight years, or about $83.3 million in distributable equity value. The sale scenarios assume the holder can sell their entire stake for cash at closing within eight years, with a pro rata waterfall, no senior preferences, and no holdbacks.
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation gives 5% starting ownership, diluted to 3% with no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The sale prices below are illustrative assumptions. Both sale cases assume an eligible holder sells its full stake, receives its pro rata share in cash at closing within eight years, and faces no deductions for net debt, fees, other deal adjustments, or senior claims.
 
-| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
-|---|---|---|
-| Modest sale | $40 million enterprise value less $5 million in assumed debt and deal adjustments leaves $35 million | $1.05 million, or 2.1× |
-| Strong sale | $100 million enterprise value less $10 million in assumed debt and deal adjustments leaves $90 million | $2.70 million, or 5.4×. At 2.5% ownership, this falls to $2.25 million, or 4.5×. |
-| Prolonged private | Continued operation with cash reinvested and no share purchase or distribution | $0 realized |
-
-The sale prices are illustrative. The memo gives no acquisition price for Ona, realized revenue for Boxes.dev, or buyer economics that support a price above the hurdle. (Key Risks, Key Facts)
+- **Modest sale.** $50 million in enterprise value flows to $50 million in distributable equity and $1.5 million to the holder, or 3×.
+- **Strong sale.** $100 million in enterprise value flows to $100 million in distributable equity and $3 million to the holder, or 6×. More than about $16.7 million in net deductions before the pro rata distribution would put the holder below target.
+- **Prolonged private operation.** If the company reinvests its cash and no eligible share purchase or funded payout occurs, the holder realizes $0 within eight years. The memo provides no evidence of an independent liquidity route.
 
 ### Countercase
 
-OpenAI already has a route to bundle hosted workspaces into Codex through Ona. Coder already provisions environments for developers and agents, and Replicas already runs native coding agents in isolated VMs. Buyers may therefore assign little incremental value to Boxes.dev’s cloning workflow. Anthropic’s limits on third-party subscription authentication add integration risk, with customer API keys and Codex offering other ways to run agents. The evidence supports a material substitution risk, but establishes neither a closing barrier for the strongest route nor a credible price ceiling below the proceeds hurdle. The unresolved buyer economics support Watch. (Defensibility, Market & Traction, Key Risks)
+OpenAI brought Ona into Codex, giving it a direct path to bundle cloud workspaces. Replicas already runs multiple native agents in isolated VMs, and Coder already provisions workspaces for developers and agents. Buyers may therefore have enough in-house capability or access to substitutes that Boxes.dev’s cloning workflow commands little incremental value. That risk leaves buyer willingness to pay unresolved. The memo establishes neither a structural block across plausible buyers nor a supported price ceiling below the proceeds hurdle, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Would a workspace platform value Boxes.dev’s snapshot workflow above the $83.3 million distributable equity hurdle after comparing it with its own provisioning? A buyer’s valuation indication grounded in measured savings and repeat use across paid production teams would move the action to Reach out if the implied holder payout clears the benchmark.
+Can a named workspace platform substantiate a price range for Boxes.dev that leaves at least $83.3 million in distributable equity within eight years under the benchmark terms? Buyer feedback grounded in measured deployment savings or incremental paid adoption, with enough headroom for deal deductions, would move the action to Reach out. Evidence that the strongest credible route falls materially short would trigger Pass.

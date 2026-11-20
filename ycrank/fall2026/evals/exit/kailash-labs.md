@@ -5,32 +5,34 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a managed robotics provider. Kailash has published a station demo and opened pilot bookings. It advertises installation in days and a seven-day keep-or-return pilot. If Kailash can reproduce that setup speed across factories while meeting production requirements, an acquirer could deploy more cells with the same engineering team and reduce commissioning costs. The demo and pilot offer make that hypothesis testable. The memo documents no paid conversions, measured commissioning savings, or buyer interest. (The Idea, Market & Traction, Defensibility)
+The strongest route is a strategic sale to an industrial robotics integrator. Kailash has a public robot-station demo and open pilot bookings. It advertises installation in days and a seven-day keep-or-return pilot. If that speed holds across factories, an integrator could acquire the deployment capability to spend less time commissioning each station and serve more lines with the same field team. That buyer benefit is an inference. Production uptime, paid conversions, and repeatable installation economics remain unverified. (The Idea, Market & Traction, Defensibility)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The 5× objective requires $2.5 million in gross cash within eight years, or about $83.3 million in distributable equity value at 3% ownership. The sale cases below are illustrative assumptions. Both assume a sale of the entire holding for cash within eight years, with the holder eligible to participate and receiving 3% of equity proceeds after net debt and deal adjustments. No senior preference is assumed to redirect proceeds from the holder. The memo leaves company-specific financing terms unverified and supplies no transaction pricing evidence. (Market & Traction)
+The operating milestone is repeatable paid deployment across factories, with measured commissioning time, throughput, uptime, and margin after installation and support. The demo and Sharma’s robot-learning experience support attempting that test. The capital needed to equip and support pilots remains unclear under the advertised no-customer-capex model, and the reported financing figures differ. The registry name collision warrants confirming the operating entity and asset ownership. The memo leaves transfer rights and closing permissions unresolved. It also leaves independent liquidity routes unevidenced. Marlin’s free distribution and download activity are evidence of interest in the prior product. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
-| Scenario | Assumed proceeds bridge | Gross cash to holder |
-|-----------|--------------------------|----------------------|
-| Modest acquisition | $30M enterprise value less $5M in net debt and deal adjustments leaves $25M for equity | $750,000 (1.5×) |
-| Strong acquisition | $100M enterprise value less $10M in net debt and deal adjustments leaves $90M for equity | $2.7M (5.4×). At 2.5% ownership, $2.25M (4.5×) |
-| Prolonged private | Cash is reinvested through year eight, with no distribution or eligible share sale | $0 realized |
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The following scenarios are illustrative. Both sale cases assume the holder is eligible to sell the full stake, cash is paid within eight years, and the remaining equity is distributed pro rata with zero additional senior claims.
+
+- **Modest sale:** $40 million in enterprise value less $5 million in assumed net debt and deal adjustments leaves $35 million for equity. The holder receives $1.05 million, or 2.1×.
+- **Strong sale:** $100 million in enterprise value less $10 million in assumed net debt and deal adjustments leaves $90 million for equity. The holder receives $2.7 million, or 5.4×. If only 90% of the stake can be sold within the horizon, cash falls to $2.43 million, or 4.86×.
+- **Prolonged private:** Continued operation with cash reinvested and no eligible share purchase or payout yields zero realized proceeds within eight years.
+
+The memo leaves acquisition pricing, the actual investor waterfall, and payout timing unverified. The strong case therefore sets a diligence hurdle. The evidence supports Watch while repeatable deployment economics and their value to a buyer can still be tested. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Formic and Corelyn already offer managed robot cells, so an incumbent could keep deploying its own systems. Kailash’s advertised speed could depend on station-specific engineering, and returned pilots could consume installation and removal capacity without generating recurring revenue. Marlin’s video benchmarks leave robot-station cycle time and uptime unverified. The memo also identifies a registry name collision and leaves the operating entity’s ownership of the relevant assets unverified. These gaps support Watch. The memo establishes neither a structural closing barrier nor a buyer valuation that would make the strongest route materially inadequate. (Defensibility, Market & Traction, Key Risks)
+Integrators already offer managed robot cells, including usage-based service in India. If Kailash’s installations remain specific to each station, an integrator could use its existing deployment process and have little reason to pay for Kailash’s capability. Keep-or-return pilots could also leave Kailash paying for installation and removal without converting customers. The Pass gate remains untriggered because the memo establishes neither a structural closing barrier nor a supported sale-value ceiling below the holder’s objective. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 10/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Would Kailash’s measured commissioning savings across paid factory deployments justify an acquisition that clears the holder’s $2.5 million cash objective? Paid pilot conversions at multiple sites, with measured setup labor, uptime, throughput, and fully loaded deployment costs, would give a prospective acquirer a basis for pricing those savings. Move to Reach out if buyer economics grounded in those results support clearing the hurdle after debt, deal adjustments, and the expected waterfall. Until then, Watch. (The Idea, Market & Traction, Key Risks)
+How much would a strategic integrator gain by acquiring Kailash’s deployment capability? Paid installations across multiple factories would need to show repeatable commissioning savings, reliable throughput, and positive margins after hardware and support. If an integrator’s build-versus-buy assessment based on those results supports a sale range that clears roughly $83.3 million in distributable equity within eight years, move to Reach out. If the economics remain unresolved, keep Watch. If the strongest credible route leaves the holder materially short, move to Pass.

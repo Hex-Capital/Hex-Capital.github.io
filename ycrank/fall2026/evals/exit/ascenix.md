@@ -5,36 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic sale to a senior-care EHR vendor such as PointClickCare. Ascenix reports live access to PointClickCare notes and incident records through its Marketplace integration, alongside MatrixCare and Yardi integrations. Responsive Health Management reports 80% less time spent on manual fall analysis and 15% fewer non-compliance incidents over three months after deploying Ascenix across its homes. A buyer could use Ascenix’s configurable reporting and follow-up workflows to extend its product if operators reproduce those gains at a manageable deployment cost. The memo leaves buyer interest and acquisition economics unverified. (The Idea, Defensibility, Market & Traction)
+A strategic sale to a senior-care software platform is Ascenix’s strongest route. Ascenix says its software combines incident reporting, compliance follow-up, and reimbursement checks across existing EHRs. Responsive Health Management reported 80% less time spent on manual fall analysis and 15% fewer non-compliance incidents over three months after deploying Ascenix across its homes. Those results give a platform buyer a reason to evaluate the product. The acquisition rationale depends on whether other operators see similar gains and whether owning the software would be worth more to a buyer than building equivalent workflows. (The Idea, Market & Traction)
 
-Ascenix reports 55 live facilities. That footprint makes paid renewals and repeatable rollout costs across operators a plausible next milestone. Each deployment still requires integration work and local policy validation, and the memo gives no current cost or runway figures. A software sale is plausible given the live integrations, with change-of-control rights for EHR access and customer contracts unverified. The memo provides no evidence of a separate liquidity route for Ascenix holders. (Market & Traction, Key Risks)
+Ascenix reports 55 live facilities, which gives it a base for testing whether unrelated operators renew paid deployments and retain the reported workflow gains. Each deployment requires integration and local policy validation. The memo gives no deployment cost, retention, or funding figures for the current software, so the capital and time needed to reach that milestone remain uncertain. The reported read-only integrations make a software acquisition plausible, with continued EHR access and customer permissions after a change of control still to verify. The memo identifies no independent liquidity route for Ascenix holders. (Market & Traction, Defensibility, Key Risks, Key Facts)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity at 3% pro rata. Both sale scenarios assume an eligible holder sells the full stake for cash at closing within eight years, with no senior claims after the stated deductions.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The sale cases below are illustrative. Both assume closing within eight years, a full cash sale, $10 million in combined net debt and deal adjustments, and a holder eligible to receive 3% of the remaining equity proceeds with no senior claims.
 
-| Scenario | Assumed proceeds bridge | Gross cash to holder |
-|-----------|-------------------------|----------------------|
-| Modest sale | $50M enterprise value less $5M in debt and deal adjustments yields $45M in distributable equity | $1.35M (2.7×) |
-| Strong sale | $100M enterprise value less $10M in debt and deal adjustments yields $90M in distributable equity | $2.70M (5.4×) |
-| Prolonged private | The company reinvests available cash through year eight, with no eligible share sale or distribution | $0 (0×) |
+| Scenario | Proceeds bridge | Holder cash |
+|---|---|---:|
+| Modest sale | $60M enterprise value less $10M leaves $50M for equity | $1.50M (3.0×) |
+| Strong sale | $100M enterprise value less $10M leaves $90M for equity | $2.70M (5.4×) |
+| Prolonged private | Continued operation with reinvestment and no eligible share sale or payout | $0 (0×) |
 
-These are sensitivity assumptions. The memo shows monthly platform invoicing and leaves realized revenue, buyer pricing, and the actual waterfall unverified. Even in the strong case, receiving cash for only 90% of the stake within eight years reduces proceeds to $2.43 million. (Key Facts, Market & Traction)
+At $100 million of enterprise value, combined deductions above roughly $16.7 million would put the holder below the objective under the assumed waterfall. The memo gives no Ascenix revenue or acquisition price evidence to anchor either sale case. (Market & Traction, Key Facts)
 
 ### Countercase
 
-PointClickCare already offers native incident management and controls Ascenix’s access to its live notes and incident records. It could extend its own workflows, especially if Ascenix’s facility-specific setup limits the savings a buyer can replicate. This weakens the case for paying an acquisition premium. The memo establishes neither a structural block across credible buyers nor a supported sale range that falls materially short of the hurdle, so the Pass gate does not apply. (Defensibility, Key Risks)
+PointClickCare already offers native incident management and controls Ascenix’s access to live records on its platform. It could extend its own workflows, while another acquirer could inherit that dependency. The memo leaves open whether Ascenix’s cross-EHR capabilities are valuable enough to buy and whether access would continue after a sale. That uncertainty supports Watch. The evidence establishes neither a structural closing block nor a ceiling on credible proceeds that would trigger Pass. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can a strategic buyer justify a price that leaves at least $83.3 million in distributable equity? Buyer-side underwriting grounded in paid renewals, measured savings across multiple operators, and actual rollout costs would move the action to Reach out if it supports clearing that hurdle within eight years. A supported range materially below the hurdle on the strongest credible route would trigger Pass.
+What acquisition price could a senior-care platform buyer justify once paid deployments across multiple operators show durable workflow savings after implementation costs? Buyer feedback that ties a credible price range to those economics and supports at least $83.3 million in distributable equity after deal adjustments and senior claims would move the action to Reach out.

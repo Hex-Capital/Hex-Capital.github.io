@@ -5,28 +5,31 @@
 
 ### Company case
 
-The strongest path is a **scarce complement**. Liquid Energy’s NanoDC packages GPUs, fold-out solar, batteries, cooling, and satellite connectivity into a factory-built unit. If it can deliver reliable inference where grid connections and permitting delay conventional capacity, buyers could pay for earlier access to compute. Liquid Energy’s model gives it ownership of the hardware and responsibility for deployment. Its reported four-week deployment time is still a claim, and the memo documents no field measurement of the time saved. *(The Idea, Market & Traction, Key Risks)*
+Liquid Energy has a plausible building-block path in usable power for incremental GPU inference. More inference deployments require more energized GPU capacity. The FERC order described in the memo documents uncertainty over grid access for large loads co-located with generation. Liquid Energy attributes months-long waits to grid connections, permitting, and conventional capacity procurement. The memo gives no buyer-level comparison that quantifies the delay or the cost of waiting for a comparable deployment. (Market & Traction, The Idea)
 
-The memo documents a November product launch and relevant founder experience in software engineering, supply chains, and commercial contracting. Liquid Energy reports 20 units on hand, manufacturing capacity of 2 MW per month, and agreements with unnamed inference platforms. The agreement terms are undisclosed, and paid demand and live operation remain unverified. *(Market & Traction, Founders & Team, Key Facts)*
+NanoDC combines GPUs, fold-out solar panels, batteries, air cooling, and Starlink in a factory-built unit designed to operate off-grid. Liquid Energy claims a four-week deployment timeline. The initial workload I would underwrite is queueable inference that can tolerate variable throughput and occasional interruptions. If a buyer is waiting for grid-backed capacity, earlier delivery of usable tokens could justify deploying a NanoDC. Battery autonomy, sustained throughput, and time to usable production capacity remain unverified. The industry-enabled path scores zero because the memo identifies no previously uneconomic buyer or use made viable by AI-driven reductions in delivery cost. (The Idea, Key Risks)
 
-Each deployed NanoDC is the unit of expansion. Under the company’s commodity-pricing scenario, a unit generates about $1,500 in annual compute revenue. At that modeled revenue, annual operating costs plus annualized installed capital costs must stay below $1,500 for the unit to contribute positively. Field utilization, realized pricing, and installed and operating costs remain unknown, so the factory output target alone offers little evidence of profitable scale. *(Market & Traction, Key Facts, Key Risks)*
+Liquid Energy’s ownership of the units and its company-reported patent-pending cooling design give it some control over delivery, with pricing power and manufacturing advantages still unproven. The reported agreements with unnamed inference platforms are a limited demand signal because their terms and any paid capacity commitments are unknown. The documented earlier modular solar compute work, the launch, and the reported 20 units on hand support early execution credit. The memo records no confirmed go-live. (The Idea, Defensibility, Market & Traction)
+
+The company models about $1,500 in annual compute revenue per unit at commodity token pricing. Under that scenario, annualized hardware and deployment costs plus site, connectivity, and maintenance costs would have to total less than $1,500 per unit for positive contribution. The memo gives neither realized revenue nor enough cost or utilization data to establish that the next unit clears that threshold. (Key Facts, Key Risks)
 
 ### Countercase
 
-NanoDC could be an interchangeable source of commodity inference. Greenference markets solar-and-battery inference containers, and Armada offers deployable GPU modules. The fold-out array and company-reported patent-pending cooling differentiate the design, but their effect on buyer choice and margins is untested. Battery autonomy and satellite connectivity could also limit billable throughput enough to erase the deployment advantage. The competing offers make substitution credible, while equivalence on lead time, service levels, and price remains untested. The scarcity path stays open under Watch. *(The Idea, Defensibility, Market & Traction, Key Risks)*
+The fold-out array may make a unit quick to install while limited battery autonomy or satellite interruptions reduce the number of tokens it can sell. Buyers can also pursue site-scale solar inference from Greenference, modular GPU capacity from Armada, or managed inference from Crusoe. The memo leaves their relative lead times and delivered economics open. That uncertainty keeps the plausible off-grid mechanism at Watch pending a buyer deployment. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 26/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 5/15 |
+| Team and execution | 5/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 44/150** (Pass)
 
 ### Decisive diligence question
 
-Can a first paid NanoDC deployment for an independent inference buyer go live materially sooner than that buyer’s best available alternative, meet the contracted service level through overnight operation, and earn positive contribution after operating and annualized installed capital costs? A buyer-confirmed comparison backed by deployment dates, throughput logs, invoices, and unit costs would move the action to Reach out if it clears all three tests. Confirmed ready substitution on comparable timing, service, and price would move it to Pass. An inconclusive deployment would leave it at Watch. *(The Idea, Market & Traction, Key Risks, Key Facts)*
+Can a first paying inference customer get usable capacity from a NanoDC sooner than from its best available alternative? A buyer-confirmed comparison of time to production, backed by sustained throughput and availability logs showing the NanoDC met the buyer’s requirements through day and night, would move the action to Reach out. (The Idea, Market & Traction, Key Risks)

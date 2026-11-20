@@ -5,15 +5,17 @@
 
 ### Company case
 
-Assuming strong product-market fit, the strongest path starts with support operations teams that need to capture escalation procedures and keep them current. The documented Mac and Windows app captures work in administrator-approved applications without capture-specific API integrations and turns it into source-linked playbooks. The same product could serve support teams across markets with similar desktop workflows, subject to local employee-data requirements and buyer approval. A customer testimonial published by GodHands reports that a logistics software team documented its escalation process within two weeks. (The Idea; Market & Traction; Key Risks)
+Assuming strong product-market fit with operations and support teams, GodHands has a plausible path to serving the same workflow in multiple markets. Teams repeatedly need to document handovers and exceptions. The documented Mac and Windows app captures workflows from administrator-approved apps without requiring capture integrations. That makes the core product plausibly portable. Employee-data approvals and deployment requirements could still limit which buyers can adopt it. (*The Idea*, *Key Risks*)
 
-GodHands documents monthly subscriptions and retains customer-specific playbooks after raw recordings expire. As exceptions accumulate, teams could come to rely on those playbooks for onboarding and daily work. Wider deployment could increase spend if buyers pay for higher user or usage limits, but the terms leave that expansion mechanism unclear. The October 15 launch and testimonials give a two-person team early evidence of use for the current product. Payment status and commercial growth remain unknown, so initial traction takes the absent-evidence default. (The Idea; Defensibility; Market & Traction)
+The documented buying path runs through introductions or demos and individually quoted orders. The capture app gives buyers a reusable setup step, while independent purchase and activation remain unverified. Monthly subscriptions and retained, source-linked playbooks give teams a reason to renew as their workflow knowledge accumulates. Higher spend is plausible if customers add teams and pay for higher user or usage limits. The memo establishes plan limits, while upgrade economics and actual expansion remain unknown. (*The Idea*, *Defensibility*, *Key Facts*)
 
-Incremental contribution would be the monthly fee less the attributable cost of selling, onboarding, processing and storing captured data, and supporting the account. Capture without API integrations could reduce setup labor. The memo gives neither fee amounts nor representative workloads or staff time, leaving incremental contribution unquantified. (The Idea; Key Risks)
+The two-person team launched the current product on October 15. Company-published testimonials report that a support team documented its escalation process within two weeks and a replacement controller closed the books on time in month two. Those accounts suggest early workflow value. Payment status, realized revenue, and paying-customer growth are unknown, so initial traction uses the absent-evidence default. (*Market & Traction*)
+
+For the next account, incremental contribution would be its monthly fee less attributable sales, setup, support, processing, and storage costs. Integration-free capture can reduce setup labor, and raw-recording expiry can limit storage growth. Quoted fees, setup effort, and representative operating costs remain unknown, leaving contribution uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-GodHands acquires buyers through demos and introductions and quotes fees individually. Employee monitoring adds an approval step, and buyers may require on-premises deployment. If ordinary support teams need extensive founder help to get approval, configure capture, and reach first value, each new account could add substantial sales and delivery work. Agent actions also require user approval, which could limit the gains from expanding into execution. The structural downside gate stays clear because the memo leaves open a standardized rollout through the desktop app and administrator controls. Whether ordinary buyers can complete that rollout with little help is the decisive uncertainty. (The Idea; Key Risks)
+The strongest countercase is that employee monitoring makes security review and deployment labor-intensive even after buyers see clear value. The demo-led motion, administrator approval, and on-premises option support that possibility. Required user approval for agent actions could also limit how far usage expands. The structural downside gate stays open because the memo establishes configurable controls and a reusable capture workflow, while the extent of required custom work remains unresolved. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -23,10 +25,10 @@ GodHands acquires buyers through demos and introductions and quotes fees individ
 | Repeatable acquisition and onboarding | 7/25 |
 | Retention economics | 13/20 |
 | Initial traction | 7/20 |
-| Cost economics | 4/10 |
+| Cost economics | 5/10 |
 
-**Total Score: 48/100** (Neutral)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of support operations teams convert to paid production and publish its first escalation playbooks through the same administrator-led rollout with minimal founder help? A dated cohort showing paid conversions, time to first playbook, and attributable rollout and service costs would answer it. Fast paid uptake with repeatable setup and healthy contribution could move the action to Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that unavoidable account-by-account work makes growth uneconomic would move it to Pass.
+Can a cohort of comparable operations teams in more than one market buy, publish a usable playbook, and expand paid usage through the same low-touch rollout? Paid invoices through renewal, setup records, and attributable delivery costs would answer it. A repeatable rollout with higher recurring bills and positive incremental contribution would support Reach out if the updated score reaches 65 and confidence reaches Medium.

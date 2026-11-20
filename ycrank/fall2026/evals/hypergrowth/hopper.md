@@ -5,30 +5,28 @@
 
 ### Company case
 
-Hopper’s strongest Hypergrowth path is standard, metered inference for developers running production voice agents. Conditional on strong product-market fit, the same APIs and Pipecat integration can serve the recurring job of transcribing calls, generating responses, and synthesizing speech across markets. That supports broad portability for the core product. Language coverage and regional serving constraints remain uncertain. (The Idea, Key Facts)
+Assuming strong product-market fit with voice-agent developers, Hopper can serve the same recurring transcription, generation, and speech synthesis workloads across markets through its standard voice API and Pipecat integration. The memo documents customer-specific accent tuning, so some deployments may need additional work. The strongest portable path is standard inference. Launch YC provides a discovery channel, Pipecat provides a reusable setup path, and prepaid credits provide a way to pay. Whether a typical voice buyer can go from signup to paid production without founder help remains unverified. (The Idea, Key Facts, Market & Traction)
 
-The public launch and Pipecat integration give developers a concrete discovery and setup path, and prepaid credits provide a way to pay. The CTO reports initial user spend under $1. The memo leaves open whether typical developers can reach production without founder help. Once an account is live, additional calls can increase recurring spend through metered usage. That expansion mechanism follows from the pricing and workflow, while same-account expansion and churn remain unmeasured. (The Idea, Market & Traction, Key Facts)
+Prepaid usage gives retained customers a concrete way to spend more as call volume grows. Customer-specific evaluations and tuned models could also make switching more costly. These mechanisms make expansion that offsets churn plausible. The memo provides no renewal or same-account spend history. Hopper’s two-person team reported reaching more than 10 billion tokens per day platform-wide within four weeks, including a signed customer that moved traffic into production. The CTO reported initial user spend below $1. The milestone shows rapid technical uptake, while the paid share, voice share, and production customer’s billings remain unknown. (Hopper, The Idea, Defensibility, Market & Traction, Key Facts)
 
-Hopper reports more than 10 billion platform-wide tokens per day within four weeks and one signed customer that moved traffic into production. For a two-person team, that is a fast deployment signal. The voice API’s share of billed usage and its revenue trajectory remain unclear, so the platform-wide figure supports limited commercial traction credit. (Market & Traction, Key Facts)
-
-For a representative voice workload, incremental contribution would start with billed usage at the applicable rates, such as $0.30 per million Gemma input tokens and $0.30 per generated hour of Qwen speech, then deduct serving compute, reserve capacity, and attributable onboarding and support. Hopper’s custom kernels and cache-aware routing give it concrete ways to lower serving costs. Positive contribution under realistic burst loads remains an assumption. (The Idea, Defensibility, Key Risks)
+At list prices, an illustrative workload with one million Gemma input tokens and one generated hour of Qwen speech would yield $0.60 for those two units. Contribution depends on the accelerator time and spare capacity needed to meet latency targets, plus any attributable onboarding, tuning, and support. Custom kernels and cache-aware routing offer concrete ways to reduce serving costs. Their effect on contribution during production bursts remains uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Standard serving may be easy to adopt but hard to differentiate from self-hosted and bundled alternatives. Customer-specific tuning offers a stronger reason to stay, while depending on written consent, customer evaluations, and live testing. The CTO also reports that p95 latency on one deployment rose from about 11 to 42 seconds under load, with spare GPUs and customer-side overflow absorbing bursts. The structural downside gate stays open. The memo establishes a real capacity sensitivity and leaves unresolved whether tuning or costly reserve capacity is unavoidable for ordinary buyers. (The Idea, Defensibility, Key Risks)
+The strongest downside is that Hopper may need to reserve more accelerator capacity as paid traffic grows, leaving too little contribution at its listed rates. The CTO reported that p95 latency rose from about 11 to 42 seconds under higher load on one deployment, which used spare GPUs and customer-side overflow routing to absorb bursts. The structural downside gate stays open because this result establishes a real capacity risk on one deployment, with the required headroom after optimization still unknown. (Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 19/25 |
-| Repeatable acquisition and onboarding | 16/25 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 14/25 |
 | Retention economics | 16/20 |
-| Initial traction | 8/20 |
+| Initial traction | 9/20 |
 | Cost economics | 5/10 |
 
 **Total Score: 64/100** (Neutral)
 
 ### Decisive diligence question
 
-Can several ordinary voice-agent customers independently reach sustained, billable production through the standard integration at positive incremental contribution under representative burst loads? Onboarding records, invoices, and deployment costs that include idle reserve capacity would answer it. Repeated success would support moving to Reach out. Evidence that required custom work or reserve capacity makes incremental growth uneconomic without a credible improvement would move the action to Pass.
+Can the standard voice API meet a paying customer’s latency target at positive incremental contribution as call volume grows through representative peaks? Matched billing, latency, accelerator utilization, reserved capacity, and attributable labor records from a paid production deployment would answer it. Positive contribution while meeting the target would move the action to Reach out. If meeting the target requires persistent excess capacity that makes incremental traffic unprofitable after the documented optimizations, the action would move to Pass.

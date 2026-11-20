@@ -1,32 +1,33 @@
 ﻿# Hue -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Hue’s strongest path is **scarce complements**. The candidate bottleneck is access to realistic, repeatable app state for reproducing production agent failures. Hue documents reconstructing a selected checkpoint from retained tool observations and giving each run an isolated copy. If the checkpoint preserves the state that caused a failure, teams could rerun that failure across agent versions without rebuilding the fixture by hand. The memo reports growth in observed MCP tool calls, a directional signal for testing demand. It contains no comparative results showing how often Hue reproduces failures that mocks, empty sandboxes, or competing simulators miss. The memo also leaves the New Economies gates open, with no measured labor savings per successful replay, previously excluded use, or buyer preference under model parity. (The Idea, Market & Traction, Key Risks)
+Hue targets regression testing for agents that send email or update CRMs. Hue says mocked APIs and empty sandboxes omit the app state behind production failures. Its documented approach reconstructs that state from recorded requests and gives each run an isolated copy of a selected checkpoint. The memo reports rising agent tool calls, which could increase the volume of stateful tests. It provides no evidence that access to realistic test environments delays deployments or that teams cannot add equivalent capacity. Commercial trace replay and open-source state restoration are already available. The building-block path scores zero. (The Idea, Market & Traction, Defensibility)
 
-Hue’s checkpoint workflow could make accumulated regression cases costly to migrate. That is an inference, with retention and migration behavior untested. The memo reports 69K weekly npm downloads and documents paid-plan terms, while paid deployments and repeat buyer use remain unverified. The two founders have relevant agent-building experience, report building test and replay infrastructure in prior roles, and have shipped SDKs. Independent field results on replay fidelity are the next execution gap. (Defensibility, Market & Traction, The Idea, Founders & Team)
+The industry-enabled path also scores zero. Hue’s described cost lever is reconstructing and reusing app state in an existing QA workflow. The memo identifies neither an AI-driven reduction in labor per successfully reproduced failure nor a buyer or testing cadence that becomes economically viable because of it. (The Idea, Key Risks)
 
-The relevant scale unit is a usable regression replay. **Scenario assumption:** Reusing a checkpoint across releases spreads setup and reconstruction costs over more successful runs. Contribution would depend on subscription and usage revenue covering isolated-run compute, replica maintenance, and human work for failed reconstructions or privacy exceptions. The memo gives no pricing, replay success rates, or operating costs to validate that bridge. (The Idea, Key Risks)
+Hue’s checkpoint selection could make a growing library of regression cases sticky. That is an inference, and overlapping tools support a low value-capture score. The reported 69,000 weekly SDK downloads and Hue’s account of teams using mocks and sandboxes support a modest demand score. The memo identifies no paid deployments or repeat buyer use. The published SDK and the founders’ prior agent delivery support execution credit, while replay from incomplete or redacted traces remains a delivery risk. Subscription terms establish a billing model, with no operating evidence to estimate contribution after hosting, replica maintenance, and support. Those gaps limit confidence in the commercial case. (Defensibility, The Idea, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Realistic app state may be broadly available from competing tools. Ancha already offers trace-to-world conversion, and open-source ClawsBench offers stateful Gmail and Slack simulations with snapshot restoration. Hue also discloses that unobserved fields can remain absent and that sparse traces can prevent reconstruction. Together, those facts weaken the scarcity case. The memo leaves open whether the closest alternative can reproduce the same consequential failures under the same data restrictions, so the path stays on Watch. (Defensibility, Key Risks)
+High-fidelity replay could become a release bottleneck for agents whose failures depend on an exact inbox or CRM state. Hue’s reusable checkpoints address that specific workload, and growing tool use could increase the number of cases teams need to reproduce. That case assumes these failures routinely block releases and that available alternatives cannot reproduce them within the buyer’s time and data-handling limits. The memo supplies no buyer comparison or deployment evidence for those assumptions. Both path scores remain zero, triggering Pass. (The Idea, Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent agent teams renew paid use of Hue after testing it against the closest alternative on their own production failures? Move to **Reach out** if teams renew because Hue consistently reproduces consequential failures the alternative misses under the same data restrictions. Move to **Pass** if the alternative matches Hue on those failures and teams switch readily.
+Can Hue repeatedly reproduce release-blocking failures from a paying customer’s permitted production traces within a release window that the customer’s existing workflow and a credible replay alternative both miss? A side-by-side deployment showing that result on representative cases would move the action to Reach out to test how often the same constraint recurs across buyers.

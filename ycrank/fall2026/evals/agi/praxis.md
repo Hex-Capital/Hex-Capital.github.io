@@ -1,32 +1,33 @@
 ﻿# Praxis -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass
+**Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. Praxis could make it economical for small law firms to process low-fee inquiries they currently leave unserved because intake costs too much. That is a scenario assumption. An unnamed corporate-law partner reported spending about 1.5 hours a day on client setup and engagement letters before Praxis. Praxis says its agents apply firm rules, check conflicts, verify documents, and prepare engagement letters for lawyer approval. Together, those reports establish a manual labor baseline and a plausible way to reduce it. The memo gives neither the number of successful intakes behind that baseline nor the time and cost after deployment. It does not establish that firms previously turned away the proposed inquiries on cost grounds. (*The Idea*, *Market & Traction*)
+Praxis sells lawyer-supervised automation for law-firm operations. Its agents use AI to qualify inquiries, check conflicts, verify documents, and follow up on invoices. These are downstream uses of AI, and the memo identifies no scarce input that Praxis supplies to the AI buildout. The building-blocks path scores zero. (The Idea)
 
-The reported live deployments show early use. Payment, repeat use, and demand from firms newly able to serve these inquiries remain unverified. The founders bring law-firm consulting, AI product rollout, and applied AI engineering experience. A remaining execution test is whether the approval workflow reliably catches conflict and document errors while still saving lawyer time. (*Market & Traction*, *Founders & Team*, *Key Risks*)
+The strongest commercial case is faster intake for small and midsize firms that rely on assistants to copy records and chase documents. An unnamed partner reported spending about 1.5 hours per day on client setup and engagement letters before using Praxis. Praxis separately reports that one firm attributed at least $350K in annual lost business to slow intake. The testimonial establishes a labor baseline, and the company claim suggests a cost of delay. The memo leaves open which buyers or matters were previously uneconomic to serve and whether automation reduces the cost per correctly completed intake enough to serve them. The industry-enabled path scores zero, which sets the action to Pass. (The Idea, Market & Traction)
 
-The expansion unit is one firm. Compare the former staff and lawyer cost per correctly completed intake with the subscription cost plus remaining review and rework per successful intake, holding quality constant. For Praxis, contribution per firm would depend on whether the subscription covers inference, firm-specific setup and integration, and ongoing support. The memo leaves those economics unmeasured. (*The Idea*, *Key Facts*, *Key Risks*)
+Firm-specific approval rules and integrations could create switching costs, though customers own their workflows and incumbent products already offer overlapping intake features. Reported live deployments and the partner testimonial support early demand, while paid conversion and repeat use remain unknown. The founders’ AI product and engineering experience supports execution credit, with reliable conflict checks and document verification still to establish. Pricing, onboarding, support, and review costs are unquantified, so scale economics stays at the default. Evidence confidence is medium because the memo describes a concrete workflow and early use, with limited evidence on commercial outcomes. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Praxis may streamline intake that firms already perform while incumbent suites capture most of the value. Clio and Filevine already offer intake automation where firms keep their case records. Praxis’s cross-tool, lawyer-approved workflow could earn a preference under model parity, but firms own their playbooks and the memo supplies no evidence of retention against functionally comparable alternatives or of network effects. Incumbent overlap puts both market opening and durable value capture in doubt. The memo does not establish full workflow parity, ready switching, or an independently supported scarce-complement path. The New Economies path remains open to a specific test, supporting Watch. (*The Idea*, *Defensibility*, *Key Risks*)
+If slow intake reflects a binding staffing limit, Praxis could let a small firm accept a class of matters it previously left unserved. Firm-specific approvals, system updates, and client follow-up could remain valuable even when firms have access to comparable models. The reported lost business and the workflow design make that scenario plausible. The evidence still leaves the newly viable use and the cost threshold unestablished, so it does not clear the outreach gate. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 7/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 22/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent small firms repeatedly pay a price that covers Praxis’s deployment and service costs to process inquiries they previously declined on intake-cost grounds, even when a functionally comparable alternative is available? A paid cohort would move the action to Reach out if it showed lower all-in cost per correctly completed intake than the prior manual workflow, comparable review quality, and repeat paid use after firms evaluated the alternative. If the cohort showed only savings on already-served inquiries or ready switching at parity, move to Pass.
+Can a paying small firm use Praxis to repeatedly onboard a defined class of matters it previously declined because intake was too costly? A before-and-after comparison showing that the firm now accepts those matters at a viable cost per correctly completed intake, including software, lawyer review, and rework, would change the action to Reach out.

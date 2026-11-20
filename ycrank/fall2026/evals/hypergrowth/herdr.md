@@ -1,32 +1,34 @@
 ﻿# herdr -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Herdr’s strongest path is to convert developers who already use its free tools to supervise coding agents across their own machines into paying customers for Herdr Cloud. The current product solves a recurring job through persistent terminals, agent-status notifications, and standard SSH connections. That workflow can travel across markets with little geographic adaptation. GitHub, command-line installers, app stores, and a gallery of shared layouts and mods give developers ways to discover and start using Herdr independently. The DigitalOcean one-click image adds another route to first use. The payment step remains open. Herdr announced Cloud as a waitlist with undisclosed pricing. (The Idea, Market & Traction)
+Assuming strong fit with developers who supervise several long-running coding agents, Herdr can serve the same recurring job across markets. Its desktop and mobile clients use SSH to connect to user-controlled hosts, where a background server keeps sessions alive across client disconnects. That architecture supports broad portability with little geographic adaptation. (*The Idea*)
 
-Persistent sessions give developers a reason to return after disconnecting. A recurring Cloud fee and higher spend as users connect more hosts are scenario assumptions. Under that scenario, incremental contribution would be the fee less connectivity infrastructure and attributable onboarding and support. Users’ own machines already bear the agent compute, which gives Herdr a plausible cost advantage. Cloud pricing and operating inputs remain unknown, leaving contribution and paid retention uncertain. (The Idea, Key Facts)
+GitHub, command-line installers, and app stores give developers a route from discovery to independent setup, and the public gallery gives users a way to share layouts and mods. DigitalOcean’s one-click image adds a reusable deployment path. The product suite is free, and Herdr Cloud is at the waitlist stage with pricing undisclosed. The route to first use is concrete, while paid conversion remains untested. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-The memo records 3.1K stars for the separate desktop repository by November, following its late October announcement. Herdr also reported about 2.16M cumulative installs for the original TUI. Those signals support meaningful free adoption, with the larger figure belonging to a separate runtime. The documented products are free and Cloud is at the waitlist stage, so the traction score reflects pre-revenue adoption. Confidence is Low because the decisive commercial assumptions remain untested. (Market & Traction, Key Facts)
+Persistent sessions and custom layouts give developers a reason to return. Commercial retention remains uncertain because the memo establishes neither recurring billing nor a way for retained accounts to spend more. If Herdr charges for managed connectivity, incremental revenue per account would need to cover any relay infrastructure, bandwidth, and support it adds. User-controlled hosts already carry agent execution. Pricing and operating costs for the proposed service remain unknown. (*The Idea*, *Defensibility*, *Key Facts*)
+
+The one-person team showed meaningful early adoption. The separately launched desktop repository reached 3.1K stars by November after its October 29 announcement, and Google Play listed more than 1,000 mobile downloads. Herdr’s reported 2.16 million cumulative installs apply to the original TUI. These signals support developer interest. The memo documents free distribution and a waitlist as the current commercial position. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-The free clients already cover much of the daily supervision job, and developers who use one agent provider can get overlapping functionality from that provider’s own app. Herdr also has to persuade original TUI users to adopt a separate runtime because their existing sessions are unavailable in the desktop and mobile apps. Those constraints could leave too few users willing to pay for cross-machine connectivity. The structural downside gate clears because the current product travels through SSH and user-controlled hosts, and the memo establishes no unavoidable per-buyer work or capacity commitment that would make growth economically infeasible. (The Idea, Key Risks)
+Free SSH access may already solve enough of the problem that developers see little reason to pay for managed connectivity. Single-provider users can also get overlapping supervision from their agent provider’s app. Original TUI sessions cannot carry over to desktop or mobile, and a host reboot still stops agent processes. Those limitations weaken the case for converting the original audience into durable paid accounts. The structural gate stays open because the documented distribution and deployment paths leave a credible route to low-touch growth. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 24/25 |
-| Repeatable acquisition and onboarding | 18/25 |
+| Global buyer demand | 23/25 |
+| Repeatable acquisition and onboarding | 17/25 |
 | Retention economics | 10/20 |
 | Initial traction | 6/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 62/100** (Neutral)
+**Total Score: 60/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of existing multi-host users activate and pay for Herdr Cloud independently, then renew at a price that covers incremental connectivity, onboarding, and support? A cohort showing repeatable paid activation, renewals, and positive contribution would move the action to Reach out.
+Can Herdr convert a meaningful cohort of multi-host desktop and mobile users into self-serve Cloud subscribers who renew at positive incremental contribution? A paid cohort that activates without founder help, renews at the offered price, and covers attributable infrastructure and support costs would move the action to Reach out. Weak conversion or early churn would keep it on Watch.

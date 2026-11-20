@@ -5,36 +5,34 @@
 
 ### Company case
 
-The strongest route is a strategic acquisition by an inference platform that could bundle persistent agent sandboxes with model serving. Baseten’s combination with Blaxel establishes a rationale for pairing those products. Superserve’s potential contribution is full-state pause, resume, and fork. An external benchmark measured a 0.56-second median snapshot start, and Phaser’s testimonial says it launched its agent in under a month without building new infrastructure. Together, these support a plausible integration benefit. The value of owning the runtime remains unquantified. (*The Idea*, *Market & Traction*)
+The strongest route is a strategic sale to an inference platform that wants to bundle model serving with persistent execution for long-running agents. Blaxel joining Baseten shows that this combination has motivated a transaction. Superserve brings full-state snapshots and forks, and an external benchmark measured a median snapshot start of 0.56 seconds versus 0.75 for E2B and 0.98 for Modal. A buyer could use that capability to improve its platform and avoid building the storage layer itself. The memo gives no evidence of buyer interest, quantified buyer savings, or a price for the adjacent deal. (The Idea, Defensibility, Market & Traction)
 
-Superserve reports more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks. That usage gives it a base for a proposed 12-month milestone of demonstrating repeat paid production workloads and positive gross margins after compute and retained-storage costs. Realized revenue, runway, and the capital needed to reach that milestone are unknown. (*Market & Traction*, *Key Facts*)
+The seed-stage milestone is repeat paid production use with measured savings on long-running workloads and enough gross margin to support those workloads at scale. Superserve reports more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks, which suggests it has workloads on which to run that test. Paid conversion, realized revenue, infrastructure costs, and runway remain unknown, so the time and capital needed to reach the milestone are uncertain. (Market & Traction, Key Facts)
 
-The proceeds scenarios assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity. Both sale scenarios assume an all-cash close within eight years, an eligible holder selling 100% of its stake, and a pro rata waterfall without senior claims reducing its share. Actual holder rights and waterfall terms are unverified.
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years, equivalent to about $83.3 million of distributable equity in a full pro rata sale. Assume for illustration that each sale closes within eight years, $10 million in net debt and deal costs comes out of enterprise value, the waterfall distributes the remainder pro rata with no senior preference deductions, and the holder is eligible to sell its entire stake for cash.
 
-| Scenario | Enterprise value to distributable equity | Gross holder cash |
-|---|---|---|
-| Modest sale | $40M less $5M in net debt and deal adjustments = $35M | $1.05M (2.1×) |
-| Strong sale | $100M less $10M in net debt and deal adjustments = $90M | $2.70M (5.4×) |
-| Prolonged private | Cash is reinvested throughout the eight-year horizon, with no distribution or eligible share sale | $0 (0×) |
+- **Modest sale.** $40 million of enterprise value leaves $30 million of distributable equity and pays the holder $900,000, or 1.8×.
+- **Strong sale.** $100 million of enterprise value leaves $90 million of distributable equity and pays the holder $2.7 million, or 5.4×. If the holder can sell only 80% of its stake at the same per-share price, cash received falls to $2.16 million.
+- **Prolonged private operation.** Reinvested cash produces zero realized proceeds. The memo provides no evidence of an eligible secondary or funded payout.
 
-The sale prices and deductions are illustrative. The memo supplies neither a priced adjacent transaction nor evidence of Superserve’s buyer economics. Even the strong case falls short at 2.5% diluted ownership, yielding $2.25 million. The memo is silent on closing and participation terms and provides no independent liquidity route. (*Market & Traction*, *Key Facts*)
+The sale values are sensitivity inputs. The memo supplies no basis for estimating an achievable sale price and leaves transfer rights, consents, and the actual waterfall open. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An inference platform can access sandboxes through partnerships. Anthropic lists multiple interchangeable providers, AWS already offers suspendable Firecracker microVMs, and Modal beat Superserve on the external benchmark’s end-to-end startup measure. A buyer could therefore capture much of the product benefit without paying an acquisition premium. This weakens the strategic case, but the memo establishes neither a structural closing block nor a supported price ceiling that would trigger Pass. (*Defensibility*, *Key Risks*)
+A buyer may already have a workable substitute. AWS offers suspendable Firecracker microVMs, Anthropic documents several interchangeable sandbox providers, and Modal was faster on the separate create-to-first-command benchmark. A platform could integrate a provider and capture much of the benefit without buying Superserve. That weakens the case for a price that clears the holder’s hurdle. The Pass gate remains untriggered because the evidence establishes neither a structural closing barrier nor an upper bound on achievable proceeds. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Would owning Superserve generate enough incremental gross profit or infrastructure savings for a prospective inference-platform buyer to support a price that clears the holder’s cash objective? A buyer-validated production comparison that supports roughly $93 million in enterprise value under the modeled $10 million in deductions and 3% ownership would move the action to Reach out. A supported price ceiling that leaves the holder materially short would move it to Pass.
+Can a prospective inference-platform buyer’s build-versus-buy analysis, grounded in paid production workloads, justify a purchase price that would deliver $2.5 million in cash to the benchmark holder within eight years? Measured savings or incremental gross profit that support a price range clearing the hurdle after plausible deal deductions would move the action to Reach out. A supported price ceiling below the hurdle on the strongest credible route would move it to Pass.

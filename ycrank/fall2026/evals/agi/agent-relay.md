@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is the strongest path. Agent Relay automates cross-tool handoffs that currently take engineer time to relay between coding-agent sessions and Slack. The investment scenario is that teams previously deterred by that overhead could run parallel agents across tools if the cost per successful handoff fell enough. Pomerado reported coordinating 80+ agents, exchanging more than 38,000 messages, and improving its product at 2–4× its previous speed. That customer account supports feasibility at meaningful volume. It leaves engineer minutes per successful handoff, exception rates, and adoption by previously excluded teams unmeasured. (The Idea, Market & Traction)
+Agent Relay’s strongest AGI path is making high-frequency handoffs feasible across teammates’ coding agents. The prior workflow relied on engineers copying questions and decisions between sessions and Slack. Agent Relay routes those messages across tools and machines and keeps shared history. Pomerado reported running 80+ coordinating agents, exchanging 38,000+ messages, and improving its product at 2–4× its previous speed. That testimonial supports the inference that frequent cross-tool handoffs may be practical at a cadence manual relaying could not sustain. It leaves the prior workflow’s capacity, the savings attributable to Relay, and the cost per successful handoff unmeasured. (The Idea, Market & Traction)
 
-A founder reported that a second prospect exchanged 7,000+ messages in one week across 89 agents and expressed willingness to pay. Payment and renewal remain unverified. Searchable cross-tool history gives buyers a plausible reason to stay if their workflows come to rely on it. That switching-cost inference remains untested, and the memo provides no evidence of buyer preference at functional parity or of network effects. (Market & Traction, Defensibility)
+The building-blocks path scores zero. The memo documents coordination friction as teams run more agents, but establishes neither a scarce input that limits AI deployment nor a supply constraint that Relay can relieve. (The Idea, Market & Traction, Key Risks)
 
-The two founders shipped the cross-provider SDK and team messaging and demonstrated cross-organization authorization with Ratify Protocol. Their engineering and integrations backgrounds support further field testing. A team workspace is a plausible unit of expansion. Paid desktop and enterprise offerings provide a route to revenue, while hosted contribution depends on realized prices, session-search processing costs, and support per workspace. Self-hosting can shift infrastructure costs to buyers. The memo leaves repeat deployment costs and contribution unmeasured. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Searchable cross-tool history could make switching harder if teams rely on it, though retention is untested. A separate prospect reportedly ran 89 agents for a week and expressed willingness to pay, with paid conversion unconfirmed. The shipped SDK and team messaging, along with a cross-organization authorization demo, support seed-stage execution credit. The paid tiers establish a pricing model, while revenue and delivery cost per additional workspace remain unknown. (Defensibility, Market & Traction, The Idea)
 
 ### Countercase
 
-Agent Relay may make an existing engineering workflow more efficient without opening a new market. Claude Code already provides direct messaging within its own agent teams, and the open A2A standard could make cross-provider messaging easier for platforms to offer. The Apache-2.0 core is available to potential substitutes, and the memo identifies no structural barrier. Native messaging establishes substitution risk within one tool. Cross-tool parity and buyer switching remain unproven, so the New Economies path stays on Watch. The memo provides no independently supported scarce complement. (The Idea, Defensibility, Key Facts, Key Risks)
+Relay may save engineers time on an existing workflow without opening a new operating cadence. Claude Code already handles messaging within its own agent teams, and the open A2A standard could make cross-provider substitutes easier to build. If native or standards-based tools can deliver the same handoffs at comparable cost, the distinct-product requirement fails. With the building-blocks path also unsupported, that would trigger Pass. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 10/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 33/150** (Pass)
 
 ### Decisive diligence question
 
-Will teams that previously avoided cross-tool agent workflows because of manual coordination costs renew Agent Relay at a viable price when a functionally comparable alternative is available? Move to Reach out if a paid cohort shows that lower engineer time and rework per successful handoff made those workflows viable, and buyers renew at a price that covers incremental processing and support despite the comparable option. Move to Pass if comparable alternatives are available and those buyers readily switch.
+Can a paying team sustain a cross-tool handoff cadence it could not afford under its best existing workflow? A side-by-side trial using the same coding agents should measure accepted handoffs and cost per accepted handoff, including Relay fees, engineer supervision, and rework. Sustained use at the newly affordable cadence would move the action to Reach out. Equivalent results at comparable cost from the existing workflow would move it to Pass.

@@ -1,32 +1,34 @@
 ﻿# Light Anchor -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Light Anchor’s strongest Hypergrowth path is managed growth for brands on Amazon and Shopify through client-owned accounts. Assuming strong product-market fit, it could reuse review research, AI-generated creative, and live campaign feedback across brands. Anuko’s US rollout shows that the service can serve a foreign brand entering the US. The storefront workflows could transfer to other markets. The amount of local creative and campaign work each new market would require remains uncertain. (*The Idea, Defensibility*)
+Assuming strong product-market fit with brands entering the US, Light Anchor’s strongest path is managed growth on client-owned Amazon and Shopify accounts. The Anuko case documents a Korean brand using the service for US growth. Review research, creative testing, and campaign measurement on shared platforms are reusable, and the same recurring job plausibly exists in other destination markets. The work needed to adapt creative and storefront operations for those markets remains uncertain. Demo booking and connected-account setup give Light Anchor a repeatable starting point, while the documented path to first value relies on Light Anchor running campaigns. (The Idea; Market & Traction; Key Risks)
 
-Light Anchor quotes a fee of 5–15% of tag-attributed sales. At a stable fee rate, rising attributed sales from the same brand would increase recurring revenue. Whether that expansion could offset churn, weaker campaigns, and attribution disputes is uncertain. For every $100 in attributed sales, assuming the quoted fee is collected, Light Anchor would earn $5–$15 before attributable sales, setup, campaign oversight, and AI operating costs. Clients pay for ads directly. Reusing campaign workflows could improve contribution, but the memo gives no measurements of operator time or AI costs. (*The Idea, Key Risks*)
+Light Anchor quotes a fee of 5–15% of tag-attributed sales, with no setup fee or retainer. As an existing client’s attributed sales grow, Light Anchor can earn more from that account through the same recurring campaign work. That gives expansion a plausible way to offset churn. Volatile sales and attribution disputes could weaken that effect, and the memo provides no same-account billing history. (The Idea; Key Risks)
 
-Anuko’s testimonial reports that daily Amazon sales reached 54× its June baseline in the week ending October 6. The memo lists seven case-study brands and a two-person team. That establishes deployment activity and a reported customer outcome. Light Anchor’s fee collections and paying-account growth for the managed service remain unverified, and the earlier MRR report has unspecified scope. Initial traction receives the default. (*Market & Traction, Founders & Team, Key Facts*)
+The memo lists seven agency case studies and a two-person team. Anuko reported daily Amazon sales reaching 54× its June baseline in the week ending October 6. That is a customer outcome. The memo gives no realized agency fees or comparable paying-client counts, and the founder’s earlier MRR report has unspecified scope. Initial traction therefore takes the absent-evidence default. (Market & Traction; Key Facts; Light Anchor)
+
+At the quoted rates, each $100 in tag-attributed sales would yield $5–$15 in fees before Light Anchor’s attributable selling, onboarding, campaign operations, compute, and support costs. The client pays ad spend directly. Reusing agent workflows could lower delivery effort per account, but the memo gives no measured labor or compute inputs to establish contribution. (The Idea; Defensibility)
 
 ### Countercase
 
-The managed service could scale like an agency. The documented sales path uses booked demos, delivery requires access to client accounts, and Anuko engaged Light Anchor to handle unstaffed US growth work. If Light Anchor must supply substantial operator time for each client and redo creative and campaign workflows for each market, its sales-based fee may leave little contribution as it expands. The structural gate remains open because the memo establishes hands-on delivery but leaves the minimum labor and market-specific work unresolved. (*The Idea, Key Risks*)
+The strongest countercase is that growth requires Light Anchor to add hands-on creative, account setup, and campaign oversight for each brand and destination market, with a variable fee that may fall short of covering that work. The demo-led motion and the work performed for Anuko support this concern. The owned-brand path adds fulfillment exposure, illustrated by the co-founder’s account of founders and family packing orders. The structural gate stays open because the memo establishes neither substantial market-by-market rebuilding nor unavoidable service costs that make the managed path economically infeasible. (The Idea; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 15/20 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paying cohort in a second destination market reach its first live campaign through a repeatable channel and standard setup with little staff help, then generate repeat fees at positive contribution? Cohort records showing how buyers came in, time to launch, staff hours, AI costs, and collected fees across multiple billing periods would answer it. Move to Reach out if those records establish bounded localization and scalable delivery, raise the score to at least 65, and support at least Medium confidence.
+Can several ordinary brands reach paid production through the same onboarding and campaign workflow in the US and a second destination market, with limited localization and positive contribution? A cohort showing elapsed time to first live campaign, fees collected, and attributable labor and compute costs would answer it. Repeatable results would justify rescoring and moving to Reach out if the investment threshold clears. Evidence that each market requires substantial rebuilding or that unavoidable service work makes faster growth uneconomic would trigger Pass.

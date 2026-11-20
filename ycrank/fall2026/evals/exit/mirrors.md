@@ -5,34 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an AI observability or governance platform. Mirrors could give that buyer a way to turn production traces into targeted corrections during live agent runs, preview where a rule would apply, and measure its effect. The memo records Mirrors’ Python SDK release and Palo Alto Networks’ acquisition of AI gateway provider Portkey. The acquisition establishes interest in an adjacent capability. A buyer’s willingness to pay for Mirrors would depend on the value of its runtime guidance and measurement together. (The Idea, Market & Traction)
+Strategic acquisition by an AI gateway or agent tooling platform is the strongest route. Mirrors could add live, account-scoped guidance and outcome measurement to a platform that already serves teams running production agents. Palo Alto Networks’ acquisition of gateway provider Portkey shows adjacent buyer activity. A buyer’s reason to acquire Mirrors would depend on whether its guidance measurably reduces recurring failures beyond what the buyer can build with existing framework hooks. (*The Idea*, *Market & Traction*, *Defensibility*)
 
-Mirrors reports 63,052 agent turns over an unspecified period and cites a design partner whose agent hit 75 errors despite a stop rule in its prompt. The example establishes a failure mode worth testing. The memo gives no measured reduction in errors or realized revenue for runtime guidance. The released SDK and disclosed design-partner use case make a production comparison against native steering plausible at seed. Its funding, cost, and the company’s runway are unknown. (Market & Traction, Key Facts)
+The memo records a Python SDK release. Mirrors reports 63,052 agent turns over an unspecified period and a design-partner example in which an agent made 75 errors despite a stop rule in its prompt. The example shows the problem, while the turn count leaves production adoption and the effect of Mirrors’ guidance unresolved. The SDK and design-partner example make a controlled production comparison plausible at seed. Paid deployments, the testing budget, and the time needed to replicate results remain unverified. The memo leaves acquisition and holder participation terms open and provides no evidence of an independent liquidity route. (*Market & Traction*, *Key Facts*)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale cases below assume the holder is eligible to sell the entire stake for cash within eight years and receives a 3% pro rata share after debt and deal adjustments, with no senior claims diverting proceeds. The memo supplies no acquisition pricing or terms to validate those assumptions. (Market & Traction, Key Facts)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3%, with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative. Both assume a cash close within eight years, $5 million in combined debt and deal deductions, and an eligible holder selling its full stake pro rata with no preference diversion or deferred payout.
 
-| Illustrative case | Proceeds to the holder |
-|---|---|
-| Modest sale | $40 million enterprise value less $5 million in assumed net debt and deal adjustments leaves $35 million of distributable equity. The holder receives $1.05 million, or 2.1×. |
-| Strong sale | $100 million enterprise value less the same assumed $5 million leaves $95 million of distributable equity. The holder receives $2.85 million, or 5.7×. At 2.5% ownership, the same deal yields $2.375 million and misses the hurdle. |
-| Prolonged private | Reinvested operating cash and no eligible share sale or funded payout yield $0 in realized proceeds within eight years. The memo supplies no evidence of an independent route to liquidity. |
+| Scenario | Proceeds bridge | Cash to holder |
+|----------|-----------------|----------------|
+| Modest sale | $40 million enterprise value less $5 million in deductions leaves $35 million for equity | $1.05 million, or 2.1× |
+| Strong sale | $100 million enterprise value less $5 million in deductions leaves $95 million for equity | $2.85 million, or 5.7× |
+| Prolonged private | Continued operation with reinvestment and no eligible share purchase or payout within eight years | $0 |
+
+The strong case clears the hurdle under those assumptions. At 2% ownership, it yields $1.9 million. The memo gives no Portkey deal price, realized Mirrors revenue, or measured buyer savings to support the illustrative sale prices. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Strands steering hooks and LangChain middleware already let teams implement runtime guidance inside their existing frameworks. A potential buyer could build preview and measurement around those controls. Mirrors also says models can disregard delivered rules and that guidance is skipped when the service hits its fail-open threshold. Together, those risks could make any production gains too small to justify buying the company. The memo leaves transfer and closing conditions unverified and establishes neither a structural block nor a price ceiling that would trigger Pass. The unresolved buyer economics support Watch. (Defensibility, Key Risks)
+A platform can implement runtime steering through Strands hooks or LangChain middleware and may decide the work of adding rule preview and outcome measurement costs less than buying Mirrors. Mirrors also reports a 200 ms average response time and a 750 ms fail-open threshold, and a model can disregard delivered guidance. Those limits could erode the incremental value a buyer would pay for. The evidence leaves a testable gap and does not establish a structural block or a ceiling on proceeds that triggers Pass. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective platform buyer show that Mirrors prevents enough costly repeat failures in production, compared with its own steering tools, to justify an acquisition price that clears the holder’s hurdle? A buyer-sponsored comparison showing repeatable savings after latency and fail-open effects, paired with buyer-side economics supporting at least $83.3 million in distributable equity under the benchmark assumptions, would move the action to Reach out.
+Can Mirrors show a repeatable, economically meaningful reduction in recurring failures versus framework-native steering in paid production deployments? Controlled comparisons across customers that account for latency and fail-open runs and quantify the cost of failures avoided would move the action to Reach out to test whether those economics could support an acquisition above the proceeds hurdle.

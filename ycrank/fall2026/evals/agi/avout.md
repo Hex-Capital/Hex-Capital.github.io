@@ -1,30 +1,33 @@
 ﻿# Avout -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-Scarce complements is Avout’s strongest path. AI infrastructure companies need to buy equipment ahead of revenue. Avout says some founders use venture equity for those purchases because banks struggle to underwrite the assets. If Avout can turn borrower operating data into credit approvals that incumbents would decline, access to that financing could become more valuable as AI infrastructure demand grows. Avout reports arranging a $1.5 million term sheet for an unnamed data-center company. That signals lender interest, while funding, borrower acceptance, and access to comparable offers remain unverified. The memo provides no evidence that AI reduces underwriting labor per funded loan enough to open a New Economies path. (The Idea, Market & Traction)
+Avout’s strongest commercial case is arranging equipment and inventory financing for hardware startups that need to spend before customers pay. Avout says some founders use venture equity because banks struggle to underwrite their assets. Avout proposes using borrower operating data to help outside lenders assess those deals. The memo records a company-reported $1.5 million term sheet for an unnamed data-center borrower, with closing and disbursement undisclosed. (The Idea, Market & Traction)
 
-The founders’ prior work in real-asset investing and regulated financial infrastructure supports their ability to build and run the underwriting process. Under the inferred placement-fee model, each funded loan would need to generate enough fee income to cover sourcing, diligence, and work on applications that never fund. Third-party capital could limit Avout’s balance-sheet needs, but fee levels, closing rates, and underwriting costs are undisclosed. (Founders & Team, The Idea, Key Risks)
+Neither AGI path clears the evidence threshold. For building blocks, the memo identifies neither the workload behind the term sheet nor the equipment it would fund. It gives no evidence that a shortage of suitable credit delayed an AI deployment or that other lenders could not fill the gap. For an industry enabled by superintelligence, the memo describes underwriting with borrower data but identifies no AI-driven reduction in the cost of delivering credit that would make lending viable for a previously excluded borrower or use. Both path scores are zero, which sets the action to Pass. (The Idea, Market & Traction)
+
+The term sheet is an early demand signal. Existing equipment and GPU financing options, together with Avout’s dependence on outside lenders, limit the case for durable value capture. The founders’ prior real-asset investing and regulated financial infrastructure work support seed-stage execution credit. Placement fees are an inference, and the memo gives no basis to compare revenue per funded deal with underwriting and placement costs. The unverified closing and undisclosed revenue support low evidence confidence. (Market & Traction, Defensibility, Key Risks, Founders & Team, The Idea, Key Facts)
 
 ### Countercase
 
-Avout may be a broker in an existing equipment-finance market. Trinity already offers equipment and asset-backed financing, and GPU Capital already sizes loans using server appraisals and customer contracts. Avout reports using borrower operating data, but the memo shows neither exclusive data access nor control over lender capacity. These alternatives make substitution credible. Whether they can fund the borrowers Avout claims are underserved remains open, so the scarce-complements path stays on Watch. (Defensibility, Market & Traction, Key Risks)
+If Avout’s underwriting gives lenders enough confidence to finance equipment they would otherwise decline, credit could become the scarce input for a specific AI workload. Avout’s account of founders using equity and its reported data-center term sheet make that scenario plausible. The memo also describes existing GPU-backed financing, so the key unknown is whether comparable credit was unavailable when this borrower needed it. The term sheet alone does not clear the building-blocks gate. (The Idea, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can Avout secure a committed lending allocation based on its underwriting and use it to close a fee-paying loan for an AI infrastructure borrower that comparable lenders declined? A signed allocation and a funded placement with a documented fee would move the action to Reach out. Evidence that existing lenders readily offer equivalent financing to the same borrowers would move it to Pass.
+Did the reported term sheet become a funded loan that let a specific AI workload deploy on schedule after comparable lenders could not offer workable terms in time? A disbursement record and buyer confirmation of the workload, financing alternatives, and deployment timeline would move the action to Watch if they showed that Avout’s underwriting removed the financing bottleneck. The remaining question would be whether that bottleneck recurs across similar deployments. (Market & Traction)

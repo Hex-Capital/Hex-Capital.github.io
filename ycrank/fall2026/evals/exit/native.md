@@ -5,23 +5,19 @@
 
 ### Company case
 
-The strongest path is a strategic sale to an SMB marketing platform. A buyer could use Norn’s performance-based idea ranking and publishing workflow to sell a more automated product to its existing customers. Native describes training Norn on aggregated approval, edit, rejection, and performance signals. The acquisition rationale depends on whether those signals improve customer outcomes enough to make buying the workflow more valuable than building it. Buyer interest and buyer-side economics remain unverified. (The Idea, Defensibility)
+Native’s strongest exit route is a strategic sale to a marketing software vendor. Native describes Norn as using brand approvals, edits and post performance to rank ideas and guide publishing. An acquirer could use that workflow to sell more automation to its existing small-business customers. The published subscription tiers show how Native packages the product. The CEO reports more than $2M ARR, and Native reports more than 2,200 paying customers. Those claims suggest a base for testing buyer value. A controlled pilot that measures incremental conversions against the buyer’s existing workflow is a plausible seed-stage milestone. The memo gives no pilot budget or runway. (*The Idea; Defensibility; Market & Traction; Key Risks*)
 
-The CEO reports more than $2 million in ARR, which provides a starting point for sizing a sale. The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3%, zero follow-on investment, and a $2.5 million gross cash objective within eight years. That requires about $83.3 million in distributable equity value. The sale scenarios below assume the holder is eligible to sell the entire stake for cash at closing within eight years, with a pro rata waterfall and $5 million in combined net debt and deal deductions. The 5× ARR multiple and deductions are illustrative assumptions. (Market & Traction)
+The shared benchmark assumes a $500,000 check at a $10M post-money valuation, 5% ownership diluted to 3%, and no follow-ons. A 5× gross cash return requires $2.5M within eight years, or about $83.3M in distributable equity at a full 3% payout. The sale scenarios below assume $5M in debt and deal costs, no senior claims, and an eligible holder selling the full stake for cash within eight years. The sale prices are illustrative. The reported ARR provides a starting point for assessing scale, while the memo supplies no acquisition pricing evidence.
 
-| Scenario | Proceeds bridge | Holder cash |
-|---|---|---:|
-| Modest sale | $9M ARR × 5 = $45M enterprise value, leaving $40M distributable equity | $1.20M (2.4×) |
-| Strong sale | $20M ARR × 5 = $100M enterprise value, leaving $95M distributable equity | $2.85M (5.7×) |
-| Prolonged private | Continued operation with cash reinvested and zero eligible share sales or distributions within eight years | $0 |
+- **Modest sale.** $40M enterprise value leaves $35M in distributable equity. The holder receives $1.05M, or 2.1×.
+- **Strong sale.** $100M enterprise value leaves $95M in distributable equity. The holder receives $2.85M, or 5.7×. If only 80% of that entitlement is realized in cash within eight years, proceeds fall to $2.28M, or 4.56×.
+- **Prolonged private operation.** Reinvested cash with no eligible share sale or distribution yields zero realized proceeds. The memo supplies no evidence of an independent route to holder liquidity.
 
-Under those assumptions, clearing the hurdle requires about $88.3 million in enterprise value, or $17.7 million in ARR at the illustrative multiple. Native’s memo provides limited support for the current revenue baseline and leaves the future sale price, debt, preferences, and payout terms open. It also provides no evidence of an independent liquidity route.
-
-A controlled partner pilot could test whether Norn generates repeatable conversion lift over a buyer’s existing workflow. Native has a live publishing product, and the CEO describes hotel-market tests and a decline in paid customer acquisition cost from roughly NOK 1,800 to NOK 800. Those signals make a focused test plausible. The integration cost and runway needed to reach acquisition scale remain open. Customer opt-outs are documented. A buyer would need to verify continued rights to the training signals and publishing integrations, along with transaction approvals and funding. (The Idea, Market & Traction, Key Risks, Defensibility)
+Native documents a customer opt-out for training signals. The treatment of those signals on a change of control and the holder’s participation rights remain unknown. (*Defensibility*)
 
 ### Countercase
 
-Google already turns websites into brand profiles and campaign assets, and Meta supplies overlapping creative tools on Native’s current paid channel. A buyer could reproduce enough of the workflow to avoid paying a premium. Native’s HAVN Storage case study reports 9,495 impressions versus 2,322 in the preceding period, while its broader observational research leaves conversion lift unmeasured. This weakens the case for paying a strategic premium. The memo establishes neither a structural closing block nor a credible price range that falls materially short across the strongest route, so the Pass gate remains open and Watch applies. (Defensibility, Market & Traction, Key Risks)
+Potential buyers already have substitutes for parts of the workflow. Google’s Pomelli derives brand profiles and campaign assets from a website, and Meta offers overlapping creative tools on the platform Native relies on for paid automation. Native’s observational research measures reach and engagement, leaving conversion lift unmeasured. A buyer could therefore replicate enough of the workflow to avoid paying for Norn. That risk leaves buyer value unresolved. The memo establishes neither a structural closing block nor materially inadequate proceeds under the strongest credible route, so the Pass gate stays open. (*Defensibility; Key Risks*)
 
 ### Dimension Scores
 
@@ -30,11 +26,11 @@ Google already turns websites into brand profiles and campaign assets, and Meta 
 | Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 10/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective acquirer verify that Norn delivers enough incremental gross profit over its existing workflow to justify roughly $88 million in enterprise value? A controlled partner pilot showing repeatable conversion lift, paired with a buyer-side valuation that accounts for integration costs, would move the action from Watch to Reach out if it supports that price.
+Can a prospective acquirer show that Norn’s incremental conversion lift justifies a purchase price that delivers $2.5M in cash to the benchmark holder within eight years? A controlled pilot against the buyer’s existing workflow, paired with a buyer-backed valuation range that clears the payout hurdle under reasonable deal terms, would move the action to Reach out. Evidence that the strongest supported sale would leave the holder materially short would move it to Pass.

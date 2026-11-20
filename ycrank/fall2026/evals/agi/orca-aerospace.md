@@ -5,26 +5,29 @@
 
 ### Company case
 
-**New Economies** is the strongest path. The memo describes a ground-operated workflow in which operators send commands during scheduled contacts, delaying fault response when a spacecraft is out of contact. Orca proposes using an onboard model to suggest actions, a deterministic planner to translate them into commands, and a safety layer to check them. The investment scenario is that this setup makes routine fault recovery economical for missions that previously could not justify the ground staffing. The relevant comparison is cost per safe, successful recovery. The current workflow uses ground-operator time for diagnosis and commanding. Orca’s workflow would still incur telemetry review, human escalations, onboard compute, and a share of integration costs. The memo provides no measured cost comparison or evidence of a mission newly viable at the lower cost. (The Idea, Key Risks)
+The supported path is an industry enabled by superintelligence. Orca describes a ground-command workflow that can leave satellite faults unresolved until the next contact window. Its proposed onboard system uses a language model to select an action, a deterministic planner to translate it into commands, and a safety layer to check those commands before execution. The newly viable use would be routine recovery from selected faults while a satellite is out of contact. The economic assumption is that Orca can handle enough of those faults within approved limits to reduce specialist time per successful recovery, including review and fallback. Under model parity, operators would still need software integrated and qualified for their spacecraft. The memo reports a comparable third-party flight demonstration, while Orca’s own flight validation remains planned. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Orbital’s signed LOI, worth up to $20M, is the clearest buyer signal. It specifies an integration fee and per-satellite licensing, with payments undisclosed and license volume dependent on fleet deployment. Lyra’s concept study adds an early signal for rendezvous and proximity operations. The planned Reflex integration gives Orca a plausible way to spread engineering and qualification costs across a fleet. The economics depend on how many compatible satellites fly and how much review and support each still needs. The founders’ experience in fault recovery and collision avoidance, together with planned hardware-in-the-loop testing and staged command authority, supports execution at seed. Orca’s own flight performance remains unverified. (Market & Traction, The Idea, Defensibility, Founders & Team, Key Risks)
+The building-blocks path scores zero. Orbital’s planned data-center fleet gives Orca a prospective buyer, but the memo identifies no AI workload constrained by a scarce input that Orca’s software can supply. (*Market & Traction*)
+
+Orbital’s signed LOI, worth up to $20M, and Lyra’s joint concept study show buyer engagement. Payments are undisclosed, and the license opportunity depends on Orbital deploying its fleet. The planned Reflex integration gives Orca a specific route to fleet-wide reuse. Switching costs would depend on whether a replacement has to repeat qualification. The founders bring relevant fault-recovery and onboard controls experience, while Orca’s representative testing remains planned. The integration fee and per-satellite license describe how revenue could scale, but undisclosed fees and unmeasured qualification and support costs leave the economics of the next satellite unresolved. (*Market & Traction*, *Defensibility*, *Founders & Team*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Orca could reduce response delays for existing satellite operators without opening a new market. Shield AI and Sedaro have flown onboard AI with independent command checking, and AIKO has demonstrated onboard replanning. Those results make a comparable alternative credible. Orca’s planned Reflex integration could create switching costs if buyers have to requalify a replacement, but the memo records neither that requirement nor a buyer choosing Orca over a functionally comparable option. The New Economies gates remain open because the memo shows neither a newly viable use nor buyer preference under model parity. The competitor demonstrations do not establish easy substitution for Orbital’s missions, and the memo identifies no scarce bottleneck Orca controls that would support a separate path. (Defensibility, Market & Traction, Key Risks)
+Orca could improve response times while operators still bear most of the cost of specialist supervision. Orca plans human telemetry review before expanding command authority, and competing teams have already demonstrated onboard autonomy capabilities. If review and fallback costs leave routine out-of-contact recovery uneconomic, the industry-enabled path would lose its fit. The memo leaves that question open, supporting Watch while the gap is testable. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 10/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 16/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 9/15 |
+| Team and execution | 5/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 38/150** (Pass)
 
 ### Decisive diligence question
 
-Will Orbital pay to deploy Orca for a fault-recovery use it previously could not justify staffing? A paid deployment decision after a flight-representative trial would move the action to Reach out if the trial shows a materially lower fully loaded cost per safe recovery than ground operations and Orbital demonstrates a reason to choose Orca over a functionally comparable alternative. If the trial shows that the savings only improve already viable operations, the action moves to Pass on the current case. (The Idea, Defensibility, Key Risks)
+Can Orca clear a fleet operator’s safety and cost thresholds for routine fault recovery outside contact windows? A buyer-witnessed trial on flight-representative hardware should compare successful recoveries and fully loaded cost per recovery against the current ground workflow, including human review, fallbacks, and failures. Meeting both thresholds would move the action to Reach out.

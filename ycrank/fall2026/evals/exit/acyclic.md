@@ -5,31 +5,29 @@
 
 ### Company case
 
-A strategic acquisition by an agent deployment platform is the strongest path. A platform such as LangChain could add Acyclic’s workspace forking, result merging, and coordination evaluations to its deployment and evaluation stack. The reason to buy would be faster access to coordination technology that delivers repeatable gains in production. The memo documents a TinyFish research demo with 19 agents, a 12.5-minute runtime, and $2.52 in execution costs. Acyclic also reports use in document-processing pipelines. The demo establishes a cost and runtime for one workload. Comparative savings, paid adoption, and buyer interest remain unverified. (*The Idea*, *Market & Traction*)
+A strategic sale to an agent infrastructure platform such as Daytona is the strongest conditional route. Acyclic combines workspace forking and result merging with SwarmBench evaluations for coordination failures. A platform could have a reason to buy if that combination materially improves its customers’ results or saves it significant development time. TinyFish documented a 19-agent demo that ran in 12.5 minutes for $2.52, which shows the system ran on one workload. Acyclic reports document-processing use, and the memo records $500,000 in YC financing. Together these support a plausible next step of testing repeatable performance in paid production. The memo gives no comparative savings, paid conversion, or cost and timeline for reaching that milestone. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-The recorded $500,000 in YC financing and early onboarding make a limited production test plausible. The operating milestone is repeat paid use with lower cost per successful task at comparable output quality against a native or self-hosted baseline. Runway, test budget, and any further capital needed to reach that milestone are unknown. (*Market & Traction*, *Key Facts*)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity at 3%. The sale values below are illustrative assumptions. The memo supplies no pricing evidence.
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale prices below are illustrative assumptions. The memo supplies no basis for a realizable price range. (*The Idea*, *Market & Traction*, *Key Facts*)
+| Scenario | Cash to the holder within eight years |
+|-----------|---------------------------------------|
+| Modest sale at $40 million enterprise value | $1.2 million gross, or 2.4× |
+| Strong sale at $100 million enterprise value | $3 million gross, or 6× |
+| Prolonged private operation with cash reinvested | $0 realized |
 
-| Scenario | Holder proceeds |
-|-----------|-----------------|
-| Modest sale | At $50 million of enterprise value, $1.5 million in cash, or 3×. |
-| Strong sale | At $100 million of enterprise value, $3 million in cash, or 6×. About $16.7 million in aggregate deductions before pro rata distribution would bring this case down to the hurdle. |
-| Prolonged private | $0 realized if the company reinvests available cash and the holder makes no sale. The memo identifies no funded payout or eligible secondary. |
-
-Both sale cases assume an all-cash closing within eight years, an eligible holder selling the full stake, and zero net debt, deal deductions, or senior claims. Actual cash would depend on the equity value after debt and deal adjustments, the holder’s allocation under the waterfall, the fraction sold, and when payment arrives.
+Both sale cases assume the holder is eligible to sell the entire stake, receives 3% pro rata in cash by year eight, and faces no debt, deal deductions, or senior claims that divert proceeds. In the strong case, debt and deal deductions that reduce the distributable pool by more than about $16.7 million would put the holder below target. Selling only 80% of the stake would yield $2.4 million even with no deductions. The memo gives no support for a separate eligible liquidity route.
 
 ### Countercase
 
-A platform can self-host the Apache-2.0 harness or use native parallel delegation such as Claude Managed Agents. Acyclic waives its managed-service fee during onboarding, and the memo documents no repeatable performance advantage that would justify buying the business instead of using those substitutes. The voluntary strike-off notice for Acyclic Labs Limited also creates a closing risk if that entity holds any of the assets a buyer would need. The memo leaves title and transferability unresolved. The Pass gate remains untriggered because the evidence establishes neither a structural closing block nor a supported sale range that leaves the holder materially short. (*Defensibility*, *Key Facts*, *Key Risks*)
+A buyer could self-host the Apache-2.0 harness or use Claude’s existing parallel delegation. The memo shows no sustained advantage from proprietary coordination traces, and Acyclic reports that swarms can underperform a single agent. The UK strike-off notice also raises a closing risk because the memo leaves the relationship between that entity, the operating assets, and the investor’s shares unresolved. This evidence leaves a specific gap to test and falls short of the Pass gate for a structural block or materially inadequate proceeds. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
@@ -37,4 +35,4 @@ A platform can self-host the Apache-2.0 harness or use native parallel delegatio
 
 ### Decisive diligence question
 
-What would an agent deployment platform pay to own Acyclic’s coordination stack after seeing repeat paid deployments outperform native or self-hosted alternatives at comparable quality? A credible buyer-side valuation grounded in those results that supports at least $83.3 million in distributable equity within eight years would move the action to Reach out.
+Can Acyclic show a repeatable production advantage over native delegation or self-hosting that makes an acquisition economically credible at the proceeds hurdle? Paid deployments with matched workload results on quality and full execution cost, tied to a buyer’s economics, would move the action to Reach out if they support a sale that clears the hurdle. Evidence that the strongest credible sale falls materially short would move the action to Pass.

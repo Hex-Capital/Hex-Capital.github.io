@@ -5,26 +5,28 @@
 
 ### Company case
 
-Agent 37’s strongest Hypergrowth path is Cloud infrastructure for developers and agencies that deploy a persistent AI agent for each customer. Conditional on strong product-market fit, the same provisioning API, harness templates, and custom-image support can serve that recurring job across markets with little geographic adaptation. Developers can discover Cloud through developer communities or the open-source starter kit, sign up, add a card, and provision a sandbox through the API. ETEC+ reported getting its branded service live in six days and migrating more than 30 clients. The starter kit gives agencies a way to bring additional workloads onto Cloud as they sign clients. (The Idea, Market & Traction)
+Assuming strong product-market fit with developers and agencies that host agents for their customers, Agent 37 can serve the same recurring job across markets. Its provisioning API, preconfigured harnesses, and custom images let buyers use the same product wherever managed hosting meets their requirements. Docker-in-Docker and Android emulation require a higher-priced full VM, and buyers that require an uptime commitment need a separate agreement. (The Idea, Key Risks)
 
-Cloud bills for running minutes and persistent disk, so existing accounts can spend more as they add clients or run agents more often. Boon’s reported integration of provisioning and scheduled runs into its application shows how Cloud can become part of a recurring production workflow. Expansion could offset churn, with the magnitude still uncertain. Cloud launched in June 2026, and the reported customer deployments and spending support early paid production use. Agent 37’s claim that it powers agents for more than 250 startups leaves the paid share and commercial growth rate unclear. The effective team size is also unclear. (The Idea, Defensibility, Market & Traction, Key Facts, Founders & Team)
+Product Hunt, Hacker News, and the open-source starter kit provide concrete discovery routes. Self-serve signup, card-based prepaid billing, and API provisioning give developers a path to payment and first use with little apparent need for staff involvement. Boon reported deploying per-client agents in three days. Persistent files and agent state give customers a reason to keep those environments, and compute minutes and retained disk give Agent 37 a way to earn more as accounts expand. If a retained agency adds client sandboxes at similar usage levels and prices, its recurring bill rises. Whether that expansion offsets churn across a cohort remains uncertain. (The Idea, Market & Traction, Defensibility)
+
+Boon reported a monthly cost of $4.94 per agent, supporting early commercial use of Cloud. Agent 37 claims it powers agents for more than 250 startups, but the memo leaves the paid share and growth pace since the June launch unresolved. It identifies one active founder and leaves total staffing unclear. The earlier OpenClaw-only product’s paying-user count provides no measure of Cloud’s commercial slope. (Market & Traction, Founders & Team)
 
 ### Countercase
 
-Low prices may win deployments while leaving little contribution to fund growth. If the founder’s reported $0.37 per sandbox-month represents realized revenue after credits, positive incremental contribution requires attributable host capacity, storage, acquisition, onboarding, and support to cost less than $0.37 per sandbox-month for a comparable workload mix. Shared hosts could improve utilization, but costs can step up when Agent 37 rents another server. AWS offers an overlapping runtime, and Agent 37’s advertised price-difference refund could add pressure on realized pricing. The structural downside gate clears because the memo supports a reusable deployment path and a credible utilization lever. Contribution at representative utilization remains the decisive uncertainty. (Key Facts, Defensibility, Key Risks)
+Cloud could attract real production workloads at prices too low to support profitable growth. The founder reported an average of $0.37 per Cloud sandbox per month, compared with a listed $4.76 for one always-on configuration. At the reported workload mix, contribution depends on what remains after allocated host capacity, persistent storage, payment fees, signup credits, and direct onboarding and support. Shared hosts and workload optimization offer a concrete way to improve contribution, but host utilization and the cost of supporting production workloads are unquantified. The structural gate stays open because the evidence leaves incremental contribution unresolved. (The Idea, Defensibility, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 23/25 |
+| Global buyer demand | 22/25 |
 | Repeatable acquisition and onboarding | 21/25 |
 | Retention economics | 17/20 |
 | Initial traction | 10/20 |
 | Cost economics | 6/10 |
 
-**Total Score: 77/100** (Invest)
+**Total Score: 76/100** (Invest)
 
 ### Decisive diligence question
 
-Does a recent paid Cloud cohort generate healthy incremental contribution at representative utilization, including the next step up in rented capacity? Match compute and disk receipts after credits against attributable capacity, storage, acquisition, onboarding, and support costs. A healthy positive result sustains Reach out. Thin or negative contribution moves the action to Watch pending a demonstrated improvement in utilization or pricing.
+Does a representative cohort of paying Cloud customers generate positive incremental contribution as sandbox usage grows? Compare actual receipts after credits with attributable hosting, storage, payment, onboarding, and support costs across several billing cycles, including any capacity added to serve the cohort. Positive contribution through a capacity increase would sustain Reach out. Persistently negative contribution without a credible improvement lever would trigger Pass.

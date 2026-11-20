@@ -1,30 +1,33 @@
 ﻿# Ascenix -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-Ascenix’s strongest path is **New Economies**. Senior-care staff reconstruct incidents from EHR notes and spreadsheets. Ascenix uses read-only EHR connectors and facility-specific rules to draft reports and route follow-ups. Responsive Health Management reported 80% less time spent on manual fall analysis and zero missed fall follow-up findings at one home’s inspection. Assuming comparable case volume and follow-up quality, the time saving would reduce the manual-analysis labor cost per successfully reviewed fall to about one-fifth of its former level. The memo gives neither baseline hours nor the all-in cost per review. One plausible newly viable use is routine review of every fall at homes where staff time previously made that impractical. The memo does not establish that any home began doing this because of Ascenix. (The Idea, Market & Traction)
+Ascenix sells senior care workflow software. Its read-only EHR connectors, text extraction, and facility-specific rules help staff reconstruct incident reports, flag unsupported reimbursement codes, and route follow-ups. The product uses AI within those workflows. The memo identifies no constrained input that Ascenix supplies to an AI workload, so the building-blocks path earns zero. (The Idea, Key Risks)
 
-Responsive’s rollout across all its homes shows commitment from one operator. Ascenix reports 55 live facilities, with payment and renewal terms unverified. The founders built their first workflow around a care director’s falls spreadsheet, piloted an earlier fall-detection product with 10 residents, and shipped the current software. That track record supports seed-stage execution. Repeat deployment economics remain open. Reusable components could spread setup costs across homes, but the monthly platform fee must cover facility-specific configuration, support, and model processing. Local policy validation and manual handling of unreadable records also affect the buyer’s cost per completed review. (Founders & Team, Market & Traction, The Idea, Key Risks)
+The industry-enabled path also earns zero. Staff already perform fall analysis using EHR notes and spreadsheets. Automation could make same-day review of every fall affordable at a home that previously lacked the staffing, but that is a scenario assumption. The memo establishes time savings in an existing workflow and provides no evidence that the savings opened a previously unaffordable use or cadence. Facility-specific rules, EHR access, and follow-up routing give buyers reasons to use the integrated product even if they can access equally capable models. (The Idea, Market & Traction, Key Risks)
+
+Ascenix reports vetted PointClickCare access and integrations with MatrixCare and Yardi. Those integrations and local policy configuration support a modest advantage. PointClickCare controls access to its records and offers native incident management, and workflow reuse and retention remain unverified. Ascenix reports 55 live facilities, a concrete adoption signal with payment and renewals unverified. The founders built the first workflow around a director of care’s falls spreadsheet and shipped the software. Reliable handling of incomplete records and local policy exceptions remains open. The monthly invoice model gives a basis for charging, but the memo provides no revenue-to-cost bridge for the next facility, including setup, policy validation, and support. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-The strongest countercase is that Ascenix saves time within an existing compliance workflow and loses its edge once competing products can produce comparable results. PointClickCare already offers native incident management and controls Ascenix’s access to its live records. Guardoc already automates chart checks. Ascenix’s cross-EHR integrations and local policy configuration could give buyers a reason to stay, but the memo shows no preference under functional parity or network effect. The evidence supports neither an independently defensible scarce complement nor observed switching to equivalent alternatives. Market opening and willingness to pay under model parity therefore remain unproven, which supports Watch. (The Idea, Defensibility, Key Risks)
+Responsive Health Management deployed Ascenix across all its homes and reported 80% less time spent on manual fall analysis, 15% fewer non-compliance incidents over three months, and zero missed fall follow-up findings at one home’s inspection. That rollout makes the case for a higher review cadence credible. The reported results leave the prior affordable cadence, the new cadence achieved, and the fully loaded cost per completed review unknown. Both paths score zero, which triggers Pass regardless of the shared diligence scores. (Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 25/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent operator renew at a viable price for routine fall reviews it previously could not afford, when an alternative offers comparable review accuracy? A paid deployment could answer this by comparing prior review coverage and all-in cost per completed, policy-compliant review, then documenting the operator’s renewal choice. Newly affordable coverage and a paid renewal over the comparable alternative would move the action to Reach out. A finding that the service only speeds up reviews the operator already performed, or that the operator switches readily at parity, would move it to Pass.
+Can a paid deployment sustain same-day review of every fall at a home that previously could not afford that cadence? A buyer-confirmed before-and-after comparison at comparable review quality, including setup, staff validation, and manual handling of incomplete records, would answer it. If Ascenix enables the home to sustain that cadence within budget, move to Reach out. If the deployment only saves staff time at the existing cadence, retain Pass.

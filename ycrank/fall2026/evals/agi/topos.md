@@ -1,30 +1,33 @@
 ﻿# Topos -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-New Economies is Topos’s strongest path. Topos says Egregore can coordinate thousands of agents to formalize hypotheses and check one another’s reasoning. The memo describes a separate demonstration of multi-agent hypothesis refinement that supports the mechanism in principle. The observed Topos milestone is a beta access-request form, and the memo records no buyer commitments or paid use. (*The Idea*, *Market & Traction*)
+Egregore has zero supported AGI paths. For building blocks, Topos says its harness can coordinate thousands of agents on a single research task. This identifies a workload, scientific hypothesis review, while leaving the scarce input unestablished. The memo describes alternative orchestration systems and supplies no evidence that access to reasoning or coordination capacity limits AI deployment. (The Idea, Defensibility)
 
-In the investment scenario, a biology team that currently shelves hypothesis reviews because literature review and expert assessment take too much time could afford to run them routinely. The relevant comparison is the fully loaded cost per expert-accepted shortlist worth testing. The manual baseline includes researcher time for literature review and assessment. The Egregore cost includes inference, expert review, and rework, with any change in downstream experimental validation accounted for. The memo gives no measured cost comparison or evidence of research teams brought into the market by lower costs. The founders’ joint Lean formalization shows relevant execution on machine-checked reasoning. A representative research field test is the next gap. (*The Idea*, *Founders & Team*, *Key Risks*)
+For an industry enabled by superintelligence, the candidate use is routine review of more competing explanations than a biology lab can cover with its existing specialist time. That is a scenario assumption. The memo describes literature review and expert judgment becoming harder to apply consistently as the number of explanations grows. Topos’s proposed formalization and cross-checking could reduce expert time per usable review, but the memo stops short of identifying a review that researchers forgo or run less often because of cost. It also leaves the cost of checking outputs and the value of Egregore under model parity unresolved. The evidence supports a potential efficiency gain in an existing workflow. (The Idea, Key Risks)
+
+For shared diligence, competing orchestration systems weaken Topos’s ability to retain pricing power, and the proposed dataset of expert corrections remains hypothetical. The observed beta intake form provides a recruitment channel, with buyer trials, commitments, and revenue unreported. The founders’ joint Lean formalization and Sukhatankar’s applied ML prototype show relevant prior delivery, with Egregore’s reliability on representative research tasks still unverified. The memo supplies no pricing or delivery-cost figures to assess contribution on the next paid review. (Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-Egregore may speed up research that teams already fund while leaving expert review and experimental validation as the binding costs. Coordination overhead could erode savings on sequential tasks. Other providers already offer swarm orchestration, and Edison’s announced Pfizer deployment shows competition in Topos’s target workflow. The memo gives no evidence that buyers prefer Topos at functional parity or that more users improve outcomes for existing users. These facts weaken value capture, while the market-opening and substitution gates remain untested for Egregore. The memo supports no independent scarce-complement path. (*Defensibility*, *Market & Traction*, *Key Risks*)
+The strongest case for Watch is that specialist time limits the breadth of hypothesis review and that coordinated agents could make broader reviews routine. The memo describes a third-party demonstration of multi-agent hypothesis refinement and an announced deployment of a competing research product at Pfizer. Those signals establish technical plausibility and buyer interest in an adjacent workflow. The same evidence points to alternatives, and the memo flags coordination overhead and continuing expert validation as potential costs. With both AGI paths at zero, the Pass gate applies. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 31/100** (Pass)
+**Total Score: 16/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can a paid beta cohort of independent biology teams complete previously shelved hypothesis reviews at a materially lower fully loaded cost per expert-accepted shortlist, then pay for another review with Egregore when a functionally comparable alternative is available? A quality-matched comparison against the manual workflow and observed repeat purchases in that competitive setting would move the action to Reach out. A representative trial showing that formerly shelved work remains uneconomic, or that buyers readily switch at parity, would move it to Pass.
+Can an independent beta lab use Egregore to run a recurring hypothesis review it previously skipped because of specialist time? A representative trial that documents the prior constraint, tracks compute and expert review costs per usable result, and shows the lab commits budget to repeat the workflow would change the action to Reach out.

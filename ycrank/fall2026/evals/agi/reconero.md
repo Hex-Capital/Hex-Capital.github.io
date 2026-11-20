@@ -1,32 +1,31 @@
 ﻿# Reconero -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Reconero’s strongest path. The current workflow requires officers to review footage, re-enter incident details across forms, and verify the finished report. Reconero says it detects events across video sources, links drafts to timestamps, and fills forms for officer review. If that cuts the full labor cost of producing an accurate, audit-ready report, departments that can only afford detailed footage review for selected incidents could pay to make it routine. Both the cost reduction and the newly served use are scenario assumptions. The memo gives no comparative cost per accepted report or evidence that departments have expanded review because of Reconero. (The Idea, Key Risks)
+Reconero scores zero on both AGI paths. It uses video understanding to automate police paperwork, and the memo identifies no scarce input it supplies to AI developers or operators. Its strongest commercial case is a department-level subscription for drafting reports and completing forms from footage and existing records. Reconero says it links draft statements to footage timestamps and leaves review and signature with officers. That design could reduce manual work in an existing reporting workflow. The memo identifies no agency, use, or reporting frequency that was previously uneconomic and became viable through Reconero. Both zero scores require a Pass. (The Idea, Market & Traction)
 
-Reconero launched publicly, and its CEO reported that several police units tested an earlier beta. The documented demand signal is the manual workload and willingness to test. A department subscription is an inferred model. Contribution per deployment would depend on the fee relative to video processing, agency onboarding, and ongoing support costs. The memo provides no pricing or deployment-cost data. (Market & Traction, The Idea, Key Facts)
+Department-specific form mappings could create switching costs once embedded, but Code Four already offers source-linked drafting and records integrations, while Axon bundles drafting into its evidence platform. That overlap supports a below-default durability score. Founder-reported testing of the earlier ReconeroRMS beta shows some agency engagement. The current product’s public launch and the founders’ prior software and AI work support early execution credit. The memo gives no paid deployment, pricing, or measured review burden to assess whether subscription revenue from the next agency would cover integration, video processing, and support. (Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-Reconero could improve an existing reporting workflow while leaving its economics largely intact. A trial of a competing drafting tool found no speed improvement, and a study of another system found lower accuracy ratings for AI-assisted reports. Officer review and corrections could absorb the drafting savings. Axon bundles drafting into its evidence platform, and Code Four already offers source-linked drafting and integrations. Agency-specific form mappings might create switching costs, but the memo shows no buyer preference under functional parity, network effects, or independently supported scarce complement. The competing-tool studies and product overlap leave both New Economies conditions unresolved for Reconero, so Watch applies. (Key Risks, Defensibility, Market & Traction)
+Reconero could make timestamped verification across multiple cameras affordable for routine incidents if officers currently reserve that depth of review for selected cases. Its records integrations, form mappings, and audit exports could still matter when agencies have access to comparable models. That scenario assumes agencies currently forgo the review because of labor cost and that checking and correcting Reconero’s drafts takes materially less work than reviewing footage manually. The memo establishes neither assumption. It cites a randomized trial that found no report-writing speed gain with a competing tool and a separate study that found lower accuracy ratings for AI-assisted reports in another system. The countercase leaves the Pass gate in place. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent department pay to make footage-verified reporting routine for incidents it previously could not afford to review in detail?
-
-A paid rollout would move the action to Reach out if it shows materially lower cost per accepted report than the manual workflow, including officer review and corrections, while preserving accuracy and auditability. The buyer would also need to choose Reconero over a functionally comparable option for a documented reason that would persist under model parity. If the comparison shows that the cost change fails to open the use or that buyers readily substitute at parity, move to Pass.
+Can a paid agency pilot make timestamped, multi-camera verification routine for an incident class the department currently skips because of labor cost? Change to Reach out if representative cases show the agency adopting that review at a sustainable cost per approved report, including officer corrections and audit work, while meeting its accuracy and retention requirements. Keep Pass if the pilot only speeds up reports the agency already produces at the same level of verification.

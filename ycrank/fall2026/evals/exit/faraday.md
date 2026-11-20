@@ -5,34 +5,34 @@
 
 ### Company case
 
-Faraday’s strongest exit path is a strategic acquisition by an ERP or industrial software vendor. The buyer rationale would be to extend automation into customers’ legacy systems using Faraday’s shared runtime and workflow simulations. The memo documents a public benchmark with 249 tasks across 46 workflow families. Faraday reports that its harness raised benchmark accuracy from 38% to 94% with the base model held fixed, and a founder reports one unnamed customer deployment involving a legacy system. These signals make the buyer rationale plausible. Repeatable customer savings, integration costs, and what a buyer would pay remain unverified. (The Idea, Defensibility, Market & Traction)
+Faraday’s strongest exit route is a strategic acquisition by an industrial software vendor. Owning Faraday’s runtime could help a vendor automate workflows across legacy systems and shop-floor equipment if the technology materially reduces integration work. Faraday reports that its harness raised benchmark accuracy from 38% to 94% with the same underlying model. That result gives a buyer a technical reason to investigate. The economic case depends on whether the gains carry over to production and reduce operating or deployment costs. (The Idea, Defensibility, Key Risks)
 
-A seed-stage milestone would be paid production use at two manufacturers with different legacy systems, with measured labor savings, exception rates, and deployment and support costs. The reported deployment gives Faraday a starting point. It required a third-party sandbox to resolve an integration blocker, and the memo leaves available capital and the cost of repeating the deployment unknown. An acquisition could center on the shared runtime. Whether customer agreements, workflow data, and third-party dependencies would transfer remains open, and write-enabled workflows require separate customer authorization. (Market & Traction, Key Facts, The Idea, Key Risks)
+The founder reported one deployment involving a legacy remote-desktop system, where SuperServe’s sandbox resolved a blocker. That supports a seed-stage milestone of repeating the same workflow at a second paying customer and measuring deployment cost, reliability, and savings. The memo leaves payment, repeatability, runway, and the capital needed to reach that milestone unverified. Faraday’s terms require separate authorization for write-enabled workflows. Whether customer agreements and workflow data would transfer to a buyer is open, as is the holder’s eligibility to participate in a sale. The memo provides no evidence of an independent liquidity route. (Market & Traction, Key Facts, Key Risks)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× gross cash return requires $2.5 million within eight years, equivalent to roughly $83.3 million in distributable equity value. The sale cases below use illustrative prices and deductions. They assume a full cash sale at year eight, holder eligibility, and a pro rata waterfall with no further reduction for senior preferences or holdbacks.
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year objective is $2.5 million in gross cash, which requires about $83.3 million in distributable equity value. Both sale scenarios assume an all-cash acquisition within eight years, an eligible holder selling the full stake, and pro rata distribution after net debt and deal adjustments, with no additional senior claims.
 
-- **Modest sale.** $50 million in enterprise value less $5 million in assumed debt and deal adjustments leaves $45 million for equity. The holder receives $1.35 million, or 2.7×.
-- **Strong sale.** $100 million in enterprise value less $10 million in assumed debt and deal adjustments leaves $90 million for equity. The holder receives $2.7 million, or 5.4×. At 2% ownership, the same sale pays $1.8 million, or 3.6×.
-- **Prolonged private.** If Faraday continues operating and reinvests available cash without a payout or eligible share sale, the holder realizes $0 within eight years. The memo supplies no evidence of an independent liquidity route.
+- **Modest sale.** At $40 million in assumed enterprise value, $10 million in deductions leaves $30 million to distribute. The holder receives $900,000, or 1.8×.
+- **Strong sale.** At $100 million in assumed enterprise value, the same deductions leave $90 million to distribute. The holder receives $2.7 million, or 5.4×. If deductions rise to $20 million, proceeds fall to $2.4 million, or 4.8×.
+- **Prolonged private.** If Faraday keeps operating and reinvests available cash through year eight, the holder realizes $0.
 
-The strong case clears the hurdle under those assumptions. The memo supplies no transaction pricing or quantified buyer economics to substantiate that case. (Defensibility, Market & Traction, Key Facts)
+The sale prices are scenario assumptions. The memo supplies neither transaction comparables nor buyer economics that support a realizable price range. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Infor already offers agents for orders, items, and invoices within its distribution suite. An incumbent could cover enough of the same work through existing integrations to reduce the value of buying Faraday. The benchmark leaves live reliability uncertain, and the reported deployment shows how legacy integration can add implementation work. The overlap weakens buyer rationale, while the memo leaves open whether native tools can substitute across the mixed systems Faraday targets. The evidence establishes neither a structural closing block nor a credible proceeds ceiling below the hurdle, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+Infor already offers agents that create or update orders, items, and invoices inside its distribution suite. If native tools cover enough of the work customers will pay for, a strategic buyer could build or bundle the remaining features. Faraday’s benchmark result leaves production performance open, and the reported deployment depended on a third-party workaround. The substitution risk is material, but the evidence leaves open whether native tools can cover Faraday’s cross-system workflows and whether a buyer would pay enough for that capability. Neither Pass gate is triggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeatable production economics support a strategic buyer’s case for a price that leaves at least $83.3 million in distributable equity value? Paid deployments across different legacy systems would need to show sustained savings, reliable operation, and deployment and support costs low enough to support a buyer’s build-versus-buy analysis. A credible price range grounded in those results and clearing the hurdle after debt, deal adjustments, and the holder waterfall would move the action to Reach out.
+Can Faraday show that an industrial software buyer would gain enough from owning its runtime to support a sale yielding at least $83.3 million in distributable equity value? Measured savings and integration costs from the same workflow at two paying production customers, tied to a credible estimate of the value to a specific buyer, would move the action to Reach out.

@@ -5,26 +5,26 @@
 
 ### Company case
 
-Assuming strong initial product-market fit, Petrichor’s strongest path is repeat orders from frontier AI biology teams that need experimental records for model training. Petrichor says its staff run customer experiments in parallel, initially in cancer research, and return customer-owned, step-by-step records. The same record-delivery workflow could serve equivalent buyers abroad from a central lab where jobs can be handled remotely. The buyer and job are clear, while the work needed to serve buyers across markets remains uncertain. The website and launch post give buyers a way to contact the CEO, and staff execution is required to deliver the first result. (*The Idea*)
+Assuming strong product-market fit with frontier AI biology labs, Petrichor could serve buyers in multiple markets from one lab. The company says its staff run experiments in parallel and return customer-owned, step-by-step training records. The same service could plausibly support comparable research teams abroad, though the memo leaves cross-border delivery requirements unresolved. The website and YC launch offer a repeatable way to attract inquiries. The documented purchase path starts with contacting the CEO, and first value requires staff benchwork. (*The Idea*)
 
-If buyers incorporate the records into recurring training workflows and pay per batch, more orders from the same lab could expand account revenue. Batch pricing and repeat purchasing are assumptions. The memo documents a November 10 launch and about 84,000 launch-post views. Paid adoption and revenue status remain unknown, so initial traction receives the absent-evidence default. (*The Idea, Defensibility, Market & Traction, Key Facts*)
+Customers that standardize their training workflows around Petrichor’s records could order successive batches. Per-batch pricing is an inferred scenario. If Petrichor charges that way, higher order volume could increase spending within an account. Repeat orders, pricing, and expansion remain unverified. The November 10 launch drew about 84,000 views, which measures attention. Commercial adoption and revenue remain unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Strong demand could translate into a larger lab-services operation with limited operating leverage. Under the assumed per-batch model, contribution is the batch price less attributable sales and setup time, bench labor, consumables, and incremental equipment capacity. Staff execution creates a direct labor cost for each workload. Petrichor’s claim that it runs experiments in parallel leaves open whether staff time per batch falls, and its automation plan is conditional. The memo gives no price or operating inputs to establish contribution at higher volumes. The structural downside gate remains open because the evidence leaves economic feasibility at scale unresolved. (*The Idea, Key Risks*)
+Even with strong demand, the next batch requires staff time and lab capacity. Parallel execution could improve utilization, but the memo offers no measured throughput or contribution margin, and the company describes automation as a future step. The memo also records an incumbent’s claim that it already serves a frontier AI lab, giving buyers a plausible substitute. The structural gate stays open because the evidence establishes a delivery dependency while leaving its economic effect at higher volumes unresolved. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 5/25 |
-| Retention economics | 8/20 |
+| Retention economics | 9/20 |
 | Initial traction | 7/20 |
 | Cost economics | 3/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can a growing cohort of frontier AI labs place and expand paid orders through the same intake process while Petrichor improves contribution per batch? Order histories and delivery records showing repeat purchases, consistent output, and falling staff time per comparable batch would test that path. Move to Reach out if the results support portable demand and bring the score to at least 65 with Medium or High confidence. Move to Pass if the records show that unavoidable labor or capacity costs make faster growth economically infeasible.
+Can an ordinary paying customer increase its repeat batch volume while Petrichor improves incremental contribution? Compare invoices and attributable staff time, consumables, and capacity costs across successive batches. Improving contribution would justify rescoring for Reach out if the score and confidence thresholds are met. If required labor and capacity make higher volumes uneconomic at prices buyers pay, with no credible improvement lever, move to Pass.

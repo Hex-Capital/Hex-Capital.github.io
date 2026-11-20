@@ -1,32 +1,33 @@
 ﻿# Dualizer -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**New Economies** is the strongest path. Process engineers currently spend time reconciling drawings, operating data, and simulator models. Dualizer says Vantage drafts model changes for engineer approval and KinetIQ solves and calibrates the resulting model. The published calibration demo used synthetic histories with 48 operating points each. It shows the calibration workflow, while the cost per validated plant study remains unknown. One plausible new use is routine bottleneck analysis at plants that currently defer it because of engineering cost. That is a scenario assumption. The relevant comparison is engineer time and total cost per study accepted for a plant decision, including review and rework. (The Idea, Key Risks)
+Dualizer has a seed-stage case for the industry-enabled path. Process engineers manually reconcile plant drawings, operating data, and specialist simulators, delaying bottleneck analysis. Dualizer says Vantage proposes model changes for engineer approval and KinetIQ solves the physical balances and calibrates the model against plant data. One plausible new use is rerunning a bottleneck study after routine operating changes at a plant that currently commissions such studies only occasionally. That cadence is a scenario assumption. The memo reports active pilots and a calibration demo using synthetic histories, with no measured engineer-hour savings or evidence that a plant has adopted the proposed cadence. Under model parity, the delivered outcome would still require a calibrated plant model, physical simulation, and engineering approval. (The Idea, Market & Traction, Key Risks)
 
-Dualizer reports an in-house deterministic solver. Reusing plant models and calibration histories could give buyers a reason to keep paying Dualizer under model parity, but the memo records no buyer preference, retention, or premium under comparable functionality. Several reported industry pilots show buyer engagement, with payment terms, repeat use, and whether the studies were previously out of reach still unknown. The founders’ process modeling experience, public demo, and scope reduction after earlier generalization failures support seed-stage execution credit. Validation on real plant data remains open. (Defensibility, Market & Traction, Founders & Team, Key Risks)
+The building-blocks path scores zero. The described workload is chemical process engineering, and the memo identifies no scarce input to AI deployment that Dualizer supplies. (The Idea)
 
-The expansion unit is a plant deployment. Assuming pilots convert to subscriptions, site revenue must cover data integration, custom unit modeling, and initial calibration, followed by ongoing inference, support, and engineering exceptions. The planned forward-deployed engineering hire makes onboarding labor a material assumption. The memo gives no site-level delivery cost or evidence that onboarding gets cheaper across plants. (The Idea, Key Risks)
+The reported in-house solver and integrated workflow support modest value capture. Reused plant models could create switching costs, though reuse remains unverified. Several active pilots show trial demand, with payment and conversion undisclosed. The public demo, competition win, and founders’ process-modeling experience support prototype execution. The memo provides too little pricing or delivery-cost evidence to estimate contribution from the next site after onboarding, calibration, and engineer review. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Dualizer may make existing simulation work faster without opening a new market. MaximaLabs offers a deterministic solver with plant calibration, and ProcAgent can add conversational automation to existing HYSYS models, reducing the need to migrate. These alternatives make substitution credible, but the memo contains no head-to-head buyer outcome that establishes easy substitution or defeats the proposed new use. It supplies no independent scarce-complement case. The decision gate is Watch while a field test can resolve the New Economies conditions. (Defensibility, Market & Traction, Key Risks)
+Dualizer may speed up studies plants already perform. Process teams can add conversational automation to existing HYSYS models, and MaximaLabs already offers an overlapping solver and calibration workflow. Plant-specific adaptation and engineer review could absorb enough of the labor savings to keep study frequency unchanged. This is the decisive gap behind Watch. Evidence that deployments only accelerate existing studies would remove the industry-enabled fit and trigger Pass. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 8/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 7/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 30/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent pilot customer buy a repeat bottleneck study it previously deferred on cost grounds after comparing Dualizer with a functionally comparable alternative under similar model access? A paid repeat order, measured savings per engineer-approved study after setup and rework, and a documented reason for choosing Dualizer at parity would move the action to Reach out. If the comparison shows that the workflow only speeds up studies the customer already buys and that the customer readily substitutes the alternative, move to Pass.
+Can a representative pilot plant afford to run an engineering-approved bottleneck study after routine operating changes it previously skipped because of cost? A paid rollout that establishes the plant’s prior cost and study frequency, measures fully loaded cost per accepted study, including setup, calibration, rework, and review, and shows repeat use at the new cadence would move the action to Reach out. A pilot that only speeds up studies already budgeted would move it to Pass.

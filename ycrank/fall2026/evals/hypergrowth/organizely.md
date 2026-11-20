@@ -5,26 +5,30 @@
 
 ### Company case
 
-The Shopify Inventory Manager is Organizely’s strongest hypergrowth path. Assuming strong product-market fit with Shopify merchants, the same app and documented Stocky migration flow could serve merchants managing inventory across markets. The Shopify listing gives buyers a way to discover the app, and the 14-day trial and migration guide give them a plausible route to first value with little help. The memo does not establish that typical merchants complete setup and payment independently. (The Idea)
+Assuming strong product-market fit with growing U.S. manufacturers, Organizely’s factory data model could support the same recurring work abroad. Demand planning, materials tracking, production scheduling, and supplier approvals are plausible uses for comparable manufacturers. The model and approval flow appear reusable, but the memo leaves open how much adaptation local factory systems and purchasing workflows would require. (*The Idea*, *Key Risks*)
 
-Inventory management is a recurring job, and the listed $26, $99, and $250 monthly plans support a recurring billing model. The higher tiers offer a way for accounts to spend more, though the memo gives no evidence of what drives upgrades or whether expansion could offset churn. Two dated reviews show early engagement. Paid adoption and its growth rate are unknown. At the $26 tier, a contribution scenario would subtract incremental hosting, migration assistance, and support where incurred. The migration guide could reduce setup labor, but the memo gives no app-level operating inputs to estimate contribution. (The Idea, Market & Traction)
+The factory ERP is marketed through demos and on-site setup. That gives buyers a defined entry point, with human involvement on the documented path to first use. The Shopify app’s self-service listing, migration guide, and monthly pricing apply to the inventory app. The factory ERP’s pricing and purchase process remain unclear. (*The Idea*, *Key Facts*)
+
+The memo describes Kinetic Labs, the founders’ prior business, using the ERP for demand planning and supplier approvals by text. Those linked workflows support recurring use, and accumulated plant records could raise switching costs. Factory ERP renewal terms and a way for existing accounts to spend more remain unknown. (*Defensibility*, *The Idea*)
+
+Organizely reported deployments across six U.S. states at its November 6 launch. That indicates early deployment activity. Installation counts, paid status, and sales over time are undisclosed, so initial commercial traction takes the default. Kinetic Labs’ reported margin and time savings describe the customer’s economics. For Organizely, a per-plant contribution estimate would start with ERP fees and deduct sales effort, on-site setup, cloud usage, and support. The memo identifies some cost drivers but gives too little basis to estimate contribution, so cost economics also takes the default. (*Market & Traction*, *Key Risks*, *The Idea*)
 
 ### Countercase
 
-The Shopify evidence may reflect trial use that never converts, or merchants may routinely need help migrating. The factory ERP has more concrete evidence of operational use, including company-reported deployments across six states and a favorable testimonial from the founders’ prior business. Its demo and on-site setup make the scaling case weaker because each rollout may require staff time. The structural downside gate stays open. The memo does not establish that the Shopify app requires bespoke work by market or that unavoidable buyer-level costs make scaling infeasible. (The Idea, Market & Traction, Key Risks)
+Each plant could require extensive data cleanup, workflow configuration, and on-site support. The documented setup motion and the product’s dependence on accurate materials and equipment records make that plausible. The only quantified factory outcome comes from a founder-affiliated customer, which leaves performance at independent plants uncertain. The structural downside gate stays open because the memo does not establish that bespoke work is unavoidable at each plant or in each market, or that its cost would make faster growth infeasible. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 17/25 |
-| Retention economics | 14/20 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 62/100** (Neutral)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can merchants acquired through the Shopify listing repeatedly migrate live inventory, pay, and renew without hands-on setup? Cohort records showing a growing number of independent merchants completing that sequence would move the action to Reach out.
+Can Organizely repeat a paid production rollout at independent manufacturers, including a comparable plant outside the U.S., using the same factory data model and a standard setup process? Deployment records showing time to first live workflow, fees, and attributable setup and support costs would answer it. Repeatable, profitable rollouts with limited adaptation would support moving to Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that each market requires substantial bespoke rebuilding with no credible near-term transfer path would change the action to Pass.

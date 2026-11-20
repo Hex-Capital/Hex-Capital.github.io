@@ -5,17 +5,15 @@
 
 ### Company case
 
-Lantern’s strongest path is to sell one recruiting workflow on top of an enterprise’s existing applicant tracking system (ATS), then expand into adjacent modules that reuse the employer’s approved hiring criteria and feedback. Assuming strong product-market fit with the first workflow, the same approach could serve enterprise recruiting teams in other markets. The ATS overlay and shared criteria are reusable parts of the current product. The work required to support different ATS configurations and local hiring rules remains uncertain. (The Idea, Key Risks)
+Assuming strong product-market fit with enterprise recruiters, Lantern’s strongest growth path is to sell one workflow on top of an employer’s existing applicant tracking system, then expand into adjacent modules. Sourcing, screening, and interviewing are recurring jobs, and the agents reuse employer-approved criteria across workflows. That design supports portability, although the work needed to adapt the current platform to local hiring rules and different ATS configurations remains uncertain. The earlier interviewer’s reported use across 10 Asia-Pacific markets supports transferability for that module. Enterprise acquisition still runs through demos, connection reviews, and negotiated agreements. Lantern People has its own trial and pricing for a separate buyer. (The Idea, Market & Traction, Key Risks)
 
-Lantern reports $1M in annual recurring contracts as of November 2026, excluding monthly subscriptions and product-led sales. The memo lists a four-person team and includes a customer account of screening more than 1,000 candidates and hiring one engineer. The October platform launch gives a public milestone, while the date of first paid availability and the basis and duration of the reported 30% monthly growth remain unclear. That supports meaningful early commercialization with an uncertain growth slope. (Market & Traction, Key Facts)
+Annual contracts and adjacent modules give existing accounts a concrete way to spend more. Lantern reports one account growing from about $11K to $92K annually and 270% net dollar retention. The account shows that expansion can be substantial, while the missing cohort and measurement window leave its typical size and durability uncertain. The four-person team announced the broader platform in October and reported $1M in enterprise annual recurring contracts in November. A customer separately reported screening more than 1,000 candidates and making one hire. Those signals support meaningful early commercialization. The timing of first paid platform deployments, the contribution of earlier interviewer contracts, and the basis for the reported 30% monthly growth remain unclear. (Lantern AI, The Idea, Market & Traction, Key Facts)
 
-Annual subscriptions and adjacent modules give existing customers a concrete way to spend more. Lantern reports one account expanding from about $11K to $92K annually. That supports a plausible path to net revenue retention above 100%, especially if hiring teams rely on the same criteria across workflows. The company’s reported 270% net dollar retention has no specified cohort or measurement window, so typical expansion and churn remain uncertain. (The Idea, Defensibility, Market & Traction, Key Facts)
+For the next enterprise account, incremental contribution is the contract fee less attributable sales, ATS setup, AI processing, and ongoing support costs. If an employer can add modules through its existing connection and reuse its approved criteria, expansion could require less setup per dollar of revenue than the initial sale. The memo gives no representative deployment costs to establish that this happens in practice. (The Idea, Key Risks)
 
 ### Countercase
 
-Lantern’s enterprise motion could remain high-touch as it scales. The documented buying path starts with demos that check ATS connections and data flows, and analytics coverage depends on the records each integration exposes. Customers also face human review requirements and, for covered uses in New York City, bias audits and candidate notices. Lantern People’s trial and credit plans give a separate product a route to payment. The enterprise platform’s path to first value still depends on how much account-specific work those demos uncover. (The Idea, Key Risks)
-
-The cost test is whether the next enterprise subscription covers attributable sales, onboarding, integration, support, and incremental inference and infrastructure. Reusing an ATS connection and shared hiring criteria across modules could improve contribution if expansion adds little delivery work. The memo gives no usable cost measurements to establish that result. The structural downside gate clears because the evidence leaves a credible route through repeatable ATS deployments and does not establish unavoidable bespoke rebuilding or delivery costs that make growth infeasible. (The Idea, Key Risks, Key Facts)
+Even with strong initial fit, Lantern could face a high-touch rollout at each employer. Demo-stage connection reviews and integration-dependent analytics point to account-specific work. Hiring audits, notices, and required human review can add friction for buyers, while incumbent ATS vendors can offer overlapping tools inside systems those buyers already use. The structural downside gate remains open because the existing-ATS approach gives Lantern a credible route to reuse, while the extent and cost of required implementation remain unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -23,12 +21,12 @@ The cost test is whether the next enterprise subscription covers attributable sa
 |-----------|-------|
 | Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 7/25 |
-| Retention economics | 18/20 |
+| Retention economics | 17/20 |
 | Initial traction | 14/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 57/100** (Neutral)
+**Total Score: 56/100** (Neutral)
 
 ### Decisive diligence question
 
-Can typical enterprise buyers in a recent cohort across multiple markets purchase and launch their first paid workflow through an existing ATS connection with minimal Lantern staff time? Account-level records of the path from purchase to live use, including setup hours and any custom work, would answer it. Consistent low-touch activation would move the action to Reach out. Routine hands-on setup would keep it at Watch.
+Can several ordinary enterprise buyers in a second market buy and activate the same paid workflow through one standard ATS integration, with bounded local changes and positive incremental contribution? Paid contracts, launch records, and account-level sales, setup, processing, and support costs would answer it. Repeated buyer-led activation with healthy contribution would move the action to Reach out if the evidence lifts the score to at least 65. A demonstrated need for pervasive bespoke work with no credible path to reduce it would move the action to Pass.

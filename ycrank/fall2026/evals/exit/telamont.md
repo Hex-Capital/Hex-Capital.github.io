@@ -5,34 +5,34 @@
 
 ### Company case
 
-The strongest path is a strategic sale to a construction software platform such as Autodesk. Telamont’s Forma Marketplace listing establishes an existing integration, and Trimble’s acquisition of Document Crunch shows that a platform has bought an adjacent capability. Autodesk could use Telamont’s continuous revision checks and source-linked risk records to catch conflicts earlier in its customers’ workflows. Telamont reports $1.1 million in avoided foundation rework and $400,000 in missing structural scope flagged. Those cases suggest potential customer value. Repeatability, paid adoption, and the value a platform could capture remain unverified. (The Idea, Defensibility, Market & Traction)
+A strategic acquisition by a construction software platform is Telamont’s strongest exit route. The memo records a Forma Marketplace listing and Trimble’s acquisition of Document Crunch. Telamont’s continuous revision checks and source-linked records of risk ownership, deadlines, and resolutions could give a platform a reason to buy if those features generate recurring customer value and are costly to replicate. The marketplace listing establishes integration with Forma. Autodesk’s willingness to pay remains unknown. (The Idea, Defensibility, Market & Traction)
 
-A seed-stage milestone is repeat paid use across projects with customer-verified results. The reported project outcomes and the $500,000 note attributed to YC make that test plausible. Test costs and runway remain unknown. The adjacent acquisition has no disclosed price in the memo, so it supports buyer rationale while leaving realizable proceeds unpriced. Contract assignment, note treatment, and holder eligibility also remain open. (Market & Traction, Key Facts)
+A plausible seed-stage milestone is to verify avoided rework across repeat projects and show that contractors renew at paid rates. Telamont reports $1.1M in avoided foundation rework and $400K in missing structural scope flagged. Its reported product updates and the attributed $500K convertible note support the plausibility of running those tests. Detection accuracy, paid retention, runway, and the capital required to reach the milestone remain unverified. (Market & Traction, Key Facts, Key Risks)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million for the holder, or about $83.3 million in distributable equity at 3%. The sale scenarios assume full cash payment within eight years, full holder participation, and a pro rata waterfall with no further senior claims after the stated deductions. The prices and deductions are illustrative assumptions.
+Using the shared benchmark, a $500K check at a $10M post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× gross cash return requires $2.5M within eight years, or about $83.3M in distributable equity at 3% pro rata. The sale scenarios below assume an eligible holder sells its entire stake for cash at closing within eight years, with $5M in net debt and deal deductions and no further senior claims. The memo gives no acquisition price or buyer economics to substantiate either scenario, and Telamont’s transfer rights and note terms remain unknown. (Market & Traction)
 
-| Scenario | Proceeds bridge | Holder cash |
-|-----------|-----------------|-------------|
-| Modest sale | $40 million enterprise value less $5 million in net debt and deal adjustments leaves $35 million in distributable equity | $1.05 million |
-| Strong sale | $100 million enterprise value less $10 million in net debt and deal adjustments leaves $90 million in distributable equity | $2.7 million. At 2.5% ownership, this falls to $2.25 million. |
-| Prolonged private | Cash is reinvested, with no distribution or eligible share purchase within eight years | $0 |
+| Scenario | Enterprise value to holder cash |
+|---|---|
+| Modest sale | $40M enterprise value less $5M in deductions leaves $35M in distributable equity. The holder receives $1.05M, or 2.1×. |
+| Strong sale | $100M enterprise value less $5M in deductions leaves $95M in distributable equity. The holder receives $2.85M, or 5.7×. At 2.5% ownership, the same sale yields about $2.38M, below the objective. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase gives the holder $0 in realized proceeds within eight years. |
 
 ### Countercase
 
-Trimble already offers overlapping drawing, contract, and specification review through Document Crunch. Telamont’s revision checks and risk tracking may add too little incremental value for a platform to pay a price that clears the holder’s hurdle. The memo leaves detection accuracy and repeat customer use unverified. This supports Watch. It does not establish a structural block or show that the strongest credible sale would necessarily leave the holder materially short. (Defensibility, Market & Traction, Key Risks)
+Trimble already offers overlapping drawing, contract, and specification review through Document Crunch. Buildcheck also offers contractor-specific review agents. A platform could decide that extending its own tools is cheaper than buying Telamont, especially while repeat-project retention and the value of its risk history remain unverified. The memo supports that substitution risk but establishes neither a structural closing barrier nor a price ceiling below the proceeds hurdle. It also provides no evidence of an independent liquidity route. The Pass gate therefore remains untriggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 19/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeat paid deployments show enough incremental value over existing review tools to support a platform acquisition that clears the holder’s hurdle? Customer-verified savings across multiple contractors and projects, paired with platform revenue or retention economics that support at least $83.3 million in distributable equity under the benchmark terms, would move the action to Reach out.
+Would a construction software platform’s build-versus-buy analysis support paying enough for Telamont to leave at least $83.3M in distributable equity after deal deductions and senior claims? A buyer-side assessment grounded in independently verified savings across repeat paid deployments would move the action from Watch to Reach out if it supports that price within eight years.

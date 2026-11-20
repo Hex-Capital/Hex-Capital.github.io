@@ -5,28 +5,28 @@
 
 ### Company case
 
-Assuming strong product-market fit, Armorer’s best path is to sell the same continuous verification product to security and engineering teams running sensitive AI agents across markets. Permission mapping, workflow-tested fixes, and runtime checks address a recurring job that plausibly transfers across markets. Virginia-only hosting limits access for some regulated buyers. Customer-hosted deployment offers a route to those buyers, with rollout effort still unverified. The documented acquisition motion uses research and launch visibility to generate demos, with negotiated enterprise agreements the likely purchase path. (The Idea, Key Risks)
+Assuming strong product-market fit with regulated companies building AI agents, the recurring job is to verify agent permissions and behavior as workflows change. Armorer’s published SDK and customer-hosted option give it a plausible way to serve that same job across markets. Its hosted service runs in Virginia, which limits access for buyers with incompatible residency requirements. The work required to deploy the current product in those buyers’ environments remains uncertain. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Ongoing testing and accumulated regression tests and approval histories could support retention. Recurring contract terms and a way to earn more as an existing customer deploys more agents remain unverified. Just Eat Takeaway’s engineering director credited Armorer with resolving a security problem. The October 21 launch dates the enterprise product for a two-person team, while payment status and the pace of paid adoption remain unknown. (The Idea, Defensibility, Market & Traction, Key Facts)
+Armorer has a concrete discovery path through its launch and security research. The published SDK offers a reusable starting point, while the enterprise buying path is demo-led and the terms put commercial details in signed agreements. That points to a human-led sale. Once deployed, customer-specific regression tests and approval histories could make repeated verification part of the engineering workflow. That supports continued use, while recurring fees and a way for existing accounts to increase spend remain unestablished. (*The Idea*, *Market & Traction*, *Defensibility*)
 
-Incremental contribution would be contract revenue less attributable sales, deployment, workflow testing, infrastructure, and support costs. Armorer’s reported 1.9 ms median latency in a 50-document comparison suggests a possible compute advantage. Production resource use, contract pricing, and delivery hours remain unknown. Customer hosting could shift infrastructure costs to the buyer while increasing setup and support work. (The Idea, Defensibility, Key Risks)
+The Just Eat Takeaway testimonial credits Armorer with resolving a security problem. The two-person team launched the enterprise product on October 21, 2026. The memo leaves payment status and revenue growth unknown, so initial traction takes the default. For incremental contribution, a new account would need to cover attributable selling, deployment, runtime infrastructure, and support. Armorer reports 1.9 ms median latency in a 50-document comparison of its CPU-based guard. That result leaves production serving cost, implementation effort, and contract pricing unresolved, so cost economics also takes the default. (*Armorer Labs*, *The Idea*, *Market & Traction*, *Key Facts*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Residency restrictions could push regulated buyers into customer-hosted deployments that require substantial engineering work on each sale. Bundled security products could also make a separate purchase harder to justify. The demo-led motion and single hosted region make that risk concrete. The structural downside gate stays open because the memo leaves the amount of unavoidable deployment work and its effect on contribution unresolved. (The Idea, Key Risks)
+The strongest countercase is that regulated buyers need hands-on deployment and support for each account, especially when residency rules require customer hosting. The demo-led sales path makes that plausible, and buyers whose existing security suite covers the job may decline a separate purchase. The structural downside gate remains open because the memo leaves the extent of bespoke work and its effect on contribution unresolved. The same uncertainty limits evidence confidence. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can comparable regulated buyers with different residency requirements go live on the same paid production package at positive incremental contribution? A dated set of deployments with realized fees, sales and setup hours, and ongoing service costs would answer it. Move to Pass if those deployments reveal unavoidable bespoke work that makes faster growth economically infeasible. A repeatable, profitable rollout would justify rescoring for Reach out, subject to the 65-point and Medium-confidence thresholds.
+Can regulated buyers in multiple markets use the same standard path to purchase and reach paid production with minimal Armorer involvement? A small cohort on recurring contracts, including a customer-hosted deployment where residency requires it, would answer this if rollout records show limited custom work and positive contribution after selling, onboarding, and serving costs. That would support Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that unavoidable per-buyer work makes faster growth economically infeasible would change the action to Pass.

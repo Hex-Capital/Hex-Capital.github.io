@@ -1,32 +1,33 @@
 ﻿# RouterPlus -- AGI Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **scarce complements**. For AI teams with uneven traffic, RouterPlus could make peak inference capacity more reliable by pooling workloads, procuring capacity against tested requirements, and arranging backup supply. An AI assistant customer said RouterPlus sourced capacity for peaks of 15× average traffic and arranged a backup provider. That supports the procurement mechanism for one workload. Scarcity across buyers and repeatable control over supply remain unproven. (Market & Traction, The Idea)
+RouterPlus has a plausible building-block path in securing peak inference throughput for production AI assistants. A customer testimonial describes RouterPlus sourcing capacity for peaks of 15× average traffic and arranging a backup provider. RouterPlus says it tests models on customer traffic, solicits provider bids, and validates peak throughput. The memo reports rising agent traffic on OpenRouter, which supports the direction of demand. The investment assumption is that as agent usage grows, providers will struggle to add capacity quickly enough for bursts that must meet specific model quality and latency requirements. The testimonial supports the product fit for one workload. The frequency of shortages and the time needed to secure equivalent capacity remain open. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-RouterPlus reports 3 million agent conversations per day at its largest customer, and a consumer app customer reported 25% lower P95 latency after switching models. These are signs of production adoption and customer benefit. Paid reservations and renewals remain unverified. The team shipped EVO Router and then the managed marketplace, drawing on relevant GPU infrastructure and edge deployment experience. Repeating peak-capacity procurement across customers is the next execution test. (Market & Traction, Key Facts, Founders & Team)
+The industry-enabled path scores zero. A consumer app reported 25% lower P95 latency after switching to an open model, and the memo reports a 30% inference cost reduction for a consumer chat app. These gains improved existing workloads. The memo identifies no buyer or use that became economically viable because of them. (*Market & Traction*)
 
-The expansion unit is a reserved-capacity deployment for a production workload. Under a scenario where RouterPlus earns revenue on the reservation, contribution would be the amount it retains after provider capacity costs, including any idle or backup capacity it pays for, and the cost of benchmarking, load testing, and support. Published marketplace token rates carry no RouterPlus markup, and bring-your-own-key traffic carries no RouterPlus inference fee. Reserved capacity is quoted case by case, so traffic volume alone leaves the economics unresolved. (The Idea, Key Facts, Key Risks)
+RouterPlus’s terms grant reuse rights for de-identified requirements and derived benchmarks, and the company reports one pooled provider deal. Those are early sources of bargaining leverage. Their effect on pricing power remains untested. Customer testimonials support real use, and RouterPlus reports 3 million daily agent conversations at its largest customer. Paid conversion and repeat procurement remain unverified. The team shipped EVO Router and the managed marketplace and has relevant GPU infrastructure experience. Reliable delivery across repeated peaks remains unverified. Standard token usage carries no RouterPlus markup, and reserved capacity is quoted individually. The memo provides no contract economics to assess contribution after provider, backup, and support costs. (*Defensibility*, *Market & Traction*, *Founders & Team*, *The Idea*, *Key Facts*)
 
 ### Countercase
 
-Routing, benchmarking, and failover already have substitutes, and TrustedRouter also offers capacity procurement. RouterPlus reports one pooled provider deal, and its terms grant rights to reuse de-identified requirements and derived benchmarks. Those rights could improve future matching, but the memo shows no measured benefit from adding participants. Provider quotes and availability are indicative until a definitive agreement, and the memo establishes no enforceable capacity rights. The scarce-complement path therefore remains testable. The New Economies path lacks evidence of a labor-cost reduction per successful outcome that opens a previously excluded market, or a reason those buyers would keep paying RouterPlus under model parity. (Defensibility, Market & Traction, Key Risks, The Idea)
+Peak-capacity friction may reflect a procurement and scheduling mismatch. Some teams hit serverless rate limits while others leave reserved capacity idle. OpenRouter already offers provider selection and failover, and NVIDIA’s open-source tooling covers routing and benchmarking. RouterPlus’s own provider quotes and availability are indicative until a definitive agreement. If buyers can readily secure equivalent peak throughput through these alternatives, the building-block path falls to zero and the Pass gate applies. The 15× case leaves that comparison open. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 10/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 51/100** (Neutral)
+**Total Score: 35/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent production customer renew a paid peak-capacity reservation after testing a credible alternative? Move to Reach out if the renewal shows enforceable primary and backup capacity, load tests that meet the customer’s peak requirement, and positive contribution after capacity and service costs. Pass if the comparison shows the buyer can readily secure equivalent peak coverage on comparable terms.
+Can RouterPlus contract for and deliver burst inference that a buyer cannot readily procure elsewhere? A buyer-verified production test would move the action to Reach out if RouterPlus meets agreed throughput, quality, and P95 latency targets with committed primary and backup capacity, while direct procurement and competing routers cannot secure equivalent service at comparable cost within the buyer’s window. If those alternatives readily meet the same requirements, move to Pass.

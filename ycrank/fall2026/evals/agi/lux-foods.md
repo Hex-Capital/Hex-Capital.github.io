@@ -1,32 +1,33 @@
 ﻿# Lux Foods -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest candidate path. Lux pairs compact, sugar-fed tomato plants with crop-specific robotic handling. Lux reports 90% lower light intensity than conventional cultivation. The AGI thesis depends on robotic handling materially reducing human labor per saleable kilogram. The memo gives no comparative labor measurements. (The Idea, Key Risks)
+Lux’s strongest commercial case is supplying chefs and grocers with specialty cherry tomatoes year-round. The company describes compact, sugar-fed plants designed for robotic handling and reports 90% lower light intensity than conventional cultivation. The memo documents existing greenhouse and automated indoor tomato suppliers. Lux reports that its first San Francisco farm is under development and that its projected yield and vessel-to-module design still need validation. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-A plausible scenario is a chef who leaves a winter dish off the menu because a reliable supply of the required specialty tomato is too expensive. The chef’s prior delivered cost is unknown. The comparison would measure human labor and fully loaded delivered cost per saleable kilogram at the required quality and delivery frequency. Lower lighting and handling costs would have to cover sugar, other facility costs, capital, crop losses, and fulfillment. Lux says its yield projection and vessel-to-module design still need validation. (The Idea, Key Risks)
+Both AGI paths score zero. Lux’s product serves produce buyers, and the memo identifies no AI workload for which it supplies a scarce input. For the industry path, the incumbent delivery model is year-round greenhouse supply. The memo describes a potential lighting benefit, but gives no evidence that AI lowers labor or supervision costs enough to make a previously uneconomic variety, buyer segment, or supply cadence viable. Delivering fresh tomatoes would still require physical production and fulfillment even if buyers had access to equally capable models. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Under model parity, buyers could still pay Lux for reliable physical supply if Lux controls the production process and can consistently deliver the required fruit. The compact-plant patent is assigned to the University of California Regents, and Lux’s license terms are unverified. Yeung’s plant genetics and robotic manipulation work complements Jinkerson’s controlled-environment crop research. That experience supports a pilot, with repeatable commercial production still to demonstrate. (Defensibility, Founders & Team, Key Risks)
+The founders’ compact-plant and robotic-handling work supports modest credit for specialized know-how. The plant patent belongs to the University of California Regents, and Lux’s license terms are unverified. Jinkerson’s reported orbital germination result and Yeung’s prior produce distribution support seed-stage execution credit. The memo records outreach to prospective buyers and supplies no evidence of trials, orders, or revenue. It also gives no per-unit cost bridge from lighting intensity to saleable fruit after sugar feedstock, labor, and facility costs. Those gaps limit confidence in the commercial case. (*Defensibility*, *Founders & Team*, *Market & Traction*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Lux may have a production efficiency gain in an established market. Its outreach targets buyers already served by year-round greenhouse suppliers, and Oishii already sells tomatoes from automated indoor farms. The memo records pilot outreach and a farm under development, with no buyer commitments, paid orders, or repeat purchases documented. Existing supply makes market opening uncertain, while the memo leaves open whether incumbents can serve the same specialty use at the required quality and price. That keeps the action at Watch. The memo provides no independent evidence of a scarce asset Lux controls whose value rises with AI demand. (The Idea, Market & Traction, Key Risks)
+If AI-guided handling materially reduced labor per saleable pound, Lux’s compact plants could make dependable year-round supply of a specialty variety economical for buyers who can only source it intermittently today. The plant and robot co-design gives that scenario a plausible starting point. The memo supplies no measured AI labor savings or buyer evidence for that specific supply gap, so the scenario leaves the Pass gate in force. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can a pilot module that Lux has the rights to replicate win a repeat paid order from an independent buyer for a use that was previously uneconomic? The pilot should document the buyer’s prior sourcing cost, show materially lower human labor and delivered cost per saleable kilogram at the required quality and delivery frequency, and earn a price that covers that cost. Meeting that milestone would move the action to Reach out. Evidence that equivalent supply already serves the proposed use at a viable price would move it to Pass.
+Can a paid San Francisco farm pilot show that AI-guided handling brings the fully loaded cost per saleable pound below a buyer’s price for a specialty variety they previously could not source reliably year-round? A purchase at that price, supported by a comparable run using conventional handling to isolate the AI savings, would move the action to Reach out. (*The Idea*, *Key Risks*)

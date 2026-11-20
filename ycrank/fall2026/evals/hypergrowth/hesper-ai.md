@@ -5,30 +5,28 @@
 
 ### Company case
 
-Assuming strong product-market fit, Hesper’s strongest path is to sell claims investigations to MGAs and TPAs that already use Guidewire, Duck Creek, or Majesco, then process a growing share of each customer’s claims. Hesper lists APIs that ingest claim files and return evidence-linked findings for adjuster review. The same workflow could serve buyers abroad, although coverage rules, provider verification, and access to external data may require local changes. (The Idea, Defensibility, Key Risks)
+Assuming strong product-market fit, Hesper’s most credible growth path is to sell usage-based claims investigations to managing general agents and third-party administrators that already use one of its supported claims systems. Evidence gathering and adjuster review plausibly recur across markets. Hesper lists three claims-system integrations that could reuse file intake and delivery of cited findings, while the work required to adapt coverage checks, provider verification, and external data access remains uncertain. Founder-led demos, custom quotes, and a launch-program application indicate assisted acquisition. The connectors give buyers a reusable implementation step, and the memo leaves the amount of hands-on setup unresolved. (The Idea, Defensibility, Key Risks)
 
-The documented buying path runs through founder demos or launch applications, with custom quotes. The connectors give Hesper a way to reuse setup work, while pricing by claim volume, insurance line, and agents deployed gives retained accounts a concrete way to spend more. Expansion could offset churn if customers route more claims or add lines at paid rates. The memo gives no history of same-account billing to establish that outcome. (The Idea, Defensibility, Key Facts)
+A steady flow of claims creates recurring paid usage, and retained accounts could spend more by routing more claims or deploying more agents. That is a plausible way for expansion to offset churn. Account-level retention remains unmeasured in the memo. Hesper reports paying production customers by November after rebuilding the product for investigations before September, an early commercialization signal for a three-person team. The reported $5 million-plus measures claim value processed. The memo gives no dated series for revenue, paying customers, or billable claims from which to establish a steep commercial trajectory. (The Idea, Market & Traction, Key Facts)
 
-Hesper reported paying production customers by November after rebuilding the product for investigations before September. The memo lists a three-person team, which makes the short time to paid use encouraging. The first paid date, customer count, and revenue growth remain unknown. The reported $5 million measures claim value processed. The founder-reported 82% reduction in adjuster time at one MGA supports potential buyer value. (Market & Traction, Key Facts)
-
-At paid volume, incremental contribution is the usage charge less inference, provider calls, database queries, support, and attributable sales and setup labor. If customers can reuse connectors and configure policy rules with little Hesper staff time, paid claim volume could grow faster than those labor costs. The memo gives no realized rates or operating costs, so contribution remains unverified, including whether paid usage recovers the cost of the introductory offer. (The Idea, Defensibility, Key Facts)
+In a rollout scenario where buyers reuse the same connector, incremental contribution would be the fee per paid claim minus inference, provider calls, database queries, and support, with attributable sales and setup effort spread over paid volume. Connector reuse could reduce setup cost per buyer, and higher volume could spread that cost over more claims. The founder-reported 82% reduction in adjuster time at one customer measures buyer savings. Hesper’s realized fees and delivery costs remain unknown. (The Idea, Defensibility, Market & Traction)
 
 ### Countercase
 
-The connectors may standardize file transfer while leaving Hesper to configure coverage rules, secure local data access, and support each insurer’s approvals. If that work recurs across accounts and markets, founder-led selling and deployment labor could absorb the gains from automation. The structural gate stays open because the listed connectors provide a credible basis for reuse and the extent of required rebuilding and staff work remains uncertain. (The Idea, Defensibility, Key Risks)
+The strongest downside is that the connectors standardize file exchange while each market still requires bespoke coverage logic, approvals, and data access. Carrier-specific workflows, oversight of third-party AI, and audit provisions make that plausible, and Duck Creek’s native agent infrastructure gives buyers an alternative inside an existing system. The structural downside gate stays open because the memo establishes reusable interfaces and leaves the extent and economics of the remaining work unresolved. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 7/25 |
 | Retention economics | 16/20 |
 | Initial traction | 10/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 51/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Hesper repeat a paid MGA or TPA rollout in a second market using an existing connector and bounded local configuration? Move to Reach out if the buyer reaches production with minimal Hesper staff time and recurring paid claims generate positive contribution after direct costs, including setup and support. Keep watching if those results remain unverified. Pass if the rollout shows that substantial market-specific rebuilding is unavoidable.
+Can a comparable buyer in a second market reach paid production through an existing connector using standard setup? A rollout record showing limited changes to policy logic and data access, little staff time from sale to first value, and healthy contribution at normal paid volume would support Reach out if the updated score reaches 65. Documented bespoke rebuilding with no credible reuse path would trigger Pass.

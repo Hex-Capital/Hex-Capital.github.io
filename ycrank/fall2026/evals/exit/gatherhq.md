@@ -5,34 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic sale to an enterprise marketing or research platform. GatherHQ combines fresh buyer interviews with simulations and campaign production, giving a platform a way to turn buyer research into tools its marketing customers can use in their existing workflows. The memo documents a co-published Cover Genius study that surveyed 1,392 consumers across seven countries, and Gather reports adoption by 65+ enterprise marketing teams. The study demonstrates that Gather can deliver research at scale. The incremental value of the simulations and campaign tools remains unmeasured. Gartner’s acquisition of the founders’ prior company, Pulse Q&A, provides an adjacent transaction without establishing a price for GatherHQ. (*The Idea*, *Market & Traction*, *Founders & Team*)
+A strategic acquisition by an enterprise marketing software vendor is GatherHQ’s strongest liquidity route. Gather combines fresh buyer interviews, simulations, and campaign production in one workflow. A buyer could use that workflow to add research and message testing to its marketing suite. The memo’s account of Salesforce’s agreement to acquire Listen Labs shows strategic interest in adjacent research tooling. Gather’s own value to an acquirer remains unmeasured. (*The Idea*, *Key Risks*)
 
-Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3%, with no follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity value. The sale scenarios assume an eligible holder sells the full stake for cash within eight years, with $5 million in combined net debt and deal costs and a pro rata waterfall with no senior claims.
+The Cover Genius report documents a deployment that surveyed 1,392 consumers in seven countries. Gather reports 65+ enterprise marketing teams, and a founder reported quarterly revenue more than doubling and customer upsells. Those signals make a paid enterprise test of whether fresh interviews improve message predictions against observed buyer responses a plausible milestone. Gather reported $5 million in pre-seed funding for its prior product. Current runway and the cost of reaching that milestone remain unknown. (*Market & Traction*, *Key Facts*)
 
-| Scenario | Proceeds bridge | Gross cash to holder |
-|---|---|---|
-| Modest sale | $50M enterprise value less $5M yields $45M in distributable equity | $1.35M (2.7×) |
-| Strong sale | $100M enterprise value less $5M yields $95M in distributable equity | $2.85M (5.7×) |
-| Prolonged private | Continued operation with cash reinvested and no eligible share sale or payout | $0 (0×) |
+A whole-company sale is plausible given the standalone web product and API. Customer agreements govern data processing and model improvement, leaving an acquirer’s rights to retain and reuse interview data unresolved. The memo provides no supported independent liquidity route. (*The Idea*, *Key Risks*)
 
-The sale prices are scenario assumptions. Under those assumptions, the enterprise-value hurdle is about $88.3 million. At 2.5% ownership, even the strong sale yields about $2.38 million. Published usage pricing and reported customer upsells provide some evidence of monetization. The memo leaves recurring revenue, buyer economics, and the actual waterfall unverified, so the strong case remains conditional. (*Key Facts*)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, requiring about $83.3 million in distributable equity at 3%. The sale cases below are illustrative sensitivities. They assume $5 million in combined net debt and deal deductions, full holder eligibility, a sale of the entire stake, cash paid within eight years, and a pro rata waterfall with no senior preference diversion.
+
+- **Modest sale.** $40 million in enterprise value yields $35 million in distributable equity and $1.05 million in holder cash, or 2.1×.
+- **Strong sale.** $105 million in enterprise value yields $100 million in distributable equity and $3 million in holder cash, or 6×. Selling only half the stake at the same price yields $1.5 million, or 3×.
+- **Prolonged private operation.** Reinvesting available cash with no eligible share purchase or payout yields zero realized proceeds.
+
+The memo supplies no transaction price or absolute revenue base to ground a sale valuation. The strong case shows what would clear the hurdle under the stated assumptions.
 
 ### Countercase
 
-A platform could cover much of the workflow with an overlapping vendor. The memo cites Salesforce’s announced Listen Labs deal, and both Listen Labs and Outset already offer AI interviews and automated analysis. Gather reports drawing on 300,000+ interviews, but customer agreements govern data processing and model improvement. If those agreements restrict a buyer’s use, or if simulations add little measurable value, the buyer could have little reason to pay the price needed for a 5× return. The evidence establishes neither a closing barrier nor a credible price ceiling below the hurdle, so it does not trigger the Pass gate. (*Defensibility*, *Key Risks*)
+Salesforce is the closest strategic signal and the clearest substitution risk. Its Listen Labs agreement gives it a path to overlapping interview and analysis capabilities, and other vendors already offer parts of Gather’s workflow. If Gather’s simulations show little added predictive value or an acquirer cannot reuse the underlying interview data, the economic case for buying Gather weakens substantially. The memo establishes neither a structural closing block nor a valuation ceiling that would trigger Pass. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
-| Plausible investor proceeds | 9/30 |
-| Milestones and capital needed | 11/20 |
+| Counterparty rationale or source of cash | 17/30 |
+| Plausible investor proceeds | 8/30 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can GatherHQ show a prospective buyer that adding its simulations and campaign tools to an existing interview workflow creates enough economic value to justify an acquisition above the proceeds hurdle? A buyer-backed valuation grounded in repeatable gains from paid deployments would move the action to Reach out if the implied price clears the hurdle under plausible holder terms. A supported price ceiling that leaves the holder materially short would move the action to Pass.
+Would a strategic buyer value Gather’s workflow and transferable data rights highly enough for the benchmark holder to receive $2.5 million in cash within eight years? A buyer-grounded indicative price range backed by measured customer outcomes, with a preliminary waterfall showing that payout, would move the action to Reach out.

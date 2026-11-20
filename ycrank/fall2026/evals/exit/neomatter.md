@@ -5,34 +5,34 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a legal workflow platform such as Checkbox. Checkbox offers routine self-service, while Neomatter describes a product that picks up requests across email and chat, applies customer-specific playbooks, and prepares cited drafts for lawyer approval. A buyer could use that capability to handle more of the work that follows intake. Neomatter’s CEO reports that one unnamed customer saved dozens of hours per week and thousands of dollars in outside-counsel spending. That claim suggests a reason to buy if the savings repeat across paying customers. The memo provides no evidence of acquisition interest. (The Idea, Defensibility, Market & Traction)
+The strongest route is a strategic sale to a legal software platform such as Legora. Neomatter describes a product that automatically picks up requests across email and chat, applies customer-specific playbooks, and queues cited drafts for counsel approval. Legora’s Slack intake uses its existing Skills. A buyer could gain broader intake coverage and save customers work by acquiring Neomatter. The CEO’s report that one unnamed customer saved dozens of hours weekly and thousands in outside-counsel spending gives that rationale some support. Repeatability and the incremental benefit over incumbent tools remain unverified. (The Idea, Defensibility, Market & Traction)
 
-The next operating milestone is to show that multiple paying legal teams retain the product and sustain measurable savings on work their existing tools leave to counsel. The public launch and the CEO’s reported 73% weekly user growth from an undisclosed base make that test plausible. Backing is reported, with amounts undisclosed, so the capital and runway available to reach the milestone are uncertain. A share sale could preserve the entity that holds customer contracts. The memo describes tenant isolation and access logging, while change-of-control terms, privileged-data permissions, and continued integration access remain unverified. (Market & Traction, Key Risks)
+The October launch and named-seat subscription terms make retained paid deployments with measured savings a plausible milestone. The CEO’s reported 73% weekly user growth has an undisclosed starting count. The memo gives no paid customer count, retention, or runway to assess how much time and capital the milestone requires. The company reports controls for privileged data, but the rights to transfer customer contracts, playbooks, and integration access remain unverified. (The Idea, Market & Traction, Key Risks)
 
-**Proceeds scenarios.** Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The eight-year 5× objective requires $2.5 million in gross cash, or about $83.3 million in distributable equity at 3%. Both sale scenarios assume $10 million in combined net debt and other deal deductions, no preference diversion, and an eligible holder selling the full position for cash within eight years. The prices are illustrative assumptions. The memo supplies no buyer valuation, acquisition comparable, or holder terms. (Market & Traction, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity. The sale scenarios below assume the holder is eligible to sell the full stake, the remaining equity proceeds are distributed pro rata with no preference payments, and all consideration is paid in cash within eight years.
 
-| Scenario | Gross cash to the holder |
-|---|---|
-| Modest sale | $40 million enterprise value leaves $30 million in distributable equity and pays the holder $900,000, or 1.8×. |
-| Strong sale | $100 million enterprise value leaves $90 million in distributable equity and pays the holder $2.7 million, or 5.4×. If only 80% of that consideration is received in cash within eight years, proceeds fall to $2.16 million, or 4.32×. |
-| Prolonged private | Continued operation with cash reinvested yields zero realized proceeds. The memo provides no evidence of an eligible secondary or funded payout. |
+- **Modest sale.** An illustrative $40 million enterprise value less $5 million in debt and deal adjustments leaves $35 million in distributable equity and $1.05 million to the holder, or 2.1×.
+- **Strong sale.** An illustrative $100 million enterprise value less $10 million in debt and deal adjustments leaves $90 million in distributable equity and $2.7 million to the holder, or 5.4×. If only 80% of the payout arrives within eight years, cash received falls to $2.16 million, or 4.32×.
+- **Prolonged private.** Continued operation with cash reinvested yields zero realized proceeds. The memo provides no evidence of an eligible secondary or funded payout.
+
+The memo does not substantiate either sale price with buyer economics, comparable transactions, or deal terms. The strong scenario shows what would have to be true for the holder to clear the hurdle. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A strategic buyer may already have enough of the workflow. Legora routes Slack requests into its existing Skills, and LegalOn offers intake and drafting agents. Neomatter’s broader automatic intake and customer-specific playbooks could still save meaningful time, but the memo leaves retention and switching costs unverified. That gives incumbents a credible build-or-use-existing option and leaves the acquisition price unsupported. It does not establish a structural barrier or show that even the strongest credible sale would pay too little, so the Pass gate does not trigger. (The Idea, Defensibility, Market & Traction, Key Risks)
+Legora already routes Slack requests into its configured Skills, and LegalOn already offers intake and drafting agents. If broader automatic intake and customer-specific playbooks save little additional work, either platform could extend its own product and have little reason to buy Neomatter. Privileged data and third-party integrations add uncertainty about what an acquirer could carry forward. The memo establishes neither a structural closing block nor a credible price ceiling below the proceeds hurdle, so the Pass gate does not trigger. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Do sustained savings at retained, paying legal teams give a strategic buyer enough incremental value over its existing intake tools to support a price that clears the holder’s eight-year cash hurdle? Customer-verified results and buyer-side evidence of what the platform would pay would move the action to Reach out if they support a plausible payout of at least $2.5 million. If the best supported price leaves the holder materially short, move to Pass.
+Would a legal software platform pay enough for Neomatter’s cross-channel workflow to leave at least $83.3 million in distributable equity under the benchmark terms? Measured savings at multiple renewing paid customers against the platform’s existing intake, paired with a buyer-side buy-versus-build estimate that clears the hurdle, would move the action to Reach out.

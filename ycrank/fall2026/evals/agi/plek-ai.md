@@ -1,32 +1,33 @@
 ﻿# Plek AI -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. Plek maps employee census records to tasks and reconciles overlapping savings employee by employee. Plek says the manual alternative takes six to eight weeks and reports that its model matched an adviser’s $30 million estimate of potential annual EBITDA improvement at a 3,600-person company. That comparison supports the feasibility of modeling a live case. Plek’s analyst hours, all-in delivery cost, and realized savings remain unverified. (The Idea, Market & Traction, Key Risks)
+Plek uses AI to map employee census records to tasks, model workforce changes, and reconcile overlapping savings employee by employee. It uses AI to deliver workforce analysis and has no evidenced role in supplying a scarce input to AI deployment. The building-blocks path scores zero. (The Idea)
 
-**Scenario assumption.** Smaller PE deals that currently skip workforce diligence could become viable buyers if Plek materially reduces the cost per decision-ready study, including human validation. Employee-level traceability and reusable portfolio mappings give buyers a plausible reason to keep paying Plek when competing products have access to equally capable models. The memo contains no evidence of buyer preference under functional parity. (The Idea, Defensibility)
+The industry-enabled path also scores zero. Plek says manual workforce studies take six to eight weeks and reports matching an adviser’s estimate of $30 million in potential annual EBITDA improvements at a 3,600-person company. That comparison benchmarks modeled savings. The memo gives no Plek turnaround time, fully loaded delivery cost, or evidence that a buyer used the analysis on a deal that would otherwise have gone without it. The supported case is an improvement to an existing diligence workflow. With both paths at zero, the decision gate calls for Pass. (The Idea, Market & Traction, Key Risks)
 
-Plek reports four completed pilots, a deployment at an unnamed $2 billion PE fund, and onboarding with an advisory firm. Those are early commitments. Payment, repeat use, and whether these buyers previously went without a study remain unknown. Bouquet’s published workforce research and Carrier’s prior optimization software work support execution. At scale, each study must cover census preparation, inference, mapping review, and any validation interviews, with enough margin to absorb free work on abandoned deals. The memo gives no basis for estimating that contribution. (Market & Traction, Founders & Team, The Idea, Key Risks)
+Employee-level reconciliation and reusable workforce mappings give Plek a workflow that could become harder to replace with repeat use. Existing tools cover adjacent capabilities, and customer preference under comparable AI capability remains untested. The four reported pilots and initial fund deployment show buyer engagement, with payment and repeat use unconfirmed. Bouquet’s published workforce research and Carrier’s prior optimization software work support execution at seed, with dependable commercial delivery still open. Fees are set by contract, and the memo gives no price or delivery cost per completed study, including review and any validation interviews. Confidence is medium because the workflow and team experience are concrete, while the key commercial and benchmark evidence is company-reported. (Defensibility, Market & Traction, Founders & Team, Key Facts, Key Risks)
 
 ### Countercase
 
-Plek may make an existing advisory workflow more efficient while leaving its buyer base intact. Orgvue already sells M&A workforce scenario tools, and Reejig already maps work at the task level. If census mappings need substantial interview-based correction, human review could also erode the savings needed to serve smaller deals. The memo establishes competitive overlap. Functional parity, customer switching, and an uneconomic delivery cost remain untested, so the path stays open on Watch. The memo gives no independent basis for a scarce-complement case. (Defensibility, Market & Traction, Key Risks)
+If a bid deadline is shorter than the manual-study turnaround, Plek could make task-level diligence viable on deals a sponsor would otherwise screen without it. The reported benchmark suggests Plek can produce a comparable estimate in one case, and its reconciliation workflow could give buyers a reason to use a separate product even with access to equally capable models. The memo’s free offer on abandoned deals shows how Plek can get the analysis in front of sponsors, while leaving open whether it can deliver a decision-ready result within a live bid window at a viable price. The countercase leaves the Pass gate in place. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 10/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 24/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent PE sponsors repeatedly pay for Plek on smaller deals where they previously skipped workforce diligence, even when a functionally comparable alternative is available? Move to Reach out if a cohort shows repeat paid orders, a materially lower all-in cost per decision-ready study against a comparable manual baseline, and a documented preference for Plek after buyers compare alternatives. If the cohort shows that the cost reduction fails to open those deals or that buyers readily switch at parity, move to Pass.
+Can Plek deliver a paid, decision-ready workforce analysis before the bid deadline on a live deal where the sponsor would otherwise skip the study? A sponsor-confirmed case documenting the prior workaround, turnaround, price, and analyst or interview time would change the action to Reach out if it showed Plek made the study viable within the buyer’s deadline and budget.

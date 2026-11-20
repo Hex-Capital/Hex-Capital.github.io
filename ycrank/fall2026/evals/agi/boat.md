@@ -1,32 +1,33 @@
 ﻿# Boat -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-Boat’s strongest AGI path is a scarce complement for long-running agents. Boat documents full Ubuntu VMs with Docker and a browser desktop that developers can stop, resume, and fork. These features could make persistent execution more valuable as agents take on longer tasks. One customer reported using his Claude allowance four times as fast after adopting Boat, which signals more activity while leaving successful task throughput and recovery unmeasured. Boat says it operates the stack from CPU hosts through orchestration and built its snapshot system in-house. That gives it a plausible way to improve recovery and manage costs, while scarcity and switching costs remain unproven. (The Idea, Market & Traction, Defensibility)
+**Building blocks of superintelligence.** Boat supplies persistent, isolated Ubuntu VMs for long-running agents that need a browser, desktop, Docker, or the ability to resume and fork an environment. Longer agent tasks could increase demand for those environments. The memo describes self-provisioning and several overlapping managed options. Boat’s burst limits establish a ceiling on its own service, and the memo identifies no workload for which buyers consistently exhaust suitable capacity or face long lead times for alternatives. The scarcity mechanism earns zero. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The founder reported 350+ paying users in September and $1 million ARR in November, up from $200,000 a month earlier. These are meaningful early demand signals. The memo leaves buyer concentration, repeat use, and willingness to pay specifically for persistent execution unresolved. The founders built the VM layer for their own cloud coding agent before shipping it as a standalone product, demonstrating relevant execution. (Market & Traction, Key Facts, Founders & Team)
+**Industry enabled by superintelligence.** Teams previously provisioned and maintained their own environments or rented sandboxes. Boat can reduce that operational work, and comparable models would still need somewhere to execute and preserve state. The memo identifies no previously excluded buyer or workflow that becomes affordable because AI lowers the fully loaded cost per successful outcome. This path also earns zero, triggering Pass. (*The Idea*, *Market & Traction*)
 
-Billable VM hours are the expansion unit. In a scenario with 1,000 billable hours at the listed default rate, compute charges would be $36. Contribution at that rate depends on host utilization, snapshot storage, network costs, and spare capacity for bursts. Auto-stop can reduce idle compute, and Boat’s documented burst limits leave peak-load capacity and cost open. (The Idea, Key Risks)
+The strongest commercial case is managed infrastructure for teams running stateful agents. Boat documents a shipped product, and the founders first built the VM layer for Ascii’s own coding agent. Its company-described control of the stack and in-house snapshots support some operating advantage. Migration costs are plausible as customers accumulate snapshots and integrations, but remain unmeasured. The founders report more than 350 paying users and $1 million in ARR. A named customer reports using his Claude allowance four times as fast after adopting Boat, which shows actual use while leaving paid retention unverified. Published pricing of $0.036 per VM-hour and auto-stop give a starting point for assessing economics, but host utilization, snapshot costs, and support costs are missing. The product documentation and customer account support medium confidence, with the headline traction figures still founder-reported. (*The Idea*, *Defensibility*, *Founders & Team*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-Agent demand could grow while execution becomes interchangeable. E2B offers fast resume and self-hosting, and AWS bundles browser and code execution into AgentCore. Those are credible substitutes for overlapping workloads. The memo gives no comparative recovery results or evidence that buyers switch readily for workloads that need a persistent desktop and Docker together. That leaves the scarce-complement path open at Watch. The memo also leaves the New Economies path unsupported because it identifies neither a previously excluded buyer or use nor a measured reduction in labor cost per successful outcome. (The Idea, Defensibility, Market & Traction, Key Risks)
+Boat could be an early supplier of a scarce input for agents that need persistent desktop and Docker environments with frequent restarts. That scenario assumes buyers need those features together and that self-hosting or competing sandboxes cannot meet their launch, resume, and concurrency requirements on a usable timeline. A founder-reported 100,000-plus daily VM starts makes burst capacity worth testing. The memo does not establish that buyers face the same limits across suppliers, so the countercase does not clear the outreach gate. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 14/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 10/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 26/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent customers keep paying Boat’s standard price after running the same persistent desktop-and-Docker workload on Boat and their best available substitute? Repeat paid use tied to a measurable advantage in task completion, recovery, or cost per successful run would move the action to Reach out. Comparable results followed by ready switching would close the scarce-complement path and move the action to Pass.
+Can Boat show that a buyer’s production rollout was delayed because suitable persistent VM capacity was unavailable? A buyer-confirmed comparison showing that realistic alternatives could not supply the required concurrency and resume performance on the rollout timeline, together with a representative Boat deployment that met those requirements, would change the action to **Reach out**. Evidence limited to easier setup or lower pricing would leave the action at **Pass**.

@@ -5,28 +5,28 @@
 
 ### Company case
 
-Assuming strong product-market fit on an initial U.S. feeder route, Aviern’s strongest path is to win a carrier account and add recurring airport-to-airport routes for urgent freight using the same aircraft design and AviernOS. Aviern reports more than 150 autonomous miles on a scaled demonstrator and targets a 1,000 lb payload for its planned A1000. Carrier introductions are the documented acquisition path, and I infer that ordinary buyers would need hands-on route qualification and onboarding. Scheduled flights could support repeat purchases, and adding routes within an account could expand spend. Contract terms and recurring billing remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
+Assuming strong product-market fit with U.S. regional freight carriers, Aviern’s best growth path is to add feeder routes within an existing carrier network using the same aircraft design and AviernOS. Aviern reports more than 150 autonomous miles on a scaled demonstrator. That supports reuse of the flight software at demonstrator scale. The planned 1,000 lb A1000 still awaits full-scale flight validation, and its design targets a proposed U.S. regulatory framework. The urgent freight job could recur abroad, but the current design’s regulatory dependence limits near-term portability. (The Idea, Market & Traction, Key Risks)
 
-The memo records an October cargo launch after a September focus on inspection and reports that the five-person team built and flew the scaled aircraft in under two months. That indicates rapid prototyping. The cargo product’s revenue status is unknown, so initial traction takes the absent-evidence default. (Company overview, Market & Traction, Key Facts)
+Aviern’s launch solicits introductions to named carriers, suggesting a direct sales path with approvals and route setup before first value. The memo shows little of that work is reusable today. If a carrier built Aviern into its dispatch workflow, recurring feeder flights could support repeat purchases, and additional routes could expand the account under an assumed per-flight pricing model. The memo establishes neither paid repeat use nor cargo revenue status, so initial traction takes the absent-evidence default. (The Idea, Defensibility, Key Risks, Key Facts)
 
-**Contribution scenario.** Assuming Aviern sells freight service per flight, incremental contribution is the carrier fee less flight hours multiplied by Aviern’s estimated $100 per operating hour, plus deductions for any direct ground, support, onboarding, and added fleet costs outside that estimate. The planned cockpit-free design could raise billable payload per flight if routes fill the extra capacity. Carrier pricing, utilization, and the scope of the operating-cost estimate are unknown, so the sign of contribution remains uncertain. (The Idea, Key Risks)
+Under that pricing assumption, incremental contribution would be the flight fee less aircraft operating costs, attributable sales and onboarding, ground handling and support, and any added aircraft capacity. Aviern estimates about $100 per flight hour in aircraft operating cost. The cockpit-free design could improve payload economics, but the memo gives no customer price, representative utilization, or measured deployment costs to establish contribution. Cost economics takes the default. (The Idea, Key Facts)
 
 ### Countercase
 
-Even with strong U.S. demand, Aviern could face substantial new approval work in each market. Its first airframe is designed around a proposed U.S. rule whose cited general ceiling is 1,320 lb, while the same draft caps certificated package-delivery aircraft at 110 lb total weight. How the FAA classifies airport-to-airport feeder service therefore matters even for the initial market. Growth would also require more aircraft once existing capacity fills. The structural downside gate remains open because the extent of market-specific rebuilding and the economics of adding fleet capacity are unresolved. (The Idea, Market & Traction, Key Risks)
+Even with strong carrier demand, regulatory classification could keep the planned aircraft off its intended routes. Aviern cites the draft’s 1,320 lb general ceiling, while the draft caps certificated package delivery at 110 lb total aircraft weight. If feeder flights fall into that category, the planned 1,000 lb payload would be incompatible with the cap. Growth would also require additional aircraft capacity as available capacity fills. The structural gate remains open because the classification is unresolved and the memo does not establish that market-by-market rebuilding is unavoidable or that serving more routes is economically infeasible. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 7/25 |
+| Global buyer demand | 8/25 |
 | Repeatable acquisition and onboarding | 4/25 |
-| Retention economics | 9/20 |
+| Retention economics | 8/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 31/100** (Pass)
 
 ### Decisive diligence question
 
-Can the same production airframe and AviernOS qualify for a comparable feeder route under a second aviation regulator with bounded changes? A regulator-backed assessment identifying the required design and operating changes would answer it. Bounded changes would keep Aviern on Watch. Evidence that comparable markets require substantial bespoke rebuilding with no credible near-term transfer path would move the action to Pass.
+Can Aviern replicate a paid, regulator-authorized feeder route in a second regulatory market using the same airframe and AviernOS, with bounded setup work and positive incremental contribution after onboarding and aircraft capacity costs? Repeat paid flights and actual route economics would justify rescoring for Reach out if the result reaches 65 with at least Medium confidence. Evidence that replication requires substantial redesign without a credible near-term transfer path would change the action to Pass.

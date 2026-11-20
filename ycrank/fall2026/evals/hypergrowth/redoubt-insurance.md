@@ -5,28 +5,30 @@
 
 ### Company case
 
-Redoubt’s strongest path is to scale its existing U.S. brokerage for small trucking fleets. Assuming strong product-market fit, software that finds prospects in public records and uses a shared account history to prepare quotes, issue certificates, and handle renewals could let a small team serve more fleets. The current intake runs through phone and text, and Redoubt describes introducing autonomy through human approval. Those are reusable steps in a broker-assisted sales and onboarding process. The memo leaves open how much intervention a typical fleet needs before coverage is bound. (The Idea, Defensibility, Key Risks)
+Even assuming strong product-market fit with U.S. small fleets, Redoubt’s brokerage depends on carrier access, tailored policy placement, and filings tied to U.S. operating authority. Its shared account record and tools for preparing submissions and servicing policies could carry over abroad. The current brokerage would still likely need substantial work to secure local carrier access and adapt placement and filing workflows. The memo establishes no near-term path to serving comparable foreign fleets with bounded changes, so the structural downside gate applies. (The Idea, Market & Traction, Key Risks)
 
-The founder reports 19 accounts by November after an October launch, with a one-person team. That pace shows early adoption. The $37,600 figure is expected annual net commissions, and the memo leaves realized commissions and the number of accounts with paid, bound policies unclear. Initial traction therefore uses the default for unverified commercial uptake. Renewal commissions and accumulated account records support recurring revenue, with limited evidence that retained fleets will generate more commission over time. (Market & Traction, Founders & Team, Key Facts, The Idea, Defensibility)
+The published quote path starts by phone or text. Redoubt says it uses public records to find prospects and automates parts of submission preparation and quote comparison. Those steps are reusable, while tailored placement and human approval still constrain the path to first value. Placement and renewal commissions give Redoubt a credible recurring revenue mechanism, and accumulated account history can make ongoing servicing easier. A retained fleet could generate more commissions if it adds insured vehicles or coverage, but the memo gives no basis to judge whether that expansion would offset churn. (The Idea, Defensibility, Key Risks)
 
-If the commission estimate covers those 19 accounts and is realized, it implies about $1,980 in annual net commissions per account on average. Incremental acquisition, placement, servicing, and software costs would need to fit within that amount for the average account to contribute. Automating submission preparation and routine servicing could reduce labor per account. The memo gives no measured costs or review times to establish positive contribution. (Key Facts, The Idea, Key Risks)
+The founder reported 19 customer accounts by November after an October 2026 brokerage launch, with a team of one. That pace suggests early commercial uptake from a small base. The reported $37,600 is expected annual net commissions, and the memo leaves actual collections and the share of accounts with bound policies unclear. (Market & Traction, Founders & Team, Key Facts)
+
+Incremental contribution comes from placement and renewal commissions after the costs of prospecting, licensed review, filing, and ongoing servicing. Shared records and automated submission preparation give Redoubt a way to reduce labor per account. The memo does not establish how often a producer must intervene or what that costs. Taking underwriting risk would also bring separate authorization and capital requirements. (The Idea, Key Risks)
 
 ### Countercase
 
-Redoubt’s reported carrier access in all 50 states and its shared account software make a credible case for domestic scale. The structural downside gate applies because the current brokerage is built around U.S. operating-authority filings and carrier relationships. Inference from those dependencies suggests that entering another country would require substantial work to establish local brokerage authorization and carrier access and adapt policy and filing workflows. The account software is plausibly reusable, but the memo identifies no near-term path to transfer the full placement and servicing workflow with bounded changes. (Market & Traction, The Idea, Founders & Team, Key Risks)
+Redoubt reports carrier access in all 50 states, and it cites one fleet that saved $56,000 within two days of contacting the brokerage. Those claims support a domestic growth path in which a small team handles more placements and servicing through reusable automation. They leave the structural gate in place because the carrier relationships and filing workflows demonstrated in the memo are U.S.-specific. (Market & Traction, The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 7/25 |
-| Repeatable acquisition and onboarding | 8/25 |
+| Global buyer demand | 6/25 |
+| Repeatable acquisition and onboarding | 7/25 |
 | Retention economics | 13/20 |
-| Initial traction | 7/20 |
+| Initial traction | 9/20 |
 | Cost economics | 5/10 |
 
 **Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Redoubt use the same brokerage software to bind and service policies for small fleets in one non-U.S. market with limited changes? Paid placements and routine servicing that show local authorization, carrier access, and filing requirements handled with bounded setup and modest manual work would reopen the case as Watch.
+Can Redoubt bind and service policies for comparable small fleets in one foreign market using its existing brokerage workflow with bounded changes? Bound policies, completed servicing records, and a rollout record showing that adaptation was limited to carrier connections and filing configuration would move the action to Watch.

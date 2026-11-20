@@ -5,26 +5,26 @@
 
 ### Company case
 
-Assuming strong fit in Indian trial courts, the strongest path is to use courtroom transcription as the entry product, turn High Court pilots into judiciary-wide deployments, and carry the same product into other judiciaries. Kerala’s High Court designated Adalat AI as the primary tool for recording witness depositions. Adalat AI reports roughly 1,100 monthly active users and more than 25,600 hours transcribed in Kerala during the mandate’s first year. The required deposition workflow and reported use support behavioral retention. The reviewed court agreements specify pro bono terms, leaving paid renewal and expansion unproven. (Defensibility, Market & Traction, The Idea)
+Assuming strong fit in Indian trial courts, Adalat AI has a repeatable way to reach many courtrooms through one institutional decision. Kerala’s High Court designated it the primary tool for recording witness depositions, and pilots and agreements provide a route to statewide adoption. Getting court staff to first use still takes hands-on work. The Kerala rollout included in-person training, refresher sessions, and workflow changes. The current product combines speech models tuned for Indian languages with court procedures such as endorsing and signing depositions before upload. For a materially different judiciary, those dependencies imply substantial work on language, procedure, and implementation. The structural downside gate applies because the memo establishes no credible near-term path to transferring the current product with bounded changes. (The Idea, Defensibility, Key Risks, Market & Traction)
 
-Adalat AI reports reaching more than 6,800 courtrooms by November 2026, about 28 months after the Delhi platform launch. That is meaningful adoption, with a current team of 80. The memo documents grant funding and leaves paid production use unverified. In a scenario where the next judiciary receives the same pro bono terms, customer revenue starts at zero and incremental training, support, and transcription processing make contribution negative before grants. The memo does not quantify those costs. (Market & Traction, Key Facts, The Idea, Key Risks)
+Adalat AI reports more than 6,800 courtrooms by Fall 2026, following its July 2024 Delhi launch, and about 1,100 monthly active users and more than 25,600 hours transcribed during Kerala’s first mandate year. The Kerala figures support behavioral retention in a recurring workflow. The reviewed agreements specify pro bono deployments, and the documented funding comes from grants and an award. The memo establishes neither realized court sales nor a way for retained courts to increase recurring spend. For the next rollout on the documented terms, the court pays zero while training, rollout support, and transcription workloads create incremental costs. A statewide mandate can spread approval effort across many sites, but the memo gives no deployment-cost figures or buyer price that would support positive incremental contribution. (The Idea, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-The Zambia launch announcement is the strongest evidence that the transcription product could travel. It establishes a reported launch with local judicial partners, while leaving the scope of product changes and rollout effort unclear. The current product uses models tuned for Indian languages and embeds court-specific procedures, including Kerala’s signed-deposition workflow. High Court pilots and mandates give Adalat AI a repeatable sales channel, and the Kerala rollout still involved in-person training, refresher sessions, and workflow changes. Even with strong initial fit, the evidenced path into substantially different judiciaries requires material language, procedural, and implementation work. That triggers the structural downside gate. The memo leaves the extent of adaptation in Zambia uncertain. (The Idea, Market & Traction, Key Risks)
+A High Court mandate can open hundreds of courtrooms at once. Andhra Pradesh’s mandate covered 733, and the announced Zambia launch suggests that the underlying transcription job recurs abroad. If the core product transfers through configuration and a local partner can handle implementation, expansion could take less work than the Indian rollouts suggest. The Zambia announcement gives no detail on what transferred or what had to change, so it does not clear the structural gate. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 6/25 |
-| Repeatable acquisition and onboarding | 7/25 |
-| Retention economics | 9/20 |
-| Initial traction | 5/20 |
-| Cost economics | 3/10 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 12/20 |
+| Initial traction | 6/20 |
+| Cost economics | 2/10 |
 
-**Total Score: 30/100** (Pass)
+**Total Score: 32/100** (Pass)
 
 ### Decisive diligence question
 
-Can a judiciary outside India put the existing transcription product into paid production with limited language and workflow changes? One deployment with documented adaptation and onboarding effort, sustained courtroom use, and customer fees that cover incremental rollout and serving costs would move the action to Watch.
+Can Adalat AI complete a paid production rollout in a materially different judiciary using the same core product with bounded language and workflow changes? A live deployment with documented changes and a court contract that covers attributable onboarding and serving costs would move the action to **Watch** while repeatability is tested.

@@ -1,32 +1,33 @@
 ﻿# Routant -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-Routant’s strongest path is **scarce complements**. Enterprise approval to access private systems could become a bottleneck as more vendors deploy agents. Routant says vendors integrate once through MCP, while each enterprise connects private systems through an outbound gateway and sets its own permissions and approval rules. If those controls let vendors put otherwise blocked workflows into production, Routant could charge for operating that access layer. The scarcity of approved access and Routant’s ability to capture its value remain untested. (The Idea, Key Risks)
+Routant’s strongest commercial case is helping one software vendor deploy agents across enterprises that control their own private systems. Routant says vendors can integrate through one MCP endpoint while each customer connects its systems through an outbound gateway and sets permissions and approvals. The company describes bespoke VPNs, credentials, integrations, and approvals as the current workflow. As a scenario assumption, reusing the vendor integration could lower engineering work per rollout. Each customer would still need to connect its systems and configure its policies. The memo gives no buyer evidence that access is a binding constraint on otherwise-ready agent deployments or that equivalent capacity would be slow to add. The building-block path scores zero. (The Idea, Key Risks)
 
-The public launch and demo, together with Mehta’s experience building pricing models in automated trading, support early execution credit. The memo records launch engagement but provides no evidence of buyer commitments, paid pilots, or production usage. (Market & Traction, Key Facts, Founders & Team)
+The industry-enabled path also scores zero. The proposed labor savings come from reusing the integration and centralizing policy enforcement. The memo identifies no previously excluded buyer or use for which AI lowers the cost per successful outcome enough to make the outcome viable. Customer-controlled access and approvals could still matter under model parity, but that supports a case for the gateway itself. (The Idea)
 
-The expansion unit is one additional enterprise deployment for an already integrated vendor. Reusing the vendor integration could lower setup costs, while enterprise-specific onboarding, policy configuration, gateway support, and approval delays could limit the savings. Subscription revenue is an assumption, and the memo provides no pricing or deployment cost data to establish contribution per rollout. (The Idea, Key Risks, Key Facts)
+Customer-specific policies could create migration work, an inference the memo does not verify with switching or retention evidence. The memo documents a public launch and demo, and the founder brings related experience in automated trading and security. The launch signals establish visibility, while buyer trials, paid deployments, production reliability, and per-customer delivery costs remain unverified. Those gaps limit confidence in demand, execution, and scale economics. (Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-AWS already offers overlapping private connectivity and MCP governance, and other vendors cover scoped credentials, approvals, or access policies. Enterprises control their own permissions, and the potential migration work from installed gateways and policies is inferred. The memo provides no buyer comparison showing that Routant wins or that customers can readily substitute for its full cross-environment deployment. The scarce-complement path therefore stays open on Watch. The memo also provides no independent New Economies case showing that lower labor cost makes a previously uneconomic use viable. (The Idea, Defensibility, Market & Traction, Key Risks)
+Security approval could become the bottleneck as one vendor rolls out agents across multiple private environments. A customer-operated gateway could relieve that bottleneck if native cloud controls cover only part of the vendor’s customer base. The memo documents AWS overlap in private connectivity and governance, and Routant describes support for customer-managed environments. It supplies no buyer comparison showing that existing options leave deployments blocked. The countercase therefore leaves both path scores at zero, which triggers Pass. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 7/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 5/20 |
+| Customer demand | 4/15 |
+| Team and execution | 4/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 15/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent software vendor pay Routant to put a previously blocked agent workflow into production after its enterprise customer evaluates the best available alternative? Move to Reach out if the deployment is live, the vendor pays, and the customer confirms that Routant met a required access or approval constraint the alternative could not meet at comparable cost.
+Can Routant bring an otherwise-ready agent workflow into production when the buyer’s best available private-access option cannot meet its security requirements on the required timeline? A production deployment with a buyer-confirmed comparison and evidence of the same blocker at other customer sites would move the action to Reach out.

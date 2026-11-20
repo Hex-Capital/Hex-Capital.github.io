@@ -1,30 +1,33 @@
 ﻿# Keres -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-New Economies is the strongest candidate path. The memo documents the cost tradeoff of using expendable interceptors or crewed aircraft against lower-cost drones. Keres claims Garmur can return for reuse after an intercept. If recovery and reuse materially reduce human hours and all-in cost per successful intercept, commanders could protect sites they currently leave uncovered for budget reasons. That is a scenario assumption. The memo gives no comparative labor baseline, evidence of AI-enabled labor savings, completed intercept-and-recovery test, or example of a buyer newly served by the cost change. (The Idea, Key Risks)
+Keres has no supported path on either side of the AGI barbell. Garmur addresses a military air-defense problem, and the memo identifies no AI workload or buildout bottleneck it relieves. The industry-enabled path also earns zero. The memo documents a cost tradeoff when commanders use expendable interceptors or crewed aircraft against lower-cost drones. Keres claims Garmur can return for reuse after an intercept, but the memo identifies no AI capability that lowers the fully loaded cost per successful outcome or makes a previously unaffordable use viable. A buyer would still need a physical aircraft and operating support under model parity. (*The Idea, Key Risks*)
 
-The defense accelerator award shows government interest at Keres’s stage. It establishes neither a paid pilot nor a procurement commitment. Jamieson’s military aviation experience and Palazzolo’s XB-1 flight-test and manufacturing work support the team’s ability to run a credible field evaluation. For scale, the expansion unit is a fleet deployment at another site. Cost per successful intercept would spread fleet capital across realized successful uses and include operating labor, return-to-service costs, and losses. Utilization and repeat-use costs remain unverified. (Market & Traction, Founders & Team, Key Risks)
+The strongest commercial case is government hardware sales. The accelerator award shows government interest, and purchases of competing products show that buyers spend in the category. Keres has yet to demonstrate procurement conversion. Fielded alternatives create a concrete substitution risk, while Keres’s claimed advantage in post-intercept recovery remains unverified. (*The Idea, Market & Traction, Defensibility, Key Risks*)
+
+Jamieson’s military aviation experience and Palazzolo’s work leading avionics, flight test, and manufacturing for Boom’s XB-1 support seed-stage execution credit. The economics depend on an untested assumption that repeat use spreads aircraft cost enough to offset maintenance, turnaround, and losses. The memo provides no pricing, paid deployment, or representative operating data to establish that bridge. Those gaps also limit evidence confidence. (*Founders & Team, Key Risks, Key Facts*)
 
 ### Countercase
 
-Garmur may improve economics within an existing procurement market. Buyers already purchase alternative interceptors, and Keres’s claimed distinction from Roadrunner-M is recovery after an intercept. The memo documents no completed demonstration of that distinction or qualification advantage that would give buyers a reason to choose Keres under model parity. These gaps keep the New Economies gate open for testing and support Watch. The memo provides no independent evidence of a scarce complement Keres controls. (The Idea, Defensibility, Key Risks)
+Post-intercept reuse could make recurring defense against low-cost drones affordable at a cadence buyers currently forgo. The documented cost mismatch and the accelerator award give that scenario commercial plausibility. The memo leaves both the affordability threshold and AI’s role unestablished, so the scenario does not clear the AGI outreach gate. (*The Idea, Market & Traction, Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 7/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent defense buyer commit to a paid deployment at a site it previously left uncovered on cost grounds after a representative evaluation shows materially lower human hours and all-in cost per successful intercept, with the buyer citing a verified reuse or service advantage that persists under model parity? That commitment would move the action to Reach out. A test showing comparable labor and cost to incumbent options for the proposed use would close the path and move the action to Pass.
+Can a buyer-supervised trial show that AI reduces operator labor enough to make a previously unaffordable recurring defense use viable? A representative comparison would need to isolate AI’s contribution from airframe reuse, include recovery, maintenance, and failures in the cost per successful outcome, and confirm that the buyer would adopt the use at that cost. That result would move the action to Reach out. (*The Idea, Key Risks*)

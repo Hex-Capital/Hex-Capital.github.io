@@ -5,13 +5,15 @@
 
 ### Company case
 
-Assuming strong product-market fit with multi-site commercial operators, Verdun’s strongest path is white-label distribution through security dealers. Dealers can sell monitoring under their own contracts, and Verdun can reuse customers’ existing cameras and its core alarm-triage workflow. Commercial sites abroad plausibly need the same recurring monitoring, though the work required to adapt dispatch procedures and video handling remains uncertain. Dealer contracts, camera access, site-specific response setup, and incumbent contract expiry make onboarding a managed process. Verdun’s advertised monthly per-camera model gives retained accounts a way to spend more as they add cameras or locations. Site protocols and incident histories could support renewals, while paid renewals and account expansion remain unverified. (The Idea, Defensibility, Key Risks)
+Assuming strong product-market fit with commercial property operators, Verdun could serve the same recurring monitoring job abroad by connecting to existing cameras and reusing its alarm triage. Local speaker warnings, guard and police dispatch, and video-handling requirements could still require adaptation. White-label dealers give Verdun a repeatable route to buyers, and the parallel trial gives prospects a way to evaluate switching. Camera access, site schedules, response protocols, and incumbent contract timing imply an assisted path to first value. (The Idea, Key Risks)
 
-The memo records an October 28 launch and an anonymized screenshot of alarm activity across customer sites. Paid status, realized revenue, and the pace of commercial adoption are unknown, so initial traction receives the absent-evidence default. Verdun reports that AI closed about 85% of alerts in a 14-day sample. If that share holds at acceptable threat recall during spikes, automation could reduce operator time per added camera. Incremental contribution would be monthly camera revenue less inference and video infrastructure, operator coverage and response, and attributable sales, trial, setup, and support costs. Paid rates, operator time, and peak staffing costs remain unknown. (Market & Traction, The Idea, Key Risks)
+Verdun markets monthly monitoring per installed camera. Existing accounts could spend more by adding cameras or sites, while configured response protocols and incident records give customers a reason to stay. Renewals and same-account expansion remain unverified. The memo records an October 28 launch and shows a company-supplied screenshot of alarm activity at customer sites. Payment status and commercial growth are unknown, so initial traction takes the absent-evidence default. (The Idea, Defensibility, Market & Traction, Key Facts)
+
+Verdun reports that AI closed about 85% of alerts in a 14-day sample. If that rate holds on representative workloads, 85 of every 100 alerts would be closed automatically, with the remaining 15 potentially requiring operator time. The contribution test is monthly revenue per camera after dealer terms and discounts, less camera setup, video processing and storage, support, and operator coverage at peak load. Automated closure is a concrete lever, but its economic value depends on handling time, peak staffing, and whether threat recall holds. The memo leaves those inputs and paid rates unresolved. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Dealers could bring in customers while leaving Verdun with site-by-site setup and a staffed response operation sized for alarm spikes. Escalating uncertain events protects against missed threats but could absorb the labor savings when demand peaks. Dispatch procedures and video-handling requirements could also limit reuse across markets. The structural downside gate stays open because existing-camera compatibility and automated triage provide credible ways to reduce deployment work and operator load. Paid rollout evidence is needed to determine whether those mechanisms work together. (The Idea, Market & Traction, Key Risks)
+Verdun could scale like a staffed monitoring service. Every site may need hands-on setup, and local response coordination and peak operator coverage may grow with the camera base. If preserving threat recall requires escalating more alerts as sites diversify, the short automation sample could overstate labor savings. The structural gate stays open because the memo supports camera reuse and automated triage and leaves the amount of unavoidable market-specific work and staffing unresolved. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -19,12 +21,12 @@ Dealers could bring in customers while leaving Verdun with site-by-site setup an
 |-----------|-------|
 | Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 7/25 |
-| Retention economics | 15/20 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
-| Cost economics | 6/10 |
+| Cost economics | 5/10 |
 
 **Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a dealer roll out paid monitoring across several sites in a second market using the existing workflow while maintaining positive incremental contribution and acceptable threat recall through alarm spikes? Invoices, setup hours, and measured recall, operator time, and servicing costs would answer it. Move to Pass if the rollout shows that each market requires substantial rebuilding or that peak staffing makes faster growth uneconomic and triage offers no credible way to reduce that burden.
+Can a dealer in a second market repeatedly bring paying sites live with the existing product and earn positive incremental contribution through peak alert loads while maintaining threat recall? A paid rollout across multiple sites with measured setup effort, operator time, and recall would answer it. Repeatable results with bounded local changes would support Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that unavoidable local rebuilding or staffing makes incremental growth uneconomic would move the action to Pass.

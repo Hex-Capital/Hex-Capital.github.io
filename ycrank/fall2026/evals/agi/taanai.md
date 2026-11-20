@@ -1,32 +1,31 @@
 ﻿# Taan.ai -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is Taan’s strongest path. Taan says editors must regenerate tracks when prompt-based tools miss cues and that its product can align music to cuts and revise individual cues. Taan’s own TimingBench reports 91.3% of events within ±500 ms. Its launch reports 73.2%, and the benchmark uses Taan reference stems for some measurements. The short instrumental tests support the timing mechanism. Editor time and cost per accepted soundtrack remain unmeasured. (The Idea, Key Risks)
+Taan’s strongest commercial case is cue-aligned scoring for short videos. Its preview detects cuts and mood, generates a soundtrack, and lets editors revise individual instruments or timings. The company says prompt-based tools can require repeated regeneration when they miss cues. That describes a workflow cost. The memo establishes neither a scarce input that limits AI deployment nor a buyer or scoring cadence that becomes economically viable because Taan reduces that cost. Both AGI paths score zero, triggering Pass. (The Idea, Market & Traction)
 
-**Scenario assumption.** A micro-drama team currently skips custom scores because repeated generation and manual cue fixes take too much editor time. If Taan cuts the full cost per accepted score, including retries and revisions, below that team’s budget, it could open a new use. Saved versions and API integration could give customers a reason to stay once competing models match Taan’s cue control. That advantage is still an inference. The memo documents the capability and two published patent applications, while customer preference under parity remains untested. (The Idea, Defensibility)
-
-Music for Video AI identifies Taan as its scoring provider. That establishes one external use, with payment, repeat usage, and whether the use was previously uneconomic still unknown. The founders shipped a public preview and bring relevant music-generation and signal-processing experience. At full plan utilization, listed subscription revenue works out to $0.60 per included music minute for Creator and $0.75 for Agency. Contribution per accepted score remains unknown because inference, retries, and support costs are unmeasured. (Market & Traction, Founders & Team, The Idea)
+Music for Video AI identifies Taan as its scoring provider. That supports early adoption, with payment and repeat use still unknown. The shipped preview and the founders’ music-generation and signal-processing experience support seed-stage execution. Published subscription prices establish the offer, while inference, retries, and review costs per accepted score remain unknown. (Market & Traction, Founders & Team, The Idea)
 
 ### Countercase
 
-Taan may speed up an existing scoring workflow while buyers continue to choose on convenience and price. ElevenLabs and Sonilo already offer footage-to-music APIs, and Adobe embeds generation in the Premiere timeline. Those alternatives make substitution credible, while equivalent cue control and actual switching remain untested. The New Economies path stays open pending evidence of newly viable demand and buyer preference under parity. The memo also leaves control of a scarce complement unsubstantiated. (Defensibility, Market & Traction, Key Risks)
+If short-form teams routinely skip custom scoring because repeated generation and editing take too long, Taan’s cue-level revisions could make scoring every clip affordable. Taan reported 91.3% on-time events in TimingBench and 73.2% in its launch materials. The benchmark used 30-second instrumental requests, and the memo gives no measured editing-time savings or evidence that a previously excluded team adopted scoring at a new cadence. Rival video-to-music APIs and scoring inside Premiere also make substitution credible. The patent applications, claimed training licenses, and potential switching costs from saved revisions offer limited evidence of durable value capture today. The countercase leaves the Pass gate in place. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can Taan win repeat paid use at a viable price from micro-drama teams that previously skipped custom scoring, even when a rival matches its cue accuracy? A paid field trial that tracks editor time and total cost per accepted score against the prior workflow, then gives teams a choice between functionally comparable products, would answer it. Reach out if the cost reduction unlocks repeat purchases and buyers still choose Taan. Pass if the trial shows the workflow serves only existing demand or buyers readily switch at parity.
+Can a short-form video team that previously skipped cue-aligned scoring now pay to use Taan on routine clips because it brings the cost per accepted score below that team’s budget? A paid pilot on representative clips would compare subscription or API costs, retries, and editor time with the team’s best available alternative. Repeat paid use at the new cadence and evidence that Taan’s revision workflow still saves labor with comparably capable models would move the action to Reach out.

@@ -5,28 +5,29 @@
 
 ### Company case
 
-Scarce complements is Repovive’s strongest path. As labs train models to generate formal proofs, tasks with machine-checkable answers give them a way to reward and measure correctness. Repovive says it packages non-public Lean tasks and checked reference proofs into training environments. The thesis is that fresh, expert-authored tasks become more valuable as labs scale proof training. The memo leaves open whether Repovive’s environments improve model performance over alternatives. (*The Idea*, *Market & Traction*)
+Repovive’s strongest AGI path is supplying fresh, machine-checkable Lean tasks for AI labs that train and evaluate proof-generating models. The company describes packaging private tasks and checked reference proofs into reinforcement learning environments. The memo documents a research-scale Lean formalization, which supports the relevance of the workload. If labs expand proof-oriented post-training and need fresh tasks for evaluation, demand for qualified tasks could grow with the number of training and evaluation runs. Scarcity remains unverified because the memo gives no comparison of how quickly labs can obtain equivalent tasks from other sources. (The Idea, Market & Traction, Defensibility)
 
-Repovive reports $100K in signed contracts across two formalization environments. That is a concrete seed-stage commitment, with buyer count, delivery, and renewals still unknown. The separate $200K letter of intent covers broader coding data. The founders bring Lean dataset and model post-training experience, and the team has publicly run programming contests. Those are relevant delivery signals, while recurring production of lab-grade environments remains unverified. (*Market & Traction*, *Founders & Team*)
+The second path is making formal verification practical for chip properties that teams currently cover only with selected-scenario tests because proofs require specialist labor. The planned proof-generation system could reduce proof-writing time. Under a model-parity scenario, a delivered verification product could still add value by translating intended behavior into faithful specifications and integrating checked proofs into engineering review. The memo provides no evidence that Repovive can deliver that workflow or bring the cost per successfully verified property within an engineering team’s budget. (The Idea, Key Risks)
 
-The reported contest community could help replenish private tasks if participants can produce lab-grade work and Repovive secures rights to it. Both conditions remain open. If a lab renews for successive task sets, each refresh is a potential expansion unit. Its contribution would be the renewal price less incremental task authoring, proof checking and review, and lab integration and support. The memo gives no per-refresh price, throughput, or cost data, so scale economics receives the absent-evidence default. (*Defensibility*, *The Idea*, *Market & Traction*)
+The company reports $100K in signed contracts across two formalization environments and a separate $200K coding-data letter of intent. The signed contracts support early lab demand. Delivery, payment, and repeat purchases remain unverified. The private task sets offer some differentiation, with replenishment and contributor exclusivity unproven. Prior Lean dataset work, Gemini post-training experience, and a publicly run contest platform support execution at seed. The memo gives no cost for producing and maintaining the next environment, so scale economics stays at the evidence default. (Market & Traction, Defensibility, Founders & Team)
 
 ### Countercase
 
-LeanDojo offers an open training environment, Reinforce Labs offers checked Lean proof data, and DeepMind’s internal research shows that a prospective buyer can build verification infrastructure. These alternatives make substitution credible. Their performance on the same lab workload and any resulting buyer switching remain unobserved, so the evidence supports Watch without closing the scarce-complements path. The proposed chip and critical-software opportunity offers no independently supported New Economies path. Manual proof writing is the stated baseline, but the memo gives no comparative cost per successful verification, no previously excluded paying buyer, and no reason that buyer would choose Repovive under model parity. Specification work also remains necessary. (*Defensibility*, *Key Risks*, *The Idea*)
+Labs may be buying a convenient package they can replace with open Lean resources, competing datasets, or in-house tooling. The memo identifies each option and describes a shipped competitor for direct C and Verilog verification. If those alternatives can supply fresh, comparable tasks on similar terms, Repovive’s lab offering may have little pricing power, while the downstream verification path still depends on faithful specifications and unproven labor savings. The substitution risk triggers Watch because buyer-level evidence could resolve it. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 13/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 18/50 |
+| Industry enabled by superintelligence | 4/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 10/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 47/150** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent target lab renew for a fresh Repovive environment at a price that covers the incremental cost of supplying and supporting it? Move to Reach out if the lab renews after a matched training run shows a material gain on held-out proof tasks over its best open or in-house alternative.
+Can a contracted lab obtain fresh, accepted Lean tasks materially faster through Repovive than through its best open or in-house option at a comparable fully loaded cost? A buyer-confirmed comparison at matched task difficulty and proof quality would move the action to Reach out if it showed a material lead-time advantage. (Market & Traction, Defensibility, Key Risks)

@@ -5,28 +5,28 @@
 
 ### Company case
 
-Assuming strong product-market fit, OpenLake’s strongest path is continuous post-training and inference for teams already running open-weight models in production. OpenLake describes a reusable workflow that connects live data, updates the model on its existing deployment, and A/B tests new versions. The same workflow could serve model operations teams across markets with modest adaptation where buyers can use their data for training. The documented route to the platform starts with a founder call or email. GitHub and Discord give developers ways to discover OpenLake, while independent setup and payment for the platform remain unverified. (The Idea, Key Risks)
+Assuming strong fit with production ML teams, OpenLake’s workflow looks portable across markets. The company describes deploying open-weight models, connecting customer data, and testing updated versions on the existing deployment. The same workflow could serve teams in multiple markets that can use their data this way. The deployment changes needed for buyers with stricter data controls remain uncertain. (The Idea, Key Risks)
 
-Incoming data creates a recurring reason to update models. Connected data feeds and accumulated evaluation history could also make deployments stickier. Whether larger workloads raise the same customer’s bill remains unknown. The published token rate applies to Ultra R1 routing. The continuous post-training platform launched in November, and an unnamed team reported using OpenLake to train and evaluate a classifier for production. OpenLake’s reported 100B-plus daily tokens span the company. Paid production use and commercial growth for the continuous post-training platform remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+Launch YC, GitHub, and Discord give developers ways to find OpenLake. The documented path for production teams starts with a call or founder email, and independent setup and payment remain unverified. Live data feeds and accumulated evaluation history give teams a reason to keep using the platform. Growing workloads could raise account spend under usage-based pricing, but the published token rate covers the separate router. The platform’s billing and expansion economics remain unknown. (The Idea, Defensibility, Key Facts)
 
-Incremental contribution would be the revenue from the next production workload less its inference and training compute, evaluation, storage, and attributable onboarding and support. Shared inference caches offer a plausible way to reduce serving compute when requests reuse cached work. OpenLake reports that its models halved serving costs on average. Platform pricing and the costs OpenLake bears on a representative workload remain unknown, leaving the direction of contribution uncertain. (The Idea, Defensibility, Market & Traction, Key Facts)
+A testimonial describes training and evaluation for a production model. The company-reported 100B-plus daily tokens span OpenLake’s products, and the platform’s paid usage and commercial growth remain unknown. Initial traction uses the default. Cost economics also uses the default. Shared inference caches offer a way to reduce serving costs, but the company’s reported customer savings leave OpenLake’s own contribution unknown. Platform revenue would need to cover incremental training and inference compute, storage, onboarding, and support. (Market & Traction, Defensibility, Key Facts)
 
 ### Countercase
 
-Connecting sensitive live data and validating successive model updates could require customer-specific approvals and hands-on engineering. If that work recurs with each buyer while frequent retraining adds compute costs as usage grows, customer serving savings could coexist with weak contribution for OpenLake. The structural downside gate stays open because the scope and cost of required per-buyer work remain unverified. (The Idea, Market & Traction, Key Risks)
+Connecting live customer data and defining evaluations could require engineers to work with each buyer. If that work repeats on every deployment and training and serving costs rise in step with usage revenue, strong initial fit could still yield a labor- and compute-intensive business. The founder-led sales path and customer-specific inputs make that plausible. The structural downside gate stays open because the memo leaves both the amount of required work and its effect on contribution unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 20/25 |
+| Global buyer demand | 17/25 |
 | Repeatable acquisition and onboarding | 7/25 |
 | Retention economics | 11/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of production teams onboard through the same documented flow with minimal founder help and become profitable recurring customers? Setup records, successive usage bills that rise as workloads grow, and positive incremental contribution after compute, storage, onboarding, and support would move the action to Reach out.
+Can a cohort of new customers reach paid production through the same low-touch setup and expand paid usage at positive incremental contribution? Onboarding records, successive bills, and attributable compute and labor costs for that cohort would answer it. Evidence that this path repeats across buyers would move the action to Reach out if the reassessment reaches the Invest tier with at least Medium confidence.

@@ -1,30 +1,33 @@
 ﻿# Contour -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-Contour’s strongest path is an operations-led New Economy in environmental permitting. The memo describes consultants manually researching rules, calculating emissions, preparing applications, and coordinating revisions. Contour says Cortex would automate research, calculations, and drafting inside acquired practices while staff retain technical judgment and client work. The investment hypothesis is that lower labor per successful filing could make smaller permitting engagements viable for developers who previously deferred them over cost. The excluded buyers and the cost reduction remain unverified. (The Idea, Key Risks)
+Contour says Cortex can research rules, calculate emissions, and draft filings inside environmental consultancies while staff retain technical judgment and client work. The strongest commercial case is that an acquired practice could spend fewer specialist hours per engagement and earn service fees. That is an inference from the proposed workflow. The memo records a public launch and provides no paid deployment or revenue evidence. (The Idea, Market & Traction, Key Facts)
 
-The relevant comparison is fully loaded cost per accepted filing for comparable work, including staff review, corrections, model usage, and effort spent on unsuccessful filings. Expansion would require fees and filing volume at each acquired practice to cover delivery costs, integration, and the capital committed to the purchase. Under model parity, buyers could still pay Contour for accountable technical review and local permitting execution if it controls that delivery and buyers prefer it when comparable alternatives are available. The memo supplies no completed acquisition, comparative field results, or buyer commitments. It documents a public launch and relevant founder experience in enterprise AI and investment banking. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
+**Building blocks.** Contour identifies manual preparation and regulator revisions as sources of delay for data center developers. The memo does not establish that specialist permitting capacity is scarce for an identifiable AI buildout, that substitutes are slow to add capacity, or that faster drafting would advance construction when regulator review also affects the schedule. The data center exposure earns zero. (The Idea, Key Risks)
+
+**Industry enabled by superintelligence.** Cortex could reduce labor in a service already delivered by consultants. The memo identifies no buyer or use that conventional service costs put out of reach. It also gives no basis to estimate cost per successful filing after specialist review and corrections. Technical judgment and certification could preserve a distinct service under model parity, but the newly viable use is unsupported. Both paths score zero, triggering Pass. (The Idea, Key Risks)
 
 ### Countercase
 
-Cortex could reduce drafting time for existing engagements while technical review and emissions corrections absorb enough of the savings to leave smaller jobs uneconomic. Incumbents can source overlapping permitting tools, as ERM’s partnership with Blumen illustrates, and True Environmental is already acquiring practices. That puts pressure on both the proposed labor advantage and Contour’s ability to acquire and control service delivery. The evidence leaves market opening and durability under model parity unproven, which keeps the action at Watch. A separate scarce-complements path lacks evidence of a durable bottleneck that Contour controls and whose value rises with AI demand. (Defensibility, Market & Traction, Key Risks)
+If specialist preparation is what makes conventional permitting unaffordable for smaller developers, Cortex could open that segment while the consultancy still handles technical review and client work. Agrawal’s prior enterprise AI search work supports the team’s ability to build the software. Contour’s proposed acquisitions could bring client relationships and operating know-how, though the memo establishes no control of those assets. The observed ERM–Blumen partnership gives incumbent firms another route to overlapping capabilities. There is no Contour buyer commitment or cost benchmark to clear the outreach gate. (The Idea, Defensibility, Founders & Team, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 5/20 |
+| Customer demand | 4/15 |
+| Team and execution | 5/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 16/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can a Contour-controlled practice win and complete paid permitting work from independent developers who previously deferred it over cost? Move to Reach out if a first paid cohort documents that prior cost barrier, demonstrates a material drop in fully loaded cost per accepted filing against comparable manual work, and chooses Contour when a provider with comparable AI is available. If a representative cohort shows the work remains uneconomic and no other path gains support, move to Pass.
+Can Contour complete a paid, regulator-accepted filing for a developer who previously declined a comparable conventional quote as unaffordable? A documented prior quote, the paid fee, and delivery costs including specialist review and rework would show whether Contour crossed that affordability threshold at a viable margin. One such engagement would move the action to Reach out to test repeatability.

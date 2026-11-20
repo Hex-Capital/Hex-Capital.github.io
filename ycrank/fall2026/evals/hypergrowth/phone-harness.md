@@ -1,30 +1,32 @@
 ﻿# Phone Harness -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is self-serve hosted Android for developers automating recurring workflows in native apps that permit automation. Phone Harness documents a shared command interface across local and hosted phones. With strong product-market fit, developers in different markets could use the same integration for substantially the same job. App permissions and tolerance for hosted input logging narrow the eligible workflows. (The Idea, Key Risks)
+Assuming strong product-market fit with developers automating recurring mobile-only tasks, Phone Harness can serve that same job across markets through a shared command interface for local and hosted phones. Third-party app permissions and gaps in local iPhone workflow coverage narrow the set of eligible tasks. The core interface gives developers a credible path to reuse their integrations across markets. (*The Idea*, *Defensibility*, *Key Risks*)
 
-The open-source harness, PyPI package, and launch channels give developers ways to discover the product and start through the company’s documented self-serve setup. Published usage pricing gives ordinary developers a paid path, while fleet buyers are directed to founder-led demos. Saved apps and logins make repeat runs easier, and heavier workloads can raise the same customer’s bill through metered minutes or Plus overages. Expansion could offset churn if those workloads persist. The memo reports no paid retention data. (The Idea, Defensibility, Key Facts)
+PyPI and ClawHub give developers concrete ways to find and install the harness. The company describes self-serve cloud setup and founder-led demos for fleet buyers. The memo leaves open whether a typical developer can move from setup through payment to a working production task independently. It records 5,100 GitHub stars and 522 forks by November 17, shortly after the November cloud launch. Those figures show developer interest. Realized revenue, paying-customer counts, and pre-revenue status are unknown, so initial traction receives the absent-evidence default. (*The Idea*, *Market & Traction*, *Key Facts*)
+
+Saved apps and logins give recurring workflows a reason to stay. The company’s published Android overages and per-device iPhone subscriptions let existing accounts spend more as workloads grow. Expansion could offset churn if customers add enough minutes or devices. The memo provides no observed renewal or expansion data. (*The Idea*, *Defensibility*)
 
 ### Countercase
 
-The cloud beta could draw developer interest without converting it into repeat paid usage. The memo records 5.1K GitHub stars and 522 forks shortly after the November cloud launch, with realized revenue and paying-customer counts unknown. Initial traction therefore receives the absent-evidence default. At full use of the included minutes, the published $20 Plus plan yields 2¢ per Android minute before hosting, idle capacity, support, and acquisition costs. Temporary sessions could let capacity serve successive customers, but the memo gives no measured utilization or contribution. The structural gate stays open because the memo does not establish that required capacity or human work makes this path infeasible. The gaps in paid repeat use and contribution keep confidence Low. (Market & Traction, Key Facts, The Idea, Key Risks)
+Developers can fork the free local harness, and app access rules can exclude workflows the cloud product can technically run. The resulting paid workload may be too narrow to keep hosted capacity well utilized. In an illustrative scenario, a Plus account using all 1,000 included Android minutes generates 2¢ per minute before device capacity, provisioning, and support costs. Temporary sessions could improve contribution if they let Phone Harness reuse capacity between customers. The memo leaves that operating assumption and its margin impact unresolved. Dedicated iPhones also tie each added subscription to another device. The structural gate stays open because the memo establishes neither a need for market-by-market rebuilding nor unavoidable costs that make growth infeasible. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 20/25 |
+| Repeatable acquisition and onboarding | 17/25 |
 | Retention economics | 16/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 68/100** (Invest)
+**Total Score: 65/100** (Invest)
 
 ### Decisive diligence question
 
-Can a cohort of developers activate hosted Android independently, keep paying for recurring workloads after the starting credit is exhausted, and generate positive incremental contribution? A cohort showing repeat paid usage across billing periods and positive contribution after capacity, support, and attributable acquisition and onboarding costs would move the action to Reach out.
+Can a cohort of ordinary Android cloud buyers reach paid production without founder help and renew at positive incremental contribution? A cohort that completes setup and payment independently, runs permitted workflows, and renews with revenue covering attributable onboarding, support, and capacity costs at representative utilization would move the action to Reach out.

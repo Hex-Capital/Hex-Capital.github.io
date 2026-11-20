@@ -5,26 +5,29 @@
 
 ### Company case
 
-The strongest path is **scarce complements**. Frontier AI labs may need physical bench data to evaluate experimental decisions that simulation misses. The company reports that models passed all 10 benchmark tasks in simulation but averaged a 29.3% pass rate on physical hardware. That result supports the technical mechanism on a small task set. The investment inference is that labs will pay for reproducible physical experiments if they expose failures that labs cannot readily observe through their existing workflows. The memo records the benchmark launch and provides no independent buyer commitment. (The Idea, Market & Traction, Key Facts)
+Evident Machines has a plausible building-blocks path supplying physical electrical-engineering benchmarks and reinforcement-learning environments to frontier AI labs. Models direct experiments and interpret measurements while operators wire equipment and place probes. In the company’s reported 10-task benchmark, models passed all tasks in simulation but averaged a 29.3% pass rate on hardware. That result suggests physical tests can expose failures simulation misses. Confidence in the size and generality of the gap is low because the standalone results were unavailable for review. (The Idea; Market & Traction)
 
-Evident Machines operates a bench workflow that captures instrument readings, expert decisions, and hardware failures. That gives it some control over how the data is produced. The founders’ electrical engineering, science AI, and systems backgrounds, together with the benchmark launch, support early execution. The next test is repeatable delivery for a lab buyer. A validated bench task is a plausible unit of expansion. If it can be reused across models, those runs could spread the initial development cost, while operators still handle wiring and probe placement. Labor per run, bench utilization, and pricing remain unmeasured in the memo. The benchmark results are company-reported, and the commercial evidence is sparse. (Defensibility, Founders & Team, Market & Traction, Key Risks)
+If labs expand training and evaluation for models that design and debug electronics, they may need more repeatable physical experiments across equipment and failure modes. Manual setup and expert task development could slow the addition of equivalent capacity. The benchmark supports the product’s fit for this workload at seed. Whether labs face a shortage of usable bench tasks, and whether Evident can supply them faster or more economically than a hardware partner, remains open. Those gaps support Watch. (The Idea; Market & Traction; Key Risks)
+
+The industry-enabled path scores zero. The memo describes a product for model developers and identifies no previously excluded engineering buyer, use, or testing cadence that becomes affordable through AI. The workflow still requires hands-on setup, and delivered cost per successful experiment is unknown. (The Idea; Key Risks)
 
 ### Countercase
 
-A frontier lab could build overlapping evaluations with a hardware partner and retain control of the data. Anthropic and Diode’s work on circuit-board training tasks and an internal benchmark shows that this route is credible. The documented overlap leaves substitution on physical bench experiments unresolved, so it warrants Watch. The New Economies path lacks evidence of lower labor cost per successful outcome or a buyer newly able to afford the work. (Defensibility, The Idea, Key Risks)
+A frontier lab could build enough relevant evaluations with a hardware partner. Anthropic and Diode already collaborated on circuit-board training tasks and an internal benchmark, showing that labs can source overlapping work through a partnership. Evident’s lab and experience capturing physical measurements and expert workflows give it an operating head start, but their effect on buyer choice and pricing is untested. The partnership leaves the narrower scarcity case open, so it does not trigger Pass. The memo gives no buyer trial or commitment for Evident and no price or per-task delivery costs. The benchmark launch and the founders’ relevant engineering experience support execution credit at seed, with repeatable commercial delivery still to demonstrate. (Defensibility; Market & Traction; Founders & Team; Key Risks; Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 17/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 35/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent frontier lab renew a paid pilot at a price that covers measured delivery costs after a head-to-head test on held-out physical tasks? A renewal based on Evident Machines finding consequential failures that the lab’s best internal or partner-built alternative misses would move the action to Reach out. Comparable results from a readily available substitute at a viable cost would close the scarce-complement path and move the action to Pass. (Defensibility, Market & Traction, Key Risks)
+Can Evident run a paid frontier-lab pilot that reproducibly exposes hardware failures on the lab’s own tasks that its current simulation or hardware-partner workflow cannot surface within the required budget and timeline? A buyer-confirmed result would move the action to Reach out. If the lab’s existing workflow delivers equivalent coverage on acceptable terms, move to Pass.

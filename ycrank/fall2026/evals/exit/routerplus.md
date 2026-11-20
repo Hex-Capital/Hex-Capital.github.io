@@ -5,36 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic sale to an inference gateway or infrastructure provider that wants to add managed capacity procurement. Buying RouterPlus could give that buyer a way to evaluate models on live workloads, pool demand, and negotiate provider capacity. RouterPlus reports one pooled provider deal, and a customer testimonial reports 25% lower P95 latency after switching to an open model. The memo records Stripe’s completed acquisition of OpenRouter, which shows strategic interest in inference routing. RouterPlus’s case depends on whether its procurement capability would be costly for a buyer to replicate. (The Idea, Defensibility, Market & Traction, Key Risks)
+A strategic sale to an inference infrastructure provider or gateway is the strongest supported route. RouterPlus reports pooling several customers’ workloads into one provider deal. A buyer could use that procurement capability to offer negotiated capacity alongside routing. Stripe’s completed acquisition of OpenRouter shows strategic demand for an inference gateway, though RouterPlus’s incremental value to a buyer remains unverified. (The Idea; Defensibility; Key Risks)
 
-The next milestone is repeat paid capacity contracts across multiple customers, with documented margins and reliable peak delivery. A customer testimonial describes capacity for peaks of 15× average traffic with a backup provider, and RouterPlus reports 3 million daily agent conversations at its largest customer. Those signals support testing the milestone. The memo gives conflicting funding figures and leaves the capital required to reach it uncertain. Published terms permit reuse of de-identified requirements and derived benchmarks, while assignment of those rights and key contracts remains unverified. (Market & Traction, Defensibility, Key Risks)
+A customer testimonial describes RouterPlus sourcing capacity for peaks of 15× average traffic and arranging a backup provider. That supports a seed-stage milestone of delivering and renewing paid capacity contracts across several independent customers at positive gross margins. The memo documents individually quoted reserved capacity, while standard marketplace usage carries no token markup and bring-your-own-key traffic earns no inference fee. The cost of reaching the milestone and the available runway remain unclear given conflicting funding records. (Market & Traction; Key Facts)
 
-Using the benchmark $500,000 check at $10 million post-money, 5% ownership diluted to 3%, and no follow-ons, the holder needs $2.5 million in gross cash within eight years. That requires about $83.3 million in distributable equity value at full pro rata participation. The sale scenarios below are illustrative assumptions. They assume the holder can sell its full stake and receives 3% of equity proceeds after debt and deal adjustments, with no preference diversion.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. The memo supplies no supported sale price or holder waterfall. The following figures are illustrative and assume a full cash sale within eight years, an eligible holder selling their entire stake, and pro rata distribution after the stated deductions with no further senior claims or holdbacks. (Market & Traction; Key Facts)
 
-| Scenario | Gross cash to holder within eight years |
-|---|---:|
-| Modest sale at $50M enterprise value, less $5M in net debt and deal adjustments | $1.35M on $45M of equity value |
-| Strong sale at $100M enterprise value, less $10M in net debt and deal adjustments | $2.70M on $90M of equity value, or $2.16M if only 80% is paid within eight years |
-| Prolonged private operation with cash reinvested and no eligible share sale | $0 |
+| Scenario | Enterprise value to distributable equity | Cash to holder |
+|----------|------------------------------------------|----------------|
+| Modest sale | $40M less $5M in net debt and deal adjustments leaves $35M | $1.05M (2.1×) |
+| Strong sale | $100M less $10M in net debt and deal adjustments leaves $90M | $2.70M (5.4×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or payout | $0 realized |
 
-Reserved capacity is individually quoted, and the memo supplies no realized margins, transaction price evidence, or independent liquidity route. The strong scenario clears the hurdle on its assumptions, while the evidence leaves the realizable sale range open. (The Idea, Key Facts, Key Risks)
+At the illustrative $100 million sale price, $20 million in deductions would reduce the holder’s payout to $2.4 million, below the objective. A sale of the operating product is plausible, and the capacity terms document some rights to reuse de-identified requirements and derived benchmarks. Assignment of those rights and contracts, prompt-data restrictions, and holder participation remain unverified. There is no evidenced independent liquidity route. (Defensibility; Key Risks)
 
 ### Countercase
 
-A buyer could replicate the routing layer and source capacity directly. OpenRouter already offers provider selection and failover, and NVIDIA’s open-source Switchyard offers cross-provider routing and benchmarking. With one reported pooled deal and no published capacity margins, a buyer could value RouterPlus mainly for its team or integrations, yielding a smaller payout. This supports Watch. The memo establishes neither a structural closing barrier nor a credible price ceiling below the holder’s hurdle. (Defensibility, Key Risks, Key Facts)
+A buyer may already have enough routing and failover capability to build the remaining procurement features in-house. OpenRouter already scores providers and supports failover, NVIDIA’s open-source Switchyard offers routing and benchmarking, and RouterPlus reports one pooled deal. The zero-markup usage model further limits what traffic volume establishes about the value of the business. This evidence weakens the acquisition case, but it does not establish a structural closing block or a price ceiling below the proceeds hurdle. The unresolved buyer economics support Watch. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 19/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can RouterPlus show that its managed capacity business is worth enough to a strategic buyer to clear the holder’s eight-year cash hurdle? Paid renewals from multiple customers, realized margins, and buyer-side evidence of the cost to replicate the service would support Reach out if they substantiate a price that leaves at least $2.5 million in timely holder cash after deal adjustments and the waterfall. A supported ceiling materially below that hurdle would trigger Pass.
+Can repeat paid capacity contracts create enough incremental value for a strategic buyer to support at least $83.3 million in distributable equity? Renewals across independent customers with verified gross margins, paired with a credible buyer’s quantified case for acquiring the capability instead of building it, would move the action to Reach out if the indicated price clears the hurdle after deal deductions.

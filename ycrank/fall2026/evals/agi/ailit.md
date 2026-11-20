@@ -1,32 +1,35 @@
 ﻿# Ailit -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Scarce complements is the strongest candidate path. Ailit’s swappable battery tenders could make grid-connected swap sites at scheduled rail stops valuable if charged packs are available when loaded trains arrive. **Scenario assumption:** AI-linked freight demand increases the need for electrified service on a corridor where charging capacity limits deployment. The memo supports the operating mechanism, while the AI-demand link and site scarcity remain unverified. Ailit plans to own and operate the packs and sites. The recorded Swedish patent application has undisclosed claims, and control of usable site capacity remains unverified. (The Idea, Defensibility, Key Risks)
+Ailit’s strongest seed-stage case is selling battery power to freight railroads using their existing locomotives. The memo shows a full-scale Superwagon prototype positioned behind a locomotive before commissioning. Ailit plans to own the packs and swap sites and charge about 20% below diesel-equivalent cost, with no upfront equipment purchase for the railroad. The prototype and the CTO’s prior electric-vehicle certification and production work support execution credit. Loaded-haul performance and repeatable swap times remain unverified. *(The Idea, Market & Traction, Founders & Team, Key Risks)*
 
-The full-scale prototype was positioned behind a locomotive ahead of commissioning. Tagesson’s experience bringing an electric ferry through certification and into production supports seed-stage execution. The planned 2027 deployment is a company-side signal, with buyer commitment and payment still unverified. (Market & Traction, Founders & Team, The Idea)
+**Building blocks of superintelligence earns zero.** Superwagon supplies locomotive traction power. The memo identifies no AI workload that depends on this input and no scarce AI capacity that the system could relieve. Utility access is a constraint Ailit’s swap sites need to manage. *(The Idea, Key Risks)*
 
-A corridor is the unit of expansion. At Ailit’s proposed tariff of roughly 20% below diesel-equivalent cost, each successful haul must generate enough revenue to cover electricity, swap operations, and the allocated cost of packs and sites at actual utilization. Repeat swap times, pack utilization, and contribution at lower diesel prices remain untested. (The Idea, Key Risks)
+**Industry enabled by superintelligence earns zero.** The proposed alternative to diesel relies on swappable packs, off-board charging, and diesel backup. Ailit is developing AilitOS to coordinate charging loads, pack availability, and departures. The memo gives no evidence that AI performs that coordination or lowers the cost per successful haul enough to open a previously uneconomic route or use. The delivered service would still require physical packs and swap operations. *(The Idea, Key Risks)*
+
+The recorded patent application has undisclosed claims. A route-aligned swap network could make the service harder to replace if Ailit secures sites and reliably stages charged packs, but that advantage remains untested. The announced 2027 deployment target comes with no documented buyer commitment or paid trial. The proposed tariff and declining industry pack prices leave the cost per delivered kWh unresolved once electricity, battery wear, spare inventory, site costs, and utilization are included. *(Defensibility, The Idea, Market & Traction, Key Facts, Key Risks)*
 
 ### Countercase
 
-Superwagon may be a conventional fuel-cost improvement for existing freight service. Diesel remains available as backup, while Voltify and Wabtec offer other electrification approaches. The proposed savings come from changing the energy source, leaving the New Economies gate unmet because the memo supplies no material labor-cost reduction per successful haul or previously excluded buyer or use. The alternatives make substitution credible, but their ability to match Superwagon’s proposed cost and uptime on the same corridor remains unresolved. That leaves a specific scarce-complement test and supports Watch. (The Idea, Market & Traction, Key Risks)
+The strongest case for outreach is that retrofitting existing locomotives and removing the buyer’s upfront equipment cost could make battery service viable on routes that cannot justify a dedicated battery locomotive. Falling pack prices support that possibility, and diesel backup could reduce adoption risk while the swap network proves its uptime. The memo supports testing that commercial case. Both AGI paths still score zero because the proposed affordability gains come from hardware and financing, with no demonstrated AI-driven change in route economics. The Pass gate applies. *(The Idea, Market & Traction, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 6/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can the planned 2027 deployment show that an independent railroad repeatedly pays Ailit to relieve a charging constraint tied to AI-linked freight demand? Buyer records tying the order to that constraint, enforceable access to the required site capacity, and repeat loaded runs that meet uptime targets at positive corridor contribution would move the action to Reach out. A successful engineering demonstration alone would leave it at Watch.
+Can AI-based charging and swap scheduling make a freight route commercially viable where conventional scheduling leaves it uneconomic? A paid, representative route pilot comparing fully loaded cost per successful haul at the same uptime and service level would answer it. A measured crossover at a viable tariff would move the action to Reach out if the railroad still needed Ailit’s physical pack and swap service to achieve the result. *(The Idea, Key Risks)*

@@ -5,28 +5,29 @@
 
 ### Company case
 
-New Economies is Odin’s strongest path. The target use is short-run machine tending and packing at factories that rely on manual labor because conventional automation requires programming and setup for each job change. The memo documents a CNC cell that loads parts, runs the machining cycle, and unloads finished pieces, as well as a conveyor-packing demo. Odin says operators can teach new motions by guiding the arm and checking changes in simulation. If that approach cuts setup and supervision enough, jobs that were previously uneconomic to automate could become viable. The demos leave labor per accepted part and full-shift performance unmeasured. (The Idea, Defensibility, Market & Traction, Key Risks)
+Odin has a plausible industry-enabled path in short-run CNC machine tending. The memo describes small and midsize factories loading machines by hand because programming and setup for fixed automation recur with frequent part changes. Odin demonstrated CNC tending and conveyor packing. The company describes a workflow in which operators guide the arm and check changes in simulation. The seed-stage hypothesis is that AI could generalize from those demonstrations across part variants, cutting setup labor enough to make short runs economical to automate. The memo leaves Odin’s use of AI and its effect on changeover time unverified. Even with equivalent models available, a factory would still need installed tooling, machine controls, guarding, and production support. (The Idea, Market & Traction, Key Risks)
 
-Under model parity, a factory could still pay Odin for machine integration, tooling, guarding, and ongoing support. The CNC demo shows integration capability. Reusing that work across customers is a plausible advantage, with deployment savings and buyer preference still untested. Founder-reported factory work and the manual workaround give limited demand evidence, while paid conversion remains unverified. The founders’ industrial-arm and hardware experience, working prototypes, and proposed customer-part tests support seed-stage execution. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
+The building-blocks path earns zero. The identified workload is factory machine tending, and the memo identifies no scarce input Odin supplies to AI development or deployment. (The Idea)
 
-The expansion unit is one retrofitted cell. The economic test is whether Odin can beat the existing manual cost per accepted part after accounting for equipment, tooling, installation, guarding, changeovers, exception labor, and support at observed utilization. The memo describes rental and purchase options, with the costs and throughput needed to estimate deployment contribution still unknown. (The Idea, Key Risks, Key Facts)
+Odin’s demonstrated CNC integration supports modest credit for machine-specific know-how. Reusing integrations across installations could strengthen that advantage, but the savings are unmeasured. Manual loading is a concrete buyer workaround, and founders report on-site design work with factory teams. The memo provides no buyer-confirmed paid deployment or repeat use. The packing demonstration and the founders’ complementary robotics and hardware experience support prototype execution. At the next installation, rental or purchase revenue would need to cover hardware, tooling, integration, and ongoing support. The memo gives pricing terms in outline and leaves per-cell costs and utilization unmeasured. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Machine-specific integration, guarding, and part variation could consume the savings from easier changeovers, leaving the same short-run jobs manual. For jobs that do justify automation, Formic already offers installation and maintenance for overlapping tasks, and Standard Bots offers demonstration-based programming. That overlap makes substitution credible, while the memo leaves actual switching and performance on Odin’s target jobs unresolved. Both New Economies conditions remain open to a production test, supporting Watch. The memo provides no independent basis for a scarce-complement path. (Market & Traction, Defensibility, Key Risks)
+Odin may be selling a more convenient retrofit within an existing automation market. Standard Bots already offers demonstration-based programming, and Formic sells installed automation for overlapping tasks. Odin’s demos show that the cells can perform the motions, while leaving open whether AI lowers the cost of frequent changeovers enough to win work that still goes to manual labor. The short-run use case supports Watch at seed. A representative result showing that conventional programming achieves the same economics would remove the supported AGI path and trigger Pass. (The Idea, Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 5/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 24/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent factory pay for Odin on a short-run job it previously kept manual because conventional automation was uneconomic? Move to Reach out if a full-shift trial with repeated part changes demonstrates a materially lower all-in cost per accepted part at the required quality, converts to a paid deployment, and the buyer identifies an Odin-specific deployment or service advantage that would still matter if a competing integrator had equally capable models.
+Can Odin’s AI-assisted changeovers make automation economical on a previously manual short-run CNC line? A buyer-verified production pilot across representative part changes should compare manual tending, conventional robot programming, and Odin’s AI-assisted workflow on fully loaded cost per accepted part, including setup, operator interventions, rejects, downtime, and installed cell costs. Move to Reach out if the AI-assisted workflow crosses the buyer’s adoption threshold at required throughput, quality, and safety while conventional automation falls short. Move to Pass if the comparison rules out AI as the lever that makes the use viable. (The Idea, Key Risks)

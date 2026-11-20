@@ -1,30 +1,33 @@
 ﻿# Definite -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is Definite’s strongest path. The company describes controllers spending days rebuilding spreadsheet mappings and tracing operational changes to financial results. Definite says it uses AI to propose mappings, then applies deterministic rules and links each result to the underlying records. One plausible new use is weekly site-level margin reconciliation for operators that currently skip it because of the labor involved. That use remains hypothetical. The memo gives a qualitative baseline of days of controller work, while the cost per successful reconciliation after setup, review, and corrections remains unmeasured. The reported manual workaround is the main demand signal. Observed traction for the current product consists of public positioning and coverage, with buyer commitments and payment still unverified. (The Idea, Market & Traction, Key Facts)
+Definite has zero supported AGI paths. Its product reconciles operating and finance records for controllers. The memo identifies no AI workload that depends on Definite’s output and no scarce input that Definite could supply as AI deployment grows. (The Idea)
 
-Under model parity, a buyer could still pay for reusable cross-ERP mappings, calculation rules, and approval history that make results reproducible. Definite documents those features, while buyer preference and switching costs remain untested. The team’s prior work on financial approval controls and its launch of a bank-reporting product support seed-stage execution. Definite said the earlier product was live with banks, and repeatable deployment of the current platform remains open. The expansion unit is another recurring workflow at an existing customer. Reusing the data model could spread connector and setup costs across more runs, while inference, mapping exceptions, and human review still affect contribution per run. (Defensibility, Founders & Team, Market & Traction, Key Risks)
+Definite says AI proposes record mappings while deterministic rules calculate results and preserve links to source records. The memo describes controllers already tracing operating changes to financial results through spreadsheets, a process that can take days. The evidence supports a potential efficiency gain in an existing workflow. The cost per verified result and the cadence customers could afford with Definite remain unknown. (The Idea, Key Risks)
+
+The reported spreadsheet workaround provides a modest demand signal. Customer-specific rules and approval histories could increase switching costs, although retention is unmeasured and native ERP agents overlap with some workflows. The team’s prior work on financial approval controls and analyst tools supports execution credit. Definite also reported live bank deployments for its earlier reporting product. The memo documents public positioning for the current platform, while paid deployments, revenue, and the costs of onboarding and review remain unverified. (The Idea, Defensibility, Founders & Team, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Definite may save time on finance work that buyers already fund while leaving enough manual review and customer-specific setup to keep previously skipped workflows uneconomic. Microsoft’s native Dynamics finance agents offer an overlapping substitute, and a mapping error can still propagate through a deterministic calculation. The memo establishes competitive overlap. Functional parity, buyer switching, and the cost of producing a correct result in practice remain untested. The New Economies path stays open at Watch because both market opening and buyer preference under model parity can be tested. (The Idea, Defensibility, Key Risks)
+A manufacturer that can afford to trace operating changes to financial results only at month-end might use AI-assisted mapping to review them daily by site. The memo’s account of multi-day spreadsheet work makes that scenario plausible. Even with equally capable models, the buyer could still need maintained cross-system integrations, approved rules, and reproducible results. Daily use and its affordability are scenario assumptions. The evidence does not clear either path gate, so the Pass decision holds. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 20/150** (Pass)
 
 ### Decisive diligence question
 
-Will an operator that previously skipped weekly site-level margin reconciliation pay for repeated Definite runs when it can choose an alternative with comparable model capability? A paid pilot that records labor and cost per correct, approved reconciliation, including setup, review, and rework, and converts to repeat paid use after a comparison with that alternative would move the action to Reach out. If the savings fail to make the workflow viable or the buyer readily switches at functional parity, the action moves to Pass.
+Can a paid manufacturer pilot sustain daily, auditable site-level financial analysis that the buyer previously could afford only monthly? Move to **Reach out** if the buyer confirms the change in cadence, measures an affordable cost per verified result including setup, review, and corrections, and shows that an equally capable model still requires the integrations and controls Definite delivers.

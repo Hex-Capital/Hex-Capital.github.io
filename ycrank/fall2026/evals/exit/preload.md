@@ -5,31 +5,29 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an established robotics-data provider seeking to own differentiated training data and the system that collects it. Preload demonstrated synchronized video, tactile, and forearm EMG capture. The memo also records an EMG-controlled ProHand demonstration, and Preload reported preliminary separation of light and heavy handling effort. The acquisition rationale is conditional. If EMG improves dexterous task success or reduces the demonstrations needed for training, owning a repeatable collection system and its recordings could give a buyer an economic reason to acquire Preload. The current demonstrations leave that incremental training benefit unmeasured. (The Idea, Defensibility, Market & Traction, Key Risks)
+Preload’s strongest plausible exit is a strategic acquisition by a robotics platform. The memo documents a demo of synchronized EMG, tactile, and video capture and a ProHand demonstration featuring Preload. Preload reports that its EMG signal preliminarily distinguished light from heavy handling. A platform could have a reason to own the capture stack and resulting recordings if EMG materially improves dexterous task performance or reduces training costs. The memo establishes a technical reason to test that hypothesis. Buyer savings, acquisition interest, and a supportable purchase price remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-A controlled physical-robot test across operators, comparing video and tactile training data with and without EMG, is the next milestone. The prototype, founders’ biosignal experience, and policy-learning and wearable-sensor job postings make the test plausible. The memo provides no funded pilot, committed robot access, test budget, or schedule. (Defensibility, Founders & Team, Market & Traction, Key Risks)
+A controlled physical-robot trial across operators is the next milestone. The policy-learning job calls for hardware evaluation, and the founders’ sensing and motor-control experience supports their ability to run a bounded test. Trial funding, runway, and the cost of collecting data consistently across operators remain unknown. (Founders & Team, Key Risks)
 
-Under the benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× objective requires $2.5 million in holder cash, or about $83.3 million in distributable equity value at 3%. The sale cases below assume a closing within eight years, cash consideration, eligibility to sell the entire stake, and pro rata distribution with no senior preference reducing the holder’s payout. The memo supplies no transaction pricing or investor terms to verify those assumptions. (Market & Traction, Key Facts)
+The proceeds bridge uses a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity at 3%. Both sale cases assume a fully cash-funded acquisition within eight years, a sale of the holder’s entire stake, holder eligibility, and a pro rata waterfall with no senior claims. Deal terms and transfer rights are unverified. The prices below are scenario assumptions. (Market & Traction, Key Facts)
 
-| Scenario | Proceeds bridge | Holder cash |
-|---|---|---|
-| Modest strategic sale | Illustrative $40M enterprise value less $5M of net debt and deal adjustments leaves $35M in distributable equity | $1.05M, or 2.1× |
-| Strong strategic sale | Illustrative $100M enterprise value less $10M of net debt and deal adjustments leaves $90M in distributable equity | $2.70M, or 5.4×. If only half the stake can be sold, cash falls to $1.35M, or 2.7×. |
-| Prolonged private operation | Assumes available cash is reinvested and no eligible share sale or distribution occurs within eight years | $0 realized |
-
-The sale values are sensitivities. The memo gives no buyer economics or comparable transaction pricing to support either value. Rights to transfer the recordings and related IP are also unverified, and there is no evidence of an independent liquidity route. (The Idea, Defensibility, Market & Traction, Key Facts)
+| Scenario | Enterprise value to distributable equity | Holder cash |
+|-----------|-------|-------|
+| Modest sale | $40M enterprise value with zero net debt or deal adjustments yields $40M in equity | $1.2M (2.4×) |
+| Strong sale | $100M enterprise value with zero net debt or deal adjustments yields $100M in equity. A $20M reduction for net debt and deal adjustments leaves $80M. | $3.0M (6.0×), or $2.4M (4.8×) after the reduction |
+| Prolonged private | Preload reinvests available cash through year eight, with no eligible share purchase or distribution in the scenario | $0 |
 
 ### Countercase
 
-A strategic buyer could build its own capture system or source training data from an existing provider. Mecka already designs and synchronizes multisensor hardware, and Human Archive publishes aligned video, depth, touch, and motion data. If EMG adds little on physical robots or its value varies across operators, a buyer has little reason to acquire the system. Those alternatives weaken the rationale for paying an acquisition premium, but the memo does not establish a ready substitute for an EMG channel with demonstrated training value or a supported sale price that falls materially short. The unresolved evidence gap warrants Watch. (Defensibility, Market & Traction, Key Risks)
+A robotics platform could use existing multisensor data or build its own capture stack. Mecka already synchronizes its own hardware, and Human Archive publishes aligned video, depth, touch, and motion. Preload’s reported ability to distinguish handling effort leaves open whether EMG adds enough value on physical robots to justify buying the company. The alternatives weaken the acquisition case, but their ability to substitute for EMG on buyer-relevant tasks remains unverified. The proceeds gate stays open because the memo supplies neither a supported sale-price ceiling nor evidence of a structural closing block. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -37,4 +35,4 @@ A strategic buyer could build its own capture system or source training data fro
 
 ### Decisive diligence question
 
-Can a paid pilot with a prospective strategic buyer show that adding EMG produces a repeatable improvement in physical-robot task success or reduces the demonstrations needed across operators, enough to justify owning the capability? A controlled comparison and the buyer’s quantified build-versus-buy assessment would move the action to Reach out if the economics support a price that could clear the $83.3 million distributable equity hurdle.
+Can a prospective acquirer’s paid trial show that adding EMG to video and touch improves physical-robot task success at the same training cost, or lowers cost at the same success rate, by enough to make an acquisition above the proceeds hurdle economically credible? A repeatable result across operators, paired with buyer economics that could support at least $83.3 million in distributable equity under the benchmark terms, would move the action to Reach out. Pending that evidence, the action stays Watch.

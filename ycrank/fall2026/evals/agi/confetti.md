@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is Confetti’s strongest path. First-time makers can spend weeks learning CAD and coordinating parts, firmware, and fabrication. Confetti’s documented workflow generates editable CAD, parts plans, assembly instructions, and supported firmware from a prompt, with print ordering for eligible designs. If this reduces the total cost per working build, first-time makers who would otherwise abandon one-off projects such as custom keyboards or personalized gifts could become paying buyers. That is a scenario assumption. The memo gives no measured time or cost per successful build under either workflow. (The Idea, Market & Traction)
+Confetti has no supported building-blocks path. Its agent uses AI to design and source custom objects for makers. The memo identifies no scarce input that Confetti supplies to an AI workload or to the AI infrastructure buildout. (The Idea)
 
-The memo records a public launch and 36 public design pages. The founders report users working on a custom keyboard, personalized gifts, and a portable dynamic mechanical analyzer. These signals show early design activity, with completed builds and paying customers unverified. The founders’ prior software and electrical work and their joint device prototype support their ability to ship the initial workflow. Repeatable physical validation remains the next execution gap. (Market & Traction, Key Facts, Founders & Team, Key Risks)
+The enabled-industry path is plausible for first-time makers who would otherwise abandon a one-off project because learning CAD, checking parts, and arranging fabrication can take weeks, according to the company. Confetti’s documented workflow turns a prompt into editable CAD, a parts plan, assembly instructions, and a print quote for eligible designs. A narrow seed-stage scenario is a novice ordering a simple printed gift after AI removes enough design labor to make the project worth doing. Even with equally capable models, coordinating editable files, quotes, and fabrication orders could still be worth paying for. That depends on the object working and the combined cost of design, verification, fabrication, and reprints fitting the maker’s budget. The memo supplies no completed-build cost comparison. (The Idea, Key Risks)
 
-Under model parity, Confetti could earn repeat business if remixing proven builds or coordinating fabrication saves users meaningful work. The memo documents remixing and revision history, with no measured benefit from additional contributors or evidence of buyer preference at parity. The expansion units are paid subscriptions and eligible print orders. Plans start at $29 per month. An assumed $20 supplier order yields a $1.50 service fee where it applies, before any inference, support, or order-resolution costs. Paid conversion, order frequency, and contribution per successful build remain unknown. (The Idea, Defensibility, Key Facts)
+The founders report users working on a custom keyboard and other projects. The memo also records 36 public design pages. These are early signs of trial, with paid orders and repeat use still unverified. The public launch and the founders’ software and electrical prototyping experience support execution credit, while dependable physical delivery remains unverified. Listed subscriptions and order fees establish how Confetti intends to charge. The memo gives no basis for estimating contribution per successful build after model usage, support, and any rework Confetti absorbs. (Market & Traction, Founders & Team, Key Facts, Key Risks)
 
 ### Countercase
 
-Confetti may mainly speed up drafting for people who would already build, while fit, strength, and electrical compatibility still require user testing. Blueprint overlaps in prompted mechanical design, wiring, and parts sourcing. Suppliers control prices and delivery, and users can export files and order elsewhere. That supplier arrangement gives Confetti no evidenced control over a scarce complement. The memo documents meaningful overlap and a way to bypass checkout, with no evidence of customers switching between equivalent end-to-end workflows. Both New Economies gates remain open, which supports Watch. (Defensibility, Key Risks)
+Confetti may speed up design for people who would have built the same objects anyway. Users still verify dimensions, fit, and electrical compatibility, and a failed print can erase the time and cost savings. Blueprint already overlaps in prompted design, wiring, and parts sourcing. Confetti’s remix feature could help users reuse proven designs, but the memo documents no evidence that remixes improve build success. Exportable files and supplier control over price and delivery further limit Confetti’s ability to retain the economics. The remaining execution burden makes Watch appropriate. Evidence that the workflow only saves time on projects users would already complete would trigger Pass. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 16/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 33/150** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of first-time makers complete projects they had previously abandoned or deferred on cost grounds, then pay Confetti again when offered a comparably capable AI design alternative? Compare total cost per working build with the prior workflow, including maker time, support, failed prints, and rework. A material cost reduction that enables those builds, followed by repeat payment attributable to Confetti’s remix or fulfillment workflow, would move the action to Reach out. Evidence that projects remain uneconomic or that buyers readily switch at parity would move it to Pass.
+Can first-time makers complete paid, functional builds through Confetti within a budget and time limit that would otherwise have led them to abandon the project? A small paid cohort comparing Confetti with a similarly capable general-purpose model and separate fabrication ordering could track working builds, user time, and all-in spend including reprints. Repeated success for previously excluded makers, with the integrated workflow making the difference, would move the action to Reach out.

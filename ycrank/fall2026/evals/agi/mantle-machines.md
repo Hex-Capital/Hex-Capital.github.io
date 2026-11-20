@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is the strongest path. Mantle says it combines machine-specific records and AI diagnosis with local technicians and live expert guidance. Its founders say flying an in-house engineer to a repair can cost over $5,000 in travel alone. If remote guidance lets one specialist resolve more faults through local technicians, the service could lower the cost per successful repair. The scenario to test is a small overseas OEM whose U.S. fleet is too dispersed to justify routine specialist coverage. The memo provides no matched repair data or evidence that Mantle has opened this market. (The Idea; Key Risks)
+Mantle has a plausible path to making specialist maintenance affordable for equipment makers with small, dispersed fleets. The founders say travel alone can exceed $5,000 for an in-house engineer’s repair visit, and local generalists may lack machine-specific knowledge. Mantle’s design uses manuals, repair histories, and telemetry to help a local technician diagnose and fix faults, with a remote expert available when needed. The seed-stage assumption is that this workflow cuts specialist time and travel per successful repair enough for an OEM that previously went without dependable coverage to pay for it. The memo gives no example of a buyer crossing that threshold. Even with access to an equally capable model, buyers would still need trained technicians, parts coordination, and physical repair. (The Idea; Key Risks)
 
-Under model parity, an OEM could still pay Mantle for reliable dispatch and completed repairs. Mantle says it records service visits and adds the findings to each machine’s history. Those records could improve diagnosis of recurring faults, but the memo shows neither measured gains nor control over technician availability or service quality. Mantle reports multiple live customers, with no disclosed payment, repeat use, or evidence that those buyers previously went without coverage. The founders’ experience with Tesla’s service rollout, Curo’s charging network, and Babylon’s hardware deployments supports their ability to run an early field test. (Defensibility; Market & Traction; Founders & Team)
+The building-blocks path scores zero. The reported rise in factory robot installations supports a larger maintenance market, but the memo identifies no specific AI workload held up by scarce machine-service capacity. (Market & Traction)
 
-The expansion unit is a covered machine in a service territory. For the buyer, compare the full cost per successful repair against the OEM’s prior approach, including specialist time, travel, parts, and repeat visits. For Mantle, compare the monthly fee with the cost of local labor and travel, remote expert time, parts Mantle covers, and callbacks. The cost bridge assumes enough nearby machines to keep travel and idle time manageable. The memo gives no fee, job-level costs, or territory density to verify that assumption. (The Idea; Key Risks)
+Mantle reports multiple live customers, with payment and repeat use unverified. Its machine-specific repair records could improve diagnosis on later calls, though the memo gives no measured improvement or evidence of durable control. White’s service rollout experience and Smith’s hardware deployment background support seed-stage execution. The flat monthly fee and the exposure to repeat visits and costly parts identify the main inputs to unit economics, but the memo provides too little pricing or repair data to estimate contribution on the next machine. (Market & Traction; Defensibility; Founders & Team; The Idea; Key Risks)
 
 ### Countercase
 
-Mantle may be making an existing maintenance service more efficient without opening a new market. Roboworx already combines field service with repair-history and telemetry analytics for robot fleets, and Advanced Technology Services offers on-site factory maintenance. If difficult faults still require substantial expert time or repeat visits, the flat fee could expose Mantle to the same servicing costs the buyer is trying to shed. The overlap weakens the scarce-complement case, which lacks independent evidence of bottleneck control. It does not establish that the target OEMs already have affordable equivalent coverage, so the New Economies path remains open at Watch. (Market & Traction; Defensibility; Key Risks)
+Mantle may be selling a more efficient version of maintenance buyers can already obtain. Roboworx offers robot field service with telemetry-based predictive maintenance, and Mantle still relies on live specialist guidance. If comparable jobs require similar specialist time or repeat visits, the savings may be too small to bring a new buyer into the market or sustain the flat fee. That possibility keeps the action at Watch. Evidence that the workflow only improves existing service would remove the remaining AGI path and trigger Pass. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 5/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 25/150** (Pass)
 
 ### Decisive diligence question
 
-Will an overseas OEM that previously went without routine U.S. coverage renew a paid Mantle pilot when it has access to comparable diagnostic models? Move to Reach out if the OEM’s prior service records and the pilot’s job logs show fewer specialist hours and lower all-in cost per successful repair at comparable reliability, and the renewal fee covers Mantle’s field costs, including repeat visits. Stay at Watch if the comparison is inconclusive. Move to Pass if equivalent coverage was already affordable and the trial shows no material cost advantage or reason to pay Mantle under model parity.
+Can a paid pilot show that a dispersed OEM fleet previously priced out of dependable specialist coverage can now afford it because Mantle’s AI-assisted workflow reduces specialist time and travel per successful repair? A buyer-confirmed baseline and comparable repair records should show that Mantle meets the buyer’s uptime needs at a price the buyer will pay and that covers technician labor, remote supervision, travel, parts, and repeat visits. That result would move the action to Reach out.

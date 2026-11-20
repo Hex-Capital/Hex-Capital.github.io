@@ -5,28 +5,29 @@
 
 ### Company case
 
-Decent’s strongest path is **New Economies**. AI could make year-round claims review economical for small employers that previously received help only at annual renewal. The manual baseline would include broker time to inspect reports, verify findings, and secure a billing correction or renewal adjustment. Decent reports that AI handles 89% of brokerage work and that it helped exclude a one-time surgery, which accounted for 46% of one client’s claims spend, from the following year’s rates. The memo gives no comparative cost per successful intervention and does not establish that manual review was uneconomic for that client. (The Idea, Market & Traction)
+Decent has an early case for an industry enabled by superintelligence. The specific use is in-year claims review for small employers whose coverage decisions typically center on annual renewal. Decent says it reviews available bills and claims during the plan year and reports that AI handles 89% of brokerage work. It also reports getting a one-time surgery that accounted for 46% of a client’s claims spend excluded from the following year’s rates. That outcome illustrates the value of a successful intervention. The memo leaves open how much staff time AI saved on claims review and whether manual review was uneconomic at the same cadence. (The Idea, Market & Traction)
 
-The founders report 67 companies working with Decent. Customer testimonials from Serif Health, Locate, and Reflex Careers describe savings, supporting demand for better renewal outcomes. Repeat use, realized commissions, and uptake by employers newly served because of lower delivery costs remain unverified. Soman’s experience running level-funded plans and Budker’s prior deployment of internal AI agents support execution at this stage. (Market & Traction, Founders & Team, Key Facts)
+The seed-stage hypothesis is that AI lowers the staff cost per resolved intervention enough for provider commissions to fund ongoing review for employers previously served at renewal. Assuming Decent can obtain timely claims reports, the delivered service would still require access to those reports and follow-through with carriers or administrators even if comparable models were widely available. The building-blocks path scores zero because the memo describes AI use in brokerage and identifies no scarce input Decent supplies to an AI workload. (The Idea, Key Risks)
 
-The expansion unit is a placed employer account. Its contribution depends on realized commissions after acquisition, routine servicing, claims processing, and human review of exceptions. Employers pay no separate brokerage fee, and the memo provides no account-level figures to show whether commissions cover those costs across renewals. (The Idea, Key Risks, Key Facts)
+Customer testimonials from Serif Health, Locate, and Reflex Careers report savings and support demand for the brokerage. The founder-reported count of 67 companies leaves paid conversion and repeat use unclear. Soman’s prior experience running health plans and Budker’s deployment of internal AI agents support execution, with dependable claims access and exception handling still open. The commission model identifies the payer, while realized revenue and the cost of serving another employer remain undisclosed. (Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Decent may be making an existing brokerage service more efficient. Corridor already automates quoting and proposals, and Ignition combines automation with licensed staff. Carriers and administrators determine what claims data Decent can review, and provider-specific commissions constrain its economics. Decent could earn a preference through better claims interventions and renewal advocacy, but the memo shows no retention or buyer preference when comparable alternatives are available. It also shows no independently supported scarce complement. The evidence leaves market opening and value capture under model parity unproven, so the decision gate supports Watch. (Defensibility, Market & Traction, Key Risks)
+Decent may be making conventional brokerage faster, with the reported savings coming from plan selection or negotiation that a manual broker could deliver on comparable terms. Corridor already automates proposals, Ignition automates benefits administration, and carriers or administrators control access to the claims reports Decent needs. Those facts weaken durable value capture. Watch applies because the in-year use is concrete and its economics are testable. Evidence that manual brokers can deliver the same review cadence on comparable terms would remove the supported AGI path and trigger Pass. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 8/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 30/150** (Pass)
 
 ### Decisive diligence question
 
-Can Decent profitably win and retain small employers that previously went without year-round claims review because it was too costly, when comparable AI-enabled brokers are available? A renewal cohort showing lower fully loaded cost per implemented intervention than manual review, positive contribution from realized commissions, and employer retention attributable to Decent’s service would move the action to Reach out. Evidence that those employers could already obtain equivalent review at viable economics would close the path and move the action to Pass.
+Can Decent use AI to deliver recurring in-year claims review within realized commissions for small employers that previously received review only at renewal? A customer cohort with comparable claims access could answer this by measuring successful interventions and their fully loaded costs, including staff review and carrier follow-up, against a manual brokerage baseline. Evidence that AI makes the cadence affordable for those employers would move the action to Reach out. Comparable manual economics would move it to Pass.

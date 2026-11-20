@@ -5,23 +5,21 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a cloud provider such as DigitalOcean. DigitalOcean already offers a Herdr one-click image and ships a plugin for its managed agent runtime. That is direct evidence of integration. The acquisition rationale is an inference. Owning the desktop and mobile workflow could help a provider attract or retain teams that run coding agents across multiple hosts. Conductor’s announcement that it was joining Meta shows strategic activity in an adjacent workflow, with no disclosed price in the memo. (The Idea, Market & Traction)
+A strategic acquisition is the strongest supported route. DigitalOcean already offers a Herdr one-click image and publishes a plugin for its managed agent runtime. Herdr’s persistent, cross-host sessions could help DigitalOcean attract and retain developers who use multiple coding agents. Conductor’s announcement that it was joining Meta shows strategic interest in an adjacent workflow, with no disclosed price in the memo. DigitalOcean’s integration establishes product fit. The value of owning Herdr remains an inference. (The Idea, Market & Traction)
 
-The $6 million seed and the newer desktop repository’s 3.1K stars make a partner pilot plausible. Herdr reports 2.16 million cumulative installs for the original TUI. Paid conversion and retained team usage on the newer runtime remain unverified. A pilot could measure whether teams keep using the newer runtime and generate incremental hosting spend. (Market & Traction, Key Facts)
+The reported $6 million seed round makes a production pilot plausible. Herdr reports 2.16 million cumulative installs of its original TUI, which gives it a distribution base for testing the newer runtime. Cumulative installs leave active use and retention unknown, and existing TUI sessions cannot migrate to the desktop or mobile runtime. A pilot that measures incremental paid workload retention on the new runtime over the next 12–18 months is a reasonable milestone to test, with staffing, cost, and runway unverified. (Market & Traction, Founders & Team, Key Risks)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return, requiring about $83.3 million in distributable equity value at 3%. The cases below assume an eligible holder sells its entire stake for cash within the horizon, with zero net debt, deal deductions, or preference leakage in the base sale cases. The memo leaves those terms unverified.
+Under the rubric’s benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3%, with no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. Both sale scenarios below assume $5 million in net debt and other deal deductions, an eligible holder selling the entire stake for cash within eight years, and a pro rata waterfall with no preference leakage.
 
-| Scenario | Cash to the holder |
-|---|---:|
-| Modest sale at an assumed $40 million enterprise value | $1.2 million, or 2.4× |
-| Strong sale at an assumed $100 million enterprise value | $3.0 million, or 6.0×. A $15 million reduction from enterprise value to distributable equity would leave $2.55 million, or 5.1×. |
-| Prolonged private operation with cash reinvested and no eligible share sale | $0 realized |
+- **Modest sale.** $40 million in enterprise value yields $35 million in distributable equity and $1.05 million to the holder, or 2.1×.
+- **Strong sale.** $100 million in enterprise value yields $95 million in distributable equity and $2.85 million to the holder, or 5.7×. At 2.5% ownership, the same sale yields about $2.38 million, below the hurdle.
+- **Prolonged private.** Continued operation with cash reinvested yields zero realized proceeds. The memo provides no evidence of an eligible secondary, funded payout, or other independent liquidity route. (The Idea, Market & Traction, Key Facts)
 
-The sale values are sensitivities. The memo provides no transaction price, measured buyer economics, or other basis for underwriting realizable proceeds.
+The sale values are illustrative. The Cloud waitlist has no disclosed price, and the memo supplies no buyer economics, transaction price, or holder terms to support realizable proceeds or verify participation. (The Idea, Market & Traction)
 
 ### Countercase
 
-DigitalOcean already gets integration benefits without owning Herdr. A provider can build on the Apache-2.0 core, and native agent apps already offer overlapping supervision. The original TUI’s sessions also cannot carry over to the newer desktop and mobile runtime, weakening the inference that TUI adoption would transfer to an acquirer. These factors weaken the case for an acquisition premium. The evidence leaves both a structural block and a likely proceeds shortfall unestablished, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+DigitalOcean may already capture much of the benefit through its existing integration. The Apache-2.0 core gives it a way to build on Herdr without acquiring the company, while cmux and the Codex app already cover parts of agent supervision. If the integration captures most of the value, DigitalOcean would have little reason to pay an acquisition premium. The memo leaves that question open and establishes neither a structural block nor a credible price ceiling below the holder’s hurdle, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -30,11 +28,11 @@ DigitalOcean already gets integration benefits without owning Herdr. A provider 
 | Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 13/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-What incremental economic value would DigitalOcean gain from owning Herdr beyond what its existing integration delivers? A partner pilot showing sustained team adoption and incremental hosting spend, paired with a buyer-side valuation range that could clear roughly $83.3 million in distributable equity, would change the action to Reach out.
+Can a DigitalOcean production pilot show enough incremental value from owning Herdr to justify a deal that clears the holder’s cash hurdle? A buyer-validated increase in retained paid workloads beyond the current integration, tied to a price range that supports at least $2.5 million in holder cash after deal deductions and the waterfall, would change the action to Reach out.

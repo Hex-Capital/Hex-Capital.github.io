@@ -1,21 +1,23 @@
 ﻿# Simulithic -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is automated web regression testing for engineering teams that use GitHub pull requests. Conditional on strong product-market fit, the documented GitHub App and CLI, automatic journey mapping, and preview-to-baseline comparisons give teams in different markets a common way to check releases. This path looks portable because the core job and integration can travel together. Visitor capture may add privacy review when used, and native device limitations narrow the use cases the current product can cover. (The Idea, Defensibility, Key Risks)
+Conditional on strong product-market fit with engineering teams, Simulithic’s web QA workflow looks portable across markets. Teams can use the same GitHub App or CLI to compare pull-request previews with a baseline, replay user journeys across browsers and devices, and monitor production. The memo identifies no country-specific changes to the core workflow. Visitor-behavior capture could require privacy review, and the documented iOS simulator and Android limitations narrow the jobs Simulithic can cover for native apps. (The Idea, Key Risks)
 
-Referrals and free QA audits give teams a concrete way to discover the product. The GitHub App and CLI make technical setup reusable, while the documented purchase path runs through sales quotes. Once teams integrate checks into releases, recurring pull requests and production monitoring can sustain usage. Larger plans and additional run credits give retained accounts ways to spend more as coverage expands. Credit exhaustion pauses runs pending approval, so higher test volume may lead to tighter budgets as well as higher spend. Same-account expansion remains an inference. (The Idea, Key Risks)
+Referrals give teams a way to discover the product, and the GitHub App and CLI make setup reusable. The documented sales motion includes founder demos, a free first QA audit, and sales quotes for subscriptions. The published credit schedule establishes a price for additional usage, while the path to independent purchase and first value remains unverified. (The Idea, Key Facts)
 
-The founders report several live deployments and more than 2× week-over-week growth on an unspecified metric. The October 21 QA launch gives the two-person team a recent starting point for assessing uptake, but payment status, the growth metric, and its starting base remain unknown. Initial traction therefore takes the absent-evidence default for commercial traction. (Simulithic, Market & Traction, Key Facts)
+Pull-request checks and production monitoring create recurring reasons to run tests. Monthly plans include 2,000, 8,000, or 25,000 sessions, and the credit schedule lists $1 per web or phone run. More releases, journeys, or device coverage could drive tier upgrades or credit purchases. That gives retained accounts a concrete way to spend more, although runs pause when credits are exhausted unless the buyer approves more. Expansion is plausible, with no observed renewal or account-spend data in the memo. (The Idea, Key Risks, Key Facts)
 
-For an incremental web run billed at the published $1 credit rate, positive contribution requires attributable execution, agent compute, and support costs to stay below $1. At the account level, contribution also has to cover attributable selling and onboarding effort. Controls on flows and agents per check can contain workload cost by cutting lower-priority runs. Realized prices for bundled runs and costs under representative workloads remain unknown. (The Idea, Key Risks, Key Facts)
+The two-person company reported several live deployments around the October QA launch. That is an early adoption signal. The founders’ reported growth of more than 2× week over week has an unspecified metric and starting base. Payment status and realized revenue are unknown, so initial traction takes the absent-evidence default for commercial traction. (Simulithic, Market & Traction, Key Facts)
+
+For a separately billed run at the listed $1 rate, incremental contribution is that dollar less browser or phone execution, agent compute, and an allocation of attributable audit, setup, and support effort. Limiting flows and agents per check can reduce execution cost where buyers accept the resulting coverage. The memo leaves actual run costs, labor per account, and the economics of bundled sessions unresolved, so positive contribution remains unverified. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-The founder-led demo and free audit could remain essential to winning ordinary buyers, while each extra flow, browser, or agent adds execution work. If teams cap coverage when credits run low, the same workload growth that could expand account spend could instead constrain it. The structural gate stays open. The web integration is reusable, and the amount of required per-buyer work and its effect on contribution remain unresolved. (The Idea, Key Risks)
+Simulithic could scale like a founder-assisted QA service if ordinary teams need a demo and manual audit to get useful coverage. Paired preview and baseline runs multiply execution across flows, devices, and agents, while credit limits can stop usage before it expands into higher account spend. The documented integrations and run controls provide a credible way to reduce that burden. The structural downside gate stays open because the memo leaves both the necessity of founder involvement and the contribution at realistic workloads unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -31,4 +33,4 @@ The founder-led demo and free audit could remain essential to winning ordinary b
 
 ### Decisive diligence question
 
-Can a cohort of referred engineering teams independently purchase, install, and keep paying for web pull-request checks across successive releases? Billing and usage records showing that pattern without founder-led audits or setup would establish repeatable paid activation and move the action to Reach out if the cohort clears the scoring threshold. Continued dependence on founder-led activation would keep the action at Watch.
+Can a cohort of engineering teams acquired through referrals independently configure its first useful pull-request check, pay, and continue running checks at positive incremental contribution? Activation logs, invoices, and attributable execution and support costs over successive billing periods would answer it. A cohort that demonstrates this path would move the action to Reach out. Evidence that routine accounts require founder-led audits and remain uneconomic even with the documented run controls would move it to Pass.

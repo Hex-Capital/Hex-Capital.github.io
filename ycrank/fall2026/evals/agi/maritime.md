@@ -1,30 +1,33 @@
 ﻿# Maritime -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Maritime’s strongest path. The founders report that maintaining and debugging hundreds of self-managed VMs took time away from agent research. Maritime claims its managed service cuts that work by handling deployment, monitoring, and debugging, and by restoring each agent’s state when a message arrives. Keiki documents running its background agent harness on Maritime microVMs, showing the service supports a live use case. The market-opening hypothesis is that small teams could afford to give each customer a persistent agent once hosting and operator labor per successful task fall far enough. The memo leaves the size of that reduction and the identity of buyers previously priced out unverified. (The Idea, Market & Traction)
+Maritime hosts an isolated, persistent VM for each customer’s agent and wakes it when work arrives. The founders report that maintaining and debugging hundreds of VMs took time away from their research. More per-customer agents could increase demand for this runtime, but the memo documents overlapping capabilities from Fly.io and Google Cloud and provides no evidence of constrained supply or deployments delayed by a lack of equivalent capacity. Building blocks scores zero. (The Idea, Defensibility)
 
-The expansion unit is one persistent agent box, listed at $1 per 2 GB per month. If fleets spend most of their time asleep and wakeups are spread out, Maritime can spread active compute capacity across more boxes. Its reported snapshot of 29 awake agents out of 1,107 establishes concurrency at one moment. Average awake time, peak concurrency, storage and support costs, and the cost of failed or retried tasks remain unknown. The relevant comparison is total hosting and operator cost per successful task on self-managed VMs versus Maritime fees and remaining operator work. (The Idea, Market & Traction, Key Risks)
+The industry-enabled path also scores zero. Maritime’s design could reduce idle compute and the engineering work of operating an existing agent fleet. The memo identifies no previously excluded buyer or use that becomes viable because AI reduces the cost per successful outcome. Keiki’s documented integration establishes that a buyer uses the runtime for background agents. Payment, repeat demand, and a newly viable downstream use remain unverified. (The Idea, Market & Traction, Key Risks)
+
+The documented scheduler shows operating know-how, while overlap in idle sleep and persistent checkpoints limits evidence of durable pricing power. Migration friction from accumulated state and integrations is an inference. The shipped runtime and Maritime’s reported snapshot of 1,107 agents with 29 awake support seed-stage execution. The snapshot leaves reliability under sustained concurrent load open. Published pricing and the risk of rising compute costs as agents spend more time awake leave contribution on the next fleet unquantified. (Defensibility, Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-Maritime may be making an existing hosting job easier in a market where buyers already have credible alternatives. Fly.io offers idle sleep and persistent checkpoints, and Google Cloud offers isolated agent sandboxes with persistent workspaces. Accumulated state, credentials, and integrations could make migration costly, but the memo provides no measured switching costs or evidence that buyers prefer Maritime when runtime functionality and model capability are comparable. That keeps the New Economies path at Watch. Feature overlap leaves substitution plausible, while actual switching remains unobserved. The memo identifies no independently supported scarce complement. (The Idea, Defensibility)
+A low-duty-cycle fleet could make a dedicated agent per user affordable for a service that previously required too much human supervision. Maritime’s state-preserving wakeups and Keiki’s background-agent integration make that scenario plausible. It assumes that automation cuts supervision enough to cross the buyer’s cost threshold and that the workload remains economical through bursts and failures. The memo supplies neither a cost comparison nor evidence that Keiki opened a previously excluded use, so the Pass gate applies. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent teams that previously found per-customer agents too expensive renew at standard prices after comparing Maritime with a comparable persistent runtime using the same model? A paid cohort that documents why buyers previously ruled out the use case, measures operator time and total cost per successful task, and renews on Maritime at a positive contribution margin would move the action to Reach out. If the alternative also opens the use case and buyers switch readily, the action would move to Pass.
+Can one paying customer show that a persistent background-agent workflow previously ruled out on cost now meets its budget and reliability requirements on Maritime? A representative deployment comparing fully loaded cost per successful outcome with the prior delivery model, including compute, human supervision, and failed or retried work, would answer it. If that comparison showed that AI-driven labor savings crossed the threshold and that the customer still needed a managed runtime under model parity, the action would move to Reach out.

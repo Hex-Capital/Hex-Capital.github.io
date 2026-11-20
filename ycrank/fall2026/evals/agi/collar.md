@@ -1,30 +1,33 @@
 ﻿# Collar -- AGI Evaluation
 
-**Action:** Watch
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Collar’s strongest path. Collar says some large public companies pay IR consultants $15,000 a month and reports that earnings preparation fell from three weeks to about one day in an anonymized use case. Its software checks for conflicting figures and surfaces citation-backed answers from approved materials during calls. A plausible new use is compliance-approved preparation for smaller public issuers that previously skipped it because of cost. The memo records elapsed time savings in an existing workflow. Testing the new use requires comparing the all-in cost per successfully completed preparation cycle at comparable quality, including staff review and corrections. (The Idea, Market & Traction, Key Risks)
+Collar’s strongest commercial case is selling software to public-company investor relations teams that already prepare for earnings and investor meetings. Collar describes a product that flags conflicting figures and retrieves cited talking points from approved materials during live calls. This workflow uses AI, and the memo identifies no specific AI workload whose deployment Collar could unblock by supplying a scarce input. The building-blocks path scores zero. (The Idea, Market & Traction)
 
-Collar reports $1.4 million in deals pending compliance, 30 partners, and 4× month-over-month revenue growth from an undisclosed base. Those signals support buyer interest, with paid conversion and repeat use still open. The founders’ prior work together and the announced public-company IR launch support seed-stage execution credit. Live accuracy and latency remain unverified. Each issuer is a plausible expansion unit, but current pricing and the costs of onboarding, live inference, and support are undisclosed. (The Idea, Market & Traction, Founders & Team, Key Risks)
+The industry-enabled path also scores zero. Collar says some large issuers already pay consultants $15,000 per month for investor relations work. Its product could reduce the labor required to prepare for meetings, but the memo identifies no issuer that gained access to a previously unaffordable service or began using it at a previously impractical frequency. Under model parity, issuer-specific approvals and live retrieval could still justify a separate product. Whether buyers would pay for that workflow separately remains open given the AI features already entering incumbent IR products. (The Idea, Defensibility, Market & Traction)
+
+Collar’s reported map of more than 12,000 portfolio managers and its use of issuer-specific investor history give the workflow some differentiation. Any switching cost depends on teams relying on that history across earnings cycles, and retention is unverified. Collar reports $1.4 million in deals pending compliance, which signals procurement interest. Compliance conversion, the revenue base, and repeat paid use remain unverified. The memo records the public-company IR launch and the founders’ prior procurement work together, supporting early execution credit. The current product’s pricing and delivery costs are undisclosed, leaving contribution per deployment unassessed. (Defensibility, Market & Traction, Founders & Team, Key Risks, The Idea)
 
 ### Countercase
 
-Collar may save existing IR teams time while incumbents absorb enough of the workflow to make a separate purchase unnecessary. Q4 has launched an AI-native IR CRM, and Notified has added market intelligence to earnings preparation. Collar’s issuer-specific meeting history could make its workflow stickier, but preference under functional parity, switching costs, and network effects remain unproven. The two New Economies conditions, market opening and durable value under model parity, remain open. The memo gives no direct evidence of buyer switching or an independent scarce-complement case. (Defensibility, Key Risks)
+Collar’s anonymized case puts earnings preparation at about one day, down from three weeks. If that result holds after staff time for source verification, disclosure review, and corrections is counted, an issuer with limited IR staffing might be able to prepare for more investor meetings than its budget previously allowed. The case gives elapsed time for an existing workflow. It leaves the fully loaded cost and any newly viable use unmeasured, so both AGI paths remain at zero and the Pass gate applies. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 7/15 |
+| Team and execution | 5/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 20/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent public issuers that previously skipped this level of preparation on cost grounds pay for Collar again the next earnings cycle when a functionally comparable alternative is available? Reach out if a cohort clears compliance, documents a lower all-in cost per successful cycle at comparable quality, and renews at a paid rate after evaluating the alternative. Pass if the test shows buyers readily switch at parity or the savings serve only existing uses. Otherwise, keep watching.
+Can a public issuer that previously skipped a defined set of investor meetings because preparation was too expensive now prepare for them routinely with Collar? Move to Reach out if one compliance-approved, paid deployment shows that the issuer sustains the new meeting cadence across two reporting cycles, that software fees and staff review and correction time fit within its prior budget, and that a comparable model within its existing tools cannot deliver the same approved workflow. (The Idea, Market & Traction, Key Risks)

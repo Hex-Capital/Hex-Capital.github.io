@@ -5,32 +5,36 @@
 
 ### Company case
 
-A strategic sale to a domestic defense contractor is the strongest identifiable route. Polemos says volume production could lower unit costs. If independently validated and backed by paying demand, that cost advantage could give a defense contractor a reason to acquire the business. The memo identifies diversified defense peers, while buyer interest and the cost advantage remain unverified. Polemos lists testing as its next step, and the memo reports $500,000 in seed financing. That provides some support for pursuing validation, with the test budget and timeline still open. (The Idea, Market & Traction, Key Risks)
+A domestic strategic acquisition by a defense prime is the strongest plausible route. Polemos claims volume production could lower unit costs. That could give a buyer an economic reason to acquire the business if the cost advantage were independently demonstrated. The memo identifies diversified defense peers, but buyer interest, measured savings, and comparable deal prices remain unverified. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Using the rubric’s benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership. With dilution to 3% and no follow-ons, earning $2.5 million gross in cash within eight years requires about $83.3 million in distributable equity value on a pro rata basis.
+At seed, independent validation and a funded customer commitment would make the acquisition case more credible. The company lists testing as its next step, and the memo reports $500,000 in seed financing. The budget, runway, and time needed to reach commercial validation remain unclear. The memo flags export licensing for international sales and leaves domestic transaction approvals, transfer rights, and holder eligibility unverified. It provides no evidence of an independent liquidity route. (*Market & Traction*, *Key Risks*)
 
-- **Modest sale.** An illustrative $40 million enterprise value yields $1.2 million gross cash to the holder, or 2.4×.
-- **Strong sale.** An illustrative $100 million enterprise value yields $3 million, or 6×. If net debt and deal adjustments reduce equity value by $20 million, the holder receives $2.4 million, or 4.8×.
-- **Prolonged private operation.** If the company reinvests available cash and there is no eligible share sale or distribution within eight years, the holder realizes $0.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return. At 3% pro rata, that requires about $83.3 million in distributable equity value. The sale scenarios below are sensitivities. Both assume an all-cash close within eight years, eligibility to sell the full stake, zero net debt and deal adjustments, and a pro rata waterfall with no senior claims.
 
-The sale cases assume an all-cash close within eight years, eligibility to sell the full stake, and pro rata distribution with no senior claims. The headline amounts also assume zero net debt and deal adjustments. The memo provides no transaction pricing to support either sale scenario and identifies no independent route to holder liquidity. (Market & Traction, Key Facts)
+| Scenario | Proceeds bridge | Cash to holder |
+|---|---|---|
+| Modest sale | $50 million enterprise value → $50 million distributable equity | $1.5 million (3×) |
+| Strong sale | $100 million enterprise value → $100 million distributable equity | $3.0 million (6×) |
+| Prolonged private | Cash is reinvested, with no distribution or eligible share sale within eight years | $0 |
+
+The strong case can absorb about $16.7 million in reductions to the distributable pool under the assumed waterfall. A smaller eligible sale fraction or a waterfall that directs cash to senior holders would reduce this holder’s proceeds. The memo offers no pricing evidence for either sale scenario and gives no actual holder terms. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-The launch drew substantial attention, but the memo found no independently verified test results, paying customers, contracts, or letters of intent. A strategic buyer could wait for commercial validation, leaving holders private through the eight-year horizon. The memo flags export licensing for international sales and leaves closing conditions for a domestic sale open. The Pass gates remain untriggered because the evidence establishes neither a structural block nor a price ceiling below the holder’s hurdle. (Market & Traction, Key Risks)
+The strongest case for Pass is that Polemos may remain private beyond the eight-year horizon. The memo documents launch attention and reports seed financing, while independent test results, paying customers, and signed contracts remain unverified. That makes a strategic buyer’s willingness to pay above the hurdle speculative. The Pass gate remains untriggered because the memo establishes neither a structural barrier to the strongest route nor a supported sale range that leaves the holder materially short. (*Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 9/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 7/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 31/100** (Pass)
 
 ### Decisive diligence question
 
-What price range could a credible strategic buyer justify after commercial validation? An indicative range grounded in measured customer economics would move the action to Reach out if realistic deductions and holder terms still leave a path to $2.5 million in cash within eight years. A supported upper bound below that hurdle would move the action to Pass.
+What buyer-side evidence supports a domestic strategic sale that would deliver at least $2.5 million in cash to the benchmark holder within eight years? A documented buyer valuation grounded in independently verified commercial results would move the action to Reach out if the equity bridge and holder terms clear the hurdle. A supported range that leaves the holder materially short even at its upper end would move the action to Pass.

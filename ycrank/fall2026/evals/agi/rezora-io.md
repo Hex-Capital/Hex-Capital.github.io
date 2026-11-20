@@ -1,30 +1,31 @@
 ﻿# Rezora IO -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Rezora’s strongest path is New Economies through outbound follow-up for real-estate brokerages. Agents spend hours dialing leads manually. Rezora automates calls to eligible leads and books meetings on connected calendars. A plausible new use is routine follow-up on consenting CRM leads that small brokerages currently leave untouched because agent time is too expensive. The company reported 3× conversion versus manual calling in its earlier alpha, but the memo gives no labor baseline in dollars or hours per successful outcome. The cost advantage to verify is the subscription, usage fees, and staff time for exceptions per qualified meeting held, compared with the labor cost of achieving the same outcome manually. (The Idea, Market & Traction, Key Risks)
+Rezora’s supported AGI path is after-hours booking for home-service operators whose calls currently go to voicemail. The seed-stage assumption is that some operators receive too few calls to justify staffing the phone after hours. Rezora’s described workflow answers forwarded calls, checks service coverage, and books into a connected calendar. If that workflow handles enough calls without staff intervention, it could make live booking affordable at low call volumes. The delivered service still requires phone routing, business rules, calendar access, and escalation. The memo identifies no AI workload whose deployment Rezora could unblock by supplying a scarce input, so the building-blocks path scores zero. *(The Idea, Key Risks)*
 
-The founder reported $40,000 in 40 days from the earlier custom-agent pilot and 1,000 meetings booked on the current platform. The pilot provides an early willingness-to-pay signal, and the booking count shows reported usage. Repeat payment by brokerages newly able to serve these leads remains unverified. The founders brought real-estate sales experience, built the pilot, and shipped a self-serve platform. Each additional brokerage account is a plausible unit of expansion, but the two published pricing schedules differ, and the memo gives no telephony, inference, or support costs to establish contribution per account. (Key Facts, Market & Traction, Founders & Team, The Idea)
+The public self-serve launch and the founders’ experience selling real estate and building the first agent support execution. The founders report $40,000 in 40 days for the earlier custom-agent pilot and 1,000 lead meetings booked on the current platform. Those signals support demand for real-estate prospecting. The memo leaves paid home-service adoption and renewal open. Conflicting posted prices and missing delivery costs prevent an estimate of contribution per successful booking. The decisive gap is whether after-hours automation crosses an affordability threshold for buyers who previously left those calls unanswered. *(Market & Traction, Founders & Team, Key Facts, The Idea)*
 
 ### Countercase
 
-Rezora may be making existing prospecting cheaper in a market where agencies can assemble basic calling and booking from commercial tools, as its founder did for the pilot. Training for specific call types and configured CRM workflows could give buyers a reason to stay. Buyer preference at functional parity and network effects both remain unverified. The pilot establishes that the basic workflow is reproducible. End-to-end substitution, customer switching, and the economics of serving previously neglected leads remain open, so the decision gate calls for Watch. (Defensibility, Market & Traction)
+Rezora may mainly save labor in workflows customers could already afford. Matsay reports assembling the paid outbound pilot from Vapi, Zapier, and a calendar connection. Jobber already bundles inbound booking, and Avoca books directly into ServiceTitan while Rezora lists that integration as forthcoming. This limits durable value capture under comparable model capability. The Pass gate would apply if target buyers already had an affordable way to get equivalent after-hours coverage. The memo establishes functional overlap and leaves that affordability comparison open. *(Defensibility, Market & Traction, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 14/50 |
+| Durable value capture | 3/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will brokerages pay to renew Rezora after it makes follow-up on previously uneconomic, consented leads viable and they try a functionally comparable alternative? A paid cohort with documented prior call practices, fully loaded cost per qualified meeting held, and renewal decisions after the comparison would answer it. Move to Reach out if the cost reduction opens that use at positive contribution and buyers still choose Rezora. Move to Pass if the test shows the use remains uneconomic or buyers readily switch at parity.
+Can a paid cohort of low-call-volume home-service operators that previously relied on after-hours voicemail renew at a price their incremental completed jobs justify and Rezora can serve at positive contribution? A cohort test should compare completed jobs with the voicemail baseline and account for telephony, model usage, setup, human escalations, and booking errors. Verified renewals and positive economics for both sides would move the action to Reach out. Evidence that equivalent coverage was already affordable for those buyers would move it to Pass.

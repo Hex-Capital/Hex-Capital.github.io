@@ -5,21 +5,23 @@
 
 ### Company case
 
-Canos’s strongest exit path is a strategic sale to a veterinary diagnostics platform such as Antech. Antech already distributes a canine cancer blood test. Canos’s repeat-testing baseline and treatment monitoring could give a platform a reason to buy if clinics use the product to guide follow-up care and generate recurring test revenue. The memo establishes a distribution fit. The economic benefit of owning Canos remains an inference. (The Idea; Defensibility; Market & Traction)
+A strategic sale to a veterinary diagnostics platform is Canos’s strongest exit route. Antech already distributes a canine cancer blood test, which establishes a relevant channel and gives it an incumbent screening option. The reason to buy Canos would be incremental revenue from repeat treatment monitoring. Canos reports a longitudinal analysis of 117 dogs across 514 time points. That supports testing the monitoring use case, while paid repeat use and buyer economics remain open. (The Idea, Defensibility)
 
-Canos reports that 10 clinics and mobile vets are onboarding and that its retrospective benchmark achieved 90.6% sensitivity at 95.1% specificity on the diagnostic subset. Those signals support a prospective clinic pilot that measures clinical utility, paid repeat orders, and per-test margin. The capital and time needed for validation, sequencing, and sample logistics are unquantified. The founder reports a patent filing, while ownership and transfer rights for the assay and longitudinal data remain unverified. The memo provides no evidence of an independent liquidity route. (Market & Traction; Key Risks; Defensibility)
+Canos reports 90.6% sensitivity at 95.1% specificity in retrospective cross-validation on a 303-dog diagnostic subset and says 10 clinics and mobile vets are onboarding. A prospective study through those practices could measure performance in routine care, successful sample collection, and paid repeat orders at a positive contribution margin. Onboarding provides a starting point for that test. Its funding, enrollment pace, and cost remain unverified. The founder-reported patent filing leaves ownership and assignability of the assay and data open, along with holder participation terms. The memo supplies no evidence for an independent liquidity route. (Market & Traction, Key Risks, Defensibility)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% without follow-ons. The $2.5 million gross cash objective within eight years requires about $83.3 million in distributable equity value. For illustration, assume each sale closes within eight years, $5 million in combined debt and deal deductions, and a fully eligible holder who sells the entire stake for cash through a pro rata waterfall:
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3%, with no follow-ons. The holder needs $2.5 million in gross cash within eight years for a 5× return, requiring about $83.3 million in distributable equity. The sale scenarios below assume a closing within eight years, a sale of the holder’s entire stake, eligibility to participate, all cash at closing, and a pro rata waterfall with no preference diversion. The prices and deductions are illustrative assumptions.
 
-- **Modest sale.** $40 million in enterprise value leaves $35 million in distributable equity and pays the holder $1.05 million, or 2.1×.
-- **Strong sale.** $100 million in enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. At 2.5% ownership, that same sale pays $2.375 million and misses the objective.
-- **Prolonged private operation.** If Canos reinvests available cash and there is no eligible share sale or payout, the holder realizes $0 within eight years.
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|-----------|-----------------------------|----------------------|
+| Modest sale | $30M enterprise value less $5M in assumed debt and deal deductions leaves $25M | $750,000 (1.5×) |
+| Strong sale | $100M enterprise value less the same $5M leaves $95M | $2.85M (5.7×) |
+| Prolonged private | Continued operation with cash reinvested and no share purchase or payout within eight years | $0 (0×) |
 
-The listed test prices establish how Canos intends to charge. Paid repeat volume, margins, and buyer pricing remain unknown, so the sale values are illustrative. (The Idea; Defensibility)
+At $5 million in deductions, the sale needs about $88.3 million in enterprise value to clear the objective. If the holder can sell only half its stake in the strong case, it receives $1.425 million (2.85×). Canos’s posted test prices show how it plans to charge. Realized margins, paid volume, and buyer pricing evidence are still missing, so the strong case shows what would have to be true. (The Idea, Market & Traction)
 
 ### Countercase
 
-Antech already has an in-clinic screening option, and CanCan already offers sequencing-based monitoring. A buyer could rely on existing products if Canos’s prospective results fail to show that serial testing changes care enough to drive paid repeat use. PetDx raised $72 million and later stopped processing samples, underscoring the gap between funding a canine sequencing test and sustaining it commercially. This evidence supports Watch. A structural closing block or a sale-price ceiling that would trigger the Pass gate remains unestablished. (Defensibility; Market & Traction; Key Risks)
+A diagnostics platform could keep its existing screening test and partner for sequencing-based monitoring, which CanCan already offers. PetDx stopped processing samples after raising $72 million, underscoring the risk of expanding a sequencing-based testing service before demand and operating economics are proven. Canos’s reported accuracy still needs prospective validation, and routine use depends on veterinary collection, sample handling, and clinical follow-up. These risks weaken the buyer case and support Watch. The Pass gate remains untriggered because the memo establishes neither a structural closing barrier nor a supported sale-price ceiling below the proceeds hurdle. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -35,4 +37,4 @@ Antech already has an in-clinic screening option, and CanCan already offers sequ
 
 ### Decisive diligence question
 
-Can a prospective paid clinic pilot demonstrate enough incremental value from serial monitoring to support a strategic buyer’s case for at least $83.3 million in distributable equity value? Documented changes in veterinary decisions, paid repeat orders, and per-test margins would answer the operating question. A credible buyer valuation range grounded in those results and clearing the hurdle under plausible deal deductions would move the action to Reach out.
+At what level of prospectively validated, profitable repeat testing would a veterinary diagnostics platform pay enough for this holder to receive $2.5 million within eight years? A buyer-backed valuation range tied to measured clinic results and clearing the hurdle after deal deductions and the holder’s waterfall would change the action to Reach out. A supported ceiling below the hurdle on the strongest route would change it to Pass.

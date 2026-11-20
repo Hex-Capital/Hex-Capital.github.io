@@ -1,34 +1,33 @@
 ﻿# SE3 Labs -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest AGI path for SE3 Labs is a scarce complement. Robot model teams could pay for repeatable physical trials that expose failures and generate useful training corrections. SE3 reports that Dream-1 completed zero full tasks in 100 zero-shot episodes on its test station. That result shows the diagnostic value of physical testing on one setup. Whether SE3’s corrections improve performance on held-out tasks remains open. (The Idea, Key Risks)
+SE3 has a plausible building-blocks path in post-simulation training for robot policies aimed at factory and hotel workflows. The input is repeatable physical rollouts with verified outcomes and annotated human corrections. SE3 says each trial requires hardware, task setup, verification, and reset. It proposes sharing that work across customers through standardized workcells. SE3 reported zero full-task completions in 100 zero-shot Dream-1 episodes, showing that its test station could expose failures. The seed-stage assumption is that more policy iterations will increase demand for useful corrections faster than teams can expand their own physical testing. The memo leaves that scarcity unverified. (The Idea, Key Risks)
 
-SE3 reports access to automotive, processing, and hospitality sites and says it operates standardized workcells. Partner-site training sandboxes are described as a next step, and recording requires authorization. The investment case depends on SE3 turning that access into reliable test capacity it can schedule and deliver repeatedly. The memo does not establish enforceable access or reusable data rights. (Defensibility, Market & Traction, Key Risks)
+The industry-enabled path earns zero. The memo identifies no previously excluded buyer, task, or deployment cadence that becomes viable because AI lowers the cost per successful outcome. SE3’s evidenced offering serves existing robot model teams. (The Idea, Market & Traction)
 
-The released dataset contains 500 teleoperation episodes across 10 tasks, and its listing showed 1,596 downloads in the preceding month. The release, the Dream-1 test, and the team’s factory deployment, robotics, and data infrastructure experience support seed-stage execution. The planned held-out tests provide a concrete next step. Downloads show interest in the dataset, while paid pilots, buyer qualification, and repeat orders for the service remain unverified. (Market & Traction, Founders & Team, Key Risks, Key Facts)
-
-A plausible expansion unit is the initial evaluation of one policy on one task. In that scenario, the project fee must cover hardware and site costs at realized utilization, setup and resets, human interventions, and annotation. Reusing a workcell could spread setup costs across orders. The memo provides no realized pricing, utilization, or delivery costs to establish contribution margins. (The Idea, Key Risks)
+Reported access to three types of partner environments and the know-how to standardize workcells offer some defensibility. Partner-site sandboxes are still described as a next step, and recording and reuse depend on permissions. The public release of 500 teleoperation episodes across 10 tasks and the founders’ relevant experience support execution credit. The 1,596 monthly downloads show interest in the dataset, with no buyer trial, paid deployment, or repeat order established. Project fees are specified through statements of work, with no figures to compare revenue against equipment, staffing, resets, and annotation costs for the next engagement. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Model teams can run their own physical benchmarks with RoboDojo, and Enact already offers physical rollouts and recovery data. If those options produce equally useful corrections, SE3’s workcells and reported site relationships may offer little pricing power. The memo establishes credible alternatives, while buyer switching and equivalent results remain untested. That leaves the scarce-complement path open under the Watch gate. The memo identifies neither a previously excluded buyer nor a measured drop in cost per successful outcome that would support the New Economies path. (The Idea, Defensibility, Market & Traction, Key Risks)
+Model teams could use RoboDojo to run physical benchmarks in-house, and Enact already offers physical rollouts and failure-targeted recovery data. If those alternatives can deliver equally useful corrections on comparable timelines, SE3’s workcells and reported site access may yield little pricing power. The memo supports a concrete physical-testing mechanism, so the Pass gate for two unsupported paths does not apply. The unresolved comparison with a buyer’s existing workflow keeps the action at Watch. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 11/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 22/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 42/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robot-model team reorder a partner-site evaluation at a price that covers delivery costs after SE3’s corrections improve held-out task completion over the buyer’s existing workflow? A paid repeat order backed by that comparison would move the action to Reach out. If the comparison or renewal remains unresolved, keep Watch.
+Can SE3 deliver more useful physical corrections per week than a model team’s in-house workflow at comparable fully loaded cost? One paid, side-by-side pilot on a representative task would answer it if it tracked setup, resets, intervention, and annotation, then verified that the corrections improved the customer’s policy on held-out task variants. A material throughput gain at comparable cost would move the action to Reach out.

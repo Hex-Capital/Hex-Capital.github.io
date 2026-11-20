@@ -5,30 +5,28 @@
 
 ### Company case
 
-Conditional on strong product-market fit, Blinka’s strongest path is to become the operating account for U.S.-incorporated businesses that regularly pay overseas teams and vendors. The memo documents remote USD account opening through Portage Bank, stablecoin settlement through Mural Pay, and local payout routes where available. The same account and payment workflow can plausibly serve eligible businesses operating across supported markets. U.S. incorporation, partner eligibility, and payout coverage bound that portability. (The Idea, Key Risks)
+Assuming strong product-market fit with U.S.-incorporated businesses operating abroad, Blinka can plausibly serve the same recurring job across multiple markets with one remotely opened USD account. ACH, wires, stablecoin settlement, and local payout routes give customers ways to pay overseas teams and vendors. U.S. incorporation limits the eligible buyer pool, and local payout coverage depends on the destination. The website application and referrals from accountants, lawyers, and incorporation services provide a repeatable route to discovery and signup. The memo leaves open whether a typical applicant can clear approval and complete a first payout without staff help. (The Idea, Key Risks)
 
-Blinka documents a web application and seeks referrals from accountants, lawyers, and incorporation services. The CEO reports that customer growth was mostly organic. Those signals support a repeatable route to applications, with uncertainty about how much staff help an ordinary applicant needs to reach a first payout. Recurring vendor payments, invoicing, and accounting integration give customers reasons to return. Stored vendor records could reinforce that behavior. Higher payout volume could increase spend if Blinka charges for it, but the memo does not establish recurring billing or a fee that scales with usage. (The Idea, Defensibility, Market & Traction)
+Paying teams and vendors creates a reason to return. Vendor records, invoicing, and accounting integrations could make the account more useful over time. The disclosed card terms list 0% FX and cross-border fees, and the memo gives no recurring payout rate or evidence that higher usage raises the same customer’s bill. For the next customer, contribution would depend on fees actually collected less partner and payout costs and attributable acquisition, onboarding, and support effort. The memo leaves those inputs unquantified. (The Idea, Defensibility, Key Facts, Key Risks)
 
-The memo reports more than 400 businesses onboarded in the first two months and cumulative payment volume above $10M on October 9, $15M on November 2, and $18M on November 4. That shows early uptake after the pivot. The thresholds do not establish growth in comparable periods, and current-product revenue, paying-customer counts, and whether the volume was billable remain unknown. Initial traction therefore uses the absent-evidence default for commercial traction. (Market & Traction, Key Facts)
-
-In a scenario where Blinka earns net payout fees, incremental contribution per account would be those fees less partner and settlement charges and attributable referral, screening, onboarding, and support costs. The memo documents the partner structure and 0% card FX and cross-border fees. It gives neither the payout yield nor the operating inputs needed to estimate contribution, so cost economics uses the default. (The Idea, Key Risks, Key Facts)
+The memo reports more than 400 businesses onboarded in the first two months of the current product and cumulative payment volume rising from over $10 million on October 9 to over $18 million on November 4. The CEO also reported that the customer base quadrupled after joining YC, mostly organically. These figures show early adoption. Paying-customer counts, billable volume, and realized revenue remain unresolved, so Initial traction uses the absent-evidence default for commercial traction. (Market & Traction, Key Facts)
 
 ### Countercase
 
-The same partner dependencies that let Blinka offer banking remotely could limit expansion. Portage controls access to deposit accounts, Mural Pay supports stablecoin settlement, and local routes are available selectively. If each new operating market requires bespoke payout work or routine manual intervention, organic demand could grow faster than Blinka can serve it profitably. The memo establishes those dependencies but does not establish substantial rebuilding or economically prohibitive work per buyer. The structural downside gate stays open. (The Idea, Key Risks)
+Blinka could process substantial volume while retaining too little revenue to cover the work of approving and supporting accounts. Its core services depend on specific bank, card, and settlement partners, and new payout corridors could require additional integrations or manual handling. The structural downside gate stays open because the memo establishes those dependencies but provides too little evidence to conclude that bespoke rollout or uneconomic per-customer work is unavoidable. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 11/25 |
-| Retention economics | 10/20 |
+| Repeatable acquisition and onboarding | 12/25 |
+| Retention economics | 11/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 48/100** (Neutral)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Blinka add a payout corridor using the same account and application flow, then grow a cohort of ordinary referred businesses that completes repeat, fee-generating payouts at positive incremental contribution? A corridor-level cohort report showing staff time to first payout, repeat payment revenue, and contribution after partner and support costs would answer it. Reach out if that evidence supports a score of at least 65 with Medium or High confidence. Pass if it shows that expansion requires substantial bespoke rebuilding or unavoidable work that makes faster growth uneconomic.
+Can customers who enter through the ordinary online application reach repeat, contribution-positive paid use across multiple payout corridors with little staff help? A recent cohort showing approval and first-payout staff time, repeat usage, fees collected, and attributable costs by corridor would answer it. Move to Reach out if that evidence supports a score of at least 65 with Medium or High confidence. Move to Pass if it shows that unavoidable manual work or partner costs make faster growth uneconomic.

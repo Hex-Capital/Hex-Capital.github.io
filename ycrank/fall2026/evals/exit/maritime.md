@@ -5,29 +5,29 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an agent sandbox provider such as E2B. Maritime bundles persistent per-customer VMs, message-triggered wakeups, and per-agent debugging. Maritime describes a scheduler that maps saved VM memory and thin-clones disks on wake. A buyer could acquire the managed hosting workflow to serve customers running fleets of persistent agents. The buyer rationale is inferred, and the memo gives no measured advantage over a buyer building the workflow itself. (The Idea, Defensibility, Market & Traction)
+The strongest route is a strategic acquisition by a cloud or sandbox platform looking to add managed hosting for per-customer agent fleets. Maritime documents a scheduler that restores saved VM state on demand. A buyer could use that capability to reduce idle compute costs and add persistent agent hosting. Those benefits are inferred. The memo provides no measured savings against competing products or evidence of buyer interest. (The Idea, Defensibility, Key Risks)
 
-Keiki documents using Maritime for background agents. Maritime separately reported 1,107 agents with 29 awake concurrently in one snapshot. Those signals support a milestone of repeat paid deployments that demonstrate reliable wakeups and lower all-in hosting costs at production concurrency. Announced pre-seed backing and migration support make that test plausible. The financing amount, revenue, and compute margins are undisclosed, leaving the capital required uncertain. A sale would also depend on IP ownership, third-party infrastructure terms, and any required consents, which the memo leaves unverified. (Market & Traction, The Idea, Key Facts, Key Risks)
+Keiki documents using Maritime for background agents. Maritime reports 1,107 agents and 29 awake concurrently in one snapshot, and its pre-seed investor disclosed backing without an amount. That gives Maritime a starting point for a production benchmark on wake latency and compute cost across paying fleets. Paid usage, margins, and the capital needed to scale remain unknown. The memo provides no evidence on transfer rights or a separate route to holder liquidity. (Market & Traction, Key Facts, Key Risks)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× cash return within eight years requires about $83.3 million in distributable equity value. Both sale scenarios assume $5 million in debt and deal adjustments, an eligible sale of the holder’s entire stake for cash within eight years, and a pro rata waterfall with no senior preference deductions.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The acquisition scenarios assume $5 million in combined net debt and deal deductions, an eligible holder selling the full stake for cash within eight years, and a pro rata waterfall with no senior preference reducing the payout. The prices are illustrative. The memo gives no Maritime revenue figure or acquisition pricing evidence. (Market & Traction, Key Facts)
 
-- **Modest sale.** $40 million in enterprise value yields $35 million in distributable equity and $1.05 million to the holder, or 2.1×.
-- **Strong sale.** $100 million in enterprise value yields $95 million in distributable equity and $2.85 million to the holder, or 5.7×.
-- **Prolonged private operation.** Continued reinvestment yields $0 in realized proceeds. The memo provides no evidence of an eligible secondary or funded payout.
-
-The sale prices are illustrative. The disclosed pricing and usage signals leave the realizable acquisition price unsubstantiated. (The Idea, Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $40M enterprise value less $5M leaves $35M distributable | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $5M leaves $95M distributable | $2.85M (5.7×). Selling 80% of the stake yields $2.28M (4.56×). |
+| Prolonged private | Continued operation with cash reinvested throughout the eight-year window | $0 realized |
 
 ### Countercase
 
-A strategic buyer could extend its own runtime and avoid paying an acquisition premium. E2B already offers pause and resume, Fly.io offers idle sleep and persistent checkpoints, and Google Cloud offers isolated sandboxes with persistent workspaces. Maritime’s switching costs remain unmeasured, and higher awake time could pressure margins under flat agent-box pricing. The overlap makes build-versus-buy economics decisive. It does not establish a structural block or cap proceeds below the hurdle, so the Pass gate does not trigger. (The Idea, Defensibility, Market & Traction, Key Risks)
+Fly.io already offers idle sleep and persistent checkpoints, and Google Cloud offers isolated agent sandboxes with persistent workspace integration. A prospective buyer could extend its existing runtime, particularly if Maritime’s scheduler delivers little economic advantage on fleets that spend more time awake. The overlap makes a premium acquisition price difficult to underwrite. The memo leaves the buyer’s build-versus-buy economics and realizable price open, so the Pass gate remains untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -35,4 +35,4 @@ A strategic buyer could extend its own runtime and avoid paying an acquisition p
 
 ### Decisive diligence question
 
-Can Maritime show a strategic buyer enough value from owning its managed fleet workflow to justify a price that clears the holder’s proceeds hurdle? Repeat paid deployments with measured uptime and hosting-cost advantages over the buyer’s build option, together with buyer feedback supporting about $88.3 million or more in enterprise value under the modeled adjustments, would move the action to Reach out. If buyer feedback supports only prices materially below the hurdle across the credible buyer class, move to Pass.
+Could the savings measured on paying Maritime fleets justify an acquisition at roughly $89 million in enterprise value for a cloud or sandbox platform? A buyer-side build-versus-buy assessment using matched production workloads, including compute cost and wake reliability, would test that threshold under the assumed deal deductions. Move to Reach out if the assessment supports a price that clears the holder’s cash hurdle. Move to Pass if it puts proceeds materially below the hurdle even on the strongest credible route.

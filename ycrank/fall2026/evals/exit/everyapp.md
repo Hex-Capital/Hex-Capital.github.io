@@ -5,34 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic sale to Cloudflare. EveryApp deploys team apps in customers’ Cloudflare accounts, where customers pay Cloudflare directly. Cloudflare could have a reason to acquire EveryApp if owning its app catalog and OpenSEO distribution brought in durable Workers usage that Cloudflare would otherwise miss. The memo records 28,098 GitHub stars for standalone OpenSEO and 906 for EveryApp. The founder reports hundreds of paying OpenSEO customers. These signals support testing OpenSEO as a distribution channel, while conversion to EveryApp and incremental Workers usage remain unmeasured. (The Idea, Market & Traction)
+A strategic acquisition by Cloudflare is the strongest conditional route. EveryApp runs its Gateway and apps in customers’ Cloudflare accounts, so a managed service that brings in and retains teams could generate incremental Workers usage. The memo records 906 stars for EveryApp and 28,098 for standalone OpenSEO. The founder reported hundreds of paying OpenSEO customers, and EveryApp announced a managed tier starting at $10 per month. Those signals support testing whether OpenSEO can feed a paid EveryApp business. Paid conversion, retention, and incremental Workers usage remain unmeasured in the memo. (The Idea, Market & Traction, Key Facts)
 
-The milestone is a paid managed-service cohort that converts OpenSEO users into retained EveryApp teams and measures their incremental Workers spend against standalone deployments. The working Gateway and announced managed tier give the team a way to run that test. The $125,000 funding figure listed under OpenSEO leaves EveryApp’s test budget and runway unverified. (The Idea, Market & Traction, Key Facts)
+The seed-stage milestone is a paid managed-service cohort that converts standalone OpenSEO users, retains them for six months, and produces measurable incremental Workers usage. The launched products make that test plausible. It requires managed onboarding, support, and usage measurement. The memo gives no budget or runway for that work. (The Idea, Market & Traction, Key Risks)
 
-Under the shared benchmark, a $500,000 check at $10 million post-money starts at 5% ownership and dilutes to 3%, with no follow-ons. A 5× cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at a full pro rata sale. Both sale scenarios below assume an eligible holder selling the entire stake for cash at close, $5 million in net debt and deal deductions, and a pro rata waterfall with no senior preference reducing the holder’s share.
+The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross return within eight years requires $2.5 million in cash to the holder, or about $83.3 million in distributable equity value. Both sale scenarios assume a full cash sale within eight years, holder eligibility, and a pro rata distribution with no diversion to senior claims.
 
-- **Modest sale in year five.** $40 million in enterprise value leaves $35 million in distributable equity and pays the holder $1.05 million, or 2.1×.
-- **Strong sale in year seven.** $100 million in enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. Selling only half the stake would yield about $1.43 million and miss the objective.
-- **Prolonged private through year eight.** Continued operation with cash reinvested yields $0 in realized proceeds.
+| Scenario | Enterprise-to-equity bridge | Holder cash |
+|---|---|---|
+| Modest sale | $40 million enterprise value less $5 million of net debt and deal adjustments leaves $35 million | $1.05 million (2.1×) |
+| Strong sale | $100 million enterprise value less $10 million of net debt and deal adjustments leaves $90 million | $2.7 million (5.4×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or funded payout | $0 realized |
 
-These prices are illustrative assumptions. The memo provides no basis for a realizable sale price, leaves OpenSEO’s inclusion in a sale and the holder’s participation unverified, and provides no evidence of an independent liquidity route. (The Idea, Market & Traction, Key Risks)
+The sale prices and adjustments are illustrative assumptions. The memo supplies no buyer economics or transaction comparables to support either price, no deal terms to verify the holder’s payout, and no evidence of an independent liquidity route.
 
 ### Countercase
 
-Cloudflare already offers deployment infrastructure for coding agents and can reuse the MIT-licensed Gateway. OpenSEO users can also stay on its standalone hosted service or deploy it independently. Cloudflare could therefore capture much of the infrastructure usage without buying EveryApp. The Pass gate remains untriggered because retained customer distribution could still create acquisition value, and the memo establishes neither a structural closing barrier nor a credible sale-price ceiling below the holder’s hurdle. (Defensibility, Key Risks)
+Cloudflare already offers agent deployment infrastructure, and the MIT license lets it reuse the Gateway code. OpenSEO users can also stay on the standalone hosted service or deploy it independently. Cloudflare could therefore get much of the technical benefit without buying EveryApp, while OpenSEO’s audience may never become a retained EveryApp customer base. This weakens the acquisition rationale. The evidence falls short of either Pass gate because it leaves both the value of a retained customer base and the strongest attainable sale price unresolved. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 7/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 32/100** (Pass)
 
 ### Decisive diligence question
 
-Can EveryApp’s managed service turn OpenSEO distribution into enough retained, incremental Workers usage to justify a Cloudflare acquisition that clears the holder’s cash hurdle? A paid cohort showing durable usage beyond standalone deployments, paired with buyer economics that support a price above the hurdle after deal deductions, would move the action from Watch to Reach out.
+Can EveryApp turn standalone OpenSEO users into a retained paid cohort that generates enough incremental Workers usage to give Cloudflare an economic reason to acquire it at a price that clears the holder’s hurdle? Six months of cohort conversion, retention, and usage data, paired with buyer-side evidence supporting a price that leaves at least $83.3 million in distributable equity, would move the action to Reach out.

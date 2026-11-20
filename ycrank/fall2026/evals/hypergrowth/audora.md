@@ -5,30 +5,28 @@
 
 ### Company case
 
-Assuming strong fit with fanfiction readers, Audora’s strongest path is to turn free, accountless previews of authorized stories into self-serve purchases and repeat listening. The company describes a browser flow that accepts Wattpad and AO3 links, pasted text, and common document formats, then assigns character voices and starts playback while generation continues. The same workflow could serve readers across markets where they have authorized access and Audora’s language support is adequate. Paste and file upload reduce dependence on any one source platform. Launch promotion provides a concrete route to the preview, while a working self-serve checkout remains unverified. (The Idea, Key Risks)
+Conditional on strong product-market fit with fanfiction readers, Audora’s browser workflow could serve the same recurring job across markets where readers can use supported stories. Audora describes an account-free preview from Wattpad or AO3 links, along with pasted text and common file formats. Authorized uploads give readers a route that can survive restrictions on link imports. The launch and founder promotion show how readers discover the preview. Paid checkout and independent completion of a full book remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The memo records a Nov. 6 launch and 23,573 views on the founder’s launch post by Nov. 16. The founder reported 10,000 waitlisted readers and authors. Those signals show early attention. Realized revenue, paying-customer counts, and pre-revenue status are all unknown, so initial traction takes the 7/20 default. (Market & Traction, Key Facts)
+Readers who want audio for successive stories have a reason to return. The reported monthly and annual plans suggest recurring billing, though the prices are unverified and fixed book allowances limit expansion within a plan. The memo records a November 6 public launch and a founder-reported waitlist of 10,000. Realized revenue and paying-customer counts are unknown, so commercial traction receives the absent-evidence default. (The Idea, Market & Traction, Key Facts)
 
-Readers who want audio for each new story have a reason to return. The listed, unverified plans suggest recurring billing and a possible upgrade from one book per week to a larger monthly dollar commitment, though the monthly plan includes fewer books than four weekly allowances. Plan caps and unknown renewal behavior leave the case for expansion offsetting churn speculative. (The Idea, Key Facts)
-
-Under the scenario that the listed prices are current and subscribers use their full three-book monthly allowance, gross revenue is about $6.66 per generated book on the monthly plan and $5.83 on the annual plan, compared with $7.99 for a single purchase. Contribution depends on what remains after casting, speech generation, cloud delivery, free previews, and attributable acquisition and support costs. Audora already runs some speech models on its own cloud infrastructure. Shifting more synthesis there could improve contribution if it lowers cost at comparable quality and realistic utilization. The memo provides no measured per-book costs. (The Idea, Key Risks)
+If the reported $19.99 monthly plan is current and a subscriber uses all three books, Audora receives about $6.66 per book before incremental costs. Contribution depends on casting and speech generation, cloud delivery, support, and the cost of acquiring readers and serving previews that never convert. Audora already runs some speech models on its own cloud compute. Shifting more narration there could improve contribution if quality holds and cost per generated hour falls. The memo gives no operating figures to test that scenario. (The Idea, Key Risks)
 
 ### Countercase
 
-The free preview could attract curiosity while producing few repeat buyers. Source-site restrictions could weaken link-based acquisition, speaker attribution errors could discourage listeners from paying, and long books or heavy preview usage could consume much of the revenue per paid book. The structural gate stays open because authorized paste and upload preserve a route to the same buyer, and the economics of serving the next reader remain unresolved. (The Idea, Key Risks)
+Platform rules and content rights could restrict the link-import workflow that makes Audora easiest to try. If readers cannot bring enough authorized stories, repeat use could weaken. Long books and regeneration after casting errors could also make heavy subscribers expensive to serve under fixed pricing. The structural gate remains open because authorized file uploads offer a plausible path and the memo establishes neither unavoidable manual work nor persistently negative contribution. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 16/25 |
-| Retention economics | 10/20 |
+| Global buyer demand | 17/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 11/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 54/100** (Neutral)
+**Total Score: 57/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a meaningful cohort of readers arriving organically with authorized stories convert from the free preview to paid use without assistance, then pay again while generating positive contribution after preview and delivery costs? A cohort showing those results at representative book lengths would support moving to Reach out if the updated score reaches 65 and confidence reaches Medium.
+Can the free preview produce a growing paid cohort that generates positive contribution over a renewal cycle? Cohort records showing meaningful paid uptake, independent checkout and full-book playback with authorized stories, and positive contribution after preview, generation, and support costs would support moving to Reach out.

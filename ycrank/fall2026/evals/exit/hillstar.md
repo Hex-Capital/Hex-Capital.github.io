@@ -5,19 +5,23 @@
 
 ### Company case
 
-HillStar’s strongest exit path is a strategic sale to an energy procurement platform such as LevelTen. LevelTen already offers auctions and custom RFPs. Owning HillStar could let it sell source-linked bid scoring and compliance checks to customers already running solicitations on its platform. HillStar reports that an unnamed utility saved an estimated $2.5 million on an engineering-services RFP and that its software evaluated 22 bids covering about 19,800 pages in nine minutes. That shows a potential benefit to utility customers. The value a platform could capture from it remains unpriced. (The Idea; Market & Traction)
+HillStar’s strongest exit route is a strategic sale to an energy procurement platform or utility advisory firm. The memo identifies Charles River Associates as an existing provider of solicitation design and bid evaluation. A firm with that business could use HillStar’s source-linked review and pricing normalization to reduce analyst time and handle more solicitations. HillStar reports that it reviewed 22 bids covering about 19,800 pages in nine minutes and estimates that the utility saved $2.5 million on that solicitation. Those claims support a reason to test the buyer economics. Recurring software revenue and the savings an acquirer could capture remain unverified. (The Idea; Market & Traction; Key Facts)
 
-The seed-stage milestone is repeat paid use across multiple utilities, with documented software margins and procurement outcomes. HillStar reports deployments in grid equipment and municipal utility sourcing and offers prospects live tests on their own bid documents. Those are plausible starting points for paid conversions. The cost of specialist support, pilot conversion rates, and runway to reach the milestone remain unverified. Customer permissions to transfer or retain confidential bid records also remain open. (The Idea; Market & Traction; Key Facts; Key Risks)
+The next operating milestone is a paid renewal covering multiple sourcing events, with customer-verified analyst hours saved and measured HillStar specialist time per event. HillStar’s reported grid-equipment evaluation and municipal bid compliance work show that the workflow has been used for different procurement tasks. Repeat paid use would help establish whether the software can deliver those results at a scale an acquirer would value. The memo leaves runway, capital required, and contract and data transfer rights open. It provides no evidence of an independent route to holder liquidity. (Market & Traction; Defensibility; Key Risks)
 
-Using the benchmark $500,000 check at a $10 million post-money valuation, ownership falls from 5% to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return, requiring about $83.3 million in distributable equity value. The sale prices below are assumptions for sensitivity analysis. Both sale cases assume an all-cash close within eight years, sale of the holder’s entire stake, and a pro rata waterfall after debt and deal adjustments.
+**Proceeds bridge.** The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. Both sale scenarios below use illustrative prices and deductions. Each assumes a full cash sale within eight years, holder eligibility to sell the entire stake, and a pro rata waterfall after net debt and deal costs, with no incremental senior preference claims. The memo leaves actual price, terms, and closing conditions open. (Market & Traction; Key Facts)
 
-- **Modest sale.** A $50 million enterprise value yields $50 million of distributable equity with zero net debt and adjustments. The holder receives $1.5 million, or 3×.
-- **Strong sale.** A $100 million enterprise value yields $100 million of distributable equity under the same assumptions. The holder receives $3 million, or 6×. If net debt and deal adjustments reduce distributable equity by $20 million, the holder receives $2.4 million, or 4.8×. Senior claims or rollover could further reduce cash received at closing.
-- **Prolonged private.** If HillStar keeps operating and reinvests available cash, the holder realizes $0 within eight years. The memo provides no evidence of an eligible secondary or funded payout. (Market & Traction; Key Facts)
+| Scenario | Assumed proceeds bridge | Gross cash to holder |
+|---|---|---:|
+| Modest sale | $40 million enterprise value less $5 million in net debt and deal costs leaves $35 million for equity | $1.05 million (2.1×) |
+| Strong sale | $100 million enterprise value less $10 million in net debt and deal costs leaves $90 million for equity | $2.70 million (5.4×) |
+| Prolonged private | Cash is reinvested through year eight, with no funded payout or eligible share sale | $0 |
+
+The strong case clears the objective with $200,000 of headroom for the holder. At the assumed ownership, another $6.7 million in deductions would consume that headroom before any change in sale fraction or timing. The memo offers too little evidence to underwrite a price in that range. (Market & Traction; Key Facts)
 
 ### Countercase
 
-Enverus already offers AI bid evaluation inside its sourcing suite, giving buyers an incumbent option and showing that a platform can build overlapping functionality. HillStar’s retained evaluator judgments and award histories might differentiate it on repeat solicitations, but their effect on retention and switching costs is unverified. The substitution risk limits the acquisition case. Evidence that credible buyers can match HillStar’s results in-house, or that the best supported sale price leaves the holder materially short, would trigger Pass. The current gap is one that paid deployments and buyer economics could resolve. (Defensibility; Key Risks)
+Enverus already offers AI bid analysis inside its sourcing suite. That overlap gives an incumbent a credible build-and-bundle option, especially if much of HillStar’s reported value depends on procurement specialists or on customer histories an acquirer cannot reuse. The memo establishes neither a structural block across plausible buyers nor a supported sale-price ceiling below the hurdle. The Pass gate therefore does not trigger. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
@@ -25,12 +29,12 @@ Enverus already offers AI bid evaluation inside its sourcing suite, giving buyer
 |-----------|-------|
 | Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeat paid utility deployments support a sourcing platform’s case for an acquisition that clears the holder’s $83.3 million distributable-equity hurdle? Paid renewals with documented software margins and a platform-specific estimate of incremental profit from owning the product would support Reach out if the implied sale price clears the hurdle after deal deductions. If the strongest credible buyer economics leave the holder materially short, move to Pass.
+Would a strategic buyer’s documented economics support paying enough for HillStar to leave at least $83.3 million distributable to equity? A buyer’s preliminary valuation range grounded in verified repeat customer savings and the cost of building equivalent capability would move the action to Reach out if it clears the hurdle under reasonable deal deductions.

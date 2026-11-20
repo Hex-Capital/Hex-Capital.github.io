@@ -5,34 +5,36 @@
 
 ### Company case
 
-The strongest route is a strategic acquisition by a diagnostics company. Saccade’s VR eye-movement assessment could give a buyer an earlier referral channel into biomarker testing if it reliably identifies which asymptomatic patients benefit from follow-up. Roche’s pTau217 test is indicated for symptomatic patients, and Gentex’s $2.8 million investment in retinal-imaging company RetiSpec shows corporate interest in adjacent diagnostics. The memo documents a working headset design. Saccade reports a proprietary scoring model, a patent-pending attachment, and an ongoing IRB-approved study with clinical collaborators. Completed enrollment, study costs, and runway remain unknown. A whole-company sale is plausible, with IP ownership, study-data transfer permissions, and holder participation still open. (The Idea, Defensibility, Market & Traction, Key Risks)
+A strategic acquisition by a diagnostics company is Saccade’s strongest route. The memo documents a working eye-tracking headset attachment, and Gentex’s $2.8 million investment in RetiSpec shows strategic interest in an adjacent approach. A buyer with a downstream blood test could have a reason to own Saccade if the headset reliably identifies asymptomatic patients who benefit from confirmatory testing. The referral benefit and its value to a buyer remain unmeasured. (Defensibility, Market & Traction)
 
-Using the rubric’s benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years, equivalent to about $83.3 million in distributable equity value at 3%. The sale scenarios assume a closing within eight years, a cash sale of the holder’s entire stake, an eligible holder, and pro rata distribution with no senior claims on the remaining equity.
+The next milestone is prospective evidence that the headset adds clinically actionable referrals in asymptomatic patients. Saccade reports an IRB-approved study and clinical collaborators. The memo gives an enrollment figure of 2,000 without a completed-enrollment count, and the funding needed to reach a decision-ready readout is unclear. Ownership and transfer rights for the headset IP and study data are unverified. The memo gives no evidence of an independent liquidity route. (Market & Traction, Defensibility, Key Risks)
 
-| Scenario | Illustrative proceeds bridge | Holder cash |
-|---|---|---|
-| Modest sale | $40M enterprise value less $5M in debt and deal adjustments leaves $35M in distributable equity | $1.05M (2.1×) |
-| Strong sale | $100M enterprise value less $10M in debt and deal adjustments leaves $90M in distributable equity | $2.70M (5.4×) |
-| Prolonged private | Continued operation with cash reinvested throughout the eight-year horizon | $0 |
+The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. A 5× gross return within eight years requires $2.5 million in cash, or about $83.3 million in distributable equity value. The sale scenarios assume the holder is eligible, sells the full stake, receives cash at closing within eight years, and shares pro rata after debt and deal adjustments, with no preference claims.
 
-The sale prices and adjustments are assumptions. The adjacent investment provides no acquisition price benchmark, and Acuity’s listed price gives no evidence of realized sales or payout capacity. The memo supplies no independent route to holder liquidity. (Market & Traction, Key Facts)
+| Scenario | Illustrative gross cash to the holder |
+|----------|---------------------------------------|
+| Modest sale | $40 million enterprise value with no deductions yields $1.2 million, or 2.4×. |
+| Strong sale | $100 million enterprise value with no deductions yields $3 million, or 6×. With $20 million in debt or deal deductions, proceeds fall to $2.4 million, or 4.8×. |
+| Prolonged private operation | Reinvestment with no share purchase or distribution through year eight yields $0 in realized cash. |
+
+The sale prices are sensitivity assumptions. Acuity’s $897 list price comes with no disclosed paid volume, and the memo offers no basis for underwriting an acquisition price or the holder’s actual waterfall. (The Idea, Key Facts)
 
 ### Countercase
 
-ViewMind already combines VR, eye tracking, and machine learning and has funding to evaluate its system against amyloid and tau burden in people with mild cognitive impairment. A buyer could pursue that alternative while Saccade’s ability to predict individual risk remains unvalidated. Even a positive eye-movement result in an asymptomatic patient has limited immediate treatment implications given the early symptomatic disease and amyloid confirmation requirements for Leqembi. That weakens the case for buying Saccade at a price that clears the holder’s hurdle. The memo establishes neither a ready substitute for the proposed presymptomatic use nor a structural closing block or a supported price ceiling, so the Pass gate is untriggered. (Defensibility, Key Risks)
+ViewMind already combines VR, eye tracking, and machine learning, giving a buyer another development option. Saccade acknowledges that its assessment lacks validation for individual risk prediction, and the treatment pathway cited in the memo requires symptoms and amyloid confirmation. Even an earlier signal could produce too few actionable referrals to justify an acquisition. That gap supports Watch. The memo establishes neither a structural block nor materially inadequate proceeds under the strongest credible route, so the Pass gate does not trigger. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Would a diagnostics buyer have an economic case for acquiring Saccade above the holder’s proceeds hurdle if the study shows that its assessment improves referrals for asymptomatic patients? A buyer-backed validation plan with a prespecified referral endpoint and a valuation case supporting at least $83.3 million in distributable equity within eight years would move the action to Reach out.
+Does Saccade generate enough additional, clinically actionable referrals in asymptomatic patients to justify a diagnostics buyer paying a price that clears the holder’s hurdle? A prospective comparison against the existing referral pathway, paired with buyer economics that support at least $83.3 million in distributable equity under the benchmark, would move the action to Reach out.

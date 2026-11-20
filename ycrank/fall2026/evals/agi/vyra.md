@@ -1,30 +1,33 @@
 ﻿# Vyra -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Vyra’s strongest path. The company says manual short-form editing can take hours per clip. Its shipped workflow turns footage and style references into an editable timeline, automating part of the assembly work. A plausible newly served buyer is a solopreneur who currently skips regular video publishing because editing takes too much time. For that buyer, the relevant test is whether manual editing cost per publishable clip exceeds the combined cost of Vyra’s subscription, any external assistant fees, and the time spent reviewing and correcting edits, divided by the number of publishable clips. The memo gives no measured comparison or evidence that a previously excluded cohort has begun publishing. (The Idea, Market & Traction, Key Risks)
+Vyra applies AI to short-form video editing. The memo identifies no scarce input that Vyra supplies to AI training, inference, or infrastructure, so the building-blocks path scores zero. The founders say manual editing can take hours per clip. Vyra’s product uses prompts and reference clips to assemble an editable timeline from uploaded footage. That design plausibly saves editing time, but the memo identifies no buyer or publishing cadence that became economically viable as a result. The industry-enabled path scores zero, triggering Pass. (The Idea, Key Risks)
 
-The app’s 14 ratings and a customer’s reported video results support early use. The company’s creator counter has no published definition, and its reported content views measure audience reach. Paid conversion and repeat demand among newly served buyers remain unknown. The two founders’ creator and editing-tool experience, together with the shipped web, iPhone, and hosted MCP workflows, support execution. Each additional paying account is a plausible expansion unit. Credit-based plans and an external-assistant option give Vyra ways to price usage, while contribution after video processing, storage, inference, and support remains unmeasured. (Market & Traction, Founders & Team, The Idea, Key Facts)
+Vyra’s strongest commercial case is repeat editing for creators who reuse footage and style references. Searchable libraries and saved references could make switching more costly over time, although retention and migration data are missing. The iPhone app’s 14 ratings and a customer’s reported use in a testimonial indicate early use. The company’s creator counter has no published definition, and its reported content views do not establish paid conversion or repeat demand. (Defensibility, Market & Traction)
+
+The team shipped an iPhone app and hosted editing through external assistants. Pong’s prior editing and plugin work is directly relevant, while the amount of manual correction needed across real projects remains unclear. Listed subscription prices establish what Vyra charges, but the memo has no usage or delivery-cost data to estimate contribution from the next paying customer. (Market & Traction, Founders & Team, Key Risks, The Idea)
 
 ### Countercase
 
-Vyra may make an existing editing workflow cheaper while leaving buyers free to use similar features elsewhere. Descript already offers MCP editing, OpusClip offers reusable recipes, and Adobe has previewed third-party agent control inside Premiere. Vyra’s searchable footage and saved style references could make repeat work easier, but the memo provides no retention, migration, or buyer preference evidence under functional parity. The overlap makes substitution credible. Observed switching or equivalent results at parity would be stronger evidence, so the path remains open under Watch. The memo supports no independent scarce-complement case. (Defensibility, Market & Traction, Key Risks)
+A solo founder who could previously afford only occasional video production might publish several clips a week if reference-guided assembly saves enough time after review and corrections. Even with access to the same model, that founder could still value a product that manages footage, produces an editable timeline, and handles authorized publishing. Descript already supports external editing agents, and Adobe has previewed agent access inside Premiere, so comparable workflows may be available elsewhere. The memo shows the workflow exists, but it does not show that it has made the higher cadence viable for a previously excluded buyer. The Pass gate still applies. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 22/150** (Pass)
 
 ### Decisive diligence question
 
-Will solopreneurs who previously skipped regular short-form publishing because of editing cost publish repeatedly and renew at a viable price when offered a comparably capable alternative using the same underlying model? Track their baseline and trial costs per publishable clip, including review and corrections, then observe paid renewals after a side-by-side trial. Move to Reach out if the savings enable sustained new publishing and buyers still choose Vyra. Move to Pass if editing costs still prevent regular publishing or buyers readily switch at parity.
+Can solo founders who previously skipped regular short-form publishing because of editing cost sustain a paid weekly publishing cadence with Vyra? A small customer cohort would change the action to Reach out if founders documented their prior time or budget limit, repeatedly published within that limit after counting review and rework, and could identify which parts of Vyra’s workflow they still needed when using a comparably capable assistant.

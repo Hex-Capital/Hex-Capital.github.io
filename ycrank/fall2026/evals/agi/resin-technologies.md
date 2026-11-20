@@ -1,30 +1,33 @@
 ﻿# Resin Technologies -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Resin’s strongest path. Automating component selection, schematic drafting, and layout could reduce engineering labor enough to make previously deferred PCB projects viable. The memo describes a traditional workflow that can take weeks, and Resin’s founder reports that unnamed teams shipped boards in hours. The report suggests a time saving. The memo gives no comparable labor measurements or fabrication results for those boards. (The Idea, Market & Traction)
+Resin earns zero on building blocks of superintelligence. Its product automates PCB design, and the memo gives no evidence that board design is a scarce input for a specific AI workload or that AI deployment would strain PCB design capacity. (The Idea)
 
-One scenario is that small hardware teams could afford to build low-volume board variants they previously deferred. The relevant comparison is the cost per fabricated board that meets requirements, including engineering time, fabrication, and respins across all attempts. With Resin, that calculation also includes the subscription and any remaining review and correction time. The memo gives advertised prices and documents required engineering review, but it supplies no measured cost per successful board. The reported shipments are an early usage signal. Payment and repeat use remain unverified. The public launch and the founders’ experience in applied AI and electronics support execution at this stage. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Resin also earns zero on industry enabled by superintelligence. The founder reports that unnamed teams shipped boards in hours instead of weeks. That suggests faster delivery for teams already designing boards. The memo identifies no buyer or use that became economically viable as a result. Resin provides editable schematics, component libraries, routing, and design-rule checks, but its beta autorouter still requires engineering review before fabrication. The claimed time savings leave cost per successful board unresolved once review and any refabrication are included. (The Idea, Market & Traction, Key Risks)
+
+The public launch and the founders’ experience in applied AI and electronics support seed-stage execution credit. Resin describes its routing engine as proprietary, and reusable workspace libraries could create switching costs. Retention is unverified, and incumbent tools already offer overlapping automation. The customer anecdote gives no trial terms, payment, or repeat use, so demand stays at the default. Advertised subscription prices give no basis for estimating the cost to serve the next paying customer, so scale economics also stays at the default. (Founders & Team, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Resin may speed up work that existing PCB teams already pay for. Cadence offers automated placement and routing in an incumbent workflow, and Quilter works with existing ECAD files. Resin describes its router as proprietary, and reusable component libraries could make it more convenient to stay. Buyer preference at comparable functionality remains untested. The beta router and required engineering review could also erode enough of the labor savings to keep deferred projects uneconomic. The overlap shows credible alternatives for parts of the workflow. It falls short of demonstrating end-to-end parity or easy switching, so the New Economies path remains open. The memo establishes no independent scarce complement. (Defensibility, Market & Traction, Key Risks)
+A small hardware team might use Resin to build a custom board it previously shelved because it required too much engineering time. The founder’s reported turnaround and the editable design workflow make that scenario plausible. Even with access to similarly capable models, the buyer could still need a tool that turns requirements into a checked, editable board design. Existing PCB tools already automate parts of that workflow, and the memo documents no previously deferred board that Resin made affordable. The scenario therefore does not clear the industry-enabled gate. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent hardware teams repeatedly pay for Resin to build board variants they previously deferred on cost grounds when they can try comparable tools with equally capable models? Reach out if a paid cohort delivers working boards at a measured cost low enough to make those projects viable, including review, corrections, and respins, and chooses Resin again after trying the alternatives. Pass if the comparison shows that full delivery costs still keep those projects deferred or that buyers switch readily at functional parity.
+Can a paying customer use Resin to fabricate and validate a board it had shelved because engineering time made it uneconomic? Move to Reach out if a representative customer documents its prior budget and workflow, shows that Resin brought the successful board within budget after review and any rework, and identifies a step Resin’s design tools handled that access to a comparable model alone would leave to the customer. Otherwise, retain Pass.

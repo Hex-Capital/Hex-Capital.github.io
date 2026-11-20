@@ -5,26 +5,29 @@
 
 ### Company case
 
-New Economies is AnyAlpha’s strongest path. The prior cost is the trader’s time spent researching events, mapping ideas to contracts, backtesting rules, and watching for entries and exits. AnyAlpha launched a mobile agent with Kalshi account linking and describes a workflow that automates those steps from a plain-language thesis. The market-opening hypothesis is that time-constrained retail traders could run strategies they previously left untested or unexecuted. The relevant measure is the total cost per strategy correctly specified, monitored, and executed within its intended fill conditions, including human corrections and failed attempts. The memo documents the launch but provides no comparison of that cost with the manual workflow. (The Idea, Market & Traction, Key Risks)
+**Building blocks of superintelligence.** AnyAlpha uses AI to turn trading ideas into rules and execute them through connected exchanges. The memo identifies no scarce input that AnyAlpha supplies to AI developers or operators, so this path scores zero. (The Idea, Defensibility)
 
-AnyAlpha reports more than 1,000 active traders and over $1 million in weekly trading volume. Those figures support early use, while repeat use and willingness to pay for the agent among newly served traders remain unverified. The founders’ relevant trading-systems experience and the live launch support seed-stage execution. For scale, an added live strategy is a plausible expansion unit. A subscription or usage fee would need to cover inference, monitoring, order handling, and support for exceptions. The listed purchases carry over from BetAlpha, and the memo supplies neither current agent pricing nor per-strategy costs. (Market & Traction, Founders & Team, The Idea, Key Risks)
+**Industry enabled by superintelligence.** The narrow opportunity is continuous execution of time-sensitive strategies for retail traders who cannot watch markets around the clock. AnyAlpha says those traders manually research events, find contracts, and monitor prices, leaving some ideas untested or unexecuted. Annie is designed to translate a plain-language thesis into rules, backtest them, and place orders when conditions are met. The launch and live Kalshi account linking make the workflow concrete. The seed-stage assumption is that AI reduces the work of setting up each strategy enough to make previously skipped trades practical. A comparable model would still need exchange access and reliable order handling to deliver the same outcome. The memo leaves open how many traders gained a new use and what it costs to execute a signal correctly. That gap supports Watch. (The Idea, Market & Traction, Key Facts, Key Risks)
+
+**Shared diligence.** The public Kalshi API and a close substitute limit AnyAlpha’s ability to retain pricing power. The company describes its Kalshi partnership as a first, with exclusivity and duration unverified. AnyAlpha reports more than 1,000 active traders and over $1 million in weekly trading volume, which indicate early use. Repeat paid demand remains unverified. The public launch and the founders’ relevant trading-system experience support execution credit, with dependable live fills still to establish. The documented purchase prices apply to legacy BetAlpha offerings. Current agent revenue and delivery costs are unknown, so scale economics receives the absent-evidence default. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-AnyAlpha may be selling convenience to existing prediction-market traders. TurbineFi already offers plain-language strategy creation, historical testing, and cloud execution in the same asset class, and Kalshi publishes a trading API. Account linking may make setup easier, but the company’s claim that it was Kalshi’s first and only agentic-trading partner establishes no contractual exclusivity. Saved strategies could encourage retention, but the memo shows no buyer preference under functional parity or network effect. The product overlap weakens the case for durable value capture without showing that users switch readily or that the agent serves only existing uses. New Economies remains open for testing, and exchange access supplies no independent scarce-complement case. (The Idea, Defensibility, Market & Traction, Key Risks)
+AnyAlpha may chiefly make existing automation easier to configure. TurbineFi already offers plain-language strategy creation, historical testing, and cloud execution in the same asset class. AnyAlpha’s reported trading volume could come from traders moving strategies they could already run. That would trigger Pass if the apparent new use proves to be routine workflow improvement. The memo’s account of time-sensitive ideas going unexecuted and the live execution workflow support keeping the narrower mechanism on Watch. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 8/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 29/150** (Pass)
 
 ### Decisive diligence question
 
-Will traders who previously shelved strategies because of the manual workload pay AnyAlpha to run them repeatedly when offered a functionally comparable alternative? A live cohort showing materially lower cost per successfully executed strategy than the manual workflow, repeat payment at a price that covers AnyAlpha’s delivery costs, and continued preference at functional parity would move the action to Reach out. If the cohort shows only convenience for already-active traders or ready switching at parity, move to Pass.
+Can retail traders repeatedly pay to run a time-sensitive strategy they previously skipped because setup and monitoring took too much work? A paid cohort with documented prior workflows and live order logs could show whether AnyAlpha lowers the fully loaded cost per correctly executed signal, including setup, supervision, and execution errors. Repeated paid use with that cost improvement would move the action to Reach out. (The Idea, Market & Traction, Key Risks)

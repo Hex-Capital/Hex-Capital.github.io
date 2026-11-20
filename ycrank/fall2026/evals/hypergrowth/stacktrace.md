@@ -5,28 +5,28 @@
 
 ### Company case
 
-Fleet’s strongest path is bottom-up adoption by engineering teams running unattended coding agents, followed by paid expansion as those teams put more agent-hours under policy. Assuming strong product-market fit, the same sidecar, session-log inputs, and enforcement hooks could serve the same oversight job across markets wherever teams use supported agents. Compatibility with those agents is the main documented constraint on portability. (The Idea, Key Risks)
+Assuming strong product-market fit, Fleet is Stacktrace’s strongest hypergrowth path. Engineering and security teams have a recurring job overseeing unattended coding agents. Fleet’s documented local log collection and enforcement hooks suggest the same product can serve teams using supported agents across markets with modest adaptation. Portability depends on agent compatibility and coverage of the actions buyers need to govern. (The Idea, Key Risks)
 
-Fleet documents self-serve signup and a browser sandbox, giving developers a way to try the product before engaging sales. The paid path uses demos and custom annual contracts. The recurring oversight job and Enterprise pricing by session-hour give retained accounts a concrete way to spend more as their workloads grow. Whether that expansion can outweigh churn is an inference. The memo records an October launch by a three-person team and a founder report of unnamed design partners. Paid production use, realized revenue, and commercial growth remain unverified. (The Idea, Market & Traction, Founders & Team, Key Facts)
+Fleet offers self-serve signup and a browser sandbox, giving teams a way to try the product independently. The free plan includes 200 session-hours per organization each month. The documented path to paid Fleet Enterprise or Agent Gateway goes through demos and custom annual pricing. Fleet Enterprise’s session-hour pricing gives retained accounts a concrete way to spend more as unattended workloads grow. Net revenue retention above 100% is plausible if that expansion offsets churn and contraction. Pricing is documented, while realized renewals and expansion remain unknown. (The Idea, Key Facts)
 
-For the next Enterprise account, incremental contribution is the annual contract revenue less attributable sales, setup, support, and hosted processing and storage. Local log reading shifts part of the workload to the customer’s environment, and self-serve trials can reduce demo effort. Positive contribution remains a scenario that depends on standard deployments, bounded support, and hosted costs that grow more slowly than billed usage. The memo does not quantify those inputs. (The Idea, Key Risks)
+The three-person team launched Fleet in October 2026, following a founder’s September report of unnamed design partners running local or unattended cloud agents. Those signals establish an early rollout, while paid use and commercial growth remain unknown. For incremental contribution, each paid Fleet account would need to cover its attributable sales and onboarding effort, support, and any hosted telemetry or enforcement costs. Local log collection could limit hosted processing costs, but the memo gives too little operating evidence to estimate contribution at representative workloads. (Market & Traction, Founders & Team, The Idea, Key Facts)
 
 ### Countercase
 
-Fleet may be easy to try yet expensive to deploy in production. Coverage depends on supported logs and enforcement points, so mixed-agent environments could require hands-on integration. Claude Code’s native controls also cover some of the same job, weakening the reason for single-agent teams to upgrade. The structural gate stays open because standard deployment remains plausible for teams using supported agents, and the memo leaves the amount of required deployment work and its cost unresolved. (The Idea, Defensibility, Key Risks)
+Agent-native permissions and hooks could satisfy single-agent teams before they need a paid Fleet plan. Buyers who still need cross-agent oversight may also require hands-on deployment or support where Fleet’s enforcement coverage is incomplete. The demo-led paid path makes that a credible scaling risk. The structural downside gate stays open because the memo establishes neither substantial rebuilding by market nor unavoidable per-buyer work that makes faster growth economically infeasible. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 20/25 |
+| Global buyer demand | 21/25 |
 | Repeatable acquisition and onboarding | 16/25 |
-| Retention economics | 15/20 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 63/100** (Neutral)
+**Total Score: 64/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of self-serve Fleet teams convert to paid production through the standard deployment with limited staff time and positive incremental contribution? Paid invoices, deployment records, and attributable sales, support, and infrastructure costs across several accounts would answer it. Repeatable conversion on those terms would move the action to Reach out.
+Can teams that start on Fleet’s free plan reliably convert to paid production as their session-hours grow? A cohort showing multiple independently activated teams moving to paid annual contracts, with limited founder involvement and positive incremental contribution after onboarding and support, would move the action to Reach out.

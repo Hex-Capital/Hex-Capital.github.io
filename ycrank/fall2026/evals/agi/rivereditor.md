@@ -1,30 +1,33 @@
 ﻿# River -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-River’s strongest path is **New Economies**. Its agent can read related files and make reviewable edits in the same workspace, potentially reducing the labor consultants spend assembling client reports across dozens of files. One scenario is that a small consultancy could profitably take on reports it currently declines. The baseline is the labor cost of gathering context, transferring drafts and reviewing the finished report. River would need to lower the cost per accepted report after AI charges, human review and rework. The memo describes the workflow but leaves those costs and the existence of excluded buyers unmeasured. (The Idea)
+River’s strongest commercial case is reducing the manual work of assembling client reports and research papers across many files. Supple describes users moving context and output between chatbots and working documents. River says its workspace lets an agent read related files and make edits users can review in place. This supports a specific productivity benefit. The memo identifies no scarce input River supplies to AI buildout, and it identifies no buyer or recurring use that becomes economically viable because of River. Both AGI paths score zero, which triggers Pass. (The Idea, Founders & Team)
 
-The memo records a document preview followed by a public desktop launch, evidence that River can ship. River claims 100,000+ creators, a signal of interest with paid conversion and repeat use still unknown. Per-seat plans and AI overage charges give River a way to bill for heavier usage. Contribution per additional paying seat remains uncertain because inference and support costs are unreported. (Market & Traction, Founders & Team, The Idea)
+The reported workaround and company-reported beta activity give an early demand signal. The creator, user, and beta counts use different labels and provide no evidence of paid conversion or repeat use. The progression from a document preview to a public desktop launch, alongside Supple’s enterprise engineering experience, supports execution credit. Delivery reliability on sensitive client work remains unproven. (The Idea, Market & Traction, Founders & Team, Key Risks)
+
+Workspace memory and connected accounts could create switching costs. The memo documents close substitutes, including Genspark’s native office tools and Microsoft’s ability to act within existing tenant controls, and provides no retention evidence to establish that River can withstand those alternatives. Usage-based pricing and overage fees can tie revenue to consumption, but the memo gives no basis to estimate contribution after inference, retries, and support. (Defensibility, Market & Traction, Key Risks, The Idea)
 
 ### Countercase
 
-River may make report work that customers already pay for more efficient while competing with tools they already have. Microsoft offers cross-file editing within existing tenant controls, Genspark pairs its agents with native editors, and Anthropic offers a file-and-app agent while also supplying River with models. Shared files and workspace memory could make River worth keeping, but that is an inference. The memo documents neither buyer preference under functional parity nor actual switching. The overlap limits value-capture credit and leaves the path open for a direct test. The memo supports no independent scarce-complement path. (Defensibility, Market & Traction, Key Risks)
+A small consultancy might be able to offer recurring cross-file client reports it previously skipped because manual assembly and review took too long. River’s integrated editors and reviewable edits make that scenario plausible. It assumes savings survive source verification, corrections, and final review, and that River’s workspace adds value when competing tools use similarly capable models. The memo establishes workflow friction but gives no example of a previously excluded use becoming viable, so the Pass gate still applies. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent consulting teams repeatedly pay River for reports they previously declined on cost grounds when they can choose a functionally comparable tool using equally capable models? A paid field test with documented prior costs, accepted reports, and measured review and rework time would answer it. Reach out if River makes those jobs viable and teams repeatedly choose and pay for it at viable prices. Pass if the test shows the work was already economical or that buyers readily switch at parity.
+Can a small consultancy use River for recurring paid cross-file reports that it previously declined because delivery cost was too high? A representative paid trial showing repeat delivery at the required quality and an affordable cost per accepted report, including verification and rework, would move the action to Reach out if a similarly capable agent in the buyer’s existing tools could not achieve the same result on comparable terms.

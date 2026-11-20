@@ -5,26 +5,29 @@
 
 ### Company case
 
-The strongest path is scarce complements. Liability coverage that affirmatively covers a robotics or autonomy company’s use can be a prerequisite for a pilot or deployment. The memo documents new generative-AI exclusion forms and a public tracker covering 736 AI-exclusion filings. The founders report placing coverage for three previously denied businesses in one week. Those placements suggest specialist brokerage can help buyers clear a coverage bottleneck, though the memo gives no policy terms, premiums, or renewals. The team shipped an intake tool after pivoting from wildfire risk modeling. A launch tester reported that the tool identified general liability for a hypothetical robotics applicant but left it unselected, illustrating why broker review still matters. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
+Risklytics has a plausible building-block path through liability coverage for customer deployments of robotics and autonomy systems. Where a customer requires coverage for the intended use before a pilot can start, an AI exclusion can block deployment even when the hardware and software are ready. The memo documents exclusion forms and a tracker covering 736 filings across 33 insurers. The founders report obtaining coverage for three previously denied businesses. Risklytics drafts applications and uses a licensed broker to compare carrier terms and review exclusions before binding. Each additional deployment subject to a coverage requirement could increase demand for suitable policies, but the memo leaves open how often specialist brokers can find equivalent terms and how quickly carriers can expand coverage. That gap makes this a Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The expansion unit is a bound policy. Assuming a $10,000 annual premium and the founders’ stated 10–20% commission range, one placement would yield $1,000–$2,000 in gross brokerage revenue before acquisition, licensing, broker review, and time spent on submissions that fail to bind. The memo provides no actual commission revenue, bind rate, or broker time per successful placement, leaving contribution per policy unproven. (The Idea, Key Facts, Key Risks)
+The industry-enabled path scores zero. The old workflow relies on brokers to prepare submissions and shop them to carriers. AI-assisted drafting could reduce preparation time, while placement still requires licensed review and carrier approval. The reported placements show that the brokerage may help previously denied applicants obtain coverage. The memo gives no cost per successful placement or evidence that automation made a previously uneconomic class of applicants viable to serve. (The Idea, Market & Traction, Key Risks)
+
+The carrier placement map gives Risklytics some operating know-how, although carriers control underwriting and policy terms and competing brokers can use the public filings. The reported placements support early demand, with independent buyer confirmation and renewals still unverified. The team shipped an intake tool, and a launch tester found that it left a relevant coverage option unselected for a hypothetical applicant. For the next bound policy, the founders’ reported commission of 10–20% of premium would need to cover acquisition, submissions that fail to bind, licensed review, and servicing. The memo provides no realized commission or delivery-cost data to establish contribution. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Carriers control underwriting, premiums, and policy wording. The filing tracker is public, and Alton Risk already places robotics liability through specialist markets. A prior denial shows buyer friction, but it leaves open whether another specialist could bind equivalent coverage. Carrier control and existing competition prevent credit for durable control today. Preferential access remains an open test, so the scarce-complement path merits Watch. The New Economies path has no measured reduction in labor cost per bound policy or evidence that cheaper intake opens a market that would still pay Risklytics under model parity. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest countercase is that the reported denials reflect poor routing through generalist brokers and that an established specialist can place equivalent coverage. Alton Risk already places robotics product liability and technology E&O, and carriers retain control over the terms. The memo provides no matched comparison of policy wording, limits, or time to bind. If specialist channels can readily supply equivalent coverage at the required terms, the building-block path falls to zero and the two-zero gate calls for Pass. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 12/20 |
-| Team and execution | 9/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 23/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 5/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 44/150** (Pass)
 
 ### Decisive diligence question
 
-Can Risklytics repeatedly bind deployment-required coverage on comparable terms when another specialist broker cannot? Matched submissions for several independent robotics buyers, backed by bound policy terms and documented preferential carrier access, would move the action to Reach out. Equivalent placements through the comparison brokers would move it to Pass.
+Can Risklytics bind coverage that unlocks a specific robotics or autonomy pilot after a specialist broker fails to secure equivalent terms? A customer’s written coverage requirement, the specialist’s quotes or declinations, and a Risklytics-bound policy that satisfies the requirement at the needed limits and within the pilot timeline would move the action to Reach out. A matched comparison showing that specialist channels readily supply equivalent coverage would move it to Pass.

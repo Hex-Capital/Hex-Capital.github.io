@@ -1,32 +1,35 @@
 ﻿# Spacesheep -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Spacesheep’s strongest path is **New Economies** through cross-agent publishing and review. Teams currently spend staff time reading agent output, reformatting it, sharing files, and coordinating revisions. Spacesheep says Claude Code, Codex, and Cursor can publish to a shared page where colleagues comment and request revisions. The company shows a lab dashboard and a live thermal-camera stream as examples. These illustrate what the product can publish. The cost per successfully reviewed artifact and whether either use was previously uneconomic remain unknown. (*The Idea*, *Market & Traction*)
+Spacesheep’s strongest commercial case is a shared review workspace for teams using Claude Code, Codex, and Cursor. The memo describes a workflow in which teammates read long agent responses, reformat outputs, and share local files for review. Spacesheep says its MCP connector and CLI publish those outputs to a common workspace with comments on specific elements, agent-driven revisions, and searchable history. (The Idea)
 
-The market-opening scenario is that mixed-agent teams begin routinely sharing work they previously kept local because preparing it for review took too much time. That would require the cost per reviewed artifact, including staff time, rework, and the $10 per member monthly Team fee, to fall enough to make those reviews worthwhile. The memo documents a public launch and 28 Chrome extension users, with repeat team use and realized revenue undisclosed. Self-serve signup and per-seat pricing give Spacesheep a way to expand within teams. Hosting, model usage, and support costs per active seat remain unknown. (*The Idea*, *Market & Traction*, *Key Facts*)
+The **building-blocks path scores zero**. Spacesheep handles outputs from coding agents. The memo identifies no scarce input that limits those workloads as deployment grows. The **industry-enabled path also scores zero**. The workflow could save formatting and handoff time, but the memo establishes no buyer or recurring use that becomes economically viable because of those savings. Both zeros trigger Pass. (The Idea, Market & Traction)
 
-Makarov’s prior work building Claude Code Artifacts and the team’s launch support its ability to ship in this category. The next execution milestone is a paid team deployment that measures review costs and repeat use. (*Founders & Team*, *Market & Traction*)
+Cross-agent publishing gives teams a reason to try Spacesheep. Native publishing alternatives and exports to Drive or GitHub weaken its ability to retain those teams, and any advantage from accumulated review history remains untested. Product Hunt engagement and browser-extension installs show early interest. The AI Foundry dashboard is a company-reported example, with buyer commitments, paid use, and repeat adoption undisclosed. (Defensibility, Market & Traction, Key Facts)
+
+The shipped browser extensions and Makarov’s prior delivery of Claude Code Artifacts support seed-stage execution credit. Dependable team deployment remains unverified, and Claude Code web access restrictions add setup friction. The listed Team price of $10 per member per month gives a revenue benchmark, with no cost data for model usage, hosting, or support to assess contribution from the next team. (The Idea, Founders & Team, Market & Traction, Key Risks)
 
 ### Countercase
 
-Claude Artifacts and ChatGPT Sites already handle publishing within their own products, and Type.com already connects Claude and Codex to a shared workspace. A searchable review history could make Spacesheep more valuable over time, while Drive and GitHub exports reduce migration costs. Claude Code’s web connector restrictions also add setup friction to the cross-agent workflow. These facts make substitution credible. The decision gate remains open because the memo provides no direct evidence that mixed-agent teams switch readily when alternatives offer comparable functionality. The memo identifies no independently supported scarce complement. (*Defensibility*, *Market & Traction*, *Key Risks*)
+The strongest scenario is a team that could afford to build and review interactive dashboards only occasionally under its existing workflow. Agent-generated dashboards and a shared review surface could make that work routine by reducing the labor required to build, share, and revise each dashboard. The AI Foundry example shows the proposed use, and cross-agent publishing gives a mixed-tool team a reason to use a separate workspace under model parity. The memo supplies no prior cost baseline, sustained review cadence, or buyer comparison with native publishing, so this scenario does not clear the industry-enabled gate. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent mixed-agent teams repeatedly pay for Spacesheep to review artifacts they previously left local, even when comparable publishing options are available? A paid pilot that measures staff time and total cost per successfully reviewed artifact against the prior workflow, then shows teams renewing after trying comparable alternatives, would move the action to **Reach out**. If those teams readily switch to comparable alternatives, move to **Pass**.
+Can a paying mixed-agent team show that Spacesheep made a previously unaffordable dashboard review cadence viable? A seed-stage test would compare the fully loaded cost per completed dashboard review against the team’s prior workflow over several cycles and document why native publishing could not serve the same need at comparable cost. A paid deployment that demonstrates both would move Pass to Reach out.

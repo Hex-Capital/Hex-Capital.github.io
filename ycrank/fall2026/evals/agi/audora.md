@@ -5,28 +5,29 @@
 
 ### Company case
 
-Audora’s strongest path is **New Economies**. Automating speaker identification, casting, and narration could make full-cast audio viable for fanfiction readers whose stories would otherwise remain text-only or have single-voice narration. Audora says professional narration costs hundreds of dollars per hour. The memo records a public launch and describes an account-free preview from a Wattpad or AO3 link. The preview shows how a reader can try the workflow. The cost per completed book with acceptable speaker attribution remains unmeasured, as does how often readers use Audora for stories that would otherwise go without a full-cast edition. (The Idea, Market & Traction, Key Risks)
+Audora has a plausible path under **Industry enabled by superintelligence**. Its target use is full-cast audio for fanfiction readers whose stories are available only as text or single-voice narration. Audora says professional narration costs hundreds of dollars per hour. Its launched product identifies speakers, assigns distinct voices, and starts playback while generating the rest of the book. At seed, that design supports a plausible reduction in casting and recording labor. The scenario assumes readers have permission to convert the stories and that speaker corrections and regeneration are infrequent enough to keep the cost of a listenable book within what readers will pay. The memo provides no measured savings or evidence that readers have crossed that threshold. (The Idea, Market & Traction, Key Risks)
 
-The founder reported 10,000 waitlisted readers and authors. That signals interest, while paid conversion and repeat purchases remain unknown. The public launch and the founder’s prior delivery of Wattpad tools support execution at this stage. The next challenge is delivering reliable casting across entire books. (Market & Traction, Key Facts, Founders & Team, Key Risks)
+The **Building blocks of superintelligence** path scores zero. Audora uses script, casting, and speech models to deliver audiobooks. The memo identifies no scarce input Audora supplies or AI deployment bottleneck it relieves. (The Idea, Key Risks)
 
-The unit of expansion is one additional successfully delivered book. If the unverified $19.99 monthly price applies and a reader uses all three included books, Audora would collect about $6.66 per book before costs. Contribution depends on script and casting inference, speech generation, retries, and any human correction or support. The memo gives no per-book cost measurements or bottom-up estimate of paid volume. (The Idea, Key Risks, Key Facts)
+The founder-reported waitlist of 10,000 readers and authors supports early interest, with paid conversion and repeat use unverified. The public launch and the founder’s prior delivery of fanfiction tools support execution credit, with dependable full-book delivery still unproven. Reported prices and named model suppliers leave realized revenue and cost per completed book unknown. (Market & Traction, Founders & Team, Key Facts, Key Risks)
 
 ### Countercase
 
-Audora may make full-cast narration cheaper while leaving the value with interchangeable tools and model suppliers. ElevenLabs already offers automated character casting, and a public project demonstrates multi-voice narration using a commercial speech API. Audora’s link-to-preview workflow offers a specific convenience, but the memo provides no evidence of buyer preference under functional parity or of any network effect. Its source-site access is also subject to authorization and platform rules, leaving the scarce-complement path unsupported. The alternatives establish credible substitution risk. The memo does not establish parity for the reader workflow or show customers switching, so the New Economies path remains open under the Watch gate. (The Idea, Defensibility, Key Risks)
+Automated character casting is already available commercially, and a public EPUB-to-audiobook project produces multi-voice narration using a commercial speech API. Audora’s link-to-playback workflow could still matter to readers, but the memo shows no preference for it under comparable capability. Source-platform restrictions and content rights could shrink the usable catalog, while speaker errors could make full-length books costly to finish. These risks leave a concrete mechanism with a testable commercial gap, which supports Watch. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 18/50 |
+| Durable value capture | 3/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will readers whose authorized stories previously went without full-cast audio because of cost pay for a second book through Audora when offered a comparably capable alternative at the same price? Move to **Reach out** if a paid cohort demonstrates repeat preference and positive contribution after generation, retries, and support. Move to **Pass** if readers readily switch under parity. An inconclusive test keeps the action at **Watch**.
+Can Audora earn positive contribution on repeat paid conversions of rights-cleared fanfiction that previously had no full-cast edition? A pilot in which the same readers pay for and finish multiple books would move the action to Reach out if receipts cover casting, synthesis, corrections, retries, and any applicable rights costs.

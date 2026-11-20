@@ -1,32 +1,33 @@
 ﻿# Libra Robotics -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is Libra’s strongest path, with solar installation as the first test. Contractors currently rely on skilled manual crews, and changing layouts can require custom engineering for single-task robots. Libra aims to reuse skills such as alignment and fastening across robot crews and charge for completed installation work. The memo documents a live demonstration at FTC Solar’s Robo Day. Libra claims a 10× reduction in task-to-deployment time, a lead-time measure. The change in labor and cost per accepted installation remains unmeasured in the memo. *(The Idea, Market & Traction, Key Risks)*
+**Building blocks of superintelligence.** The relevant input is skilled electrical installation capacity for data-center fit-outs, particularly busway and rack installation. In the survey cited by the memo, 58% of contractors that worked on data centers reported increased competition for skilled workers. More AI facilities could increase demand for those crews. Changing layouts and site conditions can also require custom engineering for single-task robots, slowing one route to added capacity. Libra’s configurable robot crews plausibly relieve labor pressure on compatible installation tasks if those tasks are on the critical path. Libra reports data-center mechanical, electrical, and plumbing pilots. The memo leaves task-level performance and the time required to add equivalent capacity unverified. (The Idea, Market & Traction)
 
-**Scenario assumption.** If skill reuse cuts setup and on-site labor enough, a contractor could proceed with a solar installation previously deferred because a crew was unavailable or a variable layout made automation too expensive. The scale test is contribution per accepted installation as a robot crew moves between sites. Compare Libra’s fee with equipment capital allocated at actual utilization, mobilization and site setup, supervision, exception handling, and rework. Compare the contractor’s cost per accepted installation with its manual baseline. The memo gives neither pricing nor the operating measurements needed to quantify that bridge. *(The Idea, Key Facts, Key Risks)*
+**Industry enabled by superintelligence.** A plausible new use is robotic installation on variable job sites where contractors previously relied on manual crews because bespoke automation would cost too much to configure. Libra says AI reuses skills such as alignment and fastening and cuts task-to-deployment time tenfold. The scenario depends on those setup savings surviving field supervision and rework at a price contractors will pay. Even with comparable models, buyers would still need robots, tooling, and crews that can deliver accepted installation work. The memo provides no benchmark showing that a previously excluded job crossed the affordability threshold. (The Idea, Key Risks)
 
-Libra reports signed commercial solar agreements and field deployments. The reported 20+ MW planned and 7+ GW in letters of intent indicate buyer interest, while realized revenue, repeat orders, and whether those buyers were previously unable to proceed remain open. Zhao’s prior deployment of harvesting robots and Huang’s research on reusable construction skills support seed-stage execution. Libra’s simulation and physical stress tests give the team a way to investigate reliability across sites. Under model parity, buyers could still pay Libra for reliable field execution. Its testbeds and reported tracker compatibility provide a starting point, with the operating advantage across sites still unproven. *(Market & Traction, Key Risks, Founders & Team, Defensibility)*
+The public solar demonstration and the founders’ relevant robotics experience support seed-stage execution. Libra reports signed solar agreements and jobsite deployments, while contract values, realized revenue, and repeat paid use remain unverified. Physical testbeds and reported tracker compatibility give Libra a basis for accumulating deployment know-how. Transfer across jobs and the contribution per accepted installation after equipment, field labor, and rework remain unverified. (Market & Traction, Founders & Team, Defensibility, Key Facts)
 
 ### Countercase
 
-Libra may make existing solar work easier to staff while serving projects that would have proceeded anyway. It uses commercially available hardware with some custom parts, competing approaches already address construction automation, and Sunstall has worked with both Libra and Cosmic. Shared access weakens the case for a scarce complement, and the memo identifies no structural barrier. Neither a newly viable use nor a durable reason to choose Libra under model parity is established. Those conditions remain testable, so the decision gate calls for Watch. *(The Idea, Defensibility, Market & Traction, Key Risks)*
+Competition for workers may raise hiring costs while leaving busway and rack schedules intact. Manual crews and specialized robots could remain economical, particularly if site-specific setup, supervision, and rework absorb Libra’s claimed savings. Competitors already field relevant equipment, and Sunstall has worked with both Libra and Cosmic, weakening the case for privileged installer access. This limits both path scores. The documented labor pressure and reported electrical pilots still support a seed-stage conversation about a specific installation bottleneck. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 10/25 |
-| Customer demand | 12/20 |
-| Team and execution | 11/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 27/50 |
+| Industry enabled by superintelligence | 14/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 67/150** (Invest)
 
 ### Decisive diligence question
 
-Can Libra earn a paid repeat order at a second solar site for work the contractor had deferred under manual delivery, when the contractor has access to a viable alternative using comparably capable models? Move to **Reach out** if the contractor confirms the prior deferral and chooses Libra for measured field performance, with comparable acceptance records showing lower labor and cost per accepted installation than manual delivery and positive contribution for Libra at observed utilization. *(The Idea, Market & Traction, Key Risks)*
+Can Libra shorten a labor-constrained busway installation at a price the contractor will pay? A paid data-center pilot with a contractor-verified comparison against its usual crew would answer this. Compare time to customer acceptance, skilled labor hours, and price for equivalent work, including setup, supervision, and rework. A meaningful schedule gain at a viable price would sustain Reach out. If the pilot shows no material relief on the constrained task, move to Watch.

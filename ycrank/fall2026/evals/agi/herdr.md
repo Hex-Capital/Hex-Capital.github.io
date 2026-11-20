@@ -1,32 +1,33 @@
 ﻿# herdr -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-Herdr’s strongest AGI path is **New Economies**. Its shipped runtime keeps coding-agent sessions alive across client disconnects on machines developers already control. Herdr describes the existing labor cost as time spent checking terminal sessions for blocked jobs and reconnecting after interruptions. A plausible newly served use is routine multi-host agent work at small engineering teams that currently limit parallel jobs because supervision takes too much developer time. That use remains a scenario. The memo provides no before-and-after measure of supervision cost per successfully completed job, including recovery time and any Herdr fee. (The Idea, Market & Traction, Key Risks)
+Herdr helps developers supervise long-running coding agents across machines. Its documented design keeps terminal processes alive through client disconnects and surfaces jobs waiting for input. As developers run more agents in parallel, they may spend more time checking sessions and recovering context. The memo shows an existing terminal and multiplexer workflow, with overlapping supervision features in cmux and native agent apps. It provides no evidence that access to a persistent runtime constrains AI deployment or that equivalent capacity would be slow to add. The building-block path scores zero. (The Idea, Market & Traction, Key Risks)
 
-Public app-store ratings show some use of the mobile client, while Herdr reports 2.16 million cumulative installs for the original free TUI. Repeat use and willingness to pay among teams newly enabled to run this work remain unverified. Celik shipped the original TUI, desktop runtime, and mobile clients as a solo founder. The next execution gap is operating a paid service across customer-controlled hosts. (Market & Traction, Founders & Team, Key Facts)
+The enabled-industry path also scores zero. Developers already supervise these jobs by switching terminal sessions and reconnecting manually. Herdr could reduce that work, but the memo identifies no buyer or job cadence previously excluded by the cost of supervision and gives no measured cost per completed job. Cross-host, multi-agent supervision could remain valuable when model capabilities converge. Whether it makes a previously uneconomic workflow viable remains untested. (The Idea, Key Risks)
 
-For scale, assume the expansion unit is a paying team connecting its own machines. Customer-hosted execution could limit Herdr’s compute costs, with contribution per team depending on price less connection infrastructure and support costs, including time spent resolving migration and host-recovery issues. The announced cloud service has an undisclosed price, and the memo gives no per-team operating costs. (The Idea, Key Risks, Key Facts)
+Herdr’s reported plugin and mod counts support a modest ecosystem advantage, while the Apache-2.0 core and overlapping alternatives limit evidence of durable capture. The company reports 2.16 million cumulative TUI installs, and app-store ratings provide direct evidence of some free use. The memo gives no paid conversion or repeat usage data. Celik shipped the original TUI and separate desktop and mobile clients, while process loss on host reboot leaves a reliability gap. Running agents on users’ machines may limit Herdr’s compute costs, but there is no disclosed Cloud price or evidence on hosting and support costs per paying team. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Herdr may save time for developers who already run parallel agents while native clients absorb the supervision features they value most. The Codex app already overlaps for single-provider users, cmux ships agent-status notifications, and the Apache-licensed core is available for competitors to build on. Herdr’s reported plugin and mod counts suggest a possible customization advantage, while retention under functional parity and the benefit to existing users from additional contributors remain unmeasured. Herdr’s mixed-agent, user-hosted workflow still warrants a test of substitution. Scarce complements offers no independent case because users control the hosts and the memo identifies no durable bottleneck Herdr controls. (The Idea, Defensibility, Key Risks)
+A small engineering team might be able to run coding agents across several machines at a cadence it previously could not sustain. Persistent sessions and alerts for blocked jobs give that scenario a concrete basis, and DigitalOcean’s one-click image and plugin show that a third party has integrated Herdr into an agent workflow. The memo gives no deployment where those features lowered supervision costs enough to unlock a previously impractical cadence. Both path scores remain zero, triggering Pass. (The Idea, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent teams that previously capped multi-host agent work because of supervision cost run those jobs routinely and renew a paid Herdr subscription when they can choose a functionally comparable alternative? A paid cohort that logs supervision and recovery time per successful job before and after adoption, starts running previously deferred jobs, and renews after a side-by-side trial would move the action to **Reach out**. If the trial shows that Herdr only saves time on existing jobs and teams switch readily at parity, move to **Pass**.
+Can a small engineering team use Herdr to sustain a paid, multi-host coding-agent workflow it previously could not afford to supervise? A repeat paid deployment that measures supervision and recovery cost per completed job against the team’s terminal or native-app baseline, using the same models, would answer it. If the savings make the previously impractical cadence viable and the team continues paying for Herdr, change the action to Reach out.

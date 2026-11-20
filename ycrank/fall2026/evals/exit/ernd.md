@@ -5,36 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a corporate card platform such as Slash. ernd has live supplier offers, including higher Firecrawl usage limits and Wafer cash back, and its software can ingest provider-level spend data. An acquirer could use those relationships and integrations to attract and retain AI-heavy customers. That rationale is an inference. The memo documents the offers and integrations, while the founders’ account of difficulty securing GPU capacity describes the customer problem. Priority GPU and inference access was still planned at launch. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest route is a strategic acquisition by a corporate-card platform seeking recurring AI spend and better supplier terms. The memo documents live Wafer cash back and higher Firecrawl usage limits, plus integrations that track provider usage and cost. A buyer could use those relationships and integrations to attract more AI spending onto its cards. That rationale depends on ernd demonstrating that its customers keep spending and that pooled volume secures better terms. Priority GPU and inference access remained a company plan at launch. (*The Idea*, *Defensibility*, *Key Risks*)
 
-A seed-stage milestone would be two quarters of repeat spend from activated cards, with positive contribution after rewards and issuer costs. The reported 30+ first-week card requests and confirmed YC backing support attempting the test. Activation, repeat spend, runway, and the capital needed to reach the milestone are unverified. Closing a sale that preserves the card program would also depend on Coastal Community Bank’s approval and change-of-control terms, which the memo does not establish. (Market & Traction, Key Risks)
+The company reports 30+ first-week card requests and eight signed partners. Those are early signals for a seed-stage test of repeat spending and contribution after rewards and issuer costs. YC backing provides some support for running that test, while the budget, runway, and time to reach meaningful volume remain unknown. Coastal Community Bank controls card approvals and terms. The memo leaves issuer continuity and the transferability of supplier agreements and customer data unresolved. It supplies no price evidence for a strategic sale or evidence of an independent route that could pay this holder. (*Market & Traction*, *The Idea*, *Key Risks*)
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, ownership diluted from 5% to 3%, and no follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity. The illustrative sale scenarios assume full holder eligibility and participation, a pro rata waterfall, and cash at closing within eight years. The prices and deductions are scenario assumptions.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× goal requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. Both sale scenarios assume the holder is eligible to sell its entire stake for cash by year eight and receives 3% pro rata after deal deductions, with no senior preference reducing that share. The values are illustrative assumptions.
 
-| Scenario | Enterprise-to-equity bridge | Cash to holder |
-|---|---|---:|
-| Modest sale | $40M enterprise value less $5M in assumed net debt and deal costs yields $35M in distributable equity | $1.05M (2.1×) |
-| Strong sale | $100M enterprise value less $10M in assumed net debt and deal costs yields $90M in distributable equity | $2.70M (5.4×) |
-| Prolonged private | Cash is reinvested through year eight, with no distribution or eligible share purchase | $0 |
+| Scenario | Enterprise value to distributable equity | Cash to holder |
+|---|---|---|
+| Modest sale | $40M less $5M of net debt and deal adjustments = $35M | $1.05M (2.1×) |
+| Strong sale | $100M less $10M of net debt and deal adjustments = $90M | $2.70M (5.4×) |
+| Prolonged private | Cash is reinvested through year eight, with no distribution or eligible share purchase | $0 (0×) |
 
-At 2.5% ownership, even the strong case yields $2.25 million. The memo identifies paid listings at undisclosed rates and a published price for standalone key protection. It supplies no basis for an acquisition price or an independent path to holder liquidity, so both dimensions receive their defaults. (The Idea, Key Facts)
+Even in the strong scenario, eligibility to sell only 80% of the stake would reduce cash received to $2.16 million. The memo leaves both a price that clears the hurdle and the holder’s eventual payout terms uncertain.
 
 ### Countercase
 
-An incumbent could build enough of ernd’s offering internally. Slash already offers AI purchase rewards, Ramp already tracks AI costs, and providers can change or withdraw ernd’s perks. If those perks fail to drive repeat, profitable card spend, an acquirer has little reason to pay a premium. The memo establishes competitive overlap and revocable benefits, but leaves both achievable proceeds and transaction terms unresolved. That warrants Watch under the decision framework. (Defensibility, Market & Traction, Key Risks)
+Ramp already offers provider-level AI spend reporting, Dash.fi offers AI-specific rewards, and providers can withdraw ernd’s perks. A card platform could replicate enough of the offering to serve its customers without acquiring ernd. That makes durable supplier economics the critical gap. The Pass gate remains unmet because the evidence leaves both the ability to close and the achievable payout unresolved. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Does repeat, profitable card spend tied to ernd’s supplier benefits give a strategic buyer enough incremental value to clear the roughly $83.3 million distributable equity hurdle? Two quarters of cohort data showing retained spend and net contribution attributable to those benefits, paired with a credible buyer-side valuation that accounts for preserving the card program and supplier terms, would move the action to Reach out. Evidence that even the strongest credible sale would leave the holder materially below $2.5 million would move it to Pass.
+Can ernd’s retained card spend and negotiated supplier terms create enough incremental value for a corporate-card platform to justify a cash acquisition that clears the holder’s proceeds hurdle? Several months of repeat spend and positive contribution after rewards and issuer costs, tied to a credible buyer-side estimate of the value of acquiring ernd versus building the offering internally, would move the action to Reach out if the implied price clears the hurdle after deal adjustments.

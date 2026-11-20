@@ -5,28 +5,28 @@
 
 ### Company case
 
-Conditional on strong product-market fit, HyperBench’s strongest path is to sell to embedded engineering teams whose existing test benches can run its verification workflow with limited setup. The recurring job of tracing faults across hardware, firmware, and software plausibly travels across markets. HyperBench describes a system graph that links components and interfaces to evidence across repositories, then uses existing hardware to retest proposed fixes. The graph and indexing pipeline are reusable parts of the current product. How much bench-specific adaptation each deployment needs remains uncertain. (The Idea, Defensibility, Key Risks)
+Conditional on strong product-market fit, HyperBench addresses a recurring job for embedded and systems engineers who trace faults across hardware, firmware, and software. The company describes a reusable system graph that connects repositories, components, interfaces, and test evidence. It also says agents can retest on customers’ existing hardware. That makes it plausible that the same product could serve comparable teams across markets. How much bench integration carries over between customers is still unclear. (The Idea, Defensibility, Key Risks)
 
-The memo records a November 11 private-beta announcement, a signup form, a booking link, and 23.4K launch-post views. These establish a discovery and intake path. Repository indexing and local execution provide reusable setup steps, while independent activation and payment remain unverified. The memo gives no usable evidence of commercial traction and leaves revenue status unknown. (The Idea, Market & Traction, Key Facts)
+The memo records a November 11 private-beta announcement, a signup form, and a booking link. Those establish a way to find the product and request access. Evidence of independent activation, a first verified repair, and payment is missing. Launch attention and the two-person team give context for the beta. Commercial traction is unknown, including whether anyone has paid. (The Idea, Market & Traction, Key Facts)
 
-Repeated debugging and accumulated interface mappings and test history could give teams a reason to keep using HyperBench. A paid team subscription is a scenario assumption, and the memo leaves expansion pricing unestablished. Under that scenario, incremental contribution would be the subscription fee less agent compute, setup, and ongoing support. Using the customer’s existing bench could limit hardware provisioning costs, while custom integration could consume the margin. The memo gives no pricing or measured deployment inputs to establish contribution. (The Idea, Defensibility, Key Risks)
+Repeated debugging and the accumulation of interface mappings and test history give teams a reason to keep using the product. A team subscription is a scenario assumption. Under that scenario, incremental contribution would be the subscription fee less attributable sales and setup time, agent compute, and ongoing bench support. Customer-owned benches and local execution could limit HyperBench’s equipment costs. Pricing, required labor, and a billable expansion mechanism remain unknown, leaving both contribution and net revenue retention uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Physical verification could require enough custom work to make each deployment founder-led. Teams with custom instrumentation may need interface mapping and equipment integration, and the published evaluation covers diagnostic and repository-debugging tasks without establishing repeatable verification across customer benches. The structural downside gate stays open because the memo leaves unresolved whether that work is unavoidable for teams with compatible benches or costly enough to make faster growth infeasible. (Key Risks)
+The strongest countercase is that physical verification requires fresh engineering work at each customer. Custom instrumentation may require interface mapping and equipment setup, and HyperBench’s reported evaluation covers diagnostic questions and repository debugging cases, leaving repeatable physical verification across customer benches unproven. If each deployment needs substantial founder time, that work could slow onboarding and consume the revenue from each new account. The structural gate stays open because the memo leaves unresolved whether that effort is unavoidable for typical buyers. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 10/25 |
+| Repeatable acquisition and onboarding | 9/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can several paying embedded engineering teams use the same documented setup on their existing benches and independently verify fixes on successive issues? Invoices, setup and usage logs, and measured HyperBench support and compute costs would answer it. Repeat paid use with light setup and healthy incremental contribution would move the action to Reach out. Evidence that even compatible benches require costly custom work with no credible way to reduce it would move the action to Pass.
+Can several independent engineering teams with different bench setups use the same documented flow to buy HyperBench, verify a repair on their own hardware, and keep paying as usage grows, with little founder time per account? Paid deployment records, repeat bills, and measured setup and support hours would answer it. Repeatable activation and healthy incremental contribution would support Reach out if the updated score reaches 65 and confidence rises to at least Medium. Evidence that typical deployments require unavoidable bespoke work that makes faster growth uneconomic would change the action to Pass.

@@ -1,32 +1,33 @@
 ﻿# Applied Kinetics -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is a scarce complement to AI infrastructure: access to buyer-approved transformer production slots that can shorten the time to site energization. The memo reports that data center developers were preordering selected equipment up to 24 months ahead. Applied Kinetics quoted seven weeks to build and test pad-mounted transformers. That quote supports a testable offer, with elapsed time to site delivery still unverified. The two figures cover different equipment scopes and milestones. (The Idea, Market & Traction, Key Risks)
+Applied Kinetics fits the building-blocks path through made-to-spec pad-mounted transformers for AI data center projects where transformer delivery governs energization. The memo reports that developers were preordering selected equipment up to 24 months ahead. That establishes procurement friction in the category, while forecasts for rising data center electrical equipment demand suggest pressure could increase. Component shortages can affect several factories at once, and buyer-approved manufacturer lists can limit how quickly additional capacity becomes usable. (The Idea, Market & Traction, Key Risks)
 
-Applied Kinetics reports access to more than 40 partner plants and says it handles testing, customs, freight, and site delivery. Those services could make qualified capacity easier to use, even if competitors have equally capable AI agents. The reported 10+ GW is the manufacturing base’s track record. The memo gives no evidence of enforceable allocation rights or paid orders from independent buyers. The founders’ prior work in GPU telemetry and AI agents supports the software side of the launch, while end-to-end equipment fulfillment remains unverified. (The Idea, Defensibility, Market & Traction, Founders & Team)
+Applied Kinetics says it uses agents to review specifications and schedule orders across partner factories, and quotes seven weeks to build and test a pad-mounted transformer. The seed-stage assumption is that a buyer-approved plant has an earlier slot for the required specification and that the lead survives acceptance testing, freight, customs, and site delivery. On a project where the transformer is on the critical path, that could bring forward energization. The market evidence and product design justify testing this assumption in a conversation. The industry-enabled path earns zero because the memo describes faster coordination for existing buyers and provides no evidence that AI makes a previously unaffordable buyer, project, or use viable. (The Idea, Market & Traction, Key Risks)
 
-A delivered equipment order is the unit of expansion. Contribution would depend on the project price less factory, testing, freight, customs, and fulfillment costs, with cash needs sensitive to supplier and customer payment timing. The memo describes the workflow and quote model but provides no order-level economics. (The Idea, Key Risks)
+The company-reported access to 40-plus plants and its stated responsibility for testing and logistics support limited value-capture credit. The reported 10-plus GW reflects the manufacturing base’s track record, and priority access to factory slots remains unverified. Early ordering is a concrete buyer workaround, while Applied Kinetics’ own paid orders and buyer qualifications remain unverified. The founders’ prior GPU telemetry and agent development support execution credit, with qualified equipment delivery still unverified. Scale economics stays at the default because written project quotes supply a pricing mechanism, while the memo gives no figures for the next order’s factory, testing, freight, or fulfillment costs. These gaps keep evidence confidence low. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-The company may be a broker whose usable capacity is set by factories and buyers. Buyer-approved supplier lists can narrow the factory pool, shared component shortages could constrain multiple plants at once, and Fluxco and Mission Critical Group offer overlapping sourcing or integration. That leaves control of scarce capacity unproven. The memo documents no comparable order where a buyer readily substituted another supplier, so the scarce-complement path stays open. The software offer has no independently evidenced New Economies path because the memo identifies neither a previously excluded buyer or use nor a measured reduction in labor cost per successful order. (The Idea, Defensibility, Market & Traction, Key Risks)
+Applied Kinetics may be coordinating access to the same scarce capacity its buyers already use. Even across a broad factory network, shared component shortages and approved-vendor restrictions can leave few eligible slots. Competing sourcing services, stocked equipment where specifications permit, and integrated suppliers give buyers other options. The seven-week quote covers build and test, leaving the claimed site-level advantage unresolved. The building-blocks path still clears the seed-stage outreach gate. Evidence that the lead disappears on a representative order would move the action to Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 27/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 4/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/150** (Neutral)
 
 ### Decisive diligence question
 
-Can Applied Kinetics use enforceable access to a buyer-approved factory slot to deliver a paid transformer order faster than an independent data center buyer’s best qualifying alternative? A completed order with documented slot rights, a comparable competing quote, and buyer-confirmed site delivery would move the action to Reach out.
+Can Applied Kinetics show one AI data center order where a confirmed slot at a buyer-approved factory would advance energization relative to the buyer’s best qualified alternative? A buyer-verifiable comparison covering the same specification, acceptance requirements, and delivery to site would sustain Reach out if it showed a material lead on the critical path. If the lead disappears once those requirements are included, move to Watch.

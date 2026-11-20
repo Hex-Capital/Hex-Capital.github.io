@@ -5,32 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic sale to an established CRO. Nxtcure markets GalenOps as an oncology trial operations platform with human review for consequential decisions. The memo documents a synthetic-study demo, and the company describes the digital twins as subject to validation. A CRO could have a reason to buy if the platform demonstrably reduces trial rework or staff time after accounting for human review. The memo provides no measured savings or buyer economics to support that inference. (The Idea, Market & Traction, Key Risks)
+The strongest route is a strategic acquisition by an established CRO. Nxtcure offers a GalenOps demo using a synthetic study and is soliciting CROs for digital-twin licensing. The company describes an integrated product that combines oncology simulation with trial execution and plans to validate simulated endpoints against measured study results. A CRO could have a reason to buy if that integration produces repeatable cost or cycle-time savings over its existing workflow. The memo provides limited support for that rationale because the benefit remains unmeasured in a live study. (The Idea, Market & Traction, Key Risks)
 
-The next milestone is a live sponsor pilot that measures operating savings against the sponsor’s existing workflow. The synthetic demo and founder-reported $500,000 in YC financing make a test plausible, while pilot funding, cost, and timing remain open. Software and study-data transfer rights are unverified. The memo identifies no independent route that would pay this holder. (Market & Traction, Defensibility, Key Facts)
+A paid live oncology pilot that measures workflow gains against a baseline and compares simulated endpoints with observed results would materially strengthen the route. The synthetic demo and the founders’ relevant backgrounds make a pilot plausible. The founder-reported $500,000 in YC financing gives some capital context, while the pilot budget, funding commitment, and timeline remain open. The earlier trial-matching pilots concerned a different product. The memo leaves IP transfer and study-data reuse rights unverified and supplies no evidence of an independent route that would pay this holder. (Market & Traction, Founders & Team, Defensibility)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The 5× cash objective requires $2.5 million within eight years, or about $83.3 million in distributable equity at 3%. The following are illustrative scenarios. The memo provides no basis for an acquisition price or investor waterfall. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale scenarios below assume a full cash sale within eight years, an eligible holder selling the entire stake, and a pro rata waterfall with no senior preferences or deferred payments. All prices and deductions are illustrative assumptions.
 
-- **Modest sale.** At $50 million enterprise value, assuming zero net debt or deal adjustments, a full cash sale, and an eligible holder paid pro rata without preference diversion, the holder receives $1.5 million within eight years.
-- **Strong sale.** At $100 million enterprise value under the same assumptions, the holder receives $3 million. If net debt and deal adjustments reduce distributable equity to $80 million, the holder receives $2.4 million and misses the objective.
-- **Prolonged private operation.** If the company reinvests cash and there is no eligible share sale or payout, the holder realizes $0 within eight years.
+| Scenario | Enterprise-to-equity bridge | Cash to holder |
+|---|---|---|
+| Modest sale | $45M enterprise value less $5M in net debt and deal deductions leaves $40M | $1.2M, or 2.4× |
+| Strong sale | $100M enterprise value less $10M in net debt and deal deductions leaves $90M | $2.7M, or 5.4× |
+| Prolonged private | Operations continue and available cash is reinvested, with no eligible share sale or payout within eight years | $0, or 0× |
+
+At the strong sale value, selling only 75% of the stake would reduce cash received to about $2.03 million. The memo supplies no buyer pricing or transaction economics to support the strong case, so proceeds stay at the absent-evidence default. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A CRO could source trial execution and simulation separately. Harbor and QuantHealth already offer overlapping capabilities, and the memo identifies no current moat or validated advantage from combining them. That weakens the reason to acquire and pay a premium. The evidence establishes neither a structural block nor a supported sale range below the holder hurdle, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+A CRO could source overlapping capabilities from existing vendors. Harbor offers trial execution, QuantHealth offers pre-enrollment simulation, and Cori overlaps in protocol planning. With GalenOps demonstrated on a synthetic study and the twins still awaiting validation, a buyer could have little reason to pay for the combined product. This leaves a specific gap in buyer economics. The memo establishes neither a structural block nor materially inadequate proceeds under the strongest credible route, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 10/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Would measured savings from a paid, live oncology trial pilot justify an acquisition price that clears the holder’s hurdle? A sponsor-verified comparison that includes human-review costs, paired with a prospective CRO buyer’s financial case for a price that clears the hurdle after deal deductions, would move the action to Reach out.
+Would an established CRO underwrite an acquisition price that clears the holder’s cash hurdle if a paid live oncology pilot demonstrates a repeatable cost or cycle-time gain over its current workflow? A CRO-backed indicative price range tied to a measurable pilot target would move the action to Reach out if the range supports at least $2.5 million in holder cash after deal deductions and the waterfall. An unresolved range keeps the action at Watch. A supported price ceiling that leaves the holder materially short under the strongest credible route would trigger Pass.

@@ -5,32 +5,34 @@
 
 ### Company case
 
-The strongest route is a strategic acquisition by an AI infrastructure or enterprise security platform. The memo records Cisco’s acquisition of Galileo, an adjacent runtime guardrails company, without a disclosed price. Latent reports stopping 99% of rule-breaking agents versus 69% for a frontier judge in its gpt-oss-120b sandbox. A platform could buy Latent to add in-process safeguards to its model-serving stack if the detection advantage holds on customer traffic at acceptable latency and false-positive rates. The memo contains no production validation of that advantage. (*Market & Traction*, *The Idea*, *Key Risks*)
+Strategic acquisition is Latent’s strongest supported route. The memo records a public SDK launch and Cisco’s acquisition of Galileo, an adjacent runtime guardrails company. Latent’s product scores activations during vLLM generation and uses deployment-specific calibration to decide which outputs to hold or reroute. Latent reports stopping 99% of rule-breaking agents versus 69% for a frontier judge in its sandbox benchmark. A model-serving platform could have a reason to acquire Latent if that advantage holds in production at an acceptable false-hold rate, latency, and cost. The launch and calibration workflow make a paid production test plausible. Customer results, test funding, and runway remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Under the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3%, with no follow-ons. The eight-year objective is $2.5 million in gross cash, which requires about $83.3 million in distributable equity value at 3%. In both sale scenarios below, assume a close within eight years, $5 million in combined net debt and deal deductions, no further senior claims, and an eligible holder selling its entire stake for cash at closing through a pro rata waterfall.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3%. The memo gives no acquisition price for Galileo or measured buyer economics for Latent, so the sale values below are scenario assumptions. Both sales assume an eligible holder sells the full stake for cash within eight years and receives 3% of the equity pool after net debt and deal costs, with no preference or other senior claim redirecting that share. (Market & Traction, Key Facts)
 
-- **Modest sale.** $40 million in enterprise value leaves $35 million in distributable equity and pays the holder $1.05 million, or 2.1×.
-- **Strong sale.** $100 million in enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. Selling only 80% of the stake on those terms would reduce cash received to $2.28 million.
-- **Prolonged private operation.** Reinvested cash yields zero realized proceeds within eight years. The memo offers no evidence of an eligible secondary or funded payout.
+| Scenario | Proceeds bridge | Gross cash to holder |
+|---|---|---:|
+| Modest sale | $40M enterprise value less $5M in net debt and deal costs leaves $35M in distributable equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in net debt and deal costs leaves $90M in distributable equity | $2.70M (5.4×) |
+| Prolonged private | Cash is reinvested, with no eligible share sale or funded payout within eight years | $0 |
 
-The sale prices are scenario assumptions. The memo provides neither a transaction price nor realized customer revenue to anchor them, so proceeds receive the default score. The self-serve launch and founder’s relevant experience make a paid production pilot plausible, while the solo team and unconfirmed funding leave its timing and budget open. Customer-environment deployment suggests a buyer could integrate the product. IP ownership, transfer rights, and customer consents remain unverified. (*Market & Traction*, *Key Facts*, *Founders & Team*, *Key Risks*)
+The strong case clears the hurdle by $200,000. If the holder could sell only half the stake at closing, cash received would fall to $1.35 million. The memo leaves holder rights and transaction permissions unverified and provides no evidence for an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Goodfire already distributes activation-based monitoring through Baseten, giving platform buyers a concrete partnership alternative. Latent’s sandbox advantage may shrink on production traffic, especially after accounting for calibration effort and false holds. That could erase the reason to acquire Latent or compress the price below the proceeds hurdle. The memo establishes neither a structural block nor a supported price ceiling, so the Pass gate does not trigger. (*Defensibility*, *Key Risks*)
+Goodfire already distributes activation-based monitoring through Baseten, giving a model-serving platform a concrete partnership alternative. Latent’s customer-specific calibration could make it harder to replace, but customers can export labeled examples, and the sandbox result leaves its production advantage uncertain. This weakens the case for an acquisition premium. The memo establishes neither a structural closing barrier nor a credible price ceiling below the holder’s hurdle, so the Pass gate remains untriggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Does Latent deliver enough incremental value over an available activation monitor for a platform buyer to justify a price that clears the holder’s hurdle? A paid production pilot comparing prevented failures, false holds, latency, and calibration effort on the same traffic, coupled with a buyer’s valuation of those gains, would answer it. Move to Reach out if that evidence supports a credible price range that clears the cash objective after deal deductions and the waterfall.
+Would a model-serving platform value Latent’s production advantage enough to support a sale yielding at least $83.3 million in distributable equity? Repeatable results from paid deployments showing fewer unsafe actions at acceptable false-hold rates, latency, and cost, paired with a prospective buyer’s quantified assessment of acquiring Latent versus building or partnering, would move the action to Reach out if the economics support that hurdle.

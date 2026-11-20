@@ -1,32 +1,33 @@
 ﻿# Frontrunner -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-Frontrunner’s strongest path is **New Economies**. Its shared graph gives agents access to CRM, email, calendar, product and call data, and feeds sales outcomes into later workflows. The former delivery cost includes staff time spent researching accounts, updating qualification rules and coordinating tools. A plausible new use is recurring outreach to lower-priority accounts that teams previously skipped because manual research cost too much. That market opening remains a scenario assumption. The memo provides no before-and-after labor or cost per qualified meeting. (The Idea)
+Frontrunner uses AI to research accounts, qualify leads, and run outbound workflows. Its shared graph connects customer data and feeds sales outcomes back into those workflows. The memo identifies no scarce input that Frontrunner supplies to AI developers or operators, so the building-blocks path scores zero. The industry-enabled path also scores zero. Frontrunner automates work that GTM teams already do with existing tools and manual rule updates, but the memo identifies no buyer or outreach cadence that became economically viable because of the automation. Both zero scores trigger the Pass gate. (*The Idea*, *Market & Traction*)
 
-Foresight Health’s CEO reported seven meetings booked in 48 hours after onboarding. That testimonial supports early use and a concrete outcome. Frontrunner separately reports a 40–50% conversion rate from signal-based outreach to booked meetings. Whether buyers pay repeatedly for campaigns made viable by the cost change remains open. (Market & Traction)
+The customer-specific playbooks and configurations licensed for in-service use could create migration work. The shared graph could also make those workflows more valuable over time, but retention and pricing power under comparable model capability remain unproven. Competitor overlap and reliance on third-party APIs limit Frontrunner’s control. (*Defensibility*, *Key Risks*)
 
-The founders bring growth and growth-engineering experience, including building internal GTM systems at Encord. Frontrunner’s simulations surfaced stale data and prematurely ended runs, with record rechecks and resumable runs among the reported mitigations. Production reliability remains open. A plausible expansion unit is one customer organization. Fees are set per agreement, and the memo provides no per-account figures for onboarding, inference, third-party data or human exception handling. (Founders & Team, Key Risks, The Idea)
+Foresight Health’s CEO reported seven meetings in 48 hours after onboarding, an early sign of customer use. Frontrunner’s separate claims about conversion and win rates do not establish paid or repeat demand. The founders have relevant growth and GTM engineering experience, and Frontrunner’s simulations identified stale data and prematurely stopped runs. The company describes safeguards for both, while dependable live operation remains unverified. Customer agreements provide for fees, but the memo gives no realized pricing or delivery costs from which to estimate contribution on the next deployment. (*Market & Traction*, *Founders & Team*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Frontrunner may make existing sales work cheaper while leaving buyers with several credible alternatives. Unify already uses general-purpose models for research and outreach, and Zoom bundles buyer signals and agents with conversation data. Frontrunner’s in-service licenses for customer-specific playbooks and configurations could create migration work. Whether buyers prefer or pay more for Frontrunner when alternatives offer comparable functionality remains untested. The overlap leaves the New Economies path open at Watch, and dependence on third-party APIs supplies no independent evidence of control over a scarce complement. (Defensibility, Market & Traction, Key Risks)
+The strongest countercase is that agencies could continuously research and act on buying signals across client accounts at a cadence they previously found too labor-intensive. That is a scenario assumption. Frontrunner reports agency adoption and more than 100 signal-based opportunities acted on daily, and the Foresight Health testimonial shows that one deployment produced meetings quickly. Those signals leave open the prior cadence, cost per qualified meeting, and whether buyers still need Frontrunner when competing tools use comparable models. They do not clear the industry-enabled gate. (*The Idea*, *Market & Traction*, *Defensibility*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 7/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 23/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent buyers renew at a price that covers Frontrunner’s cost to serve for a campaign they previously skipped on cost grounds, after trying an alternative with comparable model capability and workflow functionality? A paid cohort that records the former manual cost, measures the new all-in cost per qualified meeting and renews with Frontrunner after that comparison would move the action to Reach out. If the savings serve only existing campaigns or buyers readily switch at parity, move to Pass.
+Can a paid agency deployment sustain a signal-based outreach cadence the buyer previously could not afford? A buyer-verified comparison against its existing workflow using comparable models should show the fully loaded cost per qualified meeting, including review and rework. If Frontrunner clears the buyer’s affordability threshold where the comparison workflow fails and the agency pays to continue, change the action to Reach out.

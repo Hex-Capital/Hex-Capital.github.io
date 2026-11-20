@@ -5,15 +5,23 @@
 
 ### Company case
 
-Anywhere’s strongest exit path is a strategic sale to a consumer mapping or social-location company. Snap’s acquisition of Zenly establishes that a buyer has acquired a social-map product before. The rationale for buying Anywhere would be to acquire an active network of friends who share places and plans, along with a map that connected agents can update. The launch materials describe that workflow, and YC reported thousands of first-week signups. The value of the network to a buyer remains an inference because the memo gives no retention or friend-network density data. (The Idea, Defensibility, Market & Traction, Founders & Team)
+Anywhere’s strongest liquidity route is a strategic sale to a consumer social platform. A buyer could gain a product that turns saved places, visit history, and friend sharing into recurring engagement, with connected agents able to add pins. The memo records Snap’s $213.3 million cash acquisition of Zenly, which establishes prior strategic demand for a social map. A price for Anywhere would depend on evidence that its own users return and build shared map activity a buyer would pay to acquire. (The Idea, Defensibility, Founders & Team)
 
-The benchmark is a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. For both sale scenarios, assume the holder is eligible, sells all shares for cash within eight years, and receives 3% pro rata after debt, deal costs, and any senior claims. With zero deductions, a modest $30 million enterprise-value sale pays $900,000 (1.8×), and a strong $100 million sale pays $3 million (6×). The strong case falls below the hurdle if deductions reduce the pro rata pool by more than about $16.7 million. Zenly’s $213.3 million cash sale shows that a social-map acquisition can exceed the hurdle, but the memo supplies no Anywhere-specific price evidence. In the prolonged-private scenario, continued operation with reinvestment yields $0 in realized proceeds. The memo supports no independent payout route. (Founders & Team, The Idea, Key Facts)
+YC reported thousands of first-week signups. The app listing showed a 2.8/5 rating from nine U.S. ratings, and the memo provides no cohort retention or friend-network density. A practical seed milestone is to track whether launch cohorts still save places and use shared maps with friends at day 90. The live iPhone app and the founder’s map engineering experience make that test plausible with the existing product. Runway and the cost of any fixes needed to sustain usage are unknown. (Market & Traction, The Idea, Defensibility, Founders & Team)
 
-A 90-day launch-cohort test of repeat friend-group sharing and agent-assisted map edits is a plausible next milestone for the live iPhone app. The founder’s map-building experience supports execution, while the memo leaves runway and the capital needed to reach buyer-relevant scale unverified. A sale would also depend on the rights to carry forward user data and third-party services. The memo identifies those dependencies but leaves transfer rights and holder participation unverified. (The Idea, Market & Traction, Founders & Team, Key Risks)
+**Proceeds bridge.** With actual terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3% ownership. For both sale scenarios, assume $5 million in combined debt and deal deductions, no further senior waterfall claims, and an eligible holder whose entire stake is cashed out at closing within eight years. The sale values are illustrative assumptions.
+
+| Scenario | Cash to the holder |
+|---|---:|
+| Modest sale at $40 million enterprise value | $35 million distributable equity × 3% = $1.05 million (2.1×) |
+| Strong sale at $100 million enterprise value | $95 million distributable equity × 3% = $2.85 million (5.7×) |
+| Prolonged private operation with cash reinvested and no eligible share purchase or payout | $0 realized within eight years |
+
+A stock acquisition is a plausible structure. Continuity of third-party map and place-data access after a change of control, permission for the buyer’s intended use of location histories, and holder participation terms remain unverified. The founder reported broad agent permissions at launch and said finer controls were planned. Anywhere is free to use, and the memo supplies no independent route that would pay this holder. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-A buyer could build the workflow itself. Google Maps already offers conversational discovery and custom map results, and standard agent connectors lower the cost of reproducing read/write integration. The App Store’s 2.8/5 rating across nine U.S. ratings is an early caution, and the signup report leaves repeat use untested. If friend groups fail to retain, Anywhere may offer little that a buyer needs to own at a price that clears the hurdle. The evidence supports Watch because it establishes neither a structural closing block nor a credible ceiling below the required proceeds. (Defensibility, Market & Traction, Key Risks)
+A platform could build or integrate the useful features for less than the cost of buying Anywhere. Google Maps already offers conversational discovery and custom map results, and standard agent connectors make read/write integration easier to replicate. If users rarely return to shared maps, a buyer could value Anywhere mainly for its team or features, making the modest sale more plausible. The memo establishes neither a supported ceiling on sale proceeds nor a structural closing block, so the Pass gate is untriggered. (Defensibility, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
@@ -21,12 +29,12 @@ A buyer could build the workflow itself. Google Maps already offers conversation
 |-----------|-------|
 | Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 10/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Would a social-map buyer pay enough for Anywhere’s retained friend network and agent-editing workflow to leave at least $83.3 million in distributable equity? A buyer’s price indication tied to 90-day cohort data showing repeat friend-group sharing and agent edits would move the action to Reach out if the implied proceeds clear the hurdle after deal adjustments. A supported price ceiling below the hurdle on the strongest route would move it to Pass.
+Would a social-platform buyer value Anywhere’s retained friend-map activity at roughly $88.3 million in enterprise value or more under the modeled deductions? Day-90 cohort data showing repeated shared-map use, paired with buyer feedback that supports that price against the cost of building the same capability, would move the action to Reach out. A supported price ceiling that leaves this holder materially below $2.5 million would trigger Pass.

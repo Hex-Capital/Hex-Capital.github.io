@@ -5,23 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic sale of Physical Validation to an enterprise R&D procurement platform. Halmos has launched software that connects AI research tools to external labs. A buyer could acquire it to capture experiment orders directly from those tools. Waud Capital’s acquisition of Science Exchange shows that an adjacent procurement asset can attract a buyer, and the undisclosed price leaves the value of that precedent open. Halmos has yet to show repeat paid orders or a measurable advantage over existing sourcing workflows. (The Idea, Market & Traction)
+A strategic acquisition of Physical Validation by an R&D procurement platform is the strongest path to holder liquidity. The memo records the product’s launch and Waud Capital’s acquisition of Science Exchange at an undisclosed price. A procurement platform could have a reason to buy Halmos if its software brings in recurring lab orders from AI research tools or measurably lowers the cost of sourcing experiments. Both benefits are still hypotheses. (*The Idea*, *Market & Traction*)
 
-The December 10 readout is the nearest execution checkpoint. Halmos reports that physical tests are underway. The memo also records $500,000 in initial funding and separate verification support of an undisclosed amount. A successful readout would support fulfillment feasibility. Repeat paid orders with measured turnaround, cost and reliability would test the acquisition rationale. The capital required to reach that milestone is unknown. (Market & Traction, Key Risks)
+The operating milestone is repeat paid orders with measured sourcing savings. The memo records $500,000 in initial YC funding and industry verification funding of an undisclosed amount. Halmos reports physical demonstrations underway, with results pending. These signals support an initial test. The time and capital needed to show repeat demand remain uncertain. A buyer would also need to verify which supplier relationships and research records can transfer and which consents are required. The separate ADoor product has published pricing, with no disclosed payout capacity or independent route to holder liquidity. (*Market & Traction*, *Key Risks*, *Key Facts*)
 
-**Proceeds bridge.** Using the benchmark $500,000 check at a $10 million post-money valuation, 5% starting ownership dilutes to 3% with no follow-ons. The eight-year 5× objective requires $2.5 million in gross cash, or about $83.3 million in distributable equity at 3%. The sale scenarios below assume the holder is eligible to sell the full stake, receives cash at closing within eight years, and participates pro rata with no senior claims. The memo leaves those terms and any required supplier or data consents unverified. (Defensibility, Key Risks)
+With holder terms undisclosed, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash objective within eight years. At 3%, that requires about $83.3 million in distributable equity.
 
-| Scenario | Assumed enterprise-to-equity bridge | Gross cash to holder |
-|---|---|---|
-| Modest sale | $40M enterprise value less $5M in net debt and deal adjustments leaves $35M in distributable equity | $1.05M (2.1×) |
-| Strong sale | $100M enterprise value less $10M in net debt and deal adjustments leaves $90M in distributable equity | $2.70M (5.4×), or $2.16M if the holder can sell only 80% of the stake |
-| Prolonged private | Continued operation and reinvestment with no distribution or eligible share sale within eight years | $0 |
+| Scenario | Assumed enterprise-to-equity bridge | Holder cash |
+|-----------|-----------------------------------|-------------|
+| Modest sale | $40M enterprise value less $5M in assumed net debt and deal deductions leaves $35M in distributable equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less the same $5M leaves $95M in distributable equity | $2.85M (5.7×) |
+| Prolonged private | The company reinvests available cash, with no distribution or eligible share purchase during the eight years | $0 realized |
 
-The sale values are illustrative assumptions. The memo provides no transaction price or buyer economics to anchor a Halmos valuation and no evidence of an independent route to holder liquidity. (The Idea, Market & Traction)
+Both sale cases assume an eligible holder sells the full stake by year eight and receives its pro rata share in cash at closing, with no further preference, escrow, or earn-out deductions. In the strong case, selling only half the stake at the same per-share price would yield about $1.43 million. The sale prices are illustrative. The memo leaves platform revenue, buyer economics, and adjacent transaction pricing unquantified, so realizable proceeds remain uncertain. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Science Exchange already has supplier relationships and an AI assistant, so a procurement incumbent may be able to build comparable sourcing features. Halmos’s reported 30% reduction in evaluations came from simulations for its earlier Halmos Bio product. Physical Validation still depends on external labs for fulfillment. These facts weaken the reason to buy and leave the strong sale scenario unsubstantiated. The memo establishes neither a structural closing block nor a supported ceiling on holder proceeds, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+Science Exchange already has supplier relationships and an AI assistant. An incumbent could build similar sourcing features and use its existing network for fulfillment. Halmos’s reported 30% reduction in evaluations came from simulations for its earlier Halmos Bio product, leaving Physical Validation’s advantage in live procurement unmeasured. That makes a premium acquisition uncertain. The memo establishes neither a structural closing barrier nor a credible price ceiling below the holder’s objective, so the Pass gate remains open pending evidence. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -29,12 +29,12 @@ Science Exchange already has supplier relationships and an AI assistant, so a pr
 |-----------|-------|
 | Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Would a procurement platform’s economics from repeat paid Physical Validation orders support a purchase price that leaves at least $83.3 million distributable to equity? Order-level fulfillment and margin data, paired with a prospective buyer’s estimate of incremental profit or avoided build cost, would answer it. A credible bridge to that hurdle would move the action to Reach out.
+What acquisition price could an R&D procurement platform justify after a paid pilot demonstrates repeat orders and measurable sourcing savings against its current workflow? Buyer-backed economics that support a price range clearing $83.3 million in distributable equity after deal deductions would move the action to Reach out. Pilot results without a credible price bridge would keep it at Watch.

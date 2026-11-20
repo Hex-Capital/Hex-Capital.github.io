@@ -5,30 +5,28 @@
 
 ### Company case
 
-Perit’s strongest path is to turn custom voice-agent evaluations into repeatable, multilingual data programs, using non-exclusive catalog licenses where the same dataset meets multiple labs’ needs. Frontier labs can rerun interruption, accent, and noise tests as their models change. Perit reports delivering more than 6,000 speech hours across nine locales within four months. Its shared annotation and QA workflow, consent records, and existing locale coverage support serving the same evaluation job across markets. New accents and consent requirements can still require fresh collection. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Assuming strong product-market fit with frontier labs, Perit’s most portable offering is live voice evaluation. Labs in different markets can use the same delivery package of recordings, QA reports, consent references, and reviewer histories. Perit reports delivering more than 6,000 speech hours across nine locales, which supports its ability to supply multilingual data. New locales still require recruiting and consent checks. The same labs could buy fresh test data as their models change, and per-hour quotes let them spend more as test coverage expands. Repeat paid orders and account expansion remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The memo documents 29 catalog listings and an open dataset with 703 downloads in one month, giving labs a way to discover and sample the product. The documented buying flow relies on catalog requests or scoped quotes and pilots. Repeat model releases give labs a reason to reorder, and per-hour pricing gives them a way to spend more as test coverage grows. Both are plausible mechanisms. The frequency and value of paid reorders remain unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
+The memo documents a catalog of 29 datasets. Average delivery costs could fall if Perit can license a non-exclusive dataset to multiple labs. For custom work, contribution per audio hour or video episode starts with the quoted price and subtracts contributor pay, review, consent handling, and attributable scoping and support. A repeat license could avoid new capture and some review costs where rights permit. The memo gives no prices or costs for a representative delivery, so the size of that advantage remains uncertain. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The memo gives two unreconciled revenue figures over 4.5 months, $11M+ company-reported and $9M+ described as non-annualized. Either figure indicates rapid early commercialization alongside six reported lab customers and substantial delivered volume. The reported 47-person team and contributor network put that pace in context. Revenue concentration and the share attributable to repeat work remain unclear. (*Key Facts*, *Market & Traction*, *Key Risks*)
-
-The cost bridge starts with revenue per delivered audio hour or license, less attributable scoping, contributor pay, consent handling, QA, and delivery. If existing consent and license terms permit the same corpus to serve several labs, later licenses could spread the original collection and QA costs across more sales. Fresh collection and buyer-specific review could materially reduce that benefit. The memo establishes the reuse mechanism, with contribution per order and the share of orders eligible for reuse still uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
+The reported time to revenue is the strongest commercial signal. The memo gives two unreconciled figures for 4.5 months, $9M+ in non-annualized revenue and $11M+ in company-reported revenue. It also records six CEO-reported lab customers and a team size of 47. The lower figure still suggests rapid commercialization if it reflects realized revenue. The memo leaves the revenue split by customer and program unclear. (Key Facts, Market & Traction)
 
 ### Countercase
 
-Labs may buy on the strength of Perit’s ability to collect fresh, failure-specific data. If most orders require new practitioners, recordings, and buyer-specific calibration, paid volume could grow while scoping and delivery labor grow with it. A few large programs could also explain much of the early revenue. The structural downside gate stays open because the existing catalog and default non-exclusive license give Perit a credible way to reuse data where customer requirements overlap. (*The Idea*, *Defensibility*, *Key Risks*)
+Growth could remain tied to bespoke lab programs. The documented buying path runs through a scoped quote and pilot or a catalog request. Perit can reuse its annotation and QA workflow, but the memo shows no independent path to purchase and first use. Expert collection and review can also grow with each custom order, and a few large contracts could account for much of the reported revenue. The structural downside gate stays open because reusable catalog licenses offer a concrete alternative and the memo does not establish that required labor makes faster growth economically infeasible. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 19/25 |
+| Global buyer demand | 18/25 |
 | Repeatable acquisition and onboarding | 7/25 |
 | Retention economics | 11/20 |
 | Initial traction | 17/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 59/100** (Neutral)
+**Total Score: 58/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Perit grow paid speech-evaluation revenue from the same lab cohort while reducing the scoping and delivery cost per order? Comparable periods showing that expansion offset churn and contraction, backed by order-level evidence that reuse improved contribution after scoping, contributor pay, and QA, would move the action to Reach out.
+Can a cohort of independent labs license and use the same catalog voice dataset with minimal staff help, then pay for refreshed coverage at healthy incremental contribution? Paid first and repeat orders, backed by per-order selling, setup, QA, and support costs, would move the action to Reach out. Evidence that unavoidable custom work makes growth uneconomic even for catalog orders would move it to Pass.

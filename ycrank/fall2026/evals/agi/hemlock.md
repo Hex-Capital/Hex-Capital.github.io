@@ -1,32 +1,33 @@
 ﻿# Hemlock -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Hemlock’s strongest path is a scarce complement to robotics AI: force and contact labels for manipulation tasks where first-person video misses the relevant signal. Hemlock reports that adding force data to the same nine minutes of demonstrations raised egg pick-and-place success from 10% to 100%. It also reports that Bracelet data raised lightbulb-screwing success from 30% to 80% with just under six minutes of demonstrations. These comparisons support the value of the signal on two specific tasks. Whether the gains transfer to production tasks or require Hemlock’s capture method remains open. (The Idea; Market & Traction; Key Risks)
+Hemlock has a plausible building-blocks path in force-sensitive robot manipulation. First-person video omits grip force and contact timing. Hemlock’s Bracelet estimates both from wrist EMG and synchronizes the labels with video. The memo describes public samples with contact, hand-pose, and depth overlays, and cites research supporting force-aware policy training. Hemlock reports that adding force data raised egg pick-and-place success from 10% to 100% and lightbulb-screwing success from 30% to 80%. If more robot programs train for these tasks and the gains generalize across workers and robot hands, demand for usable force labels could grow. The memo leaves supply scarcity and production transfer unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Hemlock controls its proprietary Bracelet design. Its synchronized video samples show that the solo founder integrated wearable sensing with a working annotation pipeline, building on prior work in wearable sensing and robot data. That supports seed-stage execution. Durable capture would require a collection advantage or control over valuable data that competitors would struggle to reproduce. The memo records an offer to share samples, with no independent buyer commitment or payment. (Defensibility; Founders & Team; The Idea; Key Facts)
+The industry-enabled path scores zero. The demonstrations measure task success and leave open whether AI makes a previously unaffordable use viable or whether the buyer would need a distinct service under model parity. (The Idea, Market & Traction)
 
-The relevant expansion unit is a usable hour of force-labeled demonstrations. If Hemlock needs worker-specific calibration, as the published wrist-EMG alternative does, realized price per usable hour would need to cover worker time, calibration, amortized hardware, and quality checks, including time spent on rejected recordings. The memo gives no Hemlock throughput, cost, or pricing figures to test that scenario. (Defensibility; Key Risks; Key Facts)
+The proprietary capture stack supports limited value capture, with dataset exclusivity and collection scale unverified. The prototype and the founder’s prior wearable sensing and robot-data work support seed-stage execution credit. Customer demand and scale economics stay at their defaults because the memo documents a sample offer and leaves buyer commitments, revenue, and the cost of producing qualified labels unverified. (The Idea, Defensibility, Founders & Team, Key Facts)
 
 ### Countercase
 
-A robotics lab could build on ForceBand’s published wrist-EMG design or buy data collected with a direct tactile rig. Hemlock’s reported gains establish a comparison with video alone. A buyer could get the same production improvement from another force-data source at equal or lower cost, and the memo establishes no exclusive collection access that would protect Hemlock in that case. The available alternatives make substitution a credible risk. Buyer-side parity remains untested, so the path stays open on Watch. (Defensibility; Market & Traction; Key Risks)
+Force labels may improve some policies while remaining easy to source. Labs can build from the published ForceBand design or use direct tactile rigs. Worker-specific calibration could also erode the Bracelet’s collection advantage. The memo leaves open whether those substitutes match Hemlock on production tasks at comparable cost. That gap warrants Watch pending a buyer comparison. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 17/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 18/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 37/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robotics buyer pay for Hemlock’s data after a head-to-head test against its best practical alternative on a production task? Move to Reach out if a paid pilot meets a pre-agreed robot success threshold at a lower all-in cost than the alternative. Move to Pass if the alternative matches task performance at equal or lower cost and the buyer sees no reason to pay Hemlock. (Market & Traction; Defensibility; Key Risks)
+Can Hemlock’s labels meet a robotics buyer’s production reliability target across multiple workers at a collection cost or lead time the buyer’s best available substitute cannot match? A paid, buyer-run comparison that establishes this advantage would move the action to Reach out. Equivalent results from a readily available substitute at comparable cost and lead time would move it to Pass.

@@ -1,30 +1,34 @@
 ﻿# Oasive -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest Hypergrowth path is a standalone Macro & Rates subscription for fixed-income desks. The published offer includes a self-serve 14-day trial and pricing of $200 per user per month. Assuming strong product-market fit, analysts could use the same product for recurring rates research across markets, and a desk could expand its bill by adding paid seats. The scope of the product’s market data and the changes needed to support desks in different markets remain unclear. The trial provides a concrete entry point, while the memo leaves checkout and the steps to first value unverified. Seat expansion and renewal are inferred from the pricing and workflow. (The Idea)
+Even assuming strong product-market fit with U.S. municipal credit analysts, Oasive’s current coverage is built around U.S. issuer financials, debt terms, local news, and public meeting recordings. The borrower pages, watchlists, and sourced answers could carry over to another market. Serving analysts who cover local issuers abroad would likely require substantial work to normalize financial disclosures and debt terms and establish reliable meeting coverage. That dependency triggers the structural downside gate. (The Idea, Key Risks)
 
-Oasive reported 15 institutional desks using its original Macro & Rates and Agency MBS offering at the September launch. That figure combines both products and gives no standalone paid count or commercial growth rate, so initial traction uses the absent-evidence default. The incremental cost case starts with $200 per month for each added paid seat, less attributable data, infrastructure, trial, acquisition, and support costs. Self-service could reduce staff time per account. The memo provides no usable cost inputs for this product, so cost economics also uses the absent-evidence default. (The Idea, Market & Traction, Key Risks)
+Product walkthroughs and website access requests give analysts a repeatable discovery path. Demos, custom team pricing, and custom onboarding keep purchase and setup human-led. Portfolio watchlists and ongoing issuer monitoring give analysts a reason to return, while municipal billing terms and ways for existing accounts to spend more remain unclear. (The Idea)
+
+The founder reported a November 4 municipal launch. The memo gives no usable evidence of paid municipal adoption or realized revenue, so initial traction takes the default. The reported 15 institutional desks used the earlier Macro & Rates and Agency MBS offering. (Market & Traction)
+
+For the next municipal desk, incremental contract revenue would need to cover attributable sales, onboarding, support, and any added data licensing and processing costs. Oasive could improve contribution by reusing processed borrower records and meeting summaries across desks that cover the same issuers. Contract values and incremental costs are unknown, leaving contribution uncertain. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-The strongest countercase is that the reported desk usage may depend on the combined offering and its enterprise sales motion. Oasive’s newer municipal product has a more clearly documented workflow and founder-reported coverage of more than 8,600 school districts across 43 states, but it uses custom team onboarding. Its reliance on issuer filings, local news, and available public meeting recordings implies substantial work to rebuild coverage for other municipal markets. The structural downside gate applies to that muni-led expansion path. The standalone Macro & Rates path clears the gate on current evidence, with paid adoption and portability still unresolved. (The Idea, Market & Traction, Key Risks)
+The founder reported coverage of more than 8,600 school districts across 43 states by November 15. That breadth supports the possibility that Oasive can standardize a fragmented source base and reuse it across many desks, including desks abroad that invest in U.S. municipals. The gate still applies because the evidence leaves open how much of that system can ingest another market’s issuer records and meeting feeds with bounded changes. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 16/25 |
-| Retention economics | 15/20 |
+| Global buyer demand | 7/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
-| Cost economics | 4/10 |
+| Cost economics | 5/10 |
 
-**Total Score: 54/100** (Neutral)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can the same Macro & Rates product take fixed-income desks in several markets from a standard trial to recurring paid use without custom data work or staff-led onboarding? Dated account records showing independent trial activation, payment, and renewal for the same research workflow across markets would justify Reach out if they raise the score to at least 65 and confidence to Medium.
+Can a paying desk use Oasive for recurring credit monitoring of local issuers in a second country with bounded adaptation? A production deployment that reuses the existing ingestion and research workflows with limited, documented changes would clear the portability gate and move the action to Watch.

@@ -5,28 +5,28 @@
 
 ### Company case
 
-Isoquant’s strongest path is its self-serve inference API for teams running latency-sensitive open models in production. The memo documents an OpenAI-compatible endpoint, self-serve API keys, a base-URL swap for existing integrations, and prepaid per-token billing. The same integration can serve the same recurring job across markets. Isoquant reports workload migrations in North America, Europe, and Asia-Pacific. Route-specific zero-retention eligibility limits access for some privacy-sensitive workloads. YC launch exposure gives developers a discovery channel, while the documented setup gives them a way to start independently. (*The Idea*, *Market & Traction*, *Key Risks*)
+Assuming strong product-market fit with developers serving latency-sensitive open models, Isoquant can serve the same recurring inference workload across markets through its OpenAI-compatible API. The company reports migrations across North America, Europe, and Asia-Pacific. Some buyers may be constrained by zero-retention requirements, since qualifying requests can be rejected on routes that cannot honor them. The documented self-serve path lets developers create an API key, change a base URL, and pay per token with prepaid credits. Workload-specific tuning has a separate consultation path. The memo establishes a plausible bottom-up motion through developer launch channels, with little evidence yet of a recurring acquisition loop. (The Idea, Key Facts, Key Risks, Market & Traction)
 
-If customers adopt the endpoint for production traffic, they can spend more as request volume or output grows. That creates a plausible path for expansion to offset churn, with the durability of that expansion still uncertain. The two-person team reported serving 1.2T tokens in the first month after its September launch and 1.5T+ tokens and 1,000+ customers by November. Those figures show rapid reported usage adoption. The memo leaves the paid share and billed growth unknown, so initial commercial traction receives the absent-evidence default. (*The Idea*, *Market & Traction*, *Founders & Team*)
+Production inference creates recurring demand, and retained accounts can spend more as their token volume grows. That gives expansion a plausible way to offset churn, though the memo provides no cohort evidence. The two-person team reports serving 1.2 trillion tokens in the first month after its September launch. That shows rapid uptake if the reported figure is accurate. The paid share of volume, the number of paying customers, and the basis of the reported weekly growth are unspecified, so commercial traction receives the rubric default. (The Idea, Key Facts, Market & Traction)
 
-At list price, an illustrative GLM‑5.3‑Flash workload with one million uncached input tokens and one million output tokens generates $0.22. Positive incremental contribution requires the attributable GPU capacity, serving infrastructure, onboarding, and support to cost less than that amount. Isoquant’s reported throughput advantage suggests that tuning could reduce GPU time per unit served. The margin impact remains uncertain because the benchmark covers one model and production utilization is unknown. (*The Idea*, *Defensibility*, *Key Risks*)
+In an illustrative workload with one million uncached input tokens and one million output tokens on GLM‑5.3‑Flash, posted rates yield $0.22 before incremental GPU capacity, infrastructure, and attributable acquisition, onboarding, tuning, and support costs. Isoquant’s reported benchmark of 158.9 median output tokens per second makes lower GPU cost per token plausible if the throughput carries over at production utilization. The memo leaves contribution at that price uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The same compatibility that makes Isoquant easy to adopt also makes it easy to leave when another provider offers better pricing or latency. Isoquant’s performance gains vary by workload and hardware, and Together AI already offers agent-tuned dedicated inference. If keeping production traffic requires customer-specific tuning or spare GPU capacity, support and infrastructure costs could absorb the gains from higher usage. The structural gate clears because the standard endpoint has a documented self-serve path, and the evidence leaves those cost and labor dependencies uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
+The same API compatibility that makes adoption easy also makes it easy to leave. Together AI already offers agent-driven tuning for dedicated inference, and Isoquant’s reported performance varies by workload and hardware. If the shared API loses its edge and buyers need dedicated capacity or hands-on tuning to get the advertised gains, switching could erode retention while delivery costs rise. The structural gate stays open because the memo documents a standard self-serve path and does not establish that dedicated capacity or manual tuning is required for ordinary buyers. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 22/25 |
-| Repeatable acquisition and onboarding | 20/25 |
+| Repeatable acquisition and onboarding | 21/25 |
 | Retention economics | 16/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 6/10 |
 
-**Total Score: 70/100** (Invest)
+**Total Score: 72/100** (Invest)
 
 ### Decisive diligence question
 
-Does a recent cohort of self-serve production customers generate positive contribution on repeat billed usage at observed GPU utilization? Match the cohort’s usage charges across consecutive billing periods to its attributable GPU, serving, onboarding, and support costs. Repeat paid usage with positive contribution would sustain Reach out. Move to Watch if repeat paid usage remains unverified or contribution depends on utilization the company has yet to achieve.
+Do representative paying customers on the shared API generate positive incremental contribution at posted rates across normal traffic and utilization levels? Match billed usage to GPU and idle capacity costs, plus attributable acquisition, onboarding, tuning, and support. Positive contribution across those workloads would support advancing diligence. If profitability appears only on selected workloads or under unusually high utilization, move to Watch.

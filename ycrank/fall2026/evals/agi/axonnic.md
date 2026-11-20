@@ -5,28 +5,29 @@
 
 ### Company case
 
-Axonnic’s strongest AGI path is a **scarce complement** for robot training. In force-sensitive sewing, cameras can lose sight of fingers and miss the muscle effort workers use to manage grip and fabric tension. Axonnic’s sleeve captures forearm muscle activity and synchronizes it with video and hand pose. The live Proception hand demo shows that the signal can drive a robot hand. The investment inference is that robot developers will pay for these recordings if they reliably improve policy performance on factory tasks. That production benefit remains unmeasured in the memo. (The Idea; Market & Traction)
+Axonnic has an early building-blocks path in training dexterous robot policies for force-sensitive factory tasks. The input is synchronized demonstrations that capture grip and tension when cameras lose sight of fingers or cannot measure force. Axonnic’s 64-channel forearm sleeve estimates finger angles and fingertip force and aligns those estimates with video and hand pose. Axonnic reports that factory interference forced repeat collections, which helps explain why usable demonstrations can be hard to produce. Demand for those demonstrations could grow as robots take on more tasks, assuming policies need fresh examples across tasks or sites. The memo establishes collection friction, with durable scarcity and the performance of competing capture methods still open. (*The Idea*, *Key Risks*, *Market & Traction*)
 
-Axonnic reports paid design-partner pilots and sleeve shipments. The memo records a signed sewing LOI with an unnamed Italian manufacturer, with robotic implementation still ahead. These are early demand signals, with repeat orders and paid production deployments still unestablished. The founders bring relevant EMG, hardware, and robot-control experience, and the team developed wired electronics in response to factory recording interference. Field reliability after that change remains open. (Market & Traction; Founders & Team; Key Risks)
+The industry-enabled path is force-sensitive sewing. The scenario assumes a sewing operation still relies on skilled manual handling because existing automation cannot maintain grip and fabric tension at acceptable quality. If an Axonnic-trained policy can reproduce those adjustments using the robot’s own sensors, the factory could reduce manual handling per accepted piece. The reported sewing LOI identifies a concrete use. The live Proception hand demonstration shows that EMG can control a robotic hand, while successful autonomous sewing and its economics remain unverified. Even with comparable models, a factory would still need task-specific capture, robot integration, and line qualification. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The expansion unit is a factory task brought into production. The $8,000–$12,000 Gen 2 list price is a hardware revenue input. Deployment economics also depend on hardware utilization and the labor required for capture, calibration, repeat recordings, robot retargeting, and support. The memo leaves those costs and repeat deployment contribution unquantified. A New Economies path remains unproven because the memo gives no baseline labor cost, savings per successful outcome, or previously excluded use made viable by those savings. (The Idea; Key Risks; Key Facts)
+Axonnic’s company-reported hand-pose benchmark and factory-specific policy work support some technical differentiation. Reuse rights are negotiated per engagement, leaving a compounding data advantage uncertain. Reported paid pilots and sleeve shipments support early demand. The founders’ EMG hardware and robot-control experience, together with the hand demonstration, support execution at prototype stage. Published Gen 2 prices provide a revenue reference, while hardware, calibration, and support costs remain unknown. (*Defensibility*, *Market & Traction*, *Founders & Team*, *The Idea*)
 
 ### Countercase
 
-The strongest countercase is that force-aware capture matters, but buyers can obtain comparable training data from competing kits. OYMotion already sells an EMG capture kit and offers early access to force estimation, while Preload combines EMG with tactile gloves and video. Axonnic reports lower hand-pose error than Meta’s baseline across 20 held-out participants. That benchmark leaves comparative factory performance open, and Axonnic negotiates recording reuse rights by engagement. The memo establishes credible alternatives but gives no evidence of equivalent factory outcomes or easy switching. The scarcity and control gates remain open, supporting Watch. (Defensibility; Market & Traction; Key Risks)
+Alternative EMG kits, tactile gloves, or other capture methods could produce adequate training data at lower cost. Axonnic’s benchmark measures hand-pose error, and electrode shifts and repeat recordings could erode any savings once the system is used on a factory line. The sewing LOI leaves the robotic implementation ahead. Together, these gaps trigger **Watch**. The proposed mechanisms have seed-stage support, and a production trial can test whether either creates a meaningful advantage. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 15/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 11/50 |
+| Industry enabled by superintelligence | 10/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 46/150** (Neutral)
 
 ### Decisive diligence question
 
-In a paid sewing pilot, can Axonnic beat the buyer’s best available capture alternative on cost per quality-approved sewing cycle across multiple shifts, on the same robot and with comparable training budgets, by enough to earn a paid follow-on deployment? Count recalibration, repeat capture, and retargeting in that comparison. A repeatable advantage and a paid follow-on would move the action to Reach out. Demonstrated interchangeability at comparable cost would close the scarce-complement path and move the action to Pass on the current evidence. (The Idea; Market & Traction; Key Risks)
+Can the sewing partner demonstrate that an Axonnic-trained policy meets its production quality and throughput targets at a lower fully loaded cost per accepted piece than both the current manual process and the best available alternative capture method? A buyer-validated line trial that includes calibration, rerecording, integration, operator intervention, and rework would move the action to **Reach out** if it clears both comparisons. (*Market & Traction*, *Key Risks*)

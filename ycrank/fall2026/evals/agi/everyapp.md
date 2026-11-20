@@ -5,28 +5,29 @@
 
 ### Company case
 
-EveryApp’s strongest path is **New Economies**, with OpenSEO as the first test. Small teams that previously found agency fees or staff time prohibitive could run an ongoing SEO workflow if agents reduce the labor needed to build, deploy, and operate it. EveryApp has shipped an agent-assisted installation flow and a Gateway that shares sign-in and API credentials across apps. In an OpenSEO case study, Importivity reported roughly sevenfold growth in organic clicks over six months using a workflow built on an OpenSEO fork. That report supports practical use. The former delivery cost, labor hours saved, and cost per successful outcome at comparable quality remain unmeasured. A newly served buyer segment is still a hypothesis. (The Idea, Market & Traction)
+EveryApp has a narrow case for an industry enabled by superintelligence. Small teams that cannot justify per-seat SaaS costs or the engineering time to deploy custom software could use agents to build and install a shared workflow app. The Gateway handles sign-in, credential brokering, and access to app actions. Under model parity, a team would still need a running app with shared access. The seed-stage assumption is that agent-assisted setup and reusable infrastructure bring the fully loaded cost below what those teams can afford. The memo documents the setup barriers and the released product, while leaving that affordability threshold and adoption by previously excluded teams unverified. (The Idea, Market & Traction, Key Risks)
 
-Senescu reports hundreds of paying customers for standalone OpenSEO. That is a willingness-to-pay signal for the SEO product. EveryApp’s platform traction is reported in stars and launch views, leaving paid conversion and repeat use open. Senescu’s prior work on compliance agents and the progression from Gateway to standalone OpenSEO to an installable-app platform demonstrate relevant execution. Running managed deployments repeatedly is the next operating test. (Market & Traction, Founders & Team)
+The building-blocks path scores zero. EveryApp uses Cloudflare infrastructure and connects apps to agents, but the memo identifies no scarce input that limits a specific AI workload. Cloudflare’s own agent deployment tooling also gives teams another route to deploy. (The Idea, Defensibility, Market & Traction)
 
-The expansion unit would be one managed team account. The announced starting price is $10 per month, and self-hosters pay Cloudflare and connected providers directly. At the announced price, managed contribution would depend on infrastructure and any absorbed usage costs, plus the human time spent on onboarding, support, and exceptions. The memo gives no measured costs for that scenario. (The Idea, Key Facts, Key Risks)
+The strongest commercial signal comes from standalone OpenSEO. The founder reported hundreds of paying customers, and Importivity reported roughly sevenfold organic click growth over six months after building a workflow on an OpenSEO fork. Those signals support demand for the SEO product. EveryApp’s 906 GitHub stars show platform interest, while paid platform demand remains unverified. The team shipped the Gateway, OpenSEO, and the installable-app relaunch, with dependable managed delivery still untested. The announced $10 monthly starting price comes without a cost bridge for supporting the next managed customer. (Market & Traction, Founders & Team, The Idea, Key Facts)
 
 ### Countercase
 
-The strongest countercase is that agents make an existing software purchase cheaper while also making EveryApp easier to bypass. Competing hosts can reuse the MIT-licensed Gateway, Cloudflare offers deployment infrastructure for coding agents, and OpenSEO can be deployed independently. Importivity’s reported use of a fork makes that bypass concrete. Shared sign-in and team access give buyers a reason to consider the Gateway, but paid preference under functional parity remains untested, as does any benefit existing users gain from additional catalog participants. The memo leaves both market opening and durable value capture unproven. It shows a credible substitution route, with comparable outcomes and buyer switching still untested, so the path stays open at Watch. The memo provides no independent scarce-complement case. (The Idea, Defensibility, Market & Traction, Key Risks)
+EveryApp may make existing self-hosting workflows more convenient without opening a new use. Teams can deploy OpenSEO independently, competing hosts can reuse the MIT-licensed Gateway, and Cloudflare already provides agent deployment tooling. These are concrete limits on EveryApp’s ability to retain value. Importivity’s experience on a fork also leaves open how much the Gateway contributes to the outcome. If teams using comparable AI can achieve the same workflow at a similar fully loaded cost, the enabled-industry path falls to zero and the decision becomes Pass. Watch reflects the specific affordability gap a seed-stage customer test could resolve. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 5/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 7/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 24/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent small teams that previously went without ongoing SEO because of cost renew a paid EveryApp managed plan when they can get comparable SEO functionality elsewhere? A cohort that documents the former cost barrier, achieves an agreed SEO outcome at a materially lower all-in cost, and renews after trying a functionally comparable alternative would move the action to Reach out. If comparable alternatives deliver the same outcome and those teams readily switch, the action moves to Pass.
+Can small teams that previously went without a specific shared workflow app because of cost deploy it through EveryApp and keep paying to use it? A paid pilot that measures setup time, hosting, maintenance, and support against deployment with comparable AI and Cloudflare tooling would answer it. Sustained use at a fully loaded cost below the teams’ prior affordability threshold, with a measurable advantage from EveryApp’s shared deployment layer, would move the action to Reach out.

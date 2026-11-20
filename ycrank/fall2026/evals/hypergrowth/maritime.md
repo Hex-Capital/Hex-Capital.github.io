@@ -5,28 +5,28 @@
 
 ### Company case
 
-Maritime’s strongest path is self-serve hosting for software teams that run a persistent AI agent for each customer. Conditional on strong product-market fit, the same isolated VM, state restoration, and message-triggered wakeup workflow could serve developers across markets with modest adaptation. The memo identifies a self-serve route, a seven-day trial, and published monthly pricing. Keiki documents running its background agent harness on Maritime’s microVMs. The evidence leaves open whether typical developers complete paid production setup independently. (The Idea, Market & Traction)
+Conditional on strong product-market fit, Maritime can plausibly serve AI-agent startups across markets with the same workflow. Each customer’s agent gets an isolated VM that preserves state between tasks and wakes when work arrives. Keiki documents using Maritime’s microVMs for its background agent harness. The documented workflow suggests little geographic adaptation for the core buyer, although hosting eligibility across markets remains unverified. (The Idea, Market & Traction, Key Risks)
 
-Persistent state gives teams a reason to keep using Maritime. Monthly plans convert to usage credits, so retained accounts can spend more as their fleets grow enough to require a higher plan. That gives expansion a plausible way to offset churn. The memo leaves paid renewals and realized expansion unverified. Maritime reported 1,107 agents in a September snapshot before its October YC launch. That snapshot and Keiki’s integration establish early use, while paid production and the commercial growth rate remain unknown. Initial traction therefore uses the absent-evidence default. (The Idea, Defensibility, Market & Traction, Key Facts)
+Maritime describes self-serve onboarding and publishes a seven-day trial and monthly plans. Product Hunt offers a concrete discovery channel. The memo leaves checkout and the steps an ordinary buyer takes to get a production agent running unverified. Persistent agent state supports repeat use. As retained customers add agents, their monthly spend can rise when fleet usage pushes them into higher credit commitments. That gives expansion room to offset churn, though realized retention and expansion remain unknown. (The Idea, Defensibility, Market & Traction)
 
-An additional 2 GB agent box consumes $1 in monthly credits at the listed rate. If a customer has unused credits, the next box adds storage and serving costs while cash revenue stays flat. If sustained fleet growth prompts a plan upgrade, contribution depends on the added subscription revenue covering state storage, wake and runtime compute, capacity, and any attributable credits, migration, or support. Maritime’s documented scheduler reduces compute residency during idle periods, giving intermittently active fleets a credible cost advantage. The margin at representative workloads remains uncertain. (The Idea, Defensibility, Key Risks)
+The three-person team reported 1,107 agents in September, and Keiki supplies a named deployment. Payment status, realized revenue, and paid growth remain unknown, so commercial traction receives the default. (Key Facts, Market & Traction)
 
 ### Countercase
 
-Customers with the fastest-growing fleets could also run agents more continuously. Under flat box pricing, higher awake time raises compute costs, and simultaneous wakeups can require more capacity. The reported 29 awake agents came from a single snapshot, leaving typical utilization unresolved. Overlapping persistent-runtime features from Fly.io and Google Cloud could also limit pricing flexibility. The structural downside gate clears because the memo supports an idle-compute savings mechanism and leaves open a viable path for intermittently active fleets. (Defensibility, Market & Traction, Key Risks)
+A fleet can spend more time awake while generating the same agent-box revenue. At the published $1 per 2 GB per month, an additional box contributes that amount in revenue only if its usage translates into additional paid spend. Storage, awake compute, attributable onboarding and support, and any capacity step-up reduce contribution. Maritime’s documented scheduler reduces compute residency while agents are idle. The reported 29 awake agents is a single snapshot, leaving sustained utilization and peak capacity costs unresolved. The structural gate clears on current evidence because the scheduler provides a concrete cost lever and the memo leaves its effectiveness at higher utilization open. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 21/25 |
+| Global buyer demand | 20/25 |
 | Repeatable acquisition and onboarding | 17/25 |
 | Retention economics | 16/20 |
 | Initial traction | 7/20 |
 | Cost economics | 6/10 |
 
-**Total Score: 67/100** (Invest)
+**Total Score: 66/100** (Invest)
 
 ### Decisive diligence question
 
-Do expanding self-serve production fleets generate positive incremental contribution at their actual awake times? Match invoices for a representative cohort of paying accounts to the added storage, compute, capacity, and support costs as their fleets grow. Positive contribution as accounts expand would support continued diligence. Recurring losses at representative workloads, with no credible pricing or scheduling fix, would change the action to Pass.
+Does incremental contribution stay positive as representative paying fleets add agents and run more of them concurrently? Match paid invoices after credits to awake compute, storage, onboarding, support, and added capacity for the same fleets. Positive contribution through realistic peaks would sustain Reach out. Losses at ordinary production utilization with no credible cost or pricing fix would change the action to Pass.

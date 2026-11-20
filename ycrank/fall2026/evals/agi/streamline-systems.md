@@ -1,32 +1,33 @@
 ﻿# Streamline Systems -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-**Scarce complements** is the strongest path. GPS loss can interrupt autonomous flight, and some aircraft fall back to manual piloting. Streamline reports that its retrofit module demonstrated autonomous flight without satellite positioning and is compatible with existing drone platforms. If wider adoption of AI-enabled autonomy increases demand for navigation without GPS, a module that meets OEM requirements where competing products fall short could become a bottleneck supplier. The memo leaves that demand link untested. Platform qualification could create switching costs if an OEM must requalify a replacement. That advantage remains an inference. (The Idea, Defensibility, Key Risks)
+Streamline addresses a concrete navigation problem. When GPS is unavailable, some drones fall back to manual piloting. The memo documents a defense procurement program and reports interest from manufacturers competing in it. That supports demand for navigation hardware in that program. It does not establish an AI workload constrained by navigation supply or show that demand from AI deployment will outstrip available alternatives. Building blocks of superintelligence scores zero. (The Idea, Market & Traction)
 
-Streamline reports more than $80,000 in contracted module revenue and deposits reserving more than $87,000 worth of modules. The two figures may overlap. Deposit size, shipments, and repeat orders remain undisclosed. The founders’ aerospace, software, and hands-on aircraft experience supports their ability to deliver a prototype at seed stage. Independent flight validation and production delivery remain open. (Market & Traction, Founders & Team, Key Risks)
+Streamline reports that its retrofit module demonstrated autonomous flight without satellite positioning. The memo gives no evidence that AI drove the result, reduced operator labor per successful flight, or made a previously unaffordable use viable. Industry enabled by superintelligence scores zero. With both AGI paths at zero, the rubric calls for Pass. (The Idea, Key Risks)
 
-The expansion unit is one module sold to a drone manufacturer. Repeat-unit contribution would depend on the realized selling price and the cost of hardware, assembly, testing, integration, and support. The memo supplies no unit price or cost data for that calculation. (The Idea, Key Risks)
+Retrofit compatibility suggests integration know-how. Qualification could create switching costs, but the memo documents no completed qualification and identifies established navigation suppliers. Streamline reports more than $80,000 in contracted module revenue and deposits reserving more than $87,000 worth of modules. The deposit amount and overlap are unknown, so those figures cannot be added. The reported flight demonstration and the founders’ relevant software and aircraft experience support seed-stage execution credit. Evidence confidence is low because independent flight-test results, shipments, and cash collection remain unverified. The memo gives no unit price or delivery cost to assess the economics of supplying the next module. (Defensibility, Market & Traction, Founders & Team, Key Risks, The Idea)
 
 ### Countercase
 
-The disclosed commitments come from manufacturers competing in one Pentagon program, so demand may depend on procurement awards and timing. Established navigation suppliers already sell hardware, and the memo identifies no structural barrier. If those suppliers can meet the same OEM requirements with little switching effort, the scarce-complement path closes. Their interchangeability remains untested, which supports Watch. Manual piloting establishes a fallback, with no measured labor cost per successful flight, newly viable buyer or use, or evidence of buyer preference under model parity to support a separate New Economies case. (The Idea, Defensibility, Market & Traction, Key Risks)
+If AI is responsible for removing enough manual supervision, the retrofit could make recurring GPS-denied flights economical for a manufacturer that previously could not afford them. Buyers would still need a module integrated and qualified on their aircraft even if comparable models were widely available. The manual fallback, reported demonstration, and deposits make that scenario worth testing. None establishes that AI changed cost per successful flight enough to open a previously excluded use, so the scenario does not clear the decision gate. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 12/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 22/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent drone OEM place a paid production order after qualifying Streamline against available alternatives for an AI-enabled autonomy program? An OEM qualification record showing that alternatives fell short on a requirement that drove the purchase, together with a paid production order, would move the action to Reach out. A finding that comparable modules qualify and can be substituted with little effort would move it to Pass.
+Can a paid customer deployment show that AI in the retrofit brings the fully loaded cost per successful flight below the buyer’s threshold for a recurring use that manual piloting and available navigation alternatives could not serve economically? A buyer-confirmed comparison that includes operator time, integration costs, and failed flights, together with evidence that the buyer uses the integrated module for that purpose, would change the action to Reach out.

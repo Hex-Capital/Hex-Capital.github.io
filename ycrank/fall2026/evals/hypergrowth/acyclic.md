@@ -1,32 +1,32 @@
 ﻿# Acyclic Labs -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Acyclic’s strongest Hypergrowth path is converting users of its open-source harness into paying Managed Agents customers. Conditional on strong product-market fit, engineering teams could use the same fork-and-merge workflow for recurring jobs across markets. The published SDK, self-hostable CLI, customer-selected model keys, and flexible cloud placement support broad portability with modest adaptation. The CLI gives developers a way to try the harness independently, while founders currently handle managed access and the company plans to set pricing with its first teams. (The Idea, Defensibility, Key Risks)
+Assuming strong product-market fit with engineering teams running long agent jobs, Acyclic has a credible path to global demand. The same fork-and-merge workflow can serve teams across markets through the open-source harness and CLI, with customer-selected model keys and cloud placement. I infer that the core workflow can transfer with modest changes. The harness gives developers a way to discover and try the technology independently, while managed access currently goes through the founders and the rate card is still being set. SwarmBench and the training environments support product differentiation, with the clearest commercialization path running through Managed Agents. (The Idea, Defensibility, Key Risks)
 
-Acyclic reports use in document-processing pipelines, where recurring jobs could generate repeat workloads. Under a usage-based pricing scenario, growing workloads could also increase what retained customers spend. The memo documents free managed onboarding and gives no established rate card or paid renewal evidence. The two-person team progressed from an October infrastructure announcement to onboarding by November, and a documented 19-agent demo shows the system running a real workload. The memo’s revenue-generating classification leaves the product and amount unspecified, so the current product’s commercial growth remains unverified. (The Idea, Founders & Team, Market & Traction, Key Facts)
+Acyclic reports use in document-processing pipelines, where new documents could generate recurring workloads and higher volumes could increase spend under usage billing. That expansion mechanism depends on a future pricing decision. The two-person team announced the current infrastructure in October and was onboarding teams by November under terms with a zero managed-service fee. A documented third-party demo shows the product running a workload. The company-level revenue classification leaves paid adoption of the current product unresolved, so the traction score reflects early use on free onboarding terms. (The Idea, Market & Traction, Key Facts)
 
-During onboarding, Acyclic collects zero managed-service revenue per run and model providers bill customers directly. A paid run would need to cover any workspace infrastructure, search and fetch charges, and support that Acyclic bears, plus an allowance for onboarding effort. The demo’s $2.52 execution cost gives one workload reference, with Acyclic’s share unspecified. The reported switch to cheaper search and fetch providers shows one way to reduce run costs. Contribution on representative paid workloads remains uncertain. (The Idea, Market & Traction, Key Risks)
+If Acyclic charges per managed run, contribution would be the fee less the runtime, web calls, onboarding, and support costs Acyclic bears. Customers pay model providers directly. The 19-agent demo recorded $2.52 in execution costs, and a search and fetch provider switch reduced per-run expense. That gives Acyclic a concrete cost lever, while its share of the demo costs and contribution on representative workloads remain unknown. At the current zero fee, any variable cost Acyclic bears makes that onboarding workload contribution-negative. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Teams can self-host the harness or use parallel delegation in Claude’s managed stack, which could limit what they will pay Acyclic. Acyclic also reports that poorly coordinated swarms can underperform a single agent, while parallelism increases web calls. Together, those risks could narrow the set of workloads with enough customer value to cover managed delivery. The structural downside gate stays open. The reusable harness and provider switch show ways to limit delivery costs, and the memo leaves open whether founder involvement is a temporary onboarding step. (Defensibility, The Idea, Key Risks)
+Even with strong fit for parallel execution, teams may prefer to self-host the open-source harness or use parallel delegation from their existing model provider. Teams that choose Managed Agents may also find that extra web calls and coordination failures erode the value of running more agents. The structural gate remains open because the product can be reused across buyers, customers pay model costs directly, and the provider switch demonstrates room to reduce execution costs. Willingness to pay for managed orchestration and the cost of serving recurring production workloads remain material uncertainties. (Defensibility, The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 22/25 |
+| Global buyer demand | 21/25 |
 | Repeatable acquisition and onboarding | 8/25 |
-| Retention economics | 10/20 |
+| Retention economics | 9/20 |
 | Initial traction | 5/20 |
-| Cost economics | 4/10 |
+| Cost economics | 5/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of SDK users activate Managed Agents without routine founder help and repeatedly pay for production runs at positive contribution? A documented cohort that completes self-guided setup, pays across multiple billing periods, and covers Acyclic’s attributable onboarding, infrastructure, and support costs on representative workloads would move the action to Reach out.
+Can a cohort of independent teams go from the public SDK to a standard paid Managed Agents plan without founder-led setup and reach a second billing cycle with positive incremental contribution? Activation records, repeat invoices, and attributable workload and support costs would answer it. A successful cohort would support moving to Reach out if the updated score reaches 65 with at least Medium confidence.

@@ -1,30 +1,31 @@
 ﻿# Proto -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-Proto’s strongest AGI path is New Economies. Proto says designers already use developer IDEs to build interactive prototypes. Its product turns requirements into working variants that designers can compare visually, assemble into user flows, and share for review. If that workflow cuts the cost of a review-ready prototype far enough, teams could start prototyping routine tickets or edge cases they previously skipped. That is a scenario assumption. The memo gives no baseline for designer or engineering time per successful prototype and no measured change after setup, rework, and any required engineering review. (The Idea, Key Risks)
+Proto scores zero on both AGI paths. For building blocks, its coding agent applies AI to product design, and the memo identifies no scarce input that Proto supplies to an AI workload. For the enabled-industry path, Proto says designers already use developer IDEs to build interactive prototypes. Its described workflow combines code generation with visual variant comparison, flow mapping, and sharing. Those features could make existing work easier. The memo identifies no previously excluded buyer or prototyping cadence and gives no cost per usable prototype, including engineering review. (The Idea, Key Risks)
 
-Shared flows and review history could give teams a reason to keep paying Proto under model parity if those artifacts become useful across projects. Repeat use and paid preference remain untested. Early access and launch attention establish visibility, while the memo records no buyer commitments or paid usage. Albert’s prior work on Stamper and Proto’s early-access launch support execution at this stage. Pricing, model costs, and support effort per team remain unknown, so contribution from each additional team is unproven. (Defensibility, Market & Traction, Founders & Team, The Idea)
+Figma’s code-backed prototype comparison and Onlook’s open-source visual code editing make substitution credible. Shared review history could create switching costs if teams reuse it across projects, which remains unverified. The early-access announcement and launch attention establish visibility, with no evidence of buyer trials or payment. Albert’s prior delivery of Stamper shows relevant execution. Dependable delivery in customer codebases remains unverified, and the memo supplies no pricing or delivery-cost data for the next paid outcome. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Proto may be improving an existing prototyping workflow whose buyers can get much of the same functionality from tools they already use. Figma offers code-backed prototype comparison on its Design canvas, and Onlook offers open-source visual editing that writes back to code. Engineering review could also absorb part of the labor savings when prototypes need to fit a production codebase. The memo documents feature overlap and identifies a plausible cost offset. It leaves actual buyer substitution and the cost per successful prototype unmeasured, so both New Economies conditions remain open and the action is Watch. (Defensibility, Market & Traction, Key Risks)
+Assume a design team can afford engineering help for only one interactive concept per review cycle. Proto’s described ability to generate and compare working variants could let that team test several. If the team also relied on Proto’s shared flows to review alternatives, the collaboration workflow could remain valuable under model parity. The memo supports the product design behind this scenario. The affordability threshold and buyer preference alongside Figma remain untested, so the scenario does not clear the outreach gate. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 3/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 15/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent teams repeatedly pay for Proto to produce review-ready interactive prototypes for work they previously skipped, when they can choose a Figma or IDE workflow with an equally capable model? A paid alpha cohort that shows materially lower cost per accepted prototype, including rework and engineering review, and repeat paid choice under that comparison would move the action to Reach out. A representative trial showing that the work remains too costly or that buyers readily substitute would move it to Pass.
+Can a design team that previously could not afford to test multiple interactive variants do so repeatedly in a paid Proto pilot? A pilot would change the action to Reach out if it showed that Proto brought the fully loaded cost per review-ready variant, including rework and engineering review, within the team’s budget and that the team kept choosing Proto when a comparable AI-assisted workflow was available.

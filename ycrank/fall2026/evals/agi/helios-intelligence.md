@@ -1,30 +1,33 @@
 ﻿# Helios Intelligence -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-New Economies is the strongest path. Helios says it is building an at-home test for more than 1,000 biomarkers and a model that combines repeat draws with health records, wearables, and outcomes. The scenario is that home collection reduces reliance on clinician-collected draws and automated interpretation reduces manual review enough to make frequent, clinically useful monitoring affordable for consumers who currently forgo it. The memo gives no baseline delivery cost, measured labor savings, or cost per validated actionable finding. Under model parity, buyers could still pay Helios for reliable longitudinal measurements and better-calibrated alerts. Helios reports training on linked repeat draws and health records, but the dataset’s size, exclusivity, and predictive advantage remain unverified. (The Idea, Defensibility, Key Risks)
+Helios supplies no evidenced bottleneck for an AI workload. It proposes using its foundation model to combine results from an at-home test designed to measure more than 1,000 biomarkers with longitudinal health data. The memo identifies no AI deployment constrained by access to those measurements, and it documents a commercial route to broad protein profiling from self-collected blood. (The Idea, Defensibility)
 
-The expansion unit is one member completing a repeat testing cycle. The memo cites third-party profiling from $50 per sample. Helios’s assay cost and selling price are undisclosed, and contribution depends on the cost of collection kits, shipping, failed samples, inference, and human review. The reported waitlist has no disclosed signup count or paid repeat orders. The founders’ prior work developing molecular diagnostics and co-founding acquired diagnostics companies supports seed-stage execution, with analytical validation of the Helios test still open. (Market & Traction, The Idea, Founders & Team, Key Risks)
+The strongest commercial case is frequent at-home monitoring for consumers who want earlier warning of health changes between conventional tests. Helios says its model would interpret trends across repeat samples, wearables, and health records. The memo documents existing repeat lab and home-testing services, but supplies no evidence that interpretation cost excludes consumers from a clinically useful testing cadence or that Helios can lower the cost per reliable, actionable warning. With both AGI paths unsupported, the decision framework calls for Pass. (The Idea, Market & Traction, Key Risks)
+
+Third-party access to broad protein profiling weakens Helios’s control over the measurement layer. Helios reports training on linked repeat draws and health records, with dataset exclusivity and any resulting prediction advantage still unverified. The reported waitlist gives no enrollment count or paid conversion, and the memo provides neither Helios Test pricing nor delivery costs. The founders’ prior molecular diagnostics work supports seed-stage execution credit, with Helios-specific assay performance and prediction calibration still unverified. (Defensibility, Market & Traction, The Idea, Founders & Team, Key Risks)
 
 ### Countercase
 
-Repeat testing already exists, and VO Health uses a commercial platform to measure more than 1,000 proteins from a small home-collected sample. That availability defeats assay breadth as the basis for a scarce-complement case. Helios could end up offering a more convenient product in an existing market, with competitors able to combine similar assays and models. The memo leaves open whether Helios can serve consumers who previously went without frequent monitoring and retain them under model parity. Those conditions are testable, so Watch applies. (The Idea, Defensibility, Market & Traction)
+If health professionals’ review time makes frequent monitoring too expensive, automated interpretation could let Helios serve consumers who currently test only intermittently. The company’s plan for generated reports makes that mechanism plausible, and the service would still need to collect, process, and validate physical samples even if buyers had access to equally capable models. The memo leaves the economic threshold and the reliability of the resulting warnings untested, so this scenario does not clear the outreach gate. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can a prospective paid pilot convert consumers who previously went without frequent monitoring into repeat customers? Move to Reach out if the cohort shows a lower all-in cost per validated actionable finding than the prior testing workflow and customers renew at a price that covers repeat-cycle costs when an alternative with comparable model capability is available.
+Can Helios’s model lower the fully loaded cost per validated, actionable warning enough for consumers who currently test intermittently to pay for frequent monitoring? A paid repeat-testing pilot comparing model-assisted and conventional interpretation on the same samples, including failed collections and human review costs, would answer it. Reliable warnings at a price that sustains paid repeat use in that cohort would move the action to Reach out.

@@ -1,32 +1,32 @@
 ﻿# RightNow -- Hypergrowth Evaluation
 
-**Action:** Reach out  
-**Evidence confidence:** Medium
+**Action:** Watch  
+**Evidence confidence:** Low
 
 ### Company case
 
-RightNow’s strongest Hypergrowth path is self-serve shared inference for engineering teams running open-weight models in production. Assuming strong product-market fit with those teams, the OpenAI- and Anthropic-compatible endpoints make the same recurring serving workflow portable across markets with little expected adaptation. The memo documents a Product Hunt launch, self-serve API keys, and prepaid top-ups starting at $5. Together, those give developers a route from discovery to paid use with minimal help. RightNow offers migration and benchmarking help for larger workloads alongside that flow. (The Idea, Market & Traction)
+Assuming strong product-market fit with engineering teams serving open-weight models, RightNow’s shared API could serve the same recurring inference workload across markets. Its OpenAI- and Anthropic-compatible endpoints make the product portable, while the hosted launch gives developers a way to discover it and self-serve keys and $5 prepaid top-ups give them a path to a first paid request. The offer to benchmark and migrate larger workloads appears optional for shared API buyers. The memo documents that path but gives no example of a buyer completing it independently. (The Idea, Market & Traction)
 
-Token billing lets a retained account spend more as its production traffic grows. Expansion could offset churn, though the memo leaves that balance unverified. The two-person team debuted hosted inference in July 2026, but realized revenue, paid production volume, and pre-revenue status remain unknown. RightNow reports kernel-tool use at several large companies. That claim concerns a different product, so initial traction for hosted inference takes the absent-evidence default. (The Idea, Market & Traction, Key Facts)
+Metered billing gives retained production accounts a concrete way to spend more as token volumes grow. That supports a plausible expansion mechanism, while the memo leaves its ability to offset churn unresolved. The two-person team debuted hosted inference in July 2026, giving the product a short commercial observation window. Launch votes show attention, and the company’s reported kernel-tool adoption concerns a separate product. The memo supplies no usable evidence of realized revenue, paying-customer growth, or billable production volume for the hosted API, and it does not establish pre-revenue status. (The Idea, Market & Traction, Founders & Team, Key Facts)
 
-At the listed Nemotron 3.5 Lightning rates, a hypothetical workload with one million input and one million output tokens bills $0.20 on demand or $0.10 at the batch rate. Contribution depends on rented GPU capacity, utilization, and attributable acquisition, onboarding, and support costs, with startup credits reducing cash revenue where used. RightNow documents kernel and serving optimization and has released batch processing that uses idle capacity. These are concrete ways to lower cost per token. Their effect on contribution at production scale remains uncertain. (The Idea, Defensibility, Key Risks)
+In an illustrative Nemotron workload with one million input and one million output tokens, list-price revenue is $0.20 for standard serving or $0.10 for batch. Contribution is that revenue after credits, less attributable GPU rental, onboarding, and support costs. Kernel tuning and batching on idle capacity could lower GPU cost per token. The memo leaves paid demand and contribution under representative workloads unresolved, which drives the Watch action. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-The same API compatibility that makes adoption easy could make it easy to shift traffic elsewhere. RightNow’s serving advantage may vary with prompt mix, cache reuse, and concurrency, while Together’s compiler targets similar efficiency gains. If RightNow must rent more GPUs to cover peaks while serving traffic at low token prices, paid volume could grow without healthy contribution. The structural gate remains open because the memo supports reusable onboarding and specific efficiency levers, while the cost of serving representative workloads through a capacity increase remains unverified. (The Idea, Defensibility, Key Risks)
+The compatible APIs that ease adoption could also make it easy for buyers to switch providers. Together’s competing compiler could narrow RightNow’s performance advantage, while low cache reuse or peak concurrency could raise GPU cost per token and require more rented capacity. The structural gate remains open because the shared API has a credible transfer path across markets and the memo identifies concrete efficiency levers without establishing unavoidable losses or bespoke deployment work. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 23/25 |
+| Global buyer demand | 22/25 |
 | Repeatable acquisition and onboarding | 20/25 |
-| Retention economics | 17/20 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 6/10 |
 
-**Total Score: 72/100** (Invest)
+**Total Score: 71/100** (Invest)
 
 ### Decisive diligence question
 
-Can RightNow show a representative set of self-serve customers whose paid production usage grew after credits expired and remained contribution-positive through a GPU capacity increase? Matched billing and operating cost records showing healthy contribution would sustain Reach out. An unresolved cost gap would move the action to Watch. Evidence that each capacity increase makes growth economically infeasible despite the documented efficiency levers would trigger Pass.
+Can a cohort of independently onboarded shared-API customers grow paid production usage across billing periods while generating positive incremental contribution? Cohort billing and attributable cost data showing rising paid usage after credits expire and positive contribution after GPU rental, onboarding, and support across representative cache and concurrency conditions would move the action to Reach out.

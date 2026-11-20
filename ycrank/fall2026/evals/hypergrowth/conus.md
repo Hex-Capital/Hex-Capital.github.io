@@ -5,28 +5,30 @@
 
 ### Company case
 
-CONUS’s strongest path is to use free hospital access to establish a recurring surgical preparation workflow, then convert hospitals to paid institutional AI licenses. The same job plausibly recurs across markets. Surgeons need device instructions and protocols for the implants available at their hospital. CONUS can reuse its search and citation software and, where device portfolios overlap, manufacturer documentation. Each site still needs its own device lists and protocols, and the memo leaves the effort required to enter a new market uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
+Assuming strong fit with its initial hospitals, CONUS could serve the same recurring job abroad. Surgical teams need to find the instructions for the implants available at their hospital. The manufacturer catalog and source-citing search are reusable, while device lists and approved protocols vary by site. How much work CONUS would need to adapt the product to a new market remains uncertain. (The Idea, Defensibility, Key Risks)
 
-The direct hospital signup gives CONUS a repeatable entry point. The memo documents quoted institutional licenses and leaves open how much help hospitals need to reach first use or complete a purchase. Monthly individual plans and recurring procedure prep support a renewal case. Site-specific data could make the tool more useful over time, but the memo gives little basis for expecting hospitals to increase their spending enough to offset churn. (*The Idea*, *Defensibility*, *Key Facts*)
+Direct signup gives hospitals a way to start with free core access. The paid institutional path requires a quote, and hospitals supply their device lists and approve their own protocols. The memo leaves open how much help a typical hospital needs to reach its first useful answer or convert to paid AI. The recurring workflow and monthly individual plans support renewal, but the evidence for expansion is weak. Individuals can upgrade tiers, while institutional pricing, renewals, and spending as usage grows remain undisclosed. (The Idea, Defensibility, Key Risks, Key Facts)
 
-CONUS reports 28 live hospitals and 53 onboarding. The app history dates initial availability to January 2025, while paid availability, realized revenue, and paying-customer growth remain unknown. Initial traction therefore receives the absent-evidence default for commercial traction. For a paid hospital, incremental contribution would be license revenue less the attributable work to win, onboard, and support the site, plus the cost of serving AI usage. Reusing manufacturer documents and leaving protocol approval with hospitals could reduce CONUS’s labor per deployment. The memo provides no operating inputs to estimate the margin. (*Market & Traction*, *Key Facts*, *Defensibility*, *Key Risks*)
+CONUS reports 28 live hospitals and 53 onboarding. A separate company statement counts 25 live European hospitals, so the two live counts do not establish a growth rate. The January 2025 app release and three-person team contextualize adoption, while the timing and pace of paid use remain unknown. Initial traction therefore takes the absent-evidence default. (Market & Traction, Key Facts)
+
+A paid individual seat brings in €9.99–€49.99 per month before incremental AI, hosting, and support costs. For hospitals, contribution also depends on the license price and any CONUS labor needed for onboarding and catalog maintenance. Hospitals own protocol approval and version control, but the memo gives no operating inputs to estimate CONUS’s cost per deployment, so cost economics takes the default. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-The hospital-specific content that makes CONUS valuable may also make it slow to scale. Every deployment needs current device lists and approved local protocols, and CONUS warns clinicians to verify AI answers against the original material. If CONUS staff must repeatedly configure and maintain those deployments, free core access could create costs well before a hospital pays. The structural downside gate stays open because the memo assigns protocol approval and version control to hospitals and leaves the extent of required CONUS labor and market-specific rebuilding unresolved. (*The Idea*, *Defensibility*, *Key Risks*)
+The site-specific setup may be the main source of clinical value and the main limit on growth. If each new hospital requires substantial CONUS work to map device lists, configure protocols, and keep guidance current, free adoption could grow faster than paid contribution. The structural gate stays open because hospitals own protocol approval and version control, and the amount of unavoidable CONUS work remains uncertain. (Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 11/25 |
-| Retention economics | 13/20 |
+| Repeatable acquisition and onboarding | 10/25 |
+| Retention economics | 14/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can several comparable hospitals in a new market use the existing product to configure their own device lists and protocols, then convert to recurring paid AI licenses with little CONUS staff time? Dated paid conversions, onboarding records, and positive incremental contribution after staff and AI serving costs would support Reach out if they lift the score to at least 65 with Medium or High confidence. Evidence that unavoidable bespoke work makes incremental growth uneconomic would change the action to Pass.
+Can CONUS grow a paid hospital cohort in a new market using the existing product and a repeatable rollout? Dated invoices showing growth in paid deployments and expansion at existing hospitals, together with rollout records showing bounded localization and positive incremental contribution, would move the action to Reach out if they lift the score to at least 65 with Medium or High confidence.

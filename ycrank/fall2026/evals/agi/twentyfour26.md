@@ -5,28 +5,29 @@
 
 ### Company case
 
-The strongest path is **New Economies**. Conventional low-volume CNC jobs incur fresh quoting, programming, setup, and inspection work with each design revision. twentyfour26 says it screens STEP files against a standardized cell and simulates machining plans before producing and inspecting accepted jobs in-house. Its terms document job-specific quotes, and the company reports making parts for Bay Area hardware teams with turnaround as fast as about 48 hours. The memo gives no comparative labor cost per conforming delivery, typical turnaround, or evidence of repeat paid orders. (The Idea, Market & Traction, Key Facts)
+The memo identifies no AI workload that depends on a scarce input twentyfour26 supplies. Its current offering is general-purpose prototype machining, and the memo provides no evidence that AI deployment is straining supply for the parts its cell can make. The building-blocks path earns zero. (The Idea, Market & Traction)
 
-The scenario is that hardware teams begin ordering prototype revisions they previously skipped because of cost or lead time. For that use to open up, savings in quoting and programming must reduce the cost per conforming delivery after setup, inspection, and rework. Under model parity, buyers could still prefer twentyfour26 for reliable turnaround and quality from a shop that controls production and inspection. The memo supports that operational control. Buyer preference under comparable automation and the proposed feedback loop from inspection to machining plans remain unproven. (The Idea, Defensibility, Key Risks)
+The potential industry-enablement path is making it affordable for hardware teams to machine a prototype at each design revision. Conventional shops repeat quoting, programming, setup, and inspection as designs change. twentyfour26 describes automated geometry and workholding checks, a simulated machining plan, and in-house production. The company reports making parts for Bay Area hardware teams, with its fastest turnaround around 48 hours. The seed-stage hypothesis is that AI-assisted planning could cut enough skilled labor per accepted revision for buyers to order iterations they currently skip or bundle. That assumes successive revisions fit the standardized cell and savings survive setup, inspection, and rework. Comparable models would still leave buyers needing a shop to deliver an in-spec part. The reported turnaround leaves both the automation contribution and the buyer’s affordability threshold unverified. (The Idea, Market & Traction, Key Risks)
 
-The founders’ manufacturing and software experience and the launch of the CNC service support seed-stage execution credit. The next expansion unit is another standardized cell. Its economics depend on whether accepted-job prices cover labor and exceptions, materials and tooling, rework, and equipment cost at realistic utilization. Geometry, material, and workholding limits constrain the jobs that can fill each cell. The memo gives no utilization or job-cost data. (Founders & Team, Market & Traction, The Idea, Key Risks)
+Owned equipment and in-house inspection give twentyfour26 direct control over fulfillment. Its proposed inspection feedback loop remains a development goal. Reported customer jobs are an early demand signal, with payment and repeat ordering unverified. The launched service and the founders’ relevant hardware and software experience support seed-stage execution credit, while automated loading, cutting, and checking are still in development. The documented per-job quote terms establish how the company charges. The memo provides no usable revenue-to-cost bridge per successful job, so scale economics uses the default. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-twentyfour26 may be making existing prototype orders faster within a narrow range of eligible parts. CloudNC already offers toolpath generation to shops, and Protolabs combines owned production and automated toolpath verification with a partner network for jobs outside its own capabilities. That gives buyers a credible substitute and leaves no independently supported scarce-complement path. The memo leaves open whether twentyfour26 can make previously skipped revisions viable and win repeat orders against comparably automated suppliers. Those unresolved conditions warrant Watch. (Defensibility, Market & Traction, Key Risks)
+twentyfour26 could be a faster CNC shop serving existing prototype demand. Protolabs reports using automated toolpath verification, and CloudNC sells toolpath generation to existing shops. If programming savings are readily available to competitors and setup, inspection, or rework still dominate the cost of small jobs, buyers may switch suppliers while ordering at the same cadence. A finding that automation only speeds up orders buyers would already place would trigger **Pass**. The memo leaves that question open, which supports **Watch**. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 10/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 5/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 26/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent hardware teams repeatedly pay twentyfour26 for prototype revisions they previously skipped, even when they can order from a comparably automated shop? A matched cohort would compare prior quotes and skipped revisions with paid repeat orders, verify lower labor cost per conforming delivery, and show positive contribution at observed cell utilization after inspection and rework. That result would move the action to Reach out. If the cohort shows that orders are simply diverted from existing suppliers and buyers readily switch at comparable price, quality, and turnaround, move to Pass.
+Can AI-assisted planning lower the delivered cost enough for a hardware team to pay for successive CNC revisions it would otherwise skip or bundle? A paid pilot on comparable revisions should compare conventional quotes, track labor saved by automated planning, and measure fully loaded cost per on-time, in-spec part, including setup, inspection, and rework. Move to **Reach out** if the savings support viable pricing and the buyer pays for additional revisions. Move to **Pass** if the pilot shows faster delivery at the buyer’s existing order cadence without crossing its affordability threshold.

@@ -5,19 +5,17 @@
 
 ### Company case
 
-The strongest path is a strategic sale to an application-security vendor seeking to serve customers that require remediation inside their own infrastructure. 0.security advertises air-gapped deployment with customer-selected models. A buyer could gain a route into restricted environments if paid production deployments show that customers repeatedly accept patches and spend less engineering time on fixes. That buyer rationale is an inference. The memo documents the 0cloud launch and relays a Spotify engineer’s scan-speed testimonial. The founders report an EY partnership and work with the Swiss Federal Department of Defence. These are early signals for testing the enterprise route. Paid production adoption, remediation savings, and the capital needed to demonstrate repeatable deployment remain unverified. (The Idea, Market & Traction, Key Facts)
+The strongest route is a strategic sale to an application-security vendor seeking to serve customers that require air-gapped deployment. The memo records the 0cloud launch, describes a self-hosted product with customer-selected models, and lists Aikido as an example of a vendor that already bundles remediation into a broader security suite. A buyer could use 0.security to win restricted deployments its own product cannot serve. That rationale is an inference, and the memo gives no indication of buyer interest. (The Idea, Market & Traction)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The following prices are illustrative assumptions. The memo provides no acquisition pricing or holder terms. The sale cases assume an eligible holder sells their entire stake for cash within eight years and receives 3% of distributable equity after any senior claims.
+The founders report work with EY and the Swiss Federal Department of Defence, and a Spotify engineer reported scanning nearly 30,000 files in under a minute. Those signals support testing for paid production adoption. The proposed milestone is several paid air-gapped deployments that renew and show measured reductions in remediation time with patches customers accept. The existing product gives the two-person team a starting point, while the cost and funding needed to support those deployments remain unknown. (Market & Traction, Founders & Team, Key Facts)
 
-| Scenario | Enterprise-to-equity bridge | Gross holder cash |
-|---|---|---|
-| Modest sale | $40M enterprise value with no net debt, deal deductions, or senior claims | $1.2M (2.4×) |
-| Strong sale | $100M enterprise value with the same assumptions | $3.0M (6.0×). $10M in combined deductions and senior claims reduces cash to $2.7M (5.4×). |
-| Prolonged private | Continued operation with reinvestment and no eligible share sale or funded payout within eight years | $0 |
+Under the benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity. For both illustrative sale cases, assume the holder is eligible to sell the entire stake, receives its pro rata share in cash at closing within eight years, and faces no debt, deal deductions, or preference claims. A **modest** $50 million enterprise-value sale yields $1.5 million (3×). A **strong** $100 million sale yields $3 million (6×) and can absorb about $16.7 million in reductions from enterprise value to distributable equity before missing the objective. In the **prolonged-private** case, reinvestment with no share sale or payout yields zero realized cash.
+
+The memo provides pricing but no realized revenue or buyer economics that support either sale value. Transfer rights, consent requirements, and holder eligibility are unverified. No independent liquidity route has support in the memo. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-GitHub already offers native pull-request fixes, Semgrep offers AI-assisted remediation, and 0.security’s core software is available free. A potential buyer could extend its own product or use the open-source software. The memo leaves open whether 0.security’s restricted deployments deliver enough incremental value to justify buying the company. It also leaves ownership of the commercial assets and customer change-of-control terms unverified. This supports Watch. The evidence establishes neither a closing barrier nor a credible price ceiling that would trigger Pass. (The Idea, Defensibility, Key Risks)
+GitHub already offers native pull-request fixes, and Semgrep offers AI-assisted remediation. A strategic buyer could rely on its own remediation and see little incremental value in owning an open-source product. The Spotify testimonial measures scan speed, and the reported engagements provide no evidence of renewals or sustained remediation savings. This weakens the acquisition rationale, but the memo establishes neither a structural block nor a credible sale-price ceiling below the proceeds hurdle. The Pass gate does not trigger. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -33,4 +31,4 @@ GitHub already offers native pull-request fixes, Semgrep offers AI-assisted reme
 
 ### Decisive diligence question
 
-Would an application-security vendor’s buy-versus-build analysis, grounded in measured engineering savings and renewals from paid air-gapped deployments, support a price that returns at least $2.5 million in cash to the holder within eight years? A buyer-side valuation range that clears the hurdle after debt, deal adjustments, and senior claims would move the action to Reach out.
+What would a strategic buyer pay for 0.security once it demonstrates repeatable paid air-gapped deployments? A credible buyer’s valuation range tied to documented renewals and measured remediation savings would move the action to Reach out if it supports at least $83.3 million in distributable equity after deal adjustments under the benchmark.

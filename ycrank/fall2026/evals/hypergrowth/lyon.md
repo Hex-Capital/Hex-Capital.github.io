@@ -5,21 +5,23 @@
 
 ### Company case
 
-Conditional on strong product-market fit, Lyon’s best path is to sell default prediction to large fintechs, reuse the same training and deployment software across institutions, and expand within each account through adapters for fraud and cross-sell. Default prediction is a recurring job that plausibly transfers across markets. Lyon says it supports training and inference inside customer environments on AWS, Google Cloud, and Azure. That gives it a reusable deployment base, with the work needed to adapt transaction schemas and validate models in each market still uncertain. (The Idea, Defensibility, Key Risks)
+Assuming strong fit with the initial fintech buyer, Lyon could serve the same recurring prediction jobs in other markets. Its documented deployment design supports training and inference inside customer clouds on AWS, Google Cloud, and Azure. That gives Lyon a reusable starting point, while the work needed to adapt to each institution’s event schema and validation process remains uncertain. The intro-call booking and procurement questionnaire point to a sales-led motion, with institution-specific training and likely validation work before first value. (The Idea, Defensibility, Key Risks)
 
-Lyon reports a 112% relative improvement in default-prediction PR-AUC over one fintech’s existing model. That supports the technical case. Commercial traction remains unknown, including whether the benchmark led to paid production use, so Initial traction takes the default. Reusing embeddings across recurring decisions could support continued use and expansion, but the memo gives no billing terms or evidence that adding tasks increases account spend. Customers own the trained models, which limits how much retention can be inferred from model ownership alone. (Market & Traction, Key Facts, The Idea, Defensibility)
+Lyon reports a 112% relative lift in default-prediction PR-AUC at one fintech. That benchmark supports technical value. The memo leaves paid production status, revenue, and commercial growth unknown, so initial traction receives the absent-evidence default. Reusing customer embeddings across underwriting, fraud, and cross-sell could support recurring use and paid expansion through additional adapters. Recurring fees and expansion pricing remain hypothetical, and customer ownership of the model weakens the switching-cost case. (Market & Traction, Key Facts, The Idea, Defensibility)
+
+In a recurring-fee scenario, contribution from the next institution would equal its fees less attributable sales, onboarding, validation support, ongoing service, and any training and inference costs Lyon bears. Reusable deployment tooling and adapters could reduce that work. Pricing, delivery effort, and compute cost allocation are unknown, leaving incremental contribution unassessed. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Lyon could scale like a services business if each institution requires substantial engineering and validation to reach production. Its documented buyer path starts with an introductory call and a procurement questionnaire. Those steps can be reused, but each institution needs a model trained from scratch in its own cloud, and bank validation can add work before first value. Under a recurring-contract scenario, incremental contribution would be contract revenue less Lyon’s attributable sales, integration, validation support, ongoing support, and any training or inference costs it bears. The memo establishes neither pricing nor cost allocation or delivery effort, so Cost economics takes the default. The structural gate stays open because the evidence leaves room for a reusable rollout with viable contribution. (The Idea, Defensibility, Key Risks, Key Facts)
+Even with strong initial fit, training a model from scratch for each institution could make Lyon’s growth depend on repeated engineering and validation work. The benchmark comes from one unnamed fintech, so its performance may be hard to replicate across institutions, and buyers with capable ML teams have an in-house option. The structural downside gate remains open because the memo leaves both the extent of market-specific rebuilding and the economics of repeat deployments unresolved. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 9/20 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
@@ -27,4 +29,4 @@ Lyon could scale like a services business if each institution requires substanti
 
 ### Decisive diligence question
 
-Can Lyon bring a second comparable fintech in another market into paid production using the same deployment process? A recurring contract and a rollout record showing the schema and validation changes, Lyon’s delivery hours, and who paid for compute would test that. Bounded adaptation and positive incremental contribution would support rescoring for Reach out if the result reaches 65 with at least Medium confidence. Evidence that market-specific rebuilding is unavoidable or that delivery remains uneconomic at viable prices would move the action to Pass.
+Can a comparable fintech in a second market reach paid production on Lyon’s standard deployment with bounded engineering and validation work? A completed rollout with recurring contract terms, logged Lyon hours, and attributable costs would test that path. A repeatable, contribution-positive rollout would support Reach out if the updated score and confidence clear the outreach thresholds. Evidence that unavoidable custom work makes repeat deployments uneconomic would trigger Pass.

@@ -1,32 +1,33 @@
 ﻿# Hopper -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**Scarce complements** is Hopper’s strongest path. The candidate bottleneck is reliable, low-latency inference across transcription, language generation, and speech synthesis when concurrent calls spike. The memo documents workarounds such as interim transcripts and cached audio. These suggest that developers already spend engineering effort on latency and that predictable response times could become more valuable as voice traffic grows. Hopper’s documented custom kernels and cache-aware routing show a specific operating approach. Customer-specific evaluations and tuning could make deployments harder to replace, though migration costs and Hopper’s ability to protect that advantage remain unverified. (The Idea, Defensibility)
+Hopper has a plausible building-blocks path in low-latency inference for live voice agents. Transcription, language-model generation, and synthesis share a single turn-latency budget. Developers use interim transcripts, cached audio, and filler greetings to manage delays. If adoption increases peak call concurrency, serving that preserves response quality and tail latency could become harder to procure. Hopper’s optimized open-weight stack addresses that workload. Its CTO reports that p95 latency rose from about 11 to 42 seconds under load on one deployment, although the memo gives no end-to-end voice measurement for that deployment. The evidence supports a plausible performance constraint. Its persistence as buyers add capacity or switch providers remains unverified. (The Idea, Key Risks)
 
-Hopper reports that one signed customer moved into production and that an unnamed gaming customer requested tuning for accents and emotion. The production move is the strongest demand signal. The reported 10 billion tokens per day span the platform, and initial users reportedly spent under $1. Repeat paid voice usage and willingness to pay for the latency advantage remain unverified. The founders’ prior work in production voice inference and inference kernels, together with the shipped voice service, supports execution at this stage. A repeatable response to burst load remains the next execution gap. (Market & Traction, Key Facts, Founders & Team, The Idea, Key Risks)
+The industry-enabled path earns zero. Hopper improves the serving and tuning workflow for existing voice-agent developers. The memo identifies no buyer or use previously priced out by the old delivery model and gives no cost per successful outcome showing that Hopper crosses an affordability threshold. (The Idea, Market & Traction)
 
-The unit of expansion is another production voice workload meeting a defined latency and quality target. In a scale scenario, contribution per successful call would equal usage revenue less inference and operating costs, including a share of reserved GPU capacity and customer-specific tuning. Customer-side overflow also affects the buyer’s all-in cost. Hopper’s CTO reports that p95 latency rose from about 11 to 42 seconds under higher load on one deployment, with spare GPUs and customer-side overflow used to absorb bursts. That is adverse evidence for marginal capacity. Published API prices establish what Hopper charges, while utilization and the cost per successful call at peak load remain unknown. (Key Risks, The Idea)
+Customer-specific evaluations and tuned models could make switching costly if customers have to reproduce that work. Hopper documents custom kernels and cache-aware routing, while retention, migration costs, and pricing power remain unverified. Hopper reports one signed customer moving traffic into production, an early demand signal with limited evidence of repeat paid use. The founders’ prior voice-inference and kernel work and the public voice launch support seed-stage execution credit. Published usage prices give a revenue starting point, while GPU utilization and delivery cost per call at the required latency remain unknown. Confidence is low because the central workload comparison is missing and the production traction is company-reported. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Facts)
 
 ### Countercase
 
-The strongest countercase is that voice inference becomes interchangeable hosting. The memo documents a self-hostable open-weight model and a managed, co-located voice stack. Customer-specific tuning may add switching friction, but training requires written consent, and the memo supplies no measured migration costs. These alternatives make substitution credible. Equivalent performance at the same all-in cost remains untested on Hopper’s customer workloads, so the scarce-complement path stays open under **Watch**. The New Economies path lacks a supported case of a previously excluded buyer or use becoming viable through a measured reduction in labor cost per successful call. (Defensibility, Key Risks, The Idea, Market & Traction)
+Low-latency voice serving may be obtainable through self-hosting, a co-located managed stack, or additional GPU capacity. The memo documents the first two alternatives, and Hopper reports using spare GPUs and customer-side overflow to absorb bursts. If buyers can meet the same latency and quality targets at comparable cost through those routes, the building-blocks path falls to zero and the decision becomes Pass. The memo leaves that comparison open, which supports Watch. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 3/15 |
+| Building blocks of superintelligence | 7/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 31/150** (Pass)
 
 ### Decisive diligence question
 
-Will a production voice customer renew at a price that leaves Hopper positive contribution after a head-to-head trial against a credible alternative using the same open-weight models? Run representative peak traffic against the same latency and call-quality targets, and include tuning, reserved GPUs, and overflow in the cost comparison. A paid renewal backed by a material performance advantage at viable margins would move the action to **Reach out**. If the alternative matches performance and all-in cost and the customer switches readily, move to **Pass**.
+Can Hopper meet a voice customer’s end-to-end p95 turn-latency target through representative traffic bursts, at matched response quality and within the customer’s budget, where the customer’s best available alternative falls short? A customer-run comparison on the same traffic, including overflow and the cost of spare capacity, would answer it. A clear Hopper advantage would move the action to Reach out. Comparable performance and cost from the alternative would move it to Pass.

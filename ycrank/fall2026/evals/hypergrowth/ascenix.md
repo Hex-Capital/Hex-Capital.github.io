@@ -5,28 +5,30 @@
 
 ### Company case
 
-Assuming strong product-market fit, Ascenix’s strongest path is to sell fall-incident reporting and follow-up to multi-site senior care operators, then reuse the same EHR connectors and workflow templates across their homes. The recurring job is reconstructing incidents from care notes and tracking follow-up. Ascenix describes read-only integrations with PointClickCare, MatrixCare, and Yardi and reports live deployments in Canada and the US. Those deployments support some portability. The work required to serve comparable operators in other markets remains unclear. (The Idea, Defensibility, Market & Traction)
+Assuming strong product-market fit with senior-care operators, Ascenix’s most credible growth path starts with fall reporting and follow-up for homes already on supported EHRs. The memo describes workflows built on read-only connectors for PointClickCare, MatrixCare, and Yardi. Ascenix reports deployments in Canada and the US, which supports portability of the core incident workflow. How much of the compliance and reimbursement functionality transfers across markets remains uncertain. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-One customer reports deploying Ascenix in all its homes and spending 80% less time on manual fall analysis. That supports adoption within an operator. Ascenix depicts a monthly platform invoice with unlimited users. More workflows or facilities could deepen use, but the memo leaves pricing for that expansion unclear. Ascenix reports 55 live facilities in September. For the seven-person team, the memo gives neither a paid facility count nor a date for first paid availability, and the reported 15% launch-week growth has no defined metric. The commercial slope is therefore unscorable and receives the default. (Ascenix, The Idea, Market & Traction, Key Facts)
+Operator introductions and demos provide a concrete sales channel, and starting with one workflow gives buyers a defined path to first value. Ascenix still connects each site’s systems, and operators validate workflows against local policies. The recurring job and Ascenix’s depicted monthly platform invoice support a renewal case. Responsive Health Management reports rolling Ascenix out to all its homes and cutting manual fall-analysis time by 80%. That supports the value of broader deployment within an account. Unlimited user accounts limit seat-based expansion, and it is unclear whether adding homes or workflows raises the bill. (The Idea, Market & Traction, Key Risks)
 
-The cost scenario assumes an added facility generates incremental monthly fees. Contribution over its paid term would be those fees less attributable demo and sales time, EHR connection and workflow setup, and ongoing hosted processing and support. Reusing connectors and templates could reduce setup cost. The memo gives no fee amount or measured deployment cost, leaving contribution uncertain. (The Idea, Defensibility, Key Risks)
+Ascenix reported 55 live facilities in September and 15% growth in the week before launch, with the growth metric unspecified. The memo establishes deployment activity for the current product, while paid status, realized revenue, and the date of first paid availability remain unknown. The commercial traction default applies because the rollout figures leave the seven-person team’s paid growth pace unresolved. (Market & Traction, Key Facts)
+
+If Ascenix charges more as an operator adds homes, incremental fees would need to cover attributable sales and setup labor, record processing, hosting, and support. Reusable connectors and rule templates could reduce the work per deployment. The fee structure and deployment effort are unquantified, leaving incremental contribution uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Growth could remain tied to hands-on implementation. Buyers enter through demos, Ascenix must connect each deployment, and operators must validate workflows against local policies. EHR access and local compliance rules could compound that work in new markets. These dependencies limit acquisition and onboarding, but the structural downside gate remains open. The reported cross-border deployments and reusable components leave a credible path for the narrower incident workflow. The gaps in paid traction and deployment economics warrant Low confidence. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest downside is that each new facility remains a services-heavy deployment. Ascenix must connect systems and rely on operators to validate local policies. Scanned charts require a workaround, and PointClickCare controls access to a key source of live records. If those demands persist as site count rises, rollout could consume much of the recurring fee. The structural gate stays open because reusable components and reported cross-border deployments support a credible path for the core workflow, while the labor required at scale remains unresolved. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 7/25 |
-| Retention economics | 13/20 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 12/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paying multi-site operator in a new jurisdiction bring successive homes live on the same incident workflow with minimal Ascenix labor and positive incremental contribution? Paid invoices and deployment logs would show whether setup effort falls as the rollout expands. A successful rollout would support Reach out if rescoring meets the threshold and raises confidence to at least Medium. Repeated bespoke work that makes each added home uneconomic, with no credible way to reduce it, would move the action to Pass.
+Can a cohort of independent operators in a new market reach paid production on supported EHRs through a standard, operator-led rollout with positive incremental contribution? A dated cohort showing rapid growth in paying sites, setup hours per site, and positive contribution after sales, onboarding, and servicing costs would support Reach out if it raises the score to at least 65 with Medium or High confidence. Evidence that unavoidable custom work consumes the recurring fee, with no credible way to reduce that work, would trigger Pass.

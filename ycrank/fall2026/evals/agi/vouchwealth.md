@@ -5,26 +5,29 @@
 
 ### Company case
 
-Vouch’s strongest path is **New Economies**. Vouch says its AI agents use imported mutual fund holdings to check for overlap and fees and propose tax-aware changes for customers to approve. If this reduces adviser time per correctly completed rebalance, ongoing portfolio care could become economical for Indian professionals who rely on fund agents or self-directed apps. The ₹5 crore minimum Vouch cites is an eligibility threshold for high-touch service. The memo gives no benchmark for the cost of human-led delivery or the savings per completed rebalance. (*The Idea*, *Key Risks*)
+Vouch has no supported building-blocks path. Its agents analyze household mutual fund portfolios. The memo identifies no scarce input that Vouch supplies to an AI workload. (*The Idea*)
 
-The memo documents an early-access announcement and a phone-number waitlist, with buyer commitments and repeat use still unknown. Ghatiwala’s work building Robinhood’s Advisor Network and his experience in Indian wealth management support early execution. The expansion unit is a funded household. Under a commission scenario, revenue depends on retained eligible balances and commission rates. Contribution depends on onboarding, inference, support, and human review of data and tax exceptions. The memo provides no commission collections or per-household costs. Vouch says fee-based adviser registration is pending, and client-level segregation constrains combining advisory fees and distribution commissions on the same relationship. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Facts*, *Key Risks*)
+Vouch has a plausible industry-enabled path in ongoing, tax-aware portfolio monitoring for Indian professionals below the ₹5 crore minimum it cites for high-touch wealth management. Vouch says these households typically rely on local mutual fund agents or self-directed apps. Its design imports household holdings through MF Central and uses agents trained against wealth-manager evaluations to flag overlap and fees and propose changes for customers to approve. At seed, the plausible cost lever is less specialist time per completed review. Holdings integration and transaction approval give households a reason to use a dedicated service even if they can access comparable models. The memo gives no measured review savings, evidence of repeat use by previously excluded households, or data on how often recommendations need human correction. That leaves the affordability threshold open and supports Watch. (*The Idea*, *Market & Traction*, *Key Risks*)
+
+Vouch’s published distributor registration and its reported empanelment with 27+ fund houses support distribution access. Pricing power and retention remain untested. The early-access launch and the founder’s prior work building Robinhood’s Advisor Network support execution credit. The waitlist and founder-led onboarding show how Vouch seeks customers, with no disclosed signups, conversions, or repeat use, so customer demand stays at the default. Fund-house commissions provide a potential revenue stream, with no disclosed rates, collections, or servicing costs to establish economics per household. A fee-based scenario would depend on adviser registration and would forgo distribution compensation on those advisory relationships. (*Defensibility*, *The Idea*, *Market & Traction*, *Founders & Team*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-PowerUp Money already offers household aggregation, personalized rebalancing, and AI portfolio monitoring. Vouch’s published distributor registration and company-reported empanelment with 27+ fund houses support its ability to distribute funds. The memo gives no evidence that those relationships are exclusive or that households prefer Vouch when functionality is comparable. Vouch may be automating work in an existing market, and the overlap leaves both market opening and value capture under model parity unproven. The memo does not establish easy switching or equivalent service for the proposed customer segment, so the New Economies path remains open. It provides no independent evidence of a scarce complement Vouch controls. (*The Idea*, *Defensibility*, *Market & Traction*)
+PowerUp Money already offers household fund aggregation, personalized rebalancing, and continuous AI monitoring. That overlap makes it plausible that Vouch is automating an already accessible service. The cited ₹5 crore minimum describes access to high-touch wealth management and leaves open what households can already get from lower-cost guidance. The overlap alone does not trigger Pass because the memo leaves open whether those alternatives deliver ongoing, tax-aware review and transaction approval on terms this segment can use. (*The Idea*, *Defensibility*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 15/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Can an early-access cohort of households previously priced out of comparable ongoing care generate repeat, profitable business for Vouch when a similarly capable alternative is available? Move to **Reach out** if the cohort shows materially lower delivery cost per verified, completed rebalance than comparable human-led care, positive contribution after support and exception handling, and repeat use that generates revenue while households can choose the alternative. Move to **Pass** if the test shows that comparable care already serves those households at viable prices and they readily switch under functional parity.
+Can Vouch repeatedly deliver suitable, tax-aware portfolio reviews to households whose current options leave that need unmet, at a cost its distribution commissions can cover? An early-access cohort would answer this by documenting households’ prior options and repeat use, and comparing fully loaded cost per completed review with human-led delivery. Include specialist review, corrections for stale holdings, and actual commission receipts. Repeat use by previously underserved households at sustainable cost would move the action to Reach out. Evidence that those households already get an equivalent outcome on comparable terms would move it to Pass. (*The Idea*, *Defensibility*, *Key Risks*, *Key Facts*)

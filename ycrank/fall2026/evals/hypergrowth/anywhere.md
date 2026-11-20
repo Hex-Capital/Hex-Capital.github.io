@@ -5,26 +5,28 @@
 
 ### Company case
 
-Anywhere’s strongest path is a self-serve consumer map for people who repeatedly save recommendations and plan outings with friends. Assuming strong product-market fit, the same workflow can travel across markets through a common map and agent interface. The founder showed individual destinations and identified worldwide 3D rendering performance as a challenge. Practical reach depends on map and place coverage, rendering performance, and access to the current iPhone app. (The Idea, Key Risks)
+Assuming strong product-market fit with its initial users, Anywhere could serve the same recurring job across markets. People can save places, retrieve recommendations, and make plans with friends using the same personal map and agent integrations. The iPhone app gives users a self-serve way to start. Android is forthcoming, and the founder identifies worldwide 3D rendering performance as a challenge. Those constraints narrow near-term reach, while the core planning workflow appears portable. (The Idea, Key Risks)
 
-The free iPhone listing provides a self-serve route from discovery to signup. YC reported thousands of first-week signups from a single X post for the two-person company. That is an early adoption signal from one launch, with paid uptake and repeatable distribution still unproven. Saved pins, visit history, and shared locations give users reasons to return. The memo documents no paid Anywhere plan or way for retained users to spend more as their usage grows. (The Idea, Market & Traction, Defensibility, Key Facts)
+Reported first-week signups numbered in the thousands after one launch post, an early distribution signal for a two-person team. The listing documents free access, and the memo establishes neither a paid path nor repeatable acquisition beyond launch. Synced visits, saved places, and notes give users a reason to return as their maps become more useful. Repeat use and the ability to grow spending from existing users remain unproven. (Market & Traction, Key Facts, The Idea, Defensibility)
+
+The current fee is zero per added user. Where map and place requests, model calls, and synced storage carry incremental costs, those costs reduce contribution without a user fee to cover them. The memo gives no per-user cost figures. The self-serve consumer path merits watching, with low confidence in sustained use and paid economics. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Google Maps already overlaps with Anywhere’s conversational place discovery. Users could try Anywhere after seeing the launch and keep planning in tools they already use. The 2.8/5 U.S. rating across nine reviews is a small adverse signal. Contribution per active user also remains unproven. The memo identifies model and map dependencies and synced user data, but supplies neither revenue per user nor the incremental costs of model calls, map services, storage, and support. The structural downside gate stays open because the evidence does not establish a market-by-market rebuild, mandatory manual rollout, or unavoidable losses at scale. (Market & Traction, Key Risks, Defensibility, Key Facts)
+Anywhere could attract launch interest and still struggle to become a habit. Google Maps already covers conversational place discovery, and Anywhere’s 2.8/5 rating from nine U.S. reviews is a small adverse signal about the first-use experience. Agent editing and accumulated map history would need to give users a recurring reason to return. The structural downside gate stays open because the memo shows a common workflow and self-serve access, with no evidence of required market-by-market rebuilding or unavoidable costs that would make paid growth infeasible. (Market & Traction, The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 18/25 |
+| Global buyer demand | 17/25 |
 | Repeatable acquisition and onboarding | 16/25 |
 | Retention economics | 10/20 |
-| Initial traction | 4/20 |
-| Cost economics | 4/10 |
+| Initial traction | 5/20 |
+| Cost economics | 3/10 |
 
-**Total Score: 52/100** (Neutral)
+**Total Score: 51/100** (Neutral)
 
 ### Decisive diligence question
 
-Can users acquired through the iPhone app convert to a paid Anywhere plan without founder help and renew while continuing to save places and plan outings? A self-serve cohort that renews across multiple billing periods at a price that covers attributable acquisition and serving costs would support moving to Reach out if the updated score reaches 65 and confidence is at least Medium. A conversion spike followed by weak renewals would keep Anywhere on Watch.
+Can an organically acquired cohort start and pay without help, keep using Anywhere for 90 days, and generate positive contribution after attributable acquisition, map, inference, storage, and support costs? Evidence of that result at meaningful volume would support Reach out if the updated score reaches 65 and confidence reaches Medium or higher.

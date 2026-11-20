@@ -1,32 +1,33 @@
 ﻿# Roma -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Roma’s strongest path. Roma 2.0 puts assignments, handoffs, and review in a shared task history across agents from different providers. The prior workflow costs users time copying context, chasing status, and checking results across tools. One plausible new use is routine follow-up work that small teams currently defer because coordinating it by hand takes too much time. The founder reported that one user completed 39 follow-ups in a week with Claude and the original Roma app. That supports the feasibility of the workflow, while the prior cost and the change in cost per successful follow-up remain unmeasured. The comparison would need to include human review and retries as well as agent costs. (The Idea, Market & Traction, Key Risks)
+Roma coordinates work across agents such as Claude, ChatGPT, and Muse through shared tasks, handoffs, and persistent decision histories. This addresses the work of copying context across tools and chasing status. The memo identifies no scarce input that limits AI deployment or that Roma supplies, so Building blocks of superintelligence scores zero. The memo also gives no baseline showing that manual coordination made a specific workflow uneconomic for a buyer or at a given cadence. Industry enabled by superintelligence therefore scores zero. Both zero scores trigger Pass. (The Idea, Market & Traction)
 
-The founder reported that some Roma 2.0 users connected 10 or more agents. The App Store listing showed 35 US ratings averaging 4.5/5. These are early usage signals, with willingness to pay and repeat use among previously excluded teams still untested. Roma announced free access through year-end. The likely expansion unit is a paying workspace, and the memo supplies no basis for estimating contribution after model, integration, and support costs. (Market & Traction, The Idea, Key Risks)
+Workspace histories give teams a reason to keep recurring work in Roma, although their effect on retention is untested. ClickUp already offers agent assignment, Notion connects agents to external tools, and Roma relies on third parties for integrations. These facts limit the case for durable pricing power. The memo records 35 US iPhone ratings averaging 4.5/5, and Roma reports that some 2.0 users connected at least ten agents. Those are early usage signals during a free-access period, with paid conversion and repeat team use unverified. (Defensibility, Key Risks, Market & Traction, The Idea)
 
-The founders bring relevant product experience and shipped two versions within weeks. The iOS release history records a fix for missed agent pickups, followed by notices and retries. That shows the team responding to a concrete failure mode. Reliable handoffs across providers remain to be demonstrated. (Founders & Team, Market & Traction, Key Risks)
+The founders bring relevant product delivery experience and shipped two versions within six weeks. The iOS release history records a fix, notices, and retries for missed agent pickups. Dependable handoffs in recurring team use remain unverified. The memo gives no paid price or delivery cost per successful task, leaving scale economics at the absent-evidence default. The launch and release record are clearer than the evidence on buyer behavior and economics. (Founders & Team, Market & Traction, Key Risks, The Idea)
 
 ### Countercase
 
-Roma may make existing task management more convenient while leaving the same work economically viable for the same buyers. ClickUp already assigns work to agents, and Notion connects its agents to external tools. Roma’s reusable task histories could give teams a reason to stay under model parity, but retention, paid preference, and network effects remain unproven. The overlap establishes a credible substitution risk. Equivalent cross-provider handoffs and buyer switching remain untested, so the evidence supports Watch. The memo identifies no independently supported scarce complement. (The Idea, Defensibility, Market & Traction)
+The strongest case for outreach is that Roma could make frequent follow-up practical for a small team that currently skips it because manual coordination takes too long. Roma relayed one user's account of completing 39 follow-ups in a week with Claude and the original app. That suggests a workflow worth testing, but the account gives no prior cadence, supervision time, or cost per successful follow-up. It leaves the newly viable use hypothetical and does not clear the AGI fit gate. (Market & Traction, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent teams pay and renew for Roma to handle recurring cross-agent work they previously skipped, when they can use the same models through a credible alternative? A paid cohort that documents previously skipped work, compares the full cost per successful outcome, and renews with that alternative available would move the action to Reach out. If the comparison shows the work was already economical or teams readily switch at comparable functionality, move to Pass.
+Can a paying small team use Roma to sustain a follow-up cadence it previously skipped because of coordination cost? A comparative pilot using the same models in Roma and the team's existing tools would answer this by measuring fully loaded cost per successful follow-up, including human review and missed pickups. If the team repeatedly pays for a cadence that only the Roma workflow makes affordable in that comparison, change the action to Reach out to test whether the result generalizes.

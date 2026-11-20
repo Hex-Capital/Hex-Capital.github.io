@@ -5,28 +5,28 @@
 
 ### Company case
 
-Eclipse sold to commercial port operators is Caladh’s strongest Hypergrowth path. Ports have an ongoing security job, and Caladh says Eclipse can integrate with third-party detection systems. Assuming strong product-market fit at an initial port, the same product could serve comparable operators abroad if the integration and site assessment carry over with bounded changes. The memo leaves the extent of those changes uncertain. (The Idea, Key Risks)
+Assuming strong product-market fit at an initial commercial site, Caladh’s most plausible growth path is selling the same hardware to port or offshore infrastructure operators in other markets. Those operators plausibly share an ongoing security need. Caladh says its systems can integrate with third-party detection, which could let buyers retain existing equipment. How much adaptation each site would require remains uncertain. (The Idea, Key Risks)
 
-The November launch establishes visibility, and the Coast Guard inquiry shows a government buyer exploring the problem. Caladh solicits introductions, briefings, assessments, and pilots. The documented buyer path is human-led, with little evidence of reusable onboarding. The memo gives no paid deployments, realized revenue, or paying-customer trajectory, and Caladh’s revenue status is unknown. (The Idea, Market & Traction, Key Facts)
+The documented sales path starts with introductions, briefings, site assessments, and pilot requests. That gives Caladh a repeatable way to start conversations, with a hands-on path to first value. The November launch and Coast Guard market research show publicity and buyer interest, respectively. Revenue status, paid deployments, and commercial growth remain unknown. The memo also provides no basis for estimating renewals or expansion revenue from existing customers. (The Idea, Market & Traction, Key Facts)
 
-The ongoing security need could sustain use. A site contract is an inferred revenue model, and the memo gives no renewal terms or way for retained customers to increase spend. Under that scenario, contribution from the next site would be the contract revenue less attributable selling, assessment, hardware, installation, integration, and support costs. The memo supplies no price or cost inputs for estimating that contribution. (The Idea, Key Risks, Key Facts)
+Under a site-contract scenario, incremental contribution would be the contract price less hardware, sales effort, assessment, installation, integration, and support. Reusing the same product and integration could reduce delivery labor. Pricing and deployment costs are unknown, so positive contribution remains unproven. (The Idea, Key Risks)
 
 ### Countercase
 
-Even with strong fit at one port, each subsequent sale could require fresh procurement, field validation, and site-specific integration. Caladh’s assessment and pilot offers make that concern concrete, and the memo documents no operating-site results that show how much work carries over. The structural downside gate stays open because the memo does not establish that bespoke work is unavoidable or that its cost makes faster growth infeasible. (The Idea, Key Risks)
+Caladh could remain a site-by-site hardware business even with strong initial fit. Its assessment-led sales path, unresolved field performance, and potential competition from incumbent suppliers could make each sale slow and labor-intensive. The structural gate stays open because the memo leaves the extent of required redesign and the economics of repeat deployment unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 4/25 |
+| Repeatable acquisition and onboarding | 5/25 |
 | Retention economics | 7/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can Caladh repeat a paid Eclipse rollout across independent port operators in more than one market using the same core product? Recurring production contracts, dated deployments, and recorded onboarding and support costs would show whether the rollout supports a move to Reach out at the rubric’s score and confidence thresholds. If the rollout shows that unavoidable custom work makes incremental growth uneconomic, move to Pass.
+Can Caladh repeat a paid deployment for the same type of commercial buyer in a second market? A completed deployment with a comparable installation scope and positive contribution after sales and delivery labor would support continued Watch while commercial growth and retention develop. Evidence that replication requires substantial market-by-market rebuilding with no credible near-term transfer path would change the action to Pass.

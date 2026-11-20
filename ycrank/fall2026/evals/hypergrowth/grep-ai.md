@@ -5,28 +5,28 @@
 
 ### Company case
 
-Conditional on strong product-market fit, Grep’s strongest path is self-serve evidence gathering for underwriting teams. The current product builds workflows from task descriptions and supporting documents. That makes substantially the same research workflow plausible across markets, with buyers supplying their own criteria and analysts retaining final judgment. Access to local data sources remains uncertain. Shopmonkey reported running 64 Deep Research jobs in its first 30 days and cutting per-account research from hours to minutes. That shows repeated use in an underwriting queue. Credit top-ups and the $200 and $500 monthly API plans give retained accounts room to spend more as workload grows. The memo establishes the expansion mechanism, while realized retention and expansion remain unknown. (The Idea, Market & Traction, Key Facts)
+Assuming strong product-market fit, Grep’s clearest path to hypergrowth is recurring evidence gathering for fintech underwriting teams. Grep can turn recurring steps into reusable workflows and route exceptions to a reasoning model. The API, SDKs, and MCP integration make the same product plausible for teams in multiple markets. How much customer-specific configuration and validation those teams would need remains uncertain. (*The Idea*, *Key Risks*)
 
-AgentRun offers a plausible developer discovery channel. Grep lists self-serve signup, a free trial, wallet top-ups, and API and SDK access. The memo leaves open whether a typical underwriting team can go from signup to paid production without founder help. The six-person company launched managed agents on October 13, 2026. The customer references and reported outcomes establish adoption, while payment status and the pace of commercial growth remain unknown. Initial traction therefore uses the absent-evidence default. (The Idea, Market & Traction, Key Facts)
+Grep documents self-serve signup, a free trial, wallet top-ups, and API subscriptions at $200 and $500 per month. Those give buyers a route to try and pay for the product. Shopmonkey reported running 64 Deep Research jobs in its first 30 days, which supports repeat use. The memo leaves open whether Shopmonkey paid or reached production independently. If retained teams expand their workloads, additional credits or a higher subscription tier could grow same-account revenue enough to offset churn. That is an inference from pricing and workflow, and the memo provides no usable evidence of realized commercial growth for the managed-agent product. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-At the entry top-up price, a job would generate $0.10 per credit consumed, assuming credits are purchased at that rate. Contribution depends on the credits charged per job minus the cost of workflow execution, model calls, infrastructure, and attributable onboarding and support. Reusing code for routine steps and reserving reasoning calls for exceptions offers a concrete cost lever. Grep reports a 91% model-cost reduction in one internal screening benchmark. That result leaves production contribution uncertain because the memo gives neither representative credit consumption nor all-in serving costs. (The Idea, Key Risks)
+Incremental contribution depends on what Grep earns from additional credits or subscriptions after model execution, onboarding, and support. Grep reported a 91% model-cost reduction in an internal screening-alert benchmark. Reusing routine steps and reserving reasoning models for exceptions gives Grep a concrete cost lever. Its contribution at the published prices remains uncertain across production workloads and levels of staff involvement. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-If ordinary buyers need Grep to encode their rules and help validate each workflow before production, growth could depend on founder and engineering time even with strong demand. IG required customer-specific screening rules, months of shadow testing, governance approval, and continued human oversight for high-risk cases. The structural gate stays open because analyst-assisted research offers a credible path to production use without taking over the regulated decision. (Defensibility, Key Risks, Market & Traction)
+IG reported that flagged-customer activation fell from 2–3 days to under 10 minutes, but reaching production required encoding IG’s screening rules, months of shadow testing, governance approval, and continued manual oversight for high-risk cases. If ordinary buyers require comparable work, a self-serve trial could still lead to a bespoke rollout. The structural downside gate stays open because the memo establishes this dependency for IG’s screening deployment and leaves a credible path through narrower underwriting research. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 19/25 |
-| Repeatable acquisition and onboarding | 17/25 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 12/25 |
 | Retention economics | 16/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 6/10 |
 
-**Total Score: 64/100** (Neutral)
+**Total Score: 55/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of underwriting teams independently reach paid production and generate positive contribution over successive billing periods? Signup and activation records, repeat billing, and attributable serving and support costs would answer it. A demonstrated cohort would move the action to Reach out.
+Can several comparable fintech operations teams take the same underwriting research workflow from self-serve signup to recurring paid production with minimal Grep staff time and positive incremental contribution? Activation records, repeat invoices, and attributable compute and staff costs would answer it. A repeatable result would move the action to Reach out if the revised score clears the investment threshold. If the rollout consistently requires bespoke work that makes faster growth uneconomic, move to Pass.

@@ -5,28 +5,28 @@
 
 ### Company case
 
-ORO’s strongest path is selling hosted SMB Bench access to AI teams that repeatedly evaluate new model or agent versions. Assuming strong product-market fit for that job, teams in multiple markets could reuse the same simulated buying desk, matched scenarios, and fixed reorder baseline to test whether agents account for delayed shortages and lost orders. Wholesaler input helped calibrate the simulation. The product’s scope is one purchasing workflow, and hosted access is granted by email. (*The Idea*, *Defensibility*, *Key Risks*)
+Assuming strong product-market fit with AI teams testing agents’ wholesale buying judgment, ORO could serve teams in multiple markets with the same hosted simulation. SMB Bench holds the buying environment constant and measures how delayed customer and supplier effects change simulated profit. The published tasks and run traces support reuse across teams. Portability depends on buyers accepting a common benchmark for their evaluation work. (The Idea, Defensibility)
 
-The public report, leaderboard, and run traces give AI teams a way to discover the benchmark. Email approval remains a human step, and the memo documents no independent route from discovery to payment and a first hosted run. Rerunning matched scenarios across model releases gives teams a concrete reason to return. **Scenario assumption:** if ORO charges per run, more evaluations could increase spend within retained accounts. Pricing, paid repeat use, and the ability of expansion to offset churn remain unverified. (*The Idea*, *Key Facts*)
+The public report, leaderboard, and traces give AI teams a way to discover the product. Hosted access requires an email request, the grader is gated, and the memo documents no self-serve route from purchase to first run. Rerunning the same scenarios after model updates gives teams a concrete reason to return. Usage billing could let ORO earn more as teams test more models or releases. That is a scenario assumption. Pricing, paid repeat use, and account expansion remain unverified. (The Idea, Defensibility)
 
-ORO reported 859 runs across 16 models in the first week after the November 6 launch. The memo also records 670 dataset downloads over the preceding month. These figures show early benchmark activity, with payment status and commercial growth unknown, so initial traction receives the default. Under the per-run scenario, incremental contribution would be the run fee less hosting, grading, any inference ORO pays for, and attributable access and support labor. The memo gives no price or operating inputs to establish that contribution, so cost economics also receives the default. Those commercial gaps drive Low confidence. (*Market & Traction*, *The Idea*, *Key Facts*)
+ORO reported 859 runs across 16 models in the first week after the November 6 launch. The memo also records 670 dataset downloads. Both show research activity. Revenue, paying-customer growth, and pre-revenue status are unverified, so Initial traction takes the absent-evidence default. For a hosted evaluation, incremental contribution would be the fee less infrastructure, grading, and attributable onboarding and support. The memo supplies neither a fee nor measured serving costs, so Cost economics also takes the default. (Market & Traction, Key Facts, The Idea)
 
 ### Countercase
 
-AI teams may use the public benchmark for research and reserve paid budgets for simulations that reproduce their own tools, data, and workflows. SMB Bench covers purchasing while other functions follow fixed rules. If customers pay mainly for workflow-specific replicas, repeated calibration and implementation could tie growth to delivery labor. The structural downside gate stays open because the memo documents a reusable hosted benchmark and gives no evidence that serving its intended buyers requires bespoke deployments. (*The Idea*, *Defensibility*, *Key Risks*)
+AI teams may only pay for simulations that reproduce their own workflows. SMB Bench covers one purchasing workflow, and wholesalers helped calibrate both the simulation and its scripted expert policy. If each new buyer needs comparable calibration, ORO could face recurring implementation costs and competition from vendors that already build enterprise replicas. The structural downside gate clears on the available evidence because the shared benchmark is already reusable and the memo does not establish that bespoke work is unavoidable for paying buyers. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
-| Repeatable acquisition and onboarding | 7/25 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 8/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort of independent AI teams find SMB Bench through its public materials, pay and complete a hosted evaluation without ORO staff intervention, then pay to rerun it for a later model release? Activation, billing, and serving-cost records from that cohort would answer the question. Repeat paid use at positive incremental contribution would support Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that buyers will pay only for bespoke deployments whose delivery labor makes faster growth uneconomic would trigger Pass.
+Can independent AI teams buy SMB Bench and pay to rerun it across successive model releases without custom setup? A dated cohort that purchases and activates independently, increases paid usage on the same benchmark, and generates positive contribution after attributable serving and onboarding costs would support moving to Reach out if it raises the score to at least 65 and confidence to at least Medium.

@@ -1,30 +1,33 @@
 ﻿# Clean -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-Clean’s strongest path is New Economies. Sellers into manufacturing and insurance use contact exports and manual research to find buyers before supplier selection. Clean says it assembles timelines from more than 1,000 sources and attaches the underlying records to each recommendation. If this reduces analyst time per verified buying window enough, sellers could prospect accounts they previously skipped because the expected deal value could not justify the research. That is a scenario assumption. The memo gives neither the former research cost nor the change in cost per verified opportunity found before supplier selection. (The Idea)
+Clean sells sales intelligence to teams that already use contact exports and manual research to find buyers. Clean says it combines permits, shipments, and filings into account timelines, then identifies buying windows and decision-makers with the underlying records attached. API and MCP access give sales agents another way to query those timelines. The memo identifies no AI workload that depends on Clean’s data or faces a shortage of equivalent inputs as deployment grows. The building-blocks path scores zero. (The Idea, Market & Traction)
 
-The memo records a November launch after a summer pivot and documents relevant enterprise sales and applied ML experience. The first paying customer was reported in September. In a testimonial published by Clean, Vivameda reported signing $60,000 in contracts in two weeks and raising its reply rate from about 4% to 19%. These are early demand signals. Repeat purchasing and willingness to pay among sellers newly served by the cost change remain unverified. The memo also gives no per-customer cost evidence for data licensing, inference, or human review. (Market & Traction, Founders & Team, The Idea, Key Risks)
+The strongest commercial case is earlier outreach in an existing sales workflow. Vivameda’s testimonial reports replies rising from about 4% to 19% and $60K in signed contracts in two weeks. These results support the value of better timing. The memo gives no example of a seller or prospecting cadence that manual research priced out and Clean made viable, and it provides no comparison of cost per timely, qualified opportunity. The industry-enabled path scores zero, which sets the action to Pass. (The Idea, Market & Traction)
+
+Clean reports owning some datasets and attaching source records to its signals. That gives buyers a way to verify recommendations, but licensed data dependence and overlap with Salesmotion and Apollo limit confidence that Clean could hold pricing under comparable AI capability. A reported first paying customer and named testimonials support early demand. The company’s ARR reports predate the documented November launch and leave repeat paid demand for the current product unclear. The launch and the founders’ relevant sales and technical experience support execution credit, while the memo gives no operating evidence on the cost of delivering the next customer’s results. (Defensibility, Key Risks, Market & Traction, Key Facts, Founders & Team)
 
 ### Countercase
 
-Clean may be improving prospecting for existing buyers while competing with tools they already use. Salesmotion aggregates account signals inside CRM workflows, and Apollo bundles AI account research with outreach. Clean reports using its own datasets alongside licensed records, but the memo establishes neither exclusive control of a scarce input nor buyer preference or network effects under functional parity. Clean’s aircraft example also shows outreach beginning after supplier selection, an instance where the workflow missed its intended window. These facts leave market opening and durable value capture unproven. The memo contains no buyer switching evidence that would close the New Economies path, and it supports no independent scarce-complement case. (Defensibility, Market & Traction, Key Risks)
+A small manufacturing supplier might be able to monitor far more accounts each week than it could research manually. Clean’s record-linked alerts and Vivameda’s reported reply-rate gain make that scenario plausible. It assumes Clean can consistently surface qualified opportunities before supplier selection at a cost the seller can sustain. Clean’s aircraft example records outreach after a supplier had already been selected. The testimonial leaves the cost and cadence assumptions untested, so the scenario does not clear the thesis gate. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 23/150** (Pass)
 
 ### Decisive diligence question
 
-Will sellers who previously skipped a segment pay and renew with Clean when a functionally comparable alternative is available? A paid cohort would move the action to **Reach out** if it shows that Clean lowers the all-in cost per verified pre-selection opportunity enough to make that segment viable, earns positive contribution at the renewal price, and retains buyers after a side-by-side trial. If the test shows that the cost reduction fails to open the segment or buyers readily switch at parity, move to **Pass**.
+Can a paying manufacturing seller sustain a prospecting cadence that manual research previously made unaffordable? A paid pilot would move the action to Reach out if it shows repeat use at that cadence, a viable fully loaded cost per qualified opportunity found before supplier selection, and continued buyer preference for Clean’s record-linked workflow when the alternative has comparable AI capability.

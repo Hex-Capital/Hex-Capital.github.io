@@ -5,30 +5,28 @@
 
 ### Company case
 
-Archangel’s strongest hypergrowth path is licensing the same sandboxed clinical evaluation package to frontier labs and medical AI developers. Assuming strong fit with those buyers, the recurring job is to test each model release on tasks that require reading a chart, taking an action in the EHR, and documenting the result. De-identified charts, scripted tasks, and physician-graded reference cases give Archangel assets it could reuse across lab buyers in different markets. The memo leaves open how much local practice, EHR behavior, and data-license scope would limit that reuse. *(The Idea, Defensibility, Key Risks)*
+Assuming strong product-market fit with frontier labs and medical AI developers, Archangel’s strongest growth path is licensing the same sandbox and clinical case library to multiple buyers. The recurring job is testing whether agents retrieve information, execute actions, and document them correctly. Developers in other markets could plausibly use the same cases to test those behaviors. The extent of adaptation for local clinical workflows and the scope of cross-market data rights remain uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
 
-The August marketplace listing gives buyers a repeatable way to discover the offering. Negotiated licenses keep purchase high-touch, and the memo describes custom evaluations and physician labeling without establishing a buyer-run path to first value. Reusing a consistent test suite across model releases could support retention by letting labs compare results over time. Renewal terms, repeat purchases, and a way for retained accounts to spend more remain unverified. *(The Idea, Market & Traction, Key Facts)*
+The August marketplace listing establishes a discovery channel for the current product. Negotiated licenses make purchase human-led, and the memo provides limited detail on implementation and first use. Re-running clinical cases after model updates could make the sandbox a recurring dependency, but billing terms and paid account expansion are unknown. The company reports use by frontier labs and medical AI developers. The August listing gives a timing reference for the two-person team, while paid uptake, revenue status, and commercial growth remain unknown. (*The Idea*, *Market & Traction*, *Key Facts*, *Archangel Health*)
 
-The current offering was publicly listed by August 24, after the earlier surgery-center product. The memo lists a two-person team, and Archangel reports use by frontier labs and medical AI developers. Payment status, customer counts, and the pace of paid adoption are unknown, so initial traction takes the absent-evidence default. *(Market & Traction, Key Facts)*
-
-In a reusable-license scenario, incremental contribution would be the license fee less the added cost of closing and onboarding the lab, supplying any buyer-specific physician work, and running and supporting its workloads. The improvement lever is spreading chart preparation and specialist grading across buyers if license terms allow reuse. Pricing and delivery effort are undisclosed, leaving contribution uncertain. *(The Idea, Defensibility, Key Risks)*
+If Archangel can license the same cases to multiple buyers, it could spread case preparation and initial specialist grading costs across licenses. Incremental contribution would then depend on license revenue relative to sales, onboarding, sandbox compute, support, and any additional grading. Pricing, reuse rights, and the amount of work per deployment remain uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-The lab offering could scale as a custom service. Negotiated data rights and limits on onward sharing could require buyer-specific work, while differences in clinical workflows could require new charts, task design, and physician grading for each market. If those steps recur with each deployment, strong demand could translate into more specialist work and limited operating leverage. The structural downside gate stays open because the memo leaves cross-buyer reuse plausible and does not establish that such work is unavoidable for the lab product. *(The Idea, Defensibility, Key Risks)*
+The offering could scale as a custom clinical-data service. Negotiated licenses, limits on onward sharing, custom evaluations, and specialist grading could make each deployment require fresh rights work, case preparation, and clinician time. The planned health-system offering, which would use each system’s own records and physician feedback, is especially exposed to that dependency. The structural downside gate stays open because the current developer offering has a plausible path to reusing its sandbox and cases, and the memo leaves per-market rebuilding and per-buyer clinician work unresolved. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can Archangel sell the same nephrology evaluation package to labs in two markets under reusable license terms, get them running through a standard setup, and earn repeat paid usage with positive incremental contribution after onboarding, physician time, and support? Signed licenses, repeat invoices, and deployment records would answer it. A successful rollout would support moving to Reach out if it brings the score to at least 65 and confidence to Medium or High. Evidence that each market requires substantial bespoke rebuilding with no credible near-term transfer path would move the action to Pass.
+Can medical AI developers in two markets buy and activate the same licensed sandbox and case library through a standard buyer-run flow, then pay to rerun evaluations with limited incremental clinician work? Comparable paid deployments showing those conditions would support rescoring for Reach out. Evidence that each market requires a substantial rebuild of the case library and workflows would change the action to Pass.

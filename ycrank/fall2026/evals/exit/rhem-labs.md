@@ -5,19 +5,21 @@
 
 ### Company case
 
-The strongest route is a strategic acquisition by a home-care monitoring platform. Rhemy could give that buyer a way to act on monitoring alerts through voice-assisted tasks and family handoffs. Kanematsu’s strategic investment in ElliQ shows adjacent corporate interest. The acquisition rationale remains an inference because the memo provides no measured reduction in caregiver workload or evidence that a buyer would pay to own the product. (The Idea, Market & Traction)
+A strategic acquisition by an established home-care technology provider is the strongest route. Rhem describes Rhemy as combining voice-operated errands and reminders with wellness readings and a family app. A buyer could use that bundle to add task completion to a monitoring product and reduce routine caregiver work. Kanematsu’s strategic investment in ElliQ shows interest in adjacent technology. The buyer benefit for Rhemy remains an inference, with no measured workflow savings or acquisition pricing in the memo. (*The Idea*, *Market & Traction*)
 
-The memo records an October preorder launch and an advertised $99 monthly rental. Rhem publishes one customer testimonial about blood-pressure reminders and logging. The reported $500,000 pre-seed and the founders’ robotics and manufacturing experience make a limited paid deployment plausible. Its funding needs remain uncertain because the memo gives no shipment volumes, retention, unit costs, or runway. (Market & Traction, Key Facts, Founders & Team)
+A paid deployment that measures caregiver time saved over 90 days is a plausible seed-stage milestone. The memo records an October preorder launch and reports a $500,000 YC pre-seed investment. Rhem’s published testimonial describes one user’s experience with blood-pressure reminders and logging. The evidence leaves shipment volumes, sustained use, deployment costs, and funding for the test unverified. The memo also leaves IP and contract transfer rights and any required data consents unverified. It gives no evidence of an independent liquidity route for this holder. (*Market & Traction*, *Key Facts*, *Key Risks*)
 
-The proceeds scenarios use the shared benchmark of a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, or $83.3 million in distributable equity value. Both sale scenarios assume a full cash acquisition within eight years, $5 million in net debt and other deal deductions, and an eligible holder receiving 3% pro rata with no additional preference or escrow deductions.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross return within eight years requires $2.5 million in cash, or about $83.3 million in distributable equity at 3%. The sale cases below assume an eligible holder sells the entire stake, receives cash at closing within eight years, and participates pro rata without a preference or other senior equity claim reducing the payout. Sale prices and deductions are illustrative assumptions. The memo supplies no transaction prices or waterfall terms. (*Market & Traction*, *Key Facts*)
 
-- **Modest sale.** An illustrative $40 million enterprise value leaves $35 million in distributable equity and pays the holder $1.05 million, or 2.1×.
-- **Strong sale.** An illustrative $100 million enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. The memo provides no acquisition price evidence or buyer economics to support this scenario.
-- **Prolonged private.** Continued operation with cash reinvested yields $0 realized within eight years. The memo identifies no funded payout or eligible share purchase. (Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|-----------|-----------------------------|----------------------|
+| Modest sale | $40M enterprise value less $5M in assumed net debt and deal adjustments leaves $35M distributable | $1.05M, or 2.1× |
+| Strong sale | $100M enterprise value less $5M in assumed net debt and deal adjustments leaves $95M distributable | $2.85M, or 5.7×. Selling 75% of the stake would yield about $2.14M, or 4.3×. |
+| Prolonged private | The company continues operating and reinvests available cash, with no eligible share sale or funded payout within eight years | $0 realized |
 
 ### Countercase
 
-A buyer could combine existing products or partner for individual functions. ElliQ already covers reminders and family check-ins, while Vayyar offers touchless monitoring. Rhemy’s wellness estimates and Halo’s fall-alert limitations could also reduce the value of owning the bundle. Sensitive-data sharing adds a diligence issue around what could transfer with the product. These are credible reasons for a buyer to discount the asset. The memo establishes neither a material closing barrier nor a supported sale price that consistently falls short of the holder’s hurdle, so the Pass gate stays open. (Defensibility, Key Risks)
+A buyer could assemble the functions it needs from existing products. ElliQ already covers reminders and family check-ins, while Vayyar offers touchless radar monitoring. Rhem also says its wellness readings are estimates and Halo can miss falls or generate false alerts. Those limitations could reduce the value of the bundle to a buyer. The memo leaves open whether a buyer would pay enough for the integrated product. It establishes neither a structural closing block nor a credible price ceiling below the proceeds hurdle, so the Pass gate is untriggered. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -25,12 +27,12 @@ A buyer could combine existing products or partner for individual functions. Ell
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Would a home-care monitoring platform value Rhemy’s task completion and family handoffs enough to support an acquisition above roughly $88.3 million in enterprise value after a scaled rollout? A paid deployment that measures sustained use and caregiver time saved after hardware and support costs, together with a buyer’s documented valuation rationale at that scale, would move the action from Watch to Reach out.
+Can a paid home-care deployment show sustained caregiver time savings large enough for a strategic buyer to justify a purchase that clears the holder’s proceeds hurdle? A 90-day deployment measuring time saved per household after device and support costs, paired with a buyer’s assessment of those economics at scale, would answer it. A supported price range that clears the hurdle after deal deductions would move the action to Reach out. Evidence that the strongest credible sale would leave the holder materially short would move it to Pass.

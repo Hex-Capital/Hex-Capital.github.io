@@ -5,36 +5,30 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an expert-data supplier such as Mercor. The memo records Mercor’s acquisition of Deeptune, which added enterprise-app simulations to its expert marketplace. Epsilab reports working with unnamed frontier labs and using practitioner input and real workflow data to build resettable environments with verifiable outcomes. A buyer could use those environments and graders to expand its training catalog faster than building each workflow internally. The memo provides no measured buyer savings, training gains, or repeat paid deployments. (Market & Traction; The Idea; Defensibility)
+A strategic acquisition is Epsilab’s strongest supported route. Epsilab reports working with unnamed frontier labs and using real workflow data and practitioners to build stateful, resettable training environments. The memo records Mercor’s acquisition of Deeptune, an adjacent enterprise-simulation asset. That deal gives the buyer rationale some support. A lab or training-data vendor could pay to own a reusable library of environments and graders if it improves performance on real workflows and costs less to expand than an internal effort. Epsilab’s public job postings describe generalization testing and production automation. A paid lab deployment that measures both real-work performance and the cost of delivering subsequent environments is a plausible seed milestone. Pilot funding, time, and capital needs remain unknown. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-A paid lab deployment that improves performance on held-out workflows and expands to a second workflow would test both real-world transfer and repeatable delivery. The founders’ RL and infrastructure experience and the two posted roles make that milestone plausible. The memo gives no funded pilot, delivery budget, or timeline. The environment software is an identifiable asset, with rights to reuse and transfer the underlying workflow data and practitioner contributions still unverified. (Founders & Team; Market & Traction; Key Risks; Defensibility)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity value at 3% ownership. The memo supplies no Epsilab price evidence or comparable deal value. The amounts below are illustrative sensitivities. Both sale cases assume an all-cash acquisition within eight years, an eligible holder selling its entire stake, and a pro rata waterfall with no senior preferences diverting proceeds. Reusable workflow data rights remain unverified. (Defensibility, Market & Traction, Key Facts)
 
-**Proceeds bridge.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. Both sale scenarios assume closing within eight years, a fully cash-funded sale of 100% of the equity, holder eligibility, and a pro rata waterfall with no senior preference leakage. The $5 million deduction for net debt and deal adjustments is illustrative.
-
-| Scenario | Enterprise value to distributable equity | Gross cash to holder |
-|---|---:|---:|
-| Modest sale | $50M − $5M = $45M | $1.35M (2.7×) |
-| Strong sale | $100M − $5M = $95M | $2.85M (5.7×) |
-| Prolonged private | Cash reinvested with no eligible share sale or payout | $0 |
-
-Under those assumptions, the acquisition needs roughly $88.3 million in enterprise value. The memo supplies no transaction price or Epsilab revenue signal to support either sale value and no evidence of an independent liquidity route. (Market & Traction; Key Facts)
+- **Modest sale.** At $50 million in enterprise value with no net debt or other deal deductions, distributable equity is $50 million and the holder receives $1.5 million, or 3×.
+- **Strong sale.** At $100 million in enterprise value on the same terms, the holder receives $3 million, or 6×. If net debt and deal deductions total $20 million, distributable equity falls to $80 million and the holder receives $2.4 million, or 4.8×.
+- **Prolonged private.** If Epsilab keeps operating and reinvests available cash without an eligible share sale or payout, the holder realizes $0 within eight years.
 
 ### Countercase
 
-A buyer could build enough of the capability internally or buy environments as needed. OpenAI’s GDPval shows that a lab can build work-based evaluations in-house, and Prime Intellect’s open-source tooling lowers the effort needed for rollout and grading. Epsilab’s research posting also anticipates reward hacking and weak generalization, while expert-heavy production could make each new workflow costly. Together, those risks weaken the case for paying an acquisition premium. The memo establishes neither a structural closing block nor a supported sale range that leaves the holder materially short, so the Pass gate is untriggered. (Key Risks; Defensibility)
+A lab could build its own evaluations using open-source rollout and grading infrastructure. The memo cites OpenAI’s GDPval as evidence of internal evaluation capability. If Epsilab’s environments take substantial expert effort to produce and gains on simulated tasks fail to carry over to real work, a buyer has little reason to pay for the library. Those risks are concrete, but the memo does not establish an equivalent substitute for Epsilab’s full offering, a closing barrier, or a supported price range that leaves the holder short. The Pass gate is therefore untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid lab deployment demonstrate a repeatable advantage over building in-house that supports a strategic buyer’s willingness to pay above the roughly $88.3 million enterprise-value hurdle? A paid expansion backed by measured delivery savings or held-out workflow gains, together with buyer feedback tying those results to a credible acquisition range above the hurdle, would move the action to Reach out.
+Can a paid frontier-lab deployment show that Epsilab’s reusable environments improve performance on held-out real workflows enough to justify buying the library instead of building it internally? Buyer-validated performance and cost results, reusable rights that can transfer in a sale, and a buyer-side valuation case that clears $83.3 million after deal adjustments would move the action to Reach out. (The Idea, Defensibility, Key Risks)

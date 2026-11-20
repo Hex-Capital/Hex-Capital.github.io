@@ -1,30 +1,33 @@
 ﻿# Reason Machines -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. Reason batches tool calls and reuses cached context. The company reports 22% lower model cost per solved benchmark task than Codex using the same model. If Codex’s model cost were $1 per solved task, that result would imply $0.78 for Reason under benchmark conditions. The memo gives no baseline for engineer time or all-in cost per accepted pull request. Routine repository maintenance that teams currently defer is a plausible new use if Reason cuts total cost enough, including cloud runs, retries, and human review. The memo documents an efficiency gain in an existing market. It leaves the labor savings and market opening unproven. (The Idea, Key Risks)
+**Building blocks of superintelligence.** Reason targets inference consumption in multi-step repository tasks. Its harness batches tool calls and reuses cached context. The memo describes subscription caps and high bills, but provides no evidence that usable inference capacity stays scarce as coding-agent demand grows or that teams face persistent limits across providers. The design supports an efficiency advantage for an existing workload. A scarce-input mechanism remains unsubstantiated. (The Idea, Defensibility, Key Risks)
 
-The company reports 20,000 users in four weeks. The memo records 112 Chrome extension users and quotes one user describing a completed agent run. These are early usage signals, with paid conversion and repeat use for newly viable work still unknown. The two founders’ prior IDE and applied ML work, followed by the Ara launch and two Reason agent releases, supports seed-stage execution. The expansion unit is a paid seat, with $50 and $200 monthly plans, credit allowances, and paid top-ups. Contribution per seat remains untested without actual inference, cloud, and support costs under sustained usage. (Market & Traction, Founders & Team, The Idea, Key Facts)
+**Industry enabled by superintelligence.** Reason can take work from an issue, schedule, or Slack alert through to a pull request. The company reports 22% lower cost per solved task than Codex using the same model on fixed benchmark tasks. That comparison measures model attempts. The memo identifies neither a buyer or task class previously excluded by cost nor a fully loaded cost per accepted pull request that crosses an affordability threshold. Repository integration and persistent sessions could make Reason a distinct product under model parity, but the memo documents overlapping cloud execution and cost optimization from incumbents. Both thesis paths score zero, triggering Pass. (The Idea, Defensibility, Key Risks)
+
+The shipped harness and the founders’ prior developer-tool and ML work support seed-stage execution credit. The memo records 112 Chrome extension users and relays a customer account of one run producing actionable findings and fixes. The company-reported 20,000 users indicate launch interest, with paid conversion and repeat use unestablished. The public harness foundation, competitor overlap, and reliance on provider quotas limit evidence of durable value capture. Subscription prices and benchmark savings leave contribution per accepted pull request unresolved because customer-level model, cloud, retry, and review costs are missing. (Founders & Team, Market & Traction, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-Reason may lower costs for work teams already run while competitors adopt similar optimizations. Reason builds on the public Pi harness, Cursor already offers overlapping cloud execution, and Devin has its own cost-optimized harness. Connected workflows could give teams a reason to stay, but the memo provides no retention under functional parity, brand premium, or evidence that additional users improve the product for existing users. Provider quota changes could also disrupt subscription rollover. These risks leave both New Economies gates open for testing. The memo shows neither ready customer substitution nor a controlled scarce complement that would support a separate path. (Defensibility, The Idea, Key Risks)
+The strongest case is that cheaper inference and persistent execution could make scheduled repository maintenance economical for teams that currently leave that work undone. The same-model benchmark supports the cost-saving hypothesis, and the quoted customer run shows a concrete repository outcome. The threshold crossing remains an assumption. The memo gives no baseline for work previously skipped, no comparison at equivalent acceptance quality, and no repeat paid use for that task class. The countercase therefore leaves the Pass gate in effect. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent teams repeatedly pay Reason after credits expire to complete repository work they previously deferred, when a similarly priced, functionally comparable alternative is available using the same model? A paid cohort that establishes the prior delivery cost, shows lower engineer time and all-in cost per accepted pull request, and continues choosing Reason would move the action to Reach out. If the cohort shows the work was already economically viable or teams readily switch at parity, move to Pass.
+Can Reason win repeat paid use for a class of repository maintenance that teams previously skipped on cost grounds? A paid pilot would need to document the buyer’s prior affordability threshold and show that Reason clears it at comparable acceptance quality while a same-model alternative remains above it. The comparison should include model and cloud costs, retries, and human review per accepted pull request. A repeat purchase on those terms would move the action to Reach out.

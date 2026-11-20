@@ -5,19 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an inference platform such as Baseten. OpenLake describes a workflow that post-trains models on incoming data, A/B tests the updates, and serves them on the existing deployment. Baseten already offers post-training with embedded researchers. Owning OpenLake could let Baseten automate more of that work and serve more customers with the same engineering staff. That buyer rationale is an inference. OpenLake reports that its models halve serving costs on average, while the memo records OpenLake’s participation in MLPerf Storage. The reported savings leave the economics of continuous updates specifically unverified. (The Idea, Market & Traction, Defensibility)
+A strategic sale to an inference platform is OpenLake’s strongest supported route. Together AI, Fireworks, and Baseten already serve customers that need inference and post-training. OpenLake could give a buyer a faster way to add automatic updates from live data, redeploy models, and compare versions in production. The memo documents an open-source storage release and MLPerf submission. A company-published testimonial describes an unnamed team training and evaluating a model for production. OpenLake reports that its models halve serving costs on average and that it serves over 100 billion tokens per day across products. Neither claim establishes the savings or paid usage attributable to continuous post-training. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a paid production deployment that demonstrates sustained savings at comparable model quality through repeated update cycles. An unnamed customer’s testimonial describes training and evaluating a classifier for production, which gives OpenLake a starting point for such a test. The two-person team’s runway and the compute cost of repeated tests are unknown, and the reported seed amount is unconfirmed. Exportable checkpoints support technical portability. Rights to transfer live-data integrations and continue using customer data after a sale remain unverified. (Market & Traction, Key Risks)
+A plausible milestone is repeat paid production use that measures serving-cost savings at comparable model quality. The launch and reported production use give the two-person team a starting point. The memo leaves the cost of running those deployments and the funding available to reach the milestone uncertain. Checkpoint exports show technical portability. Commercial IP ownership and any customer consents required for a sale are unverified. The memo provides no evidence of an independent liquidity route. (Market & Traction, Founders & Team, Key Risks, Key Facts)
 
-**Proceeds bridge.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-ons. A 5× gross cash return requires $2.5 million by year eight, or about $83.3 million of distributable equity at 3%. The memo’s routing price and company-wide token volume provide no basis for estimating acquisition prices for continuous post-training. The sale prices below are sensitivities. Both assume an all-cash close within eight years, an eligible holder selling the full stake, and pro rata distribution after the stated debt and deal adjustments, with no additional senior claims. (The Idea, Market & Traction, Key Facts)
+**Proceeds bridge.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, requiring about $83.3 million in distributable equity at 3%. Both sale scenarios assume $5 million in combined debt and deal deductions, no further diversion under the preference waterfall, and eligibility to sell the entire stake for cash within eight years. The prices and terms are assumptions.
 
-- **Modest sale.** $50 million of enterprise value less $5 million of adjustments leaves $45 million of distributable equity. The holder receives $1.35 million, or 2.7×.
-- **Strong sale.** $100 million of enterprise value less $10 million of adjustments leaves $90 million of distributable equity. The holder receives $2.7 million, or 5.4×. At 2% ownership, the same sale pays $1.8 million, or 3.6×.
-- **Prolonged private.** Continued operation with reinvested cash yields zero realized proceeds. The memo supplies no evidence of an independent route that could pay this holder.
+| Scenario | Cash to the holder |
+|---|---|
+| Modest sale at $50 million enterprise value | $45 million distributable equity yields $1.35 million, or 2.7×. |
+| Strong sale at $100 million enterprise value | $95 million distributable equity yields $2.85 million, or 5.7×. At 2.5% ownership, the same sale yields $2.375 million, or 4.75×. |
+| Prolonged private operation with cash reinvested | $0 realized within eight years. |
+
+The memo gives no transaction price or buyer-level economics to support a range that clears the hurdle. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Together AI and Fireworks already combine managed post-training and inference. They could build the update workflow themselves, and OpenLake’s open-source storage engine gives them access to part of the stack without buying the company. The production testimonial establishes a use case but leaves repeatable gains from automatic updates unverified. The countercase supports Watch. A ready substitute for the full workflow or a price ceiling below the proceeds hurdle would trigger Pass, and the memo establishes neither. (The Idea, Defensibility, Market & Traction, Key Risks)
+Together AI and Fireworks already have managed training and serving, and OpenLake’s storage engine is open source. A prospective buyer could build the update workflow internally or adopt the storage layer on its own. That weakens the case for paying a strategic premium. The memo leaves the cost and performance of those substitutes unresolved, so it establishes neither a structural block nor a ceiling on credible proceeds. The Pass gate stays open. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -25,12 +29,12 @@ Together AI and Fireworks already combine managed post-training and inference. T
 |-----------|-------|
 | Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Would a credible inference platform pay enough to clear the holder’s proceeds hurdle after comparing OpenLake’s measured production savings with the cost of building the workflow in-house? A buyer-backed valuation range grounded in repeatable savings at comparable model quality would answer it. Move to Reach out if that range supports at least $2.5 million of holder cash within eight years after dilution and deal adjustments. Move to Pass if the strongest credible sale price leaves the holder materially short.
+What is OpenLake worth to an inference platform compared with building continuous post-training in-house? Repeat paid deployments with customer-verified savings at comparable model quality, paired with a credible buyer’s build-versus-buy analysis, would answer it. Move to Reach out if that evidence supports a price range that clears the holder’s proceeds hurdle under plausible deal terms. Move to Pass if it establishes that the strongest credible route falls materially short.

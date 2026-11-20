@@ -1,32 +1,35 @@
 ﻿# GrayPass -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is a scarce complement: verifying who controls an authenticated session when a sensitive action is requested. If browser agents increasingly act inside signed-in sessions, applications that require a human to authorize a payout or data export could place more value on checking at the moment of approval. GrayPass documents a beta decision API and short-lived proofs bound to an exact action. Its behavioral continuity signals are experimental and limited to sandbox and shadow evaluation, so the memo leaves open whether GrayPass can reliably distinguish human control from delegated activity in production. (*The Idea*, *Market & Traction*, *Key Risks*)
+GrayPass’s strongest commercial case is verifying who controls a session when an application receives a sensitive request, such as a payout, data export, or permission change. Its documented design evaluates session and behavioral signals against customer policy and can issue a short-lived signed proof bound to the exact action. Customers must integrate the decision into their server-side authorization flow. That integration and customer-specific enrollment could create switching costs, though the memo shows no retention or migration evidence and documents overlapping incumbent controls. (The Idea, Defensibility, Key Risks)
 
-GrayPass reports more than 900,000 sessions processed and $50,000 in October 2026 revenue as of launch. These are early demand signals, with no buyer-level evidence tying payment or repeat use to agent-related workflows. The founders bring application engineering and computational neuroscience experience, and the beta API and shadow integration show progress toward a field test. (*Market & Traction*, *Key Facts*, *Founders & Team*, *Key Risks*)
+**Building blocks of superintelligence.** The memo identifies delegated browser actions as a possible source of demand. It gives no examples of AI deployments held up by action-level authorization or evidence that existing controls cannot meet that need as deployment grows. GrayPass therefore earns zero on this path. (Market & Traction, Key Risks)
 
-Customer-specific enrollment and policies embedded in approval workflows could create switching costs, though retention and migration evidence is missing. Metering by assured action gives GrayPass a plausible expansion unit, but the $500 monthly starting price and the documented need for workflow-by-workflow integration leave deployment, support, and per-action costs unresolved. (*Defensibility*, *The Idea*, *Key Risks*)
+**Industry enabled by superintelligence.** The memo describes a security improvement for existing workflows. It identifies no previously excluded buyer or use and gives no evidence that AI reduces the fully loaded cost per successful verification enough to make one viable. GrayPass earns zero on this path. (The Idea, Key Risks)
+
+GrayPass reports processing more than 900,000 customer-app sessions and generating $50,000 in October 2026 revenue as of launch. Those figures support early demand, with paid production enforcement and repeat buying still unverified. The beta decision API and the founders’ relevant engineering and research experience support seed-stage execution credit. Behavioral continuity remains experimental and limited to sandbox and shadow evaluation. Listed pricing starts at $500 per month, and the memo gives no delivery-cost data to assess contribution on the next deployment. (The Idea, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Existing transaction security may already satisfy buyers. Castle offers transaction-time decisions using behavioral and device evidence, and LexisNexis bundles behavioral biometrics with device and identity intelligence. These are credible substitutes, while the memo provides no head-to-head result showing whether they can match GrayPass on a workflow that needs action-bound proof. That leaves the scarce-complement path open for testing. The memo provides no independent New Economies case because it identifies neither a measured labor-cost reduction per successful outcome nor a previously excluded buyer or use. (*Defensibility*, *Key Risks*, *The Idea*)
+An application might withhold a sensitive workflow from browser agents because its existing controls cannot reliably distinguish authorized delegation from unauthorized session use. GrayPass’s action-bound proof gives it a concrete design to test in that scenario. The memo documents browser agents taking actions within sessions and GrayPass’s proof design, while also identifying overlapping transaction-time controls and unvalidated behavioral recognition. The scenario remains hypothetical, so both path scores are zero and the Pass gate applies. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 8/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 23/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer pay to keep GrayPass in production for an agent-exposed payout workflow after comparing it with its existing transaction controls? Move to Reach out if GrayPass catches materially more losses of expected human control at a comparable challenge rate for legitimate users and the buyer pays to keep it deployed. Move to Pass if the existing controls match that performance and the buyer sees no reason to pay for GrayPass.
+Can GrayPass enable a sensitive browser-agent workflow that a buyer has withheld because available controls fail its authorization requirements? A buyer-confirmed production pilot in which GrayPass meets the buyer’s thresholds for unauthorized approvals and unnecessary challenges, and the buyer enables the workflow as a result, would establish a specific AI deployment constraint and move the action to Reach out.

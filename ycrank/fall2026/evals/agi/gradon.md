@@ -1,32 +1,33 @@
 ﻿# Gradon -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Low
 
 ### Company case
 
-Gradon’s strongest path is New Economies. Its Windows agent uses firm-specific standards and past projects to produce drafting, calculations, and plan sets in the tools engineers already use. Gradon reports completing one project in 180 hours against a 750-hour manual estimate, implying 76% fewer hours if both figures cover equivalent, approved work and include licensed review and rework. The manual baseline was an estimate, and the memo does not establish which hours were counted. The market-opening scenario is that a civil engineering firm can profitably accept work it previously turned away because engineer time was too costly or unavailable. The reported project supports the labor-saving mechanism, while a paid engagement on previously excluded work remains unverified. (*The Idea*, *Market & Traction*, *Key Risks*)
+Gradon has a seed-stage case for the industry-enabled path. Civil engineering firms currently use engineer hours to draft plans, run calculations, and produce plan sets in tools such as Civil 3D. Gradon says staffing limits how much work those firms can accept. Its Windows agent uses firm-specific project files and standards to perform production work in the firm’s existing tools, then hands the output to licensed professionals for review. The newly viable use would be a firm accepting an engagement it would otherwise decline because it lacks production capacity. (The Idea; Key Risks)
 
-Gradon’s firm-specific standards, corrections, and configured workflows give buyers a plausible reason to stay if competing models become equally capable. That switching-cost hypothesis remains untested. The CEO reports mid-six-figure contracted ARR in four weeks and identifies a civil engineering firm as the first customer. That is an early buying signal with no independent confirmation of contract terms, repeat purchases, or demand from newly viable work. The team’s prior Vendo launch, subsequent AEC launch, and engineering backgrounds support seed-stage execution credit. Repeatable deployment and quality control remain open. (*Defensibility*, *Market & Traction*, *Founders & Team*)
+Gradon reports one project completed in 180 hours against a 750-hour manual estimate. If the scope and acceptance standards were comparable and the 180 hours included review and rework, the comparison implies 570 hours of capacity freed against the estimate. The case depends on those hours being available in the roles that limit project intake and on the additional engagement clearing the firm’s margin requirements after subscription, setup, review, and rework costs. Under model parity, Gradon’s distinct deliverable would still be a review-ready plan set produced in the firm’s tools and to its standards. The reported result supports testing that mechanism at seed. The memo provides no buyer confirmation that a firm used the freed capacity to accept additional work. Gradon has no supported building-blocks path because its product automates AEC work and the memo identifies no scarce input it supplies to an AI workload. (The Idea; Market & Traction; Key Risks)
 
-The expansion unit is one firm deployment. Under the advertised unlimited-use seat model, contribution depends on seat revenue covering firm-specific setup, ongoing support, and inference as usage grows. The memo indicates at least a week of on-site setup, with no deployment-level cost or utilization figures. On the buyer side, licensed review and rework must fit within the labor budget for each approved deliverable. (*The Idea*, *Key Risks*)
+Firm-specific configuration and correction history could create switching costs, with durability still untested. The CEO’s report of mid-six-figure contracted ARR in four weeks supports early demand, while collections and repeat paid use remain unverified. The founders’ prior Vendo launch and relevant engineering experience support execution credit, with dependable AEC delivery still open. Unlimited-use seats and reported on-site setup give some visibility into the business model. The memo supplies no pricing or delivery-cost figures for estimating contribution on the next deployment. (Defensibility; Market & Traction; Founders & Team; The Idea; Key Risks)
 
 ### Countercase
 
-Gradon could improve margins on existing AEC work while licensed review remains the binding capacity constraint. Autodesk’s assistant is already in technical preview for Revit and Civil 3D, giving it a route to offer overlapping automation inside the tools Gradon depends on. The memo shows neither switching at functional parity nor a failure to reduce end-to-end labor. Both New Economies conditions remain open, supporting Watch. The memo supplies no independent scarce-complement path. (*Defensibility*, *Key Risks*)
+Gradon may speed up drafting on projects firms would have accepted anyway. The manual baseline was an estimate, and geometric or calculation errors can compound across tools and consume licensed reviewer time. Autodesk’s assistant is already in technical preview for Revit and Civil 3D, giving the incumbent a route to deliver overlapping automation inside the same applications. If representative deployments show only routine efficiency gains and no newly viable work, the industry-enabled path falls to zero and the two-zero Pass gate applies. The current evidence supports reaching out to test that assumption. (Market & Traction; Key Risks; Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 15/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 29/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 9/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 51/100** (Neutral)
+**Total Score: 54/150** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent civil engineering firm pay Gradon again for work it previously declined on labor-cost or capacity grounds when it has a functionally comparable alternative? Move to Reach out if the firm’s prior bid or staffing records, time logs through licensed approval, and paid repeat order show that the work became profitable and the firm still chose Gradon at comparable functionality. Keep Watch if the comparison remains inconclusive. Move to Pass if a representative test shows that review and rework erase the savings needed to make the work viable, or that buyers switch readily at parity.
+Did a paying civil engineering firm use Gradon to accept and profitably deliver a plan-set engagement it would otherwise have declined for lack of engineering capacity? A buyer-confirmed project intake decision and a job-cost record covering production, licensed review, rework, setup, and software fees would answer it. A documented yes sustains Reach out. Inconclusive records move the action to Watch. Evidence across representative deployments that the savings only accelerate already-viable work moves it to Pass.

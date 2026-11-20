@@ -5,15 +5,17 @@
 
 ### Company case
 
-Assuming strong product-market fit, Trepo’s strongest growth path is to acquire households through its free iOS app, sell the fridge-mounted device directly, and convert activated households to Food Club. The app gives households a way to start independently. Shared inventory, receipt scans, photos, and voice updates support a recurring job that plausibly travels across markets. The extent of changes needed for local receipts, product matching, retailer checkout, and device fulfillment remains uncertain. The U.S. preorder flow gives households a way to order the device, while delivery, independent setup, and paid membership activation remain unverified. (The Idea, Key Risks)
+Assuming strong fit with its initial households, Trepo’s most portable product is the shared pantry. Receipt scans, photos, and voice updates feed an inventory that households can use for meal planning and replenishment. That job plausibly recurs across markets, and list-making could provide value before Trepo adds local checkout. How well receipt recognition and product matching transfer is uncertain. The free iOS app, which had 59 U.S. ratings, gives households a bottom-up entry point. The direct hardware preorder provides a route to purchase, with delivery and ordinary household setup still to be demonstrated. (The Idea, Market & Traction, Key Risks)
 
-The memo records 59 U.S. app ratings and one reported hardware preorder. The founder described a San Francisco cart beta in March 2026 and reported more than 15× growth in one week without specifying the metric or baseline. For the two-person team, these are early adoption signals. Cancellable preorders targeting March 2027 shipment leave realized revenue and the pace of paid adoption unverified. Shared inventory and consumption history could sustain repeat use. Food Club’s advertised $9.99 monthly fee after three included months gives that use a path to recurring revenue, with conversion, renewal, and same-household spending growth still unverified. (Market & Traction, Defensibility, The Idea, Key Risks)
+A shared inventory and consumption history give households a reason to return, provided they keep the inventory accurate. Trepo advertises optional Food Club at $9.99 a month after three included months. Converting a free household could increase account revenue once. The memo gives no evidence of paid renewals or a mechanism that raises the subscription bill as grocery use grows. (The Idea, Defensibility, Key Risks)
 
-In a fulfilled-order scenario, the $99 preorder price or $129 listed regular price would need to cover device production, shipping, returns, warranty, attributable acquisition and support, and the cost of serving the included months. Each paid Food Club month would add $9.99 before processing and support costs. Converting existing app users through direct checkout could reduce incremental acquisition expense. The memo provides too little cost or conversion evidence to establish positive contribution. (The Idea, Key Facts, Key Risks)
+The two-person team has early adoption signals from the reported San Francisco beta and the iOS ratings. A reported preorder remains cancellable ahead of the March 2027 shipping target. The founder’s claim of 15× growth in one week lacks a defined metric and baseline. The memo establishes early interest and leaves realized sales and paid growth unverified. (Trepo, Market & Traction, Key Risks)
+
+In a fulfilled-order scenario, the $99 preorder price or $129 listed regular price would need to cover device production, shipping, returns, warranty, and attributable acquisition and support. A converted Food Club household would add $9.99 per paid month before processing and support costs. The memo provides too little cost evidence to estimate contribution at either device price. (The Idea, Key Risks)
 
 ### Countercase
 
-Households could get enough value from free inventory and lists to keep using Trepo while declining Food Club. If missed updates make inventory stale, the shopping recommendations lose value. If paid value depends on cross-store pricing and checkout, Trepo may also need to rebuild retailer coverage and product matching market by market while absorbing hardware fulfillment and support costs. The structural downside gate remains open because the memo leaves the extent of retailer work and the economics of serving another household unresolved. (The Idea, Key Risks)
+The strongest case for Pass is that households may only pay for the full shopping workflow. Cross-store pricing and checkout then depend on local retailer coverage and product matching, while every device sale brings fulfillment and warranty exposure. The structural gate stays open because the pantry and list workflow could deliver standalone value, and the memo leaves both the extent of market-specific rebuilding and the economics of fulfillment unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -21,12 +23,12 @@ Households could get enough value from free inventory and lists to keep using Tr
 |-----------|-------|
 | Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 16/25 |
-| Retention economics | 11/20 |
+| Retention economics | 10/20 |
 | Initial traction | 5/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Trepo take a cohort in a second country from free app signup through independent device activation to paid Food Club renewal at positive contribution, with limited changes to the current product? Meaningful paid uptake and renewals, backed by measured acquisition and delivery costs, would justify rescoring for Reach out. Evidence that paid value requires substantial bespoke work in each market would move the action to Pass.
+Can Trepo grow a paying household cohort in one market outside the U.S. using substantially the same product? A launch with bounded retailer setup, self-serve activation, paid renewals after the included period, and positive contribution after fulfillment and support would support Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that paid adoption requires bespoke retailer work in each market, with no viable paid pantry-only path, would move the action to Pass.

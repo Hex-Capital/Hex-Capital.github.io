@@ -5,26 +5,31 @@
 
 ### Company case
 
-New Economies is the strongest path. Solar operators currently spend staff time investigating faults across monitoring portals, spreadsheets, and email. Invertix says its agents triage alarms, coordinate technicians, and verify production after repairs. Altenia’s CEO reports that some work went from days to minutes. That supports a workflow speedup, while labor hours and cost per successfully resolved fault remain unmeasured. The market-opening hypothesis is that small renewable portfolios could afford to investigate faults they currently leave unworked. The memo leaves that use unverified. (The Idea, Market & Traction)
+The supported path is **Industry enabled by superintelligence**. Solar operators investigate faults and coordinate repairs across portals, spreadsheets, and email. Invertix says its agents use a shared model of equipment, telemetry, and responsibilities to triage alarms, coordinate technicians, and verify production after repairs. Altenia’s CEO reports that some work went from days to minutes. That testimony supports faster turnaround, while leaving the type of work, labor saved, and cost per successful outcome uncertain. (The Idea, Market & Traction)
 
-TotalEnergies’ solar teams tested the product, and Invertix reports agent coverage of approximately 2 GW. These are signs of buyer engagement and deployment, while paid conversion and repeat purchases remain unverified. The team has shipped plant-monitoring software and brought autonomy and privacy experience into field testing. The next execution hurdle is reliable triage and repair verification across customer systems. Each additional portfolio brings potential fee revenue and engineer-led integration work. Contribution depends on the contracted fee relative to onboarding, inference, human review, and exception costs, all of which remain unquantified. (Market & Traction, Founders & Team, The Idea, Key Risks)
+A seed-stage scenario is that a lean solar operator could investigate and follow through on lower-priority faults within the same shift, at a cadence manual staffing made impractical. This assumes the turnaround gains extend to fault handling and survive human approvals, exceptions, and field coordination. Under comparable model capability, the delivered workflow would still require site-specific integrations, approval rules, and coordination with technicians. Invertix’s embedded workflows could create switching costs, though overlapping competitor products and the absence of retention evidence limit the durability case. (The Idea, Defensibility, Key Risks)
+
+**Building blocks of superintelligence** scores zero. The memo describes outreach to data center operators and evidence of solar operations work. It leaves unidentified a specific AI workload constrained by an input Invertix can supply, how AI deployment increases demand for that input, and why alternatives would be slow to fill the gap. (The Idea, Market & Traction)
+
+TotalEnergies’ solar-team testing shows buyer engagement, and Invertix’s monitoring product launch shows early delivery. The CTO brings relevant autonomy and privacy experience. The memo establishes neither repeat paid demand nor dependable commercial operation across sites. Custom quotes and engineer-led rollouts leave the economics of adding the next portfolio unquantified. The customer testimony and buyer testing support medium confidence, with the newly viable use still a scenario. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-The reported gains could reflect faster delivery of solar operations work that customers already fund. Metris Energy and Areg.AI offer overlapping agent workflows. Invertix’s asset histories and approval rules could make switching costly, but buyer preference at functional parity remains untested. Both New Economies gates remain open. The memo supplies neither a demonstrated new market nor an independently supported case that AI demand increases the value of a bottleneck Invertix controls. That leaves a testable path and supports Watch. (Defensibility, The Idea, Market & Traction)
+Invertix may chiefly speed up work solar operators already do. The reported reporting cycle went from one month to 15 minutes, while the Altenia testimonial leaves the task unspecified. Customer approval for plant-control changes, engineer-led integrations, and the risk of incorrect triage could absorb enough of the savings to keep higher-frequency fault handling uneconomic. This gap warrants Watch. If representative deployment evidence shows only faster execution of the same workload, the industry-enabled path falls to zero and the two-zero gate requires Pass. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 10/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 8/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent solar operator renew a paid deployment for faults it previously left unworked after comparing Invertix with a functionally comparable alternative? Move to Reach out if that renewal is backed by a field trial that shows acceptable repair verification and a material drop in fully loaded cost per verified resolution versus the former manual workflow, at a price that covers Invertix’s delivery costs.
+Can a lean solar operator sustain same-shift investigation and verified resolution of a class of faults it previously deferred because of staffing cost? A paid deployment comparing similar faults before and after adoption should measure fully loaded cost per verified resolution, including integration, approvals, technician time, and rework. Sustained use at a price the operator pays and Invertix can serve profitably would move the action to **Reach out**. (The Idea, Market & Traction, Key Risks)

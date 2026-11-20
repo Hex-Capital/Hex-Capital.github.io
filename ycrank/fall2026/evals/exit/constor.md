@@ -5,19 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic sale to an estimating software platform seeking deeper HVAC and insulation takeoff capabilities. Constor’s product combines editable quantities, 3D routing, and exportable takeoffs. The memo records TAG Software Group’s acquisition of Countfire, an adjacent takeoff and estimating product. In a testimonial, A2C Isolation reported cutting takeoffs from hours to minutes and bidding on and winning more jobs. A platform could buy Constor to add that workflow to its estimating suite if customers consistently save time after checking quantities and correcting errors. The memo gives no indication of buyer interest in Constor. (The Idea, Market & Traction, Key Risks)
+A strategic sale to an estimating software platform is Constor’s strongest route. Valsoft’s TAG Software Group acquired Countfire, showing that a buyer has acquired an adjacent takeoff workflow. Constor’s editable HVAC and insulation quantities and 3D routing could give a platform more to sell to mechanical contractors. A2C Isolation reported completing takeoffs in minutes instead of hours and winning more bids. The customer account supports workflow value, while the cross-sell opportunity remains an inference. (The Idea; Market & Traction)
 
-Constor reports about 15 contractors bidding with the product, five paying design partners, and 12 paid preorders, with overlap unspecified. The memo records $500,000 in YC note financing. Those signals support a proposed 12-month test of repeat paid use and verified time savings on live bids. The cost of that test and the company’s remaining runway are unknown. An equity sale is a plausible structure, with customer change-of-control terms and continued rights to use training drawings still to verify. The memo provides no evidence of an independent route to holder liquidity. (Market & Traction, Defensibility, Key Risks)
+The operating milestone is a paid rollout across multiple contractors that shows renewals and sustained time savings after estimators correct the outputs. Constor reports five paying design partners and 12 paid preorders, with overlap unspecified. The memo records $500,000 in YC financing as a convertible note. These are early signals that Constor can run the test. Its cost and available runway remain unquantified. (Market & Traction; Key Risks)
 
-Using the benchmark $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons, the holder needs $2.5 million in cash within eight years. At 3% pro rata, that requires about $83.3 million in distributable equity value. Constor’s revenue scale, buyer economics, and the Countfire transaction price are undisclosed in the memo, so the figures below are illustrative assumptions. (Market & Traction, Key Facts)
+The shared benchmark is a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-ons. A 5× cash return within eight years requires $2.5 million, or about $83.3 million in distributable equity value. The sale scenarios assume an all-cash close by year eight, full holder participation, $5 million in combined net debt and closing costs, and a pro rata waterfall with no further senior claims.
 
-- **Modest sale.** A $40 million enterprise value less $5 million in net debt and deal adjustments leaves $35 million in equity value. Assuming a full sale, holder eligibility, no preference diversion, and all cash at closing within eight years, the holder receives $1.05 million, or 2.1×.
-- **Strong sale.** A $100 million enterprise value less $10 million in net debt and deal adjustments leaves $90 million in equity value. Under the same assumptions, the holder receives $2.7 million, or 5.4×. If only 90% of that payout is received within eight years, realized cash falls to $2.43 million, or 4.86×.
-- **Prolonged private.** If Constor keeps operating and reinvests its cash through year eight, the holder realizes $0.
+| Scenario | Distributable equity | Holder cash |
+|---|---:|---:|
+| Modest sale at $40M enterprise value | $35M | $1.05M (2.1×) |
+| Strong sale at $100M enterprise value | $95M | $2.85M (5.7×) |
+| Prolonged private operation with cash reinvested | No distribution | $0 (0×) |
+
+The sale prices are illustrative. Even the strong case falls short at 2.5% ownership, yielding about $2.38 million. Countfire’s sale price, Constor’s recurring revenue, and the investor waterfall are undisclosed. Holder participation and blueprint rights after a sale remain unverified. The memo provides no evidence of an independent payout route. (Market & Traction; Key Facts; Key Risks)
 
 ### Countercase
 
-An acquirer could already get overlapping mechanical takeoff capabilities from Beam AI or use an existing estimating workflow such as Countfire’s. Constor requires estimators to verify quantities before bidding, which could erode the reported time savings. Restrictions on blueprint reuse could also limit the value of the training data to a buyer. Together, these risks weaken the case for a price that clears the holder’s hurdle. The memo establishes neither a structural closing block nor a credible price ceiling below the hurdle, so the Pass gate is untriggered. (Defensibility, Market & Traction, Key Risks)
+An estimating platform could already cover much of the workflow through overlapping products. Beam AI offers mechanical takeoffs, and Countfire combines automated counts with pricing. If Constor’s edge depends on customer drawings, restrictions on reuse could also reduce what a buyer can use after closing. These risks weaken the case for a price above the hurdle. The memo establishes neither a structural closing block nor a credible price ceiling below the hurdle, so the Pass gate remains open. (Defensibility; Key Risks)
 
 ### Dimension Scores
 
@@ -26,11 +30,11 @@ An acquirer could already get overlapping mechanical takeoff capabilities from B
 | Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-What would an estimating platform pay for Constor once repeat paying customers demonstrate verified time savings on live HVAC and insulation bids? A buyer-backed valuation range grounded in those results that could deliver $2.5 million in holder cash within eight years after deal adjustments and the payout waterfall would move the action to Reach out. A supported price ceiling that leaves the holder materially short would move it to Pass.
+Can an estimating platform justify a price that leaves at least $83.3 million in distributable equity based on what Constor adds to its existing workflow? A buyer-side build-versus-buy analysis grounded in paid renewals and measured time savings after corrections would answer it. A supported range that clears the hurdle would move the action to Reach out. A supported ceiling below it for the strongest route would trigger Pass.

@@ -1,32 +1,36 @@
 ﻿# Pomerado -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is Pomerado’s strongest path. Teams already handle tasks in legacy portals through manual browser work, browser agents, or custom integrations. Pomerado turns a recurring task into a reusable MCP or REST tool and attempts to repair it when execution fails. If reuse cuts setup, supervision, and maintenance labor enough, a dealership could automate a recurring workflow in a dealer system that was previously too costly to automate. The founders report dealership use, but the memo establishes neither that prior cost barrier nor a reduction in cost per successful outcome. The company’s benchmark covers 30 tasks across 25 apps using prebuilt integrations and one attempt per task, so it leaves setup labor and ongoing maintenance unmeasured. (The Idea, Market & Traction, Key Risks)
+Pomerado turns recurring tasks on legacy portals into reusable MCP or REST tools, with managed sign-in and automated repair. The relevant AI workload is an enterprise agent repeatedly operating a portal that lacks an API. More agent deployments could increase demand for reliable portal access. The memo documents integration friction and identifies manual browser work, browser agents, and custom integrations as available alternatives. It provides no evidence that these alternatives are capacity-constrained or slow to expand as demand grows. The building-block path scores zero. (The Idea, Market & Traction)
 
-The memo records 35K weekly npm downloads in one snapshot and founder-reported use across several settings. Those signals support early interest and reported usage, with repeat paid demand still unverified. Both founders contribute to the shipped product, the CEO previously built enterprise agents, and the public catalog grew from 46 to 584 tools. That supports seed-stage execution, while sustained production reliability remains open. (Market & Traction, Founders & Team)
+The enabled-industry path also scores zero. Reusing a workflow and automating repairs could reduce the cost of repeated execution, but the memo identifies no buyer or use that was previously uneconomic at the required frequency. The founders report that dealerships connect agents to dealer systems, without a baseline for prior cost, task frequency, or manual effort. The evidence supports a plausible efficiency gain for an existing workflow. Both zero path scores trigger Pass. (The Idea, Market & Traction)
 
-The expansion unit is a maintained workflow. **Scenario assumption:** repeated successful runs spread setup and maintenance costs enough to lower the buyer’s cost per completed task versus manual work or custom automation. For Pomerado, revenue from those runs must cover browser infrastructure, model calls, repairs, and human exceptions. The founders report a 2.2% run error rate and automatic resolution of 82% of errors, but the memo gives no exception labor or contribution data at the listed prices. (The Idea, Key Risks)
+- **Durable value capture.** A maintained catalog could create switching costs for customers with many configured workflows. That remains an inference. The MIT-licensed core, Skyvern’s announced workflow compilation and repair, and portal operators’ control over access limit the case for durable pricing power. (Defensibility, Key Risks)
+- **Customer demand.** Founder-reported use by dealerships and a personal trainer gives early evidence of concrete workflows. Repository stars and package downloads show developer interest. Paid deployment and repeat purchasing remain unverified. (Market & Traction, Key Facts)
+- **Team and execution.** The public catalog and Manglik’s prior enterprise-agent work support seed-stage execution. The company’s benchmark used prebuilt integrations and one attempt per task, so reliability through portal changes and exceptions remains unverified. (Market & Traction, Founders & Team, Key Risks)
+- **Scale economics.** Published pricing provides a revenue reference. The memo gives no delivery costs for hosting, repairs, or human intervention per successful outcome. (The Idea, Key Risks)
 
 ### Countercase
 
-Pomerado may make existing browser automation cheaper while capturing little of the savings. Managed hosting, sign-in, and a catalog of configured workflows give customers a concrete reason to consider the service. Durable preference under model parity is still untested. Pomerado’s core is MIT-licensed, Skyvern has announced a similar compile-and-repair approach, and the memo shows no retention or switching evidence. Portal operators control access, so the memo also provides no independent case that Pomerado controls a scarce complement. The competitive overlap raises substitution risk without establishing functional parity or actual switching. Both New Economies gates remain open, supporting Watch. (The Idea, Defensibility, Key Risks)
+The strongest case is that a dealership could automate a recurring task across legacy dealer portals at a cadence it previously could not afford. Founder-reported dealership use makes that scenario concrete, and managed sign-in and repair could give the customer a reason to buy a maintained service even with access to a comparable model. That case assumes authorized access persists and that savings survive failures and manual intervention. The memo leaves those assumptions untested, so the Pass gate still applies. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 17/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent dealership repeatedly pay Pomerado to run a recurring portal workflow it previously left manual because automation was too expensive, when a credible alternative using an equally capable model can deliver the same outcome? A paid production trial should document the prior cost barrier, measure all-in cost per successful completion including human exceptions, and show that the buyer renews at a price that covers Pomerado’s delivery costs after comparing the alternatives. That result would move the action to Reach out. Evidence that the workflow was already economical to automate or that the buyer readily switches at parity would close the dealership case and move the action to Pass if no other credible path emerges.
+Can a paid dealership pilot make one previously unaffordable portal workflow viable at the buyer’s required cadence? A buyer-verified comparison would need to show that Pomerado meets the buyer’s cost and reliability thresholds after repairs, failures, and staff intervention, and that the dealership keeps paying when it can use a comparable model through a browser agent. That result would change the action to Reach out.

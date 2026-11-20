@@ -5,36 +5,34 @@
 
 ### Company case
 
-The strongest route is a strategic acquisition by a video platform such as Runway. Voyager offers a desktop agent that edits project files in installed creative apps, including Blender and DaVinci Resolve. Runway’s reusable generation pipelines give it a reason to consider adding that capability if it helps customers finish more projects. Voyager reports support for more than 100 creative tools. The value of owning those integrations depends on whether they deliver repeatable workflow gains that a buyer would find costly to build. (The Idea, Defensibility, Market & Traction)
+Voyager’s strongest route is a strategic sale to a creative AI platform such as Runway or Krea. Voyager says its desktop agent executes edits inside installed tools such as Blender, DaVinci Resolve, and Ableton Live. A buyer could use that capability to extend its generation workflows into editable projects across applications. A customer reported completing a short film with Voyager, Meshy, and ElevenLabs for $128.99 in total generation spend. That shows one workflow reached a finished output, with Voyager’s incremental savings and repeat paid use still unmeasured. The next milestone is repeated paid production use with measured time or cost savings over buyers’ existing workflows. The memo lists a $125,000 YC entry and leaves Voyager’s total funding, runway, and capital needed to reach that milestone unverified. (The Idea, Market & Traction, Key Facts)
 
-Voyager has launched paid plans, and one customer reported completing a short using Voyager alongside other tools. That account gives a concrete workflow to test, with Voyager’s contribution to time and cost savings still unmeasured. A six-month paid studio pilot could compare hands-on editing time at comparable quality across repeat projects and measure the cost of supporting those integrations. Voyager’s total financing and ability to fund the pilot are unverified. (The Idea, Market & Traction, Key Facts)
+Actual investor terms are unavailable. The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and a 5× gross cash objective within eight years. That requires $2.5 million in holder cash, or about $83.3 million in distributable equity at full pro rata participation. The sale prices and deductions below are illustrative assumptions. Both sale cases assume cash closes within eight years, the holder is eligible to sell its entire stake, and the waterfall distributes the remaining equity value pro rata with no preference haircut.
 
-The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. The sale scenarios assume $10 million in combined net debt and deal deductions, no preference diversion, and an eligible holder selling the entire stake for cash by year eight.
-
-| Scenario | Assumed proceeds bridge | Gross cash to holder |
+| Scenario | Enterprise value to distributable equity | Gross holder cash |
 |---|---|---|
-| Modest sale | $40M enterprise value less $10M in deductions leaves $30M in equity | $900,000, or 1.8× |
-| Strong sale | $100M enterprise value less $10M in deductions leaves $90M in equity | $2.7M, or 5.4× |
-| Prolonged private | Continued operation with cash reinvested and no eligible sale or payout | $0 realized by year eight |
+| Modest sale | $40M less $5M in debt and deal adjustments leaves $35M | $1.05M, or 2.1× |
+| Strong sale | $110M less $10M in debt and deal adjustments leaves $100M | $3M, or 6× |
+| Prolonged private | Continued operations with cash reinvested and no eligible share purchase or funded payout | $0 realized within eight years |
 
-The strong case clears the objective by $200,000. At 2% ownership, the same sale yields $1.8 million. The memo provides no basis for a clearing acquisition price and leaves the holder waterfall, transfer rights, and eligibility open. It supplies no evidence of an independent liquidity route. (Market & Traction, Key Facts)
+In the strong case, selling only 80% of the stake at the assumed per-share price would yield $2.4 million and miss the objective. Buyer pricing, the actual waterfall, and sale eligibility remain open. The memo supplies no independent liquidity route.
 
 ### Countercase
 
-Buyers may find it cheaper to extend their own tools. Runway already offers agent connectors, Adobe has added an overlapping native agent to Firefly, and shared models and integration protocols make similar automation easier to build. Voyager’s launch attention and single production account leave repeat paid use and comparative savings unproven. This weakens the price case, while the memo leaves open whether buyers can replicate Voyager’s cross-app project editing or whether the strongest credible sale would fall short of the holder’s objective. The Pass gate is therefore untriggered. (Defensibility, Market & Traction, Key Risks, Key Facts)
+Adobe already offers an overlapping native workflow in Firefly, and Runway and Krea already offer agent connectors. A buyer may be able to build enough of Voyager’s functionality internally, especially if app-version and permission differences make the integrations expensive to maintain. That is a concrete reason to discount willingness to pay. The memo establishes neither a structural barrier to a sale nor a credible upper bound on proceeds below the hurdle, so the Pass gate does not trigger. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Would a strategic buyer pay enough to own Voyager’s cross-app editing capability to clear the holder’s proceeds hurdle? A buyer-side build-versus-buy assessment that links measured gains in repeat paid workflows to a price range clearing roughly $83.3 million in distributable equity after deal deductions would move the action to Reach out. A supported range materially below that hurdle for the strongest credible route would move it to Pass.
+Can Voyager’s cross-app editing create enough value over a strategic buyer’s existing workflow to justify a price that leaves at least $83.3 million in distributable equity? Repeat paid production tests measuring time or cost savings against that workflow, paired with a buyer-side estimate of the value of acquiring the capability versus building it, would answer the question. A range that clears the hurdle after plausible deductions would move the action to Reach out.

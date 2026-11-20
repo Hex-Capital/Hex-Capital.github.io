@@ -1,19 +1,19 @@
 ﻿# Taan.ai -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Conditional on strong product-market fit, Taan’s strongest path is self-serve Studio for video teams that repeatedly need music synchronized to cuts. The documented workflow takes uploaded footage, generates a score, and lets users revise individual instruments or timings. The same workflow can plausibly serve editors across markets with modest adaptation. The preview’s cinematic and orchestral focus limits the range of projects it can serve today. (The Idea, Key Risks)
+Assuming strong product-market fit with video editors who need soundtracks to hit specific cuts and cues, Taan has a credible path to global demand. Its upload, cue detection, scoring, and targeted revision workflow can plausibly serve the same job across markets with modest adaptation. The preview’s cinematic and orchestral focus supports that case for a defined segment, with broader genre and long-form performance still uncertain. (The Idea, Key Risks)
 
-The public launch gives editors a discovery route, and Studio offers a self-serve entry point with published monthly plans. Independent checkout and first-score completion remain unverified. The Creator plan offers 25 music minutes for $15 per month, and Agency offers 60 for $45. Teams scoring more footage have a concrete reason to upgrade, though the memo gives no evidence of renewals or how often teams outgrow Creator. A third party identifies Taan as its scoring provider, with payment status undisclosed. Realized revenue and paying-customer growth for the current product remain unknown. (The Idea, Market & Traction)
+The November preview launch gave editors and developers a way to discover Taan. The company offers self-serve Studio, API, and MCP access and publishes monthly prices. Those are concrete ways to start using the product, while the path through checkout and into paid production remains unverified. Music for Video AI identifies Taan as its scoring provider, which establishes an integration with undisclosed payment terms. Launch attention and the founder’s reported revenue from Aalap AI leave Taan’s current commercial growth unverified. (The Idea, Market & Traction, Founders & Team)
 
-In a full-quota scenario, Creator yields $0.60 and Agency $0.75 per included music minute before incremental costs. Contribution depends on inference, retries and revisions, storage, and buyer support. The memo gives no measured serving costs or revision billing rules, so contribution at typical usage remains uncertain. (The Idea)
+Editors with recurring projects have a reason to renew, and the $15 Creator and $45 Agency plans give retained accounts a concrete way to spend more. In an illustrative scenario, one Creator-to-Agency upgrade adds $30 per month and offsets two Creator cancellations. Actual upgrades, renewals, and net revenue retention are unknown. At full use of the included allowances, the plans bring in $0.60 and $0.75 per included minute, respectively, before video processing, generation and revisions, storage, support, and attributable acquisition and onboarding costs. The memo provides no measured inputs to establish contribution at typical workloads. (The Idea)
 
 ### Countercase
 
-Premiere can already generate music inside the editing timeline, reducing the reason to upload footage to a separate tool. Taan’s strongest reason for editors to switch is timing control, but its own reports give different on-time rates, 91.3% and 73.2%, and the benchmark uses 30-second instrumental requests. If longer edits routinely require retries, the distinction could narrow while serving costs rise. This leaves the structural downside gate open because the memo identifies no required market-by-market rebuild, mandatory hands-on deployment, or demonstrated cost constraint that makes scaling infeasible. (Market & Traction, Key Risks)
+Adobe’s Premiere beta puts music generation directly in the editing timeline. Taan may need a meaningful advantage in timing control to persuade editors to adopt a separate tool and keep paying for it. Taan reports 91.3% on-time events in its research and 73.2% in its launch materials, and the benchmark uses 30-second instrumental requests. The size of the advantage in everyday editing remains uncertain. The structural downside gate stays open because the memo identifies a portable workflow and shows no required market-by-market rebuild or unavoidable per-buyer cost that would make growth infeasible. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -29,4 +29,4 @@ Premiere can already generate music inside the editing timeline, reducing the re
 
 ### Decisive diligence question
 
-Can a cohort of video teams discover Studio, pay, and score real projects independently, then renew for a second month at positive contribution after generation, retries, storage, and attributable onboarding and support costs? Documented checkout, project usage, renewal, and cost records across several teams would move the action to Reach out.
+Can video editors who discover Taan independently become repeat paying customers through the self-serve Studio flow? A dated cohort of editors who complete checkout and their first project without staff help, then renew and use Taan on subsequent projects, would support moving to Reach out.

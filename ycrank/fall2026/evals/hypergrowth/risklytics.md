@@ -5,28 +5,28 @@
 
 ### Company case
 
-Assuming strong product-market fit, Risklytics’ strongest path is to become the specialist broker for robotics and autonomy companies that need coverage to deploy. Its intake tool drafts applications from company materials, and its published tracker covers 736 AI-exclusion filings across 49 states. The CEO reports wholesale broker and managing general agent partnerships that could bring in similar accounts. Those channels and the reusable intake help, while applicants still need a licensed broker to shop each submission and review proposed exclusions before binding. (The Idea, Defensibility, Key Risks)
+Even assuming strong product-market fit with U.S. robotics and autonomy companies, the part of Risklytics that travels most readily is its software for drafting applications. Binding coverage requires a licensed broker to shop each risk and review carrier exclusions. Placement already depends on state licensing, and the documented exclusion tracker covers U.S. filings. The insurance need plausibly recurs abroad, but the current placement workflow would require rebuilding licensing access, carrier relationships, and policy-wording knowledge in each new market. That dependency triggers the structural downside gate. (The Idea, Defensibility, Key Risks)
 
-The founders reported in August that three previously denied businesses obtained coverage in one week. That is an early commercial signal for a two-person team whose brokerage pivot was documented by July. Commission receipts and a sustained growth rate remain unverified. Customers that continue deploying have a reason to maintain coverage and return to a broker familiar with their exclusions. Renewal commissions and higher spend as deployments expand are plausible, with neither demonstrated in the memo. (Risklytics, Market & Traction, The Idea, Key Facts)
+Free online intake makes application drafting reusable. The CEO reports wholesale broker and managing general agent partnerships alongside founder-led outreach. These are plausible acquisition channels, with licensed placement still required for each applicant. The founders report obtaining coverage for three previously denied companies in one week shortly after the pivot to brokerage. That is a meaningful early signal for a two-person team, though earned commissions and a sustained sales pace are unverified. (The Idea, Market & Traction, Key Facts)
 
-At the founders’ stated 10–20% commission rate, a hypothetical $10,000 premium would generate $1,000–$2,000 in gross commission. Incremental contribution would subtract attributable acquisition, application review, carrier placement, servicing, and software costs. Automated drafting can reduce intake labor. The time needed to place and service a typical account remains unquantified. (The Idea, Key Risks)
+Ongoing coverage creates a reason to renew. More deployments could raise premiums and commissions in retained accounts, an inference that depends on customers renewing through Risklytics and buying more coverage. At the founders’ reported 10–20% commission rate, an illustrative $10,000 premium would yield $1,000–$2,000 in gross commission before attributable acquisition, broker time, partner costs, and servicing. Automated drafting can reduce preparation time, but the memo leaves the cost of placing and servicing a policy unresolved. (The Idea, Defensibility, Key Facts)
 
 ### Countercase
 
-The strongest case for keeping Risklytics on Watch is that the same coverage problem could recur abroad, while application drafting and wholesale distribution could transfer. The structural downside gate applies because the product’s decisive step is securing coverage with acceptable terms. The current placement workflow depends on state producer licensing, a U.S. map of carrier appetite, and review of carrier-specific exclusions. Those dependencies point to substantial work rebuilding placement capability in a new market, and the reported partnerships establish no near-term route around that work. Required broker involvement separately limits onboarding scalability. (The Idea, Defensibility, Key Risks)
+Wholesale partners could bring both distribution and access to carriers, while the application software and the process for comparing exclusions could make placements more repeatable. The tracker spanning 49 states and the reported placements support that path within the current footprint. The partnerships leave open a route to international expansion, but the memo gives no concrete basis for expecting them to absorb the local placement work with bounded changes. The structural gate still applies. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 7/25 |
-| Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 9/20 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
 | Initial traction | 8/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can Risklytics bind coverage for a cohort of comparable robotics customers in one market outside the U.S. using its existing intake and a local wholesale partner? Several bound policies with acceptable AI coverage, documented changes limited to local forms and authorization, and placement time comparable to U.S. accounts would clear the structural gate and move the action to Watch.
+Can a licensed partner in a comparable market outside the U.S. bind several robotics policies using the existing workflow with limited local adaptation? Completed placements showing what changed and positive contribution after partner compensation and broker time would move the action to Watch.

@@ -1,30 +1,33 @@
 ﻿# Cyclon -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Cyclon’s strongest path is New Economies. Users currently spend their own time finding a contract, changing permissions, sharing the link, and placing a call across apps. Cyclon says its OS can delegate cross-app tasks to a background agent. If that cuts user time per correctly completed workflow, including identity checks and error correction, consumers could routinely delegate chores they currently skip because the manual effort exceeds the value. The memo gives a concrete workflow but provides no comparative completion or labor data and identifies no buyer cohort newly served by the cost reduction. (The Idea, Key Risks)
+Cyclon has no supported AGI path in the Fall 2026 memo. For building blocks, its phone consumes AI services to automate consumer tasks. The memo identifies no scarce input Cyclon supplies to an AI workload or buildout. For the enabled-industry path, Cyclon says its OS agent can find a contract, change its permissions, share it, and place a call across signed-in apps. The example shows how AI could save time on an existing manual workflow. The memo gives no specific buyer or use for which those savings would make a previously unaffordable outcome viable. (*The Idea*)
 
-Reported coverage of the Pixel prototype and the founders’ prior delivery of an SMS agent support seed-stage execution. The proposed handset gives Cyclon a way to integrate the agent into the OS, and recurring use of saved rules or generated apps could make switching costly. The memo provides no retention or preference evidence under model parity and identifies no scarce asset Cyclon controls. Launch views show attention, and the $199 refundable deposit is an offer with no reported uptake. The estimated $699 handset price gives a revenue starting point, but hardware, fulfillment, support, and ongoing AI costs are unquantified. Included beta usage leaves post-beta economics open. (Market & Traction, Founders & Team, Defensibility, The Idea, Key Facts)
+The strongest commercial case is selling a handset that bundles cross-app automation and app generation. Google already automates supported tasks on existing Android phones, and Nothing offers app generation on its own devices. Those overlaps create substitution pressure. Saved rules and custom apps could give users a reason to stay, but that inference depends on recurring use. The memo records 1.5 million launch-post views and a $199 refundable preorder offer toward an estimated $699 price. It gives no reservation count, paid conversion, or repeat use. (*Defensibility; Market & Traction; Key Facts*)
+
+The refurbished Pixel prototype, the founders’ prior SMS-agent project, and their Android and hardware experience support seed-stage execution credit. Reliable cross-app execution and custom handset authorization remain open. The estimated handset price also leaves the next unit’s contribution unknown. The memo gives no device, inference, support, or return costs, and AI usage is included during the beta. These gaps limit confidence in commercial delivery and economics. (*The Idea; Market & Traction; Founders & Team; Key Risks*)
 
 ### Countercase
 
-Cyclon could make existing smartphone workflows easier while buyers get enough automation on phones they already own. Gemini already automates supported tasks on Android, and Nothing offers app generation on its phones. Cyclon also acknowledges that certification requirements can limit app access and that some identity checks still require user action. Those limits could erase the time savings on the workflows that matter most. The overlap and compatibility risks leave both New Economies conditions unproven. The memo offers no direct comparison that defeats the path, so the decision gate is Watch. (Market & Traction, Key Risks)
+The strongest case for thesis fit is that Cyclon could make bespoke mobile tools affordable for people who would otherwise go without them. Cyclon says it can write and test requested apps in a cloud sandbox and install them on the phone. If a tool needs to run in the background across signed-in apps, OS integration could still matter when competing models are equally capable. The memo leaves the critical assumptions untested. It identifies no recurring use abandoned because of development cost, no cost per successful outcome, and no buyer adoption of that use. The two-zero Pass gate applies. (*The Idea; Defensibility; Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 16/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent cohort repeatedly pay Cyclon to handle recurring workflows they previously skipped when their existing phones offer comparable model capability? A paid beta comparing both setups on the same workflows would move the action to Reach out if it shows materially lower user time per successful outcome and sustained paid preference for Cyclon. If users complete the same workflows with comparable effort on their existing phones and decline to keep paying, move to Pass.
+Can paying beta users repeatedly complete a specific cross-app workflow they previously went without because manual work or bespoke development cost too much? A paid beta that documents the prior cost, measures successful runs including corrections, and shows why existing Android automation cannot deliver the same outcome would change the action to Reach out. (*The Idea; Market & Traction; Key Risks*)

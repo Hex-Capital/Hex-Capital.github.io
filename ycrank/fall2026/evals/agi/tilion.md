@@ -5,26 +5,29 @@
 
 ### Company case
 
-Tilion’s strongest AGI path is a **scarce complement**. As browser agents handle more monitoring and data collection, completing workflows reliably could become more valuable. The memo records a 4.7× month-over-month rise in agentic browser requests and a pre-release lifecycle benchmark where Tilion’s median was 0.11 seconds versus Kernel’s 0.15 seconds. That benchmark measures session speed. The thesis depends on whether Tilion can turn that speed and its reported task recovery into more completed workflows. (*Market & Traction*, *The Idea*, *Key Risks*)
+Tilion has a seed-stage building-blocks case for browser agents that repeatedly collect or monitor data on live sites. These workloads need browser sessions that complete tasks unattended. The memo reports a 4.7× month-over-month increase in agentic browser requests and a site-owner policy that blocks classified agent traffic on some pages. These observations establish rising usage and access friction. Tilion says its hosted service can reassign tasks after session failures. If transient failures are a material source of lost runs on sites where the buyer has permission to automate, reassignment could make more of those runs viable. The independent pre-release benchmark measured a 0.11-second median session lifecycle. End-to-end completion, recovery rates, and the scarcity of reliable alternatives remain unmeasured. That gap warrants Watch. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The four-person team shipped Fortress and launched a Cloud beta, drawing on experience in browser infrastructure and model serving. Tilion controls its Chromium fork and reports monthly rebases, giving it a concrete operating capability whose durability is still untested. The memo reports 100,000 installs, and Tilion claims engineers at over 170 companies use Fortress. Those figures support adoption, while repeat paid demand remains unverified. The announced $0.03 per browser-hour gives a revenue unit. Contribution per successful workflow remains unknown because the memo provides no utilization, retry cost, or support cost data. (*Founders & Team*, *The Idea*, *Defensibility*, *Market & Traction*)
+The industry-enabled path scores zero. The memo describes infrastructure for existing data collection and monitoring workflows and supplies no evidence of a previously excluded buyer or use becoming affordable through AI-driven labor savings. (*The Idea*, *Market & Traction*)
+
+The custom Chromium fork and Tilion’s reported monthly rebases support some credit for operating know-how. Tilion’s reported use by engineers at more than 170 companies and Fortress’s public repository activity suggest early adoption, with paid conversion and repeat use still open. The team shipped Fortress and has relevant browser infrastructure and model-serving experience. An independently observed failed session launch and the current Cloud waitlist leave dependable hosted delivery open. The advertised $0.03 per browser-hour supplies a revenue assumption. Hosting, retries, and support costs per successful run are unknown, so scale economics stays at the default. (*Defensibility*, *Market & Traction*, *Founders & Team*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Hosted browsers may be interchangeable for the workflows buyers value most. Kernel came close on session speed, Steel offers both hosted and self-hosted browsers, and standard interfaces could make switching easier. Site owners control access, and the memo records a failed Tilion session launch. The scarcity gate remains open because the evidence does not establish whether alternatives can match Tilion on end-to-end completion. (*The Idea*, *Defensibility*, *Key Risks*)
+Reliable sessions may be available from existing providers for the workloads Tilion can serve. Kernel posted a 0.15-second median session lifecycle in the same benchmark, and standard automation interfaces could make switching easier. Where the binding constraint is a site owner’s access policy, task reassignment has no demonstrated effect. This limits the scarcity case and supports Watch. The plausible recovery benefit for permitted workflows keeps the both-paths-zero Pass gate from applying. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 18/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 39/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent target customer renew a paid deployment after a side-by-side production trial shows that Tilion materially improves completion rates on the customer’s permitted workflows versus its best available alternative? A measured completion advantage followed by renewal would move the action to **Reach out**.
+Can Tilion consistently meet a prospective buyer’s required unattended completion rate on a permitted monitoring workflow that the buyer’s best available browser provider cannot meet at the same budget? A side-by-side pilot using representative runs and counting retries against the budget would answer it. A repeatable result that crosses the buyer’s threshold would move the action to Reach out. Comparable completion from the existing provider would move it to Pass.

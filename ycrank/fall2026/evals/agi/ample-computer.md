@@ -5,28 +5,29 @@
 
 ### Company case
 
-Ample’s strongest AGI path is **New Economies**. The company says its salon-booking test required nearly 10 separate services. Ample inspects an app’s code, provisions the services it needs, and returns a live URL. The test identifies a concrete source of setup labor. The inferred market opening is that small merchants and event organizers could deploy custom apps they previously could not justify paying someone to configure. The memo does not quantify the former labor cost, identify buyers who abandoned projects because of it, or measure the change in cost per successful launch, including retries and manual fixes. (The Idea)
+Ample’s supported AGI path is making multi-service web apps viable for small organizations that may lack the budget or staff to integrate cloud services. Ample says its salon booking test needed nearly ten services. Its platform inspects source code, provisions the dependencies and returns a live URL. The seed-stage hypothesis is that automating infrastructure planning and setup can remove enough specialist labor for a small merchant or a one-off event organizer to justify shipping an app. Under model parity, Ample would still deliver provisioned services and a running app. The open question is whether another host can deliver that same outcome at a comparable cost with the same assistant. (The Idea, Defensibility)
 
-The memo records a verified Claude connector and reports more than 4,000 signups in 13 days. Customer testimonials describe a storefront receiving 55 order or checkout submissions and a fair registration site receiving about 30 submissions. Those early uses show that deployed apps handled real activity. Whether the builders paid, came from a previously excluded segment, or deployed again remains open. The founders’ prior Shopify App Store work and the shipped connector support seed-stage execution. Deployment reliability and support workload remain to be measured. (Key Facts, Market & Traction, Founders & Team)
+Customer testimonials published by Ample describe live use. SA Collection recorded 55 order or checkout submissions in 18 hours, and a Quibdó business fair recorded about 30 registrations in 16 hours. The memo also records a verified Claude connector and YC’s report that Ample crossed 5,000 users at public launch. These signals support early use and distribution. Whether either customer would have forgone the app without Ample remains unknown, as do paid conversion and repeat use. The building-blocks path earns zero because the memo describes friction deploying apps built with AI agents and identifies no scarce input that constrains AI workloads. (The Idea, Market & Traction, Key Facts)
 
-The expansion unit is a paying account with live apps. **Full-capacity scenario.** If customers fill every included slot, listed monthly subscription revenue works out to $2 per app on Pro and $1.98 on Scale. Those figures leave the contribution margin unknown. The memo gives no measured app utilization, hosting cost, deployment exception rate, or support labor per account. (The Idea, Key Risks)
+The published catalog of 2,144 deployment recipes gives Ample a plausible operating advantage. Its durability depends on whether that coverage produces reliably better deployments. The founders’ prior Shopify App Store tooling and infrastructure work and Ample’s live launch support execution credit, with sustained reliability still unverified. Listed subscription prices establish what Ample asks customers to pay. Without realized revenue or delivery costs, the economics of serving the next paid customer remain at the rubric default. (Defensibility, Founders & Team, Market & Traction, Key Facts)
 
 ### Countercase
 
-Ample may be simplifying deployment for buyers already served by cloud platforms. Railway and Render already expose infrastructure tools to external coding agents, so builders could keep the same assistant and switch hosting providers if deployment quality converges. Ample’s 2,144 published recipes show implementation breadth, but the memo supplies no comparative success rates, buyer preference at functional parity, or network effects. It also establishes no control over scarce hosting capacity. The competing tools make substitution credible, while functional parity and buyer switching remain unproven. The New Economies path stays open at Watch. (The Idea, Defensibility, Key Risks)
+Ample may be selling a faster setup workflow to builders who could already afford to deploy. Railway and Render already expose infrastructure tools to external coding agents, so a comparable assistant could plausibly narrow Ample’s advantage. The live deployments give the new-use hypothesis enough support for Watch. If the target buyers can already ship and operate equivalent apps within budget through those alternatives, the enabled-industry path falls to zero and the decision becomes Pass. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 8/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 32/150** (Pass)
 
 ### Decisive diligence question
 
-Will builders who previously shelved comparable apps because of setup labor pay Ample repeatedly when the same coding agent can deploy through a credible alternative? A matched cohort with documented prior budget constraints, measured labor and cost per successful launch, and repeat deployments at list price would answer it. Move to Reach out if Ample brings those projects within budget, buyers keep choosing it under comparable functionality, and measured hosting and support costs leave positive contribution. Move to Pass if the comparison shows the projects were already viable and buyers switch readily at parity.
+Can small merchants without infrastructure staff launch and keep a multi-service app running within budget on Ample when the same assistant on an incumbent host would require specialist help they cannot afford? A matched customer trial that measures setup, troubleshooting and ongoing costs through live operation would answer it. Repeated paid use within budget on Ample, with the incumbent workflow exceeding that budget, would move the action to Reach out.

@@ -5,30 +5,30 @@
 
 ### Company case
 
-Collar’s strongest path, assuming strong product-market fit, is a repeatable rollout to public-company investor relations teams. The same team prepares earnings materials, targets investors, and briefs executives for investor calls each cycle. Collar describes a product that matches investors to issuers, checks figures across documents, and surfaces citation-backed talking points from approved materials. Those workflows could transfer to issuers abroad where the product can use local investor data and approved documents with limited adaptation. The memo leaves the extent of that work uncertain. (The Idea, Defensibility, Key Risks)
+Assuming strong product-market fit with public-company investor-relations teams, Collar’s most portable workflow is checking figures across issuer documents and surfacing approved, citation-backed answers during investor calls. That recurring job plausibly travels across markets, and using each issuer’s own materials gives the core workflow a reusable input. How much adaptation investor targeting and disclosure controls would require remains uncertain. (The Idea, Key Risks)
 
-The documented acquisition path starts with a reusable ticker preview and leads to a bookable demo and a refund-backed pilot. The preview lets prospects sample investor targeting, while the path to paid production appears to involve enterprise evaluation and compliance review. If teams use Collar across earnings cycles, accumulated meeting history and approved Q&A could make it harder to replace. Current IR pricing, renewals, and a mechanism for increasing spend within an account are unestablished. (The Idea, Defensibility, Key Risks)
+The ticker-based preview gives prospects a reusable way to try investor targeting. The documented commercial path points to a bookable demo, a pilot with a refund guarantee, and deals awaiting compliance clearance. How buyers pay, load approved materials, and reach first live use is unclear. Once deployed, recurring earnings cycles give teams a reason to return, and accumulated meeting history and approved Q&A could make Collar more valuable over time. Current renewal terms and ways for an existing customer to spend more are undisclosed. (The Idea, Defensibility, Key Risks)
 
-Collar claims 4× month-over-month revenue growth for the IR product, with the months and dollar base undisclosed. The launch announcement by November 2026 and reported headcount of three to four suggest a small team working on a recently launched product, though the date of first paid availability is unclear. The claimed $1.4 million pending compliance and 30 reported partners show interest. Realized revenue scale and the number of paying customers remain unclear. (Market & Traction, Key Facts)
+Collar reports 4× month-over-month revenue growth for its recently launched IR product, with the months, starting revenue, and revenue mix undisclosed. The reported team size of three to four and recent launch make the early signal worth tracking. The $1.4M remains pending compliance, and payment status for the 30 reported partners is unclear. Those gaps limit confidence in the commercial trajectory. (Market & Traction, Key Risks)
 
-Incremental contribution per issuer would be collected fees minus attributable selling, onboarding, live inference, and support costs. In a scalable scenario, issuers could reuse a standard setup for approved materials with limited staff time. The memo gives neither the current price nor the staff time and inference cost needed to estimate contribution. (The Idea, Market & Traction, Key Risks)
+For incremental contribution, the relevant unit is the next paying issuer. Under a recurring-fee scenario, revenue from that issuer would need to cover attributable demo, compliance review, and setup effort, plus document processing, live inference, and ongoing support. Reusable setup and approval steps could improve contribution if buyers can complete more of them independently. The memo gives neither a current price nor measured delivery inputs, so the direction of contribution remains uncertain. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-The live teleprompter is Collar’s clearest point of differentiation and its biggest rollout risk. A wrong or delayed answer reaches an executive during a private investor call, so buyers may require hands-on validation and approval before deployment. Collar’s reported compliance-pending pipeline shows that approval already stands between interest and revenue. This leaves the structural downside gate open. The memo establishes approval friction, while the work required per issuer and the extent of any market-specific rebuild remain uncertain. Those gaps also limit confidence in the growth path. (The Idea, Market & Traction, Key Risks)
+The strongest downside is that Collar’s live guidance turns each sale into a compliance-heavy deployment. The pending pipeline makes clearance a concrete commercial bottleneck, and the memo identifies selective-disclosure and live-answer accuracy risks. These risks could require issuer-specific review and hands-on support, with additional adaptation in new markets. The structural gate stays open because the memo leaves the extent and cost of that work unresolved. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 9/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can Collar bring a cohort of issuers in the U.S. and a second market from ticker preview to recurring paid production using the same approval and setup flow? A cohort with meaningful recurring billings, limited localization and staff time, and positive contribution after selling, onboarding, inference, and support costs would support moving to Reach out. Evidence that rollout requires substantial market-specific rebuilding or economically prohibitive per-issuer work would move the action to Pass.
+Can ordinary issuers in multiple markets move from the ticker preview to recurring paid production on the same core product with bounded compliance changes and little Collar staff time? A dated set of deployments showing the setup each issuer completed, Collar’s hours through first live use, and paid invoices across earnings cycles would answer it. Move to Reach out if those deployments demonstrate repeatable conversion and positive incremental contribution, raise confidence to at least Medium, and support a score of at least 65.

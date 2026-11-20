@@ -5,26 +5,27 @@
 
 ### Company case
 
-**New Economies** is Synara’s strongest path. Conventional after-hours monitoring can leave daytime incidents and follow-up to site staff. Synara says it uses AI to flag incidents for human verification and intervention. If that workflow materially cuts operator minutes and cost per successfully handled incident at comparable detection and response quality, integrators could sell daytime coverage to construction yards and dealerships that previously relied on staff because dedicated coverage cost too much. That buyer segment is a hypothesis. The memo gives neither a baseline delivery cost nor a measured saving, and Synara’s advertised sub-30-second response is a company claim. (The Idea, Key Risks)
+Synara’s plausible AGI path is daytime incident response for commercial sites that rely on staff to handle incidents outside conventional after-hours monitoring. Synara says its software flags events on existing camera feeds for operators who verify incidents, intervene by voice, and document or escalate them. At seed, that design supports a narrow hypothesis. If filtering lets one operator cover more occupied sites while maintaining detection and response quality, integrators could sell daytime coverage at a price that sites previously relying on staff would pay. The memo establishes neither the reason those sites lack coverage nor the savings needed to make it affordable. That limits the industry-enabled score to 4/50. Synara sells a security service, and the memo identifies no scarce input its product supplies to AI deployment, so building blocks scores 0/50. (The Idea, Key Risks)
 
-The deployment unit is one site. Reusing existing recorders could limit installation costs. Under the inferred wholesale model, site contribution would be the recurring fee less onboarding, video processing, operator verification, and live response costs. Peak alert volume could erode that contribution. The memo documents a public launch and Ploix’s prior delivery of false-alarm filtering at Calipsa. It records no paid pilot or buyer commitment and gives no field data on Synara’s operator workload. (The Idea, Market & Traction, Founders & Team, Key Risks, Key Facts)
+Comparable models would still leave someone responsible for verification, live intervention, and dispatch under local rules. That work gives customers a reason to buy a delivered service, while the memo identifies wholesale remote guarding and AI filtering that existing monitoring centers can adopt. Those alternatives limit durable value capture to 4/20. The public launch and reseller program establish an offering and a route to market, with buyer trials and commitments unreported. Customer demand stays at its 4/15 default. Ploix’s prior delivery of video false-alarm filtering at Calipsa supports 7/10 for execution. Synara advertises under 30 seconds from alert to action and labels its example footage illustrative. The memo supplies no operating cost or pricing data for serving the next site, leaving scale economics at its 2/5 default. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Synara may be improving an existing monitoring service while incumbents capture the same labor savings. Monitoring centers can add AI filtering through Immix while keeping their operator workflows, and Becklar already sells remote guarding through dealers. Synara’s site-specific escalation rules could make switching harder, but retention and buyer preference at model parity remain untested. These alternatives make substitution credible. The path stays open because the memo leaves both equivalent daytime performance and actual buyer switching untested, and it identifies no independently supported scarce complement. (Defensibility, Market & Traction, Key Risks)
+Synara may be improving an established remote-guarding service. Becklar already sells through dealers, and Immix lets monitoring centers add AI filtering to their existing workflows. Daytime incidents falling to site staff could reflect buyer preference or operational difficulty rather than a price barrier. If comparable daytime coverage is already available at a viable price for the target sites, the industry-enabled path falls to zero and the decision becomes Pass. The memo establishes overlapping alternatives but leaves their daytime price and coverage open. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 4/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Can an independent integrator renew paid daytime coverage at sites that previously found it unaffordable after comparing Synara with an alternative using comparable AI filtering? Move to **Reach out** if the pilot shows lower labor cost per successfully handled incident at comparable detection and response quality, positive site contribution at realistic alert loads, and renewal because Synara’s response service offers a measurable advantage. Move to **Pass** if the comparison shows that the savings open no new demand or that buyers readily switch to equivalent service.
+Can one integrator convert an occupied site that previously relied on its staff because comparable daytime monitoring was too expensive into a renewing customer at a price that covers delivery? A paid pilot that documents the prior price barrier and measures operator time, missed incidents, and response times under normal daytime traffic would answer it. Renewal at a price that covers fully loaded delivery costs while meeting the site’s response requirements would change the action to Reach out.

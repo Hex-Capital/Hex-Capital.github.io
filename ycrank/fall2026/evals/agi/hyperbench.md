@@ -1,30 +1,31 @@
 ﻿# HyperBench -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest path. The company describes a manual workflow in which embedded engineers reconcile datasheets, board layouts, and code, then reproduce faults on a physical bench. HyperBench claims its agents can trace faults across repositories, propose repairs, and retest on customer hardware before submitting draft pull requests. Its published evaluation covers diagnostic and repository-debugging cases, with executable validators or blinded review for repairs. That supports the technical mechanism. The market-opening hypothesis is that teams could routinely investigate cross-system faults they now defer because the work takes too much engineer time. The memo gives no baseline or comparative cost per bench-verified repair and identifies no buyer or use newly served by the workflow. (The Idea, Key Risks)
+HyperBench applies AI to an existing embedded-engineering workflow. Engineers cross-check datasheets, board layouts, and code, then reproduce faults on a physical bench. HyperBench describes a system graph that agents use to trace faults, draft fixes across repositories, and retest them on existing hardware. The memo identifies no AI buildout workload constrained by an input HyperBench supplies, so the building-blocks path scores zero. The industry-enabled path also scores zero because the memo identifies no buyer or verification use that becomes economically viable through this workflow. The reported evaluation covers diagnostic questions and repository repairs, with no measured change in the fully loaded cost of a bench-verified repair. (The Idea, Key Risks)
 
-The documented source-linked system graph and custom Rust indexing pipeline give HyperBench a concrete implementation lead. Accumulated interface mappings and test history could make the product harder to replace, but buyer preference under model parity and switching costs remain unmeasured. The private-beta launch and launch-post views establish visibility. Buyer commitments, paid use, and repeat usage are unreported. Leong’s firmware work, Ge’s software infrastructure experience, and the beta launch support seed-stage execution. Repeatable deployment across customer benches remains unproven. The likely expansion unit is an engineering team with an existing bench. Instrument integration, inference, and engineer review would all affect contribution per deployment. Subscription pricing is an inference, and the memo provides no deployment cost or utilization data. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Risks, Key Facts)
+The source-linked system graph and custom hardware indexing pipeline support modest value-capture credit. Accumulated mappings and test history could make switching costly, but that remains an inference, and Embedder’s physical debugging integration gives it a route to overlap. The founders’ firmware and AI infrastructure experience, together with the reported repair tests, support execution credit at seed. The private-beta launch and publicity establish visibility. The memo gives no evidence of buyer trials or commitments, paid deployments, or revenue and delivery costs for the next customer, so demand and scale economics stay at their defaults. The evidence supports a medium-confidence assessment given the documented design and team experience and the limited customer operating data. (Defensibility, Founders & Team, Key Risks, Market & Traction, Key Facts)
 
 ### Countercase
 
-HyperBench may save time on embedded debugging that teams already pay for. Embedder already offers physical debugging through SEGGER probes, and HyperBench relies on customer benches. That makes physical verification a credible point of overlap and leaves the scarce-complement path unsupported by evidence of asset control. The memo leaves cross-repository parity and buyer switching untested. The New Economies gate remains open, with both market opening and willingness to pay under model parity unproven. (The Idea, Defensibility, Key Risks)
+If scarce specialist time currently forces teams to leave some cross-repository changes unverified, agents that trace faults and run physical tests could make routine verification affordable. Even with comparable models, teams would still need system context, bench access, and a way to review test evidence. HyperBench’s design makes that scenario plausible, but custom bench setup and engineer review could absorb the labor savings. The memo does not establish that any team previously skipped verification for cost reasons or that HyperBench crossed that threshold. Both paths score zero, triggering the Pass gate. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent engineering teams pay to renew after a field trial shows that HyperBench makes a previously deferred class of faults economical to fix? Compare the manual workflow, HyperBench, and a competing workflow using an equally capable model on comparable benches. Measure fully loaded cost per bench-verified repair, including setup, failed attempts, and engineer review. Reach out if the trial shows teams can now afford to address that class of faults and choose to renew at a price that covers repeat delivery costs when a comparable option is available.
+Can a beta customer use HyperBench to routinely bench-verify a class of cross-repository changes it previously left unverified because specialist time made the work too expensive? A paid pilot on the customer’s own bench showing repeated accepted repairs below its affordability threshold, including setup, failed runs, and engineer review, would change Pass to Reach out.

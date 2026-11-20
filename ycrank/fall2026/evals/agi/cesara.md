@@ -1,32 +1,33 @@
 ﻿# Cesara -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-**New Economies** is Cesara’s strongest path. Hospital teams manually load payer terms and use spreadsheets to find underpayments after remittance. Cesara’s public demo shows a workflow that prices claims at submission, reconciles payments, and prepares clause-backed appeals. The CEO reports that pilots identified over 90% of valid underpayments and recovered over 70% of those identified. Customer identities, sample sizes, and dollar totals are undisclosed. The demo and reported results support the automation mechanism. The memo gives no comparative labor or cost measurements. (The Idea, Market & Traction)
+Cesara sells hospital payment reconciliation and appeals automation. Its described workflow extracts payer contract terms, prices claims at submission, checks remittances against expected payments, and files clause-backed appeals. This workflow supplies no scarce input to an AI workload, so the building-blocks path scores zero. (The Idea)
 
-The market-opening scenario is that hospitals could pursue small-dollar underpayments they currently leave alone because staff time makes appeals uneconomic. That is an assumption. The relevant comparison is staff time spent loading contracts, reconciling payments, and pursuing appeals per successfully recovered claim versus Cesara’s fees and the hospital’s remaining review and exception costs per recovery. Under model parity, hospitals might still pay Cesara for a workflow that maintains payer amendments, approval rules, and appeal history. The memo establishes no buyer preference, retention advantage, or network effect. (The Idea, Defensibility, Key Risks)
+The industry-enabled path also scores zero. The memo describes teams loading payer amendments manually and finding underpayments in spreadsheets months after remittance. Pricing at submission could enable a faster review cadence, but the memo establishes a delay in the existing workflow and leaves open whether cost previously excluded a specific class of claims or review frequency. The CEO reports that pilots identified over 90% of valid underpayments and recovered over 70% of those identified. Those figures lack sample sizes, dollar totals, a manual baseline, and review costs. They support an early signal for the existing workflow and leave the economic threshold untested. (The Idea, Market & Traction)
 
-Reported pilot participation and the existing manual workaround support early demand. Fee collection, repeat purchases, and payment specifically for newly viable recoveries remain unverified. The public demo and the founders’ enterprise implementation and production inference experience support seed-stage execution. The service line is a plausible expansion unit. Cesara’s collected fees would need to cover integration, inference, support, and human exception handling, including the cost of pilots that miss targets and earn no fee. The memo leaves contribution at repeat deployments unmeasured. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Service-line pilots and published CIO endorsements show early buyer interest. Paid conversion and repeat use remain undisclosed. The public product demo and the founders’ enterprise implementation and production inference experience support seed-stage execution credit. Existing vendors already cover variance detection and parts of underpayment resolution, giving buyers substitutes for much of the workflow. Switching costs from accumulated contract and appeal history remain hypothetical. For the next service line, realized fees would need to cover integration, contract validation, human review, and appeal handling across all pilots, including those that miss fee thresholds. The memo gives neither realized fees nor delivery costs, so scale economics stays at its default. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Cesara may make an existing reimbursement workflow cheaper while leaving hospitals’ threshold for pursuing claims unchanged. Adonis and Trek Health already monitor payment variances, and their existing data feeds give them a plausible route to add clause-backed appeals. The memo establishes workflow overlap while leaving end-to-end parity and buyer switching untested. The New Economies conditions are therefore unproven rather than defeated, which supports Watch. The memo supplies no independent scarce-complement case. (The Idea, Defensibility, Market & Traction, Key Risks)
+Assume a hospital currently leaves a defined class of low-dollar claims unreviewed because manual review costs more than the expected recovery. Automated contract pricing and clause-backed filing could make routine pursuit of those claims economical. Even with equivalent models, the hospital would still need complete data feeds, customer-specific contract and approval rules, and an operational appeals workflow. The product design makes that scenario plausible, but the memo supplies no buyer evidence that such a claim class was previously excluded or that Cesara crossed the cost threshold. The zero-path Pass gate therefore applies. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent hospital pay to expand Cesara to a second service line for claims it previously left unpursued, even with a model-parity alternative available? A paid expansion backed by a matched comparison of actual recoveries and fully loaded cost per successful recovery would move the action to Reach out if the newly pursued claims are profitable for the hospital, Cesara earns positive contribution, and the buyer chooses Cesara over the comparable alternative. A representative test showing that the claims remain uneconomic or that the buyer readily substitutes at parity would move the action to Pass.
+Can Cesara make routine recovery economical for a claim class a hospital previously left unreviewed because of cost? A buyer-verified paid service-line deployment showing sustained recoveries above the fully loaded cost of integration, review, and appeal handling for that claim class would change the action to Reach out. (The Idea, Market & Traction, Key Risks)

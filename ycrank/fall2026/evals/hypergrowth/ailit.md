@@ -5,28 +5,28 @@
 
 ### Company case
 
-Ailit’s strongest path is to start on a busy North American freight corridor and grow paid energy use by serving more trains through the same swap sites. The full-scale Superwagon prototype was positioned behind a locomotive for commissioning in Richmond. Ailit says the tender will power existing traction motors while retaining diesel backup. The same fuel and uptime needs plausibly recur abroad, but transferring the system would require compatible locomotive interfaces, route-specific swap sites, and adequate grid connections. The supplier-directory listing offers a discovery channel. First use still requires railroad procurement, locomotive commissioning, and site deployment. (The Idea; Market & Traction; Key Risks)
+Assuming strong product-market fit on the first freight corridor, Ailit’s best growth path is to reuse the Superwagon tender and retrofit on compatible locomotives, then sell more electricity as railroads shift more trains onto equipped routes. The company proposes owning the packs and swap sites, billing per kWh at about 20% below diesel-equivalent cost, and retaining onboard diesel as backup. Freight propulsion is a recurring job, and higher usage could grow the same railroad’s bill. That expansion remains an inference until customers pay for sustained service and extend usage. (The Idea; Key Risks)
 
-Ailit plans to bill per kWh at about 20% below diesel-equivalent cost and own the packs and swap sites. Scheduled freight service gives a railroad a recurring reason to buy power, and more electric runs by the same railroad could raise its bill. Recurring paid use and account expansion remain unverified. The six-person team completed a full-scale prototype, and the first customer deployment is planned for 2027. The Swedish entity reported zero FY2025 turnover, and the memo records no paid production use or realized sales for Superwagon. (The Idea; Market & Traction; Key Facts)
+The six-person team completed a full-scale prototype and positioned it behind a locomotive for commissioning in November 2026. The first customer deployment was planned for 2027, and the Swedish entity reported zero FY2025 turnover. This supports a precommercial assessment for Superwagon. The supplier directory gives railroads a way to discover Ailit, while first use requires locomotive integration, commissioning, and route-site setup. (Ailit; The Idea; Market & Traction; Key Facts; Key Risks)
 
-At the proposed tariff, incremental contribution starts at roughly 80% of the diesel-equivalent cost for the same work, less electricity, pack wear, swap labor, maintenance, attributable sales and commissioning effort, and the cost of any additional packs or site capacity. The favorable scenario assumes enough scheduled trains to spread site and spare-pack costs over more billed kWh before capacity must expand. AilitOS is intended to coordinate charging and pack availability. The memo provides no operating inputs to show that a corridor can sustain the required utilization or contribution. (The Idea; Key Risks)
+At the proposed tariff, contribution per delivered kWh depends on what remains after electricity and charging losses, pack wear, swap operations, site capacity, and attributable sales and commissioning costs. In a dense-corridor scenario, several trains could share sites and pack inventory, spreading fixed costs over more billed kWh. That assumes reliable swaps and sufficient train volume. Falling diesel prices would compress the tariff while Ailit still carries pack and site costs. (The Idea; Key Risks)
 
 ### Countercase
 
-Even with strong demand from the first railroad, each new corridor could require enough dedicated infrastructure and engineering to make growth capital-intensive and slow. Lower diesel prices could compress the tariff while Ailit still carries pack and site costs. Loaded-haul performance and repeatable swap times also remain unproven. The structural gate stays open because compatible fleets could reuse the tender design, and more trains could share installed capacity. The memo establishes substantial deployment work, but leaves open whether expansion requires bespoke rebuilding or is uneconomic at realistic utilization. (The Idea; Key Risks)
+The recurring freight job could exist abroad, but the current design requires compatible locomotives, equipped route stops, adequate utility connections, and charged packs timed to train schedules. Those dependencies imply substantial local delivery work and support a low portability score. They also create a risk that each new corridor requires fresh capital before it can earn revenue. The structural gate stays open because standard retrofit and site designs could make rollout repeatable, and shared utilization could improve contribution. The prototype establishes neither mechanism in customer service. (The Idea; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 8/25 |
-| Repeatable acquisition and onboarding | 4/25 |
+| Repeatable acquisition and onboarding | 3/25 |
 | Retention economics | 11/20 |
-| Initial traction | 3/20 |
+| Initial traction | 2/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 31/100** (Pass)
+**Total Score: 29/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second paid corridor reuse the first deployment’s locomotive interface and swap-site design while meeting loaded-haul schedules and earning positive incremental contribution at the promised diesel discount? Commissioning records, billed usage, and route costs that include any capacity additions would answer it. A repeatable, contribution-positive rollout would keep Ailit on Watch while broader portability and commercial growth develop. Evidence that ordinary follow-on corridors require bespoke engineering or cannot cover added capacity at realistic utilization would move the action to Pass.
+Can a second paying corridor in a different market reuse the first corridor’s retrofit and swap-site design with bounded engineering work and positive contribution at the proposed diesel discount? Sustained loaded service, billed kWh, and measured deployment and operating costs would answer it. Successful replication would support Reach out if the updated score reaches 65. Evidence that unavoidable bespoke work or capacity costs make profitable replication infeasible would change the action to Pass.

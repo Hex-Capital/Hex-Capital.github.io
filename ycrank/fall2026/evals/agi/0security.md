@@ -1,32 +1,33 @@
 ﻿# 0.security -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. Periodic audits and scanners leave engineers to investigate findings, write patches, and verify fixes. 0.security says 0cloud tests code changes in isolation and proposes patches for human review. If that workflow cuts engineering time per verified fix enough, critical-infrastructure teams that currently remediate periodically could afford to cover routine code changes. The memo gives neither the prior cost per verified fix nor the savings after review and rework, so the opening of that market remains a scenario. (The Idea, Key Risks)
+**Building blocks of superintelligence.** The rise in coding-agent pull requests points to more changes for security teams to review. The memo provides no evidence that security review is a scarce input holding up AI deployment or that equivalent review capacity is slow to add. This path scores zero. (Market & Traction)
 
-Air-gapped deployment with customer-selected models gives restricted buyers a concrete reason to consider the product even if models converge in capability. The memo documents the 0cloud launch and published upstream fixes, which, together with Ozturk’s cyber-defense experience, support seed-stage execution. A Spotify engineer reported scanning almost 30,000 files in under a minute. The founders report an EY partnership and work with the Swiss Federal Department of Defence. These are early usage and engagement signals. Payment, repeat use, and enterprise rollout remain unverified. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Facts)
+**Industry enabled by superintelligence.** The plausible new use is security testing on every code change, with proposed fixes when issues are found, for teams that can staff only periodic audits and manual remediation. 0cloud’s launch is documented. The company describes a workflow that tests changes in isolation and proposes patches for human approval. A Spotify engineer reported scanning nearly 30,000 files in under a minute. That supports scanning throughput. The shift to continuous remediation still depends on whether automated testing and patch preparation save enough engineer time after review, rework, and failed attempts. If a buyer requires air-gapped operation, the product could remain useful under model parity by providing the testing and approval workflow inside the buyer’s environment. The memo gives no comparison of fully loaded cost per verified fix or evidence of sustained use at that cadence. That gap supports Watch. (The Idea, Market & Traction, Key Risks)
 
-The hosted expansion unit is a pull-request test, with a reported launch price of $5. Assuming that price applies across a deployment, the buyer’s tool spend per verified fix is $5 times the number of tests run per verified fix, plus reviewer and rework labor. 0.security’s contribution depends on model and isolated test costs per run and, for enterprise deployments, installation and support costs. The memo supplies a price and a repeatable unit of work, but leaves fix yield and delivery costs unmeasured. (The Idea, Key Facts, Key Risks)
+Open-source distribution and air-gapped deployment with customer-selected models give 0.security a way to reach buyers with restrictive deployment requirements. Retention and switching costs remain unproven. The Spotify testimonial shows product use, while the founder-reported EY partnership and Swiss defense work leave procurement, payment, and repeat use unclear. The shipped product, published examples of upstream fixes, and relevant founder experience support seed-stage execution. Reported per-test pricing gives a revenue reference, while realized revenue and delivery costs remain unknown. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-GitHub already proposes pull-request fixes inside its own workflow, and Semgrep offers AI-assisted triage and remediation. 0.security could save time for existing application-security buyers while competing with bundled tools or its own free self-hosted software. Air-gapped deployment is a specific advantage, but the memo shows no buyer preference at functional parity, network effect, or control over a scarce complement. The evidence establishes competitive overlap. It leaves substitution for restricted buyers and the viability of continuous remediation open, so the decision gate calls for Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+GitHub already proposes fixes inside the pull-request workflow, and Semgrep offers AI-assisted triage and remediation. If a restricted enterprise can get equivalent coverage and verified fixes with a comparable model and its existing tools, 0.security may simply make an existing workflow faster. That would remove the industry-enabled path and trigger Pass. The memo establishes functional overlap but leaves equivalence in restricted deployments unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 9/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 29/150** (Pass)
 
 ### Decisive diligence question
 
-Will a critical-infrastructure buyer that currently remediates periodically renew a paid 0.security deployment after a production trial against its existing workflow and a comparably capable option it can run under the same security constraints? Reach out if the buyer expands to routine code changes because the measured cost per verified, merged fix falls enough, including review and rework, and renews at a price that covers delivery costs despite the comparable option. Stay on Watch if the comparison remains inconclusive. Pass if a representative trial shows that continuous remediation remains uneconomic or that buyers readily substitute at parity.
+Can a restricted enterprise that previously relied on periodic audits sustain security checks on every pull request with 0.security within its existing review budget? A paid pilot would move the action to Reach out if it sustains that cadence at comparable fix quality, counts model use, testing, failed attempts, and reviewer time in the cost per verified fix, and shows that the buyer’s existing tools with a comparable model cannot achieve the same result within budget.

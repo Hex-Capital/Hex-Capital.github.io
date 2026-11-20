@@ -5,21 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an established propulsion supplier seeking U.S. capacity for quick-turn custom motors. Open Actuation says it built a custom shaft motor in five weeks after the customer’s incumbent quoted a 13-week lead time and a $50,000 minimum order. The company reports that the customer moved to volume orders. A buyer could value the tooling and software if they shorten lead times across multiple OEM programs and help win repeat orders. The reported results cover one unnamed customer. (*The Idea*, *Defensibility*, *Market & Traction*)
+The strongest liquidity route is a strategic acquisition by an established motor or propulsion supplier. Maxon’s integrated propulsion offering illustrates where quick-turn custom manufacturing could fit. Open Actuation reports delivering a custom shaft motor in five weeks after the customer’s incumbent quoted 13 weeks and a $50,000 minimum order. That one build suggests a buyer could use the capability to win OEM programs that need faster design changes. The value of owning that capability and buyer willingness to pay remain unverified. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-The milestone is qualified repeat production for a second OEM, with measured lead times, yields, and gross margins. The operating Gardena factory and reported first order ramp give Open Actuation a starting point. The memo leaves the capital needed to qualify and scale a second program uncertain. The tooling and software give a buyer identifiable assets to acquire, with ownership and transfer terms still unverified. (*The Idea*, *Market & Traction*, *Key Risks*)
+The production milestone is repeatable, profitable volume delivery for multiple OEMs, demonstrated by repeat orders, consistent yields, and positive contribution margins. Earlier heavy-lift samples were separately reported. Open Actuation says its factory is operating and it is fulfilling volume orders for one unnamed OEM. Those signals make the milestone plausible. The time and capital needed for qualification, tooling, and inventory remain unknown. Ownership and transfer terms for the tooling, software, and customer contracts are also unverified. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
-Using the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The 5× target is $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value. Both sale scenarios below assume a full cash acquisition within eight years, zero net debt and deal deductions, an eligible holder whose entire stake is sold, and a pro rata waterfall with no senior claims.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million, or about $83.3 million in distributable equity value at 3%. Both sale scenarios below assume the holder is eligible to sell their entire stake, receives cash by year eight, and shares pro rata after the stated adjustments, with no additional senior claims. The memo provides catalog list prices but leaves custom motor economics and acquisition pricing unknown. The sale values are illustrative sensitivities. (*The Idea*, *Market & Traction*)
 
-- **Modest sale.** An illustrative $40 million enterprise value yields $40 million in distributable equity and $1.2 million to the holder, or 2.4×.
-- **Strong sale.** An illustrative $100 million enterprise value yields $3 million to the holder, or 6×. A $20 million reduction from enterprise value through net debt and deal deductions would bring the payout to $2.4 million, or 4.8×.
-- **Prolonged private operation.** Reinvestment with no distribution or eligible share sale yields zero realized cash within eight years.
+| Scenario | Proceeds bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $40M enterprise value less $5M in net debt and deal adjustments leaves $35M for equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in net debt and deal adjustments leaves $90M for equity | $2.70M (5.4×) |
+| Prolonged private operation | Cash is reinvested throughout the eight-year horizon | $0 |
 
-The sale values are sensitivity assumptions. The memo supplies catalog list prices and a reported order ramp, while custom-order economics and buyer valuation evidence are absent. It identifies no independently supported liquidity route. (*The Idea*, *Market & Traction*, *Key Facts*)
+At 2.5% ownership, even the strong sale yields $2.25 million (4.5×). The memo leaves a funded payout or eligible secondary unevidenced.
 
 ### Countercase
 
-A strategic buyer could source custom motors without buying Open Actuation. The memo documents KDE Direct’s custom-build offering, including a coaxial motor for Shotover, and identifies domestic high-volume capacity at Westmag. Open Actuation’s reported speed advantage could be specific to one job, while magnet and silicon-steel sourcing and unverified production yields could make that advantage difficult to repeat. These risks make Watch appropriate. The memo establishes neither a structural closing barrier nor an inadequate payout across the strongest credible sale outcomes, so the Pass gate does not trigger. (*Defensibility*, *Market & Traction*, *Key Risks*)
+An acquirer could source custom motors from an existing supplier and avoid buying a factory. KDE Direct already offers custom designs, including a documented coaxial motor project, and Open Actuation’s lead-time advantage rests on one company-reported build. Domestic sourcing difficulties and unverified production yields further weaken the case for paying a premium. The evidence supports Watch because it leaves both a comparable substitute for Open Actuation’s quick-turn service and a ceiling on achievable sale proceeds unestablished. The Pass gate would require a supported structural block or materially inadequate proceeds under the strongest credible route. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -28,11 +30,11 @@ A strategic buyer could source custom motors without buying Open Actuation. The 
 | Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-What price could a propulsion supplier justify for Open Actuation after a second OEM qualifies and places repeat volume orders? Documented production yields, order margins, and buyer-side evidence tying those economics to a price that clears the holder’s $2.5 million cash hurdle after deal deductions would move the action to Reach out. A supported price range that leaves the holder materially short even at the high end would move it to Pass.
+What would a strategic buyer pay to own Open Actuation’s custom motor operation once it demonstrates repeatable, profitable volume production across multiple OEMs? A buyer-side valuation range grounded in documented order economics and the cost of building or sourcing the capability would answer it. Move to Reach out if that range credibly clears the $2.5 million holder objective after dilution and deal adjustments. Move to Pass if the supported upper end falls materially short and no independent route can make up the gap.

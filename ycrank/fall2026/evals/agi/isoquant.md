@@ -5,30 +5,29 @@
 
 ### Company case
 
-The strongest path is **scarce complements**. As open-model usage grows, serving capacity that meets tight latency and quality targets could become more valuable. Isoquant’s company-run GLM‑5.3‑Flash benchmark reports a median time to first token of 452 ms versus 890–1,550 ms across three competing hosts. That supports a workload-specific performance advantage. Its banking evaluation also reports 91.7% lower inference cost and higher intent accuracy against its baseline. The banking result shows a potential efficiency gain within an existing use case. The memo leaves the labor savings and previously excluded buyers needed for a New Economies case unestablished. (The Idea, Market & Traction)
+Isoquant’s building-blocks case is that workload-specific tuning can free GPU serving capacity for latency-sensitive open models. As request volume grows, operators need more GPU capacity to maintain response times. Isoquant tunes kernels, memory, decoding, caching, and scheduling on the target hardware. In its own GLM‑5.3‑Flash benchmark, it reported a 452 ms median time to first token versus 890–1,550 ms across three competing providers. That supports a plausible performance gain on a specific workload. Whether that gain translates into scarce capacity at production traffic levels remains unverified, as does how quickly buyers could add or substitute equivalent capacity. (The Idea, Defensibility, Key Risks)
 
-Isoquant can tune serving configurations against customer targets on the relevant hardware. That gives it some control over service execution. A lasting advantage would depend on whether tuning results transfer across workloads or give customers a reason to stay as competitors improve. Cross-customer reuse remains unverified, and training on customer content requires written consent. (The Idea, Defensibility)
+The industry-enabled path earns zero. Isoquant’s banking evaluation reported higher intent accuracy and 91.7% lower inference cost against its baseline. The memo identifies an efficiency gain in an existing workflow. A previously excluded buyer, use, or operating frequency remains unestablished. (Market & Traction)
 
-The company reports 1.5T+ tokens served, 1,000+ customers, and migrations from other hosts and self-hosted stacks. Those claims support early usage. Paid retention and the share of buyers who moved to meet a binding performance requirement remain unclear. The founders’ inference and live-serving experience, prior Agent FM launch, and shipped inference API support seed-stage execution. Repeating the performance gains across production workloads is the next execution gap. (Market & Traction, Founders & Team, The Idea, Key Risks)
-
-The unit of expansion is another production workload billed on token usage. Isoquant reports 158.9 median output tokens per second versus 41–54 for peers on one model. **Scenario assumption:** At comparable hardware cost, concurrency, and output quality, higher throughput could lower GPU cost per successful request. Contribution would depend on whether usage revenue covers GPU time at actual utilization, including idle capacity, workload tuning, and support. The memo provides list prices and benchmark throughput, with production contribution still unverified. (The Idea, Defensibility, Key Risks)
+Isoquant reports workload migrations, 1.5 trillion tokens served, and more than 1,000 customers. Those are early demand signals, with paid conversion and repeat use unverified. The shipped API and the founders’ prior inference and production-serving work support execution credit. Published token prices establish how Isoquant charges. The contribution from an additional workload remains unknown because GPU utilization, serving costs, and tuning costs are missing. (Market & Traction, Founders & Team, The Idea)
 
 ### Countercase
 
-Tuned open-model serving could become interchangeable. Together AI already offers agent-driven tuning, NVIDIA Dynamo provides open-source scheduling and cache management, and compatible APIs make switching easier. Isoquant’s reported migrations are consistent with buyers moving when another provider offers a better deal. If rivals match performance on production workloads and buyers switch readily, the scarce-complement path closes. The memo establishes credible substitutes and leaves production parity unresolved, which supports Watch. (Defensibility, Key Risks, Market & Traction)
+Together AI already offers agent-driven tuning for dedicated inference, and NVIDIA Dynamo provides open-source scheduling and cache management. Compatible APIs make it easier for buyers to switch providers, and reuse of Isoquant’s tuning across customers remains unverified. These facts weaken durable value capture and make it plausible that incumbents or self-hosted stacks can close the performance gap. Equivalent performance on the same constrained workload remains unverified, so the building-blocks path retains partial credit and the action stays Watch. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 13/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent buyers renew at viable prices after a production comparison with their best tuned alternative? Reach out if buyers renew because Isoquant repeatedly meets a binding latency target at comparable quality and earns positive contribution after compute, tuning, and support. Pass if alternatives match those outcomes and buyers switch readily.
+Can Isoquant meet a buyer’s production latency target on a workload the buyer cannot serve with its best tuned alternative within its available GPU budget? A buyer-verified replay of production traffic at matched model quality and GPU budget would answer it. If Isoquant alone meets the target, move to Reach out. If the alternative also meets it, move to Pass because that would remove the current basis for the scarcity thesis.

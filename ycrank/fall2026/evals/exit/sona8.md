@@ -5,36 +5,32 @@
 
 ### Company case
 
-Sona8’s strongest exit path is a strategic acquisition by a process-mining or enterprise workflow vendor. Sona8’s employee interviews and task demonstrations could give a buyer a way to capture workarounds that system event logs miss. The s.Oliver testimonial describes using Sona8 to map processes and identify differences in planning requirements across teams. Sona8 reports a signed top-three consultancy using the product to map client processes. The memo also records Salesforce’s signed agreement to acquire Listen Labs, an adjacent interview-software company. These signals support a reason to buy. The value of owning the product and the price a buyer might pay remain unquantified. (The Idea, Market & Traction)
+A strategic sale to a process-mining or automation platform is Sona8’s strongest supported route. Its employee interviews and task demonstrations could reveal workarounds that a buyer’s system-event data misses, giving the buyer a way to identify more processes worth automating. An s.Oliver testimonial describes using Sona8 to map processes and identify differences in planning requirements. Salesforce’s signed agreement to acquire Listen Labs shows strategic interest in adjacent interview software. Sona8’s buyer economics remain unquantified. (The Idea, Market & Traction)
 
-The seed milestone is repeat paid deployments across consulting clients that measure discovery hours saved and demonstrate reuse of the maps after rollout. Sona8’s reported 10,000-plus interviews and more than $500,000 in reported funding support attempting that test. The cost and runway to reach the milestone are unknown. (Market & Traction, Defensibility)
+The next milestone is paid expansion across multiple client engagements with measured reductions in process-discovery time or improvements in automation rollout. Sona8 reports signing a top-three consultancy and completing more than 10,000 interviews. More than $500,000 in reported funding and existing deployments make that test plausible at seed, while runway and the capital needed for repeat enterprise rollouts remain uncertain. A whole-company sale could preserve existing customer data restrictions, subject to diligence on software ownership, contract assignment, and required consents. (Market & Traction, Defensibility, Key Risks)
 
-Under the benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, equivalent to about $83.3 million in distributable equity at 3%. Both sale scenarios assume the holder is eligible, sells the entire stake, participates pro rata without a senior preference claim, and receives cash at closing within eight years. The prices and deductions are scenario assumptions.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3% without follow-ons, and $2.5 million in gross cash within eight years. That requires about $83.3 million in distributable equity. The scenarios below assume a sale of 100% of shares within eight years, holder eligibility, $10 million in combined net debt and deal adjustments, and a pro rata waterfall without senior preferences. The sale values are illustrative assumptions.
 
-| Scenario | Enterprise-to-equity bridge | Gross holder cash |
-|-----------|-----------------------------|-------------------|
-| Modest acquisition | $40M enterprise value less $5M in assumed net debt and deal adjustments leaves $35M | $1.05M (2.1×) |
-| Strong acquisition | $100M enterprise value less $10M in assumed net debt and deal adjustments leaves $90M | $2.70M (5.4×). At 2.5% ownership, $2.25M (4.5×). |
-| Prolonged private | Continued operation with cash reinvested and no eligible share sale or distribution | $0 realized |
-
-The memo provides no deal price for the adjacent acquisition, quantified buyer economics for Sona8, or evidence of an independent liquidity route. The strong case shows what would clear the hurdle under the stated assumptions. (Market & Traction, Key Facts)
+- **Modest sale.** $50 million in enterprise value leaves $40 million in distributable equity. At an all-cash close, the holder receives $1.2 million, or 2.4×.
+- **Strong sale.** $110 million in enterprise value leaves $100 million in distributable equity. At an all-cash close, the holder receives $3 million, or 6×. If only 80% is paid in cash within the horizon, realized proceeds fall to $2.4 million, or 4.8×.
+- **Prolonged private operation.** Reinvested cash yields zero realized proceeds. The memo provides no evidence of an eligible secondary, funded payout, or other independent route to holder liquidity. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-A workflow vendor could build the interview capability using commercially available voice infrastructure or turn to kawaru.ai, which already offers interview-generated workflow maps and MCP access. Sona8’s policy limits the use of interview content to serving the originating customer, weakening the case for a buyer paying for a reusable data asset. A software acquisition remains plausible, with customer contract assignment and continuity of data-use rights unresolved. The evidence leaves the buy-versus-build decision open and establishes neither a structural closing block nor a supported price ceiling that would trigger Pass. (Defensibility, Key Risks)
+A platform could build the interview capability with commercial voice APIs or partner with kawaru.ai, which already offers interview-generated workflow maps and MCP access. Sona8’s policy limits interview content to serving the customer and excludes it from model training, weakening the case for paying a premium for a pooled dataset. The consulting channel could also produce project-by-project usage with limited recurring value. These risks leave acquisition pricing unresolved. The evidence establishes neither a structural closing block nor a reliable price ceiling below the holder’s hurdle, so the Pass gate does not apply. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 19/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can repeat paid deployments demonstrate enough incremental value over a process-mining buyer’s in-house alternative to support a sale above roughly $93.3 million in enterprise value under the modeled $10 million of deductions? Measured savings and repeat use across client engagements, tied to a prospective buyer’s own build-versus-buy economics at an attainable scale, would move the action to Reach out. A supported price ceiling that leaves the holder materially below $2.5 million would move it to Pass.
+What acquisition price could a workflow platform justify from the measured results of repeat paid Sona8 deployments? Customer-verified savings or rollout gains across multiple engagements, tied to a buyer’s build-versus-buy economics, would support Reach out if they justify a price that clears the holder’s cash hurdle after deal adjustments.

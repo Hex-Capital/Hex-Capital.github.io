@@ -1,34 +1,34 @@
 ﻿# Clean -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Assuming strong product-market fit with sellers into manufacturing and insurance, Clean’s strongest path is to make buying-window intelligence a recurring input for sales agents. The memo documents demo access and an API/MCP interface. Clean says it reads sellers’ websites and documents, then uses permits, shipments, and filings to surface buying windows and decision-makers with source records attached. The interface and prospecting workflow could transfer across markets if Clean can obtain comparable records with limited adaptation. The memo leaves the availability and licensing of those records unresolved. (The Idea, Defensibility)
+Assuming strong product-market fit with its initial buyers, Clean has a plausible route to serving manufacturing and insurance sellers abroad. Those sellers have a recurring job in spotting buying windows and finding the decision-maker. Clean’s seller-document intake, account timelines, and API/MCP interface look reusable across markets. Whether the underlying permits, shipment records, and filings offer comparable coverage and timeliness abroad remains uncertain. (The Idea, Defensibility)
 
-Founder-led outbound and events provide a concrete acquisition channel, and the API/MCP interface gives buyers a reusable integration surface. The documented purchase path still runs through demos, with independent payment and activation unverified. Continuous account monitoring gives customers a reason to renew, and Clean reports recurring revenue. The memo leaves open whether monitoring more accounts or adding agent workloads increases an existing customer’s bill enough to offset churn. (The Idea, Key Facts)
+Founder-led outbound and events give Clean concrete ways to find buyers. The documented sales path runs through demos. API/MCP access gives sales-agent builders a standard interface, with independent purchase and production setup still unverified. Clean reports recurring revenue, and fresh buying signals give customers a reason to keep using the product. Monitoring more accounts could increase spend if billing scales with coverage or usage. The billing unit and same-account expansion are unknown. (The Idea, Key Facts)
 
-Clean reported its first paying customer in September and more than $200K ARR in October, before the November 2 public launch. For a five-person team following a summer pivot, that reported time to scale supports a steep early trajectory. The CEO’s separate $240K pre-YC claim lacks a comparable measurement date and billing basis, so the figures cannot establish a growth series. Vivameda’s reported $60K in signed contracts is a customer outcome. (Clean, Market & Traction, Key Facts)
+Clean reported its first paying customer in September and more than $200K ARR in October, ahead of the November 2 public launch. That suggests a fast start for the listed five-person team. The CEO’s separate $240K pre-YC ARR figure lacks a comparable measurement date, and the memo gives no billing detail to verify the commercial slope. The reported $1M in aggregate customer revenue measures customer outcomes. (Clean, Market & Traction, Key Facts)
 
-Incremental contribution would start with recurring account revenue and deduct attributable sales and setup time, licensed data, record processing, and support. Reusing the same processed records across accounts could improve contribution if license terms and coverage permit it. The memo gives too little detail on pricing or incremental costs to establish that margin. (The Idea, Defensibility, Key Risks)
+Incremental contribution depends on the next account’s fee after attributable data licensing, processing, selling, setup, and support. The memo identifies licensed data and founder-led selling, but gives no billing unit or costs for a representative account. Reusing the same datasets and processing across accounts could improve contribution if licensing terms and buyer requirements allow it. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Clean’s differentiation depends on timely, granular records. If entering each market requires new data licenses and substantial work to normalize local records, the common interface could conceal an expensive rollout. Founder-led demos add friction, and Clean’s own aircraft example shows outreach beginning after a supplier had already been selected. The structural downside gate stays open because the memo leaves both the extent of market-specific rebuilding and the cost of serving each new buyer unresolved. Those gaps keep confidence Low. (The Idea, Defensibility, Key Risks)
+Clean’s advantage depends on surfacing a reliable signal before the buyer chooses a supplier. Its aircraft example shows outreach beginning after supplier selection. If equivalent signals abroad require bespoke sourcing, licensing, and validation, the API could transfer while the underlying product requires substantial rebuilding. The structural gate clears on current evidence because the extent of that rebuilding and the need for ongoing manual work remain unestablished. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 7/25 |
-| Retention economics | 12/20 |
-| Initial traction | 15/20 |
+| Retention economics | 13/20 |
+| Initial traction | 14/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 51/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Clean acquire and activate a paid cohort in a second market through its existing API/MCP product, with standard data setup, minimal founder help, and positive incremental contribution? Billing and activation records, data setup logs, and attributable costs would answer it. A successful rollout would support Reach out if rescoring clears 65 with at least Medium confidence. Evidence that each comparable market requires substantial rebuilding would trigger Pass.
+Can a paid cohort of manufacturing sellers in a second market sign up, pay, and reach useful, source-linked alerts through the existing API/MCP workflow with limited changes to data feeds and minimal founder help? Repeatable activation with positive contribution after attributable data and onboarding costs would support Reach out. Evidence that timely signals require bespoke rebuilding market by market would trigger Pass.

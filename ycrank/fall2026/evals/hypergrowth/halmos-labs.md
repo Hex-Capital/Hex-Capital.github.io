@@ -5,20 +5,22 @@
 
 ### Company case
 
-Physical Validation’s strongest path is to become the recurring lab-sourcing layer for biotech R&D teams using AI research software. Conditional on strong product-market fit, the same supplier catalogue and sourcing workflow could serve teams in multiple markets. The memo documents the catalogue and describes project-specific lab quotes. Supplier coverage and the work required to fulfill projects across markets remain uncertain. Repeat projects could bring buyers back through the same workflow, with expansion possible if Halmos earns a fee on each project. That fee is a scenario assumption. (The Idea, Defensibility)
+Assuming strong product-market fit with biotech R&D teams, Physical Validation could serve a recurring job across markets by helping teams find external labs for successive experiments. The supplier catalogue is a reusable part of the product. How much of the workflow carries over depends on whether suitable labs can accept the work in each market. The memo documents a launch channel and project-specific lab quotes. Those quotes and the buyer’s role in verifying providers suggest that getting from discovery to a first paid order still takes hands-on coordination. (The Idea, Defensibility, Key Risks)
 
-Halmos reports a November 13 launch and two demonstrations with results scheduled for December 10. The memo leaves commercial status undisclosed, so initial traction uses the default. Under a per-project fee scenario, incremental contribution would be the fee less attributable acquisition, order coordination, support, and any lab or rework costs Halmos absorbs. The fee and those costs are undisclosed, so cost economics also uses the default. (The Idea, Market & Traction, Key Risks)
+The catalogue gives teams a concrete reason to return as new experiments arise. More orders could increase what an account spends with Halmos if Halmos collects a fee on each order. That is a scenario assumption. The memo establishes neither a platform fee nor repeat purchasing. In that scenario, incremental contribution would be the amount Halmos retains after any lab payout, less the cost of acquiring and onboarding the buyer, matching the order, and providing support. Reusing the catalogue could reduce matching work, but the memo gives no fee or labor inputs to estimate contribution. (The Idea, Defensibility, Key Risks)
+
+Physical Validation launched November 13 with a three-person team. Halmos reports that two demonstrations are underway, with readouts scheduled for December 10. That establishes a launch timeline and reported testing activity. The memo gives no usable evidence of paid adoption for Physical Validation and leaves its revenue status unknown. (Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-The catalogue could make discovery repeatable while each order still requires bespoke scoping, supplier checks, and manual coordination. Project-specific quotes and terms advising buyers to verify providers directly support that risk. The memo leaves the amount of required Halmos labor and market-specific work unresolved, so the structural downside gate stays open. (The Idea, Key Risks)
+Even with strong buyer demand, Physical Validation could scale like a brokerage. If each order requires its own quote, provider verification, and troubleshooting, staff time could rise with order volume while external labs control fulfillment. The project-specific quotes and advice to verify providers directly support that risk. The structural downside gate remains open because the memo does not establish that this work is unavoidable for routine orders or that it makes growth uneconomic. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 7/25 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 8/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
@@ -27,4 +29,4 @@ The catalogue could make discovery repeatable while each order still requires be
 
 ### Decisive diligence question
 
-Can independent biotech teams in multiple markets complete and repeat paid orders through the same workflow with minimal Halmos staff time and positive incremental contribution? Completed orders, repeat invoices, and per-order labor and cost records would answer it. Move to Reach out if that evidence lifts the score to at least 65 with Medium or High confidence.
+Can biotech R&D teams in two markets find Physical Validation, place and complete repeat paid orders through the same workflow, and do so with little staff help? Completed orders and per-order records of fees, lab payouts, and staff time showing positive contribution would support moving to Reach out if the rescored case reaches 65 with at least Medium confidence. Evidence that unavoidable manual work makes routine orders uneconomic would move the action to Pass.

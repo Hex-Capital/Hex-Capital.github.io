@@ -1,38 +1,40 @@
 ﻿# Elimentary -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest route is a strategic acquisition by a private-credit servicer or fund-administration platform. Elimentary could give a buyer covenant, reconciliation, and reporting workflows it could sell across its client base. Concord’s acquisition of Finley establishes that a servicer has acquired adjacent software. A customer testimonial puts a 500-plus-check filing reconciliation at roughly 20 hours before automation, versus under 30 minutes of agent runtime plus about an hour of human sign-off. That suggests a buyer could gain delivery capacity if the savings carry across clients. (Market & Traction, The Idea)
+Strategic acquisition by a fund administrator or credit servicer is Elimentary’s strongest route to liquidity. TresVista’s announced multi-year partnership has agents live in fund administration and financial planning. A customer testimonial reports that a reconciliation involving more than 500 checks went from roughly 20 hours of work to under 30 minutes of agent runtime plus about an hour of human sign-off. If those savings repeat across clients after setup and review costs, owning the workflows could improve a servicer’s margins. Concord’s acquisition of Finley shows that a servicer has bought adjacent credit software. The memo gives no purchase price for that deal. (*Market & Traction*)
 
-The operating milestone is repeatable paid rollout across funds with different loan agreements. TresVista announced a multi-year partnership with initial workflows live, and Elimentary reports more than 25 production agents. These signals support the ability to deploy. Implementation staffing, rollout costs, and the capital needed to scale remain unverified. The software runs over customers’ existing systems, which makes a product acquisition plausible. IP ownership, contract assignment, data permissions, and buyer funding remain open. The memo provides no evidence of an independent liquidity route. (Market & Traction, The Idea, Key Risks)
+The operating milestone is to demonstrate recurring net savings across several client deployments over successive reporting cycles, including configuration, validation, and human review costs. Elimentary reports more than 25 agents in production, and the live TresVista rollout gives it a setting to run that test. Deployment effort, runway, and incremental capital needs remain unquantified. The software runs on top of existing systems, which makes integration plausible. IP ownership, contract assignment, client data permissions, and the holder’s eligibility to receive sale proceeds remain unverified. The memo provides no evidence of an independent liquidity route. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. A separate company case study reports that covenant testing fell from four hours to 15 minutes per portfolio company across more than 150 companies. That suggests potential economic value, though the memo gives no contract revenue or buyer valuation to anchor a sale price. (Market & Traction, Key Facts)
+Using the benchmark $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons, the holder needs $2.5 million in gross cash within eight years. That requires about $83.3 million in distributable equity value. The sale scenarios assume an all-cash purchase of 100% of the equity within eight years, $5 million in combined net debt and closing adjustments, and an eligible holder receiving 3% pro rata with no senior preference reducing the payout.
 
-The sale scenarios are illustrative. Both assume an eligible holder sells the full stake for cash at closing within eight years, with the remaining equity proceeds distributed pro rata after debt and deal adjustments.
+| Scenario | Proceeds bridge | Gross cash to holder |
+|-----------|-----------------|----------------------|
+| Modest sale | $50M enterprise value less $5M leaves $45M distributable | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $5M leaves $95M distributable | $2.85M (5.7×) |
+| Prolonged private | Cash is reinvested through year eight, with no payout or eligible share purchase | $0 |
 
-- **Modest sale.** $30 million of enterprise value less $2 million in debt and deal adjustments leaves $28 million of equity. The holder receives $840,000, or 1.68×.
-- **Strong sale.** $100 million of enterprise value less $5 million in debt and deal adjustments leaves $95 million of equity. The holder receives $2.85 million, or 5.7×. Senior claims, a partial sale, or deferred payment could reduce cash received within the horizon.
-- **Prolonged private.** Continued operation with reinvested cash and no share purchase or distribution yields zero realized proceeds.
+The sale prices are illustrative. Under those assumptions, the enterprise-value hurdle is about $88.3 million. The memo supplies no revenue, buyer pricing, or deal terms to establish that Elimentary could clear it. Actual dilution, preferences, or deferred consideration could change the cash received within the horizon. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A prospective buyer could build overlapping workflows or access them through a partnership. Allvue already integrates loan-notice automation with its ledger, and TresVista’s agreement shows how a service provider can deploy Elimentary’s agents without acquiring the company. Client-specific validation could also limit the savings a buyer can reproduce across funds. These risks weaken the case for a price that clears the proceeds hurdle. The evidence establishes neither a structural block nor a reliably sub-hurdle payout, so the Pass gates remain untriggered. (Defensibility, Market & Traction, Key Risks)
+TresVista could capture the workflow savings through its existing partnership, while Allvue already offers overlapping automation inside its accounting platform. If each new client requires substantial configuration and deal-by-deal validation, savings on individual tasks may yield too little portfolio-wide benefit to justify the acquisition price. That is a concrete reason to Watch. The evidence leaves open whether a strategic buyer can clear the proceeds hurdle, so the Pass gate does not apply. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Counterparty rationale or source of cash | 23/30 |
-| Plausible investor proceeds | 10/30 |
+| Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 13/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 54/100** (Neutral)
+**Total Score: 52/100** (Neutral)
 
 ### Decisive diligence question
 
-Can paid rollouts across multiple TresVista clients demonstrate enough repeatable value to support a strategic sale clearing the $83.3 million distributable-equity hurdle? Contract and expansion revenue, measured savings, and implementation costs across those rollouts would answer it. A buyer valuation grounded in those economics that clears the holder’s cash hurdle within eight years would move the action to Reach out.
+Would a fund administrator or credit servicer’s acquisition model, using measured net savings across multiple live client rollouts, support paying the roughly $88.3 million enterprise-value hurdle under the assumed terms? A buyer-validated model that clears the hurdle would move the action to Reach out. If the strongest credible buyer case falls materially short after deal adjustments, the action would move to Pass.

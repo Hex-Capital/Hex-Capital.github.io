@@ -5,28 +5,27 @@
 
 ### Company case
 
-The strongest path is a **scarce complement**. If people increasingly use AI through dictation, a wearable that captures silently mouthed words could make dictation practical in offices and on transit, where users fall back to typing or whispering. Even at model parity, the decoder needs a signal the hardware can capture. The launch demo showed open-ended RF decoding, with reported speed above 200 words per minute and founder-reported accuracy of 85–92%. Those results support technical feasibility. Reliable performance for new wearers across sessions and devices remains unproven. The New Economies path remains unproven as well, since the memo gives no comparative cost per successful task or evidence of buyers newly served by a labor-cost reduction. (The Idea, Market & Traction, Key Risks)
+The supported path is AI-enabled silent dictation. In open offices, cafés, and transit, frequent dictation users fall back to typing or whisper microphones when speaking aloud would disturb others. Subvocal’s glasses use radio-frequency sensors and a trained model to turn silently mouthed words into text. Under the assumption that production glasses work across wearers with brief calibration, decoding could reduce the time and effort per usable message enough to make dictation practical in these settings. Under model parity, users would still need a sensor to capture the silent signal. The memo documents a prototype showcase, and the company reports open-ended decoding above 200 words per minute and showcase accuracy of 85–92%. Those figures support feasibility. The economic threshold depends on corrected text throughput after setup and errors, alongside the $499 early-bird price and planned subscription. Typing already supplies text for AI prompts, and the memo identifies no scarce input that silent dictation would relieve as AI deployment grows. The building-block path scores zero. (The Idea, Market & Traction, Key Risks)
 
-The founders progressed from an electrode prototype to custom RF glasses and built a labeled dataset. They report lower errors as the dataset grew, which suggests a potential calibration advantage. Persistence of that advantage across production units and against competing sensors remains untested. The prototype progression supports seed-stage execution, with cross-wearer validation and production still ahead. (Defensibility, Founders & Team, Key Risks)
-
-The company reports roughly 750 preorders backed by refundable $199 deposits, a meaningful early commitment with full-price conversion and repeat use still open. The expansion unit is a delivered pair at $499 if the buyer completes the order. Contribution depends on production yield, fulfillment, returns, calibration support, and ongoing cloud decoding costs. The proposed $20 monthly tier could help cover recurring costs if users subscribe. The memo gives prices and identifies cost drivers, while unit costs and subscription uptake remain unknown. (Market & Traction, The Idea, Key Risks)
+The custom sensing hardware and labeled RF recordings give Subvocal a head start in collecting and decoding its own signals. Faster calibration from a larger dataset is plausible, while other sensing approaches leave the durability of that advantage open. The company reports roughly 750 preorders backed by refundable $199 deposits, a concrete sign of buyer interest with conversion and repeat use still untested. The founders progressed from an electrode prototype to an RF prototype they demonstrated publicly. Dependable delivery remains open because production changes can alter the signal the model receives. Pricing is stated, but the memo supplies no manufacturing, fulfillment, or decoding costs to support a contribution estimate. The evidence supports watching for real-world usability and paid conversion. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Typing already works in quiet settings. If calibration and corrections erase the speed advantage, users may stick with it. Competing silent-input devices could also reproduce the benefit, weakening Subvocal’s ability to charge for its particular sensor and dataset. The memo identifies competing approaches and reports material recognition errors in the showcase. It offers no field comparison showing ready substitution or buyer switching. The scarce-complement path therefore remains open, with Watch warranted until the advantage is demonstrated in ordinary use. (The Idea, Defensibility, Market & Traction, Key Risks)
+Typing or whisper dictation may remain the better choice once users account for calibration, corrections, and the cost of a dedicated device. The company-reported showcase accuracy and ongoing work on recognition across wearers and devices make that a credible outcome. The gap is decisive and testable, so it triggers Watch. If representative users gained no practical silent-dictation use over their existing workarounds, the enabled-industry path would fall away and the decision would become Pass. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
-| Durable value capture | 11/25 |
-| Customer demand | 13/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 20/50 |
+| Durable value capture | 9/20 |
+| Customer demand | 9/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 55/100** (Neutral)
+**Total Score: 46/150** (Neutral)
 
 ### Decisive diligence question
 
-Will independent preorder customers pay the full $499 and keep choosing production glasses because they complete quiet-setting dictation tasks faster than their usual workaround? A multiweek cohort of new wearers using multiple production units should measure task time including calibration and corrections, alongside full-price conversion and repeat use. A sustained advantage with conversion and repeat use would move the action to Reach out. Clear evidence that existing workarounds serve those tasks equally well and buyers decline to convert would move it to Pass.
+Will new wearers use production-intent glasses often enough in quiet shared settings to pay the stated hardware price? A multiweek trial with frequent dictation users should compare time per usable message against each user’s usual workaround, including calibration and corrections. Consistent time savings, repeat use, and completed purchases at $499 would move the action to Reach out.

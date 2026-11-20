@@ -1,32 +1,31 @@
 ﻿# ClaimKit -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. R&D tax claims require finance and engineering teams or outside specialists to reconstruct project activity and costs from records. ClaimKit says it automates evidence collection and matching, then has a tax specialist review each claim. Edexia reports lower cost and faster completion after switching from its accountants mid-project. Fluer reports that its team could hand over raw data without writing the report. These accounts support a reduction in preparation work. The market-opening hypothesis is that eligible teams that previously skipped filing because preparation was too costly can now afford to file. The memo leaves that buyer segment and the cost reduction per successfully lodged claim unverified. (*The Idea*, *Market & Traction*)
+ClaimKit scores zero on both AGI paths. Its product uses AI to assemble evidence for R&D tax claims, so the memo establishes no workload for which ClaimKit supplies a scarce input to the AI buildout. For the industry-enabled path, the existing delivery model requires finance and engineering teams or specialist consultants to reconstruct project activity and costs. ClaimKit says its AI links records and expenses to R&D activities, with a tax specialist reviewing each claim package. Edexia reports lower cost and faster completion after switching from its accountants. Fluer reports that its team could supply raw data and hand off report writing. These accounts support a more efficient claims service. The memo identifies no buyer or use that became economically viable because of that improvement. (The Idea, Market & Traction)
 
-ClaimKit reports more than 80 clients across three countries within seven months of launch. The named customer accounts support actual use, while payment and repeat filing remain unclear. Huang’s R&D tax experience, Mahon’s automation background, and the shipped workflow support seed-stage execution. Repeatable specialist review across jurisdictions remains an operating milestone. (*Market & Traction*, *Founders & Team*, *Key Risks*)
-
-The expansion unit is one lodged claim. The documented Australian terms provide an upfront software fee and a tax-agent fee based on a quoted minimum or an agreed share of the benefit, whichever is greater. A positive contribution scenario assumes those fees cover inference, specialist review, and rework, including effort spent on claims that never reach lodgement. The memo provides no measured costs, review hours, or exception rates to validate that scenario. (*The Idea*, *Key Risks*)
+The strongest commercial case is ongoing evidence collection paired with specialist preparation across three jurisdictions. That workflow provides some operating know-how, while exportable evidence files and competing products that already automate parts of the workflow limit the case for durable pricing power. The two named customer accounts show concrete use. ClaimKit separately reports more than 80 clients in three countries, with payment and renewal status undisclosed. Huang’s R&D tax experience, Mahon’s automation background, and a launched product support seed-stage execution. The Australian terms document a fee structure, but the memo provides no realized fees or per-claim delivery costs to establish contribution after specialist review and rework. The evidence supports customer use and a shipped service, with adoption quality and unit economics still uncertain. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-ClaimKit may be making an existing service more efficient. Edexia was already pursuing a claim, and ClaimKit’s launch targets introductions to R&D teams with 50 or more engineers. Neo.Tax already automates credit work from source records, and RAD already captures evidence continuously. ClaimKit’s integrated workflow and specialist review give buyers a plausible reason to choose it today. Buyer preference under functional parity, network effects, and control of scarce specialist capacity remain unproven. The evidence keeps both New Economies conditions open to testing and provides no independent scarce-complement case. (*The Idea*, *Market & Traction*, *Defensibility*, *Key Risks*)
+Smaller eligible claims could become worth pursuing if AI cuts evidence-gathering costs enough. Edexia’s reported cost reduction and Fluer’s reduced report-writing burden support that possibility. Under comparable model capability, source-system integrations, jurisdiction-specific preparation, and specialist review could still give buyers a reason to pay for the delivered service. The missing link is a buyer who previously skipped a claim because preparation cost too much and can now afford to file. The two testimonials leave that threshold untested, so the zero-path Pass gate applies. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 23/150** (Pass)
 
 ### Decisive diligence question
 
-Can ClaimKit repeatedly win paid filings from eligible teams that previously skipped claiming because preparation cost too much, when those teams have a functionally comparable alternative? A cohort with documented prior preparation costs, actual buyer choices, and lower all-in cost per successfully lodged claim would answer it. Move to Reach out if that cohort chooses ClaimKit at prices that cover delivery costs, including specialist review and exceptions. Move to Pass if the test shows that demand comes from existing filers who switch readily at parity.
+Can ClaimKit profitably serve eligible Australian businesses that previously skipped filing because preparation cost too much? A small paid cohort with documented prior quotes or internal cost estimates, completed filings at prices those buyers accept, and positive contribution after onboarding, specialist review, and rework would change the action to Reach out to test whether the result repeats.

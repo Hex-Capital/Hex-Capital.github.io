@@ -5,28 +5,28 @@
 
 ### Company case
 
-The strongest path is to win a grocery chain with overnight restocking, then expand the paid fleet across its stores. Assuming strong product-market fit, the same restocking job plausibly recurs across markets. Theseus uses off-the-shelf robots in existing aisles and handles planograms and delivery lists in software. The reported retrofit-free setup supports portability, though the work required to handle new layouts and packaging remains unclear. The current sales motion is hands-on, with private-preview requests, introductions to retail operations teams, and store pilots. (*The Idea*, *Defensibility*)
+Conditional on strong product-market fit, supermarket operations teams in multiple markets could use the same robots for overnight restocking and daytime order picking. The off-the-shelf robot platform and software that handles planograms and delivery lists give Theseus a reusable starting point. The memo leaves open how much adaptation different assortments, shelf layouts, and store systems would require. A private-preview form and retail introductions provide a repeatable path into pilots. The reported absence of a store retrofit removes one setup step, while physical deployment and commissioning imply hands-on onboarding. (The Idea, Key Risks)
 
-The memo documents two robots deployed across two stores and shows operation in Zürich. The company reports peaks of 400 units per hour restocked and 40 picked, along with planned 2027 pilots for up to 10 more robots. Payment status and realized revenue are unknown, so the deployments establish operating adoption while commercial traction stays at the rubric default. The reported monthly per-robot fee gives a retained chain a concrete way to spend more by adding robots. Renewals and paid fleet expansion remain unverified. (*Market & Traction*, *Key Facts*, *The Idea*)
+The reported monthly fee per robot gives grocers an ongoing way to pay for a recurring job and a way to increase spend by adding robots or stores. Whether that expansion can offset churn remains untested. The memo describes Zürich launch footage and reports two robots deployed across two stores. Theseus reports peak throughput of 400 units per hour restocked and 40 picked, plus plans for pilots with up to 10 additional robots in 2027. The payment status of the live deployments is unknown, so initial traction receives the absent-evidence default for commercial traction. (The Idea, Market & Traction, Key Facts)
 
-At the robot-month level, contribution is the monthly fee less hardware capacity, allocated sales and installation effort, maintenance, support, and remote operator time. The improvement scenario assumes that corrections collected in one store transfer to others, reducing operator time per robot as the fleet grows. The memo establishes a way to capture corrections. Fee levels, intervention rates, and sustained shift performance are unknown, leaving incremental contribution uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
+The incremental cost bridge starts with the monthly robot fee and deducts hardware and deployment costs spread over the expected paid service life, plus attributable sales, maintenance, support, and remote operator time. Theseus can record operator corrections for training. If those corrections transfer across stores and reduce interventions, operator labor per robot could fall as the fleet grows. The memo gives no fee amount or representative full-shift intervention rate, leaving incremental contribution unresolved. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-Each new store could require fresh setup for its layout and assortment, frequent remote intervention, and another hardware purchase. The company’s peak throughput figures leave shift-level staffing needs unresolved, and the reported lack of upfront capital expense for grocers puts fleet capacity on Theseus. The structural gate stays open because the memo supports a plausible way to reduce that work and leaves its actual burden unresolved. Those gaps, together with unknown paid conversion, keep confidence Low. (*The Idea*, *Market & Traction*, *Defensibility*, *Key Risks*)
+Even with strong fit at the first grocer, each additional store could require extensive setup and each additional robot could add hardware spending and substantial operator time. The use of purchased robot bodies and remote fallback makes those costs concrete. The reported peak speeds leave full-shift reliability and staffing requirements open. The structural downside gate remains open because the memo does not establish that store-specific work or operator staffing makes faster growth economically infeasible. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 6/25 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 5/25 |
 | Retention economics | 15/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paid pilot in a second market convert quickly into a multi-store chain rollout using the same product and setup process, with healthy contribution per added robot at normal shift utilization? A rollout with dated paid fleet additions, repeatable installation, and measured hardware and operator costs would justify Reach out if it lifts the score to at least 65 with Medium or higher confidence. (*The Idea*, *Market & Traction*, *Key Risks*)
+Can a paid pilot convert promptly into a contribution-positive rollout across multiple stores in a second market using the same product and a repeatable setup? Paid fleet expansion and full-shift deployment records showing limited site adaptation and positive contribution after hardware, onboarding, maintenance, and operator costs would answer it. Move to Reach out if the rollout lifts the score to at least 65 with Medium or High confidence. Move to Pass if the rollout establishes that unavoidable site work or staffing makes faster growth uneconomic even at strong utilization, with no supported way to reduce those costs.

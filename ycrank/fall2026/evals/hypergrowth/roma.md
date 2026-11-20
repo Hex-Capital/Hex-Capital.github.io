@@ -1,30 +1,32 @@
 ﻿# Roma -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Roma’s strongest path is bottom-up adoption by small teams that already use several AI agents and need a shared place to assign, hand off, and review work. Assuming strong fit with those teams, the same task workflow and MCP-based connections can plausibly serve buyers across markets where their agents are available. Website and App Store distribution give users a direct way to start, and Roma reports that some 2.0 users connected at least 10 agents. Setup for a typical team is less clear, and access is free through year-end 2026. (The Idea; Market & Traction; Key Facts)
+Assuming strong product-market fit with people and teams already using several AI agents, Roma’s recurring job is to assign, hand off, and review work across those agents. Shared task histories and standard MCP connections support the inference that the same product can serve this workflow across markets where the connected agents are available. Website and App Store distribution give users a direct route to try Roma. The company reports that some users connected ten or more agents, which shows that some users reached meaningful setup. How reliably typical users get there and whether they can pay independently remain open. (The Idea, Market & Traction)
 
-Shared histories preserve decisions, edits, and attribution for future handoffs. That gives teams a reason to return and could make switching harder as work accumulates. A paid workspace plan that expands with seats or usage is a scenario assumption. Roma has disclosed neither pricing nor paid renewals in the memo. The three-person team launched 2.0 on November 11, and the app had 35 US iPhone ratings by November 17. The ratings and reported agent connections show early adoption during the free period. Heavier usage claims refer to the original app. (Defensibility; The Idea; Market & Traction; Key Facts)
+Task histories preserve decisions and results for future handoffs, giving teams a reason to return. Paid retention and expansion remain untested. The App Store showed 35 US ratings within roughly a week of the three-person team’s Roma 2.0 launch, and the CEO announced free access through year-end. The ratings and reported connections support early unpaid adoption. The heavy-use figures for the original app describe an earlier product. (Defensibility, Market & Traction, Key Facts)
+
+In a paid scenario, contribution from the next workspace would be its fee less attributable acquisition, onboarding, support, and any added assistant, connector, and hosting costs. If customers bear execution costs for their external agents, Roma may mainly pay for coordination. If Roma absorbs more inference and connector usage as activity grows, heavy users could compress contribution. The memo identifies vendor dependencies, while future pricing and costs per workspace remain unknown. (The Idea, Key Risks)
 
 ### Countercase
 
-ClickUp and Notion already cover parts of agent delegation inside tools teams may already use. Roma also reported missed iPhone handoffs and shipped fixes and retries, while execution depends in part on third-party services. If teams handle enough delegation in their existing tools, Roma could struggle to charge for a separate workspace. A paid workspace would need to cover attributable acquisition and onboarding, hosting and history storage, provider usage, and support. The memo gives no paid price or measured costs for that comparison. The structural gate remains open because the documented issues establish competitive and operating risks, with no evidence of mandatory bespoke rollout or unavoidable costs that make growth infeasible. (Market & Traction; Key Risks; The Idea; Defensibility)
+Teams could use agent delegation inside ClickUp or Notion, making a separate workspace hard to monetize. Roma also reported missed agent pickups and shipped fixes, so reliable handoffs remain important to repeat use. These risks leave the structural downside gate open. The memo supports a portable workflow, and the economics of serving the next workspace remain unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 21/25 |
+| Global buyer demand | 20/25 |
 | Repeatable acquisition and onboarding | 16/25 |
 | Retention economics | 10/20 |
 | Initial traction | 5/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 56/100** (Neutral)
+**Total Score: 55/100** (Neutral)
 
 ### Decisive diligence question
 
-After free access ends, can multi-agent teams activate and renew on a paid plan without hands-on help and at positive contribution? A cohort tracked from signup through first renewal, with paid conversion, onboarding effort, and attributable acquisition and serving costs, would answer it. Repeatable paid conversion and renewal at positive contribution would move Roma to Reach out.
+Can an ordinary self-serve cohort become recurring, contribution-positive customers after free access ends? A cohort that connects agents without staff help, keeps delegating across billing cycles, and generates positive contribution after attributable costs would move the action to Reach out. Until that milestone, Watch.

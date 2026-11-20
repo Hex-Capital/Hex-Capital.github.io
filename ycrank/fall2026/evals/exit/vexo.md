@@ -5,21 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an AI assistant platform seeking to turn in-person conversations into follow-up actions. Vexo documents a permissioned connector that retrieves memories with source references, and the memo records Amazon’s acquisition of adjacent wearable maker Bee. The founders report designing the hardware, firmware, and app in-house. The acquisition rationale is an inference. If Vexo can show that wrist capture leads to more completed follow-ups and repeat assistant use, a platform could have a reason to buy the product and its integrations. Buyer interest and incremental usage remain unverified. (The Idea, Defensibility, Market & Traction)
+A strategic acquisition by an AI assistant platform is Vexo’s strongest exit path. Vexo documents a permissioned connector that gives assistants access to searchable conversation memory with source references. A platform could buy Vexo to add an all-day capture workflow and turn more offline commitments into actions inside its assistant. Amazon’s acquisition of Bee shows that a platform has bought in this category. Vexo’s incremental value to a buyer remains unmeasured. (*The Idea, Defensibility, Market & Traction*)
 
-The first commercial milestone is shipping the Band and measuring sustained use in a paid cohort. Vexo lists a January 30, 2027 shipping start for its $199 refundable preorders, and the founder reports distributing prototypes to an undisclosed number of preorder customers. The team’s embedded systems experience supports a production test, while preorder volume, retention, manufacturing costs, and funding for the rollout remain unclear. (The Idea, Market & Traction, Founders & Team)
+The next milestone is a shipped customer cohort that demonstrates sustained use and more completed follow-ups than an existing capture workflow. The founder reports distributing prototypes to an undisclosed number of preorder customers. The memo records a refundable $199 preorder and a listed January 30, 2027 shipping start. Those signals make a cohort test plausible. Manufacturing costs, runway, and the capital needed to ship and measure the cohort remain unknown. The founders report developing the hardware and software in-house, which supports a product acquisition in principle. Transfer of recorded memories and continued access to revocable integrations would require diligence. (*The Idea, Defensibility, Market & Traction, Key Risks*)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The 5× objective requires $2.5 million in gross cash within eight years, or about $83.3 million in distributable equity value at 3%. Both sale scenarios assume a full cash acquisition within eight years, holder eligibility, $5 million in combined net debt and deal deductions, and a pro rata waterfall without senior preferences. The sale prices are illustrative sensitivities. Bee’s acquisition price and Vexo-specific buyer economics are unreported. (Market & Traction)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, requiring about $83.3 million of distributable equity at 3%. The following are illustrative sensitivities. Both sale cases assume a full cash acquisition within eight years, full holder participation, and pro rata distribution of the residual equity after the stated deductions, with no further senior claims.
 
-| Scenario | Distributable equity | Holder cash |
-|-----------|----------------------|-------------|
-| Modest sale at $40M enterprise value | $35M | $1.05M (2.1×) |
-| Strong sale at $100M enterprise value | $95M | $2.85M (5.7×) |
-| Prolonged private operation with reinvestment and no eligible share sale | No distribution | $0 (0×) |
+| Scenario | Enterprise-to-equity bridge | Cash to holder |
+|---|---|---|
+| Modest sale | $40M enterprise value less $5M in assumed net debt and deal deductions leaves $35M | $1.05M, or 2.1× |
+| Strong sale | $100M enterprise value less $10M in assumed net debt and deal deductions leaves $90M | $2.70M, or 5.4× |
+| Prolonged private | Continued operation with cash reinvested and no eligible share sale or funded payout within eight years | $0 |
+
+At 2.5% ownership, even the strong sale yields $2.25 million, or 4.5×. The memo gives Bee’s pre-acquisition funding and leaves its purchase price undisclosed. It supplies no Vexo-specific buyer valuation, holder terms, or separately supported liquidity route. The scenarios establish the hurdle and its sensitivity to dilution. (*Market & Traction, Key Facts*)
 
 ### Countercase
 
-Amazon already has wrist-worn capture and follow-up through Bee Frontier, while Omi’s open-source firmware, apps, and connector give other platforms a starting point for building their own. A product acquisition is plausible, but bystander consent and revocable connected-app permissions leave the buyer’s ability to carry over the full workflow unresolved. The memo also offers no evidence of an independent route to holder cash. These gaps justify Watch. The evidence establishes neither a structural block nor a sale-price ceiling below the holder’s objective. (Defensibility, Market & Traction, Key Risks)
+An assistant platform could integrate Vexo or assemble a substitute. Amazon already has Bee Frontier for wrist-worn capture and follow-up, and Omi makes firmware, apps, and an assistant connector available under an open-source license. Those alternatives weaken buyer urgency and pricing power. Bystander consent and revocable connected-app permissions could further limit the value a buyer can retain. The memo leaves those risks unresolved for the strongest route. It establishes neither a structural block nor a price ceiling below the holder’s hurdle, so the Pass gate is unmet. (*Defensibility, Key Risks*)
 
 ### Dimension Scores
 
@@ -35,4 +37,4 @@ Amazon already has wrist-worn capture and follow-up through Bee Frontier, while 
 
 ### Decisive diligence question
 
-Does a shipped, paid Band cohort show a sustained increase in assistant-approved follow-ups completed per user versus phone-only capture over 90 days? A measured lift that an assistant platform considers material to its product economics would move the action to Reach out. Until then, Watch.
+Would the incremental value of owning Vexo justify a price that leaves at least $83.3 million in distributable equity at the benchmark ownership? Move to **Reach out** if a shipped cohort shows sustained, measurable follow-up gains over a substitute and a plausible buyer’s build-versus-buy analysis supports that price after deal deductions. Keep **Watch** while that evidence is pending.

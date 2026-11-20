@@ -1,32 +1,31 @@
 ﻿# Caveman -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. Caveman could make coding-agent work economical for teams that currently handle it manually or defer it because agent runs cost too much. In a company-run benchmark, Caveman reported 21% lower list-price cost per solved task than Codex, with each solving 90 of 192 runs. On a normalized basis, the measured agent cost fell from 100 to 79. If review time, rework, and fees leave enough of that saving intact, a team with a budget between the two costs could take on a previously deferred workflow. The memo gives no manual delivery baseline or evidence that a buyer crossed that threshold. (The Idea; Market & Traction)
+Caveman reduces the context that coding agents reprocess during multi-step tasks. The share of GitHub pull requests starting with an agent draft rose from 17% to over 40% between March and September, so the cost of repeated context could affect more work. The memo documents a recurring expense and leaves open whether inference capacity limits these deployments, whether substitutes are scarce, or whether new supply would be slow to arrive. The building-blocks path scores zero. The enabled-industry path also scores zero because the memo identifies teams already running coding agents and supplies no concrete buyer, workflow, or cadence previously priced out. (*The Idea*, *Market & Traction*)
 
-Caveman controls its proprietary harness. Workload-specific evaluation sets and rollout histories could give teams a reason to stay when comparable models are widely available, but the memo records no paid preference under functional parity. The browser extension’s displayed 10,000 users show adoption of the earlier tool. Repeat paid use of Code or Cloud by newly served teams remains unverified. (Defensibility; Market & Traction; Key Facts)
-
-At seed, solo founder Julius Brussee’s progression from the original prompt to a local proxy, Cloud, and Code demonstrates delivery. Cloud’s replay and limited-traffic rollback offer a practical way to test whether savings transfer to production. A paying Cloud team is a plausible expansion unit. The listed $300 monthly plan includes $300 of usage, so contribution depends on the cost of serving that usage, including inference, replay, hosting, and support. The memo provides no realized cost or repeat deployment data. (Founders & Team; Market & Traction; The Idea; Key Risks)
+The strongest commercial case is selling cost and quality controls to teams already using agents. The proprietary harness and an open-source distribution channel with about 121,000 repository stars support some value capture. Workload-specific tests and rollout histories could raise switching costs, while Edgee’s existing compression offering shows buyers have alternatives. The free extension’s 10,000 displayed users show adoption of a cost-saving workaround. Conversion to paid Code or Cloud use remains unverified. Brussee shipped the local proxy, Cloud, and Code between August and November. The memo gives list prices but leaves the cost of serving the next customer, including inference and support, unquantified. Evidence confidence is medium because the launches and free usage are observable, while savings on the current harness come from company tests and paid deployment economics remain unverified. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Caveman may be an efficiency tool for teams already buying coding agents. Edgee already sells context compression for existing agents, and an external test of Caveman’s original skill found that fewer output tokens coincided with a higher total bill after a run crossed a long-context pricing tier. That result makes workload-level savings uncertain for the current harness. The memo shows competitive overlap without establishing equivalent production performance or buyer switching, so the New Economies path remains open to testing. It offers no independent evidence that Caveman controls a scarce complement. (Defensibility; Market & Traction; Key Risks)
+Caveman reports 21% lower list-price cost per solved task against Codex, with each solving 90 of 192 runs. If comparable savings hold on a team’s own workload after fees, failed runs, and human review, a team with a fixed budget could run routine agent-assisted maintenance at a cadence it previously could afford only sporadically. Workload-specific replay tests and rollback could give that team a reason to buy Caveman even with access to the same models. A separate test of the original skill found that fewer output tokens coincided with a higher total bill after one run crossed a long-context pricing tier. The benchmark makes the scenario plausible, but the memo documents neither a team crossing that affordability threshold nor a continuing need for Caveman under comparable model access. The Pass gate applies. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 11/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 22/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent teams repeatedly pay Caveman at a price that leaves positive contribution to run a workflow they previously handled manually or deferred, when a comparable harness is available on the same models? A paid production cohort that documents the prior workflow, measures all-in cost per accepted task including human review and rework, and renews after trying the alternative would move the action to **Reach out**. If the savings fail to unlock the workflow or buyers consistently switch to an equivalent alternative, move to **Pass**.
+Can one paying team sustain a coding-agent workflow at a cadence its existing tools priced out? A workload-matched pilot using the same underlying models would change the action to **Reach out** if the team sustains that cadence within budget after fees, failed runs, and human review, and keeps paying for Caveman’s workload-specific quality controls. Savings confined to the team’s existing cadence would leave the action at **Pass**.

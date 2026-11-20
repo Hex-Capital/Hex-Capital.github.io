@@ -1,32 +1,33 @@
 ﻿# Kiwi -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-New Economies is Kiwi’s strongest path. Chen reports spending 20 hours in one week reviewing and fixing agent work at a prior employer. Kiwi says it exposes the SQL and data snapshot behind each agent step and turns reviewer corrections into regression tests. Those controls could reduce the labor required to deliver an accurate cross-tool account review. One plausible scenario is that lean post-sales teams could run these reviews routinely after previously skipping them because of labor costs. Both the excluded buyer and the reduction in cost per accepted review remain unverified. (*The Idea*, *Key Risks*)
+Kiwi supports revenue operations and post-sales agents with versioned source records, replayable SQL, and regression tests built from reviewer corrections. Chen reports spending 20 hours in one week reviewing and fixing agent work at a prior employer. That is evidence of a labor-intensive workaround for an existing workflow. The memo identifies no scarce input to the AI buildout that Kiwi could supply and no buyer, use, or cadence that Kiwi has made economically viable. Both AGI paths score zero, triggering Pass. (The Idea, Key Risks)
 
-Kiwi’s customer-specific review history could give teams a reason to stay if they rely on it to validate workflow changes. That switching cost is inferred. Buyer preference at functional parity and network effects remain untested. Chen reports more than 100 discovery conversations, while paid commitments and repeat usage remain unverified. (*Defensibility*, *Market & Traction*, *Key Facts*)
+Customer-specific review history could make switching costly if teams come to rely on it for regression testing. That advantage remains untested, and HubSpot already overlaps with some cross-tool account workflows. Manual review and maintenance of workflow instructions support modest demand credit. The company-reported discovery conversations leave willingness to pay and repeat use open. (Defensibility, The Idea, Market & Traction)
 
-The public launch and the founders’ prior work in post-sales and federated SQL support seed-stage execution. A customer deployment is the likely unit of expansion. Its economics remain unmeasured once connector setup, hosting, and support for stale data or incorrect queries are included. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*)
+The public launch establishes that Kiwi introduced the product. Chen’s prior post-sales and data infrastructure work and Qin’s delivery of a federated SQL engine support execution credit. Customer deployment reliability remains unverified. The memo describes pricing arrangements but provides no realized prices or delivery costs, so scale economics stays at the default. Confidence is low because the evidence for buyer demand and the economics of a successful run rests on founder reports and product descriptions. (Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-Kiwi may mainly save time on workflows existing RevOps teams already run. HubSpot’s agent already uses MCP to pull from other tools for account-planning summaries, giving CRM-centric buyers an option inside their existing interface. That overlap raises the risk of substitution. Parity on Kiwi’s replay and regression-testing workflow and actual buyer switching remain unproven, so the evidence supports Watch. (*Defensibility*, *Key Risks*)
+If manual review currently makes daily cross-tool account workflows too expensive for a lean post-sales team, Kiwi’s replay and regression testing could reduce review enough to make that cadence viable. Even with equally capable models, the team would still need current source data, versioned records, and approval controls. The memo supports the workflow design and the review burden, while the excluded cadence and net labor savings remain scenario assumptions. The countercase leaves the Pass gate in place. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent post-sales teams that previously skipped recurring cross-tool account reviews pay to keep running them with Kiwi after trying a functionally comparable alternative using the same model? Move to Reach out if paid pilots show repeat use and a sustained drop in cost per accepted review at the same quality, including setup, human review, and rework, and buyers choose to renew Kiwi after the comparison.
+Can a paying post-sales team sustain a daily cross-tool account workflow it previously ran only intermittently because review was too costly? A paid pilot that sustains daily use at the buyer’s accuracy and freshness requirements, at a lower fully loaded cost per successful run than its existing agent workflow, would change the action to Reach out. The comparison should include Kiwi’s fee, human review, and rework.

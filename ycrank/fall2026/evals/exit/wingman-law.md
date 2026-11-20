@@ -1,38 +1,40 @@
 ﻿# Wingman Law -- Exit Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-The strongest route is a strategic sale of Wingman’s internal workflow software to a personal injury software vendor such as EvenUp or Eve. Wingman describes a platform that connects calls, texts, emails, and case files so agents can prepare work for attorney approval. A buyer could add that workflow to its existing product if it saves attorney time after review and can be deployed without transferring confidential client files. The memo supplies no measured savings or buyer interest. (The Idea, Defensibility, Market & Traction)
+The strongest potential exit is a strategic sale of Wingman’s workflow software to a personal-injury claims software vendor. Wingman says its internal platform connects case files and communications to agents that gather evidence and prepare work for attorney approval. A buyer could use that workflow to reduce attorney review time and rework for its customers. That benefit is an inference. The memo provides no measured savings or buyer interest. (*The Idea*, *Defensibility*, *Key Risks*)
 
-The operating milestone is a completed case cohort showing lower staff and attorney time after review and rework, with work quality maintained under confidentiality controls. The memo records two open roles and reports multiple six-figure cases in progress. Those cases offer a setting for the test. Collections, test costs, and runway remain unknown, and contingency fees arrive only after recovery. (Market & Traction, Key Risks)
+YC reports multiple six-figure cases in progress, giving Wingman a cohort to test the workflow through resolution. The relevant milestone is a completed-case comparison that measures attorney hours, evidence errors, and rework against manual handling. The memo lists openings for a litigation attorney and a legal operations engineer, and Wingman confirms YC backing. Available runway is unclear, and recovery-dependent fees can delay cash collections while the test runs. (*Market & Traction*, *Key Risks*)
 
-Under the benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value. The sale cases below are illustrative assumptions because the memo supplies no price or investor terms. Both assume an all-cash sale of the entire software asset within eight years, with proceeds going to the entity in which the holder owns equity. After debt and deal adjustments, they assume the full residual is distributed pro rata within the horizon, with no additional senior preference or escrow and the holder eligible for its full 3%.
+With investor terms unavailable, use the rubric benchmark of a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring approximately $83.3 million in distributable equity value at 3%. The sale cases below are sensitivities. Both assume an all-cash software sale by the entity in which the investor holds eligible equity, full participation, $5 million in debt, taxes, and deal costs, and $5 million in senior payouts before the common distribution.
 
-| Scenario | Proceeds bridge | Holder cash |
-|---|---|---|
-| Modest sale | $40 million enterprise value less $10 million in debt and deal adjustments leaves $30 million distributable | $900,000 (1.8×) |
-| Strong sale | $100 million enterprise value less $10 million in adjustments leaves $90 million distributable. At $20 million in adjustments, $80 million remains. | $2.7 million (5.4×), or $2.4 million (4.8×) with higher adjustments |
-| Prolonged private operation | Cash is reinvested, with no eligible share purchase or distribution | $0 realized |
+| Scenario | Enterprise value to distributable equity | Holder cash within eight years |
+|-----------|------------------------------------------|--------------------------------|
+| Modest sale | $40 million less $10 million leaves $30 million | $900,000 (1.8×) |
+| Strong sale | $100 million less $10 million leaves $90 million | $2.7 million (5.4×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share sale or payout | $0 |
+
+The strong case clears the objective under those assumptions. The memo supplies no basis for either sale price and leaves software ownership, holder participation, and the actual waterfall unverified. It identifies no independent liquidity route. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Countercase
 
-EvenUp and Eve already sell overlapping tools, and Morgan & Morgan has built its own AI platform. A strategic buyer may see little reason to pay for a separate system unless Wingman demonstrates savings after attorney review. California’s confidentiality limits also make it important to establish what the buyer can deploy and what the investor-backed entity owns. The memo establishes neither a structural block to a software sale nor a credible price range that consistently falls short of the proceeds hurdle. Neither Pass gate is triggered. (Defensibility, Key Risks)
+Claims software vendors already cover parts of Wingman’s workflow, and Morgan & Morgan has deployed its own AI platform. A buyer can build or buy overlapping capabilities. Wingman would need to show a measurable advantage that survives deployment without its client files, given the confidentiality limits described in the memo. This weakens the acquisition rationale. The Pass gate remains untriggered because the evidence establishes neither a structural closing block nor inadequate proceeds under the strongest credible route. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 7/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 32/100** (Pass)
 
 ### Decisive diligence question
 
-Would a claims-software vendor value Wingman’s workflow highly enough to clear the holder’s proceeds hurdle if the software can be transferred and deployed without confidential client files? Buyer feedback tied to measured savings on completed cases, a documented chain of IP ownership, and an indicative price range that clears the hurdle after deal adjustments would move the action to Reach out. Evidence that the software cannot be transferred or that the strongest credible price range leaves the holder materially short would move it to Pass.
+Would a claims software buyer pay enough for Wingman’s software alone to leave at least $83.3 million distributable to eligible equity holders? A preliminary buyer valuation tied to measured savings on completed cases, with a credible structure for distributing sale proceeds to the investor, would move the action to Reach out if the proceeds bridge clears that hurdle.

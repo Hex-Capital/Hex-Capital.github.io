@@ -5,21 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a consumer learning app that wants to expand into everyday conversation practice. Quippy offers voice and text rehearsal with line-by-line feedback. The company says it tailors later drills to recurring mistakes and can use saved practice history and optional connected-app context. A buyer could gain a working product and a new use case for its existing audience. That rationale depends on whether the personalized drills improve paid retention enough to justify acquiring the product. The memo provides no measurement of that effect. (The Idea, Defensibility, Founders & Team)
+Quippy’s strongest path to holder liquidity is a strategic sale to a learning or coaching platform. Quippy describes a product that uses saved practice history and recurring mistakes to tailor drills. A buyer could use that workflow to extend conversational practice into dating, friendships, and workplace conflict. Duolingo’s existing conversational practice work illustrates the product fit. The economic case depends on whether Quippy’s personalization improves paid retention enough to justify acquiring it. The memo supplies no measured lift. (*The Idea*, *Defensibility*, *Founders & Team*)
 
-Quippy’s live apps, 92 U.S. iOS ratings, and estimated 10,000-plus lifetime iOS installs make a paid-cohort test plausible at seed. The reported $500,000 seed entry is a funding signal, with available runway and test cost still unknown. A measurable milestone is a sustained 90-day paid-retention lift from personalized drills compared with generic roleplay, with contribution margin measured after model costs. (Market & Traction, Key Risks)
+The memo records a July iOS launch and a 4.7/5 rating from 92 U.S. users, alongside a third-party estimate of 10,000-plus lifetime iOS installs. Those signals support running a paid-retention test. The listed subscription prices establish an offer, and the reported $500,000 seed entry provides a funding signal. Paid cohort size, runway, and the capital needed to reach acquisition scale remain unknown. Quippy says users can disconnect integrations and delete account data. A buyer’s rights to use saved practice history or connected-app context after a sale remain unverified. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity value at 3%. The following are scenario assumptions. Both sale cases assume $5 million in combined net debt and deal adjustments, no senior claims in the waterfall, and an eligible holder selling the full stake for cash at closing within eight years.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3% pro rata. The sale values below are illustrative assumptions. Both sales assume the holder participates in a full sale, receives 3% of distributable equity with no preference deductions, and receives all proceeds in cash by year eight.
 
-- **Modest sale.** $30 million in enterprise value yields $25 million in distributable equity value and $750,000 in holder cash, or 1.5×.
-- **Strong sale.** $100 million in enterprise value yields $95 million in distributable equity value and $2.85 million in holder cash, or 5.7×.
-- **Prolonged private operation.** Reinvested cash yields zero realized proceeds over eight years. The memo supplies no evidence of an independent payout or eligible share purchase.
+| Scenario | Enterprise-to-equity bridge | Holder cash by year eight |
+|----------|-----------------------------|---------------------------|
+| Modest sale | $40M enterprise value less $5M debt and $5M deal adjustments leaves $30M distributable | $900,000 (1.8×) |
+| Strong sale | $100M enterprise value less the same assumed deductions leaves $90M distributable | $2.7M (5.4×) |
+| Prolonged private | Quippy continues operating and reinvests available cash, with no funded payout or eligible share purchase | $0 (0×) |
 
-Quippy’s listed subscription prices establish a monetization mechanism. Paid conversion, retention, revenue, and buyer pricing remain unverified, so neither sale price is underwritten. An acquisition that relies on retaining practice history or connected-app context would also need to resolve data permissions and vendor continuity. The company’s stated deletion and disconnect controls establish user choices, while transfer rights remain open. (The Idea, Market & Traction, Key Risks)
+If only 90% of the strong-sale proceeds reach the holder by year eight, cash received falls to $2.43 million. The memo gives no basis for valuing an acquisition, verifying the holder’s waterfall, or underwriting an independent liquidity route. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A buyer could build voice rehearsal with commercial speech APIs, and Talkville, Volo, and Rehearse already offer overlapping practice. If Quippy’s personalized drills add little durable value, a buyer could have a reason to add the feature and little reason to pay a price that clears the holder’s hurdle. The seed-stage evidence leaves that risk open. It establishes neither a structural closing block nor a supported ceiling on sale proceeds, so the Pass gate does not trigger. (Defensibility, Market & Traction)
+A strategic buyer can build voice roleplay with commercial speech APIs, and Talkville and Volo already offer consumer conversation simulations. Quippy’s saved history would give a buyer a stronger reason to acquire the product if it measurably improved retention and could be used after closing. The memo establishes neither condition. This weakens the acquisition case, but the evidence does not establish a structural closing barrier or a credible price ceiling below the proceeds hurdle. The Pass gate is therefore untriggered. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -27,12 +29,12 @@ A buyer could build voice rehearsal with commercial speech APIs, and Talkville, 
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can Quippy’s retained paid cohorts create enough value for a strategic buyer to support at least $83.3 million in distributable equity value? A measured 90-day paid-retention lift over generic roleplay, with contribution margins that support a credible buyer valuation at that hurdle, would move the action to Reach out.
+Can Quippy’s recurring-mistake drills improve paid retention enough to justify a strategic acquisition that clears the holder’s proceeds hurdle? A paid-cohort comparison against generic roleplay would measure the lift. Buyer-informed economics would then need to support roughly $83.3 million or more in distributable equity within eight years under the benchmark. That evidence would move the action to Reach out.

@@ -5,13 +5,15 @@
 
 ### Company case
 
-Assuming strong fit with consumers who regularly split bills or repay friends, Versine’s strongest growth path is through recipient claim links. Versine describes a flow in which senders connect an assistant via MCP, approve transfers with a passkey or standing rule, and send bank claim links that recipients can use without a Versine account. App listings provide a discovery route, and each claim link could introduce another potential sender. The recurring job and standard assistant interface plausibly travel across markets, while Bridge’s identity verification and payout coverage determine where the full flow can work. The memo leaves independent completion of that flow and conversion from recipient to sender unverified. (The Idea, Defensibility, Key Risks)
+Assuming strong initial product-market fit, Versine could grow by turning recurring tasks such as splitting bills and repaying friends into payments users initiate from an assistant. Versine documents an MCP integration, passkey approvals, and bank claim links that recipients can use without creating an account. The assistant interface is reusable across markets. Whether the same product can serve consumers abroad depends on where its identity verification and bank payout workflows work and what changes they would require. (The Idea, Defensibility, Key Risks)
 
-Standing rules and saved contacts could encourage repeat use. The posted $1 instant payout fee gives existing users a way to spend more if they choose it more often, while free standard payouts make that expansion uncertain. The three-person team’s November payments launch drew 182 Product Hunt upvotes and showed 5+ Android downloads. Those observations establish early attention. Realized payments revenue, paid usage, and commercial growth remain unknown. (The Idea, Defensibility, Market & Traction, Key Facts)
+App listings and the launch provide concrete discovery channels. Claim links could bring new users into the product through an ordinary transfer. The documented flow suggests users can approve and send payments with little help, although the memo does not establish that typical users independently complete verification, connect an assistant, and make a first transfer. The three-person team’s November payments launch drew 182 Product Hunt upvotes and had 5+ Android downloads in the November 17 snapshot. These observations show early attention. The memo establishes neither realized payments revenue nor pre-revenue status, so initial traction receives the absent-evidence default. (The Idea, Market & Traction, Founders & Team, Key Facts)
+
+Recurring transfers and saved payment rules could support repeat use. Under current pricing, retained users can spend more by choosing more $1 instant payouts, but standard payouts are free. Durable paid usage and expansion sufficient to offset churn remain uncertain. As a scenario, incremental contribution would start with $1 per instant payout and subtract attributable verification, transfer, payout, support, and acquisition costs across paid and free activity, including any redeemed launch credits. The memo establishes no Versine share of third-party top-up fees and gives too little cost evidence to estimate contribution. Cost economics receives the absent-evidence default. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-Versine could grow transfer volume while earning too little from instant payouts to cover the cost of serving it. At the posted price, average revenue per payout from the instant fee would be $1 times the share choosing instant delivery. If verification costs are incurred once per account, repeat payouts could spread that cost, but payout costs, support, and any redeemed launch credits still need to be covered. The memo gives no basis to estimate those amounts or the paid payout share. Bridge dependency also leaves geographic access uncertain. The structural gate stays open because the memo establishes neither substantial rebuilding by market nor unavoidable negative contribution. (The Idea, Defensibility, Key Risks)
+Even with strong initial fit, repeat use could concentrate in free transfers and standard payouts, leaving too few paid instant payouts to cover the cost of serving the broader user base. Bridge handles both identity verification and bank payouts, so its restrictions could limit where Versine can offer the full workflow. These risks leave the structural gate open. The memo does not establish that market expansion requires substantial bespoke rebuilding or that incremental costs make faster growth infeasible. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -21,10 +23,10 @@ Versine could grow transfer volume while earning too little from instant payouts
 | Repeatable acquisition and onboarding | 16/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort acquired through recipient claim links in a second market use the existing verification and payout flow independently, then generate growing, repeat instant-payout revenue at positive incremental contribution after launch credits end? A dated cohort record showing those results could move the action to Reach out if the evidence lifts the score to at least 65 and confidence to Medium or High. Evidence that entry requires substantial bespoke rebuilding or that each additional cohort remains structurally uneconomic would move the action to Pass.
+Can a cohort in a second market independently complete the same assistant-to-bank workflow with bounded rollout changes and generate repeat instant-payout fees that cover the cohort’s incremental costs after launch credits end? A cohort report showing the rollout work, completed transfers, repeat fees, and attributable costs would test that path. A positive result would warrant rescoring and could move the action to Reach out if the score reaches 65 and confidence reaches at least Medium.

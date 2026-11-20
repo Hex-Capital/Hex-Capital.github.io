@@ -1,32 +1,33 @@
 ﻿# Agent 37 -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass
 **Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **New Economies**. Automated provisioning and persistent sandboxes could make it economical for small agencies to offer a dedicated agent to clients they previously could not serve at a viable price. ETEC+ previously set up VPS instances manually, and Boon built its own provisioning pipeline. Boon reported that monthly cost per agent fell from $85 to $4.94 after adopting Agent 37. That supports the cost-reduction mechanism. The memo leaves provisioning and maintenance labor unmeasured, so the change in all-in cost per client agent kept reliably in service remains unknown. (The Idea, Market & Traction)
+Agent 37 sells persistent, isolated sandboxes for developers running a separate agent harness for each customer. More agent deployments would increase demand for these environments. ETEC+ manually provisioned VPS instances, and Boon built its own provisioning pipeline. Those workarounds establish setup friction. Commercially rented hosts and competing runtimes provide alternative supply, and the memo leaves durable scarcity unestablished. The building-block path scores zero. (The Idea, Defensibility, Market & Traction)
 
-ETEC+ reportedly moved more than 30 existing clients to its branded agent service. That shows deployment at meaningful volume for an early company, with repeat paid usage and the number of newly viable client accounts still unverified. Boon embedded provisioning and scheduled runs in its application. That integration and the need to migrate persistent state could favor retention under model parity. Buyer preference at comparable functionality and price remains untested. (Market & Traction, Defensibility)
+The industry-enabled path also scores zero. The buyer accounts support cheaper hosting and faster provisioning for customers that already had ways to deploy agents. They leave open whether AI reduced the labor cost per successful customer outcome enough to make a previously unaffordable service viable. With both paths at zero, the decision gate is Pass. (The Idea, Market & Traction)
 
-The team shipped the broader multi-harness Cloud product after launching OpenClaw hosting, and the founder brings prior software engineering and management experience. The next execution test is reliable operation as production usage grows. Each additional client sandbox is a clear expansion unit, billed for running time and persistent disk. The founder reported average monthly Cloud spend of $0.37 per sandbox, while the listed always-on configuration costs $4.76 per month. Contribution at either usage level remains uncertain because the memo gives no host utilization, storage cost, or production support burden. (Market & Traction, Founders & Team, The Idea, Key Facts, Key Risks)
+Boon’s embedded provisioning and scheduled runs give Agent 37 a plausible switching-cost advantage, with retention and pricing power unmeasured. Named customer rollouts and the shipped multi-harness platform support demand and execution credit. The company’s claim that it powers agents for more than 250 startups leaves repeat paid usage unclear. The founder-reported $0.37 monthly average per sandbox lacks corresponding host utilization and delivery-cost data, so contribution on the next sandbox remains unverified. (Defensibility, Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-Agent 37 may be making an existing hosting market cheaper. ETEC+ moved existing clients, and Vision reported savings after switching from AWS and Hetzner. AWS already offers isolated agent sessions, and Agent 37 attributes its cost advantage to rented servers, shared host resources, and workload optimization. The memo shows no control over scarce capacity and no brand preference or network effect under functional parity. Those gaps keep both thesis-fit and value-capture scores below the strong bands. Whether lower costs open a new market and whether those buyers stay when alternatives reach parity remain testable, so the decision gate is Watch. (Market & Traction, Defensibility, Key Risks)
+Boon reported that monthly cost per agent fell from $85 to $4.94, and ETEC+ reported bringing more than 30 existing clients onto its branded agent service. Dedicated agents at that price could let agencies sell recurring services that were previously uneconomic. Even with equivalent models, agencies could still value managed isolation, credentials, and persistent state. The reports leave the decisive threshold untested because they identify neither a previously excluded paid use nor its fully loaded cost per successful outcome. The Pass gate still applies. (Market & Traction, The Idea, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 15/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 26/150** (Pass)
 
 ### Decisive diligence question
 
-Will agencies repeatedly pay Agent 37 to serve client accounts that were previously uneconomic when comparable hosting is available at a similar price? Move to Reach out if a paid agency cohort shows that lower provisioning and maintenance labor reduced the all-in cost per reliably served account enough to bring those clients online, and the agencies renew after evaluating an alternative with comparable functionality and pricing.
+Can an agency show repeat paid use of a specific service it previously could not deliver profitably, with AI reducing labor enough to make each successful outcome profitable after hosting, human review, and failures? A paid cohort with that cost comparison and a demonstrated need for Agent 37’s managed isolation and persistent state under model parity would move the action to Reach out.

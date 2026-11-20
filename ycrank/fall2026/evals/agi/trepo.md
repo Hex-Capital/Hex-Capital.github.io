@@ -1,32 +1,31 @@
 ﻿# Trepo -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Trepo’s strongest path is New Economies. The former delivery cost is household time spent checking cupboards, reconciling receipts, and assembling grocery orders. Trepo’s fridge-mounted device and app use receipt scans, photos, and voice updates to maintain a shared inventory. The founder reported that San Francisco beta households could order carts generated from household consumption. The market-opening hypothesis is that households that skip ongoing inventory tracking would adopt routine stock-aware replenishment if Trepo materially reduced the time per accurate order, including inventory updates and cart corrections. The memo provides no comparative time or accuracy measurements. (The Idea, Market & Traction, Key Risks)
+Trepo gives households a shared way to track groceries and draft orders. Its product uses receipt scans, photos, and voice updates to build an inventory, replacing some of the work households do through memory and cupboard checks. This is a consumer application of AI with no identified scarce input that constrains AI deployment. It earns zero for Building blocks of superintelligence. The memo supports a plausible reduction in household effort, but identifies no buyer or replenishment use that manual tracking made uneconomic at the needed frequency. It earns zero for Industry enabled by superintelligence. With both paths at zero, the rubric calls for Pass. (The Idea, Key Risks)
 
-Under model parity, the reason to pay Trepo would be easier capture at an existing fridge and a shared inventory that stays useful across shopping trips. Both advantages are plausible, with household preference and retention still untested. The memo records one publicly reported, cancelable preorder and 59 U.S. iOS ratings. The founder-reported beta and Taylor’s electronics experience support early execution, while production fulfillment remains unproven ahead of the March 2027 ship target. (Defensibility, Market & Traction, Founders & Team, Key Risks)
-
-The expansion unit is one activated household. The $99 preorder price or $129 listed regular price must cover device production, shipping, returns, warranty, and acquisition. Optional Food Club adds $9.99 per paying month after three included months. Recurring contribution depends on paid conversion and retention, alongside the costs of model usage, product matching, and support for households on both tiers. The memo establishes pricing and fulfillment terms, while margins, conversion, and repeat usage remain unknown. (The Idea, Key Risks)
+The memo records 4.9/5 across 59 U.S. iOS ratings and one buyer-reported hardware preorder. The founder describes a San Francisco cart beta, and an investor reports retailer pilots with undisclosed terms. Those signals support early demand, with repeat paid use still unverified. The released app, reported device beta, and Taylor’s hardware experience support seed-stage execution credit. Commercial hardware fulfillment remains open. Competing products already offer receipt-based inventory and ordering, which limits Trepo’s leverage unless its shared device produces meaningfully better results. Listed prices establish the proposed revenue model. Hardware, support, and order-correction costs are missing, so scale economics takes the absent-evidence default. (Market & Traction, Founders & Team, Defensibility, The Idea, Key Risks)
 
 ### Countercase
 
-Trepo may save time within an existing grocery workflow while leaving households responsible for keeping inventory current. Grocery AI already offers receipt-based inventory and ordering, and Samsung and Instacart have announced fridge recognition linked to ordering. Those alternatives put pressure on the value of Trepo’s inventory workflow, while the memo documents neither easy switching at functional parity nor exclusive control of a scarce input. The New Economies gates remain unproven, and the evidence supports Watch. (Market & Traction, Defensibility, Key Risks)
+A shared device that fits an existing fridge could make accurate weekly replenishment practical for households that abandon manual inventory tracking. Under model parity, Trepo could still deliver fresher shared inventory if kitchen-side capture reliably records consumption. That case assumes household members keep logging what they use and Trepo can reliably turn the resulting inventory into a usable cart. The reported beta establishes that households were offered consumption-based carts. It leaves open whether they adopted a previously impractical routine, so the countercase falls short of the outreach gate. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 7/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-In a shipped-device cohort of households that previously skipped inventory tracking, does Trepo materially cut household minutes per accurately completed grocery order and earn repeat Food Club payments after the included period when a comparably capable alternative is available? A field comparison that logs update and correction time, verifies completed orders, and records paid renewals and switching would answer it. Evidence of both a material time reduction and repeat payment under parity would move the action to Reach out. A credible test showing that the time savings fail to bring those households into the workflow, or that they readily switch at parity, would move it to Pass.
+Can households that previously abandoned manual inventory tracking sustain paid weekly replenishment with Trepo? A paid cohort showing repeat orders, materially less household time per accurate order, and fewer corrections than a comparable app-only workflow would move the action to Reach out.

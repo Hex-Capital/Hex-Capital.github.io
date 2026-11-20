@@ -5,21 +5,21 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an electrical equipment manufacturer or integrator. Applied Kinetics sells made-to-spec power and cooling packages by project quote and licenses its procurement software separately. A buyer such as Mission Critical Group could gain access to more factory capacity and use the software to deliver equipment sooner. That rationale depends on Applied Kinetics demonstrating a repeatable delivery advantage that the buyer can retain after a sale. (The Idea, Market & Traction)
+The strongest route is a strategic sale to an electrical-equipment integrator. A late transformer or switchgear order can delay site energization. If Applied Kinetics can reliably secure approved factory slots and deliver equipment packages on schedule, an integrator could buy the business to gain that capacity and coordinate more of the order through site delivery. The company reports access to 40+ partner plants and attributes 10+ GW of project experience to its manufacturing base. The memo documents a manufacturing launch with a seven-week build-and-test quote for pad-mounted transformers. Actual delivery times, customer savings, and buyer interest remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Applied Kinetics reports access to 40+ partner plants and attributes the 10+ GW of projects equipped to its manufacturing base. The seven-week transformer quote covers build and testing. The memo provides no completed delivery results or measured customer savings. The operating milestone is repeat paid orders delivered faster than customers’ approved alternatives, with positive margins after testing, freight, and delivery. YC backing supports pursuing that milestone, while the capital required to finance orders through delivery and customer payment remains unquantified. Factory access after a change of control and any required consents are unverified. (Defensibility, Market & Traction, Key Risks)
+The seed-stage milestone is repeat paid, on-time site delivery through customer-approved plants, with a measured schedule advantage and positive contribution margin after testing, customs, and freight. The launch offer and the company’s stated process for coordinating factory acceptance checks give it a way to test that milestone. The announced YC backing leaves the capital required for repeat orders, and the funding available to cover it, unclear. (The Idea, Market & Traction, Key Risks)
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, ownership diluted from 5% to 3%, and no follow-ons. A 5× gross return within eight years requires $2.5 million in cash, or about $83.3 million in distributable equity at 3%. For illustration, assume an eligible holder sells the entire stake for cash at closing within eight years, with $10 million in net debt and deal adjustments and a pro rata waterfall with no additional senior claims.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, no follow-ons, and a 5× gross cash objective within eight years. That requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale scenarios below are illustrative. Both assume a full cash sale within eight years, an eligible holder selling the entire stake, and pro rata distribution after debt and deal adjustments, with no additional senior claims. The memo leaves the actual waterfall and the transferability of factory and customer agreements unresolved. (The Idea, Market & Traction, Key Risks)
 
-- **Modest sale.** A $50 million enterprise value leaves $40 million in distributable equity and pays the holder $1.2 million, or 2.4×.
-- **Strong sale.** A $100 million enterprise value leaves $90 million in distributable equity and pays the holder $2.7 million, or 5.4×.
-- **Prolonged private operation.** Continued reinvestment yields zero realized cash within eight years. The memo supplies no evidence of a funded payout or eligible secondary.
-
-The sale values are scenario assumptions. The memo contains no buyer valuation, comparable acquisition price, or holder terms that support a realizable payout range.
+| Scenario | Cash to the holder |
+|-----------|--------------------|
+| Modest sale | $50 million enterprise value less $5 million in debt and deal adjustments leaves $45 million in distributable equity. The holder receives $1.35 million, or 2.7×. |
+| Strong sale | $100 million enterprise value less $10 million in debt and deal adjustments leaves $90 million in distributable equity. The holder receives $2.7 million, or 5.4×, with about $6.7 million of room for further reductions in distributable equity. |
+| Prolonged private | Continued operation with reinvested cash yields $0 in realized proceeds within eight years. The memo provides no evidence of a funded payout or eligible share purchase. |
 
 ### Countercase
 
-Mission Critical Group already manufactures and integrates overlapping equipment, and Fluxco already offers AI-assisted sourcing and logistics. An incumbent could use its own capabilities or contract for sourcing. Customer-approved factory lists and component shortages across several plants could also erode the scheduling advantage. The Pass gate remains untriggered because the evidence leaves both the availability of a ready substitute for the full offering and the economics of a credible sale unresolved. (Defensibility, Market & Traction, Key Risks)
+An integrator could already have much of the capability it would be buying. Mission Critical Group manufactures and integrates overlapping equipment, and Fluxco offers AI-assisted transformer sourcing and logistics. Customer-approved manufacturer lists can limit the usable partner network, and shared component shortages could constrain several factories at once. Those risks could erase the schedule advantage and weaken the reason to acquire. The memo establishes neither a structural closing block nor a credible sale price that leaves the holder materially short, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -35,4 +35,4 @@ Mission Critical Group already manufactures and integrates overlapping equipment
 
 ### Decisive diligence question
 
-Would an integrator value Applied Kinetics’ demonstrated delivery advantage enough to support a sale that clears the holder’s 5× cash hurdle? A prospective buyer’s quantified case for acquiring the company, grounded in repeat paid orders and measured savings against approved suppliers, would move the action to Reach out if the implied price clears the hurdle after deal deductions and the holder’s payout terms.
+Would a strategic integrator value Applied Kinetics’ delivery capability enough to support at least $83.3 million in distributable equity? Evidence of repeat paid deliveries through approved factories, quantified schedule gains, and buyer economics that support that value after deal deductions would move the action from Watch to Reach out. A credible valuation range below that hurdle after the holder’s waterfall would move it to Pass.

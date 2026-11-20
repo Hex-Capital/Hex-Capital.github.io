@@ -5,36 +5,34 @@
 
 ### Company case
 
-The strongest route is a strategic acquisition by a software-delivery platform such as Harness. Owning ByteAsk could give the platform build-aware C/C++ retrieval and native patch verification inside workflows it already sells. ByteAsk reports that its system matched Codex CLI at 129 successful runs out of 144 while costing 68% less in a same-model test. The memo also records Harness’s purchase of Augment Code assets, which shows a willingness to acquire adjacent code-context technology. Neither signal establishes what Harness would pay for ByteAsk. (The Idea, Defensibility, Market & Traction)
+ByteAsk’s strongest exit path is a strategic acquisition by an engineering platform such as Harness. The memo records Harness’s purchase of Augment Code’s assets and describes ByteAsk’s build-aware C/C++ indexing and patch verification as capabilities that can plug into existing agents. ByteAsk reports matching Codex CLI at 129 of 144 successful runs with 68% lower cost in a same-model test. That gives a buyer a concrete efficiency claim to test when deciding whether to acquire the capability or build it internally. The memo provides no ByteAsk buyer interest or usable transaction price benchmark. (The Idea, Defensibility, Market & Traction)
 
-An illustrative milestone over the next 12–18 months is multiple paid enterprise deployments that renew after demonstrating a repeatable reduction in total engineering time per accepted patch across build variants, including review time. Nodus reported 2.3× co-located decode throughput and 52% higher co-located training throughput in a 30-day pilot that required 150 hours of review. The reported $1 million pre-seed gives ByteAsk capital to pursue further pilots. Runway and the cost of repeating those integrations remain unknown. The CLI and air-gapped deployment make a product transfer plausible, with IP rights and customer consents unverified. (The Idea, Market & Traction, Key Risks)
+A credible milestone is repeatable paid production use across several C/C++ teams, with verification gains measured after human review. The reported $1 million pre-seed and a completed 30-day pilot support a path to further tests. Nodus reported 2.3× co-located decode throughput and 52% higher co-located training throughput, alongside 150 hours of review. Paid CLI subscribers are referenced, while customer count, collected revenue, and the capital required to repeat the pilot remain unknown. ByteAsk’s separately packaged integration makes an asset sale plausible, with IP and open-source license rights, customer consents, and holder distribution terms still to verify. The memo supplies no evidence of an independent liquidity route. (The Idea, Market & Traction, Key Risks, Key Facts)
 
-The memo references paid CLI subscribers and custom enterprise pricing, with collected revenue and customer counts undisclosed. Using the shared $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3% and no follow-ons, the holder needs $2.5 million in cash within eight years. That requires about $83.3 million in distributable equity. The illustrative sale cases assume a close within eight years, an eligible holder selling the entire stake, cash at close, and pro rata distribution after net debt and deal adjustments, with no additional preference leakage. (Key Facts)
+Using the shared benchmark, a $500,000 check at $10 million post-money starts at 5% and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. The sale scenarios below are illustrative. Both assume $5 million in net debt and deal deductions, no additional senior claims, and full participation by the holder in a pro rata cash distribution within eight years. In an asset sale, the seller must first receive and distribute the residual cash.
 
-| Scenario | Enterprise value to distributable equity | Cash to holder |
-|---|---|---|
-| Modest sale | $40M less $5M in assumed deductions = $35M | $1.05M (2.1×) |
-| Strong sale | $105M less $5M in assumed deductions = $100M | $3.00M (6.0×) |
-| Prolonged private | Continued operation with cash reinvested and no eligible share sale | $0 realized |
-
-The sale values are scenario assumptions. Even in the strong case, selling only 80% of the stake would deliver $2.4 million and miss the objective. The memo provides no supported independent liquidity route.
+| Scenario | Cash to holder |
+|---|---|
+| Modest sale at $40 million enterprise value | $35 million distributable, yielding $1.05 million or 2.1× |
+| Strong sale at $100 million enterprise value | $95 million distributable, yielding $2.85 million or 5.7×. At 2.5% diluted ownership, proceeds fall to $2.38 million or 4.75×. |
+| Prolonged private operation with cash reinvested | $0 realized within eight years absent a funded payout or eligible share purchase |
 
 ### Countercase
 
-Harness already acquired a code-context engine, and both Harness and Cursor have agent workflows into which they could build C/C++ verification. ByteAsk’s add-on distribution also gives compatible platforms a way to offer its capabilities without owning them. If the gains require customer-specific test integration and substantial engineer review, the economics may favor building or partnering, or support only a modest asset purchase. The memo leaves that risk open. It establishes neither a ready equivalent for ByteAsk’s verification layer nor a ceiling on sale proceeds, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
+Harness or Cursor could add C/C++ verification to workflows they already distribute. The memo identifies no structural barrier, and the Nodus pilot relied on checks for its target hardware and human merge review. If those requirements make deployments expensive to replicate, a buyer could build internally or offer an asset price below the holder’s hurdle. The memo establishes neither a ready substitute for ByteAsk’s full capability nor a supported sale-price ceiling that would trigger Pass. Watch reflects the unresolved link between production benefit and a price that clears the proceeds objective. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Counterparty rationale or source of cash | 22/30 |
-| Plausible investor proceeds | 10/30 |
-| Milestones and capital needed | 13/20 |
+| Plausible investor proceeds | 8/30 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Can repeatable results from renewing enterprise customers support a strategic buyer’s case for paying enough to leave at least $83.3 million in distributable equity? A buyer-side build-versus-buy analysis grounded in those deployments and accounting for review and integration costs would move the action to Reach out if it supports clearing that hurdle. Until then, Watch.
+Would owning ByteAsk’s verification capability create enough value for a strategic buyer to support at least $83.3 million in distributable equity value? Repeatable paid deployments and a buyer-specific estimate of integration savings or incremental revenue that supports that price after deal deductions would move the action to Reach out. Credible pricing below the hurdle across the strongest route would move it to Pass.

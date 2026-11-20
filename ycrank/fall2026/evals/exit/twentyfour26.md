@@ -5,23 +5,23 @@
 
 ### Company case
 
-A strategic acquisition by a digital manufacturer with owned factories is the strongest path. A buyer such as Protolabs could gain an integrated workflow from CAD intake through machining and inspection if twentyfour26 can show that it lowers the cost per conforming part across multiple cells. The memo records the CNC service launch and Fictiv’s acquisition by MISUMI. twentyfour26 reports producing parts for Bay Area hardware teams, with turnaround as fast as about 48 hours. That claim supports testing the workflow on live jobs. The memo provides no measured buyer savings or acquisition price benchmark. (The Idea, Market & Traction, Defensibility)
+A strategic acquisition is the strongest supported route. MISUMI’s acquisition of Fictiv establishes an adjacent transaction. twentyfour26 describes a workflow that takes a CAD file through quoting, machining simulation, and in-house production and inspection. A digital manufacturer could have a reason to buy that workflow if it can deploy it across cells and reduce programming and setup labor while maintaining part quality. The memo provides no measured buyer savings or acquisition price for that asset. (The Idea, Defensibility, Market & Traction)
 
-A seed-stage milestone is to reproduce the workflow on a second cell with repeat paid jobs, measuring operator time, yield, and fully loaded cost per conforming part. The existing shop gives the team a place to collect baseline data. The memo lists $500,000 in financing with conflicting round details and leaves the cost of a second cell and available runway unknown. Company-reported ownership of CNC equipment makes an acquisition structure plausible. Software ownership, portability, and required consents remain unverified. The memo supplies no evidence of an independent liquidity route. (Market & Traction, Defensibility, Key Facts)
+The company reports making parts for Bay Area hardware teams, with its fastest turnaround at about 48 hours. That gives it a starting point for testing repeat orders on a second standardized cell. Part eligibility and capacity limits make repeatability consequential, and the reported $500,000 financing leaves runway and the cost of replication unclear. Company-owned equipment makes a sale structurally plausible, while software ownership, assignment rights, and holder participation remain unverified. The memo provides no evidence of an independent route to holder liquidity. (Market & Traction, Key Risks, Key Facts)
 
-Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value. For illustration, assume a full cash sale within eight years, $5 million of net debt, and $5 million of combined deal deductions and senior claims. Assume the holder is eligible to receive 3% of the residual at closing. Actual terms and the waterfall are unknown.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. The eight-year objective is $2.5 million in cash, which requires about $83.3 million in distributable equity. The sale cases below are illustrative sensitivities. Both assume $10 million in net debt and deal deductions, an eligible holder selling the full stake for cash within eight years, and a pro rata waterfall with no additional senior claims or holdbacks.
 
-| Scenario | Assumed outcome | Gross cash to holder |
-|-----------|-----------------|----------------------|
-| Modest sale | $50M enterprise value leaves $40M distributable | $1.2M (2.4×) |
-| Strong sale | $100M enterprise value leaves $90M distributable | $2.7M (5.4×) |
-| Prolonged private | Cash is reinvested and no eligible share sale occurs within eight years | $0 |
+| Scenario | Proceeds bridge | Holder cash |
+|-----------|-----------------|-------------|
+| Modest sale | $50M enterprise value less $10M leaves $40M in distributable equity | $1.2M (2.4×) |
+| Strong sale | $100M enterprise value less $10M leaves $90M in distributable equity | $2.7M (5.4×) |
+| Prolonged private | Cash is reinvested, with no distribution or eligible share purchase | $0 realized |
 
-Under those assumptions, the hurdle is about $93.3 million in enterprise value. The strong case clears it by just $200,000 in holder cash. The memo gives no basis for estimating a realizable sale price.
+At 2.5% ownership, the strong sale would pay $2.25 million and miss the objective. The memo gives no basis for treating either illustrative sale price as realizable. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A likely buyer may already have enough of the workflow in-house. Protolabs reports automated toolpath verification, CloudNC offers off-the-shelf toolpath generation, and twentyfour26’s standardized cell limits eligible jobs. A buyer could assemble much of the capability internally, leaving twentyfour26 with limited value beyond its shop and capacity. This weakens the acquisition rationale. The memo establishes neither a structural closing block nor a credible ceiling on holder proceeds, so the Pass gate does not apply. (Defensibility, Key Risks, Market & Traction)
+Protolabs already reports automated CNC toolpath verification and can route work beyond its owned factories through its partner network. CloudNC offers off-the-shelf automation for part of the workflow. A strategic buyer could therefore build or buy components of what twentyfour26 offers, especially while its inspection feedback loop remains a development goal and its cell accepts a limited range of jobs. That weakens the case for a premium, but the substitutes cover only parts of the proposed workflow, and the memo leaves achievable sale pricing unresolved. The Pass gate is untriggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -37,4 +37,4 @@ A likely buyer may already have enough of the workflow in-house. Protolabs repor
 
 ### Decisive diligence question
 
-Can a second cell reproduce savings large enough to justify a strategic purchase that clears the holder’s proceeds hurdle? Repeat paid jobs showing lower fully loaded cost per conforming part at comparable quality, paired with a credible buyer economics model that supports a price above the adjusted hurdle, would move the action to Reach out.
+Would a strategic buyer value the workflow above the holder’s proceeds hurdle once it works across two cells? Repeat production data showing lower programming and setup costs at comparable quality, paired with a buyer’s build-versus-buy analysis, would answer it. Move to Reach out if those economics support at least $83.3 million in distributable equity at 3% ownership within eight years. Move to Pass if the strongest credible sale range leaves the holder materially short.

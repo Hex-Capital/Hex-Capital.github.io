@@ -1,32 +1,35 @@
 ﻿# Forward -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-Forward’s strongest path is **New Economies**. Debt advisors spend time packaging files, finding lenders whose mandates fit, and coordinating submissions. Forward says AI can take over much of that work. The market-opening hypothesis is that smaller commercial loans that advisors previously found uneconomic to place could now get funded. A Capital Partners customer describes introductions to unfamiliar lenders and resulting term sheets. That supports the matching mechanism, while labor cost per funded loan and the number of previously excluded deals that reach funding remain unmeasured. (The Idea, Market & Traction)
+Forward uses AI to prepare financing briefs, match deals to lender mandates, and coordinate submissions for commercial debt advisors. The old workflow relies on manual outreach through existing lender relationships. Forward says AI can handle routine discovery and coordination, shifting the bottleneck to lender attention and current mandate data. Those are constraints on placing loans. The memo identifies no scarce input that Forward supplies to a specific AI workload, so the building-blocks path scores zero. (The Idea, Market & Traction)
 
-Forward reports that its first Southern California advisor went exclusive after the first transaction. That gives Forward some control over deal flow from one partner. A broader advantage would require evidence that adding lenders or advisors improves outcomes for existing users, or that lenders keep paying Forward when competing tools can do the same work. Forward also reports that 100 U.S. funds signed agreements to pay on funded loans. Those are meaningful pre-seed commitments, with repeat funded volume and cash collections still unclear. (Defensibility, Market & Traction, Key Facts)
+The industry-enabled path also scores zero. The workflow could lower the labor cost of placing a loan, and a customer reports introductions to unfamiliar lenders and help securing term sheets. That is evidence of better lender access within an existing advisory workflow. The memo does not identify a class of deals or borrowers previously excluded by delivery cost, or show that automation made those deals viable. (The Idea, Market & Traction)
 
-The founders bring private-credit legal work, fund-side diligence, and AI workflow experience. They launched a live rollout, and the available operating evidence is concentrated in one advisor relationship. For scale, the quoted 25-basis-point fee would generate $25,000 gross on an illustrative $10 million funded loan. Revenue per submission depends on the share that funds, and contribution must cover onboarding, inference, credit review, exception handling, and follow-up across failed submissions as well as funded ones. The memo provides no measured close rate or delivery costs for that calculation. (Founders & Team, Key Risks, The Idea)
+Forward reports exclusivity with its initial Southern California advisor after the first transaction. That gives it a specific distribution advantage, though the scope and duration of the agreement are unclear and advisors have alternative tools for lender discovery. Forward also reports that 100 U.S. funds signed fee agreements, an early signal of willingness to pay upon funding. Funded volume and repeat paid use remain unclear. The controlled rollout and founders’ experience in private credit, fund-side diligence, and AI workflows support early execution credit. (Defensibility, Market & Traction, Founders & Team, Key Facts)
+
+At the stated 25-basis-point fee, an illustrative $1 million funded loan yields $2,500 in gross fees. The relevant cost per close includes document review, coordination, and work on deals that fail to fund. The memo supplies neither those costs nor a close rate, leaving scale economics at the default. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Forward may improve placement for loans advisors already pursue while leaving smaller deals uneconomic once human review, follow-up, and failed submissions are counted. Lev and Leverest already offer lender discovery and financing workflows, and one advisor’s exclusivity leaves broader access to current lender mandates and lender attention unproven. The overlap establishes credible alternatives, while actual switching under comparable functionality remains untested. The market-opening and model-parity gates both remain open, supporting Watch. The memo supplies no independent evidence that Forward controls a scarce complement whose value rises with AI demand. (The Idea, Defensibility, Key Risks)
+The strongest case is that broader lender discovery and less manual coordination could make smaller or harder-to-place loans worth handling. The customer's reported term sheets show that Forward can expand an advisor’s lender reach. If comparable models become widely available, access to current mandates and coordination across lenders could still make the brokerage a distinct service. The evidence stops short of showing that a previously uneconomic deal became viable, so the two-zero Pass gate applies. (The Idea, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 9/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 48/100** (Neutral)
+**Total Score: 24/150** (Pass)
 
 ### Decisive diligence question
 
-Can a cohort across independent advisors show that Forward funds loans they previously declined to place at a lower labor cost per funded loan, with repeat lender payments when comparable AI tools are available? A matched cohort that counts labor on failed submissions and verifies collected fees would move the action to Reach out if both conditions hold. Direct evidence that either condition fails would move it to Pass. An inconclusive cohort would keep it at Watch.
+Can Forward show that AI-assisted placement profitably funds a defined class of loans that advisors previously declined because manual placement cost too much? A pilot comparing those loans with the manual workflow would need to document prior declines, funded closes, collected fees, and fully loaded costs including failed deals. Evidence that automation crossed that threshold would change the action to Reach out to test whether the result can repeat across advisors.

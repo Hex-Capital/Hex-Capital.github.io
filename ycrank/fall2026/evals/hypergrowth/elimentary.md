@@ -1,17 +1,19 @@
 ﻿# Elimentary -- Hypergrowth Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-Assuming strong product-market fit, Elimentary’s strongest path is to distribute covenant monitoring and reconciliation through fund administrators such as TresVista. TresVista announced a multi-year partnership with agents already live in fund administration and financial planning. If TresVista can roll out the same workflows across its clients, Elimentary could reach more funds through one relationship. The loan-document extraction, clause-linked calculations, and approval workflow are reusable in principle across markets. How much local document, reporting, and systems work each rollout requires remains uncertain. (The Idea, Defensibility, Market & Traction)
+Assuming strong product-market fit with private credit fund operations teams, Elimentary could reuse its document extraction and calculation workflows across markets. The recurring jobs are concrete: reconciling records, testing covenants, and preparing reports. The agents work with loan tapes and agreements on top of existing systems. That supports portability of the core product, while the work needed to adapt agreement rules, data mappings, and reporting remains uncertain. (The Idea, Key Risks)
 
-Monthly fund operations and validated deal rules give customers reasons to keep using the product. A direct lender reported expanding covenant testing to more than 150 portfolio companies, showing how usage could grow within an account. Billing and paid expansion are unverified. Elimentary reported more than 25 production agents in October 2026, but the memo establishes neither paid production nor a commercial growth rate. (The Idea, Defensibility, Market & Traction, Key Facts)
+TresVista reported that initial agents were live under a multi-year partnership, giving Elimentary a plausible distribution channel. The ordinary buyer path still appears to involve demos, security diligence, and client-specific setup. Separately, a direct lender’s reported expansion of covenant testing to more than 150 portfolio companies shows how usage can grow within an account. Whether that expansion increases the bill is unknown. Elimentary reported more than 25 production agents, but the memo gives no paid deployment count, realized revenue, or commercial growth series. (The Idea, Market & Traction, Key Risks, Key Facts)
+
+Incremental contribution would be the revenue from the next deployment less attributable sales, configuration, validation, compute, and support costs. A customer testimonial reported that roughly 20 hours of filing reconciliation fell to under 30 minutes of agent runtime plus about an hour of human sign-off. That supports buyer value. Seller contribution remains unclear because contract pricing and Elimentary’s deployment effort are unknown. Reusing configurations through TresVista could improve contribution if the partner can handle setup with little Elimentary support. (Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Demo-led selling, vendor diligence, client-specific calculations, and deal-by-deal validation could make each rollout labor-intensive. In a hypothetical recurring-fee model, contribution from the next fund would be its fee less attributable sales, onboarding and validation labor, compute, and ongoing support. Reusable configurations could reduce that labor. The reported reconciliation time savings measure the customer’s workload, and the memo gives neither pricing nor Elimentary’s delivery costs. The structural gate clears because the evidence does not establish that each market requires a substantial rebuild or that rollout costs make faster growth infeasible. (The Idea, Market & Traction, Key Risks, Key Facts)
+The strongest case for passing is that even satisfied funds require Elimentary to configure and revalidate calculation rules for each new agreement structure. Sensitive-data reviews add work before launch, and accuracy risks can sustain manual review as volume grows. If that work requires significant Elimentary labor on each rollout, partner distribution could increase volume without improving contribution. The structural gate stays open because the memo establishes deployment friction while leaving its unavoidable cost and the scope for reuse unresolved. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -19,12 +21,12 @@ Demo-led selling, vendor diligence, client-specific calculations, and deal-by-de
 |-----------|-------|
 | Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 12/20 |
+| Retention economics | 13/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can TresVista repeatedly bring new paying funds live in a second market using the same core workflows at positive incremental contribution? A dated rollout record with recurring invoices, paid expansion within accounts, and delivery costs would answer it. Rapid paid adoption with limited adaptation and declining setup effort per fund would support Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that bespoke work makes expansion uneconomic would move the action to Pass.
+Can TresVista bring a cohort of paying funds in a second market live on the same workflow using reusable configurations and limited Elimentary labor? Dated deployments with collected fees, setup and support hours by party, direct serving costs, and any follow-on billings would answer it. Move to Reach out if those results demonstrate repeatable, profitable rollouts and raise the score to at least 65 with Medium or High confidence. Move to Pass if required bespoke work makes faster growth economically infeasible and the rollout reveals no credible way to reduce that work.

@@ -1,32 +1,31 @@
 ﻿# Veeza AI -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. Veeza automates passport data extraction, form entry, and appointment booking while retaining expert review. Egyptian applicants previously did this work themselves or paid local agencies or brokers. If automation cuts labor per correctly submitted application enough to lower the price of full-service help, it could serve travelers who previously found agency fees unaffordable. The memo leaves the former delivery cost, the labor savings per completed application, and purchases by that newly served group unverified. (The Idea, Key Risks)
+Veeza uses AI to deliver tourist visa assistance for Egyptian travelers. The memo documents applicants assembling documents, re-entering information and repeatedly checking for appointments, with some paying local agencies or brokers. Veeza describes using AI to extract passport data, check documents, fill forms and book appointments, with expert review before submission. Consulates and visa centres control the scarce appointment slots. The memo ties that scarcity to visa processing and supplies no specific AI workload that Veeza could unblock. (*The Idea*, *Key Risks*)
 
-A paying customer reported receiving a US visa after using Veeza’s assistance. The founder reported five figures in monthly cash revenue within 45 days of the batch start. These signals support willingness to pay, with limited visibility into buyer mix and completed orders. Moursy previously shipped a consumer AI product, and Veeza has launched a WhatsApp application and payment workflow. That supports seed-stage execution, with reliability across changing consular requirements still unmeasured. (Market & Traction, Key Facts, Founders & Team, Key Risks)
-
-The expansion unit is a completed application on a specific route. Veeza lists EGP 4,000 for UK or US full service, with government and visa-centre fees charged separately. In a scenario where unsuccessful orders are fully refunded, contribution per order started equals the share of orders that complete and retain their fee, multiplied by the average retained service fee, less average acquisition, inference, review, support, and rework costs across all orders started. The memo gives a price point and identifies refund exposure. Route-level completion rates and fulfillment costs remain unknown. (The Idea, Key Risks)
+The service has early paid demand. The memo records a paying customer’s account of receiving US visa approval after using Veeza, and the founder reports five figures in monthly cash revenue in USD. These signals support willingness to pay for assistance. The memo gives no buyer-level evidence that Veeza’s pricing made full service accessible to applicants who had previously been priced out. The published fees establish what Veeza charges, while reviewer time, rework and refunds leave the cost per completed case unresolved. Cairo appointment tracking and bilingual WhatsApp support provide a modest local advantage. The live WhatsApp application and payment workflow and the founder’s prior consumer AI delivery support execution credit, with reliable handling of portal changes still open. (*Market & Traction*, *Key Facts*, *The Idea*, *Defensibility*, *Founders & Team*, *Key Risks*)
 
 ### Countercase
 
-Veeza may be making an existing agency service more efficient while leaving the scarce input under third-party control. Consulates and visa centres allocate appointments, and pending bookings can trigger full refunds. That closes the scarce-complement case on current evidence. Cairo-specific booking and bilingual WhatsApp support give buyers a concrete reason to try Veeza, but incumbent processors could plausibly replicate that service with comparable browser models. The memo leaves buyer preference under functional parity and any network benefit untested. It also provides no direct evidence of easy switching or a failed market-opening test, so the New Economies path remains on Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+If manual agency fees put full service out of reach for some Egyptian travelers, automating form entry and appointment checks could make reviewed assistance affordable to them. Even with equally capable models, those customers could still value a service that handles portal exceptions, checks documents and coordinates bookings in Arabic. Veeza’s live workflow makes that scenario plausible, but the memo supplies neither a comparable agency price nor a paying cohort that previously went without assistance because of cost. The scenario falls short of the enabled-industry gate, so the two zero path scores require Pass. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 24/150** (Pass)
 
 ### Decisive diligence question
 
-Can Veeza profitably complete applications for Egyptian travelers who previously went without paid help because of cost, while earning their preference over a comparably capable alternative? A paid cohort on one route would move the action to Reach out if it shows lower human labor per correctly submitted application than a manual agency workflow, positive contribution after support and refunds, and buyers choosing Veeza when offered comparable service. Evidence that the lower price fails to attract previously excluded buyers, or that those buyers readily switch at parity, would move the action to Pass.
+Can Veeza profitably deliver its EGP 4,000 US full-service package to Egyptian applicants who previously declined comparable agency help because of price? A paid cohort with documented prior agency quotes and completed, reviewed applications with booked appointments would answer it if the cohort also showed positive contribution after expert review, support, rework and refunds. That result would change the action to Reach out. Otherwise, retain Pass. (*The Idea*, *Key Risks*)

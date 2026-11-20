@@ -1,32 +1,33 @@
 ﻿# The Company Company -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **New Economies**. Persistent agents with access to repositories, documents, and shared sessions could cut the human time needed to turn a ticket into a reviewed pull request. A plausible new use is routine work on low-priority tickets that small startup teams currently leave undone because implementation and review cost too much. That is a scenario. The memo gives no baseline delivery cost or measured cost per accepted pull request. The founder reports more than 20,000 internally shipped pull requests, which shows claimed throughput without establishing how much human review or rework the workflow required. (The Idea, Market & Traction)
+The Company Company sells a shared workspace where startup employees and persistent agents coordinate work across documents, repositories, and threads. Its hosted Linux sessions and repository integrations support that workflow. The memo identifies no scarce input that limits a specific AI workload and that the company could supply, so the building-block path scores zero. (The Idea, Market & Traction)
 
-A named customer reported using the product for months to coordinate several agents. That supports early demand, while payment and use on previously uneconomic work remain unverified. Lipp’s prior CTO and model-evaluation experience, together with the shipped public beta, supports seed-stage execution. Reliable delivery across customer workspaces remains untested in the memo. (Market & Traction, Founders & Team, Key Risks)
+The strongest commercial case is coordinating several agents in one workspace. One named customer reported doing so for months, which supports early demand. The memo describes the existing workflow as spread across disconnected SaaS tools, but gives no example of a startup that could afford a previously out-of-reach outcome or cadence because of this product. The industry-enabled path also scores zero, triggering the Pass gate. (The Idea, Market & Traction)
 
-Paid subscriptions are the expansion unit. Listed plans of $40–$200 per month and usage top-ups provide a way to charge for heavier use. Contribution per subscription still depends on inference, cloud-compute, and human support costs. The memo gives no customer-level cost or usage data to test that bridge. (The Idea, Market & Traction)
+Persistent roles, permissions, and versioned work could make a configured workspace costly to move. Overlapping competitor capabilities and the absence of retention or migration evidence limit that credit. The shipped beta and the founder’s prior CTO and LLM evaluation work support seed-stage execution credit. The founder reports more than 20,000 internally shipped pull requests, but the memo gives no customer reliability or exception-handling data. Subscription prices and usage top-ups establish a pricing model. The memo lacks the compute, review, and rework costs needed to estimate contribution on the next paid workflow, so scale economics stays at the default. (Defensibility, Founders & Team, Market & Traction, Key Risks, The Idea)
 
 ### Countercase
 
-The product may help existing software buyers coordinate work they already do, while competitors offer comparable agent execution and shared context. Workspace history, agent roles, and permissions could make customers reluctant to switch, but the memo shows no retention or preference under functional parity and no network effect. Competitive overlap leaves the New Economies path open for testing because the memo documents neither actual parity nor customers switching readily. The memo identifies no independently supported scarce complement. (The Idea, Defensibility, Market & Traction)
+A small startup might be able to run routine ticket-to-pull-request work at a cadence it previously could not staff. Persistent context, scheduled execution, and shared review could lower the human coordination cost enough to make that viable. The customer’s sustained use makes the scenario plausible, but the memo gives no prior staffing limit, measured cost per accepted pull request, or evidence that buyers would still pay for the workspace if comparable models were available through overlapping tools. The Pass gate still applies. (The Idea, Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 7/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 22/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent startup teams repeatedly pay The Company Company to clear tickets they previously left undone, even when an equally capable alternative is available? Reach out if a paid cohort documents what comparable tickets previously cost to deliver, shows a material reduction in cost per accepted pull request after compute, human review, and rework, and repeatedly chooses the product at a price that covers delivery costs. Pass if a representative test shows the workflow serves only already-economic work or buyers readily switch at parity. Inconclusive results keep the action at Watch.
+Can a paying startup sustain a ticket-to-pull-request cadence it previously could not afford, at a fully loaded cost per accepted pull request below its budget, while still choosing this workspace when comparable models are available elsewhere? A repeat paid deployment with a documented prior baseline and measured compute, review, and rework costs would move the action to Reach out if it shows that the workflow crossed that affordability threshold and the workspace itself drove the buyer’s choice.

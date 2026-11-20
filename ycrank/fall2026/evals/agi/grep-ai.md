@@ -1,30 +1,33 @@
 ﻿# Grep AI -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Grep AI’s strongest path in Fall 2026. Grep turns recurring screening and underwriting steps into reusable workflows and routes exceptions to a reasoning model. In customer testimonials, IG reported that automated screening-alert review rose from 10% to 30% and flagged-customer activation fell from 2–3 days to under 10 minutes. Shopmonkey reported that per-account underwriting research fell from hours to minutes. Shopmonkey’s result supports a reduction in research labor, while IG’s activation figure measures elapsed time. A plausible new use is underwriting accounts whose expected value previously fell below the cost of manual research. The memo documents gains in existing queues and leaves that market-opening scenario untested. (The Idea, Market & Traction)
+**Building blocks of superintelligence.** Grep automates screening and underwriting work by turning recurring steps into reusable workflows and routing exceptions to reasoning models. The memo identifies no scarce AI input that Grep supplies or specific AI buildout workload that its product could unblock. The bottleneck it addresses is manual work in customer queues. (The Idea, Key Risks)
 
-Cost per successfully resolved case depends on model and tool costs, human review and rework, and deployment and validation costs spread across volume. Grep reports a 91% model-cost reduction in an internal screening benchmark. Savings at that component could carry through if resolution quality holds and exception work stays low. The memo leaves the prior all-in cost, success rates, and costs across repeat deployments unquantified. IG’s production deployment and Shopmonkey’s 64 jobs in its first 30 days show actual use. Willingness to pay for a newly viable use remains unproven. The founders’ prior risk and platform work at Brex, their shipped releases, and IG’s shadow testing support seed-stage execution. (Key Risks, Market & Traction, Founders & Team)
+**Industry enabled by superintelligence.** The prior delivery model relied on staff to gather evidence and resolve exceptions. IG reported that automated alert review rose from 10% to 30% and flagged-customer activation fell from 2–3 days to under 10 minutes. Shopmonkey reported that per-account underwriting research fell from hours to minutes. Those are customer-reported gains in existing workflows. The memo does not identify a buyer, class of cases, or review cadence that became economically viable because of those gains. (The Idea, Market & Traction)
+
+Grep’s strongest commercial case is regulated workflow automation. IG’s custom screening rules and governance approval suggest that replacing Grep could require revalidation, although the open-source runtime and overlapping hosted tools limit that advantage. Shopmonkey’s 64 research jobs in 30 days show repeat use, with paid conversion and retention unverified. The founders’ prior risk and platform work and Grep’s delivery of an approved screening workflow support execution credit, with dependable rollout across buyers still unproven. Grep’s claimed 91% model-cost reduction comes from an internal benchmark. That result and posted prices leave the cost per correctly resolved case unknown once integration, human review, and rework are included. (Defensibility, Founders & Team, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Grep may be making existing compliance work cheaper in a market where buyers can reproduce the workflow. Managed execution and sandboxing are already available from Anthropic, and Grep’s open-source runtime gives engineering teams another building block. IG’s approved, customer-specific screening rules could make switching costly if a replacement requires revalidation. Buyer preference at functional parity and network effects remain unproven. The overlap falls short of demonstrating equivalent regulated outcomes or ready switching. Both New Economies gates remain open, and the memo identifies no independently supported scarce complement. (Defensibility, Key Risks)
+IG’s move to near-real-time activation could make screening practical within the signup session. Grep separately reported twice as many first trades, which suggests that speed may have commercial value, though the memo does not establish causation. Under model parity, buyers may still pay for encoded policies, governance validation, and routing high-risk cases to staff. The case falls short of the outreach gate because the memo shows faster handling of an existing queue and leaves the economics of a previously impractical use unverified. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
-| Durable value capture | 10/25 |
-| Customer demand | 11/20 |
-| Team and execution | 11/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 55/100** (Neutral)
+**Total Score: 25/150** (Pass)
 
 ### Decisive diligence question
 
-Will a regulated buyer repeatedly pay Grep for a screening or underwriting queue it previously left unserved because manual review cost too much, when it has access to equally capable models? A paid rollout that documents the prior cost barrier, measures lower all-in cost per successful case at the buyer’s required quality, and shows continued preference for Grep against a functionally comparable alternative would move the action to Reach out. Inconclusive results keep it at Watch. Evidence that the cost barrier persists or that the buyer readily switches at parity would close this path and move the action to Pass.
+Can Grep make routine underwriting research viable for a class of accounts a buyer previously reviewed only by sample because manual review was too costly? A repeat paid deployment would move the action to Reach out if the buyer confirms that Grep meets its cost threshold per correctly completed review after oversight and rework, and that the governed workflow still matters when the buyer has access to comparable models.

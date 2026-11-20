@@ -5,36 +5,36 @@
 
 ### Company case
 
-The strongest route is a strategic sale to a CI or developer-tools platform. Rystic’s stateful, local API simulators could give a buyer a way to test agents that write across multiple services. LocalStack’s purchase of WonderTwin shows that a platform has acquired adjacent capabilities. Rystic reports that 50 Stripe test jobs ran in 19 seconds versus more than 40 minutes on shared Stripe sandboxes. That benchmark supports a potential speed advantage in one setup. The value to a buyer depends on whether the advantage holds across customer workflows and against the buyer’s existing tools. (The Idea, Defensibility, Market & Traction)
+The strongest supported route is a strategic sale to a CI or developer-tools platform that lacks stateful, multi-service testing. Rystic launched with 17 simulators, and LocalStack’s acquisition of WonderTwin shows that an adjacent platform has bought overlapping capabilities. Rystic reports completing 50 Stripe test jobs in 19 seconds versus more than 40 minutes in shared sandboxes. That company-run benchmark suggests a CI benefit. The acquisition price and the value of those savings to a prospective buyer are unknown. (The Idea, Defensibility, Market & Traction)
 
-Tilo’s CTO reports using Rystic in CI without setting up live accounts for each service, and HJBL’s CEO reports using custom exchange simulators. Those deployments make a proposed 12-month milestone plausible: several paying teams renew recurring CI usage and measure time savings or defects caught against their existing tools. Reaching it would require continued simulator maintenance and customer support. The cost and runway are unknown. The downloadable CLI and offline enterprise offering make integration into a buyer’s product plausible, while IP assignment, change-of-control terms, and holder participation remain unverified. (The Idea, Market & Traction, Key Risks)
+The seed-stage milestone is repeat paid CI use across multiple customers, with measured time savings and evidence that the simulators catch defects existing mocks miss. Tilo reports using Rystic in CI without setting up real service accounts, and HJBL reports using custom exchange simulators. Those are early usage signals. Paid retention, the cost of maintaining simulator fidelity as coverage grows, and the capital required to reach the milestone remain unverified. Dealroom’s listed $125,000 seed entry leaves available runway unclear. (Market & Traction, Key Risks)
 
-**Proceeds bridge.** Using the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. The sale scenarios assume the holder is eligible to sell the entire stake, receives 3% of residual equity after the stated deductions with no further preference claims, and is paid entirely in cash at closing within eight years.
+The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity value at 3%. Both sale scenarios below assume $10 million in net debt and deal adjustments, a fully cash-funded sale, an eligible holder selling its entire stake by year eight, and a pro rata waterfall with no diversion to senior claims. The prices are illustrative and buyer willingness to pay remains unverified.
 
-| Scenario | Assumed bridge to distributable equity | Gross cash to holder |
-|-----------|-------------------------------------------|----------------------|
-| Modest sale | $40M enterprise value less $5M in debt and deal deductions = $35M | $1.05M (2.1×) |
-| Strong sale | $100M enterprise value less $10M in debt and deal deductions = $90M | $2.70M (5.4×) |
-| Prolonged private | Cash is reinvested, with no payout or eligible share sale within eight years | $0 |
+| Scenario | Enterprise value to distributable equity | Holder cash |
+|---|---|---|
+| Modest sale | $50M less $10M gives $40M | $1.2M (2.4×) |
+| Strong sale | $100M less $10M gives $90M | $2.7M (5.4×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase | $0 |
 
-The sale prices are sensitivities. The memo provides pricing and usage signals, while paid scale and the adjacent deal price are unknown. It also supplies no evidence of an independent route to holder liquidity. (The Idea, Market & Traction)
+In the strong case, selling only 75% of the stake by year eight reduces cash received to about $2.03 million. IP and contract transfer terms, required consents, and holder participation rights remain unverified. The memo provides no evidence of an independent liquidity route. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-LocalStack already acquired overlapping GitHub and Stripe emulators, and WireMock already offers local stateful simulation. Rystic’s published Slack and GitHub Pulls fidelity gaps add maintenance work a buyer would inherit. A platform could extend its existing tools and assign little incremental value to Rystic. That supports Watch. The memo establishes neither a structural block across strategic buyers nor a credible sale-price ceiling below the holder hurdle, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+LocalStack already acquired overlapping GitHub, Stripe, and PostHog emulators, and WireMock already offers local stateful API simulation. Rystic also publishes fidelity gaps for Slack and GitHub Pulls, which could make continued maintenance costly for an acquirer. The same adjacent deal that establishes buyer interest in the category gives the clearest named buyer a substitute. That weakens the acquisition case without establishing a structural block across buyers or showing that the strongest credible sale would fall below the holder’s hurdle. The Pass gate remains unmet. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 19/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can a CI or developer-tools platform make a credible buy-versus-build case for Rystic at a price that leaves at least $83.3 million in distributable equity? Renewed paid CI deployments with measured gains over the platform’s existing tools, paired with buyer-side economics supporting that price, would move the action to Reach out.
+Could a specific CI or developer-tools buyer justify a price that delivers at least $2.5 million in holder cash after Rystic demonstrates repeat paid CI use? Buyer-backed pricing or a quantified build-versus-buy analysis tied to measured customer savings would move the action to Reach out if the supported range clears the hurdle after deal adjustments and participation limits. Evidence that the strongest credible route falls materially short would move it to Pass.

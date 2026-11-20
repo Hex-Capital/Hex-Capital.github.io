@@ -5,28 +5,29 @@
 
 ### Company case
 
-Reific’s strongest AGI path is a scarce complement. Frontier labs training agents to act on changing information could benefit from operating records that reveal what an agent could know at each decision point and what happened afterward. Reific launched clocked replay environments and reports that one open model’s full-solve rate rose from 25.6% to 39.5% on unseen tasks. That result supports the training mechanism. It leaves open whether the gain transfers to a lab’s own tasks or depends on records that are hard to source elsewhere. (The Idea, Market & Traction)
+Reific has a plausible **building-blocks** path in reinforcement-learning post-training for agents that must decide when to act as new information arrives. Its environments reveal operating records on a clock and grade decisions against what happened. Static benchmarks can expose later information before grading, masking timing errors. If labs deploy more agents into time-sensitive workflows, they may need more diverse, fresh training environments. The potentially scarce input is operating records with training rights, privacy checks, and domain-reviewed grading. The memo describes work required to prepare those records, while scarcity at lab scale remains an inference. (*The Idea*, *Defensibility*, *Key Risks*)
 
-Reific pairs record-based grading with reported practitioner review. That gives it a specific way to turn raw records into training environments, while the evidence for lasting control is limited to licensing outreach that asks suppliers about exclusivity. The memo documents a launch and a sample-request channel, with no independent lab pilot, paid license, or renewal. The founder’s time-series research and the shipped environments support seed-stage execution. Reific also reports adding transformations and release checks after a test model reconstructed personal details. (Defensibility, The Idea, Market & Traction, Key Facts, Founders & Team, Key Risks)
+Reific publicly launched its environments and leaderboard. The company reports that one open model’s full-solve rate rose from 25.6% to 39.5% on unseen tasks. That result supports testing the approach with a lab’s model and workload. The **industry-enabled** path scores zero because the memo identifies no previously excluded buyer or use made economically viable by AI. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The scale case assumes Reific can license one environment to several labs and spread the costs of record rights, de-identification, and practitioner review across them. Custom environments could bring those costs back with each deployment. The memo gives no prices, licensing costs, or preparation effort to test that assumption. (The Idea, Defensibility, Key Risks)
+Record-checked grading, practitioner review, and privacy checks suggest operating know-how. Exclusive access to a recurring supply of records remains hypothetical. The launch and the founder’s time-series research support seed-stage execution credit. The memo gives no evidence of buyer trials, paid deployments, or revenue. Undisclosed license prices and unmeasured costs for record acquisition, privacy checks, and expert review leave the economics of adding the next environment unverified. (*The Idea*, *Defensibility*, *Market & Traction*, *Founders & Team*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Labs with suitable records could build clocked environments in-house using open tooling. HUD offers an SDK, Prime Intellect offers open environment tooling, and Reific’s reported gain comes from a single model evaluated within its own task suite. Those facts make substitution plausible, with no demonstrated parity on the timing-sensitive tasks at issue. The scarce-complement path stays open at Watch. The memo does not establish a separate New Economies path because it shows no labor-cost change that opens a previously excluded market. (Market & Traction, Defensibility, Key Risks)
+Labs that already hold suitable records could build clocked replay with open tooling or a commercial SDK. Reific’s reported gain comes from one model evaluated within its own environments, so a lab could reproduce the gain with an in-house build. If labs can routinely match the result with records they already control, the scarcity premise fails and both paths score zero, triggering Pass. The memo establishes a credible substitute and leaves its performance unresolved, which supports Watch. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 15/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 20/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 39/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent frontier lab renew a paid license for a Reific environment built on records Reific has enforceable recurring access to, after a head-to-head test against the lab’s best readily available substitute? A renewal after a material improvement on the lab’s own timing-sensitive tasks would move the action to Reach out. Comparable results from a readily available substitute would move it to Pass.
+Can Reific beat a frontier lab’s best available environment on held-out timing decisions at the same training budget? A paid pilot using the lab’s model and clearing a performance threshold the lab sets in advance would move Reific to Reach out. (*The Idea*, *Market & Traction*, *Key Risks*)

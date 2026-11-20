@@ -5,36 +5,34 @@
 
 ### Company case
 
-A strategic acquisition by a claims software platform is Hesper’s strongest exit path. Hesper lists integrations with Guidewire, Duck Creek, and Majesco that return evidence-linked findings to existing claim files. Owning the investigation workflow could help a platform expand what it sells to claims teams. Hesper reports paying production customers, and a founder reports that one MGA saw 82% less adjuster time per claim and identified $1.2 million in fraud over two weeks. That result gives a buyer a reason to test the workflow. The memo leaves realized recoveries, repeatability across customers, and the economics of owning the product unverified. (*The Idea; Defensibility; Market & Traction*)
+A strategic sale to a claims platform is Hesper’s strongest potential exit. Guidewire’s investment in FRISS shows that it has backed adjacent investigation software. Hesper could give a platform a reason to buy if its agents gather missing evidence more efficiently than existing workflows. Hesper lists a Guidewire integration, and a founder reported 82% less average adjuster time per claim at one MGA over two weeks. That result is a reason to test buyer economics, though its repeatability and dollar value remain unverified. (The Idea, Defensibility, Market & Traction)
 
-The proposed operating milestone is to repeat measurable adjuster-time savings across multiple paying deployments over 6–12 months, track false referrals, and show that customers renew. Reported production use and a $1.5 million pre-seed make that test plausible. Runway and deployment costs remain unknown. Hesper’s data-processing terms address audit rights and subprocessor changes. Contract assignment, data permissions after a change of control, and holder participation remain unverified. The memo provides no evidence of an independent route to holder liquidity. (*Market & Traction; Key Facts; Key Risks*)
+A practical milestone is to reproduce the time savings across several paying deployments while tracking investigation accuracy and net savings after review costs. Hesper’s reported paying customers, pilots, and $1.5 million pre-seed make that test plausible. Runway and rollout costs remain unknown. The integrations make a software acquisition plausible, while ownership of the relevant IP, contract assignment, and permission to transfer or continue processing claims data would need verification. The memo identifies no independent liquidity route. (Defensibility, Market & Traction, Key Risks)
 
-The rubric’s benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3% pro rata. The prices below are scenario assumptions. The memo provides no basis for estimating a buyer’s price or the holder’s actual waterfall. (*Market & Traction; Key Facts*)
+**Proceeds bridge.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity. For both sale scenarios, assume $5 million in net debt and deal deductions, no senior preferences, and an eligible holder cashing out their entire stake at closing within eight years.
 
-| Scenario | Enterprise value to holder cash |
-|-----------|---------------------------------|
-| Modest sale | $40 million enterprise value less $5 million in assumed net debt and deal costs leaves $35 million in equity. The holder receives $1.05 million, or 2.1×. |
-| Strong sale | $100 million enterprise value less the same $5 million leaves $95 million in equity. The holder receives $2.85 million, or 5.7×. If only 75% of that payout arrives within eight years, realized cash falls to about $2.14 million, or 4.3×. |
-| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or distribution yields zero realized cash within eight years. |
+- **Modest sale.** $50 million in enterprise value leaves $45 million in distributable equity and pays the holder $1.35 million, or 2.7×.
+- **Strong sale.** $100 million in enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. At 2% ownership, the same sale pays $1.9 million, or 3.8×.
+- **Prolonged private operation.** Continued reinvestment without an eligible share purchase or distribution yields zero realized cash within the horizon.
 
-Both sale cases assume the holder is eligible, sells the entire stake, and receives 3% of the equity proceeds in cash within eight years, with no preference or other waterfall adjustment. The strong case clears the hurdle under those assumptions. Buyer economics that could support that price are the gap behind Watch.
+These are sensitivity cases. Hesper’s reported claims volume and fraud identified establish neither realized customer savings nor a price a buyer would pay. With revenue and buyer valuation evidence undisclosed, the strong case clears the benchmark only on assumed terms. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A platform can serve the same customers through native tools or an integration partner. Duck Creek has launched native infrastructure for insurance agents, and FRISS already integrates investigation referrals and case status into Guidewire. Guidewire’s investment in FRISS also shows a way to participate in the category through a minority stake. These alternatives weaken the case for paying an acquisition premium, especially while Hesper’s quantified outcome comes from one short deployment. The memo establishes neither a structural closing block nor a credible price ceiling below the holder’s hurdle, so the Pass gate does not trigger. (*Defensibility; Market & Traction; Key Risks*)
+A claims platform could build or partner instead of buying Hesper. Duck Creek has launched native infrastructure for deploying insurance agents, and FRISS already handles investigation referrals and case status inside Guidewire. Those options could limit a buyer’s willingness to pay, especially if Hesper’s short MGA result fails to repeat or accuracy and review costs erode the savings. The evidence supports substitution risk, but establishes neither a structural barrier to a sale nor a price ceiling below the holder’s hurdle. The Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 13/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a claims-platform buyer substantiate enough incremental value from owning Hesper to support a sale yielding at least $83.3 million in distributable equity within eight years? Repeatable results across paying customers and a buyer-informed analysis of the value of ownership over native or partner options would answer it. A defensible price range that clears the hurdle after deal adjustments would move the action to Reach out. A supported ceiling that leaves the holder materially short would trigger Pass.
+What price could a claims platform justify paying for Hesper instead of building or partnering? A buyer-side analysis grounded in verified net savings across multiple paying deployments would move the action to Reach out if it supports a credible range above $83.3 million in distributable equity within eight years. A supported ceiling materially below that hurdle on the strongest route would trigger Pass.

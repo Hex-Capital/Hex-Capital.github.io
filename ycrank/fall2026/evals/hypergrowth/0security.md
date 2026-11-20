@@ -5,15 +5,15 @@
 
 ### Company case
 
-Assuming strong product-market fit, the strongest path is 0cloud for GitHub engineering teams that can use hosted code processing. The product tests pull requests and proposes fixes in the existing review workflow. The same integration can serve the same recurring job across markets. Cross-border processing limits access for some buyers with residency requirements. (The Idea, Key Risks)
+Assuming strong product-market fit with GitHub engineering teams, 0cloud can serve the same recurring job across markets through a standard pull-request workflow. Teams test code changes and review proposed fixes where they already review code. Cross-border processing narrows access for buyers with residency requirements. The company offers on-premises and air-gapped deployment for those buyers, with rollout effort still unclear. (The Idea, Key Risks)
 
-The open-source project gives developers a way to discover the product. Published fixes show what it can produce, and the company reports 1.4K GitHub stars. The memo documents the November 9 launch and describes self-serve onboarding and prepaid credits. It leaves open whether typical teams can complete setup, get a useful patch, and buy credits without help. The reported partnerships and engineer testimonial leave realized revenue and paying-customer growth unknown, so initial traction takes the absent-evidence default. (Defensibility, The Idea, Market & Traction, Key Facts)
+The open-source project gives developers a discovery route. The company describes self-serve 0cloud onboarding, and prepaid credits provide a way to pay, though the memo leaves independent checkout and production activation unverified. Recurring pull requests create a reason to keep using the product. At usage-based rates, retained teams could spend more as they test more changes or add repositories. Whether that expansion would offset churn is uncertain. (The Idea, Key Facts)
 
-If teams make testing routine, more pull requests or repositories could increase spend within the same account through credit replenishment. That expansion is inferred. Under a scenario where a test bills at the reported $5 launch rate, positive contribution requires attributable acquisition, onboarding, model inference, isolated compute, and support costs to total less than $5 per test. Self-serve setup and customer-side merge approval can limit vendor labor. The memo gives no measured cost per test or realized price after launch credits. (The Idea, Key Facts, Key Risks)
+The memo records the November 9 hosted launch and cites a Spotify engineer’s scan testimonial. The reported GitHub stars and institutional engagements signal interest, while realized revenue, paying-customer growth, and billed volume remain unknown. Initial traction therefore takes the absent-evidence default. In a full-price scenario at the reported $5 per test, positive contribution requires inference, isolated execution, support, and attributable acquisition and onboarding costs to average below $5 per paid test, including the cost of promotional usage. Self-serve setup could limit onboarding labor, but the memo gives no measured inputs for that cost comparison. (Market & Traction, The Idea, Key Facts)
 
 ### Countercase
 
-GitHub’s native Autofix could satisfy enough of the remediation job that teams try 0cloud on free credits and see little reason to pay. If paid demand instead comes mainly from buyers requiring on-premises or air-gapped deployment, growth could depend on enterprise sales and rollout work. The structural downside gate stays open because the memo gives no evidence that this work is unavoidable for the hosted segment. (The Idea, Key Facts, Key Risks)
+GitHub’s native remediation could satisfy enough of the same need to limit paid conversion. If demand concentrates among buyers that require private deployment, growth could depend more heavily on direct sales and implementation. The structural downside gate stays open because the hosted workflow remains a credible path for GitHub teams able to use it. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -29,4 +29,4 @@ GitHub’s native Autofix could satisfy enough of the remediation job that teams
 
 ### Decisive diligence question
 
-Can a cohort of GitHub teams activate 0cloud independently and replenish paid credits after the launch offer runs out? Verified self-serve activation and paid replenishment across multiple teams, with positive incremental contribution on their workloads, would move the action to Reach out.
+Do ordinary GitHub teams that activate 0cloud independently buy and replenish credits after using the launch allowance? A cohort showing several teams reaching first value without staff help and making a second paid credit purchase for ongoing pull-request testing would move the action to Reach out.

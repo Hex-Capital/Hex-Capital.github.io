@@ -1,32 +1,34 @@
 ﻿# Alkera AI -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Assuming strong product-market fit, Alkera’s strongest path is bottom-up adoption by data engineering teams using Snowflake, dbt, and Hex. Alkera documents column-level lineage across those tools and describes using it to catch downstream breakage before a pipeline edit ships. Teams abroad using the same stack can plausibly use the same product for that recurring job. The portability case is strongest where the existing connectors cover the full workflow. (*The Idea*, *Defensibility*, *Key Risks*)
+Assuming strong product-market fit with data engineering teams, Alkera’s most credible growth path is to sell the same pipeline change-validation workflow to teams using Snowflake, dbt, and Hex across markets. Alkera documents column-level lineage across those tools and isolated testing of proposed fixes. Portability is an inference from those shared interfaces and the recurring workflow. Teams with downstream systems outside the supported stack may get incomplete impact checks. (The Idea, Defensibility, Key Risks)
 
-Databench and the listed VS Code extension give developers ways to discover Alkera. Browser self-signup and published pricing give them a way to start. Independent checkout and setup through a first production check remain unverified. Alkera lists Plus at $50 per month with 1 TB and Pro at $200 per month with 5 TB. Recurring pipeline changes and accumulated, verified definitions could keep teams using the product, and growing storage needs could prompt an upgrade. Whether upgrades can offset churn remains unknown. (*The Idea*, *Defensibility*, *Key Facts*)
+Browser self-signup, a VS Code listing, and the self-hostable Databench subset give developers concrete ways to discover and try Alkera. The memo leaves open whether a typical team can connect its production stack, validate a real change, and pay without help. The July launch attention and October Databench ranking show discovery. Paid production use, revenue growth, and pre-revenue status are all unknown, so commercial traction receives the absent-evidence default. (The Idea, Market & Traction, Key Facts)
 
-The three-person team’s July launch and Databench’s October Product Hunt ranking show attention. Realized revenue, paying customers, and billable production usage are unknown, so initial traction takes the rubric default. For an incremental paid subscription, contribution would be the monthly fee less attributable storage, inference, sandbox compute, acquisition, onboarding, and support costs. The memo gives too little evidence to estimate those costs or identify a supported lever for improving contribution on paid workloads, so cost economics also takes the default. The documented workflow and pricing support Medium confidence, with paid production activation the key uncertainty. (*Alkera AI*, *The Idea*, *Market & Traction*, *Key Facts*)
+Repeated pipeline changes give teams a reason to return, and accumulated, verified business definitions could make the workspace more valuable over time. The listed $50/month Plus and $200/month Pro plans provide a concrete upgrade path as storage needs grow. An account that upgrades would add $150 per month, which could offset lost revenue elsewhere in its starting cohort. Upgrade frequency, renewals, and net revenue retention remain unverified. (The Idea, Defensibility)
+
+For a new Plus account, the contribution bridge starts at $50 per month and deducts attributable acquisition, onboarding, inference, sandbox compute, storage, and support costs. Self-signup could reduce onboarding labor if teams can complete production setup independently. The memo provides too little operating evidence to judge contribution under a representative workload. (The Idea, Key Risks)
 
 ### Countercase
 
-Teams may try the workspace but stop short of trusting it with live pipelines. Alkera’s lineage covers connected systems, and its reported benchmark pass rate of 83.28% leaves production reliability uncertain. If buyers routinely need connector work or hands-on validation, that could slow onboarding and raise the cost of each deployment. Snowflake’s overlapping SQL and dbt capabilities give those teams another option. The structural gate remains open because the memo leaves the extent and necessity of that hands-on work unresolved. (*Defensibility*, *Key Risks*)
+Production setup could turn a low-touch trial into a services-heavy sale. Alkera’s impact checks depend on connected systems, so teams with incomplete lineage may need hands-on integration or ongoing human review before trusting the product in production. Snowflake’s overlapping tooling gives those teams an alternative inside their existing stack. The structural downside gate remains open because the memo establishes the coverage risk while leaving the amount and economics of required per-buyer work unresolved. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 16/25 |
+| Repeatable acquisition and onboarding | 15/25 |
 | Retention economics | 15/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 62/100** (Neutral)
+**Total Score: 61/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of Snowflake, dbt, and Hex teams that discover Alkera through Databench or its VS Code extension connect their stack, run recurring production checks, and convert to paid plans with minimal staff help? Signup-to-payment records, production usage, and onboarding support logs would answer it. Repeatable paid activation would move the action to Reach out. Routine dependence on staff would keep it at Watch, or move it to Pass if the required work makes faster growth economically infeasible.
+Can ordinary Snowflake and dbt teams go from self-signup to paid production use without staff-led setup? A dated cohort showing multiple teams independently connecting their production stack, validating a real pipeline change, and converting to paid plans would move the action to Reach out if the resulting scores reach the investment threshold and confidence rises to at least Medium.

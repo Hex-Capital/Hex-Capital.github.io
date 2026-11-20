@@ -1,32 +1,34 @@
 ﻿# Yam -- Hypergrowth Evaluation
 
-**Action:** Reach out  
-**Evidence confidence:** Medium
+**Action:** Watch  
+**Evidence confidence:** Low
 
 ### Company case
 
-Conditional on strong product-market fit, Yam’s strongest path is creator-led distribution for self-serve romance games. Players can open a shared game or describe a world and role to start their own. The public catalog spans 112 fandoms, and Yam offers referral perks and rewards creators with virtual currency as players progress. The same web product and creator tools could serve romance and fanfiction audiences across markets, though language support and local content requirements remain uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
+Assuming strong product-market fit with women who want to shape romance stories, Yam’s current web product could serve the same recurring job across many markets. Players describe a world and a role, then play through a generated story with a persistent cast. The product appears portable without a market-by-market rebuild, though language support, local content rules, and adult eligibility could narrow its reach. (The Idea, Key Risks)
 
-Persistent character memories and relationships give players a reason to return. Yam’s $9.99 and $19.99 monthly plans and optional currency packs give returning players ways to spend more, though the memo leaves paid renewals and same-account expansion unverified. Yam reported one million beta play hours and more than three hours of daily play per daily active user at its November 3 web launch. The top catalog listing displayed 2.4 million plays. Those figures support engagement. The three-person team’s commercial growth remains unknown, so initial traction receives the absent-evidence default. (*The Idea*, *Market & Traction*, *Key Facts*)
+Creator links give players a direct path from discovery to a playable story. Yam documents free moves for new accounts, referral perks, subscriptions, and currency packs. Its public catalog spans 112 fandoms, showing that creators publish games. The memo leaves open how often shared games bring in new players who pay. (The Idea, Defensibility, Key Facts)
 
-The contribution scenario depends on whether subscription and pack receipts from a player cohort cover model inference and directly attributable moderation, support, and incentive costs across its paid and free players. The 100-move daily allowance for new accounts bounds their free usage, and paid tiers and packs provide a way to raise receipts as players spend. Vendor costs per move and cohort spending remain unknown. (*The Idea*, *Key Risks*, *Key Facts*)
+Persistent memories and relationships give players a reason to return. The $9.99 and $19.99 monthly plans and repeatable pack purchases give retained players ways to spend more. Expansion could offset churn if engaged players upgrade or keep buying packs. Paid renewals and expansion remain unverified. Yam reported one million beta play hours and more than three hours of average daily playtime per daily active user at its November 3 web launch. Those figures support engagement. Realized revenue, paying-customer growth, and pre-revenue status are all unknown, so initial traction receives the absent-evidence default. (The Idea, Market & Traction, Key Facts)
+
+Incremental contribution depends on subscription and pack revenue from new players minus generation, state storage, payment, moderation, support, and reward costs across paying and free players. The documented daily free-move allowance gives Yam a lever to limit inference cost per free account. Cost per move and paid conversion are unknown, so the direction of contribution remains uncertain. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-The most-played game is tied to fan IP, and rights-holder requests can remove games from the catalog. That makes Yam’s strongest visible discovery signal vulnerable. Heavy play could also raise inference costs faster than paid spending if most players stay on free allowances. The structural downside gate stays open because the memo supports a reusable web product and gives no evidence that serving new markets requires bespoke rebuilding or that incremental losses are unavoidable. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Yam’s top listing displayed 2.4 million plays and drew on third-party IP that can be subject to takedown. If popular fan games drive much of discovery and heavy players stay free, sharing could scale inference and moderation costs while producing little paid revenue. The memo gives neither the top listing’s share of total play nor the cost of serving it. The structural downside gate stays open because the evidence does not establish that rights restrictions or per-player costs make the strongest growth path infeasible. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 19/25 |
-| Repeatable acquisition and onboarding | 22/25 |
-| Retention economics | 15/20 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 21/25 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 68/100** (Invest)
+**Total Score: 69/100** (Invest)
 
 ### Decisive diligence question
 
-Do successive cohorts acquired through creator links generate positive 90-day contribution from subscriptions and currency packs after covering the variable costs of both paid and free players? Cohort-level receipts and attributable costs would answer it. Consistently positive contribution would sustain Reach out. Persistent losses across those cohorts would move Yam to Watch pending evidence that pricing or usage limits can close the gap.
+Can players acquired through creator links generate positive cumulative contribution within 90 days? A representative post-launch cohort showing self-serve purchases and renewals, with realized revenue covering attributable costs across all referred players, would move Yam to Reach out.

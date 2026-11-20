@@ -1,32 +1,33 @@
 ﻿# Super Powers Mobility (SPM) -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **scarce complements**. If AI adoption increases deployments of autonomous vehicles, qualified battery and power-system integration could become more valuable where vehicle builders lack in-house electrical expertise. SPM offers pack design, power electronics, vehicle integration, and power export in one engagement. SPM identifies coordination across suppliers as a source of delay. The memo leaves open whether AI-driven deployments are increasing demand for this work or whether integration is actually delaying those deployments. (The Idea)
+SPM’s strongest commercial case is selling integrated battery packs and power electronics to vehicle builders and defense primes. SPM says coordinating separate suppliers delays development, and its modular system lets customers add storage and power external equipment. The memo identifies no specific AI workload whose deployment is constrained by this input, or evidence that growing AI demand would keep compatible supply scarce. The memo also identifies no previously excluded buyer or use that becomes viable through AI-driven reductions in cost per successful outcome. Both AGI paths score zero, triggering the Pass gate. (The Idea, Market & Traction)
 
-SPM reports $421,815 in realized revenue in one month, participation in four federal contracts, and production bookings into February 2027. Its launch separately describes over $400,000 in contracted revenue. The overlap is unclear, so the figures are treated as one early demand signal. Buyer identities, repeat orders, and purchases tied to an autonomy-specific bottleneck remain unverified. Founder Jonathan Powers’s prior high-voltage vehicle integration work supports execution at this stage. Repeat production is the next gap. (Market & Traction, Key Facts, Founders & Team)
+In-house integration gives SPM a specific capability that could create switching costs after customer qualification and repeat production. That advantage is still an inference. SPM reports a patented design method without identifying the patent, relies on externally sourced cells, and faces an incumbent offering complete military battery and power systems. (Defensibility, Key Risks)
 
-The expansion unit is a repeat build of a qualified configuration. In that scenario, separately billed engineering could cover upfront integration, and repeat units would need to cover cells, assembly, testing, and the cost of added production capacity at actual utilization. The memo establishes the quote-based sales model and reports a capacity expansion. It leaves repeat-build costs and margins open. (The Idea, Key Risks)
+SPM reports participation in four federal contracts and production bookings into February 2027. It describes one month as $421,815 in realized revenue and elsewhere reports over $400,000 in contracted revenue in one month. The relationship between those figures, customer acceptance, and repeat orders remain unclear. Powers’s prior high-voltage vehicle integration work and coverage of SPM’s earlier retrofit support execution credit. Delivery at production scale for the current offering remains unverified. Quote-based sales and engineering contracts describe how SPM charges customers, while price and delivery cost per qualified unit remain unknown. (Market & Traction, Key Facts, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Inventus Power already designs and manufactures complete military battery and power systems. SPM reports a patented pack-design method, but its scope is unclear, and switching costs remain an inference contingent on repeat production. The reported orders could reflect ordinary defense electrification demand. Incumbent overlap weakens the scarcity case, while the memo leaves substitution on a full vehicle integration job unresolved. That keeps the action at Watch. The memo provides no independent New Economies case. (Defensibility, Market & Traction, Key Risks)
+If AI-enabled vehicle deployments expand and buyers struggle to qualify power systems, SPM’s combined pack and electronics design could shorten integration. SPM’s account of supplier coordination delays and the memo’s description of upcoming defense battery sourcing restrictions make that scenario plausible. The link to an actual AI deployment and the time buyers would need to qualify equivalent supply remain unverified, so the scenario clears neither AGI gate. (The Idea, Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 12/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 9/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 25/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer place a paid production reorder with SPM for an autonomous vehicle program because qualified power integration is holding up deployment? A purchase order and buyer confirmation that credible alternatives could not meet the program’s qualification schedule would move the action to Reach out. Evidence that the buyer could switch suppliers on comparable terms and timing would move it to Pass.
+Is battery-system qualification delaying a specific AI-enabled vehicle deployment that SPM can unblock sooner than available suppliers? A buyer’s procurement timeline showing the delay, paired with an accepted SPM pilot that meets the deployment requirements, would change the action to Reach out.

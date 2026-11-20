@@ -1,30 +1,33 @@
 ﻿# Acyclic Labs -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest path. Acyclic describes an existing workflow in which engineers wait on serial agents or spend time coordinating separate sessions. Its managed service delegates work across isolated workspaces and merges the results. TinyFish documented a 19-agent research run that took 12.5 minutes. That demonstrates parallel execution on a concrete task. The investment hypothesis is that lower hands-on labor could make recurring research jobs economical for teams that previously skipped them. The memo gives no measured baseline for human time or all-in cost per accepted result, so the market opening remains unproven. (The Idea, Market & Traction)
+Acyclic’s strongest commercial case in Fall 2026 is managed orchestration for engineering teams already running coding agents. Its fork-and-join design runs subtasks in isolated workspaces and merges the results into one patch. The memo describes hours of waiting and context switching with serial agents or manually coordinated sessions. Acyclic also reports that coordination failures can make swarms underperform a single agent. These are concrete workflow and reliability problems. The memo supplies no evidence that growing AI deployment will make coordination infrastructure scarce or that equivalent supply will be slow to arrive, so the building-block path scores zero. (*The Idea*, *Key Risks*)
 
-Acyclic reports onboarding teams and use in document-processing pipelines. Managed onboarding carries no service fee, and the memo records no repeat payment for the managed product. The TinyFish run cost $2.52 in execution, a starting point for estimating cost per completed workflow. Customers pay model providers directly. A viable managed fee would still need to cover Acyclic’s infrastructure and support, while the buyer’s cost per accepted result would need to absorb retries and human review. The founders’ prior agent-system work, the shipped runtime, and the use of SwarmBench failures to design training environments support seed-stage execution. (Market & Traction, Key Facts, The Idea, Founders & Team, Key Risks)
+The industry-enabled path also scores zero. Parallel delegation could make a previously deferred engineering workflow viable if it reduces supervision enough to offset extra model calls, merge review, and failed runs. That is a scenario assumption. The memo identifies no buyer or workflow previously excluded on cost or cadence and shows no comparison of fully loaded cost per accepted result. Provider-native parallel delegation also leaves open whether buyers would need Acyclic’s separately managed service. (*The Idea*, *Defensibility*, *Key Risks*)
+
+The published Apache-2.0 harness and provider-native delegation give buyers viable alternatives, limiting durable value capture. The company reports managed onboarding and document-processing use, which support early demand, while paid conversion and repeat use remain unverified. The shipped runtime and founders’ prior agent engineering support execution credit, with dependable commercial delivery still unproven. During onboarding, customers pay model providers directly and Acyclic charges no managed-service fee. The memo leaves price and delivery cost per accepted outcome unresolved, so scale economics stays at the default. (*Defensibility*, *Market & Traction*, *Founders & Team*, *Key Facts*)
 
 ### Countercase
 
-The strongest countercase is that orchestration becomes a feature buyers can get from their model provider or run themselves. Claude Managed Agents already offers parallel delegation, and Acyclic has published its self-hostable harness. Model and cloud choice, plus integrated coordination testing, give buyers a plausible reason to prefer the managed service. The memo shows no paid preference under comparable functionality, and the proposed advantage from accumulating coordination traces remains an inference. The substitutes establish feature overlap. The memo leaves outcome parity and buyer switching untested, so the path stays open on Watch. The scarce-complement path lacks evidence that Acyclic controls an input buyers cannot readily obtain elsewhere. (The Idea, Defensibility, Key Risks)
+A documented research demo ran 19 agents in 12.5 minutes at $2.52 in execution cost. That makes parallel delegation concrete at seed and gives a buyer a workload to test. The demo lacks a comparable baseline for output quality, human review, and fully loaded cost. It leaves the decision gate in place because it establishes neither a scarce input nor a newly viable use. (*Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 12/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer that previously skipped a recurring research workflow pay Acyclic a viable fee for repeat runs after testing self-hosted and provider-native alternatives with comparable models? Move to Reach out if the trial shows that Acyclic makes the workflow economical at the buyer’s acceptance standard, including human review and retries, and the buyer pays to keep using it. Move to Pass if comparable alternatives repeatedly meet the same standard and buyers choose them over paying Acyclic.
+Can one engineering team pay Acyclic to run a recurring repository workflow it previously deferred because of supervision cost? A paid pilot would change the action to **Reach out** if the team accepts the delivered patches at its required cadence and Acyclic alone meets the team’s cost threshold in a same-model comparison with the existing workflow and provider-native delegation. The comparison should include model calls, review, merge rework, and failed runs. (*The Idea*, *Key Risks*, *Key Facts*)

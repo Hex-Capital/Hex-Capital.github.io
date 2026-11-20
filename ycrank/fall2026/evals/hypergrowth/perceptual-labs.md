@@ -5,26 +5,26 @@
 
 ### Company case
 
-Conditional on strong product-market fit, the strongest path is a reusable weight-editing tool for AI labs and enterprises that control editable model weights. The company proposes tracing unwanted behavior to model internals and editing the relevant weights through natural-language instructions. The same diagnosis and repair job plausibly recurs across markets. The workflow could transfer across eligible teams, but the work needed to support different architectures remains uncertain. A running edit history could support repeat use as teams make and review further changes. That retention mechanism is inferred, and recurring billing and account expansion remain unsubstantiated. (The Idea, Key Risks)
+Conditional on strong product-market fit with AI labs that have editable weights, diagnosing and correcting model behavior is a recurring job that plausibly travels across markets. Perceptual proposes a natural-language editing interface and an audit record that could carry over between buyers. The scope of supported architectures and the work needed to deploy on each remain uncertain. Access to editable weights narrows the eligible buyer pool. (*The Idea*, *Key Risks*)
 
-The November 17 launch documents an email waitlist. The memo leaves purchase, onboarding, first use, and current-product paid adoption unverified. The founders’ reported Bryel Foundry engagements concern a prior custom-training service. The company claims direct edits could avoid costly gradient-based post-training, but the memo gives no price or measured cost for delivering and validating an edit. (The Idea, Market & Traction, Key Facts)
+The memo documents a November 17 early-access launch through an email waitlist. The path from signup to payment and first use is unknown, as are realized revenue and paid adoption for weight editing. The founders’ reported Bryel Foundry engagements were for custom model training. For retention, the proposed audit history gives teams a reason to return for subsequent edits. Monetized expansion remains hypothetical. If Perceptual charged per validated edit, larger workloads could increase existing customers’ bills. Incremental contribution would depend on that revenue after integration, compute, regression testing, and human review. The memo provides no pricing or operating measurements to estimate that contribution. (*The Idea*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-Reliable edits may require architecture-specific engineering and extensive regression testing to preserve unrelated capabilities. WeightBench’s reported patching failures under its test conditions support that concern, and the need for editable weights narrows the eligible buyer pool. The structural downside gate stays open because the memo does not establish that eligible buyers require unavoidable bespoke work or that serving them would be economically infeasible at scale. (Key Risks)
+Even with strong initial fit, each new architecture could require specialist integration and extensive regression testing to preserve unrelated model capabilities. WeightBench’s reported patching failures under its test constraints reinforce that reliability concern. If specialist work recurs for every buyer or edit, it could slow onboarding and absorb incremental revenue. The structural downside gate stays open because the amount of required work in Perceptual’s own deployments remains unknown. (*Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 11/25 |
 | Repeatable acquisition and onboarding | 9/25 |
 | Retention economics | 8/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent labs with editable weights independently buy and adopt the same release, then pay for repeated production edits that preserve unrelated capabilities? A paid cohort with documented setup, regression results, repeat billing, and attributable delivery costs would answer it. Repeatable adoption and viable contribution would move the action to Reach out if the resulting score reaches 65 and confidence reaches Medium. Evidence that each account requires bespoke engineering that makes scaling economically infeasible would move the action to Pass.
+Can two independent AI labs use the same documented setup to pay for and repeatedly validate edits on different supported model architectures with minimal founder help? Repeat invoices and deployment records showing that edits preserve unrelated capabilities and that incremental revenue comfortably covers setup, compute, and review would support moving to Reach out if the updated score reaches 65 and confidence reaches Medium.

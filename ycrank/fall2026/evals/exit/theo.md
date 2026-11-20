@@ -5,36 +5,36 @@
 
 ### Company case
 
-The strongest exit path is a strategic acquisition by a website builder such as Wix. Theo bundles hosting with weekly search-optimized pages, posts, and technical fixes. An acquirer could roll that workflow out to its existing customers if it measurably improved paid upgrades or retention beyond what its current tools deliver. Theo’s published customer testimonials report that Buy My Lunch’s Google clicks rose from 131 to 929 and that 118 118 Money’s monthly organic visits rose from 50,000 to 118,000. Those reports support testing the buyer rationale. The effect on leads, retention, and buyer economics remains unknown. (The Idea, Market & Traction)
+A strategic acquisition by a website builder such as Wix is Theo’s strongest supported route. Theo bundles hosting with weekly SEO publishing and technical fixes. A buyer could use that workflow to improve retention or sell a higher-priced subscription if the search gains persist across paying customers. Theo’s published testimonials report that Buy My Lunch’s Google clicks rose from 131 to 929 over 90 days and that 118 118 Money’s monthly organic visits rose from 50,000 to 118,000. Those claims show why a buyer might test the product. Theo’s reported average uplift of more than 50% comes without a published cohort size or baseline, and its 10,000-plus builds can include free drafts. One reviewer reported paying about $69 per month. Paid conversion, retention, and aggregate revenue remain unknown. (The Idea, Market & Traction, Key Risks, Key Facts)
 
-The relevant seed milestone is a six-month paid cohort of migrated Starter and Pro customers showing incremental qualified leads and stronger retention against comparable sites using existing tools. Theo’s company-reported count of 10,470 audited domains provides a plausible recruitment funnel, and one reviewer reported paying roughly $69 per month. Paid conversion, migration costs, and runway are undisclosed, leaving the cost and pace of reaching the milestone uncertain. (Market & Traction, Key Facts, Key Risks)
+A paid cohort tracked for six months could test whether attributable search gains persist and translate into renewals. Theo’s audit funnel and named customer cases provide a starting point. The capital needed to reach and measure a representative paid cohort is unknown. A company sale could convey the hosted workflow. Customer-owned domains and Google authorizations leave continuity and consent to verify at closing. (The Idea, Market & Traction, Defensibility, Key Risks)
 
-An equity sale could keep Theo as the hosting operator. Customers own their domains, and the growth engine depends on Google authorization, so diligence would need to establish which customer contracts and account connections could continue through a change of control. The memo supplies no evidence of an independent route that could deliver meaningful cash to this holder. (Defensibility, Key Risks)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at full pro rata participation.
 
-The proceeds bridge uses the benchmark $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The sale cases assume the holder is eligible, sells the entire stake, and receives its pro rata share in cash at closing within eight years, with no preference, escrow, or earnout reducing the payout. The prices and deductions are illustrative. Theo’s published pricing and the reported payment establish a revenue model, while aggregate revenue and paid-customer count remain undisclosed. (Key Facts)
+| Scenario | Illustrative proceeds within eight years |
+|---|---|
+| Modest sale | $40M enterprise value less $5M in net debt and deal adjustments leaves $35M in equity. The holder receives $1.05M, or 2.1×. |
+| Strong sale | $100M enterprise value less the same $5M leaves $95M in equity. The holder receives $2.85M, or 5.7×. |
+| Prolonged private | Continued reinvestment with no eligible secondary or funded payout yields $0 in realized cash. |
 
-| Scenario | Enterprise-to-equity bridge | Cash to holder |
-|---|---|---|
-| Modest sale | $40M enterprise value less $5M in net debt and deal adjustments yields $35M of distributable equity | $1.05M (2.1×) |
-| Strong sale | $100M enterprise value less $10M in net debt and deal adjustments yields $90M of distributable equity | $2.70M (5.4×), falling to $2.25M (4.5×) at 2.5% ownership |
-| Prolonged private | Theo reinvests available cash and no eligible share sale occurs within eight years | $0 realized |
+Both sales assume the holder is eligible, sells the entire stake, and receives cash at closing through a pro rata waterfall with no senior preference reducing the payout. At the strong price, selling half the stake on those terms yields about $1.43M. The sale prices are scenario assumptions. The memo supplies no buyer pricing, holder terms, or independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Wix already offers AI-assisted SEO inside its editor, and Durable already automates blog research and drafting. Either could extend its own tools, especially if Theo’s traffic gains prove hard to reproduce after migration or fail to generate qualified leads. Theo’s reported average uplift omits the cohort size and baseline. The available evidence makes building in-house a credible substitute, while leaving the price of the strongest sale route unresolved. It falls short of the Pass gate for a supported structural block or materially inadequate proceeds. (Defensibility, Market & Traction, Key Risks)
+Wix already offers AI-assisted SEO, and Durable already automates blog research and drafting. A buyer could extend its own tools if Theo’s reported gains prove hard to reproduce or have little effect on paid retention. Migration friction and Google authorization also limit how readily a buyer could extend the workflow to its customers. That evidence weakens the reason to buy. A structural closing block or a supported price ceiling below the proceeds hurdle remains unestablished, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can Theo’s weekly SEO workflow generate enough incremental gross profit for an established site builder to justify a purchase that clears the holder’s proceeds hurdle? A matched six-month paid cohort showing sustained gains in qualified leads and retention, translated into buyer economics at a defensible rollout scale, would move the action to Reach out if it supported more than $83.3 million in distributable equity at 3% ownership. Evidence that even the strongest credible buyer case falls materially short would move it to Pass.
+Do Theo’s search gains persist across paying customers and improve renewal rates enough to justify a strategic purchase that clears the holder’s cash hurdle? Six months of paid-cohort data with a credible comparison group, linked to a buyer’s build-versus-buy economics, would answer it. A supported price range that clears the hurdle after deal adjustments would move the action to Reach out. Evidence that even the strongest credible buyer economics leave the holder materially short would move it to Pass.

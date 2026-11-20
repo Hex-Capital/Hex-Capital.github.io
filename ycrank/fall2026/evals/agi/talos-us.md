@@ -1,32 +1,33 @@
 ﻿# Talos -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Medium
+**Action:** Pass  
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is **scarce complements**. The memo documents transformer supply constraints that prolonged some outages and replacement lead times that can reach four years. If AI-related load makes outages on constrained assets more costly, actionable warnings could let operators intervene before a failure and preserve capacity that is slow to replace. Talos describes retrofit sensors and machine-specific baselines. The memo leaves the link between AI load and buyer demand unverified, along with field sensitivity, false-alarm rates, and usable warning lead time. (The Idea, Market & Traction, Key Risks)
+The memo cites a five-year high in transformer unavailability in 2025, with supply constraints prolonging some outages and replacement lead times reaching four years. Talos says its retrofit sensors learn each asset’s baseline and flag anomalies for operators to investigate. Earlier warnings could help utilities preserve usable capacity if operators can intervene in time. The memo does not identify an AI workload constrained by the transformers Talos monitors or establish that AI deployment is increasing demand for that specific capacity. The building-block path therefore earns zero. (The Idea, Market & Traction, Key Risks)
 
-Machine-specific operating data gives Talos a foothold, with fault labels and data reuse rights still unknown. Talos reports partnerships with utilities, plant owners, and national labs, with payment and repeat procurement unverified. The reported increase from 25+ to 40+ instrumented assets, alongside the founders’ power-maintenance and applied ML experience, supports seed-stage execution. (Defensibility, Market & Traction, Founders & Team)
+Talos could improve maintenance on assets operators already monitor. Continuous transformer monitoring is already available, and the memo identifies no excluded buyer, asset class, or monitoring frequency that AI makes economical. The industry-enabled path also earns zero, triggering the Pass gate. (The Idea, Market & Traction)
 
-A monitored asset is the likely expansion unit. Under an assumed per-asset contract, pricing would need to cover hardware, installation, and ongoing monitoring and support. The memo provides no pricing or cost data to test that bridge. (The Idea, Key Facts)
+Asset-specific baselines offer a possible operating advantage. Data reuse rights and the volume of confirmed fault labels remain unknown. Talos reports partnerships with utilities and plant owners, an early demand signal with undisclosed commercial terms. Its reported installations across 40+ assets and the CEO’s utility maintenance experience support early execution. Field sensitivity, false alarms, and warning lead times remain unverified. The memo provides no basis to compare per-asset revenue with hardware, installation, and ongoing support costs. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Utilities already have continuous monitoring options from GE Vernova and Camlin. Camlin’s ties to Siemens Energy could give it a route to sell monitoring alongside equipment, and incumbents could add external sensors if buyers value them. That is a credible substitution risk. The memo leaves functional parity and buyer switching untested, so the path stays open. A New Economies case would require evidence that Talos lowers labor cost per successful maintenance outcome enough to serve a previously excluded use and that buyers would still pay under model parity. Both conditions remain unproven. (The Idea, Defensibility, Market & Traction, Key Risks)
+If a grid-connected AI facility depends on a transformer with a long replacement lead time, a reliable warning could give the utility time to repair it and preserve power for that workload. The documented supply constraint makes this scenario plausible. The memo supplies neither a site where transformer availability limits AI operations nor field evidence that Talos gives operators enough time to act. The scenario leaves the Pass gate in place. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 5/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent utility pay to expand Talos across constrained assets serving AI-related load after a head-to-head trial against its current monitoring? Reach out if the buyer confirms that Talos gave crews more time to act on confirmed faults at an acceptable false-alarm rate and signs a paid expansion on that basis. Keep Watch if the trial is inconclusive. Pass if the trial shows the incumbent is an adequate substitute and the buyer declines to expand on that basis. (Market & Traction, Key Risks)
+Can a utility-verified trial show that Talos gives operators enough warning to act on a confirmed fault in a transformer whose availability limits an AI facility’s usable power? A trial that documents the site constraint, compares warning lead time and false alarms with the utility’s existing monitoring, and shows that an intervention preserved usable power would change the action to Reach out to test repeatability across comparable sites.

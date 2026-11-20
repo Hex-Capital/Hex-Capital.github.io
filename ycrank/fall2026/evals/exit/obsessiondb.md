@@ -1,40 +1,38 @@
 ﻿# ObsessionDB -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest route is a strategic acquisition by a managed database provider such as Aiven. Aiven already sells managed ClickHouse and could use ObsessionDB’s proprietary storage engine and distributed cache to win real-time API workloads or lower the cost of serving them. Osmosis reported that its annual operating cost fell from about $60,000 to $30,000 after migrating from Tinybird, with 13 million API requests in a 30-day period. Numia, the founders’ prior company, reported a 75% cost reduction on a 200 TB migration from BigQuery. EnterpriseDB’s acquisition of Altinity shows that a database vendor will buy an adjacent ClickHouse business. The buyer-specific savings and acquisition rationale for ObsessionDB remain inferences. (The Idea, Defensibility, Market & Traction)
+ObsessionDB’s strongest route to holder liquidity is a strategic sale to a managed-database vendor. EnterpriseDB’s acquisition of Altinity establishes that a database platform has bought adjacent ClickHouse technology. Osmosis reported that migrating from Tinybird to ObsessionDB cut annual operating costs from about $60,000 to $30,000 while its API handled 13 million requests over 30 days. This suggests a reason to buy ObsessionDB’s storage and caching technology if a buyer could reproduce those economics across its customers. The Altinity deal price is undisclosed, and the Osmosis result measures customer savings. (Market & Traction, Defensibility)
 
-The route strengthens if unrelated paying customers can reproduce the savings against a prospective buyer’s own stack under mixed-cache production traffic. ObsessionDB reports paying customers and a 50 TB production deployment, and it offers hands-on migrations. Those signals make the test plausible. The memo leaves runway, test cost, and timing open. Customer-cloud deployment shows that the software can run in a customer’s environment. IP ownership, license transfer, and customer consents remain unverified. (The Idea, Market & Traction, Key Risks)
+The company reports paying production customers and a 50 TB deployment. That operating footprint gives it a starting point for testing whether it can win and retain more large workloads against native ClickHouse. Scaling that effort would require engineering and migration support, plus work to meet enterprise security requirements. The memo gives no financing amount or runway for that work. The documented customer-cloud deployment makes integration technically plausible. IP ownership, upstream licensing, and customer contract assignment would still need diligence. The memo provides no evidence of an independent route to holder liquidity. (Market & Traction, The Idea, Key Risks)
 
-The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3% with no follow-ons, and a $2.5 million gross cash objective within eight years. At 3%, the holder needs about $83.3 million in distributable equity value. The following sale prices are scenario assumptions. Both sale cases assume an eligible holder sells the entire stake for cash within eight years and receives a pro rata payout after net debt and deal deductions, with no preference reducing that share.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× return. At 3% pro rata, that requires about $83.3 million in distributable equity value.
 
-| Scenario | Proceeds bridge | Gross cash to holder |
-|---|---|---:|
-| Modest sale | $50M enterprise value and no deductions yield $50M of distributable equity | $1.50M |
-| Strong sale | $100M enterprise value less $10M of assumed net debt and deal deductions yields $90M of distributable equity | $2.70M |
-| Prolonged private | Continued operation with cash reinvested and no eligible share sale or distribution | $0 |
+- **Modest sale.** Assume $45 million in enterprise value and $5 million in net debt and closing adjustments. With no preference leakage, full holder participation, and an all-cash closing within eight years, $40 million in distributable equity yields $1.20 million, or 2.4×.
+- **Strong sale.** Assume $100 million in enterprise value and the same deductions and waterfall. A full cash sale within eight years yields $2.85 million, or 5.7×. If the holder receives only 80% of its pro rata consideration in cash within the window, realized proceeds fall to $2.28 million, or 4.56×.
+- **Prolonged private.** Continued operation with cash reinvested yields $0 in realized proceeds. The memo identifies no funded payout or eligible share purchase.
 
-At $100 million of enterprise value, $20 million in deductions would lower the pro rata payout to $2.4 million before any preference impact. The memo gives a $4,090 monthly deployment pricing example and an annual customer-cloud fee. It provides no company revenue or adjacent deal price to anchor the sale scenarios, and no evidence of an independent liquidity route. (Market & Traction, Key Facts)
+The sale values and terms are sensitivity assumptions. The memo provides no ObsessionDB revenue or priced adjacent transaction that would support a realizable sale range.
 
 ### Countercase
 
-A buyer could meet the same need with existing technology. ClickHouse Cloud already offers isolated compute over shared storage, customer-cloud deployment, and a managed agent service. Altinity’s shared-storage extension gives EnterpriseDB another option after its acquisition. ObsessionDB’s published comparison uses hot runs, and the company documents added latency on cache misses. Migration changes and certification requirements could also slow customer adoption. This evidence weakens the case for paying an acquisition premium. It leaves room for a buyer whose workloads show durable savings, so neither the structural-block nor the inadequate-proceeds gate is established. (Defensibility, Market & Traction, Key Risks)
+ClickHouse Cloud already offers isolated compute over shared storage and its own agent service. Altinity also released a shared-object-storage extension, so EnterpriseDB’s acquisition gives it an alternative to buying ObsessionDB. ObsessionDB’s published comparison uses hot runs, and its documentation identifies added latency on cache misses. A buyer could therefore see too little incremental advantage to pay the price this holder needs. The evidence leaves that pricing question open and falls short of either Pass gate. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 21/30 |
+| Counterparty rationale or source of cash | 20/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Would a managed database buyer’s build-versus-buy economics support a cash acquisition price that clears the holder’s $2.5 million hurdle? Repeatable cost and latency results from unrelated paying customers against that buyer’s stack, paired with a buyer-side valuation range that clears the hurdle under a plausible waterfall, would move the action to Reach out. A supported price ceiling that leaves the holder materially short on the strongest route would move it to Pass.
+How much incremental gross profit could a managed-database buyer underwrite from workloads where ObsessionDB beats native ClickHouse in production? Three unrelated paying deployments with workload-matched costs, cold-cache latency, contract values, and delivery costs would give a buyer a basis for estimating that benefit. Move to Reach out if a buyer-specific analysis using those results supports a sale range that clears the holder’s cash hurdle under reasonable closing assumptions.

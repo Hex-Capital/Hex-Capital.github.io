@@ -1,32 +1,33 @@
 ﻿# Open Actuation -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **scarce complements**. If AI-enabled drone and robotics deployments increase demand for low-volume, application-specific motors, long lead times and high minimum orders could slow hardware iteration. Open Actuation says an incumbent quoted one drone OEM a $50,000 minimum order and a 13-week lead time for a shaft modification. Open Actuation reports completing that build in five weeks. That comparison supports a procurement bottleneck for one design. The link to growing AI demand remains a scenario assumption. (*The Idea*, *Defensibility*)
+Open Actuation’s strongest seed case is quick-turn custom manufacturing. The company reports that an incumbent quoted a drone OEM a $50,000 minimum order and a 13-week lead time for a shaft modification. Open Actuation says it built the motor in five weeks and is fulfilling volume orders. That supports a specific procurement problem and an early demand signal. The memo supplies no independent confirmation of the orders, payment, or repeat purchases. (The Idea, Defensibility, Market & Traction)
 
-The company reports that it is fulfilling volume orders for the same unnamed OEM. That is a buyer commitment beyond prototype testing, with order size, pricing, and repeat purchasing still unverified. Separately, the memo documents earlier heavy-lift samples made for prospective customers and Facer’s experience in manufacturing quality software. Those are credible seed-stage execution signals. Consistent yield across custom designs remains the next production hurdle. (*Market & Traction*, *Founders & Team*, *Key Risks*)
+Both AGI paths score zero. For building blocks, the reported quote shows friction for one custom drone motor. The memo identifies no AI workload whose deployment depends on that motor and no evidence that qualified supply would remain scarce as AI deployment grows. For the enabled-industry path, the memo describes software and tooling that speed up motor production. It identifies no AI-driven reduction in the cost per successful outcome that makes a previously excluded buyer or use viable. (The Idea, Market & Traction)
 
-The expansion unit is a qualified motor design moving into repeat production lots. Open Actuation’s stated assembly capacity of thousands of motors per month suggests room to expand. Contribution per accepted motor still depends on custom pricing, setup and qualification costs spread over each lot, material costs, yield, rework, and equipment utilization. Facer also identifies domestic sourcing of magnets and silicon steel as difficult. (*The Idea*, *Market & Traction*, *Key Risks*)
+The company-reported proprietary tooling and integrated production process support some defensibility. Reusing tooling could reduce setup time across jobs, but the memo documents only one timed build and identifies KDE Direct as another custom supplier. Earlier reporting on heavy-lift motor samples and the claimed five-week build support seed-stage execution, with production yield and reliability still open. Custom pricing, actual throughput, and delivery costs are unknown, so scale economics stays at its default. (Defensibility, Market & Traction, Key Risks, The Idea)
 
 ### Countercase
 
-The incumbent’s quote may reflect one supplier’s order policy. KDE Direct already offers catalog modifications and custom builds, while Westmag provides another domestic production option at higher volumes. Open Actuation’s reported in-house tooling and production give it control over how it executes each job. The memo leaves open whether that control yields an advantage competitors cannot match. The competitive evidence keeps durable scarcity unproven, and equivalent supply for the same job remains unverified. That supports **Watch**. The memo also leaves the labor-cost change and previously excluded buyers required for a New Economies case unestablished. (*The Idea*, *Defensibility*, *Market & Traction*)
+If AI-enabled robots need application-specific actuators in small lots, incumbent order minimums and lead times could hold up deployments. The shaft-modification quote and reported turnaround make that scenario plausible. The memo leaves the decisive assumptions untested: whether the affected deployment depends on AI, whether the delay blocks rollout, and whether other suppliers can qualify in time. The two zero path scores trigger Pass. (The Idea, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 15/25 |
-| Durable value capture | 10/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 8/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 52/100** (Neutral)
+**Total Score: 24/150** (Pass)
 
 ### Decisive diligence question
 
-Will a second, independent OEM scaling an AI-enabled drone or robot program qualify an Open Actuation motor and place a repeat order because competing suppliers cannot match the required combination of lead time, minimum order, and performance? Comparative quotes, qualification results, a repeat purchase order, and lot-level costs showing positive contribution at the paid price would move the action to **Reach out**.
+Can Open Actuation qualify a custom actuator that is holding up a specific AI-enabled robot rollout? Buyer confirmation of the blocked rollout, planned volumes, and competing supplier lead times, paired with a qualification run that meets the required spec, lot size, and delivery window, would change the action to Reach out. Evidence that the buyer can readily qualify an alternative would keep it at Pass.

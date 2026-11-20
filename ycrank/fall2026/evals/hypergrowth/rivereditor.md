@@ -1,19 +1,19 @@
 ﻿# River -- Hypergrowth Evaluation
 
-**Action:** Reach out  
-**Evidence confidence:** Medium
+**Action:** Watch  
+**Evidence confidence:** Low
 
 ### Company case
 
-Assuming strong product-market fit, River’s strongest path is self-serve adoption by consultants and researchers who repeatedly produce reports and papers across many files. Its editors, reviewable agent edits, and connectors to Gmail, Slack, and Notion support substantially the same workflow across markets. Web tools and templates give buyers a way to discover River and try it in the browser or desktop app. The memo documents self-serve access and paid plans, while independent checkout and time to first useful edit remain unverified. (The Idea)
+Assuming strong product-market fit with consultants and researchers, River’s cross-file workflow could travel across markets. The documented product combines document, spreadsheet, and slide editors with an agent that reads related files and works with common apps such as Gmail, Slack, and Notion. The same workspace could serve recurring report and research work abroad with modest adaptation, although third-party processing may limit adoption for buyers with sensitive files. Free web access and desktop downloads give individuals a way to start, and tools and templates offer a plausible discovery channel. The memo documents paid plans but leaves open whether a typical buyer can pay and finish a real project without help. (The Idea, Key Risks)
 
-Monthly plans at $14, $36, and $100 per person, plus separately billed AI overages, give retained users a way to spend more as workloads grow. Shared files and workspace memory could encourage repeat use. Expansion could offset churn if customers run more billable work over time, an inference from the workflow and pricing. For a paid workspace, incremental contribution is subscription and overage revenue less model calls, hosting, storage, and attributable acquisition, setup, and support. Overage billing can recover some inference expense, but contribution still depends on the cost of work covered by included credits. (The Idea, Defensibility, Key Risks)
+Monthly per-seat plans and AI overages give existing accounts room to spend more as they add teammates or run more workloads. Shared files and workspace memory could encourage repeat use, but the memo gives no evidence that expansion can offset churn. River and its founders reported 50,000+ beta users in July, 75,000+ users in September, and 100,000+ creators in November. Those figures use different labels and give no usable evidence of realized revenue, paying-customer growth, or pre-revenue status. Initial traction receives the absent-evidence default. (The Idea, Defensibility, Market & Traction)
 
-River reported 50,000+ beta users at the July desktop launch, 75,000+ users in September, and 100,000+ creators in November. Those figures use different definitions and indicate interest. Realized revenue, paying-customer growth, and billed production volume are unreported, so initial traction uses the rubric default. (Market & Traction, Key Facts)
+For a paid seat, incremental contribution starts with $14, $36, or $100 per month plus any overages, less model inference, storage, and attributable onboarding and support. Included credit limits and overage billing give River a way to charge for heavier workloads. The memo does not establish whether those charges cover the incremental cost of representative projects. (The Idea, Key Risks)
 
 ### Countercase
 
-The cross-file projects that could drive spending may also involve sensitive client material and expensive agent runs. External processing can block adoption for some organizations, and Microsoft offers cross-file editing under existing tenant controls. If those pressures leave River with low paid conversion or heavy inference costs within included credits, broad usage could yield little recurring contribution. The structural downside gate stays open because the memo supports a self-serve path for buyers who can use external providers and identifies overage pricing as a lever for recovering usage costs. (The Idea, Key Risks)
+River could attract individual users while organizations with recurring, sensitive work stay inside Microsoft 365, where Copilot can edit files under existing tenant controls. River sends relevant content to external providers, which could make converting those organizations harder. The structural gate stays open because the memo does not establish that ordinary buyers require bespoke deployments or that serving them is uneconomic. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -29,4 +29,4 @@ The cross-file projects that could drive spending may also involve sensitive cli
 
 ### Decisive diligence question
 
-Does a recent self-serve signup cohort generate positive contribution from repeat paid cross-file work? Use three billing cycles to track paid conversion, repeat workloads, and revenue after attributable acquisition, inference, infrastructure, and support costs. Positive contribution from a cohort that keeps using the product would sustain Reach out. If paid use fades or repeat workloads lose money at current prices, move to Watch.
+Can a cohort of consultants who discover River through its tools or templates complete a paid client project without staff help, then grow recurring revenue from those same accounts over several billing cycles while generating positive incremental contribution? A cohort that clears that milestone would move River to Reach out.

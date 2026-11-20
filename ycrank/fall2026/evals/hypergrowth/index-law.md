@@ -5,30 +5,28 @@
 
 ### Company case
 
-Assuming strong product-market fit, Mike‑1’s best path is recurring contract review for startups and growing businesses. Its workspace retains company documents, redlines, and matter history. Applying that context to routine reviews and routing selected matters to independent counsel could make the same workflow useful across markets. That path assumes customer playbooks can handle most routine work with limited localization. (The Idea, Defensibility, Key Risks)
+Assuming strong initial product-market fit, Mike‑1’s most plausible growth path is recurring contract review for startups and growing businesses. Reviewing agreements against company documents and past decisions, preparing redlines, and retaining matter history are reusable parts of the workflow that could travel across markets. The work needed to adapt that workflow to local legal requirements remains uncertain. Stored documents and past redlines give customers a reason to return. The advertised $149/month Pro and $499/month Teams plans suggest a way for accounts to spend more, with paid renewals and upgrades still unverified. (The Idea, Defensibility, Key Risks)
 
-The public template library and YC launch give buyers ways to discover Mike‑1. Founder-led calls are the only documented setup path, and the preview offers free access. The proposed $149/month Pro and $499/month Teams plans suggest a possible upgrade path as more colleagues adopt the workspace. Paid renewals and upgrades remain unverified. (The Idea, Key Facts)
+Launch YC and the public template library provide discovery channels. The documented path into the free preview includes a waitlist and founder-led setup calls, with independent activation and checkout unverified. The November 12 preview launch and the company’s reported sub-hour contract turnaround show launch activity and a customer outcome. The memo leaves realized revenue and paying-customer growth unknown, so Initial traction takes the default. (The Idea, Market & Traction, Key Facts)
 
-The five-person team announced the preview on November 12. Index Law reports a contract turnaround under an hour and legal quotes up to 80% below comparable law-firm quotes. Those claims suggest customer value. Realized Mike‑1 revenue and paying-customer growth remain unknown. (Index Law, Market & Traction, Key Facts)
-
-At the advertised prices, monthly contribution would start at $149 or $499 per account, less model processing, support, and counsel coordination, with acquisition and setup costs to recover. Separate lawyer fees and automated redlining could limit delivery costs. Contribution remains uncertain. (The Idea, Key Risks, Key Facts)
+If the advertised plans convert, incremental contribution would start with the monthly subscription fee and deduct attributable acquisition, setup, model processing, document storage, support, and any counsel coordination. Separately billed lawyer fees limit direct exposure to counsel costs. The memo provides too little evidence to size the remaining costs at ordinary workloads, so Cost economics takes the default. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Routine reviews could frequently require licensed judgment, making expansion depend on jurisdiction-specific workflow changes and counsel coordination. Founder-led setup adds friction to the current motion. The structural gate stays open because the memo describes selective escalation and leaves the extent of local adaptation for routine reviews unresolved. (The Idea, Key Risks)
+If routine contract review regularly requires local legal judgment, market expansion could require jurisdiction-specific workflows and counsel coverage. Frequent escalations could also add coordination work per account while founder-led setup limits throughput. That would constrain growth even with strong initial fit. The structural gate stays open because the memo describes counsel as an escalation for selected matters and leaves a plausible path for the same routine review workflow to serve buyers elsewhere. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 8/25 |
-| Retention economics | 11/20 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid cohort in a second jurisdiction activate independently and renew after repeatedly using the current product for routine contract reviews? A rollout showing bounded localization and positive incremental contribution would support Reach out if the updated score reaches 65 and confidence rises to at least Medium. Substantial market-specific rebuilding for routine work would trigger Pass.
+Can a paid cohort in a second jurisdiction sign up without founder help, renew after using the same review and redlining workflow with limited local adaptation, and generate positive incremental contribution after model and support costs? A documented cohort meeting that milestone would warrant rescoring for Reach out if the score reaches 65 and confidence reaches Medium.

@@ -5,23 +5,21 @@
 
 ### Company case
 
-The strongest path is a strategic sale of Contour’s holding company to an environmental consulting consolidator. True Environmental’s acquisition of Sikumiut Environmental Management shows that a buyer in this category acquires practices. Contour says it will acquire practices, deploy Cortex for permitting and compliance work, and leave technical judgment with staff. A buyer could pay for the combined practices if Cortex demonstrably improves cash earnings across them. That benefit remains an inference. The memo records Contour’s launch and gives no revenue, completed acquisition, or measured deployment results. (The Idea, Market & Traction, Defensibility, Key Facts)
+The strongest route is a sale of Contour to a sponsor-backed environmental consulting consolidator. The memo records True Environmental’s acquisition of Sikumiut Environmental Management, which establishes buyer activity in the sector. Contour says it will acquire practices and deploy Cortex to research rules, calculate emissions, and draft filings while consultants retain technical judgment. A consolidator could have a reason to buy Contour if Cortex improves margins after review and rework across multiple practices. The memo records a public launch and gives no evidence of a completed Contour acquisition, measured savings, or current revenue. The founders’ enterprise AI and investment banking experience supports a first test, whose purchase, integration, and working-capital needs remain unquantified. (The Idea, Market & Traction, Founders & Team, Key Facts)
 
-The first milestone is a financed practice acquisition followed by a measured Cortex rollout. The founders’ enterprise AI and investment banking experience supports the initial plan. Acquisition funding and the cost of deployment and staff review remain unverified. The memo also leaves holding-company sale rights, required consents, and investor eligibility open. It provides no evidence of an independent route to holder liquidity. (Founders & Team, The Idea, Key Risks, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at a full pro rata payout. The following prices and deductions are illustrative assumptions. Both sale cases assume the holder is eligible to sell the entire stake for cash within eight years and receives 3% of equity proceeds after debt and deal costs, with no senior preference or rollover.
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The sale cases below assume a full cash sale in year eight, $10 million combined net debt and deal deductions, no senior claims on the remaining equity, and an eligible holder paid pro rata. These are illustrative assumptions. The memo supplies neither a transaction price nor Contour’s investor terms. (Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Cash received |
+|----------|-----------------------------|---------------|
+| Modest sale | $60M enterprise value less $8M net debt and $2M deal costs leaves $50M equity | $1.5M, or 3× |
+| Strong sale | $110M enterprise value less the same $10M leaves $100M equity | $3M, or 6× |
+| Prolonged private | Contour reinvests available cash and the holder makes no eligible share sale within eight years | $0 |
 
-| Scenario | Proceeds bridge | Gross cash to holder |
-|-----------|-----------------|----------------------|
-| Modest sale | $50M enterprise value less $10M in deductions leaves $40M in distributable equity | $1.2M (2.4×) |
-| Strong sale | $110M enterprise value less $10M in deductions leaves $100M in distributable equity | $3.0M (6.0×) |
-| Prolonged private | Cash is reinvested through year eight, with no eligible share sale or funded payout | $0 realized |
-
-At the assumed deductions, the sale needs roughly $93.3 million in enterprise value. Even the strong case falls short at 2% ownership, yielding $2 million. The adjacent acquisition establishes buying activity. Its economics are unspecified, so it cannot establish a realizable price range for Contour. (Market & Traction)
+If the holder can sell only 80% of the stake within eight years, even the strong case delivers $2.4 million, or 4.8×. The adjacent acquisition supports the buyer rationale, but the memo provides no transaction prices or Contour operating economics to support a realizable range. Holder rights and closing conditions are also unverified, and the memo offers no evidence of an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A consolidator could buy practices directly and source overlapping technology from a vendor. The memo cites ERM’s partnership with Blumen for site-risk and permitting intelligence. If emissions-calculation errors create substantial staff rework, Cortex may add little to the cash earnings a buyer would acquire. Contour’s stated commitment to permanent ownership of acquired practices also leaves the founders’ willingness to sell the holding company uncertain. The memo establishes neither a structural block nor a credible proceeds range that falls materially short, so neither Pass gate is triggered. (Defensibility, Key Risks, The Idea)
+A consolidator can acquire practices directly, as True Environmental did, and source overlapping permitting capabilities through a vendor partnership, as ERM did with Blumen. Contour still has to show that Cortex produces savings after consultant review and rework. Its stated plan to hold acquired practices permanently also makes continued ownership and reinvestment plausible. These facts support Watch. The memo establishes neither a structural barrier to a sale of Contour nor a credible price ceiling that would trigger Pass. (Defensibility, Market & Traction, The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -37,4 +35,4 @@ A consolidator could buy practices directly and source overlapping technology fr
 
 ### Decisive diligence question
 
-Can Contour show a repeatable lift in cash earnings from Cortex at its first acquired practice, after staff review and rework? A closed acquisition with disclosed financing terms and before-and-after results across comparable permit files would answer it. Move to Reach out if those results support a credible buyer valuation that clears the holder’s cash hurdle after financing costs and dilution. If the results leave that valuation unsupported, stay at Watch.
+Can a financed first practice acquisition show that Cortex produces a repeatable earnings gain large enough to support a consolidator sale above the holder’s proceeds hurdle? Before-and-after job data that account for consultant review and rework, together with actual acquisition and integration costs, would let a prospective buyer test the economics at scale. A buyer-supported price range that clears the hurdle after debt, dilution, and holder terms would move the action to Reach out.

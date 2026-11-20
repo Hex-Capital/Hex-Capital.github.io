@@ -5,13 +5,15 @@
 
 ### Company case
 
-Assuming strong product-market fit among Egyptian travelers, Veeza’s strongest growth path is to use creator distribution and WhatsApp checkout to sell visa assistance, then reuse passport extraction and browser automation across visa routes. The memo documents a WhatsApp application and payment flow, and a paying customer reported using Veeza for a US visa application. The founder reported five figures in monthly USD cash revenue within 45 days of the batch start, and Keiki reported that revenue doubled after its integration. That supports a steep early commercial signal for a two-person team. The time from first paid availability, comparable revenue periods, and the effect of refunds remain unclear. (*The Idea*, *Market & Traction*, *Key Facts*)
+Even assuming strong product-market fit with Egyptian travelers, Veeza’s full-service workflow faces substantial adaptation abroad. Passport extraction and document checks are reusable, but delivering the same service in a new origin market would likely require rebuilding parts of the workflow around local visa centres, appointment portals, and document requirements. The current product’s reliance on Cairo booking and consulate-specific review supports that inference. The structural downside gate applies because the memo establishes no credible near-term path to transferring full service with bounded changes. (*The Idea*, *Defensibility*, *Key Risks*)
 
-The published fees are per application. Repeat trips could generate another sale, but the memo leaves recurring purchases and same-customer expansion unsubstantiated. In a full-price UK or US order scenario, incremental contribution starts with the EGP 4,000 service fee, less any refund and the attributable costs of acquisition, browser automation, expert review, corrections, and support. Government fees are listed separately. Automation could reduce handling time, while refunded orders can still consume labor and compute. The memo gives too little cost data to establish positive contribution. (*The Idea*, *Key Risks*)
+Founder-led content and creator collaborations bring applicants to a reusable WhatsApp intake and payment flow. Expert review and applicant corrections remain part of delivering full service. The founder reported reaching five figures in monthly cash revenue in USD within 45 days of the September 15 batch start, and the integration partner reported that revenue doubled after WhatsApp adoption. That is a strong early commercial signal for a two-person team. The batch start anchors the reported milestone, and the memo leaves the first paid availability date and comparable revenue periods uncertain. Published fees are one-time and per traveler. Repeat trips could generate new orders, but the memo shows no repeat purchasing or mechanism for sustained growth in spend from existing customers. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Facts*, *Key Risks*)
+
+Incremental contribution starts at the listed service fee of EGP 1,500 for France early access or EGP 4,000 for UK or US full service, with government and visa-centre fees itemized separately. Subtract any discount or refund and the attributable costs of acquisition, intake, browser-agent runs, expert review, and support. A fully refunded order retains zero service revenue while Veeza still bears any costs already incurred. Automated form filling and booking provide a concrete way to reduce handling costs, but the memo gives no review times, agent costs, or refund rates to establish positive contribution. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-The structural downside gate applies to geographic expansion. Passport extraction and WhatsApp intake can plausibly transfer, but the service customers pay for depends on local appointment inventory, destination-specific forms and document rules, and expert review before submission. The documented booking and tracking workflows center on Egypt. The memo records inquiries from abroad, which support demand, while the current dependencies imply substantial portal and workflow adaptation for a new origin market. The memo provides no credible near-term transfer path for the paid service. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Veeza could reuse document intake, browser automation, and WhatsApp payments across markets while configuring each new corridor. About 20% of reported support inquiries came from outside Egypt, and the integration partner reported that usage tripled after WhatsApp adoption. Those signals support demand beyond the initial market and a reusable intake channel. The structural gate still applies because the decisive work is completing a paid application through a different appointment and review workflow, and the memo shows no such transfer. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -19,12 +21,12 @@ The structural downside gate applies to geographic expansion. Passport extractio
 |-----------|-------|
 | Global buyer demand | 7/25 |
 | Repeatable acquisition and onboarding | 8/25 |
-| Retention economics | 3/20 |
+| Retention economics | 2/20 |
 | Initial traction | 16/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can Veeza complete a paid cohort for an existing destination from a new origin market using its current workflow with only bounded configuration? Completed applications, a record of the changes required, and review time and refunds per order would answer it. A cohort that demonstrates transfer with limited rework and a credible path to positive contribution would move the action to Watch.
+Can Veeza complete paid full-service applications in a representative non-Egypt origin market with a different booking workflow using the current product and only bounded configuration? A live rollout showing completed cases, limited setup work, and positive contribution after review, support, and refunds would lift the structural gate and change the action to Watch.

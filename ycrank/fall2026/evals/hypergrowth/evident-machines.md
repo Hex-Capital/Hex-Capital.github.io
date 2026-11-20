@@ -5,28 +5,26 @@
 
 ### Company case
 
-The strongest path is licensing a reusable library of physical electrical-engineering benchmarks and reinforcement-learning environments to frontier AI labs. The memo describes a San Francisco lab that captures instrument readings, expert workflows, and hardware failures. At the November 17 launch, the company reported that models averaged a 29.3% pass rate on 10 physical tasks they passed at 100% in simulation. The reported gap gives labs a reason to test on real hardware. The same evaluation job plausibly recurs across markets, and captured tasks and measurements could be reused, though the work required for another lab to run them remains unclear. (The Idea, Defensibility, Market & Traction)
+Conditional on strong product-market fit with frontier AI labs, Evident has a plausible path to serving the same recurring job across markets. Its benchmark captures instrument readings and physical failure modes that labs could use to evaluate successive model releases. A licensing scenario could let buyers reuse the same benchmark tasks, recorded traces, or training environments from a centralized bench. The memo leaves open how much integration or fresh experimentation each lab would need. A stable benchmark gives labs a reason to return for comparable results across releases. Recurring billing and account expansion remain unverified. (The Idea, Defensibility)
 
-Assuming strong product-market fit, labs could rerun the benchmarks as models change, creating a reason to keep using the library. Recurring billing and an expansion mechanism remain unproven. The public contributor call recruits task creators, while how labs buy, set up, and reach first value remains undocumented. The benchmark launch establishes a product milestone, while paid adoption and revenue status remain unknown. (The Idea, Market & Traction, Key Facts)
-
-In a licensing scenario, incremental contribution would be the next lab’s license revenue less attributable sales, setup, support, and any additional task authoring, operator time, or bench capacity. Reusing an existing library could spread task creation costs across buyers. License pricing and the amount of fresh bench work each buyer would require are unknown. (The Idea, Defensibility, Key Risks)
+The memo records the November 17 benchmark launch. Evident reports a 29.3% average hardware pass rate on ten tasks that models passed at 100% in simulation. That result supports the use case. The memo leaves revenue status and paid adoption unknown, so initial traction takes the default. The public contributor call recruits task authors. The memo gives no usable evidence of how labs discover, buy, or start using the product, so acquisition and onboarding also takes the default. (Market & Traction, Key Facts, The Idea)
 
 ### Countercase
 
-Labs may need evaluations tailored to their own equipment and workflows. Manual wiring, probe placement, and compensated task development could then make each contract require substantial new work. The memo also describes overlapping evaluation work that a model lab built with a hardware partner, giving buyers a credible substitute. The structural downside gate stays open because the memo establishes manual work per physical experiment, while the amount required per license remains unknown. (The Idea, Defensibility, Key Risks)
+Labs may need fresh physical runs for their own models and tasks. Under that scenario, each paid run or custom evaluation must cover the operator time for wiring and probe placement, any paid task development, and added bench capacity as volume grows. The documented hands-on workflow ties labor to new experiments, and the memo gives no measured throughput improvement or pricing to show that contribution improves with volume. Labs can also commission overlapping work from hardware partners, as the Diode collaboration illustrates. The structural downside gate remains open because the memo leaves a plausible path to selling reusable artifacts from the same bench work to multiple buyers. (The Idea, Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
+| Global buyer demand | 14/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention economics | 9/20 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 3/10 |
 
 **Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent frontier labs in different markets pay for and repeatedly run the same FrontierEE package with minimal onboarding and little buyer-specific bench work? Paid production use on standard terms, with documented setup and operator hours per account, would test that path. Move to Reach out if the evidence lifts the score to at least 65 with Medium or High confidence. Move to Pass if unavoidable per-lab bench work makes faster growth uneconomic.
+Can labs in different markets buy and onboard to the same prebuilt benchmark through a standard flow, then pay to use it again on a later model release? Paid repeat use with minimal founder effort and positive incremental contribution after bench labor and support would support moving to Reach out if the updated score reaches 65 with at least Medium confidence. Evidence that each buyer requires bespoke bench work at costs that make faster growth infeasible would move the action to Pass.

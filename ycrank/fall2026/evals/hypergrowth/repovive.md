@@ -5,15 +5,15 @@
 
 ### Company case
 
-Repovive’s strongest path is selling reusable Lean training and evaluation environments to AI lab post-training teams. Assuming strong fit with those teams, the same private tasks, machine-checked reference proofs, and reinforcement learning environments could serve labs across markets with limited geographic adaptation. The memo describes a common technical workflow. The amount of lab-specific integration remains uncertain. (The Idea)
+Assuming strong fit with AI lab post-training teams, Repovive’s most credible growth path is to sell the same Lean training and evaluation environments to multiple labs. Machine-checked proofs and packaged environments make the core product plausibly portable across markets. The documented acquisition path starts with founder introductions and samples by email. Purchase and onboarding appear human-led, and the amount of lab-specific setup is unknown. (The Idea)
 
-The documented sales path runs through founder introductions and samples requested by email. The samples give labs a reusable way to evaluate the product, while purchase and production setup remain unverified. Fresh private tasks could give labs a reason to buy again as they train and evaluate successive models. Repovive reports a competition community that could supply new tasks, but the memo establishes neither a dependable contribution pipeline nor renewal or expansion terms. (The Idea, Defensibility)
+Repovive reports $100K in signed contracts across two formalization environments around its November 16 launch announcement. That signals willingness to commit, while delivery, earned revenue, and commercial growth remain unverified. The separate $200K coding-data letter of intent adds no realized traction for the current product. (Market & Traction)
 
-Repovive reports $100K in signed contracts across two formalization environments around its November 16 launch, with a listed team of five. Delivery and earned revenue are unconfirmed, so the contracts show buying intent and traction stays at the absent-evidence default. The separate $200K letter of intent concerns broader coding data. Incremental contribution would depend on earned contract revenue after attributable selling, onboarding, task and proof production, compute, and support. Reusing an environment could spread production cost across labs, but contract values alone cannot establish that contribution. (Market & Traction, Key Facts, The Idea)
+Labs could return for fresh private tasks as they train and evaluate successive models. Recurring spend depends on Repovive replenishing those tasks and labs paying for refreshes. Neither is established. For each additional lab, the contract fee would need to cover attributable selling, environment setup, support, and any new task and proof production. Reusing environments and automating proof checks could improve contribution, but the memo gives too little information to estimate it. (The Idea, Defensibility)
 
 ### Countercase
 
-The two contracted environments could turn out to be bespoke projects. If each lab requires new task sets, proofs, and integration, delivery effort could rise with each sale. Open Lean resources and lab insourcing also give buyers alternatives, which could make repeat purchases harder to win. The structural downside gate stays open because the memo does not establish that bespoke work is unavoidable or that its cost makes faster growth infeasible. (The Idea, Defensibility, Key Risks)
+Labs could use open Lean tools or build in-house, leaving Repovive to win contracts by producing bespoke tasks and environments. If that work recurs for every lab, both expansion within accounts and contribution on new sales could be weak. The memo supports the availability of substitutes. Whether bespoke delivery is unavoidable remains open, so the structural downside gate does not apply. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -21,12 +21,12 @@ The two contracted environments could turn out to be bespoke projects. If each l
 |-----------|-------|
 | Global buyer demand | 19/25 |
 | Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 10/20 |
+| Retention economics | 9/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a new lab deploy an existing Lean environment with minimal Repovive help and then pay to expand its use? A production deployment, paid initial and expansion invoices, and positive contribution after attributable selling and delivery costs would support Reach out if the revised score reaches 65 and confidence rises to at least Medium. Evidence that every deployment requires economically prohibitive bespoke work with no credible improvement lever would trigger Pass.
+Can an independent lab buy, deploy, and pay for a refresh of the same Lean environment through a standard flow with minimal Repovive labor? A documented rollout with a paid refresh and positive contribution after acquisition, setup, content, and support costs would support Reach out if it raises the score to at least 65 and confidence to Medium or higher. Evidence that each lab requires bespoke work that makes incremental sales uneconomic, with no credible way to reduce it, would change the action to Pass.

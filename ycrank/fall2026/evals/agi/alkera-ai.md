@@ -1,30 +1,31 @@
 ﻿# Alkera AI -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest path. Alkera could make cross-system pipeline fixes affordable for small data teams that currently defer them because engineers must trace dependencies, verify business definitions, and check downstream dashboards by hand. Alkera documents column-level lineage, source-linked definitions, and sandbox testing. It reports an 83.28% DataAgentBench pass rate versus 68.49% for Claude Code over five runs with the same model. That comparison supports a reliability mechanism. The memo provides no baseline delivery cost or measured labor savings per successful production fix. (*The Idea*, *Defensibility*, *Key Risks*)
+Alkera’s strongest commercial case is helping data teams catch pipeline changes that would silently alter downstream dashboard figures. The company describes using column-level lineage, source-linked business definitions, and sandbox tests to check proposed edits. That workflow supports a case for safer data engineering. The memo identifies no scarce input that would constrain AI deployment as demand grows, so the building-blocks path scores zero. (The Idea, Defensibility)
 
-In that scenario, the relevant cost per successful fix includes engineer review and rework in the manual workflow, and integration upkeep, inference, sandbox compute, human approvals, and failed attempts with Alkera. Listed subscription prices provide a starting point for testing buyer economics. Launch views, Product Hunt placement, and GitHub stars show discovery, while payment and repeat use by target buyers remain unverified. The founders’ pipeline, agent tooling, and data infrastructure experience, together with the Databench release, support seed-stage execution. Production reliability and contribution per deployment remain open. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Risks*)
+The AI-enabled industry path also scores zero. Assuming the prior workflow requires engineers to trace dependencies and validate changes manually, Alkera could reduce review time. The memo establishes neither a buyer or workflow previously excluded by that cost nor a measured reduction in cost per safe production change. The documented integrations offer a modest basis for switching costs if teams accumulate verified definitions, though competing tools already offer overlapping capabilities and the memo provides no retention evidence. Launch attention provides no evidence of buyer commitments, and listed prices leave unit economics open. The shipped Databench release and the founders’ prior work on data pipelines, infrastructure, and agents support seed-stage execution. Dependable production delivery remains unverified. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-Alkera may make existing data engineering work more efficient while buyers continue to rely on tools they already use. Altimate offers warehouse connectors, dbt tests, and column lineage, and Snowflake offers native dbt development and catalog-aware SQL. Verified definitions could give teams a reason to stay, but the memo reports no retention, migration costs, or buyer preference under functional parity. Feature overlap weakens value capture and leaves the scarce-complement path unsupported. Whether buyers readily substitute at comparable reliability remains untested, so the New Economies path stays open on Watch. (*Defensibility*, *Key Risks*)
+Alkera could make routine fixes viable for teams that currently defer them because reviewing downstream effects takes too much engineer time. The company reports an 83.28% DataAgentBench pass rate versus 68.49% for Claude Code over five runs with the same model. That result suggests the surrounding workflow can improve task success under model parity. The benchmark leaves open how much supervision live changes require and how often disconnected systems hide downstream effects. It does not establish that a previously deferred use has become viable, so both paths remain at zero and the Pass gate applies. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will independent small data teams repeatedly pay for Alkera to complete pipeline fixes they previously deferred once a competing workflow offers comparable functionality? A paid production pilot that verifies downstream correctness, measures fully loaded cost per successful fix against the manual baseline, and records repeat purchases with the alternative available would answer it. Move to Reach out if lower costs unlock deferred work and teams still choose Alkera under parity. Move to Pass if the pilot shows the work was already economical or buyers readily switch at parity.
+Can a paying team use Alkera to make a class of production fixes it previously deferred because manual validation was too costly? A representative pilot would change the action to Reach out if it showed the team could reliably make those fixes within its budget for each successful change, including review, integration, and recovery costs, and that its existing tools using a comparably capable model could not deliver the same result within that budget.

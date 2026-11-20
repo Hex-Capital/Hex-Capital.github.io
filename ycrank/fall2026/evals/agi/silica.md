@@ -1,32 +1,33 @@
 ﻿# Silica -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Silica’s strongest AGI path is scarce complements. If robot-learning teams need reliable light-contact data at fleet scale, a drop-in joint that measures torque directly at the gearbox output could relieve a hardware bottleneck. The memo documents a public demonstration of integrated sensing. Silica reports paperclip-weight detection and says motor-current estimates miss light contacts on low-cost arms. The demo supports the sensing mechanism. Its effect on usable training data and its reliability under field conditions remain unverified. (The Idea, Defensibility, Key Risks)
+Silica’s supported path is supplying direct joint-torque sensing for low-cost robot arms that collect training data for contact-heavy tasks. The PRISM dataset shows that synchronized force and torque measurements are already used in robot-learning research. Silica has demonstrated gearbox-integrated sensing and claims that motor-current estimates miss light contacts, separate sensors can cost several times the actuator price, and its complete actuator can sell for under $500. If more training teams need to capture light contacts and existing alternatives are too costly to retrofit across their fleets, affordable direct sensing could become a constraint. The memo establishes the use case and a plausible design, while the cost and scarcity assumptions remain open. (The Idea, Defensibility, Market & Traction)
 
-- **Customer demand.** Silica reports more than 60,000 units requested in the first month. Quantity requests show early interest. The email-confirmation process leaves buyer identity, paid conversion, and repeat demand unverified. (Market & Traction, Key Risks)
-- **Team and execution.** Milletti’s product design work at Apple and automated equipment work at Artefact are relevant to building the actuator. The next execution gap for the solo founder is delivering customer units with consistent calibration and reliability. (Founders & Team, Key Facts, Key Risks)
-- **Scale economics.** The expansion unit is a qualified joint. If realized prices follow the founder’s under-$500 quote, manufacturing, calibration, yield losses, and warranty costs must fit below that price for positive unit contribution. The memo gives no production cost, yield, or tooling figures, so margins and capital needs remain open. (The Idea, Defensibility, Key Risks)
+The industry-enabled path scores zero. Silica’s proposed cost reduction comes from integrating a sensor into the gearbox. The memo gives no example of AI lowering the cost of a delivered outcome enough to open a previously excluded use. (The Idea)
+
+The retrofit design could lower integration work and give Silica some staying power after a robot maker qualifies the joint. The company reports requests for more than 60,000 units, with quantities subject to email confirmation and paid demand unverified. The public prototype and Milletti’s manufacturing engineering experience support early execution. The quoted price leaves unit economics open because the memo provides no production yield, calibration cost, or warranty data. (Defensibility, Market & Traction, Key Risks, Founders & Team, Key Facts)
 
 ### Countercase
 
-HEBI’s force-sensing modules, Synapticon’s custom joints, and Harmonic Drive’s sensor-integrated gears give robot makers existing routes to joint-level sensing. Silica’s retrofit design could earn a place in low-cost training arms, and qualification could create switching costs. Both advantages remain untested. The alternatives weaken the scarcity case, but their installed cost and performance on the same training arms remain unresolved, so the path stays open at Watch. The memo gives no evidence that lower labor cost per successful outcome opens a new market for Silica. (The Idea, Defensibility, Key Risks)
+Current-based sensing could be adequate for many training tasks, and buyers that need direct sensing already have options from HEBI and Synapticon. If those alternatives produce equally useful training data at a comparable installed cost, Silica’s light-contact sensitivity may have little procurement value. Published specifications are still design targets and reliability testing is underway. The mechanism is specific enough to warrant Watch, with buyer-level validation as the gate to Reach out. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 23/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 44/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent maker of low-cost training arms qualify a production-representative Q Series lot and place a paid follow-on order after comparing it with the best available substitute? Move to Reach out if the buyer records a sustained gain in usable light-contact data under normal operating conditions and reorders at a price that covers Silica’s measured per-joint costs. Move to Pass if the qualification shows that a readily available substitute delivers equivalent results at comparable or lower installed cost and the buyer selects it. (The Idea, Defensibility, Key Risks)
+Can a training-data customer qualify the Q Series on an existing low-cost arm because it captures task-relevant contacts more reliably at an acceptable installed cost? Move to Reach out if a customer-run comparison shows that production-intent units preserve the improvement over the incumbent across representative temperatures and repeated loading, and the customer commits to a paid trial on that basis. (The Idea, Key Risks)

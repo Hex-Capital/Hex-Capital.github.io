@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is Latent’s strongest path. For teams that sample checks today, full coverage with a second-model judge would require an additional model call on every answer or action. Latent’s in-process activation probe could make full coverage economical enough to bring a previously withheld agent workflow into production. Latent reports stopping 99% of rule-breaking agents versus 69% for a frontier judge in one self-hosted gpt-oss-120b sandbox. That supports the detection mechanism. Production latency, false holds, cost per correctly handled action, and whether a buyer would deploy a previously excluded workflow remain open. (The Idea, Key Risks)
+Latent’s supported AGI path is making a new frequency of safety screening viable for teams running self-hosted agents. Latent says the cost and latency of a second LLM judge force teams to sample outputs. The seed-stage case is that probing the serving model’s activations during generation could make it affordable to screen every proposed action in a high-stakes workflow and route flagged cases for review. Under model parity, deployment-specific calibration and policy enforcement would still have to be delivered. This case assumes the probe adds little enough latency and sends few enough cases to human review to stay within the buyer’s operating budget. (The Idea, Defensibility, Key Risks)
 
-The public launch and shipped Python SDK, together with the founder’s work on activation probes and LLM evaluation, support seed-stage execution. Posted plans and pilot offers establish commercial availability. The memo records no buyer commitment, paid deployment, or repeat usage. (Market & Traction, Founders & Team, The Idea, Key Facts)
+The memo records a public SDK launch and relevant founder experience in activation probes and LLM evaluation. Latent reports stopping 99% of rule-breaking agents versus 69% for a frontier judge in a gpt-oss-120b sandbox. That result supports testing the detector on live traffic. The memo provides no production cost or latency comparison, confirmed buyer trial, or paid deployment. Published plans establish asking prices, while the cost of serving and reviewing the next unit of traffic remains unknown. These gaps support Watch. (Market & Traction, Founders & Team, Key Risks, Key Facts)
 
-At full use of the Team plan, a scenario assumption, $1,499 per month implies about $1.50 in subscription revenue per 1,000 scored answers. Positive contribution at that volume requires Latent’s marginal scoring, calibration, and support costs to fit within that amount. The buyer’s cost per correctly handled action also depends on added serving compute and human review. Both cost bridges remain unmeasured, and configured spend caps can leave traffic unscored. (The Idea, Defensibility, Key Risks)
+The building-blocks path scores zero. The memo identifies cost and latency friction in runtime screening, but it does not establish that AI deployment depends on a scarce verification input whose supply or substitutes will be slow to scale. (The Idea, Market & Traction)
 
 ### Countercase
 
-Latent may improve guardrails for workflows that buyers can already deploy. Goodfire offers overlapping activation monitoring through Baseten, which weakens the case for a scarce complement Latent controls. Traffic-specific calibration could create switching costs, but customers can export labeled examples, and buyer preference at comparable performance remains untested. The evidence leaves both required New Economies conditions open: a newly viable use and a reason to keep paying Latent under parity. A paid production trial can test both, so the action is Watch. (The Idea, Defensibility, Market & Traction)
+Latent may make an existing guardrail workflow more efficient while leaving the same uses economically viable. Goodfire already offers activation-based monitoring with review and rerouting, so a buyer could obtain similar controls elsewhere. Latent’s per-deployment calibration could create switching costs, though customers can export labeled examples. The sandbox result leaves production false holds and review costs unresolved, and configured limits can leave traffic unscored. If a comparable guardrail can already provide full-traffic screening within the buyer’s budget and latency limits, the newly viable use disappears and the zero-path Pass gate applies. The memo leaves that question open. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 16/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 35/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer renew a paid Latent deployment for an agent workflow it previously withheld because full second-model review was too costly? Move to Reach out if a production trial shows a lower all-in cost per correctly handled action at comparable missed violations and false holds, and the buyer renews with a functionally comparable guardrail available.
+Can Latent win a paid production pilot with a self-hosted agent team that currently samples checks because full coverage exceeds its budget or latency limit? Move to Reach out if the pilot sustains full coverage on representative traffic and meets the buyer’s thresholds for missed violations, false holds, latency, and fully loaded cost per successfully screened action, including calibration and human review. Move to Pass if a comparable guardrail already meets those thresholds within the same budget. (The Idea, Defensibility, Key Risks)

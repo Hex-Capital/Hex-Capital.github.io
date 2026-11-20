@@ -5,28 +5,27 @@
 
 ### Company case
 
-**New Economies** is the strongest path. Rodeo says technician shortages cause repair shops to turn away work. The current delivery model uses technician time for inspection, diagnosis, and routine service. If Rodeo reduces technician time and all-in cost per successfully completed job, capacity-constrained shops could accept jobs they currently decline. Rodeo reports 96% autonomous execution time on its initial tasks. That measures time in autonomous operation, so the reduction in technician minutes and cost per completed job remains unknown. (The Idea, Defensibility)
+Rodeo’s supported path is making routine vehicle maintenance viable for jobs that technician-constrained shops would otherwise turn away. Rodeo says shops already decline work when they lack technicians. Its system combines AI-assisted diagnosis with physical service, such as oil changes, and hands exceptions back to technicians. Rodeo reports 96% autonomous execution time on initial tasks. The seed-stage inference is that, if technicians can use that time for other work, a shop could accept additional jobs at a viable cost. The reported metric leaves technician minutes and fully loaded cost per successful job unresolved. Even with comparable models, a shop would still need hardware that can service vehicles and a workflow for handling exceptions safely. (The Idea, Market & Traction, Key Risks)
 
-Under model parity, shops could still pay Rodeo for reliable physical service across vehicle configurations, including the hardware and technician handoff. Rodeo reports using custom hardware where needed. Its ability to deliver that integration more reliably or cheaply than alternatives remains untested. The memo records a reservation waitlist and a January 2027 deployment target without verified buyer commitments. The founders’ prior vehicle software and autonomy deployments support execution at this stage. (Defensibility, The Idea, Founders & Team)
-
-The unit of expansion is a shop installation. Its economics depend on completed jobs per bay and the cost per successful job, including equipment, installation, maintenance, supervision, interventions, and rework. A viable rollout would require enough paid work at each site to absorb those costs. The memo gives no pricing, utilization, or comparative job-cost data. (The Idea, Key Risks, Key Facts)
+The building-blocks path scores zero because Rodeo applies AI to vehicle maintenance and the memo identifies no scarce input it supplies to an AI workload. Custom hardware and integration across inspection, diagnosis, and service offer some basis for value capture, with durability still untested. The founders’ prior vehicle-software deployments and Rodeo’s reported initial-task results support a partial execution score. The shop waitlist and January 2027 deployment target establish recruitment activity, with buyer commitments and paid use unreported. Pricing, utilization, and delivery costs are also unreported, leaving scale economics at the default. (The Idea, Defensibility, Founders & Team, Market & Traction, Key Facts)
 
 ### Countercase
 
-Rodeo could automate parts of an existing service without making declined jobs economical. Technician standby, interventions, and rework across vehicle configurations could consume the expected savings. PitPro’s documented tire-changing deployment shows that shops can already buy automation for part of the workflow. Rodeo’s broader service coverage could still matter, but the memo leaves both market opening and durability under model parity unproven. That supports Watch while a field test is available. The scarce-complement path lacks independent evidence that Rodeo controls a durable bottleneck. (Key Risks, Market & Traction, Defensibility)
+Across a live shop’s vehicle mix, supervision, interventions, and rework could absorb enough technician time that the shop still turns away the same jobs. PitPro’s reported tire-service installation also shows that shops can buy automation for part of Rodeo’s proposed workflow, weakening the case that Rodeo’s integration will protect margins. The decisive gap is whether the system frees enough technician capacity at a viable cost to serve previously declined work. That supports Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 17/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 36/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent shops repeatedly pay Rodeo to complete jobs they previously turned away because of technician capacity? Move to **Reach out** if the first deployments show repeat paid use on those jobs, lower all-in cost per successful job against matched technician-only work, and buyer preference for Rodeo’s integrated physical service when alternatives have comparable model capabilities. Move to **Pass** if representative deployments show that supervision and rework erase the savings needed to serve those jobs.
+Can a first customer deployment repeatedly complete paid routine jobs the shop would otherwise decline at a fully loaded cost that leaves the shop a viable margin? Compare a representative set of jobs with the shop’s technician-only baseline, including technician time, equipment, downtime, and rework. Move to Reach out if the deployment clears that threshold. Pass if representative results show the robot fails to unlock additional work at a viable cost. (The Idea, Market & Traction, Key Risks)

@@ -5,28 +5,36 @@
 
 ### Company case
 
-Hopper’s strongest path is a strategic sale to a voice or inference platform. Its documented custom kernels, cache-aware routing, and customer-specific tuning could shorten the time a buyer needs to offer optimized serving across the voice pipeline. Deepgram’s announced acquisition of Daily shows strategic interest in adjacent voice infrastructure. Hopper’s case depends on demonstrating that owning its technology would deliver measurable savings or performance gains over building or partnering. (*The Idea*, *Defensibility*, *Key Risks*)
+Hopper’s strongest exit route is a strategic acquisition by a managed inference or voice infrastructure provider. The memo documents custom inference kernels and cache-aware routing, alongside a service that tunes open-weight models on authorized customer calls. Deepgram’s announced acquisition of Daily shows that a speech API provider sees value in owning adjacent voice infrastructure. A buyer could value Hopper’s tuning and serving stack if owning it measurably lowers the cost of running voice agents or improves call quality under load. The memo provides limited support for that economic advantage. (The Idea, Defensibility, Key Risks)
 
-The operating milestone is repeatable paid voice deployments that sustain low p95 latency through traffic bursts at a viable margin after GPU costs. Hopper’s CTO reports one signed customer in production and more than 10 billion tokens per day across the inference platform. The CTO also reports p95 latency rising from roughly 11 to 42 seconds under higher load on one deployment, with spare GPUs and customer-side overflow absorbing bursts. The capital and time needed to reach the milestone remain open. A software acquisition is plausible, with transfer of customer contracts, tuned models, and data rights still unverified. Hopper requires written customer consent to tune on production calls. (*Market & Traction*, *Key Risks*)
+The CTO reports one signed customer in production and more than 10 billion tokens per day across the inference platform. That gives Hopper a live setting to test whether its gains hold across paying voice deployments. The memo also records initial users spending less than $1 and a reported p95 latency increase from about 11 to 42 seconds under load. Repeatable gains at peak traffic are a concrete milestone, with the GPU spend and capital needed to reach it still unclear. A sale centered on Hopper’s software and team appears feasible at seed. Carrying customer-specific tuning into a sale would require diligence on contracts, data permissions, and retention terms. The memo provides no evidence of an independent liquidity route. (Market & Traction, Key Facts, Key Risks, Defensibility)
 
-The benchmark assumes a $500,000 check at $10 million post-money, 5% starting ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. In illustrative sales within that window, assume $10 million in combined net debt and deal deductions, no further senior claims, and an eligible holder selling the full stake for pro rata cash at closing. A **modest sale** at $60 million enterprise value leaves $50 million for equity and pays the holder $1.5 million (3×). A **strong sale** at $110 million leaves $100 million and pays $3 million (6×). If the holder can sell only half the stake in the strong case, closing cash falls to $1.5 million. In the **prolonged-private case**, reinvestment yields zero realized cash within eight years. The sale values are assumptions. The memo provides neither a supported purchase price range nor evidence of an independent payout route.
+With actual investor and deal terms unavailable, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity value at 3%. The following prices are illustrative assumptions. Both sale cases assume an all-cash close within eight years, an eligible holder selling the full stake, and a pro rata waterfall without senior preferences.
+
+| Scenario | Proceeds bridge | Gross cash to holder |
+|-----------|-----------------|----------------------|
+| Modest sale | $50 million enterprise value with no net debt or deal deductions | $1.5 million, or 3× |
+| Strong sale | $100 million enterprise value with no net debt or deal deductions | $3.0 million, or 6×. If net debt and deal deductions total $20 million, the holder receives $2.4 million, or 4.8×. |
+| Prolonged private | Hopper reinvests available cash and the holder receives no payout or eligible share purchase within eight years | $0 realized |
+
+The strong scenario clears the objective under favorable terms. The memo supplies no buyer economics, comparable deal price, or holder terms that support underwriting that outcome. (Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-A buyer can already assemble much of the stack. Daily documents self-hosting, Baseten offers managed deployment of open speech models, and Deepgram’s announced Daily deal gives it a route to bundle speech APIs and communications infrastructure. Hopper’s CTO reports that initial users spent under $1, leaving repeat paid demand uncertain. These facts weaken the case for paying an acquisition premium. They leave a specific gap for Watch because the memo establishes neither a structural closing block nor a credible ceiling below the holder’s proceeds hurdle. (*Defensibility*, *Market & Traction*, *Key Risks*, *Key Facts*)
+A buyer can already offer much of the stack without acquiring Hopper. Baseten offers co-located managed speech inference, Daily documents a self-hosted option, and Deepgram’s announced Daily acquisition would give it more of the stack in-house. Hopper’s reported burst latency and the need for written consent to tune on production calls weaken the case that its customer-specific work gives a buyer a durable advantage. These substitutes make the buy-versus-build case uncertain. The memo establishes neither a structural closing block nor a credible sale price that would leave the holder materially short, so the Pass gate does not trigger. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Would an identifiable strategic buyer value Hopper’s transferable technology highly enough to pay the benchmark holder $2.5 million in cash? A buyer-validated build-versus-buy analysis grounded in repeat paid deployments, measured peak-load performance, and GPU costs would answer it when paired with the applicable transfer and payout terms. A supported range that clears the hurdle would move the action to Reach out. A supported ceiling materially below it on the strongest route would move the action to Pass.
+Can Hopper demonstrate a repeatable reduction in cost per successful call at comparable quality and peak-load latency that would make buying Hopper more valuable to a strategic acquirer than extending its existing stack? Matched production results across paying voice customers, tied to buyer economics that support at least $83.3 million in distributable equity value under the benchmark, would move the action to Reach out. (The Idea, Defensibility, Market & Traction, Key Risks)

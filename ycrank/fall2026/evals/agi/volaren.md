@@ -1,32 +1,33 @@
 ﻿# Volaren -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Volaren’s strongest path. Its documentation describes an agent that reconciles activity across linked brokerages, explains portfolio moves, and turns an investment thesis into a proposed trade users can review by text. The prior workflow requires users to assemble account activity and market news themselves. The market-opening hypothesis is that investors who currently skip routine cross-broker reviews because of the time involved could start doing them regularly. The memo gives no baseline for that manual work or comparison of human time per accurate, actionable review, including time spent checking and correcting the agent’s output. (The Idea)
+Volaren’s strongest commercial case is a $12/month assistant for self-directed investors who already manage holdings across brokerages. The memo records a November 9 launch. Volaren’s documentation describes a workflow that links accounts, explains portfolio moves, and turns investment ideas into trades users can review by text. Volaren uses AI to deliver that workflow, and the memo identifies no scarce input it supplies to AI builders. The building-block path earns zero. (The Idea, Market & Traction)
 
-The memo records a November 9 launch and relevant founder experience in quantitative trading and portfolio research. Volaren claims more than 950 funds and retail traders in signup copy, without defining activity or payment. The $36 prepaid access offer establishes an asking price. The memo records no purchases or renewals. (Market & Traction, Founders & Team, The Idea)
+Volaren describes the current workflow as manually reconciling account activity with market news. AI could reduce the effort of explaining portfolio moves and preparing orders, but the memo identifies neither a buyer priced out of that outcome nor a frequency of use that crosses an economic threshold. The subscription price shows what Volaren charges. It gives no comparison of the cost per successful outcome, including review and error handling. The industry-enabled path also earns zero, triggering Pass. (The Idea, Key Risks)
 
-The expansion unit is a paid subscriber-month at $12. In a full-usage scenario, the 1,000-credit allowance leaves 1.2 cents of revenue per credit before broker connectivity, support, and costs incurred by free users. Contribution depends on actual usage, inference cost, and how often users need help with data or order exceptions. The memo provides pricing and allowances, while those operating inputs remain unknown. (The Idea, Key Risks)
+The launch and the founders’ quantitative trading and portfolio research experience support partial execution credit. Reliable real-money delivery remains unverified given conflicting order-approval disclosures, unresolved adviser registration, and broker-specific permissions. The claimed 950-plus funds and retail traders lack activity or payment criteria, and the $36 early-access offer has no reported uptake. The memo provides no usable buyer commitment or delivery cost data, so customer demand and scale economics stay at their defaults. Confidence is medium because the launch and documented workflow establish what is being offered, while paid usage and operating economics remain unverified. (Founders & Team, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Volaren may make an existing self-directed investing workflow faster without creating a newly viable use. Brokerages have a distribution advantage at the point of execution, and Robinhood’s embedded agent rollout shows competitive overlap. Saved rules and execution history could give users a reason to stay, but that is an inference. The memo shows neither preference at functional parity nor a network effect. Broker permissions constrain routing, with some integrations limited to tracking, so the memo also lacks an independently supported scarce-complement path. The overlap leaves the New Economies gate open for a test because comparable cross-broker functionality and customer switching remain unobserved. (The Idea, Defensibility, Key Risks)
+The strongest case is that retail investors with several brokerages could afford continuous, personalized portfolio monitoring and trade preparation if AI replaces enough manual analysis. That scenario assumes these investors previously went without the service because of cost or effort. Under model parity, linked account data, approval controls, and broker routing could still make Volaren a distinct product, and saved rules could make it harder to switch. The memo reports an embedded brokerage agent and shows that Volaren depends on third-party permissions for routing. It provides no retention evidence that saved rules or cross-broker coverage protect pricing. The scenario leaves the Pass gate in place. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 16/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will investors who previously skipped routine cross-broker reviews because of the time involved start reviewing regularly and renew Volaren at $12 per month when a comparably capable alternative is available? A paid cohort test should measure human time per accurate, actionable review, including corrections, against the prior manual workflow and track repeat use and renewal with the alternative available. A material time reduction that produces regular use and paid renewal would move the action to Reach out. Clear evidence that the time savings fail to unlock the use, or that buyers readily switch at parity, would move it to Pass.
+Can a paid cohort of multi-broker retail investors who previously went without frequent personalized portfolio monitoring because of cost or effort sustain that use through Volaren? Reach out if a cohort test shows repeat paid use, a lower fully loaded cost per successful review that includes human checks and error handling, and continued use of Volaren’s linked-account workflow when buyers have access to comparable AI.

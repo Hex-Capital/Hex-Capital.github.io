@@ -1,30 +1,31 @@
 ﻿# Foreshadow Industries -- AGI Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-New Economies is the strongest path. Foreshadow reports repeated overnight vessel demonstrations, which support the technical premise that retrofits could extend operations. The market-opening hypothesis is that a crew-constrained naval operator could run recurring long-duration missions it previously ruled out because of the crew hours and support required. The relevant test is whether the retrofit lowers labor and total cost per successful mission at the same completion standard, including installation amortization, remote supervision, and human intervention. The memo provides no comparative cost or staffing measurements. (The Idea, Market & Traction)
+Foreshadow has one supported AGI path. Retrofitting existing naval vessels could make repeated overnight missions viable where crews are too costly to staff at the required cadence and buying a purpose-built autonomous vessel is uneconomic. That exclusion is a scenario assumption. Foreshadow reports three vessel integrations and repeated overnight demonstrations, including simultaneous operation of two vessels. The demonstrations support the feasibility of operating retrofitted vessels overnight. They leave shore supervision, crew requirements, and cost per successful mission unmeasured. Even if buyers had access to equally capable models, they would still need vessel integration, qualification, and operational support. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Foreshadow’s three reported vessel integrations suggest that reusable integration and validation work could give buyers a reason to pay Foreshadow even when competing models are equally capable. Reuse, qualification, and buyer preference remain unverified. The separately reported simultaneous operation of two vessels supports seed-stage execution, with cross-platform reliability still open. A vessel is a plausible unit of expansion, but the memo leaves installation effort, ongoing support costs, and utilization unmeasured. The Navy’s move toward procurement after at-sea testing shows demand in an adjacent unmanned-vessel program. Foreshadow-specific buyer commitments and payments remain unverified. (Defensibility, Market & Traction, Key Risks, Key Facts)
+The building-block path scores zero because Zulu serves vessel operations and the memo identifies no AI deployment workload that depends on a scarce input Foreshadow supplies. For the retrofit business, the reported integrations suggest some platform integration know-how, while the overnight runs support seed-stage execution. Reuse across platforms and dependable delivery remain unverified. The Navy’s decision to procure purpose-built unmanned vessels establishes demand in the broader category. Buyer commitment to Foreshadow, paid deployments, and the economics of the next retrofit remain unverified, so customer demand and scale economics stay at their defaults. Confidence is low because the operating evidence is company-reported and the economic case still depends on buyer validation. (*Defensibility*, *Market & Traction*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-Zulu could improve missions naval operators already fund while competing with existing retrofit suppliers. Sea Machines sells vessel retrofit systems and is eligible for follow-on Navy production agreements, giving buyers a credible alternative. The memo leaves relative performance and switching costs unresolved. The evidence supports Watch because a comparative buyer trial could still establish both a newly viable use and a reason to choose Foreshadow. The memo identifies no independently supported scarce complement. (The Idea, Defensibility, Key Risks)
+Existing retrofit systems could already meet the same mission need at comparable cost. The memo identifies a competing retrofit supplier eligible for follow-on Navy procurement, while Foreshadow’s demonstrations leave open how much human supervision was required and whether the missions were previously uneconomic. This is enough to keep the action at **Watch**. The memo leaves open a credible path to lower delivery costs on existing vessels. (*Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 16/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent naval operator place a paid follow-on order for a recurring mission it previously ruled out on cost after comparing Foreshadow with a functionally comparable retrofit? Move to Reach out if the trial shows a material reduction in labor and total cost per successful mission against the crewed baseline, and the operator chooses Foreshadow for demonstrated integration or qualification advantages. Move to Pass if the trial shows the use remains uneconomic or the buyer treats qualified suppliers as interchangeable.
+Can a naval buyer validate that Zulu makes an overnight mission affordable at a cadence the buyer previously could not sustain? A funded pilot that meets the buyer’s reliability and cost thresholds against its best available alternative, counting crew time, shore supervision, integration, and recoveries per successful mission, would move the action to **Reach out**.

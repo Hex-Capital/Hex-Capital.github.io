@@ -5,36 +5,34 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a frontier AI lab seeking to bring Petrichor’s operating team and workflow in-house. Petrichor says its staff run experiments in parallel and return customer-owned training records. A buyer could pay to avoid building that capacity from scratch if owning the workflow offered a durable advantage over outsourcing. The November launch and YC backing are documented. The memo supplies no revenue, repeat-use, or measured customer benefit. (*The Idea*, *Market & Traction*, *Defensibility*, *Key Facts*)
+The strongest route is a strategic sale to a frontier AI lab that needs recurring experimental data. Petrichor launched its wet-lab service in November 2026 and has YC backing. The company says its staff run experiments in parallel and return step-by-step records that customers own. A buyer could acquire the team and workflow to secure capacity and shorten research cycles. That rationale depends on a measurable advantage over outsourcing. The memo documents launch attention, while paid repeat use, measured savings, and buyer interest remain unverified. A paid production pilot is a plausible seed-stage milestone. The budget, runway, and staffing needed to sustain it at higher volume are unknown. (*The Idea*, *Market & Traction*, *Defensibility*, *Key Risks*)
 
-A repeat paid production engagement with measured turnaround, cost, and reproducibility would give a buyer a basis for comparing ownership with outsourcing. The launch and the founders’ prior work evaluating AI on scientific measurements make that milestone plausible. The memo gives no funded production test or evidence of the capital and time needed to reach repeatable delivery. Customer ownership of training records limits the assets a buyer could count on acquiring. Transfer terms for the operating assets and any customer contracts are unverified. The memo supports no independent liquidity route. (*Founders & Team*, *Market & Traction*, *The Idea*, *Key Risks*)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3% ownership. Both sale scenarios below assume an all-cash closing within eight years, eligibility to sell the entire holding, and a pro rata payout after debt and deal deductions, with no senior claims reducing the holder’s share. Petrichor’s actual terms and a supportable sale price remain unknown. (*Key Facts*)
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, equivalent to about $83.3 million in distributable equity at 3%. The sale scenarios assume a full cash acquisition within eight years, $10 million in net debt and other deal adjustments, and an eligible holder selling the full diluted stake with a pro rata payout and no preference deductions or holdbacks. The prices and terms are illustrative. The memo gives no buyer economics or deal terms that support either price.
+| Scenario | Assumed proceeds bridge | Cash to holder |
+|---|---|---|
+| Modest sale | $40 million enterprise value less $5 million in net debt and deal deductions leaves $35 million in distributable equity | $1.05 million (2.1×) |
+| Strong sale | $100 million enterprise value less $10 million in net debt and deal deductions leaves $90 million in distributable equity | $2.7 million (5.4×) |
+| Prolonged private | The company reinvests available cash, with no eligible share purchase or funded payout within eight years | $0 |
 
-| Scenario | Proceeds bridge | Gross holder cash |
-|---|---|---:|
-| Modest sale | $40M enterprise value less $10M of adjustments leaves $30M in distributable equity | $900K (1.8×) |
-| Strong sale | $100M enterprise value less $10M of adjustments leaves $90M in distributable equity | $2.7M (5.4×) |
-| Prolonged private | The company reinvests available cash and the holder sells no shares within eight years | $0 (0×) |
-
-At 2% diluted ownership, the strong sale would yield $1.8 million (3.6×). Even at 3%, it clears the objective by only $200,000 before any holder-specific deductions.
+The strong case clears the hurdle by $200,000 under those assumptions, so senior claims or partial participation could erase the margin. Customer ownership of the records also makes the scope and assignability of customer contracts material to closing. The memo leaves those terms and any independent liquidity route unevidenced. (*The Idea*, *Key Facts*)
 
 ### Countercase
 
-A prospective buyer can already outsource the core work. Ginkgo reports that OpenAI uses its cloud lab for data generation, and the memo says Emerald Cloud Lab already captures structured experimental metadata. Petrichor’s staff-run model also raises throughput and reproducibility questions. These alternatives weaken the case for paying to own Petrichor. The memo establishes neither a structural deal block nor a credible price range that falls short of the holder’s objective, so the Pass gate does not trigger. (*Market & Traction*, *Defensibility*, *Key Risks*)
+A frontier lab can outsource the work without buying Petrichor. Ginkgo reports that OpenAI already uses its cloud lab, and Emerald captures structured experimental metadata. Petrichor’s staff-run model could also lose its claimed speed advantage as volume grows. This weakens the case for an acquisition premium. The evidence supports Watch because it leaves open whether Petrichor can demonstrate a durable advantage worth owning. It establishes neither a structural closing block nor a supported sale-price ceiling below the proceeds hurdle. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 7/30 |
+| Counterparty rationale or source of cash | 10/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 7/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 30/100** (Pass)
+**Total Score: 32/100** (Pass)
 
 ### Decisive diligence question
 
-Would a frontier AI lab that renews a paid production engagement validate a build-versus-buy case for acquiring Petrichor at a price that could leave at least $83.3 million in distributable equity? A renewal with measured gains over the lab’s existing option and buyer-validated economics that support that price would move the action to Reach out. A renewal alone would keep it at Watch.
+Would a frontier AI lab renew a paid production pilot after measuring Petrichor against its current provider? A renewal backed by sustained turnaround gains at comparable quality and a buyer-side estimate of savings or capacity value large enough to support the acquisition hurdle would move the action to Reach out. Without that evidence, Watch remains appropriate.

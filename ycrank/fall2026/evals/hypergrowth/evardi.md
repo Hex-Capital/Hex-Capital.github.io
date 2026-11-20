@@ -5,26 +5,28 @@
 
 ### Company case
 
-Evardi’s strongest hypergrowth path is to start with transformer-level load modeling for distribution utility planning teams, then sell switching checks on the same model. Assuming strong initial product-market fit, the recurring planning job and the model’s use of meter, billing, GIS, and SCADA data make the core workflow plausibly portable. How much work each utility’s data and topology require remains unclear. The model gives utilities a reason to keep using the product as loads and network configurations change. Switching checks offer a plausible expansion path, with recurring fees and expansion pricing still unknown. (The Idea; Defensibility)
+Assuming strong product-market fit with distribution utilities, Evardi’s power-flow modeling could serve the same recurring job in other markets. The product combines SCADA, meter, billing, and GIS data to estimate transformer loads and check switching orders. The modeling engine looks reusable. Each utility’s topology, data mappings, operating limits, and approval workflow still have to be accommodated, and the memo leaves open how much of that work can be handled through configuration. Evardi’s demo-led intake, separate written platform agreement, and earlier offer to model part of a utility’s network support a repeatable, high-touch acquisition path. (The Idea, Defensibility, Key Risks)
 
-Evardi reports deployments at utilities serving more than 10 million electricity customers. That figure measures those utilities’ service footprint. The November launch dates the public rollout, while paid use and its growth rate remain unknown. The published performance results come from simulations on public data, leaving commercial traction and live field performance unresolved. (Market & Traction; Key Facts; Key Risks)
+Hourly load estimates and recurring switching reviews give utilities a reason to keep using the product. Validated mappings and approved switching histories could deepen that dependency over time. Recurring contract fees and expansion across a utility’s network are plausible scenarios. The memo gives no billing terms or evidence that a utility pays more as its deployment grows. (The Idea, Defensibility, Key Facts)
+
+Evardi reports deployments at utilities serving more than 10 million electricity customers across more than 180,000 line miles. Those figures describe the utilities’ footprint. The published performance results come from simulations, and the memo leaves paid production use and commercial growth unverified. If Evardi charges an annual software fee, the contribution from the next utility would depend on that fee relative to the attributable sales, integration, model validation, hosting, and support costs. Reusable data mappings and validation tools could lower deployment costs, but the memo gives no price or deployment effort with which to estimate contribution. (Market & Traction, Key Risks, The Idea, Key Facts)
 
 ### Countercase
 
-The documented sales path runs through CEO outreach, demos, and a separate written agreement. Each deployment needs a utility-specific model, and switching checks depend on local operating limits and operator approval. If Evardi charges per utility, the incremental fee would need to cover sales effort, data integration, model validation, hosting, and support. Automated meter-to-transformer mapping could reduce setup labor, but the memo gives no deployment cost or pricing figures to size that benefit. The structural gate stays open because the documented dependencies establish friction while leaving room for reusable implementation and bounded adaptation across markets. (The Idea; Defensibility; Key Risks)
+Even with strong initial fit, safety-critical switching could make each sale a bespoke implementation. Evardi drafts orders from utility-specific topology and prior orders, checks each step against local operating limits, and requires operator review and supervisor sign-off. Security review could add further work. The structural downside gate stays open because the documented dependencies could be handled through configuration and utility-side approvals. The memo does not establish substantial rebuilding by market or unavoidable vendor work that makes growth economically infeasible. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Evardi bring a series of paying utilities in distinct markets live on the same transformer-modeling product with limited implementation labor? Dated go-lives, recurring fees, and Evardi’s setup and support hours would show whether paid adoption is accelerating at positive incremental contribution. That would support Reach out if the updated score clears 65 with at least Medium confidence. Evidence that each rollout requires substantial bespoke rebuilding with no credible way to reduce it would trigger Pass.
+Can a utility in a new market reach paid production switching on the same core product through bounded configuration? A live rollout with different source systems and operating rules should document the changes required, vendor hours, and recurring fees relative to incremental costs. Evidence of reusable onboarding and positive contribution would support rescoring for Reach out if the score reaches 65 and confidence reaches at least Medium. Evidence that entering the market requires substantial bespoke rebuilding with no credible standardization path would change the action to Pass.

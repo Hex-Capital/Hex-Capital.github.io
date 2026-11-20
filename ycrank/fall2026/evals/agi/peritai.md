@@ -5,28 +5,29 @@
 
 ### Company case
 
-**Scarce complements** is Perit’s strongest AGI path. Perit says static test sets miss failures that surface when voice agents handle live interruptions, accents, and background noise. It reports delivering more than 6,000 speech hours across nine locales. The investment case is that wider deployment of live voice agents increases demand for consented, locale-specific test data that labs can use to reproduce those failures. Whether Perit’s data exposes more consequential failures than a lab’s best alternative remains untested in the memo. (The Idea, Market & Traction)
+Perit has a plausible building-blocks path in frontier voice-agent evaluation. The memo records the release of an API that can listen and speak simultaneously. Perit says static test sets miss failures that surface during live interruptions, across accents, and on noisy calls. It recruits practitioners by sector and locale and delivers their recordings and evaluations with QA reports, consent references, and reviewer histories. If labs rerun these tests across model releases and locales, demand for fresh, qualified interactions could grow. Recruiting, securing consent, and calibrating reviewers could slow equivalent supply. The memo leaves buyer wait times and the performance of substitutes unverified, making scarcity the decisive gap. (The Idea, Market & Traction)
 
-The memo documents Perit’s Foundry workspace for reviewer calibration and batch QA, along with separate pricing for exclusive rights. Those practices give Perit some control over delivery. Durable capture depends on whether it can retain qualified contributors and whether labs prefer its output when they have alternatives. The CEO reports six lab customers, and the memo records multimillion-dollar contracts and two unreconciled revenue disclosures of $9M+ and $11M+ over 4.5 months. These are meaningful demand signals at this stage. Paid renewals specifically for live speech remain unverified. (Defensibility, The Idea, Market & Traction, Key Risks, Key Facts)
+The industry-enabled path scores zero. Perit sells expert-collected data and evaluation to existing AI labs. The memo identifies no buyer or use that AI makes newly affordable by reducing the labor cost per successful outcome. (The Idea, Market & Traction)
 
-The founders’ localization and data-quality experience, together with Perit’s reported output of 50 audio hours per working day and 95%+ accuracy on QA samples, support execution. In a repeat-program scenario, the relevant scale metric is contribution per buyer-accepted audio hour after contributor pay, review, rework, and consent handling. Perit quotes by delivery unit and itemizes contributor pay. Realized contribution and repeat order volumes remain unknown. (Founders & Team, Market & Traction, The Idea, Key Risks)
+Perit’s Foundry workspace gives it a way to standardize reviewer calibration and batch QA. That supports some operating advantage, with roster retention and exclusivity still unverified. The CEO reports six lab customers, and the memo cites disclosed multimillion-dollar contracts. The two reported revenue figures for the same 4.5-month period remain unreconciled, and repeat purchasing is unverified. The public duplex dataset demonstrates shipment, while the founders’ localization and data-quality experience supports execution. Dependable QA at higher throughput remains unproven. Perit quotes by delivery unit and itemizes contributor pay, but the memo lacks the realized price, review costs, and rejection rates needed to estimate contribution on the next accepted audio hour. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts, The Idea)
 
 ### Countercase
 
-Perit could be a capable services vendor whose labs can rebid each program. Default licenses are non-exclusive, contributor retention and exclusivity are unverified, and competitors already offer overlapping robotics capture and reinforcement-learning environments. The reported six-lab customer base also makes renewal decisions material. Confirmed easy substitution for live speech would close the scarce-complements path. The memo leaves that gate unresolved and supplies no independent evidence of a newly viable market opened by lower labor costs. (Defensibility, Market & Traction, Key Risks)
+Labs could be buying outsourced collection and QA from a competitive supplier market. The memo documents overlapping offerings in workflow evaluation, robotics capture, and RL environments. Perit’s default non-exclusive licensing also limits how much scarcity can come from dataset ownership. These signals warrant Watch. If a lab can obtain equivalent live voice evaluations on comparable timelines and terms, the building-blocks path would lose its support and the two-zero Pass gate would apply. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 15/25 |
-| Durable value capture | 10/25 |
-| Customer demand | 14/20 |
-| Team and execution | 12/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 19/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 58/100** (Neutral)
+**Total Score: 45/150** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent lab renew a live-speech program with Perit at a price that covers direct delivery costs after testing its best alternative? A documented paid renewal backed by a head-to-head result showing that Perit surfaced material failures the alternative missed would move the action to Reach out. A comparable result followed by an easy switch would close the path and move the action to Pass.
+Can a lab show that it repeatedly paid Perit for live voice evaluations that its best available alternative could not deliver at the required quality and cadence? Buyer-confirmed acceptance and procurement records across two model releases, with the alternative assessed against the same requirements, would move the action to Reach out if they showed a recurring supply constraint. Evidence of readily available equivalent supply would move it to Pass.

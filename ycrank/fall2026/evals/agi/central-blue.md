@@ -1,30 +1,33 @@
 ﻿# Central Blue -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-**Scarce complements** is the strongest path. Central Blue says onboard batteries constrain imaging and electric propulsion during eclipse. If AI workloads increase spacecraft power requirements beyond what operators can meet economically with onboard power, dependable delivery during eclipse could become a scarce service. The memo gives a specific physical mechanism, but it does not establish that AI demand is increasing the constraint. Central Blue reports a nearly complete prototype and a planned ground propulsion demonstration with Wave Motion. That is a concrete development step. The memo records no completed Central Blue power delivery test or buyer commitment. The founders’ spacecraft navigation and aerospace testing experience is relevant to that next step. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Central Blue proposes to serve imaging and electric propulsion spacecraft that rely on stored power during eclipse. Its HELION satellites would beam power to dedicated customer receivers. The memo identifies no AI workload whose deployment is constrained by orbital power and gives no evidence that AI deployment would increase demand for this specific input. Building blocks of superintelligence scores zero. (The Idea)
 
-Central Blue’s integrated receiver and CORE software could help it qualify and operate a reliable delivery service. That advantage remains an inference while flight validation is unclear and control over operating capacity is unproven. If HELION meets its stated target of 10 kW at the customer bus for four to five hours, it would deliver 40–50 kWh per full discharge. The relevant expansion unit is a power node serving compatible customer spacecraft. The memo provides no basis for estimating paid utilization or whether contract revenue would cover spacecraft, launch, and operating costs. (Defensibility, Key Risks)
+Central Blue describes CORE as handling fault detection and planned power-delivery handoffs. The memo leaves CORE’s flight validation unresolved and provides no comparison of operator labor, delivery reliability, or cost per successful delivery with and without CORE. The satellite and receiver would still be needed if buyers had access to equally capable models, but the memo does not establish that AI makes a previously uneconomic mission viable. Industry enabled by superintelligence scores zero. Together, the two zero scores trigger Pass. (The Idea, Key Risks)
+
+For the commercial case, the planned HELION and CORE integration gives Central Blue a specific design, with limited evidence of an operating advantage. The memo reports that Star Catcher demonstrated orbital acquisition and tracking and describes its receiver design using standard solar panels, a credible alternative to Central Blue’s dedicated receiver. The announced Wave Motion ground demonstration is a defined trial, with paid demand and conversion still open. The founders’ spacecraft navigation and aerospace testing work supports early execution credit, while the company reports its Seattle prototype as nearly complete. HELION’s 10 kW delivery target is a company specification, and the memo supplies no price or cost bridge for adding qualified delivery capacity. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Star Catcher reports orbital acquisition and tracking and uses standard solar panels for its prototype receiver. If that architecture meets the same mission requirements, Central Blue’s dedicated receiver could add integration work without earning a premium. Tracking alone leaves delivered power and substitutability unresolved, so the evidence does not close the scarce-complement path. CORE offers no independently supported New Economies path. The memo gives neither a comparative labor cost per successful outcome nor a previously excluded buyer or use. (Defensibility, Market & Traction, Key Risks)
+The strongest case for outreach is that autonomous fault handling and handoffs could reduce specialist supervision enough to make routine eclipse imaging affordable for an operator that currently limits imaging to conserve battery power. That scenario assumes the beam can meet the spacecraft’s power needs and that supervision savings can cover receiver integration and delivery costs. The described design makes that scenario plausible, but the planned ground propulsion demonstration cannot establish either assumption. The Pass gate holds. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 5/20 |
+| Customer demand | 5/15 |
+| Team and execution | 4/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 16/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent satellite operator commit to a paid qualification trial for an AI-driven eclipse power requirement that onboard storage and standard-panel alternatives cannot meet on acceptable terms? A signed agreement with a price and a measurable power-at-the-bus acceptance threshold, backed by the operator’s comparison of alternatives, would move the action to Reach out.
+Can a representative orbital trial show that CORE reduces specialist supervision enough to bring the fully loaded cost of a successful eclipse-imaging session below an operator’s budget for a use it previously ruled out? A comparison with the operator’s current delivery model that includes receiver integration and failed deliveries, and isolates CORE’s effect on supervision, would move the action to Reach out.

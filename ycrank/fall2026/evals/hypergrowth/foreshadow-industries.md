@@ -5,28 +5,28 @@
 
 ### Company case
 
-Foreshadow’s strongest Hypergrowth path is to standardize Zulu as a retrofit for existing naval fleets. Assuming strong fit with the initial operator, the same autonomy software could serve comparable fleets abroad, and a buyer could expand from an initial vessel to more of its fleet. Foreshadow reports integrations on three military vessels and repeated overnight demonstrations, including simultaneous operation on two. That supports reuse within the naval segment. The engineering required for each integration and the ability to qualify the same package with another navy remain unknown. (The Idea, Defensibility, Market & Traction, Key Risks)
+Assuming strong initial product-market fit, Foreshadow’s most plausible growth path is to sell the same Zulu retrofit to naval operators running repeated extended missions. Foreshadow reports integrations on three military vessels and repeated overnight demonstrations, including simultaneous operation on two vessels. That supports portability across multiple vessels. Comparable operators abroad could have the same recurring job, but the extent of market-specific adaptation is unclear. The company’s claim that one model serves other vehicle classes remains unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Long-duration operations give fleets a recurring reason to use an installed system. Annual licensing priced per vessel could turn fleet expansion into recurring revenue growth, but licensing and pricing are scenario assumptions. The founder’s defense-event appearance shows access to a potential buyer audience. The memo gives no evidence of a standard purchase or deployment process. It also leaves payment status and launch timing undisclosed, so the demonstrations establish technical progress and leave commercial traction at the default. (The Idea, Market & Traction, Key Risks, Key Facts)
+The memo documents a founder presentation at a defense industry event, a plausible route to buyer introductions. The demonstrated path to first use involved vessel integration, while the memo establishes neither a repeatable purchase process nor a standard setup a buyer can complete independently. The reported demonstrations show technical progress. Payment status and commercial launch timing are unknown, so there is no usable commercial growth rate. Repeated demonstrations also leave paid renewal and expansion within an account unestablished. (The Idea, Market & Traction, Key Risks, Key Facts)
 
-In a per-vessel licensing scenario, incremental contribution would be license and integration revenue less attributable selling, integration labor, qualification, any hardware Foreshadow supplies, and ongoing support. Reusing integration and validation work could reduce the cost of the next deployment. The memo provides no prices or measured delivery costs to establish how much. (The Idea, Defensibility, Key Risks)
+In a licensing-plus-integration scenario, incremental contribution would be the revenue from the next vessel less attributable sales, installation, validation, and support costs. Reuse of prior integration work could improve contribution. Pricing, labor per vessel, and the extent of reuse remain unverified, leaving both contribution and the strength of the scaling path uncertain. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-Each vessel class could require enough fresh engineering and testing to keep sales and deployment high-touch, with qualification repeated for each navy. The memo’s closest procurement evidence is a separate Navy program that used at-sea testing to select suppliers for production agreements. Foreshadow’s reported demonstrations leave the conversion to orders and the amount of reusable work unresolved. The structural downside gate stays open because the memo does not establish that substantial rebuilding or uneconomic delivery costs are unavoidable. Those gaps keep confidence Low. (Market & Traction, Key Risks)
+Foreshadow could face a fresh engineering and qualification project for each fleet. Its reported integrations and the separate Navy procurement example make that risk credible. If substantial market-specific rebuilding were required, or if unavoidable deployment labor made incremental sales uneconomic, the structural downside gate would apply. The memo leaves the extent and cost of that work unresolved, so the gate stays open. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 5/25 |
-| Retention economics | 8/20 |
+| Repeatable acquisition and onboarding | 4/25 |
+| Retention economics | 7/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second navy qualify and buy the same Zulu package for multiple vessels with limited new engineering and positive contribution per vessel? A paid production order, qualification records, and actual deployment costs would answer it. A successful rollout would justify rescoring for Reach out if the updated evidence clears the score and confidence thresholds. Evidence that each market requires substantial rebuilding with no credible way to reuse the work would change the action to Pass.
+Can a naval buyer in a second market make a paid follow-on deployment across several vessels using substantially the same retrofit and qualification work, with positive contribution after sales, integration, validation, and support? A paid follow-on order and deployment records would test that path. Move to Reach out if the evidence lifts the score to at least 65 with Medium or High confidence. Move to Pass if it shows substantial market-by-market rebuilding or unavoidable delivery costs that make faster growth economically infeasible.

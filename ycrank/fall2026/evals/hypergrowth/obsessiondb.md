@@ -5,28 +5,32 @@
 
 ### Company case
 
-The strongest path is selling managed ClickHouse to data teams that serve live APIs or analyze agent traces. Conditional on strong product-market fit, native ClickHouse SQL and client interfaces let teams in different markets use substantially the same product for the same recurring job. The documented self-serve clusters and free developer tier give developers a way to try it independently. The memo leaves open how often those developers can enable billing and move a production workload without founder help. (The Idea, Defensibility, Key Risks)
+Assuming strong product-market fit with data teams serving live APIs and querying agent traces, ObsessionDB has a credible path to global demand. Its documented ClickHouse SQL and client interfaces let teams in different markets use the same warehouse for the same recurring job. Certification requirements can block some enterprise buyers, and certain ClickHouse workflows need migration changes. Those constraints narrow the reachable segment. (The Idea, Defensibility, Key Risks)
 
-Live APIs and growing trace stores create ongoing demand for compute and storage, which ObsessionDB meters separately. Retained customers can spend more as their datasets grow or they add compute groups. That gives expansion a plausible way to offset churn, though its magnitude is uncertain. By October, the CEO reported paying production customers following the January managed-product announcement. Osmosis reported 13 million API requests in a recent 30-day window, which shows meaningful production use. For the five-person team listed in the memo, these are credible early traction signals, with the pace of paid growth still unclear. (ObsessionDB, The Idea, Market & Traction)
+Self-serve clusters and a free developer tier give teams a way to start independently using familiar clients. The company also offers founder sales calls, cost audits, and hands-on production migrations. The evidence supports independent evaluation, while the path an ordinary buyer takes from trial to paid production remains uncertain. (The Idea, Key Risks)
 
-At the published example price of $4,090 per month, a comparable cluster contributes positively if that revenue exceeds its compute, object storage, NVMe cache, and attributable acquisition, migration, and support costs. Shared storage gives ObsessionDB a way to add compute without duplicating durable table data. Actual contribution remains uncertain across workloads with different cache needs and levels of migration effort. (The Idea, Key Facts, Key Risks)
+Retention could compound as customers retain more data or add compute for ingestion, dashboards, and agents. Managed pricing meters compute and compressed storage separately, so growing workloads can raise recurring bills. That gives expansion room to offset churn, though customers can also scale compute down and the memo provides no observed same-account revenue trajectory. (The Idea)
+
+The company reported paying production customers and petabytes processed monthly in October. Osmosis reported 13 million API requests in the 30 days through October 28 after its September migration, corroborating production use. That is meaningful early uptake for a company listed at five people. The January managed-product announcement and October repositioning give context, while the date of first paid availability and the pace of revenue or paying-customer growth remain unclear. (ObsessionDB, Market & Traction)
+
+In an illustrative managed-cloud scenario, the published $4,090 monthly configuration provides the revenue side of the contribution calculation. The costs to subtract include compute, NVMe cache, object storage and requests, network traffic, support, and the attributable cost of winning and migrating the account. Shared storage and independently sized compute groups could improve contribution if the resource savings exceed any reduction in billed usage. Cache misses and prewarming make the result workload-sensitive, and the memo gives no provider-side costs to establish positive contribution. The concrete product and billing mechanisms support outreach, with Medium confidence given the uncertainty around production onboarding and contribution. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-The production path may depend on founder-led cost audits and hands-on migrations. Some workloads need changes to snapshot or coordination workflows, cold-cache performance can weaken the value proposition, and certification requirements may block some enterprise buyers. ClickHouse Cloud already offers isolated compute over shared storage. The structural downside gate clears because the documented migration dependencies affect specific workflows and the compatible segment has a credible self-serve entry point. The commercial uncertainty is whether that segment can routinely reach paid production with little help. (The Idea, Key Risks)
+The strongest countercase is that developers can start a cluster independently, but reaching paid production routinely requires founder-led migrations and ongoing tuning. Documented compatibility changes and cache-miss latency make that plausible, while ClickHouse Cloud’s overlapping architecture and agent offering give buyers an alternative. The structural downside gate stays open because the memo shows a reusable path to first use and leaves the frequency and cost of production assistance unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 21/25 |
-| Repeatable acquisition and onboarding | 13/25 |
-| Retention economics | 16/20 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 17/20 |
 | Initial traction | 11/20 |
 | Cost economics | 6/10 |
 
-**Total Score: 67/100** (Invest)
+**Total Score: 71/100** (Invest)
 
 ### Decisive diligence question
 
-Can a representative group of compatible managed-cloud buyers reach recurring paid production through self-service with positive incremental contribution? Recent customer journeys from signup through the first recurring bills, paired with infrastructure costs and staff time, would answer it. Repeatable, profitable activation would sustain Reach out. Routine founder-led migration or weak contribution would move the action to Watch.
+Can a typical managed-cloud buyer go from self-serve trial to a paid production workload with only routine support? Review a recent group of trial accounts, including those that stalled, for billing activation, time to production, and staff hours spent on migration. If paid production routinely requires hands-on migration, move to Watch until a repeatable customer-led path is demonstrated.

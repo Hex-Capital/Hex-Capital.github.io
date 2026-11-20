@@ -5,36 +5,34 @@
 
 ### Company case
 
-The strongest route is a strategic sale to an industrial CAD platform such as Autodesk. Plant 3D validates P&IDs against project models. Verno describes a workflow that writes approved changes back to native CAD files and reconciles related documents. Verno reports finding three conflicting design pressures for one tank in documents already issued for construction. That incident illustrates a reason for a CAD platform to own cross-document change control. The frequency of such discrepancies, the savings from catching them, and the buyer’s willingness to pay remain unmeasured. (The Idea, Defensibility, Market & Traction)
+The strongest supported route is a strategic acquisition by an industrial design software vendor such as Autodesk. Verno documents native DWG/DXF write-back, updates to customer Excel templates, and revision histories tied to engineer approvals. Autodesk Plant 3D validates drawings against models within the CAD project. Owning Verno could extend that workflow to downstream documents. Verno reports finding three conflicting design pressures for one tank in documents already issued for construction. That illustrates the problem a buyer could address, while the value of owning the product remains unmeasured. (The Idea, Defensibility, Market & Traction)
 
-A plausible seed-stage milestone is to convert the reported pilot activity into paid production use at two independent EPCs within 12–18 months, an underwriting assumption. Customer-verified reductions in reconciliation time and error rates would show whether the workflow delivers repeatable value. Reported live sites and a recorded $125K seed entry give Verno a starting point, while the rollout budget and runway remain unknown. The software is a plausible acquisition asset. Single-tenant deployments and customer approval of processing locations make contract assignment and any post-close hosting changes diligence items. IP ownership and change-of-control rights remain unverified. (The Idea, Market & Traction, Key Risks)
+Verno reports an active pilot, and YC reports live customer sites. That gives Verno a starting point for converting pilots into repeat paid deployments that demonstrate reliable cross-file edits and measurable reductions in rework. The memo records a seed funding entry, while pilot economics, rollout costs, and runway remain unknown. Customer-specific CAD compatibility and approval of processing locations could add deployment work. IP transfer rights and any required customer consents are unverified. (Market & Traction, Key Facts, Key Risks)
 
-**Proceeds bridge.** The shared benchmark assumes a $500K check at a $10M post-money valuation, diluted from 5% to 3% with no follow-ons. The holder needs $2.5M in cash within eight years, which requires about $83.3M in distributable equity at 3%. The sale scenarios assume the holder can sell the entire stake for cash within that window, with zero net debt, deal deductions, or senior claims unless specified.
+With actual holder terms unavailable, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million, or about $83.3 million in distributable equity at 3% pro rata ownership. The sale scenarios assume a full cash acquisition within eight years, participation for all of the holder’s shares, and a pro rata waterfall. Debt, senior claims, and deal adjustments can reduce the cash the holder receives.
 
-| Scenario | Holder cash within eight years |
-|----------|--------------------------------|
-| Modest sale at $50M enterprise value | $1.5M, or 3.0× |
-| Strong sale at $100M enterprise value | $3.0M, or 6.0×. If debt, deal deductions, and senior payouts absorb $20M before the pro rata distribution, holder cash falls to $2.4M, or 4.8×. |
-| Prolonged private operation with cash reinvested | $0 realized. The memo leaves secondary eligibility, share demand, and payout capacity unevidenced. |
+- **Modest sale.** At an illustrative $50 million enterprise value, zero deductions leave $50 million in distributable equity and $1.5 million to the holder.
+- **Strong sale.** At an illustrative $100 million enterprise value, zero deductions yield $3 million to the holder. A $20 million reduction before the pro rata distribution leaves $80 million and pays the holder $2.4 million, below the objective.
+- **Prolonged private.** Continued operation with cash reinvested yields zero realized proceeds within eight years. The memo provides no evidence of an eligible secondary, funded payout, or other independent liquidity route. (Market & Traction, Key Facts)
 
-The sale prices test the hurdle. The memo leaves paid revenue, buyer pricing, and the actual holder waterfall unverified. (Market & Traction, Key Facts)
+The sale values are scenario assumptions. The memo provides no buyer economics or transaction pricing to establish which, if either, is realizable.
 
 ### Countercase
 
-Autodesk could extend its own validation into downstream documents. Verno would then need to show that its connectors and write-back capabilities save enough time or money to justify buying them. Setup-specific CAD compatibility and unmeasured cross-file error rates could also turn early pilots into costly deployments. These risks leave the build-versus-buy case and acquisition price open. The memo establishes neither a structural closing block nor a credible price ceiling below the holder hurdle, so the Pass gate stays open pending evidence. (Defensibility, Key Risks, Market & Traction)
+Autodesk could extend Plant 3D’s existing validation into downstream files and remove its reason to buy. Verno’s case-by-case compatibility work and the lack of measured error rates across customer document sets also leave open whether its product can be deployed broadly enough to justify an acquisition that clears the hurdle. This supports Watch. The memo establishes neither a ready substitute nor a price ceiling that would trigger the Pass gate. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Verno demonstrate repeatable value in paid EPC deployments that gives a CAD platform an economic reason to buy at a price that clears the holder’s hurdle? Customer-verified reconciliation savings across two independent deployments, paired with a credible buyer-side build-versus-buy estimate supporting more than $83.3M in distributable equity, would move the action to Reach out.
+Can Verno show that a strategic buyer could justify a purchase price that leaves at least $83.3 million in distributable equity within eight years? Repeat paid deployments with measured rework savings, combined with a prospective buyer’s assessment of the cost and time to build equivalent capabilities, would test that case. A supported price range that clears the hurdle after deal deductions and the holder waterfall would move the action to Reach out.

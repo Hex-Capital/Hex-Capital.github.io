@@ -5,36 +5,34 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an established AML software vendor. Hickory describes a product that applies each institution’s policies to investigations, cites evidence, and logs actions for human review. If banks adopt those workflows in production, a vendor could buy Hickory to add policy-specific casework and audit documentation to its existing platform. The memo records a public launch and reports prior use of an internal AI compliance tool at Seis. Hickory claims 10× faster queue processing, with no published benchmark method or paid production results in the memo. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
+Strategic acquisition by a financial-crime software vendor is Hickory’s strongest plausible exit. Hickory describes a product that applies bank-specific policies to evidence collection and case documentation, with source citations, action logs, and human approval. A vendor could buy those workflows to add institution-specific controls to its existing product. That rationale depends on Hickory demonstrating a measurable advantage over tools the buyer already offers. (The Idea, Defensibility)
 
-The operating milestone is repeat paid deployments at unaffiliated banks with measured savings after human review. The team’s prior compliance-tool experience and reported seed financing give it a basis to pursue that milestone. The memo leaves pilot costs, runway, and timing unverified. (Founders & Team, Market & Traction, Key Risks)
+The YC launch and reported use of an internal AI compliance tool at Seis make a paid bank deployment a plausible next milestone. It would need to measure time saved after qualified review, verify documentation quality, and show that the workflow can run within the bank’s data and integration constraints. The memo leaves the cost, funding, and timeline for that test open. It also leaves IP ownership, contract assignment, and holder eligibility unverified. There is no evidence of an independent liquidity route. (Market & Traction, Founders & Team, Key Risks)
 
-Under the benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity. Both sale scenarios below assume a full cash sale by year eight, $5 million in debt and deal deductions, no senior claims on the remaining equity, and an eligible holder paid pro rata at closing.
+Under the benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3%. The memo gives no basis for an acquisition price range, so the cases below are sensitivities. Both sale cases assume $10 million in net debt and other deal deductions, an eligible holder selling the full stake for cash within eight years, and a pro rata waterfall with no senior claims diverting proceeds. (Market & Traction, Key Facts)
 
-| Scenario | Distributable equity | Holder cash |
-|---|---:|---:|
-| Modest sale at $40 million enterprise value | $35 million | $1.05 million (2.1×) |
-| Strong sale at $100 million enterprise value | $95 million | $2.85 million (5.7×) |
-| Prolonged private operation with cash reinvested | No distribution | $0 realized |
-
-The sale prices are sensitivity assumptions. The memo supplies no buyer valuation evidence or actual holder terms. At 2.5% ownership, even the strong sale would yield about $2.38 million, below the objective. Contract assignment and holder eligibility remain unverified, and the memo offers no evidence of an independent liquidity route. (The Idea, Market & Traction, Key Risks, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|-----------|-----------------------------|----------------------|
+| Modest sale | $50 million enterprise value less $10 million leaves $40 million | $1.2 million, 2.4× |
+| Strong sale | $100 million enterprise value less $10 million leaves $90 million | $2.7 million, 5.4× |
+| Prolonged private | Cash is reinvested, with no distribution or eligible share purchase | $0 |
 
 ### Countercase
 
-Nasdaq Verafin already offers investigation agents, and Hummingbird offers agents for research and case documentation. An incumbent could extend its own product if Hickory’s policy-specific workflows deliver limited incremental savings. Hickory’s terms also exclude payment-rail integrations and say the software is unsuitable for submission of consumer financial-account information, limiting the scope of its monitoring-replacement pitch. These facts weaken the case for a buyer paying enough to clear the hurdle. They establish neither a structural closing block nor a credible price ceiling, so the Pass gate remains untriggered. (Defensibility, Key Risks)
+Nasdaq Verafin and Hummingbird already offer agents for overlapping investigations and documentation. Hickory claims 10× faster queue processing without publishing a benchmark method, and its terms require qualified review. Its lack of payment-rail integrations and restrictions on consumer financial-account information also weaken the monitoring-replacement pitch. An incumbent may have little reason to buy if Hickory’s measurable advantage is confined to drafting cases. These facts weaken the price case, but they establish neither a structural block nor a ceiling on proceeds. Watch fits the unresolved buyer economics. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Would an established AML vendor pay enough for Hickory’s deployed workflows to clear the holder’s proceeds hurdle? A credible buyer-side assessment of acquisition versus internal development, grounded in measured savings from paid bank deployments and the cost of integration, would move the action to Reach out if it supports a price that could clear the hurdle after deal deductions.
+Would measured results from a paid bank deployment give a strategic buyer a reason to pay enough to clear the holder’s cash hurdle? Move to **Reach out** if the deployment shows sustained time savings at acceptable review quality and a plausible acquirer uses those results to support a price range that clears the hurdle after deal deductions and the holder’s waterfall.

@@ -5,15 +5,15 @@
 
 ### Company case
 
-The strongest path is quick-turn custom motors for drone OEMs, with a prototype leading to repeat production orders. Assuming strong fit with the first OEM, the same specification intake, design software, tooling, and factory processes could serve buyers with similar modification needs in other markets. The company reports building a custom shaft motor in five weeks after the OEM’s incumbent quoted a $50,000 minimum order and a 13-week lead time. U.S. reshoring helps explain initial demand. The advantage of U.S. production for overseas buyers remains uncertain. (The Idea, Defensibility, Market & Traction)
+Assuming strong product-market fit with drone OEMs, the best growth path is to reuse the Gardena factory’s design and production process across buyers that need quick-turn motor modifications. The buyer and job plausibly recur abroad, and the web configurator and centralized production process give Open Actuation something concrete to transfer. How much qualification or delivery work an overseas buyer would require remains unclear. Custom buyers submit specifications through a standard form, then depend on Open Actuation to quote, engineer, build, and test the motor. The online catalog serves stocked-component purchases. (The Idea, Market & Traction)
 
-The configurator makes intake reusable. OEMs still rely on Open Actuation to design, build, and test each new motor. Once a design is qualified, the OEM could reorder as its drone production grows. The company reports fulfilling volume orders for one unnamed OEM after the shaft build. Payment, shipment volumes, and order cadence are unverified, so the memo leaves both the commercial growth rate and same-account expansion unresolved. (The Idea, Market & Traction, Key Risks)
+Open Actuation reports a five-week custom shaft build followed by volume orders it is fulfilling for one drone OEM. If the motor qualifies for ongoing production, continued builds could generate recurring orders, and higher OEM output could increase the account’s spend. Repeat paid orders and same-account expansion remain unverified. The reported ramp is an early commercial signal, with realized sales, paid production volume, and the pace of paid growth all unclear. The traction default applies. (Defensibility, Market & Traction, Key Facts)
 
-Incremental contribution starts with the negotiated motor price and deducts materials, job-specific quoting and engineering, setup, machining, winding, assembly, and testing. Tooling reuse and larger runs could spread setup costs across more units. Custom prices, labor per job, production yields, and the cost of adding capacity are unknown. (The Idea, Defensibility, Key Risks)
+Incremental contribution depends on custom-order revenue after materials, engineering and setup labor, machining, winding, assembly, testing, fulfillment, and any capacity added for the order. If tooling and test results carry over across similar designs, setup cost could fall for later jobs. Custom prices, labor per job, yield, and utilization are unspecified, so the cost default applies. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The five-week build may reflect a single tractable modification. If each new design requires substantial engineering and qualification, staff time and factory capacity could grow roughly in step with sales. The company has reported one production ramp, and difficult domestic sourcing of magnets and silicon steel adds cost and fulfillment risk. The structural downside gate stays open because reusable tooling and repeat production give the company a plausible way to reduce work per motor. The memo leaves the size of that improvement unresolved. (Defensibility, Market & Traction, Key Risks)
+The strongest countercase is that U.S. reshoring drives the initial demand and each new OEM still requires substantial engineering and qualification. The memo documents one reported order ramp and identifies domestic sourcing difficulties for magnets and silicon steel. If engineering time and factory capacity have to rise in step with sales, strong fit could still produce a capital- and labor-intensive business. The structural downside gate remains open because the memo supports a plausible reuse mechanism and leaves the degree of required work unresolved. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -23,10 +23,10 @@ The five-week build may reflect a single tractable modification. If each new des
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Open Actuation repeat the prototype-to-production ramp profitably across several drone OEMs? Dated records showing steep growth in paid shipments, larger reorders from the same OEMs, and declining engineering and setup hours per motor while maintaining healthy contribution through the next capacity increase would support Reach out if the resulting score reaches 65 and confidence reaches Medium. Evidence that required engineering and capacity make faster growth uneconomic would change the action to Pass.
+Can a second, unrelated drone OEM outside the U.S. ramp quickly to repeat paid production orders through the same Gardena process, with limited redesign and positive incremental contribution? Dated invoices, shipment records, and job-level costs would show how much work carried over and whether the paid ramp was meaningful. Move to Reach out if that evidence lifts the score to at least 65 and confidence to Medium or High. Move to Pass if it shows that unavoidable per-buyer work makes faster growth economically infeasible.

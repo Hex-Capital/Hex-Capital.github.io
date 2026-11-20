@@ -1,30 +1,33 @@
 ﻿# Polemos Industries -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-Scarce complements is the strongest candidate path. Polemos claims that cost and limited availability constrain buyers’ use of precision-strike systems and says it aims to lower unit costs through volume production. The thesis would fit if AI adoption increased demand for qualified supply and Polemos controlled capacity that buyers struggled to replace. Both conditions remain unverified. The proposed cost reduction comes from production volume, and the memo supplies no evidence of lower labor per successful outcome or a previously excluded buyer or use. (*The Idea*, *Defensibility*)
+Polemos is developing a physical defense product. The memo identifies no AI workload that depends on its offering and no scarce input to AI deployment that Polemos could supply. The building-blocks path scores zero. (The Idea)
 
-The memo records a public launch and substantial online attention. Buyer commitments remain unverified. The founder reports prior defense engineering work, and the public launch shows early operating progress. Testing is still listed as a next step, and the memo provides no unit-cost data or evidence that production economics improve with volume. (*Market & Traction*, *Founders & Team*, *Key Risks*, *The Idea*)
+Polemos claims that cost and availability limit use of existing systems. Its stated cost lever is volume production. The memo provides no evidence that AI lowers the cost of a successful outcome enough to make a previously unaffordable purchase viable. The AI-enabled industry path also scores zero, which triggers Pass. (The Idea, Key Risks)
+
+The memo reports substantial launch attention and identifies no buyer commitments. It documents no defensibility advantage or economics for the next unit of production. The company describes relevant engineering backgrounds and lists testing as a next step, with no documented prior delivery under comparable constraints or independently verified test results. The four shared dimensions use their defaults. (Market & Traction, Defensibility, The Idea, Founders & Team, Key Risks)
 
 ### Countercase
 
-Polemos could enter an existing procurement market where buyers have interchangeable suppliers, even if it reaches its unit-cost goal. The memo identifies no current structural barrier or award history and reports no independently verified test results. Substitution remains a credible risk, and the memo contains no direct evidence that buyers can readily switch. The scarce-complement path stays open on Watch. (*Defensibility*, *Key Risks*)
+If Polemos is right that price and availability limit how often buyers can afford to use existing systems, an AI-driven reduction in delivered cost could make a previously unaffordable purchase viable. Buyers would still need a physical product if comparable AI became widely available. The memo supports this only as a scenario. It does not establish AI’s contribution to affordability or a change in buyer behavior, so the Pass gate still applies. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 6/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 5/20 |
-| Team and execution | 5/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 5/20 |
+| Customer demand | 4/15 |
+| Team and execution | 3/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 26/100** (Pass)
+**Total Score: 14/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent target buyer make a paid commitment for capacity Polemos demonstrably controls because AI adoption has made qualified supply harder to secure? A documented commitment that establishes both the buyer’s constraint and Polemos’s control would move the action to Reach out. Evidence that buyers can readily source equivalent capacity elsewhere would close this path and move the action to Pass.
+Did AI make a previously unaffordable purchase viable for an actual buyer? Independent buyer evidence of that purchase, backed by a delivered-cost comparison that isolates AI’s contribution from volume production, would change the action to Reach out. (The Idea, Key Risks)

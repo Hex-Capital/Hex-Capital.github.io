@@ -5,23 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic sale to an enterprise automation platform that could use GodHands to capture undocumented workflow exceptions and turn them into playbooks its agents can execute. GodHands describes desktop capture across administrator-approved apps without capture APIs and a single source-linked playbook for both handovers and agent execution. An automation platform could buy that capability to shorten deployment for customers whose workflows span multiple apps. The buyer benefit is an inference. (The Idea)
+A strategic acquisition is the strongest supported route. GodHands describes a desktop product that captures workflows across approved apps without capture integrations and turns them into source-linked playbooks for employees and agents. An enterprise automation vendor could buy that capability to shorten the work of configuring agents for customer-specific exceptions. The memo records an October launch, while the product description supports the acquisition rationale as an inference. (The Idea, Market & Traction)
 
-The memo records an October launch and a $500,000 seed financing entry. In testimonials published by GodHands, an unnamed logistics customer reported documenting its escalation process in two weeks, and an unnamed fintech customer reported that a replacement controller closed the books on time in month two after the prior transition took two quarters. These accounts support testing whether paid production deployments can deliver repeatable gains over existing tools. The capital and time required to reach that milestone remain unknown. (Market & Traction)
+Company-published testimonials report that a logistics support team documented its escalation process in two weeks and that a replacement controller closed the books on time in month two. These reports make a paid production test plausible. The next milestone is to reproduce a measurable improvement in the same workflow across paying customers. The memo records a $500,000 seed financing entry and leaves burn, runway, and the capital needed to reach that milestone open. (Market & Traction, Key Facts)
 
-Under the benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. A 5× return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. For illustration, assume an all-cash sale within eight years, zero net debt and deal deductions, no senior claims, and an eligible holder selling its entire stake pro rata through the waterfall.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return, requiring about $83.3 million in distributable equity value at 3%.
 
-| Scenario | Distributable equity value | Holder cash |
-|---|---:|---:|
-| Modest sale at $40 million enterprise value | $40 million | $1.2 million (2.4×) |
-| Strong sale at $100 million enterprise value | $100 million | $3 million (6.0×) |
-| Prolonged private operation with cash reinvested and no eligible share sale | No distribution | $0 (0×) |
+| Scenario | Proceeds bridge | Cash to holder |
+|---|---|---|
+| Modest sale | $40 million enterprise value less $5 million in assumed net debt and seller costs leaves $35 million in equity value | $1.05 million (2.1×) |
+| Strong sale | $110 million enterprise value less the same $5 million leaves $105 million in equity value | $3.15 million (6.3×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or funded payout | $0 |
 
-In the strong case, $20 million in net debt or other deductions ahead of the pro rata distribution would leave $80 million of equity value and reduce holder cash to $2.4 million. Both sale prices are scenario assumptions. The memo provides no basis to estimate an acquisition price or verify the holder’s waterfall or eligibility. The transferability of customer contracts and retained workflow data is also unverified, and the memo supplies no evidence of an independent liquidity route. (Market & Traction, Key Facts, Defensibility, Key Risks)
+Both sale scenarios assume a full cash sale within eight years, holder eligibility to sell the entire stake, and a pro rata waterfall with no senior claims or deferred payments. At 2% ownership, even the strong sale yields only $2.10 million. These are sensitivities. The memo provides no company revenue, acquisition price benchmark, or buyer economics to substantiate the strong sale. GodHands describes customer data controls, while IP transfer rights, customer consents, and holder participation remain unverified. The memo supplies no evidence for an independent liquidity route. (Key Facts, Defensibility, Key Risks)
 
 ### Countercase
 
-An automation platform could get enough of the functionality from existing products. Scribe already offers background capture and agent access, and Skan AI sells workflow discovery and execution. GodHands’ testimonials leave open whether its handling of exceptions produces a measurable advantage over those substitutes. That overlap weakens the case for paying an acquisition premium. The memo leaves both the achievable price and any closing barrier unresolved, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+An acquirer could already have much of the capability it would buy. The memo describes Scribe’s background capture and agent access and Skan AI’s workflow discovery and execution products. That overlap weakens the case for paying an acquisition premium, especially while GodHands’ reported benefits come from unnamed customers. The evidence leaves a credible price ceiling and any structural closing barrier unresolved, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -37,4 +37,4 @@ An automation platform could get enough of the functionality from existing produ
 
 ### Decisive diligence question
 
-Would a strategic buyer value GodHands’ handling of workflow exceptions enough to support a sale yielding at least $2.5 million to the benchmark holder within eight years? Move to Reach out if repeatable paid deployments quantify the gain over existing tools and a credible buyer’s valuation range clears that hurdle after deal adjustments and the expected waterfall. Move to Pass if evidence shows that the strongest credible sale would leave the holder materially short.
+Can GodHands demonstrate repeatable gains over incumbent tools in paid deployments large enough to justify a strategic purchase above roughly $88.3 million in enterprise value under the modeled terms? Measured deployment gains and a credible buyer build-versus-buy analysis supporting that price would move the action to Reach out.

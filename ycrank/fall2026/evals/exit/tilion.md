@@ -5,36 +5,36 @@
 
 ### Company case
 
-Tilion’s strongest exit path is a strategic acquisition by a browser infrastructure provider such as Browserbase or Kernel. A buyer could integrate Tilion’s Chromium fork and session recovery into its existing service if they materially reduce the cost of completing customer workflows. An external benchmark measured a 0.11-second median session lifecycle for pre-release Tilion, versus 0.15 seconds for Kernel and 0.88 seconds for Browserbase. That establishes a speed advantage in the benchmark. The memo provides no measured savings per completed workflow, buyer interest, or transaction pricing. (The Idea, Market & Traction)
+A strategic acquisition by an agent platform is Tilion’s strongest plausible exit route. In a November benchmark, pre-release Tilion recorded a 0.11-second median browser session lifecycle versus 0.15 seconds for Kernel and 0.88 seconds for Browserbase. Tilion also describes a service that reassigns tasks after session failures. The reason to buy would be the combined effect on cost per completed workflow if faster sessions and task recovery produce repeatable savings. That buyer benefit is inferred from the product. The memo leaves production savings and buyer willingness to pay unverified. (*The Idea*, *Key Risks*, *Market & Traction*)
 
-The milestone is a paid production pilot that demonstrates repeatable savings per completed workflow. The reported $500,000 in YC funding and Tilion’s claim that engineers at more than 170 companies use Fortress make a pilot plausible. Cloud’s current waitlist and pre-release status leave paid conversion, pilot cost, and available runway unverified. The memo leaves IP transfer rights, required consents, and holder participation terms open. It provides no evidence of an independent liquidity route. (Market & Traction, Key Risks, Defensibility)
+The milestone is a paid production deployment that measures completion rates and cost per completed workflow against the customer’s current provider. Tilion’s reported $500,000 in funding, reported 100,000 Fortress installs, and company-claimed use by engineers at more than 170 companies make a focused test plausible. Paid usage, runway, and the capital needed to scale remain unknown. A sale would depend on the rights to transfer Fortress and the hosted service, any required consents, and the holder’s ability to participate. The memo leaves those terms unverified and supplies no evidence of an independent liquidity route. (*The Idea*, *Market & Traction*, *Defensibility*)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years, requiring about $83.3 million in distributable equity at 3%. The sale values below are illustrative assumptions. Both sales assume an eligible holder, a full sale for cash paid within eight years, zero net debt or deal deductions, and a pro rata waterfall with no senior claims.
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The 5× objective calls for $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. The sale cases assume zero excess cash, a fully cash-funded acquisition within eight years, sale of the holder’s entire stake, and a pro rata waterfall with no senior preference claims.
 
-| Scenario | Holder cash |
-|---|---:|
-| Modest sale at $40 million enterprise value | $1.2 million, or 2.4× |
-| Strong sale at $100 million enterprise value | $3.0 million, or 6.0× |
-| Prolonged private operation with cash reinvested | $0 realized |
+| Scenario | Assumed proceeds bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $40M enterprise value less $5M in net debt and deal adjustments yields $35M in distributable equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in net debt and deal adjustments yields $90M in distributable equity | $2.70M (5.4×) |
+| Prolonged private | Tilion reinvests available cash and the holder receives no distribution or share purchase within eight years | $0 (0×) |
 
-The strong sale can absorb about $16.7 million in combined net debt, deal deductions, and senior payouts before missing the target, assuming the residual is distributed pro rata. If only 80% of the holder’s modeled strong-case proceeds arrives in cash within eight years, the holder receives $2.4 million. The memo leaves the achievable sale price and actual waterfall unverified.
+The sale values are illustrative assumptions. At 2.5% ownership, even the strong case falls to $2.25 million (4.5×). The memo provides advertised pricing and reported adoption, while realized revenue, buyer economics, and transaction values remain unknown. (*The Idea*, *Market & Traction*)
 
 ### Countercase
 
-Browserbase and Kernel already offer hosted browsers, and standard interfaces can make switching providers easier. A buyer could improve its own service if Tilion’s faster session lifecycle delivers little benefit in production. The observed launch failure and tighter site-owner access controls add uncertainty about whether the benchmark advantage translates into completed workflows. These risks weaken the acquisition case. The memo establishes neither a structural closing block nor a supported sale-price ceiling below the holder’s hurdle, so the Pass gate does not apply. (Market & Traction, Defensibility, Key Risks)
+A prospective buyer could keep its existing browser stack or switch providers through standard automation interfaces. Kernel already offers browser infrastructure and an agent runtime, and its benchmark median was only 0.04 seconds behind Tilion’s. A separate test recorded a failed Tilion session launch, Cloud still shows a waitlist, and site-owner blocking could limit the workflows where Tilion delivers reliable gains. Those facts make a premium acquisition conditional on a demonstrated production advantage. The Pass gate remains untriggered because the memo leaves both the strongest credible sale price and any structural barrier to closing unresolved. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-What acquisition price could a strategic buyer justify from Tilion’s verified production savings? Paid deployments that show repeatable savings per completed workflow against an incumbent, at a scale that supports a buyer’s case for a price clearing the $83.3 million distributable-equity hurdle, would move the action to Reach out.
+Would a prospective strategic buyer’s measured savings from Tilion justify buying it at a price that leaves at least $83.3 million in distributable equity under the benchmark terms? A paid production comparison showing sustained savings, paired with buyer feedback that supports a price above the hurdle after deal deductions, would move the action to Reach out. Evidence that caps the strongest credible route materially below the hurdle would move it to Pass.

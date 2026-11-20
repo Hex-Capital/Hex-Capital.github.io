@@ -1,32 +1,33 @@
 ﻿# Asakana -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**New Economies** is the strongest path. One distributor reported about 60 manually entered orders a day, with reps spending roughly 30% of their day on entry. Asakana reports that its live seafood-distributor deployments returned 40% or more of order-desk time to selling. That supports a labor-saving mechanism in an existing workflow. The two figures measure different things and leave the change in cost per correctly posted order unknown. (The Idea, Market & Traction)
+Asakana automates order and credit entry that food distributors already perform. Staff rekey requests from calls, messages, and handwritten notes into ERPs or spreadsheets. Asakana describes using buyer history and catalog data to resolve shorthand, sending ambiguous items to staff, and posting records to the existing ERP. The memo identifies no previously excluded buyer, use, or processing cadence that this workflow makes economically viable, so the industry-enabled path scores zero. Asakana sells a distributor workflow, and the memo identifies no scarce input it supplies to an AI workload, so the building-block path also scores zero. Together, those scores trigger Pass. (The Idea; Key Risks)
 
-One scenario is that lower handling costs make after-hours ERP order entry viable for seafood distributors that previously could not justify staffing it. The memo leaves that new use unproven. The expansion unit is one distributor, with commission revenue from processed volume. The cost bridge runs from manual rekeying to model processing, staff review of exceptions, error correction, and ERP integration and support. The memo gives no realized commission rates or costs per successful order. (The Idea, Key Risks)
+The clearest demand signal is a customer’s reported workaround of manually handling about 60 orders a day. Asakana reports live seafood distributor deployments, with paid conversion and repeat use unverified. Customer-specific catalog mappings and custom ERP connections could make switching costly, though the memo gives no retention or migration evidence and documents overlapping capabilities at Choco and Pepper. Matsuoka’s seafood order experience and Solis-Cohen’s computer-use work support seed-stage execution credit, along with the company’s account of shipping a first version within a month. Reliable delivery across legacy ERPs remains unverified. (The Idea; Market & Traction; Defensibility; Founders & Team; Key Risks)
 
-Reported live use supports early demand. Payment and renewal remain unverified. Matsuoka’s seafood order-desk experience and Solis-Cohen’s work on computer-use agents fit the execution challenge. Asakana says the founders shipped their first version within a month. Repeat deployment across legacy ERPs remains an execution gap. (Market & Traction, Founders & Team, Key Risks)
+The published terms specify a transaction-volume commission. Without realized rates or per-order integration, review, and error-correction costs, the memo cannot establish contribution on the next customer or order. The documented workflow and founder histories support Medium confidence, while deployment results and commercial economics remain largely unverified. (The Idea; Founders & Team; Key Risks; Market & Traction)
 
 ### Countercase
 
-Asakana may save distributors time in a workflow that competitors already serve. Choco posts orders to existing ERPs and flags exceptions, while Pepper extracts orders from voicemail and email. Asakana’s customer-specific catalog mappings and ERP connections could make switching costly, but the memo shows no buyer preference under functional parity or network effects. The overlap keeps durable value capture unproven. It establishes neither easy switching nor the absence of a newly viable use, so the New Economies path stays open on Watch. The memo establishes no independently controlled scarce complement. (Defensibility, Key Risks)
+Asakana reports that live seafood distributor deployments returned over 40% of order-desk time to selling. If comparable savings held at a smaller distributor that could previously afford to process incoming orders only in batches, AI could make continuous intake viable. That buyer and cadence are scenario assumptions. Even with comparable models, the buyer would still need catalog mappings, ERP posting, and exception handling. The reported time savings show a plausible labor lever, but they do not establish that a buyer crossed an affordability threshold. The Pass gate still applies. (Market & Traction; The Idea; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 6/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent seafood distributors that previously could not justify after-hours order entry renew with Asakana at a viable commission after trialing an alternative with comparable accuracy and turnaround? Move to Reach out if a paid cohort renews and measured costs per correctly posted order show that the service clears the buyers’ prior cost barrier and leaves Asakana a positive contribution after processing, review, corrections, and ERP support. Stay on Watch if the comparison remains inconclusive. Move to Pass if the test shows the cost reduction fails to open the use or buyers readily switch at parity.
+Can a paid pilot show that a distributor previously priced out of continuous phone and text order processing can sustain that cadence at acceptable accuracy? Compare fully loaded cost per correctly fulfilled order with the prior staffed workflow, including the commission, ERP setup, exception review, and error correction. If the buyer sustains paid use at the newly viable cadence, change to Reach out.

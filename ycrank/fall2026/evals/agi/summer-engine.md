@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is Summer’s strongest path. Its Godot-based editor lets a built-in assistant or an external coding agent edit live projects and gives creators access to hosted multiplayer, publishing, and analytics. The proposed cost change is from manually integrating those services after prototyping to handling more of that work in one workflow. That could let hobbyists who can prototype a game but lack the time or budget for integration ship a playable multiplayer title. The public release and 13 game-jam entries establish that the workflow shipped and saw use. The memo gives no comparative labor cost per successful launch or evidence that entrants were previously priced out. *(The Idea, Market & Traction)*
+Summer Engine has an early case for an industry enabled by superintelligence. Indie developers and hobbyists can already prototype games with general-purpose AI. Shipping a playable multiplayer game still takes separate work to edit the project, integrate multiplayer, publish it, and instrument it. Summer lets an agent work directly on editable Godot projects and bundles multiplayer hosting, publishing, and analytics. The seed-stage hypothesis is that this combination cuts enough integration and rework for solo hobbyists with limited engineering time to publish games they would otherwise leave as prototypes. The editor and hosted services are a distinct deliverable even when creators bring their own model. (The Idea)
 
-Summer reports more than 60,000 organic users and 40% revenue growth over 30 days. The revenue claim suggests some willingness to pay, with the revenue base, buyer mix, and renewals unknown. Summer also reports 240,000+ reusable community assets. That supply could make Summer more attractive as creators contribute, but the memo provides no measured effect on creator outcomes or evidence of paid preference among functionally comparable tools. *(Market & Traction, Defensibility)*
+The memo records 13 entries in Summer’s first game jam, evidence that creators used the engine to produce games. It gives no before-and-after delivery costs or evidence that entrants previously lacked the ability to publish. Summer reports more than 60,000 organically acquired users and 40% revenue growth over 30 days, with no revenue base, paid conversion, or repeat-publishing figures. The public editor release and desktop exports establish that the team shipped a usable product. The hosted-AI prices establish what Summer charges, while inference, hosting, and support costs per successful release remain unknown. These gaps make Watch the appropriate action. (Market & Traction, The Idea, Key Risks)
 
-The team shipped the editor and external-agent tooling. Mobile exports still require platform-specific toolchains, and browser play remains a research preview. The expansion unit is a paying hosted-AI creator-month at a listed price of $20, $60, or $200. Positive contribution would require subscription receipts to cover model usage, hosting, and support, with enough surplus to serve free users. Conversion and serving costs are unknown. *(The Idea, Market & Traction, Key Risks)*
+The building-blocks path scores zero. Summer uses coding agents for game production, and the memo identifies no scarce input it supplies to a growing AI workload. (The Idea)
 
 ### Countercase
 
-Summer may be making game development easier for people who could already ship. Unity, Roblox, and GDevelop offer external-agent connections, and Summer itself offers free external-agent access and manual exports. Those options put pressure on the hosted-AI subscription if capable models and comparable workflows become widely available. The memo documents overlapping features, with creator switching and end-to-end cost parity still untested. The New Economies path stays open at Watch, with no independently evidenced scarce complement. *(The Idea, Defensibility, Key Risks)*
+Summer could make publishing faster for creators who could already ship. Unity, Roblox, and GDevelop also connect coding agents to their editors, and Summer’s free external-agent connection gives creators a way to use the editor without buying its hosted AI. The company-reported library of 240,000-plus reusable assets and the player portal give creators reasons to choose Summer, but repeat publishing and retention under comparable AI capability remain unverified. This substitution risk limits durable value capture. The Pass gate would apply if comparable workflows show that Summer’s advantage is confined to routine efficiency gains and opens no previously impractical use. (Defensibility, The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 10/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 10/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 7/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 33/150** (Pass)
 
 ### Decisive diligence question
 
-In a matched pilot with hobbyists whose prior prototypes stalled before multiplayer release, can Summer lower total creator hours per successful launch enough for those creators to ship and then renew a paid plan when offered a functionally comparable workflow using the same model? Move to **Reach out** if the cohort shows a material labor reduction, reaches release, and repeatedly chooses to pay Summer after trying the comparable option. Move to **Pass** if creators can ship just as affordably with the alternative and readily switch. An inconclusive pilot keeps the action at **Watch**.
+Can hobbyists who previously stalled at the prototype stage publish and maintain a playable multiplayer game within their time and cash budgets using Summer? A matched trial against an existing editor with access to the same coding agent should measure creator hours, rework, hosting, and support per successful release. Move to **Reach out** if the trial shows that Summer repeatedly brings this cohort within budget while the comparison workflow exceeds it. Move to **Pass** if the trial shows that Summer mainly saves time for creators who could already ship.

@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is the strongest path. Particularity says investigators manually reconstruct changing checkout and cancellation flows after complaints arrive. It describes browser agents that proactively test those flows, preserve captures, and map findings to statutory elements for staff review. The potentially new use is routine monitoring of sites that agencies would otherwise leave unchecked until a complaint arrives. The memo documents Particularity’s public launch and NYC’s expanded authority over cancellation flows. The labor savings and agency adoption remain unverified. (The Idea, Market & Traction)
+Particularity has a plausible AI-enabled path to routine consumer protection sweeps across sites that rarely generate complaints. The memo describes investigators starting from complaints and manually checking changing checkout and cancellation flows. Particularity says its browser agents test those flows, preserve timestamped and hashed captures, and map findings to statutory elements for staff review. The seed-stage hypothesis is that agents can cut investigator time per successfully completed, reviewable check enough for agencies to revisit more sites on a regular schedule. Coordinated EU pricing sweeps show that regulators already use proactive checks, and New York City’s Click-to-Cancel rule gives agencies a concrete enforcement use for cancellation testing. The memo gives no Particularity deployment, paid usage, or measured cost per usable result, leaving the economic threshold unverified. (The Idea, Market & Traction, Key Facts)
 
-**Scenario assumption.** If manual investigator time is what keeps an agency from running those checks routinely, automation could make them affordable. Compare the fully loaded cost per evidence package accepted by agency staff with the cost of a comparable manual sweep. The automated cost needs to include browser runs, failed sessions, retries, staff review, and any corroboration. The memo provides no measured baseline, acceptance rate, or deployment costs. It records a complaint-software solicitation, with no buyer commitment to proactive monitoring. (The Idea, Key Risks, Key Facts)
+Under model parity, an agency would still need repeatable live-site testing, evidence preservation, and a review workflow. That supports a distinct product, while switching costs remain hypothetical until an agency relies on Particularity for its case history. Existing sweeps and a separate complaint-software solicitation show buyer activity in related workflows. The founders’ consumer protection and security infrastructure experience supports early execution, with dependable agency delivery still untested. The memo gives no revenue-to-cost figures for the next deployment. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
-The founders bring consumer protection policy experience and prior delivery of security and compliance infrastructure. That supports seed-stage execution credit, with an agency field test still ahead. (Founders & Team, Market & Traction)
+The building-blocks path scores zero because Particularity uses browser agents to deliver regulatory software, and the memo identifies no scarce input it supplies to an AI workload. (The Idea)
 
 ### Countercase
 
-Particularity could mainly make existing enforcement work faster. EU eLab already supports coordinated sweeps, and existing products cover evidence capture and complaint intake. A vendor with comparable browser agents could combine those functions, while failed sessions and authentication work could consume the labor savings. Agency case history might create switching costs after adoption, but the memo gives no evidence of buyer preference under functional parity or network effects. The New Economies gate remains open because the memo establishes neither a newly affordable use nor easy substitution for Particularity’s full workflow. (Market & Traction, Defensibility, Key Risks)
+Particularity may speed up existing investigations without making routine sweeps affordable. A separate dark-pattern audit verified completion on 79% of deployment workflows, leaving open how often incomplete sessions could hide violations. Retries, staff review, and evidence corroboration could absorb the labor savings. Existing tools already cover sweeps, evidence capture, and case management, giving agencies alternatives if comparable browser agents become widely available. This triggers Watch because the decisive gap is whether an agency can sustain a new screening cadence within its budget. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 15/50 |
+| Durable value capture | 5/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 34/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent target agency pay to continue recurring checks it previously could not staff after comparing Particularity with both manual review and a functionally comparable tool using similarly capable models? Move to **Reach out** if a paid pilot shows enough savings per staff-accepted evidence package to fund those checks and the agency chooses to continue with Particularity on viable terms after the comparison. Stay at **Watch** while either condition remains untested. Move to **Pass** if the pilot demonstrates that the checks remain unaffordable or the agency readily switches at parity, closing the only supported path.
+Can one agency use Particularity to run recurring cancellation sweeps on sites it previously lacked the staff capacity to check routinely? Move to Reach out if a representative agency pilot beats the manual baseline on fully loaded cost per completed, reviewer-accepted check by enough to fund an agreed cadence, while meeting the agency’s standards for evidence quality and missed violations.

@@ -5,30 +5,28 @@
 
 ### Company case
 
-Kairos’s strongest Hypergrowth path is to sell patient recall and direct booking to multi-site dental groups, then add locations under the same account. Assuming strong fit with the first practices, the same recurring job plausibly exists abroad. The memo documents schedule write-back into Dentrix, Open Dental, and Eaglesoft and configurable rules for providers, hours, and appointment types. Those components could carry over wherever a supported system and compatible patient-data requirements are in place. How widely those conditions hold remains uncertain. (The Idea, Defensibility, Key Risks)
+Conditional on strong fit with dental practices, Kairos’s most plausible growth path is to reuse its recall and scheduling integrations across practices and expand within dental groups one location at a time. Kairos documents direct booking into Dentrix, Open Dental, and Eaglesoft, with configurable rules for providers, hours, and appointment types. Recall and inbound scheduling plausibly recur abroad, though the memo leaves open where those integrations, insurance checks, and patient-data controls can transfer with limited changes. Demos, referrals, conferences, and direct mail are concrete acquisition channels. The documented path still looks assisted, with no evidence that a typical practice can purchase, connect its records, and configure booking independently. (*The Idea*, *Defensibility*, *Key Risks*)
 
-Demos, referrals, and outreach to dental service organizations give Kairos a repeatable way to reach buyers, and existing integrations give the next practice a starting point. The documented motion is sales-led and requires practice-specific setup. Monthly per-location billing and recurring recall work give customers a reason to renew, while each added site can raise an existing account’s bill. Whether site expansion can offset churn is an inference. The memo provides no account-level expansion history. (The Idea, Defensibility, Key Facts)
+Kairos reports monthly per-location pricing. Daily call handling and recurring recall work support renewals, and dental groups can increase spend by adding sites. A single location has no documented way to increase its recurring bill, so expansion can plausibly offset churn if groups add sites, though the memo gives no evidence that they do. The memo records 16 live U.S. locations at the October launch, about seven months after the March product launch, for a four-person team. The founder’s undated claims of 13 paying practices and more than $4,000 in monthly recurring revenue support early commercialization. Paid growth remains unclear because the figures cover different measures and lack comparable dates. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Facts*)
 
-The memo dates the product launch to March and records 16 live U.S. locations at the October public launch for a four-person team. A founder separately reports 13 paying practices and more than $4,000 in monthly recurring revenue, both undated. That supports early paid adoption at a small base. The live-location count includes an unspecified mix of paid and other deployments, and the undated figures leave the pace of paid growth unclear. (Market & Traction, Founders & Team, Key Facts)
-
-Kairos reports a $1,200 monthly list price per location and 85% gross margin, and offered October launch signups a 50% lifetime discount. In an illustrative scenario where that margin applies at list price and monthly delivery cost stays fixed at $180 per site, a discounted site leaves $420 per month before attributable sales and any setup or support costs outside reported gross margin. Reusing connectors could reduce setup labor, but call volume, booking rework, and hands-on support could absorb that headroom. The memo leaves the margin’s cost coverage unclear. (The Idea, Defensibility, Key Risks, Key Facts)
+In an illustrative scenario, applying the company-reported 85% gross margin to the $1,200 monthly list price implies $180 in monthly gross cost per site. If that cost holds at the $600 lifetime promotional price, gross profit falls from $1,020 to $420 per month. Incremental contribution depends on how much of sales, setup, and support the reported margin captures and how telephony, inference, and storage costs vary with usage. Reusing connectors and booking configurations could reduce setup effort, though the memo provides no measured savings. (*The Idea*, *Defensibility*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-Domestic adoption could conceal two scaling constraints. Entering a new market may require new schedule integrations and changes to patient-data handling or benefits verification. Within a supported market, demos and practice-by-practice setup could keep sales and activation labor growing with each site, especially at the discounted price. The structural downside gate stays open because the narrower recall-and-booking product has reusable connectors and configurable rules, and the evidence leaves open a viable rollout with bounded changes and positive contribution. (The Idea, Defensibility, Key Risks, Key Facts)
+Insurance verification and patient-data handling could require substantial changes in each market, while booking and eligibility errors could keep rollout and support labor-intensive. The structural downside gate stays open because recall and booking already use reusable connectors and per-practice configuration. That supports a plausible path into groups on compatible systems, although the effort to transfer and operate the product remains unmeasured. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
+| Global buyer demand | 11/25 |
 | Repeatable acquisition and onboarding | 7/25 |
 | Retention economics | 15/20 |
-| Initial traction | 11/20 |
+| Initial traction | 10/20 |
 | Cost economics | 6/10 |
 
-**Total Score: 51/100** (Neutral)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a dental group outside the U.S. enter through a referral, purchase and activate recall and booking at its first site, and add paid sites through the same flow with minimal Kairos staff time? A documented rollout showing the product changes, staff hours, actual site prices, and positive contribution after attributable selling, setup, and support would move the action to Reach out if it lifts the score to at least 65. Evidence that comparable markets require bespoke rebuilding with no credible near-term transfer path would move it to Pass. (The Idea, Defensibility, Key Risks, Key Facts)
+Can a paying dental group outside the U.S. launch and add locations through an existing connector with bounded local changes and minimal Kairos staff time? A documented rollout showing recurring site fees, buyer-led setup, and positive contribution after attributable acquisition, onboarding, and ongoing service costs could move the action to Reach out if the updated score reaches 65. If the rollout shows that even recall and booking require substantial market-specific rebuilding with no credible near-term workaround, move to Pass.

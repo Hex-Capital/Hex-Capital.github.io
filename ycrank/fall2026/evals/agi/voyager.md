@@ -1,32 +1,33 @@
 ﻿# Voyager -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Voyager’s strongest path is **New Economies**. Voyager says its desktop agent can generate media and execute edits inside installed creative apps. The investment hypothesis is that automating handoffs and edits could make recurring video production affordable for small marketing teams that previously skipped it. The relevant comparison is the all-in cost per approved video, including operator time, revisions, and failed generations. The memo provides neither a manual baseline nor a measured cost reduction, so market opening remains unproven. (The Idea)
+Voyager’s strongest commercial case is a desktop agent that turns a creative brief into edits in existing project files. Editors, marketers, and small studios currently switch among providers and apps for storyboarding, generation, sound, and editing. Voyager says its agent can generate media and execute edits in apps such as Blender and DaVinci Resolve. The building-block path scores zero because this workflow consumes existing models and creative tools, and the memo identifies no scarce input that Voyager supplies to a constrained AI workload. (The Idea)
 
-One creator reported using Voyager alongside Meshy and ElevenLabs to finish a short. That is evidence of real usage. The creator’s $128.99 in reported generation spend covers the combined workflow, and payment to Voyager and repeat use remain unknown. Voyager lists subscriptions with included credits and lets users bring their own keys. That gives it a plausible way to serve additional accounts, but credit usage and integration support costs leave contribution margins unverified. (Market & Traction, The Idea, Key Facts, Key Risks)
+The AI-enabled industry path also scores zero. A creator reported completing *Nightcap* with Voyager, Meshy, and ElevenLabs using 78 generations and $128.99 in generation spend across the workflow. That is concrete evidence of use. The memo leaves total production labor, rework, the cost of the prior workflow, and the creator’s budget unmeasured. It therefore leaves open whether AI made a previously unaffordable production viable. (Market & Traction)
 
-The founders shipped Moda’s editable AI design canvas and released Voyager’s `vork` engine. That supports their ability to ship creative software at seed. Reliable delivery across app versions and permissions remains an execution milestone. (Founders & Team, Key Risks)
+Voyager’s reported breadth of app integrations and its published `vork` engine support modest credit for integration know-how. The public desktop release and the team’s prior delivery of Moda’s editable design canvas support execution credit, while app-version and permission dependencies leave routine delivery reliability open. The creator report supports limited customer-demand credit. Voyager lists subscription and credit prices, but the memo supplies neither realized revenue nor the delivery costs needed to estimate contribution from the next paid account. (The Idea; Defensibility; Founders & Team; Key Risks; Market & Traction; Key Facts)
 
 ### Countercase
 
-Voyager could save time for existing video producers while losing the workflow to native agents. Adobe already offers overlapping capabilities inside Firefly, and Runway and Krea offer agent connectors. Voyager’s ability to edit across installed apps gives buyers a concrete reason to try it, and reusable project skills could give teams a reason to stay. The memo shows no preference under functional parity or network effect. The overlap makes substitution credible, but without evidence of easy switching or a failed market-opening test, it does not close the path. (The Idea, Defensibility, Key Risks)
+If manual editing and coordination previously put finished shorts beyond a solo creator’s budget, Voyager’s ability to execute edits in installed apps could make those projects viable. The completed short supports the feasibility of the workflow, and direct project-file editing could retain value under model parity. Adobe’s overlapping native workflow and rival connectors make that advantage uncertain. With the affordability threshold and buyer preference still unmeasured, both AGI paths score zero and the Pass gate applies. (The Idea; Market & Traction; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Can a paid cohort of small marketing teams that previously skipped recurring video produce approved videos below their former cost threshold and renew when competing workflows offer equally capable models? Documented prior budgets, measured labor and generation costs per approved video, and paid renewals after a comparable trial would move the action to **Reach out**. If the trial shows the work remains uneconomic for those teams or they readily switch at parity, move to **Pass**.
+Can solo creators who previously shelved short-video projects on cost grounds use Voyager to complete them at acceptable quality within their original budgets? A paid pilot that records the prior workflow estimate and the actual cost of labor, generation, subscriptions, and rework would test the threshold. If creators cross it and pay for a second project after trying a workflow with comparable models, move to Reach out.

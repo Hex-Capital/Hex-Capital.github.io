@@ -5,36 +5,36 @@
 
 ### Company case
 
-The strongest path is a strategic sale to a commercial real estate brokerage. JLL’s acquisition of Raise establishes that a large brokerage has bought a business combining brokerage and software. Obia’s potential value to a buyer is earlier screening for zoning, loading, and power constraints, which could reduce broker research time and unsuitable tours. Obia reports using that workflow for an unnamed logistics operator. The memo provides no measured savings or evidence of buyer interest in Obia. (The Idea, Market & Traction)
+A strategic acquisition by a national commercial real estate brokerage is Obia’s strongest supported route. JLL’s acquisition of Raise shows that a brokerage will buy a business that combines leasing services and software. Obia’s potential buyer benefit is earlier screening for zoning, loading, and power constraints, which could reduce broker research and avoid unproductive tours. Obia reports using its workflow for an unnamed logistics operator, but the memo gives no measured savings or evidence of buyer interest. (The Idea, Market & Traction)
 
-A seed-stage milestone would be repeat lease closings in Obia’s launch market with measured reductions in screening time and positive contribution margins after broker and data costs. Cho reports $1.05 million in closed lease value over 22 days. The memo leaves the brokerage fees and margins unquantified. YC participation and its published $500,000 standard commitment provide an early funding signal. Obia’s available cash and the cost of reaching the milestone are unknown. (The Idea, Market & Traction)
+Cho reports $1.05 million in closed lease value over 22 days. That is an early signal that Obia can get deals closed. Fee receipts, contribution margins, and repeatability remain unverified. Announced YC participation provides some funding support for a pilot that measures screening accuracy, broker hours, and fees collected across completed deals. The capital and time needed to repeat those results across markets remain unclear. (Market & Traction, Key Facts, Key Risks)
 
-Using the benchmark $500,000 check at a $10 million post-money valuation, ownership starts at 5% and dilutes to 3% with no follow-ons. The eight-year objective is $2.5 million in cash, requiring about $83.3 million in distributable equity value if the holder receives its full pro rata share. The memo gives no acquisition price for Raise and no Obia-specific buyer economics to anchor a sale price. (Market & Traction)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, requiring about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative assumptions. Both assume an eligible holder sells the entire stake for cash within eight years and receives 3% of the remaining equity proceeds after debt and deal adjustments, with no additional preference deductions.
 
-The sale cases below are illustrative assumptions. Both assume $5 million in net debt and other closing deductions, no senior preference taking proceeds ahead of the holder, and an eligible holder whose full stake is cashed out pro rata within eight years.
+| Scenario | Proceeds bridge | Holder cash |
+|---|---|---:|
+| Modest sale | $40M enterprise value less $5M in debt and deal adjustments leaves $35M | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in debt and deal adjustments leaves $90M | $2.70M (5.4×) |
+| Prolonged private | Cash is reinvested and no eligible share purchase occurs within eight years | $0 |
 
-| Scenario | Enterprise value to distributable equity | Cash to holder |
-|-----------|-------------------------------------------|----------------|
-| Modest sale | $50M less $5M = $45M | $1.35M (2.7×) |
-| Strong sale | $100M less $5M = $95M | $2.85M (5.7×). If 20% of the holder’s proceeds are rolled over or delayed beyond year eight, cash received falls to $2.28M (4.56×). |
-| Prolonged private | Continued operation with cash reinvested | $0 realized within eight years. The memo identifies no funded payout or eligible secondary. |
+Selling only half the stake in the strong case would yield $1.35 million. The memo supplies neither a price for the Raise acquisition nor Obia economics that support a sale above the hurdle. It also provides no evidence of an independent route that pays this holder. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An incumbent could build pre-tour screening into its existing tools and rely on local brokers to resolve uncertain property data. CBRE already uses AI for lease-data extraction and research, and the memo quantifies neither Obia’s matching gains nor the size of its dataset. Obia’s terms name a sole proprietorship while its footer names Obia Inc., leaving ownership of the assets and contracts a buyer would need to acquire unresolved. State-by-state brokerage requirements add a separate expansion risk. These facts weaken the acquisition case and leave closing feasibility open. They do not establish a structural block or a supported sale-price range that consistently falls short of the holder’s objective. (Defensibility, Key Risks)
+An incumbent could build the screening workflow internally. CBRE already uses AI for lease-data extraction and research, and Obia sends uncertain findings to brokers for review. That weakens the case for paying an acquisition premium unless Obia shows measurable gains over the incumbent workflow. Obia’s terms identify a sole proprietor while its footer identifies Obia Inc., creating a concrete diligence issue over which entity owns the assets and can transfer the contracts. State-specific brokerage requirements add execution risk. The memo establishes neither a structural closing block nor inadequate proceeds under the strongest plausible sale, so the Pass gate is untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Would a strategic brokerage’s measured savings and incremental commission profit from Obia’s workflow support a purchase price that clears the holder’s cash hurdle? Results across repeat paid placements, paired with a buyer’s credible valuation range that supports at least $2.5 million in holder cash after deductions and deal terms, would move the action to Reach out. A supported range that falls materially short even under favorable terms would move it to Pass.
+Would a production pilot give a national brokerage an economic reason to buy Obia at a price that could clear the holder’s proceeds hurdle? A pilot that measures broker time saved and incremental contribution profit against the buyer’s existing workflow, paired with a buyer-side valuation that supports at least $83.3 million in distributable equity value under the assumed terms, would move the action to Reach out.

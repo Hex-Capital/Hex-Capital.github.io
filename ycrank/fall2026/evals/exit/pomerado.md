@@ -5,34 +5,32 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a browser or agent infrastructure provider. A buyer such as Browserbase could add hosted, maintained MCP and REST integrations for legacy portals to its browser and workflow products. The public catalog grew from 46 to 584 tools, which shows Pomerado can expand coverage. The founders report use by car dealerships, but the memo gives no paid deployment or measured customer savings that would tell a buyer what owning the service is worth. (The Idea, Market & Traction)
+Pomerado’s strongest exit route is a strategic acquisition by a browser infrastructure or agent-workflow platform such as Browserbase. A buyer could add hosted, repairable MCP and REST integrations for legacy portals to its existing workflow tooling. The memo records catalog growth from 46 tools across 23 sites to 584 tools across 447 sites. The founders report dealership use and a 2.2% run error rate, with 82% of errors repaired automatically. Those claims support testing whether the integrations would save a buyer meaningful development and maintenance costs. Paid usage, renewal, and buyer willingness to pay remain unverified. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale scenarios below assume an eligible holder sells the full stake and receives cash at closing pro rata, with no senior claims. The prices are illustrative assumptions. The memo reports published pricing but provides no realized revenue or buyer economics to support an acquisition price. (Market & Traction, Key Facts)
+A concrete milestone is three paid enterprise deployments that renew after portal changes and document successful runs and maintenance cost against a browser-automation baseline. Catalog growth and the reported $500,000 YC note make an initial test plausible. The operating budget, runway, and time to reach the milestone remain unknown. (*Market & Traction*, *Key Risks*)
 
-| Scenario | Proceeds to the holder |
-|----------|------------------------|
-| Modest sale | $40 million enterprise value with no debt or deal adjustments gives $40 million in distributable equity and $1.2 million in cash, or 2.4×. |
-| Strong sale | $100 million enterprise value with no debt or deal adjustments gives $100 million in distributable equity and $3 million in cash, or 6×. If debt and deal adjustments reduce that equity value by $20 million, cash falls to $2.4 million, or 4.8×. |
-| Prolonged private | Continued operation with cash reinvested produces zero realized proceeds within eight years. The memo provides no evidence of an eligible secondary or funded payout. |
+The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years, requiring about $83.3 million in distributable equity value at 3%. Both sale scenarios assume an eligible holder sells its entire stake for cash by year eight and receives a pro rata share with no senior preference or holdback. These are illustrative assumptions. Buyer pricing, the actual waterfall, transfer permissions, and holder eligibility remain unverified. (*Market & Traction*, *Key Risks*)
 
-A seed-stage milestone is repeat paid production use on authorized legacy portals, with measured maintenance cost and reliability through portal changes. Catalog growth and founder-reported use make a test plausible. The reported YC note leaves available runway and the capital needed for those deployments unverified. A company sale appears feasible in principle, with customer contract continuity and portal access after closing still open. (Market & Traction, Key Risks)
+- **Modest sale.** $50 million in enterprise value less $10 million in assumed net debt and deal adjustments leaves $40 million in distributable equity. The holder receives $1.2 million, or 2.4×.
+- **Strong sale.** $100 million in enterprise value less the same $10 million leaves $90 million in distributable equity. The holder receives $2.7 million, or 5.4×. At 2.5% ownership, proceeds fall to $2.25 million, or 4.5×.
+- **Prolonged private.** Continued operation with cash reinvested yields zero realized proceeds within eight years. The memo provides no evidence of an eligible secondary, public resale, or funded payout.
 
 ### Countercase
 
-The MIT-licensed core and Skyvern’s announced workflow compilation and repair approach give a buyer reasons to build or adopt a substitute. Portal operators can also change access policies, and Pomerado’s terms require customers to maintain authorization. Those risks weaken the case for paying a strategic premium. The memo establishes neither a substitute for the maintained service nor a closing barrier or supported price range that would trigger the Pass gate. (Defensibility, Key Risks)
+A buyer could adopt Pomerado’s MIT-licensed core or develop a similar capability. Skyvern has announced a similar workflow compilation and repair approach, and portal operators can change access policies while Pomerado’s terms place responsibility for authorization on customers. That weakens the case for buying the catalog and leaves continuity of access after a sale unresolved. The memo establishes neither a structural closing block nor a credible price range that would put proceeds below the hurdle, so the Pass gate does not trigger. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Do repeat paid deployments show enough savings in integration and maintenance to justify a strategic purchase above the holder’s proceeds hurdle? Customer-verified results through portal changes, paired with a credible buyer’s build-versus-buy analysis supporting at least $83.3 million in distributable equity under the benchmark terms, would move the action to Reach out.
+Do renewing paid deployments show enough savings after portal changes to give a strategic buyer an economic reason to acquire Pomerado at a price that clears the holder’s cash hurdle? Move from Watch to Reach out if production records from three renewing enterprise customers quantify those savings and a credible buyer-side estimate supports at least $83.3 million in distributable equity under the benchmark terms.

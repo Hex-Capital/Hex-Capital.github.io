@@ -5,13 +5,15 @@
 
 ### Company case
 
-Conditional on strong fit with an initial military buyer, the strongest path is selling the same product family to multiple authorized buyers. Polemos says existing precision-strike systems are costly and scarce and claims that higher production volume could lower its unit costs. The shared need across buyers is plausible. The amount of adaptation required to serve buyers in other markets remains unknown. (The Idea, Key Risks)
+Assuming strong product-market fit with an initial armed-forces buyer, Polemos’s proposed missile and launcher family could address the same precision-strike job for eligible buyers in other markets. That is an inference from the common product design and the company’s stated buyer need. The memo identifies export licensing as a constraint on access and leaves the extent of buyer-specific adaptation unresolved. (The Idea, Key Risks)
 
-The memo records a Nov 5 launch and 566,813 views by Nov 10. That measures attention. The path from buyer discovery through purchase and onboarding, realized sales, and repeat paid orders all remain unverified. For the next order, contribution would be realized revenue less incremental selling, onboarding, production, and delivery costs, including any added capacity required for the order. The memo gives no price or attributable cost inputs to test the volume claim. (The Idea, Defensibility, Market & Traction, Key Risks)
+The memo records 566,813 views for the founder’s launch post by November 10. That establishes a way to generate attention. The path from discovery through purchase and first use remains undocumented. The memo also leaves revenue status unknown, so initial traction takes the absent-evidence default. Repeat contract awards are a possible retention mechanism, but the memo describes them as an inference and supplies no award history, billing terms, or evidence of higher spending within an account. (The Idea, Market & Traction, Defensibility, Key Risks, Key Facts)
+
+Polemos claims that volume production will lower unit cost. Incremental contribution would depend on realized revenue per order less attributable selling, onboarding, manufacturing, and delivery costs, including any capacity added to fulfill the order. The memo gives no price or operating cost inputs to establish the direction or size of that contribution. (The Idea)
 
 ### Countercase
 
-Export licensing limits access to foreign buyers even if the product meets the first buyer’s needs. Polemos also lists testing as a next step, leaving product validation unresolved. The structural downside gate stays open because the memo establishes an approval requirement and leaves the extent of market-specific work and the economics of serving additional buyers unknown. (Key Risks)
+Even with strong initial fit, international approvals could restrict the pool of accessible buyers, and higher order volume could require capacity spending that absorbs the claimed production savings. Polemos also lists testing as a next step. The structural downside gate stays open because the memo establishes an approval constraint but leaves both substantial market-by-market rebuilding and structurally weak incremental contribution unproven. (The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -27,4 +29,4 @@ Export licensing limits access to foreign buyers even if the product meets the f
 
 ### Decisive diligence question
 
-Can Polemos document a completed, paid sale of the same configuration to a second buyer in an export-authorized market through a comparable purchasing and onboarding process, with positive contribution after attributable costs? That milestone would warrant rescoring for Reach out if the revised score reaches 65 and confidence reaches Medium. Evidence that every new market requires substantial bespoke rebuilding without a credible transfer path would change the action to Pass.
+Can a second eligible buyer in a different market reach paid use with substantially the same product, bounded buyer-specific work, and positive incremental contribution? A realized sale with documented adaptation, onboarding effort, and attributable costs would answer the question. Move to Reach out if the resulting reassessment reaches the rubric’s score and confidence thresholds. Evidence that substantial rebuilding is unavoidable would move the action to Pass.

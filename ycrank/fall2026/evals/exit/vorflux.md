@@ -5,28 +5,32 @@
 
 ### Company case
 
-Vorflux’s strongest path is a strategic acquisition by a developer-tool platform seeking to add recurring engineering workflows. Vorflux describes a product that combines persistent repository and test context with scheduled Slack roles, approval routing, and browser test evidence. An acquirer could use that combination to extend its distribution into recurring work such as backlog maintenance. Cursor’s acquisition by SpaceX shows that a coding-agent platform can attract a strategic buyer. The memo gives no transaction price or buyer economics that would anchor a valuation for Vorflux. (The Idea, Defensibility, Market & Traction)
+A strategic sale to a developer-tools platform is Vorflux’s strongest route. Vorflux launched AutoBots in November and describes it as combining recurring Slack roles, budgets, approval routing, and browser-test evidence. In company-published testimonials, TrashLab describes shipping a feature from a Slack request, and Supermemory reports fixes across six repositories. A platform could buy Vorflux to bring those workflows to its customers faster than it could build them internally. Cursor’s acquisition shows strategic activity in the category, while Vorflux’s buyer savings and likely sale price remain unmeasured. (The Idea, Market & Traction)
 
-The reported $15 million seed and November AutoBots launch make paid production trials a plausible next milestone. Company-published testimonials describe TrashLab shipping a change from Slack and Supermemory completing fixes across six repositories. Those accounts establish specific uses, while repeat paid usage, comparative savings, and the cost of scaling enterprise onboarding remain unverified. Customer-supplied keys and multiple model providers give an acquirer options for keeping the product running. IP ownership, contract consents, model subscription continuity, and holder participation rights remain unverified. (Market & Traction, The Idea, Key Risks)
+The announced $15 million seed round and reported customer deployments support a plausible next milestone over the coming year. Paid production deployments that renew and show lower engineering review time per accepted change than existing tools would strengthen the acquisition case. Burn, pilot conversion, and the capital needed to reach that milestone remain unknown. Transfer rights, required consents, and holder eligibility also remain unverified. The memo provides no evidence of a funded distribution or an eligible secondary or public sale. (Market & Traction, Defensibility, Key Risks)
 
-Using the rubric’s benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity value. For illustration, assume a sale of 100% of the company for cash within that window, $10 million in combined net debt and deal deductions, and an eligible holder receiving 3% of the remainder with no senior preference or escrow withholding. A modest $50 million enterprise value yields $40 million in distributable equity and $1.2 million to the holder (2.4×). A strong $100 million enterprise value yields $90 million and $2.7 million (5.4×). At 2.5% ownership, that same strong sale yields $2.25 million (4.5×). The memo leaves realizable price and actual waterfall terms open. In the prolonged-private case, continued reinvestment yields zero realized cash, and the memo supplies no evidence of an eligible secondary or funded payout. (Market & Traction, Key Facts)
+Under the shared benchmark, a $500,000 check buys 5% initially, diluted to 3% with no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity value. Both sale scenarios are illustrative. They assume an all-cash close within eight years, $5 million in combined net debt and deal adjustments, full participation by the holder, and a pro rata waterfall with no further senior claims.
+
+- **Modest sale.** $40 million in enterprise value yields $35 million in distributable equity and $1.05 million to the holder, or 2.1×.
+- **Strong sale.** $100 million in enterprise value yields $95 million in distributable equity and $2.85 million to the holder, or 5.7×. If deductions rise to $20 million, the holder receives $2.4 million, or 4.8×.
+- **Prolonged private operation.** If Vorflux reinvests available cash and the holder has no eligible sale, realized proceeds are $0 within eight years.
 
 ### Countercase
 
-Cognition already offers Slack-triggered work and incident triage, while Cursor already offers remote browser testing and video evidence. A buyer could extend capabilities it already has, especially while Vorflux lacks evidence that its configured workflows improve retention or lower the cost of accepted changes. That weakens the case for an acquisition premium and makes the strong proceeds scenario speculative. The evidence establishes neither a structural closing barrier nor a credible price ceiling below the holder’s hurdle, so the Pass gate does not trigger. (The Idea, Defensibility, Key Risks)
+A platform may be able to build the remaining workflow on top of what it already offers. Devin already handles event-triggered work, Cursor already provides browser tests and video evidence, and the memo gives no retention or switching data showing that Vorflux’s configured workflows are hard to replace. That overlap weakens the case for a purchase premium. The buyer’s build-versus-buy economics remain unresolved, so the evidence supports Watch and falls short of the Pass gate. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 13/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-What acquisition price could a developer-tool platform justify from Vorflux’s measured savings on recurring engineering work? Renewed paid deployments showing a lower cost per accepted change than incumbent workflows, paired with buyer economics supporting at least $83.3 million in distributable equity within eight years at 3% ownership, would move the action to Reach out.
+Can Vorflux’s recurring AutoBots workflows deliver enough measurable value over existing tools to justify an acquisition that clears the holder’s proceeds hurdle? Renewed paid deployments showing lower review time per accepted change, paired with a credible buyer-side estimate supporting at least $83.3 million in distributable equity within eight years, would move the action to Reach out.

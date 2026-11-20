@@ -5,26 +5,27 @@
 
 ### Company case
 
-Degla’s strongest AGI thesis path is **New Economies**. Search-and-rescue teams spend operator time planning flights and coordinating aircraft. Degla says its onboard vision-language model turns spoken objectives into flight plans and adapts them using camera input. The live flight demonstration at REACH’s Chula Vista site establishes that the team got a prototype into the field. The memo gives no comparative operator hours, miss rates, or repeatability results. Hanafi’s prior autonomous-systems work and the field demonstration support seed-stage execution, with repeatable performance still to prove. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Degla has a seed-stage path to making drone search and rescue viable for agencies that can’t staff a specialist for every mission. Existing workflows require operators to build flight plans and coordinate aircraft. Degla says its onboard vision-language model turns spoken objectives and camera input into flight plans and replans locally. The memo records a live flight demonstration at REACH’s Chula Vista test site, but gives no comparative staffing or mission-success data. The scenario assumes some agencies currently defer otherwise useful searches because specialist time is too costly or unavailable. If onboard autonomy reduces planning and supervision time while preserving search reliability, those agencies could fly missions they would otherwise skip. Aircraft integration, flight validation, authorization, and field operations would still be required under model parity. (The Idea, Market & Traction, Key Risks)
 
-The market-opening scenario is that staffing-constrained agencies could fly searches they currently defer if Degla materially lowers the cost per successful mission. The comparison would include planning, coordination, required supervision, interventions, and repeat flights, plus aircraft, onboard compute, maintenance, and authorization costs spread across successful missions at realistic utilization. Degla advertises two aircraft tiers and solicits pilots. The memo gives no paid commitment from a target buyer, deployment price, or cost data to establish willingness to pay or contribution per deployment. (The Idea, Market & Traction, Key Facts, Key Risks)
+The building-block path earns zero. Degla uses onboard AI to deliver drone missions, and the memo identifies no scarce input Degla supplies to a growing AI workload. For the drone business, reported pilot-informed training and flight integration provide early operating know-how, with durability untested. The flight demo and founder’s autonomous-systems experience support prototype execution. Pilot invitations establish an offer, while buyer commitments and the revenue and delivery costs for an additional deployment remain unverified. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-Degla could improve an existing drone-response workflow while agencies continue buying from incumbents with established dispatch integrations and sales channels. Required supervision or frequent intervention could also erase the labor savings. Degla reports training on expert-pilot decisions and testing in flight, which gives it an integration and validation head start. The memo shows no exclusive data, buyer preference under model parity, or control of scarce assets or service execution. Both New Economies gates remain open because the evidence has yet to establish a newly viable use or a durable reason to pay Degla. There is no independently supported scarce-complement path. (Defensibility, Market & Traction, Key Risks)
+Agencies may still need essentially the same specialist coverage if authorization conditions, missed detections, or manual interventions keep operators on duty throughout each flight. Degla would then offer a faster planning interface for missions agencies already fly. Readily available onboard hardware and incumbents’ dispatch integrations and distribution would further limit Degla’s ability to capture the savings. The memo establishes neither staffing parity nor reduced supervision, so the decisive economics gap supports Watch. A representative result showing only faster planning for existing missions would remove the supported path and trigger Pass. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 8/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 26/150** (Pass)
 
 ### Decisive diligence question
 
-Will a staffing-constrained search-and-rescue agency pay to expand after a pilot shows it can run searches it previously deferred? Move to Reach out if an authorized, paid pilot measures materially lower all-in cost per successful mission against the agency’s existing workflow at comparable detection and response performance, and the agency commits to expand at a price that covers deployment and support because Degla’s validated aircraft integration matters even with comparable models available. Keep Watch while the result is inconclusive. Pass if the pilot shows supervision erases the savings or comparable options meet the agency’s needs without Degla.
+Can Degla bring a search mission an agency currently skips for staffing or cost reasons within that agency’s operating budget? A representative, authorized agency pilot should compare the current workflow with Degla on specialist time, search success, and fully loaded cost per successful mission, including aircraft, supervision, interventions, and failed sorties. Move to Reach out if the pilot preserves the agency’s required reliability and the agency confirms it would run the newly affordable missions. Move to Pass if the comparison shows the same missions remain uneconomic.

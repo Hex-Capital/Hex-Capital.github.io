@@ -5,15 +5,15 @@
 
 ### Company case
 
-Resin’s strongest path is bottom-up adoption by hardware teams that design PCBs repeatedly. Assuming strong fit with those teams, browser signup and editable KiCad and Altium imports and exports let engineers try schematic generation and routing on an existing project. The same workflow could travel across markets with limited adaptation because it uses existing design files, component datasheets, and project-specific rules. The October YC launch provides a concrete discovery channel. Browser signup and free credits support independent trials, while self-serve payment and production onboarding remain unverified. (The Idea, Key Risks, Market & Traction)
+Assuming strong product-market fit with PCB engineers, Resin has a credible path to serving the same design workflow across markets. Its browser editor handles schematics, component selection, and routing, and editable KiCad and Altium imports and exports let engineers bring existing projects. Those product features support broad portability, though the memo leaves open how often local parts availability would require substitutions. (The Idea, Key Risks)
 
-Resin advertises monthly plans and per-seat Pro pricing. Reusable component libraries give teams a reason to return for subsequent boards, and additional paid seats could grow revenue within an account. The October terms and November pricing differ, and the expansion case is inferred. The founder reports that unnamed teams shipped boards in hours instead of weeks. The memo establishes neither their payment status nor a commercial growth rate, so initial traction receives the absent-evidence default. (The Idea, Defensibility, Market & Traction)
+The YC launch offered signup credits, and Resin provides self-serve browser signup. Engineers can plausibly start with an existing board, but the memo leaves checkout and unassisted progress to a production-ready design unverified. For teams designing boards repeatedly, Resin says approved symbols and footprints can be reused across projects. Its advertised monthly plans and additional Pro seats give retained teams a way to spend more as adoption spreads. The October terms list a different price schedule, and actual renewals and seat expansion remain unverified. (The Idea, Defensibility, Key Risks)
 
-In a Lite-plan scenario at the advertised $39 per month, contribution depends on what remains after AI and routing compute, support, and attributable acquisition and onboarding effort. The free tier’s monthly credit cap provides a lever to limit trial AI usage. The memo gives no measured cost per workload or support burden, so contribution at realistic usage remains uncertain. (The Idea, Key Risks)
+Resin launched publicly in October 2026. The founder says unnamed teams shipped boards in hours, which suggests potential workflow value. Payment status and commercial growth remain unknown. In a self-serve scenario, incremental contribution would be subscription revenue less AI generation, routing compute, and attributable onboarding and support. The memo supplies no operating measurements to estimate that contribution. The documented product and signup path support Medium confidence in the growth mechanism, with paid adoption and cost still unresolved. (Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-Teams may try Resin for drafting and still rely on incumbent tools for production. Resin labels autorouting beta, warns of wiring, component, and clearance errors, and requires engineering review before fabrication. Existing tools already offer parts of the automation, and security review could slow adoption at some buyers. The structural downside gate stays clear because the documented review is work for the customer’s engineers, and the memo does not establish unavoidable Resin-led implementation or substantial rebuilding by market. (Defensibility, Key Risks)
+Resin could become a tool engineers try on a single board while keeping repeat projects in their existing design suite. Resin labels autorouting beta and requires engineering review before fabrication, while Cadence already offers placement and routing automation inside its own tools. Rework could erase enough of Resin’s time savings to limit repeat paid use, and security reviews could slow adoption at larger buyers. The structural gate clears because the browser workflow and editable imports give teams a plausible path to adoption, and the required fabrication review is engineering work on the buyer’s side. (Key Risks, The Idea, Defensibility)
 
 ### Dimension Scores
 
@@ -21,12 +21,12 @@ Teams may try Resin for drafting and still rely on incumbent tools for productio
 |-----------|-------|
 | Global buyer demand | 21/25 |
 | Repeatable acquisition and onboarding | 16/25 |
-| Retention economics | 15/20 |
+| Retention economics | 16/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
 **Total Score: 64/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of hardware teams go from browser signup to a paid plan and a fabrication-ready board without hands-on help from Resin? Matched signup, billing, project, and support records showing that several teams completed that path promptly would move the action to Reach out. Evidence that teams still need hands-on help would keep Resin on Watch.
+Can a cohort of PCB teams sign up independently, pay, and complete a production board without hands-on help from Resin? A dated cohort showing repeatable paid activation and positive contribution after compute and support would move the action to Reach out.

@@ -5,26 +5,30 @@
 
 ### Company case
 
-Conditional on strong product-market fit, Sinter’s strongest path is to become the default supplier for hardware teams that repeatedly revise plastic parts. Its public FDM prototype workflow accepts designs through the website, REST API, and MCP integration. Orders are prepaid against quotes, and automated manufacturability checks and mesh repair handle routine files, with engineering review for exceptions. The same digital workflow could serve hardware teams across markets, though the memo leaves delivered lead times and fulfillment costs outside the current production footprint unresolved. The API could make repeat ordering part of a team’s design workflow, with spending rising as teams submit more jobs. That expansion is inferred from per-order pricing and the recurring work. Repeat purchasing remains unverified. (The Idea, Defensibility, Market & Traction)
+Assuming strong product-market fit with hardware teams that revise plastic parts frequently, Sinter’s growth path is to use online prototype ordering to acquire buyers and convert some of them to short-run molding. The design-file workflow is reusable, and the same iteration job plausibly recurs abroad. With production documented in San Francisco, overseas delivery times, landed costs, and any need for local capacity remain uncertain. (The Idea, Market & Traction)
 
-Sinter reports producing more than 500 kg of parts with customers in its first month. The paid share and commercial growth are unknown, so initial traction receives the absent-evidence default. On a standard prototype order, incremental contribution is the prepaid quote less materials, machine time, handling, shipping, and any attributable sales or engineering labor. Automated repair can reduce review time per order. Machine utilization, exception rates, and the cost of adding capacity determine how much of that benefit survives at higher volume. (The Idea, Defensibility, Market & Traction, Key Facts)
+Prototype buyers can submit designs on the website or through REST and MCP integrations and prepay against a quote. Automated manufacturability checks and mesh repair make routine intake repeatable, with engineering review for exceptions. Molding still relies on founder-led pilot recruitment, so the path from online discovery to a paid molded part remains unproven. No-minimum molding orders could bring buyers back for successive design revisions and larger runs, but the memo gives no evidence of repeat purchases or sustained account expansion. (The Idea, Defensibility, Key Risks)
+
+Sinter reports producing more than 500 kg with customers in the first month. That shows early production activity for a team listed at two, but the memo gives no paid share, realized revenue, or comparable period for assessing commercial growth. Initial traction therefore uses the rubric default. (Sinter, Market & Traction, Key Facts)
+
+For molding, the contribution test starts with per-part revenue across the order and deducts tool fabrication and replacement, materials, press time and added capacity, engineering and setup labor, and fulfillment. If printed inserts last through the run, printing tools for existing presses could reduce tooling cost per job. Sinter claims 48-hour production at one-tenth the time and cost of traditional methods. The memo gives no representative job costs or Sinter-specific tool-life data to establish contribution. (The Idea, Key Risks)
 
 ### Countercase
 
-Fast quoting could feed a production operation whose labor and machine capacity rise roughly in step with orders. Molding offers potential upside, with Sinter claiming 48-hour turnaround at one-tenth the time and cost of traditional methods, but pilots are recruited through founder outreach and tool life across resins and geometries remains unknown. The structural downside gate stays open because prototype quoting already automates some per-order work and the memo leaves the severity of the fulfillment constraint unresolved. (The Idea, Defensibility, Key Risks)
+Sinter could remain a quick-turn job shop if each new geometry requires substantial engineering and short-lived inserts drive retooling and press downtime. That would tie growth to labor and press capacity. Protolabs’ advertised one-day aluminum molding also weakens speed as a reason to reorder. The structural downside gate stays open because the memo leaves the amount of required manual work and the economics of representative runs unresolved. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 16/25 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 13/25 |
 | Retention economics | 9/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 51/100** (Neutral)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can the standard prototype workflow profitably serve a growing base of repeat buyers across markets? Several comparable periods of paid order data showing growing buyer counts, repeat spend, and healthy contribution after fulfillment and attributable labor would answer it. If that evidence lifts the score to at least 65 and confidence to Medium or High, move to Reach out. If it shows unavoidable per-order work or capacity costs make faster growth uneconomic, move to Pass.
+Can a cohort of hardware teams, including overseas buyers, place and repeat paid molding orders through a standard intake flow at positive contribution as volume rises? Dated order and job-cost records would answer this if they show repeat invoices, limited engineering intervention, viable delivery times, and positive contribution after retooling and capacity costs. Move to Reach out if that evidence supports at least 65 points and Medium or High confidence.

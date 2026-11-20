@@ -1,32 +1,33 @@
 ﻿# Quivly AI -- AGI Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Quivly’s strongest path. Usage-priced software vendors could offer guided onboarding to accounts that previously went without it because engineer time was too costly. Octolane reports onboarding more than 100 customers without a dedicated customer engineering hire. Quivly separately reports eight hours saved weekly per forward-deployed engineer. The former delivery cost was the engineer time spent reconciling account information, coordinating tasks, and resolving blockers. The memo gives neither that baseline in dollars nor the remaining labor and rework per successful go-live, so both the cost reduction per outcome and the opening of a previously unserved market remain unverified. (The Idea, Market & Traction)
+Quivly has a supported AGI-enabled industry path in onboarding for usage-priced B2B software vendors that lack dedicated customer engineers. The prior workflow required staff to reconcile calls, tickets, Slack threads, and spreadsheets by hand. Quivly turns those inputs into shared launch plans with assigned tasks. Octolane reported onboarding 100+ customers without a dedicated customer engineering hire, and Mycroft reported handling 3–4× more accounts per field engineer. The seed-stage inference is that vendors with limited engineering capacity could offer hands-on onboarding to accounts they would otherwise serve through self-service. The memo leaves the cost per successful launch, including approvals and rework, unmeasured. (The Idea, Market & Traction, Key Risks)
 
-Mycroft’s use of Quivly to track implementation milestones and billable hours shows workflow embedding at one customer. Any resulting switching cost is inferred. Multiple named customers show adoption, while actual payments and renewals remain unverified. The team has relevant customer-intelligence and billing experience and shipped the post-sales product and an MCP integration. A comparative field test is the next execution milestone. (Defensibility, Market & Traction, Founders & Team, Key Facts)
+Quivly earns zero for building blocks of superintelligence. Its agents use AI to deliver post-sales workflows. The memo identifies no scarce input to AI deployment that Quivly supplies or relieves. (The Idea)
 
-A managed account is the expansion unit. At full account capacity, both listed monthly tiers imply $10 in subscription revenue per managed account before discounts. That scenario leaves inference, connector maintenance, support, and any human review Quivly provides to be covered. The memo gives no per-account costs or exception rates, so contribution at scale remains unverified. (The Idea, Key Risks)
+Under model parity, customers still need integrations, shared project state, and approval controls to run onboarding. Mycroft’s use of Quivly to track implementation milestones and billable hours shows workflow embedding at one customer. Switching costs remain an inference. Named customers and Quivly’s reported 18,000+ downstream accounts indicate use, while paid conversion and retention remain unknown. The founders bring relevant customer intelligence and billing experience, and the team shipped an integration that exposes account context to external assistants. Reliable exception handling remains open. Published subscriptions start at $500 per month, with insufficient evidence on Quivly’s delivery costs to estimate contribution from the next customer. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Quivly may be making an existing customer-success workflow cheaper while incumbents automate it from account data they already hold. ChurnZero runs agents inside existing Plays, and Gainsight offers managed renewals. The overlap makes substitution credible, while Mycroft’s workflow use leaves buyer preference under functional parity untested. The memo documents neither parity-driven switching nor control of a scarce complement. The New Economies path remains open, with market opening and durable buyer preference both unproven. (Defensibility, Market & Traction, Key Risks)
+Octolane’s result could reflect faster delivery of onboarding it would have offered anyway. The memo gives no baseline for which accounts previously went without hands-on onboarding. ChurnZero already runs agents in existing workflows, and Vitally can write tasks and notes from account context it already holds. Those substitutes could narrow Quivly’s advantage as model capability converges. The reported customer results support partial fit, with Watch appropriate until a paid deployment shows that the labor savings open a previously uneconomic use. (Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 10/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 30/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 55/150** (Neutral)
 
 ### Decisive diligence question
 
-Will independent usage-priced vendors renew Quivly at a price that supports positive contribution for guided onboarding they previously could not afford, when a functionally comparable incumbent option is available? A cohort showing lower fully loaded cost per successful go-live at the same quality standard, with paid renewals despite that alternative, would move the action to Reach out. Observed ready switching under parity would close the only evidenced path and move the action to Pass.
+Can a paid customer use Quivly to deliver hands-on onboarding to a cohort it previously served through self-service, at a fully loaded cost the account economics can support? A deployment that documents the prior workflow, measures launches against the customer’s go-live criteria, and includes subscription, staff review, and rework costs would answer it. Evidence that the cohort becomes economically viable would move the action to Reach out. Evidence that Quivly only speeds up onboarding already offered would move it to Pass.

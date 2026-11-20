@@ -1,32 +1,33 @@
 ﻿# ernd -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is a scarce complement through priority GPU and inference access. The founders report that GPU suppliers quoted unfavorable terms or had no capacity available for their small startup while reserving better terms and capacity for larger buyers. If ernd can pool cardholder spend and secure enforceable allocations, it could give small buyers reliable access they struggle to obtain directly. Priority capacity was still planned at launch, so both the breadth of the bottleneck and ernd’s ability to relieve it remain unverified. (*The Idea, Key Risks*)
+**Building blocks.** ernd pools startup AI spending through a corporate card. Its live offers include Wafer cash back and higher Firecrawl usage limits. Priority GPU and inference access remained a plan at launch. The memo leaves open which workloads face persistent capacity shortages and whether ernd’s purchasing pool can secure usable supply for them. That leaves this path at zero. (The Idea, Defensibility, Key Risks)
 
-Published offers show ernd can negotiate benefits such as higher Firecrawl usage limits and Wafer cash back. Those benefits are revocable, which limits their value as evidence of durable control. The memo reports 30+ first-week card requests and three providers paying for listings. That shows early interest in the card and willingness to pay for placement. Repeat card spend and buyer commitments tied to capacity remain unverified. The public card launch and the founders’ payments, infrastructure, and finance experience support seed-stage execution credit. Delivering reserved capacity is the next operating test. (*Defensibility, Key Risks, Market & Traction, Key Facts, Founders & Team*)
+**Industry enabled by superintelligence.** The card lowers eligible AI spending through rewards and partner perks. The memo describes a procurement discount and spend controls. It identifies no previously excluded buyer or use that becomes viable because AI reduces the cost of delivering a successful outcome. That leaves this path at zero and triggers Pass. (The Idea)
 
-The expansion unit is an active card account. Under a scenario in which ernd receives card revenue, its share plus attributable partner revenue would need to cover rewards, servicing, and any issuer or funding costs ernd bears. The advertised 4% reward on qualifying AI spend makes that bridge material. The memo provides no usable inputs for net card revenue, reward funding, or per-account contribution. (*The Idea, Key Risks*)
+**Shared diligence.** Live partner benefits give ernd some differentiation, but vendors can withdraw them, Coastal Community Bank controls approvals and cardholder terms, and competing products already offer AI rewards or spend tracking. The memo reports more than 30 first-week card requests and three providers paying for listings at undisclosed rates. Card activation and repeat spending remain unverified. The public launch and the founders’ payments and infrastructure experience support execution credit, with dependable card operations still unproven. Listing payments and the advertised $39 monthly key-protection price give partial visibility into revenue sources. Revenue and costs per active cardholder remain unknown, so scale economics stays at the default. (Defensibility, Key Risks, Market & Traction, Founders & Team, The Idea)
 
 ### Countercase
 
-The strongest countercase is that ernd becomes an AI rewards card whose core features are available elsewhere. Dash.fi already offers AI-specific rewards, Ramp tracks AI spend, providers can withdraw perks, and Coastal Community Bank controls card approval and terms. That weakens value capture today. Comparable access to genuinely scarce GPU or inference capacity remains untested, so the substitution evidence supports Watch. The card also serves existing AI purchases, and the memo gives no evidence of a labor-cost reduction per successful outcome that opens a previously uneconomic use. The New Economies path remains unsupported. (*Defensibility, Market & Traction, Key Risks, The Idea*)
+The founders report that GPU suppliers gave small startups unfavorable quotes or had capacity unavailable, while reserving better terms and supply for larger buyers. If pooling cardholder demand gives suppliers enough committed volume to reserve capacity, ernd could help small teams run inference workloads they otherwise would have to delay. The live vendor offers show ernd can negotiate perks. The capacity case still rests on the founders’ procurement account and a planned offering, with purchasing volume and supplier-backed allocations unverified. The Pass gate still applies. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 8/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 7/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 19/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Can ernd complete a paid pilot in which independent small startups repeatedly use capacity secured under an enforceable supplier reservation that they could not obtain directly on comparable terms? Verified repeat usage and positive contribution after rewards and fulfillment costs would move the action to Reach out. Evidence that buyers can readily obtain equivalent capacity on comparable terms would move it to Pass.
+Can ernd deliver reserved GPU capacity for a specific inference workload that small startups repeatedly struggle to source directly? A supplier-backed pilot with a completed customer workload and comparable direct quotes showing materially longer lead times for equivalent capacity would move the action to Reach out to test whether ernd can repeat the result.

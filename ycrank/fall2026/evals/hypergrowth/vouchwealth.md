@@ -5,28 +5,28 @@
 
 ### Company case
 
-Conditional on strong product-market fit, Vouch’s strongest path is to scale mutual fund monitoring and rebalancing for Indian professionals. The memo documents a phone-number waitlist and Vouch’s published distributor registration. Vouch reports empanelment with 27+ fund houses and describes a reusable workflow that imports household holdings, flags overlap and fees, and proposes transactions for customer approval. Referrals and employer introductions could feed that workflow. The documented early-access path uses founder-led onboarding, and independent activation remains unproven. (The Idea, Defensibility, Market & Traction)
+Assuming strong product-market fit with young Indian professionals, Vouch has a recurring job in monitoring household mutual funds, flagging overlap and fees, and proposing tax-aware changes for customers to approve. The current product depends on MF Central for holdings imports, Indian tax rules for recommendations, and local distributor registration and fund-house agreements for monetization. Serving a comparable buyer abroad would likely require substantial work on data access, tax and transaction logic, and distribution arrangements. That triggers the structural downside gate. (The Idea, Defensibility, Key Risks)
 
-The memo reports fund-house distribution commissions through fund expense ratios. If existing households keep eligible balances invested and direct recurring contributions into commission-bearing funds, revenue from those households can grow. That gives expansion a plausible route to offset churn and withdrawals, with commission rates and cohort behavior still unknown. Fee-based advice remains contingent on registration, and the memo identifies a tradeoff between advice fees and distribution commissions for the same client. The early-access launch and fund-house relationships establish readiness to distribute. Realized commissions, funded household counts, and commercial growth remain unverified, so initial traction takes the absent-evidence default. (The Idea, Defensibility, Key Risks, Market & Traction, Key Facts)
+Vouch’s early-access funnel starts with a phone-number waitlist. The company solicits referrals and employer introductions and offers founder-led onboarding. Holdings import and transaction approval give customers reusable steps, but the memo leaves independent activation and the first commissionable investment unverified. The reported 27+ fund-house agreements establish distribution readiness. Realized commissions, funded accounts, and commercial growth remain unknown. (The Idea, Market & Traction, Key Facts)
 
-Incremental contribution per household would be commissions collected less attributable onboarding, portfolio data processing, AI processing, and support costs. Automated holdings analysis and customer approval could reduce manual work per household. The memo gives too little operating evidence to estimate the resulting contribution. (The Idea, Key Risks, Key Facts)
+Reported fund-house commissions give Vouch a plausible source of recurring revenue. If customers keep adding to eligible holdings and commission rates hold, existing households could generate more revenue over time. The memo leaves eligible balances, commission rates, and cohort behavior unknown, so there is little basis to judge whether expansion offsets churn. Pending fee-based advice offers a potential alternative, with client-level segregation limiting the ability to combine both revenue streams. At the household level, the relevant contribution is commissions less attributable acquisition, onboarding, data processing, and support costs. Automated imports and recommendations could reduce manual effort, but the memo gives too little information to estimate that contribution. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-The same household portfolio job plausibly recurs abroad, and Vouch’s overlap analysis and approval workflow could be reusable. The current product, however, relies on MF Central and Indian fund records for holdings, Indian tax rules for switch recommendations, and local registration and fund-house relationships for distribution. Serving comparable households in another market would likely require substantial work on data and transaction integrations, tax logic, and distribution access. Those documented dependencies and the lack of a credible near-term transfer path trigger the structural downside gate even if Vouch achieves strong fit in India. (The Idea, Defensibility, Key Risks)
+Vouch could scale within India if referrals or employer introductions bring in households that can import holdings and approve recommendations independently. Its published distributor registration and reported fund-house agreements support that route, and recurring investments could deepen those relationships. The same portfolio-analysis logic may also be reusable abroad. The memo establishes the India-specific dependencies and leaves the effort to replace them unresolved, so this countercase does not clear the structural gate. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 6/25 |
-| Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 15/20 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 13/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can Vouch launch the same import-to-approval workflow for comparable households in a second market using standard local integrations and bounded tax and regulatory changes? A live deployment that imports holdings, generates locally valid recommendations, and completes customer-approved transactions through a compliant distribution channel with limited changes would move the action to Watch.
+Can a live cohort of comparable households in a second country import holdings, receive tax-aware recommendations, and complete commissionable transactions using the same core product with limited, documented local changes? A compliant rollout that demonstrates this would move the action to Watch while Vouch establishes repeatable acquisition and commercial traction.

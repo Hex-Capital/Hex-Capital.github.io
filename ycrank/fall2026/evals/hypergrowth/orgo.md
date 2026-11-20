@@ -5,28 +5,30 @@
 
 ### Company case
 
-Assuming strong product-market fit, Orgo’s strongest path is selling persistent Linux desktops to developers building always-on agents. The same API, standard operating systems, and persistent disks can serve the same recurring job across markets where U.S. hosting is acceptable. Vercel Connect and Convex give developers ways to discover Orgo, and its SDKs and setup flow support self-serve provisioning. The memo documents prepaid compute pricing, while independent payment completion remains unclear. (*The Idea*, *Defensibility*, *Market & Traction*)
+Assuming strong product-market fit with developers building always-on agents, Orgo can serve the same recurring job across markets where U.S. hosting is acceptable. Its unified API provisions persistent Linux, Windows, and macOS desktops without a market-specific workflow. Developers can discover Orgo through Vercel Connect or Convex, provision a desktop through the SDK or agent setup flow, and pay through prepaid compute or a monthly plan. The memo documents the self-serve path, while its conversion into paid production use remains uncertain. (The Idea, Defensibility)
 
-Persistent files and saved machine state give teams a reason to keep using Orgo. Monthly plans and metered compute make recurring revenue plausible, and a retained team can spend more by running additional desktops. Whether that expansion can offset churn is uncertain. Orgo reported more than 1,000 teams and thousands of production desktops at its October launch. A customer reported saving about 12 hours on a shop setup. The memo’s unquantified revenue signal supports early commercialization, with the pace of paid growth still unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
+Persistent disks give agents a reason to return to the same environment. Monthly plans support recurring revenue, and retained accounts can spend more as they run more billable desktop hours or move to higher-priced plans. Those mechanisms make expansion plausible. The memo provides no same-account billing history to show whether expansion offsets churn. (The Idea, Defensibility)
 
-At the listed starting rate of $0.023 per running hour, a Small Linux VM would generate $16.56 over 720 billed hours under prepaid usage pricing. That revenue must cover the workload’s share of host capacity, power, storage, networking, and attributable support and onboarding. Suspend and resume could improve fleet utilization if idle desktops release usable host capacity. The memo leaves the size of that benefit and incremental contribution unverified. (*The Idea*, *Defensibility*)
+At its October 21 launch, Orgo reported more than 1,000 teams and thousands of production desktops. An agency operator separately reported a client saving about 12 hours on a workflow. A third-party listing indicates that Orgo generates revenue, with no amount, paid share, or comparable periods to establish a commercial growth rate. (Market & Traction, Key Facts)
+
+At the advertised Small Linux rate of $0.023 per running hour, an illustrative 50% billable utilization yields 1.15 cents of revenue per available capacity-hour for an equivalent unit of fleet capacity, before infrastructure, storage, networking, direct onboarding, and support costs. Suspend and resume could improve utilization if suspended workloads free capacity for reuse. The memo gives no measured cost or utilization inputs to establish contribution. (The Idea, Defensibility)
 
 ### Countercase
 
-Always-on desktops can occupy capacity around the clock, and adding workloads may require additional fleet investment. AWS’s overlapping Linux and Windows offering could also limit Orgo’s pricing power. The structural downside gate clears because the memo establishes neither a requirement for market-by-market rebuilding nor capacity costs that make faster growth economically infeasible. (*The Idea*, *Defensibility*, *Key Risks*)
+Orgo’s most persistent workloads may also be the least able to suspend. If those workloads require proportional fleet expansion, incremental contribution could stay thin as usage grows. AWS already offers overlapping Linux and Windows agent desktops with identity integration, which could make it harder for Orgo to raise prices. The structural downside gate remains open because the memo does not establish unavoidable weak contribution or a need for bespoke deployment in each market. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 21/25 |
-| Repeatable acquisition and onboarding | 18/25 |
+| Global buyer demand | 22/25 |
+| Repeatable acquisition and onboarding | 20/25 |
 | Retention economics | 16/20 |
 | Initial traction | 8/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 68/100** (Invest)
+**Total Score: 71/100** (Invest)
 
 ### Decisive diligence question
 
-Can Orgo add self-serve paid Linux workloads at positive incremental contribution through its next fleet expansion? A representative set of paid workloads, with billed revenue matched to acquisition, onboarding, serving costs, and added capacity, would answer it. Positive contribution at realistic utilization would sustain Reach out. Evidence that contribution turns persistently negative at the capacity step-up would move the action to Watch while the utilization lever is tested.
+What incremental contribution does a typical self-serve Linux production account generate as its billable desktop hours grow? Match actual account billing to measured fleet utilization, the cost of adding capacity, and attributable storage, networking, onboarding, and support. Healthy contribution through a capacity increase sustains Reach out. Thin contribution with a credible but unproven utilization improvement shifts the action to Watch. Unavoidable negative contribution at realistic utilization triggers Pass.

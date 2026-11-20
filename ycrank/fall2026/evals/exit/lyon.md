@@ -5,34 +5,32 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a financial decisioning platform such as Taktile. A buyer could use Lyon’s deployment software and expertise to add customer-cloud transaction models to its existing underwriting workflows. Lyon reports a 112% relative lift in default-prediction PR-AUC against an unnamed fintech’s tree-based model. That result gives a buyer a reason to test the product. Its economic value depends on whether it reduces credit losses or improves approvals after deployment and operating costs. The memo records Prior Labs joining SAP, an adjacent strategic transaction with undisclosed terms and limited value as a pricing benchmark. (The Idea, Market & Traction)
+The strongest route is a strategic acquisition by a financial decisioning platform. A vendor such as Taktile could add customer-cloud model training to its existing decision workflows. Lyon reports a 112% relative improvement in default-prediction PR-AUC over one unnamed fintech’s tree-based model. That gives a buyer a reason to test the capability, although the dollar benefit remains unverified. The memo records that Prior Labs joined SAP, an adjacent strategic transaction with undisclosed terms. (*The Idea*, *Market & Traction*)
 
-A paid production deployment at a second institution is the clearest milestone. The reported insurer engagement, the founders’ experience in financial services and applied machine learning, and the procurement materials support a plausible test. The memo leaves the test’s budget, funding, and validation timeline open. A buyer could acquire the reusable tooling while customers retain their models and data in their own clouds. Ownership of that tooling and change-of-control terms for customer contracts remain unverified. The memo supplies no evidence of a separate liquidity route for this holder. (Market & Traction, Founders & Team, The Idea, Defensibility, Key Risks)
+The next milestone is a paid production deployment at a second institution that validates the economic benefit after deployment and monitoring costs. Lyon’s reported training at transaction scale and its procurement trust center support a plausible path to that test. Funding, validation timing, and repeatability across institutions remain open. A whole-company sale could convey Lyon’s rights in its software and deployment tooling, subject to diligence on ownership, licenses, and customer consents. Lyon says customers own their trained models. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
-Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return, requiring about $83.3 million in distributable equity at a full pro rata payout. The sale prices and deductions below are scenario assumptions. The memo provides no transaction price, quantified buyer economics, or Lyon revenue figure to anchor them. Both sale scenarios assume closing within eight years, full holder eligibility, and no senior claims ahead of the pro rata payout. (Market & Traction, Key Facts)
+The benchmark assumes a single $500,000 check at a $10M post-money valuation, with 5% initial ownership diluted to 3%. The eight-year 5× objective requires $2.5M in cash, or about $83.3M in distributable equity. The sale prices below are illustrative sensitivities. The memo supplies neither Lyon revenue nor a transaction price that supports either scenario. Assume a full all-cash sale within eight years, $5M in net debt and closing adjustments, and an eligible holder receiving its full pro rata share of the remaining equity at closing. (*Market & Traction*, *Key Facts*)
 
-| Scenario | Proceeds bridge | Cash to holder |
-|----------|-----------------|----------------|
-| Modest sale | $50 million enterprise value less $5 million in assumed net debt and deal adjustments leaves $45 million in equity. The holder sells the full stake for cash. | $1.35 million (2.7×) |
-| Strong sale | $100 million enterprise value less the same $5 million leaves $95 million in equity. A full cash sale clears the hurdle. If only 80% of the stake is cashed out and the rest rolls over, proceeds fall below it. | $2.85 million (5.7×) at full sale, or $2.28 million (4.56×) at 80% |
-| Prolonged private | Lyon reinvests available cash and no eligible share sale or distribution occurs within eight years. | $0 (0×) |
+- **Modest sale.** $50M in enterprise value yields $45M in distributable equity and $1.35M to the holder, or 2.7×.
+- **Strong sale.** $100M in enterprise value yields $95M in distributable equity and $2.85M to the holder, or 5.7×. At 2.5% ownership, the same sale yields $2.375M, or 4.75×.
+- **Prolonged private operation.** If Lyon reinvests its cash through year eight, the holder realizes $0. The memo provides no evidence of an independent liquidity route for a Lyon holder. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-The strongest countercase is that buyers can build or integrate comparable capabilities without acquiring Lyon. Plaid already uses its own sequence model, Revolut deployed an in-house system with NVIDIA, and NVIDIA offers a public training reference. Customer ownership also limits what a buyer would gain from Lyon’s existing trained models. These facts weaken the case for an acquisition premium. The Pass gate remains open because the memo establishes neither a structural barrier to acquiring the reusable tooling nor a supported price range that puts the holder below the hurdle. (Market & Traction, Defensibility, Key Risks)
+A buyer could build a comparable capability internally. Revolut’s rollout shows that a financial institution can take that route, and NVIDIA’s public training reference gives other teams a starting point. Lyon’s reported lift could also shrink against stronger baselines or at other institutions. Customer ownership of trained models narrows what a buyer could acquire. Together, these facts weaken the case for a price that clears the hurdle, but they establish neither a structural closing barrier nor a supported ceiling on proceeds. The Pass gate is therefore unmet. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a second institution’s paid production deployment demonstrate an underwriting benefit that a decisioning platform could reproduce across its customers? A paid contract and customer-validated results showing incremental loss savings or approval gains after compute, integration, and monitoring costs would answer it. Move to Reach out if those results support a credible path to the acquisition hurdle based on a buyer’s plausible rollout. Keep Watch if the evidence remains limited to model benchmarks.
+Can a decisioning platform’s buy-versus-build analysis justify paying at least $88.3M in enterprise value for the assets Lyon can convey? A credible buyer-side analysis grounded in validated production economics, with a proceeds bridge that clears 5× for the holder, would move the action from Watch to Reach out.

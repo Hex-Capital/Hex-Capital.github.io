@@ -5,34 +5,30 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a repeat-testing platform such as Function Health. Helios says it is training a model on repeat blood draws linked to health records. A buyer could gain an at-home testing product and a longitudinal dataset if the model proves useful and the data rights permit continued use after a sale. The founders’ prior diagnostics acquisitions show that strategic buyers have acquired their companies in related areas. Helios-specific buyer interest and acquisition economics remain unknown. (The Idea, Defensibility, Market & Traction, Founders & Team)
+A strategic acquisition is the strongest supported route. Function Health already offers repeat lab testing and is a plausible buyer if Helios can show that home collection and longitudinal predictions give members a reason to test more often or renew. The memo records a reported waitlist and two acquisitions of diagnostics companies co-founded by the Helios founders. Helios says its test is designed to measure more than 1,000 biomarkers from a drop of blood and that it trains its model on repeat draws linked to health records. The buyer benefit is an inference. The waitlist gives Helios a starting point for a paid repeat-testing pilot, while validation, repeat use, pilot cost, and committed funding remain unverified. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
-A funded pilot showing that customers pay and retest, mailed samples yield reliable measurements, and the model adds predictive value on held-out outcomes would strengthen the acquisition case. The reported waitlist, engineering hire, and seed financing entries give the plan some support. Pilot funding, runway, and validation results remain unverified. Rights to use the linked health data after a sale are also unverified. (Market & Traction, Key Risks)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale cases below are illustrative sensitivities. They assume a full cash sale within eight years, subtract net debt and deal adjustments from enterprise value, and assume the holder is eligible for a 3% pro rata payout with no further reduction from senior preferences or holdbacks. The memo gives no terms for the reported convertible note and no acquisition prices to support either sale value. (Market & Traction, Founders & Team)
 
-Using the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% without follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. These are scenario assumptions. The memo provides no supported exit price range or holder terms.
-
-| Scenario | Assumptions and cash received |
-|----------|-------------------------------|
-| Modest sale | At $50 million of enterprise value, assuming zero net debt or deal deductions, a fully cash-funded sale within eight years, and an eligible holder selling its entire stake pro rata with no senior claims, the holder receives $1.5 million, or 3×. |
-| Strong sale | At $100 million of enterprise value under the same assumptions, the holder receives $3 million, or 6×. If net debt and deal deductions total $20 million, distributable equity falls to $80 million and the holder receives $2.4 million, or 4.8×. |
-| Prolonged private | If Helios reinvests available cash and no shares are sold, the holder receives $0 within eight years. Roon’s storefront establishes a product offering. Its sales volume and capacity to fund a payout remain unknown. (Market & Traction) |
+- **Modest sale.** $40 million in enterprise value less $5 million in adjustments leaves $35 million for equity and $1.05 million in holder cash, or 2.1×.
+- **Strong sale.** $110 million less $10 million leaves $100 million for equity and $3 million in holder cash, or 6×. If deductions rise to $30 million, holder cash falls to $2.4 million, below the objective.
+- **Prolonged private.** Continued operation with cash reinvested and no eligible share sale or funded payout yields $0 in realized cash. Roon’s storefront shows a separate product on sale. Its sales volume and capacity to fund a distribution are undisclosed. (Market & Traction, Key Facts)
 
 ### Countercase
 
-VO Health already uses third-party broad protein profiling from a small self-collected blood sample. A strategic buyer could source that capability and build its own repeat-testing product. Helios’s acquisition premium therefore depends on the value and usable rights of its linked dataset and model, with dataset size, exclusivity, and validation still unverified. The substitute weakens the buyer rationale. Whether it imposes a price ceiling or creates a structural barrier remains open, so the Pass gate is untriggered. (Defensibility, Key Risks)
+A strategic buyer can already source broad protein profiling through a third party, as VO Health does. That weakens the case for buying Helios for assay breadth alone. The acquisition case therefore depends on whether Helios’s linked repeat data delivers incremental predictive value that a buyer can acquire and use. Helios-specific assay validation, model performance, and data-transfer rights remain unverified. The evidence establishes a substitute for broad profiling and leaves the value of the combined product open. It establishes neither a structural closing block nor materially inadequate proceeds under the strongest route, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-What would a repeat-testing platform pay to acquire Helios once a paid pilot demonstrates reliable repeat testing and incremental predictive value? Buyer feedback explaining why ownership beats building internally, with a plausible price range that clears $83.3 million in distributable equity under realistic deductions, would move the action to Reach out. A supported ceiling materially below that hurdle would move it to Pass.
+Would a strategic buyer value Helios’s repeat-testing product highly enough to support at least $83.3 million in distributable equity after deal deductions? Move to Reach out if a paid repeat-testing pilot shows a measurable improvement over standard panels on a buyer-relevant outcome and a prospective buyer’s economics support that hurdle. Move to Pass if buyer diligence establishes that an available substitute meets the same need and the strongest credible sale would leave the holder materially short.

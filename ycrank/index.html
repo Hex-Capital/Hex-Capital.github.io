@@ -234,7 +234,7 @@
                   <td class="px-1.5 py-1 text-center tabular-nums border border-claude-border hidden sm:table-cell"
                     :class="tierColor(row.tiers[p.abbr])"
                     :title="row.scoreTips && row.scoreTips[p.abbr] ? p.fullName + ': ' + row.scoreTips[p.abbr] : ''"
-                    x-text="row.scores[p.abbr] != null ? row.scores[p.abbr] : '-'"></td>
+                    x-text="formatThesisScore(row.scores[p.abbr], row.scoreMaxima?.[p.abbr])"></td>
                 </template>
                 <td class="px-1.5 py-1 text-center font-bold tabular-nums border border-claude-border"
                   :class="avgColor(row.avg)"
@@ -290,7 +290,7 @@
                   <h2 class="mobile-company-name" x-text="row.name"></h2>
                   <template x-for="thesis in mobileEvaluators" :key="thesis.slug">
                     <span class="mobile-company-number" :class="tierColor(row.tiers?.[thesis.abbr]).split(' ')[0]"
-                      x-text="row.scores?.[thesis.abbr] ?? '–'"></span>
+                      x-text="formatThesisScore(row.scores?.[thesis.abbr], row.scoreMaxima?.[thesis.abbr], '–')"></span>
                   </template>
                   <template x-if="hasMobileTraction">
                     <span class="mobile-company-number" x-text="row.tractionRank == null ? '–' : '#' + row.tractionRank"></span>
@@ -298,7 +298,7 @@
                   <span class="mobile-company-number mobile-company-arr" x-text="row.revenue == null ? '' : formatRevenue(row.revenue)"></span>
                 </div>
                 <span class="sr-only" :id="'mobile-company-scores-' + row.slug"
-                  x-text="[...mobileEvaluators.map(thesis => thesis.fullName + ': ' + (row.scores?.[thesis.abbr] ?? 'Unavailable')), hasMobileTraction && 'Traction rank: ' + (row.tractionRank ?? 'Unavailable'), row.revenue != null && 'ARR: ' + formatRevenue(row.revenue)].filter(Boolean).join('. ')"></span>
+                  x-text="[...mobileEvaluators.map(thesis => thesis.fullName + ': ' + formatThesisScore(row.scores?.[thesis.abbr], row.scoreMaxima?.[thesis.abbr], 'Unavailable')), hasMobileTraction && 'Traction rank: ' + (row.tractionRank ?? 'Unavailable'), row.revenue != null && 'ARR: ' + formatRevenue(row.revenue)].filter(Boolean).join('. ')"></span>
                 <p class="mobile-company-description" x-show="row.oneLiner" x-text="row.oneLiner"></p>
 
                 <template x-if="expandedCompanySlug === row.slug">
@@ -401,7 +401,7 @@
                   @click="companyData.paths.evals[p.slug] && selectCompanyTab(p.slug)">
                   <div class="text-xs text-claude-dim truncate" x-text="p.fullName"></div>
                   <div class="text-lg font-bold tabular-nums" :class="tierColor(companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : null)"
-                    x-text="companyData.consolidatedScores[p.abbr] != null ? companyData.consolidatedScores[p.abbr] : '-'"></div>
+                    x-text="formatThesisScore(companyData.consolidatedScores[p.abbr], companyData.evalScores[p.slug]?.maxScore)"></div>
                   <div class="text-xs text-claude-dim"
                     x-text="companyData.evalScores[p.slug] ? companyData.evalScores[p.slug].tier : ''"></div>
                 </div>
@@ -447,7 +447,7 @@
                   class="px-3 py-1.5 text-sm transition-colors rounded-none shrink-0">
                   <span x-text="p.fullName"></span>
                   <span class="company-tab-score sm:hidden tabular-nums" :class="tierColor(companyData.evalScores[p.slug]?.tier).split(' ')[0]"
-                    x-show="companyData.consolidatedScores[p.abbr] != null" x-text="companyData.consolidatedScores[p.abbr]"></span>
+                    x-show="companyData.consolidatedScores[p.abbr] != null" x-text="formatThesisScore(companyData.consolidatedScores[p.abbr], companyData.evalScores[p.slug]?.maxScore)"></span>
                 </button>
               </template>
             </div>

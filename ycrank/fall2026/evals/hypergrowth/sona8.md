@@ -5,28 +5,28 @@
 
 ### Company case
 
-Assuming strong fit with transformation teams, the strongest path is to win a consultancy once and have its teams use Sona8 across client engagements. The customer testimonial from s.Oliver’s CEO office describes using Sona8 to map processes and surface differences in planning requirements. Sona8 reports that a signed top-three consultancy is already using it to map client processes. Multilingual phone and browser interviews, task capture, and a standard interface for querying workflow maps make the core product plausibly portable. Employee consultation and privacy requirements can still slow or narrow individual rollouts. (The Idea, Market & Traction, Key Risks)
+Assuming strong product-market fit, Sona8’s multilingual phone and browser interviews, task capture, and standard MCP interface could serve the same process-mapping job for transformation teams and consultancies across markets. Employee consultation and participation may slow local rollouts. The memo identifies no market-specific dependency that would require rebuilding the core product. (The Idea, Key Risks)
 
-Sona8 describes a platform fee plus charges for interviews and AI queries. If the consultancy buys those services under one account, new client projects, follow-up interviews, and ongoing queries could expand the same account’s bill enough to offset churn elsewhere. That is an inferred expansion path. The five-person team reported more than 10,000 interviews by November, the month it launched workflow mapping with task capture. The memo leaves first paid availability, realized revenue, and paid usage unknown, so the interview count establishes product use while the commercial growth rate remains unverified. (Sona8, The Idea, Defensibility, Market & Traction)
+The strongest route to scale is for a consultancy to reuse the same interview and mapping workflow across client engagements. Sona8 reports that a signed top-three consultancy is using the product and that it has completed more than 10,000 interviews. A customer testimonial describes s.Oliver using it to map differences in planning requirements. These are signs of adoption. Paid production volume and commercial growth remain unverified, so initial traction receives the absent-evidence default. The documented acquisition motion runs through founder relationships, consulting engagements, and enterprise demos, with independent purchase and onboarding unverified. (The Idea, Market & Traction)
 
-For the next client deployment, incremental contribution would be the added platform and usage fees minus voice and model processing, storage, and any attributable sales, setup, review, and support time. Automated interviewing and workflow mapping give Sona8 a way to handle more interviews without adding interviewers. The memo leaves the rates, workload costs, and staff time needed to establish positive contribution unverified. (The Idea, Market & Traction, Key Risks)
+The company describes a platform fee plus charges for interviews and AI queries. If customers refresh their maps after rollouts and reuse them across projects, those billable activities could grow within existing accounts. Renewal and expansion remain unverified. For the next deployment, contribution would be the platform and usage fees less incremental inference, telephony, media processing and storage, and attributable sales, onboarding, and support labor. The memo establishes the billing structure but leaves rates, workload costs, and staff time unknown, so cost economics receives the absent-evidence default. (The Idea, Defensibility, Market & Traction)
 
 ### Countercase
 
-Sona8 could become a project-by-project consulting tool. The documented sales motion starts with founder relationships and demos, with fees set through order forms. Employee consultation, participation, and security review can add friction at each client. If each engagement needs hands-on setup and usage falls when the project ends, the consultancy may supply introductions while contributing little to repeatable onboarding or recurring account expansion. The structural downside gate stays open because the memo leaves the amount and cost of required work per deployment unresolved. Those gaps, alongside unverified paid usage, drive Low confidence. (The Idea, Key Risks)
+Sona8 could remain a tool for occasional consulting projects. Enterprise demos, security review, and employee consultation may recur for each client, while interview and query volume may fall once the mapping project ends. That would limit partner throughput and same-account expansion even with strong initial fit. The structural gate stays open because the memo leaves the amount and cost of required rollout work unresolved. Those gaps also drive the Low confidence rating. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 18/25 |
+| Global buyer demand | 19/25 |
 | Repeatable acquisition and onboarding | 7/25 |
 | Retention economics | 15/20 |
 | Initial traction | 7/20 |
-| Cost economics | 5/10 |
+| Cost economics | 4/10 |
 
 **Total Score: 52/100** (Neutral)
 
 ### Decisive diligence question
 
-Can the signed consultancy use the same Sona8 product to launch successive paid client engagements across markets with little Sona8 staff time and rising usage charges on its account? Dated deployment records, invoices, and attributable staff and workload costs would show whether the motion repeats and produces positive incremental contribution. A pattern strong enough to lift the score to at least 65 and confidence to Medium would change the action to Reach out.
+Can the signed consultancy repeat a paid production rollout for a second client in another market using the same product and setup? Invoices, the rollout record, and attributable costs for both deployments would show whether the channel transfers with limited Sona8 staff time and healthy incremental contribution. A repeatable result would support Reach out if the updated score reaches 65 and confidence reaches Medium or High. Evidence that each rollout requires unavoidable, uneconomic custom work would trigger Pass.

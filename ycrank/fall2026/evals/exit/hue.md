@@ -5,21 +5,21 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an observability or agent-testing platform. Hue says it can reconstruct a customer’s app state at a selected checkpoint and reset it for repeated tests. A buyer could integrate that capability so customers can reproduce production failures and check fixes in the same workflow. The memo reports 69,000 weekly npm SDK downloads, a distribution signal. The economic case for owning the product remains unmeasured. (*The Idea*, *Defensibility*, *Market & Traction*)
+Hue’s strongest exit route is a strategic sale to an agent observability or testing platform. Hue documents reconstructing app state from production traces at a chosen checkpoint and giving each test run the same isolated starting state. Owning that capability could help a buyer turn production failures into repeatable regression tests. The memo reports 69,000 weekly SDK downloads. Paid production use, measured workflow savings, and buyer interest remain unverified. (The Idea, Defensibility, Market & Traction)
 
-A plausible seed-stage milestone is repeated use by paying production teams that can measure how much faster they reproduce failures with Hue and which regressions Hue catches that their existing tools miss. The shipped SDK gives Hue a way to run those tests. Paid adoption, test funding, and runway are unverified. A software acquisition is plausible, and Hue’s documented local redaction offers a way to limit reliance on raw customer traces. IP ownership, contract assignment, and permissions to use customer data after a sale remain open. (*The Idea*, *Market & Traction*, *Key Risks*)
+A paid production pilot that measures how reliably Hue reproduces real incidents and how much engineering time it saves would strengthen the acquisition case. The distributed SDK and the founders’ reported experience building replay infrastructure make a pilot plausible. The capital and runway needed to reach repeatable paid adoption remain unknown. Hue’s data-processing terms and local redaction support testing with production data under defined conditions. Transfer rights for the software, customer contracts, and retained traces remain unverified. The memo provides no evidence of an independent route to holder liquidity. (The Idea, Founders & Team, Key Risks, Key Facts)
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-on investment. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3% ownership, and no follow-ons. A 5× cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. Both sale scenarios assume an all-cash close within eight years, $5 million in combined net debt and deal deductions, full sale of the holder’s eligible shares, and pro rata distribution with no senior preference or escrow withholding.
 
-- **Modest sale.** An illustrative $30 million enterprise value less $5 million in debt and deal adjustments leaves $25 million in equity. A fully eligible, pro rata cash sale with no preference diversion pays the holder $750,000, or 1.5×, if paid within eight years.
-- **Strong sale.** An illustrative $100 million enterprise value less $10 million in debt and deal adjustments leaves $90 million in equity. Under the same waterfall and timing assumptions, the holder receives $2.7 million, or 5.4×. If only 90% of that amount is paid within eight years, realized cash falls to $2.43 million, below the objective.
-- **Prolonged private.** If Hue keeps operating and reinvests available cash, the holder realizes $0 within eight years. The memo gives no evidence of an independent liquidity route.
+- **Modest sale.** $40 million in enterprise value leaves $35 million in distributable equity and pays the holder $1.05 million, or 2.1×.
+- **Strong sale.** $100 million in enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. At 2.5% ownership, the same sale pays $2.375 million, or 4.75×.
+- **Prolonged private.** Continued operation with cash reinvested and no eligible share sale yields $0 in realized proceeds within eight years.
 
-The sale prices and deductions are scenario assumptions. Hue’s subscription terms establish a way to charge customers, while paid usage, buyer economics, acquisition pricing, and investor terms remain unverified. Proceeds and independent alternatives therefore receive their absent-evidence defaults. (*The Idea*, *Market & Traction*, *Key Facts*)
+The sale prices are scenario assumptions. The memo supplies no acquisition comparables, measured buyer savings, or pricing indications to support either price. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Ancha already offers trace-based replay, and open-source ClawsBench provides stateful Gmail and Slack simulations with snapshot restoration. Hue also says it can reconstruct only the state its traces captured. If those limitations make Hue’s checkpoint replay only marginally better for a buyer’s customers, building or integrating a substitute could be cheaper than acquiring Hue. The overlap weakens the payer rationale. The memo leaves buyer-specific substitution economics and realizable sale prices unresolved, so the Pass gate remains untriggered. (*Defensibility*, *Key Risks*)
+A buyer could use Ancha’s trace-based replay or build on ClawsBench’s stateful simulations and snapshot restoration. Hue’s checkpoint selection could justify buying the product if it materially improves incident reproduction, but Hue’s own documentation says missing trace fields can prevent reconstruction. These substitutes and fidelity limits weaken the case for paying an acquisition premium. They do not establish a structural block or show that the strongest credible sale would necessarily fall short of the proceeds hurdle. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -28,11 +28,11 @@ Ancha already offers trace-based replay, and open-source ClawsBench provides sta
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a plausible strategic buyer quantify enough value from owning Hue’s checkpoint replay to justify a price that clears the holder’s proceeds hurdle? A buyer’s build-versus-buy analysis grounded in repeated paid production use, with a price range that supports at least $83.3 million in distributable equity under reasonable deal adjustments and payout assumptions, would move the action from Watch to Reach out.
+How much would owning Hue’s checkpoint replay be worth to an agent observability platform compared with its best available substitute? A paid production pilot quantifying incremental engineering savings, paired with a credible buyer-side estimate that supports a sale clearing the holder’s proceeds hurdle after deal deductions, would move the action to Reach out.

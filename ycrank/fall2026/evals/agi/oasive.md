@@ -5,26 +5,29 @@
 
 ### Company case
 
-**New Economies** is Oasive’s strongest path. Municipal analysts can spend hours assembling a credit review from issuer filings, board meetings, and local news. Oasive has launched borrower pages that combine those sources with audited financials and timestamped meeting summaries. The investment hypothesis is that this workflow makes routine monitoring economical for school districts a desk currently skips. The relevant comparison is the analyst labor cost of a completed manual review versus the allocated subscription fee plus analyst time for verification and exceptions, at the same accuracy and coverage standard. The memo leaves both the cost reduction and newly viable coverage unmeasured. (The Idea, Market & Traction, Key Risks)
+Oasive has no supported building-blocks path. It uses a Google model to transcribe public meetings for municipal credit research. The memo identifies no scarce input Oasive supplies to an AI workload. (Market & Traction)
 
-For the recently launched municipal product, the hours-long manual workaround is the clearest demand signal. Municipal team pricing is listed, but the memo documents no paid municipal pilot or repeat use. The company-reported 15 institutional desks used the earlier Macro & Rates and Agency MBS products. Howland’s fixed-income and AI product experience, together with the municipal launch, supports execution credit. An issuer-month of monitoring is a plausible expansion unit. Contribution depends on municipal contract revenue covering ingestion, inference, data access, and exception handling as coverage grows. The memo gives no realized costs for that bridge. (The Idea, Market & Traction, Founders & Team, Key Risks)
+The enabled-industry path is recurring credit monitoring for borrowers that a municipal desk could previously review only intermittently. The memo describes analysts spending hours searching filings, meetings, and local news. Oasive’s workflow combines automated meeting summaries, timestamps, borrower financials, and watchlists. The seed-stage hypothesis is that automation cuts enough search time to make recurring coverage affordable after analysts verify the findings. Under model parity, the delivered product would still have to maintain borrower records, match proceedings to issuers, and surface relevant events across a portfolio. The founder reports coverage of more than 8,600 school districts across 43 states. The memo gives no measured savings after verification or evidence of a municipal desk expanding coverage. (The Idea, Market & Traction, Key Risks)
+
+Manual research is a concrete buyer workaround. The company-reported use by 15 desks concerns the earlier Macro & Rates and Agency MBS products, leaving paid municipal demand unverified. The municipal launch and Howland’s fixed-income and AI product experience support execution credit, with dependable accuracy still untested. Published pricing gives no basis for estimating the cost of adding and maintaining qualified borrower coverage. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Oasive may save time inside an established workflow while incumbents add comparable meeting coverage. CreditScope already offers municipal credit data and AI-filtered news, DPC DATA offers normalized financials and disclosure alerts, and Oasive says it uses a commercially available Google model to transcribe public recordings. The founder-reported dataset covering more than 8,600 school districts could make a standardized borrower history valuable, but buyer preference under model parity remains untested. Dependence on public recordings and revocable licensed data also leaves the scarce-complement path unsupported. The memo establishes credible substitution risk and leaves actual switching untested, so the path remains open at Watch. (Defensibility, Market & Traction, Key Risks)
+Oasive may simply speed up research that desks already perform. Incumbents already offer municipal financial data and news monitoring and could add meeting summaries using commercially available models. Analysts still have to verify automated output, recordings can disappear, and licensed data access can be suspended. Those dependencies and the absence of verified switching costs limit value capture. If verification consumes the time saved or desks use the product only for borrowers they already monitor, the enabled-industry path fails and the decision moves to Pass. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 4/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent municipal desks pay to keep monitoring school districts they previously skipped when they can choose a functionally comparable alternative? A paid side-by-side pilot would move the action to Reach out if desks add those districts, complete reviews at a lower fully loaded cost at the same quality standard, and renew with Oasive at a viable price. If the pilot shows the workflow only speeds up existing coverage or desks readily switch at parity, move to Pass. (The Idea, Defensibility, Market & Traction)
+Can a paid municipal pilot sustain weekly monitoring of borrowers the desk previously reviewed only intermittently? Compare coverage, missed material events, and analyst verification time against the desk’s existing workflow. Move to Reach out if the desk sustains the added coverage at acceptable accuracy and within its budget. Move to Pass if the pilot only saves time on existing coverage.

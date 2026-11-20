@@ -1,32 +1,31 @@
 ﻿# Evardi -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest path. Evardi could make transformer-level safety checks economical for routine switching orders that utilities currently review manually with limited transformer visibility. Evardi reports that its switching-order simulation caught 60% of the errors that passed manual review. That result supports the technical mechanism. The memo leaves the labor cost of delivering an equivalent manual check, the cost per safely approved order with Evardi, and the existence of a previously excluded use unverified. Routine screening at utilities that currently skip transformer-level checks is the scenario to test. (The Idea, Market & Traction, Key Risks)
+Evardi models transformer loads from utility data and simulates switching orders for operator approval. The memo documents limited transformer visibility and manual switching checks, but identifies no AI workload held up by distribution capacity and no evidence that Evardi could free usable capacity sooner than alternatives. The building-block path scores zero. The industry-enabled path also scores zero. The memo describes an existing utility workflow and provides no evidence that AI lowers the cost per safely completed switching order enough to make a previously impractical use viable. (The Idea; Key Risks)
 
-Evardi uses utility-specific topology, prior orders, and operating limits. Those integrations could give utilities a reason to stay if model capabilities converge, but the memo contains no buyer preference under functional parity or evidence of network effects. Evardi reports deployments at utilities serving more than 10 million electricity customers. That figure describes utility footprint, with payment, active usage, and renewals unverified. (Defensibility, Market & Traction, Key Facts)
-
-Shah’s control-room and integration experience, Borele’s energy operations background, and the team's earlier mini-grid pilots support seed-stage execution credit. A utility deployment is the likely expansion unit. Its economics depend on spreading data integration and mapping validation over enough approved orders to cover ongoing software costs and the retained operator review, supervisor sign-off, and exception handling. The memo provides no pricing, implementation effort, or order volumes to quantify that bridge. (Founders & Team, Market & Traction, The Idea, Key Risks, Key Facts)
+Utility-specific topology, switching histories, and operating limits could make Evardi costly to replace once embedded. SMUD’s deployment of transformer monitoring and coordinated switching through existing systems limits that inference. Manual switching checks show a concrete buyer workaround, and Evardi reports deployments at utilities serving more than 10 million customers. Payment and repeat use remain unverified. The founders’ utility and energy operations experience and the blind feeder simulation support seed-stage execution credit. The memo gives no pricing or delivery costs for the next utility deployment, so scale economics stays at the default. (The Idea; Defensibility; Market & Traction; Founders & Team; Key Risks; Key Facts)
 
 ### Countercase
 
-Evardi may improve an existing utility workflow while buyers can obtain similar functionality through incumbent systems. SMUD reports deploying meter-based transformer mapping and load monitoring alongside AspenTech for coordinated switching and restoration. That establishes a credible substitute for overlapping workflows. Whether it matches Evardi’s per-order checking and economics remains open, so the substitution evidence leaves the New Economies path on Watch. The memo also leaves AI-driven scarcity and Evardi’s control of a scarce grid complement unsubstantiated. (Defensibility, Key Risks)
+Evardi’s strongest path is making step-by-step safety checks practical during storms, when operators must review many switching orders. The company reports 42% fewer unsafe switching actions in simulated storm drills. If comparable gains held during live restoration with the same staffing, utilities could check orders they previously lacked time to simulate. The memo gives no evidence of that staffing limit or of review time per safely completed order. The simulation leaves the Pass gate in effect. (The Idea; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 20/150** (Pass)
 
 ### Decisive diligence question
 
-Will a utility that previously skipped routine transformer-level checks pay to continue using Evardi after a live comparison with a functionally comparable incumbent option? Move to Reach out if the trial shows that Evardi enables those checks at a meaningfully lower all-in cost per safely approved order, including integration, review, and exceptions, and the utility chooses a paid continuation at a viable price. Move to Pass if the comparison establishes that the cost reduction opens no new use or that buyers readily substitute at parity.
+Can a utility show that Evardi lets its existing storm-response staff safely check switching orders they previously lacked time to simulate? A utility-validated comparison during live restoration that measures operator and supervisor time per safely completed order, including rework, would move the action to Reach out if it shows that previously infeasible checks fit within the available staffing and restoration window.

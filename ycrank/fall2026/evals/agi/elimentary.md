@@ -5,28 +5,29 @@
 
 ### Company case
 
-**New Economies** is the strongest path. A customer testimonial describes a filing reconciliation with more than 500 checks that went from roughly 20 hours of work to under 30 minutes of agent runtime plus about one hour of human sign-off. In a company-published case study, a direct lender reported expanding covenant testing to more than 150 portfolio companies while cutting time per company from four hours to 15 minutes. If comparable accuracy holds and those time savings persist after accounting for setup, review, and rework, funds could afford routine checks on deals they previously monitored less often or skipped. The memo shows expanded coverage, while the prior cost barrier and full cost per successful check remain unverified. (*Market & Traction*, *Key Risks*)
+Elimentary has a plausible AGI-enabled industry path in expanding covenant monitoring. Private credit analysts use spreadsheets and email to check borrower covenants under month-end deadlines. Elimentary’s agents extract terms from loan documents, apply client-specific rules, and prepare results for human sign-off. A company-published customer case study reports that a direct lender expanded testing to more than 150 portfolio companies while cutting time per company from four hours to 15 minutes. If those timings cover comparable checks, the reduction could make broader or more frequent testing viable within the same analyst budget. The memo leaves the lender’s prior coverage, fully loaded cost, and sustained paid use open. The building-blocks path scores zero because the memo identifies no scarce input Elimentary supplies to AI deployment. *(The Idea, Market & Traction)*
 
-TresVista’s multi-year agreement and initial live workflows show a named partner committing to deployment. Payment terms and repeat purchases for newly viable work are undisclosed. The founders bring experience in credit operations, credit-product engineering, and AI automation. Elimentary reports more than 25 agents in production, supporting seed-stage execution credit. (*Market & Traction*, *Key Facts*, *Founders & Team*)
+Even with comparable models, a fund would still need validated deal rules, integration with its existing systems, and a reliable approval process. Elimentary’s reported clause-linked rules and security attestations support a case for switching costs and vendor qualification. Retention and pricing power remain untested. TresVista’s announced multi-year partnership and live workflows provide a named buyer commitment, with payment terms and repeat paid demand for expanded covenant coverage undisclosed. *(Defensibility, Market & Traction, Key Risks, Key Facts)*
 
-The expansion unit is a recurring workflow deployed at another fund. Contract revenue must cover configuration and deal-rule validation, then ongoing inference, amendment handling, and vendor support. Customer sign-off also affects the buyer’s savings. Reusing validated rules could spread setup costs across deals and reporting cycles. The memo gives no pricing, onboarding hours, or exception rates to establish contribution per deployment. (*The Idea*, *Key Facts*, *Key Risks*)
+The founders bring prior credit-product and AI delivery experience. A separate filing reconciliation ran more than 500 checks and included about an hour of human sign-off, showing that the team has shipped a workflow with an approval step. Reliability across amendments and exceptions remains open. The memo gives customer time savings and no contract pricing or delivery costs for the next deployment, so scale economics stays at the default. *(Founders & Team, Market & Traction, Key Risks, Key Facts)*
 
 ### Countercase
 
-Elimentary may be making existing fund operations cheaper without opening a new market. Its client-specific calculations and clause-linked rules could make switching costly because a replacement would need to revalidate them. Allvue already bundles overlapping loan-notice automation with its accounting ledger, and easier document extraction lowers one barrier to entry. The memo shows neither buyer preference at functional parity nor network effects, and it identifies no independently supported scarce complement. Competitor overlap leaves the durability gate unproven. The evidence does not establish full substitution or observed switching, so the action is Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)
+The lender may have accelerated checks it could already afford. Deal-by-deal setup, amendment validation, and exception review could absorb enough of the reported savings to keep wider coverage uneconomic. Allvue’s overlapping automation also shows how an incumbent could offer related workflows within a fund’s existing systems. The reported expansion supports a concrete mechanism, while the missing comparison against the lender’s prior coverage and budget keeps the action at Watch. *(Market & Traction, Defensibility, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 17/25 |
-| Durable value capture | 10/25 |
-| Customer demand | 11/20 |
-| Team and execution | 11/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 28/50 |
+| Durable value capture | 9/20 |
+| Customer demand | 11/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 56/100** (Neutral)
+**Total Score: 57/150** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent fund repeatedly pay Elimentary to run covenant checks it previously skipped on cost grounds when a functionally comparable alternative is available? A paid deployment that documents the prior coverage gap, measures the full cost per accurate, signed-off check, and earns a repeat order after the buyer evaluates the alternative would change the action to Reach out.
+Can a lender sustain paid covenant testing at a coverage or cadence its manual budget previously ruled out? A buyer-verified comparison across several reporting cycles should show prior and current coverage, comparable check quality, and fully loaded costs including setup, amendment validation, and human review. Evidence that the deployment crossed that affordability threshold would move the action to Reach out. Evidence that it only sped up checks the lender could already afford would move it to Pass.

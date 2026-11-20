@@ -5,23 +5,19 @@
 
 ### Company case
 
-The strongest route is a strategic sale to an established Indian wealth manager seeking to acquire and retain households below its current account minimum. Dezerv illustrates the buyer profile with managed portfolios that generally start at ₹50 lakh. Vouch’s early-access product imports household mutual fund holdings, flags overlap and fees, and lets customers approve proposed transactions. The memo records a published distributor registration and reports a commission model. Vouch claims empanelment with 27+ fund houses. A buyer could gain a channel for earning distribution commissions and serving households as their assets grow. That rationale depends on Vouch demonstrating retained assets and commission collections. (The Idea, Defensibility, Market & Traction, Key Facts)
+A strategic acquisition by an Indian wealth platform is Vouch’s strongest supported route. A buyer could use Vouch’s household portfolio monitoring and transaction approval workflow to reach customers below its current service minimums. The memo documents Vouch’s published AMFI distributor registration and reports a commission model. Vouch says it has been empanelled with 27+ fund houses. The buyer rationale is an inference. The memo gives no retained asset balances, collected commissions, or buyer interest to establish what the customer relationships would be worth. (The Idea, Defensibility, Key Facts)
 
-The reported $500,000 pre-seed and early-access launch support an initial test of whether onboarded households keep assets on the platform and generate recurring commissions. The memo leaves the time and capital needed to prove this at meaningful scale open. It also leaves buyer approvals, data and fund-house continuity under new ownership, and the holder’s participation rights unverified. (Market & Traction, Key Risks, Key Facts)
+The reported $500,000 pre-seed and announced early-access launch make a pilot that measures household retention, assets that generate commissions, and net revenue plausible. The memo gives no pilot results or runway. A distribution-led acquisition would also depend on the buyer’s ability to retain fund-house relationships and access portfolio data after closing. Those rights and any required consents are unverified. Vouch says its adviser registration is pending, and the memo describes rules that constrain earning both advisory fees and distribution commissions from the same client. (Market & Traction, Key Risks, Defensibility)
 
-Using the shared benchmark, a $500,000 check at a $10 million post-money buys 5%, diluted to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million of distributable equity value at full pro rata participation. The sale cases assume an eligible holder sells the full stake for cash by year eight, with a pro rata waterfall and zero senior preference claims or deferred consideration. Prices and deductions are scenario assumptions.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3% pro rata ownership. The sale prices below are illustrative assumptions. Both sales assume $5 million in combined debt and deal adjustments, no further senior claims, and an eligible holder selling the entire stake for cash at closing within eight years.
 
-| Scenario | Enterprise value to distributable equity | Gross cash to holder |
-|-----------|-------------------------------------------|----------------------|
-| Modest sale | $50M less $5M in net debt and deal adjustments = $45M | $1.35M (2.7×) |
-| Strong sale | $100M less $10M in net debt and deal adjustments = $90M | $2.70M (5.4×) |
-| Prolonged private | Continued operation with reinvested cash and no eligible share purchase | $0 realized |
-
-At the strong-case price, selling only half the stake would reduce cash received to $1.35 million. The memo supplies no collections, retained asset balances, or buyer pricing to substantiate the strong case, and it identifies no independent source of holder liquidity. (Market & Traction, Key Facts)
+- A **modest sale** at $50 million enterprise value leaves $45 million for equity and pays the holder $1.35 million, or 2.7×.
+- A **strong sale** at $100 million enterprise value leaves $95 million for equity and pays the holder $2.85 million, or 5.7×. If the holder can sell only 80% of the stake, cash proceeds fall to $2.28 million, or 4.56×.
+- Under **prolonged private ownership**, continued reinvestment yields zero realized cash over eight years. The memo supplies no evidence of an eligible secondary or funded payout.
 
 ### Countercase
 
-PowerUp Money already offers household fund aggregation, personalized rebalancing, and continuous AI monitoring. That overlap weakens the case that a buyer would pay a premium for Vouch’s product alone. Vouch also says its adviser registration is pending, and client-level segregation limits the ability to earn both advisory fees and distribution commissions from the same relationship. These facts weaken buyer economics. The memo establishes neither a structural closing barrier nor a price ceiling that would trigger Pass. (Defensibility, Key Risks)
+PowerUp Money already offers household fund aggregation, personalized rebalancing, and continuous AI monitoring. A buyer could see Vouch’s workflow as replicable and value an acquisition mainly for the customers and assets it brings. The memo has yet to establish the scale or durability of that customer base. The competitive overlap weakens the case for a price that clears the hurdle. It does not establish a structural block or a realizable price range below the hurdle, so the Pass gate does not trigger. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
@@ -37,4 +33,4 @@ PowerUp Money already offers household fund aggregation, personalized rebalancin
 
 ### Decisive diligence question
 
-Can an established wealth manager justify a purchase price that leaves at least $83.3 million distributable to equity within eight years? A valuation range grounded in retained household assets and actual commission collections, with a credible bridge from purchase price to holder cash, would move the action to Reach out if it clears the hurdle.
+Can a strategic partner show that acquiring Vouch’s retained, commission-generating households is worth enough to clear the holder’s cash hurdle? A pilot that measures retained assets and net commissions, paired with the partner’s estimate of the cost and time to build the same capability, would test that premise. Buyer economics supporting at least $83.3 million in distributable equity value under the full-sale assumptions would move the action to Reach out.

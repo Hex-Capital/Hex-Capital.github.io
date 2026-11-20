@@ -5,28 +5,28 @@
 
 ### Company case
 
-Limnion’s strongest path is for platform and reliability teams to adopt Siglake through GitHub, route OpenTelemetry logs and traces into their own object stores, and give incident-investigation agents read-only query access. OpenTelemetry ingestion, Iceberg storage, SQL, and MCP support the inference that the same product can serve this recurring job across markets with modest adaptation. Docker and Helm guides give teams a path to first use, and the launch offers direct founder contact. Production setup and payment remain gaps in that adoption path. (The Idea, Market & Traction, Key Risks)
+Assuming strong fit with site reliability and platform teams, Siglake has a credible path to serving the same recurring job across markets. It ingests logs and traces through OpenTelemetry, stores them in Iceberg tables in the customer’s object store, and gives incident-investigation agents SQL and read-only MCP access. These standard interfaces support broad portability for teams with compatible infrastructure. GitHub distribution and documented Docker and Helm setup give those teams a reusable path to first use. Production setup still has material gaps, and the company lists its managed offering as in development. (The Idea, Key Risks)
 
-Continuous ingestion and integrations with collectors and agents could sustain use. In a paid scenario, Limnion would charge recurring fees for the managed deployment it lists as in development. The memo gives no pricing or billable unit that would show how growing workloads raise revenue from existing accounts. The customer’s object store and independently scalable services could limit Limnion’s incremental infrastructure costs, depending on how the managed service is delivered. Contribution would be the managed fee less Limnion’s attributable infrastructure, onboarding, and support costs. Company-run AWS tests at 1 TB and 2.02 billion rows establish test scale, while realized contribution remains unknown. (The Idea, Defensibility, Key Facts)
+Continuous telemetry ingestion and a growing store of incident history give teams a reason to keep using Siglake. That supports inferred usage retention. The self-hosted product carries no per-GB software fee, and the memo gives no managed pricing, leaving recurring revenue and expansion economics uncertain. The November 5 launch and 854 GitHub stars show developer attention. The memo leaves paid adoption and revenue status unknown, so initial traction receives the absent-evidence default. (The Idea, Market & Traction, Key Facts)
 
-The memo records 854 GitHub stars and 11 forks by November 17, following the November 5 public launch. These figures show early developer attention. Commercial traction remains unestablished because the memo gives no realized revenue, paying-customer counts, or billable production volume and leaves revenue status open. (Market & Traction, Key Facts)
+For a hypothetical paid managed deployment, incremental contribution would be the fee less Limnion’s attributable sales, onboarding, support, and any cloud costs it bears. Independently scalable ingestion, compaction, and query services give Limnion a way to provision each workload separately. The company-run AWS tests provide a scale signal, while the memo leaves pricing and delivery costs unquantified. Cost economics receives the default. These commercial gaps drive the Low confidence rating. (The Idea, Defensibility)
 
 ### Countercase
 
-Teams may try Siglake and still decline to migrate or pay. Existing Elasticsearch and Kibana search clients need replacement, and the release notes record a failed 72-hour endurance test with multi-replica failover and tenant isolation still awaiting qualification. Observe’s overlapping OpenTelemetry and customer-owned Iceberg offering gives teams another option. If production migrations routinely require Limnion’s engineers, that work could slow onboarding and consume the managed fee. The structural downside gate stays open because the evidence leaves a viable path through teams already using OpenTelemetry and supported query interfaces, and the memo does not establish unavoidable bespoke work or uneconomic delivery. (The Idea, Key Risks)
+The strongest countercase is that open-source evaluation is easy while production adoption repeatedly requires migration and reliability work. Existing Elasticsearch search clients need replacement, the release notes record a failed 72-hour endurance test, and multi-replica failover and tenant isolation still await qualification. These issues could turn a documented install into a labor-intensive rollout. The structural downside gate clears because the memo establishes neither market-by-market rebuilding nor unavoidable per-buyer work that makes growth economically infeasible. (Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 22/25 |
-| Repeatable acquisition and onboarding | 16/25 |
+| Repeatable acquisition and onboarding | 15/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 59/100** (Neutral)
+**Total Score: 58/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of independent platform teams move from the documented setup to sustained paid production use of managed Siglake with limited Limnion engineering time? Deployment records, recurring invoices, and positive contribution after attributable infrastructure, onboarding, and support would move the action to Reach out. Evidence that ordinary deployments require unavoidable bespoke work that consumes the fee would move it to Pass.
+Can multiple platform teams use the same documented setup to reach reliable, paid production and keep paying with little Limnion support? Repeat deployments with recurring invoices and recorded onboarding, support, and cloud costs showing positive incremental contribution would move the action to Reach out. Evidence that each deployment requires enough custom work to make contribution persistently negative would move it to Pass.

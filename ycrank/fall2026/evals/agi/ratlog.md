@@ -1,32 +1,35 @@
 ﻿# RATLOG -- AGI Evaluation
 
-**Action:** Watch
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-RATLOG’s strongest AGI path is **scarce complements**. The memo records hundreds of flight-ready Amazon Leo satellites awaiting launch. RATLOG says some available slots are three to four years out. The thesis depends on a scenario in which AI-linked orbital projects add demand for missions that existing providers cannot serve on schedule or within payload requirements. The memo documents a launch backlog for one constellation. It leaves the AI demand link and RATLOG’s ability to control scarce launch capacity unproven. (Market & Traction, The Idea, Key Risks)
+RATLOG’s strongest case is a reusable European launcher for satellite operators facing delays. Amazon Leo disclosed that hundreds of flight-ready satellites were awaiting launch, which supports a capacity constraint for constellation deployment. RATLOG names orbital data centers as prospective customers. The memo identifies no specific AI workload waiting on compatible launch capacity and supplies no evidence that AI deployment will tighten that constraint faster than alternative launch supply can expand. Building blocks scores zero. (The Idea; Market & Traction)
 
-RATLOG’s proposed turbopump-free engine could give it an operating advantage if the claimed 90% reduction in parts lowers refurbishment effort at flight scale. The team’s propulsion and avionics backgrounds and its reported prototype hot-fire in four months for under $30,000 support seed-stage execution. Its roadmap gives dates for a flight-ready engine and first-stage testing, while the launch site is still under evaluation. RATLOG reports $400 million in signed reservations, but the memo leaves buyer identities, deposits, and cancellation terms undisclosed. The reservations signal interest, with buyer commitment and AI-linked demand still unclear. (The Idea, Defensibility, Founders & Team, Market & Traction, Key Risks)
+Industry enabled by superintelligence also scores zero. RATLOG attributes potential launch savings to a simpler engine and reuse. The memo identifies no AI-driven reduction in cost per successful mission that would make a previously excluded buyer or use viable. (The Idea; Defensibility)
 
-The expansion unit is a shared flight. Revenue would depend on the realized price per kilogram and the paid payload aboard. Repeat flights would need to cover flight operations, refurbishment, and an allocation of vehicle and site capital at achievable utilization and cadence. The 20-tonne target and lower part count are design inputs. Achieved payload, turnaround costs, and contribution per flight remain unknown. (The Idea, Defensibility, Key Risks)
+The proposed turbopump-free engine gives RATLOG a specific engineering advantage to test. Its durability remains uncertain given existing rideshare and booster-recovery capabilities, and RATLOG was still evaluating launch sites. The company reports $400 million in signed reservations, with customer identities, deposits, and cancellation terms undisclosed. Its reported prototype hot-fire in four months for under $30,000 and the founders’ propulsion and avionics experience support seed-stage execution, with flight-scale delivery still ahead. (Defensibility; Market & Traction; Founders & Team; Key Risks)
+
+Per-kilogram billing defines the revenue unit. The memo gives no realized price, paid payload utilization, or mission costs covering launch operations, recovery, refurbishment, and failures. Scale economics stays at the default. (The Idea; Defensibility; Key Risks)
 
 ### Countercase
 
-Incumbents may already meet the needs of the buyers RATLOG is targeting. SpaceX sells rideshare capacity, Arianespace has flown constellation missions, and Blue Origin has recovered a booster after an orbital mission. The memo identifies no structural barrier that would protect RATLOG’s proposed advantage. It also gives no evidence that reduced labor per successful launch makes a previously excluded use viable, leaving the New Economies path unsupported. The incumbent evidence limits the scarce-complements case, but the availability of equivalent slots for specific missions remains unresolved. That makes Watch appropriate. (The Idea, Defensibility, Market & Traction)
+If orbital AI operators need to launch payloads that existing rideshare or dedicated services cannot accommodate on schedule, RATLOG’s proposed 20-tonne capacity and potentially wider fairing could relieve a specific bottleneck. The documented constellation backlog makes that scenario plausible. It still assumes an AI buyer faces a comparable capacity gap and that RATLOG can serve the required orbit and launch window. The memo leaves both assumptions open, so the Pass gate applies. (The Idea; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 10/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 23/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent operator with an AI-linked payload put down a meaningful deposit for a RATLOG flight because incumbents cannot meet its launch window or payload requirements? A signed reservation with a deposit, documented mission constraints, and a credible RATLOG delivery schedule would move the action to Reach out. Until then, keep Watch.
+Can an orbital AI customer document a mission delayed by a shortage of launch capacity that RATLOG’s proposed vehicle could plausibly serve? A buyer’s procurement record showing the compute workload, payload, orbit, required launch window, and lack of compatible alternatives, together with a credible match to RATLOG’s design and timeline, would move the action to Watch pending flight-scale validation.

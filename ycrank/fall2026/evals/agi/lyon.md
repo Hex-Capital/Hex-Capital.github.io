@@ -1,30 +1,33 @@
 ﻿# Lyon -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is Lyon’s strongest path. Financial institutions currently engineer and maintain features for rules and tree-based models. Lyon trains a model inside each customer’s cloud and reuses its embeddings across tasks. If reuse saves enough engineering and maintenance labor, an institution could afford to deploy underwriting models for portfolios where the manual workflow was previously uneconomic. Lyon reports a 112% relative improvement in default-prediction PR-AUC over one fintech’s existing tree-based model. That supports the technical mechanism on a live institution’s data. The labor savings and newly viable use remain assumptions. (The Idea, Market & Traction)
+Lyon’s strongest commercial case is improving existing underwriting decisions for financial institutions. It trains a customer-owned transformer on each institution’s transaction history inside that institution’s cloud. The memo documents a public training reference and an in-house production rollout. Neither the design nor the buyer evidence identifies a scarce input that limits AI deployment or shows how Lyon would relieve such a constraint. The building-blocks path earns zero. (The Idea, Market & Traction, Key Risks)
 
-The expansion unit is one institution, with additional workflows potentially spreading the cost of initial training. The relevant comparison is all-in cost per correctly flagged default at a matched false-positive rate, including engineering labor, training, inference, validation, and monitoring. The memo provides no measured cost comparison or repeat deployment economics. Lyon’s reported fintech project and insurer work indicate early engagement, with payment and production use unverified. The founders’ experience in financial services, machine learning, and transformer research, together with the reported training run at fintech scale, supports seed-stage execution. Repeat delivery through bank validation remains open. (The Idea, Market & Traction, Founders & Team, Key Risks, Key Facts)
+Banks and fintechs already make these decisions using rules and tree-based models built on hand-engineered features. Lyon reports a 112% relative lift in default-prediction PR-AUC against one unnamed fintech’s existing model. That result supports the possibility of better risk ranking in an existing workflow. The memo provides no evidence of a lower fully loaded cost per successful decision or of a buyer, borrower segment, or use becoming economically viable. The industry-enabled path earns zero. With both paths unsupported, the decision is Pass. (The Idea, Market & Traction)
+
+Customer ownership and a documented in-house alternative limit Lyon’s ability to retain pricing power. Reusing embeddings across workflows could raise switching costs, although retention is unverified. The reported fintech benchmark gives a concrete evaluation signal, with buyer commitment and payment unverified. Training on tens of billions of transactions and the founders’ relevant experience support seed-stage execution credit. Dependable production delivery remains unverified. Scale economics take the default because deployment fees are inferred and the memo gives no revenue-to-cost bridge for the next institution’s training, validation, and ongoing support. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Lyon may improve an established underwriting workflow without making a previously excluded use viable. The reported uplift comes from one fintech, and the memo identifies evidence that gains over boosting can shrink with stronger features and more labeled data. Revolut’s in-house rollout and NVIDIA’s public training reference show a credible substitution route for institutions with ML teams. Lyon’s private-cloud integration could give buyers a reason to keep paying for deployment and maintenance, but customers own the trained models, and the memo shows no buyer preference at functional parity or network effects. These facts leave both New Economies gates unproven. They do not establish easy substitution for Lyon’s target buyers or an independent scarce complement Lyon controls. (Defensibility, Market & Traction, Key Risks, Key Facts)
+If the reported lift holds at a lender’s approval threshold, Lyon could help the lender profitably serve borrowers its current workflow excludes. That scenario assumes the gain persists against a well-tuned baseline and covers the cost of validation and monitoring. Customer-cloud deployment gives Lyon a role in delivering the outcome, while the documented in-house rollout makes it uncertain that lenders would still choose Lyon under model parity. One company-reported benchmark leaves those assumptions open, so the countercase leaves the Pass gate in effect. (The Idea, Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 18/150** (Strong Pass)
 
 ### Decisive diligence question
 
-Will an independent lender pay Lyon to put a previously uneconomic underwriting workflow into production after comparing it with a functionally comparable private-cloud alternative? Move to **Reach out** if the deployment shows a material reduction in human labor and all-in cost per correctly flagged default at a matched false-positive rate, and the lender pays Lyon because its deployment or maintenance still offers an advantage at model parity.
+Can Lyon enable a lender to profitably underwrite a previously excluded borrower segment and win paid deployment when the lender has access to a comparably capable model? A buyer-confirmed paid deployment showing viable per-loan economics after credit losses, validation, and monitoring, with a comparison against the lender’s realistic in-house option, would change the action to Reach out.

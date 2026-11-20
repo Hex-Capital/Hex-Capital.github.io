@@ -5,23 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an industrial microgrid integrator or renewable power developer. EDF Renewables invested in ECOSUN and AES co-led a financing for 5B, showing strategic interest in adjacent prefabricated solar products. A buyer could value Micora’s robotic placement and relocatable solar-plus-storage system if owning it lets the buyer commission and redeploy industrial microgrids with fewer crew hours while maintaining reliable power. The disclosed investments leave acquisition pricing open. (The Idea, Market & Traction)
+Micora’s strongest exit route is a strategic acquisition by an energy developer or microgrid integrator. The memo documents EDF Renewables’ investment in ECOSUN and AES’s co-lead of 5B’s Series B. Those investments show strategic interest in prefabricated solar, while Micora’s potential buyer benefit is specific to remote industrial sites. If robotic placement and redeployable hardware reliably cut installation labor and time to power, a buyer could use the system across its own projects. The memo provides no measured savings or evidence of acquisition demand for Micora. (The Idea, Market & Traction)
 
-Micora reports deployments underway at Pacific island and manufacturing sites and says most setups reach available power in under three weeks from confirmed order, subject to site review. Independently verified commissioning time, labor cost, and power uptime across repeat paid deployments would test the acquisition rationale. The reported projects give Micora a plausible way to run that test. The memo leaves realized revenue, the capital needed to complete the deployments, and any lease financing needs unquantified. The LAKI co-development also leaves ownership and transfer rights for the joint work unverified. (Market & Traction, Key Risks, Key Facts, Defensibility)
+Micora reports construction and deployments at Pacific island and manufacturing sites, and says most setups reach available power in under three weeks, subject to site review. The memo records the LAKI vehicle collaboration, which supports a concrete field test. A seed-stage milestone is to commission paid projects at both site types and verify installation time, installed cost, and power availability against the customer’s alternative. The capital needed to reach that milestone remains unclear because the memo gives no realized revenue, project margins, or funding for equipment, mobilization, and commissioning. Micora offers the hardware for outright sale, making an asset acquisition plausible, with transfer rights for the autonomy software and LAKI-developed components still unverified. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
 
-With investor and deal terms undisclosed, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash objective within eight years. A full sale requires about $83.3 million in distributable equity. The sale cases below are illustrative assumptions. Both assume an eligible holder sells the full stake for cash within eight years, with $10 million in net debt and deal adjustments and a pro rata waterfall with no further preference deductions.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return, requiring about $83.3 million in distributable equity at 3% pro rata. The sale cases below are sensitivities. Both assume a full cash sale within eight years, holder eligibility, and pro rata distribution after net debt and deal adjustments, with no senior claims ahead of the holder. The memo leaves actual ownership and waterfall terms open.
 
-| Scenario | Proceeds bridge | Gross holder cash |
-|---|---|---|
-| Modest sale | $50 million enterprise value less $10 million leaves $40 million in distributable equity | $1.2 million (2.4×) |
-| Strong sale | $100 million enterprise value less $10 million leaves $90 million in distributable equity | $2.7 million (5.4×) |
-| Prolonged private | Cash is reinvested and the holder sells no shares within eight years | $0 |
+| Scenario | Enterprise-to-equity bridge | Cash to holder |
+|---|---|---:|
+| Modest sale | $50M enterprise value less $5M in assumed net debt and deal adjustments leaves $45M in distributable equity | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $10M in assumed net debt and deal adjustments leaves $90M in distributable equity | $2.70M (5.4×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or distribution within eight years | $0 |
 
-The strong case clears the objective by $200,000. At 2.5% ownership, the same sale pays $2.25 million (4.5×). The memo leaves the realizable sale price unanchored and gives no evidence of an independent route to holder cash. (Market & Traction, Key Facts)
+At 2% ownership, the strong sale would yield $1.8 million. The memo supplies no buyer economics or transaction pricing to support either sale value and no evidence of an independent route that would pay this holder. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An integrator could combine standard batteries with existing prefabricated solar products, and AES-backed Maximo shows that other teams can automate solar installation. Site-specific terrain, weather, and backup power needs could erode Micora’s labor and schedule advantage. Without independent field results, a buyer could favor building or partnering over acquiring Micora at a price that clears the holder’s hurdle. This supports Watch. The evidence leaves both a structural block and a binding ceiling on proceeds unestablished. (Defensibility, The Idea, Key Risks)
+A strategic buyer could source standard batteries and partner with an existing prefabricated solar supplier or use its own automation. AES’s backing of Maximo makes that alternative concrete. Micora’s advantage could also shrink if terrain slows robotic placement or backup generation offsets savings. With independent field performance still unverified, the buyer’s reason to acquire Micora remains uncertain. The Pass gate is untriggered because the memo establishes neither a structural closing block nor a credible sale range that falls materially short of the proceeds hurdle. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -30,11 +30,11 @@ An integrator could combine standard batteries with existing prefabricated solar
 | Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeat paid deployments demonstrate enough buyer-specific value to support a strategic purchase price above the holder’s proceeds hurdle? Independent comparisons of installed cost, commissioning time, and uptime against a buyer’s existing approach, paired with that buyer’s acquisition economics, would answer it. A credible price range that clears the hurdle would move the action to Reach out. A supported price ceiling materially below it would move the action to Pass.
+Do paid deployments in both reported site types show repeatable savings large enough to support a strategic purchase price that clears the holder’s proceeds hurdle? Customer-verified commissioning times, installed costs, and power availability, together with a credible estimate of what those gains are worth across a buyer’s rollout, would answer it. Move to Reach out if that evidence supports a price that clears the hurdle after debt and plausible deal adjustments. Stay on Watch while the economics remain unverified.

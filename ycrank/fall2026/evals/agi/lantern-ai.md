@@ -5,28 +5,27 @@
 
 ### Company case
 
-**New Economies** is Lantern’s strongest path. Its recruiting agents share employer-approved hiring criteria across sourcing, screening, and interviews. A customer reported screening more than 1,000 candidates and hiring one engineer. That establishes use in a real hiring workflow. The memo gives no manual cost baseline, labor savings, or comparison of hiring quality. (The Idea, Market & Traction)
+Lantern has a seed-stage case for making first-round interviews viable at a volume that recruiter-led interviews could make uneconomic. The scenario assumes a hiring team can manually interview only a shortlist. Lantern’s adaptive interviewer could extend that first round to more qualified applicants while leaving final decisions with human reviewers. One customer reported screening more than 1,000 candidates and hiring one engineer. That establishes reported use at volume, while the memo leaves open how many candidates received adaptive interviews, what the customer could afford before, and whether the cost per qualified candidate advanced fell after review and rework. This supports early industry-enablement credit. Lantern uses AI to deliver recruiting workflows. The memo identifies no scarce input it supplies to the AI buildout, so the building-blocks path scores zero. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption.** Lantern could make first-round screening viable for candidates an employer would previously skip because recruiter time was too expensive. The relevant comparison is the employer’s cost per hire at comparable quality, including manual screening and interview labor in the former workflow, and Lantern fees, exception handling, and required human review in the new workflow. Reusing approved criteria and feedback across agents could give buyers a reason to keep paying under model parity. The memo provides no evidence of buyer preference at parity, migration costs, or a network effect. (The Idea, Defensibility, Key Risks)
-
-Lantern reports $1M in enterprise annual recurring contract revenue and an account expanding from about $11K to $92K annually. Those signals support seed-stage willingness to pay, with no evidence that the spending came from newly viable uses. The founders shipped the earlier interviewer before launching the broader platform, and the memo documents a university interview-practice rollout. Adding a workflow to an existing enterprise account is a plausible expansion unit. Contribution per added workflow remains untested because the memo supplies no inference, integration, or support costs. (Market & Traction, Key Facts, Founders & Team, The Idea, Key Risks)
+Under model parity, Lantern’s product case rests on applying employer-approved criteria across agents, carrying forward debrief feedback, and integrating with the employer’s ATS. That history could create switching costs, though the memo provides no migration evidence or retention comparison under functional parity. Lantern reports $1M in annual enterprise contracts and one account expanding from about $11K to $92K annually. Those are demand signals for the broader platform, with no repeat paid use established for the proposed interview expansion. The founders shipped an earlier interviewer, and a university rollout documents deployment experience. Dependable enterprise delivery still depends on integration coverage and handling assessment errors. Scale economics stay at the default because the memo gives no per-outcome delivery costs to compare with subscription revenue. (Defensibility, Key Facts, Founders & Team, Market & Traction, Key Risks)
 
 ### Countercase
 
-Lantern may be making existing enterprise recruiting cheaper while Ashby and Workday add overlapping automation inside buyers’ existing systems. Required human review also preserves some of the labor cost. The memo documents incumbent overlap, while functional parity, customer switching, and the viability of previously uneconomic screening remain untested. The reported professional graph has no demonstrated scarcity or exclusive control, so it supplies no independent scarce-complement path. The available evidence supports Watch. (Defensibility, Key Risks, Market & Traction)
+Lantern may help existing enterprise teams process the same applicant pool faster. Ashby and Workday offer overlapping automation inside the systems those teams already use. If customers can get comparable results there and Lantern only saves time on work they already perform, the industry-enablement path falls to zero and the decision becomes Pass. The reported screening volume leaves a concrete expansion mechanism worth testing, so Watch applies today. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 14/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 6/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 31/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent employers repeatedly pay Lantern to screen candidates they previously skipped on cost grounds when their existing ATS offers comparable functionality? A paid cohort that documents the prior cost barrier, a lower all-in cost per hire at comparable quality, and renewals despite a comparable ATS option would move the action to Reach out. If the cost reduction fails to make the use viable or buyers readily switch at parity, move to Pass.
+Can a paying employer use Lantern to extend first-round interviews to qualified applicants it previously could not afford to interview, while maintaining assessment quality at a viable cost per qualified candidate advanced? A buyer-verified comparison across similar requisitions should count human review and rework. Reach out if the employer crosses its prior budget threshold, repeats the expanded workflow, and keeps paying for Lantern when comparable ATS automation is available. Pass if the comparison shows only time savings within the existing interview scope.

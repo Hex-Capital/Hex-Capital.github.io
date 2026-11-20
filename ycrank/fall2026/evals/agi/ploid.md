@@ -1,32 +1,33 @@
 ﻿# Ploid -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-**Scarce complements** is the strongest path. Agent workflows for sales and recruiting could increase demand for fresh records that correctly link a person’s professional and social identities. The memo documents a live retrieval interface and an explicit unresolved response for ambiguous matches. Ploid reports a proprietary index of more than 2 billion people. The thesis depends on Ploid resolving valuable identities that buyers struggle to source elsewhere. The memo leaves comparative accuracy, freshness, and control of the underlying data unverified. (The Idea, Defensibility, Key Risks)
+Ploid’s strongest seed case is selling current, identity-matched profiles to sales and recruiting platforms. The memo documents a REST API, CLI, and MCP server for search and enrichment. Ploid reports an index of more than two billion people and uses live retrieval to supplement it. Its research API can return an unresolved result when it cannot distinguish between candidates. (The Idea, Defensibility, Key Risks)
 
-Ploid claims thousands of companies use the product, and a founder reports closing clients. Contract values, production usage, and renewals remain unverified. The founders shipped a documented API, CLI, and MCP server, and Hernandez brings relevant production recommendation experience. The next execution milestone is a comparative production test of identity resolution. (Market & Traction, The Idea, Founders & Team)
+Both AGI paths score zero. For building blocks, sales and recruiting agents need accurate profiles, but the memo describes stale records and manual cleanup without showing that a shortage of usable profiles is holding back agent deployments. Apollo offers people search through MCP, and Crustdata sells live people data through an API. For an AI-enabled industry, natural-language search and automated enrichment could reduce research labor in the existing workflow. The memo identifies no buyer or use that becomes economically viable at the resulting cost per correctly matched, usable profile. (The Idea, Defensibility, Key Risks)
 
-The expansion unit is a paying workspace and its credit usage. At full use of included credits, Growth yields $0.20 per credit and Scale yields $0.15. In a break-even scenario before fixed costs, vendor data, live retrieval, and any manual review would have to cost less per consumed credit than those rates to leave positive contribution. The memo gives no credit usage per successful match, delivery costs, or workspace expansion data. (The Idea, Key Risks)
+The reported index and matching system provide a potential advantage, with buyer preference and pricing power under comparable alternatives still untested. A founder reports closing clients, and Ploid claims thousands of companies use the product. Those claims and the described manual workarounds provide early demand signals, while paid usage and renewals remain unverified. The shipped interfaces and Hernandez’s prior retrieval work support seed-stage execution credit. Published pricing establishes what buyers would pay per credit, while vendor costs, retrieval costs, and manual review per usable result are missing. The reliance on company-reported traction and the lack of measured buyer outcomes keep confidence low. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Apollo already offers people search through MCP, and Crustdata sells live people data through an API. Ploid also relies on contact-data vendors and acknowledges that supplied addresses can be stale or misclassified. Buyers may be able to assemble adequate coverage from existing providers. The documented overlap leaves parity on difficult cross-site matches untested, so the scarce-complement path stays open under Watch. The memo describes cleanup in established sales and recruiting workflows and leaves the former delivery cost, cost per successful outcome, and previously excluded buyers unverified. That leaves New Economies without independent support. (Defensibility, Key Risks, The Idea)
+If a recruiting platform needs to refresh candidate profiles frequently, manual reconciliation could make that cadence uneconomic. Ploid’s live retrieval and cross-site matching could lower the cost enough to sustain it. Even with access to a comparably capable model, the buyer would still need current records and a way to resolve identities. This scenario assumes both that manual work is the binding cost and that Ploid reduces it after accounting for bad matches and unresolved results. The memo describes the workflow and product capabilities, so the zero-path Pass gate still applies until there is evidence of a newly viable use. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 20/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent sales or recruiting platforms renew at a price that gives Ploid positive contribution after a head-to-head production trial against their best existing provider? A move to Reach out would require paid renewals tied to a material lift in verified, current cross-site matches, with provider, retrieval, and exception costs measured. If existing providers match those outcomes at comparable cost and buyers readily substitute them, move to Pass.
+Can a recruiting platform use Ploid for a paid profile refresh at a cadence it previously ruled out on cost? A buyer-confirmed production pilot would answer this if it showed that Ploid met the buyer’s accuracy and freshness targets below its cost ceiling per usable profile, including retries and manual review, while the existing workflow and an alternative data provider using the same model missed that threshold. That result would support Reach out.

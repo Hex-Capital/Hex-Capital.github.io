@@ -5,28 +5,29 @@
 
 ### Company case
 
-The strongest path is **scarce complements**, through fiber commissioning for AI data centers. The memo documents a production rollout of high-density GPU racks. Nines says technicians must match, insert, and verify thousands of fiber connections per rack. If this work limits how quickly operators can bring racks online, a robot that reliably accelerates verified patching could provide scarce commissioning capacity. The rollout supports the relevance of the workflow. Whether fiber patching actually delays commissioning remains unmeasured, and Nines identifies its published inspection sequence as a simulation. (The Idea; Market & Traction; Key Risks)
+Nines has a plausible building-blocks path through fiber commissioning for high-density GPU racks. The memo documents a production rollout of rack-scale GPU systems. Nines says technicians must match, insert, and verify thousands of fiber connections per rack and proposes autonomous robots for that workflow. If patching crews are already at capacity and their work determines when racks go live, adding robots could bring GPU capacity online sooner. The memo leaves crew availability, commissioning delays, and the time needed to add equivalent capacity unverified. (The Idea, Market & Traction)
 
-Rack-specific qualification could give Nines a durable advantage if operators continue to rely on its field execution as competing control models improve. That is an inference. The memo describes proposed site-specific configurations, while operator qualification and control over scarce service capacity remain unverified. The launch and demo request form establish outreach activity. Buyer commitments and willingness to pay remain unverified. Li’s robotics and production inference experience and Eom’s work scaling Patreon’s livestream product support seed-stage execution, with on-site delivery still to prove. (Defensibility; The Idea; Market & Traction; Founders & Team)
+The industry-enabled path scores zero. Nines describes automating fiber patching and live maintenance that operators already perform. A robot would still have to execute and verify the physical work if comparable control models became widely available. The memo identifies no buyer, use, or service frequency that automation would make economically viable for the first time. (The Idea)
 
-In a per-site service scenario, the expansion unit is a rack row. Compare technician minutes and fully loaded cost per verified connection for manual patching and robotic service, including hardware amortization at actual utilization, rack-specific setup, supervision, and human rework. The memo supplies neither a measured baseline nor robot deployment costs, so repeat-site economics remain open. (The Idea; Key Risks; Key Facts)
+Site-specific integration could build operating know-how, but a published operator-built transceiver prototype and accessible prototyping resources weaken the case that Nines can defend its margins. The memo records a launch and a demo request form, with no buyer-confirmed trial, purchase, or paid deployment. Li’s production inference and robotics experience and Eom’s product delivery support early execution. The public inspection sequence is a simulation, and the memo provides no representative field result. A per-site service fee is an inferred model, with no pricing or delivery-cost data to estimate contribution after setup, supervision, and rework. (Defensibility, Key Risks, Market & Traction, Founders & Team, The Idea, Key Facts)
 
 ### Countercase
 
-Fiber patching may be one task in a commissioning schedule governed by other dependencies. Even where it delays go-live, operators could source equivalent capacity from their own robotics teams or competing vendors. Microsoft Research’s transceiver prototype and Watney’s reported hyperscaler deployments make those alternatives credible. The memo does not establish ready substitution for Nines’ specific workflow, so the scarce-complement path stays open for a field test. A New Economies path would require evidence of a previously excluded buyer or use becoming viable, and the memo describes work operators already perform. (The Idea; Defensibility; Market & Traction; Key Risks)
+Operators may be able to staff fiber patching within the existing commissioning schedule. Even where patching takes substantial labor, rack-specific setup and recovery from failed insertions could absorb the robot’s time savings. The memo identifies cable handling and rack variation as risks, and Watney reports hyperscaler deployments that suggest buyers may have another route to automation. The potential constraint warrants Watch while buyer-level evidence of delays and a representative test remain open. (Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 12/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 4/15 |
+| Team and execution | 5/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 27/150** (Pass)
 
 ### Decisive diligence question
 
-Would an independent operator pay to expand a Nines pilot after it measurably shortens fiber commissioning? Move to **Reach out** if a paid on-site pilot meets the operator’s connection quality standards, reduces time to rack readiness and fully loaded cost per verified connection against the manual baseline, and earns a paid expansion to another row.
+Can a Nines robot shorten time to verified rack readiness where fiber staffing already delays commissioning? A buyer-witnessed trial against the site’s staffed baseline should measure elapsed time through verification, including setup, technician interventions, and rework. Move to Reach out if the buyer confirms that fiber staffing delayed commissioning and the robot materially shortens that delay at the site’s required verification standard. Stay at Watch if the trial is inconclusive. Move to Pass if buyer records across the targeted deployments show that adding equivalent patching capacity is routine and fiber staffing does not delay rack readiness. (The Idea, Market & Traction, Key Risks)

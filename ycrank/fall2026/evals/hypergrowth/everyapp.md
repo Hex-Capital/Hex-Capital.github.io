@@ -5,15 +5,17 @@
 
 ### Company case
 
-EveryApp’s strongest path is to use OpenSEO and GitHub to attract small teams to its self-hosted app platform, then sell managed hosting to teams that want to avoid running it themselves. Assuming strong product-market fit with those teams, the same Gateway, Cloudflare Workers, and MCP interfaces can support the recurring job of deploying and sharing business apps across markets with modest adaptation. GitHub and Discord provide discovery, and the documented agent-assisted install gives technical buyers a route to first use. A paid Cloudflare account, configured domain, and service credentials still create setup friction. The managed purchase path remains a company plan. (The Idea, Key Risks)
+Assuming strong product-market fit with small teams that want to run and share open-source business apps, EveryApp has a credible path to serving the same buyer across markets. Its Gateway uses a common Cloudflare Workers deployment, shared sign-in, and MCP interfaces. Where teams can use Cloudflare, that architecture makes it plausible that the same product can serve the same recurring job with modest changes. (*The Idea*, *Key Risks*)
 
-Shared sign-in and centralized credentials give teams a reason to keep using the Gateway as they add apps. The company’s proposed $10 monthly starting price and usage-based scaling could turn that recurring use into account expansion. **Managed-service scenario:** If EveryApp can reuse its deployment automation, incremental contribution would be the monthly fee and usage charges less hosting, connected-provider costs it absorbs, and direct onboarding and support. In the current self-hosted model, customers pay Cloudflare and connected providers directly. That establishes who bears those costs today, while managed contribution and paid retention remain unmeasured. (The Idea, Key Facts)
+GitHub and Discord give teams a way to discover EveryApp, and the agent-assisted quickstart lets them start independently. Production setup still requires a paid Cloudflare account, a configured domain, and service credentials. Once teams run multiple apps through the Gateway, shared sign-in and centrally managed credentials give them a reason to keep using it. That supports an inference about continued use. Paid renewals and expansion remain unproven for the platform. (*The Idea*, *Key Risks*, *Key Facts*)
 
-The two-person company relaunched the platform with installable apps on October 26 and had 906 platform repository stars by November 17. That shows early attention. The founder’s report of hundreds of paying customers following OpenSEO’s July launch applies to the standalone product. It makes OpenSEO a credible acquisition channel to test, while the memo leaves the platform’s commercial traction undetermined. (Market & Traction, Key Facts)
+The October 26 platform relaunch drew 906 GitHub stars by November 17, a signal of early interest. The founder reported hundreds of paying customers for standalone OpenSEO. The memo provides no usable commercial trajectory for the relaunched EveryApp platform, so initial traction receives the absent-evidence default. (*Market & Traction*, *Key Facts*)
+
+Under a managed-tier scenario at the announced $10 monthly starting price, first-month contribution would be $10 minus attributable acquisition, setup, support, and any infrastructure or connected-service costs EveryApp takes on. Self-hosted users currently pay providers directly. The proposed usage pricing could protect managed-tier contribution if bills rise with the costs EveryApp incurs. The memo documents a concrete path to self-service, while managed-tier demand and contribution remain uncertain. (*The Idea*, *Key Risks*, *Key Facts*)
 
 ### Countercase
 
-OpenSEO users can keep their hosted service or deploy it independently. Teams that do adopt the Gateway can stay on the free tier, leaving EveryApp with weak paid conversion or a managed customer base whose setup and support costs consume the starting fee. The structural downside gate stays open because the documented self-install flow is reusable and the cost of supporting managed buyers remains uncertain. (The Idea, Key Risks)
+Teams willing to configure Cloudflare can keep using EveryApp for free, and OpenSEO customers can stay on its standalone hosted service or deploy it independently. Teams that want to avoid setup may be the ones who need the most support, which could make the planned entry price hard to sustain. The structural downside gate remains open. The documented self-install flow gives buyers a reusable path, and the memo gives no specific evidence that managed customers would require unavoidable, uneconomic support. (*The Idea*, *Key Risks*, *Key Facts*)
 
 ### Dimension Scores
 
@@ -29,4 +31,4 @@ OpenSEO users can keep their hosted service or deploy it independently. Teams th
 
 ### Decisive diligence question
 
-Can a cohort of small teams arriving through GitHub or OpenSEO independently activate a paid managed deployment and renew at positive incremental contribution? Cohort records showing self-serve activation, paid renewal, and positive contribution after hosting, onboarding, and support would move the action to Reach out.
+Can EveryApp repeatedly convert small teams from GitHub or Discord into managed customers who activate independently and renew at positive incremental contribution? Evidence across successive paid cohorts, with acquisition, setup, support, and infrastructure costs accounted for, would move the action to Reach out if it lifts the score to at least 65.

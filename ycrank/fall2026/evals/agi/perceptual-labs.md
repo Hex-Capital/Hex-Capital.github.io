@@ -5,26 +5,29 @@
 
 ### Company case
 
-New Economies is the strongest path. Perceptual Labs proposes using natural-language instructions to make targeted weight edits and record them for audit. The company describes gradient-based post-training as slow, costly, and imprecise. The investment hypothesis is that a team with editable weights could routinely fix narrow model behaviors it currently leaves unaddressed because a post-training run takes too much engineering time and compute. The memo gives no baseline cost or measured savings per successful fix. A small-model experiment improved math performance through direct edits, supporting technical plausibility in a narrow setting. (The Idea, Market & Traction)
+Perceptual has weak support for a building-blocks path in post-training for labs and enterprises with editable model weights. The company proposes tracing a specific unwanted behavior to the circuits that produce it, editing the relevant weights, and logging the change for audit. It describes gradient-based post-training as slow, costly, and imprecise. The memo reports that an independent experiment improved a small model’s math performance through direct edits. That establishes narrow technical plausibility. The seed-stage assumption is that more model deployments will create more demand for targeted patches, and that making those patches without regressions will remain difficult. The memo provides no buyer evidence that patching delays constrain deployment or that existing methods cannot absorb demand. (The Idea, Market & Traction, Key Risks)
 
-The current launch shows an early-access waitlist. The founders reported enterprise training work through Bryel Foundry, and their backgrounds cover interpretability, post-training, and model product development. That supports seed-stage execution credit, while demand for weight editing remains unverified. A successful production edit is the unit to measure. Any savings must survive the cost of diagnosis, regression testing, retries, and rollback. An audit trail could give buyers a reason to pay under model parity if it measurably reduces their validation burden. The memo provides no buyer preference or deployment economics to establish that advantage. (Market & Traction, Founders & Team, The Idea, Key Risks)
+The industry-enabled path earns zero. Lowering the cost of a patch could improve the existing post-training workflow. The memo identifies no buyer, use, or patching cadence that was previously uneconomic and would become viable with the proposed product. (The Idea, Market & Traction)
+
+The early-access waitlist establishes a launch, with buyer trials and commitments still unverified. The founders’ reported Bryel training engagements and relevant research and product experience support execution credit for adjacent work. A library of validated edits and regression tests could support value capture, but the memo records no deployment evidence for it and describes public methods with overlapping capabilities. The memo also provides no pricing or delivery-cost data to assess contribution per successful patch. (Market & Traction, Founders & Team, Defensibility, Key Facts)
 
 ### Countercase
 
-Weight editing could become an incremental improvement to existing post-training workflows. WeightBench found that frontier agents failed its patching tasks under the benchmark’s constraints, and production edits must preserve unrelated capabilities across architectures. Teams with editable weights have public methods for overlapping capabilities, while teams without weight access are outside the direct-editing market. The memo establishes no company-controlled scarce complement. These findings leave reliability, market opening, and value capture under model parity unproven. They do not establish ready substitution or rule out a production use that clears the New Economies gates. (Key Risks, Defensibility)
+Regression testing could erase the savings from skipping gradient training. The memo reports that frontier agents failed WeightBench’s language-model patching tasks under its test constraints. A buyer may still need substantial engineering time to verify that each edit preserves unrelated capabilities. Weight access further narrows the eligible workload. This leaves the scarce-input mechanism plausible at seed, with enough uncertainty about reliable delivery to warrant Watch. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 4/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 5/20 |
+| Customer demand | 4/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Can an independent buyer with editable weights complete a paid production pilot and renew for a recurring class of fixes it previously skipped because gradient-based post-training was too costly? Move to Reach out if the pilot demonstrates materially lower all-in cost per fix at equivalent regression standards and the buyer renews after comparing Perceptual with a credible alternative that can achieve the same edit quality. Stay on Watch if either condition remains unresolved. If the pilot directly shows that the cost reduction opens no new use or that buyers readily substitute at parity, close this path and move to Pass absent an independently supported alternative.
+Can Perceptual clear a buyer’s documented post-training bottleneck on a representative model the buyer can edit? A side-by-side pilot against the buyer’s current workflow would move the action to Reach out if Perceptual fixed the target behavior, passed the buyer’s regression suite, and materially reduced time and fully loaded cost per successful patch, including validation and failed attempts. A representative pilot showing no meaningful advantage would move the action to Pass. (The Idea, Key Risks)

@@ -1,32 +1,32 @@
 ﻿# Cesara -- Hypergrowth Evaluation
 
-**Action:** Pass  
-**Evidence confidence:** Medium
+**Action:** Watch  
+**Evidence confidence:** Low
 
 ### Company case
 
-Conditional on strong product-market fit, Cesara’s strongest growth path is to enter a health system through a complimentary claims audit and a service-line pilot, then process more claims across the same system. The memo documents an October public launch and demo. The CEO reports that pilots identified over 90% of valid underpayments and recovered over 70% of those identified. Sample sizes, recovered dollars, and fees earned are undisclosed, so the commercial traction score uses the 7/20 default. (The Idea, Market & Traction, Key Facts)
+Assuming strong fit with its initial hospital buyers, Cesara’s most plausible growth path is to reuse its contract extraction and payment reconciliation software across health systems. The memo documents an October 2026 launch and demo, along with a sales motion built around direct demos and complimentary claims audits. Cesara describes pilots scoped to one service line. That gives buyers a defined starting point, with a sales-led path that still depends on claims access, security review, and a business associate agreement. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Every remittance creates another reconciliation task. Accumulated contract versions and appeal histories could make Cesara harder to replace, while additional service lines could expand usage. Post-pilot billing and pricing are undisclosed, so the revenue effect of that expansion remains uncertain. (The Idea, Defensibility)
+Pricing claims at submission, reconciling remittances, and tracking appeals give hospital revenue-cycle teams a recurring reason to use Cesara. I infer that contract versions and appeal history could make the product harder to replace over time. The CEO reports that pilots identified over 90% of valid underpayments and recovered over 70% of those identified. The memo gives no sample size, realized pilot fees, or post-pilot terms. Paid growth, recurring revenue, and same-account expansion therefore remain unestablished. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
 
-At the pilot stage, incremental contribution is the fee collected minus the cost of the claims audit, secure data setup, contract validation, claim processing, and appeal support. The CEO says missed targets yield no fee. If Cesara can reuse validated contract rules and connected feeds across more claims, processing volume could grow faster than delivery costs. Fee amounts, staff time, and processing costs are undisclosed, leaving the size and sign of contribution uncertain. (The Idea, Key Risks, Key Facts)
+For the next hospital, contribution depends on any pilot fee earned after the agreed targets are met, less the work of selling, auditing claims, connecting and validating feeds, running the software, and supporting appeals. Automated pricing and reconciliation could let Cesara handle more claims per hospital with less manual work per claim. That scenario depends on feed setup and exception handling staying bounded. A missed pilot target yields zero pilot revenue while Cesara still incurs delivery costs. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-Contract extraction and discrepancy detection are reusable, but the full product depends on health-system data feeds, electronic remittances, payer-specific contract terms, and approved appeals workflows. The current sales path runs through demos, audits, and scoped pilots, with security review and a business associate agreement required for claims access. Across materially different reimbursement systems, Cesara would likely need substantial work to adapt and validate claim and remittance mappings, payment rules, and appeal workflows. That dependence triggers the structural downside gate because the memo supports no credible near-term path to transferring the full workflow with bounded changes. (The Idea, Defensibility, Key Risks)
+Even with strong initial fit, Cesara could face a bespoke rollout in each new market. Contract extraction and expected-payment calculations appear reusable, while claims and remittance feeds, data-access approvals, and appeal filing could require substantial changes. The memo establishes those dependencies and leaves the extent of market-specific work unresolved. The structural gate stays open because the core workflow has a plausible transfer path and the evidence does not establish that substantial rebuilding is unavoidable. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 7/25 |
+| Global buyer demand | 11/25 |
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can Cesara complete a paid production rollout in a materially different reimbursement system using the same contract-pricing, reconciliation, and appeals engine? A deployment record showing bounded changes to data interfaces, payment rules, and appeals workflows, with measured implementation effort, would clear the portability gate and move the action to Watch.
+Can Cesara bring a hospital in a second market into paid production for claim pricing, reconciliation, and appeal filing through configuration and bounded feed mapping? A live deployment with a paid invoice and a record of integration work would answer it. Bounded changes would keep Cesara on Watch pending repeatable paid growth. A market-specific rebuild that comparable hospitals would also require would trigger Pass.

@@ -5,28 +5,26 @@
 
 ### Company case
 
-Conditional on strong product-market fit, OpenScaffold’s strongest path is bottom-up adoption by forward-deployed and implementation engineers, followed by paid expansion to their teams. These engineers repeatedly turn calls, tickets, and emails into customer requirements. The product maintains a source-cited deployment plan and passes requirements to existing coding agents through MCP. Common inputs such as GitHub and a standard agent interface make the same workflow plausibly portable across markets where teams can share customer data with the model subprocessor. (The Idea, Key Risks)
+Assuming strong product-market fit with deployment teams, OpenScaffold has a credible path to global demand. Implementation engineers can use the same source connectors and MCP interface to carry customer requirements from calls, tickets, and email into existing coding agents. That workflow appears portable across markets where teams can authorize the same data processing. Launch YC gives buyers a discovery route, and the free plan offers independent signup and reusable connectors. Larger teams and contract buyers are directed to email, and the memo leaves typical unassisted activation unverified. (*The Idea*, *Key Risks*)
 
-Launch YC and free self-serve signup give engineers a concrete way to discover and try the product. The documented route for larger teams, SSO, or contracts is an email inquiry. Deployment history and approved playbooks could bring teams back for successive projects, while paid conversion, renewal, and expansion remain unverified. In a paid-team scenario, the team fee would need to cover incremental model processing, infrastructure, and any attributable sales, onboarding, and support. The memo establishes the free plan and third-party model processing, leaving paid contribution unverified. (The Idea, Defensibility, Key Risks)
-
-The two-person team publicly launched on November 16, shortly after the October 26 pivot. A founder reported a pilot test, and Faraday’s CEO publicly identified himself as a customer. Neither statement establishes payment, and revenue status remains unknown. The traction score uses the default because the memo gives no usable evidence of realized commercial traction. (OpenScaffold, Market & Traction, Key Facts)
+Deployment history and approved playbooks could make OpenScaffold more valuable as teams handle more deployments. That supports continued use as an inference, while recurring billing and paid expansion remain unverified. The two-person team launched OpenScaffold on November 16 after the October pivot from Sigma. Faraday’s CEO publicly identified himself as a customer, and a founder reported a pilot test. Neither establishes paid use or a commercial growth rate, so initial traction uses the absent-evidence default. The free plan generates $0 per workload while document processing uses a model subprocessor. Paid prices and per-workload costs are unknown, leaving incremental contribution unassessable and cost economics at its default. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-The strongest risk is that teams can sign up easily but still need to reconstruct requirements manually. The founder reported that in one pilot test the product failed to distinguish customer requests from deployment-team requests 82% of the time. Source citations and review give engineers a way to catch errors, but frequent correction could erase the time savings and make paid adoption depend on hands-on support. Third-party processing could also block access to the communications the product needs. The structural gate remains open because the memo establishes neither unavoidable vendor labor nor a market-by-market rebuild. Confidence is Low because reliable independent use and paid contribution remain unverified. (Key Risks, The Idea)
+A founder reported that OpenScaffold failed to distinguish customer requests from the deployment team’s requests 82% of the time in one pilot test. If that rate persists in production, engineers could spend much of the time saved on reconstructing requirements checking the agent’s work. Third-party processing of customer communications could also require account-by-account security approval. Together, these risks could turn a portable product into a labor-intensive rollout. The structural downside gate stays open because the memo does not establish that either burden is unavoidable at scale. The unresolved quality, activation, and monetization questions keep confidence Low. (*Key Risks*, *The Idea*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 16/25 |
+| Repeatable acquisition and onboarding | 14/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 57/100** (Neutral)
+**Total Score: 55/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of ordinary deployment teams activate through public signup on approved live customer data, use OpenScaffold across successive deployments, and renew on paid terms with positive incremental contribution? Usage and billing records, backed by a review of attribution accuracy and founder time, would answer it. Repeated paid renewals with manageable correction, minimal founder involvement, and positive contribution would move the action to Reach out.
+Can a cohort of deployment teams activate through the standard signup and connectors, use OpenScaffold reliably on live projects, and pay a second monthly bill without founder-led setup or ongoing review? Activation records, sampled attribution accuracy, repeat invoices, and attributable processing and support costs would test that milestone. A cohort showing repeat paid use with manageable review and positive incremental contribution would justify rescoring for Reach out.

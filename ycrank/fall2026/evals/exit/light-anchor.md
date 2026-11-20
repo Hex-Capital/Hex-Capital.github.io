@@ -5,36 +5,34 @@
 
 ### Company case
 
-Light Anchor’s strongest path is a strategic acquisition by a marketplace optimization provider such as Teikametrics. A buyer could add managed US growth to its advertising, listings, and inventory tools. The memo lists seven client case studies. Anuko’s testimonial reports daily Amazon sales at 54× its June baseline in one October week and sales of 3.07× ad spend over October 1–7. That result gives a buyer a reason to test the workflow. Light Anchor also says its agents reuse operating records across brands, which could make the workflow more valuable if it consistently improves results. The memo documents neither cross-brand lift nor buyer interest. (Market & Traction, Defensibility)
+A strategic sale to a consumer-brand portfolio operator is Light Anchor’s strongest supported exit route. The directory lists ten agent-run brands, and Light Anchor names seven managed-growth clients. Anuko reported that daily Amazon sales reached 54× its June baseline in the week ending October 6 and that sales were 3.07× ad spend on October 1–7. A buyer could value the ability to repeat that launch process across brands, particularly if Light Anchor’s shared operating records improve later campaigns. That buyer benefit remains an inference. The Anuko result covers a short period, and absolute sales, incremental contribution profit, and cross-brand lift remain unverified. (The Idea, Defensibility, Market & Traction)
 
-A plausible seed-stage milestone is to demonstrate sustained incremental contribution profit across several client brands after ad spend, fees, and fulfillment costs, while measuring how much staff time each account requires. The existing client work gives Light Anchor accounts on which to run the test, and its pricing terms put ad spend directly on clients. The capital and staffing needed to complete the test remain unknown. A company-level sale could keep client accounts in place, subject to contract terms, continued platform access, and rights to use historical data after closing. (The Idea, Market & Traction, Key Risks)
+A plausible seed-stage milestone is to demonstrate repeatable incremental contribution profit across several brands over multiple months, after ad spend, fulfillment, and the cost of replacing founder labor. Active client work and client-funded ad spend give Light Anchor a way to run those tests. The memo leaves runway and the capital needed to scale the owned portfolio unclear. A purchase of the operating company is plausible, with continued access to client accounts and rights to reuse campaign data requiring verification. The memo provides no evidence of an independent route to holder liquidity. (The Idea, Market & Traction, Key Risks)
 
-The proceeds benchmark is a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3%, no follow-ons, and a fivefold gross cash objective within eight years. The holder needs $2.5 million in cash, which requires about $83.3 million in distributable equity value at 3%. Both sale scenarios below are illustrative. They assume a closing within eight years, eligibility to sell the full stake for cash at closing, and pro rata distribution after the stated deductions, with no additional senior claims.
+The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash objective within eight years. That requires about $83.3 million in distributable equity value. The sale scenarios below are illustrative sensitivities. Both assume an eligible holder sells the entire stake for cash within eight years, with no senior preference diverting proceeds from the pro rata waterfall.
 
-| Scenario | Enterprise value to distributable equity | Gross cash to holder |
-|-----------|-------------------------------------------|----------------------|
-| Modest sale | $40M less $5M in net debt and closing adjustments = $35M | $1.05M (2.1×) |
-| Strong sale | $100M less $10M in net debt and closing adjustments = $90M | $2.70M (5.4×) |
-| Prolonged private | Continued operations with cash reinvested and no share purchase or payout | $0 (0×) |
+- **Modest sale.** $40 million in enterprise value less $5 million in assumed net debt and deal costs leaves $35 million in distributable equity. The holder receives $1.05 million, or 2.1×.
+- **Strong sale.** $110 million in enterprise value less $10 million in assumed net debt and deal costs leaves $100 million in distributable equity. The holder receives $3 million, or 6×. If only 80% of the stake is cashed out, realized proceeds fall to $2.4 million, or 4.8×.
+- **Prolonged private.** Continued operation with cash reinvested and no eligible share purchase yields zero realized proceeds within eight years.
 
-At 2.5% ownership, even the strong sale yields $2.25 million. The earlier founder-reported $1.6K to $3.4K in monthly recurring revenue has unspecified scope, and the memo supplies no buyer valuation evidence or independent liquidity route. The strong case shows the price and terms the acquisition would need to support. (Key Facts, Market & Traction)
+Light Anchor’s quoted fee of 5–15% of tag-attributed sales shows how the service monetizes campaigns. The earlier reported $1.6K–$3.4K MRR has unspecified scope. Neither gives a basis for underwriting an acquisition price or a holder payout, so proceeds take the absent-evidence default. (The Idea, Key Facts)
 
 ### Countercase
 
-Amazon and Meta already automate parts of the ad workflow, and a buyer could assemble those capabilities internally if Light Anchor’s managed service delivers little incremental profit. Anuko’s short measurement window, tag-based attribution, and the manual fulfillment reported for owned brands leave open how much value comes from repeatable automation and how much depends on hands-on work. Client control of connected accounts adds a closing risk. The memo establishes neither a structural closing block nor a supported price range that leaves the holder materially short, so the mandatory Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+A strategic buyer could use Amazon and Meta’s native tools for campaign automation and keep the remaining work in-house. That option becomes more attractive if Light Anchor’s reported results depend on founder labor or if client account access and campaign data rights cannot carry over after a sale. The memo describes manual fulfillment and dependence on connected client accounts. These risks weaken buyer economics and closing feasibility, but the evidence falls short of establishing a structural block or a credible price ceiling below the holder’s hurdle. The Pass gate remains untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-What price range would a strategic buyer underwrite after seeing sustained, incremental contribution profit across several client brands? Buyer feedback tied to those measured results would move the action to **Reach out** if it supported roughly $83.3 million or more in distributable equity value within eight years under the benchmark ownership and payout assumptions. A supported range materially below that hurdle across the strongest credible sale case would move the action to **Pass**.
+Can Light Anchor demonstrate repeatable, transferable contribution profit across brands at a scale that gives a strategic buyer an economic reason to pay a price that clears the holder’s hurdle? Multi-month campaign and margin records that isolate incremental profit, together with verified account and data rights, would support Reach out if a buyer-specific valuation bridge showed a credible path to $2.5 million in holder cash within eight years. A supported price ceiling below that hurdle on the strongest credible route would change the action to Pass.

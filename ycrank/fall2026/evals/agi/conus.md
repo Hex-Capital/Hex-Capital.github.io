@@ -1,30 +1,31 @@
 ﻿# CONUS -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is CONUS’s strongest path. Today, surgeons may search manufacturer manuals, vendor portals, and hospital systems or ask a colleague. CONUS says it maps procedures to the implants available at each hospital and retrieves guidance from manufacturer documents and local protocols with citations. If this reduces staff time per verified answer, including source checking, hospitals could make routine checks practical for infrequently used implants where manual lookup is too time-consuming. The memo gives no comparative labor measurements or evidence that hospitals have adopted this previously impractical use. (The Idea, Key Risks)
+CONUS uses AI to help surgeons find device instructions for implants stocked at their hospital and check them against local protocols. The memo describes a manual workflow spanning manufacturer PDFs, vendor portals, hospital systems, and calls to colleagues. Faster retrieval could save clinician time, but the memo identifies no buyer or use that becomes economically viable because of those savings. CONUS’s terms require clinicians to verify the original sources, so the time and cost per correctly completed lookup remain unknown. The product also supplies no scarce input to AI development or deployment. Both AGI paths score zero, which triggers the Pass gate. (The Idea, Key Risks)
 
-CONUS says manufacturers integrate catalogs and hospitals add device lists and protocols. That gives the product a plausible advantage when models are equally capable, but the memo documents neither exclusive access to those inputs nor buyer preference when alternatives offer comparable functionality. App release history establishes that the team shipped, and its AI deployment and biomedical engineering experience supports early execution. The 28 live hospitals and 53 onboarding are company-reported. Free core access and quoted institutional AI licenses leave paid conversion and repeat use uncertain. The hospital is the natural expansion unit, but the memo gives no realized revenue or site-level onboarding, maintenance, support, or inference costs to establish contribution. (Defensibility, Founders & Team, Market & Traction, The Idea, Key Facts)
+For the hospital software business, CONUS reports integrating manufacturer catalogs with hospital-specific device lists and protocols. Maintaining those integrations could give hospitals a reason to stay, though the memo provides no evidence of exclusive access or retention. CONUS reports 28 live hospitals and 53 onboarding, which suggests interest in trying the product. Free core hospital access makes willingness to pay for AI hard to infer from those counts. The observed iOS release history and the founders’ relevant AI and biomedical engineering experience support seed-stage execution. Dependable clinical use remains unverified. Published license options establish an asking price, while the memo gives no realized revenue or delivery costs for the next hospital. These gaps limit evidence confidence to Medium. (Defensibility, Market & Traction, Founders & Team, Key Facts, Key Risks)
 
 ### Countercase
 
-CONUS may make an existing lookup workflow more convenient without opening a new use. M-Eido already searches uploaded implant manuals, CONUS requires clinicians to verify answers against original sources, and hospitals retain responsibility for protocol approval and version control. Verification could absorb much of the labor saving, while a rival with the same local documents could deliver comparable results. That evidence limits thesis fit and value capture, but it does not establish parity across the hospital-specific workflow or show that verified lookups fail to save time. The New Economies path stays open at Watch. The memo supplies no independent scarce-complement case. (Defensibility, Market & Traction, Key Risks)
+If manual lookup and colleague support are too costly for hospitals to offer verified device guidance during every eligible case preparation, CONUS could make that frequency viable. Its hospital-specific device lists and approved protocols could still give buyers a reason to use a dedicated service when comparable models are available. M-Eido’s manual search shows that the retrieval feature can be replicated. The memo gives no measured savings after source verification or evidence that hospitals now perform lookups they previously skipped, so this scenario leaves the Pass gate in place. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 7/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 23/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent hospital renew a paid CONUS pilot for routine implant checks it previously skipped because manual lookup took too long? Move to Reach out if the pilot shows materially less staff time per correct, source-verified answer than the manual workflow and the hospital renews after trialing an equally capable model with access to the same documents. Move to Pass if the comparison shows that verification erases the savings or the hospital switches readily to the alternative.
+Can a paid hospital pilot show that CONUS makes verified device guidance routine in cases where staff previously skipped it because of the cost in clinician time? A comparison with the hospital’s prior workflow that shows sustained use in those cases and a lower cost per correct lookup, including source checks and protocol upkeep, would change the action to Reach out if the hospital confirms that the site-specific service is what it is paying for.

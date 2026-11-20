@@ -5,28 +5,29 @@
 
 ### Company case
 
-Deploy’s strongest AGI path is **New Economies**. Mixed-item returns, kitting, and packing rely on manual station labor because changing items and task sequences make fixed automation difficult. Deploy’s proposed labor-cost change comes from having a robot handle routine steps and calling a remote operator for exceptions. If operator time per successful job falls enough, automation could become economical at high-variety stations that fixed systems have been unable to serve. The memo reports that Deploy packed more than 800 pens at a trade-show booth after about 30 minutes of fine-tuning data collection. That demonstrates adaptation to one packing task. Comparative labor cost per successful job and performance on a live mixed-item workflow remain unmeasured in the memo. (The Idea, Market & Traction, Key Risks)
+Deploy has a plausible path on **Industry enabled by superintelligence**. The memo describes third-party logistics operators staffing mixed-item returns, kitting, and packing by hand because changing items and task sequences make fixed automation impractical at those stations. Deploy proposes retrofitting existing stations with robot arms, using RoboJudge to flag exceptions and remote operators to resolve them. If interventions are infrequent enough for one operator to cover several stations, Deploy could lower the cost per correctly completed order and make automation viable for workflows that fixed systems struggle to handle. Under model parity, buyers would still need installed hardware, workflow integration, and live exception recovery. (The Idea, Key Risks)
 
-Under model parity, a buyer could still pay Deploy to install and run the station and recover from exceptions. Deploy says RoboJudge flags exceptions and operator interventions become training data. An operating advantage would depend on reliable recovery in production or evidence that lessons from one site reduce operator workload at another. Buyer evidence is limited to a pilot offer and vendor listing, with paid pilots, commitments, and repeat orders undocumented. The founders’ airport autonomy and robot-model experience and their public demonstrations support seed-stage execution. Sustained customer-site operation remains the next test. (The Idea, Defensibility, Founders & Team, Market & Traction, Key Facts)
+The memo records a public prototype demonstration in which Deploy reported packing more than 800 pens after collecting about 30 minutes of fine-tuning data. The founders’ field autonomy and robot-model experience supports their ability to build and adapt the system. The booth run leaves intervention rates, uptime, and cost per successful outcome on a changing item mix unknown. (Market & Traction, Founders & Team, Key Risks)
 
-The expansion unit is one station. **Illustrative scenario:** If a manual station costs 100 units per month, Deploy’s advertised pricing implies a fee of about 50. At equal throughput and quality, the buyer saves about 50 units before any residual onsite labor or rework. Deploy’s own contribution depends on covering hardware, installation, maintenance, and remote staffing from that fee. The memo supplies neither a measured manual baseline nor production intervention and utilization data to test that scenario. (The Idea, Key Facts, Key Risks)
+Deploy earns zero on **Building blocks of superintelligence** because its workcells serve warehouse operations and the memo identifies no scarce input they supply to an AI workload. For value capture, RoboJudge and the intervention workflow give Deploy specific integration know-how, while the benefit of reusing intervention data across sites remains unproven. Manual staffing is a concrete workaround, and buyer commitment remains unverified. Deploy advertises a station fee roughly 50% below labor cost. For that offer to work at equivalent throughput and quality, the fee must cover hardware, installation, maintenance, remote staffing, and recovery costs. The memo supplies no operating data to validate that margin. (The Idea, Defensibility, Key Facts, Key Risks)
 
 ### Countercase
 
-Deploy may reduce staffing costs in an existing market without making any previously uneconomic workflow viable. A booth demonstration on pens leaves the production risk open. Frequent or simultaneous exceptions could require enough remote labor to erase the savings. Plus One already offers remote exception handling in adjacent warehouse workflows, making comparable service a credible possibility under model parity. Market opening and durable buyer preference remain unproven, and the memo contains no direct evidence that defeats either condition. That keeps the action at Watch. (Market & Traction, Defensibility, Key Risks)
+A changing item mix could generate frequent or simultaneous exceptions, forcing Deploy to staff remote recovery heavily while absorbing downtime and rework. The pen demo gives little basis for estimating that burden, and Plus One already uses remote exception handling in adjacent workflows. If the station needs near-continuous supervision to meet service levels, the proposed automation may leave these workflows uneconomic. That unresolved production threshold triggers Watch. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 5/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 18/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 37/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent third-party logistics operator expand a paid pilot to a mixed-item workflow it previously could not automate economically? Move to **Reach out** if the rollout shows lower fully loaded cost per successful job than manual staffing at the required throughput and quality, positive station contribution for Deploy, and a buyer decision tied to Deploy’s installation or exception recovery after evaluating an alternative with comparable model capability.
+Can a paid pilot at a mixed-item returns station sustain the buyer’s throughput and quality targets across representative shifts and product changes, at a lower all-in cost per correctly processed return than manual staffing and with positive station contribution for Deploy? Buyer-verified results that include intervention time, downtime, and rework would move the action to Reach out.

@@ -1,40 +1,36 @@
 ﻿# Simantic -- Exit Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-Simantic’s strongest route is a strategic acquisition by an embedded development or semiconductor tooling vendor. The memo documents a proprietary firmware simulation engine, comparisons against physical silicon, and a GitHub workflow that runs firmware tests on pull requests. A tooling vendor could acquire Pyrite and its chip models to add firmware validation before physical boards are available. Embedder’s announced integration shows how the technology can fit into another vendor’s workflow. The founders report hardware-related delays of weeks or months, but the memo leaves the actual savings in commercial deployments unquantified. (The Idea, Defensibility, Market & Traction)
+Simantic’s strongest exit route is a strategic acquisition by an embedded development-tool vendor. Pyrite is proprietary, and the memo documents bench comparisons against physical silicon, hosted simulation, and GitHub pull-request testing. Embedder’s announced integration shows that an adjacent vendor can incorporate the product into its workflow. The acquisition rationale is an inference. Owning validated chip models and an integrated testing workflow could save a buyer development time and help it sell earlier firmware validation to existing customers. The memo provides no measured buyer savings, acquisition interest, or transaction comparables. (The Idea, Defensibility, Market & Traction)
 
-A seed-stage milestone would be several paying production teams measuring board-test hours avoided across distinct chip families. The company reports more than 1.5 million runs over two months and a first satellite customer. The memo records roughly $600,000 raised by July. These signals support pursuing the milestone, while usage concentration, the cost of validating more chip models, and unknown remaining runway leave the capital and timing uncertain. Pyrite’s proprietary licensing makes an asset sale plausible. IP assignment, dependency licenses, and customer consents remain unverified. (Market & Traction, Defensibility, Key Risks)
+The next milestone is repeat paid production use across several customers, with measured reductions in hardware-rig time or validation delays. Simantic reports more than 1.5 million runs over two months and an unnamed satellite customer. The roughly $600,000 reported raised supports a focused test of that milestone over the next 12–18 months, although available runway and the cost of expanding chip coverage remain unknown. Pyrite is an identifiable asset for a sale. IP assignments, customer contract transfer rights, and holder terms remain unverified. (Market & Traction, Defensibility, Key Risks)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and zero follow-ons. A 5× gross return within eight years requires $2.5 million in cash, or $83.3 million in distributable equity at 3%. The sale cases below assume closing within eight years, all-cash consideration, full participation by the holder, and pro rata distribution after $5 million in assumed net debt and deal adjustments. They assume no additional senior claims, escrow, or earn-outs.
+The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. The sale cases below assume the holder is eligible to sell its entire stake for cash, receives 3% pro rata, and faces no senior preference diversion, escrow, or rollover. The prices and deductions are scenario assumptions.
 
-| Scenario | Cash received by the holder |
-|----------|-----------------------------|
-| Modest sale at $40 million enterprise value | $35 million distributable equity × 3% = $1.05 million, or 2.1× |
-| Strong sale at $100 million enterprise value | $95 million distributable equity × 3% = $2.85 million, or 5.7× |
-| Prolonged private operation with cash reinvested | $0 realized within eight years |
-
-Even in the strong case, selling 80% of the holder’s stake on the same terms yields $2.28 million. The sale prices are scenario assumptions. The memo gives no basis for a realizable price range, an actual holder waterfall, or a separate liquidity route. (Market & Traction, Key Facts)
+- **Modest sale.** $40 million in enterprise value less $5 million in assumed net debt and deal costs leaves $35 million distributable, yielding $1.05 million to the holder, or 2.1×.
+- **Strong sale.** $100 million in enterprise value less $10 million in assumed net debt and deal costs leaves $90 million distributable, yielding $2.7 million, or 5.4×. If the holder can monetize only 90% of its stake at the same price, cash falls to $2.43 million, below the objective.
+- **Prolonged private.** Continued operation with reinvested cash yields zero realized proceeds within eight years. The memo supplies no evidence of an eligible secondary or another independent route to holder cash.
 
 ### Countercase
 
-Veecle’s Renode-backed agent testing shows that a tooling vendor can offer a similar workflow using an existing simulator. Simantic’s incomplete peripheral and analog coverage still leaves some failures to physical-board testing. If the silicon-validated models save little time in production, a buyer could build around an existing emulator or pay a price closer to the modest case. The memo leaves the size of that advantage unresolved, so it establishes neither a structural block nor materially inadequate proceeds under the strongest credible route. Watch fits that gap. (Defensibility, Market & Traction, Key Risks)
+A tool vendor could integrate an existing simulator and build its own agent workflow. Veecle’s Renode implementation demonstrates that substitute, while incomplete peripheral and analog models limit which physical tests Pyrite can replace. The company-reported concentration of most runs among its top 15 users also weakens the case that aggregate usage reflects broad production adoption. These facts weaken the rationale for paying an acquisition premium. They establish neither a structural closing block nor a supported payout ceiling, so the Pass gate is untriggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Would an embedded tooling vendor value Pyrite’s measured production savings enough to support roughly $83.3 million in distributable equity after deal adjustments? Repeatable savings across paying customers, paired with a prospective acquirer’s quantified build-versus-buy assessment at that scale, would move the action to Reach out.
+Can an embedded development-tool vendor use measured savings from repeat paid production deployments to justify a purchase that leaves at least $83.3 million in distributable equity under the benchmark? Customer before-and-after validation data and a buyer-side build-versus-buy analysis supporting that price after expected deal deductions would move the action to Reach out. Until then, Watch.

@@ -5,23 +5,23 @@
 
 ### Company case
 
-The strongest route is a strategic sale to a speech-model developer. A buyer could acquire YapRoom’s recording pipeline and use its synchronized conversations and audio-native reinforcement-learning environments to improve how deployed voice agents handle interruptions and carry out tasks. The memo records OpenYap Turn at #2 for end-of-turn detection on Sesame’s leaderboard. That supports a narrow technical use case. The financial case for ownership depends on whether the combined system can deliver repeatable production gains that a buyer would pay to secure. The company says unnamed AI labs buy its data, with contract values and repeat demand unverified. (The Idea, Market & Traction, Key Facts)
+The strongest route is a strategic acquisition by a speech-model developer. The memo records a #2 end-of-turn result on TurnBench, giving a buyer a specific capability to test. The company describes pairing recordings of natural conversations with reinforcement-learning environments for dialogue and tool use. A buyer could have a reason to own that combination if it improves production performance and gives the buyer reliable access to future recordings. The company says unnamed labs buy its data. The memo provides no contract values, measured customer benefit, or evidence of acquisition interest. (The Idea, Market & Traction, Key Facts)
 
-A paid production pilot is a plausible seed-stage milestone. YapRoom has produced 1,602 conversations from 239 speakers, and the free dataset recorded 8,204 monthly downloads. Those are signals that the team can collect and distribute data for a test. The pilot budget and runway are unclear. Reported funding amounts differ, and participant payouts alone run about $20 per usable two-person hour before review. Speaker consent and an existing commercial-use agreement support a plausible transaction structure, with change-of-control rights for the private corpus and future recordings still unverified. (Defensibility, Market & Traction, Key Risks, The Idea)
+A paid production pilot against the buyer’s current data would test whether the product improves deployed turn-taking or task completion enough to justify ownership. The released corpus and 8,204 monthly downloads make a pilot plausible at seed. The company would still need to fund participant payouts and review, and the memo leaves runway and pilot funding unclear. Speaker-level consent and transcript screening support a plausible acquisition structure, with buyer use of the private corpus and rights after a change of control still unverified. The memo supports no independent liquidity route. (Defensibility, Market & Traction, Key Risks)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3%, zero follow-ons, and a $2.5 million gross cash objective within eight years. At 3%, that requires about $83.3 million in distributable equity value. The sale cases below are illustrative sensitivities. Both assume $5 million in combined net debt and deal adjustments, holder eligibility to sell the entire stake, and a pro rata waterfall with zero senior preference deductions. All proceeds are paid in cash at closing within eight years.
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. Both sale scenarios assume the holder can sell the full stake pro rata for cash at closing within eight years, with no further preference claims or deferred consideration after the stated deductions.
 
-| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
-|---|---|---:|
-| Modest sale | $40M enterprise value less $5M in deductions leaves $35M in distributable equity | $1.05M (2.1×) |
-| Strong sale | $100M enterprise value less $5M in deductions leaves $95M in distributable equity | $2.85M (5.7×) |
-| Prolonged private operation | Cash is reinvested through year eight, with zero distributions or eligible share sales assumed | $0 (0×) |
+| Scenario | Assumed enterprise-to-equity bridge | Cash to holder |
+|-----------|------------------------------------|----------------|
+| Modest sale | $40M enterprise value less $5M for debt, deal adjustments, and senior claims leaves $35M | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M for those deductions leaves $90M | $2.70M (5.4×) |
+| Prolonged private | Cash is reinvested with no eligible share sale or payout within eight years | $0 |
 
-At 2.5% ownership, even the strong sale yields $2.375 million. The memo leaves buyer economics, realizable sale value, and actual holder terms unverified, so the scenarios establish the hurdle and the sensitivity to dilution. The memo provides no evidence of an independent liquidity route. (Market & Traction, Key Facts)
+The sale prices and deductions are illustrative. The memo supplies no buyer economics or transaction evidence to support the strong sale price. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could use the free Open Yap 1K release and license additional full-duplex audio from oto, which advertises an entry price of $10 per audio hour. That price puts pressure on a recording-only acquisition case, with dataset scope and quality potentially differing. The leaderboard result covers conversational timing, leaving production gains on tool-based tasks unverified. This supports Watch. The Pass gate remains unmet because the evidence leaves open both the ability to transfer the combined asset and the price a buyer would pay for it. (The Idea, Defensibility, Key Risks)
+A lab could license the free Open Yap release or buy full-duplex recordings from oto, which advertises an entry price of $10 per audio hour. YapRoom pays $20 in participant payouts per usable two-person hour before review. That makes the value of the differentiated recordings and training environments critical to the buy-versus-license decision. The benchmark covers English conversational timing and leaves multilingual transfer and tool-based task completion unverified. The substitute weakens the case for ownership, but the memo establishes neither a structural closing block nor a credible price ceiling below the holder’s hurdle. The Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -37,4 +37,4 @@ A buyer could use the free Open Yap 1K release and license additional full-duple
 
 ### Decisive diligence question
 
-Can a paid pilot show that owning the recording pipeline and training environments is valuable enough to a speech-model developer to clear the holder’s proceeds hurdle? A buyer-validated production improvement over licensed alternatives, paired with buy-versus-license economics supporting at least $83.3 million in distributable equity within eight years at 3% ownership, would move the action to Reach out. If the pilot supports licensing alone and the strongest credible sale still leaves the holder materially short, the action would move to Pass.
+What would a speech-model developer pay to own the corpus and collection pipeline after testing them against data it can already license? A paid pilot with measured production gains and a buyer-backed valuation range that could leave at least $83.3 million distributable within eight years would move the action to Reach out.

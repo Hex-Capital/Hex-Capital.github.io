@@ -5,28 +5,30 @@
 
 ### Company case
 
-Libra’s strongest Hypergrowth path is repeat solar installation work for engineering, procurement, and construction contractors using the same tracker design across sites. The memo documents a live field demonstration on FTC Solar’s 1P Pioneer tracker. Libra reports solar site deployments and signed commercial agreements. Assuming strong product-market fit, a crew that reuses alignment and fastening skills on comparable trackers could serve the same installation job in other markets with limited adaptation. Direct contractor sales and on-site deployment still make onboarding high-touch. (The Idea, Defensibility, Market & Traction)
+Assuming strong fit with initial solar contractors, Libra’s clearest growth path is to repeat the same installation task across sites. The memo records a live demonstration in Texas, and Libra reports compatibility with FTC Solar’s 1P Pioneer tracker. Alignment and fastening are plausible candidates for reuse in other markets where contractors use compatible equipment. The work needed to accommodate different trackers and site conditions remains uncertain. (The Idea, Defensibility, Market & Traction)
 
-Libra charges for completed work, so an existing contractor could spend more by awarding additional sites. The memo establishes neither recurring billing nor repeat paid orders. Planned megawatts and letters of intent describe pipeline, and the signed agreements lack realized revenue or paid deployment figures. The memo therefore leaves the commercial growth rate unknown. (The Idea, Market & Traction, Key Risks, Key Facts)
+Libra sells directly to engineering, procurement, and construction contractors. That gives it a defined route to buyers, while first value depends on configuring and deploying a robot crew at a jobsite. Charging for completed work gives a satisfied contractor a way to spend more by ordering installations on subsequent projects or adding tasks. Repeat paid orders and their frequency are unverified. (The Idea, Key Facts)
 
-For the next site, contribution is the installation fee less attributable selling, setup, transport, on-site labor and support, and equipment costs, including any added fleet capacity. Libra claims a tenfold reduction in task-to-deployment time. If that improvement carries over to comparable sites and crews stay busy between jobs, reuse could reduce setup costs per installation. Undisclosed rates and unmeasured cross-site performance leave the direction of contribution uncertain. (The Idea, Defensibility, Key Risks, Key Facts)
+The two-person team demonstrated the system in July and announced its solar launch in August. By October, Libra reported solar deployments, signed commercial agreements, and data-center pilots. The memo leaves payment status and realized revenue undisclosed, so the commercial slope takes the absent-evidence default. The planned 20+ MW and the roughly $56 million in potential value associated with letters of intent are pipeline. (Market & Traction, Key Risks, Key Facts)
+
+In a repeat-site scenario, incremental contribution is the fee for completed work less attributable selling and setup time, tooling, mobilization, field labor, and the cost of robot capacity used or added. Libra’s physical testbeds and reported 10× reduction in task-to-deployment time support a possible reduction in engineering cost per site. The margin outcome depends on actual fees, field staffing, and fleet utilization between jobs. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-Changing site conditions could force Libra to redesign tooling, retest skills, and commit crew capacity for each project. If those costs persist even on comparable trackers, revenue could grow only by adding field labor and equipment at a similar rate. The structural downside gate stays open because documented tracker compatibility and reusable skills offer a plausible route to bounded setup work. The memo leaves the cost and reliability of that transfer unresolved. (The Idea, Defensibility, Key Risks)
+Libra could win strong demand and still scale like a custom installation contractor. Changing designs and site conditions can require new tooling and validation, and overlapping jobs could require additional crews and robot capacity. The memo documents compatibility with one tracker model, while transfer across job types lacks a published benchmark. The structural downside gate stays open because skill reuse and automated testing offer a concrete way to reduce setup work, and the memo leaves the cost of serving successive sites unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 10/20 |
+| Retention economics | 9/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can one solar contractor pay Libra to repeat the same tracker installation across several sites in a second market with limited adaptation and positive incremental contribution at ordinary crew utilization? Paid invoices and site logs for engineering hours, mobilization, field staffing, and fleet utilization would answer it. A rollout that demonstrates repeat purchasing, declining setup effort, and a steep paid deployment pace could move the action to Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that comparable sites still require unavoidable bespoke engineering or fleet commitments that make faster growth uneconomic would move the action to Pass.
+Can Libra use the same solar robot and tooling configuration to complete a series of paid installations across materially different sites, including repeat orders from a contractor, with declining setup hours and positive contribution after field labor and fleet costs? Job-level invoices, deployment logs, and costs would answer it. A successful series would support rescoring for Reach out if the score reaches 65 with at least Medium confidence. Evidence that each site requires costly re-engineering with no credible path to reduce it would move the action to Pass.

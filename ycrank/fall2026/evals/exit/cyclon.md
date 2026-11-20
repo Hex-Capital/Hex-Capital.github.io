@@ -5,36 +5,36 @@
 
 ### Company case
 
-Cyclon’s strongest exit path is a strategic sale of its Android automation software to a handset maker. Cyclon says its agent can run tasks in the background across signed-in apps and generate and test new apps. A handset maker could buy the software if it handles enough recurring tasks better than the tools the buyer already offers to justify the purchase and integration costs. The memo provides no comparative performance data or buyer interest. (The Idea, Market & Traction)
+Cyclon’s strongest exit route is a sale of its OS agent to an Android handset maker. Nothing already offers user-generated apps on its phones. Cyclon claims its agent can also run tasks across signed-in apps in the background. If users rely on that capability for recurring tasks, a handset maker could buy it to differentiate its devices. The memo documents launch attention and a refundable preorder offer. It provides no repeat-use data, measured buyer benefit, or evidence of acquisition interest. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-The refurbished Pixel 8a prototype gives Cyclon a way to test repeated use, task completion, and errors before committing to a custom handset. The founders’ Android and hardware experience and reported YC backing support an initial test. Launch coverage records attention, while the refundable $199 deposit establishes a reservation mechanism. Paid conversion, retention, and the budget for a buyer-ready pilot remain unknown. The software could plausibly be sold as an asset, though ownership, licensing, and any required consents are unverified. (The Idea, Market & Traction, Founders & Team, Key Facts, Key Risks)
+Cyclon’s proposed closed beta on refurbished Pixel 8a devices gives it a way to measure reliable task completion and repeat use ahead of custom handset delivery. The founders’ hardware and Android experience and reported $125,000 in financing support a limited test. The memo leaves beta funding, paid conversion, and the capital needed for a broader rollout open. It provides no evidence on software ownership or assignment rights, buyer funding, or holder eligibility, and it identifies no independent liquidity route. (The Idea, Founders & Team, Market & Traction, Key Risks)
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. Returning $2.5 million in gross cash within eight years requires about $83.3 million in distributable equity value. Both sale scenarios below assume a full cash sale within eight years, $10 million in combined debt and deal deductions, and an eligible holder paid pro rata with no additional preference deductions. The sale values and deductions are illustrative assumptions.
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% without follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative. Both assume $10 million in combined net debt and deal deductions, no preference or senior equity claims, and an eligible holder selling its entire stake for cash at closing within eight years.
 
-| Scenario | Enterprise value | Distributable equity | Holder cash |
-|-----------|-----------------:|---------------------:|------------:|
-| Modest sale | $50 million | $40 million | $1.2 million (2.4×) |
-| Strong sale | $100 million | $90 million | $2.7 million (5.4×) |
-| Prolonged private with cash reinvested | — | No distribution | $0 |
+| Scenario | Proceeds bridge | Holder cash |
+|----------|-----------------|-------------|
+| Modest sale | $50M enterprise value less $10M in deductions leaves $40M for equity | $1.2M (2.4×) |
+| Strong sale | $100M enterprise value less $10M in deductions leaves $90M for equity | $2.7M (5.4×) |
+| Prolonged private | Cash is reinvested throughout the eight years, with no funded payout or eligible share purchase | $0 realized |
 
-At $100 million in enterprise value, combined deductions above roughly $16.7 million would put the holder below 5× even with full pro rata participation. A partial sale or senior claims could also reduce the cash received. The memo gives no basis for underwriting either sale price and identifies no independent liquidity route. (Market & Traction, Key Facts)
+The strong case clears the hurdle by $200,000. At 2.5% ownership, the same sale pays $2.25 million. The memo supplies no buyer economics or transaction pricing to support either sale value.
 
 ### Countercase
 
-Google already offers supported cross-app automation on Android, and Nothing already offers user-generated apps. Those substitutes weaken the case for buying Cyclon. Cyclon also acknowledges that some banking, payment, and work apps may fail or limit automation and that the agent can make mistakes when taking actions. If Cyclon pursues its own handset, FCC authorization and conflicting delivery estimates add execution risk. The evidence leaves a specific gap for Watch. It shows credible substitutes and integration risks, while Cyclon’s comparative performance and the resulting buyer economics remain unresolved. (Defensibility, Market & Traction, Key Risks)
+Google already offers task automation on existing Android phones, giving a potential buyer a ready substitute for supported workflows. Nothing already offers app generation, and Cyclon acknowledges that banking, payment, and work apps may fail or limit automation. If those gaps prevent reliable use of the workflows that distinguish Cyclon, handset makers have little reason to buy the software. FCC authorization and conflicting delivery estimates add risk to the custom handset rollout. The evidence narrows the buyer case and leaves the price unproven. It establishes neither a structural block to a software sale nor a supported price ceiling below the proceeds hurdle, so the Pass gate does not trigger. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 7/30 |
+| Counterparty rationale or source of cash | 10/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Would an Android handset maker value Cyclon’s software highly enough to clear the holder’s proceeds hurdle? A head-to-head pilot showing a material, repeatable improvement on recurring tasks, coupled with the buyer’s estimate of what that improvement is worth after integration costs, would answer it. Move to Reach out if the implied price supports roughly $83.3 million in distributable equity under plausible deal terms. Stay on Watch while that evidence is pending.
+Does Cyclon’s cross-app agent create enough incremental value for an Android handset maker to justify an acquisition that clears the holder’s cash hurdle? A funded test on the manufacturer’s devices showing reliable, sustained use of workflows its existing assistant cannot handle, paired with buyer economics that support the required price after deal deductions and plausible dilution, would move the action to Reach out.

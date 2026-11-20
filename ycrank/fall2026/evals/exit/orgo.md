@@ -5,36 +5,36 @@
 
 ### Company case
 
-Orgo’s strongest exit path is a strategic sale to a developer platform that wants to offer persistent desktops for AI agents. The memo records a Vercel Connect listing and describes Orgo’s single API for persistent Linux, Windows, and macOS desktops with live takeover. An agency operator reported that a client saved about 12 hours on one storefront setup using an agent running on Orgo. Orgo reports more than 1,000 teams and thousands of production desktops. A platform could pay to bring those capabilities and workloads in-house if ownership creates more value than an integration. The listing establishes a distribution relationship. Buyer interest and repeatable customer savings remain unverified. (*The Idea*, *Market & Traction*)
+Orgo’s strongest exit route is a strategic sale to an agent infrastructure provider. E2B is a plausible buyer candidate because its time-bounded Linux sandboxes leave room for Orgo’s persistent desktops, live takeover, and multi-OS API. Acquiring Orgo could shorten the time needed to offer those capabilities. A customer testimonial reports about 12 hours saved on one workflow, which shows end-user value in that instance. Buyer interest and the economic benefit of acquiring Orgo remain unverified. (The Idea, Market & Traction)
 
-The next operating milestone is a cohort of paying teams that renew persistent desktop workloads and produces positive contribution margin after fleet costs. The reported usage provides a starting cohort, and the published monthly plans show how Orgo can charge for it. Paid retention, fleet costs, and runway are unknown. The 99.760% fleet uptime reported over 30 days also makes reliability spending relevant to the capital needed to reach that milestone. (*Market & Traction*, *Key Facts*, *Key Risks*)
+Orgo reports more than 1,000 teams and thousands of production desktops. That reported usage and the availability of paid plans make a production pilot to measure paid retention and contribution margin per desktop plausible. The memo gives no paid cohort results, fleet costs, or verified runway to estimate the capital needed. It also leaves IP and license transfer rights open and provides no evidence of a separate liquidity route. (Market & Traction, The Idea, Defensibility, Key Facts)
 
-For the proceeds comparison, assume a $500,000 check at $10 million post-money, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in gross cash within eight years, or about $83.3 million in distributable equity at 3%. The sale cases assume a full cash sale closing within eight years and a pro rata distribution to an eligible holder after the stated deductions, with no additional preference or escrow reducing cash at closing.
+**Proceeds bridge.** With actual holder terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity at 3% pro rata ownership. Both sale cases below assume an eligible sale of the holder’s entire stake for cash by year eight, with no further preference or senior-claim deductions after the stated adjustments. The prices and deductions are scenario assumptions.
 
-| Scenario | Enterprise value to distributable equity | Holder cash |
-|----------|-------------------------------------------|-------------|
-| Modest sale | $45M less $5M in debt and deal adjustments = $40M | $1.2M (2.4×) |
-| Strong sale | $100M less $10M in debt and deal adjustments = $90M | $2.7M (5.4×) |
-| Prolonged private | Continued operation with cash reinvested and no eligible share sale or distribution | $0 (0×) |
+| Scenario | Enterprise-to-equity bridge | Gross holder cash |
+|---|---|---:|
+| Modest strategic sale | $50M enterprise value less $5M in net debt and deal adjustments leaves $45M distributable | $1.35M (2.7×) |
+| Strong strategic sale | $100M enterprise value less $5M in net debt and deal adjustments leaves $95M distributable | $2.85M (5.7×) |
+| Prolonged private | Cash is reinvested through year eight, with no eligible secondary or funded payout | $0 |
 
-The sale values and deductions are illustrative. At an assumed 5× annual recurring revenue, the strong case would require $20 million in annual recurring revenue. Published pricing and the memo’s revenue signal establish a basis for monetization, while the paid mix and revenue amount remain unknown. The strong case clears the hurdle by only $6.7 million in distributable equity, making debt, deal adjustments, and the waterfall consequential. Transfer rights and holder eligibility are unverified, and the memo provides no evidence of an independent liquidity route. (*Key Facts*, *Market & Traction*)
+The strong case clears the objective, but an eligible sale of only 80% of the stake at the same price would yield $2.28 million. The memo documents pricing and a revenue signal without a revenue amount. It supplies no acquisition pricing or buyer economics to anchor either sale value. (Key Facts, Market & Traction)
 
 ### Countercase
 
-A developer platform could keep integrating Orgo or use overlapping infrastructure. AWS already offers Linux and Windows agent desktops with identity integration, and Daytona already exposes graphical desktop controls. The memo identifies no structural barrier and provides no retention or migration data showing that persistent state makes Orgo difficult to replace. That weakens the case for an acquisition premium. The evidence establishes neither a structural block nor a credible upper bound on sale proceeds below the holder hurdle, so the Pass gate remains open pending buyer economics. (*The Idea*, *Defensibility*, *Key Risks*)
+Potential acquirers may find it cheaper to extend their own desktop products. AWS already offers Linux and Windows agent desktops with identity integration, and Daytona already offers graphical desktop control. Orgo’s persistent state could raise switching costs, but the memo provides no retention or migration data to show how much. This weakens the case for an acquisition premium. The evidence establishes neither a structural block nor a credible price ceiling below the holder hurdle, so the Pass gate does not trigger. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
-| Plausible investor proceeds | 10/30 |
+| Counterparty rationale or source of cash | 14/30 |
+| Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Would owning Orgo’s retained, paying desktop workloads create enough value for a developer platform to support a cash offer that leaves at least $83.3 million for pro rata distribution? A prospective buyer’s build-versus-buy analysis grounded in paid renewals and fleet costs would move Watch to Reach out if it supported that price after deal deductions. Evidence that the strongest credible buyer’s price would leave the holder materially short would move the action to Pass.
+Would owning Orgo’s persistent desktop product create enough value for an E2B-like buyer to support at least $83.3 million in distributable equity? A production pilot showing sustained paid use and positive contribution margin, paired with a buyer-validated build-versus-buy estimate that clears the holder hurdle after deal adjustments, would move the action to Reach out. A supported price ceiling below the hurdle on the strongest credible route would move it to Pass.

@@ -5,26 +5,29 @@
 
 ### Company case
 
-New Economies is Archgen’s strongest path. Stacked-die teams spend engineer time iterating on placement, routing, and timing while conventional thermal solvers constrain how many layouts they can evaluate. Archgen reports that LayerTherm averaged 62 ms per thermal prediction versus 314 seconds for conventional solvers in its benchmark. LayerTherm screens candidates before detailed verification, and Newton is designed to automate edits and reruns. If these tools materially reduce engineer hours and total cost per design that meets signoff requirements, a team could take on a stacked-die project it previously shelved for cost. That market opening is a scenario assumption. The memo gives solver latency and leaves prediction error, end-to-end labor savings, and demand from previously excluded projects unmeasured. (The Idea, Market & Traction, Key Risks)
+Archgen has a plausible building-blocks path in the physical design of stacked-die AI accelerators. The potential bottleneck is engineering and solver capacity for iterating on placement, heat, and cross-die timing before signoff. Archgen reports that LayerTherm screened thermal layouts in 62 ms versus 314 seconds for a conventional solver in its benchmark. Its GPU placement engine and Newton flow-editing agent could help engineers test more candidate fixes before detailed verification. Volume production of advanced stacking supports the relevance of the workflow. The seed-stage assumption is that more stacked AI accelerator designs will make iteration capacity scarce enough to delay tapeouts, with limited relief from incumbent tools or added engineering capacity. Buyer-confirmed delays and representative end-to-end results remain open. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Archgen reports signed pilots with undisclosed counterparties and payment terms, so willingness to pay for a newly viable project remains open. Both founders co-developed the public placement prototype, and Archgen reports development with GlobalFoundries toward a mid-2027 tapeout. That supports seed-stage execution, with production validation still ahead. A plausible expansion unit is one additional design team on an enterprise license. Contribution would depend on the license price relative to GPU compute, toolchain integration, and engineer support for exceptions. The buyer’s cost per successful design would still include detailed verification and rework. The memo leaves both sides of that cost bridge unquantified. (Market & Traction, Founders & Team, The Idea, Key Risks)
+The industry-enabled path scores zero. The reported speedup applies to a screening step in an existing physical-design workflow. The memo identifies no previously excluded buyer or use that becomes economically viable once engineering labor, detailed verification, and rework are included. (*The Idea*, *Key Risks*)
+
+Combining thermal screening with automated flow edits offers a potential advantage inside a customer's design flow. Reuse of verified fixes is a plausible source of operating know-how, with its effect on retention and pricing still untested. Archgen reports signed pilots, with counterparties and payment terms undisclosed. Both founders co-developed the placement engine, which placed first on the contest proxy metric, and Archgen reports a mid-2027 first tapeout target with GlobalFoundries. That supports prototype execution ahead of production validation. Enterprise licensing is an inference, and the memo supplies neither pricing nor the cost of integrating and supporting the next customer. (*Defensibility*, *Founders & Team*, *Market & Traction*, *The Idea*, *Key Facts*)
 
 ### Countercase
 
-Archgen may improve an existing EDA workflow while incumbents retain the customer relationship. Its first-place placement result establishes a technical edge on a contest proxy, and the organizers caution that the proxy is insufficient for production placement. The contest implementation is public, Siemens has demonstrated overlapping automation in its own toolchain, and Cadence and Synopsys already integrate thermal analysis. Reuse of verified fixes could give Archgen an advantage within a customer’s flow, but buyer preference under functional parity remains untested. The memo also identifies no scarce design resource Archgen controls. Incumbent overlap makes substitution credible, while actual buyer switching and equivalent production outcomes remain unobserved. That leaves the New Economies path open on Watch. (Defensibility, The Idea, Key Risks)
+Siemens has demonstrated overlapping placement and electrothermal automation in its own toolchain, while Cadence and Synopsys already integrate thermal analysis into multi-die design workflows. LayerTherm's reported speed advantage comes without published prediction error, and detailed verification remains necessary. An incumbent flow could therefore match the time to a signoff-ready design even if Archgen screens individual layouts faster. Functional equivalence remains untested, so the substitution risk supports Watch. Buyer evidence that incumbent tools readily relieve the same bottleneck would trigger Pass. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 18/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 6/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 38/150** (Pass)
 
 ### Decisive diligence question
 
-Can an independent pilot buyer complete a stacked-die project it previously shelved on cost grounds and then pay for a follow-on with Archgen when a functionally comparable alternative is available? Move to Reach out if the buyer documents the prior cost barrier, a matched workflow comparison shows materially lower engineer hours and all-in cost at the same signoff standard, and the buyer commits to the paid follow-on. If the comparison shows the project remains uneconomic or the buyer readily substitutes at parity, move to Pass.
+On a stacked-die AI accelerator design where the buyer confirms that physical-design iteration is holding up tapeout, can Archgen materially reduce elapsed time to the buyer's thermal, timing, and design-rule acceptance criteria compared with its incumbent flow? A buyer-verified pilot on the same design block, counting engineering time, detailed verification, and rework, would answer it. A material reduction at equivalent acceptance criteria would move the action to Reach out. Comparable end-to-end performance from the incumbent on that constrained workflow would move it to Pass.

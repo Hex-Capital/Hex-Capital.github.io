@@ -1,32 +1,33 @@
 ﻿# Obia -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Obia’s strongest path is an operations-led New Economy. Obia says conventional screening can take hours per property. Its AI checks permitted uses and site constraints before local brokers conduct tours and negotiate. Obia reports screening sites for a logistics operator by permitted use, service-area coverage, and projected throughput per dollar of rent. That example supports the screening mechanism. The change in labor cost per signed lease remains unmeasured in the memo. (*The Idea*, *Market & Traction*)
+Obia has no supported path in either AGI bucket. Its workflow checks whether properties have enough power for a tenant’s needs. The memo identifies no AI workload for which Obia supplies or unlocks a scarce input. For the enabled-industry path, Obia says brokers can spend hours per property reconciling listings, zoning and operational requirements. Its AI screens those requirements before local brokers lead tours and negotiate leases. The memo identifies no tenant segment or search that conventional brokerage could not serve economically and that Obia has made viable. Tenants already pay Obia no search fee under its stated landlord-paid model, so the relevant threshold is whether screening savings make previously unprofitable mandates worth taking. (The Idea)
 
-One plausible newly viable use is a small industrial search with complex zoning that a conventional broker would decline because the expected fee cannot cover the research time. That is a scenario assumption. Under model parity, tenants would need a reason to choose Obia’s local verification and deal execution, and landlords would need to keep paying for the resulting leases. Obia says it reuses tenant requirements for matching. The memo documents broker involvement and identifies no structural barrier protecting that service. (*The Idea*, *Defensibility*)
+Obia says it reuses tenant requirements for matching. The memo documents adjacent automation at CBRE and TenantBase and identifies no structural barrier. This suggests competitors could reproduce much of the screening workflow. For demand, Cho reports $1.05M in closed lease value over 22 days, and Obia reports screening sites for an unnamed logistics operator. Those are early signs of buyer activity, with collected commissions and repeat demand still unverified. (Defensibility, Market & Traction)
 
-Cho reports $1.05 million in closed lease value over 22 days. The memo leaves collected fees, repeat demand, and whether those tenants were previously underserved unresolved. The founders’ prior work together and the brokerage experience Obia lists on its team support seed-stage execution. The expansion unit is a completed lease. Contribution depends on the landlord fee collected after referral, model and data costs, broker time across successful and unsuccessful searches, and local coverage costs. The memo gives no amounts for those inputs, and it identifies broker review of uncertain data and state-specific brokerage requirements as rollout costs. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*)
+The founders’ engineering backgrounds and prior work together, alongside the team’s reported brokerage experience, support early execution credit. Obia describes routing uncertain findings to brokers, but the memo provides no measured zoning accuracy or evidence of dependable delivery across markets. The stated fee model also leaves scale economics unresolved. Estimating contribution per closed lease would require collected commissions and the cost of screening, broker review, tours, negotiation and searches that never close. (Founders & Team, Key Risks, The Idea, Market & Traction)
 
 ### Countercase
 
-Obia may be speeding up screening within an existing brokerage market. The memo identifies incumbents already using AI for adjacent tasks, while Obia still relies on brokers to resolve uncertain findings, run tours, and negotiate. Savings at screening could be too small to make previously uneconomic searches viable, and competing brokers could match the screening capability. Market opening and durable value under model parity both remain unproven. The memo contains no direct evidence that defeats either condition and no independently supported scarce-complement path, so the decision framework calls for Watch. (*The Idea*, *Defensibility*, *Key Risks*)
+Obia’s reported logistics engagement suggests a plausible wedge for searches with unusually demanding zoning and operating requirements. If automated screening removes enough broker work, smaller mandates that conventional brokers would decline could become profitable. Even with comparable models, tenants would still need local brokers to verify uncertain findings, run tours and negotiate terms. The memo gives no evidence that the logistics mandate was previously uneconomic or that Obia lowered the fully loaded cost per successful lease. The zero-path Pass gate applies. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 11/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 8/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 20/150** (Pass)
 
 ### Decisive diligence question
 
-Can Obia repeatedly close leases at positive contribution for industrial tenants conventional brokers previously declined, while those tenants still choose Obia when competing brokers offer comparable AI screening? A cohort with documented prior refusals, a manual-workflow benchmark, broker hours across all searches per signed lease, collected landlord fees, and buyer choices among comparable offers would answer it. Evidence of both viable delivery and buyer preference would move the action to Reach out. Direct evidence that either condition fails would move it to Pass.
+Can Obia repeatedly close commission-paying leases for a defined class of tenant searches that conventional brokers decline because the expected fee cannot cover the work? Documented broker declines and comparable Obia closings with collected commissions and positive contribution after broker labor and unsuccessful searches would move the action to Reach out.

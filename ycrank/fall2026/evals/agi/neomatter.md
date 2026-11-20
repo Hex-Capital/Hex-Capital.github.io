@@ -1,32 +1,31 @@
 ﻿# Neomatter -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-**New Economies** is the strongest path. In-house counsel currently spend lawyer time reconciling requests, precedents, and approvals, with overflow handled through additional hires or outside counsel. Neomatter says it picks up requests automatically and prepares cited drafts and redlines for lawyer approval. The CEO reports that one unnamed customer saved dozens of hours weekly and thousands of dollars in outside-counsel spending. That claim supports the possibility of lower delivery costs, but the memo gives no matter counts, quality results, or before-and-after cost per completed matter. A plausible market-opening scenario is a lean legal team handling routine requests it previously deferred because lawyer time was too costly. The memo documents no such buyer or use. (The Idea, Market & Traction)
+Neomatter has no supported building-block path. It uses AI to prepare legal work and supplies no scarce input that could constrain AI deployment. Its strongest commercial case is helping existing in-house counsel handle more requests. The company describes software that picks up requests from email and chat, applies company precedents, and prepares cited drafts and redlines for lawyer approval. The CEO reports that one unnamed customer saved dozens of hours weekly and thousands in outside-counsel spending. That claim supports a possible efficiency gain. The memo identifies no class of work that was previously unaffordable and became viable, so the industry-enabled path also scores zero. Together, the two zero scores trigger Pass. *(The Idea, Market & Traction, Key Risks)*
 
-Customer-specific playbooks that record approved fallbacks and exception authority could give buyers a reason to stay under model parity if rebuilding those workflows elsewhere takes meaningful effort. The memo gives no migration or retention evidence. Reported weekly user growth of 73% has an undisclosed starting base, and named-seat terms establish a pricing mechanism without establishing paid adoption or renewals. The founders previously built an email-integrated assistant and publicly launched Neomatter. Production accuracy and exception handling remain open execution milestones. (Defensibility, Market & Traction, The Idea, Founders & Team, Key Risks)
-
-The expansion unit is a legal department on a named-seat subscription. A buyer would compare the former cost of lawyer time and outside counsel with the subscription plus remaining review and rework, measured per matter closed at comparable quality. Neomatter’s contribution then depends on seat revenue covering playbook setup, integrations, model usage, and support. The memo describes the workflow and pricing structure, but leaves those costs and the repeatability of deployment unmeasured. (The Idea, Defensibility, Key Risks)
+Customer-specific playbooks that record fallback positions and exception approvers could make switching harder. That advantage remains untested, and competing products already offer overlapping intake and drafting workflows. The reported use of outside counsel to handle overflow shows a buyer workaround, while reported user growth has an undisclosed starting base and the memo supplies no paid commitments. The October launch and the founders’ prior email-integrated assistant support early execution credit, with dependable legal delivery still unverified. Named-seat terms establish a billing model. The memo supplies no realized prices or per-matter delivery costs, so scale economics takes the absent-evidence default. *(The Idea, Defensibility, Market & Traction, Founders & Team, Key Facts)*
 
 ### Countercase
 
-Neomatter may save time on work legal teams already do while facing credible substitutes. LegalOn offers intake and drafting agents and also works with OpenAI. Legora can route Slack requests into workflows that use a customer’s existing configured Skills. The overlap makes substitution credible, but the memo shows neither functional parity nor buyers switching readily. The market-opening and model-parity gates remain unproven, and the memo identifies no independently supported scarce complement. Watch is appropriate while both conditions can be tested. (Defensibility, Market & Traction, Key Risks)
+The strongest investment case is that automatic intake and precedent-based drafting let a lean legal team routinely review low-value requests it previously left unreviewed because lawyer time was too costly. That is a scenario assumption. The reported savings make the labor-cost mechanism plausible, and company-specific playbooks and approval routing could give buyers a reason to use the product even with access to comparable models. The memo leaves open whether any previously excluded work actually received review and whether savings persist after lawyer review and corrections. The scenario therefore leaves the Pass gate in force. *(The Idea, Market & Traction, Defensibility, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 6/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 20/150** (Pass)
 
 ### Decisive diligence question
 
-Will independent lean legal teams pay to renew after Neomatter makes a previously deferred class of matters economical to handle, even when a credible alternative offers comparable model capability? Move to Reach out if a paid cohort documents that it can close those matters at comparable quality below the prior cost of serving them, including review and rework, and renews after evaluating the alternative. Move to Pass if the trial shows savings confined to existing work and buyers readily switch at parity.
+Can a paid pilot make routine review affordable for a recurring class of requests the buyer previously left unreviewed because of cost? A buyer-verified pilot would move the action to **Reach out** if it shows that approved matters meet the buyer’s cost and quality thresholds after subscription, setup, lawyer review, and rework, and that the integrated workflow delivers that result where the buyer’s existing AI tools fall short. *(The Idea, Market & Traction, Key Risks)*

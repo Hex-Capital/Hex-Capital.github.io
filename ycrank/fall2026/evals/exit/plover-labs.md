@@ -1,38 +1,40 @@
 ﻿# Plover Labs -- Exit Evaluation
 
-**Action:** Watch
-**Evidence confidence:** Medium
+**Action:** Watch  
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is a strategic acquisition by a code-hosting or code-review platform. Plover’s product turns recurring repository failures into deterministic merge checks. A buyer could use that capability to improve enterprise verification and shorten its own development time. Fieldguide reported 40% higher merged PR throughput and 1.3–1.6× faster merges for Forge-authored PRs, with flat rollback rates and defect severity. Those results cover the broader Forge workflow, so Plover’s contribution remains uncertain. Plover separately reports five-figure monthly contracts with Envoy and Fieldguide (The Idea, Defensibility, Market & Traction).
+Strategic acquisition by a code-hosting or review platform is the strongest supported route. Fieldguide reports 40% higher merged PR throughput in Forge’s first production quarter, with flat rollback rates and defect severity. Fieldguide uses Plover’s evaluation system to turn repository-specific failures into regression checks. A platform could buy Plover to bring that capability to more customers if the system delivers similar gains across repositories without extensive custom work. The reported gains come from one joint deployment, and Plover’s separate claim that PRs per engineer tripled remains a company claim. (Defensibility, Market & Traction)
 
-The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. A 5× gross return within eight years requires $2.5 million in cash, or about $83.3 million in distributable equity value. The sale scenarios below assume a full cash-out at closing within eight years, holder eligibility, and pro rata distribution after debt and deal adjustments, with no further preference diversion. The prices and deductions are illustrative assumptions. Paid contracts establish some commercial demand, while buyer pricing and holder terms remain unknown (The Idea, Market & Traction).
+Plover reports five-figure monthly contracts with Envoy and Fieldguide. That pricing gives some evidence of willingness to pay, while the strategic sale price remains ungrounded. Under the benchmark $500,000 check at $10 million post-money, ownership starts at 5% and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3% ownership. (The Idea)
 
-| Scenario | Proceeds bridge | Holder cash |
-|---|---|---:|
-| Modest sale | $50M enterprise value − $5M debt and deal adjustments = $45M distributable equity | $1.35M (2.7×) |
-| Strong sale | $100M enterprise value − $10M debt and deal adjustments = $90M distributable equity | $2.70M (5.4×) |
-| Prolonged private | Continued operation with cash reinvested and no eligible share sale or payout | $0 (0×) |
+| Scenario | Assumed bridge | Gross holder cash |
+|-----------|----------------|-------------------|
+| Modest sale | $50M enterprise value less $5M in debt and deal adjustments leaves $45M in distributable equity | $1.35M, or 2.7× |
+| Strong sale | $100M enterprise value less $5M in debt and deal adjustments leaves $95M in distributable equity | $2.85M, or 5.7× |
+| Prolonged private | Operating cash is reinvested through year eight, with no distribution or eligible share sale | $0 realized |
 
-A second paid production rollout that reproduces faster merges with stable rollback rates and defect severity, and requires less hands-on setup, would strengthen the acquisition case. The reported contracts and existing production deployment make that milestone plausible. The listed $125,000 financing entry leaves available runway and rollout costs unclear. A sale of the core product appears feasible at seed stage, with ownership and portability of customer-specific checks unresolved. The memo leaves independent liquidity routes unevidenced (The Idea, Defensibility, Market & Traction, Key Risks).
+Both sale scenarios assume an all-cash close within eight years, eligibility for the holder to sell the entire stake, and pro rata distribution of the remaining equity value with no preferential allocation. At 2% ownership, even the strong sale yields $1.9 million. The scenario prices and adjustments are illustrative. Actual senior claims, transfer rights, and consents are unverified. Ownership and portability of customer-specific checks are also undisclosed, and the memo provides no evidence of an independent liquidity route. (Defensibility, Market & Traction)
+
+The operating milestone is a second enterprise deployment that reproduces the throughput improvement with stable quality, less manual review, and measured integration effort. Fieldguide’s retrospective test produced merge-ready patches on 37 of 40 tasks, which supports attempting that milestone. Staffing, capital required, and runway for repeat deployments remain uncertain. (Market & Traction, Key Risks)
 
 ### Countercase
 
-GitHub already offers required merge checks and automated Copilot review, giving a potential acquirer a plausible path to build overlapping controls internally. Fieldguide co-built its deployment and retained engineer approval after a patch passed component tests while missing a required integration. If the gains depend on customer-specific work and continuing human review, a buyer may see limited value in acquiring the product. That risk leaves a material pricing gap and supports Watch. The memo establishes neither a structural closing block nor a credible sale-price ceiling below the holder’s hurdle, so the Pass gate remains open pending evidence (Defensibility, Key Risks).
+GitHub already offers required merge checks and automatic Copilot review, giving a potential platform acquirer a credible build alternative. Fieldguide co-built Forge and kept engineer approval after a patch passed component tests while missing a required integration. If other deployments also need substantial customer-specific work and continued approval, a buyer has less reason to pay a strategic premium. The evidence raises substitution and scaling risks while leaving both a structural closing block and a proceeds ceiling below the benchmark unestablished. Watch fits that gap. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 19/30 |
-| Plausible investor proceeds | 11/30 |
-| Milestones and capital needed | 13/20 |
-| Transaction feasibility | 6/10 |
+| Counterparty rationale or source of cash | 18/30 |
+| Plausible investor proceeds | 9/30 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 51/100** (Neutral)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-After a second paid rollout reproduces Fieldguide’s gains with less implementation work, what would a strategic buyer pay to acquire Plover’s verification product? A buyer-side build-versus-buy analysis supporting roughly $94 million or more in cash enterprise value, assuming $10 million in debt and deal adjustments and the same holder terms, would move the action to Reach out.
+Would acquiring Plover’s verification product create enough value for a platform buyer to support at least $83.3 million in distributable equity? A second production deployment that quantifies the gains and rollout costs, coupled with a buyer-specific estimate of the value of acquiring the capability versus building it, would answer that question. A supported range that clears the benchmark after deal adjustments and the holder waterfall would move the action to Reach out. A credible upper bound materially below it would move the action to Pass.

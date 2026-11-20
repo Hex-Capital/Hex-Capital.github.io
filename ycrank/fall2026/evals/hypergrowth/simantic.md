@@ -5,28 +5,30 @@
 
 ### Company case
 
-Simantic’s strongest path is self-serve firmware testing in continuous integration for embedded teams whose microcontrollers and peripherals it already models. The same recurring job—running compiled firmware against modeled hardware before merging changes—can travel across markets through the cloud API and GitHub app. A student reported that the simulator matched the physical board in coursework, a concrete sign that it can work on supported hardware. Developer launches, self-serve signup, and a published plan provide a bottom-up route. Independent checkout and production setup remain unverified. (The Idea, Market & Traction, Key Facts)
+Assuming strong product-market fit with firmware teams using supported chips, Simantic has a credible path to global demand. Pyrite runs compiled firmware against modeled hardware, and the cloud API and GitHub app can serve the same recurring validation job across markets. The memo documents self-serve signup and developer packages, while the Hacker News and YC launches provide plausible discovery channels. The memo leaves checkout and the effort required to get a typical production repository running unresolved. (The Idea, Key Facts)
 
-Pull-request testing gives teams a reason to keep using Simantic as firmware changes. The $100 monthly and $1,000 annual Developer plans support recurring billing. Whether heavier usage turns into higher spend beyond the included credits is unclear. Simantic reports more than 1.5 million runs over two months, 70% average weekly run growth, and a first satellite customer. Payment status and billable volume are unknown, so initial traction uses the absent-evidence default. (The Idea, Market & Traction)
+Pull-request testing gives teams a reason to keep using Simantic, and the published Developer plan supports recurring revenue at $100 monthly or $1,000 annually. Higher concurrency and credits give Community users a reason to upgrade. Expansion after that first upgrade is less clear because Enterprise requires a sales conversation and the memo gives no overage terms or evidence of paid renewals. (The Idea)
 
-For a Developer account on the monthly plan, incremental contribution starts with $100 and depends on the cost of cloud compute, storage, model calls when the bot is used, and any directly attributable onboarding and support. Reusing silicon-validated models across customers could spread bench work across more accounts. The memo gives no representative paid workload with which to estimate contribution. (The Idea, Defensibility, Key Risks)
+The company reports more than 1.5 million runs over two months, 70% average weekly run growth, and a first satellite customer. A student separately reported that the simulator matched the physical board in coursework. These signals show early use, while the commercial slope remains unscored beyond the default because payment, billable volume, and realized revenue are unverified. (Market & Traction)
+
+In a scenario where a team pays $100 per month and uses an existing chip model, incremental contribution is the subscription fee less cloud execution, storage, any inference used by the bot, and attributable acquisition, setup, and support. Reusing a validated model across teams could spread the bench-testing cost. Reported compute hours establish that serving runs consumes resources, while workload and cost per paid account remain unknown. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Countercase
 
-Growth could stall if each new hardware family requires substantial bench validation or if customers need physical rigs for too much of their test coverage. Third-party processing of pull-request data can also narrow bot adoption, and the company reports that its top 15 users accounted for most runs. The structural downside gate clears because teams on already-modeled hardware have a credible route through shared tooling. The evidence leaves open how large that segment is and how many teams will pay. (The Idea, Defensibility, Key Risks)
+The reported run growth could come from a small group of users without spreading to a broad base of paying teams. The founder reported that the top 15 users accounted for most runs. Incomplete peripheral models can leave teams dependent on physical testing, and third-party handling of pull-request data can push some buyers toward private hosting. If new buyers routinely need custom silicon validation or private deployments, engineering and delivery costs could rise with each account. The structural gate stays open because the memo documents a reusable route for teams with supported chips that can use the hosted product. (Market & Traction, Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 18/25 |
+| Repeatable acquisition and onboarding | 17/25 |
 | Retention economics | 13/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 63/100** (Neutral)
+**Total Score: 62/100** (Neutral)
 
 ### Decisive diligence question
 
-Can multiple independent firmware teams on supported hardware activate on their own and pay for recurring production CI use? A dated cohort showing self-serve activation, recurring production runs, and a second month of paid invoices across several teams would move the action to Reach out.
+Can a cohort of unrelated firmware teams on already-supported chips go from signup to paid production testing and renew through the standard hosted workflow? Activation records, paid invoices through renewal, and attributable compute and support costs would answer it. Repeatable self-serve activation and renewal at positive incremental contribution would move the action to Reach out.

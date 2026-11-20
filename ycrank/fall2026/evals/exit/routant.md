@@ -5,21 +5,21 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by an enterprise identity or agent infrastructure provider. Routant says one MCP integration lets a software vendor connect agents to multiple enterprises’ private systems while each customer controls permissions and approvals. If that setup measurably reduces integration and rollout work across customers, an acquirer could use it to extend its own product into customer-managed environments. Cisco’s reported investment in Arcade.dev and Duo’s integration with Arcade show strategic interest in adjacent agent controls. The memo documents Routant’s public launch and YC backing. Paid production deployments, rollout savings, and the capital available to fund those deployments remain unverified. (The Idea, Market & Traction, Key Facts)
+A strategic acquisition by a security platform is Routant’s strongest supported exit route. Routant says its single MCP integration lets software vendors connect to private customer systems while each enterprise controls permissions and approvals. Cisco Duo already integrates approvals with Arcade.dev, and Cisco Investments backed Arcade.dev. That activity identifies a plausible buyer class. The acquisition rationale is an inference that owning Routant could save a platform the cost and time of building repeatable onboarding across customer-managed environments. The memo provides no measured savings or acquisition interest. (The Idea, Market & Traction)
 
-The proceeds bridge uses the shared benchmark of a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity at 3%. Both sale scenarios assume a full cash sale within eight years, $5 million in combined net debt and deal deductions, pro rata participation on all the holder’s shares, and no senior preference or holdback. Actual holder rights, customer consents, and the payout waterfall are unverified.
+The milestone is one vendor deploying Routant across multiple paying enterprises and showing a measurable reduction in onboarding time. The public launch and confirmed YC backing support attempting that test. Funding reports differ, and the memo gives no verified runway, production deployments, or revenue. Each enterprise still has to connect its systems and configure policies. Customer-contract assignment, holder eligibility, and the closing waterfall remain unverified. The memo supplies no independent liquidity route. (Market & Traction, Key Risks, Key Facts)
 
-| Scenario | Distributable equity | Gross cash to holder |
-|---|---:|---:|
-| Modest sale at $40 million enterprise value | $35 million | $1.05 million (2.1×) |
-| Strong sale at $100 million enterprise value | $95 million | $2.85 million (5.7×) |
-| Prolonged private operation with cash reinvested and no share sale | No distribution | $0 |
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale cases below assume a full sale of the eligible holder’s stake within eight years, all cash at closing, zero net debt and deal adjustments, and a pro rata waterfall with no senior claims.
 
-The strong scenario clears the objective on those assumptions. The memo supplies no acquisition pricing or measured buyer economics to support that price, and no evidence of an independent route to holder cash. (Market & Traction, Key Facts)
+- **Modest sale.** At an assumed $40 million enterprise value, distributable equity is $40 million and the holder receives $1.2 million, or 2.4×.
+- **Strong sale.** At an assumed $100 million enterprise value, the holder receives $3 million, or 6×. A combined $10 million reduction from net debt, deal adjustments, or senior claims would leave $90 million for pro rata distribution and $2.7 million for the holder, or 5.4×.
+- **Prolonged private operation.** If Routant reinvests available cash and the holder has no eligible share sale, realized proceeds are $0 within eight years.
+
+The sale prices are sensitivity assumptions. The memo gives no supported buyer price range or holder terms. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An acquirer may be able to fill the gap through its own product or a partnership. AWS already offers overlapping private MCP connectivity and governance, and Cisco already delivers sensitive-action approvals through Arcade. Routant’s proposed advantage still depends on each enterprise connecting its systems and configuring its policies. That work could erode the savings from a reusable vendor integration, and the memo identifies no current moat. These facts weaken the case for a buyer paying a premium. They leave open whether Routant can deliver enough value in customer-managed environments to clear the proceeds hurdle, so the Pass gate remains unmet. (Defensibility, Market & Traction, Key Risks)
+A strategic buyer could build or partner around Routant. AWS already offers overlapping private MCP connectivity and governance, and Cisco Duo already delivers sensitive-action approvals through Arcade.dev. Routant’s customer-by-customer rollout could erode the onboarding advantage a buyer would pay for. These substitutes weaken the acquisition rationale. The memo leaves open whether they cover Routant’s proposed cross-environment workflow or cap a credible sale below the proceeds hurdle, so the Pass gate remains untriggered. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -35,4 +35,4 @@ An acquirer may be able to fill the gap through its own product or a partnership
 
 ### Decisive diligence question
 
-Can one software vendor reuse the same Routant integration in two paid production deployments and show materially less rollout work than with its existing tools? Customer-confirmed deployment records and before-and-after engineering effort would answer it. Repeatable savings large enough to support a credible buyer case near the roughly $88 million enterprise-value hurdle under the stated assumptions would move the action to Reach out.
+Would a security-platform buyer’s savings from acquiring Routant support a price that clears the holder’s proceeds hurdle? Move to Reach out if repeatable paid deployments quantify an onboarding advantage over existing options and a plausible buyer’s build-versus-buy economics support a price that leaves at least $83.3 million for pro rata distribution under the benchmark terms.

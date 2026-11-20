@@ -5,28 +5,36 @@
 
 ### Company case
 
-Volaren’s strongest path is a strategic sale to a brokerage or consumer wealth platform. The memo records SoFi’s acquisition of Composer, an adjacent strategy automation product. Volaren describes a workflow that explains holdings across brokers and turns investment ideas into orders users can review by text. A buyer could use that workflow to engage investors whose assets are spread across multiple brokers and convert more of them into funded customers. That benefit is an inference. Volaren’s claim of more than 950 funds and retail traders gives no activity or payment criteria, and the Composer deal has no disclosed price in the memo. (The Idea; Market & Traction)
+A strategic sale to a brokerage is Volaren’s strongest exit route. The memo documents SoFi’s acquisition of Composer, an adjacent strategy-building and execution product, with no purchase price disclosed. Volaren’s potential value to a buyer is its ability to explain portfolio changes across brokerages and turn them into trades users can approve by text. A brokerage could acquire that workflow to win more activity from customers who hold assets across several firms. That buyer benefit is an inference. The memo supplies no measured lift or buyer interest. (The Idea, Market & Traction)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% without follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value. Assume a full cash sale within eight years, $5 million in net debt and other closing deductions, and an eligible holder receiving 3% pro rata with no senior preference deductions or deferred payments. In a **modest sale** at $40 million in enterprise value, $35 million reaches equity and the holder receives $1.05 million, or 2.1×. In a **strong sale** at $100 million, $95 million reaches equity and the holder receives $2.85 million, or 5.7×. At 2.5% ownership, the strong case falls to $2.375 million, or 4.75×. In the **prolonged-private** case, continued reinvestment with no payout or eligible share sale yields zero realized cash. These are illustrative assumptions. The memo supplies no buyer economics or transaction pricing that support either sale value and no evidence of an independent liquidity route. (Market & Traction; Key Facts)
+A live brokerage pilot could measure whether the cross-broker workflow generates repeat paid use and incremental funded accounts or trading activity compared with the broker’s existing tools. The product launch and founder-reported roughly $1 million in pre-seed funding make an initial test plausible. The company’s claim of more than 950 funds and retail traders comes from signup copy that gives no activity or payment criteria. Pilot funding, runway, and paid retention remain unverified. (The Idea, Market & Traction)
 
-The launch and founder-reported funding of about $1 million make a scoped brokerage pilot plausible. A live test could measure whether the cross-broker workflow improves funded-account conversion or retention. Runway and the capital needed to reach a sale remain unknown. Continued operation after a sale would depend on broker permissions and integrations, while Volaren’s adviser registration status remains unresolved. (Market & Traction; Key Risks)
+**Proceeds bridge.** Using the benchmark $500,000 check at a $10 million post-money valuation, 5% starting ownership dilutes to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value at 3%. The cases below are illustrative sensitivities. The memo supports neither a sale price range nor a holder waterfall. Both sale cases assume a full cash acquisition within eight years, holder eligibility for the full pro rata payout, and no additional senior claims after the stated deductions.
+
+| Scenario | Enterprise value to distributable equity | Holder cash |
+|-----------|-------------------------------------------|-------------|
+| Modest sale | $50M less $5M in assumed net debt and deal adjustments = $45M | $1.35M (2.7×) |
+| Strong sale | $100M less $10M in assumed net debt and deal adjustments = $90M | $2.70M (5.4×). At 2.5% ownership after further dilution, $2.25M (4.5×). |
+| Prolonged private | Continued operation with cash reinvested and no eligible share sale or distribution | $0 realized |
+
+The memo supplies no evidence of an independent route to holder liquidity. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Robinhood’s embedded agent rollout shows that a brokerage can build overlapping functionality inside accounts it already serves. Volaren’s cross-broker workflow would need to deliver enough incremental value to justify buying it, especially given that some integrations provide tracking only. The memo establishes neither a structural closing block nor a credible sale-price ceiling below the holder’s hurdle. The unresolved buyer economics support Watch. (Defensibility; Key Risks)
+Robinhood’s embedded agent rollout gives brokerages a concrete build alternative, and the memo identifies no current moat that would make Volaren’s cross-broker workflow hard to replicate. Order routing depends on broker and integration permissions, with some institutions allowing only tracking. Those dependencies could impair what a buyer can operate after closing. Adviser registration remains unresolved, and the company’s disclosures differ on when orders can execute automatically. These risks weigh on feasibility. The memo establishes neither a structural block nor a supported sale price that leaves the holder materially short, so the Pass gate stays open. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Would a brokerage’s measured gain in funded-account conversion or retention justify an acquisition price that clears this holder’s cash hurdle? A controlled pilot and a buyer’s written valuation range tied to the measured lift would answer it. A supported range that clears the hurdle after deal adjustments would move the action to Reach out. A credible ceiling materially below the hurdle would trigger Pass.
+Would a brokerage pay enough to clear the holder’s $2.5 million cash objective after seeing the incremental value of Volaren’s cross-broker workflow in a live pilot? Measured lift over the broker’s existing tools, paired with buyer feedback supporting a price that clears the $83.3 million distributable-equity hurdle under plausible deal terms, would move Watch to Reach out.

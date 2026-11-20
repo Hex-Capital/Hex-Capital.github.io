@@ -5,26 +5,27 @@
 
 ### Company case
 
-New Economies is the strongest path. Plover turns recurring agent mistakes into repository-specific merge checks. If those checks reduce the engineer time needed to review and fix each successful change, teams could afford to ship routine changes they previously left in the backlog. Fieldguide reported 40% higher merged PR throughput in Forge’s first production quarter and 1.3–1.6× faster merges for Forge-authored PRs, with flat rollback rates and defect severity. Those figures cover the joint Forge deployment. The memo gives no before-and-after human review or rework cost per successful merge and identifies no previously uneconomic workload that customers now ship. (The Idea, Market & Traction, Key Risks)
+Plover has a plausible AI-enabled industry path in routine enterprise code changes that would otherwise wait for an engineer to review them. The proposed workflow turns recurring agent mistakes into repository-specific merge checks, potentially allowing a narrow class of changes to ship with engineers handling exceptions. Fieldguide reported 40% higher merged PR throughput and 1.3–1.6× faster merges for Forge-authored PRs in its first production quarter, with flat rollback rates and defect severity. Those are results for the jointly built Forge workflow. Plover separately claims that PRs per engineer tripled. The seed-stage assumption is that a defined class of recurring changes can clear the checks reliably enough to free review capacity and make a previously impractical release cadence affordable. The memo leaves that threshold untested. The building-blocks path scores zero because the evidence establishes review friction within an engineering workflow, with no evidence of a scarce AI input that substitutes or added supply would be slow to relieve. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Plover reports five-figure monthly contracts with Envoy and Fieldguide. Fieldguide’s account corroborates production use, while pricing and demand from newly served workloads remain unverified. Plover’s two founders bring agent research and developer-tool experience, and the joint deployment tested Forge on 40 retrospective tasks, producing 37 merge-ready patches. The expansion unit is another repository deployment. Its contribution depends on contract revenue covering check authoring and maintenance, compute, and exception support. The memo gives no per-repository costs or evidence that deployment effort falls across customers. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Fieldguide uses Plover’s system to test proposed fixes against previously shipped work. Those repository-specific checks could create switching costs if a replacement had to recreate them. Ownership and portability are unknown. Fieldguide’s production rollout provides direct evidence of buyer adoption, while the five-figure monthly contracts with Fieldguide and Envoy are company-reported and renewal evidence is absent. The joint rollout and Forge’s 37 merge-ready patches on 40 retrospective tasks support execution credit, with dependable unattended delivery still open. The memo gives a price signal but leaves onboarding, check maintenance, and exception-handling costs unquantified, so scale economics stays at the default. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Countercase
 
-Plover may improve an existing code-review workflow while customers retain the approval step and can reproduce enough of the benefit with native GitHub controls. At Fieldguide, one patch passed component tests while missing a required integration. Fieldguide added a regression case and kept engineer approval at merge. Its accumulated checks could make switching costly, but ownership and portability are unknown, and the memo shows no paid preference under functional parity or network effect. The missed integration limits what the pilot establishes about unattended merging. A narrower market-opening use remains testable, and the memo shows neither proven substitution at parity nor an independently supported scarce complement. (Defensibility, Key Risks)
+Forge may simply make an already viable review workflow faster. One patch passed component tests while missing a required integration, and Fieldguide retained engineer approval at merge. GitHub already offers required checks and automatic Copilot review, giving buyers a plausible way to assemble overlapping controls. The results support Watch because they show production improvement while leaving a specific release-cadence threshold testable. Evidence that the workflow only accelerates changes customers could already ship at the required cadence would zero the second path and trigger Pass. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 14/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 13/20 |
-| Team and execution | 11/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 9/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 10/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 36/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer renew a paid deployment for work it previously left undone after comparing Plover with a credible alternative using the same underlying models? A production comparison should measure human review and rework cost per successful merge at comparable defect and rollback rates. Move to Reach out if the cost reduction makes that workload viable and the buyer renews at a viable price despite comparable functionality. Pass if the alternative delivers equivalent economics and quality and the buyer readily switches. An inconclusive trial keeps the action at Watch.
+Can a paying customer use Plover to ship a predefined class of recurring changes without routine engineer approval at a cadence it previously could not afford? A production comparison using the same coding model and the customer’s existing merge controls would answer it. Move to Reach out if Plover enables that cadence at a lower fully loaded cost per successful merge, including fees, check maintenance, exceptions, and rework, with comparable defect and rollback outcomes.

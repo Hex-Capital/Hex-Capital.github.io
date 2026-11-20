@@ -1,32 +1,32 @@
 ﻿# Axonnic -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Axonnic’s strongest hypergrowth path is selling a standard EMG sleeve and SDK directly to robotics and AI labs. Assuming strong product-market fit, labs in multiple markets could use the same kit to capture finger motion and estimate force where video misses those signals. The memo documents an SDK-inclusive Gen 2 preorder with published prices, US-only delivery, and a refundable deposit. It also records a live robotic-hand demonstration. The preorder establishes a direct purchase path, and the demonstration establishes feasibility in one setup. Independent onboarding and delivery beyond the US remain unproven. (The Idea, Market & Traction)
+Conditional on strong product-market fit, Axonnic’s clearest growth path is selling a standard EMG capture kit and SDK to robotics teams that need demonstrations of force-sensitive work. The sleeve captures signals that cameras miss when fingers are occluded or workers adjust grip or fabric tension. The live robotic-hand demo shows that the signal can drive a robot hand. The same capture workflow could serve buyers across markets, but Gen 2 preorders are limited to US delivery, and the Italian sewing LOI establishes overseas interest at the LOI stage. Factory deployments still require retargeting demonstrations to the robot’s action space. (The Idea; Market & Traction; Key Risks)
 
-Axonnic reports initial paid pilots and sleeve shipments. That supports early commercialization by a two-person team, with the amount earned, commercial growth rate, and lab share of sales still unclear. The documented offer monetizes each sleeve at purchase. Labs could buy more sleeves as capture programs expand, but the memo provides no evidence of repeat purchases or recurring billing. (Market & Traction, Key Facts, The Idea)
+Direct preorders and the included SDK make ordering and setup more repeatable in principle. The manufacturer path described in the memo still runs through on-site pilots and factory-specific policy training. Axonnic reports paid pilots and sleeve shipments around its October launch. That is an early commercial signal for a two-person team, with too little information on earned revenue, customer counts, or first paid availability to establish a steep trajectory. An existing customer could reuse the kit to capture additional tasks and buy more sleeves as recording expands. The published terms establish hardware pricing, while repeat purchases and recurring billing remain unverified. (The Idea; Market & Traction; Key Facts)
 
-At the published **$8,000–$12,000 per sleeve**, incremental contribution depends on hardware production, fulfillment, and any sales, calibration, or support labor required for the next buyer. Higher shipment volumes may also require additional production capacity. Axonnic developed wired electronics after interference forced repeat recordings. If the redesign reduces rework, it could lower delivery and support costs. The memo gives no unit costs or measured savings. (The Idea, Market & Traction, Key Risks)
+At the published $8,000–$12,000 preorder price, contribution per shipped sleeve depends on hardware, assembly, fulfillment, and attributable sales and support. Wired electronics could reduce repeat collections prompted by interference. Pilot contribution also depends on field recording and retargeting labor. The memo gives neither the pilot fees nor the delivery costs needed to estimate contribution. (The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-Buyers may need Axonnic to deliver a working robot policy before the capture data has value. The factory motion involves on-site pilots, robot-specific retargeting, and negotiated data reuse rights. Recording failures have already forced repeat collections. If ordinary lab buyers also need Axonnic to calibrate, troubleshoot, and integrate each deployment, delivery labor could keep pace with sales. The structural downside gate stays open because the memo leaves a credible kit-only path and does not establish that this labor is unavoidable for labs. (The Idea, Defensibility, Key Risks)
+Even with strong initial fit, each factory could require fresh recordings, calibration work, and policy engineering. Axonnic reports recording reruns caused by interference and decoder sensitivity to electrode placement. Engagement-specific data rights could also limit reuse across customers. If those dependencies carry over to every deployment, growth could require field and engineering labor to rise alongside revenue. The structural gate stays open because the standard sleeve and SDK offer a plausible route to buyer-run capture, and the memo leaves the labor and economics of that route unresolved. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 11/25 |
-| Retention economics | 3/20 |
-| Initial traction | 8/20 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 9/20 |
+| Initial traction | 9/20 |
 | Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can the first paid Gen 2 lab cohort use and expand the standard kit independently at positive incremental contribution? Reach out if labs in multiple markets buy the same kit, produce usable recordings with the SDK and routine support, and place paid follow-on orders, with deployment records showing that hardware, fulfillment, and direct labor leave positive contribution. Pass if the cohort shows that bespoke engineering is unavoidable and its cost makes the kit uneconomic to scale.
+Can a paying Gen 2 customer buy additional sleeves and reproduce usable synchronized capture at a second site abroad using the same SDK with minimal Axonnic help? A paid repeat order, buyer-run setup, and recorded delivery costs showing positive incremental contribution would support rescoring for Reach out if the score reaches 65. If the repeat deployment shows unavoidable per-site work that makes faster growth uneconomic, the action moves to Pass.

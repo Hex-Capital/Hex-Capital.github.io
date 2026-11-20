@@ -5,28 +5,29 @@
 
 ### Company case
 
-The strongest AGI path is a scarce complement: fresh analytical queries with predictable latency when agents, ingestion, and dashboards compete for compute. ObsessionDB documents separate compute groups over shared storage and a distributed cache. If agent traffic is bursty and buyers need to preserve query latency and data freshness during those bursts, that design could become more valuable as agent usage grows. The published benchmark covers warm-cache runs, so the advantage under mixed production loads remains unproven. (The Idea, Key Risks)
+**Building blocks of superintelligence.** The supported mechanism is a potential bottleneck in serving fresh analytical queries over agent traces while ingestion and dashboards compete for compute. MotherDuck reported 29× as many MCP-agent queries as human UI queries in one monthly comparison. The memo also describes a BigQuery-to-Postgres workflow that incurs scan costs and can serve stale results after copying data. ObsessionDB’s design lets agents query shared tables through a separate compute group backed by a distributed cache. The seed-stage assumption is that bursty agent traffic makes it costly to preserve freshness and tail latency by adding compute or copying data. The volume comparison supports demand growth for this workload, while the cost and latency advantage under mixed traffic and cold-cache conditions remains unmeasured. That gap warrants Watch. (The Idea, Market & Traction, Key Risks)
 
-Osmosis reports migrating its existing API from Tinybird and serving 13 million requests in 30 days. ObsessionDB reports paying production customers and a separate 50 TB deployment. These are meaningful seed-stage demand signals. The memo leaves open whether buyers chose ObsessionDB specifically for agent workload isolation. It also leaves the New Economies path unsupported because it documents neither lower labor per successful outcome nor a buyer or use newly viable at that cost. The founders’ prior work operating real-time APIs at Numia and their delivery of a managed database and customer-cloud deployment support execution. (Market & Traction, Founders & Team, The Idea)
+**Industry enabled by superintelligence.** This path scores zero. The memo describes a database for existing analytics and API-serving workflows. Its cost-saving mechanism comes from database architecture. Evidence that AI reduces labor cost enough to open a previously uneconomic use or buyer segment is missing. (The Idea, Market & Traction)
 
-The scale unit is a production workload that can add compute groups as traffic grows. At the memo’s example configuration of $4,090 per month, contribution depends on compute, storage, cache, and attributable migration and support costs. The memo documents separate compute and storage billing. It leaves actual utilization and delivery costs open. (The Idea, Key Facts)
+The proprietary storage engine, distributed cache, and locality-aware routing give ObsessionDB a differentiated implementation. Datashares are in beta, and durable pricing power remains unproven. Osmosis reported migrating a live API from Tinybird, halving annual operating cost to about $30,000, and serving 13 million requests in 30 days. That customer account supports demand for the warehouse. Paying production customers and petabytes processed monthly are company-reported, and demand specifically from agent workloads is unverified. The founders’ prior work on real-time APIs at Numia and ObsessionDB’s shipped warehouse support execution credit. Published pricing establishes how the company bills, while incremental cloud and support costs needed to assess contribution margin are missing. (Defensibility, Market & Traction, Founders & Team, Key Facts)
 
 ### Countercase
 
-ClickHouse Cloud already offers isolated compute over shared storage and a managed agent service. Altinity also offers a shared-storage extension. ObsessionDB controls its cache and routing, but the memo gives no evidence that buyers stay or pay a premium when competing services meet the same requirements. Cache misses also add latency, which could erode the advantage on bursty workloads. The overlap makes substitution credible, while production parity and easy switching remain unproven. Watch applies. (Defensibility, Key Risks)
+ClickHouse Cloud already offers isolated compute over shared storage and a managed agent service. Altinity also offers a shared-object-storage extension. ObsessionDB’s published comparison uses hot runs, and its own documentation identifies added latency on cache misses. If a readily available substitute meets the same agent workload’s freshness and latency requirements at comparable cost, the building-blocks path falls to zero and the two-zero Pass gate applies. The memo establishes feature overlap, while equivalent performance on that workload remains open. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 14/20 |
-| Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Building blocks of superintelligence | 10/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 8/20 |
+| Customer demand | 9/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 36/150** (Pass)
 
 ### Decisive diligence question
 
-Would an independent buyer with substantial agent traffic renew at a price that yields positive contribution because ObsessionDB materially outperforms ClickHouse Cloud? Compare the same production workload at matched ingestion and freshness targets, including burst traffic and cold-cache periods. A material cost or tail-latency advantage that drives a profitable renewal would move the action to Reach out. Parity followed by ready switching would move it to Pass on the current evidence.
+Can ObsessionDB meet a production buyer’s freshness, p99 latency, and cost targets for bursty agent-trace queries where ClickHouse Cloud cannot? A buyer-run comparison using the same data and traffic, with concurrent ingestion and both warm and cold caches, would answer it. Move to Reach out if ObsessionDB alone meets the buyer’s targets, or to Pass if both meet them at comparable cost.

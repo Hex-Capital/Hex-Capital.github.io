@@ -5,26 +5,29 @@
 
 ### Company case
 
-Petrichor’s strongest path is **scarce complements**. Rising demand for biological training data could make reliable wet-lab capacity and fast delivery of usable experiment records more valuable. The memo reports a $300 million commitment to Biohub’s Virtual Biology Initiative, evidence that major model developers are funding data generation. Petrichor says its staff run experiments in parallel and return customer-owned, step-by-step records. Its claimed advantage in turnaround and record quality remains unmeasured. (*The Idea*, *Market & Traction*)
+Petrichor has a plausible building-blocks path in supplying training-ready records from physical experiments for frontier biology models, initially in cancer research. The memo documents a $300 million commitment to generate biological training data. Petrichor claims that building an internal lab takes years and that outsourced results can arrive weeks after benchwork. At seed, the design is credible for a narrow workload. If a model team needs successive batches of experiments to iterate, running compatible jobs in parallel and returning step-by-step records could shorten the wait for usable data. The commitment establishes spending interest. The claimed delays and Petrichor’s ability to shorten them remain unverified. (The Idea, Market & Traction)
 
-The founders shipped a scientific-measurement benchmark and publicly launched the wet-lab service. That demonstrates relevant software delivery, while reproducible wet-lab execution for paying customers remains unverified. The memo identifies no Petrichor buyer commitments or repeat orders. Under a hypothetical per-batch pricing model, contribution would depend on the price per accepted batch after bench labor, consumables, reruns, and allocated lab capacity costs. The memo supplies no measured inputs for that calculation. (*Founders & Team*, *Market & Traction*, *Key Facts*, *The Idea*, *Key Risks*)
+The industry-enabled path earns zero. Petrichor describes a staff-run lab service. The memo identifies no AI-driven reduction in delivery cost that makes a previously unaffordable experiment or cadence viable. (The Idea, Key Risks)
+
+Ginkgo’s reported work for OpenAI shows that a target buyer uses outsourced experimental data generation. Petrichor itself has no disclosed buyer trial or paid deployment. The founders’ published scientific-measurement benchmark shows relevant prior delivery, with wet-lab throughput and reproducibility still untested in the memo. Per-batch pricing is an inference, and the memo supplies no price or delivery cost per accepted batch. (Market & Traction, Founders & Team, The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Incumbents could make Petrichor interchangeable. Ginkgo reports that OpenAI uses its cloud lab for data generation, and Emerald Cloud Lab already captures structured experimental metadata. Petrichor has yet to demonstrate control over scarce capacity or a workflow advantage that protects its economics. The incumbents establish credible substitution risk, while parity on turnaround and record quality for Petrichor’s target jobs remains unproven. The scarce-complement path stays open at Watch. A separate New Economies path would require evidence that lower cost per successful outcome opens a previously uneconomic use and that buyers would still pay Petrichor under model parity. (*Defensibility*, *Market & Traction*, *The Idea*)
+Existing cloud labs may already supply usable records at the cadence buyers need. Emerald captures structured experimental metadata, and Ginkgo serves a frontier AI lab. Petrichor’s proposed workflow switching costs remain speculative, and its staff-run model could lose speed or consistency as volume grows. That combination triggers Watch because the plausible path depends on an unresolved, testable gap in qualified turnaround. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 6/25 |
-| Customer demand | 5/20 |
-| Team and execution | 7/15 |
-| Scale economics | 4/15 |
+| Building blocks of superintelligence | 22/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 4/20 |
+| Customer demand | 5/15 |
+| Team and execution | 4/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 37/150** (Pass)
 
 ### Decisive diligence question
 
-Will an independent frontier AI lab place a second paid order at a price that covers Petrichor’s delivery costs after comparing equivalent work with an incumbent? A repeat order tied to a measured, buyer-valued advantage in turnaround or usable record quality would move the action to Reach out. Easy switching at comparable quality and turnaround would close the scarce-complement path and move the action to Pass.
+Can Petrichor deliver a paid, representative batch of training-ready records fast enough to meet a frontier biology team’s iteration deadline when its current provider cannot? A side-by-side pilot that meets the buyer’s reproducibility and record-acceptance standards at comparable cost would move the action to Reach out.

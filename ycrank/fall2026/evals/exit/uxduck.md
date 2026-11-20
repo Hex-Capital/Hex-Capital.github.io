@@ -5,21 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a drone software platform seeking to add simulation, custom-vehicle integration, and flight replay to its existing stack. Auterion’s adjacent fleet software shows where UXDuck could fit. The buyer rationale is an inference. Owning the integrated workflow could save development and support time if it repeatedly shortens customer integrations. A customer quoted by UXDuck reported flying a custom-imported aircraft within five minutes and using the tool for demos and flights. UXDuck reports more than 500 simulated flight hours outside testing and development. These signals support early use, with paid adoption, retention, and buyer savings still unverified. (*The Idea*, *Market & Traction*)
+The strongest exit route is a strategic acquisition by a drone software vendor. UXDuck combines browser simulation, vehicle configuration, and flight replay in one product. A buyer could use that workflow to reduce the time customers spend integrating and testing custom aircraft. That benefit is an inference from the product, and the memo provides no buyer-side estimate of its value. (The Idea)
 
-The relevant milestone is repeat use by multiple paying production teams that can quantify engineering time saved per vehicle integration. The reported $500,000 in YC financing and the founder’s drone software experience give some support to pursuing that test. A 12–18 month pilot window is a scenario assumption, with runway and customer commitments unverified. The published Apache license gives a buyer a basis to keep using the core after a sale. Ownership and transfer rights for the rest of the product, any required consents, and the reported note’s conversion and priority remain open. The memo leaves independent liquidity routes unevidenced. (*Market & Traction*, *Founders & Team*, *Defensibility*)
+The memo records $500,000 in financing. UXDuck reports more than 500 simulated flight hours, and a customer quoted in the memo says his team flew a custom aircraft within five minutes of downloading the software and uses it for demos and flying. Those are early signals that UXDuck could reach a seed-stage milestone of repeatable time savings across paid production deployments. The capital and runway needed to reach that milestone remain unknown. Ownership and transfer rights for differentiated assets, contract assignment, and required consents are also unverified. The memo supplies no evidence of an independent liquidity route. (Market & Traction, The Idea, Defensibility)
 
-Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity at 3%. The sale scenarios assume an eligible holder sells the full stake within eight years, receives cash at closing, and shares pro rata after the stated deductions, with no further preference claims or holdbacks.
+**Illustrative proceeds.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at a full pro rata payout. The reported financing leaves the holder’s economics unspecified. For both sale cases below, assume an all-cash closing within eight years, $10 million in combined debt and deal adjustments, and an eligible holder selling its full stake with no senior claims ahead of it. The sale values are scenario assumptions.
 
-- **Modest sale.** $30 million in enterprise value less $5 million in assumed net debt, fees, and deal adjustments leaves $25 million to distribute. The holder receives $750,000, or 1.5×.
-- **Strong sale.** $100 million in enterprise value less $10 million in assumed deductions leaves $90 million to distribute. The holder receives $2.7 million, or 5.4×. If only 80% of the stake is sold on the same terms, cash falls to $2.16 million, or 4.32×.
-- **Prolonged private operation.** If cash is reinvested and no eligible secondary or funded payout occurs within eight years, realized proceeds are zero.
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|---|---|---:|
+| Modest acquisition | $40M enterprise value less $10M leaves $30M | $900,000 (1.8×) |
+| Strong acquisition | $100M enterprise value less $10M leaves $90M | $2.7M (5.4×) |
+| Prolonged private operation | Cash is reinvested and no eligible share purchase occurs | $0 |
 
-The sale values are sensitivities. The memo supplies no transaction pricing or quantified buyer economics to substantiate either value, so proceeds use the absent-evidence default. (*Market & Traction*, *Key Facts*)
+If the holder can sell only 75% of its stake in the strong case, cash falls to $2.025 million. The memo supplies no acquisition-price evidence to support the strong case. (Market & Traction)
 
 ### Countercase
 
-A buyer could use Mission Planner or QGroundControl for overlapping workflows and build on UXDuck’s Apache-licensed core for baseline functionality. That makes buying the company harder to justify unless its cross-vehicle workflow produces measurable savings worth paying for. Parallel use also lets customers keep their incumbent tools, and the memo leaves retention and migration costs unverified. This is a specific gap to watch. The evidence establishes neither a structural closing block nor a credible sale-price ceiling below the holder’s hurdle. (*The Idea*, *Defensibility*, *Key Risks*)
+A software vendor could keep its existing ground station and use UXDuck’s Apache-licensed core and existing MAVLink tooling to reproduce baseline workflows. Parallel use with Mission Planner and QGroundControl makes UXDuck easier to try while allowing customers to keep relying on those tools. Without evidence of durable workflow savings, a buyer may have little reason to pay for ownership. That risk and the unsupported sale price warrant Watch. The memo establishes neither a structural block nor a credible price ceiling below the proceeds hurdle, so the Pass gate stays open. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -27,12 +29,12 @@ A buyer could use Mission Planner or QGroundControl for overlapping workflows an
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 9/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can UXDuck show repeatable savings at paying production customers that give a drone software platform an economic reason to buy the company at a price that clears the holder’s hurdle? Measured integration savings across multiple customers, paired with credible buyer-side evidence that owning the workflow could justify roughly $83.3 million in distributable equity under the benchmark, would move the action from Watch to Reach out.
+Can measured savings from repeat paid deployments support a strategic buyer’s willingness to pay enough to leave at least $83.3 million in distributable equity value? A buyer-side estimate comparing acquisition with building the workflow internally, grounded in those deployments, would move Watch to Reach out if the resulting price could clear that hurdle after deal deductions and a full pro rata payout.

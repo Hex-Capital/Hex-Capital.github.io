@@ -1,32 +1,31 @@
 ﻿# Sintropix -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-New Economies is the strongest path. The current workflow combines local accountants, separate ledgers, and manual reconciliation. Sintropix’s shared ledger automates matching and posting, routes exceptions to reviewers, and supports local filings. The potential new buyer is a small cross-border team that can afford basic local compliance but currently forgoes a recurring consolidated close because of the cost. The CEO reported that managed-service customers moved their close from day 20 to day 1. That claim supports faster turnaround. Human hours, filing accuracy, and cost per successful close and filing remain unknown. (The Idea, Market & Traction, Key Risks)
+Sintropix supports the industry-enabled path through a specific use at a new frequency. A lean finance team with entities in several countries could get reliable group-wide numbers on day 1, where reconciling books from local firms, bank accounts, and spreadsheets previously made that cadence impractical. Sintropix describes agents that match and post transactions daily into a shared ledger, with people reviewing exceptions. The CEO relays a managed-service testimonial in which the close moved from day 20 to day 1. That supports the faster-close use at seed, but leaves open how much labor automation saved, whether the close met the same accuracy standard, and whether the result repeats at a viable price. Under model parity, the customer would still need maintained integrations, a consolidated ledger, exception resolution, and local filing workflows. The building-block path scores zero because the ERP serves finance teams and the memo identifies no AI workload for which Sintropix supplies a scarce input. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-The founders reported 10 ERP customers across four countries. The memo establishes a monthly pricing model, while payment, renewal, and adoption by previously excluded buyers remain unverified. For a seed team, moving from manual bookkeeping to a deployed ERP and launching a managed service in Chile shows relevant delivery capacity. (The Idea, Market & Traction, Founders & Team)
-
-An additional legal entity is the expansion unit. **Scenario assumption:** If automated posting reduces staff time enough, monthly fees could cover onboarding, inference, exception review, corrections, and a share of country-specific tax maintenance. The margin case depends on how often transactions need human review and how much work each jurisdiction adds. Under model parity, customers might still pay for the integrated ledger and local filing workflow. Retention tied to that workflow and control over local service execution remain unproven. (The Idea, Defensibility, Key Risks)
+Historical ledgers, reconciliation rules, and local integrations could make switching costly over time. The memo leaves that advantage untested and documents competing products with overlapping consolidation and tax features. The founders report 10 ERP customers across four countries, and the earlier bookkeeping service drew four referral clients. Paid conversion and retention remain unverified. The founders’ move from delivering bookkeeping manually to shipping their own ERP supports execution at seed. The recurring fee could support expansion if the next customer’s revenue covers onboarding, exception review, corrections, and local filing work. The memo gives no delivery-cost data to test that assumption. (*Defensibility*, *Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*)
 
 ### Countercase
 
-Sintropix may be speeding up accounting that customers already buy. Rillet combines multi-entity consolidation with UK VAT compliance, and Campfire offers multi-book accounting with a sales-tax integration. Those offerings make substitution credible. The memo leaves open whether customers can switch readily for the same country coverage and filing scope. Neither required New Economies condition is established or directly defeated, so Watch applies. The memo establishes no independently supported scarce complement. (Market & Traction, Defensibility, Key Risks)
+The day-1 close may reflect faster delivery by a managed accounting team for customers already able to buy the service. If human review, corrections, and country-specific tax maintenance absorb the labor savings, the product could improve an existing workflow without making a previously impractical cadence affordable. Competing ERP products already cover parts of the same workflow. The memo leaves that countercase unresolved, which keeps the action at Watch. Evidence that the faster close serves the same buyers at comparable fully loaded cost, with no newly viable use, would trigger Pass. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 22/50 |
+| Durable value capture | 6/20 |
+| Customer demand | 8/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 45/150** (Neutral)
 
 ### Decisive diligence question
 
-Will independent cross-border teams that previously forwent recurring consolidated closes pay and renew with Sintropix when a comparably capable alternative is available? Reach out if a paid cohort documents the former cost barrier, delivers accurate closes and timely filings at a materially lower cost per successful outcome after human review and corrections, and renews at prices that cover delivery costs. Pass if the cohort shows that the workflow remains unaffordable for those buyers or that customers switch readily at parity. An inconclusive result keeps the action at Watch.
+Can a cross-border customer that previously could not justify a day-1 group close complete consecutive day-1 closes and its next local filing at standard pricing, with comparable accuracy and lower fully loaded cost? A customer-verified comparison that includes onboarding, human review, corrections, and filing work, and shows the customer continuing at that price, would move the action to Reach out.

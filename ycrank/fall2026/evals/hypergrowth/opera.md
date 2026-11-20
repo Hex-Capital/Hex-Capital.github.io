@@ -5,15 +5,15 @@
 
 ### Company case
 
-Assuming strong product-market fit, OpEra’s strongest path is to start with fleet operators that repeatedly replan deliveries, then reuse routing models and data connections at comparable sites. The company describes an optimizer that connects to operational systems and Excel and reruns plans when a planner enters a new constraint. The routing job plausibly recurs across markets, and the optimizer and interfaces offer a basis for reuse. How much of each site’s data mapping and operating rules can carry over remains uncertain. (The Idea, Defensibility, Key Risks)
+Assuming strong product-market fit at the first site, OpEra’s best path is to reuse its optimizer and data connectors across similar sites. The same replanning job plausibly recurs across markets. OpEra describes connections to warehouse management systems, ERPs, and Excel, alongside models built around each site’s equipment, staffing, and rules. The optimizer and connector approach are plausible reuse points. How much data mapping and constraint modeling carries over remains uncertain. (The Idea, Defensibility, Key Risks)
 
-The October 2026 public launch offered a founder-led introduction and a one-site deployment. Backtesting and a live-data pilot give that sales motion a repeatable sequence, with hands-on implementation still required. The founders’ MIT retailer project reported 38% lower delivery costs and 10% more on-time deliveries. Those figures support the value of the routing workflow. The memo leaves paid production, revenue, and paying-customer growth unverified. (The Idea, Market & Traction, Key Risks, Key Facts)
+The memo records an October launch and a founder-led funnel built around introductions, a booking link, and a one-site deployment offer. Backtesting, piloting, and integration provide a reusable sequence, with hands-on implementation still central to first value. Once in production, recurring disruptions give planners a reason to return, and embedded site rules could make switching costly. In a scenario where OpEra charges recurring fees per site, additional sites could expand existing-account revenue. Pricing, renewals, and paid expansion remain unverified. (The Idea, Defensibility, Market & Traction)
 
-Recurring replanning and embedded site rules give customers a reason to keep using the product. In a scenario where OpEra charges an implementation fee and recurring per-site fees, customers could expand spending by adding sites. Incremental contribution would be those fees less attributable sales, data mapping, model validation, compute, and ongoing support. The memo leaves pricing, expansion within existing accounts, and deployment costs unverified, so both net revenue retention and contribution remain uncertain. (The Idea, Defensibility, Key Risks)
+OpEra reports a 10.4% higher premium over market for a sugar producer and 54% fewer unfulfilled orders for a services marketplace. The retailer routing result came from the founders’ MIT project. These outcomes suggest potential buyer value. Paid production use and the pace of commercial growth remain unknown, so initial traction takes the absent-evidence default. (Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-OpEra could scale as a custom implementation business. Each deployment requires a model of local equipment, staffing, capacity, and operating rules. Plain-language replanning helps once that model is in place, while data mapping and validation still precede production. The structural downside gate remains open because the memo leaves room for reuse across comparable sites and does not establish that unavoidable implementation work makes faster growth uneconomic. (The Idea, Defensibility, Key Risks)
+Each additional site could require fresh data mapping, constraint modeling, backtesting, and live validation. Under the per-site fee scenario, incremental contribution would be setup and recurring fees less attributable sales, modeling, integration, compute, and support costs. The documented deployment steps create labor costs that can recur at each site, with no demonstrated reduction on subsequent rollouts. The structural gate stays open because the evidence does not establish substantial rebuilding by market or show that recurring deployment work makes faster growth uneconomic. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -23,10 +23,10 @@ OpEra could scale as a custom implementation business. Each deployment requires 
 | Repeatable acquisition and onboarding | 6/25 |
 | Retention economics | 10/20 |
 | Initial traction | 7/20 |
-| Cost economics | 4/10 |
+| Cost economics | 3/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can OpEra bring several comparable fleet operators, including one in another market, into paid production using the same routing template and connectors? Rollout records showing customer-led setup, recurring invoices, and positive contribution after attributable sales, implementation, and support would support moving to Reach out if the updated score reaches 65. If comparable deployments still require bespoke engineering that makes incremental contribution structurally weak, the action moves to Pass.
+Can an existing paying customer bring a comparable site in another market into paid production using the same connectors and model template, with limited OpEra staff time and positive contribution after onboarding and support? A live rollout with invoices and recorded delivery hours would answer this. A successful rollout would support Reach out if the updated score reaches 65 with at least Medium confidence. Evidence that even a comparable site requires bespoke work that consumes its contribution, with no credible way to reduce that work, would move the action to Pass.

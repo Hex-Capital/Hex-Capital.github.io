@@ -5,23 +5,23 @@
 
 ### Company case
 
-The strongest path is a strategic sale to a CAD platform such as Autodesk. The memo documents Autodesk’s investment in natural-language CAD through its Fusion integration. Confetti describes a workflow that carries a novice from a prompt through editable CAD, parts planning, and print ordering. A CAD platform could buy that workflow to bring more first-time makers into its ecosystem and convert more designs into paid builds. The memo records 36 public design pages, and the founders report several projects in progress. Completed builds, repeat orders, and paying customers remain unverified. (The Idea, Market & Traction, Key Facts)
+A strategic sale to a print-fulfillment marketplace is the strongest supported route. Confetti documents a workflow that takes users from a plain-English prompt to editable CAD and, for eligible designs, a print quote and order. Its terms name Craftcloud and Slant 3D as fulfillment providers. A marketplace could acquire Confetti to turn more early design ideas into paid fabrication orders. That buyer rationale is an inference from the workflow and existing fulfillment relationships. (*The Idea*, *Market & Traction*)
 
-A pilot using Confetti’s existing ordering workflow and named suppliers could measure repeat paid builds, successful fulfillment, and contribution margin after compute, support, and rework. A six-to-twelve-month pilot is a scenario assumption. The memo leaves the pilot budget and runway uncertain, and users still have to verify fit and test physical builds. Software ownership and the transfer terms for supplier relationships and project data also remain unverified. (Market & Traction, Defensibility, Key Risks)
+The memo records 36 public design pages, and the founders report users working on a mechanical analyzer, a custom keyboard, and personalized gifts. These signals support testing whether designs turn into repeat, successfully fulfilled orders with positive contribution margin. The memo leaves paid order volume, repeat usage, and the capital and runway needed to reach that milestone unverified. It also leaves the transferability of supplier arrangements and design-data rights, and the holder’s ability to participate in a sale, unverified. (*Market & Traction*, *Key Facts*, *Key Risks*)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. The holder needs $2.5 million in gross cash within eight years for a 5× return. At 3%, that requires about $83.3 million distributable to common equity after net debt, deal adjustments, and any senior claims.
+With actual investor terms unavailable, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity value. The sale scenarios assume a full cash acquisition by year eight, $5 million in combined net debt and deal deductions, and an eligible holder paid pro rata after those deductions, with no senior preference or escrow.
 
-| Scenario | Assumptions and holder proceeds |
+| Scenario | Gross cash to holder |
 |---|---|
-| Modest sale | At $30 million enterprise value, an all-cash closing within eight years with no deductions and full holder participation yields $900,000, or 1.8×. |
-| Strong sale | At $100 million enterprise value under the same assumptions, the holder receives $3 million, or 6×. If debt, deal adjustments, and senior claims absorb $20 million, the holder receives $2.4 million, or 4.8×. |
-| Prolonged private | If the company reinvests available cash and the holder has no eligible share sale or payout within eight years, realized proceeds are $0. The memo gives no basis to underwrite an independent liquidity route. |
+| Modest sale | $30 million enterprise value less $5 million leaves $25 million in distributable equity. The holder receives $750,000, or 1.5×. |
+| Strong sale | $100 million enterprise value less $5 million leaves $95 million in distributable equity. The holder receives $2.85 million, or 5.7×. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or distribution yields $0 in realized proceeds. |
 
-The sale prices are illustrative assumptions. Confetti’s listed subscriptions and order fee show how it intends to monetize. Realized revenue and buyer economics that could support a clearing price remain unverified. (The Idea, Key Facts)
+The sale prices are illustrative. The memo gives subscription prices and order fees but leaves realized revenue, buyer economics, and comparable sale prices unverified. It supplies no evidence for a separate liquidity route. Watch fits the gap in fulfillment economics that could establish both a reason to buy and support for a price that clears the hurdle. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A CAD platform could extend its own prompt-driven design tools and connect to fulfillment. Fusion already executes natural-language CAD actions, Blueprint overlaps in mechanical design and parts sourcing, and Confetti users can export files to other manufacturers. Those alternatives weaken the case that a buyer needs to own Confetti, particularly while repeat paid builds and reliable physical outcomes remain unverified. The Pass gate remains untriggered because the memo establishes neither a structural block nor a credible sale-price range that leaves the holder materially short. (Market & Traction, Defensibility, Key Risks)
+A fulfillment marketplace could keep serving Confetti as a supplier while sourcing designs from other tools. Blueprint already spans prompted mechanical design, wiring, and parts sourcing. Autodesk has demonstrated natural-language CAD actions, and Confetti users can export files to another fabricator. Users must also verify dimensions and test physical builds, so generating a design may create little incremental order volume. These facts weaken the case for acquisition but leave the Pass gate unmet. The memo establishes neither a structural closing barrier nor a credible price range that puts the holder materially short. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -29,12 +29,12 @@ A CAD platform could extend its own prompt-driven design tools and connect to fu
 |-----------|-------|
 | Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can Confetti generate enough incremental profit from successfully fulfilled builds to give a CAD platform a reason to buy it at a price that could clear the holder’s hurdle? A partner pilot showing repeat paid builds and fulfillment-adjusted margin above the platform’s existing workflow, with buyer feedback supporting a price that could leave at least $83.3 million distributable to common equity, would move the action to Reach out.
+Can a fulfillment marketplace show that owning Confetti would generate enough incremental profit to justify a purchase that clears the holder’s $83.3 million distributable-equity hurdle? A paid pilot would need to show repeat, successfully fulfilled orders and measure incremental contribution profit against the marketplace’s existing workflow. If those results support a buyer’s acquisition price range that clears the hurdle after deal deductions, change the action to Reach out.

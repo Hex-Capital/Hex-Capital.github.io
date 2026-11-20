@@ -1,32 +1,33 @@
 ﻿# Micora -- AGI Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Micora’s strongest path is New Economies through lower installation labor. Conventional solar at remote industrial sites requires specialized crews, while diesel requires recurring deliveries. Micora offers relocatable solar blocks and containerized batteries and proposes using drone surveys and autonomous forklifts to place the blocks. It claims most setups reach available power within three weeks of a confirmed order, subject to site review. The memo gives no comparative crew hours or cost per reliable kWh. A plausible newly served use is a short-duration remote industrial project that would otherwise be deferred because conventional installation takes too long or diesel is too costly. No such project is established in the memo. (The Idea, Key Risks)
+Micora’s strongest commercial case is relocatable power for remote industrial sites that rely on diesel deliveries or conventional solar construction. Its offering combines stackable solar pallets, containerized batteries, drone surveys, and autonomous forklift placement. Micora says most setups reach available power within three weeks of a confirmed order, subject to site review. The memo documents the offering and relevant founder experience. Field performance, paid adoption, and unit economics remain unverified. (*The Idea*, *Key Risks*, *Founders & Team*, *Key Facts*)
 
-The LAKI co-development is evidence of work on specialized forks and field autonomy. Under model parity, buyers could still pay Micora for reliable commissioning and redeployment across difficult sites, but the memo does not establish control over that field execution or show buyer preference against a comparable system. A scarce-complement case would require evidence that AI demand increases the value of a power bottleneck Micora controls. The memo describes general industrial power constraints. (Defensibility, The Idea)
+Both AGI paths score zero. For **Building blocks of superintelligence**, a grid-constrained AI hardware test site with a flexible load is a plausible scenario, assuming the system can meet its power and uptime needs. The memo establishes a general industrial grid-access problem. AI-specific demand for this capacity, delays for a relevant workload, and the time required to secure equivalent alternatives remain unverified. For **Industry enabled by superintelligence**, autonomous placement could reduce specialist crew time, and customers would still need physical installation and commissioning under model parity. The memo identifies existing ways to serve these sites and leaves open whether automation makes power affordable for a previously excluded buyer or use. Both zero scores trigger Pass. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-Micora reports deployments underway at Pacific island and manufacturing sites. Payment, commissioning, and repeat orders are unconfirmed. The founders’ prior delivery in robotics, hardware, and solar storage supports execution credit, with representative field performance still open. Each site is a potential sale or lease. For leases, redeployment could spread equipment costs across sites if utilization is high enough to cover capital, freight, commissioning, backup power, and idle time. The memo provides terms for purchase and leases but no realized site economics. (Market & Traction, Founders & Team, The Idea, Key Risks, Key Facts)
+The LAKI collaboration on specialized forks and field-autonomy software gives Micora a specific integration advantage, with exclusive rights and durable cost advantages unverified. Existing diesel workarounds and company-reported deployments underway provide early demand evidence, with payment and repeat orders unverified. The founders’ prior work shipping hardware and deploying solar and storage supports execution credit. Purchases and leases establish how Micora plans to charge, while the memo lacks a cost bridge for the next commissioned site. (*Defensibility*, *The Idea*, *Market & Traction*, *Founders & Team*, *Key Facts*)
 
 ### Countercase
 
-Micora may serve existing microgrid buyers with a faster installation method. Prefabricated alternatives already exist, the batteries are standard, and other teams have automated solar installation. Terrain, weather, and backup requirements could erode labor savings or lift the cost per reliable kWh above a buyer’s threshold. That leaves both market opening and durable value capture unproven. The memo does not show comparable substitution at Micora’s target sites, so the evidence supports Watch while a field test remains available. (The Idea, Defensibility, Key Risks)
+A short-lived manufacturing site could become viable if robotic installation and later removal make a temporary microgrid economical. Micora’s recoverable pallets, 12- and 24-month leases, and reported manufacturing deployment make that a concrete scenario. Prefabricated competitors already offer faster-to-deploy alternatives, and freight, site work, backup fuel, and removal could absorb the labor savings. The memo leaves both the buyer’s affordability threshold and the savings attributable to autonomy unverified, so the Pass gate still applies. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Building blocks of superintelligence | 0/50 |
+| Industry enabled by superintelligence | 0/50 |
+| Durable value capture | 7/20 |
+| Customer demand | 5/15 |
+| Team and execution | 7/10 |
+| Scale economics | 2/5 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 21/150** (Pass)
 
 ### Decisive diligence question
 
-Can Micora profitably commission a paid deployment for an independent buyer whose project would otherwise have been deferred? Move to **Reach out** if buyer records confirm that the prior options made the project uneconomic and that the buyer chose Micora for field execution over a functionally comparable alternative, while site logs show lower crew hours and cost per reliable kWh with positive contribution after equipment, freight, commissioning, and backup. Stay at **Watch** if the comparison remains incomplete. Move to **Pass** if representative evidence shows the savings only shift existing buyers among interchangeable suppliers.
+Can a paid, commissioned deployment show that autonomous installation made temporary power affordable for a manufacturing site whose best prior option exceeded its budget? Buyer-confirmed bids and measured deployment costs at equivalent uptime would answer it, including crew time, freight, backup power, and removal. If those records show that automation closed the affordability gap, the action would move to Reach out.

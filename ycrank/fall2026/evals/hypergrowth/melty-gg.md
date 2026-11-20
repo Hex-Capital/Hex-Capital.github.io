@@ -5,26 +5,28 @@
 
 ### Company case
 
-Melty Gym’s strongest path is selling reusable game environments to AI research teams that repeatedly test spatial reasoning and coordination. Assuming strong product-market fit for that job, the same game engine and task controls could serve labs across markets. Melty’s launch demo shows two distinct simulated tasks, and the company says teams can bring their own models and modify mechanics, objectives, and team dynamics. The inference is that labs could rerun and vary tasks as their models change. How much work it takes to support another game or model remains uncertain. (The Idea, Market & Traction, Defensibility)
+Assuming strong product-market fit with AI and robotics researchers, Melty Gym could serve teams in multiple markets that need to evaluate spatial reasoning and coordination. The launch demos show simulated driving and server-rack tasks, and Melty describes an engine for reworking existing games. That gives Gym a plausible reusable core. The memo leaves open how much work a new team would need to connect its model or robot to an existing environment. (The Idea, Market & Traction)
 
-The published onboarding path is to contact the founder for a custom environment. Melty reports custom task work with unnamed teams. Gym pricing, paid production use, and recurring bills are undisclosed. Launch views and reported adoption of the free Mashups product give little evidence of Gym’s commercial pace. (The Idea, Market & Traction, Key Facts)
+Researchers could rerun the same environment as models change, then vary objectives or agent roles to test new behaviors. That gives Gym a concrete mechanism for repeat use. Recurring billing and expansion spend remain unestablished. The documented onboarding route directs teams to contact founder David Miller for custom environments. Melty reports building tasks with unnamed teams, with payment status unknown. Launch views and free consumer Mashups adoption show attention and usage without establishing Gym’s commercial slope. (The Idea, Market & Traction, Key Facts)
+
+In a hypothetical usage-priced model, incremental contribution would be the fees from the next team’s evaluation runs less attributable sales, setup, compute, and support. Reusing an environment across teams could reduce setup labor. Gym’s pricing, setup time, and degree of reuse are unknown, so the memo cannot establish the direction of contribution at scale. (The Idea, Defensibility)
 
 ### Countercase
 
-Gym could remain a custom task-development service even with strong demand. Each new lab could require engineering to adapt game mechanics and connect its models, followed by ongoing support. Incremental contribution would be the lab’s fees less that setup and support labor and any compute Melty bears. The custom inquiry path supports the labor concern, while pricing, setup time, and reuse across labs remain unknown. The structural gate stays open because the memo leaves room for a reusable package and does not establish that bespoke work is unavoidable or makes growth uneconomic. (The Idea, Defensibility, Key Facts)
+Gym could remain a custom engineering service even if research teams value the results. The founder contact and reported custom task work suggest hands-on delivery today. If each new team requires substantial environment rebuilding and integration, engineering costs could rise with each account. Consumer Mashups also offers no demonstrated paid fallback, and its documented publisher restrictions and release audits add delivery dependencies. The structural downside gate stays open because the memo does not establish that bespoke work is unavoidable for Gym or that reuse cannot materially reduce it. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 6/25 |
-| Retention economics | 9/20 |
+| Repeatable acquisition and onboarding | 4/25 |
+| Retention economics | 10/20 |
 | Initial traction | 7/20 |
 | Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can independent labs in multiple markets buy and run the same Gym package with different models, then pay for repeat or growing usage? Checkout and usage records, alongside setup time and direct serving costs, would show whether the package can scale. Repeat paid use with minimal founder involvement and positive incremental contribution would support **Reach out** if the updated score reaches 65 and confidence reaches Medium. Evidence that unavoidable custom work makes each additional lab uneconomic would move the action to **Pass**.
+Can research teams in multiple markets independently start with the same Gym environment package and expand their paid evaluation runs at positive incremental contribution? A small cohort that reaches first value through documented setup, increases paid usage over successive billing periods, and covers attributable setup, compute, and support would move the action to Reach out. Evidence that substantial custom engineering is unavoidable and that recurring fees cannot cover it would move the action to Pass.

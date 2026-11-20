@@ -5,20 +5,20 @@
 
 ### Company case
 
-Assuming strong product-market fit with U.S. environmental consultancies, Contour’s strongest path is to acquire practices and use Cortex to increase the amount of permitting and compliance work each practice can handle. Contour says Cortex researches federal and state rules, calculates emissions, and drafts filings while consultants retain technical judgment and client responsibilities. Reusing prior filings and regulator feedback could reduce drafting effort across practices. Ongoing compliance gives clients a reason to return, though billing frequency and the scope for existing clients to spend more remain unknown. (The Idea, Defensibility)
+Assuming strong product-market fit with U.S. infrastructure developers, Contour’s strongest growth path is to acquire environmental consultancies and use Cortex to increase the number of engagements their staff can handle. Contour says Cortex researches rules, calculates emissions, and drafts applications and reports, while consultants retain technical judgment and client work. Ongoing compliance reporting gives clients a reason to return. The memo establishes neither recurring fees nor a way for spending within an account to expand enough to offset churn. (*The Idea*, *Key Risks*)
 
-Under a scenario where acquired practices earn fees per engagement, incremental contribution is the fee less consultant review and revisions, compute, and attributable sales and onboarding labor. Contour would also need to earn back the cost of acquisitions and on-site engineering. Drafting automation could improve contribution if it frees consultant time after review and rework. The memo records a November 17 public launch and leaves current-product revenue and paid deployments undisclosed, so commercial traction receives the absent-evidence default. (The Idea, Key Risks, Market & Traction, Key Facts)
+In an automation scenario, contribution per engagement would start with the assumed service fee and subtract attributable selling, consultant review and rework, and software costs. At the practice level, growth also requires acquisition capital and on-site engineering for rollout. Drafting automation could improve contribution if it saves more consultant time than verification and rework consume. The memo gives no operating measurements to test that assumption. It records a November 17 public launch and leaves paid use and revenue status unknown, so initial traction receives the absent-evidence default. (*The Idea*, *Key Risks*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Cortex’s core output depends on U.S. federal and state rules, jurisdiction-specific filings, and consultant review. Emissions analysis and drafting may transfer, but producing filings consultants can use in a materially different regulatory system would likely require substantial changes to rule coverage, filing workflows, and validation. That dependency triggers the structural downside gate even with strong domestic fit. The described acquisition motion also requires buying practices and deploying engineers on site. Founder-led permitting inquiries provide a second intake channel, with delivery still dependent on consultants. These requirements limit repeatability, while their effect on contribution remains unmeasured. (The Idea, Defensibility, Key Risks)
+The structural downside gate applies. Developers abroad could need the same studies and filings, and Cortex’s calculation and drafting components could be reusable. But the current workflow is built around applying U.S. federal and state rules and preparing submissions for those regulators. That makes substantial work on local rules, filing procedures, and technical validation likely in a different regulatory system. The memo gives no credible near-term path to bounded adaptation. Contour’s stated rollout also requires practice-owner outreach and on-site engineering, while client engagements still require consultant judgment. Those steps constrain acquisition and onboarding. Their cost remains uncertain. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 6/25 |
-| Repeatable acquisition and onboarding | 4/25 |
+| Global buyer demand | 5/25 |
+| Repeatable acquisition and onboarding | 5/25 |
 | Retention economics | 9/20 |
 | Initial traction | 7/20 |
 | Cost economics | 5/10 |
@@ -27,4 +27,4 @@ Cortex’s core output depends on U.S. federal and state rules, jurisdiction-spe
 
 ### Decisive diligence question
 
-Can a consultancy outside the U.S. use the existing Cortex product to complete a paid permitting engagement under a materially different regulatory system with bounded configuration and review effort? One completed engagement with a record of product changes and consultant hours would move the action to Watch if it showed that the core workflow could transfer with limited adaptation.
+Can an acquired consultancy in a materially different regulatory system complete a paid engagement on the same Cortex core with changes limited to local rule content and filing templates? A completed filing with documented engineering and consultant hours showing bounded rollout work would move the action from Pass to Watch.

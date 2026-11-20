@@ -5,36 +5,36 @@
 
 ### Company case
 
-A strategic acquisition by an agency management system (AMS) vendor is Covera’s strongest path. Acturis’s acquisition of Broker Buddha shows that a buyer in this category has acquired adjacent broker workflow software. Covera reports connections to more than 100 carrier portals and documents read/write access to several AMS products. Hello Risk reported completing 155 tasks in two weeks and estimated 10 hours saved per week. An AMS vendor could acquire Covera to offer quoting through carriers’ existing portals and reduce duplicate data entry for its agency customers. The savings show a potential benefit to agencies. The value of that benefit to a buyer remains unquantified. (*Market & Traction*, *Defensibility*, *The Idea*)
+A strategic acquisition by an agency management software vendor is Covera’s strongest supported route. Covera reports connections to more than 100 carrier portals and read/write integrations with several agency management systems. Hello Risk reported using Covera for 155 tasks in two weeks and estimated saving 10 hours per week. The memo records Acturis’s acquisition of Broker Buddha, an adjacent agency workflow product. Together, these facts support a conditional buyer rationale. Owning Covera could let a platform sell intake and portal quoting to its existing agency customers. The savings estimate comes from one customer, and the buyer economics remain an inference. (*Defensibility*, *Market & Traction*)
 
-The operating milestone is a retained cohort of paying agencies that reproduces those savings across multiple carrier portals at a measurable maintenance cost. Covera reports more than 90 brokers live within three months, and the memo records 174 Chrome extension users and YC backing. That gives Covera a base for a paid test. The funding figures differ, and paid conversion, retention, and runway remain unverified. A software acquisition is plausible given the documented integrations, with continued carrier access and integration permissions under new ownership still open. The memo supplies no independent liquidity route. (*Market & Traction*, *Key Facts*, *Defensibility*, *Key Risks*)
+The milestone is a paid agency cohort that renews after demonstrating repeatable time savings and reliable quoting across carriers. The memo records 174 Chrome extension users, and Covera separately reports 50-plus independent agencies. Those signals make a cohort test plausible, while paid conversion and retention remain unknown. The test would require funding for portal maintenance, onboarding, and quality checks. The memo reports YC backing but gives conflicting funding figures, leaving runway for that work uncertain. A software acquisition is plausible, with transfer of integrations and continued use of agency carrier logins still to verify. The memo supplies no evidence of an independent liquidity route. (*Market & Traction*, *The Idea*, *Key Risks*)
 
-The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3% ownership. Both sale scenarios assume a close within eight years, $5 million in combined net debt and deal deductions, no additional senior preference claims, and an eligible holder selling its full stake for cash at closing. The prices are illustrative. The memo gives neither a price for the adjacent acquisition nor paid revenue for Covera. (*Market & Traction*, *Key Facts*)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity at 3%. Both sale scenarios assume a closing within eight years, $10 million in combined net debt and deal deductions, no additional senior waterfall claims, and an eligible holder selling the full stake for cash pro rata. The prices and deductions are illustrative. The memo gives no price for the adjacent acquisition and no realized revenue for Covera. (*Market & Traction*, *Key Facts*)
 
-| Scenario | Enterprise-to-equity bridge | Cash received by holder |
+| Scenario | Enterprise value to distributable equity | Gross holder cash |
 |---|---|---|
-| Modest sale | $40M enterprise value less $5M leaves $35M distributable | $1.05M (2.1×) |
-| Strong sale | $100M enterprise value less $5M leaves $95M distributable | $2.85M (5.7×) |
-| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or distribution | $0 within eight years |
+| Modest sale | $50 million less $10 million leaves $40 million | $1.2 million (2.4×) |
+| Strong sale | $100 million less $10 million leaves $90 million | $2.7 million (5.4×) |
+| Prolonged private | Cash is reinvested through year eight, with no funded payout or eligible share sale in the scenario | $0 (0×) |
 
-If only 80% of the holder’s modeled consideration in the strong sale arrives as cash by year eight, proceeds fall to $2.28 million and miss the objective.
+The strong scenario clears the objective narrowly. At the same $90 million distributable value, selling half the stake yields $1.35 million. The memo supports a reason for a buyer to consider the product, while the price and holder participation needed to clear the hurdle remain unresolved.
 
 ### Countercase
 
-Acturis already owns Broker Buddha, whose embedded CoverForce rating gives agencies another way to handle intake and quoting. Covera’s incremental value may be concentrated in workflows that still require carrier portals, where screen changes can interrupt automation and unmapped fields require manual work. That could make Covera a smaller add-on with ongoing maintenance costs. The memo leaves the potential buyer price and transfer permissions open, so the evidence supports Watch. A supported price ceiling materially below the holder’s hurdle or a documented transfer block would trigger Pass. (*Market & Traction*, *Defensibility*, *Key Risks*)
+Acturis already owns Broker Buddha, whose embedded CoverForce rating gives agencies another way to combine application intake and quoting. Covera’s broader portal coverage could still add value, but carrier interface changes and manual handling of unmapped fields could make that coverage expensive to maintain. If the incremental value is small, the buyer could stay with its existing product or offer a price that leaves the holder short. The evidence supports waiting for buyer economics. It does not establish a structural closing block or a price ceiling that triggers Pass. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 22/30 |
+| Counterparty rationale or source of cash | 21/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 13/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 51/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-What would an AMS buyer pay for the carrier-portal workflows Covera adds to its existing quoting tools? A buyer-supported price range tied to verified savings and maintenance costs across retained, paying agencies would answer it. A range that credibly supports $2.5 million in holder cash within eight years would move the action to Reach out. A supported ceiling materially below that objective would move it to Pass.
+What cash price could an agency management software buyer justify for Covera’s portal workflow once a paid agency cohort demonstrates renewal and repeatable savings? Buyer feedback grounded in the cohort’s revenue and portal maintenance costs would move the action to Reach out if it supports a price that leaves at least $83.3 million distributable with full holder participation. A substantiated ceiling materially below that hurdle for the strongest route would move the action to Pass.

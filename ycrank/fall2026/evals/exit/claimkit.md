@@ -5,36 +5,36 @@
 
 ### Company case
 
-ClaimKit’s strongest exit path is a strategic sale to a tax compliance platform that could sell R&D credit preparation to its existing customers. ClaimKit describes a workflow that links engineering records to claim costs and routes the resulting package to a tax specialist. Edexia reports lower costs and faster completion after switching from its accountants, and Fluer reports that its team could supply raw data without writing the claim report. Those testimonials support customer value. The acquisition rationale is an inference that a buyer could use its distribution to sell the service and reduce preparation work enough to justify buying ClaimKit. The memo provides no buyer-side measurement of that benefit. (The Idea, Market & Traction)
+A strategic sale to a tax advisory firm or compliance platform is ClaimKit’s strongest supported route. A buyer could use ClaimKit’s evidence collection and specialist-reviewed filing workflow to serve more R&D tax clients across the US, UK and Australia. Edexia reports lower costs and faster completion after switching from its accountants, and Fluer reports less work preparing its claim. Those testimonials support customer value. The effect on a buyer’s own costs and filing capacity remains an inference. (The Idea; Market & Traction)
 
-ClaimKit reports 80+ clients across three countries in seven months. A plausible next milestone is to measure specialist hours and contribution margin per completed claim across an existing customer cohort over a filing cycle. The Australian terms document software and tax-agent fees, which gives ClaimKit a basis for that test. The memo leaves review costs, test funding, and runway open. Customer-data permissions and transfer terms also remain unverified. (Market & Traction, The Idea, Key Risks)
+ClaimKit reports 80+ clients seven months after launch. Its Australian terms document a software fee and a tax-agent fee. A full filing cycle that measures repeat paid claims, specialist hours per claim, and contribution margin would test whether the workflow scales economically. The reported client base makes that test plausible. The memo gives no runway or capital requirement for expanding specialist capacity. A company sale is plausible at seed, with customer data permissions, continuity of specialist review, and holder participation still to verify. The memo supplies no evidence of an independent liquidity route. (The Idea; Market & Traction; Key Risks)
 
-**Proceeds scenarios.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× objective is $2.5 million, requiring about $83.3 million in distributable equity value. For both sale scenarios, assume closing within eight years, $5 million in combined net debt and deal deductions, a pro rata waterfall with no senior preference redirection, and eligibility to sell the entire stake for cash at closing. The enterprise values are illustrative assumptions.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3%. The sale cases below assume a full cash acquisition within eight years, eligible shares, and a pro rata waterfall after net debt and deal adjustments, with no further senior claims or deferred consideration.
 
-| Scenario | Enterprise value to distributable equity | Gross cash to holder |
-|----------|------------------------------------------|----------------------|
-| Modest sale | $40M less $5M = $35M | $1.05M |
-| Strong sale | $100M less $5M = $95M | $2.85M |
-| Prolonged private | Cash reinvested through year eight, with no share sale or payout | $0 |
+| Scenario | Enterprise-to-equity bridge | Holder cash |
+|-----------|----------------------------|-------------|
+| Modest sale | $40M enterprise value less $5M in assumed net debt and deal adjustments leaves $35M | $1.05M, or 2.1× |
+| Strong sale | $100M enterprise value less $10M in assumed net debt and deal adjustments leaves $90M | $2.70M, or 5.4× |
+| Prolonged private operation | Available cash is reinvested, with no payout or eligible share purchase | $0 realized |
 
-The strong sale clears the hurdle at 3% ownership. At 2.5%, it yields about $2.38 million. The memo supplies no buyer valuation evidence, actual waterfall, or supported independent route to holder cash. (The Idea, Market & Traction, Key Risks)
+The sale prices are illustrative assumptions. At 2% ownership, the strong case would pay $1.8 million. The memo documents how ClaimKit charges customers, while leaving realized revenue, margins, and buyer economics unknown. The strong case shows what would clear the hurdle but supplies no evidence that a buyer would pay that price. (The Idea; Market & Traction; Key Facts)
 
 ### Countercase
 
-A buyer could build or partner for much of the workflow. Neo.Tax already automates R&D credit work from source records, and RAD already captures R&D evidence continuously. ClaimKit also assigns specialist review to every claim, so higher filing volume could raise labor costs and limit the savings a buyer could capture. The memo documents competing capabilities and review requirements. It leaves the cost of substitution and the economics of specialist review unresolved, so the evidence supports Watch without triggering the structural-block or inadequate-proceeds gate. (Defensibility, Market & Traction, Key Risks)
+A buyer could build or license much of the workflow. Neo.Tax already automates credit work from source records, and RAD already captures R&D evidence continuously. ClaimKit also uses specialist review on every claim across three distinct filing workflows, which could limit the capacity gains a buyer would pay for. This combination weakens the case for a sale above the proceeds hurdle. The memo establishes neither a structural barrier to closing nor a supported price ceiling that triggers the Pass gate. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Would a tax compliance platform’s measured economics from deploying ClaimKit justify a purchase price that clears the holder’s $2.5 million cash objective? A buyer-side pilot that measures specialist hours per filing, together with a credible price range based on those results and the buyer’s build or partner costs, would answer it. A range that plausibly clears the hurdle after deal deductions and dilution would move the action to Reach out. A range that leaves the holder materially short even under favorable credible terms would trigger Pass.
+Could a strategic buyer justify a price that leaves at least $83.3 million in distributable equity within eight years? Buyer-specific economics grounded in a paid deployment, with measured savings after specialist review or measurable incremental profit, could move the action to Reach out if they support that price after deal adjustments. A supported price range materially below the hurdle even in the strongest credible case would move it to Pass.

@@ -1,30 +1,32 @@
 ﻿# Blinka -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** Remote access to U.S. business accounts paired with local payouts is Blinka’s strongest candidate for a scarce input. The memo documents Mercury’s U.S. operations requirement and Blinka’s offering of remote USD accounts through Portage Bank and cross-border settlement through Mural Pay. Blinka claims that its target founders face account rejections and can lose 4–5% to FX on overseas payments. If cheap frontier intelligence leads more U.S.-incorporated firms to operate abroad or pay overseas vendors more frequently, qualified access to those rails could become more valuable. That demand increase is a scenario assumption. The FX claim leaves Path B’s labor-cost and market-opening tests unresolved. (*The Idea, Market & Traction, Key Risks*)
+Blinka’s strongest plausible AGI path is an operations-led New Economy serving U.S.-incorporated businesses that operate abroad. Blinka says these founders face account rejections and can lose 4–5% to FX on overseas payments. The memo documents remote USD account opening and stablecoin settlement alongside local payout routes. That establishes a concrete way to improve access and payment costs. The former delivery labor cost and any AI-driven reduction in cost per successful outcome remain unmeasured. (The Idea)
 
-The memo reports more than 400 businesses onboarded and over $18 million in payment volume. Those figures support early adoption and leave repeat usage, willingness to pay, and demand driven by AI unresolved. The team shipped the banking product with several providers after working on real-estate banking, which supports seed-stage execution. The expansion unit is an active business account using a supported payout corridor. Published card terms list zero FX and cross-border fees, leaving the contribution from recurring accounts and payouts unverified after partner, settlement, compliance, and support costs. (*Market & Traction, Founders & Team, The Idea, Key Facts*)
+The testable scenario is that AI reduces manual onboarding, compliance review, and payout exception handling enough to serve businesses that were previously uneconomic to onboard and support. Under model parity, those businesses would still need a reason to pay Blinka for reliable account access and local payout execution. Blinka’s combination of remote onboarding and Latin American payout routes gives it a specific operating advantage to test. (The Idea; Key Risks)
+
+The memo reports 400+ onboarded businesses and more than $18 million in cumulative payment volume, with several customers named by Blinka. That supports early demand, while repeat usage, willingness to pay, and adoption among previously excluded buyers remain open. The team shipped the current banking product and brings credit-risk modeling experience. The cost of supporting each active account, including partner fees and human exceptions, remains unmeasured. (Market & Traction; Founders & Team; Key Facts)
 
 ### Countercase
 
-Blinka depends on Portage Bank for deposits, Third National for cards, and Mural Pay for stablecoin settlement. Slash and Jeeves already offer overlapping capabilities, and the proposed switching costs from stored vendor records and accounting workflows remain an inference. The provider dependencies weigh directly against durable control. Whether a credible rival can serve the same account eligibility and payout requirements remains untested. The memo supports Watch because AI-linked demand and defensible access remain open to a concrete test. (*Defensibility, Market & Traction, Key Risks*)
+Stablecoin settlement and remote banking access can explain early adoption without an AI labor-cost breakthrough. Slash and Jeeves already offer overlapping services, and Blinka depends on third parties for deposits, cards, and stablecoin settlement. The memo leaves customer preference under comparable functionality and durable control of those services unproven. That also leaves the scarce-complement path unsupported, with no demonstrated link between AI demand and the value of access Blinka controls. The New Economies path remains testable, so the action is Watch. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 5/25 |
+| Path-specific thesis fit | 6/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 12/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can Blinka secure enforceable access to one payout corridor where independent businesses with payment needs growing because of AI deployment commit to recurring use at viable prices? Signed access terms and repeat paid use by businesses whose account and payout requirements a credible alternative cannot meet would move the action to Reach out. A representative comparison showing equivalent access on comparable terms would close Path A and move the action to Pass.
+Can Blinka show that AI makes a previously uneconomic cohort profitable to serve and that those customers keep paying when comparable providers have access to the same models? A matched pilot holding payment rails constant would compare manual and AI-assisted delivery costs per funded account that completes a compliant overseas payout, including partner fees and human exceptions. A material cost reduction that enables positive contribution from that cohort, together with repeat paid use when comparable alternatives are available, would move the action to Reach out.

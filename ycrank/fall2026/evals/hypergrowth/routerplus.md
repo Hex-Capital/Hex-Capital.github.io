@@ -1,32 +1,32 @@
 ﻿# RouterPlus -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Medium
+**Action:** Watch
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is **repeatable direct sales of managed inference capacity**. Production AI teams have a recurring job: serve live traffic at acceptable latency and cost, including during spikes. RouterPlus offers workload testing, provider bidding, and backup capacity behind one API. The same workflow could serve buyers across markets. Buyer geography is unreported, and the documented prompt retention on shared endpoints could require some buyers to opt out or use dedicated endpoints. (The Idea, Key Risks)
+Assuming strong product-market fit, RouterPlus’s strongest path is to pool recurring inference workloads and sell managed capacity behind a single API. Production AI teams can plausibly use the same interface and workflow across markets where provider access and data policies permit. The memo documents a self-serve playground and API signup, while the managed offer relies on workload evaluation, provider bids, peak testing, and backup arrangements. That gives developers a reusable entry point and leaves substantial human work on the path to a capacity purchase. (The Idea, Key Risks)
 
-A customer testimonial describes switching a consumer app to an open model and seeing 25% lower P95 latency. Another describes RouterPlus sourcing capacity for peaks of 15× average traffic and arranging a backup provider for an AI assistant company. These accounts support early fit through a production workflow change and a concrete capacity need. RouterPlus separately reports 3 million daily agent conversations at its largest customer. That figure shows reported workload scale at one account. The memo gives no account history showing retention or paid expansion, and it leaves buyer payments unverified. (Market & Traction, Key Facts)
+A customer testimonial describes capacity sourced for peaks of 15× average traffic. That supports a recurring production need. Larger workloads could lead to larger capacity purchases, though renewal and expansion terms are undisclosed. The three-person team launched the managed marketplace on October 29, and RouterPlus reports 3 million daily agent conversations at its largest customer. The memo leaves the billing status of that traffic and paid growth unknown, so commercial traction receives the absent-evidence default. (RouterPlus, Market & Traction, Key Facts)
 
-The first link likely to break is converting consultations into paid deployments with repeatable delivery costs. **Scenario assumption:** RouterPlus retains a spread on individually quoted capacity and can reuse benchmarks and provider arrangements across similar workloads. The company reports one pooled provider deal, which makes reuse plausible. For the next account, the capacity quote would need to cover provider charges, sales, benchmarking, onboarding, support, and any backup capacity commitments. The memo provides no measured rollout effort or account-level contribution, and it traces neither the consultation nor self-serve channel to a paid capacity rollout. (The Idea, Defensibility, Key Facts)
+In a pooled-capacity scenario, contribution is the customer capacity charge less provider commitments, backup and gateway costs, and attributable sales, benchmarking, onboarding, and support labor. RouterPlus reports one pooled provider deal. Pooling could improve utilization if customer peaks are staggered. Realized contribution remains unknown. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Traffic could grow while RouterPlus captures little revenue. Published marketplace pricing passes through provider token rates without a markup, and bring-your-own-key traffic carries no RouterPlus inference fee. On managed capacity, each new workload could require fresh benchmarking, bidding, peak testing, and backup arrangements. The single reported pooled deal leaves open how much of that work carries over. The structural downside gate stays open because the memo does not establish that costs rise in proportion to revenue or that reuse cannot improve them. For a recently launched managed offering, that is a testable reason to Watch. (The Idea, Defensibility, Market & Traction, Key Facts)
+Traffic could grow while RouterPlus captures little value. Marketplace tokens carry zero markup, bring-your-own-key traffic carries zero RouterPlus inference fee, and individually quoted capacity may require substantial work and backup commitments for each buyer. The structural gate clears because the shared API and reported pooled deal support a credible path to reuse. Confidence is Low because paid uptake and contribution on that path remain unverified. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent production AI teams acquired through the same consultation channel reach paid go-live for similar workloads using the same rollout process, with less implementation effort on the second account and positive contribution after provider, backup capacity, and staff costs? Paid invoices and rollout and cost records through each account’s first normal billing cycle would answer it. A successful repeat would move RouterPlus to Reach out.
+Can RouterPlus repeatedly onboard production teams onto one pooled capacity offer and earn positive contribution as those accounts grow? A cohort of independent customers using the same onboarding flow, with repeat paid invoices showing expansion and costs that include delivery labor and backup capacity, would move the action to Reach out. If each additional account requires bespoke work and capacity commitments that absorb its contribution, the action would move to Pass.

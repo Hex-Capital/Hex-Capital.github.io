@@ -1,32 +1,32 @@
 ﻿# Quivly AI -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Usage-priced software vendors manually reconcile calls, tickets, Slack threads, and spreadsheets to coordinate onboarding. If Quivly cuts the labor per successful launch far enough, vendors could offer guided onboarding to accounts they previously left to self-serve. Octolane reports onboarding more than 100 customers without a dedicated customer engineering hire. That supports the staffing mechanism, while leaving open which accounts previously went without help and how much work other staff absorbed. (The Idea; Market & Traction)
+New Economies is Quivly’s strongest path. Usage-priced software vendors could offer guided onboarding to accounts that previously went without it because engineer time was too costly. Octolane reports onboarding more than 100 customers without a dedicated customer engineering hire. Quivly separately reports eight hours saved weekly per forward-deployed engineer. The former delivery cost was the engineer time spent reconciling account information, coordinating tasks, and resolving blockers. The memo gives neither that baseline in dollars nor the remaining labor and rework per successful go-live, so both the cost reduction per outcome and the opening of a previously unserved market remain unverified. (The Idea, Market & Traction)
 
-Mycroft tracks implementation milestones and billable hours in Quivly. That shows workflow embedding at one customer and suggests a reason to stay if equivalent intelligence becomes cheap. Buyer preference under functional parity remains untested. Multiple named deployments show buyers committing operating time, while realized prices and paid repeat use remain unknown. At seed, the shipped post-sales product and MCP integration, alongside the founders’ customer-intelligence and billing infrastructure experience, support the team’s ability to run the next test. (Defensibility; Market & Traction; Key Facts; Founders & Team)
+Mycroft’s use of Quivly to track implementation milestones and billable hours shows workflow embedding at one customer. Any resulting switching cost is inferred. Multiple named customers show adoption, while actual payments and renewals remain unverified. The team has relevant customer-intelligence and billing experience and shipped the post-sales product and an MCP integration. A comparative field test is the next execution milestone. (Defensibility, Market & Traction, Founders & Team, Key Facts)
 
-The expansion unit is a covered account. At full utilization and monthly list prices, both plans cost the buyer $10 per covered account per month. Cost per successful launch depends on utilization, completion rates, and staff time for approvals, retries, and exceptions. Quivly’s inference, connector, and support costs are also unmeasured, so contribution at scale remains uncertain. (The Idea; Key Risks; Key Facts)
+A managed account is the expansion unit. At full account capacity, both listed monthly tiers imply $10 in subscription revenue per managed account before discounts. That scenario leaves inference, connector maintenance, support, and any human review Quivly provides to be covered. The memo gives no per-account costs or exception rates, so contribution at scale remains unverified. (The Idea, Key Risks)
 
 ### Countercase
 
-Quivly may help existing post-sales teams handle more accounts while leaving the economics of previously self-served accounts largely unchanged. Human approvals can preserve much of the labor burden, and ChurnZero and Vitally can automate workflows using account data they already hold. The memo shows credible substitutes and leaves both Path B conditions unresolved. It documents neither a failed cost comparison nor buyer switching under parity, so the path remains open at Watch. (Defensibility; Market & Traction; Key Risks)
+Quivly may be making an existing customer-success workflow cheaper while incumbents automate it from account data they already hold. ChurnZero runs agents inside existing Plays, and Gainsight offers managed renewals. The overlap makes substitution credible, while Mycroft’s workflow use leaves buyer preference under functional parity untested. The memo documents neither parity-driven switching nor control of a scarce complement. The New Economies path remains open, with market opening and durable buyer preference both unproven. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 14/25 |
-| Durable value capture | 9/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 10/20 |
 | Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent usage-priced vendor pay for a second cohort of previously self-served accounts after comparing Quivly with a functionally equivalent alternative? Move to Reach out if the trial shows that Quivly’s full cost per successful launch, including human review, retries, and exceptions, makes guided onboarding economical for that cohort and the buyer chooses Quivly at a viable price despite parity. Pass if the comparison shows that either required condition fails.
+Will independent usage-priced vendors renew Quivly at a price that supports positive contribution for guided onboarding they previously could not afford, when a functionally comparable incumbent option is available? A cohort showing lower fully loaded cost per successful go-live at the same quality standard, with paid renewals despite that alternative, would move the action to Reach out. Observed ready switching under parity would close the only evidenced path and move the action to Pass.

@@ -1,32 +1,30 @@
 ﻿# Covera -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Covera’s strongest path is repeatable direct sales. Independent property and casualty brokers repeatedly collect client information and enter the same risk data across carrier portals and agency management systems. Covera documents a workflow that assembles the risk file, prefills carrier forms, compares quotes, and syncs reviewed information back to the agency’s system. The team-assisted two-week trial is the clearest route to getting the full workflow live. The memo identifies demos and self-serve signup as entry points, with no account-level record linking either to a paid rollout. (The Idea, Key Facts)
+Conditional on strong fit with independent property and casualty brokers, Covera’s strongest path is to bring agencies onto its free quote-comparison tool, convert them to the full workflow, and reuse carrier mappings across agencies. The same email-to-risk-file workflow could serve brokers across markets where Covera can support their carrier portals and agency management systems. Covera reports more than 100 carrier connections and 90+ brokers live across the US and Europe within three months. The memo leaves the integration work behind those deployments unclear. (The Idea, Defensibility, Market & Traction)
 
-Covera reports more than 90 brokers live across the US and Europe within three months. That supports portability of the job, while the extent of local integration work remains unknown. In a customer testimonial, Hello Risk reported 155 tasks in two weeks and estimated that it saved 10 hours per week. Covera separately reports that Concorde Assurance cut preparation time per client response by 80%. Those accounts support early fit and short-window repeat use. Paid adoption, retention beyond initial use, and account expansion remain unverified. (Market & Traction, Key Facts)
-
-If agencies pay for those time savings and Covera can reuse its carrier mappings and agency-system integrations, the same sales and rollout process could serve successive buyers. The first link to test is whether similar agencies can reach paid value through that process with bounded setup effort. (The Idea, Defensibility)
+The memo documents self-serve signup for the free product and a team-assisted trial for the full product. Recurring submissions and files synced to the agency management system give brokers a reason to return. One customer reports 155 tasks in two weeks, which supports repeat use. Paid conversion, recurring billing, and account expansion remain unknown. The broker count measures adoption, leaving commercial traction at the default. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Covera documents mappings by carrier portal and line of business, agency-specific configuration, and a manual fallback for unmapped fields. If each new agency needs substantial mapping and support, brokers could save time while Covera incurs delivery costs that rise in proportion to revenue. The memo gives no implementation-hour or maintenance-cost measurements to resolve that risk. The structural downside gate remains open because proportional delivery costs have yet to be demonstrated. (Defensibility, Key Risks)
+Growth could require Covera to map and maintain a different set of carrier screens and lines of business in each market, then help agencies configure the full workflow. Unmapped fields require manual copying, which erodes the time savings brokers receive. Under a paid-agency scenario, contribution would depend on agency revenue covering attributable sales, setup, processing, support, and a share of portal maintenance. Reuse could spread that maintenance cost across agencies, but the memo gives neither a paid rate nor the labor required. The structural gate stays open because the evidence establishes these dependencies while leaving their incremental burden unresolved. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 10/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 11/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can consecutive unrelated agencies from the same sales channel convert from trial to paid quoting through a standard rollout? Agency-level records showing payment, first live quotes, and comparable implementation hours as the same mappings are reused would move Covera to Reach out. Trial activity alone would keep it at Watch.
+Can a cohort of independent agencies in a new carrier market start paying and reach repeat production use with limited shared mapping work and little hands-on setup per agency? Paid invoices, repeat quote activity, and logged setup and maintenance hours would answer it. A rollout that demonstrates positive incremental contribution and lifts the reassessment to at least 65 with Medium or High confidence would move the action to Reach out. Evidence that substantial bespoke work is unavoidable across target markets would move it to Pass.

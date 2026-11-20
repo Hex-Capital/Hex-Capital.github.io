@@ -1,32 +1,34 @@
 ﻿# Superserve -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is Superserve’s strongest path. Engineering teams running coding agents need isolated environments that preserve files and processes between turns. Superserve’s microVMs can pause, resume, and fork with their state intact. The same workflow could serve buyers across markets using the existing product, with network policies configured for each deployment. Regional hosting and data-residency requirements remain untested in the memo. (The Idea, Key Risks)
+Superserve’s strongest path is self-serve infrastructure for coding-agent teams that repeatedly need to pause, resume, and fork isolated environments while preserving files and processes. Conditional on strong product-market fit, the same hosted microVM product and developer interfaces can plausibly serve that workflow across markets with modest adaptation. The Claude Managed Agents listing and open-source SDK and CLI give developers ways to discover the product, and the console provides a self-serve starting point. Published plans establish a way to charge for usage. Independent checkout and the typical path from trial to paid production remain unverified. (The Idea, Market & Traction)
 
-The memo records a 0.56-second median snapshot start in an external benchmark. Customer testimonials describe Lindy and Phaser launching agent products in under a month, with Superserve helping Lindy and Phaser avoiding the need to build new infrastructure. Those launches show concrete initial value. The console, SDK, CLI, and Claude Managed Agents integration provide routes to activation, while the launches leave discovery, onboarding effort, and payment untraced. (The Idea, Market & Traction)
+The documented $20 and $250 monthly plans include usage credits, with metering for active compute, memory, and retained storage. If a retained customer runs more agents or keeps more state, its bill can grow once usage exceeds the included credits. Saved VM state and network policies could also make the service harder to replace. Together these mechanisms make net revenue retention above 100% plausible. Actual cohort retention remains unverified. (The Idea, Defensibility)
 
-Superserve reports more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks. If customers add recurring workloads after a successful launch, active compute, memory, and retained storage can generate incremental revenue. The first unproven link is whether individual customers return and increase billed consumption after credits. Aggregate volume cannot establish that pattern. Shared base storage and pausing idle VMs offer plausible cost advantages, but the memo provides no measured marginal infrastructure, integration, or support costs. (The Idea, Defensibility, Market & Traction, Key Facts)
+The sandbox product was publicly available by June 2026. By November, Superserve reported more than 100,000 machines per week and 48 million sandbox-minutes over 12 weeks. Customer testimonials add evidence of production deployment. The reported volumes have different units and time windows, and the memo leaves paid production and realized revenue unverified. Initial traction therefore takes the absent-evidence default. (Market & Traction, Key Facts)
+
+Incremental contribution comes from fees for active compute, memory, and retained storage after host capacity, storage, and attributable onboarding and support costs. Copy-on-write templates reduce duplicated storage, and pausing could improve host utilization if capacity can be reassigned. Paused workloads stop generating compute charges, so contribution depends on how much capacity Superserve can reclaim and what retained state costs to serve. (The Idea, Defensibility)
 
 ### Countercase
 
-Superserve could help teams launch agents without capturing much of their subsequent spending. AWS offers suspendable Firecracker microVMs, and Claude Managed Agents supports interchangeable sandbox providers. Buyers could shift growing workloads elsewhere if state persistence delivers too little incremental value. The memo leaves post-launch spending and delivery costs unresolved, so the structural downside gate is not triggered. (Defensibility, Key Risks, Key Facts)
+AWS offers suspendable Firecracker microVMs, and Claude Managed Agents supports several interchangeable sandbox providers. Developers may adopt Superserve through those integrations yet switch before their recurring spend grows. Heavy usage could also require more host capacity, while integration help could make some accounts expensive to activate. The structural gate clears because the standard hosted workflow and shared storage design give Superserve a credible way to scale. The memo leaves the severity of those costs uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
-| Repeatable acquisition and onboarding | 11/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 18/25 |
+| Retention economics | 18/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 69/100** (Invest)
 
 ### Decisive diligence question
 
-Do independent coding-agent customers add recurring workloads that increase what they pay after credits? Account-level usage and invoices showing that pattern across multiple customers over their normal operating cadence would move Superserve to Reach out. Continued aggregate growth with inconclusive account-level evidence would keep it on Watch.
+Can ordinary coding-agent teams that discover Superserve through the Claude listing or SDK reach recurring paid production without hands-on integration? Trial-to-production records matched to invoices across successive cohorts would answer it. Repeat paid activation with minimal help would confirm Reach out. Usage concentrated in free trials or founder-assisted deployments would move the action to Watch.

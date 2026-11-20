@@ -1,27 +1,27 @@
 ﻿# Light Anchor -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B, New Economies.** Light Anchor could make managed US e-commerce growth viable for brands that previously left it unstaffed. The former delivery model required people to handle local creative, acquisition, and storefront operations. The memo records that Korean hair-care brand Anuko left that work unstaffed before Light Anchor took over US growth in July. Light Anchor used AI-assisted research and creative with live campaign testing, and quotes 5–15% of tag-attributed sales with no setup fee or retainer. Clients fund ad spend directly. The investment case is that automation reduces delivery labor enough to serve these brands at a viable fee. Anuko’s engagement supports that mechanism at seed, while its reason for leaving the work unstaffed and the labor savings remain unknown. (The Idea)
+The strongest path is **New Economies** through managed US growth for brands that lack the budget or volume to staff it. Anuko already had US Amazon sales but had left local growth work unstaffed. Light Anchor took on research, creative, and campaign operations using agents and live campaign feedback. The former delivery cost was the labor needed to staff those functions, which the memo leaves unquantified. The field deployment shows that Light Anchor could serve an unstaffed account. Whether it materially reduced labor cost per successful launch or opened a repeatable market remains uncertain. The scenario to test is that agent supervision costs less than conventional staffing for a launch that meets a predefined incremental gross-profit target. (The Idea, Market & Traction)
 
-Anuko reported that daily Amazon sales reached 54× its June baseline in the week ending October 6 and that sales were 3.07× ad spend on October 1–7. Its live campaign is a concrete demand signal. The memo names other agency clients, while fee collection and paid renewals remain unknown. The founders’ prior agent deployments at Sendbird and their work running Anuko’s campaign support execution. The brief sales comparison leaves incremental orders and realized contribution unresolved. (Market & Traction, Founders & Team)
+Anuko committed live campaigns and ad spend. Its testimonial reports daily Amazon sales reaching 54× the June baseline and sales of 3.07× ad spend for one week. These figures show activity on a live account and leave incremental sales, fees paid, and renewal open. Light Anchor names seven agency clients, while the earlier founder-reported MRR has unspecified scope. The founders’ prior work shipping and deploying agents at Sendbird and their reported delivery of more than 50 Shopify jobs support seed-stage execution. Repeat delivery with measured human workload remains the next operating gap. (Market & Traction, Key Facts, Founders & Team)
 
-Under the scenario that frontier-quality models become cheap and widely available, a buyer could still pay Light Anchor to run creative, campaigns, and storefront operations as one managed service. The company says it reuses operating records across brands, while the memo leaves cross-brand performance gains and buyer preference under parity untested. The unit of expansion is one additional managed brand. Its contribution depends on collected fees covering creative review, retries, exceptions, and account servicing. Buyer viability also depends on incremental sales covering ad spend, fees, and fulfillment. The memo provides pricing terms and campaign results, while labor hours and realized contribution remain open. (The Idea, Defensibility, Market & Traction, Key Risks)
+The expansion unit is one managed brand account. At the quoted terms, each $100 of tag-attributed sales yields $5–$15 in fees if collected, with the client paying ad spend directly. Light Anchor’s contribution must cover onboarding, model use, human review, and exceptions. For the buyer, incremental gross profit must cover ad spend and the fee. The memo provides pricing but leaves both margins unmeasured. (The Idea, Key Risks)
 
 ### Countercase
 
-Light Anchor may be delivering conventional agency work through a performance-fee offer. Anuko’s short sales comparison leaves open whether automation lowered the full cost per incremental order enough to unlock demand. Amazon and Meta already automate parts of campaign execution, and clients own their accounts. A rival with equivalent models could combine those tools with managed service and give buyers a credible substitute. The memo records neither a full-cost comparison nor a buyer choosing between equivalent services, so both Path B gates remain open and testable. This supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+Light Anchor may be an agency using tools that brands and rival agencies can readily access. Amazon and Meta already automate parts of campaign setup, delivery, and creative, and clients own their accounts. Light Anchor says its agents reuse operating records across brands, but the memo supplies no measured cross-brand lift or evidence that clients prefer its service when alternatives have comparable capabilities. Manual packing in the owned-brand portfolio also shows that operating brands adds physical work, with no demonstrated control over a scarce complement. Platform overlap makes substitution credible, but the memo records no buyer switching or equivalent end-to-end service at a comparable cost. That leaves the New Economies path open for a specific test and supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 14/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 12/20 |
+| Customer demand | 10/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
@@ -29,4 +29,4 @@ Light Anchor may be delivering conventional agency work through a performance-fe
 
 ### Decisive diligence question
 
-Will a previously unstaffed brand renew at a fee that yields positive contribution for both sides when it can choose a managed alternative using equivalent models? A paid renewal after a side-by-side trial would move the action to **Reach out** if measured labor and full delivery cost per incremental order show that Light Anchor makes the service viable where the staffed model did not, and the buyer renews for a demonstrated execution advantage. A representative trial showing that the savings cannot make the service viable, or that the buyer switches and retains the same outcome, would close Path B and move the action to **Pass**.
+Will a cohort of previously unstaffed cross-border brands renew at the quoted fee after seeing what an alternative with comparable model capabilities can deliver? Move to Reach out if the cohort renews, measured labor cost per launch that clears a predefined incremental gross-profit target is materially below a comparable staffed launch, and Light Anchor earns positive contribution after model and human costs. Move to Pass if the comparison shows that viable staffing was already available to those buyers or that buyers readily switch under parity.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Repeatable direct sales** is OpEra’s strongest path. The clearest initial buyer is a logistics leader whose fleet planners must rebuild delivery routes when orders or operating constraints change. OpEra describes a workflow that connects existing systems and spreadsheets to a site-specific optimization model, then reruns the plan when a planner enters a new constraint. The job plausibly travels across markets. The extent to which data mappings and operating rules can carry over remains unproven. (The Idea, Key Risks)
+Assuming strong product-market fit, OpEra’s strongest path is to start with fleet operators that repeatedly replan deliveries, then reuse routing models and data connections at comparable sites. The company describes an optimizer that connects to operational systems and Excel and reruns plans when a planner enters a new constraint. The routing job plausibly recurs across markets, and the optimizer and interfaces offer a basis for reuse. How much of each site’s data mapping and operating rules can carry over remains uncertain. (The Idea, Defensibility, Key Risks)
 
-The memo records a public launch and a founder-led offer to deploy at one site. The founders report that their MIT retailer project achieved 38% lower delivery costs and 10% more on-time deliveries on retailer data. Those results suggest a specific benefit worth testing. The memo gives no usable evidence that a fleet buyer committed budget or changed its recurring workflow, that an independent account followed the proposed sales and pilot process through activation, or that a customer returned or expanded paid use. Those dimensions stay at their defaults. The decisive commercial links remain unobserved, which keeps confidence Low. (The Idea, Market & Traction, Key Risks, Key Facts)
+The October 2026 public launch offered a founder-led introduction and a one-site deployment. Backtesting and a live-data pilot give that sales motion a repeatable sequence, with hands-on implementation still required. The founders’ MIT retailer project reported 38% lower delivery costs and 10% more on-time deliveries. Those figures support the value of the routing workflow. The memo leaves paid production, revenue, and paying-customer growth unverified. (The Idea, Market & Traction, Key Risks, Key Facts)
+
+Recurring replanning and embedded site rules give customers a reason to keep using the product. In a scenario where OpEra charges an implementation fee and recurring per-site fees, customers could expand spending by adding sites. Incremental contribution would be those fees less attributable sales, data mapping, model validation, compute, and ongoing support. The memo leaves pricing, expansion within existing accounts, and deployment costs unverified, so both net revenue retention and contribution remain uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Even if fleet planners find the optimizer valuable, the first link likely to break is onboarding. Each site needs data mappings and a model of its own resources and rules. If each rollout requires similar founder and engineering effort, a successful pilot could lead to a series of custom projects with limited room for contribution to improve. Reuse of connectors and modeling templates is a scenario assumption. The memo gives no comparable rollout hours or marginal cost figures, so contribution stays at its default. The integration work makes this countercase credible, while the structural downside gate requires affirmative evidence of a persistent constraint. Watch is appropriate. (The Idea, Defensibility, Key Risks)
+OpEra could scale as a custom implementation business. Each deployment requires a model of local equipment, staffing, capacity, and operating rules. Plain-language replanning helps once that model is in place, while data mapping and validation still precede production. The structural downside gate remains open because the memo leaves room for reuse across comparable sites and does not establish that unavoidable implementation work makes faster growth uneconomic. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent fleet buyer reach paid, recurring production use through the same rollout process, with onboarding handed off from the founders? Move to Reach out if records from two comparable rollouts show the same core workflow, routine live replanning, and lower implementation and support hours on the second rollout. If comparable deployments repeatedly require founder-led rebuilds and delivery effort scales with revenue without a supported path to reuse, move to Pass.
+Can OpEra bring several comparable fleet operators, including one in another market, into paid production using the same routing template and connectors? Rollout records showing customer-led setup, recurring invoices, and positive contribution after attributable sales, implementation, and support would support moving to Reach out if the updated score reaches 65. If comparable deployments still require bespoke engineering that makes incremental contribution structurally weak, the action moves to Pass.

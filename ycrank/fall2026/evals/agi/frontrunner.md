@@ -1,32 +1,32 @@
 ﻿# Frontrunner -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** GTM engineers and revenue operations teams manually revise qualification rules and buying signals when targeting changes. Frontrunner says its shared graph gives agents access to customer data and sales outcomes across campaigns. The investment hypothesis is that reusing this context lowers the cost of launching and maintaining campaigns for narrow segments that teams previously skipped. Test that hypothesis using full cost per held, sales-accepted meeting. Compare manual research, rule updates, and outreach with Frontrunner’s fees, setup, review, retries, compliance checks, and exception handling. The memo leaves both costs unmeasured. (*The Idea*, *Key Risks*)
+Frontrunner’s strongest path is **New Economies**. Its shared graph gives agents access to CRM, email, calendar, product and call data, and feeds sales outcomes into later workflows. The former delivery cost includes staff time spent researching accounts, updating qualification rules and coordinating tools. A plausible new use is recurring outreach to lower-priority accounts that teams previously skipped because manual research cost too much. That market opening remains a scenario assumption. The memo provides no before-and-after labor or cost per qualified meeting. (The Idea)
 
-Foresight Health’s CEO reported seven meetings booked in 48 hours after onboarding. That supports early use, with payment, repeat use, and the campaign’s prior viability still unknown. Frontrunner separately reports conversion and win-rate gains. The founders bring growth and GTM engineering experience, and the company reports adding record rechecks, resumable runs, and send suppression after simulations exposed agent failures. The effect of those fixes in live campaigns remains unmeasured. (*Market & Traction*, *Founders & Team*, *Key Risks*)
+Foresight Health’s CEO reported seven meetings booked in 48 hours after onboarding. That testimonial supports early use and a concrete outcome. Frontrunner separately reports a 40–50% conversion rate from signal-based outreach to booked meetings. Whether buyers pay repeatedly for campaigns made viable by the cost change remains open. (Market & Traction)
 
-A repeat campaign within a connected account is a plausible expansion unit. The scale assumption is that subsequent campaigns reuse enough setup to keep fees above incremental model, integration, and support costs. Customer agreements set fees individually, and the memo provides neither realized pricing nor delivery costs to test that assumption. (*The Idea*, *Key Risks*)
+The founders bring growth and growth-engineering experience, including building internal GTM systems at Encord. Frontrunner’s simulations surfaced stale data and prematurely ended runs, with record rechecks and resumable runs among the reported mitigations. Production reliability remains open. A plausible expansion unit is one customer organization. Fees are set per agreement, and the memo provides no per-account figures for onboarding, inference, third-party data or human exception handling. (Founders & Team, Key Risks, The Idea)
 
 ### Countercase
 
-Frontrunner may help existing teams run campaigns they already find economical. Under model parity, customers might keep getting the same results from a competing workflow. Frontrunner’s in-service license for custom playbooks and configurations gives customers a reason to weigh migration effort, but the memo leaves buyer preference under parity untested. Unify overlaps in research and outreach, Zoom bundles buyer signals and agents with conversation data, and Frontrunner depends on third-party APIs. Both Path B gates remain open for testing. The memo offers no independent Path A case. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Frontrunner may make existing sales work cheaper while leaving buyers with several credible alternatives. Unify already uses general-purpose models for research and outreach, and Zoom bundles buyer signals and agents with conversation data. Frontrunner’s in-service licenses for customer-specific playbooks and configurations could create migration work. Whether buyers prefer or pay more for Frontrunner when alternatives offer comparable functionality remains untested. The overlap leaves the New Economies path open at Watch, and dependence on third-party APIs supplies no independent evidence of control over a scarce complement. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer pay to repeat a campaign it previously skipped on cost grounds after testing Frontrunner against its manual workflow and a credible substitute with equivalent models? Move to Reach out if the trial shows that Frontrunner makes the campaign economical on a full-cost basis and the buyer chooses a paid repeat at a price that covers delivery. Pass if representative results show that the campaign remains uneconomic or that the buyer switches and retains the outcome.
+Will independent buyers renew at a price that covers Frontrunner’s cost to serve for a campaign they previously skipped on cost grounds, after trying an alternative with comparable model capability and workflow functionality? A paid cohort that records the former manual cost, measures the new all-in cost per qualified meeting and renews with Frontrunner after that comparison would move the action to Reach out. If the savings serve only existing campaigns or buyers readily switch at parity, move to Pass.

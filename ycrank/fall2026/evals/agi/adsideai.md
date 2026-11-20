@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Adside could make ongoing cross-channel paid ads economical for startups that previously went without them because they lacked the staff or budget to run them. The manual workflow requires tracking setup, campaign configuration, creative resizing, and reporting across platforms. Adside describes agents that draft campaigns, adapt creative, and monitor performance, with users confirming proposed changes through the connector. The founders previously built and sold Botdog, and Adside’s published Framer plugin shows that the team has shipped part of the tracking workflow. (The Idea; Founders & Team; Market & Traction)
+New Economies is the strongest path. Adside says its agents draft campaigns, adapt creative, and monitor performance across ad platforms, with customer confirmation for changes made through the agent connector. The former delivery cost includes staff or agency time for tracking setup, creative adaptation, campaign management, and reporting. The market-opening hypothesis is that small teams previously priced out of ongoing multi-channel management could run campaigns if automation cuts that labor enough. Under model parity, Adside’s best reason for buyers to keep paying is that its cross-channel workflow uses their campaign history and preferences. The value of that history under comparable alternatives remains untested. (The Idea, Defensibility)
 
-The expansion unit is one paying brand. Published self-serve fees are $990 per month or the equivalent of $490 per month with annual prepayment. Adside reported 30 companies live at launch, with their prior ad activity, payment, and repeat use unverified. The scenario assumes that automating setup, creative adaptation, and monitoring cuts the full cost of producing a campaign that meets the buyer’s acquisition target. That comparison needs to include buyer and Adside labor for approvals, retries, tracking fixes, compliance, and exception handling, as well as tooling and media spend. Realized revenue and delivery costs per brand remain unknown. (The Idea; Market & Traction; Key Facts; Key Risks)
+One expansion unit is one brand-month. In a scenario where media spend and performance targets are comparable, measure buyer cost per qualified acquisition using the service fee and remaining staff time, against the former staff or agency cost. Adside lists self-serve at $990 per brand-month or $490 per month with annual prepayment. Its contribution per brand-month depends on inference, creative delivery, support, and human exceptions. Managed service starts at $2,500 per month, making operator time a separate cost to measure. The memo gives prices while labor savings, acquisition outcomes, and delivery costs remain unmeasured. (The Idea)
+
+Adside reports 30 companies live at launch. Their payment, renewal, and prior ability to afford multi-channel management are unclear. The published Framer plugin and the founders’ prior delivery together at Botdog support seed-stage execution. Live campaign reliability and exception handling still need field evidence. (Market & Traction, Key Facts, Founders & Team, Key Risks)
 
 ### Countercase
 
-Adside may mainly save time for companies already running ads. Under model parity, account-specific history and consolidated workflows could give buyers a reason to stay if they improve results or reduce oversight. Google and Meta already offer direct agent access or native campaign tools, and Adside relies on delegated platform permissions. The memo leaves both the market opening and buyer preference under functional parity untested. That keeps the action at Watch. (Defensibility; Key Risks)
+Adside may make an existing ad-operations workflow cheaper for buyers already running campaigns. Google’s connector and Meta’s direct agent access lower integration barriers, while competing products already offer cross-platform execution. Both platforms control the delegated access Adside relies on. Account personalization offers a plausible reason to stay, but the memo documents neither buyer preference under functional parity nor a network effect. These risks leave market opening and durable value capture unproven. Direct evidence of easy multi-channel substitution is absent, so the New Economies path stays open on Watch. The memo identifies no independently supported scarce complement. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 7/20 |
+| Team and execution | 10/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-In a paid trial with independent startups that previously skipped cross-channel ads because of staffing or cost, can Adside meet a preset acquisition target at a lower full cost than the manual workflow and earn paid renewals after buyers try a functionally equivalent alternative? A representative trial that demonstrates both at viable delivery margins would move the action to Reach out. A trial showing that oversight erases the savings or that buyers readily switch while preserving the outcome would close Path B and move the action to Pass.
+Will independent small teams previously priced out of multi-channel ad management renew at Adside’s listed price after testing an alternative with comparable model capabilities and channel coverage? Move to Reach out if a paid cohort chooses Adside at renewal, shows lower all-in cost per qualified acquisition against a priced manual baseline at comparable spend and quality, and yields positive contribution after inference, creative delivery, support, and exception handling. Move to Pass if the test shows the labor savings are too small to serve those buyers or that they readily switch at functional parity. An inconclusive result keeps Watch.

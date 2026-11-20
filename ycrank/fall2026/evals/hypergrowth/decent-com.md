@@ -1,30 +1,32 @@
 ﻿# Decent -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Channel-led or repeatable sales** is the strongest path. Decent offers U.S. small employers self-serve quotes, referrals, and founder consultations. The employer’s recurring job is to control health-plan costs during the year and at renewal. Decent earns commissions from providers when it places coverage. If employers can move from a quote to live coverage through a standard workflow, and administrators supply usable claims reports, Decent could serve more accounts while reusing its quoting and review process. (The Idea; Key Risks)
+Decent’s strongest path is to bring U.S. small employers in through online quotes and referrals, then earn provider commissions by placing coverage and helping employers manage costs through renewal. The memo documents self-serve quotes for standard plans and ICHRAs, renewal reminders, and referral payments triggered by a written quote. Those steps are repeatable. The memo leaves it unclear how often employers can bind coverage and begin service without founder or advisor help. (*The Idea*)
 
-Named customers report concrete savings. Locate reported more than $100,000 against its renewal quote, and Reflex Careers reported paying 10% less than the prior year after receiving a proposed 15% increase. Decent separately reports that a one-time surgery accounting for 46% of a client’s claims spend was excluded from the following year’s rates. These accounts support initial buyer fit and show how claims review can affect renewal pricing. The memo gives no account-level evidence of repeat paid use or expansion. (Market & Traction; Key Facts)
+In-year bill and claims review gives employers a reason to stay through renewal. Decent reports that one client had a one-time surgery excluded from its next year’s rates, and Reflex Careers reports paying 10% less than the prior year after a proposed 15% increase. These outcomes support the value of the recurring job. Commission cadence, renewal retention, and a mechanism for earning more from the same employer remain unverified. (*Market & Traction*, *The Idea*)
+
+The two-person team reported 67 companies working with Decent at its October launch, shortly after announcing the new brokerage in September. That signals early engagement. The memo leaves paid placements, realized commissions, and commercial growth over time unverified, so initial traction takes the absent-evidence default. Decent also reports that AI handles 89% of brokerage work, which suggests a lever for reducing service labor. Incremental contribution depends on commissions per placement after quote-triggered referral payouts, including referrals that never convert, and the costs of enrollment, claims review, and support. The reported automation share leaves those costs unmeasured. (*Key Facts*, *Key Risks*, *The Idea*, *Market & Traction*)
 
 ### Countercase
 
-Decent may have a scalable quote tool attached to a high-touch brokerage. Its referral program pays for written quotes, and the founder-reported 67 companies “working with Decent” gives no count of commission-paying accounts or evidence of a repeatable handoff. The founder-reported 89% AI share of brokerage work gives no measure of staff time, referral costs, or contribution per account. The first link likely to break is the handoff from quote to live coverage and claims review, where founder effort and administrator-specific data access could limit throughput. The workflow as described is tied to U.S. coverage arrangements, and the memo gives no evidence of portability to another country. The structural downside gate remains untriggered because repeatable delivery is still a testable possibility. (The Idea; Market & Traction; Key Risks; Key Facts)
+Even with strong fit among U.S. employers, the current brokerage depends on U.S. coverage structures, local providers that pay commissions, and claims reports that carriers or administrators choose to share. The quote interface and AI review could be reusable, but I infer that placing coverage and delivering in-year review in a materially different market would require substantial rebuilding of the plan catalog, provider arrangements, and claims-data workflows. That triggers the structural downside gate. Confidence is Medium because the memo identifies the dependencies directly while the extent of the rebuild remains inferred. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 8/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 8/10 |
+| Global buyer demand | 5/25 |
+| Repeatable acquisition and onboarding | 11/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder take several independent small employers from a self-serve or referred quote through commission-paying go-live and a first in-year claims review using the same workflow across administrators? Account records showing a repeatable handoff and positive contribution after referral and staff costs would move Decent to **Reach out**.
+Can Decent earn commissions from a cohort of comparable small employers in a materially different non-U.S. market and deliver in-year claims review using the existing product with bounded changes? Documented placements, commission receipts, and completed claims reviews with a record of the adaptation required would answer it. A successful rollout would clear the portability gate and move the action to Watch.

@@ -5,32 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A wearable or device platform could buy Subvocal’s contactless RF sensing hardware, decoder, and labeled training data to add silent dictation. The memo records a prototype demonstration and Apple’s acquisition of Q.ai, an adjacent purchase involving facial micromovement sensing. The case for ownership is that acquiring the integrated hardware, model, and data could shorten development and give the buyer control over future calibration work. That benefit is inferred and has yet to be measured. The memo gives no operating cash-flow basis for a sponsor buyout or company-funded payout, no evidence of demand for eligible secondary shares, and no basis for underwriting IPO scale or resale. (The Idea, Defensibility, Market & Traction, Key Facts)
+The strongest path is a strategic acquisition by a wearables platform. The memo records Apple’s acquisition of Q.ai, an adjacent transaction involving silent input. Subvocal’s custom contactless RF hardware and labeled training data could give a buyer a way to add silent dictation while saving the time needed to reproduce the sensing and training work. That build-versus-buy benefit is an inference. Its value to a buyer remains unmeasured. (The Idea, Defensibility)
 
-The operating milestone is a production pilot that measures recognition accuracy and calibration time across new wearers, sessions, and production units, and tracks repeat use. The company reported 85–92% showcase accuracy, about 750 refundable preorders, and $1.3 million raised. Those signals support pursuing a pilot. Production changes can alter the RF signal, and the memo leaves pilot cost, burn, and remaining runway unknown. The founders built the hardware and collected training data from paid participants, but the memo leaves IP assignment and data transfer rights unverified. (Defensibility, Market & Traction, Key Risks)
+The seed-stage milestone is a trial showing repeatable recognition on production units across new wearers, sessions, and devices. The company reported 85–92% showcase accuracy and $1.3 million raised, which support a plausible trial. The trial budget and runway are unknown, and changes to production hardware can alter the signal the model relies on. (Market & Traction, Key Risks)
 
-With investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target is $2.5 million in gross cash within eight years. On a simple pro rata basis before investor taxes, that requires $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% hurdle is $88.3 million in enterprise value. The memo supplies no acquisition price or buyer economics to support that hurdle and no company-specific debt, fees, or senior claims to quantify. (Defensibility, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3% with no follow-ons, and a $2.5 million gross cash objective within eight years. At 3%, the holder needs about $83.3 million in distributable equity value. The sale cases below assume a full cash acquisition within eight years, holder eligibility, and a pro rata waterfall with no senior claims. The prices are scenario assumptions. (Defensibility, Market & Traction)
 
-- **Modest sale.** A $25 million enterprise-value sale in year eight yields $600,000 gross, or 1.2×, after the assumed $5 million of net debt.
-- **Strong sale.** A $100 million enterprise-value sale in year eight yields $2.85 million gross, or 5.7×, at 3% ownership after the same debt. At 2% ownership it yields $1.9 million, or 3.8×.
-- **Prolonged private operation.** If adoption plateaus after launch, buyers stay away, public scale remains out of reach, and available cash goes back into hardware and model development, the holder realizes $0 in eight years and retains the shares. In a wind-down, common holders would receive only any residual after obligations and preferences. The memo does not establish that residual. (The Idea, Market & Traction, Key Risks)
+| Scenario | Proceeds bridge |
+|-----------|-----------------|
+| Modest sale | $50 million enterprise value with no debt or deal deductions leaves $50 million distributable. The holder receives $1.5 million cash, or 3.0×. |
+| Strong sale | $100 million enterprise value less $10 million in assumed debt and deal adjustments leaves $90 million distributable. The holder receives $2.7 million cash, or 5.4×. At 2.5% ownership, that falls to $2.25 million, or 4.5×. |
+| Prolonged private | Continued operations with reinvested cash and no eligible sale or funded payout yield $0 realized cash within eight years. |
+
+The memo supplies no acquisition price range, transfer or participation terms, or independent route to holder liquidity. Those dimensions receive their absent-evidence defaults. (Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Apple’s purchase of Q.ai also gives it a potential internal route to overlapping input. If Subvocal’s RF approach offers little improvement on production hardware, a platform could build from an existing capability or license the technology. Showcase accuracy and refundable preorders leave that comparison open. The memo establishes neither a structural closing barrier nor a supported price range that leaves the holder materially short. The Pass gate therefore stays open, and the absence of buyer economics supports Watch. (Defensibility, Market & Traction, Key Risks)
+Apple’s ownership of Q.ai may give it an internal route to similar functionality, reducing the value of buying Subvocal. The roughly 750 company-reported preorders were backed by refundable deposits, leaving conversion and sustained use uncertain. Together, these facts weaken the case for a price that clears the hurdle. The memo leaves both the adequacy of Q.ai as a substitute and the strongest credible sale price unresolved, so neither Pass gate is triggered. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-After a production pilot demonstrates repeatable recognition and sustained use by new wearers, what would a wearable platform pay to own Subvocal’s RF stack? A buyer’s quantified comparison of acquisition, internal development, and licensing would move the action to Reach out if it supports a price that clears the holder’s cash target under plausible dilution.
+What acquisition price could a wearables platform justify for Subvocal’s RF stack after seeing repeatable recognition on production units with new wearers? A buyer-informed build-versus-buy assessment supporting a price that leaves at least $83.3 million distributable under the benchmark would move the action to Reach out. A supported ceiling materially below that hurdle on the strongest route would move it to Pass.

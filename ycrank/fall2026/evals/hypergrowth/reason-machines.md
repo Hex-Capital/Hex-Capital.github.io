@@ -1,30 +1,32 @@
 ﻿# Reason Machines -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Reach out  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Product-led adoption is the strongest path. Reason targets software teams that repeatedly turn repository issues and alerts into pull requests. Its web and Slack onboarding give engineers a self-serve way to try that workflow. If the first run saves enough time or inference spend, teams could pay for more seats or credits as they route more work through Reason. The repository workflow appears portable across markets, although the memo leaves buyer geography and cloud code-handling approvals open. (The Idea, Key Risks)
+Conditional on strong product-market fit, the strongest path is bottom-up adoption by software teams that repeatedly delegate repository work. At launch, developers could find Reason through channels such as Product Hunt and start a Pro trial through the web app or Slack. The product turns issues, schedules, and Slack alerts into pull requests and preserves state across local and cloud runs. That workflow should transfer across markets wherever teams can use the same repository integrations and providers. The memo documents trial access and published pricing. Independent checkout and production setup for a typical team remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The memo records 118 Product Hunt upvotes, an observed discovery signal. Reason claims 20,000 users in four weeks, and a customer testimonial quoted by the company describes a run that produced nine issues with reproduction steps, screenshots, and fixes. That gives one concrete example of first value. The first unresolved link is whether engineers who discover Reason can reach that value through standard onboarding and then pay to use it on recurring work. The memo provides no account-level evidence connecting those steps. (Market & Traction, Key Facts)
+Recurring repository work gives teams a reason to renew. Pro at $50 and Max at $200 per person per month, plus top-ups starting at $20, give existing accounts ways to spend more as seats and workloads grow. Expansion could offset churn if teams make Reason part of their regular workflow. The memo provides no evidence of renewals or same-account spending. The two-person team reported 20,000 users in four weeks. Realized revenue, paying-customer growth, and pre-revenue status are all unknown, so initial traction receives the absent-evidence default. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Facts)
+
+For a self-serve team, incremental contribution starts with seat and top-up revenue after credits, minus model inference and cloud compute paid by Reason and any attributable acquisition, onboarding, and support costs. Batching tool calls and reusing cached prompts offer a concrete lever. Reason reports 22% lower model cost per solved benchmark task than Codex on the same model. If those savings carry over to production runs that end in merged pull requests, and heavier teams buy top-ups or upgrade, contribution could improve as usage grows. The costs of realistic workloads within the included allowances remain uncertain. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Countercase
 
-Launch attention, the Pro trial, and $1,000 in credits for YC companies could drive experimentation that fades once teams pay out of pocket. Reason reports 22% lower cost per solved task than Codex on the same model, a partial measure of inference efficiency. The benchmark leaves open the cost per merged pull request and Reason’s contribution after cloud and support costs. These gaps support Watch. The memo documents neither a pattern of failed conversion nor a structural constraint that blocks the path. (The Idea, Defensibility, Key Risks, Key Facts)
+Launch attention and promotional credits may bring in teams that leave when they have to pay. Teams that stay could use most of their included AI and cloud allowances while generating little top-up revenue. The fixed-task benchmark leaves open what Reason pays for retries and cloud runtime on real repository jobs, and connected subscriptions expose the workflow to provider quota or policy changes. These risks keep confidence at Medium. The structural downside gate clears because the memo documents a reusable workflow and specific cost levers, with no evidence that market-specific rebuilding or structurally uneconomic delivery is required. (The Idea, Market & Traction, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 8/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 16/20 |
+| Initial traction | 7/20 |
+| Cost economics | 6/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 67/100** (Invest)
 
 ### Decisive diligence question
 
-Do several independent engineering teams from the same launch cohort self-serve to a first useful pull request, then pay and keep running repository tasks after any trial or promotional credits expire? Account-level onboarding, billing, and usage records showing that sequence over several normal work cycles would move the action to Reach out.
+Can a representative cohort of teams go from self-serve trial to repeat paid repository work at positive contribution after trial or promotional credits expire? Cohort activation records, invoices, and attributable inference, cloud, onboarding, and support costs would answer it. Repeat paid use at positive contribution would support Reach out. If teams need continued credits or hands-on help to sustain usage, move to Watch while a credible fix remains plausible.

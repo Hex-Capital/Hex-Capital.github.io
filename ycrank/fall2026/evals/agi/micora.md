@@ -5,26 +5,28 @@
 
 ### Company case
 
-Path A — Scarce complements. Micora’s strongest case is control of the field capability to deliver reliable power quickly at grid-constrained industrial sites. The memo describes operators relying on diesel deliveries or conventional solar construction that requires permits and specialized crews. **Scenario assumption:** If cheap frontier intelligence accelerates hardware R&D or manufacturing projects at such sites, operators may pay to bring reliable power online sooner. The memo documents a purchase and lease offering that includes design through commissioning. Micora claims most setups reach available power in under three weeks from confirmed order, subject to site review. It also reports Pacific island and manufacturing deployments underway. Those reports give limited demand evidence because buyer commitments, payment, and measured time to reliable power are unverified. (The Idea, Market & Traction, Key Risks)
+Micora’s strongest path is New Economies through lower installation labor. Conventional solar at remote industrial sites requires specialized crews, while diesel requires recurring deliveries. Micora offers relocatable solar blocks and containerized batteries and proposes using drone surveys and autonomous forklifts to place the blocks. It claims most setups reach available power within three weeks of a confirmed order, subject to site review. The memo gives no comparative crew hours or cost per reliable kWh. A plausible newly served use is a short-duration remote industrial project that would otherwise be deferred because conventional installation takes too long or diesel is too costly. No such project is established in the memo. (The Idea, Key Risks)
 
-The LAKI co-design identifies a possible advantage in integrating specialized forks with field-autonomy software. The memo establishes no enforceable rights or demonstrated field advantage from that work. Akemoto’s shipped hardware and autonomy experience and Choo’s robot manufacturing and solar-storage work support seed-stage execution. The expansion unit is one commissioned site. Faster placement and redeployment could lower crew costs and improve asset utilization, but lease economics depend on equipment capital, transport, commissioning, backup needs, and utilization between sites. The memo gives no realized site-level cost or contribution figures. (Defensibility, Founders & Team, The Idea, Key Risks, Key Facts)
+The LAKI co-development is evidence of work on specialized forks and field autonomy. Under model parity, buyers could still pay Micora for reliable commissioning and redeployment across difficult sites, but the memo does not establish control over that field execution or show buyer preference against a comparable system. A scarce-complement case would require evidence that AI demand increases the value of a power bottleneck Micora controls. The memo describes general industrial power constraints. (Defensibility, The Idea)
+
+Micora reports deployments underway at Pacific island and manufacturing sites. Payment, commissioning, and repeat orders are unconfirmed. The founders’ prior delivery in robotics, hardware, and solar storage supports execution credit, with representative field performance still open. Each site is a potential sale or lease. For leases, redeployment could spread equipment costs across sites if utilization is high enough to cover capital, freight, commissioning, backup power, and idle time. The memo provides terms for purchase and leases but no realized site economics. (Market & Traction, Founders & Team, The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-A buyer may get reliable power on a comparable schedule from a prefabricated microgrid or a fold-out array with storage. Standard rack batteries are available to integrators, and other teams have demonstrated robotic solar installation. Terrain, weather, and backup requirements could also erode Micora’s placement advantage by the time dependable power is available. These are credible substitutes and failure modes. The memo gives no same-site comparison that establishes equivalence, so the scarcity and control gates remain open. (Defensibility, Market & Traction, Key Risks)
+Micora may serve existing microgrid buyers with a faster installation method. Prefabricated alternatives already exist, the batteries are standard, and other teams have automated solar installation. Terrain, weather, and backup requirements could erode labor savings or lift the cost per reliable kWh above a buyer’s threshold. That leaves both market opening and durable value capture unproven. The memo does not show comparable substitution at Micora’s target sites, so the evidence supports Watch while a field test remains available. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 8/15 |
+| Customer demand | 7/20 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can Micora win a paid deployment from an independent buyer whose AI-related industrial project is waiting on power by beating its best available alternative on time to reliable power? Reach out if the buyer verifies that the time advantage comes from field execution Micora controls and pays a price that covers full site delivery costs. If the alternative matches Micora on schedule, reliability, and delivered cost, pass on this path.
+Can Micora profitably commission a paid deployment for an independent buyer whose project would otherwise have been deferred? Move to **Reach out** if buyer records confirm that the prior options made the project uneconomic and that the buyer chose Micora for field execution over a functionally comparable alternative, while site logs show lower crew hours and cost per reliable kWh with positive contribution after equipment, freight, commissioning, and backup. Stay at **Watch** if the comparison remains incomplete. Move to **Pass** if representative evidence shows the savings only shift existing buyers among interchangeable suppliers.

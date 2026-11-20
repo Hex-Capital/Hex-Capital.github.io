@@ -5,26 +5,26 @@
 
 ### Company case
 
-Product-led adoption is Versine’s strongest path. The likely first users are consumers who already ask assistants to split bills or repay friends. Versine describes a flow in which the assistant initiates a transfer, the sender approves it with a passkey or standing rule, and the recipient can claim the money to a bank account. Each claim link could introduce a new sender. The recurring job plausibly travels across markets, but serving a second market would depend on Bridge’s identity verification and bank payout coverage there. The memo reports no second-market rollout. (The Idea, Defensibility, Key Risks)
+Assuming strong fit with consumers who regularly split bills or repay friends, Versine’s strongest growth path is through recipient claim links. Versine describes a flow in which senders connect an assistant via MCP, approve transfers with a passkey or standing rule, and send bank claim links that recipients can use without a Versine account. App listings provide a discovery route, and each claim link could introduce another potential sender. The recurring job and standard assistant interface plausibly travel across markets, while Bridge’s identity verification and payout coverage determine where the full flow can work. The memo leaves independent completion of that flow and conversion from recipient to sender unverified. (The Idea, Defensibility, Key Risks)
 
-The memo records 182 Product Hunt upvotes and 5+ Android downloads shortly after launch. These observations establish discovery. The first unproven link is whether people arriving through the launch or a claim link independently complete an unsubsidized transfer. The memo records no such activation, buyer commitment, or repeat use. At this launch stage, a small cohort observed through its next bill split or repayment would be enough to test the mechanism. (The Idea, Market & Traction)
+Standing rules and saved contacts could encourage repeat use. The posted $1 instant payout fee gives existing users a way to spend more if they choose it more often, while free standard payouts make that expansion uncertain. The three-person team’s November payments launch drew 182 Product Hunt upvotes and showed 5+ Android downloads. Those observations establish early attention. Realized payments revenue, paid usage, and commercial growth remain unknown. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-The $100 launch credit could drive trial transfers that disappear when the incentive ends. Claim links let recipients collect without opening an account, and free standard payouts let repeat users avoid the $1 instant payout fee. Even if link sharing generates repeat transfers, paid conversion could be sparse. The memo gives no basis for comparing fee revenue with the incremental costs of verification, payouts, and support. The structural downside gate does not apply because the evidence leaves these links unresolved and testable. (The Idea, Key Facts, Key Risks)
+Versine could grow transfer volume while earning too little from instant payouts to cover the cost of serving it. At the posted price, average revenue per payout from the instant fee would be $1 times the share choosing instant delivery. If verification costs are incurred once per account, repeat payouts could spread that cost, but payout costs, support, and any redeemed launch credits still need to be covered. The memo gives no basis to estimate those amounts or the paid payout share. Bridge dependency also leaves geographic access uncertain. The structural gate stays open because the memo establishes neither substantial rebuilding by market nor unavoidable negative contribution. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Do recipients who discover Versine through an unsubsidized claim link become repeat senders who sometimes pay for instant payout? Transaction records showing several independent recipients complete a first transfer without founder help, return at their next natural payment occasion, and generate some $1 payout fees would move the action to Reach out. If comparable cohorts consistently stop after the initial claim despite having another payment occasion, move to Pass.
+Can a cohort acquired through recipient claim links in a second market use the existing verification and payout flow independently, then generate growing, repeat instant-payout revenue at positive incremental contribution after launch credits end? A dated cohort record showing those results could move the action to Reach out if the evidence lifts the score to at least 65 and confidence to Medium or High. Evidence that entry requires substantial bespoke rebuilding or that each additional cohort remains structurally uneconomic would move the action to Pass.

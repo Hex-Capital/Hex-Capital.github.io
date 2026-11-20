@@ -5,28 +5,28 @@
 
 ### Company case
 
-Path A, Scarce complements, is the strongest fit. If frontier-quality coding agents become cheap and generate changes faster than teams can validate them, predictable time to a passing CI result becomes more valuable. Engineering teams bear the cost through delayed iterations and repeated runs. GitHub reported 3.26 billion Actions runs in September 2026, more than four times the prior-year month, and attributed rising infrastructure demand to coding agents. Graphide reported that 19 of 24 benchmark jobs ran at least 10× faster than their GitHub baselines. That comparison supports a job-level speedup. Whether it relieves a binding production bottleneck remains open. *(The Idea; Market & Traction; Key Risks)*
+The strongest path is **scarce complements**. Coding agents can generate changes faster than engineering teams can validate them, increasing the value of low-latency CI. GitHub reported more than fourfold year-over-year growth in Actions runs and attributed rising infrastructure demand to coding agents. Graphide reports that 19 of 24 benchmark jobs ran at least 10× faster than their GitHub baselines. The result supports the mechanism, with limited applicability to production. Ten jobs were hand-tuned on 64- or 128-vCPU runners, while customer runners topped out at 32 vCPUs. (Market & Traction, Key Risks)
 
-Graphide reports operating its own runners and maintaining a shared optimization library. The potential advantage is that tuning learned on one repository could reduce the work needed to deliver reliable speedups on the next. The memo leaves that reuse unmeasured. Graphide also reports that unnamed teams switched, giving a weak demand signal while leaving payment and repeat use unknown. The team shipped GitHub App onboarding and full-suite CI, building on prior VM orchestration and Linux experience. *(Defensibility; Market & Traction; The Idea; Key Risks; Founders & Team)*
+Graphide reports operating its own runners and maintaining a shared optimization library. That gives it control over service delivery and a plausible way to reuse tuning across repositories. Unnamed teams reportedly switched to Graphide CI, an early adoption signal. Paid renewals and buyer preference against comparable runners remain unverified. McGee’s prior VM orchestration work and the team’s shipped CI service support seed-stage execution. (Defensibility, Market & Traction, Founders & Team)
 
-The expansion unit is a repository on a fixed monthly CI quote. Contribution depends on whether that quote covers active and idle runner capacity, retries, tuning, and support under bursty demand. The memo supplies pricing terms while leaving realized utilization and delivery costs unknown. *(The Idea; Key Facts)*
+The expansion unit is a paid organization-month. Under fixed monthly pricing, contribution depends on the quote covering compute, idle prewarmed capacity, tuning, and migration and support labor as job volume grows. Production cost per successfully validated change remains unmeasured in the memo. The New Economies path would also require evidence that lower labor cost per validated change enables a previously uneconomic use and that buyers still pay Graphide under model parity. (The Idea, Key Risks)
 
 ### Countercase
 
-Faster CI may be available from interchangeable suppliers. Blacksmith already offers drop-in runners for bursty demand, Depot offers custom runner images, and GitHub has cut its native runner prices. Graphide’s benchmark included 10 hand-tuned jobs on 64- or 128-vCPU machines, while customer runners topped out at 32 vCPUs. The benchmark leaves production performance against credible alternatives unresolved. At seed, that gap warrants Watch. A representative comparison showing a substitute can meet the same validation requirements on comparable terms would close Path A. *(Market & Traction; Defensibility; Key Risks)*
+Graphide may offer faster execution in an existing CI market where buyers can readily switch among providers. Blacksmith and Depot already operate runner infrastructure that could support similar tuning, GitHub has cut hosted-runner prices, and Graphide still depends on GitHub Actions. The reported speed advantage could shrink on customer hardware against those alternatives. Comparable production performance and easy buyer substitution would close the scarce-complement path. The memo establishes credible alternatives while leaving parity and switching behavior untested, so the action is Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 9/25 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 7/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent, CI-constrained team renew at a price that gives Graphide positive contribution after comparing it with a credible runner alternative on its own repositories? Run both on customer-available configurations under representative load, with the same full test suite and a buyer-defined time-to-passing target. A paid renewal after Graphide alone meets that target would move the action to Reach out. If the alternative matches the outcome on comparable terms, Pass.
+Will independent teams with heavy coding-agent CI usage renew at a price that gives Graphide positive contribution after comparing it with their best viable runner alternative? A paid production cohort would answer this by running equivalent full test suites on customer-tier hardware and measuring time and fully loaded cost per successfully validated change. Move to Reach out if teams renew for a material, repeatable advantage traceable to Graphide’s tuning and runner operations. Move to Pass if alternatives match the outcome and buyers switch readily.

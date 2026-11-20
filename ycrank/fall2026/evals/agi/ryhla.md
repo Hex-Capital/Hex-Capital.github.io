@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Developers of 1–50 MW projects can pay application fees and wait months for a utility study before learning whether a feeder can serve the project or requires costly upgrades. Ryhla screens feeders and manages filings, giving developers a chance to redirect projects before committing that time and money. If AI-related load grows on the feeders Ryhla covers, reliable early screening could become more valuable. Demand from AI-related projects remains a scenario assumption. (*The Idea*, *Market & Traction*)
+The strongest path is a scarce complement to AI deployment. Ryhla could make it easier for small AI data center developers to find distribution feeders with usable capacity before paying for a utility study. That path depends on AI demand increasing the value of accurate feeder intelligence and on Ryhla retaining access to the data that makes its screens more useful than available alternatives. The memo establishes neither condition. It does describe a field signal. Ryhla reports that utilities approved 91% of sites its models flagged as viable in its 2025 distribution cohort. The missing sample size and outcomes for screened-out sites limit what that figure says about the quality of the screening decision. (The Idea, Market & Traction, Key Risks)
 
-Ryhla reports about $160,000 in avoided fees after screening out eight of ten planned battery projects. It also reports utility approval for 91% of the sites it flagged as viable in its 2025 cohort. The fee savings indicate where screening could pay off. The approval figure has an undisclosed sample size and leaves open how often Ryhla screens out viable projects. A reported live deployment with a Midwest solar developer signals early use. Payment and repeat use remain unverified. (*Market & Traction*, *Key Risks*, *Key Facts*)
+Ryhla says it trains on proprietary feeder data and backtests against utility studies. Continued access to study outcomes could improve territory-specific predictions, but the memo gives no evidence of durable access rights or a measured advantage over alternatives. Ryhla reports a live solar developer deployment and about $160,000 in avoided application fees after screening out eight of ten planned battery projects. Those claims indicate real use and a costly problem. Payment, repeat orders, and demand from AI data center developers remain unverified. (Defensibility, Market & Traction, Key Facts)
 
-Both founders researched grid modeling, and they report deploying their models with utilities before serving developers. Ryhla claims proprietary training data and backtesting against utility studies. Continued access to utility outcomes could improve calibration, but the memo establishes neither enforceable data access nor an accuracy advantage that improves with deployment. Ryhla reports live models across 11 utility territories. Each additional territory may require new feeder data and validation, and the cost of that work, the labor required per filing, and realized pricing are undisclosed. (*Founders & Team*, *Defensibility*, *Market & Traction*, *Key Risks*, *Key Facts*)
+Both founders have grid-modeling research experience and report deploying models with utilities before serving developers. That supports early execution. Ryhla lists live models in 11 utility territories, making a new territory a plausible unit of expansion. The cost of acquiring feeder data, backtesting models, and handling filings, along with the revenue needed per territory, remains unknown. (Founders & Team, Market & Traction, Key Risks)
 
 ### Countercase
 
-Utilities control approvals and upgrade requirements. Where public hosting-capacity maps are adequate, developers may be able to screen sites themselves. Paces offers grid studies, and envelio already automates technical reviews on the utility side. Ryhla could save developers money on individual projects while offering a service that buyers can readily replace. The memo documents credible substitutes for parts of the workflow and leaves their comparative performance unresolved. Durable control is therefore unproven, which keeps the action at Watch. (*The Idea*, *Defensibility*, *Key Risks*)
+Public hosting-capacity maps can cover initial screening where coverage is adequate, and existing vendors offer overlapping grid studies or automated reviews. Utilities retain authority over approvals and upgrade requirements, so Ryhla cannot claim control of grid access itself. The memo contains no head-to-head results or evidence of buyers switching away from Ryhla. The narrower feeder-intelligence path remains testable. The New Economies path lacks evidence of lower labor cost per successful connection or a buyer newly served because of that change. The reported savings concern application fees in an existing workflow. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 9/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Path-specific thesis fit | 13/25 |
+| Durable value capture | 9/25 |
+| Customer demand | 8/20 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
 **Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent developer place a paid repeat order for an AI-linked project in a constrained utility territory after a head-to-head trial against its best available screening and filing workflow? Move to Reach out if utility-verified outcomes across viable and rejected sites show that Ryhla meaningfully reduces wasted fees or time, and the developer renews because Ryhla can reliably access the data or execute the work that produced the advantage. Comparable results from the substitute would close the current Path A case and change the action to Pass.
+Will independent small AI data center developers pay for Ryhla again after seeing its screening results benchmarked against their best available alternative? Move to Reach out if a paid cohort places repeat orders after utility studies validate a meaningful improvement in site selection, including an audit of screened-out sites, and Ryhla can show continued access to the feeder data behind that advantage. Move to Pass if comparable alternatives match Ryhla’s results and buyers readily switch.

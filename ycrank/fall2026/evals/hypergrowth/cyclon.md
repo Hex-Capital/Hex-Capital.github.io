@@ -5,26 +5,30 @@
 
 ### Company case
 
-Product-led adoption is Cyclon’s strongest plausible path. The likely first buyers are smartphone users who frequently complete tasks across several apps and would switch handsets to automate them. Cyclon describes an Android agent that can find a document, change its permissions, and send it through a messaging app from a single request. That recurring job plausibly travels wherever the relevant apps and permissions work. App certification and identity checks limit which workflows and buyers Cyclon can serve, and delivery of its custom handset depends on FCC authorization. (The Idea, Key Risks)
+Cyclon’s strongest path is direct handset sales to consumers who regularly switch between apps to get things done. Assuming strong product-market fit, the same Android-based interface could serve that workflow across markets where buyers can use the handset and their usual apps. Cyclon says its OS can act across signed-in apps and notifications, run tasks in the background, and generate apps. The refurbished Pixel 8a beta gives it a way to test that workflow before shipping a custom handset. App certification and handset availability constrain how far the current product can travel. (The Idea, Key Risks)
 
-The memo records 1.5 million launch-post views and a direct preorder route. Cyclon offers a refundable $199 reservation toward an estimated $699 handset and describes a closed beta on refurbished Pixel 8a devices. Even if the product proves valuable to its first buyers, the first unproven growth link is whether people arriving through the website will complete payment, switch phones, and reach first value through standard onboarding. The memo provides no usable buyer records of activation, repeat use, or concrete commitment. It also gives no marginal cost measurements for devices, fulfillment, support, or cloud AI, which Cyclon includes during the beta. (The Idea, Market & Traction, Key Facts)
+The memo records an online preorder flow and reports 1.5 million launch-post views by November 4. Buyers can reserve online with a refundable $199 deposit toward an estimated $699 price. Checkout for the balance, independent activation, and paid delivery remain unverified. The memo gives neither reservation counts nor realized sales, so the launch measures attention and leaves the commercial growth rate unknown. (The Idea, Market & Traction, Key Facts)
+
+Saved preferences, rules, and generated apps could give buyers a reason to keep using the phone. The documented business model earns revenue on the handset, with AI usage included during the closed beta and no required beta subscription. The memo gives no concrete mechanism for retained users to generate recurring revenue or spend more. (The Idea, Defensibility)
+
+At the estimated $699 selling price, contribution on a fulfilled order would be $699 less handset procurement or manufacturing, fulfillment and returns, attributable acquisition and support, and cloud AI usage over the included service period. This scenario assumes the handset sells at the estimated price. The memo leaves those costs and post-beta AI terms unknown, so positive contribution at scale remains unverified. (The Idea, Key Risks)
 
 ### Countercase
 
-Google already automates supported tasks on existing Android phones. Cyclon asks buyers to switch devices for broader automation, while work, banking, and payment apps can fail or limit what its agent can do. If those restrictions interrupt the routines that justify switching, a widely shared need could still yield weak conversion and repeat use. The structural downside gate stays open because the memo documents compatibility risks without showing that they block the target segment or force delivery costs to rise in proportion to sales. (Market & Traction, Key Risks)
+The handset could limit both reach and growth. The custom device depends on FCC authorization, and Cyclon gives conflicting delivery estimates. Banking, payment, and work apps that require a Google-certified device may fail or limit automation, weakening the reason to switch. If heavy AI use continues after the handset sale without additional revenue, engaged users could cost more to serve without adding revenue. The structural downside gate remains open because the memo establishes neither substantial market-by-market rebuilding nor unavoidable negative contribution. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 13/25 |
+| Retention economics | 3/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
 **Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can the first cohort of independent buyers acquired through Cyclon’s website complete a full-price purchase, finish a recurring cross-app task through standard setup without founder help, and continue using that workflow over several weeks? Documented results across that cohort would move Cyclon to Reach out by showing that launch interest can convert into paid, recurring use.
+Can Cyclon repeat a paid handset rollout in a second market using substantially the same product, with buyers activating independently and each fulfilled order earning positive contribution? Cohort records showing steep growth in fulfilled orders across comparable periods, self-guided activation, and positive contribution after observed support and projected AI costs would move the action to Reach out. If the rollout exposes substantial bespoke rebuilding or unavoidable negative contribution with no credible improvement lever, move to Pass.

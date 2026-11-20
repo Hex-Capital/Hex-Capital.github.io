@@ -5,36 +5,32 @@
 
 ### Company case
 
-**Strategic acquisition by a commercial insurance broker** is the strongest path. The memo documents a public tracker covering 736 AI-exclusion filings and describes a placement map for finding carriers willing to cover AI risks. A buyer could pay for a transferable book of robotics and autonomy clients if the renewal commissions and faster access to those clients justify owning the brokerage. That buyer benefit is inferred. The memo supplies no measured benefit or acquisition interest. (Defensibility, The Idea)
+The strongest path is a strategic cash acquisition by a commercial insurance brokerage. Risklytics has built a public tracker covering 736 AI-exclusion filings and a placement map identifying carriers willing to remove exclusions or affirmatively cover AI. A buyer could use the placement workflow to win hard-to-place robotics and autonomy accounts and earn renewal commissions. That buyer benefit is an inference. The memo supplies no measured savings or buyer pricing. (Defensibility, The Idea)
 
-The founders report placing coverage for three previously denied businesses in one week. That supports testing whether those early placements can become a durable book. The seed-stage milestone is a full renewal cohort with documented premium retention and net renewal commissions after servicing costs. The existing placement workflow makes the test plausible, while burn and the capital required to reach it remain unknown. State licensing affects continued servicing, and the memo leaves renewal rights and any transfer consents unverified. (Market & Traction, The Idea, Key Risks, Key Facts)
+The founders report placing coverage for three previously denied businesses in one week, and the CEO reports wholesale broker and managing general agent partnerships. Those signals support a test over the next renewal cycle. The milestone is a cohort with documented bound premiums, commissions retained after any partner splits, and first-renewal retention. Carrier capacity and state licensing affect how far the model can scale, and the memo leaves the capital and runway needed to reach that milestone open. A sale to a licensed brokerage is plausible, subject to verifying which book, data, and commission rights would transfer and which approvals or consents would apply. (Market & Traction, Key Facts, Key Risks)
 
-**Proceeds bridge.** Actual holder terms and a realizable sale price are unevidenced. The illustrative case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and zero follow-ons. The 5× gross cash target within eight years is $2.5 million. A simple pro rata allocation before investor taxes requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt and zero assumed fees or senior claims, the 3% hurdle is $88.3 million in enterprise value.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. The 5× gross cash objective requires $2.5 million within eight years, or about $83.3 million in distributable equity value at 3%. The sale scenarios assume the holder is eligible to sell the entire stake and receives cash at closing within eight years, with no senior claims or holdbacks unless specified. These values are sensitivities.
 
-| Eight-year scenario | Gross cash to the holder |
-|---|---:|
-| Modest sale at $25 million enterprise value | $600,000 (1.2×) after illustrative net debt |
-| Strong sale at $100 million enterprise value | $2.85 million (5.7×) after illustrative net debt |
-| Growth plateaus, buyers stay away, public scale remains out of reach, and cash is reinvested | $0 realized, with shares still held |
-
-The sale prices are illustrative. In a wind-down, only the residual after obligations and preferences would be available, and the memo gives too little information to estimate it. The memo also supplies no evidence of cash generation to finance a sponsor buyout or company-funded payout, demand for eligible secondary shares, or operating scale and readiness for an IPO. (Market & Traction, Key Facts)
+- **Modest sale.** A $40 million enterprise value with no net debt or deal deductions leaves $40 million for equity and pays the holder $1.2 million, or 2.4×.
+- **Strong sale.** A $100 million enterprise value on the same terms pays $3 million, or 6×. If net debt and deal deductions total $20 million, distributable equity falls to $80 million and the holder receives $2.4 million, or 4.8×. At an illustrative 5× annual gross commission multiple, a $100 million enterprise value would require $20 million in annual gross commissions. The founders’ stated 10–20% commission range implies $100–200 million in annual placed premiums before any partner splits. The memo gives no actual commission revenue or evidence for that purchase multiple. (The Idea, Key Facts)
+- **Prolonged private.** Continued operation with cash reinvested yields zero realized proceeds. The memo supplies no evidence of a funded payout or another independent route that could pay this holder. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-A broker can use the public filings and its own carrier relationships or partner with a specialist. Alton Risk already places robotics coverage, and carriers control underwriting and policy wording. That weakens the case for buying Risklytics before it proves the value of a retained book. The evidence leaves sale economics and transferability unresolved. It establishes neither a structural block nor a supported price range that leaves the holder materially short, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+A strategic broker could build a similar placement capability using public filings and its own carrier relationships. Alton Risk already places robotics coverage through specialist markets, and Risklytics describes collecting loss data as a future goal. That weakens the case for paying a premium before Risklytics demonstrates a durable renewal book. The memo establishes neither a structural closing block nor a supported sale-price ceiling below the holder’s hurdle. The open question about buyer economics supports Watch. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Counterparty rationale or source of cash | 14/30 |
+| Plausible investor proceeds | 10/30 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a documented renewal cohort support a credible broker acquisition price that clears the holder’s cash hurdle? A broker’s valuation range grounded in retained net commissions and transferable renewal rights would move the action to Reach out if it supports $2.5 million in holder cash within eight years under defensible ownership and transaction terms.
+What would a strategic brokerage pay in cash for a transferable renewal book at a scale Risklytics can credibly reach? A buyer’s indicative price range tied to verified renewal cohorts, retained commissions, and a credible capital plan would answer it. Move to Reach out if that range supports at least $2.5 million in cash to the holder within eight years after deal deductions and the payout waterfall.

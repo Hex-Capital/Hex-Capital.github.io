@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Repair shops rely on technicians for inspections, diagnostics, and routine service. Rodeo says technician shortages force shops to turn work away. If its robot can handle enough of an oil-change or inspection workflow to free technician time, shops could profitably accept jobs they previously declined. Rodeo reports 96% autonomous execution time on initial tasks. The figure leaves technician minutes per completed job and the economics of serving that extra demand unknown. The memo records a reservation waitlist and a January 2027 deployment target, with no documented buyer commitments. (*The Idea*, *Market & Traction*, *Key Risks*)
+**New Economies** is the strongest path. Rodeo says technician shortages cause repair shops to turn away work. The current delivery model uses technician time for inspection, diagnosis, and routine service. If Rodeo reduces technician time and all-in cost per successfully completed job, capacity-constrained shops could accept jobs they currently decline. Rodeo reports 96% autonomous execution time on its initial tasks. That measures time in autonomous operation, so the reduction in technician minutes and cost per completed job remains unknown. (The Idea, Defensibility)
 
-**Scenario assumption.** Use one shop bay as the expansion unit and compare the same mix of jobs under technician-only and robot-assisted delivery. Measure technician minutes per successful, quality-checked job, including supervision, interventions, retries, and rework. Then add equipment and installation costs spread over actual completed volume, plus upkeep and operating costs. The economics work if the shop can profitably serve the extra jobs at prices customers pay and Rodeo can cover its deployment and support costs at the price the shop pays. (*The Idea*, *Defensibility*, *Key Risks*)
+Under model parity, shops could still pay Rodeo for reliable physical service across vehicle configurations, including the hardware and technician handoff. Rodeo reports using custom hardware where needed. Its ability to deliver that integration more reliably or cheaply than alternatives remains untested. The memo records a reservation waitlist and a January 2027 deployment target without verified buyer commitments. The founders’ prior vehicle software and autonomy deployments support execution at this stage. (Defensibility, The Idea, Founders & Team)
 
-Under model parity, a shop could still pay Rodeo for the physical system that integrates inspection, diagnosis, and service. Rodeo reports building custom hardware where available components fall short. That gives it a plausible advantage in service execution, with reliability across vehicle configurations and ease of replication still untested. The founders’ prior work deploying vehicle software and autonomy for automakers supports their ability to run the next trial. (*The Idea*, *Defensibility*, *Founders & Team*, *Key Risks*)
+The unit of expansion is a shop installation. Its economics depend on completed jobs per bay and the cost per successful job, including equipment, installation, maintenance, supervision, interventions, and rework. A viable rollout would require enough paid work at each site to absorb those costs. The memo gives no pricing, utilization, or comparative job-cost data. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Rodeo could improve routine maintenance for existing customers without making declined jobs economical. A robot can spend most of its execution time autonomously while still tying up a technician through supervision or exceptions. Buyers may also be able to automate their highest-volume tasks with narrower systems. The memo records PitPro’s tire-changing deployment and SmartBay’s overlap in tire service and inspections. Neither labor savings on previously declined work nor durable buyer preference under model parity is established. The planned shop deployment offers a test, and the memo contains no direct evidence that closes the path. (*The Idea*, *Market & Traction*, *Key Risks*)
+Rodeo could automate parts of an existing service without making declined jobs economical. Technician standby, interventions, and rework across vehicle configurations could consume the expected savings. PitPro’s documented tire-changing deployment shows that shops can already buy automation for part of the workflow. Rodeo’s broader service coverage could still matter, but the memo leaves both market opening and durability under model parity unproven. That supports Watch while a field test is available. The scarce-complement path lacks independent evidence that Rodeo controls a durable bottleneck. (Key Risks, Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 13/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent shop make a paid repeat commitment for a class of jobs it previously turned away after a representative trial shows lower technician time and viable full cost per successful job, and the shop compares Rodeo with a credible alternative using equivalent model capability? A commitment tied to a demonstrated advantage in physical service execution would move the action to **Reach out**. A representative result showing that supervision and exceptions erase the savings, or that the alternative preserves the outcome with no reason to keep paying Rodeo, would move it to **Pass**.
+Will independent shops repeatedly pay Rodeo to complete jobs they previously turned away because of technician capacity? Move to **Reach out** if the first deployments show repeat paid use on those jobs, lower all-in cost per successful job against matched technician-only work, and buyer preference for Rodeo’s integrated physical service when alternatives have comparable model capabilities. Move to **Pass** if representative deployments show that supervision and rework erase the savings needed to serve those jobs.

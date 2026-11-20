@@ -1,32 +1,32 @@
 ﻿# Papaya -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Papaya’s strongest case is that it could make continuous agent remediation economical for engineering teams that currently inspect traces when problems warrant manual investigation. Papaya groups production traces, ranks proposed fixes, and can turn approved changes into pull requests. Hamlet reported that the trace viewer helped it understand agent behavior faster. That supports a saving at the diagnosis step. Papaya’s claim of $25K+ in annualized savings per large workflow leaves open how much engineering labor it takes to get a fix into production and keep it there. (The Idea, Market & Traction)
+Papaya’s strongest AGI thesis path is **New Economies**. Engineering teams already spend time inspecting production traces, diagnosing regressions, and implementing fixes. Papaya ranks proposed fixes and can open pull requests after approval. The investment hypothesis is that this reduces engineering time per verified fix enough for teams that currently investigate only major incidents to optimize their agents continuously. The memo documents public SDK updates, and Papaya reports gains in workflow success, latency, and savings. Whether engineering labor actually falls enough to unlock that use remains untested. The relevant comparison is the cost per deployed fix that passes regression checks, including time spent on rejected proposals, review, and verification. The memo supplies neither a measured manual baseline nor a comparable Papaya result. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption.** A small team already running agents might start fixing regressions weekly if Papaya’s subscription and the remaining labor for filtering traces, reviewing patches, retrying failed fixes, and verifying deployments cost less per successful fix than manual investigation and implementation. Under model parity, the potential reason to keep paying Papaya is the workflow from specific production runs to reviewable changes in the codebase. The founders report initial paying customers, but the memo leaves their prior remediation cadence, realized prices, and repeat use unknown. (The Idea, Defensibility, Market & Traction, Key Risks)
+The founders report first paying customers. Named users describe fewer inference errors and faster diagnosis. The memo leaves repeat paid use, realized pricing, and payment by teams newly able to optimize continuously unverified. Papaya’s reported library of 200-plus analyses and run-level evidence give buyers a concrete reason to try it. Preference at comparable functionality and gains from adding customers remain unproven, so value capture under model parity is still open. (Market & Traction, Defensibility)
 
-The founders turned Nile’s internal optimization harness into a product with public SDK updates, building on experience in agent evaluation, data infrastructure, and enterprise go-to-market. Expansion would come from adding agents and trace volume. The $500-per-month Business tier covers up to three agents and 50,000 monthly traces, but the memo gives no measured processing or support costs at that footprint. (Founders & Team, Market & Traction, The Idea)
+The team turned its internal optimization harness into a product with a public tracing SDK. Prior work in agent evaluation, enterprise data infrastructure, and go-to-market supports its ability to run a paid field test. A Business account is a plausible expansion unit. At the posted $500 monthly price and full use of 50,000 traces, revenue would be one cent per trace before ingestion, storage, analysis and inference, onboarding, and support costs. That scenario uses list price and full utilization. The memo provides no cost or utilization data to establish contribution at that level. (Founders & Team, Market & Traction, The Idea)
 
 ### Countercase
 
-Papaya may improve an existing debugging workflow without making continuous remediation economical. Customer-side trace filtering and patch review can absorb diagnosis savings, and partial trace exports already yield less specific recommendations. Braintrust already automates recurring trace diagnosis. If it adds comparable remediation, buyers may be able to get the same outcome in a tool they already use. The memo contains no buyer comparison that settles substitution and no full-cost trial that settles market opening. Both gates remain unresolved and testable, supporting Watch. (Defensibility, Key Risks)
+Papaya may improve an existing observability workflow without opening a new market. Braintrust already groups production failures and automates recurring trace diagnosis. If it adds comparable remediation, customers could get the same outcome inside a tool they already use. Papaya’s trace imports ease adoption and provide little evidence of switching costs. Sensitive data and partial exports may also reduce the share of fixes that can be verified with less engineering time. This keeps both New Economies gates open for testing. The memo shows competitive overlap without observed switching at parity, and it identifies no independently supported scarce complement. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 10/20 |
-| Team and execution | 10/15 |
+| Team and execution | 11/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent team that previously skipped routine remediation sustain a weekly cadence with Papaya and renew at a price that covers delivery costs after trying a functionally comparable workflow with the same model quality? Compare the full cost per deployed fix that passes regression checks against the team’s manual baseline, including human review and retries. Move to Reach out if the savings enable the new cadence and the buyer renews because Papaya’s workflow delivers a measurable advantage. Pass if a representative trial shows the full costs still make weekly remediation uneconomic or the buyer switches and preserves the same outcome.
+Will independent teams that previously found continuous optimization too costly renew at the Business price after testing Papaya alongside a functionally comparable alternative? A paid cohort would move the action to **Reach out** if those teams start fixing regressions they previously left alone, show a material reduction in all-in cost per regression-checked fix against their manual baseline, and renew with Papaya after the comparison. If the cohort shows the same work getting done faster and buyers readily switch at parity, move to **Pass**.

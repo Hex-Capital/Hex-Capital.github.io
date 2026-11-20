@@ -5,30 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is Clean’s strongest path. A sales-intelligence platform such as Apollo or 6sense could buy Clean to add buying-window alerts based on dated permits, shipments, and filings. The potential buyer benefit is more revenue from selling or retaining accounts that value those alerts. In a testimonial published by Clean, Vivameda reported $60,000 in signed contracts in two weeks and a reply-rate increase from about 4% to 19%. That supports potential value to sales teams. The incremental benefit to an acquirer, and the value of ownership over API access, remain unmeasured. (The Idea, Market & Traction, Defensibility)
+Clean’s strongest path is a strategic acquisition by a sales-intelligence platform such as 6sense. The buyer rationale is inferred. Clean’s dated permits, shipments, and filings could extend a platform’s digital-intent coverage into manufacturing buying windows and give sellers source records they can verify. The memo records a November 2026 launch after a summer pivot. In a customer testimonial, Vivameda reported $60,000 in signed contracts in two weeks and a rise in replies from about 4% to 19%. That result gives a buyer a reason to test the product. Repeatable lift against an incumbent’s own signals and buyer willingness to pay remain unverified. (The Idea, Market & Traction)
 
-The memo records a November 2026 launch after a summer pivot. Clean reported over $200,000 in ARR, and its CEO cited $240,000 before YC. Those figures are compatible, but the memo does not establish how much came from retained customers of the current product. The reported first investor check supports a path to early testing. The final proceeds of the roughly $1.2 million fundraising round, burn, and runway are unknown. A paid production pilot across several customers could measure whether Clean reliably finds buying windows earlier than an incumbent’s existing tools. Reaching that milestone would require funding for data access, integration, and testing. Clean reports owning some datasets, which gives an acquirer an asset to buy. Continued access to licensed data after a change of control remains unverified. (Market & Traction, Key Facts, Defensibility, Key Risks)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3% with no follow-ons, and a $2.5 million gross cash objective within eight years. That requires about $83.3 million in distributable equity value. For both sale scenarios, assume a full cash sale within eight years, $5 million in combined net debt and deal adjustments, and an eligible holder selling its entire stake and receiving 3% of the remaining equity proceeds with no senior waterfall deductions. These are illustrative assumptions. Clean’s reported $200,000–$240,000 ARR gives a starting point for the scale required. Buyer pricing remains unverified. (Key Facts)
 
-The sale bridge assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash, or 5× the check. A full sale requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, the enterprise-value hurdle rises to $88.3 million with $5 million of illustrative net debt. Under that same debt assumption, a $25 million sale in year eight returns $600,000 gross (1.2×), and a $100 million sale returns $2.85 million gross (5.7×), before investor taxes. These scenarios assume simple pro rata distribution. Clean’s actual debt, fees, and preference terms are unknown, and the memo gives no basis for an achievable sale price. (Market & Traction, Key Facts)
+| Scenario | Bridge to gross holder cash |
+|---|---|
+| Modest sale | $5 million ARR × 5 = $25 million enterprise value. After adjustments, $20 million in equity yields $600,000, or 1.2×. |
+| Strong sale | $15 million ARR × 6 = $90 million enterprise value. After adjustments, $85 million in equity yields $2.55 million, or 5.1×. At 5× ARR, holder cash falls to $2.1 million, or 4.2×. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase yields $0 in realized proceeds within eight years. The memo leaves an independent liquidity route unevidenced. |
 
-If growth plateaus, buyers stay away, public scale remains out of reach, and Clean reinvests all available cash for eight years, the holder realizes $0 and retains the shares. The memo gives no independent evidence of sponsor-ready cash flow, eligible secondary demand, a path to public resale, or distributable cash for dividends or buybacks. A wind-down recovery is indeterminate because the memo gives no basis to estimate what would remain after obligations and preferences. (The Idea, Market & Traction, Key Facts)
+A reasonable next milestone is a paid platform pilot that measures incremental qualified pipeline against the platform’s existing signals across several customers in one vertical. The memo reports an initial investor check and a round described at about $1.2 million, with final proceeds undisclosed. That gives some support for pursuing a pilot, while runway and the capital needed to scale toward the strong-sale case remain unknown. Clean reports owning some datasets and licensing others. A whole-company sale is plausible, with continued access to essential licensed records after a change of control still to verify. (Market & Traction, Defensibility, Key Risks)
 
 ### Countercase
 
-An incumbent could license Clean’s output through its API or extend an existing product. Salesmotion already aggregates operational signals, Apollo offers account research, and Clean’s own aircraft example shows outreach starting after supplier selection. Licensed data dependence further reduces the case for paying to own the whole company. These facts weaken the acquisition rationale, but establish neither a structural closing barrier nor a supported price range that leaves the holder short. The Pass gate remains open. (The Idea, Defensibility, Key Risks)
+An incumbent could add comparable signals to its existing workflow. Salesmotion already aggregates filings, news, and hiring signals, and Apollo offers AI account research alongside outreach. Clean also describes a case where its signal arrived after the supplier had been selected. If its records rarely improve timing beyond existing tools, an incumbent has little reason to pay the price the holder needs. The memo establishes real product overlap and timing risk, while the availability of an equivalent substitute and the price ceiling for a sale remain unresolved. The Pass gate is therefore untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Counterparty rationale or source of cash | 16/30 |
+| Plausible investor proceeds | 10/30 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-What price could a sales-intelligence platform justify paying to own Clean’s signals given the results it could get by licensing them or extending its own tools? A paid production pilot that measures incremental buyer gross profit across several customer deployments, paired with a buyer-backed valuation range that supports at least $83.3 million in distributable equity at 3% ownership, would move the action to Reach out. (The Idea, Market & Traction, Defensibility)
+Can a sales-intelligence incumbent make a buy-versus-build case for Clean at a price that clears the holder’s hurdle? A paid pilot showing repeatable incremental qualified pipeline over the incumbent’s own signals, with buyer economics supporting at least $83.3 million in distributable equity under the benchmark, would move Watch to Reach out.

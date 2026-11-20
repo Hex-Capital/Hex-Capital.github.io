@@ -5,34 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Keres’s strongest route. A defense contractor could pay to own Garmur if Keres validates its claimed post-intercept reuse and shows that the resulting lifecycle cost advantage is worth securing through ownership. The memo records government purchases of competing interceptors and Lockheed Martin’s lead investment in Fortem. Those transactions establish demand for adjacent products and strategic interest in Fortem. Keres-specific buyer interest, the value of ownership over licensing or partnership, and a realizable sale price remain unverified. (The Idea, Market & Traction, Defensibility)
+Strategic acquisition by a defense contractor is Keres’s strongest exit path. Keres says Garmur is designed to return for reuse after an intercept. If repeat use lowers the fully loaded cost per intercept, a contractor could acquire Garmur to strengthen its offering in a market with documented government purchases. Lockheed Martin’s lead investment in Fortem shows strategic interest in an adjacent product. The memo provides no evidence of acquisition interest in Keres. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is an independently documented demonstration of repeat reuse with measured lifecycle costs. The accelerator award and the team’s flight-test experience make that milestone plausible. The award amount is undisclosed, the reported $125,000 raise is unconfirmed, and the memo leaves the test budget, funding, and timeline open. Control and transferability of the core asset also remain unverified. (Market & Traction, Founders & Team, Key Risks, Defensibility)
+The accelerator award and the founders’ military aviation and jet flight-test experience make an independently documented repeat-use evaluation a plausible seed-stage milestone. The award amount, test budget, and schedule are undisclosed. The reported $125,000 raise is unconfirmed, and the memo provides no evidence on acquisition approvals or transfer rights. (Market & Traction, Founders & Team, Key Risks)
 
-Under the illustrative terms, a $500,000 check at a $10 million post-money valuation starts at 5% and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. It requires about $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. The sale scenarios are illustrative. Both assume an all-cash sale of the entire company within eight years, full holder eligibility, and a pro rata payout after net debt and deal adjustments, with no senior preference ahead of the holder.
 
-- **Modest sale.** At $25 million in enterprise value in year eight, subtracting $5 million of assumed net debt leaves $20 million of equity and $600,000 in gross holder cash, or 1.2×.
-- **Strong sale.** At $100 million in enterprise value in year eight, the same debt assumption leaves $95 million of equity and $2.85 million in gross holder cash, or 5.7×. At 2% ownership, the same sale yields $1.9 million, or 3.8×.
-- **Prolonged private operation.** If growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares.
+| Scenario | Enterprise-to-equity bridge | Gross holder cash |
+|-----------|-----------------------------|-------------------|
+| Modest sale | $50M enterprise value less $5M in net debt and deal adjustments leaves $45M distributable | $1.35M, or 2.7× |
+| Strong sale | $100M enterprise value less $10M in net debt and deal adjustments leaves $90M distributable | $2.70M, or 5.4× |
+| Prolonged private | Cash is reinvested and no eligible share sale or payout occurs within eight years | $0 |
 
-The sale values and debt are scenario assumptions. The memo provides no company-specific transaction price, debt, fees, or preference terms. It also supplies no operating cash-flow evidence for a sponsor buyout or company-funded payout, no eligible secondary demand, and no evidence of operating scale or shareholder resale readiness for an IPO. (Market & Traction, Key Facts)
+At 2.5% ownership, the strong sale yields $2.25 million, or 4.5×. The memo supplies no sale-price evidence to support the strong case and no evidence of an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Existing alternatives could satisfy customer demand before Keres proves its cost advantage. Anduril already offers recovery when its interceptor is unused, and the memo records procurement of competing products from Fortem and Cambridge Aerospace. If Keres’s claimed reuse advantage fails to produce meaningful savings, a strategic buyer could keep using existing products or work with Keres through a commercial agreement. That supports Watch. The evidence falls short of the Pass gate because it establishes neither a structural barrier to a sale nor a supported sale-price ceiling that leaves the holder materially short. (The Idea, Defensibility, Key Risks)
+A strategic buyer could favor an established alternative. Anduril offers a recoverable interceptor, and Fortem and Cambridge Aerospace have procurement signals. The memo documents neither a completed Garmur intercept-and-recovery demonstration nor measured costs to return it to service. If the claimed savings fail to materialize, a buyer has less reason to acquire Keres or pay enough to clear the holder’s hurdle. The Pass gate remains untriggered because the memo establishes neither a structural closing barrier nor a supported sale-price range below the hurdle. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-What acquisition price range would a strategic buyer substantiate if Keres verifies its claimed lifecycle cost advantage? Buyer feedback that quantifies the benefit of ownership and supports a range clearing the holder’s $2.5 million target after a funded, measurable validation milestone would move the action to Reach out.
+What price range would a credible strategic buyer underwrite after reviewing independently verified repeat-use costs? Buyer feedback tying measured savings to a price range that could yield $2.5 million in holder cash within eight years under plausible terms would move the action to Reach out. A supported price ceiling materially below that hurdle on the strongest route would move it to Pass.

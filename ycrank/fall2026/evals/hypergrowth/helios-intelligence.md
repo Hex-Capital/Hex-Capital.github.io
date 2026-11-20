@@ -5,13 +5,13 @@
 
 ### Company case
 
-Product-led adoption is the strongest path. Helios targets consumers who want to spot health changes between conventional blood tests. The memo records a reported waitlist, and Helios describes a planned flow from online kit ordering to results on web or mobile. If consumers can collect a usable sample at home and get a result that informs a decision, that same workflow could support paid retesting and referrals. The buyer and recurring job plausibly travel across markets. Serving a second market would depend on maintaining sample quality through shipping and processing and meeting local requirements for handling sensitive health data. (*The Idea*, *Market & Traction*, *Key Risks*)
+The strongest path is direct-to-consumer repeat testing for people who want to track health changes between conventional blood tests. Assuming strong fit with those buyers, the same home-collection kit and digital results could serve the same job across markets if samples can travel reliably and local requirements allow the same workflow. Helios says it is designing the test to measure more than 1,000 biomarkers from a drop of blood and reports using repeat draws linked to health records to train its model. A growing personal baseline could give customers a reason to retest. Paid renewal and expansion remain unverified. (The Idea, Defensibility)
 
-The first unproven link is whether an independent buyer will pay and reach first value through that flow. Helios reports using repeat draws to train its model, but the memo does not establish paid customer retesting or its cadence. It also gives no test price, per-kit fulfillment or support costs, or concrete buyer commitment beyond the reported waitlist. Acquisition, retention, contribution, and first-segment fit therefore use their absent-evidence defaults. (*The Idea*, *Defensibility*, *Market & Traction*)
+The memo records a reported October waitlist with an undisclosed signup count. Online kit ordering and digital results are company plans. The memo leaves working checkout, first-result completion, paid test volume, and commercial launch timing unverified. Roon’s storefront and subscription concern a separate product. (The Idea, Market & Traction)
 
 ### Countercase
 
-Consumers may try a broad panel once and see little reason to pay again if subsequent results fail to guide a decision. The memo describes self-collection research in which delayed processing preserved agreement with venous draws for only some analytes, and Helios has yet to disclose its assay validation. If unusable samples require recollection or results routinely require hands-on explanation, servicing each kit could erode contribution even with online ordering. These risks are testable, and the memo leaves the structural downside gate untriggered. (*The Idea*, *Key Risks*)
+Sample stability could make the same kit harder to deploy across markets. The memo cites research in which delayed processing preserved agreement with venous draws for only some analytes. If Helios needs shorter transit windows or frequent recollection, additional lab capacity and fulfillment work could erode contribution as volume grows. Per-test contribution would depend on the price collected after kit, shipping, lab processing, reporting, support, expected recollection, and attributable acquisition costs. Helios’s pricing and operating costs are undisclosed. The structural downside gate stays open because the study establishes a category risk and Helios-specific performance remains unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
@@ -19,12 +19,12 @@ Consumers may try a broad panel once and see little reason to pay again if subse
 |-----------|-------|
 | Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can an early cohort of independent consumers order and pay online, get a usable result without bespoke support, and pay to retest at the intended cadence? Cohort records showing that sequence, with fulfillment and support effort recorded per kit, would move the action to Reach out. A cohort that receives usable first results but consistently declines to retest because it sees little additional value would move it to Pass.
+Can Helios reproduce a paid repeat-testing cohort in a second market using the same kit and processing workflow as in its first? A second-market cohort that orders independently, receives analytically validated results, pays for repeat tests, and generates positive incremental contribution at routine operating costs would address the main reasons to Watch. Move to Reach out if that evidence raises the score to at least 65 and confidence to Medium or higher.

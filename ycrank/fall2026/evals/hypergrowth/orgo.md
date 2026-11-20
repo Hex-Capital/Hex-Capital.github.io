@@ -1,32 +1,32 @@
 ﻿# Orgo -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Reach out  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Usage-based expansion is Orgo’s strongest path. Developers building always-on AI workers can provision a persistent desktop through an API, run graphical software, and retain files between jobs. If the first desktop becomes part of a recurring workflow, the same team could add desktops for other workers or run existing ones longer. Prepaid compute starts at $0.023 per running hour for Small Linux, and Orgo also sells monthly plans. Running-hour growth translates into revenue when it generates additional billable consumption or paid capacity. (The Idea)
+Assuming strong product-market fit, Orgo’s strongest path is selling persistent Linux desktops to developers building always-on agents. The same API, standard operating systems, and persistent disks can serve the same recurring job across markets where U.S. hosting is acceptable. Vercel Connect and Convex give developers ways to discover Orgo, and its SDKs and setup flow support self-serve provisioning. The memo documents prepaid compute pricing, while independent payment completion remains unclear. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-The same API and desktop workflow could serve teams in other markets that can use U.S. hosting. Orgo says it operates its own U.S. infrastructure, and the memo gives no buyer geography or evidence of what a rollout would require for buyers with local hosting needs. Vercel Connect and Convex listings give developers concrete discovery routes, and the SDK gives them a self-serve activation route. The memo gives no account-level record linking either channel to a live, paying workload. (The Idea, Defensibility, Market & Traction)
+Persistent files and saved machine state give teams a reason to keep using Orgo. Monthly plans and metered compute make recurring revenue plausible, and a retained team can spend more by running additional desktops. Whether that expansion can offset churn is uncertain. Orgo reported more than 1,000 teams and thousands of production desktops at its October launch. A customer reported saving about 12 hours on a shop setup. The memo’s unquantified revenue signal supports early commercialization, with the pace of paid growth still unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
 
-An agency operator reported that an agent running on Orgo saved a client about 12 hours preparing a Squarespace shop. That is a concrete benefit from one workflow. Orgo separately reported more than 1,000 teams and thousands of production desktops. Those figures indicate initial adoption, while paid conversion, repeat use, and expansion within accounts remain unknown. For a company this early, the first unproven link is whether independent teams turn a successful first workload into recurring paid use. (Market & Traction)
+At the listed starting rate of $0.023 per running hour, a Small Linux VM would generate $16.56 over 720 billed hours under prepaid usage pricing. That revenue must cover the workload’s share of host capacity, power, storage, networking, and attributable support and onboarding. Suspend and resume could improve fleet utilization if idle desktops release usable host capacity. The memo leaves the size of that benefit and incremental contribution unverified. (*The Idea*, *Defensibility*)
 
 ### Countercase
 
-The reported footprint could reflect many initial deployments and few expanding paid accounts. The agency testimonial covers one project, and AWS and Daytona offer overlapping desktop capabilities, giving buyers alternatives when they choose where to run their next workload. Even if accounts add desktops, always-on workloads could require additional fleet capacity, storage, and support roughly in step with revenue. Orgo’s status page reported 99.760% compute-fleet uptime over 30 days, making reliability relevant to the always-on use case. The memo has no marginal cost or rollout-effort measurements. The structural downside gate does not apply because proportional costs and weak paid repeat use remain hypotheses. (The Idea, Defensibility, Market & Traction, Key Risks)
+Always-on desktops can occupy capacity around the clock, and adding workloads may require additional fleet investment. AWS’s overlapping Linux and Windows offering could also limit Orgo’s pricing power. The structural downside gate clears because the memo establishes neither a requirement for market-by-market rebuilding nor capacity costs that make faster growth economically infeasible. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 18/25 |
+| Retention economics | 16/20 |
+| Initial traction | 8/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 68/100** (Invest)
 
 ### Decisive diligence question
 
-Do multiple independent developer teams that self-serve their first paid desktop keep it running for recurring jobs and then add paid capacity at a positive incremental contribution? Account-level activation, billing, and usage records over consecutive billing cycles, paired with the added fleet, storage, and support costs, would answer it. Repeated expansion on those terms would move Orgo to Reach out.
+Can Orgo add self-serve paid Linux workloads at positive incremental contribution through its next fleet expansion? A representative set of paid workloads, with billed revenue matched to acquisition, onboarding, serving costs, and added capacity, would answer it. Positive contribution at realistic utilization would sustain Reach out. Evidence that contribution turns persistently negative at the capacity step-up would move the action to Watch while the utilization lever is tested.

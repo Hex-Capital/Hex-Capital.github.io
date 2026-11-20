@@ -1,32 +1,32 @@
 ﻿# Lantern AI -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Lantern could make first-round interviews economical for applicants who previously received only a résumé screen. One customer reports screening more than 1,000 candidates and hiring one engineer. That establishes use at volume and a hiring outcome in one search. The memo gives no manual baseline, reviewer hours, or evidence that the employer previously skipped interviews it can now afford. The seed-stage test is whether Lantern lowers total delivery cost per hire at comparable hiring quality after counting software fees, recruiter time, retries, exceptions, and compliance. (The Idea, Market & Traction, Key Risks)
+**New Economies** is Lantern’s strongest path. Its recruiting agents share employer-approved hiring criteria across sourcing, screening, and interviews. A customer reported screening more than 1,000 candidates and hiring one engineer. That establishes use in a real hiring workflow. The memo gives no manual cost baseline, labor savings, or comparison of hiring quality. (The Idea, Market & Traction)
 
-Under the scenario that frontier models are cheap and widely available, buyers might still pay Lantern to carry employer-approved criteria and debrief feedback across sourcing, screening, and interviews on top of their existing ATS. The company describes that capability, and switching costs are an inference. The memo has no buyer comparison showing that Lantern retains an advantage when a rival can use equivalent models and the same hiring criteria. (The Idea, Defensibility)
+**Scenario assumption.** Lantern could make first-round screening viable for candidates an employer would previously skip because recruiter time was too expensive. The relevant comparison is the employer’s cost per hire at comparable quality, including manual screening and interview labor in the former workflow, and Lantern fees, exception handling, and required human review in the new workflow. Reusing approved criteria and feedback across agents could give buyers a reason to keep paying under model parity. The memo provides no evidence of buyer preference at parity, migration costs, or a network effect. (The Idea, Defensibility, Key Risks)
 
-Lantern reports $1M in annual enterprise contracts, a demand signal from existing recruiting buyers. The founders shipped an earlier AI interviewer, and a university rolled it out for interview practice. That supports the team's ability to deploy the technology, while the newly viable enterprise workflow remains untested. The proposed expansion unit is another workflow within the same account. Lantern reports one account growing from roughly $11K to $92K annually, but the memo gives no realized contribution after integration and support costs. (Market & Traction, Founders & Team, The Idea, Key Facts, Key Risks)
+Lantern reports $1M in enterprise annual recurring contract revenue and an account expanding from about $11K to $92K annually. Those signals support seed-stage willingness to pay, with no evidence that the spending came from newly viable uses. The founders shipped the earlier interviewer before launching the broader platform, and the memo documents a university interview-practice rollout. Adding a workflow to an existing enterprise account is a plausible expansion unit. Contribution per added workflow remains untested because the memo supplies no inference, integration, or support costs. (Market & Traction, Key Facts, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Lantern may be selling useful automation to employers that already buy recruiting software. Required human review of every final employment decision and the work of handling assessment errors could absorb enough of the savings to keep broader interviewing uneconomical. Ashby’s native interviewing and automation give buyers a credible alternative inside their existing ATS. These are concrete risks to both Path B conditions. The memo lacks a representative cost comparison or observed substitution, so neither condition is defeated and the action remains Watch. (Defensibility, Key Risks)
+Lantern may be making existing enterprise recruiting cheaper while Ashby and Workday add overlapping automation inside buyers’ existing systems. Required human review also preserves some of the labor cost. The memo documents incumbent overlap, while functional parity, customer switching, and the viability of previously uneconomic screening remain untested. The reported professional graph has no demonstrated scarcity or exclusive control, so it supplies no independent scarce-complement path. The available evidence supports Watch. (Defensibility, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 11/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 11/20 |
+| Durable value capture | 9/25 |
+| Customer demand | 14/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent employer pay for a repeat deployment of first-round interviews it previously skipped, after a matched trial shows lower fully loaded cost per hire at comparable quality and the employer chooses Lantern over a functionally comparable ATS workflow using equivalent models? A paid repeat deployment on those terms would move the action to Reach out. A representative trial showing that review and exceptions erase the savings, or that the employer switches and retains the same outcome, would close this path and move the action to Pass.
+Will independent employers repeatedly pay Lantern to screen candidates they previously skipped on cost grounds when their existing ATS offers comparable functionality? A paid cohort that documents the prior cost barrier, a lower all-in cost per hire at comparable quality, and renewals despite a comparable ATS option would move the action to Reach out. If the cost reduction fails to make the use viable or buyers readily switch at parity, move to Pass.

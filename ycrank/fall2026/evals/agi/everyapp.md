@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** EveryApp could make shared, customized business apps economical for small teams that previously went without them. Those teams would otherwise pay recurring per-seat SaaS fees or spend staff time on deployment, authentication, and shared access. EveryApp shipped a Gateway and installable apps that run in the customer’s Cloudflare account and share sign-in and credential management. The seed-stage execution evidence is the progression from the Gateway to standalone OpenSEO and then to a platform with installable apps. (The Idea; Market & Traction; Founders & Team)
+EveryApp’s strongest path is **New Economies**, with OpenSEO as the first test. Small teams that previously found agency fees or staff time prohibitive could run an ongoing SEO workflow if agents reduce the labor needed to build, deploy, and operate it. EveryApp has shipped an agent-assisted installation flow and a Gateway that shares sign-in and API credentials across apps. In an OpenSEO case study, Importivity reported roughly sevenfold growth in organic clicks over six months using a workflow built on an OpenSEO fork. That report supports practical use. The former delivery cost, labor hours saved, and cost per successful outcome at comparable quality remain unmeasured. A newly served buyer segment is still a hypothesis. (The Idea, Market & Traction)
 
-The market-opening hypothesis is that agent-assisted setup and shared administration reduce the labor required to get a team app running and keep it usable. The relevant comparison is full cost per working team app-month, including setup, maintenance, troubleshooting, and provider charges. In a managed-service scenario, EveryApp would need enough recurring revenue to cover hosting and support at its announced starting price of $10 per month. The memo provides the proposed price and delivery model, while labor savings and contribution per workspace remain unmeasured. (The Idea; Key Facts; Key Risks)
+Senescu reports hundreds of paying customers for standalone OpenSEO. That is a willingness-to-pay signal for the SEO product. EveryApp’s platform traction is reported in stars and launch views, leaving paid conversion and repeat use open. Senescu’s prior work on compliance agents and the progression from Gateway to standalone OpenSEO to an installable-app platform demonstrate relevant execution. Running managed deployments repeatedly is the next operating test. (Market & Traction, Founders & Team)
 
-The clearest demand signal comes from standalone OpenSEO. The founder reported hundreds of paying customers, and Importivity attributed roughly 7× organic clicks over six months to a workflow it built on an OpenSEO fork. These reports support interest in the SEO workflow. Whether previously excluded teams would pay for EveryApp’s shared deployment and administration remains open. (Market & Traction)
+The expansion unit would be one managed team account. The announced starting price is $10 per month, and self-hosters pay Cloudflare and connected providers directly. At the announced price, managed contribution would depend on infrastructure and any absorbed usage costs, plus the human time spent on onboarding, support, and exceptions. The memo gives no measured costs for that scenario. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-With equivalent models, a rival host can reuse the MIT-licensed Gateway, and customers can already deploy OpenSEO independently. Importivity’s reported success with a fork makes bypass concrete for the SEO workflow. EveryApp’s shared sign-in and app catalog could still give teams a reason to pay for managed service, but the memo leaves buyer preference under functional parity untested. The bypass evidence weakens value capture. The path stays open because the decisive comparison is for teams running shared apps through the managed platform. (Defensibility; Market & Traction; Key Risks)
+The strongest countercase is that agents make an existing software purchase cheaper while also making EveryApp easier to bypass. Competing hosts can reuse the MIT-licensed Gateway, Cloudflare offers deployment infrastructure for coding agents, and OpenSEO can be deployed independently. Importivity’s reported use of a fork makes that bypass concrete. Shared sign-in and team access give buyers a reason to consider the Gateway, but paid preference under functional parity remains untested, as does any benefit existing users gain from additional catalog participants. The memo leaves both market opening and durable value capture unproven. It shows a credible substitution route, with comparable outcomes and buyer switching still untested, so the path stays open at Watch. The memo provides no independent scarce-complement case. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Customer demand | 9/20 |
+| Team and execution | 10/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will small teams that previously went without a shared custom app pay to renew EveryApp after trying a functionally equivalent setup with the same models? A paid pilot that measures total delivery cost on both setups would answer it. Reach out if teams sustain the workflow at a cost they can afford, renew with EveryApp despite the alternative, and generate enough revenue to cover measured delivery costs. Pass if the trial shows that labor savings fail to make the workflow viable or that teams readily switch while preserving the outcome.
+Will independent small teams that previously went without ongoing SEO because of cost renew a paid EveryApp managed plan when they can get comparable SEO functionality elsewhere? A cohort that documents the former cost barrier, achieves an agreed SEO outcome at a materially lower all-in cost, and renews after trying a functionally comparable alternative would move the action to Reach out. If comparable alternatives deliver the same outcome and those teams readily switch, the action moves to Pass.

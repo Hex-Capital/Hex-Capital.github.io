@@ -5,30 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Inflection’s strongest case is that constellation operators facing long waits for bespoke spacecraft would pay for qualified production capacity that delivers batches on schedule. The memo identifies that constraint through supplier accounts. Exponent’s common parts and single configuration could make fabrication and testing more repeatable. Inflection reports building more than half the spacecraft stack and using its own fleet software for simulation and hardware tests. That gives it some control over execution. Any advantage in yield, cycle time, or qualification remains an inference. (The Idea, Defensibility)
+The strongest path is a **scarce complement** in flight-qualified spacecraft production. The memo documents a supply problem for existing constellation operators that need batches on schedules bespoke manufacturing struggles to meet. Inflection says Exponent uses common parts and that it has built more than half of the spacecraft stack, including flight and ground software. That gives Inflection some control over integration and testing. The investment hypothesis is that AI-driven missions could make qualified production slots more valuable, but the memo establishes neither incremental demand from AI nor a qualified delivery advantage for Exponent. (The Idea, Defensibility, Key Risks)
 
-**AGI scenario assumption.** If cheap frontier intelligence speeds up spacecraft design or test analysis, physical fabrication and qualification could become the limiting steps. Inflection would capture value if it can deliver qualified batches faster than other suppliers can add equivalent capacity. The memo contains no measured AI contribution or production throughput. (The Idea, Defensibility, Key Risks)
+The founders’ spacecraft engineering and test automation experience supports seed-stage execution. Inflection reports fabrication, avionics assembly, and ground testing underway, with a first launch booked for Q1 2028. The launch booking is a development milestone. The memo identifies no paying customer or committed spacecraft order. (Founders & Team, Market & Traction, Key Facts)
 
-Amazon’s reported in-house production of more than 1,000 satellites is indirect evidence that an operator will commit resources to securing volume. Demand for Exponent remains unverified. Inflection reports a Q1 2028 launch booking, while the memo identifies no paying payload customer or spacecraft order. The founders bring spacecraft and test-automation experience, and Inflection reports fabrication and avionics testing underway. Flight qualification is still ahead. (Market & Traction, Founders & Team, Key Facts, Key Risks)
-
-The expansion unit is a batch of spacecraft. At the published 100-unit price, a batch would yield $70 million if sold at list price. That price is about 53% below the single-unit price. Repeatable margins would depend on build and qualification costs, yield, and factory utilization at the discounted price. The memo provides no measured inputs for that cost bridge. (The Idea, Key Risks)
+The expansion unit is a standardized Exponent spacecraft. Published prices fall from $1.1 million per spacecraft at 10 units to $700,000 at 100. **Scenario assumption:** If orders close at list prices, preserving the same dollar margin per spacecraft would require fully loaded unit cost to fall by $400,000 between those volumes. The memo gives no cost, yield, or utilization data to establish that savings. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Apex offers configurable buses built for inventory, and Apex and Muon already offer repeat production with flown spacecraft. Amazon’s in-house production also shows that some buyers can bypass independent suppliers. Rival capacity could close the scheduling gap before Exponent qualifies. The memo leaves open whether those alternatives can meet the same payload, batch size, and delivery requirements. That keeps the path open at Watch. (The Idea, Defensibility, Key Risks)
+Apex and Muon already offer repeat-production alternatives with flown spacecraft, while some large constellation operators manufacture in-house. That weakens the scarcity case, though the memo leaves open whether a buyer with Exponent’s payload and schedule requirements can secure equivalent capacity. The New Economies path also lacks independent support. Planned robotics targets an existing manufacturing market, and the memo gives no former delivery-cost baseline, measured labor-cost change per successful delivery, or previously excluded buyer who would still pay Inflection under model parity. The scarce-complement path remains testable, so Watch applies. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 8/15 |
+| Path-specific thesis fit | 7/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 5/20 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
 **Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can Inflection deliver a paid qualification batch that an independent operator chooses for a schedule advantage? Move to **Reach out** if the buyer confirms that qualified alternatives missed the required delivery window, and batch records show that AI-assisted engineering or testing materially shortened delivery at a price that covers the batch’s costs. A qualified rival meeting the same requirements on comparable terms would close this case and move the action to **Pass**.
+Will an independent operator place a paid Exponent batch order contingent on flight qualification because an AI-driven mission needs delivery capacity that comparable suppliers cannot offer on schedule? A signed order with a deposit and buyer-confirmed evidence of that capacity gap would move the action to Reach out. If the buyer can secure equivalent capacity on the same schedule, Pass unless a separate thesis path emerges.

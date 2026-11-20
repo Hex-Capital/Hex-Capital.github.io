@@ -5,28 +5,28 @@
 
 ### Company case
 
-Product-led adoption is Vyra’s strongest path. The first buyer is a founder or solo creator who regularly turns raw footage into short-form posts. Vyra uses prompts and reference clips to produce an editable timeline. Its demo Reels show prospective users the kind of output they can try to make themselves in the web or iPhone editor. If users can get a publishable first edit during the three-day web trial, that workflow could turn discovery into paid adoption without founder-led onboarding. The editing job plausibly travels across markets, though the memo gives no evidence of paid adoption abroad or how well transcription and captions work across languages. (The Idea)
+Conditional on strong product-market fit, Vyra’s strongest path is a self-serve subscription for solopreneurs and small businesses that publish short-form video regularly. The same web workflow can serve creators across markets. They upload footage, use prompts or reference clips to assemble an editable timeline, and review the result before export. Direct Instagram publishing requires a professional account, while the core editing workflow can run independently. The memo leaves speech-language coverage uncertain. Founder-made Reels and paid creator demos give prospects a way to see the product before starting the three-day web trial. Published web plans and iPhone in-app subscriptions provide a path to payment. (The Idea, Key Risks, Key Facts)
 
-The memo records 14 iPhone ratings and a hands-on review. The founders’ reported 40 million edited-content views measure audience reach, and the site’s creator counter has no published definition. Veeza AI’s founder reports more than 10,000 views per video edited with Vyra, a narrow signal of repeat use. It leaves payment, editing time saved, and usage cadence open. Reusable style references offer a reason to return for the next clip. (Market & Traction, Defensibility)
+Searchable footage and reusable style references give returning creators a reason to keep editing in Vyra. More demanding projects can drive upgrades through credit allowances, storage, and export resolution. That gives existing accounts room to spend more, though whether upgrades can offset churn remains an inference. For a subscriber on the $24 monthly external-assistant plan, contribution depends on what remains after attributable acquisition, media processing, rendering, storage, and support. Using an external assistant can shift some inference cost away from Vyra, while plan limits can contain some costs. The memo gives no workload measurements to establish contribution. (The Idea, Defensibility, Key Facts)
 
-Even assuming strong fit with frequent posters, the first unproven link is whether people who discover Vyra through demos can reach publishable quality and pay without help. Published subscription prices establish how Vyra charges. The memo gives no measurements of the processing, storage, or support costs added by another active subscriber. (The Idea, Key Facts)
+A hands-on review and 14 iPhone ratings establish early product use. The founders’ claim of more than 40 million views on edited content, the undefined website creator count, and estimated checkout visits leave realized revenue and paid growth unknown. Initial traction therefore takes the absent-evidence default. (Market & Traction)
 
 ### Countercase
 
-A polished demo may draw users into a trial while their own footage takes enough cleanup to make the subscription hard to justify. Vyra’s terms call for review before publication, and competing editors already offer some of the same agent-assisted capabilities. That gives creators a reason to stay in an existing workflow if Vyra saves little time. The structural downside gate remains open because the memo establishes neither persistent conversion failure nor delivery costs that rise in proportion to growth. (Key Risks, Defensibility)
+Creator demos may bring in trial users who edit a handful of clips and leave, while frequent users consume substantial processing and storage. AI edits still require review, and Adobe’s preview of agent control in Premiere gives existing users a reason to stay in their current editor. The structural downside gate stays open because the memo supports portable self-service editing and identifies ways to limit delivery costs. Confidence is Low because realized paid adoption and contribution at typical workloads are both unresolved. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 19/25 |
+| Retention economics | 16/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 67/100** (Invest)
 
 ### Decisive diligence question
 
-Can independent founder-creators who discover Vyra through demo Reels produce a publishable first clip during the web trial, subscribe, and use Vyra again for their next scheduled post without founder help? Cohort records showing that sequence across multiple creators would move the action to Reach out. Trial traffic or one-off exports would keep it at Watch.
+Can a cohort acquired through creator demos keep editing and renewing long enough to cover its acquisition and serving costs? Cohort records showing paid renewals alongside attributable promotion, onboarding, processing, storage, and support costs would answer it. Repeat paid use and positive cumulative contribution across several billing cycles would move the action to Reach out.

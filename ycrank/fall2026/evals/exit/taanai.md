@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A video-editing platform such as Adobe could pay for Taan’s cut-aligned scoring and instrument-level revisions if those controls materially reduce the time editors spend producing an acceptable soundtrack. Ownership could make sense if deploying the capability across the platform yields more value than licensing it or improving the platform’s own scoring. Taan reports 91.3% of cues within ±500 ms in TimingBench, versus 12.8% for ElevenLabs v2 in the same test. The buyer benefit remains an inference because the memo gives no measured editing-time savings. (The Idea, Market & Traction)
+The strongest path is a strategic acquisition by a video-editing platform such as Adobe. Premiere’s timeline scoring shows why a platform would value music generation inside the editor. Taan’s potential contribution is finer control over cuts, pauses, and instrument revisions. If that control reduces repeated generations and editing time, a platform could have a reason to acquire the model and workflow. Taan reports that 91.3% of events landed within ±500 ms in TimingBench, compared with 12.8% for ElevenLabs v2. Its launch reported a lower 73.2% on-time rate, and the benchmark used short instrumental requests and Taan reference stems for some measurements. The timing advantage warrants a production test. Buyer savings and acquisition interest remain unverified. (The Idea; Market & Traction; Key Risks)
 
-A paid production pilot that measures time to an accepted soundtrack against a platform’s existing workflow is a plausible seed milestone. Taan has shipped a preview, and Music for Video AI identifies it as its scoring provider. The CEO reports $1 million raised, while the memo separately records a $500,000 YC investment. Both figures could be accurate, and neither establishes current runway or the capital needed for a pilot. Taan claims licensed training music, and its founder lists two published patent applications. The rights a buyer could acquire remain unverified. (Market & Traction, Defensibility)
+A paid production pilot that measures editing time, regeneration attempts, and repeat usage is a plausible seed-stage milestone. The memo records a scoring integration with Music for Video AI, and the CEO reports raising $1 million. Those signals support testing the workflow, while runway, compute costs, and paid usage remain unknown. An acquisition could preserve the API integration, but model ownership and change-of-control rights require verification. Taan says its training music is licensed, and its founder lists two published patent applications. The memo gives no license terms or closing conditions. (Market & Traction; The Idea; Defensibility)
 
-Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target of $2.5 million in gross cash requires about $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% hurdle is about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 (1.2×) and a $100 million sale yields $2.85 million (5.7×), pro rata before investor taxes. Actual debt, fees, and senior claims are unknown. The memo supplies no supported acquisition price range. (Market & Traction, Key Facts)
+The proceeds bridge assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. The sale cases assume an eligible holder sells the full stake for cash at closing within eight years, with a pro rata waterfall and no senior diversion. The prices are illustrative assumptions.
 
-The memo provides no evidence of the predictable cash generation needed for a buyout, eligible share demand for a secondary, operating scale for an IPO, or excess cash for payouts. If growth plateaus around a handful of integrations, buyers stay away, public scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. Any wind-down recovery would depend on what remains after obligations and preferences. (Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $40M enterprise value with no debt or deal deductions yields $40M distributable equity | $1.2M (2.4×) |
+| Strong sale | $100M enterprise value less $10M in assumed debt and deal deductions yields $90M distributable equity | $2.7M (5.4×), falling to $1.8M (3.6×) at 2% ownership |
+| Prolonged private | Operations continue and cash is reinvested, with no eligible sale or funded payout in the eight-year window | $0 |
+
+The memo supplies no buyer valuation, comparable sale price, or holder terms that support the strong case. It also supplies no evidence of an independent route to cash. (Market & Traction; Key Facts)
 
 ### Countercase
 
-Adobe already offers scoring inside Premiere, and ElevenLabs and Sonilo offer video-to-music APIs. A buyer could improve its own feature or license a competing service. Taan’s launch reports 73.2% on-time events versus 91.3% in its research, which uses Taan reference stems for some events and tests 30-second instrumental requests. The reported advantage may shrink in longer production edits. That makes acquisition economics too uncertain for outreach today. The memo establishes neither a structural block nor a supported price ceiling that would trigger Pass. (Defensibility, Market & Traction, Key Risks)
+Adobe already offers music generation inside Premiere, and ElevenLabs and Sonilo offer video-to-music APIs. A platform could extend its own tool or license an existing API if Taan’s timing advantage fails to reduce work on real edits. The benchmark’s scope and methodology leave that possibility open. This is a specific gap for Watch. The memo establishes functional overlap, but leaves production parity, a structural closing block, and a price ceiling below the proceeds hurdle unproven. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production pilot show that Taan saves a video-editing platform enough time per accepted soundtrack to justify owning the capability? A head-to-head test on real edits, paired with the platform’s usage and build-versus-license economics, would move the action to Reach out if it supported an acquisition range that clears the holder’s eight-year cash hurdle.
+Can a paid production pilot show a video-editing platform enough incremental value over its current scoring workflow to justify an acquisition that clears the holder’s proceeds hurdle? Consistent reductions in editing time and regenerations across real projects, paired with a platform’s buy-versus-build analysis supporting at least $83.3 million in distributable equity, would move the action to Reach out.

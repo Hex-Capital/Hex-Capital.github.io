@@ -5,26 +5,28 @@
 
 ### Company case
 
-Usage-based expansion is the strongest path. The first buyer is a regulated financial operations team with a recurring screening queue. If a team proves value on one queue, it could route more alerts or add queues, increasing credit purchases if enterprise usage is billed through Grep’s listed credit model. The memo lists wallet top-ups and subscriptions. IG’s billing terms and the credits consumed per screening job are unknown. The workflow could travel across markets if Grep can reuse the core automation and adapt local screening rules and approvals. The memo gives no paid cross-market rollout. (*The Idea*, *Defensibility*, *Key Facts*)
+Conditional on strong product-market fit, Grep’s strongest path is self-serve evidence gathering for underwriting teams. The current product builds workflows from task descriptions and supporting documents. That makes substantially the same research workflow plausible across markets, with buyers supplying their own criteria and analysts retaining final judgment. Access to local data sources remains uncertain. Shopmonkey reported running 64 Deep Research jobs in its first 30 days and cutting per-account research from hours to minutes. That shows repeated use in an underwriting queue. Credit top-ups and the $200 and $500 monthly API plans give retained accounts room to spend more as workload grows. The memo establishes the expansion mechanism, while realized retention and expansion remain unknown. (The Idea, Market & Traction, Key Facts)
 
-IG reported that flagged-customer activation fell from 2–3 days to under 10 minutes after a rollout that required months of shadow testing and governance approval. That shows a concrete benefit and a meaningful workflow commitment from the first buyer segment. IG also reported that the share of screening alerts reviewed automatically rose from 10% to 30%, showing deeper use within one queue. Shopmonkey’s 64 Deep Research jobs in 30 days show repeat use in adjacent underwriting. Neither account establishes paid expansion. For the recently launched managed-agent product, these are useful early signals, with evidence concentrated in one screening deployment and a short period of underwriting use. (*Market & Traction*, *Key Risks*)
+AgentRun offers a plausible developer discovery channel. Grep lists self-serve signup, a free trial, wallet top-ups, and API and SDK access. The memo leaves open whether a typical underwriting team can go from signup to paid production without founder help. The six-person company launched managed agents on October 13, 2026. The customer references and reported outcomes establish adoption, while payment status and the pace of commercial growth remain unknown. Initial traction therefore uses the absent-evidence default. (The Idea, Market & Traction, Key Facts)
+
+At the entry top-up price, a job would generate $0.10 per credit consumed, assuming credits are purchased at that rate. Contribution depends on the credits charged per job minus the cost of workflow execution, model calls, infrastructure, and attributable onboarding and support. Reusing code for routine steps and reserving reasoning calls for exceptions offers a concrete cost lever. Grep reports a 91% model-cost reduction in one internal screening benchmark. That result leaves production contribution uncertain because the memo gives neither representative credit consumption nor all-in serving costs. (The Idea, Key Risks)
 
 ### Countercase
 
-Customer-specific activation is the first link likely to break. Grep lists self-serve signup, founder onboarding, and enterprise sales, but the memo traces no screening buyer from discovery through payment. IG needed custom rule encoding, months of validation, and ongoing manual oversight for high-risk cases. Grep reports a 91% model-cost reduction in an internal screening benchmark. That suggests a way to lower inference costs, while implementation, support, oversight, and contribution on the next account remain unmeasured. One demanding rollout leaves open whether Grep can reuse enough work on the next one, so the structural downside gate does not apply. (*The Idea*, *Defensibility*, *Key Risks*)
+If ordinary buyers need Grep to encode their rules and help validate each workflow before production, growth could depend on founder and engineering time even with strong demand. IG required customer-specific screening rules, months of shadow testing, governance approval, and continued human oversight for high-risk cases. The structural gate stays open because analyst-assisted research offers a credible path to production use without taking over the regulated decision. (Defensibility, Key Risks, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 8/25 |
-| Retention and customer expansion | 10/20 |
-| Contribution as volume grows | 8/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 19/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 16/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 64/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a second independent regulated buyer take the same core screening workflow into paid production with materially less Grep implementation effort? A rollout that documents what carried over from IG, measures Grep’s implementation hours, and shows recurring paid use through the buyer’s normal screening cadence would move the action to Reach out.
+Can a cohort of underwriting teams independently reach paid production and generate positive contribution over successive billing periods? Signup and activation records, repeat billing, and attributable serving and support costs would answer it. A demonstrated cohort would move the action to Reach out.

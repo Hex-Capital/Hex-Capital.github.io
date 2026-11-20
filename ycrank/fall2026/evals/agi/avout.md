@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Avout’s strongest case is that access to asset-backed credit could constrain AI infrastructure deployment. Avout says hardware startups buy equipment before the associated revenue arrives and use venture equity when banks struggle to underwrite their assets. The investment hypothesis is that Avout can use borrower operating data to qualify those assets for lenders and secure financing that lets borrowers buy equipment sooner. Even with cheap, widely available frontier models, borrowers would still need lenders willing to fund the purchase. Whether Avout controls access to that credit remains unproven. (*The Idea*, *Defensibility*)
+Scarce complements is Avout’s strongest path. AI infrastructure companies need to buy equipment ahead of revenue. Avout says some founders use venture equity for those purchases because banks struggle to underwrite the assets. If Avout can turn borrower operating data into credit approvals that incumbents would decline, access to that financing could become more valuable as AI infrastructure demand grows. Avout reports arranging a $1.5 million term sheet for an unnamed data-center company. That signals lender interest, while funding, borrower acceptance, and access to comparable offers remain unverified. The memo provides no evidence that AI reduces underwriting labor per funded loan enough to open a New Economies path. (The Idea, Market & Traction)
 
-Avout reports helping arrange a $1.5 million term sheet for an unnamed data-center company. The memo documents no closing, disbursement, or evidence that the borrower lacked comparable offers. That gives some credit for lender interest at seed. The founders’ prior work in real-asset investing and regulated financial infrastructure supports their ability to build the underwriting process. The next execution milestone is taking a loan through funding. (*Market & Traction*, *Founders & Team*)
-
-**Scale scenario.** If Avout earns a placement fee on funded loans, the expansion unit is a closed loan. The fee must cover the cost of sourcing and underwriting applicants, including those who never receive funding, as well as the work of placing each loan. The memo gives no realized fees, close rates, or underwriting costs, so repeatable contribution remains an assumption. (*The Idea*, *Key Risks*, *Key Facts*)
+The founders’ prior work in real-asset investing and regulated financial infrastructure supports their ability to build and run the underwriting process. Under the inferred placement-fee model, each funded loan would need to generate enough fee income to cover sourcing, diligence, and work on applications that never fund. Third-party capital could limit Avout’s balance-sheet needs, but fee levels, closing rates, and underwriting costs are undisclosed. (Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Avout may be a broker in an already served market. Trinity Capital offers equipment and asset-based finance, and GPU Capital sizes server loans using appraisals and customer contracts. Avout depends on outside lenders for funding decisions, and the memo identifies no enforceable lending access or demonstrated underwriting advantage. Those facts weigh against durable capture. The memo leaves open whether a comparable lender could serve Avout’s target borrower on viable terms, so the evidence supports Watch while that substitution test remains available. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Avout may be a broker in an existing equipment-finance market. Trinity already offers equipment and asset-backed financing, and GPU Capital already sizes loans using server appraisals and customer contracts. Avout reports using borrower operating data, but the memo shows neither exclusive data access nor control over lender capacity. These alternatives make substitution credible. Whether they can fund the borrowers Avout claims are underserved remains open, so the scarce-complements path stays on Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 5/25 |
-| Customer demand | 9/20 |
-| Team and execution | 8/15 |
+| Durable value capture | 7/25 |
+| Customer demand | 7/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can Avout close and fund a loan for an independent AI infrastructure borrower that could not obtain comparable terms from credible alternatives, using a lending commitment Avout can draw on for future borrowers? A funded loan, documented alternative offers or declines, and an enforceable lender commitment would move the action to Reach out. Evidence that the borrower could secure equivalent financing directly would defeat this case and move the action to Pass.
+Can Avout secure a committed lending allocation based on its underwriting and use it to close a fee-paying loan for an AI infrastructure borrower that comparable lenders declined? A signed allocation and a funded placement with a documented fee would move the action to Reach out. Evidence that existing lenders readily offer equivalent financing to the same borrowers would move it to Pass.

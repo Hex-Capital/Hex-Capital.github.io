@@ -5,13 +5,13 @@
 
 ### Company case
 
-The strongest plausible path is **repeatable direct sales** to model teams with access to editable weights. The recurring job is to fix a specific model behavior while preserving unrelated capabilities and recording the change for audit. Perceptual describes a workflow that maps behavior to model internals and applies targeted weight edits. The job plausibly travels across markets, although weight access limits eligible buyers and the effort to integrate across architectures is unknown. (The Idea, Key Risks)
+Conditional on strong product-market fit, the strongest path is a reusable weight-editing tool for AI labs and enterprises that control editable model weights. The company proposes tracing unwanted behavior to model internals and editing the relevant weights through natural-language instructions. The same diagnosis and repair job plausibly recurs across markets. The workflow could transfer across eligible teams, but the work needed to support different architectures remains uncertain. A running edit history could support repeat use as teams make and review further changes. That retention mechanism is inferred, and recurring billing and account expansion remain unsubstantiated. (The Idea, Key Risks)
 
-The memo records an early-access email waitlist for the weight-editing product. The founders report prior custom-training work for Apple and Framer through Bryel Foundry. Those relationships could provide introductions to model teams. The growth case assumes those teams have the same recurring editing need and can adopt a common workflow with bounded founder effort. The first unproven link is getting an independent buyer from initial interest to a paid, repeatable deployment. The memo supplies no usable evidence of activation, repeat use, marginal delivery costs, or buyer commitment for the current product. (Market & Traction, Key Facts)
+The November 17 launch documents an email waitlist. The memo leaves purchase, onboarding, first use, and current-product paid adoption unverified. The founders’ reported Bryel Foundry engagements concern a prior custom-training service. The company claims direct edits could avoid costly gradient-based post-training, but the memo gives no price or measured cost for delivering and validating an edit. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Each deployment could require fresh work to identify the relevant circuitry and check that edits preserve unrelated behavior. The memo reports that frontier agents failed WeightBench’s model-patching tasks under its test constraints. If that difficulty carries over to customer models, even buyers with editable weights and an urgent need could require bespoke founder work for each deployment. The benchmark and the prior custom-training model make that risk credible. The structural downside gate remains unmet because the memo contains no customer deployments that establish proportional delivery effort. (Key Risks, Market & Traction)
+Reliable edits may require architecture-specific engineering and extensive regression testing to preserve unrelated capabilities. WeightBench’s reported patching failures under its test conditions support that concern, and the need for editable weights narrows the eligible buyer pool. The structural downside gate stays open because the memo does not establish that eligible buyers require unavoidable bespoke work or that serving them would be economically infeasible at scale. (Key Risks)
 
 ### Dimension Scores
 
@@ -19,12 +19,12 @@ Each deployment could require fresh work to identify the relevant circuitry and 
 |-----------|-------|
 | Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Retention economics | 8/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent model team fund a pilot and use a documented onboarding workflow to make a targeted edit that passes its own regression checks with bounded founder effort? A successful pilot on the buyer’s model would move the action to Reach out by showing buyer commitment and a credible path to repeatable deployment.
+Can independent labs with editable weights independently buy and adopt the same release, then pay for repeated production edits that preserve unrelated capabilities? A paid cohort with documented setup, regression results, repeat billing, and attributable delivery costs would answer it. Repeatable adoption and viable contribution would move the action to Reach out if the resulting score reaches 65 and confidence reaches Medium. Evidence that each account requires bespoke engineering that makes scaling economically infeasible would move the action to Pass.

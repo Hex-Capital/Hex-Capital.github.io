@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Product-led adoption** is Anywhere’s strongest path. The likely first users are iPhone users who regularly save place recommendations and plan outings with friends. The app brings saved places and friend locations into one map. The company describes connected agents that can retrieve map data and add pins. The same save-and-retrieve workflow could carry across markets where place data and 3D rendering are adequate. The founder reports that some destinations are already available and flags worldwide rendering performance as a challenge. Cross-market adoption remains unverified. (The Idea, Key Risks)
+Anywhere’s strongest path is a self-serve consumer map for people who repeatedly save recommendations and plan outings with friends. Assuming strong product-market fit, the same workflow can travel across markets through a common map and agent interface. The founder showed individual destinations and identified worldwide 3D rendering performance as a challenge. Practical reach depends on map and place coverage, rendering performance, and access to the current iPhone app. (The Idea, Key Risks)
 
-The memo documents a free iPhone launch, and YC reported thousands of first-week signups from one founder post. That shows a route to discovery. The first unresolved link is whether users reach value on their own by using a saved place to plan an actual outing. Friend sharing could bring new users into that workflow, and accumulated place history could give them a reason to return. Both are hypotheses at this stage. The memo provides no usable evidence of repeat use, paid conversion, or what it costs to serve additional users. (The Idea, Market & Traction, Defensibility, Key Facts)
+The free iPhone listing provides a self-serve route from discovery to signup. YC reported thousands of first-week signups from a single X post for the two-person company. That is an early adoption signal from one launch, with paid uptake and repeatable distribution still unproven. Saved pins, visit history, and shared locations give users reasons to return. The memo documents no paid Anywhere plan or way for retained users to spend more as their usage grows. (The Idea, Market & Traction, Defensibility, Key Facts)
 
 ### Countercase
 
-Launch interest may reflect curiosity about an AI-editable map. Google Maps already offers conversational place discovery, so Anywhere’s saved history and friend coordination would need to make it worth adopting for recurring plans. The 2.8/5 rating from nine U.S. reviews is a weak adverse signal, with too little detail to establish abandonment or low urgency. The broad agent permissions described by the founder could also deter users from connecting personal map data. These are testable adoption risks, and the evidence does not trigger the structural downside gate. (Market & Traction, Key Risks)
+Google Maps already overlaps with Anywhere’s conversational place discovery. Users could try Anywhere after seeing the launch and keep planning in tools they already use. The 2.8/5 U.S. rating across nine reviews is a small adverse signal. Contribution per active user also remains unproven. The memo identifies model and map dependencies and synced user data, but supplies neither revenue per user nor the incremental costs of model calls, map services, storage, and support. The structural downside gate stays open because the evidence does not establish a market-by-market rebuild, mandatory manual rollout, or unavoidable losses at scale. (Market & Traction, Key Risks, Defensibility, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 18/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 10/20 |
+| Initial traction | 4/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 52/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an iPhone cohort acquired through friend sharing after the launch independently use a saved place to plan an outing and return for its next outing? Referral and usage records showing that sequence across multiple users without founder help would move Anywhere to **Reach out**. Signups that stall before the first outing, or use that drops away by the next outing, would keep it at **Watch**.
+Can users acquired through the iPhone app convert to a paid Anywhere plan without founder help and renew while continuing to save places and plan outings? A self-serve cohort that renews across multiple billing periods at a price that covers attributable acquisition and serving costs would support moving to Reach out if the updated score reaches 65 and confidence is at least Medium. A conversion spike followed by weak renewals would keep Anywhere on Watch.

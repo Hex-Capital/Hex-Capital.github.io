@@ -5,28 +5,28 @@
 
 ### Company case
 
-Usage-based expansion is Rezora’s strongest path. The initial buyer is a real-estate agent or brokerage that needs to follow up with incoming CRM leads and book meetings. The memo documents a workflow that turns lead submissions into outbound calls and books available calendar slots. That workflow could travel to a second market if Rezora can provide local numbers, support the same CRM and calendar workflows, and meet applicable consent requirements. Rezora requires documented company-specific consent and campaign certification, which limits the pool of eligible leads. The memo gives no cross-market rollout evidence. (The Idea, Key Risks)
+The strongest path is Rezora’s inbound AI receptionist for home-service businesses that can book jobs on a connected calendar. Conditional on strong product-market fit, the same workflow could serve similar buyers abroad. Rezora says the product reads services, hours, and coverage from a business’s website, answers forwarded calls, and books available slots. Those steps are reusable. Local number availability, language coverage, and emergency routing remain unverified. Website signup and automated setup offer a plausible path to first value, while assisted demos and the sales hire leave open how often buyers activate and pay independently. (*The Idea*; *Key Risks*)
 
-Rezora reports 1,000 meetings booked across the platform, and co-founder Aidan Richards reports that agent Jose Toro closed $65,000 after using Rezora for CRM follow-up. Those reports support early buyer value, with attribution and durability still open. The prior custom-agent pilot’s founder-reported $40,000 in 40 days adds evidence of willingness to pay for the job. For the current platform, the memo lists website signup, assisted demos, and brokerage pilots but gives no account-level route from discovery to paid go-live or usage history across billing cycles. (The Idea, Market & Traction, Key Facts)
+The homepage’s $589 monthly inbound plan includes 100 minutes and charges $0.20 per additional minute. In an illustrative scenario, a retained account going from 100 to 500 minutes would pay $669, an $80 increase. That gives Rezora a way to grow revenue from the same account, though the separate pricing page quotes different terms and the memo gives no renewal or expansion data. At 500 minutes, contribution would be the $669 bill less telephony, voice processing, and attributable sales, setup, and support costs. Automated website setup could reduce onboarding labor. Each overage minute adds $0.20 before variable costs, which the memo leaves unquantified. (*The Idea*; *Key Facts*)
 
-The first link most likely to break after initial value is expansion into sustained paid call volume. That depends on each brokerage having enough eligible leads to generate repeat usage. Both published pricing descriptions list $0.20 per billable conversational minute, but they differ on whether the first 100 minutes are included. Assuming the published rate applies, each additional billable minute brings in $0.20 before telephony, inference, and any support costs it adds. The memo provides neither realized billable volumes nor marginal cost measurements. (The Idea, Key Facts, Key Risks)
+Rezora launched the current platform in January 2026, and the memo lists a five-person team. The founder’s report of 1,000 booked meetings shows activity, with paid volume and commercial growth unknown. The reported $40,000 in 40 days came from the prior custom-agent pilot. Current-platform commercial traction therefore receives the rubric default. (*Rezora IO*; *Market & Traction*; *Key Facts*)
 
 ### Countercase
 
-Rezora may have demonstrated that real-estate buyers will pay for custom automation while leaving the economics of a standard product unresolved. The strongest payment signal comes from the earlier custom-agent service, and the current meeting count could reflect short pilots or usage concentrated in a few accounts. Consent requirements could cap repeat call volume even when the first calls deliver value. The structural downside gate does not apply because the memo establishes neither a shortage of eligible leads across the segment nor a continuing need for bespoke delivery on the current platform. (Defensibility, Market & Traction, Key Facts, Key Risks)
+Calendar booking may serve too narrow a share of home-service buyers if ordinary customers need jobs written directly into dispatch software. Rezora lists ServiceTitan, Jobber, and Housecall Pro integrations as forthcoming, and urgent calls can require escalation. If routine deployments need staff to configure those workflows, the added labor could erode both self-service adoption and contribution. The structural downside gate remains open because the memo identifies a calendar-based deployment path and leaves the frequency and cost of hands-on work unresolved. (*The Idea*; *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 14/25 |
+| Retention economics | 16/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 56/100** (Neutral)
 
 ### Decisive diligence question
 
-Can several independent brokerages go live through the same setup and then grow billable CRM follow-up minutes at positive incremental contribution over successive monthly billing cycles? Account-level onboarding logs, invoices, and delivery costs showing that pattern, including setup and support labor, would move the action to **Reach out**. Consistent drop-off after initial use because brokerages exhaust their eligible lead flow would move it to **Pass**.
+Can a cohort of home-service businesses in a second market sign up, pay, and book its first jobs on the current receptionist without assisted setup, then renew at positive contribution? Activation records, renewal invoices, and attributable costs would answer it. A successful cohort would support Reach out if the evidence raises the score to at least 65 and confidence to Medium or High. Evidence that ordinary deployments require substantial market-specific rebuilding or economically unsustainable hands-on work would move the action to Pass.

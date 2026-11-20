@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap, capable browser agents make delegated activity common inside signed-in sessions, applications handling payouts or data exports may need reliable authorization for each sensitive action. The application operator bears the cost of wrongful approvals, extra challenges, and manual review. GrayPass documents a beta decision API and an enforcement design that binds signed proof to a specific action. Its behavioral continuity signals are experimental and limited to sandbox and shadow evaluation, leaving production accuracy and buyer qualification unresolved. (The Idea, Market & Traction, Key Risks)
+The strongest path is a scarce complement: verifying who controls an authenticated session when a sensitive action is requested. If browser agents increasingly act inside signed-in sessions, applications that require a human to authorize a payout or data export could place more value on checking at the moment of approval. GrayPass documents a beta decision API and short-lived proofs bound to an exact action. Its behavioral continuity signals are experimental and limited to sandbox and shadow evaluation, so the memo leaves open whether GrayPass can reliably distinguish human control from delegated activity in production. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-GrayPass reports processing more than 900,000 customer-app sessions and generating $50K in October 2026 revenue. Those claims indicate early demand, while buyer independence, repeat payment, and revenue tied to enforced actions remain unverified. The founders’ application engineering and computational research experience, together with the beta, support seed-stage execution credit. The expansion unit is another protected workflow. Action-based billing could grow with usage, but each workflow requires server-side integration, and the costs of integration, consent handling, and exceptions remain unmeasured. (Founders & Team, Market & Traction, Key Facts, The Idea, Key Risks)
+GrayPass reports more than 900,000 sessions processed and $50,000 in October 2026 revenue as of launch. These are early demand signals, with no buyer-level evidence tying payment or repeat use to agent-related workflows. The founders bring application engineering and computational neuroscience experience, and the beta API and shadow integration show progress toward a field test. (*Market & Traction*, *Key Facts*, *Founders & Team*, *Key Risks*)
+
+Customer-specific enrollment and policies embedded in approval workflows could create switching costs, though retention and migration evidence is missing. Metering by assured action gives GrayPass a plausible expansion unit, but the $500 monthly starting price and the documented need for workflow-by-workflow integration leave deployment, support, and per-action costs unresolved. (*Defensibility*, *The Idea*, *Key Risks*)
 
 ### Countercase
 
-Castle already offers transaction-time decisions using behavioral and device signals, and LexisNexis bundles behavioral biometrics with device and identity intelligence. Customers control enforcement. Tenant-scoped enrollment and embedded policies could make switching costly, but the memo gives no retention or migration evidence. The decisive risk is that an incumbent can meet the same buyer requirements, making GrayPass’s signed proof a feature buyers can source elsewhere. The documented overlap makes that credible. A representative comparison showing equivalent performance and operating burden would close Path A. (Defensibility, Key Risks)
+Existing transaction security may already satisfy buyers. Castle offers transaction-time decisions using behavioral and device evidence, and LexisNexis bundles behavioral biometrics with device and identity intelligence. These are credible substitutes, while the memo provides no head-to-head result showing whether they can match GrayPass on a workflow that needs action-bound proof. That leaves the scarce-complement path open for testing. The memo provides no independent New Economies case because it identifies neither a measured labor-cost reduction per successful outcome nor a previously excluded buyer or use. (*Defensibility*, *Key Risks*, *The Idea*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 9/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Durable value capture | 8/25 |
+| Customer demand | 11/20 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent payout operator commit budget for continued enforcement after a representative trial shows that GrayPass meets its limits on wrongful approvals, false challenges, and operating burden where the best available substitute falls short? A clear performance advantage and a paid commitment would move the action to Reach out. Equivalent results at comparable operating cost would close Path A and move the action to Pass.
+Will an independent buyer pay to keep GrayPass in production for an agent-exposed payout workflow after comparing it with its existing transaction controls? Move to Reach out if GrayPass catches materially more losses of expected human control at a comparable challenge rate for legitimate users and the buyer pays to keep it deployed. Move to Pass if the existing controls match that performance and the buyer sees no reason to pay for GrayPass.

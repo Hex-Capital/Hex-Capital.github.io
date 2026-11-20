@@ -5,26 +5,28 @@
 
 ### Company case
 
-Repeatable direct sales is the strongest path. The likely buyer is a security or engineering leader at a regulated company that builds its own AI agents. The recurring job is to verify that agents handle sensitive data safely and that fixes preserve existing workflows. The clearest buyer evidence is a Just Eat Takeaway engineering director’s testimonial crediting Armorer with resolving a specific security problem. That supports early fit. The memo gives no evidence of budget commitment or repeat use. (The Idea, Market & Traction, Key Facts)
+Assuming strong product-market fit, Armorer’s best path is to sell the same continuous verification product to security and engineering teams running sensitive AI agents across markets. Permission mapping, workflow-tested fixes, and runtime checks address a recurring job that plausibly transfers across markets. Virginia-only hosting limits access for some regulated buyers. Customer-hosted deployment offers a route to those buyers, with rollout effort still unverified. The documented acquisition motion uses research and launch visibility to generate demos, with negotiated enterprise agreements the likely purchase path. (The Idea, Key Risks)
 
-Assuming Armorer proves strong fit with this segment, the first link likely to break is the handoff from demo to production. Armorer solicits demos through its website and YC launch, but the memo does not connect those channels to the testimonial or trace an account through onboarding and payment. The job plausibly travels across markets. Armorer reports a customer-hosted option for buyers whose data residency requirements rule out its Virginia hosting, with rollout effort still unknown. The memo contains no repeat-use or expansion records, and the company-run latency benchmark leaves marginal delivery costs unmeasured. (The Idea, Market & Traction, Defensibility, Key Risks)
+Ongoing testing and accumulated regression tests and approval histories could support retention. Recurring contract terms and a way to earn more as an existing customer deploys more agents remain unverified. Just Eat Takeaway’s engineering director credited Armorer with resolving a security problem. The October 21 launch dates the enterprise product for a two-person team, while payment status and the pace of paid adoption remain unknown. (The Idea, Defensibility, Market & Traction, Key Facts)
+
+Incremental contribution would be contract revenue less attributable sales, deployment, workflow testing, infrastructure, and support costs. Armorer’s reported 1.9 ms median latency in a 50-document comparison suggests a possible compute advantage. Production resource use, contract pricing, and delivery hours remain unknown. Customer hosting could shift infrastructure costs to the buyer while increasing setup and support work. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The testimonial may reflect a one-off fix. If each buyer needs substantial work to integrate Armorer and verify fixes against its own workflows, early wins could add engineering effort in proportion to revenue. The single hosted region makes that risk concrete for buyers who need customer-hosted deployment. The memo provides no rollout records showing that this work is unavoidable or grows in proportion to sales, so the structural downside gate does not apply. (The Idea, Market & Traction, Key Risks)
+Residency restrictions could push regulated buyers into customer-hosted deployments that require substantial engineering work on each sale. Bundled security products could also make a separate purchase harder to justify. The demo-led motion and single hosted region make that risk concrete. The structural downside gate stays open because the memo leaves the amount of unavoidable deployment work and its effect on contribution unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 17/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independent buyers in the same segment go from demo to a paid production rollout for the same verification job using the same onboarding process? Account records showing payment, go-live, and measured setup hours that fit the contract economics would move the action to **Reach out**.
+Can comparable regulated buyers with different residency requirements go live on the same paid production package at positive incremental contribution? A dated set of deployments with realized fees, sales and setup hours, and ongoing service costs would answer it. Move to Pass if those deployments reveal unavoidable bespoke work that makes faster growth economically infeasible. A repeatable, profitable rollout would justify rescoring for Reach out, subject to the 65-point and Medium-confidence thresholds.

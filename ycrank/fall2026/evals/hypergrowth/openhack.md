@@ -5,26 +5,28 @@
 
 ### Company case
 
-Product-led adoption is OpenHack’s strongest path. Engineering and application-security teams have a recurring job as code ships. They need to triage security findings and fix the ones that matter. The memo documents an open-source CLI and a free tier with one project, five monthly pull-request reviews, and one full scan. If teams can get a useful finding through that workflow on their own, they could adopt OpenHack during routine code review and extend it to more repositories. The same job and workflow could travel across markets where buyers accept the repository-access requirements. The memo gives no buyer geography or cross-market rollout evidence. (The Idea; Key Risks)
+OpenHack’s strongest path is developer-led adoption of continuous application security. Assuming strong product-market fit with engineering and application-security teams that can grant managed repository access, the same pull-request review and scanning workflow could serve teams across markets with little geographic adaptation. The memo documents an open-source CLI, self-serve signup, and a free tier that includes one project and five pull-request reviews per month. These give developers a way to discover and try the product. The documented paid offer is custom Enterprise pricing with founder-led demos and onboarding. (The Idea, Key Risks)
 
-OpenHack reports that Papermark fixed a cloud-storage exposure it flagged. That fix is a concrete early signal of benefit, while the six other named users provide limited evidence about commitment or fit. The memo documents interest in the CLI but gives no account that traces an independent buyer from discovery through self-serve activation and payment. It also gives no usable evidence of repeat customer behavior, paid expansion, or marginal delivery costs. Those three dimensions receive their defaults. Confidence is Low because the evidence for the critical step from free use to paid adoption is indirect. (Market & Traction; Key Facts)
+The memo records 444 GitHub stars shortly after the November platform launch. OpenHack names six users and reports that Papermark fixed an issue it flagged. Those signals establish interest and reported use. Paying-customer status and realized revenue are unknown, so the traction score uses the rubric default. Recurring pull-request reviews and customer-specific infrastructure maps could support repeat use. Expansion to more repositories is plausible, but the memo gives no terms showing how additional usage would increase an existing customer’s bill. (Market & Traction, Defensibility, Key Facts)
+
+Incremental contribution would be paid account revenue less model compute, hosting, and attributable onboarding and support. At $0, managed scans that incur compute costs have negative direct contribution. The free-tier caps limit that exposure per account. Paid account prices and representative serving costs are both unknown, so the cost score uses the rubric default. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-The first link likely to break is the move from self-serve use to a paid rollout. Managed scans require temporary access to private repositories, and the enterprise motion described in the memo uses founder-led demos and onboarding. GitHub’s built-in remediation also gives existing GitHub Code Security buyers an option within their current workflow. If teams see value in an initial scan but each paid deployment requires substantial founder involvement or custom work, the free tier could generate interest without a repeatable paid channel. The structural downside gate does not apply because the memo gives no rollout records showing that effort rises in proportion to sales or that onboarding cannot be standardized. (The Idea; Key Risks)
+The free CLI could attract developers while monetization depends on enterprise sales. Managed scanning requires temporary access to private repositories, and buyers with stricter controls may need the on-premises Enterprise option. If those buyers account for most paid demand, founder-led onboarding and deployment could recur with each sale. The structural downside gate clears because the memo leaves open a credible path for teams that can use managed scanning and provides no evidence that paid growth necessarily requires bespoke deployment or uneconomic serving costs. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 57/100** (Neutral)
 
 ### Decisive diligence question
 
-Can several independent engineering teams move from the CLI or free tier to a paid rollout through the same onboarding process with limited founder time? Account records showing first useful findings, payment, and onboarding hours for those teams would move the action to Reach out.
+Can teams acquired through the CLI activate a paid managed account without founder-led onboarding and generate positive contribution over repeat billing periods? A cohort linking CLI acquisition to independent activation, repeat invoices, and attributable scan and support costs would move the action to Reach out if it showed this working across multiple accounts. Until then, Watch.

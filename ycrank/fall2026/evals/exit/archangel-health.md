@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A frontier lab or medical AI developer could buy Archangel’s physician-graded EHR simulations and the rights to reuse them across model releases. Ownership could be worth paying for if the simulations reliably catch consequential workflow failures that the buyer’s existing tests miss and securing the same coverage through licensing or internal development costs more. The memo documents a public listing for the data offering. Archangel reports use by frontier labs and medical AI developers, with customer identities, payment, and repeat usage unverified. (The Idea, Market & Traction)
+The strongest path is a strategic acquisition by a frontier lab or medical AI developer. Archangel’s current offering is publicly listed, and the company reports use by both buyer classes, with customer identities, counts, and paid status unverified. A buyer could gain a reusable way to test whether agents execute clinical tasks inside an EHR, supported by company-reported specialist grading and dataset provenance records. Owning that capability could save the buyer development time if the simulations expose failures its existing tests miss and the necessary data rights carry through the sale. Measured buyer benefit and willingness to acquire remain unverified. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
 
-A paid renewal after a head-to-head evaluation would be a measurable milestone. The test should count additional consequential failures detected on the same workflows, such as documenting an intended order without placing it. The listed product makes a test plausible. The memo gives conflicting backing figures of $125,000 and $500,000 and provides no burn or runway data to establish how much work Archangel can fund. (The Idea, Market & Traction)
+A paid production renewal that documents incremental value over existing tests is a plausible seed-stage milestone. The listed product and reported use give Archangel a starting point for that test. Conflicting funding figures leave runway and the capital needed to reach the milestone uncertain. A stock acquisition of the listed operating entity is a plausible structure, subject to license terms and any required consents. (*Market & Traction*, *Key Risks*)
 
-**Proceeds scenario.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% after 40% relative dilution, with no follow-ons. The eight-year target is $2.5 million gross. At 3%, that requires $83.3 million in distributable equity, or $88.3 million in enterprise value with illustrative net debt of $5 million. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. After the same illustrative debt, a $25 million sale yields $600,000 before investor taxes (1.2×), and a $100 million sale yields $2.85 million (5.7×). The memo supplies no supported sale price, actual shareholder terms, or amounts for debt, fees, or senior claims. (Market & Traction, Key Facts)
+Under the benchmark, a $500,000 check at a $10 million post-money valuation starts at 5%, dilutes to 3% with no follow-ons, and needs $2.5 million in cash within eight years for a 5× gross return. That requires about $83.3 million in distributable equity value at full pro rata participation. The sale cases below are illustrative. Both assume a close within eight years, $5 million in net debt and deal deductions, an eligible holder selling its entire stake for cash at closing, and a pro rata waterfall with no further preference leakage.
 
-If growth plateaus, buyers stay away, public scale remains out of reach, and Archangel reinvests all available cash without an eligible secondary or payout, the holder realizes $0 over eight years and retains the shares. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo gives no basis to estimate. The memo supplies no cash-generation evidence for a buyout or company-funded payout, no eligible secondary demand, and no operating-scale evidence for an IPO and resale. (Market & Traction, Key Facts)
+| Scenario | Proceeds bridge | Holder cash |
+|----------|-----------------|-------------|
+| Modest sale | $40M enterprise value less $5M in deductions yields $35M in distributable equity | $1.05M (2.1×) |
+| Strong sale | $105M enterprise value less $5M in deductions yields $100M in distributable equity | $3.00M (6.0×) |
+| Prolonged private | Continued operation with cash reinvested and no funded payout or eligible share purchase | $0 (0×) |
+
+The memo leaves buyer pricing, acquisition comparables, and the actual holder waterfall unverified. The strong case shows what would clear the hurdle. The memo supplies no basis for underwriting that price or an independent liquidity route. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A lab can start with the public PhysicianBench benchmark and license custom evaluations or data as needed. Archangel describes limits on onward sharing, which could reduce the usefulness of acquiring the datasets. The memo leaves open whether the necessary reuse rights survive a change of control. These are material risks to buyer willingness and closing. The evidence establishes neither a structural block nor materially inadequate proceeds under a supported sale price, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
+Stanford’s public PhysicianBench already tests multi-step EHR workflows. A lab could use it for benchmarking and license specialist data or custom evaluations as needed, reducing the value of owning Archangel. The company describes limits on onward sharing, and reuse and change-of-control permissions remain unverified. Those risks could weaken buyer economics or require consent, but the memo leaves both the scope of any transfer restriction and the highest credible sale price unresolved. Neither Pass gate is established. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 4/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-What acquisition value would a strategic buyer underwrite for the clinical evaluation assets it could retain after a change of control? A buyer-backed valuation range that clears the modeled $88.3 million hurdle, supported by measured gains in a paid comparison and verified post-close reuse rights, would move the action from Watch to Reach out.
+Can a paying frontier lab or medical AI developer quantify enough incremental value from owning Archangel’s clinical workflow suite to support a sale above the holder’s proceeds hurdle? A paid renewal or expansion with buyer-verified gains over its existing tests, an estimate of the cost to reproduce those gains, and contract terms that preserve the necessary rights through a sale would answer it. Move to Reach out if that evidence supports at least $83.3 million in distributable equity value under the benchmark.

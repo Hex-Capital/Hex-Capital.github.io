@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If AI-enabled vehicle programs increase demand for integrated power systems, vehicle builders and primes that rely on separate pack and electronics suppliers could face longer development schedules. SPM says it designs both in-house. The investment case is that SPM could relieve that integration constraint and retain production orders if switching suppliers requires substantial requalification. The memo leaves both the AI-driven demand increase and the cost of switching unmeasured. (*The Idea*, *Defensibility*)
+The strongest path is **scarce complements**. If AI adoption increases deployments of autonomous vehicles, qualified battery and power-system integration could become more valuable where vehicle builders lack in-house electrical expertise. SPM offers pack design, power electronics, vehicle integration, and power export in one engagement. SPM identifies coordination across suppliers as a source of delay. The memo leaves open whether AI-driven deployments are increasing demand for this work or whether integration is actually delaying those deployments. (The Idea)
 
-SPM reports $421,815 in realized revenue in one month and separately describes more than $400,000 in contracted revenue in one month. The memo leaves the relationship between those figures unclear. Reported participation in four federal contracts and production bookings into February 2027 support early demand, while repeat orders from independent buyers for bottleneck relief remain unverified. Powers’ prior high-voltage vehicle integration work supports seed-stage execution credit. (*Key Facts*, *Market & Traction*, *Founders & Team*)
+SPM reports $421,815 in realized revenue in one month, participation in four federal contracts, and production bookings into February 2027. Its launch separately describes over $400,000 in contracted revenue. The overlap is unclear, so the figures are treated as one early demand signal. Buyer identities, repeat orders, and purchases tied to an autonomy-specific bottleneck remain unverified. Founder Jonathan Powers’s prior high-voltage vehicle integration work supports execution at this stage. Repeat production is the next gap. (Market & Traction, Key Facts, Founders & Team)
 
-The expansion unit is a fleet order for a qualified design. Separately contracted engineering could cover customization, while repeat unit pricing would need to cover sourced cells, assembly, and testing. Realized unit costs, production yields, and utilization remain unknown as SPM expands capacity. (*The Idea*, *Key Risks*)
+The expansion unit is a repeat build of a qualified configuration. In that scenario, separately billed engineering could cover upfront integration, and repeat units would need to cover cells, assembly, testing, and the cost of added production capacity at actual utilization. The memo establishes the quote-based sales model and reports a capacity expansion. It leaves repeat-build costs and margins open. (The Idea, Key Risks)
 
 ### Countercase
 
-Inventus Power already designs and manufactures complete military battery and power systems. SPM reports a patented pack-design method, but its scope and protection are unclear. Current sales could reflect ordinary procurement that established suppliers can serve. The memo documents product overlap and leaves equivalence on vehicle integration and delivery unresolved, so the path stays open on Watch. The memo offers no evidence of automation lowering delivered labor cost enough to open a new market under Path B. (*Defensibility*, *Market & Traction*)
+Inventus Power already designs and manufactures complete military battery and power systems. SPM reports a patented pack-design method, but its scope is unclear, and switching costs remain an inference contingent on repeat production. The reported orders could reflect ordinary defense electrification demand. Incumbent overlap weakens the scarcity case, while the memo leaves substitution on a full vehicle integration job unresolved. That keeps the action at Watch. The memo provides no independent New Economies case. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 8/25 |
-| Durable value capture | 8/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 12/20 |
-| Team and execution | 7/15 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent prime commit production budget for an AI-enabled fleet expansion after qualifying SPM against an incumbent? Move to Reach out if the buyer confirms that the expansion creates a binding integration constraint, the qualification shows that the incumbent cannot meet the same requirements on the needed schedule without substantial rework, and the order price covers repeat-build costs. An incumbent meeting the same requirements on comparable terms would close Path A and move the action to Pass.
+Will an independent buyer place a paid production reorder with SPM for an autonomous vehicle program because qualified power integration is holding up deployment? A purchase order and buyer confirmation that credible alternatives could not meet the program’s qualification schedule would move the action to Reach out. Evidence that the buyer could switch suppliers on comparable terms and timing would move it to Pass.

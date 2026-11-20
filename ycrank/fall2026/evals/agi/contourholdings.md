@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Contour’s strongest case is that AI infrastructure buildout raises the value of environmental permitting capacity. Contour says manual studies, application preparation, and revisions delay construction. It proposes acquiring consultancies and using Cortex for rule research, emissions calculations, and drafting, with staff retaining technical judgment. If consultant capacity is the binding constraint, this could let each practice deliver more accurate, accepted applications per specialist and give Contour control of the resulting capacity through ownership. The memo provides no measured throughput or completed acquisition. (The Idea, Defensibility)
+Contour’s strongest path is an operations-led New Economy in environmental permitting. The memo describes consultants manually researching rules, calculating emissions, preparing applications, and coordinating revisions. Contour says Cortex would automate research, calculations, and drafting inside acquired practices while staff retain technical judgment and client work. The investment hypothesis is that lower labor per successful filing could make smaller permitting engagements viable for developers who previously deferred them over cost. The excluded buyers and the cost reduction remain unverified. (The Idea, Key Risks)
 
-The observed traction is a public launch. The memo records no independent buyer committing budget or projects to Contour. Agrawal’s prior delivery of an enterprise AI search system and Lubar’s investment banking experience support early execution credit, while operating an acquired permitting practice is still untested. (Market & Traction, Key Facts, Founders & Team)
-
-The expansion unit is one acquired practice. **Scenario assumption:** At comparable filing quality, savings in staff time per accepted application could support repeat acquisitions if they cover ongoing review, corrections, on-site integration, and acquisition capital at realistic utilization. The memo gives no measured inputs for that calculation. (The Idea, Key Risks)
+The relevant comparison is fully loaded cost per accepted filing for comparable work, including staff review, corrections, model usage, and effort spent on unsuccessful filings. Expansion would require fees and filing volume at each acquired practice to cover delivery costs, integration, and the capital committed to the purchase. Under model parity, buyers could still pay Contour for accountable technical review and local permitting execution if it controls that delivery and buyers prefer it when comparable alternatives are available. The memo supplies no completed acquisition, comparative field results, or buyer commitments. It documents a public launch and relevant founder experience in enterprise AI and investment banking. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Agency review or required expert sign-off could set the schedule, leaving faster drafting with little effect on construction readiness. Errors in emissions calculations could also add rework before certification. Under cheap, widely available intelligence, incumbent consultancies could pair their staff with comparable tools. ERM’s partnership with Blumen demonstrates access to overlapping capabilities, while True Environmental’s acquisition activity shows competition for the practices Contour wants to own. Those observations leave end-to-end substitution untested. The path stays open at Watch because neither the binding constraint nor Contour’s control of capacity has been demonstrated. (Key Risks, Defensibility, Market & Traction)
+Cortex could reduce drafting time for existing engagements while technical review and emissions corrections absorb enough of the savings to leave smaller jobs uneconomic. Incumbents can source overlapping permitting tools, as ERM’s partnership with Blumen illustrates, and True Environmental is already acquiring practices. That puts pressure on both the proposed labor advantage and Contour’s ability to acquire and control service delivery. The evidence leaves market opening and durability under model parity unproven, which keeps the action at Watch. A separate scarce-complements path lacks evidence of a durable bottleneck that Contour controls and whose value rises with AI demand. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 6/25 |
 | Customer demand | 5/20 |
-| Team and execution | 6/15 |
-| Scale economics | 5/15 |
+| Team and execution | 8/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent infrastructure developer pay to reserve follow-on capacity at a Contour-owned practice after a matched pilot shows that it delivers accepted applications with materially fewer consultant hours and shorter consultant-controlled turnaround than a comparable practice using equivalent models? A paid commitment after controlling for jurisdiction, filing complexity, and rework would move the action to Reach out. A representative result showing equivalent capacity from the comparison practice would close Path A and move the action to Pass. (The Idea, Defensibility, Key Risks)
+Can a Contour-controlled practice win and complete paid permitting work from independent developers who previously deferred it over cost? Move to Reach out if a first paid cohort documents that prior cost barrier, demonstrates a material drop in fully loaded cost per accepted filing against comparable manual work, and chooses Contour when a provider with comparable AI is available. If a representative cohort shows the work remains uneconomic and no other path gains support, move to Pass.

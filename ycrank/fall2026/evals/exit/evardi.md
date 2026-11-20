@@ -5,33 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Evardi’s strongest path. A distribution-grid software vendor could buy Evardi’s transformer load modeling and switching-order checks to add those capabilities to its utility software. The reason to own Evardi would be the ability to reuse its integrations and deploy the workflow across utility customers faster or at lower cost than building or licensing it. That benefit is an inference. Buyer interest and the economics of ownership remain unverified. (The Idea; Defensibility)
+The strongest route is a strategic acquisition by an outage or distribution management vendor. Evardi combines transformer-level load estimates with switching-order checks tailored to each utility’s topology and operating limits. An incumbent could acquire that capability to improve its switching workflow and sell it to existing utility customers. Evardi reports that its switching-order simulation caught 60% of errors that passed manual review and that simulated storm drills produced 42% fewer unsafe switching actions. Those results give a buyer a reason to test the product. The economic value in live operations remains open. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Evardi reports deployments at utilities serving more than 10 million customers and says its switching-order simulation caught 60% of errors that passed manual review. Its terms describe the published studies as simulations on public data. A paid production rollout that measures errors caught and review time against the utility’s existing workflow is a plausible next milestone. The memo gives no cost, timeline, or committed funding for that test. It also leaves ownership of the core software and transfer rights for utility data and contracts unverified. (Market & Traction; Key Risks; The Idea)
+With actual investor terms unavailable, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and zero follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity value at 3% ownership. Both sale scenarios assume closing within eight years, $10 million in combined net debt and deal adjustments, a pro rata waterfall with zero senior claims, and an eligible holder selling the full stake for cash at closing.
 
-**Proceeds scenario.** The memo provides no usable evidence for a realizable acquisition price or actual holder terms. The shared scenario assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. That requires about $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million in illustrative net debt, the 3% hurdle is about $88.3 million in enterprise value. Fees and preference claims are unquantified. (Key Facts; Market & Traction)
+| Scenario | Assumed enterprise value | Distributable equity | Holder cash |
+|---|---:|---:|---:|
+| Modest sale | $50M | $40M | $1.20M (2.4×) |
+| Strong sale | $100M | $90M | $2.70M (5.4×) |
+| Prolonged private with reinvestment | — | — | $0 realized |
 
-- A **$25 million sale** in year eight returns **$600,000 gross (1.2×)** at 3% after the assumed net debt. A **$100 million sale** on the same terms returns **$2.85 million gross (5.7×)**. Both prices are scenario assumptions.
-- If utility adoption plateaus, buyer interest fails to materialize, public-market scale stays out of reach, and Evardi reinvests available cash for eight years with no secondary or payout, the holder realizes **$0** and retains the shares. In a wind-down, only the residual after obligations and preferences is available to this holder. The memo provides no basis to quantify that residual. (Key Facts; Market & Traction)
+These sale values illustrate the hurdle. At $90 million of distributable equity, dilution to 2.5% would reduce holder cash to $2.25 million. The memo supplies no revenue, buyer pricing evidence, or comparable transaction to anchor either sale price. It also leaves contract transfer, utility data rights, and holder participation unverified and supplies no evidence of an independent payout route. (The Idea, Market & Traction, Key Facts)
 
-A sponsor buyout lacks evidence of predictable cash generation. Dividends or buybacks lack evidence of distributable cash. The memo also supplies no evidence of eligible secondary demand or an operating path to IPO scale. (Key Facts; Market & Traction)
+A paid production deployment that measures switching performance against the utility’s existing workflow is the next milestone. Evardi’s reported deployment footprint suggests access to utilities where that test could happen. The memo leaves the scope of those deployments and the capital and time needed for live validation, integration, and security review uncertain. (Market & Traction, Key Risks)
 
 ### Countercase
 
-SMUD reports deploying meter-based transformer mapping and load monitoring alongside an AspenTech outage management integration for coordinated switching and restoration. That gives prospective buyers a documented way to cover overlapping workflows through integration. Evardi’s simulated results leave its incremental value in live operations unresolved, so a vendor could favor integration or licensing over ownership. The overlap weakens the acquisition case. The Pass gate remains untriggered because the evidence establishes neither a structural block nor materially inadequate proceeds at a supported sale price. (Defensibility; Key Risks)
+SMUD reports using meter-based transformer mapping and load monitoring alongside an AspenTech outage management integration for coordinated switching and restoration. That deployment shows that an incumbent stack can cover overlapping workflows and weakens the case that a vendor would pay to own Evardi. The memo leaves Evardi’s incremental value in live operations unresolved. The evidence establishes a credible substitute in one utility, with insufficient support for a structural block across the buyer class or a sale-price ceiling below the holder’s hurdle. Neither Pass gate is triggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production rollout show enough incremental value over the utility’s existing workflow for a grid software vendor to justify buying Evardi at a price that clears the holder’s cash target? Utility-verified reductions in switching errors or review time, paired with a credible buyer estimate of the value of owning and deploying the software across its customers, would answer it. Move to Reach out if that evidence supports a price range that clears the roughly $88.3 million illustrative hurdle after debt at 3% ownership, with sensitivity to further dilution. A successful rollout with acquisition economics still unquantified keeps the action at Watch. (The Idea; Market & Traction; Key Risks)
+Can a strategic buyer justify an acquisition that clears the holder’s cash hurdle using measured gains from a paid production deployment? A utility-validated comparison against its incumbent workflow, tied to a credible buyer estimate of the value of acquiring the product, would move the action to Reach out if the implied price clears the hurdle after deal adjustments. A supported price ceiling materially below the hurdle on the strongest route would move it to Pass.

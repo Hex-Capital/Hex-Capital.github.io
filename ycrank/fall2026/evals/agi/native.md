@@ -1,30 +1,30 @@
 ﻿# Native -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Path B — New Economies. Native could make regular marketing viable for small businesses that publish sporadically or go without it because owner time or agency fees make a regular cadence too costly. The launched product ranks ideas, generates creative, and publishes with optional approval. The founders previously built Wepost and bring experience in content production, applied ML, and agency sales. Shipping the workflow supports seed-stage execution credit. (The Idea, Market & Traction, Founders & Team)
+New Economies is the strongest path. Native bundles topic selection, creative production, and publishing into a subscription that starts at $79 per month for one brand. The previously excluded use would be running regular campaigns at businesses whose owners lack the time to do the work and whose budgets rule out an agency. Assuming matched campaign quality and equal ad spend, the cost test is whether the subscription plus remaining owner review time lowers the cost per successful campaign below the former cost of owner labor or agency fees. The memo gives the subscription price and describes the workflow, but leaves the former cost, review time, and cost per successful campaign unmeasured. Native’s HAVN Storage case study reports 9,495 impressions versus 2,322 in the prior period. That comparison leaves labor savings and conversion lift unresolved. (The Idea, Market & Traction, Key Risks)
 
-At the listed $79 monthly price for one brand, the market-opening scenario assumes that the subscription plus remaining owner time for review, revisions, and exceptions costs less per approved, published campaign of comparable quality than owner-led or agency delivery. The memo provides no labor or cadence comparison. Native reports 2,200+ paying customers and its CEO reports more than $2M ARR, supporting willingness to pay while leaving customers’ prior marketing cadence and renewals unknown. The single brand is a plausible unit of expansion, and the CEO reports acquisition cost falling from roughly NOK 1,800 to NOK 800. Contribution and payback remain unverified without inference, support, and retention data. (The Idea, Market & Traction, Key Risks)
+Native reports more than 2,200 paying customers, and its CEO reports more than $2 million in ARR. Those figures support willingness to pay for the product. The share of buyers who could only afford regular marketing after adopting Native, and their renewal behavior, remain unknown. The team previously built Wepost together and shipped Native publicly in March 2026, showing relevant delivery experience. A paid brand workspace is a plausible unit of expansion, and the CEO reports acquisition cost fell from roughly NOK 1,800 to NOK 800 per customer. Retention, inference and support costs, and acquisition costs at higher spend remain unmeasured, leaving contribution and payback uncertain. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Native could be selling a cheaper workflow to businesses that already market regularly. Under model parity, Norn’s history of approvals, edits, and post performance could give customers a reason to stay if it reliably improves what gets published. The memo shows no buyer preference or renewal against an equivalent alternative. Google already offers website-derived brand assets, and Meta offers overlapping creative tools on the platform Native uses for paid automation. Native’s reported increase in impressions for HAVN Storage leaves labor savings and conversion lift unmeasured. Both Path B conditions remain open, supporting Watch. (Defensibility, Market & Traction, Key Risks)
+Native may make an existing marketing workflow cheaper while buyers get comparable results from competing tools. The memo documents overlapping creative features from Google and Meta, publishing and campaign tools from other vendors, and Native’s reliance on Meta for paid automation. Native says Norn learns from approval, edit, rejection, and performance signals. That history could make Native’s recommendations more valuable, but the memo leaves repeatable lift, buyer preference at functional parity, and benefits to existing customers from adding more users unproven. The overlap makes substitution credible while leaving full workflow parity and buyer switching unresolved. Both the market-opening and durability gates remain open, supporting Watch. The memo establishes no independent scarce-complement path. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 12/20 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 9/25 |
+| Customer demand | 14/20 |
 | Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Scale economics | 8/15 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 53/100** (Neutral)
 
 ### Decisive diligence question
 
-Will a representative cohort of small businesses that previously went without regular marketing sustain a paid publishing cadence with Native and renew after trying a functionally equivalent alternative? A trial that documents the prior cost or labor barrier, measures labor and full delivery cost per campaign at comparable quality and ad spend, and records paid renewals after the comparison would answer both gates. Reach out if the trial shows that Native makes the cadence economical and buyers still choose to pay for it under parity. Pass if a representative trial shows the cost barrier persists or buyers readily switch while preserving the outcome.
+Will small businesses that previously skipped regular campaigns because of cost renew Native at full price after trying a comparably capable alternative? Follow one cohort through renewal and compare owner time and total cost per campaign that meets a predefined business outcome, at equal ad spend. Move to Reach out if the cost reduction enables those businesses to run campaigns regularly and they consistently renew Native after the comparison. Move to Pass if the test shows that the cost reduction only improves campaigns buyers already ran or that buyers readily switch at parity.

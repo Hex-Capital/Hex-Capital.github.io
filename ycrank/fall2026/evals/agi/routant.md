@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap frontier models lead more software vendors to deploy agents inside enterprise systems, private connectivity and security approval could become the bottleneck. Routant describes a gateway that connects to customer-managed systems through outbound-only connections and enforces customer-defined permissions, approvals, and audit logging. The proposed value is getting deployments through enterprise security review without rebuilding access controls for every customer. The memo gives no field comparison showing where that constraint binds or how much Routant relieves it. (The Idea, Key Risks)
+Routant’s strongest path is **scarce complements**. Enterprise approval to access private systems could become a bottleneck as more vendors deploy agents. Routant says vendors integrate once through MCP, while each enterprise connects private systems through an outbound gateway and sets its own permissions and approval rules. If those controls let vendors put otherwise blocked workflows into production, Routant could charge for operating that access layer. The scarcity of approved access and Routant’s ability to capture its value remain untested. (The Idea, Key Risks)
 
-Customer-specific policies and approval workflows could make a live installation costly to replace. That is an inference, and the memo shows neither measured switching costs nor exclusive access. The public launch and demo show early product progress, and Mehta’s work on automated trading systems is relevant to the design. The memo documents no independent production deployment, buyer commitment, or revenue. (Defensibility, Founders & Team, Market & Traction, Key Facts)
+The public launch and demo, together with Mehta’s experience building pricing models in automated trading, support early execution credit. The memo records launch engagement but provides no evidence of buyer commitments, paid pilots, or production usage. (Market & Traction, Key Facts, Founders & Team)
 
-The expansion unit is one additional enterprise deployment through an existing vendor integration. If the vendor can reuse that integration, Routant could spread the initial work across customers. Each enterprise still has to connect its systems and configure its policies. Gateway reliability and human approval delays could affect the cost and throughput of each deployment. The memo provides no measured rollout costs or realized pricing. (The Idea, Key Risks)
+The expansion unit is one additional enterprise deployment for an already integrated vendor. Reusing the vendor integration could lower setup costs, while enterprise-specific onboarding, policy configuration, gateway support, and approval delays could limit the savings. Subscription revenue is an assumption, and the memo provides no pricing or deployment cost data to establish contribution per rollout. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-AWS Bedrock AgentCore already offers overlapping private connectivity and centralized MCP governance. For an AWS customer, the native option could clear the same security review with comparable rollout effort. The memo documents feature overlap and leaves equivalence in customer-managed environments untested, so the substitution gate remains open. The memo also provides no evidence that lower delivered labor costs unlock a previously excluded buyer or use, leaving Path B unsupported. (Defensibility, Market & Traction, Key Risks)
+AWS already offers overlapping private connectivity and MCP governance, and other vendors cover scoped credentials, approvals, or access policies. Enterprises control their own permissions, and the potential migration work from installed gateways and policies is inferred. The memo provides no buyer comparison showing that Routant wins or that customers can readily substitute for its full cross-environment deployment. The scarce-complement path therefore stays open on Watch. The memo also provides no independent New Economies case showing that lower labor cost makes a previously uneconomic use viable. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 6/15 |
-| Scale economics | 6/15 |
+| Team and execution | 7/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can Routant win a paid production rollout by clearing an independent enterprise’s security requirements that its best available substitute cannot meet within the same deployment window? A side-by-side qualification using the same requirements, followed by paid deployment that depends on Routant’s demonstrated advantage, would move the action to Reach out. If the substitute qualifies with comparable effort in a representative rollout, move to Pass.
+Will an independent software vendor pay Routant to put a previously blocked agent workflow into production after its enterprise customer evaluates the best available alternative? Move to Reach out if the deployment is live, the vendor pays, and the customer confirms that Routant met a required access or approval constraint the alternative could not meet at comparable cost.

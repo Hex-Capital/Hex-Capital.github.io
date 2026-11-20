@@ -5,17 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A food-distribution ERP vendor could buy Asakana to add multilingual order intake, customer-specific SKU matching, and workflows for returns, credits, and purchase orders. Asakana reports that its live seafood distributor deployments returned more than 40% of order-desk time to selling. That claim suggests a customer benefit. The case for ownership depends on whether acquiring the integrations and customer relationships would let a buyer sell the workflow faster or more profitably than building or licensing it. The memo gives no buyer-side estimate of that benefit or usable sale-price evidence. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+The strongest path is a strategic acquisition by a food-distribution software vendor such as Pepper. The buyer rationale is inferred. Asakana could extend Pepper’s order capture and payments offering into returns, credits, and purchase-order creation within distributors’ existing ERPs. Asakana reports live seafood-distributor deployments and says they return more than 40% of order-desk time to selling. That figure describes the overall workflow. The value of the additional workflows to Pepper remains unmeasured. (The Idea, Market & Traction, Key Risks)
 
-A milestone that would strengthen the acquisition case is paid renewals across multiple distributors and ERP systems, with customer-verified labor savings after exception handling and measured integration and support costs. Reported live deployments make that test plausible. The memo documents $20,000 in awards and confirms YC participation. The reported $500,000 convertible note and estimated $125,000 seed entry leave available capital and financing terms unresolved. Runway and the cost of reaching the milestone are unknown, as are the rights to transfer customer contracts, data, and integrations. (*Market & Traction*, *Defensibility*, *Key Risks*)
+The documented transaction-volume commission gives Asakana a way to monetize usage. Repeatable paid deployments across multiple ERPs, with measured workflow savings and integration costs, would show whether the product scales economically. The reported deployments make that milestone plausible. Custom connections for legacy ERPs and ongoing exception handling leave the capital required uncertain. Contract and consent continuity under a sale remain unverified, and the memo supplies no evidence of an independent liquidity route. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The $2.5 million gross cash target within eight years requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires $88.3 million in enterprise value. On a simple pro rata basis before taxes, a $25 million sale at year eight yields $600,000 (1.2×) and a $100 million sale yields $2.85 million (5.7×). Actual debt, fees, and senior claims are unknown. These scenarios establish the hurdle.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative assumptions. Both assume a full sale by year eight, $5 million in combined debt and deal adjustments, holder eligibility, no senior preference claims, and a pro rata cash payout at closing.
 
-If growth plateaus, buyers stay away, public scale remains out of reach, and Asakana reinvests available cash for eight years, the holder realizes $0 and retains the shares. The memo supplies no predictable cash generation to support a buyout or funded payout, no eligible secondary demand, and no evidence of IPO readiness. Wind-down proceeds are unquantifiable without asset values, obligations, and preferences. (*The Idea*, *Market & Traction*, *Key Facts*)
+- **Modest sale.** $40 million in enterprise value leaves $35 million in distributable equity and $1.05 million in holder cash, or 2.1×.
+- **Strong sale.** $100 million in enterprise value leaves $95 million in distributable equity and $2.85 million in holder cash, or 5.7×. At that equity value, an eligible sale of only 80% of the holder’s stake at the same per-share price yields $2.28 million, below the objective.
+- **Prolonged private.** Continued operation with cash reinvested and no eligible share purchase yields $0 in realized holder proceeds within eight years.
+
+The memo gives the commission structure and competitor funding rounds. Revenue scale, buyer pricing, and acquisition comparables remain unknown, so the strong case shows what would clear the hurdle under the stated assumptions. (The Idea, Market & Traction)
 
 ### Countercase
 
-Choco already posts orders into existing ERPs and flags exceptions, while Pepper already extracts orders from voicemail and email. Those existing products are more direct evidence of available alternatives than the reported labor savings are of a buyer’s willingness to pay. Custom work on legacy ERPs could also make deployments expensive to replicate. This weakens the acquisition case, while the memo leaves open whether a buyer would pay for Asakana’s broader workflows or customer relationships. The evidence establishes neither a structural closing block nor an inadequate ceiling on proceeds, so the Pass gate does not apply. (*Defensibility*, *Key Risks*)
+Pepper already captures orders from voicemail and email, and Choco already posts orders directly to ERPs with exception review. An incumbent could extend its own product, especially if Asakana’s customer-specific mappings and legacy ERP connections add service costs or prove difficult to reuse. That overlap weakens the case for paying an acquisition premium. A structural block or a payout shortfall across all credible sale cases remains unproven, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -23,12 +27,12 @@ Choco already posts orders into existing ERPs and flags exceptions, while Pepper
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-What would a food-distribution ERP vendor pay to own Asakana after paid renewals demonstrate repeatable economics across ERP systems? A buyer-side build-versus-buy analysis grounded in those deployments, supporting a price range that could deliver $2.5 million to the holder after dilution and senior claims within eight years, would move the action to Reach out.
+Would an incumbent such as Pepper pay enough to acquire Asakana’s additional workflows and integrations for the holder to clear $2.5 million in cash within eight years? A buyer-side build-versus-buy assessment grounded in measured results from paying distributors, with a price range that clears the holder’s hurdle after deal deductions and the payout waterfall, would move the action to Reach out. A supported price ceiling that leaves the holder materially short would move it to Pass.

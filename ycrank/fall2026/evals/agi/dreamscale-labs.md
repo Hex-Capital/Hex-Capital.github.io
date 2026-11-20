@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper frontier models drive more robots to use policies that exceed onboard memory, the scarce input could be remote inference capacity that reliably meets real-world control deadlines. Robotics teams bear the cost of upgrading onboard hardware or operating their own cloud model servers. Dreamscale reports that its transport cut p99 network time from 420 ms to 160 ms in a synthetic test on one home Wi-Fi link. That isolates a relevant bottleneck, while production end-to-end latency and task reliability remain unmeasured in the memo. (*The Idea*; *Key Risks*)
+Dreamscale’s strongest AGI path in Fall 2026 is a **scarce complement**: reliable cloud serving for robot policies that exceed onboard compute limits. If more robotics teams adopt compute-intensive policies, regional GPU placement and reliable transport could become more valuable to teams that would otherwise operate their own model servers. Dreamscale reports cutting p99 network time from 420 ms to 160 ms on one home Wi-Fi link using synthetic frames and simulated compute. That test supports the transport mechanism. Production control reliability and Dreamscale’s ability to control a scarce serving capability remain unproven. (The Idea, Key Risks)
 
-Dreamscale separately reports running DreamZero 14B in 320 ms versus NVIDIA’s 350 ms with half the GPUs. That suggests an optimization advantage on one model. The shipped SDK and the team’s prior work on robot-model quantization support seed-stage execution. The HUD research integration and Actor Labs excavator evaluation show collaborators committing evaluation effort. The memo leaves paid repeat demand unverified. (*Defensibility*; *The Idea*; *Founders & Team*; *Market & Traction*)
+Dreamscale reports running DreamZero 14B at 320 ms versus 350 ms for NVIDIA’s implementation with half the GPU count. That comparison suggests an operating advantage under the tested conditions. The memo documents a HUD research integration and a joint excavator evaluation with Actor Labs. These show that outside teams engaged in evaluation. Paid production use and repeat demand remain unverified. The shipped SDK and founders’ relevant quantization and model-training work support seed-stage execution. (Defensibility, Market & Traction, The Idea, Founders & Team)
 
-A connected robot-hour is the expansion unit. Assuming customers pay the posted $5 rate, GPU capacity at realized utilization, networking, and deployment support attributable to that hour must cost less than $5 for positive contribution before fixed costs. The memo provides pricing and leaves realized utilization and delivery costs open. (*The Idea*)
+The expansion unit is a connected robot-hour, listed at $5. In a rollout scenario, contribution per paid hour depends on whether that price covers regional GPU capacity, including idle time, plus networking and deployment support. The memo provides pricing and a metered unit. Production utilization, support costs, and contribution per successful task remain unmeasured. (The Idea, Key Facts)
 
 ### Countercase
 
-Abstract already hosts overlapping checkpoints, and General Instinct offers compressed offline execution for buyers who need it. If either approach meets a target buyer’s task, reliability, and cost requirements, Dreamscale’s optimization may be reproducible or bypassable. The memo identifies no structural barrier and documents no head-to-head production result that establishes equivalent performance. The required scarcity and control remain testable, so the action is Watch. (*Defensibility*; *Market & Traction*; *Key Risks*)
+Abstract offers overlapping hosted models, Modal provides general-purpose GPU serving, and General Instinct offers an offline runtime for buyers that can use compressed local models. Cloud tail latency can interrupt a control step, and operators still bear responsibility for independent safety systems. Those alternatives and constraints make scarcity uncertain, while comparable production performance and easy switching remain unverified. The scarce-complement path stays open on Watch. A separate New Economies case would require evidence that lower labor cost per successful task opens a previously uneconomic use and that buyers would still choose Dreamscale under model parity. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 13/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 8/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent robotics team pay for a repeat deployment after a production trial against its best feasible substitute? Move to Reach out if the buyer repeats at a price that covers measured delivery costs and Dreamscale meets the buyer’s end-to-end latency and task-success thresholds through an operating capability it controls that the substitute cannot match at comparable cost. Move to Pass if the substitute meets those thresholds at comparable cost. An inconclusive trial leaves the action at Watch.
+Will an independent robotics operator buy a second production deployment at the listed rate after testing the same policy on Dreamscale and its best feasible alternative? Move to **Reach out** if the repeat order follows a measured advantage in meeting the operator’s control deadlines at a viable cost per successful task, with positive contribution after GPU, network, and support costs. Move to **Pass** if the alternative matches those operating results at comparable or lower cost and the operator switches readily.

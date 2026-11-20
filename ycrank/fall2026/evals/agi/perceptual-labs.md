@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Perceptual Labs says its software will trace a model behavior to the circuits that produced it, edit the corresponding weights from a natural-language instruction, and log the change for audit. The investment hypothesis is that teams with editable weights could routinely fix narrow behaviors they currently leave alone because gradient-based post-training is too labor-intensive. The memo describes a third-party demonstration that improved a small model’s math performance through direct weight edits. That supports technical plausibility at seed. Whether Perceptual can make a previously skipped fix economical depends on total labor and cost per successful edit, including diagnosis, review, regression testing, retries, and rollback. (The Idea, Market & Traction, Key Risks)
+New Economies is the strongest path. Perceptual Labs proposes using natural-language instructions to make targeted weight edits and record them for audit. The company describes gradient-based post-training as slow, costly, and imprecise. The investment hypothesis is that a team with editable weights could routinely fix narrow model behaviors it currently leaves unaddressed because a post-training run takes too much engineering time and compute. The memo gives no baseline cost or measured savings per successful fix. A small-model experiment improved math performance through direct edits, supporting technical plausibility in a narrow setting. (The Idea, Market & Traction)
 
-Under the scenario of cheap, widely available frontier models, buyers might still pay for a validated editing and regression workflow that reliably preserves unrelated capabilities on their own models. The memo identifies a possible library of validated edits and tests, with no deployment evidence or buyer preference under parity. The current product’s observed launch signal is an early-access waitlist with no documented buyer commitment. The founders’ reported Bryel training engagements concern a separate offering. Miao’s interpretability and post-training experience and Li’s model training and product work support the team’s ability to run a trial. The memo gives no current-product pricing or delivery data for estimating contribution per accepted edit. (Defensibility, Market & Traction, Founders & Team, Key Facts)
+The current launch shows an early-access waitlist. The founders reported enterprise training work through Bryel Foundry, and their backgrounds cover interpretability, post-training, and model product development. That supports seed-stage execution credit, while demand for weight editing remains unverified. A successful production edit is the unit to measure. Any savings must survive the cost of diagnosis, regression testing, retries, and rollback. An audit trail could give buyers a reason to pay under model parity if it measurably reduces their validation burden. The memo provides no buyer preference or deployment economics to establish that advantage. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Perceptual could make existing post-training work faster while leaving previously skipped fixes uneconomic. WeightBench found that frontier agents failed its model-patching tasks under the tested constraints, raising the possibility that retries and regression review consume the labor savings. Public techniques for mapping and editing internal representations also give teams with weight access a starting point for building a substitute. These findings leave both Path B gates unresolved because they establish neither Perceptual’s delivered cost nor buyer behavior against an equivalent workflow. The memo offers no independent evidence that Perceptual controls a scarce input or qualified capacity for Path A. (The Idea, Defensibility, Key Risks)
+Weight editing could become an incremental improvement to existing post-training workflows. WeightBench found that frontier agents failed its patching tasks under the benchmark’s constraints, and production edits must preserve unrelated capabilities across architectures. Teams with editable weights have public methods for overlapping capabilities, while teams without weight access are outside the direct-editing market. The memo establishes no company-controlled scarce complement. These findings leave reliability, market opening, and value capture under model parity unproven. They do not establish ready substitution or rule out a production use that clears the New Economies gates. (Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 6/25 |
 | Customer demand | 5/20 |
-| Team and execution | 7/15 |
+| Team and execution | 9/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 31/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer pay for a repeat batch of representative fixes it previously skipped, at a price that covers Perceptual’s full delivery cost, after comparing it with a credible alternative using equivalent models and weight access? Move to **Reach out** if the trial shows lower labor and full cost per accepted fix than gradient-based post-training, meets agreed regression limits, and earns the repeat order because Perceptual’s workflow delivers a measurable benefit the alternative cannot match. Move to **Pass** if a representative trial shows that full delivery costs still make the fixes uneconomic or that the buyer can switch under parity and retain the outcome.
+Can an independent buyer with editable weights complete a paid production pilot and renew for a recurring class of fixes it previously skipped because gradient-based post-training was too costly? Move to Reach out if the pilot demonstrates materially lower all-in cost per fix at equivalent regression standards and the buyer renews after comparing Perceptual with a credible alternative that can achieve the same edit quality. Stay on Watch if either condition remains unresolved. If the pilot directly shows that the cost reduction opens no new use or that buyers readily substitute at parity, close this path and move to Pass absent an independently supported alternative.

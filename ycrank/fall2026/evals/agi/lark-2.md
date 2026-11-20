@@ -1,32 +1,32 @@
 ﻿# Lark -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Lark could make routine replenishment economical for low-volume SKUs that wholesale buyers previously reordered ad hoc because staff had to reconcile stock, orders, deliveries, and sales history across multiple systems. That is a scenario to test. The memo documents automation of an existing purchasing workflow at Interline Hardware. (The Idea, Market & Traction)
+**New Economies** is Lark’s strongest path. Lark deployed purchasing recommendations and ERP write-back at Interline Hardware. Interline reported that weekly reorder preparation and review fell from 70 to 10 team hours and inventory value fell 20% across more than 60,000 items. Lark separately described the labor saving as 60 hours per month. If the weekly figures are correct and reorder volume and accuracy held steady, buyer labor per successful reorder fell about 86%. The conflicting figures leave the size of that reduction uncertain. (The Idea, Market & Traction, Key Facts)
 
-Interline reported that reorder preparation and review fell from 70 to 10 team hours per week and that inventory value fell 20%. Lark separately described the saving as 60 hours per month. If the weekly figures are correct and the volume and quality of completed reorders held steady, they imply about 86% less buyer labor per successful reorder. The full cost comparison also needs software fees, amortized setup, and time spent on review, exceptions, and corrections. The memo establishes neither that full cost nor paid repeat use for a previously uneconomic workflow. (Market & Traction, Key Risks, Key Facts)
+A plausible newly viable use is weekly SKU-level replenishment review at a smaller distributor that previously lacked the staff to run it. Interline already performed the workflow, so its deployment supports the labor-saving mechanism while market opening remains unproven. Lark’s customer-specific item, vendor, and approval-rule mappings could give buyers a reason to stay under model parity. Buyer preference at comparable functionality remains untested. Interline’s use is a seed-stage demand signal, with payment and renewal terms unknown. (Market & Traction, Defensibility, Key Facts)
 
-Under model parity, Lark’s strongest reason for buyers to stay is its customer-specific item, vendor, and approval mapping, which supports write-back to the ERP. Recreating that configuration could take work. Buyer preference under parity remains untested. Lark reports typical setups of one to two months, so expansion depends on how much configuration and support each new deployment requires. The team’s relevant engineering experience and Interline’s report of first recommendations within a month support seed-stage execution credit. (Defensibility, Key Facts, Key Risks, Founders & Team, Market & Traction)
+The team shipped a live purchasing workflow and delivered its first Interline recommendations in under a month. Jason Wang’s prior work building warehouse-staffing agents adds relevant execution experience. The expansion unit is another distributor or workflow. Under an assumed recurring fee, contribution depends on covering ERP setup over the contract life, inference, support, and human exception handling. Lark reports that most setups take one to two months. Pricing, implementation labor, and ongoing exception costs remain unverified. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Lark may save labor on replenishment that distributors already perform, while Epicor’s native workflow automation or Whitespace’s purchasing agent could deliver comparable outcomes with less setup. The memo documents overlapping capabilities. It gives no head-to-head result or observed switching. Both required conditions remain open, and a paid field comparison makes Watch appropriate. (Market & Traction, Defensibility, Key Risks)
+Lark may be making an existing market more efficient while its ERP partners and competitors absorb the same workflows. Epicor has expanded native automation inside Prophet 21, and Whitespace already offers SKU-level forecasting and learns from buyer edits. If either can match Lark’s purchasing workflow, buyers may favor their existing ERP or another vendor, and Lark’s custom mapping could weigh more on rollout costs than on retention. The memo shows credible overlap. Functional parity and actual switching remain unproven, so the New Economies path stays open and warrants Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 9/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent distributor renew at a price that covers Lark’s delivery costs for recurring replenishment of low-volume SKUs it previously handled ad hoc, after testing a functionally equivalent alternative? Move to Reach out if the trial shows lower fully loaded cost per correct, completed reorder, sustained use on those SKUs, and a renewal attributable to Lark’s configured workflow. Pass if the trial shows the workflow remains uneconomic or the buyer can retain the outcome at lower cost by switching.
+Will a distributor that previously lacked the staff for weekly SKU-level review keep paying Lark after testing a functionally comparable alternative? A paid continuation, backed by records showing lower labor per accurate reorder and a buyer-stated reason to choose Lark at parity, would move the action to Reach out. If the workflow becomes viable but the buyer’s preference remains unresolved, stay at Watch.

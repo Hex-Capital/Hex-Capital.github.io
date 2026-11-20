@@ -1,30 +1,32 @@
 ﻿# Invertix -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Invertix’s strongest path is **repeatable direct sales** to independent solar portfolio operators. Their recurring job is to investigate alarms, coordinate repairs, and verify that production recovers. The memo records TotalEnergies’ accelerator selection and subsequent testing with its solar teams. Altenia’s CEO reported that some work went from days to minutes, a concrete buyer-reported benefit. Invertix reports roughly 2 GW of assets covered by its agents. The memo gives no account-level payment or repeat-use records for that capacity. (The Idea; Market & Traction; Key Facts)
+Assuming strong product-market fit, Invertix’s strongest path is to sell its solar operations software to independent asset managers across markets, then expand within each portfolio. Alarm triage, repair coordination, and production checks are recurring jobs. Invertix’s shared model for equipment, telemetry, and responsibilities gives it a reusable core, while the work needed to connect a new operator’s systems and procedures remains uncertain. Altenia’s CEO reported that some work fell from days to minutes, supporting the value of the workflow for an initial buyer. (The Idea, Key Facts, Market & Traction, Key Risks)
 
-If fit strengthens, referrals from anchor customers could bring similar buyers into demos, with one live workflow as the entry point for a wider portfolio rollout. That scenario assumes Invertix can reuse its operational model across buyers while adapting integrations and approval rules. The recurring job plausibly travels across markets. The first link likely to break is onboarding, where Invertix’s engineers currently stage deployments one workflow at a time. At pre-seed, a measured handoff on a paid deployment would help establish repeatability. (The Idea; Key Risks)
+Asset histories and approval rules could make the software harder to replace. Portfolio-sized quotes suggest a way to charge more as existing customers add assets. The memo gives no billing cadence, renewals, or paid account expansion. Reported coverage of 1.8 GW under management in June and roughly 2 GW covered by agents in October uses different definitions and establishes neither billable volume nor a commercial growth rate. Realized revenue, paying-customer growth, and the date of first paid availability remain unknown. (Defensibility, The Idea, Market & Traction)
+
+In a scenario where added sites use an existing customer’s integrations, portfolio fees could rise faster than the engineering and support needed to activate those sites. Incremental contribution would be the additional fees less attributable sales, onboarding, support, and model usage costs. The memo describes custom pricing and model routing but gives no fees, deployment hours, or model costs to establish positive contribution. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Each new portfolio could require substantial engineering to map legacy systems and operating procedures, with customer approval required for plant-control changes. If that work recurs at similar intensity for every buyer, referrals could generate demand while delivery capacity limits growth. The memo gives no implementation hours, handoff results, or marginal delivery costs. The structural downside gate stays open because the evidence leaves reuse and improved contribution testable. (The Idea; Key Risks)
+Referrals and demos can bring in buyers, and staged deployment gives Invertix a process it can repeat. Engineers still lead rollout one workflow at a time, mapping legacy systems and procedures. Plant-control changes require customer approval. If each new portfolio needs substantial engineering, strong demand could translate into a queue of custom deployments. The structural gate stays open because the memo establishes customer-level integration work while leaving its cost, reuse potential, and any market-level rebuilding requirements unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 10/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder take the next independent solar portfolio operator from demo to paid live use with the same fault-triage workflow and limited customer-specific engineering? A paid go-live with a documented handoff and implementation hours showing that the team reused the core workflow would move Invertix to **Reach out**.
+Can Invertix bring several paying solar portfolios in a second market into production using the same integrations, with engineering hours falling on successive rollouts? Deployment logs and invoices that show reuse, recurring fees rising as customers add sites, and positive contribution after onboarding and serving costs would support Reach out if the updated score reaches 65 and confidence rises to Medium or High. Persistent bespoke work that makes faster growth economically infeasible without a credible improvement lever would move the action to Pass.

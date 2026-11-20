@@ -5,32 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A defense or aerospace manufacturer could pay to own ChemPilot’s experimental dataset and lab workflow if exclusive control materially reduced the time or cost of developing materials across multiple programs. ChemPilot reports proprietary experimental data, a partially automated lab running experiments, and a pre-incorporation Technion collaboration with an unnamed defense prime. The collaboration indicates access to a plausible buyer class. The memo records a Fresh Defense-led pre-seed round with an undisclosed amount, and gives no funded customer test, measured buyer savings, or acquisition price evidence. A customer-funded program that validates savings against the customer’s existing process is a plausible next milestone. The capital required to reach it and the transferability of the dataset and workflow remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest path is a strategic acquisition by a defense or aerospace manufacturer seeking control of ChemPilot’s lab, software, and experimental data. The memo documents an invitation for manufacturers to submit R&D briefs. The founders report proprietary experimental data, an operating lab where robots work alongside scientists, and a pre-incorporation Technion collaboration with an unnamed defense prime. These signals establish a plausible buyer class. The reason to acquire would be a measurable, repeatable advantage that the buyer could capture by owning the platform. That advantage remains unverified. (The Idea, Defensibility, Market & Traction)
 
-**Proceeds scenario.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Using $5 million of illustrative net debt, the 3% case requires an $88.3 million enterprise value before any fees or senior claims, which the memo does not quantify.
+A paid manufacturer pilot that measures time or cost savings against its current workflow would materially strengthen the route. The company-reported operating lab and announced pre-seed round make a pilot plausible. The round size, runway, and pilot budget remain undisclosed. Assignment and transfer rights for the software and data, including any rights arising from the Technion work, remain unverified. (Market & Traction, Founders & Team, Key Risks)
 
-- A **$25 million sale** in year eight leaves $20 million of equity after illustrative debt and pays the holder **$600,000 gross (1.2×)**.
-- A **$100 million sale** in year eight leaves $95 million of equity and pays the holder **$2.85 million gross (5.7×)** at 3% ownership. At 2%, the same sale pays **$1.9 million gross (3.8×)**. Both sale prices are scenario assumptions.
-- If growth plateaus, buyer interest fails to develop, public-market scale stays out of reach, and available cash is reinvested, eight years of private operation yield **$0 realized cash**, with the shares still held. Any wind-down recovery would depend on residual assets after obligations and preferences. The memo provides no basis to estimate that residual.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. The two sale scenarios assume $5 million in combined debt and deal adjustments, no senior claims, and an eligible holder selling the entire stake for cash at closing within eight years.
 
-The memo provides no cash-generation evidence for a sponsor buyout, eligible share demand for a secondary, operating scale for an IPO and resale, or distributable cash for dividends or buybacks. (Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $50M enterprise value less $5M of adjustments leaves $45M for pro rata distribution | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $5M of adjustments leaves $95M for pro rata distribution | $2.85M (5.7×) |
+| Prolonged private | Operating cash is reinvested, with no funded payout or eligible share sale | $0 realized within eight years |
+
+At 2.5% ownership after further dilution, even the strong sale yields about $2.38 million (4.75×). The sale prices are scenario assumptions. The memo supplies no buyer valuation, quantified buyer savings, or revenue signal to support either price. It also supplies no evidence of an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A manufacturer could commission specific research from ChemPilot or use another lab. Periodic Labs already operates autonomous labs in overlapping defense R&D, and the memo gives no cross-program benchmark showing that ChemPilot’s dataset confers an advantage worth owning. Aircraft qualification could also delay the commercial benefit after a material meets lab targets. These facts weaken the case for acquisition. The memo establishes neither a structural closing barrier nor a supported sale price that would leave the holder materially short, so the Pass gate does not apply. (The Idea, Defensibility, Market & Traction, Key Risks)
+A manufacturer could commission individual R&D projects and capture enough of the benefit without buying the platform. ChemPilot solicits project briefs, Periodic Labs already combines software with physical labs and overlaps in defense R&D, and the disclosed prime collaboration predates incorporation. Qualification can also delay adoption after a candidate meets lab targets. These facts weaken the case for paying an acquisition premium. The memo leaves both a ready substitute for ChemPilot’s specific offering and a credible ceiling on holder proceeds unestablished, so the Pass gate remains open. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a funded manufacturer program demonstrate a repeatable time or cost advantage large enough that owning the transferable dataset and workflow would justify a price that clears the holder’s hurdle? A customer-validated comparison with its existing process, tied to the value the buyer could capture through ownership across programs, would move the action to **Reach out** if it supports roughly $88.3 million in enterprise value or more under the modeled 3% ownership and debt assumptions.
+What measurable economic benefit would a manufacturer gain from owning ChemPilot’s platform beyond what it could obtain through project contracts? A paid pilot with buyer-validated savings and a buyer explanation of the incremental value of ownership could move the action to **Reach out** if those economics support a sale range that clears the holder’s hurdle.

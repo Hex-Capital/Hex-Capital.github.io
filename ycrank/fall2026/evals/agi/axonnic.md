@@ -1,30 +1,32 @@
 ﻿# Axonnic -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** Axonnic’s strongest case is that reliable recordings of grip and fabric tension could become a bottleneck for training robots to sew. Cameras can lose sight of fingers and miss the effort workers use to adjust tension. If frontier-quality models become cheap and manufacturers attempt more force-sensitive automation, manufacturers may still pay for capture and policy training that reduce repeat recording and engineering work. The memo describes a live EMG-controlled robotic hand demonstration, which establishes prototype integration. Whether the sleeve’s signals improve autonomous sewing remains untested in the memo. (*The Idea*, *Market & Traction*, *Key Risks*)
+Axonnic’s strongest AGI path is a **scarce complement** for robot training. In force-sensitive sewing, cameras can lose sight of fingers and miss the muscle effort workers use to manage grip and fabric tension. Axonnic’s sleeve captures forearm muscle activity and synchronizes it with video and hand pose. The live Proception hand demo shows that the signal can drive a robot hand. The investment inference is that robot developers will pay for these recordings if they reliably improve policy performance on factory tasks. That production benefit remains unmeasured in the memo. (The Idea; Market & Traction)
 
-Axonnic reports paid design-partner pilots and sleeve shipments. The signed sewing LOI is a concrete demand signal, with robotic implementation still ahead. The founders bring relevant EMG, hardware, and robot-control experience. After interference forced repeat collections, the team began developing wired electronics, whose field reliability remains unproven. The expansion unit is another factory task or line. Gen 2 lists sleeves at $8,000–$12,000 each, and the memo gives no realized costs for calibration, recapture, or robot retargeting. Those costs determine whether deployments can repeat economically. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Risks*)
+Axonnic reports paid design-partner pilots and sleeve shipments. The memo records a signed sewing LOI with an unnamed Italian manufacturer, with robotic implementation still ahead. These are early demand signals, with repeat orders and paid production deployments still unestablished. The founders bring relevant EMG, hardware, and robot-control experience, and the team developed wired electronics in response to factory recording interference. Field reliability after that change remains open. (Market & Traction; Founders & Team; Key Risks)
+
+The expansion unit is a factory task brought into production. The $8,000–$12,000 Gen 2 list price is a hardware revenue input. Deployment economics also depend on hardware utilization and the labor required for capture, calibration, repeat recordings, robot retargeting, and support. The memo leaves those costs and repeat deployment contribution unquantified. A New Economies path remains unproven because the memo gives no baseline labor cost, savings per successful outcome, or previously excluded use made viable by those savings. (The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-OYMotion already sells EMG capture kits and offers calibrated finger-angle and fingertip-force estimation. Preload combines EMG with tactile gloves and video. Axonnic’s reported hand-pose benchmark advantage over Meta’s baseline leaves factory performance against these alternatives unresolved, and data reuse rights are negotiated per engagement. The substitutes make durable control uncertain. The memo contains no buyer comparison showing equivalent performance in sewing, so the substitution gate remains open. The decisive evidence still depends on company-reported results and an untested factory comparison. (*Defensibility*, *Market & Traction*, *Key Risks*)
+The strongest countercase is that force-aware capture matters, but buyers can obtain comparable training data from competing kits. OYMotion already sells an EMG capture kit and offers early access to force estimation, while Preload combines EMG with tactile gloves and video. Axonnic reports lower hand-pose error than Meta’s baseline across 20 held-out participants. That benchmark leaves comparative factory performance open, and Axonnic negotiates recording reuse rights by engagement. The memo establishes credible alternatives but gives no evidence of equivalent factory outcomes or easy switching. The scarcity and control gates remain open, supporting Watch. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 12/20 |
+| Path-specific thesis fit | 15/25 |
+| Durable value capture | 9/25 |
+| Customer demand | 11/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent sewing manufacturer commit to a paid repeat deployment after a trial across normal shifts shows that Axonnic’s workflow delivers a materially lower cost per accepted seam than camera-only capture and the strongest available competing capture kit, including recalibration, recapture, and retargeting? A demonstrated advantage plus that commitment would move the action to Reach out. Equivalent results from a credible substitute at comparable cost would close the scarce-complement path and move the action to Pass.
+In a paid sewing pilot, can Axonnic beat the buyer’s best available capture alternative on cost per quality-approved sewing cycle across multiple shifts, on the same robot and with comparable training budgets, by enough to earn a paid follow-on deployment? Count recalibration, repeat capture, and retargeting in that comparison. A repeatable advantage and a paid follow-on would move the action to Reach out. Demonstrated interchangeability at comparable cost would close the scarce-complement path and move the action to Pass on the current evidence. (The Idea; Market & Traction; Key Risks)

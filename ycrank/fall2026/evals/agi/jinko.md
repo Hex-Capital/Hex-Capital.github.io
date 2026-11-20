@@ -1,32 +1,32 @@
 ﻿# Jinko -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap, capable AI increases the volume of agent-led travel searches, the constraint could be access to live fares that agents can book and service. The memo describes airline sites blocking browser agents and conventional flight APIs often requiring fixed dates and destinations. Travel-agent developers bear the cost when flexible searches fail to convert to bookings or require separate integrations for checkout and servicing. Jinko documents budget-led discovery, live pricing, approved checkout, changes, and refunds in one integration. That supports a specific mechanism, with the frequency and cost of those failures still unmeasured. (The Idea)
+Jinko’s strongest AGI path is a **scarce complement**. As AI agents get better at planning travel, developers may put more value on reliable access to live inventory, checkout, and post-booking changes and refunds. The memo records a public API launch and a live flight and hotel search listing in Exa Connect. A customer testimonial reports reaching live bookings in four hours, an early signal that the integration can get a buyer to checkout. Repeat paid usage remains unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-Jinko reports IATA and ARC accreditations that let customers book through its credentials. Those credentials support a plausible qualification advantage at seed. The memo leaves open which inventory rights Jinko controls and how readily a rival can reproduce the workflow. Exa Connect’s live flight and hotel search listing shows an integration in use as a product feature. A founder testimonial reports reaching live bookings in four hours. The memo gives no paid repeat booking volumes. The team’s prior airline distribution API work at Winglet, European travel operations at Hopper, and current API launch support its ability to ship and integrate the product. (Defensibility, Market & Traction, Founders & Team)
+Jinko reports IATA and ARC accreditations that let customers book through its credentials. Those credentials and the ability to handle changes and refunds give Jinko a role beyond search. How hard that role is to replace remains untested. The founders previously built an airline distribution API together and ran European travel operations and engineering at Hopper. That experience and the API launch support execution at this stage, while reliable servicing across repeat deployments remains open. (*Defensibility*, *Founders & Team*, *Market & Traction*)
 
-For flight scale economics, the repeat unit is a completed booking. Published pricing yields a 1% booking fee plus $0.005 per excess search above the monthly 1,500:1 search-to-book threshold. In a scenario where agents explore more routes per booking while staying below that threshold, Jinko absorbs the incremental search cost without overage revenue. Contribution also depends on supplier, payment, and post-booking service costs. The memo gives no realized search-to-book ratios or per-booking costs, so the pricing supports a plausible revenue bridge and leaves viable contribution untested. (The Idea, Key Risks, Key Facts)
+The expansion unit is a completed booking. In an illustrative scenario, the published 1% fee yields $5 in gross fee revenue on a $500 flight. At a monthly average of 2,000 searches per booking, the published excess-search charge would add $2.50 per booking, assuming standard pricing and 500 billable excess searches per booking. Contribution remains unknown after search, booking, and servicing costs, especially for changes and refunds. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-Etraveli already offers agent-facing flight search, booking, and servicing through MCP, and Duffel offers embedded checkout across flights, stays, and cars. Jinko’s supplier agreements also restrict fare markups. An incumbent could offer comparable booking access and let developers reproduce budget-led discovery at similar cost, which would defeat the scarce-complement case. The memo establishes meaningful overlap and leaves equivalence on the full workflow unresolved. That keeps the path open at Watch. (Defensibility, Market & Traction, Key Risks)
+Etraveli already offers agent-facing flight search, booking, and servicing. Supplier agreements also restrict Jinko’s fare markups. These facts weaken the case that Jinko controls scarce access or can protect its economics. Substitution at comparable performance across Jinko’s budget-led, multi-product workflow remains untested, so the scarce-complement path stays open at Watch. The memo also lacks evidence that lower labor cost per successful booking opens a previously uneconomic market, leaving New Economies unsupported as an independent path. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 10/25 |
 | Customer demand | 8/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Jinko win a repeat paid deployment from an independent travel-agent developer after a side-by-side production trial against Etraveli on budget-led flight discovery through booking and servicing? Move to Reach out if the buyer commits at terms that cover Jinko’s measured delivery costs because Jinko controls access or servicing capability the rival could not match. Move to Pass if the rival delivers the same successful bookings at comparable cost and integration effort.
+Will independent travel-agent developers renew at a price that covers Jinko’s search, booking, and servicing costs after testing an incumbent on the same production booking and servicing workload? Renewals tied to a measurable advantage in completed bookings or resolved servicing requests would move the action to Reach out. Comparable outcomes followed by buyers readily switching would close the scarce-complement path and move the action to Pass.

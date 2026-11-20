@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Channel-led or repeatable sales, through direct sales to constellation operators.** These operators have a recurring job deploying satellites, and the memo documents existing shared launches and constellation missions. RATLOG publicly directs launch inquiries to its CEO and plans to charge by payload kilogram on shared flights. The same service could plausibly serve operators across markets, assuming RATLOG can use a common launch site and payload integration process. The memo gives no buyer geography or confirmed launch site. (The Idea, Market & Traction, Key Risks)
+RATLOG’s strongest path is shared orbital launch for satellite constellation operators. Assuming strong product-market fit and a launch site accessible to operators from several markets, the same launcher could serve their recurring deployment needs from one site. The memo documents existing rideshare and constellation missions. RATLOG’s ability to accommodate payloads from different markets through a common integration process remains untested, and it was still evaluating launch sites. (The Idea, Market & Traction, Key Risks)
 
-RATLOG reports $400 million in signed reservations and more than 70 prospective customer conversations. The memo leaves buyer identities, deposits, cancellation terms, and the route from inquiry to reservation unresolved. That supports early interest, while buyer commitment and repeatable conversion remain unproven. The first link likely to break, even assuming strong buyer fit, is turning reservations into funded missions with a credible route to launch. There is no delivered mission or repeat purchase to assess at the buyer’s actual launch cadence. (Market & Traction, Key Risks)
+The shared-flight offer and planned per-kilogram billing give RATLOG a repeatable sales proposition. The documented intake is a call or email to the CEO, and the memo establishes no independent path from inquiry to booking or payload integration. Constellation operators could buy additional kilograms as deployment continues, giving retained accounts a concrete way to spend more. The memo leaves repeat purchasing and the ability of expansion to offset completed campaigns uncertain. (The Idea, Market & Traction)
+
+RATLOG reports $400 million in signed reservations and more than 10 booked flights. Those figures indicate early buyer interest. Deposits, cancellation terms, and earned launch revenue remain unverified, with the first orbital flight targeted for 2029 or 2030. The reported prototype hot-fire in four months for under $30,000 is a technical milestone. (Market & Traction, Key Risks)
 
 ### Countercase
 
-RATLOG reports a prototype hot-fire in four months for under $30,000. Its first orbital flight is targeted for 2029 or 2030, and site selection remains open. If RATLOG can fill shared flights and reuse hardware with low refurbishment costs, revenue from additional paid payload kilograms could outpace the added cost of delivery. The prototype budget gives no measure of integration, launch, refurbishment, or the capital needed to add capacity. The structural downside gate stays open because the memo provides no affirmative evidence that costs must rise in proportion to revenue. (Defensibility, Market & Traction, Key Risks)
+Even with strong demand, RATLOG may need to add vehicles and launch-site capacity as flight cadence rises. Under a shared-flight scenario, contribution is the realized price per kilogram times paid payload mass, less attributable sales and integration effort, flight operations, recovery, refurbishment, and any additional capacity needed to sustain that cadence. The reported prototype hot-fire lends some support to the simpler engine architecture, while reuse could spread vehicle costs across flights. The memo gives no operating basis for estimating either saving at orbital scale. The structural downside gate stays open because a shared manifest and vehicle reuse offer credible ways to spread costs, and the memo does not establish that capacity costs make faster growth economically infeasible. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 9/20 |
+| Initial traction | 4/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independent constellation operators convert reservations into bookings backed by meaningful deposits under the same payload integration process and a credible launch plan tied to an identified site? Verified bookings on those terms would move the action to Reach out. Reservations with unresolved payment or delivery terms would keep it at Watch.
+Can RATLOG complete a paid shared orbital reflight with a recovered stage and show positive incremental contribution at a representative payload load? Flight records and realized revenue and costs, including refurbishment and any added capacity needed for that cadence, would answer it. A positive result would warrant rescoring for Reach out under the full decision framework. Evidence that added capacity makes faster growth economically infeasible despite reuse would change the action to Pass.

@@ -5,15 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A scientific research software provider could pay to own Egregore’s reasoning-verification capability if it consistently reduced expert review costs and ownership secured an advantage the buyer could not obtain through a license or internal build. The memo documents an open beta intake and the founders’ joint work in machine-checked mathematics. Topos claims its harness can coordinate thousands of agents. Edison’s announced Pfizer deployment shows a commercial use for an adjacent research workflow, while Topos’s incremental benefit and acquisition value remain unmeasured. (The Idea, Market & Traction, Founders & Team)
+The strongest path is a strategic acquisition by a scientific research software platform. A buyer could integrate Egregore’s reasoning checks into an existing workflow if they reliably reduce expert review costs at comparable accuracy. The memo records an open beta intake and the founders’ joint work in machine-checked mathematics. Topos claims Egregore can coordinate thousands of agents. Edison Scientific’s announced Pfizer deployment shows demand for adjacent research software. Topos’s buyer benefit remains an inference pending measured results. (The Idea, Market & Traction, Founders & Team)
 
-A repeatable improvement in expert-reviewed reasoning quality at a lower total review cost would give a buyer a measurable benefit to value. The beta intake and founders’ technical work make a controlled comparison plausible. Pilot funding, burn, and time to reach that milestone are unknown. The memo also leaves ownership and transferability of the core software and any beta data unverified. A sponsor buyout or company-funded payout lacks evidence of cash generation. A secondary lacks eligible-share demand, and an IPO lacks evidence of operating scale or reporting readiness. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Facts)
+A paid pilot through the existing beta could measure expert review time, output accuracy, and compute cost against the buyer’s current workflow. Beta intake and the founders’ verification experience support a limited test. Pilot funding, compute requirements, and runway remain unknown. The memo also leaves IP transfer rights, holder participation, and independent liquidity routes unevidenced. (The Idea, Founders & Team, Key Facts)
 
-Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation starts at 5% and falls to 3% after 40% relative dilution, with no follow-ons. The 5× target is $2.5 million in gross cash within eight years. That requires $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. Using $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), assuming pro rata distribution before taxes and before any fees or senior claims. The memo supplies no supported sale price or company-specific terms to underwrite either outcome. If growth plateaus, buyers stay away, public scale remains out of reach, and Topos reinvests available cash for eight years, the holder realizes $0 and retains the shares. A wind-down recovery is unquantifiable without evidence of assets remaining after obligations and preferences. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and zero follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale cases below assume a full cash sale within eight years, holder eligibility, and a pro rata waterfall with zero senior claims. Actual terms are unknown.
+
+- **Modest sale.** At an illustrative $50 million enterprise value with zero net debt or deal adjustments, distributable equity is $50 million and the holder receives $1.5 million, or 3×.
+- **Strong sale.** At an illustrative $100 million enterprise value on the same terms, the holder receives $3 million, or 6×. If net debt and deal adjustments reduce equity by $20 million, the holder receives $2.4 million, or 4.8×.
+- **Prolonged private.** Continued operation with cash reinvested and zero eligible share sales or payouts yields $0 in realized proceeds within eight years.
+
+The sale values are scenario assumptions. The memo provides no acquisition pricing or measured buyer economics to support a realizable range. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer may build or license enough of the workflow to avoid an acquisition. DeepMind has demonstrated multi-agent scientific reasoning, Acyclic offers general-purpose orchestration, and Edison has announced a deployment in Topos’s target market. Agent coordination can also hurt performance on sequential tasks, and biological conclusions still require empirical validation. Together, these facts make the value of owning Egregore uncertain. The memo leaves room for differentiated verification and establishes neither a structural block nor a supported price that leaves the holder short, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+Prospective buyers may already have adequate tools. DeepMind has demonstrated multi-agent scientific reasoning, Acyclic Labs offers swarm infrastructure, and Edison has an announced deployment in Topos’s initial market. Coordination overhead could erase review savings, while biological conclusions still require empirical validation. This is credible substitution risk. Whether a buyer can substitute for Egregore’s specific verification capability, or whether the strongest credible sale would fall short of the holder objective, remains unresolved. The Pass gate stays open pending evidence. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -21,12 +27,12 @@ A buyer may build or license enough of the workflow to avoid an acquisition. Dee
 |-----------|-------|
 | Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can a buyer-sponsored comparison show that owning Egregore delivers enough incremental value over building or licensing to support an acquisition near the $88.3 million illustrative enterprise-value hurdle? A completed pilot measuring repeatable gains in expert-reviewed quality and total review cost, together with buyer-backed economics supporting a price range that clears the hurdle, would change the action to Reach out.
+Can a paid pilot with a prospective platform acquirer show repeatable savings in expert review at comparable accuracy, after compute costs, that support a purchase price capable of clearing the holder’s proceeds hurdle? Buyer-validated pilot results and a credible valuation sensitivity tied to those savings would move the action to Reach out.

@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Product-led adoption** is Voyager’s strongest path. The likely first buyers are independent video editors and small production studios that repeatedly turn briefs into finished videos. Voyager offers a free desktop download and says its agent can generate media and edit project files in tools such as Blender and DaVinci Resolve. The same workflow could travel across markets where editors use supported app versions and can share selected assets with model providers. How often those conditions hold across markets remains unverified. (The Idea, Key Risks)
+Voyager’s strongest Hypergrowth path is a self-serve desktop workspace for video editors and small studios that produce videos repeatedly. Assuming strong product-market fit with those buyers, the same brief-to-edit workflow could serve teams across markets through bundled tools and connections to Blender, DaVinci Resolve, and Ableton Live. App versions, permissions, and rules for sharing confidential footage narrow which teams can use the workflow as shipped. (The Idea, Key Risks)
 
-The memo records 2.1 million launch-post views and one concrete production example. Evan Schindler reported making *Nightcap* with Voyager and two other tools, using 78 generations and spending $128.99 across the workflow. That shows a creator committed meaningful effort to a finished project. The memo leaves his discovery route, setup effort, payment to Voyager, and use on a subsequent production open. For a recent launch, the first link to test is whether independent editors can get from download to a finished project and pay through the same self-serve flow. (Market & Traction, Key Facts)
+The public launch and free download give creators a way to discover and try Voyager independently. One creator reported completing a short using Voyager alongside Meshy and ElevenLabs. That shows a production use case, while the creator’s reported $128.99 in generation spend covers the whole workflow and leaves Voyager’s share unknown. The memo leaves independent checkout, realized revenue, and paying-customer growth unverified, so initial traction takes the absent-evidence default. (The Idea, Market & Traction, Key Facts)
 
-If editors return for their next production, subscriptions and credit top-ups could monetize that repeat use. Bringing their own provider keys could limit some inference costs. The memo provides no repeat-project records or per-account measurements of inference, setup, or support costs. (The Idea, Defensibility, Key Facts)
+Monthly subscriptions, higher tiers, and credit top-ups give repeat users ways to spend more if Voyager becomes part of successive productions. The contribution scenario is incremental subscription and top-up revenue less Voyager-funded generation, support and setup, and the cost of free usage incurred to acquire paying users. Customers bringing their own provider accounts and keys could reduce Voyager-funded generation costs. Repeat paid use and contribution at typical workloads remain unverified. (The Idea, Defensibility, Key Facts)
 
 ### Countercase
 
-The integrations that make Voyager useful could also make self-serve onboarding unreliable. App versions and permissions affect which controls work, and confidential footage can constrain provider use. Adobe’s overlapping agent gives Creative Cloud users an option inside their existing suite. If editors regularly need hands-on setup to finish a project, launch attention may yield few paying customers and each new account may add support work. The memo documents the compatibility constraints and leaves their frequency and cost open, so the structural downside gate does not apply. (Key Risks, Market & Traction)
+Voyager could draw creators in for a single project and lose subsequent work to agents inside their existing creative suites. Adobe already offers an overlapping workflow, and Voyager’s app-version and permission dependencies could make connected workflows support-intensive. The structural gate clears because bundled tools and user-supplied keys give the target segment a plausible route to independent use with bounded servicing costs. How often creators can follow that route remains uncertain. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 16/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 65/100** (Invest)
 
 ### Decisive diligence question
 
-Can several independent editors or small studios from the same launch channel install Voyager, finish a real project, and pay through the same onboarding flow without hands-on setup? Account-level records showing that sequence would move the action to Reach out. If those accounts still need individual setup to reach first value, keep Voyager on Watch.
+Can editors and small studios who start from the public download complete a second production while still paying Voyager, with minimal staff help and positive cohort contribution? A dated cohort that ties project activity to Voyager billing, generation costs, and support time would answer it. Evidence that the pattern holds across ordinary buyers in that cohort would move the action to Reach out.

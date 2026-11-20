@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An inference platform or enterprise AI gateway could acquire RouterPlus to bring workload-specific benchmarking, provider bidding, and pooled capacity procurement in-house. RouterPlus reports one pooled provider deal, and a customer testimonial reports a 25% reduction in P95 latency after switching to an open model. The memo records Stripe’s completed acquisition of OpenRouter, which shows that a strategic buyer has paid to own an inference-routing platform. The case for owning RouterPlus specifically depends on whether its pooled buying power and customer relationships produce recurring savings or margin that a buyer would give up by building, licensing, or partnering. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+The strongest path is a strategic sale to an inference gateway or infrastructure provider that wants to add managed capacity procurement. Buying RouterPlus could give that buyer a way to evaluate models on live workloads, pool demand, and negotiate provider capacity. RouterPlus reports one pooled provider deal, and a customer testimonial reports 25% lower P95 latency after switching to an open model. The memo records Stripe’s completed acquisition of OpenRouter, which shows strategic interest in inference routing. RouterPlus’s case depends on whether its procurement capability would be costly for a buyer to replicate. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-A route-specific milestone is renewed, paid capacity agreements across multiple unrelated customers, with contracted peak throughput and measured contribution margin. A customer testimonial describes RouterPlus sourcing capacity for peaks of 15× average traffic and arranging a backup provider. That supports its ability to deliver the service at least once. Provider quotes remain indicative until definitive agreements, and the reported $125,000 and $500,000 financing entries leave available capital and runway unclear. RouterPlus’s capacity terms permit reuse of de-identified requirements and derived benchmarks, giving a buyer an identifiable asset to diligence. Transfer of those rights and the underlying customer and provider agreements remains unverified. (*Market & Traction*, *Key Risks*, *Defensibility*, *Key Facts*)
+The next milestone is repeat paid capacity contracts across multiple customers, with documented margins and reliable peak delivery. A customer testimonial describes capacity for peaks of 15× average traffic with a backup provider, and RouterPlus reports 3 million daily agent conversations at its largest customer. Those signals support testing the milestone. The memo gives conflicting funding figures and leaves the capital required to reach it uncertain. Published terms permit reuse of de-identified requirements and derived benchmarks, while assignment of those rights and key contracts remains unverified. (Market & Traction, Defensibility, Key Risks)
 
-The memo supplies no usable acquisition price or buyer economics to support a price range. Under the illustrative seed scenario, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. The eight-year 5× target is $2.5 million gross, requiring $83.3 million in distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case needs about $88.3 million in enterprise value. Assuming full cash payment at closing, pro rata allocation before investor taxes, and no additional deductions for fees or senior claims, a $25 million sale in year eight yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). At 2% ownership, that same strong sale yields $1.9 million (3.8×). The memo leaves actual holder terms, debt, fees, and senior claims unknown. (*Market & Traction*, *Key Facts*)
+Using the benchmark $500,000 check at $10 million post-money, 5% ownership diluted to 3%, and no follow-ons, the holder needs $2.5 million in gross cash within eight years. That requires about $83.3 million in distributable equity value at full pro rata participation. The sale scenarios below are illustrative assumptions. They assume the holder can sell its full stake and receives 3% of equity proceeds after debt and deal adjustments, with no preference diversion.
 
-If growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. The memo supplies no evidence of eligible secondary demand, public-listing readiness, or distributable cash for dividends or buybacks. It also gives no cash-generation or financing basis for a sponsor buyout. (*The Idea*, *Market & Traction*, *Key Facts*)
+| Scenario | Gross cash to holder within eight years |
+|---|---:|
+| Modest sale at $50M enterprise value, less $5M in net debt and deal adjustments | $1.35M on $45M of equity value |
+| Strong sale at $100M enterprise value, less $10M in net debt and deal adjustments | $2.70M on $90M of equity value, or $2.16M if only 80% is paid within eight years |
+| Prolonged private operation with cash reinvested and no eligible share sale | $0 |
+
+Reserved capacity is individually quoted, and the memo supplies no realized margins, transaction price evidence, or independent liquidity route. The strong scenario clears the hurdle on its assumptions, while the evidence leaves the realizable sale range open. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-A buyer can already get routing and failover from OpenRouter, while NVIDIA’s open-source NeMo Switchyard offers cross-provider routing and benchmarking. Stripe already owns the adjacent platform. RouterPlus charges no per-token markup on prepaid marketplace usage and no inference fee on bring-your-own-key traffic. Reserved capacity is quoted individually, leaving the economics of its most differentiated service unclear. A buyer could therefore build the routing features and partner for procurement. That makes the ownership case too thin for outreach today. The memo leaves both a structural block and materially inadequate proceeds under the strongest credible sale unproven, so the Pass gate does not trigger. (*Defensibility*, *Key Risks*, *The Idea*, *Key Facts*)
+A buyer could replicate the routing layer and source capacity directly. OpenRouter already offers provider selection and failover, and NVIDIA’s open-source Switchyard offers cross-provider routing and benchmarking. With one reported pooled deal and no published capacity margins, a buyer could value RouterPlus mainly for its team or integrations, yielding a smaller payout. This supports Watch. The memo establishes neither a structural closing barrier nor a credible price ceiling below the holder’s hurdle. (Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 19/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can RouterPlus show that owning its managed-capacity business creates enough incremental value for a strategic buyer to support a sale around the illustrative $88.3 million enterprise-value hurdle? Renewed, assignable agreements across multiple paying customers, measured margins and capacity savings, and a buyer-side valuation that accounts for building or partnering would move the action to Reach out if the resulting price range clears the holder’s target.
+Can RouterPlus show that its managed capacity business is worth enough to a strategic buyer to clear the holder’s eight-year cash hurdle? Paid renewals from multiple customers, realized margins, and buyer-side evidence of the cost to replicate the service would support Reach out if they substantiate a price that leaves at least $2.5 million in timely holder cash after deal adjustments and the waterfall. A supported ceiling materially below that hurdle would trigger Pass.

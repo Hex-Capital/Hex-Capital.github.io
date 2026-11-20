@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Product-led adoption** is Trepo’s strongest path. The initial buyer is the household member who coordinates groceries. The free iOS app gives households a way to try inventory tracking and meal planning. If receipt scans, photos, and voice updates make it easy to maintain a shared inventory, households could use Trepo on successive grocery trips and pay for the $99 device or the optional $9.99/month Food Club after three included months. The inventory and planning job plausibly travels across markets. Checkout portability depends on local retailer coverage and product matching, and hardware preorders are currently U.S.-only. (The Idea, Key Risks)
+Assuming strong product-market fit, Trepo’s strongest growth path is to acquire households through its free iOS app, sell the fridge-mounted device directly, and convert activated households to Food Club. The app gives households a way to start independently. Shared inventory, receipt scans, photos, and voice updates support a recurring job that plausibly travels across markets. The extent of changes needed for local receipts, product matching, retailer checkout, and device fulfillment remains uncertain. The U.S. preorder flow gives households a way to order the device, while delivery, independent setup, and paid membership activation remain unverified. (The Idea, Key Risks)
 
-The memo records a 4.9/5 rating from 59 U.S. iOS ratings and one buyer-reported, cancellable hardware preorder. Those are early signals of app satisfaction and willingness to pay. Trepo’s founder reported offering consumption-based carts to San Francisco beta households and claimed more than 15× growth in a week after TikTok exposure. The growth metric and baseline are unspecified. The first unresolved link is whether households acquired through a repeatable channel can set up an accurate inventory and reach first value on their own. The memo also leaves repeat use, paid conversion, and rollout costs unmeasured. (Market & Traction, Key Risks)
+The memo records 59 U.S. app ratings and one reported hardware preorder. The founder described a San Francisco cart beta in March 2026 and reported more than 15× growth in one week without specifying the metric or baseline. For the two-person team, these are early adoption signals. Cancellable preorders targeting March 2027 shipment leave realized revenue and the pace of paid adoption unverified. Shared inventory and consumption history could sustain repeat use. Food Club’s advertised $9.99 monthly fee after three included months gives that use a path to recurring revenue, with conversion, renewal, and same-household spending growth still unverified. (Market & Traction, Defensibility, The Idea, Key Risks)
+
+In a fulfilled-order scenario, the $99 preorder price or $129 listed regular price would need to cover device production, shipping, returns, warranty, attributable acquisition and support, and the cost of serving the included months. Each paid Food Club month would add $9.99 before processing and support costs. Converting existing app users through direct checkout could reduce incremental acquisition expense. The memo provides too little cost or conversion evidence to establish positive contribution. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-The household may still have to do much of the tracking Trepo promises to relieve. Missed updates and scan errors could make suggested carts unreliable by the next grocery trip. If keeping inventory accurate requires substantial household effort or ongoing support, social discovery could generate preorders without durable use. Hardware fulfillment, returns, and warranty obligations also make the cost of adding each household uncertain. These are testable risks, so the structural downside gate remains untriggered. (The Idea, Key Risks)
+Households could get enough value from free inventory and lists to keep using Trepo while declining Food Club. If missed updates make inventory stale, the shopping recommendations lose value. If paid value depends on cross-store pricing and checkout, Trepo may also need to rebuild retailer coverage and product matching market by market while absorbing hardware fulfillment and support costs. The structural downside gate remains open because the memo leaves the extent of retailer work and the economics of serving another household unresolved. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 11/20 |
+| Initial traction | 5/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Can the first shipped cohort acquired through a documented consumer channel set up a usable inventory without founder help, use Trepo on successive grocery trips, and convert to paid Food Club after the included period? Cohort records showing that sequence across multiple independent households would move Trepo to Reach out. If the cohort stalls at setup or stops using Trepo after the first shop, it stays on Watch.
+Can Trepo take a cohort in a second country from free app signup through independent device activation to paid Food Club renewal at positive contribution, with limited changes to the current product? Meaningful paid uptake and renewals, backed by measured acquisition and delivery costs, would justify rescoring for Reach out. Evidence that paid value requires substantial bespoke work in each market would move the action to Pass.

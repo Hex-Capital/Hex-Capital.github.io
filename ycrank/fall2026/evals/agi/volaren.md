@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Volaren launched a personal investing agent that, according to its product documentation, links brokerage accounts, explains portfolio moves, and proposes trades for review. The former workflow described in the memo requires investors to reconcile account activity, check market news, and separately decide whether to act. The market-opening hypothesis is that self-directed investors who currently skip this work between periodic reviews would pay for reliable, event-driven coverage because it takes less of their time. The launch establishes that Volaren brought the product to market. The frequency of the manual workaround and the labor saved remain unmeasured. (The Idea, Market & Traction)
+New Economies is Volaren’s strongest path. Its documentation describes an agent that reconciles activity across linked brokerages, explains portfolio moves, and turns an investment thesis into a proposed trade users can review by text. The prior workflow requires users to assemble account activity and market news themselves. The market-opening hypothesis is that investors who currently skip routine cross-broker reviews because of the time involved could start doing them regularly. The memo gives no baseline for that manual work or comparison of human time per accurate, actionable review, including time spent checking and correcting the agent’s output. (The Idea)
 
-**Scenario assumption.** At the listed $12 monthly price, the expansion unit is a paying subscriber who repeatedly gets a correct, timely explanation and, when warranted, a trade routed as authorized. Compare manual research and order-entry time with the time users spend checking and correcting Volaren’s output. Then compare subscription revenue with delivery costs, including inference, broker connectivity, retries, support, compliance, and order exceptions. The memo gives a price and usage limits, while leaving cost per successful outcome and contribution unmeasured. The claimed 950-plus funds and retail traders have unspecified activity and payment status. The $36 prepayment option establishes an offer to buy access. (The Idea, Market & Traction, Key Risks)
+The memo records a November 9 launch and relevant founder experience in quantitative trading and portfolio research. Volaren claims more than 950 funds and retail traders in signup copy, without defining activity or payment. The $36 prepaid access offer establishes an asking price. The memo records no purchases or renewals. (Market & Traction, Founders & Team, The Idea)
 
-The founders’ quantitative trading and portfolio research experience is relevant, and the launch shows current execution. Dependable live routing remains an execution milestone given broker-specific permissions, conflicting descriptions of order approval, and unresolved adviser registration. Under model parity, saved rules and linked histories could give users a reason to stay if rebuilding that setup takes meaningful effort. The memo reports no retention evidence to test that inference. (Founders & Team, Market & Traction, Key Risks, Defensibility)
+The expansion unit is a paid subscriber-month at $12. In a full-usage scenario, the 1,000-credit allowance leaves 1.2 cents of revenue per credit before broker connectivity, support, and costs incurred by free users. Contribution depends on actual usage, inference cost, and how often users need help with data or order exceptions. The memo provides pricing and allowances, while those operating inputs remain unknown. (The Idea, Key Risks)
 
 ### Countercase
 
-Volaren may chiefly save time for investors already doing the work, while review and corrections absorb enough of the savings to keep previously skipped monitoring uneconomical. Robinhood’s embedded agent shows that a broker can bundle overlapping capabilities, and Volaren relies on broker permissions for its own routing. The memo leaves open whether an equivalent rival can replace the full cross-broker workflow and whether review costs erase the savings. Both Path B gates remain unresolved. The broker relationships described in the memo also leave Path A without an evidenced scarce input that Volaren controls. (The Idea, Defensibility, Market & Traction, Key Risks)
+Volaren may make an existing self-directed investing workflow faster without creating a newly viable use. Brokerages have a distribution advantage at the point of execution, and Robinhood’s embedded agent rollout shows competitive overlap. Saved rules and execution history could give users a reason to stay, but that is an inference. The memo shows neither preference at functional parity nor a network effect. Broker permissions constrain routing, with some integrations limited to tracking, so the memo also lacks an independently supported scarce-complement path. The overlap leaves the New Economies gate open for a test because comparable cross-broker functionality and customer switching remain unobserved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
 | Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-In a paid trial, do independent multi-broker investors who previously skipped event-driven monitoring get reliable outcomes with materially less labor and renew at the listed price after trying a functionally equivalent alternative? Measure review, corrections, and failed orders against the manual workflow, and identify what renewing users still pay Volaren to provide. Repeat paid use with a credible reason to stay would move the action to **Reach out**. A representative trial showing that review erases the savings or that buyers readily switch under parity would close Path B and move the action to **Pass**.
+Will investors who previously skipped routine cross-broker reviews because of the time involved start reviewing regularly and renew Volaren at $12 per month when a comparably capable alternative is available? A paid cohort test should measure human time per accurate, actionable review, including corrections, against the prior manual workflow and track repeat use and renewal with the alternative available. A material time reduction that produces regular use and paid renewal would move the action to Reach out. Clear evidence that the time savings fail to unlock the use, or that buyers readily switch at parity, would move it to Pass.

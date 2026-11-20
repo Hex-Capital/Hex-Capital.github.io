@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Lyon’s strongest case is that a bank could reuse one model trained on its transaction history across underwriting workflows, reducing the feature-engineering and maintenance labor now required for each workflow. The market-opening assumption is that this would let a bank serve a borrower segment it previously left unserved because building and maintaining a dedicated model cost too much. Lyon reports a 112% relative lift in default-prediction PR-AUC against one fintech’s existing tree-based model. That benchmark supports the technical premise. The memo gives no example of a newly served segment or a measured delivery-cost reduction. (*The Idea*, *Market & Traction*)
+New Economies is Lyon’s strongest path. Financial institutions currently engineer and maintain features for rules and tree-based models. Lyon trains a model inside each customer’s cloud and reuses its embeddings across tasks. If reuse saves enough engineering and maintenance labor, an institution could afford to deploy underwriting models for portfolios where the manual workflow was previously uneconomic. Lyon reports a 112% relative improvement in default-prediction PR-AUC over one fintech’s existing tree-based model. That supports the technical mechanism on a live institution’s data. The labor savings and newly viable use remain assumptions. (The Idea, Market & Traction)
 
-The fintech benchmark and reported work with an insurer are early engagement signals. Payment and repeat use remain unknown. The founders’ finance, machine-learning, and transformer experience, together with Lyon’s reported training run on tens of billions of transactions, support early execution. The expansion unit is one institution, with potential savings from reusing embeddings across its workflows. Each institution still requires its own training run, and the cost per underwriting decision at comparable quality remains unknown once compute, validation, monitoring, and human review are included. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*, *Key Facts*)
+The expansion unit is one institution, with additional workflows potentially spreading the cost of initial training. The relevant comparison is all-in cost per correctly flagged default at a matched false-positive rate, including engineering labor, training, inference, validation, and monitoring. The memo provides no measured cost comparison or repeat deployment economics. Lyon’s reported fintech project and insurer work indicate early engagement, with payment and production use unverified. The founders’ experience in financial services, machine learning, and transformer research, together with the reported training run at fintech scale, supports seed-stage execution. Repeat delivery through bank validation remains open. (The Idea, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Lyon may improve predictions for workflows banks already run. If frontier-quality models become cheap and widely available, a bank could use its own transaction data and public training tooling to build a substitute. The memo documents an in-house production precedent at Revolut. Lyon’s customer-cloud deployment and potential integration across multiple workflows give buyers a possible reason to keep paying for implementation and maintenance. Customers own the trained models, and the memo provides no retention or buyer comparison under functional parity. The in-house precedent makes substitution credible. Whether a target bank can match Lyon’s full delivery economics remains open, so the path warrants Watch. (*The Idea*, *Defensibility*, *Key Risks*)
+Lyon may improve an established underwriting workflow without making a previously excluded use viable. The reported uplift comes from one fintech, and the memo identifies evidence that gains over boosting can shrink with stronger features and more labeled data. Revolut’s in-house rollout and NVIDIA’s public training reference show a credible substitution route for institutions with ML teams. Lyon’s private-cloud integration could give buyers a reason to keep paying for deployment and maintenance, but customers own the trained models, and the memo shows no buyer preference at functional parity or network effects. These facts leave both New Economies gates unproven. They do not establish easy substitution for Lyon’s target buyers or an independent scarce complement Lyon controls. (Defensibility, Market & Traction, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent bank pay to expand a Lyon deployment for a previously unserved borrower segment after comparing it with a functionally equivalent in-house option? Move to Reach out if a representative trial shows that Lyon makes the segment economical at the bank’s required underwriting quality after compute, validation, monitoring, and review costs, and the bank funds an expansion after the comparison. If full costs still rule out the segment, or the bank matches the outcome in-house and declines to pay Lyon, Pass on this case.
+Will an independent lender pay Lyon to put a previously uneconomic underwriting workflow into production after comparing it with a functionally comparable private-cloud alternative? Move to **Reach out** if the deployment shows a material reduction in human labor and all-in cost per correctly flagged default at a matched false-positive rate, and the lender pays Lyon because its deployment or maintenance still offers an advantage at model parity.

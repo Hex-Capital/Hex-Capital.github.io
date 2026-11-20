@@ -1,32 +1,32 @@
 ﻿# Armorer Labs -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Armorer could make continuous security verification economical for regulated teams that currently rely on findings and remediation tickets. Armorer says it tests proposed fixes against existing workflows before engineers approve them. If that reduces investigation and rework enough, a team that previously deferred continuous verification could afford to run it routinely. The memo provides no before-and-after labor measurements or example of a buyer adding that cadence because costs fell. (The Idea)
+The strongest path is a **scarce complement**. As regulated companies give AI agents access to sensitive data, security teams need to verify that safeguards work before approving deployment. Armorer’s approach combines engineer-approved fixes checked against existing workflows with runtime enforcement. The memo cites a finding that roughly two-thirds of high-risk AI security findings remain unresolved, which supports a remediation gap. Whether that gap blocks production approvals for Armorer’s target buyers remains open. (The Idea)
 
-Under cheap, widely available frontier models, a buyer might still pay Armorer to maintain customer-specific regression tests and approval histories. That switching cost is an inference. Armorer reports 98% accuracy at 1.9 ms median latency in a 50-document comparison, an early performance signal with uncertain transfer to production. The clearest demand evidence is a Just Eat Takeaway engineering director crediting Armorer with resolving a security problem. Payment, repeat use, and demand from buyers newly able to afford continuous verification remain unestablished. (Defensibility; Market & Traction; Key Facts)
+Armorer reports 98% accuracy at 1.9 ms median latency in a 50-document comparison. That suggests a performance advantage on the tested workload. Customer-specific regression tests and approval histories could make switching harder, though the memo provides no retention evidence. A Just Eat Takeaway engineering director credited Armorer with resolving a security problem. That establishes a concrete use, while payment and repeat demand remain unverified. (Defensibility, Market & Traction, Key Risks)
 
-The founders’ AWS security work and Armorer’s published control plane and enterprise launch show relevant execution at seed. Each additional agent workflow is a plausible unit of expansion. The CPU-based runtime guard addresses one part of delivery cost. The full cost per successful verification still depends on setup, engineer review, retries, exceptions, and ongoing maintenance, including for customer-hosted deployments. The memo provides no measured cost per successful outcome. (Founders & Team; Market & Traction; The Idea; Key Risks)
+The founders’ prior AI security work together at AWS, the published SDK, and the enterprise launch support seed-stage execution. Each additional regulated customer is an expansion unit. CPU-based enforcement could limit runtime costs, while customer-hosted deployments could add integration and support work. Pricing and deployment costs remain unknown. (Founders & Team, Market & Traction, The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Armorer may help existing security teams close tickets faster while leaving continuous verification too expensive for teams that currently defer it. Open-source runtime enforcement and Check Point’s bundled controls also give buyers credible alternatives. The memo has no production comparison showing that buyers can preserve the full verification and remediation outcome with those alternatives. Both Path B gates remain open, with a specific test available. (The Idea; Defensibility; Key Risks)
+Buyers may meet their approval requirements with an existing security suite and their own engineers. Open-source policy enforcement and Check Point’s bundled controls already cover parts of Armorer’s offering. The memo leaves full-workflow substitution unresolved, so the scarce-complement path remains open for a comparative test. A New Economies case would require evidence that lower delivery costs made a previously uneconomic use viable. (Defensibility, Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 9/25 |
+| Customer demand | 7/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent regulated buyer that previously deferred continuous verification pay to expand Armorer to a second production workflow after comparing it with a credible alternative using equivalent models? Move to **Reach out** if the trial shows that full delivery cost, including review and exceptions, falls enough to support the new cadence and the buyer pays a viable price for an Armorer-specific advantage. Move to **Pass** if a representative trial shows that the cadence remains uneconomic or that the alternative preserves the outcome and eliminates the buyer’s reason to pay Armorer.
+Will independent regulated buyers pay to roll out Armorer after a side-by-side production pilot shows it clears an approval bottleneck their existing suite leaves unresolved? Compare time to approval against the same security acceptance criteria. Paid rollouts after a reproducible advantage would move the action to Reach out. Equivalent approval outcomes with buyers choosing their existing suites would move it to Pass.

@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Saccade could make repeat assessment viable for adults who want information before memory symptoms and have fewer clinical testing options. Its five guided VR tasks and automated eye-movement scoring could reduce clinician time per usable result. The memo documents the gap in testing options but provides neither a labor and cost baseline for a comparable clinician-led assessment nor evidence that Saccade reduces either measure. Its terms say the assessment remains unvalidated for individual risk prediction. (The Idea; Key Risks)
+New Economies is Saccade’s strongest path. The memo documents a working eye-tracking attachment, and Saccade reports using machine learning to score eye movements from five guided VR tasks and testing adults in San Francisco clinics. The hypothesis is that automated scoring reduces clinician time enough to make clinically useful assessment viable for people without memory symptoms, who have fewer testing options. The memo gives no baseline for the labor or cost of delivering an equivalent assessment and no measured change in either per clinically useful result. The prototype and reported field testing support seed-stage execution, with prospective validation still ahead. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
-**Model-parity scenario.** If rivals have equally capable models, buyers could still pay Saccade for a validated measurement and reliable delivery of the headset exam, blood draw, and physician follow-up. The company claims a patent-pending attachment and proprietary scoring, but the memo establishes no enforceable protection or preferential access to clinical delivery. Separately, the documented working attachment and the founder’s medical-device experience support seed-stage execution. Reported clinic testing shows early use, with payment and repeat use unknown. (Defensibility; Founders & Team; Market & Traction; Key Facts)
-
-**Scale economics.** The expansion unit is a completed quarterly assessment at a listed $897. A viable cost bridge depends on local staff and travel, equipment utilization, lab work, physician review, and repeat or inconclusive tests. The memo gives no realized price, delivery cost, or completed-visit throughput. (The Idea; Key Risks; Key Facts)
+Under model parity, buyers could still pay Saccade for validated measurements and a reliable service that combines the headset exam, blood panel, and physician follow-up. The company describes its attachment as patent-pending and its model as proprietary. Buyer preference and control over a scarce input remain unproven. Reported clinic use is an early demand signal. Research participation is free, and the memo gives no realized revenue or paying-customer count. At Acuity’s listed $897 per test, repeat deployment would depend on how much of that price remains after local staffing, headset costs and utilization, blood draws and lab work, physician time, and repeat or inconclusive exams. The memo supplies no cost or utilization figures for that calculation. (The Idea, Defensibility, Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-Automated scoring could save time while leaving the full visit too expensive to repeat, especially if the result seldom changes clinical follow-up. The memo documents limits on immediate treatment eligibility, and ViewMind’s similar VR eye-tracking approach gives buyers a plausible substitute under model parity. These risks keep both Path B conditions open. The memo contains no direct cost comparison or evidence of equivalent presymptomatic performance that would close the path. (Key Risks; Defensibility)
+Acuity could remain a labor-intensive testing bundle whose VR result has limited clinical use. Saccade’s terms say the assessment lacks validation for individual risk prediction, and the treatment pathway described in the memo requires early symptomatic disease and confirmed amyloid pathology. ViewMind’s VR eye-tracking work also makes a substitute credible, with comparable presymptomatic performance still untested. The current evidence leaves the market-opening and model-parity gates unresolved. It supports Watch, with no independent evidence for a scarce-complements path. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent clinic pay to repeat Acuity for asymptomatic adults who previously went without assessment after a comparative pilot shows that it produces a validated result that informs follow-up, uses less clinician time per usable result, and covers full delivery costs at the price paid? Move to **Reach out** if the clinic reorders and identifies a measured advantage in Saccade’s assessment or delivery that persists when a rival has equivalent models. Move to **Pass** if the comparison shows the full cost prevents repeat use or an equivalent service preserves the outcome without Saccade.
+Can a prospective paid pilot show that independent clinics serving previously unserved asymptomatic patients reorder Saccade at a viable price because its validated testing service delivers a clinically useful result with materially less clinician time and lower cost per successful assessment, even when comparable model capability is available? A pilot that measures those outcomes against current practice and records repeat paid orders would move the action to Reach out. A conclusive failure to deliver clinically useful results or open paid demand would close the path and move the action to Pass.

@@ -5,38 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A contract management vendor could buy Mike‑1 to add contract review, redlining, and counsel handoffs to its existing customer workflow. The memo describes a workspace that retains documents, redlines, and matter history. Ownership could save the buyer time and bring recurring customer relationships if paid customers repeatedly use that workflow and those relationships can transfer. Buyer interest and the value of those benefits remain unverified. (The Idea, Defensibility)
+The strongest path is a strategic acquisition by a legal workflow vendor such as Harvey. Mike‑1 could give a buyer a direct channel to startups and growing businesses, a workspace that reuses their contract history, and a way to route matters to independent lawyers. That buyer rationale is an inference. The memo documents the November research preview, and Index Law reports one contract turnaround under 60 minutes and quotes up to 80% below comparable law-firm quotes. Repeatability and paid conversion remain unverified. (The Idea, Defensibility, Market & Traction)
 
-The memo documents a public research preview with free access and advertised paid plans. Index Law reports one contract turned around in under an hour and quotes up to 80% below comparable law-firm quotes. A milestone that would strengthen the acquisition case is a paid customer cohort that renews and repeatedly uses the contract workflow and counsel handoffs over six months. The preview and founder-led onboarding give Index Law a way to test that milestone. Paid conversion, retention, burn, and the capital needed to reach it remain unknown. Independently billed legal advice gives a buyer a plausible way to acquire the software business while preserving the counsel arrangement, subject to customer data rights and contract terms. (The Idea, Market & Traction, Key Risks)
+A feasible seed-stage test would convert preview users to paid plans and track 90-day repeat contract use and counsel escalations. The live preview and founder-led onboarding provide a starting point. The capital required to run the test is unknown. Separate software and counsel pricing makes a software acquisition plausible, while rights to transfer customer records and counsel agreements remain unverified. (The Idea, Market & Traction, Key Risks)
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target is $2.5 million gross. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million of enterprise value. The memo leaves realizable sale prices, actual ownership, debt, fees, and senior claims unevidenced. (Key Facts)
+Using the benchmark of a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3% with zero follow-ons, a 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. The sale scenarios assume a full all-cash acquisition within eight years, eligibility to sell the entire stake, and a pro rata waterfall with zero senior preference leakage.
 
-| Eight-year scenario | Gross cash to the holder at 3% |
-|---|---:|
-| $25 million enterprise value, less $5 million of net debt | $600,000, or 1.2× |
-| $100 million enterprise value, less $5 million of net debt | $2.85 million, or 5.7× |
-| Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0, with shares retained |
+| Illustrative scenario | Enterprise-to-equity bridge | Cash to holder |
+|---|---|---:|
+| Modest sale | $40M enterprise value less $5M in net debt and closing deductions yields $35M | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in net debt and closing deductions yields $90M | $2.70M (5.4×) |
+| Prolonged private | Cash is reinvested throughout the eight-year horizon | $0 (0×) |
 
-The sale scenarios assume cash at closing and a simple pro rata distribution before investor taxes, with zero fees and senior claims for illustration. In a wind-down, the holder would receive only its share of any residual after obligations and preferences. The memo supplies no basis to estimate that residual.
-
-The other routes lack independent support. A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks eligible-share demand and terms. An IPO lacks evidence of public-market scale or resale readiness. A dividend or buyback lacks demonstrated distributable cash and a funded payout plan. (Market & Traction, Key Facts)
+The strong case clears the hurdle under those assumptions. At an illustrative 8× software ARR, a $100 million price would require about $12.5 million in ARR, equivalent to roughly 2,100 subscriptions at the advertised $499 monthly Teams price, excluding counsel fees. Realized revenue and buyer pricing remain unverified, and the memo supports no independent liquidity route. (The Idea, Key Facts)
 
 ### Countercase
 
-A buyer could use an existing legal AI plugin for basic contract review and partner for counsel referrals. The memo identifies a configurable substitute for basic review, while repeat counsel usage and transfer rights for confidential matter history remain unverified. That could leave little worth acquiring at the required price. The substitute covers part of Mike‑1’s workflow, and the memo establishes neither a structural closing barrier nor a supported sale range that leaves the holder materially short. The Pass gate remains untriggered. (Defensibility, Key Risks)
+A buyer could build or bundle basic contract review and NDA triage in tools customers already use, as the Claude Cowork legal plugin illustrates. If customers rarely return or use counsel routing, acquiring Mike‑1 may add little beyond those substitutes. The memo leaves paid retention and the value of the integrated workflow unresolved, so the substitution risk falls short of the Pass gate. (Defensibility, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
-| Plausible investor proceeds | 8/30 |
+| Counterparty rationale or source of cash | 15/30 |
+| Plausible investor proceeds | 10/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Would a contract management vendor value Mike‑1’s transferable customer relationships and repeat counsel workflow at a cash acquisition price that clears the holder’s eight-year target? Buyer-side economics grounded in paid cohort retention and repeat counsel use would move the action to Reach out if they support roughly $88.3 million in enterprise value under the illustrative terms, or the equivalent hurdle under actual shareholder terms.
+Would a legal workflow vendor’s estimates of customer acquisition savings and cross-sell revenue from Mike‑1 support about $93 million in enterprise value at a defined paid-customer milestone? A buyer-backed estimate grounded in a cohort that pays, returns for contract work, and uses counsel routing would move the action to Reach out if it supports that price after the assumed $10 million in deductions.

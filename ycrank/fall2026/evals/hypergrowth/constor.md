@@ -5,26 +5,28 @@
 
 ### Company case
 
-Constor’s strongest path is repeatable direct sales to HVAC and insulation contractors. A live demo on a prospect’s own drawings can show whether the estimator can upload a PDF, correct detected quantities against the plans, and export a usable takeoff. That recurring pre-bid job appears portable across markets if local drawing conventions and blueprint reuse rules can be accommodated within the same workflow. The memo leaves buyer geography unspecified. (*The Idea*, *Key Risks*)
+Constor’s strongest path is to become the recurring PDF takeoff tool for HVAC and insulation estimators. Assuming strong fit with those buyers, the product could spread through trade-specific guides and estimator referrals. The memo documents a reusable workflow in which estimators upload drawings, correct detected quantities, and export the reviewed takeoff. Measuring quantities before pricing is a plausible cross-market use case. How well the current detector handles different drawing conventions and trade symbols remains uncertain. Guides and signup pricing give buyers a route to the product, while the documented sales motion includes live demos on prospects’ drawings. Independent purchase and activation remain unverified. (The Idea, Key Risks)
 
-Constor reports about 15 contractors bidding with the product, five paying design partners, and 12 paid preorders, with overlap unspecified. Named buyers report time savings. A2C Isolation’s account of faster takeoffs and more bids suggests repeat use across projects, while recurring paid use and expansion remain unmeasured. The first link at risk is the handoff from a live demo to paid, independent use. The memo identifies introductions and trade-specific guides as acquisition routes and credits a founder with the first deal. It leaves conversion, onboarding effort, and handoff unresolved. (*Market & Traction*, *The Idea*, *Founders & Team*)
+The company reported five paying design partners and 12 paid preorders in September, with unspecified overlap, followed by about 15 contractors bidding with Constor in October. Customer testimonials describe faster takeoffs. These signals support early paid demand and actual use for a three-founder team. The figures measure different things, so they cannot establish paid growth or time to commercial scale. Repeated bids give contractors a reason to return and could increase spend if higher drawing volume consumes more paid credits. The memo documents subscriptions and credits, with credit consumption and renewal behavior still unclear. (Market & Traction, Founders & Team, Key Facts)
+
+Incremental subscription and credit revenue would need to cover document processing, storage, support, and any staff time spent on demos or setup. The product puts verification in the estimator’s hands, which could limit Constor’s labor per takeoff if customers can resolve ordinary errors themselves. The founder’s reported launch profitability provides no per-account or per-workload cost breakdown. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Constor requires estimators to verify quantities before bidding, and incomplete or illegible drawings can produce errors. If unfamiliar plans also require Constor staff to interpret drawings or tune detection for each account, the demo could lead to a labor-intensive rollout. Lifetime discounts for design partners make early payments a weaker guide to what later buyers will pay, and reported launch profitability leaves the cost of serving the next account unmeasured. The structural downside gate remains untriggered because proportional seller-side effort is still a hypothesis. (*Key Risks*, *Defensibility*, *Key Facts*)
+Constor could remain a founder-assisted point tool. Live demos on prospect drawings and lifetime discounts for early design partners leave open whether ordinary contractors will buy and onboard independently at standard pricing. Incomplete or illegible drawings can produce errors, and overlapping products already offer human-checked takeoffs or linked estimating. If unfamiliar drawing conventions require frequent staff intervention, both portability and contribution would weaken. The structural downside gate stays open because the memo does not establish that substantial market-specific rebuilding or uneconomic staff involvement is unavoidable. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 12/25 |
+| Retention economics | 13/20 |
+| Initial traction | 10/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 53/100** (Neutral)
 
 ### Decisive diligence question
 
-Can multiple unrelated HVAC or insulation contractors from the same acquisition channel reach a paid, bid-ready takeoff through a standard onboarding process run without a founder? Move to **Reach out** if rollout records show those buyers completed and exported reviewed takeoffs on live bids, paid, and required consistently limited staff time without account-specific tuning.
+Can a cohort of HVAC and insulation contractors in a second market discover Constor through its trade guides, pay standard prices, and complete repeat bid takeoffs at positive incremental contribution without staff-assisted setup or market-specific rebuilding? Signup, billing, workload, and support records showing that pattern would move the action to Reach out. Evidence that substantial rebuilding or uneconomic staff work is unavoidable would move it to Pass.

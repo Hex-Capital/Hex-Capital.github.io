@@ -1,32 +1,34 @@
 ﻿# Ignition Benefits -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Path B — New Economies. The plausible opening is a detailed, competitive benefits renewal for small employers that already have brokerage but typically accept a bundled renewal without a substantive market review. AWM Capital’s prior bundled plan supplied no claims history. Ignition says it used workforce profiling to obtain competing quotes anyway. That case identifies a specific service gap and a way to work around it. Whether automation makes that service economical for employers who previously went without it remains untested. (The Idea, Key Risks)
+The strongest path is **New Economies** through a licensed brokerage. Ignition says it uses claims and workforce data to explain renewal changes while licensed brokers shop carrier quotes and manage enrollment. The scenario is that automating renewal analysis reduces broker labor per successfully implemented renewal enough to bring claims-informed advice to smaller employers that previously received a quote without that analysis. The memo gives neither the labor cost of the former workflow nor the cost per completed renewal with Ignition, so it leaves the market-opening threshold unproven. (The Idea)
 
-Customer testimonials report actual plan changes. Light Labs moved to a level-funded plan that came in $113,115 below its renewal quote. That shows willingness to act on a competing offer. The figure measures the employer’s premium savings. Broker hours and delivery costs are unknown. Ignition also coordinated a late enrollment reset and employee support while Light Labs kept Gusto for payroll, showing that the team can handle a consequential exception. (Market & Traction, Key Risks)
+Customer testimonials show employers acting on Ignition’s recommendations. AWM reported a negotiated plan $156,914 below its renewal quote and $23,457 below prior-year spend. Light Labs reported switching to a level-funded plan and saving $113,115 against its renewal quote. These placements support demand for the brokerage service. The memo leaves repeat placement and demand from employers newly served by lower delivery costs unverified. (Market & Traction)
 
-Under the scenario assumption that rivals have equally capable models, employers could still choose Ignition to place coverage and handle ongoing benefits administration. Its reported responsibility for Mango’s eligibility changes and employee support gives that possibility some operating evidence. The expansion unit is one employer account. Ignition says carriers pay the brokerage, so the cost test is whether realized commissions cover acquisition, broker review, quote retries, enrollment, compliance, and ongoing support at the service quality promised. The memo identifies a $1,000 qualified-referral incentive, but gives no realized commission, labor, or contribution figures. (Defensibility, The Idea)
+Ignition’s case study describes ongoing responsibility for Mango’s eligibility changes and benefits support inside its existing payroll system. That service relationship gives employers a plausible reason to stay when comparable models are widely available. For execution, the memo records a platform launch, describes how Ignition coordinated Light Labs’ late enrollment reset, and notes that founder Nick Taranto previously managed broker selection while scaling Plated. (Defensibility, Market & Traction, Key Risks, Founders & Team)
+
+The expansion unit is one employer account through placement and renewal. Ignition says carriers pay the brokerage. Contribution per account depends on those payments covering acquisition, licensed broker time, model costs, and enrollment and support exceptions. The $1,000 qualified-referral payment identifies one acquisition cost. Commission yield, conversion, and service effort remain unmeasured in the memo. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Ignition could be a more effective broker in an existing market. Its customers already had benefits coverage, and Nava already offers AI-assisted quoting and employee support backed by human advisors. The memo shows neither a representative reduction in full delivery cost nor employer preference when a comparable broker offers equivalent analysis and service. Those gaps keep both Path B gates open and unresolved. The evidence supports Watch because a field comparison can test both conditions, and the memo contains no demonstrated substitution or cost failure that closes the path. (The Idea, Market & Traction, Defensibility)
+The strongest countercase is that Ignition wins conventional brokerage business by shopping quotes and managing switches in an established market. Nava already combines AI-assisted renewal quoting and scenario modeling with human advisors, and Gusto offers bundled brokerage. The memo identifies no structural barrier or demonstrated exclusive claims-data rights, so neither licensing nor data access establishes a scarce-complement path. The competitive overlap weakens the case for durable value under model parity. It falls short of closing the New Economies path because the memo shows neither comparable end-to-end service followed by customer switching nor evidence that smaller employers can already obtain the same depth of renewal analysis economically. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 9/15 |
+| Customer demand | 12/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Ignition win and retain small employers that previously went without a substantive competing-quote review while delivering those reviews profitably against a licensed broker with equivalent AI analysis? A representative renewal cohort would answer this by comparing labor and full cost per completed, compliant placement, verifying carrier commissions, and tracking which broker employers choose at the next renewal. Lower labor cost that makes the service viable at realized commissions, together with repeat choice under parity, would move the action to Reach out. Representative evidence that the delivery economics fail or that employers readily switch to the equivalent broker would move it to Pass.
+Can a cohort of smaller employers previously unable to obtain claims-informed renewal advice complete and repeat placements with Ignition at positive contribution while a broker with comparable AI features is available? A cohort comparison that documents prior access, measures fully loaded cost per successful renewal against a conventional staffed workflow, and shows employers choosing Ignition again under functional parity would move the action to **Reach out**. Inconclusive results would keep it at **Watch**. Evidence that the cost reduction opens no new use or that employers readily switch at parity would move it to **Pass**.

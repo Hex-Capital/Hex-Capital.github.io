@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Hue’s strongest case is that production-faithful app state becomes a bottleneck for teams releasing agents that send email or update CRMs. Hue says it can reconstruct the state an agent encountered from recorded requests and give each test run an isolated starting copy. If cheaper models lead teams to ship more agents that act across business apps, teams could face more release-blocking failures that empty sandboxes and mocked APIs cannot reproduce. The memo contains no representative buyer test showing how often Hue reproduces those failures or how much engineering time it saves. (*The Idea*, *Market & Traction*, *Key Risks*)
+Hue’s strongest path is **scarce complements**. The candidate bottleneck is access to realistic, repeatable app state for reproducing production agent failures. Hue documents reconstructing a selected checkpoint from retained tool observations and giving each run an isolated copy. If the checkpoint preserves the state that caused a failure, teams could rerun that failure across agent versions without rebuilding the fixture by hand. The memo reports growth in observed MCP tool calls, a directional signal for testing demand. It contains no comparative results showing how often Hue reproduces failures that mocks, empty sandboxes, or competing simulators miss. The memo also leaves the New Economies gates open, with no measured labor savings per successful replay, previously excluded use, or buyer preference under model parity. (The Idea, Market & Traction, Key Risks)
 
-The reported 69,000 weekly SDK downloads show distribution. The memo gives no count of active teams, paid deployments, or repeat buyers. The shipped SDKs and the founders’ prior agent work support early execution credit. The expansion unit is a reusable test world. If teams can reuse it across releases, setup effort could be spread over more runs. That cost advantage remains conditional on reconstruction, redaction, replica maintenance, and per-run costs, for which the memo supplies no measurements. (*Market & Traction*, *The Idea*, *Founders & Team*, *Key Risks*)
+Hue’s checkpoint workflow could make accumulated regression cases costly to migrate. That is an inference, with retention and migration behavior untested. The memo reports 69K weekly npm downloads and documents paid-plan terms, while paid deployments and repeat buyer use remain unverified. The two founders have relevant agent-building experience, report building test and replay infrastructure in prior roles, and have shipped SDKs. Independent field results on replay fidelity are the next execution gap. (Defensibility, Market & Traction, The Idea, Founders & Team)
+
+The relevant scale unit is a usable regression replay. **Scenario assumption:** Reusing a checkpoint across releases spreads setup and reconstruction costs over more successful runs. Contribution would depend on subscription and usage revenue covering isolated-run compute, replica maintenance, and human work for failed reconstructions or privacy exceptions. The memo gives no pricing, replay success rates, or operating costs to validate that bridge. (The Idea, Key Risks)
 
 ### Countercase
 
-Ancha already offers trace-based replay, Arga Labs offers stateful app replicas, and open-source ClawsBench supports Gmail and Slack snapshot restoration. Hue’s ability to select a checkpoint from retained user history could matter if it reproduces failures those alternatives miss. That advantage is untested, and Hue’s own documentation says missing observations can prevent reconstruction. The overlap leaves durable control unproven and supports Watch. The memo contains no head-to-head result that closes the path. (*Defensibility*, *Key Risks*)
+Realistic app state may be broadly available from competing tools. Ancha already offers trace-to-world conversion, and open-source ClawsBench offers stateful Gmail and Slack simulations with snapshot restoration. Hue also discloses that unobserved fields can remain absent and that sparse traces can prevent reconstruction. Together, those facts weaken the scarcity case. The memo leaves open whether the closest alternative can reproduce the same consequential failures under the same data restrictions, so the path stays on Watch. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Customer demand | 5/20 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
 **Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent agent team pay to use Hue again after a side-by-side trial against Ancha on representative release-blocking failures using production traces the buyer is allowed to share? Move to Reach out if Hue reliably reproduces consequential failures Ancha misses at comparable setup and run cost, and the buyer commits budget for another release. If Ancha meets the same release requirements at comparable cost, Pass on the current case.
+Will independent agent teams renew paid use of Hue after testing it against the closest alternative on their own production failures? Move to **Reach out** if teams renew because Hue consistently reproduces consequential failures the alternative misses under the same data restrictions. Move to **Pass** if the alternative matches Hue on those failures and teams switch readily.

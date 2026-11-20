@@ -5,23 +5,23 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper frontier intelligence leads robot builders to collect more contact-rich training data, affordable joints that reliably detect light contact could become a bottleneck. Silica says current-based torque estimates miss light contacts and separate sensors can cost several times the actuator price. If those limits hold in deployment, training teams bear the cost through missed contact signals or more expensive arms. Silica’s public demo shows gearbox-integrated output sensing, and the company reports paperclip-weight detection. The memo leaves open whether that sensitivity improves usable training data under repeated loading and temperature changes. (The Idea; Defensibility; Key Risks)
+Silica’s strongest AGI path is scarce complements. If robot-learning teams need reliable light-contact data at fleet scale, a drop-in joint that measures torque directly at the gearbox output could relieve a hardware bottleneck. The memo documents a public demonstration of integrated sensing. Silica reports paperclip-weight detection and says motor-current estimates miss light contacts on low-cost arms. The demo supports the sensing mechanism. Its effect on usable training data and its reliability under field conditions remain unverified. (The Idea, Defensibility, Key Risks)
 
-Silica’s proposed fit with existing low-cost arms gives it a plausible route to qualification. Consistent calibration across production units could make a qualified joint costly to replace, but buyer qualification and production consistency remain unproven. Silica reports more than 60,000 units requested through a form with email follow-up. That signals interest, while paid orders and independent buyers’ qualification commitments remain unverified. (The Idea; Defensibility; Market & Traction; Key Risks)
-
-Milletti’s manufacturing and equipment engineering experience is relevant, and the prototype shows progress toward a working joint. The next execution milestone is repeatable performance across production units. Each qualified joint is a plausible expansion unit. If the quoted price of under $500 holds in sales, it must cover parts, assembly, calibration, yield losses, and warranty costs with room for contribution. The memo gives no measured production costs or yields. Confidence is low because the demo supports technical plausibility, while scarcity, buyer commitment, and production economics remain unresolved. (Founders & Team; Defensibility; The Idea; Key Risks)
+- **Customer demand.** Silica reports more than 60,000 units requested in the first month. Quantity requests show early interest. The email-confirmation process leaves buyer identity, paid conversion, and repeat demand unverified. (Market & Traction, Key Risks)
+- **Team and execution.** Milletti’s product design work at Apple and automated equipment work at Artefact are relevant to building the actuator. The next execution gap for the solo founder is delivering customer units with consistent calibration and reliability. (Founders & Team, Key Facts, Key Risks)
+- **Scale economics.** The expansion unit is a qualified joint. If realized prices follow the founder’s under-$500 quote, manufacturing, calibration, yield losses, and warranty costs must fit below that price for positive unit contribution. The memo gives no production cost, yield, or tooling figures, so margins and capital needs remain open. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Silica may be packaging a capability robot builders can already source. HEBI offers force-sensing modules, Synapticon offers custom torque-sensing joints, and Harmonic Drive sells gears with integrated torque sensors. The memo identifies no structural barrier and leaves open whether these alternatives meet the same fit, sensing, reliability, and installed-cost requirements for low-cost training arms. Demonstrated equivalence would close Path A. The memo supports a buyer comparison and therefore a Watch action. (Defensibility; Market & Traction; Key Risks)
+HEBI’s force-sensing modules, Synapticon’s custom joints, and Harmonic Drive’s sensor-integrated gears give robot makers existing routes to joint-level sensing. Silica’s retrofit design could earn a place in low-cost training arms, and qualification could create switching costs. Both advantages remain untested. The alternatives weaken the scarcity case, but their installed cost and performance on the same training arms remain unresolved, so the path stays open at Watch. The memo gives no evidence that lower labor cost per successful outcome opens a new market for Silica. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 13/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 7/20 |
+| Customer demand | 6/20 |
 | Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
@@ -29,4 +29,4 @@ Silica may be packaging a capability robot builders can already source. HEBI off
 
 ### Decisive diligence question
 
-Will an independent training-arm builder qualify and place a paid order for production-representative Silica joints after comparing them with the best available substitute on its own contact-heavy tasks? Reach out if the trial shows a material advantage in usable contact data at the buyer’s installed-cost target, with accuracy holding across units and duty cycles, and the buyer orders on that basis. Pass if an available substitute delivers equivalent results at comparable installed cost. (The Idea; Defensibility; Key Risks)
+Will an independent maker of low-cost training arms qualify a production-representative Q Series lot and place a paid follow-on order after comparing it with the best available substitute? Move to Reach out if the buyer records a sustained gain in usable light-contact data under normal operating conditions and reorders at a price that covers Silica’s measured per-joint costs. Move to Pass if the qualification shows that a readily available substitute delivers equivalent results at comparable or lower installed cost and the buyer selects it. (The Idea, Defensibility, Key Risks)

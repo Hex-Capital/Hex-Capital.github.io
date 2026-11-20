@@ -5,28 +5,26 @@
 
 ### Company case
 
-Product-led adoption is UXDuck’s strongest path. The initial buyer is a commercial custom-drone engineering team that repeatedly configures vehicles, tests changes, and reviews flight data. UXDuck offers an account-free browser simulator and a self-serve desktop download, and it can run alongside existing ground stations. That makes the same workflow plausible across markets for teams with compatible setups. Paid adoption in a second market is unverified. (The Idea, Key Risks)
+Assuming strong product-market fit with commercial teams building custom drones, UXDuck’s strongest path is bottom-up adoption through browser simulation, followed by desktop use for recurring vehicle testing, configuration, and flight review. MAVLink compatibility and the ability to run alongside existing ground stations make substantially the same product usable by comparable teams across markets. The account-free simulator and desktop download give developers a way to start on their own. One CTO reported flying a custom-imported aircraft within five minutes of downloading the app and using it with his team for demos and flying. Commercial pricing requires an inquiry, leaving a gap between self-serve activation and payment. (The Idea, Market & Traction, Defensibility)
 
-Ed Handford, a startup CTO, reported flying a custom-imported aircraft within five minutes of download and described UXDuck as his team’s tool for demos and flying. That is one concrete activation and a signal of repeat use and early fit. His discovery channel, onboarding assistance, usage cadence, and payment status are unknown. UXDuck reports more than 500 simulated flight hours outside testing and development, with no account-level breakdown. (Market & Traction)
-
-Assuming teams adopt UXDuck for recurring engineering work, saved configurations and flight histories could bring more teammates and vehicles into the same workflow. The first unresolved link is whether quick activation converts into paid adoption through a repeatable process. Business pricing is by inquiry, and the memo gives no usable measure of UXDuck’s incremental onboarding or support costs. (The Idea, Defensibility, Key Facts)
+Saved configurations and vehicle histories could make UXDuck part of each development cycle. That supports repeat use, while billing cadence and ways for existing accounts to spend more remain unknown. UXDuck reports more than 500 simulated flight hours outside testing and development. The commercial traction default applies because paid use, revenue growth, and pre-revenue status are all unestablished. (Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Teams could keep UXDuck for demos and occasional flights while relying on Mission Planner or QGroundControl for routine work. Parallel use makes a trial easier and lets teams keep their existing workflow. UXDuck’s documented and fixed flight-control regression illustrates the reliability burden as vehicle setups vary. If each commercial rollout requires founder-led integration or extensive support, fast activation in one case may have little bearing on scalable paid adoption. The memo leaves that possibility open, so the structural downside gate does not apply. (The Idea, Market & Traction, Key Risks)
+Teams could keep their incumbent ground station as their primary tool and use UXDuck occasionally for simulation or demos. The documented PX4 regression illustrates the reliability burden of supporting live vehicles. Standard downloads can limit setup effort, but contribution per commercial account depends on the quoted fee minus the cost of sales, onboarding, compatibility support, and hosted AI when used. The memo gives too little evidence to estimate that contribution, so cost economics stays at the default. The structural gate remains open because standard interfaces and a reported quick setup make a repeatable path plausible. (The Idea, Market & Traction, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 10/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 57/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two unrelated commercial custom-drone teams go from self-serve discovery to paid use in a recurring test workflow through the same onboarding process? Records showing each team’s first successful test, payment, and onboarding effort would answer it. Two conversions without bespoke integration and with limited founder time would move UXDuck to Reach out.
+Can commercial drone teams that start on their own convert to standard paid terms and renew with routine support? A cohort of independent teams that converts and renews through that path, with account revenue comfortably covering attributable sales and support costs, would move the action to Reach out.

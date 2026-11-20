@@ -5,28 +5,26 @@
 
 ### Company case
 
-The strongest path is **repeatable direct sales** to commercial property insurers. Ageospatial describes matching addresses to parcels and buildings, combining imagery and carrier data, and producing dated property records that help underwriters prioritize inspections. The same job plausibly recurs across insurers and markets. The record format and inspection workflow could carry over, while local data coverage, licensing, and insurer oversight leave the scope of adaptation open. *(The Idea, Key Risks)*
+Assuming strong fit with commercial property insurers, Ageospatial’s strongest path is to reuse its address matching, imagery analysis, and dated property records across carriers that repeatedly assess risk and prioritize inspections. The company lists AXA and Die Mobiliar under “Trusted by,” with engagement terms undisclosed. The underwriting job plausibly recurs across markets. How much local parcel data, licensing, and oversight work the current product would require remains uncertain. (The Idea, Market & Traction, Key Risks)
 
-The founder reports signing the company’s largest insurance customer through a relationship-led sale. The memo observes that AXA and Die Mobiliar appear under “Trusted by,” with engagement terms undisclosed. The signature signals buyer interest, while the buyer’s budget, production use, and workflow change remain unverified. The memo also leaves open whether customers return at renewal or pay to cover more properties. *(The Idea, Market & Traction, Key Facts)*
-
-Assuming strong fit with the first carrier, the first likely bottleneck is getting the next carrier from a demo to paid production. Ageospatial says its engineers deploy inside carrier systems. The memo gives no comparable implementation hours or costs, so it is unclear whether the next rollout can reuse enough of the first to improve contribution. *(The Idea, Defensibility, Key Risks)*
+The founder reported signing the company’s largest insurance customer in October, shortly after the September 29 product launch. The memo gives no contract value, paid production activity, or realized revenue. It also identifies a sole active founder and lists two engineers, leaving the effort behind the signing unclear. Refreshed property records and integration into insurer workflows provide a reason for continued use. If carriers pay for ongoing monitoring and fees rise with the number of properties covered, portfolio expansion could increase recurring revenue from existing accounts. Billing and expansion economics remain unverified. (Market & Traction, Founders & Team, Key Facts, Defensibility)
 
 ### Countercase
 
-Ageospatial could win contracts while each carrier still requires a founder relationship and a custom integration. Carrier-specific data and third-party coverage could make that work recur with every deployment. The memo establishes an engineer-led deployment model and one reported relationship-led signing. Whether effort rises in proportion to revenue remains open, so the structural downside gate does not trigger. *(The Idea, Market & Traction, Key Risks)*
+The observed path starts with a demo, and the founder describes a relationship-led sale followed by engineer-led deployment inside carrier systems. Demos and signed agreements provide a repeatable sales sequence, while integration still requires human effort. Under a negotiated contract scenario, incremental contribution would be the next carrier’s fees less attributable selling, deployment, data licensing, processing, and support costs. The memo identifies deployment and data dependencies but gives too little evidence to establish contribution or cost leverage. The structural gate remains open because the memo does not establish substantial rebuilding by market or show that required engineer time makes faster growth economically infeasible. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent commercial property insurer go from a direct demo to paid production for the same inspection-prioritization workflow using the first deployment’s integration process? A signed paid agreement, evidence of live underwriting use, and implementation logs showing a successful handoff and bounded engineering effort compared with the first rollout would move the action to **Reach out**.
+Can Ageospatial take a second carrier in a different market into paid production using the same core product with bounded adaptation? A documented rollout showing which data connections and workflows were reused, what had to be rebuilt, and how much engineering time was required would answer it. Bounded work would support rescoring for Reach out. Evidence that routine market entry requires substantial rebuilding without a credible near-term path to reuse would move the action to Pass.

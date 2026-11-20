@@ -5,28 +5,26 @@
 
 ### Company case
 
-Product-led adoption is Tilo’s strongest path. The likely first buyers are teams that repeatedly run AI agents across multiple apps. The memo describes a browser demo, open-source local deployment, and a Linux desktop where people and agents share live app state and can undo changes. For workflows covered by Tilo’s native apps, the same setup could plausibly serve teams in a second market with limited adaptation. Buyer geography and cross-market rollouts are unreported. (The Idea, Defensibility)
+Conditional on strong product-market fit, Tilo’s strongest path is to serve developer teams running recurring multi-app agent workflows that fit its existing Linux workspace. The memo documents a browser demo, local deployment from public source, typed MCP actions, and a Rust SDK. Tilo lists about 50 native apps that share live state, permissions, and attributed edit history. Those interfaces make it plausible that teams in many markets could use the same product for the same job. The demo and public source give developers a way to discover and try Tilo. Production setup and self-serve payment remain unverified. (The Idea, Defensibility, Key Facts)
 
-A plausible route is for teams to try the browser demo, move a recurring workflow onto Tilo, and pay for a hosted workspace. Hosted pricing is a scenario assumption. The memo documents distribution but gives no independent customer record of activation, payment, repeat use, or a commitment to change a workflow. Even assuming strong fit, the first link likely to break is getting teams from the demo to a live workflow with a repeatable setup. (The Idea, Market & Traction, Key Facts)
-
-Tilo reports running 50 agents in one laptop workspace at about 60 MB per agent. That measures one infrastructure input. Its same-model speed and cost comparison covered one task, and the comparison run failed. Hosting, integration, and support costs remain unknown, leaving marginal contribution unproven. (Market & Traction, Key Risks)
+If Tilo sells hosted workspaces, accumulated history and integrations could encourage teams to renew. The memo establishes neither recurring billing nor a way for retained accounts to increase their spend. The commercial traction default applies because paying adoption, revenue, and pre-revenue status are all unverified. Under the hosted scenario, workspace revenue would need to cover incremental compute, storage and sync, support, and attributable acquisition and setup costs. Shared execution and typed actions could reduce compute per completed workflow. Tilo reports about 60 MB per agent in a 50-agent laptop test. Its separate cost and speed benchmark covered one task whose comparison run failed, leaving hosted contribution unverified. (The Idea, Defensibility, Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-The demo may work best when teams can use Tilo’s native apps. If their recurring work depends on third-party apps, each rollout may require new integrations to gain typed actions and shared history. Tilo also labels the OS early alpha and advises testing with backups, which may make teams reluctant to move live work onto it. The structural downside gate remains untriggered because the memo leaves open whether teams with supported workflows can activate with reusable setup. (Defensibility, Key Risks)
+The best economics may hold only for workflows that fit Tilo’s native apps. Teams relying on third-party apps may need new integrations to get typed actions and shared history, and Tilo’s early-alpha guidance advises testing with backups. If production adoption routinely requires Tilo engineers to build integrations or handle recovery, both onboarding and the cost of serving each buyer could rise. The structural downside gate stays open because the memo does not show that this work is unavoidable for teams whose workflows fit the existing apps. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 8/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 19/25 |
+| Repeatable acquisition and onboarding | 14/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 54/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent teams move from the browser demo to paying for the same type of recurring multi-app workflow using existing integrations and a repeatable setup? Observing both teams complete that route and return at the workflow’s normal cadence would move Tilo to Reach out.
+Can a small cohort of independent teams adopt the same hosted workflow through self-serve onboarding and use it profitably across two billing periods? Evidence would be teams setting up and paying without founder help, continuing paid production use into the second period, and generating positive contribution after attributable acquisition, setup, hosting, and support costs. That would support moving to Reach out if the updated score reaches 65 and confidence rises to at least Medium.

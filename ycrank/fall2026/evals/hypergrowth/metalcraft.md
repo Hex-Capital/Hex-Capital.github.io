@@ -5,28 +5,28 @@
 
 ### Company case
 
-The strongest path is **repeatable direct sales through the public taskset catalog**. Following its November pivot, Metalcraft listed six tasksets, published sample cases and model results, and provided a booking link for full access. The model results are company-reported and illustrate the scoring format. Licensing the full tasksets is an inferred business model. (The Idea, Market & Traction)
+Conditional on strong product-market fit, Metalcraft’s strongest path is licensing the same biology evaluation tasksets to life-science model developers across markets. The public catalog lists six tasksets, shows sample cases, and routes full-access requests through a booking link. Metalcraft reports model performance by taskset. The inference is that developers can reuse the same tasksets to compare model releases across markets, with limited geographic adaptation. The booking handoff limits acquisition credit because payment and setup after the request remain unclear. (The Idea, Market & Traction)
 
-The likely first buyer is an evaluation team at a life-science AI developer. Its recurring job would be to compare model versions on research tasks. The published samples and scoring format make it credible that teams in different markets could use the same package with limited adaptation. That scenario assumes buyers can integrate the tasksets into their evaluation workflows. The memo gives no buyer geography or rollout evidence. (The Idea, Market & Traction)
+Repeated evaluation across releases gives buyers a reason to keep using the tasksets. Recurring license payments and higher spend on additional tasksets are scenario assumptions. Under that scenario, incremental contribution is license revenue less attributable selling, setup, delivery, support, and any buyer-specific curation. Shared content could improve contribution if buyers accept it as delivered. Pricing and delivery inputs are too uncertain to estimate contribution, so cost economics uses the default. (The Idea, Key Facts)
 
-Even assuming strong fit, the first unproven link is whether a catalog request becomes a paid deployment through a standard setup. The memo gives no independent buyer activation or budget commitment, repeat use across model releases, or measure of the work required to onboard and support an account. At this stage, one buyer-funded deployment could test that link. (The Idea, Market & Traction, Key Facts)
+The two-person team’s catalog is an early product milestone. The November 9 listing change dates the public pivot, while first paid availability, realized revenue, and paid adoption remain unknown. Initial traction uses the absent-evidence default. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Model developers can build overlapping benchmarks in-house. If Metalcraft’s scores have limited value for live research decisions, buyers may prefer internal evaluations tailored to their own workflows. That would weaken both the reason to pay and the reason to return for the next model release. The memo supports the substitution risk and leaves predictive validity open. It provides no buyer outcomes showing that either issue forecloses the path, so the structural downside gate does not apply. (Defensibility, Key Risks)
+Model developers can build overlapping evaluations in-house. If catalog scores have limited predictive value for buyers’ own research workflows, buyers may demand custom validation or build their own benchmarks. Either outcome could weaken repeat purchasing, and custom work could erode contribution. The structural gate clears on current evidence because the extent and cost of any required buyer-specific work remain unresolved. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 19/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 9/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent life-science AI team come through the catalog, pay for a standard taskset, and use it across two successive model releases with bounded, documented onboarding and support effort? One deployment meeting that milestone would move the action to Reach out.
+Can independent model developers buy and activate the same catalog tasksets with minimal help, then pay again for subsequent model releases? A paid cohort showing that pattern and positive contribution after attributable acquisition and delivery costs would support Reach out if the updated score reaches 65 and confidence reaches Medium. If ordinary buyers consistently require bespoke work that makes faster growth economically infeasible, move to Pass.

@@ -5,15 +5,17 @@
 
 ### Company case
 
-**Path B — New Economies** is the strongest case. STASIS proposes to automate the work of noticing eye fatigue, timing breaks, and adjusting screens. The scenario assumption is that some screen workers go without consistent relief because managing it manually interrupts their work. If the glasses reduce active effort per day of meaningful symptom relief, including setup, missed prompts, and manual corrections, they could make consistent relief practical for that group. The memo documents a prototype, and STASIS claims over 90% accuracy for fatigue and cognitive load without disclosing its reference measure or validation protocol. The labor savings and symptom benefit remain unmeasured. (The Idea, Market & Traction, Key Risks)
+The strongest path is a **scarce complement**. If capable models can use continuous eye measurements to time interventions that measurably reduce fatigue, reliable on-face sensing could become more valuable as those models improve. STASIS proposes using blinks, squints, and gaze to trigger tint changes, break prompts, and screen adjustments. The company reports over 90% accuracy for fatigue and cognitive load, with the reference measure and validation protocol undisclosed. The memo contains no evidence of a labor-cost reduction that opens a previously unserved market. (The Idea, Key Risks)
 
-Under model parity, buyers might still pay for reliable eye sensing and automatic adjustments integrated into prescription eyewear. STASIS reports training on 550 billion eye-data points, with ownership, exclusivity, and incremental performance unresolved. Path A lacks evidence that AI buildout increases demand for a scarce input STASIS controls. (The Idea, Defensibility, Market & Traction)
+Integrated sensing and intervention give STASIS a plausible basis for differentiation. The company reports training on 550 billion eye-data points. Its rights to the data, exclusivity, and any performance advantage from the dataset remain unverified. (Defensibility)
 
-The launch drew about 1.62 million views, and checkout offered a refundable $99 deposit toward the $299 first-batch price. The memo gives no deposit count, conversion, or realized revenue. The founders’ prior eye-sensing prototype and the current STASIS prototype support seed-stage execution. Each additional shipped pair is the unit of expansion. The listed $399 regular price gives a revenue benchmark, while manufacturing, prescription fulfillment, returns, and support costs remain unmeasured. (Market & Traction, Key Facts, Founders & Team, The Idea)
+The reservation launch drew about 1.62 million views and offered a refundable $99 deposit. Deposit uptake, full-price conversion, and realized revenue are unknown. Press coverage documents a STASIS prototype, and the founders previously developed an eye-pressure prototype together. Field validation and first-batch fulfillment remain open. (Market & Traction, Key Facts, Founders & Team, Key Risks)
+
+The expansion unit is a fulfilled pair at $299 for the first batch or a listed $399 regular price, including prescription lenses. Contribution depends on electronics, assembly, lens fulfillment, returns, warranty, and support. The memo provides no cost or yield data to estimate contribution at either price. (The Idea, Key Facts)
 
 ### Countercase
 
-A controlled study cited in the memo found that smartphone blink training improved dry-eye symptoms, giving buyers a credible software substitute for part of the outcome. Suppliers also offer inward-tracking components, and published blink-tracking designs give rivals a starting point. If those alternatives deliver comparable relief with similar user effort, STASIS would have little basis for a hardware premium. The memo leaves both Path B gates open because it lacks a direct comparison of sustained relief, user effort, and paid preference. (Key Risks, Defensibility)
+STASIS could be a consumer eyewear feature that competitors can reproduce with commercially available inward-tracking components and published blink-tracking code. A controlled study cited in the memo found that smartphone blink training improved dry-eye symptoms, giving buyers a simpler option for one use. These observations raise substitution risk. Whether those alternatives can match the value of continuous sensing and automatic interventions in everyday screen work remains open, so the scarce-complement path stays on Watch. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -21,12 +23,12 @@ A controlled study cited in the memo found that smartphone blink training improv
 |-----------|-------|
 | Path-specific thesis fit | 8/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 6/20 |
+| Customer demand | 5/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-In a paid field trial with screen workers who previously went without consistent relief, can STASIS deliver sustained symptom improvement with less user effort than manual breaks and the best available substitute given equivalent model capability, while buyers choose to keep the glasses at $399? Measurably lower effort per day of meaningful relief, paid retention, and credible contribution after fulfillment and support would move the action to **Reach out**. Comparable relief and effort from the substitute, or buyers declining to pay a viable price, would move it to **Pass**.
+Does STASIS’s eye signal deliver enough incremental fatigue relief in everyday screen work that first-batch buyers pay the full $299 and keep using the glasses when a comparable system uses readily available sensing? A paid head-to-head trial would move the action to Reach out if it showed sustained use and a repeatable benefit attributable to STASIS’s signal. Comparable outcomes and ready switching would move it to Pass.

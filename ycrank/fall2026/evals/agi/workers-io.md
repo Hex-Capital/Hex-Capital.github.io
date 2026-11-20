@@ -1,30 +1,30 @@
 ﻿# Workers IO -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap coding agents increase the volume of software changes faster than teams can verify them, reproducible testing of failures across services could become a release bottleneck for payments, trading, and infrastructure teams. Workers IO describes a deterministic hypervisor that runs systems with their dependencies and replays failures from a seed. The founder reports finding PostgreSQL issues while simulating a customer stack. That result supports the technical mechanism at seed, while the buyer’s release delay and the simulator’s improvement in verification throughput remain unmeasured. (*The Idea; Market & Traction*)
+The strongest path is **scarce complements**. If coding agents increase the volume of changes to mission-critical systems, the ability to reproduce failures across services and dependencies could become a bottleneck. Workers IO documents a deterministic hypervisor that branches from intermediate states and replays failures. The founder reports that a simulation of one customer’s stack surfaced PostgreSQL issues. That field report supports the verification mechanism. The link between AI-generated code volume and paid demand for Workers IO remains an inference. (*The Idea*; *Market & Traction*)
 
-An investor reports paying customers, and the CEO reports expansion across teams or projects among almost all customers engaged beyond 30 days, with the cohort size undisclosed. Chaitanya Choudhary’s prior developer-tooling work at Grit and the launch of the simulator support early execution. The plausible unit of expansion is another customer workload. Running unmodified systems could reduce integration effort, while each workload still needs checks and fault coverage. Setup time, simulation compute, support costs, and realized subscription prices remain unknown. (*Market & Traction; Founders & Team; The Idea; Key Risks*)
+Paying customers are reported, and the CEO claims that almost every customer engaged for more than 30 days expanded across teams or projects. The memo gives no cohort size or renewal data. The public launch and the founder’s developer-tooling experience support seed-stage execution, with repeatable onboarding still unproven. An additional customer workload is a plausible unit of expansion. In that scenario, subscription revenue must cover simulation compute, setup, and ongoing support. The memo provides no price or cost per workload. (*Market & Traction*; *Founders & Team*; *The Idea*)
 
 ### Countercase
 
-Antithesis already offers deterministic full-system simulation and a $2,999-per-month self-serve plan with a coding-agent plugin. Workers IO’s customer-state-guided branching could improve fault discovery, and accumulated checks and replay histories could make switching costly. Both advantages remain untested against the direct substitute. The competitor’s offering leaves the scarcity gate unresolved. Comparable results at viable cost on a representative workload would close Path A. (*The Idea; Defensibility; Key Risks*)
+Antithesis already offers full-system deterministic simulation through a self-serve plan with a coding-agent plugin. Workers IO’s state-guided branching could make it more effective on some workloads, but the memo shows no comparative advantage or measured switching costs. Coverage also depends on the workloads and checks customers define, so scarce engineering time could remain the bottleneck. The competitive overlap leaves scarcity and control unproven, with no observed customer switching to establish easy substitution. A New Economies case would require evidence that lower verification labor per successful outcome made a previously excluded use viable. The memo identifies no such use. (*The Idea*; *Defensibility*; *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 10/20 |
-| Team and execution | 8/15 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 11/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent buyer whose releases are constrained by verification commit to a paid second workload after testing Workers IO and Antithesis on the same production-representative workload? Move to **Reach out** if Workers IO alone meets the buyer’s predefined threshold for reproducible release-blocking failures within the same engineering and compute budget, and the buyer pays to expand. Move to **Pass** if both meet the threshold at comparable delivered cost.
+Will independent teams shipping AI-generated changes expand paid use of Workers IO after comparing it with Antithesis on comparable workloads? Reach out if teams verify that Workers IO reproducibly catches material failures the alternative misses at comparable engineering effort, and pay to add workloads for that reason. Pass if buyers obtain comparable coverage with comparable effort and readily switch.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-Path B, New Economies, is Faraday’s strongest path. Industrial operators reconcile orders and exceptions by hand across disconnected systems, and bespoke automation has historically required engineers on site. The investment case assumes Faraday can make low-volume, cross-system workflows economical to automate for operators that previously could only justify manual handling. The memo documents a public industrial benchmark. Faraday reports that its harness raised task accuracy from 38% to 94% with the same underlying model. That result supports testing whether the harness reduces rework, but leaves live labor savings and the cost per correctly resolved exception unmeasured. (The Idea, Defensibility, Market & Traction)
+New Economies is Faraday’s strongest path. Manufacturers and distributors use staff to reconcile orders, schedules, and exceptions across disconnected systems. Bespoke automation has historically required forward-deployed engineers. If Faraday’s shared runtime lowers both setup labor and ongoing review, it could make cross-system reconciliation economical for operators whose workflow volume previously fell below the threshold for custom automation. That buyer segment is an inference. (The Idea)
 
-Under model parity, buyers might still pay for a runtime that coordinates work across their systems and improves through employee corrections. That advantage is inferred, and the memo gives no evidence that buyers prefer it to an equivalent alternative. The reported deployment for an unnamed customer is a limited demand signal, with payment and repeat use unknown. The founders previously deployed software together at manufacturers, and the reported switch to SuperServe cleared a legacy-system blocker. Repeat deployment economics depend on how much setup the shared runtime can absorb and how much integration, review, and exception handling each new workflow still requires. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
+Faraday published a benchmark covering 249 tasks across 46 workflow families and reports that its harness raised accuracy from 38% to 94% with the base model held fixed. That supports a technical mechanism for reducing rework. The memo supplies no live comparison of staff time or cost per successful reconciliation. A production comparison would need to include allocated integration and maintenance costs, model and runtime costs, and human review and exception handling. (Defensibility, Market & Traction, Key Risks)
+
+Customer-specific rules and correction histories could give buyers a reason to stay under model parity if they yield better live outcomes or are costly to recreate. That advantage remains an inference. The founder-reported deployment at one unnamed customer is an early demand signal, with payment and repeat use unknown. The founders’ prior work deploying software at manufacturers and building factory systems supports execution at this stage. Cost evidence for repeating a deployment at the next customer is absent. (Defensibility, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-Faraday may make existing workflows more efficient while leaving previously excluded workflows too expensive to automate. The remote-desktop blocker shows how a customer-specific integration can consume deployment effort, and write-enabled work requires separate approvals and controls. Infor already offers agents for overlapping order and inventory tasks, making it plausible that buyers could get enough of the same outcome from their ERP. The memo contains no representative cost test or observed switching that would close Path B. Neither the market-opening condition nor the model-parity condition is established, so the action is Watch. (Key Risks, Defensibility)
+Faraday could end up selling bespoke integration into an existing automation market. A legacy export blocked the reported deployment until Faraday switched to SuperServe’s sandbox, and write-enabled workflows require separate authorization and agreed controls. Those costs could absorb the labor savings. Infor already offers overlapping order, item, and invoice agents within its own suite, giving some buyers a credible substitute. The memo establishes overlap and integration friction while leaving live substitution and cost per outcome unresolved. Both New Economies gates remain open, and the memo establishes no independent scarce-complement path. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 14/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent industrial operator pay to keep Faraday running a cross-system exception workflow it previously handled manually because automation was uneconomic? A live trial should compare Faraday with the manual baseline and a credible alternative using equivalent model capability, at the same standard for correct resolution. A paid renewal would move the action to Reach out if the trial shows that setup, approvals, review, retries, and escalations still leave the workflow economical and the buyer renews because Faraday handles work the alternative cannot match at comparable cost. If a representative trial shows that the full costs erase the savings or that the buyer can switch and retain the outcome on equivalent terms, close Path B and Pass.
+Will an independent manufacturer pay to renew Faraday for a cross-system workflow it previously left manual because custom automation was too expensive, after testing a credible alternative with comparable model capability? Move to Reach out if production records show that Faraday’s fully loaded cost per correct resolution falls enough to make that workflow viable and the buyer renews because Faraday’s workflow-specific capabilities deliver measurable value. Move to Pass if the comparison shows that bespoke labor erases the savings or that the buyer readily switches at parity.

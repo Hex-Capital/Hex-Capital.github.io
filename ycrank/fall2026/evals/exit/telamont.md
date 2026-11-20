@@ -5,30 +5,34 @@
 
 ### Company case
 
-Strategic acquisition by a construction software platform is Telamont’s strongest exit path. The memo records Telamont’s Autodesk Forma integration and Trimble’s acquisition of Document Crunch. Autodesk is the clearest candidate to test. Owning Telamont could let Autodesk embed continuous revision checks and source-linked risk tracking in Forma and earn revenue from that workflow. The marketplace listing establishes an integration, while the economics of owning it remain unverified. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic sale to a construction software platform such as Autodesk. Telamont’s Forma Marketplace listing establishes an existing integration, and Trimble’s acquisition of Document Crunch shows that a platform has bought an adjacent capability. Autodesk could use Telamont’s continuous revision checks and source-linked risk records to catch conflicts earlier in its customers’ workflows. Telamont reports $1.1 million in avoided foundation rework and $400,000 in missing structural scope flagged. Those cases suggest potential customer value. Repeatability, paid adoption, and the value a platform could capture remain unverified. (The Idea, Defensibility, Market & Traction)
 
-Telamont reports $1.1 million in foundation rework avoided and $400,000 in missing structural scope flagged. These examples support testing for repeatable customer benefit. The operating milestone is repeat paid use across projects by Forma-connected contractors, with customer-verified detection performance and savings against their existing review process. Telamont’s reported deployments and paid offering make that test plausible. Its burn, runway, and budget to reach the milestone remain unknown. (Market & Traction, Key Facts, Key Risks)
+A seed-stage milestone is repeat paid use across projects with customer-verified results. The reported project outcomes and the $500,000 note attributed to YC make that test plausible. Test costs and runway remain unknown. The adjacent acquisition has no disclosed price in the memo, so it supports buyer rationale while leaving realizable proceeds unpriced. Contract assignment, note treatment, and holder eligibility also remain open. (Market & Traction, Key Facts)
 
-**Proceeds bridge.** The memo reports a $500,000 convertible note without enough terms to model conversion or priority. The illustrative scenario assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million for the holder, or $83.3 million in distributable equity at 3%. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), using simple pro rata allocation before investor taxes. Actual debt, fees, and senior claims remain unquantified. The adjacent acquisition has no disclosed price in the memo, leaving the realizable range unsupported. (Market & Traction)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million for the holder, or about $83.3 million in distributable equity at 3%. The sale scenarios assume full cash payment within eight years, full holder participation, and a pro rata waterfall with no further senior claims after the stated deductions. The prices and deductions are illustrative assumptions.
 
-If growth plateaus, buyers stay away, public-market scale remains out of reach, and Telamont reinvests available cash for eight years, the holder realizes $0 and retains the shares. The memo leaves sponsor financing capacity, eligible secondary demand, IPO readiness, and distributable cash unevidenced. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
+| Scenario | Proceeds bridge | Holder cash |
+|-----------|-----------------|-------------|
+| Modest sale | $40 million enterprise value less $5 million in net debt and deal adjustments leaves $35 million in distributable equity | $1.05 million |
+| Strong sale | $100 million enterprise value less $10 million in net debt and deal adjustments leaves $90 million in distributable equity | $2.7 million. At 2.5% ownership, this falls to $2.25 million. |
+| Prolonged private | Cash is reinvested, with no distribution or eligible share purchase within eight years | $0 |
 
 ### Countercase
 
-Autodesk can already offer Telamont through its marketplace, and Trimble’s Document Crunch product already covers overlapping drawing, contract, and specification review. The strongest countercase is that partnership or internal development captures enough of the value to make ownership uneconomic. Connector permissions present an operating risk, and the memo leaves transfer and consent terms open. The substitution risk and unsupported price range warrant Watch. The evidence establishes neither a structural closing block nor a credible sale price that would leave the holder materially short. (The Idea, Defensibility, Key Risks)
+Trimble already offers overlapping drawing, contract, and specification review through Document Crunch. Telamont’s revision checks and risk tracking may add too little incremental value for a platform to pay a price that clears the holder’s hurdle. The memo leaves detection accuracy and repeat customer use unverified. This supports Watch. It does not establish a structural block or show that the strongest credible sale would necessarily leave the holder materially short. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 19/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can repeat paid use by Forma-connected contractors establish enough incremental value for Autodesk to support an acquisition at the modeled proceeds hurdle? Customer-verified results across projects and platform economics showing that ownership beats licensing or building at a price around $88.3 million in enterprise value under the illustrative debt and ownership assumptions would move the action to Reach out.
+Can repeat paid deployments show enough incremental value over existing review tools to support a platform acquisition that clears the holder’s hurdle? Customer-verified savings across multiple contractors and projects, paired with platform revenue or retention economics that support at least $83.3 million in distributable equity under the benchmark terms, would move the action to Reach out.

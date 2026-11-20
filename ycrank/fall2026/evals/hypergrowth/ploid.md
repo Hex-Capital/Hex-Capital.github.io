@@ -1,30 +1,34 @@
 ﻿# Ploid -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is Ploid’s strongest path. The first buyer is a product team at a sales platform that needs to search for people and refresh contact records as part of a recurring workflow. The documented self-serve signup and API give developers a route to test an initial workload. If that workflow delivers reliable results, the same integration could support more records or additional workflows. Workspaces buy monthly credit bundles, with published overage rates of $0.15–$0.20 per credit. Expansion would improve contribution only if incremental credit revenue covers the added vendor data, live retrieval, and support costs. The memo provides pricing and leaves those costs unmeasured. (The Idea, Key Risks)
+Ploid’s strongest Hypergrowth path is becoming the people-data API that sales and recruiting platforms call repeatedly in production. Assuming strong fit with those developers, the documented REST API, CLI, and MCP server can carry the same search and enrichment workflow across markets with limited integration changes. The company’s claim of 2B+ indexed profiles speaks to breadth. Usable local coverage and data-rights obligations remain the main limits on portability. (The Idea, Defensibility, Key Risks)
 
-The buyer and job plausibly travel through the same API, with local data coverage and privacy obligations still unresolved. The first link likely to break is the move from API testing to a paid production workflow. Ploid claims thousands of companies use the product, and a founder reported closing clients. The memo leaves buyer commitments, the route to paid activation, and repeat consumption unverified. At this stage, a small set of independent buyer records could establish that link before renewals come due. (The Idea, Market & Traction, Key Facts, Key Risks)
+The public launch, self-serve signup, and developer docs give buyers a concrete route to try the API. Published plans give them a clear price, while independent payment and production activation remain unverified. Monthly workspace fees, tier upgrades, and overages give retained customers a way to spend more as their workloads grow. Expansion could offset churn if customers embed Ploid in recurring workflows. That is an inference from the product and pricing. (The Idea, Market & Traction)
+
+Ploid reports thousands of companies using the product, and a founder reported closing clients in summer 2026. The memo leaves realized revenue, paid production use, and the commercial growth rate of the current API unverified, so initial traction receives the absent-evidence default. (Market & Traction, Key Facts)
+
+At full use of the included credits, Growth and Scale bring in $0.20 and $0.15 per credit, respectively, matching their overage rates. A plausible cost lever is serving suitable requests from the existing index and reserving live retrieval or paid vendor calls for requests that need them. Positive contribution depends on how often those calls are needed and what Ploid spends on serving, onboarding, and support. The memo gives no representative workload costs. (The Idea, Key Risks)
 
 ### Countercase
 
-Buyers could test Ploid for a one-off enrichment job and then return to an existing provider. Apollo and Crustdata offer overlapping capabilities, and Ploid documents both stale vendor-supplied contacts and identity matches that can remain unresolved. If those issues force customers to validate results manually, they could erase the workflow benefit even when API integration is easy. The structural downside gate remains open because the memo establishes the quality risks while leaving their frequency and effect on actual deployments unknown. (Defensibility, Key Risks)
+A standard API can make integration portable while the underlying data remains market-specific. Stale vendor data and ambiguous matches can shift validation work onto customers, while privacy and deletion obligations can add work in new markets. If dependable coverage requires new sources and substantial operational work in each market, Ploid’s reach and contribution could both fall short. The structural gate stays open because the memo leaves the extent of that work unresolved. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 18/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 17/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 64/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent sales-platform teams take the same contact enrichment job from self-serve signup into paid production and keep running it through the next monthly billing cycle? Account-level onboarding records, invoices, and workload logs showing that pattern with bounded setup effort would move Ploid to **Reach out**.
+Can a cohort of sales and recruiting developers sign up, pay, reach production without founder help, and renew at positive contribution? Signup and billing records through first renewal, paired with vendor, infrastructure, and support costs for the same accounts, would answer it. A demonstrated cohort would move the action to Reach out.

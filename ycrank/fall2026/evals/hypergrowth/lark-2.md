@@ -1,30 +1,30 @@
 ﻿# Lark -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Repeatable direct sales is Lark’s strongest path. Wholesale purchasing teams reconcile inventory, orders, and deliveries each week. Lark turns those inputs into reorder recommendations and writes approved orders back to the buyer’s ERP. Assuming a distributor in a second market uses a supported ERP and can express its purchasing rules through the existing controls, the same workflow could travel with account-specific mapping. The memo establishes a working deployment at Interline Hardware. The founder’s reported meetings in Toronto leave paid cross-market adoption open. (The Idea, Key Facts)
+Assuming strong product-market fit, Lark’s strongest path is to start with replenishment at wholesale distributors that use an ERP it already supports, then expand into sales and order entry. Reconciling inventory, orders, and deliveries is a recurring job that plausibly travels across markets. Lark’s ERP connections and approval-controlled write-back give it reusable components. How much adaptation comparable distributors would need in other markets remains uncertain. (The Idea, Key Facts)
 
-Interline received its first recommendations in under a month and deployed ERP write-back. The customer reported a 20% reduction in inventory value and less time spent on recurring reorder preparation and review. Lark’s own summaries conflict on whether the time savings were 60 hours per week or per month, so the direction of the benefit is more credible than its size. Interline’s workflow change supports early fit and gives Lark a job customers can return to weekly. Payment, duration of use, and paid expansion remain unverified. (Market & Traction, Key Facts)
+Interline Hardware reported receiving its first purchasing recommendations in under a month and reducing inventory value by 20%. The reported time savings conflict. Interline’s account implies 60 hours per week, while Lark reported 60 hours per month. Weekly replenishment and configured approval rules support continued use. Recurring fees and paid expansion into other workflows are plausible, with both still inferred. The October 22 launch dates the public rollout. For the two-person team, the memo gives no realized revenue, paid production volume, or paying-customer trajectory, so initial traction takes the 7/20 default. (Market & Traction, Key Facts, The Idea, Defensibility)
 
 ### Countercase
 
-The first link likely to break is onboarding. Lark describes a founder-led route from booked call to configured pilot, and Interline shows that a pilot can reach first value. Each rollout can require mapping items, vendors, and approval rules. Lark says most setups take one to two months. That elapsed time leaves implementation labor, ongoing support costs, and contribution per account unknown. The strongest countercase is that each sale adds custom integration and support work in proportion to revenue. The memo leaves that possibility open, so the structural downside gate does not apply. (The Idea, Defensibility, Key Risks, Key Facts)
+Lark’s booked-call-to-pilot process requires customer-specific item, vendor, and approval-rule mapping. Lark reports that most setups take one to two months. This supports a repeatable sales sequence with high-touch activation. Epicor’s overlapping native automation could make it harder to win buyers on a supported ERP. For the next account, the contribution bridge is fees collected minus attributable sales, mapping, deployment, compute, and ongoing support costs. Reusing connectors and mapping templates could reduce setup labor, but that improvement remains a scenario assumption. The memo supplies neither pricing nor implementation labor per account, leaving contribution unproven. The structural gate stays open because the documented setup work does not establish that faster growth is economically infeasible or that each new market requires a rebuild. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 10/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 48/100** (Neutral)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a trained implementer use the same setup process to take two independent distributors from pilot to paid, live replenishment? Move to Reach out if both go live with ERP write-back, complete several weekly reorder cycles, and show that paid fees can cover logged implementation and support costs at the contracted price. If the rollouts leave founder dependence or delivery costs unresolved, keep Lark on Watch.
+Can a cohort of distributors on the same supported ERP go from a standard paid offer to live replenishment using the same connector and mapping templates, with limited founder effort and positive contribution after deployment and support? Invoices, deployment labor logs, and follow-on billing would answer it. A repeatable paid rollout would move the action to Reach out if it lifts the score to at least 65 with Medium or High confidence. Evidence that unavoidable bespoke work makes faster growth uneconomic would move the action to Pass.

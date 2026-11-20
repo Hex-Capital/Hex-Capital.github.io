@@ -5,15 +5,13 @@
 
 ### Company case
 
-**Path B — New Economies.** The scenario is that departments could routinely produce footage-linked reports for incidents where the added documentation currently costs too much officer time. The memo describes manual footage review and re-entry across forms. Reconero says it identifies timestamped events and drafts narratives and forms for officer review and signature. The labor-cost test is whether that workflow lowers the full cost per accurate, compliant, signed report after accounting for inference, review, corrections, exceptions, and record retention. The memo has no measured cost comparison or evidence that departments currently forgo the proposed use. (The Idea, Key Risks)
+New Economies is Reconero’s strongest path. The current workflow requires officers to review footage, re-enter incident details across forms, and verify the finished report. Reconero says it detects events across video sources, links drafts to timestamps, and fills forms for officer review. If that cuts the full labor cost of producing an accurate, audit-ready report, departments that can only afford detailed footage review for selected incidents could pay to make it routine. Both the cost reduction and the newly served use are scenario assumptions. The memo gives no comparative cost per accepted report or evidence that departments have expanded review because of Reconero. (The Idea, Key Risks)
 
-Under model parity, department-specific form mappings and records integrations could give agencies a reason to keep paying Reconero if those integrations materially reduce rework. That advantage is inferred. The memo documents no retention or buyer preference against an equivalent alternative. It also provides no agency-level pricing, onboarding costs, or support costs to establish repeatable deployment economics. (The Idea, Defensibility, Key Facts)
-
-The public launch and the founders’ prior software and AI work support seed-stage execution credit. The founder-reported beta of the earlier ReconeroRMS product suggests several police units committed some operating time, with limited bearing on willingness to pay for the current product. The two required Path B conditions remain open. (Market & Traction, Founders & Team)
+Reconero launched publicly, and its CEO reported that several police units tested an earlier beta. The documented demand signal is the manual workload and willingness to test. A department subscription is an inferred model. Contribution per deployment would depend on the fee relative to video processing, agency onboarding, and ongoing support costs. The memo provides no pricing or deployment-cost data. (Market & Traction, The Idea, Key Facts)
 
 ### Countercase
 
-Reconero may be selling faster paperwork for an existing use, and the savings may shrink once officers verify and correct drafts. A randomized trial of a competing tool found no report-writing speed improvement, and a study of another system found lower accuracy ratings for AI-assisted reports. Axon bundles drafting into its evidence platform, while Code Four already offers source-linked drafting and records and dispatch integrations. These findings leave both gates unresolved because the memo contains no representative Reconero cost trial or direct buyer comparison. It identifies no controlled scarce input for Path A. (Key Risks, Defensibility)
+Reconero could improve an existing reporting workflow while leaving its economics largely intact. A trial of a competing drafting tool found no speed improvement, and a study of another system found lower accuracy ratings for AI-assisted reports. Officer review and corrections could absorb the drafting savings. Axon bundles drafting into its evidence platform, and Code Four already offers source-linked drafting and integrations. Agency-specific form mappings might create switching costs, but the memo shows no buyer preference under functional parity, network effects, or independently supported scarce complement. The competing-tool studies and product overlap leave both New Economies conditions unresolved for Reconero, so Watch applies. (Key Risks, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
@@ -22,11 +20,13 @@ Reconero may be selling faster paperwork for an existing use, and the savings ma
 | Path-specific thesis fit | 8/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 8/15 |
+| Team and execution | 9/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent department commit budget to keep using Reconero for an incident category it previously left without routine footage-linked reports, after a representative pilot compares manual delivery and a functionally equivalent tool? Move to **Reach out** if the pilot shows a lower full cost per accurate, compliant, signed report that makes the new reporting cadence affordable, and the agency chooses Reconero at a viable price because its department-specific workflow measurably reduces rework. Move to **Pass** if the comparison shows that the new use remains uneconomic or that the agency can switch and retain the same outcome and economics.
+Will an independent department pay to make footage-verified reporting routine for incidents it previously could not afford to review in detail?
+
+A paid rollout would move the action to Reach out if it shows materially lower cost per accepted report than the manual workflow, including officer review and corrections, while preserving accuracy and auditability. The buyer would also need to choose Reconero over a functionally comparable option for a documented reason that would persist under model parity. If the comparison shows that the cost change fails to open the use or that buyers readily substitute at parity, move to Pass.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-Papaya’s strongest path is repeatable direct sales. The buyer is an engineering team running production AI agents, and the recurring job is diagnosing and fixing regressions. Papaya offers to analyze one workflow from a raw trace export, giving a prospect a way to see value before connecting its codebase. The founders report first paying customers, and two named users describe specific benefits. Sunny Health reported fewer inference errors, and Hamlet reported diagnosing agent behavior faster. Those reports support early fit. The memo gives no account of how either user was acquired, onboarded, or converted to paid use. (The Idea; Market & Traction)
+Assuming strong product-market fit, Papaya’s strongest growth path is bottom-up adoption by engineering teams that already collect production AI agent traces. The SDK and trace imports give teams a way to try Papaya without replacing their observability stack. The same workflow can serve engineering teams across markets with modest changes where customer-side filtering satisfies their data-handling requirements. Papaya ranks fixes from production traces and can open pull requests for approved changes. Sunny Health’s testimonial reports fewer inference errors, a concrete signal that the workflow can deliver value. (*The Idea, Market & Traction, Key Risks*)
 
-Assuming buyers can share usable traces, the same SDK or import workflow could serve teams in other markets, with customer-side filtering and repository setup where needed. The first link likely to break is the handoff from a useful initial analysis to a repeatable paid rollout. The listed $500 monthly Business plan includes automated pull requests and covers up to three agents and 50,000 traces. Adding traces within that tier could increase delivery costs at the same subscription price. The reported 1.1 million conversations analyzed gives no account-level evidence of repeat use or paid expansion, and the memo provides no marginal cost measurements. (The Idea; Market & Traction; Key Risks)
+Founder introductions and a free analysis of one exported workflow give Papaya a repeatable way to start conversations. The SDK and imports make setup reusable. The documented motion is demo-led, and the memo leaves independent paid activation unverified. The three-person team had public SDK updates by June 2026, and the founders discussed first paying customers in October. Their reported 1.1 million conversations analyzed shows usage, while the pace of paid growth remains unclear. (*The Idea, Market & Traction, Key Facts*)
+
+New production traces create recurring work, and the $500 monthly Business plan gives Papaya a way to earn recurring revenue. Spend is fixed within the plan’s limits of three agents and 50,000 monthly traces. Custom Enterprise pricing offers a possible expansion path, with upgrade terms and customer expansion still uncertain. In a full-utilization Business scenario, $500 represents one cent of revenue per included trace before processing, storage, support, and attributable acquisition and onboarding costs. Reusable imports and automated analysis could reduce labor per account. The memo leaves the size of that saving and incremental contribution uncertain. (*The Idea, Key Risks*)
 
 ### Countercase
 
-Papaya could win paid accounts through founder-led diagnostics while each production rollout still requires hands-on work. Partial exports yield less specific findings, sensitive traces may need customer-side filtering, and automated fixes require a code connection. Braintrust already offers recurring trace diagnosis, which could leave buyers with little reason to add Papaya unless its fixes deliver enough incremental value. This does not trigger the structural downside gate. The memo establishes rollout risks and competitive overlap, while leaving the effort required for successive deployments open to testing. (The Idea; Key Risks)
+The self-serve path may break at the point where customers need to share enough production data to get a useful fix. Automated scrubbing can miss personal data, and partial exports yield less specific recommendations. That combination could make demo-led analysis and hands-on setup routine, while Braintrust already offers recurring diagnosis inside an existing workflow. The structural downside gate stays open. Customer-side filtering and reusable imports give Papaya a credible path, and the memo leaves the amount of required per-buyer work unresolved. (*The Idea, Defensibility, Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 8/25 |
+| Retention economics | 13/20 |
+| Initial traction | 9/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 55/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent production-agent teams follow the same route from a demo and trace export to paid remediation, then use it again at their next normal review cycle? Account records showing the same setup steps, bounded implementation and support hours, and a successful onboarding handoff from the founders would move Papaya to Reach out. If either rollout still depends on bespoke founder work, keep it on Watch.
+Can a cohort of engineering teams that discover Papaya through its public SDK or launch channel independently connect representative production traces, get an actionable fix, and subscribe to Business? Account-level records showing that several teams completed the flow without founder or sales-engineering help would move the action to Reach out. If hands-on help remains routine, stay at Watch.

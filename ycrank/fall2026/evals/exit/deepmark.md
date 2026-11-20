@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is DeepMark’s strongest route. Pindrop is a plausible buyer because DeepMark’s issuer credentials could let its receiving-side product verify whether an AI caller is authorized. DeepMark’s published robustness benchmark and Vigil’s C2PA registration establish technical progress. The acquisition rationale is an inference. Owning the watermarking technology and credential registry could give a buyer control over issuer onboarding and verification, but the memo gives no evidence that a buyer values that control enough to acquire DeepMark instead of licensing it. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a contact-center security vendor such as Pindrop. DeepMark’s product is designed to let a receiver verify who issued a voice agent’s credential and what the agent is authorized to do. Owning the issuer integrations and verification technology could help a buyer sell authentication alongside its existing detection products. DeepMark reports that its first voice-platform license is in production, with the licensee, scope, and economics undisclosed. Confident Security’s CEO separately reports low-latency watermarking in production. These are deployment signals. The buyer’s ability to earn incremental revenue from end-to-end phone authentication remains an inference. (The Idea, Market & Traction, Key Facts)
 
-The operating milestone is a paid deployment across multiple voice platforms and receiving contact centers that measures credential recovery, added latency, and the reduction in fraud losses or erroneous blocks. DeepMark reports one platform license in production, with scope undisclosed. Confident Security’s testimonial supports low-latency watermarking in production, with phone-network performance and two-sided adoption still unverified. The reported €1.2 million raise and existing integrations make a broader test plausible. Current runway, test costs, and any financing required remain unknown. The memo also leaves IP ownership and the transferability of licenses and registry rights unverified. (Market & Traction, Key Risks, The Idea)
+A plausible seed milestone is a paid production deployment linking an independent voice platform and contact-center receiver, with measured credential recovery across carrier paths and commercial results for the receiver. The published robustness benchmark, reported €1.2 million raise in 2025, and grant activity support the plausibility of a focused test. Current runway and the capital needed for that deployment are unknown. The SDK, API, and customer-hosted options make the technology a plausible acquisition asset. IP ownership, license assignability, required consents, and holder participation remain unverified. The memo supplies no evidence of an independent liquidity route. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-**Illustrative proceeds.** With actual shareholder terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and zero follow-ons. The 5× target is $2.5 million in gross cash within eight years. Under a simple pro rata allocation before investor taxes, that requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. The memo provides no transaction price or buyer economics that support a realizable range. (Key Facts, Market & Traction)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The $2.5 million cash objective requires about $83.3 million in distributable equity value within eight years. Both sale scenarios assume a full cash acquisition within that horizon, an eligible holder selling its entire stake, pro rata distribution after debt and deal adjustments, and no senior claims, escrow, or earnout.
 
-| Eight-year scenario | Cash to the holder |
-|---|---|
-| Modest sale at $25 million enterprise value, with $5 million of assumed net debt | $600,000 gross (1.2×) |
-| Strong sale at $100 million enterprise value, with $5 million of assumed net debt | $2.85 million gross (5.7×) |
-| Growth plateaus, buyers stay absent, IPO scale remains out of reach, and DeepMark reinvests all available cash while staying private | $0 realized, with shares retained |
+| Illustrative scenario | Enterprise-to-equity bridge | Cash to holder |
+|---|---|---:|
+| Modest sale | $40M enterprise value less $5M in debt and deal adjustments gives $35M distributable equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in debt and deal adjustments gives $90M distributable equity | $2.70M (5.4×) |
+| Prolonged private | Operating cash is reinvested, with no distribution or eligible share purchase within eight years | $0 |
 
-At 3% ownership, the assumed debt raises the sale hurdle to $88.3 million of enterprise value before any additional fees or senior claims. DeepMark’s actual debt, fees, and preferences are undisclosed. A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks evidence of demand for eligible shares, an IPO lacks evidence of operating scale and readiness, and dividends or buybacks lack evidence of distributable cash. (Market & Traction, Key Facts)
+At 2.5% ownership, even the strong sale yields $2.25 million. The sale values are scenario assumptions. Undisclosed license economics and the absence of buyer pricing evidence leave the strong case unsubstantiated. (Market & Traction, Key Facts)
 
 ### Countercase
 
-DeepMark already offers platform licensing, so a buyer could access the technology without buying the company. Resemble AI markets a phone-compatible watermark with real-time verification, and Meta’s AudioSeal gives buyers a starting point for building their own. DeepMark also depends on adoption at both ends of the call. Together, these facts weaken the case for an acquisition premium, but the memo does not establish that a substitute matches DeepMark’s live authorization capability or that the strongest credible sale would leave the holder materially short. The Pass gate is therefore untriggered. The decisive gap is evidence of what a buyer would pay for ownership. (The Idea, Defensibility, Market & Traction, Key Risks)
+A buyer could build from Meta’s MIT-licensed AudioSeal or turn to Resemble AI, which markets its own phone-compatible watermark and real-time verification. DeepMark also needs both ends of the call to participate, and transcoding and noise can impair recovery. If alternatives meet buyer requirements or too few calls can be verified, acquiring DeepMark may offer little incremental value. The memo leaves substitute performance and realizable sale pricing unresolved, so neither the structural-block nor the inadequate-proceeds gate is triggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 13/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Would a strategic buyer pay enough to clear the holder’s 5× target for ownership of DeepMark’s technology and registry? A paid, two-sided production deployment that lets a plausible buyer quantify the incremental value of ownership over licensing or building could support a price range. Move to Reach out if that range clears the hurdle under credible dilution and closing terms.
+Can a paid production deployment show that DeepMark creates enough incremental value for a contact-center security vendor to justify an acquisition that clears the holder’s cash hurdle? Receiver-validated results across real carrier paths, paired with buyer-side revenue or retention evidence and a credible price range after deal adjustments, would move the action from Watch to Reach out.

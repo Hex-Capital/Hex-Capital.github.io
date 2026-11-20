@@ -1,30 +1,32 @@
 ﻿# Hopper -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap frontier-quality models drive more live voice traffic, predictable end-to-end latency under burst load could become more valuable. The memo describes developers using interim transcripts, cached audio, and filler greetings to mask delays across transcription, generation, and synthesis. Those workarounds identify a constraint that developers already spend effort managing. Hopper’s opportunity is to sell reliable serving capacity across the full pipeline. Whether it can deliver that capacity on terms competitors take meaningful effort to match remains unproven. (The Idea)
+**Scarce complements** is Hopper’s strongest path. The candidate bottleneck is reliable, low-latency inference across transcription, language generation, and speech synthesis when concurrent calls spike. The memo documents workarounds such as interim transcripts and cached audio. These suggest that developers already spend engineering effort on latency and that predictable response times could become more valuable as voice traffic grows. Hopper’s documented custom kernels and cache-aware routing show a specific operating approach. Customer-specific evaluations and tuning could make deployments harder to replace, though migration costs and Hopper’s ability to protect that advantage remain unverified. (The Idea, Defensibility)
 
-Hopper has documented custom inference kernels and a cache-aware router. Customer-specific evaluations and tuning could make migrations costly, but the memo contains no measured migration costs or retention evidence, and tuning on production calls requires written consent. The founders’ prior voice-inference and kernel work is directly relevant, and shipping the voice offering shows early execution. Hopper reports that one signed customer moved traffic into production. That is a meaningful early commitment, with repeat purchases and viable contract pricing still unknown. The reported 10 billion daily tokens cover the whole platform, so they do not establish demand for low-latency voice serving. (Defensibility, Key Risks, Founders & Team, The Idea, Market & Traction)
+Hopper reports that one signed customer moved into production and that an unnamed gaming customer requested tuning for accents and emotion. The production move is the strongest demand signal. The reported 10 billion tokens per day span the platform, and initial users reportedly spent under $1. Repeat paid voice usage and willingness to pay for the latency advantage remain unverified. The founders’ prior work in production voice inference and inference kernels, together with the shipped voice service, supports execution at this stage. A repeatable response to burst load remains the next execution gap. (Market & Traction, Key Facts, Founders & Team, The Idea, Key Risks)
+
+The unit of expansion is another production voice workload meeting a defined latency and quality target. In a scale scenario, contribution per successful call would equal usage revenue less inference and operating costs, including a share of reserved GPU capacity and customer-specific tuning. Customer-side overflow also affects the buyer’s all-in cost. Hopper’s CTO reports that p95 latency rose from about 11 to 42 seconds under higher load on one deployment, with spare GPUs and customer-side overflow used to absorb bursts. That is adverse evidence for marginal capacity. Published API prices establish what Hopper charges, while utilization and the cost per successful call at peak load remain unknown. (Key Risks, The Idea)
 
 ### Countercase
 
-Daily documents a self-hosting route, Baseten offers co-located managed voice serving, and one Hopper customer used its own overflow routing during bursts. Hopper reports that p95 latency on that deployment rose from about 11 to 42 seconds under higher load despite using spare GPUs and overflow to absorb bursts. The relevant scale metric is contribution per completed call within the buyer’s latency and quality targets, including the cost of reserve capacity and fallback. The memo gives neither that cost nor utilization at a load that meets those targets. The alternatives and load result weigh against outreach, while the memo leaves open whether a substitute can match Hopper on the same workload. Watch is warranted because a production comparison can resolve that question. Confidence is Low because the decisive operating evidence is limited to one company-reported deployment without a matched comparison. (Defensibility, Key Risks)
+The strongest countercase is that voice inference becomes interchangeable hosting. The memo documents a self-hostable open-weight model and a managed, co-located voice stack. Customer-specific tuning may add switching friction, but training requires written consent, and the memo supplies no measured migration costs. These alternatives make substitution credible. Equivalent performance at the same all-in cost remains untested on Hopper’s customer workloads, so the scarce-complement path stays open under **Watch**. The New Economies path lacks a supported case of a previously excluded buyer or use becoming viable through a measured reduction in labor cost per successful call. (Defensibility, Key Risks, The Idea, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 11/20 |
+| Customer demand | 9/20 |
 | Team and execution | 10/15 |
 | Scale economics | 3/15 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent voice-agent buyer renew a paid deployment after a matched production trial shows that Hopper meets the buyer’s end-to-end p95 latency and call-quality targets through representative bursts at positive contribution, while a credible managed or self-hosted substitute cannot match those results at comparable cost? A renewal on those terms would move the action to Reach out. If the substitute matches Hopper and the buyer can switch without material cost, the action moves to Pass.
+Will a production voice customer renew at a price that leaves Hopper positive contribution after a head-to-head trial against a credible alternative using the same open-weight models? Run representative peak traffic against the same latency and call-quality targets, and include tuning, reserved GPUs, and overflow in the cost comparison. A paid renewal backed by a material performance advantage at viable margins would move the action to **Reach out**. If the alternative matches performance and all-in cost and the customer switches readily, move to **Pass**.

@@ -5,17 +5,19 @@
 
 ### Company case
 
-Strategic acquisition is Veeza AI’s strongest path. An established visa processor such as Atlys could buy Veeza’s Cairo appointment and application workflow, its local support operation, and its customer channel to enter Egypt faster. The memo records a live appointment tracker and describes Arabic and English WhatsApp support. Atlys already tracks Schengen appointments in India, which makes Veeza’s local operations and distribution the more plausible reason to buy. Ownership could beat licensing or partnering if Veeza can show that keeping the workflow and customer channel together produces materially more completed, profitable applications. That buyer benefit is an inference. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a visa processor such as Atlys. Veeza publishes appointment availability by Egyptian visa centre and offers Cairo booking with Arabic and English WhatsApp support. Atlys has a comparable tracker focused on India. Buying Veeza could give a processor a working Egyptian operation and shorten the time needed to build local coverage. That buyer benefit is an inference. The memo provides no measured savings or buyer interest. (The Idea, Defensibility, Market & Traction)
 
-A meaningful seed-stage milestone is a multi-month cohort of paid Cairo applications that measures booking completion, refunds, and contribution margin after human review and support. The memo records paying customers and a live WhatsApp integration. The founder reports 10,000 cumulative signups and five figures in monthly USD cash revenue. Those signals make the test plausible, while the capital needed to scale remains unverified. A sale of the operating business is conceivable, with rights to transfer key software, customer records, and integrations still unverified. The memo supplies no company-specific evidence of a realizable sale price. (Market & Traction, Key Facts, Key Risks)
+The memo reports paying customers before YC, and the founder claims five figures in monthly cash revenue within 45 days of the batch start. Those signals make a processor pilot plausible at seed. A pilot could measure completed paid applications and the cost of handling them after human review and refunds. The cost and funding of that test are unverified. A whole-company sale is a plausible structure, with diligence needed on continued portal access and the lawful handling of passport records after a change of control. (Market & Traction, Key Facts, Key Risks)
 
-Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3% with no follow-ons. The eight-year 5× cash target is $2.5 million before investor taxes. That requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% hurdle is $88.3 million of enterprise value. A $25 million sale after eight years yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million (5.7×), using simple pro rata allocation after that debt assumption. Veeza’s actual debt, fees, and senior claims are unknown.
+Using the shared $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3% without follow-ons, and a 5× gross cash objective within eight years, the holder needs $2.5 million in cash. That requires about $83.3 million in distributable equity. The sale cases below are illustrative sensitivities. Both assume $5 million in combined net debt and deal adjustments, no further senior claims, and an eligible holder selling their entire stake for cash at closing within eight years.
 
-If paid demand plateaus, buyers stay away, public scale remains out of reach, and all available cash goes back into operations, the holder realizes $0 over eight years and retains the shares. The memo establishes neither an eligible tender nor the cash generation needed for a sponsor buyout or company-funded payout. Any wind-down recovery depends on the residual after obligations and preferences, which the memo gives no basis to estimate. (Market & Traction, Key Facts)
+- **Modest sale.** $40 million in enterprise value leaves $35 million for equity and pays the holder $1.05 million, or 2.1×.
+- **Strong sale.** $100 million in enterprise value leaves $95 million for equity and pays the holder $2.85 million, or 5.7×. If the holder could sell only 80% of their stake on the same terms, cash received would fall to $2.28 million.
+- **Prolonged private operation.** Continued reinvestment yields $0 in realized cash. The memo provides no evidence of an independent route that would pay this holder.
 
 ### Countercase
 
-Atlys already operates an appointment tracker, and iVisa already offers appointment-based services. A processor could build its own automation and contract for local support. Consulates control slot supply, missed bookings can trigger full refunds, and human review can limit the margin benefit of automation. Together, those facts weaken the ownership premium. They leave the price unproven without establishing a structural block or showing that the strongest credible sale would leave the holder materially short. The Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+A processor could build the local workflow itself. Atlys already operates an appointment tracker, and the memo identifies commercially available browser automation as a potential substitute. Consulates control scarce slots, which can trigger full refunds, and changing requirements still call for human review. These constraints could erode the savings a buyer would pay for. The memo establishes neither a structural closing barrier nor a credible price ceiling below the holder’s hurdle, so the Pass gate remains open pending evidence on buyer economics. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -23,12 +25,12 @@ Atlys already operates an appointment tracker, and iVisa already offers appointm
 |-----------|-------|
 | Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-What acquisition price could an established visa processor justify from the incremental profit of owning Veeza’s Cairo workflow and customer channel compared with its best build or partnership option? Move to Reach out if paid-cohort results after refunds and review costs support buyer economics consistent with roughly $83.3 million in distributable equity at 3% holder ownership. Stay on Watch while that price remains unsupported.
+Can a paid processor pilot in Egypt show enough incremental profit over the buyer’s existing workflow to justify an acquisition above the holder’s proceeds hurdle? A side-by-side comparison of completed paid applications, review costs, and refunds, combined with the buyer’s own volume estimates, would answer it. Buyer-validated economics supporting a price that clears the hurdle after deal deductions would move the action to Reach out.

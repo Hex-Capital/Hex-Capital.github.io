@@ -5,28 +5,30 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap frontier models let R&D teams generate and revise hypotheses faster, the constraint could shift to running physical experiments as procedures change. The memo describes manual bench work and fixed automation that can require protocol rewrites or equipment reconfiguration. Primordiant’s proposed advantage is flexible lab capacity that buyers can access through its Mountain View lab or deploy on-site. The memo describes a remotely controlled demo, while the company reports a hosted polymer-coatings engagement. Neither establishes how much qualified throughput Primordiant adds when protocols change. (The Idea, Market & Traction, Key Risks)
+**New Economies** is the strongest path. Manual bench work and reconfiguring fixed automation are the relevant cost baseline. Primordiant reports a hosted project on heat-resistant polymer coatings, which gives it a concrete workflow for testing whether a robot can adapt procedures and reduce human time per usable result. **Scenario assumption:** A materials team that currently skips small screening campaigns because bench time is too expensive could start ordering them if the fully loaded cost per usable result falls enough. The memo gives no comparative labor or cost measurements and identifies no buyer whose work became viable at that lower cost. (The Idea, Market & Traction, Key Risks)
 
-The hosted lab gives Primordiant a way to control physical execution even if competitors have equivalent models. The memo establishes no exclusive access, buyer qualification, or performance advantage that would take rivals meaningful time to reproduce. The company reports two unnamed client engagements, including one where a client made its wet lab available for a prototype. That is an early signal of buyer operating commitment. Published beta billing is disabled, and payment and repeat use are unverified. (The Idea, Defensibility, Market & Traction)
+Under model parity, buyers could still pay Primordiant to integrate instruments, adapt protocols, and run experiments. Its reported use of its own lab for client work gives it some control over service execution. Repeatable execution across protocols and a durable advantage over competing lab operators remain unproven. (The Idea, Defensibility, Key Risks)
 
-The founders’ bench physics, scientific AI, and robotics experience fits the work, and the company reports building its first robot in under three weeks. The next execution milestone is repeatable operation across changing procedures. A plausible expansion unit is a hosted robot workcell serving multiple clients. Its economics depend on utilization and the cost per valid result after integration, changeovers, supervision, and retries. The memo provides no measured inputs for that cost bridge. (Founders & Team, Defensibility, The Idea, Key Risks)
+The company reports two unnamed client engagements, involving access to a client wet lab and a specific hosted coatings project. These are early demand signals. Published beta billing is disabled, and payment and repeat orders remain unverified. The founders bring relevant experience in bench physics, scientific AI, and robot planning. The company reports building its first robot in under three weeks and taking it to a client site, supporting early execution capacity. The remotely controlled demo leaves autonomous repeatability open. (Market & Traction, The Idea, Founders & Team, Defensibility, Key Risks)
+
+A repeat hosted screening campaign is the clearest unit of expansion. Its realized price would need to cover consumables, equipment and lab costs at actual utilization, integration, supervision, and reruns. The hosted project makes that unit concrete, while realized pricing, throughput, and contribution per campaign remain unverified. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Labs may be able to get equivalent experimental throughput by adding AI to instruments they already own. The Bruker–Atinary collaboration makes that a credible alternative, and Primordiant’s own terms require safe operation and supervision. If both approaches require comparable operator time and reconfiguration, Primordiant may control lab capacity that buyers can readily replace. The memo provides no direct comparison that closes Path A. It also identifies no previously excluded buyer or use to support Path B independently. (Defensibility, Key Risks, The Idea, Market & Traction)
+Primordiant may end up selling custom automation to labs that already fund this work. The remotely controlled demo and potential need for site-specific integration leave open whether protocol changes still consume enough human time to erase the savings. Bruker–Atinary’s instrument integration also gives equipped labs a credible alternative. This evidence leaves both required New Economies conditions unresolved. Neither condition is directly defeated, and the memo establishes no independent scarce-complement path. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Team and execution | 10/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent R&D team commit budget to recurring Primordiant capacity after a representative trial shows that it clears a binding execution bottleneck? Compare valid results per week, operator hours, and changeover time across changing protocols against the buyer’s best available workflow with equivalent model access. Move to **Reach out** if Primordiant demonstrates a material throughput advantage and the buyer commits budget to recurring capacity Primordiant controls. Move to **Pass** if the available workflow meets the same requirements and removes the bottleneck. An inconclusive trial keeps the action at **Watch**. (The Idea, Market & Traction, Key Risks)
+Will an independent materials team that previously skipped screening because of bench costs place a paid repeat order after a benchmarked Primordiant campaign? Move to Reach out if the campaign shows a lower fully loaded cost per usable result at comparable quality, including supervision and reruns, and the buyer reorders at a price that covers delivery costs because Primordiant can execute the work even when comparable planning models are available.

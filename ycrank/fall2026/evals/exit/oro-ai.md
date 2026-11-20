@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An AI training platform or enterprise simulation vendor could pay for SMB Bench’s wholesaler-calibrated buying environment and scripted expert policy. The benchmark measures how decisions affect profit when customer and supplier effects emerge weeks later. ORO reports that the best model averaged $7,749 in simulated profit versus $10,795 for the scripted expert. That gap gives a buyer a concrete evaluation target. The acquisition rationale is that owning the environment could make it faster and cheaper to develop and maintain similar tests across workflows. The memo leaves that benefit unmeasured. (The Idea, Defensibility, Key Risks)
+ORO’s strongest exit path is a strategic acquisition by an AI evaluation or training platform. SMB Bench isolates how delayed customer and supplier effects change the profitability of wholesale buying decisions. The memo records that GetASAP and other wholesalers helped calibrate the simulation and that ORO gates access to the grader. A platform such as Prime Intellect could buy ORO to add an operator-calibrated environment to its existing hub and shorten the work of building comparable tests. That buyer benefit is an inference. The memo provides no measured savings or acquisition interest. (The Idea, Defensibility, Market & Traction)
 
-ORO launched SMB Bench shortly after its November pivot and reports 859 runs across 16 models in the first week. The memo records 670 dataset downloads in the preceding month. Those signals support the ability to ship and attract research use. A paid deployment in a second workflow could test whether ORO can repeat the operator calibration at a cost that makes ownership attractive. The two reported financing entries leave available cash, runway, and the capital required for that test unclear. ORO controls hosted access to the grader, which gives a buyer an identifiable asset to diligence. Transfer rights for the underlying materials and operator contributions remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+ORO reports 859 runs across 16 models within a week of launch, and the memo records 670 dataset downloads in the preceding month. The shipped benchmark and reported seed financing make a limited production pilot plausible. A paid pilot in a second workflow could test whether ORO can repeat its calibration process and quantify the time and cost saved against an internal build. Runway, data access costs, and paid demand remain unverified. (Market & Traction, Key Facts, Defensibility)
 
-The proceeds bridge uses the shared assumptions because the memo leaves holder terms and net debt unknown. A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% after 40% relative dilution with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), both before investor taxes and any unverified fees or senior claims. These are scenario prices. The memo provides no evidence for a realizable sale range. If growth plateaus, buyers stay away, public scale remains out of reach, and ORO reinvests all available cash, the holder realizes $0 over eight years absent an eligible secondary or payout and retains the shares. (Market & Traction, Key Facts)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. For illustration, both sale scenarios assume a close within eight years, $5 million in debt and deal adjustments, and an eligible holder receiving cash for its full 3% interest pro rata, with no additional deductions from the equity waterfall.
 
-The sponsor route lacks evidence of predictable cash flow and buyout financing. A secondary lacks evidence of eligible share demand or sale terms. An IPO lacks evidence of operating scale and resale readiness. Dividends or buybacks lack evidence of sustained distributable cash or a funded payout. (Market & Traction, Key Facts)
+| Scenario | Distributable equity | Cash to holder |
+|-----------|----------------------|----------------|
+| Modest acquisition at $40 million enterprise value | $35 million | $1.05 million (2.1×) |
+| Strong acquisition at $100 million enterprise value | $95 million | $2.85 million (5.7×) |
+| Prolonged private operation with cash reinvested and no share purchase | No distribution | $0 |
+
+The sale prices are scenario assumptions. The memo leaves buyer pricing, the treatment of the reported convertible note, and holder eligibility unverified. Even in the strong case, selling only half the stake at the same per-share price would yield $1.425 million. The memo supplies no evidence of an independent route to cash for the holder. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could license access, use public benchmark methods to build a comparable test, or use a vendor such as Veris to recreate its own workflows. SMB Bench covers one buying workflow, and the memo establishes no exclusive rights to operator data. That makes the case for paying an acquisition premium weak. The evidence leaves open whether ORO can build a transferable asset that buyers would value above the proceeds hurdle, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
+A buyer could build a comparable evaluation from public methods and datasets or use a vendor such as Veris to recreate its own workflow. ORO has demonstrated calibration in one buying workflow, and the memo establishes no exclusive data rights. That makes buying ORO harder to justify and leaves a price above the proceeds hurdle unsupported. The substitution risk is concrete, but the memo establishes neither a structural closing barrier nor a credible price ceiling that would trigger Pass. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid pilot with a plausible acquirer in a second workflow show that owning ORO’s transferable simulation assets creates enough incremental value over building or licensing to support an acquisition near or above the proceeds hurdle? Pilot results that quantify that advantage and support a price clearing the hurdle would move the action to Reach out. A paid pilot that establishes demand for access alone would keep it at Watch.
+Can a paid platform pilot show enough repeatable savings over an internal build to support an acquisition price that clears the holder’s cash hurdle? A platform’s documented build-versus-buy analysis, grounded in measured pilot results and supporting that price after deal adjustments, would move the action to Reach out.

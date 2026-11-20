@@ -5,28 +5,30 @@
 
 ### Company case
 
-Lantern’s strongest path is repeatable enterprise sales. The initial buyer is an enterprise recruiting team that needs to screen applicants consistently across roles and handoffs. Lantern can start with one workflow on top of the buyer’s existing applicant tracking system (ATS). If recruiters can reuse approved hiring criteria and feedback across agents, Lantern could sell adjacent modules without rebuilding the workflow for each one. (*The Idea*, *Defensibility*)
+Lantern’s strongest path is to sell one recruiting workflow on top of an enterprise’s existing applicant tracking system (ATS), then expand into adjacent modules that reuse the employer’s approved hiring criteria and feedback. Assuming strong product-market fit with the first workflow, the same approach could serve enterprise recruiting teams in other markets. The ATS overlay and shared criteria are reusable parts of the current product. The work required to support different ATS configurations and local hiring rules remains uncertain. (The Idea, Key Risks)
 
-One customer reported screening more than 1,000 candidates and hiring an engineer. Lantern reports $1M in annual enterprise contracts and an unnamed account whose annual contract grew from about $11K to $92K. The customer account shows a concrete hiring outcome. The contract figures show budget commitment and one expansion, while leaving live module usage and repeatability open. The reported 270% net dollar retention lacks a cohort and measurement window. (*Market & Traction*, *Key Facts*)
+Lantern reports $1M in annual recurring contracts as of November 2026, excluding monthly subscriptions and product-led sales. The memo lists a four-person team and includes a customer account of screening more than 1,000 candidates and hiring one engineer. The October platform launch gives a public milestone, while the date of first paid availability and the basis and duration of the reported 30% monthly growth remain unclear. That supports meaningful early commercialization with an uncertain growth slope. (Market & Traction, Key Facts)
 
-Lantern reports that its earlier interviewer ran more than 100,000 interviews across 10 Asia-Pacific markets. That supports portability of the interview workflow. Paid cross-market adoption of the broader platform remains unestablished, and ATS compatibility and local hiring requirements can limit which buyers can deploy it. (*Market & Traction*, *Key Risks*)
+Annual subscriptions and adjacent modules give existing customers a concrete way to spend more. Lantern reports one account expanding from about $11K to $92K annually. That supports a plausible path to net revenue retention above 100%, especially if hiring teams rely on the same criteria across workflows. The company’s reported 270% net dollar retention has no specified cohort or measurement window, so typical expansion and churn remain uncertain. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-The first link likely to break is the handoff from demo to paid go-live. Lantern checks connection methods and data flows during demos, and its analytics depend on the records available through each ATS integration. If those checks routinely lead to custom implementation, a larger contract could bring proportionally more delivery work. The memo gives no account-level record tracing a demo through paid go-live and no usable measure of rollout effort or marginal cost. That makes repeatable onboarding the reason to Watch. The structural downside gate remains open because the evidence leaves the amount and repeatability of that work unresolved. (*The Idea*, *Key Risks*, *Key Facts*)
+Lantern’s enterprise motion could remain high-touch as it scales. The documented buying path starts with demos that check ATS connections and data flows, and analytics coverage depends on the records each integration exposes. Customers also face human review requirements and, for covered uses in New York City, bias audits and candidate notices. Lantern People’s trial and credit plans give a separate product a route to payment. The enterprise platform’s path to first value still depends on how much account-specific work those demos uncover. (The Idea, Key Risks)
+
+The cost test is whether the next enterprise subscription covers attributable sales, onboarding, integration, support, and incremental inference and infrastructure. Reusing an ATS connection and shared hiring criteria across modules could improve contribution if expansion adds little delivery work. The memo gives no usable cost measurements to establish that result. The structural downside gate clears because the evidence leaves a credible route through repeatable ATS deployments and does not establish unavoidable bespoke rebuilding or delivery costs that make growth infeasible. (The Idea, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 10/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 18/20 |
+| Initial traction | 14/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 57/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a non-founder take two independent enterprise recruiting teams from demo to paid, live applicant screening using the same onboarding process? Two rollout records showing the same steps, implementation hours, any custom integration work, and delivery costs relative to the initial contract would answer it. Repeatable go-lives with bounded delivery effort would move Lantern to Reach out.
+Can typical enterprise buyers in a recent cohort across multiple markets purchase and launch their first paid workflow through an existing ATS connection with minimal Lantern staff time? Account-level records of the path from purchase to live use, including setup hours and any custom work, would answer it. Consistent low-touch activation would move the action to Reach out. Routine hands-on setup would keep it at Watch.

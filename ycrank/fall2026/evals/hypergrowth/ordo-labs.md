@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Repeatable direct sales** is the strongest path. Regulated CROs and CDMOs have a recurring job checking instrument exports against lab procedures and producing traceable reports for qualified staff to approve. Ordo markets demos on the lab’s own data and uses founder-led conference outreach. Its product accepts existing exports, and its validation pack maps the software to US and EU requirements. If the same setup and validation materials carry over between labs, Ordo could turn those demos into a repeatable path to paid production. (The Idea, Defensibility)
+Assuming strong product-market fit, Ordo’s strongest path is to sell the same post-analysis reporting workflow to regulated CROs and CDMOs across the US and Europe. The product takes existing instrument exports, drafts checks against lab procedures, and links report values to source files for qualified staff to review and sign. File uploads and a validation pack covering US and EU requirements give Ordo a reusable starting point across markets. Reported paid pilots in both regions support that portability, although the adaptation required for production remains unclear. (The Idea, Defensibility, Market & Traction)
 
-Ordo reports paid pilots in the US and Europe, including Swedish CROs, and says one post-analysis workflow fell from 40 hours to four, including scientist review. The pilots show early budget commitment across markets, and the reported time savings give buyers a concrete reason to pay. The memo leaves channel-to-payment conversion, recurring paid use, and expansion unverified. (The Idea, Market & Traction, Key Facts)
+Ordo reports cutting one pilot workflow from 40 hours to four, including scientist review. That suggests a reason for labs to use Ordo repeatedly. Validated procedures and traceability records could also make switching costly. The four-person team has reported paid pilot activity, with earned amounts, commercial growth, recurring billing, and expansion terms still unknown. (Market & Traction, Defensibility, Key Facts)
+
+In a production scenario, incremental contribution would be the lab’s fees less attributable selling, setup, hosting, validation support, and ongoing support. File uploads and validation templates could reduce setup effort if labs can reuse them across procedures. The reported time savings measure the customer’s workflow, while Ordo’s own delivery costs remain unquantified. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The first link likely to break is the move from paid pilot to validated production. Ordo provides customer-specific environments, and each lab’s QA approval can add work at deployment and with later releases. The buyer could save substantial time on every report while Ordo still incurs substantial setup and support effort at every account. The memo gives no implementation hours or pricing to compare that effort with revenue. This falls short of the structural downside gate because the validation pack and templates give Ordo a concrete, testable way to reuse the work. (Defensibility, Key Risks, Key Facts)
+Founder-led outreach and demos on customer data may lead to a high-touch sale. Separate production and validation environments, lab-specific procedures, and customer QA approval can add work at deployment and with each release. If that work requires substantial Ordo staff time for every lab, production growth could require delivery headcount to rise alongside revenue. The structural downside gate stays open because the memo documents reusable rollout components and leaves the amount of unavoidable vendor work unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 20/25 |
-| Repeatable acquisition and onboarding | 10/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 17/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
+| Initial traction | 9/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a non-founder take the next independent CRO from a paid pilot to recurring paid production reporting using the existing validation pack? Move to **Reach out** if the rollout records show QA sign-off, repeated paid reporting at the lab’s normal cadence, and account fees that cover the measured setup, support, and infrastructure costs. Stay on **Watch** if the rollout still depends on substantial founder-led validation work. (The Idea, Defensibility, Key Risks)
+Can Ordo repeat a profitable pilot-to-production conversion across US and European labs using the same rollout package? Comparable deployments showing recurring fees that rise with workflow usage, a repeatable purchase process, and positive contribution after measured selling, validation, hosting, and support costs would support moving to Reach out if the updated score reaches 65. Evidence that every rollout requires extensive custom work that makes scaling uneconomic would move the action to Pass.

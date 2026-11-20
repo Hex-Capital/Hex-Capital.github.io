@@ -5,26 +5,28 @@
 
 ### Company case
 
-Product-led adoption is the strongest path. Sentient gives Mac-based knowledge workers a way to draft replies and handle follow-ups using context from their existing apps. The product offers direct and Homebrew downloads and builds an editable knowledge base overnight on compatible Macs. The company reported more than 4,000 first-week alpha installs after launching on r/macapps and 2,264 completed computer-use tasks in the first 48 hours. Those figures show early activation in aggregate. The inference is that the same workflow could travel across markets where buyers use compatible Macs and supported apps, subject to their security requirements. (The Idea, Market & Traction, Key Risks)
+The strongest path is bottom-up adoption by Mac-based knowledge workers, followed by paid team licensing. Conditional on strong product-market fit, the same app could serve the recurring job of drafting replies and managing follow-ups across markets. Direct and Homebrew downloads make the free app easy to try. Apple silicon compatibility and permissions for some data sources narrow the eligible buyer pool. Commercial licensing currently goes through the founders, leaving a gap between self-serve adoption and scalable payment. (*The Idea*, *Key Risks*)
 
-The first link likely to break at scale is conversion from individual use to a paid team rollout. The company reports use by more than 30 enterprises, with payment, rollout scope, and repeat use undisclosed. The built-in local model avoids company-hosted inference for overnight processing, while the marginal costs of enterprise setup, integrations, and support are unmeasured. The paid growth case assumes teams will buy the same recurring workflow their employees first try for free. (The Idea, Market & Traction, Key Facts)
+The company reported 4,000+ first-week alpha installs in July, 10,000+ users at the October launch, and 30+ enterprises using Sentient by November. Those counts measure different things, and enterprise payment status is undisclosed. The commercial traction score uses the default because realized revenue, paid production use, and pre-revenue status are all unestablished. The app’s accumulating context could encourage repeat use, while editable Markdown makes that context portable. Recurring billing and same-account expansion remain uncertain. (*Market & Traction*, *Key Facts*, *Defensibility*)
+
+Assuming a standard team license, incremental contribution would be the license fee less attributable sales, onboarding, integration, support, and any company-paid cloud costs. Running overnight inference on the user’s Mac reduces the company’s compute burden for that workload. Undisclosed pricing and deployment effort leave positive contribution unproven. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Sentient could spread as a free personal utility while paid deployments depend on founder-led sales and custom integrations. The personal app is free, commercial licensing goes through the founders, and some data sources require Full Disk Access. Cloud-assisted features can transmit screenshots or personal context, adding a potential approval hurdle. These risks fall short of the structural downside gate because approval effort and delivery costs across successive deployments remain unknown. (The Idea, Key Risks, Key Facts)
+The free app may spread among individuals while paying teams require privacy review, founder-led sales, and custom integrations. Some sources require Full Disk Access, and cloud-assisted features can transmit screenshots or personal context. If those requirements produce substantial work for each paid rollout, local inference savings may do little to improve contribution. The structural gate stays open because the memo does not establish that bespoke work is unavoidable for ordinary paying teams. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 12/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 18/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 56/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent teams that discover Sentient through the free app buy a team license for the same follow-up workflow and go live through a standard rollout? Paid licenses, documented setup and approval effort, and recurring use over each team’s normal follow-up cycle would move the action to Reach out if both deployments succeed with bounded effort and without bespoke integration.
+Can teams that discover Sentient through the free Mac app become durable, profitable customers on a standard paid license? A cohort of independently acquired teams that pays, renews or expands, and generates positive contribution after onboarding and support without bespoke integration would move the action to Reach out if the updated score reaches 65 and confidence rises to at least Medium.

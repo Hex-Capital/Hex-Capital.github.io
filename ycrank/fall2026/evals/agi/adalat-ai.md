@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Adalat AI could make it economical for courts with limited stenographer capacity to hear and record witnesses whose testimony would otherwise be deferred. A magistrate quoted in the memo reported hearing five to six witnesses daily with transcription, up from two to three. That is evidence of a throughput gain in one courtroom. Whether the gain makes additional hearings economical depends on the full cost per signed, upload-ready deposition, including staff review, corrections, recording interruptions and support. Kerala requires endorsement and signatures before upload. (The Idea, Market & Traction, Key Risks)
+**New Economies** is the strongest path. Adalat AI could make routine, court-approved digital deposition records feasible in trial courts that now rely on handwritten records and stenographers. A magistrate quoted by the company reported hearing five to six witnesses a day with transcription, up from two to three. If staffing costs per hearing day, case mix, and record quality were comparable, those midpoints would imply roughly 55% lower hearing-day labor cost per witness. That scenario leaves open the cost per signed deposition after correction, review, and failed recordings. The reported gain shows greater throughput in an existing workflow. Whether it makes a previously unaffordable use viable remains open. (The Idea; Market & Traction; Key Risks)
 
-Under a model-parity scenario, assume a rival can match Adalat AI’s Indian-language transcription quality. Kerala’s documented designation of Adalat AI as the primary deposition tool, with alternatives subject to approval, gives it some protection. Court-specific workflows and staff training could give buyers a reason to keep paying for the service under parity. The company reports substantial use in Kerala, and its rollout from a pilot to statewide deployment supports its ability to implement the workflow. The memo leaves the cost of repeating that rollout and buyer willingness to fund it unresolved. (Defensibility, Market & Traction, Key Risks)
+Kerala’s High Court designated Adalat AI as its primary deposition tool and requires approval for substitutes. That creates a procurement hurdle that could persist under model parity. The court controls the approval, and any switching costs from training, templates, or integrations remain an inference. Separately, Adalat AI reports about 1,100 monthly active users and more than 25,600 hours transcribed in Kerala during the mandate’s first year. That usage supports workflow demand under pro bono terms. (Defensibility; Market & Traction; Key Facts)
+
+The founders’ courtroom and Indian-language speech experience is backed by delivery from the first pilot through the Delhi High Court launch. The rollout unit is a district courtroom within a High Court agreement. Kerala’s rollout shows that onboarding takes in-person training and refresher sessions, while live dictation accuracy and connectivity create potential rework. The memo gives no per-courtroom cost, signed-deposition yield, or buyer price to establish repeatable contribution. (Founders & Team; Market & Traction; The Idea; Key Risks)
 
 ### Countercase
 
-The reviewed agreements specify pro bono deployment by a grant-funded nonprofit. Mandates and usage show institutional demand for the workflow, while willingness to pay a sustainable price remains untested. TERES already offers court-approved transcription with human review, and Adalat AI has released its own dictation models openly. If courts can approve an equivalent provider and preserve the workflow, the incumbent’s advantage could be temporary. The memo establishes neither buyer refusal at a viable price nor successful substitution, so the path remains open on Watch. (The Idea, Defensibility, Market & Traction)
+Adalat AI may be a grant-funded productivity tool for work courts already do. The reviewed court agreements provide for pro bono deployments, TERES already offers court-approved speech-to-text with human review, and Adalat AI has released its own Indian-language dictation models openly. Mandated usage can therefore coexist with weak commercial demand and substitution once an alternative is approved. The memo establishes neither buyer rejection at a viable price nor actual switching under functional parity. Both New Economies conditions remain unproven, which supports Watch. The memo also provides no independent evidence that Adalat AI controls a scarce complement. (The Idea; Defensibility; Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 15/25 |
-| Customer demand | 12/20 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 12/25 |
+| Customer demand | 10/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 55/100** (Neutral)
+**Total Score: 52/100** (Neutral)
 
 ### Decisive diligence question
 
-Will a court constrained by stenographer capacity renew Adalat AI from its own budget after a representative paid deployment that includes a comparison with a qualified, functionally equivalent alternative? Move to Reach out if the court economically hears additional witnesses against its former baseline, renews at a price that covers full delivery costs, and chooses Adalat AI for a demonstrated service or workflow advantage. Move to Pass if the comparison shows that full delivery costs erase the market opening or that a qualified substitute preserves the outcome and the court switches.
+Will a High Court renew a paid Adalat AI deployment for courtrooms where routine signed digital depositions were previously too costly, when an approved, functionally comparable alternative is available? A budget-backed renewal at a price that covers repeat deployment costs, with comparable before-and-after costs per signed deposition including correction, sign-off, and recording failures, would move the action to Reach out.

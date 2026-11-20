@@ -32,17 +32,17 @@
       "tier": "Pass"
     },
     "exit": {
-      "score": 35,
+      "score": 32,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "AGI": 34,
     "HG": 40,
-    "EXIT": 35
+    "EXIT": 32
   },
-  "consolidatedAvg": 36.33,
-  "consolidatedRank": 212,
+  "consolidatedAvg": 35.33,
+  "consolidatedRank": 229,
   "traction": {
     "tractionRank": 191,
     "tractionScore": 23,

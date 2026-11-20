@@ -5,26 +5,30 @@
 
 ### Company case
 
-Repeatable direct sales is Clean’s strongest path. Sales teams selling into manufacturing and insurance need to identify buying windows before prospects select suppliers. Clean’s product uses seller documents and dated operational records to flag accounts and identify decision-makers. The job plausibly travels across markets. Serving a second market depends on access to timely, licensable records and reliable contact coverage. (The Idea; Defensibility; Key Risks)
+Assuming strong product-market fit with sellers into manufacturing and insurance, Clean’s strongest path is to make buying-window intelligence a recurring input for sales agents. The memo documents demo access and an API/MCP interface. Clean says it reads sellers’ websites and documents, then uses permits, shipments, and filings to surface buying windows and decision-makers with source records attached. The interface and prospecting workflow could transfer across markets if Clean can obtain comparable records with limited adaptation. The memo leaves the availability and licensing of those records unresolved. (The Idea, Defensibility)
 
-The memo records a November 2 launch after a summer pivot and lists demos as the sales entry point. The CEO describes personalized outbound and founder-hosted events. A September interview reported a first paying customer, and Vivameda’s testimonial attributes $60K in signed contracts over two weeks to Clean. Those are early signals of buyer commitment and value. The memo does not trace a named customer from outbound through setup, first value, and payment. That handoff is the first unproven link. The growth case assumes that similar sales teams need fresh signals each prospecting cycle and can reach first value through a standard setup. The memo gives no account-level evidence of repeat use or paid expansion and no usable measurements of marginal delivery cost. (The Idea; Market & Traction; Key Facts)
+Founder-led outbound and events provide a concrete acquisition channel, and the API/MCP interface gives buyers a reusable integration surface. The documented purchase path still runs through demos, with independent payment and activation unverified. Continuous account monitoring gives customers a reason to renew, and Clean reports recurring revenue. The memo leaves open whether monitoring more accounts or adding agent workloads increases an existing customer’s bill enough to offset churn. (The Idea, Key Facts)
+
+Clean reported its first paying customer in September and more than $200K ARR in October, before the November 2 public launch. For a five-person team following a summer pivot, that reported time to scale supports a steep early trajectory. The CEO’s separate $240K pre-YC claim lacks a comparable measurement date and billing basis, so the figures cannot establish a growth series. Vivameda’s reported $60K in signed contracts is a customer outcome. (Clean, Market & Traction, Key Facts)
+
+Incremental contribution would start with recurring account revenue and deduct attributable sales and setup time, licensed data, record processing, and support. Reusing the same processed records across accounts could improve contribution if license terms and coverage permit it. The memo gives too little detail on pricing or incremental costs to establish that margin. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Clean may be selling founder-assisted research that works for select accounts but requires fresh source work and tuning for each new customer. In the memo’s aircraft example, outreach came after the buyer had selected a supplier, illustrating how a missed window can erase the product’s value. The memo identifies dependence on licensed data but provides no evidence that sales or delivery effort rises in proportion to revenue. The structural downside gate does not apply. (The Idea; Defensibility; Key Risks)
+Clean’s differentiation depends on timely, granular records. If entering each market requires new data licenses and substantial work to normalize local records, the common interface could conceal an expensive rollout. Founder-led demos add friction, and Clean’s own aircraft example shows outreach beginning after a supplier had already been selected. The structural downside gate stays open because the memo leaves both the extent of market-specific rebuilding and the cost of serving each new buyer unresolved. Those gaps keep confidence Low. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 12/20 |
+| Initial traction | 15/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 50/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a non-founder take two independent outbound-sourced sales teams in the same vertical from demo to paid use through the same onboarding steps? Move to **Reach out** if account records show that both teams acted on timely buying signals, returned in their next prospecting cycle, and required comparable onboarding effort without custom research.
+Can Clean acquire and activate a paid cohort in a second market through its existing API/MCP product, with standard data setup, minimal founder help, and positive incremental contribution? Billing and activation records, data setup logs, and attributable costs would answer it. A successful rollout would support Reach out if rescoring clears 65 with at least Medium confidence. Evidence that each comparable market requires substantial rebuilding would trigger Pass.

@@ -5,17 +5,21 @@
 
 ### Company case
 
-A strategic acquisition by an AI deployment firm serving private-equity portfolios is the strongest path. Biomes says it embeds engineers with operating teams, builds agents around existing tools, and turns workflow failures into evaluations it can reuse. The memo records sponsor-backed investment in competing deployment firms. The acquisition case is conditional: if Biomes can reuse its integrations and evaluations across acquisitions, a buyer could pay to own them to reduce its rollout costs and improve reliability. The memo contains no measured buyer benefit or evidence that ownership would be more valuable than licensing or contracting. (The Idea; Defensibility; Market & Traction)
+The strongest path is a strategic acquisition by a sponsor-backed AI deployment firm. Biomes says it embeds engineers in portfolio companies, turns live workflow failures into evaluations, and adapts deployments for new acquisitions. If those evaluations and integrations transfer across companies, a buyer could acquire them to shorten future rollouts and reduce engineering costs. The memo records sponsor investment in deployment platforms and an open Biomes engineering role at $400,000 per year plus equity. Those observations establish category interest and a visible hiring cost. Measured customer savings, paid repeat deployments, and funding for the rollout remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-The operating milestone is a paid rollout of the same workflow at a second portfolio company, with measured integration labor and customer savings. Biomes’ two founders have technical experience, and its $400,000-per-year engineering opening shows a hiring plan. The memo establishes neither a funded test nor a completed rollout. It also leaves ownership and transfer rights for the integrations, evaluations, and customer data unverified. (Founders & Team; Market & Traction; Key Risks)
+The memo provides no transaction pricing or holder terms, so the bridge uses the shared benchmark. A $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at a full pro rata payout.
 
-Under the seed scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year, 5× cash target is $2.5 million before investor taxes. That requires distributable equity of $83.3 million at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value before any additional fees or senior claims. A $25 million sale in year eight yields $600,000 gross, or 1.2×. A $100 million sale yields $2.85 million, or 5.7×. The memo supplies no company-specific evidence for either sale price. (Market & Traction; Key Facts)
+| Scenario | Assumed proceeds bridge | Cash to holder within eight years |
+|----------|-------------------------|-----------------------------------|
+| Modest sale | $50 million enterprise value less $5 million in net debt and deal adjustments leaves $45 million in distributable equity value | $1.35 million, or 2.7× |
+| Strong sale | $100 million enterprise value less the same $5 million leaves $95 million in distributable equity value | $2.85 million, or 5.7× |
+| Prolonged private | The company reinvests available cash and the holder sells no shares | $0 realized |
 
-If growth plateaus below public-market scale, buyer interest fails to emerge, and Biomes reinvests all available cash for eight years, the holder realizes $0 and retains the shares. The memo gives no independent basis for a sponsor buyout, eligible secondary, public resale, or funded payout. (Market & Traction; Key Facts)
+Both sale scenarios assume a close within eight years, eligible shares sold in full for cash, and a waterfall that pays the holder pro rata. In the strong case, receiving cash for only 80% of the stake within the horizon would reduce realized proceeds to $2.28 million. The memo leaves the valuation range, IP ownership, assignment consents, and holder participation unverified. It supplies no evidence of an independent liquidity route. (The Idea, Defensibility, Key Facts)
 
 ### Countercase
 
-Biomes may remain a labor-intensive implementation business. The memo identifies legacy-system variation that could force custom integration at each portfolio company, overlapping embedded engineering from Topsail, and a deployment by DeployCo at a TPG portfolio company. If each rollout starts largely from scratch, a buyer can contract for deployment or use an existing provider, leaving little reason to pay for Biomes’ assets. That risk supports Watch. The memo establishes neither a structural block nor a realizable price that triggers the Pass gate. (Defensibility; Market & Traction; Key Risks)
+Topsail already offers embedded engineering to sponsors, and DeployCo has access to TPG portfolio companies. If each new deployment requires substantial custom integration, a strategic buyer can use its existing team or a competing provider, reducing the reason to acquire Biomes and the price it might pay. The memo establishes competitive overlap and integration risk, while the economics of repeat deployment remain open. That gap supports Watch. The evidence establishes neither a structural block nor a proceeds ceiling below the benchmark. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -23,12 +27,12 @@ Biomes may remain a labor-intensive implementation business. The memo identifies
 |-----------|-------|
 | Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 7/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid repeat deployment show enough value to a strategic buyer to support an acquisition within eight years at roughly $88.3 million in enterprise value or more under the modeled terms? Measured savings from the second rollout and a credible buyer-side analysis showing why owning the reusable assets beats licensing or contracting would move the action to Reach out.
+Can Biomes replicate one paid production workflow across two companies under the same sponsor with enough recurring customer savings and sufficiently low incremental engineering cost to support a strategic buyer valuation above the roughly $88.3 million enterprise-value hurdle under the assumed bridge? Customer-verified savings, reliability results, and engineering hours for both deployments would answer the repeatability question. If those results also support a credible buyer valuation above the hurdle, move to Reach out.

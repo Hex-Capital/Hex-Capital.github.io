@@ -1,30 +1,32 @@
 ﻿# Fleety -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is channel-led or repeatable sales, through direct demos to plumbing and HVAC operators. These shops repeatedly reassign technicians as jobs change. Fleety checks bookings against call transcripts and equipment records, applies shop-specific dispatch rules, and writes assignments into ServiceTitan. Fleety reports deployments in California and Florida. That footprint supports regional portability. Cross-border adoption remains an inference, conditional on compatible systems, data access, and dispatch rules that can be configured with bounded effort. (The Idea, Defensibility, Market & Traction)
+Assuming strong product-market fit, Fleety’s strongest path is to sell the same dispatch add-on to plumbing and HVAC shops that already use ServiceTitan. The product checks bookings against transcripts and equipment records, then writes assignments back to the dispatch board. That integration and the recurring job of reassigning technicians are plausibly reusable wherever shops use the same platform and similar workflows. The amount of adaptation those shops would need remains unclear. (The Idea, Defensibility)
 
-The memo records a customer testimonial from Albert Nahman. Fleety reports handling about 92% of job assignments there, enabling one dispatcher to manage more than 30 technicians and saving about $60,000 annually in overhead. That is meaningful evidence of workflow adoption at one shop. Fleety also reports zero churn, with cohort size and period undisclosed. Daily dispatch gives customers a reason to return, while paid expansion and retention at the renewal cadence remain unverified. (Market & Traction)
+Dispatch runs daily, and writing assignments into the system shops already use gives Fleety a credible basis for renewal. Fleety reports handling about 92% of assignments at one customer and claims zero churn without specifying the cohort or period. Subscription terms establish a way to bill, with no disclosed pricing mechanism that would raise the bill as a shop grows. The four-person team’s October 31 launch and named deployments show early use. Paid status, realized revenue, and the pace of commercial growth remain unknown. (Fleety, The Idea, Market & Traction)
 
 ### Countercase
 
-Even if more shops see the same dispatch benefit, onboarding is the first link likely to break. Fleety routes demo requests through its CEO, says its team goes on-site for every deployment, and configures service zones and dispatch priorities shop by shop. The memo leaves the route from demo to paid go-live, the effort required for each rollout, and Fleety’s contribution per account unresolved. ServiceTitan’s native technician matching also puts pressure on what shops will pay for Fleety’s additional booking checks. The structural downside gate stays open because the evidence leaves a testable question about whether a repeatable handoff can reduce deployment effort. (The Idea, Defensibility, Market & Traction, Key Risks)
+Fleety routes demos through its CEO and says its team goes onsite for every deployment. The integration and configurable dispatch rules are reusable, but each new shop still requires staff time. ServiceTitan also offers native revenue-based assignment, so Fleety may need to win buyers on the added value of its booking checks. (The Idea, Defensibility, Key Risks)
+
+Assuming a per-shop subscription, first-year incremental contribution is subscription revenue less attributable demo time, onsite labor and travel, and ongoing processing and support. The memo provides too little evidence to estimate that margin. The structural downside gate stays open because the memo establishes high-touch onboarding but leaves open whether standardizing setup around the existing integration could make deployments economical at higher volume. (The Idea, Defensibility, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder take the next independently sourced ServiceTitan shop from demo to paid, routine dispatch using a documented rollout? Move to Reach out if the account reaches that milestone with reusable configuration and positive contribution at the actual subscription price after accounting for sales time, travel, setup, and ongoing support and infrastructure costs.
+Can a cohort of plumbing and HVAC shops outside the U.S. buy and go live on the existing ServiceTitan integration without onsite work or custom engineering, at positive incremental contribution? Dated records of how shops found Fleety, what they paid, how long activation took, and what it cost to sell, onboard, and support them would answer it. Move to Reach out if that evidence establishes a repeatable path and raises the score to at least 65 with Medium or High confidence.

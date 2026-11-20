@@ -5,26 +5,28 @@
 
 ### Company case
 
-SPM’s strongest path is **repeatable direct sales to defense primes**. The initial buyer is a prime integrating battery storage and power electronics into vehicles. SPM offers modular packs and power-export electronics, quotes orders from individual units through fleets, and contracts separately for custom engineering. The integration job plausibly recurs across programs and markets. Portability depends on how much vehicle-specific design, validation, and sourcing work carries over. The memo documents a U.S. federal foothold through company reports and leaves adoption in a second market untested. (*The Idea*, *Market & Traction*, *Key Risks*)
+SPM’s strongest path is selling the same modular battery and power-export configuration in repeat fleet orders to vehicle builders. The memo describes reusable packs and power electronics, with custom engineering contracted separately. The job of integrating onboard power and powering external equipment plausibly recurs abroad. How much qualification, sourcing adaptation, and vehicle integration the same configuration would need in another market remains uncertain. Individual-unit and fleet quotes give SPM a repeatable sales entry point, though purchase is sales-led and custom deployments require engineering. (*The Idea*, *Key Risks*)
 
-After its late-summer pivot, SPM reported participation in four federal contracts and production bookings into February 2027. It also reported $421,815 in realized revenue in one month and separately described over $400,000 in contracted revenue in a month. The memo leaves the overlap between those figures and the split between hardware and engineering unresolved. Those reports support early buyer commitment, with limited visibility into the benefit buyers realized. Contract participation and bookings leave repeat paid orders and fleet expansion unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
+If a qualified pack becomes part of a vehicle design that enters serial production, the same customer could reorder as fleet volumes rise. Integration and validation could make switching costly. The memo provides no evidence of same-account reorders, so recurring spend and expansion remain inferred. (*The Idea*, *Defensibility*, *Market & Traction*)
+
+The four-person team reached a potentially meaningful commercial milestone shortly after direct sales reportedly began in August 2026, around the September pivot. SPM reports $421,815 in realized revenue in one month and separately describes over $400,000 in contracted revenue in a month. Whether the figures overlap is unclear. The realized-revenue claim supports early speed to market, with repeatability still uncertain. The $792,000 pipeline and bookings into February 2027 describe prospective activity. (*Super Powers Mobility (SPM)*, *The Idea*, *Key Facts*, *Market & Traction*)
 
 ### Countercase
 
-Even if primes value the integrated system, the first link likely to break is onboarding. Each vehicle program could require fresh design and validation, leaving SPM with a series of engineering engagements whose delivery effort rises with sales. SPM’s custom engineering offer, dependence on prime-contractor orders, and planned production ramp make that risk concrete. The memo leaves acquisition and onboarding effort, repeat purchasing, and marginal delivery costs unmeasured. The structural downside gate stays open because proportional costs remain a scenario that comparable rollouts can test. (*The Idea*, *Defensibility*, *Key Risks*)
+SPM could grow as a custom engineering and manufacturing supplier whose next program requires fresh integration, qualification, and production capacity. The economics of a fleet order depend on the quoted price less cells, assembly, testing, sales and integration labor, and any added capacity the order requires. Reusing a design and automating production could lower costs per pack, but the memo gives no margins or operating inputs to establish the size of that benefit. The structural gate stays open because fleet quoting and separately contracted engineering leave a credible route to repeat orders with bounded custom work. (*The Idea*, *Key Facts*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 11/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 9/20 |
+| Initial traction | 15/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a second independent defense prime go from direct sales lead to paid production using the same core pack and power electronics? Move to **Reach out** if order and go-live records show both buyers followed comparable steps and the second rollout reused the core system with bounded engineering and validation hours. Stay at **Watch** while that comparison remains unavailable.
+Can independent vehicle builders in more than one market place and receive repeat paid fleet orders for the same configuration with bounded qualification work and healthy incremental contribution? Matched invoices, delivery records, and engineering and production costs would answer it. A repeatable rollout could justify Reach out if the evidence raises the score to at least 65 and confidence to Medium or higher. Evidence that each market requires substantial redesign or that repeat orders require uneconomic capacity would trigger Pass.

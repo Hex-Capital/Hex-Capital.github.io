@@ -5,36 +5,34 @@
 
 ### Company case
 
-A **strategic acquisition by an industrial automation vendor** is the strongest path. Shepherd has demonstrated a system that adapts dual-arm robots to wiring and electrical assembly tasks using technician demonstrations. The memo records Teradyne’s strategic investment in Bright Machines, which shows that a vendor has committed capital to adjacent automation. A buyer could value owning Shepherd’s adaptation workflow if it could deploy the system across customers and reduce technician hours enough to justify ownership over licensing. That benefit remains an inference. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by an industrial automation provider serving electrical manufacturers or data center operators. Shepherd’s modular hardware and local adaptation could let a buyer add variable wiring and assembly to its offering. The memo records a public product demo and Teradyne’s strategic investment in Bright Machines at undisclosed terms. The investment shows strategic interest in adjacent automation. Shepherd’s own bench tests report 95% success on cable routing, 60% on cable insertion, and 62.5% on fuse-holder handling. The buyer rationale depends on those capabilities translating into repeatable technician savings in production. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a paid production test across multiple sites that measures technician hours per accepted job, including supervision, rework, and site integration. Shepherd reports bench success of 95% on cable routing, 60% on cable insertion, and 62.5% on fuse-holder handling. The demo and the team’s factory deployment experience make a production test plausible, but the memo gives no funded test, budget, or runway. Transferability of the software and customer demonstration data remains unverified. (Market & Traction, Founders & Team, Key Risks, Defensibility)
+The next milestone is a paid production pilot replicated at a second site, with measured technician hours saved after supervision and exception handling, acceptable rework, and quantified integration costs. The prototype and the founders’ deployment experience make that test plausible. Pilot funding, budget, and timing remain unverified. An acquisition would also require transferable IP and any necessary customer permissions for deployment data and trained policies. The memo leaves those rights, holder participation, and closing terms unverified. It provides no evidence of an independent liquidity route. (Founders & Team, Market & Traction, Defensibility, Key Risks, Key Facts)
 
-**Illustrative proceeds.** Under the shared assumptions, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3% with no follow-ons. The 5× target requires $2.5 million in gross cash within eight years. That takes $83.3 million in distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. At 3% with $5 million of assumed net debt, the enterprise-value hurdle is $88.3 million. The bridge is pro rata before investor taxes, with fees and senior claims unmodeled because the memo provides no applicable terms.
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3%, with no follow-ons. The eight-year 5× objective requires $2.5 million in cash, or about $83.3 million in distributable equity value. Both sale cases below are illustrative assumptions. Each assumes an all-cash close by year eight, sale of the holder’s full stake, eligibility to participate, and a pro rata waterfall after the stated deductions, with no further preference or escrow deductions.
 
-| Eight-year scenario | Gross holder cash at 3% |
-|---|---:|
-| $25 million enterprise-value sale, less $5 million assumed net debt | $600,000 (1.2×) |
-| $100 million enterprise-value sale, less $5 million assumed net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0 realized, with shares retained |
+- **Modest sale.** $50 million in enterprise value less $5 million in assumed debt and deal adjustments leaves $45 million in distributable equity. The holder receives $1.35 million, or 2.7×.
+- **Strong sale.** $100 million in enterprise value less $10 million in assumed debt and deal adjustments leaves $90 million in distributable equity. The holder receives $2.70 million, or 5.4×. At 2.5% ownership, the same sale pays $2.25 million, or 4.5×.
+- **Prolonged private.** Continued operation with cash reinvested and no eligible share sale yields zero realized proceeds within eight years.
 
-The memo supports no realizable sale-price range or independent holder liquidity through a sponsor buyout, eligible secondary, public resale, or company-funded payout. Wind-down proceeds would depend on the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
+Shepherd’s production economics and an achievable acquisition price remain unverified. The strong case shows the price and ownership needed to clear the hurdle. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An automation vendor could start with open manipulation checkpoints or partner with an existing supplier. Watney reports customer-site deployments, and Shepherd’s bench results leave open whether supervision and site-specific integration would erase the labor savings. The adjacent strategic investment supplies neither an acquisition price nor evidence of demand for Shepherd. These gaps support Watch. The memo establishes neither a structural closing barrier nor a credible sale price that would leave the holder materially short. (Defensibility, Market & Traction, Key Risks)
+Supervision, failed insertions, and site-specific retraining could absorb the technician time Shepherd aims to save. An automation provider could use open manipulation checkpoints and its own integration team, while Watney reports operating robots in customer data centers and Nines targets overlapping fiber work. These are credible reasons for a buyer to build or partner. The memo leaves their suitability for Shepherd’s broader workflows and the resulting acquisition economics unresolved. That gap supports Watch. The Pass gate requires a supported structural block or materially inadequate proceeds under the strongest credible route. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Would a strategic buyer’s economics support paying about $88.3 million in enterprise value after Shepherd demonstrates repeatable labor savings in production? Move to Reach out if a paid multi-site test shows net savings after supervision, rework, and integration, and a prospective buyer’s valuation of owning the workflow supports that hurdle within eight years.
+Can Shepherd show a paid workflow replicated at two sites whose verified net technician savings support an acquisition price above the holder’s hurdle for a specific strategic buyer? Customer-verified labor savings after supervision and rework, full integration costs at both sites, and a buyer-side estimate of the economic value would answer it. A credible price range that leaves at least $83.3 million distributable at 3% ownership would move the action from Watch to Reach out.

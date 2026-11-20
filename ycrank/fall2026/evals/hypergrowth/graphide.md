@@ -5,26 +5,26 @@
 
 ### Company case
 
-Graphide’s strongest path is repeatable direct sales to engineering teams that run frequent tests in GitHub Actions. The documented workflow starts with a self-serve GitHub App install and repository migration, followed by a limited trial and a fixed monthly quote based on existing usage. Eligible jobs move to Graphide while unsupported jobs can stay on existing runners. That makes the same workflow plausible across markets for teams that can clear security review. Paid adoption in a second market remains unverified. (The Idea, Key Risks)
+Graphide’s strongest path is selling faster CI to engineering teams that already run GitHub Actions. Assuming strong product-market fit with those teams, the same GitHub App and repository migration workflow can serve eligible jobs across markets. Unsupported jobs can stay on existing runners, which lets teams adopt Graphide incrementally. Developers can install the app and start a trial themselves. The documented path to paid CI goes through a sales quote, and the memo also describes founder-assisted migrations. (The Idea, Key Risks)
 
-Graphide reports that unnamed teams switched runners after experiencing long retry cycles. In its benchmark, 19 of 24 jobs ran at least 10× faster than their GitHub baselines. Those signals support early buyer urgency and a benefit worth testing. If that benefit holds on customer hardware, the App could give buyers a standard way to prove value before buying. At this launch stage, the first unresolved link is whether independent teams can reach paid production use through that workflow without founder-led migration or repository-specific tuning. The memo gives no account-level trial-to-paid, repeat-use, or marginal cost records. (The Idea, Market & Traction, Key Risks)
+Every code change can generate another CI run, giving teams a recurring reason to keep the product. Fixed monthly quotes support recurring billing, but the memo leaves open whether a growing workload raises the same customer’s bill. The separate $1-per-pull-request reviewer offers a potential expansion path if CI customers adopt it. Actual renewals and cross-sell are unknown. The two-person team launched CI publicly on November 11. The company relays unnamed teams’ reports of faster delivery after switching, while realized revenue, paying-customer counts, and billed volume remain unknown. Initial traction therefore uses the absent-evidence default. (The Idea, Market & Traction, Key Facts, Graphide)
 
 ### Countercase
 
-Graphide could need hands-on tuning to deliver the speed that wins each account. Ten benchmark jobs were hand-tuned on 64- or 128-vCPU runners, while customer runners topped out at 32 vCPUs. If comparable gains require custom work or expensive burst capacity, fixed monthly fees could leave little contribution as customers run more jobs. Graphide’s reported shared optimization library offers a plausible way to reuse tuning work, and the memo leaves its effect on rollout effort unmeasured. The structural downside gate remains open because proportional delivery costs are a plausible risk and have yet to be demonstrated. (The Idea, Defensibility, Key Risks)
+Graphide could make jobs finish faster while spending more to run them. Its benchmark included hand-tuned jobs on 64- or 128-vCPU runners, while customer runners topped out at 32 vCPUs. Production still runs the full test suite, and the company’s 70% bill-savings figure is a target. Under a fixed quote, if workload grows before repricing, additional jobs bring in zero incremental revenue while consuming runner capacity and potentially adding tuning and support costs. Cache reuse could reduce compute, but the memo leaves contribution on representative workloads unresolved. The structural gate remains open because the memo establishes neither unavoidable bespoke work nor structurally uneconomic capacity needs. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 22/25 |
+| Repeatable acquisition and onboarding | 8/25 |
+| Retention economics | 13/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 55/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent GitHub Actions teams use the same onboarding process to move from App install to paid production CI without founder-led migration or custom tuning? Account records showing the steps, staff time, production job runs, and first payment for both teams would move the action to Reach out if they show a repeatable rollout with bounded effort.
+Can a cohort of unrelated GitHub organizations move from app install to paid production without founder-led sales or migration and remain contribution-positive as CI volume grows? Paid invoices, onboarding records, and account-level costs covering runner capacity, tuning, and support would answer it. A cohort that demonstrates this on ordinary workloads would move the action to Reach out.

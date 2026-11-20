@@ -1,30 +1,32 @@
 ﻿# ObsessionDB -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is the strongest path. The first buyer is a data team running a high-volume live API. Once its first workload is in production, additional workloads can use separate compute groups over shared storage. On managed clusters, that expansion can increase the compute and compressed storage billed to the customer. Native ClickHouse interfaces and a customer-cloud option make the same job plausible across markets, although buyer geography is unreported and certification requirements can exclude some buyers. (*The Idea*, *Key Risks*)
+The strongest path is selling managed ClickHouse to data teams that serve live APIs or analyze agent traces. Conditional on strong product-market fit, native ClickHouse SQL and client interfaces let teams in different markets use substantially the same product for the same recurring job. The documented self-serve clusters and free developer tier give developers a way to try it independently. The memo leaves open how often those developers can enable billing and move a production workload without founder help. (The Idea, Defensibility, Key Risks)
 
-Osmosis reports moving its production API from Tinybird, cutting annual operating costs from about $60,000 to $30,000, and serving 13 million requests in a 30-day period. That testimonial supports initial fit and repeat use at the API’s operating cadence. ObsessionDB separately reports paying production customers and petabytes processed monthly. The memo gives no account-level evidence that customers added billed capacity or workloads after going live. Numia’s reported migration savings support the cost proposition, with limited weight as evidence of independent buyer fit because Numia was the founders’ prior company. (*Market & Traction*, *Founders & Team*)
+Live APIs and growing trace stores create ongoing demand for compute and storage, which ObsessionDB meters separately. Retained customers can spend more as their datasets grow or they add compute groups. That gives expansion a plausible way to offset churn, though its magnitude is uncertain. By October, the CEO reported paying production customers following the January managed-product announcement. Osmosis reported 13 million API requests in a recent 30-day window, which shows meaningful production use. For the five-person team listed in the memo, these are credible early traction signals, with the pace of paid growth still unclear. (ObsessionDB, The Idea, Market & Traction)
+
+At the published example price of $4,090 per month, a comparable cluster contributes positively if that revenue exceeds its compute, object storage, NVMe cache, and attributable acquisition, migration, and support costs. Shared storage gives ObsessionDB a way to add compute without duplicating durable table data. Actual contribution remains uncertain across workloads with different cache needs and levels of migration effort. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-The first link likely to break after fit is converting higher usage into profitable billed expansion. API requests can rise within already provisioned capacity, and separate compute groups may add infrastructure and support costs when customers expand. The published comparison uses hot runs, and documented cache-miss latency adds uncertainty about the resources needed for new workloads. Osmosis’s savings measure the buyer’s costs, leaving ObsessionDB’s marginal contribution unmeasured. The company also offers self-serve clusters, cost audits, and hands-on migrations, but the memo traces no repeatable route from discovery to paid production or measures migration effort. These gaps warrant Watch. The evidence does not establish the structural downside gate. (*The Idea*, *Market & Traction*, *Key Risks*)
+The production path may depend on founder-led cost audits and hands-on migrations. Some workloads need changes to snapshot or coordination workflows, cold-cache performance can weaken the value proposition, and certification requirements may block some enterprise buyers. ClickHouse Cloud already offers isolated compute over shared storage. The structural downside gate clears because the documented migration dependencies affect specific workflows and the compatible segment has a credible self-serve entry point. The commercial uncertainty is whether that segment can routinely reach paid production with little help. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 10/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 13/25 |
+| Retention economics | 16/20 |
+| Initial traction | 11/20 |
+| Cost economics | 6/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 67/100** (Invest)
 
 ### Decisive diligence question
 
-Can an independent managed customer add a second recurring production API workload at positive incremental contribution? A before-and-after record showing sustained use, higher realized compute or storage charges, and incremental infrastructure, integration, and support costs below that added revenue would move the action to Reach out.
+Can a representative group of compatible managed-cloud buyers reach recurring paid production through self-service with positive incremental contribution? Recent customer journeys from signup through the first recurring bills, paired with infrastructure costs and staff time, would answer it. Repeatable, profitable activation would sustain Reach out. Routine founder-led migration or weak contribution would move the action to Watch.

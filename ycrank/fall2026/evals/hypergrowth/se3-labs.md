@@ -5,26 +5,28 @@
 
 ### Company case
 
-The strongest path is repeatable direct sales to robot model teams that need to test updated policies on physical tasks. SE3 offers a one-policy, one-task evaluation through its launch and website, with project fees and deliverables set in customer orders. The memo records 500 released teleoperation episodes across 10 benchmark tasks and 1,596 dataset downloads in the preceding month. The episodes show that SE3 can collect physical task data. The downloads show interest in the dataset, with buyer identity and paid conversion still unknown. (The Idea, Market & Traction, Key Facts)
+Conditional on strong product-market fit, SE3’s strongest path is to sell repeat policy evaluations on shared, standardized lab workcells. Robot-model teams could rerun the same physical task after each model update and use annotated human corrections in the next training cycle. SE3 reports using standardized workcells to compare policy versions and offers a one-policy, one-task evaluation. If teams abroad can submit compatible policies and use the resulting data remotely, SE3 could serve the same recurring job from its existing labs. Hardware compatibility and the effort to adapt new tasks remain uncertain. (The Idea, Defensibility, Key Risks)
 
-If model teams find the evaluations valuable enough to buy, the growth case assumes SE3 can reuse workcells and test procedures across buyers and sell another evaluation when a buyer updates its policy. The same job could plausibly travel across markets through controlled workcells. Testing at partner sites adds unresolved requirements for hardware, site access, scheduling, and recording permissions. The first unproven link is whether independent buyers will pay for and complete the same scoped evaluation with reusable setup. The memo gives no usable evidence of customer activation, repeat purchases, marginal delivery cost, or concrete buyer commitment. (The Idea, Defensibility, Key Risks, Key Facts)
+The launch and website provide a discovery channel, and the single-task offer gives buyers a defined starting point. Hardware, scope, deliverables, and fees are still set by order or statement of work. Policy updates give customers a reason to return, with more tasks or runs offering a plausible path to larger orders. Repeat billing and account expansion remain unverified. The memo records 500 released benchmark episodes and 1,596 downloads in the preceding month. Paid use and the pace of commercial growth are unknown. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Each new policy or task could require fresh hardware setup, success checks, resets, human interventions, and site permissions, leaving delivery effort proportional to project revenue. SE3 describes partner-site sandboxes as a next step and reports zero full-task completions in 100 zero-shot Dream-1 episodes. The benchmark demonstrates failure capture, while the value of the resulting corrections for a buyer’s next policy update remains unproven. The structural downside gate is untriggered because the memo contains no comparable paid deployments showing that delivery costs rise proportionally despite workcell reuse. (The Idea, Market & Traction, Key Risks)
+The lab offering may be an entry point to bespoke site work if buyers need evidence from their own factory or hotel workflows. Site permissions, operating schedules, and recording authorization can constrain those deployments. SE3 reported zero full-task completions in 100 zero-shot Dream-1 episodes on its test station. Whether corrections improve performance on held-out task variations remains open. (Key Risks)
+
+Incremental contribution starts with the project fee and subtracts scoping, workcell time and capacity, task setup and resets, operator interventions, and annotation. Reusing the same workcell and task setup across runs could spread setup and hardware costs, but the memo gives no measured labor, utilization, or contribution per evaluation. The structural downside gate stays open because the standardized lab path is credible and the memo leaves the economics of that path unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
 **Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independent robot model teams buy and complete the same one-task evaluation through SE3’s direct sales process with comparable, bounded setup effort? Paid orders and delivery logs showing reuse of the workcell and test procedure, with hardware and operator costs covered by the project fees, would move the action to Reach out. Evidence that each rollout requires a fresh build and delivery costs grow in proportion to fees, with no demonstrated way to reuse the work, would move it to Pass.
+Can a paid cohort of robot-model teams, including a buyer abroad, independently order the same standard lab evaluation and expand its spend across policy updates while SE3 earns positive incremental contribution? Paid orders, repeat invoices, and run-level records of setup, operator time, annotation, and workcell utilization would answer it. Move to Reach out if those results establish portable demand and scalable delivery strongly enough to reach 65 with at least Medium confidence.

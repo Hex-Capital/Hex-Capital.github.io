@@ -1,30 +1,32 @@
 ﻿# Sintropix -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**Channel-led or repeatable sales, through direct demos, is Sintropix’s strongest path.** The initial buyer is a finance team at a multi-entity company facing audits. Its recurring job is to close and consolidate books across currencies and meet local filing obligations. The memo describes a shared ledger that ingests bank, invoice, payroll, and expense data, posts transactions daily, and flags exceptions. The founders reported 10 ERP customers across Chile, Mexico, Brazil, and the U.S. That supports portability for the core accounting workflow. Paid adoption by country and the effort needed to maintain local filing coverage remain unverified. (The Idea, Market & Traction, Key Risks)
+Assuming strong product-market fit, the strongest path is to sell the shared ledger and multi-currency close to finance teams at multi-entity companies, starting with buyers that can keep local filing with their existing accountants. The memo describes reusable bank, invoice, payroll, and expense ingestion, along with daily posting and group consolidation. The founders reported 10 ERP customers across Chile, Mexico, Brazil, and the U.S. in September 2026. That supports cross-border demand. Whether buyers will pay for the close and consolidation workflow while handling filing separately remains a scenario assumption. (The Idea, Market & Traction)
 
-The first likely bottleneck, assuming strong fit, is getting each new buyer to its first reliable close. The memo identifies direct demos and Launch YC as acquisition routes, with referral wins documented for the earlier manual service. It gives no account-level record connecting an ERP lead to paid go-live. The CEO reported that managed-service customers moved their close from day 20 to day 1. That gives some evidence of value for the underlying job, while ERP buyer commitments and outcomes remain unclear. Monthly pricing by entity and integration creates a plausible way to grow revenue within an account. The memo gives no buyer-level evidence of repeat paid use or expansion. (The Idea, Market & Traction)
+The founders describe monthly pricing tied to integrations and legal entities. Daily reconciliation provides a recurring reason to use the ledger, and adding entities or integrations gives retained accounts a way to spend more. Expansion could offset churn if enough customers add billable entities, but the memo gives no observed renewals or account expansion. The September customer count shows early uptake for a two-person team after its April start in manual bookkeeping. The memo leaves paid status, realized ERP revenue, and the ERP’s commercial start date unclear, so the commercial traction score uses the default. (Sintropix, The Idea, Market & Traction, Key Facts)
+
+Incremental contribution is the monthly account fee less the attributable costs of selling, onboarding, running the workload, supporting the account, and handling any exception review or filing work Sintropix performs. Automated matching and posting could reduce routine labor. With no implementation fee, the monthly fee must also recover any setup labor the company absorbs. The memo gives neither ERP fee amounts nor the staff time needed to activate and serve an account, leaving contribution uncertain. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-The faster close could depend on the managed service’s manual work. Sintropix began with manual bookkeeping, its ERP workflow calls for human review of ambiguous transactions, and local filing rules require ongoing maintenance. With no implementation fee, monthly revenue must cover setup as well as ongoing delivery. The memo provides no comparable rollout hours or marginal cost data to show whether that works. The structural downside gate stays open because the evidence leaves room for reusable integrations and a handoff of the close workflow. (The Idea, Market & Traction, Key Risks)
+Buyers may choose Sintropix because it combines the close with local filing. If that bundle is essential, country-specific electronic-document rules such as Brazil’s create ongoing localization work, and ambiguous transactions still need human review. Founder-led demos and Launch YC are the documented routes for the current ERP. The memo shows no independent purchase and setup flow for ordinary buyers. These constraints leave the structural gate open because the shared close workflow provides a plausible transfer path and the evidence does not establish that buyers require Sintropix to rebuild filing in each market. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 16/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a non-founder take two independent, comparable buyers from a direct demo through paid ERP go-live and two monthly closes using the same onboarding process? Move to **Reach out** if rollout records show reusable setup and enough monthly fee revenue to cover the measured delivery effort, including a reasonable allocation for onboarding. Move to **Pass** if those records show that each rollout requires bespoke accounting or tax work that grows in proportion to revenue, with no credible path to reuse.
+Can a cohort of paying multi-entity customers in a new jurisdiction reach its first consolidated close through a repeatable acquisition and setup flow, using existing integrations and keeping local filing with its accountants? A rollout with paid invoices, completed closes, and measured onboarding and review time would test whether the workflow transfers at viable contribution. That could move the action to Reach out if the reassessment reaches 65 with at least Medium confidence. Evidence that these buyers require bespoke filing and that Sintropix has no credible near-term way to deliver it repeatably would move the action to Pass.

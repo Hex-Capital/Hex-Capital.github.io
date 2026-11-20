@@ -5,15 +5,13 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Onboard solar arrays and batteries take up spacecraft mass, and stored power limits imaging and electric propulsion during eclipse. If cheaper AI leads satellite operators to run more power-intensive onboard workloads through eclipse, usable power at the spacecraft bus could become more valuable. That demand link is a scenario assumption. The memo identifies the existing spacecraft power constraint but gives no example of AI workloads tightening it. (The Idea)
+**Scarce complements** is the strongest path. Central Blue says onboard batteries constrain imaging and electric propulsion during eclipse. If AI workloads increase spacecraft power requirements beyond what operators can meet economically with onboard power, dependable delivery during eclipse could become a scarce service. The memo gives a specific physical mechanism, but it does not establish that AI demand is increasing the constraint. Central Blue reports a nearly complete prototype and a planned ground propulsion demonstration with Wave Motion. That is a concrete development step. The memo records no completed Central Blue power delivery test or buyer commitment. The founders’ spacecraft navigation and aerospace testing experience is relevant to that next step. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
-Central Blue proposes to sell power delivered by HELION satellites to dedicated receivers. Its stated target of 10 kW for four to five hours implies 40–50 kWh at the customer bus per full discharge if achieved. The expansion unit is a power delivery to a compatible spacecraft. Its economics depend on usable link time, repeat utilization, and whether customer revenue covers receiver integration and the launch and operation of the power nodes. The memo provides a delivery target and no measured inputs for that cost bridge. (The Idea, Key Risks)
-
-The company reports a nearly complete prototype and a planned ground propulsion demonstration with Wave Motion. The named demonstration is an early engagement signal, with buyer budget, paid use, and repeat demand still unknown. The founders bring complementary experience in spacecraft navigation and aerospace testing. The planned demo gives the team a concrete next step, while CORE flight validation remains unclear. (Market & Traction, Founders & Team, Key Risks)
+Central Blue’s integrated receiver and CORE software could help it qualify and operate a reliable delivery service. That advantage remains an inference while flight validation is unclear and control over operating capacity is unproven. If HELION meets its stated target of 10 kW at the customer bus for four to five hours, it would deliver 40–50 kWh per full discharge. The relevant expansion unit is a power node serving compatible customer spacecraft. The memo provides no basis for estimating paid utilization or whether contract revenue would cover spacecraft, launch, and operating costs. (Defensibility, Key Risks)
 
 ### Countercase
 
-Star Catcher’s reported orbital acquisition and tracking demonstration establishes progress on a shared prerequisite, and its receiver design uses standard solar panels. Its announced power purchase agreements suggest competition for overlapping missions. Central Blue’s dedicated receiver adds integration work, and the memo offers no evidence that its receiver and CORE integration confers a qualified cost or reliability advantage. The rival demonstration leaves equivalent power delivery at the customer bus unresolved, so it challenges durable capture without closing Path A. (Defensibility, Market & Traction, Key Risks)
+Star Catcher reports orbital acquisition and tracking and uses standard solar panels for its prototype receiver. If that architecture meets the same mission requirements, Central Blue’s dedicated receiver could add integration work without earning a premium. Tracking alone leaves delivered power and substitutability unresolved, so the evidence does not close the scarce-complement path. CORE offers no independently supported New Economies path. The memo gives neither a comparative labor cost per successful outcome nor a previously excluded buyer or use. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -21,12 +19,12 @@ Star Catcher’s reported orbital acquisition and tracking demonstration establi
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 6/20 |
+| Customer demand | 5/20 |
 | Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent satellite operator commit qualification resources after a representative end-to-end test shows that HELION can meet its AI-driven eclipse power requirement at a viable delivered cost where onboard power and credible beaming alternatives fall short? A successful test and buyer commitment would move the action to Reach out. A credible substitute that meets the same requirement on viable terms would move it to Pass.
+Will an independent satellite operator commit to a paid qualification trial for an AI-driven eclipse power requirement that onboard storage and standard-panel alternatives cannot meet on acceptable terms? A signed agreement with a price and a measurable power-at-the-bus acceptance threshold, backed by the operator’s comparison of alternatives, would move the action to Reach out.

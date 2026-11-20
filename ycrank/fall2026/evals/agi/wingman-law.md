@@ -1,32 +1,32 @@
 ﻿# Wingman Law -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Wingman offers California accident victims direct representation on contingency. The company says its agents gather evidence and prepare documents and communications for attorney approval, replacing some of the manual follow-up that case managers perform with clients, medical providers, and insurers. The market-opening hypothesis is that this workflow could make lower-value claims economical to represent when conventional firms would decline them because of handling costs. The memo reports multiple six-figure cases in progress. That is an early signal that clients entrust matters to Wingman, while the economics of previously declined claims remain untested. (The Idea, Market & Traction)
+Wingman’s strongest path is **New Economies**. Wingman says conventional firms spend case-manager time following up with clients, medical providers, and insurers. It says its agents gather evidence and prepare documents and communications for attorney approval. The market-opening hypothesis is that this workflow cuts labor enough to make smaller California injury claims viable on contingency when conventional firms would decline them on cost. The memo establishes the workflow Wingman describes. The conventional cost per recovery, Wingman’s savings after attorney review and rework, and the pool of previously excluded claims remain unmeasured. (The Idea, Key Risks)
 
-**Scenario assumption:** Comparable firms can access equally capable models and workflow tools. Wingman controls the service clients hire it to perform, including attorney review and case handling. A durable advantage would require evidence that Wingman delivers that service at lower cost or wins clients and referrals on execution under those conditions. The relevant cost comparison is full cost per successful recovery, including intake, attorney review, rework, confidentiality controls, and costs incurred on cases that yield no fee. Expansion also depends on whether collected fees cover those costs and whether Wingman can carry them until recovery. The memo provides no case-level review times or realized contribution. (The Idea, Defensibility, Key Risks)
+Wingman represents clients directly and earns fees upon recovery. Under model parity, clients could still choose Wingman for the quality and responsiveness of its legal service. Its integrated attorney workflow gives it a way to deliver that service, while client or referral preference against firms with comparable AI remains untested. The memo reports multiple six-figure cases in progress. That supports early demand for representation, while recoveries, collected fees, and demand from previously excluded clients remain unverified. The founders’ litigation and legal-tech experience, including Le’s reported work on more than 700 injury cases, supports their ability to run the next operating test. (The Idea, Defensibility, Market & Traction, Founders & Team)
+
+The unit of expansion is an additional signed claim. To test the cost per successful outcome, divide total delivery costs across a closed cohort by the number of recoveries, including labor spent on unsuccessful cases. To test contribution, compare collected fees with acquisition, casework, attorney review and rework, AI, and case expenses across that same cohort. Delayed fee collections also create a working-capital requirement. The memo provides the fee trigger and identifies the review and cash-timing risks, leaving the savings and contribution as scenario assumptions. (The Idea, Key Risks)
 
 ### Countercase
 
-Wingman may be using AI to handle the same kinds of cases that existing firms already take. Attorney review and evidence correction could absorb the labor savings, while competing firms can buy overlapping tools and one incumbent has deployed its own AI platform. Those facts make both required conditions uncertain. The memo contains no direct comparison showing that supervision erases savings or that clients readily substitute an equivalent firm, so neither condition is defeated. The reported case activity and the founders’ relevant litigation and legal software experience make a seed-stage field test plausible. Confidence is low because the decisive economics and buyer behavior remain unmeasured. (Market & Traction, Defensibility, Key Risks, Founders & Team)
+Wingman could be making an existing contingency practice more efficient while serving the same clients as incumbent firms. Its reported six-figure matters leave the smaller-claim hypothesis untested. Competing firms can buy overlapping tools, and Morgan & Morgan has deployed its own AI platform and has an established referral network. Attorney review, rework, and California’s delegation and confidentiality limits could absorb enough of the labor savings to keep smaller claims uneconomic. This evidence leaves both New Economies gates open for testing. It establishes neither ready substitution for Wingman’s legal service nor a cost floor that rules out the smaller-claim segment. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 9/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can Wingman repeatedly earn positive contribution on California injury claims that comparable firms decline because of handling costs, while still winning those clients or referrals when comparable firms have equivalent AI tools?
-
-A representative cohort followed from intake through resolution would answer this. Verify why conventional firms declined the claims, count all delivery costs and collected fees across the cohort, and compare client or referral choices against firms with equivalent tools. **Reach out** if the cohort shows repeatable positive contribution and a credible preference for Wingman’s service under model parity. **Pass** if representative results show either that full costs erase the savings needed to serve the segment or that equivalent firms can readily substitute for Wingman. Otherwise, keep **Watch**.
+Can Wingman profitably serve a cohort of smaller California injury claims that conventional firms declined on cost, while continuing to win those clients or their referrals when comparable AI-assisted representation is available? A closed cohort with documented declinations, lower delivery cost per recovery than comparable conventional casework, positive contribution from collected fees, and demonstrated client or referrer preference under comparable alternatives would move the action to **Reach out**. Direct evidence that either required condition fails would move it to **Pass**. Inconclusive results would keep it at **Watch**.

@@ -1,32 +1,30 @@
 ﻿# Reason Machines -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Reason could make routine repository maintenance economical for small software teams that currently defer it. The scenario assumes those teams leave low-priority fixes undone because manual implementation and review cost more than the fixes are worth. Reason’s harness can take an issue through to a pull request. The market opens if that workflow cuts human time enough to make those fixes worth doing repeatedly. Reason reports 22% lower cost per solved task than Codex on the same model in a fixed benchmark. That measures model-attempt cost. The relevant field comparison is full cost per accepted, merged fix, including engineering time and review in the manual workflow, and inference, cloud compute, setup, review, retries, and exception handling in Reason’s workflow. (*The Idea*; *Key Risks*)
+**New Economies** is the strongest path. Reason batches tool calls and reuses cached context. The company reports 22% lower model cost per solved benchmark task than Codex using the same model. If Codex’s model cost were $1 per solved task, that result would imply $0.78 for Reason under benchmark conditions. The memo gives no baseline for engineer time or all-in cost per accepted pull request. Routine repository maintenance that teams currently defer is a plausible new use if Reason cuts total cost enough, including cloud runs, retries, and human review. The memo documents an efficiency gain in an existing market. It leaves the labor savings and market opening unproven. (The Idea, Key Risks)
 
-Under model parity, teams might still pay Reason if their configured triggers, shared skills, and saved session state reduce ongoing setup and supervision relative to an equivalent agent. That is an inference. The memo documents 112 Chrome extension users, and Reason reports 20,000 users in four weeks. Those figures indicate early adoption, with paid repeat use by the proposed buyers still unverified. (*Defensibility*; *Market & Traction*; *Key Facts*)
-
-The founders’ prior developer-tooling and ML work, the releases of Reason 1.0 and 1.1, and the published benchmark methods and run logs support seed-stage execution. The expansion unit is one paid seat, priced at $50 or $200 per month with separate AI and cloud credit allowances. Contribution per seat depends on actual inference and cloud usage and the cost of supporting exceptions. The memo provides pricing and allowances, with realized costs and utilization still unknown. (*Founders & Team*; *Market & Traction*; *Key Risks*; *The Idea*)
+The company reports 20,000 users in four weeks. The memo records 112 Chrome extension users and quotes one user describing a completed agent run. These are early usage signals, with paid conversion and repeat use for newly viable work still unknown. The two founders’ prior IDE and applied ML work, followed by the Ara launch and two Reason agent releases, supports seed-stage execution. The expansion unit is a paid seat, with $50 and $200 monthly plans, credit allowances, and paid top-ups. Contribution per seat remains untested without actual inference, cloud, and support costs under sustained usage. (Market & Traction, Founders & Team, The Idea, Key Facts)
 
 ### Countercase
 
-Reason may save existing coding-agent users money while leaving previously deferred work uneconomical. As inference gets cheaper, the same percentage reduction saves fewer dollars, so review and rework could still determine which tasks are worth doing. Cursor already offers managed cloud agents, Cognition has its own cost-optimized harness, and Reason 1.1 builds on the public Pi harness. Those facts make substitution credible. The memo contains neither a representative delivered-cost comparison nor observed buyer switching under functional parity, so both required conditions remain open. Watch follows from a testable mechanism whose decisive evidence is still largely company-reported or indirect. (*The Idea*; *Defensibility*; *Key Risks*)
+Reason may lower costs for work teams already run while competitors adopt similar optimizations. Reason builds on the public Pi harness, Cursor already offers overlapping cloud execution, and Devin has its own cost-optimized harness. Connected workflows could give teams a reason to stay, but the memo provides no retention under functional parity, brand premium, or evidence that additional users improve the product for existing users. Provider quota changes could also disrupt subscription rollover. These risks leave both New Economies gates open for testing. The memo shows neither ready customer substitution nor a controlled scarce complement that would support a separate path. (Defensibility, The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 7/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent small software teams pay to repeat a previously deferred maintenance workflow on Reason after trying a functionally equivalent agent using the same model? A paid field trial should compare comparable tasks against manual delivery, record full cost and human minutes per accepted, merged fix, and track whether teams renew at a viable price because their Reason workflows take less effort to operate. Reach out if the trial shows both a newly economical workflow and paid repeat preference under parity. Pass if a representative trial shows that either condition fails.
+Will independent teams repeatedly pay Reason after credits expire to complete repository work they previously deferred, when a similarly priced, functionally comparable alternative is available using the same model? A paid cohort that establishes the prior delivery cost, shows lower engineer time and all-in cost per accepted pull request, and continues choosing Reason would move the action to Reach out. If the cohort shows the work was already economically viable or teams readily switch at parity, move to Pass.

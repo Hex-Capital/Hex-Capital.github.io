@@ -5,30 +5,34 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A legal operations platform could pay for Neomatter’s cross-channel intake and drafting workflow, along with customer relationships it could retain after a sale. Neomatter says it picks up requests automatically across email and chat, applies customer-specific playbooks, and queues cited drafts for lawyer approval. Owning that workflow could help a buyer sell a broader product to in-house teams if integrating Neomatter delivered measurable gains faster than building or licensing equivalent functionality. The memo provides no buyer-side economics or acquisition price evidence. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a legal workflow platform such as Checkbox. Checkbox offers routine self-service, while Neomatter describes a product that picks up requests across email and chat, applies customer-specific playbooks, and prepares cited drafts for lawyer approval. A buyer could use that capability to handle more of the work that follows intake. Neomatter’s CEO reports that one unnamed customer saved dozens of hours per week and thousands of dollars in outside-counsel spending. That claim suggests a reason to buy if the savings repeat across paying customers. The memo provides no evidence of acquisition interest. (The Idea, Defensibility, Market & Traction)
 
-The memo records an October 15 public launch and named-seat subscription terms. The CEO reports that one unnamed customer saved dozens of hours weekly and thousands of dollars in outside-counsel spending, and that users grew 73% week over week from an undisclosed base. These are early company claims. A plausible next milestone is repeatable savings and sustained paid use across several legal teams, measured against their existing tools. The launch gives Neomatter a way to run that test. The memo does not establish how much capital or runway the team has to complete it. Transfer of customer agreements and playbooks, access to privileged data, and continuity of platform permissions after a sale also remain unverified. (The Idea, Market & Traction, Key Risks)
+The next operating milestone is to show that multiple paying legal teams retain the product and sustain measurable savings on work their existing tools leave to counsel. The public launch and the CEO’s reported 73% weekly user growth from an undisclosed base make that test plausible. Backing is reported, with amounts undisclosed, so the capital and runway available to reach the milestone are uncertain. A share sale could preserve the entity that holds customer contracts. The memo describes tenant isolation and access logging, while change-of-control terms, privileged-data permissions, and continued integration access remain unverified. (Market & Traction, Key Risks)
 
-**Illustrative proceeds.** With actual investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. At 3%, the holder needs about $83.3 million in distributable equity, or $88.3 million in enterprise value with $5 million of assumed net debt. At 2% and 4% ownership, the equity hurdles are $125 million and $62.5 million, respectively. Under simple pro rata allocation before investor taxes and any unmodeled fees or senior claims, a $25 million sale in year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). Both assume $5 million of net debt. These are scenario prices. The reported customer savings do not establish what a buyer would pay. (Market & Traction, Key Facts)
+**Proceeds scenarios.** Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The eight-year 5× objective requires $2.5 million in gross cash, or about $83.3 million in distributable equity at 3%. Both sale scenarios assume $10 million in combined net debt and other deal deductions, no preference diversion, and an eligible holder selling the full position for cash within eight years. The prices are illustrative assumptions. The memo supplies no buyer valuation, acquisition comparable, or holder terms. (Market & Traction, Key Facts)
 
-If adoption plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. The memo supplies no evidence of cash generation that could support a sponsor buyout or company-funded payout, demand for an eligible secondary, or operating scale and readiness for an IPO. A wind-down recovery cannot be estimated without assets, obligations, and preference terms. (Market & Traction, Key Facts)
+| Scenario | Gross cash to the holder |
+|---|---|
+| Modest sale | $40 million enterprise value leaves $30 million in distributable equity and pays the holder $900,000, or 1.8×. |
+| Strong sale | $100 million enterprise value leaves $90 million in distributable equity and pays the holder $2.7 million, or 5.4×. If only 80% of that consideration is received in cash within eight years, proceeds fall to $2.16 million, or 4.32×. |
+| Prolonged private | Continued operation with cash reinvested yields zero realized proceeds. The memo provides no evidence of an eligible secondary or funded payout. |
 
 ### Countercase
 
-Legora already routes Slack requests into configured Skills, and LegalOn already offers intake and drafting agents and uses OpenAI. Those offerings give prospective buyers a credible path to extend their own products. Neomatter’s automatic pickup across channels and customer-specific playbooks could still matter, but the reported savings do not measure the improvement over those substitutes. The memo establishes neither a structural closing barrier nor a supported sale price that leaves the holder materially short. The Pass gate stays open, and the gap in buyer economics warrants Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+A strategic buyer may already have enough of the workflow. Legora routes Slack requests into its existing Skills, and LegalOn offers intake and drafting agents. Neomatter’s broader automatic intake and customer-specific playbooks could still save meaningful time, but the memo leaves retention and switching costs unverified. That gives incumbents a credible build-or-use-existing option and leaves the acquisition price unsupported. It does not establish a structural barrier or show that even the strongest credible sale would pay too little, so the Pass gate does not trigger. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can Neomatter demonstrate incremental value over incumbent workflows that would justify a legal platform acquiring it at a price that clears the holder’s proceeds hurdle? Sustained paid use and measured savings across several legal teams, combined with credible buyer-side economics favoring ownership over building or licensing, would move the action to Reach out if the supported price clears the hurdle on plausible ownership and deal terms.
+Do sustained savings at retained, paying legal teams give a strategic buyer enough incremental value over its existing intake tools to support a price that clears the holder’s eight-year cash hurdle? Customer-verified results and buyer-side evidence of what the platform would pay would move the action to Reach out if they support a plausible payout of at least $2.5 million. If the best supported price leaves the holder materially short, move to Pass.

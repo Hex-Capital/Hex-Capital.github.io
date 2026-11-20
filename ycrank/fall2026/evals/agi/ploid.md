@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Assume frontier-quality models become cheap and widely available. If agents increase the volume of sales and recruiting lookups, fresh, correctly linked people records could become a bottleneck. The memo describes developers reconciling stale exports and scattered sources. Ploid reports an index of more than 2 billion people and uses cross-site identity matching and live retrieval to assemble profiles. The opportunity depends on whether Ploid can deliver usable matches at a freshness and accuracy buyers struggle to get elsewhere, and whether it can sustain that advantage. The memo offers no buyer benchmark on those outcomes. (The Idea, Defensibility)
+**Scarce complements** is the strongest path. Agent workflows for sales and recruiting could increase demand for fresh records that correctly link a person’s professional and social identities. The memo documents a live retrieval interface and an explicit unresolved response for ambiguous matches. Ploid reports a proprietary index of more than 2 billion people. The thesis depends on Ploid resolving valuable identities that buyers struggle to source elsewhere. The memo leaves comparative accuracy, freshness, and control of the underlying data unverified. (The Idea, Defensibility, Key Risks)
 
-Ploid shipped a documented API, CLI, and MCP server, and Hernandez brings production retrieval and recommendation experience. The API documents how it handles ambiguous identities, while performance on representative buyer workloads remains unknown. Karic reports closing clients in summer 2026, with buyer commitments, prices paid, and repeat demand undisclosed. (The Idea, Founders & Team, Key Risks, Market & Traction)
+Ploid claims thousands of companies use the product, and a founder reports closing clients. Contract values, production usage, and renewals remain unverified. The founders shipped a documented API, CLI, and MCP server, and Hernandez brings relevant production recommendation experience. The next execution milestone is a comparative production test of identity resolution. (Market & Traction, The Idea, Founders & Team)
 
-The expansion unit is a usable profile delivered to a customer workflow. Assuming customers use all included credits, list pricing implies $0.15–$0.20 per credit. Contribution per usable profile depends on credits consumed across successful and unresolved lookups, along with refresh, vendor data, validation, and deletion costs. The memo gives no measured cost per usable profile. (The Idea, Key Risks, Key Facts)
+The expansion unit is a paying workspace and its credit usage. At full use of included credits, Growth yields $0.20 per credit and Scale yields $0.15. In a break-even scenario before fixed costs, vendor data, live retrieval, and any manual review would have to cost less per consumed credit than those rates to leave positive contribution. The memo gives no credit usage per successful match, delivery costs, or workspace expansion data. (The Idea, Key Risks)
 
 ### Countercase
 
-Apollo offers people search through MCP, and Crustdata sells live people data through an API. Ploid also relies on vendors for some contact data and says those addresses can be stale or misclassified. Buyers may be able to assemble equivalent results from existing providers, making Ploid’s index and matching a convenience they can replace. The overlap makes substitution credible, while equivalent performance on a representative workload remains untested, so the Path A gate stays open. Path B lacks an independently supported case because the memo identifies manual cleanup in existing workflows without showing that lower delivery costs make a previously uneconomic use viable. (Defensibility, Key Risks, The Idea)
+Apollo already offers people search through MCP, and Crustdata sells live people data through an API. Ploid also relies on contact-data vendors and acknowledges that supplied addresses can be stale or misclassified. Buyers may be able to assemble adequate coverage from existing providers. The documented overlap leaves parity on difficult cross-site matches untested, so the scarce-complement path stays open under Watch. The memo describes cleanup in established sales and recruiting workflows and leaves the former delivery cost, cost per successful outcome, and previously excluded buyers unverified. That leaves New Economies without independent support. (Defensibility, Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
+| Customer demand | 6/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Would an independent sales or recruiting platform commit to paid production use after a head-to-head trial against Apollo or Crustdata on its own agent workload? Move to **Reach out** if Ploid alone clears the buyer’s preset thresholds for match accuracy, freshness, and coverage at an acceptable cost, and the trial traces the advantage to data access or matching capability Ploid can sustain. Move to **Pass** if a substitute clears the same thresholds at comparable cost.
+Will independent sales or recruiting platforms renew at a price that gives Ploid positive contribution after a head-to-head production trial against their best existing provider? A move to Reach out would require paid renewals tied to a material lift in verified, current cross-site matches, with provider, retrieval, and exception costs measured. If existing providers match those outcomes at comparable cost and buyers readily substitute them, move to Pass.

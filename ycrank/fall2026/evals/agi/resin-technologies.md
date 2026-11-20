@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Resin’s browser-based PCB tool launched publicly in October. The company says it turns requirements into editable schematics, generates component footprints from datasheets, and automates placement and routing. The market-opening hypothesis is that small hardware teams could afford low-volume custom boards they previously deferred because manual design required too much engineering time. The relevant comparison is full cost per fabricated board that meets requirements, including software, engineering review, corrections, and any fabrication reruns. Resin’s autorouter is in beta and its terms require engineering review before fabrication. (The Idea; Market & Traction; Key Risks)
+New Economies is Resin’s strongest path. Automating component selection, schematic drafting, and layout could reduce engineering labor enough to make previously deferred PCB projects viable. The memo describes a traditional workflow that can take weeks, and Resin’s founder reports that unnamed teams shipped boards in hours. The report suggests a time saving. The memo gives no comparable labor measurements or fabrication results for those boards. (The Idea, Market & Traction)
 
-The founder reports that unnamed teams shipped boards in hours compared with a claimed baseline of weeks. That is an early usage signal. Measured engineer-hours, buyer budgets, paid repeat use, and whether those teams previously went without custom boards remain unverified. Under the scenario of cheap, equivalent models, Resin’s routing engine and reusable approved component libraries could still save engineering time. Buyer preference under parity remains untested. (Market & Traction; Defensibility)
-
-The expansion unit is a paid design seat. Advertised subscriptions and self-serve signup describe a plausible rollout, while conflicting price schedules leave realized pricing unclear. Contribution depends on model usage and support costs per seat. The founders’ applied AI and electronics experience, together with the public launch, support seed-stage execution credit. Repeatable delivery on representative boards remains unverified. (The Idea; Founders & Team; Market & Traction)
+One scenario is that small hardware teams could afford to build low-volume board variants they previously deferred. The relevant comparison is the cost per fabricated board that meets requirements, including engineering time, fabrication, and respins across all attempts. With Resin, that calculation also includes the subscription and any remaining review and correction time. The memo gives advertised prices and documents required engineering review, but it supplies no measured cost per successful board. The reported shipments are an early usage signal. Payment and repeat use remain unverified. The public launch and the founders’ experience in applied AI and electronics support execution at this stage. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Resin may save time on boards buyers already plan to build. Required review and potential wiring, component, or clearance errors could absorb enough of the drafting savings to leave previously deferred projects uneconomic. Cadence offers automated placement and routing, Quilter works with existing design files, and Resin’s editable exports could make switching easier. These are credible threats to both Path B conditions. The memo contains neither a representative full-cost comparison nor observed switching under functional parity, so neither condition is decisively defeated. Both remain open gates for outreach. (Defensibility; Market & Traction; Key Risks)
+Resin may speed up work that existing PCB teams already pay for. Cadence offers automated placement and routing in an incumbent workflow, and Quilter works with existing ECAD files. Resin describes its router as proprietary, and reusable component libraries could make it more convenient to stay. Buyer preference at comparable functionality remains untested. The beta router and required engineering review could also erode enough of the labor savings to keep deferred projects uneconomic. The overlap shows credible alternatives for parts of the workflow. It falls short of demonstrating end-to-end parity or easy switching, so the New Economies path remains open. The memo establishes no independent scarce complement. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent hardware team that previously deferred custom boards because of design cost pay for a second Resin project after a representative trial compares Resin with its former workflow and a credible alternative using equivalent models? Move to **Reach out** if the trial shows that fully loaded cost per working board falls within the buyer’s budget and the buyer pays again because Resin’s routing or approved libraries deliver measurable value under model parity. Move to **Pass** if the comparison decisively shows that the project remains uneconomic or the buyer gets the same outcome at comparable cost and readily switches. Otherwise, keep **Watch**.
+Will independent hardware teams repeatedly pay for Resin to build board variants they previously deferred on cost grounds when they can try comparable tools with equally capable models? Reach out if a paid cohort delivers working boards at a measured cost low enough to make those projects viable, including review, corrections, and respins, and chooses Resin again after trying the alternatives. Pass if the comparison shows that full delivery costs still keep those projects deferred or that buyers switch readily at functional parity.

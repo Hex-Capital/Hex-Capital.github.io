@@ -1,34 +1,40 @@
 ﻿# Perit.AI -- Exit Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Strategic acquisition is Perit’s strongest route. A frontier lab building live voice agents could buy Perit to bring multilingual interruption, recovery, and noisy-call testing in-house. The memo records an open duplex speech dataset, and Perit describes a broader workflow that combines specialist collection, reviewer calibration, and batch QA in its Foundry workspace. A lab could gain faster turnaround and more control over recurring tests by owning that workflow. The memo provides no measured advantage over licensing or building internally. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a larger AI data supplier seeking to add live, multilingual speech evaluation. Perit reports six AI lab customers and more than 6,000 speech hours delivered across nine locales. Its published offering combines live interaction tests with reviewer calibration, batch QA and consent records. A buyer could use that operation to launch new locales faster and offer customers tests for interruptions and recovery. The memo provides delivery volume, while the value of owning that capability remains an inference. (The Idea, Defensibility, Market & Traction)
 
-A paid renewal for a production voice-evaluation program, with measured gains in turnaround or failure detection against the lab’s best alternative, would make that ownership case testable. Perit reports six lab customers and more than 6,000 speech hours delivered across nine locales. That supports the ability to run the test at meaningful scale. Renewal history, delivery margins, and the capital needed to expand coverage remain open. A company acquisition is a plausible way to transfer the Foundry operation, subject to diligence on change-of-control terms and continued rights to use contributor data. (Market & Traction, Defensibility, Key Risks)
+Perit reports more than $11 million in revenue over 4.5 months, while the YC announcement cites more than $9 million over the same period. Those figures support a seed-stage case for paid demand. Renewal rates, margins and working-capital needs remain unknown. A measurable milestone over the next 12 months would be two lab renewals for live-speech programs with documented QA performance and positive contribution margins after contributor and review costs. Reported delivery suggests Perit can run that test through existing programs. Its ability to fund expansion remains unverified. (Key Facts, Market & Traction, Key Risks)
 
-**Proceeds bridge.** Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× target requires $2.5 million in gross holder cash, or $83.3 million of distributable equity at 3%. The equity hurdle is $125 million at 2% and $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case needs about $88.3 million of enterprise value. A $25 million sale at year eight returns $600,000 gross (1.2×), while a $100 million sale returns $2.85 million (5.7×). Both use simple pro rata allocation after illustrative debt and before investor taxes. Actual debt, fees, and senior claims are unknown. Perit reports $11 million or more in revenue over 4.5 months, and the memo also gives a $9 million or more non-annualized figure for that period. Either figure leaves repeat revenue, margins, and buyer willingness to pay unresolved, so the sale scenarios establish hurdles and sensitivities. (Key Facts)
+With actual investor terms unavailable, the benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million of distributable equity. Both sale scenarios assume a full cash sale within eight years, $10 million combined for net debt and deal deductions, no further preference or escrow deductions, and an eligible holder receiving 3% of the residual equity at closing.
 
-If growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and Perit reinvests available cash for eight years, the holder realizes $0 and retains the shares. In a wind-down, any payout depends on the residual after obligations and preferences, which the memo does not quantify. The memo provides no cash-flow basis for a sponsor buyout or company-funded payout, no demand or holder eligibility for a Perit secondary, and no evidence of IPO readiness or a holder resale path. (Market & Traction, Key Facts)
+| Scenario | Assumed enterprise value and equity bridge | Holder cash |
+|----------|--------------------------------------------|-------------|
+| Modest sale | $12.5M in retained annual program revenue at 4× gives $50M enterprise value and $40M distributable equity | $1.20M (2.4×) |
+| Strong sale | $25M in retained annual program revenue at 4× gives $100M enterprise value and $90M distributable equity | $2.70M (5.4×) |
+| Prolonged private | The company reinvests available cash and the holder completes no eligible share sale within eight years | $0 |
+
+The revenue and multiples are scenario assumptions. At 3×, the strong case falls to $1.95 million in holder cash. Perit’s published license terms show that it can sell exclusive rights separately, while assignment of customer contracts and contributor permissions remains unverified. The memo provides no company-specific evidence of an independent liquidity route. (Key Facts, The Idea, Key Risks)
 
 ### Countercase
 
-A lab can buy a program under Perit’s default non-exclusive license or pay separately for exclusivity. Perit says it cannot recall copies already licensed and delivered, so an acquisition would confer limited control over that material. Competing providers also cover parts of Perit’s offering. If a license secures the lab’s required rights and turnaround, ownership has little demonstrated incremental value. The memo establishes neither a structural block nor a supported sale price that falls short, so the Pass gate is not triggered. (The Idea, Defensibility, Key Risks)
+A buyer can license Perit’s data under its default non-exclusive terms, and competing vendors already offer overlapping services. Given the reported concentration in six labs, a buyer could also discount revenue if major programs fail to renew. Consent and downstream-use restrictions could further reduce the assets it can use after closing. Together, these risks make it plausible that Perit remains a viable supplier while a buyer has little reason to pay the price needed for a 5× return. The memo establishes neither a structural closing block nor a supported acquisition price below the hurdle, so neither Pass gate is triggered. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 14/20 |
+| Counterparty rationale or source of cash | 18/30 |
+| Plausible investor proceeds | 12/30 |
+| Milestones and capital needed | 13/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 51/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Perit show that owning its live voice-evaluation operation is worth enough to a renewing lab to support a sale that clears the holder’s 5× target? A paid production renewal with buyer-validated gains over the best licensing or in-house option would support **Reach out** if those gains justify a price range that clears the proceeds hurdle under defensible ownership and debt assumptions. A renewal that establishes demand while leaving the ownership premium unmeasured keeps the action at **Watch**.
+Can a strategic buyer justify paying roughly $93.3 million or more in enterprise value under the modeled terms because owning Perit’s live-speech operation is more valuable than licensing its output? A buyer-validated comparison grounded in renewed lab contracts, transferable rights and measured operating benefits would move the action to Reach out if it supports that price. While those economics remain unverified, the action stays Watch.

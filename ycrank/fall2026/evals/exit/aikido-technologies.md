@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A marine infrastructure developer could buy Aikido to control its foldable floating platform and integrated wind-powered data center design. The potential benefit is earlier delivery of usable compute capacity where grid connections are delayed. Ownership could make sense if the platform delivers reliable capacity at a lower cost or on a faster schedule than building a competing design, licensing the platform, or buying capacity from Aikido. The memo provides no measured advantage or acquisition price range. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a data center developer seeking earlier access to powered capacity. Aikido designed AO60DC to combine more than 10 MW of IT load with on-platform wind generation, storage, backup power, and seawater cooling. A developer facing a multiyear grid wait could value owning the platform if it can deliver dependable capacity sooner at a competitive cost. That buyer benefit remains an inference. Aikido reports interest from prospective GPU renters, with pricing, payment, and customer commitments undisclosed. (The Idea, Market & Traction, Key Risks)
 
-The memo documents an Aikido-assigned patent on the floating wind platform and $1.72 million in equity sold. A company sale offers a plausible way to transfer control of the patent, with the rights and consents needed for commercial deployment still unverified. Aikido reports that the A1DC retrofit began and received final platform permits, and says prospective GPU renters are lined up. Their contract and payment status are undisclosed. The operating milestone is a sustained offshore A1DC run that measures uptime and delivered cost under IT load. The retrofit and permits make the test plausible, while its funding and the capital required for a certified 10+ MW commercial platform remain unclear. (Defensibility, Market & Traction, Key Risks, The Idea)
+A paid deployment at commercial scale that demonstrates uptime, delivery lead time, and fully loaded cost would give a buyer a basis for valuing the platform. Aikido reports that the A1DC retrofit began and received platform permits, with water deployment still planned in the memo. An equity filing records $1.72 million sold. These signals support progress toward a pilot. Full-scale certification is planned, and the capital needed for commercial deployment remains unknown. Aikido’s assigned floating-wind patent gives a buyer an identifiable asset to acquire. Buyer funding, permit transfer requirements, and holder participation remain open. (Market & Traction, Key Risks, Defensibility)
 
-**Illustrative holder proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3% ownership, assuming $5 million in net debt for the sale scenarios and simple pro rata distribution, the enterprise-value hurdle is $88.3 million. A $25 million sale in year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). The memo leaves actual ownership, debt, fees, and preference terms unquantified, and neither sale price has company-specific support. (Market & Traction, Key Facts)
+The proceeds benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, equivalent to about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative. Both assume an eligible holder sells their full stake for cash within eight years and participates pro rata after debt and deal adjustments, with zero further preference or escrow deductions.
 
-The financing disclosure leaves eligible secondary demand and sale terms unestablished. The memo also lacks evidence of cash generation to finance a sponsor buyout, operating scale and resale readiness for an IPO, or distributable cash and a policy for dividends or buybacks. If growth plateaus, buyers stay away, public scale stays out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Risks, Key Facts)
+| Scenario | Enterprise value to distributable equity | Gross cash to holder |
+|---|---|---|
+| Modest sale | $50M less $10M in assumed debt and deal adjustments = $40M | $1.2M (2.4×) |
+| Strong sale | $120M less $20M in assumed debt and deal adjustments = $100M | $3.0M (6.0×). Selling only 80% of the stake would yield $2.4M at closing. |
+| Prolonged private | Cash reinvested, with zero distributions or eligible share purchases | $0 realized |
+
+Capacity pricing is set by agreement and realized revenue is undisclosed. The memo leaves the illustrative sale values without a company-specific pricing anchor and provides no evidence of an independent liquidity route for this holder. (The Idea, Key Facts)
 
 ### Countercase
 
-Samsung Heavy Industries and its partners are developing their own floating data center. A prospective buyer could build competing capacity or contract for Aikido’s output while leaving wind variability, backup power, and vessel-dependent maintenance with the operator. Aikido’s reservation inquiries are nonbinding, and commercial-scale certification is still planned. These facts weaken the case for paying to own the platform. The Pass gate remains untriggered because the memo establishes neither a structural barrier to a sale nor a supported sale price that leaves the holder materially short. (Defensibility, The Idea, Key Risks)
+A developer could procure capacity as a customer or pursue a competing marine design, as the Samsung Heavy Industries, Capital Clean Energy Carriers, and Lloyd’s Register collaboration illustrates. Wind variability and vessel-dependent servicing could also erode the delivery advantage that would justify an acquisition premium. These risks weaken the case for paying enough to clear the hurdle. The memo establishes neither a structural closing barrier nor a credible price ceiling below the hurdle, so the Pass gate does not trigger. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a marine infrastructure buyer substantiate a purchase price that clears the holder’s cash hurdle within eight years using A1DC’s measured offshore uptime and delivered cost? Move from Watch to Reach out if buyer-backed pricing tied to those results supports at least $2.5 million in holder cash under credible dilution, debt, and preference assumptions.
+After a paid commercial-scale deployment, would a strategic developer’s documented build-versus-buy analysis support an acquisition price that could deliver at least $2.5 million in cash to the benchmark holder within eight years? A buyer-backed valuation range grounded in measured uptime, delivery lead time, and fully loaded cost, with a proceeds bridge that clears the hurdle under credible debt and waterfall assumptions, would move the action to Reach out.

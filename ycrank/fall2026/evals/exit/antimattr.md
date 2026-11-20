@@ -5,17 +5,23 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. An industrial workflow vendor could buy Mnemosyne for its voice-isolating earbuds and agent controls. The reported Geocarbonite integration gives the buyer rationale a concrete use case in hands-free factory troubleshooting. The potential economic benefit is less technician time lost to failed voice commands. antimattr reports below 5% word error versus 30% for AirPods in its own comparison. The memo gives no test protocol or measured productivity benefit. Ownership could make sense if exclusive control of the hardware and software creates more value than an integration or license. (The Idea, Market & Traction, Defensibility, Key Risks)
+The strongest path is a strategic acquisition by an industrial workflow platform seeking reliable voice control in noisy workplaces. The memo documents antimattr’s Geocarbonite IntelliPro integration for hands-free troubleshooting. That gives a potential buyer a concrete use case: if Mnemosyne reduces failed commands and technician time enough to make ownership more valuable than integration, the platform could have a reason to acquire it. Antimattr reports below 5% word error versus 30% on AirPods in its own comparison. The test protocol and production workflow savings are unknown. (The Idea, Market & Traction, Defensibility, Key Risks)
 
-The operating milestone is a paid factory rollout that reproduces the voice advantage and measures time saved. The company reports two enterprise pilots and a sold-out first shipment. Reported investment and grants support further testing, while pilot payment terms, production costs, and the capital needed to scale remain unknown. The memo also leaves ownership and transferability of the core IP and integration rights unverified. (Market & Traction, Defensibility, Key Risks)
+A paid production rollout that measures command reliability and technician time saved against the customer’s current setup would strengthen the case. The reported first shipment, two reported enterprise pilots and reported $500,000 YC investment support a path to that test. Pilot payment terms, rollout cost and the capital needed to scale production remain unknown. IP ownership and contract assignability are unverified. The memo provides no evidence of an independent liquidity route. (Market & Traction, Key Risks)
 
-**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. Using $5 million of illustrative net debt and simple pro rata allocation before investor taxes, an all-cash sale at $25 million enterprise value in year eight pays $600,000 (1.2×). A $100 million sale pays $2.85 million (5.7×). The target requires $83.3 million in distributable equity at 3%, or $125 million at 2% and $62.5 million at 4%. The memo supplies no buyer economics, transaction price, or shareholder terms to support a realizable range. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale scenarios assume a full cash acquisition within eight years, holder eligibility and pro rata distribution with no senior preference reducing the payout.
 
-If growth plateaus, buyers stay absent, public listing scale stays out of reach, and all available cash is reinvested for eight years, the holder realizes $0 and retains the shares. The memo supports no separate sponsor buyout cash flow, eligible secondary demand, IPO route, or funded payout. Any wind-down proceeds would depend on the residual after obligations and preferences, which the memo cannot quantify. (Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale | $40M enterprise value less $10M in assumed net debt and deal adjustments leaves $30M | $900K (1.8×) |
+| Strong sale | $100M enterprise value less the same $10M leaves $90M | $2.7M (5.4×) |
+| Prolonged private | Cash is reinvested, with no payout or eligible share sale within eight years | $0 |
+
+These are illustrative prices. The memo supplies no buyer economics or transaction prices to support a realizable range.
 
 ### Countercase
 
-Geocarbonite can already integrate the earbuds through a partnership. Apple offers call voice isolation, Subtle offers dictation earbuds, and Aina offers ring-based agent controls. A buyer could license antimattr’s technology or assemble a substitute. That weakens the reason to pay an acquisition premium. The memo establishes neither a structural block nor a credible sale price that leaves the holder materially short, so the Pass gate remains open. (The Idea, Defensibility)
+A platform could keep integrating third-party hardware and capture much of the benefit without acquiring antimattr. Subtle already combines voice isolation with dictation, and Aina offers ring-based agent controls. The company’s reported comparison leaves open whether Mnemosyne has an advantage over those alternatives in factory conditions. Refundable reservations also give limited evidence of demand at full price. This supports Watch while buyer economics are unresolved. The memo establishes neither a structural closing block nor a credible upper bound on proceeds that would trigger Pass. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -31,4 +37,4 @@ Geocarbonite can already integrate the earbuds through a partnership. Apple offe
 
 ### Decisive diligence question
 
-Can a paid factory rollout show enough buyer value to support an acquisition near the roughly $88 million enterprise-value hurdle in the 3% scenario? Independently measured time savings at deployment scale and a prospective buyer’s quantified case for owning the technology would move the action to Reach out if those economics support the hurdle.
+Would the measured savings from a paid factory rollout justify an acquisition that leaves at least $83.3 million in distributable equity? Customer-verified savings and a plausible buyer’s valuation of owning the product versus integrating an alternative would answer it. A supported price range that clears the hurdle would move the action to Reach out. If the strongest credible sale falls materially short, the action moves to Pass.

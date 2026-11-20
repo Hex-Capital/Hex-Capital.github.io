@@ -5,28 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Spine’s strongest path. An established benefits broker could pay for Spine’s startup commission book and the ability to service those accounts across existing HR systems. Ownership could give the buyer the economics of future renewals, provided customers and carrier relationships carry over. Spine says it serves 30+ startups and reduces customer healthcare costs by about 15% on average. Those claims suggest a reason for customers to stay. The buyer’s benefit still depends on how much commission revenue survives renewal and what it costs to service the accounts. (The Idea, Market & Traction)
+Spine’s strongest exit path is a strategic sale to an established benefits broker such as Bennie. Spine becomes the broker of record, earns carrier commissions, and handles payroll and compliance in customers’ existing systems. A buyer could acquire a startup distribution channel and the commission stream from customers who renew. Spine reports 30+ startup customers and about 15% average healthcare cost savings. Those claims suggest a reason customers might renew. The buyer rationale depends on how much commission income survives renewal after paying for the specialist work. (*The Idea*, *Market & Traction*)
 
-A full renewal cycle showing retained commission revenue and contribution after specialist labor would make the book easier to value. The memo reports a $3 million seed round and investor-reported commission revenue growth of about 4.4× over six months. These support a plausible path to the milestone. The starting revenue base, burn, and runway are unknown. The memo describes Spine’s broker-of-record model but leaves appointment transfer, HR system access, and employee-data permissions after a sale unverified. A sponsor buyout or company-funded payout lacks demonstrated cash generation after reinvestment. A secondary lacks evidence of demand for eligible shares, and an IPO lacks a supported path to scale and holder resale. (The Idea, Market & Traction, Key Risks)
+The memo records a $3 million seed round and reports approximately 4.4× commission revenue growth over six months. That gives Spine a plausible path to measuring retention and contribution margin over a renewal cycle. A whole-company sale could preserve the operating entity, with continuity of broker appointments, HR-system access, and access to customer data still to verify. (*Market & Traction*, *Key Risks*)
 
-**Illustrative proceeds.** With actual investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× target is $2.5 million in gross cash within eight years. At 3%, that requires about $83.3 million of distributable equity, versus $125 million at 2% and $62.5 million at 4%. With illustrative net debt of $5 million, the 3% hurdle is about $88.3 million in enterprise value. A $25 million sale in year eight yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), using simple pro rata allocation before investor taxes. Spine’s actual debt, fees, and senior claims are unknown. Neither sale price is supported by a realizable price range in the memo. If growth plateaus, buyers stay absent, public scale remains out of reach, and available cash goes back into operations, the holder realizes $0 over eight years and retains the shares. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, and no follow-ons. Receiving $2.5 million in cash within eight years requires about $83.3 million in distributable equity value. The sale scenarios assume $5 million in combined net debt and deal adjustments, pro rata distribution after the waterfall with no senior claims diverting proceeds, and eligibility to sell the full stake for cash at closing within eight years.
+
+| Scenario | Proceeds bridge | Holder cash |
+|---|---|---:|
+| Modest sale | $40M enterprise value less $5M gives $35M in distributable equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $5M gives $95M in distributable equity | $2.85M (5.7×) |
+| Prolonged private | Operating cash is reinvested through year eight | $0 |
+
+The prices are illustrative. At 2.5% ownership, the strong sale yields $2.375 million and misses the objective. The memo gives no absolute commission revenue, buyer pricing evidence, or independent route that could pay this holder. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Bennie already combines brokerage with benefits administration technology, and Rippling already sells HR and compliance support. A buyer could build or partner for similar services, especially if Spine’s specialists absorb much of the commission revenue or customers must reappoint the broker after a sale. The existing offerings are documented in the memo. The margin and transfer risks remain inferences, so they do not trigger the Pass gate. (Defensibility, The Idea, Key Risks)
+Bennie already combines brokerage with benefits administration technology, and Rippling already sells HR and compliance support. A buyer could build similar services and decline to pay a premium for Spine’s book. Lost broker appointments or tighter platform permissions could further erode its value. The Pass gate is untriggered because the evidence leaves the severity of those risks and the attainable sale price unresolved. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 14/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-What price could a strategic buyer justify for Spine’s commission book after a full renewal cycle? Buyer underwriting that uses actual retained commissions, specialist servicing costs, and checked transfer terms would answer it. Reach out if that underwriting supports at least $2.5 million in holder cash within eight years under defensible ownership and deal terms. Pass if it establishes a transfer barrier or materially inadequate proceeds even under the strongest supported sale case. Otherwise, Watch.
+What cash price would an established broker underwrite for Spine’s commission book after its next renewal cycle? Cohort retention, retained commissions, and fully loaded servicing costs would let a buyer price the book. Move to Reach out if buyer feedback supports a credible path to at least $83.3 million in distributable equity within eight years under the benchmark terms. Pass if the strongest credible price range leaves holder proceeds materially short.

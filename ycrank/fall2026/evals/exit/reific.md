@@ -5,30 +5,28 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An AI training provider such as Mercor could pay to own Reific’s library of timed operating records, its replay and grading software, and any rights to refresh the underlying data. The memo records Mercor’s acquisition of Deeptune for enterprise software simulations. That shows a buyer has acquired an adjacent capability. The reason to own Reific would be recurring access to transferable records that the buyer would struggle to assemble through licensing or internal development. That advantage remains an inference. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by an AI training or simulation platform such as Mercor. The memo records Mercor’s acquisition of Deeptune for enterprise software simulations. Reific could give a buyer a complementary capability through clocked replay of real operating records and grading against what happened. Reific reports that one open model’s full-solve rate on unseen tasks rose from 25.6% to 39.5%. That result gives a buyer a reason to test the product. The case for ownership depends on whether the gain replicates in the buyer’s workflow and whether ownership secures ongoing access to records the buyer would struggle to source itself. (The Idea, Defensibility, Market & Traction)
 
-Reific reports that training lifted one open model’s full-solve rate on unseen tasks from 25.6% to 39.5%. Its updated leaderboard is the more direct evidence of current benchmark difficulty and puts the industry leader at 60.2%, above the launch claim that every family was below 50%. The leaderboard measures performance inside Reific’s environments. A buyer-funded test that reproduces the training gain on independently held-out records against the buyer’s existing approach would strengthen the acquisition case. The launched product makes that test plausible, while the reported $125,000 seed funding gives little basis to assess runway or the cost of securing and refreshing production data. (Market & Traction, Key Risks)
+A paid buyer pilot that measures lift against the buyer’s own baseline is a plausible seed milestone. Reific has launched and reported an initial training result, and the memo lists a reported $125,000 seed investment. Pilot cost, runway, and time to completion remain unknown. A company sale is a plausible structure, with continued use of the records dependent on license terms, any required consents, and privacy controls. The memo supplies no evidence of a separate liquidity route for a Reific holder. (Market & Traction, Key Risks, Key Facts)
 
-Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× cash target is $2.5 million before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Using $5 million of illustrative net debt and assuming no additional fees or senior claims, a $25 million sale in year eight yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million (5.7×). The 3% case needs roughly $88.3 million of enterprise value on those assumptions. The memo supplies no acquisition price, quantified buyer economics, or Reific shareholder terms to support a realizable price range. Supplier intake and written licensing agreements also leave change-of-control rights unverified. (Market & Traction, Key Facts, Key Risks)
-
-The memo gives no operating basis for a sponsor buyout or IPO and no evidence of Reific shareholder demand or funded payouts. If environment licensing plateaus, buyers stay away, public scale remains out of reach, and Reific reinvests available cash in data and product development, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only from any residual after obligations and preferences, which the memo gives no basis to estimate. (The Idea, Market & Traction, Key Facts)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3%, with no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return, which requires about $83.3 million in distributable equity value. For illustration, assume a full cash sale within eight years, an eligible holder selling its entire stake, zero net debt and deal adjustments, and no senior claims diverting proceeds from the pro rata waterfall. A **modest sale** at $30 million enterprise value yields $900,000 to the holder, or 1.8×. A **strong sale** at $100 million yields $3 million, or 6×, with about $16.7 million of room for net debt and deal adjustments before missing the hurdle. In the **prolonged-private case**, continued operation with cash reinvested and no eligible share sale yields zero realized proceeds. The sale prices are scenario assumptions. The memo gives no Reific revenue, bid, or adjacent deal price to support a realizable range. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer with its own operating records could use open tooling or HUD’s SDK. A buyer that values Reific’s environments could license them directly. The supplier intake asks about exclusivity, and Reific reports that a test model reconstructed personal details from de-identified records. The acquisition premium therefore depends on securing a repeatable supply of records that can be transferred and used safely. These risks support Watch. The evidence falls short of the Pass gate because the memo establishes neither a structural transfer block nor a supported sale price that leaves the holder materially short. (The Idea, Defensibility, Key Risks)
+A buyer could license Reific’s environments or use its own records with open tooling. The supplier intake asks about exclusivity, leaving exclusive access unverified. Reific also reports that a test model reconstructed personal details from de-identified records, prompting additional release checks. Together, these facts weaken the case for paying an acquisition premium and leave uncertainty about which records a buyer could keep using after closing. Neither Pass gate is triggered on the available evidence. A structural block and materially inadequate proceeds both remain unproven. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 19/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Would a strategic buyer’s production test show enough incremental value from owning Reific’s record library to clear the holder’s cash hurdle? A buyer-funded test that reproduces the gain over its existing approach on independently held-out records, with verified transfer rights and a costed acquisition case supporting at least $83.3 million of distributable equity within eight years at 3% ownership, would move the action to Reach out.
+Would owning Reific’s clocked environments and continuing record access create enough value for a strategic buyer to support a sale that clears the holder’s proceeds hurdle? Move to **Reach out** if a paid buyer pilot reproduces the lift against the buyer’s own baseline and the buyer’s build-versus-buy economics support a price that would leave at least $83.3 million in distributable equity under the benchmark terms.

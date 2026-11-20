@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper frontier intelligence drives more GPU workloads, Nodus could turn idle hours on compatible GPUs into usable capacity. Fleet owners would earn revenue from hours they already pay for, while borrowers could get checkpointable jobs done when comparable capacity is hard to secure. The memo reports 5% average GPU utilization in sampled Kubernetes clusters. That measures idle time in those clusters. Whether those hours match borrowers’ hardware, timing, and reliability requirements remains open. Nodus’s owner-first routing and lending design addresses that mismatch, with pooling tested on a single node using synthetic tenants and replayed traffic. That supports a seed-stage production trial. Confidence stays Low because the evidence on dependable supply and buyer commitments is indirect. (The Idea, Key Risks, Market & Traction)
+The strongest path is a **scarce complement** in dependable GPU time for checkpointable AI workloads. Nodus’s owner-first routing could turn idle hours across fleets into usable capacity for other teams. The memo cites 5% average utilization in one sample of Kubernetes clusters, which supports the existence of idle supply. Nodus’s pooling test used synthetic tenants and replayed traffic on a single node, leaving open how much compatible capacity borrowers could reliably access in production. (The Idea, Key Risks)
 
-The rollout unit is a fleet pool that can serve recurring borrower jobs. Nodus lists H100 SXM capacity at $2.60 per hour. In a scenario where borrowers pay that rate, contribution depends on billable hours collected per successful job after supplier payouts and the costs of retries, replacement capacity, and support. The memo gives no realized inputs for that calculation. (The Idea, Key Risks)
+Nodus reports a verifier reproduced a 7.65× cold-start speedup from snapshot restoration on one A100. That demonstrates a narrow operating advantage, while durable access to third-party capacity remains unproven. The founders report that more than 200 teams joined after launch and list several users. The memo provides no evidence of repeat paid borrowing. For a two-person seed team, the launched CLI and SDK and the founders’ infrastructure experience support execution capacity. Multi-fleet delivery remains the next test. (Defensibility, Market & Traction, The Idea, Founders & Team)
+
+In an owner-financed expansion scenario, the unit is one successfully completed borrowed job. Contribution is billed GPU time less host payouts, including any payable time lost to preemption, and incremental recovery and support costs. Published hourly rates provide a revenue reference. The memo leaves host payouts, billable utilization, and retry costs unquantified. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Nodus could end up selling interchangeable orchestration over capacity that fleet owners control. Owners can reclaim lent hosts, borrowers can wait when replacements are unavailable, and host access to job data rules out some workloads. SkyPilot and Cast AI already offer parts of the orchestration stack, and the memo reports improving availability of lower-end spot GPUs. These are concrete limits on which jobs Nodus can serve and how much control it can exercise. Comparable alternatives for the same hardware, completion reliability, and price remain untested, so Path A stays open at Watch. (Defensibility, Market & Traction, Key Risks)
+Nodus may be bundling features that buyers can source separately. SkyPilot and Cast AI already cover parts of pooling and scheduling, lower-end spot supply was reported to be improving, and owners can recall lent hosts. Community hosts can inspect job data, further narrowing eligible workloads. These facts make substitution credible, but buyer switching and equivalent job completion remain untested, so the scarce-complement path stays open on Watch. The New Economies path lacks evidence of a labor-cost change that brings in previously excluded buyers and gives them a reason to keep paying Nodus under model parity. (Defensibility, Market & Traction, Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
+| Path-specific thesis fit | 13/25 |
+| Durable value capture | 9/25 |
+| Customer demand | 6/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
-
-The company-reported 200-plus signups and named users show early interest, with buyer spending and repeat use still unknown. The founders’ infrastructure experience and the reported reproduction of a 7.65× cold-start speedup on one A100 support execution credit. That benchmark tested snapshot restoration, a narrower task than delivering jobs through host reclaims. (Market & Traction, Founders & Team, Defensibility, Key Risks)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can Nodus reliably complete recurring paid jobs for an independent buyer whose best available alternative falls short? A repeat paid production deployment would move the action to Reach out if fleet partners commit enough compatible replacement capacity to meet the buyer’s completion requirements through actual reclaims, at positive contribution per completed job. A credible substitute that meets the same requirements at comparable cost would close the evidenced path and move the action to Pass.
+Can Nodus use committed capacity from multiple independent fleet owners to win repeat paid jobs from independent buyers at positive contribution and a lower cost per completed job than comparable spot capacity? A production cohort that clears that bar after host recalls and retries would change the action to **Reach out**. If comparable spot capacity consistently matches completion cost and reliability and buyers switch readily, change the action to **Pass**.

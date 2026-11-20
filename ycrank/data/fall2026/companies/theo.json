@@ -25,21 +25,21 @@
       "tier": "Pass"
     },
     "hypergrowth": {
-      "score": 45,
+      "score": 63,
       "tier": "Neutral"
     },
     "exit": {
-      "score": 36,
+      "score": 40,
       "tier": "Pass"
     }
   },
   "consolidatedScores": {
     "AGI": 43,
-    "HG": 45,
-    "EXIT": 36
+    "HG": 63,
+    "EXIT": 40
   },
-  "consolidatedAvg": 41.33,
-  "consolidatedRank": 83,
+  "consolidatedAvg": 48.67,
+  "consolidatedRank": 51,
   "traction": {
     "tractionRank": 79,
     "tractionScore": 55,

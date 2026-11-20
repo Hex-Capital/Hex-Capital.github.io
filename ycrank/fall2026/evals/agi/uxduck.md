@@ -1,17 +1,17 @@
 ﻿# UXDuck -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Path B — New Economies is the strongest path. Custom-drone teams currently repeat sensor integration, testing, and flight-data review across vehicles, according to the founder. UXDuck combines simulation, vehicle configuration, and flight replay with AI assistance. The market-opening hypothesis is that small teams could afford to run a full validation cycle after each hardware or firmware change, including changes for which they previously skipped or deferred testing. At seed, the relevant comparison is labor and full cost per successfully validated change, including engineering review, retries, and safety exceptions. A customer reported flying a custom-imported aircraft within five minutes of download. That observation supports fast setup, while the cost and cadence of full validation remain unmeasured. (The Idea; Market & Traction)
+The strongest path is **New Economies**. UXDuck combines simulation, vehicle configuration, and flight review in one ground station with AI assistance. The former delivery cost is the engineering time spent integrating sensors, testing configurations, and reviewing flight data across vehicles. The market-opening hypothesis is that lowering the fully loaded cost per validated vehicle integration would let small commercial drone teams take on projects they currently defer. A CTO reported flying a custom-imported aircraft within five minutes of download and using UXDuck for demos and flying. UXDuck reports more than 500 simulated flight hours outside testing and development. Those signals support usability and early demand while leaving comparative labor savings, the AI contribution, and paid demand from previously excluded teams unverified. (*The Idea*, *Market & Traction*)
 
-The same customer separately described using UXDuck for team demos and flying, an early demand signal with payment and repeat validation still unverified. Butterworth’s prior drone software and hardware integration work and the documented fix for a PX4 flight regression support execution credit. Scale economics receives the absent-evidence default. Business pricing is by inquiry, and the memo gives no realized price or delivery cost per commercial team. (Market & Traction; Founders & Team; Key Risks; The Idea)
+At seed, the shipped product, Butterworth’s prior drone software and hardware integration work, and a documented fix for a flight-control regression support execution. A plausible expansion unit is a paying engineering team adding vehicle configurations. Browser and desktop self-service could limit onboarding labor, but contribution depends on what teams pay relative to inference, firmware support, and human troubleshooting. The memo gives quote-based commercial pricing and leaves those costs unmeasured. (*Founders & Team*, *Key Risks*, *The Idea*)
 
 ### Countercase
 
-UXDuck may make existing ground-station work faster without making a previously skipped validation cycle economical. Under the scenario assumption that incumbent tools gain equivalent AI and workflow capabilities, buyers could keep using Mission Planner or QGroundControl alongside UXDuck or extend the Apache-licensed core with existing MAVLink tooling. Saved configurations and vehicle change histories could give teams a reason to keep paying if they become engineering records, but the memo contains no evidence of retention or migration costs. Both Path B conditions remain open. The overlap makes substitution credible, while the memo records no buyer switching under functional parity. (The Idea; Defensibility; Market & Traction; Key Risks)
+UXDuck may make an existing engineering workflow faster while leaving buyers free to use Mission Planner or QGroundControl alongside it. The Apache-licensed core and existing MAVLink tooling give competitors a route to reproduce baseline functions. Saved configurations and vehicle histories could create a reason to stay, but the memo provides no evidence of retention at functional parity or of network effects. That leaves both New Economies gates open for testing. The memo shows overlap with incumbents while leaving full-workflow substitution and buyer switching untested. It identifies no independently supported scarce complement. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -19,12 +19,12 @@ UXDuck may make existing ground-station work faster without making a previously 
 |-----------|-------|
 | Path-specific thesis fit | 9/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 9/15 |
-| Scale economics | 4/15 |
+| Customer demand | 8/20 |
+| Team and execution | 10/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent small drone team that previously skipped per-change validation on cost grounds pay to repeat it with UXDuck when offered a functionally equivalent alternative using the same quality of AI? A side-by-side pilot should measure all-in cost per successfully validated change against the old workflow and record which tool the team pays to use for the next cycle. A credible cost reduction that enables the new cadence, followed by a paid repeat with UXDuck under parity, would move the action to Reach out. A representative result showing that review and retries erase the savings or that the team readily switches under parity would move it to Pass.
+Will an independent commercial team that previously deferred an integration on cost grounds pay for a second one with UXDuck when its incumbent workflow has access to equally capable models? Compare fully loaded costs for a validated integration, including failed attempts, human review, and support. A material cost reduction followed by a repeat order at a price that covers incremental delivery would move the action to **Reach out**. Evidence that the incumbent already makes the work viable at comparable cost and that the buyer switches readily would move it to **Pass**.

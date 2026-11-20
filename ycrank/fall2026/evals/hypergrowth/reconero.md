@@ -5,26 +5,28 @@
 
 ### Company case
 
-The strongest path is **repeatable direct sales** to police departments. Patrol officers have a recurring job: turning incident footage and records into reports for review and signature. Reconero says its product pulls from existing records and dispatch systems, drafts narratives linked to footage, and fills agency forms. If officers use it routinely and departments see value after officer review, a rollout that reuses integrations and form mappings across agencies could support repeatable sales. The reporting job plausibly travels across jurisdictions, but the effort to adapt to different systems, forms, and disclosure rules is unmeasured. (The Idea, Key Risks)
+Assuming strong fit with the first police departments, Reconero’s strongest path is to sell footage-linked report drafting as a repeatable agency subscription. The memo documents a demo path using sample data or agency exports. Reconero says it can find timestamped events across several video sources, draft narratives linked to the footage, and let officers review and sign them. The portability scenario assumes agencies in other jurisdictions can use that same drafting workflow with their existing reporting systems and configure it for local requirements. Reconero’s advertised audit logging and open-format export make that scenario plausible, with production transfer still unproven. (The Idea, Key Risks)
 
-The memo documents an October 30 public launch and a route from introductions to agency demos using sample data or an agency export. The founders report consulting more than 100 officers and receiving feedback from several U.S. police units that tested the earlier ReconeroRMS beta. At this stage, a buyer-funded test could establish meaningful commitment. The memo establishes no such commitment for the launched product and gives no usable evidence of repeat use or rollout cost. Even assuming strong fit, the first unresolved link is whether an agency demo can become a paid deployment through a process the next agency can follow. (The Idea, Market & Traction, Key Facts)
+Founder introductions and demos give Reconero a reusable sales motion, with human involvement at the documented entry point and no demonstrated self-serve path to paid use. Daily reporting and embedded workflows could support renewals, but the subscription is inferred and the memo gives no pricing mechanism for expansion within an agency. The two-person team launched the current product on October 30, 2026. Reconero reported consulting more than 100 officers, and a founder described testing an earlier beta with several U.S. police units. The memo leaves current paid usage and pre-revenue status unknown, so initial traction receives the default. (The Idea, Defensibility, Market & Traction, Key Facts)
+
+Under the subscription scenario, incremental contribution per agency would be the fee minus attributable sales and setup labor, video processing and storage, and ongoing support. Reusing export setup and audit controls could reduce labor per rollout. The memo provides too little evidence on fees, workloads, or labor to estimate contribution, so cost economics receives the default. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Departments already buying Axon Evidence can obtain bundled drafting. Reconero’s footage-linked drafts and form completion could give departments a reason to buy separately, but a trial of a competing drafting tool found no speed improvement, and Reconero has disclosed no measured time savings after officer review. If those benefits are small and each agency requires custom integration and compliance work, selling and delivery effort could rise in proportion to revenue. The memo establishes neither that cost pattern nor a need to rebuild the product across markets, so the structural downside gate remains untriggered. (The Idea, Defensibility, Key Risks)
+Even footage-linked drafting may require bespoke work wherever it enters an official reporting workflow. The full product reads agency records and dispatch systems, maps department forms, and answers questions using department policy and state law. California’s disclosure, first-draft retention, and audit requirements show how local rules can reach the drafting workflow itself. The structural downside gate remains open because the memo leaves a plausible export-based path for the core workflow. Whether that path actually avoids market-specific rebuilding is the decisive uncertainty. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 11/25 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 9/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independently sourced departments go from an agency-data demo to paid use in routine patrol reporting through the same rollout process? Two buyer-funded go-lives with documented setup hours and evidence that the second department reused the integration and form setup with bounded changes would move Reconero to **Reach out**.
+Can a paying agency in a second jurisdiction put footage-linked drafting into production on the same product with bounded configuration? A live rollout with a record of integration work, staff hours, and how local reporting requirements were met would answer it. Configuration-only transfer would support keeping Reconero on Watch and rescoring. If the core workflow requires bespoke rebuilding to meet local requirements, move to Pass.

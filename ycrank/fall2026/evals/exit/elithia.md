@@ -5,34 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Elithia’s strongest path. A legal or claims software platform could buy its editable, source-linked chronology workflow to add physician review and sign-off. Ownership could make sense if integrating that workflow and gaining access to medico-legal agencies generated more incremental profit than building or licensing comparable features. The memo describes the workflow and identifies platforms that already sell medical review. The acquisition rationale is an inference, with no buyer-side evidence of incremental profit or willingness to pay. (The Idea, Defensibility, Market & Traction)
+Elithia’s strongest exit path is a strategic sale to a legal workflow platform such as EvenUp. Elithia’s product is designed to let physician experts edit source-linked chronologies and sign off on them. A buyer that already bundles medical review with plaintiff demand drafting could use that workflow to serve expert reviewers in serious injury cases. That is an inferred buyer rationale. The only reported time-saving example comes from the founder, who says his mother’s report went from nearly a week to about two days. The memo contains no independent measurement of that benefit. (The Idea, Market & Traction)
 
-Elithia reports 70+ physician experts using the product on live cases and two agencies under contract. That gives it a plausible path to a measurable milestone at seed. Both agencies would need to show repeat paid use, with reviewer hours saved per case and material omissions tracked against their existing workflow. The founder reports that one expert’s turnaround fell from nearly a week to about two days. That example comes from his mother’s practice, and the memo provides no independent replication, paid contract economics, or confirmed runway to reach the milestone. (Market & Traction, Key Facts)
+The company reports 70+ physician experts using Elithia on live cases and two medico-legal agencies under contract. Those deployments give Elithia a place to test whether repeat paid use delivers independently measured time savings while maintaining accuracy. The memo leaves paid volume, runway, and the capital needed to expand those deployments unresolved. (Market & Traction, Key Facts, Key Risks)
 
-**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% relative to 3%, and no follow-ons. The $2.5 million gross cash target within eight years requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. The memo supplies no company-specific debt, preference terms, or evidence supporting a realizable sale price. (Market & Traction, Key Facts)
+**Proceeds bridge.** The memo supplies no deal price or holder terms. The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale cases below assume $5 million in combined net debt and deal deductions, no priority payouts after preference conversion, and an eligible holder selling the full stake for cash by year eight. The prices and deductions are illustrative assumptions.
 
-- **Modest sale by year eight.** A $25 million enterprise value leaves $20 million after illustrative net debt, yielding $600,000 gross to the holder, or 1.2×.
-- **Strong sale by year eight.** A $100 million enterprise value leaves $95 million after illustrative net debt, yielding $2.85 million gross, or 5.7×.
-- **Prolonged private operation.** If agency growth plateaus, potential buyers stick with existing tools, public-market scale remains out of reach, and Elithia reinvests available cash, the holder realizes $0 over eight years and keeps the shares.
+| Scenario | Proceeds bridge | Holder cash |
+|-----------|-----------------|-------------|
+| Modest sale | $40M enterprise value − $5M = $35M distributable equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value − $5M = $95M distributable equity | $2.85M (5.7×) |
+| Prolonged private | Continued operation and reinvestment through year eight | $0 realized |
 
-The memo supplies no predictable cash generation for a sponsor buyout, eligible demand for a secondary, operating scale for an IPO, or surplus cash for dividends or buybacks. (Market & Traction, Key Facts)
+If only 80% of the holder’s stake sells for cash within eight years at the strong-case price, realized proceeds fall to $2.28 million. Elithia’s undisclosed revenue and the absence of buyer pricing leave the strong case unsubstantiated. The memo also supplies no evidence of an independent route to cash. (Market & Traction, Key Facts)
 
 ### Countercase
 
-EvenUp already bundles medical review, and Medrecords AI and Wisedocs already offer source-linked chronologies. Medrecords AI also serves physician reviewers. A platform could extend its own workflow or license a substitute if Elithia’s expert sign-off produces little incremental value. The memo also leaves open which entity controls the software and agency contracts, and what permissions would apply to customer records in a sale. Those gaps could affect closing. The evidence supports Watch because it establishes neither a structural block nor a credible sale price that leaves the holder materially short. (The Idea, Defensibility, Market & Traction, Key Risks)
+EvenUp already offers chronologies, and Medrecords AI already serves physician reviewers, so a buyer could build or source much of the workflow. The memo identifies no structural barrier to copying it. An equity sale is plausible in principle, but the memo leaves open which entity owns the IP and holds the customer contracts, whether consents would be needed, and what U.S. health-data agreement terms apply. The evidence establishes neither a structural closing block nor a credible price ceiling below the proceeds hurdle. The unresolved question of buyer value supports Watch. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-After both contracted agencies demonstrate repeat paid use, measurable reviewer time savings, and acceptable material-omission rates, can a plausible platform buyer justify an acquisition price that clears the holder’s cash hurdle? A buyer-side acquisition analysis that quantifies the advantage of ownership over building or licensing and supports roughly $88.3 million in enterprise value under the illustrative terms would move the action to Reach out.
+What acquisition price could a strategic buyer justify for Elithia’s physician-review workflow based on independently verified results from its agency deployments? A buyer-validated valuation range grounded in repeat paid use, measured time savings, and maintained review accuracy would move the action to Reach out if it supports at least $2.5 million in holder cash within eight years after realistic deal deductions and priority payouts. A supported ceiling materially below that hurdle would trigger Pass.

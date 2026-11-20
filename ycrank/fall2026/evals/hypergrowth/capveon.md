@@ -5,26 +5,28 @@
 
 ### Company case
 
-Repeatable direct sales is Capveon’s strongest path. The first buyer to test is a water and wastewater equipment supplier whose sales team repeatedly screens public projects and checks whether its products meet the specifications. Capveon offers territory-specific demos, free bid reviews, and a free WEFTEC meeting planner. The proposed sales motion is to show a supplier a relevant opportunity, demonstrate value on a live bid with page-cited specification checks, and convert that workflow to a paid account. The memo documents the offers and the October launch. Conversion through that route remains unverified. (The Idea, Market & Traction)
+Assuming strong fit with infrastructure equipment suppliers, Capveon’s strongest growth path is to reuse its tender monitoring and specification review across markets. Sellers repeatedly need to find projects early and check whether their equipment fits the bid. Capveon reports national tender coverage in 14 countries and linked records across more than 185,000 U.S. and Canadian agencies. That supports reuse of tender intake and indexing. How much local work the full workflow needs, including early project discovery and page-cited specification review, remains uncertain. (The Idea, Defensibility, Market & Traction)
 
-Capveon reports linked agency records in the U.S. and Canada and national tender coverage in 14 countries. The same specification-review workflow could travel if local feeds and procurement terminology can be adapted while reusing the core product. Coverage supports that possibility, while buyer adoption across markets remains unverified. The company also reported paying customers for its earlier workflow-handoff offering. Buyer commitment to the current bid workflow and repeat paid use across bid cycles remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+The free trade-show planner and bid reviews give Capveon concrete ways to reach suppliers. The seven-day trial gives prospects a way to try the product, while territory demos and quote-based plans suggest a sales-assisted path to payment. Ongoing project monitoring gives customers a reason to return. Quotes scoped by market, product and AI usage give Capveon a plausible way to monetize expansion, though billing cadence and repeat paid use are unknown. The October debut establishes a public launch date. Current-product paid adoption and growth are unknown, so initial traction uses the 7-point default. (The Idea, Market & Traction, Key Facts)
+
+Incremental contribution would be the next account’s plan revenue less attributable sales and onboarding effort, document processing and inference, feed maintenance, and support. Sharing indexed records across suppliers could spread ingestion costs, and usage-sensitive quotes could help recover heavier processing costs. The memo leaves the size and direction of contribution uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Even assuming strong fit, the first link likely to break is repeatable paid onboarding. A free review could win interest while masking how much work Capveon must do to map each supplier’s equipment capabilities, check local source coverage, and validate bid interpretations. A delayed feed could erase the lead time the supplier would pay for, and a missed addendum could make the review unreliable. The memo gives no account-level onboarding or marginal cost measurements. At this stage, a small paid rollout with measured effort could test the risk. The structural downside gate does not apply because proportional delivery costs remain a hypothesis. (The Idea, Key Risks)
+Capveon may be able to add tender feeds faster than it can deliver reliable bid decisions in each market. Incomplete feeds can erase the lead time sellers value, and missed addenda or misread specifications can send them after ineligible bids. If each market needs extensive source work and each buyer needs founder-led setup or ongoing review, those costs could rise alongside revenue. The structural downside gate stays open because the memo establishes neither the extent of local rebuilding nor that intensive per-buyer work is unavoidable. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independent water and wastewater equipment suppliers acquired through the same trade-show channel convert from a free review to paid use on a live bid through the same documented onboarding process? Move to Reach out if both pay and complete a live bid review with measured, comparable setup effort and reusable configuration. If successive paid rollouts require bespoke founder work proportional to account revenue and show no credible route to reuse, move to Pass.
+Can a cohort of equipment suppliers in one of the newly covered tender markets discover Capveon, pay, and repeatedly use its existing specification-review workflow with minimal staff help? A cohort showing independent activation, repeat paid use, bounded local adaptation, and positive contribution after onboarding and servicing costs would move the action to Reach out.

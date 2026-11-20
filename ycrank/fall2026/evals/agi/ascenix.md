@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Senior care staff reconstruct fall incidents from EHR notes and spreadsheets and track follow-ups across separate tools. The market-opening hypothesis is that homes with too little staff time to review every fall could afford to complete and document a review for every incident. Responsive Health Management reported deploying Ascenix across all its homes, spending 80% less time on manual fall analysis, and seeing 15% fewer non-compliance incidents over three months. That customer account supports the labor-saving mechanism at seed. Whether the savings made a previously unaffordable review cadence viable remains unknown. Ascenix separately reports 55 live facilities, with paid and repeat use unverified. (The Idea, Market & Traction)
+Ascenix’s strongest path is **New Economies**. Senior-care staff reconstruct incidents from EHR notes and spreadsheets. Ascenix uses read-only EHR connectors and facility-specific rules to draft reports and route follow-ups. Responsive Health Management reported 80% less time spent on manual fall analysis and zero missed fall follow-up findings at one home’s inspection. Assuming comparable case volume and follow-up quality, the time saving would reduce the manual-analysis labor cost per successfully reviewed fall to about one-fifth of its former level. The memo gives neither baseline hours nor the all-in cost per review. One plausible newly viable use is routine review of every fall at homes where staff time previously made that impractical. The memo does not establish that any home began doing this because of Ascenix. (The Idea, Market & Traction)
 
-If the reported time savings hold at comparable review quality, a former hour of manual analysis would take about 12 minutes. The full cost per completed review also depends on software fees and any work outside that measurement, including checking flagged notes, handling scanned charts, and validating workflows against local policy. Each facility is a plausible unit of expansion, with reusable components that could reduce setup work. The memo gives no realized pricing, setup hours, or ongoing support costs. The founders built their first workflow around a care director’s falls spreadsheet after moving into a retirement residence, giving them hands-on experience with the workflow they need to make repeatable. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Responsive’s rollout across all its homes shows commitment from one operator. Ascenix reports 55 live facilities, with payment and renewal terms unverified. The founders built their first workflow around a care director’s falls spreadsheet, piloted an earlier fall-detection product with 10 residents, and shipped the current software. That track record supports seed-stage execution. Repeat deployment economics remain open. Reusable components could spread setup costs across homes, but the monthly platform fee must cover facility-specific configuration, support, and model processing. Local policy validation and manual handling of unreadable records also affect the buyer’s cost per completed review. (Founders & Team, Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-Ascenix may improve an existing workflow while leaving the same homes able to afford the same review cadence. With equivalent models available, buyers might still pay Ascenix for validated local rules and follow-up routing across EHRs. Its reported vetted PointClickCare integration gives that case some weight, though PointClickCare controls access and offers native incident management. Guardoc already automates chart compliance checks. The memo has no direct comparison showing that buyers prefer Ascenix at functional parity or that a substitute delivers the full outcome. Both Path B conditions remain open to a concrete test, supporting Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest countercase is that Ascenix saves time within an existing compliance workflow and loses its edge once competing products can produce comparable results. PointClickCare already offers native incident management and controls Ascenix’s access to its live records. Guardoc already automates chart checks. Ascenix’s cross-EHR integrations and local policy configuration could give buyers a reason to stay, but the memo shows no preference under functional parity or network effect. The evidence supports neither an independently defensible scarce complement nor observed switching to equivalent alternatives. Market opening and willingness to pay under model parity therefore remain unproven, which supports Watch. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
+| Path-specific thesis fit | 14/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 12/20 |
-| Team and execution | 9/15 |
+| Customer demand | 11/20 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 48/100** (Neutral)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent operator whose homes previously lacked the staff time to review every fall renew at a price that supports viable delivery after comparing Ascenix with an equally capable model paired with its existing tools? Move to Reach out if the trial shows that full review coverage is affordable after counting setup, review, and exceptions, and that the buyer pays to keep Ascenix because its workflow delivers an advantage the substitute cannot match. A representative trial that disproves either condition would close Path B and move the action to Pass.
+Will an independent operator renew at a viable price for routine fall reviews it previously could not afford, when an alternative offers comparable review accuracy? A paid deployment could answer this by comparing prior review coverage and all-in cost per completed, policy-compliant review, then documenting the operator’s renewal choice. Newly affordable coverage and a paid renewal over the comparable alternative would move the action to Reach out. A finding that the service only speeds up reviews the operator already performed, or that the operator switches readily at parity, would move it to Pass.

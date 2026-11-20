@@ -5,26 +5,28 @@
 
 ### Company case
 
-The strongest path is **channel-led or repeatable sales** through private equity sponsors. Biomes solicits inquiries from investment firms and describes embedding engineers with operating teams to automate recurring manual workflows in their existing tools. If the first deployment proves valuable, the sponsor could introduce Biomes to another portfolio company, where Biomes could reuse agent logic and tests built from real-task failures. The buyer and job plausibly travel across markets, with legacy-system integration still unresolved. (The Idea, Defensibility, Key Risks)
+Assuming strong fit with an initial investment firm, Biomes’ strongest path is to win one workflow through a sponsor and reuse the agent and its failure tests across portfolio companies. The memo records an open inquiry channel for sponsors. Biomes describes embedding engineers with operating teams and adapting deployments for new acquisitions. If the agent and tests transfer, one sponsor relationship could bring in multiple deployments with progressively less engineering work. Cross-company reuse remains unverified. (The Idea, Defensibility)
 
-The memo records an open forward-deployed engineering role. It describes an intended sales and delivery process, with buyer commitment, paid activation, repeat production use, and rollout effort still unverified. At this stage, a buyer-funded test followed by a measured second deployment could establish a credible growth path. (Market & Traction, The Idea, Key Facts)
+Agents embedded in routine work give operating teams a reason to keep using them. Each portfolio rollout could expand sponsor spending if Biomes charges for additional deployments or ongoing usage. Both are pricing scenarios. The memo infers possible implementation fees and provides no current pricing, recurring billing, or paid deployment figures. The reported launch attention relates to Cardinal Square, the prior product. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-The sponsor may make introductions easier while each portfolio company still requires fresh workflow discovery, custom integrations, and ongoing engineering support. Biomes’ stated plan to embed engineers, together with the memo’s identified differences in systems and data formats across acquisitions, makes deployment effort the first likely bottleneck even if the initial buyer sees strong value. The structural downside gate does not trigger because the memo leaves both the incremental cost of rollout and the potential savings from reuse unmeasured. (The Idea, Key Risks, Defensibility)
+A sponsor can introduce Biomes to more companies, but the described path to first value involves engineers observing each team’s workflow and integrating with its tools and data. Comparable buyers abroad could have the same need while still requiring substantial customer-specific delivery. The advertised engineering role lists $400,000 per year plus equity. Under a per-deployment fee scenario, incremental contribution would be the fee less attributable sales, discovery, integration, testing, and support labor, plus any runtime costs Biomes bears. The fee and engineer time per deployment are unknown. (The Idea, Market & Traction, Key Risks)
+
+The structural downside gate stays open. The memo documents a high-touch delivery model, and the proposed reuse of agents and tests gives Biomes a specific way to reduce the work required for each rollout. Whether that lever works is the decisive uncertainty. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 8/25 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 9/20 |
+| Initial traction | 7/20 |
+| Cost economics | 3/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 32/100** (Pass)
 
 ### Decisive diligence question
 
-Can Biomes put the same workflow into paid production at a second operating company through the same sponsor with materially less engineering effort? Two comparable rollout records showing buyer payment, recurring production use, which components carried over, and lower implementation and support hours on the second deployment would move the action to Reach out.
+Can one sponsor fund a second production rollout of the same workflow at a portfolio company in another market with a different software stack? A paid invoice and deployment records showing reuse of the same agent and tests, materially fewer engineering hours, and positive incremental contribution would justify rescoring for Reach out if the score reaches 65 and confidence rises to Medium. If the rollout shows that each company needs a fresh build and fees cannot cover the required delivery work, with no credible way to reduce it, move to Pass.

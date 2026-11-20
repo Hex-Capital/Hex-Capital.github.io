@@ -5,26 +5,28 @@
 
 ### Company case
 
-Path A — Scarce complements. Ailit’s strongest case is control of rail-side charging and swap capacity that can keep existing locomotives running on schedule. **Scenario assumption:** If AI buildout competes for utility capacity at the same rail stops, enforceable access to enough power to recharge packs between trains could become more valuable. Ailit could sell railroads reliable access to charged packs while sparing them an upfront equipment purchase. The memo documents a full-scale Superwagon prototype positioned behind a locomotive before commissioning. Loaded-haul performance, repeatable swap times, and local competition for grid capacity remain unverified. (The Idea, Market & Traction, Key Risks)
+Scarce complements is the strongest candidate path. Ailit’s swappable battery tenders could make grid-connected swap sites at scheduled rail stops valuable if charged packs are available when loaded trains arrive. **Scenario assumption:** AI-linked freight demand increases the need for electrified service on a corridor where charging capacity limits deployment. The memo supports the operating mechanism, while the AI-demand link and site scarcity remain unverified. Ailit plans to own and operate the packs and sites. The recorded Swedish patent application has undisclosed claims, and control of usable site capacity remains unverified. (The Idea, Defensibility, Key Risks)
 
-Ailit proposes to own the packs and sites and charge about 20% below diesel-equivalent cost. The expansion unit is a corridor with enough train traffic to keep its swap sites and pack inventory productive. At the proposed tariff, revenue per delivered kWh must cover electricity, pack wear and financing, and site and swap operations. Low utilization raises the fixed cost per kWh, while cheaper diesel compresses the tariff. The reported 2027 deployment plan leaves buyer budget and realized costs unverified. The team’s full-scale build and the CTO’s prior work taking an electric ferry through certification into series production support execution at seed. (The Idea, Key Risks, Founders & Team)
+The full-scale prototype was positioned behind a locomotive ahead of commissioning. Tagesson’s experience bringing an electric ferry through certification and into production supports seed-stage execution. The planned 2027 deployment is a company-side signal, with buyer commitment and payment still unverified. (Market & Traction, Founders & Team, The Idea)
+
+A corridor is the unit of expansion. At Ailit’s proposed tariff of roughly 20% below diesel-equivalent cost, each successful haul must generate enough revenue to cover electricity, swap operations, and the allocated cost of packs and sites at actual utilization. Repeat swap times, pack utilization, and contribution at lower diesel prices remain untested. (The Idea, Key Risks)
 
 ### Countercase
 
-Railroads can keep using diesel, and Voltify’s in-motion charging and Wabtec’s dedicated battery locomotive give them other electrification options. Ailit’s Swedish patent application has undisclosed claims, and enforceable control of charging sites or utility capacity remains unverified. If rivals can secure equivalent power and meet the same route requirements, AI demand could raise Ailit’s costs without giving it pricing power. The cited alternatives leave the scarcity and control gates unresolved because their performance on Ailit’s target routes remains untested. That supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+Superwagon may be a conventional fuel-cost improvement for existing freight service. Diesel remains available as backup, while Voltify and Wabtec offer other electrification approaches. The proposed savings come from changing the energy source, leaving the New Economies gate unmet because the memo supplies no material labor-cost reduction per successful haul or previously excluded buyer or use. The alternatives make substitution credible, but their ability to match Superwagon’s proposed cost and uptime on the same corridor remains unresolved. That leaves a specific scarce-complement test and supports Watch. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
+| Path-specific thesis fit | 6/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Can Ailit earn a paid deployment commitment from an independent railroad by repeatedly swapping packs within its timetable on a loaded route where Ailit holds enforceable access to utility capacity demonstrably constrained by AI demand? A successful trial and paid commitment would move the action to Reach out. Evidence that rival capacity can meet the same route requirements on comparable terms would move it to Pass.
+Can the planned 2027 deployment show that an independent railroad repeatedly pays Ailit to relieve a charging constraint tied to AI-linked freight demand? Buyer records tying the order to that constraint, enforceable access to the required site capacity, and repeat loaded runs that meet uptime targets at positive corridor contribution would move the action to Reach out. A successful engineering demonstration alone would leave it at Watch.

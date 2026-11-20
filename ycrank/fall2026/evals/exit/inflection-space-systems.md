@@ -5,34 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A spacecraft manufacturer or constellation operator could buy Exponent and its integrated flight and ground software to control production schedules and shorten integration. Inflection reports building more than half of the spacecraft stack in-house. That supports a plausible acquisition structure, with IP title, third-party rights, and any required consents still unverified. The buyer benefit is an inference. It depends on Exponent demonstrating a cost or delivery advantage large enough to justify ownership over building, licensing, or buying buses. (The Idea, Defensibility)
+The strongest path is a strategic acquisition by a constellation integrator seeking faster delivery of small satellite buses. Inflection publishes a standardized Exponent configuration and volume pricing. It also reports building more than half the spacecraft stack, including flight and ground software. An integrator could buy the platform to shorten delivery schedules if Exponent proves it can meet payload requirements and deliver repeat orders at a lower cost or shorter lead time than the integrator’s alternatives. The memo provides no measured buyer savings or acquisition interest. (*The Idea*, *Defensibility*)
 
-A successful first flight followed by repeat builds with measured unit costs and cycle times would make that advantage testable. Inflection reports fabrication and ground testing underway and a Q1 2028 launch booking. The reported booking is more direct schedule evidence than the earlier 2027 target. The memo leaves funding through flight and repeat production unverified. Published bus prices establish asking prices, while realized revenue, paying customers, and evidence of a realizable acquisition price remain unverified. (Market & Traction, Key Risks, Key Facts)
+The operating milestone is successful on-orbit performance followed by a repeat production lot with measured unit costs and build times. Inflection reports ground testing and a Q1 2028 launch booking, later than the previously cited 2027 target. The founders’ spacecraft and test automation experience supports execution, but the capital required through flight and repeat production is unverified. The memo is silent on IP transfer, closing approvals, holder participation rights, and any independent liquidity route. (*Market & Traction*, *Founders & Team*, *Key Risks*)
 
-With investor terms unavailable, the illustrative case assumes a $500,000 check at a $10 million post-money valuation, no follow-ons, and 5% ownership diluted by 40% to 3%. The eight-year target is $2.5 million gross cash before investor taxes. Under simple pro rata allocation, that requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million of enterprise value. Fees and senior claims remain unquantified.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at full pro rata participation. At published prices, hypothetical annual orders of 50 or 100 units imply $45 million or $70 million in sales. The memo records no realized sales or paying customers. Those order values give the scenarios operating context. Buyer valuation and deal terms remain assumptions. (*The Idea*, *Key Facts*)
 
-- A **$25 million enterprise-value sale** in year eight yields $600,000 gross, or 1.2×, after illustrative debt.
-- A **$100 million enterprise-value sale** in year eight yields $2.85 million gross, or 5.7×, at 3% ownership. At 2%, the same sale yields $1.9 million, or 3.8×.
-- **Continued private operation** yields $0 realized through year eight if growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested. The investor retains the shares.
+| Scenario | Assumed transaction and holder proceeds |
+|---|---|
+| Modest sale | $50 million enterprise value less $10 million in net debt and deal adjustments leaves $40 million in distributable equity. A full pro rata cash sale pays $1.2 million, or 2.4×. |
+| Strong sale | $100 million enterprise value with the same deductions leaves $90 million in distributable equity. A full pro rata cash sale pays $2.7 million, or 5.4×. If only 90% of the holder’s stake sells for cash within eight years, proceeds fall to $2.43 million, below the objective. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or distribution yields $0 in realized proceeds within eight years. |
 
-The memo provides no cash generation to underwrite a sponsor buyout or company-funded payout, no eligible share demand for a secondary, and no operating scale or reporting readiness to support an IPO. (Market & Traction, Key Facts)
+Both sale cases assume the holder is eligible, the sale closes within eight years, and the waterfall distributes the stated equity value pro rata with no further senior claims.
 
 ### Countercase
 
-Apex and Muon already offer repeat-production alternatives with flown spacecraft, and Amazon reports building over 1,000 satellites in-house. A prospective buyer can therefore source from established suppliers or build internally. Even successful flight qualification may win Inflection orders without creating a reason to own the platform. This supports Watch. The memo establishes neither a structural closing block nor a supported sale-price ceiling that leaves the holder materially short. The prolonged-private case remains hypothetical. (Defensibility, Key Risks)
+Apex and Muon already offer repeat-production alternatives with flown spacecraft, and Amazon’s reported in-house production shows that large constellation operators can bypass independent bus suppliers. Exponent’s fixed payload and power limits narrow the buyer pool further. These are credible substitutes that weaken the case for paying an acquisition premium. The evidence leaves open whether a specific integrator would gain enough from owning Exponent to clear the proceeds hurdle, so it supports Watch without triggering the Pass gate. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 6/10 |
+| Plausible investor proceeds | 10/30 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an identifiable strategic buyer justify a price that clears the holder’s cash hurdle once Exponent has demonstrated in-orbit performance and repeat-build economics? A buyer-specific comparison of acquisition, internal development, and supplier costs that supports at least $83.3 million in distributable equity at 3% ownership within eight years would move the action to Reach out.
+What acquisition price would a specific constellation integrator’s build-versus-buy analysis support after Exponent demonstrates on-orbit performance and repeatable production costs? An integrator-backed price range tied to measured cost or schedule gains would change the action to Reach out if the range supports at least $2.5 million in cash to the benchmark holder within eight years after deductions, senior claims, and participation limits.

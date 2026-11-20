@@ -5,26 +5,26 @@
 
 ### Company case
 
-Repeatable direct sales to hospital and academic biostatistics cores is Sutrix’s strongest path. These teams repeatedly turn fragmented patient records into analysis-ready datasets. Sutrix offers direct access to cores and describes a workflow that links records, applies study rules, and routes exceptions for investigator review. The case assumes a new institution can provide approved exports and use the same workflow with local data mappings and protocol rules. That makes cross-market adoption plausible, while production data access and any institution-specific hosting remain open. (The Idea, Defensibility, Key Risks)
+Sutrix’s strongest hypergrowth path is to sell reusable study-preparation software through biostatistics cores that serve multiple labs. The product links records, standardizes codes and units, and saves versioned protocol rules and reviewer decisions. Customers describe faster preparation and less manual reconciliation. **Scenario assumption:** If cores in other markets can supply approved file exports, the same software could handle the recurring job with changes concentrated in source mappings and study rules. A core could then bring more labs onto the workflow, although engagement-specific pricing leaves recurring billing and paid expansion unproven. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Emory’s Winship Cancer Institute reported faster preparation of interpretable results, and BlueRock Therapeutics reported less manual reconciliation with the steps visible for expert review. Sutrix reports paying teams at 10+ institutions and $150K+ in revenue before the software release. Those signals support buyer fit, while the memo leaves the route from founder outreach to a paid software rollout unverified. The first likely bottleneck is getting a new institution from data access to an investigator-approved dataset with a repeatable amount of work. (Market & Traction, Key Facts, The Idea, Key Risks)
+Sutrix, listed as a two-person team, reported paying research teams at 10+ institutions by November, following its September software release. That supports early commercial demand. The reported $150K+ predates the release, and the memo leaves the share of November customers paying for the released software and its growth rate unclear. (Sutrix, Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-Sutrix could remain a study-by-study service whose revenue grows in step with specialist delivery time. Engagements have individually set scope, pricing, and timelines, and production rollouts may require approved endpoints, exports, or institution-specific hosting. The reported 50+ studies across 15+ labs leave paid repeat use by account unclear, and reported buyer time savings leave Sutrix’s own delivery costs unmeasured. The structural downside gate remains open because the memo does not establish that setup and review effort must rise in proportion to revenue. (The Idea, Market & Traction, Key Risks)
+Sutrix may be scaling custom study delivery. The documented terms set scope, price, and timelines per engagement, and the memo establishes direct FHIR connectivity in sandboxes. Production access, source mapping, and protocol setup could require substantial work for each buyer. An engagement fee has to cover attributable selling, setup, compute, support, and any exception review Sutrix performs. Reusing mappings and saved rules could reduce that work, but the reported time savings describe customer preparation and leave Sutrix’s contribution uncertain. The structural gate stays open because approved exports and reusable rules provide a credible path, and the memo leaves open how much work each new institution requires. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 8/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 10/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independently acquired biostatistics cores pay for the software and reach an investigator-approved first dataset through the same documented onboarding workflow? Two comparable rollouts with recorded integration, founder, and review hours would answer it. Bounded delivery effort at both institutions, with evidence that the second rollout reused the first rollout’s setup, would move Sutrix to Reach out.
+Can a biostatistics core in a new market buy and activate the same software from approved exports with minimal Sutrix help, then pay to add a second lab? A standard recurring agreement, paid invoices showing expansion, and deployment records showing positive contribution after setup and support would support moving to Reach out upon rescoring. Evidence that the rollout requires unavoidable custom work that makes faster growth uneconomic would move the action to Pass.

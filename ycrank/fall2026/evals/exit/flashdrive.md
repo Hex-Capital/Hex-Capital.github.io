@@ -5,28 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is FlashDrive’s strongest path. Dropbox is a plausible buyer because it already offers agent object storage and plans to add filesystem capabilities. FlashDrive claims its shared drive can merge concurrent Markdown and CSV edits across local mounts and agent sandboxes, with access through MCP. Owning that layer could help Dropbox ship reliable cross-environment file sharing sooner if production use proves that the merges prevent enough lost work or manual reconciliation to justify owning the technology over building or licensing it. The launch and its 28,040 post views establish early visibility. The memo gives no production deployment, retention, measured buyer benefit, or funded test to establish that advantage. It also leaves the ownership and transferability of the core technology open. *(The Idea, Defensibility, Market & Traction, Key Risks)*
+The strongest path is a strategic acquisition by Dropbox for DBX Agent Cloud. Dropbox announced plans to acquire Tigris and to add filesystem capabilities to DBX. FlashDrive says its macOS and Linux mounts and MCP access let agents work on the same files across environments, with concurrent merges for Markdown and CSV. The acquisition rationale is conditional. Dropbox could buy FlashDrive to accelerate its filesystem roadmap if those capabilities measurably reduce failed handoffs and recovery work in production. FlashDrive’s launch drew 28,040 post views. Production usage, measured savings, and acquisition interest remain unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The memo supplies no usable sale-price range or shareholder terms. Under the **illustrative seed scenario**, a $500,000 check at a $10 million post-money valuation buys 5% initially and dilutes to 3%, with no follow-ons. The eight-year 5× cash target is $2.5 million. At 3% ownership, it requires $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of assumed net debt. At 2% and 4%, the equity hurdles are $125 million and $62.5 million, respectively. Assuming simple pro rata allocation before investor taxes, a $25 million sale in year eight yields $600,000 gross (1.2×), while a $100 million sale yields $2.85 million (5.7×), both after the illustrative debt. Actual debt, fees, and senior claims are unknown. The strong-sale scenario clears the target mathematically, and the memo offers no buyer economics that support that price.
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or $83.3 million in distributable equity at 3%. The sale cases below are illustrative and assume $5 million in combined net debt and deal deductions, full holder eligibility, a pro rata waterfall with no preference leakage, and an all-cash closing within eight years.
 
-If adoption plateaus, buyers stay away, public-market scale remains out of reach, and available cash goes back into the product, the holder realizes $0 over eight years and retains the shares. The free early-access offer provides no evidence of the cash generation needed for a sponsor buyout or company-funded payout. The memo also provides no evidence of an eligible secondary or a path to an IPO and resale. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo does not quantify. *(The Idea, Market & Traction, Key Facts)*
+| Scenario | Enterprise value | Distributable equity | Cash to holder |
+|---|---:|---:|---:|
+| Modest sale | $50 million | $45 million | $1.35 million (2.7×) |
+| Strong sale | $100 million | $95 million | $2.85 million (5.7×) |
+| Prolonged private, with cash reinvested | — | — | $0 realized |
+
+With those deductions, the hurdle is about $88.3 million in enterprise value. If only 80% of the holder’s interest turns into cash within eight years, the strong case yields $2.28 million and misses the objective. The memo leaves FlashDrive-specific pricing evidence, transaction rights, and independent liquidity routes unverified. A paid production pilot is a plausible next step given the launch and the team’s prior product work. Pilot funding, deployment readiness, and the cost of serving production workloads under free egress remain open. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Dropbox could extend its planned filesystem offering internally. AWS and Daytona already bundle shared storage, and Layven offers attributed versions for simultaneous writes. Those alternatives may solve enough of the workflow that customers and platforms have little reason to pay for FlashDrive’s claimed merge advantage, especially while its correctness under interruptions and across other file types is unverified. The evidence makes willingness to pay uncertain. It establishes neither a structural block nor a realizable price that leaves the holder materially short, so the Pass gate does not apply. *(Defensibility, Market & Traction, Key Risks)*
+Dropbox could build the filesystem layer itself. AWS and Daytona already bundle shared storage with agent environments, and Layven offers attributed versions for simultaneous writes. FlashDrive’s reported merge behavior covers Markdown and CSV, while correctness under interruptions and other file formats remains unverified. If bundled storage handles most production handoffs, Dropbox may assign little incremental value to FlashDrive. The evidence supports that risk, while the price a strategic buyer could justify remains open. That gap supports Watch under the proceeds gate. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 6/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a funded production pilot with an agent infrastructure platform show that owning FlashDrive’s merge layer is worth enough to support a sale near or above the illustrative $88.3 million enterprise-value hurdle? Move to Reach out if the pilot measures a sustained reduction in failed handoffs or manual reconciliation against the platform’s bundled or licensed alternatives, and the platform’s own economics support that sale range. Until then, Watch.
+Would a paid DBX production pilot show enough incremental value over Dropbox’s planned filesystem to justify an acquisition near or above the $88.3 million enterprise-value hurdle under the modeled terms? The answer would come from measured reductions in failed cross-environment handoffs and recovery time, combined with Dropbox’s assessment of the cost and time to build equivalent capabilities. Buyer-validated economics that support clearing the hurdle would move the action to Reach out. Evidence that Dropbox can reproduce the benefit at a cost that leaves the strongest credible sale materially below the hurdle would move it to Pass.

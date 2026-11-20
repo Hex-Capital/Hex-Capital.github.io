@@ -1,32 +1,32 @@
 ﻿# Constor -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** HVAC and insulation contractors manually measure and count materials from drawings before they can price bids. Constor estimates this takes about 50 hours for a 50-drawing project. Its product extracts quantities from PDFs and lets estimators correct them against the drawings before export. A2C Isolation reported doing takeoffs in minutes instead of hours and bidding on and winning more jobs. That suggests a specific market opening at seed. Contractors with limited estimator time could bid on jobs they previously skipped. The testimonial leaves open which jobs were newly viable and how much labor a bid-ready takeoff required after review, corrections, and retries. (The Idea, Market & Traction, Key Risks)
+**New Economies.** Constor could make it economical for capacity-constrained HVAC and insulation contractors to bid on projects they previously skipped because takeoffs consumed too much estimator time. Constor estimates that a manual takeoff for a 50-drawing project takes about 50 hours. Its documented workflow automates quantity extraction and lets estimators review and correct the results against the drawings. A2C Isolation reports completing takeoffs in minutes instead of hours and bidding on and winning more jobs. That account supports the labor-saving mechanism. It leaves open how much time verification takes and whether the additional bids were previously uneconomic. (The Idea, Market & Traction, Key Risks)
 
-Constor reports five paying design partners, 12 paid preorders, and about 15 contractors bidding with the product. The memo leaves overlap and repeat payment unclear. Under the scenario assumption that rivals can extract quantities equally well, buyers might still pay for Constor’s editable HVAC quantities and 3D routing if those features shorten the work from raw counts to a bid-ready takeoff. The memo supplies no comparison or renewal evidence under parity. (The Idea, Defensibility, Market & Traction)
+The stage-appropriate demand signal is paid commitment. Constor reports five paying design partners, 12 paid preorders, and about 15 contractors bidding with the product. Overlap, renewals, and willingness to pay standard prices remain unclear. The team has relevant delivery experience in HVAC estimating and applied AI, and it shipped a takeoff product that contractors report using on live bids. The memo gives no validation plan for accuracy across varied drawing quality. (Market & Traction, Founders & Team, Key Risks)
 
-Louis’s HVAC estimating experience, Elio’s delivery of the initial blueprint analysis, and Dany’s first sale support seed-stage execution. The natural expansion unit is a completed takeoff, with subscription and credit pricing providing a way to monetize repeat use. The founder’s launch-profitability claim leaves contribution per takeoff unresolved because realized prices and processing and support costs are undisclosed. (Founders & Team, The Idea, Key Facts)
+The expansion unit is a contractor repeatedly completing verified takeoffs. In the market-opening scenario, the buyer’s cost per bid-ready takeoff includes subscription or credit charges and estimator time for review, corrections, and any manual rework. Constor’s contribution depends on revenue per contractor covering drawing processing, inference, and support as usage grows. The memo documents the pricing structure and reports launch profitability, with per-takeoff costs and contribution still unmeasured. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Constor may chiefly speed up takeoffs contractors would have completed anyway. The terms require customers to verify quantities, and incomplete or illegible drawings can increase correction work. Beam AI and Bobyard offer overlapping takeoff capabilities, while early design partners received lifetime discounts, leaving willingness to pay at ordinary prices uncertain. These facts put both Path B gates in doubt. The memo contains no representative cost comparison or observed switching that closes either gate, so the testable case supports Watch. (Key Risks, Defensibility, Market & Traction)
+Constor may be speeding up an existing estimating workflow that contractors can buy from several vendors. Beam AI already offers mechanical takeoffs, and Countfire pairs automated counts with pricing. Constor’s editable quantities and 3D routing give buyers a specific reason to try it. The historical drawings and feedback promised by design partners could improve accuracy, but the memo establishes neither a measured advantage nor buyer preference at functional parity. Required verification on poor-quality drawings could also absorb enough of the savings to leave previously skipped bids uneconomic. These risks leave both New Economies gates unproven. The memo contains no observed substitution or failed market-opening test that closes the path. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
+| Path-specific thesis fit | 14/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 12/20 |
 | Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Scale economics | 5/15 |
 
 **Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Will independent HVAC or insulation contractors repeatedly pay Constor’s ordinary price to bid on jobs they previously skipped when they can also try a rival with equivalent extraction quality? A field trial on real drawings should compare the full cost of reaching verified, bid-ready quantities under the manual workflow, Constor, and the rival. Move to Reach out if the savings make those bids economical and contractors repeatedly pay for Constor because its workflow saves meaningful downstream work. Pass if representative results show the bids remain uneconomic or buyers readily switch while preserving the same outcome.
+Will independent HVAC and insulation contractors repeatedly pay standard prices for Constor to pursue bids they previously skipped on takeoff cost, when a functionally comparable alternative is available? A live-bid cohort that records previously skipped jobs, measures the full cost of verified takeoffs, and shows repeat paid use with a stated reason for choosing Constor would move the action to **Reach out**. If full review and rework erase the savings needed to unlock those bids, or buyers readily switch at parity, move to **Pass**.

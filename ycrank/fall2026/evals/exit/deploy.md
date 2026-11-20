@@ -5,34 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is Deploy’s strongest route. A warehouse automation vendor with an existing customer base could buy RoboJudge, the mixed-item workflows it supervises, and the rights to reuse intervention data. The buyer could use those assets to sell into returns, kitting, and packing stations and reduce the engineering and remote staffing needed for each rollout. Ownership could beat an internal build or a license if Deploy can show that its intervention data improves performance at new sites and that the buyer can acquire those rights. The memo establishes a recognizable buyer class and product fit, with buyer economics and transfer rights still unverified. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a warehouse automation vendor seeking to add mixed-item returns, kitting, and packing at existing stations. Deploy’s combination of workflow monitoring, remote exception handling, and training on operator interventions could shorten the buyer’s rollout if those interventions improve performance across sites. The memo records a public RoboJudge demonstration and a trade-show run that packed more than 800 pens after about 30 minutes of fine-tuning data collection. Deploy advertises pricing about 50% below labor cost. Production uptime, intervention workload, and realized station margins remain unverified. A paid rollout to a second site would test repeatability. Deploy’s no-upfront-fee model makes hardware and installation funding relevant, and the memo gives no pilot budget or runway. (*The Idea, Defensibility, Market & Traction, Key Risks, Key Facts*)
 
-The memo records a public RoboJudge demonstration. Deploy reported packing more than 800 pens at a trade show after about 30 minutes of fine-tuning data collection and advertises per-station pricing about 50% below labor cost. The demo supports attempting a production test. The pricing claim leaves actual savings, uptime, and operator workload open. A paid second-site rollout would test whether the system can meet service levels while reusing what it learned at the first site. The funding required to reach that milestone is unknown. (Market & Traction, The Idea, Key Risks, Key Facts)
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity at 3%. The sale scenarios below assume a closing within eight years, $5 million in combined net debt and deal costs, no senior claims diverting the remaining equity proceeds, and eligibility to sell the entire stake for cash.
 
-Under the illustrative scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years. At 3%, that requires about $83.3 million in distributable equity, or $88.3 million in enterprise value with $5 million of assumed net debt. At 2% or 4% ownership, the equity hurdle is $125 million or $62.5 million, respectively.
+| Scenario | Illustrative holder proceeds |
+|----------|------------------------------|
+| Modest sale | $40 million enterprise value yields $35 million in distributable equity. The holder receives $1.05 million, or 2.1×. |
+| Strong sale | $100 million enterprise value yields $95 million in distributable equity. The holder receives $2.85 million, or 5.7×. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or funded payout yields $0 in realized proceeds. |
 
-- A **$25 million sale** at year eight leaves $20 million of equity after the assumed debt and pays the holder **$600,000 gross (1.2×)**.
-- A **$100 million sale** at year eight leaves $95 million of equity and pays **$2.85 million gross (5.7×)** at 3%. At 2%, the same sale pays **$1.9 million (3.8×)**.
-- In a **prolonged-private scenario** where growth plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested, the holder realizes **$0** over eight years and retains the shares. A wind-down recovery would depend on the residual after obligations and preferences, which the memo leaves unquantified.
-
-The sale prices are scenario inputs. The memo provides no acquisition pricing or measured buyer economics to support a realizable range. It also leaves sponsor financing and cash generation, eligible secondary demand, IPO scale, and distributable cash unevidenced. (Market & Traction, Key Facts)
+The sale prices are sensitivity assumptions. The memo supplies no buyer pricing, comparable sale, realized revenue, or payout evidence to support either price. IP and customer-data transfer rights and the holder’s actual waterfall are also unverified. (*The Idea, Defensibility, Market & Traction, Key Facts*)
 
 ### Countercase
 
-Plus One already sells workcells with remote exception handling. An incumbent could extend a similar system into mixed-item workflows or partner with Deploy. The memo documents that existing capability and leaves Deploy’s cross-site learning benefit unmeasured. Frequent interventions could also erode the labor savings that would give a buyer reason to pay. That combination warrants waiting for production evidence. The memo establishes neither a structural blocker nor a credible sale price that leaves the holder materially short, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+Plus One already routes failed picks to remote operators. A vendor with that capability could extend its own system if Deploy’s intervention data delivers little benefit across sites. Deploy’s narrow demo leaves open whether production exceptions and field support would erode the economics enough to prevent customers from expanding. This supports Watch. The memo establishes neither a structural closing barrier nor a credible sale-price ceiling below the holder’s hurdle, so the Pass gate does not trigger. (*Defensibility, Market & Traction, Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid second-site rollout show that reusing RoboJudge and first-site intervention data materially lowers deployment and remote staffing costs while meeting the customer’s throughput and uptime targets? Customer-verified results would move the action to **Reach out** if the measured savings across a credible buyer rollout support an acquisition price near or above the modeled hurdle. (Defensibility, Key Risks)
+Would Deploy’s production economics give a warehouse automation vendor a reason to buy at a price that clears the holder’s proceeds hurdle? A paid second-site rollout with measured throughput, uptime, and station margin after hardware, field service, and remote staffing would establish what a buyer could scale. Buyer feedback that quantifies the value of acquiring that capability at a price consistent with the hurdle would move the action to Reach out.

@@ -5,34 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A digital manufacturer such as Protolabs could buy Factory OS and Antropi’s machining operations to deploy its CAD-to-machining workflow, robotic loading, and per-part inspection across more capacity. Ownership could be worth more than licensing if the machining programs, fixtures, and inspection feedback together deliver lower costs or faster turnaround across factories. That buyer benefit is inferred. The memo establishes a relevant buyer class and describes the asset, while buyer interest and incremental savings remain unverified. (The Idea, Defensibility, Market & Traction)
+The strongest exit path is a strategic sale to a manufacturing marketplace such as Xometry. The memo describes Xometry’s supplier-network model and Antropi’s Factory OS, which combines CAD-to-machining programming, robotic loading, and per-part inspection. Antropi reports that a space customer reordered after an initial part was machined in 17 hours. A marketplace could buy the workflow to bring urgent, inspection-heavy jobs in-house if it could verify lower fulfillment costs or better delivery performance than its suppliers can offer. The repeat order supports customer demand. The buyer benefit remains an inference. (*The Idea*, *Market & Traction*)
 
-Antropi reports more than 2,000 parts shipped, repeat orders from a space customer, and a U.S. factory alongside its Bengaluru pilot. The CTO says a customer provided money for the first U.S. machine. These claims make a cross-site production test plausible. The operating milestone is repeatable improvement in setup time and fully loaded cost per accepted part on comparable jobs, while maintaining tolerance and lead time. Utilization, capital required to replicate a cell, and rights to transfer the software, production data, and equipment remain unverified. (Market & Traction, Key Risks, Defensibility)
+The operating milestone is to show that the Bengaluru and U.S. sites can deliver repeat jobs at consistent lead times and quality, with positive margins after engineer time, machine costs, and facility costs. Antropi reports shipping more than 2,000 parts, and Agarwal says a customer funded the first U.S. machine. Those claims give the company a credible starting point for the test. Sustained utilization, fully loaded margins, and the capital needed to expand remain unverified. (*Market & Traction*, *Key Risks*)
 
-Under the shared seed scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. That requires $83.3 million of distributable equity at 3% ownership, versus $125 million at 2% and $62.5 million at 4%. With $5 million of illustrative net debt, the 3% hurdle rises to about $88.3 million of enterprise value. Actual debt, fees, and senior claims are unknown.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, ownership diluted from 5% to 3%, and zero follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity value at 3% ownership. The sale scenarios assume $10 million in combined net debt and closing adjustments, full holder eligibility, an all-cash sale of the entire stake within eight years, and a pro rata waterfall with no preference diversion. The prices are scenario assumptions. Agarwal’s reported $100,000 in October revenue provides a starting point for assessing the scale required, while sustainable earnings and buyer pricing remain unverified. (*Key Facts*)
 
-- A $25 million cash sale in year eight yields $600,000 gross, or 1.2×, after illustrative debt.
-- A $100 million cash sale on the same terms yields $2.85 million gross, or 5.7×. At 2% ownership, it yields $1.9 million, or 3.8×.
-- If growth plateaus, buyers stay away, public scale remains out of reach, and available cash goes back into factories, the holder realizes $0 over eight years and retains the shares.
+| Scenario | Enterprise-to-equity bridge | Cash to holder |
+|---|---:|---:|
+| Modest strategic sale | $40M EV − $10M = $30M distributable | $900,000 (1.8×) |
+| Strong strategic sale | $100M EV − $10M = $90M distributable | $2.7M (5.4×) |
+| Prolonged private operation | Cash reinvested, with no payout or share purchase | $0 |
 
-The sale figures are scenarios. The memo supplies no usable evidence for an Antropi sale price. The founders’ revenue and profitability claims leave cash after factory reinvestment unverified for either a sponsor buyout or a company-funded payout. Eligible secondary demand and IPO readiness are also unevidenced. (Key Facts, Key Risks)
+If the holder could sell only 75% of its stake, the strong case would pay about $2.03 million, below the objective. Factory OS ownership and assignability, deal consents, and holder participation rights remain unverified. The memo provides no evidence of a separate route to holder liquidity.
 
 ### Countercase
 
-Protolabs already offers one-day milling on eligible jobs, and Vention sells configurable machine-tending systems. An incumbent could get much of the speed and automation benefit through existing capacity or purchased equipment. That makes Antropi’s incremental inspection and correction economics decisive, especially if engineer approvals limit throughput. The substitutes weaken the reason to buy, while the memo leaves open whether Antropi can demonstrate an advantage that supports the required price. The Pass gate is untriggered. (Defensibility, Key Risks)
+Protolabs already offers one-day milling for eligible jobs, and Vention sells configurable machine-tending systems. A buyer could source quick-turn parts or assemble its own automation if Antropi’s integrated workflow delivers little incremental savings. Engineer approvals could also limit throughput, while new cells add fixed costs ahead of repeat demand. These risks make the modest sale or prolonged-private case credible. The memo leaves the Pass gates untriggered because it establishes neither a structural closing barrier nor a supported price ceiling below the holder’s hurdle. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
-| Plausible investor proceeds | 8/30 |
+| Counterparty rationale or source of cash | 16/30 |
+| Plausible investor proceeds | 10/30 |
 | Milestones and capital needed | 13/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a prospective strategic buyer use matched-job results from Bengaluru and the U.S. to justify a cash acquisition price that clears the holder’s hurdle? A buyer-side valuation grounded in measured savings after deployment costs and supported by a proceeds bridge that delivers at least $2.5 million within eight years would move the action to Reach out.
+Can Factory OS deliver enough incremental value on repeat CNC jobs to justify a strategic buyer paying roughly $93 million or more in enterprise value after scale-up, assuming the modeled $10 million in deductions? A matched-job comparison across both sites that measures engineer time, rework, and fully loaded costs against supplier fulfillment, paired with a buyer’s build-versus-buy analysis supporting that price range, would move the action to Reach out.

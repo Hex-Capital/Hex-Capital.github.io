@@ -5,26 +5,28 @@
 
 ### Company case
 
-Repeatable direct sales is Dualizer’s strongest path. The initial users are process engineers at chemical and fuel plants who reconcile drawings, operating data, and simulations to diagnose bottlenecks. Dualizer solicits introductions through Launch YC and offers to model a prospect’s process in a demo. The company describes a workflow in which engineers approve model edits and calibrate the simulation with plant data. The job plausibly travels across markets, but the memo gives no buyer geographies or evidence that data integration and model validation carry over between sites. (The Idea, Key Risks)
+Assuming strong product-market fit, Dualizer’s strongest path is recurring bottleneck analysis for process engineers at comparable chemical plants across markets. Dualizer describes Vantage turning drawings and engineering requests into model changes for engineer approval, then KinetIQ solving balances and calibrating the model against operating data. The solver and engineering workflow are plausibly reusable across markets. The growth scenario assumes comparable plants can use the same core equipment models and handle routine calibration themselves. The documented route to first value runs through introductions and prospect-specific demos, so independent onboarding remains unproven. (The Idea, Defensibility, Key Risks)
 
-The memo documents a public demo and reports several active industry pilots. It gives no pilot scope, buyer commitment, or payment terms, and it does not trace a pilot from introduction to first value. The scenario behind Watch is that, if the first buyers find recurring value in bottleneck analysis, Dualizer could reuse the demo-to-deployment workflow at similar plants. The first likely break is getting a second plant live without rebuilding and revalidating much of the model. The memo provides no evidence of repeat paid use or measured rollout costs. (Market & Traction, Key Risks)
+A calibrated model and its operating history give engineers a reason to return as plant conditions change. Subscription licensing is inferred from the founders’ plan to convert pilots. Existing-account renewals, expansion and pricing are unverified. The memo lists a public demo and several reported industry pilots, with payment terms and commercial growth undisclosed. (The Idea, Defensibility, Market & Traction, Key Facts)
+
+Under a site-subscription scenario, incremental contribution would be the site fee less attributable sales and onboarding labor, model adaptation, compute, and support. Drawing-to-model automation could reduce setup labor if it works on real plant inputs. The memo supplies too little pricing or deployment cost evidence to estimate contribution. (The Idea, Key Risks)
 
 ### Countercase
 
-Each plant could require enough custom modeling and calibration that deployments scale with engineering headcount. The earlier EntroPINN tests failed to generalize, the published calibration demo used synthetic operating histories, and Dualizer is hiring a forward-deployed engineer to handle site adaptations. These signals make bespoke delivery a credible risk. The structural downside gate remains open because the memo contains no comparable deployment records showing that this work grows in proportion to sales and cannot be reduced through reuse. (Key Risks, Market & Traction)
+Each new plant could require specialist work to adapt unit models and calibrate against proprietary operating data. The forward-deployed engineering hire supports that concern, and the published calibration demo uses synthetic histories. Earlier generalization failures add uncertainty about how much work the current product can automate. The structural gate stays open because the memo leaves unresolved whether substantial vendor work is unavoidable for comparable plants and whether it would make faster growth uneconomic. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
 **Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder take an independently sourced plant from a process-specific demo to paid deployment for recurring bottleneck analysis using the same onboarding workflow as a prior pilot? A paid rollout with documented setup and calibration hours showing that the team reused the core model components and kept site-specific work bounded would move Dualizer to Reach out.
+Can process engineers at comparable plants in two markets independently buy, set up, and repeatedly use the same product on live plant data? A paid rollout showing repeat use and subscription fees that comfortably cover measured setup, compute, and support costs would move the action to Reach out. Evidence that each comparable site requires bespoke engineering that consumes the site fee would move it to Pass.

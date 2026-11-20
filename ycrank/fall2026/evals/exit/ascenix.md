@@ -5,36 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A senior-care software vendor such as August Health could buy Ascenix to add incident reporting, compliance follow-up, and reimbursement checks alongside its resident-record, medication, and payments products. Responsive Health Management reported 80% less time spent on manual fall analysis and 15% fewer non-compliance incidents over three months. Those figures show potential value to operators. The buyer rationale is an inference. Owning the connectors and configurable workflows could accelerate a broader rollout if they can be reused across EHRs and facility policies. The memo provides no estimate of that benefit to a buyer. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic sale to a senior-care EHR vendor such as PointClickCare. Ascenix reports live access to PointClickCare notes and incident records through its Marketplace integration, alongside MatrixCare and Yardi integrations. Responsive Health Management reports 80% less time spent on manual fall analysis and 15% fewer non-compliance incidents over three months after deploying Ascenix across its homes. A buyer could use Ascenix’s configurable reporting and follow-up workflows to extend its product if operators reproduce those gains at a manageable deployment cost. The memo leaves buyer interest and acquisition economics unverified. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a retained cohort of paying multi-site operators on at least two EHRs, with measured implementation costs and recurring gross profit. Responsive reported deploying Ascenix across all its homes, and Ascenix reports 55 live facilities. That makes the milestone plausible at seed. Site-specific setup and policy validation leave rollout economics uncertain, and the memo gives no burn or runway figures to assess the capital needed. (Market & Traction, Key Risks)
+Ascenix reports 55 live facilities. That footprint makes paid renewals and repeatable rollout costs across operators a plausible next milestone. Each deployment still requires integration work and local policy validation, and the memo gives no current cost or runway figures. A software sale is plausible given the live integrations, with change-of-control rights for EHR access and customer contracts unverified. The memo provides no evidence of a separate liquidity route for Ascenix holders. (Market & Traction, Key Risks)
 
-**Proceeds bridge.** The illustrative seed case assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. The memo supplies no Ascenix sale-price evidence, investor terms, or quantified debt, fees, or senior claims. The scenarios use simple pro rata proceeds before investor taxes. (Market & Traction, Key Facts)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The holder needs $2.5 million in cash within eight years, which requires about $83.3 million in distributable equity at 3% pro rata. Both sale scenarios assume an eligible holder sells the full stake for cash at closing within eight years, with no senior claims after the stated deductions.
 
-| Illustrative outcome by year eight | Gross cash to the holder |
-|---|---:|
-| Modest sale at $25 million enterprise value, less $5 million of net debt | $600,000 (1.2×) |
-| Strong sale at $100 million enterprise value, less $5 million of net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested | $0, with shares still held |
+| Scenario | Assumed proceeds bridge | Gross cash to holder |
+|-----------|-------------------------|----------------------|
+| Modest sale | $50M enterprise value less $5M in debt and deal adjustments yields $45M in distributable equity | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $10M in debt and deal adjustments yields $90M in distributable equity | $2.70M (5.4×) |
+| Prolonged private | The company reinvests available cash through year eight, with no eligible share sale or distribution | $0 (0×) |
 
-The memo depicts monthly invoicing but supplies no cash-generation evidence for a sponsor buyout or company-funded payout, no eligible Ascenix secondary demand, and no operating scale or reporting readiness to support an IPO. PointClickCare’s reported secondary does not establish demand for Ascenix shares. A wind-down would pay the holder only from any residual after obligations and preferences. The memo gives no basis to quantify that residual. (The Idea, Market & Traction, Key Facts)
+These are sensitivity assumptions. The memo shows monthly platform invoicing and leaves realized revenue, buyer pricing, and the actual waterfall unverified. Even in the strong case, receiving cash for only 90% of the stake within eight years reduces proceeds to $2.43 million. (Key Facts, Market & Traction)
 
 ### Countercase
 
-PointClickCare already offers native incident management, and Guardoc already automates chart compliance checks. An incumbent could use existing tools or license Ascenix’s workflows while leaving site-specific implementation with Ascenix. A sale to another vendor also depends on preserving live data access that PointClickCare controls. The memo leaves post-sale access and customer contract transferability unresolved. These risks weaken the ownership case, but the evidence establishes neither a structural block nor a sale-price ceiling that leaves the holder materially short. The Pass gate is therefore unmet. The missing support for a realizable price warrants Watch and Low confidence. (Defensibility, Key Risks)
+PointClickCare already offers native incident management and controls Ascenix’s access to its live notes and incident records. It could extend its own workflows, especially if Ascenix’s facility-specific setup limits the savings a buyer can replicate. This weakens the case for paying an acquisition premium. The memo establishes neither a structural block across credible buyers nor a supported sale range that falls materially short of the hurdle, so the Pass gate does not apply. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 4/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-What acquisition price could a senior-care software vendor justify from owning Ascenix after it demonstrates repeatable paid deployments across EHRs? A buyer economics model grounded in retained revenue, deployment costs, and the savings from buying versus building or licensing would move the action to Reach out if it supports a credible price range that clears the holder’s 5× cash hurdle.
+Can a strategic buyer justify a price that leaves at least $83.3 million in distributable equity? Buyer-side underwriting grounded in paid renewals, measured savings across multiple operators, and actual rollout costs would move the action to Reach out if it supports clearing that hurdle within eight years. A supported range materially below the hurdle on the strongest credible route would trigger Pass.

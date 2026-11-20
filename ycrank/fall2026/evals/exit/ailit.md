@@ -1,34 +1,38 @@
 ﻿# Ailit -- Exit Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition is Ailit’s strongest path. A locomotive manufacturer such as Wabtec could buy Superwagon to offer battery power on existing diesel-electric locomotives and capture the margin from operating the swap network. Ailit proposes charging railroads per kWh at roughly 20% below diesel-equivalent cost. Ownership could beat licensing or partnering if control of pack inventory, swap sites, and dispatch software lets the buyer serve more routes profitably. The memo leaves that economic advantage and buyer interest unverified. (The Idea, Market & Traction, Key Risks)
+The strongest path is a strategic acquisition by a rail equipment maker such as Wabtec. Ailit has completed a full-scale Superwagon prototype and positioned it behind a locomotive for commissioning. Ailit proposes a swappable battery tender that works with existing locomotives, with diesel retained as backup. It plans to own the packs and swap sites and sell power at roughly 20% below diesel-equivalent cost. If the retrofit proves economical in freight service, an equipment maker could buy a way to serve railroads that want to electrify without replacing their locomotives. Buyer interest and realized savings remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The memo documents a full-scale prototype positioned behind a locomotive ahead of commissioning and reports at least SEK 10 million in prior venture funding plus YC backing. The planned first customer deployment in 2027 gives Ailit a concrete next step. A paid corridor deployment would need to demonstrate repeatable swaps within scheduled stops, reliable loaded-haul service, and positive margins after battery and site costs. The funding reported to date supports prototype progress, while the capital required for the deployment remains unknown. Ailit Rail AB’s Swedish patent application establishes a filing. Its scope, the ownership of the broader technology, and the transferability of future site and customer agreements remain unverified. (The Idea, Market & Traction, Defensibility, Key Risks)
+Preparations for a first customer deployment in 2027, the completed prototype, and at least SEK 10 million in reported prior funding support a route test. The milestone is reliable loaded-haul service with repeatable swaps and positive route economics after pack and site costs. The capital needed to complete the deployment is unverified. The Swedish patent application identifies potential IP, while claim scope and the rights needed to transfer the system and operate the sites remain unverified. The memo provides no evidence of an independent route to holder liquidity. (The Idea, Market & Traction, Defensibility, Key Risks)
 
-**Illustrative proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and zero follow-ons. The 5× target is $2.5 million in gross cash within eight years. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million of enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×) and a $100 million sale yields $2.85 million gross (5.7×), using simple pro rata allocation before investor taxes. The memo leaves actual investor terms, debt, fees, senior claims, and a realizable sale price unverified.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. Both sale scenarios are illustrative. Each assumes a full cash sale within eight years, $10 million in combined net debt and deal adjustments, and an eligible holder receiving 3% of the remaining equity proceeds with no further preference or holdback.
 
-A sponsor buyout lacks demonstrated cash generation. The reported venture funding supplies no evidence of an eligible secondary sale, and the memo gives no basis to underwrite IPO scale or distributable cash for dividends or buybacks. If deployment growth plateaus, buyers stay away, public scale remains out of reach, and Ailit reinvests available cash in packs and sites, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only from residual assets after obligations and senior preferences, with the amount unknown. (The Idea, Market & Traction, Key Facts, Key Risks)
+- **Modest sale at $50 million enterprise value.** $40 million reaches equity and the holder receives $1.2 million, or 2.4×.
+- **Strong sale at $100 million enterprise value.** $90 million reaches equity and the holder receives $2.7 million, or 5.4×. At 2% ownership, the same sale pays $1.8 million, or 3.6×.
+- **Prolonged private operation.** If Ailit reinvests available cash and no eligible share purchase occurs, the holder realizes $0 within eight years.
+
+The memo gives no buyer economics or acquisition prices to anchor either sale scenario. The proceeds hurdle is measurable, but whether a buyer would pay it remains open. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Wabtec already offers a dedicated battery locomotive, and Voltify offers a different charging architecture. An OEM could pursue its own product or partner with Ailit while leaving battery inventory and site investment with Ailit. The prototype was still awaiting commissioning, so Ailit’s proposed diesel discount gives a buyer little basis to value the network while loaded-haul performance, swap times, and site utilization remain unproven. Lower diesel prices could further compress the service margin. This evidence supports Watch. It leaves both a structural block and materially inadequate proceeds unestablished, so the Pass gate stays open. (The Idea, Market & Traction, Key Risks)
+Wabtec already offers a dedicated battery-electric locomotive, giving it an existing product to sell while Ailit still has to demonstrate loaded-haul performance and repeatable swaps. Ailit would also carry pack and site costs while offering a diesel-linked tariff. Lower diesel prices could compress margins, and utility capacity or pack availability could limit deployment. These risks could leave a buyer with little reason to pay for the retrofit and network. The memo establishes neither a structural barrier to a sale nor a credible ceiling on holder proceeds, so the Pass gate does not trigger. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid corridor deployment demonstrate economics that support an OEM paying roughly $88 million in enterprise value under the modeled ownership and debt assumptions? Railroad-verified loaded-haul uptime, repeatable swap times, and fully loaded corridor margins would give an OEM a basis to compare acquisition with building or partnering. If that comparison supports a price near or above the hurdle, move to Reach out. Until then, Watch.
+What acquisition price could a rail equipment maker justify after seeing paid route results for Superwagon? A buyer-backed valuation tied to measured loaded-haul uptime, repeatable swaps, and route margins after pack and site costs would answer it. A credible range that clears the holder’s cash hurdle after debt, deal adjustments, and the actual waterfall would move the action to Reach out. A supported ceiling materially below the hurdle on the strongest credible route would trigger Pass.

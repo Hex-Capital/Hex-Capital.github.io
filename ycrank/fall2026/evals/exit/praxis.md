@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. Clio or Filevine could pay for Praxis’s reusable, lawyer-supervised software to extend their intake products into document verification, matter updates, and invoice follow-up. The potential benefit is faster rollout and more software revenue from existing customers. Ownership would make sense if Praxis can show that deploying the full workflow across firms is materially faster or more profitable than building it in-house or licensing it. The memo reports live U.S. law-firm deployments. Praxis cites an unnamed customer who previously spent about 1.5 hours a day on setup and engagement letters. That figure measures the prior workload. Time saved, paid adoption, and buyer economics remain unverified. (The Idea, Market & Traction, Key Facts)
+Praxis’s strongest exit path is a strategic acquisition by a legal practice-management platform such as Clio. Praxis describes one lawyer-supervised workflow spanning intake, document verification, matter updates, and invoice follow-up. An incumbent could buy that workflow to extend its offering beyond intake if Praxis demonstrates that firms pay for and keep using it across matter stages. Clio’s acquisition of vLex establishes a precedent for buying legal software. The memo reports live Praxis deployments at U.S. law firms and cites a customer testimonial describing 1.5 hours per day spent on setup and engagement letters before adoption. Measured savings after adoption, paid usage, and renewals remain unverified. (The Idea, Market & Traction, Key Facts)
 
-The operating milestone is sustained paid use of post-intake workflows across multiple firms, with measured staff-time savings and reliable lawyer approvals. Reported live deployments provide a starting point. The memo leaves the customer count, revenue, and capital required to reach that milestone unknown. Firm ownership of configured workflows limits what Praxis itself can convey. Assignment rights and permissions to continue serving customers under an acquirer remain unverified. (Market & Traction, Key Facts, Defensibility, Key Risks)
+The next milestone is repeatable paid deployments across multiple firms, with renewals and measured improvements in engagement turnaround or invoice collection. Live deployments give Praxis a starting point for that test. A 12–18 month validation window is an assumption, with implementation costs and available runway still unknown. A buyer could acquire the software business, subject to confirming what can transfer under customer agreements. The memo records that firms own their configured workflows and that Praxis processes confidential client data through subprocessors. (Market & Traction, Defensibility, Key Risks)
 
-**Proceeds bridge.** With actual investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. At 3% ownership, that requires $83.3 million in distributable equity, or $88.3 million in enterprise value with illustrative net debt of $5 million. The equity hurdle is $125 million at 2% ownership and $62.5 million at 4%. The sale scenarios assume cash at closing, pro rata distribution, and no additional deductions for fees or senior preferences.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and zero follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. Both illustrative sale cases assume closing within eight years, $5 million in net debt and deal adjustments, zero senior waterfall deductions, and holder eligibility to sell the entire stake for cash at closing.
 
-| Eight-year scenario | Gross cash to the holder |
-|---|---:|
-| Modest sale at $25 million enterprise value, less $5 million net debt | $600,000 (1.2×) |
-| Strong sale at $100 million enterprise value, less $5 million net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and available cash is reinvested | $0, with shares retained |
+| Scenario | Enterprise value to distributable equity | Gross cash to holder |
+|----------|-------------------------------------------|----------------------|
+| Modest sale | $40M less $5M = $35M | $1.05M (2.1×) |
+| Strong sale | $100M less $5M = $95M | $2.85M (5.7×) |
+| Prolonged private | Cash reinvested through year eight | $0 realized |
 
-The sale prices illustrate the hurdle. The memo provides no basis for a realizable price range. It also provides no evidence of cash generation to finance a sponsor buyout or company payout, eligible demand for a secondary, or operating scale for an IPO. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
+At 2.5% ownership, even the strong case pays about $2.38 million. These sale prices are scenario assumptions. A realizable Praxis price and an independent liquidity route remain unevidenced. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Clio and Filevine already ship intake automation inside their suites. They can extend those tools or integrate with Praxis, and firms own the configured workflows that might otherwise make the deployments valuable to a buyer. Without measured gains from the post-intake features, a buyer has little evidenced reason to pay an acquisition premium. This supports Watch. The memo establishes neither a structural closing block nor a credible sale price that would leave the holder materially short. (The Idea, Defensibility, Key Risks)
+Clio and Filevine already offer AI intake inside their installed platforms. If firms get enough value from those tools without moving case records, an incumbent can extend its own product, while customers’ ownership of configured workflows could limit what a purchase delivers. That weakens the case for paying a premium. Watch fits because the memo establishes overlap at intake and leaves both the value of the broader workflow and the achievable sale price unresolved. A demonstrated structural barrier or a supported sale range materially below the holder hurdle would trigger Pass. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeat paid deployments show enough incremental value from Praxis’s post-intake workflows to support a suite buyer paying roughly $88 million in enterprise value under the modeled terms? Sustained usage and measured customer gains, tied to buyer-validated estimates of incremental profit or avoided development costs, would support moving to Reach out.
+Would a practice-management incumbent pay enough to acquire Praxis’s deployed workflow for the benchmark holder to receive $2.5 million within eight years? A buyer’s build-versus-buy analysis grounded in renewed paid deployments and measured workflow gains would answer it. A credible price range that clears the hurdle after deal adjustments and the holder waterfall would move the action to Reach out. A supported range materially below the hurdle would move it to Pass.

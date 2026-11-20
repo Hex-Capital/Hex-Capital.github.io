@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Simulithic could make cross-device regression testing economical on every pull request for teams that currently check only a few flows by hand or maintain a limited set of Playwright scripts. The company documents agents that discover journeys and compare a pull-request preview with a baseline. That workflow could reduce test authoring and maintenance enough to make broader, more frequent coverage affordable. The memo provides no field comparison of human time or full cost per reliably verified change, including review, retries, failure triage, and missed regressions. (The Idea; Key Risks)
+New Economies is the strongest path. Small engineering teams already verify releases by hand or maintain Playwright scripts. Simulithic documents a workflow that maps user journeys, uses visitor behavior to select routes and environments, and compares pull-request previews with a baseline. The plausible new use is cross-device testing on every pull request for teams that currently skip it because authoring, maintenance, and manual verification take too much time. Whether teams gain that coverage at a lower cost per equally reliable verdict remains unmeasured. (The Idea, Key Risks)
 
-If rivals have equivalent models, a buyer might still pay for visitor-informed journey coverage that improves as the workspace accumulates history. The SDK and journey maps are documented. Better coverage over time and a resulting reason to stay are inferences. The founders report several unnamed live deployments, and a named user said he canceled Claude Max to try Simulithic. That signals interest in a trial, with paid repeat use by a previously underserved team still unverified. The founders have relevant engineering experience and shipped the QA product after launching production monitoring. (Defensibility; Market & Traction; Founders & Team)
+In an illustrative scenario, three journeys across four environments and two builds cost $24 in credits before retries, assuming each run is billed separately at the published $1 rate. The buyer’s cost per reliable verdict would include those credits and human triage, divided by the number of usable, correct verdicts. The comparison is the labor cost of authoring, maintaining, and running manual or scripted checks at equivalent coverage. Actual subscription prices and Simulithic’s inference, device, retry, and support costs remain unknown, so the run price establishes a billing unit while repeat-deployment margins remain untested. (The Idea, Key Risks, Key Facts)
 
-**Cost scenario.** Five journeys across three environments would cost $30 per pull request at the published $1 credit rate if each preview and baseline run were billed separately, with one agent and one attempt per run. This is an illustrative assumption. Actual subscription pricing and delivery costs are unknown. The added cadence works only if the run charges and remaining human work fit the buyer’s budget at comparable coverage and reliability. Simulithic’s own contribution per run is also unknown. (The Idea; Key Risks; Key Facts)
+Founders report several unnamed live deployments and more than 2× weekly growth on an unspecified metric. A customer’s account of canceling Claude Max to try Simulithic shows trial intent. Paid repeat use for previously skipped coverage remains unverified. The founders’ relevant engineering and agent research experience, together with the documented progression from monitoring early access to the QA launch, supports seed-stage execution. Reliable automated coverage in customer deployments remains the next execution test. (Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Simulithic may make existing QA work faster while leaving broad per-change coverage too expensive. The documented native-device limits can leave gaps that still require manual checks. BrowserStack already combines a device cloud with testing agents, and TestSprite already discovers application flows. A buyer could get equivalent coverage from either kind of alternative if Simulithic’s journey history adds little. Those facts leave both Path B conditions unresolved, so the action is Watch. The memo establishes no controlled device capacity or other scarce complement that would support Path A. (Key Risks; Defensibility; Market & Traction)
+Simulithic may make existing QA work cheaper while buyers can obtain similar capabilities elsewhere. BrowserStack already combines AI testing agents with a device cloud, and TestSprite already discovers application flows. Simulithic’s visitor SDK and workspace journey maps could make coverage more tailored over time. That benefit is inferred, and buyer preference under functional parity and network effects remain untested. The memo also establishes no control over a scarce complement. Competitor overlap raises the substitution risk without establishing functional parity or easy switching, so the path stays open under Watch. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
+| Customer demand | 7/20 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent engineering team that previously skipped broad cross-device checks buy a second testing cycle after comparing Simulithic with its manual or Playwright workflow and a credible alternative using equivalent models? Move to Reach out if the trial shows that Simulithic reduces human time and full cost per reliably verified change enough to sustain the new cadence at the price paid, and the buyer renews because its accumulated journey coverage delivers a measurable benefit over the alternative. Move to Pass if the trial shows the cadence remains uneconomic or the buyer can switch to equivalent coverage without a meaningful loss.
+Will independent small engineering teams that previously skipped per-PR cross-device QA pay to renew Simulithic after a side-by-side trial with a functionally comparable alternative using equally capable models? Move to Reach out if the trial shows a material reduction in human time and all-in cost per equally reliable verdict, sustained use of the previously skipped coverage, and paid renewals at viable prices despite the alternative. Move to Pass if the trial shows that the savings fail to unlock that coverage or that buyers readily switch at parity.

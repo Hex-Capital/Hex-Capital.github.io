@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** HyperBench could make bench-verified checks on routine cross-repository changes economical for small embedded teams that currently reserve physical retesting for higher-risk work. That buyer and testing cadence are scenario assumptions. The memo describes a manual workflow that requires engineers to cross-check datasheets, board layouts, and code before reproducing a fault on a physical bench. HyperBench says its system graph lets agents trace those faults, propose cross-repository repairs, and retest on the team’s existing hardware. Its reported evaluation covers diagnostic questions and repository debugging, with executable validators or blinded review for repairs. The labor savings on customer benches remain unmeasured. (The Idea, Key Risks)
+New Economies is the strongest path. The company describes a manual workflow in which embedded engineers reconcile datasheets, board layouts, and code, then reproduce faults on a physical bench. HyperBench claims its agents can trace faults across repositories, propose repairs, and retest on customer hardware before submitting draft pull requests. Its published evaluation covers diagnostic and repository-debugging cases, with executable validators or blinded review for repairs. That supports the technical mechanism. The market-opening hypothesis is that teams could routinely investigate cross-system faults they now defer because the work takes too much engineer time. The memo gives no baseline or comparative cost per bench-verified repair and identifies no buyer or use newly served by the workflow. (The Idea, Key Risks)
 
-The relevant comparison is full cost per successful, engineer-accepted check. HyperBench would need to save enough diagnosis, repair, and retest labor to cover interface mapping and bench setup, agent runs, retries, exceptions, and engineer review. Deployment on existing benches gives it a plausible team-by-team rollout. The founders’ firmware and AI infrastructure experience, together with the private beta, support seed-stage execution. The memo documents launch attention, while buyer commitments, repeat use, and realized deployment costs remain unknown. (The Idea, Founders & Team, Market & Traction, Key Risks)
+The documented source-linked system graph and custom Rust indexing pipeline give HyperBench a concrete implementation lead. Accumulated interface mappings and test history could make the product harder to replace, but buyer preference under model parity and switching costs remain unmeasured. The private-beta launch and launch-post views establish visibility. Buyer commitments, paid use, and repeat usage are unreported. Leong’s firmware work, Ge’s software infrastructure experience, and the beta launch support seed-stage execution. Repeatable deployment across customer benches remains unproven. The likely expansion unit is an engineering team with an existing bench. Instrument integration, inference, and engineer review would all affect contribution per deployment. Subscription pricing is an inference, and the memo provides no deployment cost or utilization data. (Defensibility, Market & Traction, Founders & Team, The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-HyperBench may speed up verification that embedded teams already perform without making additional checks economical. Under model parity, teams might also get the same result from competing tools on their own benches. Embedder already supports physical firmware debugging, and HyperBench’s proposed advantage from accumulated interface mappings and test history remains untested in buyer comparisons or migrations. Existing customer benches also leave no evidenced Path A case for HyperBench-controlled scarce capacity. The overlap leaves both Path B gates open for testing at seed. (Defensibility, Market & Traction, Key Risks)
+HyperBench may save time on embedded debugging that teams already pay for. Embedder already offers physical debugging through SEGGER probes, and HyperBench relies on customer benches. That makes physical verification a credible point of overlap and leaves the scarce-complement path unsupported by evidence of asset control. The memo leaves cross-repository parity and buyer switching untested. The New Economies gate remains open, with both market opening and willingness to pay under model parity unproven. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent embedded team pay to repeat bench-verified checks it previously skipped after comparing HyperBench with its manual workflow and a credible rival using the same model? Move to Reach out if measured end-to-end costs support the new cadence and the team places a paid repeat order because HyperBench’s system context and bench workflow confer a measurable advantage. Move to Pass if the trial shows that the added checks remain uneconomic or that the rival delivers the same outcome and the buyer readily switches.
+Will independent engineering teams pay to renew after a field trial shows that HyperBench makes a previously deferred class of faults economical to fix? Compare the manual workflow, HyperBench, and a competing workflow using an equally capable model on comparable benches. Measure fully loaded cost per bench-verified repair, including setup, failed attempts, and engineer review. Reach out if the trial shows teams can now afford to address that class of faults and choose to renew at a price that covers repeat delivery costs when a comparable option is available.

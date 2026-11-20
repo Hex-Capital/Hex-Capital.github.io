@@ -5,28 +5,28 @@
 
 ### Company case
 
-The strongest path is **repeatable direct sales** to physical-design teams approaching 3D chip tapeout. These teams repeatedly test how placement affects heat and timing. If LayerTherm helps them screen layouts within their existing verification flow, a direct pilot could lead to a software license and expansion to additional blocks or designs. The job plausibly travels across markets. Whether the same setup carries over across buyers’ design flows remains open. (The Idea; Defensibility; Key Risks)
+Assuming strong product-market fit, the strongest path is to sell LayerTherm as a screening tool that physical-design teams can reuse across stacked-die projects. It takes power distributions as inputs and predicts temperature maps so teams can screen more layouts before detailed thermal verification. The same recurring job plausibly exists across markets. How much work it takes to fit LayerTherm into different design flows remains unclear. Repeated layout iterations give teams a reason to keep using it. Recurring licenses or usage fees could turn more projects into higher account spend, but paid renewals and expansion pricing remain unverified. (The Idea, Key Risks)
 
-The observed technical evidence is a first-place finish on a macro-placement proxy metric. Archgen reports signed pilots, development work with GlobalFoundries targeting a mid-2027 tapeout, and a LayerTherm benchmark of 62 ms versus 314 seconds for conventional solvers. The pilots support bottom-band credit for early buyer fit, with counterparties, payment terms, and workflow commitments undisclosed. The GlobalFoundries work is a development signal with an upcoming validation milestone. (Market & Traction; Key Risks)
+The documented acquisition path runs from the YC launch and direct meeting bookings to pilot conversations. Setup, payment, and first use still lack a demonstrated repeatable flow. The two-person team reports signed pilots and development with GlobalFoundries, with a first tapeout targeted for mid-2027. Pilot payment, earned revenue, and the date of first paid availability remain unknown, leaving the commercial growth rate unmeasurable. (The Idea, Market & Traction, Key Facts)
 
-Even assuming strong fit, the first link likely to break is onboarding the next buyer. The YC launch and direct meeting booking provide a route to discovery, but the memo leaves the route from pilot to paid activation undocumented. Repeat use across blocks is plausible, with no customer record showing it at the design cadence. The latency benchmark leaves prediction error, integration hours, and the cost of serving the next account unmeasured. For a newly launched team, a paid pilot with a documented handoff would be meaningful evidence now. The decisive commercial links currently rest on inference, which supports Watch with Low confidence. (The Idea; Defensibility; Market & Traction; Key Risks)
+Archgen reports that LayerTherm averaged 62 ms versus 314 seconds for conventional solvers in its benchmark. Fast screening could lower compute cost per layout evaluated. Under a licensing scenario, contribution from the next account would be its fee less attributable selling, setup, compute, and support costs. Pricing and delivery effort remain unknown, and the benchmark leaves prediction error unquantified. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Buyers may prefer thermal analysis and placement automation inside their existing toolchain, where Siemens already offers overlapping capabilities. The placement proxy leaves production readiness open, and LayerTherm still sits upstream of detailed thermal verification. If each buyer needs extensive custom integration to trust and use the screening step, delivery effort could rise with each sale. The structural downside gate remains open because the memo provides no successive rollout evidence showing that this work must recur. (The Idea; Defensibility; Key Risks)
+Cadence, Synopsys, and Siemens already offer overlapping capabilities within their design toolchains. Archgen’s first-place placement result measures a contest proxy, and LayerTherm’s public benchmark leaves thermal accuracy unresolved. If each customer needs substantial integration and hands-on validation to trust the tool on a production design, selling and delivery effort could grow with each account. The structural gate stays open because the memo establishes a credible screening use case and leaves the extent of required customer-specific work unresolved. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent physical-design team reach first value in a paid pilot using the same onboarding process as the first? Move to Reach out if that team uses LayerTherm to guide a real placement decision checked through its existing verification flow, with a documented handoff and comparable setup hours across the two buyers. (The Idea; Market & Traction; Key Risks)
+Can Archgen repeat a paid production rollout using the same LayerTherm integration across independent physical-design teams in different markets? A cohort that gets to first value with limited Archgen engineering, expands paid use across projects, and generates positive contribution would support rescoring for Reach out. Evidence that each rollout requires custom work that makes contribution uneconomic would change the action to Pass.

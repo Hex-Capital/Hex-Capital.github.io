@@ -5,13 +5,15 @@
 
 ### Company case
 
-**Usage-based expansion** is the strongest plausible path. Aerospace aerodynamics teams could use Vorelios to screen design candidates before running full simulations. The scenario assumes Vorelios charges per design workload and earns more as teams bring additional projects into the same workflow. Clean CAD and operating conditions give that workflow a plausible route across markets, with portability still dependent on how much preparation and validation each new design family requires. (The Idea, Key Risks)
+Assuming strong product-market fit, the strongest path is a reusable tool for early aerodynamic design exploration. Aerospace engineering teams could use the same workflow across markets to screen candidate designs from clean CAD and operating conditions. Vorelios reports subsecond predictions on full-scale designs and thousands of candidates searched in initial runs, with predictions within a few percent of an independent solver in those runs. That supports some product reuse for a recurring engineering job. The work needed to handle a new customer’s design families remains uncertain. (The Idea, Market & Traction, Key Risks)
 
-Vorelios reports subsecond predictions from clean CAD and initial searches across thousands of candidates, with predictions within a few percent of an independent solver in those runs. The memo records a public launch, while buyer commitment, onboarding, repeat paid use, and marginal costs remain unobserved. The first link to test, assuming fit on an initial workload, is whether the same team can bring an unfamiliar design family into the workflow with bounded effort. (Market & Traction, The Idea, Key Risks)
+The memo documents a public launch, while the path from discovery through purchase and first use is unknown. Design iteration supplies a recurring job, while repeat use by the same customer, recurring billing, and expansion remain unestablished. The commercial record gives no usable evidence of paid adoption or revenue growth and leaves revenue status unknown. (The Idea, Market & Traction, Key Facts)
+
+In a usage-billing scenario, contribution per paid design search would depend on the price less inference, solver checks, and any attributable CAD preparation, onboarding, or support. Fast predictions could reduce the solver work per search if teams can reserve solver checks for a shortlist. The memo supplies no pricing or representative delivery costs to establish that contribution. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Countercase
 
-Fast predictions could still leave most of the work in CAD cleanup, retraining, and solver validation. Vorelios reports that its previous architecture failed on design families outside its training set, and the prototype requires clean geometry. If each new workload needs comparable specialist effort, higher usage could bring proportional delivery costs. The structural downside gate remains untriggered because the reported failure concerns a previous architecture and the current workflow’s per-workload effort is unresolved. (Key Risks, Defensibility)
+Each new design family could require manual CAD preparation, fresh simulations, and substantial validation. Vorelios reports that its previous architecture failed on design families outside its training set and that the current model still has an accuracy gap. If that pattern persists, engineering labor and solver work could rise with each buyer. The structural gate remains open because the memo leaves the amount of required work for early design exploration unresolved. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -19,12 +21,12 @@ Fast predictions could still leave most of the work in CAD cleanup, retraining, 
 |-----------|-------|
 | Global buyer demand | 13/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Retention economics | 7/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
 **Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an aerospace aerodynamics team that funds a first design cycle pay to use Vorelios on a second cycle involving an unfamiliar design family? A paid second cycle that meets the buyer’s agreed solver tolerance and documents bounded CAD preparation, validation, and Vorelios support effort would move the action to Reach out.
+Can aerospace teams in multiple markets buy and repeatedly run searches on unfamiliar design families through the same self-serve workflow at positive incremental contribution? Repeat paid usage through a common setup, with measured CAD preparation, solver checks, and support costs, would support moving to Reach out if the score reaches 65 and confidence rises to at least Medium. Evidence that unavoidable per-buyer work makes faster growth economically infeasible would move the action to Pass.

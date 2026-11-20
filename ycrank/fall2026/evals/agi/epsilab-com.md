@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If frontier-quality intelligence becomes cheap and widely available, labs could still be constrained by the supply of realistic long-horizon training tasks with reliable graders. Epsilab says existing benchmarks sometimes set unattainable success criteria or misgrade outcomes. It reports using workflow data and practitioners to build resettable simulations with verifiable outcomes. The investment hypothesis is that better environments save labs research time and improve transfer to real work, and that reusable data rights and validated graders let Epsilab supply those environments faster than labs or rivals can reproduce them. A representative lab comparison and enforceable reuse rights remain unverified. (The Idea, Defensibility, Key Risks)
+**Scarce complements** is the strongest path. As frontier models take on longer tasks, labs may place more value on training environments that reproduce enterprise workflows and reliably grade the outcome. The memo documents an expansion of long-duration testing. Epsilab reports that existing benchmarks can misgrade outcomes and that it uses real workflow data and practitioner input to build resettable simulations. The memo provides no comparative test showing that Epsilab’s graders are more reliable or that training gains transfer to real work. (*The Idea*, *Market & Traction*, *Key Risks*)
 
-At seed, Epsilab’s reported work with unnamed frontier labs is an early demand signal. Buyer budgets, paid use, and repeat orders remain unknown. The expansion unit is a qualified workflow environment. If each deployment produces tasks or graders that can be reused, delivery cost could fall. If each workflow requires fresh expert recreation and grader validation, specialist hours could cap throughput. The memo provides no measured delivery costs. (Market & Traction, Key Facts, Defensibility, Key Risks)
+Epsilab reports direct work with unnamed frontier labs. Payment, buyer commitments, and repeat orders remain unverified. The founders’ RL, language-model, and infrastructure experience supports early execution, and the research posting describes tests for reward hacking and generalization. Results from those tests remain open. (*Market & Traction*, *Founders & Team*, *Key Risks*)
+
+The expansion unit is one validated workflow environment. If Epsilab can reuse data rights, simulation components, and graders across orders, revenue per environment could outpace the incremental cost of simulation engineering, practitioner review, grader validation, and maintenance. Pricing, reuse rights, and delivery costs are unknown. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Labs could build internally or buy from competing environment suppliers. GDPval demonstrates internal evaluation capability, open-source tooling lowers the cost of rollout and grading infrastructure, and Bespoke Labs and Mercor already offer related training environments or simulations. Epsilab also faces the risk that agents learn grader shortcuts while real-work performance stalls. These are credible ways the scarcity or control thesis could fail. The memo contains no representative comparison that establishes equivalent substitutes or failed transfer, so the path remains open and the action is Watch. (Defensibility, Market & Traction, Key Risks)
+Labs could build comparable environments internally or buy them from rivals. The memo documents an in-house work-based evaluation, open-source rollout and grading infrastructure, and a competitor with both an expert marketplace and enterprise simulations. Epsilab’s reported access to data and practitioners gives it a plausible starting advantage. Exclusive access or an advantage that compounds with each delivery remains unproven. The alternatives make substitution credible without establishing equivalent performance, so the scarce-complements path stays open on Watch. The memo supplies no independent New Economies case showing a labor-cost reduction that brings previously excluded buyers into the market. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 7/15 |
+| Team and execution | 9/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent frontier lab place a paid follow-on order for an Epsilab environment built with workflow data Epsilab has enforceable rights to reuse, after a head-to-head trial shows better transfer to held-out real workflows than the lab’s best alternative? A qualifying order would move the action to Reach out. Demonstrated parity with a readily available substitute would close Path A and move the action to Pass. (Defensibility, Market & Traction, Key Risks)
+Will an independent frontier lab place a paid follow-on order after a head-to-head test against its best available alternative? Move to Reach out if the lab reorders because Epsilab delivers materially better performance on held-out real workflows and attributes the gain to workflow inputs the alternative cannot readily obtain. Move to Pass if a readily available substitute matches the outcome at comparable cost and turnaround.

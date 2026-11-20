@@ -5,36 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A coding-agent platform could buy Reason’s orchestration and caching technology to reduce inference costs across its own repository workloads. Reason reports 22% lower cost per solved task than Codex on the same model in a fixed-task benchmark. The reported acquisition of Cursor shows that a buyer has paid to own a coding-agent platform. For Reason, the case for ownership depends on whether a buyer can capture durable production savings that exceed what it could achieve by building or licensing similar functionality. The memo leaves buyer interest and realizable pricing unestablished. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+The strongest path is a strategic acquisition by a coding-agent or developer-tool platform. A buyer could deploy Reason’s harness across its own workloads to lower inference costs and add persistent workflows across local and cloud environments. Reason reports 22% lower cost per solved task than Codex in a same-model benchmark. The memo records SpaceX’s acquisition of Cursor, showing strategic acquisition activity in the category. The rationale for buying Reason depends on whether the savings persist at comparable quality in production and exceed what the buyer could achieve internally. (The Idea, Market & Traction, Key Risks)
 
-Reason has shipped its agent, and the company reports 20,000 users in its first four weeks. Those signals make a paid production test plausible. The operating milestone is a sustained reduction in cost per merged pull request at comparable quality across paying teams. Paying-customer counts, retention, burn, and the capital needed to reach that milestone are unknown. The founders reported raising seed funding. A purchase of the company is a plausible structure, with rights to its improvements over the public Pi harness and the continuity of provider and customer arrangements still to verify. (*Market & Traction*, *Key Facts*, *Defensibility*, *Key Risks*)
+The seed-stage milestone is a paid production pilot that measures cost per merged pull request at comparable quality across multiple customer repositories. The memo records 112 Chrome extension users, and Reason reports 20,000 users in its first four weeks. Those signals make a pilot plausible. Paying-customer counts, runway, pilot costs, and a closed seed round remain unverified. Running the harness outside the execution sandbox and supporting API-key access make integration plausible. IP transfer rights and customer permissions remain open. (The Idea, Market & Traction, Key Facts, Key Risks)
 
-**Proceeds bridge.** With actual investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash before investor taxes. At 3%, that requires about $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of illustrative net debt. At 2% and 4% ownership, the equity hurdles are $125 million and $62.5 million, respectively. The sale scenarios use simple pro rata allocation. Actual debt, fees, and senior claims are unknown.
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3%, with no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value at a full pro rata payout.
 
-| Eight-year scenario | Gross holder cash |
-|---|---:|
-| Modest sale at $25 million enterprise value, less $5 million of illustrative net debt | $600,000 (1.2×) |
-| Strong sale at $100 million enterprise value, less $5 million of illustrative net debt | $2.85 million (5.7×) at 3% ownership, or $1.9 million (3.8×) at 2% |
-| Growth plateaus, buyers stay away, public scale stays out of reach, and all available cash is reinvested | $0, with shares still held |
+| Illustrative scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|---|---|---|
+| Modest sale within eight years | $50M enterprise value less $0–10M in net debt and deal deductions yields $40–50M in equity value | $1.2–1.5M, or 2.4–3.0× |
+| Strong sale within eight years | $100M enterprise value less the same deductions yields $90–100M in equity value | $2.7–3.0M, or 5.4–6.0× |
+| Prolonged private operation | Cash is reinvested, with no distribution or eligible share sale within eight years | $0 realized |
 
-The sale prices are scenario assumptions. The memo leaves the production savings and operating scale needed to support a price range unmeasured. A sponsor buyout lacks demonstrated cash generation, a secondary lacks eligible-share demand and terms, an IPO lacks operating scale and reporting evidence, and a company-funded payout lacks demonstrated distributable cash. In a wind-down, holder cash would come from any residual after obligations and preferences. The memo provides no basis to estimate that residual. (*Market & Traction*, *Key Facts*)
+Both sale scenarios assume the holder is eligible, sells the full stake, and receives 3% of equity proceeds in cash at closing, with no senior preference diverting proceeds and no contingent consideration. At the strong case’s $90 million equity value, selling only 75% of the stake would yield about $2.0 million. The prices are scenario assumptions. The memo supplies no Reason-specific purchase price, verified revenue, or buyer economics sufficient to support a realizable range. It supplies no evidence of an independent payout route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could build or license comparable functionality. Reason builds on the public Pi harness, Cursor already operates isolated cloud environments, and Cognition already offers a cost-optimized harness. These are concrete alternatives to acquiring Reason. The fixed-task benchmark leaves savings on merged production work unverified, and provider policy changes could erode the value of subscription rollover. The evidence weakens the case for ownership and leaves open whether a sale could clear the holder’s hurdle. It falls short of the Pass gate for a structural block or materially inadequate proceeds under the strongest supported economics. (*Defensibility*, *Market & Traction*, *Key Risks*)
+Reason builds on the public Pi harness, Cursor already offers cloud agents, and Cognition already markets a cost-optimized harness. A strategic buyer could reproduce enough of Reason’s functionality internally, especially if the reported savings shrink when measured per merged pull request. That risk weakens the case for a purchase price that clears the holder’s hurdle. The evidence leaves both a structural block and a materially inadequate payout unproven, so the Pass gate remains open pending production evidence. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a production pilot with a plausible strategic buyer show enough value from owning Reason’s harness to support a purchase that clears the holder’s cash target? Buyer-validated savings per merged pull request at comparable quality, measured on recurring workloads and compared with the buyer’s build and licensing costs, would answer it. Move to Reach out if those economics support a price range that clears the modeled $88.3 million enterprise-value hurdle at 3% ownership, adjusted for any better-supported shareholder terms.
+Can Reason demonstrate a durable production cost advantage large enough for a strategic buyer to justify a price that clears the holder’s cash hurdle? A paid pilot across multiple repositories, measuring cost per merged pull request at comparable quality, would supply the operating evidence. Buyer-validated economics that account for integration costs and the in-house alternative and support at least $83.3 million in distributable equity value within eight years would move the action to Reach out.

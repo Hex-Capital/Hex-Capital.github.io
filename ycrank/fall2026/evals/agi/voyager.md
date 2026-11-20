@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Voyager describes a desktop agent that turns a creative brief into generated media and executes edits in installed apps. The former workflow requires editors or marketers to coordinate separate tools for storyboarding, generation, sound, and editing. One creator reported completing the short *Nightcap* with Voyager, Meshy, and ElevenLabs, using 78 generations and spending $128.99 on generation across the workflow. The report leaves labor hours and the cost of producing a comparable short through the former workflow unknown. (The Idea, Market & Traction)
+Voyager’s strongest path is **New Economies**. Voyager says its desktop agent can generate media and execute edits inside installed creative apps. The investment hypothesis is that automating handoffs and edits could make recurring video production affordable for small marketing teams that previously skipped it. The relevant comparison is the all-in cost per approved video, including operator time, revisions, and failed generations. The memo provides neither a manual baseline nor a measured cost reduction, so market opening remains unproven. (The Idea)
 
-**Scenario assumption.** A small marketing team that previously skipped weekly video variants because of editing costs could begin producing them if Voyager reduces the full cost per approved video enough to fit its budget. The comparison must hold quality constant and include generation, retries, human review, manual fixes, and final delivery. With equally capable models available to rivals, the reason to pay Voyager would have to come from reliable execution across the team’s installed apps and reusable project settings that save work on each production. The memo gives a plausible mechanism for both conditions, with repeat paid use and buyer preference under parity still unproven. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
+One creator reported using Voyager alongside Meshy and ElevenLabs to finish a short. That is evidence of real usage. The creator’s $128.99 in reported generation spend covers the combined workflow, and payment to Voyager and repeat use remain unknown. Voyager lists subscriptions with included credits and lets users bring their own keys. That gives it a plausible way to serve additional accounts, but credit usage and integration support costs leave contribution margins unverified. (Market & Traction, The Idea, Key Facts, Key Risks)
+
+The founders shipped Moda’s editable AI design canvas and released Voyager’s `vork` engine. That supports their ability to ship creative software at seed. Reliable delivery across app versions and permissions remains an execution milestone. (Founders & Team, Key Risks)
 
 ### Countercase
 
-Voyager may make existing editors faster while leaving previously excluded buyers unable to afford finished video. App versions and permissions affect which controls work, and review for confidential footage can add human effort. Adobe’s native agent and overlapping workflows from Higgsfield, Runway, and Krea give buyers credible alternatives. Voyager’s reported integration breadth and saved skills give it a way to compete, with no evidence yet that buyers pay to keep those advantages when a rival can deliver equivalent work. Neither required condition has cleared the gate. The memo documents overlap and execution friction, so a direct comparison can still resolve the case. (The Idea, Defensibility, Market & Traction, Key Risks)
+Voyager could save time for existing video producers while losing the workflow to native agents. Adobe already offers overlapping capabilities inside Firefly, and Runway and Krea offer agent connectors. Voyager’s ability to edit across installed apps gives buyers a concrete reason to try it, and reusable project skills could give teams a reason to stay. The memo shows no preference under functional parity or network effect. The overlap makes substitution credible, but without evidence of easy switching or a failed market-opening test, it does not close the path. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 13/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 6/20 |
+| Customer demand | 7/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent small marketing teams that previously skipped weekly video variants pay for and repeat that cadence with Voyager when a competing workflow uses equally capable models? A paid production trial should record the former workflow’s cost at the same acceptance standard, measure all labor and generation costs through approval, and give teams a comparable alternative. Move to Reach out if the fully loaded cost makes the new cadence affordable, teams repeatedly choose Voyager for its workflow execution, and the realized price covers Voyager’s variable delivery costs. Pass if the cadence remains uneconomic or teams can switch and preserve the same outcome at comparable cost and effort.
+Can a paid cohort of small marketing teams that previously skipped recurring video produce approved videos below their former cost threshold and renew when competing workflows offer equally capable models? Documented prior budgets, measured labor and generation costs per approved video, and paid renewals after a comparable trial would move the action to **Reach out**. If the trial shows the work remains uneconomic for those teams or they readily switch at parity, move to **Pass**.

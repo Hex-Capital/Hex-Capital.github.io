@@ -5,28 +5,28 @@
 
 ### Company case
 
-Path A — Scarce complements. If cheaper frontier models lead robotics developers to put more robots through pre-deployment testing, supervised physical evaluation could become a bottleneck. Developers would bear the cost through engineering time and delayed deployments. Asim describes repeatable trials that vary object shape, weight, friction, and material to probe failures that simulation or narrow hardware trials can miss. The memo identifies supervision and scene resets as throughput constraints. It provides no measured backlog, buyer delay, or field comparison showing that Asim relieves the constraint. (The Idea, Key Risks)
+**Scarce complements** is Asim’s strongest path. If more robot programs move toward deployment, developers could place more value on repeatable physical tests that uncover failures missed in simulation or narrow hardware trials. Asim says it varies shape, weight, friction, and material and uses held-out scenarios tailored to the robot and its operating conditions. The memo leaves open how often those tests uncover failures that change a release decision. (The Idea, Key Risks)
 
-Asim says it withholds test details from developers while returning results. That could make its held-out tests valuable for independent evaluation, but the memo establishes neither buyer reliance on those tests nor rights to reuse customer results across engagements. The November benchmarking launch and the earlier Vigie runtime-safety prototype show relevant execution alongside the founders’ robotics and benchmarking experience. Launch attention gives no evidence of buyer commitments. (Defensibility, Market & Traction, Founders & Team, Key Facts)
+Asim says it controls access to its private scenarios. That gives it a way to preserve test integrity today. A cross-robot library of failures could compound in value, contingent on comparable results and rights to reuse them. Buyer evidence is thin. The memo records the November benchmark launch and launch-post views, while buyer commitments, paid deployments, and repeat use remain unverified. (Defensibility, Market & Traction, Key Facts)
 
-The plausible expansion unit is one evaluation per robot and workflow, with repeat evaluations across software releases. Assuming buyers pay per engagement and Asim can reuse fixtures and test procedures, repeat work could spread setup costs. Contribution still depends on fees covering custom setup, supervision, resets, and equipment time at realistic utilization. The memo provides no realized prices, throughput, or costs. (The Idea, Key Risks, Key Facts)
+The founders’ safety, benchmarking, and robotics experience, together with Lecourtois’s Vigie prototype and the benchmark launch, support seed-stage execution. Delivering an evaluation on independent customer hardware is the next test. Assuming per-engagement pricing, contribution would depend on the fee after custom setup, trial supervision, scene resets, equipment, and simulation costs. Reusing setups for later releases could improve economics, with pricing and throughput still unverified. (Founders & Team, Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-Developers could run common tests themselves using the baseline apparatus NIST plans to distribute, while Robocurve already conducts independent physical evaluations. Asim’s assessments are specific to the system, task, and environment, and customers seeking formal approval need a separate assessment. Asim could end up selling labor-intensive engagements that buyers can reproduce or source elsewhere. The memo contains no head-to-head evidence that those alternatives meet the same deployment-specific requirements, so the substitute gate remains open and the action is Watch. (Defensibility, Market & Traction, Key Risks)
+Developers may be able to cover enough of their testing needs in-house using NIST’s planned baseline apparatus, and Robocurve already offers independent physical evaluations. Asim’s tailored trials could therefore require substantial custom labor while offering limited incremental value. Benchmark results can also lose relevance when operating conditions change, and formal approval requires a separate assessment. These facts leave scarcity and Asim’s control unproven. The memo has yet to establish that substitutes match Asim on deployment-specific held-out tests, so the path remains open and the action is Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 5/20 |
-| Team and execution | 8/15 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robotics developer pay to use Asim again after a head-to-head evaluation on a representative deployment? Move to Reach out if Asim reproducibly finds a failure that changes the buyer’s deployment decision, the best available alternative misses it within the same time and budget, and the buyer commits budget for the next evaluation. If the alternative matches the result within those limits, close Path A and Pass. (The Idea, Defensibility, Key Risks)
+Will an independent robotics developer pay Asim to test a second release after a side-by-side evaluation uncovers a failure that changes a deployment decision and that the developer’s current testing missed? A repeat paid order backed by that result would move the action to Reach out. Comparable coverage from the developer’s existing process, followed by a decision to stay with it, would support Pass.

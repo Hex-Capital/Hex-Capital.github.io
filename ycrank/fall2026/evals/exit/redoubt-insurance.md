@@ -5,36 +5,34 @@
 
 ### Company case
 
-Strategic acquisition by an established transportation brokerage is the strongest path. A buyer could acquire Redoubt’s small-fleet customer book, collect renewal commissions, and use its shared account records and software to reduce servicing costs across a larger book. Ownership could make sense if the acquired renewal income and measured servicing savings exceed what the buyer could achieve by licensing comparable software. The memo records a recapitalization of transportation brokerage Reliance Partners, which shows that outside capital has backed ownership in the sector. Redoubt’s founder reports 19 accounts, and Redoubt projects $37,600 in annual net commissions. The company-reported $56,000 customer saving is evidence of potential value to a fleet. Buyer savings and realized renewal income remain unmeasured. (The Idea, Defensibility, Market & Traction, Key Facts)
+The strongest route is a strategic sale to an established transportation brokerage. A buyer could acquire Redoubt’s small-fleet commission book and use its shared account records and servicing software across a larger book. The memo documents Reliance Partners’ recapitalization, an adjacent transaction that establishes interest in transportation brokerage but provides no pricing benchmark. Redoubt reports 19 accounts, $37,600 in expected annual net commissions, and one customer’s $56,000 premium saving. The testimonial supports customer value. Repeatable renewal income and lower servicing costs would make the case for a buyer. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-The operating milestone is a first renewal cohort with measured account retention, collected net commissions, servicing cost, and filing accuracy. Early placements and the reported $500,000 accelerator investment give Redoubt a plausible starting point. The memo leaves burn, runway, and the cost of reaching that milestone open. The founder operates the brokerage on software he builds, which supports a plausible sale of the book and software. Transfer rights for account data and software, continuity of carrier arrangements, and any required approvals remain unverified. This case assumes Redoubt remains a brokerage through the milestone. Its planned move into underwriting would bring separate authorization and capital requirements. (Market & Traction, Founders & Team, Key Risks)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return requires $2.5 million by year eight, or about $83.3 million in distributable equity at 3% ownership. The sale scenarios assume a full cash sale by year eight, pro rata participation, and no additional senior claims, escrow, or earnout after the stated deductions. The commission levels, multiples, and deductions are illustrative assumptions.
 
-The proceeds bridge assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. The target requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, the hurdle is about $88.3 million in enterprise value with illustrative net debt of $5 million. The memo supplies no usable acquisition price range or actual holder terms.
+| Scenario | Enterprise value to distributable equity | Gross cash to holder |
+|----------|-------------------------------------------|----------------------|
+| Modest sale | $5M in annual net commissions × 3 = $15M enterprise value. After $2M in assumed net debt and deal adjustments, $13M remains. | $390,000 |
+| Strong sale | $25M in annual net commissions × 4 = $100M enterprise value. After $10M in assumed net debt and deal adjustments, $90M remains. | $2.7M |
+| Prolonged private | Redoubt continues operating and reinvests available cash, with no eligible share purchase or payout assumed. | $0 |
 
-| Eight-year scenario | Gross cash to the holder |
-|---|---:|
-| Modest sale at $25 million enterprise value, less $5 million in illustrative net debt | $600,000 (1.2×) |
-| Strong sale at $100 million enterprise value, less the same illustrative net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyers stay absent, public scale remains out of reach, and available cash is reinvested without an eligible share sale or payout | $0, with shares retained |
-
-The sale cases allocate equity pro rata before investor taxes. Actual debt, fees, and senior claims are unknown. In a wind-down, holder recovery would be limited to the residual after obligations and preferences, which the memo does not quantify. The memo also gives no usable evidence of sponsor-buyout cash flow, eligible secondary demand, public-market readiness, or distributable cash for dividends or buybacks.
+The strong sale requires roughly 665× the company’s reported expected annual net commissions. At the same $25 million commission level and a 3× multiple, holder cash falls to $1.95 million. The reported $500,000 accelerator investment and initial accounts support testing the first renewal cohort. The memo leaves the time and capital needed to reach acquisition scale open. A share sale could preserve the operating entity, though carrier change-of-control terms, rights to use account data after closing, and holder participation remain unverified. The memo provides no evidence of an independent liquidity route. (Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-A brokerage can buy similar automation from Covera, while Redoubt lists Cover Whale as a market relationship that already operates through broker distribution. Those alternatives weaken the case for owning Redoubt unless its book renews and its software delivers measurable savings. The memo establishes neither a structural transfer block nor a supported sale price that leaves the holder materially short. The Pass gate therefore remains open. Watch reflects the missing evidence that a buyer could pay enough for this specific book and software. (Defensibility, Market & Traction)
+An incumbent could buy workflow automation from a vendor such as Covera and see little reason to acquire Redoubt until its renewal book is substantial. The memo reports expected commissions and one premium-saving testimonial, while leaving retention and buyer-side servicing savings unmeasured. Filing errors and dependence on outside carrier capacity could also limit the value of the book. Those gaps leave the strong sale case unsubstantiated. The memo establishes neither a structural closing barrier nor a price ceiling below the holder’s objective, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
-| Plausible investor proceeds | 8/30 |
+| Counterparty rationale or source of cash | 18/30 |
+| Plausible investor proceeds | 10/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can the first renewal cohort support a strategic acquisition price that delivers $2.5 million to the modeled holder within eight years? Measured renewal commissions, retention, and servicing costs tied to a defensible buyer valuation range would answer it. Move to Reach out if that range credibly clears the proceeds hurdle after dilution and senior claims.
+What would a transportation brokerage pay for Redoubt’s book and software at a scale Redoubt can credibly reach? First-renewal data on retained commissions and servicing cost per account, tied to a buyer-indicated price range, would answer it. Move to Reach out if those results support a path to at least $83.3 million in distributable equity by year eight under realistic deal adjustments. Pass if the evidence puts even the strongest credible sale materially below that hurdle.

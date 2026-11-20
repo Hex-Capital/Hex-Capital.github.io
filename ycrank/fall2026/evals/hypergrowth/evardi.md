@@ -5,26 +5,26 @@
 
 ### Company case
 
-Repeatable direct sales is Evardi’s strongest path. Distribution utility operations teams have a recurring job in checking switching orders before approval. Evardi’s product combines SCADA, meter, billing, and GIS data into a power-flow model, then checks each switching step against the utility’s topology and operating limits. The job plausibly travels across markets if Evardi can reuse the core model and configure it for each utility’s data and approval workflow. The memo gives no buyer geography or cross-market rollout detail. (The Idea, Defensibility)
+Evardi’s strongest hypergrowth path is to start with transformer-level load modeling for distribution utility planning teams, then sell switching checks on the same model. Assuming strong initial product-market fit, the recurring planning job and the model’s use of meter, billing, GIS, and SCADA data make the core workflow plausibly portable. How much work each utility’s data and topology require remains unclear. The model gives utilities a reason to keep using the product as loads and network configurations change. Switching checks offer a plausible expansion path, with recurring fees and expansion pricing still unknown. (The Idea; Defensibility)
 
-Evardi reports deployments at utilities serving more than 10 million electricity customers and says its switching simulation caught 60% of errors that passed manual review. The simulation shows how the product could help operators, while the deployment claim gives no account-level evidence of payment or routine use. CEO outreach and website demos provide a plausible sales route. Even assuming strong fit, the first link likely to break is the handoff from demo to a paid rollout if each utility requires substantial custom data integration and model validation. At this stage, a repeatable paid rollout with measured effort would justify outreach. (The Idea, Market & Traction, Key Risks, Key Facts)
+Evardi reports deployments at utilities serving more than 10 million electricity customers. That figure measures those utilities’ service footprint. The November launch dates the public rollout, while paid use and its growth rate remain unknown. The published performance results come from simulations on public data, leaving commercial traction and live field performance unresolved. (Market & Traction; Key Facts; Key Risks)
 
 ### Countercase
 
-Utilities may already cover this job with existing systems. The memo records that Sacramento Municipal Utility District deployed meter-based transformer monitoring and integrated AspenTech for coordinated switching and restoration. Evardi’s blind feeder simulation corrected 57% of planted mapping errors, and its SOC 2 Type II audit was underway. These facts make customer-specific validation and security review plausible sources of recurring rollout effort. The structural downside gate remains open because the memo gives no comparative rollout evidence showing that custom work must grow in proportion to sales. (Defensibility, Key Risks)
+The documented sales path runs through CEO outreach, demos, and a separate written agreement. Each deployment needs a utility-specific model, and switching checks depend on local operating limits and operator approval. If Evardi charges per utility, the incremental fee would need to cover sales effort, data integration, model validation, hosting, and support. Automated meter-to-transformer mapping could reduce setup labor, but the memo gives no deployment cost or pricing figures to size that benefit. The structural gate stays open because the documented dependencies establish friction while leaving room for reusable implementation and bounded adaptation across markets. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder take a second independent utility from demo to paid, routine switching-order review using the first rollout’s implementation playbook? A paid agreement, operator-use records at the utility’s normal switching cadence, and comparable implementation logs showing bounded custom work would move Evardi to Reach out.
+Can Evardi bring a series of paying utilities in distinct markets live on the same transformer-modeling product with limited implementation labor? Dated go-lives, recurring fees, and Evardi’s setup and support hours would show whether paid adoption is accelerating at positive incremental contribution. That would support Reach out if the updated score clears 65 with at least Medium confidence. Evidence that each rollout requires substantial bespoke rebuilding with no credible way to reduce it would trigger Pass.

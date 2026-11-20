@@ -5,17 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. Opper AI’s live integration and the launch of Aleph Alpha’s Kolibri 1 through Munito on RouterPlus show that gateways can deploy Munito’s serving layer. Munito says its EU endpoint keeps inference and explicitly stored content in the EU, defaults to zero retention for transient requests, and serves open models from several labs. An inference provider could pay to own that stack if ownership gave it durable savings on GPU serving costs or brought recurring EU workloads it could retain. The integrations establish deployment, while paid usage and buyer economics remain unquantified. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by an AI gateway that wants to own its EU inference backend. The memo documents a live Opper AI integration for EU-hosted inference. Munito says its service routes open models from several labs through an EU endpoint and retains transient requests for zero time by default. A gateway could gain control over regional routing and model availability by buying the serving layer. The value of that control depends on how much paid traffic the gateway could retain and how much it would cost to serve. (The Idea, Market & Traction)
 
-The seed-stage milestone is sustained paid production usage with a measured serving-cost advantage after GPU rental costs. The live deployments give Munito a starting point for that test. The reported $500,000 convertible note is an early financing signal. Its terms, remaining runway, and the capital needed to support production usage are unknown. Munito operates its own serving layer, making a company acquisition plausible in structure. Code ownership and the continuity of model, GPU, and customer arrangements under new ownership remain unverified. (Defensibility, Market & Traction, Key Risks)
+RouterPlus’s live Kolibri 1 deployment gives Munito a starting point for demonstrating repeat paid production usage and positive margins after GPU rental costs. The founder’s inference experience and the reported $500,000 convertible note support the plausibility of that milestone. Paid volumes, margins, runway, and the capital needed to scale remain unknown. The transferability of customer contracts and GPU arrangements also remains unverified. (Market & Traction, Founders & Team, Key Facts, Key Risks)
 
-**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% relative to 3%, and zero follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. That requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million in illustrative net debt, the 3% case requires $88.3 million in enterprise value. A year-eight sale at $25 million yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million (5.7×). Munito’s realized revenue, margins, and buyer willingness to pay are unknown, so these scenarios establish the hurdle. The reported note’s conversion or repayment treatment, actual net debt, fees, and senior claims are unquantified. (Market & Traction, Key Facts)
+Under the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale scenarios below assume $5 million in net debt and deal adjustments, no senior preference claims, and an eligible holder selling the full stake for cash within eight years. The reported note’s conversion or repayment terms remain unknown and could change dilution or cash available for distribution. (Market & Traction)
 
-If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. In a wind-down, only the residual after obligations and preferences could reach the holder, and the memo gives too little information to estimate it. A sponsor buyout lacks evidence of predictable cash flow. A secondary lacks eligible-share demand, an IPO lacks evidence of operating scale and readiness, and dividends or buybacks lack evidence of distributable cash. (Market & Traction, Key Facts)
+- **Modest sale.** An assumed $40 million enterprise value leaves $35 million in distributable equity and pays the holder $1.05 million, or 2.1×.
+- **Strong sale.** An assumed $100 million enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. At 2.5% final ownership, the same sale pays $2.375 million, or 4.75×.
+- **Prolonged private operation.** If Munito reinvests available cash and the holder sells no shares within eight years, realized proceeds are $0. The memo leaves an independent liquidity route unevidenced.
+
+The sale prices illustrate the hurdle. The memo’s published usage prices leave acquisition value unsupported. (Key Facts)
 
 ### Countercase
 
-Opper already gets EU-hosted inference through a partnership. Nebius serves overlapping models, Together offers dedicated EU deployments, and standard API interfaces lower the work of switching providers. Those alternatives make continued contracting or switching credible. Munito’s reported internal tuning experiments have yet to establish an advantage on customer workloads that would justify ownership. The evidence supports Watch. The Pass gate would require a demonstrated structural blocker or materially inadequate proceeds under the strongest supported sale economics. (The Idea, Defensibility, Market & Traction)
+A gateway can already offer Munito through a commercial integration, and standard API interfaces make switching easier. Nebius serves overlapping models, while Mistral offers EU inference for its own models and Together AI offers dedicated EU deployments. Those alternatives weaken the case for paying to own Munito. Pending certifications and rented GPU capacity could also delay the production traction a buyer would want to see. The memo establishes neither a structural closing barrier nor a credible ceiling below the holder’s hurdle. The unresolved buyer economics support Watch. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -23,12 +27,12 @@ Opper already gets EU-hosted inference through a partnership. Nebius serves over
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can Munito demonstrate enough recurring paid EU production usage and sustained GPU-adjusted cost savings to make ownership worth more to a credible buyer than contracting for the service? Buyer-specific economics grounded in those workloads that support a sale above the holder’s proceeds hurdle would move the action to Reach out.
+Can a gateway’s build-versus-buy analysis support an acquisition price that would deliver $2.5 million in cash to the benchmark holder within eight years? Repeat paid production volumes, serving margins after GPU costs, and a gateway’s estimate of the cost of building or switching would let that case be tested. Move to Reach out if those economics support a range that clears the hurdle after deal adjustments. Stay on Watch while the range is unresolved, and move to Pass if even the strongest credible price leaves the holder materially short.

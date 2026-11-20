@@ -1,30 +1,32 @@
 ﻿# Plek AI -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-Path B — New Economies. Plek could make workforce diligence economical on early-stage or low-probability PE deals where sponsors would otherwise skip a manual study. Plek says the conventional Excel and advisory workflow takes six to eight weeks. Its software maps employee census records to tasks and reconciles overlapping savings employee by employee. Plek reports that on a 3,600-person pilot its model matched an adviser’s six-week estimate of $30 million in potential annual EBITDA improvement. That comparison supports the feasibility of producing a comparable estimate in one case. Plek’s delivery time, labor hours, and realized EBITDA remain unknown. (The Idea; Market & Traction; Key Risks)
+**New Economies** is the strongest path. Plek maps employee census records to tasks and reconciles overlapping savings employee by employee. Plek says the manual alternative takes six to eight weeks and reports that its model matched an adviser’s $30 million estimate of potential annual EBITDA improvement at a 3,600-person company. That comparison supports the feasibility of modeling a live case. Plek’s analyst hours, all-in delivery cost, and realized savings remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The market-opening scenario assumes a fund would pay to run decision-ready analyses across deals it currently screens without a workforce study. The expansion unit is one completed analysis. Its full cost includes onboarding, census cleanup, model runs and retries, mapping corrections, validation interviews, and security and review work. Plek offers free diligence on abandoned deals, so realized fees across a fund’s deal pipeline would need to cover delivery costs on abandoned deals as well. The company-reported fund deployment and advisory onboarding show early engagement. Payment, repeat use, and delivery economics remain unverified. (The Idea; Market & Traction; Key Risks)
+**Scenario assumption.** Smaller PE deals that currently skip workforce diligence could become viable buyers if Plek materially reduces the cost per decision-ready study, including human validation. Employee-level traceability and reusable portfolio mappings give buyers a plausible reason to keep paying Plek when competing products have access to equally capable models. The memo contains no evidence of buyer preference under functional parity. (The Idea, Defensibility)
+
+Plek reports four completed pilots, a deployment at an unnamed $2 billion PE fund, and onboarding with an advisory firm. Those are early commitments. Payment, repeat use, and whether these buyers previously went without a study remain unknown. Bouquet’s published workforce research and Carrier’s prior optimization software work support execution. At scale, each study must cover census preparation, inference, mapping review, and any validation interviews, with enough margin to absorb free work on abandoned deals. The memo gives no basis for estimating that contribution. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Plek may speed up diligence that sponsors already commission while leaving enough mapping and validation work to keep previously skipped deals uneconomic. The memo documents model review and optional interviews, and identifies Orgvue’s existing M&A workforce scenarios and Reejig’s task mapping. With equally capable models, a rival could plausibly reproduce the core analysis. Reusing validated workforce mappings and scenario history could give buyers a reason to stay, but that advantage remains an inference. The reported evidence leaves both the market-opening and model-parity gates unresolved, supporting Watch at seed. (Defensibility; Market & Traction; Key Risks)
+Plek may make an existing advisory workflow more efficient while leaving its buyer base intact. Orgvue already sells M&A workforce scenario tools, and Reejig already maps work at the task level. If census mappings need substantial interview-based correction, human review could also erode the savings needed to serve smaller deals. The memo establishes competitive overlap. Functional parity, customer switching, and an uneconomic delivery cost remain untested, so the path stays open on Watch. The memo gives no independent basis for a scarce-complement case. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 10/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent PE fund pay Plek again for workforce diligence on deals it previously screened without a study, after comparing Plek with a functionally equivalent alternative using equally capable models? Move to **Reach out** if the trial shows lower fully loaded labor and delivery cost per accepted analysis than a comparable manual study, positive contribution across the deal pipeline, and a paid repeat order driven by demonstrated value from reusing validated mappings or scenario history. Move to **Pass** if a representative trial shows that review costs keep the use uneconomic or that the buyer readily switches to the equivalent alternative.
+Will independent PE sponsors repeatedly pay for Plek on smaller deals where they previously skipped workforce diligence, even when a functionally comparable alternative is available? Move to Reach out if a cohort shows repeat paid orders, a materially lower all-in cost per decision-ready study against a comparable manual baseline, and a documented preference for Plek after buyers compare alternatives. If the cohort shows that the cost reduction fails to open those deals or that buyers readily switch at parity, move to Pass.

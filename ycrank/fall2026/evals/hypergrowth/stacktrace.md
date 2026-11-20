@@ -1,30 +1,32 @@
 ﻿# Stacktrace -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is Fleet’s strongest path. Engineering and security teams have a recurring job overseeing unattended coding agents. Fleet documents a local sidecar that reads session logs and uses hooks to enforce policy. For teams using supported agents, the same workflow could travel across markets with setup centered on agent compatibility and policy configuration. The memo gives no buyer locations or cross-market rollout evidence. (The Idea, Key Risks)
+Fleet’s strongest path is bottom-up adoption by engineering teams running unattended coding agents, followed by paid expansion as those teams put more agent-hours under policy. Assuming strong product-market fit, the same sidecar, session-log inputs, and enforcement hooks could serve the same oversight job across markets wherever teams use supported agents. Compatibility with those agents is the main documented constraint on portability. (The Idea, Key Risks)
 
-Fleet has launched and offers self-serve signup and a browser sandbox. Its published pricing gives teams 200 free session-hours per month and prices annual enterprise plans by session-hour volume. The scenario is that a team gets value from monitoring its first workload, adds unattended workloads, and pays for more session-hours. The first unproven link is whether an independent team can get from signup to production value and paid use through a standard setup. A founder reports unnamed design partners running local or unattended cloud agents, with no detail on their Fleet deployment, workflow commitment, or budget. The memo gives no account-level repeat usage, paid expansion, or measurements of the infrastructure and support costs of serving additional hours. (The Idea, Market & Traction, Key Facts)
+Fleet documents self-serve signup and a browser sandbox, giving developers a way to try the product before engaging sales. The paid path uses demos and custom annual contracts. The recurring oversight job and Enterprise pricing by session-hour give retained accounts a concrete way to spend more as their workloads grow. Whether that expansion can outweigh churn is an inference. The memo records an October launch by a three-person team and a founder report of unnamed design partners. Paid production use, realized revenue, and commercial growth remain unverified. (The Idea, Market & Traction, Founders & Team, Key Facts)
+
+For the next Enterprise account, incremental contribution is the annual contract revenue less attributable sales, setup, support, and hosted processing and storage. Local log reading shifts part of the workload to the customer’s environment, and self-serve trials can reduce demo effort. Positive contribution remains a scenario that depends on standard deployments, bounded support, and hosted costs that grow more slowly than billed usage. The memo does not quantify those inputs. (The Idea, Key Risks)
 
 ### Countercase
 
-Native permissions and hooks could satisfy teams that use a single coding agent. Fleet’s cross-agent policy is a reason to buy only if it covers enough of a team’s recurring work. Coverage depends on supported logs and enforcement points, so additional workloads could require custom integration and ongoing support that absorb the revenue from more session-hours. The structural downside gate is not triggered. The memo identifies the coverage dependency but gives no deployment evidence that custom work grows in proportion to revenue. (The Idea, Key Risks)
+Fleet may be easy to try yet expensive to deploy in production. Coverage depends on supported logs and enforcement points, so mixed-agent environments could require hands-on integration. Claude Code’s native controls also cover some of the same job, weakening the reason for single-agent teams to upgrade. The structural gate stays open because standard deployment remains plausible for teams using supported agents, and the memo leaves the amount of required deployment work and its cost unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 15/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 63/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent engineering teams use the same Fleet setup to reach production, convert to paid plans, and add billed session-hours as they put more unattended workloads under oversight? Account records showing those steps at each team’s normal usage cadence, with measured and bounded setup and support effort, would move the action to **Reach out**.
+Can a cohort of self-serve Fleet teams convert to paid production through the standard deployment with limited staff time and positive incremental contribution? Paid invoices, deployment records, and attributable sales, support, and infrastructure costs across several accounts would answer it. Repeatable conversion on those terms would move the action to Reach out.

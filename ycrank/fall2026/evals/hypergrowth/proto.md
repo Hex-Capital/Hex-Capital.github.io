@@ -5,26 +5,26 @@
 
 ### Company case
 
-Product-led adoption is Proto’s strongest path. The company describes a workflow in which product designers turn tickets or requirements into working prototypes, compare variants, link them into flows, and share them for review. The same job could plausibly travel across markets because the core workflow uses common product team inputs. If designers can reach first value on their own, sharing a prototype could introduce Proto to teammates during real work. (The Idea)
+Assuming strong initial product-market fit, Proto’s strongest path is bottom-up adoption by product designers who repeatedly build and review interactive prototypes. The memo describes a workflow that turns prompts, Linear tickets, or Notion requirements into working variants that designers can compare, connect into flows, and share. The same workflow could serve design teams across markets with modest adaptation. Sharing could bring teammates into the product, while saved variants and flow maps could give teams a reason to return for subsequent projects. Both growth mechanisms are inferred. (The Idea, Defensibility)
 
-The memo records a November 6 early-access launch and about 161,000 views on the founder’s launch post. Proto directed that attention to alpha signups. The first unproven link is whether independent design teams can go from signup to a prototype they can use in a real review and then pay through a repeatable onboarding process. The memo documents no buyer commitment, repeat use, or incremental delivery costs. At this alpha stage, a small set of paid activations would be enough to justify outreach while retention and contribution remain open. (The Idea, Market & Traction, Key Facts)
+The memo records a November 6 early-access announcement, alpha signup promotion through Launch YC, and about 161,000 views on the founder’s launch post. That establishes a discovery channel. The described prompt-to-prototype workflow gives new users a plausible route to first value, with independent activation and payment still unverified. Recurring use and paid expansion are also unverified. Commercial status and growth are unknown. The memo provides no pricing or operating inputs for estimating contribution after any model usage, onboarding, and support costs Proto bears. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Figma already offers code-backed prototype comparison within its Design canvas. Teams could handle enough of the same job in their existing workflow that Proto earns curiosity at launch but fails to convert it into paid use. The memo also flags engineering review when prototypes need to fit an existing codebase, which could erode the standalone tool’s benefit for teams that need production handoff. These are credible risks, and the memo provides no buyer outcomes showing that either one structurally blocks product-led adoption. The structural downside gate does not trigger. (Defensibility, Key Risks)
+Figma’s Code Layers lets teams explore and compare code-backed prototypes in the design canvas they already use. That could leave Proto with occasional trial use and give teams little reason to adopt a separate paid workflow. Albert says Proto splits prototypes into smaller pull requests, but the memo identifies engineering review as a potential dependency when changes enter an existing codebase. The structural downside gate clears because the strongest path reaches first value through prototype creation and review, and the memo establishes no required per-buyer implementation or market-specific rebuild for that workflow. (Defensibility, Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 11/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 52/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent product design teams come through the same alpha signup route, turn a real ticket into a prototype they share in a team review without bespoke setup, and then pay for continued use? Account-level records showing that sequence for both teams would move the action to Reach out.
+Can a cohort of designers from launch channels independently create and share a first prototype, convert to paid use, and expand paid usage across subsequent projects? Signup, product usage, and billing records showing that pattern across multiple teams over two billing cycles, with no staff-led setup, would move the action to Reach out.

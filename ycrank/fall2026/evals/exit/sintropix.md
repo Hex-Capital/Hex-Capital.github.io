@@ -5,30 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A multi-entity ERP vendor could buy Sintropix for its shared ledger and local tax-filing workflows to accelerate expansion into Latin America. The CEO reports that managed-service customers moved their close from day 20 to day 1. That suggests customer value, while the buyer’s integration costs, revenue upside, and savings from acquiring the software remain unmeasured. (*The Idea*, *Market & Traction*)
+The strongest path is a strategic acquisition by a multi-entity ERP vendor seeking to add Latin American tax filing. Sintropix describes a shared ledger that supports both consolidated closes and local filings. An ERP vendor could acquire the software and country-specific integrations to shorten its own rollout. The strongest reported workflow result is a move from a day-20 close to day 1 for managed-service customers, according to the CEO. That result suggests customer value, while the software’s contribution and the savings to an acquirer remain unmeasured. (*The Idea, Market & Traction*)
 
-The founders report 10 ERP customers across four countries. The operating milestone is repeatable, audit-ready closes and successful local filings for paying ERP customers across at least two jurisdictions, with measured staff time per entity. The reported deployments give Sintropix a starting point. The memo gives conflicting accounts of whether the $500,000 YC financing was disbursed and provides no burn or runway figures, leaving the capital needed to reach that milestone open. The CTO built the ledger, supporting a plausible purchase of the core software through a company acquisition, subject to IP assignment and transfer rights for customer contracts and integrations. (*Market & Traction*, *Founders & Team*, *Key Risks*)
+A concrete milestone is several paying multi-entity ERP customers completing consecutive audit-ready closes and accepted local filings in Chile and Mexico, with staff hours and correction rates tracked. The founders reported 10 ERP customers across four countries, and the managed service was reported available in Chile and in beta in Mexico. Those are early operating signals. The memo leaves the cost and timing of the milestone open, including how much manual review it would require. It also gives no evidence on IP ownership or transfer permissions, or on a separate route that could pay this holder. (*Market & Traction, Key Risks*)
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The eight-year 5× target requires $2.5 million in gross cash, or $83.3 million in distributable equity at 3% ownership. The equity hurdle is $125 million at 2% and $62.5 million at 4%. Assuming $5 million of illustrative net debt and simple pro rata allocation before investor taxes, a $25 million enterprise-value sale at year eight yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). The memo establishes neither a realizable sale-price range nor actual holder terms. If growth plateaus, buyers stay away, public-market scale stays out of reach, and cash keeps funding localization, eight years of private operation yield $0 realized and the holder retains the shares. (*Market & Traction*, *Key Facts*, *Key Risks*)
+**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million of distributable equity at 3%. Both sale cases assume a full cash acquisition by year eight, an eligible holder selling all shares, $5 million in net debt and deal deductions, and no senior claims ahead of the holder’s pro rata payout.
 
-The memo establishes no predictable cash generation for a sponsor buyout, eligible share demand for a secondary, operating scale or reporting readiness for an IPO, or distributable cash for dividends or buybacks. (*Market & Traction*, *Key Facts*)
+- **Modest sale.** $40 million in enterprise value leaves $35 million in distributable equity and pays the holder $1.05 million, or 2.1×.
+- **Strong sale.** $100 million in enterprise value leaves $95 million in distributable equity and pays the holder $2.85 million, or 5.7×. If only 80% of that payout arrives within eight years, realized cash falls to $2.28 million, or 4.56×.
+- **Prolonged private.** With cash reinvested and no funded payout or eligible share purchase, the holder realizes $0 within eight years.
+
+The sale prices are scenario assumptions. The memo gives fee inputs and a founder-reported customer count, while leaving recurring revenue, buyer economics, and comparable acquisition prices unknown. (*The Idea, Market & Traction, Key Facts*)
 
 ### Countercase
 
-Rillet already combines consolidation and currency matching with UK VAT support, and Campfire integrates sales tax through Anrok. Those documented capabilities make building or partnering credible alternatives. Sintropix’s reported close-time improvement comes from managed services, so the economics of transferring that result to a buyer’s software customers remain open. The substitutes weaken the ownership case without establishing a structural block or a supported sale price below the holder’s target. The Pass gate stays open. (*Defensibility*, *Market & Traction*, *Key Risks*)
+ERP vendors already have ways to combine consolidation and tax compliance. Rillet pairs consolidation with UK VAT, and Campfire integrates sales tax through Anrok. Those approaches give a potential buyer a credible build-or-partner option. Sintropix may still save a buyer meaningful work in Latin America, but localization and human review could absorb much of that benefit. The memo leaves open whether those alternatives can match Sintropix’s specific country coverage and whether a credible bid would fall short of the payout hurdle. The Pass gate is therefore untriggered, and the unresolved buyer economics warrant Watch. (*Defensibility, Market & Traction, Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-After Sintropix demonstrates repeatable, audit-ready closes and successful filings across two jurisdictions, what would make ownership worth at least $88.3 million in enterprise value to an ERP buyer under the 3% ownership and $5 million net-debt scenario? Buyer-validated economics that quantify the advantage over building or partnering and support that price would move the action to Reach out.
+Would acquiring Sintropix save an ERP vendor enough time and money on Latin American tax localization to justify a price that clears the holder’s cash hurdle? A buyer-side build-versus-buy estimate grounded in repeatable ERP close and filing results, with measured manual review costs, would answer it. A defensible price range that clears the hurdle after deal deductions and payout timing would move the action to Reach out. A supported price ceiling materially below the hurdle for the strongest credible route would move it to Pass.

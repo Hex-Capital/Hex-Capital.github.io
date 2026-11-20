@@ -5,36 +5,32 @@
 
 ### Company case
 
-HABU’s strongest path is a strategic acquisition of the company by a multifamily developer. A buyer could deploy HABU’s parcel-screening and underwriting workflow across its own pipeline and use HABU’s records of which sites it pursued or rejected. Ownership could be worth paying for if access to the team, workflow, and records produces repeatable savings or better site selection across projects. HABU reports a working initial module. Its targets of five times as many projects per manager and up to 20% faster delivery remain unverified on a completed project. The memo supplies no measured buyer benefit or evidence of acquisition demand. (The Idea, Defensibility, Key Risks)
+HABU’s strongest route is a strategic acquisition of the corporate development sponsor by an established multifamily developer. A buyer could use HABU’s parcel screening, underwriting history, and Phoenix pipeline to originate more viable projects per manager and earn development fees and promotes. The memo reports a first site under contract and $1.126 million in corporate securities sold. HABU reports a working screening module and targets five times as many projects per manager and up to 20% faster delivery. A financed project carried through stabilization could test those targets against comparable projects and show what economics accrue to HABU. Construction debt and project equity still need to be secured, and the CEO describes prospective project checks as expressions of interest. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The first Phoenix site was reported under contract in October, and HABU sold $1.126 million in corporate securities. A financed Phoenix project that tracks staff hours, approval timing, and underwriting accuracy against a conventional baseline would give a buyer a basis for valuing the workflow. Construction debt and project equity are still needed, and the CEO’s report of prospective checks indicates interest. The memo gives no project funding commitments or corporate runway and leaves transfer rights for the software, data, and project interests unverified. (Market & Traction, Key Risks)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable corporate equity value at 3% pro rata. Project lenders and limited partners have claims on project cash. The corporate valuation depends on the fees and sponsor economics that accrue to HABU.
 
-**Proceeds bridge.** The memo gives no usable corporate sale price or shareholder terms. The illustrative $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million in enterprise value. The examples use simple pro rata allocation before investor taxes. HABU’s actual corporate net debt, fees, and senior claims are unknown. Project obligations would affect the value of cash flowing to HABU through its project interests. (The Idea, Market & Traction, Key Risks)
+- **Modest sale.** An illustrative $50 million enterprise value yields $1.5 million to the holder, or 3×.
+- **Strong sale.** An illustrative $100 million enterprise value yields $3 million, or 6×. If net debt and deal deductions reduce distributable equity to $80 million, the holder receives $2.4 million, or 4.8×.
+- **Prolonged private.** Continued operation with reinvested cash yields zero realized proceeds within eight years.
 
-| Eight-year scenario | Gross cash to the holder |
-|---|---|
-| Modest sale at $25 million enterprise value | $600,000 (1.2×) after $5 million of assumed net debt |
-| Strong sale at $100 million enterprise value | $2.85 million (5.7×) after $5 million of assumed net debt |
-| Growth plateaus, buyers stay absent, public scale remains out of reach, and HABU reinvests available cash | $0 realized, with shares still held |
-
-Both sale prices are scenario assumptions. A wind-down would pay the holder only from any residual after obligations and preferences, which the memo does not quantify. A sponsor buyout lacks evidence of predictable cash generation. The corporate raise and prospective project checks provide no evidence of an eligible secondary. The memo also supplies no evidence of listing readiness or sustained distributable cash for dividends or buybacks. (The Idea, Market & Traction, Key Facts)
+Both sale cases assume an all-cash closing by year eight, eligibility to sell the entire stake, and zero net debt, deal deductions, or senior preferences unless stated. The memo leaves acquisition pricing, the holder waterfall, and transfer terms open. Project joint ventures support project financing, and the memo identifies no independent route to corporate holder liquidity. (The Idea, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-An established developer could reproduce parts of first-pass screening with public data and its own underwriting history, or access HABU’s development capabilities through a fee-only engagement or joint venture. If much of HABU’s value remains tied to Phoenix-specific knowledge and individual projects, a buyer may have little reason to acquire the company. Project financing and lease-up exposure could also delay the operating proof a buyer would need. This supports Watch. The memo establishes neither a structural barrier to a sale nor a supported sale price that would leave the holder materially short. (The Idea, Defensibility, Key Risks)
+An established developer could reproduce first-pass screening using public data and its own underwriting records. HABU still gathers local approval knowledge manually, and the first contracted site has yet to validate the claimed delivery gains. Project-level financing and lease-up risk could limit the fee and promote stream a buyer would value. This leaves a specific gap in buyer economics and supports Watch. The memo establishes neither a structural block nor a credible sale range that falls materially short of the hurdle, so the Pass gate remains untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a multifamily developer justify an acquisition price that leaves at least $83.3 million distributable to shareholders under the 3% ownership scenario? Evidence from a financed Phoenix project showing repeatable labor savings or better underwriting outcomes, together with a buyer-specific valuation that accounts for those gains, the available alternatives, and senior claims, would move the action to Reach out.
+What price would an established multifamily developer underwrite for HABU’s corporate sponsor after its first financed project stabilizes? A buyer-backed valuation grounded in measured operating gains and actual sponsor economics would move the action to Reach out if the implied eligible cash proceeds clear $2.5 million within eight years. A supported range that leaves the holder materially short even at the high end would move it to Pass.

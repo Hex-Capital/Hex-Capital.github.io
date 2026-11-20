@@ -1,30 +1,30 @@
 ﻿# Contour -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is channel-led sales through acquired environmental consultancies. Contour says it would install Cortex with on-site engineering support. The software would research rules, calculate emissions, and draft filings while consultants handle technical judgment and client work. The investment case assumes Contour earns service fees and that acquired practices can use their client relationships and a shared workflow to deliver paid engagements. (The Idea)
+Assuming strong product-market fit with U.S. environmental consultancies, Contour’s strongest path is to acquire practices and use Cortex to increase the amount of permitting and compliance work each practice can handle. Contour says Cortex researches federal and state rules, calculates emissions, and drafts filings while consultants retain technical judgment and client responsibilities. Reusing prior filings and regulator feedback could reduce drafting effort across practices. Ongoing compliance gives clients a reason to return, though billing frequency and the scope for existing clients to spend more remain unknown. (The Idea, Defensibility)
 
-Power plant developers are a plausible first buyer segment. Air permitting and ongoing compliance give them a recurring job, and emissions calculations and drafting could carry across U.S. states. State-specific rules and review requirements leave the extent of reuse uncertain. The observed milestone is a public launch, and the memo records no buyer commitment, lead-to-paid rollout, or repeat paid work. At launch stage, a buyer-funded engagement would be relevant evidence of fit. For hypergrowth, the first unresolved link is whether a second practice can deliver the same paid service through a repeatable rollout. (The Idea, Market & Traction, Key Facts)
+Under a scenario where acquired practices earn fees per engagement, incremental contribution is the fee less consultant review and revisions, compute, and attributable sales and onboarding labor. Contour would also need to earn back the cost of acquisitions and on-site engineering. Drafting automation could improve contribution if it frees consultant time after review and rework. The memo records a November 17 public launch and leaves current-product revenue and paid deployments undisclosed, so commercial traction receives the absent-evidence default. (The Idea, Key Risks, Market & Traction, Key Facts)
 
 ### Countercase
 
-Contour may have to buy access to each new client base and supply on-site engineers for each rollout. Consultants still need to review technical work, and errors in emissions calculations could add rework before a filing can be certified. If those costs recur with each practice, draft automation may do little to improve contribution. The memo provides no measured rollout effort or marginal costs. The structural downside gate remains open because the cost pattern is a risk inferred from the proposed model. (The Idea, Defensibility, Key Risks)
+Cortex’s core output depends on U.S. federal and state rules, jurisdiction-specific filings, and consultant review. Emissions analysis and drafting may transfer, but producing filings consultants can use in a materially different regulatory system would likely require substantial changes to rule coverage, filing workflows, and validation. That dependency triggers the structural downside gate even with strong domestic fit. The described acquisition motion also requires buying practices and deploying engineers on site. Founder-led permitting inquiries provide a second intake channel, with delivery still dependent on consultants. These requirements limit repeatability, while their effect on contribution remains unmeasured. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 6/25 |
+| Repeatable acquisition and onboarding | 4/25 |
+| Retention economics | 9/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 31/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second acquired practice in another state use the first practice’s rollout playbook to take a power plant developer from intake to a paid, technically reviewed air-permitting engagement? Move to Reach out if records from both practices show that local staff can run the second rollout with bounded rule changes and that service fees leave a positive contribution after delivery and review, with the capital required to add the practice accounted for. (The Idea, Key Risks)
+Can a consultancy outside the U.S. use the existing Cortex product to complete a paid permitting engagement under a materially different regulatory system with bounded configuration and review effort? One completed engagement with a record of product changes and consultant hours would move the action to Watch if it showed that the core workflow could transfer with limited adaptation.

@@ -5,36 +5,32 @@
 
 ### Company case
 
-The strongest path is a **strategic acquisition by an established PCB design software vendor**. Resin describes a workflow that turns requirements and datasheets into editable schematics, reusable component libraries, and routed boards. Its reported KiCad and Altium interoperability gives a buyer a plausible integration path. A vendor could pay to own that workflow if it measurably reduces engineering time and board rework across its installed base, and if ownership delivers more value than building or licensing the capability. The memo supports the buyer class and the asset. Buyer interest and the value of ownership remain unverified. (The Idea, Defensibility, Key Risks)
+The strongest path is a strategic sale to an established PCB design software vendor. Owning Resin could let a buyer add requirements-to-schematic drafting and datasheet-to-component generation alongside board layout. Resin describes its router as proprietary, and its founder reports that unnamed teams shipped boards in hours versus weeks. The buyer rationale is inferred. The memo provides no independent timing or fabrication-quality measurements, buyer interest, or transaction pricing. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-A production pilot that benchmarks engineering hours and first-pass board acceptance against an incumbent workflow is a plausible seed-stage milestone. The public launch establishes that Resin has released the product. The founder’s report that unnamed teams shipped boards in hours rather than weeks gives the pilot a hypothesis to test. The reported $500,000 convertible note is an early financing signal, with runway and the cost of a production pilot unknown. The company describes its router as proprietary. The memo leaves ownership, assignment, and transfer rights unverified. (Market & Traction, Defensibility, Key Risks)
+The next milestone is repeat paid use on boards that reach fabrication, with measured engineering time and rework against the teams’ existing tools. The public launch and the listed $500,000 convertible note support the plausibility of an early test. Available runway and test costs are unknown. (*Market & Traction*, *Key Risks*)
 
-**Illustrative proceeds.** The note listing gives no usable investor economics, so the shared scenario assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3%, no follow-ons, and eight years to realize $2.5 million in gross cash. At 3%, the holder needs $83.3 million of distributable equity, or about $88.3 million of enterprise value with $5 million of illustrative net debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. These are simple pro rata estimates before investor taxes. The memo gives no basis to quantify actual debt, fees, or senior claims. (Market & Traction)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity value. The sale cases below are sensitivities. Both assume $5 million in combined debt and deal deductions, no preference payments, and an eligible holder selling the entire diluted stake for cash by year eight. The listed note’s terms and conversion status are unknown, so its effect on debt, dilution, and the waterfall remains unverified. (*Market & Traction*)
 
-| Eight-year scenario | Gross cash to the holder |
-|---|---:|
-| $25 million enterprise-value sale, less $5 million of assumed net debt | $600,000 (1.2×) |
-| $100 million enterprise-value sale, less $5 million of assumed net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyers stay away, public-market scale stays out of reach, and Resin reinvests available cash | $0 realized, with shares still held |
-
-The sale values are sensitivities. The memo gives no basis to estimate a realizable acquisition price. It also gives no evidence of cash generation that could finance a sponsor buyout, demand for eligible shares in a secondary, operating scale or readiness for an IPO and resale, or excess cash available for shareholder payouts. (Market & Traction, Key Facts)
+- **Modest sale.** $40 million in enterprise value leaves $35 million in distributable equity and $1.05 million in holder cash, or 2.1×.
+- **Strong sale.** $100 million in enterprise value leaves $95 million in distributable equity and $2.85 million in holder cash, or 5.7×. Selling only half the stake would yield about $1.43 million.
+- **Prolonged private operation.** With cash reinvested and no eligible share purchase or distribution, the holder realizes $0 within eight years. The memo supplies no evidence for an independent route to liquidity.
 
 ### Countercase
 
-Cadence already offers automated placement and constraint-driven routing, and Quilter works within existing design workflows. An incumbent could extend its own tools or partner for the remaining capabilities. Resin also labels its autorouter beta and requires engineering review before fabrication, which limits what the reported speed gains establish about production value. Those substitutes weaken the case for ownership, and the memo leaves open whether Resin’s broader workflow can deliver a material advantage. The evidence establishes neither a structural closing barrier nor inadequate proceeds under a supported sale price, so the Pass gate does not trigger. (Defensibility, Market & Traction, Key Risks)
+Cadence already offers automated placement and constraint-driven routing, and Quilter can automate layout within existing design workflows. Resin’s beta autorouter and required engineering review leave open how much time its broader workflow saves through fabrication. An incumbent could build the remaining features or buy only at a price below the holder’s hurdle. Those substitutes weaken the acquisition case, but the memo establishes neither a structural closing barrier nor a supported price ceiling. The unresolved buyer economics support Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a funded pilot with an established PCB design vendor show that Resin cuts engineering hours on production boards while maintaining or improving first-pass acceptance, with enough value to support an acquisition near the illustrative $88.3 million enterprise-value hurdle? A vendor-validated benchmark and a credible buy-versus-build case at that price would move the action to **Reach out**. (The Idea, Market & Traction, Key Risks)
+Can an established PCB design vendor justify buying Resin at a price that leaves at least $83.3 million in distributable equity? A buyer’s quantified comparison of acquiring Resin versus building the same capabilities, grounded in repeat paid deployments that show faster fabrication-ready designs without more rework, would answer it. A supported price range that clears the hurdle under plausible deal terms would move the action to Reach out. A supported ceiling materially below it would trigger Pass.

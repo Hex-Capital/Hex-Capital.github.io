@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Teams using separate virtual machines and screenshot-and-click controls may leave routine cross-app work manual when agent retries and human review make automation too expensive. Tilo’s shared workspace exposes typed actions, attributes edits, and supports undo. The investment hypothesis is that these features could lower the full cost per successful workflow enough for teams to automate work they previously handled manually. At model parity, buyers might still pay Tilo for reliable coordination and recovery across apps. Buyer behavior has yet to establish that preference. (The Idea, Defensibility)
+**New Economies** is Tilo’s strongest path. Its early-alpha Linux desktop lets people and agents work on shared app state through typed actions, with attributed changes, undo, and permission checks. A plausible new use is frequent cross-app reconciliation that teams currently batch or handle manually because automation takes too much supervision and rework. Tilo describes the prior setup as separate virtual machines with screenshot-and-click controls. It reports roughly 1/29 of the cost and 90× the speed on one same-model task. The comparison run failed, leaving both the prior cost per successful outcome and the reduction in human labor unmeasured. (The Idea, Market & Traction, Key Risks)
 
-Tilo reports roughly 1/29 the cost and 90× the speed on one same-model task. The comparison run failed, so the result suggests a technical advantage on that task while leaving the cost per successful outcome unresolved. The memo documents a browser demo and a public implementation, and the founders have relevant desktop and workflow automation experience. It identifies no independent buyer commitment or paid use. The judgment rests primarily on a company benchmark and an inferred use case. (The Idea, Market & Traction, Key Risks, Founders & Team, Key Facts)
+Tilo lists about 50 native apps on its shared state-and-action model. Integrated apps and accumulated audit history could give buyers a reason to keep paying for a hosted workspace under model parity. Hosting is a possible business model, and the memo provides no evidence of paid use, buyer preference under functional parity, or network effects. (The Idea, Defensibility, Key Facts)
 
-A paid hosted workspace is a plausible expansion unit. Tilo reports running 50 agents on one laptop at about 60 MB per agent, an early signal about memory use in a shared workspace. Contribution would also depend on utilization, hosting and inference costs, integration upkeep, and human handling of exceptions. The memo provides no realized pricing or delivery costs. (The Idea, Market & Traction, Key Risks, Key Facts)
+The two founders shipped the alpha, and the CTO previously led patent-workflow automation. Tilo reports running 50 agents in one laptop workspace at about 60 MB per agent, an early signal about workspace capacity. Contribution per hosted workspace still depends on inference, integrations, human exceptions, and recovery costs. The alpha’s backup guidance makes recovery a live operating question. (Founders & Team, The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Tilo could make already economical automation cheaper while leaving previously excluded workflows uneconomic once teams account for app integration, review, and recovery. The OS is in early alpha, and workflows that depend on third-party apps may need new integrations. Under model parity, buyers could keep their existing desktops as vendors add agent controls or self-host Tilo’s open-source software. Workspace history and app coverage give Tilo a plausible advantage, but the memo shows no willingness to pay for it when comparable options are available. Both Path B gates remain open for testing. (The Idea, Defensibility, Key Risks)
+Tilo could make existing automation cheaper while buyers continue using their current desktops and sandboxes. Its open-source local deployment gives buyers a way to use the software without buying hosting, and desktop or sandbox vendors could adopt typed actions through MCP. The memo documents overlapping products and early integration and data-durability risks. It remains open whether comparable alternatives can match the workflow and win buyers away. Neither market opening nor durable paid preference has cleared the New Economies gate, and the memo supplies no independent evidence that Tilo controls a scarce complement. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 14/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 5/20 |
 | Team and execution | 10/15 |
-| Scale economics | 7/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent team pay to repeat a recurring multi-app workflow it previously kept manual after comparing Tilo with its former process and a credible alternative using equally capable models? Move to **Reach out** if the field trial shows that Tilo clears the buyer’s cost threshold at comparable quality after integration, review, retries, and recovery, and the buyer pays to continue because Tilo’s shared state and recovery deliver an advantage the alternative cannot match. A representative result showing that the workflow remains uneconomic or that the buyer readily switches at parity would close Path B and move the action to **Pass**.
+Will independent teams repeatedly pay a viable price for Tilo-hosted workspaces to run a cross-app workflow they previously could not afford to automate? A paid field pilot should hold the model and successful-outcome standard fixed, measure total cost and human time per completed workflow, and test repeat purchases when buyers have a functionally comparable option. Newly viable workflows with repeat paid preference would move the action to Reach out. Evidence that the use was already viable or that buyers readily switch at parity would move it to Pass. An inconclusive pilot would keep it at Watch.

@@ -5,32 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Vyra’s strongest path. A video-editing vendor such as Adobe could buy Vyra’s reference-guided short-form editor to bring creators and their recurring editing workflows into its own product. Vyra combines editable timelines, searchable footage, and reusable style references. Ownership could be worth more to a buyer than building or licensing the editing features if Vyra brings a retained paying audience that the buyer would struggle to acquire on its own. The memo provides no buyer interest or measured benefit to a buyer. (*The Idea*, *Defensibility*, *Key Risks*)
+Vyra’s strongest path is a strategic sale to an established video editor seeking a short-form workflow and a paying creator base. Vyra ships reference-guided editing, searchable footage, reusable style references, and an editable timeline that external assistants can drive. A buyer could gain a workflow that creators return to for each new video. That rationale depends on repeat paid use. Vyra’s site displays a creator count with an undefined denominator, and the founders report 40M+ views on Vyra-edited content. The memo leaves paid retention and buyer interest unverified. (The Idea, Defensibility, Market & Traction)
 
-The memo records published subscription prices, a shipped hosted editing integration, and 14 iPhone ratings. Vyra displays a count of 104,982 creators without defining the count, and its founders report more than 40 million views on Vyra-edited content. Those claims leave paid conversion and retention unmeasured. A plausible seed milestone is a six-month paid cohort showing repeat use of stored footage or style references and stronger retention among creators who reuse them. Vyra could measure that with its existing product. The memo gives no burn, runway, or funded test budget to establish the capital needed to reach buyer-relevant scale. (*The Idea*, *Market & Traction*, *Defensibility*)
+The operating milestone is a 90-day paid cohort showing repeat use of footage libraries and style references. The live subscriptions and shipped web and iPhone products give Vyra a way to measure it. The memo leaves runway and the cost of reaching that milestone unverified. A software acquisition is plausible. The memo describes revocable, project-level access to footage, while leaving IP assignment and any required customer or platform consents open. (The Idea, Market & Traction, Key Risks)
 
-A software acquisition is a plausible structure. Vyra uses revocable, project-scoped authorization for external agents, and the memo leaves IP assignment and any rights or consents needed to carry creator projects into a buyer’s product unverified. The other routes lack independent support. The memo provides no cash generation to underwrite a sponsor buyout, no demand for eligible shares in a secondary or tender, no operating scale or reporting readiness for an IPO, and no excess cash or payout commitment for dividends or buybacks. The reported SAFE investment provides a financing signal. (*Key Risks*, *Market & Traction*, *Key Facts*)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. The sale scenarios assume an eligible holder sells the full stake for cash at closing within that horizon, with a pro rata waterfall and no additional preference leakage or holdbacks.
 
-Actual terms for the modeled holder are unavailable. Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million for the holder, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires $88.3 million in enterprise value before fees, senior claims, or investor taxes. The memo quantifies none of those deductions or provides a basis for an acquisition price range. (*Market & Traction*, *Key Facts*)
+| Scenario | Proceeds bridge | Holder cash |
+|---|---|---|
+| Modest sale | $30M enterprise value less $3M in net debt and deal adjustments | $810,000 (1.62×) |
+| Strong sale | $100M enterprise value less $10M in net debt and deal adjustments | $2.7M (5.4×) |
+| Prolonged private | Cash is reinvested, with no distribution or eligible share purchase | $0 |
 
-At year eight, a hypothetical $25 million sale yields $600,000 gross to the holder, or 1.2×. A hypothetical $100 million sale yields $2.85 million, or 5.7×, using the same net debt and ownership assumptions. If Vyra’s growth plateaus, buyers stay away, public-market scale remains out of reach, and the company reinvests all available cash without a secondary or payout, the holder realizes $0 and retains the shares. These scenarios show what sale prices would clear the hurdle and how continued private operation could leave the holder without cash.
+These prices are scenario assumptions. The memo provides subscription prices and audience signals, while leaving Vyra’s revenue and any buyer valuation unverified. Even in the strong case, dilution to 2.5% would reduce proceeds to $2.25 million. The memo supplies no evidence of an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Descript already supports editing through MCP, Adobe has previewed third-party agent control inside Premiere, and OpusClip offers reusable editing recipes. A buyer could serve much of the same need inside its existing product. If creators can readily move their workflow or have little reason to keep paying for Vyra, a buyer has little incentive to pay for its user base or stored projects. The substitution evidence weakens the acquisition case, while the memo leaves open whether Vyra’s retained customers could justify a sale that meets the holder’s objective. That uncertainty supports Watch. The Pass gate requires a supported structural block or materially inadequate proceeds under the strongest credible economics. (*The Idea*, *Defensibility*, *Key Risks*)
+Descript already supports assistant-driven editing through MCP, OpusClip offers reusable editing recipes, and Adobe previewed agent access inside Premiere. An incumbent could extend its own editor and give users similar capabilities inside their existing projects. That weakens the case for paying an acquisition premium. The evidence leaves both the Pass gate and the Reach out threshold unmet. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 11/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can Vyra show that repeat use of stored footage and style references retains enough paying creators to support an acquisition above the holder’s modeled hurdle? A six-month paid cohort paired with a buyer-specific estimate of the incremental subscription or retention value from owning that workflow would answer it. A defensible price range that clears the hurdle at plausible diluted ownership would move the action to Reach out.
+What would make an established editor pay enough for Vyra to leave at least $83.3 million in distributable equity value? A buyer-validated valuation range tied to retained paying creators and the incremental value of Vyra’s workflow would move the action to **Reach out** if the implied holder proceeds clear the hurdle within eight years. A supported range that leaves the holder materially short across the strongest credible sale scenarios would move it to **Pass**.

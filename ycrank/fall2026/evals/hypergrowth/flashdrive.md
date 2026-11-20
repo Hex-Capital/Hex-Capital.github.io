@@ -5,26 +5,26 @@
 
 ### Company case
 
-Product-led adoption is FlashDrive’s strongest path. The likely first buyers are engineering teams that repeatedly move files among laptops, cloud sandboxes, and CI. FlashDrive says those environments can access the same files through macOS and Linux mounts or MCP, and that it can merge concurrent Markdown and CSV edits or preserve both versions. Those interfaces make it plausible that teams in another market could use the same product for the same job, though unfinished SOC 2 work could delay adoption by some buyers. *(The Idea, Key Risks)*
+Assuming strong product-market fit, FlashDrive’s strongest path is bottom-up adoption by engineering teams whose agents share files across laptops, cloud sandboxes, and CI. The company describes a common drive accessible through macOS and Linux mounts or MCP, with on-demand byte streaming and concurrent merges for Markdown and CSV. These interfaces support the inference that teams in many markets could use the same product for the same recurring job with modest adaptation. The memo records promotion to WonderSearch users and an early-access signup through X and LinkedIn. Those are concrete acquisition routes, with independent setup, first use, and payment still unverified. (The Idea, Key Risks)
 
-The memo records 28,040 X launch-post views within two days. The first unproven link is whether teams coming through the early-access signup can connect two environments and complete a real file handoff on their own. If that works, a team could extend the shared drive to more agents and teammates as more workflows depend on the same files. That expansion is an inference. The memo documents no buyer commitment, repeated use, or paid conversion for FlashDrive. *(The Idea, Market & Traction, Defensibility)*
+Shared paths and file history could make FlashDrive part of recurring agent handoffs, giving teams a reason to stay. The limited-time free tier leaves renewals and same-account spend expansion unproven. The November 15 launch drew 28,040 X post views by November 17, but the memo gives no paid usage or revenue for FlashDrive and leaves its overall revenue status unknown. For a future paid account, incremental contribution would be recurring fees less the costs of acquisition, setup, storage, sync, data transfer, and support. Streaming only accessed bytes could reduce transfer volume. Paid pricing and measured workload costs are missing, leaving contribution uncertain under the founder-announced unlimited free egress policy. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Teams may find their sandbox provider’s bundled storage sufficient. FlashDrive’s cross-environment access would then need to justify another integration, while its reported merge benefit is documented for Markdown and CSV. The founder’s announced unlimited free egress also raises a contribution question if active teams transfer more data. The memo gives no measured delivery costs or evidence that onboarding requires bespoke work, so the structural downside gate does not trigger. *(The Idea, Defensibility, Key Risks)*
+Teams already using AWS or Daytona can get shared storage from their sandbox provider. FlashDrive’s cross-environment access and conflict handling must justify a separate bill, and the company’s merge examples cover only Markdown and CSV. If customers with heavy transfer workloads are the most willing to pay, unlimited free egress could erode contribution even as paid use grows. The structural downside gate stays open because the memo establishes neither unavoidable bespoke rollout nor a cost burden that makes growth economically infeasible. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 12/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 54/100** (Neutral)
 
 ### Decisive diligence question
 
-Can independent engineering teams from the public signup connect two environments without founder help, use FlashDrive for the same file handoff over several normal workflow cycles, and pay to keep it in place? Onboarding and usage records paired with payment from several such teams would move the action to Reach out. Launch interest or free trials alone would keep it at Watch.
+Can FlashDrive convert a cohort of teams running agents across environments into recurring, contribution-positive paid accounts through self-service? A cohort that reaches production without founder-led setup, stays paid over successive billing periods, and yields positive incremental contribution at representative transfer volumes would justify reassessing the score for Reach out.

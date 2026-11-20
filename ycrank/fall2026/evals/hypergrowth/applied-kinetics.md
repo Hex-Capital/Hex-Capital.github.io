@@ -5,26 +5,28 @@
 
 ### Company case
 
-Repeatable direct sales is the strongest path. Data center developers have a recurring job across projects: securing made-to-spec electrical equipment in time to energize each site. That job plausibly travels across markets, although buyer-approved factory lists, testing requirements, and delivery logistics may limit how much of the workflow carries over. The memo documents a launch soliciting direct inquiries and referrals. Applied Kinetics describes using agents to review specifications, schedule partner factories, and track production. Its seven-week pad-mounted transformer quote covers build and test. (The Idea, Market & Traction, Key Risks)
+Applied Kinetics’ strongest path is to start with pad-mounted transformers and reuse its specification-review and factory-scheduling software across orders from data center and energy developers. Assuming strong fit with the first buyers, the same coordination workflow could serve developers in other markets where existing plants meet buyer specifications and qualification requirements. The company reports access to 40+ partner plants and says its manufacturing base has equipped 10+ GW of projects. That figure describes the manufacturing base. The extent to which the current offer can transfer across markets remains uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
 
-Assuming comparable orders can reuse the specification review and factory scheduling workflow, the same team could handle more orders with less manual effort per order. The first unresolved link is turning a direct inquiry into a paid, delivered order through a process someone other than a founder can run. The memo leaves buyer commitments, completed deliveries, repeat purchases across projects, and order-level costs undocumented. (The Idea, Market & Traction, Key Facts)
+The documented buying path runs through direct inquiries and written project quotes. Referral intake and agent-assisted specification review are reusable, while buyers still need a project-specific quote and managed delivery. Production milestone tracking gives buyers a reason to keep using the product throughout a build. Separate procurement-agent licensing could extend that relationship across projects, though billing cadence, renewals, and expansion pricing are unknown. The two-person team’s October launch quoted a seven-week build-and-test window. Realized sales, paid deployments, and pre-revenue status are all unknown, so initial traction receives the default. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Facts*)
+
+For each incremental order, contribution is the quoted equipment sale price minus the factory build, testing, customs, freight, site delivery, and attributable sales and coordination costs. Agent-assisted specification review and scheduling could reduce coordination labor per order. The memo gives no realized order economics to show how much that saves or how contribution changes when approved factory capacity tightens. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-Applied Kinetics could operate as a bespoke equipment supplier whose workload grows in proportion to orders. Customer-approved factory lists can narrow the options for each order, and specifications, quantities, approvals, and delivery scope affect delivery commitments. The company reports access to more than 40 plants, while the 10+ GW figure describes projects equipped by its manufacturing base. Those figures leave Applied Kinetics’ own delivery effort and the benefit of switching factories unmeasured. The structural downside gate remains untriggered because the memo establishes these constraints but leaves open whether comparable orders can reuse enough of the workflow to improve contribution. (Defensibility, Key Risks)
+Buyer-approved factory lists can prevent Applied Kinetics from shifting orders to available plants. Specifications, quantities, approvals, and delivery scope can also change the work required on each order. If those constraints force repeated qualification and substantial hands-on fulfillment, software savings may be too small to let contribution grow faster than delivery costs. The structural gate stays open because the memo describes a route through existing approved suppliers and leaves the extent of market-specific rebuilding and the economics of required labor unresolved. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 8/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent data center developer go from direct quote intake to paid, on-time delivery of a comparable pad-mounted transformer through the same workflow? Order records showing that a non-founder handled the second order with fewer manual hours and positive contribution after factory, testing, freight, customs where applicable, and delivery costs would move the action to Reach out.
+Can Applied Kinetics fulfill repeat paid orders for the same transformer package in a second market through already approved factories, with positive contribution and less coordination labor per order? Completed orders with qualification records and fully loaded order costs would answer it. If comparable orders require substantial new qualification and unavoidable delivery work makes faster growth uneconomic even with strong demand, move to Pass. A successful rollout would support rescoring for Reach out once the total reaches 65 and confidence is at least Medium.

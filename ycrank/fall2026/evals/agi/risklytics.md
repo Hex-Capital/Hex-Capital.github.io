@@ -1,30 +1,30 @@
 ﻿# Risklytics -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** If AI-driven robotics deployments increase and customers continue to require liability coverage for those deployments, access to policies that cover the specific use could become more valuable. Robotics operators bear the cost when an exclusion or denial delays a pilot. The memo documents commercial liability exclusion forms and Risklytics’ public filings tracker. The founders report that three previously denied businesses obtained coverage in one week. Those placements suggest the bottleneck can bind, though the memo leaves open whether the policies met deployment requirements or whether comparable coverage was available elsewhere. (The Idea, Market & Traction, Defensibility)
+The strongest path is scarce complements. Liability coverage that affirmatively covers a robotics or autonomy company’s use can be a prerequisite for a pilot or deployment. The memo documents new generative-AI exclusion forms and a public tracker covering 736 AI-exclusion filings. The founders report placing coverage for three previously denied businesses in one week. Those placements suggest specialist brokerage can help buyers clear a coverage bottleneck, though the memo gives no policy terms, premiums, or renewals. The team shipped an intake tool after pivoting from wildfire risk modeling. A launch tester reported that the tool identified general liability for a hypothetical robotics applicant but left it unselected, illustrating why broker review still matters. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
 
-The team shipped an intake workflow that draws on its prior risk-modeling work. A launch tester found that it identified general liability for a hypothetical robotics applicant but left it unselected, illustrating why broker review still matters. The unit of expansion is a bound policy. At the founders’ stated commission of 10–20% of premium, each placement must cover the cost of broker review, carrier shopping, unsuccessful submissions, and licensing across the states served. The memo gives neither realized commissions nor broker time per placement, so repeatable contribution remains uncertain. (Founders & Team, Key Risks, The Idea, Key Facts)
+The expansion unit is a bound policy. Assuming a $10,000 annual premium and the founders’ stated 10–20% commission range, one placement would yield $1,000–$2,000 in gross brokerage revenue before acquisition, licensing, broker review, and time spent on submissions that fail to bind. The memo provides no actual commission revenue, bind rate, or broker time per successful placement, leaving contribution per policy unproven. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Insurers control underwriting, premiums, and policy terms. Rival brokers can use the public filings, and Alton Risk already places robotics coverage through specialist markets. Risklytics’ carrier map may help it find suitable terms, but the memo establishes neither preferential access nor a repeatable placement advantage. The rival offering makes substitution plausible. Whether a rival can bind equivalent coverage for the same hard-to-place risk remains open, so the path stays on Watch. The reported placements carry most of the evidence that the constraint binds for Risklytics’ customers, which keeps confidence Low. (Defensibility, Key Risks, Market & Traction)
+Carriers control underwriting, premiums, and policy wording. The filing tracker is public, and Alton Risk already places robotics liability through specialist markets. A prior denial shows buyer friction, but it leaves open whether another specialist could bind equivalent coverage. Carrier control and existing competition prevent credit for durable control today. Preferential access remains an open test, so the scarce-complement path merits Watch. The New Economies path has no measured reduction in labor cost per bound policy or evidence that cheaper intake opens a market that would still pay Risklytics under model parity. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
+| Path-specific thesis fit | 16/25 |
 | Durable value capture | 5/25 |
-| Customer demand | 9/20 |
-| Team and execution | 8/15 |
-| Scale economics | 6/15 |
+| Customer demand | 12/20 |
+| Team and execution | 9/15 |
+| Scale economics | 7/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Risklytics repeatedly bind coverage that satisfies a robotics customer’s deployment requirement when a credible specialist broker cannot obtain equivalent terms? Compare bound policies with the customers’ written requirements and competing quote outcomes across independent, previously denied applicants. Move to Reach out if a repeatable placement advantage traces to durable carrier access or a demonstrated operating capability. Move to Pass if specialist brokers consistently obtain equivalent terms.
+Can Risklytics repeatedly bind deployment-required coverage on comparable terms when another specialist broker cannot? Matched submissions for several independent robotics buyers, backed by bound policy terms and documented preferential carrier access, would move the action to Reach out. Equivalent placements through the comparison brokers would move it to Pass.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-Product-led adoption is the strongest path. Speech-model teams can discover Open Yap 1K, use the free English corpus to evaluate conversational timing, and contact the founders to license the full corpus. The memo records 8,204 monthly downloads and a second-place result for end-of-turn detection on TurnBench. Those observations establish distribution and a technical signal. The company says unnamed AI labs buy its data, but the memo leaves their route to purchase, spending, and workflow changes unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
+The strongest path is licensing the same consented, full-duplex speech corpus to multiple speech-model teams. Conditional on strong product-market fit, teams across markets can use the same synchronized recordings for recurring work on turn-taking and interruptions. Open Yap 1K gives teams a downloadable sample they can use commercially under a data-use agreement. It contains 1,602 conversations from 239 speakers, and OpenYap Turn placed second for end-of-turn detection on the November TurnBench leaderboard. That supports the demonstrated English timing workflow. Multilingual transfer remains unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Assuming the existing consent and licensing terms cover a second market, the same corpus could serve teams there that train and evaluate English speech models. Multilingual use may require fresh collection and review. Even with strong fit, the first unproven link is whether labs that find and evaluate the free corpus can convert to a standard paid license with limited founder effort. The next model iteration offers a plausible reason to buy more data, though the memo gives no account-level evidence of repeat use or paid expansion. At this stage, a documented conversion from free evaluation to paid training use would be meaningful. (*The Idea*, *Defensibility*, *Key Risks*, *Key Facts*)
+Hugging Face and GitHub give developers a way to discover and try the data independently. Paid licenses start with a founder inquiry. The memo records 8,204 monthly downloads of the free corpus, and the company says unnamed AI labs buy its data. The claim supplies a limited signal of early sales, with revenue, purchase dates, and growth pace unverified. Successive training runs could create demand for fresh recordings. The memo leaves repeat paid use, recurring license terms, and a way for existing accounts to expand spend unestablished. (The Idea, Market & Traction, Key Facts)
+
+YapRoom's stated payout implies $20 in speaker payments per usable two-person hour, before screening and human review. **Scenario assumption:** If rights allow several labs to license the same paid release, each sale can spread collection and review costs across more buyers. Contribution then depends on license revenue covering the release costs and the incremental work of selling, delivering, and supporting each license. The memo leaves paid prices, reuse rights, and labor per sale uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Labs may find the free corpus useful for experiments while reserving budget for one-off datasets tailored to a language or task. The memo estimates speaker payouts at $20 per usable two-person hour before human review, so fresh collection for each buyer could make delivery costs rise with sales. Licensing the same consented corpus to multiple buyers could spread those costs, assuming buyers accept the existing data and the rights permit reuse. Buyer-level pricing and delivery costs are unknown. The structural downside gate does not apply because the memo does not establish that paid sales consistently require bespoke collection. (*The Idea*, *Defensibility*, *Key Risks*)
+Labs may primarily pay for private datasets tailored to their language or recording requirements. In that case, each sale could require fresh paid collection, consent checks, and human review. Founder-led licensing adds friction, and oto's advertised entry price suggests pricing pressure for buyers with a viable substitute. The structural downside gate stays open because the existing corpus demonstrates reusable distribution and the memo leaves open whether bespoke work is required for ordinary paid buyers. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 9/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 19/25 |
+| Repeatable acquisition and onboarding | 8/25 |
+| Retention economics | 7/20 |
+| Initial traction | 8/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent speech-model teams discover Open Yap through its public release, evaluate it on a model run, and buy the same full-corpus license with limited founder time and no fresh collection? Buyer evaluation records, signed licenses, and a record of the work required for both accounts would answer it. Two such conversions would move the action to **Reach out**.
+Can a cohort of labs that discover Open Yap independently buy a standard release, use it in training, and pay for a subsequent release at healthy incremental contribution? Dated activation records, first and repeat invoices, and attributable collection, review, sales, and delivery costs would answer it. Move to Reach out if those records establish a repeatable, low-touch paid path and lift the score to at least 65 with Medium or High confidence.

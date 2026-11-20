@@ -1,30 +1,30 @@
 ﻿# Quippy -- Hypergrowth Evaluation
 
-**Action:** Watch
-**Evidence confidence:** Low
+**Action:** Watch  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Product-led adoption is Quippy’s strongest path. Adults who want to handle difficult conversations can download the app, rehearse by voice or text, and get line-by-line feedback. Quippy says it uses recurring mistakes to tailor later drills, giving users a reason to return and potentially pay for unlimited practice. One reviewer reported using Quippy after a move and forming a new friend group. That is a concrete signal of early fit for adults trying to build new friendships, with payment and continued use still unknown. (The Idea, Defensibility, Market & Traction)
+Quippy’s strongest path is a self-serve consumer subscription for adults who repeatedly rehearse difficult conversations. Assuming strong product-market fit, the same voice and text rehearsal flow could serve buyers across multiple markets that share a supported language. Dating, friendship, and workplace conflict give users reasons to return. The company describes feedback and drills tailored to recurring mistakes, and saved practice history gives later sessions something to build on. Language and conversational norms could require adaptation beyond those markets. (The Idea, Defensibility)
 
-The same rehearsal workflow could plausibly serve a second market if Quippy can adapt its scenarios and feedback to local conversational norms and meet local privacy requirements. The first link likely to break, even assuming strong fit, is repeatable self-serve conversion. The app stores provide a route to download, and the memo records 92 U.S. iOS ratings. It gives no channel-level evidence connecting discovery to a useful first rehearsal, a Plus purchase, or a referral. With iOS live since July 2026, monthly subscribers could already provide an early renewal signal. (The Idea, Market & Traction, Key Risks)
+Scenario-specific articles and app-store discovery give users a route to a free download, a first rehearsal, and an optional in-app subscription. One reviewer reported using Quippy for practice. Roughly four months after the July iOS release, the memo records 92 U.S. ratings and an estimated 10,000+ worldwide iOS installs. Those signals establish early adoption. Realized revenue and paying-customer growth remain unknown, so commercial traction receives the absent-evidence default. (The Idea, Market & Traction)
 
 ### Countercase
 
-Users may rehearse for an immediate social problem and stop once it passes. The reviewer’s account is consistent with that pattern, and the memo leaves open whether personalized drills sustain practice across situations. If subscribers do practice frequently, unlimited Plus usage could raise third-party model costs without increasing subscription revenue per account. The memo provides no cohort or per-session cost measurements to resolve either risk. The structural downside gate stays open because the evidence does not establish persistent churn or structurally poor contribution. (The Idea, Defensibility, Market & Traction, Key Risks)
+Users may practice intensively around a specific problem and cancel once it passes. Unlimited Plus offers little room for a retained subscriber’s bill to grow, and Shards are listed as one-time purchases with an uncertain role in expansion. Under a heavy-use scenario, the listed annual plans yield about $4.17–$5.83 per subscriber-month before attributable acquisition, model, speech, and support costs. Frequent voice sessions could compress contribution. Text practice could reduce speech costs if users find it an effective substitute. The structural gate stays open because the frequency of costly usage and its effect on contribution remain unmeasured. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 18/25 |
+| Repeatable acquisition and onboarding | 20/25 |
+| Retention economics | 12/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 62/100** (Neutral)
 
 ### Decisive diligence question
 
-Can successive cohorts of adults seeking to build new friendships come through the same acquisition channel, complete a useful first rehearsal without staff help, and convert to Plus? A cohort funnel showing that sequence in both cohorts, with continued practice through the first monthly renewal, would move Quippy to Reach out. First-session use with little paid conversion or repeat practice would keep it at Watch.
+Can Quippy grow paid subscriptions through its self-serve funnel at positive incremental contribution? Successive monthly cohorts showing meaningful growth in paying subscribers and positive contribution after attributable acquisition and serving costs at actual voice and text usage would move the action to Reach out.

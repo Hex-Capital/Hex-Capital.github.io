@@ -5,30 +5,34 @@
 
 ### Company case
 
-A strategic acquisition by a solar tracker manufacturer is Libra’s strongest path. The memo records a live demonstration at FTC Solar’s Robo Day, and Libra reports compatibility with FTC Solar’s 1P Pioneer tracker. Those facts establish a specific product fit. A manufacturer could buy Libra’s software, reusable installation skills, and field-tested tooling to deploy crews across more sites with less engineering per job. Ownership could make economic sense if integrating those capabilities into the tracker offering delivers greater savings or deployment control than contracting for installations. The memo leaves buyer interest and that economic advantage unverified. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a solar tracker supplier such as FTC Solar. Libra demonstrated its robots at FTC Solar’s Robo Day and reports compatibility with FTC’s 1P Pioneer tracker. A supplier could acquire Libra to offer automated installation alongside its trackers if owning the technology materially lowers installation costs or reduces the engineering required on each new site. The demonstration establishes product relevance. The economics of ownership remain an inference. (*Market & Traction*, *Defensibility*, *The Idea*)
 
-The operating milestone is a paid rollout across distinct solar sites that shows lower installation costs and less site-specific engineering on repeat deployments. The live demo establishes field progress, and Libra reports deployments and signed commercial agreements. The reported $56 million in potential deployment value comes from letters of intent, while the signed agreements have undisclosed values. The memo gives no test budget, burn, or runway to assess whether Libra can fund the rollout. It also leaves ownership and transfer rights for the software, tooling, and customer agreements unverified. (Market & Traction, Key Risks, Key Facts)
+Libra reports signed solar installation agreements, and the memo records field-test access through Sunstall and pilots booked through March 2027. Those are practical opportunities to measure fully loaded installation cost and reliability across sites. The capital and runway required to complete that work are undisclosed. The reported $56 million in potential deployment value tied to letters of intent provides a scale signal. Realized revenue is undisclosed, and the memo provides no buyer price or acquisition comparable. (*Market & Traction*, *Key Risks*, *Key Facts*)
 
-The memo provides no usable sale-price range. Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million, or $83.3 million of distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With an illustrative $5 million of net debt, the 3% case requires about $88.3 million of enterprise value. Assuming cash at closing and simple pro rata distribution before investor taxes, with no additional fees or senior claims, a $25 million sale yields $600,000 (1.2×) and a $100 million sale yields $2.85 million (5.7×). At 2% ownership, the same $100 million sale yields $1.9 million (3.8×). These figures set the hurdle for buyer economics. (Key Facts)
+The proceeds scenarios use the rubric’s $500,000 check at a $10 million post-money valuation, with 5% starting ownership diluted to 3% and no follow-ons. The eight-year objective is $2.5 million in gross cash, which requires about $83.3 million in distributable equity value. The sale scenarios assume a full cash acquisition within eight years, holder eligibility to sell the entire stake, $5 million in combined net debt and deal adjustments, and a pro rata payout with no senior claims diverting proceeds. Actual participation rights and waterfall terms are unverified.
 
-If paid deployments plateau, strategic buyers keep contracting for installations, public-market scale stays out of reach, and Libra reinvests all available cash in field operations, the holder realizes $0 over eight years and retains the shares. The memo supplies no cash-generation evidence for a sponsor buyout or company-funded payout, no evidence of public resale readiness, and no eligible secondary demand. In a wind-down, any holder recovery would come from the residual after obligations and preferences, which the memo does not quantify. (The Idea, Market & Traction, Key Facts)
+| Scenario | Cash to the holder |
+|-----------|--------------------|
+| Modest sale | $50 million assumed enterprise value yields $45 million in distributable equity and **$1.35 million** to the holder (2.7×). |
+| Strong sale | $100 million assumed enterprise value yields $95 million in distributable equity and **$2.85 million** to the holder (5.7×). At 2% ownership, the same sale pays $1.90 million (3.8×). |
+| Prolonged private | Continued operation with cash reinvested yields **$0** in realized proceeds within eight years. The memo supplies no evidence of an independent payout route. |
 
 ### Countercase
 
-A tracker manufacturer could contract for the same installation work and preserve its choice of vendors. Sunstall has worked with both Libra and Cosmic, and Libra already sells completed installations as a service. Libra’s reported 10× reduction in task-to-deployment time lacks an independent cross-site benchmark. A buyer could therefore value the service while seeing little reason to pay for ownership. This supports Watch. The memo establishes neither a structural block nor a realizable sale price that would trigger the Pass gate. (The Idea, Key Risks)
+A tracker supplier could work with an installation partner and capture much of the benefit without acquiring Libra. Sunstall has worked with both Libra and Cosmic, Libra builds on commercially available hardware, and its claimed 10× reduction in time to deploy a new task lacks an independent cross-site benchmark. If Libra still needs substantial engineering on each job, a supplier has less reason to own the system or pay a price that clears the holder’s hurdle. The evidence supports Watch. It establishes neither a structural barrier to a sale nor a credible sale-price ceiling below the hurdle. (*Key Risks*, *Defensibility*, *Market & Traction*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
-| Plausible investor proceeds | 8/30 |
+| Counterparty rationale or source of cash | 16/30 |
+| Plausible investor proceeds | 10/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Libra document a paid rollout across two distinct solar sites whose economics give a tracker manufacturer a reason to buy at a price that clears the holder’s hurdle? Measured savings after tooling, field labor, and site-specific engineering, together with a buyer-side valuation that accounts for the option to contract for the work, would move the action to Reach out if the supported range clears the hurdle at plausible diluted ownership.
+Would a tracker supplier’s buy-versus-partner analysis support an acquisition at roughly $88.3 million or more in enterprise value under the modeled terms? Customer-verified results from two paid solar sites showing repeatable installation savings after hardware, field support, and site-specific engineering costs would let a named supplier test that price. A credible buyer case at the hurdle would move the action to Reach out. Evidence that the strongest credible route falls materially short would move it to Pass.

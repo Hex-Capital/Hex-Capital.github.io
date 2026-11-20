@@ -5,26 +5,28 @@
 
 ### Company case
 
-Deploy’s strongest path is repeatable direct sales to third-party logistics operators. Mixed-item returns, kitting, and packing are recurring jobs that plausibly travel across markets. Deploy’s proposed motion is to win a pilot, install a robot arm at an existing station, and convert the pilot into a monthly per-station rollout after meeting agreed service levels. The Fulfill listing and direct pilot inquiries give buyers ways to find Deploy. The memo records a booth demo that packed more than 800 pens after about 30 minutes of fine-tuning data collection. It documents no buyer-funded pilot, paid go-live, or repeat paid use. (The Idea, Market & Traction, Key Risks, Key Facts)
+Assuming strong product-market fit, Deploy’s strongest path is to standardize a robot station for mixed-item packing and expand from paid third-party logistics pilots to additional stations. The recurring job plausibly transfers across markets, and the robot-arm setup, workflow software, and remote exception handling are reusable in principle. The amount of site-specific adaptation remains uncertain. Fulfill’s vendor directory gives Deploy a concrete acquisition channel, and pilots with agreed service levels give buyers a repeatable path to purchase. Physical installation and workflow tuning still require hands-on work. (The Idea, Key Risks)
 
-Even assuming strong fit with the first 3PL buyer, the first likely break is getting the next site to production with bounded setup effort. If task data and exception recoveries transfer between sites, RoboJudge could help Deploy reuse setup work and let remote operators cover more stations. That scenario depends on monthly fees covering hardware, installation, maintenance, and remote intervention at the promised throughput. Deploy advertises pricing about 50% below labor cost and no setup fee. The memo provides no customer-site cost or operator workload measurements to test that scenario. (The Idea, Defensibility, Key Risks)
+Deploy advertises monthly per-station pricing. Packing is an ongoing job, and adding stations gives retained customers a concrete way to spend more. Expansion depends on meeting throughput targets across different item mixes. The memo documents an October 2026 launch and a trade-show demo in which Deploy reported packing more than 800 pens after about 30 minutes of fine-tuning data collection. Realized revenue, paying customers, and production rollout pace remain unknown. (The Idea, Market & Traction, Key Risks, Key Facts)
+
+In an illustrative scenario where the advertised price is half the labor cost for equivalent throughput, that fee must cover robot capacity and maintenance, acquiring and installing the station spread over its paid life, compute, support, and remote operator coverage. RoboJudge’s exception routing and reuse of intervention data could lower operator time per station if the learning transfers across sites. The memo gives no measured inputs to establish positive contribution under production workloads. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The pen-packing demo used one item type. Changing item mixes at customer sites could require fresh training and frequent remote intervention, particularly when exceptions occur at several stations at once. Deploy’s throughput guarantee would make that labor a delivery cost, and its no-setup-fee offer would leave station fees to recover installation costs. The structural downside gate remains open because the memo contains no production evidence that these costs rise in proportion to station count. (Market & Traction, The Idea, Key Risks)
+Even with strong demand, each new station could require substantial tuning and dedicated equipment, while simultaneous exceptions could force Deploy to add operators to honor its throughput guarantee. If those costs rise with each installation, additional stations could add revenue without improving contribution. The narrow demo leaves that risk unresolved. The structural downside gate stays open because the memo does not establish that site-specific effort or remote staffing must scale in proportion to deployments, and exception routing offers a concrete way to reduce operator workload. (The Idea, Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 15/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a paying 3PL expand from a pilot to a second facility using the same rollout process? Move to Reach out if the second site sustains agreed throughput on its normal mixed-item workload and the station fees cover measured installation and operating costs, including remote operator time.
+Can Deploy convert paid packing pilots into a rapid, profitable rollout using the same deployment playbook across independent logistics operators in two markets? A dated rollout showing growth in paid stations, bounded installation effort, and healthy per-station contribution after meeting contracted throughput and covering peak remote staffing would support Reach out if the updated score reaches 65 with at least Medium confidence. A rollout showing that unavoidable site work and staffing erase contribution, with no credible way to reduce either, would change the action to Pass.

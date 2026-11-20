@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Relatives currently handle calls, appointments, errands, and wellness check-ins themselves. Their available time can limit which tasks get done between check-ins. Rhemy could make routine assistance economical at a higher cadence by handling reminders and web errands and involving relatives when a task needs help. The memo documents a preorder launch and an advertised $99/month rental. A customer testimonial published by Rhem describes blood-pressure reminders and logging. That account supports one narrow workflow. Family time saved, tasks newly completed, and paid repeat use remain unmeasured. (The Idea, Market & Traction, Key Facts)
+**New Economies** is the strongest path. Rhemy could make routine calls, appointment booking, and web errands viable for older adults who otherwise defer them because relatives must coordinate or complete each task. The prior delivery cost is family time. Rhem says Rhemy can make calls and navigate websites by voice, with relatives stepping in through Rhem Connect. The labor-saving mechanism is plausible, but the memo gives neither a baseline nor a comparison of human time per successfully completed errand, including retries and family intervention. The company-published user testimonial describes blood-pressure reminders and logging, a narrower use than the errands that could open the market. The preorder launch and advertised prices are documented, while paid uptake and repeat use are unknown. (The Idea, Market & Traction, Key Facts)
 
-**Model-parity scenario.** With equally capable models available to rivals, families might still pay for local sensing, saved routines, and coordinated handoffs through Rhem Connect if the bundle reliably reduces their work. Rhem reports onboard processing. Preference for the bundle and switching costs from saved routines remain hypotheses. The founders’ robotics and hardware experience, together with the preorder launch, support early execution. Representative in-home deployment remains the next test. (Defensibility, The Idea, Founders & Team, Market & Traction)
+Under model parity, families might still pay for the tabletop device, local processing, and a familiar way to step in. Rhem reports onboard processing, but preference for the bundle and switching costs from saved routines remain untested. The founders bring robotics research, early engineering, and hardware experience, and they have brought the product to preorder. Repeat household deployment and support remain execution gaps. (Defensibility, Founders & Team, Market & Traction)
 
-Each additional rental household brings in $99 per paid month at the advertised price. Viable expansion depends on recovering device and fulfillment costs over the paid rental period while covering returns, support, cloud processing, and exception handling. The household cost comparison also needs to count review, retries, and relatives’ intervention time per successful outcome. The memo supplies pricing but leaves those costs and paid rental duration unknown. (The Idea, Key Risks, Key Facts)
+Each rented household is an expansion unit. Assuming six paid months at the advertised $99 rate, a rental brings in $594 in gross receipts before hardware, shipping, setup, inference, support, and returns. The memo supplies neither those costs nor paid tenure, so repeat deployment economics remain unproven. (The Idea, Key Facts)
 
 ### Countercase
 
-Rhemy may make existing check-ins more convenient while leaving relatives responsible for the work that limits their frequency. Rhem positions its wellness estimates for use alongside existing medical equipment, and Halo leaves contacts responsible for arranging help after alerts. ElliQ and Vayyar already cover parts of the bundle, so equivalent intelligence could make the rest easier to replicate. The memo establishes neither full-bundle substitution nor a failure to save labor in a representative home. Both Path B gates remain open, and the memo identifies no controlled scarce input for Path A. (Key Risks, Defensibility, Market & Traction)
+Rhemy may sell convenience within the existing companion and monitoring market while leaving relatives responsible for exceptions. ElliQ already offers reminders and family check-ins, Vayyar offers touchless monitoring, and Halo can miss falls or generate false alerts that contacts must handle. Those facts weaken the labor-saving and durability cases, and the memo identifies no scarce asset or service that Rhem controls. The overlap is at the feature level, with no direct evidence of easy substitution for the full workflow or a failed labor-saving test. Both New Economies conditions remain open, which supports Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 8/15 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent households that previously skipped routine errands or wellness check-ins renew at $99/month after trying Rhemy and a setup with equally capable models? A small paid in-home trial should compare both setups with each household’s prior routine, tracking newly completed tasks, delivered cost and family minutes per successful outcome, including retries and handoffs. Move to **Reach out** if the trial shows that lower labor makes previously skipped tasks routinely feasible and families renew because Rhemy’s in-home setup delivers value under model parity. Move to **Pass** if a representative trial shows that either required condition fails.
+Will independent households keep paying $99 per month for Rhemy when comparable model assistance is available because it reliably completes errands they previously deferred? A paid household pilot could log previously deferred errands, successful completions, and family minutes per completion, including retries and interventions, then measure renewal after families try a comparable model-based alternative. Material labor savings, newly completed errands, and paid renewal under that comparison would move the action to Reach out. Direct evidence that households simply shift existing errands or readily switch at parity would move it to Pass.

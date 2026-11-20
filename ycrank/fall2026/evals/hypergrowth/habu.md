@@ -1,30 +1,30 @@
 ﻿# HABU -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **channel-led or repeatable sales**. HABU could use investor and landowner introductions to originate similar infill projects for institutional investors and family offices, then reuse its parcel screening and underwriting workflow across deals. The memo records a first Phoenix site under contract. HABU reports a working screening module and retains records of parcels it pursues or rejects. The CEO reports interest in project checks of $100,000 to $1 million. The $1.126 million raised was corporate financing. The acquisition channels are identifiable, but the memo gives no buyer journey through a fee-paying close, repeat project commitment, or measured rollout effort. The site contract is an early execution milestone. Buyer fit remains unproven. (*The Idea*, *Defensibility*, *Market & Traction*)
+HABU’s strongest path is to use its internal parcel screening and underwriting tools to handle more multifamily projects per manager. It earns project-specific development fees and can earn a share of profits on sponsored projects. Investor introductions and a standard inquiry form give HABU a reusable way to find prospects. Each engagement still requires deal-specific diligence and negotiation, and sponsored projects require their own debt and equity. Expansion revenue would depend on investors or clients choosing to do another deal. (The Idea, Defensibility, Key Risks)
 
-Assuming strong fit with Phoenix investors, the first likely bottleneck is reusing the workflow in a second market. The buyer’s job plausibly travels, while HABU’s manual collection of local approval knowledge leaves the cost of adapting the workflow open. In a favorable scenario, HABU can reuse screening and underwriting, limit the new local work, and earn a development fee that covers incremental origination and delivery costs while accounting for sponsor capital committed. Any promote depends on project profits. (*The Idea*, *Key Risks*)
+The two-founder team had its first Phoenix site under contract in October, shortly after its September launch. The memo records $1.126 million in corporate securities sales and separately attributes prospective project check sizes to the CEO. Earned fees and paid growth are undisclosed. On the next project, contribution would come from the earned fee and any realized promote, less attributable sourcing, diligence, delivery labor, and tooling costs, including pursuit costs on deals that fall through. Sponsorship also ties up HABU capital. Automating first-pass screening could lower pursuit costs, but HABU’s targets of five times as many projects per manager and up to 20% faster delivery lack completed-project validation. (Founders & Team, Market & Traction, Key Facts, Key Risks)
 
 ### Countercase
 
-HABU may become a conventional developer with faster parcel screening. It gathers local approval knowledge manually, favors sites that already permit the intended use, and needs construction debt and project-specific equity for each sponsored development. Even substantial desk-work savings could leave the effort and capital required for each additional project largely intact. HABU’s targets of five times as many projects per manager and up to 20% faster delivery remain unvalidated by a completed-project comparison. The structural downside gate remains open because the memo leaves the magnitude and scalability of those costs unresolved. (*The Idea*, *Key Risks*)
+Institutional buyers could have the same recurring development needs across markets, and HABU reports a working screening module that reuses parcel and underwriting records. Under a fee-only scenario where the client supplies project capital, HABU could reduce its own capital commitment. The stronger evidence concerns delivery: HABU manually gathers knowledge of Phoenix approval practices and selects parcels that already permit the intended use. Even with strong demand, serving substantially different markets would require rebuilding that approval knowledge and adapting project delivery market by market. That triggers the structural downside gate. The potential magnitude of automation savings remains uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 6/25 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 3/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 26/100** (Pass)
 
 ### Decisive diligence question
 
-Can HABU take a comparable infill project in a second market to a financed, fee-paying close using the same core workflow? A documented close would move the action to **Reach out** if a side-by-side comparison with Phoenix showed bounded local rework and positive incremental contribution after origination, underwriting, and delivery costs, with the sponsor capital commitment quantified.
+Can HABU earn a development fee on a project in a market with materially different approval practices while reusing its Phoenix workflow with limited local setup? A paid engagement that clears the relevant approvals and documents the adaptations, staff hours, and positive incremental contribution would move the action to Watch.

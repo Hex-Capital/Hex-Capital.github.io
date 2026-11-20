@@ -1,30 +1,30 @@
 ﻿# Ample Computer -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**Product-led adoption** is the strongest path. The likely first buyer is a builder who uses coding agents to ship and maintain customer-facing web apps. Ample’s verified Claude connector puts deployment inside the builder’s existing workflow. Ample says it reads the app’s code, provisions the required services, and returns a live URL. The recurring job of deploying apps with databases, storage, and email plausibly travels across markets. The Quibdó registration site is an early example, while the work required to serve a second market remains unmeasured. (The Idea, Market & Traction)
+Ample’s strongest path is self-serve hosting for builders who ship web apps through coding agents. The memo documents a verified Claude connector, direct signup, a CLI, and 2,144 published deployment recipes. Ample describes a flow that reads app code, provisions the required services, and returns a live URL. Its launch testimonials describe a storefront taking checkout submissions and an event site taking registrations. Assuming strong product-market fit with these builders, the same source-to-deployment workflow can plausibly serve them across markets with modest adaptation. The documented path supports discovery and first use, while independent paid checkout remains unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Two launch testimonials show early production value. SA Collection reported 55 order or checkout submissions in 18 hours, and the Quibdó site reported about 30 registrations in 16 hours. Putting real workflows live supports early fit. Ample’s claim of more than 4,000 users in 13 days shows launch interest, while the testimonials leave discovery channel, onboarding effort, and payment unknown. The first unresolved link is whether builders who find Ample through the connector can reach production on their own and convert to paid hosting. The short observation window and reliance on launch reports limit confidence. (Market & Traction, Key Facts)
+Live apps give builders a recurring reason to keep hosting, and existing accounts can expand from $20/month Pro to $99/month Scale as they deploy more apps. That expansion could offset churn, with room to grow depending on how many builders outgrow the lower tiers. Ample reported more than 4,000 users within 13 days, and the public launch crossed 5,000 users. Those figures show rapid uptake. Paid customer count and realized revenue remain unknown, so Initial traction uses the rubric default. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Ample could attract builders who launch one app and stay on the free plan. The fair registration site illustrates a time-limited workload, and the storefront’s first 18 hours leave repeat use and paid expansion open. Under the listed pricing, if each additional app adds hosting or support costs, those costs can rise while subscription revenue stays flat within a tier. The published deployment recipes offer a plausible way to reuse setup work, while marginal cost and rollout effort remain unmeasured. That supports Watch and leaves the structural downside gate untriggered. (The Idea, Defensibility, Market & Traction, Key Facts)
+Builders may stay within the two-app free plan while live apps incur recurring infrastructure and support costs. At full use of the app allowance, Pro brings in $2.00 per app per month and Scale $1.98. That scenario leaves contribution sensitive to compute, databases, storage, CDN, email, support, and added bare-metal capacity. Automated provisioning offers a concrete way to reduce setup labor, while the memo leaves representative workload costs unresolved. The structural downside gate stays open because the evidence does not establish that unavoidable costs make faster growth infeasible. (The Idea, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 11/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 15/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 65/100** (Invest)
 
 ### Decisive diligence question
 
-Can multiple independent builders who discover Ample through the Claude connector deploy a production app without bespoke help and then upgrade when they need paid email or exceed the free app limit? Account-level records showing that sequence would move the action to Reach out.
+Can a cohort acquired through the Claude connector convert to paid production hosting and generate positive contribution without founder-led setup? Cohort records tying independent deployments to actual payments and attributable infrastructure and support costs, including the cost of free accounts, would answer it. Positive contribution at representative workloads would sustain Reach out. A cohort that depends on founder intervention or loses money at those workloads would move the action to Watch pending a demonstrated fix.

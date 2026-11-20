@@ -1,32 +1,32 @@
 ﻿# Vorflux -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is Vorflux’s strongest path. Engineering teams have a recurring job that plausibly travels across markets: turning backlog items into tested changes for review. Vorflux takes requests through Slack or Linear, runs the application on dedicated compute, and attaches browser test evidence. Repository setup and code-access approvals still matter, and Vorflux offers deployment in the buyer’s own AWS account. The memo documents the workflow but gives no buyer geography or paid cross-market rollout. (The Idea; Market & Traction; Key Risks)
+Vorflux’s strongest path is bottom-up adoption by engineering teams that start with a coding task in Slack or Linear, then assign AutoBots recurring work across more repositories. Assuming strong fit with the initial teams, repository access, browser testing, and approval routing support substantially the same workflow across markets. Teams with tighter code-access requirements may need a different deployment. (The Idea, Key Risks)
 
-TrashLab’s CTO reports shipping a feature from a Slack request, showing concrete value on an initial task. Supermemory reports fixes across six repositories and a data backfill, showing use across different workloads. The sequence, payment, and repeat cadence are unreported. The company offers self-service signup and engineer-assisted pilots, with no account history tracing either route through first paid use. (Market & Traction; The Idea)
+The memo documents self-serve signup and prepaid compute pricing. Customer accounts describe TrashLab shipping a change from a Slack request and Supermemory completing work across six repositories. Those accounts establish reported use, with payment status and setup effort unknown. The November 10 AutoBots launch dates the recurring-work product, but the memo gives no usable evidence of realized revenue, paying-customer growth, or pre-revenue status, warranting the traction default. (The Idea, Market & Traction)
 
-Vorflux sells prepaid machine-hours. The growth scenario assumes that a team that ships a first change then assigns recurring work to AutoBots and consumes more paid compute as it adds roles or repositories. AutoBots launched November 10, so the early customer accounts carry more weight for task execution than for recurring use. Posted prices establish the billing unit, while infrastructure, setup, and support costs per added workload remain unmeasured. The first likely break is converting a successful task into recurring paid use without repeating substantial setup. (The Idea; Market & Traction; Defensibility)
+Persistent repository and test context gives teams a reason to keep using Vorflux. If they assign more recurring work, added billable machine-hours can expand account spend, subject to team budgets. That is an inferred expansion mechanism. Net revenue retention remains unmeasured. At $0.2117–$3.3868 per machine-hour, incremental contribution depends on what remains after dedicated compute and attributable activation and support. Customer-provided model access limits Vorflux’s token exposure, and launch-offer tokens are priced at cost. The memo supports a concrete revenue model, with contribution at representative workloads still uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The customer wins could reflect useful backlog projects that end when the work is done. Vorflux engineers configure harnesses during enterprise pilots, and recurring roles could require fresh repository setup and approval work each time. If that effort scales with paid usage, more machine-hours could yield little incremental contribution. The structural downside gate does not trigger because the memo leaves incremental effort and contribution unmeasured across rollouts. (The Idea; Market & Traction; Defensibility; Key Risks)
+Vorflux engineers configure the harness and work through backlog items in enterprise pilots. If typical teams also need that help to put recurring agents into production, self-serve signup could feed a services-heavy rollout, with dedicated compute adding cost as usage grows. The memo establishes hands-on work for enterprise pilots and leaves its prevalence among self-serve buyers unresolved. The structural gate stays open. That unresolved setup dependency keeps the action at Watch. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 16/25 |
+| Retention economics | 17/20 |
+| Initial traction | 7/20 |
+| Cost economics | 6/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 67/100** (Invest)
 
 ### Decisive diligence question
 
-After shipping a first change, can two independent engineering teams add a recurring AutoBot role that generates paid machine-hour use over several normal work cycles with limited additional setup and support? Matched billing, workload, and delivery records showing repeat paid use and positive incremental contribution would move the action to **Reach out**.
+Can typical engineering teams go from public signup to recurring paid AutoBot use without Vorflux engineers configuring the harness? A cohort showing independent repository setup, a first completed task, and repeat billed usage would move the action to Reach out. Occasional assisted setups would keep it at Watch. Evidence that unavoidable hands-on work makes each rollout uneconomic would trigger Pass.

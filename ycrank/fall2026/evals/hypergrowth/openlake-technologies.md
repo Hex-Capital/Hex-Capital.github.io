@@ -5,26 +5,28 @@
 
 ### Company case
 
-Usage-based expansion is OpenLake’s strongest path. The initial buyer is a team running an open-weight model in production that repeatedly needs to train, evaluate, and deploy updates as new data arrives. OpenLake describes a workflow that connects live data and serves updated versions on the existing deployment. The job plausibly travels across markets, though integration effort and governance for live customer data remain unresolved. (The Idea, Key Risks)
+Assuming strong product-market fit, OpenLake’s strongest path is continuous post-training and inference for teams already running open-weight models in production. OpenLake describes a reusable workflow that connects live data, updates the model on its existing deployment, and A/B tests new versions. The same workflow could serve model operations teams across markets with modest adaptation where buyers can use their data for training. The documented route to the platform starts with a founder call or email. GitHub and Discord give developers ways to discover OpenLake, while independent setup and payment for the platform remain unverified. (The Idea, Key Risks)
 
-A company-published testimonial says one team used OpenLake to train and evaluate its Security-One classifier for production. That is a concrete workflow commitment. The memo records a launch-to-demo route, but leaves the customer’s discovery, onboarding effort, and payment unknown. OpenLake publishes per-input-token pricing for Ultra R1. The expansion scenario assumes teams can start with one production workload and pay for additional workloads as the update loop proves its value. Pricing and realized paid expansion for continuous post-training remain unknown. (The Idea, Market & Traction, Key Facts)
+Incoming data creates a recurring reason to update models. Connected data feeds and accumulated evaluation history could also make deployments stickier. Whether larger workloads raise the same customer’s bill remains unknown. The published token rate applies to Ultra R1 routing. The continuous post-training platform launched in November, and an unnamed team reported using OpenLake to train and evaluate a classifier for production. OpenLake’s reported 100B-plus daily tokens span the company. Paid production use and commercial growth for the continuous post-training platform remain unverified. (The Idea, Defensibility, Market & Traction, Key Facts)
+
+Incremental contribution would be the revenue from the next production workload less its inference and training compute, evaluation, storage, and attributable onboarding and support. Shared inference caches offer a plausible way to reduce serving compute when requests reuse cached work. OpenLake reports that its models halved serving costs on average. Platform pricing and the costs OpenLake bears on a representative workload remain unknown, leaving the direction of contribution uncertain. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-The first link likely to break is expansion from one production workload to a second paid workload. OpenLake’s reported 100B-plus daily tokens could reflect inference unrelated to continuous post-training. Its claimed serving savings and separate routing benchmark leave OpenLake’s incremental training, integration, and support costs unknown. If each workload requires bespoke data controls and regression testing, added usage could consume as much engineering effort as the first deployment. The memo leaves that risk testable, so the structural downside gate does not apply. (Market & Traction, Key Risks)
+Connecting sensitive live data and validating successive model updates could require customer-specific approvals and hands-on engineering. If that work recurs with each buyer while frequent retraining adds compute costs as usage grows, customer serving savings could coexist with weak contribution for OpenLake. The structural downside gate stays open because the scope and cost of required per-buyer work remain unverified. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent production teams add a second paid continuous post-training workload at their normal rollout cadence using a repeatable setup? Invoices, usage logs, and rollout records showing repeated paid use and positive incremental contribution after compute, integration, and support would move the action to Reach out. Evidence that each rollout requires proportionate custom work with no credible way to reduce it would move the action to Pass.
+Can a cohort of production teams onboard through the same documented flow with minimal founder help and become profitable recurring customers? Setup records, successive usage bills that rise as workloads grow, and positive incremental contribution after compute, storage, onboarding, and support would move the action to Reach out.

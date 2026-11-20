@@ -1,32 +1,30 @@
 ﻿# Archgen Labs -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper frontier intelligence increases demand for stacked AI accelerators, the engineering capacity to iterate on heat, placement, and cross-die timing could become more valuable. Archgen could capture some of that value if its tools let physical-design teams qualify more layouts within the same engineering budget and buyers cannot get comparable results from their existing toolchains. Archgen reports that LayerTherm averaged 62 ms versus 314 seconds for conventional solvers in its benchmark. The benchmark leaves prediction error and end-to-end time savings unresolved. (The Idea, Market & Traction, Key Risks)
+New Economies is Archgen’s strongest path. Stacked-die teams spend engineer time iterating on placement, routing, and timing while conventional thermal solvers constrain how many layouts they can evaluate. Archgen reports that LayerTherm averaged 62 ms per thermal prediction versus 314 seconds for conventional solvers in its benchmark. LayerTherm screens candidates before detailed verification, and Newton is designed to automate edits and reruns. If these tools materially reduce engineer hours and total cost per design that meets signoff requirements, a team could take on a stacked-die project it previously shelved for cost. That market opening is a scenario assumption. The memo gives solver latency and leaves prediction error, end-to-end labor savings, and demand from previously excluded projects unmeasured. (The Idea, Market & Traction, Key Risks)
 
-The observed first-place placement proxy result shows that the two founders delivered a competitive prototype. The organizers caution that the metric alone cannot establish production readiness. Archgen reports signed pilots with undisclosed counterparties and payment terms, plus development work with GlobalFoundries targeting a first tapeout in mid-2027. These are early engagement signals. Independent buyer qualification and willingness to pay remain unverified. (Defensibility, Founders & Team, Market & Traction, Key Risks)
-
-A plausible expansion unit is an enterprise license per physical-design team. Repeatable economics depend on whether Archgen can reuse integrations and verified fixes across designs while keeping support and verification costs below the license revenue. The memo provides no deployment costs or realized pricing. (The Idea, Defensibility, Key Facts)
+Archgen reports signed pilots with undisclosed counterparties and payment terms, so willingness to pay for a newly viable project remains open. Both founders co-developed the public placement prototype, and Archgen reports development with GlobalFoundries toward a mid-2027 tapeout. That supports seed-stage execution, with production validation still ahead. A plausible expansion unit is one additional design team on an enterprise license. Contribution would depend on the license price relative to GPU compute, toolchain integration, and engineer support for exceptions. The buyer’s cost per successful design would still include detailed verification and rework. The memo leaves both sides of that cost bridge unquantified. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Siemens has demonstrated overlapping placement and electrothermal automation in its own toolchain, and Cadence and Synopsys already offer integrated thermal analysis. Archgen also published its contest implementation. If detailed verification absorbs the screening gains or an incumbent delivers comparable time to signoff, Archgen has little leverage over a scarce capability. The memo establishes credible alternatives while leaving production equivalence unresolved, so the substitution gate remains open. (The Idea, Defensibility, Market & Traction, Key Risks)
+Archgen may improve an existing EDA workflow while incumbents retain the customer relationship. Its first-place placement result establishes a technical edge on a contest proxy, and the organizers caution that the proxy is insufficient for production placement. The contest implementation is public, Siemens has demonstrated overlapping automation in its own toolchain, and Cadence and Synopsys already integrate thermal analysis. Reuse of verified fixes could give Archgen an advantage within a customer’s flow, but buyer preference under functional parity remains untested. The memo also identifies no scarce design resource Archgen controls. Incumbent overlap makes substitution credible, while actual buyer switching and equivalent production outcomes remain unobserved. That leaves the New Economies path open on Watch. (Defensibility, The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 13/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 9/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent physical-design team commit to a paid follow-on deployment after a head-to-head trial on a representative stacked-die design? The trial should compare Archgen with the team’s best incumbent workflow at the same signoff standard, counting engineering hours, verification, and rework. A material reduction in engineering hours that earns the paid follow-on would move the action to Reach out. Comparable results from the incumbent would close Path A and move the action to Pass. (Market & Traction, Key Risks)
+Can an independent pilot buyer complete a stacked-die project it previously shelved on cost grounds and then pay for a follow-on with Archgen when a functionally comparable alternative is available? Move to Reach out if the buyer documents the prior cost barrier, a matched workflow comparison shows materially lower engineer hours and all-in cost at the same signoff standard, and the buyer commits to the paid follow-on. If the comparison shows the project remains uneconomic or the buyer readily substitutes at parity, move to Pass.

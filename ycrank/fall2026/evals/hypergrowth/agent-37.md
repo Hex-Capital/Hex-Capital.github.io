@@ -1,30 +1,30 @@
 ﻿# Agent 37 -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is the strongest path. The first buyers are software teams and agencies that run persistent AI agents for their own clients. Agent 37’s published Cloud pricing charges for running minutes and persistent disk. If those buyers keep their initial agents in production and add clients, each new deployment can increase billed usage. The same provisioning API and harness templates could serve buyers in another market if their workloads fit the supported runtime and their hosting and uptime requirements can be met. Buyer geography and any required localization remain open. (The Idea, Key Risks)
+Agent 37’s strongest Hypergrowth path is Cloud infrastructure for developers and agencies that deploy a persistent AI agent for each customer. Conditional on strong product-market fit, the same provisioning API, harness templates, and custom-image support can serve that recurring job across markets with little geographic adaptation. Developers can discover Cloud through developer communities or the open-source starter kit, sign up, add a card, and provision a sandbox through the API. ETEC+ reported getting its branded service live in six days and migrating more than 30 clients. The starter kit gives agencies a way to bring additional workloads onto Cloud as they sign clients. (The Idea, Market & Traction)
 
-Boon reported deploying per-client agents in three days, integrating provisioning and scheduled runs into its application, and lowering monthly cost per agent from $85 to $4.94. ETEC+ reported going live in six days with the starter kit and moving more than 30 existing clients to its branded service. The rollout times show two concrete routes to first value. The workflow changes and Boon’s reported savings support early fit. How those buyers were acquired, how much founder help they needed, and whether their paid workloads grew after rollout remain unverified. (Market & Traction, Defensibility)
+Cloud bills for running minutes and persistent disk, so existing accounts can spend more as they add clients or run agents more often. Boon’s reported integration of provisioning and scheduled runs into its application shows how Cloud can become part of a recurring production workflow. Expansion could offset churn, with the magnitude still uncertain. Cloud launched in June 2026, and the reported customer deployments and spending support early paid production use. Agent 37’s claim that it powers agents for more than 250 startups leaves the paid share and commercial growth rate unclear. The effective team size is also unclear. (The Idea, Defensibility, Market & Traction, Key Facts, Founders & Team)
 
 ### Countercase
 
-A rapid migration can produce many live sandboxes at launch, then little paid expansion. The founder reported average Cloud revenue of $0.37 per sandbox per month. The memo gives no customer-level history of repeat paid use and no marginal cost measurements. In the favorable scenario, new workloads fill spare capacity on shared hosts. Once that capacity fills, added minute and disk revenue must cover additional server capacity, storage, rollout effort, and support. Boon’s savings establish a buyer benefit, while Agent 37’s contribution on the next workload remains unknown. That unresolved link warrants Watch. The structural downside gate stays open because the memo provides no affirmative evidence that added costs must remain proportional to revenue. (The Idea, Defensibility, Key Facts)
+Low prices may win deployments while leaving little contribution to fund growth. If the founder’s reported $0.37 per sandbox-month represents realized revenue after credits, positive incremental contribution requires attributable host capacity, storage, acquisition, onboarding, and support to cost less than $0.37 per sandbox-month for a comparable workload mix. Shared hosts could improve utilization, but costs can step up when Agent 37 rents another server. AWS offers an overlapping runtime, and Agent 37’s advertised price-difference refund could add pressure on realized pricing. The structural downside gate clears because the memo supports a reusable deployment path and a credible utilization lever. Contribution at representative utilization remains the decisive uncertainty. (Key Facts, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 12/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 8/10 |
+| Global buyer demand | 23/25 |
+| Repeatable acquisition and onboarding | 21/25 |
+| Retention economics | 17/20 |
+| Initial traction | 10/20 |
+| Cost economics | 6/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 77/100** (Invest)
 
 ### Decisive diligence question
 
-Do independent Cloud buyers add profitable paid workloads after their initial rollout? Move to **Reach out** if billing, usage, and cost records from two buyers in the first segment show that they added production sandboxes at their normal client rollout cadence, paid for continued use after credits, and generated positive incremental contribution after capacity, storage, rollout, and support costs.
+Does a recent paid Cloud cohort generate healthy incremental contribution at representative utilization, including the next step up in rented capacity? Match compute and disk receipts after credits against attributable capacity, storage, acquisition, onboarding, and support costs. A healthy positive result sustains Reach out. Thin or negative contribution moves the action to Watch pending a demonstrated improvement in utilization or pricing.

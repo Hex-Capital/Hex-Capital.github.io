@@ -1,30 +1,30 @@
 ﻿# Foreshadow Industries -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-**Path A — Scarce complements.** If capable autonomy models become cheap and widely available, naval operators seeking to reuse existing vessels may still face a shortage of retrofit providers that can qualify on those vessels within procurement timelines. The memo records a Navy procurement that moved from at-sea trials toward production in a separate vessel program. That shows qualification can matter to procurement. Whether qualification constrains Foreshadow’s target buyers remains an assumption. (*The Idea*, *Market & Traction*, *Key Risks*)
+New Economies is the strongest path. Foreshadow reports repeated overnight vessel demonstrations, which support the technical premise that retrofits could extend operations. The market-opening hypothesis is that a crew-constrained naval operator could run recurring long-duration missions it previously ruled out because of the crew hours and support required. The relevant test is whether the retrofit lowers labor and total cost per successful mission at the same completion standard, including installation amortization, remote supervision, and human intervention. The memo provides no comparative cost or staffing measurements. (The Idea, Market & Traction)
 
-Foreshadow reports integrations on three military vessels, an early indication that it can perform the retrofit work that could support a qualification advantage. It also reports repeated overnight demonstrations, including simultaneous operation on two vessels, which supports seed-stage execution. Per-vessel licensing and paid integration are plausible, but the memo gives no evidence of Foreshadow-specific buyer commitments or of the price and delivery costs needed to assess repeat deployments. (*Defensibility*, *Market & Traction*, *The Idea*, *Key Facts*)
+Foreshadow’s three reported vessel integrations suggest that reusable integration and validation work could give buyers a reason to pay Foreshadow even when competing models are equally capable. Reuse, qualification, and buyer preference remain unverified. The separately reported simultaneous operation of two vessels supports seed-stage execution, with cross-platform reliability still open. A vessel is a plausible unit of expansion, but the memo leaves installation effort, ongoing support costs, and utilization unmeasured. The Navy’s move toward procurement after at-sea testing shows demand in an adjacent unmanned-vessel program. Foreshadow-specific buyer commitments and payments remain unverified. (Defensibility, Market & Traction, Key Risks, Key Facts)
 
 ### Countercase
 
-Sea Machines already sells vessel retrofit systems and is eligible for follow-on Navy procurement. Buyers could have several suppliers capable of qualifying on comparable terms, leaving Foreshadow’s integration work without a durable advantage. The memo offers no buyer comparison that establishes equivalence, so the evidence leaves Path A open at Watch. Path B lacks evidence that lower delivered labor costs would make a previously uneconomic use viable. (*Market & Traction*, *Key Risks*, *The Idea*)
+Zulu could improve missions naval operators already fund while competing with existing retrofit suppliers. Sea Machines sells vessel retrofit systems and is eligible for follow-on Navy production agreements, giving buyers a credible alternative. The memo leaves relative performance and switching costs unresolved. The evidence supports Watch because a comparative buyer trial could still establish both a newly viable use and a reason to choose Foreshadow. The memo identifies no independently supported scarce complement. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 14/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent naval buyer fund a Foreshadow qualification trial on an existing vessel after documenting that available alternatives cannot meet the same requirements within its procurement timeline? That commitment would move the action to Reach out. A buyer comparison showing that alternatives can qualify on comparable terms would close Path A and move the action to Pass.
+Will an independent naval operator place a paid follow-on order for a recurring mission it previously ruled out on cost after comparing Foreshadow with a functionally comparable retrofit? Move to Reach out if the trial shows a material reduction in labor and total cost per successful mission against the crewed baseline, and the operator chooses Foreshadow for demonstrated integration or qualification advantages. Move to Pass if the trial shows the use remains uneconomic or the buyer treats qualified suppliers as interchangeable.

@@ -1,30 +1,30 @@
 ﻿# Altair Health -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Repeatable direct sales is Altair’s strongest path. Its website solicits demos and documents separate onboarding routes for new practices and those switching billers. The buyer is an independent practice with a recurring job: checking payer requirements, submitting claims, and resolving denials. Altair says it connects to the practice’s existing EHR and clearinghouse, checks claim actions against encoded payer rules, and routes exceptions to its billers. If those connections and rules carry over, the same sales and rollout process could serve similar practices. The billing job could travel across markets, with payer rules, integrations, and patient-data requirements still to validate. (The Idea, Key Risks)
+Assuming strong fit with independent U.S. practices, Altair’s best hypergrowth path is to take over billing on practices’ existing systems, automate routine payer-policy checks, and reuse prior resolutions across claims. The memo documents demo requests and guides for new practices and practices switching billers. Altair says it connects to EHRs and clearinghouses, tracks policies across more than 3,400 payers, and routes exceptions to in-house billers. That gives practices a reason to keep using the service as new claims arrive. The directory listings leave the current managed-billing fee basis unclear, so there is no evidenced mechanism for existing accounts to spend more. The founder-reported clinic outcome concerns the earlier co-pilot. Paid adoption and growth for the current service are unknown. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-The founder reported that an earlier co-pilot was used to precheck hundreds of claims and attributed avoided receivables delays to those checks. That is an early signal that a billing team found the task worth doing. The memo documents the advertised sales route and leaves open whether an independent practice followed it through payment and go-live for the current billing service. Paid expansion and repeat use across billing cycles are also unverified. The first link likely to break is the handoff from demo to live billing. (The Idea, Market & Traction)
+In a scenario where Altair can reuse its integrations and policy rules across practices, contribution from the next practice would be its billing fees less attributable sales and setup effort, clearinghouse and infrastructure costs, and biller time. The key sensitivity is how much staff time exceptions consume as claim volume grows. Automated checks and reused resolutions could reduce that time, but the memo gives neither a usable managed-billing price nor measured exception workload. Incremental contribution is therefore unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Each new practice could require custom integration and payer-rule work, with biller time rising alongside claim volume. Altair reports tracking policies across more than 3,400 payers and reusing payer-specific resolutions, which gives it a plausible way to reduce repeat work. The memo provides no measured rollout effort or biller cost per claim. The structural downside gate remains open because proportional costs are a risk and the proposed reuse is testable. (Defensibility, Key Risks)
+The strongest argument against passing is that the rules engine and exception workflow could transfer to another market through configuration, with local policies and connectors added to the same product. Altair’s reported payer coverage and reuse of prior resolutions support that possibility within its current workflow. The current service nevertheless depends on encoded payer rules, compatible EHR and clearinghouse connections, and patient-data handling arrangements. Together, those dependencies imply substantial adaptation for a materially different payer system, and the memo shows no credible near-term way to bound that work. This triggers the structural downside gate even assuming strong U.S. fit. Manual exceptions add a separate scaling risk, with insufficient evidence to conclude that labor alone makes faster growth uneconomic. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 6/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independently acquired practices move from demo to paid live billing through the same onboarding process run by a nonfounder? Rollout records showing comparable setup hours and biller time that the fees can cover through a billing cycle would move the action to Reach out.
+Can a paying independent practice in a materially different national payer system run routine billing on Altair’s current product with bounded rollout work? A production rollout documenting reusable integrations, policy changes handled through configuration, and the staff time required to go live would move the action to Watch if it showed a repeatable transfer path.

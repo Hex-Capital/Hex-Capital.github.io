@@ -1,30 +1,32 @@
 ﻿# Obia -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Obia’s strongest path is **channel-led or repeatable sales**, starting with industrial tenants whose site searches depend on permitted use, loading, and power. The memo documents web intake and a founder-posted referral offer. Obia reports screening sites for an unnamed logistics operator and describes a workflow in which AI screens properties before a local broker handles tours and negotiations. If the screening and handoff carry over to the next broker, Obia could serve more searches through the same workflow. The memo leaves the link between either intake channel and a completed lease unresolved. (The Idea; Market & Traction)
+Obia’s strongest path is AI-assisted industrial tenant brokerage. Assuming strong fit with industrial occupiers, reusable screening for permitted use, loading, and power could let each broker handle more searches. Obia reports screening sites for a logistics operator using permitted use, service-area coverage, and projected throughput per dollar of rent. The memo documents online intake and a referral offer. Local brokers still lead tours and negotiate terms, so both channels feed a broker-led service. (The Idea, Market & Traction)
 
-Cho reports $1.05M in closed lease value in 22 days and says some clients moved in within two weeks. The reported closings support early fit through tenant commitment, while the benefit attributable to screening and the mix of tenants remain unclear. The figure measures lease value. To assess contribution, Obia would need to show the landlord fee collected per deal and deduct referral payments where applicable, broker labor, data verification, and other incremental delivery costs. Repeat searches for additional sites are a plausible expansion mechanism, with no repeat activity reported at the lease-search cadence. (The Idea; Market & Traction; Key Risks)
+The revenue unit is a closed tenant lease. Obia says the landlord pays a brokerage fee. Incremental contribution is the fee earned less attributable acquisition and referral costs, screening and data costs, and broker time for verification, tours, and negotiation. Automated screening could reduce research time per deal. The fee amount, broker effort, and resulting contribution remain unknown. The fee is transactional, and the memo shows no recurring billing or repeat purchases by the same account. (The Idea, Key Risks)
 
 ### Countercase
 
-The first link likely to break is the handoff to a broker in a new market. Local brokerage requirements and uncertain property and zoning data could make verification and delivery bespoke even if the tenant’s search criteria travel. Obia’s workflow already sends uncertain findings to brokers for review. The structural downside gate remains open because the memo establishes local obligations but leaves the effort to satisfy them and the scope for reuse unmeasured. (The Idea; Key Risks)
+The strongest case against passing is that Obia’s reusable screening could make local brokers productive enough to replicate the service across markets. For a four-person team, Cho’s report of $1.05M in closed lease value over 22 days and some move-ins within two weeks is an encouraging execution signal. The figure measures lease value. Earned brokerage fees, time from commercial launch, and the pace across comparable periods remain unknown. (Obia, Market & Traction)
+
+The structural downside gate applies to the current brokerage model. I infer that broad rollout would require substantial market-by-market work to establish reliable property data, validate local zoning decisions, and arrange qualified broker delivery. The memo documents broker review of uncertain findings and Nevada’s cooperative-certificate requirement for out-of-state brokers working with a Nevada broker. These are concrete rollout dependencies, and the memo offers no evidenced near-term path to transfer the full service with bounded changes. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 6/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 3/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 27/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder broker in a second market take two independent industrial tenants from the same intake channel through the existing screening workflow to leases with collected landlord fees? Move to **Reach out** if deal records show limited local setup and fees that cover referral, broker, verification, and delivery costs. Move to **Pass** if the attempt shows that entering a new market requires rebuilding the core workflow.
+Can Obia complete a paid rollout in a materially different jurisdiction using its existing screening workflow, with bounded data and regulatory setup and positive contribution per lease after referral costs and broker labor? A rollout that demonstrates those conditions would move the action to Watch.

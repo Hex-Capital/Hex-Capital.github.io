@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Mike‑1’s public research preview is live. Index Law describes a workflow that uses company documents and past decisions to prepare redlines and brief independent counsel when licensed judgment is needed. Under the prior delivery model, a startup had to find hourly counsel, explain its business, and coordinate each review. The investment scenario is that reducing those steps makes routine contract review economical for startups that previously skipped or deferred it. Index Law reports one contract turnaround under 60 minutes, quotes up to 80% below comparable law-firm quotes, and use across startups and larger companies. These claims leave paid repeat demand from the proposed segment and the labor saved per completed review unresolved. (The Idea, Market & Traction, Key Risks)
+**New Economies.** Mike‑1 uses company documents and prior decisions to handle contract intake, review and redlining, with independent lawyers brought in for matters requiring professional judgment. The prior workflow involved hourly outside counsel and time spent briefing lawyers and coordinating reviews. The market-opening hypothesis is that startups would pay to review routine agreements they currently sign without review if Mike cuts the all-in cost per correctly completed contract. Index Law reports one turnaround under 60 minutes and legal quotes up to 80% below comparable law-firm quotes. Those claims suggest a potential cost advantage. Actual labor savings, final costs and paid use for previously skipped reviews remain unverified. (The Idea, Market & Traction, Key Risks)
 
-At the advertised prices, the buyer’s cost per successful review would include its share of the $149 or $499 monthly subscription, separately billed counsel, and internal time for approvals, retries, and corrections. That total has to beat hourly counsel on comparable matters at comparable quality. For Index Law, subscription revenue also has to cover inference, onboarding, and support as review volume grows. The memo leaves utilization and realized delivery costs unknown. Under model parity, retained matter history and effective counsel handoffs could still save buyers time, but buyer preference and better lawyer matching remain hypotheses. The Assess and Mike‑1 launches and Pativada’s prior institutional AI sales show early execution progress. Reliable delivery across legal exceptions remains untested in the memo. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
+Saved redlines and matter history could make Mike more convenient on subsequent contracts. Preference at model parity and improvements in matching as more lawyers join remain untested. The reported contract turnaround and work across several matter types indicate early use during a free preview. Paid conversion and repeat use remain unverified. The team shipped Assess and the Mike‑1 preview, and Pativada’s prior institutional AI sales support early execution. Reliable escalation across jurisdictions remains an open operating question. (Defensibility, Market & Traction, Founders & Team, Key Risks)
+
+The expansion unit is a paying workspace completing recurring contract reviews. The advertised $149 and $499 monthly plans provide a revenue benchmark. As a scenario assumption, routine matters would need to clear with little manual cleanup for subscription revenue to cover inference, onboarding and support. Separately billed counsel still affects the buyer’s all-in cost. Review volume, rework and escalation frequency will determine whether the model can serve more customers at viable margins. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Mike‑1 may speed up reviews that businesses already buy. The memo identifies an existing legal plugin for basic contract review and NDA triage, as well as Crosby and Soxton as alternatives for attorney-backed work. If a buyer can pair equivalent AI with existing counsel and get the same result, retained history may offer too little reason to keep paying Index Law. Frequent attorney escalations or rework could also erase the savings on matters buyers previously skipped. The memo provides neither a full-cost comparison nor observed switching under functional parity, so both required conditions remain open to testing. (Defensibility, Market & Traction, Key Risks)
+Mike may make reviews that buyers already purchase cheaper, while configurable legal agents absorb basic review and NDA triage and independent lawyers continue to handle judgment-heavy work. The memo identifies an available substitute for basic tasks and gives no evidence that Index Law controls scarce counsel capacity. That leaves New Economies as the strongest path. The substitute has yet to demonstrate parity across Mike’s workflow, and the memo provides no evidence of customers switching away. The market-opening and model-parity gates remain open, supporting Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 7/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent startups repeatedly pay Index Law to complete routine reviews they previously skipped because of cost, even when offered a functionally equivalent AI workflow with access to counsel? A paid side-by-side pilot on comparable contracts would move the action to **Reach out** if buyers complete and reorder those reviews, the full cost including review and escalation is low enough to sustain the new usage, and buyers keep choosing Index Law for a demonstrable workflow or counsel advantage. If the pilot shows that the savings fail to unlock those reviews or that buyers readily switch while preserving the outcome, move to **Pass**.
+Will independent startups repeatedly pay for Mike to review contracts they previously left unreviewed when they can also use a comparably capable legal agent? A paid cohort test should document which reviews buyers previously skipped, track repeat choice with the alternative available, and measure cost per correctly completed review including rework and counsel. Move to Reach out if the cohort shows sustained paid use for those newly served reviews at viable contribution. Move to Pass if a representative test shows that paid use is confined to reviews buyers already purchased or that buyers readily switch at parity.

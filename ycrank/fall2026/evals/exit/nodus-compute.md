@@ -5,36 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A GPU infrastructure provider such as Runpod could buy Nodus to add owner-first routing and sell idle capacity from participating fleets. Ownership could beat building or licensing if Nodus establishes a network of fleet operators whose agreements can transfer and whose capacity produces measurable margin for the buyer. That is an inference. Nodus reports that a verifier run reproduced a 7.65× cold-start speedup on one A100. The result supports a narrow technical benefit, with buyer economics and willingness to pay still unverified. (The Idea, Defensibility, Market & Traction)
+The strongest route is a strategic acquisition by a GPU cloud operator such as Runpod. Nodus documents owner-first routing and the ability to lend idle hosts. A buyer could use that combination to sell more compute from existing fleets while preserving priority for fleet owners. Nodus reports a 7.65× cold-start speedup in a verifier run on one A100. That result supports the value of snapshot recovery on the tested workload. The buyer economics of fleet-wide sharing remain an inference. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-At seed, the next milestone is paid production use across multiple independently operated fleets, with repeat usage and positive contribution margin after host reclaims and job recovery. The founders report that more than 200 teams joined after launch, providing a starting pool for testing. Paid retention, the funded runway for the test, and the capital needed to scale remain unknown. The memo documents how fleet operators can reclaim hosts. The terms governing whether fleet agreements would transfer in a sale remain unknown. (Market & Traction, Key Risks)
+The milestone is a paid deployment across multiple fleets that shows repeatable utilization gains and positive net savings after host reclaims, retries, and recovery costs. The founders report that more than 200 teams joined after launch, which suggests a pool of potential pilot users. Paid usage, a funded pilot, and runway are unverified, and the memo gives conflicting funding figures. (*Market & Traction*, *Key Risks*)
 
-Sponsor buyout and company-funded payouts lack evidence of cash generation after reinvestment. The reported financings establish no eligible secondary demand, and the memo supplies no operating-scale or reporting-readiness evidence for an IPO. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3% pro rata ownership. The prices below are scenario assumptions. The memo records published usage rates and provides no realized revenue, buyer valuation, or transaction terms to support an exit price. (*Key Facts*, *Market & Traction*)
 
-**Proceeds bridge.** No applicable shareholder terms are established, so assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. That requires about $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. Actual debt, fees, and senior claims are unverified. Published GPU rates provide no basis to estimate a realizable sale price. (Market & Traction, Key Facts)
-
-| Eight-year scenario | Gross cash to the holder |
+| Scenario | Assumed bridge to holder cash |
 |---|---|
-| $25 million enterprise-value sale | $600,000, or 1.2×, after illustrative net debt |
-| $100 million enterprise-value sale | $2.85 million, or 5.7×, after illustrative net debt |
-| Growth plateaus, buyers stay away, public-market scale remains out of reach, and all available cash is reinvested with no secondary or payout | $0 realized, with shares retained |
+| Modest sale | $50 million enterprise value with zero net debt and deal adjustments leaves $50 million in distributable equity. At 3%, the holder receives $1.5 million, or 3.0×. |
+| Strong sale | $100 million enterprise value less $10 million in assumed net debt and deal adjustments leaves $90 million in distributable equity. At 3%, the holder receives $2.7 million, or 5.4×. If 20% of the holder’s consideration rolls into buyer equity, cash at close falls to $2.16 million, or 4.32×. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase yields $0 in realized proceeds within eight years. The memo supplies no evidence of an independent payout route. |
+
+The full-cash sale cases assume the holder can sell the entire stake, receives a pro rata share after the waterfall without preference leakage, and is paid at closing within eight years. Holder rights, transfer permissions, and the ability to assign fleet agreements are unverified. The strong case shows what would clear the hurdle. Watch reflects the need for evidence that a buyer would pay that price.
 
 ### Countercase
 
-A potential buyer could assemble the placement features from capabilities already offered by SkyPilot and Cast AI or partner for access to capacity. Nodus’s pooling test used synthetic tenants and replayed traffic on a single node. Host reclaim can delay borrowers, and community hosts can inspect job data. Together, those facts weaken the case that ownership would secure durable, commercially useful capacity. The Pass gate remains untriggered because the memo establishes neither a structural closing barrier nor a supported sale range that leaves the holder materially short. (Defensibility, Key Risks)
+A GPU operator could build enough of the functionality itself. SkyPilot already pools customer infrastructure across clouds, and Cast AI offers GPU scheduling. The pooling benchmark used synthetic tenants and replayed traffic on one node. Host reclaims can strand jobs, and host visibility into job data can force sensitive workloads into private pools. Together, those limits could shrink the workloads available for sharing and weaken the economic case for acquiring Nodus. The evidence supports a credible build alternative while leaving open whether it can deliver comparable fleet economics. No Pass gate is established. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid, multi-fleet production test demonstrate enough incremental margin on capacity a buyer could retain to support a sale near or above the illustrative $88.3 million enterprise-value hurdle? Repeat usage, measured economics after reclaims and recovery, and fleet terms that support continued access after a sale would move the action to Reach out if they substantiate that price range.
+Can Nodus demonstrate enough net savings across paid fleet deployments to make acquisition economically preferable to an internal build for a GPU cloud operator? Production results against the operator’s existing scheduler, including reclaim and recovery costs, would answer the operating question. If those results support a defensible acquisition range that clears $83.3 million in distributable equity under plausible deal terms, the action moves to Reach out.

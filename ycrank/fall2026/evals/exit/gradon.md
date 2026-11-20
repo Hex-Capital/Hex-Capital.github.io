@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Gradon’s strongest path. An AEC software vendor such as Autodesk could buy Gradon’s Windows agent and configured engineering workflows to make its design tools more valuable to firms that produce plan sets. The case for ownership is that controlling a proven workflow could accelerate deployment across the buyer’s installed base. Gradon reports one project completed in 180 hours against a 750-hour manual estimate. That comparison suggests a potentially valuable productivity gain, while leaving review time, repeatability, and the value a buyer could capture unverified. The memo documents Autodesk’s assistant preview in Revit and Civil 3D. Buyer interest and willingness to pay remain unverified. (The Idea, Defensibility, Market & Traction)
+Gradon’s strongest exit path is a strategic sale to an AEC software platform such as Autodesk. The reason to buy would be to add automation that works across existing engineering tools and applies each firm’s drafting standards and project history. Gradon reports one project completed in 180 hours against a 750-hour manual estimate. That suggests potential customer value, but the comparison uses an estimated baseline and the memo gives no evidence of buyer interest. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is repeat production use at three paying civil engineering firms, with measured time savings after licensed review and tracked onboarding labor. The CEO’s report of mid-six-figure contracted ARR in four weeks and the paid live-project pilot model make that test plausible at seed. At least a week of on-site setup per deployment creates a staffing cost, and the memo leaves burn and runway unverified. A sale would depend on control of the core software and transferability of customer contracts and workflow rights. The memo documents limits on data processing and supported use, while leaving transaction rights open. (The Idea, Market & Traction, Key Risks)
+The CEO reports mid-six-figure contracted ARR in four weeks. Paid pilots give Gradon a way to test whether several firms will keep paying after seeing repeatable time savings that include licensed review. Firm-specific setup and on-site work could make that milestone slower and more expensive to reach. The memo provides no runway or cost per deployment. (The Idea, Market & Traction, Key Risks)
 
-The **illustrative proceeds bridge** assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3% ownership. The hurdle is $125 million at 2% and $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires about $88.3 million in enterprise value. On a simple pro rata basis before investor taxes, a year-eight sale at $25 million enterprise value yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×). Actual ownership, debt, fees, and senior claims remain unverified. The memo supports neither sale price as a realizable range. (Market & Traction, Key Facts)
+**Illustrative proceeds bridge.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, no follow-ons, and a $2.5 million gross cash objective within eight years. Both sale cases assume a full cash acquisition within that window, $5 million in net debt and deal adjustments, holder eligibility, and a pro rata payout with no senior claims.
 
-If growth plateaus, buyer interest fails to materialize, public scale stays out of reach, and Gradon reinvests available cash for eight years, the holder realizes $0 and retains the shares. The memo leaves sponsor financing capacity, eligible secondary demand, public-market readiness, and distributable cash unevidenced. A wind-down would pay only the residual after obligations and preferences, which the memo gives too little information to estimate. (Market & Traction, Key Facts)
+| Scenario | Distributable equity | Cash to holder |
+|---|---:|---:|
+| Modest sale at $40 million enterprise value | $35 million | $1.05 million (2.1×) |
+| Strong sale at $100 million enterprise value | $95 million | $2.85 million (5.7×) |
+| Prolonged private operation with cash reinvested and no share sale | No distribution | $0 |
+
+The objective requires about $83.3 million in distributable equity, or $88.3 million in enterprise value under these assumptions. At 2.5% ownership, even the strong case yields about $2.38 million. The sale prices test the hurdle. The memo supplies no buyer pricing evidence or actual holder terms.
 
 ### Countercase
 
-Autodesk already has a native path to overlapping automation. It could build the workflows customers value most or partner for selected capabilities. Gradon’s firm-specific setup and licensed review could also erode the reported savings at scale, weakening the case for an acquisition premium. That evidence makes buyer economics the decisive gap. The memo establishes neither a structural block nor a supported sale price that leaves the holder materially short, so the Pass gate is untriggered. (Defensibility, Key Risks)
+Autodesk already has an assistant in technical preview for Revit and Civil 3D. If it can reproduce the workflows customers value most inside those tools, Gradon’s cross-tool coverage may offer little reason to buy. An acquisition is structurally plausible, but the Firm Brain uses customer files and standards subject to firm controls. A buyer’s ability to retain and use that context after closing remains unverified. The memo gives no evidence of an independent payout route. The preview raises a credible build-versus-buy risk, but the evidence establishes neither a structural block nor a sale price below the holder’s hurdle, so the Pass gate does not trigger. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Could a strategic buyer justify a price that clears the holder’s 5× cash hurdle after Gradon demonstrates repeatable, review-adjusted savings across paying civil engineering firms? Customer-verified production results and a buyer-specific build-versus-buy analysis that supports a price above the hurdle on credible ownership and debt assumptions would move the action to Reach out. If the strongest supported price leaves the holder materially short, move to Pass.
+Would an AEC platform buyer value Gradon’s firm-specific automation highly enough to clear the holder’s proceeds hurdle once the workflow savings are replicated in production? A buyer-side build-versus-buy assessment linking verified savings across paying firms to an indicative price above the modeled $88.3 million enterprise-value hurdle would move the action to Reach out. Evidence that the strongest credible offer would fall materially short after deal adjustments and the payout waterfall would trigger Pass.

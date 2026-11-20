@@ -1,30 +1,30 @@
 ﻿# BioDelivera -- AGI Evaluation
 
-**Action:** Pass  
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-Path A, Scarce complements, is the closest fit. BioDelivera’s Guided Chimeric Vehicles are designed to deliver therapeutic cargo selectively to target cells. The company reports efficacy in tumors, muscle, and brain. If cheap frontier AI produces more viable drug candidates than existing delivery platforms can support, selective delivery could become a bottleneck that pharma developers pay BioDelivera to relieve. That scenario remains an assumption. The memo leaves AI-driven demand and the delivery constraint on any specific AI-enabled program unestablished. It also offers no evidence for Path B’s labor-cost or new-market tests. (The Idea, Market & Traction, Key Risks)
+The strongest path is a potential scarce complement. If AI increases the number of viable therapeutic candidates, developers may pay for selective delivery when existing options cannot get a candidate to its intended tissue. BioDelivera reports efficacy in tumors, muscle, and brain. That claim supports investigating the delivery mechanism, while human selectivity and AI-linked demand remain unverified. (The Idea, Market & Traction, Key Risks)
 
-BioDelivera describes GCV as proprietary, giving it a plausible basis for control whose enforceability remains unknown. The founders’ co-authored drug-delivery study establishes relevant research execution. The adjacent pharma acquisition signals interest in targeted delivery, while BioDelivera’s own buyer commitments remain unknown. Per-program licensing is a plausible expansion unit, but the memo provides no operating inputs for estimating the cost of qualification or consistent manufacturing across programs. (Defensibility, Founders & Team, Market & Traction, The Idea, Key Risks)
+The founders’ doctoral work and co-authored drug-delivery study demonstrate relevant research execution. The company describes its platform as proprietary, with limited evidence of enforceable control. Licensing by therapeutic program is a plausible expansion unit. The memo provides no BioDelivera buyer commitment, per-program cost evidence, or evidence of consistent potency across cargo types. (Founders & Team, Defensibility, The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Pharma developers could qualify a competing platform for each indication. Aera, Capstan, and Umoja already have delivery programs, and existing pharma relationships could narrow BioDelivera’s partner options. The reported efficacy leaves human tissue selectivity and manufacturing consistency unresolved. The memo leaves substitute equivalence untested, so competition alone does not close Path A. Pass reflects the absence of a credible AI-linked bottleneck case in the memo. (Defensibility, Market & Traction, Key Risks)
+Competitors already have delivery programs in overlapping areas, and AbbVie’s existing relationships with Umoja and Capstan could narrow BioDelivera’s partnership options. If those alternatives meet a buyer’s needs, more AI-designed candidates could increase demand for delivery without increasing BioDelivera’s bargaining power. The memo establishes credible alternatives while leaving substitution for a specific program unresolved. That keeps the scarce-complement path open at Watch. The memo supplies no evidence of a labor-cost change that opens a New Economies market. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 6/25 |
+| Path-specific thesis fit | 8/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 8/15 |
+| Team and execution | 9/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 30/100** (Pass)
+**Total Score: 33/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent pharma developer fund a GCV qualification trial for a named AI-enabled therapeutic program that is stalled by delivery? A funded plan documenting the unmet delivery requirement and why available alternatives fall short would move the action to Watch pending qualification.
+Will an independent pharma buyer pay to qualify BioDelivera’s platform for an AI-designed candidate that stalled because available delivery options fell short? A paid agreement backed by comparative results meeting the buyer’s predefined selectivity requirements would move the action to Reach out. If the comparison remains inconclusive, keep Watch.

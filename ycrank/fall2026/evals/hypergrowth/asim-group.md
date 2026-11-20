@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Channel-led or repeatable sales** is Asim’s strongest path. The memo records a November benchmarking launch and a direct intake form for robotics developers. Asim describes a workflow that scopes a developer’s robot, task, and operating environment, then uses controlled physical trials, simulation, and held-out scenarios to surface failures before deployment. Launch attention establishes visibility. The memo documents no buyer progressing from intake to a paid evaluation or committing budget or engineering time to a trial. (*The Idea*, *Market & Traction*, *Key Facts*)
+Conditional on strong product-market fit, Asim’s strongest path is a standardized physical benchmark for robotics developers to rerun before software releases or deployments. Asim describes controlled trials that vary object properties, simulation, and held-out scenarios that probe failures developers might miss in familiar tests. Developers in different markets could use the same core test methods for that recurring job. How much setup transfers across robots and operating environments remains uncertain. (The Idea, Defensibility)
 
-**Scenario assumption.** If teams pay to rerun evaluations after material software or hardware changes, Asim could reuse test protocols and reporting across engagements. The pre-deployment job plausibly travels across markets, while each new robot and operating environment can require fresh scoping and setup. Even with strong buyer fit, the first unproven link is whether Asim can turn a scoped inquiry into a paid rollout through a process another operator can repeat. Pricing, repeat buying cadence, and delivery effort are unmeasured in the memo. (*The Idea*, *Key Risks*, *Key Facts*)
+The documented acquisition path combines outreach to robotics practitioners with a standard intake form. Asim then scopes tasks and success criteria with each developer under a separate agreement. Rerunning comparable tests after a release could support repeat purchases, though billing terms and paid repeat use are unknown. The November 5 benchmarking launch drew 33,442 post views by November 16. Paid deployments and revenue remain unknown. (The Idea, Market & Traction, Key Facts)
+
+Under a per-evaluation pricing assumption, incremental contribution would be the engagement fee less scoping, test setup, supervision, scene resets, lab capacity, and simulation compute. Asim already uses simulation alongside physical trials. If simulation can narrow the cases that require hardware runs while preserving the value of the benchmark, Asim could serve more evaluations with the same lab capacity. The memo leaves the size of that saving uncertain. (The Idea, Key Risks)
 
 ### Countercase
 
-Asim could win paid work and still operate as a bespoke testing service. Its described process scopes tests to each robot, task, and environment. Physical trials can require supervision and scene resets, and buyers seeking formal approval need a separate assessment. If each engagement adds substantial engineering and lab time, fees could grow in step with delivery costs. The structural downside gate remains open because the memo provides no measured rollout costs or evidence that reusable protocols and simulation cannot reduce the work. (*The Idea*, *Key Risks*)
+The work customers value most may be the work Asim has to customize. The documented process scopes each robot, task, and environment individually, and hardware trials can require supervision and scene resets. If those steps consume substantial engineering and lab time on every engagement, demand could grow faster than Asim’s ability to deliver. The structural downside gate stays open because the memo leaves unresolved how much work a standard benchmark can absorb and whether simulation can reduce the physical workload enough to improve contribution. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 9/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can Asim take two independent robotics developers in the same segment from direct intake to a completed, paid evaluation using the same core protocol, with the second rollout run by a non-founder? Move to **Reach out** if both buyers pay and the second rollout records limited custom setup and fees that cover the incremental scoping, lab, and support costs. Keep **Watch** while that handoff and its economics remain unproven.
+Can Asim deliver the same paid benchmark package to several robotics developers across markets with standard onboarding and healthy incremental contribution? A paid rollout with comparable setup logs, invoices, and itemized delivery costs would answer this. I would move to Reach out if the results raised the score to at least 65 with Medium or High confidence. Evidence that unavoidable per-robot work makes faster growth uneconomic would move the action to Pass.

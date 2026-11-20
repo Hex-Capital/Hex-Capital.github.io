@@ -1,30 +1,32 @@
 ﻿# GatherHQ -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** GatherHQ could make buyer research economical for enterprise marketing teams that previously skipped it between agency projects. Gather reports that half of 56 surveyed professionals could not fast-track research. Its workflow reuses existing calls and surveys, simulates buyer reactions, and recruits fresh interviewees when evidence is thin. The scenario to test is whether teams can validate messaging before each campaign revision. That requires lower labor and full delivery cost per decision backed by reliable buyer evidence. The memo gives posted prices of $10 per simulation, $50 per consumer interview, and $100 per B2B interview. Realized costs for recruitment, incentives, inference, review, retries, exceptions, and fulfillment remain unknown, as does the cost of the former agency workflow. (The Idea, Key Risks)
+GatherHQ’s strongest AGI path is New Economies. Its workflow uses existing customer evidence first, then recruits and adaptively interviews real buyers when evidence runs thin. The former delivery process relied on research firms or internal teams to recruit participants, moderate interviews, and synthesize findings. In Gather’s survey, half of 56 marketing and insights professionals said they could not fast-track research when needed. The plausible newly served use is recurring pre-launch message testing for narrow buyer segments that marketing teams previously skipped because research took too long or cost too much. The memo leaves both the former delivery cost and the reduction in cost per decision-ready test unquantified. (The Idea)
 
-The Cover Genius report documents a completed project surveying 1,392 consumers across seven countries. Gather separately claims 65+ enterprise teams and customer upsells. Those signals support demand for research, while repeat payment for a use buyers previously skipped remains unverified. The founders’ prior enterprise research work and the shipped Slack and API products support execution. At seed, the unresolved gates are whether the new cadence is economical and whether buyers still choose Gather when rivals have equivalent models. (Market & Traction, Key Facts, Founders & Team, The Idea)
+Cover Genius’s co-published report documents a completed project surveying 1,392 consumers across seven countries. Gather reports 65+ enterprise marketing teams, and a founder reports customer upsells. Payment and repeat usage for previously skipped research remain unverified. The founders’ prior work together at Pulse Q&A and the launch of Gather’s research API support execution at this stage. (Market & Traction, Key Facts, Founders & Team)
+
+Under model parity, buyers might still choose Gather if its account-specific evidence and ability to refresh it consistently produce better decisions. That advantage remains an inference. Gather lists prices of $10 per simulation, $50 per consumer interview, and $100 per B2B interview. Contribution per completed study depends on the mix of simulations and fresh interviews, recruitment and incentive costs, inference, and human review. The memo supplies prices while leaving those costs and repeat study volumes unmeasured. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Gather may speed up research that enterprises already buy. Listen Labs and Outset already offer automated interviewing and analysis. Gather’s claimed interview corpus and a customer’s accumulated research could help if they measurably improve predictions and Gather has permission to use the data. The memo provides neither a comparison showing that advantage nor buyer behavior under functional parity. Competing products establish overlap in parts of the workflow. The memo leaves both required conditions open, which supports Watch. (Defensibility, Key Risks)
+Gather may make conventional enterprise research faster without opening a new market. The Cover Genius project demonstrates delivery of a conventional research output, and Listen Labs and Outset already offer AI-moderated interviews and automated analysis. Gather says its models draw on 300,000+ real interviews, but reuse depends on customer agreements, and the memo shows neither buyer preference at functional parity nor a network effect. Access to a large participant pool also leaves control of scarce supply unproven. These gaps keep both New Economies gates open for testing. The memo does not establish ready switching across Gather’s full workflow or support an independent scarce-complements path. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 10/20 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 11/20 |
 | Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Scale economics | 7/15 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent marketing team pay for a second campaign-revision research cycle it previously skipped and choose Gather after trying a rival with equivalent models and access to the same portable customer data? Reach out if a matched trial shows lower labor and lower all-in cost per validated decision than the former workflow, and the buyer pays to repeat with Gather because of a demonstrated advantage. Pass if a representative trial shows the new cadence remains uneconomic or buyers readily switch and retain the same outcome.
+Will independent enterprise marketing teams repeatedly pay Gather at a price that supports positive contribution for pre-launch tests they previously skipped, when they can choose a functionally comparable alternative? A paid cohort that documents the prior cost or staffing constraint, measures fully loaded cost per decision-ready test, and shows repeat purchases at comparable functionality would move the action to Reach out. Evidence that teams can already run those tests at comparable cost or readily switch at parity would close the path and move the action to Pass.

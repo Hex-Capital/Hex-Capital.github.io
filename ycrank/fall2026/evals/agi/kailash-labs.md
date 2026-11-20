@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Kailash Labs could make automation economical for short-run assembly or kitting stations that still rely on manual labor because conventional robot commissioning is too expensive for the volume. That buyer segment is a scenario assumption. Kailash says its retrofit cells learn parts on the existing line and can be installed in days. The memo records a public station demo and the prior release of Marlin-2B. Together with the founder’s robot-learning experience, those are early execution signals. Buyer commitments and production results remain unverified. (The Idea, Market & Traction, Founders & Team, Key Risks)
+The strongest path is **New Economies**. Kailash targets manual assembly, inspection, packing, and kitting on existing production lines. The memo records a public station demo and open pilot bookings. Kailash advertises installation in days, learning parts on the line, and a seven-day keep-or-return pilot with no customer capital expenditure. The demo supports early technical feasibility. The memo records no independent factory pilot, paid conversion, or repeat order. Sharma’s robot-learning background and the team’s Marlin-2B release support seed-stage execution. Production cycle time and uptime remain unverified. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
-The cost test is whether a Kailash cell lowers labor and full delivery cost per accepted unit at comparable quality and throughput. Compare manual staffing and rework with robot supervision, changeovers, exception handling, rework, equipment, installation, maintenance, and downtime. Kailash advertises a seven-day keep-or-return pilot with no upfront customer capital expenditure and leaves the service rate undisclosed. For Kailash, each additional station must recover hardware and field-service costs over its paid operating life, including installation and removal costs from trials that fail to convert. The memo supplies a plausible deployment unit, while realized costs, utilization, and conversion remain unknown. (The Idea, Market & Traction, Key Risks)
+**Scenario assumption.** An understaffed station with frequent part changes could become viable to automate if on-line learning cuts commissioning and operator time enough to meet line speed and quality requirements. The memo gives no measured baseline. Compare the fully loaded manual cost per quality-accepted unit with the station fee, remaining operator labor, and exception and downtime costs per quality-accepted unit at comparable throughput. For Kailash, recurring fees would need to cover financed hardware and safety equipment, installation and removal, and ongoing support at realistic utilization. The memo supplies no service rate or operating data to estimate either cost per unit or station contribution. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Kailash may be offering a managed robot cell for tasks existing integrators can already serve. Corelyn offers usage-based robots in India, and Formic offers managed cells. If rivals have equivalent models, a buyer would still need a reason to choose Kailash, such as faster qualification across part changes or more reliable on-site recovery. Both remain hypotheses. Frequent engineer interventions or line stoppages could also erase the labor savings. These are credible failure modes. The memo lacks a matched production comparison that settles either gate, so the action is Watch. (Defensibility, Market & Traction, Key Risks)
+Kailash may be entering an existing managed-robotics market with similar economics. Formic already offers managed cells, and Corelyn offers usage-based robots in India for overlapping tasks. Kailash’s advertised installation speed gives it a specific potential advantage. The memo shows no cross-site setup gains or control over scarce equipment or service capacity. If competitors had equally capable models, buyers could plausibly procure comparable installation and support elsewhere. That leaves both market opening and durable value capture unproven. The memo records no direct customer substitution that would close the path, so the action is Watch. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 6/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 7/25 |
 | Customer demand | 5/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent manufacturer whose short-run station was previously uneconomic to automate sign a paid extension after a representative Kailash pilot? Move to **Reach out** if the trial shows lower labor and full cost per accepted unit at required throughput, the paid rate supports station economics, and a comparable managed-service quote or trial shows why the buyer pays Kailash under model parity. Stay on **Watch** if either gate remains untested. Move to **Pass** if representative results show that labor savings fail to open the use or that buyers can switch to an equivalent service and retain the same outcome. (The Idea, Defensibility, Key Risks)
+Can Kailash convert a pilot on a previously uneconomic station into a paid production deployment after the buyer evaluates a credible managed-cell alternative? Move to Reach out if the buyer confirms why the station previously failed its cost threshold and chooses Kailash for measured commissioning or service performance under comparable model capability. Production logs and the signed rate would need to show lower cost per quality-accepted unit at required throughput and positive station contribution after hardware, installation, and support costs.

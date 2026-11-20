@@ -5,36 +5,34 @@
 
 ### Company case
 
-The strongest path is a strategic acquisition by a robotics model developer. Hemlock shows synchronized first-person video with hand-pose, contact, and depth overlays. It reports that adding force data raised egg pick-and-place success from 10% to 100% using the same nine minutes of video, and that adding Bracelet data raised lightbulb-screwing success from 30% to 80% using just under six minutes of demonstrations. These company-reported results suggest a potential buyer benefit on force-sensitive tasks. A developer could have a reason to own the capture system and associated data rights if exclusive access lets it reproduce those gains across workers and tasks faster or more cheaply than building a collection system or licensing data. (Defensibility, Market & Traction, The Idea)
+The strongest path is a strategic acquisition by a robotics model developer seeking control of Hemlock’s force-annotated training data and the system that collects it. Hemlock has shown a wrist-worn EMG device and synchronized video with contact, pose, and depth overlays. The company reports that adding force data raised egg pick-and-place success from 10% to 100% and lightbulb-screwing success from 30% to 80% in two short demonstrations. If those gains reproduce across workers and production tasks, a buyer could value owning the collection system and dataset over licensing the data or building its own system. The memo documents the demonstrations and reports the company’s results. It provides no independent replication or evidence of acquisition interest. (The Idea, Defensibility, Market & Traction)
 
-A buyer-run production pilot could test that case by measuring task success against video-only training and a practical alternative, along with calibration time and collection cost across workers. The working prototype and the founder’s experience in wearable sensing and robot data make a scoped pilot plausible. The memo gives no pilot budget, funding commitment, or evidence of collection costs at scale. Hemlock’s proprietary wearable makes a technology transfer plausible, while rights to transfer worker recordings and training data remain unverified. The memo offers no evidence of cash generation to support a buyout or payout, eligible secondary demand, or operating scale to support an IPO. (Defensibility, Founders & Team, Key Risks, Key Facts)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3%, with no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity value. The sale scenarios below assume a close within eight years, $5 million in aggregate debt and deal adjustments, no senior claims on the remaining equity, and an eligible holder selling their entire stake for cash at closing. The prices are illustrative.
 
-**Illustrative proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, no follow-ons, and simple pro rata proceeds before investor taxes. The 5× cash target is $2.5 million within eight years. It requires about $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value. The memo supplies no actual investor terms, company debt figure, or evidence supporting a realizable acquisition price range. (Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross holder cash |
+|---|---|---|
+| Modest strategic sale | $40M enterprise value less $5M leaves $35M | $1.05M, or 2.1× |
+| Strong strategic sale | $100M enterprise value less $5M leaves $95M | $2.85M, or 5.7× |
+| Prolonged private operation | Cash is reinvested, with no distribution or eligible share sale within eight years | $0 realized |
 
-| Eight-year scenario | Gross holder cash |
-|---|---:|
-| Modest sale at $25 million enterprise value, less $5 million illustrative net debt | $600,000 (1.2×) |
-| Strong sale at $100 million enterprise value, less $5 million illustrative net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyer interest fails to materialize, public scale stays out of reach, and all available cash is reinvested with no secondary or payout | $0 realized, with shares still held |
-
-In a wind-down, holder recovery would depend on the residual after obligations and preferences. The memo provides no basis to quantify it.
+At 2.5% ownership, the strong sale would pay $2.375 million and miss the objective. The memo supplies no commercial pricing, buyer economics, or comparable acquisitions to support the strong sale price. It also leaves IP and data transfer rights and holder participation unverified, and provides no evidence of an independent payout route. A buyer-funded production trial is a plausible next milestone given the working prototype and the founder’s experience in wearable sensing and robot data. The memo leaves the cost, timing, and funding of a multi-worker deployment open. (Defensibility, Founders & Team, Key Facts, Key Risks)
 
 ### Countercase
 
-ForceBand’s published design and code give labs a starting point for building wrist-EMG capture in-house. Direct tactile rigs offer another option when fingertip pressure matters, and licensing could give a developer access to Hemlock’s data without buying the company. The reported results cover two tasks, and worker-specific calibration could erode the economics of collecting at scale. These alternatives weaken the case for paying an acquisition premium. The memo establishes neither a substitute that matches Hemlock’s results at production scale nor a credible sale price that leaves the holder materially short, so the Pass gate is untriggered. (Defensibility, The Idea, Market & Traction, Key Risks)
+A robotics lab could build on ForceBand’s published wrist-EMG design or choose direct tactile capture when fingertip pressure matters. If those alternatives deliver comparable training results, Hemlock’s two reported task gains may support dataset licensing while leaving little reason to acquire the company. Per-worker calibration could also make a dataset expensive to scale. The memo establishes available alternatives and a calibration risk, while comparative production performance and a credible ceiling on sale proceeds remain open. The Pass gate is therefore untriggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-After a buyer-run pilot reproduces the task gains across workers and measures collection costs against a practical substitute, what would the buyer pay to own the capture system and transferable data rights? Move from Watch to Reach out if a buyer-backed price range supports at least $2.5 million in holder cash within eight years under a defensible ownership and debt sensitivity.
+Would a robotics model developer fund a production trial and measure whether owning Hemlock’s system is worth more than licensing data or building in-house? Buyer-verified gains across workers and tasks, measured against the buyer’s best alternative and translated into economics that could support a sale clearing the $83.3 million distributable-equity hurdle, would move the action to Reach out. Until that evidence exists, Watch.

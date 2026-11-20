@@ -1,32 +1,32 @@
 ﻿# Veeza AI -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Egyptian applicants assemble documents, re-enter information, and repeatedly check for appointments themselves or pay an agency or broker. Veeza says it automates document checks, form filling, and appointment booking on full-service packages, with expert review before submission. The investment case is that this workflow cuts labor enough to make reliable assistance affordable for travelers who previously went without it and abandoned or deferred applications. Veeza lists UK and US full service at EGP 4,000 per person, with government fees separate. The memo gives no comparable agency price or labor measurements to establish that the service crosses that affordability threshold. (The Idea, Key Risks)
+**New Economies** is the strongest path. Veeza automates passport data extraction, form entry, and appointment booking while retaining expert review. Egyptian applicants previously did this work themselves or paid local agencies or brokers. If automation cuts labor per correctly submitted application enough to lower the price of full-service help, it could serve travelers who previously found agency fees unaffordable. The memo leaves the former delivery cost, the labor savings per completed application, and purchases by that newly served group unverified. (The Idea, Key Risks)
 
-One customer reports paying for assistance and later receiving a US visa. The founder reports five figures in monthly cash revenue in USD within 45 days of the batch start. These are early signals of willingness to pay. The memo leaves open whether paid users previously went without assistance, what share complete the process, and how much labor each completion requires. The team has shipped a live service and WhatsApp intake and payments, building on Moursy’s prior consumer AI product work. (Market & Traction, Key Facts, Founders & Team)
+A paying customer reported receiving a US visa after using Veeza’s assistance. The founder reported five figures in monthly cash revenue within 45 days of the batch start. These signals support willingness to pay, with limited visibility into buyer mix and completed orders. Moursy previously shipped a consumer AI product, and Veeza has launched a WhatsApp application and payment workflow. That supports seed-stage execution, with reliability across changing consular requirements still unmeasured. (Market & Traction, Key Facts, Founders & Team, Key Risks)
 
-The unit for expansion is a correctly prepared and submitted application, including a booked appointment where the package requires one. The economic test is whether retained service fees cover model and fulfillment costs after accounting for expert review, corrections, retries, support, and work spent on refunded orders. The applicant’s time savings also matter when comparing Veeza with self-filing. Published prices give the test a starting point. Actual costs per completion and contribution remain unmeasured in the memo. (The Idea, Key Risks)
+The expansion unit is a completed application on a specific route. Veeza lists EGP 4,000 for UK or US full service, with government and visa-centre fees charged separately. In a scenario where unsuccessful orders are fully refunded, contribution per order started equals the share of orders that complete and retain their fee, multiplied by the average retained service fee, less average acquisition, inference, review, support, and rework costs across all orders started. The memo gives a price point and identifies refund exposure. Route-level completion rates and fulfillment costs remain unknown. (The Idea, Key Risks)
 
 ### Countercase
 
-Veeza may make an existing visa-assistance service more convenient for travelers who would have applied anyway. Consulates and visa centres control appointment supply, and unsuccessful bookings can trigger full refunds. That external control leaves Path A unsupported. Under the scenario assumption that rivals have equally capable browser agents and face the same slot supply, Veeza’s Cairo coverage, bilingual WhatsApp support, and local review could still earn buyer preference. Its published tracker shows local operating progress, while a competitor already offers similar tracking in India. The memo offers no comparable buyer test showing that customers continue to choose Veeza under model parity. Both Path B conditions remain unproven, and the memo contains no direct result that defeats either. (The Idea, Defensibility, Market & Traction, Key Risks)
+Veeza may be making an existing agency service more efficient while leaving the scarce input under third-party control. Consulates and visa centres allocate appointments, and pending bookings can trigger full refunds. That closes the scarce-complement case on current evidence. Cairo-specific booking and bilingual WhatsApp support give buyers a concrete reason to try Veeza, but incumbent processors could plausibly replicate that service with comparable browser models. The memo leaves buyer preference under functional parity and any network benefit untested. It also provides no direct evidence of easy switching or a failed market-opening test, so the New Economies path remains on Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 12/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-In a paid trial on one Egypt-to-destination route, can Veeza serve travelers who previously deferred or abandoned an application because existing help was unaffordable, earn positive contribution on completed applications, and win their paid choice against a service using equally capable models? Move to **Reach out** if the trial documents that prior barrier, measures materially lower labor and full delivery cost per completion after exceptions and refunds, and shows paid preference at comparable prices and slot availability. A representative result that directly defeats either condition would move the action to **Pass**.
+Can Veeza profitably complete applications for Egyptian travelers who previously went without paid help because of cost, while earning their preference over a comparably capable alternative? A paid cohort on one route would move the action to Reach out if it shows lower human labor per correctly submitted application than a manual agency workflow, positive contribution after support and refunds, and buyers choosing Veeza when offered comparable service. Evidence that the lower price fails to attract previously excluded buyers, or that those buyers readily switch at parity, would move the action to Pass.

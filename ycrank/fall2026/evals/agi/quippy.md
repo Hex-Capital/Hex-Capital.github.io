@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Quippy could make daily rehearsal economical for adults who otherwise go without regular coaching. The former delivery model requires a coach’s time to roleplay and give feedback. Quippy describes an app that automates voice or text rehearsal, line-by-line feedback, and follow-up drills. The market-opening hypothesis depends on lowering the full cost per skill demonstrated in a real conversation. That comparison needs to count coach time in the former model and voice and model usage, retries, any human review, support, and privacy operations for Quippy. Its listed annual plans imply $4.17–$5.83 per subscriber-month before delivery costs. Paid conversion, practice intensity, and cost per successful outcome remain unmeasured in the memo. (The Idea, Key Risks)
+**New Economies** is Quippy’s strongest path. Quippy describes voice and text rehearsal with automated feedback and drills tailored to recurring mistakes. The cost hypothesis is that automation removes the need to pay for a coach’s time at each rehearsal, making frequent practice viable for adults who previously went without it because of cost. The relevant measure is total delivery cost per user who achieves a defined real-world conversation goal, including unsuccessful attempts. The memo provides no comparative coaching cost or measured success rate. One reviewer reported using Quippy for practice and forming a new friend group after moving, a promising self-report with uncertain attribution. (The Idea, Market & Traction, Key Risks)
 
-The shipped apps and 92 U.S. iOS ratings averaging 4.7 show early adoption. One reviewer reported forming a friend group after using Quippy to practice, an anecdotal signal of real-world transfer. Jonathan Li’s prior work on conversational practice at Duolingo is relevant to the format he has shipped. Under a scenario where rivals have equally capable models, Quippy’s best case for retention is that saved practice history makes later drills more useful. The memo reports that Quippy saves this history, while its effect on outcomes and paid retention remains untested. (Market & Traction, Founders & Team, Defensibility)
+Store ratings and downloads show early use, while paid conversion and repeat payment remain unknown. Li’s prior work on conversational practice at Duolingo and Quippy’s release on iOS and Android support execution at this stage. The expansion unit is a paying subscriber. Listed annual prices imply roughly $4.17–$5.83 per subscriber-month before fees, and unlimited practice exposes contribution to usage-dependent voice and model costs that the memo does not quantify. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Talkville, Volo, and Rehearse already offer consumer simulations. A comparable app could deliver the same practical gains with equivalent models, leaving users little reason to keep paying Quippy. Repeated practice could also improve simulated performance while producing too little real-world transfer to justify a subscription. The existing alternatives and anecdotal outcome evidence leave both required conditions unresolved. The memo contains no direct comparison that closes the path. (Market & Traction, Defensibility, Key Risks)
+Quippy may be improving an existing market for self-guided rehearsal. Talkville, Volo, and Rehearse already offer overlapping simulations, and Quippy relies on external providers for live rehearsal and feedback. Saved practice history gives Quippy a plausible way to improve later sessions, but its effect on retention and paid preference under functional parity is unmeasured. The overlap makes substitution credible. The memo leaves actual switching at parity untested, so the path remains open on Watch. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 6/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Will adults who previously went without regular coaching pay and renew for Quippy when offered equally capable rehearsal and feedback at the same price? A paid cohort comparison that shows higher renewal for Quippy, measured skill transfer at a lower full cost than coached rehearsal, and positive contribution at actual usage would move the action to Reach out. If comparable alternatives retain buyers equally well or the cost advantage disappears after accounting for real-world outcomes, the action moves to Pass.
+Can a cohort of adults previously priced out of regular coaching achieve a defined real-world conversation goal at materially lower delivery cost per successful user and keep paying for Quippy when offered a functionally comparable alternative? Reach out if a comparative cohort test demonstrates both outcomes at viable contribution. Pass if users readily switch at parity. An inconclusive result keeps Quippy on Watch.

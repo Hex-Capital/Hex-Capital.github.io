@@ -1,30 +1,32 @@
 ﻿# Terse -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Product-led adoption** is the strongest path. Engineering teams building collaborative AI apps face a recurring job in coordinating concurrent writes and keeping shared state current. Terse packages that job in a runtime with per-actor SQLite, serialized calls, and WebSocket updates. The same runtime can be self-hosted or run on Terse Cloud, making the workflow plausibly portable across markets. Buyer geography and deployment requirements in a second market are unreported. (The Idea)
+Terse’s strongest path is to attract developers through its open-source Durable Actors runtime and convert production workloads to metered Terse Cloud usage. Assuming strong fit with teams building collaborative AI apps, coordinating concurrent writes and live updates is a recurring job that travels across markets. The runtime uses per-actor SQLite and WebSockets and supports self-hosting, giving developers a portable way to adopt the same product. GitHub and the CLI quickstart give developers a way to discover and try it independently. The memo documents Cloud pricing, while the path from the quickstart to paid production without founder assistance remains unverified. (The Idea)
 
-GitHub and the CLI quickstart give developers a route to try the runtime. Doop’s creator reported a migration in progress, and Terse’s CTO reported that Munito used it to coordinate 32,752 VM launches in a demo. Those are early signs that developers will put integration effort into the runtime. The growth scenario assumes that teams can reach first value through the quickstart, choose managed hosting for a recurring production workload, and spend more as billed CPU and RAM usage grows. The first unproven link is conversion from developer trial to paid cloud use. With Terse Cloud newly launched, a single documented customer journey through that link would be meaningful. (The Idea, Market & Traction)
+Persistent actor state could keep Terse embedded in production workflows. If retained Cloud customers request more CPU and RAM as workloads grow, their bills can grow too. That is an inferred expansion mechanism. The memo records 366 GitHub stars and a migration in progress reported by Doop’s creator. Terse separately reported 1.4 million requests on November 1 and 32,752 VM launches coordinated in Munito’s demo. Those signals show early technical adoption around the November 3 Cloud announcement. Paid production use and commercial growth remain unknown, so initial traction takes the absent-evidence default. (The Idea, Defensibility, Market & Traction)
+
+At published rates, a workload assumed to request one CPU and one GiB of RAM continuously for an hour generates about $0.095 in compute and memory revenue. Contribution depends on the infrastructure, storage, connection capacity, and support attributable to that workload. Actor dormancy could reduce serving costs while preserving state, but the memo gives too little cost or utilization data to establish contribution at representative workloads. (The Idea)
 
 ### Countercase
 
-The free self-hosted runtime could attract developers who have little reason to buy hosting. Rivet also offers self-hosted actors, and Cloudflare bundles comparable state and WebSocket capabilities into Workers. The founder-reported 1.4 million requests on one day and the Munito demo leave repeat paid use open. Terse publishes resource prices and reports a cold-start latency improvement, while marginal infrastructure and support costs remain unknown. The structural downside gate is untriggered because paid conversion and delivery costs remain testable. (The Idea, Defensibility, Market & Traction, Key Risks)
+Developers may adopt Durable Actors and keep self-hosting, leaving Terse with widespread usage and few Cloud customers. Rivet offers similar self-hosted primitives, and Cloudflare bundles persistent state and WebSockets into Workers. Both give developers alternatives when moving to production. The structural gate stays open because the memo shows a portable runtime and gives no evidence of unavoidable bespoke rollout work or structurally uneconomic delivery. Reliable conversion to recurring paid Cloud usage remains unproven. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 22/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 16/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 67/100** (Invest)
 
 ### Decisive diligence question
 
-Can an independent team go from the GitHub quickstart to a paid Terse Cloud deployment for a recurring production workload without bespoke founder help? An account record showing that journey and paid use sustained through a normal billing cycle would move the action to Reach out. Demo-only use or continued self-hosting would leave it at Watch.
+Can developers who start with the public quickstart reach paid production on Terse Cloud and keep running those workloads without founder assistance? A small cohort of independent teams that activate on their own and incur usage charges in successive billing periods would move the action to Reach out.

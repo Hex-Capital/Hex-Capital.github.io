@@ -5,30 +5,36 @@
 
 ### Company case
 
-**Strategic acquisition** is Forward’s strongest route. A commercial real estate financing software provider or private-credit marketplace could buy Forward to gain an advisor origination channel and a lender network with current credit mandates. Ownership could be worth more than a distribution agreement if it secures a durable flow of deals that the buyer could convert into incremental funded loans. The memo records a customer testimonial crediting Forward with introductions to unfamiliar lenders and help securing term sheets. Forward reports that 100 U.S. funds signed funded-loan fee agreements and that its first Southern California advisor went exclusive after the first transaction. These signals establish a reason for a buyer to investigate the network. The buyer’s incremental economics remain unmeasured. (The Idea, Market & Traction, Defensibility)
+The strongest route is a strategic sale to a private-credit marketplace such as GetLiquid. A buyer could combine Forward’s advisor-sourced deal flow and lender matching with its own settlement and reporting infrastructure. Forward reports that 100 U.S. funds signed fee agreements, and a customer testimonial describes introductions to unfamiliar lenders that led to term sheets. Those signals support a potential origination benefit. The buyer rationale is an inference, with the value of that benefit to an acquirer still unmeasured. (*The Idea*, *Market & Traction*)
 
-The operating milestone is repeat funded closings and collected fees from multiple independent advisors over consecutive quarters. The announced US$1.5 million pre-seed and $100,000 grant support testing that milestone. Burn, runway, and the capital needed to expand beyond the initial advisor remain unknown. At the stated 25-basis-point fee, $400 million in funded loans would produce $1 million in fees if fully collected. The memo’s reported $400 million is originated volume. The reported $180,000 annualized revenue and $545,000 contracted revenue measure different things, and both leave currency and cash collections unspecified. The funded-loan pricing terms establish when fees become payable. Funded volume and collections would establish the economics a buyer could underwrite. (The Idea, Market & Traction, Key Facts, Key Risks)
+The next operating milestone is repeat funded closings and collected fees across several independent advisors. The announced $1.5 million pre-seed, $100,000 grant award, and two transactions reported as progressing toward close support testing that milestone. Runway and the cost of expanding beyond the initial advisor remain unknown. (*Market & Traction*, *Key Risks*)
 
-**Illustrative holder proceeds.** Assume a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% ownership with no follow-ons. The eight-year target is $2.5 million gross before investor taxes. That requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Using $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value before any additional fees or senior claims. At year eight, a $25 million sale yields $600,000 gross, or 1.2×, and a $100 million sale yields $2.85 million gross, or 5.7×. These are sensitivities. Forward’s actual shareholder terms, net debt, transaction costs, and realizable sale price are unverified. The memo also leaves the transferability of the advisor relationship, lender agreements, and underlying data rights open. (The Idea, Defensibility, Market & Traction, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% ownership diluted to 3% with no follow-ons, and a $2.5 million gross cash objective within eight years. That requires about $83.3 million in distributable equity at 3%. Forward’s stated 25-basis-point fee applies to funded loans. The reported $180,000 annualized revenue and $545,000 contracted revenue leave currency and collections unspecified. The reported processed and originated volumes leave funded volume unspecified. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-If growth plateaus, buyer interest fails to emerge, public-market scale stays out of reach, and Forward reinvests all available cash, the holder realizes $0 over eight years and retains the shares. The memo supplies no evidence of the post-reinvestment cash generation needed for a sponsor buyout or company-funded payout, eligible demand for a secondary, or a path to IPO scale and resale. In a wind-down, any holder recovery would depend on the residual after obligations and preferences. The memo gives no basis to estimate it. (Market & Traction, Key Facts, Key Risks)
+| Scenario | Proceeds bridge |
+|---|---|
+| Modest sale | Illustrative $2.4 billion in annual funded volume yields $6 million in annual fees. At an assumed 5× fee multiple, $30 million of enterprise value less $5 million in debt and deal adjustments leaves $25 million in equity. The holder receives $750,000, or 1.5×. |
+| Strong sale | Illustrative $8 billion in annual funded volume yields $20 million in annual fees. At the same assumed multiple, $100 million of enterprise value less $10 million in debt and deal adjustments leaves $90 million in equity. The holder receives $2.7 million, or 5.4×. If deductions rise to $20 million, proceeds fall to $2.4 million, or 4.8×. |
+| Prolonged private | Continued operations with cash reinvested and no eligible share sale or distribution yield $0 realized within eight years. |
+
+Both sale cases assume a full cash acquisition by year eight, holder eligibility to sell the entire stake, and a pro rata waterfall with no further senior claims. The volume, multiple, and deductions are scenario assumptions. The memo leaves transfer and consent terms unverified and provides no evidence of a separate route to holder liquidity.
 
 ### Countercase
 
-A buyer could build or license lender discovery and deal coordination, functions already available through Lev and Leverest. Forward’s strongest potential reason to buy is access to advisor deal flow, yet its rollout began with one exclusive advisor, it earns fees only on funded loans, and the memo contains no measured matching lift. If the advisor relationship fails to replicate, a partnership could capture much of the available benefit at lower cost. This supports Watch. The evidence establishes neither a structural closing block nor a supported sale-price ceiling that would leave the holder materially short. (Defensibility, Market & Traction, Key Risks)
+A buyer could build or source lender discovery and deal coordination elsewhere. Lev and Leverest already offer overlapping workflows, Lev shut down its brokerage, and Forward’s rollout began with one exclusive Southern California advisor. If the early term sheets fail to turn into repeat funded loans across advisors, acquiring Forward may add little durable origination value. The memo establishes neither a structural closing barrier nor a credible price ceiling below the proceeds hurdle, so the Pass gate does not apply. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
+| Counterparty rationale or source of cash | 16/30 |
+| Plausible investor proceeds | 10/30 |
+| Milestones and capital needed | 13/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can verified, repeat funded closings across independent advisors support a strategic buyer’s price range that clears the holder’s eight-year cash target? Closing and fee collection records across consecutive quarters would establish repeatability. Buyer feedback or a buyer-specific economic model would need to show why owning that deal flow justifies a price that clears the target after dilution and senior claims. That evidence would move the action to Reach out. (The Idea, Market & Traction, Key Facts, Key Risks)
+Can a strategic buyer justify a price that would leave at least $83.3 million in distributable equity once Forward demonstrates repeat funded volume across multiple advisors? Advisor-level closing and fee-collection records, paired with a buyer’s quantified estimate of the incremental origination value, would support moving from Watch to Reach out if they show a credible path above that hurdle.

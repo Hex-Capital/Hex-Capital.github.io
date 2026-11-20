@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** The memo describes internal AI champions fitting peer coaching around their regular jobs. ChampionEffect says its coach joins live calls and guides employees through their own tasks in Slack and Teams. The investment scenario is that teams currently rationing one-to-one help could afford to offer it routinely. At seed, a representative deployment could test that scenario by comparing the full cost per correctly completed task under peer coaching and under ChampionEffect, including inference, setup, human review, retries, exceptions, and workflow maintenance. The memo provides no measured comparison or evidence that an employer paid to extend coaching to a previously unserved team. (The Idea; Market & Traction; Key Facts)
+The strongest path is New Economies. ChampionEffect says its Slack and Teams coach joins live calls and reuses what it learns from employee walkthroughs to help coworkers. The current delivery cost is the time internal AI champions spend coaching peers alongside their regular jobs. The market-opening hypothesis is that automation could make live help economical for routine tasks that employees would otherwise tackle without coaching. The memo supplies no comparative cost per successful workflow or evidence that employers pay to serve those uses. (*The Idea*, *Market & Traction*)
 
-Under model parity, the company’s best case is that each validated walkthrough makes coaching more useful for coworkers. ChampionEffect describes reusing walkthrough knowledge within an employer, but the memo provides no measured reuse or buyer preference against an equivalent coach. The expansion unit would be one additional team at the same employer. That rollout could spread integration costs if permissions and maintenance remain manageable, though the memo gives no realized price or delivery cost. Kevin Law’s engineering leadership and Emre Simdi’s go-to-market work at Cambly establish relevant prior execution. The current deployment economics remain untested. (Defensibility; The Idea; Key Risks; Founders & Team)
+The claimed reuse gives ChampionEffect a plausible reason to win an account. If each validated walkthrough improves the help available to coworkers, the product could become more valuable as employees contribute. That effect is an inference. The memo reports launch coverage and investor listings, while repeat usage, buyer preference under functional parity, and paid commitments remain unverified. (*Defensibility*, *Market & Traction*, *Key Facts*)
+
+The founders’ engineering and go-to-market work at Cambly supports seed-stage execution credit. ChampionEffect’s own field performance remains unverified. The expansion unit would be another team within an employer. Its cost per successful workflow would include model and live-call costs, app approval and setup, workflow validation and upkeep, and human help for exceptions. The memo gives no basis for estimating those costs or contribution at a viable price. (*Founders & Team*, *The Idea*, *Key Risks*)
 
 ### Countercase
 
-ChampionEffect could save internal champions time while serving employees who already get help. Admin approvals, access checks, and stale guidance could also absorb enough labor to keep broader coverage uneconomic. Section’s role-specific coaching and WalkMe’s in-app guidance show that buyers already have options for parts of the workflow. The memo reports no head-to-head result or buyer switching, so the alternatives raise a credible substitution risk without closing the path. Both Path B conditions remain open, supporting Watch. (The Idea; Defensibility; Key Risks)
+ChampionEffect could make existing AI training cheaper while leaving the set of buyers and uses essentially unchanged. Section already offers role-specific coaching, and SAP WalkMe provides step-by-step guidance. Slack and Teams administrators also control app approval. These are credible substitution and distribution risks. The memo establishes overlap with parts of the workflow, while functional parity and actual switching remain untested. The market-opening and durability gates therefore remain open, and the memo supports no independent scarce-complement path. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 5/20 |
-| Team and execution | 7/15 |
-| Scale economics | 5/15 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent employer pay to roll ChampionEffect out to a team that previously went without task-specific coaching? A paid expansion would move the action to Reach out if a representative pilot shows that ChampionEffect lowers full cost per correctly completed task enough to fund routine coaching for that team, earns positive delivery contribution at the paid price, and wins the buyer’s choice over a functionally equivalent coach with comparable model quality and approved workflow access. A representative trial that shows either uneconomic coverage or easy substitution would close this path.
+Will an independent employer pay to expand ChampionEffect to employees whose routine tasks previously went uncoached after testing a functionally comparable alternative? Move to **Reach out** if a paid pilot leads to an expansion at a price that covers delivery costs, shows a material reduction in fully loaded cost per successfully completed workflow against the human-coaching baseline, and demonstrates buyer preference when comparable coaching is available.

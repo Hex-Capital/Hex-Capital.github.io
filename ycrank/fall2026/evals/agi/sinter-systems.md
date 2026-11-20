@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** The plausible new use is a short run of molded parts for a hardware team that would otherwise skip molding that design revision. The former workflow requires outsourced tool fabrication before the first sample. Sinter claims that printing photopolymer tools for existing presses yields parts in 48 hours at one-tenth the time and cost of conventional methods, and advertises per-part pricing with no minimum. The memo documents public prototype ordering. Sinter reports producing more than 500 kg with customers in its first month, with the share attributable to molding and any repeat molding orders unknown. (The Idea; Market & Traction)
+Sinter’s strongest path is an operations-led New Economy. Hardware teams that frequently revise parts might start ordering small, production-material molding runs if cheaper tooling makes each design iteration affordable. Sinter documents automated manufacturability checks and mesh repair, with engineering review for exceptions. It says its pilot uses printed photopolymer tools in existing presses and advertises 48-hour turnaround at one-tenth the time and cost of traditional methods. Its illustrative baseline is up to 12 weeks for a first outsourced molded sample. The memo leaves the baseline dollar cost, labor hours, and cost per accepted lot unmeasured. It also leaves open how much of the claimed improvement comes from software automation versus the tooling process. (*The Idea*, *Defensibility*)
 
-**Scenario assumption.** If each revision needs fresh tooling, reducing tool fabrication labor could make a small lot economical. Compare labor hours and full cost per accepted lot against outsourced tooling, including engineering review, press setup, inspection, scrap, and replacement inserts. The memo supplies no matched comparison. Under model parity, buyers could still pay Sinter to deliver accepted physical parts. The durability of that advantage depends on whether Sinter can run and qualify those jobs more economically than credible mold shops. The memo describes in-house tools for pilots and lists in-house polymer tooling as coming soon, leaving routine availability uncertain. (The Idea; Defensibility; Key Risks)
+Sinter reports producing more than 500 kg of parts with customers in its first month. Its public prepaid ordering flow is for FDM prototypes, and it is recruiting injection-molding pilots. The reported volume is an early demand signal, with the molding share and repeat paid demand from previously excluded buyers still unknown. The founders’ print-farm, switch-manufacturing, and robotics experience and the live prototype ordering flow support seed-stage execution. Repeat molding delivery remains the next test. (*Market & Traction*, *The Idea*, *Founders & Team*)
+
+Under model parity, buyers could still pay Sinter to deliver conforming parts if its tooling and press execution produce reliable results across design revisions. The expansion unit is a paid, accepted small lot. Its contribution depends on the quoted price after tool fabrication and replacement, press time at actual utilization, material, engineering review, inspection, and failed runs. Reusing existing presses makes the pilot plausible, while tool life by resin and geometry and contribution across repeat lots remain unmeasured. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-Sinter may be making existing rapid molding cheaper without opening a new use. Protolabs advertises one-day aluminum molding, and existing shops can trial commercially available printed inserts. Heat and creep could force enough tool replacements to erase Sinter’s savings. These are credible challenges to both Path B gates. Comparable price and part acceptance at the target lot size remain untested, which supports Watch. (Market & Traction; Defensibility; Key Risks)
+Sinter may be serving the existing quick-turn molding market. Protolabs advertises one-day aluminum tooling, and competing shops can trial commercially available resin inserts. Heat and creep could make frequent tool replacement erase the savings on accepted parts. These facts weaken speed as a basis for durable value capture. The New Economies path stays open because the memo does not establish what a comparable small lot costs or whether buyers previously priced out would order repeatedly from Sinter. (*Market & Traction*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 7/20 |
-| Team and execution | 8/15 |
-| Scale economics | 6/15 |
+| Path-specific thesis fit | 8/25 |
+| Durable value capture | 7/25 |
+| Customer demand | 6/20 |
+| Team and execution | 9/15 |
+| Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent hardware team that previously skipped molding a revision place a paid repeat order after comparing Sinter with a quick-turn supplier on the same resin, tolerances, and lot size? Move to Reach out if the buyer confirms that the price and cadence enabled the run, chooses Sinter for qualified physical delivery, and job records show lower labor per accepted lot and positive contribution after review, scrap, and tool replacement. Move to Pass if the comparison shows the old workflow already serves the use at comparable economics or that Sinter’s labor savings disappear in delivery.
+Will independent hardware teams that previously skipped molding place repeat paid orders with Sinter for small lots when comparable quick-turn alternatives are available? A pilot cohort with prior quotes or records of skipped runs, matched current quotes, and repeat orders for accepted parts would answer it. Move to Reach out if the pilots show that lower labor and cost per accepted lot unlocked those orders, buyers keep choosing Sinter, and the lots contribute after tool replacement and rework. Move to Pass if comparable offers win readily and the pilots show only a shift of existing molding spend.

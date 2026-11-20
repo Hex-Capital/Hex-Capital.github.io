@@ -22,25 +22,25 @@
   "memoGeneratedAt": "2026-11-18T00:31:13.023Z",
   "evalScores": {
     "agi": {
-      "score": 41,
+      "score": 43,
       "tier": "Pass"
     },
     "hypergrowth": {
-      "score": 46,
+      "score": 62,
       "tier": "Neutral"
     },
     "exit": {
-      "score": 42,
-      "tier": "Pass"
+      "score": 47,
+      "tier": "Neutral"
     }
   },
   "consolidatedScores": {
-    "AGI": 41,
-    "HG": 46,
-    "EXIT": 42
+    "AGI": 43,
+    "HG": 62,
+    "EXIT": 47
   },
-  "consolidatedAvg": 43,
-  "consolidatedRank": 45,
+  "consolidatedAvg": 50.67,
+  "consolidatedRank": 27,
   "traction": {
     "tractionRank": 64,
     "tractionScore": 57,

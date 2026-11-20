@@ -5,17 +5,23 @@
 
 ### Company case
 
-**Strategic acquisition** is Grep AI’s strongest path. A payments or compliance platform could buy Grep to roll out validated screening workflows across its customer base. At IG, the workflow went through months of shadow testing and governance approval. IG reported that automated alert review rose from 10% to 30% and flagged-customer activation fell from 2–3 days to under 10 minutes. Grep separately reported that first trades doubled, with attribution unverified. These results give a buyer a reason to value faster activation and less manual review. The case for ownership depends on whether Grep can repeat the deployment across customers and whether buying it would accelerate that rollout enough to justify a premium. (Defensibility, Market & Traction)
+The strongest path is a strategic sale to a payments or compliance platform that could deploy Grep’s validated screening workflows across its customers. IG reports that automated screening-alert review rose from 10% to 30% and that flagged-customer activation fell from 2–3 days to under 10 minutes. The acquisition rationale is the potential to reuse that workflow and shorten future implementations. The evidence supports customer value in one regulated deployment. The economics of reuse across a buyer’s customer base remain uncertain. (*Market & Traction*, *Defensibility*)
 
-The operating milestone is a second paid, governance-approved screening deployment with comparable gains and measured implementation time and cost. Shopmonkey’s report that Grep cut underwriting research from hours to minutes shows adoption in another workflow. Grep has raised a reported $5.5 million cumulatively. Current runway, burn, and the cost of reaching the milestone remain unclear. Transfer rights for customer-specific workflows, data, and contracts also remain unverified. (Market & Traction, Key Risks)
+A second paid, governance-approved screening deployment is a plausible seed-stage milestone. Shopmonkey’s reported 64 underwriting research jobs in its first month provide a separate signal of workflow adoption, and the memo records a $500,000 YC note. The time and capital required to repeat IG’s results remain unclear. API and SDK distribution make a product acquisition plausible at this stage, with customer-contract assignment and consent terms unverified. (*Market & Traction*, *The Idea*, *Key Risks*)
 
-**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The eight-year, 5× target is $2.5 million in gross cash before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, with illustrative net debt of $5 million, the hurdle is $88.3 million of enterprise value before any additional fees or senior claims. Under those assumptions, a year-eight sale at $25 million yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). Grep’s actual holder terms, exit debt and note treatment, and a realizable sale-price range remain unknown. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in gross cash within eight years, or about $83.3 million in distributable equity. Both sale cases assume a full cash acquisition within eight years, an eligible holder selling its entire stake, and a pro rata waterfall with zero incremental preference or escrow deductions.
 
-If growth plateaus, buyers stay away, public-market scale remains out of reach, and Grep reinvests all available cash, the holder realizes $0 in eight years and retains the shares. The memo supplies no evidence of cash generation to finance a sponsor buyout or company-funded payout, public resale readiness, or eligible secondary demand. (The Idea, Market & Traction, Key Facts)
+| Scenario | Enterprise-to-equity bridge | Gross holder cash |
+|----------|-----------------------------|-------------------|
+| Modest sale | $40M enterprise value less $5M in assumed net debt and deal adjustments = $35M | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in assumed net debt and deal adjustments = $90M | $2.70M (5.4×) |
+| Prolonged private | Cash reinvested, with no eligible share sale or funded payout within eight years | $0 |
+
+The sale values are sensitivity assumptions. The memo supplies no buyer price range or quantified buyer economics to anchor them, so proceeds receive the absent-evidence default. It also supplies no evidence of an independent route to holder cash. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-A buyer could license Grep’s product or build with the Apache-licensed AgentRun runtime and hosted agent infrastructure. IG’s months of customer-specific validation and continued manual oversight for high-risk cases suggest that buying Grep could still leave the acquirer with substantial deployment work at each customer. That weakens the case for an acquisition premium. The evidence leaves price and transferability unresolved, so the structural-block and inadequate-proceeds Pass gates remain open. (Defensibility, Key Risks)
+A platform could build on Anthropic’s managed execution and Grep’s Apache-licensed AgentRun runtime, then validate the workflows itself. IG’s months of shadow testing and continued manual oversight for high-risk cases suggest that much of the implementation work may recur at each customer. Grep’s claimed 91% model-cost reduction comes from an internal screening benchmark, leaving production savings and accuracy across deployments uncertain. This weakens the case for an acquisition premium. The evidence leaves both Pass gates unproven, with the ability to replicate the economics as the gap that warrants Watch. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -23,12 +29,12 @@ A buyer could license Grep’s product or build with the Apache-licensed AgentRu
 |-----------|-------|
 | Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 13/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
 **Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-What purchase price could a specific payments or compliance platform justify after Grep repeats the IG result in a second paid, governance-approved screening deployment? Move to **Reach out** if the repeat deployment and buyer-specific rollout economics support a price that can clear the holder’s $2.5 million cash target within eight years under plausible ownership and deal terms.
+Can Grep repeat IG’s screening gains in a second paid, governance-approved deployment at economics that support a strategic acquisition above the $83.3 million distributable-equity hurdle? Measured net savings, review accuracy, and implementation costs from that rollout would answer the question if they support a credible buyer-side comparison of building versus acquiring. A supported price range that clears the holder’s hurdle would move the action to Reach out.

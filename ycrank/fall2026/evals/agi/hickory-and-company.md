@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Bank and fintech compliance teams manually gather evidence, request data from IT, and document decisions. Hickory says its agents automate evidence gathering and drafting while qualified staff retain approval. A plausible market opening is recurring follow-up on low-priority alerts that a resource-constrained bank currently defers because review is too costly. That is a scenario assumption. Hickory claims 10× faster queue processing without a published benchmark method. The relevant comparison is full cost per audit-ready case at comparable quality, including analyst and IT time, inference, qualified review, retries, corrections, and escalations. The memo supplies no such comparison. (The Idea, Key Risks)
+New Economies is Hickory’s strongest path. The current workflow consumes analyst time gathering evidence, waiting on IT, and documenting decisions. Hickory says its agents retrieve cited evidence and draft cases against bank-specific policies, with qualified staff approving the result. Hickory claims 10× faster queue processing, but the memo gives no benchmark method or measured cost per approved case. In a plausible scenario, a community bank could start running recurring secondary reviews it previously skipped because of analyst cost. The relevant comparison is the cost per case that meets the same approval standard, including human review, rework, and model processing. (The Idea, Key Risks)
 
-Under model parity, a bank might still pay for institution-specific policy configuration and audit history if those features make recurring reviews easier to run and defend. Hickory describes the policy workflow, while switching costs remain an inference with no observed retention, premium, or buyer preference under parity. Reported backlogs are an indirect demand signal. The memo records a launch and demo solicitation and reports no independent buyer commitment. (Defensibility, The Idea, Market & Traction, Key Facts)
-
-The team brings banking and compliance experience, including use of an internal AI compliance tool at Seis. A plausible expansion unit is one institution under an inferred software license. Repeatable contribution depends on license revenue covering institution-specific setup, inference, and support. Hickory’s May 2026 terms limit the data and integrations available for that rollout, and the memo gives no realized pricing or deployment costs. (Founders & Team, The Idea, Key Risks, Key Facts)
+Bank-specific configurations and audit histories could give buyers a reason to stay under model parity. That is an inference, with buyer preference and switching costs still untested. The reported use of an internal AI compliance tool at Seis and Hickory’s public launch support seed-stage execution. External paid demand and repeat use remain unverified. An institution is the plausible expansion unit, but the memo supplies no pricing or deployment-cost evidence to show that licensing can cover integration, policy setup, and ongoing support. (Defensibility, Founders & Team, Market & Traction, Key Facts, The Idea)
 
 ### Countercase
 
-Hickory may help existing compliance teams clear the same queues faster while qualified review and exceptions keep previously deferred work uneconomic. Verafin and Hummingbird already offer overlapping investigation or documentation agents, so a bank with access to equivalent models may be able to retain the core outcome with a competing product. The memo establishes competitive overlap and a required human review step. It leaves both the actual cost of review and buyer behavior under functional parity unresolved. Neither gate is satisfied, and neither is decisively defeated. (Defensibility, Key Risks)
+Hickory may speed up work banks already fund while remaining readily substitutable. Verafin and Hummingbird offer overlapping investigation or documentation agents, and Hickory’s published terms specify no payment-rail integrations and say the software is unsuitable for submission of consumer financial-account information. Those limits weaken its monitoring-replacement pitch. The overlap raises substitution risk, while actual functional parity and buyer switching remain untested. Market opening and durable buyer preference both remain open, and the memo supports no independent scarce-complement path. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Durable value capture | 8/25 |
+| Customer demand | 5/20 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
 **Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent bank pay for a second cycle of a previously deferred review workflow after comparing Hickory with its manual baseline and a functionally equivalent alternative using comparable models? Move to **Reach out** if the trial shows that Hickory brings the all-in cost per approved case within the bank’s budget at comparable audit quality and the bank renews at a viable price because Hickory’s policy and audit workflow matters to it. **Pass** if a representative trial shows the workflow remains uneconomic or the bank can switch while preserving the outcome. Otherwise, stay on **Watch**.
+Will an independent bank pay Hickory to repeat a review workflow it previously forgone on cost grounds after testing a functionally comparable alternative? A paid repeat order would move the action to Reach out if the pilot shows materially lower all-in cost per approved case than manual delivery and the bank chooses Hickory for a demonstrated workflow or audit advantage at functional parity.

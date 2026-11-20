@@ -1,32 +1,32 @@
 ﻿# Acyclic Labs -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is the strongest path. The likely first buyers are engineering teams already running agents at volume. Acyclic reports use in document-processing pipelines, where recurring jobs could give teams a reason to add workloads if parallel execution reliably saves time at comparable output quality. The open-source harness, customer-selected model keys, and cloud placement make the same workflow plausible across markets. Buyer geography and deployment requirements remain unverified. (The Idea, Market & Traction, Defensibility, Key Risks)
+Acyclic’s strongest Hypergrowth path is converting users of its open-source harness into paying Managed Agents customers. Conditional on strong product-market fit, engineering teams could use the same fork-and-merge workflow for recurring jobs across markets. The published SDK, self-hostable CLI, customer-selected model keys, and flexible cloud placement support broad portability with modest adaptation. The CLI gives developers a way to try the harness independently, while founders currently handle managed access and the company plans to set pricing with its first teams. (The Idea, Defensibility, Key Risks)
 
-The CLI and founder-handled access requests give teams a route to try the product. The memo does not trace an independent buyer from discovery to paid activation or show a buyer committing meaningful budget or changing a recurring workflow. TinyFish documented a 19-agent research demo that took 12.5 minutes and cost $2.52 to run. That establishes execution on one task. The company-reported pipeline use leaves repeat cadence and workload expansion open. (The Idea, Market & Traction, Key Facts)
+Acyclic reports use in document-processing pipelines, where recurring jobs could generate repeat workloads. Under a usage-based pricing scenario, growing workloads could also increase what retained customers spend. The memo documents free managed onboarding and gives no established rate card or paid renewal evidence. The two-person team progressed from an October infrastructure announcement to onboarding by November, and a documented 19-agent demo shows the system running a real workload. The memo’s revenue-generating classification leaves the product and amount unspecified, so the current product’s commercial growth remains unverified. (The Idea, Founders & Team, Market & Traction, Key Facts)
 
-Acyclic charges no managed-service fee during onboarding, and model providers bill customers directly. A fee per completed workload is a scenario assumption. Each additional workload would need to generate enough fee revenue to cover Acyclic’s incremental hosting, orchestration, and support, with enough contribution left to justify sales and onboarding effort. The demo cost and reported switch to a cheaper search and fetch provider show some operating costs and a way to reduce them. Acyclic’s share of those costs and the buyer’s savings at comparable output quality remain unknown. The first link likely to break is conversion from a working run to recurring paid use. (The Idea, Market & Traction, Key Risks, Key Facts)
+During onboarding, Acyclic collects zero managed-service revenue per run and model providers bill customers directly. A paid run would need to cover any workspace infrastructure, search and fetch charges, and support that Acyclic bears, plus an allowance for onboarding effort. The demo’s $2.52 execution cost gives one workload reference, with Acyclic’s share unspecified. The reported switch to cheaper search and fetch providers shows one way to reduce run costs. Contribution on representative paid workloads remains uncertain. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Teams could get enough value from the self-hosted harness or a model provider’s parallel delegation to forgo Acyclic’s managed service. Acyclic also reports that coordination failures can make swarms underperform a single agent, while parallel execution can multiply paid web calls. Together, those risks could erase the time or quality benefit a buyer would pay for as workloads expand. The memo leaves that outcome testable in production and does not establish a structural constraint that triggers Pass. (Defensibility, Key Risks)
+Teams can self-host the harness or use parallel delegation in Claude’s managed stack, which could limit what they will pay Acyclic. Acyclic also reports that poorly coordinated swarms can underperform a single agent, while parallelism increases web calls. Together, those risks could narrow the set of workloads with enough customer value to cover managed delivery. The structural downside gate stays open. The reusable harness and provider switch show ways to limit delivery costs, and the memo leaves open whether founder involvement is a temporary onboarding step. (Defensibility, The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 8/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 22/25 |
+| Repeatable acquisition and onboarding | 8/25 |
+| Retention economics | 10/20 |
+| Initial traction | 5/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 49/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent document-processing team convert from onboarding to paid production use and add a second paid workload at its normal operating cadence? Move to Reach out if billing and run records show that expansion, the buyer sees a worthwhile time or quality gain after provider charges, and Acyclic earns positive incremental contribution after hosting and hands-on support.
+Can a cohort of SDK users activate Managed Agents without routine founder help and repeatedly pay for production runs at positive contribution? A documented cohort that completes self-guided setup, pays across multiple billing periods, and covers Acyclic’s attributable onboarding, infrastructure, and support costs on representative workloads would move the action to Reach out.

@@ -5,28 +5,32 @@
 
 ### Company case
 
-The strongest path is repeatable direct sales to commercial constellation operators that outsource spacecraft production. Their recurring job is buying batches of spacecraft as they deploy and replenish fleets. The memo documents one published Exponent configuration and volume pricing, which support a plausible route to selling the same bus across markets to operators with compatible payloads. Flight qualification and the amount of integration work each buyer would require remain open. (The Idea, Key Risks)
+Inflection’s strongest path is to sell the same Exponent spacecraft in batches to commercial constellation operators that outsource manufacturing. Assuming strong fit with the first operator, the same need to add and replace spacecraft plausibly recurs across markets. Exponent’s single published configuration and common parts support reuse for payloads within its 100 kg and 1.5 kW limits. The work required to qualify and integrate that configuration for other operators and markets remains uncertain. (The Idea, Key Risks)
 
-The website solicits orders, and Inflection reports ground testing and a first launch booked for Q1 2028. The first link likely to break, even assuming strong fit, is turning a second operator’s payload into a paid integration using the same configuration and test workflow. The memo records no buyer-funded test, completed onboarding, or repeat order. The volume tiers describe how a customer could expand its purchases. (The Idea, Market & Traction, Key Facts)
+Website inquiries, published specifications, and volume pricing make discovery and quoting repeatable. The sales path appears high-touch. Inflection says it is booking payload customers, and first value likely requires coordination on payload fit, integration, and qualification. (The Idea, Key Risks)
 
-Common parts and reusable tests could lower delivery costs, and robotic fabrication is planned. In a scenario where customers pay list price, average attributable cost per spacecraft would need to fall by $400,000 between 10- and 100-unit orders to preserve dollar contribution per spacecraft. That comparison assumes comparable payload work and includes incremental acquisition, integration, testing, and capacity costs. The memo gives no measured costs or rollout effort to test it. (The Idea, Defensibility, Key Risks)
+An operator adding or replacing satellites could reorder the same bus and reuse payload integration and fleet software. That gives existing customers a concrete way to spend more through additional orders. The published business model charges per spacecraft, and the memo leaves reorder cadence and recurring billing unverified. (The Idea, Defensibility)
+
+Inflection went public with Exponent in October 2026 and reports hardware fabrication and testing underway and a first launch booked for Q1 2028. Those are development signals. The memo leaves realized revenue, paying customers, and pre-revenue status unverified, so initial traction uses the absent-evidence default. (Market & Traction, Key Facts)
+
+At the published 100-unit price, assuming Inflection realizes list price, each spacecraft brings in $700,000. Positive incremental contribution requires attributable parts, fabrication, testing, integration, sales effort, and any added capacity the order requires to cost less than that per unit. Common tooling and planned robotic fabrication and testing could lower those costs. The memo gives no measured throughput, yields, or cost inputs to establish the margin. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Operators may need spacecraft in volume and still buy from suppliers with flown hardware. Apex and Muon already offer repeat-production alternatives with flight history. Exponent’s published payload limits narrow the buyers that can use the same configuration, and mission-specific engineering or new factory capacity could absorb the savings from repeated builds. The structural downside gate remains open because buyer-by-buyer integration effort and production costs are unmeasured. (Defensibility, Key Risks)
+Exponent could become a viable spacecraft supplier while growing one engineering-intensive contract at a time. It has yet to demonstrate performance in orbit, each payload may require substantial integration, and higher volumes may require new factory capacity as per-unit prices fall. Operators can also build in-house or buy from suppliers with flown spacecraft. The structural gate stays open because a common bus and reusable testing offer a plausible route to lower incremental work, and the memo leaves the size of that work and the cost of added capacity unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 8/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independent constellation operators fund and complete ground integration tests on the same Exponent configuration using the same qualification workflow? Signed test scopes and completed test records showing bounded buyer-specific engineering hours would move the action to Reach out before first flight. (The Idea, Key Risks)
+Can a flight-qualified Exponent earn repeat batch orders at volume pricing using the same configuration across markets? Paid deliveries to independent operators in more than one market, including a follow-on order, would answer it if the deliveries show bounded integration work and positive contribution after attributable labor and added capacity. That evidence would move the action to Reach out if it brings the score to at least 65 with Medium or High confidence. Evidence that unavoidable integration or capacity costs make faster growth uneconomic would move the action to Pass.

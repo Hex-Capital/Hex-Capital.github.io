@@ -5,36 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest route. Reflex Aerospace or another spacecraft bus supplier could pay to own Orca’s onboard autonomy software and a qualified flight-software integration. The memo reports a signed Orbital LOI worth up to $20 million, with proposed integration and per-satellite license fees. Orca plans to reuse one Reflex integration across Orbital’s fleet. A bus supplier could infer value from offering autonomy across multiple fleets and controlling the product roadmap. The LOI shows commercial interest in licensing. Buyer interest in ownership and the incremental value of ownership remain unverified. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a spacecraft bus supplier such as Reflex Aerospace. The memo records a signed Orbital letter of intent worth up to $20 million, with proposed integration and per-satellite license fees. Orca plans to integrate once into Reflex’s flight software and reuse that integration across Orbital’s fleet. If flight qualification demonstrates faster fault recovery outside ground contact windows, a bus supplier could have a reason to own the software and offer that capability across its customers. The memo gives no measured buyer benefit or acquisition pricing. (The Idea, Defensibility, Market & Traction)
 
-The milestone is a successful Orbital-1 deployment, planned for 2028, that demonstrates onboard fault recovery and shows the same integration can be reused on another spacecraft. The founders’ relevant experience and the planned hardware-in-the-loop testing give the milestone a plausible path. The possible July 2027 Pathfinder test remains tentative, and the memo leaves the test budget and runway open. Software ownership, contract assignment and any required consents are also unverified. (Founders & Team, Key Risks, Defensibility)
+The execution milestone is an Orbital-1 flight demonstration that measures fault-recovery time and verifies that commands stay within mission limits. A possible July 2027 Pathfinder test and planned 2028 Orbital-1 use give Orca a sequence for reaching that milestone. The founders’ relevant experience and the Lyra integration study support its plausibility. Test funding and the capital needed through flight qualification remain unknown. Hardware compatibility and Orbital’s rollout remain dependencies. (Founders & Team, Market & Traction, Key Risks)
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%. With 40% relative dilution and no follow-ons, the holder retains 3%. A 5× gross cash return within eight years requires $2.5 million, or $83.3 million of distributable equity. The hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. At 3%, assuming $5 million of net debt, the enterprise-value hurdle is $88.3 million before any fees or senior claims. Orca’s debt, fees and preferences are undisclosed. The following year-eight sales are scenarios. The Orbital LOI depends on fleet rollout, and its undisclosed unit fees leave a realizable acquisition price unsupported. (Key Facts, Key Risks)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. Both sale scenarios assume a full cash sale within eight years, holder eligibility for a pro rata payout, $10 million in combined net debt and deal deductions, and no senior claims that reduce the holder’s share. Acquisition prices are illustrative assumptions.
 
-| Scenario | Gross cash to the holder at 3% |
-|---|---:|
-| $25 million enterprise-value sale, less $5 million of illustrative net debt | $600,000 (1.2×) |
-| $100 million enterprise-value sale, less $5 million of illustrative net debt | $2.85 million (5.7×) |
-| Orbital rollout stalls, growth plateaus, buyers stay absent, public scale remains out of reach, and Orca reinvests available cash for eight years | $0, with shares retained |
+- **Modest sale.** $50 million of enterprise value yields $40 million of distributable equity and $1.2 million in holder cash, or 2.4×.
+- **Strong sale.** $100 million of enterprise value yields $90 million of distributable equity and $2.7 million in holder cash, or 5.4×. At 2.5% ownership, the same sale yields $2.25 million, or 4.5×.
+- **Prolonged private operation.** If Orca reinvests its cash and there is no eligible share purchase, the holder realizes $0 within eight years.
 
-Wind-down recovery would depend on the residual after obligations and preferences, which the memo leaves unquantified. The memo also leaves sponsor financing and cash generation, eligible secondary demand, IPO readiness and sustained distributable cash unevidenced. (Market & Traction, Key Facts)
+The LOI ceiling measures a potential commercial opportunity contingent on Orbital’s rollout. A realizable acquisition price, transfer permissions, and an independent liquidity route remain unevidenced. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Orbital’s proposed fee structure gives a customer a way to use Orca without buying it. Shield AI and Sedaro have already demonstrated independently checked onboard commands in flight, and AIKO has demonstrated onboard replanning. Those demonstrations give buyers alternatives to evaluate while Orca’s Reflex integration and flight validation are still planned. The evidence leaves open whether those alternatives can satisfy the same requirements and where a strategic buyer’s price would land. The Pass gate remains unmet. (The Idea, Defensibility, Key Risks)
+A bus supplier could license autonomy software or use another provider. Shield AI and Sedaro have demonstrated onboard AI with independent command checks, and AIKO has demonstrated onboard replanning on D-Orbit hardware. Orca’s planned Reflex integration has yet to demonstrate a qualification advantage that would make ownership worth paying for. These alternatives weaken the acquisition rationale, while buyer-specific substitutability and the likely payout remain unresolved. Neither Pass gate is established. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-After Orca demonstrates flight-qualified reuse, can a spacecraft bus supplier justify paying enough for ownership to return $2.5 million to the modeled holder within eight years? A buyer-backed valuation range grounded in the measured value of owning the integration versus licensing it would move the action to Reach out if the range clears the hurdle after plausible dilution and senior claims.
+What acquisition price could a spacecraft bus supplier justify for Orca after successful flight qualification? A buyer-backed range tied to measured operating savings or avoided qualification costs that supports at least $83.3 million in distributable equity under the benchmark would move the action to Reach out. A supported range materially below that hurdle for the strongest route would move the action to Pass.

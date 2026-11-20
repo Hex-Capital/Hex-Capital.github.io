@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Repeatable direct sales** is the strongest path. The initial buyer is a growing manufacturer that needs to turn demand forecasts and materials records into production plans and supplier orders. The memo documents a demo and on-site setup for the factory ERP. Under the scenario assumption that plants in a second market use comparable planning and purchasing workflows, the same product could plausibly travel with changes to data mappings and supplier approval rules. The company reports deployments across six U.S. states, with payment status and implementation differences undisclosed. (The Idea, Market & Traction, Key Risks)
+The Shopify Inventory Manager is Organizely’s strongest hypergrowth path. Assuming strong product-market fit with Shopify merchants, the same app and documented Stocky migration flow could serve merchants managing inventory across markets. The Shopify listing gives buyers a way to discover the app, and the 14-day trial and migration guide give them a plausible route to first value with little help. The memo does not establish that typical merchants complete setup and payment independently. (The Idea)
 
-At founder-affiliated Kinetic Labs, the memo documents use for demand planning and supplier order approvals by text. Kinetic Labs reports saving 10 hours per employee per week and increasing operating margin by 22%. The linked workflows and weekly savings suggest recurring value. Paid expansion, renewal, and independent buyer commitment remain unverified. The Shopify app reviews concern a separate product and provide no evidence of conversion for the factory ERP. (Defensibility, Market & Traction, The Idea)
+Inventory management is a recurring job, and the listed $26, $99, and $250 monthly plans support a recurring billing model. The higher tiers offer a way for accounts to spend more, though the memo gives no evidence of what drives upgrades or whether expansion could offset churn. Two dated reviews show early engagement. Paid adoption and its growth rate are unknown. At the $26 tier, a contribution scenario would subtract incremental hosting, migration assistance, and support where incurred. The migration guide could reduce setup labor, but the memo gives no app-level operating inputs to estimate contribution. (The Idea, Market & Traction)
 
 ### Countercase
 
-Even with strong fit, the first link likely to break is the handoff from demo to live production. On-site setup and incomplete plant records could require repeated founder effort to configure each rollout. The memo gives no independent demo-to-payment record, comparable setup hours, or ERP pricing, so there is no basis to estimate what the next deployment contributes. The Kinetic Labs margin claim describes the buyer’s economics. At this launch stage, a repeatable paid rollout is a fair test. The structural downside gate remains untriggered because the cost and customization required across deployments are unresolved. (The Idea, Market & Traction, Key Risks)
+The Shopify evidence may reflect trial use that never converts, or merchants may routinely need help migrating. The factory ERP has more concrete evidence of operational use, including company-reported deployments across six states and a favorable testimonial from the founders’ prior business. Its demo and on-site setup make the scaling case weaker because each rollout may require staff time. The structural downside gate stays open. The memo does not establish that the Shopify app requires bespoke work by market or that unavoidable buyer-level costs make scaling infeasible. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 14/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 62/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a non-founder take two unaffiliated manufacturers in the same segment from demo to paid go-live using the same onboarding process? Move to **Reach out** if rollout records show comparable, bounded setup hours, limited custom work, and both plants using the same planning and supplier-order workflows through a normal operating cycle.
+Can merchants acquired through the Shopify listing repeatedly migrate live inventory, pay, and renew without hands-on setup? Cohort records showing a growing number of independent merchants completing that sequence would move the action to Reach out.

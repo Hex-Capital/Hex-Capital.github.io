@@ -5,17 +5,23 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path for Acyclic Labs in Fall 2026. A post-training vendor such as Bespoke Labs could buy SwarmBench and the associated training environments if they reliably improve agent coordination on workloads the buyer serves. Ownership could be worth more than licensing or partnering if it secures exclusive access to transferable training assets that the buyer would struggle to reproduce. That benefit is an inference. Acyclic has published its orchestration harness and says it uses benchmark failures to design training environments. The memo supplies no measured buyer benefit or acquisition pricing. (The Idea, Defensibility, Market & Traction, Key Risks)
+A strategic acquisition by an agent deployment platform is the strongest path. A platform such as LangChain could add Acyclic’s workspace forking, result merging, and coordination evaluations to its deployment and evaluation stack. The reason to buy would be faster access to coordination technology that delivers repeatable gains in production. The memo documents a TinyFish research demo with 19 agents, a 12.5-minute runtime, and $2.52 in execution costs. Acyclic also reports use in document-processing pipelines. The demo establishes a cost and runtime for one workload. Comparative savings, paid adoption, and buyer interest remain unverified. (*The Idea*, *Market & Traction*)
 
-The operating milestone is a production trial showing repeatable gains in task success, runtime, or cost at comparable output quality against a buyer’s existing stack. The memo records $500,000 in accelerator financing and a documented 19-agent demo that ran in 12.5 minutes for $2.52. Acyclic also reports use in document-processing pipelines. These signals make a trial plausible, but the demo lacks a comparative baseline and the memo gives no burn, runway, or trial budget. (Market & Traction, Key Risks)
+The recorded $500,000 in YC financing and early onboarding make a limited production test plausible. The operating milestone is repeat paid use with lower cost per successful task at comparable output quality against a native or self-hosted baseline. Runway, test budget, and any further capital needed to reach that milestone are unknown. (*Market & Traction*, *Key Facts*)
 
-The proceeds bridge uses the shared scenario because the memo gives no actual shareholder terms. A $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% after 40% relative dilution with no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. It requires $83.3 million in distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% hurdle is $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million (5.7×), using simple pro rata allocation after that illustrative debt. The strong sale yields $1.9 million at 2% ownership and $3.8 million at 4%. Company debt, fees, preferences, and other senior claims are unknown. These prices test the hurdle, and the memo supplies no usable evidence for a realizable sale price. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale prices below are illustrative assumptions. The memo supplies no basis for a realizable price range. (*The Idea*, *Market & Traction*, *Key Facts*)
 
-If adoption plateaus, buyer interest fails to develop, public-market scale stays out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. The memo gives no evidence of eligible secondary demand, sponsor-ready cash generation, IPO readiness, or capacity for a funded dividend or buyback. The recorded accelerator financing provides no evidence of shareholder liquidity. Any wind-down recovery would depend on the residual after obligations and preferences, which the memo leaves unquantified. (Market & Traction, Key Facts, Key Risks)
+| Scenario | Holder proceeds |
+|-----------|-----------------|
+| Modest sale | At $50 million of enterprise value, $1.5 million in cash, or 3×. |
+| Strong sale | At $100 million of enterprise value, $3 million in cash, or 6×. About $16.7 million in aggregate deductions before pro rata distribution would bring this case down to the hurdle. |
+| Prolonged private | $0 realized if the company reinvests available cash and the holder makes no sale. The memo identifies no funded payout or eligible secondary. |
+
+Both sale cases assume an all-cash closing within eight years, an eligible holder selling the full stake, and zero net debt, deal deductions, or senior claims. Actual cash would depend on the equity value after debt and deal adjustments, the holder’s allocation under the waterfall, the fraction sold, and when payment arrives.
 
 ### Countercase
 
-A buyer can self-host the Apache-2.0 harness, and Anthropic already offers parallel delegation. Acyclic itself reports that coordination failures can make swarms underperform a single agent. The clearest reason to buy would therefore be a proprietary training advantage that survives comparison with the buyer’s existing tools. The September voluntary strike-off notice directly establishes a risk for the named UK entity. YC’s active listing leaves open which entity received the financing, holds the assets, and could transfer them. The resulting transfer risk lowers feasibility, but the memo establishes neither a structural block nor a supported sale-price ceiling below the holder’s hurdle. The Pass gate is untriggered. (Defensibility, Key Risks, Market & Traction)
+A platform can self-host the Apache-2.0 harness or use native parallel delegation such as Claude Managed Agents. Acyclic waives its managed-service fee during onboarding, and the memo documents no repeatable performance advantage that would justify buying the business instead of using those substitutes. The voluntary strike-off notice for Acyclic Labs Limited also creates a closing risk if that entity holds any of the assets a buyer would need. The memo leaves title and transferability unresolved. The Pass gate remains untriggered because the evidence establishes neither a structural closing block nor a supported sale range that leaves the holder materially short. (*Defensibility*, *Key Facts*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -23,12 +29,12 @@ A buyer can self-host the Apache-2.0 harness, and Anthropic already offers paral
 |-----------|-------|
 | Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 4/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-What acquisition price would a strategic buyer support for Acyclic’s transferable training assets after a production trial against its own stack? A buyer-backed indicative range grounded in measured trial results would change Watch to Reach out if the seller’s ownership of the assets is confirmed and the range supports $2.5 million in holder cash within eight years after dilution and senior claims.
+What would an agent deployment platform pay to own Acyclic’s coordination stack after seeing repeat paid deployments outperform native or self-hosted alternatives at comparable quality? A credible buyer-side valuation grounded in those results that supports at least $83.3 million in distributable equity within eight years would move the action to Reach out.

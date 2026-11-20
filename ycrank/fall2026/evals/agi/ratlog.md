@@ -1,32 +1,32 @@
 ﻿# RATLOG -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap, widely available frontier intelligence increases demand for orbital computing, launch slots that meet operators’ payload, orbit, and schedule requirements could become more valuable. Amazon Leo’s disclosure that hundreds of flight-ready satellites were awaiting launch shows that capacity can bind for an existing constellation. RATLOG identifies orbital data center operators as prospects, so the AI-related demand link remains a scenario assumption. (Market & Traction, The Idea)
+RATLOG’s strongest AGI path is **scarce complements**. The memo records hundreds of flight-ready Amazon Leo satellites awaiting launch. RATLOG says some available slots are three to four years out. The thesis depends on a scenario in which AI-linked orbital projects add demand for missions that existing providers cannot serve on schedule or within payload requirements. The memo documents a launch backlog for one constellation. It leaves the AI demand link and RATLOG’s ability to control scarce launch capacity unproven. (Market & Traction, The Idea, Key Risks)
 
-RATLOG could control that capacity through its own launcher if it qualifies the vehicle and secures launch-site access. A wider fairing could help it serve payloads with fewer alternatives, but the fairing is still proposed and site selection is open. RATLOG reports $400 million in signed reservations. Undisclosed customer identities, deposits, and cancellation terms limit what those reservations establish about independent buyer commitment or AI-linked demand. (The Idea, Market & Traction, Key Risks)
+RATLOG’s proposed turbopump-free engine could give it an operating advantage if the claimed 90% reduction in parts lowers refurbishment effort at flight scale. The team’s propulsion and avionics backgrounds and its reported prototype hot-fire in four months for under $30,000 support seed-stage execution. Its roadmap gives dates for a flight-ready engine and first-stage testing, while the launch site is still under evaluation. RATLOG reports $400 million in signed reservations, but the memo leaves buyer identities, deposits, and cancellation terms undisclosed. The reservations signal interest, with buyer commitment and AI-linked demand still unclear. (The Idea, Defensibility, Founders & Team, Market & Traction, Key Risks)
 
-The founders bring propulsion and avionics experience, and RATLOG reports reaching its first prototype hot-fire in four months for under $30,000. That supports seed-stage execution, with a flight-ready engine still ahead. The unit of expansion is a shared flight. Revenue depends on price per kilogram and paid payload mass against an up-to-20-tonne target. Repeat economics depend on utilization, launch and refurbishment costs, and how many flights can absorb vehicle development and site costs. Those inputs remain unmeasured in the memo. (Founders & Team, Market & Traction, The Idea, Key Risks)
+The expansion unit is a shared flight. Revenue would depend on the realized price per kilogram and the paid payload aboard. Repeat flights would need to cover flight operations, refurbishment, and an allocation of vehicle and site capital at achievable utilization and cadence. The 20-tonne target and lower part count are design inputs. Achieved payload, turnaround costs, and contribution per flight remain unknown. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The observed backlog could be specific to existing constellations, and incumbent capacity could ease it before RATLOG’s targeted 2029–30 orbital debut. SpaceX already sells rideshare and dedicated launches, Arianespace has deployed Amazon Leo satellites, and Blue Origin has recovered an orbital booster. These precedents weaken the case that reuse or per-kilogram pricing would protect RATLOG’s economics. Whether incumbents can meet the same payload, orbit, and schedule requirements remains open, so the substitution gate remains unresolved. The memo offers no separate labor-cost mechanism for Path B. (Market & Traction, Defensibility, The Idea, Key Risks)
+Incumbents may already meet the needs of the buyers RATLOG is targeting. SpaceX sells rideshare capacity, Arianespace has flown constellation missions, and Blue Origin has recovered a booster after an orbital mission. The memo identifies no structural barrier that would protect RATLOG’s proposed advantage. It also gives no evidence that reduced labor per successful launch makes a previously excluded use viable, leaving the New Economies path unsupported. The incumbent evidence limits the scarce-complements case, but the availability of equivalent slots for specific missions remains unresolved. That makes Watch appropriate. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 8/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 9/20 |
-| Team and execution | 9/15 |
+| Customer demand | 10/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent orbital data center operator put a meaningful deposit at risk for a RATLOG launch because available providers cannot meet its payload, orbit, and schedule requirements? A signed, deposit-backed reservation with documented comparisons of available slots, buyer-reviewed qualification milestones, and secured site access would move the action to Reach out. A comparison showing equivalent capacity on acceptable terms would close this case and move the action to Pass.
+Will an independent operator with an AI-linked payload put down a meaningful deposit for a RATLOG flight because incumbents cannot meet its launch window or payload requirements? A signed reservation with a deposit, documented mission constraints, and a credible RATLOG delivery schedule would move the action to Reach out. Until then, keep Watch.

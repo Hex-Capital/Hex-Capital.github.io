@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Usage-based expansion** is the strongest plausible path. If Egregore helps biology research teams assess competing hypotheses with less researcher time, a team could start with one review and bring subsequent reviews onto the product. A paid review is a scenario assumption. Pricing, a billed unit, and repeat use are unreported. The research job plausibly travels across markets, while the budget owner, workflow integration, and any changes needed to serve labs in a second market remain unknown. (The Idea; Key Facts)
+Conditional on strong product-market fit, Topos’s strongest path is to make Egregore a repeat-use software tool for biology research labs evaluating hypotheses. The same coordination and reasoning-checking software could plausibly serve researchers in multiple markets. Topos claims Egregore can coordinate thousands of agents on one task. The memo documents an affiliation-and-task form for a limited research beta, leaving the buyer, the work needed to adapt the product across labs, and the path from access request to first value uncertain. The form is a reusable intake step, with access still gated. (The Idea)
 
-The memo records a limited beta intake form that asks for research affiliation and an intended task. Topos says Egregore can coordinate thousands of agents on a single task. The first unresolved link is whether an independent lab can get enough value from its first review to pay through a process Topos can repeat. At this beta stage, one buyer-funded rollout with observed setup effort and repeat use at the lab’s normal cadence would justify outreach. The memo documents intake alone. (The Idea; Market & Traction; Key Facts)
+A usage-priced model is a scenario assumption. Under that model, labs that submit more tasks could expand their spend, and incremental contribution would be the fee per task less inference, coordination compute, and attributable onboarding and support. The memo supplies no pricing, repeat-use evidence, or measured serving costs. The November 2026 beta intake establishes that Topos was recruiting researchers. Paid adoption and commercial growth remain unknown, so initial traction takes the absent-evidence default. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Each new review could require substantial task setup, agent coordination, and expert checking. The memo flags coordination overhead on sequential work and the continued need for empirical validation. If researchers still spend similar time checking outputs and Topos incurs substantial compute or hands-on support costs per review, more workloads could add little contribution. Topos-specific rollout effort and marginal costs are unmeasured, so the structural downside gate remains untriggered. (Key Risks; The Idea; Market & Traction)
+Egregore may require researchers to spend substantial time framing tasks and reviewing outputs. Biological conclusions still need empirical validation, and the memo identifies coordination overhead as a particular risk for sequential tasks. If Topos must supply expert help for each lab while absorbing high compute costs per task, even strong demand could yield a high-touch business with weak contribution. The structural downside gate stays open because the memo does not establish that Topos must supply that labor or that representative workloads are uneconomic. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 11/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 8/25 |
+| Retention economics | 7/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
 **Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Can one independent biology lab pay for an initial review and choose to run and pay for its next scheduled review through the same workflow? Move to **Reach out** if payment and usage records show both reviews occurred at the lab’s normal cadence and session records show bounded founder setup and less researcher time spent on review. Remain on **Watch** while that milestone is unverified.
+Can a cohort of independent labs start and pay through the same standard flow, reach a useful result without founder help, and return for paid tasks that cover measured compute and support costs? A cohort that demonstrates this across labs with different workflows would move the action to Reach out if the resulting evidence clears the scoring threshold. If successful use still requires substantial founder involvement or sustained subsidies with no credible way to reduce them, move to Pass.

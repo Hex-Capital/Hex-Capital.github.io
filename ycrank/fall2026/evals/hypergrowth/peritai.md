@@ -5,26 +5,30 @@
 
 ### Company case
 
-**Channel-led or repeatable sales** is the strongest path, starting with direct sales to frontier labs that need to test voice agents against interruptions, accents, and noise. The memo documents a route from a submitted model failure to a scoped pilot, with quotes by delivery unit. Perit’s Foundry workspace supports reviewer calibration and batch QA. If labs commission new test batches as their models change, Perit could reuse the pilot and QA workflow across orders. That buying cadence is a scenario assumption. (The Idea, Defensibility)
+Perit’s strongest path is to turn custom voice-agent evaluations into repeatable, multilingual data programs, using non-exclusive catalog licenses where the same dataset meets multiple labs’ needs. Frontier labs can rerun interruption, accent, and noise tests as their models change. Perit reports delivering more than 6,000 speech hours across nine locales within four months. Its shared annotation and QA workflow, consent records, and existing locale coverage support serving the same evaluation job across markets. New accents and consent requirements can still require fresh collection. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
 
-Perit reports six lab customers and more than 6,000 speech hours delivered across nine locales. The reported locale coverage makes the same testing job credible across markets, with local contributor recruitment and consent handling still required. Buyer geography is unknown. Reported multimillion-dollar contracts and early revenue support initial budget commitment, although the memo leaves the two aggregate revenue figures unreconciled and gives limited detail on what individual voice buyers purchased. (Market & Traction, Key Risks, Key Facts)
+The memo documents 29 catalog listings and an open dataset with 703 downloads in one month, giving labs a way to discover and sample the product. The documented buying flow relies on catalog requests or scoped quotes and pilots. Repeat model releases give labs a reason to reorder, and per-hour pricing gives them a way to spend more as test coverage grows. Both are plausible mechanisms. The frequency and value of paid reorders remain unverified. (*The Idea*, *Market & Traction*, *Key Facts*)
+
+The memo gives two unreconciled revenue figures over 4.5 months, $11M+ company-reported and $9M+ described as non-annualized. Either figure indicates rapid early commercialization alongside six reported lab customers and substantial delivered volume. The reported 47-person team and contributor network put that pace in context. Revenue concentration and the share attributable to repeat work remain unclear. (*Key Facts*, *Market & Traction*, *Key Risks*)
+
+The cost bridge starts with revenue per delivered audio hour or license, less attributable scoping, contributor pay, consent handling, QA, and delivery. If existing consent and license terms permit the same corpus to serve several labs, later licenses could spread the original collection and QA costs across more sales. Fresh collection and buyer-specific review could materially reduce that benefit. The memo establishes the reuse mechanism, with contribution per order and the share of orders eligible for reuse still uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-The first link likely to break is the handoff from a scoped pilot to a repeatable paid rollout. Early revenue could come from a few large, one-off programs. Each new order may require fresh scoping, contributor recruitment, consent checks, and reviewer calibration. The memo leaves buyer-level conversion, paid reorders, and marginal delivery costs open. The structural downside gate stays open because proportional delivery costs remain a plausible risk rather than a demonstrated constraint. (The Idea, Defensibility, Market & Traction, Key Risks, Key Facts)
+Labs may buy on the strength of Perit’s ability to collect fresh, failure-specific data. If most orders require new practitioners, recordings, and buyer-specific calibration, paid volume could grow while scoping and delivery labor grow with it. A few large programs could also explain much of the early revenue. The structural downside gate stays open because the existing catalog and default non-exclusive license give Perit a credible way to reuse data where customer requirements overlap. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 19/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 11/20 |
+| Initial traction | 17/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 59/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a non-founder use the same playbook to take a second independent voice lab from a scoped pilot to a paid follow-on batch at its next evaluation cycle? Move to **Reach out** if the order and delivery records show that the handoff worked and the follow-on batch made a positive contribution after scoping, contributor, and QA costs at comparable acceptance quality.
+Can Perit grow paid speech-evaluation revenue from the same lab cohort while reducing the scoping and delivery cost per order? Comparable periods showing that expansion offset churn and contraction, backed by order-level evidence that reuse improved contribution after scoping, contributor pay, and QA, would move the action to Reach out.

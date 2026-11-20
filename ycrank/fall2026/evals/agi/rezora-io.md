@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** Rezora’s strongest case is that automating outbound calls could let brokerages routinely follow up with consented CRM leads they previously skipped because agents had to dial manually. The founder-reported 3× conversion rate in the custom-agent alpha supports testing that mechanism. The memo leaves the conversion denominator, human effort, and share of previously unworked leads unresolved. Rezora’s consent requirement limits the eligible lead pool. (*The Idea*, *Market & Traction*, *Key Risks*)
+Rezora’s strongest path is New Economies through outbound follow-up for real-estate brokerages. Agents spend hours dialing leads manually. Rezora automates calls to eligible leads and books meetings on connected calendars. A plausible new use is routine follow-up on consenting CRM leads that small brokerages currently leave untouched because agent time is too expensive. The company reported 3× conversion versus manual calling in its earlier alpha, but the memo gives no labor baseline in dollars or hours per successful outcome. The cost advantage to verify is the subscription, usage fees, and staff time for exceptions per qualified meeting held, compared with the labor cost of achieving the same outcome manually. (The Idea, Market & Traction, Key Risks)
 
-The founder-reported $40,000 in 40 days from the custom-agent pilot signals willingness to pay for the earlier service. The company also reports 1,000 meetings booked on the current platform, with paid repeat use and meeting quality unknown. The founders’ real-estate experience and the January 2026 self-serve launch support seed-stage execution. (*Key Facts*, *Market & Traction*, *Founders & Team*)
-
-In an illustrative month with **200 conversational minutes and 10 qualified appointments that are actually held**, the two published outbound pricing schedules imply **$30.90 to $32.90 in Rezora fees per held appointment**. The full comparison with manual calling must include staff time for consent checks, setup, review, retries, and exceptions on both sides. Rezora’s own contribution per brokerage also depends on telephony, inference, onboarding, and support costs, which the memo leaves unmeasured. (*The Idea*, *Key Risks*)
+The founder reported $40,000 in 40 days from the earlier custom-agent pilot and 1,000 meetings booked on the current platform. The pilot provides an early willingness-to-pay signal, and the booking count shows reported usage. Repeat payment by brokerages newly able to serve these leads remains unverified. The founders brought real-estate sales experience, built the pilot, and shipped a self-serve platform. Each additional brokerage account is a plausible unit of expansion, but the two published pricing schedules differ, and the memo gives no telephony, inference, or support costs to establish contribution per account. (Key Facts, Market & Traction, Founders & Team, The Idea)
 
 ### Countercase
 
-Rezora may make existing prospecting cheaper while leaving the same buyers and lead coverage in place. Under model parity, brokerages could pay Rezora for call flows and CRM workflows they rely on daily, but that preference remains hypothetical. The founder’s account of assembling the pilot with Vapi, Zapier, and a calendar connection shows that basic calling and booking are reproducible. Whether an equivalent substitute preserves qualified appointments and wins renewals is still untested. Both market opening and durable capture remain open gates, which supports Watch. (*The Idea*, *Defensibility*, *Market & Traction*)
+Rezora may be making existing prospecting cheaper in a market where agencies can assemble basic calling and booking from commercial tools, as its founder did for the pilot. Training for specific call types and configured CRM workflows could give buyers a reason to stay. Buyer preference at functional parity and network effects both remain unverified. The pilot establishes that the basic workflow is reproducible. End-to-end substitution, customer switching, and the economics of serving previously neglected leads remain open, so the decision gate calls for Watch. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 10/20 |
-| Team and execution | 9/15 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 11/20 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Will independent brokerages renew at a price that supports positive contribution after using Rezora on consented leads they previously left unworked and testing it against a functionally equivalent alternative? A paid trial with matched lead cohorts should compare Rezora, manual calling, and the alternative on full cost per qualified held appointment. Move to Reach out if Rezora makes repeat coverage economical and buyers renew for a demonstrated advantage that persists under model parity. Move to Pass if full costs leave the added coverage uneconomic or buyers switch and retain the same outcome.
+Will brokerages pay to renew Rezora after it makes follow-up on previously uneconomic, consented leads viable and they try a functionally comparable alternative? A paid cohort with documented prior call practices, fully loaded cost per qualified meeting held, and renewal decisions after the comparison would answer it. Move to Reach out if the cost reduction opens that use at positive contribution and buyers still choose Rezora. Move to Pass if the test shows the use remains uneconomic or buyers readily switch at parity.

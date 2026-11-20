@@ -5,26 +5,26 @@
 
 ### Company case
 
-Repeatable direct sales is Verno’s strongest path. Process EPC engineering managers have a recurring job during design revisions: reconcile changes to piping and instrumentation diagrams with downstream documents before issuing them for construction. Verno’s documented workflow prepares native DWG/DXF edits and related document updates for engineer approval. That workflow could carry across markets where buyers use compatible files and permit U.S. inference. Case-by-case CAD compatibility and data residency requirements limit the buyers Verno can serve with its current deployment model. (The Idea, Defensibility, Key Risks)
+Verno’s strongest path is to win process engineering, procurement, and construction firms with piping and instrumentation diagram edits, then expand across projects within those accounts. Assuming strong product-market fit, native DWG/DXF write-back and coordinated updates across Excel, PDF, and Word give Verno a reusable core for firms abroad that use the same file formats and approval workflow. Engineer approvals, customer templates, and revision histories could help keep Verno in the workflow as teams take on more projects. A license that grows with project count is a plausible scenario. Current billing and paid expansion are unknown. (The Idea, Defensibility)
 
-The memo records an active pilot and reports of live customer sites. Verno says it found three conflicting design pressures for one tank in documents already issued for construction. That example gives the pilot a concrete benefit to test, while buyer identity and budget commitment remain unknown. Verno solicits demos and introductions, but the memo gives no account-level history from either route to paid go-live. Reuse on later projects is a plausible expansion scenario under an enterprise license. Repeat use and paid expansion are unverified. (The Idea, Market & Traction, Key Facts)
+Verno reports an active pilot and says it found three conflicting design pressures for a tank in documents already issued for construction. Live customer sites are also reported. Payment status, time to first paid use, and commercial growth are unknown, so initial traction takes the 7-point default. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Even with strong fit, onboarding could be the first link to break. A shared file format may still leave Verno validating each buyer’s CAD setup and configuring its templates and approval rules. Engineer sign-off controls who can write changes, while error rates across customer document sets and the setup, support, and inference costs of another deployment remain unmeasured. The structural downside gate does not apply. The memo identifies credible sources of bespoke work but gives no rollout comparison showing that work rises in proportion to sales or that it cannot be reused. (Defensibility, Key Risks)
+Verno’s documented route to buyers is demo-led, and its deployments are single-tenant. Plant 3D and Smart P&ID compatibility is handled case by case, and U.S. inference processing can exclude buyers that require local processing. Under a negotiated-license scenario, contribution from the next account would be license revenue less demo and onboarding labor, any connector or security setup, and ongoing tenant infrastructure, inference, and support. Reusing standard connectors could reduce setup effort, but price and deployment effort are unquantified, so cost economics takes the 4-point default. The structural gate stays open because the standard DWG/DXF workflow gives Verno a credible path to serve buyers with compatible systems. Whether that path can scale with limited vendor labor remains unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 14/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can Verno take an independently sourced process EPC from demo to a paid, engineer-approved go-live on a real project using the same onboarding process as its pilot? A rollout record showing bounded setup hours and reuse of the existing CAD and document configuration would move the action to Reach out. A paid rollout that still depends on bespoke integration would keep it at Watch. (The Idea, Market & Traction, Key Risks)
+Can Verno replicate a paid production rollout across standard DWG/DXF customers in multiple markets using the same setup? Several paid deployments with measured, limited vendor onboarding and support hours, positive contribution after those costs, and rising paid usage on subsequent projects would move the action to Reach out. If even standard-stack customers require bespoke work that consumes the contribution from each new account, the action moves to Pass.

@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Strongest path: channel-led or repeatable sales.** The likely first buyers are materials R&D teams at defense and aerospace manufacturers. Their recurring job is to find and test candidate materials against performance, cost, and qualification requirements across development programs. The memo documents a direct inquiry route for project briefs. The founders report an operating lab where robots run experiments alongside scientists, as well as a pre-incorporation Technion collaboration with an unnamed defense prime and government R&D agencies. The collaboration suggests access to relevant buyers, while the lab shows a delivery workflow in operation according to the founders. Neither establishes buyer commitment to ChemPilot’s commercial offering. (The Idea, Market & Traction, Key Risks)
+Assuming strong product-market fit, ChemPilot’s strongest path is to sell repeatable materials discovery programs through one central lab. Materials and R&D teams in other markets plausibly have the same job of screening candidates against performance and cost targets. ChemPilot says its first lab already uses models to select candidates and robots to run experiments alongside scientists. The platform could serve buyers across markets if it can reuse the same testing workflow across customer briefs. The memo leaves the amount of adaptation uncertain, particularly when a program leads to aircraft qualification. (The Idea, Defensibility, Key Risks)
 
-**Scenario assumption.** If buyers pay for scoped R&D projects, the same modeling and lab workflow could serve similar teams in a second market. Aircraft qualification could still vary by application, and the memo gives no paid cross-market evidence. Even assuming strong fit, the first link likely to break is turning the next independent buyer’s brief into a paid, standardized project. The memo gives no example of that handoff, a buyer returning for another program, or measured labor and lab costs for the next project. (The Idea, Defensibility, Key Risks, Key Facts)
+The public inquiry page gives buyers a common way to submit requirements. Customer-specific briefs point to bespoke scoping and delivery, with little documented reuse from inquiry to first result. Project fees are an inference. If buyers pay per program, incremental contribution would be the fee less scoping, scientist time, lab time, consumables, and any added capacity. The reported automation gives ChemPilot a concrete way to reduce work per project, but its effect on throughput and contribution remains unmeasured. (The Idea, Defensibility, Key Risks)
+
+The memo documents a November public launch. The company-reported lab activity and pre-incorporation research collaborations support technical progress and access to potential buyers. Commercial status and growth are unknown, so initial traction takes the absent-evidence default. Retention also takes its default because the memo gives no basis to assess repeat purchasing or spend growth within an account. (Market & Traction, Key Facts)
 
 ### Countercase
 
-ChemPilot could become a bespoke R&D contractor. Customer-specific requirements and separate aircraft material and process qualification could keep projects distinct, while scientists working alongside robots could leave delivery effort tied to each project. The memo provides no cross-program benchmark showing how much work carries over. The structural downside gate remains open because the memo gives no measured evidence that delivery costs grow in proportion to project revenue or that reuse is infeasible. (The Idea, Defensibility, Key Risks)
+ChemPilot could become a bespoke R&D contractor whose growth tracks scientist hours and lab capacity. Customer-specific requirements, partially automated delivery, and potential downstream aircraft qualification support that risk. The structural downside gate stays open because the memo does not establish that each new buyer requires an uneconomic amount of custom work or that serving buyers abroad requires rebuilding the core lab workflow. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 4/25 |
+| Retention economics | 7/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent defense or aerospace R&D buyer coming through the direct inquiry route pay for a project and accept its first deliverable using a workflow ChemPilot has already run on a comparable brief? A completed buyer-funded project that documents the steps reused and the scientist and lab time added would move the action to **Reach out** if it shows a credible path to repeatable delivery. (The Idea, Market & Traction, Key Risks)
+Can ChemPilot repeat the same paid discovery program across independent buyers, including one in another market, with limited custom scoping and improving contribution per project? Dated project records showing payments, follow-on orders, staff hours, and lab utilization would answer it. Move to Reach out if those records establish portable, scalable growth and clear the 65-point threshold at Medium or High confidence. Move to Pass if they show that unavoidable per-project work or capacity costs make faster growth economically infeasible.

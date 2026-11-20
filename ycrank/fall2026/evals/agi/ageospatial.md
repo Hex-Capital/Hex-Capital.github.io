@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Ageospatial could make routine verification economical for commercial properties that insurers currently underwrite from owner and broker submissions because site visits are costly. The company says it matches addresses to buildings, reconciles imagery and records with carrier data, and produces dated property records that flag cases for physical inspection. Its estimate that 97% of commercial properties go uninspected suggests a possible gap. The memo provides no carrier field comparison showing how much of that gap the product can serve at underwriting-grade accuracy. (*The Idea*, *Key Risks*)
+**New Economies** is the strongest path. Ageospatial says commercial property insurers rely on owner and broker submissions because site visits are costly and slow. It estimates that 97% of commercial properties go uninspected. The proposed cost change is to assemble dated property records remotely and reserve physical inspections for flagged cases. If that lowers the cost per assessment accepted by an underwriter at comparable accuracy, carriers could justify reviewing properties they currently leave uninspected. The memo gives neither a measured site-visit cost nor a measured cost per accepted remote assessment. (The Idea, Key Risks)
 
-**Scenario assumption.** If a carrier can accept most remote records after brief review and send only exceptions to the field, it could verify properties that previously went uninspected and refresh those records at renewal. Compare labor hours and full cost per accepted record against manual checks and selective site visits at the same accuracy. Include imagery and licensing, inference, review, retries, governance, follow-up visits, and carrier integration spread over accepted records. Rollout depends on enough volume per carrier to cover integration and a repeat price that leaves positive contribution. The memo gives no measured inputs for that bridge. (*The Idea*, *Key Risks*, *Key Facts*)
+The founder reports signing the company’s largest insurance customer to date. AXA and Die Mobiliar appear on the insurance page, with engagement terms undisclosed. These are early demand signals. Payment, repeat use, and demand for assessments of previously uninspected properties remain unverified. Maaz Sheikh’s prior work on insurance geospatial software and delivery of Geo+ and GeoForge support seed-stage execution, with production underwriting performance still open. (Market & Traction, Founders & Team)
 
-The founder reports signing the company’s largest insurance customer. The memo records AXA and Die Mobiliar on the company’s “Trusted by” list. The scope, payment terms, and repeat use are undisclosed, so the demand signal does not establish that carriers will pay to verify previously uninspected properties. Sheikh’s prior insurance geospatial work and the insurance product launch support seed-stage execution, with carrier-scale accuracy and exception handling still to demonstrate. (*Market & Traction*, *Founders & Team*)
+Carrier integrations could give buyers a reason to stay if Ageospatial handles their data and inspection workflow better than vendors with equally capable models. Buyer preference under those conditions remains untested. The expansion unit is an additional accepted property assessment within a carrier. A viable rollout would need enough assessments to spread integration costs while covering imagery, inference, human review, and field referrals. The memo leaves those costs and exception rates unmeasured. (Defensibility, Key Risks)
 
 ### Countercase
 
-Ageospatial may improve an existing underwriting workflow while leaving routine verification uneconomic. Stale imagery and parcel mismatches could require enough review and field visits to absorb the labor savings. Under model parity, carrier-specific data reconciliation and dated evidence could give a buyer a reason to stay, but the memo shows no carrier preference in a direct comparison. Moody’s CAPE and Nearmap already offer overlapping capabilities, Nearmap operates its own aerial capture program, and Ageospatial depends partly on third-party data. The memo establishes neither equivalent substitution nor a failed cost test, so neither Path B gate has closed. It identifies no scarce input Ageospatial controls that would independently support Path A. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+Ageospatial may be improving an existing underwriting workflow. Moody’s CAPE and Nearmap Betterview already sell imagery-based property intelligence, and Nearmap operates its own aerial capture program. Ageospatial depends partly on third-party data access, and the memo establishes no control over a scarce input. The competing products make substitution credible, while actual switching and equivalent performance on Ageospatial’s target use remain unverified. The New Economies path stays open under Watch because both market opening and buyer preference under model parity can be tested. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 8/15 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent carrier pay to repeat verification on a representative cohort of properties it previously left uninspected after testing Ageospatial against its current workflow and a rival with comparable model capability? A field-checked trial should show lower labor and full cost per accepted record at comparable accuracy, including exceptions and follow-up visits. A paid repeat order at a price that covers delivery, with the carrier choosing Ageospatial for a demonstrated workflow benefit that persists under model parity, would move the action to Reach out. A representative trial showing that full costs erase the market opening or that the carrier readily switches at parity would move it to Pass.
+Will an independent carrier expand paid use across a book it previously left uninspected after comparing Ageospatial with its current process and a vendor with comparable model capabilities? Move to Reach out if the trial shows lower fully loaded cost per accepted assessment at the carrier’s accuracy threshold and the carrier pays to expand because Ageospatial handles its workflow better. Move to Pass if the trial shows the assessments remain uneconomic or the carrier readily substitutes a comparable vendor.

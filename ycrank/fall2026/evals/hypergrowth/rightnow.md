@@ -1,30 +1,32 @@
 ﻿# RightNow -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Reach out  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Usage-based expansion is RightNow’s strongest path. Engineering teams already serving open-weight models could move one recurring inference workload to RightNow’s hosted API, then route more production traffic or add workloads if it lowers serving costs or latency. OpenAI- and Anthropic-compatible endpoints, self-serve keys, and per-token billing make that first move plausible across markets for teams that can use shared hosting. Buyer geography and market-specific deployment requirements remain unverified. (The Idea, Key Risks)
+RightNow’s strongest Hypergrowth path is self-serve shared inference for engineering teams running open-weight models in production. Assuming strong product-market fit with those teams, the OpenAI- and Anthropic-compatible endpoints make the same recurring serving workflow portable across markets with little expected adaptation. The memo documents a Product Hunt launch, self-serve API keys, and prepaid top-ups starting at $5. Together, those give developers a route from discovery to paid use with minimal help. RightNow offers migration and benchmarking help for larger workloads alongside that flow. (The Idea, Market & Traction)
 
-The memo documents a hosted API launch and a migration that carried existing keys and balances forward. RightNow also reports kernel-tool use at several named companies. Hosted buyer commitment, conversion from startup credits to paid production use, and expansion at the workload’s normal cadence remain unverified. Even assuming strong fit with the first buyer segment, the first link at risk is whether independent teams can move a production workload onto the standard service and keep paying for it with limited hands-on help. (Market & Traction, The Idea, Key Facts)
+Token billing lets a retained account spend more as its production traffic grows. Expansion could offset churn, though the memo leaves that balance unverified. The two-person team debuted hosted inference in July 2026, but realized revenue, paid production volume, and pre-revenue status remain unknown. RightNow reports kernel-tool use at several large companies. That claim concerns a different product, so initial traction for hosted inference takes the absent-evidence default. (The Idea, Market & Traction, Key Facts)
+
+At the listed Nemotron 3.5 Lightning rates, a hypothetical workload with one million input and one million output tokens bills $0.20 on demand or $0.10 at the batch rate. Contribution depends on rented GPU capacity, utilization, and attributable acquisition, onboarding, and support costs, with startup credits reducing cash revenue where used. RightNow documents kernel and serving optimization and has released batch processing that uses idle capacity. These are concrete ways to lower cost per token. Their effect on contribution at production scale remains uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The workloads most likely to benefit from RightNow’s tuning may also be the hardest to onboard profitably. The company offers workload-specific benchmarking and migration, and the memo flags that prompt mix, cache reuse, and concurrency can change cost and latency. Batch processing on idle capacity offers a plausible efficiency gain, but the memo gives no marginal GPU or support costs at higher utilization. The structural downside gate remains untriggered because proportional delivery costs are a plausible risk with no observed deployment pattern establishing them. (The Idea, Key Risks)
+The same API compatibility that makes adoption easy could make it easy to shift traffic elsewhere. RightNow’s serving advantage may vary with prompt mix, cache reuse, and concurrency, while Together’s compiler targets similar efficiency gains. If RightNow must rent more GPUs to cover peaks while serving traffic at low token prices, paid volume could grow without healthy contribution. The structural gate remains open because the memo supports reusable onboarding and specific efficiency levers, while the cost of serving representative workloads through a capacity increase remains unverified. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 23/25 |
+| Repeatable acquisition and onboarding | 20/25 |
+| Retention economics | 17/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 72/100** (Invest)
 
 ### Decisive diligence question
 
-Can several independent engineering teams move an existing production workload through the standard API and sustain or grow paid token use after any credits expire, while generating positive incremental contribution? Move to Reach out if workload records show that pattern at the teams’ normal usage cadence, with paid revenue covering incremental GPU, onboarding, and support costs. Move to Pass if repeated deployments show that serving more traffic requires bespoke work or GPU spending that absorbs the added revenue, with no demonstrated way to reduce those costs.
+Can RightNow show a representative set of self-serve customers whose paid production usage grew after credits expired and remained contribution-positive through a GPU capacity increase? Matched billing and operating cost records showing healthy contribution would sustain Reach out. An unresolved cost gap would move the action to Watch. Evidence that each capacity increase makes growth economically infeasible despite the documented efficiency levers would trigger Pass.

@@ -1,32 +1,32 @@
 ﻿# Aviern -- AGI Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-Path B — New Economies. Aviern says urgent freight bound for smaller U.S. communities often transfers from crewed feeder flights to trucks. The opportunity is to make scheduled air service economical on routes where shipment volumes are too low to support a crewed flight. Aviern’s scaled demonstrator reportedly completed autonomous taxi, takeoff, route following, and landing. That supports the technical premise of removing the onboard pilot. The labor savings and the economics of serving a new route remain unmeasured. The existing truck leg is a weak, indirect demand signal. The memo records requests for carrier introductions and provides no evidence of a cargo buyer committing budget or operating time. (The Idea, Market & Traction, Key Facts)
+New Economies is Aviern’s strongest path. Aviern says urgent freight bound for smaller U.S. communities often travels by truck beyond the airports served by crewed feeders. The proposed service could make direct air delivery viable on those lanes if removing the onboard crew materially reduces human labor and cost per successful delivery. The memo describes a scaled demonstrator that completed taxi, takeoff, route flight, and landing autonomously. Aviern reports more than 150 autonomous flight miles. That supports the technical mechanism. The memo gives no measured crewed-feeder cost or comparative labor savings on a representative cargo route. (The Idea, Defensibility, Key Risks)
 
-The expansion unit is a repeat feeder route. In a two-flight-hour scenario, Aviern’s estimate of about $100 per flight hour implies about $200 in aircraft operating cost. To estimate the full cost per successful delivery, Aviern would need to establish what that figure covers and account for remote supervision, exception handling, ground handling, compliance, aircraft capital, and empty return legs at realistic loads. The route opens if shippers will pay enough for faster delivery than the truck leg to cover those costs, while crewed feeder service remains uneconomic at the same volume. (The Idea, Key Risks)
+Under a per-flight service scenario, the expansion unit is a recurring feeder lane. Start with Aviern’s estimate of about $100 per flight hour and its target payload of 1,000 lb. Use actual loads and include any aircraft capital, remote supervision, ground handling, repositioning, and disruption costs outside the estimate. Divide total lane cost by successful deliveries and compare it with the current truck or air-plus-truck service at the shipper’s required delivery time. Lane volume and utilization remain unmeasured, and the memo records carrier outreach without a buyer commitment. (The Idea, Market & Traction, Key Facts)
 
-With equivalent autonomy available to rivals, a carrier could still pay Aviern for reliable, authorized freight delivery if Aviern controls the aircraft and route operations. Its in-house airframe and flight stack give it a starting point. The team reportedly built and flew the scaled aircraft in under two months and is developing a larger test aircraft. That shows prototype execution, while authorization and reliable service at commercial payload remain untested. (Defensibility, Market & Traction, Founders & Team, Key Risks)
+Under model parity, buyers could still pay Aviern to operate a qualified, reliable feeder service. Its in-house airframe, autopilot, perception, and ground software give it control over the prototype. Commercial qualification and control of route execution remain unproven. The founders’ complementary flight operations and manufacturing experience, the demonstrator built and flown in under two months, and the announced retrofit and purpose-built flight milestones support seed-stage execution credit. (Defensibility, Founders & Team, Market & Traction, Key Risks)
 
 ### Countercase
 
-At the loads these routes can support, supervision, handling, and empty returns could leave the truck leg as the economical choice. Regulatory classification could also block the proposed service under Part 108. The draft’s 110 lb total-weight cap for certificated package delivery would exclude the planned A1000 with its 1,000 lb payload target if that classification applies. Reliable Robotics is pursuing a Caravan retrofit and was selected for an FAA pilot program that includes regional cargo, giving carriers a credible alternative to test. The memo contains neither representative route economics nor a buyer comparison that settles either Path B condition. That leaves the path open and supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+The proposed package-delivery category caps total aircraft weight at 110 lb, below the A1000’s target payload alone. If the feeder service falls under that category, the planned aircraft would need a different authorization path. Even with authorization, remote staffing, disruptions, and thin loads could leave trucking cheaper. Reliable Robotics’ retrofit and regional cargo pilot participation also give carriers a credible alternative if autonomous feeder demand develops. These risks leave both New Economies gates open for testing. The memo establishes no independently supported scarce complement. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 14/25 |
 | Durable value capture | 8/25 |
-| Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Customer demand | 5/20 |
+| Team and execution | 10/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent carrier place a paid repeat order after an authorized, representative-payload trial on a route it currently serves by truck beyond the feeder airport? Move to Reach out if the trial shows that Aviern saves labor versus crewed service, delivers faster than the truck leg at a price that covers full delivery costs, and earns the repeat order for a demonstrated operating advantage that would persist with equivalent autonomy available to rivals. (The Idea, Defensibility, Key Risks)
+Can Aviern win a paid repeat commitment from an independent carrier after an authorized, representative-load pilot on a lane currently served by truck or air-plus-truck? Move to Reach out if route logs show materially lower human time and all-in cost per successful on-time delivery, and the carrier commits to repeat volume at a price that covers route costs because it values Aviern’s service execution even when comparable autonomy is available. Keep Watch if the result is inconclusive. Move to Pass if representative results defeat the cost-opening or value-capture condition.

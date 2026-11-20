@@ -5,26 +5,26 @@
 
 ### Company case
 
-Repeatable direct sales is Epsilab’s strongest path. Frontier lab research teams have a plausible recurring job: training and evaluating agents on long, multi-step enterprise workflows. Epsilab describes resettable simulations built from real workflow data and practitioner input, with graders that check verifiable outcomes. The job plausibly travels across markets. How much Epsilab would need to change its workflow data, data permissions, or graders to serve buyers in another market remains open. (The Idea, Defensibility)
+Assuming strong product-market fit with frontier AI labs, Epsilab’s strongest growth path is a catalog of reusable enterprise simulations that labs can run repeatedly as their models change. Epsilab describes stateful, resettable environments built from real workflows, with graders that check verifiable outcomes. The same environment and grader could serve labs in multiple markets if the workflow is relevant to each lab and Epsilab has rights to reuse the underlying data. The memo leaves those conditions unverified. (*The Idea*, *Defensibility*)
 
-Epsilab reports direct work with unnamed frontier labs, and its project lead posting describes scoping and delivery around lab research needs. These signals establish the intended sales motion. The memo leaves discovery, go-live, payment, buyer commitment, and repeat use unverified. At this stage, a buyer-funded test and a documented delivery handoff would be meaningful evidence even before renewals come due. If first-segment fit is established, the first likely bottleneck is turning a second lab’s requirements into a validated environment with manageable delivery effort. That scenario assumes Epsilab can reuse workflow data, tasks, or graders across buyers. (The Idea, Market & Traction, Defensibility)
+Resetting and rerunning tasks gives labs a concrete reason to keep using the product. Recurring billing and expansion within existing accounts remain unverified. The memo documents a November 11 public launch and records Epsilab’s claim that it works directly with unnamed frontier labs. It leaves paid production use, the date of first paid availability, and commercial growth unknown. (*The Idea*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Epsilab could win lab projects while each deployment still requires substantial practitioner time, workflow reconstruction, and grader validation. The project lead posting calls for automating environment creation, task generation, and evaluation. The memo gives no measured rollout effort or marginal costs, and the scope of reusable data rights remains undisclosed. The structural downside gate remains unmet because proportional delivery costs are a plausible risk with a testable path to improvement. (The Idea, Defensibility, Key Risks)
+Epsilab could remain a bespoke supplier even with strong demand. Its project lead posting describes scoping and delivering environments around individual labs’ research needs, which points to a labor-intensive path to first value. Fees from the next deployment would need to cover lab-specific scoping, workflow recreation, and practitioner and grader validation. The posting identifies automation as a way to reduce that work, while deployment pricing, labor per deployment, and realized savings remain unknown. The structural gate stays open because the memo leaves unresolved how much of that work a second buyer would require and whether it would make faster growth uneconomic. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 4/25 |
+| Retention economics | 9/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a project lead take a second independent frontier lab from signed, buyer-funded scope to use in a live training or evaluation run by reusing the first deployment’s components? A comparable rollout that documents reuse and lower engineering and practitioner effort, while meeting the lab’s grader acceptance criteria, would move Epsilab to Reach out. (The Idea, Defensibility, Key Risks)
+Can a second frontier lab in another market find, buy, and run an existing environment pack through a standard self-serve flow? The milestone is repeat paid runs of the same pack, without a bespoke rebuild, with positive incremental contribution after onboarding, validation, and delivery costs. That result would support Reach out if the updated score reaches 65 with at least Medium confidence. Evidence that each lab requires a fresh build at costs that make faster growth uneconomic would trigger Pass.

@@ -1,32 +1,32 @@
 ﻿# Streamline Systems -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-**Repeatable direct sales** is the strongest path. Drone manufacturers have a recurring job: keeping aircraft operating when GPS is unavailable. The memo documents a retrofit module, a website inquiry route, and a Q1 2027 availability target. Streamline reports an autonomous flight demonstration and compatibility with existing platforms. That makes the same buyer and job plausible in a second market, though the memo gives no basis for estimating how much integration or qualification would carry over. (The Idea, Defensibility, Key Risks)
+The strongest path is to sell the same retrofit navigation module to multiple drone manufacturers, then earn repeat orders as qualified platforms enter production. Assuming strong product-market fit with the initial buyers, the need to navigate without GPS plausibly recurs abroad. Streamline reports an autonomous flight demonstration and compatibility with existing platforms. Those claims support some product reuse, while the work needed to qualify the module on additional platforms and enter other markets remains uncertain. (*The Idea*, *Defensibility*, *Key Risks*)
 
-Streamline reports more than $80,000 in contracted module revenue and deposits reserving more than $87,000 worth of modules. The deposit amount and overlap are undisclosed, so the figures cannot be added. These commitments support early fit among manufacturers competing in the Pentagon’s Drone Dominance Program. The memo does not trace any buyer from discovery through installation and paid delivery. (Market & Traction, Key Risks)
+The memo documents an early-access inquiry channel, and Streamline reports deposits from manufacturers in the same procurement program. That gives the company a concrete way to find and engage buyers. How much hands-on work the ordinary buyer needs to reach production remains unclear. Platform qualification could create switching costs and lead to follow-on hardware orders if buyers scale production. Current evidence supports individual module purchases, with recurring billing and repeat orders unsubstantiated. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-If the same module and qualification process carry over across manufacturers, each successful rollout could lead to repeat module orders as that buyer builds more aircraft. The first unresolved link is whether the next manufacturer can reach paid deployment using the same process with bounded engineering effort. The memo reports no repeat orders or comparable rollout costs, so retention and contribution both use their absent-evidence defaults. (The Idea, Market & Traction, Key Risks)
+Streamline reports more than $80,000 in contracted revenue and deposits reserving more than $87,000 worth of modules. The deposit amount and overlap are undisclosed. With a Q1 2027 availability target and undisclosed shipments and recognized revenue, these figures establish early buyer interest while leaving realized sales and their growth rate unknown. Incremental contribution would be the module’s selling price less manufacturing, fulfillment, and attributable qualification and support costs. The memo gives no unit price or cost inputs for that calculation. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Countercase
 
-One procurement program could explain the reservation and contract activity. Buyers could reserve modules while competing for awards, then buy little if awards or schedules change. Even if initial orders ship, each aircraft platform could require fresh integration and qualification, making engineering effort rise with each sale. The memo establishes procurement concentration and leaves shipment volumes, cash collection, and independent performance validation open. Platform-by-platform rework remains a scenario. The structural downside gate stays open because the memo gives no affirmative evidence that this burden is unavoidable. (Market & Traction, Defensibility, Key Risks)
+The disclosed demand could be specific to one procurement cycle. Buyers’ order volumes may depend on program awards, and platform-by-platform qualification could consume enough engineering time to limit growth. Independent flight-test results and production deliveries remain unverified in the memo. The structural gate stays open because the evidence leaves both the extent of platform-specific work and its effect on contribution unresolved. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 3/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 31/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent drone manufacturer reuse the first buyer’s integration and qualification process through paid production delivery? Buyer acceptance, payment records, and comparable engineering hours showing substantial reuse would move the action to Reach out. Comparable rollouts showing that each sale requires fresh engineering proportional to its revenue, with no demonstrated opportunity for reuse, would support Pass.
+Can an independent manufacturer outside Drone Dominance qualify the same module and take paid production deliveries at positive incremental contribution? A completed rollout with shipment invoices and records of qualification and support costs would test the path. Evidence that qualification is unavoidably bespoke and uneconomic, with no credible improvement lever, would move the action to Pass. A successful rollout would strengthen the Watch case, with Reach out requiring a reassessment to at least 65 and Medium confidence.

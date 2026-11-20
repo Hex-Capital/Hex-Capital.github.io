@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A simulation or CAD platform vendor could buy Vorelios’s model and design-search workflow to add automated optimization across interacting physical effects. Vorelios reports subsecond predictions from clean CAD. The potential buyer benefit is shorter design cycles inside an existing engineering workflow. Ownership could be worth paying for if the vendor needs control of the model and its integration roadmap, and Vorelios can demonstrate a durable advantage over what the vendor could build or license. The memo has no buyer-specific savings or supported acquisition price. (The Idea, Market & Traction)
+The strongest path is a strategic acquisition by an engineering simulation or CAD vendor. Owning Vorelios could let a vendor add automated multiphysics design search to its existing workflow and reduce the number of full solver runs needed. Siemens’s collaboration with PhysicsX shows that an incumbent is already investing effort in physics AI. Vorelios reports subsecond predictions from clean CAD and initial searches across thousands of candidates, with predictions within a few percent of an independent solver. Those results support a prototype. The memo provides no measured savings across a customer’s full workflow or evidence of acquisition interest. (The Idea, Market & Traction)
 
-The operating milestone is a funded benchmark on an unfamiliar aerospace design family that measures end-to-end time savings, including CAD preparation, at an agreed solver-accuracy threshold. Vorelios reports searching thousands of candidates and coming within a few percent of an independent solver in initial runs. That makes the test plausible. Confirmed YC participation and a separately reported $125,000 raise leave the test budget, runway, and any additional financing needs open. Vorelios’s reported in-house development supports a preliminary case that it controls the core pipeline. IP assignments, training-data rights, and transferability remain unverified. (Market & Traction, Defensibility, Key Risks)
+A paid production pilot on unfamiliar design families is the most relevant milestone. It would measure solver-verified accuracy and time savings after CAD preparation and validation. The prototype runs make that test plausible. The memo reports $125,000 raised and gives no pilot commitment, budget, or timeline. Vorelios reports building its own training pipeline, while ownership and transfer rights for the code, models, and training data remain unverified. The memo provides no evidence of an independent liquidity route. (Market & Traction, Defensibility, Key Risks)
 
-**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash. With illustrative net debt of $5 million and simple pro rata distribution, a $25 million enterprise-value sale in year eight yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). The hurdle is about $88.3 million in enterprise value at 3% ownership, $130 million at 2%, and $67.5 million at 4%, using the same debt assumption. Actual investor terms, debt, fees, and senior claims are unverified.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The sale scenarios assume the holder is eligible to sell their entire stake, receives cash at closing within eight years, and participates pro rata with no senior preference deductions.
 
-If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. The memo supplies no predictable cash generation to support a sponsor buyout, eligible demand for a secondary, operating scale or holder resale case for an IPO, or excess cash and payout terms for dividends or buybacks. There is no evidenced independent fallback. (The Idea, Market & Traction, Key Facts)
+| Scenario | Enterprise value to distributable equity | Cash to holder |
+|----------|------------------------------------------|----------------|
+| Modest sale | $40M enterprise value with no net debt or closing adjustments leaves $40M | $1.20M (2.4×) |
+| Strong sale | $100M enterprise value less $15M in net debt and closing adjustments leaves $85M | $2.55M (5.1×) |
+| Prolonged private | Cash is reinvested, with no eligible share sale or distribution within eight years | $0 |
+
+The sale prices and deductions are illustrative assumptions. At a $100 million sale price, another $5 million in deductions would reduce the holder’s cash to $2.4 million. The memo provides no Vorelios revenue, buyer economics, or relevant acquisition prices to anchor a realizable range. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Siemens already collaborates with PhysicsX on deep-physics simulation, and NVIDIA’s open-source PhysicsNeMo gives engineering teams tools to build their own surrogate models. Those alternatives weaken the reason to buy Vorelios. The company’s reported prior failure on unfamiliar design families also limits what its initial solver comparisons establish. If the advantage fades on unfamiliar geometry or CAD preparation absorbs the time savings, a buyer could meet its needs through a partnership or internal development. The evidence supports Watch. The memo establishes neither a structural barrier to a sale nor realizable pricing that would leave the holder materially short. (Market & Traction, Defensibility, Key Risks)
+An incumbent could extend an existing partnership or build its own surrogate using open-source tools. Siemens already works with PhysicsX, and NVIDIA’s PhysicsNeMo provides reusable model and simulation-data tooling. Vorelios also reports that its earlier architecture failed on unfamiliar design families. If that limitation persists, CAD preparation and solver validation could erase much of the workflow gain. This makes the acquisition premium uncertain. The memo establishes neither an equivalent ready substitute nor a supported sale range that falls materially short of the proceeds hurdle, so the Pass gate does not apply. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
-| Transaction feasibility | 6/10 |
+| Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a funded benchmark sponsored by a simulation or CAD vendor show enough incremental value on an unfamiliar aerospace design family to justify buying Vorelios? Move to **Reach out** if the benchmark demonstrates end-to-end time savings at the vendor’s agreed solver accuracy and the vendor’s comparison with building or licensing supports a purchase price that clears the modeled holder hurdle.
+Would a paid incumbent pilot on previously unseen design families show enough verified workflow savings to justify buying Vorelios at a price that could leave at least $83.3 million in distributable equity? Buyer-validated accuracy and end-to-end cost savings, coupled with a buy-versus-build analysis that supports that price range, would move the action to Reach out. Prototype speed alone keeps it at Watch.

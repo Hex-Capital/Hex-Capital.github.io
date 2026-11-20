@@ -1,30 +1,32 @@
 ﻿# twentyfour26 -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **channel-led or repeatable sales** through direct online quoting. The initial buyer is a hardware team that needs low-volume CNC parts as designs change. The documented workflow takes a STEP file, checks geometry and workholding against a standardized cell, and quotes eligible jobs for in-house production and inspection. The same intake could serve teams outside the Bay Area if their parts fit the cell and shipping preserves the turnaround they need. That portability remains an inference. (The Idea, Key Risks)
+Conditional on strong product-market fit, the strongest path is to scale on-demand CNC for hardware teams that repeatedly revise low-volume prototypes. The memo documents online STEP-file intake, geometry and workholding checks for a standardized cell, and job-specific quotes. The same file format and part checks could serve hardware teams abroad from the San Francisco shop if shipping costs and lead times remain acceptable. Online intake and the YC launch provide a concrete route to quote requests. The ordinary buyer’s path from quote to payment and production remains unclear. (*The Idea*, *Key Risks*)
 
-The company reports making parts for Bay Area hardware teams, with its fastest turnaround around 48 hours. That establishes a reported production signal, while the memo leaves buyer urgency, budget commitments, and workflow changes unverified. The YC launch and website identify a route to quote requests, but the memo does not trace independent buyers from either source to paid delivery or show repeat orders across design revisions. Even assuming strong buyer fit, the first link likely to break is fulfilling more eligible jobs at the promised speed without adding operator effort in proportion to orders. (The Idea, Market & Traction, Key Facts)
+Faster turnaround could win the next design revision and grow spending through additional paid jobs. The company reports making parts for Bay Area hardware teams, with turnaround as fast as about 48 hours. That claim gives the repeat-use mechanism some grounding. The two-person team presented the CNC service in October and launched it publicly in November, but the memo leaves payment status, commercial growth, and repeat purchasing unresolved. (*Market & Traction*, *Key Facts*)
+
+The cost bridge starts with the accepted quote and subtracts the costs of the job, including material, tooling, machine time, setup and inspection labor, and any fulfillment the company absorbs. At a capacity step-up, the next cell’s cost matters at achievable utilization. Automated screening and simulated machining plans could reduce quoting and programming labor per job. The size of those savings and contribution at realistic workloads remain unknown. (*The Idea*, *Defensibility*, *Key Risks*)
 
 ### Countercase
 
-The standardized cell could deliver fast results on a narrow set of parts while leaving substantial work in setup, inspection, and exception handling. Geometry, material, and workholding already limit eligibility, tighter tolerances can require drawing review, and turnaround depends on available capacity. If each increase in volume requires proportionate labor and machine investment, fast delivery could win orders without improving contribution. The memo provides no comparable job costs or capacity economics to establish that pattern, so the structural downside gate does not apply. (Key Risks, Key Facts)
+Geometry, material, and workholding limits can send later revisions to broader suppliers. Tighter tolerances can require drawing review, turnaround depends on available capacity, and automated loading, cutting, and checking are still in development. Even with strong demand, founder labor and new machine capacity could rise alongside orders. The structural downside gate stays open because standardized intake and planning provide a credible labor-saving lever, and the memo does not establish that adding capacity would make faster growth economically infeasible. (*Key Risks*, *Defensibility*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 12/25 |
+| Retention economics | 9/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-Can independent hardware teams use the same online quote process to place paid first and repeat orders for successive design revisions, while the cell maintains delivery and inspection performance at higher load? A small set of comparable job records would move the action to **Reach out** if it showed repeat paid orders and improving contribution per job after setup, inspection, rework, and incremental capacity costs. If those records instead showed that comparable orders consistently required proportionate labor or capital with no demonstrated way to reduce it, the action would move to **Pass**.
+Can a second copy of the standardized cell profitably absorb growing repeat orders from domestic and overseas hardware teams? A paid production run would answer this if customers can use the same intake and ordering flow, delivery stays within quoted lead times, and contribution stays healthy after attributable labor, fulfillment, and added capacity costs at observed utilization. That result would move the action to Reach out.

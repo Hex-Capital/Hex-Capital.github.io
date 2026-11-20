@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** The strongest seed-stage case is that Sintropix could make a reliable day-one consolidated close economical for small cross-border groups that already pay for local bookkeeping and filings but have gone without timely group reporting. That buyer segment is an assumption. The memo describes the current workaround of reconciling records from separate accounting firms, bank accounts, and spreadsheets. Sintropix says its shared ledger automates matching and posting, routes exceptions for review, and supports consolidation and local filing. The CEO reports that managed-service customers moved their month-end close from day 20 to day 1. That reported result supports a faster close. The labor and full delivery cost per accurate close and completed filing remain unmeasured. (The Idea, Market & Traction, Key Risks)
+New Economies is the strongest path. The current workflow combines local accountants, separate ledgers, and manual reconciliation. Sintropix’s shared ledger automates matching and posting, routes exceptions to reviewers, and supports local filings. The potential new buyer is a small cross-border team that can afford basic local compliance but currently forgoes a recurring consolidated close because of the cost. The CEO reported that managed-service customers moved their close from day 20 to day 1. That claim supports faster turnaround. Human hours, filing accuracy, and cost per successful close and filing remain unknown. (The Idea, Market & Traction, Key Risks)
 
-The founders’ move from manual bookkeeping to building and launching their own ERP shows relevant execution. Their reported 10 ERP customers provide an early demand signal, with payment, repeat use, and prior access to a day-one close unverified. A monthly fee tied to entities and integrations gives Sintropix a plausible way to charge as customers expand. With no implementation fee, the economics depend on recurring revenue covering onboarding, exception review, corrections, filing labor, and ongoing country-specific maintenance. (Founders & Team, Market & Traction, The Idea, Key Risks)
+The founders reported 10 ERP customers across four countries. The memo establishes a monthly pricing model, while payment, renewal, and adoption by previously excluded buyers remain unverified. For a seed team, moving from manual bookkeeping to a deployed ERP and launching a managed service in Chile shows relevant delivery capacity. (The Idea, Market & Traction, Founders & Team)
+
+An additional legal entity is the expansion unit. **Scenario assumption:** If automated posting reduces staff time enough, monthly fees could cover onboarding, inference, exception review, corrections, and a share of country-specific tax maintenance. The margin case depends on how often transactions need human review and how much work each jurisdiction adds. Under model parity, customers might still pay for the integrated ledger and local filing workflow. Retention tied to that workflow and control over local service execution remain unproven. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Sintropix may be speeding up a service customers already buy while leaving enough review and local filing work in place to prevent a viable offering for smaller groups. Under model parity, a competing ERP paired with local accountants could deliver the same outcome. Rillet and Campfire already offer overlapping consolidation and tax capabilities. The managed-service launch in Chile gives Sintropix a plausible way to retain buyers by taking responsibility for the close and filing, though the memo provides no comparative buyer behavior or evidence of repeatable filing execution. Neither required condition is established, and the memo shows no direct failure of either condition. That supports Watch. (Defensibility, Market & Traction, Key Risks)
+Sintropix may be speeding up accounting that customers already buy. Rillet combines multi-entity consolidation with UK VAT compliance, and Campfire offers multi-book accounting with a sales-tax integration. Those offerings make substitution credible. The memo leaves open whether customers can switch readily for the same country coverage and filing scope. Neither required New Economies condition is established or directly defeated, so Watch applies. The memo establishes no independently supported scarce complement. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
+| Path-specific thesis fit | 13/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 9/20 |
 | Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent Chilean multi-entity buyer that previously went without a day-one group close complete a paid trial and renew at a price that covers Sintropix’s full delivery cost after comparing it with an ERP using equivalent models plus local accountants? Reach out if the trial documents lower labor and full cost against the buyer’s prior workflow, accurate closes and completed filings, and a renewal specifically because the buyer values Sintropix’s handling of the close and filing. Keep Watch if the trial is inconclusive. Pass if a representative trial shows that review and filing costs erase the savings or that the buyer can switch and retain the same outcome.
+Will independent cross-border teams that previously forwent recurring consolidated closes pay and renew with Sintropix when a comparably capable alternative is available? Reach out if a paid cohort documents the former cost barrier, delivers accurate closes and timely filings at a materially lower cost per successful outcome after human review and corrections, and renews at prices that cover delivery costs. Pass if the cohort shows that the workflow remains unaffordable for those buyers or that customers switch readily at parity. An inconclusive result keeps the action at Watch.

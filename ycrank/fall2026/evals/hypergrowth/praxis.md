@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Strongest path: channel-led or repeatable sales.** Praxis could sell the same lawyer-supervised intake workflow to small and midsize law firms, starting with client setup, conflict checks, and engagement letters. The memo reports live U.S. deployments, and an unnamed New York corporate-law partner reported spending about 1.5 hours a day on setup and engagement letters before using Praxis. That supports early buyer urgency and willingness to try the workflow. Time saved and willingness to pay remain unverified. The intake job plausibly travels across markets, with firm rules, practice-tool integrations, and client confidentiality requirements still to resolve. (The Idea, Market & Traction, Key Risks, Key Facts)
+Assuming strong product-market fit, Praxis’s strongest path is to sell the same intake and follow-up workflow to small and midsize law firms across markets. Chasing documents, updating clients, and following up on invoices are recurring jobs. The configurable playbooks and existing integrations provide a plausible reusable core, with the work required to adapt them across jurisdictions still uncertain. Praxis reports a live product, and an unnamed New York corporate-law partner reported spending about 1.5 hours a day on client setup and engagement letters before using it. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-Assuming strong fit, the first link likely to break is getting successive firms from discovery to paid go-live with a reusable setup. The boutique-firm event and early-access waitlist are documented routes to discovery. The memo gives no buyer-level record connecting either route to activation and payment. Retention and expansion also remain unmeasured at the cadence of new matters, and the memo provides no rollout effort or marginal cost data. Those three dimensions use their absent-evidence defaults. (The Idea, Market & Traction, Key Facts)
+Firm-specific playbooks and connected tools could encourage continued use. A recurring firm subscription is a scenario assumption, and the memo gives no pricing or evidence that existing firms can expand their spend. A boutique-firm event and early-access waitlist give Praxis a concrete route to prospects. The path from the waitlist to payment and first use remains unclear, including who configures each firm’s workflow. Reported U.S. deployments establish early use, with payment status and commercial growth undisclosed. (The Idea, Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-Praxis configures agents and playbooks around each firm's instructions. If every rollout requires extensive work on approval rules, conflict checks, and integrations, delivery effort could rise in proportion to customer count. Clio and Filevine already offer intake automation inside the systems some firms use, giving those buyers an easier route to adoption. The structural downside gate remains untriggered because the memo establishes firm-specific configuration while leaving the effort and reuse across deployments unresolved. (Defensibility, Key Risks)
+Conflict checks, engagement letters, lawyer approvals, and confidential client records could make each jurisdiction or firm a custom implementation. Under a subscription scenario, model processing, setup labor, and support would reduce contribution from each additional firm. The memo gives no price or operating inputs to estimate that contribution. The structural downside gate stays open because the documented dependencies leave both the extent of rebuilding and the cost of deployment unresolved. Those gaps keep confidence Low. (The Idea, Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 8/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
 **Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independent firms from the same acquisition channel reach paid go-live through the same onboarding playbook? Move to **Reach out** if rollout records show a successful handoff beyond the selling founder and measured setup and support costs that leave room for positive contribution at the fees charged.
+Can several comparable firms in a second jurisdiction buy, configure, and continue using the same intake workflow with minimal help from Praxis? A paid cohort using the existing playbooks and integrations, with recurring invoices and documented setup, support, and processing costs, would test that path. Move to Reach out if the cohort demonstrates bounded adaptation and positive incremental contribution and brings the score to at least 65 with Medium or High confidence. Substantial rebuilding by market would move the action to Pass.

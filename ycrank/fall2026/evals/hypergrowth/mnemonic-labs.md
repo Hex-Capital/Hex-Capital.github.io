@@ -1,17 +1,17 @@
 ﻿# Mnemonic Labs -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Low
 
 ### Company case
 
-Usage-based expansion is the strongest hypothesis, assuming Mnemonic sells model access to independent quant desks. A desk could pay to run one recurring strategy-research workload and add workloads if the model helps it find strategies that hold up in live trading. The memo infers this buyer and job. It gives too little detail on a customer-facing product or what would carry over to a desk in another market. (*The Idea*, *Key Risks*)
+Mnemonic’s strongest evidenced path is proprietary trading. The company says it trains a foundation model on tokenized market activity with the goal of discovering and executing strategies. Monetizing that model with its own trading capital is an inference. Even assuming the model finds a profitable initial strategy, the memo leaves open whether the same model can serve external quant desks across markets or whether those desks could buy, deploy, and expand recurring paid use. The observed November 13 launch and inbound contact channel establish visibility. Commercial status remains unknown. (The Idea, Market & Traction, Key Facts)
 
-The memo records a November 13 launch through Launch YC and X. Mnemonic reports building its training pipeline and model architecture in under six weeks and using over 25 TB of tokens in its launch training run. The first unresolved link is whether a quant desk will activate a workload and pay for it. The memo gives no usable evidence of buyer commitment, onboarding to paid use, recurring customer workloads, or the marginal cost of serving them. A buyer-funded test would be meaningful at this stage. (*The Idea*, *Market & Traction*, *Key Facts*)
+In a proprietary trading scenario, incremental contribution would be the gross P&L from deploying more capital, less execution costs, price impact, and incremental data and compute costs. The memo gives no live performance or execution-cost figures to establish how contribution changes at higher volume. Feed rights and capacity remain unresolved. (Key Risks)
 
 ### Countercase
 
-Mnemonic may monetize through proprietary trading, the business model inferred in the memo. Growth on that route would depend on deploying more capital while preserving returns after execution costs and market impact. The memo identifies both as risks and reports no live performance or execution costs for Mnemonic. It also flags potential exchange-data licensing restrictions on an external offering, with the applicable terms unknown. These are unresolved constraints, so the structural downside gate remains untriggered. (*The Idea*, *Key Risks*)
+The two founders have quant trading experience, and Mnemonic reports building the training pipeline and model architecture in under six weeks, with over 25 TB of tokens in the launch training run. A shared model could make expansion across markets cheaper if it transfers to new feeds and retains its edge under live execution. The memo leaves both assumptions unverified. The structural downside gate remains open. The Pass reflects the lack of a credible buyer-led growth path in the current evidence. (Founders & Team, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -19,12 +19,12 @@ Mnemonic may monetize through proprietary trading, the business model inferred i
 |-----------|-------|
 | Global buyer demand | 9/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Retention economics | 7/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
 **Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent quant desk pay for and repeatedly run a strategy-research workload through a setup Mnemonic can reuse? A buyer-funded pilot with repeat use at the desk’s normal research cadence and measured setup, compute, and support costs would move the action to Reach out if those costs support a viable price.
+Can two independent quant desks in different markets pay for and reach first value with the same model through a standard setup? Documented paid deployments with bounded market-specific changes and minimal founder involvement would move the action to Watch.

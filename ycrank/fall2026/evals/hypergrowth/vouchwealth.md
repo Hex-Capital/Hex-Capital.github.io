@@ -1,30 +1,32 @@
 ﻿# Vouch -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Pass  
+**Evidence confidence:** Medium
 
 ### Company case
 
-Vouch’s strongest path is **repeatable direct sales**. It targets young Indian professionals who need ongoing help managing household mutual funds. The memo documents an early-access launch and a published distributor registration. Vouch describes founder-led onboarding, followed by a workflow that imports holdings through MF Central, identifies overlap and fees, and proposes transactions for customers to approve. Vouch solicits referrals and employer introductions, and the memo reports fund-house commissions as its revenue model. (The Idea, Defensibility, Market & Traction, Key Facts)
+Conditional on strong product-market fit, Vouch’s strongest path is to scale mutual fund monitoring and rebalancing for Indian professionals. The memo documents a phone-number waitlist and Vouch’s published distributor registration. Vouch reports empanelment with 27+ fund houses and describes a reusable workflow that imports household holdings, flags overlap and fees, and proposes transactions for customer approval. Referrals and employer introductions could feed that workflow. The documented early-access path uses founder-led onboarding, and independent activation remains unproven. (The Idea, Defensibility, Market & Traction)
 
-Assuming strong fit, the first unproven link is whether referred households can reach a commission-generating investment without the founder. A standard portfolio review could make that handoff possible, and recurring investments and rebalancing could bring customers back. The memo gives no customer-level evidence of initial commitment, paid conversion, repeat use, or the revenue and servicing effort added by the next household. At early access, a small cohort with a documented handoff would be enough to justify diligence. (The Idea, Market & Traction, Key Facts)
+The memo reports fund-house distribution commissions through fund expense ratios. If existing households keep eligible balances invested and direct recurring contributions into commission-bearing funds, revenue from those households can grow. That gives expansion a plausible route to offset churn and withdrawals, with commission rates and cohort behavior still unknown. Fee-based advice remains contingent on registration, and the memo identifies a tradeoff between advice fees and distribution commissions for the same client. The early-access launch and fund-house relationships establish readiness to distribute. Realized commissions, funded household counts, and commercial growth remain unverified, so initial traction takes the absent-evidence default. (The Idea, Defensibility, Key Risks, Market & Traction, Key Facts)
+
+Incremental contribution per household would be commissions collected less attributable onboarding, portfolio data processing, AI processing, and support costs. Automated holdings analysis and customer approval could reduce manual work per household. The memo gives too little operating evidence to estimate the resulting contribution. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-The need for portfolio oversight may travel, but Vouch’s current workflow depends on Indian fund-data infrastructure, local distribution relationships, and tax-aware recommendations. A second market would require local equivalents, and the memo gives no basis for estimating the work involved. Within India, the founder may be doing work that each household will continue to need, particularly when holdings data are incomplete or a proposed switch has tax or exit-load consequences. The pending adviser registration and client-level segregation rules also constrain combining advisory fees and distribution commissions on the same relationship. These are material limits, but the memo does not establish that every credible path is structurally blocked. (The Idea, Defensibility, Key Risks)
+The same household portfolio job plausibly recurs abroad, and Vouch’s overlap analysis and approval workflow could be reusable. The current product, however, relies on MF Central and Indian fund records for holdings, Indian tax rules for switch recommendations, and local registration and fund-house relationships for distribution. Serving comparable households in another market would likely require substantial work on data and transaction integrations, tax logic, and distribution access. Those documented dependencies and the lack of a credible near-term transfer path trigger the structural downside gate even if Vouch achieves strong fit in India. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 8/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 6/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 15/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can several unrelated referred households complete onboarding and make a first commission-generating investment without the founder? Move to **Reach out** if a cohort log shows the same steps across households, verifies commission revenue, and records the staff time required. If the handoff remains unproven, keep **Watch**.
+Can Vouch launch the same import-to-approval workflow for comparable households in a second market using standard local integrations and bounded tax and regulatory changes? A live deployment that imports holdings, generates locally valid recommendations, and completes customer-approved transactions through a compliant distribution channel with limited changes would move the action to Watch.

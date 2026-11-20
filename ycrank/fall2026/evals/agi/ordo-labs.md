@@ -1,32 +1,32 @@
 ﻿# Ordo Labs -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Ordo could make low-volume client jobs economical for regulated contract labs that previously declined them because each job required too much scientist time for quality checks and traceable reporting. That market opening is an inference. Ordo reports that one existing post-analysis workflow fell from 40 hours to 4, including scientist review. The memo also records paid pilots in the US and Europe, with buyer budgets, renewals, and purchases for previously uneconomic work still unknown. (The Idea, Market & Traction)
+**New Economies** is the strongest path. Ordo reports that one regulated lab’s post-analysis workflow fell from 40 hours to 4, including scientist review. If both workflows produce equally reliable signed reports and the labor mix is comparable, that implies a 90% reduction in labor cost per accepted report before software and validation costs. One plausible new use is frequent, traceable reporting on low-volume workflows that could previously justify only occasional reporting. The memo documents a reported efficiency gain within an existing workflow. The newly viable use remains a scenario. (The Idea, Market & Traction)
 
-If both timings produced an equally acceptable signed report, the reported comparison implies 36 hours of labor saved per report. Full delivery cost still depends on retries, exceptions, compliance work, software fees, and customer-specific validation. The expansion unit is one validated workflow at one lab. Enough repeat volume could spread the upfront validation cost, while Ordo’s own contribution depends on the staff time needed for onboarding and release support. The memo gives no realized figures for those costs. (The Idea, Market & Traction, Key Risks)
+Ordo reports paid pilots with regulated labs in the US and Europe. Those payments support early willingness to pay for the existing workflow. Pricing, renewals, and payment for a previously uneconomic use are undisclosed. The team brings prior pharma pilot and production engineering experience. The current pilots indicate field deployment, while repeatable validation across labs remains unproven. (Market & Traction, Founders & Team, Key Risks)
 
-Under model parity, labs could still pay Ordo to maintain validated workflows and traceable signed records. The customer-specific validation environments and sealed source files give that hypothesis a concrete basis, while revalidation costs and buyer preference remain untested. The team brings relevant execution experience through Hoang’s prior pharma authentication pilot and Tovatt’s production engineering work. (Defensibility, Founders & Team)
+The expansion unit is a validated workflow at a lab. The reported labor savings give the buyer a potential budget for Ordo. Buyer economics also depend on validation effort and the cost of handling exceptions. Ordo’s contribution depends on pricing relative to onboarding, validation support, inference, and ongoing support. The memo provides no deployment cost or report volume data to establish repeatable contribution. (The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Ordo may be making existing reporting cheaper for the same labs. The reported pilot saved time on work the lab already performed, and the memo identifies overlapping source-linked drafting, document QC, and electronic approval at ScienceMachine. If an equivalent product clears the same lab validation at comparable cost and buyers can switch readily, Ordo’s value-capture case fails. The overlap raises a credible substitution risk. The memo provides no head-to-head buyer behavior or repeat purchase for a newly viable use, leaving both Path B conditions open and supporting Watch. (Market & Traction, Defensibility, Key Risks)
+Ordo may be selling a faster way to complete work labs already fund, with competitors able to offer similar functionality. ScienceMachine advertises source-linked drafting, document QC, and electronic approval. Ordo’s dedicated validation environments and sealed records could make switching costly after deployment. The memo provides no observed migration costs, buyer preference under functional parity, or network effects. Labs retain release approval, and the memo identifies no scarce complement Ordo controls. The overlap keeps value capture in the partial band. Watch applies because market opening and buyer preference under parity remain testable, and the memo provides no observed easy switching. (Defensibility, The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 13/25 |
-| Durable value capture | 8/25 |
+| Path-specific thesis fit | 16/25 |
+| Durable value capture | 9/25 |
 | Customer demand | 11/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 6/15 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 52/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent lab place a paid repeat order with Ordo for a class of jobs it previously declined, after comparing Ordo with a functionally equivalent alternative? A repeat order at a price that covers Ordo’s delivery costs, backed by the lab’s full cost per accepted report and a concrete reason it chose Ordo under model parity, would move the action to Reach out. If the trial shows the jobs remain uneconomic or the lab can retain the same outcome by switching readily, move to Pass.
+Will a regulated lab pay for repeated use of Ordo on a reporting workflow it previously could not afford to run at that frequency, after evaluating a functionally comparable alternative? Move to Reach out if the buyer documents the old cost and the new cost per accepted report, pays a price that covers Ordo’s delivery costs, and gives a concrete reason for choosing Ordo at parity. Stay at Watch if the comparison remains inconclusive. Move to Pass if the test shows easy substitution at parity and closes the only supported path.

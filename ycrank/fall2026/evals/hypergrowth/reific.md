@@ -5,26 +5,28 @@
 
 ### Company case
 
-Repeatable direct sales is Reific’s strongest path. The memo records a public leaderboard and YC launch that direct frontier AI labs to request a sample and book time with a researcher. The recurring job is to train and evaluate agents that must decide when to act on changing information. Reific offers licensed environments that replay records on a clock and score decisions against what happened. The same workflow spans personal-agent, industrial, and science and compute tasks. If existing licenses and privacy controls permit reuse, a lab in another market could buy the same environment with limited adaptation. The memo identifies no cross-market buyer rollout. (The Idea, Market & Traction, Key Risks)
+Reific’s strongest path is to license the same catalog of timed replay environments to frontier AI labs across markets. Labs can use the catalog to train and evaluate agents on when to act as new information arrives. The documented product already applies the same replay and scoring design to personal-assistant, industrial, and science and compute tasks. That design looks transferable to labs doing the same job abroad. Whether the existing licenses permit cross-market reuse and how much integration each lab needs remain open. (The Idea, Key Risks)
 
-Reific reports that one open model’s full-solve rate on unseen tasks rose from 25.6% to 39.5%. That gives labs a reason to test the product. At this launch stage, a buyer-funded test could establish initial fit, but the memo records no buyer commitment. It also gives no account of a lab progressing from sample to paid use, returning for another training cycle, or adding a paid environment. Rollout effort and marginal costs are unmeasured. Those four dimensions receive their absent-evidence defaults. The first link to test is whether the sample-to-researcher route can take independent labs to paid value using the same environment and onboarding steps. (The Idea, Market & Traction, Key Facts)
+The public leaderboard and YC launch give labs a concrete way to discover Reific. The documented path leads to a work-email sample request and researcher booking, with independent purchase and setup still unverified. Repeated training and evaluation give labs a reason to keep using the environments. Additional environment licenses could grow account spend, though renewal terms and billing units are undisclosed. (The Idea)
+
+Reific reports that one open model’s full-solve rate on unseen tasks rose from 25.6% to 39.5%. That supports the technical case. The memo dates the public launch to November 10, 2026, and leaves paid adoption and revenue status unknown, so initial traction receives the default. (Market & Traction, Key Facts)
 
 ### Countercase
 
-The standard license could lead to a custom build for each lab. Reific offers custom environments by domain, data format, or skill, seeks training rights from record owners, and reports adding privacy transformations and release checks after a test model reconstructed personal details. If each sale requires fresh records, rights clearance, and grading review, delivery effort could rise in proportion to sales. Labs with their own records also have a way to build internally using open tooling. These are credible risks, but the memo documents no paid rollout that establishes persistent bespoke delivery. The structural downside gate does not apply. (The Idea, Defensibility, Key Risks)
+The catalog could become a custom research service if ordinary lab deployments require new record rights, de-identification, practitioner review, and researcher-led setup. Reific reports that a test model reconstructed personal details from de-identified records, prompting additional transformations and release checks. In the reusable-catalog scenario, each license must cover any incremental royalties, privacy and grading work, onboarding, and support. The memo gives too little evidence on license economics or the work per deployment to establish contribution, so cost economics receives the default. The structural gate stays open because the memo ties new record acquisition to new domains and leaves reuse of existing environments across buyers plausible. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 44/100** (Pass)
 
 ### Decisive diligence question
 
-Can two independent frontier labs go from a public sample request to a paid training run on the same catalog environment? Move to Reach out if both complete a run they judge useful for the same timing-sensitive job, using the same onboarding steps, with recorded setup and review hours that fit the license price. Stay at Watch if the runs have yet to occur. Move to Pass if comparable attempts show that paid activation consistently requires a fresh dataset and grading build, with no credible path to reuse.
+Can frontier labs in two markets independently buy, deploy, and expand paid use of the same existing environment? Two paid deployments with documented self-guided setup, repeat billing, and positive incremental contribution after data rights, privacy review, onboarding, and support would move the action to Reach out.

@@ -5,28 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Letter’s strongest path. An AI-search or content-optimization platform could buy Letterpress-1 to turn its recommendations into reviewable changes on customers’ Git-based websites. Letter’s beta is live, and its published workflow packages site edits into pull requests with live previews. Letter reports more than 100 customers and thousands of pull requests. Those claims indicate early use. A cohort of paying customers that repeatedly merges Letter-generated changes into production could establish whether the workflow saves enough time or drives enough paid adoption to give a buyer a reason to own it. The memo leaves paid conversion, retention, burn, and runway unresolved, so the time and capital needed to prove that milestone are uncertain. (*The Idea*, *Market & Traction*, *Key Facts*)
+Letter’s strongest route is a strategic acquisition by an AI-search measurement vendor such as Peec AI. Letterpress-1 turns search and site signals into Git pull requests with live previews. A buyer could add a way for its customers to act on those signals and ship changes through their existing approval workflow. That is an inferred buyer rationale. Letter reports more than 100 customers and thousands of pull requests. Those claims indicate early use, while the memo documents published subscription pricing and leaves paid adoption, repeat usage, and measured labor savings open. (The Idea, Market & Traction, Key Facts)
 
-The memo supplies no usable acquisition price range or terms for this holder. The reported YC financing entries leave note conversion, seniority, and any closing payoff unresolved. The proceeds bridge therefore assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. At 3% ownership it takes $83.3 million in distributable equity, versus $125 million at 2% or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% hurdle rises to $88.3 million in enterprise value. Assuming simple pro rata distribution and no additional fees or senior claims, a $25 million sale in year eight yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). Both sale prices are scenarios. The memo leaves IP rights and customer-contract transferability unverified. (*Market & Traction*, *Defensibility*)
+The milestone is a retained paid cohort that repeatedly merges Letter-generated changes and demonstrates lower labor per deployed update. The reported pull-request volume provides a starting point for that test. The memo records YC financing entries, with available runway and the capital needed to reach the milestone still unknown. It provides no terms for the benchmark holder and no evidence on IP assignment, license transfer, or required consents. (Market & Traction, Defensibility, Key Facts)
 
-If adoption plateaus, buyers stay away, public-market scale remains out of reach, and Letter reinvests all available cash, the holder realizes $0 over eight years and retains the shares. The memo establishes neither the cash generation needed for a sponsor buyout or company-funded payout, nor eligible secondary demand or a credible listing and resale path. In a wind-down, the holder’s recovery would depend on the residual after obligations and preferences, which the memo gives no basis to estimate. (*Market & Traction*, *Key Facts*)
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value. The sale cases below assume a full cash acquisition within that window, $5 million in combined net debt and deal costs, a pro rata waterfall with no senior preference leakage, and an eligible holder who sells the full stake and receives cash at closing.
+
+| Scenario | Proceeds bridge | Gross cash to holder |
+|----------|-----------------|----------------------|
+| Modest sale | $40M enterprise value less $5M leaves $35M for equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $5M leaves $95M for equity | $2.85M (5.7×) |
+| Prolonged private | Cash is reinvested, with no eligible share sale or payout within eight years | $0 |
+
+At 2.5% ownership, the strong case pays about $2.38 million (4.75×). The sale prices illustrate sensitivity. The memo supplies no buyer economics or comparable transactions to support a clearing price, and no evidence of an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-AirOps already offers overlapping content optimization, and general-purpose coding agents can handle part of Letter’s workflow through its MCP interface. A buyer could build the remaining pieces or partner with Letter. The reported pull-request volume leaves open how many changes reached production and whether customers kept paying for the workflow. That makes the case for ownership and a price above the proceeds hurdle too thin for outreach. The overlap is partial, and the memo establishes neither a structural blocker nor a price ceiling that would trigger Pass. (*Defensibility*, *Market & Traction*, *Key Facts*)
+A strategic buyer could build enough of the workflow in-house. Profound already offers marketing agents, AirOps Quill overlaps with content optimization, and general-purpose coding agents can cover part of Letter’s workflow. Letter reports brand evaluations and integrated infrastructure, but the memo provides no retention or switching evidence that would show why a buyer needs to own them. This makes the acquisition premium uncertain. The memo establishes neither a structural closing block nor a price ceiling below the holder’s hurdle, so the Pass gate does not trigger. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can Letter show that a prospective buyer would gain enough by owning the workflow to support a price that clears the holder’s cash hurdle? A retained paid cohort with recurring production merges, paired with buyer-side economics that quantify the benefit of ownership over building or partnering, would move the action to Reach out if those economics support roughly $88.3 million in enterprise value under the illustrative 3% ownership and $5 million net-debt assumptions.
+What purchase price could an AI-search vendor justify for Letter after seeing repeat paid use and measured labor savings on deployed updates? Customer cohort data and a buyer-side build-versus-buy analysis that supports a price clearing the holder’s $2.5 million hurdle after deal adjustments would move the action to Reach out. If the strongest credible buyer economics put proceeds materially below that hurdle, the action moves to Pass.

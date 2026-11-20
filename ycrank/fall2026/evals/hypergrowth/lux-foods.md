@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Channel-led or repeatable sales** is the strongest plausible path. Specialty grocers buying premium cherry tomatoes have a recurring job that plausibly travels across markets. The memo describes established greenhouse supply for this category. Lux reports that its first San Francisco farm is under development and invites grocers, chefs, and produce distributors to discuss pilots. Wholesale supply agreements are an inference. Buyer commitments, paid deliveries, and reorders remain unverified. (The Idea, Market & Traction, Key Facts)
+Lux’s strongest path is to sell a year-round supply of premium cherry tomatoes through produce distributors, then add capacity by replicating the same growing modules. Assuming strong fit with chefs and grocers, their recurring need for specialty tomatoes plausibly transfers across markets. Lux’s compact plants, growing vessels, and crop-specific robotics are the reusable parts of the proposed production system. The work needed to reproduce that system and deliver fresh fruit in another market remains uncertain. (The Idea, Key Risks)
 
-Assuming grocers value the fruit enough to reorder at a viable wholesale price, Lux could use a standard product specification and delivery schedule to serve similar accounts through produce distributors. Reliable fulfillment is the first likely bottleneck. Lux says its projected yield and vessel-to-module design still need validation. At the next increment of volume, revenue from saleable fruit would need to cover added sugar feedstock, energy, labor, spoilage, and delivery while supporting the capacity commitments required to supply it. Lux reports 90% lower light intensity. The memo provides no measured facility energy use or production cost. (The Idea, Defensibility, Key Risks)
+The documented route to buyers is an invitation to book a meeting about pilots or future supply. That gives Lux a reusable intake channel, with sales and first delivery still handled directly. If buyers adopt Lux as a year-round supplier, regular replenishment could sustain repeat purchases. Expansion would depend on buyers ordering more volume or supplying more locations. The memo documents no recurring billing, repeat orders, or account expansion. It reports the first farm under development and gives neither realized sales nor a confirmed pre-revenue status, so initial traction takes the absent-evidence default. (The Idea, Market & Traction, Key Facts)
+
+Under an assumed wholesale model, the cost bridge starts with net revenue per sellable kilogram and deducts sugar and other growing inputs, facility energy, labor, packing, delivery, and attributable sales and onboarding costs. The resulting contribution at realistic utilization must support the cost of adding the next module. Lux reports 90% lower light intensity, and its robotics offer a plausible way to reduce handling labor. Savings per sellable kilogram remain uncertain because commercial yield and the vessel-to-module design still need validation. (The Idea, Key Risks)
 
 ### Countercase
 
-Established greenhouse suppliers already offer branded snacking tomatoes year-round. Grocers may see too little benefit to switch or pay a premium. Even with buyer demand, regional growth could require duplicating farms and taking on capacity costs in proportion to sales. The memo shows that this risk remains unresolved, so the structural downside gate does not trigger. (Market & Traction, Key Risks)
+Established greenhouse suppliers already offer year-round snacking tomatoes. If buyers pay only a modest premium and sellable yield falls short, each capacity addition could reproduce weak economics even with steady reorders. The structural downside gate remains open because the memo establishes a need for production capacity and identifies plausible cost levers, while providing too little operating evidence to determine whether added capacity can pay for itself. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 8/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can Lux fulfill a paid grocer pilot from its first commercial module reliably enough to earn repeat orders at the grocer’s normal buying cadence, at a price that supports the next module? Move to **Reach out** if actual orders, delivery records, and measured saleable yield and costs show reliable fill rates and a credible margin after incremental delivery and capacity costs.
+Can repeat paid wholesale orders from the first farm generate enough delivered contribution to fund the next production module at realistic utilization? Repeat invoices and measured sellable yield, operating costs, and module costs across several production cycles would answer it. Positive results would support rescoring. Move to Pass if the measured economics show that added capacity still loses money at the price buyers pay, with no credible improvement from yield or automation.

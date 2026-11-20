@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper frontier intelligence increases the pace of robot-policy training, robotics teams could place more value on demonstrations that capture forces and effort missing from video. The potential bottleneck is collecting synchronized data that materially improves physical task success on contact-sensitive tasks such as gripping and knot tying. Preload demonstrated a synchronized video, tactile, and forearm EMG rig. The company reported preliminary separation of light and heavy handling effort. That result supports the sensing mechanism, while the effect on trained robot policies remains unmeasured in the memo. (The Idea, Defensibility, Key Risks)
+**Scarce complements** is the strongest path. If forearm EMG improves robot learning on contact-sensitive tasks such as gripping or knot tying, demand for dexterous robot policies could make synchronized EMG, tactile, and video demonstrations valuable. The memo documents a working capture rig. Preload reports that its EMG signal distinguished light from heavy handling in a preliminary test. The inference is that this signal could help a robot learn how much force to apply. The memo leaves the effect on physical-robot task success open. (The Idea, Defensibility, Key Risks)
 
-Preload’s forearm EMG channel gives it a specific technical distinction. A library spanning tasks and operators could become valuable if Preload can collect consistent recordings under rights it controls, but the memo establishes neither exclusive access nor buyer qualification. The founders’ biosignal and recording-hardware experience, together with the reported EMG-controlled ProHand demonstration featuring Preload, support seed-stage execution. The memo documents no buyer commitment for training data and provides no collection throughput or cost per usable recording. Operator fit, calibration, and site approvals could materially affect the cost of repeating a collection. (Defensibility, Founders & Team, Market & Traction, Key Facts, Key Risks)
+The founders’ biosignal and robotics experience, the working rig, and the ProHand demonstration support seed-stage execution. Buyer demand remains unverified. The ProHand demonstration shows EMG control, and the memo identifies no paid data order or repeat commitment. If Preload sells custom datasets, a plausible expansion unit is a quality-approved batch of demonstrations for one task. The memo leaves price and cost per usable recording open, including operator time, calibration, and retakes across different glove fits. (Founders & Team, Defensibility, Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-Buyers may get comparable robot performance from video and existing tactile or motion data, or reproduce the sensor stack in-house. The memo cites transfer from human video to robot hardware and describes competing suppliers already synchronizing multiple sensors. Those observations make substitution credible, while leaving performance on Preload’s target tasks unresolved. A representative comparison showing equivalent outcomes at comparable delivered cost would close the current Path A case. (Defensibility, Market & Traction, Key Risks)
+Tactile, force, and hand-pose data could supply enough information for dexterous tasks. Human Archive and 6thSense already offer overlapping sensor channels, and Mecka builds synchronized multisensor hardware and operates capture fleets. Even if EMG improves task success, competitors could add it. Preload’s rig shows it can integrate the channels, while durable control over valuable recordings or collection capacity remains unproven. The evidence establishes credible substitutes and entrants. Equivalence on the target tasks remains open, which supports Watch. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 13/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent robotics team place a paid follow-on order after a matched physical-robot trial shows that Preload’s EMG-inclusive data materially improves success on a contact-sensitive task over the buyer’s best available alternative? Move to Reach out if the order follows a measured gain the buyer cannot reproduce at comparable cost and lead time. Pass if a representative trial shows an available substitute delivers equivalent performance on comparable terms.
+Will an independent robotics buyer reorder Preload’s data at a price that covers collection and quality control after a controlled trial shows that adding EMG materially improves physical-robot task success across operators? Compare with the buyer’s best available non-EMG data at a matched training budget. A repeat order on those terms would move the action to Reach out. If the substitute matches task success at equal or lower cost, Pass.

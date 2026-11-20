@@ -5,36 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is Dydema’s strongest path. An EEG headset maker could buy the pretrained decoder to shorten setup for new users and gain control over how the decoder is integrated into its devices. Ownership could justify a premium if exclusive access to the decoder and its improvements gave the buyer a sustained advantage. Dydema reports standardizing approximately 128,000 hours of existing EEG recordings and outperforming per-user models in internal benchmarks. Those claims identify a potential asset and buyer benefit. The memo leaves the size of that benefit and buyer willingness to pay unverified. (The Idea, Defensibility)
+The strongest route is a strategic acquisition by an EEG headset maker. A decoder that gets new users to reliable hands-free commands after brief calibration could give that buyer a reason to acquire Dydema if it materially improves setup or reliability over existing products. The memo documents a research-cap demo using three imagined movements. Dydema reports standardizing about 128,000 hours of EEG recordings and outperforming per-user models in internal benchmarks. Those results make the buyer rationale plausible, with performance on lower-cost sensors still unverified. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The operating milestone is a consumer-sensor pilot with previously unseen users that measures calibration time, command accuracy, latency, and false activations against existing options. The documented three-command demo used a research cap. It gives Dydema a starting point for the pilot, while the move to cheaper sensors still requires model and hardware work. The memo reports a $500,000 convertible note and planned wearable hardware hires, with burn, runway, and the pilot budget unknown. The research API terms permit model-improvement use of submitted and derived data. Whether a buyer could acquire and continue using the core decoder and its training assets remains open. (Market & Traction, Key Risks)
+The next milestone is a production-intent headset pilot that measures calibration time and false activations across new users on a narrow task such as confirming an agent prompt. The prototype and reported $500,000 convertible note support taking that milestone seriously. The pilot budget, hardware hiring needs, and runway remain unclear. A software and IP acquisition is plausible given the existing API and on-premises licensing option. Rights to transfer the models and any recordings a buyer would need remain unverified, as does the benchmark holder’s eligibility to participate. (Market & Traction, Key Risks)
 
-Under the illustrative seed terms, a $500,000 check at a $10 million post-money valuation buys 5%. A 40% relative dilution leaves 3%, with no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. It requires $83.3 million of distributable equity at 3%, $125 million at 2%, or $62.5 million at 4%. The reported Dydema note has unspecified conversion and priority terms. The sale scenarios use $5 million of illustrative net debt, with fees and senior claims left unmodeled. At 3%, the enterprise-value hurdle is about $88.3 million before any such deductions. The memo supplies no realizable acquisition price range. (Market & Traction, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity at 3%. Both sale scenarios assume a full, all-cash acquisition that pays the eligible holder pro rata within eight years, with no further reduction from preferences or holdbacks.
 
-| Eight-year scenario | Realized cash to the holder |
-|---------------------|-----------------------------|
-| Modest sale at $25 million enterprise value | $600,000 gross, or 1.2×, after illustrative net debt |
-| Strong sale at $100 million enterprise value | $2.85 million gross, or 5.7×, after illustrative net debt |
-| Growth plateaus, buyers stay away, public-market scale remains out of reach, and all available cash goes back into the business | $0 realized, with shares still held. A funded payout or eligible share purchase could change the result. In a wind-down, only the residual after obligations and preferences could reach this holder, and the memo supplies too little information to estimate it. |
+- **Modest sale.** An illustrative $40 million enterprise value less $5 million in assumed net debt and deal adjustments leaves $35 million in equity. The holder receives $1.05 million, or 2.1×.
+- **Strong sale.** An illustrative $100 million enterprise value less $10 million in assumed net debt and deal adjustments leaves $90 million in equity. The holder receives $2.7 million, or 5.4×. At 2.5% ownership, the same sale pays $2.25 million, or 4.5×.
+- **Prolonged private.** Continued operation with cash reinvested yields zero realized proceeds within eight years. The memo provides no evidence of an independent route to holder liquidity.
 
-The other routes lack independent support. The memo leaves cash generation after reinvestment unverified for a sponsor buyout or company-funded payout, supplies no evidence of demand for an eligible investor secondary, and documents a prototype without evidence of public-market scale or reporting readiness. (The Idea, Market & Traction, Key Facts)
+The sale prices are sensitivity assumptions. The memo gives no buyer economics, transaction comparables, or demonstrated paid adoption to support either valuation. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-Emotiv and Neurosity already offer programmable EEG commands, and Wizard can use licensed pretrained models. A headset maker could extend its existing controls or license a decoder. The research-cap demo establishes that Dydema can map a small command set to actions, while the claimed calibration advantage remains unverified on consumer sensors. If that advantage disappears on cheaper hardware, the case for paying to own the decoder weakens substantially. The evidence supports Watch. The Pass gate requires a demonstrated structural barrier, materially inadequate proceeds under the strongest supported economics, or a documented lack of viable liquidity routes. The memo leaves those conditions unresolved. (The Idea, Defensibility, Market & Traction, Key Risks)
+Emotiv and Neurosity already offer programmable EEG commands, and keyboards and mice cover most of the demonstrated tasks. If the reported calibration advantage disappears on cheaper sensors, a headset maker can improve its existing product without buying Dydema. Sensitive neural-data handling and licensed model components also raise questions about what a buyer could acquire and use. These risks justify Watch. The memo establishes neither a structural closing barrier nor a supported sale-price ceiling below the proceeds hurdle. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Would a headset maker’s pilot on consumer-cost sensors show enough economic value from owning Dydema’s decoder to support a price near the modeled $88.3 million enterprise-value hurdle? A buyer-backed test showing faster setup at comparable or better command accuracy, latency, and false-activation rates, paired with buyer economics that support that price range, would move the action to Reach out.
+Can a paid headset-maker pilot show a reliable advantage on consumer-grade sensors large enough to justify buying Dydema? Shorter calibration and fewer false activations across new users versus the buyer’s existing controls, paired with a buyer-backed case for a price that could leave at least $83.3 million in distributable equity, would move the action to Reach out. A technical win with unquantified buyer economics would keep it at Watch.

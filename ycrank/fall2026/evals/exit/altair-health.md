@@ -5,36 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. An independent-practice billing platform such as Tebra could pay to own Altair’s payer-policy checks, resolution history, and workflow for billing on a practice’s existing EHR. Ownership could help a buyer serve practices outside its own EHR and reduce the labor required to resolve claims, if Altair’s workflow delivers those gains across practices and the underlying rights transfer. Altair reports tracking policies across more than 3,400 payers. The memo documents the earlier co-pilot launch and a CEO report that one Arkansas clinic prechecked hundreds of claims and avoided millions of dollars in receivables delays. That claim concerns payment timing. The memo provides no independently measured improvement in collections or biller labor for the current full-service product. (The Idea, Defensibility, Market & Traction)
+The strongest route is a strategic acquisition by a practice software platform such as Tebra. The memo describes Altair checking proposed claim actions against payer policies inside a practice’s existing EHR and clearinghouse, with in-house billers handling exceptions. Tebra already sells billing to independent practices and has announced investment in AI billing. A buyer could use Altair’s technology to reduce denials and billing labor across its installed base. Altair reports tracking policies across more than 3,400 payers, but the value of that coverage to a buyer remains unproven. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is repeatable improvement in collections or payment timing across paid full-service deployments, measured against each practice’s baseline and alongside biller hours per claim. The earlier co-pilot provides some evidence Altair can get its checks into a billing workflow. The funding and staffing needed to validate the current service are unknown. Altair reports signing business associate agreements, but the memo does not establish whether customer contracts, policy content, and rights to reuse resolution history would transfer in a sale. (Market & Traction, Key Risks)
+A seed-stage milestone would be paid deployments at multiple independent practices showing sustained reductions in denial losses and billing labor after accounting for manual exceptions. The CEO reported that an earlier co-pilot prechecked hundreds of claims at one clinic and attributed millions of dollars in avoided receivables delays to those checks. That report supports testing the workflow in production. The memo provides no verified savings for the current service or evidence of the capital and time needed to reproduce the result. (Market & Traction, Key Risks)
 
-**Illustrative eight-year proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. For both sales, assume $5 million of net debt and simple pro rata distribution before investor taxes, with no further deductions modeled. Altair’s actual debt, fees, and preference terms are unknown.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× gross return, which requires about $83.3 million in distributable equity value. The sale cases below assume $5 million in debt and other deal deductions, an eligible holder selling their entire stake for cash at closing within eight years, and a pro rata waterfall with no preference leakage or deferred payments. The sale prices are illustrative. The memo provides no evidence that a buyer would pay either price. (The Idea, Market & Traction)
 
-| Scenario | Cash realized by the holder |
-|---|---:|
-| $25 million enterprise-value sale | $600,000, or 1.2× |
-| $100 million enterprise-value sale | $2.85 million, or 5.7× |
-| Growth plateaus, buyer interest stays absent, public scale remains out of reach, and available cash is reinvested in rule maintenance and billing operations | $0 within eight years, with shares still held |
-
-The $2.5 million target requires about $88.3 million of enterprise value at 3% ownership under those assumptions. The hurdle rises to $130 million at 2% and falls to $67.5 million at 4%. The memo supplies no buyer economics or relevant acquisition prices to support a realizable range. It also gives no dependable revenue or cash-flow basis for a sponsor buyout or company-funded payout, no eligible secondary demand, and no evidence of IPO readiness. Directory-listed prices do not establish realized revenue. (The Idea, Market & Traction, Key Facts)
+| Scenario | Proceeds bridge | Holder cash |
+|-----------|-----------------|-------------|
+| Modest sale | $50M enterprise value less $5M in deductions leaves $45M for equity | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $5M in deductions leaves $95M for equity | $2.85M (5.7×) |
+| Prolonged private | The company reinvests available cash through year eight, with no eligible share sale or distribution | $0 |
 
 ### Countercase
 
-Tebra is already investing in AI billing, and Candid Health markets configurable rules and billing agents. A strategic buyer could build comparable checks or license Altair’s capability if ownership adds little incremental value. Altair’s reliance on in-house billers also makes the cost of handling exceptions material to the buyer’s economics. This supports **Watch**. The memo leaves willingness to pay and transferability unresolved, so it establishes neither a structural block nor a credible sale price that leaves the holder materially short. (Defensibility, Market & Traction, Key Risks)
+Tebra is already investing in AI billing, and Candid already offers configurable rules and billing agents. A buyer could build enough of the workflow internally. Even if the payer-policy checks add value, manual exception costs could erode the savings that justify a purchase. Altair reports signing business associate agreements, but the memo leaves contract assignment and continued access to patient data and integrations unverified. These gaps support Watch. The memo establishes neither a structural closing block nor a credible upper bound on sale proceeds that would trigger Pass. It also supplies no evidence of an independent liquidity route. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Could a billing platform justify paying enough to own Altair for the modeled holder to clear $2.5 million within eight years? Move to **Reach out** when a buyer-grounded valuation range connects results from paid full-service deployments, including the labor cost of exceptions, to a benefit from ownership that supports clearing the hurdle under plausible dilution.
+Can Altair show repeatable savings from its current service that a strategic buyer could capture at a scale sufficient to justify the roughly $88.3 million enterprise-value hurdle under the modeled deductions? Measured results across multiple paying practices, net of manual exception costs, and buyer feedback supporting that price range would move the action to Reach out.

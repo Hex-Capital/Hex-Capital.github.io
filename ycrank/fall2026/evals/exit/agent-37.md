@@ -5,36 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A sandbox or cloud infrastructure provider could buy Agent 37’s persistent per-customer provisioning layer and the production workloads embedded in it. The memo documents Boon integrating provisioning and scheduled runs into its own application. Boon reported cutting monthly cost per agent from $85 to $4.94. That supports customer value. A buyer could gain control of the provisioning roadmap and bring those workloads onto its infrastructure if the customer relationships and operating rights transfer. The memo leaves buyer interest, the incremental benefit of ownership over licensing, and a realizable sale price unverified. (The Idea, Defensibility, Market & Traction)
+The strongest exit path is a strategic sale to an agent infrastructure provider such as Daytona or E2B. Agent 37’s API provisions persistent environments for each customer, and its white-label starter kit lets resellers launch a branded service. Boon integrated provisioning and scheduled runs into its own application and reported cutting its monthly cost per agent from $85 to $4.94. A buyer could acquire the workflow and its embedded deployments to reach customers that need persistent agents across multiple harnesses. Boon’s experience establishes a customer benefit. The buyer’s economic benefit and willingness to pay remain unverified. (The Idea, Defensibility, Market & Traction)
 
-A proposed seed milestone is six months of retained paid production usage across several agency customers, with positive contribution margin after hosting, storage, and support. ETEC+ reportedly moved more than 30 existing clients onto its branded service within six days of adopting the starter kit, which supports the deployment path. Agent 37 claims it powers agents for more than 250 startups, while the founder reports average Cloud revenue of $0.37 per sandbox per month. Paid retention, margins, and burn remain unverified. The memo gives conflicting YC funding figures of $125,000 and $500,000, so available capital for the milestone is unclear. The company operates the service, but the memo leaves IP ownership, customer contract assignment, and hosting continuity after a sale unverified. Sponsor buyout, eligible secondary, public resale, and company-funded payouts lack independent support. (The Idea, Market & Traction, Key Facts)
+Under the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. The sale scenarios below assume $5 million in combined net debt and deal adjustments and an eligible holder who sells the entire stake for cash at closing within eight years, with the remaining equity proceeds distributed pro rata and no preference leakage. These are illustrative assumptions. The memo gives no holder terms or evidence of assignment rights for customer contracts and hosting arrangements.
 
-**Illustrative holder proceeds.** With actual terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The 5× gross cash target within eight years is $2.5 million before investor taxes. That requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Assuming $5 million of net debt for the sale comparisons, with fees and senior claims unmodeled because their terms are unknown, the 3% hurdle is about $88.3 million in enterprise value. (Market & Traction)
+| Scenario | Enterprise-to-equity bridge | Cash to holder |
+|----------|-----------------------------|----------------|
+| Modest sale | $40M enterprise value less $5M leaves $35M for equity | $1.05M, or 2.1× |
+| Strong sale | $100M enterprise value less $5M leaves $95M for equity | $2.85M, or 5.7× |
+| Prolonged private | Continued operation with cash reinvested and no eligible share sale or payout | $0 realized |
 
-| Eight-year scenario | Gross cash at 3% ownership |
-|---|---:|
-| $25 million enterprise-value sale, less $5 million net debt | $600,000 (1.2×) |
-| $100 million enterprise-value sale, less $5 million net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyers stay absent, public scale remains out of reach, and all available cash is reinvested with no secondary or payout | $0, with shares retained |
-
-At 2% ownership, even the strong sale yields $1.9 million. Both sale prices are scenario assumptions. In a wind-down, the memo gives no basis to estimate a residual after obligations and preferences.
+The strong case clears the benchmark at roughly $88.3 million in enterprise value under those assumptions. The founder reported average Cloud revenue of $0.37 per sandbox per month. At that rate and an illustrative 5× to 10× annual revenue multiple, a $100 million sale would imply roughly 2.3 million to 4.5 million average monthly sandbox equivalents. The memo supplies neither a supported acquisition multiple nor paid usage at that scale. ETEC+ reportedly moved more than 30 clients to its branded service in six days, which makes a six-month test of paid production retention and gross margin after hosting and support a concrete next milestone. The conflicting funding figures leave available runway and the capital needed to scale unresolved. (Key Facts, Market & Traction)
 
 ### Countercase
 
-AWS already offers isolated agent sessions, and Agent 37 attributes its low costs to rented servers, shared host resources, and workload optimization. A prospective buyer could build the provisioning layer or license it while leaving Agent 37 to operate the service. Boon’s integration shows that the product fits a customer workflow. The evidence for a buyer paying enough to own that workflow remains thin. The substitutes weaken the acquisition rationale without establishing a structural block or an upper bound on holder proceeds, so the Pass gate does not apply. (Defensibility, Key Risks)
+A strategic buyer could build comparable provisioning on its existing infrastructure. AWS already offers isolated agent sessions, and Agent 37 attributes its low prices to commercially rented servers, shared resources, and workload optimization. If paid deployments are easy to migrate, the buyer may see little economic reason to acquire them. The memo establishes neither a structural closing barrier nor a supported sale-price ceiling below the holder’s hurdle, so the Pass gate does not trigger. It also provides no evidence of an independent payout route. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Counterparty rationale or source of cash | 17/30 |
+| Plausible investor proceeds | 9/30 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-What acquisition price could a strategic buyer justify for Agent 37’s retained production workloads after comparing ownership with building or licensing the provisioning layer? Move to **Reach out** if buyer-side economics tied to measured paid retention and contribution margin support a price range that clears the holder’s cash hurdle under plausible dilution. Otherwise, stay on **Watch**.
+Would a strategic buyer pay enough for Agent 37’s retained production customers and provisioning platform to deliver $2.5 million in cash to the benchmark holder? A buyer’s build-versus-buy valuation tied to documented paid retention and gross profit would answer it. Move to Reach out if the supported range clears the hurdle after deal adjustments and the holder waterfall. Move to Pass if the best credible price leaves the holder materially short.

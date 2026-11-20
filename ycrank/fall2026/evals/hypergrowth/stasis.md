@@ -5,28 +5,28 @@
 
 ### Company case
 
-The strongest path is **repeatable direct sales**. STASIS targets consumers who spend long hours at screens and want help managing recurring eye fatigue. The company describes glasses that estimate fatigue and respond with tint changes, break prompts, or screen adjustments. The job plausibly travels across markets, while prescription fulfillment and shipping in a second market remain untested. (*The Idea*, *Market & Traction*)
+STASIS’s strongest path is direct-to-consumer sales of a standard pair of glasses for people who spend long hours at screens. Conditional on strong product-market fit, the same inward-facing sensors, automatic tint, and break prompts could address the same daily job across markets. Prescription fulfillment and international delivery remain material uncertainties. The November 9 launch directed buyers to a $99 refundable reservation toward a $299 first-batch purchase. That establishes a concrete discovery and reservation path. Full payment, delivery, and independent setup remain unverified. (The Idea, Market & Traction, Key Risks)
 
-The memo records prototype coverage, a founder launch post with approximately 1.62 million views, and a direct reservation checkout. The checkout offers a refundable $99 deposit toward a $299 first-batch price, with the balance due just before scheduled March 2027 shipment. Even assuming strong fit, the first link to test is whether a repeatable channel can turn that attention into full-price payment and successful setup. The memo gives too little buyer evidence to score acquisition or fit above their defaults. (*The Idea*, *Market & Traction*, *Key Risks*, *Key Facts*)
+The two-person team drew roughly 1.62 million launch-post views. The memo supplies neither a reservation count nor realized revenue or paying-customer counts, so commercial traction receives the absent-evidence default. Daily wear gives buyers a reason to keep using the product, but the optional $10 monthly Premium plan has uncertain renewal value alongside the free tier and no documented way for spend to expand within an account. (Founders & Team, Market & Traction, The Idea, Key Facts)
 
-Daily screen work gives buyers a reason to return if the glasses help, while repeat wear and paid Premium uptake are unmeasured. In a first-batch scenario, a completed $299 sale would need to cover acquisition, hardware, prescription lenses, shipping, returns, and support. The memo supplies no per-order cost or rollout effort, so retention and contribution remain at their defaults. (*The Idea*, *Key Facts*)
+For a fulfilled first-batch order, the contribution scenario starts at $299, including the deposit. Subtract device production, prescription lenses, fulfillment, returns, warranty, and attributable acquisition and support costs. The listed $399 regular price would add $100 per unit if buyers pay it and per-unit costs hold. The memo provides no cost inputs or production capacity figures, leaving contribution and the cost of scaling unverified. (The Idea, Key Facts)
 
 ### Countercase
 
-Launch attention could fade when buyers have to pay the balance for glasses whose fatigue measurements are still unvalidated in the memo. STASIS claims over 90% accuracy and has published neither the reference measure nor the validation protocol, according to the memo. A software-only blink-training option also addresses part of the problem. Weak conversion or inconsistent benefit could leave STASIS with a one-time hardware sale and little paid expansion. These risks are testable in the first shipments, so the structural downside gate does not apply. (*Market & Traction*, *Key Risks*)
+Launch attention may convert into few completed purchases once the balance comes due. Even buyers who keep the glasses may rely on the free tier or find software-only blink training sufficient. STASIS reports over 90% accuracy for fatigue and cognitive-load measurement, with the reference measure and validation protocol undisclosed. That leaves the real-world value of the hardware and the case for Premium uncertain. The structural downside gate stays open because the memo does not establish that per-order work or capacity requirements make growth economically infeasible. (Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 14/25 |
+| Repeatable acquisition and onboarding | 12/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-After first shipments, can two independent groups of screen-heavy buyers acquired through the same channel beyond the founder launch complete payment, set up the glasses through the standard process, and use the fatigue features during normal screen work? Order, setup, and early wear records showing that pattern with limited founder intervention would move the action to **Reach out**.
+Can the first batch scheduled for March 2027 convert web reservations into meaningful paid shipments that buyers set up independently and that generate healthy contribution per order? Cohort records covering balances collected, cancellations, deliveries, setup support, and attributable costs would answer it. Evidence of meaningful paid volume, low-touch activation, and healthy contribution would move the action to Reach out. Views and refundable deposits alone would keep it at Watch. (Market & Traction, Key Risks, The Idea)

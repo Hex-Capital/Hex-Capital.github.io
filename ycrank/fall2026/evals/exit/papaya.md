@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition by an agent-observability platform is Papaya’s strongest path. Braintrust is a plausible buyer because Papaya’s trace-backed recommendations and approved code pull requests could extend Braintrust’s recurring failure diagnosis into remediation. Owning that capability could help Braintrust sell a higher-value workflow if Papaya can demonstrate a meaningful lead over an internal build or integration. The memo records ClickHouse’s acquisition of Langfuse as an adjacent purchase. The price was undisclosed, and Braintrust’s willingness to pay for Papaya remains an inference. (*The Idea*, *Defensibility*, *Market & Traction*)
+Papaya’s strongest exit path is a strategic sale to an agent-observability platform. Papaya’s product ranks fixes using production traces and can open pull requests for approved changes. An observability platform could buy that capability to turn diagnoses into code changes within its existing workflow. The memo documents ClickHouse’s acquisition of Langfuse, an adjacent tracing product, with deal value undisclosed. Papaya reports $25,000 or more in annualized savings per large-scale workflow, and Sunny Health reports fewer inference errors. The savings are a company claim, and the testimonial gives directional support. The buyer’s incremental economic benefit remains an inference. (*The Idea*, *Market & Traction*)
 
-The operating milestone is multiple paying customers shipping Papaya-recommended fixes and verifying sustained gains in production. The memo records public SDK updates and quotes a Sunny Health customer reporting fewer inference errors. The founders report first paying customers, and Papaya claims a typical 20% first-workflow success-rate gain. Those signals support testing the milestone, with repeatability, runway, and financing needs still open. A buyer would also need to verify rights to transfer the remediation software and use any customer trace data essential to its value. The memo documents sensitive-data handling constraints and leaves transfer rights unverified. (*Market & Traction*, *Key Risks*)
+The founders report initial paying customers, and Papaya already supports trace imports. That makes a seed-stage test of repeated, measurable gains from merged fixes across paying production customers plausible. Runway and test costs are unknown. The remediation software appears transferable in principle. A buyer’s ability to use customer traces would depend on data rights and any required consents, especially given the memo’s evidence that traces can contain personal data. (*Market & Traction*, *The Idea*, *Key Risks*)
 
-Under the illustrative terms, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The $2.5 million gross cash target within eight years requires $83.3 million of distributable equity at 3%, or $125 million at 2% and $62.5 million at 4%. With illustrative net debt of $5 million, the 3% hurdle is $88.3 million in enterprise value. At year eight, a $25 million sale returns $600,000 gross, or 1.2×, and a $100 million sale returns $2.85 million gross, or 5.7×, using simple pro rata allocation after net debt and before investor taxes. Papaya’s actual ownership, debt, fees, and senior claims are unknown. The memo supplies no usable evidence of a realizable sale price.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity. The sale scenarios assume an eligible holder sells the entire stake for cash by year eight, receives 3% pro rata, and faces no preferential allocations or deferred payments.
 
-If growth plateaus, acquirer interest fails to emerge, public scale stays out of reach, and Papaya reinvests available cash for eight years, the holder realizes $0 and retains the shares. The memo gives no usable evidence of buyout cash generation, eligible secondary demand, IPO readiness, or distributable cash for dividends or buybacks. A wind-down recovery is unquantifiable without evidence of assets, obligations, and preferences. (*Market & Traction*, *Key Facts*)
+| Illustrative case | Enterprise-to-equity bridge | Cash to holder |
+|---|---|---|
+| Modest sale | $40M enterprise value less $0–10M in net debt and deal adjustments yields $30–40M in distributable equity | $0.9–1.2M, or 1.8–2.4× |
+| Strong sale | $100M enterprise value less $0–10M in net debt and deal adjustments yields $90–100M in distributable equity | $2.7–3.0M, or 5.4–6.0× |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or payout by year eight | $0 |
+
+At those adjustment levels, the enterprise-value hurdle is about $83.3–93.3 million. The scenarios are sensitivities. The memo provides no supported acquisition price, holder terms, or independent route to cash. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Braintrust already groups production failures and automates recurring trace analysis, giving it a credible path to build remediation into its existing product. Papaya also supports trace imports, which makes an integration plausible. Either alternative could erode the ownership premium, especially if Papaya’s reported gains prove hard to reproduce. The memo establishes a credible substitute in diagnosis while leaving the cost and performance of an equivalent remediation workflow open. That supports Watch. The Pass gate would require stronger evidence of a structural block or materially inadequate proceeds under the strongest credible sale. (*Defensibility*, *Key Risks*)
+Braintrust already automates recurring trace analysis and groups production failures. It could add code remediation to that workflow, especially if Papaya’s measurable advantage proves small or depends on access to sensitive customer traces. The memo establishes a credible build option for a potential buyer. It leaves open whether that option would cap bids below the proceeds hurdle or whether data rights would block a sale. Neither Pass gate is established. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 17/30 |
+| Counterparty rationale or source of cash | 20/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can Braintrust or a comparable platform justify paying roughly $88.3 million in enterprise value to own Papaya’s remediation capability under the modeled terms? Buyer-side economics grounded in repeatable gains across paying production deployments, with a credible price range clearing that hurdle after accounting for internal build and integration options, would move the action to Reach out.
+What acquisition price could an observability platform justify for Papaya’s remediation engine compared with building it internally? Buyer-side valuation feedback grounded in verified, repeatable gains from merged fixes at paying production customers would answer it. Move to Reach out if that feedback supports a cash price that clears the holder’s hurdle after deal adjustments.

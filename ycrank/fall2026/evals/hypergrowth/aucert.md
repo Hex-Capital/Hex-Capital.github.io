@@ -5,26 +5,28 @@
 
 ### Company case
 
-Repeatable direct sales is Aucert’s strongest path. The memo records a public launch and a private beta reported by Aucert. The company seeks introductions to mobile engineering and QA leaders, offers founder demos, and accepts an app-store link for a free first scan. The sample report shows the kind of evidence a release team could review. Aucert could turn that first scan into a paid workflow for checking successive builds if teams can move to their own release builds through a standard setup. The memo gives no example of an independent buyer completing that transition or committing budget. *(The Idea; Market & Traction; Key Risks)*
+Assuming strong product-market fit, Aucert’s strongest path is to turn a free app-store-link scan into paid verification for successive mobile releases. Mobile engineering and QA teams can use the same app-store workflow across markets, and the link intake and sample report give buyers a concrete way to try the product. The memo documents founder demos alongside the scan offer. Independent activation and checkout remain unverified. *(The Idea, Key Risks)*
 
-The core job of checking mobile builds before release plausibly travels across markets for teams that can share screen data with Aucert’s AI providers. Aucert says it retains app-specific knowledge and learns customer-approved expectations. Those features could make later scans more useful, but repeat use and paid expansion remain unobserved. The draft plans describe scan and device limits. Actual billing and the marginal costs of running and supporting scans remain unknown. *(The Idea; Defensibility; Key Risks)*
+Aucert says its agents retain app maps and customer-approved expectations. That state could make each subsequent release check more valuable. Draft monthly subscriptions and limits on scans, devices, seats, and storage suggest ways for accounts to spend more as usage grows. Actual renewals and paid expansion remain unknown. The October launch and November private-beta listing establish the product’s stage, while realized revenue, paid adoption, and pre-revenue status are all unknown. *(The Idea, Defensibility, Market & Traction, Key Facts)*
+
+Under the subscription scenario, contribution from the next paid account would be subscription revenue less its share of free-scan acquisition costs, any attributable sales and setup labor, and ongoing AI inference, device runtime, storage, and support. Aucert describes sending captured screen data to AI providers. The memo leaves scan costs, labor per account, and the workload covered by a paid plan uncertain, so incremental contribution is unproven. *(The Idea, Key Risks)*
 
 ### Countercase
 
-The first link likely to break is the move from a free scan to dependable use on a team’s own release builds. A scan can miss unvisited flows or infer the wrong behavior. If each deployment requires founders to configure app-specific expectations and review findings, onboarding effort could rise with each account. Aucert also says screenshots and UI hierarchies go to AI providers as captured, with redaction still planned. That could exclude teams with stricter data controls. The memo leaves both constraints testable, so the structural downside gate does not apply. *(The Idea; Defensibility; Key Risks)*
+A free scan can surface useful defects while still leaving release teams to cover flows the agents miss and correct mistaken expectations. Aucert’s reported practice of sending unredacted screen data to AI providers could also limit production access for teams with sensitive test data. If those constraints routinely require hands-on setup or support, the free scan may lead to a high-touch sales motion. The structural gate clears because the app-store-link path remains credible and the degree of required intervention is unresolved. *(The Idea, Key Risks)*
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 12/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 54/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent mobile release teams move from a free scan to paid verification on their own builds and use it again on their next release through the same onboarding process? Paid use across both release cycles, with setup records showing bounded effort and successful handoff from the founders, would move the action to Reach out.
+Can a cohort of mobile QA teams go from free link scans to paid verification across successive releases without founder-led setup and with positive incremental contribution? Cohort records showing independent activation, payment, repeat use, and delivery costs including free scans would support moving to Reach out if the updated score reaches 65 and evidence confidence reaches Medium.

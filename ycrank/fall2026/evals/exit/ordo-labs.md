@@ -5,36 +5,28 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A lab software vendor could buy Ordo’s source-linked QC and reporting workflow, including its validation tooling, to sell into its existing CRO and CDMO accounts. Ordo reports cutting one post-analysis workflow from 40 hours to 4, including scientist review. That measures potential value to a lab. The buyer case depends on converting those savings into recurring software sales and showing why ownership would capture more value than an integration. The memo supplies no buyer-side economics or acquisition pricing. (The Idea, Defensibility, Market & Traction)
+A strategic sale to a lab informatics vendor is Ordo’s strongest path. A buyer could add source-linked QC and signed reporting to its existing lab software. Ordo reports cutting one post-analysis workflow from 40 to 4 hours, including scientist review. That suggests customer value if the savings repeat in production. The memo documents IDBS’s integration with Alchemi for regulatory filing authoring, which shows an adjacent vendor adding AI capabilities through a partnership. The purchase rationale remains an inference. (The Idea, Market & Traction)
 
-The operating milestone is to convert paid pilots at multiple labs into recurring, QA-approved production contracts while reproducing the time savings and measuring the cost of validation at each site. Reported paid pilots and seed financing give Ordo a starting point. Undisclosed contract values, burn, and validation costs leave the time and capital needed uncertain. The memo describes customer-controlled release approval and leaves core IP ownership and customer contract transfer rights open. (Market & Traction, Key Facts, Key Risks, The Idea)
+A plausible 12–18 month milestone would be to convert at least two paid pilots into recurring, QA-approved production deployments that sustain time savings through a software release. The timeline and target are assumptions. Paid pilots and documented seed funding support the test, while runway and validation costs are undisclosed. A whole-company purchase could preserve the entity operating the customer-specific environments, subject to verification of IP and data rights and any change-of-control consents. (Market & Traction, Defensibility, Key Risks)
 
-Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3% with no follow-ons. The eight-year 5× goal requires $2.5 million of gross cash before investor taxes. With illustrative net debt of $5 million, the holder needs about $88.3 million of enterprise value at 3% ownership, $130 million at 2%, or $67.5 million at 4%. The sale cases assume a pro rata distribution after net debt, with no adjustment for undisclosed fees or senior claims.
-
-| Year-eight scenario | Gross cash at 3% ownership |
-|---|---:|
-| Modest sale at $25 million enterprise value | $600,000 (1.2×) |
-| Strong sale at $100 million enterprise value | $2.85 million (5.7×) |
-| Growth plateaus, buyers stay absent, public scale remains out of reach, and cash is reinvested | $0, with shares still held |
-
-The strong sale clears the target under the scenario assumptions. Pilot pricing, recurring revenue, and buyer willingness to pay are unestablished, so the memo gives no basis for underwriting that sale price. The reported financings provide no evidence of an eligible secondary. The memo also leaves sponsor financing and cash generation, public resale scale, and distributable cash for dividends or buybacks unevidenced. (Market & Traction, Key Facts)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. In both illustrative sale cases, assume $5 million in combined net debt and deal adjustments, no senior claims against the resulting equity pool, and an eligible holder selling its full stake for cash by year eight. A modest $50 million enterprise value leaves $45 million for equity and pays the holder $1.35 million. A strong $100 million enterprise value leaves $95 million and pays $2.85 million, falling to $2.375 million if ownership dilutes to 2.5%. Continued private operation with reinvested cash yields zero realized proceeds. The memo supplies no supported acquisition price range or independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-ScienceMachine already offers overlapping source-linked reporting, QC, and approvals. The IDBS–Alchemi integration shows how an incumbent can add adjacent functionality through a partnership. If Ordo’s customer-specific validation also requires substantial work at each deployment, a buyer may see limited value in owning the product. These facts weaken the acquisition case. They leave both the attainable price and the ability to close unresolved, so the structural Pass gate is untriggered. (Defensibility, Market & Traction, Key Risks)
+A vendor could meet much of the same need through a competing product or a partnership. ScienceMachine already offers source-linked report drafting, document QC, and electronic approval. Ordo’s customer-specific validation could also make deployments costly to replicate, weakening the case for paying a premium. These risks fall short of the Pass gate because the memo establishes neither a structural closing barrier nor a price ceiling below the holder’s hurdle. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 12/20 |
-| Transaction feasibility | 5/10 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-What acquisition price could a lab software vendor justify once Ordo converts paid pilots into repeatable production deployments? Recurring production contracts and buyer-side economics showing why ownership could support a sale near or above $88.3 million under the 3% scenario would move the action to Reach out. An unresolved price case keeps it at Watch. A supported upper bound that leaves holder proceeds materially short would trigger Pass.
+What price could a lab informatics vendor justify paying for Ordo based on the economics of repeatable, QA-approved production deployments? A buyer-side analysis of acquisition versus building or partnering, grounded in paid production contracts and measured deployment costs, would move the action to Reach out if it supported a price above roughly $88.3 million in enterprise value under the benchmark sale assumptions.

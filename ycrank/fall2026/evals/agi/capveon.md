@@ -5,28 +5,28 @@
 
 ### Company case
 
-Path B (New Economies) is the strongest path. A plausible newly served buyer is an infrastructure equipment seller that skips a territory because monitoring agency portals and reviewing specifications costs more staff time than the expected opportunities justify. Capveon says it links budgets and meeting records to projects, checks specifications and addenda against the seller’s capabilities, and drafts pursuit documents with page citations. The relevant comparison is the full cost per eligible, submission-ready pursuit under manual and Capveon-assisted workflows, including time spent checking citations, correcting errors, handling exceptions, and completing the submission. The memo contains no measured comparison or evidence that a seller began pursuing a previously uneconomic territory. (The Idea, Key Risks)
+New Economies is the strongest path. Infrastructure suppliers manually monitor agency portals and read plans, specifications, and addenda. Capveon says it links early project records and checks bid documents against a supplier’s capabilities, with page citations for review. The thesis is that this could let a small equipment supplier pursue additional territories or lower-value opportunities that previously cost too much staff time to screen. That is a scenario. The relevant comparison is fully loaded cost per verified, eligible opportunity pursued on time, from manual monitoring and review to subscription fees plus staff verification and rework. The memo gives no measured baseline, savings, or newly viable pursuits. (The Idea, Key Risks)
 
-Under the scenario of cheap, widely available frontier-quality models, a seller might still pay Capveon if it consistently surfaces suitable projects earlier or matches requirements to its product catalog and bid history more reliably than an equivalent-model workflow. Capveon reports linked records across more than 185,000 agencies, which establishes the claimed breadth of coverage. Whether that coverage or customer-specific matching drives buyer preference remains untested. (Defensibility)
+The memo documents the October launch and relevant founder experience in search engineering and B2B sales. Accuracy on live bids, especially when addenda change requirements, remains the next execution gap. Earlier company copy claimed paying customers for a workflow-handoff product. The memo provides no paid adoption or repeat usage for the current offering. (Market & Traction, Founders & Team, Key Facts, Key Risks)
 
-The public launch shows the founders shipped a product, and their search engineering and B2B sales experience is relevant to execution. The manual workaround is an indirect demand signal. The company’s earlier claim of paying customers concerned its workflow-handoff offering, leaving demand for the current product among newly served sellers uncertain. A plausible expansion unit is another seller-territory subscription. Capveon reports expanding tender coverage to 14 countries. Reusing feeds across sellers could spread ingestion costs, while feed maintenance, document processing, and support could erode contribution. The memo provides no realized cost or pricing data to test that bridge. (Founders & Team, The Idea, Market & Traction, Key Facts)
+Capveon’s reported coverage across more than 185,000 agencies could give it a head start in linking fragmented records. Customer bid histories could make its recommendations more useful over time. Both advantages remain untested under model parity. A plausible expansion unit is a supplier territory, but quote-based pricing and broader tender coverage leave contribution per territory unknown, especially after feed maintenance, document processing, and exception handling. (Defensibility, The Idea, Market & Traction, Key Risks)
 
 ### Countercase
 
-Capveon may help existing bid teams process more of the work they already do, with too little labor savings to make a skipped territory economical. GovSpend already searches public meeting records and ranks opportunities, while GovSignals offers cited bid analysis and drafting. Those overlaps make substitution credible, and a missed addendum or misread requirement could consume the time saved through additional review. The memo contains neither a representative cost comparison nor observed switching to an equivalent workflow. Both required conditions remain open to testing, which supports Watch at seed. (Defensibility, Key Risks)
+Capveon may make existing bid work faster without changing which opportunities suppliers can afford to pursue. GovSpend already offers meeting-record search and opportunity ranking, and GovSignals offers cited bid analysis and drafting. That overlap makes substitution credible. The memo contains no observed switching or parity test, so the New Economies path remains open. The memo also identifies no controlled scarce complement. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Path-specific thesis fit | 10/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 5/20 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent equipment seller renew at a price that covers Capveon’s delivery costs for a territory it previously skipped because of staff time? Test comparable live opportunities using manual review, Capveon, and a workflow with equivalent models and access to the same public sources and seller inputs. Move to Reach out if Capveon lowers the full cost per eligible, submission-ready pursuit enough for the seller to pursue the territory repeatedly, and the seller renews because Capveon provides measurably better lead time or qualification accuracy. Pass if a representative trial shows the territory remains uneconomic or the seller can retain the outcome with the equivalent workflow and declines to renew.
+Will independent equipment suppliers pay and renew after Capveon lowers their cost per verified, eligible pursuit enough to enter territory or bid categories they previously skipped? Move to **Reach out** if a paid cohort documents that change against its manual baseline and still chooses Capveon after trying a functionally comparable alternative. Move to **Pass** if the comparison shows that the cost reduction fails to make those pursuits viable or that buyers switch readily at parity.

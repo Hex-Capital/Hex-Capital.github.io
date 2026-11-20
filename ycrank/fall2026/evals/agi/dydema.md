@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Dydema’s strongest case is hands-free confirmation of computer-agent actions for users whose hands are regularly occupied. The research-cap demo showed three imagined movements mapped to computer actions. Dydema claims its pretrained decoder needs only brief calibration on new users and outperformed individually trained models in internal benchmarks. The demo establishes basic feasibility. The proposed market opening depends on a consumer headset reducing per-user setup labor and interruptions enough to make frequent confirmations economical where keyboard or mouse input currently gets deferred. That scenario remains hypothetical. The relevant comparison is full cost per correct confirmation, including hardware, calibration, interruptions, retries, and correction of false triggers. (*The Idea*, *Market & Traction*, *Key Risks*)
+Dydema’s strongest path is a **scarce complement** to computer agents: a reliable way to issue a discrete command when manual input is impractical. The research-cap demo used three imagined movements to type, play chess, and answer email. Dydema also showed agent-prompt confirmation as an initial use. The investment premise is that more agent use could make hands-free confirmation valuable in workflows where it removes a recurring interruption. The memo establishes that the prototype can map imagined movements to actions. It leaves the frequency and cost of those interruptions unmeasured. (The Idea, Market & Traction, Key Risks)
 
-With equivalent models available to rivals, buyers would still have a reason to pay Dydema if its headset delivered reliable commands with materially less setup or correction than programmable EEG alternatives. The founders’ EEG and ML experience and the working prototype support their ability to test that at seed. The memo gives no independent buyer commitments or paid repeat use for this workflow. Wizard’s API pricing leaves consumer headset costs, support burden, and contribution per deployment unknown. (*Defensibility*, *Founders & Team*, *Market & Traction*, *Key Facts*)
+Dydema reports standardizing roughly 128,000 hours of existing EEG recordings and outperforming user-specific models in internal benchmarks. That suggests an advantage in getting new users started, with exclusivity and performance on cheaper sensors still unproven. The founders’ EEG and machine-learning experience, the research-cap prototype, and the Wizard API show relevant seed-stage execution. Reliable operation on a consumer headset remains the next milestone. (Defensibility, Founders & Team, Key Risks, The Idea)
+
+The memo records launch attention and posted research API prices. Paid adoption and repeat use by target buyers are undocumented. The consumer rollout also lacks a cost bridge covering headset price, hardware costs, and calibration and support per user. (Market & Traction, The Idea, Key Facts)
 
 ### Countercase
 
-Emotiv and Neurosity already offer programmable EEG commands, and standard inputs can handle the same discrete actions when users can reach them. Dydema’s three-command demo used a research cap. If cheaper sensors increase errors or require frequent recalibration, the labor savings could disappear. An equivalent rival setup would also weaken the reason to pay Dydema specifically. The memo contains no representative comparison that resolves either gate, so the path remains on Watch. (*Market & Traction*, *Defensibility*, *Key Risks*)
+Agent confirmation may be too simple a task to justify wearing and calibrating a headset. Keyboards and mice already serve users who can use manual inputs, and Emotiv and Neurosity already offer programmable EEG commands. Dydema’s three-command research-cap demo leaves open whether its decoder has a meaningful advantage on consumer hardware. These substitutes limit thesis fit and value capture. The memo leaves comparative performance in a hands-constrained workflow unresolved, so the path remains open at Watch. A New Economies case would require evidence that lower labor cost per successful outcome makes a previously uneconomic use viable, which the memo does not establish. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
+| Team and execution | 10/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer pay to repeat a pilot after Dydema’s consumer headset makes previously deferred confirmations economical in a hands-occupied workflow? Move to Reach out if the pilot shows a lower full cost per correct confirmation than the buyer’s current workflow, a meaningful advantage over a programmable EEG alternative given equivalent decoding models, and a paid repeat commitment. Pass if a representative trial shows that calibration and errors erase the savings or that the buyer can retain the outcome with an equivalent substitute.
+Will independent buyers renew a paid pilot for agent confirmations in a hands-constrained workflow using Dydema’s consumer headset? Compare the headset with buyers’ current input and a programmable EEG alternative, measuring setup time, successful confirmations, and false activations in routine use. Move to **Reach out** if buyers renew at a price that covers delivery and support and Dydema shows a repeatable advantage. Move to **Pass** if alternatives perform comparably and buyers see no reason to renew.

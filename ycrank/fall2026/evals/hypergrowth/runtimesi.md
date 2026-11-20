@@ -5,26 +5,28 @@
 
 ### Company case
 
-The strongest plausible path is repeatable direct sales to robot builders and deployers that regularly change manipulation tasks. The memo records a direct early-access signup and a reusable skill library with physical verification records for some components. Runtime describes a policy that searches for actions in simulation and updates the scene from physical feedback. It reports experiments on rope threading and egg grasping, with trial counts and success rates undisclosed. (*The Idea*, *Defensibility*, *Market & Traction*)
+Assuming strong product-market fit, Runtime’s strongest path is to sell its simulation-based policy to robot builders that repeatedly adapt manipulation tasks. Runtime describes a loop that reconstructs a scene, searches for actions in simulation, and updates the simulation from physical feedback. RoboSkillHub documents reusable manipulation components and identifies which have been verified on hardware. The same task recurs wherever builders change what their robots manipulate. Component reuse makes a cross-market product plausible, with the adaptation needed across robot stacks still unknown. (The Idea, Defensibility)
 
-The investment scenario assumes Runtime can meet live control requirements and reuse its integration across similar robot stacks. If so, a software license could save buyers repeated teleoperation and fine-tuning as tasks change. The job plausibly travels across markets, while the work required to support a second market remains unmeasured. The memo leaves buyer commitment, activation, repeat use, and marginal costs unverified for the November policy. The earlier Lambda pilots were for data-center automation. (*The Idea*, *Market & Traction*, *Key Risks*)
+The memo documents direct early-access signup, and Runtime says access opens in January. Setup, first use, and payment remain unverified. The November 4 policy launch and 69 Launch YC votes by November 17 show attention. The current product’s revenue status and paid adoption remain unknown, and the earlier data-center pilots involved a different product. (The Idea, Market & Traction, Key Facts)
+
+If builders rely on the policy for recurring task changes, it could become part of their control stack and support renewals. In a hypothetical per-robot license model, adding robots would grow an existing account’s bill. Incremental contribution would depend on license revenue per deployment after planning compute, integration, and support. Pricing, compute per workload, and support effort remain unknown, so the memo supports neither an expansion rate nor a contribution estimate. (The Idea, Key Risks)
 
 ### Countercase
 
-Onboarding is the first likely bottleneck even if buyers value the policy. Differences in robot hardware and physical environments could require custom integration and validation for each deployment, while simulation search adds computation to the control loop. Runtime says it is still accelerating that loop for live operation. If those burdens recur with each customer or task change, delivery effort could rise in proportion to sales. The structural downside gate remains untriggered because deployment effort and cost are still unmeasured for Runtime. (*Key Risks*)
+Runtime says it is speeding up the planning loop for live operation. It reports rope-threading and egg-grasping experiments without disclosing trial counts or success rates. If errors in scene reconstruction or simulated contact require engineers to recalibrate each installation, integration and support could rise with every deployment. The structural downside gate stays open because the memo leaves the amount of required site work and its effect on contribution unresolved. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
+| Global buyer demand | 12/25 |
 | Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent buyer in the same segment pay for and go live with the policy using the first buyer’s onboarding process? Move to **Reach out** if deployment records show the second buyer reused the integration with bounded engineering effort and handled a routine task change at the buyer’s required latency without another fine-tuning cycle.
+Can two independent paying robot builders use the same documented setup to run recurring manipulation at production speed with minimal Runtime engineering help? Buyers completing setup themselves, then generating recurring bills that cover measured compute and support costs, would support a move to Reach out if the resulting score reaches 65 and confidence reaches Medium. Evidence that bespoke work is unavoidable and makes faster growth economically infeasible would change the action to Pass.

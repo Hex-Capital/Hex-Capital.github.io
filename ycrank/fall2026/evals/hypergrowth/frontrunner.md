@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Channel-led or repeatable sales** is the strongest path. The likely first buyer is a GTM engineering or revenue operations team that repeatedly updates lead qualification and outbound targeting. Frontrunner connects CRM, email, calendar, product, and call data in a shared graph that agents use to research accounts, route leads, and run campaigns. If buyers in a second market use compatible tools and similar qualification rules, the same product could serve them by adapting playbooks and configurations. Buyer geography and paid cross-market adoption are unverified. (The Idea, Key Risks)
+Conditional on strong product-market fit, Frontrunner’s strongest path is a repeatable rollout to GTM engineering and revenue operations teams. Its shared graph connects CRM, email, calendar, product and call data for recurring account research, lead routing and outbound. Those jobs plausibly recur across markets, and the graph and API-based integrations give Frontrunner a reusable product core. How much connector and outbound workflow adaptation each market would require remains uncertain. (The Idea, Key Risks)
 
-The memo documents a live-demo intake route. Foresight Health’s CEO reports booking seven meetings within 48 hours of onboarding, a concrete early fit signal for signal-based outbound. Frontrunner separately reports acting on more than 100 signal-based opportunities daily. The memo leaves the path from demo to payment, the steps required to go live, and account-level repeat use or paid expansion unresolved. (The Idea, Market & Traction, Key Facts)
+Customer-specific playbooks and accumulated sales outcomes could make the product harder to replace. Usage could expand as teams put more workflows on the graph, but organization-specific billing terms leave renewals and expansion revenue unverified. Foresight Health’s CEO reported seven meetings in 48 hours after onboarding, and Frontrunner reported processing more than 100 signal-based opportunities daily. These are customer outcome and usage signals. The memo gives no paid launch date, realized revenue or paying-customer growth with which to assess the three-person team’s commercial pace. (Defensibility, The Idea, Market & Traction, Frontrunner)
+
+Under a reusable rollout scenario, incremental contribution would be the account fee less attributable sales, setup, agent compute, API and support costs. Reusing playbooks could reduce setup labor, while record rechecks could increase cost per run. Account pricing and representative deployment costs are unknown, leaving the direction of contribution uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Even with strong fit, onboarding and delivery could be the first link to break. Frontrunner builds customer-specific playbooks and configurations. Its simulations surfaced stale prospect data and early agent stops, which could add oversight and support as deployments grow. The memo supplies no marginal cost or rollout-effort measurements to establish whether configuration work is reusable or must be repeated for each buyer. That makes a handoff the deciding test for Watch. The structural downside gate requires affirmative evidence that the delivery burden scales in proportion to revenue with no credible way to improve it. (Defensibility, Key Risks)
+The live-demo route, organization-specific agreements and Frontrunner-built configurations point to a sales-led motion. If typical buyers need hands-on configuration and ongoing intervention to manage stale data or incomplete agent runs, labor could rise with each account. Third-party API dependencies could add rollout work across markets. The structural downside gate stays open because the memo leaves both the amount of required labor and the extent of market-specific rebuilding unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 5/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder take two independent GTM or revenue operations teams from the live-demo route to paid outbound use with the same onboarding playbook? Move to Reach out if rollout records show bounded setup and support effort and both teams keep using the workflow through their next routine targeting change.
+Can typical revenue operations teams in multiple markets reach paid production using the same integrations and onboarding flow, with little hands-on help and positive incremental contribution? A dated cohort showing paid activations, time to first value, setup and support hours, and workload costs against collected fees would answer it. Repeatable results would support Reach out if they raise the score to at least 65 and confidence to Medium or High. Evidence of substantial market-by-market rebuilding or unavoidable account labor that makes faster growth uneconomic would trigger Pass.

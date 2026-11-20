@@ -5,26 +5,26 @@
 
 ### Company case
 
-Repeatable direct sales is Hundred’s strongest path. The target buyer is the receiving quality team at an electronics manufacturer or contract manufacturer. The recurring job is to catch defective precision parts before assembly. Hundred says its controlled-light benchtop station scans entire shipping trays and calibrates from one known-good part. That setup makes the same receiving workflow credible across markets if factories can use the same station with local reference parts and acceptance criteria. (*The Idea*, *Defensibility*)
+Hundred’s strongest path is to sell a standard benchtop station to electronics factories and contract manufacturers for incoming-parts inspection. The company says its enclosed station uses controlled lighting to scan whole shipping trays. Assuming strong product-market fit, the same station could serve the same receiving workflow across markets, with qualification for local parts and defect tolerances. The documented acquisition route is a launch and a website form offering founder help with defect priorities. Single-reference calibration gives buyers a reusable setup step, while purchasing and deployment with minimal founder help remain unverified. (*The Idea*, *Defensibility*)
 
-The memo records a public launch and a website form offering direct work with the founders. It documents no buyer-funded test, paid activation, or repeat production use. If Hundred sells or leases stations, additional receiving sites could generate incremental revenue. The first likely bottleneck is commissioning each station for a new factory’s part mix without recurring founder work. Station pricing, hardware costs, and rollout effort are unmeasured in the memo. (*The Idea*, *Market & Traction*, *Key Facts*)
+Each incoming shipment creates another inspection job. Hundred documents retaining a photo of every inspected part, which could make the station more valuable for tracing failures over time. A station sale or lease is a scenario assumption. A lease could generate recurring revenue, and customers could spend more by adding stations, but the memo establishes neither pricing nor paid expansion. The November 3 public launch establishes timing. Commercial traction and pre-revenue status are both unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Reflective finishes or acceptable variation could cause false rejects, while scanning and quarantine could slow receiving. If factories need founder-led tuning for each part family and operators must recheck frequent rejects, each deployment could add substantial delivery labor while eroding the buyer’s benefit. The memo gives no production error rates or sustained throughput measurements. The structural downside gate remains untriggered because the memo does not establish that this burden persists across deployments. (*Key Risks*)
+Acceptable variation in reflective parts could cause false rejects, and slow scanning or quarantine could bottleneck receiving. If those problems require substantial tuning at each site, setup labor and additional stations could make expansion costly. In a sale or lease scenario, contribution per station would be revenue less hardware, shipping, attributable sales and setup labor, and support over the same period. The memo gives no measured basis for estimating that contribution. The structural gate stays open because these are plausible risks and the memo leaves their severity unresolved. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 17/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent electronics factory run a buyer-funded pilot on routine incoming shipments using a standard setup that its own staff can repeat? Move to **Reach out** if the pilot meets the factory’s agreed detection, false-reject, and throughput thresholds across its normal part mix, with measured setup and support effort and no recurring founder tuning.
+Can Hundred repeat a paid production rollout of the same station across independent factories, including one abroad? Move to Reach out if dated invoices and deployment records show growing paid adoption, an existing customer paying to add stations under a recurring plan, and factory staff meeting throughput and defect tolerances with minimal founder help and healthy contribution after deployment and support. If each factory requires bespoke work that makes additional deployments uneconomic, move to Pass.

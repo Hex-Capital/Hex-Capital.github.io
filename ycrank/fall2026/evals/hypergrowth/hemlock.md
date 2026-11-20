@@ -5,26 +5,28 @@
 
 ### Company case
 
-The strongest path is repeatable direct sales to robotics foundation-model teams training force-sensitive manipulation. Hemlock solicits inquiries and referrals, offers samples by email, and shows first-person video with synchronized contact, hand-pose, and depth overlays. Hemlock reports that adding force data raised egg pick-and-place success from 10% to 100% and lightbulb-screwing success from 30% to 80%. The samples show what a buyer could evaluate. The reported benchmarks suggest a training benefit across two tasks and models, with buyer-side results still unverified. (The Idea, Defensibility, Market & Traction)
+Hemlock’s strongest hypergrowth path is to license the same force-annotated datasets to multiple robotics labs training manipulation models. Assuming strong product-market fit for force-sensitive tasks, an existing dataset could serve labs in different countries without rebuilding the capture product for each market. Hemlock shows synchronized video with contact, hand-pose, and depth overlays. It reports that adding force data raised egg-placement success from 10% to 100% and lightbulb-screwing success from 30% to 80% in its tests. Those results support the training use case, while transfer across buyers’ tasks and robot hands remains uncertain. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-If those gains transfer to buyers’ own tasks and labs can ingest a common data format, Hemlock could sell the same type of dataset across markets and win follow-on orders as labs add manipulation tasks. The samples and two benchmark workflows support portability at the low end of the 15–18 band. The first link likely to break is converting a sample into a paid dataset that meets a lab’s acceptance criteria through a process Hemlock can repeat. The memo leaves buyer commitment, paid activation, repeat orders, and marginal collection costs unobserved, so those four dimensions use their defaults. (The Idea, Market & Traction, Key Facts)
+The documented buyer path runs through inquiries, referrals, and samples shared by email. The samples give Hemlock a reusable sales asset, while purchase and onboarding remain unverified. Repeat licensing is a scenario assumption. The memo shows neither recurring billing nor a way for existing buyers to expand spend, and it gives no usable evidence of realized sales or paying-customer growth after the October 27 launch. (The Idea, Market & Traction, Key Facts)
+
+In the licensing scenario, incremental contribution is the license fee less buyer acquisition, onboarding, data delivery, and support. If a buyer requires fresh data, the sale also has to cover worker time, equipment, data processing, and any calibration required. Repeated sales of the same dataset would spread its original collection cost across buyers. The memo gives no prices or measured costs to establish that this works. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-Hemlock may end up selling bespoke data collection. The benchmark gains could vary by task and robot hand, and published wrist-EMG work cited in the memo used per-worker calibration. If each order requires fresh capture, calibration, and quality checks, delivery effort could rise in proportion to sales. The calibration evidence comes from another system, and Hemlock’s own rollout costs are unknown. The structural downside gate therefore stays open for diligence. (Key Risks, Defensibility)
+The force signal may be valuable chiefly in collections tailored to each buyer’s tasks and robot hands. Hemlock’s reported gains cover two tasks, and the memo cites per-worker calibration in a related wrist-EMG method, leaving Hemlock’s own calibration burden uncertain. If each sale requires a staffed collection, delivery costs could rise with revenue and erase the advantage of licensing a shared library. The structural downside gate stays open because the memo leaves the need for bespoke collection and its effect on contribution unresolved. (Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 16/25 |
+| Repeatable acquisition and onboarding | 5/25 |
+| Retention economics | 7/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent robotics lab go from an emailed sample to a paid dataset that meets a training-performance threshold agreed in advance on one of its own tasks? A successful pilot using the standard data format, with collection and calibration effort documented and bounded relative to the price, would move the action to Reach out.
+Can a second independent robotics lab buy and use an existing Hemlock dataset for a production-relevant task without commissioning new collection? A paid reuse deployment with a measured training gain and positive incremental contribution would support rescoring for Reach out if the score reaches 65 and confidence reaches Medium. Evidence that ordinary buyers require bespoke collection and that its cost makes faster growth infeasible without a credible way to reduce it would change the action to Pass.

@@ -5,28 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A data center infrastructure supplier could buy Nines’ fiber-patching robots and control software to shorten GPU rack commissioning across customer sites. Nines says technicians match, insert, and verify thousands of fiber connections per rack. Ownership could make sense if control of the software and deployment process lets the buyer roll out automation faster or at lower cost than building or licensing it. The memo gives no measured commissioning savings, buyer interest, or transaction prices that support a realizable sale range. (The Idea, Defensibility)
+Nines’ strongest path is a strategic sale to a data center equipment or robotics supplier. Nines says manual fiber patching slows rack commissioning and is developing robots to insert and verify connections on site. A supplier could acquire the system to offer faster commissioning if it delivers repeatable labor savings and reliable connections across rack formats. The memo records a public launch and a reported $125,000 YC seed entry. Nines identifies its published inspection sequence as a simulation. The milestone is a paid production pilot that measures commissioning time, labor, and connection errors across rack formats. Pilot cost and available runway remain unknown. (The Idea, Market & Traction, Key Risks)
 
-A relevant seed milestone is a funded on-site pilot that measures labor hours per rack, successful connections, manual interventions, and integration cost across rack formats. The memo records a public launch and a reported $125,000 seed entry. Nines identifies its published inspection sequence as a simulation. The CTO’s robotics and production inference experience makes a pilot plausible, while pilot cost, runway, and funding remain open. The memo provides no usable evidence on transferable rights. It also gives no basis to underwrite a sponsor buyout, an eligible secondary, an IPO and resale, or a company-funded payout. (Market & Traction, Founders & Team, Key Risks, Key Facts)
+With investor terms unverified, the benchmark is a $500,000 check at a $10 million post-money valuation, diluted from 5% to 3% with no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The sale scenarios below are illustrative. Both assume an all-cash close within eight years, a sale of the holder’s full stake, eligibility to participate, and a pro rata waterfall with no additional senior claims.
 
-**Illustrative proceeds.** With actual investor terms unavailable, assume a $500,000 check at $10 million post-money, 5% initial ownership diluted to 3%, no follow-ons, and a 5× gross cash target within eight years. On a simple pro rata basis before investor taxes, the $2.5 million target requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, with $5 million of illustrative net debt, the hurdle is $88.3 million of enterprise value. A $25 million sale in year eight returns $600,000 gross (1.2×), and a $100 million sale returns $2.85 million gross (5.7×). Both are sensitivities. If rack-specific integration stalls growth, buyer interest fails to emerge, public scale stays out of reach, and Nines reinvests all available cash, the holder realizes $0 over eight years and retains the shares. (Key Risks, Key Facts)
+| Scenario | Enterprise value to distributable equity | Holder cash |
+|---|---|---|
+| Modest sale | $40 million less $5 million in assumed net debt and deal adjustments = $35 million | $1.05 million (2.1×) |
+| Strong sale | $100 million less $10 million in assumed net debt and deal adjustments = $90 million | $2.70 million (5.4×) |
+| Prolonged private | Continued operation with cash reinvested | $0 realized within eight years |
+
+The strong case clears the objective by $200,000. About $6.7 million in additional deductions from the pro rata pool would erase that cushion. Buyer pricing, transfer rights, and closing conditions remain unverified. The memo provides no evidence of an independent route to holder liquidity. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A buyer could build overlapping capability or contract for it. The memo records Microsoft Research’s rack-side transceiver prototype and Watney’s claim of hyperscaler deployments. It also identifies rack-specific integration as a potential drag on rollout. If each new rack format requires substantial custom work, a buyer could get most of the benefit through a supplier contract with less commitment. That weakens the ownership case. The evidence leaves both a structural block and a materially inadequate sale price unestablished, so the Pass gate stays open. (Defensibility, Market & Traction, Key Risks)
+A supplier could build comparable automation or work with another vendor. The memo cites Microsoft Research’s overlapping transceiver prototype and Watney’s reported hyperscaler deployments. Nines’ proposed rack-specific configurations could also consume enough integration labor to reduce the savings an acquirer would pay for. The evidence supports a credible build-or-partner alternative, while a ready substitute for Nines’ commissioning workflow and a sub-hurdle ceiling on sale proceeds remain unverified. Neither Pass gate is triggered. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 7/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a funded production pilot show repeatable commissioning savings across rack formats that a strategic buyer values enough to support an acquisition near or above the illustrative $88.3 million enterprise-value hurdle? Operator-validated results and a buyer-backed estimate that accounts for rollout costs and the build or license alternatives would move the action to **Reach out**.
+Can a paid production pilot show repeatable savings large enough to support a strategic acquisition above the holder’s proceeds hurdle? Operator-verified reductions in commissioning time and all-in labor cost across rack formats, while maintaining connection accuracy, would move the action to Reach out if the measured economics support a buyer’s case for paying above the hurdle.

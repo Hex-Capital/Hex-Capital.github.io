@@ -1,32 +1,32 @@
 ﻿# Nodus Compute -- Hypergrowth Evaluation
 
-**Action:** Watch  
-**Evidence confidence:** Low
+**Action:** Watch
+**Evidence confidence:** Medium
 
 ### Company case
 
-Usage-based expansion is the strongest path. The initial buyer is an AI engineering team that repeatedly runs checkpointable training jobs. Nodus documents how it routes jobs to compatible GPUs, prioritizes customers’ own machines, and lets eligible jobs recover after interruption. Its published prices establish the billing unit, the GPU-hour. I infer that the same workflow could serve teams in other markets where compatible capacity and acceptable data placement are available. Paid adoption across markets remains unverified. (*The Idea*, *Key Risks*)
+The strongest path is self-serve GPU execution for AI developers running recurring jobs that can checkpoint or safely retry. The memo documents console signup, a CLI, a Python SDK, and hourly GPU pricing. The same interfaces and workload requirements support serving developers across markets with limited adaptation. The public launch gives developers a way to discover the product, while the path from signup to a paid production job remains unverified. (The Idea, Key Risks)
 
-The founders report that more than 200 teams joined after the October launch, and Nodus lists named users. The documented console and CLI provide a route to submit a job. The first unproven link is whether independent teams complete a paid workload through that route. The memo also leaves buyer budget commitments, recurring workflow changes, and repeat billed usage unverified. Those gaps drive the Low confidence rating. (*The Idea*, *Market & Traction*)
+Training, reinforcement learning, and inference can generate recurring GPU demand. If teams make Nodus part of those workflows, hourly pricing gives them a direct way to spend more as workloads grow. Whether that expansion offsets churn remains uncertain. The founders report that more than 200 teams joined in the weeks after the October launch, with a two-person team. The memo lists named users and gives no realized revenue, paying-customer counts, or billable production volume, so commercial traction receives the absent-evidence score. (The Idea, Market & Traction, Key Facts)
 
-In a favorable scenario, teams add paid GPU-hours on idle hosts after a successful first job. Expansion would improve contribution if the added revenue covers capacity, recovery, and support costs with a growing amount left over per completed workload. The published rates establish possible revenue per GPU-hour, and the reported benchmarks show specific technical capabilities. Production costs for the next workload remain unmeasured. (*The Idea*, *Defensibility*, *Key Risks*)
+At the listed $2.60 per H100 SXM hour, incremental contribution would be the realized hourly charge less any GPU supply payments, infrastructure and recovery costs, and attributable acquisition, onboarding, and support costs per billable hour. If eligible idle hosts can absorb additional jobs reliably, Nodus could add sellable hours with fewer dedicated capacity commitments. Host terms and production operating costs are unknown, so the direction and size of contribution remain uncertain. (The Idea, Key Risks)
 
 ### Countercase
 
-Host owners can reclaim GPUs, leaving jobs waiting when replacement capacity is unavailable. Community hosts can inspect job data, which limits shared-pool use for confidential workloads. If interruptions consume the savings or buyers need private capacity, early signups could yield little recurring paid usage on shared hosts. The pooling benchmark used synthetic tenants and replayed traffic on one node. The structural downside gate stays open because the memo leaves these constraints testable for checkpointable, non-confidential workloads. (*Market & Traction*, *Key Risks*)
+Owners can reclaim lent GPUs, leaving jobs waiting when replacement capacity is scarce. Community hosts can inspect job data, which can push sensitive workloads into private pools. The pooling benchmark used synthetic tenants on one node. If production buyers routinely need dedicated capacity or founder-led setup, the documented developer entry point may lead to a narrower, more expensive business. The structural gate clears because the memo shows a viable class of retryable workloads and leaves open whether dedicated capacity or hands-on work is unavoidable for those buyers. (The Idea, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 20/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 15/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 43/100** (Pass)
+**Total Score: 64/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an early cohort of independent AI teams use the standard console or CLI workflow to complete a first paid checkpointable job, then add billed GPU-hours at its normal workload cadence? Move to Reach out if job logs and invoices show that pattern and the additional usage contributes positively after host capacity, retries, and support costs. (*The Idea*, *Market & Traction*, *Key Risks*)
+Can multiple teams acquired through the public developer flow independently pay for and repeatedly run production jobs on lent GPUs at positive incremental contribution? Matched signup, billing, and job records across successive periods, paired with attributable supply and operating costs, would establish that milestone and move the action to Reach out.

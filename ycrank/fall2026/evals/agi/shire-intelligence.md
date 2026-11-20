@@ -1,32 +1,30 @@
 ﻿# Shire Intelligence -- AGI Evaluation
 
-**Action:** Watch
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-**Path B — New Economies.** During busy shifts, managers scan the floor and staff notice waiting guests and tables that need clearing as they handle other duties. Shire uses existing cameras to track table state, alert staff, and guide seating. The market-opening hypothesis is that restaurants that could never justify a dedicated floor monitor can now afford continuous coverage. Shire reports a 12% average reduction in table-turn time, but the memo gives no comparison baseline or measurement window. The reported result suggests a throughput benefit and leaves labor savings and the newly served segment unverified. (The Idea, Market & Traction, Key Risks)
+New Economies is the strongest path. Restaurants currently use manager and staff time to scan the floor and spot waiting guests or tables ready to clear. Shire uses existing CCTV to detect those events and route alerts into service and seating workflows. Shire reports a 12% average reduction in table-turn time, with the comparison baseline and measurement window undisclosed. Faster turns suggest an operating benefit. The change in staff time and cost per correctly handled floor event remains unmeasured. (The Idea, Market & Traction, Key Risks)
 
-**Scenario assumption:** Existing cameras provide adequate coverage. Compare the two workflows at the same service standard using labor cost per correctly identified and promptly handled floor event. The manual baseline includes floor checks and coordination. Shire’s workflow includes alert review, retries, missed-event recovery, and the staff time needed to respond. Full delivery cost also includes software, camera and POS setup, video governance, and support. One restaurant is the expansion unit. Reusing cameras offers a plausible rollout model, while quote-based pricing and unmeasured deployment costs leave contribution per location unknown. Under model parity, the reason to keep paying Shire would have to show up in how reliably its alerts lead to timely staff action through the seating and POS workflows. The memo leaves that preference untested. (The Idea, Defensibility, Key Risks)
+The investment scenario assumes smaller full-service restaurants that cannot justify dedicated floor monitoring would pay for continuous coverage if Shire reduces the cost per correctly handled event. The comparison would include staff time spent scanning and following up today versus staff time spent responding to alerts, confirming ambiguous events, and catching misses with Shire, plus the cost of running the software. Shire reports 13 live restaurants at launch. Pricing is quote-based, and payment and renewal for floor intelligence remain unverified. The documented prototype and the founders’ restaurant and machine-learning experience support seed-stage execution. Existing cameras could limit installation costs where coverage is adequate. Per-location contribution still depends on onboarding, POS integration, inference, and support costs. (The Idea, Market & Traction, Founders & Team, Key Risks)
 
 ### Countercase
 
-Shire could help the same restaurants turn tables faster while leaving floor-checking and exception-handling labor largely intact. Its prototype reported inconsistent classifications. GuardMind and Koca describe camera-based table tracking, and Toast already covers part of the seating workflow through the POS. Shire’s published terms establish a limited license for platform operation, leaving cross-customer training rights unestablished. Together, these facts make substitution plausible and leave both Path B gates open. The memo contains no representative labor comparison or observed switching at functional parity that would close the path. (The Idea, Defensibility, Market & Traction, Key Risks)
+Shire may improve an existing restaurant workflow while leaving the same buyers and use cases in place. GuardMind and Koca describe overlapping camera-based capabilities, and Toast covers part of the seating workflow through its POS. Shire’s integration of camera events with service and seating is a plausible reason for buyer preference. Preference under functional parity and network effects remain untested, and Shire’s published terms leave cross-customer training rights unestablished. The competitive overlap raises substitution risk, while functional parity and easy switching remain unproven. The memo establishes neither required New Economies condition, and the existing camera feeds provide no evidenced scarce complement under Shire’s control. The open conditions are testable, so the action is Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 9/20 |
+| Team and execution | 10/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 40/100** (Pass)
-
-Demand credit comes from the company-reported 13 live restaurants. Paid repeat use of the camera product remains unknown, and the named customer testimonial concerns payment processing. Execution credit comes from the documented prototype and the founders’ restaurant operations and technical experience. (Market & Traction, Defensibility, Founders & Team)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Will independent restaurants that previously went without continuous floor monitoring renew Shire at a commercially viable price after comparing it with their manual workflow and an alternative with equivalent vision capability? A matched busy-shift trial showing lower labor and full delivery cost per timely resolution, followed by paid renewals that favor Shire, would move the action to Reach out. A representative trial showing that exceptions erase the savings or that buyers switch while retaining the same outcome would close Path B and move the action to Pass.
+Will a cohort of independent restaurants that previously could not justify continuous floor monitoring renew Shire at a price that covers per-site delivery costs when offered a comparably capable alternative at a similar price? A matched-shift comparison showing materially lower cost per correctly handled floor event, including staff exceptions, followed by paid renewals after buyers trial both products, would move the action to Reach out. If the trial shows the cost reduction fails to open the use case or buyers readily switch at parity, move to Pass.

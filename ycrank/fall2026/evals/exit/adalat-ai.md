@@ -5,30 +5,28 @@
 
 ### Company case
 
-Strategic acquisition is the strongest route. A court technology vendor could buy Adalat AI’s multilingual transcription and case workflows to gain control of integrations and speed up court deployments, provided the relevant rights transfer. Kerala’s High Court designated Adalat AI as the primary tool for recording witness depositions and requires approval for substitutes. Adalat AI reports about 1,100 monthly active users and more than 25,600 hours transcribed in Kerala in the mandate’s first year. Tyler Technologies’ approximately $212.5 million purchase of For The Record shows that a strategic buyer has paid for an adjacent courtroom recording business. The memo leaves Adalat AI’s buyer economics and realizable price unresolved. (Defensibility, Market & Traction)
+The strongest route is a strategic acquisition of Adalat AI’s courtroom workflow software by a court technology vendor such as Tyler Technologies. Tyler’s approximately $212.5 million purchase of For The Record shows that it has paid for courtroom technology. Adalat AI’s Indian-language transcription and integration into court workflows could save a buyer localization and deployment work. Kerala’s High Court designated Adalat AI as the primary tool for recording trial-court depositions, and a magistrate reported hearing five to six witnesses daily with transcription, up from two to three. The testimonial suggests a workflow benefit, with the size and repeatability of that benefit still uncertain. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone would be a signed, paid statewide production rollout with measured usage and delivery costs. Existing rollouts and $975,000 in disclosed grants and an award support the ability to deploy. The memo leaves the cost and funding of commercial conversion open. Pro bono deployments provide limited support for the cash generation needed for a sponsor buyout or company-funded payout. The memo supplies no evidence of an eligible secondary or a path to public resale. (The Idea, Market & Traction, Key Facts)
+The current structure triggers the structural-block gate. Legsys AI Technology Foundation operates as a grant-funded nonprofit, and the reviewed court agreements specify pro bono deployments. An asset sale could generate proceeds for the foundation, but the memo identifies no investable entity or enforceable right for a holder to receive those proceeds. The relevant milestone is a commercial deployment through an entity with transferable product rights and an enforceable investor claim. Documented grants and company-reported usage support continued rollout, while the capital and court permissions needed for that milestone remain unverified. The memo supplies no independent route to holder liquidity. (The Idea, Defensibility, Market & Traction)
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, assuming no follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. At 3%, that requires $83.3 million of distributable equity, compared with $125 million at 2% and $62.5 million at 4%. With illustrative net debt of $5 million, the 3% hurdle rises to $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×) and a $100 million sale yields $2.85 million gross (5.7×), assuming pro rata distribution and no further deductions for fees or senior claims. Both scenarios require an eligible equity claim. If adoption plateaus, buyers stay away, public-market scale remains out of reach, and available cash is reinvested without a secondary or payout, the holder realizes $0 over eight years and retains the shares. Any wind-down payout would depend on the residual after obligations and preferences and the holder’s right to it. The memo provides no basis to size that residual.
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, requiring about $83.3 million in distributable equity value at 3%. In illustrative all-cash sales within that horizon, assuming the holder is eligible to sell its entire stake and there is no debt, no deal adjustment, and no senior claim, a modest $50 million enterprise value yields $1.5 million to the holder and a strong $100 million sale yields $3 million. If debt, deal adjustments, or senior claims absorb $20 million in the strong case, the remaining $80 million yields $2.4 million. These prices are sensitivity assumptions. The memo provides no commercial contract economics to support a price range for Adalat AI. Continued private operation with cash reinvested yields zero realized proceeds, and the documented nonprofit structure supplies no evidenced holder payout even in the strong sale scenario. (The Idea, Market & Traction, Key Facts)
 
 ### Countercase
 
-The strongest case for outreach is that mandated adoption could make the deployed workflows worth owning. One magistrate reported hearing five to six witnesses daily with transcription, up from two to three. Open Koyal models and TERES’s court-approved transcription give buyers alternatives for the speech layer, so the acquisition case depends on the value and transferability of the integrations and court relationships. (Defensibility, Market & Traction)
-
-The Pass gate applies to the operating structure documented in the memo. Legsys AI Technology Foundation operates as a grant-funded nonprofit, and the reviewed court agreements specify pro bono deployments. The memo identifies no shareholder-bearing entity with rights to the deployed platform or its sale proceeds. A buyer could pay for assets while the modeled investor receives no cash. The nonprofit structure is documented, while ownership of the relevant assets and any separate investor rights remain unresolved. (The Idea, Key Facts)
+Adalat AI reports more than 6,800 courtrooms, 12 formal High Court partnerships, and roughly 1,100 monthly active users in Kerala. A buyer could value that footprint if the software and court relationships can transfer to a commercial entity. The adjacent acquisition makes that possibility worth taking seriously. The footprint supports buyer interest as an inference, while the ability to transfer the deployments and pay an investor remains unverified. The structural-block gate still applies to the documented structure. (Defensibility, Market & Traction)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
-| Plausible investor proceeds | 3/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 3/10 |
+| Counterparty rationale or source of cash | 19/30 |
+| Plausible investor proceeds | 4/30 |
+| Milestones and capital needed | 8/20 |
+| Transaction feasibility | 2/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can an outside investor obtain an enforceable equity claim on the proceeds from a sale of the deployed court platform? Entity and capitalization documents, together with IP ownership and court agreement terms, would establish which entity can sell the assets and whether the investor shares in the proceeds. Confirmation would move the action to Watch while a supported sale price is established.
+Can a Fall 2026 investor acquire an enforceable right to sale proceeds from an entity that can transfer the core software and relevant court deployments? Executed ownership and investor-rights documents, together with the applicable court agreement terms or consents, would answer it. A documented route would change the action to Watch while buyer pricing is validated.

@@ -1,34 +1,40 @@
 ﻿# Armorer Labs -- Exit Evaluation
 
-**Action:** Watch  
+**Action:** Watch
 **Evidence confidence:** Low
 
 ### Company case
 
-Strategic acquisition is the strongest path. An enterprise security vendor could buy Armorer to add workflow-tested remediation to its agent security suite. Ownership could make sense if Armorer measurably reduces the time customers spend fixing security issues and the buyer can distribute that capability across its customer base at lower cost than building it. The memo records Check Point’s acquisition of Lakera, which establishes that a strategic buyer has paid to own adjacent technology. A Just Eat Takeaway engineering director credited Armorer with resolving a security problem. Armorer separately claims 98% accuracy and 1.9 ms median latency in its own 50-document benchmark. The testimonial supports a specific customer outcome, while the benchmark leaves production performance and buyer economics open. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest path is a strategic sale to an enterprise security platform. Armorer describes a workflow that tests proposed fixes against existing agent workflows before engineers approve them. A buyer could use that capability to reduce remediation work for customers and add a reason to buy or renew its broader security suite. The Just Eat Takeaway testimonial credits Armorer with resolving a security problem, and Check Point’s acquisition of Lakera shows that a platform has bought an adjacent capability. The testimonial leaves repeatability and savings unmeasured, and the acquisition establishes precedent for the category. (The Idea, Market & Traction)
 
-A relevant milestone is paid production use across multiple regulated customers, with measured reductions in remediation time and evidence that fixes preserve existing workflows. The October enterprise launch shows operating progress. The memo leaves paid deployment status, test funding, burn, and runway open. It also leaves core IP ownership and customer-contract transfer rights unverified. The secondary, sponsor buyout, IPO, and payout routes lack evidence of eligible share demand, cash generation, public-market readiness, or distributable cash. (The Idea, Market & Traction, Key Facts)
+The seed-stage milestone is repeatable, paid production deployments that show shorter remediation times than customers’ existing controls while preserving critical workflows. The testimonial and the founders’ prior work building and evaluating AI security systems support the plausibility of that test. Reaching it requires integration and customer support capacity. Armorer’s runway and incremental capital needs remain unknown. The published SDK and customer-hosted deployment option suggest a product a buyer could integrate. IP ownership and customer contract assignment remain unverified. (Market & Traction, Founders & Team, Key Risks, Key Facts)
 
-Under the shared scenario, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case needs about $88.3 million in enterprise value. Armorer’s actual terms, net debt, fees, and senior claims are unknown. The memo gives no price for the adjacent acquisition and no buyer economics that support a realizable price range for Armorer. (Market & Traction, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. The holder needs $2.5 million in cash within eight years for a 5× return, which requires about $83.3 million in distributable equity value at 3% ownership. The sale scenarios below assume the eligible holder sells their full stake for cash within eight years, receives 3% of the equity value after net debt and closing adjustments, and faces no senior preference, escrow, or contingent payment.
 
-At year eight, a $25 million sale yields $600,000 gross, or 1.2×, and a $100 million sale yields $2.85 million gross, or 5.7×, using the illustrative debt and a 3% pro rata share before investor taxes. If growth plateaus, strategic buyers stay away, public-market scale remains out of reach, and available cash goes back into the business, continued private operation yields $0 realized and the holder retains the shares. Any wind-down recovery would be limited to the residual after obligations and preferences, which the memo leaves unquantified.
+| Scenario | Assumed proceeds bridge | Cash to holder |
+|---|---|---:|
+| Modest sale | $50M enterprise value less $5M in net debt and closing adjustments leaves $45M in equity value | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $10M in net debt and closing adjustments leaves $90M in equity value | $2.70M (5.4×) |
+| Prolonged private | Cash is reinvested throughout the eight-year period | $0 |
+
+The strong scenario clears the hurdle narrowly. If 90% of the holder’s share is paid in cash within eight years, realized proceeds fall to $2.43 million. Both sale prices are illustrative assumptions. The memo supplies no transaction price or quantified revenue or buyer savings to support a realizable price range, and it supplies no evidence of an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A platform vendor may already have enough coverage to build, license, or partner for the rest. Check Point bundles discovery, testing, and runtime controls, and NVIDIA offers open-source runtime enforcement. SnapLogic’s reported collaboration discussions support a partnership case. These alternatives weaken the reason to buy Armorer outright, especially while its remediation advantage remains unmeasured in production. Whether substitution forecloses a sale or caps proceeds below the holder’s target remains open, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+A platform could find its existing bundle sufficient. Check Point already combines agent discovery, testing, and runtime controls, and NVIDIA offers open-source runtime policy enforcement. Armorer’s company-run comparison covered 50 documents and leaves the production advantage of its remediation workflow unverified. That creates a specific evidence gap for Watch. The memo leaves open whether a buyer would value that workflow enough to clear the proceeds hurdle. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 18/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-What acquisition price could a security platform justify from Armorer’s incremental remediation savings over its existing controls? Buyer-side economics grounded in measured results from paid production deployments would move the action to Reach out if they supported a sale range that clears the holder’s $2.5 million cash target within eight years.
+What would a security platform pay for Armorer’s remediation workflow after seeing it outperform bundled controls in paid production deployments? A buyer’s build-versus-buy assessment grounded in measured remediation savings, with a conditional price range that supports at least $2.5 million in holder cash after deal adjustments, would move the action to Reach out.

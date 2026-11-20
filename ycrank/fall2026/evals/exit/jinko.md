@@ -5,19 +5,23 @@
 
 ### Company case
 
-Strategic acquisition is Jinko’s strongest path. A travel platform such as Hopper could pay for Jinko’s budget-led discovery and the ability to turn that discovery into bookings across flights, hotels, and cars. The memo records Hopper’s prior acquisition of the founders’ travel startup, Mowgli. That establishes a relevant precedent. The case for owning Jinko depends on whether its integrations bring recurring, profitable bookings that a buyer would struggle to capture through its own tools or a commercial partnership. (The Idea, Founders & Team)
+The strongest path is a strategic acquisition by a travel booking platform such as Hopper. The memo records Hopper’s acquisition of the founders’ previous travel company and lists Jinko’s live flight and hotel search integration in Exa Connect. Jinko describes a broader workflow that combines budget-led destination discovery with checkout and post-booking servicing across flights, hotels, and cars. A buyer could gain agent distribution and capture incremental booking margin if the workflow generates bookings its own tools would miss. Hopper’s earlier acquisition establishes a precedent, while Jinko’s incremental booking value and Hopper’s interest remain unverified. (The Idea; Market & Traction; Founders & Team)
 
-Exa Connect lists Jinko’s live flight and hotel search. Jinko names Wajo and Pally as collaborators, and a published customer testimonial reports going live with bookings in four hours. Those signals make repeat production bookings a plausible seed-stage milestone. Booking volumes, retention, contribution margins, burn, and runway remain unknown. Jinko reports IATA and ARC accreditations and a French travel-operator registration. The memo supplies no change-of-control terms for the credentials or supplier agreements that support booking. (Market & Traction, Key Facts, Defensibility, Key Risks)
+The operating milestone is repeat paid bookings across multiple production integrations, with measured conversion and positive contribution after search and servicing costs. The API launch and live search integration make that test plausible. A customer testimonial reports reaching live bookings in four hours. The memo leaves sustained volume, realized revenue, and the runway needed to support integrations and servicing through the test unverified. Jinko reports operating through its own travel credentials. Continued access to those credentials and supplier inventory after a change of control remains an open closing condition. (Market & Traction; Key Facts; Defensibility; Key Risks)
 
-**Illustrative proceeds.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. With $5 million of illustrative net debt, the holder needs about $88.3 million in enterprise value at 3% ownership. The hurdle rises to $130 million at 2% and falls to $67.5 million at 4%. The sale scenarios use pro rata allocation before investor taxes. Jinko’s actual ownership terms, debt, fees, and senior claims are unknown.
+Using the benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The eight-year objective is $2.5 million in gross cash, requiring about $83.3 million in distributable equity at 3%. Both sale scenarios assume closing within eight years, an all-cash sale of the entire company with the holder eligible to sell its full stake, $5 million of net debt, $2 million of deal adjustments, and a pro rata waterfall with no senior preference diversion.
 
-- A **$25 million sale** after eight years leaves $20 million of equity proceeds and pays the holder **$600,000 gross (1.2×)**.
-- A **$100 million sale** after eight years leaves $95 million of equity proceeds and pays the holder **$2.85 million gross (5.7×)**. The memo provides no booking economics or transaction price evidence to support that valuation. (Market & Traction, Founders & Team, Key Facts)
-- If booking growth plateaus, buyers stay away, public scale stays out of reach, and Jinko reinvests available cash for eight years, the holder realizes **$0** and retains the shares. A sponsor buyout lacks cash-flow and financing evidence. A secondary lacks eligible demand, an IPO lacks scale and reporting evidence, and dividends or buybacks lack evidence of distributable cash. (Market & Traction, Key Facts)
+| Scenario | Enterprise value to distributable equity | Gross holder cash |
+|----------|------------------------------------------|-------------------|
+| Modest sale | $50M less $7M = $43M | $1.29M (2.58×) |
+| Strong sale | $100M less $7M = $93M | $2.79M (5.58×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share sale or payout | $0 |
+
+These are illustrative prices. Even the strong case falls to about $2.33 million at 2.5% ownership. Jinko’s published fees describe how it charges for bookings and search. The memo provides no realized revenue, buyer valuation, or holder terms to support either sale price, and no evidence of an independent route that could pay the holder. (The Idea; Key Facts; Market & Traction)
 
 ### Countercase
 
-Etraveli already offers agents flight search, booking, and servicing through MCP, and Duffel already offers embedded checkout across flights, stays, and cars. Jinko’s integrations could work commercially while giving an acquirer little reason to pay for ownership. That substitution risk is concrete, especially in flights. The memo leaves open whether Jinko’s budget-led discovery attracts enough incremental bookings to justify a purchase. It establishes neither a structural block to a sale nor a realizable price that would leave the holder materially short, so the Pass gate does not apply. (The Idea, Market & Traction, Key Risks)
+A strategic buyer could build agent access on top of its own inventory. Etraveli already offers flight search, booking, and servicing through MCP, and Duffel offers embedded checkout across flights, stays, and cars. That overlap weakens the case for paying an acquisition premium. The open question is whether Jinko’s budget-led discovery and developer distribution produce incremental bookings that those alternatives would miss. The evidence supports Watch because it leaves that gap testable and establishes neither a structural closing block nor a credible proceeds range that stays below the hurdle. (The Idea; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
@@ -25,12 +29,12 @@ Etraveli already offers agents flight search, booking, and servicing through MCP
 |-----------|-------|
 | Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-How much incremental profit could a travel platform capture by owning Jinko’s booking flow? Move to **Reach out** if production data shows repeat bookings across independent integrations with positive contribution after search, fulfillment, and servicing costs, and those results support a buyer valuation that clears the holder’s proceeds hurdle. If those economics remain unverified, stay on **Watch**.
+Can a strategic buyer validate enough incremental booking profit from Jinko’s production integrations to support a purchase price that leaves at least $83.3 million in distributable equity under the benchmark terms? Repeat booking data from multiple integrations, paired with a buyer’s estimate of incremental contribution after search and servicing costs, would answer it. A credible buyer-backed range that clears the hurdle would move the action to Reach out.

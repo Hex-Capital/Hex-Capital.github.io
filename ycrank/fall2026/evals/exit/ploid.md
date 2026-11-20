@@ -5,38 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Ploid’s strongest path. A sales or recruiting platform could pay to own Ploid’s cross-site identity matching and live retrieval if combining them improves customers’ results enough to justify ownership over licensing or building. Ploid’s documented API and listed pricing establish a product a buyer can test. Ploid claims a proprietary index of more than 2 billion people and reports thousands of companies using the product. The founder reports closing clients, with contract values undisclosed. The buyer benefit remains an inference until a production comparison measures it. (The Idea, Defensibility, Market & Traction)
+Ploid’s strongest exit path is a strategic acquisition by an enrichment platform such as Clay. Clay already combines data from multiple providers, and Ploid’s documented API offers profile research and enrichment. Ploid claims a proprietary index of more than 2 billion people and a system that links identities across sites. If those links materially improve the rate of correct, usable matches, owning the system could give Clay more control over data quality and reduce the cost of assembling profiles. That buyer benefit is an inference. The memo provides no measured lift or evidence of acquisition interest. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is a paid production deployment that shows a sustained lift in correctly matched, current profiles at a comparable cost to the platform’s best available integration. The live API and founders’ technical and commercial experience make that test plausible at seed. The memo leaves the test budget, runway, and financing needed to sustain production open. (The Idea, Founders & Team, Key Risks)
+A paid production pilot that measures correct-match lift and cost per usable profile against the buyer’s current providers is a plausible seed-stage milestone. Ploid has launched the product, and a founder reports closing clients without disclosing contract values. A pilot lasting a few months is a scenario assumption. The memo leaves its budget, funding, and the capital needed to scale data coverage and quality unverified. A whole-company stock sale is a plausible structure, with vendor change-of-control terms and the buyer’s ability to carry forward privacy and deletion obligations still open. (Market & Traction, Key Risks)
 
-**Proceeds bridge.** With Ploid’s investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and zero follow-ons. The eight-year target is $2.5 million in gross cash before investor taxes. At 3% ownership, that takes $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of illustrative net debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity value at full pro rata participation. The sale cases below assume an all-cash close within that horizon, $10 million in combined debt and other deal deductions, no preference or other waterfall diversion, and eligibility to sell the entire stake.
 
-| Eight-year scenario | Gross cash to the holder at 3% |
-|---|---:|
-| $25 million enterprise-value sale less $5 million illustrative net debt | $600,000 (1.2×) |
-| $100 million enterprise-value sale less $5 million illustrative net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyer interest fails to emerge, public scale remains out of reach, and available cash is reinvested | $0, with shares still held |
+| Scenario | Enterprise value to distributable equity | Gross cash to holder |
+|---|---|---:|
+| Modest sale | $30M less $10M = $20M | $600,000 (1.2×) |
+| Strong sale | $100M less $10M = $90M | $2.7M (5.4×) |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or payout | $0 |
 
-Both sale scenarios assume full cash payment and simple pro rata allocation after illustrative net debt. Ploid’s actual debt, fees, and senior claims are unverified. In a wind-down, any holder recovery would come from the residual after obligations and preferences. The memo supplies too little information to estimate that residual or support a realizable sale-price range. Listed API prices establish what customers are asked to pay for access. (The Idea, Key Facts)
-
-A sponsor buyout or company-funded payout would require evidence of sustainable cash after reinvestment. A secondary would require demand for this holder’s shares and confirmed sale eligibility. An IPO and subsequent resale would require a credible path to public scale and evidence that the holder could sell. Each remains unevidenced. (Market & Traction, Key Facts)
+These are sensitivity cases. Ploid’s listed subscription prices establish an offering, while realized revenue and buyer economics are undisclosed. The strong case clears the objective by $200,000, so a reduction in the holder’s share of the waterfall or the fraction sold could erase the margin. The memo supplies no independent liquidity route. (Key Facts, Market & Traction)
 
 ### Countercase
 
-A buyer could license overlapping capabilities through existing integrations. Apollo already offers people search through MCP, and Crustdata sells live people data through an API. Those documented alternatives are more direct evidence of what a buyer can source today than Ploid’s reported index size is of a durable performance advantage. Ploid also relies on vendors for some contact data, and a buyer would need to verify continued data access and its ability to honor deletion obligations after closing. The Pass gate remains untriggered because the overlap leaves the value of Ploid’s combined capability unresolved, and the memo establishes neither a transfer restriction nor a supported price ceiling below the holder’s hurdle. (Defensibility, Key Risks)
+A buyer could keep integrating existing providers. Clay already uses multiple providers, Apollo offers people search through MCP, and Crustdata sells live people data by API. Ploid also relies on upstream vendors for some contact information. If Ploid’s cross-site matching delivers little incremental value, a buyer would have limited reason to acquire the company at a price that clears the holder’s hurdle. The overlap supports that countercase, while relative match performance, transferable rights, and a credible price ceiling remain unresolved. The evidence therefore supports Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production deployment show enough sustained improvement in correct, current profile matches to give a strategic buyer an economic reason to acquire Ploid at a price that clears the holder’s hurdle? A benchmark against the buyer’s best licensed alternative, paired with a buyer-validated estimate of the value of ownership, would move the action to **Reach out** if it supports at least $83.3 million of distributable equity at 3% ownership within eight years. A supported price ceiling materially below the applicable hurdle would move the action to **Pass**.
+Can a paid production pilot with an enrichment platform show enough value from owning Ploid’s matching system to support the holder’s $2.5 million cash objective? Buyer-validated gains in correct, usable matches and cost per usable profile, together with a buy-versus-license analysis supporting a price range that clears the hurdle after deal deductions and the waterfall, would move the action to Reach out.

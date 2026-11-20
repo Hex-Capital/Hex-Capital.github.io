@@ -5,30 +5,36 @@
 
 ### Company case
 
-The strongest path is a **strategic acquisition** by a hosted inference provider such as Baseten. Isoquant’s workload-tuning software could help a buyer serve more tokens on the same hardware and meet tighter latency targets. In Isoquant’s own GLM‑5.3‑Flash benchmark, it reports 452 ms median time to first token and 158.9 median output tokens per second, versus 1,320 ms and 41 for Baseten. That establishes a reason to test the software. The case for owning it depends on whether the gains persist across the buyer’s workloads and are faster or cheaper to acquire than to reproduce or license. (The Idea, Defensibility, Market & Traction)
+Isoquant’s strongest path is a strategic acquisition by an inference provider such as Baseten. Isoquant’s own GLM‑5.3‑Flash benchmark reports a median time to first token of 452 ms versus 1,320 ms for Baseten. The acquisition rationale is that Baseten could use Isoquant’s tuning software to serve latency-sensitive workloads more competitively if the gains carry over to its own infrastructure. That buyer benefit is an inference from a company-run benchmark on one model. (The Idea, Market & Traction)
 
-Isoquant reports more than 1.5 trillion tokens served and more than 1,000 customers. Its published pricing establishes a way to charge for usage, while paid volume, retention, and margins remain open. A measurable milestone would be two quarters of recurring paid production workloads showing repeatable reductions in GPU cost at comparable service quality across models and hardware. Reported usage makes that test plausible at seed. Reported financing leaves burn, runway, and the capital needed to complete the test uncertain. The memo leaves ownership and transferability of the tuning software and customer contracts unverified. It documents a written-consent requirement for training on customer content, so the acquisition case gives no value to unrestricted reuse of that content. (Market & Traction, The Idea, Defensibility, Key Risks)
+Isoquant reports serving more than 1.5 trillion tokens and migrating workloads from other providers and self-hosted infrastructure. That usage suggests a way to test the acquisition thesis through repeat paid production deployments. The milestone is to reproduce the gains across several workloads and hardware configurations while measuring GPU costs and customer retention. The memo records early financing entries, with runway and the cost of those tests still unknown. An acquisition centered on the tuning software is plausible, with IP ownership and contract assignment unverified. The published privacy policy requires written consent to train on customer content. The memo leaves independent liquidity routes unevidenced. (Market & Traction, The Idea, Defensibility)
 
-**Proceeds bridge.** With investor terms unknown, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. A simple pro rata allocation before investor taxes requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. A $25 million sale in year eight yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), both after that illustrative debt and before any fees or senior claims. The memo provides neither company-specific adjustments nor buyer economics or transaction evidence that support either price. (Market & Traction, Key Facts)
+Using the rubric’s benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. Isoquant’s company-run banking evaluation reports 91.7% lower inference cost against its baseline. That suggests a possible source of buyer value, with the scale and durability of the savings still unverified. (Market & Traction)
 
-If usage growth plateaus, strategic buyers stay away, public-market scale remains out of reach, and Isoquant reinvests all available cash, the holder realizes $0 over eight years and retains the shares. The memo supplies no independent support for an eligible secondary, a sponsor buyout, a public resale, or a funded payout. (Market & Traction, Key Facts)
+Assume a full cash acquisition closes within eight years, the holder can participate and sell all shares, debt and deal adjustments total $10 million, and the remaining equity proceeds are paid pro rata with no preference diversion, escrow, or earnout.
+
+- **Modest sale.** At $40 million in enterprise value, $30 million reaches equity and the holder receives $900,000, or 1.8×.
+- **Strong sale.** At $100 million in enterprise value, $90 million reaches equity and the holder receives $2.7 million, or 5.4×. At 2.5% ownership, the same sale yields $2.25 million, or 4.5×.
+- **Prolonged private operation.** With cash reinvested throughout the eight-year horizon and no eligible share purchase or distribution, the holder realizes $0.
+
+The sale prices are scenario assumptions. At an illustrative 5× multiple of durable annual net benefit to the buyer, clearing the benchmark after the assumed adjustments would require about $18.7 million in annual benefit. The memo supports testing that threshold and leaves the achievable benefit unresolved.
 
 ### Countercase
 
-Together AI already offers agent-driven tuning, and NVIDIA Dynamo provides open-source scheduling and cache management. Isoquant’s reported lead comes from a single-model comparison, and the memo documents that serving performance depends on the workload and infrastructure. A buyer could reproduce enough of the gain internally, while customers can switch providers through compatible APIs. That weakens both the case for paying to own the software and the value of the customer base. The Pass gate remains untriggered because the evidence leaves open whether a buyer can reproduce the relevant gains and whether a supported sale price would clear the holder’s hurdle. (Defensibility, Key Risks, The Idea)
+Together AI already offers agent-driven tuning, and NVIDIA Dynamo provides open-source scheduling and cache management. Isoquant’s performance varies with workloads and infrastructure, and compatible APIs make switching providers easier. A buyer could meet customer needs with tools it already has, leaving little reason to pay for Isoquant’s software or customer base. This supports Watch. The evidence leaves open whether Isoquant can deliver enough incremental value to clear the proceeds hurdle and therefore falls short of triggering the Pass gate. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Counterparty rationale or source of cash | 16/30 |
+| Plausible investor proceeds | 10/30 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Would owning Isoquant’s tuning software create enough incremental gross profit for an inference provider to justify a sale that clears the modeled holder’s cash target? Move to **Reach out** if a buyer-side production test on recurring paid workloads shows durable GPU savings over the buyer’s internal alternative, and those savings at a credible deployment scale support a price that leaves roughly $83.3 million distributable to equity within eight years at 3% ownership.
+Can a prospective acquirer reproduce Isoquant’s gains in paid production workloads and quantify enough durable net benefit to support a price that clears the holder’s cash objective? Buyer-validated results across several workloads, measured against the buyer’s best available alternative and net of GPU, integration, and operating costs, would move the action to Reach out if they support roughly $93.3 million in enterprise value under the modeled terms.

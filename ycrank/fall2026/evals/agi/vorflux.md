@@ -1,32 +1,32 @@
 ﻿# Vorflux -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Vorflux could make recurring cross-repository maintenance economical for engineering teams that routinely defer it. In the former workflow described in the memo, engineers initiate tasks, coordinate parallel work, and bring changes back for testing and review. Vorflux says AutoBots can pick up recurring work proactively, run and test changes in the cloud, and route approvals. The market-opening assumption is that this saves enough engineer time to make previously deferred work worth doing on a recurring basis. (The Idea; Market & Traction)
+**New Economies** is Vorflux’s strongest path. The memo records a November launch of AutoBots, which Vorflux says can take on recurring engineering responsibilities with budgets and approval routing. Customer testimonials describe TrashLab shipping a change requested in Slack and Supermemory completing fixes across six repositories and a data backfill. Those outcomes support the underlying workflow. The testimonials leave open whether AutoBots can handle recurring work at a materially lower cost or whether the customers paid. (The Idea, Market & Traction)
 
-Supermemory’s testimonial reports fixes across six repositories and a backfill that closed about ten issues. That supports feasibility and early demand for completed work. The memo leaves open whether the work would otherwise have gone undone, how much engineer time it took, and whether the customer paid for repeat use. Under model parity, Vorflux’s best claim to durable value is that retained repository and test context, role-specific setup, and approval rules reduce the effort of getting changes accepted. Buyer preference for that setup remains untested. (Market & Traction; Defensibility)
+The market-opening scenario is that teams start clearing recurring maintenance they previously deferred because engineer time made it too expensive. The cost comparison is engineer time for triage, implementation, testing, and review per accepted change today versus compute, model usage, and remaining human time for approvals, exceptions, and rework with Vorflux. The memo supplies no measured baseline or savings. Under model parity, retained repository and test context and configured approval rules could give teams a reason to keep paying Vorflux. Buyer preference at parity remains untested. (The Idea, Defensibility, Key Risks)
 
-The founders’ infrastructure and engineering leadership experience, together with the July platform unveiling and November AutoBots launch, support seed-stage execution. For scale, the relevant unit is an accepted change. Vorflux posts compute prices of $0.2117–$3.3868 per machine-hour. Buyer economics depend on compute, model usage, review, retries, and exceptions per accepted change. Vorflux’s contribution also depends on its infrastructure cost and how many accepted changes absorb enterprise setup and support. The memo gives posted prices and leaves realized costs unresolved. (Founders & Team; Market & Traction; The Idea)
+The founders bring infrastructure and engineering leadership experience, and the team shipped the original platform and AutoBots within months. Enterprise pilots on actual backlog items give the team a practical way to test the remaining risks. The repeatable unit would be an accepted change within a configured team. Published compute pricing and optional at-cost tokens provide a starting point for modeling it. Vorflux’s compute costs, onboarding and support effort, and successful changes per machine-hour remain unknown, leaving contribution per deployment unproven. (Founders & Team, Market & Traction, The Idea)
 
 ### Countercase
 
-Vorflux may help existing engineering teams clear more of the same backlog without making any previously deferred category of work economical. Devin already offers event-triggered work, and Cursor already runs browser tests and returns video evidence. A buyer with access to equivalent models could get enough of the workflow elsewhere, especially if human approval remains the main cost. The feature overlap makes substitution credible. The memo contains neither a buyer comparison nor a measured cost baseline that would settle either gate, so Watch is warranted. (Market & Traction; Defensibility; Key Risks)
+Vorflux may make existing engineering work cheaper while competing in an already served market. Devin overlaps on event-triggered work, and Cursor overlaps on browser testing and recorded evidence. Those overlaps weaken the case for durable value capture, and the memo provides no observed customer switching or like-for-like comparison that would close the New Economies path. Dedicated compute is part of the offering, with no evidence that Vorflux controls scarce capacity. The market-opening and model-parity gates remain open for testing, supporting Watch. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 10/15 |
-| Scale economics | 5/15 |
+| Team and execution | 12/15 |
+| Scale economics | 6/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can an independent engineering team use Vorflux to turn a previously deferred category of recurring maintenance into paid, repeat work and still choose Vorflux over a credible alternative using equally capable models? A seed-stage field trial would compare full cost and acceptance rates against the former workflow and the alternative, including setup, review, retries, and exceptions. A paid repeat commitment at a viable price, with the buyer choosing Vorflux for a demonstrated workflow advantage, would move the action to Reach out. A representative trial showing that the work remains uneconomic or that buyers readily switch at parity would close the path and move the action to Pass.
+Will an independent engineering team renew at a price that covers delivery costs for recurring maintenance it previously deferred, after comparing Vorflux with a similarly capable same-model alternative? A paid pilot that measures fully loaded cost per accepted change against the team’s former workflow and ends in renewal after that comparison would move the action to Reach out. If the pilot shows the savings open no previously deferred work or the buyer readily switches at parity, move to Pass.

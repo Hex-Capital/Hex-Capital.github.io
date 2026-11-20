@@ -1,30 +1,32 @@
 ﻿# Munito AI -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path A — Scarce complements.** If cheap frontier-quality models increase sensitive AI workloads in Europe, developers serving finance, healthcare, and legal customers could face a shortage of inference capacity that meets their data-handling requirements and offers the open models they need. Munito says its self-serve EU endpoint supports models from several labs, keeps inference and explicitly stored content in the EU, and defaults to zero retention for transient requests. The memo identifies a concrete procurement constraint. How often it blocks production deployments remains unverified. (*The Idea*, *Key Risks*)
+The strongest path is a scarce complement. As AI usage grows, access to EU-hosted, zero-retention inference across several open-model families could become a bottleneck for developers serving finance, healthcare, and legal customers. Munito says its self-serve EU endpoint keeps inference in the EU and defaults to zero retention for transient requests. Opper AI’s live gateway integration and the launch of Kolibri 1 on RouterPlus through Munito show that partners have integrated the service. Whether sensitive production workloads are blocked by a shortage of comparable capacity, and whether target buyers pay Munito repeatedly to relieve that constraint, remain open. (The Idea, Market & Traction)
 
-The live Opper AI integration and RouterPlus deployment of Kolibri 1 show that independent partners put the service into use. Paid, repeat demand from regulated customers remains unverified. The public launch and founder Alexey Eryshev’s prior work building Mistral’s inference API support seed-stage execution. Munito can expand by serving more paid tokens on rented GPUs, but realized contribution depends on GPU rental rates, utilization, throughput, and serving overhead. Published prices establish the revenue side of that calculation. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Facts*, *Key Risks*)
+Munito operates its own serving layer and reports benchmarking different configurations. If tuning gains carry over to customer workloads, that could give Munito a cost advantage. The founder previously led inference at Mistral and has shipped Munito’s public API. Enterprise qualification remains the next execution hurdle, with SOC 2 and ISO 27001 reviews in progress. (Defensibility, Founders & Team, Market & Traction, Key Risks)
+
+The expansion unit is a rented EU GPU-hour. The scale case assumes enough paid input and output tokens per GPU-hour, at realized rates, to cover rental and serving costs after idle capacity and support. Published token prices establish the billing unit. The memo gives no measured throughput, paid utilization, rental costs, or contribution margin. (The Idea, Key Facts, Key Risks)
 
 ### Countercase
 
-Munito’s serving layer could be reproducible. It rents its GPUs and reports internal tuning experiments whose gains on customer workloads remain unverified. Mistral offers regional inference for its own models, Together AI offers dedicated EU deployments, and Nebius serves overlapping models. Munito’s standard APIs reduce the effort required to switch. Those alternatives cover parts of the offering. Whether a buyer can get the same model coverage, privacy terms, and service levels on comparable terms remains open. A buyer comparison can resolve that uncertainty, which supports Watch. (*Defensibility*, *Key Risks*)
+Munito’s offering may be easy to replicate. Mistral already offers regional inference for its own models, Together AI offers dedicated EU deployments, and Nebius serves overlapping model families. Standard SDK interfaces reduce switching work, while rented GPUs leave capacity exposed to upstream providers. These facts weaken the scarcity and control case. The memo leaves open whether a substitute meets the same model, privacy, and deployment requirements for a target workload, so the path remains open at Watch. A New Economies case would require evidence that lower labor cost per successful outcome makes a previously excluded use viable. The memo supplies no such evidence. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 9/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 8/20 |
+| Customer demand | 7/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent regulated customer commit to paid repeat production use after testing Munito and the closest substitute on the same workload? Move to **Reach out** if the buyer commits because Munito meets a binding model, privacy, or service requirement the rival cannot match on comparable terms, and Munito can sustain that advantage through secured capacity or a measured serving advantage at positive contribution. Move to **Pass** if the rival meets the same requirements on comparable terms and the trial reveals no durable Munito advantage.
+Can Munito show an independent buyer repeatedly paying for a sensitive production workload after the buyer tested a credible alternative against the same model, residency, retention, and latency requirements? Move to Reach out if the buyer’s qualification results identify a binding requirement only Munito met and Munito can show secured capacity and positive contribution at that workload’s actual utilization.

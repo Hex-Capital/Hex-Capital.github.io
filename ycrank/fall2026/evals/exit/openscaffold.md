@@ -5,28 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A deployment or engineering platform could buy OpenScaffold to turn customer requirements into source-cited instructions for coding agents and check their work against those requirements. Harness’s purchase of Cosmos and related assets establishes that a platform has bought adjacent capabilities. The ownership case is conditional on OpenScaffold building a reusable requirements and playbook workflow that saves enough deployment time to justify buying it over building or integrating it. Buyer savings and willingness to pay remain unmeasured. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by an engineering or delivery platform such as Harness. OpenScaffold describes a product that turns customer communications into source-cited requirements and checks coding-agent changes against them. A platform could buy that capability if it reliably cuts deployment rework and customers pay for it. The memo records Harness’s acquisition of Cosmos and related assets, which shows a willingness to buy adjacent capabilities. It also records Faraday’s CEO publicly identifying himself as a customer. Paid use and measured savings remain unverified. (The Idea; Market & Traction)
 
-Faraday’s CEO publicly identified himself as a customer. Separately, OpenScaffold’s founder reported an unnamed pilot, and the public plan was free. Those signals make a paid production test plausible at launch stage. The capital and time required to reach repeatable production performance are unknown. The privacy policy describes workspace isolation and deployment-specific access, leaving rights to transfer customer-derived data and playbooks unresolved. Predictable cash generation for a sponsor buyout or payout, eligible secondary demand, and operating scale for an IPO all remain unevidenced. (Market & Traction, Key Facts, Key Risks)
+Under the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. The memo gives no acquisition price or company economics that would support a price range. The cases below illustrate the hurdle.
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation starts at 5% and falls to 3% after 40% relative dilution, assuming no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. At 3%, that requires $83.3 million of distributable equity, or $88.3 million of enterprise value with illustrative net debt of $5 million. Under those assumptions, a $25 million sale in year eight pays $600,000 (1.2×) and a $100 million sale pays $2.85 million (5.7×). The memo leaves realizable price, actual debt, fees, and preferences unknown. If growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only the residual after obligations and preferences, which the memo gives no basis to estimate. (Market & Traction, Key Facts)
+| Case | Assumed bridge and timing | Gross cash to holder |
+|------|---------------------------|----------------------|
+| Modest sale | $50M enterprise value less $5M of debt and deal adjustments leaves $45M distributable within eight years | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $10M of debt and deal adjustments leaves $90M distributable within eight years | $2.70M (5.4×) |
+| Prolonged private | The company reinvests available cash through year eight, with no eligible share purchase or distribution | $0 |
+
+Both sale cases assume an all-cash transaction, holder eligibility, cash realization on the entire 3% stake, and pro rata distribution with no additional senior claims. An asset sale would require proceeds to reach shareholders through the company’s waterfall. The software is a plausible acquisition asset, but IP and contract transfer rights, customer-data permissions, and holder terms are unverified. The memo supports no independent liquidity route. (The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-Harness already has adjacent context and workflow capabilities, and open MCP integrations give platforms a way to add customer-specific briefings. The founder reported that OpenScaffold failed to distinguish customer requests from deployment-team requests 82% of the time in one pilot test. If that persists, human review could erase the savings a buyer would pay for. This supports Watch. Substitute coverage and realizable sale economics remain unresolved, so the Pass gate is untriggered. (Defensibility, Key Risks)
+Harness could extend Cosmos using its existing integrations, reducing the reason to buy OpenScaffold. The founder reported that in one pilot test the product failed to distinguish customer requests from deployment-team requests 82% of the time. A production pilot measuring attribution accuracy and rework against the team’s existing workflow is a concrete next milestone, with pilot access reported and funding and timing unverified. The substitution risk and pilot result justify Watch. The memo establishes neither a structural closing block nor a credible sale-price ceiling below the proceeds hurdle, so the Pass gate does not trigger. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 7/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 9/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production rollout demonstrate enough incremental value over a platform’s existing workflow to support an acquisition above the modeled $88.3 million enterprise-value hurdle? Measure request attribution accuracy and net engineering hours saved after human review across repeated deployments. Move to Reach out if those results, together with a prospective buyer’s build-versus-buy economics, support a price range that clears the hurdle. Otherwise, keep watching.
+Can OpenScaffold show repeatable reductions in deployment rework that would give a platform buyer an economic reason to pay enough to clear the holder’s proceeds hurdle? Before-and-after results from paying production teams, tied to credible buyer economics that support at least $83.3 million in distributable equity value after deal adjustments, would move the action to Reach out.

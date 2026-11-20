@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** If cheaper frontier intelligence leads OEMs to develop more drones and robots, and those designs require motors that catalog parts cannot satisfy, quick-turn custom manufacturing could become a bottleneck. OEMs bear that cost through delayed development and large minimum orders. Open Actuation reports that an incumbent quoted one drone OEM a $50,000 minimum and a 13-week lead time for a shaft modification. Open Actuation says it built the motor in five weeks and is fulfilling volume orders for an unnamed drone OEM. The case for scarcity rests on one reported build, and the link to AI-driven demand remains a scenario assumption. (The Idea, Defensibility, Market & Traction)
+The strongest path is **scarce complements**. If AI-enabled drone and robotics deployments increase demand for low-volume, application-specific motors, long lead times and high minimum orders could slow hardware iteration. Open Actuation says an incumbent quoted one drone OEM a $50,000 minimum order and a 13-week lead time for a shaft modification. Open Actuation reports completing that build in five weeks. That comparison supports a procurement bottleneck for one design. The link to growing AI demand remains a scenario assumption. (*The Idea*, *Defensibility*)
 
-Open Actuation says it controls the work from design through testing at its Gardena factory using proprietary software and tooling. Reusing tooling and test results could reduce setup time on later designs. The memo separately records Facer’s manufacturing quality experience and earlier heavy-lift samples made for prospective customers, which support seed-stage execution. The expansion unit is a qualified design that moves into repeat production. The company’s stated assembly capacity of thousands of motors per month leaves throughput across the full production process, yield, and contribution per order unverified. (The Idea, Defensibility, Market & Traction, Founders & Team, Key Risks)
+The company reports that it is fulfilling volume orders for the same unnamed OEM. That is a buyer commitment beyond prototype testing, with order size, pricing, and repeat purchasing still unverified. Separately, the memo documents earlier heavy-lift samples made for prospective customers and Facer’s experience in manufacturing quality software. Those are credible seed-stage execution signals. Consistent yield across custom designs remains the next production hurdle. (*Market & Traction*, *Founders & Team*, *Key Risks*)
+
+The expansion unit is a qualified motor design moving into repeat production lots. Open Actuation’s stated assembly capacity of thousands of motors per month suggests room to expand. Contribution per accepted motor still depends on custom pricing, setup and qualification costs spread over each lot, material costs, yield, rework, and equipment utilization. Facer also identifies domestic sourcing of magnets and silicon steel as difficult. (*The Idea*, *Market & Traction*, *Key Risks*)
 
 ### Countercase
 
-The launch may reflect one incumbent’s unfavorable terms and OEMs’ push to reshore supply. KDE Direct already offers motor modifications and has delivered a custom coaxial design. If it or another supplier can qualify an equivalent motor on comparable lead time and order terms, Open Actuation’s advantage may be temporary. Difficult domestic sourcing of magnets and silicon steel could also limit the capacity Open Actuation can reliably offer. The memo leaves like-for-like substitution unresolved, so the scarcity gate remains open. The decisive lead-time and order evidence is company-reported, which keeps confidence low. (Defensibility, Market & Traction, Key Risks)
+The incumbent’s quote may reflect one supplier’s order policy. KDE Direct already offers catalog modifications and custom builds, while Westmag provides another domestic production option at higher volumes. Open Actuation’s reported in-house tooling and production give it control over how it executes each job. The memo leaves open whether that control yields an advantage competitors cannot match. The competitive evidence keeps durable scarcity unproven, and equivalent supply for the same job remains unverified. That supports **Watch**. The memo also leaves the labor-cost change and previously excluded buyers required for a New Economies case unestablished. (*The Idea*, *Defensibility*, *Market & Traction*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 12/25 |
-| Durable value capture | 8/25 |
-| Customer demand | 11/20 |
-| Team and execution | 9/15 |
+| Path-specific thesis fit | 15/25 |
+| Durable value capture | 10/25 |
+| Customer demand | 12/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 45/100** (Neutral)
+**Total Score: 52/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a second independent OEM show that an AI-enabled deployment depends on Open Actuation’s custom motor capacity? A paid repeat order at positive contribution, with buyer qualification records showing that a credible competing supplier could not meet the same specifications, lead time, and order size, would move the action to Reach out. Equivalent qualified supply on comparable terms would close Path A and move the action to Pass on the current evidence.
+Will a second, independent OEM scaling an AI-enabled drone or robot program qualify an Open Actuation motor and place a repeat order because competing suppliers cannot match the required combination of lead time, minimum order, and performance? Comparative quotes, qualification results, a repeat purchase order, and lot-level costs showing positive contribution at the paid price would move the action to **Reach out**.

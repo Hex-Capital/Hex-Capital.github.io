@@ -5,23 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A desktop productivity vendor could buy Sentient OS to add overnight context building and cross-app workflows on 8 GB Macs. The memo documents a customized local inference stack and an AGPL-licensed app. The acquisition rationale is conditional on Sentient’s integration saving the buyer meaningful engineering time or improving product adoption enough to justify ownership over building or licensing. The memo provides no measured buyer benefit, acquisition interest, or transaction pricing. (The Idea, Defensibility, Key Facts)
+The strongest path is a strategic acquisition by a desktop productivity vendor. Sentient’s overnight processing on 8 GB Macs, editable context store, and cross-app actions could give a buyer a faster way to ship personalized workflows. That potential time saving is an inference. The memo provides no measured buyer benefit or acquisition interest. (The Idea, Defensibility)
 
-The operating milestone is a paid, privacy-approved enterprise deployment that shows sustained workflow use and measures the benefit to a potential buyer. The company reports more than 30 enterprises using Sentient, with payment and contract status undisclosed. The reported pre-seed raise of roughly $1 million makes a production test plausible, while burn and remaining runway are unknown. An equity acquisition could keep the commercial licensing operation in the same entity. The company offers commercial licenses, but control of all relevant code and model rights and continuity of enterprise permissions remain unverified. (Market & Traction, The Idea, Key Facts, Key Risks)
+Sentient reports more than 30 enterprises using the app, with payment and contract status undisclosed. Approximately $1 million in reported pre-seed funding and an already shipped app make a paid pilot a plausible next milestone. A pilot could measure repeated use and time saved against native macOS workflows. The memo gives no runway or pilot budget. The AGPL repository and advertised commercial licensing make an acquisition of company-controlled assets plausible, with ownership, dependency rights, and any customer consents still unverified. (Market & Traction, The Idea, Key Facts, Key Risks)
 
-**Illustrative proceeds.** With actual investor terms undisclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, no follow-ons, and simple pro rata proceeds before investor taxes. The eight-year 5× target requires $2.5 million in holder cash, or $83.3 million in distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. Using $5 million of illustrative net debt, the 3% case requires about $88.3 million in enterprise value. Company debt, deal fees, and senior claims are unknown. The sale prices below are scenarios.
+Under the shared benchmark, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× objective requires $2.5 million in gross cash, or about $83.3 million in distributable equity at 3%. The following prices are illustrative assumptions. Both sales assume closing within eight years, holder eligibility, a full cash sale, and a pro rata waterfall without senior claims.
 
-| Eight-year scenario | Gross cash to the holder |
-|---|---|
-| Modest sale at $25 million enterprise value | $600,000 (1.2×) after illustrative net debt |
-| Strong sale at $100 million enterprise value | $2.85 million (5.7×) after illustrative net debt |
-| Growth plateaus, buyers stay away, public scale remains out of reach, and available cash is reinvested | $0, with shares still held |
+- **Modest sale.** $40 million in enterprise value less $5 million in assumed net debt and deal adjustments leaves $35 million in distributable equity. The holder receives $1.05 million, or 2.1×.
+- **Strong sale.** $100 million less $10 million in assumed deductions leaves $90 million. The holder receives $2.7 million, or 5.4×. If only 80% of that payout arrives within eight years, realized cash falls to $2.16 million, or 4.32×.
+- **Prolonged private.** Continued operation with cash reinvested yields zero realized proceeds. The memo supplies no evidence of an eligible secondary or funded payout. (The Idea, Key Facts)
 
-In a wind-down, the holder would receive only what remained after obligations and senior preferences. The memo provides too little financial information to estimate that residual. It also provides no predictable cash generation for a sponsor buyout, eligible secondary demand, evidence of IPO readiness, or excess cash for dividends or buybacks. (Market & Traction, Key Facts)
+The memo supplies no buyer economics or transaction evidence to support either sale price, so proceeds stay at the absent-evidence default.
 
 ### Countercase
 
-A buyer could build overlapping features with public local inference tools or use the open-source app or a commercial license. Apple already documents overlapping personal context, screen awareness, and app actions. Editable Markdown makes users’ context portable, while Full Disk Access and cloud-assisted features could slow enterprise approval. Together, these facts weaken the case for an ownership premium. Watch applies because the value of owning the integration remains unmeasured. The memo establishes neither a structural barrier to a sale nor a credible sale price that leaves the holder materially short, so the Pass gate does not trigger. (The Idea, Defensibility, Key Risks)
+Apple already documents overlapping macOS capabilities. Public inference tooling and portable Markdown context weaken the case that another vendor would need to buy Sentient to offer similar workflows. That substitution risk weakens buyer rationale. The memo establishes neither a structural closing block nor a credible sale-price range that falls materially short, so the Pass gate is untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
@@ -37,4 +35,4 @@ A buyer could build overlapping features with public local inference tools or us
 
 ### Decisive diligence question
 
-Would a desktop productivity vendor’s build-versus-buy assessment of a paid, privacy-approved Sentient deployment support an acquisition price that clears the holder’s cash target? A buyer-backed range grounded in measured deployment benefits and clearing the roughly $88.3 million illustrative enterprise-value hurdle would move the action to Reach out.
+What acquisition price could a desktop productivity vendor justify from measured workflow gains in retained, paying deployments? Buyer-side economics supporting at least $83.3 million in distributable equity and a full cash payout within eight years under the benchmark would move the action to Reach out.

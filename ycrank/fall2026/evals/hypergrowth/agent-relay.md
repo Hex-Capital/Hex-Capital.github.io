@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Product-led adoption** is the strongest path. The first buyer is an engineering team whose developers repeatedly copy decisions and handoff context between coding agents. Agent Relay lets those agents exchange messages in their existing tools. If an engineer gets value from the first cross-tool handoff, bringing teammates into shared sessions could spread adoption and create a reason to buy the desktop upgrade. The same workflow plausibly travels across markets because it fits into existing coding tools and can run self-hosted. Hosted session search and pending security attestations can narrow the set of buyers able to adopt. The memo gives no buyer geography. (The Idea, Key Risks)
+Assuming strong product-market fit, the strongest path is bottom-up adoption by engineering teams that use multiple coding agents. The same cross-provider SDK, CLI, and desktop app can plausibly serve the recurring job of handing off context across tools and teammates in many markets. Developers can discover the open-source relay through GitHub or npm and install it independently. The paid desktop upgrade gives teams a reason to pay as they share sessions and connect more agents, though the memo leaves the purchase flow, billing cadence, and pricing for added agents unclear. Searchable handoff history could make the relay more valuable over time. Expansion in recurring revenue remains an inference. (The Idea, Defensibility, Key Facts)
 
-The memo documents self-serve npm and desktop entry points and reports download activity. Pomerado says it coordinated 80+ agents, exchanged 38,000+ messages, and improved its product at 2–4× its previous speed. That is a concrete workflow commitment with a customer-reported benefit. The founder separately reports that an unnamed prospect exchanged 7,000+ messages in one week and expressed willingness to pay. Neither account establishes how the team discovered or activated the product, whether it paid, or whether it returned for the next project. At this stage, the first unresolved link is whether another team can reach recurring paid value through the self-serve route. (The Idea, Market & Traction)
+The two-person team launched team messaging in October 2026. In November, the memo records 3,907 weekly CLI downloads, and Pomerado reported exchanging more than 38,000 messages across 80+ agents. A founder also reported an unnamed prospect’s willingness to pay. These signals establish early adoption and interest. Realized paid use and revenue status remain unknown, so Initial traction receives the 7/20 default. (The Idea, Market & Traction)
+
+For the next paid hosted workspace, incremental contribution would be upgrade revenue less message delivery, storage, session-search processing, and any attributable acquisition, onboarding, and support costs. The memo documents that hosted search sends credential-redacted text to OpenAI. If a large account self-hosts, it could absorb some infrastructure costs, while any vendor support would still count against contribution. Prices and representative workload costs are unspecified, leaving the margin direction uncertain. (The Idea, Key Risks)
 
 ### Countercase
 
-Teams may use the free relay heavily during an agent-heavy project and then return to native messaging when one coding tool suffices. Claude Code already supports messaging within its own agent teams. Teams that do need cross-tool coordination could still require security or deployment help before paying. The memo gives no measurements of onboarding labor, support, or hosted search costs per added team, so the contribution score uses the absent-evidence default. The structural downside gate stays open because the memo does not show that every viable route requires proportional delivery effort or cost. (The Idea, Market & Traction, Key Risks)
+Teams could adopt the free relay heavily and have little reason to upgrade. Claude Code already provides messaging within its own agent teams, and an open cross-provider standard could narrow the advantage for mixed-tool teams. Buyers with stricter data policies could also face procurement delays or move to self-hosting. The structural downside gate clears because the documented cross-tool workflow and self-serve setup give ordinary engineering teams a credible route to adoption across markets. The main uncertainty is whether that route reliably produces recurring paid accounts. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 22/25 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 11/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 47/100** (Neutral)
+**Total Score: 62/100** (Neutral)
 
 ### Decisive diligence question
 
-Can two independent engineering teams follow the same self-serve route from discovery through a first cross-tool handoff, buy the desktop upgrade without founder-led setup, and use it again in their next comparable project? Account-level records showing that sequence would move the action to Reach out.
+Can a cohort of mixed-tool engineering teams install and buy the desktop upgrade without founder help, then renew as agent coordination becomes routine? Linked activation and billing records showing independent setup, paid conversion, and renewal through a full billing cycle would move the action to Reach out.

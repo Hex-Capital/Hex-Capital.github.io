@@ -5,34 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Kiwi’s strongest path. A CRM or GTM automation platform could buy Kiwi’s replay and testing software to give customers a way to audit agent outputs and catch regressions across connected tools. Ownership could make sense if embedding those controls in the buyer’s product materially improves customer retention or reduces the buyer’s engineering and support costs compared with building or licensing them. That benefit is an inference. The memo documents Kiwi’s October 2026 launch, and Kiwi describes versioned data, replayable SQL, and customer review history used for regression tests. Chen’s account of spending 20 hours correcting agent work in one week at a prior employer indicates a pain point. Kiwi’s impact on that workload remains unmeasured. (The Idea, Defensibility, Market & Traction)
+Kiwi’s strongest path is a strategic acquisition by a GTM platform such as Default or Clay. Kiwi documents versioned source records, replayable SQL, and the use of reviewer corrections as regression tests. Default and Clay already run GTM workflows. Owning Kiwi could help a platform reduce the review and rework its customers incur when those workflows change. Chen reports spending 20 hours reviewing and fixing agent work in one week at a prior employer. That illustrates the problem, while Kiwi’s savings and buyer interest remain unverified. (The Idea, Defensibility, Market & Traction)
 
-A seed-stage milestone would be several paid production deployments that show sustained reductions in manual review and fewer errors across workflow changes. The launch, documented pilot terms, and founders’ experience in post-sales workflows and SQL infrastructure make that test plausible. The memo gives no confirmed paid deployments, funded test, or burn and runway figures to estimate the capital required. It also leaves software ownership and any customer consents needed to transfer workflow histories unresolved. (The Idea, Market & Traction, Founders & Team, Key Risks)
+A plausible next milestone is to measure review and rework hours against native tools across several paid production deployments. The public launch and the founders’ experience in post-sales and SQL infrastructure support a founder-led test. Paid adoption, runway, and the capital needed to clear customer security reviews remain unverified. The deployment options offer a way to test the product in customer environments. IP ownership, change-of-control terms, and post-sale data permissions remain open. (Market & Traction, Founders & Team, The Idea, Key Facts, Key Risks)
 
-**Proceeds under the shared assumptions.** An illustrative $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-ons. The 5× target is $2.5 million in gross cash within eight years. At 3%, that requires $83.3 million of distributable equity, or $88.3 million of enterprise value with an illustrative $5 million of net debt. At 2% or 4% ownership, the equity hurdle is $125 million or $62.5 million, respectively. The sale scenarios assume cash at closing, simple pro rata distribution, and no additional fees or senior claims. Kiwi’s actual terms and a realizable sale price remain unknown. (Key Facts)
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale scenarios assume the holder is eligible to sell the entire stake, receives cash within eight years, and participates pro rata after debt and deal adjustments, with no reduction from senior preferences.
 
-- **Modest sale.** A $25 million enterprise-value sale by year eight yields $600,000 before investor taxes, or 1.2×, after illustrative net debt.
-- **Strong sale.** A $100 million enterprise-value sale by year eight yields $2.85 million, or 5.7×, on the same terms. At 2% ownership, the same sale yields $1.9 million, or 3.8×.
-- **Prolonged private operation.** If growth plateaus, buyers stay away, public-market scale remains out of reach, and Kiwi reinvests all available cash, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only the residual after obligations and preferences, which the memo leaves unquantified.
+| Scenario | Proceeds bridge | Gross holder cash |
+|----------|-----------------|-------------------|
+| Modest sale | $40M enterprise value less $5M in debt and deal adjustments leaves $35M distributable | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in debt and deal adjustments leaves $90M distributable | $2.70M (5.4×) |
+| Prolonged private | Kiwi reinvests available cash, with no funded payout or eligible share sale | $0 (0×) |
 
-The other routes lack independent support. The memo gives no predictable cash flow for a sponsor buyout, eligible Kiwi share demand for a secondary, operating scale or reporting readiness for an IPO, or excess cash and payout commitment for dividends or buybacks. (Market & Traction, Key Facts)
+The sale prices are illustrative assumptions. The memo supplies no basis for a clearing price or an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-HubSpot already offers cross-tool account workflows through MCP, and Kiwi exposes its own workflows over MCP. A platform could cover enough of the customer need with native features or integrate Kiwi through a commercial agreement. Even if replay and regression testing prove valuable, the acquisition case depends on those features creating enough incremental value to justify ownership at a price that clears the holder’s hurdle. The documented overlap weakens that case, but the memo establishes neither a substitute for Kiwi’s full replay capability nor a structural or proceeds block. The Pass gate stays open. (The Idea, Defensibility, Key Risks)
+HubSpot already uses MCP to pull data from tools such as Gong and Notion for account planning. That overlap gives a platform a credible reason to extend its native tools, especially if customers see little incremental value in Kiwi’s replay and testing. The memo establishes neither a structural block nor a credible sale-price ceiling below the holder’s hurdle. The unresolved buyer economics support Watch. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 12/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Would a CRM or GTM platform’s build-versus-buy assessment, grounded in measured results from paid production deployments, support an acquisition price that clears the holder’s eight-year cash target? A buyer-side estimate that values ownership above building or licensing and supports a price range clearing the hurdle under credible dilution and transaction terms would move Kiwi from Watch to Reach out.
+Do Kiwi’s replay and regression tests save enough review and rework in paid production to justify an acquisition that clears the holder’s proceeds hurdle? Repeatable savings versus native tools, paired with a plausible buyer-side case for at least $83.3 million in distributable equity value, would move the action to Reach out.

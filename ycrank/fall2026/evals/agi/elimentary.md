@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Elimentary could make recurring covenant monitoring economical for loans that fund teams previously checked less often because analysts had to interpret agreements, run calculations in spreadsheets, and validate the results. An unnamed direct lender reported expanding covenant testing to more than 150 portfolio companies while cutting time per company from four hours to 15 minutes. In a separate filing reconciliation covering more than 500 checks, a customer reported going from roughly 20 hours of work to under 30 minutes of agent runtime plus about one hour of human sign-off. These comparisons support a labor-saving mechanism. The memo leaves open which loans or monitoring cycles were previously uneconomic and what a successful check costs after setup, review, retries, and exceptions. (*The Idea*, *Market & Traction*, *Key Risks*)
+**New Economies** is the strongest path. A customer testimonial describes a filing reconciliation with more than 500 checks that went from roughly 20 hours of work to under 30 minutes of agent runtime plus about one hour of human sign-off. In a company-published case study, a direct lender reported expanding covenant testing to more than 150 portfolio companies while cutting time per company from four hours to 15 minutes. If comparable accuracy holds and those time savings persist after accounting for setup, review, and rework, funds could afford routine checks on deals they previously monitored less often or skipped. The memo shows expanded coverage, while the prior cost barrier and full cost per successful check remain unverified. (*Market & Traction*, *Key Risks*)
 
-Under a scenario where rivals have access to equally capable models, Elimentary’s best reason for buyers to stay is the cost of rebuilding and revalidating borrower-specific calculation rules. The company reports clause-linked rules and security attestations, which support a plausible case for switching friction. Buyer preference under functional parity remains untested. TresVista’s multi-year partnership and live workflows show an operating commitment, while pricing and recurring purchases for newly viable monitoring remain unknown. (*Defensibility*, *Market & Traction*, *Key Facts*)
+TresVista’s multi-year agreement and initial live workflows show a named partner committing to deployment. Payment terms and repeat purchases for newly viable work are undisclosed. The founders bring experience in credit operations, credit-product engineering, and AI automation. Elimentary reports more than 25 agents in production, supporting seed-stage execution credit. (*Market & Traction*, *Key Facts*, *Founders & Team*)
 
-The founders bring experience in credit-product engineering, lending operations, and AI automation. Elimentary reports more than 25 agents in production, giving the team some evidence of delivery at seed. For scale, the relevant unit is a completed monitoring cycle per additional borrower. A separate servicer testimonial reports that monthly waterfall runtime fell from six hours to 30 minutes per deal, suggesting another recurring workflow can run faster. Whether deployments generate positive contribution depends on contract revenue covering inference, support, exception handling, and the cost of configuring and revalidating deal rules over the life of the contract. The memo gives no realized cost or pricing data for that calculation. (*Founders & Team*, *Market & Traction*, *Key Risks*, *Key Facts*)
+The expansion unit is a recurring workflow deployed at another fund. Contract revenue must cover configuration and deal-rule validation, then ongoing inference, amendment handling, and vendor support. Customer sign-off also affects the buyer’s savings. Reusing validated rules could spread setup costs across deals and reporting cycles. The memo gives no pricing, onboarding hours, or exception rates to establish contribution per deployment. (*The Idea*, *Key Facts*, *Key Risks*)
 
 ### Countercase
 
-Elimentary may help existing fund teams perform work they already budget for, with savings that shrink when unusual agreements or amendments require manual revalidation. Allvue already offers overlapping loan operations inside its accounting platform, giving existing customers a credible alternative for some workflows. The memo documents neither a head-to-head switch nor a deployment where exceptions erased the savings. Both required conditions remain open, so the decision gate is Watch. The reported workflow comparisons and live deployments support Medium confidence in that judgment. (*Market & Traction*, *Defensibility*, *Key Risks*)
+Elimentary may be making existing fund operations cheaper without opening a new market. Its client-specific calculations and clause-linked rules could make switching costly because a replacement would need to revalidate them. Allvue already bundles overlapping loan-notice automation with its accounting ledger, and easier document extraction lowers one barrier to entry. The memo shows neither buyer preference at functional parity nor network effects, and it identifies no independently supported scarce complement. Competitor overlap leaves the durability gate unproven. The evidence does not establish full substitution or observed switching, so the action is Watch. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 16/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 12/20 |
-| Team and execution | 10/15 |
-| Scale economics | 6/15 |
+| Path-specific thesis fit | 17/25 |
+| Durable value capture | 10/25 |
+| Customer demand | 11/20 |
+| Team and execution | 11/15 |
+| Scale economics | 7/15 |
 
-**Total Score: 53/100** (Neutral)
+**Total Score: 56/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent fund pay to repeat covenant monitoring it previously skipped or ran less often because of cost, and choose Elimentary after trialing a functionally comparable alternative with equally capable models? A paid repeat cycle with comparable accuracy and a documented cost per completed check, including setup, sign-off, retries, and exceptions, would move the action to Reach out if it clears the fund’s cost threshold and the fund chooses Elimentary for an observed advantage in maintaining or revalidating deal rules. If full costs erase the market opening or the buyer readily switches while preserving the outcome, move to Pass. (*Market & Traction*, *Defensibility*, *Key Risks*)
+Will an independent fund repeatedly pay Elimentary to run covenant checks it previously skipped on cost grounds when a functionally comparable alternative is available? A paid deployment that documents the prior coverage gap, measures the full cost per accurate, signed-off check, and earns a repeat order after the buyer evaluates the alternative would change the action to Reach out.

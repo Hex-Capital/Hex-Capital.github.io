@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A coding platform could pay to acquire Agent Relay’s cross-tool messaging integrations, hosted product, and customer relationships. Owning those assets could help the buyer serve teams that use several coding tools and preserve searchable handoff history across them. Conductor’s announced move to Meta shows strategic activity in adjacent coding-agent workflows, with terms undisclosed. Pomerado reported exchanging more than 38,000 messages across 80+ agents and improving its product at 2–4× its previous speed. The reported usage shows what the relay supports at one customer. The speed improvement is a customer claim, and its value to an acquirer remains an inference. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a coding-agent platform that wants to coordinate teams across providers. Agent Relay combines messaging across existing tools and machines with searchable handoff history. Pomerado reported 38,000+ messages across 80+ agents and said it improved its product at 2–4× its previous pace. That customer claim suggests a workflow worth owning if the benefit repeats across teams. Conductor’s announced move to Meta shows strategic interest in an adjacent workflow, while the memo gives no transaction price or evidence of buyer interest in Agent Relay. (The Idea, Market & Traction)
 
-An illustrative seed milestone is three enterprise teams renewing paid deployments that span multiple coding tools, with measured reductions in handoff time against their existing workflows. The paid enterprise offering provides a way to run that test, and a founder reported that a separate prospect used the relay for 7,000+ messages in a week and expressed willingness to pay. Pending security attestations could slow enterprise adoption. The memo leaves the capital and runway required for the test open, along with the transfer terms for customer contracts and hosted data. (The Idea, Market & Traction, Key Risks)
+The next operating milestone is converting cross-provider usage into several retained, paying production deployments with measured handoff savings. A founder reported that an unnamed prospect exchanged 7,000+ messages in one week and expressed willingness to pay. Self-serve distribution and self-hosting give the two-person team a way to test conversion. Runway and the cost of clearing enterprise procurement remain unknown. A company sale appears feasible in principle, with ownership of commercial assets, customer consents, and session-data transfer rights still to verify. (The Idea, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
-The memo supplies no usable acquisition price range or investor terms. Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million for the holder, or $83.3 million in distributable equity at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With $5 million of illustrative net debt, the 3% case requires $88.3 million in enterprise value. Using a simple pro rata allocation at year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), before investor taxes and any unverified fees or senior claims. These sale prices are sensitivity inputs.
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3%. The sale scenarios below are sensitivities. Both assume $5 million in debt and closing adjustments, no senior waterfall claims, and an eligible holder selling all shares for cash at closing within eight years.
 
-If growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and available cash goes back into the business, the holder realizes $0 over eight years and retains the shares. The memo supplies no evidence of an eligible tender, sponsor financing supported by cash flow, IPO readiness, or cash available for dividends or buybacks. A wind-down recovery depends on the residual after obligations and preferences, which the memo leaves unquantified. (Market & Traction, Key Facts)
+| Scenario | Proceeds bridge | Gross holder cash |
+|---|---|---|
+| Modest sale | $50M enterprise value less $5M leaves $45M for equity | $1.35M (2.7×) |
+| Strong sale | $100M enterprise value less $5M leaves $95M for equity | $2.85M (5.7×) |
+| Prolonged private | Cash is reinvested, with no sale or shareholder payout within eight years | $0 (0×) |
+
+With the assumed adjustments, the enterprise-value hurdle is about $88.3 million. At 2.5% ownership, even the strong sale yields only $2.375 million. The memo supplies no price evidence to underwrite the strong case and no independent route to meaningful holder cash. (Market & Traction, Key Facts)
 
 ### Countercase
 
-A coding platform could use the Apache-2.0 core, build cross-tool messaging on the open A2A standard, or serve customers through native messaging. Claude Code already supports messaging within its own agent teams. Agent Relay’s cross-tool history could make ownership more valuable, but the memo provides no retention or migration evidence to establish switching costs. The substitutes weaken the case for paying an acquisition premium. The Pass gate remains open because the memo establishes neither a structural barrier to a sale nor a supported price range that leaves the holder materially short. (Defensibility, Key Risks, Key Facts)
+A platform could build enough coordination in-house to avoid buying Agent Relay. Claude Code already supports messaging within its own agent teams, the open A2A standard could lower the cost of cross-provider messaging, and Agent Relay’s Apache-2.0 core is already available. The value of owning the commercial product therefore depends on durable adoption and workflow history. The memo provides no retention or migration data. This is a material gap for Watch, with insufficient evidence to trigger the structural-block or inadequate-proceeds Pass gate. (Defensibility, Key Risks, Key Facts)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 16/30 |
+| Counterparty rationale or source of cash | 19/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 47/100** (Neutral)
 
 ### Decisive diligence question
 
-After repeatable paid enterprise renewals, what would a coding platform pay to own Agent Relay given what it could build or license? A buyer-side valuation grounded in measured handoff savings, the cost of replicating the integrations, and the value of retaining those customers would answer it. A supported range that clears the holder’s 5× target after dilution and senior claims would move the action to Reach out. Under the illustrative 3% ownership and $5 million net debt assumptions, that means at least $88.3 million in enterprise value.
+Would a strategic buyer’s build-versus-buy analysis support a price that delivers at least $2.5 million in cash to the benchmark holder within eight years? Buyer-side economics grounded in retained, paying cross-provider deployments and a credible price range that clears the hurdle after deal adjustments would move the action to Reach out. A supported ceiling below the hurdle on the strongest route would move it to Pass.

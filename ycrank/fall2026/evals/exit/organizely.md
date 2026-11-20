@@ -5,28 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path for Organizely in Fall 2026. A manufacturing ERP vendor could buy Organizely to add a factory data model that links materials, production scheduling, equipment maintenance, and purchasing approvals. Ownership could shorten the time needed to build and deploy those workflows if they prove repeatable across plants. The memo documents demand planning and text-based supplier approvals at Kinetic Labs, the founders’ prior business. Kinetic Labs reported a 22% higher operating margin and 10 hours saved per employee per week. Organizely reported deployments across six states, with customer identities and installation counts undisclosed. The Shopify listing and its two reviews document activity for the inventory app. Factory ERP pricing remains undisclosed. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest route is a strategic sale to a manufacturing ERP vendor. Organizely’s factory data model links production planning and equipment maintenance with materials tracking and supplier approvals. An incumbent could buy these workflows to broaden its product and sell them into its installed base. The memo documents use of demand planning and text-based supplier approvals at Kinetic Labs, the founders’ prior business. Kinetic Labs reported a 22% higher operating margin and 10 hours saved per employee per week. Organizely reported deployments across six states, with installation counts and customer identities undisclosed. These signals establish a reason to test buyer interest, with independent replication still open. (The Idea; Defensibility; Market & Traction; Key Risks)
 
-A seed-stage milestone is repeatable paid deployments at unaffiliated factories, with measured operating gains and documented installation time and cost. The live Kinetic Labs workflows and on-site setup offer a plausible starting point. The capital and time needed to replicate them remain unknown. The memo also leaves ownership and transferability of the core software and customer contracts unverified. The other routes lack usable evidence of cash generation to support a sponsor buyout, excess cash for dividends or buybacks, eligible demand for a secondary, or operating scale and resale readiness for an IPO. (The Idea, Defensibility, Market & Traction, Key Risks)
+A useful seed milestone would be several unaffiliated factories renewing paid deployments with measured operating gains and documented installation costs. The launched product and the founders’ factory operating experience make that test plausible. Factory pricing, rollout costs, and funding for the test remain unknown. The memo is silent on IP transfer and contract assignment rights, holder eligibility, and any independent route to liquidity. (The Idea; Market & Traction; Founders & Team; Key Risks)
 
-With no investor terms disclosed, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million of distributable equity at 3%. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million of enterprise value before any fees or senior claims. At year eight, a $25 million sale yields $600,000 gross (1.2×) and a $100 million sale yields $2.85 million gross (5.7×), using the same debt assumption and simple pro rata allocation before investor taxes. Both prices are scenarios. The memo provides no buyer economics or transaction evidence to support either price. If growth plateaus, buyers stay absent, IPO scale remains out of reach, and available cash is reinvested through year eight, the holder realizes $0 and retains the shares. A wind-down recovery is unquantifiable because obligations and preferences are undisclosed.
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. The 5× objective requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative. Both assume a full cash sale within eight years, holder eligibility to sell the entire stake, and a pro rata waterfall with no preference claims diverting proceeds.
+
+- **Modest sale.** $40 million in enterprise value less $5 million in assumed net debt and deal adjustments leaves $35 million in distributable equity. The holder receives $1.05 million, or 2.1×.
+- **Strong sale.** $100 million in enterprise value less $10 million in assumed net debt and deal adjustments leaves $90 million in distributable equity. The holder receives $2.7 million, or 5.4×. At that price, deductions above roughly $16.7 million would put proceeds below the objective even with a pro rata payout.
+- **Prolonged private operation.** With cash reinvested and no eligible share purchase or distribution, the holder realizes $0 within eight years.
+
+The memo provides no acquisition pricing evidence or buyer economics that support the strong sale case. (Market & Traction; Key Facts)
 
 ### Countercase
 
-A buyer may get enough of the capability through internal development or a partnership. Sutton already sells an AI-based manufacturing ERP, Fulcrum offers live job tracking and scheduling, and Bizmark automates procurement and production planning from existing systems and spreadsheets. The only quantified factory outcome comes from a founder-affiliated business, so the gains and installation effort at independent plants remain uncertain. The overlap weakens the case for ownership. The memo establishes neither a structural block nor a supported sale price that leaves the holder materially short, so the Pass gate stays open. (The Idea, Defensibility, Market & Traction, Key Risks)
+An incumbent could build or partner for similar capabilities. Sutton already offers AI-based manufacturing ERP, and Bizmark automates procurement and production planning using existing systems. Organizely’s on-site setup could also make deployments costly to scale. The strongest reported customer outcome comes from a founder-affiliated factory, so a buyer still needs evidence that the gains repeat across independent customers. This supports Watch. A ready substitute for the combined workflows or a sale-price ceiling below the holder’s objective remains unproven, leaving the Pass gate untriggered. (The Idea; Defensibility; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can repeatable, paid deployments at unaffiliated factories show enough incremental value to a manufacturing ERP buyer to support a purchase price that clears the holder’s cash hurdle? Measured operating gains and deployment costs, paired with a credible buyer-specific comparison of acquisition, building, and licensing, would answer it. Evidence supporting at least $83.3 million of distributable equity within eight years at the assumed 3% ownership would move the action to Reach out.
+What price could a manufacturing ERP incumbent justify paying based on independently verified results from paid factory deployments? Referenceable renewals, measured operating gains, and documented rollout costs would let a buyer compare acquisition with building or partnering. Buyer economics that credibly support at least $83.3 million in distributable equity within eight years would move the action to Reach out. A supported ceiling materially below that hurdle would move it to Pass.

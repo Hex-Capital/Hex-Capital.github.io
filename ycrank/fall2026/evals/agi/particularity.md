@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Particularity says consumer protection investigators typically start with complaints and manually inspect websites. It says its browser agents test live checkout and cancellation flows, preserve timestamped and hashed captures, and map findings to statutory elements for staff review. The investment hypothesis is that lower staff time per usable finding would let agencies routinely screen sites that receive few or no complaints. The cost comparison should include failed sessions, retries, evidence review and corroboration, and the cost of configuring the workflow for each agency. The memo provides no measured comparison. (The Idea, Key Risks)
+**New Economies** is the strongest path. Particularity says investigators manually reconstruct changing checkout and cancellation flows after complaints arrive. It describes browser agents that proactively test those flows, preserve captures, and map findings to statutory elements for staff review. The potentially new use is routine monitoring of sites that agencies would otherwise leave unchecked until a complaint arrives. The memo documents Particularity’s public launch and NYC’s expanded authority over cancellation flows. The labor savings and agency adoption remain unverified. (The Idea, Market & Traction)
 
-The memo records a coordinated regulator sweep of online sales pricing and a New York State solicitation for complaint software. These are indirect demand signals. Agency payment and repeat use of Particularity remain unverified. The founders’ consumer protection and security infrastructure experience, together with the public launch, support early execution credit. A representative agency deployment would test whether savings from repeat sweeps can cover agency-specific setup and ongoing review. (Market & Traction, The Idea, Founders & Team, Key Risks)
+**Scenario assumption.** If manual investigator time is what keeps an agency from running those checks routinely, automation could make them affordable. Compare the fully loaded cost per evidence package accepted by agency staff with the cost of a comparable manual sweep. The automated cost needs to include browser runs, failed sessions, retries, staff review, and any corroboration. The memo provides no measured baseline, acceptance rate, or deployment costs. It records a complaint-software solicitation, with no buyer commitment to proactive monitoring. (The Idea, Key Risks, Key Facts)
+
+The founders bring consumer protection policy experience and prior delivery of security and compliance infrastructure. That supports seed-stage execution credit, with an agency field test still ahead. (Founders & Team, Market & Traction)
 
 ### Countercase
 
-Under model parity, an incumbent could add browser screening to an existing investigation workflow. Particularity’s potential advantage is continuity across preserved evidence and staff decisions, but the memo documents no agency reliance on that history or preference under functional parity. Incomplete browser sessions and manual corroboration could also consume enough staff time to keep proactive sweeps uneconomic. The memo identifies both risks without a Particularity field comparison that settles either one. Both required conditions remain open, supporting Watch. (Defensibility, Market & Traction, Key Risks)
+Particularity could mainly make existing enforcement work faster. EU eLab already supports coordinated sweeps, and existing products cover evidence capture and complaint intake. A vendor with comparable browser agents could combine those functions, while failed sessions and authentication work could consume the labor savings. Agency case history might create switching costs after adoption, but the memo gives no evidence of buyer preference under functional parity or network effects. The New Economies gate remains open because the memo establishes neither a newly affordable use nor easy substitution for Particularity’s full workflow. (Market & Traction, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 7/15 |
-| Scale economics | 5/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 6/25 |
+| Customer demand | 5/20 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent agency fund repeat proactive cancellation sweeps with Particularity after a representative pilot compares it with manual investigation and a functionally equivalent tool using comparable models? Move to Reach out if the pilot shows a lower full cost per staff-accepted finding, enables sweeps the agency previously could not staff, and yields a funded repeat commitment tied to a Particularity-specific workflow benefit. Move to Pass if the comparison shows that review costs erase the savings needed to expand coverage or that the equivalent tool preserves the outcome with no buyer reason to stay.
+Will an independent target agency pay to continue recurring checks it previously could not staff after comparing Particularity with both manual review and a functionally comparable tool using similarly capable models? Move to **Reach out** if a paid pilot shows enough savings per staff-accepted evidence package to fund those checks and the agency chooses to continue with Particularity on viable terms after the comparison. Stay at **Watch** while either condition remains untested. Move to **Pass** if the pilot demonstrates that the checks remain unaffordable or the agency readily switches at parity, closing the only supported path.

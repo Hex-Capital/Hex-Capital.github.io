@@ -1,30 +1,32 @@
 ﻿# Composal -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Verify could make release-by-release browser QA economical for engineering teams that currently check critical user journeys only occasionally because each release takes manual testing time. Verify runs browser agents in parallel and saves journeys for reuse. Composal reports finding more than 1,500 bugs in customer apps. That suggests field use, while the labor saved per verified journey, coverage, and repeat paid use remain unmeasured in the memo. Setup calls show some teams were willing to spend engineering time evaluating the product. The browser QA launch and Recorder rollout, together with the founders’ prior work on coding-agent infrastructure and product engineering, support the team’s ability to ship and run a representative trial. (The Idea, Market & Traction, Founders & Team, Key Risks)
+Verify is Composal’s strongest New Economies path. The memo describes engineers manually checking user journeys before release. Verify uses browser agents to run reusable scenarios and returns recordings, logs, and reproduction steps. The market-opening scenario is that teams with limited QA capacity could verify customer journeys on every pull request, including checks they currently skip. That depends on Verify lowering the cost per reliable journey check at comparable coverage, including human setup, review, and reruns. The memo supplies neither a measured manual baseline nor a comparative result. (The Idea, Key Risks)
 
-**Scenario assumption.** A team that currently skips some checks could run them on every release if Verify brings the cost per correctly verified journey below what the team can afford at that cadence. Compare manual setup, execution, and failure investigation with Verify’s $500 monthly plan, any $1-per-minute overages, and the team’s time for setup, review, retries, and exceptions at comparable coverage and accuracy. Composal’s contribution per account also depends on browser and model costs, utilization, and support time. The memo gives list prices and included minutes, leaving both the buyer’s cost advantage and Composal’s contribution unresolved. (The Idea, Key Risks)
+Composal reports finding more than 1,500 bugs in customer apps, an early usage signal. The memo leaves buyer count, paid conversion, repeat use, and whether customers added previously unaffordable coverage unresolved. The Verify launch and early-access Recorder rollout show delivery relevant to the founders’ experience building agent infrastructure and engineering products. Composal also reported that authentication or network controls stalled five of ten setup calls, making onboarding a concrete execution risk. (Market & Traction, Founders & Team, Key Risks)
+
+Each additional team subscription is a plausible unit of expansion. At the documented $500 monthly price, a team that uses all 3,000 included browser minutes and buys no overage generates about $0.17 per browser minute. Actual contribution depends on usage, model and browser costs, free discovery scans, and human support for setup and exceptions. The memo provides pricing and leaves those costs unmeasured. (The Idea, Key Risks)
 
 ### Countercase
 
-Composal reports that nine teams it spoke with had already built internal QA agents and that five of ten setup calls stalled on authentication or network controls. Equivalent models could let buyers get the same release assurance from an internal stack, while access and review work could absorb the labor savings for teams with less QA capacity. Retained product maps, reusable scenarios, and failure records give buyers a concrete reason to consider staying, though the memo contains no evidence of paid retention under functional parity. The reported workarounds and setup friction leave both Path B gates open for testing. Without a representative cost comparison or observed buyer choice under parity, confidence is low. (Defensibility, Key Risks)
+Verify may make existing QA cheaper while remaining easy to replace. Composal reported that nine teams it spoke with had already built QA agents in-house, and the memo identifies commercial alternatives that automate overlapping work. Saved product maps, scenarios, and failure histories could give buyers a reason to stay, but preference under functional parity and network effects remain unproven. The in-house deployments make substitution credible. Whether buyers can switch at equivalent coverage and operating effort remains open, so the path stays on Watch. The memo identifies no independently supported scarce complement. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
 | Customer demand | 8/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 7/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent team that previously skipped critical journey checks because of labor cost renew Verify at a price that covers Composal’s delivery costs after comparing it with an internal stack using equivalent models? A representative release cycle would support **Reach out** if Verify enables the previously skipped checks at an affordable full cost per correctly verified journey and the buyer chooses to renew after the comparison. If the trial shows that the savings fail to make those checks viable or that the buyer switches to an equivalent stack and retains the same outcome, **Pass**.
+Will independent teams that previously skipped routine journey checks add that coverage and renew Verify at its listed price when an in-house setup using comparably capable models can match its coverage? A paid pilot with those teams would move the action to Reach out if it showed a material reduction in cost per reliable check versus the manual baseline, sustained use of the added coverage, and renewal despite the comparable alternative. If buyers readily switch once the alternative matches coverage and operating effort, the action moves to Pass.

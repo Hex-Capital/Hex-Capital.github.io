@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Fire’s strongest case is that agents could buy individual API responses that developers previously left unmetered or unavailable for small purchases. Fire says card fees make small charges impractical and that its funded, revocable agent accounts can enforce spending limits while e402 settles requests privately. Fire reports one mainnet test that returned a paid response in under two seconds. That supports technical feasibility at seed. Whether the workflow lowers labor enough to open a market remains unmeasured. (The Idea, Defensibility)
+**New Economies** is Fire Wallet’s strongest path. Fire claims that card fees make small payments uneconomic and that broad card permissions make it risky to let agents spend autonomously. The investment case is that capped, revocable accounts and private per-request settlement could reduce human approval and reconciliation work enough for agents to buy individual API calls that developers previously left unserved. Fire reports a mainnet test that returned a paid response in under two seconds. That test supports technical feasibility. The former cost per successful request, human time saved, and volume of newly viable requests remain unmeasured. (The Idea, Defensibility)
 
-**Scenario assumption.** If an API provider charges 1¢ per response and each successful response requires one settlement, Fire’s advertised $0.00256 network fee consumes 25.6% of the price. Relative to card checkout with manual spending approvals, the potential labor savings would come from automating approvals and reconciliation. The full cost per successful response also includes retries, exceptions, conversion, compliance, and API fulfillment. Fire advertises zero e402 fees, so even if the buyer’s cost falls enough to support repeat purchases, Fire’s own contribution economics remain unresolved. (The Idea, Key Risks)
+Fire reports a signed LOI with Trustboop and an enterprise merchant in onboarding. Those are early demand signals. The reported $1.5M per month is the merchant’s existing volume, and the $100M per year is estimated potential GMV associated with introductions. Willingness to pay Fire for newly viable agent transactions remains untested. The founders’ prior work on MobileCoin, which Signal integrated, supports their ability to ship payment infrastructure. The memo records a WordPress beta and an Ethereum-only App Store listing, with wider rollout still pending. (Market & Traction, Founders & Team, Key Risks)
 
-Fire reports a signed Trustboop LOI and an enterprise merchant onboarding. The merchant’s roughly $1.5 million in monthly volume describes its existing business. Recurring paid agent API use remains unverified. The memo records that two founders worked on MobileCoin, which Signal integrated, and that Fire offers a WordPress beta. The listed iPhone wallet is Ethereum-only. The team has relevant payments experience, with live merchant integration still a milestone. (Market & Traction, Founders & Team, Key Risks)
+The expansion unit is a successful paid request. Assuming one on-chain payment per successful request, the advertised network charge is $0.00256 and Fire earns $0 in transaction fees. Any Fire-borne integration, support, or exception-handling cost would make contribution negative at those terms unless Fire adds revenue. The memo leaves those costs and a viable price unmeasured. (The Idea, Key Risks)
 
 ### Countercase
 
-With the same frontier model, an agent could use another payment stack. Crossmint already offers programmable agent wallets and per-request payments, Hinkal offers confidential merchant settlement, and Fire documents how merchants can accept e402 alongside x402. Fire could still earn preference if merchants value the combination of private settlement and delegated spending controls enough to pay for it. The memo offers no buyer comparison or evidence of switching costs, and it identifies no control over scarce payment capacity that would independently support Path A. The cost and model-parity gates remain open. A seed-stage pilot can test both, which supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
+Fire may make an existing payment workflow more convenient while leaving buyers free to switch. Crossmint offers programmable wallets and per-request payments, Hinkal offers confidential settlement, and Fire documents how merchants can accept e402 alongside x402. Fire also relies on MoonPay and 0x for conversion and swaps. Recurring integrations and spending policies could create switching costs, but the memo contains no observed preference under functional parity or evidence of a network effect. It identifies no independently supported scarce complement. These facts make substitution credible while leaving open whether Fire can unlock a new use and retain paying buyers when alternatives offer comparable functionality. That leaves the New Economies path on Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 7/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Path-specific thesis fit | 11/25 |
+| Durable value capture | 5/25 |
+| Customer demand | 8/20 |
+| Team and execution | 10/15 |
+| Scale economics | 3/15 |
 
 **Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent API provider and an agent customer that previously went without per-request access sustain paid usage in a pilot that compares Fire with the previous workflow and the best available payment substitute using the same agent model? Move to Reach out if measured labor and full delivery costs make the new use viable and the buyer chooses Fire at a price that supports positive contribution. Move to Pass if a representative pilot shows that the use remains uneconomic or that the buyer can switch and retain the outcome without a reason to pay Fire. (The Idea, Market & Traction, Key Risks)
+Can an independent API provider repeatedly pay Fire to serve agent requests it previously declined because payment and human handling costs were too high, while a functionally comparable option is available? A production pilot that measures before-and-after human time and all-in cost per successful request, then renews at a price that covers Fire’s incremental costs, would move the action to Reach out. If the pilot shows that the requests were already economical or that the buyer readily switches at parity, Pass.

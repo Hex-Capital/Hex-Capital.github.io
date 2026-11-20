@@ -5,26 +5,28 @@
 
 ### Company case
 
-The strongest path is repeatable direct sales to AI data center builders and operators. Nines is developing a robot to match, insert, and verify fiber connections during rack commissioning. The memo records a high-density GPU rack rollout in Europe, which supports the inference that the commissioning job travels. Nines proposes configuring installations for individual rows, halls, and rack formats. How much of the system can carry over to another site remains unproven. (The Idea, Market & Traction, Key Risks)
+Nines’ strongest path is to automate fiber patching during commissioning for data center operators that repeat the same rack format across halls and sites. Nines says technicians must match, insert, and verify thousands of fiber connections per GPU rack. Assuming strong fit at the first site, the robot and its controls could plausibly transfer to the same rack format abroad. The memo describes a comparable rack-scale system deployed in Europe. How much Nines would need to change its robot or controls for other layouts remains uncertain. (The Idea, Market & Traction, Key Risks)
 
-The memo documents two ways buyers can find Nines: YC launch introductions and a site-specific demo form. If an operator pays for a first installation and accepts the robot’s patching and verification work, the next plausible sale is another row or hall as the operator commissions more racks. That scenario assumes Nines can reuse most of the installation. The memo records no buyer-funded trial, completed commissioning deployment, repeat paid use, or measured rollout costs. For a company at public launch, the first link to test is whether a buyer can go live through an installation process that carries over to the next site. (The Idea, Market & Traction, Key Facts)
+The observed sales entry points are YC introductions and a site-specific demo form. Nines proposes configuring installations by row, hall, and rack format, which implies hands-on work before first value and gives little evidence of a reusable rollout. Successive commissioning projects could give the same operator a reason to buy again as it adds racks or halls. Per-site deployment and service fees are an inferred model. Renewal, paid expansion, and the proposed live-maintenance use cases remain unproven. (The Idea, Key Risks)
+
+The memo records a November 13 public launch by a two-person team, along with seed funding and launch attention. Paid deployments, earned revenue, and commercial growth are unknown, so initial traction takes the absent-evidence default. Under an assumed per-site fee, incremental contribution would be the fee less attributable sales effort, robot capacity, configuration and installation labor, and field support and rework. Reusing a rack configuration could reduce installation labor. Pricing and representative deployment costs are unknown, so cost economics also takes the default. (Market & Traction, Key Facts, The Idea, Key Risks)
 
 ### Countercase
 
-Rack-by-rack customization could make each sale a fresh engineering project. Flexible cables and crowded ports could require repeated tuning or technician intervention, and Nines identifies its published inspection sequence as a simulation. If those demands recur at every site, engineering and on-site support could rise in step with deployment revenue. The memo gives no field measurements establishing that pattern, so the structural downside gate does not apply. (The Idea, Key Risks)
+Physical variation could turn each installation into a new robotics engineering project. The memo identifies flexible cables, crowded ports, and rack-specific integration as risks. Nines labels its website inspection sequence as a simulation, leaving production reliability uncertain. If comparable sites require fresh engineering and field support that consume the deployment fee, the structural downside gate would apply. The memo leaves the amount and cost of that work unresolved, so the gate remains open. (Key Risks, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 4/25 |
+| Retention economics | 8/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can Nines take a second independent, paying operator live on a different rack format using the first rollout’s installation process? Move to Reach out if both operators accept the robot’s patching and verification work and the second rollout shows that rack-specific engineering and on-site support take fewer hours per comparable rack. (The Idea, Key Risks)
+Can Nines complete a second paid commissioning deployment for the same operator using the same robot and rack configuration, with positive incremental contribution? The fee earned, configuration changes, and actual installation and support costs would answer it. A repeat deployment that still requires bespoke engineering and consumes the fee would move the action to Pass. A profitable repeat deployment with bounded setup would support staying on Watch while commercial traction develops.

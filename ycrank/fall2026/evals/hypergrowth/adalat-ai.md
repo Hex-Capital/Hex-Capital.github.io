@@ -1,32 +1,30 @@
 ﻿# Adalat AI -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**Channel-led or repeatable sales** is the strongest path. A High Court can authorize Adalat AI for many district courtrooms, where judges and staff repeatedly need to turn testimony into editable records. Kerala’s High Court designated Adalat AI as the primary tool for recording trial-court depositions. The company reports that Andhra Pradesh followed with a mandate covering 733 courtrooms. The announced Zambia launch makes cross-border adoption credible, though the memo gives no detail on localization or funding there. (The Idea, Defensibility, Market & Traction)
+Assuming strong fit in Indian trial courts, the strongest path is to use courtroom transcription as the entry product, turn High Court pilots into judiciary-wide deployments, and carry the same product into other judiciaries. Kerala’s High Court designated Adalat AI as the primary tool for recording witness depositions. Adalat AI reports roughly 1,100 monthly active users and more than 25,600 hours transcribed in Kerala during the mandate’s first year. The required deposition workflow and reported use support behavioral retention. The reviewed court agreements specify pro bono terms, leaving paid renewal and expansion unproven. (Defensibility, Market & Traction, The Idea)
 
-Kerala’s workflow change shows meaningful institutional commitment. In a company-published testimonial, a magistrate reported hearing five to six witnesses daily with transcription, up from two to three. Adalat AI also reports approximately 1,100 monthly active users and more than 25,600 hours transcribed in Kerala during the mandate’s first year. That supports recurring use within one court system. Paid renewal and expansion remain unproven. (Defensibility, Market & Traction)
-
-The first link likely to break at scale is converting a court authorization into a buyer-funded rollout that can reuse the same onboarding process. With nearly three years since the first pilot, the High Court channel has demonstrated reach, while the reviewed agreements specify pro bono deployments. (The Idea, Market & Traction, Key Facts)
+Adalat AI reports reaching more than 6,800 courtrooms by November 2026, about 28 months after the Delhi platform launch. That is meaningful adoption, with a current team of 80. The memo documents grant funding and leaves paid production use unverified. In a scenario where the next judiciary receives the same pro bono terms, customer revenue starts at zero and incremental training, support, and transcription processing make contribution negative before grants. The memo does not quantify those costs. (Market & Traction, Key Facts, The Idea, Key Risks)
 
 ### Countercase
 
-The strongest case for Pass is that Adalat AI may scale courtroom coverage as a grant-funded service while each rollout still requires substantial staff time. The company reports that Kerala needed in-person training, refresher sessions, and workflow changes. The memo gives no comparable rollout effort or incremental cost figures, so contribution stays at the missing-evidence default. The structural downside gate remains open because the evidence does not establish that delivery costs rise in proportion to coverage or that courts cannot fund a repeatable rollout. (The Idea, Key Risks, Key Facts)
+The Zambia launch announcement is the strongest evidence that the transcription product could travel. It establishes a reported launch with local judicial partners, while leaving the scope of product changes and rollout effort unclear. The current product uses models tuned for Indian languages and embeds court-specific procedures, including Kerala’s signed-deposition workflow. High Court pilots and mandates give Adalat AI a repeatable sales channel, and the Kerala rollout still involved in-person training, refresher sessions, and workflow changes. Even with strong initial fit, the evidenced path into substantially different judiciaries requires material language, procedural, and implementation work. That triggers the structural downside gate. The memo leaves the extent of adaptation in Zambia uncertain. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 13/25 |
-| Retention and customer expansion | 10/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 6/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 9/20 |
+| Initial traction | 5/20 |
+| Cost economics | 3/10 |
 
-**Total Score: 52/100** (Neutral)
+**Total Score: 30/100** (Pass)
 
 ### Decisive diligence question
 
-Can a new High Court fund and go live with the same deposition workflow using a repeatable onboarding process? Move to Reach out when a buyer-funded deployment shows routine courtroom use and the fee covers measured incremental implementation, training, support, and compute costs.
+Can a judiciary outside India put the existing transcription product into paid production with limited language and workflow changes? One deployment with documented adaptation and onboarding effort, sustained courtroom use, and customer fees that cover incremental rollout and serving costs would move the action to Watch.

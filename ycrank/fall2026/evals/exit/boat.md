@@ -5,36 +5,38 @@
 
 ### Company case
 
-Strategic acquisition is Boat’s strongest path. An agent platform or cloud infrastructure provider could buy Boat to integrate persistent Ubuntu VMs with desktop, Docker, and snapshot-based resume and fork into its own product. Boat’s product documentation describes those capabilities. The reason to own them would be faster deployment of a differentiated runtime and direct control over its reliability and cost. The memo leaves that advantage over building, licensing, or partnering unmeasured. (The Idea, Defensibility)
+Boat’s strongest route is a strategic sale to a cloud or agent-platform operator. Boat documents full Ubuntu VMs with Docker and a desktop, plus APIs for resuming and forking persistent environments. The CTO says Boat built its snapshot system in-house. A buyer could use that stack to bring persistent agent workloads onto its platform sooner than an internal build. The memo offers no measured integration savings or buyer demand to establish how much that head start is worth. (The Idea, Defensibility)
 
-Boat reports growth from $200,000 to $1 million ARR in one month and more than 100,000 VM starts per day. That gives Boat a plausible base for a production test of whether paying teams keep persistent workloads on Boat and whether it can serve those workloads at attractive margins. Retention, fleet costs, burn, and runway remain open, so the capital required to reach that milestone is unclear. Boat says it built the snapshot system in-house and operates the stack from hosts through orchestration, supporting a plausible transfer of the core technology. IP title, customer and hosting contract transfer rights, and the impact of snapshot residency on customer migrations remain unverified. (Market & Traction, Key Facts, Defensibility, Key Risks)
+Boat reported more than 350 paying users and 100,000 daily VM starts. Those figures make a production milestone plausible. A buyer would need to see repeat paid usage and positive contribution margins after host and snapshot costs. The memo leaves retention, infrastructure costs, and the capital needed to reach that milestone open. Boat’s origins inside Ascii also leave IP ownership and the transferability of customer and hosting contracts to verify. (Market & Traction, Founders & Team, Key Risks)
 
-The memo gives no usable acquisition price or investor terms. The **illustrative proceeds bridge** assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, no follow-ons, and a $2.5 million gross cash target within eight years. It allocates proceeds pro rata before investor taxes and assumes $5 million of net debt in the sale scenarios. Fees and senior claims are unquantified.
+Boat reported $1 million in ARR, up from $200,000 a month earlier. That gives the proceeds analysis a revenue starting point, with no verified revenue quality or sale-price range. Under the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity value. (Key Facts)
 
-| Eight-year scenario | Gross cash to the holder |
-|---|---:|
-| $25 million enterprise-value sale, leaving $20 million of equity after assumed net debt | $600,000 (1.2×) |
-| $100 million enterprise-value sale, leaving $95 million of equity after assumed net debt | $2.85 million (5.7×) |
-| Growth plateaus, buyers stay away, public listing scale remains out of reach, and Boat reinvests all available cash with no secondary or payout | $0, with shares retained |
+The sale cases below assume Boat reaches $10 million in durable annualized revenue, with illustrative pricing of 3× in the modest case and 10× in the strong case. Both assume a full cash sale within eight years, $5 million in combined net debt and deal costs, and an eligible holder who receives 3% of distributable equity at closing with no senior preferences or holdbacks. Those assumptions imply an enterprise-value hurdle of about $88.3 million.
 
-The target requires $83.3 million of distributable equity at 3% ownership, or $88.3 million of enterprise value with the assumed debt. The equity hurdle rises to $125 million at 2% ownership and falls to $62.5 million at 4%. The strong-sale scenario clears the target at 3%, but the memo supplies neither buyer economics nor transaction evidence to support that price. It also leaves sponsor financing and cash generation, eligible secondary demand, listing readiness, and distributable cash unevidenced. (Market & Traction, Key Facts)
+| Scenario | Proceeds bridge | Cash to holder |
+|----------|-----------------|----------------|
+| Modest sale | $30M enterprise value less $5M leaves $25M for equity | $750,000 (1.5×) |
+| Strong sale | $100M enterprise value less $5M leaves $95M for equity | $2.85M (5.7×) |
+| Prolonged private | Boat reinvests cash and the holder makes no eligible sale within eight years | $0 |
+
+The strong sale clears the objective under the stated assumptions. At 2% ownership, it would return $1.9 million. The memo supplies no evidence of an eligible secondary, funded payout, or other independent liquidity route.
 
 ### Countercase
 
-AWS already bundles browser and code execution, and E2B offers a self-hostable runtime with fast-resume microVMs. A potential acquirer could cover enough of the same workloads with an existing product, an open-source runtime, or a commercial agreement. Those documented alternatives carry more weight today than the inferred benefit of ownership. They leave open whether Boat has a durable advantage for persistent desktop workloads. The evidence establishes neither a structural block nor a price ceiling, so the Pass gate is unwarranted. (Defensibility, Market & Traction, Key Risks)
+A likely buyer could build on E2B’s open-source runtime or use existing cloud capabilities for workloads that only need browser and code execution. Boat’s switching costs are unmeasured, and its documented burst limits and pending SOC 2 certification leave questions about production adoption. If buyers see little value in owning the persistent VM stack, Boat could keep growing while attracting offers below the holder’s hurdle. The memo establishes neither a structural closing barrier nor a supported price ceiling, so the Pass gate remains open pending evidence. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
-| Plausible investor proceeds | 8/30 |
+| Counterparty rationale or source of cash | 17/30 |
+| Plausible investor proceeds | 11/30 |
 | Milestones and capital needed | 12/20 |
 | Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a credible strategic buyer quantify enough incremental value from owning Boat’s persistent VM stack to support an acquisition near or above the illustrative $88.3 million enterprise-value hurdle? A buyer-side build-versus-buy analysis grounded in retained paid workloads, comparative runtime performance, and fleet margins would answer it. A supported price range that clears the holder’s target would change the action to Reach out.
+What measurable advantage over an internal build or an existing sandbox would justify a strategic buyer paying at least $88.3 million in enterprise value under the modeled terms? A buyer-side evaluation that quantifies incremental gross profit or avoided build and operating costs, and supports that price range, would move the action to Reach out.

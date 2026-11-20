@@ -5,34 +5,36 @@
 
 ### Company case
 
-A strategic acquisition by a digital adoption vendor such as SAP is the strongest path. ChampionEffect says its coach joins live calls in Slack and Teams and reuses walkthroughs to help coworkers at the same employer. SAP’s WalkMe already provides in-app guidance. ChampionEffect could add live coaching for tasks that span tools. Ownership could be worth more than a license if control of the coaching technology and transferable workflow rights let the buyer sell a differentiated product across its customer base. The memo establishes the product fit. Buyer interest and the economic benefit of ownership remain unverified. (The Idea, Defensibility, Market & Traction)
+A strategic acquisition by a digital adoption vendor such as SAP WalkMe is ChampionEffect’s strongest exit path. ChampionEffect says its coach guides employees on live calls through Slack or Teams and reuses what it learns to coach coworkers at the same company. The memo identifies WalkMe’s existing in-app guidance business and its ownership by SAP. A buyer could add live coaching to its existing offering and reduce the staff time needed to teach company-specific workflows. That rationale depends on repeat use and measurable savings, both of which remain unverified. (The Idea, Defensibility, Market & Traction)
 
-A plausible seed-stage milestone is repeat use of permissioned workflows across multiple paid deployments, with measured reductions in employee support time compared with existing guidance. The launch and the founders’ experience building and distributing live education support attempting that test. Reported financing figures of $125,000 and $500,000 conflict, and the memo supplies neither a confirmed total nor burn data to establish a funded path. Transfer rights for customer workflows and continued platform approvals are also unverified. The memo supplies no independent evidence of sponsor financing, an eligible tender, a path to public scale, or distributable cash. (Founders & Team, Market & Traction, Key Risks, Key Facts)
+The seed-stage milestone is two paid, administrator-approved deployments that demonstrate repeat use of coworker workflows and measure time saved against the customer’s current rollout process. A six-to-twelve-month test is a planning assumption. The founders’ engineering and go-to-market experience at Cambly supports a limited pilot, while conflicting financing reports leave runway and the available pilot budget uncertain. Slack and Teams administrators can restrict deployment, and a buyer would need to verify that customer contracts permit continued use of workflow knowledge after a sale. Holder participation and required consents are unknown. The memo provides no evidence of an independent route to liquidity. (Founders & Team, Market & Traction, Key Risks)
 
-With actual holder terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. To return 5× gross within eight years, the holder needs $2.5 million in cash. A simple pro rata allocation before investor taxes requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires about $88.3 million in enterprise value before any additional fees or senior claims. The memo supplies no supported acquisition price range. (Market & Traction, Key Facts)
+Using the rubric benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity value. Both sale scenarios assume an eligible holder sells their entire stake for cash within eight years, with no holdbacks, earnouts, or preferential claims diverting proceeds after the stated deductions.
 
-| Scenario | Gross cash to the holder |
-|---|---|
-| $25 million enterprise-value sale in year eight, after $5 million of assumed net debt | $600,000, or 1.2× |
-| $100 million enterprise-value sale in year eight, after $5 million of assumed net debt | $2.85 million, or 5.7× |
-| Growth plateaus below public-listing scale, buyers stay away, and available cash is reinvested with no secondary or payout for eight years | $0 realized, with shares still held |
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|----------|----------------------------|----------------------|
+| Modest sale | $40M enterprise value less $5M in assumed debt and deal adjustments = $35M distributable equity | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less $10M in assumed debt and deal adjustments = $90M distributable equity | $2.70M (5.4×) |
+| Prolonged private | Cash is reinvested, with no share sale or distribution within eight years | $0 |
+
+The sale prices are illustrative assumptions. The memo gives no ChampionEffect revenue, measured buyer economics, or comparable deal price to support them. The strong case is also sensitive to deductions. At $20 million in debt and deal adjustments, the same $100 million sale yields $2.4 million to the holder, below the objective. (Market & Traction, Key Facts)
 
 ### Countercase
 
-SAP WalkMe already offers embedded guidance, and Section offers role-specific coaching. A buyer could extend an existing product or license live coaching. If customer-specific workflows cannot transfer, acquiring ChampionEffect may convey little beyond the software and team. Slack and Teams administrator controls can also delay the deployments needed to prove buyer value. These risks support Watch. The memo leaves both an actual transfer block and a realizable sale price unestablished, so the Pass gate does not apply. (Defensibility, Key Risks)
+WalkMe already offers in-app guidance, and Section already offers role-specific AI coaching. A strategic buyer could extend an existing product and avoid taking on the access-control and accuracy risks of reusing employee walkthroughs. The memo establishes overlap with parts of ChampionEffect’s offering and leaves the value of cross-employee reuse unmeasured. That weakens the case for an acquisition premium. It does not establish a ready substitute for the full workflow, a closing barrier, or a credible price ceiling below the holder’s hurdle. The Pass gate is untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 7/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-What price could a strategic buyer justify for owning ChampionEffect after paid deployments show that coworkers repeatedly reuse permissioned workflows and spend measurably less time getting help than with existing guidance? Move from Watch to Reach out if those results give a plausible buyer an economic reason to own the transferable capability and support a price range that clears the roughly $88.3 million enterprise-value hurdle under the modeled terms.
+Would a digital adoption vendor’s buy-versus-build analysis support a price that leaves at least $83.3 million in distributable equity? Repeat-use and time-savings data from paid deployments, combined with buyer-side estimates of incremental revenue or avoided costs, would test that price. A supported range that clears the hurdle after debt and deal adjustments would move the action to Reach out.

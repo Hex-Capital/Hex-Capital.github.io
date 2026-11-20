@@ -5,26 +5,30 @@
 
 ### Company case
 
-Product-led adoption is Volaren’s strongest path. Self-directed investors with holdings across brokerages have a recurring job when markets move. They need to understand what changed across their accounts and decide whether to act. Volaren documents account linking, portfolio explanations, and trade proposals users can review by web or text. If investors can link accounts on their own and get a useful explanation at the first meaningful portfolio move, referrals could bring in similar users and repeated use could drive upgrades to the $12 monthly plan for more AI credits. The job plausibly travels across markets, while access to local brokerages and the scope of permitted features remain unresolved. (The Idea, Key Risks)
+Assuming strong product-market fit, Volaren’s strongest path is a self-serve subscription for self-directed investors who want to understand portfolio moves across brokerages. Linked-account explanations are the most portable part of the current product. The job plausibly recurs abroad, and Volaren already supports tracking-only access at some institutions. How much broker integration and localization the same product would need in another market remains uncertain. (The Idea, Key Risks)
 
-The memo records a November 9 launch and reports 3.7 million views on the founder’s launch post. Volaren claims more than 950 funds and retail traders in signup copy without defining activity or payment. Its waitlist rewards referrals, and users can prepay $36 for three months of immediate access. The first unproven link is whether independent users can go from discovery to linked accounts, first value, and payment through the same self-serve flow. The memo gives no concrete buyer commitment, repeat-use records, or measured marginal costs. At this stage, a small cohort could establish the path. (Market & Traction, The Idea, Key Facts)
+The documented onboarding path runs from a public waitlist with referral incentives to immediate access advertised for a $36 three-month prepayment, then account linking and portfolio analysis. It offers a plausible bottom-up route, with independent payment and activation still unverified. The $12 monthly plan and saved account history support recurring use, and optional credit packs give heavier users a way to spend more. Expansion depends on users regularly exceeding the included allowance, since trading volume itself generates no fees. (The Idea, Defensibility, Key Risks)
+
+The memo records a November 9 launch and reports substantial launch attention. Volaren’s signup copy claims more than 950 funds and retail traders, with activity and payment status unspecified. Realized revenue, paid production use, and commercial growth remain unknown, so initial traction takes the absent-evidence default. (Market & Traction, Key Facts)
+
+At full use of the 1,000 included credits, the $12 plan yields 1.2¢ in base revenue per credit before variable costs. This scenario leaves AI processing, brokerage data and syncing, and attributable support to be covered from the same $12. Credit allowances and paid top-ups give Volaren a lever to manage heavy usage, while actual usage and serving costs remain unknown. The gaps in paid activation, cross-market access, and contribution support Low confidence. (The Idea, Key Risks)
 
 ### Countercase
 
-The referral rewards and launch attention could generate signups that stall at account linking or fail to turn into repeat paid use. Some broker integrations provide tracking only, and the memo describes unresolved adviser registration and inconsistent order-approval disclosures. Those constraints could narrow which users get the full workflow. The $12 plan includes more AI credits and carries no per-trade fee, so heavier use could add inference or support costs without increasing revenue from that user. The memo leaves those costs unmeasured. The structural downside gate stays open because the evidence does not show that serving more buyers requires proportional custom work or that the portfolio-explanation workflow is structurally blocked. (The Idea, Market & Traction, Key Risks)
+Users may pay chiefly for trade execution, where Volaren depends on broker permissions and some connections support tracking only. Conflicting order-approval disclosures and unresolved adviser-registration status add uncertainty to that path. Brokerages can also bundle similar features into accounts they already serve. The structural downside gate stays open because the memo does not establish that portfolio tracking and explanations require substantial market-by-market rebuilding or uneconomic per-user work. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 17/25 |
+| Retention economics | 15/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 56/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a cohort of independent, multi-broker retail investors acquired through referrals link their accounts without founder help, get a useful portfolio explanation, pay, and return at a subsequent portfolio move? A cohort with that observed sequence would move the action to Reach out. Repeated activation failures that require account-by-account fixes with no reusable remedy would move it to Pass.
+Can a paying cohort in a second market link its existing brokers, receive portfolio explanations, and renew through the same self-serve flow with limited adaptation? A dated rollout showing a material ramp in paid activations, first renewals, and limited implementation work would support Reach out if the updated score reaches 65 and confidence reaches Medium. Evidence that even the tracking and explanation workflow requires substantial bespoke rebuilding in each market would change the action to Pass.

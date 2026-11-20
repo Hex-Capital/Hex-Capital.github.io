@@ -1,30 +1,38 @@
 ﻿# Boat -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Reach out  
 **Evidence confidence:** Medium
 
 ### Company case
 
-**Usage-based expansion** is Boat’s strongest path. Teams building long-running agents can provision a persistent Ubuntu VM through a CLI, API, or SDK, resume it for recurring jobs, and fork it for additional work. Boat bills running time by the second. If customers put more recurring jobs on Boat, their billable VM time could grow within the same account. The documented workflow is portable for teams that can use Boat’s European hosting. Buyer geography is unreported, and snapshot residency and pending SOC 2 limit which buyers can adopt. (The Idea, Key Risks)
+Boat’s strongest Hypergrowth path is self-serve infrastructure for developers running long-lived AI agents. Conditional on strong product-market fit, teams can adopt Boat for one workload and increase paid VM usage as they deploy more agents.
 
-Boat documents self-service trial provisioning, and the founder reports that X and Product Hunt each brought in trial users. The founder also reports 350+ paying users in September and $1 million in ARR in November, up from $200,000 one month earlier. Those figures support early willingness to pay, while the conversion path from either launch channel to paid use remains open. A named customer reported using his Claude allowance four times as fast after adopting Boat. That is evidence of a specific workflow benefit, with paid VM usage over time still unmeasured in the memo. (The Idea, Market & Traction, Key Facts)
+**Global buyer demand.** Developers can run the same persistent Ubuntu workloads through Boat’s standard CLI, API, or SDK across markets that accept its hosting policies. EU-only VM regions, possible snapshot storage outside the EU, and SOC 2 still in progress narrow access for buyers with residency or procurement requirements. The core developer workflow is broadly portable within those constraints. (The Idea, Key Risks)
+
+**Repeatable acquisition and onboarding.** Launches on X and Product Hunt give developers concrete ways to discover Boat. Self-serve signup, a seven-day trial, and a documented quickstart give them a route to provisioning a first VM, with published monthly plans and metered billing for continued use. SDK downloads corroborate developer distribution. The memo leaves the strength of an ongoing acquisition loop uncertain. (The Idea, Market & Traction)
+
+**Retention economics.** Persistent environments and snapshots give teams a reason to return to Boat. Monthly plans and per-second runtime billing give retained accounts a way to spend more as agent fleets grow. That expansion could offset churn, though the memo does not establish how much existing accounts expand or how long they stay. (The Idea, Defensibility)
+
+**Initial traction.** The founder reported 350+ paying users by September, roughly four months after the May launch, and $1 million in ARR on November 7, up from $200,000 a month earlier. For a three-person team, that is a steep reported path to commercialization. The composition of ARR and the durability of the one-month increase remain uncertain. VM starts measure activity and leave paid runtime unknown. (Market & Traction, Key Facts, company overview)
+
+**Cost economics.** Assuming 1,000 additional hours of the standard 4-vCPU, 8-GB VM are billed and collected at $0.036 per hour, they generate $36 before any burst fees. Positive incremental contribution requires the attributable host capacity, idle headroom, snapshot storage, and support to cost less than $36. Auto-stop can free compute capacity when workloads go idle, and burst fees give Boat a way to charge for some peak demand. The memo leaves utilization, capacity step-ups, and realized contribution unresolved. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The first unproven link is whether customers turn an initial workload into recurring, expanding paid runtime. Founder-reported VM starts count activations, while Boat earns usage revenue on running time. Aggregate ARR growth could come from new buyers, and bursts could lift starts while adding little billable runtime. At the listed $0.036 per running hour for a standard VM, incremental contribution depends on the host capacity, snapshot storage, and support that additional usage requires. Auto-stop could reduce idle capacity costs as well as billable time. The memo provides no cohort-level billing or marginal-cost measurements. The structural downside gate stays open because proportional delivery costs have yet to be established. (The Idea, Market & Traction, Key Facts, Key Risks)
+Boat could grow billable usage quickly while earning thin contribution if bursts force it to add host capacity that sits idle between peaks. Its documented burst limits already allow higher bursts to be rejected, and customers with overlapping needs can turn to cloud-native alternatives. The structural downside gate stays open. The memo shows capacity constraints and concrete ways to manage them, while leaving their effect on contribution unmeasured. (Key Risks, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 12/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 21/25 |
+| Repeatable acquisition and onboarding | 21/25 |
+| Retention economics | 16/20 |
+| Initial traction | 17/20 |
+| Cost economics | 6/10 |
 
-**Total Score: 49/100** (Neutral)
+**Total Score: 81/100** (Invest)
 
 ### Decisive diligence question
 
-Across consecutive monthly billing periods, do independently acquired agent-building teams add billable VM hours for recurring workloads at positive, improving incremental contribution after host capacity, snapshot storage, and support costs? Account-level billing matched to workload and cost records would move Boat to **Reach out** if several teams show that pattern. **Watch** holds while the pattern remains unresolved. If the records show that added workloads consistently require proportional costs that consume the incremental revenue, with no supported way to improve, move to **Pass**.
+Does incremental contribution stay healthy when paid production demand forces Boat to add host capacity? A representative capacity step-up, with collected revenue matched against host costs, idle headroom, snapshot storage, and attributable onboarding and support, would answer it. Healthy contribution through that step-up would sustain Reach out. Persistently negative contribution without a credible improvement lever would change the action to Pass.

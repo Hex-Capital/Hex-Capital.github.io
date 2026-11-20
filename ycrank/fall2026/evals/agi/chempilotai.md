@@ -5,26 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** ChemPilot says materials R&D relies on manual trial and error. Its proposed workflow uses models to select candidates for physical testing and feeds lab measurements back into the software. The founders report that robots already run experiments alongside scientists. The seed-stage hypothesis is that this workflow can make smaller aerospace materials projects economical for buyers who previously shelved them. If equivalent models become widely available, buyers could still pay ChemPilot to run the experiments and deliver results they can use. Both conditions remain untested. (The Idea; Defensibility; Market & Traction)
+The strongest path is a **scarce complement**. If better models generate more promising materials candidates, physical testing capacity could become more valuable. ChemPilot says its first in-house lab runs experiments with robots alongside scientists and feeds measurements back into its software. That supports a plausible mechanism and some control over test execution. Scarcity remains unproven because the memo gives no measured validation backlog or evidence that buyers struggle to obtain equivalent testing. (The Idea, Defensibility, Market & Traction)
 
-The memo documents relevant Technion research and software experience. The reported pre-incorporation collaboration signals interest from industrial and government researchers, while paid demand from buyers with previously shelved projects remains unverified. A plausible expansion unit is a customer brief that yields a buyer-accepted result. Its economics depend on whether the project fee covers scientist time, failed runs and retries, lab costs at realized utilization, and any qualification work included in the contract. The memo provides no measured cost or throughput for that unit. (Founders & Team; Market & Traction; Key Risks; Key Facts)
+The memo reports pre-incorporation Technion collaborations with an unnamed defense prime and government R&D agencies. That shows research engagement, with willingness to pay still open. The founders bring materials research and software automation experience, and the reported lab is an early execution milestone. Under an inferred project-based model, the unit of expansion would be one customer project that meets agreed test criteria. Its economics would depend on the project fee relative to scientist time, consumables, equipment costs at actual utilization, reruns, and any qualification support. The memo supplies no operating figures for that comparison. (The Idea, Market & Traction, Founders & Team, Key Risks, Key Facts)
 
 ### Countercase
 
-ChemPilot may speed up screening for projects customers already fund while scientist supervision and downstream qualification keep smaller projects uneconomic. Periodic Labs has deployed models in its own physical labs and overlaps in defense R&D, making a competing lab service credible under model parity. The memo leaves both market opening and buyer substitution unresolved. That supports Watch. (Defensibility; Market & Traction; Key Risks)
+Periodic Labs has deployed experimental-analysis software in its own labs and overlaps in defense R&D. That makes the software-plus-lab model replicable in principle. ChemPilot’s claimed proprietary data has no disclosed cross-program benchmark showing a durable advantage. These facts leave the scarcity gate unresolved. The memo also gives no cost per successful outcome or evidence that lower costs would bring previously excluded buyers or uses into the market, so New Economies supplies no independent case. (Defensibility, Market & Traction, The Idea)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 11/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 6/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer place a paid repeat order for work it previously shelved on cost grounds? Reach out if a representative pilot shows a lower fully loaded cost per buyer-accepted result than the conventional route, positive contribution at the price paid, and the buyer repeats because it values ChemPilot’s lab execution even with a model-equivalent option available. Pass if the comparison shows the work remains uneconomic or the buyer can switch and retain the same outcome on equivalent terms.
+Will an independent target buyer pay for a repeat project because ChemPilot can complete physical validation to the buyer’s specifications within a timeframe credible alternatives cannot match? A repeat purchase backed by the buyer’s comparison and a project fee that covers fully loaded delivery costs would move the action to Reach out. Evidence that buyers can readily obtain equivalent service elsewhere would close the scarce-complement path and move the action to Pass.

@@ -5,24 +5,26 @@
 
 ### Company case
 
-BioDelivera’s strongest plausible path is repeatable direct sales to pharma and biotech teams developing targeted oncology therapies. Assuming GCV proves useful for an initial program, the recurring job would be to evaluate delivery for each new therapeutic candidate. A buyer-funded evaluation could lead to a program license, and a reusable evaluation process could help BioDelivera win similar buyers in other markets. Program licensing is an inference. The memo documents a founder-run inbound channel, and BioDelivera reports efficacy in tumors, muscle, and brain. That reported breadth makes reuse plausible, while human selectivity and manufacturing consistency remain unresolved. The buyer and job plausibly travel across markets, with material validation barriers still open. (The Idea; Market & Traction; Key Risks)
+Assuming strong product-market fit in an initial therapeutic program, BioDelivera’s strongest path is to license its delivery platform to pharma developers and earn additional fees as partners use it in more programs. Developers in multiple markets could have the same delivery need. BioDelivera reports efficacy in tumors, muscle, and brain and describes a platform that can carry multiple cargo types. Those claims suggest that parts of the platform could transfer across buyers and markets. How much validation and manufacturing work each program would require remains uncertain. (The Idea; Market & Traction; Key Risks)
+
+The memo documents a founder inbox as the route for inbound interest. A founder-led sale and program-specific onboarding are the most plausible path to first use. Licensing and follow-on fees are scenario assumptions. The memo documents awards, launch attention, and YC backing, while commercial status and same-account spending remain unknown. Under the licensing scenario, contribution on the next program would be the license fee less attributable sales, onboarding, validation, manufacturing, and support costs. Reuse could reduce those costs, but the memo provides no fees or operating inputs to estimate the effect. (The Idea; Defensibility; Market & Traction; Key Facts; Key Risks)
 
 ### Countercase
 
-The first link likely to break after initial fit is repeatable onboarding. If each new cargo or program requires extensive founder-led development and fresh validation, each license could carry substantial new delivery costs. The memo identifies potency consistency across cargo types as a risk and supplies no buyer commitments, activation results, repeat purchases, or measured rollout costs. Those evidence gaps warrant the four defaults. The structural downside gate remains untriggered because the cost of serving the next program is still a testable question. (The Idea; Key Risks; Key Facts)
+Each pharma program could require substantial fresh validation and manufacturing work even after the platform finds a strong fit with its first partner. Unresolved human selectivity and the risk of inconsistent potency across cargo types support that concern. Existing pharma relationships could also narrow the pool of available buyers. The structural downside gate remains open because the memo leaves the amount of unavoidable work and the resulting program economics unresolved. (Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
 | Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Repeatable acquisition and onboarding | 4/25 |
+| Retention economics | 7/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent oncology developer fund a GCV evaluation and reach a buyer-agreed success milestone through a documented, reusable process? A completed evaluation with buyer sign-off and recorded founder and lab effort showing that the work fits a bounded scope would move the action to Reach out.
+Can a pharma partner bring a second paid program into use by reusing the first program’s delivery package and onboarding, with the follow-on fee covering incremental costs? A completed, paid follow-on with a breakdown of reused work and actual costs would justify rescoring the case for Reach out. Evidence that unavoidable bespoke work makes repeat programs uneconomic would move Watch to Pass.

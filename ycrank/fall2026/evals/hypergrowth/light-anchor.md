@@ -1,32 +1,32 @@
 ﻿# Light Anchor -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-The strongest path is **channel-led or repeatable sales** through direct sales to beauty and wellness brands that need someone to run US e-commerce growth. Anuko, a Korean hair-care brand with an unstaffed US growth function, handed Light Anchor recurring Amazon campaign work. The rollout shows that Light Anchor can serve a brand based abroad through its existing US storefront and ad accounts. Serving another destination market remains untested. Light Anchor describes direct outreach and demos, and names other agency clients. Anuko is the only account the memo traces through live operation, and its lead source, onboarding effort, and fee payment are unreported. (The Idea, Market & Traction)
+Light Anchor’s strongest Hypergrowth path is managed growth for brands on Amazon and Shopify through client-owned accounts. Assuming strong product-market fit, it could reuse review research, AI-generated creative, and live campaign feedback across brands. Anuko’s US rollout shows that the service can serve a foreign brand entering the US. The storefront workflows could transfer to other markets. The amount of local creative and campaign work each new market would require remains uncertain. (*The Idea, Defensibility*)
 
-Light Anchor began running Anuko’s US growth in July. Anuko’s testimonial reports that daily Amazon sales reached 54× the June baseline in the week ending October 6, with sales at 3.07× ad spend on October 1–7. The handoff of live campaign work is concrete evidence of buyer commitment, and the July-to-October timeline gives an early signal of continued use. The figures cover a short performance window, with renewal, additional paid work, and collected fees still unverified. (The Idea, Market & Traction, Key Facts)
+Light Anchor quotes a fee of 5–15% of tag-attributed sales. At a stable fee rate, rising attributed sales from the same brand would increase recurring revenue. Whether that expansion could offset churn, weaker campaigns, and attribution disputes is uncertain. For every $100 in attributed sales, assuming the quoted fee is collected, Light Anchor would earn $5–$15 before attributable sales, setup, campaign oversight, and AI operating costs. Clients pay for ads directly. Reusing campaign workflows could improve contribution, but the memo gives no measurements of operator time or AI costs. (*The Idea, Key Risks*)
 
-The first likely bottleneck after fit is onboarding and running the next account with less founder time. Light Anchor quotes 5–15% of tag-attributed sales and bills ad spend directly to clients. Under those terms, the next account’s contribution depends on fees collected after sales effort, setup, campaign oversight, support, and AI costs. The memo gives no account-level measurements for those costs. (The Idea, Key Facts)
+Anuko’s testimonial reports that daily Amazon sales reached 54× its June baseline in the week ending October 6. The memo lists seven case-study brands and a two-person team. That establishes deployment activity and a reported customer outcome. Light Anchor’s fee collections and paying-account growth for the managed service remain unverified, and the earlier MRR report has unspecified scope. Initial traction receives the default. (*Market & Traction, Founders & Team, Key Facts*)
 
 ### Countercase
 
-Light Anchor could scale as a managed agency that still needs custom creative, storefront setup, and ongoing oversight for each brand. The company says its agents reuse operating records across brands, but the memo reports no measured reduction in rollout effort. Founder and family labor packing orders shows that manual work persists in the owned-brand portfolio. The managed service uses client-owned accounts, and its staffing needs remain unresolved. The structural downside gate requires affirmative evidence that every credible path is blocked. Here, the service’s ability to reuse work across accounts is a testable question, so Watch is warranted. (The Idea, Defensibility, Key Risks)
+The managed service could scale like an agency. The documented sales path uses booked demos, delivery requires access to client accounts, and Anuko engaged Light Anchor to handle unstaffed US growth work. If Light Anchor must supply substantial operator time for each client and redo creative and campaign workflows for each market, its sales-based fee may leave little contribution as it expands. The structural gate remains open because the memo establishes hands-on delivery but leaves the minimum labor and market-specific work unresolved. (*The Idea, Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 15/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 8/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 15/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a second independent beauty brand entering the US go from a standard sales demo to paid, recurring Amazon campaign operation through an onboarding process someone other than a founder can run? A collected fee and a rollout record showing positive contribution after delivery costs, with materially fewer founder hours than Anuko at comparable scope, would move the action to **Reach out**.
+Can a paying cohort in a second destination market reach its first live campaign through a repeatable channel and standard setup with little staff help, then generate repeat fees at positive contribution? Cohort records showing how buyers came in, time to launch, staff hours, AI costs, and collected fees across multiple billing periods would answer it. Move to Reach out if those records establish bounded localization and scalable delivery, raise the score to at least 65, and support at least Medium confidence.

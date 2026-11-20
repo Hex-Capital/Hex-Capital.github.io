@@ -5,30 +5,34 @@
 
 ### Company case
 
-Strategic acquisition by an enterprise access or security platform is Routant’s strongest path. Routant describes a gateway that lets software vendors use one integration across customer environments while customers control private connectivity, permissions, and approvals. A buyer could pay to own that gateway if it measurably shortens enterprise deployments or lowers integration and support costs relative to building or partnering. The memo records a public launch, a demo, and confirmed YC backing. It gives no production deployment metrics, buyer-quantified benefit, acquisition pricing, or asset transfer terms. (The Idea, Market & Traction, Key Facts)
+The strongest path is a strategic acquisition by an enterprise identity or agent infrastructure provider. Routant says one MCP integration lets a software vendor connect agents to multiple enterprises’ private systems while each customer controls permissions and approvals. If that setup measurably reduces integration and rollout work across customers, an acquirer could use it to extend its own product into customer-managed environments. Cisco’s reported investment in Arcade.dev and Duo’s integration with Arcade show strategic interest in adjacent agent controls. The memo documents Routant’s public launch and YC backing. Paid production deployments, rollout savings, and the capital available to fund those deployments remain unverified. (The Idea, Market & Traction, Key Facts)
 
-A seed-stage milestone would be one software vendor using the same integration in paid production at two enterprises with different environments and measuring rollout time and support costs against the available alternatives. The demo gives Routant a starting point, but each enterprise still needs to connect its systems and configure policies. Conflicting financing reports leave available capital uncertain, and the memo gives no burn or runway figures. A sponsor buyout lacks evidence of predictable cash generation. A secondary lacks evidence of share demand and seller eligibility. An IPO lacks evidence of operating scale and reporting readiness. Dividends or buybacks lack evidence of sustained excess cash and a funded payout. (Market & Traction, Key Facts, Key Risks)
+The proceeds bridge uses the shared benchmark of a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return requires $2.5 million within eight years, or about $83.3 million in distributable equity at 3%. Both sale scenarios assume a full cash sale within eight years, $5 million in combined net debt and deal deductions, pro rata participation on all the holder’s shares, and no senior preference or holdback. Actual holder rights, customer consents, and the payout waterfall are unverified.
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation buys 5%, diluted by 40% to 3%, with no follow-ons. The 5× target is $2.5 million in gross cash within eight years. On a simple pro rata basis before investor taxes, that requires about $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires about $88.3 million in enterprise value. A $25 million sale in year eight would yield $600,000 gross (1.2×), while a $100 million sale would yield $2.85 million gross (5.7×). Both illustrations assume $5 million of net debt and no additional deductions for fees or senior claims. Routant’s actual debt, preferences, and investor ownership are unverified, and the memo gives no basis for underwriting either sale price. (Market & Traction, Key Facts)
+| Scenario | Distributable equity | Gross cash to holder |
+|---|---:|---:|
+| Modest sale at $40 million enterprise value | $35 million | $1.05 million (2.1×) |
+| Strong sale at $100 million enterprise value | $95 million | $2.85 million (5.7×) |
+| Prolonged private operation with cash reinvested and no share sale | No distribution | $0 |
 
-If growth plateaus, buyers stay away, public-market scale remains out of reach, and Routant reinvests available cash, eight years of private operation without a sale, listing, eligible secondary, or funded payout yields $0 realized cash, with the shares still held. Wind-down proceeds would depend on the residual after obligations and preferences, which the memo does not quantify. (Market & Traction, Key Facts)
+The strong scenario clears the objective on those assumptions. The memo supplies no acquisition pricing or measured buyer economics to support that price, and no evidence of an independent route to holder cash. (Market & Traction, Key Facts)
 
 ### Countercase
 
-AWS already offers overlapping private connectivity and MCP governance, and the Arcade.dev–Cisco Duo integration shows that a platform can add agent approvals through a partnership. A buyer could cover enough of the workflow through a native product or a partner that owning Routant adds little. The memo identifies no measured switching costs or deployment advantage to offset that evidence. The substitutes weaken the ownership case without establishing that the cross-environment route is structurally blocked or that an achievable price would leave the holder materially short. The Pass gate therefore does not apply. (The Idea, Defensibility, Market & Traction, Key Risks)
+An acquirer may be able to fill the gap through its own product or a partnership. AWS already offers overlapping private MCP connectivity and governance, and Cisco already delivers sensitive-action approvals through Arcade. Routant’s proposed advantage still depends on each enterprise connecting its systems and configuring its policies. That work could erode the savings from a reusable vendor integration, and the memo identifies no current moat. These facts weaken the case for a buyer paying a premium. They leave open whether Routant can deliver enough value in customer-managed environments to clear the proceeds hurdle, so the Pass gate remains unmet. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 11/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can a prospective strategic buyer justify an acquisition price that clears the holder’s cash hurdle based on the measured benefit of owning Routant’s gateway? Buyer-validated economics from repeat paid deployments across distinct customer environments would move the action to Reach out if they support a price range that clears $2.5 million of holder proceeds within eight years after realistic dilution, debt, and senior claims.
+Can one software vendor reuse the same Routant integration in two paid production deployments and show materially less rollout work than with its existing tools? Customer-confirmed deployment records and before-and-after engineering effort would answer it. Repeatable savings large enough to support a credible buyer case near the roughly $88 million enterprise-value hurdle under the stated assumptions would move the action to Reach out.

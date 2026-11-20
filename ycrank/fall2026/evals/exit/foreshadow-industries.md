@@ -5,15 +5,21 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A naval platform integrator could buy Zulu and its retrofit integration work if owning the capability would make repeat deployments meaningfully faster or cheaper than building or licensing it. Foreshadow reports integrations on three military vessels. That supports a conditional case for the asset, while the buyer benefit remains unmeasured and the memo gives no acquisition price evidence. The memo documents at-sea testing before production procurement in a Navy program. Foreshadow’s reported overnight demonstrations make a paid, customer-accepted production retrofit a plausible next milestone, with the qualification budget and funding still unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Risks*)
+The strongest path is a strategic acquisition by a naval systems integrator seeking a retrofit product for existing fleets. Foreshadow reports integrating Zulu on three military vessels. An integrator could buy the software and integration work if owning them helped it win fleet contracts or reduced rollout costs. The memo documents an adjacent Navy program moving from at-sea testing to production procurement. That establishes a route to customer orders, while the acquisition rationale remains an inference. Foreshadow’s reported repeated overnight demonstrations, including simultaneous operation on two vessels, make a paid follow-on deployment a plausible next milestone. Qualification costs, funding needs, and timing remain open. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The memo leaves investor terms and company debt unknown. Under the shared scenario, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and falls to 3% after 40% relative dilution, with no follow-on investment. The eight-year 5× target is $2.5 million in gross cash before investor taxes. That requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. Assuming $5 million of net debt for illustration, a $25 million enterprise-value sale yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), before any additional fees or senior claims. The 3% case therefore needs about $88.3 million of enterprise value under those assumptions. The memo supplies no basis for underwriting either sale price or verifying that Foreshadow controls transferable rights to Zulu and the integration work. (*Defensibility*, *Key Facts*)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative. Both assume a full cash sale by year eight, an eligible holder, and pro rata distribution after the stated deductions, with no senior equity claims.
 
-The memo provides no evidence of predictable cash flow for a sponsor buyout, eligible share demand for a secondary, public-market operating scale for an IPO, or excess cash for dividends or buybacks. If growth plateaus, buyers stay away, public scale remains out of reach, and all available cash is reinvested, the holder realizes $0 over eight years and retains the shares. The memo provides no basis to estimate a wind-down residual after obligations and preferences. (*The Idea*, *Market & Traction*, *Key Facts*)
+| Scenario | Enterprise value to distributable equity | Cash to holder |
+|---|---|---:|
+| Modest sale | $50M less $5M net debt and $5M in deal deductions = $40M | $1.20M (2.4×) |
+| Strong sale | $110M less the same $10M in deductions = $100M | $3.00M (6.0×) |
+| Prolonged private operation | Cash is reinvested through year eight, with no payout or eligible share purchase | $0 |
+
+At the strong-case valuation, receiving cash for only 75% of the holding within eight years would reduce realized proceeds to $2.25 million. The memo supplies no Foreshadow revenue, buyer economics, or comparable sale price to substantiate the strong case. Transaction rights and consents remain unverified, and the memo provides no evidence of an independent liquidity route. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An integrator could license autonomy software or choose an existing supplier. Sea Machines already sells marine retrofit systems and is eligible for follow-on Navy production agreements, while Foreshadow’s claimed applicability beyond vessels remains unverified. That makes the ownership premium speculative. The Pass gate remains untriggered because the memo establishes neither a structural barrier to a sale nor a supported price that would leave the holder materially short. (*The Idea*, *Defensibility*, *Key Risks*)
+Sea Machines already sells vessel retrofit systems and is eligible for follow-on Navy production agreements. An integrator could therefore partner with an existing vendor. Foreshadow’s reported demonstrations establish a reason to investigate, while paid procurement, deployment cost advantages, and reuse beyond vessels remain unverified. This could undermine both the reason to acquire and the price a buyer would pay. The evidence does not establish a structural closing block or show that proceeds would fall short across the strongest credible route. The gap supports Watch. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
@@ -21,12 +27,12 @@ An integrator could license autonomy software or choose an existing supplier. Se
 |-----------|-------|
 | Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid, customer-accepted production retrofit show enough economic benefit from owning Zulu to support an acquisition that clears the holder’s cash target? Move to **Reach out** if measured deployment economics and a credible integrator’s buy-versus-license assessment support a price range that clears the hurdle on plausible shareholder terms. A production award by itself would keep the action at **Watch**.
+Can Foreshadow convert its vessel demonstrations into a paid follow-on rollout with economics that could justify a strategic purchase above the holder’s proceeds hurdle? A signed follow-on order and measured per-vessel integration costs would let an acquirer estimate the value of owning Zulu. If those economics credibly supported at least $83.3 million in distributable equity value within eight years, the action would move to Reach out.

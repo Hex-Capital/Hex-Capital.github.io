@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Channel-led sales** is Synara’s strongest path. Security integrators could resell recurring incident monitoring to commercial sites they already serve, such as construction yards and dealerships. Synara says it can use existing cameras and recorders, route alerts to operators for verification, and let integrators sell the service under their own brand and bill monthly. If recorder compatibility carries over across sites, an integrator could add monitoring without replacing customer hardware. The recurring job plausibly travels across markets, while recorder compatibility and local dispatch procedures remain open adoption questions. (The Idea, Key Risks)
+Synara’s strongest path is wholesale monitoring sold through security integrators. Assuming strong fit at the first sites, an integrator could sell monitoring under its own brand across its installed camera base. Synara describes a recurring job that plausibly travels across markets: analyzing existing camera feeds, escalating flagged events to operators, and documenting incidents. Camera compatibility and local response procedures still need to be tested. The published partner inquiry form establishes a channel, and the installed camera base gives partners a repeatable way to find prospects. The memo leaves open how much work Synara must do to activate each site. (*The Idea*, *Key Risks*)
 
-The memo records Synara’s October 2026 launch and its advertised partner program. Paid activation, repeat use, and deployment costs remain unverified. Even assuming strong fit with the first buyers, the first unproven link is whether an independent integrator can take a site live on paid monitoring through a process another partner can repeat. Monthly billing is the proposed model, and expansion across an integrator’s installed base remains an inference. (The Idea, Market & Traction, Defensibility, Key Facts)
+Synara says integrators bill customers monthly. A recurring wholesale fee to Synara is inferred. Site-specific alert rules and escalation contacts could support renewals, and partners could add properties over time. Synara’s pricing and paid account expansion remain unverified. The memo records an October 20 public launch, while paid deployments, revenue growth, and even pre-revenue status are unknown. (*The Idea*, *Defensibility*, *Market & Traction*, *Key Facts*)
+
+Under an illustrative per-site wholesale model, incremental contribution is the fee less attributable partner acquisition and site setup, video processing, operator time, and support. AI triage could let the same operator team cover more sites if it keeps review volume low enough to preserve response times. The memo supplies neither the wholesale fee nor measured operator workload, so that cost advantage remains an inference. (*The Idea*, *Key Risks*)
 
 ### Countercase
 
-The strongest countercase is that the dealer channel generates leads while Synara still has to configure response rules site by site and add operator capacity as alert volume rises. The product relies on human verification, and local dispatch rules can affect escalation. Synara’s advertised response time comes with illustrative footage, leaving actual operator workload unmeasured. These are credible scaling risks. The structural downside gate remains untriggered because the memo provides no rollout or cost records showing that proportional effort is unavoidable. (The Idea, Key Risks)
+The partner can bring Synara more sites while leaving Synara responsible for the labor of monitoring them. Flagged events require operator verification, queues could slow intervention, and verified police dispatch depends on local procedures. If each new market needs bespoke response integration or each new site adds comparable staffing costs, the channel could grow sales without producing scalable economics. The structural gate stays open because the memo documents those dependencies without establishing that market-by-market rebuilding or proportional staffing is unavoidable. (*The Idea*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 13/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a second independent integrator bring a commercial site live on paid monitoring using the same onboarding process as the first? Move to **Reach out** if invoices and deployment records show both sites reached live service through the same steps, with setup and operator time measured against the recurring fee. Move to **Pass** if comparable rollout records show that each site requires bespoke setup or that operator costs rise in proportion to revenue, with no supported way to improve.
+Can a paying integrator repeat its rollout in a second market using existing cameras and the same core setup while maintaining response performance and positive incremental contribution? A dated rollout record showing billed site additions, setup effort, and operator minutes per site would test that path. Move to Reach out if the results demonstrate a repeatable commercial pace and support a score of at least 65 with Medium or High confidence. Move to Pass if they show unavoidable bespoke work or staffing that makes faster growth economically infeasible.

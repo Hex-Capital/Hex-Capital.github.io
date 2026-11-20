@@ -1,30 +1,30 @@
 ﻿# AnyAlpha -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** AnyAlpha could make time-sensitive strategies economical for retail prediction-market traders who currently leave them untested or unexecuted. The former workflow requires traders to research an idea, find the relevant contracts, and watch prices for an entry. AnyAlpha says Annie turns the idea into rules, backtests them, and monitors connected accounts for execution. The seed-stage test is whether that workflow reduces human time and full delivery cost per order executed within the strategy’s rules, including review, retries, partial fills, and slippage. The memo contains no measured comparison with manual execution or evidence that automation made previously abandoned strategies viable. (*The Idea*, *Key Risks*)
+New Economies is AnyAlpha’s strongest path. The prior cost is the trader’s time spent researching events, mapping ideas to contracts, backtesting rules, and watching for entries and exits. AnyAlpha launched a mobile agent with Kalshi account linking and describes a workflow that automates those steps from a plain-language thesis. The market-opening hypothesis is that time-constrained retail traders could run strategies they previously left untested or unexecuted. The relevant measure is the total cost per strategy correctly specified, monitored, and executed within its intended fill conditions, including human corrections and failed attempts. The memo documents the launch but provides no comparison of that cost with the manual workflow. (The Idea, Market & Traction, Key Risks)
 
-AnyAlpha reports more than 1,000 active traders and over $1 million in weekly trading volume after launch. Repeat use and willingness to pay for Annie remain unverified. The public launch and Kalshi account linking show shipping progress consistent with the founders’ trading-systems experience. Expansion could reuse the same software and exchange connection across accounts, but the memo gives no current agent pricing or per-account cost data for inference, monitoring, support, and trade exceptions. (*Market & Traction*, *Founders & Team*, *The Idea*, *Key Risks*)
+AnyAlpha reports more than 1,000 active traders and over $1 million in weekly trading volume. Those figures support early use, while repeat use and willingness to pay for the agent among newly served traders remain unverified. The founders’ relevant trading-systems experience and the live launch support seed-stage execution. For scale, an added live strategy is a plausible expansion unit. A subscription or usage fee would need to cover inference, monitoring, order handling, and support for exceptions. The listed purchases carry over from BetAlpha, and the memo supplies neither current agent pricing nor per-strategy costs. (Market & Traction, Founders & Team, The Idea, Key Risks)
 
 ### Countercase
 
-Annie may make existing trades more convenient while opening little new activity. Under the scenario of cheap, equally capable models, traders could already look to TurbineFi for plain-language strategy creation, backtesting, and cloud execution in the same asset class. AnyAlpha calls its Kalshi partnership the first and only of its kind, but the memo establishes neither contractual exclusivity nor scarce access through the public trading API. Saved strategies and execution history could give repeat traders a reason to stay. The memo shows no buyer preference under functional parity or observed switching to a substitute. Both Path B gates remain open to testing, which supports Watch. The exchange integration supplies no independent Path A case. (*The Idea*, *Defensibility*, *Market & Traction*)
+AnyAlpha may be selling convenience to existing prediction-market traders. TurbineFi already offers plain-language strategy creation, historical testing, and cloud execution in the same asset class, and Kalshi publishes a trading API. Account linking may make setup easier, but the company’s claim that it was Kalshi’s first and only agentic-trading partner establishes no contractual exclusivity. Saved strategies could encourage retention, but the memo shows no buyer preference under functional parity or network effect. The product overlap weakens the case for durable value capture without showing that users switch readily or that the agent serves only existing uses. New Economies remains open for testing, and exchange access supplies no independent scarce-complement case. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 9/20 |
 | Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Will retail traders who previously abandoned time-sensitive strategies because manual monitoring took too much work pay to keep using AnyAlpha after trying a functionally equivalent alternative? A seed-stage field trial should compare manual execution, Annie, and a comparable tool on the same kinds of strategies. Move to **Reach out** if Annie lowers full cost per correctly executed order enough to make those strategies viable and traders repeatedly choose it at a price that covers delivery costs. Move to **Pass** if the comparison shows that all-in costs still rule out those strategies or that traders readily switch when the alternative delivers the same outcome. (*The Idea*, *Defensibility*, *Key Risks*)
+Will traders who previously shelved strategies because of the manual workload pay AnyAlpha to run them repeatedly when offered a functionally comparable alternative? A live cohort showing materially lower cost per successfully executed strategy than the manual workflow, repeat payment at a price that covers AnyAlpha’s delivery costs, and continued preference at functional parity would move the action to Reach out. If the cohort shows only convenience for already-active traders or ready switching at parity, move to Pass.

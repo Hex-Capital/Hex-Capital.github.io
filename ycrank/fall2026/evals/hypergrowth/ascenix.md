@@ -1,30 +1,32 @@
 ﻿# Ascenix -- Hypergrowth Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Medium
+**Evidence confidence:** Low
 
 ### Company case
 
-Ascenix’s strongest path is repeatable direct sales to senior care operators. The founders built the first software workflow around a director of care’s manual falls spreadsheet. Ascenix now describes a demo-led sale in which an operator can start with incident reporting and follow-up, then roll the workflow out to more homes or add other workflows. Assuming strong fit, growth would depend on reusing EHR connectors and workflow components across operators, with local policy validation handled as a bounded implementation step. (Founders & Team; The Idea; Key Risks)
+Assuming strong product-market fit, Ascenix’s strongest path is to sell fall-incident reporting and follow-up to multi-site senior care operators, then reuse the same EHR connectors and workflow templates across their homes. The recurring job is reconstructing incidents from care notes and tracking follow-up. Ascenix describes read-only integrations with PointClickCare, MatrixCare, and Yardi and reports live deployments in Canada and the US. Those deployments support some portability. The work required to serve comparable operators in other markets remains unclear. (The Idea, Defensibility, Market & Traction)
 
-Ascenix reports 55 live facilities across Canada and the US, making the recurring job credible across markets. Payment status and the adaptation required at those sites are unverified. Responsive Health Management reports deploying Ascenix across all its homes, cutting manual fall-analysis time by 80% and seeing 15% fewer non-compliance incidents over three months. That is evidence of a meaningful workflow commitment and recurring value at one operator. The rollout sequence, renewal behavior, and incremental revenue from additional sites or workflows remain unknown. (Market & Traction; Key Facts)
+One customer reports deploying Ascenix in all its homes and spending 80% less time on manual fall analysis. That supports adoption within an operator. Ascenix depicts a monthly platform invoice with unlimited users. More workflows or facilities could deepen use, but the memo leaves pricing for that expansion unclear. Ascenix reports 55 live facilities in September. For the seven-person team, the memo gives neither a paid facility count nor a date for first paid availability, and the reported 15% launch-week growth has no defined metric. The commercial slope is therefore unscorable and receives the default. (Ascenix, The Idea, Market & Traction, Key Facts)
+
+The cost scenario assumes an added facility generates incremental monthly fees. Contribution over its paid term would be those fees less attributable demo and sales time, EHR connection and workflow setup, and ongoing hosted processing and support. Reusing connectors and templates could reduce setup cost. The memo gives no fee amount or measured deployment cost, leaving contribution uncertain. (The Idea, Defensibility, Key Risks)
 
 ### Countercase
 
-The first link likely to break is the handoff from demo to live deployment. Ascenix solicits introductions through YC, but the memo traces no independent operator from that channel through payment and go-live. Every deployment requires Ascenix to connect systems and the operator to validate workflows against local policies. If those steps require substantial founder or engineering time for each new buyer, even strong customer fit could yield a labor-intensive sales and delivery model. Reusable components offer a plausible way to reduce that effort. The memo provides no measured rollout costs or evidence that costs rise proportionally with volume, so the structural downside gate does not apply. (The Idea; Key Risks; Defensibility)
+Growth could remain tied to hands-on implementation. Buyers enter through demos, Ascenix must connect each deployment, and operators must validate workflows against local policies. EHR access and local compliance rules could compound that work in new markets. These dependencies limit acquisition and onboarding, but the structural downside gate remains open. The reported cross-border deployments and reusable components leave a credible path for the narrower incident workflow. The gaps in paid traction and deployment economics warrant Low confidence. (The Idea, Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 17/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 10/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 13/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 13/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 50/100** (Neutral)
+**Total Score: 45/100** (Neutral)
 
 ### Decisive diligence question
 
-Can a non-founder take the next independent senior care operator from demo to paid go-live on the fall workflow using existing connectors and configuration? A paid invoice and rollout log showing reuse, bounded implementation hours, and delivery costs covered by the agreed price would move the action to Reach out. Another founder-dependent rollout with substantial custom work would keep the action at Watch.
+Can a paying multi-site operator in a new jurisdiction bring successive homes live on the same incident workflow with minimal Ascenix labor and positive incremental contribution? Paid invoices and deployment logs would show whether setup effort falls as the rollout expands. A successful rollout would support Reach out if rescoring meets the threshold and raises confidence to at least Medium. Repeated bespoke work that makes each added home uneconomic, with no credible way to reduce it, would move the action to Pass.

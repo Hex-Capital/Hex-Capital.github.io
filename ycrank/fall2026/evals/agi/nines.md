@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Nines is targeting qualified fiber-patching capacity during GPU rack commissioning. A reported rack-scale deployment establishes that high-density GPU racks are entering service. Nines says technicians must match, insert, and verify thousands of fiber connections per rack. If that work sets the commissioning schedule, builders bear the staffing cost and operators bear the cost of delayed capacity. The memo contains no site measurements establishing that fiber patching is on the critical path. (The Idea, Market & Traction)
+The strongest path is **scarce complements**, through fiber commissioning for AI data centers. The memo documents a production rollout of high-density GPU racks. Nines says technicians must match, insert, and verify thousands of fiber connections per rack. If this work limits how quickly operators can bring racks online, a robot that reliably accelerates verified patching could provide scarce commissioning capacity. The rollout supports the relevance of the workflow. Whether fiber patching actually delays commissioning remains unmeasured, and Nines identifies its published inspection sequence as a simulation. (The Idea; Market & Traction; Key Risks)
 
-**Scenario assumption.** Even if frontier-quality intelligence becomes cheap and widely available, a robot still has to manipulate cables reliably in crowded racks and meet an operator’s acceptance criteria. Nines could capture value by becoming a qualified provider of that physical capacity. The likely expansion unit is a site deployment. Its economics depend on how many racks the robot can commission per shift after setup, supervision, retries, and manual rework, and how much configuration carries over to the next site. The memo describes proposed site-specific configurations, while realized throughput, costs, and buyer commitments remain unknown. (The Idea, Key Risks, Market & Traction, Key Facts)
+Rack-specific qualification could give Nines a durable advantage if operators continue to rely on its field execution as competing control models improve. That is an inference. The memo describes proposed site-specific configurations, while operator qualification and control over scarce service capacity remain unverified. The launch and demo request form establish outreach activity. Buyer commitments and willingness to pay remain unverified. Li’s robotics and production inference experience and Eom’s work scaling Patreon’s livestream product support seed-stage execution, with on-site delivery still to prove. (Defensibility; The Idea; Market & Traction; Founders & Team)
 
-Li’s robotics and production inference experience and Eom’s work scaling a live product support the team’s ability to attempt a seed-stage field trial. Nines identifies its published inspection sequence as a simulation. Execution on a representative commissioning job remains unverified, which keeps confidence low. (Founders & Team, Key Risks)
+In a per-site service scenario, the expansion unit is a rack row. Compare technician minutes and fully loaded cost per verified connection for manual patching and robotic service, including hardware amortization at actual utilization, rack-specific setup, supervision, and human rework. The memo supplies neither a measured baseline nor robot deployment costs, so repeat-site economics remain open. (The Idea; Key Risks; Key Facts)
 
 ### Countercase
 
-Technician crews may already meet commissioning schedules, and operators could build or buy comparable automation if a constraint emerges. Microsoft Research’s rack-side transceiver prototype demonstrates some overlap with the required manipulation, while Watney reports deployments with hyperscalers. Neither establishes equivalent fiber-patching throughput or verification quality. The memo also offers no evidence that site qualification or deployment experience gives Nines durable control. The substitution risk keeps the case at Watch. A readily available equivalent that meets the same site requirements would close the path. (Defensibility, Market & Traction, Key Risks)
+Fiber patching may be one task in a commissioning schedule governed by other dependencies. Even where it delays go-live, operators could source equivalent capacity from their own robotics teams or competing vendors. Microsoft Research’s transceiver prototype and Watney’s reported hyperscaler deployments make those alternatives credible. The memo does not establish ready substitution for Nines’ specific workflow, so the scarce-complement path stays open for a field test. A New Economies path would require evidence of a previously excluded buyer or use becoming viable, and the memo describes work operators already perform. (The Idea; Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 6/25 |
 | Customer demand | 5/20 |
-| Team and execution | 7/15 |
-| Scale economics | 5/15 |
+| Team and execution | 9/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 32/100** (Pass)
+**Total Score: 36/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent operator commit budget for a follow-on deployment after a representative on-site trial shows that Nines clears a fiber-patching bottleneck the operator’s best available alternative cannot relieve on comparable terms? Compare time to accepted racks and full delivery cost, including setup, supervision, and rework. A paid follow-on tied to that result would move the action to Reach out. If the trial shows that existing capacity already meets the schedule or an available substitute delivers equivalent relief, move to Pass.
+Would an independent operator pay to expand a Nines pilot after it measurably shortens fiber commissioning? Move to **Reach out** if a paid on-site pilot meets the operator’s connection quality standards, reduces time to rack readiness and fully loaded cost per verified connection against the manual baseline, and earns a paid expansion to another row.

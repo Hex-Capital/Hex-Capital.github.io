@@ -5,30 +5,32 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. HyperBench describes a system graph and custom indexing pipeline that let agents trace faults across hardware and software repositories, propose repairs, and retest on physical benches. Nominal, which focuses on test automation and telemetry and is listed as an integration, is a plausible buyer. Owning the workflow could let Nominal turn test failures into verified fixes within its product. That buyer benefit is an inference. The memo records neither measured buyer economics nor acquisition interest. (The Idea, Defensibility, Market & Traction)
+A strategic acquisition by a hardware test platform is the strongest supported route. HyperBench lists Nominal, a test automation and telemetry platform, as an integration. HyperBench says its system graph lets agents trace faults across hardware, firmware, and software, propose fixes across repositories, and retest on physical benches. Owning that workflow could let Nominal extend from detecting failures to resolving them and save development time. That is an inferred buyer rationale. Buyer interest and the economic value of owning the workflow remain unverified. (The Idea, Defensibility, Market & Traction)
 
-A seed-stage milestone would be repeatable paid production use across two distinct customer benches, with a measured reduction in time from fault to verified repair after accounting for setup and upkeep. The private beta and company-published diagnostic and repository repair tests support a path to that milestone. Production results, burn, runway, and the capital needed to complete the tests remain unknown. The memo describes custom software, while IP ownership and transfer terms for customer data and integrations remain unverified. (Market & Traction, Key Risks, Defensibility)
+The private-beta launch and reported seed financing entries make paid production pilots plausible. A useful milestone would be repeatable reductions in engineer time from fault diagnosis to verified repair across distinct customer benches, measured alongside setup and maintenance costs. The company’s published evaluation covers diagnostic questions and repository debugging cases. Pilot commitments, budget, and runway remain unverified, as do the rights a buyer would need to transfer the software and bench integrations. The memo supplies no evidence of an independent liquidity route. (Market & Traction, Key Risks, Key Facts)
 
-Under the shared scenario, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year target is $2.5 million gross before investor taxes. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires $88.3 million of enterprise value. A $25 million sale yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), before any further deductions. These are sensitivities. The memo lists a $500,000 convertible note but gives no outstanding balance or conversion terms to apply. It supplies no usable sale-price evidence. (Market & Traction)
+The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity value at 3%. Both sale scenarios assume a full-company cash sale within eight years, holder eligibility to participate, and a pro rata distribution after the assumed debt and deal adjustments, with no senior claims diverting proceeds. The prices and deductions are illustrative assumptions. The memo leaves realizable pricing and the actual waterfall unverified. (Market & Traction, Key Facts)
 
-The memo gives no basis to underwrite sponsor cash flow, an eligible secondary, IPO scale and shareholder resale, or excess cash for a payout. If growth plateaus, buyers stay away, public scale stays out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. Wind-down proceeds are unquantifiable without assets, obligations, and preferences. (Market & Traction, Key Facts)
+- **Modest sale.** $50 million in enterprise value less $5 million in debt and deal adjustments leaves $45 million in distributable equity and $1.35 million to the holder, or 2.7×.
+- **Strong sale.** $100 million in enterprise value less $10 million in debt and deal adjustments leaves $90 million in distributable equity and $2.7 million to the holder, or 5.4×. At 2.5% ownership, the same sale pays $2.25 million, or 4.5×.
+- **Prolonged-private case.** Continued operation with cash reinvested and no eligible share purchase yields $0 in realized proceeds within eight years.
 
 ### Countercase
 
-Nominal could keep the integration or build enough of the workflow itself. Embedder already tests firmware on physical devices, and customer-specific bench setup could make HyperBench’s cross-repository capability expensive to roll out. The published tests leave open whether that capability delivers enough value in production to justify ownership. This gap supports Watch. The memo establishes neither a structural block nor a price ceiling that triggers Pass. (Market & Traction, Defensibility, Key Risks)
+Embedder already tests firmware on physical hardware through SEGGER probes, and HyperBench may need custom integration work at each customer bench. A test platform could extend an existing integration or build its own cross-repository workflow if HyperBench’s verified repair savings prove small or expensive to reproduce. That weakens the case for paying a price that clears the holder’s hurdle. The memo establishes neither a ready substitute for the full workflow nor a supported price ceiling, so the Pass gate remains open pending evidence. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 9/20 |
+| Milestones and capital needed | 11/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can paid production results across two distinct benches show enough incremental value over an integration to support a strategic acquisition that clears the holder’s eight-year cash target? Measured time savings after setup and upkeep, tied to buyer-side economics supporting a price range that clears the applicable proceeds hurdle, would move the action to Reach out. Until then, Watch.
+Would the savings demonstrated in paid production pilots give Nominal or a comparable test platform a reason to buy HyperBench at a price that clears the holder’s proceeds hurdle? Repeatable net time savings across distinct benches, together with a buyer-side estimate of the cost and time saved by acquiring the workflow, would move the action to Reach out if they support a price above the hurdle after deal adjustments. A supported price ceiling materially below the hurdle would move the action to Pass.

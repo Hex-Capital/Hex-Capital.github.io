@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Conventional shops repeat quoting, programming, setup, and inspection when a prototype design changes. twentyfour26 describes a workflow that checks uploaded designs against a standardized CNC cell and simulates machining before cutting and inspecting parts in-house. If this reduces the full cost per conforming part, hardware teams could pay for physical iterations they previously skipped or batched. Under model parity, buyers would still pay for a conforming part delivered on schedule. Owning the cell and running inspection give twentyfour26 control over that outcome for eligible jobs. Whether it can deliver the outcome better or more cheaply than an equally capable shop remains open. *(The Idea, Defensibility)*
+The strongest path is **New Economies**. Conventional low-volume CNC jobs incur fresh quoting, programming, setup, and inspection work with each design revision. twentyfour26 says it screens STEP files against a standardized cell and simulates machining plans before producing and inspecting accepted jobs in-house. Its terms document job-specific quotes, and the company reports making parts for Bay Area hardware teams with turnaround as fast as about 48 hours. The memo gives no comparative labor cost per conforming delivery, typical turnaround, or evidence of repeat paid orders. (The Idea, Market & Traction, Key Facts)
 
-The memo documents job-specific quote terms and a service launch. The company reports producing parts for Bay Area hardware teams, with its fastest turnaround around 48 hours. Those reports leave realized prices, repeat orders, and representative turnaround unresolved. At seed, a live service makes the thesis testable. The expansion unit would be another standardized cell. Its economics depend on enough eligible jobs to cover machine and tooling costs at realized utilization, after accounting for review, setup, inspection, retries, and rework. The memo provides no measured cost comparison or utilization data. *(The Idea, Market & Traction, Key Facts, Key Risks)*
+The scenario is that hardware teams begin ordering prototype revisions they previously skipped because of cost or lead time. For that use to open up, savings in quoting and programming must reduce the cost per conforming delivery after setup, inspection, and rework. Under model parity, buyers could still prefer twentyfour26 for reliable turnaround and quality from a shop that controls production and inspection. The memo supports that operational control. Buyer preference under comparable automation and the proposed feedback loop from inspection to machining plans remain unproven. (The Idea, Defensibility, Key Risks)
+
+The founders’ manufacturing and software experience and the launch of the CNC service support seed-stage execution credit. The next expansion unit is another standardized cell. Its economics depend on whether accepted-job prices cover labor and exceptions, materials and tooling, rework, and equipment cost at realistic utilization. Geometry, material, and workholding limits constrain the jobs that can fill each cell. The memo gives no utilization or job-cost data. (Founders & Team, Market & Traction, The Idea, Key Risks)
 
 ### Countercase
 
-twentyfour26 may be speeding up prototype orders that customers already place. Its cell excludes some jobs by geometry, material, and workholding, and production and inspection still require in-house execution while further automation is in development. If hands-on work absorbs the programming savings, the price and cadence may leave buyers’ ordering behavior unchanged. Protolabs already combines owned factories, partner capacity, and automated toolpath verification, giving buyers a credible substitute if it can match price, tolerances, and delivery. The memo contains no representative comparison that settles either Path B condition, so the action is Watch. It also offers no independent evidence of scarce CNC capacity that would support Path A. *(Defensibility, Market & Traction, Key Risks)*
+twentyfour26 may be making existing prototype orders faster within a narrow range of eligible parts. CloudNC already offers toolpath generation to shops, and Protolabs combines owned production and automated toolpath verification with a partner network for jobs outside its own capabilities. That gives buyers a credible substitute and leaves no independently supported scarce-complement path. The memo leaves open whether twentyfour26 can make previously skipped revisions viable and win repeat orders against comparably automated suppliers. Those unresolved conditions warrant Watch. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 10/25 |
-| Durable value capture | 9/25 |
-| Customer demand | 7/20 |
-| Team and execution | 8/15 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 10/25 |
+| Customer demand | 6/20 |
+| Team and execution | 9/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 42/100** (Pass)
 
 ### Decisive diligence question
 
-Can twentyfour26 win paid repeat orders from independent hardware teams for prototype iterations they previously skipped or batched, while covering full delivery costs and competing against a shop with equivalent CAM capability? A representative trial should confirm prior ordering behavior, record realized prices and costs through accepted inspection, and compare delivered price, tolerances, and turnaround with the alternative. Move to Reach out if buyers repeat at viable prices and choose twentyfour26 for a demonstrated delivery advantage. Pass if the trial shows that full delivery costs keep those iterations uneconomic or that buyers readily switch to an equivalent supplier.
+Will independent hardware teams repeatedly pay twentyfour26 for prototype revisions they previously skipped, even when they can order from a comparably automated shop? A matched cohort would compare prior quotes and skipped revisions with paid repeat orders, verify lower labor cost per conforming delivery, and show positive contribution at observed cell utilization after inspection and rework. That result would move the action to Reach out. If the cohort shows that orders are simply diverted from existing suppliers and buyers readily switch at comparable price, quality, and turnaround, move to Pass.

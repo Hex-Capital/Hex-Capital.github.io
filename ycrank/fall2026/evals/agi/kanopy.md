@@ -1,32 +1,32 @@
 ﻿# Kanopy -- AGI Evaluation
 
 **Action:** Watch  
-**Evidence confidence:** Low
+**Evidence confidence:** Medium
 
 ### Company case
 
-**Path B — New Economies.** Utilities use arborist patrols and manual surveys to identify hazards and estimate trimming work, then make repeat field visits to verify completion. Kanopy uses ordinary video to reconstruct grid clearances. The market-opening scenario is that a utility could afford to verify trimming more frequently on circuits where it currently goes without timely checks. The comparison is full cost per utility-accepted circuit-mile, including capture, processing, human review, reshoots, and any remaining field checks. Reusing footage from routine vehicle routes could improve the economics, but the memo provides no measured cost or clearance-acceptance comparison. (The Idea, Key Risks)
+**New Economies** is Kanopy’s strongest path. Utilities currently use arborist patrols, manual surveys, and repeat field visits to identify vegetation hazards and verify trimming. Kanopy’s approach uses ordinary video to reconstruct 3D clearance measurements. The investment hypothesis is that utilities could survey fast-changing corridors more frequently where additional patrols were previously uneconomic. The memo describes the manual workflow and the proposed replacement, with no measured labor savings or evidence that a utility has adopted a previously unaffordable survey cadence. (The Idea, Key Risks)
 
-ACRT introduced Arborcision with Kanopy’s video analysis, and the memo reports six utilities or contractors with LOIs or master service agreements covering 270,000 miles of potential scope. Paid orders and repeat volume are undisclosed. Kanopy reports mapping more than 300 miles in two weeks across four states. That is an early execution signal alongside the founders’ utility and computer vision experience. (Market & Traction, Founders & Team)
+The memo reports that six utilities and contractors signed LOIs or master service agreements covering 270,000 miles of potential scope. That signals buyer interest, while committed order volumes, payment, and repeat purchasing remain unverified. Kanopy reports 3,093 cumulative miles mapped, including more than 300 across four states in two weeks. That field activity and the founders’ utility and computer vision experience support seed-stage execution. The hosted models and credentialed SDK provide an integration point, and ACRT’s Arborcision launch shows a contractor can package the analysis into a service. These are plausible sources of buyer preference, with no evidence yet that customers would stay with Kanopy under functional parity. (Market & Traction, Founders & Team, Defensibility, Key Facts)
 
-Under model parity, the reason to stay would have to come from the utility’s workflow. Kanopy’s credentialed SDK lets utilities submit footage and retrieve results from their own applications. If recurring surveys build a clearance history that crews rely on to verify work, switching could become costly. The memo offers no retention or integration-depth evidence to establish that advantage. (Defensibility)
+The expansion unit is a repeat circuit survey. In a scenario where remote measurements meet the utility’s acceptance criteria, compare cost per accepted clearance mile, including capture, inference, human review, and residual field checks, with the cost of manual patrols, surveys, and revisits. The memo gives no comparative cost or pricing data, so the savings needed to open the higher-frequency use and the contribution Kanopy could earn on repeat surveys remain untested. (The Idea, Key Risks, Key Facts)
 
 ### Countercase
 
-Kanopy could make an existing inspection workflow cheaper while leaving its cadence and supplier options largely intact. SCE’s remote-sensing plan preserves ground checks where remote methods fall short. If those checks remain common, repeat verification may still cost too much to expand. Neara already offers a different route to 3D grid models, and ACRT provides the vegetation-management service in Arborcision. A functionally equivalent supplier could therefore compete for the analytics work while ACRT retains the service relationship. The memo contains no field comparison or observed switching that closes the path. Both required conditions remain open, supporting Watch. (The Idea, Market & Traction, Key Risks)
+Kanopy could become another vendor in an existing inspection market. SCE’s remote-sensing plan preserves ground inspection where automated methods fall short, and competing vegetation and grid tools already use satellite imagery, LiDAR, and utility records. If clearance exceptions still require frequent dispatches, the labor savings may never make additional surveys viable. If a qualified alternative matches Kanopy’s results, the SDK and contractor channel may provide little reason to stay. The memo establishes neither outcome and documents no independently controlled scarce complement. The New Economies path remains open for a specific test, which supports Watch. (Key Risks, Market & Traction, Defensibility)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
-| Durable value capture | 7/25 |
-| Customer demand | 10/20 |
-| Team and execution | 9/15 |
+| Path-specific thesis fit | 12/25 |
+| Durable value capture | 8/25 |
+| Customer demand | 11/20 |
+| Team and execution | 10/15 |
 | Scale economics | 5/15 |
 
-**Total Score: 42/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Will an independent utility place a paid repeat order with Kanopy for a verification cadence it previously could not afford, after testing a functionally equivalent alternative? Move to Reach out if a representative trial shows that Kanopy meets the utility’s clearance standard at a full cost that makes the new cadence viable, and the utility renews at a price that supports positive contribution because it values Kanopy’s inspection history or workflow. If the trial shows that residual fieldwork erases the savings or that the buyer can switch and preserve the outcome, move to Pass.
+Will an independent utility renew paid work with Kanopy for a survey cadence it previously could not afford after comparing Kanopy with a functionally comparable alternative? Move to Reach out if the renewal is backed by field-validated clearance results, a cost per accepted mile low enough to fund the higher cadence after residual field checks, and a documented reason the utility chose Kanopy at parity. If the comparison shows the higher cadence remains uneconomic or the utility readily switches at parity, move to Pass. (The Idea, Defensibility, Key Risks)

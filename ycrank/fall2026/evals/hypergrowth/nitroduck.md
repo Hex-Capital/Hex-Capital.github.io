@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Repeatable direct sales** is the strongest path. Specialty fruit and vegetable breeders repeatedly develop traits through crosses. Nitroduck proposes a flat-fee mail-in service that would let breeders test edits within their existing breeding programs. If the service works, the same intake and delivery process could serve similar breeders in other markets, and successive trait projects could generate repeat orders. That scenario assumes the workflow transfers across breeders and that regulatory requirements can be met in each market. (The Idea, Key Risks)
+Assuming strong product-market fit with specialty-crop breeders, Nitroduck’s strongest path is a mail-in editing service that starts with one commercially relevant crop and serves breeders in multiple markets through the same workflow. Nitroduck proposes charging a flat fee to edit breeder-supplied pollen, which breeders would use in their existing crosses. The recurring job is adding traits to breeding programs. Reusing the breeder’s workflow makes the service plausibly portable, while the shared inquiry inbox and proposed mail-in process provide a basic acquisition and intake path. Independent ordering and a completed breeder deployment remain unverified. (The Idea, Key Risks)
 
-The memo documents a public launch and identifies a shared inquiry inbox. A breeder-funded rollout that produces an edited seed in an existing program remains a milestone. Even assuming strong fit with the first breeder, the first link likely to break is onboarding the next breeder with a repeatable amount of work. The memo records no buyer commitment, completed onboarding, repeat orders, or delivery-cost measurements. (The Idea, Market & Traction, Key Risks, Key Facts)
+A breeder could commission additional traits over time, creating repeat project revenue. Purchase frequency and the ability to grow spending within an account remain uncertain. The memo records a public launch by November 2, 2026, after a September pivot, with a three-person team. Paid use and pre-revenue status are both unconfirmed, so initial traction takes the 7/20 default. (The Idea, Market & Traction, Founders & Team, Key Facts)
+
+For a single project, contribution would be the flat fee less attributable sales and intake time, lab labor and materials, handling and shipping borne by Nitroduck, and any rework. If the service can avoid a separate plant-regeneration step, as Nitroduck proposes, delivery effort could fall. The fee amount, labor per project, and rework rate are unknown, leaving contribution unresolved. (The Idea, Key Risks)
 
 ### Countercase
 
-The strongest countercase is that each crop or trait needs enough custom lab work to make the flat-fee service behave like bespoke contracting. Nitroduck has yet to report crop-by-crop results, and its stated milestone is an edited seed in a commercially relevant specialty crop. Both facts leave the amount of reusable work uncertain. The structural downside gate remains open because the memo does not establish that delivery costs rise in proportion to revenue. (The Idea, Key Risks)
+Even with strong demand from the first breeders, each crop could require substantial validation and each order could consume enough lab time and rework to limit profitable growth. The company still lists edited seed in a commercially relevant specialty crop as its next milestone. The EU framework applies from July 2028 and has different requirements by classification, adding uncertainty about near-term access. The structural downside gate remains open because the memo leaves the extent of crop-specific work, market adaptation, and incremental cost unresolved. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 4/10 |
+| Global buyer demand | 11/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 8/20 |
+| Initial traction | 7/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent specialty-crop breeder fund a pilot that delivers a verified edited seed in its existing breeding program through a documented process with measured delivery effort? Move to **Reach out** if the pilot succeeds and its delivery record shows which steps can be reused for the next comparable breeder, with any custom work clearly accounted for.
+Can Nitroduck turn one specialty-crop deployment into a repeatable paid rollout across markets? The milestone is multiple breeders in more than one market using the same intake and fulfillment process with minimal onboarding help, obtaining verified edited seed in their existing programs, and placing follow-on orders at positive contribution after labor and rework. That would support Reach out if the pace of paid adoption and the operating evidence bring the score to at least 65 with Medium or High confidence. A rollout that demonstrates unavoidable bespoke work with no credible path to positive incremental contribution would change the action to Pass.

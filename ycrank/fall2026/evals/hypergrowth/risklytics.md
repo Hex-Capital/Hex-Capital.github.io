@@ -1,32 +1,32 @@
 ﻿# Risklytics -- Hypergrowth Evaluation
 
-**Action:** Watch  
+**Action:** Pass  
 **Evidence confidence:** Medium
 
 ### Company case
 
-The strongest path is **repeatable direct sales**. Robotics and autonomy companies need coverage that satisfies customer requirements before a pilot or deployment. Risklytics drafts applications from company materials, then a licensed broker shops them to carriers and reviews exclusions before binding. The founders report that three previously denied businesses obtained coverage in one week, including a robotics wholesaler and a teleoperation robotics service. Those reported binds suggest buyers will act when coverage is urgent. The memo does not give premiums, realized commissions, or the acquisition source for any of the three accounts. (The Idea, Market & Traction, Key Facts)
+Assuming strong product-market fit, Risklytics’ strongest path is to become the specialist broker for robotics and autonomy companies that need coverage to deploy. Its intake tool drafts applications from company materials, and its published tracker covers 736 AI-exclusion filings across 49 states. The CEO reports wholesale broker and managing general agent partnerships that could bring in similar accounts. Those channels and the reusable intake help, while applicants still need a licensed broker to shop each submission and review proposed exclusions before binding. (The Idea, Defensibility, Key Risks)
 
-The same coverage need could recur across markets, but placement depends on state producer licensing and carrier willingness to cover the applicant’s use. The public tracker covers filings across 49 states. That gives brokers a reference for comparing exclusions, while the portability of the placement workflow remains unproven. Renewals and additional coverage as customers deploy more systems could generate repeat commissions. The memo records no renewal or paid expansion. (The Idea, Defensibility, Key Risks, Key Facts)
+The founders reported in August that three previously denied businesses obtained coverage in one week. That is an early commercial signal for a two-person team whose brokerage pivot was documented by July. Commission receipts and a sustained growth rate remain unverified. Customers that continue deploying have a reason to maintain coverage and return to a broker familiar with their exclusions. Renewal commissions and higher spend as deployments expand are plausible, with neither demonstrated in the memo. (Risklytics, Market & Traction, The Idea, Key Facts)
 
-Even assuming strong fit with robotics buyers, the first link likely to break is the handoff from founder-led outreach to repeatable placement. The founders say carriers typically pay a commission of 10–20% of premium. In a scale scenario, that commission must cover the incremental cost of prospecting, application review, carrier negotiation, and servicing. Reusing application drafts and carrier research could reduce handling time. The memo gives no comparable placement hours or costs to show whether those savings materialize. For a two-person brokerage that pivoted mid-batch, the immediate test is a repeatable bind with measured effort. (The Idea, Defensibility, Market & Traction, Key Facts)
+At the founders’ stated 10–20% commission rate, a hypothetical $10,000 premium would generate $1,000–$2,000 in gross commission. Incremental contribution would subtract attributable acquisition, application review, carrier placement, servicing, and software costs. Automated drafting can reduce intake labor. The time needed to place and service a typical account remains unquantified. (The Idea, Key Risks)
 
 ### Countercase
 
-Risklytics may be able to win difficult placements while each new account still requires founder outreach and substantial licensed-broker work. A launch-day tester reported that the intake tool identified general liability for a hypothetical robotics applicant but left it unselected. That is one observed example of a review burden. Carrier-specific wording and state licensing could add further work as the brokerage expands. The structural downside gate is unmet. A single intake error and the requirement for licensed review leave open whether broker effort grows in proportion to commissions. (The Idea, Key Risks)
+The strongest case for keeping Risklytics on Watch is that the same coverage problem could recur abroad, while application drafting and wholesale distribution could transfer. The structural downside gate applies because the product’s decisive step is securing coverage with acceptable terms. The current placement workflow depends on state producer licensing, a U.S. map of carrier appetite, and review of carrier-specific exclusions. Those dependencies point to substantial work rebuilding placement capability in a new market, and the reported partnerships establish no near-term route around that work. Required broker involvement separately limits onboarding scalability. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 12/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 6/10 |
+| Global buyer demand | 7/25 |
+| Repeatable acquisition and onboarding | 6/25 |
+| Retention economics | 9/20 |
+| Initial traction | 8/20 |
+| Cost economics | 5/10 |
 
-**Total Score: 41/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Can a non-founder licensed broker take several unrelated robotics prospects from the same cold-email channel through paid binding using the same documented workflow? Account records showing the handoff, broker hours, and realized commissions would answer it. Repeated binds with bounded broker effort and commissions that cover incremental acquisition and placement costs would move the action to **Reach out**. If comparable accounts consistently require founder intervention and bespoke work that consumes the commissions, the action would move to **Pass**.
+Can Risklytics bind coverage for a cohort of comparable robotics customers in one market outside the U.S. using its existing intake and a local wholesale partner? Several bound policies with acceptable AI coverage, documented changes limited to local forms and authorization, and placement time comparable to U.S. accounts would clear the structural gate and move the action to Watch.

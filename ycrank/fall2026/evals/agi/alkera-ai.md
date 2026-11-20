@@ -5,28 +5,26 @@
 
 ### Company case
 
-**Path B — New Economies.** The plausible opening is repeat pipeline maintenance for small data teams that currently defer fixes because checking downstream effects takes too much engineering time. In that scenario, Alkera’s column-level lineage, source-linked business definitions, and sandbox tests could replace some manual dependency tracing and dashboard validation. Alkera reports an 83.28% DataAgentBench pass rate versus 68.49% for Claude Code over five runs with the same model. That supports a possible reliability gain from the workflow around the model. The market-opening test remains open because the benchmark leaves the full cost per correct production fix unknown, including integration upkeep, review, retries, approvals, and exceptions. (The Idea; Key Risks)
+New Economies is the strongest path. Alkera could make cross-system pipeline fixes affordable for small data teams that currently defer them because engineers must trace dependencies, verify business definitions, and check downstream dashboards by hand. Alkera documents column-level lineage, source-linked definitions, and sandbox testing. It reports an 83.28% DataAgentBench pass rate versus 68.49% for Claude Code over five runs with the same model. That comparison supports a reliability mechanism. The memo provides no baseline delivery cost or measured labor savings per successful production fix. (*The Idea*, *Defensibility*, *Key Risks*)
 
-With cheap, widely available frontier models, buyers might still pay for the continuity of verified definitions and trusted queries embedded in their workflows. That switching cost is an inference. Buyer preference and migration effort remain untested. Databench’s public release shows the team can ship a self-hostable workspace, and the founders bring relevant pipeline, agent, and data infrastructure experience. Launch attention and repository stars leave paid demand from the proposed segment unknown. (Defensibility; Market & Traction; Founders & Team)
-
-Another self-serve workspace on an already supported stack is a plausible unit of expansion. At the listed $200 monthly Pro price, Alkera would need to cover storage, inference, onboarding, and ongoing support from that revenue. The memo gives a price and a storage allowance while leaving actual usage costs and realized contribution unknown. (The Idea)
+In that scenario, the relevant cost per successful fix includes engineer review and rework in the manual workflow, and integration upkeep, inference, sandbox compute, human approvals, and failed attempts with Alkera. Listed subscription prices provide a starting point for testing buyer economics. Launch views, Product Hunt placement, and GitHub stars show discovery, while payment and repeat use by target buyers remain unverified. The founders’ pipeline, agent tooling, and data infrastructure experience, together with the Databench release, support seed-stage execution. Production reliability and contribution per deployment remain open. (*The Idea*, *Market & Traction*, *Founders & Team*, *Key Risks*)
 
 ### Countercase
 
-Alkera could make existing data teams faster while leaving deferred maintenance uneconomic. The reported benchmark still leaves failed attempts, and disconnected systems can leave downstream effects outside the lineage graph, preserving manual review. Under model parity, Altimate already overlaps on warehouse connectors, dbt tests, and column lineage, while Snowflake offers a native option for dbt and catalog-aware SQL. The memo leaves both the net labor savings in live workflows and buyer behavior against a functionally equivalent substitute unresolved. Both gates remain open, which supports Watch. (Defensibility; Key Risks)
+Alkera may make existing data engineering work more efficient while buyers continue to rely on tools they already use. Altimate offers warehouse connectors, dbt tests, and column lineage, and Snowflake offers native dbt development and catalog-aware SQL. Verified definitions could give teams a reason to stay, but the memo reports no retention, migration costs, or buyer preference under functional parity. Feature overlap weakens value capture and leaves the scarce-complement path unsupported. Whether buyers readily substitute at comparable reliability remains untested, so the New Economies path stays open on Watch. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 11/25 |
+| Path-specific thesis fit | 14/25 |
 | Durable value capture | 8/25 |
 | Customer demand | 5/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 38/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent small data team pay for a second cycle of pipeline fixes it previously deferred when it can choose a functionally equivalent alternative? In a paid production trial, compare all-in cost per verified fix with the team’s former manual workflow and offer a substitute using the same model. Move to **Reach out** if the savings make the deferred work affordable and the buyer chooses Alkera again at a price that covers delivery. Move to **Pass** if the trial shows the work remains uneconomic or the buyer switches and preserves the outcome.
+Will independent small data teams repeatedly pay for Alkera to complete pipeline fixes they previously deferred once a competing workflow offers comparable functionality? A paid production pilot that verifies downstream correctness, measures fully loaded cost per successful fix against the manual baseline, and records repeat purchases with the alternative available would answer it. Move to Reach out if lower costs unlock deferred work and teams still choose Alkera under parity. Move to Pass if the pilot shows the work was already economical or buyers readily switch at parity.

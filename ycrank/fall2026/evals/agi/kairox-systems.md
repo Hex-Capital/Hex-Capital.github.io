@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Kairox says maritime teams use separate aerial and underwater drones with separate operators and logistics. Tempest is designed to combine both modes in one autonomous vehicle. The market-opening hypothesis is that a single platform could bring recurring cross-environment work that buyers currently skip or perform infrequently within budget. That requires fewer operator hours per successful outcome and a lower full delivery cost after accounting for equipment, qualification, supervision, maintenance, recovery, and retries. The memo provides no measured cost comparison or evidence of repeat deployment economics. (The Idea, Key Risks)
+**New Economies** is the strongest path. Kairox says maritime teams use separate aerial and underwater drones, with dedicated operators and logistics for each. Tempest is designed to combine both modes in one autonomous vehicle. If that materially lowers operator time and all-in cost per successful mission at comparable reliability, buyers could order recurring cross-domain work they previously found too costly. That use is a scenario assumption. The memo gives no baseline cost, comparative labor measurements, or mission success rates. (The Idea, Key Risks)
 
-Under model parity, a buyer could still pay Kairox for a qualified vehicle that reliably operates in both environments. Qualification could create switching costs if buyers must qualify replacements. That remains an inference. The founders have relevant hardware, controls, and autonomy experience, and Kairox reports laboratory component validation. Marine Corps engagement and military end-user concept feedback are company-reported, and the memo establishes no buyer budget commitment for Tempest. The seed-stage case supports a field test, with low confidence in the market-opening and value-capture claims. (Defensibility, Founders & Team, Market & Traction, Key Risks)
+The founders’ hardware, autonomy, and aerospace experience, together with company-reported laboratory component validation, supports partial execution credit at seed. Kairox reports Marine Corps engagement and end-user concept feedback. The memo records an unquantified revenue classification and identifies no paid pilot or procurement commitment, so buyer demand remains preliminary. (Founders & Team, Key Risks, Market & Traction, Key Facts)
+
+Under model parity, buyers could still pay Kairox for a reliable, qualified vehicle that performs both jobs. Qualification could create switching costs if buyers adopt Tempest and must qualify replacements. That advantage remains hypothetical. A deployment cost bridge would need to cover vehicle cost, utilization, maintenance, and human intervention and recovery. The memo supplies none of those inputs. (Defensibility, The Idea, Key Risks)
 
 ### Countercase
 
-Buyers already equipped with separate fleets may be able to complete the same work at comparable cost with equally capable autonomy. Tempest could consolidate equipment while leaving supervision, recovery, or failed attempts costly enough that buyers still skip the same work. The memo identifies adjacent platforms and reports laboratory validation, leaving both substitution and delivered economics unresolved. Neither Path B condition has cleared its gate, and the memo contains no representative comparison that would close the path. It also establishes no independent Path A case linking AI demand to a scarce capability Kairox controls. (The Idea, Defensibility, Market & Traction, Key Risks)
+Existing fleets already cover both environments. If buyers can coordinate them at acceptable cost, Tempest may offer convenience within an existing market, with limited reason to switch. The reported lab validation leaves integrated field performance open. The memo establishes neither ready substitution for a newly viable use nor an independent scarce-complement case. Watch applies because the market-opening and value-capture conditions remain testable. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 8/25 |
-| Durable value capture | 7/25 |
+| Path-specific thesis fit | 9/25 |
+| Durable value capture | 6/25 |
 | Customer demand | 6/20 |
-| Team and execution | 8/15 |
+| Team and execution | 9/15 |
 | Scale economics | 4/15 |
 
-**Total Score: 33/100** (Pass)
+**Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent buyer commit budget to repeat a previously uneconomic cross-environment task after a representative field trial against its separate fleets at equivalent model capability? Move to **Reach out** if the trial meets the buyer’s reliability requirements, shows lower operator labor and full cost per successful outcome at the proposed price, and earns a repeat commitment for Tempest’s qualified combined operation. Stay on **Watch** if the trial is inconclusive. Move to **Pass** if a representative result shows that the cost reduction leaves the task uneconomic or that equivalent alternatives preserve the outcome at comparable economics.
+Will a target buyer commit to paid recurring use for a cross-domain mission it previously found too costly? A side-by-side field trial showing materially lower operator time and all-in cost per successful mission at comparable reliability, followed by a paid commitment tied to Tempest’s integrated field performance, would move the action to Reach out.

@@ -5,30 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Definite’s strongest path. A finance software vendor could buy its cross-ERP mapping and rules engine to add source-traceable workflows across close, planning, billing, and tax. Definite describes reproducible runs that preserve mappings, calculations, and approvals. The inferred reason to own the engine is faster rollout across the buyer’s customer base, provided the mappings can be reused and ownership offers an advantage over licensing. The memo establishes no measured buyer benefit or supported acquisition price. (The Idea, Defensibility, Key Risks)
+The strongest path is a strategic acquisition by a finance software vendor. Definite describes a shared data model that maps operating records to financial results and preserves the rules, approvals, and source records behind each calculation. A close or planning vendor could use that capability to handle more workflows across different ERPs. The memo documents Definite’s shift to the broader finance platform by September 2026. Definite’s claim that it was live with banks concerns its earlier regulatory-reporting product. The memo gives no current-platform revenue, measured customer savings, or buyer interest. (The Idea, Defensibility, Market & Traction, Key Facts)
 
-The memo records Definite’s public shift to the current finance platform by September 2026. Definite’s claim of live bank deployments applies to its earlier regulatory reporting product. A relevant operating milestone is repeat paid production deployment across different ERP systems, with measured onboarding effort and reconciliation time savings. Founder-led demos scoped to one workflow make an initial test plausible. Current-product revenue, the capital needed to reach repeat deployment, and transfer rights for the core software and customer agreements are unverified. (The Idea, Market & Traction, Key Facts)
+A milestone that would strengthen the sale case is completing paid deployments on two different ERP stacks for the same recurring reconciliation workflow, with measured time savings and onboarding costs. Founder-led demos scoped to a single workflow offer a way to run that test. Custom connectors and customer-specific mappings leave the time and capital needed uncertain. Software and customer-contract transfer rights and the holder’s ability to participate remain unverified. The memo provides no evidence of an independent liquidity route. (The Idea, Key Risks, Key Facts)
 
-Under the shared scenario, a $500,000 check at a $10 million post-money valuation starts at 5% and dilutes to 3% with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million in distributable equity at 3%. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With illustrative net debt of $5 million and before any fees, senior claims, or investor taxes, a $25 million enterprise sale yields $600,000 (1.2×), while a $100 million sale yields $2.85 million (5.7×). Both prices are scenario assumptions.
+The benchmark is a $500,000 check at a $10 million post-money valuation, with 5% ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale cases below are illustrative. Both assume $10 million in combined net debt and deal adjustments, no senior claims taking priority in the waterfall, and an eligible holder selling their entire stake for cash within eight years.
 
-If Definite’s growth plateaus below listing scale, buyers stay absent, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. The memo supplies no cash generation or financing case for a sponsor buyout, eligible share demand for a secondary, operating scale or resale evidence for an IPO, or distributable cash for dividends or buybacks. (Market & Traction, Key Facts)
+| Scenario | Proceeds bridge | Gross cash to holder |
+|----------|-----------------|---------------------|
+| Modest sale | $50 million enterprise value less $10 million yields $40 million in distributable equity | $1.2 million |
+| Strong sale | $100 million enterprise value less $10 million yields $90 million in distributable equity | $2.7 million |
+| Prolonged private | The company reinvests available cash, with no distribution or eligible share purchase within eight years | $0 |
+
+Even in the strong case, receiving only 90% of the holder’s entitlement in cash within the horizon lowers proceeds to $2.43 million. The memo supplies no buyer economics or comparable sale prices to support the strong-case valuation. (Market & Traction, Key Facts)
 
 ### Countercase
 
-Microsoft’s native finance agents and ERP access give Dynamics customers an available substitute for overlapping workflows. If Definite’s mappings remain customer-specific and onboarding stays labor-intensive, a potential acquirer could build the overlapping features or partner for cross-ERP coverage. That weakens the case for paying an acquisition premium. The memo leaves both a structural block and materially inadequate sale proceeds unestablished, so the Pass gate remains open. (Defensibility, Key Risks)
+Microsoft’s native finance agents give Dynamics customers an option for overlapping workflows. If Definite’s integrations and mapping rules require substantial work for each customer, a strategic buyer could build the features it needs and avoid taking on that implementation burden. That risk weakens the acquisition case. The memo establishes neither a substitute for the full cross-ERP workflow nor a structural barrier to a sale or a supported price ceiling below the proceeds hurdle. The Pass gate is therefore untriggered. (Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
+| Milestones and capital needed | 9/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 38/100** (Pass)
 
 ### Decisive diligence question
 
-Would a finance software buyer value ownership of Definite’s engine at a price that could leave at least $83.3 million in distributable equity within eight years? Move to Reach out if repeat paid cross-ERP deployments underpin a buyer-validated price range that clears that hurdle, with quantified rollout savings or incremental gross profit that favor ownership over building or licensing.
+Can Definite show that paid deployments across different ERP stacks deliver repeatable savings at an implementation cost that could justify a strategic purchase above the holder’s proceeds hurdle? Paid production contracts, before-and-after reconciliation times, and measured onboarding costs would let a buyer compare acquiring Definite with building the capability. Move to Reach out if those economics support a plausible price yielding at least $83.3 million in distributable equity under reasonable deal adjustments. Keep Watch while that evidence is missing.

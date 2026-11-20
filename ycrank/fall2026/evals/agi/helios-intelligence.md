@@ -5,13 +5,13 @@
 
 ### Company case
 
-**Path B — New Economies.** Helios could make frequent, broad biomarker monitoring economical for consumers who currently test only occasionally. Helios says its at-home test is designed to measure more than 1,000 biomarkers from a drop of blood and combine repeat results with health records, wearables, and outcomes. Compared with clinician-collected testing, self-collection could reduce collection labor and make repeat testing easier. The memo reports an unquantified waitlist and provides no test price, paid repeat use, or measured labor savings per usable result. (*The Idea*, *Market & Traction*)
+New Economies is the strongest path. Helios says it is building an at-home test for more than 1,000 biomarkers and a model that combines repeat draws with health records, wearables, and outcomes. The scenario is that home collection reduces reliance on clinician-collected draws and automated interpretation reduces manual review enough to make frequent, clinically useful monitoring affordable for consumers who currently forgo it. The memo gives no baseline delivery cost, measured labor savings, or cost per validated actionable finding. Under model parity, buyers could still pay Helios for reliable longitudinal measurements and better-calibrated alerts. Helios reports training on linked repeat draws and health records, but the dataset’s size, exclusivity, and predictive advantage remain unverified. (The Idea, Defensibility, Key Risks)
 
-The unit to test is one successfully delivered repeat panel. The cost comparison needs to include collection, shipping, processing, failed samples and redraws, review, and fulfillment at the proposed cadence. The memo reports third-party profiling advertised from $50 per sample, which gives a processing reference point. Helios’s realized costs and contribution per panel remain unknown. In a scenario where equivalent interpretation models are cheap and widely available, buyers might still pay Helios for reliable home collection and a longitudinal record that demonstrably improves monitoring. Helios reports training on linked repeat draws and health records, while the memo leaves data exclusivity, retention, and predictive calibration unresolved. The founders’ prior diagnostics work supports their ability to run the test at seed, and Helios-specific assay validation remains undisclosed. (*Market & Traction*, *Defensibility*, *Founders & Team*, *Key Risks*)
+The expansion unit is one member completing a repeat testing cycle. The memo cites third-party profiling from $50 per sample. Helios’s assay cost and selling price are undisclosed, and contribution depends on the cost of collection kits, shipping, failed samples, inference, and human review. The reported waitlist has no disclosed signup count or paid repeat orders. The founders’ prior work developing molecular diagnostics and co-founding acquired diagnostics companies supports seed-stage execution, with analytical validation of the Helios test still open. (Market & Traction, The Idea, Founders & Team, Key Risks)
 
 ### Countercase
 
-SiPhox already offers repeat home panels, and VO Health uses a third-party platform to profile more than 1,000 proteins from a small self-collected sample. Helios could end up selling a broader panel to consumers already served by home testing, with a rival able to source comparable profiling and pair it with equivalent interpretation. The memo also describes research in which delayed processing preserved agreement with venous draws for only some analytes. If Helios encounters that problem, redraws and review could erase the labor savings. These findings leave both Path B gates unproven. The memo contains no direct comparison that settles either gate for Helios, and it identifies no scarce input Helios controls that would support Path A. (*Market & Traction*, *Defensibility*, *Key Risks*)
+Repeat testing already exists, and VO Health uses a commercial platform to measure more than 1,000 proteins from a small home-collected sample. That availability defeats assay breadth as the basis for a scarce-complement case. Helios could end up offering a more convenient product in an existing market, with competitors able to combine similar assays and models. The memo leaves open whether Helios can serve consumers who previously went without frequent monitoring and retain them under model parity. Those conditions are testable, so Watch applies. (The Idea, Defensibility, Market & Traction)
 
 ### Dimension Scores
 
@@ -19,12 +19,12 @@ SiPhox already offers repeat home panels, and VO Health uses a third-party platf
 |-----------|-------|
 | Path-specific thesis fit | 8/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 6/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Customer demand | 5/20 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
 **Total Score: 34/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid repeat-testing pilot show that Helios serves consumers who previously went without frequent broad monitoring and that those consumers still choose Helios when offered a credible alternative with equivalent model quality? Move to Reach out if independent buyers pay and repeat at a price that covers measured delivery costs, the pilot demonstrates lower labor per analytically usable result than clinician-collected testing, and buyers show a preference for Helios’s collection or longitudinal service under model parity. Pass if a representative pilot shows that redraws and review erase the labor savings or that buyers readily switch under parity.
+Can a prospective paid pilot convert consumers who previously went without frequent monitoring into repeat customers? Move to Reach out if the cohort shows a lower all-in cost per validated actionable finding than the prior testing workflow and customers renew at a price that covers repeat-cycle costs when an alternative with comparable model capability is available.

@@ -5,30 +5,28 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. A hosting platform such as Railway or Render could buy Ample’s source-aware deployment engine and recipe catalog to turn more apps built by external coding agents into recurring hosted workloads. The memo documents a verified Claude connector and 2,144 published recipes. Ample says each documented framework and workload combination has a deployed example. The acquisition rationale is an inference. It depends on ownership producing enough additional hosting margin or engineering savings to justify a purchase. (*The Idea*, *Defensibility*, *Market & Traction*)
+The strongest route is a strategic sale to a hosting platform such as Railway or Render. Ample has a verified Claude connector and publishes 2,144 deployment recipes. It says its software infers infrastructure needs from app code and provisions the services needed to deploy. A hosting platform could buy that capability to turn more agent-built apps into hosted workloads, provided Ample can demonstrate a sustained advantage over the buyer’s own tools. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-The operating milestone is a retained, paying cohort of multi-service apps that Ample deploys with measurably less manual work than a potential buyer’s existing agent tools. The memo records 5,000 users at public launch and two customer testimonials describing live visitor and submission activity. These are early signals that Ample can recruit workloads for the test. Paid retention, hosting margins, burn, and the capital needed to reach that milestone remain unknown. (*Market & Traction*, *Key Facts*)
+The memo records more than 5,000 users at public launch. Company-shared customer testimonials describe live apps processing checkout or registration submissions. Those signals support a plausible next milestone within an assumed 12 months: show that complex apps stay in paid production and deploy successfully more often than with incumbent tools. The listed $125,000 seed entry provides some funding evidence. Paid retention, the cost of reaching the milestone, and available runway remain unverified. (*Market & Traction*, *Key Facts*)
 
-**Proceeds bridge.** With holder terms and company debt unreported, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, no follow-ons, and simple pro rata proceeds before investor taxes. A 5× cash return within eight years requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. At 3%, with illustrative net debt of $5 million, the hurdle is $88.3 million of enterprise value. A $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), before any fees or senior claims. The memo gives no basis for underwriting either sale price. (*Key Facts*)
-
-If growth plateaus below public-listing scale, buyer interest fails to materialize, and Ample reinvests all available cash for eight years, the holder realizes $0 and retains the shares. The memo supplies no evidence of cash generation to support a sponsor buyout or funded payout, eligible secondary demand, or a path to public resale. In a wind-down, holder proceeds would depend on the residual after obligations and preferences, which the memo gives no basis to estimate. (*Market & Traction*, *Key Facts*)
+Using the shared benchmark, a $500,000 check at a $10 million post-money valuation starts at 5% ownership and dilutes to 3% with no follow-ons. A 5× cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value. Assume an eligible holder, a full sale, pro rata distribution with no preference leakage, and cash paid within eight years. A **modest** $40 million enterprise-value sale yields $1.2 million before debt or deal adjustments. A **strong** $100 million sale with $10 million in combined deductions leaves $90 million to distribute and pays the holder $2.7 million. If only 80% of that payout arrives within eight years, realized cash falls to $2.16 million. In the **prolonged-private** case, reinvestment yields zero realized cash. The sale prices are scenario assumptions. The memo leaves a realizable price range and an independent liquidity route unevidenced. (*Market & Traction*, *Key Facts*)
 
 ### Countercase
 
-Railway and Render already expose infrastructure tools to external coding agents. A host may be able to build enough source-aware provisioning itself or license Ample’s capability without buying the company. The memo supplies no comparative deployment results to establish that ownership would confer a material advantage. It also identifies conflicting contracting entities, creating uncertainty about whether the entity in which the investor holds shares controls the code and customer contracts needed for a sale. These gaps support Watch. The memo establishes neither a structural block nor a realizable price that leaves the holder materially short. (*Defensibility*, *Key Risks*)
+Railway and Render already give external coding agents access to infrastructure tools. They could build equivalent automation, weakening the reason to acquire Ample. The memo also names different entities in Ample’s legal terms and operator materials, leaving ownership of the product and customer contracts, and the holder’s ability to participate in a sale, open. The evidence establishes neither a structural closing block nor a ceiling on proceeds, so the Pass gate remains open pending diligence. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 4/10 |
+| Milestones and capital needed | 11/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can Ample show a hosting platform that owning its deployment engine would generate enough incremental value to support a sale that clears the holder’s cash target? A production comparison on retained, paying multi-service apps, with deployment effort and hosting margins measured against the platform’s existing tools, would give a buyer a basis for pricing that benefit. Move to Reach out if those results support a credible price range that can clear the modeled hurdle within eight years.
+Would Ample bring a hosting platform enough incremental, retained paid workloads to justify a purchase price that clears the holder’s cash hurdle? Comparative deployment results and paid-cohort retention, tied to a specific buyer’s build-versus-buy economics, would answer it. Evidence supporting a price that clears the hurdle after deal deductions would move the action to Reach out. A credible price ceiling below the hurdle would move it to Pass.

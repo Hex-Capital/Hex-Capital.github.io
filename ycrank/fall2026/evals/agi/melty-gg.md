@@ -5,26 +5,28 @@
 
 ### Company case
 
-**Path A — Scarce complements.** Melty Gym could supply a constrained input for AI research: configurable game environments for testing spatial reasoning and coordination. The launch demo shows a G1 robot driving in GTA V and interacting with server racks in simulation. That establishes prototype capability. Melty also reports building custom tasks with unnamed teams, an early demand signal with buyer commitments still unverified. (*The Idea*, *Market & Traction*)
+Melty’s strongest AGI path is a **scarce complement**. If AI research teams need more varied tests of spatial reasoning and coordination, game environments with programmable mechanics, objectives, and agent roles could become a valuable input. The memo documents a launch demo showing a G1 robot driving in GTA V and interacting with server racks in simulation. The demo establishes technical feasibility for those tasks. Whether researchers face a shortage of suitable environments remains open. (The Idea, Market & Traction)
 
-If cheaper frontier models lead research teams to run more varied evaluations, adapting environments in-house could become a bottleneck. Melty could capture value if its game integrations give it durable access to environments that buyers would take meaningfully longer to reproduce. The unit of expansion would be a new task on an integrated game. Reusing the integration could spread setup costs across tasks, with contribution still dependent on customization, compatibility maintenance, and buyer support. The memo provides no measured setup times, reuse rates, or Gym pricing. (*The Idea*, *Defensibility*, *Key Facts*)
+Melty reports building custom training tasks with unnamed teams. That is an early demand signal, with payment and repeat use unverified. David Miller’s delivery of the consumer launcher and the Gym prototype supports seed-stage execution credit. Repeat delivery to research teams remains the next execution test. (Market & Traction, Founders & Team)
+
+The expansion unit is one validated research task. If Melty can reuse game integrations, subsequent tasks could require less engineering. The memo gives no Gym pricing, measured setup time, or per-task testing and maintenance costs, so contribution per task remains unknown. (The Idea, Defensibility)
 
 ### Countercase
 
-Researchers may need individual tasks that narrower tools can deliver. Good Start Labs already builds curated game tasks with verifiable rewards, and Isaac Lab offers a route for teams that need robot-learning simulation. Melty’s documented exclusivity covers creator-published consumer mashups, while durable access to the underlying games for Gym remains unverified. The alternatives make substitution credible. The memo contains no buyer comparison showing that they meet the same task requirements on comparable terms, so the scarce-complement path remains open. (*The Idea*, *Defensibility*, *Key Risks*)
+Researchers may be able to get the evaluations they need through curated game tasks from Good Start Labs or robotics simulation in Isaac Lab. Melty’s programmable engine offers a specific capability, but buyer preference under comparable functionality is untested. Its documented exclusive distribution rights cover creator-published consumer mashups, and durable access to the underlying games for Gym is unverified. These facts leave scarcity and value capture open. The memo records no buyer switching or task-level comparison that would close the path. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 12/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 8/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 35/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent research team place a paid follow-on order after testing Gym against its best available alternative on a task it could not previously run within its time or budget? A documented comparison showing that Gym meets the task requirements materially faster, with durable rights to deliver it again, would move the action to Reach out. A credible substitute meeting the same requirements on comparable terms would close the path and move the action to Pass.
+Will an independent AI research team pay Melty for a second evaluation task after trying a credible alternative? Move to Reach out if the team confirms the repeat purchase and shows that Gym met a required evaluation specification the alternative could not meet within the team’s time and budget, using games Melty has permission to support for that use.

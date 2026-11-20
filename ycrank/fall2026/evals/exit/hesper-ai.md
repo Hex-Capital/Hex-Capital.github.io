@@ -5,23 +5,31 @@
 
 ### Company case
 
-Hesper’s strongest path is a strategic acquisition by a claims platform such as Guidewire. Hesper says its agents gather missing records, verify evidence, and return source-linked findings to the existing claim file. A founder reported 82% less adjuster time per claim during a two-week deployment at one MGA. That suggests a potential benefit for a platform’s customers. Ownership could make sense if Hesper can reproduce those savings across the buyer’s installed base and bundling the workflow would generate more value than building or licensing it. The memo documents Guidewire’s investment in FRISS, which establishes interest in claims investigation workflows while leaving its willingness to acquire Hesper untested. (The Idea, Defensibility, Market & Traction)
+A strategic acquisition by a claims software platform is Hesper’s strongest exit path. Hesper lists integrations with Guidewire, Duck Creek, and Majesco that return evidence-linked findings to existing claim files. Owning the investigation workflow could help a platform expand what it sells to claims teams. Hesper reports paying production customers, and a founder reports that one MGA saw 82% less adjuster time per claim and identified $1.2 million in fraud over two weeks. That result gives a buyer a reason to test the workflow. The memo leaves realized recoveries, repeatability across customers, and the economics of owning the product unverified. (*The Idea; Defensibility; Market & Traction*)
 
-The proposed milestone is sustained, customer-verified time savings at acceptable investigation accuracy across multiple paid deployments on the same claims platform, measured against the existing workflow. Hesper reports paying production customers, pilots, and a $1.5 million pre-seed round, which make the test plausible. The memo leaves paid conversion, burn, and runway open. Hesper’s data-processing terms provide audit rights and notice of subprocessor changes. Transferability of customer contracts and data access remains unverified. The other routes have no usable evidence of sponsor financing supported by cash flow, demand for eligible secondary shares, public-market scale and resale readiness, or cash available for dividends or buybacks. (The Idea, Market & Traction, Key Risks, Key Facts)
+The proposed operating milestone is to repeat measurable adjuster-time savings across multiple paying deployments over 6–12 months, track false referrals, and show that customers renew. Reported production use and a $1.5 million pre-seed make that test plausible. Runway and deployment costs remain unknown. Hesper’s data-processing terms address audit rights and subprocessor changes. Contract assignment, data permissions after a change of control, and holder participation remain unverified. The memo provides no evidence of an independent route to holder liquidity. (*Market & Traction; Key Facts; Key Risks*)
 
-Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5%, diluted to 3% with no follow-ons. The eight-year 5× target is $2.5 million gross before investor taxes. At 3%, that requires $83.3 million of distributable equity, or $88.3 million of enterprise value assuming $5 million of net debt. At 2% and 4%, the equity hurdles are $125 million and $62.5 million, respectively. A year-eight sale at $25 million enterprise value yields $600,000 gross (1.2×), while a $100 million sale yields $2.85 million (5.7×), or $1.9 million (3.8×) at 2% ownership. These scenarios use simple pro rata allocation after illustrative debt. Actual debt, fees, preferences, and consideration timing are unknown. The memo supplies no supported acquisition price range. If growth plateaus, buyers stay away, public scale remains out of reach, and Hesper reinvests all available cash without a secondary or payout, the holder realizes $0 over eight years and retains the shares. A wind-down would pay only the residual after obligations and preferences, which the memo gives no basis to estimate. (Market & Traction, Key Facts)
+The rubric’s benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3% pro rata. The prices below are scenario assumptions. The memo provides no basis for estimating a buyer’s price or the holder’s actual waterfall. (*Market & Traction; Key Facts*)
+
+| Scenario | Enterprise value to holder cash |
+|-----------|---------------------------------|
+| Modest sale | $40 million enterprise value less $5 million in assumed net debt and deal costs leaves $35 million in equity. The holder receives $1.05 million, or 2.1×. |
+| Strong sale | $100 million enterprise value less the same $5 million leaves $95 million in equity. The holder receives $2.85 million, or 5.7×. If only 75% of that payout arrives within eight years, realized cash falls to about $2.14 million, or 4.3×. |
+| Prolonged private | Continued operation with cash reinvested and no eligible share purchase or distribution yields zero realized cash within eight years. |
+
+Both sale cases assume the holder is eligible, sells the entire stake, and receives 3% of the equity proceeds in cash within eight years, with no preference or other waterfall adjustment. The strong case clears the hurdle under those assumptions. Buyer economics that could support that price are the gap behind Watch.
 
 ### Countercase
 
-Guidewire can extend its existing FRISS integration, which already routes flagged claims into investigations and returns case status. Duck Creek has launched native infrastructure for deploying and governing insurance agents. These documented alternatives carry more weight in the ownership decision than the founder-reported outcome from one short deployment, which measures customer time savings and leaves the platform’s economics untested. This is credible substitution risk, short of a demonstrated structural block or a supported sale price that leaves the holder materially short. The Pass gate remains unmet. (Defensibility, Market & Traction, Key Risks)
+A platform can serve the same customers through native tools or an integration partner. Duck Creek has launched native infrastructure for insurance agents, and FRISS already integrates investigation referrals and case status into Guidewire. Guidewire’s investment in FRISS also shows a way to participate in the category through a minority stake. These alternatives weaken the case for paying an acquisition premium, especially while Hesper’s quantified outcome comes from one short deployment. The memo establishes neither a structural closing block nor a credible price ceiling below the holder’s hurdle, so the Pass gate does not trigger. (*Defensibility; Market & Traction; Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
+| Counterparty rationale or source of cash | 17/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 12/20 |
+| Milestones and capital needed | 13/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
@@ -29,4 +37,4 @@ Guidewire can extend its existing FRISS integration, which already routes flagge
 
 ### Decisive diligence question
 
-Can a claims platform justify an acquisition price that clears the holder’s $2.5 million cash target once it compares Hesper with building or licensing the workflow? A buyer-side analysis grounded in repeatable results from paid deployments would move the action to Reach out if it supports a price range that clears the target after plausible dilution and senior claims.
+Can a claims-platform buyer substantiate enough incremental value from owning Hesper to support a sale yielding at least $83.3 million in distributable equity within eight years? Repeatable results across paying customers and a buyer-informed analysis of the value of ownership over native or partner options would answer it. A defensible price range that clears the hurdle after deal adjustments would move the action to Reach out. A supported ceiling that leaves the holder materially short would trigger Pass.

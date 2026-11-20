@@ -5,32 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is Melty’s strongest path. An AI or robotics lab could buy the Gym engine to build and modify reinforcement-learning and evaluation tasks faster. The memo documents a demo of a simulated G1 robot driving in GTA V and interacting with server racks in a simulated data center. Melty reports custom task work with unnamed teams. The potential buyer benefit is lower engineering effort across repeated tasks, but the memo supplies no measured savings or evidence that owning the engine would deliver more value than licensing it. (The Idea, Market & Traction, Defensibility)
+The strongest path is a strategic acquisition of Melty Gym by an AI lab building agent evaluations across games. Gym lets teams change mechanics, objectives, and agent roles. The memo documents DeepMind testing agent learning across unfamiliar games, which illustrates why a lab might value the ability to create more varied tests. The acquisition rationale is conditional on Gym materially reducing the cost or time of building those tests. The memo provides no measured savings or buyer interest. (The Idea; Market & Traction)
 
-A paid production pilot that reuses the engine across multiple environments with documented usage rights and measures setup time and cost against the lab’s current workflow would strengthen the case. The demo and reported custom work make that test plausible. The memo lists a $125,000 seed funding entry and gives no burn, runway, or pilot budget, so the capital needed to reach the milestone is uncertain. The memo also supplies no evidence of the cash generation, eligible share demand, or public-market readiness needed to support a buyout, payout, secondary, or IPO. (Market & Traction, The Idea, Key Facts)
+Melty reports custom task work with unnamed teams, and its launch demos show simulated tasks. That makes a paid repeat deployment with measured setup-time savings a plausible seed-stage milestone. The memo lists a $125,000 seed entry and leaves pilot funding, runway, and the capital needed to reach repeat deployments unknown. (Market & Traction; Key Facts)
 
-**Illustrative proceeds.** Investor terms are missing. Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. It requires $83.3 million of distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With illustrative net debt of $5 million, the 3% case requires $88.3 million in enterprise value. These scenarios assume a pro rata distribution before investor taxes and exclude fees and senior claims because the memo provides no amounts.
+Using the benchmark $500,000 check at a $10 million post-money valuation, ownership goes from 5% to 3% with no follow-ons. The holder needs $2.5 million in gross cash within eight years, which requires about $83.3 million in distributable equity value. Both sale scenarios assume the holder can participate, sells its full stake for cash within eight years, and receives 3% of equity proceeds after debt, closing costs, and any senior claims. With those deductions assumed to be zero:
 
-- A $25 million enterprise-value sale in year eight leaves $20 million of equity after illustrative debt and pays the holder **$600,000 gross (1.2×)**.
-- A $100 million enterprise-value sale in year eight leaves $95 million of equity and pays **$2.85 million gross (5.7×)**. The memo supplies no supported sale price range.
-- If growth plateaus, buyers stay away, public-market scale remains out of reach, and Melty reinvests all available cash for eight years without a sale or funded payout or share purchase, the holder realizes **$0** and retains the shares. A wind-down payout depends on the residual after obligations and preferences, which the memo does not quantify. (The Idea, Market & Traction, Key Facts)
+- **Modest sale.** A hypothetical $30 million enterprise value yields $30 million in distributable equity and $900,000 to the holder, or 1.8×.
+- **Strong sale.** A hypothetical $100 million enterprise value yields $100 million in distributable equity and $3 million to the holder, or 6×. If debt and closing costs reduce the equity pool by $20 million, the holder receives $2.4 million, or 4.8×.
+- **Prolonged private.** Continued operation with reinvestment and no share sale or distribution yields $0 in realized proceeds within eight years.
+
+The sale prices are scenario assumptions. Gym pricing, company revenue, buyer valuations, and holder terms are undisclosed, so the memo cannot establish a realizable price range or a separate liquidity route. (The Idea; Market & Traction; Key Facts)
 
 ### Countercase
 
-A lab could build selected tasks in Isaac Lab, use curated game environments like those Good Start Labs offers, or license Gym for the tasks where it saves time. Melty’s consumer terms reserve rights in its own packages, catalog, and data, while publisher rules constrain the use of underlying games. The memo leaves open whether a buyer could continue using the commercial-game environments demonstrated by Gym. Those risks support Watch. The evidence establishes neither a structural bar to selling the engine nor a ceiling on holder proceeds that would trigger Pass. (The Idea, Defensibility, Key Risks)
+Good Start Labs already builds game-based tasks with verifiable rewards, so a buyer could cover some evaluation needs without acquiring Gym. Even if Gym saves enough work to justify a purchase, the buyer would need rights to keep using the environments that create that value. Melty’s consumer terms reserve ownership of prepared packages and catalog assets, while consumer use remains subject to publisher rules. The memo leaves Gym’s commercial permissions and their assignability unverified. This is a closing risk. The memo establishes neither a structural block nor a credible sale price that would trigger the proceeds gate. (Defensibility; Market & Traction; Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 13/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 8/20 |
-| Transaction feasibility | 4/10 |
+| Milestones and capital needed | 10/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 34/100** (Pass)
+**Total Score: 39/100** (Pass)
 
 ### Decisive diligence question
 
-Can a paid production pilot on environments with documented usage rights show repeatable setup savings that give a lab an economic reason to own Gym at a price consistent with the holder’s 5× hurdle? Measured savings across multiple tasks and a buyer-backed valuation range that clears the hurdle after dilution and transaction claims would move the action to Reach out. Evidence that labs would only license the engine and that the strongest credible sale falls materially short of the hurdle would move it to Pass.
+What acquisition price could a strategic buyer justify from the measured savings of deploying Gym repeatedly? Buyer feedback that ties a credible price range to measured savings in a paid deployment, with commercial rights that can transfer, would change Watch to Reach out if the range supports at least $83.3 million in distributable equity within eight years.

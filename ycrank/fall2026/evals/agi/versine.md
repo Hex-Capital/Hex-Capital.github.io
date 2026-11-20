@@ -5,28 +5,28 @@
 
 ### Company case
 
-**Path B — New Economies.** Versine’s strongest case is that assistant-initiated payments could make frequent, multi-recipient settlements worthwhile for people who currently defer or skip them. Today, users can ask an assistant to work out a split, then complete the transfers in a separate payment app. Versine says one prompt can initiate up to 100 transfers, with passkey approval or standing rules and bank claim links for recipients without an account. The market-opening hypothesis is that batching reduces human effort per correctly settled transfer after accounting for review, unclaimed payments, retries, and errors. The memo documents the workflow but contains no measured cost comparison or evidence of previously skipped transfers becoming routine. (The Idea, Key Risks)
+The strongest AGI path is New Economies. Versine says its assistant integration can initiate up to 100 transfers from one prompt, with passkey approval or standing rules and bank claim links for recipients without accounts. The manual baseline requires users to leave the assistant and complete transfers in a payment app. A plausible new use is frequent settlement of small group expenses that organizers currently leave unsettled because of the work involved. The relevant cost is human time per correctly settled reimbursement, including approvals and error correction. The memo provides no comparative measurement or evidence that this use has opened. (The Idea, Key Risks)
 
-Under model parity, saved contacts, recurring transfers, and established payment rules could give users a reason to stay if those settings save meaningful work. The memo identifies this possibility without showing retention or preference against an equivalent workflow. The observed launch upvotes and initial Android downloads show early interest. The launch also offered a $100 sending credit, and the memo gives no evidence of unsubsidized repeat transfers or paid payouts. (Defensibility, The Idea, Market & Traction)
+The November launch and mobile listings show the team shipped a product. The founders bring relevant payments, systems, and AI experience. The reported launch votes and Android downloads show early interest, while completed transfers, repeat use without launch credits, and willingness to pay remain unverified. (The Idea, Founders & Team, Market & Traction)
 
-The team launched the payments product and brings relevant experience in payments, observability, and AI tooling. The next execution milestone is reliable settlement of recurring batches with real recipients. The economic unit is a correctly settled transfer. With free sending and standard payouts, the disclosed $1 instant payout fee contributes revenue only when users choose it. Its uptake and the costs of identity verification, payouts, and handling exceptions are unmeasured. (Founders & Team, Market & Traction, The Idea, Key Risks)
+At the posted fees, instant payouts would generate $1 per paid payout, while standard transfers and payouts generate no fee revenue. For a cohort, contribution per successful transfer would depend on the share using instant payouts and the costs of verification, processing, support, and payment exceptions. The memo provides no measured payout mix or unit costs. (The Idea, Key Risks)
 
 ### Countercase
 
-Versine may save steps on transfers that users would already complete in Venmo or Cash App, leaving the underlying market unchanged. Incumbents already have payment infrastructure, and Stripe Link demonstrates assistant authorization for merchant purchases. Versine also relies on Bridge for identity verification and bank payouts, with no evidenced control over scarce rail capacity to support Path A. The memo contains neither a representative cost comparison nor an equivalent peer-to-peer substitute test. Both Path B gates remain open to testing, which supports Watch with Low confidence. (The Idea, Market & Traction, Defensibility, Key Risks)
+Versine may save users a step in an established payment market. Venmo already handles person-to-person transfers, Cash App offers shareable payment requests, and Stripe Link shows that an incumbent can give assistants payment permissions in merchant checkout. Saved contacts and standing rules could make Versine worth keeping, but that preference remains untested under functional parity. Bridge handles identity verification and bank payouts, and the memo establishes no independent scarce complement. These gaps keep the case at Watch. Direct evidence that users readily switch at parity or that automation fails to unlock the proposed use would close this path. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Path-specific thesis fit | 9/25 |
+| Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
-| Customer demand | 6/20 |
+| Customer demand | 5/20 |
 | Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Scale economics | 4/15 |
 
-**Total Score: 36/100** (Pass)
+**Total Score: 35/100** (Pass)
 
 ### Decisive diligence question
 
-Will independent users who routinely defer small group settlements complete them repeatedly through Versine without credits and keep choosing it at a viable price when offered equivalent assistant automation on familiar payment rails? A comparative pilot should record which settlements users previously skipped, measure human time and full cost per correctly settled transfer, and observe repeat use and payment at the tested price. Reach out if the trial shows that lower delivery costs unlock those settlements and users still choose Versine under parity. Pass if representative results defeat either condition.
+Will organizers who previously skipped small group reimbursements settle them repeatedly through Versine and pay for instant payouts when a functionally comparable option is available? A credit-free cohort that shows materially lower human time per correctly settled reimbursement than the manual workflow and repeat paid use under parity would move the action to Reach out. If organizers still skip those settlements or readily switch at parity, move to Pass.

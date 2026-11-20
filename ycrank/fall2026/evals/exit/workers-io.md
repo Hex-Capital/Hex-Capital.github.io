@@ -5,30 +5,32 @@
 
 ### Company case
 
-Strategic acquisition is the strongest path. Workers IO describes a deterministic simulator that runs unmodified systems and uses customer-defined state to guide fault exploration and replay failures. An adjacent reliability platform such as Gremlin or Steadybit could buy the simulator to add full-system verification to its existing product. Ownership could justify a premium if it lets the buyer integrate the simulator across its customer base and control its development, and if the resulting revenue or avoided build cost exceeds the value of a licensing deal. The memo documents complementary products, while buyer interest and the economic advantage of ownership remain unverified. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic acquisition by a reliability tooling vendor such as Gremlin or Steadybit. Their documented products run fault experiments, and Workers IO says its hypervisor adds deterministic replay and state-guided branching across services and their dependencies. Owning that capability could give a buyer a simulation product to sell to its existing customers. That rationale is inferred. The memo provides no measured advantage or evidence of buyer interest. (The Idea, Defensibility, Market & Traction)
 
-The operating milestone is repeat paid production use across multiple teams, with measured evidence that Workers IO reproducibly catches consequential failures that customers’ existing tools miss. An investor reports paying customers. The founder reports expansion among almost all customers engaged beyond 30 days, without a denominator, and reports finding PostgreSQL issues in one unnamed customer’s stack. Reported seed funding and an open hypervisor engineering role make further tests plausible. Customer counts, burn, and runway are unknown, so the capital needed to reach the milestone remains unclear. The memo describes an operating service, while ownership of the underlying IP and transferability of customer contracts remain unverified. (Market & Traction, Key Risks)
+The next milestone is to quantify severe defects found and engineering time saved across multiple paid customer deployments. An investor reports paying customers, and the founder reports finding PostgreSQL issues in one unnamed customer’s stack. The memo reports $600,000 in funding across two investors and lists an open hypervisor engineering role. The paid use makes comparative testing plausible, with test costs and runway still unknown. A company sale is plausible in principle, with IP ownership, contract assignment, closing approvals, and holder rights unverified. The memo supplies no independent liquidity route. (Market & Traction, Key Risks)
 
-Under the illustrative terms, a $500,000 check at a $10 million post-money valuation buys 5% initially and dilutes to 3%, with no follow-ons. The eight-year 5× target is $2.5 million gross, requiring $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires $88.3 million in enterprise value. Using simple pro rata allocation before investor taxes, the illustrative $25 million sale yields $600,000 (1.2×), and the $100 million sale yields $2.85 million (5.7×). The memo supplies no company-specific sale price, debt, fees, preferences, or shareholder terms. These scenarios establish the price hurdle. (Market & Traction, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, dilution from 5% to 3%, and no follow-ons. A 5× gross return requires $2.5 million in cash within eight years, or about $83.3 million in distributable equity at 3%. The sale scenarios below assume the company sells in full within eight years, debt and deal adjustments are zero, and the investor is eligible for a full pro rata cash payout without senior claims. The prices illustrate the hurdle. Workers IO’s revenue, relevant sale prices, and buyer economics are unquantified in the memo. (Market & Traction, Key Facts)
 
-If adoption plateaus, strategic buyers stay away, public scale remains out of reach, and available cash is reinvested for eight years, the holder realizes $0 and retains the shares. Subscription billing provides an early operating signal. The memo gives no cash-flow figures to support a sponsor buyout or company-funded payout, no eligible secondary demand, and no evidence of public-market scale or readiness. Wind-down proceeds depend on the residual after obligations and preferences, which the memo leaves unquantified. (The Idea, Market & Traction, Key Facts)
+- **Modest sale at $50 million enterprise value.** $50 million in distributable equity yields $1.5 million to the holder, or 3×.
+- **Strong sale at $100 million enterprise value.** $100 million in distributable equity yields $3 million, or 6×. If debt, deal adjustments, and senior payouts together remove more than about $16.7 million before the pro rata split, the holder falls below 5×. A partial sale, delayed payment, or limited eligibility could also reduce cash received within eight years.
+- **Prolonged private operation.** If the company reinvests available cash and makes no payout or eligible share purchase within eight years, the holder realizes $0.
 
 ### Countercase
 
-Antithesis already offers full-system deterministic fault simulation through a $2,999-per-month self-serve Teams plan. That gives customers a concrete substitute and weakens the case that an adjacent platform needs to own Workers IO. State-guided branching could still matter, but the memo supplies no head-to-head evidence of better coverage or lower verification cost. The Pass gate remains untriggered because this evidence weakens the acquisition rationale without establishing a structural closing barrier or a sale-price ceiling below the holder’s hurdle. (Defensibility, Key Risks)
+Antithesis already offers full-system deterministic simulation, self-serve access, and a coding-agent plugin. An adjacent vendor could leave customers to buy that capability separately, especially if Workers IO’s state-guided branching produces little measurable improvement. The CEO’s reported customer expansion has no stated denominator and does little to establish the scale of demand. The substitution risk supports Watch. The Pass gate remains open because the memo establishes neither a structural closing barrier nor a credible sale-price ceiling below the holder’s hurdle. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 12/30 |
+| Counterparty rationale or source of cash | 14/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
+| Milestones and capital needed | 12/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 37/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-What would an adjacent reliability platform pay to own Workers IO once multiple paying teams show that its simulator catches consequential failures their existing tools miss? A buyer-side estimate grounded in those results that supports roughly $88.3 million in enterprise value under the illustrative terms would move the action to Reach out. Without that evidence, the action stays Watch.
+Does Workers IO’s state-guided branching deliver a repeatable advantage over Antithesis that a reliability vendor could monetize at a scale consistent with the exit hurdle? Matched tests on at least two paying customers’ workloads should compare severe defects found and engineering hours required. A material advantage, paired with a buyer-specific estimate of incremental sales or avoided development costs that supports a price clearing the holder’s hurdle, would move the action to Reach out.

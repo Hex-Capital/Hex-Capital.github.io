@@ -5,30 +5,26 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A robotics OEM or factory automation integrator could buy Axonnic’s EMG capture and decoding stack to train robots on force-sensitive tasks such as sewing. The memo documents live EMG control of a Proception robotic hand. Axonnic reports lower hand-pose error than Meta’s benchmark baseline across all 20 held-out participants. The acquisition case is conditional on a buyer finding that Axonnic’s technology and transferable training data materially improve factory deployment economics, and that ownership captures more of that benefit than licensing or partnering. The size of that benefit remains unmeasured. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic sale to a dexterous-hand or industrial robotics vendor. A buyer could acquire Axonnic’s EMG capture and policy-training technology to automate tasks where cameras miss finger position or grip effort. The live demonstration with a Proception hand establishes an integration. Axonnic reports paid pilots and a sewing LOI, which give it a starting point for testing whether EMG improves factory performance enough to justify ownership. Repeatability across shifts, deployment cost, and the capital needed to scale remain open. Any deal that depends on factory recordings would also depend on reuse and transfer rights negotiated engagement by engagement. (The Idea, Market & Traction, Key Risks)
 
-The operating milestone is a sewing deployment that shows a repeatable improvement in defect rates or setup time against a lower-cost capture method across operators and shifts. Reported paid pilots and sleeve shipments give Axonnic a way to test this at seed stage. The sewing LOI still requires robotic implementation, and recording retries and electrode placement shifts add execution risk. Pilot budgets and the capital needed to reach production remain unknown. (Market & Traction, Key Risks)
-
-**Illustrative proceeds.** With actual investor terms unavailable, assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year target is $2.5 million in gross cash. A simple pro rata allocation before investor taxes requires $83.3 million in distributable equity at 3% ownership, $125 million at 2%, or $62.5 million at 4%. With $5 million in assumed net debt, the 3% case requires about $88.3 million in enterprise value. An Axonnic sale at $25 million in year eight would return $600,000 (1.2×). A $100 million sale would return $2.85 million (5.7×). Both scenarios deduct the assumed debt and leave any fees or senior claims unquantified. The memo’s pilot and preorder evidence leaves the realizable acquisition price unsupported. (Key Facts)
-
-If growth plateaus, buyers stay absent, public scale remains out of reach, and Axonnic reinvests all available cash for eight years, the holder realizes $0 and retains the shares. The memo leaves sponsor financing capacity, eligible secondary demand, IPO scale, and distributable cash unevidenced. (Market & Traction, Key Facts)
+The shared benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. Returning 5× in cash within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. In illustrative cash acquisitions, assume zero net debt and deal adjustments, a pro rata waterfall, and an eligible sale of the holder’s entire stake within eight years. A modest $40 million enterprise value yields $1.2 million to the holder. A strong $100 million case yields $3 million, falling to $2.4 million if net debt and deal adjustments absorb $20 million. In the prolonged-private case, reinvestment with no payout or share sale yields zero realized cash. Axonnic’s reported pilot activity leaves acquisition pricing and the actual holder waterfall unsubstantiated. (Market & Traction, Key Facts)
 
 ### Countercase
 
-An OEM could license Axonnic’s technology, use OYMotion’s commercially available capture kit, or build around its own capture tools. Proception already offers a demonstration glove. Axonnic also negotiates factory data reuse engagement by engagement, leaving the scope and transferability of the data rights uncertain. These facts weaken the case for ownership. Whether substitutes can match Axonnic in production, whether the relevant rights can transfer, and what a buyer would pay remain unresolved, so the Pass gate does not apply. (Defensibility, Market & Traction, Key Risks)
+A vendor could use its own capture hardware or source similar functionality elsewhere. Proception offers a demonstration glove, and OYMotion sells an EMG kit and offers force estimation. Axonnic’s reported hand-pose benchmark leaves the incremental value in factory production unresolved, while electrode shifts and repeat recording sessions could erode any deployment savings. This supports Watch. The memo establishes neither a structural block nor a credible sale price that would put proceeds below the hurdle. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 13/30 |
+| Counterparty rationale or source of cash | 15/30 |
 | Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 43/100** (Pass)
 
 ### Decisive diligence question
 
-Can the sewing deployment establish enough value for a robotics OEM or integrator to justify buying Axonnic? A buyer-backed valuation range clearing the modeled proceeds hurdle, grounded in repeatable production gains over the buyer’s best alternative, would move the action to Reach out.
+Can Axonnic show that its EMG data improves production sewing enough for a robotics vendor to justify an acquisition that clears the holder’s proceeds hurdle? A paid factory pilot showing repeatable gains in defect rates or setup time against the vendor’s existing capture workflow, with buyer-side economics that support the required price after deal adjustments, would move the action to Reach out.

@@ -5,28 +5,36 @@
 
 ### Company case
 
-Strategic acquisition is Tilo’s strongest path. An agent-sandbox provider such as E2B or Daytona could acquire Tilo to offer a shared workspace where people and agents act on the same live app state. The memo documents a browser demo and public code implementing attributed changes, undo, and workspace permissions. Tilo lists about 50 native apps and reports roughly 29-fold lower cost and 90-fold higher speed on one same-model task. The comparison run failed, so the benchmark leaves the savings per successfully completed workflow unresolved. A buyer could pay to bring the integrated product to market sooner if production results show that owning it creates more value than adopting the public code, partnering, or building in-house. (The Idea, Defensibility, Market & Traction, Key Risks)
+The strongest path is a strategic acquisition by an agent sandbox provider such as E2B or Daytona. Tilo’s public repository implements shared app state, attributed edits, permissions, and workspace-wide undo. Tilo lists about 50 native apps built on that model. A sandbox provider could buy the product to add collaborative workflows across apps and reduce agent execution costs. Tilo reports about 1/29 of the cost and 90× the speed on one same-model task, but the comparison run failed. The buyer benefit remains an inference until it repeats on workflows both systems complete. (The Idea, Defensibility, Market & Traction, Key Risks)
 
-The demo and implemented app framework make a production pilot plausible at pre-seed. Tilo’s alpha durability warning, the work required to integrate third-party apps, and the undisclosed round size leave the pilot’s cost and timing open. The public repository shows what a buyer could evaluate. The memo leaves the rights Tilo could transfer unverified. It also supplies no evidence of sponsor-financeable cash flow, eligible secondary demand, public-listing readiness, or excess cash available for payouts. (The Idea, Defensibility, Market & Traction, Key Facts, Key Risks)
+The next milestone is a production pilot across several third-party apps that measures cost per completed workflow and verifies reliable state recovery. The browser demo and Rust SDK give Tilo a starting point, and the memo records a pre-seed round. The alpha backup guidance and integration work leave the pilot’s cost and timing uncertain, and the round amount and runway are unknown. (The Idea, Market & Traction, Key Risks)
 
-The illustrative holder invests $500,000 at a $10 million post-money valuation, starts at 5%, and falls to 3% after 40% relative dilution, with no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or $83.3 million of distributable equity at 3% ownership. The equity hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. With $5 million of assumed net debt, the 3% case requires about $88.3 million in enterprise value. At year eight, a $25 million sale yields $600,000 gross (1.2×), and a $100 million sale yields $2.85 million gross (5.7×), using the same debt assumption and a simple pro rata allocation before investor taxes. Actual debt, fees, and senior claims are unverified. The sale prices are sensitivities. The memo gives no usable basis for a realizable price range. If adoption plateaus, buyers stay away, public scale stays out of reach, and Tilo reinvests all available cash with no secondary or payout, the holder realizes $0 and retains the shares. (Market & Traction, Key Facts, Key Risks)
+**Proceeds scenarios.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, 5% starting ownership diluted to 3%, and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity value at 3%. The sale cases assume the holder can sell the full stake within eight years, receives cash at closing pro rata, and faces no preference or escrow deductions beyond the stated adjustments.
+
+| Scenario | Enterprise-to-equity bridge | Gross cash to holder |
+|-----------|-----------------------------|----------------------|
+| Modest sale | $40M enterprise value less $5M in assumed net debt and deal adjustments leaves $35M | $1.05M (2.1×) |
+| Strong sale | $100M enterprise value less the same $5M leaves $95M | $2.85M (5.7×). Selling only 80% of the stake yields $2.28M (4.56×). |
+| Prolonged private | Available cash is reinvested, with no eligible share sale or payout within eight years | $0 |
+
+The sale prices are illustrative. The memo gives no acquisition pricing or quantified buyer economics that support either price. It also leaves IP transfer rights, the holder’s sale eligibility, and any independent liquidity route unverified. (Defensibility, Market & Traction, Key Facts)
 
 ### Countercase
 
-The strongest countercase is that a sandbox provider can capture enough of the benefit through open MCP interfaces or Tilo’s public code to avoid buying the company. Customers with legacy workflows may also keep their existing desktops as Windows adds agent features or use Minicor’s API access. Tilo’s shared history and undo make its implementation harder to replicate across apps, but the alpha product and failed benchmark comparison leave the buyer’s economic benefit unproven. The memo shows credible substitutes, with no established structural blocker, supported sale price below the hurdle, or documented prolonged-private outcome that triggers the Pass gate. (Defensibility, Market & Traction, Key Risks)
+A sandbox provider could add typed MCP integrations to its existing environment and buy only if Tilo’s shared state and undo prove materially harder to reproduce. Third-party app coverage may require substantial integration work, and Tilo’s alpha backup guidance raises the bar for production use. That makes a modest sale or continued private operation plausible. The memo establishes neither a ready substitute for the full workflow nor a price ceiling that would keep proceeds below the hurdle, so the Pass gate is untriggered. (The Idea, Defensibility, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 15/30 |
+| Counterparty rationale or source of cash | 16/30 |
 | Plausible investor proceeds | 8/30 |
 | Milestones and capital needed | 10/20 |
 | Transaction feasibility | 5/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 40/100** (Pass)
+**Total Score: 41/100** (Pass)
 
 ### Decisive diligence question
 
-Can a sandbox provider’s funded production pilot show that owning Tilo is worth enough to clear the holder’s $2.5 million cash target? Repeatable results on customer multi-app workflows against a working baseline, paired with a buyer-side estimate of the value of ownership over building or partnering, would answer it. Evidence supporting a sale range that clears the hurdle under credible dilution and transaction terms would move the action to Reach out.
+What acquisition price could a sandbox provider justify after testing Tilo on its own production workflows? Move from Watch to Reach out if a provider’s build-versus-buy analysis uses repeatable savings on completed workflows to support roughly $88.3 million or more in enterprise value under the baseline closing assumptions.

@@ -5,13 +5,15 @@
 
 ### Company case
 
-**Path B — New Economies.** Spacesheep could make routine team review economical for agent-generated dashboards, mockups, and other outputs that teams currently leave unshared. The former workflow requires someone to extract work from chats or local files, reformat it, share it, and coordinate revisions. Spacesheep says agents can publish directly to a shared link where teammates comment on specific elements and request revisions. Its launch examples show the kinds of outputs it can host. The market-opening hypothesis is that direct publishing saves enough labor per approved artifact for teams to review work they previously skipped. That requires a comparison that includes reviewer time, retries, access setup, and exceptions. (*The Idea*, *Market & Traction*, *Key Risks*)
+Spacesheep’s strongest path is **New Economies** through cross-agent publishing and review. Teams currently spend staff time reading agent output, reformatting it, sharing files, and coordinating revisions. Spacesheep says Claude Code, Codex, and Cursor can publish to a shared page where colleagues comment and request revisions. The company shows a lab dashboard and a live thermal-camera stream as examples. These illustrate what the product can publish. The cost per successfully reviewed artifact and whether either use was previously uneconomic remain unknown. (*The Idea*, *Market & Traction*)
 
-Under the scenario that frontier-quality models are cheap and widely available, a team might still pay for one searchable review history across agents. That preference remains untested. The memo records 28 Chrome and three Firefox extension users, with paid or repeat use undisclosed. At the listed Team price of $10 per member per month, a paid team is a plausible expansion unit if seat revenue covers hosting, revision inference, and support as review volume grows. The memo provides no realized cost or utilization figures. The public launch and Makarov’s prior delivery of the first Claude Code Artifacts support the team’s ability to run a seed-stage trial. (*Defensibility*, *Market & Traction*, *Key Facts*, *The Idea*, *Founders & Team*)
+The market-opening scenario is that mixed-agent teams begin routinely sharing work they previously kept local because preparing it for review took too much time. That would require the cost per reviewed artifact, including staff time, rework, and the $10 per member monthly Team fee, to fall enough to make those reviews worthwhile. The memo documents a public launch and 28 Chrome extension users, with repeat team use and realized revenue undisclosed. Self-serve signup and per-seat pricing give Spacesheep a way to expand within teams. Hosting, model usage, and support costs per active seat remain unknown. (*The Idea*, *Market & Traction*, *Key Facts*)
+
+Makarov’s prior work building Claude Code Artifacts and the team’s launch support its ability to ship in this category. The next execution milestone is a paid team deployment that measures review costs and repeat use. (*Founders & Team*, *Market & Traction*)
 
 ### Countercase
 
-Spacesheep may save time on reviews teams already do while remaining easy to bypass. Claude Artifacts and ChatGPT Sites let teams publish inside their existing agent tools, Type.com already connects Claude and Codex to a shared workspace, and Spacesheep’s exports could lower switching costs. These alternatives make substitution credible. The memo has no head-to-head buyer evidence showing whether they match Spacesheep for recurring cross-agent reviews, so the model-parity gate remains open. (*Defensibility*, *Key Risks*)
+Claude Artifacts and ChatGPT Sites already handle publishing within their own products, and Type.com already connects Claude and Codex to a shared workspace. A searchable review history could make Spacesheep more valuable over time, while Drive and GitHub exports reduce migration costs. Claude Code’s web connector restrictions also add setup friction to the cross-agent workflow. These facts make substitution credible. The decision gate remains open because the memo provides no direct evidence that mixed-agent teams switch readily when alternatives offer comparable functionality. The memo identifies no independently supported scarce complement. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -20,11 +22,11 @@ Spacesheep may save time on reviews teams already do while remaining easy to byp
 | Path-specific thesis fit | 10/25 |
 | Durable value capture | 7/25 |
 | Customer demand | 6/20 |
-| Team and execution | 9/15 |
-| Scale economics | 5/15 |
+| Team and execution | 10/15 |
+| Scale economics | 4/15 |
 
 **Total Score: 37/100** (Pass)
 
 ### Decisive diligence question
 
-Will an independent team using multiple agents pay for a second review cycle at the listed Team price after trying a comparable alternative with equivalent models? Reach out if the trial shows that lower full cost per approved artifact enabled recurring reviews the team previously skipped and that the team renewed for Spacesheep’s cross-agent review workflow. Pass if the trial shows that review frequency stays the same or that the team readily switches while preserving the outcome.
+Will independent mixed-agent teams repeatedly pay for Spacesheep to review artifacts they previously left local, even when comparable publishing options are available? A paid pilot that measures staff time and total cost per successfully reviewed artifact against the prior workflow, then shows teams renewing after trying comparable alternatives, would move the action to **Reach out**. If those teams readily switch to comparable alternatives, move to **Pass**.

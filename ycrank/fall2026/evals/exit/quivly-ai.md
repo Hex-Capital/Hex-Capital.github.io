@@ -5,34 +5,34 @@
 
 ### Company case
 
-Strategic acquisition is Quivly’s strongest path. A customer-success platform could buy Quivly’s onboarding workflows to add kickoff-to-launch automation for usage-priced software vendors. Mycroft uses Quivly to track implementation milestones and billable hours and reports that each field engineer could manage 3–4× as many accounts. Separately, Quivly reports a reduction in time to go live from 30 to 7 days and 4.3× average revenue expansion. These outcomes suggest customer value. The acquisition case depends on whether an incumbent could win or retain enough business by owning the workflow to justify the price over building or licensing it. The memo leaves that buyer benefit unquantified. (The Idea; Defensibility; Market & Traction)
+The strongest path is a strategic acquisition by a customer-success platform such as ChurnZero. Quivly turns kickoff conversations into assigned launch plans and combines usage, support, and external signals to flag expansion opportunities. The memo documents Mycroft using Quivly to track implementation milestones and billable hours. Mycroft reports that its field engineers handled 3–4× more accounts, and Octolane reports onboarding more than 100 customers without a dedicated customer engineering hire. These testimonials suggest that acquiring Quivly could help an incumbent add implementation automation faster than building it internally. The memo contains no buyer-side evidence that an incumbent would pay for that advantage. (*The Idea*, *Defensibility*, *Market & Traction*)
 
-A proposed milestone is three paid production deployments that measure implementation time or engineer capacity against the customer’s incumbent workflow. Octolane’s testimonial that it onboarded more than 100 customers without a dedicated customer engineering hire, together with Quivly’s paid enterprise pilot offering, makes that test plausible at this stage. Pilot conversion, realized revenue, burn, and the capital needed to reach the milestone remain unknown. Closing would also require diligence on IP assignment, customer and connector rights, and any required consents. The memo documents connector dependency and customer data opt-outs, while leaving their treatment in a sale unverified. (The Idea; Market & Traction; Key Facts; Key Risks)
+Quivly lists $500 and $1,000 monthly plans and offers a paid Enterprise pilot. The company reports growth from 10,000+ to 18,000+ downstream accounts managed. Paid pilots give Quivly a way to test whether the onboarding gains repeat across customers and convert into annual contracts. Realized revenue, pilot conversion, and available runway are unknown. An acquisition could include the software and customer contracts, subject to assignment and continued connector access. The documented terms allow customers to opt out of de-identified data use for model improvement, so the value of any data included in a deal remains uncertain. (*The Idea*, *Market & Traction*, *Key Facts*, *Key Risks*)
 
-**Illustrative proceeds.** A $500,000 check at a $10 million post-money valuation starts at 5% ownership. With 40% relative dilution and no follow-ons, the holder owns 3%. A 5× gross cash return within eight years requires $2.5 million, or $83.3 million of distributable equity at 3% ownership. The hurdle rises to $125 million at 2% and falls to $62.5 million at 4%. The sale scenarios assume $5 million of net debt, simple pro rata distribution before investor taxes, and no fees or senior claims beyond that debt. Quivly’s actual terms and a realizable sale range remain unverified. (Key Facts)
+**Proceeds bridge.** The benchmark assumes a $500,000 check at a $10 million post-money valuation, with 5% initial ownership diluted to 3% and no follow-ons. A 5× gross cash return within eight years requires $2.5 million to the holder, or about $83.3 million in distributable equity at 3%. Both sale scenarios below are illustrative. They assume $5 million in combined net debt and deal deductions, an eligible holder selling their entire stake, no preference leakage, and all cash paid at closing within eight years. The memo’s pricing supplies a basis for testing monetization. It supplies no realized revenue or buyer valuation to substantiate either sale price. (*The Idea*, *Key Facts*)
 
-- **Modest sale.** At $25 million enterprise value, $20 million of distributable equity returns $600,000 gross, or 1.2×.
-- **Strong sale.** At $100 million enterprise value, $95 million of distributable equity returns $2.85 million gross, or 5.7×. At 3%, the target clears at about $88.3 million of enterprise value under these assumptions.
-- **Prolonged private operation.** If growth plateaus, buyer interest fails to emerge, public scale stays out of reach, and available cash is reinvested, the holder realizes $0 over eight years and retains the shares. A wind-down recovery is indeterminate without balances, obligations, and preferences.
-
-The memo leaves cash generation for a sponsor buyout or company-funded payout, demand for an eligible secondary, and operating scale for a public listing unevidenced. Vista’s majority investment in Gainsight establishes a transaction in the category, with no basis in the memo for pricing or financing a Quivly buyout. (Market & Traction; Key Facts)
+| Scenario | Proceeds to the holder |
+|---|---|
+| Modest sale | $30 million enterprise value less $5 million in deductions leaves $25 million in equity. The holder receives $750,000, or 1.5×. |
+| Strong sale | $100 million enterprise value less $5 million in deductions leaves $95 million in equity. The holder receives $2.85 million, or 5.7×. At 2% ownership, that falls to $1.9 million, or 3.8×. |
+| Prolonged private | If Quivly reinvests its cash and no eligible share sale occurs, the holder realizes $0 within eight years. |
 
 ### Countercase
 
-Incumbents already have much of the account data and workflow access needed to build overlapping automation. ChurnZero runs agents inside existing Plays, Gainsight offers managed renewals, and Vitally can write tasks and notes from its workspace. These shipped capabilities are more direct evidence of a buyer’s build alternative than Quivly’s reported customer gains are of a buyer’s willingness to pay. The overlap weakens the case for a price that clears the holder’s hurdle. The Pass gate remains open because the memo establishes neither a structural barrier to a sale nor a supported price range that leaves the holder materially short. (Defensibility; Market & Traction; Key Risks)
+ChurnZero already runs agents inside configurable Plays, Vitally can write tasks and notes from account data it already holds, and Gainsight offers managed renewals. An incumbent could extend those products and narrow Quivly’s advantage enough that an acquisition makes sense only below the holder’s hurdle. The memo supports that substitution risk but establishes neither a ready substitute for Quivly’s full onboarding workflow nor a price ceiling. The Pass gate therefore does not trigger. (*Defensibility*, *Market & Traction*, *Key Risks*)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 14/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 10/20 |
-| Transaction feasibility | 5/10 |
+| Counterparty rationale or source of cash | 17/30 |
+| Plausible investor proceeds | 9/30 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 39/100** (Pass)
+**Total Score: 46/100** (Neutral)
 
 ### Decisive diligence question
 
-Can paid production deployments show enough incremental value over an incumbent’s native workflow to support an acquisition near or above the holder’s proceeds hurdle? Move to Reach out if repeatable customer results and a credible buyer-side build-versus-buy analysis support that price after dilution and senior claims. Otherwise, keep Watch unless evidence establishes a structural blocker or a supported price range that leaves the holder materially short.
+Would a customer-success platform’s build-versus-buy analysis support an acquisition above roughly $88.3 million in enterprise value under the modeled deductions? Buyer-side evidence that repeatable onboarding gains and the cost of replicating them support that price would move the action to Reach out.

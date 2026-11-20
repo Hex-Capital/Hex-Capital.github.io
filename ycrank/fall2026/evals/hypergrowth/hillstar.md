@@ -5,26 +5,26 @@
 
 ### Company case
 
-Repeatable direct sales is HillStar’s strongest path. Utility procurement teams repeatedly need to compare technical proposals, normalize prices, and check mandatory requirements before shortlisting. HillStar offers evaluations on a prospect’s own bid documents and can start without an ERP integration. If local procurement rules can be handled through buyer-configured criteria and existing access controls, the same workflow could serve utilities in other markets. The memo leaves that assumption untested. (The Idea, Key Risks)
+Conditional on strong product-market fit, HillStar’s strongest path is standalone bid evaluation for utilities. The software can normalize pricing, check bids against buyer criteria, and link findings to source passages for committee review without an initial ERP integration. The recurring job plausibly transfers across markets if buyers can configure local requirements in the same product. HillStar says it retains evaluator judgments, exceptions, and award rationale for later solicitations, giving buyers a reason to reuse it. Renewal pricing and paid account expansion remain unknown. (The Idea, Key Risks, Defensibility)
 
-HillStar reports that a municipal utility caught a missing signed price certification in the lowest of 14 bids before shortlisting. That is a concrete first-use benefit in a live procurement workflow. The memo identifies executive introductions and live demos as the sales motion, but does not trace a buyer through that motion to a paid rollout. HillStar records scoring judgments and exceptions that could carry over to the next solicitation. The memo gives no account of a buyer returning for one. (The Idea, Market & Traction, Defensibility, Key Facts)
+HillStar reports several deployments, including an engineering-services RFP where it evaluated 22 bids across roughly 19,800 pages in nine minutes. These reports show use and suggest that automated document review could lower delivery costs. The memo leaves paid status and commercial growth unknown. Contribution on the next solicitation would depend on fees collected after buyer setup, specialist review, document processing, and support. Pricing and end-to-end delivery effort are unspecified, leaving contribution unverified. (Market & Traction, Key Facts, The Idea)
 
 ### Countercase
 
-HillStar pairs software with procurement specialists. If each solicitation requires custom scoring setup and specialist review, delivery effort could grow in proportion to volume even when software analysis is fast. HillStar reports evaluating 22 engineering-services bids in nine minutes. The memo provides no total rollout hours, specialist costs, or pricing to assess contribution. The structural downside gate does not apply because proportional delivery costs remain a hypothesis. The missing paid handoff is the first unresolved link and supports Watch. (The Idea, Market & Traction, Key Facts)
+HillStar could scale as a specialist-led procurement service. Its documented sales motion relies on executive introductions and live evaluations using prospects’ documents. Mandatory certifications and equipment-origin rules also create work that may vary by market. The structural downside gate stays open because the memo does not establish that local rules require substantial product rebuilding or that specialist effort makes incremental growth uneconomic. Those uncertainties, along with the lack of paid growth evidence, keep confidence Low. (The Idea, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Global buyer demand | 16/25 |
-| Repeatable acquisition and onboarding | 9/25 |
-| Retention and customer expansion | 7/20 |
-| Contribution as volume grows | 7/20 |
-| Evidence of fit in the first buyer segment | 7/10 |
+| Global buyer demand | 12/25 |
+| Repeatable acquisition and onboarding | 7/25 |
+| Retention economics | 10/20 |
+| Initial traction | 7/20 |
+| Cost economics | 4/10 |
 
-**Total Score: 46/100** (Neutral)
+**Total Score: 40/100** (Pass)
 
 ### Decisive diligence question
 
-Can an independent utility introduced through HillStar’s outreach move from a live-document demo to a paid solicitation using a standard setup that someone other than a founder can run? A documented rollout that records specialist hours and shows the fee covers incremental onboarding and delivery costs would move HillStar to Reach out.
+Can HillStar replicate a paid utility rollout in a second market using the same product? Buyer records would need to show that utilities in both markets can purchase, configure local criteria, and complete an evaluation with limited specialist help, then pay for subsequent solicitations at positive incremental contribution. That result would support Reach out if a fresh evaluation reaches 65 with at least Medium confidence. Evidence that each market requires substantial bespoke rebuilding would change the action to Pass.

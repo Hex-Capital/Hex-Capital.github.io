@@ -5,30 +5,28 @@
 
 ### Company case
 
-**Strategic acquisition** is the strongest path. A clinical research software vendor such as PatientIQ could buy Sutrix to add a workflow that combines patient-reported outcomes with EHR and other data, applies study-specific rules, and preserves an audit trail. Ownership could let the buyer bundle that workflow across customers and control its development. The advantage over licensing depends on whether Sutrix can reuse its integrations, study rules, and review workflows across institutions. PatientIQ illustrates the buyer rationale. Its willingness to pay remains unknown. (The Idea, Defensibility, Market & Traction)
+The strongest path is a strategic sale to a clinical research software platform. Sutrix’s protocol-specific cohort building and field-level provenance could give a buyer a way to extend chart abstraction into study-ready dataset delivery. BlueRock Therapeutics reported less manual reconciliation with review steps visible to experts, and Sutrix reports an 80% reduction in preparation time. Those signals support workflow value. The value of owning that workflow is an inference, and the memo supplies no buyer pricing evidence. (The Idea, Defensibility, Market & Traction)
 
-BlueRock Therapeutics reported less manual reconciliation, and Emory’s Winship Cancer Institute reported faster preparation of interpretable results. Sutrix separately claims an 80% reduction in preparation time, paying teams at 10+ institutions, and $150K+ in revenue before the software release. The testimonials support workflow value. The company’s figures establish an early commercial signal, with recurring software revenue and delivery margins still unknown. A seed-stage milestone would be three paid production deployments that renew, show measured reductions in preparation hours at investigator-verified accuracy, and report the integration and review cost per deployment. Existing engagements make the test plausible. The capital needed to reach it remains unclear. (Market & Traction, Key Facts, Key Risks)
+Sutrix reports $150K+ in revenue before its software release and paying teams at 10+ institutions. The milestone is to turn those engagements into recurring production deployments at multiple institutions, with approved EHR access, renewals, and measured onboarding labor. Paid use supports testing this over a renewal cycle. Recurring software revenue, runway, and the capital needed to scale remain unclear. Sutrix’s institution-cloud option could help preserve deployment continuity in a sale, while contract assignment and change-of-control permissions remain unverified. (Key Facts, Market & Traction, Key Risks)
 
-**Proceeds bridge.** Assume a $500,000 check at a $10 million post-money valuation, 5% initial ownership diluted by 40% to 3%, and no follow-ons. The eight-year 5× target is $2.5 million in gross cash. At 3%, a full cash sale requires about $83.3 million of distributable equity, or $88.3 million of enterprise value with $5 million of illustrative net debt. At 2% and 4% ownership, the equity hurdles are $125 million and $62.5 million, respectively. With the same assumed debt, a $25 million sale yields $600,000 (1.2×), and a $100 million sale yields $2.85 million (5.7×), pro rata before investor taxes. Actual ownership, debt, fees, and senior claims are unknown. These scenarios establish the hurdle. A realizable sale price remains unevidenced.
-
-If growth plateaus, buyers stay away, public scale remains out of reach, and Sutrix reinvests available cash for eight years, the holder realizes $0 and retains the shares. The memo leaves sponsor-financeable cash flow, eligible secondary demand, IPO readiness, and distributable cash unevidenced. In a wind-down, holder cash would depend on the residual after obligations and preferences, which the memo leaves unquantified. (Market & Traction, Key Facts, Key Risks)
+Using the shared benchmark, a $500K check at $10M post-money buys 5%, diluted to 3% with no follow-ons. The holder needs $2.5M in cash within eight years, or about $83.3M in distributable equity value at full participation. Assume $5M in combined net debt and deal costs, no senior claims on the remaining equity proceeds, and an eligible holder selling the entire stake for cash within eight years. A **modest** $40M enterprise-value sale yields $35M in distributable equity and $1.05M to the holder, or 2.1×. A **strong** $100M sale yields $95M and $2.85M to the holder, or 5.7×. Under those assumptions, the enterprise-value hurdle is about $88.3M. The sale prices are illustrative. In the **prolonged-private** case, reinvestment yields zero realized cash within eight years. The memo gives no evidence of an eligible secondary or funded payout. (Key Facts, Key Risks)
 
 ### Countercase
 
-A buyer could license Sutrix or extend existing chart-abstraction tools if each institution still requires bespoke integration and expert review. Sutrix describes direct FHIR connectivity for sandboxes, while production access may depend on approved endpoints or file exports. Assignment rights for customer agreements and continued data access after a sale are also unverified. The evidence supports Watch. A structural transfer block or a supported price that leaves the holder materially short would trigger Pass. (The Idea, Defensibility, Key Risks)
+The pre-release revenue could reflect bespoke study work that takes substantial labor to deliver. Dyania and Layer already automate parts of EHR abstraction, so a platform could extend its own tooling and pay little for Sutrix’s workflows. Production access through approved endpoints or file exports could also limit repeatability across institutions. These risks justify Watch. The memo establishes neither a structural closing barrier nor a credible sale-price ceiling below the holder’s hurdle, so the Pass gate is open. (Defensibility, Market & Traction, Key Risks)
 
 ### Dimension Scores
 
 | Criterion | Score |
 |-----------|-------|
-| Counterparty rationale or source of cash | 18/30 |
-| Plausible investor proceeds | 8/30 |
-| Milestones and capital needed | 11/20 |
-| Transaction feasibility | 5/10 |
+| Counterparty rationale or source of cash | 19/30 |
+| Plausible investor proceeds | 9/30 |
+| Milestones and capital needed | 12/20 |
+| Transaction feasibility | 6/10 |
 | Independent alternatives | 2/10 |
 
-**Total Score: 44/100** (Pass)
+**Total Score: 48/100** (Neutral)
 
 ### Decisive diligence question
 
-Would a research software buyer’s build-versus-buy analysis support a cash acquisition at roughly $88.3 million in enterprise value under the modeled terms once Sutrix demonstrates three paid production renewals? Buyer-side underwriting that values transferable deployments using measured labor savings, delivery costs, and expected revenue across the buyer’s customers would move the action to Reach out if it supports that price within eight years.
+Could a clinical research platform justify paying about $88M or more in enterprise value once Sutrix demonstrates repeatable, renewing production deployments? A buyer-side build-versus-buy assessment that quantifies incremental revenue and delivery savings from those deployments could support Reach out if the resulting price range clears the holder’s hurdle after deal adjustments. If the strongest credible buyer case leaves the holder materially below the target, change the action to Pass.

@@ -1,17 +1,17 @@
 ﻿# Polemos Industries -- AGI Evaluation
 
-**Action:** Pass  
+**Action:** Watch  
 **Evidence confidence:** Low
 
 ### Company case
 
-Path A, scarce complements, is the closest fit. Polemos claims that cost and limited availability constrain purchases of precision-strike systems and that volume production would lower unit costs. The memo identifies no evidence that broader AI adoption increases demand for the capacity Polemos proposes to supply or changes the economics of adding that capacity. It also leaves control of qualified capacity and unit economics unresolved. [The Idea; Defensibility; Key Risks]
+Scarce complements is the strongest candidate path. Polemos claims that cost and limited availability constrain buyers’ use of precision-strike systems and says it aims to lower unit costs through volume production. The thesis would fit if AI adoption increased demand for qualified supply and Polemos controlled capacity that buyers struggled to replace. Both conditions remain unverified. The proposed cost reduction comes from production volume, and the memo supplies no evidence of lower labor per successful outcome or a previously excluded buyer or use. (*The Idea*, *Defensibility*)
 
-The memo records a public launch and audience attention. Independent buyer commitments remain unverified. The founder reports relevant defense engineering experience, while the company lists testing as a next step. The seed-stage case therefore rests mainly on company claims and indirect signals. [Market & Traction; Founders & Team; Key Risks]
+The memo records a public launch and substantial online attention. Buyer commitments remain unverified. The founder reports prior defense engineering work, and the public launch shows early operating progress. Testing is still listed as a next step, and the memo provides no unit-cost data or evidence that production economics improve with volume. (*Market & Traction*, *Founders & Team*, *Key Risks*, *The Idea*)
 
 ### Countercase
 
-If the reported shortage persists as rivals add supply, a focused producer that controls qualified capacity could capture value. The company’s account of limited availability makes that scenario plausible. The AI link and Polemos’s control of capacity remain assumptions. The Pass reflects a missing AGI investment case. The memo leaves open whether credible substitutes could close the path. [The Idea; Defensibility; Key Risks]
+Polemos could enter an existing procurement market where buyers have interchangeable suppliers, even if it reaches its unit-cost goal. The memo identifies no current structural barrier or award history and reports no independently verified test results. Substitution remains a credible risk, and the memo contains no direct evidence that buyers can readily switch. The scarce-complement path stays open on Watch. (*Defensibility*, *Key Risks*)
 
 ### Dimension Scores
 
@@ -27,4 +27,4 @@ If the reported shortage persists as rivals add supply, a focused producer that 
 
 ### Decisive diligence question
 
-Does wider AI adoption create persistent unmet demand for the production capacity Polemos aims to supply? Independent buyer evidence tying unmet demand to AI adoption and showing that available alternatives leave the constraint unresolved would move the action to Watch. [The Idea; Key Risks]
+Will an independent target buyer make a paid commitment for capacity Polemos demonstrably controls because AI adoption has made qualified supply harder to secure? A documented commitment that establishes both the buyer’s constraint and Polemos’s control would move the action to Reach out. Evidence that buyers can readily source equivalent capacity elsewhere would close this path and move the action to Pass.
